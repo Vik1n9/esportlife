@@ -144,7 +144,7 @@ export const AMATEUR_CUPS = [
   '排位路人王擂台',
 ];
 
-export const MATE_NAMES = ['幻影', '蒼狼', '飛隼', '剃刀', '颶風', '岩壁', '霜星', '疾風', '雷鳴', '夜梟', '赤鴉', '銀牙'];
+export const MATE_NAMES = ['Maple', 'Betty', 'Hanabi', 'Kaiwing', 'River', 'Doggo', 'Unified', 'Ziv', 'Westdoor', 'Mountain', 'Rest', 'Kongyue'];
 
 /** 教練風格與其提供的隊伍強度加成（單位：OVR 點） */
 export const COACHES = {

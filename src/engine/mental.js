@@ -2,7 +2,7 @@
  * 心理值的讀寫與衍生效果。
  *
  * 設計原則：能力值決定「你打得多好」，心理值決定「你在什麼場合打得出來、
- * 隊友願不願意跟你打、球團願不願意留你」。兩條軸不互相加減，只在結算時交會。
+ * 隊友願不願意跟你打、戰隊願不願意留你」。兩條軸不互相加減，只在結算時交會。
  */
 import { clamp } from '../core/rng.js';
 import { MENTAL_KEYS, MENTAL_NAMES, MENTAL_RANGE, mentalTier } from '../data/mental.js';

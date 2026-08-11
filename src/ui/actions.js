@@ -1,6 +1,6 @@
 /** 底部行動列：選項按鈕與訓練點分配介面。 */
 import { ABILITY_NAMES, ABILITY_CAP } from '../data/abilities.js';
-import { abilityCap, abilityKeys, investAbility, nextStepCost } from '../engine/abilities.js';
+import { abilityCap, abilityKeys, growthThreshold, investAbility, needForNextGain } from '../engine/abilities.js';
 import { byId, clear, el, scrollToBottom } from './dom.js';
 
 function actRoot() { return byId('act'); }
@@ -20,7 +20,7 @@ export function askChoice({ title, options }) {
 
     for (const opt of options) {
       const btn = el('button', {
-        class: `btn${opt.main ? ' main' : ''}${opt.warn ? ' warn' : ''}`,
+        class: 'btn',
         onclick: () => { clear(act); resolve(opt.id); },
       });
       btn.appendChild(el('span', { text: opt.label }));
@@ -117,7 +117,15 @@ export function askAllocation(state, spec, onChange) {
         const potential = state.potential[key] ?? 62;
         const maxed = value >= cap;
         const carry = state.carry[key] || 0;
-        const cost = nextStepCost(state, key);
+        const thr = growthThreshold(state, key);
+        const need = needForNextGain(state, key);
+
+        const costLine = maxed ? '滿'
+          : `↑${thr.cost}${thr.over ? '（×3）' : ''}${carry ? ` ·蓄${carry}` : ''}`;
+        const needLine = maxed ? ''
+          : (need > 0 ? `再 ${need} 點可升` : '蓄力已足，可直接升');
+        const thrLine = maxed ? ''
+          : (thr.nextAt != null ? `門檻 ${thr.nextAt} 後 ↑${thr.nextCost}` : '已達最高成長門檻');
 
         const row = el('div', { class: `abrow${maxed ? ' capped' : ''}` });
         row.innerHTML = `
@@ -127,7 +135,9 @@ export function askAllocation(state, spec, onChange) {
           </div>
           <div class="val">
             <b>${value}</b>
-            <span class="cost">${maxed ? '滿' : `↑${cost}${carry ? ` ·蓄${carry}` : ''}`}</span>
+            <span class="cost">${costLine}</span>
+            <span class="need">${needLine}</span>
+            <span class="thr">${thrLine}</span>
           </div>`;
         if (flash && flash.key === key) {
           row.classList.add('flash');

@@ -21,7 +21,7 @@ export const BASE_TRAITS = {
   /* ---- 心理／性格系。全部只能靠「扮演」取得，訓練點碰不到 ---- */
   bigheart:  { name: '大心臟', desc: 'BO 決勝局勝率再 +5%' },
   trashtalk: { name: '嘴砲王', desc: '放話效果加倍——聲量與負評都是' },
-  glue:      { name: '更衣室黏著劑', desc: '隊友默契成長加倍，衝突不易惡化' },
+  glue:      { name: '休息室黏著劑', desc: '隊友默契成長加倍，衝突不易惡化' },
   lonewolf:  { name: '獨狼', desc: '個人數據提升，默契上限受限' },
   underdog:  { name: '逆風翻盤', desc: '種子序越後面，全隊發揮越強' },
   idol:      { name: '全民偶像', desc: '知名度與風評雙高，續約談判優勢' },
@@ -36,7 +36,7 @@ export const EPIC_TRAITS = {
   prophet:        { name: '版本先知', desc: '版本落差懲罰歸零' },
   nationalace:    { name: '國家隊王牌', desc: '單殺 ×1.25；國際賽保底；免疫國際賽消耗' },
   indestructible: { name: '金剛不壞', desc: '免疫受傷、復原加速' },
-  lockerroom:     { name: '更衣室傳奇', desc: '隊友 +6；續約年薪係數保底 1.15' },
+  lockerroom:     { name: '休息室傳奇', desc: '隊友 +6；續約年薪係數保底 1.15' },
   ascetic:        { name: '苦行僧', desc: '每訓練週期 +1 顆骰；免疫享樂負面' },
   miracle:        { name: '奇蹟劇本', desc: '低種子加成大幅提升；決勝局不會崩' },
   showman:        { name: '話題製造機', desc: '知名度只漲不跌；風評下限保護' },

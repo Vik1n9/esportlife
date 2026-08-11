@@ -440,7 +440,7 @@ console.log('▸ 17. 下剋上劇本走得通，但不是常態');
   check('心理素質不夠就沒有下剋上', underdogBonus(weak, 4) === 0, underdogBonus(weak, 4));
 }
 
-console.log('▸ 18. 更衣室與輿論會有後果，但有冷卻不會變常態');
+console.log('▸ 18. 休息室與輿論會有後果，但有冷卻不會變常態');
 {
   const { clubVerdict } = await import('../src/engine/market.js');
   const rng = new Rng('verdict');
