@@ -1,0 +1,9 @@
+# 編輯器 / 代理工具的本機狀態
+.reasonix/
+.claude/settings.local.json
+
+# 作業系統
+.DS_Store
+
+# 本專案零建置，理論上不會有 node_modules；留著以防日後加測試相依
+node_modules/

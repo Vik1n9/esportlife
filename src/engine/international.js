@@ -1,0 +1,116 @@
+/** MSI 與世界賽。 */
+import { LEAGUES, eraOf } from '../data/world.js';
+import { clamp } from '../core/rng.js';
+import { effectiveOvr } from './abilities.js';
+
+const MSI_CALLUP_OVR = 52;
+
+/** 是否符合本季被徵召 MSI 的條件 */
+export function msiEligible(state) {
+  const era = eraOf(state.year);
+  return state.stage === 'PRO'
+    && era.msi
+    && state.seasonFactor >= 0.5
+    && !state.skipSeason
+    && effectiveOvr(state) >= MSI_CALLUP_OVR;
+}
+
+/**
+ * 列管徵召：三年內打過 MSI 就不能再婉拒。
+ * 舊版把 `intlLock` 設成「第一次被叫的年份」且永不更新，導致第 4 年之後永遠可以拒絕。
+ */
+export function msiForced(state) {
+  return state.lastIntlYear != null && state.year - state.lastIntlYear <= 3;
+}
+
+const MSI_RESULTS = [
+  { rank: 'MSI 冠軍', points: 6 },
+  { rank: 'MSI 亞軍', points: 4 },
+  { rank: 'MSI 四強', points: 3 },
+  { rank: 'MSI 小組止步', points: 1 },
+];
+
+export function runMsi(state, rng) {
+  const delta = effectiveOvr(state) - MSI_CALLUP_OVR;
+  const roll = rng.next() * 100
+    + (delta >= 8 ? 12 : delta >= 3 ? 6 : 0)
+    + (state.traits.clutch ? 10 : 0)
+    + (state.epic.ultstage ? 8 : 0);
+
+  const index = roll >= 90 ? 0 : roll >= 78 ? 1 : roll >= 60 ? 2 : 3;
+  const result = MSI_RESULTS[index];
+
+  let points = result.points;
+  if (state.epic.nationalace || state.traits.intlghost) points = Math.max(points, 3);
+
+  state.pendingPoints += points;
+  state.intlAppearances += 1;
+  state.lastIntlYear = state.year;
+  state.carryInjuryRisk = state.epic.nationalace ? 0 : 10;
+
+  if (index === 0) { state.msiWins += 1; state.msiPodiums += 1; }
+  else if (index <= 2) state.msiPodiums += 1;
+
+  state.honors.push(`${state.year} ${result.rank}`);
+  return { ...result, points, index };
+}
+
+/** 世界賽出線機率 */
+export function worldsQualifyChance(state) {
+  const league = LEAGUES[state.league];
+  if (!league) return 0;
+  const delta = state.lastDelta || 0;
+  if (league.region === 'HOME') return clamp(30 + delta * 6 + (state.wonPlayoffThisYear ? 25 : 0), 5, 75);
+  return clamp((state.wonPlayoffThisYear ? 70 : 18) + delta * 4, 4, 88);
+}
+
+export function worldsEligible(state) {
+  return state.stage === 'PRO'
+    && LEAGUES[state.league]?.tier >= 2
+    && state.seasonFactor >= 0.5
+    && !state.skipSeason;
+}
+
+/**
+ * 世界賽賽制依時代切換：2023 起 Swiss。
+ * @returns {{stage:string, champion:boolean, runnerUp:boolean, points:number}}
+ */
+export function runWorlds(state, rng) {
+  const era = eraOf(state.year);
+  const delta = effectiveOvr(state) - 59;
+  const bonus = (state.traits.clutch ? 10 : 0) + (state.epic.ultstage ? 8 : 0) + (state.epic.nationalace ? 6 : 0);
+  const roll = rng.next() * 100 + delta * 6 + bonus;
+
+  let stage; let advanced = false;
+  if (era.worlds === 'SWISS') {
+    if (roll < 25) stage = '入圍賽出局';
+    else if (roll < 55) stage = 'Swiss 賽段止步';
+    else if (roll < 75) stage = '八強止步';
+    else if (roll < 90) stage = '四強止步';
+    else { stage = '闖進決賽'; advanced = true; }
+  } else {
+    if (roll < 30) stage = '小組止步';
+    else if (roll < 60) stage = '八強止步';
+    else if (roll < 82) stage = '四強止步';
+    else { stage = '闖進決賽'; advanced = true; }
+  }
+
+  if (!advanced) {
+    const points = stage.includes('四強') ? 3 : stage.includes('八強') ? 2 : 1;
+    state.pendingPoints += points;
+    return { stage, champion: false, runnerUp: false, points };
+  }
+
+  const finalRoll = rng.next() * 100 + delta * 4 + bonus;
+  if (finalRoll >= 55) {
+    state.worldsWins += 1;
+    state.wonWorldsThisYear = true;
+    state.pendingPoints += 10;
+    state.honors.push(`${state.year} 世界賽冠軍`, `${state.year} 世界賽 FMVP`);
+    return { stage: '世界賽冠軍', champion: true, runnerUp: false, points: 10 };
+  }
+  state.worldsFinals += 1;
+  state.pendingPoints += 6;
+  state.honors.push(`${state.year} 世界賽亞軍`);
+  return { stage: '世界賽亞軍', champion: false, runnerUp: true, points: 6 };
+}
