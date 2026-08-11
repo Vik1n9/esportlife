@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#010A13"/>
+      <stop offset="0.45" stop-color="#091428"/>
+      <stop offset="0.8" stop-color="#0A1428"/>
+      <stop offset="1" stop-color="#05080C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.62" r="0.55">
+      <stop offset="0" stop-color="#C8AA6E" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#C89B3C" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#C89B3C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0E6D2"/>
+      <stop offset="0.35" stop-color="#C8AA6E"/>
+      <stop offset="0.7" stop-color="#C89B3C"/>
+      <stop offset="1" stop-color="#785A28"/>
+    </linearGradient>
+    <pattern id="hexes" width="90" height="156" patternUnits="userSpaceOnUse" patternTransform="rotate(0)">
+      <path d="M45 0 L90 26 L90 78 L45 104 L0 78 L0 26 Z" fill="none" stroke="#C89B3C" stroke-opacity="0.05" stroke-width="1.5"/>
+      <path d="M45 156 L90 130 L90 78 L45 104 L0 78 L0 130 Z" fill="none" stroke="#C89B3C" stroke-opacity="0.04" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="hexes2" width="90" height="156" patternUnits="userSpaceOnUse">
+      <path d="M45 0 L90 26 L90 78 L45 104 L0 78 L0 26 Z" fill="none" stroke="#0AC8B9" stroke-opacity="0.04" stroke-width="1.5"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="glowf" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A1428" stop-opacity="0"/>
+      <stop offset="1" stop-color="#010A13" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#hexes)"/>
+  <rect width="1600" height="1000" fill="url(#hexes2)" transform="translate(45,78)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+
+  <!-- 地圖路線（斜向包夾到中央水晶） -->
+  <g stroke="#0AC8B9" stroke-opacity="0.10" stroke-width="2" fill="none">
+    <path d="M-100 900 L620 470"/>
+    <path d="M1700 900 L980 470"/>
+    <path d="M520 -100 L620 470"/>
+    <path d="M1080 -100 L980 470"/>
+    <path d="M-100 300 L620 470"/>
+    <path d="M1700 300 L980 470"/>
+  </g>
+  <g stroke="#C89B3C" stroke-opacity="0.08" stroke-width="1.5" fill="none">
+    <path d="M-100 700 L620 470"/>
+    <path d="M1700 700 L980 470"/>
+    <path d="M200 -100 L620 470"/>
+    <path d="M1400 -100 L980 470"/>
+  </g>
+
+  <!-- 中央水晶（召喚水晶） -->
+  <g transform="translate(800,470)">
+    <polygon points="0,-150 130,-75 130,0 0,190 -130,0 -130,-75" fill="#C89B3C" opacity="0.16" filter="url(#glowf)"/>
+    <polygon points="0,-120 104,-52 104,8 0,150 -104,8 -104,-52" fill="url(#crystal)" opacity="0.9"/>
+    <polygon points="0,-120 104,-52 104,8 0,150 -104,8 -104,-52" fill="none" stroke="#F0E6D2" stroke-opacity="0.7" stroke-width="2"/>
+    <polygon points="0,-60 52,-20 52,20 0,60 -52,20 -52,-20" fill="#FFF8E7" opacity="0.95"/>
+    <polygon points="0,-60 52,-20 52,20 0,60 -52,20 -52,-20" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="0" cy="0" r="26" fill="#FFFFFF" opacity="0.9" filter="url(#soft)"/>
+    <circle cx="0" cy="0" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- 底部霧氣 -->
+  <rect width="1600" height="1000" fill="url(#fog)"/>
+</svg>

@@ -9,7 +9,7 @@ import { initPanel, setPanelState } from './ui/panel.js';
 import { runCareer } from './ui/runner.js';
 import { clearSave, loadGame } from './ui/storage.js';
 
-export const APP_VERSION = 'v3.0.0';
+export const APP_VERSION = 'v3.3.0';
 
 let selectedRole = 'TOP';
 let seed = new URLSearchParams(location.search).get('seed') || randomSeed();
