@@ -46,11 +46,16 @@ function attrRows(state) {
     const value = state.attr[key];
     const potential = state.potential[key] ?? 62;
     const carry = state.carry[key] || 0;
-    return `<div class="abrow static" title="${ATTR_DESC[key]}">
-      <div class="nm">${ATTR_NAMES[key]}</div>
-      <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%;--pot:${Math.min(100, (potential / ATTR_CAP) * 100)}%"><i></i><em></em></div>
-      <div class="val"><b>${value}</b><span class="cost">${ATTR_ABBR[key]} ·上限 ${potential}${carry ? ` ·蓄${carry}` : ''}</span></div>
-    </div>`;
+    return `<details class="attr-item">
+      <summary>
+        <span class="trait-arrow">▸</span><div class="abrow static">
+          <div class="nm">${ATTR_NAMES[key]}</div>
+          <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%;--pot:${Math.min(100, (potential / ATTR_CAP) * 100)}%"><i></i><em></em></div>
+          <div class="val"><b>${value}</b><span class="cost">${ATTR_ABBR[key]} ·上限 ${potential}${carry ? ` ·蓄${carry}` : ''}</span></div>
+        </div>
+      </summary>
+      <div class="trait-desc">${escapeHtml(ATTR_DESC[key])}</div>
+    </details>`;
   }).join('');
 }
 
@@ -139,7 +144,7 @@ function renderPanel() {
     <section>
       <h5>屬性</h5>
       ${attrRows(state)}
-      <p class="muted small">刻度線＝該項潛力上限，超過上限後成長成本 ×3。訓練點只能投在這六項。</p>
+      <p class="muted small">▸ 點開查看各屬性在峽谷內的作用；刻度線＝潛力上限，超過後成長成本 ×3。</p>
     </section>
 
     <section>

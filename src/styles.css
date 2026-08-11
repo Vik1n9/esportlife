@@ -121,8 +121,18 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .trait-item.gone summary{color:var(--faint);text-decoration:line-through}
 .trait-arrow{flex:none;width:10px;text-align:center;color:var(--muted);font-size:10px;
   transition:transform .15s ease}
-.trait-item[open] .trait-arrow{transform:rotate(90deg)}
+.trait-item[open] .trait-arrow,
+.attr-item[open] .trait-arrow{transform:rotate(90deg)}
 .trait-desc{margin:2px 8px 8px 25px;font-size:12px;color:var(--muted);line-height:1.5}
+
+/* 六屬性：小箭頭可展開，顯示該屬性在峽谷內的作用 */
+.attr-item{margin-top:6px}
+.attr-item summary{list-style:none;display:flex;align-items:center;gap:6px;
+  cursor:pointer;user-select:none}
+.attr-item summary::-webkit-details-marker{display:none}
+.attr-item summary::marker{content:''}
+.attr-item summary .abrow{margin-top:0;flex:1;cursor:pointer}
+.attr-item .trait-desc{margin:4px 0 6px 22px}
 
 .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:4px 12px;margin-top:4px}
 .kv>div{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--ink);
