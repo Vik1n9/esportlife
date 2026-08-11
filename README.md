@@ -2,12 +2,10 @@
 
 這是一款純文字的 **LoL 電競選手生涯養成遊戲**。從 S2（2012）入行開始，經歷校園電競、試訓、主場賽區（GPL→LMS→PCS→LCP）、海外頂級賽區（LCK／LPL／LEC／LCS），一路打到 MSI 與世界賽。版本、英雄池、轉會、解散與隱藏特質合成，每顆骰子與每個選擇都算數。
 
-👉 **[點我直接遊玩](https://leoggcat.github.io/yakyulife/)**
+👉 **[點我直接遊玩](https://vik1n9.github.io/esportlife/)**
 
-> 專案已由 YaKyuLife（棒球版）更名為 **esportlife**，原始碼 repo 為
-> [`Vik1n9/esportlife`](https://github.com/Vik1n9/esportlife)。
-> 上面的遊玩連結指向 `leoggcat/yakyulife` 這份**另一個帳號的部署**，該 repo 尚未更名，
-> 所以網址仍是 `/yakyulife/`。若之後也改名，連結要同步更新為 `/esportlife/`。
+> 專案已由 YaKyuLife（棒球版）更名為 **esportlife**。
+> 舊網址 <https://leoggcat.github.io/yakyulife/> 是另一個帳號的舊部署，停留在 v2，不再更新。
 
 ## 遊戲特色
 
