@@ -13,7 +13,7 @@ export const name = '青訓隊名不得時代錯置';
 
 export async function run({ check }) {
   const rng = new Rng('academy-era');
-  const state = createState({ name: 'E', role: 'MID', rng, seed: 'academy-era' });
+  const state = createState({ name: 'E', role: 'MID', seed: 'academy-era' });
 
   for (const year of [2013, 2017, 2022, 2027]) {
     state.year = year;

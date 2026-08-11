@@ -10,7 +10,7 @@ export async function run({ check }) {
   {
     // 頂尖選手不該被強制降級
     const rng = new Rng('market');
-    const state = createState({ name: 'M', role: 'TOP', rng, seed: 'market' });
+    const state = createState({ name: 'M', role: 'TOP', seed: 'market' });
     state.stage = 'PRO'; state.league = 'LCK'; state.team = 'T1'; state.lastDelta = 4;
     for (const k of Object.keys(state.ability)) state.ability[k] = 75;
     const offers = generateOffers(state, rng, { excludeCurrentTeam: false });
@@ -22,7 +22,7 @@ export async function run({ check }) {
   {
     // 只夠青訓的實力，不該收到一隊的邀約（舊版把打不到的選項擺出來騙人）
     const rng = new Rng('academy-only');
-    const state = createState({ name: 'A', role: 'JG', rng, seed: 'academy-only' });
+    const state = createState({ name: 'A', role: 'JG', seed: 'academy-only' });
     for (const k of Object.keys(state.ability)) state.ability[k] = 40;   // 介於青訓 36 與一隊 45 之間
     for (const k of Object.keys(state.potential)) state.potential[k] = 42;
 
@@ -44,7 +44,7 @@ export async function run({ check }) {
   {
     // 休息室與輿論的後果，有冷卻不會變常態
     const rng = new Rng('verdict');
-    const state = createState({ name: 'V', role: 'ADC', rng, seed: 'verdict' });
+    const state = createState({ name: 'V', role: 'ADC', seed: 'verdict' });
     state.stage = 'PRO'; state.league = 'HOME'; state.contract = { years: 3, mult: 1 }; state.year = 2020;
 
     state.mental.chem = 50; state.mental.rep = 0;

@@ -223,7 +223,7 @@ function* phaseSeason(g) {
 
   state.splitLog = [];
   state.champPoints = 0;
-  state.seed = 0;
+  state.seedRank = 0;
   state.wonSplitThisYear = false;
 
   const collected = [];
@@ -274,7 +274,7 @@ function* phaseSeason(g) {
   }
 
   if (state.stage === 'PRO') {
-    state.seed = worldsSeed(state.champPoints);
+    state.seedRank = worldsSeed(state.champPoints);
     yield* awards(g, stat);
   }
 
@@ -323,7 +323,7 @@ function* splitPlayoffs(g, split, stat, splitCount) {
   }
 
   const seed = splitSeed(state, stat);
-  state.seed = seed;
+  state.seedRank = seed;
   const rounds = roundsFrom(entryRound(seed));
   yield card('info', `${split.name}季後賽`,
     `以<b class="hl">第 ${seed} 種子</b>晉級${split.name}季後賽，從<b class="hl">${rounds[0].name}</b>打起。`);
@@ -694,8 +694,8 @@ function* internationalStage(g) {
 
   if (worldsEligible(state) && rng.chance(worldsQualifyChance(state))) {
     yield card('info', '世界賽',
-      `你隨 <b class="hl">${state.team}</b> 以<b class="hl">第 ${state.seed} 種子</b>晉級 ${state.year} 世界大賽！` +
-      (state.seed >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : ''));
+      `你隨 <b class="hl">${state.team}</b> 以<b class="hl">第 ${state.seedRank} 種子</b>晉級 ${state.year} 世界大賽！` +
+      (state.seedRank >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : ''));
     yield* drawRoleplay(g, 'presser');
     const res = runWorlds(state, rng);
     yield card(res.champion ? 'gold' : 'info', '世界賽結算',

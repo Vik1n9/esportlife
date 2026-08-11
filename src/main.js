@@ -77,15 +77,17 @@ function startNewCareer() {
   history.replaceState(null, '', `?seed=${encodeURIComponent(seed)}`);
   clearSave();
 
-  const rng = new Rng(seed);
-  const state = createState({ name, role: selectedRole, rng, seed });
-  enterGame(state, rng);
+  // 種子只決定天賦；人生走另一條每次都重開的亂數流。
+  // 同一個種子可以反覆玩，養出來的是同一個天分的人，過的卻是不同的人生。
+  const state = createState({ name, role: selectedRole, seed });
+  enterGame(state, new Rng(randomSeed()));
 }
 
 function resumeCareer(save) {
-  seed = save.seed;
+  seed = save.state.seed;
   history.replaceState(null, '', `?seed=${encodeURIComponent(seed)}`);
-  const rng = new Rng(seed);
+  // 續玩要接回同一段人生，所以人生流的種子與進度都得還原
+  const rng = new Rng(save.lifeSeed);
   rng.state = save.rngState;
   enterGame(save.state, rng);
 }

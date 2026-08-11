@@ -14,7 +14,7 @@ export const name = '史實解散與簽約名單';
 
 export async function run({ check }) {
   const rng = new Rng('disband');
-  const state = createState({ name: 'D', role: 'JG', rng, seed: 'disband' });
+  const state = createState({ name: 'D', role: 'JG', seed: 'disband' });
 
   for (const year of [2016, 2019, 2020, 2023, 2026]) {
     state.year = year;
@@ -32,7 +32,7 @@ export async function run({ check }) {
   check('2019 年閃電狼不可再簽（舊版可以，導致史實解散被繞過）', !teamsOf(state, 'HOME').includes('閃電狼'));
 
   // 在解散年身處該隊 → 強制自由市場
-  const victim = createState({ name: 'X', role: 'ADC', rng, seed: 'forced-fa' });
+  const victim = createState({ name: 'X', role: 'ADC', seed: 'forced-fa' });
   victim.year = 2019; victim.team = '閃電狼'; victim.stage = 'PRO'; victim.league = 'HOME';
   check('解散事件查得到', !!disbandNoteFor(victim));
   victim.team = 'J Team';

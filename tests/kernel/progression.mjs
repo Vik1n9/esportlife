@@ -8,7 +8,7 @@ export const name = '版本落差方向';
 
 export async function run({ check }) {
   const rng = new Rng('patch');
-  const state = createState({ name: 'P', role: 'ADC', rng, seed: 'patch' });
+  const state = createState({ name: 'P', role: 'ADC', seed: 'patch' });
   for (let i = 0; i < 6; i++) applyPatch(state, rng);
   const worse = patchPenalty(state);
   adjustPatchDebt(state, -4);

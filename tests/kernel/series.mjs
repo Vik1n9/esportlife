@@ -7,7 +7,7 @@ export const name = 'BO 系列賽與種子序';
 
 export async function run({ check }) {
   const rng = new Rng('series');
-  const state = createState({ name: 'P', role: 'TOP', rng, seed: 'series' });
+  const state = createState({ name: 'P', role: 'TOP', seed: 'series' });
   state.league = 'HOME'; state.stage = 'PRO';
 
   for (const bo of [3, 5]) {

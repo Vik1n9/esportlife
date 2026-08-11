@@ -48,7 +48,7 @@ export const ROLEPLAY_CARDS = [
   },
   {
     id: 'presser_underdog', name: '沒人看好的一輪', when: 'presser', weight: 3,
-    need: (s) => (s.seed || 1) >= 3,
+    need: (s) => (s.seedRank || 1) >= 3,
     prompt: '種子序排在後段，賽前分析清一色不看好你們。主持人問：「你們憑什麼？」',
     options: [
       { id: 'declare', label: '「等我們捧盃的時候再問一次。」', tone: 'bold',

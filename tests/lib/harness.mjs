@@ -59,11 +59,17 @@ export function allocate(state, beat, style = 'focus') {
   }
 }
 
-/** 跑完一整段生涯 */
-export function playCareer({ seed, role, name = 'TEST', strategy = 'first', style = 'focus' }) {
-  const rng = new Rng(seed);
-  const state = createState({ name, role, rng, seed });
-  const decisionRng = new Rng(`${seed}:decisions`);
+/**
+ * 跑完一整段生涯。
+ *
+ * 引擎是 `(出生種子, 人生種子, 選擇)` 的確定性函式——遊戲本身每次開新局會隨機抽一個
+ * 人生種子，所以同一個天賦每次過的人生都不同；測試則明確指定 `lifeSeed`，這樣回歸
+ * 比對才有意義。`lifeSeed` 不給時預設等於出生種子，讓大多數測試只要寫一個種子。
+ */
+export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strategy = 'first', style = 'focus' }) {
+  const state = createState({ name, role, seed });
+  const rng = new Rng(`${lifeSeed}:life`);
+  const decisionRng = new Rng(`${lifeSeed}:decisions`);
   const flow = careerFlow({ state, rng });
 
   let input;
@@ -73,7 +79,7 @@ export function playCareer({ seed, role, name = 'TEST', strategy = 'first', styl
     const { value, done } = flow.next(input);
     input = undefined;
     if (done) break;
-    if (++beats > MAX_BEATS) throw new Error(`beat 數超過 ${MAX_BEATS}，疑似無限迴圈（seed=${seed} role=${role}）`);
+    if (++beats > MAX_BEATS) throw new Error(`beat 數超過 ${MAX_BEATS}，疑似無限迴圈（seed=${seed} life=${lifeSeed} role=${role}）`);
     beatTypes[value.type] = (beatTypes[value.type] || 0) + 1;
 
     if (value.type === 'choice') input = decide(value, strategy, decisionRng);

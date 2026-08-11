@@ -7,7 +7,7 @@ export const name = '特質合成';
 
 export async function run({ check }) {
   const rng = new Rng('fusion');
-  const state = createState({ name: 'F', role: 'MID', rng, seed: 'fusion' });
+  const state = createState({ name: 'F', role: 'MID', seed: 'fusion' });
   unlockTrait(state, 'veteran'); unlockTrait(state, 'disc'); unlockTrait(state, 'single');
   const gained = checkFusions(state);
   check('老將＋自律＋單身 → 不老傳奇', gained.includes('ageless'), gained.join(','));

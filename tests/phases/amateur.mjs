@@ -15,7 +15,7 @@ export const name = '業餘起點與挖角時機';
 /** 造一個天賦爆表的新人：一開局就遠超業餘水準 */
 function prodigy(seed = 'prodigy') {
   const rng = new Rng(seed);
-  const state = createState({ name: 'P', role: 'MID', rng, seed });
+  const state = createState({ name: 'P', role: 'MID', seed });
   for (const k of Object.keys(state.ability)) state.ability[k] = 60;
   for (const k of Object.keys(state.potential)) state.potential[k] = 80;
   return { rng, state };
@@ -24,7 +24,7 @@ function prodigy(seed = 'prodigy') {
 export async function run({ check }) {
   {
     const rng = new Rng('start-stage');
-    const state = createState({ name: 'S', role: 'TOP', rng, seed: 'start-stage' });
+    const state = createState({ name: 'S', role: 'TOP', seed: 'start-stage' });
     check('初始 stage 為 AMATEUR', state.stage === 'AMATEUR', state.stage);
     check('初始隊伍來自網咖名單', TEAMS_AMATEUR.includes(state.team), state.team);
     check('stageLabel 顯示網咖盃賽', stageLabel(state) === '網咖盃賽', stageLabel(state));
@@ -62,7 +62,7 @@ export async function run({ check }) {
   {
     // 數值不達標就不該有人上門
     const rng = new Rng('nobody');
-    const state = createState({ name: 'N', role: 'SUP', rng, seed: 'nobody' });
+    const state = createState({ name: 'N', role: 'SUP', seed: 'nobody' });
     for (const k of Object.keys(state.ability)) state.ability[k] = 25;
     for (const k of Object.keys(state.potential)) state.potential[k] = 30;   // 加點也漲不動
 

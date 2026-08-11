@@ -64,11 +64,11 @@ export function runMsi(state, rng) {
 export function worldsQualifyChance(state) {
   const league = LEAGUES[state.league];
   if (!league) return 0;
-  if (!state.seed) return 0;
+  if (!state.seedRank) return 0;
   // 主場賽區的席位比頂級賽區少，同樣的種子序含金量不同
   const slots = league.region === 'HOME' ? 2 : 4;
-  if (state.seed > slots) return league.region === 'HOME' ? 12 : 30;  // 最後一張門票要打資格賽
-  return state.seed === 1 ? 96 : state.seed === 2 ? 88 : 74;
+  if (state.seedRank > slots) return league.region === 'HOME' ? 12 : 30;  // 最後一張門票要打資格賽
+  return state.seedRank === 1 ? 96 : state.seedRank === 2 ? 88 : 74;
 }
 
 export function worldsEligible(state) {
@@ -86,7 +86,7 @@ export function runWorlds(state, rng) {
   const era = eraOf(state.year);
   const delta = effectiveOvr(state) - 59;
   const stageBonus = bonus(state, 'intlRoll') + bonus(state, 'worldsRoll')
-    + underdogBonus(state, state.seed) + nerveBonus(state) * 0.5;
+    + underdogBonus(state, state.seedRank) + nerveBonus(state) * 0.5;
   const roll = rng.next() * 100 + delta * 6 + stageBonus;
 
   let stage; let advanced = false;
@@ -116,8 +116,8 @@ export function runWorlds(state, rng) {
     state.wonWorldsThisYear = true;
     state.pendingPoints += 10;
     state.honors.push(`${state.year} 世界賽冠軍`, `${state.year} 世界賽 FMVP`);
-    if (state.seed >= 3) state.honors.push(`${state.year} 下剋上奪冠`);
-    return { stage: '世界賽冠軍', champion: true, runnerUp: false, points: 10, underdog: state.seed >= 3 };
+    if (state.seedRank >= 3) state.honors.push(`${state.year} 下剋上奪冠`);
+    return { stage: '世界賽冠軍', champion: true, runnerUp: false, points: 10, underdog: state.seedRank >= 3 };
   }
   state.worldsFinals += 1;
   state.pendingPoints += 6;
