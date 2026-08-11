@@ -33,7 +33,8 @@ tftactics.gg（team-builder 頁計算樣式），目標是「放在該站其中�
 - toolbar：bg 底＋底髮絲線；品牌＝terracotta 方塊＋白 600 字標；右側 raise 按鈕 3px。
 - nav 列：surface 底＋髮絲線；項目 muted；active 白字＋3px #d47559 底線。
 - 卡片：surface 底、1px #17313a、radius 4px；標題前 7px 語意圓點。
-- 按鈕：無邊框、radius 3px；main＝#227aad 白字 600；ghost＝無底置中。
+- 按鈕 radius 3px、無陰影、無按壓位移：次要＝透明底＋1px #17313a；
+  主要＝#4080b0 實底白字 600＋.08em 字距（同 SHARE）；seg 選中＝#227aad。
 - 輸入：bg 底、無邊框、radius 3px；focus＝2px 藍環。
 - seg 選中＝#227aad 白字；骰子 active＝金底深字；加點＝藍、減點＝raise。
 - 能力列：surface 容器；軌道 bg、填充金、潛力刻度 2px 白。

@@ -14,7 +14,7 @@
   --ink:rgba(255,255,255,.92);
   --muted:#99b1b8;
   --faint:#7c8f92;
-  --blue:#227aad; --blue-h:#4080b0;
+  --blue:#227aad; --blue2:#4080b0;
   --steel:#6287a7; --link:#579dd4;
   --orange:#d47559;
   --teal:#adf4ed;
@@ -140,20 +140,21 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 
 /* 按鈕：無邊框填色，3px 圓角 */
 .btn{
-  position:relative;display:block;width:100%;background:var(--raise);border:none;
-  color:var(--ink);font-size:15px;font-weight:500;border-radius:3px;
+  position:relative;display:block;width:100%;background:transparent;
+  border:1px solid var(--line);
+  color:var(--ink);font-size:14.5px;font-weight:400;border-radius:3px;
   padding:11px 14px;margin-top:8px;cursor:pointer;text-align:left;
-  transition:background .15s;
+  transition:background .15s,border-color .15s;
 }
-.btn:active{transform:scale(.99)}
-.btn:hover:not(:disabled){background:var(--raise-h)}
+.btn:hover:not(:disabled){background:var(--raise)}
 .btn:disabled{opacity:.4;cursor:default}
 .btn small{display:block;font-weight:400;font-size:12px;color:var(--muted);margin-top:2px}
-.btn.main{background:var(--blue);color:#fff;text-align:center;font-weight:600}
-.btn.main:hover:not(:disabled){background:var(--blue-h)}
-.btn.warn{background:var(--raise);color:var(--bad)}
+.btn.main{background:var(--blue2);border-color:var(--blue2);color:#fff;text-align:center;
+  font-weight:600;letter-spacing:.08em}
+.btn.main:hover:not(:disabled){background:var(--blue);border-color:var(--blue)}
+.btn.warn{border-color:#5c3038;color:var(--bad)}
 .btn.warn:hover:not(:disabled){background:#2a1a20}
-.btn.ghost{background:none;text-align:center;color:var(--muted)}
+.btn.ghost{background:none;border-color:transparent;text-align:center;color:var(--muted)}
 .btn.ghost:hover:not(:disabled){color:var(--ink);background:var(--raise)}
 .row2{display:flex;gap:8px}
 .row2 .btn{flex:1;text-align:center}
@@ -164,11 +165,11 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 
 /* 骰子 */
 .dice{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
-.die{width:48px;height:48px;border-radius:3px;background:var(--raise);
+.die{width:48px;height:48px;border-radius:3px;background:var(--surface);border:1px solid var(--line);
   color:var(--ink);font-family:var(--mono);font-size:24px;font-weight:700;
   display:flex;align-items:center;justify-content:center;transition:opacity .15s,background .15s}
 .die.used{opacity:.25}
-.die.active{background:var(--gold);color:var(--bg)}
+.die.active{background:var(--gold);border-color:var(--gold);color:var(--bg)}
 .die.six{color:var(--bad)}
 .die.six.active{color:var(--bg)}
 .pool{font-family:var(--mono);font-size:17px;color:var(--muted);margin-bottom:10px}
@@ -195,13 +196,12 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 /* 加點／減點按鈕 */
 .step{width:44px;height:44px;border-radius:3px;flex:none;display:flex;align-items:center;justify-content:center;
   font-family:var(--mono);font-size:26px;font-weight:700;line-height:1;cursor:pointer;user-select:none;
-  transition:background .15s}
-.step:active{transform:scale(.92)}
+  transition:background .15s,border-color .15s}
 .step:disabled{opacity:.3;cursor:default}
-.step.plus{background:var(--blue);color:#fff}
-.step.plus:hover:not(:disabled){background:var(--blue-h)}
-.step.minus{background:var(--raise);color:var(--muted)}
-.step.minus:hover:not(:disabled){background:var(--raise-h);color:var(--ink)}
+.step.plus{background:var(--blue2);border:none;color:#fff}
+.step.plus:hover:not(:disabled){background:var(--blue)}
+.step.minus{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.step.minus:hover:not(:disabled){background:var(--raise);color:var(--ink)}
 
 /* ---------- 開場 ---------- */
 #start{position:fixed;inset:0;z-index:50;overflow-y:auto;background:var(--bg)}
@@ -232,7 +232,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .hexpanel{position:relative;background:var(--surface);border:1px solid var(--line);
   border-radius:4px;padding:20px 18px 16px;margin-top:4px}
 
-#start .btn.resume{background:var(--raise);text-align:center;margin-bottom:10px;
+#start .btn.resume{background:transparent;text-align:center;margin-bottom:10px;
   display:flex;align-items:center;justify-content:center;gap:8px;color:var(--ink)}
 #start .btn.resume .resume-ico{color:var(--gold-text)}
 #start .btn.resume small{flex-basis:100%}
@@ -248,10 +248,10 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .field input:focus{box-shadow:0 0 0 2px var(--blue)}
 .field input::placeholder{color:var(--faint)}
 .seg{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
-.seg button{background:var(--raise);border:none;border-radius:3px;color:var(--muted);
-  font-size:13.5px;font-weight:500;padding:11px 4px;cursor:pointer;transition:background .15s,color .15s}
-.seg button:hover{background:var(--raise-h);color:var(--ink)}
-.seg button.on{background:var(--blue);color:#fff;font-weight:600}
+.seg button{background:transparent;border:1px solid var(--line);border-radius:3px;color:var(--muted);
+  font-size:13.5px;font-weight:400;padding:11px 4px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.seg button:hover{background:var(--raise);color:var(--ink)}
+.seg button.on{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600}
 .seedline{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:20px;line-height:1.9}
 .seedline input{width:130px;background:var(--bg);color:var(--gold-text);border:none;
   border-radius:3px;padding:3px 6px;font-family:inherit;font-size:12px;text-align:center}
