@@ -5,9 +5,9 @@
  * 這是存檔／讀檔與 headless 測試能成立的前提。
  */
 import { ROLE_ABILITIES } from '../data/abilities.js';
-import { HEROES, TEAMS_ACADEMY, START_AGE, START_YEAR } from '../data/world.js';
+import { HEROES, TEAMS_AMATEUR, START_AGE, START_YEAR } from '../data/world.js';
 
-export const SAVE_VERSION = 3;
+export const SAVE_VERSION = 4;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -40,12 +40,12 @@ export function createState({ name, role, rng, seed }) {
     age: START_AGE,
     year: START_YEAR,
 
-    // 生涯階段：ACAD → AM2 → PRO
-    stage: 'ACAD',
+    // 生涯階段：AMATEUR（網咖盃賽）→ AM2（青訓次級）→ PRO
+    stage: 'AMATEUR',
     stageYear: 1,
     am2Track: 'HOME',
     league: null,        // PRO 時的 LEAGUES 鍵
-    team: rng.pick(TEAMS_ACADEMY),
+    team: rng.pick(TEAMS_AMATEUR),
     teamYears: 0,
 
     ability,
