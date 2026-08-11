@@ -51,8 +51,8 @@ export function askAllocation(state, spec, onChange) {
 
     const isDice = spec.mode === 'dice';
     const dice = spec.dice || [];
-    let index = 0;
     let pool = spec.points || 0;
+    const used = new Set();
     const history = [];
 
     act.appendChild(el('div', { class: 'act-title', text: spec.title }));
@@ -61,16 +61,47 @@ export function askAllocation(state, spec, onChange) {
     const bottom = el('div', { class: 'alloc-bottom' });
     act.append(top, rows, bottom);
 
-    const remaining = () => (isDice ? dice.length - index : pool);
+    const remaining = () => (isDice ? dice.length - used.size : pool);
     const cap = abilityCap(state);
     const keys = abilityKeys(state);
+
+    const nextDie = () => {
+      for (let i = 0; i < dice.length; i += 1) if (!used.has(i)) return i;
+      return dice.length;
+    };
+
+    function lastIdxFor(key) {
+      for (let i = history.length - 1; i >= 0; i -= 1) if (history[i].key === key) return i;
+      return -1;
+    }
+
+    function undoEntry(idx) {
+      const [entry] = history.splice(idx, 1);
+      state.ability[entry.key] -= entry.gain;
+      state.carry[entry.key] = entry.carryBefore;
+      if (isDice) used.delete(entry.dieIndex); else pool += 1;
+      renderTop(); renderRows(); renderBottom(); onChange();
+    }
+
+    function addPoint(key) {
+      const dieIndex = isDice ? nextDie() : -1;
+      const amount = isDice ? dice[dieIndex] : 1;
+      const carryBefore = state.carry[key] || 0;
+      const gain = investAbility(state, key, amount);
+      history.push({ key, gain, carryBefore, dieIndex });
+      if (isDice) used.add(dieIndex); else pool -= 1;
+      renderTop();
+      renderRows({ key, gain });
+      renderBottom();
+      onChange();
+    }
 
     function renderTop() {
       clear(top);
       if (isDice) {
         const tray = el('div', { class: 'dice' });
         dice.forEach((v, i) => tray.appendChild(el('div', {
-          class: `die${i < index ? ' used' : ''}${i === index ? ' active' : ''}${v === 6 ? ' six' : ''}`,
+          class: `die${used.has(i) ? ' used' : ''}${i === nextDie() ? ' active' : ''}${v === 6 ? ' six' : ''}`,
           text: String(v),
         })));
         top.appendChild(tray);
@@ -105,19 +136,31 @@ export function askAllocation(state, spec, onChange) {
             : '<span class="muted">蓄力中</span>';
         }
 
-        if (!maxed && remaining() > 0) {
-          row.addEventListener('click', () => {
-            const amount = isDice ? dice[index] : 1;
-            const carryBefore = state.carry[key] || 0;
-            const gain = investAbility(state, key, amount);
-            history.push({ key, gain, carryBefore });
-            if (isDice) index += 1; else pool -= 1;
-            renderTop();
-            renderRows({ key, gain });
-            renderBottom();
-            onChange();
-          });
-        }
+        const minus = el('button', {
+          class: 'step minus', type: 'button', text: '−',
+          'aria-label': `${ABILITY_NAMES[key]} 減點`,
+        });
+        const plus = el('button', {
+          class: 'step plus', type: 'button', text: '+',
+          'aria-label': `${ABILITY_NAMES[key]} 加點`,
+        });
+
+        minus.disabled = !history.some((h) => h.key === key);
+        minus.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const idx = lastIdxFor(key);
+          if (idx >= 0) undoEntry(idx);
+        });
+
+        const canAdd = !maxed && remaining() > 0;
+        plus.disabled = !canAdd;
+        plus.addEventListener('click', (e) => {
+          e.stopPropagation();
+          addPoint(key);
+        });
+
+        row.addEventListener('click', () => { if (canAdd) addPoint(key); });
+        row.append(minus, plus);
         rows.appendChild(row);
       }
     }
@@ -126,15 +169,8 @@ export function askAllocation(state, spec, onChange) {
       clear(bottom);
       const undo = el('button', {
         class: 'btn ghost',
-        text: '↩ 復原',
-        onclick: () => {
-          const last = history.pop();
-          if (!last) return;
-          state.ability[last.key] -= last.gain;
-          state.carry[last.key] = last.carryBefore;
-          if (isDice) index -= 1; else pool += 1;
-          renderTop(); renderRows(); renderBottom(); onChange();
-        },
+        text: '↩ 復原上一點',
+        onclick: () => { if (history.length) undoEntry(history.length - 1); },
       });
       undo.disabled = !history.length;
       bottom.appendChild(undo);
