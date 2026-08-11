@@ -1,7 +1,7 @@
 /** BO 系列賽與種子序換算。 */
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { runSeries, worldsSeed, splitSeed } from '../../src/engine/playoffs.js';
+import { runSeries, worldsSeed, splitSeed } from '../../src/kernel/series.js';
 
 export const name = 'BO 系列賽與種子序';
 

@@ -5,7 +5,7 @@ import { LEAGUES, OVERSEAS_LEAGUES } from '../data/leagues.js';
 import { eraOf } from '../data/eras.js';
 import { effectiveOvr } from './abilities.js';
 import { marketMultBonus } from './mental.js';
-import { academyTeamsOf, rollRoster, teamsOf } from './team.js';
+import { academyTeamsOf, rollRoster, teamsOf } from './roster.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
 
 export function formatMoney(n) {

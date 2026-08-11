@@ -12,7 +12,7 @@ import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { mentalSummary } from '../engine/mental.js';
 import { activeTraitNames } from '../engine/progression.js';
-import { coachBonus, matesAverage } from '../engine/team.js';
+import { coachBonus, matesAverage } from '../kernel/strength.js';
 import { byId, escapeHtml } from './dom.js';
 
 let root = null;

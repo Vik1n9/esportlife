@@ -1,13 +1,15 @@
-/** 隊友、教練、隊伍強度。 */
+/**
+ * 隊友名單與隊名。
+ *
+ * 隊伍強度的計算已經搬到 `kernel/strength.js`——那是三個階段共用的東西，
+ * 這裡只負責「這一年這個聯賽有哪些隊、你的隊友是誰」。
+ */
 import { COACHES } from '../data/coaches.js';
 import { DISBAND_YEAR } from '../data/disband.js';
 import { LEAGUES } from '../data/leagues.js';
 import { MATE_NAMES } from '../data/teams.js';
 import { teamNamesOf } from '../data/regions/index.js';
 import { eraOf } from '../data/eras.js';
-import { effectiveOvr } from './abilities.js';
-import { chemBonus } from './mental.js';
-import { factor, floorOf } from '../kernel/modifiers.js';
 
 export function homeLeagueName(state) {
   return eraOf(state.year).home;
@@ -49,25 +51,3 @@ export function rollRoster(state, rng, leagueKey) {
   if (state.mental) state.mental.chem = Math.round((state.mental.chem + 50) / 2);
 }
 
-export function coachBonus(state) {
-  return (COACHES[state.coach] || 0) * factor(state, 'coachMult');
-}
-
-export function matesAverage(state) {
-  if (!state.mates || !state.mates.length) return 0;
-  const sum = state.mates.reduce((t, m) => t + m.ovr, 0);
-  const lead = floorOf(state, 'teamLead', 0);
-  // mateMorale 是單季的士氣，chem 是跨季累積的默契——兩者相加
-  return sum / state.mates.length + lead + (state.mateMorale || 0) + chemBonus(state);
-}
-
-/**
- * 隊伍整體強度。用於勝率計算。
- * 權重：本人 0.55 ／隊友 0.35 ／教練＋體力 0.10，與設計文件一致。
- */
-export function teamStrength(state) {
-  return effectiveOvr(state) * 0.55
-    + matesAverage(state) * 0.35
-    + coachBonus(state)
-    + state.ability.sta * 0.05;
-}

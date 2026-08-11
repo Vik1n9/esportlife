@@ -4,7 +4,7 @@ import { STAT_BASELINE } from '../data/abilities.js';
 import { LEAGUES } from '../data/leagues.js';
 import { blankSeasonStat } from './state.js';
 import { effectiveOvr } from './abilities.js';
-import { teamStrength } from './team.js';
+import { teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
 
 /** 體力對出賽場次的折損曲線 */

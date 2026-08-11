@@ -42,10 +42,10 @@ import {
 } from './market.js';
 import {
   entryRound, opponentOvr, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed, worldsSeed,
-} from './playoffs.js';
+} from '../kernel/series.js';
 import { accumulate, formatStatLine, mergeSplits, simulateSeason } from './season.js';
 import { adjustPatchDebt, applyPatch, checkFusions, rollInjury, trainHeroes, unlockTrait } from './progression.js';
-import { homeLeagueName } from './team.js';
+import { homeLeagueName } from './roster.js';
 
 class RetireSignal extends Error {
   constructor(reason) { super(reason); this.reason = reason; }

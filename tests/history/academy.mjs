@@ -6,7 +6,7 @@
  */
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { academyTeamsOf } from '../../src/engine/team.js';
+import { academyTeamsOf } from '../../src/engine/roster.js';
 import { DISBAND_YEAR } from '../../src/data/disband.js';
 import { teamNamesOf } from '../../src/data/regions/index.js';
 import { eraOf } from '../../src/data/eras.js';
