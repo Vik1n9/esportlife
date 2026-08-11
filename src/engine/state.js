@@ -5,9 +5,10 @@
  * 這是存檔／讀檔與 headless 測試能成立的前提。
  */
 import { ROLE_ABILITIES } from '../data/abilities.js';
+import { MENTAL_START } from '../data/mental.js';
 import { HEROES, TEAMS_AMATEUR, START_AGE, START_YEAR } from '../data/world.js';
 
-export const SAVE_VERSION = 4;
+export const SAVE_VERSION = 5;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -52,6 +53,12 @@ export function createState({ name, role, rng, seed }) {
     potential,
     carry: {},           // 訓練點不足時的「蓄力」餘額
 
+    // 心理／性格。永遠不對玩家顯示數字，只在面板上給粗略標籤
+    mental: Object.fromEntries(
+      Object.entries(MENTAL_START).map(([k, [lo, hi]]) => [k, rng.int(lo, hi)]),
+    ),
+    toneStreak: { bold: 0, plain: 0, humble: 0 },  // 連續同一種扮演傾向的次數
+
     traits: {},
     epic: {},
     fusedAway: [],       // 被合成消耗掉的基礎特質名稱（結算時劃線顯示）
@@ -83,6 +90,15 @@ export function createState({ name, role, rng, seed }) {
     lastDelta: 0,
     lastStat: null,
     pendingPoints: 0,
+
+    // 賽段制：一年拆成 1～3 個賽段，各自結算與季後賽
+    splitLog: [],            // 該年各賽段的 {name, stat, finish}
+    champPoints: 0,          // 全年冠軍點數 → 世界賽種子
+    seed: 0,                 // 本年度世界賽種子序（0 = 未晉級）
+    wonSplitThisYear: false,
+    splitTitles: 0,          // 生涯賽段冠軍數
+    firedTimes: 0,           // 被開除／被迫轉隊的次數
+    lastVerdictYear: null,   // 上次被切割／拆隊的年份（冷卻用）
 
     salary: 0,
     bonusSalary: 0,

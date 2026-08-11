@@ -2,6 +2,7 @@
 import { LEAGUES, eraOf } from '../data/world.js';
 import { clamp } from '../core/rng.js';
 import { effectiveOvr } from './abilities.js';
+import { nerveBonus, underdogBonus } from './mental.js';
 
 const MSI_CALLUP_OVR = 52;
 
@@ -55,13 +56,20 @@ export function runMsi(state, rng) {
   return { ...result, points, index };
 }
 
-/** 世界賽出線機率 */
+/**
+ * 世界賽出線機率。
+ *
+ * 改由全年冠軍點數換算出的種子序決定——這是 2013 年起真實存在的制度，
+ * 也是「第四種子」這個身分能存在的前提。沒有種子序（點數不足）就沒有門票。
+ */
 export function worldsQualifyChance(state) {
   const league = LEAGUES[state.league];
   if (!league) return 0;
-  const delta = state.lastDelta || 0;
-  if (league.region === 'HOME') return clamp(30 + delta * 6 + (state.wonPlayoffThisYear ? 25 : 0), 5, 75);
-  return clamp((state.wonPlayoffThisYear ? 70 : 18) + delta * 4, 4, 88);
+  if (!state.seed) return 0;
+  // 主場賽區的席位比頂級賽區少，同樣的種子序含金量不同
+  const slots = league.region === 'HOME' ? 2 : 4;
+  if (state.seed > slots) return league.region === 'HOME' ? 12 : 30;  // 最後一張門票要打資格賽
+  return state.seed === 1 ? 96 : state.seed === 2 ? 88 : 74;
 }
 
 export function worldsEligible(state) {
@@ -78,7 +86,8 @@ export function worldsEligible(state) {
 export function runWorlds(state, rng) {
   const era = eraOf(state.year);
   const delta = effectiveOvr(state) - 59;
-  const bonus = (state.traits.clutch ? 10 : 0) + (state.epic.ultstage ? 8 : 0) + (state.epic.nationalace ? 6 : 0);
+  const bonus = (state.traits.clutch ? 10 : 0) + (state.epic.ultstage ? 8 : 0) + (state.epic.nationalace ? 6 : 0)
+    + underdogBonus(state, state.seed) + nerveBonus(state) * 0.5;
   const roll = rng.next() * 100 + delta * 6 + bonus;
 
   let stage; let advanced = false;
@@ -101,13 +110,15 @@ export function runWorlds(state, rng) {
     return { stage, champion: false, runnerUp: false, points };
   }
 
-  const finalRoll = rng.next() * 100 + delta * 4 + bonus;
+  // 決賽是決勝局的極致，大心臟在這裡全額計入
+  const finalRoll = rng.next() * 100 + delta * 4 + bonus + nerveBonus(state);
   if (finalRoll >= 55) {
     state.worldsWins += 1;
     state.wonWorldsThisYear = true;
     state.pendingPoints += 10;
     state.honors.push(`${state.year} 世界賽冠軍`, `${state.year} 世界賽 FMVP`);
-    return { stage: '世界賽冠軍', champion: true, runnerUp: false, points: 10 };
+    if (state.seed >= 3) state.honors.push(`${state.year} 下剋上奪冠`);
+    return { stage: '世界賽冠軍', champion: true, runnerUp: false, points: 10, underdog: state.seed >= 3 };
   }
   state.worldsFinals += 1;
   state.pendingPoints += 6;
