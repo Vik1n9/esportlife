@@ -93,6 +93,9 @@ export function createState({ name, role, seed }) {
     tempInjuryRisk: 0,
     rehabYears: 0,
     majorInjuries: 0,
+    injuryWeeks: 0,          // 尚未消化的缺席週數，由 engine/lineup.js 逐賽段扣掉
+    returningFromInjury: false,
+    benchedStreak: 0,        // 連續被下放的賽段數
     wonPlayoffThisYear: false,
     wonWorldsThisYear: false,
     disbandThreat: false,

@@ -18,18 +18,35 @@ export function injuryProbability(state) {
 }
 
 /**
- * @returns {{kind:'none'|'minor'|'major'}}
+ * 傷勢。
+ *
+ * 舊版只有兩檔：小傷，或者「整季報銷、下季復健年」。那是棒球的開刀報銷模型。
+ * LoL 的手腕／背傷絕大多數是**缺席幾週、替補頂上**，回來之後位子還在不在是另一
+ * 回事；真的要動刀報銷一整季的極少。所以改成三檔，用缺席週數表示。
+ *
+ * @returns {{kind:'none'|'minor'|'major'|'severe', weeks:number}}
  */
 export function rollInjury(state, rng) {
-  if (flag(state, 'injuryImmune')) return { kind: 'none' };
-  if (!rng.chance(injuryProbability(state))) return { kind: 'none' };
+  if (flag(state, 'injuryImmune')) return { kind: 'none', weeks: 0 };
+  if (!rng.chance(injuryProbability(state))) return { kind: 'none', weeks: 0 };
+
   if (rng.chance(30 * factor(state, 'injuryMinorChance'))) {
+    // 這一檔裡只有一小部分需要動刀
+    if (rng.chance(12)) {
+      state.majorInjuries += 1;
+      state.rehabYears = 1;
+      return { kind: 'severe', weeks: 0 };
+    }
     state.majorInjuries += 1;
-    state.rehabYears = 1;
-    return { kind: 'major' };
+    const weeks = rng.int(8, 16);
+    state.injuryWeeks = (state.injuryWeeks || 0) + weeks;
+    return { kind: 'major', weeks };
   }
+
+  const weeks = rng.int(2, 5);
+  state.injuryWeeks = (state.injuryWeeks || 0) + weeks;
   state.tempInjuryRisk = (state.tempInjuryRisk || 0) + 6;
-  return { kind: 'minor' };
+  return { kind: 'minor', weeks };
 }
 
 /* ---------------- 版本 / 英雄池 ---------------- */

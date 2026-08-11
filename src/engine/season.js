@@ -6,16 +6,7 @@ import { blankSeasonStat } from './state.js';
 import { effectiveOvr } from './abilities.js';
 import { teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
-
-/** 體力對出賽場次的折損曲線 */
-function staminaFactor(sta) {
-  if (sta >= 55) return 1;
-  if (sta >= 50) return 0.9 + (sta - 50) * 0.02;
-  if (sta >= 45) return 0.72 + (sta - 45) * 0.036;
-  if (sta >= 40) return 0.52 + (sta - 40) * 0.04;
-  if (sta >= 35) return 0.35 + (sta - 35) * 0.034;
-  return 0.3;
-}
+import { formFactor } from './lineup.js';
 
 /**
  * 模擬一個賽段。
@@ -26,26 +17,31 @@ function staminaFactor(sta) {
  * @param {object} state
  * @param {import('../core/rng.js').Rng} rng
  * @param {string} leagueKey
+ * 體力不再決定出賽場次——LoL 是五個固定先發，隊伍打幾場你就打幾場。體力低表現成
+ * 手感下滑（`formFactor`），少打是另一回事：被下放板凳或傷勢缺席，由 `share` 帶進來。
+ *
  * @param {number} [weight] 佔全年場次比例，預設 1（整年一段）
+ * @param {number} [share] 實際出賽比例（板凳 0、輪替約 0.55、先發 1）
  */
-export function simulateSeason(state, rng, leagueKey, weight = 1) {
+export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   const league = LEAGUES[leagueKey];
   const a = state.ability;
   const stat = blankSeasonStat();
   stat.years = 1;
-
-  if (state.seasonFactor <= 0) { stat.delta = 0; return stat; }
 
   const par = league.par;
   const o = effectiveOvr(state);
   const delta = o - par;
   stat.delta = delta;
 
-  const perf = clamp(0.82 + delta * 0.03, 0.45, 1.12);
-  stat.G = Math.max(1, Math.round(league.games * weight * staminaFactor(a.sta) * perf * state.seasonFactor * (0.95 + rng.next() * 0.06)));
+  if (state.seasonFactor <= 0 || share <= 0) { stat.G = 0; return stat; }
+
+  // 體力進表現，不進場次
+  const form = formFactor(a.sta);
+  stat.G = Math.max(1, Math.round(league.games * weight * share * state.seasonFactor * (0.95 + rng.next() * 0.06)));
 
   const winRate = clamp(
-    0.5 + (teamStrength(state) - par) * 0.012 + delta * 0.006 + rng.gauss(0.03),
+    0.5 + (teamStrength(state) - par) * 0.012 + delta * 0.006 + (form - 1) * 1.6 + rng.gauss(0.03),
     0.15, 0.92,
   );
   stat.W = Math.round(stat.G * winRate);
@@ -53,12 +49,13 @@ export function simulateSeason(state, rng, leagueKey, weight = 1) {
 
   const base = STAT_BASELINE[state.role];
   const k = clamp(base.K + (a.op - par) * 0.01 + (a.lane - par) * 0.008 + rng.gauss(0.2), 0.3, 3.2);
-  stat.K = Math.round(stat.G * k);
-  stat.D = Math.round(stat.G * clamp(base.D - (a.ref - par) * 0.008 - (a.vis - par) * 0.004 + rng.gauss(0.15), 0.5, 3.0));
+  stat.K = Math.round(stat.G * k * form);
+  // 體力透支最先反映在後期的失誤上，所以陣亡數反向吃 form
+  stat.D = Math.round(stat.G * clamp(base.D - (a.ref - par) * 0.008 - (a.vis - par) * 0.004 + rng.gauss(0.15), 0.5, 3.0) / form);
   stat.A = Math.round(stat.G * base.A * (1 + (a.roam - par) * 0.004 + (a.vis - par) * 0.004));
   stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.006));
   stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.008));
-  stat.DMG = Math.round(clamp(base.DMG + delta * 0.4 + rng.gauss(1.5), 6, 45) * 10) / 10;
+  stat.DMG = Math.round(clamp((base.DMG + delta * 0.4) * form + rng.gauss(1.5), 6, 45) * 10) / 10;
 
   const soloLaneBonus = (state.role === 'TOP' || state.role === 'MID') ? (a.lane - par) * 0.01 : 0;
   stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2) * factor(state, 'soloRate'));

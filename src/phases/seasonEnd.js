@@ -61,10 +61,15 @@ export function* run(g, phase) {
   }
 
   const injury = rollInjury(state, rng);
-  if (injury.kind === 'major') {
-    yield card('bad', '重傷 · 整季報銷', '手腕／背部重傷，手術後提前結束本季，下季進入復健。');
+  if (injury.kind === 'severe') {
+    yield card('bad', '手術 · 整季報銷',
+      '手腕的狀況已經不是休息能解決的了。醫生建議動刀，下個賽季確定報銷。');
+  } else if (injury.kind === 'major') {
+    yield card('bad', '傷勢',
+      `背部與手腕的舊傷復發，預計<b class="dn">缺席約 ${injury.weeks} 週</b>。替補會先頂上。`);
   } else if (injury.kind === 'minor') {
-    yield card('bad', '傷勢', '手腕不適，出賽與狀態受影響。');
+    yield card('bad', '傷勢',
+      `手腕不適，預計<b class="dn">缺席約 ${injury.weeks} 週</b>。`);
   }
 
   if (!state.romance && state.age >= 18) state.singleYears += 1;

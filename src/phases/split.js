@@ -6,6 +6,8 @@
  */
 import { AMATEUR_CUPS } from '../data/teams.js';
 import { accumulate, formatStatLine, simulateSeason } from '../engine/season.js';
+import { lineupFor } from '../engine/lineup.js';
+import { applyMental } from '../engine/mental.js';
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { LEAGUES } from '../data/leagues.js';
 import { unlockTrait } from '../engine/progression.js';
@@ -23,9 +25,23 @@ export function* run(g, phase) {
   const { split, splitCount } = phase;
   const leagueKey = currentLeagueKey(state);
 
-  const stat = simulateSeason(state, rng, leagueKey, split.weight);
+  // 先決定這一段你打不打得到——LoL 少打只有兩個原因：被下放，或傷勢缺席
+  const lineup = lineupFor(state, rng);
+  yield* lineupBeats(g, split, lineup);
+  state.returningFromInjury = lineup.missedWeeks > 0;
+  state.benchedStreak = lineup.status === 'benched' ? (state.benchedStreak || 0) + 1 : 0;
+
+  const stat = simulateSeason(state, rng, leagueKey, split.weight, lineup.share);
   g.splits.push(stat);
   accumulate(state, LEAGUES[leagueKey].bucket, stat);
+
+  if (lineup.status === 'benched') {
+    // 板凳沒有戰報，也沒有季後賽——位子被別人拿走了
+    state.splitLog.push({ name: split.name, stat, finish: 'none', benched: true });
+    yield* drawRoleplay(g, 'locker');
+    yield* drawEvent(g);
+    return;
+  }
 
   const venue = state.stage === 'AMATEUR' ? rng.pick(AMATEUR_CUPS) : stageLabel(state);
   const label = splitCount > 1 ? `${venue}　${split.name}` : venue;
@@ -41,6 +57,41 @@ export function* run(g, phase) {
 
   // 每個賽段各抽一張事件卡——賽段變多，人生的岔路也跟著變多
   yield* drawEvent(g);
+}
+
+/**
+ * 出賽狀態的敘事。
+ *
+ * 坐板凳不是「數字變小」，是你的位子被別人拿走了——所以它要有一張自己的卡，
+ * 而且會扣知名度：不出賽的人，鏡頭就不會在你身上。
+ */
+function* lineupBeats(g, split, lineup) {
+  const { state } = g;
+  if (state.stage !== 'PRO') return;
+
+  if (lineup.status === 'benched') {
+    const streak = (state.benchedStreak || 0) + 1;
+    applyMental(state, { fame: -8, chem: -4, nerve: -3 });
+    yield card('bad', `${split.name} · 板凳`,
+      `名單公布，先發位置<b class="dn">沒有你</b>。整個賽段你坐在台下看替補打你的位子。` +
+      (streak >= 2
+        ? '<br><b class="dn">連續兩個賽段沒上場——再這樣下去，這裡不會有你的位子。</b>'
+        : '<br><span class="muted">教練說再看看狀況。</span>'));
+    return;
+  }
+
+  if (lineup.missedWeeks > 0) {
+    applyMental(state, { fame: -3 });
+    yield card('bad', `${split.name} · 傷勢缺席`,
+      `手腕的狀況讓你缺席了<b class="dn">約 ${lineup.missedWeeks} 週</b>，替補頂上。` +
+      `<br><span class="muted">回來之後，位子還在不在是另一回事。</span>`);
+    return;
+  }
+
+  if (lineup.status === 'rotation') {
+    yield card('', `${split.name} · 輪替`,
+      `教練開始輪替你的位置，出賽時間被分掉一半。<br><span class="muted">每一場都是試鏡。</span>`);
+  }
 }
 
 /**
