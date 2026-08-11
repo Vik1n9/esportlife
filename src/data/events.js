@@ -12,20 +12,20 @@
  */
 export const EVENT_CARDS = [
   { id: 'solo_queue', name: '排位衝分', kind: 'normal',
-    good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕全在刷「太神啦」', ability: { op: 2 } },
-    bad:  { text: '排位連敗掉分，越打越上頭，逆風還硬要開', ability: { op: -2 } } },
+    good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕刷爆「666」', ability: { op: 2 } },
+    bad:  { text: '排位連敗掉分，隊友 0/10/0 開送，越打越上頭', ability: { op: -2 } } },
 
   { id: 'scrim', name: '訓練賽加練', kind: 'normal',
     good: { text: '跟頂尖隊友加練對線，細節大開竅，教練忍不住點頭', ability: { ref: 2 } },
-    bad:  { text: '加練到半夜，反應遲鈍，隔天團練被當靶子打', ability: { ref: -2 } } },
+    bad:  { text: '加練到半夜，反應遲鈍，隔天團練被當人機打', ability: { ref: -2 } } },
 
   { id: 'patch_study', name: '版本補習', kind: 'patch',
-    good: { text: '把 patch note 嗑到熟，新 Meta 直接拿捏', ability: { macro: 2 }, flags: { patchDebt: -2 } },
-    bad:  { text: '版本理解跟不上，打法還停在上一季，直接過時', ability: { macro: -1 }, flags: { patchDebt: 1 } } },
+    good: { text: '把 patch note 嗑到熟，新 Meta 拿捏得死死的，人人喊你「版本答案」', ability: { macro: 2 }, flags: { patchDebt: -2 } },
+    bad:  { text: '版本理解跟不上，還停在上一季，被酸「版本逆子」', ability: { macro: -1 }, flags: { patchDebt: 1 } } },
 
   { id: 'wrist', name: '手腕不適', kind: 'normal',
     good: { text: '手腕檢查無礙，虛驚一場，粉絲鬆了一口氣', ability: { sta: 1 } },
-    bad:  { text: '手腕痠痛發炎，被醫生下了兩週禁練令', ability: { ref: -2 }, flags: { injuryRisk: 6 } } },
+    bad:  { text: '手腕痠痛發炎，被醫生下了兩週禁練令，只能看隊友在峽谷開秀', ability: { ref: -2 }, flags: { injuryRisk: 6 } } },
 
   { id: 'midnight_snack', name: '宵夜誘惑', kind: 'indulgent',
     good: { text: '狠拒宵夜誘惑，體態維持住，自律人設沒崩', ability: { sta: 1 } },
@@ -36,12 +36,12 @@ export const EVENT_CARDS = [
     bad:  { text: '玩到太陽升起，隔天訓練整個靈魂出竅', ability: { ref: -2, sta: -1 } } },
 
   { id: 'streaming', name: '直播放縱', kind: 'indulgent',
-    good: { text: '開台時間控制得宜，人氣穩定成長，彈幕一片祥和', ability: { sta: 1 }, flags: { popular: true } },
-    bad:  { text: '開台開到走火入魔，訓練量直接下滑', ability: { op: -2, ref: -1 } } },
+    good: { text: '開台時間控制得宜，人氣穩定成長，斗內刷不停', ability: { sta: 1 }, flags: { popular: true } },
+    bad:  { text: '開台開到走火入魔，訓練量下滑，聊天室笑你職業兼 YouTuber', ability: { op: -2, ref: -1 } } },
 
   { id: 'interview', name: '媒體專訪', kind: 'normal',
     good: { text: '專訪應對得體，贊助商主動來敲門', ability: { sta: 1 }, flags: { popular: true, bonusSalary: 40 } },
-    bad:  { text: '受訪失言上新聞，被鄉民拿出來鞭，狀態受影響', ability: { op: -1, sta: -1 } } },
+    bad:  { text: '受訪一句話被做成梗圖，全網開鞭，狀態受影響', ability: { op: -1, sta: -1 } } },
 
   { id: 'coaching', name: '教練團指導', kind: 'normal',
     good: { text: '教練點破你的戰術盲點，理解直接突破', ability: { macro: 2 }, flags: { macroPoint: true } },
@@ -52,12 +52,12 @@ export const EVENT_CARDS = [
     bad:  { text: '學了不適合自己的套路，繞了一大圈遠路', ability: { macro: -2 } } },
 
   { id: 'romance', name: '單身誘惑', kind: 'romance',
-    good: { text: '拒絕告白，把心思全押在訓練上，專注度爆表', ability: { op: 1 } },
+    good: { text: '拒絕告白，把青春全押在召喚峽谷，專注度爆表', ability: { op: 1 } },
     bad:  { text: '談起戀愛，心思全被分散，團戰各種走神', ability: { ref: -1, op: -1 }, flags: { romance: true } } },
 
   { id: 'endorsement', name: '代言邀約', kind: 'normal',
     good: { text: '代言商演安排得宜，名氣跟收入一起起飛', ability: { sta: 1 }, flags: { popular: true, bonusSalary: 120 } },
-    bad:  { text: '代言通告排太滿，訓練量直接歸零', ability: { op: -2, sta: -1 } } },
+    bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', ability: { op: -2, sta: -1 } } },
 
   { id: 'slump', name: '季中低潮', kind: 'normal',
     good: { text: '靠自己把低潮挺過去，心態反而更穩了', ability: { macro: 1, sta: 1 }, flags: { composure: true } },
@@ -69,11 +69,11 @@ export const EVENT_CARDS = [
 
   { id: 'roster_drama', name: '隊內矛盾', kind: 'normal',
     good: { text: '你主動把話攤開講，更衣室氣氛重新凝聚', ability: { macro: 1 }, flags: { leader: true } },
-    bad:  { text: '隊內氣氛僵掉，訓練賽都在互相甩鍋', ability: { tf: -2 }, flags: { mateMorale: -2 } } },
+    bad:  { text: '隊內宮鬥劇開演，訓練賽都在互相甩鍋', ability: { tf: -2 }, flags: { mateMorale: -2 } } },
 
   { id: 'boot_camp', name: '海外集訓', kind: 'normal',
     good: { text: '海外集訓遇上完全不同的打法，視野整個被打開', ability: { macro: 1, vis: 2, tf: 1 } },
-    bad:  { text: '時差沒調過來，海外集訓整趟都在昏睡', ability: { sta: -2, ref: -1 } } },
+    bad:  { text: '時差沒調過來，集訓整趟都在昏睡，峽谷團練全變夢遊', ability: { sta: -2, ref: -1 } } },
 ];
 
 /** 依生涯評價分級的粉絲留言 */
