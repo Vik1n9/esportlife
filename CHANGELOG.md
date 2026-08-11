@@ -57,6 +57,23 @@ MSI——程式把它寫成「國家隊徵召」，玩家可以婉拒，打完�
 - 修掉 `diminish()` 的保底缺陷：任何 ≥1 的變動永遠至少推 +1，邊際遞減在極端值
   等於失效。修正後打過六次以上國際賽的人大心臟不再清一色 100
 
+### 同批進來的前端 UI 重設計
+
+這一版還包含一輪獨立進行的前端重設計（樣式表 v3.1 → v4.3）：
+
+- 色階改以 tftactics.gg 的計算樣式為準：#0d202b／#102531／#123040，容器髮絲線
+  #17313a 只用於容器與分隔
+- 小控制無邊框、純填色 #123040、3px 圓角；容器 4px 近直角
+- 動作藍 #227aad（hover #4080b0）、active 底線 terracotta #d47559、
+  遊戲狀態金 #b89d27、標題亮青 #adf4ed
+- 移除自製 SVG 背景（`assets/rift-bg.svg`）與 Cinzel 襯線展示字
+- 新增 `DESIGN.md`（視覺規範）與 `PRODUCT.md`（產品定位）
+
+> 註：這批 UI 檔案在合併時被掃進了 `6ec9575`（年曆抽成資料表）與 `3af552d`
+> （世界賽重寫）兩個賽制 commit，不是獨立的 commit。要查 UI 的實際變動請直接
+> `git diff c94276b..HEAD -- index.html src/styles.css assets/`，不要照 commit
+> 訊息找。
+
 **測試**
 - `headless.mjs`（23KB 單檔）拆成 `tests/{kernel,phases,history,regression}/`，
   runner 自動掃描目錄
