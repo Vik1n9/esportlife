@@ -47,6 +47,33 @@ export function nextStepCost(state, key) {
 }
 
 /**
+ * 成長門檻資訊（純顯示用）。
+ * 回傳目前的單點成本、是否已超過潛力上限（成本 ×3），
+ * 以及下一個會漲價的數值門檻與屆時成本。
+ */
+export function growthThreshold(state, key) {
+  const value = state.ability[key];
+  const potentialCap = state.potential[key] ?? 62;
+  const over = value >= potentialCap;
+  const mult = over ? OVER_POTENTIAL_MULTIPLIER : 1;
+  const current = GROWTH_COST.find((g) => g.at <= value) || GROWTH_COST[GROWTH_COST.length - 1];
+  // GROWTH_COST 依 at 遞減排列，反轉後找「最小的、高於目前值」的門檻
+  const next = [...GROWTH_COST].reverse().find((g) => g.at > value) || null;
+  return {
+    cost: current.cost * mult,
+    over,
+    nextAt: next ? next.at : null,
+    nextCost: next ? next.cost * mult : null,
+  };
+}
+
+/** 距離下一點 +1，還需要投入多少訓練點（已扣除蓄力）。 */
+export function needForNextGain(state, key) {
+  const carry = state.carry[key] || 0;
+  return Math.max(0, growthThreshold(state, key).cost - carry);
+}
+
+/**
  * 投入 `points` 點訓練成果到某項能力。
  * 不足以買下一階時會存進 `carry` 蓄力，下次接續——避免小骰子完全浪費。
  * @returns {number} 實際提升的點數

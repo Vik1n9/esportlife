@@ -55,10 +55,10 @@ function multFor(rng, leagueKey, state) {
   return Math.round(clamp(m, 0.6, 2.2) * 100) / 100;
 }
 
-/* ---------------- 隊內衝突與球團切割 ---------------- */
+/* ---------------- 隊內衝突與戰隊切割 ---------------- */
 
 /**
- * 球團在休賽期對你的處置。
+ * 戰隊在休賽期對你的處置。
  *
  * 兩條真實存在的路：默契崩到底會被迫轉隊（吵到不能同隊了），風評爛到底
  * 會被直接切割（贊助商壓力大過競技價值）。兩者都作廢合約、丟進自由市場，
@@ -76,21 +76,21 @@ export function clubVerdict(state, rng) {
     const risk = clamp(22 + (-rep - 60) * 1.4 + (state.traits.pariah ? 15 : 0), 8, 70);
     if (rng.chance(risk)) {
       state.lastVerdictYear = state.year;
-      return { kind: 'fired', note: '贊助商施壓，球團決定與你切割' };
+      return { kind: 'fired', note: '贊助商施壓，戰隊決定與你切割' };
     }
   }
   if (chem <= 21 && !state.epic.lockerroom) {
     const risk = clamp(25 + (21 - chem) * 2 - (state.traits.glue ? 20 : 0), 8, 72);
     if (rng.chance(risk)) {
       state.lastVerdictYear = state.year;
-      return { kind: 'rift', note: '更衣室已經修不回來了，管理層決定拆開' };
+      return { kind: 'rift', note: '休息室已經修不回來了，管理層決定拆開' };
     }
   }
   return { kind: 'none' };
 }
 
 /**
- * 續約時球團的挽留意願。知名度高到一定程度，就算戰績普通也留得住。
+ * 續約時戰隊的挽留意願。知名度高到一定程度，就算戰績普通也留得住。
  * @returns {number} 額外的年薪係數
  */
 export function retentionPremium(state) {

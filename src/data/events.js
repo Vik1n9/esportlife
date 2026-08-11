@@ -28,7 +28,7 @@
  */
 export const EVENT_CARDS = [
   { id: 'solo_queue', name: '排位衝分', kind: 'normal',
-    prompt: '凌晨兩點，網咖只剩你這台還亮著。分數卡在門檻前一步，再一把就上得去——也可能一路掉回去。',
+    prompt: '凌晨兩點，訓練室只剩你這台還亮著。分數卡在門檻前一步，再一把就上得去——也可能一路掉回去。',
     options: [
       { id: 'grind', label: '衝到天亮，不上分不睡', odds: 45, gain: 2.2, loss: 1.3 },
       { id: 'balanced', label: '再打三把就收', odds: 55, gain: 1, loss: 1, main: true },
@@ -142,7 +142,7 @@ export const EVENT_CARDS = [
     options: [
       { id: 'sign', label: '全接，錢跟名氣都要', odds: 38, gain: 2.2, loss: 1.3 },
       { id: 'trim', label: '只接不影響訓練的檔期', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'reject', label: '推掉，這季只想打球', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'reject', label: '推掉，這季只想專注比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
     good: { text: '代言商演安排得宜，名氣跟收入一起起飛', ability: { sta: 1 }, flags: { popular: true, bonusSalary: 120 } },
     bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', ability: { op: -2, sta: -1 } } },
@@ -168,13 +168,13 @@ export const EVENT_CARDS = [
     bad:  { text: '檢討過頭，場上越想越多，反而畏首畏尾', ability: { lane: -2 } } },
 
   { id: 'roster_drama', name: '隊內矛盾', kind: 'normal',
-    prompt: '訓練賽輸完，更衣室安靜得可怕。有人開始在群組裡陰陽怪氣。',
+    prompt: '訓練賽輸完，休息室安靜得可怕。有人開始在群組裡陰陽怪氣。',
     options: [
       { id: 'confront', label: '當面把話攤開講清楚', odds: 48, gain: 2.2, loss: 1.3 },
       { id: 'mediate', label: '私下一個一個約出來談', odds: 60, gain: 1, loss: 1, main: true },
       { id: 'avoid', label: '不介入，交給教練處理', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '你主動把話攤開講，更衣室氣氛重新凝聚', ability: { macro: 1 }, flags: { leader: true } },
+    good: { text: '你主動把話攤開講，休息室氣氛重新凝聚', ability: { macro: 1 }, flags: { leader: true } },
     bad:  { text: '隊內宮鬥劇開演，訓練賽都在互相甩鍋', ability: { tf: -2 }, flags: { mateMorale: -2 } } },
 
   { id: 'boot_camp', name: '海外集訓', kind: 'normal',
@@ -197,4 +197,4 @@ export const FAN_QUOTES = [
   ['欸這誰？……查了一下，原來真的打過職業喔', '又一個被現實打敗的追夢人，唏噓，但至少拼過'],
 ];
 
-export const TIER_NAMES = ['傳奇', '歷史級球星', '優秀職業選手', '稱職選手', '邊緣選手'];
+export const TIER_NAMES = ['傳奇', '歷史級選手', '優秀職業選手', '稱職選手', '邊緣選手'];

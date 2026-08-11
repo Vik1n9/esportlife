@@ -141,7 +141,7 @@ function* phaseTraining(g) {
   const note = state.stage === 'PRO' ? disbandNoteFor(state) : null;
   state.disbandThreat = !!note;
   if (note) {
-    yield card('bad', '更衣室流言',
+    yield card('bad', '休息室流言',
       `圈內開始傳 <b class="hl">${state.team}</b> 的財務狀況。「${note}」——如果是真的，這會是你在這裡的最後一季。` +
       `<br><span class="muted">除非……你們今年拿下世界賽冠軍。</span>`);
   }
@@ -235,7 +235,7 @@ function* phaseSeason(g) {
     yield card('', splits.length > 1 ? `${split.name}戰報` : (state.stage === 'AMATEUR' ? '本年戰績' : '賽季戰報'),
       `${state.team}｜${label}<div class="statline">${formatStatLine(stat)}</div>`);
 
-    // 賽段中的休息室：只有職業階段才有真正的更衣室
+    // 賽段中的休息室：只有職業階段才有真正的休息室
     if (state.stage === 'PRO' && rng.chance(22)) yield* drawRoleplay(g, 'locker');
 
     const finish = yield* splitPlayoffs(g, split, stat, splits.length);
@@ -753,7 +753,7 @@ function* movement(g) {
 
   /* ---- PRO ---- */
   if (state.age >= 28 && (state.lastDelta || 0) >= 0 && !state.skipSeason && unlockTrait(state, 'veteran')) {
-    yield card('gold', '隱藏素質解鎖：老將', '28 歲仍屹立一軍，你學會用頭腦打球。<b class="hl">衰退減緩、可延長生涯</b>。');
+    yield card('gold', '隱藏素質解鎖：老將', '28 歲仍屹立一軍，你學會用頭腦打比賽。<b class="hl">衰退減緩、可延長生涯</b>。');
     yield* fusionBeats(g);
   }
 
@@ -776,14 +776,14 @@ function* movement(g) {
     return;
   }
 
-  // 更衣室與輿論的後果。合約還沒到期也擋不住——這是「被開除」跟「約滿不續」的差別
+  // 休息室與輿論的後果。合約還沒到期也擋不住——這是「被開除」跟「約滿不續」的差別
   const verdict = clubVerdict(state, rng);
   if (verdict.kind !== 'none') {
     state.firedTimes += 1;
     state.contract = null;
     state.forcedFA = true;
     if (verdict.kind === 'fired') {
-      yield card('bad', '球團切割',
+      yield card('bad', '戰隊切割',
         `${verdict.note}。<b class="hl">${state.team}</b> 單方面終止合約，你被<b class="dn">強制推上自由市場</b>，` +
         `而且這次願意接電話的隊伍不多。`);
     } else {
