@@ -7,6 +7,7 @@ import { effectiveOvr } from './abilities.js';
 import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './roster.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
+import { importSlotOpen, occupiesImportSlot } from './imports.js';
 
 export function formatMoney(n) {
   if (n >= 10000) return `${(n / 10000).toFixed(1)}億`;
@@ -125,8 +126,15 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
   const leagues = candidateLeagues(state);
   const offers = [];
 
+  const blockedByImports = [];
   for (const leagueKey of rng.shuffle(leagues)) {
     if (offers.length >= 4) break;
+    // 外援名額：主場賽區出身的選手簽進任何海外賽區都會佔掉一個名額，而名額本來
+    // 就是滿的。這不是數值不夠，是位子沒了
+    if (!importSlotOpen(state, rng, leagueKey)) {
+      if (occupiesImportSlot(state, leagueKey)) blockedByImports.push(leagueKey);
+      continue;
+    }
     let pool = teamsOf(state, leagueKey);
     if (leagueKey === 'AM2') pool = academyTeamsOf(state, state.am2Track === 'OVERSEAS' ? rng.pick(OVERSEAS_LEAGUES) : 'HOME');
     pool = pool.filter((t) => t !== state.team || !excludeCurrentTeam);
@@ -149,6 +157,7 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
   if ((rep <= -40 || flag(state, 'offerPenalty')) && offers.length > 1) {
     offers.length = Math.max(1, offers.length - (rep <= -70 ? 2 : 1));
   }
+  offers.blockedByImports = blockedByImports;
   return offers;
 }
 

@@ -1,8 +1,16 @@
 /**
- * 休賽期異動：升降級、業餘出路、戰隊解散、休息室清算、續約與自由市場。
+ * 轉會窗口。
  *
- * 目前仍是棒球的 FA 模型——合約到期才進市場。LoL 的年底是全賽區同時洗牌，合約中途
- * 被買斷、被掛交易名單都是常態，而且還有外援名額這道硬門檻。那些留待後續改寫。
+ * 舊版是棒球的 FA 模型：合約到期才進市場，沒到期的年份休賽期什麼都不會發生。
+ * LoL 的年底是全賽區同時洗牌——合約中途被買斷、被掛交易名單都是常態，而且整個
+ * 賽區的名單會在同一段時間翻新。
+ *
+ * 現在窗口每年都開，三拍：
+ *   1. 傳聞  被幾支隊點名連結，數量由知名度與上季表現決定
+ *   2. 官宣  續約／被挖／買斷／掛交易名單
+ *   3. 落定  隊友名單翻新（由 signContract → rollRoster 處理）
+ *
+ * 風評低而知名度高的人會出現「鬼牧」：傳聞滿天飛，實際報價一個都沒有。
  */
 import { LEAGUES } from '../data/leagues.js';
 import { effectiveOvr } from '../engine/abilities.js';
@@ -10,7 +18,9 @@ import {
   SCOUT_BAR, academyOffer, annualSalary, clubVerdict, disbandNoteFor, formatMoney,
   generateOffers, renewalTerms, scoutInterest, signContract, tryout,
 } from '../engine/market.js';
-import { homeLeagueName, leagueLabel } from '../engine/roster.js';
+import { homeLeagueName, leagueLabel, teamsOf } from '../engine/roster.js';
+import { occupiesImportSlot } from '../engine/imports.js';
+import { clamp } from '../core/rng.js';
 import { unlockTrait } from '../engine/progression.js';
 import { retire } from '../engine/retire.js';
 import { card, drawRoleplay, fusionBeats } from './shared.js';
@@ -75,12 +85,91 @@ export function* run(g) {
     return;
   }
 
-  // 復健年也要走合約時鐘（舊版直接跳過，等於免費續一年）
+  // 轉會窗口每年都開，不管合約剩幾年
+  const heat = yield* rumours(g);
+
   if (state.contract && state.contract.years > 1) {
+    // 合約中途也擋不住買斷——傳聞夠熱的時候，對方會直接把違約金付掉
+    if (yield* buyout(g, heat)) return;
+    // 復健年也要走合約時鐘（舊版直接跳過，等於免費續一年）
     tickContract(state);
     return;
   }
   yield* freeAgency(g, { forced: false });
+}
+
+/* ================= 第一拍：傳聞 ================= */
+
+/**
+ * 被幾支隊點名連結。
+ *
+ * 知名度決定聲量，上季表現決定可信度。兩者分開的用意是做得出「鬼牧」——風評爛
+ * 但很紅的人，傳聞會滿天飛，實際打電話來的一個都沒有。
+ *
+ * @returns {number} 傳聞熱度（0–5），供買斷判定使用
+ */
+function* rumours(g) {
+  const { state, rng } = g;
+  if (state.stage !== 'PRO') return 0;
+
+  const fame = state.mental.fame;
+  const delta = state.lastDelta || 0;
+  const heat = Math.round(clamp((fame - 32) / 14 + Math.max(0, delta) * 0.6, 0, 5));
+  if (heat <= 0) return 0;
+
+  const pool = teamsOf(state, state.league).filter((t) => t !== state.team);
+  if (!pool.length) return heat;
+  const linked = rng.sample(pool, Math.min(heat, pool.length));
+
+  // 風評見底的時候，傳聞跟報價會脫節——這就是鬼牧
+  const ghost = state.mental.rep <= -25 && heat >= 2;
+  yield card(ghost ? '' : 'info', '轉會期傳聞',
+    `窗口一開，你的名字被掛在 <b class="hl">${linked.join('、')}</b> 底下。` +
+    (ghost
+      ? '<br><span class="muted">記者寫得煞有其事，但你的經紀人說，沒有一通電話是真的。</span>'
+      : `<br><span class="muted">經紀人的手機這幾天沒停過。</span>`));
+  return heat;
+}
+
+/* ================= 第二拍：合約中途的買斷 ================= */
+
+/**
+ * 合約沒到期也走得掉——對方把違約金付了。
+ * @returns {boolean} 是否已經處理完異動
+ */
+function* buyout(g, heat) {
+  const { state, rng } = g;
+  if (heat < 3 || (state.lastDelta || 0) < 1) return false;
+  if (!rng.chance(10 + heat * 4)) return false;
+
+  const offers = generateOffers(state, rng, { excludeCurrentTeam: true });
+  if (!offers.length) return false;
+  const offer = offers[0];
+
+  const picked = yield {
+    type: 'choice',
+    title: `買斷報價 · ${offer.team}`,
+    options: [
+      {
+        id: 'go',
+        label: `接受買斷，加盟 ${offer.team}`,
+        note: `${offer.years} 年｜年薪估 ${formatMoney(offer.salary)}｜合約還剩 ${state.contract.years} 年，違約金由對方付`,
+        main: true,
+      },
+      { id: 'stay', label: `留在 ${state.team} 走完合約`, note: '把這一季打完再談' },
+    ],
+  };
+  if (picked !== 'go') {
+    yield card('', '婉拒買斷', `你選擇留下來。<b class="hl">${state.team}</b> 的休息室鬆了一口氣。`);
+    return false;
+  }
+
+  const before = state.team;
+  signContract(state, rng, offer);
+  yield card('info', '買斷成交',
+    `<b class="hl">${offer.team}</b> 付掉違約金，把你從 <b class="hl">${before}</b> 帶走。` +
+    `${offer.years} 年合約，教練體系：${state.coach}。`);
+  return true;
 }
 
 function tickContract(state) {
@@ -243,6 +332,14 @@ function* freeAgency(g, { forced }) {
   const { state, rng } = g;
   const offers = generateOffers(state, rng, { excludeCurrentTeam: forced });
   const options = [];
+
+  // 外援名額：不是數值不夠，是位子沒了。這是主場賽區出身的選手出海時的真實門檻
+  if (offers.blockedByImports?.length) {
+    const names = offers.blockedByImports.map((k) => LEAGUES[k].name).join('、');
+    yield card('', '外援名額已滿',
+      `<b class="hl">${names}</b> 那邊有隊伍問過，但每隊只能上 2 名外援，名額都佔著。` +
+      `<br><span class="muted">要擠進去，你得強到讓對方願意把現有的外援換掉。</span>`);
+  }
 
   if (!forced && state.contract) {
     const { long, short } = renewalTerms(state);
