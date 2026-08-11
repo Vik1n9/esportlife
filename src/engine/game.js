@@ -22,7 +22,9 @@ import { clamp } from '../core/rng.js';
 import { ABILITY_NAMES, STAT_BASELINE } from '../data/abilities.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
-import { BASE_TRAITS, EPIC_TRAITS } from '../data/traits.js';
+import { BASE_TRAITS } from '../data/traits.js';
+import { EPIC_TRAITS } from '../data/epics.js';
+import { bonus, flag } from '../kernel/modifiers.js';
 import { AMATEUR_CUPS, LEAGUES, START_YEAR, splitsOf } from '../data/world.js';
 import {
   abilityKeys, adjustAbility, applyAgeDecline, effectiveOvr,
@@ -175,13 +177,13 @@ function* rollTrainingDice(g, forced) {
   } else {
     const r = rng.next();
     let count = r < 0.35 ? 4 : r < 0.75 ? 5 : r < 0.97 ? 6 : 7;
-    if (state.epic.ascetic) count += 1;
+    count += bonus(state, 'diceBonus');
+    // `自律` 是機率性的，只有帶著它才會消耗這次亂數——所以不能收進 diceBonus
     if (state.traits.disc && rng.chance(30)) count += 1;
-    const gifted = state.traits.genius || state.epic.godhand;
-    dice = Array.from({ length: count }, () => (gifted ? rng.int(4, 6) : rng.int(1, 6)));
+    dice = Array.from({ length: count }, () => (flag(state, 'giftedDice') ? rng.int(4, 6) : rng.int(1, 6)));
   }
 
-  const gifted = state.traits.genius || state.epic.godhand;
+  const gifted = flag(state, 'giftedDice');
   if (!gifted && state.age < 22) {
     state.sixCount += dice.filter((v) => v === 6).length;
   }
@@ -448,7 +450,7 @@ function optionNote(opt, bonus) {
 function* drawEvent(g) {
   const { state, rng } = g;
   const ev = rng.pick(EVENT_CARDS);
-  const bonus = state.traits.genius || state.epic.godhand ? 20 : 0;
+  const oddsBonus = flag(state, 'giftedDice') ? 20 : 0;
 
   yield card('', ev.name, ev.prompt);
 
@@ -456,13 +458,13 @@ function* drawEvent(g) {
     type: 'choice',
     title: `${ev.name}：你怎麼應對？`,
     options: ev.options.map((o) => ({
-      id: o.id, label: o.label, main: !!o.main, note: optionNote(o, bonus),
+      id: o.id, label: o.label, main: !!o.main, note: optionNote(o, oddsBonus),
     })),
   };
   const opt = ev.options.find((o) => o.id === pickedId) || ev.options[0];
 
-  const immune = state.epic.ascetic && ev.kind === 'indulgent';
-  const good = immune || rng.chance(clamp((opt.odds ?? 50) + bonus, 5, 95));
+  const immune = flag(state, 'indulgentImmune') && ev.kind === 'indulgent';
+  const good = immune || rng.chance(clamp((opt.odds ?? 50) + oddsBonus, 5, 95));
   const outcome = good ? ev.good : ev.bad;
   const mult = good ? (opt.gain ?? 1) : (opt.loss ?? 1);
   const allowTraits = opt.traits !== false;
@@ -494,7 +496,7 @@ function* drawEvent(g) {
   if (flags.leader && unlockTrait(state, 'leader')) unlocked.push('leader');
   if (flags.laneking && state.age < 28 && unlockTrait(state, 'laneking')) unlocked.push('laneking');
   if (flags.macroPoint && state.ability.macro >= 60 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
-  if (flags.tiltRisk && !state.epic.ultstage && !state.traits.composure && rng.chance(25)) {
+  if (flags.tiltRisk && !flag(state, 'tiltImmune') && rng.chance(25)) {
     if (unlockTrait(state, 'tilt')) unlocked.push('tilt');
   }
 

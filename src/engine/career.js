@@ -1,5 +1,6 @@
 /** 生涯評分與分級。 */
 import { TIER_NAMES } from '../data/events.js';
+import { bonus } from '../kernel/modifiers.js';
 
 /**
  * 生涯分數。
@@ -33,7 +34,7 @@ export function careerScore(state) {
   score += count('單殺王') * 60;
   score += count('季後賽冠軍') * 80;
 
-  if (state.epic.ageless) score += 120;
+  score += bonus(state, 'careerScore');
   return Math.round(score);
 }
 

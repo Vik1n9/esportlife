@@ -3,6 +3,7 @@ import { LEAGUES, eraOf } from '../data/world.js';
 import { clamp } from '../core/rng.js';
 import { effectiveOvr } from './abilities.js';
 import { nerveBonus, underdogBonus } from './mental.js';
+import { bonus, floorOf } from '../kernel/modifiers.js';
 
 const MSI_CALLUP_OVR = 52;
 
@@ -35,19 +36,17 @@ export function runMsi(state, rng) {
   const delta = effectiveOvr(state) - MSI_CALLUP_OVR;
   const roll = rng.next() * 100
     + (delta >= 8 ? 12 : delta >= 3 ? 6 : 0)
-    + (state.traits.clutch ? 10 : 0)
-    + (state.epic.ultstage ? 8 : 0);
+    + bonus(state, 'intlRoll');
 
   const index = roll >= 90 ? 0 : roll >= 78 ? 1 : roll >= 60 ? 2 : 3;
   const result = MSI_RESULTS[index];
 
-  let points = result.points;
-  if (state.epic.nationalace || state.traits.intlghost) points = Math.max(points, 3);
+  const points = floorOf(state, 'intlFloor', result.points);
 
   state.pendingPoints += points;
   state.intlAppearances += 1;
   state.lastIntlYear = state.year;
-  state.carryInjuryRisk = state.epic.nationalace ? 0 : 10;
+  state.carryInjuryRisk = state.epic.soloking ? 0 : 10;
 
   if (index === 0) { state.msiWins += 1; state.msiPodiums += 1; }
   else if (index <= 2) state.msiPodiums += 1;
@@ -86,9 +85,9 @@ export function worldsEligible(state) {
 export function runWorlds(state, rng) {
   const era = eraOf(state.year);
   const delta = effectiveOvr(state) - 59;
-  const bonus = (state.traits.clutch ? 10 : 0) + (state.epic.ultstage ? 8 : 0) + (state.epic.nationalace ? 6 : 0)
+  const stageBonus = bonus(state, 'intlRoll') + bonus(state, 'worldsRoll')
     + underdogBonus(state, state.seed) + nerveBonus(state) * 0.5;
-  const roll = rng.next() * 100 + delta * 6 + bonus;
+  const roll = rng.next() * 100 + delta * 6 + stageBonus;
 
   let stage; let advanced = false;
   if (era.worlds === 'SWISS') {
@@ -111,7 +110,7 @@ export function runWorlds(state, rng) {
   }
 
   // 決賽是決勝局的極致，大心臟在這裡全額計入
-  const finalRoll = rng.next() * 100 + delta * 4 + bonus + nerveBonus(state);
+  const finalRoll = rng.next() * 100 + delta * 4 + stageBonus + nerveBonus(state);
   if (finalRoll >= 55) {
     state.worldsWins += 1;
     state.wonWorldsThisYear = true;

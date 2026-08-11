@@ -1,7 +1,9 @@
 /** 受傷、版本改動、英雄專精、特質解鎖與合成。 */
 import { clamp } from '../core/rng.js';
 import { HEROES, PATCH_THEMES } from '../data/world.js';
-import { BASE_TRAITS, EPIC_TRAITS, FUSIONS, traitName } from '../data/traits.js';
+import { BASE_TRAITS } from '../data/traits.js';
+import { EPIC_TRAITS, FUSIONS } from '../data/epics.js';
+import { capOf, factor, flag, traitName } from '../kernel/modifiers.js';
 
 /* ---------------- 受傷 ---------------- */
 
@@ -9,8 +11,8 @@ export function injuryProbability(state) {
   let p = 15;
   if (state.age >= 33) p += 12;
   else if (state.age >= 30) p += 6;
-  if (state.traits.iron) p = Math.min(p, 10);
-  if (state.epic.indestructible) return 0;
+  p = capOf(state, 'injuryRate', p);
+  if (flag(state, 'injuryImmune')) return 0;
   p += (state.carryInjuryRisk || 0) + (state.tempInjuryRisk || 0);
   return clamp(p, 3, 95);
 }
@@ -19,9 +21,9 @@ export function injuryProbability(state) {
  * @returns {{kind:'none'|'minor'|'major'}}
  */
 export function rollInjury(state, rng) {
-  if (state.epic.indestructible) return { kind: 'none' };
+  if (flag(state, 'injuryImmune')) return { kind: 'none' };
   if (!rng.chance(injuryProbability(state))) return { kind: 'none' };
-  if (rng.chance(state.traits.iron ? 15 : 30)) {
+  if (rng.chance(30 * factor(state, 'injuryMinorChance'))) {
     state.majorInjuries += 1;
     state.rehabYears = 1;
     return { kind: 'major' };

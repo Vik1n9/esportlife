@@ -2,6 +2,7 @@
 import { COACHES, DISBAND_YEAR, LEAGUES, MATE_NAMES, TEAMS_HOME, TEAMS_OVERSEAS, eraOf } from '../data/world.js';
 import { effectiveOvr } from './abilities.js';
 import { chemBonus } from './mental.js';
+import { factor, floorOf } from '../kernel/modifiers.js';
 
 export function homeLeagueName(state) {
   return eraOf(state.year).home;
@@ -45,14 +46,13 @@ export function rollRoster(state, rng, leagueKey) {
 }
 
 export function coachBonus(state) {
-  const base = COACHES[state.coach] || 0;
-  return state.epic.lockerroom ? base * 1.3 : base;
+  return (COACHES[state.coach] || 0) * factor(state, 'coachMult');
 }
 
 export function matesAverage(state) {
   if (!state.mates || !state.mates.length) return 0;
   const sum = state.mates.reduce((t, m) => t + m.ovr, 0);
-  const lead = state.epic.lockerroom ? 6 : state.traits.leader ? 5 : 0;
+  const lead = floorOf(state, 'teamLead', 0);
   // mateMorale 是單季的士氣，chem 是跨季累積的默契——兩者相加
   return sum / state.mates.length + lead + (state.mateMorale || 0) + chemBonus(state);
 }

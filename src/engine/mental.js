@@ -6,6 +6,7 @@
  */
 import { clamp } from '../core/rng.js';
 import { MENTAL_KEYS, MENTAL_NAMES, MENTAL_RANGE, mentalTier } from '../data/mental.js';
+import { bonus } from '../kernel/modifiers.js';
 
 /**
  * 邊際遞減。
@@ -78,6 +79,7 @@ export function mentalSummary(state) {
  */
 export function chemBonus(state) {
   const raw = (state.mental.chem - 50) * 0.12;
+  // 分段效果：休息室傳奇把負值抹平再加值，獨狼則只吃得到負的那一半
   if (state.epic.lockerroom) return Math.max(raw, 0) + 2;
   // 獨狼：個人數據好看，但他從隊友身上拿不到任何加成
   if (state.traits.lonewolf) return Math.min(raw, 0);
@@ -89,8 +91,9 @@ export function chemBonus(state) {
  * `心態崩盤` 會把大心臟的效果整個翻負。
  */
 export function nerveBonus(state) {
-  let base = (state.mental.nerve - 50) * 0.16;
-  if (state.traits.bigheart) base += 5;
+  let base = (state.mental.nerve - 50) * 0.16 + bonus(state, 'nerveAdd');
+  // 這兩個是分段效果，不是單純加減：終極舞台先保底再加值，心態崩盤把加成整個翻負。
+  // 寫不進特質資料表的 add/mul/floor/cap，所以留在這裡，順序也必須保持。
   if (state.epic.ultstage) base = Math.max(base, 4) + 4;
   if (state.traits.tilt) base = Math.min(base, 0) - 4;
   return clamp(base, -12, 12);
@@ -109,11 +112,9 @@ export function underdogBonus(state, seed) {
   if (!seed || seed <= 1) return 0;
   const depth = seed - 1;                       // 第 2 種子 1、第 4 種子 3
   const grit = (state.mental.nerve - 55) * 0.07 + (state.mental.chem - 55) * 0.05;
-  let bonus = Math.max(0, grit) * depth * 0.35;
-  if (state.traits.underdog) bonus += depth * 1.2;
-  if (state.epic.miracle) bonus += depth * 2.2;
+  const total = Math.max(0, grit) * depth * 0.35 + depth * bonus(state, 'underdogDepth');
   // 上限存在的理由：下剋上要是「有機會」，不是「換個種子序就變強隊」
-  return clamp(bonus, 0, 11);
+  return clamp(total, 0, 11);
 }
 
 /** 續約與報價的年薪係數加成：聲量大就得加薪留人，風評差則反過來 */

@@ -5,6 +5,7 @@ import { LEAGUES } from '../data/world.js';
 import { blankSeasonStat } from './state.js';
 import { effectiveOvr } from './abilities.js';
 import { teamStrength } from './team.js';
+import { factor } from '../kernel/modifiers.js';
 
 /** 體力對出賽場次的折損曲線 */
 function staminaFactor(sta) {
@@ -60,10 +61,8 @@ export function simulateSeason(state, rng, leagueKey, weight = 1) {
   stat.DMG = Math.round(clamp(base.DMG + delta * 0.4 + rng.gauss(1.5), 6, 45) * 10) / 10;
 
   const soloLaneBonus = (state.role === 'TOP' || state.role === 'MID') ? (a.lane - par) * 0.01 : 0;
-  stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2));
-  if (state.epic.nationalace) stat.SOLO = Math.round(stat.SOLO * 1.25);
-  if (state.traits.laneking) stat.SOLO = Math.round(stat.SOLO * 1.15);
-  if (state.traits.lonewolf) { stat.SOLO = Math.round(stat.SOLO * 1.2); stat.K = Math.round(stat.K * 1.1); }
+  stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2) * factor(state, 'soloRate'));
+  stat.K = Math.round(stat.K * factor(state, 'killRate'));
 
   const mvpRate = clamp(0.03 + delta * 0.004 + (stat.SOLO / Math.max(1, stat.G)) * 0.02, 0.005, 0.22);
   stat.MVP = Math.round(stat.G * mvpRate);

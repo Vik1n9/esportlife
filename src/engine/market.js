@@ -4,6 +4,7 @@ import { DISBAND_HISTORY, LEAGUES, OVERSEAS_LEAGUES, eraOf } from '../data/world
 import { effectiveOvr } from './abilities.js';
 import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './team.js';
+import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
 
 export function formatMoney(n) {
   if (n >= 10000) return `${(n / 10000).toFixed(1)}億`;
@@ -17,8 +18,7 @@ export function annualSalary(state, leagueKey, mult) {
   if (!league || !league.baseSalary) return 0;
   const era = eraOf(state.year);
   const perf = 1 + Math.max(0, state.lastDelta || 0) * 0.05;
-  const fame = state.traits.popular ? 1.12 : 1;
-  return Math.round(league.baseSalary * mult * era.salary * perf * fame);
+  return Math.round(league.baseSalary * mult * era.salary * perf * factor(state, 'endorsement'));
 }
 
 /* ---------------- 解散 ---------------- */
@@ -42,16 +42,23 @@ function candidateLeagues(state) {
   return out;
 }
 
+/**
+ * 合約係數。
+ *
+ * 三段固定順序：先把所有加項算進去，再套保底，最後套封頂。舊版是一連串 if，
+ * 保底與加項交錯（`神主牌` 的 1.2 在 `人氣選手` 的 +0.05 之前，`全民偶像` 的 1.25
+ * 卻在之後），於是同一個「保底 1.2」會因為身上還有什麼特質而給出不同結果。
+ * 改成固定三段之後，保底就真的是保底。
+ */
+function contractMult(state, raw, { capKey = 'contractCap' } = {}) {
+  // 聲量大就得加薪留人，風評差則反過來被砍價
+  const added = raw + bonus(state, 'contractAdd') + marketMultBonus(state);
+  return capOf(state, capKey, floorOf(state, 'contractFloor', added));
+}
+
 function multFor(rng, leagueKey, state) {
   const base = LEAGUES[leagueKey].tier >= 3 ? 1.05 : 0.9;
-  let m = base + rng.next() * 0.35;
-  if (state.traits.franchise) m = Math.max(m, 1.2);
-  if (state.epic.lockerroom) m = Math.max(m, 1.15);
-  if (state.traits.popular) m += 0.05;
-  // 聲量大就得加薪留人，風評差則反過來被砍價
-  m += marketMultBonus(state);
-  if (state.traits.idol) m = Math.max(m, 1.25);
-  if (state.traits.pariah) m = Math.min(m, 0.9);
+  const m = contractMult(state, base + rng.next() * 0.35);
   return Math.round(clamp(m, 0.6, 2.2) * 100) / 100;
 }
 
@@ -72,15 +79,15 @@ export function clubVerdict(state, rng) {
   if (state.lastVerdictYear != null && state.year - state.lastVerdictYear < 3) return { kind: 'none' };
   const { chem, rep } = state.mental;
 
-  if (rep <= -60 && !state.epic.showman) {
-    const risk = clamp(22 + (-rep - 60) * 1.4 + (state.traits.pariah ? 15 : 0), 8, 70);
+  if (rep <= -60 && !flag(state, 'repShield')) {
+    const risk = clamp(22 + (-rep - 60) * 1.4 + bonus(state, 'verdictRepRisk'), 8, 70);
     if (rng.chance(risk)) {
       state.lastVerdictYear = state.year;
       return { kind: 'fired', note: '贊助商施壓，戰隊決定與你切割' };
     }
   }
-  if (chem <= 21 && !state.epic.lockerroom) {
-    const risk = clamp(25 + (21 - chem) * 2 - (state.traits.glue ? 20 : 0), 8, 72);
+  if (chem <= 21 && !flag(state, 'verdictChemShield')) {
+    const risk = clamp(25 + (21 - chem) * 2 + bonus(state, 'verdictChemRisk'), 8, 72);
     if (rng.chance(risk)) {
       state.lastVerdictYear = state.year;
       return { kind: 'rift', note: '休息室已經修不回來了，管理層決定拆開' };
@@ -137,7 +144,7 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
   if (delta < 0 && offers.length > 1) offers.length = Math.max(1, offers.length - 1);
   // 風評爛到見底，就算數值還在也沒幾支隊敢碰
   const rep = state.mental?.rep ?? 0;
-  if ((rep <= -40 || state.traits.pariah) && offers.length > 1) {
+  if ((rep <= -40 || flag(state, 'offerPenalty')) && offers.length > 1) {
     offers.length = Math.max(1, offers.length - (rep <= -70 ? 2 : 1));
   }
   return offers;
@@ -216,11 +223,15 @@ export function academyOffer(state, rng, track = 'HOME') {
 export function renewalTerms(state) {
   const d = state.lastDelta || 0;
   const maxYears = d >= 3 ? 4 : d >= 0 ? 3 : 1;
-  const premium = retentionPremium(state) + marketMultBonus(state);
-  const long = { years: maxYears, mult: Math.round(clamp(0.95 + d * 0.03 + premium, 0.7, 1.6) * 100) / 100 };
-  const short = { years: Math.min(2, maxYears), mult: Math.round(clamp(1.12 + d * 0.03 + premium, 0.8, 1.9) * 100) / 100 };
-  if (state.traits.franchise) { long.mult = Math.max(long.mult, 1.2); short.mult = Math.max(short.mult, 1.2); }
-  if (state.epic.lockerroom) { long.mult = Math.max(long.mult, 1.15); short.mult = Math.max(short.mult, 1.15); }
-  if (state.traits.pariah) { long.mult = Math.min(long.mult, 0.9); short.mult = Math.min(short.mult, 0.95); }
+  // 續約走的是同一套三段順序，只是短約的封頂寬一點（留人的價碼砍不了那麼狠）
+  const premium = retentionPremium(state);
+  const long = {
+    years: maxYears,
+    mult: Math.round(clamp(contractMult(state, 0.95 + d * 0.03 + premium), 0.7, 1.6) * 100) / 100,
+  };
+  const short = {
+    years: Math.min(2, maxYears),
+    mult: Math.round(clamp(contractMult(state, 1.12 + d * 0.03 + premium, { capKey: 'contractCapShort' }), 0.8, 1.9) * 100) / 100,
+  };
   return { long, short };
 }

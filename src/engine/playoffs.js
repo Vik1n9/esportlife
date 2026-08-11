@@ -13,6 +13,7 @@ import { LEAGUES, CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/world.js';
 import { effectiveOvr } from './abilities.js';
 import { nerveBonus, underdogBonus } from './mental.js';
 import { teamStrength } from './team.js';
+import { bonus } from '../kernel/modifiers.js';
 
 /**
  * 進不進得了季後賽。例行賽打得越好、隊伍越強，機會越大。
@@ -27,8 +28,7 @@ export function playoffBerth(state, stat) {
 function gameChance(state, oppOvr, { decider, seed }) {
   const mine = teamStrength(state);
   let p = 50 + (mine - oppOvr) * 2.2;
-  p += underdogBonus(state, seed);
-  if (state.traits.clutch) p += 4;
+  p += underdogBonus(state, seed) + bonus(state, 'seriesGame');
   if (decider) p += nerveBonus(state);
   return clamp(p, 8, 92);
 }
