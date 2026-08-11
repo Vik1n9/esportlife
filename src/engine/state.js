@@ -91,7 +91,6 @@ export function createState({ name, role, seed }) {
     seasonFactor: 1,
     skipSeason: false,
     tempInjuryRisk: 0,
-    carryInjuryRisk: 0,
     rehabYears: 0,
     majorInjuries: 0,
     wonPlayoffThisYear: false,
@@ -108,6 +107,7 @@ export function createState({ name, role, seed }) {
     splitLog: [],            // 該年各賽段的 {name, stat, finish}
     champPoints: 0,          // 全年冠軍點數 → 世界賽種子
     seedRank: 0,             // 本年度種子序（0 = 未晉級）。舊版叫 seed，與出生種子撞名
+    worldsSlotBonus: 0,      // MSI 冠軍為賽區多掙的世界賽席位（2023 起的真實制度）
     wonSplitThisYear: false,
     splitTitles: 0,          // 生涯賽段冠軍數
     firedTimes: 0,           // 被開除／被迫轉隊的次數

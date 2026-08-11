@@ -18,6 +18,14 @@
 export const EVENTS = [
   { kind: 'SPLIT', order: 'PER_SPLIT', from: 2012, to: 9999 },
 
+  // MSI 打的就是剛結束那個賽段的冠軍，所以它插在該賽段之後、下一個賽段之前。
+  // 位置由 data/formats/msi.js 的 qualifyAfterSplit 決定（2025 起從第一賽段之後
+  // 移到第二賽段之後），這裡不必知道是哪一年
+  { kind: 'MSI', order: 'MSI_SLOT', from: 2015, to: 9999 },
+
+  // MSI 打完馬上要回去打下一個賽段，能力點得先分配掉
+  { kind: 'ALLOC', order: 'MSI_SLOT_AFTER', from: 2015, to: 9999, title: 'MSI 成果分配' },
+
   // 賽季結束：合併各賽段數據、算世界賽種子序、年度獎項、版本改動、傷病
   { kind: 'SEASON_END', order: 900, from: 2012, to: 9999 },
 
@@ -26,9 +34,6 @@ export const EVENTS = [
   { kind: 'SALARY', order: 902, from: 2012, to: 9999 },
   { kind: 'ALLOC', order: 903, from: 2012, to: 9999, title: '能力點分配' },
 
-  // MSI 目前還留在年末——它應該在第一賽段之後。移動它只需要改這一列的 order，
-  // 這正是把年曆抽成一張表的理由。
-  { kind: 'MSI', order: 904, from: 2012, to: 9999 },
   { kind: 'WORLDS', order: 905, from: 2012, to: 9999 },
   { kind: 'ALLOC', order: 906, from: 2012, to: 9999, title: '大賽成果分配' },
 

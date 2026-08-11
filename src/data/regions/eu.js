@@ -9,8 +9,8 @@ export default {
   teams: ['G2 Esports', 'Fnatic', 'MAD Lions KOI', 'Team Vitality', 'Karmine Corp', 'Team Heretics', 'SK Gaming', 'GIANTX'],
 
   splits: [
-    { until: 2022, names: ['春季賽', '夏季賽'] },
-    { until: 9999, names: ['冬季賽', '春季賽', '夏季賽'] },
+    { until: 2022, names: ['春季賽', '夏季賽'], msiAfter: 1 },
+    { until: 9999, names: ['冬季賽', '春季賽', '夏季賽'], msiAfter: 2 },
   ],
 
   worldsSlots: [{ until: 2022, n: 3 }, { until: 9999, n: 3 }],

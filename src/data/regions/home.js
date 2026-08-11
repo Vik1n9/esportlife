@@ -21,8 +21,8 @@ export default {
 
   splits: [
     { until: 2012, names: ['賽季'] },
-    { until: 2024, names: ['春季賽', '夏季賽'] },
-    { until: 9999, names: ['開季盃', '第一賽段', '第二賽段'] },
+    { until: 2024, names: ['春季賽', '夏季賽'], msiAfter: 1 },
+    { until: 9999, names: ['開季盃', '第一賽段', '第二賽段'], msiAfter: 2 },
   ],
 
   // 世界賽席位。GPL 時期只有一張外卡門票，LMS 起才穩定兩席

@@ -43,6 +43,21 @@ export function splitsOf(year, region) {
   return names.map((name, i) => ({ key: `S${i + 1}`, name, weight: 1 / names.length }));
 }
 
+/**
+ * MSI 接在該賽區當年的第幾個賽段之後（1 起算）。
+ *
+ * 這是賽區的年曆屬性，不是全球規則：2023 年 LEC 帶頭改三賽段，MSI 仍然接在春季賽
+ * 之後，也就是它的**第二**個賽段；同年其他賽區只有兩段，MSI 接在第一段之後。
+ * 把它寫成全球的「第 n 賽段」會讓 LEC 2023 抓到冬季賽冠軍去打 MSI。
+ *
+ * @returns {number|null} null 代表該年該賽區沒有對應賽段（例如 MSI 創辦前）
+ */
+export function msiSplitOf(year, region) {
+  const r = REGIONS[region];
+  if (!r) return null;
+  return rowFor(r.splits, year).msiAfter ?? null;
+}
+
 /** 該年度某賽區的世界賽席位數 */
 export function worldsSlotsOf(year, region) {
   const r = REGIONS[region];

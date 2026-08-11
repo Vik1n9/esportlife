@@ -13,7 +13,7 @@ export function injuryProbability(state) {
   else if (state.age >= 30) p += 6;
   p = capOf(state, 'injuryRate', p);
   if (flag(state, 'injuryImmune')) return 0;
-  p += (state.carryInjuryRisk || 0) + (state.tempInjuryRisk || 0);
+  p += (state.tempInjuryRisk || 0);
   return clamp(p, 3, 95);
 }
 

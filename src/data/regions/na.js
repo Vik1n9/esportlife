@@ -9,8 +9,8 @@ export default {
   teams: ['Cloud9', 'Team Liquid', '100 Thieves', 'FlyQuest', 'NRG', 'Shopify Rebellion', 'Dignitas', 'Immortals'],
 
   splits: [
-    { until: 2024, names: ['春季賽', '夏季賽'] },
-    { until: 9999, names: ['第一賽段', '第二賽段', '第三賽段'] },
+    { until: 2024, names: ['春季賽', '夏季賽'], msiAfter: 1 },
+    { until: 9999, names: ['第一賽段', '第二賽段', '第三賽段'], msiAfter: 2 },
   ],
 
   worldsSlots: [{ until: 2022, n: 3 }, { until: 9999, n: 3 }],

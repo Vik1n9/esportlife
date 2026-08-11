@@ -87,6 +87,7 @@ function* runYear(g) {
     state.splitLog = [];
     state.champPoints = 0;
     state.seedRank = 0;
+    state.worldsSlotBonus = 0;
     state.wonSplitThisYear = false;
   }
 

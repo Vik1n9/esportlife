@@ -15,8 +15,8 @@ export default {
 
   splits: [
     { until: 2014, names: ['冬季賽', '春季賽', '夏季賽'] },
-    { until: 2024, names: ['春季賽', '夏季賽'] },
-    { until: 9999, names: ['LCK Cup', '第一輪', '第二輪'] },
+    { until: 2024, names: ['春季賽', '夏季賽'], msiAfter: 1 },
+    { until: 9999, names: ['LCK Cup', '第一輪', '第二輪'], msiAfter: 2 },
   ],
 
   worldsSlots: [{ until: 2022, n: 3 }, { until: 9999, n: 4 }],

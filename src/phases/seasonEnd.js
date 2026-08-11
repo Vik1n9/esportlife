@@ -61,7 +61,6 @@ export function* run(g, phase) {
   }
 
   const injury = rollInjury(state, rng);
-  state.carryInjuryRisk = 0; // 國際賽消耗只影響一季，用掉就清掉
   if (injury.kind === 'major') {
     yield card('bad', '重傷 · 整季報銷', '手腕／背部重傷，手術後提前結束本季，下季進入復健。');
   } else if (injury.kind === 'minor') {

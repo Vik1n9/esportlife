@@ -1,60 +1,14 @@
-/** MSI 與世界賽。 */
+/**
+ * 世界賽。
+ *
+ * MSI 已經搬進 `phases/msi.js` 並整個改寫（俱樂部身分、逐輪比分、年中時序）。
+ * 這裡剩下的世界賽仍是舊版——門票一次擲骰、賽程一次擲骰，下一步改寫。
+ */
 import { LEAGUES } from '../data/leagues.js';
 import { eraOf } from '../data/eras.js';
-import { clamp } from '../core/rng.js';
 import { effectiveOvr } from './abilities.js';
 import { nerveBonus, underdogBonus } from './mental.js';
-import { bonus, floorOf } from '../kernel/modifiers.js';
-
-const MSI_CALLUP_OVR = 52;
-
-/** 是否符合本季被徵召 MSI 的條件 */
-export function msiEligible(state) {
-  const era = eraOf(state.year);
-  return state.stage === 'PRO'
-    && era.msi
-    && state.seasonFactor >= 0.5
-    && !state.skipSeason
-    && effectiveOvr(state) >= MSI_CALLUP_OVR;
-}
-
-/**
- * 列管徵召：三年內打過 MSI 就不能再婉拒。
- * 舊版把 `intlLock` 設成「第一次被叫的年份」且永不更新，導致第 4 年之後永遠可以拒絕。
- */
-export function msiForced(state) {
-  return state.lastIntlYear != null && state.year - state.lastIntlYear <= 3;
-}
-
-const MSI_RESULTS = [
-  { rank: 'MSI 冠軍', points: 6 },
-  { rank: 'MSI 亞軍', points: 4 },
-  { rank: 'MSI 四強', points: 3 },
-  { rank: 'MSI 小組止步', points: 1 },
-];
-
-export function runMsi(state, rng) {
-  const delta = effectiveOvr(state) - MSI_CALLUP_OVR;
-  const roll = rng.next() * 100
-    + (delta >= 8 ? 12 : delta >= 3 ? 6 : 0)
-    + bonus(state, 'intlRoll');
-
-  const index = roll >= 90 ? 0 : roll >= 78 ? 1 : roll >= 60 ? 2 : 3;
-  const result = MSI_RESULTS[index];
-
-  const points = floorOf(state, 'intlFloor', result.points);
-
-  state.pendingPoints += points;
-  state.intlAppearances += 1;
-  state.lastIntlYear = state.year;
-  state.carryInjuryRisk = state.epic.soloking ? 0 : 10;
-
-  if (index === 0) { state.msiWins += 1; state.msiPodiums += 1; }
-  else if (index <= 2) state.msiPodiums += 1;
-
-  state.honors.push(`${state.year} ${result.rank}`);
-  return { ...result, points, index };
-}
+import { bonus } from '../kernel/modifiers.js';
 
 /**
  * 世界賽出線機率。
