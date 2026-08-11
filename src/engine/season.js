@@ -17,12 +17,17 @@ function staminaFactor(sta) {
 }
 
 /**
- * 模擬一個賽季。
+ * 模擬一個賽段。
+ *
+ * `weight` 是該賽段佔全年場次的比例——一年拆成三賽段不代表要打三倍的比賽，
+ * 場次是切開來分的，變多的是決策點與事件，不是場次。
+ *
  * @param {object} state
  * @param {import('../core/rng.js').Rng} rng
  * @param {string} leagueKey
+ * @param {number} [weight] 佔全年場次比例，預設 1（整年一段）
  */
-export function simulateSeason(state, rng, leagueKey) {
+export function simulateSeason(state, rng, leagueKey, weight = 1) {
   const league = LEAGUES[leagueKey];
   const a = state.ability;
   const stat = blankSeasonStat();
@@ -36,7 +41,7 @@ export function simulateSeason(state, rng, leagueKey) {
   stat.delta = delta;
 
   const perf = clamp(0.82 + delta * 0.03, 0.45, 1.12);
-  stat.G = Math.max(1, Math.round(league.games * staminaFactor(a.sta) * perf * state.seasonFactor * (0.95 + rng.next() * 0.06)));
+  stat.G = Math.max(1, Math.round(league.games * weight * staminaFactor(a.sta) * perf * state.seasonFactor * (0.95 + rng.next() * 0.06)));
 
   const winRate = clamp(
     0.5 + (teamStrength(state) - par) * 0.012 + delta * 0.006 + rng.gauss(0.03),
@@ -58,11 +63,29 @@ export function simulateSeason(state, rng, leagueKey) {
   stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2));
   if (state.epic.nationalace) stat.SOLO = Math.round(stat.SOLO * 1.25);
   if (state.traits.laneking) stat.SOLO = Math.round(stat.SOLO * 1.15);
+  if (state.traits.lonewolf) { stat.SOLO = Math.round(stat.SOLO * 1.2); stat.K = Math.round(stat.K * 1.1); }
 
   const mvpRate = clamp(0.03 + delta * 0.004 + (stat.SOLO / Math.max(1, stat.G)) * 0.02, 0.005, 0.22);
   stat.MVP = Math.round(stat.G * mvpRate);
 
   return stat;
+}
+
+/**
+ * 把同一年的多個賽段併成一份年度數據。
+ * DMG% 是比例，取場次加權；delta 取全年平均。
+ */
+export function mergeSplits(splits) {
+  const out = blankSeasonStat();
+  out.years = 1;
+  if (!splits.length) { out.delta = 0; return out; }
+  for (const s of splits) {
+    for (const k of ['G', 'W', 'L', 'K', 'D', 'A', 'CS', 'VIS', 'SOLO', 'MVP']) out[k] += s[k];
+  }
+  const totalG = out.G || 1;
+  out.DMG = Math.round(splits.reduce((t, s) => t + s.DMG * s.G, 0) / totalG * 10) / 10;
+  out.delta = Math.round(splits.reduce((t, s) => t + (s.delta || 0), 0) / splits.length * 10) / 10;
+  return out;
 }
 
 /** 把單季數據累加進生涯分區統計 */

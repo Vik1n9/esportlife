@@ -15,6 +15,74 @@ export function eraOf(year) {
 }
 
 /**
+ * 賽段結構的史實演進。
+ *
+ * LoL 的一年不是永遠都長一樣：2012 年多數賽區還是打完一季就結束，之後才穩定成
+ * 春季／夏季兩賽段，2023 年 LEC 帶頭改三賽段，2025 年 LCK／LPL／LTA／LCP 全面
+ * 走向「開季盃＋兩個賽段」的三段式。韓國反而是最早三段的——2012–2014 的
+ * OGN Champions 本來就分冬／春／夏三季。
+ *
+ * 每個賽段各自有例行賽與季後賽，所以賽段越多，一年的決策點與事件也越多。
+ * `until` 為該列適用的最後一年。
+ */
+const SPLIT_HISTORY = {
+  HOME: [
+    { until: 2012, splits: ['賽季'] },
+    { until: 2024, splits: ['春季賽', '夏季賽'] },
+    { until: 9999, splits: ['開季盃', '第一賽段', '第二賽段'] },
+  ],
+  KR: [
+    { until: 2014, splits: ['冬季賽', '春季賽', '夏季賽'] },
+    { until: 2024, splits: ['春季賽', '夏季賽'] },
+    { until: 9999, splits: ['LCK Cup', '第一輪', '第二輪'] },
+  ],
+  CN: [
+    { until: 2012, splits: ['賽季'] },
+    { until: 2024, splits: ['春季賽', '夏季賽'] },
+    { until: 9999, splits: ['第一賽段', '第二賽段', '第三賽段'] },
+  ],
+  EU: [
+    { until: 2022, splits: ['春季賽', '夏季賽'] },
+    { until: 9999, splits: ['冬季賽', '春季賽', '夏季賽'] },
+  ],
+  NA: [
+    { until: 2024, splits: ['春季賽', '夏季賽'] },
+    { until: 9999, splits: ['第一賽段', '第二賽段', '第三賽段'] },
+  ],
+};
+
+/**
+ * 該年度某賽區的賽段清單。
+ *
+ * `weight` 是該賽段佔全年場次的比例——賽段變多不代表一年要打三倍的比賽，
+ * 場次是切開來分配的，只有決策點與事件變密。
+ *
+ * @param {number} year
+ * @param {string} [region] LEAGUES[k].region；業餘／青訓不傳
+ * @returns {{key:string, name:string, weight:number}[]}
+ */
+export function splitsOf(year, region) {
+  const table = SPLIT_HISTORY[region];
+  if (!table) return [{ key: 'S1', name: '賽季', weight: 1 }];
+  const row = table.find((r) => year <= r.until) || table[table.length - 1];
+  const n = row.splits.length;
+  return row.splits.map((name, i) => ({ key: `S${i + 1}`, name, weight: 1 / n }));
+}
+
+/**
+ * 冠軍點數：全年各賽段季後賽名次累積，決定世界賽種子序。
+ * 這是 2013–2022 真實存在的制度，也是「第四種子」這種身分能成立的前提。
+ */
+export const CHAMPIONSHIP_POINTS = { champion: 90, final: 70, semi: 45, quarter: 20, none: 5 };
+
+/** 季後賽輪次名稱（由參賽規模決定要打幾輪） */
+export const PLAYOFF_ROUNDS = [
+  { key: 'quarter', name: '八強', bo: 3 },
+  { key: 'semi', name: '四強', bo: 5 },
+  { key: 'final', name: '決賽', bo: 5 },
+];
+
+/**
  * 聯賽階梯。
  * - `par` 為該聯賽先發平均 OVR；`min` 為簽約門檻；`games` 為單季場次上限。
  * - `bucket` 是生涯數據分區的鍵。

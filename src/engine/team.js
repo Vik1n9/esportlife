@@ -1,6 +1,7 @@
 /** 隊友、教練、隊伍強度。 */
 import { COACHES, DISBAND_YEAR, LEAGUES, MATE_NAMES, TEAMS_HOME, TEAMS_OVERSEAS, eraOf } from '../data/world.js';
 import { effectiveOvr } from './abilities.js';
+import { chemBonus } from './mental.js';
 
 export function homeLeagueName(state) {
   return eraOf(state.year).home;
@@ -39,6 +40,8 @@ export function rollRoster(state, rng, leagueKey) {
   state.mates = rng.sample(MATE_NAMES, 4).map((name) => ({ name, ovr: rng.int(par - 6, par + 6) }));
   state.coach = rng.pick(Object.keys(COACHES));
   state.mateMorale = 0;
+  // 換了一批隊友，默契要重新建立：往中性拉回一半，但你是什麼樣的人會跟著你走
+  if (state.mental) state.mental.chem = Math.round((state.mental.chem + 50) / 2);
 }
 
 export function coachBonus(state) {
@@ -50,7 +53,8 @@ export function matesAverage(state) {
   if (!state.mates || !state.mates.length) return 0;
   const sum = state.mates.reduce((t, m) => t + m.ovr, 0);
   const lead = state.epic.lockerroom ? 6 : state.traits.leader ? 5 : 0;
-  return sum / state.mates.length + lead + (state.mateMorale || 0);
+  // mateMorale 是單季的士氣，chem 是跨季累積的默契——兩者相加
+  return sum / state.mates.length + lead + (state.mateMorale || 0) + chemBonus(state);
 }
 
 /**

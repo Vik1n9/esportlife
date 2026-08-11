@@ -21,19 +21,24 @@
 import { clamp } from '../core/rng.js';
 import { ABILITY_NAMES, STAT_BASELINE } from '../data/abilities.js';
 import { EVENT_CARDS } from '../data/events.js';
+import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
 import { BASE_TRAITS, EPIC_TRAITS } from '../data/traits.js';
-import { AMATEUR_CUPS, LEAGUES, START_YEAR } from '../data/world.js';
+import { AMATEUR_CUPS, LEAGUES, START_YEAR, splitsOf } from '../data/world.js';
 import {
   abilityKeys, adjustAbility, applyAgeDecline, effectiveOvr,
   investAbility, ovr, patchPenalty, retirementAge,
 } from './abilities.js';
 import { careerTier, tierName } from './career.js';
 import { msiEligible, msiForced, runMsi, runWorlds, worldsEligible, worldsQualifyChance } from './international.js';
+import { applyMental, driftMental } from './mental.js';
 import {
-  SCOUT_BAR, academyOffer, annualSalary, disbandNoteFor, formatMoney,
+  SCOUT_BAR, academyOffer, annualSalary, clubVerdict, disbandNoteFor, formatMoney,
   generateOffers, renewalTerms, scoutInterest, signContract, tryout,
 } from './market.js';
-import { accumulate, formatStatLine, simulateSeason } from './season.js';
+import {
+  entryRound, opponentOvr, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed, worldsSeed,
+} from './playoffs.js';
+import { accumulate, formatStatLine, mergeSplits, simulateSeason } from './season.js';
 import { adjustPatchDebt, applyPatch, checkFusions, rollInjury, trainHeroes, unlockTrait } from './progression.js';
 import { homeLeagueName } from './team.js';
 
@@ -95,6 +100,7 @@ function* runYear(g) {
   yield* phaseSeason(g);
   yield* phaseOffseason(g);
 
+  driftMental(state);
   state.age += 1;
   state.year += 1;
   state.stageYear += 1;
@@ -151,6 +157,13 @@ function* phaseTraining(g) {
   }
 
   yield* rollTrainingDice(g, null);
+
+  // 訓練期的人際路口。刻意只抽一張——扮演卡多到每回合都在選，就變成噪音了
+  if (state.stage !== 'AMATEUR') {
+    if (rng.chance(45)) yield* drawRoleplay(g, rng.chance(50) ? 'coach' : 'daily');
+  } else if (rng.chance(25)) {
+    yield* drawRoleplay(g, 'daily');
+  }
 }
 
 function* rollTrainingDice(g, forced) {
@@ -189,19 +202,54 @@ function* rollTrainingDice(g, forced) {
 
 /* ================= 季中：賽季 ================= */
 
+/**
+ * 一年的賽季。
+ *
+ * 賽段制：一年不再是一次結算。依當年該賽區的真實賽制（2012 單季 →
+ * 春／夏兩賽段 → 2025 起的三賽段；韓國 2012–2014 本來就是冬／春／夏三季）
+ * 跑 1～3 個賽段，每個賽段各自有例行賽、季後賽與冠軍點數，全年累積的
+ * 點數決定世界賽種子序——第四種子這個身分要能存在，下剋上才有起點。
+ */
 function* phaseSeason(g) {
   const { state, rng } = g;
   yield { type: 'phase', index: 1 };
   if (state.skipSeason) return;
 
   const leagueKey = currentLeagueKey(state);
-  const stat = simulateSeason(state, rng, leagueKey);
+  const splits = splitsOf(state.year, LEAGUES[leagueKey].region);
+  const bucket = LEAGUES[leagueKey].bucket;
+
+  state.splitLog = [];
+  state.champPoints = 0;
+  state.seed = 0;
+  state.wonSplitThisYear = false;
+
+  const collected = [];
+  for (const split of splits) {
+    const stat = simulateSeason(state, rng, leagueKey, split.weight);
+    collected.push(stat);
+    accumulate(state, bucket, stat);
+
+    const venue = state.stage === 'AMATEUR' ? rng.pick(AMATEUR_CUPS) : stageLabel(state);
+    const label = splits.length > 1 ? `${venue}　${split.name}` : venue;
+    yield card('', splits.length > 1 ? `${split.name}戰報` : (state.stage === 'AMATEUR' ? '本年戰績' : '賽季戰報'),
+      `${state.team}｜${label}<div class="statline">${formatStatLine(stat)}</div>`);
+
+    // 賽段中的休息室：只有職業階段才有真正的更衣室
+    if (state.stage === 'PRO' && rng.chance(22)) yield* drawRoleplay(g, 'locker');
+
+    const finish = yield* splitPlayoffs(g, split, stat, splits.length);
+    state.champPoints += pointsFor(finish);
+    state.splitLog.push({ name: split.name, stat, finish });
+
+    // 每個賽段各抽一張事件卡——賽段變多，人生的岔路也跟著變多
+    yield* drawEvent(g);
+  }
+
+  const stat = mergeSplits(collected);
   state.lastStat = stat;
   state.lastDelta = stat.delta;
   state.peakOvr = Math.max(state.peakOvr, ovr(state));
-
-  const bucket = LEAGUES[leagueKey].bucket;
-  accumulate(state, bucket, stat);
   if (state.stage === 'PRO') state.proYears += 1;
 
   const learned = trainHeroes(state, rng, stat.G);
@@ -211,10 +259,11 @@ function* phaseSeason(g) {
     ? `綜合 OVR <b class="hl">${ovr(state)}</b> <span class="dn">${penalty}</span>（版本落差）`
     : `綜合 OVR <b class="hl">${ovr(state)}</b>`;
   const line = formatStatLine(stat);
-  // 業餘階段沒有固定聯賽，打的是一場一場的網咖盃
-  const venue = state.stage === 'AMATEUR' ? rng.pick(AMATEUR_CUPS) : stageLabel(state);
-  yield card('', state.stage === 'AMATEUR' ? '本年戰績' : '賽季戰報',
-    `${state.team}｜${venue}　${ovrNote}<div class="statline">${line}</div>`);
+  if (splits.length > 1) {
+    yield card('', '年度總結',
+      `${state.team}｜${stageLabel(state)}　${ovrNote}<div class="statline">${line}</div>` +
+      (state.stage === 'PRO' ? `<br><span class="muted">全年冠軍點數 ${state.champPoints}</span>` : ''));
+  }
   state.seasonLog.push({ year: state.year, age: state.age, team: state.team, line, stat });
 
   if (learned.length) {
@@ -222,7 +271,10 @@ function* phaseSeason(g) {
       `苦練有成，<b class="hl">${learned.join('、')}</b> 正式進入你的比賽池。目前池深 <b class="hl">${state.heroPool.length}</b> 隻。`);
   }
 
-  if (state.stage === 'PRO') yield* awards(g, stat);
+  if (state.stage === 'PRO') {
+    state.seed = worldsSeed(state.champPoints);
+    yield* awards(g, stat);
+  }
 
   if (rng.chance(38)) {
     const theme = applyPatch(state, rng);
@@ -242,13 +294,81 @@ function* phaseSeason(g) {
     yield card('bad', '傷勢', '手腕不適，出賽與狀態受影響。');
   }
 
-  yield* drawEvent(g);
-
   if (!state.romance && state.age >= 18) state.singleYears += 1;
   if (state.singleYears >= 4 && !state.romance && unlockTrait(state, 'single')) {
     yield card('gold', '隱藏素質解鎖：單身', '你把青春全部獻給召喚峽谷。');
     yield* fusionBeats(g);
   }
+}
+
+/**
+ * 一個賽段的季後賽。
+ *
+ * 舊版整年只有一次 `rng.chance()` 就決定有沒有冠軍，一局比分都看不到。
+ * 現在是八強 BO3 → 四強 BO5 → 決賽 BO5 逐輪打，種子序決定從哪一輪開始，
+ * 每一輪之前都留一個扮演的路口（賽前記者會、休息室），決勝局另外吃大心臟。
+ *
+ * @returns {'champion'|'final'|'semi'|'quarter'|'none'}
+ */
+function* splitPlayoffs(g, split, stat, splitCount) {
+  const { state, rng } = g;
+  if (state.stage !== 'PRO') return 'none';
+
+  const title = splitCount > 1 ? `${stageLabel(state)} ${split.name}` : `${stageLabel(state)}`;
+  if (!rng.chance(playoffBerth(state, stat))) {
+    yield card('', `${split.name}季後賽`, `例行賽名次不夠，<b class="dn">無緣${split.name}季後賽</b>。`);
+    return 'none';
+  }
+
+  const seed = splitSeed(state, stat);
+  state.seed = seed;
+  const rounds = roundsFrom(entryRound(seed));
+  yield card('info', `${split.name}季後賽`,
+    `以<b class="hl">第 ${seed} 種子</b>晉級${split.name}季後賽，從<b class="hl">${rounds[0].name}</b>打起。`);
+
+  let reached = 'none';
+  for (const round of rounds) {
+    // 扮演路口只留在最有份量的兩輪：進場的第一輪與決賽。
+    // 每一輪都問一次的話，一年會被問到九次，該有的重量就沒了
+    if (round === rounds[0] || round.key === 'final') yield* drawRoleplay(g, 'presser');
+
+    const oppOvr = opponentOvr(state, round.key, seed, rng);
+    const res = runSeries(state, rng, { bo: round.bo, oppOvr, seed });
+    const score = `${res.mine}-${res.theirs}`;
+    const deciderNote = res.decider
+      ? `<br><span class="muted">系列賽被拖進決勝局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>`
+      : '';
+    const foe = seed === 1 ? '對上一路殺上來的黑馬'
+      : seed === 2 ? '對上實力相當的對手'
+      : '對上種子序更前的隊伍';
+    yield card(res.win ? 'good' : 'bad', `${round.name} · BO${round.bo}`,
+      `${foe}，系列賽 <b class="${res.win ? 'up' : 'dn'}">${score}</b>${deciderNote}`);
+
+    if (!res.win) { reached = round.key; break; }
+    reached = round.key === 'final' ? 'champion' : round.key;
+  }
+
+  if (reached === 'champion') {
+    state.wonPlayoffThisYear = true;
+    state.wonSplitThisYear = true;
+    state.splitTitles += 1;
+    state.honors.push(`${state.year} ${title}冠軍`);
+    yield card('gold', `${split.name}冠軍`, `你帶領 <b class="hl">${state.team}</b> 奪下 <b class="hl">${title}冠軍</b>！`);
+    // 只有從最後一個種子序一路打上來才算下剋上，第三種子還不夠
+    if (seed >= 4 && unlockTrait(state, 'underdog')) {
+      yield card('gold', '隱藏素質解鎖：逆風翻盤',
+        `第 ${seed} 種子一路打上去把冠軍拿走——沒有人看好的時候，你反而更強。`);
+      yield* fusionBeats(g);
+    }
+    if (!state.traits.clutch && state.age <= 30 && unlockTrait(state, 'clutch')) {
+      yield card('gold', '隱藏素質解鎖：大賽選手', '越大的舞台，你的手越穩。');
+      yield* fusionBeats(g);
+    }
+    if (rng.chance(50)) yield* drawRoleplay(g, 'locker');
+  } else if (reached === 'final') {
+    state.honors.push(`${state.year} ${title}亞軍`);
+  }
+  return reached;
 }
 
 /**
@@ -295,30 +415,79 @@ function* awards(g, stat) {
   }
 }
 
+/** 縮放事件結果的數值：倍率再小也不會把有效果的一項縮成 0 */
+function scaleAmount(v, mult) {
+  if (!v || mult === 1) return v;
+  return Math.sign(v) * Math.max(1, Math.round(Math.abs(v) * mult));
+}
+
+/** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效 */
+const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk'];
+
+/** 選項按鈕上的說明：成功率與幅度一律由數值生成，不在資料層寫死 */
+function optionNote(opt, bonus) {
+  const parts = [`成功 ${clamp((opt.odds ?? 50) + bonus, 5, 95)}%`];
+  const gain = opt.gain ?? 1;
+  const loss = opt.loss ?? 1;
+  if (gain >= 1.5 && loss >= 1.5) parts.push('大起大落');
+  else if (gain >= 1.5) parts.push('成了收穫加倍');
+  else if (loss >= 1.5) parts.push('失手代價加重');
+  else if (gain <= 0.6 && loss <= 0.6) parts.push('幅度小');
+  if (opt.traits === false) parts.push('不觸發隱藏素質');
+  return parts.join('・');
+}
+
+/**
+ * 事件卡。
+ *
+ * 舊版是引擎自己擲一次 50/50 就把結果貼出來，玩家從頭到尾只是讀者——
+ * 整段生涯能真正做決定的地方只剩訓練加點與合約路口。現在先描述處境，
+ * 再讓玩家選一條應對方式，選項本身決定成功率與數值幅度；「安全牌」
+ * 換到的是低變異，代價是那條路不會覺醒任何隱藏素質。
+ */
 function* drawEvent(g) {
   const { state, rng } = g;
   const ev = rng.pick(EVENT_CARDS);
-  const goodChance = state.traits.genius || state.epic.godhand ? 70 : 50;
+  const bonus = state.traits.genius || state.epic.godhand ? 20 : 0;
+
+  yield card('', ev.name, ev.prompt);
+
+  const pickedId = yield {
+    type: 'choice',
+    title: `${ev.name}：你怎麼應對？`,
+    options: ev.options.map((o) => ({
+      id: o.id, label: o.label, main: !!o.main, note: optionNote(o, bonus),
+    })),
+  };
+  const opt = ev.options.find((o) => o.id === pickedId) || ev.options[0];
+
   const immune = state.epic.ascetic && ev.kind === 'indulgent';
-  const good = immune || rng.chance(goodChance);
+  const good = immune || rng.chance(clamp((opt.odds ?? 50) + bonus, 5, 95));
   const outcome = good ? ev.good : ev.bad;
+  const mult = good ? (opt.gain ?? 1) : (opt.loss ?? 1);
+  const allowTraits = opt.traits !== false;
 
   const notes = [];
   for (const [k, v] of Object.entries(outcome.ability || {})) {
-    const applied = adjustAbility(state, k, v);
+    const applied = adjustAbility(state, k, scaleAmount(v, mult));
     if (applied > 0) notes.push(`${ABILITY_NAMES[k]} <span class="up">+${applied}</span>`);
     else if (applied < 0) notes.push(`${ABILITY_NAMES[k]} <span class="dn">${applied}</span>`);
   }
 
   const unlocked = [];
-  const flags = outcome.flags || {};
-  if (flags.patchDebt) {
-    adjustPatchDebt(state, flags.patchDebt);
-    notes.push(flags.patchDebt < 0 ? '版本落差 <span class="up">↓</span>' : '版本落差 <span class="dn">↑</span>');
+  const flags = { ...(outcome.flags || {}), ...(opt.flags || {}) };
+  if (!allowTraits) for (const key of TRAIT_FLAGS) delete flags[key];
+  // 數值型副作用跟能力值一樣吃選項倍率，布林型（素質、戀愛）則不縮放
+  const patchDebt = scaleAmount(flags.patchDebt, mult);
+  if (patchDebt) {
+    adjustPatchDebt(state, patchDebt);
+    notes.push(patchDebt < 0 ? '版本落差 <span class="up">↓</span>' : '版本落差 <span class="dn">↑</span>');
   }
-  if (flags.injuryRisk) state.tempInjuryRisk += flags.injuryRisk;
-  if (flags.bonusSalary) { state.bonusSalary += flags.bonusSalary; notes.push(`業外收入 <span class="up">+${flags.bonusSalary}萬</span>`); }
-  if (flags.mateMorale) { state.mateMorale += flags.mateMorale; notes.push('隊友士氣 <span class="dn">↓</span>'); }
+  if (flags.injuryRisk) state.tempInjuryRisk += scaleAmount(flags.injuryRisk, mult);
+  const bonusSalary = scaleAmount(flags.bonusSalary, mult);
+  if (bonusSalary) { state.bonusSalary += bonusSalary; notes.push(`業外收入 <span class="up">+${bonusSalary}萬</span>`); }
+  const mateMorale = scaleAmount(flags.mateMorale, mult);
+  if (mateMorale) { state.mateMorale += mateMorale; notes.push('隊友士氣 <span class="dn">↓</span>'); }
   if (flags.romance) { state.romance = true; state.singleYears = 0; }
   if (flags.popular && unlockTrait(state, 'popular')) unlocked.push('popular');
   if (flags.composure && unlockTrait(state, 'composure')) unlocked.push('composure');
@@ -329,24 +498,114 @@ function* drawEvent(g) {
     if (unlockTrait(state, 'tilt')) unlocked.push('tilt');
   }
 
-  // 自律：連續三次在享樂類事件上守住
+  // 自律：連續三次在享樂類事件上守住。安全牌不算——那是躲開，不是守住
   if (ev.kind === 'indulgent') {
-    if (good) {
+    if (good && allowTraits) {
       state.discStreak += 1;
       if (state.discStreak >= 3 && unlockTrait(state, 'disc')) unlocked.push('disc');
-    } else {
+    } else if (!good) {
       state.discStreak = 0;
     }
   }
 
   const tone = good ? 'good' : 'bad';
+  const chosen = `<span class="muted">你的選擇：${opt.label}</span><br>`;
   const text = `<span class="${good ? 'up' : 'dn'}">${outcome.text}</span>${notes.length ? `（${notes.join('、')}）` : ''}`;
-  yield card(tone, ev.name, text + (immune ? '<br><span class="muted">苦行僧：享樂誘惑對你無效。</span>' : ''));
+  yield card(tone, ev.name, chosen + text + (immune ? '<br><span class="muted">苦行僧：享樂誘惑對你無效。</span>' : ''));
 
   for (const key of unlocked) {
     const t = BASE_TRAITS[key];
     yield card(key === 'tilt' ? 'bad' : 'gold',
       `隱藏素質${key === 'tilt' ? '出現' : '解鎖'}：${t.name}`, t.desc);
+  }
+  if (unlocked.length) yield* fusionBeats(g);
+}
+
+/* ================= 扮演事件 ================= */
+
+/** 性格特質的門檻。全部走同一條路：連續往同一個方向演，久了就成為那樣的人。 */
+const PERSONA_RULES = [
+  { key: 'trashtalk', tone: 'bold', streak: 5, need: (s) => s.mental.ego >= 74 && s.mental.fame >= 45 },
+  { key: 'bigheart', tone: null, streak: 0, need: (s) => s.mental.nerve >= 90 },
+  { key: 'glue', tone: 'plain', streak: 5, need: (s) => s.mental.chem >= 86 },
+  { key: 'lonewolf', tone: 'bold', streak: 6, need: (s) => s.mental.chem <= 24 && s.mental.ego >= 72 },
+  { key: 'idol', tone: null, streak: 0, need: (s) => s.mental.fame >= 72 && s.mental.rep >= 55 },
+  { key: 'pariah', tone: null, streak: 0, need: (s) => s.mental.rep <= -75 },
+];
+
+/**
+ * 抽一張扮演卡。
+ *
+ * 跟能力事件卡的關鍵差別：**這裡不擲骰決定成敗**。扮演不是賭博——你選了
+ * 什麼就是什麼樣的人，心理值照著選項直接走。真正隨機的只有外界反應的
+ * 敘述，而且反應的力道由知名度放大：越紅的人，同一句話被放得越大。
+ *
+ * @param {'presser'|'media'|'locker'|'coach'|'daily'} when
+ */
+function* drawRoleplay(g, when) {
+  const { state, rng } = g;
+  const pool = ROLEPLAY_CARDS.filter((c) => c.when === when && (!c.need || c.need(state)));
+  if (!pool.length) return;
+
+  // 依權重抽卡
+  const total = pool.reduce((t, c) => t + c.weight, 0);
+  let roll = rng.next() * total;
+  const ev = pool.find((c) => (roll -= c.weight) < 0) || pool[0];
+
+  yield card('', ev.name, ev.prompt);
+
+  const pickedId = yield {
+    type: 'choice',
+    title: ev.name,
+    options: ev.options.map((o) => ({ id: o.id, label: o.label, main: o.tone === 'plain' })),
+  };
+  const opt = ev.options.find((o) => o.id === pickedId) || ev.options[0];
+
+  // 知名度放大聲量類的效果：紅了之後，同一句話的後座力完全不同
+  const amp = 1 + Math.max(0, state.mental.fame - 40) / 100;
+  const deltas = {};
+  for (const [k, v] of Object.entries(opt.mental || {})) {
+    deltas[k] = (k === 'fame' || k === 'rep') ? Math.round(v * amp) : v;
+  }
+  if (opt.tone === 'bold' && state.traits.trashtalk) {
+    deltas.fame = Math.round((deltas.fame || 0) * 1.6);
+    deltas.rep = Math.round((deltas.rep || 0) * 1.6);
+  }
+  if (opt.tone === 'plain' && state.traits.glue && deltas.chem > 0) deltas.chem *= 2;
+  if (state.epic.showman) {
+    if (deltas.fame < 0) deltas.fame = 0;
+    if (deltas.rep < 0) deltas.rep = Math.round(deltas.rep * 0.5);
+  }
+
+  const notes = applyMental(state, deltas);
+
+  // 連續往同一個方向演，才會定型成性格
+  for (const t of Object.keys(state.toneStreak)) {
+    state.toneStreak[t] = t === opt.tone ? state.toneStreak[t] + 1 : 0;
+  }
+
+  const reaction = rng.pick(CROWD_REACTIONS[opt.tone] || CROWD_REACTIONS.plain);
+  yield card(opt.tone === 'bold' ? 'info' : '', ev.name,
+    `<span class="muted">你的選擇：${opt.label}</span><br>${reaction}` +
+    (notes.length ? `（${notes.join('、')}）` : ''));
+
+  yield* personaBeats(g);
+}
+
+/** 性格特質的覺醒檢查。心理值本身不揭露，只在跨過門檻時給一張卡。 */
+function* personaBeats(g) {
+  const { state } = g;
+  const unlocked = [];
+  for (const rule of PERSONA_RULES) {
+    if (state.traits[rule.key]) continue;
+    if (rule.tone && state.toneStreak[rule.tone] < rule.streak) continue;
+    if (!rule.need(state)) continue;
+    if (unlockTrait(state, rule.key)) unlocked.push(rule.key);
+  }
+  for (const key of unlocked) {
+    const t = BASE_TRAITS[key];
+    yield card(key === 'pariah' ? 'bad' : 'gold',
+      `性格成形：${t.name}`, t.desc);
   }
   if (unlocked.length) yield* fusionBeats(g);
 }
@@ -367,24 +626,9 @@ function* phaseOffseason(g) {
   const { state, rng } = g;
   yield { type: 'phase', index: 2 };
 
-  if (state.stage === 'PRO' && !state.skipSeason) {
-    const league = LEAGUES[state.league];
-    const base = league.region === 'HOME' ? 14 : 6;
-    const ceiling = league.region === 'HOME' ? 26 : 12;
-    let chance = clamp(base + (state.lastDelta || 0) * 0.5, 1, ceiling);
-    if (state.traits.clutch) chance *= 1.15;
-    if (state.epic.ultstage) chance *= 1.15;
-    if (state.traits.tilt) chance *= 0.85;
-    if (rng.chance(chance)) {
-      state.wonPlayoffThisYear = true;
-      const title = league.region === 'HOME' ? `${homeLeagueName(state)} 季後賽冠軍` : `${league.name} 季後賽冠軍`;
-      state.honors.push(`${state.year} ${title}`);
-      yield card('gold', '季後賽', `你帶領 <b class="hl">${state.team}</b> 奪下 <b class="hl">${title}</b>！`);
-      if (!state.traits.clutch && state.age <= 30 && unlockTrait(state, 'clutch')) {
-        yield card('gold', '隱藏素質解鎖：大賽選手', '越大的舞台，你的手越穩。');
-        yield* fusionBeats(g);
-      }
-    }
+  // 季後賽已經在各賽段內打完了，休賽期處理的是鏡頭前的事
+  if (state.stage === 'PRO' && !state.skipSeason && rng.chance(38)) {
+    yield* drawRoleplay(g, 'media');
   }
 
   yield* settleSalary(g);
@@ -447,10 +691,21 @@ function* internationalStage(g) {
   }
 
   if (worldsEligible(state) && rng.chance(worldsQualifyChance(state))) {
-    yield card('info', '世界賽', `你隨 <b class="hl">${state.team}</b> 晉級 ${state.year} 世界大賽！`);
+    yield card('info', '世界賽',
+      `你隨 <b class="hl">${state.team}</b> 以<b class="hl">第 ${state.seed} 種子</b>晉級 ${state.year} 世界大賽！` +
+      (state.seed >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : ''));
+    yield* drawRoleplay(g, 'presser');
     const res = runWorlds(state, rng);
     yield card(res.champion ? 'gold' : 'info', '世界賽結算',
-      `<b class="hl">${res.stage}</b>。${res.champion ? '你捧起召喚師獎盃，成為全世界的英雄！' : ''}`);
+      `<b class="hl">${res.stage}</b>。${res.champion ? '你捧起召喚師獎盃，成為全世界的英雄！' : ''}` +
+      (res.underdog ? '<br><b class="hl">最後一張門票進來的隊伍，把冠軍帶走了。</b>' : ''));
+    if (res.champion) {
+      applyMental(state, { fame: 25, rep: 12, nerve: 8, chem: 6 });
+      if (res.underdog && unlockTrait(state, 'bigheart')) {
+        yield card('gold', '性格成形：大心臟', BASE_TRAITS.bigheart.desc);
+        yield* fusionBeats(g);
+      }
+    }
     if (res.champion && !state.traits.franchise && unlockTrait(state, 'franchise')) {
       yield card('gold', '隱藏素質解鎖：神主牌', '你就是這支隊伍的門面，續約時沒有人敢先開口砍價。');
       yield* fusionBeats(g);
@@ -517,6 +772,25 @@ function* movement(g) {
     yield card('bad', '隊伍解散', `<b class="hl">${state.team}</b> ${note}。合約作廢，你被<b class="hl">強制送入自由市場</b>。`);
     state.contract = null;
     state.forcedFA = true;
+    yield* freeAgency(g, { forced: true });
+    return;
+  }
+
+  // 更衣室與輿論的後果。合約還沒到期也擋不住——這是「被開除」跟「約滿不續」的差別
+  const verdict = clubVerdict(state, rng);
+  if (verdict.kind !== 'none') {
+    state.firedTimes += 1;
+    state.contract = null;
+    state.forcedFA = true;
+    if (verdict.kind === 'fired') {
+      yield card('bad', '球團切割',
+        `${verdict.note}。<b class="hl">${state.team}</b> 單方面終止合約，你被<b class="dn">強制推上自由市場</b>，` +
+        `而且這次願意接電話的隊伍不多。`);
+    } else {
+      yield card('bad', '被迫轉隊',
+        `${verdict.note}。你跟隊友之間已經沒辦法再同場訓練，<b class="hl">${state.team}</b> 把你掛上交易名單。`);
+    }
+    yield* drawRoleplay(g, 'media');
     yield* freeAgency(g, { forced: true });
     return;
   }

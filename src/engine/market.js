@@ -2,6 +2,7 @@
 import { clamp } from '../core/rng.js';
 import { DISBAND_HISTORY, LEAGUES, OVERSEAS_LEAGUES, eraOf } from '../data/world.js';
 import { effectiveOvr } from './abilities.js';
+import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './team.js';
 
 export function formatMoney(n) {
@@ -47,7 +48,57 @@ function multFor(rng, leagueKey, state) {
   if (state.traits.franchise) m = Math.max(m, 1.2);
   if (state.epic.lockerroom) m = Math.max(m, 1.15);
   if (state.traits.popular) m += 0.05;
-  return Math.round(m * 100) / 100;
+  // 聲量大就得加薪留人，風評差則反過來被砍價
+  m += marketMultBonus(state);
+  if (state.traits.idol) m = Math.max(m, 1.25);
+  if (state.traits.pariah) m = Math.min(m, 0.9);
+  return Math.round(clamp(m, 0.6, 2.2) * 100) / 100;
+}
+
+/* ---------------- 隊內衝突與球團切割 ---------------- */
+
+/**
+ * 球團在休賽期對你的處置。
+ *
+ * 兩條真實存在的路：默契崩到底會被迫轉隊（吵到不能同隊了），風評爛到底
+ * 會被直接切割（贊助商壓力大過競技價值）。兩者都作廢合約、丟進自由市場，
+ * 差別是切割還會讓市場對你的報價縮水。
+ *
+ * @returns {{kind:'none'|'rift'|'fired', note?:string}}
+ */
+export function clubVerdict(state, rng) {
+  if (state.stage !== 'PRO' || !state.contract) return { kind: 'none' };
+  // 剛換過隊就再鬧一次太廉價了——留兩年冷卻，這才像一次真的事件而不是常態
+  if (state.lastVerdictYear != null && state.year - state.lastVerdictYear < 3) return { kind: 'none' };
+  const { chem, rep } = state.mental;
+
+  if (rep <= -60 && !state.epic.showman) {
+    const risk = clamp(22 + (-rep - 60) * 1.4 + (state.traits.pariah ? 15 : 0), 8, 70);
+    if (rng.chance(risk)) {
+      state.lastVerdictYear = state.year;
+      return { kind: 'fired', note: '贊助商施壓，球團決定與你切割' };
+    }
+  }
+  if (chem <= 21 && !state.epic.lockerroom) {
+    const risk = clamp(25 + (21 - chem) * 2 - (state.traits.glue ? 20 : 0), 8, 72);
+    if (rng.chance(risk)) {
+      state.lastVerdictYear = state.year;
+      return { kind: 'rift', note: '更衣室已經修不回來了，管理層決定拆開' };
+    }
+  }
+  return { kind: 'none' };
+}
+
+/**
+ * 續約時球團的挽留意願。知名度高到一定程度，就算戰績普通也留得住。
+ * @returns {number} 額外的年薪係數
+ */
+export function retentionPremium(state) {
+  const fame = state.mental?.fame ?? 0;
+  if (fame >= 78) return 0.25;
+  if (fame >= 60) return 0.15;
+  if (fame >= 45) return 0.08;
+  return 0;
 }
 
 /**
@@ -84,6 +135,11 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
 
   // 表現差時砍掉部分報價，但不會歸零到「明明還很強卻沒人要」
   if (delta < 0 && offers.length > 1) offers.length = Math.max(1, offers.length - 1);
+  // 風評爛到見底，就算數值還在也沒幾支隊敢碰
+  const rep = state.mental?.rep ?? 0;
+  if ((rep <= -40 || state.traits.pariah) && offers.length > 1) {
+    offers.length = Math.max(1, offers.length - (rep <= -70 ? 2 : 1));
+  }
   return offers;
 }
 
@@ -160,9 +216,11 @@ export function academyOffer(state, rng, track = 'HOME') {
 export function renewalTerms(state) {
   const d = state.lastDelta || 0;
   const maxYears = d >= 3 ? 4 : d >= 0 ? 3 : 1;
-  const long = { years: maxYears, mult: Math.round(clamp(0.95 + d * 0.03, 0.75, 1.25) * 100) / 100 };
-  const short = { years: Math.min(2, maxYears), mult: Math.round(clamp(1.12 + d * 0.03, 0.85, 1.5) * 100) / 100 };
+  const premium = retentionPremium(state) + marketMultBonus(state);
+  const long = { years: maxYears, mult: Math.round(clamp(0.95 + d * 0.03 + premium, 0.7, 1.6) * 100) / 100 };
+  const short = { years: Math.min(2, maxYears), mult: Math.round(clamp(1.12 + d * 0.03 + premium, 0.8, 1.9) * 100) / 100 };
   if (state.traits.franchise) { long.mult = Math.max(long.mult, 1.2); short.mult = Math.max(short.mult, 1.2); }
   if (state.epic.lockerroom) { long.mult = Math.max(long.mult, 1.15); short.mult = Math.max(short.mult, 1.15); }
+  if (state.traits.pariah) { long.mult = Math.min(long.mult, 0.9); short.mult = Math.min(short.mult, 0.95); }
   return { long, short };
 }

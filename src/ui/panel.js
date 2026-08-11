@@ -9,6 +9,7 @@ import { HEROES, LEAGUES } from '../data/world.js';
 import { effectiveOvr, ovr, patchPenalty, retirementAge } from '../engine/abilities.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
+import { mentalSummary } from '../engine/mental.js';
 import { activeTraitNames } from '../engine/progression.js';
 import { coachBonus, matesAverage } from '../engine/team.js';
 import { byId, escapeHtml } from './dom.js';
@@ -110,6 +111,14 @@ function renderPanel() {
         <div><span>經歷改版</span><b>${state.patchCount} 次</b></div>
         <div><span>版本落差</span><b class="${penalty < 0 ? 'dn' : 'up'}">${state.patchDebt}（OVR ${penalty || 0}）</b></div>
       </div>
+    </section>
+
+    <section>
+      <h5>人物側寫</h5>
+      <div class="kv">
+        ${mentalSummary(state).map((m) => `<div><span>${m.name}</span><b>${m.tier}</b></div>`).join('')}
+      </div>
+      <p class="muted small">沒有數字，也不會有。這條軸靠的是你怎麼演，不是你投了幾點。</p>
     </section>
 
     <section>

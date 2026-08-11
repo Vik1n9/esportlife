@@ -362,7 +362,108 @@ console.log('▸ 12. 青訓隊名不會出現時代錯置');
     academyTeamsOf(state, 'HOME').join(' / '));
 }
 
-console.log('▸ 13. 例：一段生涯的年表');
+console.log('▸ 13. 賽段結構隨史實演進');
+{
+  const { splitsOf } = await import('../src/data/world.js');
+  check('2012 主場賽區只有單季', splitsOf(2012, 'HOME').length === 1, splitsOf(2012, 'HOME').map((s) => s.name).join('/'));
+  check('2016 主場賽區為春／夏兩賽段', splitsOf(2016, 'HOME').length === 2, splitsOf(2016, 'HOME').map((s) => s.name).join('/'));
+  check('2025 主場賽區為三賽段', splitsOf(2025, 'HOME').length === 3, splitsOf(2025, 'HOME').map((s) => s.name).join('/'));
+  check('2013 韓國是冬／春／夏三季（OGN Champions）', splitsOf(2013, 'KR').length === 3, splitsOf(2013, 'KR').map((s) => s.name).join('/'));
+  check('2018 韓國回到兩賽段', splitsOf(2018, 'KR').length === 2, splitsOf(2018, 'KR').map((s) => s.name).join('/'));
+  check('2023 歐洲已改三賽段', splitsOf(2023, 'EU').length === 3, splitsOf(2023, 'EU').map((s) => s.name).join('/'));
+  for (const region of ['HOME', 'KR', 'CN', 'EU', 'NA']) {
+    for (const year of [2012, 2016, 2021, 2025, 2031]) {
+      const w = splitsOf(year, region).reduce((t, s) => t + s.weight, 0);
+      check(`${year} ${region} 賽段場次權重總和為 1`, Math.abs(w - 1) < 1e-9, w);
+    }
+  }
+}
+
+console.log('▸ 14. 心理值不對玩家揭露數字');
+{
+  const { mentalSummary } = await import('../src/engine/mental.js');
+  const rng = new Rng('mental-hidden');
+  const state = createState({ name: 'M', role: 'SUP', rng, seed: 'mental-hidden' });
+  const rows = mentalSummary(state);
+  check('五個心理維度都有標籤', rows.length === 5 && rows.every((r) => r.tier), JSON.stringify(rows));
+  check('摘要不含任何數值欄位', rows.every((r) => !('value' in r)), JSON.stringify(rows));
+  check('標籤本身不含數字', rows.every((r) => !/\d/.test(r.tier)), rows.map((r) => r.tier).join('/'));
+}
+
+console.log('▸ 15. 扮演卡只動心理值，不碰能力值');
+{
+  const { ROLEPLAY_CARDS } = await import('../src/data/roleplay.js');
+  const { MENTAL_KEYS } = await import('../src/data/mental.js');
+  const allowed = new Set(MENTAL_KEYS);
+  for (const c of ROLEPLAY_CARDS) {
+    check(`${c.name} 有 2 個以上選項`, c.options.length >= 2);
+    for (const o of c.options) {
+      check(`${c.name}／${o.id} 不含 ability 欄位`, !o.ability);
+      const keys = Object.keys(o.mental || {});
+      check(`${c.name}／${o.id} 只寫心理維度`, keys.length > 0 && keys.every((k) => allowed.has(k)), keys.join(','));
+    }
+    check(`${c.name} 三種語氣齊備`, new Set(c.options.map((o) => o.tone)).size === c.options.length);
+  }
+}
+
+console.log('▸ 16. 季後賽是逐局 BO 系列，不是一次擲骰');
+{
+  const { runSeries, worldsSeed, splitSeed } = await import('../src/engine/playoffs.js');
+  const rng = new Rng('series');
+  const state = createState({ name: 'P', role: 'TOP', rng, seed: 'series' });
+  state.league = 'HOME'; state.stage = 'PRO';
+  for (const bo of [3, 5]) {
+    const need = Math.ceil(bo / 2);
+    for (let i = 0; i < 200; i++) {
+      const res = runSeries(state, rng, { bo, oppOvr: 53, seed: 2 });
+      check(`BO${bo} 勝方剛好拿到 ${need} 勝`, Math.max(res.mine, res.theirs) === need, `${res.mine}-${res.theirs}`);
+      check(`BO${bo} 總局數不超過 ${bo}`, res.mine + res.theirs <= bo, `${res.mine}-${res.theirs}`);
+      check(`BO${bo} 比分與勝負一致`, res.win === (res.mine > res.theirs));
+    }
+  }
+  check('冠軍點數不足就沒有世界賽門票', worldsSeed(0) === 0 && worldsSeed(39) === 0);
+  check('點數越高種子序越前', worldsSeed(160) === 1 && worldsSeed(120) === 2 && worldsSeed(80) === 3 && worldsSeed(45) === 4);
+  check('例行賽越強種子序越前', splitSeed(state, { G: 100, W: 80, delta: 5 }) === 1 && splitSeed(state, { G: 100, W: 30, delta: -3 }) === 4);
+}
+
+console.log('▸ 17. 下剋上劇本走得通，但不是常態');
+{
+  const { underdogBonus } = await import('../src/engine/mental.js');
+  const rng = new Rng('underdog');
+  const state = createState({ name: 'U', role: 'MID', rng, seed: 'underdog' });
+  state.mental.nerve = 95; state.mental.chem = 90;
+  check('第一種子拿不到下剋上加成', underdogBonus(state, 1) === 0);
+  check('種子序越後加成越大', underdogBonus(state, 4) > underdogBonus(state, 2));
+  check('加成有上限，不會讓弱隊變強隊', underdogBonus(state, 4) <= 11, underdogBonus(state, 4));
+  const weak = createState({ name: 'W', role: 'MID', rng, seed: 'underdog-w' });
+  weak.mental.nerve = 20; weak.mental.chem = 20;
+  check('心理素質不夠就沒有下剋上', underdogBonus(weak, 4) === 0, underdogBonus(weak, 4));
+}
+
+console.log('▸ 18. 更衣室與輿論會有後果，但有冷卻不會變常態');
+{
+  const { clubVerdict } = await import('../src/engine/market.js');
+  const rng = new Rng('verdict');
+  const state = createState({ name: 'V', role: 'ADC', rng, seed: 'verdict' });
+  state.stage = 'PRO'; state.league = 'HOME'; state.contract = { years: 3, mult: 1 }; state.year = 2020;
+
+  state.mental.chem = 50; state.mental.rep = 0;
+  let fired = 0;
+  for (let i = 0; i < 200; i++) { state.lastVerdictYear = null; if (clubVerdict(state, rng).kind !== 'none') fired++; }
+  check('心理狀態正常時不會被開除', fired === 0, fired);
+
+  state.mental.chem = 5;
+  fired = 0;
+  for (let i = 0; i < 400; i++) { state.lastVerdictYear = null; if (clubVerdict(state, rng).kind === 'rift') fired++; }
+  check('默契崩到底會被迫轉隊', fired > 100, fired);
+
+  state.lastVerdictYear = 2020;
+  check('冷卻期內不會連續兩年被拆隊', clubVerdict(state, rng).kind === 'none');
+  state.year = 2024;
+  check('冷卻結束後恢復判定', [0, 1].includes([...Array(50)].filter(() => { state.lastVerdictYear = 2020; return clubVerdict(state, rng).kind !== 'none'; }).length > 0 ? 1 : 0));
+}
+
+console.log('▸ 19. 例：一段生涯的年表');
 {
   const { state } = playCareer({ seed: 'showcase', role: 'MID', name: 'Showcase', strategy: 'first' });
   console.log(`  ${state.name}｜${state.proYears} 職業季｜巔峰 OVR ${state.peakOvr}｜評分 ${careerScore(state)}（${TIER_NAMES[careerTier(state)]}）`);
