@@ -22,9 +22,21 @@ function diminish(key, value, delta) {
   const away = (value - mid) / span;                 // -1（谷底）～ +1（頂點）
   const pushingOut = Math.sign(delta) === Math.sign(away || delta);
   if (!pushingOut) return delta;                      // 往回拉不打折
-  const factor = clamp(1 - Math.abs(away) * 1.15, 0.2, 1);
-  const scaled = delta * factor;
-  return Math.sign(delta) * Math.max(Math.abs(delta) >= 1 ? 1 : 0, Math.round(Math.abs(scaled)));
+
+  const extreme = Math.abs(away);
+  // 下限 0.05 而不是 0.2：0.2 的話，一次 +10 在最極端處仍然推得動 +2，
+  // 累積十幾次照樣頂到天花板
+  const factor = clamp(1 - extreme * 1.15, 0.05, 1);
+  const scaled = Math.abs(delta) * factor;
+
+  // 最後那一段不給保底。
+  //
+  // 舊版一律 `Math.max(1, ...)`，於是任何 ≥1 的變動永遠至少推 +1——邊際遞減在
+  // 極端值等於失效，累積夠多次就一定爬到頂。國際賽開始逐次累積心理值之後這個
+  // 缺陷就浮出來了：打過六次以上國際賽的人，大心臟清一色剛好 100，區別度歸零。
+  // 現在 85% 以上的極端區間會四捨五入到 0，最後幾點是真的推不太動。
+  const floor = extreme > 0.85 ? 0 : (Math.abs(delta) >= 1 ? 1 : 0);
+  return Math.sign(delta) * Math.max(floor, Math.round(scaled));
 }
 
 /**

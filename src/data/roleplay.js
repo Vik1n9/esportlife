@@ -10,8 +10,14 @@
  * 那部分由引擎依 `知名度` 放大或縮小（聲量越大，話被放大得越誇張）。
  *
  * 欄位：
- * - `when`   觸發時機。`presser` 季後賽系列賽前／`media` 賽後與休賽期／
- *            `locker` 休息室／`coach` 教練談話／`daily` 日常訓練。
+ * - `when`   觸發時機。`presser` 季後賽系列賽前／`intl` 國際賽（MSI 與世界賽）／
+ *            `media` 賽後與休賽期／`locker` 休息室／`coach` 教練談話／
+ *            `daily` 日常訓練。
+ *
+ *            `intl` 之所以跟 `presser` 分開，是因為國際賽問的問題本來就不一樣：
+ *            外媒、語言隔閡、對上傳說中的隊伍、整個賽區在凌晨四點看著你。而且
+ *            引擎會把國際賽的外界反應再乘上一個放大係數——LoL 玩家對 MSI 與
+ *            世界賽的關注度遠高於聯賽，同一句話在這裡的後座力完全不同。
  * - `weight` 抽卡權重。
  * - `need`   選填的出現條件（如「默契低於某值才會出現的衝突卡」）。
  * - `options[].mental` 直接套用的心理值變動。
@@ -57,6 +63,74 @@ export const ROLEPLAY_CARDS = [
         mental: { nerve: 6, chem: 3, rep: 2, fame: 2 } },
       { id: 'accept', label: '「我們確實是弱的一方。」', tone: 'humble',
         mental: { nerve: -3, rep: 3, chem: -1 } },
+    ],
+  },
+
+  /* ---------------- 國際賽（MSI／世界賽） ---------------- */
+  {
+    id: 'intl_foreign_press', name: '外媒混合採訪區', when: 'intl', weight: 3,
+    prompt: '走出賽場，六七支麥克風同時遞過來，一半是聽不懂的語言。'
+      + '翻譯還沒到，有人已經用英文問了第一個問題。',
+    options: [
+      { id: 'english', label: '直接用破英文回，講完自己笑出來', tone: 'bold',
+        mental: { fame: 8, ego: 3, rep: 4, nerve: 3 } },
+      { id: 'wait', label: '等翻譯到位，一句一句講清楚', tone: 'plain',
+        mental: { fame: 2, rep: 4, chem: 2 } },
+      { id: 'short', label: '只回「我們會繼續努力」，轉身就走', tone: 'humble',
+        mental: { fame: -2, rep: 1, ego: -2 } },
+    ],
+  },
+  {
+    id: 'intl_legend', name: '對上傳說中的那支隊伍', when: 'intl', weight: 3,
+    prompt: '抽到的對手是你高中在網咖熬夜看他們比賽的那支隊。'
+      + '記者問：「小時候看著他們長大，現在要打他們了，什麼感覺？」',
+    options: [
+      { id: 'hunt', label: '「偶像是拿來超越的。」', tone: 'bold',
+        mental: { ego: 6, fame: 8, nerve: 5, rep: -1 } },
+      { id: 'respect', label: '「很期待。站上同一個舞台，本身就是答案的一半。」', tone: 'plain',
+        mental: { fame: 3, rep: 5, nerve: 2, chem: 2 } },
+      { id: 'awe', label: '「說不緊張是騙人的。」', tone: 'humble',
+        mental: { rep: 4, nerve: -3, fame: 1 } },
+    ],
+  },
+  {
+    id: 'intl_region_hope', name: '賽區的凌晨四點', when: 'intl', weight: 3,
+    prompt: '這一輪開打的時間，家鄉是凌晨四點。'
+      + '社群上滿滿都是「撐住」，有人請了假只為了看這一場。',
+    options: [
+      { id: 'carry', label: '「這場我來扛。」對著鏡頭比了個手勢', tone: 'bold',
+        mental: { ego: 5, fame: 9, nerve: 6, chem: -2 } },
+      { id: 'team', label: '「我們五個一起扛。」', tone: 'plain',
+        mental: { fame: 4, rep: 4, chem: 5, nerve: 3 } },
+      { id: 'burden', label: '「壓力很大，希望不要讓大家失望。」', tone: 'humble',
+        mental: { rep: 3, nerve: -4, chem: 1 } },
+    ],
+  },
+  {
+    id: 'intl_group_draw', name: '分組抽籤結果出爐', when: 'intl', weight: 2,
+    prompt: '抽籤結束，你們被分到公認的死亡之組。'
+      + '轉播鏡頭掃過來的時候，隊友的表情已經先被截圖了。',
+    options: [
+      { id: 'welcome', label: '「反正遲早要碰，早點打完早收工。」', tone: 'bold',
+        mental: { ego: 4, fame: 5, nerve: 5, chem: 2 } },
+      { id: 'prepare', label: '「那就一場一場拆。」當晚多開一場訓練賽', tone: 'plain',
+        mental: { nerve: 4, chem: 4, rep: 2 } },
+      { id: 'sigh', label: '在群組裡貼了一個嘆氣的貼圖', tone: 'humble',
+        mental: { nerve: -3, chem: -2, fame: -1 } },
+    ],
+  },
+  {
+    id: 'intl_after_upset', name: '爆冷之後', when: 'intl', weight: 2,
+    need: (s) => (s.seedRank || 1) >= 3,
+    prompt: '你們剛把一支所有人都看好的隊伍送回家。'
+      + '國際媒體全湧過來，這是你職業生涯最多鏡頭對著你的一刻。',
+    options: [
+      { id: 'declare', label: '「我早就說過我們不是來陪跑的。」', tone: 'bold',
+        mental: { ego: 7, fame: 12, nerve: 6, rep: -3 } },
+      { id: 'credit', label: '「準備了很久，教練組值得這個結果。」', tone: 'plain',
+        mental: { fame: 6, rep: 7, chem: 6 } },
+      { id: 'humble', label: '「今天他們狀況可能不好。」', tone: 'humble',
+        mental: { rep: 5, fame: 2, ego: -4, nerve: -1 } },
     ],
   },
 

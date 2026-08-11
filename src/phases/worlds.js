@@ -78,7 +78,7 @@ export function* run(g) {
     `你隨 <b class="hl">${state.team}</b> 以<b class="hl">第 ${seed} 種子</b>晉級 ${state.year} 世界大賽！` +
     (state.worldsSlotBonus ? '<br><span class="muted">這張門票是靠 MSI 冠軍替賽區多掙來的。</span>' : '') +
     (seed >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : ''));
-  yield* drawRoleplay(g, 'presser', { amp: 1.8 });
+  yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
   const outcome = yield* runTournament(g, rule, seed);
   yield* settle(g, outcome, seed);
@@ -155,7 +155,7 @@ function* knockout(g, seed) {
   ];
 
   for (const round of rounds) {
-    if (round.key === 'final') yield* drawRoleplay(g, 'presser', { amp: 1.8 });
+    if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
     const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, round.step, rng), seed });
     const decider = res.decider

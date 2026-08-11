@@ -74,10 +74,10 @@ export function worldsRuleOf(year) {
  * 在人身上留下東西。走得越遠留得越多，止步也給。
  */
 export const WORLDS_RESULTS = {
-  champion: { rank: '世界賽冠軍', points: 10, nerve: 14, fame: 30, rep: 14, chem: 8 },
-  final: { rank: '世界賽亞軍', points: 6, nerve: 10, fame: 20, rep: 9, chem: 4 },
-  semi: { rank: '四強止步', points: 3, nerve: 7, fame: 12, rep: 5, chem: 2 },
-  quarter: { rank: '八強止步', points: 2, nerve: 5, fame: 8, rep: 3, chem: 1 },
-  stage: { rank: '小組止步', points: 1, nerve: 4, fame: 5, rep: 1, chem: 0 },
-  playin: { rank: '入圍賽出局', points: 1, nerve: 2, fame: 3, rep: 0, chem: 0 },
+  champion: { rank: '世界賽冠軍', points: 10, nerve: 10, fame: 25, rep: 12, chem: 6 },
+  final: { rank: '世界賽亞軍', points: 6, nerve: 7, fame: 16, rep: 8, chem: 3 },
+  semi: { rank: '四強止步', points: 3, nerve: 5, fame: 10, rep: 4, chem: 2 },
+  quarter: { rank: '八強止步', points: 2, nerve: 3, fame: 7, rep: 2, chem: 1 },
+  stage: { rank: '小組止步', points: 1, nerve: 2, fame: 4, rep: 1, chem: 0 },
+  playin: { rank: '入圍賽出局', points: 1, nerve: 1, fame: 2, rep: 0, chem: 0 },
 };

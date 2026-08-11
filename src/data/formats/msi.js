@@ -62,8 +62,8 @@ export function msiRuleOf(year) {
  * `slotBonus` 是 2023 起的真實制度：MSI 冠軍為自己的賽區多掙一張世界賽門票。
  */
 export const MSI_RESULTS = {
-  champion: { rank: 'MSI 冠軍', points: 6, nerve: 10, fame: 20, rep: 10, slotBonus: 1 },
-  final: { rank: 'MSI 亞軍', points: 4, nerve: 7, fame: 12, rep: 6 },
-  semi: { rank: 'MSI 四強', points: 3, nerve: 5, fame: 7, rep: 3 },
-  out: { rank: 'MSI 止步', points: 1, nerve: 3, fame: 3, rep: 0 },
+  champion: { rank: 'MSI 冠軍', points: 6, nerve: 7, fame: 16, rep: 8, slotBonus: 1 },
+  final: { rank: 'MSI 亞軍', points: 4, nerve: 5, fame: 10, rep: 5 },
+  semi: { rank: 'MSI 四強', points: 3, nerve: 3, fame: 6, rep: 2 },
+  out: { rank: 'MSI 止步', points: 1, nerve: 2, fame: 3, rep: 0 },
 };
