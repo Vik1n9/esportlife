@@ -14,7 +14,7 @@ export const name = '小組賽與 Swiss 賽段';
 function player(seed, ovrValue) {
   const state = createState({ name: 'G', role: 'MID', seed });
   state.stage = 'PRO'; state.league = 'LCK';
-  for (const k of Object.keys(state.ability)) state.ability[k] = ovrValue;
+  for (const k of Object.keys(state.attr)) state.attr[k] = ovrValue;
   state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, ovr: ovrValue }));
   return state;
 }

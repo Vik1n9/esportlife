@@ -19,9 +19,9 @@
  *   {type:'alloc', mode, dice|points}     → resume 以 undefined（UI 直接改 state）
  *   {type:'end'}                          生涯結束
  */
-import { ABILITY_NAMES } from '../data/abilities.js';
+import { ATTR_NAMES } from '../data/attributes.js';
 import { START_YEAR } from '../data/eras.js';
-import { applyAgeDecline, retirementAge } from './abilities.js';
+import { applyAgeDecline, retirementAge } from './attributes.js';
 import { calendarFor } from './calendar.js';
 import { careerTier, tierName } from './career.js';
 import { disbandNoteFor } from './market.js';
@@ -128,9 +128,9 @@ function* phaseTraining(g) {
     const softener = state.epic.ageless ? '（不老傳奇：衰退大幅減緩）'
       : state.traits.veteran ? '（老將：衰退減緩）' : '';
     const grown = decline.grown.length
-      ? `　經驗仍在累積：${decline.grown.map((k) => ABILITY_NAMES[k]).join('、')} <b class="up">+1</b>。` : '';
+      ? `　經驗仍在累積：${decline.grown.map((k) => ATTR_NAMES[k]).join('、')} <b class="up">+1</b>。` : '';
     yield card('bad', '歲月與版本',
-      `${decline.phase === 2 ? '第二階段（逐年加劇）' : '第一階段'}衰退：反應／操作／體力 <b class="dn">−${decline.amount}</b>${softener}。${grown}`);
+      `${decline.phase === 2 ? '第二階段（逐年加劇）' : '第一階段'}衰退：${decline.keys.map((k) => ATTR_NAMES[k]).join('／')} <b class="dn">−${decline.amount}</b>${softener}。${grown}`);
   }
 
   // 解散流言

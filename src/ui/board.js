@@ -1,6 +1,6 @@
 /** 頂端狀態列。 */
-import { ROLE_NAMES } from '../data/abilities.js';
-import { ovr, patchPenalty } from '../engine/abilities.js';
+import { ROLE_NAMES } from '../data/skills.js';
+import { ovr, patchPenalty } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { byId, escapeHtml, qsa } from './dom.js';

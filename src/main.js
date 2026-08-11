@@ -1,6 +1,6 @@
 /** 進入點：開場畫面、種子、續玩存檔，然後把控制權交給 runner。 */
 import { Rng, randomSeed } from './core/rng.js';
-import { ROLES, ROLE_NAMES } from './data/abilities.js';
+import { ROLES, ROLE_NAMES } from './data/skills.js';
 import { createState } from './engine/state.js';
 import { renderBoard } from './ui/board.js';
 import { byId, qsa } from './ui/dom.js';

@@ -1,9 +1,9 @@
 /** 賽季模擬：場次、勝負、個人數據。純函式，不碰 state 以外的東西。 */
 import { clamp } from '../core/rng.js';
-import { STAT_BASELINE } from '../data/abilities.js';
+import { STAT_BASELINE } from '../data/skills.js';
 import { LEAGUES } from '../data/leagues.js';
 import { blankSeasonStat } from './state.js';
-import { effectiveOvr } from './abilities.js';
+import { effectiveOvr, skills } from './attributes.js';
 import { teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
 import { formFactor } from './lineup.js';
@@ -25,7 +25,8 @@ import { formFactor } from './lineup.js';
  */
 export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   const league = LEAGUES[leagueKey];
-  const a = state.ability;
+  // 個人數據看的是技能（對線吃 CS、視野吃 VIS…），不是屬性——屬性要先折算過來
+  const a = skills(state);
   const stat = blankSeasonStat();
   stat.years = 1;
 

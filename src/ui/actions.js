@@ -1,6 +1,6 @@
 /** 底部行動列：選項按鈕與訓練點分配介面。 */
-import { ABILITY_NAMES, ABILITY_CAP } from '../data/abilities.js';
-import { abilityCap, abilityKeys, growthThreshold, investAbility, needForNextGain } from '../engine/abilities.js';
+import { ATTR_ABBR, ATTR_CAP, ATTR_NAMES } from '../data/attributes.js';
+import { attrCap, attrKeys, growthThreshold, investAttr, needForNextGain } from '../engine/attributes.js';
 import { byId, clear, el, scrollToBottom } from './dom.js';
 
 function actRoot() { return byId('act'); }
@@ -35,7 +35,8 @@ export function askChoice({ title, options }) {
 /**
  * 訓練點分配。
  *
- * 兩種模式：骰子（每顆骰依序投入）與能力點（每次 1 點）。
+ * 兩種模式：骰子（每顆骰依序投入）與屬性點（每次 1 點）。
+ * 投的是六大屬性——技能是導出值，玩家碰不到，所以這排永遠只有六列。
  * 修好舊版兩個問題：每次點擊後整排重繪會把「+N」提示洗掉，
  * 以及沒有任何地方告訴玩家「下一點要花幾點」。
  *
@@ -62,8 +63,8 @@ export function askAllocation(state, spec, onChange) {
     act.append(top, rows, bottom);
 
     const remaining = () => (isDice ? dice.length - used.size : pool);
-    const cap = abilityCap(state);
-    const keys = abilityKeys(state);
+    const cap = attrCap(state);
+    const keys = attrKeys(state);
 
     const nextDie = () => {
       for (let i = 0; i < dice.length; i += 1) if (!used.has(i)) return i;
@@ -77,7 +78,7 @@ export function askAllocation(state, spec, onChange) {
 
     function undoEntry(idx) {
       const [entry] = history.splice(idx, 1);
-      state.ability[entry.key] -= entry.gain;
+      state.attr[entry.key] -= entry.gain;
       state.carry[entry.key] = entry.carryBefore;
       if (isDice) used.delete(entry.dieIndex); else pool += 1;
       renderTop(); renderRows(); renderBottom(); onChange();
@@ -87,7 +88,7 @@ export function askAllocation(state, spec, onChange) {
       const dieIndex = isDice ? nextDie() : -1;
       const amount = isDice ? dice[dieIndex] : 1;
       const carryBefore = state.carry[key] || 0;
-      const gain = investAbility(state, key, amount);
+      const gain = investAttr(state, key, amount);
       history.push({ key, gain, carryBefore, dieIndex });
       if (isDice) used.add(dieIndex); else pool -= 1;
       renderTop();
@@ -106,14 +107,14 @@ export function askAllocation(state, spec, onChange) {
         })));
         top.appendChild(tray);
       } else {
-        top.appendChild(el('div', { class: 'pool', html: `剩餘能力點：<b>${pool}</b>` }));
+        top.appendChild(el('div', { class: 'pool', html: `剩餘屬性點：<b>${pool}</b>` }));
       }
     }
 
     function renderRows(flash) {
       clear(rows);
       for (const key of keys) {
-        const value = state.ability[key];
+        const value = state.attr[key];
         const potential = state.potential[key] ?? 62;
         const maxed = value >= cap;
         const carry = state.carry[key] || 0;
@@ -129,8 +130,8 @@ export function askAllocation(state, spec, onChange) {
 
         const row = el('div', { class: `abrow${maxed ? ' capped' : ''}` });
         row.innerHTML = `
-          <div class="nm">${ABILITY_NAMES[key]}</div>
-          <div class="bar" style="--fill:${Math.min(100, (value / ABILITY_CAP) * 100)}%;--pot:${Math.min(100, (potential / ABILITY_CAP) * 100)}%">
+          <div class="nm" title="${ATTR_ABBR[key]}">${ATTR_NAMES[key]}</div>
+          <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%;--pot:${Math.min(100, (potential / ATTR_CAP) * 100)}%">
             <i></i><em></em>
           </div>
           <div class="val">
@@ -148,11 +149,11 @@ export function askAllocation(state, spec, onChange) {
 
         const minus = el('button', {
           class: 'step minus', type: 'button', text: '−',
-          'aria-label': `${ABILITY_NAMES[key]} 減點`,
+          'aria-label': `${ATTR_NAMES[key]} 減點`,
         });
         const plus = el('button', {
           class: 'step plus', type: 'button', text: '+',
-          'aria-label': `${ABILITY_NAMES[key]} 加點`,
+          'aria-label': `${ATTR_NAMES[key]} 加點`,
         });
 
         minus.disabled = !history.some((h) => h.key === key);
@@ -185,11 +186,11 @@ export function askAllocation(state, spec, onChange) {
       undo.disabled = !history.length;
       bottom.appendChild(undo);
 
-      const allCapped = keys.every((k) => state.ability[k] >= cap);
+      const allCapped = keys.every((k) => state.attr[k] >= cap);
       if (remaining() === 0 || allCapped) {
         bottom.appendChild(el('button', {
           class: 'btn main',
-          text: remaining() > 0 && allCapped ? '能力已達上限，捨棄剩餘 ▸' : '確認 ▸',
+          text: remaining() > 0 && allCapped ? '屬性已達上限，捨棄剩餘 ▸' : '確認 ▸',
           onclick: () => { clear(act); resolve(); },
         }));
       }

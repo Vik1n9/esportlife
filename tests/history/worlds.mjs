@@ -75,7 +75,7 @@ export async function run({ check }) {
     const state = createState({ name: 'W', role: 'MID', seed: 'worlds-stage' });
     state.stage = 'PRO'; state.league = 'LCK';
     state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, ovr: 60 }));
-    for (const k of Object.keys(state.ability)) state.ability[k] = 60;
+    for (const k of Object.keys(state.attr)) state.attr[k] = 60;
 
     for (let i = 0; i < 50; i++) {
       const swiss = runSwiss(state, rng, { par: 60 });

@@ -11,7 +11,7 @@ export const EPIC_TRAITS = {
       retireAge: { floor: 40 }, declineOffset: { floor: 4 }, declineMult: { cap: 0.5 },
       careerScore: 120,
     },
-    // 分段效果：30 歲後 OVR +1（年齡條件）、反應/操作衰退再減半，寫在 engine/abilities.js
+    // 分段效果：30 歲後 OVR +1（年齡條件）、靈巧/技巧衰退再減半，寫在 engine/attributes.js
   },
   godhand: {
     name: '神之領域', desc: '成長 ×2；操作/反應上限 85；退役上限 38',

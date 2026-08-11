@@ -13,7 +13,7 @@
  * 風評低而知名度高的人會出現「鬼牧」：傳聞滿天飛，實際報價一個都沒有。
  */
 import { LEAGUES } from '../data/leagues.js';
-import { effectiveOvr } from '../engine/abilities.js';
+import { effectiveOvr } from '../engine/attributes.js';
 import {
   SCOUT_BAR, academyOffer, annualSalary, clubVerdict, disbandNoteFor, formatMoney,
   generateOffers, renewalTerms, scoutInterest, signContract, tryout,

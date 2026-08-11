@@ -4,14 +4,16 @@
  * 舊版只有在「訓練期加點」那幾秒能看到能力值，英雄池、專精、版本落差、
  * 隊友與教練、合約狀態全程都藏在 state 裡沒有出口。這裡補上一個隨時可開的面板。
  */
-import { ABILITY_CAP, ABILITY_NAMES, ROLE_NAMES } from '../data/abilities.js';
+import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS } from '../data/attributes.js';
+import { ROLE_NAMES, SKILL_NAMES } from '../data/skills.js';
 import { HEROES } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
-import { effectiveOvr, ovr, patchPenalty, retirementAge } from '../engine/abilities.js';
+import { EPIC_TRAITS } from '../data/epics.js';
+import { BASE_TRAITS } from '../data/traits.js';
+import { effectiveOvr, ovr, patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { mentalSummary } from '../engine/mental.js';
-import { activeTraitNames } from '../engine/progression.js';
 import { coachBonus, matesAverage } from '../kernel/strength.js';
 import { byId, escapeHtml } from './dom.js';
 
@@ -39,15 +41,34 @@ export function refreshPanel() {
   if (root && root.classList.contains('open')) renderPanel();
 }
 
-function abilityRows(state) {
-  return Object.keys(state.ability).map((key) => {
-    const value = state.ability[key];
+function attrRows(state) {
+  return ATTRS.map((key) => {
+    const value = state.attr[key];
     const potential = state.potential[key] ?? 62;
     const carry = state.carry[key] || 0;
+    return `<div class="abrow static" title="${ATTR_DESC[key]}">
+      <div class="nm">${ATTR_NAMES[key]}</div>
+      <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%;--pot:${Math.min(100, (potential / ATTR_CAP) * 100)}%"><i></i><em></em></div>
+      <div class="val"><b>${value}</b><span class="cost">${ATTR_ABBR[key]} ·上限 ${potential}${carry ? ` ·蓄${carry}` : ''}</span></div>
+    </div>`;
+  }).join('');
+}
+
+/**
+ * 技能：只列出這個位置有 OVR 權重的幾項，而且全部唯讀。
+ *
+ * 技能不是另一排要管理的滑桿，是「你這六個屬性在你這條路上長成什麼樣」的回饋。
+ * 玩家看得到自己的開戰很強，但要更強只能回去投決斷與意識。
+ */
+function skillRows(state) {
+  const keys = roleSkills(state);
+  const top = keys.slice(0, 3);   // 對這條路 OVR 影響最重的三項
+  return keys.map((key) => {
+    const value = skillValue(state, key);
     return `<div class="abrow static">
-      <div class="nm">${ABILITY_NAMES[key]}</div>
-      <div class="bar" style="--fill:${Math.min(100, (value / ABILITY_CAP) * 100)}%;--pot:${Math.min(100, (potential / ABILITY_CAP) * 100)}%"><i></i><em></em></div>
-      <div class="val"><b>${value}</b><span class="cost">上限 ${potential}${carry ? ` ·蓄${carry}` : ''}</span></div>
+      <div class="nm">${SKILL_NAMES[key]}</div>
+      <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%"><i></i></div>
+      <div class="val"><b>${value}</b><span class="cost">${top.includes(key) ? '本位置主力' : ''}</span></div>
     </div>`;
   }).join('');
 }
@@ -61,18 +82,40 @@ function heroRows(state) {
   }).join('');
 }
 
+/** 依名稱反查特質的說明（fusedAway 只留名稱，要從兩張表找回 desc） */
+function traitDescByName(name) {
+  for (const table of [BASE_TRAITS, EPIC_TRAITS]) {
+    const t = Object.values(table).find((x) => x.name === name);
+    if (t) return t.desc;
+  }
+  return '';
+}
+
+/** 個人特質：小箭頭可展開，顯示該特質的作用（不顯示獲取來源）。 */
+function traitRows(state) {
+  const rows = [];
+  for (const key of Object.keys(state.epic)) {
+    if (state.epic[key]) rows.push({ name: EPIC_TRAITS[key].name, desc: EPIC_TRAITS[key].desc, cls: 'epic' });
+  }
+  for (const key of Object.keys(state.traits)) {
+    if (state.traits[key]) rows.push({ name: BASE_TRAITS[key].name, desc: BASE_TRAITS[key].desc, cls: '' });
+  }
+  for (const name of state.fusedAway) {
+    rows.push({ name, desc: traitDescByName(name), cls: 'gone' });
+  }
+  return rows.map((t) => `<details class="trait-item ${t.cls}">
+      <summary><span class="trait-arrow">▸</span>${escapeHtml(t.name)}</summary>
+      <div class="trait-desc">${escapeHtml(t.desc)}</div>
+    </details>`).join('');
+}
+
 function renderPanel() {
   const state = currentState;
   const body = byId('panel-body');
   const penalty = patchPenalty(state);
-  const { base, epic } = activeTraitNames(state);
   const league = LEAGUES[state.league];
 
-  const traitHtml = [
-    ...epic.map((n) => `<span class="tag epic">${n}</span>`),
-    ...base.map((n) => `<span class="tag">${n}</span>`),
-    ...state.fusedAway.map((n) => `<span class="tag gone">${n}</span>`),
-  ].join('') || '<span class="muted">尚未覺醒任何隱藏素質</span>';
+  const traitList = traitRows(state) || '<span class="muted">尚未覺醒任何隱藏素質</span>';
 
   const mates = state.mates.length
     ? state.mates.map((m) => `<span class="tag">${m.name} ${m.ovr}</span>`).join('')
@@ -94,9 +137,15 @@ function renderPanel() {
     </section>
 
     <section>
-      <h5>能力值</h5>
-      ${abilityRows(state)}
-      <p class="muted small">刻度線＝該項潛力上限，超過上限後成長成本 ×3。</p>
+      <h5>屬性</h5>
+      ${attrRows(state)}
+      <p class="muted small">刻度線＝該項潛力上限，超過上限後成長成本 ×3。訓練點只能投在這六項。</p>
+    </section>
+
+    <section>
+      <h5>技能（${ROLE_NAMES[state.role]}）</h5>
+      ${skillRows(state)}
+      <p class="muted small">技能由六大屬性換算而來，不能直接加點；由上到下＝對本位置 OVR 的影響由重到輕。</p>
     </section>
 
     <section>
@@ -132,8 +181,8 @@ function renderPanel() {
 
     <section>
       <h5>隱藏素質</h5>
-      <div class="tags">${traitHtml}</div>
-      <p class="muted small">劃線＝已被合成消耗。</p>
+      <div class="trait-list">${traitList}</div>
+      <p class="muted small">▸ 點開查看各特質的作用；劃線＝已被合成消耗。</p>
     </section>
 
     <section>

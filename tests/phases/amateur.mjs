@@ -16,7 +16,7 @@ export const name = '業餘起點與挖角時機';
 function prodigy(seed = 'prodigy') {
   const rng = new Rng(seed);
   const state = createState({ name: 'P', role: 'MID', seed });
-  for (const k of Object.keys(state.ability)) state.ability[k] = 60;
+  for (const k of Object.keys(state.attr)) state.attr[k] = 60;
   for (const k of Object.keys(state.potential)) state.potential[k] = 80;
   return { rng, state };
 }
@@ -63,7 +63,7 @@ export async function run({ check }) {
     // 數值不達標就不該有人上門
     const rng = new Rng('nobody');
     const state = createState({ name: 'N', role: 'SUP', seed: 'nobody' });
-    for (const k of Object.keys(state.ability)) state.ability[k] = 25;
+    for (const k of Object.keys(state.attr)) state.attr[k] = 25;
     for (const k of Object.keys(state.potential)) state.potential[k] = 30;   // 加點也漲不動
 
     const choices = driveUntil(state, rng, {

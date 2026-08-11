@@ -5,13 +5,15 @@
  * 這是存檔／讀檔與 headless 測試能成立的前提。
  */
 import { Rng } from '../core/rng.js';
-import { ROLE_ABILITIES } from '../data/abilities.js';
+import { ATTRS } from '../data/attributes.js';
+import { ROLE_START_EDGE } from '../data/skills.js';
 import { MENTAL_START } from '../data/mental.js';
 import { HEROES } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-export const SAVE_VERSION = 6;
+// v7：九項素質改成六屬性＋導出技能。舊存檔沒有 attr，一律作廢重開
+export const SAVE_VERSION = 7;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -29,17 +31,17 @@ export function blankSeasonStat() {
  * @param {{name:string, role:string, seed:string}} opts
  */
 export function createState({ name, role, seed }) {
-  const abilityKeys = ROLE_ABILITIES[role];
   // 出生亂數流。與人生流分開命名空間，否則改動人生流的取數順序會連帶改變天賦
   const birth = new Rng(`${seed}:birth`);
 
-  const ability = {};
-  for (const k of abilityKeys) ability[k] = birth.int(22, 34);
-  for (const k of ['lane', 'op', 'tf']) if (k in ability) ability[k] += birth.int(0, 4);
+  const attr = {};
+  for (const k of ATTRS) attr[k] = birth.int(22, 34);
+  // 天賦一出生就有位置味道：該路 OVR 最吃的兩個屬性額外拉高
+  for (const k of ROLE_START_EDGE[role]) attr[k] += birth.int(0, 4);
 
-  // 潛力天花板：1 頂尖 / 1 優質 / 1 中上 / 其餘平庸，隨機分派到 9 項能力
+  // 潛力天花板：1 頂尖 / 1 優質 / 1 中上 / 其餘平庸，隨機分派到 6 個屬性
   const potential = {};
-  birth.shuffle(abilityKeys).forEach((k, i) => {
+  birth.shuffle([...ATTRS]).forEach((k, i) => {
     potential[k] = i === 0 ? birth.int(72, 80)
       : i === 1 ? birth.int(64, 74)
       : i === 2 ? birth.int(56, 68)
@@ -62,7 +64,7 @@ export function createState({ name, role, seed }) {
     team: birth.pick(TEAMS_AMATEUR),
     teamYears: 0,
 
-    ability,
+    attr,                // 六大屬性。技能是它們的導出值，不另外存
     potential,
     carry: {},           // 訓練點不足時的「蓄力」餘額
 

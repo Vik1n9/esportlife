@@ -11,7 +11,7 @@
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
 import { importSlotsOf } from '../data/regions/index.js';
-import { effectiveOvr } from './abilities.js';
+import { effectiveOvr } from './attributes.js';
 import { flag } from '../kernel/modifiers.js';
 
 /** 玩家簽這個聯賽會不會佔用外援名額 */

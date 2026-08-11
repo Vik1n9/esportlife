@@ -3,7 +3,7 @@ import { clamp } from '../core/rng.js';
 import { DISBAND_HISTORY } from '../data/disband.js';
 import { LEAGUES, OVERSEAS_LEAGUES } from '../data/leagues.js';
 import { eraOf } from '../data/eras.js';
-import { effectiveOvr } from './abilities.js';
+import { effectiveOvr } from './attributes.js';
 import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './roster.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';

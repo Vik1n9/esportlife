@@ -16,7 +16,7 @@
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
 import { CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/formats/playoffs.js';
-import { effectiveOvr } from '../engine/abilities.js';
+import { effectiveOvr } from '../engine/attributes.js';
 import { nerveBonus, underdogBonus } from '../engine/mental.js';
 import { teamStrength } from './strength.js';
 import { bonus } from './modifiers.js';

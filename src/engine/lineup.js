@@ -14,7 +14,7 @@
  */
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
-import { effectiveOvr } from './abilities.js';
+import { effectiveOvr } from './attributes.js';
 import { factor } from '../kernel/modifiers.js';
 
 /** 一個賽段約略的週數，用來把「缺席幾週」換算成出賽比例 */

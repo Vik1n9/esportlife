@@ -5,12 +5,12 @@
  * 每個階段自己的敘事寫在自己的檔案裡——邏輯與文案同居，改一個賽事只開一個檔。
  */
 import { clamp } from '../core/rng.js';
-import { ABILITY_NAMES } from '../data/abilities.js';
+import { ATTR_NAMES } from '../data/attributes.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS } from '../data/epics.js';
-import { adjustAbility } from '../engine/abilities.js';
+import { adjustAttr, skillValue } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
 import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progression.js';
 import { flag } from '../kernel/modifiers.js';
@@ -59,10 +59,10 @@ export function* drawEvent(g) {
   const allowTraits = opt.traits !== false;
 
   const notes = [];
-  for (const [k, v] of Object.entries(outcome.ability || {})) {
-    const applied = adjustAbility(state, k, scaleAmount(v, mult));
-    if (applied > 0) notes.push(`${ABILITY_NAMES[k]} <span class="up">+${applied}</span>`);
-    else if (applied < 0) notes.push(`${ABILITY_NAMES[k]} <span class="dn">${applied}</span>`);
+  for (const [k, v] of Object.entries(outcome.attr || {})) {
+    const applied = adjustAttr(state, k, scaleAmount(v, mult));
+    if (applied > 0) notes.push(`${ATTR_NAMES[k]} <span class="up">+${applied}</span>`);
+    else if (applied < 0) notes.push(`${ATTR_NAMES[k]} <span class="dn">${applied}</span>`);
   }
 
   const unlocked = [];
@@ -84,7 +84,7 @@ export function* drawEvent(g) {
   if (flags.composure && unlockTrait(state, 'composure')) unlocked.push('composure');
   if (flags.leader && unlockTrait(state, 'leader')) unlocked.push('leader');
   if (flags.laneking && state.age < 28 && unlockTrait(state, 'laneking')) unlocked.push('laneking');
-  if (flags.macroPoint && state.ability.macro >= 60 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
+  if (flags.macroPoint && skillValue(state, 'macro') >= 60 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
   if (flags.tiltRisk && !flag(state, 'tiltImmune') && rng.chance(25)) {
     if (unlockTrait(state, 'tilt')) unlocked.push('tilt');
   }

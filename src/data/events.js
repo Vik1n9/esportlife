@@ -7,7 +7,9 @@
  * （`prompt`），再讓玩家從 `options` 裡選一條路，選項本身決定成功率與幅度。
  *
  * 結果欄位：
- * - `ability`：直接加減能力值（會依選項的 gain / loss 倍率縮放）。
+ * - `attr`：直接加減六大屬性（會依選項的 gain / loss 倍率縮放）。事件動的是屬性，
+ *           不是技能——技能是導出值，沒有地方可以「直接加」。一張卡動 AWR，玩家會
+ *           在大局觀、視野、遊走三條技能上同時看到變化，這正是兩層制想要的效果。
  * - `flags`：交給引擎解讀的副作用，避免資料層混進邏輯。
  *
  * 選項欄位：
@@ -34,8 +36,8 @@ export const EVENT_CARDS = [
       { id: 'balanced', label: '再打三把就收', odds: 55, gain: 1, loss: 1, main: true },
       { id: 'stop', label: '關機睡覺，手感明天再說', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕刷爆「666」', ability: { op: 2 } },
-    bad:  { text: '排位連敗掉分，隊友 0/10/0 開送，越打越上頭', ability: { op: -2 } } },
+    good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕刷爆「666」', attr: { tec: 2 } },
+    bad:  { text: '排位連敗掉分，隊友 0/10/0 開送，越打越上頭', attr: { tec: -1, dec: -1 } } },
 
   { id: 'scrim', name: '訓練賽加練', kind: 'normal',
     prompt: '團練結束，幾個隊友還想再開一輪對線練習。時間已經很晚了。',
@@ -44,8 +46,8 @@ export const EVENT_CARDS = [
       { id: 'focus', label: '只練自己最弱的那條線', odds: 58, gain: 1, loss: 1, main: true },
       { id: 'rest', label: '回宿舍休息，保住明天狀態', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '跟頂尖隊友加練對線，細節大開竅，教練忍不住點頭', ability: { ref: 2 } },
-    bad:  { text: '加練到半夜，反應遲鈍，隔天團練被當人機打', ability: { ref: -2 } } },
+    good: { text: '跟頂尖隊友加練對線，細節大開竅，教練忍不住點頭', attr: { tec: 1, agi: 1 } },
+    bad:  { text: '加練到半夜，反應遲鈍，隔天團練被當人機打', attr: { agi: -2 } } },
 
   { id: 'patch_study', name: '版本補習', kind: 'patch',
     prompt: '新版本上線，patch note 落落長。有人整晚在啃更新日誌，也有人直接進去打了再說。',
@@ -54,8 +56,8 @@ export const EVENT_CARDS = [
       { id: 'ask', label: '問教練跟隊友的結論就好', odds: 62, gain: 1, loss: 1, main: true },
       { id: 'feel', label: '直接進排位，打到有感覺為止', odds: 62, gain: 1, loss: 1, traits: false },
     ],
-    good: { text: '把 patch note 嗑到熟，新 Meta 拿捏得死死的，人人喊你「版本答案」', ability: { macro: 2 }, flags: { patchDebt: -2 } },
-    bad:  { text: '版本理解跟不上，還停在上一季，被酸「版本逆子」', ability: { macro: -1 }, flags: { patchDebt: 1 } } },
+    good: { text: '把 patch note 嗑到熟，新 Meta 拿捏得死死的，人人喊你「版本答案」', attr: { awr: 2 }, flags: { patchDebt: -2 } },
+    bad:  { text: '版本理解跟不上，還停在上一季，被酸「版本逆子」', attr: { awr: -1 }, flags: { patchDebt: 1 } } },
 
   { id: 'wrist', name: '手腕不適', kind: 'normal',
     prompt: '右手腕從上週就開始悶痛，握滑鼠久了會麻。賽季正打到一半。',
@@ -64,8 +66,8 @@ export const EVENT_CARDS = [
       { id: 'tape', label: '貼個貼布，訓練量減半', odds: 52, gain: 1, loss: 1 },
       { id: 'push', label: '忍著打完，賽季不能停', odds: 32, gain: 2.4, loss: 1.8 },
     ],
-    good: { text: '手腕檢查無礙，虛驚一場，粉絲鬆了一口氣', ability: { sta: 1 } },
-    bad:  { text: '手腕痠痛發炎，被醫生下了兩週禁練令，只能看隊友在峽谷開秀', ability: { ref: -2 }, flags: { injuryRisk: 6 } } },
+    good: { text: '手腕檢查無礙，虛驚一場，粉絲鬆了一口氣', attr: { vit: 1 } },
+    bad:  { text: '手腕痠痛發炎，被醫生下了兩週禁練令，只能看隊友在峽谷開秀', attr: { vit: -2 }, flags: { injuryRisk: 6 } } },
 
   { id: 'midnight_snack', name: '宵夜誘惑', kind: 'indulgent',
     prompt: '隊友點了一整桌鹹酥雞跟珍奶，味道飄滿整個訓練室。已經三點了。',
@@ -74,8 +76,8 @@ export const EVENT_CARDS = [
       { id: 'sip', label: '喝口無糖茶陪坐一下', odds: 78, gain: 0.5, loss: 0.5, traits: false },
       { id: 'feast', label: '一起吃，難得放鬆', odds: 26, gain: 2.2, loss: 1.3 },
     ],
-    good: { text: '狠拒宵夜誘惑，體態維持住，自律人設沒崩', ability: { sta: 1 } },
-    bad:  { text: '連吃一週宵夜，體重跟反應一起變慢', ability: { sta: -2, ref: -1 } } },
+    good: { text: '狠拒宵夜誘惑，體態維持住，自律人設沒崩', attr: { vit: 1 } },
+    bad:  { text: '連吃一週宵夜，體重跟反應一起變慢', attr: { vit: -2, agi: -1 } } },
 
   { id: 'nightlife', name: '夜生活邀約', kind: 'indulgent',
     prompt: '朋友揪你去續攤，說難得放假，去一次又不會死。',
@@ -84,8 +86,8 @@ export const EVENT_CARDS = [
       { id: 'brief', label: '露個臉，十一點前閃人', odds: 78, gain: 0.5, loss: 0.5, traits: false },
       { id: 'party', label: '玩到最後一攤', odds: 24, gain: 2.2, loss: 1.3 },
     ],
-    good: { text: '婉拒局邀，早睡保狀態，被笑是老人作息', ability: { sta: 1 } },
-    bad:  { text: '玩到太陽升起，隔天訓練整個靈魂出竅', ability: { ref: -2, sta: -1 } } },
+    good: { text: '婉拒局邀，早睡保狀態，被笑是老人作息', attr: { vit: 1 } },
+    bad:  { text: '玩到太陽升起，隔天訓練整個靈魂出竅', attr: { agi: -2, vit: -1 } } },
 
   { id: 'streaming', name: '直播放縱', kind: 'indulgent',
     prompt: '你的實況台開始有人看了，斗內也進來了。但開台的時間，就是不能練的時間。',
@@ -94,8 +96,8 @@ export const EVENT_CARDS = [
       { id: 'hype', label: '衝一波流量，人氣先做起來', odds: 40, gain: 1.8, loss: 1.3, flags: { popular: true } },
       { id: 'close', label: '暫時關台，專心打比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '開台時間控制得宜，人氣穩定成長，斗內刷不停', ability: { sta: 1 }, flags: { popular: true } },
-    bad:  { text: '開台開到走火入魔，訓練量下滑，聊天室笑你職業兼 YouTuber', ability: { op: -2, ref: -1 } } },
+    good: { text: '開台時間控制得宜，人氣穩定成長，斗內刷不停', attr: { vit: 1 }, flags: { popular: true } },
+    bad:  { text: '開台開到走火入魔，訓練量下滑，聊天室笑你職業兼 YouTuber', attr: { tec: -2, agi: -1 } } },
 
   { id: 'interview', name: '媒體專訪', kind: 'normal',
     prompt: '媒體約專訪，問題單先寄過來了，裡面有一題是「你怎麼看對手」。',
@@ -104,8 +106,8 @@ export const EVENT_CARDS = [
       { id: 'honest', label: '講真話，該嗆就嗆', odds: 42, gain: 2.2, loss: 1.3 },
       { id: 'prep', label: '跟隊經理對過稿再上', odds: 58, gain: 1, loss: 1, main: true },
     ],
-    good: { text: '專訪應對得體，贊助商主動來敲門', ability: { sta: 1 }, flags: { popular: true, bonusSalary: 40 } },
-    bad:  { text: '受訪一句話被做成梗圖，全網開鞭，狀態受影響', ability: { op: -1, sta: -1 } } },
+    good: { text: '專訪應對得體，贊助商主動來敲門', attr: { syn: 1 }, flags: { popular: true, bonusSalary: 40 } },
+    bad:  { text: '受訪一句話被做成梗圖，全網開鞭，狀態受影響', attr: { dec: -1, vit: -1 } } },
 
   { id: 'coaching', name: '教練團指導', kind: 'normal',
     prompt: '教練把你單獨留下來，攤開一整份你的失誤剪輯，說有些東西要從頭改。',
@@ -114,8 +116,8 @@ export const EVENT_CARDS = [
       { id: 'discuss', label: '一條一條跟教練辯到懂', odds: 60, gain: 1, loss: 1, main: true },
       { id: 'keep', label: '謝謝指教，但保留自己的打法', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '教練點破你的戰術盲點，理解直接突破', ability: { macro: 2 }, flags: { macroPoint: true } },
-    bad:  { text: '被教練盯上缺點，一直逼你改，改到不會玩', ability: { macro: -2 } } },
+    good: { text: '教練點破你的戰術盲點，理解直接突破', attr: { awr: 2 }, flags: { macroPoint: true } },
+    bad:  { text: '被教練盯上缺點，一直逼你改，改到不會玩', attr: { awr: -1, dec: -1 } } },
 
   { id: 'mentor', name: '老將指點', kind: 'normal',
     prompt: '隊上那位打過最多年的老將，主動說要跟你聊聊。他的打法跟你完全不同路。',
@@ -124,8 +126,8 @@ export const EVENT_CARDS = [
       { id: 'blend', label: '挑能用的融進自己的節奏', odds: 62, gain: 1, loss: 1, main: true },
       { id: 'listen', label: '聽聽就好，路還是自己走', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '老將一句話點醒你，大局觀直接飛躍', ability: { macro: 2, vis: 1 } },
-    bad:  { text: '學了不適合自己的套路，繞了一大圈遠路', ability: { macro: -2 } } },
+    good: { text: '老將一句話點醒你，大局觀直接飛躍', attr: { awr: 2, dec: 1 } },
+    bad:  { text: '學了不適合自己的套路，繞了一大圈遠路', attr: { awr: -2 } } },
 
   { id: 'romance', name: '單身誘惑', kind: 'romance',
     prompt: '有人在等你的答覆。你很清楚接下來幾年會有多忙。',
@@ -134,8 +136,8 @@ export const EVENT_CARDS = [
       { id: 'slow', label: '先當朋友，慢慢再說', odds: 52, gain: 1.5, loss: 0.8 },
       { id: 'accept', label: '答應，人生不是只有排位', odds: 20, gain: 2, loss: 1 },
     ],
-    good: { text: '拒絕告白，把青春全押在召喚峽谷，專注度爆表', ability: { op: 1 } },
-    bad:  { text: '談起戀愛，心思全被分散，團戰各種走神', ability: { ref: -1, op: -1 }, flags: { romance: true } } },
+    good: { text: '拒絕告白，把青春全押在召喚峽谷，專注度爆表', attr: { dec: 1 } },
+    bad:  { text: '談起戀愛，心思全被分散，團戰各種走神', attr: { awr: -1, tec: -1 }, flags: { romance: true } } },
 
   { id: 'endorsement', name: '代言邀約', kind: 'normal',
     prompt: '廠商開了一份代言合約，數字很漂亮，但通告表塞滿了整個休賽期。',
@@ -144,8 +146,8 @@ export const EVENT_CARDS = [
       { id: 'trim', label: '只接不影響訓練的檔期', odds: 60, gain: 1, loss: 1, main: true },
       { id: 'reject', label: '推掉，這季只想專注比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '代言商演安排得宜，名氣跟收入一起起飛', ability: { sta: 1 }, flags: { popular: true, bonusSalary: 120 } },
-    bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', ability: { op: -2, sta: -1 } } },
+    good: { text: '代言商演安排得宜，名氣跟收入一起起飛', attr: { vit: 1 }, flags: { popular: true, bonusSalary: 120 } },
+    bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', attr: { tec: -2, vit: -1 } } },
 
   { id: 'slump', name: '季中低潮', kind: 'normal',
     prompt: '連續幾週怎麼打都不對，鏡頭掃到你的臉，論壇已經在喊換人了。',
@@ -154,8 +156,8 @@ export const EVENT_CARDS = [
       { id: 'reset', label: '請幾天假，把腦袋清空', odds: 58, gain: 1, loss: 1, main: true },
       { id: 'bench', label: '主動要求輪替，先坐板凳', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '靠自己把低潮挺過去，心態反而更穩了', ability: { macro: 1, sta: 1 }, flags: { composure: true } },
-    bad:  { text: '季中低潮拖了一個月，狀態一路探底', ability: { op: -2, ref: -1, sta: -1 }, flags: { tiltRisk: true } } },
+    good: { text: '靠自己把低潮挺過去，心態反而更穩了', attr: { dec: 1, vit: 1 }, flags: { composure: true } },
+    bad:  { text: '季中低潮拖了一個月，狀態一路探底', attr: { tec: -2, agi: -1, vit: -1 }, flags: { tiltRisk: true } } },
 
   { id: 'vod_review', name: '錄像檢討', kind: 'normal',
     prompt: '下週對上的那個對手，你手上有他整季的錄影。看，還是不看？',
@@ -164,8 +166,8 @@ export const EVENT_CARDS = [
       { id: 'key', label: '只看關鍵局的對線段', odds: 60, gain: 1, loss: 1, main: true },
       { id: 'skip', label: '不看，打自己的節奏就好', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '把對手 VOD 看到吐，摸透習慣，單殺率直線上升', ability: { lane: 2 }, flags: { laneking: true } },
-    bad:  { text: '檢討過頭，場上越想越多，反而畏首畏尾', ability: { lane: -2 } } },
+    good: { text: '把對手 VOD 看到吐，摸透習慣，單殺率直線上升', attr: { awr: 1, tec: 1 }, flags: { laneking: true } },
+    bad:  { text: '檢討過頭，場上越想越多，反而畏首畏尾', attr: { dec: -2 } } },
 
   { id: 'roster_drama', name: '隊內矛盾', kind: 'normal',
     prompt: '訓練賽輸完，休息室安靜得可怕。有人開始在群組裡陰陽怪氣。',
@@ -174,8 +176,8 @@ export const EVENT_CARDS = [
       { id: 'mediate', label: '私下一個一個約出來談', odds: 60, gain: 1, loss: 1, main: true },
       { id: 'avoid', label: '不介入，交給教練處理', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '你主動把話攤開講，休息室氣氛重新凝聚', ability: { macro: 1 }, flags: { leader: true } },
-    bad:  { text: '隊內宮鬥劇開演，訓練賽都在互相甩鍋', ability: { tf: -2 }, flags: { mateMorale: -2 } } },
+    good: { text: '你主動把話攤開講，休息室氣氛重新凝聚', attr: { syn: 1 }, flags: { leader: true } },
+    bad:  { text: '隊內宮鬥劇開演，訓練賽都在互相甩鍋', attr: { syn: -2 }, flags: { mateMorale: -2 } } },
 
   { id: 'boot_camp', name: '海外集訓', kind: 'normal',
     prompt: '隊伍安排了一趟海外集訓，對手全是完全不同體系的隊。時差七小時。',
@@ -184,8 +186,8 @@ export const EVENT_CARDS = [
       { id: 'adapt', label: '先調時差，再照表操課', odds: 62, gain: 1, loss: 1, main: true },
       { id: 'light', label: '把它當調整期，練少一點', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
-    good: { text: '海外集訓遇上完全不同的打法，視野整個被打開', ability: { macro: 1, vis: 2, tf: 1 } },
-    bad:  { text: '時差沒調過來，集訓整趟都在昏睡，峽谷團練全變夢遊', ability: { sta: -2, ref: -1 } } },
+    good: { text: '海外集訓遇上完全不同的打法，視野整個被打開', attr: { awr: 2, syn: 1, dec: 1 } },
+    bad:  { text: '時差沒調過來，集訓整趟都在昏睡，峽谷團練全變夢遊', attr: { vit: -2, agi: -1 } } },
 ];
 
 /** 依生涯評價分級的粉絲留言 */

@@ -7,8 +7,8 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { careerFlow } from '../../src/engine/game.js';
-import { investAbility, abilityCap, abilityKeys } from '../../src/engine/abilities.js';
-import { OVR_WEIGHTS } from '../../src/data/abilities.js';
+import { investAttr, attrCap, attrKeys } from '../../src/engine/attributes.js';
+import { ROLE_ATTR_WEIGHTS } from '../../src/data/skills.js';
 
 export const MAX_BEATS = 20000;
 
@@ -25,37 +25,38 @@ export function decide(beat, strategy, rng) {
 }
 
 /**
- * 加點策略。
+ * 加點策略。投的是六大屬性——技能是導出值，沒有加點這回事。
  * - `spread` 輪流平均投入（新手打法，故意打得很差）。
- * - `focus`  優先餵權重高、且還沒碰到潛力天花板的能力（老手打法）。
+ * - `focus`  優先餵權重高、且還沒碰到潛力天花板的屬性（老手打法）。
  */
 export function allocate(state, beat, style = 'focus') {
-  const keys = abilityKeys(state);
-  const cap = abilityCap(state);
+  const keys = attrKeys(state);
+  const cap = attrCap(state);
   const units = beat.mode === 'dice' ? beat.dice : Array.from({ length: beat.points }, () => 1);
-  const weights = OVR_WEIGHTS[state.role];
+  // 位置 → 屬性的合成權重，等同於「這一點投下去，OVR 會漲多少」
+  const weights = ROLE_ATTR_WEIGHTS[state.role];
 
   let i = 0;
   for (const unit of units) {
     let key;
     if (style === 'spread') {
       let tries = 0;
-      while (state.ability[keys[i % keys.length]] >= cap && tries < keys.length) { i++; tries++; }
+      while (state.attr[keys[i % keys.length]] >= cap && tries < keys.length) { i++; tries++; }
       if (tries >= keys.length) break;
       key = keys[i % keys.length];
       i++;
     } else {
-      const usable = keys.filter((k) => state.ability[k] < cap);
+      const usable = keys.filter((k) => state.attr[k] < cap);
       if (!usable.length) break;
       // 分數＝OVR 權重 ÷ 目前價位，並強烈懲罰已超過潛力上限的項目
       key = usable.reduce((best, k) => {
         const score = (weights[k] || 0.02)
-          * (state.ability[k] >= (state.potential[k] ?? 62) ? 0.25 : 1)
-          / (state.ability[k] >= 66 ? 7 : state.ability[k] >= 58 ? 4 : state.ability[k] >= 50 ? 2 : 1);
+          * (state.attr[k] >= (state.potential[k] ?? 62) ? 0.25 : 1)
+          / (state.attr[k] >= 66 ? 7 : state.attr[k] >= 58 ? 4 : state.attr[k] >= 50 ? 2 : 1);
         return score > best.score ? { k, score } : best;
       }, { k: usable[0], score: -1 }).k;
     }
-    investAbility(state, key, unit);
+    investAttr(state, key, unit);
   }
 }
 

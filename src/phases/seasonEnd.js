@@ -5,9 +5,8 @@
  * 才有門票可談。
  */
 import { LEAGUES } from '../data/leagues.js';
-import { STAT_BASELINE } from '../data/abilities.js';
-import { ABILITY_NAMES } from '../data/abilities.js';
-import { effectiveOvr, ovr, patchPenalty } from '../engine/abilities.js';
+import { STAT_BASELINE } from '../data/skills.js';
+import { effectiveOvr, ovr, patchPenalty } from '../engine/attributes.js';
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { formatStatLine, mergeSplits } from '../engine/season.js';
 import { applyPatch, rollInjury, trainHeroes, unlockTrait } from '../engine/progression.js';

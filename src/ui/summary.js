@@ -1,5 +1,5 @@
 /** 生涯結算：檔案卡、數據表、榮譽、粉絲留言、分享圖。 */
-import { ROLE_NAMES } from '../data/abilities.js';
+import { ROLE_NAMES } from '../data/skills.js';
 import { FAN_QUOTES } from '../data/events.js';
 import { BUCKET_NAMES } from '../data/leagues.js';
 import { careerScore, tierName } from '../engine/career.js';

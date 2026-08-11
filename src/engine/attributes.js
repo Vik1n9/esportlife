@@ -1,20 +1,53 @@
-/** 能力值計算：OVR、成長成本、加點、年齡衰退、退役上限。純函式（會就地修改 state.ability）。 */
+/** 屬性與技能的計算：技能求值、OVR、成長成本、加點、年齡衰退、退役上限。純函式（會就地修改 state.attr）。 */
 import { clamp } from '../core/rng.js';
 import {
-  ABILITY_CAP, ABILITY_CAP_GODHAND, GROWTH_COST,
-  OVER_POTENTIAL_MULTIPLIER, OVR_WEIGHTS, ROLE_ABILITIES,
-} from '../data/abilities.js';
+  AGING_GAIN_ATTRS, ATTRS, ATTR_CAP, ATTR_CAP_GODHAND, DECLINE_ATTRS,
+  GROWTH_COST, OVER_POTENTIAL_MULTIPLIER,
+} from '../data/attributes.js';
+import { ROLE_ATTR_WEIGHTS, ROLE_SKILLS, SKILL_WEIGHTS } from '../data/skills.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
 
-export function abilityCap(state) {
-  return flag(state, 'abilityCapUp') ? ABILITY_CAP_GODHAND : ABILITY_CAP;
+export function attrCap(state) {
+  return flag(state, 'abilityCapUp') ? ATTR_CAP_GODHAND : ATTR_CAP;
 }
 
-/** 位置加權 OVR（不含版本落差懲罰） */
-export function ovr(state) {
-  const w = OVR_WEIGHTS[state.role] || {};
+/* ================= 技能（導出值） ================= */
+
+/**
+ * 單項技能的實際值＝六屬性的加權平均（權重和為 1，所以值域與屬性相同）。
+ * 玩家不能直接動這個數字——要動就得去動它背後的屬性。
+ */
+export function skillValue(state, key) {
+  const w = SKILL_WEIGHTS[key];
+  if (!w) return 0;
   let v = 0;
-  for (const [k, p] of Object.entries(w)) v += (state.ability[k] || 0) * p;
+  for (const [attr, p] of Object.entries(w)) v += (state.attr[attr] || 0) * p;
+  return Math.round(v);
+}
+
+/** 該位置有意義的技能（依 OVR 權重由重到輕），供面板與敘事使用 */
+export function roleSkills(state) {
+  return ROLE_SKILLS[state.role] || [];
+}
+
+/** 一次算好該位置所有技能，避免模擬迴圈裡逐項重算 */
+export function skills(state) {
+  const out = {};
+  for (const key of Object.keys(SKILL_WEIGHTS)) out[key] = skillValue(state, key);
+  return out;
+}
+
+/* ================= OVR ================= */
+
+/**
+ * 位置加權 OVR（不含版本落差懲罰）。
+ *
+ * 走的是折疊過的 `ROLE_ATTR_WEIGHTS`，數學上等同於「先算技能再加權」，但少繞一圈。
+ */
+export function ovr(state) {
+  const w = ROLE_ATTR_WEIGHTS[state.role] || {};
+  let v = 0;
+  for (const [k, p] of Object.entries(w)) v += (state.attr[k] || 0) * p;
   v += bonus(state, 'ovrAdd');
   // 年齡條件無法寫進特質資料表，留在這裡
   if (state.epic.ageless && state.age >= 30) v += 1;
@@ -37,6 +70,8 @@ export function effectiveOvr(state) {
   return ovr(state) + patchPenalty(state);
 }
 
+/* ================= 成長 ================= */
+
 function stepCost(current, cap) {
   const base = GROWTH_COST.find((g) => current >= g.at).cost;
   return current >= cap ? base * OVER_POTENTIAL_MULTIPLIER : base;
@@ -44,7 +79,7 @@ function stepCost(current, cap) {
 
 /** 下一點需要多少訓練點（給 UI 顯示用） */
 export function nextStepCost(state, key) {
-  return stepCost(state.ability[key], state.potential[key] ?? 62);
+  return stepCost(state.attr[key], state.potential[key] ?? 62);
 }
 
 /**
@@ -53,7 +88,7 @@ export function nextStepCost(state, key) {
  * 以及下一個會漲價的數值門檻與屆時成本。
  */
 export function growthThreshold(state, key) {
-  const value = state.ability[key];
+  const value = state.attr[key];
   const potentialCap = state.potential[key] ?? 62;
   const over = value >= potentialCap;
   const mult = over ? OVER_POTENTIAL_MULTIPLIER : 1;
@@ -75,18 +110,18 @@ export function needForNextGain(state, key) {
 }
 
 /**
- * 投入 `points` 點訓練成果到某項能力。
+ * 投入 `points` 點訓練成果到某個屬性。
  * 不足以買下一階時會存進 `carry` 蓄力，下次接續——避免小骰子完全浪費。
  * @returns {number} 實際提升的點數
  */
-export function investAbility(state, key, points) {
-  if (!(key in state.ability)) return 0;
-  const before = state.ability[key];
-  const cap = abilityCap(state);
+export function investAttr(state, key, points) {
+  if (!(key in state.attr)) return 0;
+  const before = state.attr[key];
+  const cap = attrCap(state);
 
   if (points < 0) {
-    state.ability[key] = clamp(before + points, 1, cap);
-    return state.ability[key] - before;
+    state.attr[key] = clamp(before + points, 1, cap);
+    return state.attr[key] - before;
   }
 
   const potentialCap = state.potential[key] ?? 62;
@@ -101,17 +136,17 @@ export function investAbility(state, key, points) {
   }
 
   state.carry[key] = current >= cap ? 0 : budget;
-  state.ability[key] = current;
+  state.attr[key] = current;
   return current - before;
 }
 
 /** 直接加減（事件卡用），不走蓄力機制 */
-export function adjustAbility(state, key, delta) {
-  if (!(key in state.ability)) return 0;
-  if (delta > 0) return investAbility(state, key, delta);
-  const before = state.ability[key];
-  state.ability[key] = clamp(before + delta, 1, abilityCap(state));
-  return state.ability[key] - before;
+export function adjustAttr(state, key, delta) {
+  if (!(key in state.attr)) return 0;
+  if (delta > 0) return investAttr(state, key, delta);
+  const before = state.attr[key];
+  state.attr[key] = clamp(before + delta, 1, attrCap(state));
+  return state.attr[key] - before;
 }
 
 /** 退役硬上限 */
@@ -121,6 +156,9 @@ export function retirementAge(state) {
 
 /**
  * 年齡衰退。回傳 null 表示本季未衰退。
+ *
+ * 身體先走（靈巧／體能／技巧），腦子繼續長（意識／決斷）——「老將靠意識吃飯」是
+ * 這條規則的直接後果，不需要另外寫特例。
  * @returns {{amount:number, phase:1|2, keys:string[], grown:string[]}|null}
  */
 export function applyAgeDecline(state, rng) {
@@ -130,18 +168,18 @@ export function applyAgeDecline(state, rng) {
   const raw = declineAge >= 33 ? 4 + (declineAge - 33) : 2;
   const amount = Math.max(1, Math.round(raw * capOf(state, 'declineMult', 1)));
 
-  const keys = ['ref', 'op', 'sta'].filter((k) => k in state.ability);
+  const keys = DECLINE_ATTRS.filter((k) => k in state.attr);
   for (const k of keys) {
-    // `不老傳奇` 對反應/操作再減半
-    const hit = state.epic.ageless && (k === 'ref' || k === 'op') ? Math.max(1, Math.round(amount / 2)) : amount;
-    state.ability[k] = clamp(state.ability[k] - hit, 1, abilityCap(state));
+    // `不老傳奇` 對靈巧/技巧再減半
+    const hit = state.epic.ageless && (k === 'agi' || k === 'tec') ? Math.max(1, Math.round(amount / 2)) : amount;
+    state.attr[k] = clamp(state.attr[k] - hit, 1, attrCap(state));
   }
 
-  // 經驗型能力 30 歲後仍可能續升
+  // 經驗型屬性 30 歲後仍可能續升
   const grown = [];
-  for (const k of ['macro', 'vis']) {
-    if (k in state.ability && rng.next() < 0.5) {
-      state.ability[k] = clamp(state.ability[k] + 1, 1, abilityCap(state));
+  for (const k of AGING_GAIN_ATTRS) {
+    if (k in state.attr && rng.next() < 0.5) {
+      state.attr[k] = clamp(state.attr[k] + 1, 1, attrCap(state));
       grown.push(k);
     }
   }
@@ -149,6 +187,6 @@ export function applyAgeDecline(state, rng) {
   return { amount, phase: declineAge >= 33 ? 2 : 1, keys, grown };
 }
 
-export function abilityKeys(state) {
-  return ROLE_ABILITIES[state.role];
+export function attrKeys() {
+  return ATTRS;
 }

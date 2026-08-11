@@ -2,7 +2,7 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { applyPatch, adjustPatchDebt } from '../../src/engine/progression.js';
-import { patchPenalty } from '../../src/engine/abilities.js';
+import { patchPenalty } from '../../src/engine/attributes.js';
 
 export const name = '版本落差方向';
 

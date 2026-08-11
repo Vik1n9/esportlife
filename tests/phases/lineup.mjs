@@ -15,7 +15,7 @@ export const name = '先發板凳與傷勢缺席';
 function pro(seed, ovrValue, extra = {}) {
   const state = createState({ name: 'L', role: 'MID', seed });
   state.stage = 'PRO'; state.league = 'LCK'; state.team = 'T1';
-  for (const k of Object.keys(state.ability)) state.ability[k] = ovrValue;
+  for (const k of Object.keys(state.attr)) state.attr[k] = ovrValue;
   state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, ovr: ovrValue }));
   Object.assign(state, extra);
   return state;
@@ -30,8 +30,9 @@ export async function run({ check }) {
     check('體力高給小幅加成', formFactor(70) > 1 && formFactor(70) <= 1.06, formFactor(70));
     check('體力對表現的影響是連續的', formFactor(60) > formFactor(50) && formFactor(50) > formFactor(40));
 
-    const tired = pro('tired', 62); tired.ability.sta = 30;
-    const fresh = pro('fresh', 62); fresh.ability.sta = 70;
+    // 體力是導出技能，要動它得動它背後的體能（VIT 佔 0.75）
+    const tired = pro('tired', 62); tired.attr.vit = 20;
+    const fresh = pro('fresh', 62); fresh.attr.vit = 78;
     let tiredG = 0; let freshG = 0; let tiredD = 0; let freshD = 0;
     for (let i = 0; i < 200; i++) {
       const a = simulateSeason(tired, rng, 'LCK', 1, 1);

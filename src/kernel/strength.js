@@ -4,7 +4,7 @@
  * 三個函式住在一起是因為它們永遠一起被改——調權重時三個都要看。
  */
 import { COACHES } from '../data/coaches.js';
-import { effectiveOvr } from '../engine/abilities.js';
+import { effectiveOvr, skillValue } from '../engine/attributes.js';
 import { chemBonus } from '../engine/mental.js';
 import { factor, floorOf } from './modifiers.js';
 
@@ -30,5 +30,5 @@ export function teamStrength(state) {
   return effectiveOvr(state) * 0.55
     + matesAverage(state) * 0.35
     + coachBonus(state)
-    + state.ability.sta * 0.05;
+    + skillValue(state, 'sta') * 0.05;
 }
