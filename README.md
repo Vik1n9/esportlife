@@ -29,9 +29,8 @@
 
 ## 介面與素材授權
 
-- **介面**依 Riot Games / League of Legends 官方配色與 UI 語彙設計（深藍、金、六角水晶意象）。
-- **背景** `assets/rift-bg.svg` 為自製原創 SVG（召喚水晶＋六角紋理），零外部依賴、可離線。
-- **字型**使用 OFL 授權的 Cinzel / Noto / Rajdhani（由 Google Fonts 載入，離線時自動回退系統字型）。
+- **介面**視覺語彙對齊 tftactics.gg：深藍色階、藍色動作、金色狀態、terracotta 階段底線，長文可讀性優先。
+- **字型**使用 OFL 授權的 Inter / Noto Sans TC（由 Google Fonts 載入，離線時自動回退系統字型）。
 - 本專案為**非營利粉絲致敬作品**，依 Riot Games「Legal Jibber Jabber」政策使用相關名詞；
   未使用任何 Riot 旗下圖片、圖示或商標。Riot Games 並未背書或贊助本專案。
   詳細規範見 <https://www.riotgames.com/en/legal>。

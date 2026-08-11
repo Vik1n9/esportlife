@@ -51,3 +51,23 @@ export function rollRoster(state, rng, leagueKey) {
   if (state.mental) state.mental.chem = Math.round((state.mental.chem + 50) / 2);
 }
 
+
+/* ---------------- 顯示名 ---------------- */
+
+/** 目前所在階段的顯示名 */
+export function stageLabel(state) {
+  if (state.stage === 'AMATEUR') return '網咖盃賽';
+  if (state.stage === 'AM2') return state.am2Track === 'OVERSEAS' ? '海外青訓' : '青訓次級';
+  return LEAGUES[state.league]?.region === 'HOME' ? homeLeagueName(state) : LEAGUES[state.league]?.name || '';
+}
+
+/** 目前所在階段對應的 LEAGUES 鍵 */
+export function currentLeagueKey(state) {
+  if (state.stage === 'PRO') return state.league;
+  return state.stage === 'AM2' ? 'AM2' : 'AMATEUR';
+}
+
+/** 聯賽的顯示名（主場賽區依時代改名） */
+export function leagueLabel(state, leagueKey) {
+  return LEAGUES[leagueKey].region === 'HOME' ? homeLeagueName(state) : LEAGUES[leagueKey].name;
+}
