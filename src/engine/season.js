@@ -1,7 +1,7 @@
 /** 賽季模擬：場次、勝負、個人數據。純函式，不碰 state 以外的東西。 */
 import { clamp } from '../core/rng.js';
 import { STAT_BASELINE } from '../data/abilities.js';
-import { LEAGUES } from '../data/world.js';
+import { LEAGUES } from '../data/leagues.js';
 import { blankSeasonStat } from './state.js';
 import { effectiveOvr } from './abilities.js';
 import { teamStrength } from './team.js';

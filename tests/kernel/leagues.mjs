@@ -1,5 +1,5 @@
 /** 聯賽階梯的基本不變式：每個分區都有中文名、起點是無薪的網咖盃賽。 */
-import { LEAGUES, BUCKET_NAMES } from '../../src/data/world.js';
+import { LEAGUES, BUCKET_NAMES } from '../../src/data/leagues.js';
 
 export const name = '聯賽階梯與分區名稱';
 

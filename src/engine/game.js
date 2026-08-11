@@ -25,7 +25,10 @@ import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS } from '../data/epics.js';
 import { bonus, flag } from '../kernel/modifiers.js';
-import { AMATEUR_CUPS, LEAGUES, START_YEAR, splitsOf } from '../data/world.js';
+import { AMATEUR_CUPS } from '../data/teams.js';
+import { LEAGUES } from '../data/leagues.js';
+import { START_YEAR } from '../data/eras.js';
+import { splitsOf } from '../data/regions/index.js';
 import {
   abilityKeys, adjustAbility, applyAgeDecline, effectiveOvr,
   investAbility, ovr, patchPenalty, retirementAge,

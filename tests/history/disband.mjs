@@ -8,7 +8,7 @@ import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { teamsOf } from '../../src/engine/team.js';
 import { disbandNoteFor } from '../../src/engine/market.js';
-import { DISBAND_YEAR } from '../../src/data/world.js';
+import { DISBAND_YEAR } from '../../src/data/disband.js';
 
 export const name = '史實解散與簽約名單';
 

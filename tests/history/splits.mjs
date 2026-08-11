@@ -5,7 +5,7 @@
  * 2023 LEC 帶頭改三賽段，2025 全面三段式。韓國反而最早三段——2012–2014 的
  * OGN Champions 本來就分冬／春／夏。
  */
-import { splitsOf } from '../../src/data/world.js';
+import { splitsOf } from '../../src/data/regions/index.js';
 
 export const name = '賽段結構隨史實演進';
 

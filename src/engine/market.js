@@ -1,6 +1,8 @@
 /** 合約、薪資、自由市場、試訓、歷史解散。 */
 import { clamp } from '../core/rng.js';
-import { DISBAND_HISTORY, LEAGUES, OVERSEAS_LEAGUES, eraOf } from '../data/world.js';
+import { DISBAND_HISTORY } from '../data/disband.js';
+import { LEAGUES, OVERSEAS_LEAGUES } from '../data/leagues.js';
+import { eraOf } from '../data/eras.js';
 import { effectiveOvr } from './abilities.js';
 import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './team.js';

@@ -1,5 +1,6 @@
 /** MSI 與世界賽。 */
-import { LEAGUES, eraOf } from '../data/world.js';
+import { LEAGUES } from '../data/leagues.js';
+import { eraOf } from '../data/eras.js';
 import { clamp } from '../core/rng.js';
 import { effectiveOvr } from './abilities.js';
 import { nerveBonus, underdogBonus } from './mental.js';

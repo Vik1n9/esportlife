@@ -7,7 +7,9 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { academyTeamsOf } from '../../src/engine/team.js';
-import { DISBAND_YEAR, TEAMS_HOME, eraOf } from '../../src/data/world.js';
+import { DISBAND_YEAR } from '../../src/data/disband.js';
+import { teamNamesOf } from '../../src/data/regions/index.js';
+import { eraOf } from '../../src/data/eras.js';
 
 export const name = '青訓隊名不得時代錯置';
 
@@ -22,7 +24,7 @@ export async function run({ check }) {
     const parents = pool.map((t) => t.replace(/ 二隊$/, ''));
     const era = eraOf(year).home;
     for (const p of parents) {
-      check(`${year} 年的二隊母隊當年存在（${p}）`, TEAMS_HOME[era].includes(p) && !(DISBAND_YEAR[p] <= year));
+      check(`${year} 年的二隊母隊當年存在（${p}）`, teamNamesOf('HOME', era).includes(p) && !(DISBAND_YEAR[p] <= year));
     }
   }
 

@@ -9,7 +9,8 @@
  * 規則沒有因為這個功能被打破。
  */
 import { clamp } from '../core/rng.js';
-import { LEAGUES, CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/world.js';
+import { LEAGUES } from '../data/leagues.js';
+import { CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/formats/playoffs.js';
 import { effectiveOvr } from './abilities.js';
 import { nerveBonus, underdogBonus } from './mental.js';
 import { teamStrength } from './team.js';

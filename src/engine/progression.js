@@ -1,6 +1,6 @@
 /** 受傷、版本改動、英雄專精、特質解鎖與合成。 */
 import { clamp } from '../core/rng.js';
-import { HEROES, PATCH_THEMES } from '../data/world.js';
+import { HEROES, PATCH_THEMES } from '../data/heroes.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, FUSIONS } from '../data/epics.js';
 import { capOf, factor, flag, traitName } from '../kernel/modifiers.js';

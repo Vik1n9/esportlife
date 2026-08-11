@@ -7,7 +7,9 @@
 import { Rng } from '../core/rng.js';
 import { ROLE_ABILITIES } from '../data/abilities.js';
 import { MENTAL_START } from '../data/mental.js';
-import { HEROES, TEAMS_AMATEUR, START_AGE, START_YEAR } from '../data/world.js';
+import { HEROES } from '../data/heroes.js';
+import { TEAMS_AMATEUR } from '../data/teams.js';
+import { START_AGE, START_YEAR } from '../data/eras.js';
 
 export const SAVE_VERSION = 6;
 

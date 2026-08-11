@@ -1,5 +1,10 @@
 /** 隊友、教練、隊伍強度。 */
-import { COACHES, DISBAND_YEAR, LEAGUES, MATE_NAMES, TEAMS_HOME, TEAMS_OVERSEAS, eraOf } from '../data/world.js';
+import { COACHES } from '../data/coaches.js';
+import { DISBAND_YEAR } from '../data/disband.js';
+import { LEAGUES } from '../data/leagues.js';
+import { MATE_NAMES } from '../data/teams.js';
+import { teamNamesOf } from '../data/regions/index.js';
+import { eraOf } from '../data/eras.js';
 import { effectiveOvr } from './abilities.js';
 import { chemBonus } from './mental.js';
 import { factor, floorOf } from '../kernel/modifiers.js';
@@ -30,9 +35,8 @@ export function academyTeamsOf(state, leagueKey) {
 export function teamsOf(state, leagueKey) {
   const league = LEAGUES[leagueKey];
   if (!league) return [];
-  const pool = league.region === 'HOME'
-    ? TEAMS_HOME[homeLeagueName(state)]
-    : TEAMS_OVERSEAS[league.region] || [];
+  // 主場賽區隨時代改名換隊，所以要把當年的時代鍵（GPL/LMS/PCS/LCP）帶進去
+  const pool = teamNamesOf(league.region, homeLeagueName(state));
   return pool.filter((t) => !(DISBAND_YEAR[t] <= state.year));
 }
 

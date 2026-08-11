@@ -7,7 +7,7 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { stageLabel } from '../../src/engine/game.js';
-import { TEAMS_AMATEUR } from '../../src/data/world.js';
+import { TEAMS_AMATEUR } from '../../src/data/teams.js';
 import { driveUntil, isSigningOffer } from '../lib/harness.mjs';
 
 export const name = '業餘起點與挖角時機';

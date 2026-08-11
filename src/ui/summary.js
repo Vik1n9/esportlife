@@ -1,7 +1,7 @@
 /** 生涯結算：檔案卡、數據表、榮譽、粉絲留言、分享圖。 */
 import { ROLE_NAMES } from '../data/abilities.js';
 import { FAN_QUOTES } from '../data/events.js';
-import { BUCKET_NAMES } from '../data/world.js';
+import { BUCKET_NAMES } from '../data/leagues.js';
 import { careerScore, tierName } from '../engine/career.js';
 import { formatMoney } from '../engine/market.js';
 import { activeTraitNames } from '../engine/progression.js';
@@ -89,7 +89,7 @@ function shareCard({ state, tier, seed, appVersion }) {
 
 function copyReplayLink(btn, seed) {
   const url = `${location.origin}${location.pathname}?seed=${encodeURIComponent(seed)}`;
-  const ok = () => { btn.textContent = '✅ 已複製'; setTimeout(() => { btn.textContent = '🔗 複製重播連結'; }, 1600); };
+  const ok = () => { btn.textContent = '✅ 已複製'; setTimeout(() => { btn.textContent = '🔗 複製天賦連結'; }, 1600); };
   if (navigator.clipboard?.writeText) navigator.clipboard.writeText(url).then(ok, () => window.prompt('手動複製連結：', url));
   else window.prompt('手動複製連結：', url);
 }
