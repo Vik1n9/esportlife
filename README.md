@@ -4,8 +4,8 @@
 
 👉 **[點我直接遊玩](https://vik1n9.github.io/esportlife/)**
 
-> 專案已由 YaKyuLife（棒球版）更名為 **esportlife**。
-> 舊網址 <https://leoggcat.github.io/yakyulife/> 是另一個帳號的舊部署，停留在 v2，不再更新。
+> 本專案是 [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife) 的**大幅改寫**衍生作品，
+> 已更名為 **esportlife**。原始出處與授權說明見「[授權與出處](#授權與出處)」。
 
 ## 遊戲特色
 
@@ -30,7 +30,18 @@
 - 22 歲前累積 5 次擲出「6」可覺醒隱藏素質。
 - 右上角 **☰** 隨時打開選手資料面板；**↺** 重新開始。
 
-## 介面與素材授權
+## 授權與出處
+
+本專案是 [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife) 的**大幅改寫**衍生作品：
+引擎骨架、事件卡與隱藏特質概念承襲自原版，賽制、角色、數據與介面則已全面改寫為 LoL 電競內容。
+
+- **原始出處**：[LeoGGcat / yakyulife](https://github.com/LeoGGcat/yakyulife)，由 [LeoGGcat](https://github.com/LeoGGcat) 開發。
+- **本改寫**：Vik1n9（esportlife）。
+- **授權**：本專案以 **MIT License** 釋出（見 `LICENSE`）。改寫前已向原作者申請授權，
+  目前等待作者回覆；待原作者確認後，`LICENSE` 會一併補上原作者的版權署名。
+  若你打算以本專案為基礎再創作，請一併保留對原作者的出處標示。
+
+### 介面與素材
 
 - **介面**視覺語彙對齊 tftactics.gg：深藍色階、藍色動作、金色狀態、terracotta 階段底線，長文可讀性優先。
 - **字型**使用 OFL 授權的 Inter / Noto Sans TC（由 Google Fonts 載入，離線時自動回退系統字型）。
