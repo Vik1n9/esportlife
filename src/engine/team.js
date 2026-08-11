@@ -13,6 +13,18 @@ export function homeLeagueName(state) {
  * 必須排除。舊版沒有這道過濾，於是可以在 2019 年休賽期加入剛倒閉的閃電狼，
  * 之後那支隊伍就永遠不會觸發解散事件——史實解散被一個時序漏洞繞過去了。
  */
+/**
+ * 二隊／青訓的隊名。
+ *
+ * 舊版寫死成 ['閃電狼二隊', 'ahq Academy', 'PSG Talon Academy', '峽谷次級聯隊']，
+ * 於是 2013 年就會冒出 PSG Talon Academy——PSG Talon 2020 才成立。改為直接掛在
+ * 「當年真實存在的一隊」底下推導，時代自動正確，也不必再維護第二份名單。
+ */
+export function academyTeamsOf(state, leagueKey) {
+  const suffix = LEAGUES[leagueKey].region === 'HOME' ? ' 二隊' : ' Academy';
+  return teamsOf(state, leagueKey).map((t) => t + suffix);
+}
+
 export function teamsOf(state, leagueKey) {
   const league = LEAGUES[leagueKey];
   if (!league) return [];

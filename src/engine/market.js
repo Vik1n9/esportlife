@@ -1,8 +1,8 @@
 /** 合約、薪資、自由市場、試訓、歷史解散。 */
 import { clamp } from '../core/rng.js';
-import { DISBAND_HISTORY, LEAGUES, OVERSEAS_LEAGUES, TEAMS_AM2_HOME, TEAMS_AM2_OVERSEAS, eraOf } from '../data/world.js';
+import { DISBAND_HISTORY, LEAGUES, OVERSEAS_LEAGUES, eraOf } from '../data/world.js';
 import { effectiveOvr } from './abilities.js';
-import { rollRoster, teamsOf } from './team.js';
+import { academyTeamsOf, rollRoster, teamsOf } from './team.js';
 
 export function formatMoney(n) {
   if (n >= 10000) return `${(n / 10000).toFixed(1)}億`;
@@ -68,7 +68,7 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
   for (const leagueKey of rng.shuffle(leagues)) {
     if (offers.length >= 4) break;
     let pool = teamsOf(state, leagueKey);
-    if (leagueKey === 'AM2') pool = state.am2Track === 'OVERSEAS' ? TEAMS_AM2_OVERSEAS : TEAMS_AM2_HOME;
+    if (leagueKey === 'AM2') pool = academyTeamsOf(state, state.am2Track === 'OVERSEAS' ? rng.pick(OVERSEAS_LEAGUES) : 'HOME');
     pool = pool.filter((t) => t !== state.team || !excludeCurrentTeam);
     pool = pool.filter((t) => !offers.some((o) => o.team === t));
     if (!pool.length) continue;
@@ -118,15 +118,42 @@ export function tryout(state, rng, track = 'HOME') {
   return { ok: true, league, team: rng.pick(pool), years: 2, mult: 1 };
 }
 
-/** 青訓次級隊伍（不佔正式合約，薪水很低） */
-export function assignAcademyTeam(state, rng, track) {
-  state.am2Track = track;
-  state.stage = 'AM2';
-  state.stageYear = 0;
-  state.league = 'AM2';
-  state.team = rng.pick(track === 'OVERSEAS' ? TEAMS_AM2_OVERSEAS : TEAMS_AM2_HOME);
-  state.contract = { years: 1, mult: 1 };
-  rollRoster(state, rng, 'AM2');
+/**
+ * 各層級注意到你的實力門檻。
+ *
+ * 業餘階段不再強制熬滿三年——只要數值達標，就會有隊伍找上門。
+ *
+ * 重點是「職業隊」不只有一隊。實測過舊設定：三年期滿時 OVR 中位數只有 37，
+ * 而主場一隊的試訓門檻是 45，所以那個「投入主場賽區試訓」的選項成功率是 0%，
+ * 每個人最後都被丟進青訓。這既不好玩，也不符合 2012 年的實況——在網咖打出
+ * 名號的人，現實中是被戰隊的二隊／青訓收走，再一路往上爬，不是直接進一隊。
+ *
+ * 所以門檻分成三層：青訓二隊（最常見的出路）、主場一隊（少年天才）、
+ * 海外賽區（極罕見）。
+ */
+export const SCOUT_BAR = {
+  AM2: LEAGUES.AM2.par - 8,
+  HOME: LEAGUES.HOME.par - 8,
+  OVERSEAS: Math.min(...OVERSEAS_LEAGUES.map((l) => LEAGUES[l].min - 6)),
+};
+
+/** 不消耗亂數的純查詢，供流程判斷這一年有哪些層級會來敲門 */
+export function scoutInterest(state) {
+  const o = effectiveOvr(state);
+  return {
+    ovr: o,
+    am2: o >= SCOUT_BAR.AM2,
+    home: o >= SCOUT_BAR.HOME,
+    overseas: o >= SCOUT_BAR.OVERSEAS,
+  };
+}
+
+/** 青訓次級的一紙合約（不佔正式一隊名額，薪水很低） */
+export function academyOffer(state, rng, track = 'HOME') {
+  const parent = track === 'OVERSEAS' ? rng.pick(OVERSEAS_LEAGUES) : 'HOME';
+  const pool = academyTeamsOf(state, parent);
+  if (!pool.length) return null;
+  return { ok: true, league: 'AM2', team: rng.pick(pool), years: 1, mult: 1 };
 }
 
 /** 續約時可選的合約長度 */

@@ -239,7 +239,130 @@ console.log('▸ 10. 生涯從網咖盃賽起步');
   check('stageLabel 顯示網咖盃賽', stageLabel(state) === '網咖盃賽', stageLabel(state));
 }
 
-console.log('▸ 11. 例：一段生涯的年表');
+console.log('▸ 11. 數值達標就會被挖角，不必熬滿三年');
+
+/** 一個 choice 是不是「有隊伍要簽你」——比對 option id，不依賴文案 */
+const isSigningOffer = (beat) => (beat.options || []).some((o) => o.id.startsWith('sign-'));
+
+/** 驅動 careerFlow 直到某條件成立或步數用盡，回傳所有 choice beat */
+function driveUntil(state, rng, { stop, answer, maxBeats = 600 }) {
+  const flow = careerFlow({ state, rng });
+  const choices = [];
+  let input;
+  for (let i = 0; i < maxBeats; i++) {
+    const { value, done } = flow.next(input);
+    input = undefined;
+    if (done) break;
+    if (value.type === 'choice') {
+      choices.push(value);
+      input = answer(value);
+    } else if (value.type === 'alloc') {
+      allocate(state, value);
+    }
+    if (stop(state)) break;
+  }
+  return choices;
+}
+
+{
+  // 天賦爆表的新人：一開局就遠超業餘水準
+  const rng = new Rng('prodigy');
+  const state = createState({ name: 'P', role: 'MID', rng, seed: 'prodigy' });
+  for (const k of Object.keys(state.ability)) state.ability[k] = 60;
+  for (const k of Object.keys(state.potential)) state.potential[k] = 80;
+
+  const choices = driveUntil(state, rng, {
+    stop: (st) => st.stage === 'PRO',
+    answer: (beat) => beat.options[0].id,      // 一律接受最好的那個
+  });
+  check('三年期滿前就收到職業隊合約', choices.some(isSigningOffer), choices.map((c) => c.title).join(' / '));
+  check('第一年（2012）就轉職業', state.stage === 'PRO' && state.year === 2012, `${state.stage}@${state.year}`);
+  check('轉職業後有合約', !!state.contract);
+  check('轉職業後 stageYear 歸零', state.stageYear === 0, String(state.stageYear));
+}
+
+{
+  // 同一個天才選擇婉拒 → 留在業餘，隔年應該再次被找上門
+  const rng = new Rng('prodigy');
+  const state = createState({ name: 'P', role: 'MID', rng, seed: 'prodigy' });
+  for (const k of Object.keys(state.ability)) state.ability[k] = 60;
+  for (const k of Object.keys(state.potential)) state.potential[k] = 80;
+
+  const choices = driveUntil(state, rng, {
+    stop: (st) => st.year >= 2014,
+    answer: (beat) => {
+      if (!isSigningOffer(beat)) return beat.options[0].id;
+      const wait = beat.options.find((o) => o.id === 'wait');
+      return (wait || beat.options[0]).id;      // 一律婉拒
+    },
+  });
+  const offers = choices.filter(isSigningOffer);
+  check('婉拒後隔年仍會被找上門', offers.length >= 2, `收到 ${offers.length} 次邀約`);
+  check('婉拒選項在強制年之前一定存在', offers.every((c) => c.options.some((o) => o.id === 'wait')));
+  check('婉拒不會被強制轉職業', state.stage === 'AMATEUR', state.stage);
+}
+
+{
+  // 數值不達標就不該有人上門
+  const rng = new Rng('nobody');
+  const state = createState({ name: 'N', role: 'SUP', rng, seed: 'nobody' });
+  for (const k of Object.keys(state.ability)) state.ability[k] = 25;
+  for (const k of Object.keys(state.potential)) state.potential[k] = 30;   // 加點也漲不動
+
+  const choices = driveUntil(state, rng, {
+    stop: (st) => st.year >= 2014,
+    answer: (beat) => beat.options[0].id,
+  });
+  check('沒達標就沒有星探', !choices.some(isSigningOffer), choices.map((c) => c.title).join(' / '));
+  check('沒達標仍留在業餘', state.stage === 'AMATEUR', state.stage);
+}
+
+{
+  // 只夠青訓的實力，不該收到一隊的邀約（舊版就是把打不到的選項擺出來騙人）
+  const { SCOUT_BAR } = await import('../src/engine/market.js');
+  const rng = new Rng('academy-only');
+  const state = createState({ name: 'A', role: 'JG', rng, seed: 'academy-only' });
+  for (const k of Object.keys(state.ability)) state.ability[k] = 40;   // 介於青訓 36 與一隊 45 之間
+  for (const k of Object.keys(state.potential)) state.potential[k] = 42;
+
+  check('門檻層級由低到高', SCOUT_BAR.AM2 < SCOUT_BAR.HOME && SCOUT_BAR.HOME <= SCOUT_BAR.OVERSEAS,
+    JSON.stringify(SCOUT_BAR));
+
+  const choices = driveUntil(state, rng, {
+    stop: (st) => st.stage !== 'AMATEUR',
+    answer: (beat) => beat.options[0].id,
+  });
+  const offer = choices.find(isSigningOffer);
+  check('這種實力會收到邀約', !!offer);
+  check('只會是青訓二隊，不會有一隊選項',
+    offer && offer.options.filter((o) => o.id.startsWith('sign-')).every((o) => /青訓二隊/.test(o.label)),
+    offer && offer.options.map((o) => o.label).join(' / '));
+  check('簽下後進入 AM2', state.stage === 'AM2', state.stage);
+}
+
+console.log('▸ 12. 青訓隊名不會出現時代錯置');
+{
+  const { academyTeamsOf } = await import('../src/engine/team.js');
+  const { DISBAND_YEAR, TEAMS_HOME, eraOf } = await import('../src/data/world.js');
+  const rng = new Rng('academy-era');
+  const state = createState({ name: 'E', role: 'MID', rng, seed: 'academy-era' });
+  for (const year of [2013, 2017, 2022, 2027]) {
+    state.year = year;
+    const pool = academyTeamsOf(state, 'HOME');
+    check(`${year} 年二隊名單非空`, pool.length > 0);
+    const parents = pool.map((t) => t.replace(/ 二隊$/, ''));
+    const era = eraOf(year).home;
+    for (const p of parents) {
+      check(`${year} 年的二隊母隊當年存在（${p}）`, TEAMS_HOME[era].includes(p) && !(DISBAND_YEAR[p] <= year));
+    }
+  }
+  state.year = 2013;
+  check('2013 年不會出現 PSG Talon 二隊（PSG Talon 2020 才成立）',
+    !academyTeamsOf(state, 'HOME').some((t) => t.includes('PSG Talon')),
+    academyTeamsOf(state, 'HOME').join(' / '));
+}
+
+console.log('▸ 13. 例：一段生涯的年表');
 {
   const { state } = playCareer({ seed: 'showcase', role: 'MID', name: 'Showcase', strategy: 'first' });
   console.log(`  ${state.name}｜${state.proYears} 職業季｜巔峰 OVR ${state.peakOvr}｜評分 ${careerScore(state)}（${TIER_NAMES[careerTier(state)]}）`);

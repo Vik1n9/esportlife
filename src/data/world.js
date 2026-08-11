@@ -76,9 +76,6 @@ export const AMATEUR_CUPS = [
   '排位路人王擂台',
 ];
 
-export const TEAMS_AM2_HOME = ['閃電狼二隊', 'ahq Academy', 'PSG Talon Academy', '峽谷次級聯隊'];
-export const TEAMS_AM2_OVERSEAS = ['T1 Challengers', 'Gen.G Global Academy', 'Fnatic TQ', 'Cloud9 Challengers'];
-
 export const MATE_NAMES = ['幻影', '蒼狼', '飛隼', '剃刀', '颶風', '岩壁', '霜星', '疾風', '雷鳴', '夜梟', '赤鴉', '銀牙'];
 
 /** 教練風格與其提供的隊伍強度加成（單位：OVR 點） */

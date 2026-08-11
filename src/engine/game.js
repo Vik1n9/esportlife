@@ -30,8 +30,8 @@ import {
 import { careerTier, tierName } from './career.js';
 import { msiEligible, msiForced, runMsi, runWorlds, worldsEligible, worldsQualifyChance } from './international.js';
 import {
-  annualSalary, assignAcademyTeam, disbandNoteFor, formatMoney,
-  generateOffers, renewalTerms, signContract, tryout,
+  SCOUT_BAR, academyOffer, annualSalary, disbandNoteFor, formatMoney,
+  generateOffers, renewalTerms, scoutInterest, signContract, tryout,
 } from './market.js';
 import { accumulate, formatStatLine, simulateSeason } from './season.js';
 import { adjustPatchDebt, applyPatch, checkFusions, rollInjury, trainHeroes, unlockTrait } from './progression.js';
@@ -464,8 +464,8 @@ function* movement(g) {
   const { state, rng } = g;
 
   if (state.stage === 'AMATEUR') {
-    if (state.stageYear < 3) return;
-    yield* amateurCrossroads(g);
+    // 數值達標就會有隊伍上門，不必熬滿三年
+    yield* amateurStage(g);
     return;
   }
 
@@ -534,41 +534,126 @@ function tickContract(state) {
   state.teamYears += 1;
 }
 
-function* amateurCrossroads(g) {
+/** 聯賽的顯示名（主場賽區依時代改名） */
+function leagueLabel(state, leagueKey) {
+  return LEAGUES[leagueKey].region === 'HOME' ? homeLeagueName(state) : LEAGUES[leagueKey].name;
+}
+
+function* joinProTeam(g, offer, track, title) {
   const { state, rng } = g;
-  const o = effectiveOvr(state);
-  const options = [
-    { id: 'home', label: '投入主場賽區試訓', main: true, note: `綜合 ${o}｜門檻約 ${LEAGUES.HOME.par - 8}` },
-  ];
-  if (o >= 48) options.push({ id: 'overseas', label: '直接挑戰海外賽區試訓', note: '門檻高，但一步到位' });
-  options.push({ id: 'quit', label: '放棄職業之路', warn: true });
+  state.stage = 'PRO';
+  state.stageYear = 0;
+  state.am2Track = track;
+  signContract(state, rng, offer);
+  yield card('gold', title,
+    `你被 <b class="hl">${offer.team}</b> 簽下，正式踏入 <b class="hl">${leagueLabel(state, offer.league)}</b>！教練體系：${state.coach}。`);
+}
 
-  const picked = yield { type: 'choice', title: `網咖盃三年 · 綜合能力 ${o} · 人生的第一個路口`, options };
-  if (picked === 'quit') retire('最後一場網咖盃打完，你把自己的滑鼠收進背包，再也沒回過那條街。');
+function* joinAcademy(g, offer, track) {
+  const { state, rng } = g;
+  state.stage = 'AM2';
+  state.stageYear = 0;
+  state.am2Track = track;
+  signContract(state, rng, offer);
+  yield card('info', '青訓報到',
+    `<b class="hl">${offer.team}</b> 把你收進二隊。薪水很低，但你終於有教練、有訓練賽、有隊友。`);
+}
 
-  const track = picked === 'overseas' ? 'OVERSEAS' : 'HOME';
-  const res = tryout(state, rng, track);
-  if (res.ok) {
-    state.stage = 'PRO';
-    state.stageYear = 0;
-    state.am2Track = track;
-    signContract(state, rng, res);
-    yield card('gold', '入選職業隊',
-      `你被 <b class="hl">${res.team}</b> 簽下，正式踏入 <b class="hl">${LEAGUES[res.league].region === 'HOME' ? homeLeagueName(state) : LEAGUES[res.league].name}</b>！教練體系：${state.coach}。`);
+/**
+ * 業餘階段的出路判定：只要數值達標，就會有隊伍上門，不必熬滿三年。
+ *
+ * 「職業隊」不是只有一隊。舊流程只給「投入主場賽區試訓」這一個選項，門檻 45，
+ * 但三年期滿時 OVR 中位數只有 37——那個選項的成功率實測是 0%，每個人都是走完
+ * 假的路口再被丟進青訓。現在分成三層各自判定：
+ *
+ *   青訓二隊（門檻 36）：網咖打出名號後最常見的出路
+ *   主場一隊（門檻 45）：少年天才，直接進一軍
+ *   海外賽區（門檻 47）：極罕見
+ *
+ * 前三年可以婉拒、留下來把數值養高再談，婉拒沒有懲罰；第三年起必須做決定。
+ */
+function* amateurStage(g) {
+  const { state, rng } = g;
+  const mandatory = state.stageYear >= 3;
+  const interest = scoutInterest(state);
+  const offers = [];
+
+  if (interest.overseas) {
+    const abroad = tryout(state, rng, 'OVERSEAS');
+    if (abroad.ok) offers.push({ offer: abroad, track: 'OVERSEAS', pro: true });
+  }
+  if (interest.home) {
+    const home = tryout(state, rng, 'HOME');
+    if (home.ok) offers.push({ offer: home, track: 'HOME', pro: true });
+  }
+  if (interest.am2) {
+    const track = interest.overseas ? 'OVERSEAS' : 'HOME';
+    offers.push({ offer: academyOffer(state, rng, track), track, pro: false });
+  }
+
+  if (!offers.length) {
+    if (mandatory) yield* amateurDeadEnd(g);
     return;
   }
 
-  const after = yield {
+  yield card('gold', mandatory ? '職業隊的邀約' : '星探上門',
+    `網咖店長把你上週那場的錄影傳了出去。<b class="hl">${offers.map((x) => x.offer.team).join('、')}</b> ` +
+    `派人來看你打了一整晚。${mandatory ? '' : `${state.age} 歲，還沒打滿三年業餘，就有人來敲門了。`}`);
+
+  const options = offers.map(({ offer, pro }, i) => ({
+    id: `sign-${i}`,
+    label: `${offer.team}（${pro ? leagueLabel(state, offer.league) : '青訓二隊'}）`,
+    note: `${offer.years} 年｜年薪估 ${formatMoney(annualSalary(state, offer.league, offer.mult))}`
+      + `｜隊伍平均 ${LEAGUES[offer.league].par}`,
+    main: i === 0,
+  }));
+
+  if (mandatory) {
+    options.push({ id: 'quit', label: '放棄職業之路', warn: true });
+  } else {
+    options.push({
+      id: 'wait',
+      label: '婉拒，留在業餘再練一年',
+      note: `目前綜合 ${interest.ovr}；現在進去就是墊底，養高一點再談條件`,
+    });
+  }
+
+  const picked = yield {
     type: 'choice',
-    title: '試訓落榜',
+    title: mandatory
+      ? `網咖盃第 ${state.stageYear} 年 · 綜合 ${interest.ovr} · 該做決定了`
+      : `有人要簽你 · ${state.year}`,
+    options,
+  };
+
+  if (picked === 'quit') retire('最後一場網咖盃打完，你把自己的滑鼠收進背包，再也沒回過那條街。');
+  if (picked === 'wait') {
+    yield card('', '婉拒邀約', '你說再等等。回到網咖那個位子，繼續練。');
+    return;
+  }
+
+  const chosen = offers[Number(picked.split('-')[1])];
+  if (chosen.pro) yield* joinProTeam(g, chosen.offer, chosen.track, state.stageYear < 3 ? '提前轉職業' : '入選職業隊');
+  else yield* joinAcademy(g, chosen.offer, chosen.track);
+}
+
+/** 三年期滿卻連青訓門檻都沒摸到 */
+function* amateurDeadEnd(g) {
+  const { state } = g;
+  const o = effectiveOvr(state);
+  if (state.age >= 22) {
+    retire(`打到 ${state.age} 歲，連二隊的門檻都沒摸到。你把網咖那張會員卡剪了。`);
+  }
+  const picked = yield {
+    type: 'choice',
+    title: `網咖盃第 ${state.stageYear} 年 · 綜合 ${o} · 還沒有人來`,
     options: [
-      { id: 'am2', label: '進入青訓次級聯賽', main: true, note: '一年一次試訓機會，最多撐到 28 歲' },
-      { id: 'quit', label: '就此退役', warn: true },
+      { id: 'stay', label: '再打一年網咖盃', main: true, note: `門檻：青訓 ${SCOUT_BAR.AM2}｜主場一隊 ${SCOUT_BAR.HOME}｜最多撐到 22 歲` },
+      { id: 'quit', label: '放棄職業之路', warn: true },
     ],
   };
-  if (after === 'quit') retire('試訓落榜，決定離開電競圈。');
-  assignAcademyTeam(state, rng, track);
-  yield card('info', '青訓報到', `你加入 <b class="hl">${state.team}</b>，從次級聯賽重新開始。`);
+  if (picked === 'quit') retire('最後一場網咖盃打完，你把自己的滑鼠收進背包，再也沒回過那條街。');
+  yield card('', '再練一年', '沒有人打電話來。你把位子續了下去。');
 }
 
 function* freeAgency(g, { forced }) {

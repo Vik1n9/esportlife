@@ -4,8 +4,12 @@
     {
       "name": "esportlife",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8099"],
-      "port": 8099
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8123"
+      ],
+      "port": 8123
     }
   ]
 }
