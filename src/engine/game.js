@@ -48,8 +48,7 @@ export function* careerFlow(g) {
     yield card('info', '選手誕生',
       `${state.year} 年春天，這座島上還沒有「職業選手」這種身分。有的是網咖包台、` +
       `店家自己辦的盃賽，和一整排在排位上想證明自己的人。<br>` +
-      `16 歲的 <b class="hl">${state.name}</b> 在 <b class="hl">${state.team}</b> 卡到一個位子。三年後的路，要自己選。` +
-      `<br><span class="muted">提示：22 歲前累積擲出 5 次「6」可覺醒隱藏素質。</span>`);
+      `16 歲的 <b class="hl">${state.name}</b> 在 <b class="hl">${state.team}</b> 卡到一個位子。三年後的路，要自己選。`);
   }
 
   try {

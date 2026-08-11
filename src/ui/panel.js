@@ -119,7 +119,6 @@ function renderPanel() {
       <div class="kv">
         ${mentalSummary(state).map((m) => `<div><span>${m.name}</span><b>${m.tier}</b></div>`).join('')}
       </div>
-      <p class="muted small">沒有數字，也不會有。這條軸靠的是你怎麼演，不是你投了幾點。</p>
     </section>
 
     <section>
@@ -134,7 +133,7 @@ function renderPanel() {
     <section>
       <h5>隱藏素質</h5>
       <div class="tags">${traitHtml}</div>
-      <p class="muted small">劃線＝已被合成消耗。合成配方不會公開。</p>
+      <p class="muted small">劃線＝已被合成消耗。</p>
     </section>
 
     <section>
