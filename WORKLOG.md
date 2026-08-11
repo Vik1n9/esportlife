@@ -29,12 +29,11 @@
 - **狀態**：完成。程式碼與文件都已就緒，headless 測試全綠，瀏覽器實跑過完整生涯
   （校園→青訓→主場→MSI→世界賽→退役結算→分享圖）無 console error。
 
-- **部署**：已 commit 並 push 到 `Vik1n9/esportlife` 的 `main`（commit `a71ee13`）。
-  該 repo 的 GitHub Pages 已啟用（來源 `main` 根目錄），正式網址
-  <https://vik1n9.github.io/esportlife/>。舊網址 `leoggcat.github.io/yakyulife/`
-  是另一個帳號的舊部署，停留在 v2，不再更新。
+- **部署**：已 commit 並 push 到 `Vik1n9/esportlife` 的 `main`。GitHub Pages 已啟用
+  （來源 `main` 根目錄，強制 HTTPS），正式網址 <https://vik1n9.github.io/esportlife/>，
+  線上實跑過完整生涯無 console error。舊網址 `leoggcat.github.io/yakyulife/` 是另一個
+  帳號的舊部署，停留在 v2，不再更新。
+  `Vik1n9/esportlife` 已解除 fork 關係（`fork: false`、`parent: null`），成為獨立專案。
 
-- **下一步（未做，非阻塞）**：
-  1. `Vik1n9/esportlife` 目前仍是 `LeoGGcat/yakyulife` 的 fork。GitHub 沒有解除 fork 的
-     API，需由使用者在 Settings → Danger Zone → Leave fork network 手動操作。
-  2. 可再擴充的點：海外賽區的歷史解散事件、時代跨越時舊隊名的處置、更多事件卡。
+- **下一步（未做，非阻塞）**：可再擴充的點——海外賽區的歷史解散事件、
+  時代跨越時舊隊名的處置（例如球隊撐過賽區更名）、更多事件卡。
