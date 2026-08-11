@@ -219,7 +219,27 @@ console.log('▸ 8. 在解散年身處該隊 → 強制自由市場');
   check('同年其他隊不受影響', !disbandNoteFor(state));
 }
 
-console.log('▸ 9. 例：一段生涯的年表');
+console.log('▸ 9. 每個賽制分區都有中文名稱（避免結算表印出內部鍵值）');
+{
+  const { LEAGUES, BUCKET_NAMES } = await import('../src/data/world.js');
+  const buckets = [...new Set(Object.values(LEAGUES).map((l) => l.bucket))];
+  for (const b of buckets) check(`分區 ${b} 有對應名稱`, !!BUCKET_NAMES[b], `BUCKET_NAMES 缺 ${b}`);
+  check('起點分區為 AMATEUR（網咖盃賽）', LEAGUES.AMATEUR?.name === '網咖盃賽', LEAGUES.AMATEUR?.name);
+  check('起點無薪', LEAGUES.AMATEUR?.baseSalary === 0);
+}
+
+console.log('▸ 10. 生涯從網咖盃賽起步');
+{
+  const rng = new Rng('start-stage');
+  const state = createState({ name: 'S', role: 'TOP', rng, seed: 'start-stage' });
+  const { TEAMS_AMATEUR } = await import('../src/data/world.js');
+  const { stageLabel } = await import('../src/engine/game.js');
+  check('初始 stage 為 AMATEUR', state.stage === 'AMATEUR', state.stage);
+  check('初始隊伍來自網咖名單', TEAMS_AMATEUR.includes(state.team), state.team);
+  check('stageLabel 顯示網咖盃賽', stageLabel(state) === '網咖盃賽', stageLabel(state));
+}
+
+console.log('▸ 11. 例：一段生涯的年表');
 {
   const { state } = playCareer({ seed: 'showcase', role: 'MID', name: 'Showcase', strategy: 'first' });
   console.log(`  ${state.name}｜${state.proYears} 職業季｜巔峰 OVR ${state.peakOvr}｜評分 ${careerScore(state)}（${TIER_NAMES[careerTier(state)]}）`);

@@ -21,7 +21,7 @@ export function eraOf(year) {
  * - `baseSalary` 單位為「萬台幣」，會再乘上時代係數與合約係數。
  */
 export const LEAGUES = {
-  ACAD: { name: '校園電競', par: 34, min: 30, games: 36, bucket: 'ACAD', tier: 0, baseSalary: 0 },
+  AMATEUR: { name: '網咖盃賽', par: 34, min: 30, games: 36, bucket: 'AMATEUR', tier: 0, baseSalary: 0 },
   AM2:  { name: '青訓次級', par: 44, min: 41, games: 48, bucket: 'AM2', tier: 1, baseSalary: 60 },
   HOME: { name: '主場賽區', par: 53, min: 50, games: 60, bucket: 'HOME', tier: 2, baseSalary: 300, region: 'HOME' },
   LEC:  { name: 'LEC', par: 56, min: 53, games: 66, bucket: 'OVERSEAS', tier: 3, baseSalary: 600, region: 'EU' },
@@ -32,7 +32,7 @@ export const LEAGUES = {
 
 export const OVERSEAS_LEAGUES = ['LCK', 'LPL', 'LEC', 'LCS'];
 
-export const BUCKET_NAMES = { ACAD: '校園', AM2: '青訓', HOME: '主場賽區', OVERSEAS: '海外賽區' };
+export const BUCKET_NAMES = { AMATEUR: '業餘', AM2: '青訓', HOME: '主場賽區', OVERSEAS: '海外賽區' };
 
 /** 主場賽區各時代的真實隊名 */
 export const TEAMS_HOME = {
@@ -50,7 +50,31 @@ export const TEAMS_OVERSEAS = {
   NA: ['Cloud9', 'Team Liquid', '100 Thieves', 'FlyQuest', 'NRG', 'Shopify Rebellion', 'Dignitas', 'Immortals'],
 };
 
-export const TEAMS_ACADEMY = ['巴龍學園', '紅方理工', '藍學院', '小龍高中', '峽谷之星', '裂谷聯隊'];
+/**
+ * 業餘起點的隊伍名。
+ *
+ * S2（2012）的台灣還沒有校隊或校際聯賽這種東西——當年的業餘場景是網咖包台、
+ * 網咖自辦的盃賽，還有在排位上打出名號的路人王。隊伍多半是一群朋友臨時湊的，
+ * 隊名也就跟著隨便取。
+ */
+export const TEAMS_AMATEUR = [
+  '戰略高手網咖聯隊',
+  '夜貓網咖五連坐',
+  '巨獸網咖 A 隊',
+  '影武者網咖代表隊',
+  '學生街網咖雜牌軍',
+  '峽谷路人王小隊',
+];
+
+/** 業餘階段的賽事名稱，純敘事用 */
+export const AMATEUR_CUPS = [
+  '網咖店內盃',
+  '連鎖網咖城市盃',
+  '週末 5v5 業餘聯賽',
+  '飲料店贊助盃',
+  '巴哈網友自辦盃',
+  '排位路人王擂台',
+];
 
 export const TEAMS_AM2_HOME = ['閃電狼二隊', 'ahq Academy', 'PSG Talon Academy', '峽谷次級聯隊'];
 export const TEAMS_AM2_OVERSEAS = ['T1 Challengers', 'Gen.G Global Academy', 'Fnatic TQ', 'Cloud9 Challengers'];

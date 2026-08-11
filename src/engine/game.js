@@ -22,7 +22,7 @@ import { clamp } from '../core/rng.js';
 import { ABILITY_NAMES, STAT_BASELINE } from '../data/abilities.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { BASE_TRAITS, EPIC_TRAITS } from '../data/traits.js';
-import { LEAGUES, START_YEAR } from '../data/world.js';
+import { AMATEUR_CUPS, LEAGUES, START_YEAR } from '../data/world.js';
 import {
   abilityKeys, adjustAbility, applyAgeDecline, effectiveOvr,
   investAbility, ovr, patchPenalty, retirementAge,
@@ -45,14 +45,14 @@ const retire = (reason) => { throw new RetireSignal(reason); };
 /* ================= 小工具 ================= */
 
 export function stageLabel(state) {
-  if (state.stage === 'ACAD') return '校園電競';
+  if (state.stage === 'AMATEUR') return '網咖盃賽';
   if (state.stage === 'AM2') return state.am2Track === 'OVERSEAS' ? '海外青訓' : '青訓次級';
   return LEAGUES[state.league]?.region === 'HOME' ? homeLeagueName(state) : LEAGUES[state.league]?.name || '';
 }
 
 function currentLeagueKey(state) {
   if (state.stage === 'PRO') return state.league;
-  return state.stage === 'AM2' ? 'AM2' : 'ACAD';
+  return state.stage === 'AM2' ? 'AM2' : 'AMATEUR';
 }
 
 const card = (tone, title, body) => ({ type: 'card', tone, title, body });
@@ -67,7 +67,9 @@ export function* careerFlow(g) {
 
   if (state.year === START_YEAR && state.age === 16 && !state.seasonLog.length) {
     yield card('info', '選手誕生',
-      `${state.year} 年春天，${ABILITY_NAMES ? '' : ''}<b class="hl">${state.name}</b> 加入 <b class="hl">${state.team}</b>。三年後的路，要自己選。` +
+      `${state.year} 年春天，這座島上還沒有「職業選手」這種身分。有的是網咖包台、` +
+      `店家自己辦的盃賽，和一整排在排位上想證明自己的人。<br>` +
+      `16 歲的 <b class="hl">${state.name}</b> 在 <b class="hl">${state.team}</b> 卡到一個位子。三年後的路，要自己選。` +
       `<br><span class="muted">提示：22 歲前累積擲出 5 次「6」可覺醒隱藏素質。</span>`);
   }
 
@@ -209,8 +211,10 @@ function* phaseSeason(g) {
     ? `綜合 OVR <b class="hl">${ovr(state)}</b> <span class="dn">${penalty}</span>（版本落差）`
     : `綜合 OVR <b class="hl">${ovr(state)}</b>`;
   const line = formatStatLine(stat);
-  yield card('', '賽季戰報',
-    `${state.team}｜${stageLabel(state)}　${ovrNote}<div class="statline">${line}</div>`);
+  // 業餘階段沒有固定聯賽，打的是一場一場的網咖盃
+  const venue = state.stage === 'AMATEUR' ? rng.pick(AMATEUR_CUPS) : stageLabel(state);
+  yield card('', state.stage === 'AMATEUR' ? '本年戰績' : '賽季戰報',
+    `${state.team}｜${venue}　${ovrNote}<div class="statline">${line}</div>`);
   state.seasonLog.push({ year: state.year, age: state.age, team: state.team, line, stat });
 
   if (learned.length) {
@@ -404,7 +408,7 @@ function* phaseOffseason(g) {
 
 function* settleSalary(g) {
   const { state } = g;
-  if (state.stage === 'ACAD' || !state.contract) return;
+  if (state.stage === 'AMATEUR' || !state.contract) return;
   const pay = annualSalary(state, currentLeagueKey(state), state.contract.mult);
   const extra = state.bonusSalary;
   state.bonusSalary = 0;
@@ -459,9 +463,9 @@ function* internationalStage(g) {
 function* movement(g) {
   const { state, rng } = g;
 
-  if (state.stage === 'ACAD') {
+  if (state.stage === 'AMATEUR') {
     if (state.stageYear < 3) return;
-    yield* academyCrossroads(g);
+    yield* amateurCrossroads(g);
     return;
   }
 
@@ -530,7 +534,7 @@ function tickContract(state) {
   state.teamYears += 1;
 }
 
-function* academyCrossroads(g) {
+function* amateurCrossroads(g) {
   const { state, rng } = g;
   const o = effectiveOvr(state);
   const options = [
@@ -539,8 +543,8 @@ function* academyCrossroads(g) {
   if (o >= 48) options.push({ id: 'overseas', label: '直接挑戰海外賽區試訓', note: '門檻高，但一步到位' });
   options.push({ id: 'quit', label: '放棄職業之路', warn: true });
 
-  const picked = yield { type: 'choice', title: `校園三年 · 綜合能力 ${o} · 人生的第一個路口`, options };
-  if (picked === 'quit') retire('校園賽季結束後，你把滑鼠收進了抽屜。');
+  const picked = yield { type: 'choice', title: `網咖盃三年 · 綜合能力 ${o} · 人生的第一個路口`, options };
+  if (picked === 'quit') retire('最後一場網咖盃打完，你把自己的滑鼠收進背包，再也沒回過那條街。');
 
   const track = picked === 'overseas' ? 'OVERSEAS' : 'HOME';
   const res = tryout(state, rng, track);

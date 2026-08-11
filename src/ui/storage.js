@@ -6,7 +6,7 @@
  */
 import { SAVE_VERSION } from '../engine/state.js';
 
-const KEY = 'esportlife.save.v3';
+const KEY = 'esportlife.save.v4';
 
 export function saveGame(state, rng) {
   try {
