@@ -5,13 +5,14 @@
  * 隊友與教練、合約狀態全程都藏在 state 裡沒有出口。這裡補上一個隨時可開的面板。
  */
 import { ABILITY_CAP, ABILITY_NAMES, ROLE_NAMES } from '../data/abilities.js';
-import { HEROES, LEAGUES } from '../data/world.js';
+import { HEROES } from '../data/heroes.js';
+import { LEAGUES } from '../data/leagues.js';
 import { effectiveOvr, ovr, patchPenalty, retirementAge } from '../engine/abilities.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { mentalSummary } from '../engine/mental.js';
 import { activeTraitNames } from '../engine/progression.js';
-import { coachBonus, matesAverage } from '../engine/team.js';
+import { coachBonus, matesAverage } from '../kernel/strength.js';
 import { byId, escapeHtml } from './dom.js';
 
 let root = null;

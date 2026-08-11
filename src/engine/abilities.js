@@ -4,9 +4,10 @@ import {
   ABILITY_CAP, ABILITY_CAP_GODHAND, GROWTH_COST,
   OVER_POTENTIAL_MULTIPLIER, OVR_WEIGHTS, ROLE_ABILITIES,
 } from '../data/abilities.js';
+import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
 
 export function abilityCap(state) {
-  return state.epic.godhand ? ABILITY_CAP_GODHAND : ABILITY_CAP;
+  return flag(state, 'abilityCapUp') ? ABILITY_CAP_GODHAND : ABILITY_CAP;
 }
 
 /** 位置加權 OVR（不含版本落差懲罰） */
@@ -14,7 +15,8 @@ export function ovr(state) {
   const w = OVR_WEIGHTS[state.role] || {};
   let v = 0;
   for (const [k, p] of Object.entries(w)) v += (state.ability[k] || 0) * p;
-  if (state.epic.godhand) v += 2;
+  v += bonus(state, 'ovrAdd');
+  // 年齡條件無法寫進特質資料表，留在這裡
   if (state.epic.ageless && state.age >= 30) v += 1;
   return Math.round(v);
 }
@@ -24,10 +26,9 @@ export function ovr(state) {
  * 舊版把「版本補習成功」也算成 metaCount，好結果反而變懲罰——已修正。
  */
 export function patchPenalty(state) {
-  if (state.epic.prophet) return 0;
+  if (flag(state, 'patchImmune')) return 0;
   const absorbed = Math.max(0, state.heroPool.length - 3);
-  let debt = Math.max(0, state.patchDebt - absorbed);
-  if (state.traits.meta) debt *= 0.5;
+  const debt = Math.max(0, state.patchDebt - absorbed) * factor(state, 'patchDebt');
   return -Math.round(debt * 1.5);
 }
 
@@ -89,8 +90,7 @@ export function investAbility(state, key, points) {
   }
 
   const potentialCap = state.potential[key] ?? 62;
-  const multiplier = state.epic.godhand ? 2 : 1;
-  let budget = points * multiplier + (state.carry[key] || 0);
+  let budget = points * factor(state, 'growthMult') + (state.carry[key] || 0);
   let current = before;
 
   while (current < cap) {
@@ -116,10 +116,7 @@ export function adjustAbility(state, key, delta) {
 
 /** 退役硬上限 */
 export function retirementAge(state) {
-  if (state.epic.ageless) return 40;
-  if (state.epic.godhand) return 38;
-  if (state.traits.veteran) return 36;
-  return 34;
+  return floorOf(state, 'retireAge', 34);
 }
 
 /**
@@ -127,13 +124,11 @@ export function retirementAge(state) {
  * @returns {{amount:number, phase:1|2, keys:string[], grown:string[]}|null}
  */
 export function applyAgeDecline(state, rng) {
-  const offset = state.epic.ageless ? 4 : state.epic.godhand ? 2 : state.traits.veteran ? 2 : 0;
-  const declineAge = state.age - offset;
+  const declineAge = state.age - floorOf(state, 'declineOffset', 0);
   if (declineAge < 30) return null;
 
   const raw = declineAge >= 33 ? 4 + (declineAge - 33) : 2;
-  let multiplier = state.epic.ageless ? 0.5 : state.traits.veteran ? 0.7 : 1;
-  const amount = Math.max(1, Math.round(raw * multiplier));
+  const amount = Math.max(1, Math.round(raw * capOf(state, 'declineMult', 1)));
 
   const keys = ['ref', 'op', 'sta'].filter((k) => k in state.ability);
   for (const k of keys) {

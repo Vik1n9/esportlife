@@ -1,7 +1,7 @@
 /** 生涯結算：檔案卡、數據表、榮譽、粉絲留言、分享圖。 */
 import { ROLE_NAMES } from '../data/abilities.js';
 import { FAN_QUOTES } from '../data/events.js';
-import { BUCKET_NAMES } from '../data/world.js';
+import { BUCKET_NAMES } from '../data/leagues.js';
 import { careerScore, tierName } from '../engine/career.js';
 import { formatMoney } from '../engine/market.js';
 import { activeTraitNames } from '../engine/progression.js';
@@ -71,12 +71,12 @@ function shareCard({ state, tier, seed, appVersion }) {
   node.innerHTML = `<h4>分享這段生涯</h4>
     <div class="row2">
       <button class="btn main" data-act="img">📸 產生結算圖</button>
-      <button class="btn" data-act="url">🔗 複製重播連結</button>
+      <button class="btn" data-act="url">🔗 複製天賦連結</button>
     </div>
     <div class="share-out"></div>
     <div class="row2" style="margin-top:10px">
       <button class="btn" data-act="new">⚡ 新的人生</button>
-      <button class="btn ghost" data-act="same">同種子重來</button>
+      <button class="btn ghost" data-act="same">同天賦再走一次</button>
     </div>`;
 
   const out = node.querySelector('.share-out');
@@ -89,7 +89,7 @@ function shareCard({ state, tier, seed, appVersion }) {
 
 function copyReplayLink(btn, seed) {
   const url = `${location.origin}${location.pathname}?seed=${encodeURIComponent(seed)}`;
-  const ok = () => { btn.textContent = '✅ 已複製'; setTimeout(() => { btn.textContent = '🔗 複製重播連結'; }, 1600); };
+  const ok = () => { btn.textContent = '✅ 已複製'; setTimeout(() => { btn.textContent = '🔗 複製天賦連結'; }, 1600); };
   if (navigator.clipboard?.writeText) navigator.clipboard.writeText(url).then(ok, () => window.prompt('手動複製連結：', url));
   else window.prompt('手動複製連結：', url);
 }

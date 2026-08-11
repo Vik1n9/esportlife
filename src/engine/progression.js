@@ -1,7 +1,9 @@
 /** 受傷、版本改動、英雄專精、特質解鎖與合成。 */
 import { clamp } from '../core/rng.js';
-import { HEROES, PATCH_THEMES } from '../data/world.js';
-import { BASE_TRAITS, EPIC_TRAITS, FUSIONS, traitName } from '../data/traits.js';
+import { HEROES, PATCH_THEMES } from '../data/heroes.js';
+import { BASE_TRAITS } from '../data/traits.js';
+import { EPIC_TRAITS, FUSIONS } from '../data/epics.js';
+import { capOf, factor, flag, traitName } from '../kernel/modifiers.js';
 
 /* ---------------- 受傷 ---------------- */
 
@@ -9,25 +11,42 @@ export function injuryProbability(state) {
   let p = 15;
   if (state.age >= 33) p += 12;
   else if (state.age >= 30) p += 6;
-  if (state.traits.iron) p = Math.min(p, 10);
-  if (state.epic.indestructible) return 0;
-  p += (state.carryInjuryRisk || 0) + (state.tempInjuryRisk || 0);
+  p = capOf(state, 'injuryRate', p);
+  if (flag(state, 'injuryImmune')) return 0;
+  p += (state.tempInjuryRisk || 0);
   return clamp(p, 3, 95);
 }
 
 /**
- * @returns {{kind:'none'|'minor'|'major'}}
+ * 傷勢。
+ *
+ * 舊版只有兩檔：小傷，或者「整季報銷、下季復健年」。那是棒球的開刀報銷模型。
+ * LoL 的手腕／背傷絕大多數是**缺席幾週、替補頂上**，回來之後位子還在不在是另一
+ * 回事；真的要動刀報銷一整季的極少。所以改成三檔，用缺席週數表示。
+ *
+ * @returns {{kind:'none'|'minor'|'major'|'severe', weeks:number}}
  */
 export function rollInjury(state, rng) {
-  if (state.epic.indestructible) return { kind: 'none' };
-  if (!rng.chance(injuryProbability(state))) return { kind: 'none' };
-  if (rng.chance(state.traits.iron ? 15 : 30)) {
+  if (flag(state, 'injuryImmune')) return { kind: 'none', weeks: 0 };
+  if (!rng.chance(injuryProbability(state))) return { kind: 'none', weeks: 0 };
+
+  if (rng.chance(30 * factor(state, 'injuryMinorChance'))) {
+    // 這一檔裡只有一小部分需要動刀
+    if (rng.chance(12)) {
+      state.majorInjuries += 1;
+      state.rehabYears = 1;
+      return { kind: 'severe', weeks: 0 };
+    }
     state.majorInjuries += 1;
-    state.rehabYears = 1;
-    return { kind: 'major' };
+    const weeks = rng.int(8, 16);
+    state.injuryWeeks = (state.injuryWeeks || 0) + weeks;
+    return { kind: 'major', weeks };
   }
+
+  const weeks = rng.int(2, 5);
+  state.injuryWeeks = (state.injuryWeeks || 0) + weeks;
   state.tempInjuryRisk = (state.tempInjuryRisk || 0) + 6;
-  return { kind: 'minor' };
+  return { kind: 'minor', weeks };
 }
 
 /* ---------------- 版本 / 英雄池 ---------------- */
