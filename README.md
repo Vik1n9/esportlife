@@ -40,8 +40,9 @@
 
 - **原始出處**：[LeoGGcat / yakyulife](https://github.com/LeoGGcat/yakyulife)，由 [LeoGGcat](https://github.com/LeoGGcat) 開發。
 - **本改寫**：Vik1n9（esportlife）。
-- **授權**：本專案以 **MIT License** 釋出（見 `LICENSE`）。改寫前已向原作者申請授權，
-  目前等待作者回覆；待原作者確認後，`LICENSE` 會一併補上原作者的版權署名。
+- **授權**：改寫前已向原作者申請授權，**至今未獲回覆**，因此以「未獲正式授權」處理。
+  承襲自原版的程式碼正在逐步淨室重寫（進度見 `docs/v4/` 的 S02–S06）。
+  `LICENSE` 目前掛 MIT，最終的授權敘述待重寫完成後一併確認。
   若你打算以本專案為基礎再創作，請一併保留對原作者的出處標示。
 
 ### 介面與素材
@@ -70,7 +71,9 @@ node tests/run.mjs kernel  # 只跑某一區（kernel／phases／history／regre
 ```
 
 引擎完全不依賴 DOM，所以這套測試會在 Node 裡實際跑完 160 段生涯，並驗證種子界線、
-生涯評價分布、特質合成、版本落差方向、史實賽制與解散名單過濾。目前 8935 項檢查全綠。
+生涯評價分布、特質合成、版本落差方向、史實賽制與解散名單過濾。目前 8939 項檢查，
+**2 項失敗**（四階特質合成上路後「傳奇要罕見」不變式破了、`golden.json` 基準待重刷）——
+修綠是 `docs/v4/01-穩定點.md` 的工作。
 
 ## 文件
 
@@ -79,6 +82,8 @@ node tests/run.mjs kernel  # 只跑某一區（kernel／phases／history／regre
 - 攻略：`WIKI.md`
 - 更新記錄：`CHANGELOG.md`
 - 開發日誌：`WORKLOG.md`
-- v4 穩定基準（現在站在哪裡、安全網守得住什麼）：`docs/v4/01-穩定點.md`
+- **v4 現況快照**（現在站在哪裡、安全網守得住什麼）：`docs/v4/00b-穩定點快照.md`
+- **v4 重建工作說明書**（24 站分階段，進行中）：`docs/v4/README.md`
+- v4 重構規格：`ESPORT-DESIGN-V4.md`
 - v4 賽制設計稿：`docs/superpowers/specs/2026-08-11-lol-competition-format-design.md`
 - v2 時期的改造計劃書（存查）：`docs/archive/改造計劃書-v2.1.md`
