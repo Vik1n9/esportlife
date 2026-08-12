@@ -12,7 +12,7 @@ export async function run({ check }) {
     const rng = new Rng('market');
     const state = createState({ name: 'M', role: 'TOP', seed: 'market' });
     state.stage = 'PRO'; state.league = 'LCK'; state.team = 'T1'; state.lastDelta = 4;
-    for (const k of Object.keys(state.attr)) state.attr[k] = 75;
+    for (const k of Object.keys(state.attr)) state.attr[k] = 94;
     const offers = generateOffers(state, rng, { excludeCurrentTeam: false });
     check('頂尖選手收到海外報價',
       offers.some((o) => ['LCK', 'LPL', 'LEC', 'LCS'].includes(o.league)),
@@ -23,8 +23,8 @@ export async function run({ check }) {
     // 只夠青訓的實力，不該收到一隊的邀約（舊版把打不到的選項擺出來騙人）
     const rng = new Rng('academy-only');
     const state = createState({ name: 'A', role: 'JG', seed: 'academy-only' });
-    for (const k of Object.keys(state.attr)) state.attr[k] = 40;   // 介於青訓 36 與一隊 45 之間
-    for (const k of Object.keys(state.potential)) state.potential[k] = 42;
+    for (const k of Object.keys(state.attr)) state.attr[k] = 50;   // 介於青訓 45 與一隊 56 之間
+    for (const k of Object.keys(state.potential)) state.potential[k] = 52;
 
     check('門檻層級由低到高', SCOUT_BAR.AM2 < SCOUT_BAR.HOME && SCOUT_BAR.HOME <= SCOUT_BAR.OVERSEAS,
       JSON.stringify(SCOUT_BAR));

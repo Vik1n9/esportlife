@@ -24,7 +24,7 @@ export async function run({ check }) {
 
   /* ---- 小組賽：四隊雙循環，六場 ---- */
   {
-    const state = player('grp', 60);
+    const state = player('grp', 75);
     for (let i = 0; i < 200; i++) {
       const res = runGroup(state, rng, { oppOvrs: [58, 60, 62] });
       check('小組賽打滿六場（三個對手各兩次）', res.games.length === 6, res.games.length);
@@ -38,10 +38,10 @@ export async function run({ check }) {
 
   /* ---- Swiss：三勝晉級、三敗淘汰 ---- */
   {
-    const state = player('swiss', 60);
+    const state = player('swiss', 75);
     let boThree = 0; let boOne = 0;
     for (let i = 0; i < 300; i++) {
-      const res = runSwiss(state, rng, { par: 60 });
+      const res = runSwiss(state, rng, { par: 75 });
       check('Swiss 一定會結束在三勝或三敗', res.wins === 3 || res.losses === 3, `${res.wins}-${res.losses}`);
       check('勝場不超過三', res.wins <= 3, res.wins);
       check('敗場不超過三', res.losses <= 3, res.losses);
@@ -59,8 +59,8 @@ export async function run({ check }) {
 
   /* ---- 強度要能拉開晉級率，否則賽制等於擲硬幣 ---- */
   {
-    const strong = player('strong', 72);
-    const weak = player('weak', 48);
+    const strong = player('strong', 90);
+    const weak = player('weak', 60);
     const rate = (state, run) => {
       let n = 0;
       for (let i = 0; i < 300; i++) if (run(state).advanced) n++;
@@ -70,8 +70,8 @@ export async function run({ check }) {
     const gw = rate(weak, (s) => runGroup(s, rng, { oppOvrs: [60, 60, 60] }));
     check('小組賽：強隊出線率明顯高於弱隊', gs > gw + 0.3, `強 ${gs.toFixed(2)} vs 弱 ${gw.toFixed(2)}`);
 
-    const ss = rate(strong, (s) => runSwiss(s, rng, { par: 60 }));
-    const sw = rate(weak, (s) => runSwiss(s, rng, { par: 60 }));
+    const ss = rate(strong, (s) => runSwiss(s, rng, { par: 75 }));
+    const sw = rate(weak, (s) => runSwiss(s, rng, { par: 75 }));
     check('Swiss：強隊出線率明顯高於弱隊', ss > sw + 0.3, `強 ${ss.toFixed(2)} vs 弱 ${sw.toFixed(2)}`);
   }
 }

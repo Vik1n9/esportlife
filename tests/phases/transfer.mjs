@@ -30,7 +30,7 @@ export async function run({ check }) {
 
   /* ---- 誰會佔用名額 ---- */
   {
-    const state = pro('occupy', 62);
+    const state = pro('occupy', 78);
     check('簽 LCK 會佔外援名額', occupiesImportSlot(state, 'LCK'));
     check('簽 LPL 會佔外援名額', occupiesImportSlot(state, 'LPL'));
     check('留在主場賽區不佔名額', !occupiesImportSlot(state, 'HOME'));
@@ -39,9 +39,9 @@ export async function run({ check }) {
 
   /* ---- 名額本來就是滿的：要擠進去得夠強 ---- */
   {
-    const weak = pro('imp-weak', 52, 30);
-    const mid = pro('imp-mid', 62, 55);
-    const star = pro('imp-star', 74, 90);
+    const weak = pro('imp-weak', 65, 30);
+    const mid = pro('imp-mid', 78, 55);
+    const star = pro('imp-star', 93, 90);
     check('剛達門檻的選手很難擠進 LCK', importChance(weak, 'LCK') < 15, importChance(weak, 'LCK').toFixed(0));
     check('越強越容易讓對方空出名額',
       importChance(star, 'LCK') > importChance(mid, 'LCK') && importChance(mid, 'LCK') > importChance(weak, 'LCK'),
@@ -57,7 +57,7 @@ export async function run({ check }) {
 
   /* ---- 報價會回報被名額擋掉的賽區 ---- */
   {
-    const state = pro('blocked', 60, 35);
+    const state = pro('blocked', 75, 35);
     let sawBlocked = false;
     for (let i = 0; i < 200; i++) {
       const offers = generateOffers(state, rng, { excludeCurrentTeam: false });

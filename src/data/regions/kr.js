@@ -9,7 +9,7 @@ export default {
   league: 'LCK',
   name: 'LCK',
 
-  ladder: { par: 61, min: 58, games: 70, baseSalary: 900, tier: 4, bucket: 'OVERSEAS' },
+  ladder: { par: 76, min: 72, games: 70, baseSalary: 900, tier: 4, bucket: 'OVERSEAS' },
 
   timeline: {
     splits: [

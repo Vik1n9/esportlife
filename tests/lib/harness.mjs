@@ -7,8 +7,12 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { careerFlow } from '../../src/engine/game.js';
-import { investAttr, attrCap, attrKeys } from '../../src/engine/attributes.js';
+import { investAttr, attrCap, attrKeys, decayCoef } from '../../src/engine/attributes.js';
 import { ROLE_ATTR_WEIGHTS } from '../../src/data/skills.js';
+import { POTENTIAL_BANDS } from '../../src/data/attributes.js';
+
+/** `state.potential` 缺鍵時的保底，與 `engine/attributes.js` 同一個值 */
+const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
 
 export const MAX_BEATS = 20000;
 
@@ -48,11 +52,19 @@ export function allocate(state, beat, style = 'focus') {
     } else {
       const usable = keys.filter((k) => state.attr[k] < cap);
       if (!usable.length) break;
-      // 分數＝OVR 權重 ÷ 目前價位，並強烈懲罰已超過潛力上限的項目
+      /*
+       * 分數＝OVR 權重 × 這一點的實際成長效率，並強烈懲罰已超過潛力上限的項目。
+       *
+       * 舊版把價位寫成 1–80 刻度的門檻表（`>=66 ? 7 : >=58 ? 4 : >=50 ? 2 : 1`），
+       * 那是 `GROWTH_COST` 的手抄本。0–100 之後成本不再是階梯而是連續的潛力衰減，
+       * 所以直接讀引擎的 `decayCoef`（＝ 1 ÷ 單點成本）——換刻度時這裡不必再跟著抄，
+       * 老手策略也不會退化成「看權重不看價位」（S07 交接筆記點名的坑）。
+       */
       key = usable.reduce((best, k) => {
+        const potential = state.potential[k] ?? DEFAULT_POTENTIAL;
         const score = (weights[k] || 0.02)
-          * (state.attr[k] >= (state.potential[k] ?? 62) ? 0.25 : 1)
-          / (state.attr[k] >= 66 ? 7 : state.attr[k] >= 58 ? 4 : state.attr[k] >= 50 ? 2 : 1);
+          * (state.attr[k] >= potential ? 0.25 : 1)
+          * decayCoef(state.attr[k], potential);
         return score > best.score ? { k, score } : best;
       }, { k: usable[0], score: -1 }).k;
     }

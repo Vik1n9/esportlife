@@ -93,19 +93,20 @@ function* awards(g, stat) {
   if (stat.G < 20) return;
 
   // 例行賽 MVP：一個聯賽一年只有一個人拿得到
-  if (stat.delta >= 3 && stat.MVP >= Math.max(4, Math.round(stat.G * 0.09)) && rng.chance(30 + stat.delta * 3)) {
+  // 0–100 重校：delta 門檻是水準量 ×1.25（3 → 3.75），機率的 per-point 係數 ÷1.25（3 → 2.4）
+  if (stat.delta >= 3.75 && stat.MVP >= Math.max(4, Math.round(stat.G * 0.09)) && rng.chance(30 + stat.delta * 2.4)) {
     state.honors.push(`${state.year} 例行賽 MVP`);
     yield card('gold', '例行賽 MVP', `以 ${stat.MVP} 次單場 MVP 拿下<b class="hl">${state.year} ${home} 例行賽 MVP</b>！`);
   }
 
-  if (state.age <= 20 && stat.delta >= 2 && state.proYears <= 1) {
+  if (state.age <= 20 && stat.delta >= 2.5 && state.proYears <= 1) {
     state.honors.push(`${state.year} 最佳新人`);
-    yield card('gold', '最佳新人', `新秀賽季即打出 <b class="hl">${stat.delta >= 4 ? '頂級' : '優秀'}</b> 表現，榮膺最佳新人。`);
+    yield card('gold', '最佳新人', `新秀賽季即打出 <b class="hl">${stat.delta >= 5 ? '頂級' : '優秀'}</b> 表現，榮膺最佳新人。`);
   }
 
   // 單殺王：與同位置基線比較，而不是與場次比較
   const soloBaseline = STAT_BASELINE[state.role].SOLO;
-  if (o >= par + 2 && stat.SOLO >= stat.G * soloBaseline * 1.5 && rng.chance(45)) {
+  if (o >= par + 2.5 && stat.SOLO >= stat.G * soloBaseline * 1.5 && rng.chance(45)) {
     state.honors.push(`${state.year} 單殺王`);
     yield card('gold', '單殺王', `季內累積 <b class="hl">${stat.SOLO}</b> 次單殺，冠絕 ${home}！`);
     if (state.age < 26 && unlockTrait(state, 'laneking')) {
@@ -114,7 +115,7 @@ function* awards(g, stat) {
     }
   }
 
-  if (stat.delta >= 1 && rng.chance(22 + stat.delta * 4)) {
+  if (stat.delta >= 1.25 && rng.chance(22 + stat.delta * 3.2)) {
     state.honors.push(`${state.year} 全明星`);
     state.stats[LEAGUES[currentLeagueKey(state)].bucket].AS += 1;
     yield card('info', '全明星入選', `入選 ${state.year} ${home} 全明星。`);

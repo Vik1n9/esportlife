@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "test": "node tests/run.mjs",
-    "serve": "python3 -m http.server 8080",
-    "test:golden": "UPDATE_GOLDEN=1 node tests/run.mjs"
+    "serve": "python3 -m http.server 8080"
   }
 }

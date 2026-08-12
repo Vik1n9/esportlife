@@ -27,8 +27,8 @@ export const kind = 'WORLDS';
 
 /** 世界賽的對手是各賽區的一號種子。基準比 MSI 再高一階。 */
 function intlOpponent(state, step, rng) {
-  const base = Math.max(LEAGUES[state.league]?.par ?? 53, 59);
-  return base + step + bonus(state, 'worldsRoll') * -0.15 + rng.gauss(1.3);
+  const base = Math.max(LEAGUES[state.league]?.par ?? 66, 74);
+  return base + step + bonus(state, 'worldsRoll') * -0.15 + rng.gauss(1.6);
 }
 
 /** 依當年制度算出賽區內的種子序。0 = 沒有名次。 */
@@ -67,7 +67,7 @@ export function* run(g) {
     yield card('info', '地區資格賽',
       `賽區最後一張世界賽門票，由第 ${seed} 種子打<b class="hl">地區資格賽</b>決定。BO5，輸了整年就結束。`);
     yield* drawRoleplay(g, 'presser', { amp: 1.4 });
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, -2, rng), seed });
+    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, -2.5, rng), seed });
     yield card(res.win ? 'good' : 'bad', `地區資格賽 · BO5`,
       `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
       (res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。'));
@@ -99,7 +99,7 @@ function* runTournament(g, rule, seed) {
       minor
         ? '賽區席位排在後段，主賽事之前要先打入圍賽。'
         : `第 ${seed} 種子從入圍賽打起。`);
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, -3, rng), seed });
+    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, -3.75, rng), seed });
     yield card(res.win ? 'good' : 'bad', '入圍賽 · BO5',
       `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
       (res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。'));
@@ -117,7 +117,7 @@ function* runTournament(g, rule, seed) {
 /** 2012–2022：四隊小組雙循環，前二晉級 */
 function* groupStage(g, seed) {
   const { state, rng } = g;
-  const oppOvrs = [0, 2, 4].map((s) => intlOpponent(state, s, rng));
+  const oppOvrs = [0, 2.5, 5].map((s) => intlOpponent(state, s, rng));
   const res = runGroup(state, rng, { oppOvrs, seed });
   yield card(res.advanced ? 'good' : 'bad', '世界賽小組賽',
     `六場循環戰 <b class="${res.advanced ? 'up' : 'dn'}">${res.wins}勝 ${res.losses}敗</b>。` +
@@ -132,7 +132,7 @@ function* groupStage(g, seed) {
  */
 function* swissStage(g, seed) {
   const { state, rng } = g;
-  const par = Math.max(LEAGUES[state.league]?.par ?? 53, 59);
+  const par = Math.max(LEAGUES[state.league]?.par ?? 66, 74);
   const res = runSwiss(state, rng, { par, seed });
 
   const lines = res.rounds.map((r) =>
@@ -149,9 +149,9 @@ function* swissStage(g, seed) {
 function* knockout(g, seed) {
   const { state, rng } = g;
   const rounds = [
-    { key: 'quarter', name: '八強', step: 5 },
-    { key: 'semi', name: '四強', step: 7.5 },
-    { key: 'final', name: '決賽', step: 10 },
+    { key: 'quarter', name: '八強', step: 6.25 },
+    { key: 'semi', name: '四強', step: 9.5 },
+    { key: 'final', name: '決賽', step: 12.5 },
   ];
 
   for (const round of rounds) {

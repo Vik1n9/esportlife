@@ -4,7 +4,7 @@ export default {
   league: 'LCS',
   name: 'LCS',
 
-  ladder: { par: 57, min: 54, games: 66, baseSalary: 600, tier: 3, bucket: 'OVERSEAS' },
+  ladder: { par: 71, min: 67, games: 66, baseSalary: 600, tier: 3, bucket: 'OVERSEAS' },
 
   timeline: {
     splits: [

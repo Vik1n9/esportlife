@@ -27,12 +27,18 @@ import { bonus } from './modifiers.js';
  */
 export function playoffBerth(state, stat) {
   const winRate = stat.G ? stat.W / stat.G : 0;
-  return clamp(18 + (winRate - 0.5) * 240 + (stat.delta || 0) * 3, 5, 95);
+  // 前兩項吃勝率不吃評價，所以不縮放；delta 項是 per-point 係數，÷1.25（§17.2 二）
+  return clamp(18 + (winRate - 0.5) * 240 + (stat.delta || 0) * 2.4, 5, 95);
 }
 
-/** 單局勝率（百分比）。`decider` 為決勝局，額外吃大心臟。 */
+/**
+ * 單局勝率（百分比）。`decider` 為決勝局，額外吃大心臟。
+ *
+ * 斜率 1.76 ＝ 舊的 2.2 ÷ 1.25：0–100 刻度下同一個相對戰力差會產出 1.25 倍的點數，
+ * 係數不除就等於把勝率對戰力的靈敏度整體上調兩成（§11.1 §17.2 二）。夾在 8–92% 不變。
+ */
 export function gameChance(state, oppOvr, { decider = false, seed = 0 } = {}) {
-  let p = 50 + (teamStrength(state) - oppOvr) * 2.2;
+  let p = 50 + (teamStrength(state) - oppOvr) * 1.76;
   p += underdogBonus(state, seed) + bonus(state, 'seriesGame');
   if (decider) p += nerveBonus(state) + bonus(state, 'seriesDecider');
   return clamp(p, 8, 92);
@@ -56,12 +62,18 @@ export function runSeries(state, rng, { bo, oppOvr, seed }) {
   return { win: mine > theirs, mine, theirs, games, decider: games.some((g) => g.endsWith('*')) };
 }
 
-/** 對手強度：越後面的輪次對手越強，種子序越差遇到的越硬。 */
+/**
+ * 對手強度：越後面的輪次對手越強，種子序越差遇到的越硬。
+ *
+ * 三個加成是 V4 §11.1 的季後賽階梯（0–100 刻度）：八強 +2 ／四強 +4.5 ／決賽 +7.5，
+ * 種子序懲罰 `(種子−1) × 1.5`，每場擺動 `gauss(1.5)`。全部是舊值 ×1.25——它們是
+ * 寬度量（幾點的差距），跟門檻一樣吃刻度。
+ */
 export function opponentOvr(state, roundKey, seed, rng) {
-  const par = LEAGUES[state.league]?.par ?? 53;
-  const step = roundKey === 'final' ? 6 : roundKey === 'semi' ? 3.5 : 1.5;
-  const seedPenalty = (seed - 1) * 1.2;
-  return par + step + seedPenalty + rng.gauss(1.2);
+  const par = LEAGUES[state.league]?.par ?? 66;
+  const step = roundKey === 'final' ? 7.5 : roundKey === 'semi' ? 4.5 : 2;
+  const seedPenalty = (seed - 1) * 1.5;
+  return par + step + seedPenalty + rng.gauss(1.5);
 }
 
 /**

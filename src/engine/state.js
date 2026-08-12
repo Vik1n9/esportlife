@@ -5,15 +5,15 @@
  * 這是存檔／讀檔與 headless 測試能成立的前提。
  */
 import { Rng } from '../core/rng.js';
-import { ATTRS } from '../data/attributes.js';
+import { ATTRS, POTENTIAL_BANDS, START_RATIO } from '../data/attributes.js';
 import { ROLE_START_EDGE } from '../data/skills.js';
 import { MENTAL_START } from '../data/mental.js';
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-// v9：事件卡類 roguelike——會耗盡、反覆抽不重複、觸發頻率提高。舊存檔一律作廢重開
-export const SAVE_VERSION = 9;
+// v10：屬性換成 0–100 刻度、成長成本階梯換成潛力衰減係數。舊存檔一律作廢重開
+export const SAVE_VERSION = 10;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -34,19 +34,30 @@ export function createState({ name, role, seed }) {
   // 出生亂數流。與人生流分開命名空間，否則改動人生流的取數順序會連帶改變天賦
   const birth = new Rng(`${seed}:birth`);
 
-  const attr = {};
-  for (const k of ATTRS) attr[k] = birth.int(22, 34);
-  // 天賦一出生就有位置味道：該路 OVR 最吃的兩個屬性額外拉高
-  for (const k of ROLE_START_EDGE[role]) attr[k] += birth.int(0, 4);
-
   // 潛力天花板：1 頂尖 / 1 優質 / 1 中上 / 其餘平庸，隨機分派到 6 個屬性
   const potential = {};
   birth.shuffle([...ATTRS]).forEach((k, i) => {
-    potential[k] = i === 0 ? birth.int(72, 80)
-      : i === 1 ? birth.int(64, 74)
-      : i === 2 ? birth.int(56, 68)
-      : birth.int(46, 62);
+    const [lo, hi] = POTENTIAL_BANDS[Math.min(i, POTENTIAL_BANDS.length - 1)];
+    potential[k] = birth.int(lo, hi);
   });
+
+  /*
+   * 起始屬性（V4 §7.3）＝ 潛力的固定比例，不是固定區間。
+   *
+   * DEMO 跳過業餘期，所以起點代表的是「已經打進職業隊的新人」。潛力是先分派的，
+   * 若起始值走固定區間，一個「平庸 58」的屬性會在出生時就頂到天花板，第一年完全
+   * 沒有成長空間；寫成比例則天花板越高、起始值越高、剩餘空間也越大。
+   *
+   * 所以這裡的順序與舊版相反：**先骰潛力，再由潛力推起始值**。位置味道也不再靠
+   * 額外加值，改由該路權重最高的兩項吃比較高的比例（0.80 對 0.70）。
+   */
+  const edge = new Set(ROLE_START_EDGE[role]);
+  const attr = {};
+  for (const k of ATTRS) {
+    const ratio = (edge.has(k) ? START_RATIO.edge : START_RATIO.rest)
+      + (birth.next() * 2 - 1) * START_RATIO.jitter;
+    attr[k] = Math.round(potential[k] * ratio);
+  }
 
   return {
     saveVersion: SAVE_VERSION,

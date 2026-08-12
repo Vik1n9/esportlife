@@ -132,7 +132,7 @@ export function* drawEvent(g) {
   if (flags.composure && unlockTrait(state, 'composure')) unlocked.push('composure');
   if (flags.leader && unlockTrait(state, 'leader')) unlocked.push('leader');
   if (flags.laneking && state.age < 28 && unlockTrait(state, 'laneking')) unlocked.push('laneking');
-  if (flags.macroPoint && skillValue(state, 'macro') >= 60 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
+  if (flags.macroPoint && skillValue(state, 'macro') >= 75 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
   if (flags.grinder && unlockTrait(state, 'grinder')) unlocked.push('grinder');
   if (flags.meme && unlockTrait(state, 'meme')) unlocked.push('meme');
   if (flags.camera && unlockTrait(state, 'camera')) unlocked.push('camera');

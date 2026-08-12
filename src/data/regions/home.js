@@ -13,7 +13,7 @@ export default {
   name: '主場賽區',        // 實際顯示名由 eraOf(year).home 決定
 
   // 聯賽靜態屬性：不隨時代變動的門檻與價碼
-  ladder: { par: 53, min: 50, games: 60, baseSalary: 300, tier: 2, bucket: 'HOME' },
+  ladder: { par: 66, min: 62, games: 60, baseSalary: 300, tier: 2, bucket: 'HOME' },
 
   // 史實時間軸：每一列都是 [from, to] 閉區間，年份落在哪一列就套哪一列
   timeline: {

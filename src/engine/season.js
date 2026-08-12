@@ -41,28 +41,36 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   const form = formFactor(a.sta);
   stat.G = Math.max(1, Math.round(league.games * weight * share * state.seasonFactor * (0.95 + rng.next() * 0.06)));
 
+  /*
+   * ⚠ 底下每一個「(技能 − par) × 係數」都是 per-point 係數，0–100 重校時一律
+   * **除以** 1.25（V4 §17.2 二）。理由是刻度放大之後，同一個相對差距會產出 1.25 倍
+   * 的點數，係數不除就等於把整排數據對評價的靈敏度上調兩成。
+   *
+   * 不吃評價的項目不動：`(form − 1) × 1.6`（form 是比值）、勝率的 gauss、
+   * `STAT_BASELINE`（每場平均數據，跟屬性刻度無關）、各種 clamp 上下界。
+   */
   const winRate = clamp(
-    0.5 + (teamStrength(state) - par) * 0.012 + delta * 0.006 + (form - 1) * 1.6 + rng.gauss(0.03),
+    0.5 + (teamStrength(state) - par) * 0.0096 + delta * 0.0048 + (form - 1) * 1.6 + rng.gauss(0.03),
     0.15, 0.92,
   );
   stat.W = Math.round(stat.G * winRate);
   stat.L = stat.G - stat.W;
 
   const base = STAT_BASELINE[state.role];
-  const k = clamp(base.K + (a.op - par) * 0.01 + (a.lane - par) * 0.008 + rng.gauss(0.2), 0.3, 3.2);
+  const k = clamp(base.K + (a.op - par) * 0.008 + (a.lane - par) * 0.0064 + rng.gauss(0.2), 0.3, 3.2);
   stat.K = Math.round(stat.G * k * form);
   // 體力透支最先反映在後期的失誤上，所以陣亡數反向吃 form
-  stat.D = Math.round(stat.G * clamp(base.D - (a.ref - par) * 0.008 - (a.vis - par) * 0.004 + rng.gauss(0.15), 0.5, 3.0) / form);
-  stat.A = Math.round(stat.G * base.A * (1 + (a.roam - par) * 0.004 + (a.vis - par) * 0.004));
-  stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.006));
-  stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.008));
-  stat.DMG = Math.round(clamp((base.DMG + delta * 0.4) * form + rng.gauss(1.5), 6, 45) * 10) / 10;
+  stat.D = Math.round(stat.G * clamp(base.D - (a.ref - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15), 0.5, 3.0) / form);
+  stat.A = Math.round(stat.G * base.A * (1 + (a.roam - par) * 0.0032 + (a.vis - par) * 0.0032));
+  stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.0048));
+  stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.0064));
+  stat.DMG = Math.round(clamp((base.DMG + delta * 0.32) * form + rng.gauss(1.5), 6, 45) * 10) / 10;
 
-  const soloLaneBonus = (state.role === 'TOP' || state.role === 'MID') ? (a.lane - par) * 0.01 : 0;
+  const soloLaneBonus = (state.role === 'TOP' || state.role === 'MID') ? (a.lane - par) * 0.008 : 0;
   stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2) * factor(state, 'soloRate'));
   stat.K = Math.round(stat.K * factor(state, 'killRate'));
 
-  const mvpRate = clamp(0.03 + delta * 0.004 + (stat.SOLO / Math.max(1, stat.G)) * 0.02, 0.005, 0.22);
+  const mvpRate = clamp(0.03 + delta * 0.0032 + (stat.SOLO / Math.max(1, stat.G)) * 0.02, 0.005, 0.22);
   stat.MVP = Math.round(stat.G * mvpRate);
 
   return stat;
