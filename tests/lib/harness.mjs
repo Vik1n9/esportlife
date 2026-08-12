@@ -7,14 +7,36 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { careerFlow } from '../../src/engine/game.js';
-import { investAttr, attrCap, attrKeys, decayCoef } from '../../src/engine/attributes.js';
+import { investAttr, attrCap, attrKeys, decayCoef, ovr } from '../../src/engine/attributes.js';
 import { ROLE_ATTR_WEIGHTS } from '../../src/data/skills.js';
-import { POTENTIAL_BANDS } from '../../src/data/attributes.js';
+import { ATTRS, POTENTIAL_BANDS } from '../../src/data/attributes.js';
 
 /** `state.potential` 缺鍵時的保底，與 `engine/attributes.js` 同一個值 */
 const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
 
 export const MAX_BEATS = 20000;
+
+/**
+ * 這個天賦從現在到潛力天花板還有多少 OVR 可以長。
+ *
+ * 「加點是不是決策」的門檻要拿它當母數，不能拿 `ATTR_CAP`：加點能賺到的差距與
+ * 「還有多遠可以長」成正比，跟上限是幾分制無關。比例只對**刻度**免疫，對**起始值**
+ * 不免疫——S09 依 V4 §7.3 把起始值改成潛力的 0.80／0.70 之後（可成長空間從
+ * 0.405×上限掉到 0.190×上限），原本除以 `ATTR_CAP` 的門檻就整批誤報了。
+ *
+ * ⚠ 要量的是**出生時**的空間。生涯跑完之後它已經被花掉了，對著結束狀態算會得到
+ * 接近零甚至負的數字——所以生涯層級的用法要走 `birthGrowthRoom` 重生一份天賦。
+ */
+export function growthRoom(state) {
+  const w = ROLE_ATTR_WEIGHTS[state.role] || {};
+  const ceiling = ATTRS.reduce((t, k) => t + (w[k] || 0) * (state.potential[k] ?? DEFAULT_POTENTIAL), 0);
+  return Math.max(1, ceiling - ovr(state));
+}
+
+/** 同一個種子／位置在**出生那一刻**的可成長空間（天賦是出生種子的確定性函式，重生即可） */
+export function birthGrowthRoom({ seed, role }) {
+  return growthRoom(createState({ name: 'ROOM', role, seed }));
+}
 
 /** 策略：first 一律選第一個；last 盡量選最後一個非退役選項；random 隨機挑安全選項 */
 export function decide(beat, strategy, rng) {
