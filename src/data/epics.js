@@ -77,8 +77,12 @@ export const LEGENDARY_TRAITS = {
     },
   },
   godslayer: {
-    name: '弒神者', desc: '成長 ×3；突破上限；OVR +4；季後賽大加成',
-    effects: { growthMult: { mul: 3 }, abilityCapUp: true, ovrAdd: 4, seriesGame: 6 },
+    name: '弒神者', desc: '成長 ×3.5；突破上限',
+    // 原本還帶 `ovrAdd: 4` 與 `seriesGame: 6`。那兩項是平白加分——不管你把點投得準不準
+    // 都照領，於是「隨便練」的打法也吃得到頂端加成。四階合成的設計紀錄
+    // （docs/superpowers/specs/2026-08-12-four-tier-trait-synthesis.md）已經記過同一件事：
+    // 頂端加成要用「成長 ×N 與突破上限」，練得越準越吃得到。份量改由成長倍率承擔。
+    effects: { growthMult: { mul: 3.5 }, abilityCapUp: true },
   },
   bulwark: {
     name: '銅牆鐵壁', desc: '免疫受傷；免疫默契崩盤；隊友 +8',
