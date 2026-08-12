@@ -1,4 +1,4 @@
-/** 屬性與技能的計算：技能求值、OVR、潛力衰減與加點、年齡衰退、退役上限。純函式（會就地修改 state.attr）。 */
+/** 屬性與技能的計算：技能求值、教練評價與位置戰力、潛力衰減與加點、年齡衰退、退役上限。純函式（會就地修改 state.attr）。 */
 import { clamp } from '../core/rng.js';
 import {
   AGING_GAIN_AMOUNT, AGING_GAIN_ATTRS, ATTRS, ATTR_CAP, ATTR_CAP_GODHAND,
@@ -26,7 +26,7 @@ export function skillValue(state, key) {
   return Math.round(v);
 }
 
-/** 該位置有意義的技能（依 OVR 權重由重到輕），供面板與敘事使用 */
+/** 該位置有意義的技能（依位置權重由重到輕），供面板與敘事使用 */
 export function roleSkills(state) {
   return ROLE_SKILLS[state.role] || [];
 }
@@ -38,21 +38,63 @@ export function skills(state) {
   return out;
 }
 
-/* ================= OVR ================= */
+/* ================= 教練評價與位置戰力（V4 §10.2 §11.1） ================= */
 
 /**
- * 位置加權 OVR（不含版本落差懲罰）。
+ * 位置加權技能值：Σ(位置相關技能 × 位置權重)。
  *
  * 走的是折疊過的 `ROLE_ATTR_WEIGHTS`，數學上等同於「先算技能再加權」，但少繞一圈。
+ *
+ * 這是「教練評價」與「位置戰力」共用的底：兩者的差別不在技能，在技能之外掛了什麼
+ * ——教練加的是他看得出來的態度與名聲，比賽吃的是當下發揮得出來多少。
  */
-export function ovr(state) {
+function roleWeighted(state) {
   const w = ROLE_ATTR_WEIGHTS[state.role] || {};
   let v = 0;
   for (const [k, p] of Object.entries(w)) v += (state.attr[k] || 0) * p;
-  v += bonus(state, 'ovrAdd');
-  // 年齡條件無法寫進特質資料表，留在這裡
-  if (state.epic.ageless && state.age >= 30) v += 1;
-  return Math.round(v);
+  return v;
+}
+
+/*
+ * TODO(S12)：六維心理（V4 §9）還沒實作，下面兩個接口先各自回傳中性值。
+ *
+ * 心理有兩條互不相干的出口，S12 要各接各的，不要合成一條：
+ *   §10.2 隱藏心理修正（加法，±3）→ 只吃 drive/disc/comp，進的是**教練評價**，
+ *         影響薪資／續約／FA。教練評的是「這個人可不可靠」，不是他的全部心理狀態。
+ *   §11.2 心理穩定修正（乘法）→ 進的是**位置戰力**，影響比賽發揮與失誤。
+ *
+ * 兩條分開的理由就是 §10.2 寫的那句：信任與韌性是隊內的事、自信是場上的事，都不該
+ * 由教練的報價來表達。合成一條的話，一次崩盤會同時砍掉戰力與身價，那是兩次懲罰。
+ */
+
+/** 隱藏心理修正（V4 §10.2）＝ `(drive×0.40 + disc×0.35 + comp×0.25 − 50) × 0.06`，上下界 ±3 */
+function mentalRating() { return 0; }
+
+/** 心理穩定修正（V4 §11.1）：位置戰力的乘法項 */
+function mentalStability() { return 1; }
+
+/**
+ * 教練評價（V4 §10.2）＝ 位置加權技能 ＋ 隱藏心理修正 ＋ 特質調整。
+ *
+ * **這是內部值，不顯示給玩家**（§10.1）：玩家看的是十二項技能，教練評價只在需要
+ * 單一數字的場合出現——薪資、試訓、續約、FA 報價、板凳判定、獎項門檻。
+ *
+ * 舊版這裡叫 `ovr()`，而 OVR 同時被拿去當「玩家的儀表板」與「市場的估價」。
+ * 兩者分家之後，「看不見的心理素質間接影響薪資與續約」才做得出來——教練看得出
+ * 態度與大賽心態，玩家卻沒有一個可以最佳化的總評數字。
+ *
+ * 特質調整只保留 §10.2 明文允許的兩項（神之領域 +2、不老傳奇 30 歲後 +1）。
+ * **新特質不得再用「直接加評價」這種形式**：平白加分會讓「隨便練」的打法也越過
+ * 傳奇門檻，頂端加成一律走成長倍率與突破上限。
+ */
+export function coachRating(state) {
+  return Math.round(
+    roleWeighted(state)
+    + mentalRating(state)
+    + bonus(state, 'ratingAdd')
+    // 年齡條件無法寫進特質資料表，留在這裡
+    + (state.epic.ageless && state.age >= 30 ? 1 : 0),
+  );
 }
 
 /**
@@ -66,9 +108,25 @@ export function patchPenalty(state) {
   return -Math.round(debt * 1.5);
 }
 
-/** 實戰 OVR＝位置加權 OVR ＋ 版本落差懲罰 */
-export function effectiveOvr(state) {
-  return ovr(state) + patchPenalty(state);
+/** 市場看到的教練評價＝教練評價 ＋ 版本落差懲罰（跟不上版本，估價就會掉） */
+export function effectiveCoachRating(state) {
+  return coachRating(state) + patchPenalty(state);
+}
+
+/**
+ * 位置戰力 P（V4 §11.1）＝ 位置加權技能 × 心理穩定修正 × 版本適應修正。
+ *
+ * 跟教練評價共用同一個底，但**不吃 §10.2 的加法特質調整**：那兩項是「教練怎麼看你」，
+ * 不是「你在場上打得出多少」。特質要影響比賽強度有自己的入口（隊友加成、教練係數、
+ * 系列賽加成…），不必也不該再從評價那條路進來一次。
+ *
+ * 版本適應目前沿用既有的加法懲罰（`patchPenalty`），沒有改成 §11.1 寫的乘法——
+ * 換算式不是這一站的工作，而加法在 0–100 刻度下的量級（每點落差 −1.5）已經校過。
+ *
+ * 不取整：它只進 `teamStrength`，而明星效應吃的是 `(P − par)^1.35`，留小數才平滑。
+ */
+export function positionPower(state) {
+  return roleWeighted(state) * mentalStability(state) + patchPenalty(state);
 }
 
 /* ================= 成長 ================= */

@@ -3,8 +3,8 @@ import { clamp } from '../core/rng.js';
 import { STAT_BASELINE } from '../data/skills.js';
 import { LEAGUES } from '../data/leagues.js';
 import { blankSeasonStat } from './state.js';
-import { effectiveOvr, skills } from './attributes.js';
-import { teamStrength } from '../kernel/strength.js';
+import { effectiveCoachRating, skills } from './attributes.js';
+import { opponentStrength, teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
 import { formFactor } from './lineup.js';
 
@@ -35,7 +35,7 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   stat.years = 1;
 
   const par = league.par;
-  const o = effectiveOvr(state);
+  const o = effectiveCoachRating(state);
   const delta = o - par;
   stat.delta = delta;
 
@@ -54,7 +54,7 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
    * `STAT_BASELINE`（每場平均數據，跟屬性刻度無關）、各種 clamp 上下界。
    */
   const winRate = clamp(
-    0.5 + (teamStrength(state) - par) * 0.0096 + delta * 0.0048 + (form - 1) * 1.6 + rng.gauss(0.03),
+    0.5 + (teamStrength(state) - opponentStrength(par)) * 0.0096 + delta * 0.0048 + (form - 1) * 1.6 + rng.gauss(0.03),
     0.15, 0.92,
   );
   stat.W = Math.round(stat.G * winRate);

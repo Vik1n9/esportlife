@@ -15,6 +15,7 @@
 import { LEAGUES } from '../data/leagues.js';
 import { MSI_RESULTS, msiRuleOf } from '../data/formats/msi.js';
 import { runGroup } from '../kernel/groups.js';
+import { opponentStrength } from '../kernel/strength.js';
 import { runSeries } from '../kernel/series.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
@@ -33,7 +34,7 @@ export const kind = 'MSI';
  */
 function intlOpponent(state, step, rng) {
   const base = Math.max(LEAGUES[state.league]?.par ?? 66, 72);
-  return base + step + bonus(state, 'intlRoll') * -0.15 + rng.gauss(1.6);
+  return opponentStrength(base + step + bonus(state, 'intlRoll') * -0.15 + rng.gauss(1.6));
 }
 
 export function* run(g, phase) {
@@ -72,9 +73,9 @@ export function* run(g, phase) {
 /** 2015–2022：四隊小組雙循環，前二晉級，之後 BO5 淘汰賽 */
 function* groupKnockout(g) {
   const { state, rng } = g;
-  const oppOvrs = [0, 2, 4].map((s) => intlOpponent(state, s, rng));
+  const oppRatings = [0, 2, 4].map((s) => intlOpponent(state, s, rng));
 
-  const group = runGroup(state, rng, { oppOvrs, seed: 0 });
+  const group = runGroup(state, rng, { oppRatings, seed: 0 });
   yield card(group.advanced ? 'good' : 'bad', 'MSI 小組賽',
     `六場循環戰 <b class="${group.advanced ? 'up' : 'dn'}">${group.wins}勝 ${group.losses}敗</b>。` +
     (group.note ? `${group.note}。` : '') +
@@ -91,13 +92,13 @@ function* groupKnockout(g) {
 function* doubleElim(g) {
   const { state, rng } = g;
 
-  const first = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 0, rng), seed: 0 });
+  const first = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 0, rng), seed: 0 });
   yield card(first.win ? 'good' : 'bad', 'MSI 勝部首輪 · BO5',
     `系列賽 <b class="${first.win ? 'up' : 'dn'}">${first.mine}-${first.theirs}</b>。` +
     (first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。'));
 
   if (!first.win) {
-    const lower = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 1.25, rng), seed: 0 });
+    const lower = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 1.25, rng), seed: 0 });
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部 · BO5',
       `系列賽 <b class="${lower.win ? 'up' : 'dn'}">${lower.mine}-${lower.theirs}</b>。` +
       (lower.win ? '從敗部殺回來了。' : '<b class="dn">兩敗淘汰</b>。'));
@@ -115,7 +116,7 @@ function* knockout(g, rounds) {
     const isFinal = i === rounds.length - 1;
     if (isFinal) yield* drawRoleplay(g, 'intl', { amp: 1.6 });
 
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 5 + i * 3, rng), seed: 0 });
+    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 5 + i * 3, rng), seed: 0 });
     const decider = res.decider
       ? `<br><span class="muted">被拖進第五局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>` : '';
     yield card(res.win ? 'good' : 'bad', `MSI ${name} · BO5`,

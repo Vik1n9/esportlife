@@ -13,7 +13,7 @@ import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
-import { effectiveOvr, ovr, patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/attributes.js';
+import { patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { mentalSummary } from '../engine/mental.js';
@@ -64,7 +64,7 @@ function attrRows(state) {
 }
 
 /**
- * 技能：只列出這個位置有 OVR 權重的六項（V4 §8.2 的核心 4 ＋次要 2），而且全部唯讀。
+ * 技能：只列出這個位置有權重的六項（V4 §8.2 的核心 4 ＋次要 2），而且全部唯讀。
  *
  * 技能不是另一排要管理的滑桿，是「你這六個屬性在你這條路上長成什麼樣」的回饋。
  * 玩家看得到自己的開團很強，但要更強只能回去投決斷與意識。
@@ -129,7 +129,7 @@ function renderPanel() {
   const traitList = traitRows(state) || '<span class="muted">尚未覺醒任何隱藏素質</span>';
 
   const mates = state.mates.length
-    ? state.mates.map((m) => `<span class="tag">${m.name} ${m.ovr}</span>`).join('')
+    ? state.mates.map((m) => `<span class="tag">${m.name} ${m.rating}</span>`).join('')
     : '<span class="muted">尚無固定隊友</span>';
 
   body.innerHTML = `
@@ -142,7 +142,6 @@ function renderPanel() {
         <div><span>所屬</span><b>${escapeHtml(state.team || '—')}</b></div>
         <div><span>層級</span><b>${stageLabel(state)}${league ? `（par ${league.par}）` : ''}</b></div>
         <div><span>合約</span><b>${state.contract ? `剩 ${state.contract.years} 年 ×${state.contract.mult.toFixed(2)}` : '無合約'}</b></div>
-        <div><span>綜合 OVR</span><b>${ovr(state)}${penalty < 0 ? ` <span class="dn">${penalty}</span> → ${effectiveOvr(state)}` : ''}</b></div>
         <div><span>生涯薪資</span><b>${formatMoney(state.salary)}</b></div>
       </div>
     </section>
@@ -156,7 +155,7 @@ function renderPanel() {
     <section>
       <h5>技能（${ROLE_NAMES[state.role]}）</h5>
       ${skillRows(state)}
-      <p class="muted small">技能由六大屬性換算而來，不能直接加點；由上到下＝對本位置 OVR 的影響由重到輕。</p>
+      <p class="muted small">技能由六大屬性換算而來，不能直接加點；由上到下＝對本位置戰力的影響由重到輕。<br>沒有單一總評數字——這一路要強，看的是這六項。</p>
     </section>
 
     <section>
@@ -170,7 +169,7 @@ function renderPanel() {
       <div class="kv">
         <div><span>目前版本</span><b>${state.patchTheme || '—'}</b></div>
         <div><span>經歷改版</span><b>${state.patchCount} 次</b></div>
-        <div><span>版本落差</span><b class="${penalty < 0 ? 'dn' : 'up'}">${state.patchDebt}（OVR ${penalty || 0}）</b></div>
+        <div><span>版本落差</span><b class="${penalty < 0 ? 'dn' : 'up'}">${state.patchDebt}（戰力 ${penalty || 0}）</b></div>
       </div>
     </section>
 
@@ -185,7 +184,7 @@ function renderPanel() {
       <h5>隊伍</h5>
       <div class="kv">
         <div><span>教練</span><b>${state.coach || '—'}（+${coachBonus(state).toFixed(1)}）</b></div>
-        <div><span>隊友均值</span><b>${matesAverage(state).toFixed(1)}</b></div>
+        <div><span>隊友平均戰力</span><b>${matesAverage(state).toFixed(1)}</b></div>
       </div>
       <div class="tags">${mates}</div>
     </section>

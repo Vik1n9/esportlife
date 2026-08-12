@@ -7,7 +7,7 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { careerFlow } from '../../src/engine/game.js';
-import { investAttr, attrCap, attrKeys, decayCoef, ovr } from '../../src/engine/attributes.js';
+import { investAttr, attrCap, attrKeys, decayCoef, coachRating } from '../../src/engine/attributes.js';
 import { ROLE_ATTR_WEIGHTS } from '../../src/data/skills.js';
 import { ATTRS, POTENTIAL_BANDS } from '../../src/data/attributes.js';
 
@@ -30,7 +30,7 @@ export const MAX_BEATS = 20000;
 export function growthRoom(state) {
   const w = ROLE_ATTR_WEIGHTS[state.role] || {};
   const ceiling = ATTRS.reduce((t, k) => t + (w[k] || 0) * (state.potential[k] ?? DEFAULT_POTENTIAL), 0);
-  return Math.max(1, ceiling - ovr(state));
+  return Math.max(1, ceiling - coachRating(state));
 }
 
 /** 同一個種子／位置在**出生那一刻**的可成長空間（天賦是出生種子的確定性函式，重生即可） */

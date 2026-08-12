@@ -44,17 +44,19 @@
  * 寫好，用「機制不存在就跳過」的形式掛著，每個 SKIP 都指名在等哪一站；那一站做完之後
  * 這裡會自動生效，不必回頭補。
  */
+import { readFileSync, readdirSync } from 'node:fs';
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { attrCap, investAttr, ovr, skills } from '../../src/engine/attributes.js';
+import { attrCap, coachRating, investAttr, positionPower, skills } from '../../src/engine/attributes.js';
 import { checkFusions, unlockTrait } from '../../src/engine/progression.js';
 import { careerTier } from '../../src/engine/career.js';
 import { gameChance } from '../../src/kernel/series.js';
-import { teamStrength } from '../../src/kernel/strength.js';
+import { opponentStrength, starEffect, teamStrength } from '../../src/kernel/strength.js';
 import { TIER_STORES, traitName } from '../../src/kernel/modifiers.js';
 import { ATTRS, ATTR_CAP, ATTR_CAP_GODHAND } from '../../src/data/attributes.js';
 import { MENTAL_KEYS, MENTAL_RANGE } from '../../src/data/mental.js';
 import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
+import { LEAGUES } from '../../src/data/leagues.js';
 import { FUSIONS } from '../../src/data/epics.js';
 import { OVR_WEIGHTS, ROLES, ROLE_ATTR_WEIGHTS, SKILL_WEIGHTS } from '../../src/data/skills.js';
 import { allocate, growthRoom, playMatrix } from '../lib/harness.mjs';
@@ -97,7 +99,8 @@ export async function run({ check, log, shared }) {
   });
   const gate = pending(log);
 
-  peakCeiling({ check, log, runs, gate });
+  peakCeiling({ check, log, runs });
+  coachRatingLayer({ check, log, runs });
   styleGap({ check, log, runs });
   topEndPayoff({ check, log, runs });
   legendRarity({ check, log, runs });
@@ -114,7 +117,7 @@ export async function run({ check, log, shared }) {
 /* ---------------- 巔峰上界（V4 §7.1 §10.2） ---------------- */
 
 /**
- * §10.2 允許的加法特質修正總和，也就是 OVR 可以合法高過屬性硬上限多少。
+ * §10.2 允許的加法特質修正總和，也就是教練評價可以合法高過屬性硬上限多少。
  *
  * 從特質資料表算出來而不是寫死：§10.2 明文只保留兩項直接加評價的特質（神之領域 +2、
  * 不老傳奇 30 歲後 +1），並禁止新特質再用這種形式，所以這個數字應該永遠是 3。寫成
@@ -124,9 +127,9 @@ export async function run({ check, log, shared }) {
  * ⚠ 不老傳奇那 +1 有年齡條件（30 歲後），寫在 `engine/attributes.js` 裡而不是資料表，
  * 所以掃不到，手動補上。
  */
-const OVR_TRAIT_HEADROOM = 1 + Object.values(TIER_STORES).reduce((total, { table }) => total
+const RATING_TRAIT_HEADROOM = 1 + Object.values(TIER_STORES).reduce((total, { table }) => total
   + Object.values(table()).reduce((t, tr) => {
-    const e = tr.effects?.ovrAdd;
+    const e = tr.effects?.ratingAdd;
     return t + (typeof e === 'number' ? e : (e?.add ?? 0));
   }, 0), 0);
 
@@ -137,14 +140,17 @@ const OVR_TRAIT_HEADROOM = 1 + Object.values(TIER_STORES).reduce((total, { table
  * 分布層一律用「÷ ATTR_CAP」的比例——S09 要換成 0–100 刻度，×1.25 之後比例不變，
  * 明顯高於現值就是通膨（這正是 `09-屬性0-100.md` 說的及格線）。
  *
- * ⚠ **上界那條的母數在 S10 修過一次，這是換單位不是放寬**：它量的 `peakOvr` 是
- * `ovr()` 的輸出，而 `ovr()` 除了屬性加權平均還加上 §10.2 的加法特質修正——母數卻
- * 只寫了屬性硬上限。舊表下沒人碰得到那條線（要六個屬性全滿），S10 之後 `vit` 的 OVR
+ * ⚠ **上界那條的母數在 S10 修過一次，這是換單位不是放寬**：它量的 `peakRating` 是
+ * `coachRating()` 的輸出，而它除了屬性加權平均還加上 §10.2 的加法特質修正——母數卻
+ * 只寫了屬性硬上限。舊表下沒人碰得到那條線（要六個屬性全滿），S10 之後 `vit` 的位置
  * 權重歸零，打野／輔助只剩三個屬性各佔九成七，神之領域持有者練滿就會拿到 99＋2＝101。
  * 這與 S09 為「加點是決策」換分母是同一類修正：門檻對權重表免疫，但對特質持有不免疫。
  * 通膨真正的守門員是上面那條平均值比例，它沒有動過。
+ *
+ * ⚠ **S12 要把 §10.2 的隱藏心理修正（±3）加進母數。** 它現在回傳 0，所以先不算進去
+ * ——提早放寬 3 點等於這條檢查在 S12 之前少守 3 點。
  */
-function peakCeiling({ check, log, runs, gate }) {
+function peakCeiling({ check, log, runs }) {
   for (const [key, w] of Object.entries(SKILL_WEIGHTS)) {
     const sum = Object.values(w).reduce((t, v) => t + v, 0);
     check('技能←屬性的權重列和為 1（否則技能值會被平白放大）',
@@ -152,19 +158,19 @@ function peakCeiling({ check, log, runs, gate }) {
   }
   for (const role of ROLES) {
     const sum = Object.values(OVR_WEIGHTS[role]).reduce((t, v) => t + v, 0);
-    check('位置 OVR 的技能權重列和為 1（否則五路 OVR 不能互相比較）',
+    check('位置權重的技能列和為 1（否則五路的教練評價不能互相比較）',
       Math.abs(sum - 1) < 1e-9, `${role} 的和是 ${sum.toFixed(4)}`);
   }
 
-  const peaks = runs.map((r) => r.state.peakOvr);
+  const peaks = runs.map((r) => r.state.peakRating);
   const ratio = mean(peaks) / ATTR_CAP;
   // 八組獨立種子實測 0.739–0.776。上下各留約 6 個百分點：低於下界代表刻度縮水或成長
   // 被砍過頭，高於上界就是通膨
   check('巔峰上界：平均巔峰 ÷ 屬性硬上限落在 0.68–0.82（通膨／縮水都會紅）',
     ratio >= 0.68 && ratio <= 0.82, `平均巔峰 ${mean(peaks).toFixed(2)}／上限 ${ATTR_CAP} = ${ratio.toFixed(4)}`);
-  const hardCeiling = ATTR_CAP_GODHAND + OVR_TRAIT_HEADROOM;
+  const hardCeiling = ATTR_CAP_GODHAND + RATING_TRAIT_HEADROOM;
   check('巔峰上界：沒有任何一段生涯超過硬上限＋§10.2 允許的加法特質修正',
-    Math.max(...peaks) <= hardCeiling, `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP_GODHAND} ＋特質 ${OVR_TRAIT_HEADROOM}）`);
+    Math.max(...peaks) <= hardCeiling, `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP_GODHAND} ＋特質 ${RATING_TRAIT_HEADROOM}）`);
 
   for (const { state, seed, role } of runs) {
     const top = Math.max(...Object.values(skills(state)));
@@ -172,11 +178,117 @@ function peakCeiling({ check, log, runs, gate }) {
       top <= attrCap(state), `${seed}/${role} 最高技能 ${top} > ${attrCap(state)}`);
   }
 
-  log(`巔峰 OVR：平均 ${mean(peaks).toFixed(2)}（÷上限 ${ratio.toFixed(3)}）、最高 ${Math.max(...peaks)}、最低 ${Math.min(...peaks)}`);
+  log(`巔峰教練評價：平均 ${mean(peaks).toFixed(2)}（÷上限 ${ratio.toFixed(3)}）、最高 ${Math.max(...peaks)}、最低 ${Math.min(...peaks)}`);
+}
 
-  // 教練評價（V4 §10.2）取代 OVR 之後，上界要改看它的分布
-  gate.gate('巔峰上界 · 教練評價分布', 'S11', false,
-    'V4 §10.2 的教練評價尚未存在，現在守的是 OVR 的分布', () => {});
+/* ---------------- 教練評價與明星效應（V4 §10 §11.1） ---------------- */
+
+/**
+ * §11.1 明星項的分段對照表。規格書自己列的值，一個字沒改——它同時驗係數 0.06、
+ * 指數 1.35 與上界 6.0，比分別檢查三個常數更難含混過關。
+ */
+const STAR_TABLE = [[5, 0.53], [8, 0.99], [10, 1.34], [15, 2.32], [20, 3.42], [25, 4.63], [31, 6.0]];
+
+/** 玩家戰力最超出隊友的那一成，才是「一個人打贏整隊」要盯的族群 */
+const CARRY_SLICE = 0.1;
+/**
+ * 允許摸到 92% 上限的生涯比例。
+ *
+ * 四組獨立種子實測 0.6%–2.5%，全部是戰力高出隊友 15 點以上、而且幾乎都要靠決勝局的
+ * 心理加成才推得上去的那幾段——那正是 §11.1 想要的 carry，不是失控。門檻取 6%，
+ * 留 2.4 倍餘裕。
+ *
+ * ⚠ 這條是**失控警報，不是校準器**：故意把 `OPPONENT_SUPPORT` 歸零（＝不修正「拿一個
+ * 選手比一支隊」那個單位錯位）會衝到 10.6% 而翻紅，但改成 3.5 只到 5.6%——擦邊而過。
+ * 真正把 `OPPONENT_SUPPORT` 定在 6.5 的是世界冠軍人均那條實測（見 kernel/strength.js），
+ * 不是這條檢查。後面的站要調頂端強度時，兩個都要看。
+ */
+const CLAMP_ALLOWANCE = 0.06;
+
+/**
+ * 教練評價、位置戰力與明星效應。
+ *
+ * 三件事綁在一起檢查，因為它們是同一次分家的三個面：§10.2 把「教練怎麼看你」與
+ * §11.1 的「你在場上打得出多少」拆成兩個量，而明星項是後者才有的東西。
+ */
+function coachRatingLayer({ check, log, runs }) {
+  // 一、兩個量確實分家：§10.2 的加法特質只進教練評價，不進位置戰力
+  const plain = createState({ name: 'C', role: 'MID', seed: 'rating-probe' });
+  const star = createState({ name: 'C', role: 'MID', seed: 'rating-probe' });
+  star.epic.godhand = true;
+  check('教練評價：§10.2 的加法特質（神之領域 +2）確實進得了教練評價',
+    coachRating(star) - coachRating(plain) === 2, `差 ${coachRating(star) - coachRating(plain)}`);
+  check('位置戰力：§10.2 的加法特質不得進位置戰力（那是教練的看法，不是場上的發揮）',
+    positionPower(star) === positionPower(plain),
+    `${positionPower(star).toFixed(2)} vs ${positionPower(plain).toFixed(2)}`);
+
+  // 二、明星效應照 §11.1 的分段表
+  const probe = createState({ name: 'S', role: 'MID', seed: 'star-probe' });
+  probe.league = 'HOME';
+  probe.mates = [];
+  const par = LEAGUES.HOME.par;
+  check('明星效應：戰力等於聯賽 par 時沒有明星項（沒有人需要被拉抬）',
+    starEffect(probe, par) === 0, `${starEffect(probe, par)}`);
+  for (const [over, want] of STAR_TABLE) {
+    const got = starEffect(probe, par + over);
+    check('明星效應：對得上 §11.1 的分段對照表',
+      Math.abs(got - want) <= 0.01, `P−par = ${over} 時 ${got.toFixed(2)}，規格書 ${want}`);
+  }
+  check('明星效應：上界 6.0 點（＝勝率 +10.6 個百分點，一個人拉抬一支隊的天花板）',
+    starEffect(probe, par + 200) === 6.0, `${starEffect(probe, par + 200)}`);
+
+  // 三、明星效應不得讓 w_p = 0.60 失效：一個人不能打贏整隊
+  const rows = [];
+  for (const { state, seed, role } of runs) {
+    if (!state.mates?.length || !state.league) continue;
+    const gap = positionPower(state) - mean(state.mates.map((m) => m.rating));
+    rows.push({ tag: `${seed}/${role}`, gap, best: bestGameChance(state) });
+  }
+  rows.sort((a, b) => b.gap - a.gap);
+  const clamped = rows.filter((r) => r.best >= 92);
+  check('明星效應：能把單局勝率推到 92% 上限的生涯不得超過 6%（一個人不能打贏整隊）',
+    clamped.length <= rows.length * CLAMP_ALLOWANCE,
+    `${clamped.length}/${rows.length} 段（${(clamped.length / rows.length * 100).toFixed(1)}%）`);
+
+  const carry = rows.slice(0, Math.max(1, Math.round(rows.length * CARRY_SLICE)));
+  check('明星效應：戰力遠高於隊友的那一成，確實拉得起勝率（carry 不能是裝飾）',
+    mean(carry.map((r) => r.best)) > mean(rows.map((r) => r.best)) + 5,
+    `前一成 ${mean(carry.map((r) => r.best)).toFixed(1)}% vs 全樣本 ${mean(rows.map((r) => r.best)).toFixed(1)}%`);
+
+  // 四、教練評價不得出現在玩家可見的養成介面（V4 §10.1）
+  const uiDir = new URL('../../src/ui/', import.meta.url);
+  for (const file of readdirSync(uiDir)) {
+    if (!file.endsWith('.js')) continue;
+    const src = readFileSync(new URL(file, uiDir), 'utf8');
+    check('教練評價是內部值：UI 不得讀取 coachRating／effectiveCoachRating（V4 §10.1）',
+      !/\b(coachRating|effectiveCoachRating)\s*\(/.test(src), `src/ui/${file} 讀了教練評價`);
+  }
+
+  log(`明星效應：戰力高出隊友最多的一成（${carry[0].gap.toFixed(1)}–${carry[carry.length - 1].gap.toFixed(1)} 點）`
+    + `最有利單局勝率 ${mean(carry.map((r) => r.best)).toFixed(1)}%，全樣本 ${mean(rows.map((r) => r.best)).toFixed(1)}%；`
+    + `頂到 92% 的 ${clamped.length}/${rows.length} 段`);
+}
+
+/**
+ * 這段生涯在**真的會發生的**對戰組合裡，最有利的一場單局勝率。
+ *
+ * 種子序決定從哪一輪打起、對手基準隨之定（`(種子−1)×1.5` 是同一條規則的另一半），
+ * 所以不能把最低的對手基準配上最深的下剋上加成——那個組合不存在。
+ */
+function bestGameChance(state) {
+  const par = LEAGUES[state.league]?.par ?? 66;
+  const spots = [];
+  for (let seed = 1; seed <= 4; seed++) {
+    const steps = seed <= 2 ? [4.5, 7.5] : [2, 4.5, 7.5];
+    for (const step of steps) spots.push({ seed, opp: opponentStrength(par + step + (seed - 1) * 1.5) });
+  }
+  spots.push({ seed: 1, opp: opponentStrength(Math.max(par, 72)) });   // MSI 地板
+  spots.push({ seed: 1, opp: opponentStrength(Math.max(par, 74)) });   // 世界賽地板
+  let best = 0;
+  for (const s of spots) {
+    for (const decider of [false, true]) best = Math.max(best, gameChance(state, s.opp, { decider, seed: s.seed }));
+  }
+  return best;
 }
 
 /* ---------------- 打法差距（微基準） ---------------- */
@@ -228,7 +340,7 @@ function styleGap({ check, log, runs }) {
         allocate(focus, { mode: 'dice', dice }, 'focus');
         allocate(spread, { mode: 'dice', dice }, 'spread');
       }
-      diffs.push(ovr(focus) - ovr(spread));
+      diffs.push(coachRating(focus) - coachRating(spread));
     }
   }
   const avg = mean(diffs);
@@ -243,7 +355,7 @@ function styleGap({ check, log, runs }) {
 
   // 生涯層級只留一條方向性的佐證——數值門檻交給上面的微基準，這裡只確認生涯沒有把
   // 加點的價值整個吃掉（八組種子實測 1.43–4.91，門檻取 0.5 留 2.8 倍餘裕）
-  const peakOf = (style) => mean(runs.filter((r) => r.style === style).map((r) => r.state.peakOvr));
+  const peakOf = (style) => mean(runs.filter((r) => r.style === style).map((r) => r.state.peakRating));
   const careerGap = peakOf('focus') - peakOf('spread');
   check('打法差距：生涯層級老手的平均巔峰仍高於新手',
     careerGap / ATTR_CAP >= 0.00625, `老手 ${peakOf('focus').toFixed(2)} vs 新手 ${peakOf('spread').toFixed(2)}（差 ${careerGap.toFixed(2)}）`);
@@ -269,8 +381,8 @@ function styleGap({ check, log, runs }) {
  * 等於沒有檢查。後面的站不要再把它加回來。
  */
 function topEndPayoff({ check, log, runs }) {
-  const withCrown = runs.filter((r) => crowns(r.state) > 0).map((r) => r.state.peakOvr);
-  const without = runs.filter((r) => crowns(r.state) === 0).map((r) => r.state.peakOvr);
+  const withCrown = runs.filter((r) => crowns(r.state) > 0).map((r) => r.state.peakRating);
+  const without = runs.filter((r) => crowns(r.state) === 0).map((r) => r.state.peakRating);
   const gap = (mean(withCrown) - mean(without)) / ATTR_CAP;
 
   check('頂端才兌現：拿到國際賽冠軍的生涯，平均巔峰高出沒拿到的 ≥ 0.08×屬性上限',
@@ -459,7 +571,7 @@ function potentialDecay({ check, log, gate }) {
 function benchState(mentalFill) {
   const state = createState({ name: 'M', role: 'MID', seed: 'mental-probe' });
   state.league = 'LMS';
-  state.mates = Array.from({ length: 4 }, () => ({ ovr: 55 }));
+  state.mates = Array.from({ length: 4 }, () => ({ rating: 55 }));
   for (const k of MENTAL_KEYS) {
     const [lo, hi] = MENTAL_RANGE[k];
     state.mental[k] = mentalFill === 'max' ? hi : mentalFill === 'min' ? lo : Math.round((lo + hi) / 2);

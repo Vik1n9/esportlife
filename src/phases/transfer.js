@@ -13,10 +13,10 @@
  * 風評低而知名度高的人會出現「鬼牧」：傳聞滿天飛，實際報價一個都沒有。
  */
 import { LEAGUES } from '../data/leagues.js';
-import { effectiveOvr } from '../engine/attributes.js';
+import { effectiveCoachRating } from '../engine/attributes.js';
 import {
-  SCOUT_BAR, academyOffer, annualSalary, clubVerdict, disbandNoteFor, formatMoney,
-  generateOffers, renewalTerms, scoutInterest, signContract, tryout,
+  academyOffer, annualSalary, clubVerdict, disbandNoteFor, formatMoney,
+  generateOffers, renewalTerms, scoutInterest, scoutVerdict, signContract, tryout,
 } from '../engine/market.js';
 import { homeLeagueName, leagueLabel, teamsOf } from '../engine/roster.js';
 import { occupiesImportSlot } from '../engine/imports.js';
@@ -27,8 +27,8 @@ import { card, drawRoleplay, fusionBeats } from './shared.js';
 
 export const kind = 'TRANSFER';
 
-/** 能力跌破這個數字，連青訓的最低標都算不上，直接判出局（舊 30 × 1.25） */
-const FLOOR_OVR = 38;
+/** 教練評價跌破這個數字，連青訓的最低標都算不上，直接判出局（舊 30 × 1.25） */
+const FLOOR_RATING = 38;
 
 export function* run(g) {
   const { state, rng } = g;
@@ -51,7 +51,7 @@ export function* run(g) {
     yield* fusionBeats(g);
   }
 
-  if (effectiveOvr(state) < FLOOR_OVR) retire('能力已跌破青訓最低水準，遭釋出，被迫退役。');
+  if (effectiveCoachRating(state) < FLOOR_RATING) retire('能力已跌破青訓最低水準，遭釋出，被迫退役。');
 
   // 史實解散：拿過世界冠軍就能改寫史實續營，否則合約作廢、強制進市場
   const note = disbandNoteFor(state);
@@ -194,7 +194,7 @@ function* academyStage(g) {
     type: 'choice',
     title: '青訓年度結束',
     options: [
-      { id: 'try', label: `再次參加${state.am2Track === 'OVERSEAS' ? '海外' : '主場'}賽區試訓`, main: true, note: `綜合 ${effectiveOvr(state)}` },
+      { id: 'try', label: `再次參加${state.am2Track === 'OVERSEAS' ? '海外' : '主場'}賽區試訓`, main: true, note: scoutVerdict(state) },
       { id: 'switch', label: state.am2Track === 'OVERSEAS' ? '轉回主場賽區試訓' : '改走海外賽區路線', note: '海外門檻高、薪資高' },
       { id: 'quit', label: '就此退役', warn: true },
     ],
@@ -295,14 +295,14 @@ function* amateurStage(g) {
     options.push({
       id: 'wait',
       label: '婉拒，留在業餘再練一年',
-      note: `目前綜合 ${interest.ovr}；現在進去就是墊底，養高一點再談條件`,
+      note: `${scoutVerdict(state)}；現在進去就是墊底，養高一點再談條件`,
     });
   }
 
   const picked = yield {
     type: 'choice',
     title: mandatory
-      ? `網咖盃第 ${state.stageYear} 年 · 綜合 ${interest.ovr} · 該做決定了`
+      ? `網咖盃第 ${state.stageYear} 年 · 該做決定了`
       : `有人要簽你 · ${state.year}`,
     options,
   };
@@ -321,15 +321,14 @@ function* amateurStage(g) {
 /** 三年期滿卻連青訓門檻都沒摸到 */
 function* amateurDeadEnd(g) {
   const { state } = g;
-  const o = effectiveOvr(state);
   if (state.age >= 22) {
     retire(`打到 ${state.age} 歲，連二隊的門檻都沒摸到。你把網咖那張會員卡剪了。`);
   }
   const picked = yield {
     type: 'choice',
-    title: `網咖盃第 ${state.stageYear} 年 · 綜合 ${o} · 還沒有人來`,
+    title: `網咖盃第 ${state.stageYear} 年 · 還沒有人來`,
     options: [
-      { id: 'stay', label: '再打一年網咖盃', main: true, note: `門檻：青訓 ${SCOUT_BAR.AM2}｜主場一隊 ${SCOUT_BAR.HOME}｜最多撐到 22 歲` },
+      { id: 'stay', label: '再打一年網咖盃', main: true, note: `${scoutVerdict(state)}｜最多撐到 22 歲` },
       { id: 'quit', label: '放棄職業之路', warn: true },
     ],
   };

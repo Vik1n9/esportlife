@@ -15,12 +15,12 @@ export const EPIC_TRAITS = {
       retireAge: { floor: 40 }, declineOffset: { floor: 4 }, declineMult: { cap: 0.5 },
       careerScore: 120,
     },
-    // 分段效果：30 歲後 OVR +1（年齡條件）、靈巧/技巧衰退再減半，寫在 engine/attributes.js
+    // 分段效果：30 歲後教練評價 +1（年齡條件）、靈巧/技巧衰退再減半，寫在 engine/attributes.js
   },
   godhand: {
     name: '神之領域', desc: '成長 ×2；操作/反應上限 85；退役上限 38',
     effects: {
-      abilityCapUp: true, ovrAdd: 2, growthMult: { mul: 2 },
+      abilityCapUp: true, ratingAdd: 2, growthMult: { mul: 2 },
       retireAge: { floor: 38 }, declineOffset: { floor: 2 }, giftedDice: true,
     },
   },
@@ -78,7 +78,7 @@ export const LEGENDARY_TRAITS = {
   },
   godslayer: {
     name: '弒神者', desc: '成長 ×3.5；突破上限',
-    // 原本還帶 `ovrAdd: 4` 與 `seriesGame: 6`。那兩項是平白加分——不管你把點投得準不準
+    // 原本還帶一項直接加評價的效果（+4）與 `seriesGame: 6`。那兩項是平白加分——不管你把點投得準不準
     // 都照領，於是「隨便練」的打法也吃得到頂端加成。四階合成的設計紀錄
     // （docs/superpowers/specs/2026-08-12-four-tier-trait-synthesis.md）已經記過同一件事：
     // 頂端加成要用「成長 ×N 與突破上限」，練得越準越吃得到。份量改由成長倍率承擔。

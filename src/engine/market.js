@@ -9,7 +9,7 @@ import { clamp } from '../core/rng.js';
 import { DISBANDS } from '../data/disband.js';
 import { LEAGUES, OVERSEAS_LEAGUES } from '../data/leagues.js';
 import { eraOf } from '../data/eras.js';
-import { effectiveOvr } from './attributes.js';
+import { effectiveCoachRating } from './attributes.js';
 import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './roster.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
@@ -63,7 +63,7 @@ export function disbandNoteFor(state, year = state.year) {
  * 刻度，所以門檻跟著 ×1.25（1 → 1.25）；零不必縮放。偏移量同理（§17.2 三）。
  */
 function candidateLeagues(state) {
-  const o = effectiveOvr(state);
+  const o = effectiveCoachRating(state);
   const delta = state.lastDelta || 0;
   const gates = [
     { ready: () => o >= LEAGUES.LCK.min && delta >= 1.25, keys: ['LCK', 'LPL'] },
@@ -224,7 +224,7 @@ export function signContract(state, rng, { team, league, years, mult }) {
  * @returns {{ok:boolean, team?:string, league?:string, years?:number, mult?:number}}
  */
 export function tryout(state, rng, track = 'HOME') {
-  const o = effectiveOvr(state);
+  const o = effectiveCoachRating(state);
   const league = track === 'OVERSEAS' ? rng.pick(OVERSEAS_LEAGUES) : 'HOME';
   const threshold = track === 'OVERSEAS' ? LEAGUES[league].min - 7.5 : LEAGUES.HOME.par - 10;
   if (o < threshold) return { ok: false };
@@ -258,13 +258,28 @@ export const SCOUT_BAR = {
 
 /** 不消耗亂數的純查詢，供流程判斷這一年有哪些層級會來敲門 */
 export function scoutInterest(state) {
-  const o = effectiveOvr(state);
+  const o = effectiveCoachRating(state);
   return {
-    ovr: o,
+    rating: o,
     am2: o >= SCOUT_BAR.AM2,
     home: o >= SCOUT_BAR.HOME,
     overseas: o >= SCOUT_BAR.OVERSEAS,
   };
+}
+
+/**
+ * 球探評語：把教練評價換成一句話。
+ *
+ * V4 §10.1 不給玩家單一總評數字，但業餘期的「要不要現在簽」是真的需要一個判斷依據
+ * ——那個依據本來就該長成球探的說法，而不是一個可以拿來最佳化的分數。門檻是同一組
+ * `SCOUT_BAR`，所以敘述永遠跟實際會不會有人來敲門一致。
+ */
+export function scoutVerdict(state) {
+  const interest = scoutInterest(state);
+  if (interest.overseas) return '海外賽區的球探也來看過你了';
+  if (interest.home) return '一隊教練組認為你現在就上得去';
+  if (interest.am2) return '二隊願意收，一隊還差一截';
+  return '還沒有人把你列進名單';
 }
 
 /** 青訓次級的一紙合約（不佔正式一隊名額，薪水很低） */

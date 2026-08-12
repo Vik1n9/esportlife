@@ -15,7 +15,7 @@ function player(seed, ovrValue) {
   const state = createState({ name: 'G', role: 'MID', seed });
   state.stage = 'PRO'; state.league = 'LCK';
   for (const k of Object.keys(state.attr)) state.attr[k] = ovrValue;
-  state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, ovr: ovrValue }));
+  state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, rating: ovrValue }));
   return state;
 }
 
@@ -26,7 +26,7 @@ export async function run({ check }) {
   {
     const state = player('grp', 75);
     for (let i = 0; i < 200; i++) {
-      const res = runGroup(state, rng, { oppOvrs: [58, 60, 62] });
+      const res = runGroup(state, rng, { oppRatings: [58, 60, 62] });
       check('小組賽打滿六場（三個對手各兩次）', res.games.length === 6, res.games.length);
       check('勝敗場數加總等於場次', res.wins + res.losses === 6, `${res.wins}-${res.losses}`);
       check('每個對手都碰兩次', new Set(res.games.map((g) => g.opp)).size === 3);
@@ -66,8 +66,8 @@ export async function run({ check }) {
       for (let i = 0; i < 300; i++) if (run(state).advanced) n++;
       return n / 300;
     };
-    const gs = rate(strong, (s) => runGroup(s, rng, { oppOvrs: [60, 60, 60] }));
-    const gw = rate(weak, (s) => runGroup(s, rng, { oppOvrs: [60, 60, 60] }));
+    const gs = rate(strong, (s) => runGroup(s, rng, { oppRatings: [60, 60, 60] }));
+    const gw = rate(weak, (s) => runGroup(s, rng, { oppRatings: [60, 60, 60] }));
     check('小組賽：強隊出線率明顯高於弱隊', gs > gw + 0.3, `強 ${gs.toFixed(2)} vs 弱 ${gw.toFixed(2)}`);
 
     const ss = rate(strong, (s) => runSwiss(s, rng, { par: 75 }));

@@ -1,4 +1,10 @@
-/** 生涯結算：檔案卡、數據表、榮譽、粉絲留言、分享圖。 */
+/**
+ * 生涯結算：檔案卡、數據表、榮譽、粉絲留言、分享圖。
+ *
+ * 這裡不印巔峰評價（V4 §10.1：教練評價是內部值，玩家從頭到尾看不到那個數字）。
+ * `engine/career.js` 的生涯評分仍然吃 `state.peakRating`——那是 §10.3 明文允許的，
+ * 結算分數本來就要有個單一尺度，但玩家看到的是「評分與等第」而不是評價本身。
+ */
 import { ROLE_NAMES } from '../data/skills.js';
 import { FAN_QUOTES } from '../data/events.js';
 import { BUCKET_NAMES } from '../data/leagues.js';
@@ -23,7 +29,7 @@ export function renderSummary({ state, rng, tier, seed, appVersion }) {
       <div><span>位置</span><b>${ROLE_NAMES[state.role]}</b></div>
       <div><span>退役</span><b>${state.year} 年 · ${state.age} 歲</b></div>
       <div><span>職業年資</span><b>${state.proYears} 季</b></div>
-      <div><span>巔峰 OVR</span><b>${state.peakOvr}</b></div>
+      <div><span>賽段冠軍</span><b>${state.splitTitles}</b></div>
       <div><span>世界賽冠軍</span><b>${state.worldsWins}</b></div>
       <div><span>MSI 冠軍</span><b>${state.msiWins}</b></div>
       <div><span>生涯總薪資</span><b class="hl">${formatMoney(state.salary)}</b></div>
@@ -107,7 +113,7 @@ function drawShareImage(out, { state, tier, seed, appVersion }) {
     ['sub', `${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${state.year} 年退役（${state.age} 歲）`],
     ['gap', ''],
     ['row', `世界賽冠軍 ${state.worldsWins}　MSI 冠軍 ${state.msiWins}　職業年資 ${state.proYears} 季`],
-    ['row', `巔峰 OVR ${state.peakOvr}　例行賽 MVP ${state.honors.filter((h) => h.includes('例行賽 MVP')).length} 次`],
+    ['row', `賽段冠軍 ${state.splitTitles}　例行賽 MVP ${state.honors.filter((h) => h.includes('例行賽 MVP')).length} 次`],
     ['gold', `生涯總薪資 ${formatMoney(state.salary)} 台幣`],
   ];
   const topHonors = state.honors.filter((h) => /世界賽冠軍|MSI 冠軍|改寫歷史/.test(h)).slice(0, 4);

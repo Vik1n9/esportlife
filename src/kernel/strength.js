@@ -4,7 +4,8 @@
  * 三個函式住在一起是因為它們永遠一起被改——調權重時三個都要看。
  */
 import { COACHES } from '../data/coaches.js';
-import { effectiveOvr } from '../engine/attributes.js';
+import { LEAGUES } from '../data/leagues.js';
+import { positionPower } from '../engine/attributes.js';
 import { chemBonus } from '../engine/mental.js';
 import { factor, floorOf } from './modifiers.js';
 
@@ -14,23 +15,97 @@ export function coachBonus(state) {
 
 export function matesAverage(state) {
   if (!state.mates || !state.mates.length) return 0;
-  const sum = state.mates.reduce((t, m) => t + m.ovr, 0);
+  const sum = state.mates.reduce((t, m) => t + m.rating, 0);
   // mateMorale 是單季的士氣，chem 是跨季累積的默契——兩者相加
   return sum / state.mates.length + floorOf(state, 'teamLead', 0) + (state.mateMorale || 0) + chemBonus(state);
 }
 
+/** 所在聯賽的先發平均。業餘期還沒有 `state.league`，落回網咖盃的 par */
+function parOf(state) {
+  return LEAGUES[state.league ?? 'AMATEUR']?.par ?? LEAGUES.HOME.par;
+}
+
+/**
+ * 對手的支援值：把 §11.1 階梯表的「對手水準」換算成可以跟 `teamStrength` 相減的
+ * 「對手隊伍強度」。
+ *
+ * ⚠ **這不是憑空多出來的加碼，是把兩邊的單位對齊。** §11.1 的對手強度階梯是 `par`
+ * 系的數字，而 `par` 的定義是「該聯賽**先發平均教練評價**」——那是**一個選手**的水準。
+ * 我們這邊的 `teamStrength` 卻是一支隊的強度（含教練、體力、明星項）。直接相減等於
+ * 讓對面用一個選手來打我們一支隊。
+ *
+ * 舊制看不出這個錯位，因為 0.55／0.35 的權重和只有 0.90，在 par 66 時把隊伍強度壓低
+ * 6.6 點，剛好被那份支援抵掉（淨值約 par −1.1）。V4 §11.1 把權重和改成 1.00、教練與
+ * 體力變成純加項之後，錯位就直接顯形：實測 160 段生涯的國際賽冠軍當量從 39 段暴增到
+ * 84 段，`五個等第都出現得到` 也因為沒人再打得爛而翻紅。
+ *
+ * 值怎麼來的（兩份都對得上，所以取 6.5）：
+ *
+ * 1. **推導**：對手也是一支隊，所以它有 §11.1 驗算例寫的「教練/體力 3.5」，也有
+ *    **它自己的明星選手**——階梯上的隊伍是賽區冠軍等級，carry 大約高出該聯賽 par
+ *    15～20 點，查 §11.1 的明星項分段表就是 2.3～3.4，取中間的 3.0。3.5 ＋ 3.0 = 6.5。
+ * 2. **實測**：掃 3.5／5／6.5／8 四個值跑 640 段生涯，6.5 是唯一把 S10 的校準整組帶
+ *    回來的值——世界冠軍人均 0.11（S10 是 0.098）、有國際冠軍的生涯 122 段（125）、
+ *    平均生涯薪資 −1%。3.5 會讓世界冠軍人均翻成兩倍（0.21）。
+ */
+export const OPPONENT_SUPPORT = 6.5;
+
+/**
+ * 把階梯表的對手水準換成可以跟 `teamStrength` 相減的隊伍強度。
+ * 所有「拿階梯值當對手」的地方都要走這裡，否則就是拿一個選手比一支隊。
+ */
+export function opponentStrength(ladderRating) {
+  return ladderRating + OPPONENT_SUPPORT;
+}
+
+/**
+ * 明星效應（V4 §11.1）：`min(6.0, 0.06 × max(0, P − par)^1.35)`。
+ *
+ * 超線性的用意是「一個人拉抬一支隊」要看得出來，但拉不動整隊。三個參數都是 §11.1
+ * 推導過的：指數 1.35 讓 P−par 每翻一倍、明星項變 2.55 倍；係數 0.06 由上界回推，
+ * 讓 6.0 點落在 P−par ≈ 30（幾乎只有滿等選手在主場賽區碰得到）；上界 6.0 點 ＝
+ * 勝率 +10.6 個百分點（×1.76）。
+ *
+ * **不另外設起算門檻**：指數 >1 本身就讓中段幾乎沒有份量（P−par = 5 只換到 0.53 點），
+ * 再切一刀只會製造不連續。有效起點自然落在 P−par ≈ 8。
+ *
+ * ⚠ 基準是**聯賽 par 而不是隊友均值**，這點試過反面：隊友是 `par ± 7` 生成的，均值
+ * 就是 par，但明星項是凸函數，所以改吃隊友均值會讓「抽到爛隊友」的人多領一份，
+ * 期望值反而上升（實測世界冠軍 49 → 54 座、頂到勝率上限的生涯 18 → 20 段，兩項都
+ * 更糟）。§11.1 寫 par 是對的。
+ */
+export function starEffect(state, power) {
+  const over = Math.max(0, power - parOf(state));
+  return Math.min(6.0, 0.06 * (over ** 1.35));
+}
+
 /**
  * 隊伍整體強度。用於勝率計算。
- * 權重：本人 0.55 ／隊友 0.35 ／教練＋體力 0.10，與設計文件一致。
  *
- * 玩家只是五分之一——這是 LoL 與棒球最不一樣的地方之一：個人數據再漂亮，隊伍進不了
- * 季後賽就是進不了。
+ * V4 §11.1：`P × 0.60 + 隊友均值 × 0.40 + 教練加成 + 體力修正 + 明星項`。
+ *
+ * ⚠ **權重從 0.55／0.35 改成 0.60／0.40，這不只是加重玩家的份量**：舊的兩個權重
+ * 加起來只有 0.90，等於整隊的強度被系統性地壓低一成（在 par 66 時是 −6.6 點），
+ * 再由教練與體力那 ~5 點補回來——淨值大約 par −1.3。新版權重和是 1.00，教練與體力
+ * 變成純粹的加項，所以同一支隊的強度會整體上移。這是 §11.1 算過的：它的驗算例
+ * （P=100、隊友 59）明寫「教練/體力 3.5」疊在 0.60/0.40 之上。
+ *
+ * 上移的後果是刻意的——常規賽對手基準就是 `par`（§11.1「練得糊也打得過，這是刻意
+ * 的」），而國際賽有 72／74 的絕對地板。**篩選發生在頂端，不發生在聯賽**。
+ *
+ * 玩家仍然只是五分之一：0.60 對 0.40，加上明星項封頂 6.0 點，滿等選手配上生成
+ * 區間下界的隊友、對上世界賽淘汰賽的對手仍然只有七成多的單局勝率，頂不到 92% 的
+ * 上限。個人數據再漂亮，隊伍進不了季後賽就是進不了。
  */
 export function teamStrength(state) {
-  return effectiveOvr(state) * 0.55
-    + matesAverage(state) * 0.35
+  const power = positionPower(state);
+  return power * 0.60
+    + matesAverage(state) * 0.40
     + coachBonus(state)
     // TODO(S13)：十二技能表沒有 `sta`（V4 §8 把體力抽出去當資源），體力修正暫時
-    // 讀 `vit` 屬性——舊 `sta` 技能本來就是 .85 的 vit，量級一致
-    + state.attr.vit * 0.05;
+    // 讀 `vit` 屬性——舊 `sta` 技能本來就是 .85 的 vit，量級一致。
+    // 係數 0.05 → 0.02 是配著上面權重和 0.90 → 1.00 改的：§11.1 的驗算例把
+    // 「教練加成 ＋ 體力修正」合計抓在 3.5 點，教練平均 2.0，體力就該落在 1.5 左右
+    + state.attr.vit * 0.02
+    + starEffect(state, power);
 }

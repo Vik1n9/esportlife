@@ -11,7 +11,7 @@
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
 import { importSlotsOf } from '../data/regions/index.js';
-import { effectiveOvr } from './attributes.js';
+import { effectiveCoachRating } from './attributes.js';
 import { flag } from '../kernel/modifiers.js';
 
 /** 玩家簽這個聯賽會不會佔用外援名額 */
@@ -34,9 +34,9 @@ export function importChance(state, leagueKey) {
   const slots = importSlotsOf(region);
   if (!Number.isFinite(slots)) return 100;
 
-  const over = effectiveOvr(state) - league.min;
+  const over = effectiveCoachRating(state) - league.min;
   const fame = Math.max(0, (state.mental?.fame ?? 40) - 40);
-  // 基準 18%：名額滿了是常態。每高於門檻 1 點 OVR 拉 4%，知名度再補一點
+  // 基準 18%：名額滿了是常態。每高於門檻 1 點評價拉 4%，知名度再補一點
   // （per-point 係數在 0–100 重校時要除以 1.25，5 → 4；fame 本來就是 0–100 不動）
   return clamp(18 + over * 4 + fame * 0.25 + (slots - 2) * 12, 5, 90);
 }

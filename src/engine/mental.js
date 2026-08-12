@@ -86,7 +86,7 @@ export function mentalSummary(state) {
 /* ================= 衍生效果 ================= */
 
 /**
- * 默契對隊伍強度的加減。50 為中性，兩端各 ±6 OVR。
+ * 默契對隊伍強度的加減。50 為中性，兩端各 ±6 點戰力。
  * 這是 `mateMorale` 的長期版本——士氣是單季的，默契是累積的。
  */
 export function chemBonus(state) {

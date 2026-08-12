@@ -74,13 +74,13 @@ export async function run({ check }) {
     const rng = new Rng('worlds-stage');
     const state = createState({ name: 'W', role: 'MID', seed: 'worlds-stage' });
     state.stage = 'PRO'; state.league = 'LCK';
-    state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, ovr: 75 }));
+    state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, rating: 75 }));
     for (const k of Object.keys(state.attr)) state.attr[k] = 75;
 
     for (let i = 0; i < 50; i++) {
       const swiss = runSwiss(state, rng, { par: 75 });
       check('Swiss 至少三輪，每輪都有比分', swiss.rounds.length >= 3 && swiss.rounds.every((r) => r.score));
-      const group = runGroup(state, rng, { oppOvrs: [60, 60, 60] });
+      const group = runGroup(state, rng, { oppRatings: [60, 60, 60] });
       check('小組賽有六場逐場紀錄', group.games.length === 6);
     }
   }

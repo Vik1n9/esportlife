@@ -6,7 +6,8 @@
  */
 import { LEAGUES } from '../data/leagues.js';
 import { STAT_BASELINE } from '../data/skills.js';
-import { effectiveOvr, ovr, patchPenalty } from '../engine/attributes.js';
+import { coachRating, effectiveCoachRating, patchPenalty, roleSkills, skillValue } from '../engine/attributes.js';
+import { SKILL_NAMES } from '../data/skills.js';
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { formatStatLine, mergeSplits } from '../engine/season.js';
 import { applyPatch, rollInjury, trainHeroes, unlockTrait } from '../engine/progression.js';
@@ -22,19 +23,25 @@ export function* run(g, phase) {
   const stat = mergeSplits(g.splits);
   state.lastStat = stat;
   state.lastDelta = stat.delta;
-  state.peakOvr = Math.max(state.peakOvr, ovr(state));
+  state.peakRating = Math.max(state.peakRating, coachRating(state));
   if (state.stage === 'PRO') state.proYears += 1;
 
   const learned = trainHeroes(state, rng, stat.G);
 
+  /*
+   * 年度總結不再印一個總評數字（V4 §10.1：教練評價是內部值）。
+   * 改印本位置的核心技能——那才是玩家練得到、也看得懂要往哪投的東西。
+   */
   const penalty = patchPenalty(state);
-  const ovrNote = penalty < 0
-    ? `綜合 OVR <b class="hl">${ovr(state)}</b> <span class="dn">${penalty}</span>（版本落差）`
-    : `綜合 OVR <b class="hl">${ovr(state)}</b>`;
+  const coreLine = roleSkills(state).slice(0, 4)
+    .map((k) => `${SKILL_NAMES[k]} <b class="hl">${skillValue(state, k)}</b>`).join('　');
+  const skillNote = penalty < 0
+    ? `${coreLine}　<span class="dn">版本落差 ${penalty}</span>`
+    : coreLine;
   const line = formatStatLine(stat);
   if (phase.splitCount > 1) {
     yield card('', '年度總結',
-      `${state.team}｜${stageLabel(state)}　${ovrNote}<div class="statline">${line}</div>` +
+      `${state.team}｜${stageLabel(state)}<div class="statline">${skillNote}</div><div class="statline">${line}</div>` +
       (state.stage === 'PRO' ? `<br><span class="muted">全年冠軍點數 ${state.champPoints}</span>` : ''));
   }
   state.seasonLog.push({ year: state.year, age: state.age, team: state.team, line, stat });
@@ -87,7 +94,7 @@ export function* run(g, phase) {
  */
 function* awards(g, stat) {
   const { state, rng } = g;
-  const o = effectiveOvr(state);
+  const o = effectiveCoachRating(state);
   const home = stageLabel(state);
   const par = LEAGUES[currentLeagueKey(state)].par;
   if (stat.G < 20) return;
