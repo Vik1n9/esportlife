@@ -45,7 +45,7 @@
 | # | 階段 | 狀態 | 前置 | 難度 | 建議模型 |
 | --- | --- | --- | --- | --- | --- |
 | [S01](01-穩定點.md) | 穩定點 | ✅ 完成 | — | 高 | Opus 5 |
-| [S02](02-血緣審計.md) | 血緣審計 | 未開始 | S01 | 中 | Sonnet 5 |
+| [S02](02-血緣審計.md) | 血緣審計 | ✅ 完成 | S01 | 中 | Sonnet 5 |
 | [S03](03-淨室-rng與進入點.md) | 淨室：`core/rng.js` ＋ 進入點版面 | 未開始 | S02 | 中 | Sonnet 5 |
 | [S04](04-淨室-market與career.md) | 淨室：`engine/market.js` ＋ `career.js` | 未開始 | S02 | 中 | Sonnet 5 |
 | [S05](05-淨室-regions與formats.md) | 淨室：`data/regions/*` ＋ `data/formats/*` | 未開始 | S02 | 中 | Sonnet 5 |

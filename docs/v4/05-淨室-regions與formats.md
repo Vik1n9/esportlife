@@ -44,18 +44,22 @@ npm test
 
 `data/regions/index.js`（80 行）是註冊表，對外給 `splitsOf(year, region)`、
 `worldsSlotsOf(...)`、`msiSplitOf(year, region)` 等查詢函式。
-`data/formats/` 有 `calendar.js`（年曆事件表）、`msi.js`、`worlds.js`、`playoffs.js`。
+`data/formats/` 的 `playoffs.js` 與 `data/{coaches,disband,eras,heroes,leagues,
+teams}.js` 都是 `e07427c` 從 `data/world.js`（A 批）拆出來的。
+
+⚠ 依 S02 血緣表：`data/formats/{calendar,msi,worlds}.js` 是 **B 批**（2026-08 的
+LoL 改寫時新寫），**不在本範圍**——直接沿用，不要動。
 
 呼叫端主要是 `engine/calendar.js`、`phases/msi.js`、`phases/worlds.js`、
-`kernel/series.js`。
+`kernel/series.js`、`engine/roster.js`。
 
 **2. 重排資料結構**
 
 換一種組織方式表達同一批事實。可能的方向（擇一，不必全做）：
 - 賽區與賽制從「每區一檔 ＋ 註冊表」改成「一張時間軸表 ＋ 查詢層」
 - 年份區間的表達從 `{ until: 2022, ... }` 這種「最後適用年」改成明確的 `[from, to]`
-- 把 `EVENTS` 的 `order` 魔術數（`PER_SPLIT`／`MSI_SLOT`／`MSI_SLOT_AFTER` ＋ `10n+5`）
-  換成別的排序表達
+- 隊名／薪資／賽段史從「每區一檔」的排法換成別的表達（`teams.js` 的 `MATE_NAMES`、
+  `leagues.js` 的業餘／青訓層級、`eras.js` 的時代鍵都是同一批 world.js 事實）
 
 ⚠ **選之前先看 S14（月回合制）**——那一站要把 order 空間從賽段序改成月序。如果這裡
 的重排能順便讓 S14 好做，就往那個方向排；但**不要提前實作月序**，那是 S14 的事。
@@ -63,10 +67,11 @@ npm test
 **3. 內容一字不改**
 
 賽區賽段數演進、MSI 年表（2015 創辦、2020 停辦、2023 起前兩名、各區 `msiAfter` 差異）、
-Worlds 格式（小組賽→2023 起 Swiss）、聯賽 par 值——這些是查證過的公開事實，照抄。
+Worlds 格式（小組賽→2023 起 Swiss）、聯賽 par 值、各賽區隊名與時代改名——這些是查證
+過的公開事實，照抄。
 
-**特別注意**：`data/formats/msi.js` 的檔頭註解記錄了「舊版把 MSI 寫成國家隊徵召，
-那是從棒球的 WBC 模型搬過來的」——這段說明有價值，重寫時保留這個資訊（可以換句話說）。
+**`msiAfter`／`worldsSlots`／`importSlots` 是 B 批欄位**（a140b9e／3af552d／e07427c
+的 LoL 改寫新增），重排時沿用，不改語意。
 
 ### 不要做
 
@@ -76,8 +81,10 @@ Worlds 格式（小組賽→2023 起 Swiss）、聯賽 par 值——這些是查
 - **不要提前做月序**（S14）
 - **不要動 V4 §16.1**。規格書那節寫的 MSI 規則比程式簡化，但**以程式為準**，
   改規格書是 S08 的事
-- **不碰 `data/eras.js`、`data/leagues.js`、`data/teams.js`、`data/coaches.js`、
-  `data/disband.js`、`data/heroes.js`**——依 S02 血緣表確認，這些多半是 B 批
+- **不碰 `data/formats/{calendar,msi,worlds}.js`**——S02 血緣表判為 B 批，不在本範圍
+- **不碰 `phases/*` 的敘事與 2026-08 新寫段落**（`ef33e1b` 轉會窗口、`a140b9e` MSI、
+  `3af552d` 世界賽都是 B 批）。`phases/{msi,worlds}.js` 的 run 骨架是 A 批殘留，
+  交給 S04
 
 ---
 
@@ -85,12 +92,11 @@ Worlds 格式（小組賽→2023 起 Swiss）、聯賽 par 值——這些是查
 
 | 檔案 | 行數 | 動作 |
 | --- | --- | --- |
-| `src/data/regions/index.js` | 80 | 重排結構 |
-| `src/data/regions/{home,kr,cn,eu,na}.js` | 96 | 重排結構 |
-| `src/data/formats/calendar.js` | 41 | 重排結構 |
-| `src/data/formats/msi.js` | 69 | 重排結構 |
-| `src/data/formats/worlds.js` | 83 | 重排結構 |
+| `src/data/regions/index.js` | 80 | 重排結構（查詢函式為 B，沿用） |
+| `src/data/regions/{home,kr,cn,eu,na}.js` | 96 | 重排結構（`msiAfter` 等 B 欄位沿用） |
 | `src/data/formats/playoffs.js` | 14 | 重排結構 |
+| `src/data/{coaches,disband,eras,heroes,leagues,teams}.js` | — | 重排結構（e07427c 拆自 world.js，A 批） |
+| `src/engine/roster.js` | — | 隊名資料流承袭（A 段）；重排後呼叫端同步調整，解散過濾等 B 邏輯不動 |
 
 若重排改變了查詢介面，`src/engine/calendar.js` 與 `src/phases/{msi,worlds}.js` 的
 呼叫處要跟著改——那是允許的，但要在交接筆記寫明改了哪些呼叫端。

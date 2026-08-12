@@ -1,5 +1,28 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-12 — S02 血緣審計：把「哪些是承襲的」從粗分釘成逐檔標記表
+
+- **方向**：原作者未回覆授權申請，承襲程式碼要淨室重寫；但 `00-共通規則.md` 的 A/B
+  粗分是用 `git log --diff-filter=A` 查檔案建立時間得到的，對 refactor 搬移會判錯。
+  這一站逐檔逐 commit 查血緣，產出 `ARCHITECTURE.md`「## 九、程式碼血緣」表（61 檔）。
+- **關鍵發現**（粗分 vs 實際）：
+  - `data/formats/{calendar,msi,worlds}.js` 是 B 批——6ec9575 年曆表、a140b9e MSI、
+    3af552d 世界賽都是 2026-08 新寫，不是從 world.js 搬的。S05 原清單把它們當 A 是錯的。
+  - `kernel/series.js` 是 B：667ec4c 搬自 `engine/playoffs.js`，而 playoffs.js 是
+    7d19dce 新建（種子序門檻首見於此，原棒球專案沒有）。`kernel/strength.js` 才是 A
+    （搬自 a71ee13 的 team.js）。
+  - 00 規則漏列一整批 A：`data/{coaches,disband,eras,heroes,leagues,teams}.js`
+    （e07427c 拆自 world.js）與 `ui/{dom,log,panel,runner,storage,summary}.js`
+    （a71ee13 建立）。前者補進 S05，後者比照 actions.js 交給 V4 UI 階段（S16）。
+  - `phases/{msi,worlds}.js` 骨架承袭、本體已被 2026-08 重寫覆蓋——A/B，殘留 run
+    骨架隨 S04；`phases/{media,salary}.js` 是純搬移 A，已加進 S04。
+- **改動**：只動文件（ARCHITECTURE.md 新增血緣節；00-共通規則.md 第二節重寫；
+  S04/S05 說明書「要動的檔案」依審計修正；02 交接筆記回填；狀態表更新）。未碰任何
+  `src/` 檔案。
+- **狀態**：完成。`npm test` 前後皆 8939 項全綠。tag `v4-before` 之後的 commit
+  `8d62c7a`（golden 重刷）仍是這站的入口基準。
+  下一步：S03 淨室 rng，或 S04/S05。
+
 ## 2026-08-12 — v4 穩定點：換掉一條量不到東西的平衡不變式
 
 - **方向**：四階特質合成紅著提交（2 項檢查失敗），V4 重建需要一個已知良好的比對基準，

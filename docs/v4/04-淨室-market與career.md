@@ -59,6 +59,14 @@ npm test
 依 S02 血緣表指名的函式重寫。**只重寫標 A 的那幾段**，2026-08 新寫的敘事與轉會窗口
 邏輯（`ef33e1b`「轉會窗口每年都開，加上外援名額」）是 B 批，不要動。
 
+**4. `phases/media.js` 與 `phases/salary.js`（A 批，6ec9575 搬自 game.js）**
+
+`media.js`（12 行）是「PRO 且有 38% 機率抽媒體扮演卡」的路口；`salary.js`（21 行）
+是年度薪資結算敘事。兩者都直接搬自 `engine/game.js` 的承袭段落——只看介面與
+`drawRoleplay`／`annualSalary` 的行為，關掉原檔重寫。`phases/{msi,worlds}.js` 的
+run 骨架（A 批殘留）如果順手碰到，一併處理，但**不要動**那兩個檔 2026-08 重寫的
+敘事與賽制邏輯（B 批）。
+
 ### 不要做
 
 - **不要改介面。** 呼叫端不該因為這一站需要修改
@@ -66,6 +74,8 @@ npm test
 - **不碰 `core/rng.js`、`main.js`、`ui/board.js`、`styles.css`**（S03）
 - **不碰 `data/regions/*`、`data/formats/*`**（S05）
 - **不碰 `engine/imports.js`**（外援名額，`ef33e1b` 新寫，B 批）
+- **不碰 `phases/{split,seasonEnd,shared}.js`**——A/B 但處置在 V4（S14/S15/S17），
+  不是這一站
 - **不要「順便改善」報價公式。** 平衡調整不在這一站，而且會讓行為等價驗不出來
 
 ---
@@ -77,6 +87,8 @@ npm test
 | `src/engine/career.js` | 49 | 淨室重寫 |
 | `src/engine/market.js` | 248 | 淨室重寫 |
 | `src/phases/transfer.js` | 411（其中 A 批段落） | 依 S02 血緣表重寫指名段落 |
+| `src/phases/media.js` | 12 | 淨室重寫（A 批，搬自 game.js） |
+| `src/phases/salary.js` | 21 | 淨室重寫（A 批，搬自 game.js） |
 
 **以 S02 的血緣表為準。**
 

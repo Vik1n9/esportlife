@@ -213,3 +213,92 @@ python3 -m http.server 8080
 | 新畫面元素 | `src/ui/`；需要引擎配合時新增一種 beat | 1–2 |
 
 原則：**資料能表達的就不要寫成程式碼，規則能表達的就不要寫進 UI。**
+
+---
+
+## 九、程式碼血緣
+
+S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式授權」處理——這張表記錄的是
+**事實血緣**（哪個 commit 加的、內容從哪搬的），不是著作權判斷。
+
+標記規則：
+
+| 標記 | 意思 |
+| --- | --- |
+| `A` | 承襲：`a71ee13`（v3.0.0 從單檔拆模組）或更早加入，或內容從 A 批檔案搬過來 |
+| `B` | 原創：2026-08-11 之後從零寫的 LoL 內容 |
+| `A/B` | 混合：檔案裡同時有搬過來的段落與新寫的段落 |
+
+判定原則：**有疑慮一律標 `A`**——誤標成 A 的代價是多寫一次，誤標成 B 的代價是留著
+承襲程式碼。`phases/*` 不能用檔案建立日期（2026-08-12）判斷，要看內容是不是 `6ec9575`
+從 `engine/game.js` 搬的。
+
+| 檔案 | 血緣 | 依據 | 處置 |
+| --- | --- | --- | --- |
+| `core/rng.js` | A | a71ee13 建立，種子化亂數 | S03 淨室重寫（換演算法） |
+| `data/attributes.js` | B | 876c76b 新建，六大屬性（D&D 兩層） | 沿用（S09 起由 V4 改動） |
+| `data/coaches.js` | A | e07427c 拆自 world.js（a71ee13） | S05 淨室重寫 |
+| `data/disband.js` | A | e07427c 拆自 world.js | S05 淨室重寫 |
+| `data/epics.js` | A/B | b2cdc80 拆自 traits.js（合成配方為 A）；`effects` 宣告為 B | V4 S19b/S19c 重寫 |
+| `data/eras.js` | A | e07427c 拆自 world.js（START_YEAR／eraOf） | S05 淨室重寫 |
+| `data/events.js` | A/B | a71ee13 建立（基礎事件卡）；7d19dce／e412b9b 大量新增（88→329 行） | V4 S17/S18 整段重寫 |
+| `data/formats/calendar.js` | B | 6ec9575 新建年曆表（機制新寫，史實為公開事實） | 沿用（S15 調整） |
+| `data/formats/msi.js` | B | a140b9e 新建，俱樂部賽事資料 | 沿用（S15 調整） |
+| `data/formats/playoffs.js` | A | e07427c 拆自 world.js（PLAYOFF_ROUNDS／CHAMPIONSHIP_POINTS） | S05 淨室重寫 |
+| `data/formats/worlds.js` | B | 3af552d 新建，種子序／席位／賽制資料 | 沿用（S15 調整） |
+| `data/heroes.js` | A | e07427c 拆自 world.js（HEROES／PATCH_THEMES） | S05 淨室重寫 |
+| `data/leagues.js` | A | e07427c 拆自 world.js（LEAGUES） | S05 淨室重寫 |
+| `data/mental.js` | B | 7d19dce 新建，心理五維 | 沿用（S12 擴充） |
+| `data/regions/cn.js` | A/B | e07427c 拆自 world.js（隊名／薪資／賽段史為 A）；a140b9e 加 `msiAfter` 欄位為 B | S05 重排結構 |
+| `data/regions/eu.js` | A/B | 同上 | S05 重排結構 |
+| `data/regions/home.js` | A/B | 同上 | S05 重排結構 |
+| `data/regions/index.js` | A/B | e07427c 新建：資料承袭、查詢函式（splitsOf 等）新寫；a140b9e 加 msiSplitOf | S05 重排結構（查詢函式沿用） |
+| `data/regions/kr.js` | A/B | 同 cn.js | S05 重排結構 |
+| `data/regions/na.js` | A/B | 同 cn.js | S05 重排結構 |
+| `data/roleplay.js` | B | 7d19dce 新建，18 張扮演卡 | 沿用（S20 重新對映） |
+| `data/skills.js` | A/B | 876c76b 新建，但 SKILL_NAMES／ROLE_SIGNATURE／OVR_WEIGHTS 結構演化自 abilities.js（A） | V4 S10 十二技能表重寫 |
+| `data/teams.js` | A | e07427c 拆自 world.js（隊名／MATE_NAMES）；0641189 更新為 B | S05 淨室重寫 |
+| `data/traits.js` | A/B | a71ee13 建立（基礎特質）；b2cdc80 拆出 epics；e412b9b 四階合成（54→174 行） | V4 S19a 重寫 |
+| `engine/attributes.js` | A/B | a71ee13 建 abilities.js，876c76b rename＋技能導出層（ovr／effectiveOvr 等骨架承袭，skillValue 等新寫） | V4 S09/S10 重寫 |
+| `engine/calendar.js` | B | 6ec9575 新建，年曆展開（只查表） | 沿用（S14/S15 調整） |
+| `engine/career.js` | A | a71ee13 建立 | S04 淨室重寫 |
+| `engine/game.js` | A | a71ee13 建立；6ec9575 拆到 221 行（主迴圈） | V4 S14 月回合制重寫 |
+| `engine/imports.js` | B | ef33e1b 新建，外援名額（舊版無此概念） | 沿用 |
+| `engine/lineup.js` | B | 7604223 新建，先發／板凳（舊版 staminaFactor 是棒球模型） | 沿用（S16 調整） |
+| `engine/market.js` | A | a71ee13 建立 | S04 淨室重寫 |
+| `engine/mental.js` | B | 7d19dce 新建 | 沿用（S12 擴充） |
+| `engine/progression.js` | A | a71ee13 建立 | V4 S16 設施制重寫 |
+| `engine/retire.js` | A/B | 6ec9575 抽自 game.js（退役條件為 A）；RetireSignal 例外機制為 B | V4 S13 體力系統重寫 |
+| `engine/roster.js` | A/B | a71ee13 建 team.js，667ec4c／6ec9575 rename＋調整（隊名資料流承袭；解散過濾／二隊推導為 B） | S05 重排結構時同步調整 |
+| `engine/season.js` | A | a71ee13 建立 | V4 S14/S15 重寫 |
+| `engine/state.js` | A | a71ee13 建立（SAVE_VERSION） | V4 重寫（存檔結構） |
+| `kernel/groups.js` | B | 667ec4c 新建（小組賽／Swiss，原專案無） | 沿用 |
+| `kernel/modifiers.js` | A/B | b2cdc80 新建聚合機制（B）；效果值搬自 traits.js（A） | V4 S19a 重寫 |
+| `kernel/series.js` | B | 667ec4c 搬自 engine/playoffs.js（7d19dce 新建，種子序門檻首見於 7d19dce） | 沿用 |
+| `kernel/strength.js` | A | 667ec4c 搬自 engine/team.js（a71ee13）的三個強度函式 | V4 S10/S11 隨 OVR 重寫 |
+| `main.js` | A | a71ee13 建立 | S03 淨室重寫 |
+| `phases/alloc.js` | A | 6ec9575 搬自 game.js（能力點分配） | V4 S16 設施制重寫 |
+| `phases/index.js` | B | 6ec9575 新建註冊表（kind → 模組） | 沿用 |
+| `phases/media.js` | A | 6ec9575 搬自 game.js（媒體採訪 38% 路口） | S04 重寫（承袭段落） |
+| `phases/msi.js` | A/B | 6ec9575 搬自 game.js（run 骨架）；a140b9e 整檔重寫為俱樂部賽事（149/178 行） | 沿用（重寫已覆蓋，殘留骨架隨 S04） |
+| `phases/salary.js` | A | 6ec9575 搬自 game.js（薪資結算） | S04 重寫（承袭段落） |
+| `phases/seasonEnd.js` | A | 6ec9575 搬自 game.js（種子序／獎項／傷病）；7604223／876c76b 小改為 B | V4 S11/S15 重寫 |
+| `phases/shared.js` | A/B | 6ec9575 搬自 game.js（事件卡／扮演卡／特質覺醒）；876c76b 六屬性後改寫為 B | V4 S17 事件觸發引擎重寫 |
+| `phases/split.js` | A/B | 6ec9575 搬自 game.js（例行賽→季後賽→事件卡）；7604223 先發板凳改寫為 B | V4 S14 月回合制重寫 |
+| `phases/transfer.js` | A/B | 6ec9575 搬自 game.js（FA 模型休賽期）；ef33e1b 加轉會窗口／外援為 B | S04 重寫 A 段 |
+| `phases/worlds.js` | A/B | 6ec9575 搬自 game.js（run 骨架）；3af552d 整檔重寫為種子序制（196/215 行） | 沿用（重寫已覆蓋，殘留骨架隨 S04） |
+| `styles.css` | A | a71ee13 建立 | S03 淨室重寫 |
+| `ui/actions.js` | A | a71ee13 建立 | V4 S16 重寫（擲骰加點 → 設施制選單） |
+| `ui/board.js` | A | a71ee13 建立 | S03 淨室重寫 |
+| `ui/dom.js` | A | a71ee13 建立 | V4 UI 階段重寫（S16） |
+| `ui/log.js` | A | a71ee13 建立 | V4 UI 階段重寫（S16） |
+| `ui/panel.js` | A | a71ee13 建立；876c76b 加展開箭頭為 B | V4 UI 階段重寫（S16） |
+| `ui/runner.js` | A | a71ee13 建立 | V4 UI 階段重寫（S16） |
+| `ui/storage.js` | A | a71ee13 建立 | V4 UI 階段重寫（S16） |
+| `ui/summary.js` | A | a71ee13 建立 | V4 UI 階段重寫（S16） |
+
+統計：61 個檔（`src/` 下 60 個 `.js` ＋ 1 個 `.css`）。`data/world.js` 已於 e07427c
+拆成 `regions/*` 與 `formats/*`、`data/abilities.js` 已於 876c76b 拆成
+`attributes.js`／`skills.js`、`engine/abilities.js` 於 876c76b 更名 `attributes.js`、
+`engine/team.js` 於 667ec4c／6ec9575 更名 `roster.js`、`engine/international.js`
+於 3af552d 併入 `formats/*` 與 `phases/*` 後刪除——已不在表內。
