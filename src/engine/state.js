@@ -12,8 +12,8 @@ import { HEROES } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-// v7：九項素質改成六屬性＋導出技能。舊存檔沒有 attr，一律作廢重開
-export const SAVE_VERSION = 7;
+// v9：事件卡類 roguelike——會耗盡、反覆抽不重複、觸發頻率提高。舊存檔一律作廢重開
+export const SAVE_VERSION = 9;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -74,9 +74,12 @@ export function createState({ name, role, seed }) {
     ),
     toneStreak: { bold: 0, plain: 0, humble: 0 },  // 連續同一種扮演傾向的次數
 
-    traits: {},
-    epic: {},
-    fusedAway: [],       // 被合成消耗掉的基礎特質名稱（結算時劃線顯示）
+    traits: {},          // 通用特質
+    rare: {},            // 稀有特質
+    epic: {},            // 史詩特質
+    legendary: {},       // 傳說特質
+    fusedAway: [],       // 被合成消耗掉的特質名稱（結算時劃線顯示）
+    recentEvents: [],    // 最近出過的事件卡 id（反覆抽不重複的暫存）
 
     heroPool: birth.sample(HEROES[role], 3),
     mastery: {},

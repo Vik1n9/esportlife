@@ -19,6 +19,9 @@
  * - `traits` 設 false 表示「這條路不碰隱藏素質」——好的壞的都不會覺醒，
  *            也不推進自律計數。安全牌的代價就是它不會把你推向任何極端。
  * - `flags`  不論成敗都會生效的副作用（目前只有直播衝人氣用到）。
+ * - `on`     這個選項自己的 good/bad 結果。當選項的行動跟卡片主軸相反時
+ *            （例如「關台／休息／不看」），套卡片的通用結果會牛頭不對馬嘴，
+ *            就在選項上寫自己的結果；沒寫就沿用卡片的通用結果。
  *
  * 選項的 note（成功率、幅度、是否影響素質）由引擎統一生成，
  * 資料層不寫死文案，才不會跟數值對不上。
@@ -34,7 +37,11 @@ export const EVENT_CARDS = [
     options: [
       { id: 'grind', label: '衝到天亮，不上分不睡', odds: 45, gain: 2.2, loss: 1.3 },
       { id: 'balanced', label: '再打三把就收', odds: 55, gain: 1, loss: 1, main: true },
-      { id: 'stop', label: '關機睡覺，手感明天再說', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'stop', label: '關機睡覺，手感明天再說', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        on: {
+          good: { text: '你決定關機，隔天睡飽精神滿格，狀態比硬撐好太多', attr: { vit: 1, dec: 1 } },
+          bad: { text: '躺下還在腦補那場連敗，翻來覆去更累，隔天狀態反而更差', attr: { vit: -1, tec: -1 } },
+        } },
     ],
     good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕刷爆「666」', attr: { tec: 2 } },
     bad:  { text: '排位連敗掉分，隊友 0/10/0 開送，越打越上頭', attr: { tec: -1, dec: -1 } } },
@@ -44,7 +51,11 @@ export const EVENT_CARDS = [
     options: [
       { id: 'allin', label: '留下來加練到收工', odds: 46, gain: 2.2, loss: 1.3 },
       { id: 'focus', label: '只練自己最弱的那條線', odds: 58, gain: 1, loss: 1, main: true },
-      { id: 'rest', label: '回宿舍休息，保住明天狀態', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'rest', label: '回宿舍休息，保住明天狀態', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        on: {
+          good: { text: '好好休息一宿，隔天團練眼睛發亮，狀態滿檔歸隊', attr: { vit: 1 } },
+          bad: { text: '休息一晚手感冷掉，隔天上場跟不上隊友節奏', attr: { agi: -1, tec: -1 } },
+        } },
     ],
     good: { text: '跟頂尖隊友加練對線，細節大開竅，教練忍不住點頭', attr: { tec: 1, agi: 1 } },
     bad:  { text: '加練到半夜，反應遲鈍，隔天團練被當人機打', attr: { agi: -2 } } },
@@ -94,7 +105,11 @@ export const EVENT_CARDS = [
     options: [
       { id: 'schedule', label: '排固定時段，練完才開', odds: 66, gain: 1, loss: 1, main: true },
       { id: 'hype', label: '衝一波流量，人氣先做起來', odds: 40, gain: 1.8, loss: 1.3, flags: { popular: true } },
-      { id: 'close', label: '暫時關台，專心打比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'close', label: '暫時關台，專心打比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        on: {
+          good: { text: '你關台閉關，手感與專注度一起回升，粉絲在聊天室刷「等你回歸」', attr: { tec: 1, vit: 1 } },
+          bad: { text: '關台期間錯過一波爆紅引流，人氣停在原地，開台數據也涼了', attr: { dec: -1 } },
+        } },
     ],
     good: { text: '開台時間控制得宜，人氣穩定成長，斗內刷不停', attr: { vit: 1 }, flags: { popular: true } },
     bad:  { text: '開台開到走火入魔，訓練量下滑，聊天室笑你職業兼 YouTuber', attr: { tec: -2, agi: -1 } } },
@@ -144,7 +159,11 @@ export const EVENT_CARDS = [
     options: [
       { id: 'sign', label: '全接，錢跟名氣都要', odds: 38, gain: 2.2, loss: 1.3 },
       { id: 'trim', label: '只接不影響訓練的檔期', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'reject', label: '推掉，這季只想專注比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'reject', label: '推掉，這季只想專注比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        on: {
+          good: { text: '推掉代言專注比賽，訓練量全開，賽場狀態拉滿', attr: { tec: 1, vit: 1 } },
+          bad: { text: '推掉代言，廠商合作告吹，還被笑「放著白花花的錢不賺」', attr: { syn: -1 } },
+        } },
     ],
     good: { text: '代言商演安排得宜，名氣跟收入一起起飛', attr: { vit: 1 }, flags: { popular: true, bonusSalary: 120 } },
     bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', attr: { tec: -2, vit: -1 } } },
@@ -164,7 +183,11 @@ export const EVENT_CARDS = [
     options: [
       { id: 'deep', label: '整季全看完，習慣抓到死', odds: 48, gain: 2.2, loss: 1.3 },
       { id: 'key', label: '只看關鍵局的對線段', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'skip', label: '不看，打自己的節奏就好', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'skip', label: '不看，打自己的節奏就好', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        on: {
+          good: { text: '不糾結對手的研究，打自己的節奏，自信拉滿反倒壓制對面', attr: { dec: 1 } },
+          bad: { text: '沒做足功課，對上後被對手的習慣套路打得措手不及', attr: { awr: -1, tec: -1 } },
+        } },
     ],
     good: { text: '把對手 VOD 看到吐，摸透習慣，單殺率直線上升', attr: { awr: 1, tec: 1 }, flags: { laneking: true } },
     bad:  { text: '檢討過頭，場上越想越多，反而畏首畏尾', attr: { dec: -2 } } },
@@ -174,7 +197,11 @@ export const EVENT_CARDS = [
     options: [
       { id: 'confront', label: '當面把話攤開講清楚', odds: 48, gain: 2.2, loss: 1.3 },
       { id: 'mediate', label: '私下一個一個約出來談', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'avoid', label: '不介入，交給教練處理', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'avoid', label: '不介入，交給教練處理', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        on: {
+          good: { text: '你沒捲進矛盾，專注自己的訓練，衝突被教練消化掉了', attr: { vit: 1 } },
+          bad: { text: '你選擇不介入，休息室氣氛更僵，訓練賽都在互相甩鍋', attr: { syn: -1 }, flags: { mateMorale: -2 } },
+        } },
     ],
     good: { text: '你主動把話攤開講，休息室氣氛重新凝聚', attr: { syn: 1 }, flags: { leader: true } },
     bad:  { text: '隊內宮鬥劇開演，訓練賽都在互相甩鍋', attr: { syn: -2 }, flags: { mateMorale: -2 } } },
@@ -188,6 +215,106 @@ export const EVENT_CARDS = [
     ],
     good: { text: '海外集訓遇上完全不同的打法，視野整個被打開', attr: { awr: 2, syn: 1, dec: 1 } },
     bad:  { text: '時差沒調過來，集訓整趟都在昏睡，峽谷團練全變夢遊', attr: { vit: -2, agi: -1 } } },
+
+  { id: 'all_nighter', name: '通宵練功', kind: 'normal',
+    prompt: '版本大改，你要練的東西排到滿出來。有人笑你「練到變人形外掛」，但你很清楚身體不是鐵打的。',
+    options: [
+      { id: 'push', label: '練到天亮，進度一次到位', odds: 42, gain: 2.2, loss: 1.3 },
+      { id: 'pace', label: '照表操課，穩穩按進度走', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'rest', label: '先睡，明天再繼續', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '整夜泡在自訂房，版本細節摸得透透的，被喊「人形外掛」', attr: { tec: 2 }, flags: { grinder: true } },
+    bad:  { text: '練到靈魂出竅，隔天團練反應全沒，教練唸到爆', attr: { agi: -2, vit: -1 } } },
+
+  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal',
+    prompt: '你昨天那波「開秀」被剪成短片，梗圖跟「○○傳奇」的標題刷滿全網。流量來了，斷章取義也來了。',
+    options: [
+      { id: 'ride', label: '順勢玩梗，流量全吃', odds: 42, gain: 2.2, loss: 1.3 },
+      { id: 'calm', label: '回應得體，不跟著起舞', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'lie', label: '低調不回應，讓它自己退燒', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你帶頭玩自己的梗，全網跟風，人氣一波起飛', attr: { syn: 1 }, flags: { meme: true, popular: true } },
+    bad:  { text: '梗越玩越歪，被解讀成自大，風向回頭咬你', attr: { dec: -1, vit: -1 } } },
+
+  { id: 'stream_debut', name: '開台首播', kind: 'normal',
+    prompt: '戰隊幫你開一場首播，聊天室刷得飛快，斗內跟毒舌一起來。開台容易，收台難。',
+    options: [
+      { id: 'slot', label: '固定時段，練完才開', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'max', label: '衝一波熱度，時數開滿', odds: 40, gain: 2, loss: 1.3 },
+      { id: 'rarely', label: '少開，鏡頭留給比賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '首播口碑爆棚，廠商隔天就來敲門談合作', attr: { vit: 1 }, flags: { camera: true, popular: true } },
+    bad:  { text: '開台開到作息崩掉，訓練狀態一路直落', attr: { tec: -2, vit: -1 } } },
+
+  { id: 'fan_meet', name: '粉絲見面會', kind: 'normal',
+    prompt: '簽名會排了一長串，有個小粉絲舉著你的名牌說「是你讓我開始打 LOL」。簽到一半，主辦說時間不夠了。',
+    options: [
+      { id: 'all', label: '全簽完，簽到最後一個', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'key', label: '挑重點聊，控制時間', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'exit', label: '準時結束，練習比較重要', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你簽到最後一個，小粉絲當場哭了，畫面被瘋傳', attr: { syn: 1, vit: 1 }, flags: { popular: true } },
+    bad:  { text: '簽到手抽筋還誤了訓練，隔天被教練唸了一頓', attr: { vit: -1, awr: -1 } } },
+
+  { id: 'teammate_blame', name: '隊友甩鍋', kind: 'normal',
+    prompt: '團練輸了，語音裡互相甩鍋，最後矛頭指向新來的練習生。他眼眶都紅了。',
+    options: [
+      { id: 'take', label: '出來扛責任，把火引到自己身上', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'comfort', label: '私下安慰，再幫他調節奏', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'away', label: '不關我的事，練自己的', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你把鍋扛下來，休息室瞬間安靜，練習生把你當大哥', attr: { syn: 1 }, flags: { guardian: true, leader: true } },
+    bad:  { text: '你出來扛被隊友酸「假好人」，隊內氣氛更僵', attr: { syn: -2 }, flags: { mateMorale: -2 } } },
+
+  { id: 'flash_steal', name: '極限搶龍', kind: 'normal',
+    prompt: '比賽尾聲，對面在打巴龍，全隊只剩你能上前搶。隊友把寶全押在你這一下。',
+    options: [
+      { id: 'go', label: '閃現進場，秒懲戒搶龍', odds: 40, gain: 2.2, loss: 1.3 },
+      { id: 'safe', label: '穩著打，拖到對面失誤', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'back', label: '保命要緊，下波再找機會', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你閃現進場秒懲戒搶下巴龍，全場暴動，賽評喊破喉嚨', attr: { dec: 1, agi: 1 }, flags: { clutch: true } },
+    bad:  { text: '搶龍失敗全隊陪葬，賽後被「打野差距」刷屏', attr: { dec: -2 } } },
+
+  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal',
+    prompt: '對手在採訪裡放話「今年會把你們打回原形」，底下留言一片揶揄。鏡頭轉到你，等你接招。',
+    options: [
+      { id: 'clap', label: '火力全開回嗆', odds: 42, gain: 2.2, loss: 1.3 },
+      { id: 'polite', label: '官腔帶過，不上鉤', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'mute', label: '沉默是金，不回應', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你一句「打過才知道」直接圈粉，賽前氣勢拉滿', attr: { syn: 1, dec: 1 }, flags: { trashtalk: true } },
+    bad:  { text: '回嗆被剪成音檔，比賽又輸了，反噬比話還快', attr: { dec: -2, vit: -1 } } },
+
+  { id: 'champion_ban', name: '招牌被Ban', kind: 'normal',
+    prompt: '賽前 BP，對面連 Ban 你兩隻招牌角，明顯有備而來。教練問你第三隻選什麼。',
+    options: [
+      { id: 'secret', label: '掏出秘密武器打他措手不及', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'solid', label: '選隻穩的，靠版本理解', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'coach', label: '讓教練全權決定', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你掏出藏了很久的版本答案，對面直接傻眼', attr: { awr: 2 }, flags: { meta: true } },
+    bad:  { text: '秘密武器被看穿，整場被當靶子打，賽後「BP 背鍋」', attr: { tec: -2 } } },
+
+  { id: 'presser_quote', name: '賽後金句', kind: 'normal',
+    prompt: '賽後記者會，記者問「你覺得為什麼能贏」。你腦中閃過一句能上頭條的話，但說出口可能被做成梗。',
+    options: [
+      { id: 'quote', label: '爆金句，標題我來定', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'plain', label: '官腔回答，穩穩過關', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'humble', label: '謙虛推給團隊', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '金句登上各大標題，廣告商跟流量一起上門', attr: { syn: 1 }, flags: { meme: true, popular: true } },
+    bad:  { text: '一句話被斷章取義，黑粉帶著梗圖湧入', attr: { dec: -1, vit: -1 } } },
+
+  { id: 'baited', name: '被釣魚', kind: 'normal',
+    prompt: '直播時聊天室刷滿「你肯定打不過對面中路」，越刷越兇。你很清楚這是釣魚，但火就是壓不住。',
+    options: [
+      { id: 'ignore', label: '無視，專心打自己的', odds: 64, gain: 1, loss: 1, main: true },
+      { id: 'clap', label: '剛一波，當場回嗆', odds: 42, gain: 2, loss: 1.3 },
+      { id: 'hidect', label: '關聊天室，眼不見為淨', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你穩住沒上鉤，彈幕反而佩服你心態夠硬', attr: { dec: 1 }, flags: { composure: true } },
+    bad:  { text: '你上鉤開噴，整段被剪成「心態炸裂」傳全網', attr: { dec: -1, vit: -1 }, flags: { tiltRisk: true } } },
 ];
 
 /** 依生涯評價分級的粉絲留言 */

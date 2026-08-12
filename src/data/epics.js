@@ -1,8 +1,12 @@
 /**
- * 史詩特質（合成產物，不可再被消耗）與合成配方。純資料。
+ * 史詩特質（合成產物）與傳說特質（終極合成產物）與合成配方。純資料。
  *
  * `effects` 的寫法見 `data/traits.js`。合成配方放在這裡而不是 traits.js，是因為
- * 配方的產物就是史詩特質——改配方時看的是這一張表。
+ * 配方的產物就是高階特質——改配方時看的是這一張表。
+ *
+ * 合成分四階，概念取自 LoL 的道具合成（小件疊成終極裝）：
+ *   通用（traits.js）→ 稀有（traits.js）→ 史詩（本檔）→ 傳說（本檔）。
+ * 每一階都只消耗下一階的特質，配方見 `FUSIONS`。
  */
 export const EPIC_TRAITS = {
   ageless: {
@@ -61,21 +65,89 @@ export const EPIC_TRAITS = {
 };
 
 /**
+ * 傳說特質（最高階，終極合成產物）。由兩個史詩特質合成，取得後該史詩即被消耗。
+ * 傳說特質住在 `state.legendary`，由 `kernel/modifiers.js` 統一查詢。
+ */
+export const LEGENDARY_TRAITS = {
+  immortal: {
+    name: '不死魔王', desc: '退役上限 41；衰退 ×0.4；成長 ×3；突破上限',
+    effects: {
+      retireAge: { floor: 41 }, declineOffset: { floor: 5 }, declineMult: { cap: 0.4 },
+      growthMult: { mul: 3 }, abilityCapUp: true,
+    },
+  },
+  godslayer: {
+    name: '弒神者', desc: '成長 ×3；突破上限；OVR +4；季後賽大加成',
+    effects: { growthMult: { mul: 3 }, abilityCapUp: true, ovrAdd: 4, seriesGame: 6 },
+  },
+  bulwark: {
+    name: '銅牆鐵壁', desc: '免疫受傷；免疫默契崩盤；隊友 +8',
+    effects: { injuryImmune: true, teamLead: { floor: 8 }, verdictChemShield: true },
+  },
+  showmaker: {
+    name: '流量金身', desc: '代言 ×1.5；決勝局加成；續約保底 1.3',
+    effects: {
+      endorsement: { mul: 1.5 }, contractFloor: { floor: 1.3 }, seriesDecider: 4,
+    },
+  },
+  underdog_run: {
+    name: '一穿五', desc: '下剋上加成爆表；國際賽保底；世界賽大加成',
+    effects: { underdogDepth: 3.2, intlFloor: { floor: 4 }, worldsRoll: 8 },
+  },
+  prophet_king: {
+    name: '版本之神', desc: '版本懲罰歸零；成長 ×2.5；突破上限',
+    effects: { patchImmune: true, growthMult: { mul: 2.5 }, abilityCapUp: true },
+  },
+};
+
+/**
  * 合成配方（完全隱藏，UI 不揭露）。
- * 命中即消耗基礎特質、賦予史詩特質。`老將`／`單身`／`自律` 會被多條配方爭奪，
- * 因此「追求長壽」與「追求團隊」無法兼得——這是設計上的取捨，不是 bug。
  *
- * 順序即優先序：先寫的先檢查。
+ * 每一條配方消耗 `need` 指定的特質、賦予 `outTier` 階特質。`need` 是
+ * `[tier, key]` 的配對，tier 為 `traits`(通用) / `rare`(稀有) / `epic`(史詩) /
+ * `legendary`(傳說)。
+ *
+ * 四階概念取自 LoL 道具合成（小件疊終極裝）：
+ *   通用 → 稀有：由 2 個「人格／媒體」類通用小件合成。
+ *   通用 → 史詩：核心配方，沿用既有設計（史詩是生涯主力，保持可達）。
+ *   史詩 + 稀有 → 傳說：神話終極裝，把史詩與稀有再往上疊。
+ *
+ * 兩池刻意不重疊：稀有吃「人格／媒體」類，史詩吃「競技表現」類，稀有與史詩不會
+ * 互相搶素材，兩條線都能成立。傳說＝史詩＋稀有，素材一定分屬兩池。
+ *
+ * 同一階的特質會被多條配方爭奪，因此「追求長壽」與「追求團隊」無法兼得——
+ * 這是設計上的取捨，不是 bug。
+ *
+ * 順序即優先序：稀有配方排在史詩配方之前，這樣一次 `checkFusions` 就能把樹走完。
  */
 export const FUSIONS = [
-  { need: ['veteran', 'disc', 'single'], out: 'ageless' },
-  { need: ['genius', 'disc'], out: 'godhand' },
-  { need: ['clutch', 'composure'], out: 'ultstage' },
-  { need: ['meta', 'macroG'], out: 'prophet' },
-  { need: ['intlghost', 'laneking'], out: 'soloking' },
-  { need: ['iron', 'disc'], out: 'indestructible' },
-  { need: ['leader', 'veteran'], out: 'lockerroom' },
-  { need: ['single', 'disc'], out: 'ascetic' },
-  { need: ['underdog', 'bigheart'], out: 'miracle' },
-  { need: ['trashtalk', 'idol'], out: 'showman' },
+  // ── 通用 → 稀有 ──
+  { outTier: 'rare', need: [['traits', 'grinder'], ['traits', 'lonewolf']], out: 'machine' },
+  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'popular']], out: 'traffic' },
+  { outTier: 'rare', need: [['traits', 'popular'], ['traits', 'camera']], out: 'star' },
+  { outTier: 'rare', need: [['traits', 'glue'], ['traits', 'guardian']], out: 'pillar' },
+  { outTier: 'rare', need: [['traits', 'franchise'], ['traits', 'glue']], out: 'og' },
+  { outTier: 'rare', need: [['traits', 'franchise'], ['traits', 'popular']], out: 'icon' },
+  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'camera']], out: 'joker' },
+  { outTier: 'rare', need: [['traits', 'lonewolf'], ['traits', 'guardian']], out: 'watchdog' },
+
+  // ── 通用 → 史詩（核心配方，沿用既有設計）──
+  { outTier: 'epic', need: [['traits', 'veteran'], ['traits', 'disc'], ['traits', 'single']], out: 'ageless' },
+  { outTier: 'epic', need: [['traits', 'genius'], ['traits', 'disc']], out: 'godhand' },
+  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'composure']], out: 'ultstage' },
+  { outTier: 'epic', need: [['traits', 'meta'], ['traits', 'macroG']], out: 'prophet' },
+  { outTier: 'epic', need: [['traits', 'intlghost'], ['traits', 'laneking']], out: 'soloking' },
+  { outTier: 'epic', need: [['traits', 'iron'], ['traits', 'disc']], out: 'indestructible' },
+  { outTier: 'epic', need: [['traits', 'leader'], ['traits', 'veteran']], out: 'lockerroom' },
+  { outTier: 'epic', need: [['traits', 'single'], ['traits', 'disc']], out: 'ascetic' },
+  { outTier: 'epic', need: [['traits', 'underdog'], ['traits', 'bigheart']], out: 'miracle' },
+  { outTier: 'epic', need: [['traits', 'trashtalk'], ['traits', 'idol']], out: 'showman' },
+
+  // ── 史詩 + 稀有 → 傳說（神話終極裝）。史詩（競技）與稀有（人格）素材分屬兩池，必然不重疊 ──
+  { outTier: 'legendary', need: [['epic', 'ageless'], ['rare', 'machine']], out: 'immortal' },
+  { outTier: 'legendary', need: [['epic', 'godhand'], ['rare', 'star']], out: 'godslayer' },
+  { outTier: 'legendary', need: [['epic', 'indestructible'], ['rare', 'pillar']], out: 'bulwark' },
+  { outTier: 'legendary', need: [['epic', 'showman'], ['rare', 'icon']], out: 'showmaker' },
+  { outTier: 'legendary', need: [['epic', 'miracle'], ['rare', 'og']], out: 'underdog_run' },
+  { outTier: 'legendary', need: [['epic', 'prophet'], ['rare', 'traffic']], out: 'prophet_king' },
 ];

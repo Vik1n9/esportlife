@@ -92,6 +92,7 @@ button{font-family:var(--ui)}
 .card.bad h4{color:var(--bad)} .card.bad h4::before{background:var(--bad)}
 .card.good h4{color:var(--good)} .card.good h4::before{background:var(--good)}
 .card.info h4{color:var(--link)} .card.info h4::before{background:var(--blue)}
+.card.legendary h4{color:#ffd166} .card.legendary h4::before{background:#ffd166}
 .card-body{font-size:14.5px;color:var(--ink);font-weight:400}
 
 .statline{font-family:var(--mono);font-size:12.5px;background:var(--bg);
@@ -107,17 +108,23 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:3px;
   background:var(--raise);color:var(--muted)}
 .tag.epic{color:var(--epic);background:#170f1c}
+.tag.rare{color:#7cc4ff;background:#0f1e2a}
+.tag.legendary{color:#ffd166;background:#2a2210}
 .tag.gone{color:var(--faint);text-decoration:line-through;opacity:.8}
 
 .trait-list{display:flex;flex-direction:column;gap:4px;margin-top:6px}
 .trait-item{background:var(--raise);border-radius:3px}
 .trait-item.epic{background:#170f1c}
+.trait-item.rare{background:#0f1e2a}
+.trait-item.legendary{background:#2a2210}
 .trait-item.gone{opacity:.8}
 .trait-item summary{list-style:none;display:flex;align-items:center;gap:7px;padding:4px 8px;
   font-size:13px;color:var(--ink);cursor:pointer;user-select:none}
 .trait-item summary::-webkit-details-marker{display:none}
 .trait-item summary::marker{content:''}
 .trait-item.epic summary{color:var(--epic)}
+.trait-item.rare summary{color:#7cc4ff}
+.trait-item.legendary summary{color:#ffd166}
 .trait-item.gone summary{color:var(--faint);text-decoration:line-through}
 .trait-arrow{flex:none;width:10px;text-align:center;color:var(--muted);font-size:10px;
   transition:transform .15s ease}

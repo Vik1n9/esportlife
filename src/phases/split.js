@@ -14,7 +14,7 @@ import { unlockTrait } from '../engine/progression.js';
 import {
   entryRound, opponentOvr, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed,
 } from '../kernel/series.js';
-import { card, drawEvent, drawRoleplay, fusionBeats } from './shared.js';
+import { card, drawEvents, drawRoleplay, fusionBeats } from './shared.js';
 
 export const kind = 'SPLIT';
 
@@ -39,7 +39,7 @@ export function* run(g, phase) {
     // 板凳沒有戰報，也沒有季後賽——位子被別人拿走了
     state.splitLog.push({ name: split.name, stat, finish: 'none', benched: true });
     yield* drawRoleplay(g, 'locker');
-    yield* drawEvent(g);
+    yield* drawEvents(g, 2);
     return;
   }
 
@@ -55,8 +55,8 @@ export function* run(g, phase) {
   state.champPoints += pointsFor(finish);
   state.splitLog.push({ name: split.name, stat, finish });
 
-  // 每個賽段各抽一張事件卡——賽段變多，人生的岔路也跟著變多
-  yield* drawEvent(g);
+  // 每個賽段抽兩張事件卡——類 roguelike，觸發頻率提高，人生岔路更多
+  yield* drawEvents(g, 2);
 }
 
 /**

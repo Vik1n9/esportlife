@@ -1,9 +1,13 @@
 /**
- * 基礎特質（可被合成消耗）。純資料。
+ * 通用特質（合成系統的最底層「小件」）與稀有特質（由通用合成）。
+ * 純資料。
  *
  * `effects` 是特質對遊戲數值的全部影響，由 `kernel/modifiers.js` 統一查詢。
  * 這樣新增或調整一個特質只需要改這個檔——舊版把效果寫成散在十個引擎檔裡的
  * `if (state.traits.xxx)`，改一個特質要先把它找出來。
+ *
+ * 合成分四階，概念取自 LoL 的道具合成：通用（小件）→ 稀有 → 史詩 → 傳說（終極裝）。
+ * 通用與稀有住在 traits.js，史詩與傳說住在 epics.js，配方表見 epics.js 的 `FUSIONS`。
  *
  * 效果的四種寫法：
  *   key: 5                → 加法，累加所有來源
@@ -108,5 +112,63 @@ export const BASE_TRAITS = {
       contractCap: { cap: 0.9 }, contractCapShort: { cap: 0.95 },
       verdictRepRisk: 15, offerPenalty: true,
     },
+  },
+  grinder: {
+    name: '肝帝', desc: '訓練狂魔，成長 ×1.15，但更容易操到受傷',
+    effects: { growthMult: { mul: 1.15 }, injuryAdder: 6 },
+  },
+  meme: {
+    name: '梗王', desc: '自帶流量，梗圖常客，代言收入提升',
+    effects: { endorsement: { mul: 1.1 } },
+  },
+  camera: {
+    name: '鏡頭感', desc: '鏡頭前從不怯場，直播與代言兩相宜',
+    effects: { endorsement: { mul: 1.15 } },
+  },
+  guardian: {
+    name: '守護者', desc: '願意為隊友扛，隊友戰力小幅提升',
+    effects: { teamLead: { floor: 3 }, verdictChemRisk: -10 },
+  },
+};
+
+/**
+ * 稀有特質（合成產物，可再被合成）。由 2 個「人格／媒體」類通用特質合成。
+ *
+ * 這裡刻意只用不佔用史詩素材的通用特質（人氣、膠水、獨狼、神主牌，以及新增的
+ * 肝帝／梗王／鏡頭感／守護者）——史詩配方吃的都是「競技表現」類通用特質，兩池
+ * 不重疊，稀有與史詩才能同時成立，不會互相搶素材（合成樹見 `epics.js` 的 FUSIONS）。
+ */
+export const RARE_TRAITS = {
+  machine: {
+    name: '練功機器', desc: '成長 ×1.2，免疫享樂類誘惑',
+    effects: { growthMult: { mul: 1.2 }, indulgentImmune: true },
+  },
+  traffic: {
+    name: '流量密碼', desc: '自帶話題，代言收入提升',
+    effects: { endorsement: { mul: 1.15 }, contractAdd: 0.03 },
+  },
+  star: {
+    name: '明星選手', desc: '代言與續約都吃香',
+    effects: { endorsement: { mul: 1.2 }, contractFloor: { floor: 1.15 } },
+  },
+  pillar: {
+    name: '定海神針', desc: '隊友大幅提升，默契不會崩',
+    effects: { teamLead: { floor: 4 }, verdictChemShield: true },
+  },
+  og: {
+    name: '元老', desc: '隊友小幅提升，續約更有本錢',
+    effects: { teamLead: { floor: 4 }, contractFloor: { floor: 1.1 } },
+  },
+  icon: {
+    name: '傳奇偶像', desc: '代言收入提升，風評只進不退',
+    effects: { endorsement: { mul: 1.15 }, repShield: true },
+  },
+  joker: {
+    name: '諧星', desc: '自帶流量，代言收入提升',
+    effects: { endorsement: { mul: 1.15 } },
+  },
+  watchdog: {
+    name: '高冷守護', desc: '我行我素但罩得住隊友',
+    effects: { teamLead: { floor: 3 }, verdictChemRisk: -10 },
   },
 };

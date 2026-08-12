@@ -8,13 +8,14 @@ import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS } from '../data/attri
 import { ROLE_NAMES, SKILL_NAMES } from '../data/skills.js';
 import { HEROES } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
-import { EPIC_TRAITS } from '../data/epics.js';
-import { BASE_TRAITS } from '../data/traits.js';
+import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
+import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { effectiveOvr, ovr, patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { mentalSummary } from '../engine/mental.js';
 import { coachBonus, matesAverage } from '../kernel/strength.js';
+import { lookupTrait } from '../kernel/modifiers.js';
 import { byId, escapeHtml } from './dom.js';
 
 let root = null;
@@ -89,21 +90,23 @@ function heroRows(state) {
 
 /** 依名稱反查特質的說明（fusedAway 只留名稱，要從兩張表找回 desc） */
 function traitDescByName(name) {
-  for (const table of [BASE_TRAITS, EPIC_TRAITS]) {
+  for (const table of [BASE_TRAITS, RARE_TRAITS, EPIC_TRAITS, LEGENDARY_TRAITS]) {
     const t = Object.values(table).find((x) => x.name === name);
     if (t) return t.desc;
   }
   return '';
 }
 
-/** 個人特質：小箭頭可展開，顯示該特質的作用（不顯示獲取來源）。 */
+/** 個人特質：小箭頭可展開，顯示該特質的作用（不顯示獲取來源）。高階特質排前面。 */
 function traitRows(state) {
   const rows = [];
-  for (const key of Object.keys(state.epic)) {
-    if (state.epic[key]) rows.push({ name: EPIC_TRAITS[key].name, desc: EPIC_TRAITS[key].desc, cls: 'epic' });
-  }
-  for (const key of Object.keys(state.traits)) {
-    if (state.traits[key]) rows.push({ name: BASE_TRAITS[key].name, desc: BASE_TRAITS[key].desc, cls: '' });
+  for (const tier of ['legendary', 'epic', 'rare', 'traits']) {
+    const held = tier === 'traits' ? state.traits : state[tier] || {};
+    for (const [key, isHeld] of Object.entries(held)) {
+      if (!isHeld) continue;
+      const t = lookupTrait(key);
+      rows.push({ name: t.name, desc: t.desc, cls: tier === 'traits' ? '' : tier });
+    }
   }
   for (const name of state.fusedAway) {
     rows.push({ name, desc: traitDescByName(name), cls: 'gone' });

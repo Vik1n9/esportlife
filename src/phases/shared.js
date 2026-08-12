@@ -13,7 +13,7 @@ import { EPIC_TRAITS } from '../data/epics.js';
 import { adjustAttr, skillValue } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
 import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progression.js';
-import { flag } from '../kernel/modifiers.js';
+import { flag, lookupTrait, traitName, traitTier } from '../kernel/modifiers.js';
 
 export const card = (tone, title, body) => ({ type: 'card', tone, title, body });
 
@@ -24,7 +24,51 @@ function scaleAmount(v, mult) {
 }
 
 /** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效 */
-const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk'];
+const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk',
+  'grinder', 'meme', 'camera', 'guardian'];
+
+/** flag 名稱 → 對應的特質鍵。事件卡的 trait 解鎖都走這張表。 */
+const FLAG_TRAIT = {
+  popular: 'popular', composure: 'composure', leader: 'leader', laneking: 'laneking',
+  macroPoint: 'macroG', grinder: 'grinder', meme: 'meme', camera: 'camera',
+  guardian: 'guardian', tiltRisk: 'tilt',
+};
+
+/** 一張事件卡所有選項／結果可能解鎖的特質鍵。純資料推導，不放邏輯。 */
+function unlockableTraits(ev) {
+  const set = new Set();
+  const collect = (flags) => {
+    if (!flags) return;
+    for (const [f, t] of Object.entries(FLAG_TRAIT)) if (flags[f]) set.add(t);
+  };
+  collect(ev.good.flags); collect(ev.bad.flags);
+  for (const o of ev.options) {
+    collect(o.flags);
+    if (o.on) { collect(o.on.good.flags); collect(o.on.bad.flags); }
+  }
+  return [...set];
+}
+
+/**
+ * 目前「還抽得到」的事件卡。
+ *
+ * 類 roguelike：事件卡會**耗盡**。一張卡能解鎖的特質若全部都已取得（持有或已合成
+ * 消耗），這張卡就摸不到了——玩家不會被同一張「最初教會他一招」的卡反覆餵食，反而
+ * 有機會碰到更多種不同的事件。純敘事卡（不解鎖任何特質）永遠在池裡。
+ *
+ * 另外追蹤最近出過的卡，避免短時間內連著重複。兩層都只縮減「抽選範圍」，不會把池子
+ * 抽空——耗盡後自動放回全池。
+ */
+function availableEvents(state) {
+  const base = EVENT_CARDS.filter((ev) => {
+    const traits = unlockableTraits(ev);
+    if (!traits.length) return true;
+    return traits.some((t) => !state.traits[t] && !state.fusedAway.includes(traitName(t)));
+  });
+  const recent = state.recentEvents || [];
+  const fresh = base.filter((ev) => !recent.includes(ev.id));
+  return (fresh.length ? fresh : base);
+}
 
 function optionNote(opt, bonus) {
   const odds = clamp((opt.odds ?? 50) + bonus, 5, 95);
@@ -38,7 +82,9 @@ function optionNote(opt, bonus) {
  */
 export function* drawEvent(g) {
   const { state, rng } = g;
-  const ev = rng.pick(EVENT_CARDS);
+  const ev = rng.pick(availableEvents(state));
+  const recent = state.recentEvents || [];
+  state.recentEvents = [...recent, ev.id].slice(-6);
   const oddsBonus = flag(state, 'giftedDice') ? 20 : 0;
 
   yield card('', ev.name, ev.prompt);
@@ -54,7 +100,9 @@ export function* drawEvent(g) {
 
   const immune = flag(state, 'indulgentImmune') && ev.kind === 'indulgent';
   const good = immune || rng.chance(clamp((opt.odds ?? 50) + oddsBonus, 5, 95));
-  const outcome = good ? ev.good : ev.bad;
+  // 選項若帶自己的 `on` 結果，就用自己的 good/bad——例如「關台／休息／不看」這類
+  // 跟卡片主軸相反的路，套卡片的通用結果會顯得牛頭不對馬嘴。
+  const outcome = opt.on ? (good ? opt.on.good : opt.on.bad) : (good ? ev.good : ev.bad);
   const mult = good ? (opt.gain ?? 1) : (opt.loss ?? 1);
   const allowTraits = opt.traits !== false;
 
@@ -85,6 +133,10 @@ export function* drawEvent(g) {
   if (flags.leader && unlockTrait(state, 'leader')) unlocked.push('leader');
   if (flags.laneking && state.age < 28 && unlockTrait(state, 'laneking')) unlocked.push('laneking');
   if (flags.macroPoint && skillValue(state, 'macro') >= 60 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
+  if (flags.grinder && unlockTrait(state, 'grinder')) unlocked.push('grinder');
+  if (flags.meme && unlockTrait(state, 'meme')) unlocked.push('meme');
+  if (flags.camera && unlockTrait(state, 'camera')) unlocked.push('camera');
+  if (flags.guardian && unlockTrait(state, 'guardian')) unlocked.push('guardian');
   if (flags.tiltRisk && !flag(state, 'tiltImmune') && rng.chance(25)) {
     if (unlockTrait(state, 'tilt')) unlocked.push('tilt');
   }
@@ -110,6 +162,11 @@ export function* drawEvent(g) {
       `隱藏素質${key === 'tilt' ? '出現' : '解鎖'}：${t.name}`, t.desc);
   }
   if (unlocked.length) yield* fusionBeats(g);
+}
+
+/** 連抽 n 張事件卡（不解鎖特質的事件也算，純粹增加人生岔路）。 */
+export function* drawEvents(g, n) {
+  for (let i = 0; i < n; i++) yield* drawEvent(g);
 }
 
 /* ================= 扮演 ================= */
@@ -205,8 +262,11 @@ export function* personaBeats(g) {
 export function* fusionBeats(g) {
   const gained = checkFusions(g.state);
   for (const key of gained) {
-    yield card('gold', '？？ 覺醒',
-      `你感到體內某股更深沉的力量徹底覺醒……<b class="hl">${EPIC_TRAITS[key].name}</b>` +
-      `<br><span class="muted">${EPIC_TRAITS[key].desc}</span>`);
+    const t = lookupTrait(key);
+    const tier = traitTier(key);
+    const tone = tier === 'legendary' ? 'legendary' : tier === 'rare' ? 'info' : 'gold';
+    yield card(tone, '？？ 覺醒',
+      `你感到體內某股更深沉的力量徹底覺醒……<b class="hl">${t.name}</b>` +
+      `<br><span class="muted">${t.desc}</span>`);
   }
 }

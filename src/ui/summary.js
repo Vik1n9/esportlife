@@ -9,10 +9,12 @@ import { el, escapeHtml } from './dom.js';
 import { renderLoose } from './log.js';
 
 export function renderSummary({ state, rng, tier, seed, appVersion }) {
-  const { base, epic } = activeTraitNames(state);
+  const { common, rare, epic, legendary } = activeTraitNames(state);
   const traits = [
+    ...legendary.map((n) => `<span class="tag legendary">${n}</span>`),
     ...epic.map((n) => `<span class="tag epic">${n}</span>`),
-    ...base.map((n) => `<span class="tag">${n}</span>`),
+    ...rare.map((n) => `<span class="tag rare">${n}</span>`),
+    ...common.map((n) => `<span class="tag">${n}</span>`),
     ...state.fusedAway.map((n) => `<span class="tag gone">${n}</span>`),
   ].join('') || '（無）';
 

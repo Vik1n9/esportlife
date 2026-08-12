@@ -1,9 +1,9 @@
 /** 受傷、版本改動、英雄專精、特質解鎖與合成。 */
 import { clamp } from '../core/rng.js';
 import { HEROES, PATCH_THEMES } from '../data/heroes.js';
-import { BASE_TRAITS } from '../data/traits.js';
-import { EPIC_TRAITS, FUSIONS } from '../data/epics.js';
-import { capOf, factor, flag, traitName } from '../kernel/modifiers.js';
+import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
+import { EPIC_TRAITS, FUSIONS, LEGENDARY_TRAITS } from '../data/epics.js';
+import { bonus, capOf, factor, flag, TIER_STORES, traitName } from '../kernel/modifiers.js';
 
 /* ---------------- 受傷 ---------------- */
 
@@ -13,6 +13,7 @@ export function injuryProbability(state) {
   else if (state.age >= 30) p += 6;
   p = capOf(state, 'injuryRate', p);
   if (flag(state, 'injuryImmune')) return 0;
+  p += bonus(state, 'injuryAdder');   // 肝帝這類自爆系：練得多也傷得多
   p += (state.tempInjuryRisk || 0);
   return clamp(p, 3, 95);
 }
@@ -102,21 +103,25 @@ export function unlockTrait(state, key) {
 export function checkFusions(state) {
   const gained = [];
   for (const recipe of FUSIONS) {
-    if (state.epic[recipe.out]) continue;
-    if (!recipe.need.every((k) => state.traits[k])) continue;
-    for (const k of recipe.need) {
-      delete state.traits[k];
-      const n = BASE_TRAITS[k].name;
+    const to = TIER_STORES[recipe.outTier];
+    if (to.store(state)[recipe.out]) continue;
+    if (!recipe.need.every(([tier, key]) => TIER_STORES[tier].store(state)[key])) continue;
+    for (const [tier, key] of recipe.need) {
+      const { store, table } = TIER_STORES[tier];
+      delete store(state)[key];
+      const n = table()[key].name;
       if (!state.fusedAway.includes(n)) state.fusedAway.push(n);
     }
-    state.epic[recipe.out] = true;
+    to.store(state)[recipe.out] = true;
     gained.push(recipe.out);
   }
   return gained;
 }
 
 export function activeTraitNames(state) {
-  const base = Object.keys(state.traits).filter((k) => state.traits[k]).map((k) => BASE_TRAITS[k].name);
+  const common = Object.keys(state.traits).filter((k) => state.traits[k]).map((k) => BASE_TRAITS[k].name);
+  const rare = Object.keys(state.rare).filter((k) => state.rare[k]).map((k) => RARE_TRAITS[k].name);
   const epic = Object.keys(state.epic).filter((k) => state.epic[k]).map((k) => EPIC_TRAITS[k].name);
-  return { base, epic };
+  const legendary = Object.keys(state.legendary).filter((k) => state.legendary[k]).map((k) => LEGENDARY_TRAITS[k].name);
+  return { common, rare, epic, legendary, base: common };
 }
