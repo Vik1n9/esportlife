@@ -37,7 +37,11 @@ tftactics.gg（team-builder 頁計算樣式），目標是「放在該站其中�
   主要＝#4080b0 實底白字 600＋.08em 字距（同 SHARE）；seg 選中＝#227aad。
 - 輸入：bg 底、無邊框、radius 3px；focus＝2px 藍環。
 - seg 選中＝#227aad 白字；骰子 active＝金底深字；加點＝藍、減點＝raise。
-- 能力列：surface 容器；軌道 bg、填充金、潛力刻度 2px 白。
+- 屬性／技能列（`.abrow`）：surface 容器＋1px 髮絲線；軌道 bg、填充金、潛力刻度 2px 白；
+  數值等寬 22px。加點時可按（`:active` 換 raise 底、達上限 `.capped` 降透明度 45%）；
+  唯讀時掛 `.static`（游標不變、無按壓回饋）——玩家碰得到的與碰不到的必須看得出來。
+- 可展開列（`.attr-item`／`.trait-item`，`<details>`）：summary 前置 `▸` 箭頭，
+  `[open]` 時旋轉 90°；說明文字縮排 22px 對齊箭頭右緣。原生 marker 一律關掉。
 - 狀態格：raise 底 3px，等寬數字 20px/700。
 - 標籤：raise 底 3px；epic 紫字深紫底。
 - 底部抽屜：surface、4px 上圓角、髮絲線分隔；h3 帶 2px 藍底線。

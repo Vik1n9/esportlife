@@ -18,7 +18,7 @@ export const order = 2;
 
 /** 出生時就固定下來、之後不該因為人生走向而改變的欄位 */
 const birthOf = (s) => JSON.stringify({
-  ability: s.ability, potential: s.potential, mental: s.mental,
+  attr: s.attr, potential: s.potential, mental: s.mental,
   heroPool: s.heroPool, team: s.team, role: s.role,
 });
 
@@ -44,8 +44,11 @@ export async function run({ check }) {
   const digests = lives.map((r) => JSON.stringify(r.state));
   check('同一個天賦跑出三段不同的人生', new Set(digests).size === 3,
     lives.map((r) => `${r.state.year}/${r.state.proYears}季`).join(' vs '));
+  // 潛力天花板是出生就固定、整段人生只讀不寫的欄位，用它驗「天賦沒被人生改寫」。
+  // 屬性本身會隨加點成長，不能拿完賽的 state 去比。
+  const talentCeiling = JSON.stringify(createState({ name: 'TEST', role: 'MID', seed: 'talent' }).potential);
   for (const r of lives) {
-    check('每一段人生的天賦都還是同一份', birthOf(createState({ name: 'TEST', role: 'MID', seed: 'talent' })) !== undefined);
+    check('每一段人生的潛力天花板都還是同一份', JSON.stringify(r.state.potential) === talentCeiling);
     check('人生會走到結束', r.state.done);
   }
 
