@@ -47,15 +47,26 @@ export async function run({ check, log, shared }) {
   });
 
   /*
-   * 兩種打法的差距怎麼衡量，在改成六屬性之後換了指標。
+   * 兩種打法的差距怎麼衡量，改成六屬性之後換過一次，四階特質合成之後再換一次。
    *
    * 九素質時代「平均分配」是災難（80 段裡 55 段淪為邊緣選手），但那個懲罰有一半來自
    * 每個位置有 2/9 的素質 OVR 權重為 0——平均分配等於把兩成的點直接丟掉。六屬性對
    * 每一路都有份量，那種「投錯格子」的浪費不存在了，而且權重和固定為 1、成本階梯是
-   * 凸的，數學上平均分配拿到的就是平均值，集中反而要付更貴的單價。所以舊的斷言
-   * （新手 0 座傳奇、新手的邊緣選手必須多於老手）在新模型下不可能成立，也不該成立。
+   * 凸的，數學上平均分配拿到的就是平均值，集中反而要付更貴的單價。
    *
-   * 留下來要守的是「加點仍然是個決策」：老手能穩定推到更高的巔峰，傳奇仍然罕見。
+   * 六屬性時代改守「傳奇數：新手不到老手的三分之一」。四階合成上路後這條也失效了——
+   * 傳說特質的配方吃的是事件特質與生涯條件，**取得方式與加點無關**，新手照樣拿得到。
+   * 而且 80 段裡傳奇只有個位數，比值門檻等於在量雜訊：實測掃過 growthMult ×1.6 到 ×4，
+   * 傳奇數是非單調的（5/2 → 2/3 → 5/3 → 5/4）。兩種打法的尾端本來就重疊：
+   * 最高屬性 ≥76 是老手 15/80 對新手 13/80，集中度中位數新手甚至略高。
+   *
+   * 換成**國際賽冠軍當量**。理由是這才是加點準度真正兌現的地方：常規賽門檻低，
+   * 練得糊也打得過；世界賽與 MSI 的對手強度是全聯盟頂端，位置戰力差幾點就會被吃掉。
+   * 這也是賽馬娘式養成的老規矩——後期賽事把門檻拉高，前期偷懶的配點在那裡才現形。
+   *
+   * 這個指標穩得多：三組獨立種子量到的比值是 1.92 / 1.69 / 1.88 倍，
+   * 而同樣三組的「生涯評分中位數」有兩組是新手贏，「國際賽出場數」只有 1.06～1.33 倍。
+   * 門檻取 1.4 倍，比實測最低的 1.69 留兩成餘裕。
    */
   const avgPeak = (style) => runs
     .filter((r) => r.style === style)
@@ -63,9 +74,17 @@ export async function run({ check, log, shared }) {
   const peakFocus = avgPeak('focus');
   const peakSpread = avgPeak('spread');
 
+  // 世界冠 2 ／ 世界亞 1 ／ MSI 冠 1。三種都是稀有事件，合成一個當量才不會被單一項的雜訊帶走
+  const intlCrowns = (style) => runs
+    .filter((r) => r.style === style)
+    .reduce((t, r) => t + r.state.worldsWins * 2 + r.state.worldsFinals + r.state.msiWins, 0) / perStyle;
+  const intlFocus = intlCrowns('focus');
+  const intlSpread = intlCrowns('spread');
+
   check('老手打法：傳奇不得超過三成（舊版是人人傳奇）', tierCounts.focus[0] <= perStyle * 0.3, `傳奇 ${tierCounts.focus[0]}/${perStyle} 段`);
-  check('新手打法：傳奇要罕見（不到老手的三分之一）',
-    tierCounts.spread[0] * 3 <= tierCounts.focus[0], `傳奇 新手 ${tierCounts.spread[0]} vs 老手 ${tierCounts.focus[0]}`);
+  check('加點在頂端才兌現：老手的國際賽冠軍當量至少是新手的 1.4 倍',
+    intlFocus >= intlSpread * 1.4,
+    `老手 ${intlFocus.toFixed(2)} vs 新手 ${intlSpread.toFixed(2)}（${(intlFocus / (intlSpread || 1)).toFixed(2)} 倍）`);
   check('加點仍是決策：老手的平均巔峰 OVR 至少高 1.5',
     peakFocus - peakSpread >= 1.5, `${peakFocus.toFixed(1)} vs ${peakSpread.toFixed(1)}`);
   check('五個等第都出現得到', TIER_NAMES.every((_, i) => tierCounts.focus[i] + tierCounts.spread[i] > 0), JSON.stringify(tierCounts));
