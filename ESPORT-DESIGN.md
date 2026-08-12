@@ -1,6 +1,6 @@
 # 電競人生：LoL 職業選手生涯模擬 — 設計文件（ESPORT-DESIGN）
 
-> 本文件為 v3.0.0 的完整設計藍圖：時代演進、賽區階梯、能力/英雄/版本、國際賽、轉會/解散/強迫退休、隱藏特質與特質合成。
+> 本文件為 v4.0.0 的完整設計藍圖：時代演進、賽區階梯、屬性/技能/英雄/版本、國際賽、轉會/解散/強迫退休、隱藏特質與特質合成。
 >
 > 程式碼架構（分層、流程機、決定論、存檔）另見 `ARCHITECTURE.md`；
 > 每一條規則對應到哪個檔案，見文末〈十三、規則對應表〉。
@@ -11,9 +11,9 @@
 
 將原棒球生涯模擬改造為 **LoL 電競選手生涯模擬**，保留核心引擎：
 
-- 種子化 RNG（同種子＋同選擇＝同一段人生）
+- 種子化 RNG，但**種子只決定天賦**：出生流由種子餵，人生流每局隨機抽（見〈ARCHITECTURE 四〉）
 - 20–80 戰隊評分表（球探量表沿用）
-- 三階段季循環：訓練（擲骰加點）→ 賽季（事件＋傷病＋數據）→ 休賽期（薪資＋季後賽＋轉會/FA）
+- 三階段季循環：訓練（擲骰加點）→ 賽季（逐賽段的例行賽＋季後賽＋事件卡，MSI 插在賽季中段）→ 休賽期（世界賽＋薪資＋轉會/FA）
 - 隱藏特質、成就、分享結算圖
 
 **生涯預設起點**：S2（2012 年）、16 歲。對照 Faker 型頂級選手可一路打到 30+。
@@ -198,8 +198,14 @@
 
 ## 五、比賽模擬（LoL）
 
-- 每季生成：`G、W、L、K/D/A、CS、VISION、DMG%、SOLO、MVP`。
+- 每季生成：`G、W、L、K/D/A、CS、VISION、DMG%、SOLO、MVP`，逐賽段結算。
 - 勝率＝團隊強度（玩家 OVR ×0.55 ＋ 隊友 ×0.35 ＋ 教練加成 ＋ 體力）vs 聯盟基準 ＋ 隨機。
+- **先發／板凳是二元的**：LoL 是五個固定先發，隊伍打幾場你就打幾場。體力低不會讓你
+  少打，只會讓表現下滑（`formFactor` 0.85–1.06）。真正讓你少打的只有兩件事——
+  被下放板凳／二隊（打不到隊伍平均、默契見底、隊伍簽了同位置的人、傷癒回歸位子被頂），
+  以及傷勢缺席幾週（`SPLIT_WEEKS = 12`，換算成出賽比例）。
+- **外援名額**：LCK／LPL／LEC／LCS 每隊只能上 2 名外籍選手。玩家是主場賽區出身，
+  簽進任何海外賽區都會佔掉一個名額——出海不是純實力函式，你得強到讓對方把名額空出來。
 - 數據基線依位置（ADC 吃 DMG/KDA、SUP 吃 VISION/A、JG/TOP/MID 吃 SOLO 等）。
 - **隊友**：每隊玩家＋4 名虛構名隊友（OVR 依聯盟基準生成）；`團隊領袖`＋5、`更衣室傳奇`＋6。
 - **教練**：`戰術大師/心理調適/訓練狂/營運鬼才/溝通大師`，提供 OVR 加成（`更衣室傳奇` ×1.3）。
@@ -208,11 +214,28 @@
 
 ## 六、國際賽（MSI／世界賽）
 
-- **MSI**（2015+）：例行表現佳（OVR≥52）被徵召，可婉拒；列管徵召（近 3 年）無法拒絕。名次：冠軍/亞軍/四強/小組，依名次給能力點；國際賽消耗使下季受傷風險 +10%（`國家隊王牌` 免疫）。
-- **世界賽**：主場賽區出線機率較高，海外需季後賽冠軍加持。賽制依時代：
-  - 2023 前：小組→淘汰。
-  - 2023 起（Swiss）：入圍賽→Swiss→八強→四強→決賽。
-- 奪冠即頒發世界賽冠軍＋FMVP（能力點＋10），並**改寫史實解散事件**（見下）。
+兩個舞台都是**俱樂部賽事**：門票發給戰隊，不發給個人。選手沒有報名、沒有徵召、
+也沒有婉拒的餘地——你的隊伍去，你就去；隊伍去不了，你再強也只能在家看。
+
+> v3 把 MSI 寫成「國家隊徵召」：資格看個人 OVR、可以婉拒、打完累積傷病風險。
+> 那是從棒球的 WBC 模型搬過來的，v4 整套拆掉。
+
+- **MSI**（2015+，2020 因 COVID-19 停辦）：**賽段冠軍**帶整隊去；2023 起主流賽區
+  出兩隊，所以春季賽亞軍也去得了。賽制 2022 前小組賽＋淘汰、2023 起雙敗淘汰。
+  MSI 冠軍替自己的賽區多掙一張世界賽門票（`slotBonus`）。歸位在**賽季中段**，
+  接在哪個賽段之後由賽區自己的 `msiAfter` 決定（2023 年 LEC 三賽段，接第二段）。
+- **世界賽門票**：不是擲骰，是身分。
+  - 種子序來源隨時代切換：2012 只有冠軍去得了；2013–2022 冠軍點數制（全年各賽段
+    季後賽名次累積）；2023 起改看**最後一個賽段**的季後賽名次。
+  - 席位數寫在各賽區檔，隨時代變（不是舊版寫死的「主場 2、其餘 4」）。
+  - 2013–2022 該賽區的**最後一張門票要打地區資格賽**（LCK Regional Finals／LCS Gauntlet）。
+- **世界賽賽制**：2012–2022 四隊小組雙循環；2017 起低種子先打入圍賽；2023 起
+  Swiss（三勝晉級、三敗淘汰）＋八強→四強→決賽。
+- **逐輪出比分**：兩個舞台都走 `kernel/series.js` 的 BO 系列與 `kernel/groups.js`
+  的小組循環／Swiss，每一輪都有比分，不是一次擲骰吐結果。
+- **名次獎勵**：屬性點＋心理值（大心臟／知名度／風評），世界賽的幅度大於 MSI，
+  走到哪一輪都留得下東西，止步也給。
+- 奪下世界賽冠軍即頒發冠軍＋FMVP，並**改寫史實解散事件**（見下）。
 
 ---
 
@@ -309,14 +332,15 @@
 | 分數 | 評價 |
 |---|---|
 | ≥3000 | 傳奇 |
-| ≥1800 | 歷史級球星 |
+| ≥1800 | 歷史級選手 |
 | ≥900 | 優秀職業選手 |
 | ≥350 | 稱職選手 |
 | <350 | 邊緣選手 |
 
 > v2 把累積 K／SOLO 直接乘上大係數（K×1.5、SOLO×2），任何撐滿十幾季的選手都能輕鬆
 > 破 2200 的「傳奇」門檻。v3 壓低「量」的權重、拉高榮譽與巔峰 OVR 的權重。
-> `tests/headless.mjs` 會實測分布：老手打法約 20% 傳奇、新手打法 0%。
+> 勝差另有 `max(-200, …)` 的單賽段地板，避免一段爛賽季把整份生涯拖到負值。
+> `tests/regression/smoke.mjs` 會實測分布，目前 160 段的基準見 `docs/v4/01-穩定點.md`。
 
 ---
 
@@ -334,24 +358,33 @@
 開局畫面改「召喚峽谷」風格（水晶圖示，取代棒球版殘留的縫線）。
 
 **選手資料面板**（右上 ☰，隨時可開）：
-能力值與潛力刻度、英雄池與專精場次、目前版本與版本落差、隊友名單與教練加成、
-合約狀態、已覺醒的隱藏素質（含被合成消耗的劃線紀錄）、榮譽紀錄。
-合成配方在任何介面都不揭露。
+六屬性與潛力刻度（可展開看該屬性在峽谷內的作用）、由屬性導出的位置技能（唯讀，
+依對本位置 OVR 的影響由重到輕排序）、英雄池與專精場次、目前版本與版本落差、
+隊友名單與教練加成、合約狀態、已覺醒的隱藏素質（含被合成消耗的劃線紀錄）、榮譽紀錄。
+合成配方在任何介面都不揭露；心理值只出粗略標籤，不給數字。
 
 ---
 
 ## 十一、測試方針
 
-引擎不依賴 DOM，因此以 `tests/headless.mjs` 在 Node 中做自動回歸（`node tests/headless.mjs`）：
+引擎不依賴 DOM，因此以 `tests/run.mjs` 在 Node 中做自動回歸（`npm test`）。測試分成
+四區，runner 自動掃描目錄，加一個 suite 不必改 runner：
 
-1. **冒煙**：16 組種子 × 五路 × 兩種打法＝160 段完整生涯，不得拋例外或無限迴圈。
-2. **不變式**：能力值落在 1..cap、版本落差 0..10、英雄池 ≤8、合約年限 ≥0、年齡 ≤41、薪資 ≥0。
-3. **種子決定論**：同種子＋同策略跑兩次，整顆 state 的 JSON 必須逐字相同，亂數進度也相同。
-4. **評價分布**：老手打法「傳奇」不得超過三成；新手打法不得出現「傳奇」；兩種打法要拉得開差距；五個等第都要出現得到。
-5. **特質合成**：配方命中、基礎特質被消耗、被消耗的特質不會重新解鎖。
-6. **版本落差方向**：改版讓落差變重、補習讓落差變輕。
-7. **自由市場**：頂尖選手一定收得到海外報價（不會被強制降級回主場）。
-8. **解散名單**：任一年度的簽約名單都不含當年（含）以前已解散的戰隊。
+1. **冒煙**（regression）：16 組種子 × 五路 × 兩種打法＝160 段完整生涯，不得拋例外或無限迴圈。
+2. **不變式**（regression）：屬性值落在 1..cap、版本落差 0..10、英雄池 ≤8、合約年限 ≥0、年齡 ≤41、薪資 ≥0。
+3. **種子界線**（regression）：同種子＝同天賦；同天賦跑三個人生種子要長成三段不同的人生；
+   `(出生種子, 人生種子, 選擇)` 三者相同則結果逐字相同，亂數進度也相同。
+4. **黃金種子快照**（regression）：160 段生涯的 state 雜湊與可讀摘要存 `golden.json`。
+   純重構必須逐位元一致；有意的賽制改動用 `npm run test:golden` 重新 baseline，並在
+   commit 訊息說明差異來源。
+5. **評價分布**（regression）：老手打法「傳奇」不得超過三成；新手打法的傳奇不到老手的
+   三分之一；老手的平均巔峰 OVR 至少高 1.5；五個等第都要出現得到。
+   （六屬性改制後換過指標，原因見 `smoke.mjs` 的長註解與 `WORKLOG.md`。）
+6. **kernel**：BO 系列與種子序、小組賽與 Swiss、特質合成、版本落差方向、心理值揭露界線、
+   扮演卡不得帶屬性欄位、聯賽階梯與分區名稱。
+7. **phases**：業餘出路與挖角時機、先發板凳與傷勢缺席、自由市場門檻、轉會窗口與外援名額。
+8. **history（史實斷言）**：2020 無 MSI、2022 不得用 Swiss、2025 不得用冠軍點數、席位數逐年、
+   2013 不得出現後來才成立的二隊隊名、史實解散與簽約名單過濾。
 
 人工驗證項目：時代銜接（GPL→LMS→PCS→LCP、MSI 2015 起、2023 Swiss）、手機 UI 可讀性、
 分享圖版面、存檔續玩。
@@ -360,7 +393,7 @@
 
 ## 十二、Assumptions
 
-- 純前端、零建置的 ES 模組（`src/` 下分 `core`／`data`／`engine`／`ui`），GitHub Pages 直接部署。
+- 純前端、零建置的 ES 模組（`src/` 下分 `core`／`data`／`kernel`／`phases`／`engine`／`ui`），GitHub Pages 直接部署。
   本機開發需起 HTTP 伺服器（`file://` 會被 CORS 擋）。
 - 真實戰隊名、隊友虛構名、LoL 英雄名為同人引用。
 - 英雄池與版本採現代快照；時代僅影響聯賽／名額／薪資／賽制。
@@ -372,14 +405,15 @@
 
 | 設計章節 | 程式位置 |
 |---|---|
-| 二、時代演進 | `src/data/world.js` → `eraOf()`、`LEAGUES`、`TEAMS_*` |
-| 三、能力系統 | `src/data/abilities.js`（權重、基線）＋ `src/engine/abilities.js`（OVR、成本、衰退） |
-| 四、英雄池與版本 | `src/engine/progression.js` → `applyPatch()`／`trainHeroes()`；懲罰在 `engine/abilities.js` → `patchPenalty()` |
-| 五、比賽模擬 | `src/engine/season.js`、隊伍強度在 `src/engine/team.js` |
-| 六、國際賽 | `src/engine/international.js` |
-| 七、解散與自由市場 | `src/engine/market.js`＋`src/engine/team.js` → `teamsOf()` 的解散過濾 |
-| 八、特質與合成 | `src/data/traits.js`（配方）＋ `src/engine/progression.js` → `checkFusions()` |
-| 九、成就與事件 | `src/data/events.js`＋`src/engine/game.js` → `awards()`／`drawEvent()` |
-| 九之二、生涯評分 | `src/engine/career.js` |
+| 二、時代演進 | `src/data/eras.js` → `eraOf()`；`src/data/leagues.js`；賽區實體在 `src/data/regions/*.js`（`splitsOf`／`worldsSlotsOf`／`importSlotsOf`／`teamNamesOf` 的註冊表在 `regions/index.js`） |
+| 三、屬性與技能 | `src/data/attributes.js`＋`src/data/skills.js`（權重、基線）＋ `src/engine/attributes.js`（`ovr()`／`investAttr()`／`applyAgeDecline()`） |
+| 四、英雄池與版本 | `src/engine/progression.js` → `applyPatch()`／`trainHeroes()`；懲罰在 `src/engine/attributes.js` → `patchPenalty()` |
+| 五、比賽模擬 | `src/engine/season.js`；隊伍強度在 `src/kernel/strength.js`；先發板凳與傷勢缺席在 `src/engine/lineup.js`；外援名額在 `src/engine/imports.js` |
+| 六、國際賽 | 資料 `src/data/formats/msi.js`／`worlds.js`；流程 `src/phases/msi.js`／`worlds.js`；BO 系列 `src/kernel/series.js`、小組賽與 Swiss `src/kernel/groups.js` |
+| 七、解散與自由市場 | `src/data/disband.js`＋`src/engine/market.js`＋`src/engine/roster.js` → `teamsOf()` 的解散過濾；轉會在 `src/phases/transfer.js` |
+| 八、特質與合成 | `src/data/traits.js`／`src/data/epics.js`（配方與效果）＋ `src/engine/progression.js` → `checkFusions()`；效果查詢一律走 `src/kernel/modifiers.js` |
+| 九、成就與事件 | `src/data/events.js`（事件卡）／`src/data/roleplay.js`（扮演卡）＋ `src/phases/shared.js`／`src/phases/seasonEnd.js` |
+| 九之二、生涯評分 | `src/engine/career.js` → `careerScore()`／`careerTier()` |
 | 十、UI | `src/ui/`、樣式在 `src/styles.css` |
-| 年度流程本身 | `src/engine/game.js` → `careerFlow()`（generator，見 `ARCHITECTURE.md`） |
+| 心理／性格軸 | `src/data/mental.js`＋`src/engine/mental.js` |
+| 年曆與年度流程 | `src/data/formats/calendar.js`（一年有哪些賽事）＋`src/engine/calendar.js`（展開）＋`src/engine/game.js` → `careerFlow()`（generator，見 `ARCHITECTURE.md`） |

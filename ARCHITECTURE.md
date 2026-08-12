@@ -25,7 +25,8 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   │   ├── worlds.js    #   種子序來源、入圍賽、席位
 │   │   │   └── playoffs.js  #   輪次 / BO 數 / 冠軍點數
 │   │   ├── traits.js epics.js   # 特質：名稱 + 描述 + 效果（集中）
-│   │   ├── abilities.js mental.js roleplay.js events.js
+│   │   ├── attributes.js skills.js  # 六屬性 + 由屬性導出的十三項技能權重
+│   │   ├── mental.js roleplay.js events.js
 │   │   └── eras.js leagues.js teams.js coaches.js heroes.js disband.js
 │   │
 │   ├── kernel/              # ★ 被多個階段共用，改動最少
@@ -48,7 +49,7 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   ├── lineup.js        #   先發／板凳／傷勢缺席
 │   │   ├── imports.js       #   外援名額
 │   │   ├── roster.js        #   隊友名單、隊名、階段顯示名
-│   │   ├── season.js abilities.js progression.js mental.js
+│   │   ├── season.js attributes.js progression.js mental.js
 │   │   ├── market.js career.js retire.js
 │   │
 │   └── ui/                  # 只負責畫面

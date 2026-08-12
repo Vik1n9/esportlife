@@ -1,5 +1,24 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-12 — v4 穩定點：把「現在是什麼樣子」釘死一次
+
+- **方向**：v4 一口氣改掉賽制、種子語義與養成模型三件事，散在 CHANGELOG 與 WORKLOG
+  的敘述已經追不上現況。新增 `docs/v4/01-穩定點.md`，記錄已驗證的基準：承重牆、
+  安全網覆蓋範圍、量到的分布、已知缺口，以及「怎麼算還站在這個穩定點上」三條自檢。
+- **對出來的裂縫**：`determinism.mjs` 的「同種子＝同天賦」比對寫 `s.ability`，
+  但六屬性改制時已改名 `state.attr`——兩邊都是 `undefined`，屬性那一半從此沒被比對到。
+  同一支 suite 還有一條 `!== undefined` 的恆真檢查。前者改成 `s.attr`，後者改成比對
+  `potential`（出生固定、只讀不寫，是唯一驗得了「天賦沒被人生改寫」的欄位）。
+- **文件漂移**：`README`／`ESPORT-DESIGN` 還寫 `node tests/headless.mjs`（v4 已拆成
+  `tests/run.mjs`）；`ESPORT-DESIGN` 的規則對應表整張指向 `world.js`／`abilities.js`／
+  `international.js`／`team.js` 這些已不存在的檔；`ARCHITECTURE` 目錄樹還列著
+  `abilities.js`。最嚴重的是 `ESPORT-DESIGN` 與 `WIKI` 的國際賽章節仍寫著「MSI 徵召、
+  可婉拒、國際賽消耗」——v4 整套拆掉的國家隊模型還留在玩家會讀的攻略裡。全部重寫。
+- **順帶**：`PRODUCT` 補上「可加點的屬性列 vs 唯讀的技能列必須看得出差別」與
+  「心理值不給數字」兩條設計原則；`DESIGN` 補上 `.abrow` 的 static 態與 `<details>`
+  展開列的規格。
+- **狀態**：完成。8935 項檢查全綠（檢查數與修正前一致——替換掉的是空檢查，不是刪檢查）。
+
 ## 2026-08-12 — 九項素質縮成六屬性，舊素質降級為導出技能
 
 - **方向**：九個滑桿每季來一次，決策沒有質變只有量變，玩家會用「哪個 OVR 權重高就
