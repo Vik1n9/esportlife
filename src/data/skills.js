@@ -1,73 +1,77 @@
 /**
- * 技能層：位置、技能定義、技能←屬性權重、位置加權 OVR。純資料，無邏輯。
+ * 技能層：位置、十二技能定義、技能←屬性權重、位置加權 OVR。純資料，無邏輯。
  *
  * 技能是**導出值**，玩家不能直接加點（見 `attributes.js` 的說明）。每一項技能是六個
  * 屬性的加權平均，權重列和固定為 1.00——所以技能值與屬性同量級（0–100），OVR 就是
  * 同一個刻度，賽區 par 值、勝率公式、薪資曲線讀的都是這一個尺度。
  *
- * 這張表在 0–100 重校（S09）時**一個數字都沒動**：權重是無量綱的比例，跟刻度無關。
- * 換成 V4 §8.1 的十二技能是 S10 的事。
+ * S10 把舊的十三項換成 V4 §8.1／§8.2 的十二項。舊表是從棒球版的「素質」演化來的
+ * （體力／反應／操作／大局觀…），跟教練覆盤時真的會講的話對不上；新表每一項都是
+ * 一句覆盤語彙（「對線被壓」「小龍沒控好」「開團時機」），玩家看得懂輸在哪。
  *
- * 位置身分保留在兩個地方：`ROLE_SIGNATURE`（每路一項專屬技能）與 `OVR_WEIGHTS`
- * （同一套屬性，五路換算成 OVR 的路徑完全不同）。所以上路和輔助練同樣六個屬性，
- * 但把點投在哪裡的最佳解不一樣。
+ * 兩個結構性差異，不是改名：
+ * - **體力不再是技能。** V4 §6 把它升格成會消耗、會恢復的資源（S13），所以 `vit`
+ *   在五路的 OVR 權重全部歸零——這是刻意的，不是漏掉。
+ * - **沒有位置專屬技能。** 舊表每路掛一項只有自己有的技能（`split`/`jg`/`assn`/
+ *   `dps`/`eng`），位置身分靠「別人沒有這一項」撐著。V4 §8.2 讓十二項全體共用，
+ *   身分完全由權重表達：輔助的走位權重是 0、射手的走位是 .26。
  */
 import { ATTRS } from './attributes.js';
 
+/** V4 §8.1 的十二技能。順序即面板與文件的權威順序 */
 export const SKILL_NAMES = {
-  sta: '體力', ref: '反應', op: '操作', macro: '大局觀', lane: '對線',
-  tf: '團戰', roam: '遊走', vis: '視野',
-  split: '單帶', jg: '節奏', assn: '刺客', dps: '輸出', eng: '開戰',
+  lane: '對線', op: '操作', vis: '視野', jg: '節奏', gank: '支援', obj: '資源控制',
+  tf: '會戰', eng: '開團', peel: '保護', split: '邊線處理', rotate: '轉線運營', pos: '走位',
 };
 
 /**
- * 技能 ← 屬性的權重表。每列和為 1.00。
+ * 技能 ← 屬性的權重表（V4 §8.1）。每列和為 1.00。
  *
- * 讀法：`開戰` 是 決斷 .45 ＋ 意識 .30 ＋ 默契 .25——會開團的輔助靠的是敢開（DEC）
- * 跟看得到時機（AWR），手速再快也開不出來。同理 `輸出` 吃 TEC/AGI、`視野` 幾乎純
- * AWR、`體力` 幾乎純 VIT。
+ * 讀法：`開團` 是 決斷 .45 ＋ 意識 .30 ＋ 默契 .25——會開團的輔助靠的是敢開（DEC）
+ * 跟看得到時機（AWR），手速再快也開不出來。同理 `走位` 吃 AGI/AWR、`視野` 是
+ * AWR/SYN、`操作` 是唯一的純手上功夫（TEC/AGI）。
  *
- * 每項技能刻意只掛 2～4 個屬性。第一版讓幾乎每項技能都沾到五、六個屬性，結果是
+ * 每項技能刻意只掛 2～3 個屬性。第一版讓幾乎每項技能都沾到五、六個屬性，結果是
  * 折疊後五路的屬性權重長得差不多（最扁的中路最高／最低只差 2.8 倍），位置身分被
- * 平均掉了。寫純之後輔助的 AGI 權重掉到 0.028——靈巧對輔助幾乎沒有意義，這正是
- * 位置該有的樣子。
+ * 平均掉了。寫純之後輔助的 AGI 權重掉到 0（見下面的 `OVR_WEIGHTS`）——靈巧對輔助
+ * 幾乎沒有意義，這正是位置該有的樣子。
  */
 export const SKILL_WEIGHTS = {
-  sta:   { vit: 0.85, agi: 0.15 },
-  ref:   { agi: 0.75, awr: 0.25 },
-  op:    { tec: 0.70, agi: 0.30 },
-  macro: { awr: 0.55, dec: 0.35, syn: 0.10 },
-  lane:  { tec: 0.45, awr: 0.25, vit: 0.20, agi: 0.10 },
-  tf:    { syn: 0.40, dec: 0.30, tec: 0.20, agi: 0.10 },
-  roam:  { syn: 0.40, awr: 0.35, dec: 0.25 },
-  vis:   { awr: 0.70, syn: 0.30 },
-  split: { dec: 0.45, tec: 0.30, awr: 0.15, vit: 0.10 },
-  jg:    { awr: 0.40, dec: 0.35, syn: 0.25 },
-  assn:  { agi: 0.45, tec: 0.35, dec: 0.20 },
-  dps:   { tec: 0.50, agi: 0.35, dec: 0.15 },
-  eng:   { dec: 0.45, awr: 0.30, syn: 0.25 },
+  lane:   { tec: 0.40, awr: 0.35, agi: 0.25 },
+  op:     { tec: 0.60, agi: 0.40 },
+  vis:    { awr: 0.60, syn: 0.40 },
+  jg:     { awr: 0.50, dec: 0.30, syn: 0.20 },
+  gank:   { awr: 0.40, syn: 0.30, dec: 0.30 },
+  obj:    { dec: 0.40, awr: 0.35, syn: 0.25 },
+  tf:     { syn: 0.35, dec: 0.35, tec: 0.30 },
+  eng:    { dec: 0.45, awr: 0.30, syn: 0.25 },
+  peel:   { awr: 0.40, syn: 0.35, dec: 0.25 },
+  split:  { dec: 0.40, tec: 0.30, awr: 0.30 },
+  rotate: { awr: 0.50, dec: 0.35, syn: 0.15 },
+  pos:    { agi: 0.45, awr: 0.30, tec: 0.25 },
 };
-
-/** 位置專屬技能（每路 1 項） */
-export const ROLE_SIGNATURE = { TOP: 'split', JG: 'jg', MID: 'assn', ADC: 'dps', SUP: 'eng' };
 
 export const ROLES = ['TOP', 'JG', 'MID', 'ADC', 'SUP'];
 
 export const ROLE_NAMES = { TOP: '上路', JG: '打野', MID: '中路', ADC: '射手', SUP: '輔助' };
 
 /**
- * 位置加權 OVR。權重總和皆為 1.00，讓五路 OVR 可直接互相比較
- * （舊版 TOP 合計 1.00 但 MID 只有 1.00 卻漏掉 assn，導致中路永遠偏低）。
+ * 位置加權 OVR（V4 §8.2）。每路核心 4 項＋次要 2 項，權重總和皆為 1.00，讓五路 OVR
+ * 可直接互相比較。
+ *
+ * 舊表每路掛 7～8 項，其中一半權重在 .03～.06——那種尾巴既不影響 OVR 也不構成身分，
+ * 只是讓面板多幾行。V4 收成六項，每一項都推得動位置身分：上路的邊線 .24、打野的
+ * 節奏 .24、中路的對線 .22、射手的走位 .26、輔助的開團 .24。
  */
 export const OVR_WEIGHTS = {
-  TOP: { split: 0.28, lane: 0.20, tf: 0.16, op: 0.12, macro: 0.10, sta: 0.08, roam: 0.03, vis: 0.03 },
-  JG:  { jg: 0.26, roam: 0.20, macro: 0.17, op: 0.12, tf: 0.12, sta: 0.07, vis: 0.06 },
-  MID: { assn: 0.20, lane: 0.20, op: 0.18, roam: 0.13, macro: 0.12, tf: 0.12, sta: 0.05 },
-  ADC: { dps: 0.26, tf: 0.19, op: 0.16, lane: 0.14, vis: 0.10, sta: 0.09, macro: 0.06 },
-  SUP: { eng: 0.24, vis: 0.21, macro: 0.17, roam: 0.14, tf: 0.12, sta: 0.07, lane: 0.05 },
+  TOP: { split: 0.24, lane: 0.20, tf: 0.18, eng: 0.15, rotate: 0.13, op: 0.10 },
+  JG:  { jg: 0.24, gank: 0.20, obj: 0.20, rotate: 0.13, vis: 0.12, tf: 0.11 },
+  MID: { lane: 0.22, op: 0.20, gank: 0.18, tf: 0.16, pos: 0.14, rotate: 0.10 },
+  ADC: { pos: 0.26, op: 0.22, tf: 0.20, lane: 0.14, vis: 0.10, rotate: 0.08 },
+  SUP: { eng: 0.24, peel: 0.22, vis: 0.20, gank: 0.14, tf: 0.10, obj: 0.10 },
 };
 
-/** 該位置有 OVR 權重的技能，由重到輕。面板只顯示這些——其餘技能對這路沒有意義 */
+/** 該位置有 OVR 權重的技能，由重到輕（前四項為核心）。面板只顯示這些——其餘技能對這路沒有意義 */
 export const ROLE_SKILLS = Object.fromEntries(
   ROLES.map((r) => [r, Object.keys(OVR_WEIGHTS[r]).sort((a, b) => OVR_WEIGHTS[r][b] - OVR_WEIGHTS[r][a])]),
 );
@@ -78,6 +82,15 @@ export const ROLE_SKILLS = Object.fromEntries(
  * OVR 每季要算上百次（勝率、板凳判定、簽約報價、對手強度），沒必要每次都繞技能一圈。
  * 這裡在載入時把 `OVR_WEIGHTS × SKILL_WEIGHTS` 折疊成一張 5×6 的表，OVR 就是一次
  * 六項的內積。技能值本身仍然照算，但只在需要顯示或做數據模擬時才求值。
+ *
+ * 十二技能表折疊後的實際數字（S10 實測，`vit` 全為 0）：
+ *   TOP  awr .252 tec .266 dec .272 syn .120 agi .090
+ *   JG   awr .407 dec .296 syn .264 tec .033 agi 0
+ *   MID  tec .291 awr .241 agi .198 dec .145 syn .125
+ *   ADC  tec .313 agi .240 awr .227 syn .122 dec .098
+ *   SUP  awr .371 syn .319 dec .280 tec .030 agi 0
+ * 五路的重心各不相同（打野吃意識、射手吃技巧與靈巧、輔助吃意識與默契），而靈巧對
+ * 兩個後排位置完全沒有意義——鐵則二要守的就是這個形狀，`invariants` 有三條在量它。
  */
 export const ROLE_ATTR_WEIGHTS = Object.fromEntries(ROLES.map((role) => {
   const acc = Object.fromEntries(ATTRS.map((a) => [a, 0]));

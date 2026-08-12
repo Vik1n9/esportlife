@@ -4,7 +4,7 @@
  * 三個函式住在一起是因為它們永遠一起被改——調權重時三個都要看。
  */
 import { COACHES } from '../data/coaches.js';
-import { effectiveOvr, skillValue } from '../engine/attributes.js';
+import { effectiveOvr } from '../engine/attributes.js';
 import { chemBonus } from '../engine/mental.js';
 import { factor, floorOf } from './modifiers.js';
 
@@ -30,5 +30,7 @@ export function teamStrength(state) {
   return effectiveOvr(state) * 0.55
     + matesAverage(state) * 0.35
     + coachBonus(state)
-    + skillValue(state, 'sta') * 0.05;
+    // TODO(S13)：十二技能表沒有 `sta`（V4 §8 把體力抽出去當資源），體力修正暫時
+    // 讀 `vit` 屬性——舊 `sta` 技能本來就是 .85 的 vit，量級一致
+    + state.attr.vit * 0.05;
 }

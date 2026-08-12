@@ -25,7 +25,7 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   │   ├── worlds.js    #   種子序來源、入圍賽、席位
 │   │   │   └── playoffs.js  #   輪次 / BO 數 / 冠軍點數
 │   │   ├── traits.js epics.js   # 特質：名稱 + 描述 + 效果（集中）
-│   │   ├── attributes.js skills.js  # 六屬性 + 由屬性導出的十三項技能權重
+│   │   ├── attributes.js skills.js  # 六屬性 + 由屬性導出的十二項技能權重
 │   │   ├── mental.js roleplay.js events.js
 │   │   └── eras.js leagues.js teams.js coaches.js heroes.js disband.js
 │   │
@@ -188,7 +188,7 @@ node tests/run.mjs kernel  # 只跑某一區
 `regression/invariants.mjs`：它不錄快照，改成守住「這個遊戲之所以是這個遊戲」的那幾條
 性質——巔峰上界、打法差距、頂端才兌現、傳奇稀有度、位置身分、合成消耗、潛力衰減、
 心理是放大器。門檻一律寫成**比例**（÷ 屬性上限），所以換刻度時不必重刷基準。
-尚未實作的機制（十二技能、六維心理、體力、事件互斥）以 SKIP 掛著，各自指名在等哪一站。
+尚未實作的機制（六維心理、體力、事件互斥）以 SKIP 掛著，各自指名在等哪一站。
 
 ---
 
@@ -258,7 +258,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `data/regions/kr.js` | A/B | 同 cn.js | S05 重排結構 |
 | `data/regions/na.js` | A/B | 同 cn.js | S05 重排結構 |
 | `data/roleplay.js` | B | 7d19dce 新建，18 張扮演卡 | 沿用（S20 重新對映） |
-| `data/skills.js` | A/B | 876c76b 新建，但 SKILL_NAMES／ROLE_SIGNATURE／OVR_WEIGHTS 結構演化自 abilities.js（A） | V4 S10 十二技能表重寫 |
+| `data/skills.js` | A/B → B | 876c76b 新建，SKILL_NAMES／ROLE_SIGNATURE／OVR_WEIGHTS 曾演化自 abilities.js（A）；**S10 整表換成 V4 §8.1／§8.2，`ROLE_SIGNATURE` 已刪** | 完成（承袭的表達已被 V4 規格取代） |
 | `data/teams.js` | A | e07427c 拆自 world.js（隊名／MATE_NAMES）；0641189 更新為 B | S05 淨室重寫 |
 | `data/traits.js` | A/B | a71ee13 建立（基礎特質）；b2cdc80 拆出 epics；e412b9b 四階合成（54→174 行） | V4 S19a 重寫 |
 | `engine/attributes.js` | A/B | a71ee13 建 abilities.js，876c76b rename＋技能導出層（ovr／effectiveOvr 等骨架承袭，skillValue 等新寫） | V4 S09/S10 重寫 |

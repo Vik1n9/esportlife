@@ -114,11 +114,35 @@ export async function run({ check, log, shared }) {
 /* ---------------- 巔峰上界（V4 §7.1 §10.2） ---------------- */
 
 /**
+ * §10.2 允許的加法特質修正總和，也就是 OVR 可以合法高過屬性硬上限多少。
+ *
+ * 從特質資料表算出來而不是寫死：§10.2 明文只保留兩項直接加評價的特質（神之領域 +2、
+ * 不老傳奇 30 歲後 +1），並禁止新特質再用這種形式，所以這個數字應該永遠是 3。寫成
+ * 掃表的話，哪天有人違反 §10.2 加了第三項，上界會跟著鬆——那正是要在 code review
+ * 看到的訊號，而不是讓這條檢查憑空紅一次。
+ *
+ * ⚠ 不老傳奇那 +1 有年齡條件（30 歲後），寫在 `engine/attributes.js` 裡而不是資料表，
+ * 所以掃不到，手動補上。
+ */
+const OVR_TRAIT_HEADROOM = 1 + Object.values(TIER_STORES).reduce((total, { table }) => total
+  + Object.values(table()).reduce((t, tr) => {
+    const e = tr.effects?.ovrAdd;
+    return t + (typeof e === 'number' ? e : (e?.add ?? 0));
+  }, 0), 0);
+
+/**
  * 通膨守門員。
  *
  * 兩層：結構層看權重表（列和不是 1 就是在平白放大數值），分布層看 160 段的巔峰。
  * 分布層一律用「÷ ATTR_CAP」的比例——S09 要換成 0–100 刻度，×1.25 之後比例不變，
  * 明顯高於現值就是通膨（這正是 `09-屬性0-100.md` 說的及格線）。
+ *
+ * ⚠ **上界那條的母數在 S10 修過一次，這是換單位不是放寬**：它量的 `peakOvr` 是
+ * `ovr()` 的輸出，而 `ovr()` 除了屬性加權平均還加上 §10.2 的加法特質修正——母數卻
+ * 只寫了屬性硬上限。舊表下沒人碰得到那條線（要六個屬性全滿），S10 之後 `vit` 的 OVR
+ * 權重歸零，打野／輔助只剩三個屬性各佔九成七，神之領域持有者練滿就會拿到 99＋2＝101。
+ * 這與 S09 為「加點是決策」換分母是同一類修正：門檻對權重表免疫，但對特質持有不免疫。
+ * 通膨真正的守門員是上面那條平均值比例，它沒有動過。
  */
 function peakCeiling({ check, log, runs, gate }) {
   for (const [key, w] of Object.entries(SKILL_WEIGHTS)) {
@@ -138,8 +162,9 @@ function peakCeiling({ check, log, runs, gate }) {
   // 被砍過頭，高於上界就是通膨
   check('巔峰上界：平均巔峰 ÷ 屬性硬上限落在 0.68–0.82（通膨／縮水都會紅）',
     ratio >= 0.68 && ratio <= 0.82, `平均巔峰 ${mean(peaks).toFixed(2)}／上限 ${ATTR_CAP} = ${ratio.toFixed(4)}`);
-  check('巔峰上界：沒有任何一段生涯超過突破後的硬上限',
-    Math.max(...peaks) <= ATTR_CAP_GODHAND, `最高 ${Math.max(...peaks)} > ${ATTR_CAP_GODHAND}`);
+  const hardCeiling = ATTR_CAP_GODHAND + OVR_TRAIT_HEADROOM;
+  check('巔峰上界：沒有任何一段生涯超過硬上限＋§10.2 允許的加法特質修正',
+    Math.max(...peaks) <= hardCeiling, `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP_GODHAND} ＋特質 ${OVR_TRAIT_HEADROOM}）`);
 
   for (const { state, seed, role } of runs) {
     const top = Math.max(...Object.values(skills(state)));

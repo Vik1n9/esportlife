@@ -27,6 +27,10 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   const league = LEAGUES[leagueKey];
   // 個人數據看的是技能（對線吃 CS、視野吃 VIS…），不是屬性——屬性要先折算過來
   const a = skills(state);
+  // TODO(S13)：體力在 V4 §6 是會消耗的資源，但 S13 才做。十二技能表已經沒有 `sta`
+  // 這一項（V4 §8 把它抽出去），所以手感係數暫時直接讀 `vit` 屬性——它是舊 `sta`
+  // 技能的主要成分（.85），刻度也一樣，等 `state.stamina` 上線再換過去
+  const stamina = state.attr.vit;
   const stat = blankSeasonStat();
   stat.years = 1;
 
@@ -38,7 +42,7 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   if (state.seasonFactor <= 0 || share <= 0) { stat.G = 0; return stat; }
 
   // 體力進表現，不進場次
-  const form = formFactor(a.sta);
+  const form = formFactor(stamina);
   stat.G = Math.max(1, Math.round(league.games * weight * share * state.seasonFactor * (0.95 + rng.next() * 0.06)));
 
   /*
@@ -56,12 +60,21 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   stat.W = Math.round(stat.G * winRate);
   stat.L = stat.G - stat.W;
 
+  /*
+   * 技能鍵在 S10 換成 V4 §8.1 的十二項，數據對映跟著重接。每一項對的是覆盤時真的
+   * 會拿來解釋這個數字的那句話：
+   *   陣亡  ← 走位（舊表接的是已被拆掉的「反應」，而 §8.1 明講走位失誤幾乎都是陣亡）
+   *   助攻  ← 支援（舊「遊走」的直接後繼）
+   * 其餘三條的鍵在新表裡本來就存在，語意也沒變：擊殺與 CS／SOLO 吃操作與對線、
+   * 視野吃視野。
+   * 係數一個都沒動——這一站換的是讀哪一項技能，不是數據對評價的靈敏度。
+   */
   const base = STAT_BASELINE[state.role];
   const k = clamp(base.K + (a.op - par) * 0.008 + (a.lane - par) * 0.0064 + rng.gauss(0.2), 0.3, 3.2);
   stat.K = Math.round(stat.G * k * form);
   // 體力透支最先反映在後期的失誤上，所以陣亡數反向吃 form
-  stat.D = Math.round(stat.G * clamp(base.D - (a.ref - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15), 0.5, 3.0) / form);
-  stat.A = Math.round(stat.G * base.A * (1 + (a.roam - par) * 0.0032 + (a.vis - par) * 0.0032));
+  stat.D = Math.round(stat.G * clamp(base.D - (a.pos - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15), 0.5, 3.0) / form);
+  stat.A = Math.round(stat.G * base.A * (1 + (a.gank - par) * 0.0032 + (a.vis - par) * 0.0032));
   stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.0048));
   stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.0064));
   stat.DMG = Math.round(clamp((base.DMG + delta * 0.32) * form + rng.gauss(1.5), 6, 45) * 10) / 10;
