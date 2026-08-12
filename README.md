@@ -4,8 +4,8 @@
 
 👉 **[點我直接遊玩](https://vik1n9.github.io/esportlife/)**
 
-> 本專案是 [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife) 的**大幅改寫**衍生作品，
-> 已更名為 **esportlife**。原始出處與授權說明見「[授權與出處](#授權與出處)」。
+> 本專案**靈感來自** [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife)，
+> 但不含原作者程式碼——詳見「[授權與出處](#授權與出處)」。
 
 ## 遊戲特色
 
@@ -35,15 +35,15 @@
 
 ## 授權與出處
 
-本專案是 [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife) 的**大幅改寫**衍生作品：
-引擎骨架、事件卡與隱藏特質概念承襲自原版，賽制、角色、數據與介面則已全面改寫為 LoL 電競內容。
+本專案**靈感來自** [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife)，由
+[LeoGGcat](https://github.com/LeoGGcat) 開發。最初的引擎骨架、事件卡與隱藏特質概念承袭自原版；
+該等承袭程式碼已在 S03–S05 全部淨室重寫完畢（血緣表見 `ARCHITECTURE.md`，重寫記錄見
+`docs/v4/` 的 S02–S06），**現今專案不含原作者程式碼**——賽制、角色、數據與介面皆為
+LoL 電競內容的原創改寫。
 
-- **原始出處**：[LeoGGcat / yakyulife](https://github.com/LeoGGcat/yakyulife)，由 [LeoGGcat](https://github.com/LeoGGcat) 開發。
-- **本改寫**：Vik1n9（esportlife）。
-- **授權**：改寫前已向原作者申請授權，**至今未獲回覆**，因此以「未獲正式授權」處理。
-  承襲自原版的程式碼正在逐步淨室重寫（進度見 `docs/v4/` 的 S02–S06）。
-  `LICENSE` 目前掛 MIT，最終的授權敘述待重寫完成後一併確認。
-  若你打算以本專案為基礎再創作，請一併保留對原作者的出處標示。
+- **靈感來源**：[LeoGGcat / yakyulife](https://github.com/LeoGGcat/yakyulife)
+- **開發者**：Vik1n9（esportlife）
+- **授權**：MIT（見 `LICENSE`）
 
 ### 介面與素材
 
