@@ -1,5 +1,6 @@
 # 編輯器 / 代理工具的本機狀態
 .reasonix/
+reasonix.toml
 .claude/settings.local.json
 
 # 作業系統
