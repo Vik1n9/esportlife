@@ -64,20 +64,20 @@ function attrRows(state) {
 }
 
 /**
- * 技能：只列出這個位置有 OVR 權重的幾項，而且全部唯讀。
+ * 技能：只列出這個位置有 OVR 權重的六項（V4 §8.2 的核心 4 ＋次要 2），而且全部唯讀。
  *
  * 技能不是另一排要管理的滑桿，是「你這六個屬性在你這條路上長成什麼樣」的回饋。
- * 玩家看得到自己的開戰很強，但要更強只能回去投決斷與意識。
+ * 玩家看得到自己的開團很強，但要更強只能回去投決斷與意識。
  */
 function skillRows(state) {
   const keys = roleSkills(state);
-  const top = keys.slice(0, 3);   // 對這條路 OVR 影響最重的三項
+  const top = keys.slice(0, 4);   // V4 §8.2：每路核心 4 項＋次要 2 項
   return keys.map((key) => {
     const value = skillValue(state, key);
     return `<div class="abrow static">
       <div class="nm">${SKILL_NAMES[key]}</div>
       <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%"><i></i></div>
-      <div class="val"><b>${value}</b><span class="cost">${top.includes(key) ? '本位置主力' : ''}</span></div>
+      <div class="val"><b>${value}</b><span class="cost">${top.includes(key) ? '本位置核心' : ''}</span></div>
     </div>`;
   }).join('');
 }
