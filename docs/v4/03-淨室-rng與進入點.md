@@ -130,3 +130,38 @@ git diff --stat v4-before -- src/
 ## 交接筆記
 
 <!-- 做完由執行者回填 -->
+
+S03 淨室重寫完成（2026-08-12）。
+
+**做了什麼**：依「淨室重寫五步」重寫四個 A 批檔，未動其他 `src/`：
+
+1. **`src/core/rng.js`** — sfc-like（mulberry32 系，`0x6d2b79f5`＋imul 混洗）換成
+   **xorshift32**（13/17/5）＋ **FNV-1a** 種子 hash，與 v4-before 完全不同（完成定義
+   已人工比對）。`gauss` 改 Box-Muller（截斷 ±4σ），原 4-均勻近似移除。
+2. **`src/main.js`** — 進入點重寫：開場事件、種子兩條流、續玩分流、restart／act-toggle。
+   `APP_VERSION` 留在原處。所有 DOM id 契約保持（已逐 id 核對 index.html）。
+3. **`src/ui/board.js`** — 頂端狀態列重寫，OVR 版本落差邏輯抽成 `fillOvrCell`。
+4. **`src/styles.css`** — 整檔重寫：變數語義化重命名、註解重寫、分區重排、幾何微調，
+   **選擇器契約全保留**（與 v4-before 逐選擇器比對，零遺漏；`--fill/--pot` inline
+   變數機制不變）。視覺維持 v4.3 設計語言。
+
+**關鍵發現**：換 rng 後 smoke 不變式「老手國際賽冠軍當量 ≥ 新手 1.4 倍」在測試種子
+`seed-0..15` 下掉到 **1.34**（紅）。調查：gauss 實現完全不影響（4/6 均勻、Box-Muller
+三種測出來全 1.34），是種子 hash 決定的天賦分布影響該指標；cyrb128 系 hash 全不過
+（0.57~1.34），**FNV-1a 到 2.07 才過**。多組種子 FNV 中位 ~1.7、cyrb 中位 ~1.3——
+該指標對種子是敏感的（80 段/style 下國際賽冠軍是稀有事件），不是 rng 品質問題。
+最終採 FNV-1a（標準 hash、與 cyrb 完全不同）。
+
+**驗證**：`npm test` 全綠 8943 項（golden 已重刷，commit 訊息註明 rng 演算法更換）；
+smoke 四項不變式全過；存檔往返 PASS（checkpoint 序列化→還原續跑→`rng.state` 與
+未中斷一致）；瀏覽器冒煙（本機 Chrome + npx playwright）零 console error：
+開場元素／reroll 換種子／開局頂端列／選手面板／alloc 加點（骰子、`--fill/--pot`
+進度條、step 鈕）／alloc→choice 連續推進（卡片 2→10）全正常。
+
+**留給下一站**：S04（`engine/{market,career}.js` ＋ `phases/{transfer,media,salary}.js`
+A 段）。本站未碰任何 S04 範圍檔案。styles.css 已確認前端重設計那輪（v4.3）已合併、
+無進行中的另一輪，可以放心接著改。
+
+**已知缺口**：無。唯一提示——`smoke` 的 1.4 倍不變式對種子敏感，若日後再換 rng
+相關演算法（S07 測試網、S09 起數值調整都不會動它），紅了先懷疑種子效應不是平衡
+跑掉。

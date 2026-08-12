@@ -1,4 +1,12 @@
-/** 進入點：開場畫面、種子、續玩存檔，然後把控制權交給 runner。 */
+/**
+ * 進入點：開場畫面、種子、續玩存檔，然後把控制權交給 runner。
+ *
+ * 這一層只管「人生從哪裡開始」：開場 UI 的事件、種子的來回、新開局或續玩的分流。
+ * 遊戲進行中的一切由 ui/runner.js 接手，這裡不再碰。
+ *
+ * 種子有兩條流（見 engine/state.js）：`seed` 決定天賦（存在 URL 與存檔裡），
+ * 人生流種子只在記憶體與存檔裡——續玩時兩條都要還原，人生才接得回去。
+ */
 import { Rng, randomSeed } from './core/rng.js';
 import { ROLES, ROLE_NAMES } from './data/skills.js';
 import { createState } from './engine/state.js';
@@ -14,17 +22,19 @@ export const APP_VERSION = 'v4.0.0';
 let selectedRole = 'TOP';
 let seed = new URLSearchParams(location.search).get('seed') || randomSeed();
 
-function setSeed(next) {
-  seed = next;
-  byId('seed-input').value = seed;
-}
+/* ---------------- 開場畫面 ---------------- */
 
 function bindStartScreen() {
-  setSeed(seed);
+  byId('seed-input').value = seed;
   byId('ver-badge').textContent = APP_VERSION;
 
-  byId('seed-reroll').addEventListener('click', (e) => { e.preventDefault(); setSeed(randomSeed()); });
+  byId('seed-reroll').addEventListener('click', (e) => {
+    e.preventDefault();
+    seed = randomSeed();
+    byId('seed-input').value = seed;
+  });
 
+  // 位置按鈕由 ROLES 產生（buildRoleButtons），這裡只處理選中態
   qsa('#seg-pos button').forEach((btn) => {
     btn.addEventListener('click', () => {
       qsa('#seg-pos button').forEach((b) => b.classList.toggle('on', b === btn));
@@ -36,44 +46,20 @@ function bindStartScreen() {
 
   const save = loadGame();
   const resume = byId('btn-resume');
-  if (save) {
-    resume.hidden = false;
-    resume.querySelector('small').textContent =
-      `${save.state.name}｜${ROLE_NAMES[save.state.role]}｜${save.state.year} 年 · ${save.state.age} 歲`;
-    resume.addEventListener('click', () => resumeCareer(save));
-  }
-}
-
-function enterGame(state, rng) {
-  byId('start').hidden = true;
-  byId('board').hidden = false;
-  byId('act').hidden = false;
-  initLog();
-  initPanel(state);
-  setPanelState(state);
-  renderBoard(state, 0);
-
-  byId('btn-restart').addEventListener('click', () => {
-    if (!window.confirm('確定放棄這段生涯，重新開始？')) return;
-    clearSave();
-    location.href = location.pathname;
-  });
-
-  const toggle = byId('act-toggle');
-  toggle.addEventListener('click', () => {
-    const act = byId('act');
-    act.classList.toggle('collapsed');
-    toggle.textContent = act.classList.contains('collapsed') ? '⌃ 展開選項' : '⌄ 收合選項';
-  });
-
-  runCareer({ state, rng, seed, appVersion: APP_VERSION });
+  if (!save) return;
+  resume.hidden = false;
+  resume.querySelector('small').textContent =
+    `${save.state.name}｜${ROLE_NAMES[save.state.role]}｜${save.state.year} 年 · ${save.state.age} 歲`;
+  resume.addEventListener('click', () => resumeCareer(save));
 }
 
 function startNewCareer() {
-  const typedSeed = byId('seed-input').value.trim();
-  if (typedSeed) seed = typedSeed;
+  const typed = byId('seed-input').value.trim();
+  if (typed) seed = typed;
+
   const name = byId('name-input').value.trim().slice(0, 12) || 'Faker';
 
+  // 種子寫回網址，分享出去的連結帶同一份天賦
   history.replaceState(null, '', `?seed=${encodeURIComponent(seed)}`);
   clearSave();
 
@@ -86,16 +72,46 @@ function startNewCareer() {
 function resumeCareer(save) {
   seed = save.state.seed;
   history.replaceState(null, '', `?seed=${encodeURIComponent(seed)}`);
-  // 續玩要接回同一段人生，所以人生流的種子與進度都得還原
+  // 續玩要接回同一段人生：人生流的種子與亂數進度都得還原
   const rng = new Rng(save.lifeSeed);
   rng.state = save.rngState;
   enterGame(save.state, rng);
 }
 
+/* ---------------- 遊戲畫面 ---------------- */
+
+function enterGame(state, rng) {
+  byId('start').hidden = true;
+  byId('board').hidden = false;
+  byId('act').hidden = false;
+
+  initLog();
+  initPanel(state);
+  setPanelState(state);
+  renderBoard(state, 0);
+
+  // 重開：放棄當下生涯，清存檔後回到開場（換 URL 讓狀態乾淨重來）
+  byId('btn-restart').addEventListener('click', () => {
+    if (!window.confirm('確定放棄這段生涯，重新開始？')) return;
+    clearSave();
+    location.href = location.pathname;
+  });
+
+  // 行動列折疊：長選項清單時捲動看得到，不需要時收起來
+  byId('act-toggle').addEventListener('click', () => {
+    const act = byId('act');
+    act.classList.toggle('collapsed');
+    byId('act-toggle').textContent = act.classList.contains('collapsed') ? '⌃ 展開選項' : '⌄ 收合選項';
+  });
+
+  runCareer({ state, rng, seed, appVersion: APP_VERSION });
+}
+
+/* ---------------- 啟動 ---------------- */
+
 // 開場畫面的位置按鈕由 ROLES 產生，避免 HTML 與資料兩邊各寫一份
 function buildRoleButtons() {
-  const seg = byId('seg-pos');
-  seg.innerHTML = ROLES
+  byId('seg-pos').innerHTML = ROLES
     .map((r, i) => `<button data-role="${r}"${i === 0 ? ' class="on"' : ''}>${ROLE_NAMES[r]}</button>`)
     .join('');
 }

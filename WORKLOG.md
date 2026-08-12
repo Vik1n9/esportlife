@@ -1,5 +1,25 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-12 — S03 淨室重寫：rng 換 xorshift32、進入點與版面重寫
+
+- **方向**：S02 血緣表把 `core/rng.js`、`main.js`、`ui/board.js`、`styles.css` 標 A 批，
+  而 V4 沒有理由改它們，所以排 S03 淨室重寫——只看介面與測試，關掉原檔重寫。
+- **rng**：sfc-like（mulberry32 系）→ **xorshift32**（13/17/5）＋ **FNV-1a** 種子 hash；
+  `gauss` 從 4-均勻近似改 **Box-Muller**（截斷 ±4σ）。介面零變動：`Rng` class
+  （`state`／`seedString` 可讀寫）、`next/int/chance/pick/shuffle/sample/gauss`、
+  `clamp`／`randomSeed` 全保留，存檔格式（`rngState` 32-bit）不變。
+- **關鍵發現**：換 rng 後 smoke 不變式「國際賽冠軍當量 ≥1.4 倍」在測試種子下掉到
+  1.34。逐項排除：gauss 實現不影響（三種測法全 1.34）；cyrb128 系 hash 全不過；
+  唯一過關是 **FNV-1a（2.07 倍）**。多組種子 FNV 中位 ~1.7——結論是該指標對種子
+  敏感（國際賽冠軍是稀有事件），不是 rng 品質問題。
+- **styles.css**：整檔重寫（選擇器契約零遺漏，與 v4-before 逐選擇器比對）。變數
+  語義化重命名、註解重寫、幾何微調；視覺維持 v4.3 設計語言（tftactics.gg 系色票）。
+  前端重設計那輪已合併，無進行中衝突。
+- **驗證**：`npm test` 全綠 8943 項（golden 重刷）；存檔往返 PASS（checkpoint 還原
+  續跑 rng.state 一致）；瀏覽器冒煙（本機 Chrome＋playwright）零 console error，
+  開場／reroll／開局／面板／alloc→choice 推進全正常。
+- **狀態**：完成。commit 標明「rng 演算法更換」。下一步：S04 淨室 market/career。
+
 ## 2026-08-12 — S02 血緣審計：把「哪些是承襲的」從粗分釘成逐檔標記表
 
 - **方向**：原作者未回覆授權申請，承襲程式碼要淨室重寫；但 `00-共通規則.md` 的 A/B
