@@ -1,4 +1,10 @@
-/** 合約、薪資、自由市場、試訓、歷史解散。 */
+/**
+ * 合約、薪資、自由市場、試訓、歷史解散。
+ *
+ * 這一檔管「錢與位子」：年薪怎麼算、誰會打電話來、報價開多少、簽下去會發生什麼。
+ * 特質效果一律透過 `kernel/modifiers.js` 的四個查詢入口（bonus／factor／floorOf／
+ * capOf／flag）進來，本檔不直接讀 `state.traits`。
+ */
 import { clamp } from '../core/rng.js';
 import { DISBAND_HISTORY } from '../data/disband.js';
 import { LEAGUES, OVERSEAS_LEAGUES } from '../data/leagues.js';
@@ -9,23 +15,31 @@ import { academyTeamsOf, rollRoster, teamsOf } from './roster.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
 import { importSlotOpen, occupiesImportSlot } from './imports.js';
 
+/** 台幣的顯示：億／千萬／萬三級，萬元以下四捨五入 */
 export function formatMoney(n) {
   if (n >= 10000) return `${(n / 10000).toFixed(1)}億`;
   if (n >= 1000) return `${(n / 1000).toFixed(1)}千萬`;
   return `${Math.round(n)}萬`;
 }
 
-/** 年薪＝聯賽基準 × 合約係數 × 時代係數 × 表現係數（表現只加不減，避免負薪） */
+/** 每 1 點上季表現差額，年薪多加 5%——但只加不減，表現差時不扣錢 */
+const DELTA_SALARY_PCT = 0.05;
+
+/**
+ * 年薪＝聯賽基準 × 合約係數 × 時代係數 × 表現係數 × 特質因子。
+ * 特質因子是乘法不是加法：代言類特質（品牌價碼）跟合約談判是兩件事。
+ */
 export function annualSalary(state, leagueKey, mult) {
   const league = LEAGUES[leagueKey];
   if (!league || !league.baseSalary) return 0;
   const era = eraOf(state.year);
-  const perf = 1 + Math.max(0, state.lastDelta || 0) * 0.05;
+  const perf = 1 + Math.max(0, state.lastDelta || 0) * DELTA_SALARY_PCT;
   return Math.round(league.baseSalary * mult * era.salary * perf * factor(state, 'endorsement'));
 }
 
 /* ---------------- 解散 ---------------- */
 
+/** 今年（或指定年）這支隊有沒有解散事件。沒有就回 null，不是空字串 */
 export function disbandNoteFor(state, year = state.year) {
   const table = DISBAND_HISTORY[year];
   return table && state.team ? table[state.team] || null : null;
@@ -33,14 +47,23 @@ export function disbandNoteFor(state, year = state.year) {
 
 /* ---------------- 報價 ---------------- */
 
-/** 依現在的實力決定哪些聯賽會打電話來 */
+/**
+ * 依現在的實力決定哪些聯賽會打電話來。
+ *
+ * 海外兩級是「高門檻、看近況」：LCK/LPL 要求上季要有成長（delta ≥ 1），
+ * LEC/LCS 只要持平。主場賽區門檻最低，是所有人的退路。
+ */
 function candidateLeagues(state) {
   const o = effectiveOvr(state);
   const delta = state.lastDelta || 0;
+  const gates = [
+    { ready: () => o >= LEAGUES.LCK.min && delta >= 1, keys: ['LCK', 'LPL'] },
+    { ready: () => o >= LEAGUES.LEC.min && delta >= 0, keys: ['LEC', 'LCS'] },
+    { ready: () => o >= LEAGUES.HOME.min - 2, keys: ['HOME'] },
+  ];
   const out = [];
-  if (o >= LEAGUES.LCK.min && delta >= 1) out.push('LCK', 'LPL');
-  if (o >= LEAGUES.LEC.min && delta >= 0) out.push('LEC', 'LCS');
-  if (o >= LEAGUES.HOME.min - 2) out.push('HOME');
+  for (const gate of gates) if (gate.ready()) out.push(...gate.keys);
+  // 連主場一隊都摸不到，才輪得到青訓次級來找人
   if (!out.length && o >= LEAGUES.AM2.min - 4) out.push('AM2');
   return out;
 }
@@ -48,10 +71,10 @@ function candidateLeagues(state) {
 /**
  * 合約係數。
  *
- * 三段固定順序：先把所有加項算進去，再套保底，最後套封頂。舊版是一連串 if，
- * 保底與加項交錯（`神主牌` 的 1.2 在 `人氣選手` 的 +0.05 之前，`全民偶像` 的 1.25
- * 卻在之後），於是同一個「保底 1.2」會因為身上還有什麼特質而給出不同結果。
- * 改成固定三段之後，保底就真的是保底。
+ * 固定三段順序：先加（特質加成＋聲量折價），再保底，最後封頂。舊版是一連串 if，
+ * 保底與加項交錯——`神主牌` 的 1.2 在 `人氣選手` 的 +0.05 之前、`全民偶像` 的 1.25
+ * 卻在之後，同一個「保底 1.2」會因為身上還有什麼特質而給出不同結果。三段固定之後，
+ * 保底就真的是保底。
  */
 function contractMult(state, raw, { capKey = 'contractCap' } = {}) {
   // 聲量大就得加薪留人，風評差則反過來被砍價
@@ -59,6 +82,7 @@ function contractMult(state, raw, { capKey = 'contractCap' } = {}) {
   return capOf(state, capKey, floorOf(state, 'contractFloor', added));
 }
 
+/** 單筆報價的合約係數：底價隨聯賽等級、再骰一段談判空間 */
 function multFor(rng, leagueKey, state) {
   const base = LEAGUES[leagueKey].tier >= 3 ? 1.05 : 0.9;
   const m = contractMult(state, base + rng.next() * 0.35);
@@ -111,11 +135,21 @@ export function retentionPremium(state) {
   return 0;
 }
 
+/** 一次市場最多開幾張報價 */
+const MAX_OFFERS = 4;
+/** 上季成長 ≥ 3 的選手，每支隊願意多談一個名額 */
+const HOT_DELTA = 3;
+/** 報價最少留一張，不會歸零到「明明還很強卻沒人要」 */
+const MIN_OFFERS = 1;
+
 /**
  * 產生自由市場報價。
  *
  * 舊版的兩個 bug：海外選手一進 FA 只會收到主場報價（被迫降級），
  * 以及解散後的報價完全不看目前實力。這裡統一由 `candidateLeagues` 決定。
+ *
+ * 報價會附一個非標準欄位 `blockedByImports`：被外援名額擋掉的賽區清單，
+ * UI 用它解釋「有隊伍問過，但位子沒了」，而不是讓報價默默消失。
  *
  * @param {object} opts
  * @param {boolean} opts.excludeCurrentTeam 解散／強制 FA 時不能回原隊
@@ -123,12 +157,11 @@ export function retentionPremium(state) {
  */
 export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) {
   const delta = state.lastDelta || 0;
-  const leagues = candidateLeagues(state);
   const offers = [];
-
   const blockedByImports = [];
-  for (const leagueKey of rng.shuffle(leagues)) {
-    if (offers.length >= 4) break;
+
+  for (const leagueKey of rng.shuffle(candidateLeagues(state))) {
+    if (offers.length >= MAX_OFFERS) break;
     // 外援名額：主場賽區出身的選手簽進任何海外賽區都會佔掉一個名額，而名額本來
     // 就是滿的。這不是數值不夠，是位子沒了
     if (!importSlotOpen(state, rng, leagueKey)) {
@@ -142,7 +175,7 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
     if (!pool.length) continue;
 
     // 表現越好，願意開口的隊伍越多
-    const slots = delta >= 3 ? 2 : 1;
+    const slots = delta >= HOT_DELTA ? 2 : 1;
     for (const team of rng.sample(pool, Math.min(slots, pool.length))) {
       const mult = multFor(rng, leagueKey, state);
       const years = LEAGUES[leagueKey].tier >= 3 ? rng.int(2, 3) : rng.int(1, 3);
@@ -150,12 +183,11 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
     }
   }
 
-  // 表現差時砍掉部分報價，但不會歸零到「明明還很強卻沒人要」
-  if (delta < 0 && offers.length > 1) offers.length = Math.max(1, offers.length - 1);
-  // 風評爛到見底，就算數值還在也沒幾支隊敢碰
+  // 表現差時砍掉部分報價；風評爛到見底，就算數值還在也沒幾支隊敢碰
+  if (delta < 0 && offers.length > MIN_OFFERS) offers.length = Math.max(MIN_OFFERS, offers.length - 1);
   const rep = state.mental?.rep ?? 0;
-  if ((rep <= -40 || flag(state, 'offerPenalty')) && offers.length > 1) {
-    offers.length = Math.max(1, offers.length - (rep <= -70 ? 2 : 1));
+  if ((rep <= -40 || flag(state, 'offerPenalty')) && offers.length > MIN_OFFERS) {
+    offers.length = Math.max(MIN_OFFERS, offers.length - (rep <= -70 ? 2 : 1));
   }
   offers.blockedByImports = blockedByImports;
   return offers;

@@ -1,6 +1,6 @@
 # S04 · 淨室重寫：`engine/market.js` ＋ `engine/career.js`
 
-狀態：未開始
+狀態：完成
 前置：S02
 預估：1 session
 推理難度：中
@@ -131,4 +131,29 @@ git diff --stat v4-before -- src/
 
 ## 交接筆記
 
-<!-- 做完由執行者回填 -->
+S04 淨室重寫完成（2026-08-12）。
+
+**做了什麼**：依 00 規則第二節五步法，關掉原檔重寫五個檔——
+`engine/career.js`（單季貢獻抽成 `seasonScore`、榮譽加分表驅動）、`engine/market.js`
+（候選賽區改表驅動、報價/續約拆小函式）、`phases/media.js`、`phases/salary.js`
+（重寫敘事註解，行為不變）、`phases/transfer.js`（A 批段落重寫：run 骨架、
+tickContract、academyStage、業餘三層出路、freeAgency 主體；`renewalOptions`/
+`offerOptions` 自 freeAgency 抽出）。
+
+**A/B 分界**：transfer.js 以 `ef33e1b` 為界——rumours／buyout／run 的 heat 段落／
+freeAgency 外援名額卡是 B 批，逐字保留；其餘 6ec9575 從 game.js 搬來的 FA 模型主體
+是 A 批，重寫。`phases/{msi,worlds}.js` 的 run 已被 a140b9e／3af552d 整段覆蓋，
+沒有可單獨提取的 A 批骨架，故未動（符合血緣表「沿用」處置）。
+
+**驗證**：`npm test` 8943 項全綠。golden 相對入口（S03 commit `eddbbd3`）零變動——
+「160 段生涯與基準一致」逐位元通過。另做雙版本對比：160 段生涯 careerScore/
+careerTier 全一致；market.js 全部匯出函式（含 generateOffers／clubVerdict／tryout／
+academyOffer／signContract）輸出與 rng 流逐位一致。
+
+**完成定義備註**：說明書寫的 `git diff v4-before -- tests/regression/golden.json`
+在 S03 之後不再為空——S03 換 rng 時已重刷 golden（2666 行），v4-before 是舊 rng
+基準。S04 的正確基準是 S03 commit（`eddbbd3`）：對它 diff，golden 為空、src/ 只動
+本清單五個檔。
+
+**留給下一站**：S05 淨室 regions/formats。S04 未碰 `data/regions/*`、`data/formats/*`、
+`engine/roster.js` 的 A 批資料流（S05 依血緣表處理）。

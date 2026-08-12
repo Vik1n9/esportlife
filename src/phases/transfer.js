@@ -27,36 +27,40 @@ import { card, drawRoleplay, fusionBeats } from './shared.js';
 
 export const kind = 'TRANSFER';
 
+/** 能力跌破這個數字，連青訓的最低標都算不上，直接判出局 */
+const FLOOR_OVR = 30;
+
 export function* run(g) {
   const { state, rng } = g;
 
+  // 業餘與青訓的年度流程自成一套，職業選手才走下面的異動主線
   if (state.stage === 'AMATEUR') {
-    // 數值達標就會有隊伍上門，不必熬滿三年
     yield* amateurStage(g);
     return;
   }
-
   if (state.stage === 'AM2') {
     yield* academyStage(g);
     return;
   }
 
   /* ---- PRO ---- */
+
+  // 28 歲仍在一軍的老將，這一年覺醒「用頭腦打球」——衰退減緩、可延長生涯
   if (state.age >= 28 && (state.lastDelta || 0) >= 0 && !state.skipSeason && unlockTrait(state, 'veteran')) {
     yield card('gold', '隱藏素質解鎖：老將', '28 歲仍屹立一軍，你學會用頭腦打比賽。<b class="hl">衰退減緩、可延長生涯</b>。');
     yield* fusionBeats(g);
   }
 
-  if (effectiveOvr(state) < 30) retire('能力已跌破青訓最低水準，遭釋出，被迫退役。');
+  if (effectiveOvr(state) < FLOOR_OVR) retire('能力已跌破青訓最低水準，遭釋出，被迫退役。');
 
+  // 史實解散：拿過世界冠軍就能改寫史實續營，否則合約作廢、強制進市場
   const note = disbandNoteFor(state);
   if (note) {
     if (state.wonWorldsThisYear) {
       yield card('gold', '改寫歷史',
         `你們用一座世界冠軍<b class="hl">改寫了史實</b>——<b class="hl">${state.team}</b> 沒有解散，母公司宣布續營！`);
       state.honors.push(`${state.year} 改寫歷史`);
-      // 續營＝合約照走
-      tickContract(state);
+      tickContract(state);   // 續營＝合約照走
       return;
     }
     yield card('bad', '隊伍解散', `<b class="hl">${state.team}</b> ${note}。合約作廢，你被<b class="hl">強制送入自由市場</b>。`);
@@ -66,7 +70,7 @@ export function* run(g) {
     return;
   }
 
-  // 休息室與輿論的後果。合約還沒到期也擋不住——這是「被開除」跟「約滿不續」的差別
+  // 休息室與輿論的清算：合約還沒到期也擋不住——這是「被開除」跟「約滿不續」的差別
   const verdict = clubVerdict(state, rng);
   if (verdict.kind !== 'none') {
     state.firedTimes += 1;
@@ -172,6 +176,7 @@ function* buyout(g, heat) {
   return true;
 }
 
+/** 合約時鐘：一年走一格，掛零後就是自由球員 */
 function tickContract(state) {
   if (state.contract) state.contract.years = Math.max(0, state.contract.years - 1);
   state.teamYears += 1;
@@ -209,6 +214,7 @@ function* academyStage(g) {
 
 /* ================= 業餘出路 ================= */
 
+/** 業餘選手直接被一隊簽走：進 PRO、清掉試訓路線偏好 */
 function* joinProTeam(g, offer, track, title) {
   const { state, rng } = g;
   state.stage = 'PRO';
@@ -219,6 +225,7 @@ function* joinProTeam(g, offer, track, title) {
     `你被 <b class="hl">${offer.team}</b> 簽下，正式踏入 <b class="hl">${leagueLabel(state, offer.league)}</b>！教練體系：${state.coach}。`);
 }
 
+/** 業餘選手被收進二隊：進 AM2，薪水低但有完整的訓練環境 */
 function* joinAcademy(g, offer, track) {
   const { state, rng } = g;
   state.stage = 'AM2';
@@ -248,6 +255,8 @@ function* amateurStage(g) {
   const interest = scoutInterest(state);
   const offers = [];
 
+  // 依門檻從高到低試：海外 → 主場一隊 → 青訓。前面試過了才輪得到後面，
+  // 所以「海外達標」的人不會同時收到青訓跟海外的邀約混淆選擇
   if (interest.overseas) {
     const abroad = tryout(state, rng, 'OVERSEAS');
     if (abroad.ok) offers.push({ offer: abroad, track: 'OVERSEAS', pro: true });
@@ -328,6 +337,40 @@ function* amateurDeadEnd(g) {
 
 /* ================= 自由市場 ================= */
 
+/** 約滿時的續約選項：同隊長約與短約，強制 FA 沒有這組 */
+function renewalOptions(state) {
+  const { long, short } = renewalTerms(state);
+  return [
+    {
+      id: 'renew-long',
+      label: `與 ${state.team} 續長約`,
+      note: `${long.years} 年｜年薪估 ${formatMoney(annualSalary(state, state.league, long.mult))}`,
+      main: true,
+      payload: { team: state.team, league: state.league, ...long },
+    },
+    {
+      id: 'renew-short',
+      label: `與 ${state.team} 簽短約`,
+      note: `${short.years} 年｜年薪估 ${formatMoney(annualSalary(state, state.league, short.mult))}｜賭下次身價`,
+      payload: { team: state.team, league: state.league, ...short },
+    },
+  ];
+}
+
+/** 市場報價轉成選項。主場賽區的隊名用當年稱呼，海外賽區用賽區名 */
+function offerOptions(state, offers) {
+  return offers.map((offer, i) => {
+    const league = LEAGUES[offer.league];
+    const label = league.region === 'HOME' ? homeLeagueName(state) : league.name;
+    return {
+      id: `offer-${i}`,
+      label: `${offer.team}（${label}）`,
+      note: `${offer.years} 年｜年薪估 ${formatMoney(offer.salary)}｜係數 ×${offer.mult.toFixed(2)}`,
+      payload: offer,
+    };
+  });
+}
+
 function* freeAgency(g, { forced }) {
   const { state, rng } = g;
   const offers = generateOffers(state, rng, { excludeCurrentTeam: forced });
@@ -341,34 +384,10 @@ function* freeAgency(g, { forced }) {
       `<br><span class="muted">要擠進去，你得強到讓對方願意把現有的外援換掉。</span>`);
   }
 
-  if (!forced && state.contract) {
-    const { long, short } = renewalTerms(state);
-    options.push({
-      id: 'renew-long',
-      label: `與 ${state.team} 續長約`,
-      note: `${long.years} 年｜年薪估 ${formatMoney(annualSalary(state, state.league, long.mult))}`,
-      main: true,
-      payload: { team: state.team, league: state.league, ...long },
-    });
-    options.push({
-      id: 'renew-short',
-      label: `與 ${state.team} 簽短約`,
-      note: `${short.years} 年｜年薪估 ${formatMoney(annualSalary(state, state.league, short.mult))}｜賭下次身價`,
-      payload: { team: state.team, league: state.league, ...short },
-    });
-  }
+  if (!forced && state.contract) options.push(...renewalOptions(state));
+  options.push(...offerOptions(state, offers));
 
-  offers.forEach((offer, i) => {
-    const league = LEAGUES[offer.league];
-    const label = league.region === 'HOME' ? homeLeagueName(state) : league.name;
-    options.push({
-      id: `offer-${i}`,
-      label: `${offer.team}（${label}）`,
-      note: `${offer.years} 年｜年薪估 ${formatMoney(offer.salary)}｜係數 ×${offer.mult.toFixed(2)}`,
-      payload: offer,
-    });
-  });
-
+  // 一張報價都沒有：被釋出的直接退休，約滿的只能減薪留下或退役
   if (!options.length) {
     if (forced) {
       state.forcedRetire = true;

@@ -1,5 +1,25 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-12 — S04 淨室重寫：market/career（含 transfer 的 A 批段落）
+
+- **方向**：S02 血緣表把 `engine/{market,career}.js` 標 A 批、`phases/transfer.js`
+  標 A/B（FA 模型主體承袭、轉會窗口 B 批）、`phases/{media,salary}.js` 標純 A。
+  V4 保留這些機制，所以排淨室重寫——只看介面與測試，關掉原檔重寫，行為等價。
+- **A/B 分界**：transfer.js 以 `ef33e1b` 為界——rumours／buyout／run 的 heat 段落／
+  freeAgency 外援名額卡是 B 批逐字保留，其餘 6ec9575 從 game.js 搬的 FA 模型主體
+  （業餘三層出路、青訓、解散、休息室清算、自由市場）重寫。`msi/worlds.js` 的 run
+  已被整段 B 批覆蓋，無可單獨提取的骨架，未動。
+- **重寫重點**：career.js 把單季貢獻抽成 `seasonScore`、榮譽加分表驅動；market.js
+  候選賽區改表驅動、續約/報價選項拆成 `renewalOptions`/`offerOptions` 小函式；
+  行為全部維持——rng 消費順序是行為等價的命脈（shuffle→importSlotOpen→pick→
+  sample→next→int 的順序不能動，連「失敗的試訓也會先消耗 pick」這種細節都要留）。
+- **驗證**：`npm test` 8943 項全綠；golden 相對 S03 入口零變動（「160 段生涯與基準
+  一致」逐位元過）。另做雙版本對比：160 段生涯 careerScore/careerTier 全一致；
+  market.js 全部匯出函式輸出與 rng 流逐位一致。
+- **完成定義備註**：說明書的 `git diff v4-before -- golden.json` 在 S03 後不再為空
+  （S03 換 rng 重刷過 golden）。S04 的正確基準是 S03 commit，對它 diff 為空。
+- **狀態**：完成。下一步：S05 淨室 regions/formats（或 S06 授權）。
+
 ## 2026-08-12 — S03 淨室重寫：rng 換 xorshift32、進入點與版面重寫
 
 - **方向**：S02 血緣表把 `core/rng.js`、`main.js`、`ui/board.js`、`styles.css` 標 A 批，

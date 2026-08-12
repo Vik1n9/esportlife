@@ -1,4 +1,10 @@
-/** 年度薪資結算。 */
+/**
+ * 年度薪資結算。
+ *
+ * 這一段同時把「合約薪資」與「業外收入」入帳：前者看合約係數，後者是上一年
+ * 扮演／事件累積下來的 `bonusSalary`，結算後歸零，避免跨年重複計算。
+ * 業餘沒有合約、青訓薪水由合約照算，所以只有業餘要提前退出。
+ */
 import { annualSalary, formatMoney } from '../engine/market.js';
 import { currentLeagueKey } from '../engine/roster.js';
 import { card } from './shared.js';
