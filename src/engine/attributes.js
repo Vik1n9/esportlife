@@ -1,8 +1,9 @@
-/** 屬性與技能的計算：技能求值、OVR、成長成本、加點、年齡衰退、退役上限。純函式（會就地修改 state.attr）。 */
+/** 屬性與技能的計算：技能求值、OVR、潛力衰減與加點、年齡衰退、退役上限。純函式（會就地修改 state.attr）。 */
 import { clamp } from '../core/rng.js';
 import {
-  AGING_GAIN_ATTRS, ATTRS, ATTR_CAP, ATTR_CAP_GODHAND, DECLINE_ATTRS,
-  GROWTH_COST, OVER_POTENTIAL_MULTIPLIER,
+  AGING_GAIN_AMOUNT, AGING_GAIN_ATTRS, ATTRS, ATTR_CAP, ATTR_CAP_GODHAND,
+  CEILING_FLOOR, CEILING_TAPER, DECLINE_ATTRS, DECLINE_EARLY, DECLINE_LATE_BASE,
+  DECLINE_LATE_STEP, GROWTH_BASE, GROWTH_TIER_COEF, POTENTIAL_BANDS,
 } from '../data/attributes.js';
 import { ROLE_ATTR_WEIGHTS, ROLE_SKILLS, SKILL_WEIGHTS } from '../data/skills.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
@@ -72,34 +73,62 @@ export function effectiveOvr(state) {
 
 /* ================= 成長 ================= */
 
+/** 潛力區間裡最低的那一段的中位數，`state.potential` 缺鍵時的保底 */
+const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
+
+/** 級距係數：現值落在哪一段（V4 §7.1） */
+function tierCoef(current) {
+  return GROWTH_TIER_COEF.find((g) => current >= g.at).coef;
+}
+
+/**
+ * 天花板係數：距潛力天花板越近，同樣的訓練換到的成長越少。
+ * 距離 ≥ CEILING_TAPER 不打折；貼著或已經超過天花板則掉到 CEILING_FLOOR。
+ */
+function ceilingCoef(current, potentialCap) {
+  const headroom = Math.min(Math.max(potentialCap - current, 0), CEILING_TAPER);
+  return CEILING_FLOOR + (1 - CEILING_FLOOR) * (headroom / CEILING_TAPER);
+}
+
+/** 潛力衰減係數（V4 §5.3）＝ 級距係數 × 天花板係數 */
+export function decayCoef(current, potentialCap) {
+  return tierCoef(current) * ceilingCoef(current, potentialCap);
+}
+
+/**
+ * 買下一點要投入多少訓練成果。
+ *
+ * 設施制（S16）的介面是「基礎成長值 × 衰減係數 = 這次漲多少」，這一站還是舊的加點
+ * 介面，所以取倒數換算回「一點要多少」——同一個模型的兩種寫法，讓 UI 與 `carry`
+ * 蓄力機制原封不動。
+ */
 function stepCost(current, cap) {
-  const base = GROWTH_COST.find((g) => current >= g.at).cost;
-  return current >= cap ? base * OVER_POTENTIAL_MULTIPLIER : base;
+  return 1 / decayCoef(current, cap);
 }
 
 /** 下一點需要多少訓練點（給 UI 顯示用） */
 export function nextStepCost(state, key) {
-  return stepCost(state.attr[key], state.potential[key] ?? 62);
+  return stepCost(state.attr[key], state.potential[key] ?? DEFAULT_POTENTIAL);
 }
 
 /**
  * 成長門檻資訊（純顯示用）。
- * 回傳目前的單點成本、是否已超過潛力上限（成本 ×3），
- * 以及下一個會漲價的數值門檻與屆時成本。
+ * 回傳目前的單點成本、是否已貼上潛力天花板，以及下一個會漲價的級距門檻與屆時成本。
+ *
+ * 成本現在是連續的（天花板係數逐點遞減），所以 `nextAt` 只剩級距的意義：它回答
+ * 「再練到哪個數字，價位會跳一階」，天花板那一段的遞減則反映在 `cost` 本身。
  */
 export function growthThreshold(state, key) {
   const value = state.attr[key];
-  const potentialCap = state.potential[key] ?? 62;
+  const potentialCap = state.potential[key] ?? DEFAULT_POTENTIAL;
   const over = value >= potentialCap;
-  const mult = over ? OVER_POTENTIAL_MULTIPLIER : 1;
-  const current = GROWTH_COST.find((g) => g.at <= value) || GROWTH_COST[GROWTH_COST.length - 1];
-  // GROWTH_COST 依 at 遞減排列，反轉後找「最小的、高於目前值」的門檻
-  const next = [...GROWTH_COST].reverse().find((g) => g.at > value) || null;
+  // GROWTH_TIER_COEF 依 at 遞減排列，反轉後找「最小的、高於目前值」的級距門檻
+  const next = [...GROWTH_TIER_COEF].reverse().find((g) => g.at > value) || null;
   return {
-    cost: current.cost * mult,
+    cost: stepCost(value, potentialCap),
     over,
     nextAt: next ? next.at : null,
-    nextCost: next ? next.cost * mult : null,
+    nextCost: next ? stepCost(next.at, potentialCap) : null,
   };
 }
 
@@ -124,8 +153,8 @@ export function investAttr(state, key, points) {
     return state.attr[key] - before;
   }
 
-  const potentialCap = state.potential[key] ?? 62;
-  let budget = points * factor(state, 'growthMult') + (state.carry[key] || 0);
+  const potentialCap = state.potential[key] ?? DEFAULT_POTENTIAL;
+  let budget = points * GROWTH_BASE * factor(state, 'growthMult') + (state.carry[key] || 0);
   let current = before;
 
   while (current < cap) {
@@ -149,6 +178,18 @@ export function adjustAttr(state, key, delta) {
   return state.attr[key] - before;
 }
 
+/**
+ * 機率性取整：`2.5` 有一半機率變 2、一半變 3。
+ *
+ * 0–100 刻度下的衰退量帶小數（§7.2 的 −2.5 與 +1.25），但屬性值是整數。直接
+ * `Math.round(2.5)` 一律進位成 3，等於把 30–32 歲那段衰退平白加重兩成；機率性取整
+ * 的期望值就是原本的小數，不必為了保留小數而讓存檔多帶一個累加欄位。
+ */
+function stochasticRound(rng, x) {
+  const base = Math.floor(x);
+  return base + (rng.next() < x - base ? 1 : 0);
+}
+
 /** 退役硬上限 */
 export function retirementAge(state) {
   return floorOf(state, 'retireAge', 34);
@@ -165,26 +206,28 @@ export function applyAgeDecline(state, rng) {
   const declineAge = state.age - floorOf(state, 'declineOffset', 0);
   if (declineAge < 30) return null;
 
-  const raw = declineAge >= 33 ? 4 + (declineAge - 33) : 2;
-  const amount = Math.max(1, Math.round(raw * capOf(state, 'declineMult', 1)));
+  const raw = declineAge >= 33
+    ? DECLINE_LATE_BASE + (declineAge - 33) * DECLINE_LATE_STEP
+    : DECLINE_EARLY;
+  const amount = Math.max(1, raw * capOf(state, 'declineMult', 1));
 
   const keys = DECLINE_ATTRS.filter((k) => k in state.attr);
   for (const k of keys) {
     // `不老傳奇` 對靈巧/技巧再減半
-    const hit = state.epic.ageless && (k === 'agi' || k === 'tec') ? Math.max(1, Math.round(amount / 2)) : amount;
-    state.attr[k] = clamp(state.attr[k] - hit, 1, attrCap(state));
+    const hit = state.epic.ageless && (k === 'agi' || k === 'tec') ? Math.max(1, amount / 2) : amount;
+    state.attr[k] = clamp(state.attr[k] - stochasticRound(rng, hit), 1, attrCap(state));
   }
 
   // 經驗型屬性 30 歲後仍可能續升
   const grown = [];
   for (const k of AGING_GAIN_ATTRS) {
     if (k in state.attr && rng.next() < 0.5) {
-      state.attr[k] = clamp(state.attr[k] + 1, 1, attrCap(state));
+      state.attr[k] = clamp(state.attr[k] + stochasticRound(rng, AGING_GAIN_AMOUNT), 1, attrCap(state));
       grown.push(k);
     }
   }
 
-  return { amount, phase: declineAge >= 33 ? 2 : 1, keys, grown };
+  return { amount: Math.round(amount * 10) / 10, phase: declineAge >= 33 ? 2 : 1, keys, grown };
 }
 
 export function attrKeys() {

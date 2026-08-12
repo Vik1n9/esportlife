@@ -173,7 +173,6 @@ floorOf(state, key, base)  capOf(state, key, base)  flag(state, key)
 ```bash
 npm test                 # 全部
 node tests/run.mjs kernel  # 只跑某一區
-npm run test:golden      # 重新 baseline 黃金種子快照
 ```
 
 `tests/run.mjs` 自動掃描 `kernel/ phases/ history/ regression/`，加一個 suite 不必改 runner。
@@ -183,10 +182,13 @@ npm run test:golden      # 重新 baseline 黃金種子快照
 | `kernel/` | BO 系列、小組賽與 Swiss、modifiers、心理值、特質合成 |
 | `phases/` | 自由市場、業餘出路、先發板凳、轉會與外援名額 |
 | `history/` | **史實斷言**：2020 無 MSI、2022 不得 Swiss、2025 不得用冠軍點數、席位數逐年、2013 不得出現 PSG Talon 二隊 |
-| `regression/` | 160 段生涯冒煙、評價分布、種子界線、**黃金種子快照** |
+| `regression/` | 160 段生涯冒煙、評價分布、**平衡不變式（測試網）** |
 
-黃金種子快照錄下 160 段生涯的 state 雜湊與可讀摘要。純重構必須逐位元一致；有意的
-賽制改動則重新 baseline，並在 commit 訊息說明差異來源。
+**決定論已廢（V4 §20.1），黃金種子快照隨之刪除。** 取而代之的是
+`regression/invariants.mjs`：它不錄快照，改成守住「這個遊戲之所以是這個遊戲」的那幾條
+性質——巔峰上界、打法差距、頂端才兌現、傳奇稀有度、位置身分、合成消耗、潛力衰減、
+心理是放大器。門檻一律寫成**比例**（÷ 屬性上限），所以換刻度時不必重刷基準。
+尚未實作的機制（十二技能、六維心理、體力、事件互斥）以 SKIP 掛著，各自指名在等哪一站。
 
 ---
 

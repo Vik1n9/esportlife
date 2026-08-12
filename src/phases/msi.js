@@ -26,10 +26,14 @@ export const kind = 'MSI';
 /**
  * 國際賽的對手不是聯賽對手，是各賽區的冠軍。
  * 基準拉到頂級賽區水準，再依輪次遞增。
+ *
+ * **絕對地板 72（0–100 刻度，V4 §11.1 §17.2 三）是這一段的核心**：主場賽區 par 是
+ * 66，所以一支主場冠軍隊踏進 MSI，對手基準立刻從 66 跳到 72——那六點的落差就是
+ * 「國際賽會吃掉你」的全部來源。位置戰力差幾點在常規賽看不出來，在這裡就是輸贏。
  */
 function intlOpponent(state, step, rng) {
-  const base = Math.max(LEAGUES[state.league]?.par ?? 53, 58);
-  return base + step + bonus(state, 'intlRoll') * -0.15 + rng.gauss(1.3);
+  const base = Math.max(LEAGUES[state.league]?.par ?? 66, 72);
+  return base + step + bonus(state, 'intlRoll') * -0.15 + rng.gauss(1.6);
 }
 
 export function* run(g, phase) {
@@ -68,7 +72,7 @@ export function* run(g, phase) {
 /** 2015–2022：四隊小組雙循環，前二晉級，之後 BO5 淘汰賽 */
 function* groupKnockout(g) {
   const { state, rng } = g;
-  const oppOvrs = [0, 1.5, 3].map((s) => intlOpponent(state, s, rng));
+  const oppOvrs = [0, 2, 4].map((s) => intlOpponent(state, s, rng));
 
   const group = runGroup(state, rng, { oppOvrs, seed: 0 });
   yield card(group.advanced ? 'good' : 'bad', 'MSI 小組賽',
@@ -93,7 +97,7 @@ function* doubleElim(g) {
     (first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。'));
 
   if (!first.win) {
-    const lower = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 1, rng), seed: 0 });
+    const lower = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 1.25, rng), seed: 0 });
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部 · BO5',
       `系列賽 <b class="${lower.win ? 'up' : 'dn'}">${lower.mine}-${lower.theirs}</b>。` +
       (lower.win ? '從敗部殺回來了。' : '<b class="dn">兩敗淘汰</b>。'));
@@ -111,7 +115,7 @@ function* knockout(g, rounds) {
     const isFinal = i === rounds.length - 1;
     if (isFinal) yield* drawRoleplay(g, 'intl', { amp: 1.6 });
 
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 4 + i * 2.5, rng), seed: 0 });
+    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, 5 + i * 3, rng), seed: 0 });
     const decider = res.decider
       ? `<br><span class="muted">被拖進第五局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>` : '';
     yield card(res.win ? 'good' : 'bad', `MSI ${name} · BO5`,

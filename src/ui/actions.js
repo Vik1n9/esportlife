@@ -1,7 +1,13 @@
 /** 底部行動列：選項按鈕與訓練點分配介面。 */
-import { ATTR_ABBR, ATTR_CAP, ATTR_NAMES } from '../data/attributes.js';
+import { ATTR_ABBR, ATTR_CAP, ATTR_NAMES, POTENTIAL_BANDS } from '../data/attributes.js';
 import { attrCap, attrKeys, growthThreshold, investAttr, needForNextGain } from '../engine/attributes.js';
 import { byId, clear, el, scrollToBottom } from './dom.js';
+
+/** `state.potential` 缺鍵時的保底，與 `engine/attributes.js` 同一個值 */
+const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
+
+/** 帶小數的成本只在有小數時才顯示小數點，避免整數位價位變成「↑1.0」 */
+const num = (v) => (Number.isInteger(v) ? String(v) : v.toFixed(1));
 
 function actRoot() { return byId('act'); }
 
@@ -115,18 +121,19 @@ export function askAllocation(state, spec, onChange) {
       clear(rows);
       for (const key of keys) {
         const value = state.attr[key];
-        const potential = state.potential[key] ?? 62;
+        const potential = state.potential[key] ?? DEFAULT_POTENTIAL;
         const maxed = value >= cap;
         const carry = state.carry[key] || 0;
         const thr = growthThreshold(state, key);
         const need = needForNextGain(state, key);
 
+        // 潛力衰減是連續的，成本不再是整數，所以顯示一律留一位小數
         const costLine = maxed ? '滿'
-          : `↑${thr.cost}${thr.over ? '（×3）' : ''}${carry ? ` ·蓄${carry}` : ''}`;
+          : `↑${num(thr.cost)}${thr.over ? '（已過潛力）' : ''}${carry ? ` ·蓄${num(carry)}` : ''}`;
         const needLine = maxed ? ''
-          : (need > 0 ? `再 ${need} 點可升` : '蓄力已足，可直接升');
+          : (need > 0 ? `再 ${num(need)} 點可升` : '蓄力已足，可直接升');
         const thrLine = maxed ? ''
-          : (thr.nextAt != null ? `門檻 ${thr.nextAt} 後 ↑${thr.nextCost}` : '已達最高成長門檻');
+          : (thr.nextAt != null ? `門檻 ${thr.nextAt} 後 ↑${num(thr.nextCost)}` : '已達最高成長門檻');
 
         const row = el('div', { class: `abrow${maxed ? ' capped' : ''}` });
         row.innerHTML = `

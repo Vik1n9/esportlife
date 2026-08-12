@@ -4,7 +4,7 @@ export default {
   league: 'LEC',
   name: 'LEC',
 
-  ladder: { par: 56, min: 53, games: 66, baseSalary: 600, tier: 3, bucket: 'OVERSEAS' },
+  ladder: { par: 70, min: 66, games: 66, baseSalary: 600, tier: 3, bucket: 'OVERSEAS' },
 
   timeline: {
     splits: [

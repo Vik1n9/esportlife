@@ -29,7 +29,9 @@ export const SPLIT_WEEKS = 12;
  * @returns {number} 約 0.85（透支）～ 1.06（狀態飽滿）
  */
 export function formFactor(sta) {
-  return clamp(1 + (sta - 50) * 0.007, 0.85, 1.06);
+  // sta 是技能值，跟屬性同刻度：中點 50 → 62.5（×1.25），per-point 係數 0.007 → 0.0056
+  // （÷1.25）。兩邊配著改，同一個相對體力水準給出的手感倍率才跟重校前一樣
+  return clamp(1 + (sta - 62.5) * 0.0056, 0.85, 1.06);
 }
 
 /**
@@ -40,11 +42,11 @@ export function formFactor(sta) {
  */
 export function benchRisk(state) {
   if (state.stage !== 'PRO') return 0;
-  const par = LEAGUES[state.league]?.par ?? 53;
+  const par = LEAGUES[state.league]?.par ?? 66;
   const delta = effectiveOvr(state) - par;
 
   let risk = 2;
-  if (delta < 0) risk += -delta * 3.2;              // 打不到隊伍平均就會被檢討
+  if (delta < 0) risk += -delta * 2.56;             // 打不到隊伍平均就會被檢討（3.2 ÷ 1.25）
   if (state.mental.chem <= 30) risk += (30 - state.mental.chem) * 0.7;
   if (state.returningFromInjury) risk += 14;        // 替補頂了幾週，位子不一定還在
   if (state.benchedStreak > 0) risk += 10;          // 已經坐過一次，教練更容易再讓你坐

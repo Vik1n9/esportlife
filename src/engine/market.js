@@ -22,8 +22,14 @@ export function formatMoney(n) {
   return `${Math.round(n)}萬`;
 }
 
-/** 每 1 點上季表現差額，年薪多加 5%——但只加不減，表現差時不扣錢 */
-const DELTA_SALARY_PCT = 0.05;
+/**
+ * 每 1 點上季表現差額，年薪多加 4%——但只加不減，表現差時不扣錢。
+ *
+ * ⚠ 這一類「每高一點評價換多少東西」的 per-point 係數，在 0–100 重校時要**除以**
+ * 1.25 而不是乘（V4 §17.2）：刻度放大之後，同一個相對差距會產出 1.25 倍的點數，
+ * 係數不除就等於把全部靈敏度上調兩成。舊值 0.05 ÷ 1.25 = 0.04。
+ */
+const DELTA_SALARY_PCT = 0.04;
 
 /**
  * 年薪＝聯賽基準 × 合約係數 × 時代係數 × 表現係數 × 特質因子。
@@ -50,21 +56,24 @@ export function disbandNoteFor(state, year = state.year) {
 /**
  * 依現在的實力決定哪些聯賽會打電話來。
  *
- * 海外兩級是「高門檻、看近況」：LCK/LPL 要求上季要有成長（delta ≥ 1），
+ * 海外兩級是「高門檻、看近況」：LCK/LPL 要求上季高於該聯賽 par（delta ≥ 1.25），
  * LEC/LCS 只要持平。主場賽區門檻最低，是所有人的退路。
+ *
+ * ⚠ `delta` 是「高於所在聯賽 par 幾點」（水準量），不是「今年成長了幾點」。它吃
+ * 刻度，所以門檻跟著 ×1.25（1 → 1.25）；零不必縮放。偏移量同理（§17.2 三）。
  */
 function candidateLeagues(state) {
   const o = effectiveOvr(state);
   const delta = state.lastDelta || 0;
   const gates = [
-    { ready: () => o >= LEAGUES.LCK.min && delta >= 1, keys: ['LCK', 'LPL'] },
+    { ready: () => o >= LEAGUES.LCK.min && delta >= 1.25, keys: ['LCK', 'LPL'] },
     { ready: () => o >= LEAGUES.LEC.min && delta >= 0, keys: ['LEC', 'LCS'] },
-    { ready: () => o >= LEAGUES.HOME.min - 2, keys: ['HOME'] },
+    { ready: () => o >= LEAGUES.HOME.min - 2.5, keys: ['HOME'] },
   ];
   const out = [];
   for (const gate of gates) if (gate.ready()) out.push(...gate.keys);
   // 連主場一隊都摸不到，才輪得到青訓次級來找人
-  if (!out.length && o >= LEAGUES.AM2.min - 4) out.push('AM2');
+  if (!out.length && o >= LEAGUES.AM2.min - 5) out.push('AM2');
   return out;
 }
 
@@ -137,8 +146,8 @@ export function retentionPremium(state) {
 
 /** 一次市場最多開幾張報價 */
 const MAX_OFFERS = 4;
-/** 上季成長 ≥ 3 的選手，每支隊願意多談一個名額 */
-const HOT_DELTA = 3;
+/** 上季高出所在聯賽 par ≥ 3.75 的選手，每支隊願意多談一個名額（舊 3 × 1.25） */
+const HOT_DELTA = 3.75;
 /** 報價最少留一張，不會歸零到「明明還很強卻沒人要」 */
 const MIN_OFFERS = 1;
 
@@ -217,7 +226,7 @@ export function signContract(state, rng, { team, league, years, mult }) {
 export function tryout(state, rng, track = 'HOME') {
   const o = effectiveOvr(state);
   const league = track === 'OVERSEAS' ? rng.pick(OVERSEAS_LEAGUES) : 'HOME';
-  const threshold = track === 'OVERSEAS' ? LEAGUES[league].min - 6 : LEAGUES.HOME.par - 8;
+  const threshold = track === 'OVERSEAS' ? LEAGUES[league].min - 7.5 : LEAGUES.HOME.par - 10;
   if (o < threshold) return { ok: false };
   const pool = teamsOf(state, league);
   if (!pool.length) return { ok: false };
@@ -236,11 +245,15 @@ export function tryout(state, rng, track = 'HOME') {
  *
  * 所以門檻分成三層：青訓二隊（最常見的出路）、主場一隊（少年天才）、
  * 海外賽區（極罕見）。
+ *
+ * 偏移量是 0–100 刻度（§17.2 三）：一隊晉級／板凳 `par − 10`、海外試訓 `min − 7.5`。
+ * §7.3 的起始評價 58 就是靠 `HOME.par − 10 = 56` 這條過關——「青訓打得很好、剛被
+ * 一隊撿上來、還沒站穩」。
  */
 export const SCOUT_BAR = {
-  AM2: LEAGUES.AM2.par - 8,
-  HOME: LEAGUES.HOME.par - 8,
-  OVERSEAS: Math.min(...OVERSEAS_LEAGUES.map((l) => LEAGUES[l].min - 6)),
+  AM2: LEAGUES.AM2.par - 10,
+  HOME: LEAGUES.HOME.par - 10,
+  OVERSEAS: Math.min(...OVERSEAS_LEAGUES.map((l) => LEAGUES[l].min - 7.5)),
 };
 
 /** 不消耗亂數的純查詢，供流程判斷這一年有哪些層級會來敲門 */
@@ -265,16 +278,17 @@ export function academyOffer(state, rng, track = 'HOME') {
 /** 續約時可選的合約長度 */
 export function renewalTerms(state) {
   const d = state.lastDelta || 0;
-  const maxYears = d >= 3 ? 4 : d >= 0 ? 3 : 1;
+  const maxYears = d >= HOT_DELTA ? 4 : d >= 0 ? 3 : 1;
   // 續約走的是同一套三段順序，只是短約的封頂寬一點（留人的價碼砍不了那麼狠）
+  // 0.024 是舊的 per-point 係數 0.03 ÷ 1.25（§17.2 二）
   const premium = retentionPremium(state);
   const long = {
     years: maxYears,
-    mult: Math.round(clamp(contractMult(state, 0.95 + d * 0.03 + premium), 0.7, 1.6) * 100) / 100,
+    mult: Math.round(clamp(contractMult(state, 0.95 + d * 0.024 + premium), 0.7, 1.6) * 100) / 100,
   };
   const short = {
     years: Math.min(2, maxYears),
-    mult: Math.round(clamp(contractMult(state, 1.12 + d * 0.03 + premium, { capKey: 'contractCapShort' }), 0.8, 1.9) * 100) / 100,
+    mult: Math.round(clamp(contractMult(state, 1.12 + d * 0.024 + premium, { capKey: 'contractCapShort' }), 0.8, 1.9) * 100) / 100,
   };
   return { long, short };
 }

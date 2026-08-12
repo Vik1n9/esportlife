@@ -26,13 +26,13 @@ export async function run({ check }) {
 
   /* ---- 體力進表現，不進場次 ---- */
   {
-    check('體力低不再讓 formFactor 崩到 0.3（那是棒球的輪值模型）', formFactor(30) > 0.8, formFactor(30));
-    check('體力高給小幅加成', formFactor(70) > 1 && formFactor(70) <= 1.06, formFactor(70));
-    check('體力對表現的影響是連續的', formFactor(60) > formFactor(50) && formFactor(50) > formFactor(40));
+    check('體力低不再讓 formFactor 崩到 0.3（那是棒球的輪值模型）', formFactor(38) > 0.8, formFactor(38));
+    check('體力高給小幅加成', formFactor(88) > 1 && formFactor(88) <= 1.06, formFactor(88));
+    check('體力對表現的影響是連續的', formFactor(75) > formFactor(62) && formFactor(62) > formFactor(50));
 
     // 體力是導出技能，要動它得動它背後的體能（VIT 佔 0.75）
-    const tired = pro('tired', 62); tired.attr.vit = 20;
-    const fresh = pro('fresh', 62); fresh.attr.vit = 78;
+    const tired = pro('tired', 78); tired.attr.vit = 25;
+    const fresh = pro('fresh', 78); fresh.attr.vit = 98;
     let tiredG = 0; let freshG = 0; let tiredD = 0; let freshD = 0;
     for (let i = 0; i < 200; i++) {
       const a = simulateSeason(tired, rng, 'LCK', 1, 1);
@@ -46,7 +46,7 @@ export async function run({ check }) {
 
   /* ---- 出賽比例 ---- */
   {
-    const state = pro('share', 62);
+    const state = pro('share', 78);
     const full = simulateSeason(state, rng, 'LCK', 1, 1);
     const half = simulateSeason(state, rng, 'LCK', 1, 0.5);
     const none = simulateSeason(state, rng, 'LCK', 1, 0);
@@ -57,22 +57,22 @@ export async function run({ check }) {
 
   /* ---- 被下放的機率由狀態決定，不是憑空擲骰 ---- */
   {
-    const good = pro('bench-good', 70);
-    const bad = pro('bench-bad', 50);
+    const good = pro('bench-good', 88);
+    const bad = pro('bench-bad', 62);
     check('打得比隊伍平均好，被下放風險低', benchRisk(good) < 8, benchRisk(good).toFixed(1));
     check('打不到隊伍平均，風險明顯上升', benchRisk(bad) > benchRisk(good) + 10,
       `${benchRisk(bad).toFixed(1)} vs ${benchRisk(good).toFixed(1)}`);
 
-    const rift = pro('bench-rift', 70); rift.mental.chem = 5;
+    const rift = pro('bench-rift', 88); rift.mental.chem = 5;
     check('默契見底會被下放', benchRisk(rift) > benchRisk(good) + 10, benchRisk(rift).toFixed(1));
 
-    const back = pro('bench-back', 70, { returningFromInjury: true });
+    const back = pro('bench-back', 88, { returningFromInjury: true });
     check('傷癒回歸時位子不一定還在', benchRisk(back) > benchRisk(good) + 10, benchRisk(back).toFixed(1));
 
-    const repeat = pro('bench-again', 70, { benchedStreak: 1 });
+    const repeat = pro('bench-again', 88, { benchedStreak: 1 });
     check('坐過一次之後更容易再坐', benchRisk(repeat) > benchRisk(good), benchRisk(repeat).toFixed(1));
 
-    check('風險有上限，不會變成必然', benchRisk(pro('bench-worst', 20, { mental: { ...bad.mental, chem: 0 }, age: 34, returningFromInjury: true, benchedStreak: 3 })) <= 75);
+    check('風險有上限，不會變成必然', benchRisk(pro('bench-worst', 25, { mental: { ...bad.mental, chem: 0 }, age: 34, returningFromInjury: true, benchedStreak: 3 })) <= 75);
   }
 
   /* ---- 業餘與青訓沒有板凳這回事 ---- */
@@ -86,7 +86,7 @@ export async function run({ check }) {
 
   /* ---- 傷勢缺席以「週」計，逐賽段消化 ---- */
   {
-    const state = pro('injury', 70);
+    const state = pro('injury', 88);
     state.injuryWeeks = SPLIT_WEEKS + 4;
     const first = lineupFor(state, rng);
     check('整段都在養傷時完全不出賽', first.share === 0 && first.status === 'injured', JSON.stringify(first));
@@ -100,7 +100,7 @@ export async function run({ check }) {
 
   /* ---- 傷勢分檔：整季報銷要罕見 ---- */
   {
-    const state = pro('injury-mix', 62);
+    const state = pro('injury-mix', 78);
     const kinds = { none: 0, minor: 0, major: 0, severe: 0 };
     for (let i = 0; i < 4000; i++) {
       state.injuryWeeks = 0; state.rehabYears = 0; state.tempInjuryRisk = 0;

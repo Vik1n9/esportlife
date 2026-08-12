@@ -4,8 +4,11 @@
  * 舊版只有在「訓練期加點」那幾秒能看到能力值，英雄池、專精、版本落差、
  * 隊友與教練、合約狀態全程都藏在 state 裡沒有出口。這裡補上一個隨時可開的面板。
  */
-import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS } from '../data/attributes.js';
+import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS, POTENTIAL_BANDS } from '../data/attributes.js';
 import { ROLE_NAMES, SKILL_NAMES } from '../data/skills.js';
+
+/** `state.potential` 缺鍵時的保底，與 `engine/attributes.js` 同一個值 */
+const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
@@ -45,7 +48,7 @@ export function refreshPanel() {
 function attrRows(state) {
   return ATTRS.map((key) => {
     const value = state.attr[key];
-    const potential = state.potential[key] ?? 62;
+    const potential = state.potential[key] ?? DEFAULT_POTENTIAL;
     const carry = state.carry[key] || 0;
     return `<details class="attr-item">
       <summary>

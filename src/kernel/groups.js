@@ -54,8 +54,8 @@ export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesT
   let wins = 0; let losses = 0;
 
   while (wins < winsToAdvance && losses < lossesToExit) {
-    // 戰績越好對手越強：+1.6 OVR / 淨勝場
-    const oppOvr = par + (wins - losses) * 1.6 + rng.gauss(1.2);
+    // 戰績越好對手越強：+2.0 OVR / 淨勝場（舊 1.6 × 1.25，§17.2 三）
+    const oppOvr = par + (wins - losses) * 2.0 + rng.gauss(1.5);
     // 晉級局與淘汰局打 BO3，其餘 BO1——2023 起的實際規則
     const decisive = wins === winsToAdvance - 1 || losses === lossesToExit - 1;
     const bo = decisive ? 3 : 1;

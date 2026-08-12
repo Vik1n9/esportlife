@@ -27,8 +27,8 @@ import { card, drawRoleplay, fusionBeats } from './shared.js';
 
 export const kind = 'TRANSFER';
 
-/** 能力跌破這個數字，連青訓的最低標都算不上，直接判出局 */
-const FLOOR_OVR = 30;
+/** 能力跌破這個數字，連青訓的最低標都算不上，直接判出局（舊 30 × 1.25） */
+const FLOOR_OVR = 38;
 
 export function* run(g) {
   const { state, rng } = g;
@@ -118,7 +118,8 @@ function* rumours(g) {
 
   const fame = state.mental.fame;
   const delta = state.lastDelta || 0;
-  const heat = Math.round(clamp((fame - 32) / 14 + Math.max(0, delta) * 0.6, 0, 5));
+  // fame 本來就是 0–100，不縮放；delta 是評價量，per-point 係數 ÷1.25（0.6 → 0.48）
+  const heat = Math.round(clamp((fame - 32) / 14 + Math.max(0, delta) * 0.48, 0, 5));
   if (heat <= 0) return 0;
 
   const pool = teamsOf(state, state.league).filter((t) => t !== state.team);
@@ -143,7 +144,8 @@ function* rumours(g) {
  */
 function* buyout(g, heat) {
   const { state, rng } = g;
-  if (heat < 3 || (state.lastDelta || 0) < 1) return false;
+  // 挖角熱度門檻：delta ≥ 1.25（舊 1 × 1.25，§17.2 二）
+  if (heat < 3 || (state.lastDelta || 0) < 1.25) return false;
   if (!rng.chance(10 + heat * 4)) return false;
 
   const offers = generateOffers(state, rng, { excludeCurrentTeam: true });
