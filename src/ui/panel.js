@@ -6,7 +6,7 @@
  */
 import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS } from '../data/attributes.js';
 import { ROLE_NAMES, SKILL_NAMES } from '../data/skills.js';
-import { HEROES } from '../data/heroes.js';
+import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
@@ -80,7 +80,7 @@ function skillRows(state) {
 }
 
 function heroRows(state) {
-  const all = HEROES[state.role];
+  const all = HEROES_BY_ROLE[state.role];
   return all.map((h) => {
     const owned = state.heroPool.includes(h);
     const mastery = state.mastery[h] || 0;

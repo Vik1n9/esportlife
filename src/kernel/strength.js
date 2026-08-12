@@ -9,7 +9,7 @@ import { chemBonus } from '../engine/mental.js';
 import { factor, floorOf } from './modifiers.js';
 
 export function coachBonus(state) {
-  return (COACHES[state.coach] || 0) * factor(state, 'coachMult');
+  return (COACHES.find((c) => c.name === state.coach)?.bonus || 0) * factor(state, 'coachMult');
 }
 
 export function matesAverage(state) {

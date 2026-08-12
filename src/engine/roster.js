@@ -45,7 +45,7 @@ export function teamsOf(state, leagueKey) {
 export function rollRoster(state, rng, leagueKey) {
   const par = LEAGUES[leagueKey].par;
   state.mates = rng.sample(MATE_NAMES, 4).map((name) => ({ name, ovr: rng.int(par - 6, par + 6) }));
-  state.coach = rng.pick(Object.keys(COACHES));
+  state.coach = rng.pick(COACHES).name;
   state.mateMorale = 0;
   // 換了一批隊友，默契要重新建立：往中性拉回一半，但你是什麼樣的人會跟著你走
   if (state.mental) state.mental.chem = Math.round((state.mental.chem + 50) / 2);

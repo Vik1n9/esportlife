@@ -1,5 +1,26 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-12 — S05 淨室重寫：regions/formats 資料結構重排（內容一字未改）
+
+- **方向**：S02 血緣表把 `data/regions/*`（A/B）與 `data/formats/playoffs.js`、
+  `data/{coaches,disband,eras,heroes,leagues,teams}.js`（e07427c 拆自 world.js 的
+  A 批）排入 S05。內容是查證過的公開事實（a140b9e／3af552d 的 LoL 改寫），要換的
+  只有資料結構的排法——行為等價，golden 零偏移。
+- **重排方向**（看過 S14 月回合制後選定）：`{ until }`「最後適用年」→ `[from, to]`
+  閉區間，賽段史直接變成時間軸表，S14 做月序時按區間分配月份即可；region 欄位
+  分成 `ladder`（聯賽靜態屬性）與 `timeline`（賽段／席位／隊名時間軸）；home 的
+  `teamsByEra` 與其他區的 `teams` 統一成同一張區間表。
+- **散表聚合**：playoffs 兩表合一、disband 巢狀物件→陣列、coaches 物件→陣列、
+  heroes 陣列＋派生索引、teams 業餘場景聚合、eras 的 if 鏈→查表。
+- **關鍵取捨**：測試依賴的導出契約全保留（teamNamesOf 簽名、TEAMS_AMATEUR、
+  DISBAND_YEAR、LEAGUES/BUCKET_NAMES、eraOf().home/.salary）——測試全屬 B 批，
+  不為重排動測試。`eraOf` 順手移除 `msi`/`worlds` 兩個全 repo 無使用者的廢棄欄位
+  （史實已住進 `data/formats/*`）。coaches 陣列順序＝原物件鍵順序，因為 `rng.pick`
+  依索引取，換順序會改到生涯結果。
+- **驗證**：`npm test` 8943 項全綠、`history` 350 項全綠、golden 對入口（S03 commit）
+  零 diff；雙版本逐值對比 16 個年份 × 8 個 region × 7 個 eraKey 的查詢全一致。
+- **狀態**：完成。下一步：S06 授權線（甲組淨室重寫全數完成後）。
+
 ## 2026-08-12 — S04 淨室重寫：market/career（含 transfer 的 A 批段落）
 
 - **方向**：S02 血緣表把 `engine/{market,career}.js` 標 A 批、`phases/transfer.js`

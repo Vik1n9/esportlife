@@ -6,7 +6,7 @@
  * capOf／flag）進來，本檔不直接讀 `state.traits`。
  */
 import { clamp } from '../core/rng.js';
-import { DISBAND_HISTORY } from '../data/disband.js';
+import { DISBANDS } from '../data/disband.js';
 import { LEAGUES, OVERSEAS_LEAGUES } from '../data/leagues.js';
 import { eraOf } from '../data/eras.js';
 import { effectiveOvr } from './attributes.js';
@@ -41,8 +41,8 @@ export function annualSalary(state, leagueKey, mult) {
 
 /** 今年（或指定年）這支隊有沒有解散事件。沒有就回 null，不是空字串 */
 export function disbandNoteFor(state, year = state.year) {
-  const table = DISBAND_HISTORY[year];
-  return table && state.team ? table[state.team] || null : null;
+  if (!state.team) return null;
+  return DISBANDS.find((d) => d.year === year && d.team === state.team)?.reason ?? null;
 }
 
 /* ---------------- 報價 ---------------- */

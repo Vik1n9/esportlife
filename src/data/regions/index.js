@@ -1,12 +1,16 @@
 /**
- * 賽區註冊表。
+ * 賽區註冊表與查詢層。
  *
- * 一個賽區一個檔，它的所有屬性同居：par／薪資／賽段史／隊名／世界賽席位／外援名額。
+ * 一個賽區一個檔，它的所有屬性同居：`ladder`（聯賽靜態屬性）／`timeline`（史實
+ * 時間軸：賽段、世界賽席位、隊名）／`importSlots`。
  *
  * 這個切法是被倒推測試選出來的：先前按屬性切（leagues.js 放 par、splits.js 放賽段、
  * teams.js 放隊名、imports.js 放名額），結果「新增一個賽區」要開 4 個檔，比原本擠在
  * 單一 world.js 的 1 個檔更差。賽區是一個實體，拆散它等於每次新增都要在四個地方
  * 各補一列還不能漏。現在新增一個賽區＝1 個新檔 ＋ 這裡加一行。
+ *
+ * 時間軸一律用 `[from, to]` 閉區間表達，查詢層依年份找適用的那一列——比「最後
+ * 適用年（until）」直白，也讓 S14 月回合制把賽段展開成月份區間時不必再猜邊界。
  */
 import HOME from './home.js';
 import KR from './kr.js';
@@ -21,9 +25,14 @@ export const LEAGUE_OF_REGION = Object.fromEntries(
   Object.values(REGIONS).map((r) => [r.key, r.league]),
 );
 
-/** 依年份在一張 `{until, ...}` 表裡找出適用的那一列 */
+/**
+ * 依年份在一張 `[from, to]` 閉區間表裡找出適用的那一列。
+ * 年份早於表起點（理論上不會發生，遊戲從 START_YEAR 開始）取第一列，晚於終點取最後。
+ */
 function rowFor(table, year) {
-  return table.find((r) => year <= r.until) || table[table.length - 1];
+  return table.find((r) => r.from <= year && year <= r.to)
+    ?? table.find((r) => year < r.from)
+    ?? table[table.length - 1];
 }
 
 /**
@@ -39,7 +48,7 @@ function rowFor(table, year) {
 export function splitsOf(year, region) {
   const r = REGIONS[region];
   if (!r) return [{ key: 'S1', name: '賽季', weight: 1 }];
-  const names = rowFor(r.splits, year).names;
+  const names = rowFor(r.timeline.splits, year).names;
   return names.map((name, i) => ({ key: `S${i + 1}`, name, weight: 1 / names.length }));
 }
 
@@ -55,13 +64,13 @@ export function splitsOf(year, region) {
 export function msiSplitOf(year, region) {
   const r = REGIONS[region];
   if (!r) return null;
-  return rowFor(r.splits, year).msiAfter ?? null;
+  return rowFor(r.timeline.splits, year).msiAfter ?? null;
 }
 
 /** 該年度某賽區的世界賽席位數 */
 export function worldsSlotsOf(year, region) {
   const r = REGIONS[region];
-  return r ? rowFor(r.worldsSlots, year).n : 0;
+  return r ? rowFor(r.timeline.worldsSlots, year).n : 0;
 }
 
 /** 某賽區每隊的外援名額上限。母區回傳 Infinity（本地選手不佔名額）。 */
@@ -71,10 +80,12 @@ export function importSlotsOf(region) {
 
 /**
  * 該年度某賽區的隊名清單（未過濾解散）。
- * 主場賽區隨時代改名換隊，所以吃 `eraKey`；其餘賽區只有一份名單。
+ * 主場賽區隨時代改名換隊，所以吃 `eraKey`（即 eraOf(year).home）；其餘賽區只有
+ * 一份名單，沒有 era 標記，直接取無標記的那一列。
  */
 export function teamNamesOf(region, eraKey) {
   const r = REGIONS[region];
   if (!r) return [];
-  return r.teamsByEra ? (r.teamsByEra[eraKey] || []) : (r.teams || []);
+  const eraRow = r.timeline.teams.find((t) => t.era === eraKey);
+  return eraRow ? eraRow.names : (r.timeline.teams.find((t) => !t.era)?.names || []);
 }

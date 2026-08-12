@@ -8,7 +8,7 @@ import { Rng } from '../core/rng.js';
 import { ATTRS } from '../data/attributes.js';
 import { ROLE_START_EDGE } from '../data/skills.js';
 import { MENTAL_START } from '../data/mental.js';
-import { HEROES } from '../data/heroes.js';
+import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
@@ -81,7 +81,7 @@ export function createState({ name, role, seed }) {
     fusedAway: [],       // 被合成消耗掉的特質名稱（結算時劃線顯示）
     recentEvents: [],    // 最近出過的事件卡 id（反覆抽不重複的暫存）
 
-    heroPool: birth.sample(HEROES[role], 3),
+    heroPool: birth.sample(HEROES_BY_ROLE[role], 3),
     mastery: {},
     patchDebt: 0,        // 版本落差：越高懲罰越重
     patchCount: 0,       // 生涯經歷過的版本大改動次數

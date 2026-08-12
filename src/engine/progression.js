@@ -1,6 +1,6 @@
 /** 受傷、版本改動、英雄專精、特質解鎖與合成。 */
 import { clamp } from '../core/rng.js';
-import { HEROES, PATCH_THEMES } from '../data/heroes.js';
+import { HEROES_BY_ROLE, PATCH_THEMES } from '../data/heroes.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, FUSIONS, LEGENDARY_TRAITS } from '../data/epics.js';
 import { bonus, capOf, factor, flag, TIER_STORES, traitName } from '../kernel/modifiers.js';
@@ -65,7 +65,7 @@ export function adjustPatchDebt(state, delta) {
 
 /** 出賽會累積專精，專精滿了就把新英雄納入池子 */
 export function trainHeroes(state, rng, games) {
-  const all = HEROES[state.role];
+  const all = HEROES_BY_ROLE[state.role];
   const learned = [];
   const reps = Math.min(Math.max(1, Math.round(games / 8)), 6);
   for (let i = 0; i < reps; i++) {

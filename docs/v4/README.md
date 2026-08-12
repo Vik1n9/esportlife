@@ -48,7 +48,7 @@
 | [S02](02-血緣審計.md) | 血緣審計 | ✅ 完成 | S01 | 中 | Sonnet 5 |
 | [S03](03-淨室-rng與進入點.md) | 淨室：`core/rng.js` ＋ 進入點版面 | ✅ 完成 | S02 | 中 | Sonnet 5 |
 | [S04](04-淨室-market與career.md) | 淨室：`engine/market.js` ＋ `career.js` | ✅ 完成 | S02 | 中 | Sonnet 5 |
-| [S05](05-淨室-regions與formats.md) | 淨室：`data/regions/*` ＋ `data/formats/*` | 未開始 | S02 | 中 | Sonnet 5 |
+| [S05](05-淨室-regions與formats.md) | 淨室：`data/regions/*` ＋ `data/formats/*` | ✅ 完成 | S02 | 中 | Sonnet 5 |
 | [S06](06-授權與git歷史.md) | 授權文件與 git 歷史處置 | 未開始 | S03 S04 S05 | 低 | Haiku 4.5 |
 
 S03／S04／S05 彼此不相依，可以任意順序或分開的 session 做。

@@ -1,6 +1,6 @@
 # S05 · 淨室重寫：`data/regions/*` ＋ `data/formats/*`
 
-狀態：未開始
+狀態：完成
 前置：S02
 預估：1 session
 推理難度：中
@@ -140,3 +140,46 @@ git diff --stat v4-before -- tests/regression/golden.json
 ## 交接筆記
 
 <!-- 做完由執行者回填 -->
+
+S05 淨室重寫完成（2026-08-12）。
+
+**做了什麼**（重排結構，內容一字未改）：
+
+- **regions 五檔**：`{ until }` → `[from, to]` 閉區間；欄位分組為 `ladder`（聯賽
+  靜態屬性）與 `timeline`（splits／worldsSlots／teams 時間軸）；home 的 `teamsByEra`
+  與其他區的 `teams` 統一成同一張區間表（home 每時代一列帶 `era` 標記，其餘賽區單行
+  不編造年份）。`regions/index.js` 查詢層改區間查詢，**五個查詢函式簽名與回傳結構
+  全保留**（splitsOf／msiSplitOf／worldsSlotsOf／importSlotsOf／teamNamesOf）。
+- **eras.js**：`eraOf` 的 if 鏈 → `ERAS` 區間表查表。**移除 `msi`／`worlds` 兩個
+  廢棄欄位**——全 repo 無使用者（grep 過），史實已住在 `data/formats/{msi,worlds}.js`。
+- **leagues.js**：REGIONS 推導改為展開 `r.ladder`（`...r.ladder`），LEAGUES 表結構不變。
+- **playoffs.js**：`PLAYOFF_ROUNDS`＋`CHAMPIONSHIP_POINTS` 收進單一 `PLAYOFFS` 制度
+  物件，兩個導出名保留，kernel/series.js 零改動。
+- **disband.js**：巢狀物件 `DISBAND_HISTORY` → `DISBANDS` 陣列（一隊一列），
+  `DISBAND_YEAR` 由陣列派生（導出保留）。
+- **coaches.js**：物件 → 陣列（`{ name, bonus }`），順序＝原物件鍵順序（`rng.pick`
+  依索引取，順序即生涯結果，不可亂）。
+- **heroes.js**：`HEROES` 改陣列＋`HEROES_BY_ROLE` 派生索引；`PATCH_THEMES` 不變。
+- **teams.js**：業餘兩張表（隊伍＋盃賽）聚合為 `AMATEUR_SCENE`，`TEAMS_AMATEUR`／
+  `AMATEUR_CUPS` 導出名保留（tests/phases/amateur.mjs 依賴）；`MATE_NAMES` 不變。
+
+**改了哪些呼叫端**（6 個）：`engine/market.js`（disbandNoteFor 改查 DISBANDS）、
+`engine/roster.js`（`rng.pick(COACHES).name`）、`kernel/strength.js`
+（`COACHES.find`）、`engine/state.js`／`engine/progression.js`／`ui/panel.js`
+（`HEROES[role]` → `HEROES_BY_ROLE[role]`）。B 批邏輯（解散過濾、青訓推導、
+外援名額）未動。
+
+**為 S14 鋪路**：賽段史已是 `[from, to]` 閉區間——月回合制把賽段展開成月份區間時
+不必再猜邊界，直接按區間分配月份即可。
+
+**驗證**：`npm test` 8943 項全綠；`node tests/run.mjs history` 350 項全綠（四份
+suite）；golden 對入口（S03 commit `eddbbd3`）零 diff；另做雙版本逐值對比——16 個
+年份（含 2011／2012／2022／2023／2024／2025／9999／10000 邊界）× 8 個 region × 7 個
+eraKey 的查詢函式全一致，LEAGUES／散表內容全一致。eraOf 的差異只有兩項且皆為預期：
+新增 from/to 元數據、移除無使用者的 msi/worlds 欄位。
+
+**完成定義備註**：`git diff v4-before -- golden.json` 在 S03 之後不再為空（S03 換
+rng 重刷過 golden），正確基準是 S03 commit `eddbbd3`——對它 diff 為空。
+
+**留給下一站**：S14 月回合制可直接吃 regions 的賽段區間表。`eraOf` 返回的 from/to
+欄位是元數據，若 S14 想用可直接讀；不想用也不影響任何使用者。
