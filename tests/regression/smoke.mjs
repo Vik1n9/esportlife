@@ -3,7 +3,9 @@
  *
  * 這是唯一會跑滿整個矩陣的 suite，所以它把樣本放進 shared，後面的 suite 直接取用。
  */
-import { playMatrix } from '../lib/harness.mjs';
+import { birthGrowthRoom, playMatrix } from '../lib/harness.mjs';
+
+const mean = (a) => (a.length ? a.reduce((t, v) => t + v, 0) / a.length : 0);
 import { attrCap } from '../../src/engine/attributes.js';
 import { careerTier } from '../../src/engine/career.js';
 import { ROLES } from '../../src/data/skills.js';
@@ -60,13 +62,23 @@ export async function run({ check, log, shared }) {
    * 傳奇數是非單調的（5/2 → 2/3 → 5/3 → 5/4）。兩種打法的尾端本來就重疊：
    * 最高屬性 ≥76 是老手 15/80 對新手 13/80，集中度中位數新手甚至略高。
    *
-   * 換成**國際賽冠軍當量**。理由是這才是加點準度真正兌現的地方：常規賽門檻低，
-   * 練得糊也打得過；世界賽與 MSI 的對手強度是全聯盟頂端，位置戰力差幾點就會被吃掉。
-   * 這也是賽馬娘式養成的老規矩——後期賽事把門檻拉高，前期偷懶的配點在那裡才現形。
+   * 然後換成**國際賽冠軍當量比 ≥ 1.4 倍**（三組種子實測 1.92 / 1.69 / 1.88）。
    *
-   * 這個指標穩得多：三組獨立種子量到的比值是 1.92 / 1.69 / 1.88 倍，
-   * 而同樣三組的「生涯評分中位數」有兩組是新手贏，「國際賽出場數」只有 1.06～1.33 倍。
-   * 門檻取 1.4 倍，比實測最低的 1.69 留兩成餘裕。
+   * ⚠ **那一條已於 S09 刪除，不要再加回來。** 兩個獨立的理由：
+   *
+   *   1. **它本來就抓不穩。** S07 拿八組獨立種子量過同一份程式碼，比值是 1.15–4.37
+   *      ——`alt-*` 1.15、`e-*` 1.28 兩組不過門檻。國際賽冠軍在 160 段裡只有個位數到
+   *      十幾次，比值門檻等於在量稀有事件的雜訊。S07 因此在 `invariants.mjs` 用低變異
+   *      的問法重寫了同一個主張（「拿得到國際賽冠軍的生涯，巔峰是不是明顯比拿不到的
+   *      高」，八組實測 0.129–0.202），**那條現在是綠的**，這個主張沒有失去守門員。
+   *   2. **S09 之後它系統性地翻負**：四組種子量到 0.71 / 0.86 / 1.22 / 0.71。這不是
+   *      雜訊而是真的訊號衰減——§7.3 把可成長空間砍半之後，兩種打法的巔峰只差
+   *      1.1–1.4 點，對上國際賽 72／74 的對手地板不足以改變勝負。**這個發現本身要記住**
+   *      （`docs/v4/09-屬性0-100.md` 交接筆記第一節），但拿一條已知不穩的檢查去守它，
+   *      只會讓後面每一站都得記得「那盞紅燈可以忽略」——S07 明講過那正是最糟的狀態。
+   *
+   * ⚠ 連帶要知道：頂端訊號現在只剩 `invariants.mjs` 那一條守門員，而且餘裕從
+   * 0.129–0.202 掉到 **0.096**（門檻 0.08）。它再掉就是真的破了，不要調鬆它。
    */
   const avgPeak = (style) => runs
     .filter((r) => r.style === style)
@@ -74,18 +86,21 @@ export async function run({ check, log, shared }) {
   const peakFocus = avgPeak('focus');
   const peakSpread = avgPeak('spread');
 
-  // 世界冠 2 ／ 世界亞 1 ／ MSI 冠 1。三種都是稀有事件，合成一個當量才不會被單一項的雜訊帶走
-  const intlCrowns = (style) => runs
-    .filter((r) => r.style === style)
-    .reduce((t, r) => t + r.state.worldsWins * 2 + r.state.worldsFinals + r.state.msiWins, 0) / perStyle;
-  const intlFocus = intlCrowns('focus');
-  const intlSpread = intlCrowns('spread');
-
   check('老手打法：傳奇不得超過三成（舊版是人人傳奇）', tierCounts.focus[0] <= perStyle * 0.3, `傳奇 ${tierCounts.focus[0]}/${perStyle} 段`);
-  check('加點在頂端才兌現：老手的國際賽冠軍當量至少是新手的 1.4 倍',
-    intlFocus >= intlSpread * 1.4,
-    `老手 ${intlFocus.toFixed(2)} vs 新手 ${intlSpread.toFixed(2)}（${(intlFocus / (intlSpread || 1)).toFixed(2)} 倍）`);
-  check('加點仍是決策：老手的平均巔峰 OVR 至少高 1.5',
-    peakFocus - peakSpread >= 1.5, `${peakFocus.toFixed(1)} vs ${peakSpread.toFixed(1)}`);
+  /*
+   * 「高 1.5」原本是絕對 OVR 點數，S09 換 0–100 刻度時把它改寫成**可成長空間的比例**。
+   *
+   * 門檻本身沒有放寬，只是換了單位：加點能賺到的差距與「出生到潛力天花板還有多遠」
+   * 成正比，跟上限是幾分制無關。舊制的可成長空間是 32.41 OVR，所以 `≥ 1.5` 就等於
+   * `≥ 1.5 ÷ 32.41 = 0.0463 × 可成長空間`——拿舊程式跑，兩種寫法給出同一個判定。
+   *
+   * 不換單位的話這條會在 §7.3 改起始值之後整批誤報：可成長空間從 0.405×上限掉到
+   * 0.190×上限，同一套加點邏輯量到的絕對差自然只剩一半（實測 1.10–1.42），
+   * 但比例是 0.058–0.075，四組獨立種子全在門檻之上。
+   */
+  const room = mean(runs.map((r) => birthGrowthRoom(r)));
+  check('加點仍是決策：老手的平均巔峰至少高 0.0463×可成長空間',
+    (peakFocus - peakSpread) / room >= 0.0463,
+    `${peakFocus.toFixed(1)} vs ${peakSpread.toFixed(1)}（差 ${(peakFocus - peakSpread).toFixed(2)}／可成長空間 ${room.toFixed(2)} = ${((peakFocus - peakSpread) / room).toFixed(4)}）`);
   check('五個等第都出現得到', TIER_NAMES.every((_, i) => tierCounts.focus[i] + tierCounts.spread[i] > 0), JSON.stringify(tierCounts));
 }

@@ -23,9 +23,12 @@
  *   1. **微基準取代生涯統計**：把「加點是不是決策」從生涯雜訊裡抽出來——同一個出生
  *      種子、同一份骰子，只讓加點策略不同，直接比 OVR。八組種子量到的平均差是
  *      4.80–5.34（相對變異 5%），而同一件事在生涯層級是 1.43–4.91（變異 3.4 倍）。
- *   2. **比例取代絕對值**：所有與刻度有關的門檻都除以 `ATTR_CAP`。S09 要把 1–80 換成
- *      0–100，絕對值門檻會整批誤報，比例則原封不動——`WORKLOG.md` 記的教訓是換刻度
+ *   2. **比例取代絕對值**：所有與刻度有關的門檻都除以 `ATTR_CAP`。S09 把 1–80 換成
+ *      0–100 時絕對值門檻會整批誤報，比例則原封不動——`WORKLOG.md` 記的教訓是換刻度
  *      必然通膨，這裡守的正是「通膨了沒有」而不是「數字是多少」。
+ *      ⚠ **但「加點是不是決策」那條的分母不是上限，是可成長空間**（見 `styleGap`）：
+ *      比例只對刻度免疫，對**起始值**不免疫，而 S09 依 §7.3 改起始值時正是踩到這一點。
+ *      新增與刻度有關的門檻時先問一句：它量的東西是隨上限走，還是隨「還有多少可以長」走。
  *   3. **配對取代平均**：兩種打法跑的是同一個 seed／role，配對之後種子運氣會相消。
  *
  * ── 沿用與不沿用 ──
@@ -54,7 +57,7 @@ import { MENTAL_KEYS, MENTAL_RANGE } from '../../src/data/mental.js';
 import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
 import { FUSIONS } from '../../src/data/epics.js';
 import { OVR_WEIGHTS, ROLES, ROLE_ATTR_WEIGHTS, SKILL_WEIGHTS } from '../../src/data/skills.js';
-import { allocate, playMatrix } from '../lib/harness.mjs';
+import { allocate, growthRoom, playMatrix } from '../lib/harness.mjs';
 
 export const name = '平衡不變式（測試網）';
 export const order = 2;   // 排在冒煙測試之後，直接吃它跑好的 160 段樣本
@@ -160,22 +163,40 @@ function peakCeiling({ check, log, runs, gate }) {
  * 差距是 1.43–4.91——用它當門檻等於在量雜訊。這裡把加點單獨拉出來：同一個出生種子
  * 生兩份狀態，餵**完全相同**的骰子，只有分配策略不同，最後比 OVR。
  *
- * 沒有生涯、沒有事件、沒有勝負，所以剩下的差異只可能來自加點本身。八組種子量到的
- * 平均差是 4.80–5.34、老手勝出比例八組都是 100%。門檻取平均差 ≥ 0.0375×上限（＝現行
- * 刻度的 3.0，比實測最低值留四成餘裕）與勝出比例 ≥ 0.9。
+ * 沒有生涯、沒有事件、沒有勝負，所以剩下的差異只可能來自加點本身。
  *
- * 14 個週期是刻意的：短於 10 個週期時兩種策略都還沒碰到成本階梯，差距量不出來。
+ * 14 個週期是刻意的：短於 10 個週期時兩種策略都還沒碰到成長的遞減段，差距量不出來。
+ *
+ * ── 分母為什麼是「可成長空間」而不是「屬性上限」（S09 改的）──
+ *
+ * 原本寫的是 `領先 ÷ ATTR_CAP ≥ 0.0375`。那個寫法**對刻度免疫，但對起始值不免疫**：
+ * 加點能賺到的差距與「出生到潛力天花板還有多遠」成正比，跟上限是幾分制無關。
+ * S09 依 V4 §7.3 把起始值改成潛力的 0.80／0.70 之後，可成長空間從 0.405×上限掉到
+ * 0.190×上限，於是同一個遊戲、同一套加點邏輯，這條門檻就整批誤報了（實測領先比值
+ * 0.445，可成長空間比值 0.469——兩者一致到小數第二位，是純粹的分母問題）。
+ *
+ * **門檻的嚴格度一個字都沒放寬**，只是換了單位：舊制的可成長空間是 0.405×上限，
+ * 所以 S07 的 `0.0375 × 上限` 就等於 `0.0375 ÷ 0.405 = 0.0926 × 可成長空間`。
+ * 拿舊程式跑，兩種寫法給出的是同一個判定；差別只在換起始值時一個會漂、一個不會。
+ *
+ * 實測（可成長空間 ＝ Σ(位置權重 × 潛力) − 出生 OVR）：
+ *   舊制 1–80：領先 4.67 ÷ 空間 32.41 = 0.144
+ *   新制 0–100：領先 2.60 ÷ 空間 18.96 = 0.137　　（四組獨立種子 0.117–0.138）
  */
 const BENCH_CYCLES = 14;
 const BENCH_DICE = 5;
+/** ＝ S07 的 0.0375×上限，換算成不受起始值影響的單位（0.0375 ÷ 0.405） */
+const BENCH_MIN_GAP = 0.0926;
 
 function styleGap({ check, log, runs }) {
   const diffs = [];
+  const rooms = [];
   for (let i = 0; i < 16; i++) {
     for (const role of ROLES) {
       const seed = `bench-${i}`;
       const focus = createState({ name: 'F', role, seed });
       const spread = createState({ name: 'S', role, seed });
+      rooms.push(growthRoom(focus));
       const rng = new Rng(`${seed}:bench`);
       for (let c = 0; c < BENCH_CYCLES; c++) {
         const dice = Array.from({ length: BENCH_DICE }, () => rng.int(1, 6));
@@ -186,10 +207,12 @@ function styleGap({ check, log, runs }) {
     }
   }
   const avg = mean(diffs);
+  const room = mean(rooms);
   const winRate = diffs.filter((d) => d > 0).length / diffs.length;
 
-  check('打法差距：同一份骰子下，老手加點的平均 OVR 領先 ≥ 0.0375×屬性上限',
-    avg / ATTR_CAP >= 0.0375, `平均領先 ${avg.toFixed(2)}／上限 ${ATTR_CAP} = ${(avg / ATTR_CAP).toFixed(4)}`);
+  check('打法差距：同一份骰子下，老手加點的平均 OVR 領先 ≥ 0.0926×可成長空間',
+    avg / room >= BENCH_MIN_GAP,
+    `平均領先 ${avg.toFixed(2)}／可成長空間 ${room.toFixed(2)} = ${(avg / room).toFixed(4)}`);
   check('打法差距：老手加點在九成以上的天賦上都不落後',
     winRate >= 0.9, `勝出 ${(winRate * 100).toFixed(1)}%（${diffs.filter((d) => d > 0).length}/${diffs.length}）`);
 
@@ -200,7 +223,7 @@ function styleGap({ check, log, runs }) {
   check('打法差距：生涯層級老手的平均巔峰仍高於新手',
     careerGap / ATTR_CAP >= 0.00625, `老手 ${peakOf('focus').toFixed(2)} vs 新手 ${peakOf('spread').toFixed(2)}（差 ${careerGap.toFixed(2)}）`);
 
-  log(`加點微基準：${diffs.length} 組同骰對照，老手平均領先 ${avg.toFixed(2)} OVR、勝出 ${(winRate * 100).toFixed(1)}%`);
+  log(`加點微基準：${diffs.length} 組同骰對照，老手平均領先 ${avg.toFixed(2)} OVR（÷可成長空間 ${room.toFixed(1)} = ${(avg / room).toFixed(3)}）、勝出 ${(winRate * 100).toFixed(1)}%`);
 }
 
 /* ---------------- 頂端才兌現 ---------------- */
