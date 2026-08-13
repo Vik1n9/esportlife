@@ -7,6 +7,7 @@ import { COACHES } from '../data/coaches.js';
 import { LEAGUES } from '../data/leagues.js';
 import { positionPower } from '../engine/attributes.js';
 import { trustBonus } from '../engine/mental.js';
+import { staminaOf, staminaPower } from '../engine/stamina.js';
 import { factor, floorOf } from './modifiers.js';
 
 export function coachBonus(state) {
@@ -121,10 +122,8 @@ export function teamStrength(state) {
   return power * 0.60
     + matesAverage(state) * 0.40
     + coachBonus(state)
-    // TODO(S13)：十二技能表沒有 `sta`（V4 §8 把體力抽出去當資源），體力修正暫時
-    // 讀 `vit` 屬性——舊 `sta` 技能本來就是 .85 的 vit，量級一致。
-    // 係數 0.05 → 0.02 是配著上面權重和 0.90 → 1.00 改的：§11.1 的驗算例把
-    // 「教練加成 ＋ 體力修正」合計抓在 3.5 點，教練平均 2.0，體力就該落在 1.5 左右
-    + state.attr.vit * 0.02
+    // 體力修正（§11.1）。S13 之後讀的是真的會消耗的 `state.stamina`，係數與量級的
+    // 校準理由寫在 `engine/stamina.js` 的 `staminaPower`
+    + staminaPower(staminaOf(state))
     + starEffect(state, power);
 }

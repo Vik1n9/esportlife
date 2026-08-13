@@ -6,7 +6,7 @@ import { blankSeasonStat } from './state.js';
 import { effectiveCoachRating, skills } from './attributes.js';
 import { opponentStrength, teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
-import { formFactor } from './lineup.js';
+import { advanceMonths, consume, formFactor, monthsFor, seriesCost, staminaOf } from './stamina.js';
 import { PRESSURE, mistakeFactor } from './psych.js';
 
 /**
@@ -38,13 +38,18 @@ export function deathsPerGame(state, a, par, form, rng, pressure = PRESSURE.regu
  * 玩家才看得出「同一個人在不同場合的落差」。季後賽與國際賽自己有一張數據，就是
  * §9.3 說的「失誤結果反映在可見數據」。
  *
+ * 體力也在這裡扣（§6.3：所有比賽都消耗體力）。手感讀的是**打之前**的體力，扣款在
+ * 結算之後——同一輪 BO 不會自己把自己打崩，但下一輪會感覺得到。賽事期間沒有休息
+ * 可選（§6.3），所以季後賽或世界賽走得越深，帶進下一個賽段的身體狀況越差。
+ *
  * @param {number} games 這一輪打了幾局
  * @param {number} pressure 見 `psych.PRESSURE`
  */
 export function seriesDeaths(state, rng, games, pressure) {
   if (!games) return 0;
   const par = LEAGUES[state.league]?.par ?? 66;
-  const deaths = Math.round(games * deathsPerGame(state, skills(state), par, formFactor(state.attr.vit), rng, pressure));
+  const deaths = Math.round(games * deathsPerGame(state, skills(state), par, formFactor(staminaOf(state)), rng, pressure));
+  consume(state, seriesCost(games));
   recordDeaths(state, 'pressure', games, deaths);
   return deaths;
 }
@@ -82,10 +87,20 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   const league = LEAGUES[leagueKey];
   // 個人數據看的是技能（對線吃 CS、視野吃 VIS…），不是屬性——屬性要先折算過來
   const a = skills(state);
-  // TODO(S13)：體力在 V4 §6 是會消耗的資源，但 S13 才做。十二技能表已經沒有 `sta`
-  // 這一項（V4 §8 把它抽出去），所以手感係數暫時直接讀 `vit` 屬性——它是舊 `sta`
-  // 技能的主要成分（.85），刻度也一樣，等 `state.stamina` 上線再換過去
-  const stamina = state.attr.vit;
+
+  /*
+   * 這一段有幾個月，體力就在這裡走幾個月（V4 §6）。
+   *
+   * 月回合制是 S14 的事，所以現在推動每月結算的是 `stamina.js` 的自動駕駛，玩家還
+   * 插不上手。但體力**必須真的在動**：手感係數、受傷機率、勝率的體力項讀的都是它，
+   * 凍在 100 不動就等於沒做這個系統。S14 把玩家的每月選擇接上來時，換掉的是那邊的
+   * `planMonth`，這一行不用改。
+   *
+   * 手感取的是這幾個月的**谷底平均**而不是期末值：一個賽段的表現是整段打出來的，
+   * 拿最後一個月的狀態回頭代表整段會系統性地偏高（休息完才結算）。
+   */
+  const period = advanceMonths(state, monthsFor(weight), { matchLoad: share * (state.seasonFactor > 0 ? 1 : 0) });
+  const stamina = period.avg;
   const stat = blankSeasonStat();
   stat.years = 1;
 

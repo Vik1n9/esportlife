@@ -11,6 +11,9 @@
  *
  * 兩件都是 LoL 選手真實會遇到的，而且都有敘事重量：坐板凳不是數字變小，是你的
  * 位子被別人拿走了。
+ *
+ * 手感係數 `formFactor` 原本住在這裡（它是「體力低會怎樣」的另一半）。S13 把體力
+ * 升格成資源之後它搬去 `engine/stamina.js`——那個檔才是它讀的東西的家。
  */
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
@@ -19,20 +22,6 @@ import { factor } from '../kernel/modifiers.js';
 
 /** 一個賽段約略的週數，用來把「缺席幾週」換算成出賽比例 */
 export const SPLIT_WEEKS = 12;
-
-/**
- * 體力對「表現」的影響。
- *
- * 同一條曲線從場次搬到表現上，而且幅度收斂得多——體力差不會讓你少打，只會讓你
- * 手感下滑、後期團戰跟不上。
- *
- * @returns {number} 約 0.85（透支）～ 1.06（狀態飽滿）
- */
-export function formFactor(sta) {
-  // sta 是技能值，跟屬性同刻度：中點 50 → 62.5（×1.25），per-point 係數 0.007 → 0.0056
-  // （÷1.25）。兩邊配著改，同一個相對體力水準給出的手感倍率才跟重校前一樣
-  return clamp(1 + (sta - 62.5) * 0.0056, 0.85, 1.06);
-}
 
 /**
  * 被下放板凳的機率（百分比）。

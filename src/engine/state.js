@@ -9,13 +9,14 @@ import { ATTRS, POTENTIAL_BANDS, START_RATIO } from '../data/attributes.js';
 import { ROLE_START_EDGE } from '../data/skills.js';
 import { MENTAL_BASE, MENTAL_JITTER, MENTAL_KEYS } from '../data/mental.js';
 import { FAME_START } from '../data/reputation.js';
+import { STAMINA_MAX } from './stamina.js';
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-// v12：心理五維（nerve/chem/ego/fame/rep）換成 V4 §9 的競技心理六維，聲量拆成
-// `state.fame` 獨立一層。`state.mental` 的鍵整組換掉，舊存檔一律作廢重開
-export const SAVE_VERSION = 12;
+// v13：體力升格成 0–100 的消耗資源（V4 §6）。`state.stamina` 與它的月份計數是新欄位，
+// 舊存檔沒有這幾格就不會有節奏可言，一律作廢重開
+export const SAVE_VERSION = 13;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -80,6 +81,18 @@ export function createState({ name, role, seed }) {
     attr,                // 六大屬性。技能是它們的導出值，不另外存
     potential,
     carry: {},           // 訓練點不足時的「蓄力」餘額
+
+    /*
+     * 體力（V4 §6）：0–100 的消耗資源，跟隱藏心理正好相反——**它必須顯示在面板上**，
+     * 因為它是玩家要主動管理的東西，藏起來就不成決策了。
+     *
+     * 出道時是滿的：起點的意義是「還沒有被賽季消耗過的新人」。曲線與經濟住在
+     * `engine/stamina.js`，這裡只負責存。
+     */
+    stamina: STAMINA_MAX,
+    staminaMonth: 0,     // 生涯累計的「體力月」數，休息間隔靠它算
+    staminaLog: { months: 0, low: 0 },  // 累計月數與其中落進透支區的月數
+    restLog: [],         // 每次休息的 {month, year}——節奏是不是 3–4 個月一休看這個
 
     /*
      * 競技心理六維（V4 §9.1）：50 為基準，出生種子微調 ±10。

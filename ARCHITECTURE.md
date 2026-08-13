@@ -52,6 +52,7 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   ├── roster.js        #   隊友名單、隊名、階段顯示名
 │   │   ├── season.js attributes.js progression.js mental.js
 │   │   ├── psych.js         #   §9.2 技能發揮公式 ＋ §9.3 失誤系統
+│   │   ├── stamina.js       #   §6 體力資源（消耗／恢復／懲罰曲線，與回合粒度無關）
 │   │   ├── market.js career.js retire.js
 │   │
 │   └── ui/                  # 只負責畫面
@@ -277,6 +278,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `engine/retire.js` | A/B | 6ec9575 抽自 game.js（退役條件為 A）；RetireSignal 例外機制為 B | V4 S13 體力系統重寫 |
 | `engine/roster.js` | A/B | a71ee13 建 team.js，667ec4c／6ec9575 rename＋調整（隊名資料流承袭；解散過濾／二隊推導為 B） | S05 重排結構時同步調整 |
 | `engine/season.js` | A | a71ee13 建立 | V4 S14/S15 重寫 |
+| `engine/stamina.js` | B | S13 新建（§6 體力資源；舊版的 `sta` 是技能，不是資源） | 沿用（S14 接月回合、S16 接訓練成功率） |
 | `engine/state.js` | A | a71ee13 建立（SAVE_VERSION） | V4 重寫（存檔結構） |
 | `kernel/groups.js` | B | 667ec4c 新建（小組賽／Swiss，原專案無） | 沿用 |
 | `kernel/modifiers.js` | A/B | b2cdc80 新建聚合機制（B）；效果值搬自 traits.js（A） | V4 S19a 重寫 |

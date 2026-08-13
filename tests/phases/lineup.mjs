@@ -6,7 +6,7 @@
  */
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { benchRisk, formFactor, lineupFor, SPLIT_WEEKS } from '../../src/engine/lineup.js';
+import { benchRisk, lineupFor, SPLIT_WEEKS } from '../../src/engine/lineup.js';
 import { simulateSeason } from '../../src/engine/season.js';
 import { rollInjury } from '../../src/engine/progression.js';
 
@@ -26,15 +26,15 @@ export async function run({ check }) {
 
   /* ---- 體力進表現，不進場次 ---- */
   {
-    check('體力低不再讓 formFactor 崩到 0.3（那是棒球的輪值模型）', formFactor(38) > 0.8, formFactor(38));
-    check('體力高給小幅加成', formFactor(88) > 1 && formFactor(88) <= 1.06, formFactor(88));
-    check('體力對表現的影響是連續的', formFactor(75) > formFactor(62) && formFactor(62) > formFactor(50));
-
-    // 體力是導出技能，要動它得動它背後的體能（VIT 佔 0.75）
-    const tired = pro('tired', 78); tired.attr.vit = 25;
-    const fresh = pro('fresh', 78); fresh.attr.vit = 98;
+    /*
+     * S13 之後體力是會被賽季吃掉的資源，不是一個穩定的技能值——所以兩個對照組每一輪
+     * 都要重新生一份，否則跑幾輪之後兩邊都會被 `stamina.js` 的每月結算拉進同一個
+     * 循環，差異自己消失。曲線本身的檢查在 `kernel/stamina.mjs`。
+     */
     let tiredG = 0; let freshG = 0; let tiredD = 0; let freshD = 0;
     for (let i = 0; i < 200; i++) {
+      const tired = pro(`tired-${i}`, 78, { stamina: 8 }); tired.attr.vit = 25;
+      const fresh = pro(`fresh-${i}`, 78, { stamina: 100 }); fresh.attr.vit = 98;
       const a = simulateSeason(tired, rng, 'LCK', 1, 1);
       const b = simulateSeason(fresh, rng, 'LCK', 1, 1);
       tiredG += a.G; freshG += b.G; tiredD += a.D; freshD += b.D;
