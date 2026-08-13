@@ -61,9 +61,11 @@ export function msiRuleOf(year) {
  * MSI 名次與獎勵。
  * `slotBonus` 是 2023 起的真實制度：MSI 冠軍為自己的賽區多掙一張世界賽門票。
  */
+// V4 §9.4 的維度對映：`nerve` → `comp` 抗壓（同一件事，換成競技語彙），
+// `rep` 風評整條拿掉（切割判定改讀教練評價），`fame` 聲量搬去 `state.fame` 但鍵名不變
 export const MSI_RESULTS = {
-  champion: { rank: 'MSI 冠軍', points: 6, nerve: 7, fame: 16, rep: 8, slotBonus: 1 },
-  final: { rank: 'MSI 亞軍', points: 4, nerve: 5, fame: 10, rep: 5 },
-  semi: { rank: 'MSI 四強', points: 3, nerve: 3, fame: 6, rep: 2 },
-  out: { rank: 'MSI 止步', points: 1, nerve: 2, fame: 3, rep: 0 },
+  champion: { rank: 'MSI 冠軍', points: 6, comp: 7, fame: 16, slotBonus: 1 },
+  final: { rank: 'MSI 亞軍', points: 4, comp: 5, fame: 10 },
+  semi: { rank: 'MSI 四強', points: 3, comp: 3, fame: 6 },
+  out: { rank: 'MSI 止步', points: 1, comp: 2, fame: 3 },
 };

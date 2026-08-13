@@ -11,6 +11,7 @@
  */
 import { opponentStrength } from './strength.js';
 import { gameChance, runSeries } from './series.js';
+import { PRESSURE } from '../engine/psych.js';
 
 /**
  * 小組賽：對每個對手各打兩場 BO1，勝場多者晉級。
@@ -60,7 +61,7 @@ export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesT
     // 晉級局與淘汰局打 BO3，其餘 BO1——2023 起的實際規則
     const decisive = wins === winsToAdvance - 1 || losses === lossesToExit - 1;
     const bo = decisive ? 3 : 1;
-    const res = runSeries(state, rng, { bo, oppRating, seed });
+    const res = runSeries(state, rng, { bo, oppRating, seed, pressure: PRESSURE.intl });
 
     if (res.win) wins += 1; else losses += 1;
     rounds.push({

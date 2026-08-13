@@ -16,7 +16,9 @@
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
 import { CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/formats/playoffs.js';
-import { nerveBonus, underdogBonus } from '../engine/mental.js';
+import { clutchBonus, underdogBonus } from '../engine/mental.js';
+import { PRESSURE, DECIDER_PRESSURE } from '../engine/psych.js';
+import { seriesDeaths } from '../engine/season.js';
 import { opponentStrength, teamStrength } from './strength.js';
 import { bonus } from './modifiers.js';
 
@@ -39,16 +41,22 @@ export function playoffBerth(state, stat) {
 export function gameChance(state, oppRating, { decider = false, seed = 0 } = {}) {
   let p = 50 + (teamStrength(state) - oppRating) * 1.76;
   p += underdogBonus(state, seed) + bonus(state, 'seriesGame');
-  if (decider) p += nerveBonus(state) + bonus(state, 'seriesDecider');
+  if (decider) p += clutchBonus(state) + bonus(state, 'seriesDecider');
   return clamp(p, 8, 92);
 }
 
 /**
  * 打一輪系列賽。
+ *
+ * `pressure`（V4 §9.3）是這一輪的壓力係數，只影響**陣亡數**不影響勝負：抗壓進勝率
+ * 的路是 §9.2 的發揮倍率與上面的 `clutchBonus`，失誤走的是可見數據那一條。所有 BO
+ * 系列賽都經過這裡，所以失誤的可見出口只要接在這一個點上。
+ *
  * @param {number} bo 1、3 或 5
- * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean}}
+ * @param {number} [pressure] 見 `psych.PRESSURE`，預設季後賽
+ * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean, deaths:number}}
  */
-export function runSeries(state, rng, { bo, oppRating, seed }) {
+export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE.playoff }) {
   const need = Math.ceil(bo / 2);
   let mine = 0; let theirs = 0;
   const games = [];
@@ -58,7 +66,10 @@ export function runSeries(state, rng, { bo, oppRating, seed }) {
     if (won) mine += 1; else theirs += 1;
     games.push(`${won ? 'W' : 'L'}${decider ? '*' : ''}`);
   }
-  return { win: mine > theirs, mine, theirs, games, decider: games.some((g) => g.endsWith('*')) };
+  const decider = games.some((g) => g.endsWith('*'));
+  // 被拖進決勝局，壓力不是線性疊加的——整輪一起往上調
+  const deaths = seriesDeaths(state, rng, games.length, pressure * (decider ? DECIDER_PRESSURE : 1));
+  return { win: mine > theirs, mine, theirs, games, decider, deaths };
 }
 
 /**

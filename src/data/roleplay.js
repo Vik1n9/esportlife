@@ -20,7 +20,19 @@
  *            世界賽的關注度遠高於聯賽，同一句話在這裡的後座力完全不同。
  * - `weight` 抽卡權重。
  * - `need`   選填的出現條件（如「默契低於某值才會出現的衝突卡」）。
- * - `options[].mental` 直接套用的心理值變動。
+ * - `options[].mental` 直接套用的心理／聲量變動。
+ *
+ * ⚠ **TODO(S20)：這 18 張卡的內容還是 v3 的社交軸，S12 只做了機械對映。**
+ * V4 §9.4 的對照是 `nerve`→`comp` 抗壓、`chem`→`trust` 信任、`ego`→`conf` 自信、
+ * `fame` 原樣（搬到 `state.fame`）、`rep` 風評整條刪除。
+ *
+ * `ego`→`conf` 是這次唯一一個「不是照 §9.4 字面」的決定，理由寫在 `docs/v4/12` 的
+ * 交接筆記：§9.4 說 ego 不留維度，指的是它**放大聲量的角色**改由特質副作用承擔，
+ * 而 ego 的另一半（把自己看得多大）跟 `conf` 是同一件事。全丟掉的話，`conf` 在整份
+ * 內容裡一次都不會動——那條「過自信→貪」的雙向設計（§9.3）就永遠驗不到。
+ *
+ * 對映之後 `disc`／`drive`／`resl` 三維沒有任何一張卡碰得到，只有出生的 ±10 天賦差。
+ * 那是 S19a／S20 要補的內容缺口，不是這一站的。
  * - `options[].tone`   `bold` 張揚／`plain` 中庸／`humble` 收斂。引擎用來決定
  *            外界反應的方向與是否推進性格特質計數。
  */
@@ -33,11 +45,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '記者把麥克風遞到你面前：「這輪對上他們，有信心嗎？」台下鏡頭全開著。',
     options: [
       { id: 'callout', label: '「他們守不住我這條線。」', tone: 'bold',
-        mental: { ego: 5, fame: 7, nerve: 3, rep: -3, chem: -2 } },
+        mental: { conf: 5, fame: 7, comp: 3, trust: -2 } },
       { id: 'respect', label: '「對手很強，我們會準備好。」', tone: 'plain',
-        mental: { fame: 1, rep: 3, chem: 1 } },
+        mental: { fame: 1, trust: 1 } },
       { id: 'deflect', label: '「這是團隊的比賽，我沒什麼好說的。」', tone: 'humble',
-        mental: { rep: 2, chem: 3, ego: -3, fame: -1 } },
+        mental: { trust: 3, conf: -3, fame: -1 } },
     ],
   },
   {
@@ -45,11 +57,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '論壇已經在賭你們幾比零被掃。走進場館前，隊友都在看你的反應。',
     options: [
       { id: 'fire', label: '把那串留言截圖貼進隊內群組', tone: 'bold',
-        mental: { nerve: 6, ego: 4, chem: 3, fame: 2 } },
+        mental: { comp: 6, conf: 4, trust: 3, fame: 2 } },
       { id: 'calm', label: '關掉手機，照平常流程熱身', tone: 'plain',
-        mental: { nerve: 4, chem: 1 } },
+        mental: { comp: 4, trust: 1 } },
       { id: 'shrink', label: '一句話都不說，戴上耳機', tone: 'humble',
-        mental: { nerve: -2, chem: -2, ego: -2 } },
+        mental: { comp: -2, trust: -2, conf: -2 } },
     ],
   },
   {
@@ -58,11 +70,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '種子序排在後段，賽前分析清一色不看好你們。主持人問：「你們憑什麼？」',
     options: [
       { id: 'declare', label: '「等我們捧盃的時候再問一次。」', tone: 'bold',
-        mental: { nerve: 8, ego: 5, fame: 6, rep: -2, chem: 4 } },
+        mental: { comp: 8, conf: 5, fame: 6, trust: 4 } },
       { id: 'quiet', label: '「排名是他們排的，比賽是我們打的。」', tone: 'plain',
-        mental: { nerve: 6, chem: 3, rep: 2, fame: 2 } },
+        mental: { comp: 6, trust: 3, fame: 2 } },
       { id: 'accept', label: '「我們確實是弱的一方。」', tone: 'humble',
-        mental: { nerve: -3, rep: 3, chem: -1 } },
+        mental: { comp: -3, trust: -1 } },
     ],
   },
 
@@ -73,11 +85,11 @@ export const ROLEPLAY_CARDS = [
       + '翻譯還沒到，有人已經用英文問了第一個問題。',
     options: [
       { id: 'english', label: '直接用破英文回，講完自己笑出來', tone: 'bold',
-        mental: { fame: 8, ego: 3, rep: 4, nerve: 3 } },
+        mental: { fame: 8, conf: 3, comp: 3 } },
       { id: 'wait', label: '等翻譯到位，一句一句講清楚', tone: 'plain',
-        mental: { fame: 2, rep: 4, chem: 2 } },
+        mental: { fame: 2, trust: 2 } },
       { id: 'short', label: '只回「我們會繼續努力」，轉身就走', tone: 'humble',
-        mental: { fame: -2, rep: 1, ego: -2 } },
+        mental: { fame: -2, conf: -2 } },
     ],
   },
   {
@@ -86,11 +98,11 @@ export const ROLEPLAY_CARDS = [
       + '記者問：「小時候看著他們長大，現在要打他們了，什麼感覺？」',
     options: [
       { id: 'hunt', label: '「偶像是拿來超越的。」', tone: 'bold',
-        mental: { ego: 6, fame: 8, nerve: 5, rep: -1 } },
+        mental: { conf: 6, fame: 8, comp: 5 } },
       { id: 'respect', label: '「很期待。站上同一個舞台，本身就是答案的一半。」', tone: 'plain',
-        mental: { fame: 3, rep: 5, nerve: 2, chem: 2 } },
+        mental: { fame: 3, comp: 2, trust: 2 } },
       { id: 'awe', label: '「說不緊張是騙人的。」', tone: 'humble',
-        mental: { rep: 4, nerve: -3, fame: 1 } },
+        mental: { comp: -3, fame: 1 } },
     ],
   },
   {
@@ -99,11 +111,11 @@ export const ROLEPLAY_CARDS = [
       + '社群上滿滿都是「撐住」，有人請了假只為了看這一場。',
     options: [
       { id: 'carry', label: '「這場我來扛。」對著鏡頭比了個手勢', tone: 'bold',
-        mental: { ego: 5, fame: 9, nerve: 6, chem: -2 } },
+        mental: { conf: 5, fame: 9, comp: 6, trust: -2 } },
       { id: 'team', label: '「我們五個一起扛。」', tone: 'plain',
-        mental: { fame: 4, rep: 4, chem: 5, nerve: 3 } },
+        mental: { fame: 4, trust: 5, comp: 3 } },
       { id: 'burden', label: '「壓力很大，希望不要讓大家失望。」', tone: 'humble',
-        mental: { rep: 3, nerve: -4, chem: 1 } },
+        mental: { comp: -4, trust: 1 } },
     ],
   },
   {
@@ -112,11 +124,11 @@ export const ROLEPLAY_CARDS = [
       + '轉播鏡頭掃過來的時候，隊友的表情已經先被截圖了。',
     options: [
       { id: 'welcome', label: '「反正遲早要碰，早點打完早收工。」', tone: 'bold',
-        mental: { ego: 4, fame: 5, nerve: 5, chem: 2 } },
+        mental: { conf: 4, fame: 5, comp: 5, trust: 2 } },
       { id: 'prepare', label: '「那就一場一場拆。」當晚多開一場訓練賽', tone: 'plain',
-        mental: { nerve: 4, chem: 4, rep: 2 } },
+        mental: { comp: 4, trust: 4 } },
       { id: 'sigh', label: '在群組裡貼了一個嘆氣的貼圖', tone: 'humble',
-        mental: { nerve: -3, chem: -2, fame: -1 } },
+        mental: { comp: -3, trust: -2, fame: -1 } },
     ],
   },
   {
@@ -126,11 +138,11 @@ export const ROLEPLAY_CARDS = [
       + '國際媒體全湧過來，這是你職業生涯最多鏡頭對著你的一刻。',
     options: [
       { id: 'declare', label: '「我早就說過我們不是來陪跑的。」', tone: 'bold',
-        mental: { ego: 7, fame: 12, nerve: 6, rep: -3 } },
+        mental: { conf: 7, fame: 12, comp: 6 } },
       { id: 'credit', label: '「準備了很久，教練組值得這個結果。」', tone: 'plain',
-        mental: { fame: 6, rep: 7, chem: 6 } },
+        mental: { fame: 6, trust: 6 } },
       { id: 'humble', label: '「今天他們狀況可能不好。」', tone: 'humble',
-        mental: { rep: 5, fame: 2, ego: -4, nerve: -1 } },
+        mental: { fame: 2, conf: -4, comp: -1 } },
     ],
   },
 
@@ -140,11 +152,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '剛輸完一輪，記者問：「今天這幾波團戰，問題出在哪裡？」隊友就坐在旁邊。',
     options: [
       { id: 'blame', label: '直接點名是哪個位置的問題', tone: 'bold',
-        mental: { ego: 6, fame: 4, chem: -10, rep: -7 } },
+        mental: { conf: 6, fame: 4, trust: -10 } },
       { id: 'share', label: '「決策是全隊一起做的，責任一起扛。」', tone: 'plain',
-        mental: { chem: 6, rep: 5, fame: 1 } },
+        mental: { trust: 6, fame: 1 } },
       { id: 'self', label: '「是我打得不夠好。」', tone: 'humble',
-        mental: { chem: 5, rep: 6, nerve: -2, ego: -3 } },
+        mental: { trust: 5, comp: -2, conf: -3 } },
     ],
   },
   {
@@ -152,37 +164,37 @@ export const ROLEPLAY_CARDS = [
     prompt: '你上週隨口說的一句話被剪成梗圖，一夜之間到處都是。記者又來了，問你要不要澄清。',
     options: [
       { id: 'double', label: '不澄清，再補一句更狠的', tone: 'bold',
-        mental: { fame: 12, ego: 8, rep: -8, chem: -3 } },
+        mental: { fame: 12, conf: 8, trust: -3 } },
       { id: 'clarify', label: '好好把前後文說清楚', tone: 'plain',
-        mental: { fame: 3, rep: 4 } },
+        mental: { fame: 3 } },
       { id: 'apologise', label: '公開道歉，把事情壓下去', tone: 'humble',
-        mental: { fame: -2, rep: 7, ego: -4, chem: 2 } },
+        mental: { fame: -2, conf: -4, trust: 2 } },
     ],
   },
   {
     id: 'media_backlash', name: '輿論反撲', when: 'media', weight: 3,
-    need: (s) => s.mental.rep <= -20,
+    need: (s) => s.traits.trashtalk || s.mental.trust <= 35,   // TODO(S20)：舊條件是風評 ≤ −20
     prompt: '風向已經整個轉了。贊助商私下問經理，要不要讓你少露面一陣子。',
     options: [
       { id: 'fight', label: '開直播正面回擊那些人', tone: 'bold',
-        mental: { fame: 9, ego: 7, rep: -10, chem: -4 } },
+        mental: { fame: 9, conf: 7, trust: -4 } },
       { id: 'silence', label: '停掉所有社群，只打比賽', tone: 'plain',
-        mental: { fame: -4, rep: 8, nerve: 2 } },
+        mental: { fame: -4, comp: 2 } },
       { id: 'mend', label: '照經理的安排跑一輪公關行程', tone: 'humble',
-        mental: { rep: 12, ego: -5, fame: -1, chem: 2 } },
+        mental: { conf: -5, fame: -1, trust: 2 } },
     ],
   },
   {
     id: 'media_spotlight', name: '封面人物', when: 'media', weight: 2,
-    need: (s) => s.mental.fame >= 45,
+    need: (s) => (s.fame ?? 0) >= 45,
     prompt: '雜誌要做你的封面專題，標題暫定是「一個人的隊伍」。稿子先寄來讓你確認。',
     options: [
       { id: 'accept', label: '照登，這本來就是事實', tone: 'bold',
-        mental: { fame: 10, ego: 7, chem: -8, rep: -3 } },
+        mental: { fame: 10, conf: 7, trust: -8 } },
       { id: 'rename', label: '要求把標題改成全隊合照', tone: 'plain',
-        mental: { fame: 5, chem: 7, rep: 6 } },
+        mental: { fame: 5, trust: 7 } },
       { id: 'decline', label: '推掉，時間留給訓練', tone: 'humble',
-        mental: { fame: -3, rep: 3, chem: 2, nerve: 1 } },
+        mental: { fame: -3, trust: 2, comp: 1 } },
     ],
   },
 
@@ -192,24 +204,24 @@ export const ROLEPLAY_CARDS = [
     prompt: '中場休息，比分落後。沒有人講話，大家都在看自己的螢幕。',
     options: [
       { id: 'shout', label: '拍桌把節奏喊起來', tone: 'bold',
-        mental: { nerve: 5, ego: 4, chem: 2, fame: 1 } },
+        mental: { comp: 5, conf: 4, trust: 2, fame: 1 } },
       { id: 'talk', label: '把下一局的分工一條一條講清楚', tone: 'plain',
-        mental: { nerve: 3, chem: 6 } },
+        mental: { comp: 3, trust: 6 } },
       { id: 'wait', label: '什麼都不說，讓大家自己緩過來', tone: 'humble',
-        mental: { chem: -2, nerve: -1, ego: -2 } },
+        mental: { trust: -2, comp: -1, conf: -2 } },
     ],
   },
   {
     id: 'locker_rift', name: '隊內裂痕', when: 'locker', weight: 4,
-    need: (s) => s.mental.chem <= 40,
+    need: (s) => s.mental.trust <= 40,
     prompt: '有隊友在訓練賽裡直接對你翻白眼。這已經不是第一次了。',
     options: [
       { id: 'confront', label: '當場把話講死，要嘛改要嘛拆隊', tone: 'bold',
-        mental: { ego: 6, chem: -9, nerve: 3, rep: -4 } },
+        mental: { conf: 6, trust: -9, comp: 3 } },
       { id: 'sit', label: '賽後把人約出來單獨談', tone: 'plain',
-        mental: { chem: 10, rep: 3 } },
+        mental: { trust: 10 } },
       { id: 'endure', label: '忍下來，先把賽季打完', tone: 'humble',
-        mental: { chem: -1, nerve: -3, ego: -3 } },
+        mental: { trust: -1, comp: -3, conf: -3 } },
     ],
   },
   {
@@ -217,11 +229,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '二隊上來一個新人，跟你同位置，眼神裡全是想取代你的意思。',
     options: [
       { id: 'crush', label: '訓練賽狠狠碾他一輪，讓他知道差距', tone: 'bold',
-        mental: { ego: 5, nerve: 2, chem: -5 } },
+        mental: { conf: 5, comp: 2, trust: -5 } },
       { id: 'teach', label: '把自己的筆記整份給他', tone: 'plain',
-        mental: { chem: 8, rep: 5, ego: -2 } },
+        mental: { trust: 8, conf: -2 } },
       { id: 'ignore', label: '當作沒這個人', tone: 'humble',
-        mental: { chem: -3, ego: 1 } },
+        mental: { trust: -3, conf: 1 } },
     ],
   },
   {
@@ -230,11 +242,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '獎盃還在桌上，慶功宴的位子已經訂好了。麥克風遞到你手上。',
     options: [
       { id: 'declare', label: '「這只是開始，世界賽見。」', tone: 'bold',
-        mental: { fame: 8, ego: 5, nerve: 4, rep: -1 } },
+        mental: { fame: 8, conf: 5, comp: 4 } },
       { id: 'thank', label: '把每個隊友的名字唸一遍', tone: 'plain',
-        mental: { chem: 9, rep: 6, fame: 3 } },
+        mental: { trust: 9, fame: 3 } },
       { id: 'short', label: '「謝謝大家。」然後把麥克風傳走', tone: 'humble',
-        mental: { rep: 3, chem: 2, ego: -2 } },
+        mental: { trust: 2, conf: -2 } },
     ],
   },
 
@@ -244,11 +256,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '教練把你留下來：「下個賽段我想讓新人先發幾場。」他在等你的反應。',
     options: [
       { id: 'refuse', label: '「你要換我，先把理由講清楚。」', tone: 'bold',
-        mental: { ego: 7, nerve: 3, chem: -6, rep: -3 } },
+        mental: { conf: 7, comp: 3, trust: -6 } },
       { id: 'ask', label: '問清楚是哪裡不夠，然後照做', tone: 'plain',
-        mental: { chem: 5, nerve: 3, rep: 3 } },
+        mental: { trust: 5, comp: 3 } },
       { id: 'accept', label: '點頭，什麼都不問', tone: 'humble',
-        mental: { chem: 2, nerve: -4, ego: -5 } },
+        mental: { trust: 2, comp: -4, conf: -5 } },
     ],
   },
   {
@@ -256,11 +268,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '教練要全隊改成他那套運營體系，那跟你擅長的打法完全相反。',
     options: [
       { id: 'insist', label: '堅持自己的節奏，用成績說話', tone: 'bold',
-        mental: { ego: 7, nerve: 4, chem: -5 } },
+        mental: { conf: 7, comp: 4, trust: -5 } },
       { id: 'negotiate', label: '提出折衷版本，跟教練一起改', tone: 'plain',
-        mental: { chem: 6, rep: 3, nerve: 2 } },
+        mental: { trust: 6, comp: 2 } },
       { id: 'follow', label: '完全照教練的來', tone: 'humble',
-        mental: { chem: 5, ego: -5, nerve: -1 } },
+        mental: { trust: 5, conf: -5, comp: -1 } },
     ],
   },
   {
@@ -268,11 +280,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '教練把門關上：「這支隊伍接下來要靠誰扛，我想聽你自己說。」',
     options: [
       { id: 'claim', label: '「我。這還用問嗎。」', tone: 'bold',
-        mental: { ego: 8, nerve: 6, fame: 3, chem: -3 } },
+        mental: { conf: 8, comp: 6, fame: 3, trust: -3 } },
       { id: 'team', label: '「看是哪一輪，誰手感好誰扛。」', tone: 'plain',
-        mental: { chem: 7, nerve: 2, rep: 3 } },
+        mental: { trust: 7, comp: 2 } },
       { id: 'humble', label: '「我還不夠格講這句話。」', tone: 'humble',
-        mental: { nerve: -3, chem: 3, ego: -4, rep: 2 } },
+        mental: { comp: -3, trust: 3, conf: -4 } },
     ],
   },
 
@@ -282,11 +294,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '訓練賽打到一半，兩個隊友對同一波開團的判斷吵起來，兩邊都轉頭看你。',
     options: [
       { id: 'decide', label: '直接拍板，照你的判斷走', tone: 'bold',
-        mental: { ego: 5, nerve: 3, chem: -2 } },
+        mental: { conf: 5, comp: 3, trust: -2 } },
       { id: 'vote', label: '暫停一下，三個人把邏輯講完再決定', tone: 'plain',
-        mental: { chem: 6, nerve: 1 } },
+        mental: { trust: 6, comp: 1 } },
       { id: 'pass', label: '「你們決定就好。」', tone: 'humble',
-        mental: { chem: -2, ego: -4 } },
+        mental: { trust: -2, conf: -4 } },
     ],
   },
   {
@@ -294,11 +306,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '同一個隊友這週第三次晚到團練。教練還沒進來，大家都在等你說話。',
     options: [
       { id: 'callout', label: '當著全隊的面唸他', tone: 'bold',
-        mental: { ego: 4, chem: -5, rep: -2, nerve: 2 } },
+        mental: { conf: 4, trust: -5, comp: 2 } },
       { id: 'private', label: '練完再私下提醒', tone: 'plain',
-        mental: { chem: 6, rep: 3 } },
+        mental: { trust: 6 } },
       { id: 'cover', label: '幫他跟教練圓過去', tone: 'humble',
-        mental: { chem: 4, rep: 1, ego: -3 } },
+        mental: { trust: 4, conf: -3 } },
     ],
   },
   {
@@ -306,11 +318,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '凌晨的訓練室只剩兩個人。隊友忽然開口：「你覺得我們今年真的有機會嗎？」',
     options: [
       { id: 'promise', label: '「有。我會把你們帶上去。」', tone: 'bold',
-        mental: { nerve: 5, ego: 4, chem: 5 } },
+        mental: { comp: 5, conf: 4, trust: 5 } },
       { id: 'honest', label: '「不知道，但我每天都在準備。」', tone: 'plain',
-        mental: { nerve: 3, chem: 4, rep: 2 } },
+        mental: { comp: 3, trust: 4 } },
       { id: 'doubt', label: '「說真的，我也不確定。」', tone: 'humble',
-        mental: { nerve: -4, chem: 1, ego: -3 } },
+        mental: { comp: -4, trust: 1, conf: -3 } },
     ],
   },
   {
@@ -318,11 +330,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '你在自己台上吐槽隊友的一段被剪出來瘋傳。隊友已經看到了。',
     options: [
       { id: 'own', label: '「講的是事實，我不收回。」', tone: 'bold',
-        mental: { fame: 9, ego: 7, chem: -9, rep: -6 } },
+        mental: { fame: 9, conf: 7, trust: -9 } },
       { id: 'explain', label: '進群組解釋當下的語境', tone: 'plain',
-        mental: { fame: 2, chem: 2, rep: 1 } },
+        mental: { fame: 2, trust: 2 } },
       { id: 'delete', label: '刪片，私下跟本人道歉', tone: 'humble',
-        mental: { fame: -3, chem: 6, rep: 4, ego: -4 } },
+        mental: { fame: -3, trust: 6, conf: -4 } },
     ],
   },
 ];

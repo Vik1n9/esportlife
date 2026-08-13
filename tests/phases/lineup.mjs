@@ -63,8 +63,8 @@ export async function run({ check }) {
     check('打不到隊伍平均，風險明顯上升', benchRisk(bad) > benchRisk(good) + 10,
       `${benchRisk(bad).toFixed(1)} vs ${benchRisk(good).toFixed(1)}`);
 
-    const rift = pro('bench-rift', 88); rift.mental.chem = 5;
-    check('默契見底會被下放', benchRisk(rift) > benchRisk(good) + 10, benchRisk(rift).toFixed(1));
+    const rift = pro('bench-rift', 88); rift.mental.trust = 5;
+    check('信任見底會被下放', benchRisk(rift) > benchRisk(good) + 10, benchRisk(rift).toFixed(1));
 
     const back = pro('bench-back', 88, { returningFromInjury: true });
     check('傷癒回歸時位子不一定還在', benchRisk(back) > benchRisk(good) + 10, benchRisk(back).toFixed(1));
@@ -72,7 +72,7 @@ export async function run({ check }) {
     const repeat = pro('bench-again', 88, { benchedStreak: 1 });
     check('坐過一次之後更容易再坐', benchRisk(repeat) > benchRisk(good), benchRisk(repeat).toFixed(1));
 
-    check('風險有上限，不會變成必然', benchRisk(pro('bench-worst', 25, { mental: { ...bad.mental, chem: 0 }, age: 34, returningFromInjury: true, benchedStreak: 3 })) <= 75);
+    check('風險有上限，不會變成必然', benchRisk(pro('bench-worst', 25, { mental: { ...bad.mental, trust: 0 }, age: 34, returningFromInjury: true, benchedStreak: 3 })) <= 75);
   }
 
   /* ---- 業餘與青訓沒有板凳這回事 ---- */

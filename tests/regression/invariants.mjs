@@ -47,14 +47,17 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { attrCap, coachRating, investAttr, positionPower, skills } from '../../src/engine/attributes.js';
+import {
+  RATING_MENTAL_SPAN, attrCap, coachRating, investAttr, positionPower, skills,
+} from '../../src/engine/attributes.js';
+import { PERFORM_FLOOR, PERFORM_SPAN, PRESSURE, SKILL_MENTAL, mistakeFactor, performCoef, stability } from '../../src/engine/psych.js';
 import { checkFusions, unlockTrait } from '../../src/engine/progression.js';
 import { careerTier } from '../../src/engine/career.js';
 import { gameChance } from '../../src/kernel/series.js';
 import { opponentStrength, starEffect, teamStrength } from '../../src/kernel/strength.js';
 import { TIER_STORES, traitName } from '../../src/kernel/modifiers.js';
 import { ATTRS, ATTR_CAP, ATTR_CAP_GODHAND } from '../../src/data/attributes.js';
-import { MENTAL_KEYS, MENTAL_RANGE } from '../../src/data/mental.js';
+import { MENTAL_BASE, MENTAL_KEYS, MENTAL_NAMES, MENTAL_RANGE } from '../../src/data/mental.js';
 import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
 import { LEAGUES } from '../../src/data/leagues.js';
 import { FUSIONS } from '../../src/data/epics.js';
@@ -108,6 +111,7 @@ export async function run({ check, log, shared }) {
   fusionConsumption({ check, log, runs });
   potentialDecay({ check, log, gate });
   mentalAmplifier({ check, log, gate });
+  mistakeVisibility({ check, log, runs });
   staminaRhythm({ check, gate, runs });
   eventExclusion({ check, gate });
 
@@ -147,8 +151,10 @@ const RATING_TRAIT_HEADROOM = 1 + Object.values(TIER_STORES).reduce((total, { ta
  * 這與 S09 為「加點是決策」換分母是同一類修正：門檻對權重表免疫，但對特質持有不免疫。
  * 通膨真正的守門員是上面那條平均值比例，它沒有動過。
  *
- * ⚠ **S12 要把 §10.2 的隱藏心理修正（±3）加進母數。** 它現在回傳 0，所以先不算進去
- * ——提早放寬 3 點等於這條檢查在 S12 之前少守 3 點。
+ * ⚠ **S12 把 §10.2 的隱藏心理修正（±3）加進母數了**：`coachRating()` 現在真的會加上
+ * `(drive×0.40 + disc×0.35 + comp×0.25 − 50) × 0.06`，上界因此合法地多 3 點。那個 3
+ * 是 `RATING_MENTAL_SPAN`，跟特質那份一樣**從程式匯入而不是手填**——有人改動 §10.2
+ * 的量級時上界會跟著動，那是 review 該看到的訊號。
  */
 function peakCeiling({ check, log, runs }) {
   for (const [key, w] of Object.entries(SKILL_WEIGHTS)) {
@@ -168,9 +174,10 @@ function peakCeiling({ check, log, runs }) {
   // 被砍過頭，高於上界就是通膨
   check('巔峰上界：平均巔峰 ÷ 屬性硬上限落在 0.68–0.82（通膨／縮水都會紅）',
     ratio >= 0.68 && ratio <= 0.82, `平均巔峰 ${mean(peaks).toFixed(2)}／上限 ${ATTR_CAP} = ${ratio.toFixed(4)}`);
-  const hardCeiling = ATTR_CAP_GODHAND + RATING_TRAIT_HEADROOM;
-  check('巔峰上界：沒有任何一段生涯超過硬上限＋§10.2 允許的加法特質修正',
-    Math.max(...peaks) <= hardCeiling, `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP_GODHAND} ＋特質 ${RATING_TRAIT_HEADROOM}）`);
+  const hardCeiling = ATTR_CAP_GODHAND + RATING_TRAIT_HEADROOM + RATING_MENTAL_SPAN;
+  check('巔峰上界：沒有任何一段生涯超過硬上限＋§10.2 允許的加法特質與心理修正',
+    Math.max(...peaks) <= hardCeiling,
+    `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP_GODHAND} ＋特質 ${RATING_TRAIT_HEADROOM} ＋心理 ${RATING_MENTAL_SPAN}）`);
 
   for (const { state, seed, role } of runs) {
     const top = Math.max(...Object.values(skills(state)));
@@ -614,10 +621,153 @@ function mentalAmplifier({ check, log, gate }) {
   gate.gate('心理是放大器 · §9.2 發揮公式帶寬', 'S12',
     V4_MENTAL.every((k) => MENTAL_KEYS.includes(k)),
     `心理還是現行五維（${MENTAL_KEYS.join('／')}），V4 §9.2 的六維與發揮公式尚未存在`,
-    () => {
-      check('心理是放大器：§9.2 的發揮倍率落在 0.85–1.15',
-        true, '（S12 接上發揮公式後在這裡驗帶寬）');
-    });
+    () => performBandwidth({ check, log }));
+}
+
+/**
+ * §9.2 的發揮公式帶寬：`技能值 × (0.85 + 0.30 × 心理修正)`。
+ *
+ * 這一組守的是「放大器不是決定器」的**定量**邊界，跟上面那三條（勝率語言）互補：
+ * 那邊問「心理能不能改變誰是強隊」，這邊問「公式本身有沒有守在 ±15%」。兩邊都要，
+ * 因為係數對了但被別的地方乘一次、或位置權重列和不是 1，勝率那三條不一定抓得到。
+ */
+function performBandwidth({ check, log }) {
+  check('§9.2：兩個係數就是規格書寫的 0.85／0.30（不准改）',
+    PERFORM_FLOOR === 0.85 && PERFORM_SPAN === 0.30, `${PERFORM_FLOOR}／${PERFORM_SPAN}`);
+
+  for (const [skill, row] of Object.entries(SKILL_MENTAL)) {
+    const sum = Object.values(row).reduce((t, v) => t + v, 0);
+    check('§9.2：技能←心理的權重列和為 1（否則修正值不會落在 0–1）',
+      Math.abs(sum - 1) < 1e-9, `${skill} 的和是 ${sum.toFixed(4)}`);
+    check('§9.2：主導維度只能是六維之一',
+      Object.keys(row).every((k) => MENTAL_KEYS.includes(k)), `${skill}：${Object.keys(row).join(',')}`);
+  }
+  check('§9.2：十二項技能都有主導心理維度',
+    Object.keys(SKILL_MENTAL).length === Object.keys(SKILL_WEIGHTS).length,
+    `${Object.keys(SKILL_MENTAL).length} / ${Object.keys(SKILL_WEIGHTS).length}`);
+
+  const probe = (fill) => {
+    const st = createState({ name: 'P', role: 'MID', seed: 'perform-probe' });
+    for (const k of MENTAL_KEYS) st.mental[k] = fill;
+    return st;
+  };
+  for (const skill of Object.keys(SKILL_MENTAL)) {
+    check('§9.2：心理全空的發揮倍率恰好是 0.85',
+      Math.abs(performCoef(probe(0), skill) - 0.85) < 1e-9, skill);
+    check('§9.2：心理全滿的發揮倍率恰好是 1.15',
+      Math.abs(performCoef(probe(100), skill) - 1.15) < 1e-9, skill);
+    check('§9.2：心理 50 為基準，倍率恰好中性',
+      Math.abs(performCoef(probe(MENTAL_BASE), skill) - 1) < 1e-9, skill);
+  }
+
+  // 折疊成位置戰力的乘法項之後帶寬必須守住——位置權重列和為 1 才成立，
+  // 所以這條同時也是「有人動了 OVR_WEIGHTS 卻沒讓列和維持 1」的警報
+  for (const role of ROLES) {
+    const at = (fill) => {
+      const st = probe(fill); st.role = role; return stability(st);
+    };
+    check('§9.2：位置戰力的心理乘法項落在 0.85–1.15',
+      Math.abs(at(0) - 0.85) < 1e-9 && Math.abs(at(100) - 1.15) < 1e-9 && Math.abs(at(MENTAL_BASE) - 1) < 1e-9,
+      `${role}：${at(0).toFixed(4)} / ${at(MENTAL_BASE).toFixed(4)} / ${at(100).toFixed(4)}`);
+  }
+  hiddenFromUi({ check });
+  log(`§9.2 發揮帶寬：全空 ${PERFORM_FLOOR} ／ 心理 50 恰好 1.000 ／ 全滿 ${(PERFORM_FLOOR + PERFORM_SPAN).toFixed(2)}`);
+}
+
+/**
+ * §9.1 的紅線：**六維連粗略標籤都不能出現在 UI**。
+ *
+ * 跟 S11 那條「UI 不得讀教練評價」同一個作法——掃 `src/ui/*.js` 的原始碼，因為這是
+ * 一條「不准寫某種程式」的規定，跑測試跑不出來。
+ *
+ * 為什麼標籤比數字更該擋：v3 的面板印的是「大場面型」「一上大場面就抖」，看起來
+ * 很含蓄，實際上等於把抗壓值分成五段公告出去。玩家一看到分段就會開始推門檻、
+ * 然後最佳化它——§9.3 整套「因隱藏、果可見」的推測循環就是死在這裡。可見且有
+ * 分級的只准剩聲量一項。
+ */
+function hiddenFromUi({ check }) {
+  const uiDir = new URL('../../src/ui/', import.meta.url);
+  // 六維的中文名 ＋ 舊版那五段抗壓／默契標籤。聲量的五段（全民認識…）刻意不列
+  const leaks = [
+    ...Object.values(MENTAL_NAMES),
+    '大場面型', '一上大場面就抖', '容易緊張', '休息室核心', '關係破裂', '有摩擦',
+  ];
+  for (const file of readdirSync(uiDir)) {
+    if (!file.endsWith('.js')) continue;
+    const src = readFileSync(new URL(file, uiDir), 'utf8');
+    check('心理六維不可見：UI 不得出現維度名稱或分級標籤（V4 §9.1）',
+      !leaks.some((w) => src.includes(w)),
+      `src/ui/${file} 出現了「${leaks.find((w) => src.includes(w))}」`);
+    check('心理六維不可見：UI 不得讀取 MENTAL_NAMES／六維摘要（V4 §9.1）',
+      !/\bMENTAL_NAMES\b|\bmentalTier\b|\bmentalSummary\b/.test(src), `src/ui/${file}`);
+  }
+}
+
+/* ---------------- 失誤：因隱藏、果可見（V4 §9.3） ---------------- */
+
+/**
+ * §9.3 的整個設計目的是**讓玩家推測得出來**：心理隱藏，但失誤的後果印在數據上。
+ * 所以這一組驗的不是「係數對不對」，是「看不看得出來」——一個抗壓低的人在季後賽
+ * 與生死戰的陣亡數要顯著高於他自己的常規賽，否則這個循環根本沒成立。
+ *
+ * 用同一個角色比他自己（配對），種子運氣會相消。
+ */
+function mistakeVisibility({ check, log, runs }) {
+  const probe = (mental) => {
+    const st = createState({ name: 'X', role: 'MID', seed: 'mistake-probe' });
+    Object.assign(st.mental, mental);
+    return st;
+  };
+  const mid = { comp: 50, conf: 50, disc: 50, resl: 50 };
+  const weak = probe({ ...mid, comp: 10, resl: 10 });
+  const tough = probe({ ...mid, comp: 90, resl: 90 });
+
+  check('§9.3：心理全中性在常規賽的失誤係數恰好是 1.0',
+    Math.abs(mistakeFactor(probe(mid), PRESSURE.regular) - 1) < 1e-9,
+    String(mistakeFactor(probe(mid), PRESSURE.regular)));
+
+  const weakReg = mistakeFactor(weak, PRESSURE.regular);
+  const weakHot = mistakeFactor(weak, PRESSURE.elimination);
+  check('§9.3：抗壓低的人，壓力越大失誤越多（受迫項吃壓力係數）',
+    weakHot > weakReg * 1.15, `常規 ${weakReg.toFixed(3)} → 生死戰 ${weakHot.toFixed(3)}`);
+
+  const toughReg = mistakeFactor(tough, PRESSURE.regular);
+  const toughHot = mistakeFactor(tough, PRESSURE.elimination);
+  check('§9.3：抗壓高的人不會因為場合變大而拿到額外獎金（餘裕不吃壓力係數）',
+    Math.abs(toughHot - toughReg) < 1e-9, `常規 ${toughReg.toFixed(3)} → 生死戰 ${toughHot.toFixed(3)}`);
+  check('§9.3：抗壓高的人失誤本來就少', toughReg < 1, toughReg.toFixed(3));
+
+  // 自信是雙向的：§9.3 明寫「自信過高 → 貪」也是失誤來源
+  const cocky = mistakeFactor(probe({ ...mid, conf: 100 }), PRESSURE.regular);
+  const steady = mistakeFactor(probe({ ...mid, conf: 60 }), PRESSURE.regular);
+  check('§9.3：自信過高會增加非受迫性失誤（唯一一個越高越不好的維度）',
+    cocky > steady, `自信 100 → ${cocky.toFixed(3)}，自信 60 → ${steady.toFixed(3)}`);
+
+  check('§9.3：紀律低會增加非受迫性失誤',
+    mistakeFactor(probe({ ...mid, disc: 10 }), PRESSURE.regular) > 1);
+
+  // 失誤係數本身也要是放大器：再爛的心態不會讓陣亡數翻倍
+  const worst = mistakeFactor(probe({ comp: 0, conf: 100, disc: 0, resl: 0 }), PRESSURE.elimination);
+  check('§9.3：失誤係數有上界，心理再爛也不會讓陣亡數翻倍', worst < 2, worst.toFixed(3));
+
+  /* ---- 果真的可見：160 段生涯裡，兩格的每場陣亡數要拉得開 ---- */
+  const logs = runs.map((r) => r.state.deathLog).filter((d) => d && d.regular.G && d.pressure.G);
+  check('§9.3：季後賽與國際賽的陣亡數真的有被記進可見數據',
+    logs.length > runs.length * 0.5, `${logs.length}／${runs.length} 段有兩格資料`);
+
+  const rate = (row) => row.D / row.G;
+  const withComp = runs
+    .filter((r) => r.state.deathLog?.regular.G && r.state.deathLog.pressure.G)
+    .map((r) => ({ comp: r.state.mental.comp, gap: rate(r.state.deathLog.pressure) - rate(r.state.deathLog.regular) }));
+  const lowComp = withComp.filter((x) => x.comp < 50);
+  const highComp = withComp.filter((x) => x.comp >= 50);
+  if (lowComp.length && highComp.length) {
+    const lo = mean(lowComp.map((x) => x.gap));
+    const hi = mean(highComp.map((x) => x.gap));
+    check('§9.3：因隱藏果可見——低抗壓的人在大賽的每場陣亡數比自己的常規賽高得更多',
+      lo > hi, `低抗壓 +${lo.toFixed(3)}／場，高抗壓 +${hi.toFixed(3)}／場`);
+    log(`失誤可見度：大賽 − 常規賽的每場陣亡數，低抗壓 +${lo.toFixed(3)}、高抗壓 +${hi.toFixed(3)}（差 ${(lo - hi).toFixed(3)}）`);
+  }
 }
 
 /* ---------------- 體力節奏（V4 §6.1） ---------------- */

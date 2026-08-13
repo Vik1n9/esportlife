@@ -7,6 +7,19 @@ import {
 } from '../data/attributes.js';
 import { ROLE_ATTR_WEIGHTS, ROLE_SKILLS, SKILL_WEIGHTS } from '../data/skills.js';
 import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
+import { stability } from './psych.js';
+
+/**
+ * §10.2 的隱藏心理修正上下界（±3）。
+ *
+ * 由來寫在 §10.2：約等於半年的評價成長量（§7.3 實測第一年 +5.5）。教練看得出態度，
+ * 但態度不該讓一個 60 的選手變成 70 的選手——上界要小於「多練半年」。
+ *
+ * 匯出是給 `tests/regression/invariants.mjs` 的「巔峰上界」當母數用：教練評價可以
+ * 合法高過屬性硬上限的量 ＝ §10.2 允許的加法特質修正 ＋ 這一項。**不要在測試裡
+ * 手填 3**，這樣有人改了這裡，上界會跟著鬆，而那是 review 該看到的訊號。
+ */
+export const RATING_MENTAL_SPAN = 3;
 
 export function attrCap(state) {
   return flag(state, 'abilityCapUp') ? ATTR_CAP_GODHAND : ATTR_CAP;
@@ -56,22 +69,29 @@ function roleWeighted(state) {
 }
 
 /*
- * TODO(S12)：六維心理（V4 §9）還沒實作，下面兩個接口先各自回傳中性值。
- *
- * 心理有兩條互不相干的出口，S12 要各接各的，不要合成一條：
+ * 心理有兩條互不相干的出口，**各接各的，不要合成一條**：
  *   §10.2 隱藏心理修正（加法，±3）→ 只吃 drive/disc/comp，進的是**教練評價**，
  *         影響薪資／續約／FA。教練評的是「這個人可不可靠」，不是他的全部心理狀態。
- *   §11.2 心理穩定修正（乘法）→ 進的是**位置戰力**，影響比賽發揮與失誤。
+ *   §11.1 心理穩定修正（乘法，±15%）→ 進的是**位置戰力**，影響比賽發揮。
  *
  * 兩條分開的理由就是 §10.2 寫的那句：信任與韌性是隊內的事、自信是場上的事，都不該
  * 由教練的報價來表達。合成一條的話，一次崩盤會同時砍掉戰力與身價，那是兩次懲罰。
+ *
+ * 兩者的量級也刻意差很多：評價那條是 ±3（§10.2 明寫「上界要小於多練半年」），戰力
+ * 那條是 ±15%（在 0–100 刻度上約 ±11 點）。教練看得出態度，但看不出你在龍坑前手抖。
  */
 
-/** 隱藏心理修正（V4 §10.2）＝ `(drive×0.40 + disc×0.35 + comp×0.25 − 50) × 0.06`，上下界 ±3 */
-function mentalRating() { return 0; }
-
-/** 心理穩定修正（V4 §11.1）：位置戰力的乘法項 */
-function mentalStability() { return 1; }
+/**
+ * 隱藏心理修正（V4 §10.2）＝ `(drive×0.40 + disc×0.35 + comp×0.25 − 50) × 0.06`。
+ *
+ * 三維全 50 → 0；全 100 → +3.0；全 0 → −3.0。只吃動機／紀律／抗壓——那是教練在
+ * 訓練室與大場面上看得出來的三件事，信任、韌性、自信都不該由報價來表達。
+ */
+function mentalRating(state) {
+  const m = state.mental || {};
+  const seen = (m.drive ?? 50) * 0.40 + (m.disc ?? 50) * 0.35 + (m.comp ?? 50) * 0.25;
+  return clamp((seen - 50) * 0.06, -RATING_MENTAL_SPAN, RATING_MENTAL_SPAN);
+}
 
 /**
  * 教練評價（V4 §10.2）＝ 位置加權技能 ＋ 隱藏心理修正 ＋ 特質調整。
@@ -123,10 +143,14 @@ export function effectiveCoachRating(state) {
  * 版本適應目前沿用既有的加法懲罰（`patchPenalty`），沒有改成 §11.1 寫的乘法——
  * 換算式不是這一站的工作，而加法在 0–100 刻度下的量級（每點落差 −1.5）已經校過。
  *
+ * 心理穩定修正走 `psych.stability()`（§9.2 的發揮倍率依位置權重加權），恆在
+ * 0.85–1.15。**它乘在技能上，不乘在版本落差上**：版本跟不上是知識問題，抗壓再好
+ * 也不會讓你突然會玩新版本的英雄。
+ *
  * 不取整：它只進 `teamStrength`，而明星效應吃的是 `(P − par)^1.35`，留小數才平滑。
  */
 export function positionPower(state) {
-  return roleWeighted(state) * mentalStability(state) + patchPenalty(state);
+  return roleWeighted(state) * stability(state) + patchPenalty(state);
 }
 
 /* ================= 成長 ================= */

@@ -78,13 +78,13 @@ export const BASE_TRAITS = {
   },
   tilt: {
     name: '心態崩盤', desc: '（負面）逆風時表現下滑',
-    effects: {},   // 分段效果：把抗壓加成整個翻負，寫在 engine/mental.js
+    effects: {},   // 分段效果：把抗壓加成整個翻負（clutchBonus），寫在 engine/mental.js
   },
 
   /* ---- 心理／性格系。全部只能靠「扮演」取得，訓練點碰不到 ---- */
   bigheart: {
     name: '大心臟', desc: 'BO 決勝局勝率再 +5%',
-    effects: { nerveAdd: 5 },
+    effects: { clutchAdd: 5 },
   },
   trashtalk: {
     name: '嘴砲王', desc: '放話效果加倍——聲量與負評都是',
@@ -92,7 +92,7 @@ export const BASE_TRAITS = {
   },
   glue: {
     name: '休息室黏著劑', desc: '隊友默契成長加倍，衝突不易惡化',
-    effects: { verdictChemRisk: -20 },
+    effects: { verdictRiftRisk: -20 },
   },
   lonewolf: {
     name: '獨狼', desc: '個人數據提升，默契上限受限',
@@ -103,14 +103,14 @@ export const BASE_TRAITS = {
     effects: { underdogDepth: 1.2 },
   },
   idol: {
-    name: '全民偶像', desc: '知名度與風評雙高，續約談判優勢',
+    name: '全民偶像', desc: '聲量高又沒有黑歷史，續約談判優勢',
     effects: { contractFloor: { floor: 1.25 } },
   },
   pariah: {
     name: '圈內毒瘤', desc: '（負面）報價變少、續約困難',
     effects: {
       contractCap: { cap: 0.9 }, contractCapShort: { cap: 0.95 },
-      verdictRepRisk: 15, offerPenalty: true,
+      verdictFireRisk: 15, offerPenalty: true,
     },
   },
   grinder: {
@@ -127,7 +127,7 @@ export const BASE_TRAITS = {
   },
   guardian: {
     name: '守護者', desc: '願意為隊友扛，隊友戰力小幅提升',
-    effects: { teamLead: { floor: 3 }, verdictChemRisk: -10 },
+    effects: { teamLead: { floor: 3 }, verdictRiftRisk: -10 },
   },
 };
 
@@ -153,15 +153,15 @@ export const RARE_TRAITS = {
   },
   pillar: {
     name: '定海神針', desc: '隊友大幅提升，默契不會崩',
-    effects: { teamLead: { floor: 4 }, verdictChemShield: true },
+    effects: { teamLead: { floor: 4 }, verdictRiftShield: true },
   },
   og: {
     name: '元老', desc: '隊友小幅提升，續約更有本錢',
     effects: { teamLead: { floor: 4 }, contractFloor: { floor: 1.1 } },
   },
   icon: {
-    name: '傳奇偶像', desc: '代言收入提升，風評只進不退',
-    effects: { endorsement: { mul: 1.15 }, repShield: true },
+    name: '傳奇偶像', desc: '代言收入提升，戰隊不會切割你',
+    effects: { endorsement: { mul: 1.15 }, verdictShield: true },
   },
   joker: {
     name: '諧星', desc: '自帶流量，代言收入提升',
@@ -169,6 +169,6 @@ export const RARE_TRAITS = {
   },
   watchdog: {
     name: '高冷守護', desc: '我行我素但罩得住隊友',
-    effects: { teamLead: { floor: 3 }, verdictChemRisk: -10 },
+    effects: { teamLead: { floor: 3 }, verdictRiftRisk: -10 },
   },
 };

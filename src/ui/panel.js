@@ -16,7 +16,7 @@ import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
-import { mentalSummary } from '../engine/mental.js';
+import { reputeSummary } from '../engine/mental.js';
 import { coachBonus, matesAverage } from '../kernel/strength.js';
 import { lookupTrait } from '../kernel/modifiers.js';
 import { byId, escapeHtml } from './dom.js';
@@ -174,10 +174,11 @@ function renderPanel() {
     </section>
 
     <section>
-      <h5>人物側寫</h5>
+      <h5>聲量</h5>
       <div class="kv">
-        ${mentalSummary(state).map((m) => `<div><span>${m.name}</span><b>${m.tier}</b></div>`).join('')}
+        ${reputeSummary(state).map((m) => `<div><span>${m.name}</span><b>${m.tier}</b></div>`).join('')}
       </div>
+      <p class="muted small">聲量是唯一看得到的一項。你的心態沒有數字也沒有標籤——只能從比賽數據與事件反應去猜。</p>
     </section>
 
     <section>

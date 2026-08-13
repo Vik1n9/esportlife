@@ -73,11 +73,13 @@ export function worldsRuleOf(year) {
  * 心理值的幅度刻意大於 MSI——世界賽是這個項目一年一度的最大舞台，走到哪一輪都會
  * 在人身上留下東西。走得越遠留得越多，止步也給。
  */
+// V4 §9.4 的維度對映：`nerve` → `comp` 抗壓、`chem` → `trust` 信任（默契併進去了），
+// `rep` 風評整條拿掉。一起打過世界賽會長信任，這一條是原樣搬過來的
 export const WORLDS_RESULTS = {
-  champion: { rank: '世界賽冠軍', points: 10, nerve: 10, fame: 25, rep: 12, chem: 6 },
-  final: { rank: '世界賽亞軍', points: 6, nerve: 7, fame: 16, rep: 8, chem: 3 },
-  semi: { rank: '四強止步', points: 3, nerve: 5, fame: 10, rep: 4, chem: 2 },
-  quarter: { rank: '八強止步', points: 2, nerve: 3, fame: 7, rep: 2, chem: 1 },
-  stage: { rank: '小組止步', points: 1, nerve: 2, fame: 4, rep: 1, chem: 0 },
-  playin: { rank: '入圍賽出局', points: 1, nerve: 1, fame: 2, rep: 0, chem: 0 },
+  champion: { rank: '世界賽冠軍', points: 10, comp: 10, fame: 25, trust: 6 },
+  final: { rank: '世界賽亞軍', points: 6, comp: 7, fame: 16, trust: 3 },
+  semi: { rank: '四強止步', points: 3, comp: 5, fame: 10, trust: 2 },
+  quarter: { rank: '八強止步', points: 2, comp: 3, fame: 7, trust: 1 },
+  stage: { rank: '小組止步', points: 1, comp: 2, fame: 4, trust: 0 },
+  playin: { rank: '入圍賽出局', points: 1, comp: 1, fame: 2, trust: 0 },
 };

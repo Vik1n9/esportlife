@@ -86,7 +86,7 @@ function candidateLeagues(state) {
  * 保底就真的是保底。
  */
 function contractMult(state, raw, { capKey = 'contractCap' } = {}) {
-  // 聲量大就得加薪留人，風評差則反過來被砍價
+  // 聲量大就得加薪留人（V4 §9.4：風評那一條已隨維度一起拿掉）
   const added = raw + bonus(state, 'contractAdd') + marketMultBonus(state);
   return capOf(state, capKey, floorOf(state, 'contractFloor', added));
 }
@@ -101,11 +101,30 @@ function multFor(rng, leagueKey, state) {
 /* ---------------- 隊內衝突與戰隊切割 ---------------- */
 
 /**
+ * 落後所在聯賽先發平均幾點才進入「切割」的判定範圍。
+ *
+ * 8 點是查出來的、不是猜的：`benchRisk` 在 `delta < 0` 時每點加 2.56%，落後 8 點
+ * 已經是 22% 的板凳風險——先發位置都保不住的人，合約才真的擋不住。門檻再低就會
+ * 變成「打不好就被開除」，那是常態不是事件。
+ */
+const FIRE_SHORTFALL = 8;
+
+/**
  * 戰隊在休賽期對你的處置。
  *
- * 兩條真實存在的路：默契崩到底會被迫轉隊（吵到不能同隊了），風評爛到底
- * 會被直接切割（贊助商壓力大過競技價值）。兩者都作廢合約、丟進自由市場，
- * 差別是切割還會讓市場對你的報價縮水。
+ * 兩條真實存在的路：信任崩到底會被迫轉隊（吵到不能同隊了），競技價值撐不住
+ * 又帶著負面名聲會被直接切割。兩者都作廢合約、丟進自由市場，差別是切割還會
+ * 讓市場對你的報價縮水。
+ *
+ * ⚠ **切割那條在 S12 換了判準**（V4 §9.4）。舊版讀 `rep` 風評 ≤ −60，而 V4 把風評
+ * 整條維度拿掉了：「圈內怎麼說你」不再是一個獨立數值。§9.4 指名改讀**教練評價 ＋
+ * 特質副作用**，所以現在的門檻是「打不到所在聯賽的水準」，再由 `verdictFireRisk`
+ * 那類特質（圈內毒瘤 +15）加碼。
+ *
+ * 兩項都要有份量是刻意的：光是打得差不會被切割（那是板凳與續約的事，`benchRisk`
+ * 已經在管），光是嘴壞也不會（只要還打得動，戰隊會忍）。**兩件事疊在一起**才是
+ * 真的會被切割的那種人——舊版的 rep ≤ −60 表達的其實也是這個，只是當時用一個
+ * 「圈內風評」的數值代勞。
  *
  * @returns {{kind:'none'|'rift'|'fired', note?:string}}
  */
@@ -113,17 +132,19 @@ export function clubVerdict(state, rng) {
   if (state.stage !== 'PRO' || !state.contract) return { kind: 'none' };
   // 剛換過隊就再鬧一次太廉價了——留兩年冷卻，這才像一次真的事件而不是常態
   if (state.lastVerdictYear != null && state.year - state.lastVerdictYear < 3) return { kind: 'none' };
-  const { chem, rep } = state.mental;
+  const { trust } = state.mental;
+  const par = LEAGUES[state.league]?.par ?? 66;
+  const shortfall = par - effectiveCoachRating(state);
 
-  if (rep <= -60 && !flag(state, 'repShield')) {
-    const risk = clamp(22 + (-rep - 60) * 1.4 + bonus(state, 'verdictRepRisk'), 8, 70);
-    if (rng.chance(risk)) {
+  if (shortfall >= FIRE_SHORTFALL && !flag(state, 'verdictShield')) {
+    const risk = clamp(6 + (shortfall - FIRE_SHORTFALL) * 1.6 + bonus(state, 'verdictFireRisk'), 0, 70);
+    if (risk > 0 && rng.chance(risk)) {
       state.lastVerdictYear = state.year;
-      return { kind: 'fired', note: '贊助商施壓，戰隊決定與你切割' };
+      return { kind: 'fired', note: '競技價值撐不住合約，戰隊決定與你切割' };
     }
   }
-  if (chem <= 21 && !flag(state, 'verdictChemShield')) {
-    const risk = clamp(25 + (21 - chem) * 2 + bonus(state, 'verdictChemRisk'), 8, 72);
+  if (trust <= 21 && !flag(state, 'verdictRiftShield')) {
+    const risk = clamp(25 + (21 - trust) * 2 + bonus(state, 'verdictRiftRisk'), 8, 72);
     if (rng.chance(risk)) {
       state.lastVerdictYear = state.year;
       return { kind: 'rift', note: '休息室已經修不回來了，管理層決定拆開' };
@@ -137,7 +158,7 @@ export function clubVerdict(state, rng) {
  * @returns {number} 額外的年薪係數
  */
 export function retentionPremium(state) {
-  const fame = state.mental?.fame ?? 0;
+  const fame = state.fame ?? 0;
   if (fame >= 78) return 0.25;
   if (fame >= 60) return 0.15;
   if (fame >= 45) return 0.08;
@@ -192,11 +213,12 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
     }
   }
 
-  // 表現差時砍掉部分報價；風評爛到見底，就算數值還在也沒幾支隊敢碰
+  // 表現差時砍掉部分報價；名聲爛到見底，就算數值還在也沒幾支隊敢碰。
+  // V4 §9.4 把 `rep` 風評整條拿掉之後，「沒幾支隊敢碰」只剩特質副作用這一個來源
+  // （`offerPenalty`：圈內毒瘤）——這正是 §9.4 說的「改由特質副作用承擔」
   if (delta < 0 && offers.length > MIN_OFFERS) offers.length = Math.max(MIN_OFFERS, offers.length - 1);
-  const rep = state.mental?.rep ?? 0;
-  if ((rep <= -40 || flag(state, 'offerPenalty')) && offers.length > MIN_OFFERS) {
-    offers.length = Math.max(MIN_OFFERS, offers.length - (rep <= -70 ? 2 : 1));
+  if (flag(state, 'offerPenalty') && offers.length > MIN_OFFERS) {
+    offers.length = Math.max(MIN_OFFERS, offers.length - 1);
   }
   offers.blockedByImports = blockedByImports;
   return offers;
