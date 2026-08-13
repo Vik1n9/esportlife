@@ -103,13 +103,15 @@ button{font-family:var(--ui)}
 /* 版本落差標在格子的標籤上而不是數字上：扣的是戰力與估價，不是技能值本身 */
 .bd-cell.penalised span{color:var(--bad)}
 
-/* 階段燈：哪一格亮代表現在跑到哪一段 */
-#lamps{display:flex;gap:28px;justify-content:center;margin:8px -14px 0;
+/* 月份燈：一年十二個回合，亮的是當下的月份（V4 §3.2） */
+#lamps{display:flex;gap:0;justify-content:space-between;margin:8px -14px 0;padding:0 8px;
   background:var(--panel);border-top:var(--hair) solid var(--edge)}
-.lamp{position:relative;display:flex;align-items:center;color:var(--dim);font-size:13px;padding:9px 2px 8px}
+.lamp{position:relative;flex:1;display:flex;justify-content:center;align-items:center;
+  color:var(--ghost);font-family:var(--mono);font-size:11px;padding:8px 0 7px}
 .lamp i{display:none}
-.lamp.on{color:#fff}
-.lamp.on::before{content:'';position:absolute;left:0;right:0;bottom:-1px;height:3px;background:var(--accent)}
+.lamp.done{color:var(--dim)}
+.lamp.on{color:#fff;font-weight:700}
+.lamp.on::before{content:'';position:absolute;left:2px;right:2px;bottom:-1px;height:3px;background:var(--accent)}
 
 /* ============================================================
    敘事流與卡片
@@ -382,5 +384,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
   #start h1{font-size:23px}
   .seg button{font-size:12.5px;padding:10px 2px}
   .seg{column-gap:6px}
-  #lamps,.site-nav{gap:18px}
+  #lamps{padding:0 2px}
+  .lamp{font-size:10px}
+  .site-nav{gap:18px}
 }

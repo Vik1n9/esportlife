@@ -15,10 +15,10 @@ import { byId } from './dom.js';
 export async function runCareer({ state, rng, seed, appVersion }) {
   const g = { state, rng };
   const flow = careerFlow(g);
-  let phase = 0;
+  let month = state.month || 1;
   let input;
 
-  const sync = () => { renderBoard(state, phase); refreshPanel(); };
+  const sync = () => { renderBoard(state, month); refreshPanel(); };
 
   for (;;) {
     const { value: beat, done } = flow.next(input);
@@ -32,8 +32,8 @@ export async function runCareer({ state, rng, seed, appVersion }) {
       case 'divider':
         renderDivider(beat.text);
         break;
-      case 'phase':
-        phase = beat.index;
+      case 'month':
+        month = beat.month;
         break;
       case 'checkpoint':
         saveGame(state, rng);

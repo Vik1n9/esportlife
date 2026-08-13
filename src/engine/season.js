@@ -6,7 +6,7 @@ import { blankSeasonStat } from './state.js';
 import { effectiveCoachRating, skills } from './attributes.js';
 import { opponentStrength, teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
-import { advanceMonths, consume, formFactor, monthsFor, seriesCost, staminaOf } from './stamina.js';
+import { consume, formFactor, seriesCost, staminaOf } from './stamina.js';
 import { PRESSURE, mistakeFactor } from './psych.js';
 
 /**
@@ -24,9 +24,9 @@ import { PRESSURE, mistakeFactor } from './psych.js';
  * @param {number} form 手感係數（體力）
  * @param {number} pressure 見 `psych.PRESSURE`
  */
-export function deathsPerGame(state, a, par, form, rng, pressure = PRESSURE.regular) {
+export function deathsPerGame(state, a, par, form, rng, pressure = PRESSURE.regular, noise = 1) {
   const base = STAT_BASELINE[state.role];
-  const raw = clamp(base.D - (a.pos - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15), 0.5, 3.0);
+  const raw = clamp(base.D - (a.pos - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15 * noise), 0.5, 3.0);
   // 體力透支最先反映在後期的失誤上，所以陣亡數反向吃 form
   return raw / form * mistakeFactor(state, pressure);
 }
@@ -69,10 +69,17 @@ export function recordDeaths(state, bucket, games, deaths) {
 }
 
 /**
- * 模擬一個賽段。
+ * 模擬一批常規賽。
  *
- * `weight` 是該賽段佔全年場次的比例——一年拆成三賽段不代表要打三倍的比賽，
- * 場次是切開來分的，變多的是決策點與事件，不是場次。
+ * `weight` 是這一批佔全年場次的比例。S14 之前的呼叫單位是「一個賽段」，月回合制之後
+ * 是「一個月」——賽段的月份區間由年曆展開（`engine/calendar.js`），這裡只管「給我
+ * 多少比重，我打完給你數據」。一年拆成三賽段不代表要打三倍的比賽，場次是切開來分的，
+ * 變多的是決策點與事件，不是場次。
+ *
+ * **這個函式不再推進月份。** S13 時它自己呼叫 `advanceMonths` 走完賽段的月數，因為
+ * 那時沒有別的東西在推進時間；現在推進時間的是月回合（`phases/month.js`），體力讀數
+ * 由呼叫端帶進來。一個「模擬比賽」的函式偷偷把時鐘往前撥，正是月回合制最容易長出
+ * 兩套時間軸的地方。
  *
  * @param {object} state
  * @param {import('../core/rng.js').Rng} rng
@@ -82,27 +89,28 @@ export function recordDeaths(state, bucket, games, deaths) {
  *
  * @param {number} [weight] 佔全年場次比例，預設 1（整年一段）
  * @param {number} [share] 實際出賽比例（板凳 0、輪替約 0.55、先發 1）
+ * @param {number} [stamina] 打這批比賽時的體力（月回合結算後的谷底），預設讀當下值
+ * @param {number} [batch] 這一批佔**一個賽段**的比例（1 = 整段一次算完）。見 `noiseScale`
  */
-export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
+export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1, stamina = staminaOf(state), batch = 1) {
   const league = LEAGUES[leagueKey];
   // 個人數據看的是技能（對線吃 CS、視野吃 VIS…），不是屬性——屬性要先折算過來
   const a = skills(state);
 
-  /*
-   * 這一段有幾個月，體力就在這裡走幾個月（V4 §6）。
-   *
-   * 月回合制是 S14 的事，所以現在推動每月結算的是 `stamina.js` 的自動駕駛，玩家還
-   * 插不上手。但體力**必須真的在動**：手感係數、受傷機率、勝率的體力項讀的都是它，
-   * 凍在 100 不動就等於沒做這個系統。S14 把玩家的每月選擇接上來時，換掉的是那邊的
-   * `planMonth`，這一行不用改。
-   *
-   * 手感取的是這幾個月的**谷底平均**而不是期末值：一個賽段的表現是整段打出來的，
-   * 拿最後一個月的狀態回頭代表整段會系統性地偏高（休息完才結算）。
-   */
-  const period = advanceMonths(state, monthsFor(weight), { matchLoad: share * (state.seasonFactor > 0 ? 1 : 0) });
-  const stamina = period.avg;
   const stat = blankSeasonStat();
   stat.years = 1;
+
+  /*
+   * 把一個賽段拆成幾個月來算，抽樣誤差要跟著放大 √n。
+   *
+   * 下面那幾個 `rng.gauss` 不是「每一場比賽的運氣」，是**這一段的手氣**——賽季狀態、
+   * 對手抽籤、版本站不站在你這邊。舊版一個賽段抽一次；月回合若照抄，同一個賽段會抽
+   * 三次再被平均掉，賽段層級的變異縮到 1/√3，於是每一年都長得差不多：實測生涯分數的
+   * 標準差掉 13%，最爛的那一段生涯（一整個矩陣裡唯一的「邊緣選手」）被抬過門檻，
+   * 「五個等第都出現得到」當場紅。放大 √n 之後賽段層級的變異與舊版一致——**這一站
+   * 換的是結算的頻率，不是這個遊戲有多少運氣成分**。
+   */
+  const noise = 1 / Math.sqrt(Math.max(1e-6, Math.min(1, batch)));
 
   const par = league.par;
   const o = effectiveCoachRating(state);
@@ -124,7 +132,7 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
    * `STAT_BASELINE`（每場平均數據，跟屬性刻度無關）、各種 clamp 上下界。
    */
   const winRate = clamp(
-    0.5 + (teamStrength(state) - opponentStrength(par)) * 0.0096 + delta * 0.0048 + (form - 1) * 1.6 + rng.gauss(0.03),
+    0.5 + (teamStrength(state) - opponentStrength(par)) * 0.0096 + delta * 0.0048 + (form - 1) * 1.6 + rng.gauss(0.03 * noise),
     0.15, 0.92,
   );
   stat.W = Math.round(stat.G * winRate);
@@ -140,16 +148,16 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
    * 係數一個都沒動——這一站換的是讀哪一項技能，不是數據對評價的靈敏度。
    */
   const base = STAT_BASELINE[state.role];
-  const k = clamp(base.K + (a.op - par) * 0.008 + (a.lane - par) * 0.0064 + rng.gauss(0.2), 0.3, 3.2);
+  const k = clamp(base.K + (a.op - par) * 0.008 + (a.lane - par) * 0.0064 + rng.gauss(0.2 * noise), 0.3, 3.2);
   stat.K = Math.round(stat.G * k * form);
   // 例行賽的壓力係數是 1.0——§9.3 的受迫性失誤在這裡幾乎不現形，要到季後賽才放大。
   // 這是刻意的：抗壓低的人平常看不太出來，玩家得從大賽的落差反推
-  stat.D = Math.round(stat.G * deathsPerGame(state, a, par, form, rng, PRESSURE.regular));
+  stat.D = Math.round(stat.G * deathsPerGame(state, a, par, form, rng, PRESSURE.regular, noise));
   recordDeaths(state, 'regular', stat.G, stat.D);
   stat.A = Math.round(stat.G * base.A * (1 + (a.gank - par) * 0.0032 + (a.vis - par) * 0.0032));
   stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.0048));
   stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.0064));
-  stat.DMG = Math.round(clamp((base.DMG + delta * 0.32) * form + rng.gauss(1.5), 6, 45) * 10) / 10;
+  stat.DMG = Math.round(clamp((base.DMG + delta * 0.32) * form + rng.gauss(1.5 * noise), 6, 45) * 10) / 10;
 
   const soloLaneBonus = (state.role === 'TOP' || state.role === 'MID') ? (a.lane - par) * 0.008 : 0;
   stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2) * factor(state, 'soloRate'));

@@ -20,7 +20,7 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   │   ├── index.js     #   註冊表 + splitsOf / worldsSlotsOf / msiSplitOf …
 │   │   │   └── home.js kr.js cn.js eu.js na.js
 │   │   ├── formats/         # ★ 全球性賽制史實（跨賽區）
-│   │   │   ├── calendar.js  #   一年有哪些階段、照什麼順序跑
+│   │   │   ├── calendar.js  #   一年有哪些階段、落在哪個月
 │   │   │   ├── msi.js       #   MSI 參賽資格與賽制
 │   │   │   ├── worlds.js    #   種子序來源、入圍賽、席位
 │   │   │   └── playoffs.js  #   輪次 / BO 數 / 冠軍點數
@@ -38,21 +38,23 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │
 │   ├── phases/              # ★ 一個賽事一個檔：邏輯 + 敘事 + 選擇同居
 │   │   ├── index.js         #   kind → 模組註冊表
-│   │   ├── split.js         #   一個賽段（例行賽 + 季後賽 + 事件卡）
+│   │   ├── month.js         # ★ 養成回合（§4 的七步序列：行動→成長→事件→本月戰報）
+│   │   ├── split.js         #   賽段開幕（先發名單）
+│   │   ├── playoff.js       #   賽段季後賽（逐輪 BO）
 │   │   ├── seasonEnd.js msi.js worlds.js transfer.js
-│   │   ├── media.js salary.js alloc.js
-│   │   └── shared.js        #   事件卡、扮演卡、特質覺醒
+│   │   ├── media.js salary.js
+│   │   └── shared.js        #   事件卡、扮演卡、特質覺醒、訓練骰
 │   │
 │   ├── engine/              # 純規則。不 import ui/，不碰 document
-│   │   ├── game.js          # ★ 年度迴圈 driver（221 行）
-│   │   ├── calendar.js      #   年曆展開（查表，不含史實）
+│   │   ├── game.js          # ★ 月迴圈 driver（一年 12 個月，逐月分派階段）
+│   │   ├── calendar.js      #   年曆展開成月份（查表，不含史實）
 │   │   ├── state.js         #   建立狀態、序列化
 │   │   ├── lineup.js        #   先發／板凳／傷勢缺席
 │   │   ├── imports.js       #   外援名額
 │   │   ├── roster.js        #   隊友名單、隊名、階段顯示名
 │   │   ├── season.js attributes.js progression.js mental.js
 │   │   ├── psych.js         #   §9.2 技能發揮公式 ＋ §9.3 失誤系統
-│   │   ├── stamina.js       #   §6 體力資源（消耗／恢復／懲罰曲線，與回合粒度無關）
+│   │   ├── stamina.js       #   §6 體力資源（消耗／恢復／懲罰曲線＋每月行動表）
 │   │   ├── market.js career.js retire.js
 │   │
 │   └── ui/                  # 只負責畫面
@@ -93,20 +95,27 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 
 ## 三、年曆與階段
 
-一年有哪些賽事、照什麼順序跑，全部在 `data/formats/calendar.js` 一張表：
+一年有哪些階段、落在哪個月，全部在 `data/formats/calendar.js` 一張表：
 
 ```js
 export const EVENTS = [
-  { kind: 'SPLIT',      order: 'PER_SPLIT', from: 2012 },
-  { kind: 'MSI',        order: 'MSI_SLOT',  from: 2015 },
-  { kind: 'SEASON_END', order: 900 },
-  { kind: 'WORLDS',     order: 905 },
-  { kind: 'TRANSFER',   order: 907 },
+  { kind: 'SPLIT',      at: 'SPLIT_OPEN',  from: 2012 },   // 賽段開幕（名單）
+  { kind: 'MONTH',      at: 'EVERY_MONTH', from: 2012 },   // 養成回合
+  { kind: 'PLAYOFF',    at: 'SPLIT_CLOSE', from: 2012 },   // 賽段季後賽
+  { kind: 'MSI',        at: 'MSI_SLOT',    from: 2015 },
+  { kind: 'SEASON_END', month: 10 },
+  { kind: 'WORLDS',     month: 11 },
+  { kind: 'TRANSFER',   month: 12, slot: SLOT.OFFSEASON + 2 },
 ];
 ```
 
-賽段拿 10／20／30，所以任何「插在第 n 賽段之後」的賽事取 `10n+5` 就會落在正確的縫裡。
-MSI 歸位（從年末搬到賽季中段）就是靠這個——改的是一列資料，不是主迴圈。
+V4 §3.2 的回合單位是月，所以 `order = 月 × 10 + 檔位`；符號位置（`SPLIT_OPEN`／
+`MSI_SLOT`…）由 `engine/calendar.js` 依**當年該賽區的賽段數**展開成實際月份：賽段依序
+吃掉 2–9 月、每段的最後一個月是季後賽、MSI 另外佔一個月、10–11 月是世界賽期間、
+1 月與 12 月是休賽期。賽段多的年份每段就短——年份的形狀是算出來的，不是抄 §3.3 那張
+兩賽段的表。
+
+賽事序列的月份（季後賽／MSI／世界賽）不排養成回合，其餘每個月各一個。
 
 每個階段只匯出兩個東西：
 
@@ -123,7 +132,7 @@ export function* run(g, phase) { /* g = {state, rng} */ }
 |---|---|---|
 | `{type:'card', tone, title, body}` | 敘事卡 | — |
 | `{type:'divider', text}` | 年度分隔線 | — |
-| `{type:'phase', index}` | 0 訓練／1 賽季／2 休賽 | — |
+| `{type:'month', year, month}` | 推進到第 N 月（狀態列進度） | — |
 | `{type:'checkpoint'}` | 建議存檔點（年初） | — |
 | `{type:'choice', title, options}` | 等待選擇 | `option.id` |
 | `{type:'alloc', mode, dice\|points}` | 等待加點 | — |
@@ -247,7 +256,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `data/epics.js` | A/B | b2cdc80 拆自 traits.js（合成配方為 A）；`effects` 宣告為 B | V4 S19b/S19c 重寫 |
 | `data/eras.js` | A | e07427c 拆自 world.js（START_YEAR／eraOf） | S05 淨室重寫 |
 | `data/events.js` | A/B | a71ee13 建立（基礎事件卡）；7d19dce／e412b9b 大量新增（88→329 行） | V4 S17/S18 整段重寫 |
-| `data/formats/calendar.js` | B | 6ec9575 新建年曆表（機制新寫，史實為公開事實） | 沿用（S15 調整） |
+| `data/formats/calendar.js` | B | 6ec9575 新建年曆表（機制新寫，史實為公開事實）；S14 改為月序 | 沿用（S15 調整） |
 | `data/formats/msi.js` | B | a140b9e 新建，俱樂部賽事資料 | 沿用（S15 調整） |
 | `data/formats/playoffs.js` | A | e07427c 拆自 world.js（PLAYOFF_ROUNDS／CHAMPIONSHIP_POINTS） | S05 淨室重寫 |
 | `data/formats/worlds.js` | B | 3af552d 新建，種子序／席位／賽制資料 | 沿用（S15 調整） |
@@ -266,9 +275,9 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `data/teams.js` | A | e07427c 拆自 world.js（隊名／MATE_NAMES）；0641189 更新為 B | S05 淨室重寫 |
 | `data/traits.js` | A/B | a71ee13 建立（基礎特質）；b2cdc80 拆出 epics；e412b9b 四階合成（54→174 行） | V4 S19a 重寫 |
 | `engine/attributes.js` | A/B → B | a71ee13 建 abilities.js，876c76b rename＋技能導出層（`ovr`／`effectiveOvr` 等骨架承袭，skillValue 等新寫）；**S11 換成 §10.2 教練評價與 §11.1 位置戰力，承袭的 OVR 骨架已不存在** | 完成（S09/S10/S11 三站重寫完畢） |
-| `engine/calendar.js` | B | 6ec9575 新建，年曆展開（只查表） | 沿用（S14/S15 調整） |
+| `engine/calendar.js` | B | 6ec9575 新建，年曆展開（只查表）；**S14 展開成 12 個月** | 沿用（S15 調整） |
 | `engine/career.js` | A | a71ee13 建立 | S04 淨室重寫 |
-| `engine/game.js` | A | a71ee13 建立；6ec9575 拆到 221 行（主迴圈） | V4 S14 月回合制重寫 |
+| `engine/game.js` | A → B | a71ee13 建立；6ec9575 拆到 221 行；**S14 主迴圈改為逐月推進，年回合的訓練期與階段分派已整段換掉** | 完成（S14 重寫） |
 | `engine/imports.js` | B | ef33e1b 新建，外援名額（舊版無此概念） | 沿用 |
 | `engine/lineup.js` | B | 7604223 新建，先發／板凳（舊版 staminaFactor 是棒球模型） | 沿用（S16 調整） |
 | `engine/market.js` | A | a71ee13 建立 | S04 淨室重寫 |
@@ -277,22 +286,23 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `engine/progression.js` | A | a71ee13 建立 | V4 S16 設施制重寫 |
 | `engine/retire.js` | A/B | 6ec9575 抽自 game.js（退役條件為 A）；RetireSignal 例外機制為 B | V4 S13 體力系統重寫 |
 | `engine/roster.js` | A/B | a71ee13 建 team.js，667ec4c／6ec9575 rename＋調整（隊名資料流承袭；解散過濾／二隊推導為 B） | S05 重排結構時同步調整 |
-| `engine/season.js` | A | a71ee13 建立 | V4 S14/S15 重寫 |
-| `engine/stamina.js` | B | S13 新建（§6 體力資源；舊版的 `sta` 是技能，不是資源） | 沿用（S14 接月回合、S16 接訓練成功率） |
+| `engine/season.js` | A | a71ee13 建立；S14 拿掉自行推進月份的部分（改由月回合帶體力進來） | V4 S15 重寫 |
+| `engine/stamina.js` | B | S13 新建（§6 體力資源）；S14 自動駕駛換成每月行動表 | 沿用（S16 接訓練成功率） |
 | `engine/state.js` | A | a71ee13 建立（SAVE_VERSION） | V4 重寫（存檔結構） |
 | `kernel/groups.js` | B | 667ec4c 新建（小組賽／Swiss，原專案無） | 沿用 |
 | `kernel/modifiers.js` | A/B | b2cdc80 新建聚合機制（B）；效果值搬自 traits.js（A） | V4 S19a 重寫 |
 | `kernel/series.js` | B | 667ec4c 搬自 engine/playoffs.js（7d19dce 新建，種子序門檻首見於 7d19dce） | 沿用 |
 | `kernel/strength.js` | A → B | 667ec4c 搬自 engine/team.js（a71ee13）的三個強度函式；**S11 依 §11.1 重寫權重（0.60/0.40）、加明星效應與對手支援換算** | 完成（S11 重寫） |
 | `main.js` | A | a71ee13 建立 | S03 淨室重寫 |
-| `phases/alloc.js` | A | 6ec9575 搬自 game.js（能力點分配） | V4 S16 設施制重寫 |
+| `phases/month.js` | B | **S14 新建**（§4 的七步養成回合）。`phases/alloc.js`（A 批，6ec9575 搬自 game.js）已刪除——年度加點階段不存在了 | 沿用（S16 換成設施制選單） |
+| `phases/playoff.js` | A/B | S14 自 `split.js` 拆出（季後賽逐輪 BO；BO 主體是 7d19dce 的 B 批新寫，`run` 骨架承袭） | V4 S15 五拍重寫 |
 | `phases/index.js` | B | 6ec9575 新建註冊表（kind → 模組） | 沿用 |
 | `phases/media.js` | A | 6ec9575 搬自 game.js（媒體採訪 38% 路口） | S04 重寫（承袭段落） |
 | `phases/msi.js` | A/B | 6ec9575 搬自 game.js（run 骨架）；a140b9e 整檔重寫為俱樂部賽事（149/178 行） | 沿用（重寫已覆蓋，殘留骨架隨 S04） |
 | `phases/salary.js` | A | 6ec9575 搬自 game.js（薪資結算） | S04 重寫（承袭段落） |
 | `phases/seasonEnd.js` | A | 6ec9575 搬自 game.js（種子序／獎項／傷病）；7604223／876c76b 小改為 B | V4 S11/S15 重寫 |
 | `phases/shared.js` | A/B | 6ec9575 搬自 game.js（事件卡／扮演卡／特質覺醒）；876c76b 六屬性後改寫為 B | V4 S17 事件觸發引擎重寫 |
-| `phases/split.js` | A/B | 6ec9575 搬自 game.js（例行賽→季後賽→事件卡）；7604223 先發板凳改寫為 B | V4 S14 月回合制重寫 |
+| `phases/split.js` | B | 6ec9575 搬自 game.js；7604223 先發板凳改寫為 B；**S14 之後只剩賽段開幕的名單判定（承袭的例行賽／季後賽段落已搬走或重寫）** | 完成（S14 重寫） |
 | `phases/transfer.js` | A/B | 6ec9575 搬自 game.js（FA 模型休賽期）；ef33e1b 加轉會窗口／外援為 B | S04 重寫 A 段 |
 | `phases/worlds.js` | A/B | 6ec9575 搬自 game.js（run 骨架）；3af552d 整檔重寫為種子序制（196/215 行） | 沿用（重寫已覆蓋，殘留骨架隨 S04） |
 | `styles.css` | A | a71ee13 建立 | S03 淨室重寫 |
