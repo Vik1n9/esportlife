@@ -17,13 +17,14 @@ import { FINISH_TO_SEED, WORLDS_RESULTS, worldsRuleOf } from '../data/formats/wo
 import { worldsSlotsOf } from '../data/regions/index.js';
 import { runGroup, runSwiss } from '../kernel/groups.js';
 import { opponentStrength } from '../kernel/strength.js';
-import { runSeries, worldsSeed } from '../kernel/series.js';
+import { worldsSeed } from '../kernel/series.js';
 import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { bonus } from '../kernel/modifiers.js';
 import { card, drawRoleplay, fusionBeats } from './shared.js';
+import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'WORLDS';
 
@@ -69,14 +70,16 @@ export function* run(g) {
     yield card('info', '地區資格賽',
       `賽區最後一張世界賽門票，由第 ${seed} 種子打<b class="hl">地區資格賽</b>決定。BO5，輸了整年就結束。`);
     yield* drawRoleplay(g, 'presser', { amp: 1.4 });
-    // 生死戰是全遊戲壓力係數最高的場合（V4 §9.3／§11.1 都把它單獨列一行）
-    const res = runSeries(state, rng, {
-      bo: 5, oppRating: intlOpponent(state, -2.5, rng), seed, pressure: PRESSURE.elimination,
+    // 生死戰是全遊戲壓力係數最高的場合（V4 §9.3／§11.1 都把它單獨列一行），
+    // 五拍的 stakes 也給最高級——賽前與賽後的語氣跟著變重（V4 §15.4）
+    const res = yield* runSeriesEvent(g, {
+      title: '地區資格賽 · BO5',
+      bo: 5, oppRating: intlOpponent(state, -2.5, rng), seed,
+      stakes: 'elimination', pressure: PRESSURE.elimination,
+      oppNote: '對手是賽區裡跟你爭最後一張門票的隊伍。',
     });
-    yield card(res.win ? 'good' : 'bad', `地區資格賽 · BO5`,
-      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
-      (res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。') +
-      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
+    yield card(res.win ? 'good' : 'bad', '地區資格賽',
+      res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。');
     if (!res.win) return;
   }
 
@@ -105,12 +108,14 @@ function* runTournament(g, rule, seed) {
       minor
         ? '賽區席位排在後段，主賽事之前要先打入圍賽。'
         : `第 ${seed} 種子從入圍賽打起。`);
-    const res = runSeries(state, rng, {
-      bo: 5, oppRating: intlOpponent(state, -3.75, rng), seed, pressure: PRESSURE.intl,
+    const res = yield* runSeriesEvent(g, {
+      title: '入圍賽 · BO5',
+      bo: 5, oppRating: intlOpponent(state, -3.75, rng), seed,
+      stakes: 'intl', pressure: PRESSURE.intl,
+      oppNote: '對手是同樣從入圍賽打起的隊伍。',
     });
-    yield card(res.win ? 'good' : 'bad', '入圍賽 · BO5',
-      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
-      (res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。'));
+    yield card(res.win ? 'good' : 'bad', '入圍賽',
+      res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。');
     if (!res.win) return 'playin';
   }
 
@@ -165,14 +170,12 @@ function* knockout(g, seed) {
   for (const round of rounds) {
     if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
-    const res = runSeries(state, rng, {
-      bo: 5, oppRating: intlOpponent(state, round.step, rng), seed, pressure: PRESSURE.intl,
+    const res = yield* runSeriesEvent(g, {
+      title: `世界賽${round.name} · BO5`,
+      bo: 5, oppRating: intlOpponent(state, round.step, rng), seed,
+      stakes: round.key === 'final' ? 'final' : 'intl', pressure: PRESSURE.intl,
+      oppNote: '對手是各賽區的一號種子。',
     });
-    const decider = res.decider
-      ? `<br><span class="muted">被拖進第五局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>` : '';
-    yield card(res.win ? 'good' : 'bad', `世界賽${round.name} · BO5`,
-      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${decider}` +
-      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
     if (!res.win) return round.key === 'final' ? 'final' : round.key;
   }
   return 'champion';

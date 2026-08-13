@@ -45,6 +45,24 @@ export function monthAction(state, beat) {
 }
 
 /**
+ * 備賽戰術的策略（保守玩法）。賽事期間不能休息，唯一的決策是「這一場 BO 花多少
+ * 體力去準備」：
+ *
+ * - 體力低（< 45）→ 心態調整與休息（mindset）：賽事期唯一的恢復手段，不選它等於
+ *   帶着疲勞進下一輪
+ * - 體力夠 → 強化自身體系（system）：沒有隨機項的穩定加成。刻意避開 research（會被
+ *   反制）與 bootcamp（受傷風險）——那是賭博型玩家的選擇，不是保守玩法的
+ *
+ * 這條策略是「體力節奏」不變式量到的那個玩家的一部分，跟 `monthAction` 同一個道理：
+ * 保守玩家不會拿受傷風險去換那多一點勝率。
+ */
+export function tacticsAction(state, beat) {
+  const ids = beat.options.map((o) => o.id);
+  if (staminaOf(state) < REST_AT) return ids.includes('mindset') ? 'mindset' : ids[0];
+  return ids.includes('system') ? 'system' : ids[0];
+}
+
+/**
  * 這個天賦從現在到潛力天花板還有多少 OVR 可以長。
  *
  * 「加點是不是決策」的門檻要拿它當母數，不能拿 `ATTR_CAP`：加點能賺到的差距與
@@ -74,6 +92,7 @@ export function birthGrowthRoom({ seed, role }) {
  */
 export function decide(beat, strategy, rng, state) {
   if (beat.kind === 'month' && state) return monthAction(state, beat);
+  if (beat.kind === 'tactics' && state) return tacticsAction(state, beat);
   const options = beat.options;
   if (strategy === 'first') return options[0].id;
   if (strategy === 'last') {
@@ -178,8 +197,9 @@ export function driveUntil(state, rng, { stop, answer, maxBeats = 3000 }) {
     input = undefined;
     if (done) break;
     if (value.type === 'choice') {
-      // 月回合的行動選單不進 choices，也不問 answer——它是策略題不是劇情題
+      // 月回合的行動選單與賽事備賽戰術不進 choices，也不問 answer——它們是策略題不是劇情題
       if (value.kind === 'month') { input = monthAction(state, value); continue; }
+      if (value.kind === 'tactics') { input = tacticsAction(state, value); continue; }
       choices.push(value);
       input = answer(value);
     } else if (value.type === 'alloc') {

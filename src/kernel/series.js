@@ -37,10 +37,13 @@ export function playoffBerth(state, stat) {
  *
  * 斜率 1.76 ＝ 舊的 2.2 ÷ 1.25：0–100 刻度下同一個相對戰力差會產出 1.25 倍的點數，
  * 係數不除就等於把勝率對戰力的靈敏度整體上調兩成（§11.1 §17.2 二）。夾在 8–92% 不變。
+ *
+ * `mod` 是備賽戰術（S15）帶進來的勝率修正：只加在這一輪系列賽上，是單場的準備、
+ * 不是屬性。預設 0 對既有呼叫零影響。
  */
-export function gameChance(state, oppRating, { decider = false, seed = 0 } = {}) {
+export function gameChance(state, oppRating, { decider = false, seed = 0, mod = 0 } = {}) {
   let p = 50 + (teamStrength(state) - oppRating) * 1.76;
-  p += underdogBonus(state, seed) + bonus(state, 'seriesGame');
+  p += underdogBonus(state, seed) + bonus(state, 'seriesGame') + mod;
   if (decider) p += clutchBonus(state) + bonus(state, 'seriesDecider');
   return clamp(p, 8, 92);
 }
@@ -54,15 +57,16 @@ export function gameChance(state, oppRating, { decider = false, seed = 0 } = {})
  *
  * @param {number} bo 1、3 或 5
  * @param {number} [pressure] 見 `psych.PRESSURE`，預設季後賽
+ * @param {number} [mod] 備賽戰術的單場勝率修正（S15），預設 0
  * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean, deaths:number}}
  */
-export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE.playoff }) {
+export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE.playoff, mod = 0 }) {
   const need = Math.ceil(bo / 2);
   let mine = 0; let theirs = 0;
   const games = [];
   while (mine < need && theirs < need) {
     const decider = bo > 1 && mine === need - 1 && theirs === need - 1;
-    const won = rng.chance(gameChance(state, oppRating, { decider, seed }));
+    const won = rng.chance(gameChance(state, oppRating, { decider, seed, mod }));
     if (won) mine += 1; else theirs += 1;
     games.push(`${won ? 'W' : 'L'}${decider ? '*' : ''}`);
   }

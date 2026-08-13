@@ -5,9 +5,8 @@
  * 月份之後它獨立出來，因為它跟常規賽已經是**兩種不同的東西**：常規賽是養成回合裡的
  * 一行戰報（不互動），季後賽是一個佔掉整個月的賽事序列。
  *
- * TODO(S15)：V4 §15.2 要把賽事序列做成五拍（採訪／備賽／比賽／結果／採訪），備賽那一拍
- * 還要接上 §6.3 的「心態調整與休息」。這一站維持現狀——逐輪 BO 出比分，扮演路口留在
- * 進場的第一輪與決賽。
+ * S15 把每一輪 BO 換成五拍共用序列（`seriesEvent.js`）——賽前敘事 → 備賽戰術 →
+ * 結算 → 比分 → 賽後。這個檔剩下的只剩「對手怎麼來」「名次怎麼算」「奪冠敘事」。
  */
 import { AMATEUR_CUPS } from '../data/teams.js';
 import { LEAGUES } from '../data/leagues.js';
@@ -15,10 +14,10 @@ import { accumulate, formatStatLine, mergeSplits, simulateSeason } from '../engi
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { unlockTrait } from '../engine/progression.js';
 import {
-  entryRound, opponentRating, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed,
+  entryRound, opponentRating, playoffBerth, pointsFor, roundsFrom, splitSeed,
 } from '../kernel/series.js';
-import { PRESSURE } from '../engine/psych.js';
 import { card, drawRoleplay, fusionBeats } from './shared.js';
+import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'PLAYOFF';
 
@@ -97,21 +96,18 @@ function* playoffs(g, split, stat, splitCount) {
     if (round === rounds[0] || round.key === 'final') yield* drawRoleplay(g, 'presser');
 
     const oppRating = opponentRating(state, round.key, seed, rng);
-    // 決賽的壓力係數比前面幾輪高（V4 §9.3）——抗壓低的人會在這裡把陣亡數交出來
-    const res = runSeries(state, rng, {
-      bo: round.bo, oppRating, seed,
-      pressure: round.key === 'final' ? PRESSURE.final : PRESSURE.playoff,
+    // 五拍：賽前敘事 → 備賽戰術 → 結算 → 比分 → 賽後。決賽的壓力係數比前面幾輪高
+    // （V4 §9.3）——抗壓低的人會在這裡把陣亡數交出來
+    const res = yield* runSeriesEvent(g, {
+      title: `${round.name} · BO${round.bo}`,
+      bo: round.bo,
+      oppRating,
+      seed,
+      stakes: round.key === 'final' ? 'final' : 'playoff',
+      oppNote: seed === 1 ? '對上一路殺上來的黑馬'
+        : seed === 2 ? '對上實力相當的對手'
+        : '對上種子序更前的隊伍',
     });
-    const score = `${res.mine}-${res.theirs}`;
-    const deciderNote = res.decider
-      ? `<br><span class="muted">系列賽被拖進決勝局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>`
-      : '';
-    const foe = seed === 1 ? '對上一路殺上來的黑馬'
-      : seed === 2 ? '對上實力相當的對手'
-      : '對上種子序更前的隊伍';
-    yield card(res.win ? 'good' : 'bad', `${round.name} · BO${round.bo}`,
-      `${foe}，系列賽 <b class="${res.win ? 'up' : 'dn'}">${score}</b>${deciderNote}` +
-      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
 
     if (!res.win) { reached = round.key; break; }
     reached = round.key === 'final' ? 'champion' : round.key;
