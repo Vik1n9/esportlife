@@ -14,9 +14,9 @@ import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-// v13：體力升格成 0–100 的消耗資源（V4 §6）。`state.stamina` 與它的月份計數是新欄位，
-// 舊存檔沒有這幾格就不會有節奏可言，一律作廢重開
-export const SAVE_VERSION = 13;
+// v14：月回合制（V4 §3.2）。`state.month` 是新欄位，而且整個年度流程換了粒度——舊存檔
+// 的年度旗標對不上月份序，一律作廢重開
+export const SAVE_VERSION = 14;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -69,6 +69,9 @@ export function createState({ name, role, seed }) {
     role,
     age: START_AGE,
     year: START_YEAR,
+    // 當下的月份（V4 §3.3）。存檔點固定在年初，所以它讀出來一定是 1；它存在是為了
+    // 讓狀態列與面板有一個「現在走到哪」的來源，而不是靠 UI 自己數 beat
+    month: 1,
 
     // 生涯階段：AMATEUR（網咖盃賽）→ AM2（青訓次級）→ PRO
     stage: 'AMATEUR',

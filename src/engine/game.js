@@ -1,19 +1,26 @@
 /**
  * 生涯流程機（引擎核心）。
  *
- * 這個檔現在只做三件事：跑年度迴圈、處理季初訓練、接住退役訊號。一年裡有哪些賽事、
- * 照什麼順序跑，由 `data/formats/calendar.js` 那張表決定；每個賽事自己的邏輯與敘事
- * 住在 `phases/*.js`。
+ * 這個檔現在只做三件事：跑年度迴圈、處理年初的例行公事、接住退役訊號。一年裡有哪些
+ * 月份、每個月排什麼，由 `data/formats/calendar.js` 那張表 ＋ `engine/calendar.js`
+ * 的展開決定；每個階段自己的邏輯與敘事住在 `phases/*.js`。
  *
  * 這樣切的理由是改動成本：舊版 1033 行把賽段、季後賽、獎項、MSI、世界賽、轉會、
  * 業餘出路全部寫在一起，於是改一個 MSI 要在 international.js（邏輯）、game.js
  * （敘事與選擇）、world.js（史實）三個檔之間來回。現在改 MSI 只開 `phases/msi.js`；
  * 搬動它在年曆上的位置只改 `data/formats/calendar.js` 的一列。
  *
+ * ── S14：年回合 → 月回合 ──
+ *
+ * 舊的 `runYear` 是「季初訓練（擲一把骰）→ 跑完年曆上的賽事 → 年末」。V4 §3.2 的回合
+ * 單位是月，所以主迴圈改成**逐月推進**：年曆展開成 12 個月，養成回合交給
+ * `phases/month.js`，賽事序列交給既有的階段。主迴圈仍然不知道 MSI 或世界賽存在，
+ * 它只知道「照 order 跑這些階段，月份換了就報一次月」。
+ *
  * Beat 協定（yield 出去的東西）：
  *   {type:'card', tone, title, body}      純敘事，不等待
  *   {type:'divider', text}                年度分隔線
- *   {type:'phase', index}                 0=訓練 1=賽季 2=休賽期
+ *   {type:'month', year, month}           月份推進（狀態列的進度顯示）
  *   {type:'checkpoint'}                   建議存檔點（年初）
  *   {type:'choice', title, options[]}     → resume 以 option.id
  *   {type:'alloc', mode, dice|points}     → resume 以 undefined（UI 直接改 state）
@@ -22,16 +29,15 @@
 import { ATTR_NAMES } from '../data/attributes.js';
 import { START_YEAR } from '../data/eras.js';
 import { applyAgeDecline, retirementAge } from './attributes.js';
-import { calendarFor } from './calendar.js';
+import { MONTHS_PER_YEAR, calendarFor } from './calendar.js';
 import { careerTier, tierName } from './career.js';
 import { disbandNoteFor } from './market.js';
 import { driftMental } from './mental.js';
-import { unlockTrait } from './progression.js';
 import { RetireSignal, retire } from './retire.js';
 import { currentLeagueKey, stageLabel } from './roster.js';
-import { bonus, flag } from '../kernel/modifiers.js';
+import { monthlyDrift } from './stamina.js';
 import { PHASES } from '../phases/index.js';
-import { card, drawRoleplay, fusionBeats } from '../phases/shared.js';
+import { card, trainingBeats } from '../phases/shared.js';
 
 // 舊入口：UI 與測試都從這裡拿階段顯示名
 export { stageLabel };
@@ -67,20 +73,22 @@ export function* careerFlow(g) {
 }
 
 /**
- * 一年。
+ * 一年 ＝ 十二個月。
  *
- * 訓練期之後就完全交給年曆——主迴圈不知道 MSI 或世界賽存在，只知道「照 order 跑
- * 這些階段」。
+ * 年初的例行公事跑完之後就完全交給年曆——主迴圈不知道 MSI 或世界賽存在，只知道
+ * 「這個月排了哪些階段，照 order 跑」。`month` beat 一個月只報一次，所以同一個月裡的
+ * 多個階段（名單 → 養成回合，或賽季結算 → 世界賽）不會把狀態列閃三次。
  */
 function* runYear(g) {
   const { state } = g;
   yield { type: 'divider', text: `${state.year} 年 · ${state.age} 歲 · ${stageLabel(state)}` };
-  yield* phaseTraining(g);
+  yield* yearOpen(g);
 
-  yield { type: 'phase', index: 1 };
   // 各賽段的原始數據放在執行脈絡而不是 state：它只活一年，存檔點又固定在年初，
   // 寫進 state 只會讓存檔多背一份永遠是空陣列的欄位
   g.splits = [];
+  g.monthStats = [];
+  g.lineup = null;
   // 賽段累計只在真的有打的年份重置——復健年沿用去年的紀錄，面板才不會整排空白
   if (!state.skipSeason) {
     state.splitLog = [];
@@ -90,23 +98,44 @@ function* runYear(g) {
     state.wonSplitThisYear = false;
   }
 
-  for (const phase of calendarFor(state, currentLeagueKey(state))) {
-    if (phase.phaseIndex !== undefined) yield { type: 'phase', index: phase.phaseIndex };
-    const mod = PHASES[phase.kind];
-    if (mod) yield* mod.run(g, phase);
+  /*
+   * 逐月推進。
+   *
+   * 月份的時鐘住在主迴圈，不住在階段裡：**每一個月都有自然恢復**，包括季後賽、MSI、
+   * 世界賽那幾個沒有養成回合的月份。S14 第一版把恢復寫在 `phases/month.js` 裡，結果
+   * 打進世界賽的年份平白少掉四個月的恢復——體力經濟被賽程長度偷偷改寫，而那是
+   * 「打得越深越累」以外的另一種懲罰，沒有人設計過它。
+   */
+  const plan = calendarFor(state, currentLeagueKey(state));
+  for (let month = 1; month <= MONTHS_PER_YEAR; month++) {
+    state.month = month;
+    yield { type: 'month', year: state.year, month };
+    for (const phase of plan) {
+      if (phase.month !== month) continue;
+      const mod = PHASES[phase.kind];
+      if (mod) yield* mod.run(g, phase);
+    }
+    monthlyDrift(state);
   }
 
   driftMental(state);
   state.age += 1;
   state.year += 1;
   state.stageYear += 1;
+  state.month = 1;
 }
 
-/* ================= 季初：訓練 ================= */
+/* ================= 年初：重置、衰退、流言 ================= */
 
-function* phaseTraining(g) {
+/**
+ * 一年的開場。
+ *
+ * S14 之前這裡叫 `phaseTraining`，因為那一把訓練骰是它的主體。骰子搬進養成回合之後
+ * 剩下的都是**年度尺度**的事：每季重置的旗標、年齡衰退、退役檢查、解散流言——它們
+ * 一年只該發生一次，不能跟著月份跑。
+ */
+function* yearOpen(g) {
   const { state, rng } = g;
-  yield { type: 'phase', index: 0 };
 
   // 每季重置——集中在一個地方，這是舊版最大的漏洞來源
   state.seasonFactor = 1;
@@ -146,61 +175,22 @@ function* phaseTraining(g) {
     state.rehabYears -= 1;
     state.skipSeason = true;
     state.seasonFactor = 0;
-    yield card('bad', '復健年', '手腕／背傷尚未痊癒，本季確定<b class="dn">報銷</b>。（訓練骰減為 2 顆）');
+    yield card('bad', '復健年', '手腕／背傷尚未痊癒，本季確定<b class="dn">報銷</b>。（整年只練得起 2 顆骰）');
     state.seasonLog.push({ year: state.year, age: state.age, team: state.team || stageLabel(state), line: '復健年 · 整季報銷', injured: true });
-    yield* rollTrainingDice(g, 2);
-    return;
+    /*
+     * 復健年沒有養成回合——那一年的每個月都在復健（`phases/month.js` 的第一段），
+     * 沒有可選的行動，所以整年的訓練成果在這裡一次給完。份量沿用舊版的 2 顆骰：
+     * 復健年的代價本來就是「這一年幾乎沒有成長」，月回合不該把它變成一年八次的
+     * 輕鬆訓練月。
+     */
+    yield* trainingBeats(g, 'full', 2);
   }
-
-  yield* rollTrainingDice(g, null);
-
-  // 訓練期的人際路口。刻意只抽一張——扮演卡多到每回合都在選，就變成噪音了
-  if (state.stage !== 'AMATEUR') {
-    if (rng.chance(45)) yield* drawRoleplay(g, rng.chance(50) ? 'coach' : 'daily');
-  } else if (rng.chance(25)) {
-    yield* drawRoleplay(g, 'daily');
-  }
-}
-
-function* rollTrainingDice(g, forced) {
-  const { state, rng } = g;
-  let dice;
-
-  if (forced) {
-    dice = Array.from({ length: forced }, () => rng.int(1, 6));
-  } else {
-    const r = rng.next();
-    let count = r < 0.35 ? 4 : r < 0.75 ? 5 : r < 0.97 ? 6 : 7;
-    count += bonus(state, 'diceBonus');
-    // `自律` 是機率性的，只有帶著它才會消耗這次亂數——所以不能收進 diceBonus
-    if (state.traits.disc && rng.chance(30)) count += 1;
-    dice = Array.from({ length: count }, () => (flag(state, 'giftedDice') ? rng.int(4, 6) : rng.int(1, 6)));
-  }
-
-  const gifted = flag(state, 'giftedDice');
-  if (!gifted && state.age < 22) {
-    state.sixCount += dice.filter((v) => v === 6).length;
-  }
-
-  let msg = `訓練期擲出 <b class="hl">${dice.length}</b> 顆骰。`;
-  if (!gifted && state.age < 22) msg += ` 高標值「6」累計 <b class="hl">${Math.min(5, state.sixCount)}/5</b> 次。`;
-  yield card('', '季初訓練', msg);
-
-  if (!gifted && state.age < 22 && state.sixCount >= 5) {
-    unlockTrait(state, 'genius');
-    yield card('gold', '隱藏素質覺醒：天才操作',
-      '22 歲前五度擲出高標值！從今以後訓練骰<b class="hl">固定 4 點以上</b>。');
-    yield* fusionBeats(g);
-  }
-
-  yield { type: 'alloc', mode: 'dice', dice, title: `分配訓練成果（${dice.length} 顆骰）` };
 }
 
 /* ================= 生涯結算 ================= */
 
 function* retirement(g) {
   const { state } = g;
-  yield { type: 'phase', index: -1 };
   yield card('bad', '職業生涯結束', state.retireReason);
   if (state.forcedRetire) yield card('bad', '被迫退役', '功勳老將在解散後無人接手，黯然退役。');
 
