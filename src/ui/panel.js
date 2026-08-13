@@ -17,6 +17,7 @@ import { patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/a
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { reputeSummary } from '../engine/mental.js';
+import { BAND_FRESH, BAND_TIRED, STAMINA_MAX, bandOf, staminaOf } from '../engine/stamina.js';
 import { coachBonus, matesAverage } from '../kernel/strength.js';
 import { lookupTrait } from '../kernel/modifiers.js';
 import { byId, escapeHtml } from './dom.js';
@@ -82,6 +83,25 @@ function skillRows(state) {
   }).join('');
 }
 
+/**
+ * 體力（V4 §6）。
+ *
+ * **這一格跟隱藏心理正好相反：它必須看得見。** 心理六維連個標籤都不給，因為玩家要
+ * 從比賽數據反推；體力是玩家要主動管理的資源，看不到數字就沒有取捨可言。所以這裡
+ * 給的是完整資訊：目前值、區間標籤，以及兩條界線在哪、越過去會怎樣。
+ */
+function staminaRow(state) {
+  const value = Math.round(staminaOf(state));
+  const band = bandOf(value);
+  return `<div class="abrow static">
+      <div class="nm">體力</div>
+      <div class="bar" style="--fill:${(value / STAMINA_MAX) * 100}%;--pot:${BAND_FRESH}%"><i></i><em></em></div>
+      <div class="val"><b>${value}</b><span class="cost">${band.label}</span></div>
+    </div>
+    <p class="muted small">${band.note}。刻度線＝${BAND_FRESH}，以上訓練成功率正常；
+      低於 ${BAND_TIRED} 成功率腰斬並提高受傷風險。賽事期間不能休息，只能減少訓練。</p>`;
+}
+
 function heroRows(state) {
   const all = HEROES_BY_ROLE[state.role];
   return all.map((h) => {
@@ -144,6 +164,11 @@ function renderPanel() {
         <div><span>合約</span><b>${state.contract ? `剩 ${state.contract.years} 年 ×${state.contract.mult.toFixed(2)}` : '無合約'}</b></div>
         <div><span>生涯薪資</span><b>${formatMoney(state.salary)}</b></div>
       </div>
+    </section>
+
+    <section>
+      <h5>體力</h5>
+      ${staminaRow(state)}
     </section>
 
     <section>

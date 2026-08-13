@@ -112,7 +112,7 @@ export async function run({ check, log, shared }) {
   potentialDecay({ check, log, gate });
   mentalAmplifier({ check, log, gate });
   mistakeVisibility({ check, log, runs });
-  staminaRhythm({ check, gate, runs });
+  staminaRhythm({ check, gate, log, runs });
   eventExclusion({ check, gate });
 
   gate.report();
@@ -775,10 +775,17 @@ function mistakeVisibility({ check, log, runs }) {
 /**
  * 保守玩法的平均休息間隔要落在 3–4 個月。
  *
- * 體力（S13）與月回合制（S14）都還沒做，所以這條現在只掛著。S13 讓它跑得動，
- * S14 之後數字才真的有意義——`13-體力系統.md` 已經寫明這個分工。
+ * S13 讓這條轉為實際檢查。驅動每月結算的還是 `engine/stamina.js` 的自動駕駛——
+ * 月回合制（S14）接上玩家的選擇之後，量到的才是「玩家真的會怎麼玩」；在那之前
+ * 這裡量的是「這組數值在保守策略下會長成什麼節奏」，仍然是守得住的東西：它抓的
+ * 正是 §6.1 那組草案數字自己算出來只有 2.9 個月的那種偏差。
+ *
+ * 另外兩條是 §6.2 的兩個失敗模式，`13-體力系統.md` 指名要守：
+ *   - 曲線太重 → 休息變無腦（休息佔掉一半以上的行動）
+ *   - 恢復太快 → 體力變裝飾（透支區根本不會出現，壓力不存在）
+ * 這兩個方向的錯誤都不會讓別的檢查變紅，所以要自己有網子。
  */
-function staminaRhythm({ check, gate, runs }) {
+function staminaRhythm({ check, gate, log, runs }) {
   const has = runs.some((r) => typeof r.state.stamina === 'number');
   gate.gate('體力節奏 · 保守玩法每 3–4 個月休息一次', 'S13（數字驗證留 S14）', has,
     'state.stamina 尚未存在，體力系統與月回合制都還沒做',
@@ -787,6 +794,16 @@ function staminaRhythm({ check, gate, runs }) {
       const gaps = rests.slice(1).map((m, i) => m - rests[i]).filter((g) => g > 0);
       check('體力節奏：保守玩法的平均休息間隔落在 3–4 個月',
         mean(gaps) >= 3 && mean(gaps) <= 4, `平均 ${mean(gaps).toFixed(2)} 個月`);
+
+      const months = runs.reduce((t, r) => t + (r.state.staminaLog?.months || 0), 0);
+      const restShare = rests.length / Math.max(1, months);
+      const lowShare = runs.reduce((t, r) => t + (r.state.staminaLog?.low || 0), 0) / Math.max(1, months);
+      check('體力節奏：休息不是多數行動（懲罰曲線沒有重到讓休息變無腦）',
+        restShare < 0.5, `休息佔 ${(restShare * 100).toFixed(1)}% 的月份`);
+      check('體力節奏：透支區（<30）在樣本裡真的出現得到（體力不是裝飾）',
+        lowShare > 0.05, `透支月佔 ${(lowShare * 100).toFixed(1)}%`);
+      log(`體力節奏：${months} 個體力月，休息 ${(restShare * 100).toFixed(1)}%、`
+        + `透支月 ${(lowShare * 100).toFixed(1)}%，平均間隔 ${mean(gaps).toFixed(2)} 個月`);
     });
 }
 

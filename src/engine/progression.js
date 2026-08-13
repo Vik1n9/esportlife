@@ -4,6 +4,7 @@ import { HEROES_BY_ROLE, PATCH_THEMES } from '../data/heroes.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, FUSIONS, LEGENDARY_TRAITS } from '../data/epics.js';
 import { bonus, capOf, factor, flag, TIER_STORES, traitName } from '../kernel/modifiers.js';
+import { injuryMul, staminaOf } from './stamina.js';
 
 /* ---------------- 受傷 ---------------- */
 
@@ -11,6 +12,14 @@ export function injuryProbability(state) {
   let p = 15;
   if (state.age >= 33) p += 12;
   else if (state.age >= 30) p += 6;
+  /*
+   * 體力（V4 §6.2：透支區受傷風險上升，見底更是大增）。
+   *
+   * 乘法而不是加法：年齡是「身體本來的脆弱度」，體力是「今天有沒有在硬撐」——
+   * 硬撐對 33 歲的人本來就比對 20 歲的人危險，兩者相乘才有那個交互作用。
+   * 放在 `capOf` 之前是刻意的：帶著受傷率上限那類特質的人，撐再兇也還是有天花板。
+   */
+  p *= injuryMul(staminaOf(state));
   p = capOf(state, 'injuryRate', p);
   if (flag(state, 'injuryImmune')) return 0;
   p += bonus(state, 'injuryAdder');   // 肝帝這類自爆系：練得多也傷得多
