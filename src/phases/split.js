@@ -14,6 +14,7 @@ import { unlockTrait } from '../engine/progression.js';
 import {
   entryRound, opponentRating, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed,
 } from '../kernel/series.js';
+import { PRESSURE } from '../engine/psych.js';
 import { card, drawEvents, drawRoleplay, fusionBeats } from './shared.js';
 
 export const kind = 'SPLIT';
@@ -71,7 +72,7 @@ function* lineupBeats(g, split, lineup) {
 
   if (lineup.status === 'benched') {
     const streak = (state.benchedStreak || 0) + 1;
-    applyMental(state, { fame: -8, chem: -4, nerve: -3 });
+    applyMental(state, { fame: -8, trust: -4, comp: -3 });
     yield card('bad', `${split.name} · 板凳`,
       `名單公布，先發位置<b class="dn">沒有你</b>。整個賽段你坐在台下看替補打你的位子。` +
       (streak >= 2
@@ -126,7 +127,11 @@ function* playoffs(g, split, stat, splitCount) {
     if (round === rounds[0] || round.key === 'final') yield* drawRoleplay(g, 'presser');
 
     const oppRating = opponentRating(state, round.key, seed, rng);
-    const res = runSeries(state, rng, { bo: round.bo, oppRating, seed });
+    // 決賽的壓力係數比前面幾輪高（V4 §9.3）——抗壓低的人會在這裡把陣亡數交出來
+    const res = runSeries(state, rng, {
+      bo: round.bo, oppRating, seed,
+      pressure: round.key === 'final' ? PRESSURE.final : PRESSURE.playoff,
+    });
     const score = `${res.mine}-${res.theirs}`;
     const deciderNote = res.decider
       ? `<br><span class="muted">系列賽被拖進決勝局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>`
@@ -135,7 +140,8 @@ function* playoffs(g, split, stat, splitCount) {
       : seed === 2 ? '對上實力相當的對手'
       : '對上種子序更前的隊伍';
     yield card(res.win ? 'good' : 'bad', `${round.name} · BO${round.bo}`,
-      `${foe}，系列賽 <b class="${res.win ? 'up' : 'dn'}">${score}</b>${deciderNote}`);
+      `${foe}，系列賽 <b class="${res.win ? 'up' : 'dn'}">${score}</b>${deciderNote}` +
+      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
 
     if (!res.win) { reached = round.key; break; }
     reached = round.key === 'final' ? 'champion' : round.key;

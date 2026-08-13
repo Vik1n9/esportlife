@@ -35,7 +35,7 @@ export function importChance(state, leagueKey) {
   if (!Number.isFinite(slots)) return 100;
 
   const over = effectiveCoachRating(state) - league.min;
-  const fame = Math.max(0, (state.mental?.fame ?? 40) - 40);
+  const fame = Math.max(0, (state.fame ?? 40) - 40);
   // 基準 18%：名額滿了是常態。每高於門檻 1 點評價拉 4%，知名度再補一點
   // （per-point 係數在 0–100 重校時要除以 1.25，5 → 4；fame 本來就是 0–100 不動）
   return clamp(18 + over * 4 + fame * 0.25 + (slots - 2) * 12, 5, 90);

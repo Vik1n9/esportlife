@@ -7,14 +7,15 @@
 import { Rng } from '../core/rng.js';
 import { ATTRS, POTENTIAL_BANDS, START_RATIO } from '../data/attributes.js';
 import { ROLE_START_EDGE } from '../data/skills.js';
-import { MENTAL_START } from '../data/mental.js';
+import { MENTAL_BASE, MENTAL_JITTER, MENTAL_KEYS } from '../data/mental.js';
+import { FAME_START } from '../data/reputation.js';
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-// v11：OVR 換成教練評價，巔峰值與隊友強度的欄位跟著改名（`peakRating`／`mates[].rating`）。
-// 存檔的欄位名變了，舊存檔一律作廢重開
-export const SAVE_VERSION = 11;
+// v12：心理五維（nerve/chem/ego/fame/rep）換成 V4 §9 的競技心理六維，聲量拆成
+// `state.fame` 獨立一層。`state.mental` 的鍵整組換掉，舊存檔一律作廢重開
+export const SAVE_VERSION = 12;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -80,10 +81,18 @@ export function createState({ name, role, seed }) {
     potential,
     carry: {},           // 訓練點不足時的「蓄力」餘額
 
-    // 心理／性格。永遠不對玩家顯示數字，只在面板上給粗略標籤
+    /*
+     * 競技心理六維（V4 §9.1）：50 為基準，出生種子微調 ±10。
+     *
+     * **永遠不對玩家顯示，連粗略標籤都沒有**——玩家只能從事件文本、結算箭頭與可見
+     * 數據（陣亡數）反推。50 這個起點是刻意的：§9.2 的發揮倍率與 §10.2 的心理修正
+     * 在 50 都恰好是中性值，所以任何偏離都是玩家自己選出來的，不是出生就欠下的。
+     */
     mental: Object.fromEntries(
-      Object.entries(MENTAL_START).map(([k, [lo, hi]]) => [k, birth.int(lo, hi)]),
+      MENTAL_KEYS.map((k) => [k, MENTAL_BASE + birth.int(-MENTAL_JITTER, MENTAL_JITTER)]),
     ),
+    // 聲量（V4 §9.4）。跟六維相反：玩家看得到，面板上有分級標籤
+    fame: birth.int(FAME_START[0], FAME_START[1]),
     toneStreak: { bold: 0, plain: 0, humble: 0 },  // 連續同一種扮演傾向的次數
 
     traits: {},          // 通用特質
@@ -122,6 +131,13 @@ export function createState({ name, role, seed }) {
     lastDelta: 0,
     lastStat: null,
     pendingPoints: 0,
+
+    /*
+     * 失誤的可見紀錄（V4 §9.3）。兩格分開存是整個「因隱藏、果可見」循環的資料面：
+     * 心理看不到，但「同一個人在例行賽死幾次、在季後賽與國際賽死幾次」看得到，
+     * 玩家從這個落差反推自己的抗壓。高抗壓的人兩格幾乎持平，低抗壓的人會拉開。
+     */
+    deathLog: { regular: { G: 0, D: 0 }, pressure: { G: 0, D: 0 } },
 
     // 賽段制：一年拆成 1～3 個賽段，各自結算與季後賽
     splitLog: [],            // 該年各賽段的 {name, stat, finish}

@@ -18,6 +18,7 @@ import { worldsSlotsOf } from '../data/regions/index.js';
 import { runGroup, runSwiss } from '../kernel/groups.js';
 import { opponentStrength } from '../kernel/strength.js';
 import { runSeries, worldsSeed } from '../kernel/series.js';
+import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { BASE_TRAITS } from '../data/traits.js';
@@ -68,10 +69,14 @@ export function* run(g) {
     yield card('info', '地區資格賽',
       `賽區最後一張世界賽門票，由第 ${seed} 種子打<b class="hl">地區資格賽</b>決定。BO5，輸了整年就結束。`);
     yield* drawRoleplay(g, 'presser', { amp: 1.4 });
-    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, -2.5, rng), seed });
+    // 生死戰是全遊戲壓力係數最高的場合（V4 §9.3／§11.1 都把它單獨列一行）
+    const res = runSeries(state, rng, {
+      bo: 5, oppRating: intlOpponent(state, -2.5, rng), seed, pressure: PRESSURE.elimination,
+    });
     yield card(res.win ? 'good' : 'bad', `地區資格賽 · BO5`,
       `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
-      (res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。'));
+      (res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。') +
+      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
     if (!res.win) return;
   }
 
@@ -100,7 +105,9 @@ function* runTournament(g, rule, seed) {
       minor
         ? '賽區席位排在後段，主賽事之前要先打入圍賽。'
         : `第 ${seed} 種子從入圍賽打起。`);
-    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, -3.75, rng), seed });
+    const res = runSeries(state, rng, {
+      bo: 5, oppRating: intlOpponent(state, -3.75, rng), seed, pressure: PRESSURE.intl,
+    });
     yield card(res.win ? 'good' : 'bad', '入圍賽 · BO5',
       `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
       (res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。'));
@@ -158,11 +165,14 @@ function* knockout(g, seed) {
   for (const round of rounds) {
     if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
-    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, round.step, rng), seed });
+    const res = runSeries(state, rng, {
+      bo: 5, oppRating: intlOpponent(state, round.step, rng), seed, pressure: PRESSURE.intl,
+    });
     const decider = res.decider
       ? `<br><span class="muted">被拖進第五局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>` : '';
     yield card(res.win ? 'good' : 'bad', `世界賽${round.name} · BO5`,
-      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${decider}`);
+      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${decider}` +
+      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
     if (!res.win) return round.key === 'final' ? 'final' : round.key;
   }
   return 'champion';
@@ -192,9 +202,7 @@ function* settle(g, outcome, seed) {
   }
 
   // 站上這個舞台就會留下東西，走得越遠留得越多。舊版只有奪冠才給
-  applyMental(state, {
-    nerve: result.nerve, fame: result.fame, rep: result.rep, chem: result.chem,
-  });
+  applyMental(state, { comp: result.comp, fame: result.fame, trust: result.trust });
 
   yield card(outcome === 'champion' ? 'gold' : 'info', '世界賽結算',
     `<b class="hl">${result.rank}</b>。獲得能力點 <b class="hl">${result.points}</b> 點。` +

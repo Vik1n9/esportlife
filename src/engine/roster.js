@@ -49,8 +49,8 @@ export function rollRoster(state, rng, leagueKey) {
   state.mates = rng.sample(MATE_NAMES, 4).map((name) => ({ name, rating: rng.int(par - 7, par + 7) }));
   state.coach = rng.pick(COACHES).name;
   state.mateMorale = 0;
-  // 換了一批隊友，默契要重新建立：往中性拉回一半，但你是什麼樣的人會跟著你走
-  if (state.mental) state.mental.chem = Math.round((state.mental.chem + 50) / 2);
+  // 換了一批隊友，信任要重新建立：往中性拉回一半，但你是什麼樣的人會跟著你走
+  if (state.mental) state.mental.trust = Math.round((state.mental.trust + 50) / 2);
 }
 
 

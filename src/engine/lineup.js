@@ -47,7 +47,7 @@ export function benchRisk(state) {
 
   let risk = 2;
   if (delta < 0) risk += -delta * 2.56;             // 打不到隊伍平均就會被檢討（3.2 ÷ 1.25）
-  if (state.mental.chem <= 30) risk += (30 - state.mental.chem) * 0.7;
+  if (state.mental.trust <= 30) risk += (30 - state.mental.trust) * 0.7;
   if (state.returningFromInjury) risk += 14;        // 替補頂了幾週，位子不一定還在
   if (state.benchedStreak > 0) risk += 10;          // 已經坐過一次，教練更容易再讓你坐
   if (state.age >= 30) risk += (state.age - 29) * 2;

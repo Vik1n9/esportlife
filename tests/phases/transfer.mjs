@@ -16,7 +16,7 @@ function pro(seed, ovrValue, fame = 40) {
   const state = createState({ name: 'T', role: 'MID', seed });
   state.stage = 'PRO'; state.league = 'HOME'; state.team = 'PSG Talon';
   for (const k of Object.keys(state.attr)) state.attr[k] = ovrValue;
-  state.mental.fame = fame;
+  state.fame = fame;
   state.lastDelta = 2;
   return state;
 }

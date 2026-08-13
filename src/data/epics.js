@@ -27,7 +27,7 @@ export const EPIC_TRAITS = {
   ultstage: {
     name: '終極舞台', desc: '季後賽/國際賽 +15%；免疫心態崩盤',
     effects: { intlRoll: 8, tiltImmune: true },
-    // 分段效果：抗壓加成先保底再加值，寫在 engine/mental.js
+    // 分段效果：抗壓加成先保底再加值（clutchBonus），寫在 engine/mental.js
   },
   prophet: {
     name: '版本先知', desc: '版本落差懲罰歸零',
@@ -45,9 +45,9 @@ export const EPIC_TRAITS = {
     name: '休息室傳奇', desc: '隊友 +6；續約年薪係數保底 1.15',
     effects: {
       teamLead: { floor: 6 }, coachMult: { mul: 1.3 },
-      contractFloor: { floor: 1.15 }, verdictChemShield: true,
+      contractFloor: { floor: 1.15 }, verdictRiftShield: true,
     },
-    // 分段效果：默契加成只取正值再 +2，寫在 engine/mental.js
+    // 分段效果：信任加成只取正值再 +2（trustBonus），寫在 engine/mental.js
   },
   ascetic: {
     name: '苦行僧', desc: '每訓練週期 +1 顆骰；免疫享樂負面',
@@ -58,8 +58,8 @@ export const EPIC_TRAITS = {
     effects: { underdogDepth: 2.2 },
   },
   showman: {
-    name: '話題製造機', desc: '知名度只漲不跌；風評下限保護',
-    effects: { repShield: true },
+    name: '話題製造機', desc: '知名度只漲不跌；戰隊不會因為你的言行切割你',
+    effects: { verdictShield: true },
     // 分段效果：扮演卡結算時知名度只進不退，寫在 game.js
   },
 };
@@ -86,7 +86,7 @@ export const LEGENDARY_TRAITS = {
   },
   bulwark: {
     name: '銅牆鐵壁', desc: '免疫受傷；免疫默契崩盤；隊友 +8',
-    effects: { injuryImmune: true, teamLead: { floor: 8 }, verdictChemShield: true },
+    effects: { injuryImmune: true, teamLead: { floor: 8 }, verdictRiftShield: true },
   },
   showmaker: {
     name: '流量金身', desc: '代言 ×1.5；決勝局加成；續約保底 1.3',

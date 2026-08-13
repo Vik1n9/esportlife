@@ -7,6 +7,61 @@ import { effectiveCoachRating, skills } from './attributes.js';
 import { opponentStrength, teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
 import { formFactor } from './lineup.js';
+import { PRESSURE, mistakeFactor } from './psych.js';
+
+/**
+ * 每場陣亡數——**V4 §9.3 失誤系統唯一的可見出口**。
+ *
+ * 技能決定底線（走位好、視野好就少死），失誤係數決定「今天這個場合你守不守得住
+ * 那條底線」。§9.3 要的是「因（心理）隱藏、果（陣亡）可見」：玩家永遠看不到抗壓
+ * 是幾分，但看得到同一個人在例行賽 2.1 死、在生死戰 3.4 死——那個差額就是線索。
+ *
+ * 壓力係數只在這裡進遊戲。**它不進勝率**：抗壓進勝率的路是 §9.2 的發揮倍率
+ * （每一場都算）與決勝局的 `clutchBonus`，再讓失誤也扣一次戰力就是三重計價，
+ * 心理會從放大器變成決定器。失誤付出的代價是數據難看、獎項與估價跟著掉。
+ *
+ * @param {object} a 已折算好的十二技能值
+ * @param {number} form 手感係數（體力）
+ * @param {number} pressure 見 `psych.PRESSURE`
+ */
+export function deathsPerGame(state, a, par, form, rng, pressure = PRESSURE.regular) {
+  const base = STAT_BASELINE[state.role];
+  const raw = clamp(base.D - (a.pos - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15), 0.5, 3.0);
+  // 體力透支最先反映在後期的失誤上，所以陣亡數反向吃 form
+  return raw / form * mistakeFactor(state, pressure);
+}
+
+/**
+ * 一輪 BO 系列賽打完的陣亡數，並記進 `pressure` 那一格。
+ *
+ * 跟例行賽走同一個模型、同一份技能，差別只在壓力係數——這是刻意的：兩邊要可比，
+ * 玩家才看得出「同一個人在不同場合的落差」。季後賽與國際賽自己有一張數據，就是
+ * §9.3 說的「失誤結果反映在可見數據」。
+ *
+ * @param {number} games 這一輪打了幾局
+ * @param {number} pressure 見 `psych.PRESSURE`
+ */
+export function seriesDeaths(state, rng, games, pressure) {
+  if (!games) return 0;
+  const par = LEAGUES[state.league]?.par ?? 66;
+  const deaths = Math.round(games * deathsPerGame(state, skills(state), par, formFactor(state.attr.vit), rng, pressure));
+  recordDeaths(state, 'pressure', games, deaths);
+  return deaths;
+}
+
+/**
+ * 把一批比賽的陣亡數記進生涯統計，供玩家（與測試）比對不同場合的落差。
+ *
+ * 分兩格而不是一格：`regular` 是例行賽，`pressure` 是季後賽與國際賽。低抗壓的人
+ * 兩格會拉開，高抗壓的人幾乎持平——這是玩家推測那個隱藏數字的主要依據。
+ */
+export function recordDeaths(state, bucket, games, deaths) {
+  if (!games) return;
+  const log = state.deathLog || (state.deathLog = { regular: { G: 0, D: 0 }, pressure: { G: 0, D: 0 } });
+  const row = log[bucket];
+  row.G += games;
+  row.D += deaths;
+}
 
 /**
  * 模擬一個賽段。
@@ -72,8 +127,10 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1) {
   const base = STAT_BASELINE[state.role];
   const k = clamp(base.K + (a.op - par) * 0.008 + (a.lane - par) * 0.0064 + rng.gauss(0.2), 0.3, 3.2);
   stat.K = Math.round(stat.G * k * form);
-  // 體力透支最先反映在後期的失誤上，所以陣亡數反向吃 form
-  stat.D = Math.round(stat.G * clamp(base.D - (a.pos - par) * 0.0064 - (a.vis - par) * 0.0032 + rng.gauss(0.15), 0.5, 3.0) / form);
+  // 例行賽的壓力係數是 1.0——§9.3 的受迫性失誤在這裡幾乎不現形，要到季後賽才放大。
+  // 這是刻意的：抗壓低的人平常看不太出來，玩家得從大賽的落差反推
+  stat.D = Math.round(stat.G * deathsPerGame(state, a, par, form, rng, PRESSURE.regular));
+  recordDeaths(state, 'regular', stat.G, stat.D);
   stat.A = Math.round(stat.G * base.A * (1 + (a.gank - par) * 0.0032 + (a.vis - par) * 0.0032));
   stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.0048));
   stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.0064));

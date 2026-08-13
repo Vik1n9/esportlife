@@ -22,6 +22,7 @@ import { homeLeagueName, leagueLabel, teamsOf } from '../engine/roster.js';
 import { occupiesImportSlot } from '../engine/imports.js';
 import { clamp } from '../core/rng.js';
 import { unlockTrait } from '../engine/progression.js';
+import { flag } from '../kernel/modifiers.js';
 import { retire } from '../engine/retire.js';
 import { card, drawRoleplay, fusionBeats } from './shared.js';
 
@@ -116,7 +117,7 @@ function* rumours(g) {
   const { state, rng } = g;
   if (state.stage !== 'PRO') return 0;
 
-  const fame = state.mental.fame;
+  const fame = state.fame ?? 0;
   const delta = state.lastDelta || 0;
   // fame 本來就是 0–100，不縮放；delta 是評價量，per-point 係數 ÷1.25（0.6 → 0.48）
   const heat = Math.round(clamp((fame - 32) / 14 + Math.max(0, delta) * 0.48, 0, 5));
@@ -126,8 +127,9 @@ function* rumours(g) {
   if (!pool.length) return heat;
   const linked = rng.sample(pool, Math.min(heat, pool.length));
 
-  // 風評見底的時候，傳聞跟報價會脫節——這就是鬼牧
-  const ghost = state.mental.rep <= -25 && heat >= 2;
+  // 名聲見底的時候，傳聞跟報價會脫節——這就是鬼牧。V4 §9.4 拿掉 `rep` 之後，
+  // 「名聲見底」只剩特質副作用一個來源（圈內毒瘤），判準跟著改讀它
+  const ghost = flag(state, 'offerPenalty') && heat >= 2;
   yield card(ghost ? '' : 'info', '轉會期傳聞',
     `窗口一開，你的名字被掛在 <b class="hl">${linked.join('、')}</b> 底下。` +
     (ghost

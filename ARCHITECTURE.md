@@ -26,7 +26,8 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   │   └── playoffs.js  #   輪次 / BO 數 / 冠軍點數
 │   │   ├── traits.js epics.js   # 特質：名稱 + 描述 + 效果（集中）
 │   │   ├── attributes.js skills.js  # 六屬性 + 由屬性導出的十二項技能權重
-│   │   ├── mental.js roleplay.js events.js
+│   │   ├── mental.js reputation.js  # 隱藏心理六維（不可見）／聲量（可見有標籤）
+│   │   ├── roleplay.js events.js
 │   │   └── eras.js leagues.js teams.js coaches.js heroes.js disband.js
 │   │
 │   ├── kernel/              # ★ 被多個階段共用，改動最少
@@ -50,6 +51,7 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   ├── imports.js       #   外援名額
 │   │   ├── roster.js        #   隊友名單、隊名、階段顯示名
 │   │   ├── season.js attributes.js progression.js mental.js
+│   │   ├── psych.js         #   §9.2 技能發揮公式 ＋ §9.3 失誤系統
 │   │   ├── market.js career.js retire.js
 │   │
 │   └── ui/                  # 只負責畫面
@@ -250,7 +252,8 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `data/formats/worlds.js` | B | 3af552d 新建，種子序／席位／賽制資料 | 沿用（S15 調整） |
 | `data/heroes.js` | A | e07427c 拆自 world.js（HEROES／PATCH_THEMES） | S05 淨室重寫 |
 | `data/leagues.js` | A | e07427c 拆自 world.js（LEAGUES） | S05 淨室重寫 |
-| `data/mental.js` | B | 7d19dce 新建，心理五維 | 沿用（S12 擴充） |
+| `data/mental.js` | B | 7d19dce 新建（心理五維），S12 整表換成 V4 §9 競技心理六維 | 沿用 |
+| `data/reputation.js` | B | S12 新建，聲量層自 `mental.js` 拆出 | 沿用 |
 | `data/regions/cn.js` | A/B | e07427c 拆自 world.js（隊名／薪資／賽段史為 A）；a140b9e 加 `msiAfter` 欄位為 B | S05 重排結構 |
 | `data/regions/eu.js` | A/B | 同上 | S05 重排結構 |
 | `data/regions/home.js` | A/B | 同上 | S05 重排結構 |
@@ -268,7 +271,8 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `engine/imports.js` | B | ef33e1b 新建，外援名額（舊版無此概念） | 沿用 |
 | `engine/lineup.js` | B | 7604223 新建，先發／板凳（舊版 staminaFactor 是棒球模型） | 沿用（S16 調整） |
 | `engine/market.js` | A | a71ee13 建立 | S04 淨室重寫 |
-| `engine/mental.js` | B | 7d19dce 新建 | 沿用（S12 擴充） |
+| `engine/mental.js` | B | 7d19dce 新建，S12 改寫為六維 ＋ 聲量 | 沿用 |
+| `engine/psych.js` | B | S12 新建（§9.2 發揮公式、§9.3 失誤系統） | 沿用 |
 | `engine/progression.js` | A | a71ee13 建立 | V4 S16 設施制重寫 |
 | `engine/retire.js` | A/B | 6ec9575 抽自 game.js（退役條件為 A）；RetireSignal 例外機制為 B | V4 S13 體力系統重寫 |
 | `engine/roster.js` | A/B | a71ee13 建 team.js，667ec4c／6ec9575 rename＋調整（隊名資料流承袭；解散過濾／二隊推導為 B） | S05 重排結構時同步調整 |

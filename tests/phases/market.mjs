@@ -47,15 +47,17 @@ export async function run({ check }) {
     const state = createState({ name: 'V', role: 'ADC', seed: 'verdict' });
     state.stage = 'PRO'; state.league = 'HOME'; state.contract = { years: 3, mult: 1 }; state.year = 2020;
 
-    state.mental.chem = 50; state.mental.rep = 0;
+    // 打得動、隊內也沒事的人不該被動到。屬性拉到聯賽水準之上，讓切割那條也不成立
+    for (const k of Object.keys(state.attr)) state.attr[k] = 80;
+    state.mental.trust = 50;
     let fired = 0;
     for (let i = 0; i < 200; i++) { state.lastVerdictYear = null; if (clubVerdict(state, rng).kind !== 'none') fired++; }
     check('心理狀態正常時不會被開除', fired === 0, fired);
 
-    state.mental.chem = 5;
+    state.mental.trust = 5;
     fired = 0;
     for (let i = 0; i < 400; i++) { state.lastVerdictYear = null; if (clubVerdict(state, rng).kind === 'rift') fired++; }
-    check('默契崩到底會被迫轉隊', fired > 100, fired);
+    check('信任崩到底會被迫轉隊', fired > 100, fired);
 
     state.lastVerdictYear = 2020;
     check('冷卻期內不會連續兩年被拆隊', clubVerdict(state, rng).kind === 'none');
@@ -64,5 +66,35 @@ export async function run({ check }) {
     let recovered = false;
     for (let i = 0; i < 50; i++) { state.lastVerdictYear = 2020; if (clubVerdict(state, rng).kind !== 'none') recovered = true; }
     check('冷卻結束後恢復判定', recovered);
+  }
+
+  /* ---- V4 §9.4：切割判定改讀教練評價 ＋ 特質副作用（`rep` 風評已整條刪除） ---- */
+  {
+    const rng = new Rng('verdict-fire');
+    const make = (rating, traits = {}, rare = {}) => {
+      const s = createState({ name: 'F', role: 'ADC', seed: 'verdict-fire' });
+      s.stage = 'PRO'; s.league = 'HOME'; s.contract = { years: 3, mult: 1 }; s.year = 2020;
+      for (const k of Object.keys(s.attr)) s.attr[k] = rating;
+      s.mental.trust = 50;                 // 把拆隊那條排除掉，只留切割
+      Object.assign(s.traits, traits);
+      Object.assign(s.rare, rare);
+      return s;
+    };
+    const count = (s, kind) => {
+      let n = 0;
+      for (let i = 0; i < 400; i++) { s.lastVerdictYear = null; if (clubVerdict(s, rng).kind === kind) n++; }
+      return n;
+    };
+
+    check('打得動就不會被切割', count(make(80), 'fired') === 0);
+    const weak = count(make(52), 'fired');
+    check('打不到聯賽水準才進入切割判定', weak > 0, `400 次裡 ${weak} 次`);
+
+    // 特質副作用是 §9.4 指名的第二個來源：同樣的實力，帶著圈內毒瘤更容易被切
+    const toxic = count(make(52, { pariah: true }), 'fired');
+    check('特質副作用會加重切割風險（§9.4）', toxic > weak, `毒瘤 ${toxic} vs 一般 ${weak}`);
+
+    // 而護盾特質擋得住——傳奇偶像／話題製造機那一類
+    check('護盾特質擋得住切割', count(make(52, {}, { icon: true }), 'fired') === 0);
   }
 }

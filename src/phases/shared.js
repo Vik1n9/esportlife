@@ -176,12 +176,17 @@ export function* drawEvents(g, n) {
 
 /** 性格特質的門檻。全部走同一條路：連續往同一個方向演，久了就成為那樣的人。 */
 const PERSONA_RULES = [
-  { key: 'trashtalk', tone: 'bold', streak: 5, need: (s) => s.mental.ego >= 74 && s.mental.fame >= 45 },
-  { key: 'bigheart', tone: null, streak: 0, need: (s) => s.mental.nerve >= 90 },
-  { key: 'glue', tone: 'plain', streak: 5, need: (s) => s.mental.chem >= 86 },
-  { key: 'lonewolf', tone: 'bold', streak: 6, need: (s) => s.mental.chem <= 24 && s.mental.ego >= 72 },
-  { key: 'idol', tone: null, streak: 0, need: (s) => s.mental.fame >= 72 && s.mental.rep >= 55 },
-  { key: 'pariah', tone: null, streak: 0, need: (s) => s.mental.rep <= -75 },
+  { key: 'trashtalk', tone: 'bold', streak: 5, need: (s) => s.mental.conf >= 74 && (s.fame ?? 0) >= 45 },
+  { key: 'bigheart', tone: null, streak: 0, need: (s) => s.mental.comp >= 90 },
+  { key: 'glue', tone: 'plain', streak: 5, need: (s) => s.mental.trust >= 86 },
+  { key: 'lonewolf', tone: 'bold', streak: 6, need: (s) => s.mental.trust <= 24 && s.mental.conf >= 72 },
+  // 舊條件是「知名度 ≥72 且風評 ≥55」。V4 §9.4 拿掉 `rep` 之後，「紅而且沒有黑歷史」
+  // 只能由「紅 ＋ 隊內處得好」表達——這也是 §9.4 把 rep 收掉的理由：風評本來就是
+  // 別人怎麼看你跟身邊的人的關係，不需要一條自己的軸
+  { key: 'idol', tone: null, streak: 0, need: (s) => (s.fame ?? 0) >= 72 && s.mental.trust >= 60 },
+  // 舊條件是風評 ≤ −75。毒瘤跟獨狼要分得開：獨狼是「不跟人玩」（信任低＋自信高），
+  // 毒瘤是「很紅，而且所有人都受不了他」——所以它多要一份聲量，也多演兩次才定型
+  { key: 'pariah', tone: 'bold', streak: 7, need: (s) => s.mental.trust <= 15 && (s.fame ?? 0) >= 55 },
 ];
 
 /**
@@ -213,21 +218,16 @@ export function* drawRoleplay(g, when, { amp: extraAmp = 1 } = {}) {
   };
   const opt = ev.options.find((o) => o.id === pickedId) || ev.options[0];
 
-  // 知名度放大聲量類的效果：紅了之後，同一句話的後座力完全不同
-  const amp = (1 + Math.max(0, state.mental.fame - 40) / 100) * extraAmp;
+  // 知名度放大聲量的效果：紅了之後，同一句話的後座力完全不同。
+  // 放大的只有聲量——隱藏六維不吃這個係數，它們是「你變成什麼人」，跟多少人在看無關
+  const amp = (1 + Math.max(0, (state.fame ?? 0) - 40) / 100) * extraAmp;
   const deltas = {};
   for (const [k, v] of Object.entries(opt.mental || {})) {
-    deltas[k] = (k === 'fame' || k === 'rep') ? Math.round(v * amp) : v;
+    deltas[k] = k === 'fame' ? Math.round(v * amp) : v;
   }
-  if (opt.tone === 'bold' && state.traits.trashtalk) {
-    deltas.fame = Math.round((deltas.fame || 0) * 1.6);
-    deltas.rep = Math.round((deltas.rep || 0) * 1.6);
-  }
-  if (opt.tone === 'plain' && state.traits.glue && deltas.chem > 0) deltas.chem *= 2;
-  if (state.epic.showman) {
-    if (deltas.fame < 0) deltas.fame = 0;
-    if (deltas.rep < 0) deltas.rep = Math.round(deltas.rep * 0.5);
-  }
+  if (opt.tone === 'bold' && state.traits.trashtalk) deltas.fame = Math.round((deltas.fame || 0) * 1.6);
+  if (opt.tone === 'plain' && state.traits.glue && deltas.trust > 0) deltas.trust *= 2;
+  if (state.epic.showman && deltas.fame < 0) deltas.fame = 0;
 
   const notes = applyMental(state, deltas);
 

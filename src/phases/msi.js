@@ -17,6 +17,7 @@ import { MSI_RESULTS, msiRuleOf } from '../data/formats/msi.js';
 import { runGroup } from '../kernel/groups.js';
 import { opponentStrength } from '../kernel/strength.js';
 import { runSeries } from '../kernel/series.js';
+import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { bonus, floorOf } from '../kernel/modifiers.js';
@@ -92,13 +93,13 @@ function* groupKnockout(g) {
 function* doubleElim(g) {
   const { state, rng } = g;
 
-  const first = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 0, rng), seed: 0 });
+  const first = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 0, rng), seed: 0, pressure: PRESSURE.intl });
   yield card(first.win ? 'good' : 'bad', 'MSI 勝部首輪 · BO5',
     `系列賽 <b class="${first.win ? 'up' : 'dn'}">${first.mine}-${first.theirs}</b>。` +
     (first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。'));
 
   if (!first.win) {
-    const lower = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 1.25, rng), seed: 0 });
+    const lower = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 1.25, rng), seed: 0, pressure: PRESSURE.intl });
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部 · BO5',
       `系列賽 <b class="${lower.win ? 'up' : 'dn'}">${lower.mine}-${lower.theirs}</b>。` +
       (lower.win ? '從敗部殺回來了。' : '<b class="dn">兩敗淘汰</b>。'));
@@ -116,11 +117,14 @@ function* knockout(g, rounds) {
     const isFinal = i === rounds.length - 1;
     if (isFinal) yield* drawRoleplay(g, 'intl', { amp: 1.6 });
 
-    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, 5 + i * 3, rng), seed: 0 });
+    const res = runSeries(state, rng, {
+      bo: 5, oppRating: intlOpponent(state, 5 + i * 3, rng), seed: 0, pressure: PRESSURE.intl,
+    });
     const decider = res.decider
       ? `<br><span class="muted">被拖進第五局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>` : '';
     yield card(res.win ? 'good' : 'bad', `MSI ${name} · BO5`,
-      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${decider}`);
+      `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${decider}` +
+      `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
 
     if (!res.win) return isFinal ? 'final' : 'semi';
   }
@@ -147,7 +151,7 @@ function* settle(g, outcome) {
 
   // 站過國際賽的舞台就會留下東西——走得越遠留得越多。
   // 舊版只有奪冠才給，於是「多次世界賽常客的心理素質比沒去過的強」這件事做不出來
-  applyMental(state, { nerve: result.nerve, fame: result.fame, rep: result.rep });
+  applyMental(state, { comp: result.comp, fame: result.fame });
 
   // MSI 打完到下一個賽段開打只有兩三週，賽區內其他隊多練了一個版本
   state.patchDebt = Math.min(10, state.patchDebt + 1);

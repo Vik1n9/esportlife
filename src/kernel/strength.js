@@ -6,7 +6,7 @@
 import { COACHES } from '../data/coaches.js';
 import { LEAGUES } from '../data/leagues.js';
 import { positionPower } from '../engine/attributes.js';
-import { chemBonus } from '../engine/mental.js';
+import { trustBonus } from '../engine/mental.js';
 import { factor, floorOf } from './modifiers.js';
 
 export function coachBonus(state) {
@@ -16,8 +16,8 @@ export function coachBonus(state) {
 export function matesAverage(state) {
   if (!state.mates || !state.mates.length) return 0;
   const sum = state.mates.reduce((t, m) => t + m.rating, 0);
-  // mateMorale 是單季的士氣，chem 是跨季累積的默契——兩者相加
-  return sum / state.mates.length + floorOf(state, 'teamLead', 0) + (state.mateMorale || 0) + chemBonus(state);
+  // mateMorale 是單季的士氣，trust 是跨季累積的信任（V4 §9.4 把舊的 chem 併進去）——兩者相加
+  return sum / state.mates.length + floorOf(state, 'teamLead', 0) + (state.mateMorale || 0) + trustBonus(state);
 }
 
 /** 所在聯賽的先發平均。業餘期還沒有 `state.league`，落回網咖盃的 par */
@@ -43,12 +43,31 @@ function parOf(state) {
  *
  * 1. **推導**：對手也是一支隊，所以它有 §11.1 驗算例寫的「教練/體力 3.5」，也有
  *    **它自己的明星選手**——階梯上的隊伍是賽區冠軍等級，carry 大約高出該聯賽 par
- *    15～20 點，查 §11.1 的明星項分段表就是 2.3～3.4，取中間的 3.0。3.5 ＋ 3.0 = 6.5。
- * 2. **實測**：掃 3.5／5／6.5／8 四個值跑 640 段生涯，6.5 是唯一把 S10 的校準整組帶
- *    回來的值——世界冠軍人均 0.11（S10 是 0.098）、有國際冠軍的生涯 122 段（125）、
- *    平均生涯薪資 −1%。3.5 會讓世界冠軍人均翻成兩倍（0.21）。
+ *    15～20 點。
+ * 2. **實測**：掃值跑 640 段生涯，看世界冠軍人均與「有國際冠軍的生涯」段數有沒有
+ *    回到上一站的校準。
+ *
+ * ⚠ **S12 把它從 6.5 調到 9.0，理由是 §9.2 也發生在對手身上。**
+ *
+ * S11 推導 6.5 時，`positionPower` 還沒有心理乘法項，所以階梯上那個 carry 的戰力
+ * 就等於它的名目評價。V4 §9.2 上線之後不是這樣了：**每一支隊的 carry 都乘上
+ * 0.85–1.15 的發揮倍率**，而階梯上的隊伍是賽區冠軍等級，它的 carry 心理不會差。
+ * 實測 640 段生涯，有國際冠軍那一群的心理穩定修正平均是 **1.04**，所以同一個 carry：
+ *
+ * - 明星項：par+17.5 = 83.5 → ×1.04 = 86.8，超出 par 從 17.5 變 20.8，
+ *   查 §11.1 的公式 `0.06 × 20.8^1.35` ＝ **3.56**（S11 當時算的是 3.0）。
+ * - 它在自家隊伍強度裡的份額：P 高了 3.3 點，×0.60 ＝ **+2.0**。
+ *
+ * 3.5 ＋ 3.56 ＋ 2.0 ＝ **9.06**，取 9.0。實測對得上：640 段生涯的世界冠軍人均
+ * 0.248 → **0.128**（S11 是 0.113）、有國際冠軍的生涯 150 → **123 段**（S11 是 122）、
+ * 平均薪資 +2.5%、平均巔峰 +0.1%。**不改的話世界冠軍人均會是 S11 的 2.2 倍**——
+ * 那不是 §9.2 想要的效果，是拿只有我方享有的加成去打沒有加成的對手。
+ *
+ * ⚠ 對照組（都跑過 640 段）：把國際賽的抗壓獎勵減半完全無效（0.248 → 0.253），
+ * 所以**這不是「贏了長抗壓、抗壓又幫你贏」的回饋迴圈**，是整體戰力上移。把 §9.2
+ * 的乘法項釘成 1 則直接回到 0.125——單一根因確認。
  */
-export const OPPONENT_SUPPORT = 6.5;
+export const OPPONENT_SUPPORT = 9.0;
 
 /**
  * 把階梯表的對手水準換成可以跟 `teamStrength` 相減的隊伍強度。
