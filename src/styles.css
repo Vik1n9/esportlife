@@ -99,8 +99,9 @@ button{font-family:var(--ui)}
 #bd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .bd-cell{background:var(--raise);border-radius:var(--r-sm);padding:5px 6px 4px;text-align:center}
 .bd-cell b{display:block;font-family:var(--mono);font-size:20px;font-weight:700;line-height:1.2}
-.bd-cell b.penalised{color:var(--bad)}
 .bd-cell span{font-size:10.5px;color:var(--dim)}
+/* 版本落差標在格子的標籤上而不是數字上：扣的是戰力與估價，不是技能值本身 */
+.bd-cell.penalised span{color:var(--bad)}
 
 /* 階段燈：哪一格亮代表現在跑到哪一段 */
 #lamps{display:flex;gap:28px;justify-content:center;margin:8px -14px 0;

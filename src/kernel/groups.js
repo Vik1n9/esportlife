@@ -9,21 +9,22 @@
  * - `runGroup` 2012–2022，四隊雙循環 BO1，前二晉級
  * - `runSwiss` 2023 起，三勝晉級／三敗淘汰，晉級與淘汰局打 BO3
  */
+import { opponentStrength } from './strength.js';
 import { gameChance, runSeries } from './series.js';
 
 /**
  * 小組賽：對每個對手各打兩場 BO1，勝場多者晉級。
  *
- * @param {number[]} oppOvrs 同組對手的強度（LoL 小組賽是四隊，所以通常三個）
+ * @param {number[]} oppRatings 同組對手的強度（LoL 小組賽是四隊，所以通常三個）
  * @param {number} advance 幾隊晉級
  * @returns {{wins:number, losses:number, games:{opp:number, win:boolean}[], advanced:boolean, note:string}}
  */
-export function runGroup(state, rng, { oppOvrs, advance = 2, seed = 0 }) {
+export function runGroup(state, rng, { oppRatings, advance = 2, seed = 0 }) {
   const games = [];
   // 雙循環：每個對手打兩次，這是 2014 起世界賽小組賽的實際場次
   for (const round of [0, 1]) {
-    for (const oppOvr of oppOvrs) {
-      games.push({ opp: oppOvr, round, win: rng.chance(gameChance(state, oppOvr, { seed })) });
+    for (const oppRating of oppRatings) {
+      games.push({ opp: oppRating, round, win: rng.chance(gameChance(state, oppRating, { seed })) });
     }
   }
   const wins = games.filter((g) => g.win).length;
@@ -54,12 +55,12 @@ export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesT
   let wins = 0; let losses = 0;
 
   while (wins < winsToAdvance && losses < lossesToExit) {
-    // 戰績越好對手越強：+2.0 OVR / 淨勝場（舊 1.6 × 1.25，§17.2 三）
-    const oppOvr = par + (wins - losses) * 2.0 + rng.gauss(1.5);
+    // 戰績越好對手越強：+2.0 點 / 淨勝場（舊 1.6 × 1.25，§17.2 三）
+    const oppRating = opponentStrength(par + (wins - losses) * 2.0 + rng.gauss(1.5));
     // 晉級局與淘汰局打 BO3，其餘 BO1——2023 起的實際規則
     const decisive = wins === winsToAdvance - 1 || losses === lossesToExit - 1;
     const bo = decisive ? 3 : 1;
-    const res = runSeries(state, rng, { bo, oppOvr, seed });
+    const res = runSeries(state, rng, { bo, oppRating, seed });
 
     if (res.win) wins += 1; else losses += 1;
     rounds.push({

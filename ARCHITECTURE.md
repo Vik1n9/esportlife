@@ -261,7 +261,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `data/skills.js` | A/B → B | 876c76b 新建，SKILL_NAMES／ROLE_SIGNATURE／OVR_WEIGHTS 曾演化自 abilities.js（A）；**S10 整表換成 V4 §8.1／§8.2，`ROLE_SIGNATURE` 已刪** | 完成（承袭的表達已被 V4 規格取代） |
 | `data/teams.js` | A | e07427c 拆自 world.js（隊名／MATE_NAMES）；0641189 更新為 B | S05 淨室重寫 |
 | `data/traits.js` | A/B | a71ee13 建立（基礎特質）；b2cdc80 拆出 epics；e412b9b 四階合成（54→174 行） | V4 S19a 重寫 |
-| `engine/attributes.js` | A/B | a71ee13 建 abilities.js，876c76b rename＋技能導出層（ovr／effectiveOvr 等骨架承袭，skillValue 等新寫） | V4 S09/S10 重寫 |
+| `engine/attributes.js` | A/B → B | a71ee13 建 abilities.js，876c76b rename＋技能導出層（`ovr`／`effectiveOvr` 等骨架承袭，skillValue 等新寫）；**S11 換成 §10.2 教練評價與 §11.1 位置戰力，承袭的 OVR 骨架已不存在** | 完成（S09/S10/S11 三站重寫完畢） |
 | `engine/calendar.js` | B | 6ec9575 新建，年曆展開（只查表） | 沿用（S14/S15 調整） |
 | `engine/career.js` | A | a71ee13 建立 | S04 淨室重寫 |
 | `engine/game.js` | A | a71ee13 建立；6ec9575 拆到 221 行（主迴圈） | V4 S14 月回合制重寫 |
@@ -277,7 +277,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `kernel/groups.js` | B | 667ec4c 新建（小組賽／Swiss，原專案無） | 沿用 |
 | `kernel/modifiers.js` | A/B | b2cdc80 新建聚合機制（B）；效果值搬自 traits.js（A） | V4 S19a 重寫 |
 | `kernel/series.js` | B | 667ec4c 搬自 engine/playoffs.js（7d19dce 新建，種子序門檻首見於 7d19dce） | 沿用 |
-| `kernel/strength.js` | A | 667ec4c 搬自 engine/team.js（a71ee13）的三個強度函式 | V4 S10/S11 隨 OVR 重寫 |
+| `kernel/strength.js` | A → B | 667ec4c 搬自 engine/team.js（a71ee13）的三個強度函式；**S11 依 §11.1 重寫權重（0.60/0.40）、加明星效應與對手支援換算** | 完成（S11 重寫） |
 | `main.js` | A | a71ee13 建立 | S03 淨室重寫 |
 | `phases/alloc.js` | A | 6ec9575 搬自 game.js（能力點分配） | V4 S16 設施制重寫 |
 | `phases/index.js` | B | 6ec9575 新建註冊表（kind → 模組） | 沿用 |

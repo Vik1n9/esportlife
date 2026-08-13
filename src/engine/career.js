@@ -24,14 +24,14 @@ const SEASON_WEIGHTS = {
 const SEASON_FLOOR = -200;
 
 /**
- * 生涯厚度：巔峰與年資的價碼。
+ * 生涯厚度：巔峰教練評價與年資的價碼。
  *
  * 0–100 重校時這兩個數字要一起動，而且方向相反（V4 §17.2 的同一條規則）：
  * 門檻是**水準量**，×1.25（45 → 56）；每點的價碼是 **per-point 係數**，÷1.25
  * （20 → 16）。兩邊配著改，同一段生涯的厚度分數才不會因為換單位就翻倍——
  * 只改門檻或只改係數都會讓等第分布整個垮掉。
  */
-const PEAK_PER_OVR = 16;
+const PEAK_PER_POINT = 16;
 const PEAK_FLOOR = 56;          // 巔峰低於這個數值，代表沒真正站上過一軍
 const PRO_YEAR_VALUE = 10;
 
@@ -78,8 +78,9 @@ export function careerScore(state) {
   // 第一段：每一年的例行表現。場次多的年份自然分數高，這就是「量」的意義
   for (const season of Object.values(state.stats)) score += seasonScore(season);
 
-  // 第二段：厚度。巔峰 OVR 每超過門檻 1 點 20 分，職業年資每年 10 分
-  score += Math.max(0, state.peakOvr - PEAK_FLOOR) * PEAK_PER_OVR;
+  // 第二段：厚度。巔峰教練評價每超過門檻 1 點 16 分，職業年資每年 10 分。
+  // §10.3 明文允許生涯評分讀教練評價——那是結算，不是養成期的儀表板
+  score += Math.max(0, state.peakRating - PEAK_FLOOR) * PEAK_PER_POINT;
   score += state.proYears * PRO_YEAR_VALUE;
 
   // 第三段：榮譽。世界冠軍 > 世界亞軍＝MSI 冠軍 > 其餘

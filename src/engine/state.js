@@ -12,8 +12,9 @@ import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 
-// v10：屬性換成 0–100 刻度、成長成本階梯換成潛力衰減係數。舊存檔一律作廢重開
-export const SAVE_VERSION = 10;
+// v11：OVR 換成教練評價，巔峰值與隊友強度的欄位跟著改名（`peakRating`／`mates[].rating`）。
+// 存檔的欄位名變了，舊存檔一律作廢重開
+export const SAVE_VERSION = 11;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -148,7 +149,7 @@ export function createState({ name, role, seed }) {
     worldsFinals: 0,
     msiWins: 0,
     msiPodiums: 0,
-    peakOvr: 0,
+    peakRating: 0,
     proYears: 0,
 
     done: false,

@@ -16,6 +16,7 @@ import { LEAGUES } from '../data/leagues.js';
 import { FINISH_TO_SEED, WORLDS_RESULTS, worldsRuleOf } from '../data/formats/worlds.js';
 import { worldsSlotsOf } from '../data/regions/index.js';
 import { runGroup, runSwiss } from '../kernel/groups.js';
+import { opponentStrength } from '../kernel/strength.js';
 import { runSeries, worldsSeed } from '../kernel/series.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
@@ -28,7 +29,7 @@ export const kind = 'WORLDS';
 /** 世界賽的對手是各賽區的一號種子。基準比 MSI 再高一階。 */
 function intlOpponent(state, step, rng) {
   const base = Math.max(LEAGUES[state.league]?.par ?? 66, 74);
-  return base + step + bonus(state, 'worldsRoll') * -0.15 + rng.gauss(1.6);
+  return opponentStrength(base + step + bonus(state, 'worldsRoll') * -0.15 + rng.gauss(1.6));
 }
 
 /** 依當年制度算出賽區內的種子序。0 = 沒有名次。 */
@@ -67,7 +68,7 @@ export function* run(g) {
     yield card('info', '地區資格賽',
       `賽區最後一張世界賽門票，由第 ${seed} 種子打<b class="hl">地區資格賽</b>決定。BO5，輸了整年就結束。`);
     yield* drawRoleplay(g, 'presser', { amp: 1.4 });
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, -2.5, rng), seed });
+    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, -2.5, rng), seed });
     yield card(res.win ? 'good' : 'bad', `地區資格賽 · BO5`,
       `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
       (res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。'));
@@ -99,7 +100,7 @@ function* runTournament(g, rule, seed) {
       minor
         ? '賽區席位排在後段，主賽事之前要先打入圍賽。'
         : `第 ${seed} 種子從入圍賽打起。`);
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, -3.75, rng), seed });
+    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, -3.75, rng), seed });
     yield card(res.win ? 'good' : 'bad', '入圍賽 · BO5',
       `系列賽 <b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>。` +
       (res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。'));
@@ -117,8 +118,8 @@ function* runTournament(g, rule, seed) {
 /** 2012–2022：四隊小組雙循環，前二晉級 */
 function* groupStage(g, seed) {
   const { state, rng } = g;
-  const oppOvrs = [0, 2.5, 5].map((s) => intlOpponent(state, s, rng));
-  const res = runGroup(state, rng, { oppOvrs, seed });
+  const oppRatings = [0, 2.5, 5].map((s) => intlOpponent(state, s, rng));
+  const res = runGroup(state, rng, { oppRatings, seed });
   yield card(res.advanced ? 'good' : 'bad', '世界賽小組賽',
     `六場循環戰 <b class="${res.advanced ? 'up' : 'dn'}">${res.wins}勝 ${res.losses}敗</b>。` +
     (res.note ? `${res.note}。` : '') +
@@ -157,7 +158,7 @@ function* knockout(g, seed) {
   for (const round of rounds) {
     if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
-    const res = runSeries(state, rng, { bo: 5, oppOvr: intlOpponent(state, round.step, rng), seed });
+    const res = runSeries(state, rng, { bo: 5, oppRating: intlOpponent(state, round.step, rng), seed });
     const decider = res.decider
       ? `<br><span class="muted">被拖進第五局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>` : '';
     yield card(res.win ? 'good' : 'bad', `世界賽${round.name} · BO5`,

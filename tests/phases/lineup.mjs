@@ -16,7 +16,7 @@ function pro(seed, ovrValue, extra = {}) {
   const state = createState({ name: 'L', role: 'MID', seed });
   state.stage = 'PRO'; state.league = 'LCK'; state.team = 'T1';
   for (const k of Object.keys(state.attr)) state.attr[k] = ovrValue;
-  state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, ovr: ovrValue }));
+  state.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, rating: ovrValue }));
   Object.assign(state, extra);
   return state;
 }

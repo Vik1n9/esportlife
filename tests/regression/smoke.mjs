@@ -82,7 +82,7 @@ export async function run({ check, log, shared }) {
    */
   const avgPeak = (style) => runs
     .filter((r) => r.style === style)
-    .reduce((t, r) => t + r.state.peakOvr, 0) / perStyle;
+    .reduce((t, r) => t + r.state.peakRating, 0) / perStyle;
   const peakFocus = avgPeak('focus');
   const peakSpread = avgPeak('spread');
 

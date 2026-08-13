@@ -14,7 +14,7 @@
  */
 import { clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
-import { effectiveOvr } from './attributes.js';
+import { effectiveCoachRating } from './attributes.js';
 import { factor } from '../kernel/modifiers.js';
 
 /** 一個賽段約略的週數，用來把「缺席幾週」換算成出賽比例 */
@@ -43,7 +43,7 @@ export function formFactor(sta) {
 export function benchRisk(state) {
   if (state.stage !== 'PRO') return 0;
   const par = LEAGUES[state.league]?.par ?? 66;
-  const delta = effectiveOvr(state) - par;
+  const delta = effectiveCoachRating(state) - par;
 
   let risk = 2;
   if (delta < 0) risk += -delta * 2.56;             // 打不到隊伍平均就會被檢討（3.2 ÷ 1.25）

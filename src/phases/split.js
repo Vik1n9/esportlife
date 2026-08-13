@@ -12,7 +12,7 @@ import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { LEAGUES } from '../data/leagues.js';
 import { unlockTrait } from '../engine/progression.js';
 import {
-  entryRound, opponentOvr, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed,
+  entryRound, opponentRating, playoffBerth, pointsFor, roundsFrom, runSeries, splitSeed,
 } from '../kernel/series.js';
 import { card, drawEvents, drawRoleplay, fusionBeats } from './shared.js';
 
@@ -125,8 +125,8 @@ function* playoffs(g, split, stat, splitCount) {
     // 每一輪都問一次的話，一年會被問到九次，該有的重量就沒了
     if (round === rounds[0] || round.key === 'final') yield* drawRoleplay(g, 'presser');
 
-    const oppOvr = opponentOvr(state, round.key, seed, rng);
-    const res = runSeries(state, rng, { bo: round.bo, oppOvr, seed });
+    const oppRating = opponentRating(state, round.key, seed, rng);
+    const res = runSeries(state, rng, { bo: round.bo, oppRating, seed });
     const score = `${res.mine}-${res.theirs}`;
     const deciderNote = res.decider
       ? `<br><span class="muted">系列賽被拖進決勝局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>`

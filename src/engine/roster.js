@@ -46,7 +46,7 @@ export function rollRoster(state, rng, leagueKey) {
   const par = LEAGUES[leagueKey].par;
   // 隊友分布 par ± 7（舊 ±6 × 1.25 = 7.5，**刻意向下取整**：這個區間只貢獻變異數
   // 不貢獻平均，而 S07「頂端才兌現」靠的是訊號不是雜訊）
-  state.mates = rng.sample(MATE_NAMES, 4).map((name) => ({ name, ovr: rng.int(par - 7, par + 7) }));
+  state.mates = rng.sample(MATE_NAMES, 4).map((name) => ({ name, rating: rng.int(par - 7, par + 7) }));
   state.coach = rng.pick(COACHES).name;
   state.mateMorale = 0;
   // 換了一批隊友，默契要重新建立：往中性拉回一半，但你是什麼樣的人會跟著你走

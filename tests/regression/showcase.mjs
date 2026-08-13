@@ -8,7 +8,7 @@ export const order = 900;
 
 export async function run({ log }) {
   const { state } = playCareer({ seed: 'showcase', role: 'MID', name: 'Showcase', strategy: 'first' });
-  log(`${state.name}｜${state.proYears} 職業季｜巔峰 OVR ${state.peakOvr}｜評分 ${careerScore(state)}（${TIER_NAMES[careerTier(state)]}）`);
+  log(`${state.name}｜${state.proYears} 職業季｜巔峰評價 ${state.peakRating}｜評分 ${careerScore(state)}（${TIER_NAMES[careerTier(state)]}）`);
   log(`退役：${state.retireReason}`);
   log(`榮譽 ${state.honors.length} 項，最後 3 項：${state.honors.slice(-3).join('、') || '無'}`);
 }

@@ -13,7 +13,7 @@ export async function run({ check }) {
   for (const bo of [3, 5]) {
     const need = Math.ceil(bo / 2);
     for (let i = 0; i < 200; i++) {
-      const res = runSeries(state, rng, { bo, oppOvr: 53, seed: 2 });
+      const res = runSeries(state, rng, { bo, oppRating: 53, seed: 2 });
       check(`BO${bo} 勝方剛好拿到 ${need} 勝`, Math.max(res.mine, res.theirs) === need, `${res.mine}-${res.theirs}`);
       check(`BO${bo} 總局數不超過 ${bo}`, res.mine + res.theirs <= bo, `${res.mine}-${res.theirs}`);
       check(`BO${bo} 比分與勝負一致`, res.win === (res.mine > res.theirs));
