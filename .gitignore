@@ -8,3 +8,11 @@ reasonix.toml
 
 # 本專案零建置，理論上不會有 node_modules；留著以防日後加測試相依
 node_modules/
+
+# archify 工作檔（僅 commit 分享卡 PNG，HTML/JSON 不入庫）
+docs/esportlife-runtime-workflow.html
+docs/esportlife-runtime.workflow.json
+
+# playwright-cli 快照與下載
+.playwright-cli/
+docs/.playwright-cli/
