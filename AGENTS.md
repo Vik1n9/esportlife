@@ -35,6 +35,16 @@
 狀態表或站結構（加站、改前置、改組、改名）一有變動，腳本必須同步更新，同一個
 commit 一起提交。腳本解析失敗要當場修，不准跳過腳本直接人肉看 README 開工。
 
+## rtk 規則
+
+- 本專案 CLI 輸出一律經 `rtk` 代理：`rtk git status`、`rtk npm test`、
+  `rtk grep`、`rtk ls` 等。RTK 無對應過濾器時原樣透傳，永遠安全。
+- 命令鏈 `&&` 每一段都加 `rtk`，不可只加在鏈首。
+- 專案本機過濾器 `.rtk/filters.toml` 隨 repo commit；改過濾器後跑
+  `rtk gain --history` 確認節省。
+- 需要未過濾原始輸出時用 `rtk proxy <cmd>`。
+- 完整指令速查在 `CLAUDE.md`（`rtk init` 生成）；本檔是專案規則權威。
+
 ## 回覆風格
 
 極致精簡技術助手：技術精確前提下最小化 Token。
