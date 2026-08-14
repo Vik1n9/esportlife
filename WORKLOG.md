@@ -1,5 +1,37 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-14 — 重建計劃對齊 v4.3.1：README 補 S15b、31 站，並建立「動工」機制
+
+- **方向**：規格書 v4.3／v4.3.1 已併入主規格（生命週期曲線／訓練事件卡／特質重建／
+  市場淘汰，加編輯器整合／四池／訓練邊界廢除），但 `docs/v4/README.md` 停在 v4.2
+  （30 站、無 S15b），12 份未開工說明書也停在 v4.2。重建計劃要重擬對齊，並把
+  「說動工 → 抓下一站」做進腳本與 skill，避免每次重跑搜尋理解進度。
+- **主索引 `docs/v4/README.md`**：補 v4.3／v4.3.1 增訂告示＋衝擊表；站數 30 → 31
+  （v4.3 新增 S15b 生命週期曲線站，前置 S09 S14、高／Opus 5）；S16 前置改
+  S12 S14 S15b、S21 前置加 S15b；「已定案設計」補退役硬上限→市場淘汰；關鍵路徑圖
+  插 S15b；額度 12 → 13 站高。
+- **新增 `docs/v4/15b-生命週期曲線.md`**：§7.2 ceiling_curve／衰退跟隨／種子隨機化
+  （30 抽）／特質調整窗口／`state.lifecycle`／市場淘汰，並含「作廢物清理」清單。
+- **整站重寫兩份**：`16-設施制訓練.md`（訓練事件卡兩階段判定、§5.5 廢除、`activeEffects`、
+  受傷移到大失敗）與 `18a-內容編輯器.md`（§14.8 單一編輯器、§14.7 七功能＋圖譜、七類
+  schema）。
+- **11 份說明書補 v4.3/v4.3.1 告示＋範圍修正**：17（三類事件卡、步驟 4/5 分流）、
+  17a（lifecycle 三欄共存）、17b（廢隱藏心理謂詞禁令）、18（訓練池＋四池、退役三層
+  內容）、19a（特質全面重建＋作廢鍵掃尾）、19b（20 傳說重建＋獨有）、19c（配方重建＋
+  供給重推＋移除 `immortal`）、19d（天生池由編輯器重定義）、20（掛載禁令廢止→三維接
+  內容）、21（前置加 S15b、市場淘汰）、21a（讀 lifecycle/traitGraph）。
+- **動工機制**：`docs/v4/next-station.mjs`（解析狀態表、loud-fail，找下一站＋並行選項
+  各附難度與建議模型）＋ `.opencode/skill/donggong/SKILL.md`（動工觸發的完整流程）；
+  `AGENTS.md` 補動工規則與「README 變動 → 腳本同步」規則。
+- **作廢物核對**：逐檔核對 `src/` 後確認 v4.3 讓一批已完成產出作廢——固定衰退表
+  （`data/attributes.js` DECLINE_*、`engine/attributes.js` applyAgeDecline）、退役硬上限
+  （`retirementAge` 34）、掛載禁令加值（`ratingAdd`／`abilityCapUp`／`epic.ageless`）、
+  骰子效果（`giftedDice`／`growthMult`／`injuryAdder`）、年度受傷擲骰（`rollInjury`）。
+  全部由 S15b／S16／S19a／S19c 承接，**無已完成站需獨立返工**；硬編碼特例
+  `epic.ageless`／`traits.veteran` 列入清理清單。
+- **狀態**：完成。`npm test` 12786 項全綠（程式與測試未動）；`next-station.mjs` exit 0、
+  正確抓出下一站 S15b。skill 屬 config-time，需重啟 opencode 才生效。
+
 ## 2026-08-14 — README 施工進度對齊 v4.3.1，並把 WORKLOG 前三條提煉成 AGENTS.md
 
 - **方向**：README 的「目前施工進度」停在 v4.2 時代（30 站、S16 是下一站），
