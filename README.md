@@ -43,13 +43,29 @@
 
 - 靈感來源：[LeoGGcat / yakyulife](https://github.com/LeoGGcat/yakyulife)
 - 開發者：Vik1n9（esportlife）
-- 授權：MIT（見 `LICENSE`）
+- 授權：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)（見 `LICENSE`）
+
+### 授權說明
+
+本專案以 **Creative Commons 姓名標示—非商業性—相同方式分享 4.0 國際版（CC BY-NC-SA 4.0）** 授權釋出。三個條件分別是：
+
+- **姓名標示（BY）**：使用或改作本專案時，必須註明原作者（Vik1n9／esportlife）與出處，並標示是否修改過。
+- **非商業性（NC）**：禁止以本專案或其衍生作品牟利。不得販售、接廣告、做商業代管或任何以商業優勢或金錢報酬為主要目的的利用。玩家之間免費分享、個人遊玩與學習改作都屬於允許範圍。
+- **相同方式分享（SA）**：若改作或衍生本專案，衍生作品必須以相同授權（或 CC 認可的相容授權）釋出，不得換成更嚴格的條款。
+
+過去曾以 MIT 授權釋出，於 2026 年改為本授權，兩者互不相容（MIT 允許商用），故以 `LICENSE` 內的現行條款為準。本專案本身為非營利粉絲致敬作品，此授權與 Riot Games 政策並無關聯，Riot 相關名詞的使用規範仍見下方「介面與素材」。
 
 ### 介面與素材
 
 - 介面視覺語彙對齊 tftactics.gg：深藍色階、藍色動作、金色狀態、terracotta 階段底線，長文可讀性優先。
 - 字型使用 OFL 授權的 Inter / Noto Sans TC（由 Google Fonts 載入，離線時自動回退系統字型）。
 - 本專案為非營利粉絲致敬作品，依 Riot Games「Legal Jibber Jabber」政策使用相關名詞；未使用任何 Riot 旗下圖片、圖示或商標。Riot Games 並未背書或贊助本專案。詳細規範見 <https://www.riotgames.com/en/legal>。
+
+依 Riot Games 政策規定，附英文聲明（English notice, as required by Riot Games' policies）：
+
+> ESPORTLIFE was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
+>
+> ESPORTLIFE isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 
 ## 本機開發
 
