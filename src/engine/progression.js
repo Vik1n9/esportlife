@@ -3,7 +3,7 @@ import { clamp } from '../core/rng.js';
 import { HEROES_BY_ROLE, PATCH_THEMES } from '../data/heroes.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, FUSIONS, LEGENDARY_TRAITS } from '../data/epics.js';
-import { bonus, capOf, factor, flag, TIER_STORES, traitName } from '../kernel/modifiers.js';
+import { capOf, factor, flag, TIER_STORES, traitName } from '../kernel/modifiers.js';
 import { injuryMul, staminaOf } from './stamina.js';
 
 /* ---------------- 受傷 ---------------- */
@@ -22,7 +22,6 @@ export function injuryProbability(state) {
   p *= injuryMul(staminaOf(state));
   p = capOf(state, 'injuryRate', p);
   if (flag(state, 'injuryImmune')) return 0;
-  p += bonus(state, 'injuryAdder');   // 肝帝這類自爆系：練得多也傷得多
   p += (state.tempInjuryRisk || 0);
   return clamp(p, 3, 95);
 }

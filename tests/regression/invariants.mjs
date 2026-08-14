@@ -45,7 +45,6 @@
  * 這裡會自動生效，不必回頭補。
  */
 import { readFileSync, readdirSync } from 'node:fs';
-import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import {
   RATING_MENTAL_SPAN, attrCap, coachRating, investAttr, positionPower, skills,
@@ -53,6 +52,7 @@ import {
 import { PERFORM_FLOOR, PERFORM_SPAN, PRESSURE, SKILL_MENTAL, mistakeFactor, performCoef, stability } from '../../src/engine/psych.js';
 import { checkFusions, unlockTrait } from '../../src/engine/progression.js';
 import { careerTier } from '../../src/engine/career.js';
+import { TRAINING_ACTIVITIES, TRAIN_YIELD } from '../../src/engine/training.js';
 import { gameChance } from '../../src/kernel/series.js';
 import { opponentStrength, starEffect, teamStrength } from '../../src/kernel/strength.js';
 import { TIER_STORES, traitName } from '../../src/kernel/modifiers.js';
@@ -62,7 +62,7 @@ import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
 import { LEAGUES } from '../../src/data/leagues.js';
 import { FUSIONS } from '../../src/data/epics.js';
 import { OVR_WEIGHTS, ROLES, ROLE_ATTR_WEIGHTS, SKILL_WEIGHTS } from '../../src/data/skills.js';
-import { allocate, growthRoom, playMatrix } from '../lib/harness.mjs';
+import { bestActivity, growthRoom, playMatrix } from '../lib/harness.mjs';
 
 export const name = '平衡不變式（測試網）';
 export const order = 2;   // 排在冒煙測試之後，直接吃它跑好的 160 段樣本
@@ -319,12 +319,27 @@ function bestGameChance(state) {
  *   舊制 1–80：領先 4.67 ÷ 空間 32.41 = 0.144
  *   新制 0–100：領先 2.60 ÷ 空間 18.96 = 0.137　　（四組獨立種子 0.117–0.138）
  */
-const BENCH_CYCLES = 14;
-const BENCH_DICE = 5;
+/**
+ * 設施制（S16）微基準：同一份「訓練成果」，老手選本位置收益最高的活動、新手輪流選，
+ * 比 OVR。S16 之前這裡投的是「同一份骰子」——加點的決策在「投哪個屬性」；設施制把
+ * 那個決策搬到「選哪個訓練活動」（每個活動練不同屬性子集）。所以同一份訓練成果下，
+ * 選對活動＝把成長集中在本位置核心屬性，跟舊制「加點集中」是同一件事，門檻沿用。
+ */
+const BENCH_MONTHS = 70;   // 對齊舊制的 14 週期 × 5 顆骰（70 次訓練成果）
 /** ＝ S07 的 0.0375×上限，換算成不受起始值影響的單位（0.0375 ÷ 0.405） */
 const BENCH_MIN_GAP = 0.0926;
 
+/** 一次訓練活動的屬性成長（固定成功係數＝成功 ×1.0），直接投進 investAttr */
+function applyTraining(state, activityId, successCoef) {
+  const activity = TRAINING_ACTIVITIES.find((a) => a.id === activityId);
+  for (const [attr, w] of Object.entries(activity.weights || {})) {
+    investAttr(state, attr, TRAIN_YIELD * w * successCoef);
+  }
+}
+
 function styleGap({ check, log, runs }) {
+  const trainIds = TRAINING_ACTIVITIES.filter((a) => a.kind === 'train').map((a) => a.id);
+
   const diffs = [];
   const rooms = [];
   for (let i = 0; i < 16; i++) {
@@ -333,11 +348,9 @@ function styleGap({ check, log, runs }) {
       const focus = createState({ name: 'F', role, seed });
       const spread = createState({ name: 'S', role, seed });
       rooms.push(growthRoom(focus));
-      const rng = new Rng(`${seed}:bench`);
-      for (let c = 0; c < BENCH_CYCLES; c++) {
-        const dice = Array.from({ length: BENCH_DICE }, () => rng.int(1, 6));
-        allocate(focus, { mode: 'dice', dice }, 'focus');
-        allocate(spread, { mode: 'dice', dice }, 'spread');
+      for (let m = 0; m < BENCH_MONTHS; m++) {
+        applyTraining(focus, bestActivity(focus, trainIds), 1.0);
+        applyTraining(spread, trainIds[m % trainIds.length], 1.0);
       }
       diffs.push(coachRating(focus) - coachRating(spread));
     }
@@ -346,24 +359,23 @@ function styleGap({ check, log, runs }) {
   const room = mean(rooms);
   const winRate = diffs.filter((d) => d > 0).length / diffs.length;
 
-  check('打法差距：同一份骰子下，老手加點的平均 OVR 領先 ≥ 0.0926×可成長空間',
+  check('打法差距：同一份訓練成果下，老手選活動的平均 OVR 領先 ≥ 0.0926×可成長空間',
     avg / room >= BENCH_MIN_GAP,
     `平均領先 ${avg.toFixed(2)}／可成長空間 ${room.toFixed(2)} = ${(avg / room).toFixed(4)}`);
-  check('打法差距：老手加點在九成以上的天賦上都不落後',
+  check('打法差距：老手選活動在九成以上的天賦上都不落後',
     winRate >= 0.9, `勝出 ${(winRate * 100).toFixed(1)}%（${diffs.filter((d) => d > 0).length}/${diffs.length}）`);
 
   // 生涯層級只留一條方向性的佐證——數值門檻交給上面的微基準，這裡只確認生涯沒有把
-  // 加點的價值整個吃掉。⚠ S15b（生命週期曲線）把生涯層級的巔峰差打到約 0：兩種打法在
+  // 選活動的價值整個吃掉。⚠ S15b（生命週期曲線）把生涯層級的巔峰差打到約 0：兩種打法在
   // 夠長的生涯裡都會頂到同一道 `effective_potential(peak_age)` 天花板，所以「老手峰值
-  // 更高」這個訊號消失了（16 組種子實測 focus−spread ≈ −1.76～+1.15，配對勝出率約四成）。
-  // 加點的價值現在兌現在「更早摸到天花板」（微基準 0.255 對門檻 0.0926 仍強），所以這條
-  // 只守「老手不會顯著劣於新手」——真門檻在微基準。
+  // 更高」這個訊號消失了。選活動的價值現在兌現在「更早摸到天花板」（微基準），不是
+  // 「更高的天花板」。所以這條只守「老手不會顯著劣於新手」——真門檻在微基準。
   const peakOf = (style) => mean(runs.filter((r) => r.style === style).map((r) => r.state.peakRating));
   const careerGap = peakOf('focus') - peakOf('spread');
   check('打法差距：生涯層級老手的平均巔峰不顯著低於新手（曲線讓兩者頂到同一道天花板）',
     careerGap / ATTR_CAP >= -0.02, `老手 ${peakOf('focus').toFixed(2)} vs 新手 ${peakOf('spread').toFixed(2)}（差 ${careerGap.toFixed(2)}）`);
 
-  log(`加點微基準：${diffs.length} 組同骰對照，老手平均領先 ${avg.toFixed(2)} OVR（÷可成長空間 ${room.toFixed(1)} = ${(avg / room).toFixed(3)}）、勝出 ${(winRate * 100).toFixed(1)}%`);
+  log(`選活動微基準：${diffs.length} 組同成果對照，老手平均領先 ${avg.toFixed(2)} OVR（÷可成長空間 ${room.toFixed(1)} = ${(avg / room).toFixed(3)}）、勝出 ${(winRate * 100).toFixed(1)}%`);
 }
 
 /* ---------------- 頂端才兌現 ---------------- */

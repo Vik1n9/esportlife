@@ -42,9 +42,6 @@ export const STAMINA_MAX = 100;
 /** 每月自然恢復。草案 +12 → S13 +17 → S14 +10（月數的分母改了兩次，理由見檔頭） */
 export const MONTHLY_RECOVER = 10;
 
-/** 一次完整訓練的消耗。§6.1 給的是 −25~−30，取中點 */
-export const TRAIN_COST = 27;
-
 /** 「減少訓練」（§6.3 賽事期唯一能選的訓練強度）。約半次訓練 */
 export const LIGHT_TRAIN_COST = 12;
 
@@ -148,10 +145,14 @@ export function injuryMul(s) {
  * 上下界（0.85 ~ 1.06）維持不變——體力差不會讓你少打，LoL 是五個固定先發，
  * 隊伍打幾場你就打幾場。少打是另一回事（板凳或傷勢缺席）。
  *
+ * ⚠ **中點 45.5 → 52.5（S16）**：設施制把「全力訓練 −27」換成「六個活動各 −20~−30」，
+ * 保守玩法（focus 選本位置最優活動）的平均比賽體力從 47.1 挪到 50.9，中點照舊的
+ * 判準（平均手感 ≈ 0.994）回推到 52.5——又是「分布搬了家」，不是把手感調好調壞。
+ *
  * @returns {number} 約 0.85（透支）～ 1.06（狀態飽滿）
  */
 export function formFactor(s) {
-  return clamp(1 + (s - 45.5) * 0.0035, 0.85, 1.06);
+  return clamp(1 + (s - 52.5) * 0.0035, 0.85, 1.06);
 }
 
 /**
@@ -163,9 +164,13 @@ export function formFactor(s) {
  * 保守玩法實測平均體力 45.4，係數取 0.027 → 平均 1.23 點，對齊舊值。
  * S14 的月回合把比賽時的平均體力挪到 47.1，同一個係數量到 1.27 點——與舊值差 2%，
  * 在「換讀數來源不換量級」的容差內，所以係數沒有跟著動（動它才是改平衡）。
+ *
+ * ⚠ **係數 0.027 → 0.024（S16）**：設施制把平均比賽體力挪到 50.9，同一個係數量到
+ * 1.37 點——超出「換讀數來源不換量級」的容差，所以係數跟著體力分布重推
+ * （0.024 × 50.9 ≈ 1.22，對齊舊值 1.24）。
  */
 export function staminaPower(s) {
-  return clamp(s, 0, STAMINA_MAX) * 0.027;
+  return clamp(s, 0, STAMINA_MAX) * 0.024;
 }
 
 /* ================= 原語（與回合粒度無關） ================= */
@@ -257,48 +262,11 @@ export function recoveryOptions({ inEvent = false } = {}) {
 /** 休息能不能選（§6.3）。S15／S16 組選單時查這一條，不要各自寫 if */
 export const canRest = ({ inEvent = false } = {}) => !inEvent;
 
-/* ================= 每月行動（V4 §4 第 2 步） ================= */
-
 /**
- * 一個養成回合能做的事。
+ * 復健預防一次能壓掉多少臨時受傷風險（§5.2）。
  *
- * S13 這裡是一段自動駕駛（`planMonth`：體力低於 45 就休息），因為玩家還沒有每月選擇
- * 的入口。S14 把入口接上來之後，「這個月做什麼」是**玩家的決定**，引擎只負責報價：
- * 每個行動花多少體力、換得到什麼。**經濟一格沒動**，動的是誰在做決定。
- *
- * `grow` 是這個行動的成長級別，`phases/month.js` 據以決定訓練骰——真正的訓練活動
- * 菜單（V4 §5.2 的六個設施）是 S16 的事，這一站只留「全力／減量／不練」三級的骨架。
- *
- * 復健預防（§5.2）不長屬性，換的是恢復與較低的受傷風險——它是唯一會扣 `tempInjuryRisk`
- * 的行動，代價是那個月完全沒有成長。
+ * S16 起訓練活動菜單與結算搬到 `engine/training.js`，這個常數是「復健預防」活動的
+ * 副作用量，由 training.js 讀取。留在這裡是因為 `tempInjuryRisk` 的語意跟體力同源
+ * （都是「身體」這條軸），不想把它拆進訓練檔。
  */
-export const MONTH_ACTIONS = [
-  { id: 'train', label: '全力訓練', cost: TRAIN_COST, grow: 'full', note: '成長最快，體力消耗最重' },
-  { id: 'light', label: '減量訓練', cost: LIGHT_TRAIN_COST, grow: 'light', note: '成長減半，體力只花一半' },
-  { id: 'rest', label: '休息', cost: -REST_RECOVER, grow: null, note: '不成長，體力大幅回復' },
-  { id: 'rehab', label: '復健預防', cost: -REHAB_RECOVER, grow: null, note: '不成長，小幅回復並降低受傷風險' },
-];
-
-/** 復健預防一次能壓掉多少臨時受傷風險（§5.2）。S16 接訓練菜單時這裡是唯一該改的地方 */
 export const REHAB_RISK_RELIEF = 4;
-
-/** 這個月選得到哪些行動。賽事期間不能休息（§6.3）走的是同一個 `canRest` */
-export function monthActions({ inEvent = false } = {}) {
-  return MONTH_ACTIONS.filter((a) => a.id !== 'rest' || canRest({ inEvent }));
-}
-
-/**
- * 結算一個行動的體力與副作用。回傳那個行動的定義，呼叫端據 `grow` 決定成長。
- *
- * 只碰體力與受傷風險——屬性成長不在這裡，那是 `phases/month.js`（S16 之後是訓練
- * 系統）的事。這條界線跟 S13 一樣：這個檔管的是資源，不是成長。
- */
-export function applyMonthAction(state, id) {
-  const act = MONTH_ACTIONS.find((a) => a.id === id) || MONTH_ACTIONS[0];
-  if (act.cost >= 0) consume(state, act.cost);
-  else recover(state, -act.cost);
-  if (act.id === 'rehab') {
-    state.tempInjuryRisk = Math.max(0, (state.tempInjuryRisk || 0) - REHAB_RISK_RELIEF);
-  }
-  return act;
-}

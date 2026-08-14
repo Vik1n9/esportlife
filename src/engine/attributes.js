@@ -225,7 +225,7 @@ export function investAttr(state, key, points) {
   }
 
   const effPot = effectivePotential(state, key);
-  let budget = points * GROWTH_BASE * factor(state, 'growthMult') * growthRateWindow(state)
+  let budget = points * GROWTH_BASE * growthRateWindow(state)
     + (state.carry[key] || 0);
   let current = before;
 

@@ -15,9 +15,9 @@ import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 import { ceilingCurve, drawLifecycle } from './lifecycle.js';
 
-// v15：生命週期曲線（V4 §7.2）。`state.lifecycle` 是新欄位，而且 §7.3 的起始屬性改讀
-// effective_potential(起始年齡)——出生值、成長天花板、衰退三件事一起換，舊存檔一律作廢
-export const SAVE_VERSION = 15;
+// v16：設施制訓練（V4 §5）。`state.activeEffects` 是新欄位（短期 buff/debuff，剩餘月數，
+// §20.2）。訓練從「骰子加點」換成「訓練活動＋訓練事件卡」，成長結算整段改寫，舊存檔作廢
+export const SAVE_VERSION = 16;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -124,6 +124,10 @@ export function createState({ name, role, seed }) {
     staminaMonth: 0,     // 生涯累計的「體力月」數，休息間隔靠它算
     staminaLog: { months: 0, low: 0 },  // 累計月數與其中落進透支區的月數
     restLog: [],         // 每次休息的 {month, year}——節奏是不是 3–4 個月一休看這個
+
+    // 短期 buff/debuff（V4 §5.4／§20.2）：訓練事件卡大成功等寫入，剩餘月數由
+    // game.js 的月迴圈每月遞減。S16 只有「手感火燙」一個 buff，S18 擴充完整目錄
+    activeEffects: [],
 
     /*
      * 競技心理六維（V4 §9.1）：50 為基準，出生種子微調 ±10。

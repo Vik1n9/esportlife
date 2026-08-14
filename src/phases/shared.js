@@ -13,76 +13,9 @@ import { EPIC_TRAITS } from '../data/epics.js';
 import { adjustAttr, skillValue } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
 import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progression.js';
-import { bonus, flag, lookupTrait, traitName, traitTier } from '../kernel/modifiers.js';
+import { flag, lookupTrait, traitName, traitTier } from '../kernel/modifiers.js';
 
 export const card = (tone, title, body) => ({ type: 'card', tone, title, body });
-
-/* ================= 訓練骰（S16 會換掉） ================= */
-
-/**
- * 年度效果折算成月機率的分母：一段生涯平均每年約有這麼多個訓練月。
- *
- * 「+1 顆骰」這類特質效果原本是**一年一次**。月回合下同一行程式碼會被乘上訓練月數，
- * 肝帝那類特質的成長會直接翻倍——不是它變強了，是計價單位換了而沒有跟著換。所以
- * 這裡把年度效果折成每月機率，年度期望值維持原樣。實測值見 `docs/v4/14-月回合制.md`。
- */
-const TRAIN_MONTHS_PER_YEAR = 5.5;
-
-/** 舊值：`diceBonus` 一年 +1 顆（必定）、`自律` 一年 30% 多一顆 */
-const EXTRA_DIE_CHANCE = Math.round(100 / TRAIN_MONTHS_PER_YEAR);
-const DISC_DIE_CHANCE = Math.round(30 / TRAIN_MONTHS_PER_YEAR);
-
-/**
- * 一個訓練月的產出。
- *
- * TODO(S16)：這是暫時的成長介面。V4 §5 的設施制訓練要換掉整個 mode='dice' 的協定
- * （六個設施、成功率吃體力、失敗有代價），骰子連同這個函式一起退場。這一站只把
- * 「一年擲一次」改成「一個訓練月擲一次」，讓月回合有東西可以結算。
- *
- * 骰數的年度期望值刻意對齊舊制（一年約 5 顆）：這一站換的是**節奏**，不是成長速度。
- *
- * @param {'full'|'light'} grade 全力訓練 1d6／減量訓練 1d3
- * @param {number} [count] 顆數，預設一顆（復健年由 `game.js` 一次給兩顆）
- */
-export function* trainingBeats(g, grade = 'full', count = 1) {
-  const { state, rng } = g;
-  const gifted = flag(state, 'giftedDice');
-
-  let n = count;
-  const extra = bonus(state, 'diceBonus');
-  if (extra > 0 && rng.chance(Math.min(95, EXTRA_DIE_CHANCE * extra))) n += 1;
-  // `自律` 是機率性的，只有帶著它才會消耗這次亂數——所以不能收進 diceBonus
-  if (state.traits.disc && rng.chance(DISC_DIE_CHANCE)) n += 1;
-
-  const roll = () => (grade === 'light' ? rng.int(1, 3) : gifted ? rng.int(4, 6) : rng.int(1, 6));
-  const dice = Array.from({ length: n }, roll);
-
-  /*
-   * 「22 歲前五度擲出高標值」是天才操作的解鎖條件。月回合下擲骰次數變多、每次顆數
-   * 變少，年度期望值沒變，所以門檻不動；卡片只在真的擲出 6 時才出——每個訓練月都
-   * 印一次「累計 x/5」會把敘事流洗掉。
-   */
-  if (!gifted && state.age < 22) {
-    const sixes = dice.filter((v) => v === 6).length;
-    if (sixes) {
-      state.sixCount += sixes;
-      yield card('', '訓練日誌',
-        `這個月練出了手感。高標值「6」累計 <b class="hl">${Math.min(5, state.sixCount)}/5</b> 次。`);
-      if (state.sixCount >= 5 && unlockTrait(state, 'genius')) {
-        yield card('gold', '隱藏素質覺醒：天才操作',
-          '22 歲前五度擲出高標值！從今以後訓練骰<b class="hl">固定 4 點以上</b>。');
-        yield* fusionBeats(g);
-      }
-    }
-  }
-
-  yield {
-    type: 'alloc',
-    mode: 'dice',
-    dice,
-    title: `${grade === 'light' ? '減量訓練' : '訓練'}成果（${dice.length} 顆骰）`,
-  };
-}
 
 /** 縮放事件結果的數值：倍率再小也不會把有效果的一項縮成 0 */
 function scaleAmount(v, mult) {
@@ -152,7 +85,6 @@ export function* drawEvent(g) {
   const ev = rng.pick(availableEvents(state));
   const recent = state.recentEvents || [];
   state.recentEvents = [...recent, ev.id].slice(-6);
-  const oddsBonus = flag(state, 'giftedDice') ? 20 : 0;
 
   yield card('', ev.name, ev.prompt);
 
@@ -160,13 +92,13 @@ export function* drawEvent(g) {
     type: 'choice',
     title: `${ev.name}：你怎麼應對？`,
     options: ev.options.map((o) => ({
-      id: o.id, label: o.label, main: !!o.main, note: optionNote(o, oddsBonus),
+      id: o.id, label: o.label, main: !!o.main, note: optionNote(o, 0),
     })),
   };
   const opt = ev.options.find((o) => o.id === pickedId) || ev.options[0];
 
   const immune = flag(state, 'indulgentImmune') && ev.kind === 'indulgent';
-  const good = immune || rng.chance(clamp((opt.odds ?? 50) + oddsBonus, 5, 95));
+  const good = immune || rng.chance(clamp(opt.odds ?? 50, 5, 95));
   // 選項若帶自己的 `on` 結果，就用自己的 good/bad——例如「關台／休息／不看」這類
   // 跟卡片主軸相反的路，套卡片的通用結果會顯得牛頭不對馬嘴。
   const outcome = opt.on ? (good ? opt.on.good : opt.on.bad) : (good ? ev.good : ev.bad);

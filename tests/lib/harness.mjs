@@ -8,7 +8,9 @@ import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { careerFlow } from '../../src/engine/game.js';
 import { investAttr, attrCap, attrKeys, decayCoef, coachRating } from '../../src/engine/attributes.js';
+import { effectivePotential } from '../../src/engine/lifecycle.js';
 import { staminaOf } from '../../src/engine/stamina.js';
+import { TRAINING_ACTIVITIES } from '../../src/engine/training.js';
 import { ROLE_ATTR_WEIGHTS } from '../../src/data/skills.js';
 import { ATTRS, POTENTIAL_BANDS } from '../../src/data/attributes.js';
 
@@ -37,11 +39,61 @@ export const MAX_BEATS = 40000;
  */
 export const REST_AT = 45;
 
-export function monthAction(state, beat) {
+/** 訓練活動裡「漲東西」的那些（休息／復健是恢復，不算訓練策略的選項） */
+const TRAIN_IDS = TRAINING_ACTIVITIES
+  .filter((a) => a.kind === 'train' || a.kind === 'heroes')
+  .map((a) => a.id);
+
+/**
+ * 月回合的活動策略（保守玩法）。
+ *
+ * S13 時這段判斷住在引擎裡（`planMonth` 自動駕駛）。S14 之後「這個月做什麼」是玩家
+ * 的決定，測試的「玩家」搬到這裡：體力掉到 45 以下就休息（45 ＝ 透支線 30 再加半次
+ * 訓練的緩衝），否則練。
+ *
+ * S16 設施制把「練」拆成六個訓練活動，這裡補上**選哪一個**的兩種打法：
+ *   - `focus`（老手）：選本位置權重收益最高的活動——位置身分要兌現的地方。
+ *   - `spread`（新手）：輪流選不同活動，平均練所有屬性。
+ * ⚠ 這條策略就是「體力節奏」與「打法差距」不變式量到的那個玩家，改它等於改受測對象。
+ */
+export function monthAction(state, beat, style = 'focus', cursor = { i: 0 }) {
   const ids = beat.options.map((o) => o.id);
-  const pick = (...want) => want.find((id) => ids.includes(id)) || ids[0];
-  if (staminaOf(state) >= REST_AT) return pick('train');
-  return pick('rest', 'light');
+  if (staminaOf(state) < REST_AT) return ids.includes('rest') ? 'rest' : ids[0];
+
+  const train = TRAIN_IDS.filter((id) => ids.includes(id));
+  if (!train.length) return ids[0];
+
+  if (style === 'spread') {
+    const pick = train[cursor.i % train.length];
+    cursor.i += 1;
+    return pick;
+  }
+
+  return bestActivity(state, train);
+}
+
+/**
+ * 老手打法：選「當前收益最高」的訓練活動。
+ *
+ * 不是固定選點積最高那一項——那會把核心屬性一路練到 100 之後還繼續練，浪費在衰減
+ * 係數最低的尾段上（舊 allocate 的 focus 也是同樣的動態判準：餵權重高、且還沒貼到
+ * 天花板的屬性）。所以收益 ＝ Σ(活動權重 × 位置權重 × 該屬性現在的衰減係數)，核心
+ * 屬性練滿之後衰減掉到地板，收益自然讓給還沒練的屬性，位置身分才不會變成「兩項 100、
+ * 其餘全廢」。
+ */
+export function bestActivity(state, ids) {
+  const rw = ROLE_ATTR_WEIGHTS[state.role] || {};
+  let best = null;
+  for (const id of ids) {
+    const a = TRAINING_ACTIVITIES.find((x) => x.id === id);
+    let value = 0;
+    for (const [attr, w] of Object.entries(a.weights || {})) {
+      const eff = decayCoef(state.attr[attr], effectivePotential(state, attr));
+      value += w * (rw[attr] || 0) * eff;
+    }
+    if (!best || value > best.value) best = { id, value };
+  }
+  return best ? best.id : ids[0];
 }
 
 /**
@@ -90,8 +142,8 @@ export function birthGrowthRoom({ seed, role }) {
  * 月回合的行動選單不吃這三種策略——它有正確答案（見 `monthAction`）。「一律選最後
  * 一個」在那張選單上等於「每個月都復健」，量到的就不是這組數值的節奏了。
  */
-export function decide(beat, strategy, rng, state) {
-  if (beat.kind === 'month' && state) return monthAction(state, beat);
+export function decide(beat, strategy, rng, state, style = 'focus', cursor) {
+  if (beat.kind === 'month' && state) return monthAction(state, beat, style, cursor);
   if (beat.kind === 'tactics' && state) return tacticsAction(state, beat);
   const options = beat.options;
   if (strategy === 'first') return options[0].id;
@@ -104,19 +156,21 @@ export function decide(beat, strategy, rng, state) {
 }
 
 /**
- * 加點策略。投的是六大屬性——技能是導出值，沒有加點這回事。
+ * 能力點分配策略（國際賽／事件卡發下的 `pendingPoints`）。投的是六大屬性——
+ * 技能是導出值，沒有加點這回事。
  * - `spread` 輪流平均投入（新手打法，故意打得很差）。
  * - `focus`  優先餵權重高、且還沒碰到潛力天花板的屬性（老手打法）。
  *
- * ⚠ `cursor` 是 `spread` 的輪替位置，**必須跨 beat 活著**。S14 之前一年只發一次骰
- * （4~7 顆），輪替在單次呼叫裡就跑完一圈；月回合之後一次只發一顆，游標若每次從 0
- * 開始，「平均分配」會退化成「永遠投第一個屬性」——新手打法會被弄成一個比新手更
- * 極端的打法，而 `smoke.mjs` 的等第分布與傳奇率全部靠這兩種打法的對照。
+ * ⚠ S16 設施制之後訓練不再擲骰加點，這個函式只剩「能力點」一種來源；訓練活動的
+ * 屬性成長由權重自動決定，`focus`／`spread` 的主戰場改到 `monthAction`（選活動）。
+ *
+ * ⚠ `cursor` 是 `spread` 的輪替位置，**必須跨 beat 活著**——游標若每次從 0 開始，
+ * 「平均分配」會退化成「永遠投第一個屬性」。
  */
 export function allocate(state, beat, style = 'focus', cursor = { i: 0 }) {
   const keys = attrKeys(state);
   const cap = attrCap(state);
-  const units = beat.mode === 'dice' ? beat.dice : Array.from({ length: beat.points }, () => 1);
+  const units = Array.from({ length: beat.points || 0 }, () => 1);
   // 位置 → 屬性的合成權重，等同於「這一點投下去，OVR 會漲多少」
   const weights = ROLE_ATTR_WEIGHTS[state.role];
 
@@ -177,7 +231,7 @@ export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strateg
     if (++beats > MAX_BEATS) throw new Error(`beat 數超過 ${MAX_BEATS}，疑似無限迴圈（seed=${seed} life=${lifeSeed} role=${role}）`);
     beatTypes[value.type] = (beatTypes[value.type] || 0) + 1;
 
-    if (value.type === 'choice') input = decide(value, strategy, decisionRng, state);
+    if (value.type === 'choice') input = decide(value, strategy, decisionRng, state, style, cursor);
     else if (value.type === 'alloc') allocate(state, value, style, cursor);
   }
   return { state, beats, beatTypes, rng };

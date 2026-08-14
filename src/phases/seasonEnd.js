@@ -10,7 +10,7 @@ import { coachRating, effectiveCoachRating, patchPenalty, roleSkills, skillValue
 import { SKILL_NAMES } from '../data/skills.js';
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { formatStatLine, mergeSplits } from '../engine/season.js';
-import { applyPatch, rollInjury, trainHeroes, unlockTrait } from '../engine/progression.js';
+import { applyPatch, trainHeroes, unlockTrait } from '../engine/progression.js';
 import { worldsSeed } from '../kernel/series.js';
 import { card, fusionBeats } from './shared.js';
 
@@ -66,17 +66,9 @@ export function* run(g, phase) {
     }
   }
 
-  const injury = rollInjury(state, rng);
-  if (injury.kind === 'severe') {
-    yield card('bad', '手術 · 整季報銷',
-      '手腕的狀況已經不是休息能解決的了。醫生建議動刀，下個賽季確定報銷。');
-  } else if (injury.kind === 'major') {
-    yield card('bad', '傷勢',
-      `背部與手腕的舊傷復發，預計<b class="dn">缺席約 ${injury.weeks} 週</b>。替補會先頂上。`);
-  } else if (injury.kind === 'minor') {
-    yield card('bad', '傷勢',
-      `手腕不適，預計<b class="dn">缺席約 ${injury.weeks} 週</b>。`);
-  }
+  // ⚠ 年度受傷擲骰已移除（§6.2 v4.3）：受傷改由訓練事件卡的大失敗效果承擔
+  // （`engine/training.js` 的 resolveTraining）。大失敗出現機率隨體力區間上升，
+  // 所以「硬撐一整年」的風險現在兌現在每個透支的訓練月，而不是一年一擲。
 
   if (!state.romance && state.age >= 18) state.singleYears += 1;
   if (state.singleYears >= 4 && !state.romance && unlockTrait(state, 'single')) {

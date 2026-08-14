@@ -36,8 +36,9 @@ import { applyLifecycleDecline } from './lifecycle.js';
 import { RetireSignal } from './retire.js';
 import { currentLeagueKey, stageLabel } from './roster.js';
 import { monthlyDrift } from './stamina.js';
+import { tickActiveEffects } from './training.js';
 import { PHASES } from '../phases/index.js';
-import { card, trainingBeats } from '../phases/shared.js';
+import { card } from '../phases/shared.js';
 
 // 舊入口：UI 與測試都從這裡拿階段顯示名
 export { stageLabel };
@@ -116,6 +117,7 @@ function* runYear(g) {
       if (mod) yield* mod.run(g, phase);
     }
     monthlyDrift(state);
+    tickActiveEffects(state);
   }
 
   driftMental(state);
@@ -169,15 +171,13 @@ function* yearOpen(g) {
     state.rehabYears -= 1;
     state.skipSeason = true;
     state.seasonFactor = 0;
-    yield card('bad', '復健年', '手腕／背傷尚未痊癒，本季確定<b class="dn">報銷</b>。（整年只練得起 2 顆骰）');
+    yield card('bad', '復健年', '手腕／背傷尚未痊癒，本季確定<b class="dn">報銷</b>。（整年只能復健，沒有訓練成長）');
     state.seasonLog.push({ year: state.year, age: state.age, team: state.team || stageLabel(state), line: '復健年 · 整季報銷', injured: true });
     /*
      * 復健年沒有養成回合——那一年的每個月都在復健（`phases/month.js` 的第一段），
-     * 沒有可選的行動，所以整年的訓練成果在這裡一次給完。份量沿用舊版的 2 顆骰：
-     * 復健年的代價本來就是「這一年幾乎沒有成長」，月回合不該把它變成一年八次的
-     * 輕鬆訓練月。
+     * 沒有可選的行動。舊制在這裡補 2 顆骰當「幾乎沒成長」的代價；設施制下復健活動
+     * 本身就不漲屬性（只恢復體力＋降受傷風險），所以整年零成長、零決策，代價自然成立。
      */
-    yield* trainingBeats(g, 'full', 2);
   }
 }
 

@@ -1,4 +1,4 @@
-/** 底部行動列：選項按鈕與訓練點分配介面。 */
+/** 底部行動列：選項按鈕與屬性點分配介面。 */
 import { ATTR_ABBR, ATTR_CAP, ATTR_NAMES, POTENTIAL_BANDS } from '../data/attributes.js';
 import { attrCap, attrKeys, growthThreshold, investAttr, needForNextGain } from '../engine/attributes.js';
 import { byId, clear, el, scrollToBottom } from './dom.js';
@@ -15,6 +15,10 @@ export function clearActions() { clear(actRoot()); }
 
 /**
  * 顯示一組選項，回傳玩家選中的 id。
+ *
+ * 設施制訓練（S16）之後，養成回合的「活動選單」也走這裡——每個選項的 `note` 已由
+ * `engine/training.js` 的 `trainingMenu` 組好（活動名、影響屬性、體力消耗、吃當下體力
+ * 算出的預期成功率），這裡只負責畫按鈕。
  * @returns {Promise<string>}
  */
 export function askChoice({ title, options }) {
@@ -39,15 +43,14 @@ export function askChoice({ title, options }) {
 }
 
 /**
- * 訓練點分配。
+ * 屬性點分配（國際賽／事件卡發下來的 `pendingPoints`）。
  *
- * 兩種模式：骰子（每顆骰依序投入）與屬性點（每次 1 點）。
+ * 設施制訓練（S16）之後，訓練不再擲骰加點——訓練活動的屬性成長由權重自動決定，
+ * 骰子介面整段退場。這裡只剩「能力點」一種模式：每次 1 點，投六大屬性。
  * 投的是六大屬性——技能是導出值，玩家碰不到，所以這排永遠只有六列。
- * 修好舊版兩個問題：每次點擊後整排重繪會把「+N」提示洗掉，
- * 以及沒有任何地方告訴玩家「下一點要花幾點」。
  *
  * @param {object} state
- * @param {{mode:'dice'|'points', dice?:number[], points?:number, title:string}} spec
+ * @param {{points:number, title:string}} spec
  * @param {() => void} onChange 每次加點後通知外層更新 board / 面板
  */
 export function askAllocation(state, spec, onChange) {
@@ -56,10 +59,7 @@ export function askAllocation(state, spec, onChange) {
     act.classList.remove('collapsed');
     clear(act);
 
-    const isDice = spec.mode === 'dice';
-    const dice = spec.dice || [];
     let pool = spec.points || 0;
-    const used = new Set();
     const history = [];
 
     act.appendChild(el('div', { class: 'act-title', text: spec.title }));
@@ -68,14 +68,8 @@ export function askAllocation(state, spec, onChange) {
     const bottom = el('div', { class: 'alloc-bottom' });
     act.append(top, rows, bottom);
 
-    const remaining = () => (isDice ? dice.length - used.size : pool);
     const cap = attrCap(state);
     const keys = attrKeys(state);
-
-    const nextDie = () => {
-      for (let i = 0; i < dice.length; i += 1) if (!used.has(i)) return i;
-      return dice.length;
-    };
 
     function lastIdxFor(key) {
       for (let i = history.length - 1; i >= 0; i -= 1) if (history[i].key === key) return i;
@@ -86,17 +80,15 @@ export function askAllocation(state, spec, onChange) {
       const [entry] = history.splice(idx, 1);
       state.attr[entry.key] -= entry.gain;
       state.carry[entry.key] = entry.carryBefore;
-      if (isDice) used.delete(entry.dieIndex); else pool += 1;
+      pool += 1;
       renderTop(); renderRows(); renderBottom(); onChange();
     }
 
     function addPoint(key) {
-      const dieIndex = isDice ? nextDie() : -1;
-      const amount = isDice ? dice[dieIndex] : 1;
       const carryBefore = state.carry[key] || 0;
-      const gain = investAttr(state, key, amount);
-      history.push({ key, gain, carryBefore, dieIndex });
-      if (isDice) used.add(dieIndex); else pool -= 1;
+      const gain = investAttr(state, key, 1);
+      history.push({ key, gain, carryBefore });
+      pool -= 1;
       renderTop();
       renderRows({ key, gain });
       renderBottom();
@@ -105,16 +97,7 @@ export function askAllocation(state, spec, onChange) {
 
     function renderTop() {
       clear(top);
-      if (isDice) {
-        const tray = el('div', { class: 'dice' });
-        dice.forEach((v, i) => tray.appendChild(el('div', {
-          class: `die${used.has(i) ? ' used' : ''}${i === nextDie() ? ' active' : ''}${v === 6 ? ' six' : ''}`,
-          text: String(v),
-        })));
-        top.appendChild(tray);
-      } else {
-        top.appendChild(el('div', { class: 'pool', html: `剩餘屬性點：<b>${pool}</b>` }));
-      }
+      top.appendChild(el('div', { class: 'pool', html: `剩餘屬性點：<b>${pool}</b>` }));
     }
 
     function renderRows(flash) {
@@ -167,7 +150,7 @@ export function askAllocation(state, spec, onChange) {
           if (idx >= 0) undoEntry(idx);
         });
 
-        const canAdd = !maxed && remaining() > 0;
+        const canAdd = !maxed && pool > 0;
         plus.disabled = !canAdd;
         plus.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -191,10 +174,10 @@ export function askAllocation(state, spec, onChange) {
       bottom.appendChild(undo);
 
       const allCapped = keys.every((k) => state.attr[k] >= cap);
-      if (remaining() === 0 || allCapped) {
+      if (pool === 0 || allCapped) {
         bottom.appendChild(el('button', {
           class: 'btn main',
-          text: remaining() > 0 && allCapped ? '屬性已達上限，捨棄剩餘 ▸' : '確認 ▸',
+          text: pool > 0 && allCapped ? '屬性已達上限，捨棄剩餘 ▸' : '確認 ▸',
           onclick: () => { clear(act); resolve(); },
         }));
       }
