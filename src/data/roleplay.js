@@ -22,17 +22,20 @@
  * - `need`   選填的出現條件（如「默契低於某值才會出現的衝突卡」）。
  * - `options[].mental` 直接套用的心理／聲量變動。
  *
- * ⚠ **TODO(S20)：這 18 張卡的內容還是 v3 的社交軸，S12 只做了機械對映。**
- * V4 §9.4 的對照是 `nerve`→`comp` 抗壓、`chem`→`trust` 信任、`ego`→`conf` 自信、
- * `fame` 原樣（搬到 `state.fame`）、`rep` 風評整條刪除。
+ * ⚠ S20 重新對映後的完整對照（V4 §9.4 定案，S12 先做機械對映、S20 補完）：
  *
- * `ego`→`conf` 是這次唯一一個「不是照 §9.4 字面」的決定，理由寫在 `docs/v4/12` 的
- * 交接筆記：§9.4 說 ego 不留維度，指的是它**放大聲量的角色**改由特質副作用承擔，
- * 而 ego 的另一半（把自己看得多大）跟 `conf` 是同一件事。全丟掉的話，`conf` 在整份
- * 內容裡一次都不會動——那條「過自信→貪」的雙向設計（§9.3）就永遠驗不到。
- *
- * 對映之後 `disc`／`drive`／`resl` 三維沒有任何一張卡碰得到，只有出生的 ±10 天賦差。
- * 那是 S19a／S20 要補的內容缺口，不是這一站的。
+ * - `nerve`→`comp` 抗壓：同一件事，換成競技語彙。
+ * - `chem`→`trust` 信任：默契是「你相不相信隊友會跟上」的結果，不是獨立的一維。
+ * - `ego`→**不留維度**：放大聲量的角色由特質副作用承擔（嘴砲王／獨狼／圈內毒瘤，
+ *   見 `data/traits.js`）。ego 的另一半（把自己看得多大）由 `conf` 表達——全丟掉的話
+ *   `conf` 在整份內容裡一次都不會動，那條「過自信→貪」的雙向設計（§9.3）就永遠
+ *   驗不到。所以爭議發言類的選項是 `conf↑／trust↓／fame↑`，不是照舊抄一個 ego。
+ * - `rep`→**不留維度**：切割判定改讀教練評價＋特質副作用。舊「風評低」的場景由
+ *   `trust` 低或嘴砲王特質表達（見 `media_backlash` 的 `need`）。
+ * - `fame` 原樣：聲量獨立層（`state.fame`），引擎把它當放大器用。
+ * - `disc`／`drive`／`resl` 三維 v3 沒有對應，S20 補上行為對映：紀律＝照流程／放縱、
+ *   動機＝投入／倦怠、韌性＝輸後反彈／消極。S19a 已把這三維接到特質副作用層
+ *   （`mental_disc`／`mental_drive`／`mental_resl`），扮演卡是行為那一側，兩邊不重複。
  * - `options[].tone`   `bold` 張揚／`plain` 中庸／`humble` 收斂。引擎用來決定
  *            外界反應的方向與是否推進性格特質計數。
  */
@@ -59,9 +62,9 @@ export const ROLEPLAY_CARDS = [
       { id: 'fire', label: '把那串留言截圖貼進隊內群組', tone: 'bold',
         mental: { comp: 6, conf: 4, trust: 3, fame: 2 } },
       { id: 'calm', label: '關掉手機，照平常流程熱身', tone: 'plain',
-        mental: { comp: 4, trust: 1 } },
+        mental: { comp: 4, trust: 1, disc: 3 } },
       { id: 'shrink', label: '一句話都不說，戴上耳機', tone: 'humble',
-        mental: { comp: -2, trust: -2, conf: -2 } },
+        mental: { comp: -2, trust: -2, conf: -2, resl: -2 } },
     ],
   },
   {
@@ -87,7 +90,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'english', label: '直接用破英文回，講完自己笑出來', tone: 'bold',
         mental: { fame: 8, conf: 3, comp: 3 } },
       { id: 'wait', label: '等翻譯到位，一句一句講清楚', tone: 'plain',
-        mental: { fame: 2, trust: 2 } },
+        mental: { fame: 2, trust: 2, disc: 2 } },
       { id: 'short', label: '只回「我們會繼續努力」，轉身就走', tone: 'humble',
         mental: { fame: -2, conf: -2 } },
     ],
@@ -115,7 +118,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'team', label: '「我們五個一起扛。」', tone: 'plain',
         mental: { fame: 4, trust: 5, comp: 3 } },
       { id: 'burden', label: '「壓力很大，希望不要讓大家失望。」', tone: 'humble',
-        mental: { comp: -4, trust: 1 } },
+        mental: { comp: -4, trust: 1, resl: -3 } },
     ],
   },
   {
@@ -126,9 +129,9 @@ export const ROLEPLAY_CARDS = [
       { id: 'welcome', label: '「反正遲早要碰，早點打完早收工。」', tone: 'bold',
         mental: { conf: 4, fame: 5, comp: 5, trust: 2 } },
       { id: 'prepare', label: '「那就一場一場拆。」當晚多開一場訓練賽', tone: 'plain',
-        mental: { comp: 4, trust: 4 } },
+        mental: { comp: 4, trust: 4, drive: 3 } },
       { id: 'sigh', label: '在群組裡貼了一個嘆氣的貼圖', tone: 'humble',
-        mental: { comp: -3, trust: -2, fame: -1 } },
+        mental: { comp: -3, trust: -2, fame: -1, resl: -2 } },
     ],
   },
   {
@@ -140,7 +143,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'declare', label: '「我早就說過我們不是來陪跑的。」', tone: 'bold',
         mental: { conf: 7, fame: 12, comp: 6 } },
       { id: 'credit', label: '「準備了很久，教練組值得這個結果。」', tone: 'plain',
-        mental: { fame: 6, trust: 6 } },
+        mental: { fame: 6, trust: 8 } },
       { id: 'humble', label: '「今天他們狀況可能不好。」', tone: 'humble',
         mental: { fame: 2, conf: -4, comp: -1 } },
     ],
@@ -154,9 +157,9 @@ export const ROLEPLAY_CARDS = [
       { id: 'blame', label: '直接點名是哪個位置的問題', tone: 'bold',
         mental: { conf: 6, fame: 4, trust: -10 } },
       { id: 'share', label: '「決策是全隊一起做的，責任一起扛。」', tone: 'plain',
-        mental: { trust: 6, fame: 1 } },
+        mental: { trust: 8, fame: 1 } },
       { id: 'self', label: '「是我打得不夠好。」', tone: 'humble',
-        mental: { trust: 5, comp: -2, conf: -3 } },
+        mental: { trust: 5, comp: -2, conf: -3, resl: 2 } },
     ],
   },
   {
@@ -173,13 +176,16 @@ export const ROLEPLAY_CARDS = [
   },
   {
     id: 'media_backlash', name: '輿論反撲', when: 'media', weight: 3,
-    need: (s) => s.traits.trashtalk || s.mental.trust <= 35,   // TODO(S20)：舊條件是風評 ≤ −20
+    need: (s) => s.traits.trashtalk || s.mental.trust <= 35,
+    // 舊條件是風評 ≤ −20。§9.4 拿掉 `rep` 後，輿論反撲的土壤只剩兩種：嘴砲王特質
+    // （自帶爭議體質）或隊內信任破裂（trust ≤ 35）——兩者都是「有跡可循的爭議」，
+    // 不需要一條風評軸
     prompt: '風向已經整個轉了。贊助商私下問經理，要不要讓你少露面一陣子。',
     options: [
       { id: 'fight', label: '開直播正面回擊那些人', tone: 'bold',
         mental: { fame: 9, conf: 7, trust: -4 } },
       { id: 'silence', label: '停掉所有社群，只打比賽', tone: 'plain',
-        mental: { fame: -4, comp: 2 } },
+        mental: { fame: -4, comp: 2, disc: 4 } },
       { id: 'mend', label: '照經理的安排跑一輪公關行程', tone: 'humble',
         mental: { conf: -5, fame: -1, trust: 2 } },
     ],
@@ -192,9 +198,9 @@ export const ROLEPLAY_CARDS = [
       { id: 'accept', label: '照登，這本來就是事實', tone: 'bold',
         mental: { fame: 10, conf: 7, trust: -8 } },
       { id: 'rename', label: '要求把標題改成全隊合照', tone: 'plain',
-        mental: { fame: 5, trust: 7 } },
+        mental: { fame: 5, trust: 9 } },
       { id: 'decline', label: '推掉，時間留給訓練', tone: 'humble',
-        mental: { fame: -3, trust: 2, comp: 1 } },
+        mental: { fame: -3, trust: 2, comp: 1, drive: 3 } },
     ],
   },
 
@@ -206,7 +212,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'shout', label: '拍桌把節奏喊起來', tone: 'bold',
         mental: { comp: 5, conf: 4, trust: 2, fame: 1 } },
       { id: 'talk', label: '把下一局的分工一條一條講清楚', tone: 'plain',
-        mental: { comp: 3, trust: 6 } },
+        mental: { comp: 3, trust: 8 } },
       { id: 'wait', label: '什麼都不說，讓大家自己緩過來', tone: 'humble',
         mental: { trust: -2, comp: -1, conf: -2 } },
     ],
@@ -219,9 +225,9 @@ export const ROLEPLAY_CARDS = [
       { id: 'confront', label: '當場把話講死，要嘛改要嘛拆隊', tone: 'bold',
         mental: { conf: 6, trust: -9, comp: 3 } },
       { id: 'sit', label: '賽後把人約出來單獨談', tone: 'plain',
-        mental: { trust: 10 } },
+        mental: { trust: 12 } },
       { id: 'endure', label: '忍下來，先把賽季打完', tone: 'humble',
-        mental: { trust: -1, comp: -3, conf: -3 } },
+        mental: { trust: -1, comp: -3, conf: -3, resl: 3 } },
     ],
   },
   {
@@ -231,7 +237,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'crush', label: '訓練賽狠狠碾他一輪，讓他知道差距', tone: 'bold',
         mental: { conf: 5, comp: 2, trust: -5 } },
       { id: 'teach', label: '把自己的筆記整份給他', tone: 'plain',
-        mental: { trust: 8, conf: -2 } },
+        mental: { trust: 10, conf: -2 } },
       { id: 'ignore', label: '當作沒這個人', tone: 'humble',
         mental: { trust: -3, conf: 1 } },
     ],
@@ -244,7 +250,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'declare', label: '「這只是開始，世界賽見。」', tone: 'bold',
         mental: { fame: 8, conf: 5, comp: 4 } },
       { id: 'thank', label: '把每個隊友的名字唸一遍', tone: 'plain',
-        mental: { trust: 9, fame: 3 } },
+        mental: { trust: 11, fame: 3 } },
       { id: 'short', label: '「謝謝大家。」然後把麥克風傳走', tone: 'humble',
         mental: { trust: 2, conf: -2 } },
     ],
@@ -258,7 +264,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'refuse', label: '「你要換我，先把理由講清楚。」', tone: 'bold',
         mental: { conf: 7, comp: 3, trust: -6 } },
       { id: 'ask', label: '問清楚是哪裡不夠，然後照做', tone: 'plain',
-        mental: { trust: 5, comp: 3 } },
+        mental: { trust: 5, comp: 3, disc: 2 } },
       { id: 'accept', label: '點頭，什麼都不問', tone: 'humble',
         mental: { trust: 2, comp: -4, conf: -5 } },
     ],
@@ -282,7 +288,7 @@ export const ROLEPLAY_CARDS = [
       { id: 'claim', label: '「我。這還用問嗎。」', tone: 'bold',
         mental: { conf: 8, comp: 6, fame: 3, trust: -3 } },
       { id: 'team', label: '「看是哪一輪，誰手感好誰扛。」', tone: 'plain',
-        mental: { trust: 7, comp: 2 } },
+        mental: { trust: 9, comp: 2 } },
       { id: 'humble', label: '「我還不夠格講這句話。」', tone: 'humble',
         mental: { comp: -3, trust: 3, conf: -4 } },
     ],
@@ -306,11 +312,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '同一個隊友這週第三次晚到團練。教練還沒進來，大家都在等你說話。',
     options: [
       { id: 'callout', label: '當著全隊的面唸他', tone: 'bold',
-        mental: { conf: 4, trust: -5, comp: 2 } },
+        mental: { conf: 4, trust: -5, comp: 2, disc: 2 } },
       { id: 'private', label: '練完再私下提醒', tone: 'plain',
-        mental: { trust: 6 } },
+        mental: { trust: 6, disc: 4 } },
       { id: 'cover', label: '幫他跟教練圓過去', tone: 'humble',
-        mental: { trust: 4, conf: -3 } },
+        mental: { trust: 4, conf: -3, disc: -3 } },
     ],
   },
   {
@@ -318,11 +324,11 @@ export const ROLEPLAY_CARDS = [
     prompt: '凌晨的訓練室只剩兩個人。隊友忽然開口：「你覺得我們今年真的有機會嗎？」',
     options: [
       { id: 'promise', label: '「有。我會把你們帶上去。」', tone: 'bold',
-        mental: { comp: 5, conf: 4, trust: 5 } },
+        mental: { comp: 5, conf: 4, trust: 5, drive: 3 } },
       { id: 'honest', label: '「不知道，但我每天都在準備。」', tone: 'plain',
-        mental: { comp: 3, trust: 4 } },
+        mental: { comp: 3, trust: 4, drive: 4 } },
       { id: 'doubt', label: '「說真的，我也不確定。」', tone: 'humble',
-        mental: { comp: -4, trust: 1, conf: -3 } },
+        mental: { comp: -4, trust: 1, conf: -3, drive: -4, resl: -2 } },
     ],
   },
   {

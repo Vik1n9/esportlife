@@ -145,12 +145,15 @@ export function* drawEvents(g, evs) {
 const PERSONA_RULES = [
   { key: 'trashtalk', tone: 'bold', streak: 5, need: (s) => s.mental.conf >= 74 && (s.fame ?? 0) >= 45 },
   { key: 'bigheart', tone: null, streak: 0, need: (s) => s.mental.comp >= 90 },
-  { key: 'glue', tone: 'plain', streak: 5, need: (s) => s.mental.trust >= 86 },
+  // 舊條件是默契 ≥86（v3 的 chem）。S20 對映後 trust 由扮演卡決定，但整體會受爭議卡
+  // 與年底回歸壓制（160 段實測上限約 6x）——86 是不可達的門檻。改成 55：隊友願意
+  // 跟你打的信任線，與 bigheart 的單維度極端值同構
+  { key: 'glue', tone: null, streak: 0, need: (s) => s.mental.trust >= 55 },
   { key: 'lonewolf', tone: 'bold', streak: 6, need: (s) => s.mental.trust <= 24 && s.mental.conf >= 72 },
-  // 舊條件是「知名度 ≥72 且風評 ≥55」。V4 §9.4 拿掉 `rep` 之後，「紅而且沒有黑歷史」
-  // 只能由「紅 ＋ 隊內處得好」表達——這也是 §9.4 把 rep 收掉的理由：風評本來就是
-  // 別人怎麼看你跟身邊的人的關係，不需要一條自己的軸
-  { key: 'idol', tone: null, streak: 0, need: (s) => (s.fame ?? 0) >= 72 && s.mental.trust >= 60 },
+  // 舊條件是「知名度 ≥72 且風評 ≥55」。§9.4 拿掉 `rep` 後，「沒有黑歷史」改由
+  // 毒瘤特質的缺席表達：紅的人裡只有不是圈內毒瘤的才算偶像（跟 meme 的互斥一致）。
+  // 嘴砲王不算黑歷史——能紅的嘴砲照樣有粉絲，那是 trashtalk 的價值
+  { key: 'idol', tone: null, streak: 0, need: (s) => (s.fame ?? 0) >= 72 && !s.traits.pariah },
   // 舊條件是風評 ≤ −75。毒瘤跟獨狼要分得開：獨狼是「不跟人玩」（信任低＋自信高），
   // 毒瘤是「很紅，而且所有人都受不了他」——所以它多要一份聲量，也多演兩次才定型
   { key: 'pariah', tone: 'bold', streak: 7, need: (s) => s.mental.trust <= 15 && (s.fame ?? 0) >= 55 },

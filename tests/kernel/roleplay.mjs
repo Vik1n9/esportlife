@@ -10,7 +10,7 @@ import { FAME_KEY } from '../../src/data/reputation.js';
 
 export const name = '扮演卡與心理維度的界線';
 
-export async function run({ check }) {
+export async function run({ check, log }) {
   // 六維 ＋ 聲量。V4 §9.4 把聲量拆成獨立一層，但扮演卡是同時動這兩層的唯一入口，
   // 所以它的 `mental` 欄位仍然收兩者——分家發生在 `applyMental` 的路由，不在資料層
   const allowed = new Set([...MENTAL_KEYS, FAME_KEY]);
@@ -32,15 +32,16 @@ export async function run({ check }) {
   }
 
   /*
-   * ⚠ 這一條是 S12 交接給 S19a／S20 的內容缺口，寫成檢查是為了讓它別被忘掉。
-   *
-   * S12 只做機械對映（§9.4 的 nerve→comp、chem→trust、ego→conf、rep 刪除），所以
-   * 18 張卡碰得到的只有 comp／conf／trust／fame 四個。`disc`／`drive`／`resl` 三維
-   * 目前只有出生的 ±10 天賦差——玩家沒有任何辦法改變它們。這不是壞掉，是內容還沒
-   * 寫；S20 重新對映扮演卡、S19a 補特質副作用時要把這三維接進來。
+   * S20 之後從「已知缺口」變成覆蓋檢查：disc（照流程／放縱）、drive（投入／倦怠）、
+   * resl（輸後反彈／消極）各自由對應的行為選項接上，六維全數碰得到。任何一維從所有
+   * 扮演卡消失，代表有人把對映做回去了。
    */
   const missing = MENTAL_KEYS.filter((k) => !touched.has(k));
-  check('已知缺口：扮演卡碰不到 disc／drive／resl（S19a／S20 要補）',
-    missing.join(',') === 'drive,disc,resl',
-    missing.length ? `目前碰不到：${missing.join('／')}` : '三維都接上了——請更新這條檢查');
+  check('六維都被扮演卡碰得到', missing.length === 0,
+    missing.length ? `碰不到：${missing.join('／')}` : '六維齊全');
+  const counts = MENTAL_KEYS.map((k) => {
+    const n = ROLEPLAY_CARDS.filter((c) => c.options.some((o) => o.mental?.[k])).length;
+    return `${k}=${n}`;
+  });
+  log(`每維被幾張卡動到：${counts.join(' ')}`);
 }
