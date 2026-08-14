@@ -20,6 +20,7 @@
  */
 import { clamp } from '../core/rng.js';
 import { OVR_WEIGHTS, SKILL_WEIGHTS } from '../data/skills.js';
+import { bonus } from '../kernel/modifiers.js';
 
 /* ================= §9.2 技能發揮 ================= */
 
@@ -58,12 +59,21 @@ export const SKILL_MENTAL = {
 export const PERFORM_FLOOR = 0.85;
 export const PERFORM_SPAN = 0.30;
 
-/** 單項技能的心理修正值（0–1）＝ `Σ(主導維度 × 權重) ÷ 100` */
+/**
+ * 單項技能的心理修正值（0–1）＝ `Σ(主導維度 × 權重) ÷ 100`。
+ *
+ * 特質的心理層效果（`mental_*` 鍵，§14.4 C 層）直接加在維度上——S19a 把
+ * disc／drive／resl 三條死維度接上內容的消費端就在這裡。clamp 到 0–100 是防
+ * 特質疊加把維度推出界；心理值本身仍不可見，玩家只能從發揮推測。
+ */
 export function mentalMod(state, skillKey) {
   const row = SKILL_MENTAL[skillKey];
   if (!row) return 0.5;
   let v = 0;
-  for (const [dim, w] of Object.entries(row)) v += (state.mental?.[dim] ?? 50) * w;
+  for (const [dim, w] of Object.entries(row)) {
+    const base = state.mental?.[dim] ?? 50;
+    v += clamp(base + bonus(state, `mental_${dim}`), 0, 100) * w;
+  }
   return v / 100;
 }
 

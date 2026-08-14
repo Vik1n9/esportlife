@@ -58,8 +58,8 @@ export function renderSummary({ state, rng, tier, seed, appVersion }) {
 
 function fanQuotes(state, rng, tier) {
   const picks = rng.sample(FAN_QUOTES[tier], 3).map((q) => q.replace(/\{n\}/g, state.name));
-  // TODO(S21a)：不老傳奇那條「30 歲還能在世界賽奪冠」的粉絲語，等特質重定義（S19a）後
-  // 換成新的長壽敘事再放回來
+  // TODO(S21a)：不老傳奇的長壽敘事——S19a 已把它重定義為生命週期窗口（衰退極慢、
+  // 巔峰延後），「30 歲還能在世界賽奪冠」的粉絲語等 S21a 依新敘事放回來
   if (state.worldsWins > 0) picks.push('世界賽奪冠那一夜，全台灣都沒睡。謝謝你');
   if (state.honors.some((h) => h.includes('改寫歷史'))) picks.push('用世界冠軍贖回俱樂部，這劇本電影都不敢拍');
   if (state.traits.genius || state.epic.godhand) picks.push('出道就被叫天才的男人，真的把天賦兌現了');

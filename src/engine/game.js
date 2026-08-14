@@ -33,6 +33,8 @@ import { careerTier, tierName } from './career.js';
 import { disbandNoteFor } from './market.js';
 import { driftMental } from './mental.js';
 import { applyLifecycleDecline } from './lifecycle.js';
+import { lookupTrait } from '../kernel/modifiers.js';
+import { maintenanceLoss } from './progression.js';
 import { RetireSignal } from './retire.js';
 import { currentLeagueKey, stageLabel } from './roster.js';
 import { monthlyDrift } from './stamina.js';
@@ -156,6 +158,14 @@ function* yearOpen(g) {
   if (declined.length) {
     yield card('bad', '歲月',
       `體能已過巔峰，本季下滑：${declined.map((d) => `${ATTR_NAMES[d.key]} <b class="dn">−${d.amount}</b>`).join('／')}。`);
+  }
+
+  // 維持條件失效（§14.2）：單身交往、毒瘤洗白……特質被拿掉要有敘事 beat，
+  // 不是無聲無息地消失
+  const lostTraits = maintenanceLoss(state);
+  for (const key of lostTraits) {
+    const t = lookupTrait(key);
+    yield card('info', '特質消逝', `<b class="hl">${t.name}</b> 已不再是你的標籤——<span class="muted">${t.desc}</span>`);
   }
 
   // 解散流言

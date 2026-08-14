@@ -31,13 +31,17 @@ export const TIER_STORES = {
   legendary: { store: (s) => s.legendary, table: () => LEGENDARY_TRAITS },
 };
 
-/** 逐一吐出所有「已持有且對這個 key 有影響」的效果 */
+/** 逐一吐出所有「已持有且對這個 key 有影響」的效果。
+ *  益處（`effects`）與副作用（`sideEffects`）共用同一組鍵與同一套寫法——差別只在
+ *  資料欄位的語意（§13.1 的雙面性），消費端不需要區分。副作用要能被另一特質的
+ *  益處抵銷（§11.2），正是因為兩者走同一個 `bonus`／`factor` 加法乘法。 */
 function* effectsFor(state, key) {
   for (const { store, table } of Object.values(TIER_STORES)) {
     const held = store(state) || {};
     for (const [name, isHeld] of Object.entries(held)) {
       if (!isHeld) continue;
-      const e = table()[name]?.effects?.[key];
+      const t = table()[name];
+      const e = t?.effects?.[key] ?? t?.sideEffects?.[key];
       if (e !== undefined) yield normalize(e);
     }
   }

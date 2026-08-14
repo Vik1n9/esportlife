@@ -3,7 +3,7 @@ import { clamp } from '../core/rng.js';
 import { HEROES_BY_ROLE, PATCH_THEMES } from '../data/heroes.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, FUSIONS, LEGENDARY_TRAITS } from '../data/epics.js';
-import { capOf, factor, flag, TIER_STORES, traitName } from '../kernel/modifiers.js';
+import { capOf, factor, flag, lookupTrait, TIER_STORES, traitName, traitTier } from '../kernel/modifiers.js';
 import { injuryMul, staminaOf } from './stamina.js';
 
 /* ---------------- 受傷 ---------------- */
@@ -94,12 +94,32 @@ export function trainHeroes(state, rng, games) {
 /* ---------------- 特質 ---------------- */
 
 /**
- * 解鎖一個基礎特質。已經被合成消耗掉的特質不會重複解鎖。
+ * 互斥檢查（§13.3 第二層）。取得任一特質時，檢查它宣告的互斥清單——
+ * 同組其他特質已持有的話，這條路線就鎖死（「取得其一鎖掉整條路線」）。
+ *
+ * 對稱性由測試強制：A 排他 B，B 的資料也要排他 A——所以這裡只需要單向查詢。
+ */
+const TIER_TO_STORE = { common: 'traits', rare: 'rare', epic: 'epic', legendary: 'legendary' };
+
+export function exclusiveHeld(state, key) {
+  const t = lookupTrait(key);
+  if (!t?.exclusiveWith) return false;
+  return t.exclusiveWith.some((other) => {
+    const tier = TIER_TO_STORE[traitTier(other)];
+    const store = TIER_STORES[tier].store(state);
+    return !!store[other];
+  });
+}
+
+/**
+ * 解鎖一個基礎特質。已經被合成消耗掉的特質不會重複解鎖；與已持有特質互斥的
+ * 也不會（§13.3）。
  * @returns {boolean} 是否為新解鎖
  */
 export function unlockTrait(state, key) {
   if (state.traits[key]) return false;
   if (state.fusedAway.includes(traitName(key))) return false;
+  if (exclusiveHeld(state, key)) return false;
   state.traits[key] = true;
   return true;
 }
@@ -114,6 +134,7 @@ export function checkFusions(state) {
     const to = TIER_STORES[recipe.outTier];
     if (to.store(state)[recipe.out]) continue;
     if (!recipe.need.every(([tier, key]) => TIER_STORES[tier].store(state)[key])) continue;
+    if (exclusiveHeld(state, recipe.out)) continue;
     for (const [tier, key] of recipe.need) {
       const { store, table } = TIER_STORES[tier];
       delete store(state)[key];
@@ -124,6 +145,27 @@ export function checkFusions(state) {
     gained.push(recipe.out);
   }
   return gained;
+}
+
+/**
+ * 維持條件檢查（§14.2）：`maintain` 不成立的特質在年度邊界失去。
+ *
+ * 這是「取得是選擇、持有也是選擇」的另一半——單身交往就失去、毒瘤洗白就失去。
+ * 回傳失去的特質鍵清單，由呼叫端（年度邊界）組敘事 beat。
+ */
+export function maintenanceLoss(state) {
+  const lost = [];
+  for (const { store, table } of Object.values(TIER_STORES)) {
+    for (const [key, held] of Object.entries(store(state) || {})) {
+      if (!held) continue;
+      const t = table()[key];
+      if (t?.maintain && !t.maintain(state)) {
+        delete store(state)[key];
+        lost.push(key);
+      }
+    }
+  }
+  return lost;
 }
 
 export function activeTraitNames(state) {

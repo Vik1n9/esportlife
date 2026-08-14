@@ -27,11 +27,23 @@ function scaleAmount(v, mult) {
 const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk',
   'grinder', 'meme', 'camera', 'guardian'];
 
-/** flag 名稱 → 對應的特質鍵。事件卡的 trait 解鎖都走這張表。 */
+/** flag 名稱 → 解鎖定義。事件卡的 trait 解鎖都走這張表，不逐條 if。
+ *  `key` 對應特質鍵；`need` 是額外門檻（除了 flag 之外還要達成的條件）；
+ *  `chance` 是解鎖機率（有值＝解鎖要擲骰）；`blockIf` 是禁止解鎖的條件。 */
 const FLAG_TRAIT = {
-  popular: 'popular', composure: 'composure', leader: 'leader', laneking: 'laneking',
-  macroPoint: 'macroG', grinder: 'grinder', meme: 'meme', camera: 'camera',
-  guardian: 'guardian', tiltRisk: 'tilt',
+  popular: { key: 'popular' },
+  composure: { key: 'composure' },
+  leader: { key: 'leader' },
+  laneking: { key: 'laneking', need: (s) => s.age < 28 },
+  // `營運鬼才` 的門檻原本掛在已被拆掉的「大局觀」上。十二技能表裡它的後繼是「轉線運營」
+  // （舊 awr .55／dec .35／syn .10 對新 .50／.35／.15，同一批屬性同一個量級），所以
+  // 門檻 75 原封不動搬過來，難度沒有跟著換表而鬆動
+  macroPoint: { key: 'macroG', need: (s) => skillValue(s, 'rotate') >= 75 },
+  grinder: { key: 'grinder' },
+  meme: { key: 'meme' },
+  camera: { key: 'camera' },
+  guardian: { key: 'guardian' },
+  tiltRisk: { key: 'tilt', chance: 25, blockIf: (s) => flag(s, 'tiltImmune') },
 };
 
 /** 一張事件卡所有選項／結果可能解鎖的特質鍵。純資料推導，不放邏輯。 */
@@ -39,7 +51,7 @@ function unlockableTraits(ev) {
   const set = new Set();
   const collect = (flags) => {
     if (!flags) return;
-    for (const [f, t] of Object.entries(FLAG_TRAIT)) if (flags[f]) set.add(t);
+    for (const [f, def] of Object.entries(FLAG_TRAIT)) if (flags[f]) set.add(def.key);
   };
   collect(ev.good.flags); collect(ev.bad.flags);
   for (const o of ev.options) {
@@ -127,20 +139,14 @@ export function* drawEvent(g) {
   const mateMorale = scaleAmount(flags.mateMorale, mult);
   if (mateMorale) { state.mateMorale += mateMorale; notes.push('隊友士氣 <span class="dn">↓</span>'); }
   if (flags.romance) { state.romance = true; state.singleYears = 0; }
-  if (flags.popular && unlockTrait(state, 'popular')) unlocked.push('popular');
-  if (flags.composure && unlockTrait(state, 'composure')) unlocked.push('composure');
-  if (flags.leader && unlockTrait(state, 'leader')) unlocked.push('leader');
-  if (flags.laneking && state.age < 28 && unlockTrait(state, 'laneking')) unlocked.push('laneking');
-  // `營運鬼才` 的門檻原本掛在已被拆掉的「大局觀」上。十二技能表裡它的後繼是「轉線運營」
-  // （舊 awr .55／dec .35／syn .10 對新 .50／.35／.15，同一批屬性同一個量級），所以
-  // 門檻 75 原封不動搬過來，難度沒有跟著換表而鬆動
-  if (flags.macroPoint && skillValue(state, 'rotate') >= 75 && unlockTrait(state, 'macroG')) unlocked.push('macroG');
-  if (flags.grinder && unlockTrait(state, 'grinder')) unlocked.push('grinder');
-  if (flags.meme && unlockTrait(state, 'meme')) unlocked.push('meme');
-  if (flags.camera && unlockTrait(state, 'camera')) unlocked.push('camera');
-  if (flags.guardian && unlockTrait(state, 'guardian')) unlocked.push('guardian');
-  if (flags.tiltRisk && !flag(state, 'tiltImmune') && rng.chance(25)) {
-    if (unlockTrait(state, 'tilt')) unlocked.push('tilt');
+  // 事件卡的特質解鎖全部資料化——門檻／機率／免疫條件都在 FLAG_TRAIT 表裡宣告，
+  // 新增一張能解鎖特質的卡不用再動這裡
+  for (const [f, def] of Object.entries(FLAG_TRAIT)) {
+    if (!flags[f]) continue;
+    if (def.need && !def.need(state)) continue;
+    if (def.blockIf && def.blockIf(state)) continue;
+    if (def.chance !== undefined && !rng.chance(def.chance)) continue;
+    if (unlockTrait(state, def.key)) unlocked.push(def.key);
   }
 
   // 自律：連續三次在享樂類事件上守住。安全牌不算——那是躲開，不是守住

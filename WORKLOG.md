@@ -1,5 +1,38 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-15 — S19a 特質重建：50 特質全上「益處＋副作用＋互斥＋維持＋池」，死鍵掃尾
+
+- **方向**：v4.3 把「具體特質」作廢、改由編輯器（S18a）重新定義，但編輯器要驗證的
+  schema 與規則必須先定案。S19a 就是那一步：定 v4.3 特質 schema、把既有 50 特質
+  （26 通用＋8 稀有＋10 史詩＋6 傳說）全部重寫成「雙面」結構、清掉 S15b／S16 留下
+  的作廢效果鍵，並把 S12 點名的 disc／drive／resl 三條死維度接上內容。
+- **schema 定案**：每特質＝`tier`＋`pool`（persona／performance／psych／career）＋
+  `effects`（益處）＋`sideEffects`（副作用）＋`sideEffectLevel`（輕 16／中 23／重 11）
+  ＋`exclusiveWith`（互斥）＋`maintain`（維持）。效果沿用 `modifiers.js` 四種寫法＋
+  §7.2 六窗口；心理層新增 `mental_*` 六鍵（C 層），消費端在 `psych.js` 的 `mentalMod`
+  ——特質心理增減直接進 §9.2 發揮公式。⚠ **副作用與益處共用同一組鍵**：`effectsFor`
+  同時讀兩欄，這正是「抵銷」能成立的前提（§11.2 同鍵正負相加）。
+- **三組抵銷**（測試驗證 bonus 淨值）：獨狼⇄守護者（riftRisk +8/−10）、毒瘤⇄傳奇
+  偶像（fireRisk +15/−15）、嘴砲王⇄神主牌（fireRisk +10/−10）。**三組互斥**（對稱由
+  測試強制）：獨狼⇄黏著劑／領袖、偶像⇄梗王、苦行僧⇄話題製造機。**兩個維持條件**：
+  單身（交往即失去）、圈內毒瘤（聲量 <30 洗白），失效在 `yearOpen` 出「特質消逝」卡。
+- **死鍵清理**：`giftedDice`／`growthMult`／`injuryAdder`／`diceBonus` 全移除（裸
+  grep 為空）。長壽類（veteran／ageless／immortal）改 §7.2 窗口（`fall_k_mul`／
+  `peak_age_shift`）；成長類（genius／grinder／machine／godhand…）改 `growth_rate_mul`
+  窗口；肝帝「操到受傷」改 `injuryMinorChance ×1.4`；`macroG` 原本空效果，補 `intlRoll: 6`
+  救活。`shared.js` 的 FLAG_TRAIT 表資料化（`{key, need, chance, blockIf}`），事件卡
+  解鎖特質不再逐條 if。
+- **實測**（160 段）：平均巔峰 ÷ 上限 0.703 → **0.712**（驗收線 0.68–0.82 內）——
+  特質效果從死鍵全面生效，S16「世界賽 0 冠」回歸緩解（現在 1 座、MSI 7→65 座）。
+  傳奇率 3.8% → 2.5%（老手）／0（新手）；傳說持有 13.1%。休息／透支月不變（29.4%／
+  27.2%），體力經濟沒被副作用波及。檢查數 12623 → 12617（−6）是 `fusionConsumption`
+  資料驅動（互斥讓持有特質 969→920），非恆真化——已 stash 對照基線確認。
+- ⚠ **死配方風險**：6 個史詩配方素材無取得路徑（genius／clutch／meta／intlghost／
+  iron／underdog）——已列入交接筆記，S18 補事件卡或 S19d 收 iron 進天生池（§14.1）。
+- **狀態**：完成。`npm test` **12617 項全綠**；`SAVE_VERSION` 不動（存檔結構無新增
+  欄位）；唯一超出檔案清單的改動是 `psych.js` mentalMod 的 `mental_*` 消費端（§14.5
+  第 5 條「效果要有看得見的消費端」）。
+
 ## 2026-08-14 — S16 設施制訓練：骰子加點退場，改「選活動 → 兩階段判定 → 成長公式」
 
 - **方向**：v4.3 把訓練從「擲骰加點」換成「選訓練活動＋訓練事件卡兩階段判定」——
