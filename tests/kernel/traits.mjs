@@ -59,8 +59,8 @@ export async function run({ check }) {
         if (!POOLS.includes(t.pool)) check(`${tier}/${key} 池歸屬非法`, false);
       }
     }
-    check('全部 50 特質都有副作用', missing.length === 0, missing.join('、'));
-    check('特質總數 50', total === 50, `${total}`);
+    check('全部 54 特質都有副作用', missing.length === 0, missing.join('、'));
+    check('特質總數 54（26+4 天生＋8 稀有＋10 史詩＋6 傳說）', total === 54, `${total}`);
     check('三級副作用都有分佈（輕>0、中>0、重>0）',
       counts.light > 0 && counts.medium > 0 && counts.heavy > 0, JSON.stringify(counts));
     // §13.2：重度副作用以「史詩／傳說」為典型；v4.2 重寫的雙面特質（心態崩盤、
@@ -182,6 +182,14 @@ export async function run({ check }) {
         }
       }
     }
+  }
+
+  /* ---- 天生特質池指派（§14.1，S19d）：每個天生特質都屬於合成池，不進 psych／career ---- */
+  {
+    const { INNATE_POOL } = await import('../../src/data/innate.js');
+    const bad = INNATE_POOL.filter((e) => !['persona', 'performance'].includes(BASE_TRAITS[e.key]?.pool))
+      .map((e) => e.key);
+    check('天生特質全部指派到 persona／performance 合成池', bad.length === 0, bad.join('、'));
   }
 
   /* ---- 池歸屬與配方衛生（§14.2）：稀有素材都屬 persona、史詩素材都屬 performance ---- */

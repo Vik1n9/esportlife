@@ -6,6 +6,7 @@
  * 痛、賽事期間可以躺著休息、或者體力根本不會動。
  */
 import { createState } from '../../src/engine/state.js';
+import { INNATE_POOL } from '../../src/data/innate.js';
 import { Rng } from '../../src/core/rng.js';
 import {
   BAND_FRESH, BAND_TIRED, MATCH_MONTH_COST, MONTHLY_RECOVER, MONTHS_PER_YEAR, REHAB_RECOVER,
@@ -27,9 +28,14 @@ const AVG_TRAIN_COST = TRAINING_ACTIVITIES
   .filter((a) => a.kind === 'train')
   .reduce((t, a) => t + a.cost, 0) / TRAINING_ACTIVITIES.filter((a) => a.kind === 'train').length;
 
-const fresh = (seed = 'sta', extra = {}) => Object.assign(
-  createState({ name: 'S', role: 'MID', seed }), extra,
-);
+const fresh = (seed = 'sta', extra = {}) => {
+  const s = createState({ name: 'S', role: 'MID', seed });
+  // 體力 suite 構造「乾淨狀態」測曲線形狀：出生天賦（鐵人 cap 受傷率、玻璃體質
+  // 放大小傷轉大傷）會直接污染受傷機率的對照組，S19d 之後 createState 會預填
+  // 天生特質，這裡一律清掉，場景只由體力與年齡決定
+  for (const e of INNATE_POOL) delete s.traits[e.key];
+  return Object.assign(s, extra);
+};
 
 export async function run({ check, log }) {
   /* ---- 存在性：體力是資源，不是技能 ---- */
@@ -108,9 +114,15 @@ export async function run({ check, log }) {
     check('上下界維持 0.85 ~ 1.06', formFactor(0) >= 0.85 && formFactor(100) <= 1.06);
 
     // §11.1 的體力修正項：換讀數來源，不換量級（教練 2.0 ＋ 體力 ~1.5 ≈ 3.5 點）
+    // 兩組出生流（seed）不同——S19d 位移後起始 attr／心理會跟著漂，覆寫成相同值，
+    // 場景只由體力差決定，不被出生天賦的差異蓋過
     const rested = fresh('pw-hi', { stamina: 90, stage: 'PRO', league: 'LCK' });
     const spent = fresh('pw-lo', { stamina: 5, stage: 'PRO', league: 'LCK' });
-    for (const s of [rested, spent]) s.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, rating: 70 }));
+    for (const s of [rested, spent]) {
+      s.mates = [1, 2, 3, 4].map((i) => ({ name: `M${i}`, rating: 70 }));
+      for (const k of Object.keys(s.attr)) s.attr[k] = 50;
+      for (const k of Object.keys(s.mental)) s.mental[k] = 50;
+    }
     check('體力進勝率公式', teamStrength(rested) > teamStrength(spent),
       `${teamStrength(rested).toFixed(2)} vs ${teamStrength(spent).toFixed(2)}`);
     check('體力修正是修正項不是主項（滿檔也不到 3 點）', staminaPower(STAMINA_MAX) < 3, staminaPower(STAMINA_MAX));

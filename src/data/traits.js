@@ -36,7 +36,10 @@ export const BASE_TRAITS = {
     sideEffects: { mental_disc: -6 }, sideEffectLevel: 'light',
   },
   iron: {
-    name: '鐵人', tier: 'common', pool: 'performance',
+    // §14.1：鐵人收進天生特質池（`innate: true`，S19d）——它原本完全沒有來源，
+    // 是 §14.2 死配方規則點名的死素材；收進天生池就活了，效果不動。
+    // 體質類不宣告 mentalBias（§9.1）：動的是受傷率，不是心理
+    name: '鐵人', tier: 'common', pool: 'performance', innate: true,
     desc: '受傷率大降、小傷少轉大傷、韌性 +4；倔強硬撐不聽隊醫勸，紀律 −4',
     effects: { injuryRate: { cap: 10 }, injuryMinorChance: { mul: 0.5 }, mental_resl: 4 },
     sideEffects: { mental_disc: -4 }, sideEffectLevel: 'light',
@@ -207,6 +210,41 @@ export const BASE_TRAITS = {
     desc: '願意為隊友扛，隊友戰力小幅提升、摩擦減少；自己關鍵時刻容易緊張，抗壓 −4',
     effects: { teamLead: { floor: 3 }, verdictRiftRisk: -10 },
     sideEffects: { mental_comp: -4 }, sideEffectLevel: 'light',
+  },
+
+  /*
+   * 天生特質（S19d，§14.1）。只收基礎人格／體質類，不收競技表現類；池內 ≤ 5 條
+   * （0.8 ÷ N ≥ 15%）。條目本體住在這裡（合成／UI 要認識），誰是天生的由
+   * `data/innate.js` 的 INNATE_POOL 宣告。v4.3 之後具體內容由特質編輯器重定義，
+   * 這 5 條是機制先行用的初始內容。
+   *
+   * 天生特質是白拿的，所以副作用不能省——玻璃體質是**刻意**的純副作用條目
+   * （v4.2「無純負面特質」管的是合成池裡要玩家付出代價的那些，不擋白拿的出生
+   * 天賦，§14.1 明列）。
+   */
+  innateCalm: {
+    name: '天生抗壓', tier: 'common', pool: 'persona', innate: true,
+    desc: '大賽不怯場，國際賽保底發揮；穩到沒有衝勁，動機 −4',
+    effects: { intlFloor: { floor: 2 } },
+    sideEffects: { mental_drive: -4 }, sideEffectLevel: 'light',
+  },
+  glass: {
+    name: '玻璃體質', tier: 'common', pool: 'performance', innate: true,
+    desc: '身體不耐操，小傷容易轉成大傷',
+    effects: {},
+    sideEffects: { injuryMinorChance: { mul: 1.6 } }, sideEffectLevel: 'medium',
+  },
+  innateLeader: {
+    name: '天生領袖', tier: 'common', pool: 'persona', innate: true,
+    desc: '隊友願意跟，隊友戰力小幅提升；太有主見，聽不進別人的紀律，紀律 −4',
+    effects: { teamLead: { floor: 3 } },
+    sideEffects: { mental_disc: -4 }, sideEffectLevel: 'light',
+  },
+  nightOwl: {
+    name: '夜貓子', tier: 'common', pool: 'persona', innate: true,
+    desc: '深夜訓練效率高，成長小幅提升；作息爛，紀律 −6',
+    effects: { growth_rate_mul: { mul: 1.1 } },
+    sideEffects: { mental_disc: -6 }, sideEffectLevel: 'light',
   },
 };
 

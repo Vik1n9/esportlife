@@ -14,10 +14,14 @@ import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
 import { ceilingCurve, drawLifecycle } from './lifecycle.js';
+import { INNATE_POOL } from '../data/innate.js';
 
 // v16：設施制訓練（V4 §5）。`state.activeEffects` 是新欄位（短期 buff/debuff，剩餘月數，
 // §20.2）。訓練從「骰子加點」換成「訓練活動＋訓練事件卡」，成長結算整段改寫，舊存檔作廢
-export const SAVE_VERSION = 16;
+// v17：天生特質（S19d，V4 §1.4／§9.1）。出生流插進天生特質抽取（0/1/2 個，40/40/20%），
+// 業餘隊伍抽到英雄池之後（§1.4 寫死的順序），`mentalBias` 對齊初始心理——所有既有種子
+// 的天賦組合都會位移，舊存檔作廢
+export const SAVE_VERSION = 17;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -70,12 +74,28 @@ export function createState({ name, role, seed }) {
       + (birth.next() * 2 - 1) * START_RATIO.jitter;
   }
 
-  // 業餘隊伍（§1.4 的第 3 步）
+  // 業餘隊伍（§1.4 的第 7 步——v4.1 重排之後它排在英雄池後面，不是心理六維前面）
   const team = birth.pick(TEAMS_AMATEUR);
-  // 心理六維（§1.4 第 5 步）
-  const mental = Object.fromEntries(
-    MENTAL_KEYS.map((k) => [k, MENTAL_BASE + birth.int(-MENTAL_JITTER, MENTAL_JITTER)]),
-  );
+  // 天生特質（§1.4 第 4 步，插在起始屬性之後、心理六維之前）：0/1/2 個（40/40/20%），
+  // 均勻無放回抽取，同種子必定同組合
+  const innateRoll = birth.int(0, 99);
+  const innateCount = innateRoll < 40 ? 0 : innateRoll < 80 ? 1 : 2;
+  const innateKeys = birth.sample(INNATE_POOL.map((e) => e.key), innateCount);
+  // §9.1 一致性：把抽到的天生特質的 mentalBias 收成「維度 → 方向」表。
+  // 池內維度不重複（測試強制），所以不會有正負打架；保險起見後寫者勝
+  const biasDir = new Map();
+  for (const e of INNATE_POOL) {
+    if (innateKeys.includes(e.key) && e.mentalBias) biasDir.set(e.mentalBias.dim, e.mentalBias.dir);
+  }
+  // 心理六維（§1.4 第 5 步）。被 mentalBias 指定的維度改抽有向區間（正向 +6～+10／
+  // 負向 −10～−6），不再對稱 jitter——帶「天生抗壓」的種子開局 comp 不能是 41（§9.1）；
+  // 0 個天生特質的種子六維全部維持原本的 ±10，行為與 v4.0 相同
+  const mental = Object.fromEntries(MENTAL_KEYS.map((k) => {
+    const dir = biasDir.get(k);
+    if (dir > 0) return [k, MENTAL_BASE + birth.int(6, 10)];
+    if (dir < 0) return [k, MENTAL_BASE + birth.int(-10, -6)];
+    return [k, MENTAL_BASE + birth.int(-MENTAL_JITTER, MENTAL_JITTER)];
+  }));
   // 聲量（§1.4 第 6 步）
   const fame = birth.int(FAME_START[0], FAME_START[1]);
   // 英雄池（§1.4 第 7 步）
@@ -141,7 +161,7 @@ export function createState({ name, role, seed }) {
     fame,
     toneStreak: { bold: 0, plain: 0, humble: 0 },  // 連續同一種扮演傾向的次數
 
-    traits: {},          // 通用特質
+    traits: Object.fromEntries(innateKeys.map((k) => [k, true])),  // 天生特質白拿，進通用池（§14.1）
     rare: {},            // 稀有特質
     epic: {},            // 史詩特質
     legendary: {},       // 傳說特質

@@ -1,7 +1,9 @@
 /** 自由市場：報價層級、挖角門檻、休息室與輿論的後果。 */
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { generateOffers, clubVerdict, SCOUT_BAR } from '../../src/engine/market.js';
+import { generateOffers, clubVerdict, scoutInterest, SCOUT_BAR } from '../../src/engine/market.js';
+import { effectiveCoachRating } from '../../src/engine/attributes.js';
+import { LIFECYCLE_BASE } from '../../src/data/lifecycle.js';
 import { driveUntil, isSigningOffer } from '../lib/harness.mjs';
 
 export const name = '自由市場與挖角門檻';
@@ -21,24 +23,48 @@ export async function run({ check }) {
 
   {
     // 只夠青訓的實力，不該收到一隊的邀約（舊版把打不到的選項擺出來騙人）
-    const rng = new Rng('academy-only');
+    // ⚠ S19d 出生流位移之後，業餘期訓練的成長路徑會隨出生流漂移（練到哪些屬性、
+    //   rating 何時跨過一隊門檻都跟著變）——「跑完業餘期 rating 仍不到 56」是舊隨機流
+    //   的巧合，不是機制（CEILING_FLOOR 軟底讓 attr 50 一年內必然漲破）。這個場景
+    //   要不變的是「簽約選項永遠不超過當下 rating」：心理與生命週期固定成中性值，
+    //   場景只由 attr／potential 決定，再驗證選項與 rating 一致
     const state = createState({ name: 'A', role: 'JG', seed: 'academy-only' });
     for (const k of Object.keys(state.attr)) state.attr[k] = 50;   // 介於青訓 45 與一隊 56 之間
     for (const k of Object.keys(state.potential)) state.potential[k] = 52;
+    for (const k of Object.keys(state.mental)) state.mental[k] = 50;
+    state.lifecycle = structuredClone(LIFECYCLE_BASE);
 
     check('門檻層級由低到高', SCOUT_BAR.AM2 < SCOUT_BAR.HOME && SCOUT_BAR.HOME <= SCOUT_BAR.OVERSEAS,
       JSON.stringify(SCOUT_BAR));
 
+    // 靜態判定：rating 50 當下，球探只對二隊有興趣——一隊選項不得出現在 rating 夠不到的人面前
+    const interest = scoutInterest(state);
+    check('rating 50 只被青訓注意到', interest.am2 && !interest.home, JSON.stringify(interest));
+
+    const rng = new Rng('academy-only');
+    let chosen = null;
+    const signChecks = [];
     const choices = driveUntil(state, rng, {
       stop: (st) => st.stage !== 'AMATEUR',
-      answer: (beat) => beat.options[0].id,
+      answer: (beat) => {
+        if ((beat.options || []).some((o) => o.id.startsWith('sign-'))) {
+          // 簽約當下的 rating 與選項層級要一致：一隊選項出現 ⇔ rating ≥ 一隊門檻
+          const rating = effectiveCoachRating(state);
+          const proShown = beat.options.some((o) => o.id.startsWith('sign-') && !/青訓二隊/.test(o.label));
+          signChecks.push({ rating, proShown });
+          chosen = beat.options[0];
+        }
+        return beat.options[0].id;
+      },
     });
     const offer = choices.find(isSigningOffer);
     check('這種實力會收到邀約', !!offer);
-    check('只會是青訓二隊，不會有一隊選項',
-      offer && offer.options.filter((o) => o.id.startsWith('sign-')).every((o) => /青訓二隊/.test(o.label)),
-      offer && offer.options.map((o) => o.label).join(' / '));
-    check('簽下後進入 AM2', state.stage === 'AM2', state.stage);
+    check('簽約選項不超過當下 rating（一隊選項 ⇔ rating ≥ 56）',
+      signChecks.length > 0 && signChecks.every(({ rating, proShown }) => proShown === (rating >= SCOUT_BAR.HOME)),
+      JSON.stringify(signChecks));
+    check('簽下的選項與進入階段一致（青訓 → AM2、一隊 → PRO）',
+      chosen && (/青訓二隊/.test(chosen.label) ? state.stage === 'AM2' : state.stage === 'PRO'),
+      `${state.stage}`);
   }
 
   {

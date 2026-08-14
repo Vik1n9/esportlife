@@ -661,6 +661,10 @@ function performBandwidth({ check, log }) {
   const probe = (fill) => {
     const st = createState({ name: 'P', role: 'MID', seed: 'perform-probe' });
     for (const k of MENTAL_KEYS) st.mental[k] = fill;
+    // 出生天賦的 mental_* 效果（鐵人 mental_resl、天生抗壓 mental_drive…）會疊進
+    // mentalMod，讓「心理全滿恰 1.15」這種精確值斷言失效——這是純心理函數測試，
+    // 場景要的是「沒有特質干擾的六維」，S19d 之後 createState 會預填天生特質
+    st.traits = {};
     return st;
   };
   for (const skill of Object.keys(SKILL_MENTAL)) {
