@@ -1,5 +1,40 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-14 — S15b 生命週期曲線：成長與衰退統一成同一條 ceiling_curve，廢退役硬上限
+
+- **方向**：§7.2 把固定年齡衰退表（30 歲三衰兩升）換成統一生命週期曲線——六屬性各帶
+  五參數（peak_age／rise_k／fall_k／fall_accel／decline_pull），天花板 `effective_potential`
+  隨年齡起伏，成長與衰退是同一條曲線的兩面。同時廢退役硬上限，改市場淘汰制（§18.1）。
+  問題→解法的落點在 `src/engine/lifecycle.js`（曲線）＋ `src/data/lifecycle.js`（參數表）。
+- **曲線與種子**：`ceiling_curve(age) = age≤peak ? (age/peak)^rise_k : e^(−fall_k·(age−peak)^fall_accel)`；
+  `effective_potential = 潛力 × ceiling_curve`。六屬性×5 參數照 §7.2 表原樣落地，種子隨機化
+  接在出生流尾端（heroPool 之後 30 抽），`SAVE_VERSION` 14 → 15。§7.3 起始值改讀
+  effective_potential(16)——出生評價從 58 掉到約 29，業餘期重新有意義（S09 第二節的缺口補上）。
+- **特質窗口**：`kernel/modifiers.js` 新增 `lifecycleWindows`（六窗口，先加後乘、clamp 寫死），
+  S19a 重建特質時直接宣告 `peak_age_shift`／`rise_k_mul`… 這些鍵。級距改連續冪函數（#41）：
+  `max(0.05, (1−v/100)^n)`，n 取 1.0，`GROWTH_TIER_COEF` 離散表刪除。
+- ⚠ **校準大頭在 GROWTH_BASE 0.80 → 3.9**：起始值讀 effective_potential(16) 後成長空間
+  0.19→0.46×上限（2.4 倍），訓練預算要跟著放大。160 段實測平均巔峰 ÷ 上限 = **0.754**
+  （目標 0.755）。
+- ⚠ **最反直覺的後果**：曲線把巔峰釘在 `effective_potential(peak_age)`，兩種加點打法在夠長
+  的生涯裡都會頂到同一道天花板——生涯層級「加點差距」被打到約 0（focus−spread ≈ −1.4 OVR，
+  等於雜訊）。加點的價值現在兌現在「更早摸到天花板」，微基準仍強（0.256 對門檻 0.0926）。
+  所以 `smoke.mjs`／`invariants.mjs` 的生涯層級門檻改成「老手不顯著劣於新手」（負門檻），
+  微基準才是真守門員。
+- ⚠ **位置需求門檻（§18.2 草案）多了年齡項**：照草案（低於 min 無報價＋4/＋6）掛上後，
+  意識型位置（JG／SUP 的 awr/syn/dec 權重 97%）衰退極慢，4 段生涯跑到 205 歲（無限續約）。
+  修法＝門檻加「30 歲後每年 +5」＋ `transfer.js` 的「無報價→減薪留下」改成「無報價→只剩退役」
+  （§18.1 第 3 條）＋續約也受門檻約束。常數在 `market.js` 的 `POSITION_DEMAND`，S18/S21 用
+  三層退役事件取代後可退場。
+- **作廢物清理**：`applyAgeDecline`／`retirementAge`、`DECLINE_*`／`AGING_GAIN_*`／
+  `ATTR_CAP_GODHAND`、`ratingAdd`／`abilityCapUp` 消費端、`epic.ageless`／`traits.veteran`
+  敘事特判全部移除；特質資料的 `retireAge`／`declineOffset`／`declineMult`／`ratingAdd`／
+  `abilityCapUp` 鍵一併刪（ageless/godhand/immortal 只留 growthMult/careerScore/giftedDice）。
+- **狀態**：完成。`npm test` **12877 項全綠**（新增 `tests/kernel/lifecycle.mjs` 188 項）；
+  `SAVE_VERSION = 15`；`GROWTH_BASE = 3.9`、`TIER_POWER = 1.0`；退役年齡 mean 32／max 40。
+- **留給下一站（S16）**：衰退的「訓練抵消量」（§7.2 `max(0, annual_pull − 抵消量)`）還沒做，
+  `applyLifecycleDecline` 目前直接扣。`growth_rate_mul` 窗口已接在成長投入端。
+
 ## 2026-08-14 — 重建計劃對齊 v4.3.1：README 補 S15b、31 站，並建立「動工」機制
 
 - **方向**：規格書 v4.3／v4.3.1 已併入主規格（生命週期曲線／訓練事件卡／特質重建／

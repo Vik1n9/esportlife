@@ -10,18 +10,19 @@
  */
 export const EPIC_TRAITS = {
   ageless: {
-    name: '不老傳奇', desc: '退役上限 40；衰退 ×0.5，反應/操作再 ×0.5',
+    // v4.3：退役上限／衰退偏移／衰退倍率三個效果鍵與「30 歲後 +1」已隨生命週期曲線（§7.2）
+    // 與掛載禁令廢止（#44）作廢。長壽類特質改走 §7.2 的六個調整窗口，由 S19a 重定義。
+    name: '不老傳奇', desc: '（效果待 S19a 重定義）',
     effects: {
-      retireAge: { floor: 40 }, declineOffset: { floor: 4 }, declineMult: { cap: 0.5 },
       careerScore: 120,
     },
-    // 分段效果：30 歲後教練評價 +1（年齡條件）、靈巧/技巧衰退再減半，寫在 engine/attributes.js
   },
   godhand: {
-    name: '神之領域', desc: '成長 ×2；操作/反應上限 85；退役上限 38',
+    // v4.3：突破上限／直接加評價／退役上限／衰退偏移四個效果鍵作廢——0–100 的 100 就是頂，
+    // 且 §10.2 的直接加值禁令已廢。成長 ×2 與 giftedDice 保留，上限與評價效果由 S19a 重定義。
+    name: '神之領域', desc: '成長 ×2',
     effects: {
-      abilityCapUp: true, ratingAdd: 2, growthMult: { mul: 2 },
-      retireAge: { floor: 38 }, declineOffset: { floor: 2 }, giftedDice: true,
+      growthMult: { mul: 2 }, giftedDice: true,
     },
   },
   ultstage: {
@@ -70,19 +71,20 @@ export const EPIC_TRAITS = {
  */
 export const LEGENDARY_TRAITS = {
   immortal: {
-    name: '不死魔王', desc: '退役上限 41；衰退 ×0.4；成長 ×3；突破上限',
+    // v4.3：退役上限／衰退偏移／衰退倍率／突破上限四個效果鍵作廢（§7.2 生命週期曲線 ＋ #44）。
+    name: '不死魔王', desc: '成長 ×3',
     effects: {
-      retireAge: { floor: 41 }, declineOffset: { floor: 5 }, declineMult: { cap: 0.4 },
-      growthMult: { mul: 3 }, abilityCapUp: true,
+      growthMult: { mul: 3 },
     },
   },
   godslayer: {
-    name: '弒神者', desc: '成長 ×3.5；突破上限',
+    name: '弒神者', desc: '成長 ×3.5',
     // 原本還帶一項直接加評價的效果（+4）與 `seriesGame: 6`。那兩項是平白加分——不管你把點投得準不準
     // 都照領，於是「隨便練」的打法也吃得到頂端加成。四階合成的設計紀錄
     // （docs/superpowers/specs/2026-08-12-four-tier-trait-synthesis.md）已經記過同一件事：
     // 頂端加成要用「成長 ×N 與突破上限」，練得越準越吃得到。份量改由成長倍率承擔。
-    effects: { growthMult: { mul: 3.5 }, abilityCapUp: true },
+    // v4.3：突破上限旗標一併作廢，份量全由 growthMult 承擔。
+    effects: { growthMult: { mul: 3.5 } },
   },
   bulwark: {
     name: '銅牆鐵壁', desc: '免疫受傷；免疫默契崩盤；隊友 +8',
@@ -99,8 +101,8 @@ export const LEGENDARY_TRAITS = {
     effects: { underdogDepth: 3.2, intlFloor: { floor: 4 }, worldsRoll: 8 },
   },
   prophet_king: {
-    name: '版本之神', desc: '版本懲罰歸零；成長 ×2.5；突破上限',
-    effects: { patchImmune: true, growthMult: { mul: 2.5 }, abilityCapUp: true },
+    name: '版本之神', desc: '版本懲罰歸零；成長 ×2.5',
+    effects: { patchImmune: true, growthMult: { mul: 2.5 } },
   },
 };
 

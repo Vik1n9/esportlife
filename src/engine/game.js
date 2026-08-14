@@ -28,12 +28,12 @@
  */
 import { ATTR_NAMES } from '../data/attributes.js';
 import { START_YEAR } from '../data/eras.js';
-import { applyAgeDecline, retirementAge } from './attributes.js';
 import { MONTHS_PER_YEAR, calendarFor } from './calendar.js';
 import { careerTier, tierName } from './career.js';
 import { disbandNoteFor } from './market.js';
 import { driftMental } from './mental.js';
-import { RetireSignal, retire } from './retire.js';
+import { applyLifecycleDecline } from './lifecycle.js';
+import { RetireSignal } from './retire.js';
 import { currentLeagueKey, stageLabel } from './roster.js';
 import { monthlyDrift } from './stamina.js';
 import { PHASES } from '../phases/index.js';
@@ -131,8 +131,11 @@ function* runYear(g) {
  * 一年的開場。
  *
  * S14 之前這裡叫 `phaseTraining`，因為那一把訓練骰是它的主體。骰子搬進養成回合之後
- * 剩下的都是**年度尺度**的事：每季重置的旗標、年齡衰退、退役檢查、解散流言——它們
+ * 剩下的都是**年度尺度**的事：每季重置的旗標、生命週期衰退、解散流言——它們
  * 一年只該發生一次，不能跟著月份跑。
+ *
+ * ⚠ v4.3：退役硬上限已廢除（§18.1）。沒有「年齡到頂就強迫退休」的檢查，衰退由生命
+ * 週期曲線自然進行（§7.2），生涯由市場淘汰（`phases/transfer.js`）與退役事件收束。
  */
 function* yearOpen(g) {
   const { state, rng } = g;
@@ -145,21 +148,12 @@ function* yearOpen(g) {
   state.wonWorldsThisYear = false;
   state.lastDelta = state.lastDelta || 0;
 
-  const cap = retirementAge(state);
-  if (state.age >= cap) {
-    retire(state.age >= 34
-      ? `身體與版本都追不上了，${state.year} 年宣布退役。`
-      : `你已年至 ${state.age} 歲，各隊評估後無人願簽，無奈退役。`);
-  }
-
-  const decline = applyAgeDecline(state, rng);
-  if (decline) {
-    const softener = state.epic.ageless ? '（不老傳奇：衰退大幅減緩）'
-      : state.traits.veteran ? '（老將：衰退減緩）' : '';
-    const grown = decline.grown.length
-      ? `　經驗仍在累積：${decline.grown.map((k) => ATTR_NAMES[k]).join('、')} <b class="up">+1</b>。` : '';
-    yield card('bad', '歲月與版本',
-      `${decline.phase === 2 ? '第二階段（逐年加劇）' : '第一階段'}衰退：${decline.keys.map((k) => ATTR_NAMES[k]).join('／')} <b class="dn">−${decline.amount}</b>${softener}。${grown}`);
+  // 生命週期衰退：曲線過峰後，屬性值被往下拉（§7.2 的衰退跟隨）。
+  // 年界由月曆定位（S14），所以前置含 S14
+  const declined = applyLifecycleDecline(state, rng);
+  if (declined.length) {
+    yield card('bad', '歲月',
+      `體能已過巔峰，本季下滑：${declined.map((d) => `${ATTR_NAMES[d.key]} <b class="dn">−${d.amount}</b>`).join('／')}。`);
   }
 
   // 解散流言

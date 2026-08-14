@@ -97,10 +97,17 @@ export async function run({ check, log, shared }) {
    * 不換單位的話這條會在 §7.3 改起始值之後整批誤報：可成長空間從 0.405×上限掉到
    * 0.190×上限，同一套加點邏輯量到的絕對差自然只剩一半（實測 1.10–1.42），
    * 但比例是 0.058–0.075，四組獨立種子全在門檻之上。
+   *
+   * ⚠ S15b（生命週期曲線）把「差距 ∝ 可成長空間」這個假設整個打破，連帶把生涯層級的
+   * 巔峰差打到約 0：兩種打法在夠長的生涯裡都會頂到同一道 `effective_potential(peak_age)`
+   * 天花板，所以「老手峰值更高」這個訊號消失了（16 組種子實測 −1.76～+1.15 OVR）。
+   * 加點的價值現在兌現在「更早摸到天花板」（微基準 0.255 對門檻 0.0926 仍強），不是
+   * 「更高的天花板」。所以這條只守「老手不會顯著劣於新手」——真門檻在
+   * `invariants.mjs` 的微基準。
    */
   const room = mean(runs.map((r) => birthGrowthRoom(r)));
-  check('加點仍是決策：老手的平均巔峰至少高 0.0463×可成長空間',
-    (peakFocus - peakSpread) / room >= 0.0463,
+  check('加點仍是決策：老手的平均巔峰不顯著低於新手（曲線讓兩者頂到同一道天花板）',
+    (peakFocus - peakSpread) / room >= -0.03,
     `${peakFocus.toFixed(1)} vs ${peakSpread.toFixed(1)}（差 ${(peakFocus - peakSpread).toFixed(2)}／可成長空間 ${room.toFixed(2)} = ${((peakFocus - peakSpread) / room).toFixed(4)}）`);
   check('五個等第都出現得到', TIER_NAMES.every((_, i) => tierCounts.focus[i] + tierCounts.spread[i] > 0), JSON.stringify(tierCounts));
 }

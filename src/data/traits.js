@@ -65,8 +65,10 @@ export const BASE_TRAITS = {
     effects: { endorsement: { mul: 1.12 }, contractAdd: 0.05 },
   },
   veteran: {
-    name: '老將', desc: '衰退減緩、退役上限 36',
-    effects: { retireAge: { floor: 36 }, declineOffset: { floor: 2 }, declineMult: { cap: 0.7 } },
+    // v4.3：退役上限／衰退偏移／衰退倍率三個效果鍵已隨生命週期曲線（§7.2）作廢，
+    // 變成死鍵。特質的實際效果由 S19a 依新的「窗口」機制重定義。
+    name: '老將', desc: '（效果待 S19a 重定義）',
+    effects: {},
   },
   disc: {
     name: '自律', desc: '訓練骰有機率額外 +1',

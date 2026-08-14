@@ -13,10 +13,11 @@ import { STAMINA_MAX } from './stamina.js';
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
 import { START_AGE, START_YEAR } from '../data/eras.js';
+import { ceilingCurve, drawLifecycle } from './lifecycle.js';
 
-// v14：月回合制（V4 §3.2）。`state.month` 是新欄位，而且整個年度流程換了粒度——舊存檔
-// 的年度旗標對不上月份序，一律作廢重開
-export const SAVE_VERSION = 14;
+// v15：生命週期曲線（V4 §7.2）。`state.lifecycle` 是新欄位，而且 §7.3 的起始屬性改讀
+// effective_potential(起始年齡)——出生值、成長天花板、衰退三件事一起換，舊存檔一律作廢
+export const SAVE_VERSION = 15;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -45,21 +46,47 @@ export function createState({ name, role, seed }) {
   });
 
   /*
-   * 起始屬性（V4 §7.3）＝ 潛力的固定比例，不是固定區間。
+   * 起始屬性（V4 §7.3）＝ effective_potential(起始年齡) 的比例，不是固定區間。
    *
    * DEMO 跳過業餘期，所以起點代表的是「已經打進職業隊的新人」。潛力是先分派的，
    * 若起始值走固定區間，一個「平庸 58」的屬性會在出生時就頂到天花板，第一年完全
    * 沒有成長空間；寫成比例則天花板越高、起始值越高、剩餘空間也越大。
    *
-   * 所以這裡的順序與舊版相反：**先骰潛力，再由潛力推起始值**。位置味道也不再靠
-   * 額外加值，改由該路權重最高的兩項吃比較高的比例（0.80 對 0.70）。
+   * v4.3（§7.3）：比例乘的底從「固定潛力」換成「effective_potential(16)」——出生
+   * 當下天花板隨年齡曲線移動（16 歲的 ceiling_curve ≈ 0.5），所以實際起始值約是
+   * 潛力 × 0.5 × k_i。這讓業餘期重新有了「從網咖爬到職業門檻」的空間（S09 交接
+   * 筆記第二節點名的缺口）。k_i 本身經 S15b 重校（見 `data/attributes.js`）。
+   *
+   * 位置味道不靠額外加值，由該路權重最高的兩項吃較高的比例（0.80 對 0.70）。
+   *
+   * ⚠ 出生流的抽取順序寫死（§1.4）：這裡只先抽比例的 jitter，實際屬性值要等
+   * 生命週期參數抽完（下面第 7 步）才組得出來——否則動到前面的取數順序會位移所有
+   * 既有種子的天賦。
    */
   const edge = new Set(ROLE_START_EDGE[role]);
+  const ratios = {};
+  for (const k of ATTRS) {
+    ratios[k] = (edge.has(k) ? START_RATIO.edge : START_RATIO.rest)
+      + (birth.next() * 2 - 1) * START_RATIO.jitter;
+  }
+
+  // 業餘隊伍（§1.4 的第 3 步）
+  const team = birth.pick(TEAMS_AMATEUR);
+  // 心理六維（§1.4 第 5 步）
+  const mental = Object.fromEntries(
+    MENTAL_KEYS.map((k) => [k, MENTAL_BASE + birth.int(-MENTAL_JITTER, MENTAL_JITTER)]),
+  );
+  // 聲量（§1.4 第 6 步）
+  const fame = birth.int(FAME_START[0], FAME_START[1]);
+  // 英雄池（§1.4 第 7 步）
+  const heroPool = birth.sample(HEROES_BY_ROLE[role], 3);
+  // 生命週期參數（§7.2，§1.4 的最後一步）——接在業餘隊伍之後抽 30 次，不准插隊
+  const lifecycle = drawLifecycle(birth);
+
+  // 起始屬性＝ potential × ceiling_curve(16) × k_i（§7.3 v4.3）
   const attr = {};
   for (const k of ATTRS) {
-    const ratio = (edge.has(k) ? START_RATIO.edge : START_RATIO.rest)
-      + (birth.next() * 2 - 1) * START_RATIO.jitter;
-    attr[k] = Math.round(potential[k] * ratio);
+    attr[k] = Math.round(potential[k] * ceilingCurve(lifecycle[k], START_AGE) * ratios[k]);
   }
 
   return {
@@ -78,11 +105,12 @@ export function createState({ name, role, seed }) {
     stageYear: 1,
     am2Track: 'HOME',
     league: null,        // PRO 時的 LEAGUES 鍵
-    team: birth.pick(TEAMS_AMATEUR),
+    team,
     teamYears: 0,
 
     attr,                // 六大屬性。技能是它們的導出值，不另外存
     potential,
+    lifecycle,           // 生命週期參數（六屬性 × 5 參數，§7.2 §20.2）
     carry: {},           // 訓練點不足時的「蓄力」餘額
 
     /*
@@ -104,11 +132,9 @@ export function createState({ name, role, seed }) {
      * 數據（陣亡數）反推。50 這個起點是刻意的：§9.2 的發揮倍率與 §10.2 的心理修正
      * 在 50 都恰好是中性值，所以任何偏離都是玩家自己選出來的，不是出生就欠下的。
      */
-    mental: Object.fromEntries(
-      MENTAL_KEYS.map((k) => [k, MENTAL_BASE + birth.int(-MENTAL_JITTER, MENTAL_JITTER)]),
-    ),
+    mental,
     // 聲量（V4 §9.4）。跟六維相反：玩家看得到，面板上有分級標籤
-    fame: birth.int(FAME_START[0], FAME_START[1]),
+    fame,
     toneStreak: { bold: 0, plain: 0, humble: 0 },  // 連續同一種扮演傾向的次數
 
     traits: {},          // 通用特質
@@ -118,7 +144,7 @@ export function createState({ name, role, seed }) {
     fusedAway: [],       // 被合成消耗掉的特質名稱（結算時劃線顯示）
     recentEvents: [],    // 最近出過的事件卡 id（反覆抽不重複的暫存）
 
-    heroPool: birth.sample(HEROES_BY_ROLE[role], 3),
+    heroPool,
     mastery: {},
     patchDebt: 0,        // 版本落差：越高懲罰越重
     patchCount: 0,       // 生涯經歷過的版本大改動次數

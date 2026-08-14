@@ -56,7 +56,7 @@ import { careerTier } from '../../src/engine/career.js';
 import { gameChance } from '../../src/kernel/series.js';
 import { opponentStrength, starEffect, teamStrength } from '../../src/kernel/strength.js';
 import { TIER_STORES, traitName } from '../../src/kernel/modifiers.js';
-import { ATTRS, ATTR_CAP, ATTR_CAP_GODHAND } from '../../src/data/attributes.js';
+import { ATTRS, ATTR_CAP } from '../../src/data/attributes.js';
 import { MENTAL_BASE, MENTAL_KEYS, MENTAL_NAMES, MENTAL_RANGE } from '../../src/data/mental.js';
 import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
 import { LEAGUES } from '../../src/data/leagues.js';
@@ -121,17 +121,14 @@ export async function run({ check, log, shared }) {
 /* ---------------- 巔峰上界（V4 §7.1 §10.2） ---------------- */
 
 /**
- * §10.2 允許的加法特質修正總和，也就是教練評價可以合法高過屬性硬上限多少。
+ * 教練評價可以合法高過屬性硬上限多少。
  *
- * 從特質資料表算出來而不是寫死：§10.2 明文只保留兩項直接加評價的特質（神之領域 +2、
- * 不老傳奇 30 歲後 +1），並禁止新特質再用這種形式，所以這個數字應該永遠是 3。寫成
- * 掃表的話，哪天有人違反 §10.2 加了第三項，上界會跟著鬆——那正是要在 code review
- * 看到的訊號，而不是讓這條檢查憑空紅一次。
- *
- * ⚠ 不老傳奇那 +1 有年齡條件（30 歲後），寫在 `engine/attributes.js` 裡而不是資料表，
- * 所以掃不到，手動補上。
+ * ⚠ v4.3（決策 #44）廢止 §10.2「不得直接加評價」的掛載禁令，連帶刪掉舊有的兩項直接
+ * 加值（神之領域 +2、不老傳奇 30 歲後 +1）。所以現在這個數字是 0——只剩 §10.2 的隱藏
+ * 心理修正（`RATING_MENTAL_SPAN`）還加在教練評價上。掃表保留：S19a 若重引入加法評價
+ * 特質，這裡會自動跟著鬆，那是 review 該看到的訊號。
  */
-const RATING_TRAIT_HEADROOM = 1 + Object.values(TIER_STORES).reduce((total, { table }) => total
+const RATING_TRAIT_HEADROOM = Object.values(TIER_STORES).reduce((total, { table }) => total
   + Object.values(table()).reduce((t, tr) => {
     const e = tr.effects?.ratingAdd;
     return t + (typeof e === 'number' ? e : (e?.add ?? 0));
@@ -174,10 +171,10 @@ function peakCeiling({ check, log, runs }) {
   // 被砍過頭，高於上界就是通膨
   check('巔峰上界：平均巔峰 ÷ 屬性硬上限落在 0.68–0.82（通膨／縮水都會紅）',
     ratio >= 0.68 && ratio <= 0.82, `平均巔峰 ${mean(peaks).toFixed(2)}／上限 ${ATTR_CAP} = ${ratio.toFixed(4)}`);
-  const hardCeiling = ATTR_CAP_GODHAND + RATING_TRAIT_HEADROOM + RATING_MENTAL_SPAN;
+  const hardCeiling = ATTR_CAP + RATING_TRAIT_HEADROOM + RATING_MENTAL_SPAN;
   check('巔峰上界：沒有任何一段生涯超過硬上限＋§10.2 允許的加法特質與心理修正',
     Math.max(...peaks) <= hardCeiling,
-    `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP_GODHAND} ＋特質 ${RATING_TRAIT_HEADROOM} ＋心理 ${RATING_MENTAL_SPAN}）`);
+    `最高 ${Math.max(...peaks)} > ${hardCeiling}（上限 ${ATTR_CAP} ＋特質 ${RATING_TRAIT_HEADROOM} ＋心理 ${RATING_MENTAL_SPAN}）`);
 
   for (const { state, seed, role } of runs) {
     const top = Math.max(...Object.values(skills(state)));
@@ -219,17 +216,12 @@ const CLAMP_ALLOWANCE = 0.06;
  * §11.1 的「你在場上打得出多少」拆成兩個量，而明星項是後者才有的東西。
  */
 function coachRatingLayer({ check, log, runs }) {
-  // 一、兩個量確實分家：§10.2 的加法特質只進教練評價，不進位置戰力
-  const plain = createState({ name: 'C', role: 'MID', seed: 'rating-probe' });
-  const star = createState({ name: 'C', role: 'MID', seed: 'rating-probe' });
-  star.epic.godhand = true;
-  check('教練評價：§10.2 的加法特質（神之領域 +2）確實進得了教練評價',
-    coachRating(star) - coachRating(plain) === 2, `差 ${coachRating(star) - coachRating(plain)}`);
-  check('位置戰力：§10.2 的加法特質不得進位置戰力（那是教練的看法，不是場上的發揮）',
-    positionPower(star) === positionPower(plain),
-    `${positionPower(star).toFixed(2)} vs ${positionPower(plain).toFixed(2)}`);
+  // v4.3（#44）廢止 §10.2「不得直接加評價」的掛載禁令，舊有的「神之領域 +2 只進教練
+  // 評價、不進位置戰力」檢查隨之刪除——現在沒有任何特質直接加評價，教練評價的加法只
+  // 剩 §10.2 的隱藏心理修正。S19a 若重引入加法評價特質，這裡要再補「只進教練評價」的
+  // 分家檢查。
 
-  // 二、明星效應照 §11.1 的分段表
+  // 一、明星效應照 §11.1 的分段表
   const probe = createState({ name: 'S', role: 'MID', seed: 'star-probe' });
   probe.league = 'HOME';
   probe.mates = [];
@@ -244,7 +236,7 @@ function coachRatingLayer({ check, log, runs }) {
   check('明星效應：上界 6.0 點（＝勝率 +10.6 個百分點，一個人拉抬一支隊的天花板）',
     starEffect(probe, par + 200) === 6.0, `${starEffect(probe, par + 200)}`);
 
-  // 三、明星效應不得讓 w_p = 0.60 失效：一個人不能打贏整隊
+  // 二、明星效應不得讓 w_p = 0.60 失效：一個人不能打贏整隊
   const rows = [];
   for (const { state, seed, role } of runs) {
     if (!state.mates?.length || !state.league) continue;
@@ -262,7 +254,7 @@ function coachRatingLayer({ check, log, runs }) {
     mean(carry.map((r) => r.best)) > mean(rows.map((r) => r.best)) + 5,
     `前一成 ${mean(carry.map((r) => r.best)).toFixed(1)}% vs 全樣本 ${mean(rows.map((r) => r.best)).toFixed(1)}%`);
 
-  // 四、教練評價不得出現在玩家可見的養成介面（V4 §10.1）
+  // 三、教練評價不得出現在玩家可見的養成介面（V4 §10.1）
   const uiDir = new URL('../../src/ui/', import.meta.url);
   for (const file of readdirSync(uiDir)) {
     if (!file.endsWith('.js')) continue;
@@ -361,11 +353,15 @@ function styleGap({ check, log, runs }) {
     winRate >= 0.9, `勝出 ${(winRate * 100).toFixed(1)}%（${diffs.filter((d) => d > 0).length}/${diffs.length}）`);
 
   // 生涯層級只留一條方向性的佐證——數值門檻交給上面的微基準，這裡只確認生涯沒有把
-  // 加點的價值整個吃掉（八組種子實測 1.43–4.91，門檻取 0.5 留 2.8 倍餘裕）
+  // 加點的價值整個吃掉。⚠ S15b（生命週期曲線）把生涯層級的巔峰差打到約 0：兩種打法在
+  // 夠長的生涯裡都會頂到同一道 `effective_potential(peak_age)` 天花板，所以「老手峰值
+  // 更高」這個訊號消失了（16 組種子實測 focus−spread ≈ −1.76～+1.15，配對勝出率約四成）。
+  // 加點的價值現在兌現在「更早摸到天花板」（微基準 0.255 對門檻 0.0926 仍強），所以這條
+  // 只守「老手不會顯著劣於新手」——真門檻在微基準。
   const peakOf = (style) => mean(runs.filter((r) => r.style === style).map((r) => r.state.peakRating));
   const careerGap = peakOf('focus') - peakOf('spread');
-  check('打法差距：生涯層級老手的平均巔峰仍高於新手',
-    careerGap / ATTR_CAP >= 0.00625, `老手 ${peakOf('focus').toFixed(2)} vs 新手 ${peakOf('spread').toFixed(2)}（差 ${careerGap.toFixed(2)}）`);
+  check('打法差距：生涯層級老手的平均巔峰不顯著低於新手（曲線讓兩者頂到同一道天花板）',
+    careerGap / ATTR_CAP >= -0.02, `老手 ${peakOf('focus').toFixed(2)} vs 新手 ${peakOf('spread').toFixed(2)}（差 ${careerGap.toFixed(2)}）`);
 
   log(`加點微基準：${diffs.length} 組同骰對照，老手平均領先 ${avg.toFixed(2)} OVR（÷可成長空間 ${room.toFixed(1)} = ${(avg / room).toFixed(3)}）、勝出 ${(winRate * 100).toFixed(1)}%`);
 }
@@ -537,6 +533,10 @@ function fusionConsumption({ check, log, runs }) {
 /** 同一份訓練點投在同一個屬性值上，只換潛力天花板，看成長差多少 */
 function gainWith({ attr, potential, points }) {
   const state = createState({ name: 'P', role: 'MID', seed: 'decay-probe' });
+  // 生命週期曲線讓 effective_potential = 潛力 × ceiling_curve(age)，16 歲只有一半。
+  // 這個測試要量的是「天花板」本身的衰減，所以把年齡推到 tec 的 peak_age——
+  // ceiling_curve = 1，effective_potential 才等於潛力，測試的前提才成立
+  state.age = state.lifecycle.tec.peak_age;
   for (const k of ATTRS) { state.attr[k] = attr; state.potential[k] = potential; }
   state.carry = {};
   return investAttr(state, 'tec', points);

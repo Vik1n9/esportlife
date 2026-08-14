@@ -14,6 +14,7 @@
  */
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
+import { clamp } from '../core/rng.js';
 
 /** `key: 5` 與 `key: true` 是簡寫，統一展開成物件 */
 function normalize(effect) {
@@ -74,6 +75,37 @@ export function capOf(state, key, base) {
 export function flag(state, key) {
   for (const e of effectsFor(state, key)) if (e.flag) return true;
   return false;
+}
+
+/**
+ * 生命週期調整窗口（V4 §7.2）。
+ *
+ * 特質不再直接加值，改透過六個**預定義窗口**調整曲線參數。這六個鍵就是特質在資料表
+ * 裡宣告效果的鍵（S19a 重建特質時寫成 `effects: { peak_age_shift: 2, fall_k_mul: 0.5 }`），
+ * 型別固定：`peak_age_shift` 是加法、其餘五個是乘法——跟既有 `bonus`／`factor` 同一套
+ * 寫法，差別在**窗口有 clamp 且「先加後乘」順序寫死**（見 `engine/lifecycle.js`）。
+ *
+ * 窗口本身是資料（下表），不是程式碼——新增一個窗口只要加一列，消費端不用改。
+ */
+export const LIFECYCLE_WINDOWS = {
+  peak_age_shift: { kind: 'add', clamp: [-4, 4] },
+  rise_k_mul: { kind: 'mul', clamp: [0.5, 2.0] },
+  fall_k_mul: { kind: 'mul', clamp: [0.3, 2.5] },
+  fall_accel_mul: { kind: 'mul', clamp: [0.5, 2.0] },
+  decline_pull_mul: { kind: 'mul', clamp: [0.4, 2.0] },
+  growth_rate_mul: { kind: 'mul', clamp: [0.5, 2.0] },
+};
+
+/** 累加所有特質對六個生命週期窗口的調整，逐項 clamp（先加後乘在 `engine/lifecycle.js` 結算） */
+export function lifecycleWindows(state) {
+  return {
+    peak_age_shift: clamp(bonus(state, 'peak_age_shift'), -4, 4),
+    rise_k_mul: clamp(factor(state, 'rise_k_mul'), 0.5, 2.0),
+    fall_k_mul: clamp(factor(state, 'fall_k_mul'), 0.3, 2.5),
+    fall_accel_mul: clamp(factor(state, 'fall_accel_mul'), 0.5, 2.0),
+    decline_pull_mul: clamp(factor(state, 'decline_pull_mul'), 0.4, 2.0),
+    growth_rate_mul: clamp(factor(state, 'growth_rate_mul'), 0.5, 2.0),
+  };
 }
 
 /** 查詢任一階特質的資料（名稱／描述／效果）。 */

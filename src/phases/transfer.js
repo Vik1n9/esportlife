@@ -16,7 +16,7 @@ import { LEAGUES } from '../data/leagues.js';
 import { effectiveCoachRating } from '../engine/attributes.js';
 import {
   academyOffer, annualSalary, clubVerdict, disbandNoteFor, formatMoney,
-  generateOffers, renewalTerms, scoutInterest, scoutVerdict, signContract, tryout,
+  generateOffers, positionDemandThreshold, renewalTerms, scoutInterest, scoutVerdict, signContract, tryout,
 } from '../engine/market.js';
 import { homeLeagueName, leagueLabel, teamsOf } from '../engine/roster.js';
 import { occupiesImportSlot } from '../engine/imports.js';
@@ -387,10 +387,16 @@ function* freeAgency(g, { forced }) {
       `<br><span class="muted">要擠進去，你得強到讓對方願意把現有的外援換掉。</span>`);
   }
 
-  if (!forced && state.contract) options.push(...renewalOptions(state));
+  // 續約也受位置需求門檻約束（§18.2）：連原隊都覺得你已經不在聯盟水準線上，就不會再
+  // 挽留——否則意識型位置（JG/SUP）的老將可以靠「續長約 → 走完 → 再續」無限賴下去。
+  if (!forced && state.contract && effectiveCoachRating(state) >= positionDemandThreshold(state)) {
+    options.push(...renewalOptions(state));
+  }
   options.push(...offerOptions(state, offers));
 
-  // 一張報價都沒有：被釋出的直接退休，約滿的只能減薪留下或退役
+  // 一張報價都沒有：被釋出的直接退休，約滿的也只能退休——§18.1 市場淘汰制第 3 條：
+  // 「無報價時玩家只剩退役選項」。這取代了舊的「減薪留下」無限迴圈（舊版讓衰退中的
+  // 老將可以年年減薪賴在聯盟裡，awr/dec 衰退慢的人會一路賴到五十幾歲）。
   if (!options.length) {
     if (forced) {
       state.forcedRetire = true;
@@ -398,18 +404,7 @@ function* freeAgency(g, { forced }) {
       retire(`隊伍解散後無人接手，${state.year} 年黯然退役。`);
     }
     yield card('bad', '自由市場', '電話沒有響。市場對你的評價相當冷。');
-    const picked = yield {
-      type: 'choice',
-      title: '沒有球隊開價',
-      options: [
-        { id: 'cut', label: `回 ${state.team} 減薪簽約`, note: '1 年｜年薪係數 ×0.70', main: true },
-        { id: 'quit', label: '就此退役', warn: true },
-      ],
-    };
-    if (picked === 'quit') retire(`FA 市場乏人問津，${state.year} 年黯然退役。`);
-    signContract(state, rng, { team: state.team, league: state.league, years: 1, mult: 0.7 });
-    yield card('info', '減薪續約', `你接受了減薪，留在 <b class="hl">${state.team}</b>。`);
-    return;
+    retire(`FA 市場乏人問津，${state.year} 年黯然退役。`);
   }
 
   if (!forced) options.push({ id: 'quit', label: '功成身退，宣布退役', warn: true });

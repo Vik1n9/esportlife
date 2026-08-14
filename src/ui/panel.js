@@ -13,7 +13,7 @@ import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
-import { patchPenalty, retirementAge, roleSkills, skillValue } from '../engine/attributes.js';
+import { patchPenalty, roleSkills, skillValue } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { reputeSummary } from '../engine/mental.js';
@@ -158,7 +158,7 @@ function renderPanel() {
       <div class="kv">
         <div><span>ID</span><b>${escapeHtml(state.name)}</b></div>
         <div><span>位置</span><b>${ROLE_NAMES[state.role]}</b></div>
-        <div><span>年齡</span><b>${state.age}（退役上限 ${retirementAge(state)}）</b></div>
+        <div><span>年齡</span><b>${state.age}</b></div>
         <div><span>所屬</span><b>${escapeHtml(state.team || '—')}</b></div>
         <div><span>層級</span><b>${stageLabel(state)}${league ? `（par ${league.par}）` : ''}</b></div>
         <div><span>合約</span><b>${state.contract ? `剩 ${state.contract.years} 年 ×${state.contract.mult.toFixed(2)}` : '無合約'}</b></div>
@@ -174,7 +174,7 @@ function renderPanel() {
     <section>
       <h5>屬性</h5>
       ${attrRows(state)}
-      <p class="muted small">▸ 點開查看各屬性在峽谷內的作用；刻度線＝潛力上限，超過後成長成本 ×3。</p>
+      <p class="muted small">▸ 點開查看各屬性在峽谷內的作用；刻度線＝潛力上限，越靠近天花板成長越慢。</p>
     </section>
 
     <section>

@@ -1,13 +1,12 @@
-/** 屬性與技能的計算：技能求值、教練評價與位置戰力、潛力衰減與加點、年齡衰退、退役上限。純函式（會就地修改 state.attr）。 */
+/** 屬性與技能的計算：技能求值、教練評價與位置戰力、潛力衰減與加點（讀生命週期有效天花板）。純函式（會就地修改 state.attr）。 */
 import { clamp } from '../core/rng.js';
 import {
-  AGING_GAIN_AMOUNT, AGING_GAIN_ATTRS, ATTRS, ATTR_CAP, ATTR_CAP_GODHAND,
-  CEILING_FLOOR, CEILING_TAPER, DECLINE_ATTRS, DECLINE_EARLY, DECLINE_LATE_BASE,
-  DECLINE_LATE_STEP, GROWTH_BASE, GROWTH_TIER_COEF, POTENTIAL_BANDS,
+  ATTRS, ATTR_CAP, CEILING_FLOOR, CEILING_TAPER, GROWTH_BASE, TIER_FLOOR, TIER_POWER,
 } from '../data/attributes.js';
 import { ROLE_ATTR_WEIGHTS, ROLE_SKILLS, SKILL_WEIGHTS } from '../data/skills.js';
-import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
+import { factor, flag } from '../kernel/modifiers.js';
 import { stability } from './psych.js';
+import { effectivePotential, growthRateWindow } from './lifecycle.js';
 
 /**
  * §10.2 的隱藏心理修正上下界（±3）。
@@ -21,8 +20,8 @@ import { stability } from './psych.js';
  */
 export const RATING_MENTAL_SPAN = 3;
 
-export function attrCap(state) {
-  return flag(state, 'abilityCapUp') ? ATTR_CAP_GODHAND : ATTR_CAP;
+export function attrCap() {
+  return ATTR_CAP;
 }
 
 /* ================= 技能（導出值） ================= */
@@ -103,18 +102,12 @@ function mentalRating(state) {
  * 兩者分家之後，「看不見的心理素質間接影響薪資與續約」才做得出來——教練看得出
  * 態度與大賽心態，玩家卻沒有一個可以最佳化的總評數字。
  *
- * 特質調整只保留 §10.2 明文允許的兩項（神之領域 +2、不老傳奇 30 歲後 +1）。
- * **新特質不得再用「直接加評價」這種形式**：平白加分會讓「隨便練」的打法也越過
- * 傳奇門檻，頂端加成一律走成長倍率與突破上限。
+ * ⚠ v4.3（決策 #44）廢止 §10.2「不得直接加評價」的掛載禁令與舊有的直接加值
+ * （神之領域 +2、不老傳奇 30 歲後 +1）。新特質怎麼影響評價，由 S19a 依新的窗口
+ * 機制重定義——這裡不再有任何「年齡條件特判」或「平白加分」。
  */
 export function coachRating(state) {
-  return Math.round(
-    roleWeighted(state)
-    + mentalRating(state)
-    + bonus(state, 'ratingAdd')
-    // 年齡條件無法寫進特質資料表，留在這裡
-    + (state.epic.ageless && state.age >= 30 ? 1 : 0),
-  );
+  return Math.round(roleWeighted(state) + mentalRating(state));
 }
 
 /**
@@ -155,26 +148,26 @@ export function positionPower(state) {
 
 /* ================= 成長 ================= */
 
-/** 潛力區間裡最低的那一段的中位數，`state.potential` 缺鍵時的保底 */
-const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
-
-/** 級距係數：現值落在哪一段（V4 §7.1） */
+/** 級距係數：連續冪函數 `max(TIER_FLOOR, (1 − v/100)^TIER_POWER)`（V4 §7.1，決策 #41） */
 function tierCoef(current) {
-  return GROWTH_TIER_COEF.find((g) => current >= g.at).coef;
+  return Math.max(TIER_FLOOR, Math.pow(1 - current / 100, TIER_POWER));
 }
 
 /**
- * 天花板係數：距潛力天花板越近，同樣的訓練換到的成長越少。
+ * 天花板係數：距有效潛力天花板越近，同樣的訓練換到的成長越少。
  * 距離 ≥ CEILING_TAPER 不打折；貼著或已經超過天花板則掉到 CEILING_FLOOR。
+ *
+ * §7.1 只把讀取的潛力換成 `effective_potential(attr, age)`——天花板隨年齡移動，
+ * 不再是固定值。0.34／12 兩個常數的推導不變（見 `data/attributes.js`）。
  */
-function ceilingCoef(current, potentialCap) {
-  const headroom = Math.min(Math.max(potentialCap - current, 0), CEILING_TAPER);
+function ceilingCoef(current, effPot) {
+  const headroom = Math.min(Math.max(effPot - current, 0), CEILING_TAPER);
   return CEILING_FLOOR + (1 - CEILING_FLOOR) * (headroom / CEILING_TAPER);
 }
 
-/** 潛力衰減係數（V4 §5.3）＝ 級距係數 × 天花板係數 */
-export function decayCoef(current, potentialCap) {
-  return tierCoef(current) * ceilingCoef(current, potentialCap);
+/** 潛力衰減係數（V4 §5.3）＝ 級距係數 × 天花板係數。天花板讀有效潛力，隨年齡起伏 */
+export function decayCoef(current, effPot) {
+  return tierCoef(current) * ceilingCoef(current, effPot);
 }
 
 /**
@@ -184,33 +177,29 @@ export function decayCoef(current, potentialCap) {
  * 介面，所以取倒數換算回「一點要多少」——同一個模型的兩種寫法，讓 UI 與 `carry`
  * 蓄力機制原封不動。
  */
-function stepCost(current, cap) {
-  return 1 / decayCoef(current, cap);
+function stepCost(current, effPot) {
+  return 1 / decayCoef(current, effPot);
 }
 
 /** 下一點需要多少訓練點（給 UI 顯示用） */
 export function nextStepCost(state, key) {
-  return stepCost(state.attr[key], state.potential[key] ?? DEFAULT_POTENTIAL);
+  return stepCost(state.attr[key], effectivePotential(state, key));
 }
 
 /**
- * 成長門檻資訊（純顯示用）。
- * 回傳目前的單點成本、是否已貼上潛力天花板，以及下一個會漲價的級距門檻與屆時成本。
+ * 成長門檻資訊（純顯示用）。回傳目前的單點成本、是否已貼上有效天花板。
  *
- * 成本現在是連續的（天花板係數逐點遞減），所以 `nextAt` 只剩級距的意義：它回答
- * 「再練到哪個數字，價位會跳一階」，天花板那一段的遞減則反映在 `cost` 本身。
+ * 級距改成連續冪函數之後不再有「下一個會漲價的門檻」——`nextAt`／`nextCost` 恆為
+ * null，保留欄位只是讓 UI 不用改形狀。
  */
 export function growthThreshold(state, key) {
   const value = state.attr[key];
-  const potentialCap = state.potential[key] ?? DEFAULT_POTENTIAL;
-  const over = value >= potentialCap;
-  // GROWTH_TIER_COEF 依 at 遞減排列，反轉後找「最小的、高於目前值」的級距門檻
-  const next = [...GROWTH_TIER_COEF].reverse().find((g) => g.at > value) || null;
+  const effPot = effectivePotential(state, key);
   return {
-    cost: stepCost(value, potentialCap),
-    over,
-    nextAt: next ? next.at : null,
-    nextCost: next ? stepCost(next.at, potentialCap) : null,
+    cost: stepCost(value, effPot),
+    over: value >= effPot,
+    nextAt: null,
+    nextCost: null,
   };
 }
 
@@ -235,12 +224,13 @@ export function investAttr(state, key, points) {
     return state.attr[key] - before;
   }
 
-  const potentialCap = state.potential[key] ?? DEFAULT_POTENTIAL;
-  let budget = points * GROWTH_BASE * factor(state, 'growthMult') + (state.carry[key] || 0);
+  const effPot = effectivePotential(state, key);
+  let budget = points * GROWTH_BASE * factor(state, 'growthMult') * growthRateWindow(state)
+    + (state.carry[key] || 0);
   let current = before;
 
   while (current < cap) {
-    const cost = stepCost(current, potentialCap);
+    const cost = stepCost(current, effPot);
     if (budget < cost) break;
     budget -= cost;
     current++;
@@ -258,58 +248,6 @@ export function adjustAttr(state, key, delta) {
   const before = state.attr[key];
   state.attr[key] = clamp(before + delta, 1, attrCap(state));
   return state.attr[key] - before;
-}
-
-/**
- * 機率性取整：`2.5` 有一半機率變 2、一半變 3。
- *
- * 0–100 刻度下的衰退量帶小數（§7.2 的 −2.5 與 +1.25），但屬性值是整數。直接
- * `Math.round(2.5)` 一律進位成 3，等於把 30–32 歲那段衰退平白加重兩成；機率性取整
- * 的期望值就是原本的小數，不必為了保留小數而讓存檔多帶一個累加欄位。
- */
-function stochasticRound(rng, x) {
-  const base = Math.floor(x);
-  return base + (rng.next() < x - base ? 1 : 0);
-}
-
-/** 退役硬上限 */
-export function retirementAge(state) {
-  return floorOf(state, 'retireAge', 34);
-}
-
-/**
- * 年齡衰退。回傳 null 表示本季未衰退。
- *
- * 身體先走（靈巧／體能／技巧），腦子繼續長（意識／決斷）——「老將靠意識吃飯」是
- * 這條規則的直接後果，不需要另外寫特例。
- * @returns {{amount:number, phase:1|2, keys:string[], grown:string[]}|null}
- */
-export function applyAgeDecline(state, rng) {
-  const declineAge = state.age - floorOf(state, 'declineOffset', 0);
-  if (declineAge < 30) return null;
-
-  const raw = declineAge >= 33
-    ? DECLINE_LATE_BASE + (declineAge - 33) * DECLINE_LATE_STEP
-    : DECLINE_EARLY;
-  const amount = Math.max(1, raw * capOf(state, 'declineMult', 1));
-
-  const keys = DECLINE_ATTRS.filter((k) => k in state.attr);
-  for (const k of keys) {
-    // `不老傳奇` 對靈巧/技巧再減半
-    const hit = state.epic.ageless && (k === 'agi' || k === 'tec') ? Math.max(1, amount / 2) : amount;
-    state.attr[k] = clamp(state.attr[k] - stochasticRound(rng, hit), 1, attrCap(state));
-  }
-
-  // 經驗型屬性 30 歲後仍可能續升
-  const grown = [];
-  for (const k of AGING_GAIN_ATTRS) {
-    if (k in state.attr && rng.next() < 0.5) {
-      state.attr[k] = clamp(state.attr[k] + stochasticRound(rng, AGING_GAIN_AMOUNT), 1, attrCap(state));
-      grown.push(k);
-    }
-  }
-
-  return { amount: Math.round(amount * 10) / 10, phase: declineAge >= 33 ? 2 : 1, keys, grown };
 }
 
 export function attrKeys() {

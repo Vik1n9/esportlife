@@ -129,11 +129,9 @@ export function askAllocation(state, spec, onChange) {
 
         // 潛力衰減是連續的，成本不再是整數，所以顯示一律留一位小數
         const costLine = maxed ? '滿'
-          : `↑${num(thr.cost)}${thr.over ? '（已過潛力）' : ''}${carry ? ` ·蓄${num(carry)}` : ''}`;
+          : `↑${num(thr.cost)}${thr.over ? '（已過天花板）' : ''}${carry ? ` ·蓄${num(carry)}` : ''}`;
         const needLine = maxed ? ''
           : (need > 0 ? `再 ${num(need)} 點可升` : '蓄力已足，可直接升');
-        const thrLine = maxed ? ''
-          : (thr.nextAt != null ? `門檻 ${thr.nextAt} 後 ↑${num(thr.nextCost)}` : '已達最高成長門檻');
 
         const row = el('div', { class: `abrow${maxed ? ' capped' : ''}` });
         row.innerHTML = `
@@ -145,7 +143,6 @@ export function askAllocation(state, spec, onChange) {
             <b>${value}</b>
             <span class="cost">${costLine}</span>
             <span class="need">${needLine}</span>
-            <span class="thr">${thrLine}</span>
           </div>`;
         if (flash && flash.key === key) {
           row.classList.add('flash');

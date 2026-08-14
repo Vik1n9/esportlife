@@ -54,6 +54,30 @@ export function disbandNoteFor(state, year = state.year) {
 /* ---------------- 報價 ---------------- */
 
 /**
+ * 位置需求門檻（V4 §18.2 草案）：教練評價低於門檻則無報價。
+ *
+ * 這是市場淘汰制的「軟地板」——比 `phases/transfer.js` 的 `FLOOR_RATING`（38）高，
+ * 讓衰退中的老將在還不到「青訓最低標」之前就收不到報價、只剩退役。三項調整量都是
+ * 草案值，待試跑校準（§21.2）：
+ *   - 年齡越老，隊伍越不想簽（現實的 LoL 選人偏好）：30 歲後每年 +5
+ *   - 位置不缺人（草案以「最近被下放過」近似）：+4
+ *   - 先發合約剩餘 ≥ 2 年（位子還很穩，市場不缺人）：+6
+ *
+ * ⚠ 年齡項是必需的，不是加料：意識型位置（JG／SUP 的 awr/syn/dec 權重合計 97%）衰退
+ * 得極慢（「老將靠意識吃飯」），光靠衰退曲線要 50 歲才跌破門檻。年齡項把「隊伍偏愛
+ * 年輕選手」的現實寫進門檻，才有合理的退役年齡。
+ */
+const POSITION_DEMAND = { base: LEAGUES.HOME.min, ageFrom: 30, ageStep: 5, benched: 4, starterContract: 6 };
+
+export function positionDemandThreshold(state) {
+  let t = POSITION_DEMAND.base;
+  if (state.age > POSITION_DEMAND.ageFrom) t += (state.age - POSITION_DEMAND.ageFrom) * POSITION_DEMAND.ageStep;
+  if (state.benchedStreak >= 1) t += POSITION_DEMAND.benched;
+  if (state.contract && state.contract.years >= 2) t += POSITION_DEMAND.starterContract;
+  return t;
+}
+
+/**
  * 依現在的實力決定哪些聯賽會打電話來。
  *
  * 海外兩級是「高門檻、看近況」：LCK/LPL 要求上季高於該聯賽 par（delta ≥ 1.25），
@@ -65,6 +89,8 @@ export function disbandNoteFor(state, year = state.year) {
 function candidateLeagues(state) {
   const o = effectiveCoachRating(state);
   const delta = state.lastDelta || 0;
+  // §18.2 位置需求門檻：低於門檻連最低聯賽都不會報價，無報價 → 只剩退役
+  if (o < positionDemandThreshold(state)) return [];
   const gates = [
     { ready: () => o >= LEAGUES.LCK.min && delta >= 1.25, keys: ['LCK', 'LPL'] },
     { ready: () => o >= LEAGUES.LEC.min && delta >= 0, keys: ['LEC', 'LCS'] },
