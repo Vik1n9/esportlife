@@ -54,6 +54,17 @@ export function* run(g, phase) {
   if (state.stage === 'PRO') {
     state.seedRank = worldsSeed(state.champPoints);
     yield* awards(g, stat);
+    // 生涯軌跡帳本（S17a）：轉會後第一個完整賽季結束，補寫當筆 teamHistory 的
+    // 首季教練評價與隊伍平均（§14.3「流浪傭兵」的條件讀它；隊友強度讀 state.mates）。
+    // `fromYear !== state.year` 排除簽約當季（transfer 在 seasonEnd 之後，簽約年的
+    // seasonEnd 早已跑過，最早能補是下一年）
+    const entry = state.teamHistory[state.teamHistory.length - 1];
+    if (entry && entry.toYear === null && entry.firstSeasonRating === null && entry.fromYear !== state.year) {
+      entry.firstSeasonRating = effectiveCoachRating(state);
+      entry.teamAvgRating = state.mates.length
+        ? Math.round(state.mates.reduce((t, m) => t + m.rating, 0) / state.mates.length)
+        : 0;
+    }
   }
 
   if (rng.chance(38)) {
@@ -83,7 +94,17 @@ export function* run(g, phase) {
  * 舊版的門檻是「打滿一季就給」——單殺王要求 SOLO ≥ 場次 ×1.2，但 TOP/MID 的單殺
  * 基線本來就是每場 1.2～1.3，等於年年必拿；例行賽 MVP 也幾乎年年入袋。結果一段
  * 生涯堆出 40 幾項榮譽，生涯評分整個失真。這裡改成「相對於同位置基線」再加一次擲骰。
+ *
+ * 個人獎項同時寫進生涯軌跡帳本（S17a）：`awards` 計數（§14.3「究極綠葉」要求
+ * 個人獎項數 = 0）、milestone 記名目（§15.5 傳記拼接）。**不另外用字串比對算獎項**
+ * ——`awards` 必須與 `honors.push` 同一行增加（說明書明文）。
  */
+function award(state, text) {
+  state.honors.push(text);
+  state.awards += 1;
+  state.milestones.push({ year: state.year, kind: 'award', text: text.replace(`${state.year} `, '') });
+}
+
 function* awards(g, stat) {
   const { state, rng } = g;
   const o = effectiveCoachRating(state);
@@ -94,19 +115,19 @@ function* awards(g, stat) {
   // 例行賽 MVP：一個聯賽一年只有一個人拿得到
   // 0–100 重校：delta 門檻是水準量 ×1.25（3 → 3.75），機率的 per-point 係數 ÷1.25（3 → 2.4）
   if (stat.delta >= 3.75 && stat.MVP >= Math.max(4, Math.round(stat.G * 0.09)) && rng.chance(30 + stat.delta * 2.4)) {
-    state.honors.push(`${state.year} 例行賽 MVP`);
+    award(state, `${state.year} 例行賽 MVP`);
     yield card('gold', '例行賽 MVP', `以 ${stat.MVP} 次單場 MVP 拿下<b class="hl">${state.year} ${home} 例行賽 MVP</b>！`);
   }
 
   if (state.age <= 20 && stat.delta >= 2.5 && state.proYears <= 1) {
-    state.honors.push(`${state.year} 最佳新人`);
+    award(state, `${state.year} 最佳新人`);
     yield card('gold', '最佳新人', `新秀賽季即打出 <b class="hl">${stat.delta >= 5 ? '頂級' : '優秀'}</b> 表現，榮膺最佳新人。`);
   }
 
   // 單殺王：與同位置基線比較，而不是與場次比較
   const soloBaseline = STAT_BASELINE[state.role].SOLO;
   if (o >= par + 2.5 && stat.SOLO >= stat.G * soloBaseline * 1.5 && rng.chance(45)) {
-    state.honors.push(`${state.year} 單殺王`);
+    award(state, `${state.year} 單殺王`);
     yield card('gold', '單殺王', `季內累積 <b class="hl">${stat.SOLO}</b> 次單殺，冠絕 ${home}！`);
     if (state.age < 26 && unlockTrait(state, 'laneking')) {
       yield card('gold', '隱藏素質解鎖：單殺王', '對線壓制是你的本能，SOLO 產出提升。');
@@ -115,7 +136,7 @@ function* awards(g, stat) {
   }
 
   if (stat.delta >= 1.25 && rng.chance(22 + stat.delta * 3.2)) {
-    state.honors.push(`${state.year} 全明星`);
+    award(state, `${state.year} 全明星`);
     state.stats[LEAGUES[currentLeagueKey(state)].bucket].AS += 1;
     yield card('info', '全明星入選', `入選 ${state.year} ${home} 全明星。`);
   }

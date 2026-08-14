@@ -23,7 +23,7 @@ import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { bonus } from '../kernel/modifiers.js';
-import { card, drawRoleplay, fusionBeats } from './shared.js';
+import { card, drawRoleplay, fusionBeats, recordIntlGroup, recordIntlSeries } from './shared.js';
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'WORLDS';
@@ -78,6 +78,7 @@ export function* run(g) {
       stakes: 'elimination', pressure: PRESSURE.elimination,
       oppNote: '對手是賽區裡跟你爭最後一張門票的隊伍。',
     });
+    recordIntlSeries(state, res);
     yield card(res.win ? 'good' : 'bad', '地區資格賽',
       res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。');
     if (!res.win) return;
@@ -114,6 +115,7 @@ function* runTournament(g, rule, seed) {
       stakes: 'intl', pressure: PRESSURE.intl,
       oppNote: '對手是同樣從入圍賽打起的隊伍。',
     });
+    recordIntlSeries(state, res);
     yield card(res.win ? 'good' : 'bad', '入圍賽',
       res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。');
     if (!res.win) return 'playin';
@@ -132,6 +134,7 @@ function* groupStage(g, seed) {
   const { state, rng } = g;
   const oppRatings = [0, 2.5, 5].map((s) => intlOpponent(state, s, rng));
   const res = runGroup(state, rng, { oppRatings, seed });
+  recordIntlGroup(state, res);
   yield card(res.advanced ? 'good' : 'bad', '世界賽小組賽',
     `六場循環戰 <b class="${res.advanced ? 'up' : 'dn'}">${res.wins}勝 ${res.losses}敗</b>。` +
     (res.note ? `${res.note}。` : '') +
@@ -147,6 +150,7 @@ function* swissStage(g, seed) {
   const { state, rng } = g;
   const par = Math.max(LEAGUES[state.league]?.par ?? 66, 74);
   const res = runSwiss(state, rng, { par, seed });
+  recordIntlGroup(state, res);
 
   const lines = res.rounds.map((r) =>
     `第 ${r.label}（${r.record}）　BO${r.bo}　<b class="${r.win ? 'up' : 'dn'}">${r.score}</b>` +
@@ -176,6 +180,7 @@ function* knockout(g, seed) {
       stakes: round.key === 'final' ? 'final' : 'intl', pressure: PRESSURE.intl,
       oppNote: '對手是各賽區的一號種子。',
     });
+    recordIntlSeries(state, res);
     if (!res.win) return round.key === 'final' ? 'final' : round.key;
   }
   return 'champion';
@@ -191,6 +196,13 @@ function* settle(g, outcome, seed) {
   state.pendingPoints += result.points;
   state.intlAppearances += 1;
   state.lastIntlYear = state.year;
+  // 生涯軌跡帳本（S17a）：世界賽名次進事實流（rank 的冠軍／亞軍自帶「世界賽」前綴，
+  // 四強以下沒有，統一補齊——§15.5 拼接時不分兩種寫法）
+  state.milestones.push({
+    year: state.year,
+    kind: 'intl',
+    text: result.rank.startsWith('世界賽') ? result.rank : `世界賽 ${result.rank}`,
+  });
 
   if (outcome === 'champion') {
     state.worldsWins += 1;

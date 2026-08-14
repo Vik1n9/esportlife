@@ -278,3 +278,17 @@ export function* fusionBeats(g) {
       `<br><span class="muted">${t.desc}</span>`);
   }
 }
+
+/* ---------------- 生涯軌跡帳本（S17a，V4 §14.3／§15.5） ---------------- */
+
+/** 國際賽 BO5 系列賽的局勝負累進帳本。res 是 runSeriesEvent 的回傳（mine/theirs 為局數） */
+export function recordIntlSeries(state, res) {
+  state.intlRecord.W += res.mine;
+  state.intlRecord.L += res.theirs;
+}
+
+/** 國際賽小組／Swiss 循環的局勝負累進帳本（wins/losses 就是局數） */
+export function recordIntlGroup(state, res) {
+  state.intlRecord.W += res.wins;
+  state.intlRecord.L += res.losses;
+}

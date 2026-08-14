@@ -20,7 +20,7 @@ import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { bonus, floorOf } from '../kernel/modifiers.js';
-import { card, drawRoleplay, fusionBeats } from './shared.js';
+import { card, drawRoleplay, fusionBeats, recordIntlGroup, recordIntlSeries } from './shared.js';
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'MSI';
@@ -77,6 +77,7 @@ function* groupKnockout(g) {
   const oppRatings = [0, 2, 4].map((s) => intlOpponent(state, s, rng));
 
   const group = runGroup(state, rng, { oppRatings, seed: 0 });
+  recordIntlGroup(state, group);
   yield card(group.advanced ? 'good' : 'bad', 'MSI 小組賽',
     `六場循環戰 <b class="${group.advanced ? 'up' : 'dn'}">${group.wins}勝 ${group.losses}敗</b>。` +
     (group.note ? `${group.note}。` : '') +
@@ -99,6 +100,7 @@ function* doubleElim(g) {
     stakes: 'intl', pressure: PRESSURE.intl,
     oppNote: '對手是其他賽區的冠軍隊。',
   });
+  recordIntlSeries(state, first);
   yield card(first.win ? 'good' : 'bad', 'MSI 勝部',
     first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。');
 
@@ -109,6 +111,7 @@ function* doubleElim(g) {
       stakes: 'intl', pressure: PRESSURE.intl,
       oppNote: '從敗部殺回來的路，每一場都是生死戰。',
     });
+    recordIntlSeries(state, lower);
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部',
       lower.win ? '從敗部殺回來了。' : '<b class="dn">兩敗淘汰</b>。');
     if (!lower.win) return 'out';
@@ -131,6 +134,7 @@ function* knockout(g, rounds) {
       stakes: isFinal ? 'final' : 'intl', pressure: PRESSURE.intl,
       oppNote: '對手是其他賽區的冠軍隊。',
     });
+    recordIntlSeries(state, res);
 
     if (!res.win) return isFinal ? 'final' : 'semi';
   }
@@ -148,6 +152,8 @@ function* settle(g, outcome) {
   state.intlAppearances += 1;
   state.lastIntlYear = state.year;
   state.honors.push(`${state.year} ${result.rank}`);
+  // 生涯軌跡帳本（S17a）：國際賽名次進事實流，§15.5 傳記的「巔峰」段讀它
+  state.milestones.push({ year: state.year, kind: 'intl', text: result.rank });
 
   if (outcome === 'champion') { state.msiWins += 1; state.msiPodiums += 1; }
   else if (outcome === 'semi' || outcome === 'final') state.msiPodiums += 1;

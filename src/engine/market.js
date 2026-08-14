@@ -259,10 +259,38 @@ export function signContract(state, rng, { team, league, years, mult }) {
   if (changedTeam) {
     state.teamYears = 0;
     rollRoster(state, rng, league);
+    recordTeamEntry(state);
   } else {
     state.teamYears += 1;
   }
   state.forcedFA = false;
+}
+
+/**
+ * 生涯軌跡帳本（S17a，V4 §14.3／§15.5）：換隊時關掉上一筆、開新的一筆。
+ *
+ * 只在 PRO 記——§14.3 的「生涯效力」是職業路線，業餘／青訓的簽約不算職業效力。
+ * 首季評價（firstSeasonRating／teamAvgRating）由 seasonEnd 在轉會後第一個完整賽季
+ * 結束時補寫（「流浪傭兵」的條件讀它）。
+ */
+function recordTeamEntry(state) {
+  if (state.stage !== 'PRO') return;
+  const last = state.teamHistory[state.teamHistory.length - 1];
+  if (last && last.toYear === null) last.toYear = state.year;
+  const firstPro = state.teamHistory.length === 0;
+  state.teamHistory.push({
+    team: state.team,
+    league: state.league,
+    fromYear: state.year,
+    toYear: null,
+    firstSeasonRating: null,
+    teamAvgRating: null,
+  });
+  state.milestones.push({
+    year: state.year,
+    kind: firstPro ? 'debut' : 'move',
+    text: firstPro ? `出道於 ${state.team}` : `轉會至 ${state.team}`,
+  });
 }
 
 /* ---------------- 試訓 ---------------- */

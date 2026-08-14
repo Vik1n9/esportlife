@@ -21,7 +21,10 @@ import { INNATE_POOL } from '../data/innate.js';
 // v17：天生特質（S19d，V4 §1.4／§9.1）。出生流插進天生特質抽取（0/1/2 個，40/40/20%），
 // 業餘隊伍抽到英雄池之後（§1.4 寫死的順序），`mentalBias` 對齊初始心理——所有既有種子
 // 的天賦組合都會位移，舊存檔作廢
-export const SAVE_VERSION = 17;
+// v18：生涯軌跡帳本（S17a，V4 §14.3／§15.5）。新增 intlRecord／teamHistory／
+// disbandCrises／awards／milestones 五欄（§14.3 五條 route 的觸發條件與 §15.5 傳記的
+// 資料來源），與既有的總數欄位並存——舊存檔缺欄位作廢
+export const SAVE_VERSION = 18;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -231,6 +234,18 @@ export function createState({ name, role, seed }) {
     worldsFinals: 0,
     msiWins: 0,
     msiPodiums: 0,
+
+    /*
+     * 生涯軌跡帳本（V4 §14.3／§15.5，S17a）。與既有的總數欄位分開：
+     * 總數回答「拿了幾個」，帳本回答「怎麼走到這裡的」。§14.3 五條 route 路線
+     * 的觸發條件有四格讀這裡，§15.5 傳記也只從這裡拼接事實。
+     */
+    intlRecord: { W: 0, L: 0 },   // 國際賽的局勝負（MSI ＋ 世界賽，小組循環與 BO5 系列都算）
+    teamHistory: [],              // 職業效力紀錄 [{team, league, fromYear, toYear, firstSeasonRating, teamAvgRating}]
+    disbandCrises: 0,             // 生涯累計的降級危機／重建期次數（單季最多加 1）
+    awards: 0,                    // 個人獎項數（MVP／最佳新人／單殺王／全明星）
+    milestones: [],               // [{year, kind, text}] 給 §15.5 拼接用的事實流
+
     peakRating: 0,
     proYears: 0,
 

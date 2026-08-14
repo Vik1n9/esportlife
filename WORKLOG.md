@@ -1,5 +1,35 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-15 — S17a 生涯軌跡帳本：五欄帳本＋ledger 查詢層，§14.3 路線與 §15.5 傳記的共同前置
+
+- **方向**：v4.1 增訂的替代性生涯路線（§14.3 五條 route）有四格觸發條件 `state` 沒有，
+  生涯傳記（§15.5）也沒有事實來源——現況只記得總數、記不得過程（國際賽只有出場次數
+  沒有勝負場、換過哪幾支隊查不到、降級危機每季重置、獎項要靠 `includes('MVP')` 撈）。
+  S17a 就是那層資料：先記帳，S17b（任務引擎）與 S21a（傳記）才有東西可讀，兩站都不必
+  自己去改 `phases/`。
+- **五欄**：`intlRecord {W,L}`（國際賽局勝負）、`teamHistory[]`（歷任戰隊＋首季評價）、
+  `disbandCrises`（降級危機累計）、`awards`（個人獎項數）、`milestones[]`（事實流）。
+  與總數欄位並存不取代——`engine/career.js` 的評分繼續讀舊欄位。`SAVE_VERSION` 17 → 18。
+- **掛載點**（與說明書兩處出入，交接筆記已寫明）：`teamHistory` 統一掛在
+  `market.js` 的 `signContract`（所有換隊唯一入口），只在 `stage === 'PRO'` 記；個人
+  獎項全在 `seasonEnd.js` 的 `awards()`（說明書寫的 `split.js` 是舊資訊，該檔沒有
+  honors.push），4 個 `honors.push` 改走 `award()` helper 同處加 `awards`＋milestone。
+  `intlRecord` 記**局**勝負（小組循環 wins/losses＋BO5 系列 mine/theirs），勝率語感
+  與「W+L 對得上實際場數」都指向局。
+- ⚠ **首季評價的補寫時序**：`signContract` 開筆（`fromYear = 簽約年`）只留空欄，
+  轉會後第一個完整賽季結束才在 seasonEnd 補 `effectiveCoachRating` 與 `mates` 平均
+  （`fromYear !== state.year` 排除簽約當季）。復健年 seasonEnd 直接 return，當筆評價
+  拖後；期間再轉會就留 null——S17b 判「流浪傭兵」把 null 當不成立即可。
+- **實測**（40 段，seed `ledger-0..39`，focus 老手）：`intlRecord` 5/40 段打過國際賽、
+  平均總局數 16.0（勝率約 47%）；`teamHistory` 長度 1 隊 15／2 隊 14／3 隊 10／5 隊 1
+  （平均 2，**只有 1 段摸到流浪傭兵的 4 隊門檻**）；`disbandCrises` 0 次 19／1 次 17／
+  2 次 4（≥2 約 10%）；`awards` 0 項 15 段（37.5%，究極綠葉母體夠）／平均 1.9。
+  S19c 校準 §14.3 門檻直接讀這組分布。
+- **狀態**：完成。`npm test` **15187 項全綠**（新增 `tests/kernel/ledger.mjs` 873 項，
+  基線 14314）；`SAVE_VERSION` 17 → 18。S07 不變式原樣全綠——帳本只加欄位不進判定路徑。
+- **未一起處理**：route 觸發判斷（S17b）、傳記文本（S21a）、`intlRecord` 之外的事件卡
+  補述（S18）。說明書寫的 `phases/split.js` awards 掛載點為過時資訊，已寫進交接筆記。
+
 ## 2026-08-15 — S19d 種子天生特質：出生流插隊，五條天生天賦進通用池，mentalBias 對齊初始心理
 
 - **方向**：v4.3 作廢具體特質後，天生特質的「機制」只剩 schema 與抽取規則沒落地——S19d

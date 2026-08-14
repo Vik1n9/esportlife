@@ -65,6 +65,7 @@ export function* run(g) {
       return;
     }
     yield card('bad', '隊伍解散', `<b class="hl">${state.team}</b> ${note}。合約作廢，你被<b class="hl">強制送入自由市場</b>。`);
+    state.milestones.push({ year: state.year, kind: 'disband', text: `${state.team} 解散` });
     state.contract = null;
     state.forcedFA = true;
     yield* freeAgency(g, { forced: true });
@@ -81,9 +82,11 @@ export function* run(g) {
       yield card('bad', '戰隊切割',
         `${verdict.note}。<b class="hl">${state.team}</b> 單方面終止合約，你被<b class="dn">強制推上自由市場</b>，` +
         `而且這次願意接電話的隊伍不多。`);
+      state.milestones.push({ year: state.year, kind: 'fired', text: `遭 ${state.team} 切割` });
     } else {
       yield card('bad', '被迫轉隊',
         `${verdict.note}。你跟隊友之間已經沒辦法再同場訓練，<b class="hl">${state.team}</b> 把你掛上交易名單。`);
+      state.milestones.push({ year: state.year, kind: 'fired', text: `被迫離開 ${state.team}` });
     }
     yield* drawRoleplay(g, 'media');
     yield* freeAgency(g, { forced: true });

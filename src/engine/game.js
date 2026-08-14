@@ -170,6 +170,9 @@ function* yearOpen(g) {
 
   // 解散流言
   const note = state.stage === 'PRO' ? disbandNoteFor(state) : null;
+  // 生涯軌跡帳本（S17a）：由 false→true 的那一次才累計（§14.3「不滅隊魂」的
+  // 降級危機次數），不是每季都加——連兩年都有解散流言也只算一次危機
+  if (note && !state.disbandThreat) state.disbandCrises += 1;
   state.disbandThreat = !!note;
   if (note) {
     yield card('bad', '休息室流言',
