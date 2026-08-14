@@ -7,6 +7,8 @@
 > 本專案**靈感來自** [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife)，
 > 但不含原作者程式碼，詳見「[授權與出處](#授權與出處)」。
 
+![遊戲執行時工作流程](docs/esportlife-runtime-sharecard.png)
+
 ## 遊戲特色
 
 - **中度史實演進**：主場聯賽隨年份演進（GPL→LMS→PCS→LCP），賽段結構逐年（2012 單季→春／夏→2025 三賽段），MSI（2015+，2020 停辦），世界賽賽制（小組賽→入圍賽→2023 起 Swiss），席位數與種子序制度隨年份切換。

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "電競人生 · 遊戲執行時工作流程",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    { "id": "ui", "label": "開場畫面（main.js）" },
+    { "id": "boot", "label": "進入方式" },
+    { "id": "runner", "label": "Beat Runner（ui/runner.js）" },
+    { "id": "engine", "label": "生涯流程機（engine/game.js）" },
+    { "id": "phases", "label": "年度階段（phases/*）" },
+    { "id": "exceptions", "label": "退役與結算", "variant": "exception" }
+  ],
+  "phases": [
+    { "id": "opening", "label": "開場", "fromCol": 0, "toCol": 1 },
+    { "id": "loop", "label": "年度迴圈", "fromCol": 2, "toCol": 4, "variant": "emphasis" },
+    { "id": "finale", "label": "生涯結算", "fromCol": 5, "toCol": 5 }
+  ],
+  "mainPath": ["start", "newGame", "runCareer", "checkpoint", "yearOpen", "monthLoop", "drift"],
+  "nodes": [
+    { "id": "start", "lane": "ui", "col": 0, "type": "frontend", "label": "開場畫面", "sublabel": "種子 · 位置" },
+    { "id": "resume", "lane": "ui", "col": 1, "type": "frontend", "label": "續玩存檔", "sublabel": "還原亂數" },
+    { "id": "newGame", "lane": "boot", "col": 0, "type": "frontend", "label": "新開局", "sublabel": "createState" },
+    { "id": "runCareer", "lane": "runner", "col": 0, "type": "frontend", "label": "生涯執行器", "sublabel": "beat → 畫面" },
+    { "id": "checkpoint", "lane": "engine", "col": 0, "type": "database", "label": "存檔點", "sublabel": "年初存檔" },
+    { "id": "yearOpen", "lane": "engine", "col": 2, "type": "backend", "label": "年度開場", "sublabel": "重置·衰退·退役" },
+    { "id": "monthLoop", "lane": "engine", "col": 3, "type": "backend", "label": "逐月推進", "sublabel": "年曆 12 月" },
+    { "id": "phasesRun", "lane": "phases", "col": 3, "type": "backend", "label": "月階段", "sublabel": "month·split·msi", "width": 112 },
+    { "id": "drift", "lane": "engine", "col": 5, "type": "backend", "label": "體力與心智", "sublabel": "漂移＋年歲" },
+    { "id": "retire", "lane": "exceptions", "col": 2, "type": "security", "label": "RetireSignal", "sublabel": "到齡／被迫" },
+    { "id": "retirement", "lane": "exceptions", "col": 3, "type": "security", "label": "生涯結算", "sublabel": "加點 · 結算畫面" }
+  ],
+  "edges": [
+    { "from": "start", "to": "newGame" },
+    { "from": "start", "to": "resume", "label": "有存檔", "role": "branch", "fromSide": "right", "toSide": "bottom", "via": [[134, 166], [220, 166]] },
+    { "from": "newGame", "to": "runCareer", "label": "enterGame" },
+    { "from": "resume", "to": "runCareer", "fromSide": "bottom", "toSide": "right", "via": [[220, 367]] },
+    { "from": "runCareer", "to": "checkpoint", "label": "拉動 generator" },
+    { "from": "checkpoint", "to": "yearOpen" },
+    { "from": "yearOpen", "to": "monthLoop", "label": "未到退役年齡", "labelAt": [365, 530] },
+    { "from": "monthLoop", "to": "phasesRun", "label": "每月依年曆" },
+    { "from": "monthLoop", "to": "drift", "label": "12 個月走完" },
+    { "from": "drift", "to": "checkpoint", "label": "明年 · 年度迴圈", "role": "return", "variant": "dashed", "fromSide": "bottom", "toSide": "bottom", "via": [[625, 773], [88, 773]], "labelAt": [356, 773] },
+    { "from": "yearOpen", "to": "retire", "label": "到退役年齡", "role": "error", "variant": "security" },
+    { "from": "retire", "to": "retirement", "label": "接住訊號", "labelAt": [365, 700] }
+  ],
+  "cards": [
+    { "dot": "emerald", "title": "主路徑", "items": ["種子決定天賦，人生流亂數每次重開", "年度迴圈：存檔點 → 年度開場 → 12 個月 → 年歲推進", "同一個 seed 可以反覆玩，過的是不同人生"] },
+    { "dot": "cyan", "title": "Beat 協定", "items": ["引擎只 yield beat（card／month／checkpoint／choice…），不知道 DOM 存在", "runner 翻譯 beat 成畫面，把玩家 input 送回 generator", "choice 與 alloc 是唯二等待玩家的節點"] },
+    { "dot": "rose", "title": "中斷條件", "items": ["RetireSignal 是唯一拋出方式，由 careerFlow 接住後進結算", "年度開場同時檢查解散流言與復健年", "end beat 觸發清存檔，回到開場"] }
+  ]
+}
