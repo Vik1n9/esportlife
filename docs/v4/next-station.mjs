@@ -142,11 +142,12 @@ if (json) {
     console.log(`  ${brief(data.next)}`);
     console.log(`  說明書：docs/v4/${data.next.doc}`);
     console.log(`  前置：${data.next.prereqs.length ? data.next.prereqs.join(' ') : '—'}`);
+    console.log(`  ⚠ 建議模型：${data.next.model || '?'}（難度 ${data.next.difficulty || '?'}）——開工前先切換`);
   }
 
   const others = data.available.filter((s) => s !== data.next);
   if (others.length > 0) {
-    console.log('\n可並行的已解鎖站（非關鍵路徑，可開分會話做）：');
+    console.log('\n可並行的已解鎖站（非關鍵路徑，可開分會話做；每項附難度＋建議模型，選它就照那個模型切換）：');
     for (const s of others) console.log(`  ${brief(s)}`);
   }
 
