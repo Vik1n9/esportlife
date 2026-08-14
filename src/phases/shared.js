@@ -9,11 +9,12 @@ import { ATTR_NAMES } from '../data/attributes.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
 import { BASE_TRAITS } from '../data/traits.js';
-import { EPIC_TRAITS } from '../data/epics.js';
-import { adjustAttr, skillValue } from '../engine/attributes.js';
+import { adjustAttr } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
 import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progression.js';
-import { flag, lookupTrait, traitName, traitTier } from '../kernel/modifiers.js';
+import { STAMINA_MAX } from '../engine/stamina.js';
+import { eventOdds, FLAG_TRAIT, TRAIT_FLAGS } from '../engine/eventTrigger.js';
+import { flag, lookupTrait, traitTier } from '../kernel/modifiers.js';
 
 export const card = (tone, title, body) => ({ type: 'card', tone, title, body });
 
@@ -23,80 +24,25 @@ function scaleAmount(v, mult) {
   return Math.sign(v) * Math.max(1, Math.round(Math.abs(v) * mult));
 }
 
-/** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效 */
-const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk',
-  'grinder', 'meme', 'camera', 'guardian'];
-
-/** flag 名稱 → 解鎖定義。事件卡的 trait 解鎖都走這張表，不逐條 if。
- *  `key` 對應特質鍵；`need` 是額外門檻（除了 flag 之外還要達成的條件）；
- *  `chance` 是解鎖機率（有值＝解鎖要擲骰）；`blockIf` 是禁止解鎖的條件。 */
-const FLAG_TRAIT = {
-  popular: { key: 'popular' },
-  composure: { key: 'composure' },
-  leader: { key: 'leader' },
-  laneking: { key: 'laneking', need: (s) => s.age < 28 },
-  // `營運鬼才` 的門檻原本掛在已被拆掉的「大局觀」上。十二技能表裡它的後繼是「轉線運營」
-  // （舊 awr .55／dec .35／syn .10 對新 .50／.35／.15，同一批屬性同一個量級），所以
-  // 門檻 75 原封不動搬過來，難度沒有跟著換表而鬆動
-  macroPoint: { key: 'macroG', need: (s) => skillValue(s, 'rotate') >= 75 },
-  grinder: { key: 'grinder' },
-  meme: { key: 'meme' },
-  camera: { key: 'camera' },
-  guardian: { key: 'guardian' },
-  tiltRisk: { key: 'tilt', chance: 25, blockIf: (s) => flag(s, 'tiltImmune') },
-};
-
-/** 一張事件卡所有選項／結果可能解鎖的特質鍵。純資料推導，不放邏輯。 */
-function unlockableTraits(ev) {
-  const set = new Set();
-  const collect = (flags) => {
-    if (!flags) return;
-    for (const [f, def] of Object.entries(FLAG_TRAIT)) if (flags[f]) set.add(def.key);
-  };
-  collect(ev.good.flags); collect(ev.bad.flags);
-  for (const o of ev.options) {
-    collect(o.flags);
-    if (o.on) { collect(o.on.good.flags); collect(o.on.bad.flags); }
-  }
-  return [...set];
-}
-
-/**
- * 目前「還抽得到」的事件卡。
- *
- * 類 roguelike：事件卡會**耗盡**。一張卡能解鎖的特質若全部都已取得（持有或已合成
- * 消耗），這張卡就摸不到了——玩家不會被同一張「最初教會他一招」的卡反覆餵食，反而
- * 有機會碰到更多種不同的事件。純敘事卡（不解鎖任何特質）永遠在池裡。
- *
- * 另外追蹤最近出過的卡，避免短時間內連著重複。兩層都只縮減「抽選範圍」，不會把池子
- * 抽空——耗盡後自動放回全池。
- */
-function availableEvents(state) {
-  const base = EVENT_CARDS.filter((ev) => {
-    const traits = unlockableTraits(ev);
-    if (!traits.length) return true;
-    return traits.some((t) => !state.traits[t] && !state.fusedAway.includes(traitName(t)));
-  });
-  const recent = state.recentEvents || [];
-  const fresh = base.filter((ev) => !recent.includes(ev.id));
-  return (fresh.length ? fresh : base);
-}
-
-function optionNote(opt, bonus) {
-  const odds = clamp((opt.odds ?? 50) + bonus, 5, 95);
+function optionNote(state, opt) {
+  const odds = eventOdds(state, opt);
   const scale = (opt.gain ?? 1) !== 1 || (opt.loss ?? 1) !== 1
     ? `　成功 ×${opt.gain ?? 1}／失敗 ×${opt.loss ?? 1}` : '';
   return `成功率 ${Math.round(odds)}%${scale}`;
 }
 
 /**
- * 抽一張能力事件卡。這裡會擲骰——事件卡是賭博，扮演卡不是。
+ * 呈現並結算一張能力事件卡。**抽卡不發生在這裡**——這個月出哪張卡由
+ * `engine/eventTrigger.js` 的觸發引擎決定（條件優先、時段過濾、互斥），這裡只回答
+ * 「這張卡出了之後玩家怎麼應對、結果長什麼樣」。這裡會擲骰——事件卡是賭博，
+ * 扮演卡不是。
+ *
+ * @param {object} g
+ * @param {object} ev 要呈現的事件卡（`eventTrigger` 選出的）
+ * @param {{fromChain?:boolean}} [opts] 連鎖觸發的卡不再追連鎖（防環）
  */
-export function* drawEvent(g) {
+export function* drawEvent(g, ev, { fromChain = false } = {}) {
   const { state, rng } = g;
-  const ev = rng.pick(availableEvents(state));
-  const recent = state.recentEvents || [];
-  state.recentEvents = [...recent, ev.id].slice(-6);
 
   yield card('', ev.name, ev.prompt);
 
@@ -104,13 +50,13 @@ export function* drawEvent(g) {
     type: 'choice',
     title: `${ev.name}：你怎麼應對？`,
     options: ev.options.map((o) => ({
-      id: o.id, label: o.label, main: !!o.main, note: optionNote(o, 0),
+      id: o.id, label: o.label, main: !!o.main, note: optionNote(state, o),
     })),
   };
   const opt = ev.options.find((o) => o.id === pickedId) || ev.options[0];
 
   const immune = flag(state, 'indulgentImmune') && ev.kind === 'indulgent';
-  const good = immune || rng.chance(clamp(opt.odds ?? 50, 5, 95));
+  const good = immune || rng.chance(eventOdds(state, opt));
   // 選項若帶自己的 `on` 結果，就用自己的 good/bad——例如「關台／休息／不看」這類
   // 跟卡片主軸相反的路，套卡片的通用結果會顯得牛頭不對馬嘴。
   const outcome = opt.on ? (good ? opt.on.good : opt.on.bad) : (good ? ev.good : ev.bad);
@@ -123,6 +69,14 @@ export function* drawEvent(g) {
     if (applied > 0) notes.push(`${ATTR_NAMES[k]} <span class="up">+${applied}</span>`);
     else if (applied < 0) notes.push(`${ATTR_NAMES[k]} <span class="dn">${applied}</span>`);
   }
+  // 體力與心理六維是 S17 新加的結果欄位（§12.2），S18 內容站開始填。體力是消耗資源，
+  // 跟屬性一樣吃選項倍率；心理是「你變成什麼人」，跟扮演卡一樣不縮放
+  if (outcome.stamina) {
+    const applied = scaleAmount(outcome.stamina, mult);
+    state.stamina = clamp((state.stamina ?? 0) + applied, 0, STAMINA_MAX);
+    notes.push(`體力 <span class="${applied >= 0 ? 'up' : 'dn'}">${applied >= 0 ? '+' : ''}${applied}</span>`);
+  }
+  if (outcome.mental) notes.push(...applyMental(state, outcome.mental));
 
   const unlocked = [];
   const flags = { ...(outcome.flags || {}), ...(opt.flags || {}) };
@@ -170,11 +124,19 @@ export function* drawEvent(g) {
       `隱藏素質${key === 'tilt' ? '出現' : '解鎖'}：${t.name}`, t.desc);
   }
   if (unlocked.length) yield* fusionBeats(g);
+  // 觸發後續事件（連鎖，§12.2「各選項結果…觸發後續事件」）。連鎖的卡不再追連鎖，
+  // 防 A→B→A 死環；S18 內容站填 `chain` 欄位時生效
+  if (outcome.chain && !fromChain) {
+    for (const id of outcome.chain) {
+      const next = EVENT_CARDS.find((c) => c.id === id);
+      if (next) yield* drawEvent(g, next, { fromChain: true });
+    }
+  }
 }
 
-/** 連抽 n 張事件卡（不解鎖特質的事件也算，純粹增加人生岔路）。 */
-export function* drawEvents(g, n) {
-  for (let i = 0; i < n; i++) yield* drawEvent(g);
+/** 連抽一組事件卡（不解鎖特質的事件也算，純粹增加人生岔路）。 */
+export function* drawEvents(g, evs) {
+  for (const ev of evs) yield* drawEvent(g, ev);
 }
 
 /* ================= 扮演 ================= */

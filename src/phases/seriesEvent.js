@@ -131,9 +131,10 @@ export function* runSeriesEvent(g, {
     : `體力 +${Math.round(recover(state, -tactic.cost))}`;
 
   /*
-   * 隨機事件判定。TODO(S17)：V4 §12.1 的事件觸發引擎（條件優先、互斥）接在這裡，
-   * 現行先用手擲的兩條風險——research 被反制、bootcamp 受傷。它們只影響這一輪，
-   * 不抽事件卡：賽事期抽事件卡會引入屬性變化，等於讓玩家用季後賽刷屬性。
+   * 隨機事件判定：賽事期**刻意不抽月度事件卡**。V4 §12.1 的觸發引擎只服務養成回合
+   * 的月度判定（`phases/month.js` 第 5 步）；賽事期抽事件卡會引入屬性變化，等於
+   * 讓玩家用季後賽刷屬性。所以這裡只有手擲的兩條風險——research 被反制、bootcamp
+   * 受傷。它們只影響這一輪。
    */
   if (tactic.risk === 'counter' && rng.chance(20)) {
     mod = -4;
