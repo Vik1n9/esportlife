@@ -40,7 +40,7 @@ import { currentLeagueKey, stageLabel } from './roster.js';
 import { monthlyDrift } from './stamina.js';
 import { tickActiveEffects } from './training.js';
 import { PHASES } from '../phases/index.js';
-import { card } from '../phases/shared.js';
+import { card, questBeats } from '../phases/shared.js';
 
 // 舊入口：UI 與測試都從這裡拿階段顯示名
 export { stageLabel };
@@ -71,6 +71,9 @@ export function* careerFlow(g) {
     state.retireReason = err.reason;
   }
 
+  // 生涯結束：進行中的任務先算一次達成（目標已滿足的照發），其餘以退役收束——
+  // 生涯結束等於所有期限都到了，不該留下永遠掛著的卡（§12.3 期限語意）
+  yield* questBeats(g, { forced: true });
   yield* retirement(g);
   yield { type: 'end' };
 }
@@ -118,6 +121,9 @@ function* runYear(g) {
       const mod = PHASES[phase.kind];
       if (mod) yield* mod.run(g, phase);
     }
+    // 生涯任務結算（§12.3，S17b）：每個結算點跑一次開卡／達成／失敗。
+    // 排在該月階段之後——這個月發生的戰績與特質變化，當月就算進任務進度
+    yield* questBeats(g);
     monthlyDrift(state);
     tickActiveEffects(state);
   }

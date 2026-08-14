@@ -13,6 +13,7 @@ import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { LEAGUES } from '../data/leagues.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
+import { QUEST_CARDS } from '../data/quests.js';
 import { patchPenalty, roleSkills, skillValue } from '../engine/attributes.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
@@ -120,6 +121,24 @@ function traitDescByName(name) {
   return '';
 }
 
+/** 進行中的生涯任務（S17b，§12.3「進度與期限可見」的最小呈現：卡名＋目標＋剩餘賽季數） */
+function questRows(state) {
+  const active = state.quests?.active ?? [];
+  if (!active.length) return '<span class="muted">尚無進行中的任務</span>';
+  const byId = new Map(QUEST_CARDS.map((c) => [c.id, c]));
+  return active.map((q) => {
+    const card = byId.get(q.id);
+    if (!card) return '';
+    const left = q.deadlineYear == null
+      ? '生涯結束前'
+      : `剩 ${Math.max(0, q.deadlineYear - state.year + 1)} 賽季`;
+    return `<div class="abrow static">
+      <div class="nm">${escapeHtml(card.name)}</div>
+      <div class="val"><span class="cost">${escapeHtml(card.goalText)} · ${left}</span></div>
+    </div>`;
+  }).join('');
+}
+
 /** 個人特質：小箭頭可展開，顯示該特質的作用（不顯示獲取來源）。高階特質排前面。 */
 function traitRows(state) {
   const rows = [];
@@ -219,6 +238,12 @@ function renderPanel() {
       <h5>隱藏素質</h5>
       <div class="trait-list">${traitList}</div>
       <p class="muted small">▸ 點開查看各特質的作用；劃線＝已被合成消耗。</p>
+    </section>
+
+    <section>
+      <h5>生涯任務（${state.quests?.active?.length ?? 0}）</h5>
+      ${questRows(state)}
+      <p class="muted small">目標與期限都看得到——看不到就不成決策（§12.3）。</p>
     </section>
 
     <section>

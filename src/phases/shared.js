@@ -8,10 +8,12 @@ import { clamp } from '../core/rng.js';
 import { ATTR_NAMES } from '../data/attributes.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
+import { QUEST_CARDS } from '../data/quests.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { adjustAttr } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
 import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progression.js';
+import { settleQuests } from '../engine/quests.js';
 import { STAMINA_MAX } from '../engine/stamina.js';
 import { eventOdds, FLAG_TRAIT, TRAIT_FLAGS } from '../engine/eventTrigger.js';
 import { flag, lookupTrait, traitTier } from '../kernel/modifiers.js';
@@ -256,4 +258,62 @@ export function recordIntlSeries(state, res) {
 export function recordIntlGroup(state, res) {
   state.intlRecord.W += res.wins;
   state.intlRecord.L += res.losses;
+}
+
+/* ---------------- 生涯任務（S17b，V4 §12.3） ---------------- */
+
+const QUEST_CARD_BY_ID = new Map(QUEST_CARDS.map((c) => [c.id, c]));
+
+/** 期限的人話：賽季數 → 「N 個賽季內」，null → 「生涯結束前」 */
+function deadlineText(deadline) {
+  return deadline == null ? '生涯結束前' : `${deadline} 個賽季內`;
+}
+
+/**
+ * 生涯任務結算的呈現接點（規則在 engine/quests.js，這裡只把結算報告講成故事）。
+ *
+ * 每月在 engine/game.js 的月迴圈結尾跑一次；`forced` 是退役當下再跑一次——進行中
+ * 的卡目標已滿足的照發，其餘全部以退役收束（生涯結束等於所有期限都到了）。
+ *
+ * 失敗通知不得靜默（v4.2）：素材失效要講清楚是哪一張卡吃掉哪個素材。
+ */
+export function* questBeats(g, { forced = false } = {}) {
+  const { state } = g;
+  const report = settleQuests(state, QUEST_CARDS, { forced });
+
+  for (const q of report.opened) {
+    const qc = QUEST_CARD_BY_ID.get(q.id);
+    if (!qc) continue;
+    const parts = [
+      qc.text,
+      qc.materialText ? `<span class="muted">${qc.materialText}</span>` : '',
+      `<span class="muted">${qc.goalText}　期限：${deadlineText(qc.deadline)}</span>`,
+    ].filter(Boolean).join('<br>');
+    yield card('info', `生涯任務開啟：${qc.name}`, parts);
+  }
+
+  for (const q of report.achieved) {
+    const qc = QUEST_CARD_BY_ID.get(q.id);
+    if (!qc) continue;
+    const result = qc.result;
+    const labelNote = result.label ? `，並為你的生涯刻下標籤「<b class="hl">${result.label}</b>」` : '';
+    yield card('gold', `生涯任務達成：${qc.name}`,
+      `${qc.goalText.replace('達成目標：', '')} —— 你在期限內做到了。` +
+      (qc.materialText ? `<br><span class="muted">${qc.materialText.replace('所需素材：', '素材：')}（已消耗）</span>` : '') +
+      labelNote);
+  }
+
+  for (const q of report.failed) {
+    const qc = QUEST_CARD_BY_ID.get(q.id);
+    if (!qc) continue;
+    const why = q.reason.kind === 'deadline'
+      ? `期限到了，${qc.goalText.replace('達成目標：', '')} 沒有達成。`
+      : q.reason.kind === 'retirement'
+        ? '生涯已經落幕，未竟的目標永遠停在這裡。'
+        : q.reason.eater
+          ? `所需素材「${q.reason.material}」被<b class="hl">${q.reason.eater}</b>的任務達成消耗——這條路走不通了。`
+          : `所需素材「${q.reason.material}」已不在身上（合成或維持條件消耗）——這條路走不通了。`;
+    const labelNote = qc.failLabel ? `<br><span class="muted">這件事沒有完成，但生涯為你記下一筆：「${qc.failLabel}」。</span>` : '';
+    yield card('bad', `生涯任務失敗：${qc.name}`, `${why}${labelNote}`);
+  }
 }

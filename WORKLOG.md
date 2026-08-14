@@ -1,4 +1,34 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-15 — S17b 生涯任務引擎：傳說唯一發放口落地，三個判斷成本定案，假卡量測校準 11.3% 傳說持有率
+
+- **方向**：V4 v4.1 把傳說特質從「自動合成」改成「只由生涯任務卡發放」——20 組素材
+  組合原地轉成 20 張卡的觸發條件，另 5 張 route 卡給平庸局終點。S17a 做了資料層
+  （生涯軌跡帳本），這一站做引擎：每月結算的狀態機（開卡 → 達成／逾期），加
+  v4.2 三條規則（素材失效即失敗、失敗通知指名、同結算點排序）與 v4.3 心理六維
+  可當條件。
+- **三個判斷成本定案**：①素材達成時才消耗（§14.1 已寫死；開卡就吃＝逾期白虧兩個
+  特質）；②期限以賽季計 `deadlineYear = 開卡年 + deadline − 1`（月為單位會受 S14
+  月推進節奏影響）；③失敗一律降階為生涯標籤，**不讓 legend 掉成史詩**（防史詩
+  持有率被灌水）。標籤無 effects、不進合成樹、modifiers 讀不到。
+- **引擎結構**：`settleQuests(state, cards, {forced})` 三步——開卡（legend 一律
+  引擎層 AND `LEGEND_BASELINE=['stat','intlSemis','gte',1]`，§14.2 守門員不逐卡
+  複製）→ 依 (openedYear, openedMonth) 先開先吃、達成才消耗並寫 `quests.log` →
+  期限／素材失效／退役 → 永久失敗。條件式求值器 `conditions.js` 純函式，QUERIES
+  20＋ 個（含 mental 六維），`collectMaterials` 只收正向 has／hasCount。呈現
+  `questBeats` 掛進 game.js 月迴圈（phases 後、monthlyDrift 前）與退役收束
+  （forced：目標已滿足照發、其餘全失敗）。
+- ⚠ **兩個咬人的坑**：`questBeats` 內層變數叫 `card` 遮蔽 shared.js 的 `card()`
+  產生器直接炸；強制退役收束若跳過達成迴圈，目標已達成的卡會全被誤判失敗（測試
+  鎖住）。測試 helper 的 `deadline ?? 2` 會吃掉 `deadline: null`。
+- **實測**（playMatrix 16 seeds × 5 角色 = 160 段）：legend-evergreen 開 20／成 5／
+  敗 15，route-region-ruler 開 4／成 1／敗 3。開卡率 15%、達成率 3.75%、逾期率
+  11.25%；傳說持有生涯 18/160 = **11.3%**（S07 ≤50% 餘裕大）；帶失敗標籤 17/160。
+  同條件重測 S17a 的「semis 生涯 prophet+star」為 15/32（原筆記 20/32，種子集略異，
+  已在交接筆記更正）。
+- **狀態**：完成。`npm test` **15674 項全綠**（新增 conditions 35＋quests 40 項）。
+  SAVE_VERSION 18 → 19。假卡會出現在真實遊戲直到 S18 換表；S19c 用本站數字校準
+  期限與目標難度。未做：20＋5 張內容卡（S18）、敘事寫作與美化（S21）。
+
 ## 2026-08-15 — S20 扮演卡重新對映：三維行為對映補完內容缺口，glue／idol 兩個死路門檻重寫
 
 - **方向**：S12 把心理維度換成六維＋聲量時只做了機械對映（nerve→comp、chem→trust、

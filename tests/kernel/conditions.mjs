@@ -1,0 +1,117 @@
+/**
+ * 條件式求值器（V4 §12.3，S17b）。
+ *
+ * 這組測試存在的理由就是防止有人把觸發條件寫回固定欄位（`needEpic`／`needRare`
+ * 那種）：三種形狀——「一史詩＋一稀有」「兩個稀有」「賽事成績＋一個稀有」——
+ * 都必須通得過，形狀被鎖死的話第二與第三個會紅。
+ */
+import { createState } from '../../src/engine/state.js';
+import {
+  collectMaterials, consumeMaterial, evalCond, materialHeld,
+} from '../../src/engine/conditions.js';
+
+export const name = '條件式求值器（S17b）';
+
+const fresh = (extra = {}) => Object.assign(
+  createState({ name: 'C', role: 'MID', seed: 'cond' }), extra,
+);
+
+export async function run({ check }) {
+  /* ---- 布林組合與比較子 ---- */
+  {
+    const s = fresh({ age: 30, splitTitles: 3, awards: 2, role: 'MID' });
+    check('and 全部命中才真', evalCond(s, ['and', ['stat', 'age', 'gte', 30], ['stat', 'splitTitles', 'gte', 3]]));
+    check('and 一項沒過就假', !evalCond(s, ['and', ['stat', 'age', 'gte', 31], ['stat', 'splitTitles', 'gte', 3]]));
+    check('or 任一命中即真', evalCond(s, ['or', ['stat', 'age', 'gte', 99], ['stat', 'splitTitles', 'gte', 3]]));
+    check('not 反轉', evalCond(s, ['not', ['stat', 'age', 'gte', 99]]));
+    check('比較子：lt／lte／eq／gte／gt／ne 全數可用', Object.entries({
+      lt: [3, 4], lte: [3, 4], eq: [3, 3], gte: [3, 3], gt: [3, 2], ne: [3, 2],
+    }).every(([op, [a, b]]) => evalCond(Object.assign({}, s, { awards: a }), ['stat', 'awards', op, b])), '');
+    check('null 節點＝永遠真', evalCond(s, true));
+  }
+
+  /* ---- 特質持有謂詞：has／hasCount ---- */
+  {
+    const s = fresh();
+    s.epic = { godhand: true, ultstage: true };
+    s.rare = { star: true };
+    check('has 命中', evalCond(s, ['has', 'epic', 'godhand']));
+    check('has 未持有', !evalCond(s, ['has', 'epic', 'soloking']));
+    check('has 跨階（rare 不跟 epic 混）', !evalCond(s, ['has', 'rare', 'godhand']));
+    check('hasCount 數目夠', evalCond(s, ['hasCount', 'epic', 2]));
+    check('hasCount 數目不足', !evalCond(s, ['hasCount', 'epic', 3]));
+  }
+
+  /* ---- 三種形狀都通得過（防寫回固定欄位的守門員） ---- */
+  {
+    const s = fresh();
+    s.epic = { godhand: true };
+    s.rare = { star: true, machine: true };
+    s.splitTitles = 2;
+    s.milestones = [{ year: 2016, kind: 'intl', text: '世界賽 四強止步' }];
+
+    const shape1 = ['and', ['has', 'epic', 'godhand'], ['has', 'rare', 'star']];
+    const shape2 = ['and', ['hasCount', 'rare', 2], ['stat', 'splitTitles', 'gte', 1]];
+    const shape3 = ['and', ['stat', 'worldsBest', 'lte', 4], ['has', 'rare', 'machine']];
+    check('形狀 1：一史詩＋一稀有', evalCond(s, shape1));
+    check('形狀 2：兩個稀有（hasCount）', evalCond(s, shape2));
+    check('形狀 3：賽事成績＋一個稀有', evalCond(s, shape3));
+
+    s.rare = { star: true };
+    check('形狀 2：少一個稀有就不過', !evalCond(s, shape2));
+    check('形狀 3：成績沒到就不過', !evalCond(s, ['and', ['stat', 'worldsBest', 'lte', 2], ['has', 'rare', 'machine']]));
+  }
+
+  /* ---- 純函式性：同一顆 state 求值兩次結果相同、state 不被改動 ---- */
+  {
+    const s = fresh({ age: 33 });
+    const before = JSON.stringify(s);
+    const node = ['and', ['stat', 'age', 'gte', 30], ['or', ['has', 'epic', 'godhand'], ['stat', 'awards', 'eq', 0]]];
+    const r1 = evalCond(s, node);
+    const r2 = evalCond(s, node);
+    check('重複求值結果一致（純函式）', r1 === r2);
+    check('求值沒有副作用（state 原封不動）', JSON.stringify(s) === before);
+  }
+
+  /* ---- 心理六維可當條件（v4.3 第三條約束廢止） ---- */
+  {
+    const s = fresh({ mental: { comp: 35 } });
+    check('心理謂詞：comp 跌破某值', evalCond(s, ['stat', 'comp', 'lt', 40]));
+    check('心理謂詞：comp 沒跌破', !evalCond(s, ['stat', 'comp', 'gte', 40]));
+  }
+
+  /* ---- 素材收集（§14.1「被條件式讀到的素材」） ---- */
+  {
+    const s = fresh();
+    s.epic = { godhand: true, ultstage: true, soloking: true };
+    s.rare = { star: true, machine: true };
+
+    const mixed = ['and', ['has', 'epic', 'godhand'], ['hasCount', 'rare', 2], ['not', ['has', 'epic', 'soloking']]];
+    const mats = collectMaterials(mixed);
+    check('collectMaterials 收正向 has 與 hasCount，不收 not has',
+      mats.length === 2 && mats.some((m) => m.tier === 'epic' && m.key === 'godhand')
+      && mats.some((m) => m.tier === 'rare' && m.count === 2), JSON.stringify(mats));
+
+    check('materialHeld：指名鍵在', materialHeld(s, { tier: 'epic', key: 'godhand' }));
+    check('materialHeld：數目夠', materialHeld(s, { tier: 'rare', count: 2 }));
+    check('materialHeld：數目不足', !materialHeld(s, { tier: 'epic', count: 4 }));
+
+    const eaten = consumeMaterial(s, { tier: 'rare', count: 2 });
+    check('consumeMaterial 吃任意 n 個（hasCount 沒有指名鍵）', eaten.length === 2, JSON.stringify(eaten));
+    check('hasCount 消耗後持有數下降', Object.values(s.rare).filter(Boolean).length === 0);
+    const eaten2 = consumeMaterial(s, { tier: 'epic', key: 'godhand' });
+    check('consumeMaterial 指名鍵吃那一個', eaten2.length === 1 && eaten2[0].key === 'godhand');
+    check('指名鍵消耗後已不在身上', !s.epic.godhand);
+  }
+
+  /* ---- 未知節點要爆，不要靜默當真 ---- */
+  {
+    const s = fresh();
+    let threw = false;
+    try { evalCond(s, ['frobnicate', 1]); } catch { threw = true; }
+    check('未知節點丟錯（不靜默）', threw);
+    let threw2 = false;
+    try { evalCond(s, ['stat', 'nonexistentQuery', 'gte', 1]); } catch { threw2 = true; }
+    check('未知謂詞丟錯（不靜默）', threw2);
+  }
+}

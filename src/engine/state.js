@@ -24,7 +24,10 @@ import { INNATE_POOL } from '../data/innate.js';
 // v18：生涯軌跡帳本（S17a，V4 §14.3／§15.5）。新增 intlRecord／teamHistory／
 // disbandCrises／awards／milestones 五欄（§14.3 五條 route 的觸發條件與 §15.5 傳記的
 // 資料來源），與既有的總數欄位並存——舊存檔缺欄位作廢
-export const SAVE_VERSION = 18;
+// v19：生涯任務（S17b，V4 §12.3）。新增 quests（進行中／已結算的任務卡與素材消耗
+// log）與 labels（生涯標籤：任務失敗降階或 route 達成的產物，不進合成樹、不吃
+// modifiers），傳說特質的唯一發放口上線——舊存檔作廢
+export const SAVE_VERSION = 19;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -245,6 +248,17 @@ export function createState({ name, role, seed }) {
     disbandCrises: 0,             // 生涯累計的降級危機／重建期次數（單季最多加 1）
     awards: 0,                    // 個人獎項數（MVP／最佳新人／單殺王／全明星）
     milestones: [],               // [{year, kind, text}] 給 §15.5 拼接用的事實流
+
+    /*
+     * 生涯任務（V4 §12.3，S17b）。狀態機住 engine/quests.js，這裡只存：
+     * active 是進行中（開卡年／月、期限年），done 是已結算（達成／失敗＋原因），
+     * log 是素材消耗帳（時間點＋來源——v4.2 失敗通知與 §15.5 傳記要回答
+     * 「哪張卡吃掉哪個素材、什麼時候」）。
+     */
+    quests: { active: [], done: [], log: [] },
+    labels: [],                   // 生涯標籤：任務失敗降階或 route 達成的產物。
+                                  // 沒有 effects、不進合成樹、不吃 modifiers——只是
+                                  // 給 §15.5 傳記與結算畫面讀的字串（§12.3）
 
     peakRating: 0,
     proYears: 0,
