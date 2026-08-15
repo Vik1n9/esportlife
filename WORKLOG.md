@@ -1,4 +1,35 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-15 — S18a 內容編輯器：schema 驅動的五分頁工具落地，關係檢查揭出 7 條死配方現況
+
+- **方向**：S18（事件卡 26 → 80~150＋25 任務卡）與 S19b（傳說 6 → 20）是全線最大
+  兩塊內容工，手寫要同時記住欄位名、條件式語法、效果四寫法、素材分池——記錯一項
+  測試才告訴你。v4.3.1 把事件卡與特質卡編輯器合併成單一系統（§14.8）：跨資料的
+  關係檢查（素材競態／死配方／觸發斷裂）必須同時看到兩套 schema 才做得出來。
+- **工具結構**：`tools/` 零建置純 ESM——`schema.js` 是欄位權威（SCHEMAS 六類＋
+  EFFECT_KEYS 43 鍵＋PREDICATES 25 謂詞），`editor.js` 依它渲染表單；直接 import
+  `src/data/*.js` 填下拉，永不與遊戲資料脫節。五個分頁：事件卡（含訓練卡）／特質卡
+  ／任務卡／配方／天生特質；輸出只有剪貼簿與下載 .js 片段；頁面明寫「開發者工具，
+  非遊戲內容」，遊戲不連過去。
+- **效果鍵清單來自消費端 grep**：modifiers.js 四查詢＋§7.2 六窗口（peak_age_shift
+  加法、其餘乘法）＋psych 六鍵＋market.js 動態 capKey（contractCap/contractCapShort）。
+  打錯效果鍵特質會靜靜地沒有效果——「不被引擎消費」檢查是工具最貴的價值。
+- **關係檢查現況**：7 條死配方（franchise/genius/clutch/meta/intlghost/underdog
+  素材無來源）＋10 條池內競態（warn）＋0 斷裂＋0 未消費＋0 池問題。死配方是
+  S18／S19b／S19c 要補的內容缺口，不是工具 bug——別把「關係檢查有紅」當成沒做完。
+- ⚠ **踩過的坑**：TABS 解構取 `[2]` 才是 schema id 清單；cond 欄位要先寫回 value
+  再跑 live-errs（順序反了驗證晚一拍）；輸出 pre 要隨 onChange 更新（否則複製到
+  舊內容）；關係檢查與圖譜共用 `.graph-overlay` 要互蓋；複製條目時 `solo_*` excl
+  要改 `solo_<newKey>`；FLAG_KEYS／ALL_TRAIT_KEYS 必須在 SCHEMAS 前宣告。
+- **實測結論**：playwright 冒煙——五個分頁載入既有條目並編輯、故意填選項 1 個／
+  窗口 op 用錯／不存在的謂詞都當場紅、圖譜渲染 54 節點 49 邊（座標全在 viewBox 內）。
+  完成定義第 4 項實作：工具複製 solo_queue→solo_queue_copy、grinder→grinder_copy，
+  貼進資料檔後引擎吃得下、語法過、唯一失敗是特質總數斷言 54→55（寫死的快照，
+  內容站要更新），移除後回復。
+- **狀態**：完成。`npm test` **15674 項全綠**，`git diff --stat -- src/ tests/`
+  為空，`index.html` 未動。新增 `tools/{index.html,editor.js,schema.js,editor.css,
+  README.md}`。SAVE_VERSION 不動（純工具站，無存檔結構變動）。未做：遊戲內容
+  （S18／S19b／S19c）、取得率 ≥15% 實測線（S19c）。
+
 ## 2026-08-15 — S17b 生涯任務引擎：傳說唯一發放口落地，三個判斷成本定案，假卡量測校準 11.3% 傳說持有率
 
 - **方向**：V4 v4.1 把傳說特質從「自動合成」改成「只由生涯任務卡發放」——20 組素材

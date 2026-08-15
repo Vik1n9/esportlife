@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d202b">
+<title>內容編輯器 — 電競人生（開發者工具）</title>
+<link rel="stylesheet" href="./editor.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <span class="brand">內容編輯器</span>
+    <span class="tag">開發者工具，非遊戲內容</span>
+  </header>
+  <p class="top-note">
+    編輯 V4 的事件卡／特質卡／生涯任務卡／合成配方／天生特質。只面向專案開發者——
+    遊戲不從任何地方連到這裡。輸出只有剪貼簿與下載 .js 片段，貼回
+    <code>src/data/*.js</code> 之後跑 <code>npm test</code> 驗證。
+  </p>
+</div>
+<script type="module" src="./editor.js"></script>
+</body>
+</html>
