@@ -131,6 +131,37 @@ button{font-family:var(--ui)}
 .list-item{border:1px dashed var(--edge);border-radius:var(--r-sm);padding:6px;display:flex;flex-direction:column;gap:6px}
 .list-head{display:flex;justify-content:space-between;align-items:center}
 
+/* 條件式積木（S18b）——縮排靠 renderNode 的 margin-inline-start，這裡只給框線與配色 */
+.cond-wrap{display:flex;flex-direction:column;gap:6px}
+.cond-modes{display:flex;gap:4px}
+.btn-mini.on{background:var(--action);color:#fff;border-color:var(--action-hi)}
+.cond-node{
+  border-inline-start:2px solid var(--edge);padding:4px 0 4px 8px;
+  display:flex;flex-direction:column;gap:4px;
+}
+.cond-node:has(> .cond-leaf){border-inline-start-color:var(--steel)}
+.cond-head{display:flex;gap:4px;align-items:center}
+.cond-kind{
+  background:var(--raise);color:var(--link);border:1px solid var(--edge);
+  border-radius:var(--r-sm);padding:2px 6px;font-size:12px;
+}
+.cond-leaf{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.cond-leaf select,.cond-leaf input{
+  background:var(--raise);color:var(--text);border:1px solid var(--edge);
+  border-radius:var(--r-sm);padding:2px 6px;font-size:12px;font-family:var(--mono);
+}
+.cond-leaf select{max-width:200px}
+.cond-num{width:74px}
+
+/* 常駐橫幅（天生池取得率） */
+.banner{
+  font-size:12px;padding:6px 10px;border-radius:var(--r-sm);margin-bottom:8px;
+  border:1px solid var(--edge);background:var(--panel);
+}
+.banner.info{color:var(--dim)}
+.banner.warn{color:var(--warn);border-color:#5a4a1c}
+.banner.error{color:var(--bad);border-color:#5a2c2c}
+
 /* 輸出 */
 .output{margin-top:12px;border-top:var(--hair) solid var(--edge);padding-top:10px}
 .output pre{

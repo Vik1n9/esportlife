@@ -106,8 +106,25 @@ export const QUEST_TYPE_LABELS = {
 /** 條件式的比較子（engine/conditions.js 的 OPS） */
 export const COND_OPS = ['lt', 'lte', 'eq', 'gte', 'gt', 'ne'];
 
+export const COND_OP_LABELS = {
+  lt: '< 小於', lte: '≤ 小於等於', eq: '＝ 等於',
+  gte: '≥ 大於等於', gt: '> 大於', ne: '≠ 不等於',
+};
+
 /** 條件式的階名（與 TIER_STORES 對齊） */
 export const COND_TIERS = ['common', 'rare', 'epic', 'legendary'];
+
+export const COND_TIER_LABELS = {
+  common: '通用', rare: '稀有', epic: '史詩', legendary: '傳說',
+};
+
+/** 條件式節點型別（積木模式的下拉；與 validateCond 認得的節點同源） */
+export const COND_NODES = ['and', 'or', 'not', 'stat', 'has', 'hasCount'];
+
+export const COND_NODE_LABELS = {
+  and: 'AND 全部成立', or: 'OR 任一成立', not: 'NOT 反轉',
+  stat: '數值條件（謂詞 比較子 值）', has: '持有特質', hasCount: '持有數量',
+};
 
 /**
  * 條件式可用的謂詞名（engine/conditions.js 的 QUERIES）。
@@ -412,7 +429,10 @@ export function validateCond(node, errors, path) {
 export function validateEffects(effects, errors, path) {
   if (!effects || typeof effects !== 'object') return;
   for (const [key, value] of Object.entries(effects)) {
-    if (key === 'mental' || key === 'buff' || key === 'injury') continue; // 訓練卡效果欄的特殊子鍵
+    // 訓練卡效果欄的特殊子鍵：不是 modifiers 的效果鍵，各有自己的消費端
+    // （engine/training.js 的 resolveTraining）。⚠ `attr` 是 S18 擴充時加的，
+    // 當時漏了這行——60 張訓練卡有 28 張被誤報成「效果鍵不被引擎消費」（S18b 修）
+    if (['mental', 'buff', 'injury', 'attr'].includes(key)) continue;
     if (!EFFECT_KEYS.includes(key)) {
       errors.push(`${path}.${key}：不是引擎消費的效果鍵（打錯鍵特質會靜靜地沒有效果）`);
       continue;
@@ -470,6 +490,121 @@ export function validateEventCard(card, errors, allCards) {
     const mates = allCards.filter((c) => c !== card && c.excl === card.excl);
     if (mates.length === 0) {
       errors.push(`互斥群組「${card.excl}」沒有其他同組卡——獨佔群組應寫成 solo_<id>`);
+    }
+  }
+}
+
+/**
+ * 特質卡驗證（單筆級，S18b）。
+ *
+ * 這裡的每一條都是 `tests/kernel/traits.mjs` 已經在強制、但 S18a 的表單放行的規則
+ * ——放行的後果是「填的時候是綠的，貼回去 npm test 才紅」，正好是編輯器要消滅的
+ * 那個失敗模式。互斥對稱要看整份特質表，所以吃 `allTraits`（validateEntry 傳進來
+ * 的同 schema 全體）。
+ */
+export function validateTrait(trait, errors, allTraits) {
+  const has = (o) => o && typeof o === 'object' && Object.keys(o).length > 0;
+
+  // 雙面性：§13.1「亦無純正面特質，亦無純負面特質」。
+  // ⚠ 兩邊的強度刻意不同——「有副作用」是 traits.mjs:68 的硬斷言（漏了就紅），
+  // 「有益處」規格有寫但測試沒驗，且 `glass`（玻璃體質）現況就是 effects 空的，
+  // 所以只警告。要升成硬紅得先補內容，那是內容站的事（見 S18b 交接筆記）。
+  if (!has(trait.sideEffects)) errors.push('副作用（sideEffects）不得為空——§13.1 沒有純正面特質');
+  if (!has(trait.effects)) errors.push('⚠ 益處（effects）為空——§13.1 沒有純副作用特質（測試未驗，現況 glass 亦如此）');
+
+  // 副作用分級 × 種類（§13.2）。
+  // ⚠ 豁免清單與 tests/kernel/traits.mjs:83-87 同源：v4.2 把心態崩盤／圈內毒瘤
+  // 重寫成雙面特質，副作用是「改變玩法」等級，明令不得再當純負面丟在池外。
+  // 這裡不准比測試寬鬆——改了要兩邊一起改，否則工具綠、npm test 紅。
+  const HEAVY_EXEMPT = ['tilt', 'pariah'];
+  if (trait.sideEffectLevel === 'heavy'
+    && !['epic', 'legend'].includes(trait.tier)
+    && !HEAVY_EXEMPT.includes(trait.key)) {
+    errors.push(`重度副作用只給史詩與傳說（§13.2），這是 ${trait.tier}`);
+  }
+  if (trait.tier === 'legend') {
+    if (trait.sideEffectLevel !== 'heavy') errors.push('傳說特質一律重度副作用（§13.2）');
+    if (trait.pool !== 'career') errors.push('傳說特質一律 career 池（§14.2：career 不入合成）');
+  }
+
+  // 互斥對稱（§13.3 第二層）：A 排他 B 則 B 也要排他 A，測試會逐對驗
+  for (const other of trait.exclusiveWith || []) {
+    if (other === trait.key) { errors.push(`互斥不得指向自己（${other}）`); continue; }
+    const o = (allTraits || []).find((t) => t.key === other);
+    if (!o) { errors.push(`互斥指向不存在的特質「${other}」`); continue; }
+    if (!(o.exclusiveWith || []).includes(trait.key)) {
+      errors.push(`互斥不對稱：${trait.key} 排他 ${other}，但 ${other} 沒有排他 ${trait.key}——要在 ${other} 的 exclusiveWith 補上「${trait.key}」`);
+    }
+  }
+}
+
+/**
+ * 合成配方驗證（單筆級，S18b）。
+ *
+ * §14.6 的形狀（稀有恰 2、史詩 2~3）與 §14.2 的分池（稀有吃 persona、史詩吃
+ * performance）原本只寫在 `fusion.intro` 的說明文字裡，`need` 的 min/max 是全域
+ * 2~3，所以「稀有配 3 個素材」「稀有吃 performance 素材」都會被放行。
+ */
+export function validateFusion(fusion, errors) {
+  const table = { ...BASE_TRAITS, ...RARE_TRAITS, ...EPIC_TRAITS, ...LEGENDARY_TRAITS };
+  const need = fusion.need || [];
+
+  if (fusion.outTier === 'rare' && need.length !== 2) {
+    errors.push(`稀有配方恰 2 個素材（§14.6），現在 ${need.length} 個`);
+  }
+  if (fusion.outTier === 'epic' && (need.length < 2 || need.length > 3)) {
+    errors.push(`史詩配方 2~3 個素材（§14.6），現在 ${need.length} 個`);
+  }
+
+  // 產物不得是傳說（傳說只由任務卡發放，traits.mjs「FUSIONS 沒有傳說配方」）
+  if (fusion.out && LEGENDARY_TRAITS[fusion.out]) {
+    errors.push(`產物 ${fusion.out} 是傳說特質——傳說不進配方，唯一來源是生涯任務卡（§12.3）`);
+  }
+
+  // 素材分池（§14.2 兩池不重疊，traits.mjs「稀有素材都屬 persona、史詩素材都屬 performance」）
+  const wantPool = { rare: 'persona', epic: 'performance' }[fusion.outTier];
+  if (wantPool) {
+    for (const [, key] of need) {
+      const t = table[key];
+      if (!t) continue;   // 不存在的鍵由欄位層的 enum 擋
+      if (t.pool !== wantPool) {
+        errors.push(`素材 ${key} 屬 ${t.pool} 池——${fusion.outTier === 'rare' ? '稀有' : '史詩'}配方只吃 ${wantPool} 池（§14.2 兩池不重疊）`);
+      }
+    }
+  }
+}
+
+/**
+ * 訓練事件卡驗證（單筆級，S18b）。
+ *
+ * §14.8.4 對心理變動的措辭是「**絕對禁止**」：單純成功或單純失敗不得動心理，
+ * 只有大成功／大失敗可以（預設幅度 ±3~5）。`tests/kernel/training.mjs` 驗這條線，
+ * 但 S18a 的 validateEntry 沒有 trainingCard 分支——S18 那 60 張卡是靠人肉遵守的。
+ */
+export function validateTrainingCard(card, errors) {
+  const plain = card.tier === 'success' || card.tier === 'failure';
+
+  if (plain && card.effects && card.effects.mental !== undefined) {
+    errors.push(`檔位 ${card.tier} 絕對禁止更動心理數值（§14.8.4）——只有大成功／大失敗可以`);
+  }
+  if (card.effects && card.effects.injury && card.tier !== 'great_failure') {
+    errors.push(`受傷只在大失敗承擔（§6.2），這是 ${card.tier}`);
+  }
+
+  // pool 與 tier 一致（training.mjs：success 池只有成功檔位）
+  const wantPool = ['great_success', 'success'].includes(card.tier) ? 'success'
+    : ['great_failure', 'failure'].includes(card.tier) ? 'failure' : null;
+  if (wantPool && card.pool && card.pool !== wantPool) {
+    errors.push(`檔位 ${card.tier} 必須放 ${wantPool} 池，現在是 ${card.pool} 池`);
+  }
+
+  // 幅度是預設值不是硬線（§14.8.4「預設增減幅度為 ±3~5」），超出只提醒
+  const mental = card.effects?.mental;
+  if (!plain && mental && typeof mental === 'object') {
+    for (const [dim, v] of Object.entries(mental)) {
+      if (typeof v === 'number' && (Math.abs(v) < 3 || Math.abs(v) > 5)) {
+        errors.push(`⚠ ${dim} ${v}：§14.8.4 的預設幅度是 ±3~5（非硬線，確認是刻意的）`);
+      }
     }
   }
 }
@@ -665,11 +800,65 @@ const FLAG_TRAIT_LENS = {
 /** 天生特質池上限（§14.1） */
 export const INNATE_POOL_MAX = 5;
 
-/** 池上限檢查：天生特質池 ≤ 5 */
+/** §1.4 的種子期望值：0／1／2 個天生特質，機率 40／40／20% → 0.8 個／種子 */
+export const INNATE_EXPECTED = 0.8;
+
+/** §14.2 死配方規則的取得率下限 */
+export const DEAD_RECIPE_FLOOR = 0.15;
+
+/**
+ * 天生池取得率（§1.4／§14.1）：均勻抽取下，單一條目的取得率是 `0.8 ÷ N`。
+ *
+ * 這是整個系統裡**唯一封閉式算得出來的取得率**——其餘素材的取得率要跑 160 段生涯
+ * 才量得到（§21.3 明文：設計時算不出來），所以編輯器只算這一個，其餘留給 S19c。
+ */
+export function innateAcquisitionRate(n = INNATE_POOL.length) {
+  return n > 0 ? INNATE_EXPECTED / n : 0;
+}
+
+/**
+ * 池上限檢查：天生特質池 ≤ 5，且每一條都指派到合成池。
+ *
+ * 回傳一律至少一則訊息（含 info），天生分頁常駐顯示取得率離死線多遠——
+ * 池開得越大每一個越拿不到，這件事與直覺相反，所以要一直看得見。
+ */
 export function checkInnatePoolSize() {
-  return INNATE_POOL.length > INNATE_POOL_MAX
-    ? [{ level: 'error', message: `天生特質池 ${INNATE_POOL.length} 條超過上限 ${INNATE_POOL_MAX}（§14.1：0.8 ÷ N ≥ 15% 死線）` }]
-    : [];
+  const issues = [];
+  const n = INNATE_POOL.length;
+  const rate = innateAcquisitionRate(n);
+  const pct = (rate * 100).toFixed(1);
+
+  if (n > INNATE_POOL_MAX) {
+    issues.push({ level: 'error', message: `天生特質池 ${n} 條超過上限 ${INNATE_POOL_MAX}（§14.1）——取得率 0.8 ÷ ${n} ＝ ${pct}%，破 §14.2 的 15% 死線` });
+  } else if (rate < DEAD_RECIPE_FLOOR) {
+    issues.push({ level: 'error', message: `天生池取得率 0.8 ÷ ${n} ＝ ${pct}%，低於 §14.2 的 15% 死線` });
+  } else if (rate < DEAD_RECIPE_FLOOR + 0.02) {
+    issues.push({ level: 'warn', message: `天生池 ${n} 條，取得率 0.8 ÷ ${n} ＝ ${pct}%——貼著 15% 死線（餘裕 ${((rate - DEAD_RECIPE_FLOOR) * 100).toFixed(1)} 個百分點），再加一條就破線` });
+  } else {
+    issues.push({ level: 'info', message: `天生池 ${n} 條（上限 ${INNATE_POOL_MAX}），取得率 0.8 ÷ ${n} ＝ ${pct}%，離 15% 死線還有 ${((rate - DEAD_RECIPE_FLOOR) * 100).toFixed(1)} 個百分點` });
+  }
+
+  // 天生特質必須指派到合成池（§14.1，traits.mjs「天生特質全部指派到 persona／performance」）
+  const table = { ...BASE_TRAITS, ...RARE_TRAITS, ...EPIC_TRAITS, ...LEGENDARY_TRAITS };
+  for (const e of INNATE_POOL) {
+    const pool = table[e.key]?.pool;
+    if (!['persona', 'performance'].includes(pool)) {
+      issues.push({ level: 'error', message: `天生特質 ${e.key} 的池是「${pool ?? '未指定'}」——必須指派 persona 或 performance，否則它在合成樹上是死的（§14.1 死路檢驗）` });
+    }
+  }
+
+  // mentalBias 維度不得重複（§9.1：同種子抽到同維度正負兩條，初始值不知道聽誰的）
+  const dims = {};
+  for (const e of INNATE_POOL) {
+    const dim = e.mentalBias?.dim;
+    if (!dim) continue;
+    if (dims[dim]) {
+      issues.push({ level: 'error', message: `mentalBias 維度重複：${dims[dim]} 與 ${e.key} 都宣告了 ${dim}（§9.1 池內維度不得重複）` });
+    }
+    dims[dim] = e.key;
+  }
+
+  return issues;
 }
 
 /* ================= 屬性名稱對照（表單標籤用） ================= */

@@ -17,8 +17,10 @@ import {
   STAGES, COND_OPS, PREDICATES, ALL_TRAIT_KEYS, TRAIT_KEY_LABELS,
   ACTIVITY_KEYS, ACTIVITY_LABELS,
   validateCond, validateEffects, validateEventCard,
+  validateTrait, validateFusion, validateTrainingCard,
   checkMaterialConflicts, checkDeadRecipes, checkTriggerBreakage,
   checkEffectConsumption, checkPoolAssignment, checkInnatePoolSize, sourceOf,
+  COND_TIERS, COND_TIER_LABELS, COND_OP_LABELS, COND_NODES, COND_NODE_LABELS,
 } from './schema.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../src/data/traits.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS, FUSIONS } from '../src/data/epics.js';
@@ -71,6 +73,53 @@ const deserNum = (s) => {
   const n = Number(s);
   return Number.isNaN(n) ? undefined : n;
 };
+
+/* ================= 條件式積木的小零件 ================= */
+
+/**
+ * 換節點型別時給的預設形狀。刻意**不**硬轉舊值——`['stat', 'age', 'gte', 30]` 轉成
+ * `['has', …]` 沒有對應關係，硬填一個看起來像資料的值比空著更難發現填錯。
+ * 唯一保留的是容器互轉（and ⇄ or）時的子條件，那個對應是真的。
+ */
+function defaultNode(kind, prev) {
+  const kids = Array.isArray(prev) && (prev[0] === 'and' || prev[0] === 'or') ? prev.slice(1) : null;
+  switch (kind) {
+    case 'and': return ['and', ...(kids || [defaultNode('stat')])];
+    case 'or': return ['or', ...(kids || [defaultNode('stat')])];
+    case 'not': return ['not', defaultNode('stat')];
+    case 'has': return ['has', COND_TIERS[0], ALL_TRAIT_KEYS[0]];
+    case 'hasCount': return ['hasCount', COND_TIERS[0], 1];
+    default: return ['stat', PREDICATES[0], 'gte', 0];
+  }
+}
+
+/** 下拉：選項清單＋現值＋標籤表＋變動回呼 */
+function pick(options, current, labels, onPick) {
+  const sel = el('select');
+  for (const o of options) {
+    const op = el('option', '', labels?.[o] || o);
+    op.value = o;
+    if (o === current) op.selected = true;
+    sel.append(op);
+  }
+  sel.addEventListener('change', () => onPick(sel.value));
+  return sel;
+}
+
+function numInput(current, onSet) {
+  const input = el('input', 'cond-num');
+  input.type = 'number';
+  input.value = current === undefined || current === null ? '' : String(current);
+  // change 而非 input：積木每次變動都重畫，用 input 會每打一個字就失焦
+  input.addEventListener('change', () => onSet(deserNum(input.value) ?? 0));
+  return input;
+}
+
+function inline(nodes) {
+  const row = el('div', 'cond-leaf');
+  for (const n of nodes) row.append(n);
+  return row;
+}
 
 /* ================= 表單渲染（由 schema 驅動） ================= */
 
@@ -186,24 +235,143 @@ function renderField(f, value, ctx, errs, onChange) {
       return { node: wrap, onErrors: () => {} };
     }
     case 'cond': {
-      const ta = el('textarea');
-      ta.rows = 3;
-      ta.placeholder = "['and', ['stat', 'age', 'gte', 30], ['has', 'epic', 'prophet']]";
-      ta.value = v === undefined ? '' : JSON.stringify(v);
-      const renderErrors = (box) => {
-        box.textContent = '';
-        if (ta.value.trim() === '') { if (f.required) errs.push('必填'); return; }
-        try {
-          const parsed = JSON.parse(ta.value);
-          validateCond(parsed, errs, f.label);
-          // 語法 OK 就回寫（保留排列給輸出用）
-          value[f.key] = parsed;
-        } catch (e) {
-          errs.push(`JSON 語法錯誤：${e.message}`);
-        }
+      // 兩種模式共用同一份 value[f.key]：積木只產生合法結構，原始模式維持
+      // 既有的 JSON textarea（25 張任務卡都是那樣寫的，不能斷）。
+      // 切換不動資料，所以來回切不掉東西。
+      const wrap = el('div', 'cond-wrap');
+      const bar = el('div', 'cond-modes');
+      const body = el('div', 'cond-body');
+      let mode = 'blocks';
+      let errBoxRef = null;
+
+      const runValidate = (box) => {
+        errBoxRef = box || errBoxRef;
+        if (errBoxRef) errBoxRef.textContent = '';
+        const cur = value[f.key];
+        if (cur === undefined) { if (f.required) errs.push('必填'); return; }
+        validateCond(cur, errs, f.label);
       };
-      ta.addEventListener('input', () => { renderErrors(ta.nextElementSibling); onChange(); });
-      return { node: ta, onErrors: renderErrors };
+
+      const commit = (next) => {
+        if (next === undefined) delete value[f.key];
+        else value[f.key] = next;
+        // ⚠ 先寫回 value 再跑驗證（S18a 交接筆記的坑 2：順序反了驗證晚一拍）
+        runValidate();
+        draw();
+        onChange();   // ⚠ 坑 3：onChange 會一併更新輸出 pre
+      };
+
+      /* ---- 積木：遞迴渲染一個節點，改動一律走 replace(新節點) ---- */
+      function renderNode(node, replace, remove, depth) {
+        const box = el('div', 'cond-node');
+        box.style.marginInlineStart = `${depth ? 14 : 0}px`;
+
+        const head = el('div', 'cond-head');
+        const kind = Array.isArray(node) ? node[0] : undefined;
+        const sel = el('select', 'cond-kind');
+        for (const k of COND_NODES) {
+          const op = el('option', '', COND_NODE_LABELS[k]);
+          op.value = k;
+          if (k === kind) op.selected = true;
+          sel.append(op);
+        }
+        // 換型別＝換成該型別的預設形狀，不試著硬轉（轉錯比重填更難發現）
+        sel.addEventListener('change', () => replace(defaultNode(sel.value, node)));
+        head.append(sel);
+        if (remove) {
+          const del = el('button', 'btn-mini del', '−');
+          del.title = '刪除這個條件';
+          del.addEventListener('click', () => remove());
+          head.append(del);
+        }
+        box.append(head);
+
+        if (kind === 'and' || kind === 'or') {
+          const kids = node.slice(1);
+          kids.forEach((child, i) => {
+            box.append(renderNode(child,
+              (next) => replace([kind, ...kids.slice(0, i), next, ...kids.slice(i + 1)]),
+              kids.length > 1 ? () => replace([kind, ...kids.filter((_, j) => j !== i)]) : null,
+              depth + 1));
+          });
+          const add = el('button', 'btn-mini', '＋ 加子條件');
+          add.addEventListener('click', () => replace([kind, ...kids, defaultNode('stat')]));
+          box.append(add);
+        } else if (kind === 'not') {
+          const child = node[1];
+          box.append(renderNode(child, (next) => replace(['not', next]), null, depth + 1));
+        } else if (kind === 'stat') {
+          const [, pred, op, num] = node;
+          box.append(inline([
+            pick(PREDICATES, pred, null, (x) => replace(['stat', x, op, num])),
+            pick(COND_OPS, op, COND_OP_LABELS, (x) => replace(['stat', pred, x, num])),
+            numInput(num, (x) => replace(['stat', pred, op, x])),
+          ]));
+        } else if (kind === 'has') {
+          const [, tier, key] = node;
+          box.append(inline([
+            pick(COND_TIERS, tier, COND_TIER_LABELS, (x) => replace(['has', x, key])),
+            pick(ALL_TRAIT_KEYS, key, TRAIT_KEY_LABELS, (x) => replace(['has', tier, x])),
+          ]));
+        } else if (kind === 'hasCount') {
+          const [, tier, n] = node;
+          box.append(inline([
+            pick(COND_TIERS, tier, COND_TIER_LABELS, (x) => replace(['hasCount', x, n])),
+            numInput(n, (x) => replace(['hasCount', tier, x])),
+          ]));
+        } else {
+          box.append(el('div', 'hint', '無法辨識的節點——切到原始模式檢視'));
+        }
+        return box;
+      }
+
+      function draw() {
+        body.textContent = '';
+        bar.textContent = '';
+        for (const [id, label] of [['blocks', '積木'], ['raw', '原始 JSON']]) {
+          const b = el('button', `btn-mini${mode === id ? ' on' : ''}`, label);
+          b.addEventListener('click', () => { mode = id; draw(); });
+          bar.append(b);
+        }
+
+        if (mode === 'raw') {
+          const ta = el('textarea');
+          ta.rows = 3;
+          ta.placeholder = "['and', ['stat', 'age', 'gte', 30], ['has', 'epic', 'prophet']]";
+          ta.value = value[f.key] === undefined ? '' : JSON.stringify(value[f.key]);
+          ta.addEventListener('input', () => {
+            if (errBoxRef) errBoxRef.textContent = '';
+            if (ta.value.trim() === '') { delete value[f.key]; onChange(); return; }
+            try {
+              // ⚠ 先寫回 value 再驗證（坑 2）；不呼叫 draw()，重畫會吃掉輸入焦點
+              value[f.key] = JSON.parse(ta.value);
+              runValidate();
+            } catch (e) {
+              errs.push(`JSON 語法錯誤：${e.message}`);
+            }
+            onChange();
+          });
+          body.append(ta);
+          return;
+        }
+
+        const cur = value[f.key];
+        if (cur === undefined) {
+          const add = el('button', 'btn-mini', '＋ 建立條件式');
+          add.addEventListener('click', () => commit(defaultNode('and')));
+          body.append(add);
+          if (!f.required) {
+            const hint = el('div', 'hint', '不寫＝恆真');
+            body.append(hint);
+          }
+          return;
+        }
+        body.append(renderNode(cur, (next) => commit(next), () => commit(undefined), 0));
+      }
+
+      wrap.append(bar, body);
+      draw();
+      return { node: wrap, onErrors: runValidate };
     }
     case 'effect': {
       // 效果物件：鍵（從 EFFECT_KEYS 選）＋寫法＋值。特別處理訓練卡的特殊子鍵
@@ -871,6 +1039,11 @@ function validateEntry(schemaId, value, all) {
     }
   }
   if (schemaId === 'event') validateEventCard(value, errors, all);
+  // S18b：以下三類原本沒有專屬驗證，測試（tests/kernel/traits.mjs／training.mjs）
+  // 擋得住的規則表單全部放行——填的時候綠、貼回去才紅
+  if (schemaId === 'trait') validateTrait(value, errors, all);
+  if (schemaId === 'fusion') validateFusion(value, errors);
+  if (schemaId === 'trainingCard') validateTrainingCard(value, errors);
   validateEffects(value.effects, errors, 'effects');
   validateEffects(value.sideEffects, errors, 'sideEffects');
   if (value.trigger !== undefined) validateCond(value.trigger, errors, 'trigger');
@@ -885,22 +1058,57 @@ function validateEntry(schemaId, value, all) {
 
 /* ================= 輸出（剪貼簿／下載 .js 片段） ================= */
 
-/** 排版與既有資料檔一致：2 空格縮排、鍵值對。 */
+/** 貼回去用的行寬上限——`src/data/*.js` 通篇 100 欄 */
+const LINE_WIDTH = 100;
+
+/** 識別字鍵不加引號，其餘照 JS 字面量規則 */
+const bareKey = (k) => (/^[a-zA-Z_$][a-zA-Z0-9_$]*$/.test(k) ? k : quote(k));
+
+/**
+ * 字串一律單引號。`src/data/*.js` 通篇單引號，`JSON.stringify` 吐出來的雙引號貼回去
+ * 雖然能跑，但每一筆的排版都跟鄰居不一樣——違反 S18a「輸出排版與既有檔案一致，
+ * 貼回去的 diff 只有新增那幾行」那條不變式（S18b 修）。
+ */
+function quote(s) {
+  return `'${String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n')}'`;
+}
+
+/** 全部攤成一行的形式（用來判斷放不放得下） */
+function inlineJsValue(v) {
+  if (v === null || v === undefined) return 'null';
+  if (typeof v === 'number' || typeof v === 'boolean') return String(v);
+  if (typeof v === 'string') return quote(v);
+  if (typeof v === 'function') return v.toString();
+  if (Array.isArray(v)) return v.length ? `[${v.map(inlineJsValue).join(', ')}]` : '[]';
+  const keys = Object.keys(v);
+  return keys.length ? `{ ${keys.map((k) => `${bareKey(k)}: ${inlineJsValue(v[k])}`).join(', ')} }` : '{}';
+}
+
+/**
+ * 排版與既有資料檔一致：2 空格縮排、單引號、**短的物件與陣列內聯**。
+ *
+ * 資料檔的寫法是 `effects: { mental: { conf: 3, drive: 3 } }` 一行到底，長到放不下
+ * 才換行——所以這裡照同一條線判斷（縮排＋內容 ≤ 100 欄就內聯），而不是無條件展開。
+ * 函式（`maintain`）原樣保留。
+ */
 function formatJsValue(v, indent) {
   const pad = '  '.repeat(indent);
   const padIn = '  '.repeat(indent + 1);
   if (v === null || v === undefined) return 'null';
-  if (typeof v === 'number') return String(v);
-  if (typeof v === 'boolean') return String(v);
-  if (typeof v === 'string') return JSON.stringify(v);
+  if (typeof v === 'number' || typeof v === 'boolean') return String(v);
+  if (typeof v === 'string') return quote(v);
   if (typeof v === 'function') return v.toString();
+
+  const flat = inlineJsValue(v);
+  if (!flat.includes('\n') && pad.length + flat.length <= LINE_WIDTH) return flat;
+
   if (Array.isArray(v)) {
     if (!v.length) return '[]';
     return `[\n${v.map((x) => `${padIn}${formatJsValue(x, indent + 1)},`).join('\n')}\n${pad}]`;
   }
   const keys = Object.keys(v);
   if (!keys.length) return '{}';
-  return `{\n${keys.map((k) => `${padIn}${/^[a-zA-Z_$][a-zA-Z0-9_$]*$/.test(k) ? k : JSON.stringify(k)}: ${formatJsValue(v[k], indent + 1)},`).join('\n')}\n${pad}}`;
+  return `{\n${keys.map((k) => `${padIn}${bareKey(k)}: ${formatJsValue(v[k], indent + 1)},`).join('\n')}\n${pad}}`;
 }
 
 function formatEntry(schemaId, value) {
@@ -1146,6 +1354,14 @@ function main() {
     const schemas = rest.length ? [SCHEMAS[primary], SCHEMAS[rest[0]]] : [SCHEMAS[primary]];
     const intro = el('p', 'intro', SCHEMAS[primary].intro);
     main.append(intro);
+
+    // 天生分頁常駐取得率（§1.4 的 0.8 ÷ N）——池開得越大每一個越拿不到，這件事與
+    // 直覺相反，所以不能藏在「關係檢查」按鈕後面，要一直看得見
+    if (primary === 'innate') {
+      for (const issue of checkInnatePoolSize()) {
+        main.append(el('p', `banner ${issue.level}`, issue.message));
+      }
+    }
 
     for (const schema of schemas) {
       const section = el('section', 'section');
