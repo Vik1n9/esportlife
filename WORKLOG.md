@@ -1,4 +1,30 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-15 — S18 第一批 20 張：四張死配方觸發卡 + 16 張四池一般卡，業餘池標籤審查救回星探不變式
+
+- **方向**：S18 是內容工，每批 20 張一個 session。第一批先補 S19a 實測的死配方觸發卡
+  （genius 0/160、clutch 3/160、intlghost 2/160、underdog 2/160，全 <15% 死線），
+  其餘 16 張平均鋪四池——不能一批全寫同類型，六維要全覆蓋。
+- **FLAG_TRAIT 補 4 條**：`src/engine/eventTrigger.js` 原本只解 10 個旗標，genius／
+  clutch／intlghost／underdog 沒有條目，寫了卡也是死旗標。meta 實測 100/160 已活
+  （seasonEnd patchCount%3 生涯條件）不補卡；iron 已由 S19d 天生池解。flash_steal 的
+  clutch 與 champion_ban 的 meta 旗標因 FLAG_TRAIT 無條目一直是死的，本批一併復活。
+  tools/schema.js 的 FLAG_KEYS／FLAG_LABELS／EVENT_TRAIT_SOURCES 同步。
+- ⚠ **業餘星探不變式踩坑**：初版 7 張新卡標了業餘標籤，業餘池 18 → 25 張，nobody
+  測試（potential 38 墊底）rating 被推過 AM2 門檻 45，「沒達標就沒有星探」紅。根因：
+  事件卡屬性增益不走潛力 cap（investAttr cap=100，effectivePotential 只影響
+  stepCost）——**既有引擎行為，S18 不改引擎**。修法：rehab_care（隊醫）與
+  rookie_tutoring（練習生）是職業場景卡，拿掉業餘標籤，測試全綠。v4.2 教訓重現：
+  業餘抽到職業休息室卡。
+- **批次檢驗**：id 重複 0、選項數異常空；六維覆蓋 comp 6／conf 5／drive 6／disc 5／
+  trust 5／resl 6；sub 分布 match 3／training 4／life 3／body 2／team 3／media 3／
+  pressure 1／transfer 1；mental 欄位有用（editor.js 的 outcome 編輯器還沒畫 mental，
+  留後續批次）。
+- **刻意沒做**：訓練事件卡（training.js 的 find 每層只抽一張，擴充需改引擎）、
+  退役事件三層（引擎無消費端）、生涯任務卡 25 張（規則規定單獨一批）。
+- **實測結論**：`npm test` 全綠 15757 項；events.js 26 → 46 張。
+- **狀態**：完成。SAVE_VERSION 未動；關鍵常數未動。下一批建議：psych 池偏少（1 張）
+  與職業期觸發卡、業餘卡留意屬性增益量級。
+
 ## 2026-08-15 — S18a 內容編輯器：schema 驅動的五分頁工具落地，關係檢查揭出 7 條死配方現況
 
 - **方向**：S18（事件卡 26 → 80~150＋25 任務卡）與 S19b（傳說 6 → 20）是全線最大

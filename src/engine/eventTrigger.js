@@ -135,6 +135,12 @@ export const FLAG_TRAIT = {
   camera: { key: 'camera' },
   guardian: { key: 'guardian' },
   tiltRisk: { key: 'tilt', chance: 25, blockIf: (s) => flag(s, 'tiltImmune') },
+  // S18 補的觸發卡旗標（S19a 交接筆記第三節死配方清單：genius／clutch／intlghost／
+  // underdog；iron 已由 S19d 天生池解、meta 有 seasonEnd 生涯條件，兩者不在此列）
+  genius: { key: 'genius' },
+  clutch: { key: 'clutch' },
+  intlghost: { key: 'intlghost' },
+  underdog: { key: 'underdog' },
 };
 
 /** 一張事件卡所有選項／結果可能解鎖的特質鍵。純資料推導，不放邏輯。 */

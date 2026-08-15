@@ -204,6 +204,7 @@ export const FLAG_KEYS = [
   'popular', 'composure', 'leader', 'laneking', 'macroPoint', 'grinder',
   'meme', 'camera', 'guardian', 'tiltRisk', 'patchDebt', 'injuryRisk',
   'bonusSalary', 'romance', 'mateMorale', 'trashtalk', 'clutch', 'meta',
+  'genius', 'intlghost', 'underdog',
 ];
 
 export const FLAG_LABELS = {
@@ -212,6 +213,7 @@ export const FLAG_LABELS = {
   guardian: '守護者', tiltRisk: '心態崩盤', patchDebt: '版本落差',
   injuryRisk: '受傷風險', bonusSalary: '加薪', romance: '交往',
   mateMorale: '隊友士氣', trashtalk: '嘴砲王', clutch: '大賽選手', meta: '版本適應者',
+  genius: '天才操作', intlghost: '國際賽之鬼', underdog: '逆風翻盤',
 };
 
 /* ================= 五類資料的 schema ================= */
@@ -514,6 +516,7 @@ export function sourceOf(traitKey) {
 /** 事件卡能解鎖的特質鍵（FLAG_TRAIT 表的 key，src/engine/eventTrigger.js） */
 export const EVENT_TRAIT_SOURCES = [
   'popular', 'composure', 'leader', 'laneking', 'macroG', 'grinder', 'meme', 'camera', 'guardian', 'tilt',
+  'genius', 'clutch', 'intlghost', 'underdog',
 ];
 
 /** 扮演卡能定型的特質鍵（PERSONA_RULES 的 key，src/phases/shared.js） */
