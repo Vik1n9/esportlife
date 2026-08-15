@@ -1,4 +1,25 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-15 — S18 訓練卡批 60 張：兜底 24＋PRO 20＋AM2 8＋業餘 8，引擎改池抽（activity／stage／stamina 過濾＋weight 加權）
+
+- **方向**：S18 最後一批——訓練事件卡完整目錄。上一批定案的規則（7c）全部照做：
+  時期＝生涯階段（不是時段標籤）、訓練卡不解鎖特質（無選項欄位）、低體力危險卡
+  只在低體力進池。
+- **分配**：兜底 24（6 活動 × 4 檔位，永不空池保證）＋ PRO 20（低體力大失敗 4 張、
+  高體力大成功 4 張、一般職業文本 12）＋ AM2 8 ＋ 業餘 8（attr ±1、心理 ±3、無
+  injury，守 nobody 星探紅線）。injury 全集中在 PRO 低體力卡。
+- **引擎**：`TRAINING_CARDS.find(tier)` 換成 `drawTrainingCard`——四重過濾
+  （tier／activity／stage／stamina 閉區間）＋ weight 加權抽 ＋ 空池回退同檔位無
+  條件卡。新增 `effects.attr` 消費（走 investAttr），month.js 結果卡併列 attr 增益。
+- **編輯器**：schema 加 activity／stage／stamina（新 range 型別）／effects.attr
+  （新 attrMap），effect 子鍵改從 fields 動態讀；假卡 4 張由兜底 24 取代。
+- **實測（160 段）**：平均巔峰 ÷ 上限 0.719（基線 0.703，attr 卡微幅帶動，仍在
+  0.68~0.82 驗收線）＋五等第全出現（傳奇 6／歷史級 9／優秀 36／稱職 65／邊緣 44）
+  ＋nobody 業餘不變式綠。檢查數 15728 → 16637（+909）。⚠ 退役年份分布位移
+  （2030–2037 → 2015–2035）：低體力心理重擊＋failure attr −1 讓早退局變多，
+  分布仍健康。
+- **狀態**：完成。`npm test` 16637 項全綠。SAVE_VERSION 不動。交接筆記、README
+  狀態表（S18 整站完成）已更新。
+
 ## 2026-08-15 — S18 任務卡批 25 張：20 legend ＋ 5 route 取代假卡，素材以實測持有率重選、世界賽決賽 160 段 0 段的校準前提
 
 - **方向**：任務卡 25 張（20 legend ＋ 5 route）是 S19c 校準的前置（S17b 放的是假卡）。

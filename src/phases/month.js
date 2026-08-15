@@ -133,12 +133,16 @@ function injuryText(injury) {
  * 訓練與英雄池練習才印：檔位、屬性成長、新英雄、心理箭頭、受傷。
  */
 function* trainingResult(g, result) {
-  const { activity, kind, tier, gains, heroes, mentalNotes, injury, buff, card: tcard } = result;
+  const { activity, kind, tier, gains, heroes, mentalNotes, injury, buff, attrNotes, card: tcard } = result;
   if (kind === 'rest' || kind === 'rehab') return;
 
   const notes = [];
   for (const gain of gains) {
     notes.push(`${ATTR_NAMES[gain.attr]} <span class="up">+${gain.points}</span>`);
+  }
+  for (const gain of attrNotes) {
+    const cls = gain.points > 0 ? 'up' : 'dn';
+    notes.push(`${ATTR_NAMES[gain.attr]} <span class="${cls}">${gain.points > 0 ? '+' : ''}${gain.points}</span>`);
   }
   if (heroes.length) notes.push(`新英雄 <b class="hl">${heroes.join('、')}</b> 進入池`);
   notes.push(...mentalNotes);

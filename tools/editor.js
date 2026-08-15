@@ -15,6 +15,7 @@ import {
   POOL_LABELS, TIER_LABELS, SIDE_LABELS, CARD_TIER_LABELS, CARD_POOL_LABELS,
   QUEST_TYPE_LABELS, EFFECT_OP_LABELS, EFFECT_KEYS_LABELS, FLAG_LABELS,
   STAGES, COND_OPS, PREDICATES, ALL_TRAIT_KEYS, TRAIT_KEY_LABELS,
+  ACTIVITY_KEYS, ACTIVITY_LABELS,
   validateCond, validateEffects, validateEventCard,
   checkMaterialConflicts, checkDeadRecipes, checkTriggerBreakage,
   checkEffectConsumption, checkPoolAssignment, checkInnatePoolSize, sourceOf,
@@ -205,8 +206,8 @@ function renderField(f, value, ctx, errs, onChange) {
       return { node: ta, onErrors: renderErrors };
     }
     case 'effect': {
-      // 效果物件：鍵（從 EFFECT_KEYS 選）＋寫法＋值。特別處理訓練卡的三個特殊子鍵
-      const keys = f.fields ? ['mental', 'buff', 'injury'] : null;
+      // 效果物件：鍵（從 EFFECT_KEYS 選）＋寫法＋值。特別處理訓練卡的特殊子鍵
+      const keys = f.fields ? f.fields.map((x) => x.key) : null;
       const wrap = el('div', 'effect-ed');
       const render = () => {
         wrap.textContent = '';
@@ -215,7 +216,7 @@ function renderField(f, value, ctx, errs, onChange) {
         if (!entries.length) {
           const addBtn = el('button', 'btn-mini', '+ 加一個效果');
           addBtn.addEventListener('click', () => {
-            if (f.fields) { value[f.key] = { mental: {} }; }
+            if (f.fields) { value[f.key] = { [f.fields[0].key]: {} }; }
             else { value[f.key] = { [EFFECT_KEYS_LABELS ? firstEffectKey() : '']: { add: 0 } }; }
             onChange();
           });
@@ -224,7 +225,7 @@ function renderField(f, value, ctx, errs, onChange) {
         }
         const addBtn = el('button', 'btn-mini', '+ 加一個效果');
         addBtn.addEventListener('click', () => {
-          const blank = f.fields ? { mental: {} } : { [firstEffectKey()]: { add: 0 } };
+          const blank = f.fields ? { [f.fields[0].key]: {} } : { [firstEffectKey()]: { add: 0 } };
           Object.assign(map, blank);
           onChange();
         });
@@ -234,7 +235,7 @@ function renderField(f, value, ctx, errs, onChange) {
           if (f.fields) {
             // 訓練卡效果的特殊子鍵
             const sel = el('select');
-            for (const o of ['mental', 'buff', 'injury']) {
+            for (const o of keys) {
               const op = el('option', '', o);
               op.value = o;
               if (ekey === o) op.selected = true;
@@ -712,6 +713,68 @@ function renderField(f, value, ctx, errs, onChange) {
           lab.append(cb, el('span', '', MENTAL_LABELS[d]), num);
           wrap.append(lab);
         }
+      };
+      render();
+      return { node: wrap, onErrors: () => {} };
+    }
+    case 'range': {
+      // 閉區間 [lo, hi]（訓練卡體力條件）；空＝全體力
+      const wrap = el('div', 'eff-row');
+      const r = Array.isArray(v) ? v : null;
+      const lo = el('input'); lo.type = 'number'; lo.placeholder = 'lo';
+      const hi = el('input'); hi.type = 'number'; hi.placeholder = 'hi';
+      const commit = () => {
+        const a = deserNum(lo.value), b = deserNum(hi.value);
+        if (a == null && b == null) set(undefined);
+        else set([a ?? 0, b ?? 100]);
+      };
+      if (r) { lo.value = String(r[0]); hi.value = String(r[1]); }
+      lo.addEventListener('input', commit);
+      hi.addEventListener('input', commit);
+      const rm = el('button', 'btn-mini del', '✕');
+      rm.addEventListener('click', () => { set(undefined); onChange(); });
+      if (r) wrap.append(el('span', 'dim', '體力'), lo, el('span', 'dim', '~'), hi, rm);
+      else {
+        const addBtn = el('button', 'btn-mini', '+ 體力條件');
+        addBtn.addEventListener('click', () => { value[f.key] = [0, 39]; onChange(); });
+        wrap.append(addBtn);
+      }
+      return { node: wrap, onErrors: () => {} };
+    }
+    case 'attrMap': {
+      // 屬性 → 數值（訓練卡效果 attr，走 investAttr）
+      const wrap = el('div', 'effect-ed');
+      const m = v && typeof v === 'object' ? v : {};
+      const render = () => {
+        wrap.textContent = '';
+        if (!Object.keys(m).length) {
+          const addBtn = el('button', 'btn-mini', '+ 屬性增減');
+          addBtn.addEventListener('click', () => { value[f.key] = { tec: 1 }; onChange(); });
+          wrap.append(addBtn);
+          return;
+        }
+        for (const k of Object.keys(ATTR_LABELS)) {
+          const lab = el('label', 'dim');
+          const cb = el('input');
+          cb.type = 'checkbox';
+          cb.checked = m[k] !== undefined;
+          cb.addEventListener('change', () => {
+            if (cb.checked) m[k] = 1;
+            else delete m[k];
+            if (!Object.keys(m).length) set(undefined);
+            onChange();
+          });
+          const num = el('input');
+          num.type = 'number';
+          num.value = m[k] ?? '';
+          num.disabled = m[k] === undefined;
+          num.addEventListener('input', () => { m[k] = deserNum(num.value); onChange(); });
+          lab.append(cb, el('span', '', ATTR_LABELS[k]), num);
+          wrap.append(lab);
+        }
+        const rm = el('button', 'btn-mini del', '✕ 移除');
+        rm.addEventListener('click', () => { set(undefined); onChange(); });
+        wrap.append(rm);
       };
       render();
       return { node: wrap, onErrors: () => {} };

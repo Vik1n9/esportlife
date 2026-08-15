@@ -55,6 +55,14 @@ export const SUB_LABELS = {
 /** 生涯階段（when.stage） */
 export const STAGES = ['AMATEUR', 'AM2', 'PRO'];
 
+/** 訓練卡可標的活動（§5.2 有卡池的六項；rest／rehab 無卡池不標） */
+export const ACTIVITY_KEYS = ['mechanics', 'scrim', 'vod', 'fitness', 'soloq', 'heroes'];
+
+export const ACTIVITY_LABELS = {
+  mechanics: '個人機械訓練', scrim: '強化訓練賽', vod: '戰術復盤',
+  fitness: '體能健身', soloq: '排位衝分', heroes: '英雄池練習',
+};
+
 /** 特質階級（§14.7 種類歸屬） */
 export const TIERS = ['common', 'rare', 'epic', 'legend', 'unique'];
 
@@ -182,10 +190,12 @@ export const EFFECT_OP_LABELS = {
  *   outcome（事件卡結果：text＋attr＋flags）
  *   option（事件卡選項：label/odds/gain/loss/traits/on/flags）
  *   list（子陣列，min/max 控選項數 2~4）
+ *   range（閉區間 [lo, hi]：訓練卡體力條件）
+ *   attrMap（屬性 → 數值的映射：訓練卡效果 attr）
  */
 export const FIELD_TYPES = [
   'text', 'textarea', 'number', 'bool', 'enum', 'multienum', 'id',
-  'cond', 'effect', 'when', 'outcome', 'option', 'list',
+  'cond', 'effect', 'when', 'outcome', 'option', 'list', 'range', 'attrMap',
 ];
 
 /* ================= 特質鍵清單（四階共用命名空間） ================= */
@@ -259,7 +269,7 @@ export const SCHEMAS = {
   trainingCard: {
     id: 'trainingCard',
     label: '訓練事件卡',
-    intro: '訓練事件卡（§5.4）：檔位＋池別＋權重。大成功／大失敗才可動心理（§14.8.4）。',
+    intro: '訓練事件卡（§5.4）：檔位＋池別＋權重。大成功／大失敗才可動心理（§14.8.4），受傷只在大失敗。activity／stage／stamina 沒標＝全適用；兜底 24 張保證每活動×檔位永不空池。',
     source: TRAINING_CARDS,
     keyOf: (c) => c.id,
     fields: [
@@ -267,6 +277,10 @@ export const SCHEMAS = {
       { key: 'tier', label: '檔位', type: 'enum', options: CARD_TIERS, labels: CARD_TIER_LABELS, required: true },
       { key: 'pool', label: '池別', type: 'enum', options: CARD_POOLS, labels: CARD_POOL_LABELS, required: true },
       { key: 'weight', label: '權重', type: 'number', min: 0, required: true },
+      { key: 'activity', label: '適用活動（沒選＝全活動）', type: 'multienum', options: ACTIVITY_KEYS, labels: ACTIVITY_LABELS, optional: true },
+      { key: 'stage', label: '生涯階段（沒選＝全階段）', type: 'multienum', options: STAGES, optional: true },
+      { key: 'stamina', label: '體力條件（閉區間，沒填＝全體力）', type: 'range', optional: true,
+        hint: '低體力危險卡 [0,39]：只在低體力進池，踩中高風險的機率上升' },
       { key: 'text', label: '敘事文本', type: 'textarea', required: true },
       {
         key: 'effects', label: '效果', type: 'effect', optional: true, required: false,
@@ -274,6 +288,7 @@ export const SCHEMAS = {
           { key: 'mental', label: '心理增減（僅大成功／大失敗，±3~5）', type: 'mentalMap', optional: true },
           { key: 'buff', label: '短期 buff', type: 'buff', optional: true },
           { key: 'injury', label: '受傷（大失敗承擔）', type: 'bool', optional: true },
+          { key: 'attr', label: '永久屬性增減（走 investAttr；業餘／青訓壓 ±1）', type: 'attrMap', optional: true },
         ],
       },
     ],

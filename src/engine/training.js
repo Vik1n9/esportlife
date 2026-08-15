@@ -146,6 +146,42 @@ function drawTier(state, rng, activity, success) {
 }
 
 /**
+ * 抽訓練事件卡（S18 定案，§5.4）：
+ * 1. 過濾：tier 匹配 ＋ `activity` 包含該活動（沒標＝全活動）＋ `stage` 命中
+ *    `state.stage`（沒標＝全階段）＋ `stamina` 閉區間命中（沒標＝全體力）
+ * 2. `weight` 加權抽一張
+ * 3. 空池防呆：退回「同檔位＋同活動、無 stage／stamina 條件的卡」（兜底 24 只標
+ *    activity，保證每活動 × 檔位 × 階段永不空池）；再空就退回同檔位第一張——
+ *    正常永遠走不到第二層
+ */
+export function drawTrainingCard(state, rng, activityId, tier) {
+  const stage = state.stage;
+  const stamina = staminaOf(state);
+  const hit = (c) => c.tier === tier
+    && (!c.activity || c.activity.includes(activityId))
+    && (!c.stage || c.stage.includes(stage))
+    && (!c.stamina || (stamina >= c.stamina[0] && stamina <= c.stamina[1]));
+
+  const pick = (cards) => {
+    if (!cards.length) return null;
+    const total = cards.reduce((t, c) => t + (c.weight || 1), 0);
+    let roll = rng.next() * total;
+    for (const c of cards) {
+      roll -= c.weight || 1;
+      if (roll <= 0) return c;
+    }
+    return cards[cards.length - 1];
+  };
+
+  const pool = TRAINING_CARDS.filter(hit);
+  const fallback = pool.length
+    ? pool
+    : TRAINING_CARDS.filter((c) => c.tier === tier
+      && (!c.activity || c.activity.includes(activityId)) && !c.stage && !c.stamina);
+  return pick(fallback) || TRAINING_CARDS.find((c) => c.tier === tier) || null;
+}
+
+/**
  * 結算一次訓練活動。回傳結果物件，敘事由 month.js 組裝。
  *
  * 順序照 §4 第 3 步：扣體力 → 兩階段判定 → 成長／英雄池 → 卡片效果（心理／受傷／buff）。
@@ -190,8 +226,8 @@ export function resolveTraining(state, rng, activityId) {
     if (games > 0) heroes = trainHeroes(state, rng, games);
   }
 
-  // 訓練事件卡效果：心理（僅大成功／大失敗）、受傷（大失敗）、短期 buff
-  const card = TRAINING_CARDS.find((c) => c.tier === tier) || null;
+  // 訓練事件卡效果：心理（僅大成功／大失敗）、受傷（大失敗）、短期 buff、永久屬性
+  const card = drawTrainingCard(state, rng, activity.id, tier);
   const mentalNotes = card?.effects?.mental ? applyMental(state, card.effects.mental) : [];
   let injury = null;
   if (card?.effects?.injury) injury = rollInjury(state, rng);
@@ -200,8 +236,15 @@ export function resolveTraining(state, rng, activityId) {
     buff = { ...card.effects.buff };
     state.activeEffects = (state.activeEffects || []).concat(buff);
   }
+  const attrNotes = [];
+  if (card?.effects?.attr) {
+    for (const [attr, points] of Object.entries(card.effects.attr)) {
+      const applied = investAttr(state, attr, points);
+      if (applied) attrNotes.push({ attr, points: applied });
+    }
+  }
 
-  return { activity, kind: activity.kind, tier, successCoef, gains, heroes, mentalNotes, injury, buff, card };
+  return { activity, kind: activity.kind, tier, successCoef, gains, heroes, mentalNotes, injury, buff, attrNotes, card };
 }
 
 /** 每月推進時遞減 activeEffects 的剩餘月數（由 game.js 的月迴圈呼叫） */
