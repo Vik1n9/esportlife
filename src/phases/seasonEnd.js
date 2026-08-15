@@ -126,14 +126,22 @@ function* awards(g, stat) {
     yield card('gold', '例行賽 MVP', `以 ${stat.MVP} 次單場 MVP 拿下<b class="hl">${state.year} ${home} 例行賽 MVP</b>！`);
   }
 
-  if (state.age <= 20 && stat.delta >= 2.5 && state.proYears <= 1) {
+  /*
+   * 最佳新人（S20d/N10 重校）：舊門檻 delta ≥ 2.5 實測 0/160——菜鳥首個完整賽季
+   * 的 delta 分位是 p0 −0.4／p90 −8.4，沒有人夠得著「優於聯盟平均 +2.5」。新秀的
+   * 優秀不是比平均強，是「沒被平均甩開」：首年落在 −1.5 以內的前段就是聯盟級新人。
+   * 年齡門檻一併移除：`proYears ≤ 1` 已定義菜鳥，再卡年齡只砍人。
+   */
+  if (stat.delta >= -1.5 && state.proYears <= 1) {
     award(state, `${state.year} 最佳新人`);
-    yield card('gold', '最佳新人', `新秀賽季即打出 <b class="hl">${stat.delta >= 5 ? '頂級' : '優秀'}</b> 表現，榮膺最佳新人。`);
+    yield card('gold', '最佳新人', `新秀賽季即站穩先發，榮膺 <b class="hl">${state.year} ${home} 最佳新人</b>。`);
   }
 
-  // 單殺王：與同位置基線比較，而不是與場次比較
+  // 單殺王：與同位置基線比較，而不是與場次比較。1.5 倍門檻實測只有持有傳說的
+  // 怪物夠得著（裸係數上限約 1.27），降到 1.4（S20d/N10）：頂級對線者加
+  // 一項對線特質即可觸及，仍是稀有獎。
   const soloBaseline = STAT_BASELINE[state.role].SOLO;
-  if (o >= par + 2.5 && stat.SOLO >= stat.G * soloBaseline * 1.5 && rng.chance(45)) {
+  if (o >= par + 2.5 && stat.SOLO >= stat.G * soloBaseline * 1.4 && rng.chance(45)) {
     award(state, `${state.year} 單殺王`);
     yield card('gold', '單殺王', `季內累積 <b class="hl">${stat.SOLO}</b> 次單殺，冠絕 ${home}！`);
     if (state.age < 26 && unlockTrait(state, 'laneking')) {

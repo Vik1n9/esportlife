@@ -317,6 +317,70 @@ export async function run({ check }) {
     }
   }
 
+  /* ---- 反向死鍵掃描（S20d/N11）：引擎消費的效果鍵必須有特質宣告它 ----
+   * 正向掃「宣告了沒人消費」（死素材），反向同樣致命：消費端存在、宣告端
+   * 不存在——引擎年年照呼叫，鍵後面永遠是空值，效果從沒生效過。
+   * importExempt／benchRisk／decline_pull_mul 正是這一類：外援名額查它、
+   * 下放風險乘它、生命週期窗口讀它，但四張特質表沒有任何一條宣告。 */
+  {
+    const { readdirSync } = await import('node:fs');
+    const walk = (dir, out = []) => {
+      for (const d of readdirSync(dir, { withFileTypes: true })) {
+        const p = `${dir}/${d.name}`;
+        if (d.isDirectory()) walk(p, out);
+        else if (d.name.endsWith('.js')) out.push(p);
+      }
+      return out;
+    };
+    const consumed = new Set();
+    const callRe = /\b(flag|factor|bonus|floorOf|capOf)\(\s*[A-Za-z_$][\w$]*\s*,\s*'([A-Za-z0-9_]+)'/g;
+    for (const file of walk(new URL('../../src', import.meta.url).pathname)) {
+      for (const m of readFileSync(file, 'utf8').matchAll(callRe)) consumed.add(m[2]);
+    }
+    const declaredIn = new Set();
+    for (const { table } of Object.values(TIER_STORES)) {
+      for (const t of Object.values(table())) {
+        for (const side of ['effects', 'sideEffects']) {
+          for (const k of Object.keys(t[side] || {})) declaredIn.add(k);
+        }
+      }
+    }
+    const orphans = [...consumed].filter((k) => !declaredIn.has(k)).sort();
+    check('反向死鍵：引擎消費的效果鍵都有特質宣告', orphans.length === 0, orphans.join('、'));
+  }
+
+  /* ---- 反向死鍵掃描（S20d/N11）：引擎消費的效果鍵必須有特質宣告它 ----
+   * 正向掃「宣告了沒人消費」（死素材），反向同樣致命：消費端存在、宣告端
+   * 不存在——引擎年年照呼叫，鍵後面永遠是空值，效果從沒生效過。
+   * importExempt／benchRisk／decline_pull_mul 正是這一類：外援名額查它、
+   * 下放風險乘它、生命週期窗口讀它，但五張特質表沒有任何一條宣告。 */
+  {
+    const { readdirSync } = await import('node:fs');
+    const walk = (dir, out = []) => {
+      for (const d of readdirSync(dir, { withFileTypes: true })) {
+        const p = `${dir}/${d.name}`;
+        if (d.isDirectory()) walk(p, out);
+        else if (d.name.endsWith('.js')) out.push(p);
+      }
+      return out;
+    };
+    const consumed = new Set();
+    const callRe = /\b(flag|factor|bonus|floorOf|capOf)\(\s*[A-Za-z_$][\w$]*\s*,\s*'([A-Za-z0-9_]+)'/g;
+    for (const file of walk(new URL('../../src', import.meta.url).pathname)) {
+      for (const m of readFileSync(file, 'utf8').matchAll(callRe)) consumed.add(m[2]);
+    }
+    const declaredIn = new Set();
+    for (const { table } of Object.values(TIER_STORES)) {
+      for (const t of Object.values(table())) {
+        for (const side of ['effects', 'sideEffects']) {
+          for (const k of Object.keys(t[side] || {})) declaredIn.add(k);
+        }
+      }
+    }
+    const orphans = [...consumed].filter((k) => !declaredIn.has(k)).sort();
+    check('反向死鍵：引擎消費的效果鍵都有特質宣告', orphans.length === 0, orphans.join('、'));
+  }
+
   /* ---- 天生特質池指派（§14.1，S19d）：每個天生特質都屬於合成池，不進 psych／career ---- */
   {
     const { INNATE_POOL } = await import('../../src/data/innate.js');

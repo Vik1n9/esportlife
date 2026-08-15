@@ -125,6 +125,9 @@ function* playoffs(g, split, stat, splitCount) {
         `第 ${seed} 種子一路打上去把冠軍拿走——沒有人看好的時候，你反而更強。`);
       yield* fusionBeats(g);
     }
+    // TODO(S20e 或後續)：S20d 量測 clutch 持有 0/160——冠軍解鎖分支看起來沒咬到
+    // （與單殺王 1.5 同類的門檻漂移嫌疑）。本站只修 N10／N11／N12 點名的死內容，
+    // clutch 取得率留待下一站確認 `unlockTrait` 的機率與條件
     if (!state.traits.clutch && state.age <= 30 && unlockTrait(state, 'clutch')) {
       yield card('gold', '隱藏素質解鎖：大賽選手', '越大的舞台，你的手越穩。');
       yield* fusionBeats(g);

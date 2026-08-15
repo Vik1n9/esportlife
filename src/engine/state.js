@@ -12,9 +12,11 @@ import { FAME_START } from '../data/reputation.js';
 import { STAMINA_MAX } from './stamina.js';
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
-import { START_AGE, START_YEAR } from '../data/eras.js';
+import { AMATEUR_START_AGE, AMATEUR_START_YEAR, START_AGE, START_YEAR } from '../data/eras.js';
 import { ceilingCurve, drawLifecycle } from './lifecycle.js';
 import { INNATE_POOL } from '../data/innate.js';
+import { signContract } from './market.js';
+import { teamsOf } from './roster.js';
 
 // v16：設施制訓練（V4 §5）。`state.activeEffects` 是新欄位（短期 buff/debuff，剩餘月數，
 // §20.2）。訓練從「骰子加點」換成「訓練活動＋訓練事件卡」，成長結算整段改寫，舊存檔作廢
@@ -49,9 +51,20 @@ export function blankSeasonStat() {
  *
  * 這條界線是刻意的：天賦是給定的，選擇與際遇不是。
  *
- * @param {{name:string, role:string, seed:string}} opts
+ * `stage`（S20d）：兩種起點共用同一條出生流——
+ *
+ *   'PRO'（預設，DEMO／完成定義起點）：19 歲、2015 年、直接從職業第一年開始
+ *     （§19）。起始屬性讀**固定潛力**——出道新人已經打完業餘期，§7.3 的 k_i
+ *     比例照原樣兌現。出道隊由 `${seed}:debut` 亂數流簽下，與人生流／出生流
+ *     分開命名空間。
+ *   'AMATEUR'：16 歲、2012 年、從網咖盃賽爬起。起始屬性讀 effective_potential(16)，
+ *     業餘期保留「從網咖爬到職業門檻」的成長空間（S15b 以來 13 站的校準基線全量
+ *     在這條路線上——完整生涯測試一律明確傳這個值，見 `tests/lib/harness.mjs` 的
+ *     `DEFAULT_STAGE`）。
+ *
+ * @param {{name:string, role:string, seed:string, stage?:string}} opts
  */
-export function createState({ name, role, seed }) {
+export function createState({ name, role, seed, stage = 'PRO' }) {
   // 出生亂數流。與人生流分開命名空間，否則改動人生流的取數順序會連帶改變天賦
   const birth = new Rng(`${seed}:birth`);
 
@@ -63,16 +76,13 @@ export function createState({ name, role, seed }) {
   });
 
   /*
-   * 起始屬性（V4 §7.3）＝ effective_potential(起始年齡) 的比例，不是固定區間。
+   * 起始屬性（V4 §7.3）。比例寫法保留，乘的底隨起點分兩種（S20d）：
    *
-   * DEMO 跳過業餘期，所以起點代表的是「已經打進職業隊的新人」。潛力是先分派的，
-   * 若起始值走固定區間，一個「平庸 58」的屬性會在出生時就頂到天花板，第一年完全
-   * 沒有成長空間；寫成比例則天花板越高、起始值越高、剩餘空間也越大。
-   *
-   * v4.3（§7.3）：比例乘的底從「固定潛力」換成「effective_potential(16)」——出生
-   * 當下天花板隨年齡曲線移動（16 歲的 ceiling_curve ≈ 0.5），所以實際起始值約是
-   * 潛力 × 0.5 × k_i。這讓業餘期重新有了「從網咖爬到職業門檻」的空間（S09 交接
-   * 筆記第二節點名的缺口）。k_i 本身經 S15b 重校（見 `data/attributes.js`）。
+   * - AMATEUR（16 歲）：effective_potential(16)——出生當下天花板約 0.5，實際起始值
+   *   約潛力 × 0.5 × k_i，業餘期才有「從網咖爬到職業門檻」的空間（S15b）。
+   * - PRO（19 歲出道）：固定潛力——出道新人已經打完業餘期，比例不再被 16 歲的
+   *   天花板壓一次。k_i 照 §7.3 原表（0.80／0.70），實測起始評價平均 58.6、
+   *   p10 55／p90 64，與業餘路線實測晉升分布（58.9、56／62）對齊。
    *
    * 位置味道不靠額外加值，由該路權重最高的兩項吃較高的比例（0.80 對 0.70）。
    *
@@ -116,26 +126,29 @@ export function createState({ name, role, seed }) {
   // 生命週期參數（§7.2，§1.4 的最後一步）——接在業餘隊伍之後抽 30 次，不准插隊
   const lifecycle = drawLifecycle(birth);
 
-  // 起始屬性＝ potential × ceiling_curve(16) × k_i（§7.3 v4.3）
+  // 起始屬性（§7.3）：AMATEUR 讀 effective_potential(16)，PRO 讀固定潛力（見上方說明）
   const attr = {};
+  const attrBase = stage === 'PRO'
+    ? (k) => potential[k]
+    : (k) => potential[k] * ceilingCurve(lifecycle[k], AMATEUR_START_AGE);
   for (const k of ATTRS) {
-    attr[k] = Math.round(potential[k] * ceilingCurve(lifecycle[k], START_AGE) * ratios[k]);
+    attr[k] = Math.min(100, Math.round(attrBase(k) * ratios[k]));
   }
 
-  return {
+  const state = {
     saveVersion: SAVE_VERSION,
     seed,                // 出生種子（字串）。決定天賦，不決定人生
     name,
     role,
-    age: START_AGE,
-    year: START_YEAR,
+    age: stage === 'PRO' ? START_AGE : AMATEUR_START_AGE,
+    year: stage === 'PRO' ? START_YEAR : AMATEUR_START_YEAR,
     // 當下的月份（V4 §3.3）。存檔點固定在年初，所以它讀出來一定是 1；它存在是為了
     // 讓狀態列與面板有一個「現在走到哪」的來源，而不是靠 UI 自己數 beat
     month: 1,
 
     // 生涯階段：AMATEUR（網咖盃賽）→ AM2（青訓次級）→ PRO
-    stage: 'AMATEUR',
-    stageYear: 1,
+    stage,
+    stageYear: stage === 'PRO' ? 0 : 1,
     am2Track: 'HOME',
     league: null,        // PRO 時的 LEAGUES 鍵
     team,
@@ -275,4 +288,19 @@ export function createState({ name, role, seed }) {
     done: false,
     retireReason: '',
   };
+
+  /*
+   * PRO 起點的出道簽約（S20d，§19 DEMO）：新人已經站在職業隊裡，所以跳過試訓
+   * 門檻判定（那是業餘路線的窄門），直接用出道亂數流挑一支主場賽區的隊伍簽下。
+   * `${seed}:debut` 與出生流／人生流分開命名空間——簽到哪支隊不屬於天賦，也不
+   * 消耗人生流的取數順序。`signContract` 順帶滾出隊友／教練、開 teamHistory 第一筆
+   * 與「出道於 X」的里程碑（§15.5 傳記讀它）。
+   */
+  if (stage === 'PRO') {
+    const debut = new Rng(`${seed}:debut`);
+    const pool = teamsOf(state, 'HOME');
+    signContract(state, debut, { team: debut.pick(pool), league: 'HOME', years: 2, mult: 1 });
+  }
+
+  return state;
 }

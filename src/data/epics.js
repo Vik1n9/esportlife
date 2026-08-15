@@ -259,15 +259,19 @@ export const LEGENDARY_TRAITS = {
   },
   goat: {
     // Faker「史上第一人」：歷史最佳移交日。副作用走壓力——萬人盯著的只有你。
+    // importExempt（S20d/N11）：外援名額消費端在 imports.js，原本沒人宣告——
+    // 史上第一人不需要名額，戰隊會為他把現有的外援換掉
     name: '史上第一人', tier: 'legend', pool: 'career',
-    desc: '世界賽 +10、國際賽 +10、決勝局 +6；揹著歷史的目光，抗壓 −10、紀律 −6',
-    effects: { worldsRoll: 10, intlRoll: 10, seriesDecider: 6 },
+    desc: '世界賽 +10、國際賽 +10、決勝局 +6、簽約海外不佔外援名額；揹著歷史的目光，抗壓 −10、紀律 −6',
+    effects: { worldsRoll: 10, intlRoll: 10, seriesDecider: 6, importExempt: true },
     sideEffects: { mental_comp: -10, mental_disc: -6 }, sideEffectLevel: 'heavy',
   },
-  rookie_king: {
-    // Caps／Rookie「出道即巔峰」：開局站在別人爬五年才到的地方。副作用走少年得志。
-    name: '出道即巔峰', tier: 'legend', pool: 'career',
-    desc: '上升曲率 ×1.4、國際賽加成；少年得志，過自信（自信 +8）、練得少了（紀律 −8）',
+  breakout: {
+    // S20d/N12：前身 rookie_king（Caps／Rookie「出道即巔峰」）因引擎 legend 底線
+    // 與「生涯前期視窗」結構性錯身，整張卡 0/160 開卡；改名重設計成國際突破卡
+    // 「更上一層樓」（首次國際四強開卡）。機械效果不變：突破期的上升曲率與國際賽加成。
+    name: '更上一層樓', tier: 'legend', pool: 'career',
+    desc: '上升曲率 ×1.4、國際賽加成；舞台越大越強，過自信（自信 +8）、練得少了（紀律 −8）',
     effects: { rise_k_mul: { mul: 1.4 }, intlRoll: 8 },
     sideEffects: { mental_conf: 8, mental_disc: -8 }, sideEffectLevel: 'heavy',
   },

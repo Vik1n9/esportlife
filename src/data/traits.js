@@ -89,8 +89,10 @@ export const BASE_TRAITS = {
   },
   franchise: {
     name: '神主牌', tier: 'common', pool: 'persona',
-    desc: '續約優先、年薪係數保底、俱樂部不敢動你；地位太穩，缺乏危機感，動機 −4',
-    effects: { contractFloor: { floor: 1.2 }, verdictFireRisk: -10 },
+    // benchRisk（S20d/N11）：消費端在 lineup.js 的下放風險，原本沒人宣告，
+    // 效果從沒生效過——神主牌最直覺的含義就是「俱樂部不敢把你按上板凳」
+    desc: '續約優先、年薪係數保底、俱樂部不敢動你，下放風險減半；地位太穩，缺乏危機感，動機 −4',
+    effects: { contractFloor: { floor: 1.2 }, verdictFireRisk: -10, benchRisk: { mul: 0.5 } },
     sideEffects: { mental_drive: -4 }, sideEffectLevel: 'light',
   },
   popular: {
@@ -103,8 +105,10 @@ export const BASE_TRAITS = {
     name: '老將', tier: 'common', pool: 'performance',
     // v4.3：退役上限／衰退偏移／衰退倍率三個效果鍵已隨生命週期曲線（§7.2）作廢，
     // 改由 §7.2 的窗口表達——衰退減緩（fall_k_mul）＋ 巔峰延後（peak_age_shift）。
-    desc: '衰退大幅減緩、巔峰延後一年；征戰多年，職業倦怠，動機 −6',
-    effects: { fall_k_mul: { mul: 0.7 }, peak_age_shift: 1 },
+    // decline_pull_mul（S20d/N11）：生命週期窗口的天花板拉力倍率，消費端在
+    // lifecycle.js，原本沒人宣告——老將不只衰退慢，天花板往下拽的力氣也小
+    desc: '衰退大幅減緩、巔峰延後一年、天花板拉力減弱；征戰多年，職業倦怠，動機 −6',
+    effects: { fall_k_mul: { mul: 0.7 }, peak_age_shift: 1, decline_pull_mul: { mul: 0.7 } },
     sideEffects: { mental_drive: -6 }, sideEffectLevel: 'medium',
   },
   disc: {

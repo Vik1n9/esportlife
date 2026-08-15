@@ -89,7 +89,7 @@ export async function run({ check, log, shared }) {
   }
 
   {
-    const s = createState({ name: 'NOOB', role: 'ADC', seed: 'bio-anchor5' });
+    const s = createState({ name: 'NOOB', role: 'ADC', seed: 'bio-anchor5', stage: 'AMATEUR' });
     s.quests = { active: [], done: [], log: [] };
     const bio = buildBiography(s);
     validate(check, '沒打進職業', bio);

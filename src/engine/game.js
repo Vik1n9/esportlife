@@ -27,7 +27,6 @@
  *   {type:'end'}                          生涯結束
  */
 import { ATTR_NAMES } from '../data/attributes.js';
-import { START_YEAR } from '../data/eras.js';
 import { MONTHS_PER_YEAR, calendarFor } from './calendar.js';
 import { careerTier, tierName } from './career.js';
 import { disbandNoteFor } from './market.js';
@@ -53,11 +52,22 @@ export { stageLabel };
 export function* careerFlow(g) {
   const { state } = g;
 
-  if (state.year === START_YEAR && state.age === 16 && !state.seasonLog.length) {
-    yield card('info', '選手誕生',
-      `${state.year} 年春天，這座島上還沒有「職業選手」這種身分。有的是網咖包台、` +
-      `店家自己辦的盃賽，和一整排在排位上想證明自己的人。<br>` +
-      `16 歲的 <b class="hl">${state.name}</b> 在 <b class="hl">${state.team}</b> 卡到一個位子。三年後的路，要自己選。`);
+  /*
+   * 開場卡依起點分兩種（S20d）：AMATEUR 是 2012 年網咖時代的 16 歲起點；PRO 是
+   * DEMO 預設起點——19 歲出道新人，第一年就是職業賽季。兩種都只在「還沒打過任何
+   * 賽季」時出現一次（讀檔回來的生涯不會重播開場）。
+   */
+  if (!state.seasonLog.length) {
+    if (state.stage === 'AMATEUR' && state.age === 16) {
+      yield card('info', '選手誕生',
+        `${state.year} 年春天，這座島上還沒有「職業選手」這種身分。有的是網咖包台、` +
+        `店家自己辦的盃賽，和一整排在排位上想證明自己的人。<br>` +
+        `16 歲的 <b class="hl">${state.name}</b> 在 <b class="hl">${state.team}</b> 卡到一個位子。三年後的路，要自己選。`);
+    } else if (state.stage === 'PRO') {
+      yield card('info', '選手誕生',
+        `${state.year} 年，<b class="hl">${state.name}</b> 被 <b class="hl">${state.team}</b> 簽下——` +
+        `19 歲，職業第一年。賽段冠軍、MSI 門票、世界賽，從今年開始都跟你有關了。`);
+    }
   }
 
   try {

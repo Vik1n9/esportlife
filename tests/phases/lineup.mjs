@@ -94,7 +94,7 @@ export async function run({ check }) {
 
   /* ---- 業餘與青訓沒有板凳這回事 ---- */
   {
-    const am = createState({ name: 'A', role: 'MID', seed: 'am' });
+    const am = createState({ name: 'A', role: 'MID', seed: 'am', stage: 'AMATEUR' });
     check('業餘階段風險為 0', benchRisk(am) === 0);
     for (let i = 0; i < 50; i++) {
       check('業餘階段一律先發', lineupFor(am, rng).status === 'starter');

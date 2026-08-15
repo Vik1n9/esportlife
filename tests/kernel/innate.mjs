@@ -79,8 +79,10 @@ export async function run({ check }) {
     const want = INNATE_POOL.filter((e) => e.mentalBias);
     const seen = {};
     let i = 0;
+    // AMATEUR 起點：PRO 出道簽約會把 trust 拉回中位（roster.js），量出生六維要
+    // 讀未經簽約的原始值（S20d）
     while (Object.keys(seen).length < want.length && i < 2000) {
-      const s = createState({ name: 'M', role: 'MID', seed: `innate-bias-${i}` });
+      const s = createState({ name: 'M', role: 'MID', seed: `innate-bias-${i}`, stage: 'AMATEUR' });
       i += 1;
       for (const e of want) {
         if (s.traits[e.key] && !seen[e.key]) {
@@ -97,9 +99,9 @@ export async function run({ check }) {
     }
     check('所有帶 mentalBias 的條目都取到樣本', want.every((e) => seen[e.key]), Object.keys(seen).join('、'));
     // 2 個天生特質的種子：指定維度之外照舊 jitter（±10 內）
-    const pair = innateHeld(createState({ name: 'M', role: 'MID', seed: 'innate-bias-2000' }));
+    const pair = innateHeld(createState({ name: 'M', role: 'MID', seed: 'innate-bias-2000', stage: 'AMATEUR' }));
     if (pair.length === 2) {
-      const s = createState({ name: 'M', role: 'MID', seed: 'innate-bias-2000' });
+      const s = createState({ name: 'M', role: 'MID', seed: 'innate-bias-2000', stage: 'AMATEUR' });
       const biased = new Set(want.filter((e) => s.traits[e.key]).map((e) => e.mentalBias.dim));
       for (const k of MENTAL_KEYS) {
         if (biased.has(k)) continue;
@@ -113,7 +115,7 @@ export async function run({ check }) {
     const sums = Object.fromEntries(MENTAL_KEYS.map((k) => [k, 0]));
     let n = 0;
     for (let i = 0; i < 600; i++) {
-      const s = createState({ name: 'Z', role: 'MID', seed: `innate-zero-${i}` });
+      const s = createState({ name: 'Z', role: 'MID', seed: `innate-zero-${i}`, stage: 'AMATEUR' });
       if (innateHeld(s).length) continue;
       n += 1;
       for (const k of MENTAL_KEYS) {

@@ -1,7 +1,19 @@
 /** 時代演進表。純資料。 */
 
-export const START_YEAR = 2012;
-export const START_AGE = 16;
+/*
+ * 起點兩套，各自服務一條路線（S20d）：
+ *
+ * - `START_YEAR／START_AGE` 是遊戲預設起點——DEMO 直接從職業第一年開始
+ *   （§19）。選 2015 是因為它是 MSI 開辦年，年曆從第一年就有兩賽段＋兩席
+ *   世界賽門票，賽事成績線不必等三年才有東西可量。
+ * - `AMATEUR_START_YEAR／AMATEUR_START_AGE` 是業餘路線起點——16 歲打網咖
+ *   盃賽。2012 是主場賽區草創期（GPL），S15b 以來的全部校準線都量在這條
+ *   路線上，改它等於把基線搬走，所以業餘線起點凍結不動。
+ */
+export const START_YEAR = 2015;
+export const START_AGE = 19;
+export const AMATEUR_START_YEAR = 2012;
+export const AMATEUR_START_AGE = 16;
 
 /**
  * 時代時間軸。`[from, to]` 閉區間，`eraOf` 依年份查表，不再用一串 if。

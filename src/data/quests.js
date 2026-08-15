@@ -11,7 +11,7 @@
  * 設計規則（§12.3／§14.2／§14.3）：
  *   - 觸發條件形狀是設計自由：一史詩＋一稀有、兩個稀有、賽事成績＋素材、
  *     純軌跡不吃素材全都合法。本表刻意多樣化——15 張吃素材、5 張純戰績／軌跡
- *     （worlds-king／grand_slam／goat／rookie-king／godslayer 戰績型）。素材分配
+ *     （worlds-king／grand_slam／goat／breakout／godslayer 戰績型）。素材分配
  *     由 S19c 重推供給算式時以實際卡表為準。
  *   - ⚠ 素材一律選 160 段實測「取得率 ≥15%」的特質（S19c 量測，見 19c 交接筆記）。
  *     死路檢驗（§14.2）的死線是 15%。
@@ -112,14 +112,19 @@ export const QUEST_CARDS = [
     id: 'legend-heavenly',
     type: 'legend',
     name: '天神下凡',
-    text: '世界賽上路一打二，反向一穿三。賽後韓網的標題只寫了一句——「不是五個人下凡，是一個人下來了」。',
-    trigger: ['and', ['has', 'common', 'laneking'], ['has', 'common', 'composure']],
+    text: '世界賽淘汰賽，隊伍先丟兩局。第三局開始，你一個人扛著整個系列賽往前走——打滿五局，你的身體比對面五個人都硬。賽後韓網的標題只寫了一句——「不是五個人下凡，是一個人下來了」。',
+    // S20d/N12：舊素材 laneking＋composure 實測 0/160——laneking 會被 soloking
+    // 融合吃掉，composure 只有 5/30 的四強生涯持有。lonewolf 接手後仍是 0/160：
+    // 獨狼信任 −8，持有人根本到不了四強（0/30）。改成 underdog＋iron——兩者
+    // 都不是配方素材（iron 是天生的），四強生涯共現 5/30；文案同步從「對線
+    // 一穿三」改寫成「扛著系列賽逆轉」。goal／deadline 不變
+    trigger: ['and', ['has', 'common', 'underdog'], ['has', 'common', 'iron']],
     goal: ['and', ['stat', 'awards', 'gte', 3], ['stat', 'splitTitles', 'gte', 1]],
     deadline: 2,
     result: { tier: 'legendary', key: 'heavenly' },
     failLabel: '墜落的天神',
     goalText: '達成目標：生涯獎項 ≥ 3，且生涯累計賽段冠軍 ≥ 1',
-    materialText: '所需素材：單殺王（通用）＋ 心態沉穩（通用）',
+    materialText: '所需素材：逆風翻盤（通用）＋ 鐵人（通用）',
   },
   {
     id: 'legend-shotcaller',
@@ -178,13 +183,16 @@ export const QUEST_CARDS = [
     type: 'legend',
     name: '後期之魔',
     text: '四十分鐘前的你叫「拖」，四十分鐘後的你叫「魔」。對面教練的戰術板角落寫著一行小字：「別跟他們拖後期」——但沒有一支隊做得到。',
-    trigger: ['and', ['has', 'common', 'composure'], ['has', 'epic', 'lockerroom']],
+    // S20d/N12：舊 trigger 吃史詩 lockerroom——它與 ageless 雙胞胎配方互相搶料，
+    // 實際上只從 route-team-soul 發放，持有率近零（0/160 開卡）。拖後期要的是
+    // 心態與身體：換成 composure＋iron（鐵人是天生特質，零配方消耗，素材永不失效）
+    trigger: ['and', ['has', 'common', 'composure'], ['has', 'common', 'iron']],
     goal: ['and', ['stat', 'intlWinRate', 'gte', 30], ['stat', 'splitTitles', 'gte', 1]],
     deadline: 2,
     result: { tier: 'legendary', key: 'late_game' },
     failLabel: '破功的後期',
     goalText: '達成目標：國際賽勝率 ≥ 30%，且生涯累計賽段冠軍 ≥ 1',
-    materialText: '所需素材：心態沉穩（通用）＋ 休息室傳奇（史詩）',
+    materialText: '所需素材：心態沉穩（通用）＋ 鐵人（通用）',
   },
   {
     id: 'legend-adc-king',
@@ -217,13 +225,15 @@ export const QUEST_CARDS = [
     type: 'legend',
     name: '紀錄粉碎機',
     text: '每季結束，數據分析師都會來找你簽名——不是簽在週邊上，是簽在紀錄簿的下一行。你那行，括號裡寫著「前紀錄保持者」。',
-    trigger: ['and', ['has', 'common', 'genius'], ['has', 'rare', 'machine']],
+    // S20d/N12：rare/machine（練功機器）是雙配方限產素材，與 genius 同持近乎
+    // 不可能（0/160 開卡）。換成自律——紀錄型選手就是每天把訓練寫進紀錄簿的人
+    trigger: ['and', ['has', 'common', 'genius'], ['has', 'common', 'disc']],
     goal: ['and', ['stat', 'awards', 'gte', 5], ['stat', 'msiBest', 'lte', 3]],
     deadline: 2,
     result: { tier: 'legendary', key: 'record_breaker' },
     failLabel: '停擺的紀錄',
     goalText: '達成目標：生涯獎項 ≥ 5，且 MSI 站上過四強',
-    materialText: '所需素材：天才操作（通用）＋ 練功機器（稀有）',
+    materialText: '所需素材：天才操作（通用）＋ 自律（通用）',
   },
   {
     id: 'legend-champion-maker',
@@ -281,16 +291,22 @@ export const QUEST_CARDS = [
     materialText: null,
   },
   {
-    id: 'legend-rookie-king',
+    id: 'legend-breakout',
     type: 'legend',
-    name: '出道即巔峰',
-    text: '第一年打職業，教練跟你說「慢慢來」。你把這句話理解成——開局，就要站在所有人爬了五年都爬不到的地方。',
-    trigger: ['and', ['stat', 'proYears', 'lte', 4], ['stat', 'splitTitles', 'gte', 1]],
-    goal: ['and', ['stat', 'proYears', 'lte', 6], ['stat', 'msiBest', 'lte', 3]],
+    name: '更上一層樓',
+    text: '第一次站上國際賽四強的那晚，你發現自己沒有怯場——那個舞台，好像本來就是留給你的。',
+    // S20d/N12：前身「出道即巔峰」（rookie-king）結構性死卡——引擎對所有 legend
+    // trigger AND 上 LEGEND_BASELINE（intlSemis ≥ 1，engine/quests.js:66），而實測
+    // 160 段生涯裡首次 MSI 淘汰賽最早落在職業第 11 年（p25＝13），任何「生涯前期」
+    // 視窗的 trigger 與底線永遠錯身，0/160 開卡。重設計成國際突破卡：trigger 就是
+    // 底線本身（首次國際四強即開卡），goal 是兩年內殺進 MSI 冠軍戰。特質鍵隨之
+    // 改名 rookie_king → breakout（epics.js 同步）
+    trigger: ['stat', 'intlSemis', 'gte', 1],
+    goal: ['stat', 'msiBest', 'lte', 2],
     deadline: 2,
-    result: { tier: 'legendary', key: 'rookie_king' },
-    failLabel: '傷仲永',
-    goalText: '達成目標：職業五年內，MSI 站上過四強',
+    result: { tier: 'legendary', key: 'breakout' },
+    failLabel: '曇花一現',
+    goalText: '達成目標：兩年內殺進 MSI 冠軍戰',
     materialText: null,
   },
 

@@ -26,7 +26,7 @@ const MILESTONE_KINDS = new Set(['debut', 'move', 'fired', 'disband', 'intl', 'a
 export async function run({ check }) {
   /* ---- 純查詢函式：單元 ---- */
   {
-    const s = createState({ name: 'U', role: 'MID', seed: 'ledger-unit' });
+    const s = createState({ name: 'U', role: 'MID', seed: 'ledger-unit', stage: 'AMATEUR' });
     check('新角色 intlWinRate = 0（沒打過國際賽）', intlWinRate(s) === 0, `${intlWinRate(s)}`);
     check('新角色 assistsPerGame = 0', assistsPerGame(s) === 0);
     check('新角色 distinctTeams = 0', distinctTeams(s) === 0);
@@ -63,7 +63,7 @@ export async function run({ check }) {
    */
   {
     const fresh = () => {
-      const s = createState({ name: 'F', role: 'MID', seed: 'finish-table' });
+      const s = createState({ name: 'F', role: 'MID', seed: 'finish-table', stage: 'AMATEUR' });
       s.year = 2018;
       return s;
     };

@@ -28,6 +28,13 @@ const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3]
 export const MAX_BEATS = 40000;
 
 /**
+ * 生涯矩陣的起點（S20d）。**預設 AMATEUR**：13 個站的校準基線全部量在業餘路線
+ * （2012 年 16 歲起點）上，回歸要比對的是同一條路線，不能因為遊戲預設起點換成
+ * PRO 就跟著搬。要量 DEMO 路線（PRO 出道）就明確傳 `stage: 'PRO'`。
+ */
+export const DEFAULT_STAGE = 'AMATEUR';
+
+/**
  * 月回合的行動策略（保守玩法）。
  *
  * S13 時這段判斷住在引擎裡（`stamina.js` 的 `planMonth` 自動駕駛），因為玩家還沒有
@@ -133,7 +140,7 @@ export function growthRoom(state) {
 
 /** 同一個種子／位置在**出生那一刻**的可成長空間（天賦是出生種子的確定性函式，重生即可） */
 export function birthGrowthRoom({ seed, role }) {
-  return growthRoom(createState({ name: 'ROOM', role, seed }));
+  return growthRoom(createState({ name: 'ROOM', role, seed, stage: DEFAULT_STAGE }));
 }
 
 /**
@@ -213,9 +220,11 @@ export function allocate(state, beat, style = 'focus', cursor = { i: 0 }) {
  * 引擎是 `(出生種子, 人生種子, 選擇)` 的確定性函式——遊戲本身每次開新局會隨機抽一個
  * 人生種子，所以同一個天賦每次過的人生都不同；測試則明確指定 `lifeSeed`，這樣回歸
  * 比對才有意義。`lifeSeed` 不給時預設等於出生種子，讓大多數測試只要寫一個種子。
+ *
+ * `stage`（S20d）：預設 AMATEUR，保 13 站校準基線的可比性；DEMO 路線傳 'PRO'。
  */
-export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strategy = 'first', style = 'focus', collectCards = false }) {
-  const state = createState({ name, role, seed });
+export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strategy = 'first', style = 'focus', collectCards = false, stage = DEFAULT_STAGE }) {
+  const state = createState({ name, role, seed, stage });
   const rng = new Rng(`${lifeSeed}:life`);
   const decisionRng = new Rng(`${lifeSeed}:decisions`);
   const flow = careerFlow({ state, rng });
@@ -268,14 +277,16 @@ export function driveUntil(state, rng, { stop, answer, maxBeats = 3000 }) {
 
 /**
  * 跑一批生涯並收集結果。冒煙測試與黃金種子共用同一組樣本，避免兩邊各跑一次。
+ *
+ * `stage`（S20d）：預設 AMATEUR（基線路線）；DEMO 路線傳 'PRO'。
  */
-export function playMatrix({ seeds, roles, styles = ['focus', 'spread'], collectCards = false }) {
+export function playMatrix({ seeds, roles, styles = ['focus', 'spread'], collectCards = false, stage = DEFAULT_STAGE }) {
   const runs = [];
   for (const seed of seeds) {
     for (const role of roles) {
       for (const style of styles) {
         const strategy = ['first', 'last', 'random'][seed.length % 3];
-        runs.push({ seed, role, style, strategy, ...playCareer({ seed, role, strategy, style, collectCards }) });
+        runs.push({ seed, role, style, strategy, ...playCareer({ seed, role, strategy, style, collectCards, stage }) });
       }
     }
   }

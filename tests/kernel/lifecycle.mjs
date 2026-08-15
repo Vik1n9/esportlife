@@ -147,7 +147,10 @@ export async function run({ check, log }) {
 
   /* ---------------- 衰退跟隨：不是斷崖 ---------------- */
 
-  const d = createState({ name: 'D', role: 'MID', seed: 'decline-probe' });
+  // AMATEUR 起點：起始屬性讀 effective_potential(16)，16 歲的屬性必然貼在天花板下，
+  // 「上升期不衰退」才量得到。PRO 起點屬性讀固定潛力，高於 16 歲天花板（那正是
+  // DEMO 新人該有的樣子），不適用這條探針（S20d）
+  const d = createState({ name: 'D', role: 'MID', seed: 'decline-probe', stage: 'AMATEUR' });
   // 上升期（16 歲）：天花板還在上坡，屬性貼著或低於天花板，不該衰退
   d.age = 16;
   for (const k of ATTRS) {

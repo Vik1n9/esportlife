@@ -1,6 +1,6 @@
 # S20d · DEMO 起點校準
 
-狀態：未開始
+狀態：完成（2026-08-16）
 前置：S20c
 預估：1~2 session
 推理難度：高
@@ -213,5 +213,86 @@ node -e "import('./src/engine/state.js').then(m=>{const s=m.createState({name:'T
 
 ## 交接筆記
 
-<!-- 做完由執行者回填。起始屬性的最終量法與實測分布、每一條校準線的新舊值與
-     變動理由、AMATEUR 基準與 DEMO 小矩陣的分工 -->
+> 執行：2026-08-16。`npm test` **19385 項全綠**（S20c 入口 19105 項；新增的
+> N11 反向死鍵掃描與 `tests/regression/demo.mjs` 把項數推上去）。SAVE_VERSION
+> 維持 **21**（本站沒加狀態欄位）。規格書 v4.5 → **v4.5.1**（§7.3 回寫＋附錄 #64）。
+
+### 起點雙軌制
+
+`createState({ name, role, seed, stage })`，`stage` 預設 `'PRO'`（`src/engine/state.js`）：
+
+- **PRO（DEMO 起點）**：19 歲、2015 年、`stageYear 0`。起始屬性讀**固定潛力**
+  × k_i（§7.3 原表 0.80／0.70、jitter ±0.03）——出道新人已打完業餘期，16 歲的
+  天花板不再壓一次。出道隊由 `${seed}:debut` 流挑（`teamsOf(state,'HOME')`＋
+  `signContract` 跳過試訓判定——已經是 PRO），出生流取數順序一個沒動。
+  實測起始評價平均 **58.7**（p10 55／p90 64），與業餘路線實測晉升分布
+  （58.9／56／62）對齊。
+- **AMATEUR（校準基線）**：16 歲、2012 年。起始屬性讀 `effective_potential(16)`，
+  與 S15b 以來完全相同——**13 站的校準基準全量在這條路線上**。
+
+`eras.js`：`START_YEAR 2012 → 2015`、`START_AGE → 19`；新增
+`AMATEUR_START_YEAR 2012`／`AMATEUR_START_AGE 16` 凍結業餘起點。
+`tests/lib/harness.mjs` 的 `DEFAULT_STAGE = 'AMATEUR'`——完整生涯矩陣一律走業餘
+基線；七個既有測試檔補上明確的 `stage: 'AMATEUR'`。
+`src/engine/game.js` 開場卡照 `state.stage` 分文案（網咖 vs 出道隊）。
+
+⚠ **校準基準改以 AMATEUR 起點為準，DEMO 起點的分布另量**——兩條線今後都要報，
+混在一起量就是本站要修的那個錯誤。
+
+### 常數變動（舊 → 新 → 為什麼該變）
+
+| 項目 | 舊 | 新 | 理由 |
+| --- | --- | --- | --- |
+| 最佳新人（`seasonEnd.js`） | `delta ≥ 2.5` 且 `age ≤ 20` 且 `proYears ≤ 1` | `delta ≥ -1.5` 且 `proYears ≤ 1`（年齡門檻移除） | 舊門檻 0/160。菜鳥首個完整賽季的 delta 分位 p0 −0.4／p90 −8.4——「優於聯盟平均 2.5」對首年新人是空話；新秀的優秀是「沒被平均甩開」。年齡與 `proYears ≤ 1` 重複卡人 |
+| 單殺王（`seasonEnd.js`） | 係數 ≥ **1.5** | 係數 ≥ **1.4** | 舊值 0/160（只有疊 one_man_army ×1.3 的極端個案跨線，裸係數上限 ≈ 1.27）——1–80 → 0–100 重校時 `0.008` 除了 1.25、比值沒跟著換算的漂移。1.4：頂級對線者加一項對線特質可觸及，仍稀有（實測 16/160 hit），同時解開 `laneking` 解鎖分支 |
+| N11 三個死 modifier 鍵 | 有消費端、零宣告 | `franchise.benchRisk {mul:0.5}`、`veteran.decline_pull_mul {mul:0.7}`（`traits.js`）、`goat.importExempt true`（`epics.js`） | 鍵不存在時 `factor()` 永遠回 1／機制無法觸發（詳說明書範圍 4）。`tests/kernel/traits.mjs` 新增**反向死鍵掃描**：掃 `src/` 全部 `flag|factor|bonus|floorOf|capOf` 消費點，每個鍵必須被特質表宣告（先紅後綠驗證過） |
+| N12 死任務卡 | 5 張 0 開卡 | 全 25 張皆有開卡（下表） | trigger 合取兩稀有素材、且撞引擎 legend 底線，詳下 |
+
+### N12 死任務卡（規格點名 5 張）
+
+| 卡 | 舊 trigger | 新 trigger／處置 | 實測開／達（160 段） |
+| --- | --- | --- | --- |
+| legend-late-game | `composure + lockerroom(epic)` | `composure + iron(common)`——lockerroom 材料鎖死在 ageless 互斥網，拿不到 | 2/1 |
+| legend-record-breaker | `genius + machine(rare)` | `genius + disc(common)`——machine 是雙配方限量素材，太稀 | 6/3 |
+| legend-heavenly | `laneking + composure` | `underdog + iron`——laneking 會被 soloking 融合吃掉、四強生涯只 5/30 持 composure；換 lonewolf 仍是 0（獨狼信任 −8，持有人到不了四強 0/30）。underdog＋iron 皆非配方素材，四強生涯共現 5/30；文案從「對線一穿三」改寫成「扛著系列賽逆轉」 | 11/9 |
+| legend-rookie-king | `proYears ≤ 4 && splitTitles ≥ 1` | **重設計成 legend-breakout「更上一層樓」**（使用者拍板）：trigger = `intlSemis ≥ 1`（就是底線本身，首次國際四強即開卡），goal = 兩年內 MSI 冠軍戰（`msiBest ≤ 2`），failLabel 曇花一現。特質鍵 `rookie_king → breakout`（`epics.js` 同步，效果不變）。原因見下方結構性矛盾 | 30/8 |
+| legend-showmaker | 未改 | N10／N11 修完後特質取得位移，自癒——不需動手 | 10/7 |
+
+⚠ **傳奇卡的結構性矛盾（交接重點）**：引擎對所有 legend trigger AND 上
+`LEGEND_BASELINE`（intlSemis ≥ 1，`engine/quests.js:66`），而實測首次 MSI 淘汰賽
+最早落在**職業第 11 年**（p25 = 13）、首次國際四強 p25 = 職業第 13 年——**任何
+「生涯前期視窗」的 legend trigger 與底線永遠錯身，結構性 0 開卡**。今後設計新的
+legend 卡：trigger 視窗不得早於中後段生涯，或 trigger 自身蘊含底線（breakout 的
+寫法）。
+
+### 修後校準線（AMATEUR 160 段基線）
+
+| 線 | 門檻 | 實測 |
+| --- | --- | --- |
+| 巔峰比 | [0.68, 0.82] | **0.719** |
+| 頂端落差 | ≥ 0.08（不得放寬） | **0.186**（有冠 12） |
+| 92% clamp ≤ 6% | ≤ 6% | 0/160 |
+| 風格差 | ≥ 0.0926 | 通過（suite 內 `invariants.mjs`） |
+| 休息間隔 | 3–4 月 | **3.38** |
+| 傳奇率 | ≤ 30% | 通過（`smoke.mjs`） |
+| 傳說持有 | ≤ 50% | **16.9%**（27/160） |
+| 五等第 | 都出現 | 傳奇 9、歷史級 15、優秀 22、稱職 64、邊緣 50 |
+| 老手傳奇 | ≤ 30% | 8/80 |
+
+獎項（160 段 hit）：最佳新人 **5**（修前 0）、單殺王 **16**（修前 ≈0）、MVP 52、
+全明星 76。晉升 40/40、age 平均 19.1、rating 平均 58.9（p10 56／p90 62）。
+
+### DEMO 小矩陣（PRO 100 段，`tests/regression/demo.mjs`）
+
+起始評價平均 58.7（p10 55／p90 64）；第一年存活 **98/100**（門檻 ≥ 90，修前
+出生值起點只有 30/100）。欄位齊備檢查：league／contract／coach／mates／
+teamHistory／debut 里程碑 100/100。
+
+### 未一起處理
+
+- **S20e／S20f**（三層退役事件、事件卡條件）照站序未動。
+- **clutch 持有 0/160**：冠軍解鎖分支（`playoff.js:128`）沒咬到，與單殺王同類的
+  門檻漂移嫌疑。超出本站 N10／N11／N12 清單，`playoff.js:128` 留了 TODO。
+- **N4**（S20c 修完比對後的評分位移）由 S20c 本身修畢，本站重量的頂端落差
+  （0.186）已反映。
+- 業餘期程式碼與內容未動（S21 規則）。S20g／S20h 的冠軍登記與背景模擬照舊。

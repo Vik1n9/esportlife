@@ -28,7 +28,7 @@ export async function run({ check }) {
     //   的巧合，不是機制（CEILING_FLOOR 軟底讓 attr 50 一年內必然漲破）。這個場景
     //   要不變的是「簽約選項永遠不超過當下 rating」：心理與生命週期固定成中性值，
     //   場景只由 attr／potential 決定，再驗證選項與 rating 一致
-    const state = createState({ name: 'A', role: 'JG', seed: 'academy-only' });
+    const state = createState({ name: 'A', role: 'JG', seed: 'academy-only', stage: 'AMATEUR' });
     for (const k of Object.keys(state.attr)) state.attr[k] = 50;   // 介於青訓 45 與一隊 56 之間
     for (const k of Object.keys(state.potential)) state.potential[k] = 52;
     for (const k of Object.keys(state.mental)) state.mental[k] = 50;
