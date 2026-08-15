@@ -12,8 +12,9 @@ import { createState } from '../../src/engine/state.js';
 import { Rng } from '../../src/core/rng.js';
 import { EVENT_CARDS } from '../../src/data/events.js';
 import {
-  SECOND_EVENT_CHANCE, currentSlots, eventOdds, eventTrigger, whenHits,
+  FLAG_TRAIT, SECOND_EVENT_CHANCE, TRAIT_FLAGS, currentSlots, eventOdds, eventTrigger, whenHits,
 } from '../../src/engine/eventTrigger.js';
+import { SLOTS } from '../../tools/schema.js';
 import { STAMINA_MAX } from '../../src/engine/stamina.js';
 
 export const name = '事件觸發引擎（條件優先）';
@@ -40,6 +41,45 @@ const fresh = (stage = 'PRO', extra = {}) => Object.assign(
 );
 
 export async function run({ check, log }) {
+  /* ---- 詞彙一致性（S20c）：編輯器答應得出來的，引擎要兌現得了 ---- */
+  {
+    // N7：`tools/schema.js` 的時段標籤清單必須是 `currentSlots()` 產得出的子集。
+    // 修前工具提供 10 個、引擎只產得出 6 個——`playoffs`／`msi`／`worlds`／
+    // `qualifier` 永遠取不到，只標這些的卡是永久抽不到的死卡
+    const reachable = new Set();
+    for (const stage of ['AMATEUR', 'AM2', 'PRO']) {
+      for (const month of [1, 2, 6, 12]) {
+        for (const threat of [false, true]) {
+          const s = createState({ name: 'S', role: 'MID', seed: 'slot' });
+          s.stage = stage; s.disbandThreat = threat;
+          for (const t of currentSlots(s, { month })) reachable.add(t);
+        }
+      }
+    }
+    const unreachable = SLOTS.filter((t) => !reachable.has(t));
+    check('編輯器的時段標籤全部取得到（無死卡陷阱）', unreachable.length === 0, unreachable.join('／'));
+    const missing = [...reachable].filter((t) => !SLOTS.includes(t));
+    check('引擎產得出的時段標籤編輯器都列得出來', missing.length === 0, missing.join('／'));
+
+    // N8：事件卡寫得出的特質旗標，FLAG_TRAIT 必須認得——否則卡片承諾解鎖特質、
+    // 實際零給予（`trashtalk`／`meta` 兩張卡就這樣掛了整個 S18）
+    const written = new Set();
+    for (const ev of EVENT_CARDS) {
+      const collect = (flags) => { for (const k of Object.keys(flags || {})) written.add(k); };
+      collect(ev.good?.flags); collect(ev.bad?.flags);
+      for (const o of ev.options || []) {
+        collect(o.flags);
+        if (o.on) { collect(o.on.good?.flags); collect(o.on.bad?.flags); }
+      }
+    }
+    const NON_TRAIT = new Set(['patchDebt', 'injuryRisk', 'bonusSalary', 'romance', 'mateMorale']);
+    const orphan = [...written].filter((k) => !NON_TRAIT.has(k) && !FLAG_TRAIT[k]);
+    check('事件卡寫的特質旗標 FLAG_TRAIT 都認得（無空頭承諾）', orphan.length === 0, orphan.join('／'));
+    // 認得還不夠：安全牌（traits:false）要擋得住，否則「安全牌不推向任何極端」破功
+    const unguarded = Object.keys(FLAG_TRAIT).filter((k) => !TRAIT_FLAGS.includes(k));
+    check('FLAG_TRAIT 每一鍵都在 TRAIT_FLAGS 內（安全牌擋得住）', unguarded.length === 0, unguarded.join('／'));
+  }
+
   /* ---- 步驟 1–2：條件命中 → 取最高優先度 ---- */
   {
     const s = fresh('PRO', { age: 20 });

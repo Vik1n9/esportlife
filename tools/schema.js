@@ -15,7 +15,7 @@ import { ATTRS, ATTR_NAMES } from '../src/data/attributes.js';
 import { MENTAL_KEYS, MENTAL_NAMES } from '../src/data/mental.js';
 import { SKILL_NAMES } from '../src/data/skills.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../src/data/traits.js';
-import { EPIC_TRAITS, LEGENDARY_TRAITS, FUSIONS } from '../src/data/epics.js';
+import { EPIC_TRAITS, LEGENDARY_TRAITS, UNIQUE_TRAITS, FUSIONS } from '../src/data/epics.js';
 import { EVENT_CARDS } from '../src/data/events.js';
 import { TRAINING_CARDS } from '../src/data/trainingCards.js';
 import { QUEST_CARDS } from '../src/data/quests.js';
@@ -34,13 +34,23 @@ export const POOL_LABELS = {
   career: 'career 生涯層（不入合成）',
 };
 
-/** 時段標籤（§12.2） */
-export const SLOTS = ['amateur', 'am2', 'offseason', 'regular', 'playoffs', 'msi', 'worlds', 'qualifier', 'transfer', 'crisis'];
+/**
+ * 時段標籤（§12.2）。
+ *
+ * ⚠ **這張清單必須與 `engine/eventTrigger.js` 的 `currentSlots()` 產得出的集合
+ * 逐一對應**（S20c／N7）。修前這裡有 10 個，`currentSlots()` 只產得出 6 個——
+ * `playoffs`／`msi`／`worlds`／`qualifier` 永遠取不到，只標這些的卡是**永久抽不到
+ * 的死卡**。今天 0 張卡用到它們，所以是留給內容站（S20f）的陷阱，不是現存 bug。
+ *
+ * 賽事期間的事件要能觸發，缺的是**賽事期觸發鉤**（賽事月不排養成回合，月度判定
+ * 根本不跑），不是編輯器多幾個下拉選項。鉤子建好之前不留這四個標籤——兩邊都留著
+ * 才是最糟的組合：編輯器答應得出來，引擎兌現不了。
+ */
+export const SLOTS = ['amateur', 'am2', 'offseason', 'regular', 'transfer', 'crisis'];
 
 export const SLOT_LABELS = {
   amateur: '業餘期', am2: '青訓期', offseason: '休賽期（1、12 月）',
-  regular: '常規賽期間', playoffs: '季後賽期間', msi: 'MSI 期間',
-  worlds: '世界賽期間', qualifier: '生死戰', transfer: '轉會期',
+  regular: '常規賽期間', transfer: '轉會期',
   crisis: '降級／解散危機（不分月份）',
 };
 
@@ -90,6 +100,7 @@ export const CARD_TIER_LABELS = {
 };
 
 /** 訓練卡池別（§5.4） */
+/** 訓練卡池別。⚠ 不是可編欄位——由 `tier` 導出（`poolOfTier`），這裡只留給顯示用 */
 export const CARD_POOLS = ['success', 'failure'];
 
 export const CARD_POOL_LABELS = {
@@ -215,15 +226,18 @@ export const FIELD_TYPES = [
   'cond', 'effect', 'when', 'outcome', 'option', 'list', 'range', 'attrMap',
 ];
 
-/* ================= 特質鍵清單（四階共用命名空間） ================= */
+/* ================= 特質鍵清單（五階共用命名空間） =================
+ *
+ * ⚠ 階名以 `kernel/modifiers.js` 的 `TIER_STORES` 為準（S20c 收斂）。工具與引擎
+ * 少一邊就脫節——`unique` 階就這樣脫節過一次：工具的 tier 下拉認得，引擎不認得。
+ */
 
-export const ALL_TRAIT_KEYS = [
-  ...Object.keys(BASE_TRAITS), ...Object.keys(RARE_TRAITS),
-  ...Object.keys(EPIC_TRAITS), ...Object.keys(LEGENDARY_TRAITS),
-];
+const TRAIT_TABLES = [BASE_TRAITS, RARE_TRAITS, EPIC_TRAITS, LEGENDARY_TRAITS, UNIQUE_TRAITS];
+
+export const ALL_TRAIT_KEYS = TRAIT_TABLES.flatMap((t) => Object.keys(t));
 
 export const TRAIT_KEY_LABELS = Object.fromEntries(ALL_TRAIT_KEYS.map((k) => [
-  k, `${k}（${(BASE_TRAITS[k] || RARE_TRAITS[k] || EPIC_TRAITS[k] || LEGENDARY_TRAITS[k]).name}）`,
+  k, `${k}（${TRAIT_TABLES.find((t) => t[k])[k].name}）`,
 ]));
 
 /** 事件卡旗標鍵（engine/eventTrigger.js 的 FLAG_TRAIT＋其他引擎消費的旗標） */
@@ -286,13 +300,12 @@ export const SCHEMAS = {
   trainingCard: {
     id: 'trainingCard',
     label: '訓練事件卡',
-    intro: '訓練事件卡（§5.4）：檔位＋池別＋權重。大成功／大失敗才可動心理（§14.8.4），受傷只在大失敗。activity／stage／stamina 沒標＝全適用；兜底 24 張保證每活動×檔位永不空池。',
+    intro: '訓練事件卡（§5.4）：檔位＋權重（池別由檔位導出，不另外填）。大成功／大失敗才可動心理（§14.8.4），受傷只在大失敗。activity／stage／stamina 沒標＝全適用；兜底 24 張保證每活動×檔位永不空池。',
     source: TRAINING_CARDS,
     keyOf: (c) => c.id,
     fields: [
       { key: 'id', label: 'id', type: 'id', required: true },
       { key: 'tier', label: '檔位', type: 'enum', options: CARD_TIERS, labels: CARD_TIER_LABELS, required: true },
-      { key: 'pool', label: '池別', type: 'enum', options: CARD_POOLS, labels: CARD_POOL_LABELS, required: true },
       { key: 'weight', label: '權重', type: 'number', min: 0, required: true },
       { key: 'activity', label: '適用活動（沒選＝全活動）', type: 'multienum', options: ACTIVITY_KEYS, labels: ACTIVITY_LABELS, optional: true },
       { key: 'stage', label: '生涯階段（沒選＝全階段）', type: 'multienum', options: STAGES, optional: true },
@@ -365,7 +378,7 @@ export const SCHEMAS = {
       { key: 'outTier', label: '產物階級', type: 'enum', options: ['rare', 'epic'], labels: { rare: '稀有（2 persona 素材）', epic: '史詩（2~3 performance 素材）' }, required: true },
       { key: 'out', label: '產物特質鍵', type: 'enum', options: ALL_TRAIT_KEYS, labels: TRAIT_KEY_LABELS, required: true },
       { key: 'need', label: '素材（[階, 鍵] 配對）', type: 'list', min: 2, max: 3,
-        item: { fields: [{ key: 'tier', label: '素材階', type: 'enum', options: ['traits', 'rare', 'epic'], labels: { traits: '通用（traits）', rare: '稀有', epic: '史詩' }, required: true }, { key: 'key', label: '素材鍵', type: 'enum', options: ALL_TRAIT_KEYS, labels: TRAIT_KEY_LABELS, required: true }] } },
+        item: { fields: [{ key: 'tier', label: '素材階', type: 'enum', options: ['common', 'rare', 'epic'], labels: { common: '通用（common）', rare: '稀有', epic: '史詩' }, required: true }, { key: 'key', label: '素材鍵', type: 'enum', options: ALL_TRAIT_KEYS, labels: TRAIT_KEY_LABELS, required: true }] } },
     ],
   },
 

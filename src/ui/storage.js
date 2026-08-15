@@ -38,4 +38,3 @@ export function clearSave() {
   try { localStorage.removeItem(KEY); } catch { /* 無痕模式等情況，忽略 */ }
 }
 
-export function hasSave() { return !!loadGame(); }

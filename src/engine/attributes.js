@@ -181,11 +181,6 @@ function stepCost(current, effPot) {
   return 1 / decayCoef(current, effPot);
 }
 
-/** 下一點需要多少訓練點（給 UI 顯示用） */
-export function nextStepCost(state, key) {
-  return stepCost(state.attr[key], effectivePotential(state, key));
-}
-
 /**
  * 成長門檻資訊（純顯示用）。回傳目前的單點成本、是否已貼上有效天花板。
  *

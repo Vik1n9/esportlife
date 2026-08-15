@@ -9,6 +9,8 @@ import { createState } from '../../src/engine/state.js';
 import { benchRisk, lineupFor, SPLIT_WEEKS } from '../../src/engine/lineup.js';
 import { simulateSeason } from '../../src/engine/season.js';
 import { rollInjury } from '../../src/engine/progression.js';
+import { parOf } from '../../src/kernel/strength.js';
+import { LEAGUES } from '../../src/data/leagues.js';
 
 export const name = '先發板凳與傷勢缺席';
 
@@ -22,6 +24,21 @@ function pro(seed, ovrValue, extra = {}) {
 }
 
 export async function run({ check }) {
+  /* ---- par 回退單一來源（N13，S20c）：同一個「聯賽查不到」只有一個答案 ----
+   *
+   * `benchRisk` 原本自己寫 `?? 66`（主場賽區的 par），`kernel/strength.js` 的
+   * `parOf` 回退 43（AMATEUR par）。差 23 點，而 23 點在 benchRisk 是五十幾個
+   * 百分點的懲罰。
+   */
+  {
+    const probe = createState({ name: 'P', role: 'MID', seed: 'par-fallback' });
+    probe.stage = 'PRO'; probe.league = null;
+    check('聯賽查不到時 par 回退到 AMATEUR（43），不是各寫各的',
+      parOf(probe) === LEAGUES.AMATEUR.par, `${parOf(probe)}`);
+    probe.league = 'LCK';
+    check('聯賽查得到時 parOf 回該聯賽的 par', parOf(probe) === LEAGUES.LCK.par, `${parOf(probe)}`);
+  }
+
   const rng = new Rng('lineup');
 
   /* ---- 體力進表現，不進場次 ---- */

@@ -24,7 +24,8 @@
  */
 import { TIER_STORES } from '../kernel/modifiers.js';
 import {
-  assistsPerGame, distinctTeams, intlSemis, intlWinRate, longestTenure, msiBest, worldsBest,
+  assistsPerGame, awardsThisYear, careerGames, distinctTeams, intlSemis, intlWinRate,
+  longestTenure, msiBest, worldsBest,
 } from './ledger.js';
 import { careerScore } from './career.js';
 import { coachRating } from './attributes.js';
@@ -33,12 +34,14 @@ import { eraOf } from '../data/eras.js';
 import { LEAGUES } from '../data/leagues.js';
 import { MENTAL_KEYS } from '../data/mental.js';
 
-/** 條件式的階名 → state 的存放處。四階特質共用一個命名空間，鍵名與 TIER_STORES 對齊 */
-const TIER_TO_STORE = {
-  common: (s) => s.traits,
-  rare: (s) => s.rare,
-  epic: (s) => s.epic,
-  legendary: (s) => s.legendary,
+/**
+ * 條件式的階名 → state 的存放處。**直接讀 `TIER_STORES`**，不再自己抄一份
+ * （S20c）——修前這裡是第三份階名手抄本，`unique` 階漏在外面，
+ * `['has','unique',…]` 會丟「未知的階」。缺欄位回空物件，舊存檔才不會炸。
+ */
+const storeOf = (tier) => {
+  const entry = TIER_STORES[tier];
+  return entry ? (s) => entry.store(s) || {} : null;
 };
 
 /**
@@ -59,9 +62,11 @@ const QUERIES = {
   assistsPerGame,    // S17a：生涯場均助攻
   longestTenure,     // S17a：單一戰隊最長年數
   distinctTeams,     // S17a：效力過幾支不同戰隊
-  worldsBest,        // 世界賽生涯最佳名次（1 冠軍 … 6 入圍賽，99 = 沒打過）
-  msiBest,           // MSI 生涯最佳名次（1 冠軍 … 3 四強，99 = 沒打過）
+  worldsBest,        // 世界賽生涯最佳名次（序位見 data/formats/finishes.js，99 = 沒打過）
+  msiBest,           // MSI 生涯最佳名次（同一把尺，99 = 沒打過）
   intlSemis,         // 底線門檻：站上過國際賽四強以上（0/1）
+  careerGames,       // S20c：生涯累計出賽場次（獨有特質「千錘百鍊」的門檻）
+  awardsThisYear,    // S20c：今年拿到幾個個人獎項（獨有特質「老來俏」的門檻）
   fameLevel: (s) => {
     const t = fameTier(s.fame ?? 0);
     return ['沒沒無聞', '小有耳聞', '有點知名度', '圈內名人', '全民認識'].indexOf(t);
@@ -90,14 +95,14 @@ export function evalCond(state, node) {
     case 'or': return node.slice(1).some((n) => evalCond(state, n));
     case 'not': return !evalCond(state, node[1]);
     case 'has': {
-      const store = TIER_TO_STORE[node[1]];
+      const store = storeOf(node[1]);
       if (!store) throw new Error(`條件式未知的階：${node[1]}`);
       return !!store(state)[node[2]];
     }
     case 'hasCount': {
-      const store = TIER_TO_STORE[node[1]];
+      const store = storeOf(node[1]);
       if (!store) throw new Error(`條件式未知的階：${node[1]}`);
-      const held = Object.entries(store(state) || {}).filter(([, v]) => v).length;
+      const held = Object.entries(store(state)).filter(([, v]) => v).length;
       return held >= node[2];
     }
     case 'stat': {
@@ -136,14 +141,14 @@ export function collectMaterials(node) {
 
 /** 一個素材需求現在還滿不滿足（素材失效檢驗用） */
 export function materialHeld(state, mat) {
-  const store = TIER_TO_STORE[mat.tier](state) || {};
+  const store = storeOf(mat.tier)(state);
   if (mat.key !== undefined) return !!store[mat.key];
   return Object.entries(store).filter(([, v]) => v).length >= mat.count;
 }
 
 /** 消耗一個素材需求。回傳實際被消耗的 `{tier, key}` 清單（log 用） */
 export function consumeMaterial(state, mat) {
-  const store = TIER_TO_STORE[mat.tier](state) || {};
+  const store = storeOf(mat.tier)(state);
   const eaten = [];
   if (mat.key !== undefined) {
     if (store[mat.key]) {

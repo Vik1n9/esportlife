@@ -23,7 +23,7 @@ import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { bonus } from '../kernel/modifiers.js';
-import { card, drawRoleplay, fusionBeats, recordIntlGroup, recordIntlSeries } from './shared.js';
+import { card, drawRoleplay, fusionBeats, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'WORLDS';
@@ -196,13 +196,9 @@ function* settle(g, outcome, seed) {
   state.pendingPoints += result.points;
   state.intlAppearances += 1;
   state.lastIntlYear = state.year;
-  // 生涯軌跡帳本（S17a）：世界賽名次進事實流（rank 的冠軍／亞軍自帶「世界賽」前綴，
-  // 四強以下沒有，統一補齊——§15.5 拼接時不分兩種寫法）
-  state.milestones.push({
-    year: state.year,
-    kind: 'intl',
-    text: result.rank.startsWith('世界賽') ? result.rank : `世界賽 ${result.rank}`,
-  });
+  // 生涯軌跡帳本（S17a）：世界賽名次進事實流。S20c 起以**名次鍵**入帳
+  // （`event` ＋ `finish`），顯示字串由鍵導出——查詢層不再解析文字
+  recordIntlFinish(state, 'worlds', outcome);
 
   if (outcome === 'champion') {
     state.worldsWins += 1;

@@ -16,9 +16,9 @@
  * 升格成資源之後它搬去 `engine/stamina.js`——那個檔才是它讀的東西的家。
  */
 import { clamp } from '../core/rng.js';
-import { LEAGUES } from '../data/leagues.js';
 import { effectiveCoachRating } from './attributes.js';
 import { factor } from '../kernel/modifiers.js';
+import { parOf } from '../kernel/strength.js';
 
 /** 一個賽段約略的週數，用來把「缺席幾週」換算成出賽比例 */
 export const SPLIT_WEEKS = 12;
@@ -31,8 +31,7 @@ export const SPLIT_WEEKS = 12;
  */
 export function benchRisk(state) {
   if (state.stage !== 'PRO') return 0;
-  const par = LEAGUES[state.league]?.par ?? 66;
-  const delta = effectiveCoachRating(state) - par;
+  const delta = effectiveCoachRating(state) - parOf(state);
 
   let risk = 2;
   if (delta < 0) risk += -delta * 2.56;             // 打不到隊伍平均就會被檢討（3.2 ÷ 1.25）

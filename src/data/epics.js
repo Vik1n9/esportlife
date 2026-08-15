@@ -281,9 +281,14 @@ export const LEGENDARY_TRAITS = {
  * 管道——不走合成路線的 run 也有東西可拿。池歸屬一律 career（§14.2：career
  * 池＝獨有特質／生涯標籤專用）。
  *
- * ⚠ 引擎消費端（`TIER_STORES`）與授予條件實作未接線——本站只建目錄，schema
- * 與四階一致，效果鍵都是引擎已消費的鍵，接線站（S19c 校準任務卡時）只需
- * 補 store 與授予點，不用改資料。`grant` 是授予條件的設計描述，不帶數值。
+ * S20c 接線：`state.unique` 存放、`TIER_STORES.unique` 消費、授予口是
+ * `progression.js` 的 `grantUniqueTraits`，年度結算跑一次。
+ *
+ * - `grant` 是給人讀的設計描述（史實成就的由來），不參與求值。
+ * - `grantWhen` 是**可求值的授予條件**，與任務卡、事件卡同一套 `evalCond`
+ *   （`AGENTS.md` 條件語言規則）。原本三條 `grant` 都是自然語言字串，餵不進
+ *   求值器——資料存在、消費端不存在，就是 A2 那一類死資料。
+ * - `grantWhen: null` 代表**前提還沒建好**，本站不硬造一個假追蹤。
  */
 export const UNIQUE_TRAITS = {
   late_bloom: {
@@ -292,6 +297,7 @@ export const UNIQUE_TRAITS = {
     effects: { clutchAdd: 4, intlRoll: 4 },
     sideEffects: { mental_drive: -4 }, sideEffectLevel: 'medium',
     grant: '生涯末期（30 歲後）單季拿下個人獎項——史實成就：暮年爆發的傳奇',
+    grantWhen: ['and', ['stat', 'age', 'gte', 30], ['stat', 'awardsThisYear', 'gte', 1]],
   },
   thousand_games: {
     name: '千錘百鍊', tier: 'unique', pool: 'career',
@@ -299,6 +305,7 @@ export const UNIQUE_TRAITS = {
     effects: { injuryMinorChance: { mul: 0.6 } },
     sideEffects: { mental_drive: -4 }, sideEffectLevel: 'medium',
     grant: '職業生涯累計出賽 ≥ 1000 場——史實成就：全勤的紀錄',
+    grantWhen: ['stat', 'careerGames', 'gte', 1000],
   },
   torch_bearer: {
     name: '火炬手', tier: 'unique', pool: 'career',
@@ -306,6 +313,10 @@ export const UNIQUE_TRAITS = {
     effects: { intlRoll: 6 },
     sideEffects: { mental_conf: 6 }, sideEffectLevel: 'medium',
     grant: '世界賽淘汰現任世界冠軍——史實成就：世代交替的那一手',
+    // ⚠ S20g 接：遊戲裡目前沒有「現任世界冠軍」這個東西——`worlds.js` 的對手全文
+    // 是一個浮點數，且玩家沒奪冠的年份不記錄誰奪冠。要先建對手身分層與冠軍登記表，
+    // 不是把條件硬寫成一個近似值（那是把 A2 換個地方再犯一次）
+    grantWhen: null,
   },
 };
 
@@ -313,7 +324,10 @@ export const UNIQUE_TRAITS = {
  * 合成配方（完全隱藏，UI 不揭露）。
  *
  * 每一條配方消耗 `need` 指定的特質、賦予 `outTier` 階特質。`need` 是
- * `[tier, key]` 的配對，tier 為 `traits`(通用) / `rare`(稀有) / `epic`(史詩)。
+ * `[tier, key]` 的配對，tier 為 `common`(通用) / `rare`(稀有) / `epic`(史詩)。
+ *
+ * ⚠ 階名以 `kernel/modifiers.js` 的 `TIER_STORES` 為準（S20c 收斂）。這裡原本
+ * 寫 `traits`、任務卡條件式寫 `common`，同一階兩套拼法。
  *
  * 四階概念取自 LoL 道具合成（小件疊終極裝）：
  *   通用 → 稀有：由 2 個「人格／媒體」類通用小件合成。
@@ -345,25 +359,25 @@ export const UNIQUE_TRAITS = {
 export const FUSIONS = [
   // ── 通用 → 稀有（persona 素材；產物 star／machine／traffic 是任務卡素材，
   //    產能優先）──
-  { outTier: 'rare', need: [['traits', 'lonewolf'], ['traits', 'guardian']], out: 'watchdog' },
-  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'lonewolf']], out: 'joker' },
-  { outTier: 'rare', need: [['traits', 'innateLeader'], ['traits', 'glue']], out: 'og' },
-  { outTier: 'rare', need: [['traits', 'popular'], ['traits', 'innateLeader']], out: 'icon' },
-  { outTier: 'rare', need: [['traits', 'glue'], ['traits', 'grinder']], out: 'pillar' },
-  { outTier: 'rare', need: [['traits', 'grinder'], ['traits', 'popular']], out: 'machine' },
-  { outTier: 'rare', need: [['traits', 'camera'], ['traits', 'popular']], out: 'star' },
-  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'popular']], out: 'traffic' },
+  { outTier: 'rare', need: [['common', 'lonewolf'], ['common', 'guardian']], out: 'watchdog' },
+  { outTier: 'rare', need: [['common', 'meme'], ['common', 'lonewolf']], out: 'joker' },
+  { outTier: 'rare', need: [['common', 'innateLeader'], ['common', 'glue']], out: 'og' },
+  { outTier: 'rare', need: [['common', 'popular'], ['common', 'innateLeader']], out: 'icon' },
+  { outTier: 'rare', need: [['common', 'glue'], ['common', 'grinder']], out: 'pillar' },
+  { outTier: 'rare', need: [['common', 'grinder'], ['common', 'popular']], out: 'machine' },
+  { outTier: 'rare', need: [['common', 'camera'], ['common', 'popular']], out: 'star' },
+  { outTier: 'rare', need: [['common', 'meme'], ['common', 'popular']], out: 'traffic' },
 
   // ── 通用 → 史詩（performance 素材，2 個；產物 ultstage／soloking／ascetic／
   //    lockerroom 是任務卡素材，配方素材刻意不與其他史詩配方共用，保產能）──
-  { outTier: 'epic', need: [['traits', 'macroG'], ['traits', 'bigheart']], out: 'miracle' },
-  { outTier: 'epic', need: [['traits', 'glass'], ['traits', 'bigheart']], out: 'indestructible' },
-  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'macroG']], out: 'godhand' },
-  { outTier: 'epic', need: [['traits', 'veteran'], ['traits', 'macroG']], out: 'prophet' },
-  { outTier: 'epic', need: [['traits', 'disc'], ['traits', 'bigheart']], out: 'ascetic' },
-  { outTier: 'epic', need: [['traits', 'trashtalk'], ['traits', 'glass']], out: 'showman' },
-  { outTier: 'epic', need: [['traits', 'intlghost'], ['traits', 'laneking']], out: 'soloking' },
-  { outTier: 'epic', need: [['traits', 'veteran'], ['traits', 'clutch']], out: 'ageless' },
-  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'veteran']], out: 'lockerroom' },
-  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'composure']], out: 'ultstage' },
+  { outTier: 'epic', need: [['common', 'macroG'], ['common', 'bigheart']], out: 'miracle' },
+  { outTier: 'epic', need: [['common', 'glass'], ['common', 'bigheart']], out: 'indestructible' },
+  { outTier: 'epic', need: [['common', 'clutch'], ['common', 'macroG']], out: 'godhand' },
+  { outTier: 'epic', need: [['common', 'veteran'], ['common', 'macroG']], out: 'prophet' },
+  { outTier: 'epic', need: [['common', 'disc'], ['common', 'bigheart']], out: 'ascetic' },
+  { outTier: 'epic', need: [['common', 'trashtalk'], ['common', 'glass']], out: 'showman' },
+  { outTier: 'epic', need: [['common', 'intlghost'], ['common', 'laneking']], out: 'soloking' },
+  { outTier: 'epic', need: [['common', 'veteran'], ['common', 'clutch']], out: 'ageless' },
+  { outTier: 'epic', need: [['common', 'clutch'], ['common', 'veteran']], out: 'lockerroom' },
+  { outTier: 'epic', need: [['common', 'clutch'], ['common', 'composure']], out: 'ultstage' },
 ];

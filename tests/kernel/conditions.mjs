@@ -6,6 +6,7 @@
  * 都必須通得過，形狀被鎖死的話第二與第三個會紅。
  */
 import { createState } from '../../src/engine/state.js';
+import { recordIntlFinish } from '../../src/phases/shared.js';
 import {
   collectMaterials, consumeMaterial, evalCond, materialHeld,
 } from '../../src/engine/conditions.js';
@@ -48,7 +49,9 @@ export async function run({ check }) {
     s.epic = { godhand: true };
     s.rare = { star: true, machine: true };
     s.splitTitles = 2;
-    s.milestones = [{ year: 2016, kind: 'intl', text: '世界賽 四強止步' }];
+    // 過寫入端而不是手抄里程碑：名次鍵是跨檔的，手抄就守不住（S20c／N17）
+    s.milestones = [];
+    recordIntlFinish(s, 'worlds', 'semi');
 
     const shape1 = ['and', ['has', 'epic', 'godhand'], ['has', 'rare', 'star']];
     const shape2 = ['and', ['hasCount', 'rare', 2], ['stat', 'splitTitles', 'gte', 1]];

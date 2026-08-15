@@ -21,8 +21,15 @@ export function matesAverage(state) {
   return sum / state.mates.length + floorOf(state, 'teamLead', 0) + (state.mateMorale || 0) + trustBonus(state);
 }
 
-/** 所在聯賽的先發平均。業餘期還沒有 `state.league`，落回網咖盃的 par */
-function parOf(state) {
+/**
+ * 所在聯賽的先發平均。業餘期還沒有 `state.league`，落回網咖盃的 par。
+ *
+ * ⚠ **回退值只有這一個**（S20c／N13）：`engine/lineup.js` 的 `benchRisk` 原本自己
+ * 寫 `?? 66`（主場賽區的 par），這裡回退 43（AMATEUR par）。同一個「聯賽查不到」
+ * 的情境兩個答案差 23 點，而 23 點在 `benchRisk` 是「打不到隊伍平均」的懲罰
+ * 五十幾個百分點。導出而不是各寫各的。
+ */
+export function parOf(state) {
   return LEAGUES[state.league ?? 'AMATEUR']?.par ?? LEAGUES.HOME.par;
 }
 

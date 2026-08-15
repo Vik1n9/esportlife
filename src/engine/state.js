@@ -27,7 +27,11 @@ import { INNATE_POOL } from '../data/innate.js';
 // v19：生涯任務（S17b，V4 §12.3）。新增 quests（進行中／已結算的任務卡與素材消耗
 // log）與 labels（生涯標籤：任務失敗降階或 route 達成的產物，不進合成樹、不吃
 // modifiers），傳說特質的唯一發放口上線——舊存檔作廢
-export const SAVE_VERSION = 19;
+// v20：獨有特質接線與名次鍵入帳（S20c，V4 §14.1／§14.3）。新增 unique（第五階
+// 特質的存放處，由生涯條件直接授予、不進合成樹）；`milestones` 的國際賽列改帶
+// `event`／`finish` 兩個機器可讀欄位（查詢層不再解析顯示文字）；死欄位 sixCount
+// 移除——舊存檔缺 unique 與 finish 會讓查詢層回「沒打過」，故作廢
+export const SAVE_VERSION = 20;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -171,6 +175,7 @@ export function createState({ name, role, seed }) {
     rare: {},            // 稀有特質
     epic: {},            // 史詩特質
     legendary: {},       // 傳說特質
+    unique: {},          // 獨有特質（§14.1）：不可合成、不當素材，只由生涯條件授予
     fusedAway: [],       // 被合成消耗掉的特質名稱（結算時劃線顯示）
     recentEvents: [],    // 最近出過的事件卡 id（反覆抽不重複的暫存）
 
@@ -227,7 +232,6 @@ export function createState({ name, role, seed }) {
     seasonLog: [],
     stats: {},
 
-    sixCount: 0,
     discStreak: 0,
     singleYears: 0,
     romance: false,
@@ -266,18 +270,4 @@ export function createState({ name, role, seed }) {
     done: false,
     retireReason: '',
   };
-}
-
-/**
- * 存檔：狀態 + 人生亂數流的進度。存在年度開頭，因此讀檔一定從某年年初重跑。
- * 出生種子存在 `state.seed`，這裡存的是人生流——兩條都要，續玩才會接回同一段人生。
- */
-export function serialize(state, rng) {
-  return JSON.stringify({ saveVersion: SAVE_VERSION, state, rngState: rng.state, lifeSeed: rng.seedString });
-}
-
-export function deserialize(raw) {
-  const data = JSON.parse(raw);
-  if (!data || data.saveVersion !== SAVE_VERSION) return null;
-  return data;
 }

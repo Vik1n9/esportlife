@@ -12,16 +12,16 @@ import { buildBiography } from '../engine/biography.js';
 import { careerScore, tierName } from '../engine/career.js';
 import { formatMoney } from '../engine/market.js';
 import { activeTraitNames } from '../engine/progression.js';
+import { TIER_DISPLAY_ORDER, TIER_STORES } from '../kernel/modifiers.js';
 import { el, escapeHtml } from './dom.js';
 import { renderLoose } from './log.js';
 
 export function renderSummary({ state, rng, tier, seed, appVersion }) {
-  const { common, rare, epic, legendary } = activeTraitNames(state);
+  // 階與樣式讀 TIER_STORES（S20c 單一來源），加一階不用改這裡
+  const held = activeTraitNames(state);
   const traits = [
-    ...legendary.map((n) => `<span class="tag legendary">${n}</span>`),
-    ...epic.map((n) => `<span class="tag epic">${n}</span>`),
-    ...rare.map((n) => `<span class="tag rare">${n}</span>`),
-    ...common.map((n) => `<span class="tag">${n}</span>`),
+    ...TIER_DISPLAY_ORDER.flatMap((t) => (held[t] || [])
+      .map((n) => `<span class="tag ${TIER_STORES[t].cls}">${n}</span>`)),
     ...state.fusedAway.map((n) => `<span class="tag gone">${n}</span>`),
   ].join('') || '（無）';
 

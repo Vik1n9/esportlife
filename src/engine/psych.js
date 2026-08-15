@@ -82,11 +82,6 @@ export function performCoef(state, skillKey) {
   return PERFORM_FLOOR + PERFORM_SPAN * mentalMod(state, skillKey);
 }
 
-/** 技能發揮 ＝ 技能值 × 發揮倍率（§9.2） */
-export function skillPerformance(state, skillKey, value) {
-  return value * performCoef(state, skillKey);
-}
-
 /**
  * 心理穩定修正（V4 §11.1 進 `positionPower` 的那個乘法項）。
  *

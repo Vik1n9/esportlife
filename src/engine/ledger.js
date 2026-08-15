@@ -4,6 +4,7 @@
  * S17b（生涯任務引擎）與 S21a（生涯傳記）都讀這裡——條件判斷不准直接翻
  * `state` 的原始欄位，改一次欄位要改三個地方。全部純函式，吃 state 回數字。
  */
+import { finishOrder, NO_FINISH } from '../data/formats/finishes.js';
 
 /** 國際賽勝率（%）：`intlRecord` 的 W ÷ (W+L)，沒打過國際賽回 0（§14.3「賽區統治者」） */
 export function intlWinRate(state) {
@@ -41,33 +42,36 @@ export function longestTenure(state) {
 /* ---------------- 國際賽名次（S17b 增補：legend 底線門檻的來源） ---------------- */
 
 /**
- * 世界賽生涯最佳名次（§12.3「世界賽名次 ≤ n」）。回傳越小越好：
- * 1 冠軍／2 亞軍／3 四強／4 八強／5 小組／6 入圍賽，沒打過回 99。
+ * 某個賽事的生涯最佳名次（序位越小越好，沒打過回 `NO_FINISH`）。
  *
- * 名次只記在 `milestones` 的事實流裡（`phases/worlds.js` 的 settle 統一補前綴），
- * 欄位計數器只有冠軍（worldsWins）與亞軍（worldsFinals）——「四強止步」沒有任何
- * 計數器，所以讀帳本而不翻欄位。
+ * 名次只記在 `milestones` 的事實流裡——欄位計數器只有冠軍（worldsWins）與亞軍
+ * （worldsFinals），「四強止步」沒有任何計數器，所以讀帳本而不翻欄位。
+ *
+ * ⚠ **讀 `finish` 鍵，不解析 `text`**（S20c）。修前這裡是兩份手抄本：`WORLDS_ORDER`
+ * 的冠亞軍鍵多一個空格，永遠比不中；`msiBest` 的行內三元鏈不認得 `'MSI 止步'`。
+ * 兩個都靜默——查表查不到就回「沒打過」，18758 項全綠底下活了十幾站。
  */
-const WORLDS_ORDER = { '世界賽 冠軍': 1, '世界賽 亞軍': 2, '世界賽 四強止步': 3, '世界賽 八強止步': 4, '世界賽 小組止步': 5, '世界賽 入圍賽出局': 6 };
-
-export function worldsBest(state) {
-  let best = 99;
+function bestFinish(state, event) {
+  let best = NO_FINISH;
   for (const m of state.milestones) {
-    const at = WORLDS_ORDER[m.text];
-    if (m.kind === 'intl' && at !== undefined) best = Math.min(best, at);
+    if (m.kind !== 'intl' || m.event !== event) continue;
+    best = Math.min(best, finishOrder(m.finish));
   }
   return best;
 }
 
-/** MSI 生涯最佳名次（同 worldsBest，1 冠軍／2 亞軍／3 四強，沒打過回 99） */
+/**
+ * 世界賽生涯最佳名次（§12.3「世界賽名次 ≤ n」）。序位見
+ * `data/formats/finishes.js`：1 冠軍／2 亞軍／3 四強／4 八強／6 小組／7 入圍賽，
+ * 沒打過回 99（5 是保留給 NPC 賽事模擬的 `ro16`）。
+ */
+export function worldsBest(state) {
+  return bestFinish(state, 'worlds');
+}
+
+/** MSI 生涯最佳名次（同一把尺：1 冠軍／2 亞軍／3 四強／4 止步，沒打過回 99） */
 export function msiBest(state) {
-  let best = 99;
-  for (const m of state.milestones) {
-    if (m.kind !== 'intl' || !m.text.startsWith('MSI')) continue;
-    const at = m.text === 'MSI 冠軍' ? 1 : m.text === 'MSI 亞軍' ? 2 : m.text === 'MSI 四強' ? 3 : 99;
-    best = Math.min(best, at);
-  }
-  return best;
+  return bestFinish(state, 'msi');
 }
 
 /**
@@ -76,4 +80,23 @@ export function msiBest(state) {
  */
 export function intlSemis(state) {
   return worldsBest(state) <= 3 || msiBest(state) <= 3 ? 1 : 0;
+}
+
+/* ---------------- 獨有特質的授予條件（§14.1，S20c 接線） ---------------- */
+
+/** 生涯累計出賽場次（`千錘百鍊` 的門檻：≥ 1000 場） */
+export function careerGames(state) {
+  let G = 0;
+  for (const s of Object.values(state.stats)) G += s.G;
+  return G;
+}
+
+/**
+ * 今年拿到幾個個人獎項（`老來俏` 的門檻：30 歲後單季獲獎）。
+ *
+ * 讀 `milestones` 的 award 事實流而不是 `state.awards`——後者是生涯總數，
+ * 答不出「單季」。
+ */
+export function awardsThisYear(state) {
+  return state.milestones.filter((m) => m.kind === 'award' && m.year === state.year).length;
 }

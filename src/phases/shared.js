@@ -9,6 +9,7 @@ import { ATTR_NAMES } from '../data/attributes.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
 import { QUEST_CARDS } from '../data/quests.js';
+import { intlMilestoneText } from '../data/formats/finishes.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { adjustAttr } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
@@ -90,10 +91,20 @@ export function* drawEvent(g, ev, { fromChain = false } = {}) {
     notes.push(patchDebt < 0 ? '版本落差 <span class="up">↓</span>' : '版本落差 <span class="dn">↑</span>');
   }
   if (flags.injuryRisk) state.tempInjuryRisk += scaleAmount(flags.injuryRisk, mult);
+  // ⚠ 方向依號決定，不寫死（S20c／N20）：今天的資料剛好全同號——業外收入全正、
+  // 隊友士氣全負——所以寫死的箭頭看不出錯。一張反號的卡就會印出「業外收入 +−20 萬」
+  // 或「隊友士氣 ↓」配著士氣上升
   const bonusSalary = scaleAmount(flags.bonusSalary, mult);
-  if (bonusSalary) { state.bonusSalary += bonusSalary; notes.push(`業外收入 <span class="up">+${bonusSalary}萬</span>`); }
+  if (bonusSalary) {
+    state.bonusSalary += bonusSalary;
+    const cls = bonusSalary >= 0 ? 'up' : 'dn';
+    notes.push(`業外收入 <span class="${cls}">${bonusSalary >= 0 ? '+' : '−'}${Math.abs(bonusSalary)}萬</span>`);
+  }
   const mateMorale = scaleAmount(flags.mateMorale, mult);
-  if (mateMorale) { state.mateMorale += mateMorale; notes.push('隊友士氣 <span class="dn">↓</span>'); }
+  if (mateMorale) {
+    state.mateMorale += mateMorale;
+    notes.push(`隊友士氣 <span class="${mateMorale >= 0 ? 'up' : 'dn'}">${mateMorale >= 0 ? '↑' : '↓'}</span>`);
+  }
   if (flags.romance) { state.romance = true; state.singleYears = 0; }
   // 事件卡的特質解鎖全部資料化——門檻／機率／免疫條件都在 FLAG_TRAIT 表裡宣告，
   // 新增一張能解鎖特質的卡不用再動這裡
@@ -134,11 +145,6 @@ export function* drawEvent(g, ev, { fromChain = false } = {}) {
       if (next) yield* drawEvent(g, next, { fromChain: true });
     }
   }
-}
-
-/** 連抽一組事件卡（不解鎖特質的事件也算，純粹增加人生岔路）。 */
-export function* drawEvents(g, evs) {
-  for (const ev of evs) yield* drawEvent(g, ev);
 }
 
 /* ================= 扮演 ================= */
@@ -258,6 +264,23 @@ export function recordIntlSeries(state, res) {
 export function recordIntlGroup(state, res) {
   state.intlRecord.W += res.wins;
   state.intlRecord.L += res.losses;
+}
+
+/**
+ * 國際賽名次進事實流（S20c）。**這是名次的唯一寫入口**——世界賽與 MSI 都走它。
+ *
+ * `finish` 是機器可讀的名次鍵，`text` 由鍵導出只供顯示；查詢層（`ledger.js`／
+ * `biography.js`）一律讀 `finish`，不再解析文字。名次以字串入帳、查詢端反過來
+ * 解析，就是 A3／N3／N5 三個靜默 bug 的根因。
+ */
+export function recordIntlFinish(state, event, finish) {
+  state.milestones.push({
+    year: state.year,
+    kind: 'intl',
+    event,
+    finish,
+    text: intlMilestoneText(event, finish),
+  });
 }
 
 /* ---------------- 生涯任務（S17b，V4 §12.3） ---------------- */

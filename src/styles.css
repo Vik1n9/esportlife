@@ -36,6 +36,8 @@
   --legendary:#ffd166; --legendary-bg:#2a2210;
   --rare:#7cc4ff;     --rare-bg:#0f1e2a;
   --epic-bg:#170f1c;
+  /* 獨有特質（§14.1）：不走合成樹的第五階，用 terracotta 系與四階區隔 */
+  --unique:#e08a63;   --unique-bg:#241410;
 
   /* 字體 */
   --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
@@ -152,6 +154,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .tag.epic{color:var(--epic);background:var(--epic-bg)}
 .tag.rare{color:var(--rare);background:var(--rare-bg)}
 .tag.legendary{color:var(--legendary);background:var(--legendary-bg)}
+.tag.unique{color:var(--unique);background:var(--unique-bg)}
 .tag.gone{color:var(--ghost);text-decoration:line-through;opacity:.8}
 
 /* 特質清單（可展開） */
@@ -160,6 +163,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .trait-item.epic{background:var(--epic-bg)}
 .trait-item.rare{background:var(--rare-bg)}
 .trait-item.legendary{background:var(--legendary-bg)}
+.trait-item.unique{background:var(--unique-bg)}
 .trait-item.gone{opacity:.8}
 .trait-item summary{list-style:none;display:flex;align-items:center;gap:7px;padding:4px 8px;
   font-size:13px;cursor:pointer;user-select:none}
@@ -168,6 +172,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .trait-item.epic summary{color:var(--epic)}
 .trait-item.rare summary{color:var(--rare)}
 .trait-item.legendary summary{color:var(--legendary)}
+.trait-item.unique summary{color:var(--unique)}
 .trait-item.gone summary{color:var(--ghost);text-decoration:line-through}
 .trait-arrow{flex:none;width:10px;text-align:center;color:var(--dim);font-size:10px;
   transition:transform .15s ease}

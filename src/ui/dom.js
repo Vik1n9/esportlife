@@ -2,7 +2,6 @@
 
 /** 舊版把 `$` 定義成 querySelector 卻到處寫 `$('log')`（少了 `#`），整個遊戲在載入時就炸掉。這裡改成明確的 byId。 */
 export const byId = (id) => document.getElementById(id);
-export const qs = (sel, root = document) => root.querySelector(sel);
 export const qsa = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
 export function el(tag, props = {}, children = []) {

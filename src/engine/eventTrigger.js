@@ -121,7 +121,8 @@ export function whenHits(state, when) {
  * FLAG_TRAIT 卻漏了這張表，結果安全牌（traits:false）照樣解鎖特質——「安全牌不推向
  * 任何極端」（events.js 檔頭）的設計被打破，實測 last 策略下 clutch 持有高達 71%。 */
 export const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk',
-  'grinder', 'meme', 'camera', 'guardian', 'genius', 'clutch', 'intlghost', 'underdog'];
+  'grinder', 'meme', 'camera', 'guardian', 'genius', 'clutch', 'intlghost', 'underdog',
+  'trashtalk', 'meta'];
 
 /** flag 名稱 → 解鎖定義。事件卡的 trait 解鎖都走這張表，不逐條 if。 */
 export const FLAG_TRAIT = {
@@ -144,6 +145,11 @@ export const FLAG_TRAIT = {
   clutch: { key: 'clutch' },
   intlghost: { key: 'intlghost' },
   underdog: { key: 'underdog' },
+  // S20c／N8：`賽前互嗆`（events.js `enemy_taunt`）與 `招牌被Ban`（`champion_ban`）
+  // 兩張卡寫了旗標、編輯器也把它們列為可寫旗標，但這張表裡沒有——卡片承諾解鎖特質、
+  // 實際零給予。不補的話 S20f 寫新卡時會被再寫一次
+  trashtalk: { key: 'trashtalk' },
+  meta: { key: 'meta' },
 };
 
 /** 一張事件卡所有選項／結果可能解鎖的特質鍵。純資料推導，不放邏輯。 */
