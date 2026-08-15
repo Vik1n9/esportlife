@@ -8,6 +8,7 @@
 import { ROLE_NAMES } from '../data/skills.js';
 import { FAN_QUOTES } from '../data/events.js';
 import { BUCKET_NAMES } from '../data/leagues.js';
+import { buildBiography } from '../engine/biography.js';
 import { careerScore, tierName } from '../engine/career.js';
 import { formatMoney } from '../engine/market.js';
 import { activeTraitNames } from '../engine/progression.js';
@@ -51,6 +52,11 @@ export function renderSummary({ state, rng, tier, seed, appVersion }) {
     renderLoose(card('info', `生涯榮譽（${state.honors.length}）`,
       `<div class="tags">${state.honors.map((h) => `<span class="tag">${h}</span>`).join('')}</div>`));
   }
+
+  // 生涯傳記（§15.5，S21a）：五段式的事實拼接，放在榮譽之後、粉絲語之前——
+  // 它是這一局的故事，但「粉絲怎麼說」留給下一格。
+  renderLoose(card('', '生涯傳記',
+    buildBiography(state).map((p) => `<p>${escapeHtml(p)}</p>`).join('')));
 
   renderLoose(card('info', '粉絲看板', fanQuotes(state, rng, tier).map((q) => `「${q}」`).join('<br>')));
   renderLoose(shareCard({ state, tier, seed, appVersion }));
