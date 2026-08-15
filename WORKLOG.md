@@ -34,6 +34,10 @@
 - **狀態**：完成。`npm test` **19385 項全綠**（入口 19105）。SAVE_VERSION 維持 **21**。
   規格 **v4.5 → v4.5.1**（§7.3 回寫收斂 §21.2 懸置、附錄 #64）。`ESPORT-DESIGN-V4.md`
   與狀態表已更新，`next-station.mjs` 跑通（下一站 S20e）。
+- **OCR review 修正**（commit dc00d20）：一 high 一 medium——① `traits.mjs` 反向死鍵
+  掃描被貼了兩份同體 block，刪一份（19385 → **19384 項**）；② `game.js` PRO 開場卡
+  「19 歲」寫死改 `${state.age}`。 breakout 的 goal 是生涯累計謂詞（開卡前打過 MSI
+  決賽會開卡即達成）記為 low，不阻塞。
 
 ## 2026-08-16 — S20h 卡片文本變數：採訪卡終於叫得出玩家頭銜，降級路徑擋住半成品
 
