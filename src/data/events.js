@@ -787,6 +787,219 @@ export const EVENT_CARDS = [
     ],
     good: { text: '你把被砍的角色玩出新花樣，開發出別人抄不走的套路', attr: { awr: 2 }, mental: { disc: 2 } },
     bad:  { text: '你死守被砍的角色，戰績一路下滑', attr: { tec: -2 }, mental: { disc: -2 } } },
+
+  /* ================= S18 第三批（20 張，v4.3.1） ================= */
+  /* 池分配：psych 5（最少池，補到 11）、performance 5、persona 5、career 5。
+   * 業餘卡只 2 張（scrim_rampage、family_live），屬性增益壓在 ±1——nobody 測試
+   * 紅線（第二批教訓）。psych 卡照 §12.2「不產特質」：只用 mental，不掛旗標。 */
+
+  /* psych 池（5 張） */
+
+  { id: 'home_crowd', name: '主場聲浪', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_home_crowd',
+    prompt: '主場最後一戰，幾萬人齊聲喊你的 ID，聲浪淹過耳機。導播把鏡頭切到你，等著拍你的表情。',
+    options: [
+      { id: 'embrace', label: '把掌聲當燃料，越喊越起勁', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'breathe', label: '深呼吸，把注意力鎖在遊戲裡', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'numb', label: '當成沒人看，跟團練一樣打', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '滿場歡呼聲中你打出代表作，導播特寫時你在笑', attr: { dec: 2 }, mental: { comp: 2, resl: 1 } },
+    bad:  { text: '掌聲越大你手越抖，關鍵操作全變形，賽後把自己關進訓練室', attr: { dec: -1 }, mental: { comp: -2 } } },
+
+  { id: 'hopes_pressure', name: '被寄予厚望', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_hopes_pressure',
+    prompt: '賽前訪談，全隊只有你被點名「這季要靠你了」。輿論標題越寫越聳動，連教練都開始盯你。',
+    options: [
+      { id: 'carry', label: '扛下來，我就是那個關鍵先生', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'share', label: '提醒大家，這是五個人的遊戲', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'ignore', label: '屏蔽所有期待，打好自己的就好', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你把壓力變成專注，用一場代表作回應所有期待', attr: { dec: 2 }, mental: { comp: 2, conf: 1 } },
+    bad:  { text: '「指望你」三個字像石頭壓在胸口，越想打好越打不好', attr: { dec: -2 }, mental: { comp: -2, conf: -1 } } },
+
+  { id: 'clutch_anxiety', name: '關鍵時刻發抖', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_clutch_anxiety',
+    prompt: '比賽剩下最後一波團戰，優勢在你這側，所有人都在等誰先動手。你的手開始微微發抖。',
+    options: [
+      { id: 'decisive', label: '想都不想，憑直覺先手', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'calm', label: '停一拍，想清楚再出手', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'safe', label: '把開戰權交給隊友', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你頂著發抖的手打出決定性操作，賽後才發現自己出了一身冷汗', attr: { dec: 2 }, mental: { comp: 2 } },
+    bad:  { text: '你越想穩越猶豫，錯過開戰時機，隊友跟著你一起猶豫到輸', attr: { dec: -2 }, mental: { comp: -2 } } },
+
+  { id: 'post_win_high', name: '大勝後亢奮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_post_win_high',
+    prompt: '拿下關鍵一勝，全隊慶祝到深夜。你躺在床上，腦子還在一幀一幀重播那些精彩操作。',
+    options: [
+      { id: 'wind', label: '強迫自己閉眼，興奮留給明天', odds: 58, gain: 1, loss: 1, main: true },
+      { id: 'rewatch', label: '偷偷爬起來，再看一遍錄影', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'chat', label: '跟粉絲聊到天亮，分享勝利喜悅', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你讓興奮留在昨天，隔天精神飽滿，手感比前一晚更燙', attr: { vit: 2 }, mental: { drive: 2 } },
+    bad:  { text: '亢奮到天亮，隔天團練靈魂出竅，教練說「贏一場就膨脹？」', attr: { vit: -1 }, mental: { disc: -2 } } },
+
+  { id: 'away_boo', name: '客場喝倒彩', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_away_boo',
+    prompt: '客場粉絲整場對著你喝倒彩，只要你一碰兵線就是一片噓聲。鏡頭很愛找你。',
+    options: [
+      { id: 'prove', label: '用操作堵住他們的嘴', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'focus', label: '當耳邊風，照自己節奏打', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'mute', label: '心裡把觀眾席關掉', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '全場噓聲反而點燃你，你打出本季最佳表現，賽後對著鏡頭比了閉嘴手勢', attr: { dec: 2 }, mental: { resl: 2, comp: 1 } },
+    bad:  { text: '被自己人聲浪搞到心浮氣躁，操作變形，賽後越想越憋屈', attr: { dec: -1 }, mental: { resl: -2 } } },
+
+  /* performance 池（5 張） */
+
+  { id: 'scrim_rampage', name: '訓練賽被碾壓', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['regular'], excl: 'training',
+    prompt: '訓練賽被對面二十分鐘推平，你死了七次。結算畫面出來，語音裡一個字都沒有。',
+    options: [
+      { id: 'grind', label: '立刻開排位復健，輸到練回來為止', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'reset', label: '關機散步，明天滿血再戰', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'shrug', label: '訓練賽而已，正式賽贏了才算數', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你從被碾的錄影裡抓到對面套路，隔天訓練賽反過來碾回去', attr: { awr: 2 }, mental: { resl: 2, conf: 1 } },
+    bad:  { text: '被碾的畫面在腦裡反覆播放，越練越沒自信', attr: { tec: -1 }, mental: { conf: -2 } } },
+
+  { id: 'playoff_analysis', name: '季後賽戰術會議', kind: 'normal', pool: ['performance'], sub: 'match', slot: ['regular'], excl: 'match',
+    prompt: '季後賽第一輪對手出爐，教練把戰術板推到你們面前：對手的視野節奏是這賽區最兇的。',
+    options: [
+      { id: 'absorb', label: '全程筆記，連對手的習慣都記下', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'question', label: '有疑慮當場提出，把戰術討論透', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'zone', label: '會議太長，後半段開始神遊', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你把對手的視野時間點背得滾瓜爛熟，比賽時像開了全圖一樣', attr: { awr: 2 }, mental: { drive: 2, disc: 1 } },
+    bad:  { text: '會議上沒聽進去的都是重點，賽場上被對方的套路打懵', attr: { awr: -1 }, mental: { disc: -2 } } },
+
+  { id: 'new_coach_system', name: '新教練新體系', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['regular', 'offseason'], excl: 'training',
+    prompt: '新教練上任，第一件事就是推翻舊體系。你分到一套全新的打法，跟你練了三年的習慣完全相反。',
+    options: [
+      { id: 'adopt', label: '全盤照學，先信任再說', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'blend', label: '學新的，也保留自己的絕活', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'resist', label: '舊打法證明過有用，為什麼要改', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '新體系在你身上長出第二套打法，教練開始重用你', attr: { awr: 2 }, mental: { drive: 2, trust: 1 } },
+    bad:  { text: '舊習慣卡住新體系，兩套都練不好，位置開始不穩', attr: { awr: -1, tec: -1 }, mental: { trust: -2 } } },
+
+  { id: 'physical_train', name: '體能訓練課', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['regular', 'offseason'], excl: 'solo_physical_train',
+    prompt: '戰隊請了體能教練，每週要加三堂重訓跟有氧。有人笑說「打電動還要做體操」。',
+    options: [
+      { id: 'commit', label: '全勤照做，把身體當資產經營', odds: 48, gain: 2.2, loss: 1.3 },
+      { id: 'steady', label: '挑兩堂上，能持續最重要', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'skip', label: '趁沒人注意偷偷溜走', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '三個月後你的續航力明顯變好，賽季末大家都累癱，你還能打滿加時', attr: { vit: 2 }, mental: { disc: 2, drive: 1 } },
+    bad:  { text: '體能跟不上賽程，賽季中後段你的專注力掉得比誰都快', attr: { vit: -2 }, mental: { disc: -2 } } },
+
+  { id: 'early_lead_loss', name: '前期優勢被翻', kind: 'normal', pool: ['performance'], sub: 'match', slot: ['regular'], excl: 'match',
+    prompt: '二十分鐘領先六千經濟，一波團戰全送回去，對面開始反撲。耳機裡有人開始喊「完了」。',
+    options: [
+      { id: 'reset', label: '叫停語音，重新整理節奏', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'steady', label: '該退就退，重新布局龍坑', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'force', label: '再開一波，用打架找回優勢', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你穩住局面把比賽拖進後期，一波團戰打回來，賽後大家都說「心臟好大」', attr: { dec: 2 }, mental: { resl: 2, comp: 1 } },
+    bad:  { text: '優勢被翻之後你越想扳回越急，一波波送，比賽直接結束', attr: { dec: -2 }, mental: { comp: -2, resl: -1 } } },
+
+  /* persona 池（5 張） */
+
+  { id: 'contract_renew', name: '續約談判', kind: 'normal', pool: ['persona'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_contract_renew',
+    prompt: '合約年到了，經紀人幫你談續約。俱樂部開的條件比行情低，但戰隊感情好，隊友也都在。',
+    options: [
+      { id: 'market', label: '拿外面的報價去談，該要的要', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'balance', label: '談一個雙方都舒服的價碼', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'loyal', label: '直接簽，人比錢重要', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '續約談得漂亮，雙方都滿意，你帶著新約回到訓練室', attr: { syn: 2 }, mental: { trust: 2 }, flags: { bonusSalary: 120 } },
+    bad:  { text: '談判卡在數字上，管理層臉色越來越難看，隊友看你眼神也怪怪的', attr: { syn: -2 }, mental: { trust: -2 } } },
+
+  { id: 'teammate_departure', name: '好友轉會', kind: 'normal', pool: ['persona'], sub: 'team', slot: ['regular', 'offseason'], excl: 'team',
+    prompt: '跟你搭檔三年的老隊友要轉會了。最後一次團練結束，他開始收拾行李，訓練室安靜得能聽見滑鼠聲。',
+    options: [
+      { id: 'sendoff', label: '辦場像樣的送別，好好道別', odds: 48, gain: 2.2, loss: 1.3 },
+      { id: 'talk', label: '好好聊聊，把想說的話說開', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'busy', label: '送行交給別人，專心備賽', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '道別之後你把懷念化成分數，隔天賽場上打得像他在你身邊一樣', attr: { syn: 2 }, mental: { trust: 2, resl: 1 } },
+    bad:  { text: '老搭檔一走，你覺得整支隊都不是滋味，配合節奏全亂', attr: { syn: -1 }, mental: { trust: -2 }, flags: { mateMorale: -2 } } },
+
+  { id: 'family_live', name: '家人到場', kind: 'normal', pool: ['persona'], sub: 'life', slot: ['amateur', 'am2', 'regular'], excl: 'solo_family_live',
+    prompt: '爸媽第一次到現場看你比賽。你的每個操作他們都看不懂，但鼓掌比誰都用力。',
+    options: [
+      { id: 'perform', label: '想為他們打出一場好比賽', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'relax', label: '當平常比賽打，他們開心就好', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'hide', label: '低調點，別讓鏡頭帶到他們', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你在家人面前打出代表作，賽後他們在場外等你，笑得比誰都驕傲', attr: { syn: 1 }, mental: { drive: 2, conf: 1 } },
+    bad:  { text: '你越想表現越緊張，反而打差了，賽後還要擠出笑臉跟爸媽合照', attr: { dec: -1 }, mental: { drive: -2 } } },
+
+  { id: 'rumor_mill', name: '緋聞八卦', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media',
+    prompt: '一篇八卦文配一張模糊照片，說你跟隔壁隊的某人「走得很近」。群組轉發，親友都來問。',
+    options: [
+      { id: 'clarify', label: '公開澄清，把話講清楚', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'ignore', label: '不回應，讓八卦自己涼', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'lean', label: '順著話題炒一波熱度', odds: 40, gain: 2, loss: 1.3, flags: { popular: true } },
+    ],
+    good: { text: '一句話講清楚，風向立刻轉，還圈了一波「敢說」的好感', attr: { syn: 2 }, mental: { conf: 1, trust: 1 } },
+    bad:  { text: '澄清越描越黑，八卦演成連續劇，訓練時手機一直響', attr: { vit: -1 }, mental: { comp: -2, trust: -1 } } },
+
+  { id: 'move_base', name: '搬進新基地', kind: 'normal', pool: ['persona'], sub: 'life', slot: ['regular', 'offseason'], excl: 'solo_move_base',
+    prompt: '戰隊換新基地了，離市區更遠，但房間更大、設備全新。你要重新適應一切作息。',
+    options: [
+      { id: 'settle', label: '立刻照新作息安排，一天都不浪費', odds: 48, gain: 2.2, loss: 1.3 },
+      { id: 'ease', label: '慢慢來，先把設備調到順手', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'chaos', label: '東西先丟著，打排位要緊', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '新環境被你整理得明明白白，作息一塵不染，訓練效率比舊基地還高', attr: { dec: 2 }, mental: { disc: 1, trust: 1 } },
+    bad:  { text: '新地方亂成一團，作息跟著亂，連續一週狀態不在線', attr: { dec: -1 }, mental: { disc: -2 } } },
+
+  /* career 池（5 張） */
+
+  { id: 'worlds_roster', name: '世界賽名單', kind: 'normal', pool: ['career'], sub: 'team', slot: ['regular'], excl: 'solo_worlds_roster',
+    prompt: '世界賽名單公布，你的名字在列。這是你第一次打世界賽，距離出發還有一個月。',
+    options: [
+      { id: 'prepare', label: '提前規劃訓練與體能，當決賽打', odds: 48, gain: 2.2, loss: 1.3 },
+      { id: 'steady', label: '維持現狀，世界賽當平常打', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'hype', label: '跟粉絲互動，先享受這份榮耀', odds: 40, gain: 2, loss: 1.3 },
+    ],
+    good: { text: '你帶著完整準備踏上世界賽舞台，初登場就打出身價', attr: { dec: 2 }, mental: { drive: 2, comp: 1 } },
+    bad:  { text: '名單公布後你壓力爆表，集訓表現失常，教練開始懷疑這個決定', attr: { dec: -2 }, mental: { comp: -2 } } },
+
+  { id: 'coach_change', name: '教練下課', kind: 'normal', pool: ['career'], sub: 'team', slot: ['regular', 'offseason'], excl: 'team',
+    prompt: '連敗之後，俱樂部宣布教練下課。他帶了你兩年，你是第一個接到他告別訊息的人。',
+    options: [
+      { id: 'back', label: '公開支持他，為他說句話', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'steady', label: '專注備戰，用成績送他離開', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'silent', label: '顧好自己，別的管不來', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你的一句話讓教練體面離場，新教練接手時也對你多了三分尊重', attr: { syn: 2 }, mental: { trust: 2, comp: 1 } },
+    bad:  { text: '你為教練出頭反而站錯邊，管理層連你一起記上，風向開始對你不利', attr: { syn: -2 }, mental: { trust: -2 }, flags: { mateMorale: -2 } } },
+
+  { id: 'salary_arrears', name: '薪資遲發', kind: 'normal', pool: ['career'], sub: 'life', slot: ['regular', 'offseason'], excl: 'solo_salary_arrears',
+    prompt: '俱樂部財務出了狀況，薪資遲了一個月。合約白紙黑字，但總部只說「再等等」。',
+    options: [
+      { id: 'voice', label: '聯合隊友跟管理層攤牌', odds: 44, gain: 2.2, loss: 1.3 },
+      { id: 'wait', label: '先照常訓練，給俱樂部時間', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'plan', label: '開始研究合約細節，留條後路', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你把話攤開講，管理層補了薪資還道歉，俱樂部反而更信任你', attr: { syn: 2 }, mental: { drive: 1, trust: 1 } },
+    bad:  { text: '你帶頭鬧薪，被貼上「難搞」標籤，下季的買斷傳聞開始出現', attr: { syn: -2 }, mental: { drive: -2, trust: -1 } } },
+
+  { id: 'demote_rumor', name: '下放風聲', kind: 'normal', pool: ['career'], sub: 'crisis', slot: ['regular'], excl: 'solo_demote_rumor',
+    prompt: '休息室流言：下一季你可能被下放二隊。你這陣子表現平平，新人正虎視眈眈。',
+    options: [
+      { id: 'prove', label: '加倍練習，用表現守住位置', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'talk', label: '直接問教練，要個準話', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'resign', label: '反正也累了，二隊就二隊', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你把風聲化成動力，連著幾場打出季末最佳表現，先發位置穩了', attr: { dec: 2 }, mental: { resl: 2 } },
+    bad:  { text: '你越想證明自己越用力過猛，操作變形，反而坐實了流言', attr: { dec: -2 }, mental: { comp: -2, resl: -1 } } },
+
+  { id: 'retire_thought', name: '退役念頭', kind: 'normal', pool: ['career'], sub: 'life', slot: ['regular', 'offseason'], excl: 'solo_retire_thought',
+    prompt: '深夜，你翻到自己剛出道那年的採訪。畫面裡的你說「我要打到打不動為止」。現在你覺得差不多了。',
+    options: [
+      { id: 'reignite', label: '找回初心，再拼一季', odds: 46, gain: 2.2, loss: 1.3 },
+      { id: 'reflect', label: '不著急決定，先想清楚', odds: 60, gain: 1, loss: 1, main: true },
+      { id: 'plan', label: '開始規劃轉型，給自己留退路', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+    ],
+    good: { text: '你重新想起來為什麼開始，訓練的每一分鐘都有重量，狀態回春', attr: { dec: 2 }, mental: { drive: 2, resl: 1 } },
+    bad:  { text: '念頭一起就壓不住，場上開始患得患失，打得像在倒數日子', attr: { dec: -2 }, mental: { drive: -2 } } },
 ];
 
 /** 依生涯評價分級的粉絲留言 */
