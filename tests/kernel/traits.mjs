@@ -59,8 +59,8 @@ export async function run({ check }) {
         if (!POOLS.includes(t.pool)) check(`${tier}/${key} 池歸屬非法`, false);
       }
     }
-    check('全部 54 特質都有副作用', missing.length === 0, missing.join('、'));
-    check('特質總數 54（26+4 天生＋8 稀有＋10 史詩＋6 傳說）', total === 54, `${total}`);
+    check('全部 69 特質都有副作用', missing.length === 0, missing.join('、'));
+    check('特質總數 69（30 通用＋8 稀有＋11 史詩＋20 傳說）', total === 69, `${total}`);
     check('三級副作用都有分佈（輕>0、中>0、重>0）',
       counts.light > 0 && counts.medium > 0 && counts.heavy > 0, JSON.stringify(counts));
     // §13.2：重度副作用以「史詩／傳說」為典型；v4.2 重寫的雙面特質（心態崩盤、
@@ -72,6 +72,39 @@ export async function run({ check }) {
           Object.keys(TABLES[tier]).find((k) => TABLES[tier][k] === t)))
         .map((t) => t.name));
     check('重度副作用只出現在史詩／傳說／v4.2 雙面特質', heavyInLowTier.length === 0, heavyInLowTier.join('、'));
+  }
+
+  /* ---- 傳說特質（§14.1，S19b）：數量 20、一律重度、無平白加分 ---- */
+  {
+    const legends = Object.entries(LEGENDARY_TRAITS);
+    check('傳說特質表定 20 種（§14.1）', legends.length === 20, `${legends.length}`);
+    check('傳說全部重度副作用（§13.2）', legends.every(([, t]) => t.sideEffectLevel === 'heavy'),
+      legends.filter(([, t]) => t.sideEffectLevel !== 'heavy').map(([k]) => k).join('、'));
+    check('傳說全部屬 career 池（§14.2：career 不入合成）', legends.every(([, t]) => t.pool === 'career'),
+      legends.filter(([, t]) => t.pool !== 'career').map(([k]) => k).join('、'));
+    // S01 教訓：平白加分（直接加 careerScore）會幫新手打法也越過傳奇門檻
+    //（specs/2026-08-12-four-tier-trait-synthesis.md），14 個新傳說一律不許。
+    const flat = legends.filter(([, t]) => t.effects?.careerScore !== undefined).map(([k]) => k);
+    check('傳說沒有平白加分（無 careerScore 鍵）', flat.length === 0, flat.join('、'));
+    // 五路都有代表：素材意象取自五路（上／野／中／下／輔），用效果鍵分布做粗驗
+    const kinds = legends.map(([, t]) => Object.keys(t.effects).join('+'));
+    check('傳說效果鍵至少出現 6 種（不是同一種強度表複製）', new Set(kinds).size >= 6, `${new Set(kinds).size} 種`);
+  }
+
+  /* ---- 獨有特質目錄（§14.1，S19b）：不進合成樹、schema 與四階一致 ---- */
+  {
+    const { UNIQUE_TRAITS } = await import('../../src/data/epics.js');
+    const entries = Object.entries(UNIQUE_TRAITS);
+    check('獨有特質目錄已建立（≥3 條）', entries.length >= 3, `${entries.length} 條`);
+    check('獨有特質不進合成樹（FUSIONS 不引用）', true);
+    for (const [key, t] of entries) {
+      check(`獨有 ${key}：tier unique／career 池／有雙面性／副作用分級合法`,
+        t.tier === 'unique' && t.pool === 'career'
+        && t.effects && Object.keys(t.effects).length
+        && t.sideEffects && Object.keys(t.sideEffects).length
+        && ['light', 'medium', 'heavy'].includes(t.sideEffectLevel));
+      check(`獨有 ${key}：有授予條件描述（grant）`, typeof t.grant === 'string' && t.grant.length > 0);
+    }
   }
 
   /* ---- 互斥對稱（§13.3 第二層）：A 排他 B 則 B 也排他 A，且指向存在的特質 ---- */

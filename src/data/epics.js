@@ -90,14 +90,29 @@ export const EPIC_TRAITS = {
     exclusiveWith: ['ascetic'],
     // 分段效果：扮演卡結算時知名度只進不退，寫在 shared.js
   },
+  helper: {
+    // S19b 新增：route「究極綠葉」的達成產物（§14.3）。助攻王、零個人獎項——
+    // 讓隊友發光的綠葉。效果強度刻意低於傳說：平庸局的終點是有名字的結局，
+    // 不是補一張強牌（§14.2 的史詩持有率驗收線會跑掉）。
+    name: '綠葉潤物', tier: 'epic', pool: 'performance',
+    desc: '隊友戰力 +4、系列賽加成；默默無聞地奉獻，自己動力 −4、自信 −4',
+    effects: { teamLead: { floor: 4 }, seriesGame: 4 },
+    sideEffects: { mental_drive: -4, mental_conf: -4 }, sideEffectLevel: 'medium',
+  },
 };
 
 /**
  * 傳說特質（最高階，§13.4：唯一來源＝生涯任務卡達成，不由配方自動合成）。
  * 傳說特質住在 `state.legendary`，由 `kernel/modifiers.js` 統一查詢。
  *
- * S19a 維持 6 個（擴到 20 是 S19b）。效果全部重度副作用——傳說是「改寫生涯」的等級，
- * 代價必須大到玩家看得出取捨。
+ * S19a 重建既有 6 個；S19b 擴到 20（§14.1 表定 20 種，取自 20 名最知名選手的
+ * 軼事／榮譽的「打法意象」，鍵名與意象由 S18 的任務卡定義，本表只補特質本體）。
+ * 效果全部重度副作用——傳說是「改寫生涯」的等級，代價必須大到玩家看得出取捨。
+ *
+ * ⚠ S01 教訓（docs/superpowers/specs/2026-08-12-four-tier-trait-synthesis.md）：
+ * 傳說一律不准用平白加分（直接加 careerScore 那類）——平白加分會幫「隨便練」的
+ * 打法也越過傳奇門檻，S07 的「傳奇要罕見」會破。本表所有益處都是成長窗口、
+ * 比賽加成、隊友戰力、心理這類「練得越準越吃得到」的形式。
  */
 export const LEGENDARY_TRAITS = {
   immortal: {
@@ -140,6 +155,148 @@ export const LEGENDARY_TRAITS = {
     desc: '版本懲罰歸零、成長 ×1.8；看透一切，失去普通選手的飢渴，動機 −8',
     effects: { patchImmune: true, growth_rate_mul: { mul: 1.8 } },
     sideEffects: { mental_drive: -8 }, sideEffectLevel: 'heavy',
+  },
+  // ── S19b 新增 14 個（鍵名與取材意象由 S18 任務卡定義，五路都有代表）──
+
+  heavenly: {
+    // TheShy「河道劍魔」：極限操作、一打多。副作用走傷病——高風險打法要身體還債。
+    name: '天神下凡', tier: 'legend', pool: 'career',
+    desc: '系列賽與關鍵局加成、擊殺產出 ×1.4；極限操作高風險，小傷變大傷機率 ×1.4、紀律 −8',
+    effects: { seriesGame: 6, clutchAdd: 6, killRate: { mul: 1.4 } },
+    sideEffects: { injuryMinorChance: { mul: 1.4 }, mental_disc: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['iron_king'],
+  },
+  shotcaller: {
+    // Mata「視野指揮」：燈號是隊伍的心臟。副作用走指揮權威——說一不二就沒人敢頂嘴。
+    name: '運籌帷幄', tier: 'legend', pool: 'career',
+    desc: '隊友戰力 +6、國際賽加成；指揮官說一不二，隊友不敢頂嘴，信任 −8、摩擦 +8',
+    effects: { teamLead: { floor: 6 }, intlRoll: 8 },
+    sideEffects: { mental_trust: -8, verdictRiftRisk: 8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['adc_king'],
+  },
+  jungle_king: {
+    // Karsa「野區雷達」：對面打野的位置閉著眼都知道。副作用走輕敵——算路太精，正面變粗心。
+    name: '野區掌控', tier: 'legend', pool: 'career',
+    desc: '隊友戰力 +5、系列賽加成；算得太精開始輕敵，過自信（自信 +8）、動機 −6',
+    effects: { teamLead: { floor: 5 }, seriesGame: 5 },
+    sideEffects: { mental_conf: 8, mental_drive: -6 }, sideEffectLevel: 'heavy',
+  },
+  one_man_army: {
+    // Uzi／Rookie「一神帶四腿」：全隊資源傾斜給一人。副作用走資源黑洞——隊友陪練。
+    name: '一人成軍', tier: 'legend', pool: 'career',
+    desc: '擊殺產出 ×1.6、單殺 ×1.3；全隊資源傾斜給一人，隊友陪練，信任 −8、摩擦 +10',
+    effects: { killRate: { mul: 1.6 }, soloRate: { mul: 1.3 } },
+    sideEffects: { mental_trust: -8, verdictRiftRisk: 10 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['champion_maker'],
+  },
+  iron_king: {
+    // Faker／Clearlove 全勤紀錄：八年一千四百場。副作用走規律——機器容不下鬆懈。
+    name: '全勤鐵人', tier: 'legend', pool: 'career',
+    desc: '成長 ×1.3、衰退加速度 ×0.7；容不得隊友鬆懈（摩擦 +6）、熱情被規律磨平（動機 −8）',
+    effects: { growth_rate_mul: { mul: 1.3 }, fall_accel_mul: { mul: 0.7 } },
+    sideEffects: { verdictRiftRisk: 6, mental_drive: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['heavenly'],
+  },
+  late_game: {
+    // Deft「後期之魔」：四十分鐘後的他是另一個人。副作用走前期——前四十分鐘他還在睡覺。
+    name: '後期之魔', tier: 'legend', pool: 'career',
+    desc: '決勝局與系列賽加成；前期隱形，扛不住前期的壓力，抗壓 −8',
+    effects: { seriesDecider: 6, seriesGame: 6 },
+    sideEffects: { mental_comp: -8 }, sideEffectLevel: 'heavy',
+  },
+  adc_king: {
+    // Uzi／GALA「團戰收割」：陣型最後排的裁判。副作用走逆風——輸出環境被保慣了。
+    name: '團戰收割', tier: 'legend', pool: 'career',
+    desc: '關鍵加成 +8、擊殺產出 ×1.3；輸出環境靠人保，逆風就毛躁，韌性 −8',
+    effects: { clutchAdd: 8, killRate: { mul: 1.3 } },
+    sideEffects: { mental_resl: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['shotcaller'],
+  },
+  mr_clutch: {
+    // Bengi「決勝局保障」：小組賽只是還不錯。副作用走例行賽——沒到關鍵時刻不興奮。
+    name: '關鍵先生', tier: 'legend', pool: 'career',
+    desc: '決勝局 +8、國際賽加成；例行賽心不在焉，動機 −8、紀律 −6',
+    effects: { seriesDecider: 8, intlRoll: 10 },
+    sideEffects: { mental_drive: -8, mental_disc: -6 }, sideEffectLevel: 'heavy',
+  },
+  record_breaker: {
+    // 數據型選手：簽名簽在紀錄簿的下一行。副作用走疏離——眼裡只有數據就沒有隊友。
+    name: '紀錄粉碎機', tier: 'legend', pool: 'career',
+    desc: '成長 ×1.25、擊殺產出 ×1.2；眼裡只有數據與紀錄，信任 −8、摩擦 +6',
+    effects: { growth_rate_mul: { mul: 1.25 }, killRate: { mul: 1.2 } },
+    sideEffects: { mental_trust: -8, verdictRiftRisk: 6 }, sideEffectLevel: 'heavy',
+  },
+  champion_maker: {
+    // Doinb「冠軍體系」：簽的不是一個人，是一整套會贏球的體制。副作用走自我犧牲。
+    name: '冠軍體制', tier: 'legend', pool: 'career',
+    desc: '隊友戰力 +8、教練評價 ×1.25；時間都花在帶體系，成長 ×0.9、動機 −6',
+    effects: { teamLead: { floor: 8 }, coachMult: { mul: 1.25 } },
+    sideEffects: { growth_rate_mul: { mul: 0.9 }, mental_drive: -6 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['one_man_army'],
+  },
+  worlds_king: {
+    // Ruler「世界賽主場」：世界賽不是考場，是主場。副作用走等待——世界賽之外都是煎熬。
+    name: '世界賽之王', tier: 'legend', pool: 'career',
+    desc: '世界賽 +10、國際賽加成；世界賽之外都是等待，動機 −8、抗壓 −6',
+    effects: { worldsRoll: 10, intlRoll: 8 },
+    sideEffects: { mental_drive: -8, mental_comp: -6 }, sideEffectLevel: 'heavy',
+  },
+  grand_slam: {
+    // Meiko「國際滿貫」：獎盃櫃只剩一格。副作用走成就後遺症——滿貫到手，例行賽沒意義。
+    name: '國際滿貫', tier: 'legend', pool: 'career',
+    desc: '國際賽 +10、關鍵局加成；滿貫在手，例行賽失去意義（動機 −6）、輸不起（韌性 −6）',
+    effects: { intlRoll: 10, clutchAdd: 4 },
+    sideEffects: { mental_drive: -6, mental_resl: -6 }, sideEffectLevel: 'heavy',
+  },
+  goat: {
+    // Faker「史上第一人」：歷史最佳移交日。副作用走壓力——萬人盯著的只有你。
+    name: '史上第一人', tier: 'legend', pool: 'career',
+    desc: '世界賽 +10、國際賽 +10、決勝局 +6；揹著歷史的目光，抗壓 −10、紀律 −6',
+    effects: { worldsRoll: 10, intlRoll: 10, seriesDecider: 6 },
+    sideEffects: { mental_comp: -10, mental_disc: -6 }, sideEffectLevel: 'heavy',
+  },
+  rookie_king: {
+    // Caps／Rookie「出道即巔峰」：開局站在別人爬五年才到的地方。副作用走少年得志。
+    name: '出道即巔峰', tier: 'legend', pool: 'career',
+    desc: '上升曲率 ×1.4、國際賽加成；少年得志，過自信（自信 +8）、練得少了（紀律 −8）',
+    effects: { rise_k_mul: { mul: 1.4 }, intlRoll: 8 },
+    sideEffects: { mental_conf: 8, mental_disc: -8 }, sideEffectLevel: 'heavy',
+  },
+};
+
+/**
+ * 獨有特質目錄（§14.1，S19b 建立）。
+ *
+ * 五種特質之一：**不可合成、不能當任何配方的素材、不進合成樹**，來源只有
+ * 生涯條件直接授予（例如某個史實成就）。存在理由是給「配方以外」留一條取得
+ * 管道——不走合成路線的 run 也有東西可拿。池歸屬一律 career（§14.2：career
+ * 池＝獨有特質／生涯標籤專用）。
+ *
+ * ⚠ 引擎消費端（`TIER_STORES`）與授予條件實作未接線——本站只建目錄，schema
+ * 與四階一致，效果鍵都是引擎已消費的鍵，接線站（S19c 校準任務卡時）只需
+ * 補 store 與授予點，不用改資料。`grant` 是授予條件的設計描述，不帶數值。
+ */
+export const UNIQUE_TRAITS = {
+  late_bloom: {
+    name: '老來俏', tier: 'unique', pool: 'career',
+    desc: '生涯末段大賽加成；年輕時錯過的，老了加倍討回來，動機 −4',
+    effects: { clutchAdd: 4, intlRoll: 4 },
+    sideEffects: { mental_drive: -4 }, sideEffectLevel: 'medium',
+    grant: '生涯末期（30 歲後）單季拿下個人獎項——史實成就：暮年爆發的傳奇',
+  },
+  thousand_games: {
+    name: '千錘百鍊', tier: 'unique', pool: 'career',
+    desc: '小傷轉大傷機率 ×0.6；打過一千場的人知道怎麼保護自己，例行賽提不起勁（動機 −4）',
+    effects: { injuryMinorChance: { mul: 0.6 } },
+    sideEffects: { mental_drive: -4 }, sideEffectLevel: 'medium',
+    grant: '職業生涯累計出賽 ≥ 1000 場——史實成就：全勤的紀錄',
+  },
+  torch_bearer: {
+    name: '火炬手', tier: 'unique', pool: 'career',
+    desc: '國際賽加成；親手擊敗上一任世界冠軍，之後看誰都覺得不過如此（自信 +6）',
+    effects: { intlRoll: 6 },
+    sideEffects: { mental_conf: 6 }, sideEffectLevel: 'medium',
+    grant: '世界賽淘汰現任世界冠軍——史實成就：世代交替的那一手',
   },
 };
 
