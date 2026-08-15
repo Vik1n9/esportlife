@@ -7,14 +7,20 @@ import { createState } from '../../src/engine/state.js';
 import { checkFusions, exclusiveHeld, maintenanceLoss, unlockTrait } from '../../src/engine/progression.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../../src/data/traits.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../../src/data/epics.js';
-import { bonus, lookupTrait, TIER_STORES, traitTier } from '../../src/kernel/modifiers.js';
+import { bonus, lookupTrait, TIER_DISPLAY_ORDER, TIER_STORES, traitTier } from '../../src/kernel/modifiers.js';
 import { mentalMod } from '../../src/engine/psych.js';
 
 function fresh() {
   return createState({ name: 'F', role: 'MID', seed: 'fusion' });
 }
 
-const TABLES = { common: BASE_TRAITS, rare: RARE_TRAITS, epic: EPIC_TRAITS, legendary: LEGENDARY_TRAITS };
+/**
+ * 合成樹上的四階（unique 不在樹上，schema 另外驗）。
+ * 表從 `TIER_STORES` 導出而不是再抄一份——階名的單一來源在那裡（S20c）。
+ */
+const TABLES = Object.fromEntries(Object.entries(TIER_STORES)
+  .filter(([tier]) => tier !== 'unique')
+  .map(([tier, e]) => [tier, e.table()]));
 const LEVELS = ['light', 'medium', 'heavy'];
 const POOLS = ['persona', 'performance', 'psych', 'career'];
 
@@ -119,6 +125,89 @@ export async function run({ check }) {
     }
   }
 
+  /* ---- 獨有特質接線（A2／N16，S20c）：資料存在，消費端也要存在 ----
+   *
+   * 修前這一階是死資料：目錄建好了，但 `state` 沒有 `unique` 欄位、`TIER_STORES`
+   * 沒有這一列、`traitTier()` 回 null、條件式的階名表也沒有它——`['has','unique',…]`
+   * 直接丟「條件式未知的階」。八個接點少任何一個，這階就還是拿不到。
+   */
+  {
+    const { UNIQUE_TRAITS } = await import('../../src/data/epics.js');
+    const { evalCond } = await import('../../src/engine/conditions.js');
+    const { grantUniqueTraits, activeTraitNames } = await import('../../src/engine/progression.js');
+    const keys = Object.keys(UNIQUE_TRAITS);
+
+    const s = fresh();
+    check('新角色有 unique 存放處', s.unique && typeof s.unique === 'object', `${s.unique}`);
+    check('TIER_STORES 認得 unique', !!TIER_STORES.unique);
+    for (const key of keys) {
+      check(`traitTier(${key}) = unique`, traitTier(key) === 'unique', `${traitTier(key)}`);
+      check(`lookupTrait(${key}) 查得到`, lookupTrait(key)?.name === UNIQUE_TRAITS[key].name);
+    }
+
+    // 條件式：修前這一行丟例外
+    const key0 = keys[0];
+    check('條件式讀得到 unique 階（不丟例外）', evalCond(s, ['has', 'unique', key0]) === false);
+    TIER_STORES.unique.store(s)[key0] = true;
+    check('持有後條件式命中', evalCond(s, ['has', 'unique', key0]) === true);
+    check('unique 的效果進得了 modifiers', bonus(s, Object.keys(UNIQUE_TRAITS[key0].effects)[0]) !== 0);
+    check('activeTraitNames 列得出 unique', activeTraitNames(s).unique.includes(UNIQUE_TRAITS[key0].name));
+
+    // 授予條件：能求值的走引擎，未建前提的明寫 null（不硬造假追蹤）
+    for (const [key, t] of Object.entries(UNIQUE_TRAITS)) {
+      check(`獨有 ${key}：grantWhen 是條件式或明寫 null`,
+        t.grantWhen === null || Array.isArray(t.grantWhen), JSON.stringify(t.grantWhen));
+      if (Array.isArray(t.grantWhen)) {
+        let threw = false;
+        try { evalCond(fresh(), t.grantWhen); } catch { threw = true; }
+        check(`獨有 ${key}：grantWhen 求得了值（謂詞都註冊過）`, !threw);
+      }
+    }
+
+    // 發放口：條件成立就發，而且不會誤寫進通用池
+    const late = fresh();
+    late.age = 31;
+    late.milestones.push({ year: late.year, kind: 'award', text: '例行賽 MVP' });
+    const gained = grantUniqueTraits(late);
+    check('條件成立 → 獨有特質發得出來', gained.includes('late_bloom'), gained.join('／'));
+    check('獨有特質不會誤寫進通用池', !late.traits.late_bloom);
+    check('重複結算不重複發', grantUniqueTraits(late).length === 0);
+    check('條件不成立不發（29 歲拿獎不算生涯末期）', (() => {
+      const young = fresh();
+      young.age = 29;
+      young.milestones.push({ year: young.year, kind: 'award', text: '例行賽 MVP' });
+      return !grantUniqueTraits(young).includes('late_bloom');
+    })());
+  }
+
+  /* ---- 階名單一來源（S20c）：配方、條件式、UI 用同一套拼法 ---- */
+  {
+    const { FUSIONS } = await import('../../src/data/epics.js');
+    const { QUEST_CARDS } = await import('../../src/data/quests.js');
+    const tiers = new Set(Object.keys(TIER_STORES));
+
+    const badRecipe = FUSIONS.flatMap((r) => [
+      ...(tiers.has(r.outTier) ? [] : [`outTier ${r.outTier}`]),
+      ...r.need.filter(([t]) => !tiers.has(t)).map(([t]) => `need ${t}`),
+    ]);
+    check('配方的階名都在 TIER_STORES 內', badRecipe.length === 0, badRecipe.join('／'));
+
+    const condTiers = [];
+    const walk = (n) => {
+      if (!Array.isArray(n)) return;
+      if (n[0] === 'has' || n[0] === 'hasCount') condTiers.push(n[1]);
+      else for (const c of n.slice(1)) walk(c);
+    };
+    for (const c of QUEST_CARDS) { walk(c.trigger); walk(c.goal); }
+    const badCond = [...new Set(condTiers)].filter((t) => !tiers.has(t));
+    check('任務卡條件式的階名都在 TIER_STORES 內', badCond.length === 0, badCond.join('／'));
+
+    check('每一階都有 store／table／樣式類別', Object.entries(TIER_STORES).every(
+      ([, e]) => typeof e.store === 'function' && typeof e.table === 'function' && typeof e.cls === 'string'));
+    check('TIER_DISPLAY_ORDER 蓋到每一階', TIER_DISPLAY_ORDER.length === tiers.size
+      && TIER_DISPLAY_ORDER.every((t) => tiers.has(t)), TIER_DISPLAY_ORDER.join('／'));
+  }
+
   /* ---- 互斥對稱（§13.3 第二層）：A 排他 B 則 B 也排他 A，且指向存在的特質 ---- */
   {
     const pairs = new Set();
@@ -161,16 +250,15 @@ export async function run({ check }) {
       { side: 'pariah', benefit: 'icon', key: 'verdictFireRisk', sideVal: 15, benVal: -15, name: '圈內毒瘤⇄傳奇偶像' },
       { side: 'trashtalk', benefit: 'franchise', key: 'verdictFireRisk', sideVal: 10, benVal: -10, name: '嘴砲王⇄神主牌' },
     ];
-    const STORE_OF = { lonewolf: 'traits', guardian: 'traits', pariah: 'traits', icon: 'rare', trashtalk: 'traits', franchise: 'traits' };
     check('至少有 3 組抵銷關係', offsets.length >= 3);
     for (const { side, benefit, key, sideVal, benVal, name } of offsets) {
       const onlySide = fresh();
-      onlySide[STORE_OF[side]][side] = true;
+      TIER_STORES[traitTier(side)].store(onlySide)[side] = true;
       const only = bonus(onlySide, key);
       check(`抵銷 ${name}：單獨副作用方向正確（${key} = ${sideVal}）`, only === sideVal, `實得 ${only}`);
       const both = fresh();
-      both[STORE_OF[side]][side] = true;
-      both[STORE_OF[benefit]][benefit] = true;
+      TIER_STORES[traitTier(side)].store(both)[side] = true;
+      TIER_STORES[traitTier(benefit)].store(both)[benefit] = true;
       const net = bonus(both, key);
       const expected = sideVal + benVal;
       check(`抵銷 ${name}：併存後淨值 = ${expected}（副作用被抵銷）`, net === expected, `實得 ${net}`);
@@ -243,7 +331,7 @@ export async function run({ check }) {
     let ok = true;
     for (const recipe of FUSIONS) {
       for (const [tier, key] of recipe.need) {
-        if (tier === 'traits') {
+        if (tier === 'common') {
           const t = BASE_TRAITS[key];
           const expect = recipe.outTier === 'rare' ? 'persona' : 'performance';
           if (t.pool !== expect) { ok = false; check(`${key} 池歸屬與配方不符（期望 ${expect}）`, false); }
@@ -325,15 +413,15 @@ export async function run({ check }) {
     const { QUEST_CARDS } = await import('../../src/data/quests.js');
     const consumes = new Map();   // key -> 合成這個產物會消耗的素材鍵集合
     for (const f of FUSIONS) {
-      for (const [tier, key] of f.need) if (tier === 'traits') consumes.set(f.out, (consumes.get(f.out) || new Set()).add(key));
+      for (const [tier, key] of f.need) if (tier === 'common') consumes.set(f.out, (consumes.get(f.out) || new Set()).add(key));
     }
     const dead = [];
     for (const card of QUEST_CARDS) {
       if (card.type !== 'legend') continue;
       const mats = (card.trigger || []).flatMap((n) =>
         Array.isArray(n) && n[0] === 'has' ? [[n[1], n[2]]] : []);
-      const keys = mats.filter(([tier]) => tier === 'traits').map(([, k]) => k);
-      const rares = mats.filter(([tier]) => tier !== 'traits').map(([, k]) => k);
+      const keys = mats.filter(([tier]) => tier === 'common').map(([, k]) => k);
+      const rares = mats.filter(([tier]) => tier !== 'common').map(([, k]) => k);
       const conflicts = [];
       for (const k of keys) {
         for (const r of rares) {

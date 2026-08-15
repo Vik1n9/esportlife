@@ -20,7 +20,7 @@ import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { bonus, floorOf } from '../kernel/modifiers.js';
-import { card, drawRoleplay, fusionBeats, recordIntlGroup, recordIntlSeries } from './shared.js';
+import { card, drawRoleplay, fusionBeats, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'MSI';
@@ -152,8 +152,9 @@ function* settle(g, outcome) {
   state.intlAppearances += 1;
   state.lastIntlYear = state.year;
   state.honors.push(`${state.year} ${result.rank}`);
-  // 生涯軌跡帳本（S17a）：國際賽名次進事實流，§15.5 傳記的「巔峰」段讀它
-  state.milestones.push({ year: state.year, kind: 'intl', text: result.rank });
+  // 生涯軌跡帳本（S17a）：國際賽名次進事實流，§15.5 傳記的「巔峰」段讀它。
+  // S20c 起以名次鍵入帳（`event` ＋ `finish`），顯示字串由鍵導出
+  recordIntlFinish(state, 'msi', outcome);
 
   if (outcome === 'champion') { state.msiWins += 1; state.msiPodiums += 1; }
   else if (outcome === 'semi' || outcome === 'final') state.msiPodiums += 1;

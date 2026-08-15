@@ -523,7 +523,7 @@ function fusionConsumption({ check, log, runs }) {
   }
 
   // 直接探測解鎖入口：走一條真的配方，確認素材被移除且再也拿不回來
-  const recipe = FUSIONS.find((r) => r.outTier === 'epic' && r.need.every(([tier]) => tier === 'traits'));
+  const recipe = FUSIONS.find((r) => r.outTier === 'epic' && r.need.every(([tier]) => tier === 'common'));
   const state = createState({ name: 'F', role: 'MID', seed: 'fusion-probe' });
   for (const [, key] of recipe.need) unlockTrait(state, key);
   const gained = checkFusions(state);

@@ -15,6 +15,7 @@ import { createState } from '../../src/engine/state.js';
 import { buildBiography } from '../../src/engine/biography.js';
 import { careerScore } from '../../src/engine/career.js';
 import { playCareer } from '../lib/harness.mjs';
+import { recordIntlFinish } from '../../src/phases/shared.js';
 
 export const name = '生涯傳記（S21a）';
 export const order = 2;   // 冒煙測試（order 1）之後跑，直接吃 shared.runs
@@ -35,10 +36,10 @@ export async function run({ check, log, shared }) {
   /* ---- 事實錨點：手工拼的 state ---- */
   {
     const s = createState({ name: 'CHAMP', role: 'MID', seed: 'bio-anchor' });
-    s.milestones = [
-      { year: 2016, kind: 'debut', text: '出道於 AAA' },
-      { year: 2019, kind: 'intl', text: '世界賽冠軍' },
-    ];
+    s.milestones = [{ year: 2016, kind: 'debut', text: '出道於 AAA' }];
+    // 國際賽名次過寫入端（S20c／N17）：傳記讀的是 `finish` 鍵，不是文字
+    s.year = 2019;
+    recordIntlFinish(s, 'worlds', 'champion');
     s.worldsWins = 2;
     s.quests = { active: [], done: [], log: [] };
     const bio = buildBiography(s);

@@ -1505,7 +1505,7 @@ function blankEntry(schemaId) {
         good: { text: '' }, bad: { text: '' },
       };
     case 'trainingCard':
-      return { id: 't_new', tier: 'success', pool: 'success', weight: 1, text: '', effects: {} };
+      return { id: 't_new', tier: 'success', weight: 1, text: '', effects: {} };
     case 'quest':
       return {
         id: 'q_new', type: 'legend', name: '', text: '',
@@ -1521,7 +1521,7 @@ function blankEntry(schemaId) {
       };
     case 'fusion':
       return {
-        outTier: 'rare', out: '', need: [['traits', ''], ['traits', '']],
+        outTier: 'rare', out: '', need: [['common', ''], ['common', '']],
       };
     case 'innate':
       return { key: '', mentalBias: null };

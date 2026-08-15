@@ -19,6 +19,7 @@ import { QUEST_CARDS } from '../data/quests.js';
 import { ROLE_NAMES } from '../data/skills.js';
 import { activeTraitNames } from './progression.js';
 import { distinctTeams } from './ledger.js';
+import { finishOrder, INTL_EVENT_NAMES, NO_FINISH } from '../data/formats/finishes.js';
 
 /** 模板填空。缺變數直接丟例外——測試跑 160 段生涯會把它抓出來，寧可大聲壞掉 */
 function fill(template, vars) {
@@ -32,35 +33,22 @@ function fill(template, vars) {
 const joiner = (list) => list.map((x) => `「${x}」`).join('、');
 
 /**
- * 國際賽名次的權重（越小越好），與 `ledger.js` 的 WORLDS_ORDER 同一套——
- * 世界賽與 MSI 用同一把尺比較，傳記的「巔峰」段才挑得出真正最好的一次。
+ * 生涯最佳國際賽里程碑：回 {year, event, rank}，沒打過回 null。
+ *
+ * ⚠ 序位讀 `data/formats/finishes.js` 的共用名次表（S20c），不再自己抄一份
+ * `INTL_SCORE`——那是第三份手抄本，註解還寫著「與 `WORLDS_ORDER` 同一套」，
+ * 而實際上兩邊的空格寫法不同。世界賽與 MSI 用同一把尺比較，「巔峰」段才挑得出
+ * 真正最好的一次。
  */
-const INTL_SCORE = {
-  '世界賽冠軍': 1, 'MSI 冠軍': 1,
-  '世界賽亞軍': 2, 'MSI 亞軍': 2,
-  '世界賽 四強止步': 3, 'MSI 四強': 3,
-  '世界賽 八強止步': 4, 'MSI 止步': 4,
-  '世界賽 小組止步': 5,
-  '世界賽 入圍賽出局': 6,
-};
-
-/** 生涯最佳國際賽里程碑：回 {year, text, rank}，沒打過回 null */
 function bestIntl(state) {
   let best = null;
   for (const m of state.milestones) {
     if (m.kind !== 'intl') continue;
-    const rank = INTL_SCORE[m.text];
-    if (rank === undefined) continue;
-    if (!best || rank < best.rank) best = { year: m.year, text: m.text, rank };
+    const rank = finishOrder(m.finish);
+    if (rank === NO_FINISH) continue;
+    if (!best || rank < best.rank) best = { year: m.year, event: m.event, rank };
   }
   return best;
-}
-
-/** 國際賽里程碑文字拆出賽事名與名次：『世界賽 四強止步』→ {event:'世界賽', rank:'四強止步'} */
-function intlParts(text) {
-  if (text.startsWith('世界賽')) return { event: '世界賽', rank: text.slice(3).trim() };
-  if (text.startsWith('MSI ')) return { event: 'MSI', rank: text.slice(4) };
-  return { event: text, rank: '' };
 }
 
 /** 生涯最出色的職業賽季：{year, margin}。沒打過職業（teamHistory 空）時退到業餘賽季 */
@@ -101,7 +89,7 @@ function peakParagraph(state, best) {
     return fill(T.peak.worldsWin, { year: best.year, name, n: worldsWins });
   }
   if (best) {
-    const { event } = intlParts(best.text);
+    const event = INTL_EVENT_NAMES[best.event];
     if (best.rank === 2) return fill(T.peak.intlFinal, { year: best.year, event, name });
     if (best.rank === 3) return fill(T.peak.intlTop4, { year: best.year, event, name });
   }

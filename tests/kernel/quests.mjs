@@ -10,6 +10,7 @@
  * 還沒達成、由測試在下一個結算點補上」，才量得到跨回合的狀態機。
  */
 import { createState } from '../../src/engine/state.js';
+import { recordIntlFinish } from '../../src/phases/shared.js';
 import { LEGEND_BASELINE, settleQuests } from '../../src/engine/quests.js';
 
 export const name = '生涯任務引擎（S17b）';
@@ -36,9 +37,16 @@ const fresh = (extra = {}) => Object.assign(
   { year: 2020, month: 3 }, extra,
 );
 
-/** 給一個 state 掛上「打過國際賽四強」的帳本事實（legend 底線門檻用） */
+/**
+ * 給一個 state 掛上「打過國際賽四強」的帳本事實（legend 底線門檻用）。
+ * ⚠ 過寫入端（`recordIntlFinish`）而不是手抄一份里程碑——手抄就守不住跨檔的
+ * 名次鍵（S20c／N17）。
+ */
 const withSemis = (s) => {
-  s.milestones.push({ year: 2016, kind: 'intl', text: '世界賽 四強止步' });
+  const year = s.year;
+  s.year = 2016;
+  recordIntlFinish(s, 'worlds', 'semi');
+  s.year = year;
   return s;
 };
 

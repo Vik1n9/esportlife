@@ -1,10 +1,10 @@
 /** 受傷、版本改動、英雄專精、特質解鎖與合成。 */
 import { clamp } from '../core/rng.js';
 import { HEROES_BY_ROLE, PATCH_THEMES } from '../data/heroes.js';
-import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
-import { EPIC_TRAITS, FUSIONS, LEGENDARY_TRAITS } from '../data/epics.js';
+import { FUSIONS, UNIQUE_TRAITS } from '../data/epics.js';
 import { capOf, factor, flag, lookupTrait, TIER_STORES, traitName, traitTier } from '../kernel/modifiers.js';
 import { injuryMul, staminaOf } from './stamina.js';
+import { evalCond } from './conditions.js';
 
 /* ---------------- 受傷 ---------------- */
 
@@ -98,15 +98,17 @@ export function trainHeroes(state, rng, games) {
  * 同組其他特質已持有的話，這條路線就鎖死（「取得其一鎖掉整條路線」）。
  *
  * 對稱性由測試強制：A 排他 B，B 的資料也要排他 A——所以這裡只需要單向查詢。
+ *
+ * ⚠ 修前這裡有一份 `TIER_TO_STORE` 把 `traitTier()` 的階名翻譯成 `TIER_STORES`
+ * 的鍵。兩套拼法收斂之後翻譯表整條退役（S20c）；`store` 取不到時回退成空物件，
+ * 是因為舊存檔可能缺該階的欄位——`TIER_STORES[tier].store(state)` 直接索引會
+ * TypeError（unique 接上之後這條路就走得到了）。
  */
-const TIER_TO_STORE = { common: 'traits', rare: 'rare', epic: 'epic', legendary: 'legendary' };
-
 export function exclusiveHeld(state, key) {
   const t = lookupTrait(key);
   if (!t?.exclusiveWith) return false;
   return t.exclusiveWith.some((other) => {
-    const tier = TIER_TO_STORE[traitTier(other)];
-    const store = TIER_STORES[tier].store(state);
+    const store = TIER_STORES[traitTier(other)]?.store(state) || {};
     return !!store[other];
   });
 }
@@ -168,10 +170,51 @@ export function maintenanceLoss(state) {
   return lost;
 }
 
+/**
+ * 各階已持有特質的顯示名。逐階走 `TIER_STORES`——加一階不用改這裡（S20c）。
+ *
+ * ⚠ 缺欄位回空陣列而不是裸 `Object.keys` 炸掉：階是會增加的，而存檔跨版本
+ * 一定會出現「新階在舊存檔裡不存在」的一刻（N15）。
+ */
 export function activeTraitNames(state) {
-  const common = Object.keys(state.traits).filter((k) => state.traits[k]).map((k) => BASE_TRAITS[k].name);
-  const rare = Object.keys(state.rare).filter((k) => state.rare[k]).map((k) => RARE_TRAITS[k].name);
-  const epic = Object.keys(state.epic).filter((k) => state.epic[k]).map((k) => EPIC_TRAITS[k].name);
-  const legendary = Object.keys(state.legendary).filter((k) => state.legendary[k]).map((k) => LEGENDARY_TRAITS[k].name);
-  return { common, rare, epic, legendary, base: common };
+  const out = {};
+  for (const [tier, { store, table }] of Object.entries(TIER_STORES)) {
+    out[tier] = Object.entries(store(state) || {})
+      .filter(([, held]) => held)
+      .map(([key]) => table()[key]?.name)
+      .filter(Boolean);
+  }
+  return out;
+}
+
+/* ---------------- 獨有特質（§14.1，S20c 接線） ---------------- */
+
+/**
+ * 獨有特質的授予檢查。
+ *
+ * 獨有特質不進合成樹、不能當素材，唯一的取得管道是**生涯條件直接授予**——所以
+ * 它需要一個自己的發放口。形狀仿 `quests.js` 的傳說發放：互斥擋住就不發，
+ * 但不丟例外。
+ *
+ * ⚠ **不能走 `unlockTrait`**：那個函式寫死 `state.traits`（common 階），
+ * 拿它發獨有特質會把 unique 的鍵寫進通用池。
+ *
+ * 授予條件是條件式（`grantWhen`），與任務卡、事件卡同一套 `evalCond`
+ * （`AGENTS.md` 條件語言規則：全專案只有一套條件語言）。`grantWhen` 為
+ * null 的特質代表前提還沒建好，本站不硬造假追蹤。
+ *
+ * @returns {string[]} 這次新授予的獨有特質鍵
+ */
+export function grantUniqueTraits(state) {
+  const gained = [];
+  const store = TIER_STORES.unique.store(state);
+  if (!store) return gained;
+  for (const [key, t] of Object.entries(UNIQUE_TRAITS)) {
+    if (store[key] || !t.grantWhen) continue;
+    if (!evalCond(state, t.grantWhen)) continue;
+    if (exclusiveHeld(state, key)) continue;
+    store[key] = true;
+    gained.push(key);
+  }
+  return gained;
 }

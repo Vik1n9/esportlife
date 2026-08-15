@@ -13,7 +13,7 @@
  * 有的先保底再加），統一成一個函式反而會把順序藏起來。
  */
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
-import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../data/epics.js';
+import { EPIC_TRAITS, LEGENDARY_TRAITS, UNIQUE_TRAITS } from '../data/epics.js';
 import { clamp } from '../core/rng.js';
 
 /** `key: 5` 與 `key: true` 是簡寫，統一展開成物件 */
@@ -23,13 +23,30 @@ function normalize(effect) {
   return effect;
 }
 
-/** 四階特質各自的存放位置與資料表 */
+/**
+ * 各階特質的存放位置、資料表與顯示樣式。**階名的單一來源**（S20c）。
+ *
+ * ⚠ 階名以前有四套拼法：這張表的鍵是 `traits`、`traitTier()` 回 `common`、
+ * `conditions.js` 與 `progression.js` 各有一份 `TIER_TO_STORE` 在兩者之間翻譯、
+ * 配方資料寫 `traits`、任務卡條件式寫 `common`。四套拼法只要有一處對不上就是
+ * 靜默查表失敗。現在全專案只有一套：`common / rare / epic / legendary / unique`，
+ * 加一階＝在這裡加一列，消費端不用改。
+ *
+ * `unique` 是獨有特質（§14.1）：不可合成、不能當配方素材，只由生涯條件直接授予。
+ */
 export const TIER_STORES = {
-  traits: { store: (s) => s.traits, table: () => BASE_TRAITS },
-  rare: { store: (s) => s.rare, table: () => RARE_TRAITS },
-  epic: { store: (s) => s.epic, table: () => EPIC_TRAITS },
-  legendary: { store: (s) => s.legendary, table: () => LEGENDARY_TRAITS },
+  common: { store: (s) => s.traits, table: () => BASE_TRAITS, cls: '' },
+  rare: { store: (s) => s.rare, table: () => RARE_TRAITS, cls: 'rare' },
+  epic: { store: (s) => s.epic, table: () => EPIC_TRAITS, cls: 'epic' },
+  legendary: { store: (s) => s.legendary, table: () => LEGENDARY_TRAITS, cls: 'legendary' },
+  unique: { store: (s) => s.unique, table: () => UNIQUE_TRAITS, cls: 'unique' },
 };
+
+/** 階名全集（測試、編輯器、UI 的可選值來源） */
+export const TIER_KEYS = Object.keys(TIER_STORES);
+
+/** UI 由高階往低階列的順序。獨有特質排在傳說之後、史詩之前——它是另一條取得管道 */
+export const TIER_DISPLAY_ORDER = ['legendary', 'unique', 'epic', 'rare', 'common'];
 
 /** 逐一吐出所有「已持有且對這個 key 有影響」的效果。
  *  益處（`effects`）與副作用（`sideEffects`）共用同一組鍵與同一套寫法——差別只在
@@ -112,17 +129,20 @@ export function lifecycleWindows(state) {
   };
 }
 
-/** 查詢任一階特質的資料（名稱／描述／效果）。 */
+/** 查詢任一階特質的資料（名稱／描述／效果）。逐階查 `TIER_STORES`，加一階不用改這裡 */
 export function lookupTrait(key) {
-  return BASE_TRAITS[key] || RARE_TRAITS[key] || EPIC_TRAITS[key] || LEGENDARY_TRAITS[key] || null;
+  for (const { table } of Object.values(TIER_STORES)) {
+    const t = table()[key];
+    if (t) return t;
+  }
+  return null;
 }
 
-/** 查詢任一階特質屬於哪一階。 */
+/** 查詢任一階特質屬於哪一階（回 `TIER_STORES` 的鍵）。 */
 export function traitTier(key) {
-  if (BASE_TRAITS[key]) return 'common';
-  if (RARE_TRAITS[key]) return 'rare';
-  if (EPIC_TRAITS[key]) return 'epic';
-  if (LEGENDARY_TRAITS[key]) return 'legendary';
+  for (const [tier, { table }] of Object.entries(TIER_STORES)) {
+    if (table()[key]) return tier;
+  }
   return null;
 }
 

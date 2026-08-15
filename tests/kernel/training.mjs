@@ -15,7 +15,7 @@ import {
   SUCCESS_COEF, TRAIN_YIELD, TRAINING_ACTIVITIES, drawTrainingCard,
   expectedSuccess, resolveTraining, tickActiveEffects,
 } from '../../src/engine/training.js';
-import { TRAINING_CARDS } from '../../src/data/trainingCards.js';
+import { TRAINING_CARDS, poolOfTier } from '../../src/data/trainingCards.js';
 import { ATTRS } from '../../src/data/attributes.js';
 import { MENTAL_KEYS } from '../../src/data/mental.js';
 import { staminaOf } from '../../src/engine/stamina.js';
@@ -98,14 +98,16 @@ export async function run({ check, log }) {
     check('英雄池練習不漲屬性', ATTRS.every((k) => s.attr[k] === attrBefore[k]));
   }
 
-  /* ---- 完整目錄（S18）：數量、id、weight、pool、tier 一致 ---- */
+  /* ---- 完整目錄（S18）：數量、id、weight、tier 一致 ---- */
   {
     check('訓練卡 60 張（兜底 24＋PRO 20＋AM2 8＋業餘 8）', TRAINING_CARDS.length === 60, String(TRAINING_CARDS.length));
     check('id 唯一', new Set(TRAINING_CARDS.map((c) => c.id)).size === TRAINING_CARDS.length);
     check('weight 全部 > 0', TRAINING_CARDS.every((c) => c.weight > 0));
-    check('pool 與 tier 一致（success 池只有成功檔位）', TRAINING_CARDS.every((c) =>
-      (c.pool === 'success' && ['great_success', 'success'].includes(c.tier))
-      || (c.pool === 'failure' && ['great_failure', 'failure'].includes(c.tier))));
+    // 池別是 tier 的導出值（S20c／N19），不是欄位——沒有第二份手抄本就沒有「對不上」
+    check('池別不再是手抄欄位（60 張都沒有 pool）', TRAINING_CARDS.every((c) => c.pool === undefined));
+    check('poolOfTier 把四個檔位分成兩池',
+      poolOfTier('great_success') === 'success' && poolOfTier('success') === 'success'
+      && poolOfTier('failure') === 'failure' && poolOfTier('great_failure') === 'failure');
     for (const tier of TIERS) {
       check(`每個檔位至少 1 張（${tier}）`, TRAINING_CARDS.some((c) => c.tier === tier));
     }

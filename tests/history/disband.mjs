@@ -13,6 +13,30 @@ import { DISBAND_YEAR } from '../../src/data/disband.js';
 export const name = '史實解散與簽約名單';
 
 export async function run({ check }) {
+  /* ---- 解散年份可達性（N18，S20c）：寫得出來的解散要觸發得到 ----
+   *
+   * `DISBANDS` 的一列若指向「該年名單上根本沒有這支隊」，玩家不可能在該年身處該隊，
+   * 這條史實解散就永遠不觸發。2016 年的台北暗殺星就是這樣——那支隊只存在於
+   * `regions/home.js` 的 GPL 列（2012–2014），2016 年 era 鍵已經是 LMS。
+   */
+  {
+    const { DISBANDS } = await import('../../src/data/disband.js');
+    const { teamNamesOf } = await import('../../src/data/regions/index.js');
+    const { LEAGUES } = await import('../../src/data/leagues.js');
+    const { homeLeagueName } = await import('../../src/engine/roster.js');
+    const probe = createState({ name: 'P', role: 'JG', seed: 'disband-reach' });
+    const REGIONS = [...new Set(Object.values(LEAGUES).map((l) => l.region).filter(Boolean))];
+    const unreachable = [];
+    for (const d of DISBANDS) {
+      probe.year = d.year;
+      // ⚠ 查的是**當年的時代名單**，不是 `teamsOf`——後者刻意把該年解散的隊濾掉
+      //（不能簽一支今年就要倒的隊），拿它當可達性依據會把每一條都判成不可達
+      const listed = REGIONS.some((r) => teamNamesOf(r, homeLeagueName(probe)).includes(d.team));
+      if (!listed) unreachable.push(`${d.year} ${d.team}`);
+    }
+    check('每一條史實解散都觸發得到（解散年該隊在名單上）', unreachable.length === 0, unreachable.join('／'));
+  }
+
   const rng = new Rng('disband');
   const state = createState({ name: 'D', role: 'JG', seed: 'disband' });
 

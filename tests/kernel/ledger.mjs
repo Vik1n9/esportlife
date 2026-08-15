@@ -5,8 +5,13 @@
 import { createState } from '../../src/engine/state.js';
 import { playCareer } from '../lib/harness.mjs';
 import {
-  assistsPerGame, distinctTeams, intlWinRate, longestTenure,
+  assistsPerGame, distinctTeams, intlWinRate, longestTenure, msiBest, worldsBest,
 } from '../../src/engine/ledger.js';
+import { recordIntlFinish } from '../../src/phases/shared.js';
+import { FINISH_ORDER, finishOrder, NO_FINISH } from '../../src/data/formats/finishes.js';
+import { WORLDS_RESULTS } from '../../src/data/formats/worlds.js';
+import { MSI_RESULTS } from '../../src/data/formats/msi.js';
+import { careerScore } from '../../src/engine/career.js';
 
 export const name = '生涯軌跡帳本（S17a）';
 
@@ -43,6 +48,77 @@ export async function run({ check }) {
     check('longestTenure 未完成筆算到今年（BBB: 2017–2019 = 3）', longestTenure(s) === 3, `${longestTenure(s)}`);
     s.teamHistory[1].toYear = 2018;
     check('longestTenure 完成筆取最長（AAA: 3 年）', longestTenure(s) === 3, `${longestTenure(s)}`);
+  }
+
+  /* ---- 名次對照（N17，S20c）：每一個名次都查得到序位 ----
+   *
+   * 這一組是 A3／N3／N5 三個靜默 bug 的守門員。三個 bug 的形狀相同：某張查表的鍵
+   * 必須與另一個檔案產生的字串逐字相同，而沒有任何測試在守。實測後果是真實的世界賽
+   * 冠軍 `worldsBest()` 回 4、`'MSI 止步'` 回 99（等同沒打過）。
+   *
+   * ⚠ 斷言**必須過寫入端的實際運算式**（`recordIntlFinish`），不能手抄一份預期
+   * 字串——手抄只是把 bug 抄第四遍。名次鍵入帳之後要驗的是「寫入端產生的 finish
+   * 鍵都在名次表內」，而不是「文字對得上」。
+   */
+  {
+    const fresh = () => {
+      const s = createState({ name: 'F', role: 'MID', seed: 'finish-table' });
+      s.year = 2018;
+      return s;
+    };
+
+    check('沒打過國際賽 worldsBest = 沒打過', worldsBest(fresh()) === NO_FINISH, `${worldsBest(fresh())}`);
+    check('沒打過國際賽 msiBest = 沒打過', msiBest(fresh()) === NO_FINISH, `${msiBest(fresh())}`);
+
+    for (const finish of Object.keys(WORLDS_RESULTS)) {
+      check(`世界賽名次 ${finish} 在名次表內`, FINISH_ORDER[finish] !== undefined, finish);
+      const s = fresh();
+      recordIntlFinish(s, 'worlds', finish);
+      check(`世界賽 ${finish} 寫入端 → worldsBest 查得到序位`,
+        worldsBest(s) === finishOrder(finish), `${worldsBest(s)} ≠ ${finishOrder(finish)}`);
+      check(`世界賽 ${finish} 里程碑帶機器可讀欄位`,
+        s.milestones[0].event === 'worlds' && s.milestones[0].finish === finish,
+        JSON.stringify(s.milestones[0]));
+    }
+
+    for (const finish of Object.keys(MSI_RESULTS)) {
+      check(`MSI 名次 ${finish} 在名次表內`, FINISH_ORDER[finish] !== undefined, finish);
+      const s = fresh();
+      recordIntlFinish(s, 'msi', finish);
+      check(`MSI ${finish} 寫入端 → msiBest 查得到序位`,
+        msiBest(s) === finishOrder(finish), `${msiBest(s)} ≠ ${finishOrder(finish)}`);
+      check(`MSI ${finish} 里程碑帶機器可讀欄位`,
+        s.milestones[0].event === 'msi' && s.milestones[0].finish === finish,
+        JSON.stringify(s.milestones[0]));
+    }
+
+    // 兩個賽事互不污染：MSI 的名次不會被 worldsBest 讀到，反之亦然
+    const mix = fresh();
+    recordIntlFinish(mix, 'msi', 'champion');
+    check('MSI 冠軍不會被 worldsBest 讀成世界賽冠軍', worldsBest(mix) === NO_FINISH, `${worldsBest(mix)}`);
+    recordIntlFinish(mix, 'worlds', 'stage');
+    check('世界賽小組止步不會被 msiBest 讀到', msiBest(mix) === finishOrder('champion'), `${msiBest(mix)}`);
+
+    // 生涯最佳取最小序位，與寫入順序無關
+    const many = fresh();
+    for (const f of ['stage', 'champion', 'quarter']) recordIntlFinish(many, 'worlds', f);
+    check('worldsBest 取生涯最佳（與寫入順序無關）', worldsBest(many) === 1, `${worldsBest(many)}`);
+  }
+
+  /* ---- 賽段冠軍入帳（N4，S20c）：每一座賽段冠軍在生涯評分裡都有份量 ----
+   *
+   * 修前 `career.js` 的 `HONOR_POINTS` 拿 `'季後賽冠軍'` 去比對，而 `playoff.js`
+   * 產生的字串是 `'2020 PCS 夏季賽冠軍'`——25 段生涯 34 個以「冠軍」結尾的榮譽
+   * 命中 0，每一座賽段冠軍在生涯評分裡值 0 分（該值 80）。
+   */
+  {
+    const s = createState({ name: 'T', role: 'MID', seed: 'split-title' });
+    const base = careerScore(s);
+    s.splitTitles = 1;
+    const one = careerScore(s);
+    check('一座賽段冠軍在生涯評分裡值 80 分', one - base === 80, `${one - base}`);
+    s.splitTitles = 3;
+    check('賽段冠軍逐座計分', careerScore(s) - base === 240, `${careerScore(s) - base}`);
   }
 
   /* ---- 帳本不變式：40 段生涯 ---- */

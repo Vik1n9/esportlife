@@ -10,7 +10,8 @@ import { coachRating, effectiveCoachRating, patchPenalty, roleSkills, skillValue
 import { SKILL_NAMES } from '../data/skills.js';
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { formatStatLine, mergeSplits } from '../engine/season.js';
-import { applyPatch, trainHeroes, unlockTrait } from '../engine/progression.js';
+import { applyPatch, grantUniqueTraits, trainHeroes, unlockTrait } from '../engine/progression.js';
+import { UNIQUE_TRAITS } from '../data/epics.js';
 import { worldsSeed } from '../kernel/series.js';
 import { card, fusionBeats } from './shared.js';
 
@@ -54,6 +55,12 @@ export function* run(g, phase) {
   if (state.stage === 'PRO') {
     state.seedRank = worldsSeed(state.champPoints);
     yield* awards(g, stat);
+    // 獨有特質（§14.1，S20c）：年度結算跑一次授予檢查。放在 awards 之後，因為
+    // 「老來俏」的條件讀的是**今年**的個人獎項——獎項要先發下去才判得出來
+    for (const key of grantUniqueTraits(state)) {
+      const t = UNIQUE_TRAITS[key];
+      yield card('gold', `獨有素質覺醒：${t.name}`, t.desc);
+    }
     // 生涯軌跡帳本（S17a）：轉會後第一個完整賽季結束，補寫當筆 teamHistory 的
     // 首季教練評價與隊伍平均（§14.3「流浪傭兵」的條件讀它；隊友強度讀 state.mates）。
     // `fromYear !== state.year` 排除簽約當季（transfer 在 seasonEnd 之後，簽約年的

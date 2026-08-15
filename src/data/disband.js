@@ -8,7 +8,10 @@
  * 查詢與派生都比巢狀直白：`DISBAND_YEAR` 直接從同一張表映射出來。
  */
 export const DISBANDS = [
-  { year: 2016, team: '台北暗殺星', reason: '母公司改制，LoL 分部解散' },
+  // ⚠ 年份必須落在該隊「存在於名單上」的區間內（S20c／N18）。原本寫 2016，但
+  // 台北暗殺星只出現在 `regions/home.js` 的 GPL 列（2012–2014），2016 年 era 鍵
+  // 已經是 LMS——玩家不可能在 2016 年身處該隊，這條解散永遠不觸發
+  { year: 2014, team: '台北暗殺星', reason: '母公司改制，LoL 分部解散' },
   { year: 2019, team: '閃電狼', reason: '母公司宣布退出聯賽' },
   { year: 2019, team: 'MAD Team', reason: '經營權轉移，戰隊解散' },
   { year: 2021, team: 'ahq 電子競技俱樂部', reason: 'LoL 分部正式解散' },

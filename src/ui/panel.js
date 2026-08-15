@@ -20,7 +20,7 @@ import { formatMoney } from '../engine/market.js';
 import { reputeSummary } from '../engine/mental.js';
 import { BAND_FRESH, BAND_TIRED, STAMINA_MAX, bandOf, staminaOf } from '../engine/stamina.js';
 import { coachBonus, matesAverage } from '../kernel/strength.js';
-import { lookupTrait } from '../kernel/modifiers.js';
+import { lookupTrait, TIER_DISPLAY_ORDER, TIER_STORES } from '../kernel/modifiers.js';
 import { byId, escapeHtml } from './dom.js';
 
 let root = null;
@@ -142,12 +142,14 @@ function questRows(state) {
 /** 個人特質：小箭頭可展開，顯示該特質的作用（不顯示獲取來源）。高階特質排前面。 */
 function traitRows(state) {
   const rows = [];
-  for (const tier of ['legendary', 'epic', 'rare', 'traits']) {
-    const held = tier === 'traits' ? state.traits : state[tier] || {};
-    for (const [key, isHeld] of Object.entries(held)) {
+  // 階名與樣式都讀 TIER_STORES（S20c 單一來源）——加一階不用改這裡
+  for (const tier of TIER_DISPLAY_ORDER) {
+    const { store, cls } = TIER_STORES[tier];
+    for (const [key, isHeld] of Object.entries(store(state) || {})) {
       if (!isHeld) continue;
       const t = lookupTrait(key);
-      rows.push({ name: t.name, desc: t.desc, cls: tier === 'traits' ? '' : tier });
+      if (!t) continue;
+      rows.push({ name: t.name, desc: t.desc, cls });
     }
   }
   for (const name of state.fusedAway) {

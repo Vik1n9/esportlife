@@ -41,14 +41,26 @@ const INTl_POINTS = {
   worldsFinal: 200,
   msiWin: 200,
   msiPodium: 60,
+  splitTitle: 80,
 };
 
-/** 聯賽榮譽：關鍵字 → 分數。用 `includes` 比對，因為年份會掛在前面 */
+/**
+ * 個人獎項：關鍵字 → 分數。用 `includes` 比對，因為年份會掛在前面。
+ *
+ * ⚠ **賽段冠軍不在這張表裡**（S20c／N4）。它原本寫成關鍵字 `'季後賽冠軍'`，而
+ * `phases/playoff.js` 產生的字串是 `'2020 PCS 夏季賽冠軍'`——賽區名與賽段名夾在
+ * 中間，`includes` 永遠比不中。25 段生涯 34 個以「冠軍」結尾的榮譽命中 0，
+ * 每一座賽段冠軍在生涯評分裡值 0 分。
+ *
+ * 修法不是把關鍵字改對，是**不再拿顯示字串當鍵**：賽段冠軍本來就有機器可讀的
+ * 計數器 `state.splitTitles`（playoff.js 在同一個分支 `+= 1`），直接讀它。
+ * 這三個個人獎項留在字串比對，是因為 `awards` 只有總數、分不出種類；它們的
+ * 一致性由 `tests/kernel/ledger.mjs` 的 `awards === honors 個人獎項數` 守著。
+ */
 const HONOR_POINTS = [
   ['例行賽 MVP', 100],
   ['最佳新人', 50],
   ['單殺王', 60],
-  ['季後賽冠軍', 80],
 ];
 
 /** 單季成績換成分數（量）。逐季累加，clamp 在每一季而不是總和，見 SEASON_WEIGHTS */
@@ -88,6 +100,7 @@ export function careerScore(state) {
   score += state.worldsFinals * INTl_POINTS.worldsFinal;
   score += state.msiWins * INTl_POINTS.msiWin;
   score += Math.max(0, state.msiPodiums - state.msiWins) * INTl_POINTS.msiPodium;
+  score += (state.splitTitles || 0) * INTl_POINTS.splitTitle;
 
   for (const [keyword, pts] of HONOR_POINTS) {
     score += countHonors(state, keyword) * pts;
