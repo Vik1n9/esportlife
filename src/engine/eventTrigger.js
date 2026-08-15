@@ -116,9 +116,12 @@ export function whenHits(state, when) {
 
 /* ================= 隨機池與防重 ================= */
 
-/** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效（原在 shared.js，隨抽卡邏輯搬入） */
+/** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效（原在 shared.js，隨抽卡邏輯搬入）。
+ * ⚠ S18 第二批補登 genius／clutch／intlghost／underdog：第一批的觸發卡把這四個旗標寫進
+ * FLAG_TRAIT 卻漏了這張表，結果安全牌（traits:false）照樣解鎖特質——「安全牌不推向
+ * 任何極端」（events.js 檔頭）的設計被打破，實測 last 策略下 clutch 持有高達 71%。 */
 export const TRAIT_FLAGS = ['popular', 'composure', 'leader', 'laneking', 'macroPoint', 'tiltRisk',
-  'grinder', 'meme', 'camera', 'guardian'];
+  'grinder', 'meme', 'camera', 'guardian', 'genius', 'clutch', 'intlghost', 'underdog'];
 
 /** flag 名稱 → 解鎖定義。事件卡的 trait 解鎖都走這張表，不逐條 if。 */
 export const FLAG_TRAIT = {

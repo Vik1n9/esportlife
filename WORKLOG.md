@@ -1,4 +1,35 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-15 — S18 第二批 20 張：psych 池補洞 + crisis 出口卡，死配方全線實測過線、TRAIT_FLAGS 補登救回安全牌語意
+
+- **方向**：第一批只給 psych 1 張（說好下批補），本批主力補 psych 4 張；career 補兩張
+  crisis 卡（relegation_crisis／disband_rumor，slot 只標 `crisis`，disbandThreat 為真
+  才進候選池）——那是 §14.3「降級危機沒有敘事出口」的死路檢驗硬需求。其餘 14 張
+  平均鋪 performance 6／persona 5／career 3。進度 46 → 66。
+- ⚠ **死配方實測的測法坑**：S19a 清單六特質（genius／clutch／meta／intlghost／iron／
+  underdog）全部過 15% 死線（random 策略 33.8%／53.1%／86.3%／39.4%／31.3%／38.8%）。
+  但「clutch 持有 0/160」是假象——它被史詩配方吃掉 97/160 次，`fusedAway` 存的是
+  **中文名**（traitName），用鍵名比對永遠算 0。取得率 = 持有 ＋ fusedAway 才是真值。
+  playMatrix 的 first/last/random 三策略結果差異極大（last 全程安全牌 0~31%），
+  評估死配方要用「積極或 random」策略。
+- **補登 TRAIT_FLAGS**（eventTrigger.js 一行資料表）：第一批把四個旗標寫進 FLAG_TRAIT
+  卻漏了同檔 TRAIT_FLAGS——它是「選安全牌（traits:false）時整批不生效」的清單。漏登
+  導致**安全牌也解鎖特質**（last 策略 clutch 71%），打破「安全牌不推向極端」語意。
+  補登後 last 掉到 1.9%、random 53.1%，設計意圖恢復。
+- **批次檢驗**：id 重複 0、選項數異常空；六維覆蓋 comp 6／conf 4／drive 3／disc 2／
+  trust 5／resl 4；四池現況 performance 27／persona 24／psych 6／career 9。
+- **業餘只加 2 張**（心理／生活類，屬性增益 ±1）：nobody 星探不變式是紅線，業餘池
+  22 → 24 張，測試綠。
+- **檢查數變動**：15757 → 15651（−106）＝ fusionConsumption 資料驅動檢查（每持有
+  特質一項）隨池稀釋與安全牌修正下降；git stash 對照基線確認非恆真化（S19a 同現象）。
+- **刻意沒做**：訓練事件卡（training.js find 每層一張，擴充要改引擎，交接後續）、
+  退役事件三層（無消費端）、任務卡 25 張（單獨一批）。
+- **實測結論**：`npm test` 全綠 15651 項；events.js 46 → 66 張。
+- **狀態**：完成。SAVE_VERSION 未動。下一批建議：四池已均衡（27/24/6/9），psych 池
+  仍最小可再補；或先處理訓練事件卡擴充（改 training.js 的 find 為池抽，需先確認
+  意圖）；任務卡 25 張仍欠（單獨一批）。⚠ playoffs/msi/worlds/qualifier 標籤目前
+  零卡是引擎使然（S17：月度判定只在養成回合，賽事期標籤由未來賽事期觸發承接），
+  不要照時段標籤表補齊那些標籤。
+
 ## 2026-08-15 — S18 第一批 20 張：四張死配方觸發卡 + 16 張四池一般卡，業餘池標籤審查救回星探不變式
 
 - **方向**：S18 是內容工，每批 20 張一個 session。第一批先補 S19a 實測的死配方觸發卡
