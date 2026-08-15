@@ -66,7 +66,7 @@ export function* careerFlow(g) {
     } else if (state.stage === 'PRO') {
       yield card('info', '選手誕生',
         `${state.year} 年，<b class="hl">${state.name}</b> 被 <b class="hl">${state.team}</b> 簽下——` +
-        `19 歲，職業第一年。賽段冠軍、MSI 門票、世界賽，從今年開始都跟你有關了。`);
+        `${state.age} 歲，職業第一年。賽段冠軍、MSI 門票、世界賽，從今年開始都跟你有關了。`);
     }
   }
 
