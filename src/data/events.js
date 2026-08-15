@@ -41,8 +41,9 @@
  *           職業休息室的卡（v4.2 要修的那個 bug）。
  * - `excl`  互斥群組。同一回合的兩張卡不得同組（§12.1 第二張互斥檢查）。
  *           `solo_<id>` 表示自成一格、與任何卡都不互斥。
- * - `when`  觸發條件（條件卡），沒寫＝隨機池成員。形狀見 `engine/eventTrigger.js`
- *           的 `whenHits`。S17 的 26 張卡都還沒寫條件，S18 內容站開始填。
+ * - `when`  觸發條件（條件卡），沒寫＝隨機池成員。S20g 起是 s-expression，
+ *           與任務卡的 `trigger` 同一套 `evalCond`（`AGENTS.md` 條件語言規則）。
+ *           S20f 內容站開始填。
  */
 export const EVENT_CARDS = [
   { id: 'solo_queue', name: '排位衝分', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_solo_queue',

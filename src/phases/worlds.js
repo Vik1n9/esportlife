@@ -20,8 +20,11 @@ import { opponentStrength } from '../kernel/strength.js';
 import { worldsSeed } from '../kernel/series.js';
 import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
-import { unlockTrait } from '../engine/progression.js';
+import { grantUnique, unlockTrait } from '../engine/progression.js';
 import { BASE_TRAITS } from '../data/traits.js';
+import { UNIQUE_TRAITS } from '../data/epics.js';
+import { CHAMPION_BONUS, CHAMPION_ENCOUNTER, challengableChampion, drawChampion } from '../engine/champion.js';
+import { reigningChampion } from '../engine/ledger.js';
 import { bonus } from '../kernel/modifiers.js';
 import { card, drawRoleplay, fusionBeats, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
 import { runSeriesEvent } from './seriesEvent.js';
@@ -45,11 +48,31 @@ function seedOf(state, rule) {
   return state.splitLog.some((s) => s.finish === 'champion') ? 1 : 0;
 }
 
+/**
+ * 把今年的世界賽冠軍寫進 `titleHistory`（S20g，§16.2）。
+ *
+ * 玩家奪冠與 NPC 奪冠走同一張表——這是「NPC 與玩家共用」的定義。玩家奪冠時
+ * `isPlayer` 帶真，其餘年份抽一個合成冠軍（賽區依席位加權、隊名走 `teamNamesOf`）。
+ * 不管玩家參不參賽，只要世界賽這一站跑了，今年就必定有人奪冠（第一年除外：那時
+ * `titleHistory` 還沒任何一筆，`reigningChampion` 自然回 null）。
+ */
+function registerChampion(g, { isPlayer, team, region }) {
+  const { state, rng } = g;
+  state.titleHistory.push(drawChampion(state, rng, { isPlayer, team, region }));
+}
+
 export function* run(g) {
   const { state, rng } = g;
-  if (state.stage !== 'PRO' || state.skipSeason) return;
+  if (state.stage !== 'PRO') return;
   const league = LEAGUES[state.league];
   if (!league?.region || league.tier < 2) return;
+
+  // 復健年：玩家整季報銷、不跑賽事，但世界賽照常舉行——仍要登記今年的冠軍，
+  // 否則 `titleHistory` 會留空窗，隔年 `reigningChampion` 查到的是更早的舊冠軍
+  if (state.skipSeason) {
+    registerChampion(g, { isPlayer: false });
+    return;
+  }
 
   const rule = worldsRuleOf(state.year);
   const seed = seedOf(state, rule);
@@ -62,6 +85,7 @@ export function* run(g) {
       yield card('', '世界賽',
         `賽區只有 <b class="hl">${slots}</b> 張門票，你們排在第 ${seed} 順位——<b class="dn">今年到此為止</b>。`);
     }
+    registerChampion(g, { isPlayer: false });
     return;
   }
 
@@ -81,13 +105,18 @@ export function* run(g) {
     recordIntlSeries(state, res);
     yield card(res.win ? 'good' : 'bad', '地區資格賽',
       res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。');
-    if (!res.win) return;
+    if (!res.win) {
+      registerChampion(g, { isPlayer: false });
+      return;
+    }
   }
 
+  const defending = reigningChampion(state, 'worlds');
   yield card('gold', `世界賽 ${state.year}`,
     `你隨 <b class="hl">${state.team}</b> 以<b class="hl">第 ${seed} 種子</b>晉級 ${state.year} 世界大賽！` +
     (state.worldsSlotBonus ? '<br><span class="muted">這張門票是靠 MSI 冠軍替賽區多掙來的。</span>' : '') +
-    (seed >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : ''));
+    (seed >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : '') +
+    (defending?.isPlayer ? '<br><span class="muted">你是上一屆的冠軍——每一支隊伍都以你為目標。</span>' : ''));
   yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
   const outcome = yield* runTournament(g, rule, seed);
@@ -165,6 +194,13 @@ function* swissStage(g, seed) {
 /** 八強 → 四強 → 決賽，全部 BO5。決賽前留一個扮演路口。 */
 function* knockout(g, seed) {
   const { state, rng } = g;
+
+  // 衛冕者賽路（S20g，§16.2）：上屆世界賽冠軍佔一個淘汰賽席位。玩家走得越深越可能
+  // 碰上他（八強 < 四強 < 決賽）；碰上了就算淘汰掉他，之後的輪次不再重複標記。
+  // 玩家自己就是衛冕者／第一年沒冠軍／衛冕者的賽區今年沒席位 → 不標記
+  const champ = challengableChampion(state);
+  let champMet = false;
+
   const rounds = [
     { key: 'quarter', name: '八強', step: 6.25 },
     { key: 'semi', name: '四強', step: 9.5 },
@@ -174,13 +210,28 @@ function* knockout(g, seed) {
   for (const round of rounds) {
     if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8 });
 
+    const isChamp = champ && !champMet && rng.chance(CHAMPION_ENCOUNTER[round.key]);
+    if (isChamp) champMet = true;
+
     const res = yield* runSeriesEvent(g, {
       title: `世界賽${round.name} · BO5`,
-      bo: 5, oppRating: intlOpponent(state, round.step, rng), seed,
+      bo: 5,
+      oppRating: intlOpponent(state, round.step + (isChamp ? CHAMPION_BONUS : 0), rng),
+      seed,
       stakes: round.key === 'final' ? 'final' : 'intl', pressure: PRESSURE.intl,
-      oppNote: '對手是各賽區的一號種子。',
+      oppNote: isChamp
+        ? `對手是上屆世界冠軍 <b class="hl">${champ.team}</b>——擊敗他，你就是下一個世代的火炬手。`
+        : '對手是各賽區的一號種子。',
+      oppTag: isChamp ? 'reigningChampion' : null,
+      oppTitle: isChamp ? '衛冕者對決' : '',
     });
     recordIntlSeries(state, res);
+
+    // 世代交替：在淘汰賽贏下衛冕冠軍 → 發 `torch_bearer`（unique 階，直接授予）
+    if (isChamp && res.win && grantUnique(state, 'torch_bearer')) {
+      yield card('gold', `獨有素質覺醒：${UNIQUE_TRAITS.torch_bearer.name}`, UNIQUE_TRAITS.torch_bearer.desc);
+      yield* fusionBeats(g);
+    }
     if (!res.win) return round.key === 'final' ? 'final' : round.key;
   }
   return 'champion';
@@ -200,16 +251,22 @@ function* settle(g, outcome, seed) {
   // （`event` ＋ `finish`），顯示字串由鍵導出——查詢層不再解析文字
   recordIntlFinish(state, 'worlds', outcome);
 
+  // 冠軍登記表（S20g，§16.2）：今年世界賽的冠軍進 titleHistory。玩家奪冠寫自己，
+  // 其餘抽合成 NPC 冠軍——不管哪種，今年必定有人（第一年除外，那時表是空的）
   if (outcome === 'champion') {
+    registerChampion(g, { isPlayer: true, team: state.team, region: LEAGUES[state.league].region });
     state.worldsWins += 1;
     state.wonWorldsThisYear = true;
     state.honors.push(`${state.year} 世界賽冠軍`, `${state.year} 世界賽 FMVP`);
     if (underdog) state.honors.push(`${state.year} 下剋上奪冠`);
-  } else if (outcome === 'final') {
-    state.worldsFinals += 1;
-    state.honors.push(`${state.year} 世界賽亞軍`);
   } else {
-    state.honors.push(`${state.year} 世界賽${result.rank}`);
+    registerChampion(g, { isPlayer: false });
+    if (outcome === 'final') {
+      state.worldsFinals += 1;
+      state.honors.push(`${state.year} 世界賽亞軍`);
+    } else {
+      state.honors.push(`${state.year} 世界賽${result.rank}`);
+    }
   }
 
   // 站上這個舞台就會留下東西，走得越遠留得越多。舊版只有奪冠才給

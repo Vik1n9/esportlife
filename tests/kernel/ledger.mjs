@@ -5,7 +5,8 @@
 import { createState } from '../../src/engine/state.js';
 import { playCareer } from '../lib/harness.mjs';
 import {
-  assistsPerGame, distinctTeams, intlWinRate, longestTenure, msiBest, worldsBest,
+  assistsPerGame, distinctTeams, intlWinRate, lastFinish, longestTenure, msiBest,
+  reigningChampion, worldsBest,
 } from '../../src/engine/ledger.js';
 import { recordIntlFinish } from '../../src/phases/shared.js';
 import { FINISH_ORDER, finishOrder, NO_FINISH } from '../../src/data/formats/finishes.js';
@@ -103,6 +104,29 @@ export async function run({ check }) {
     const many = fresh();
     for (const f of ['stage', 'champion', 'quarter']) recordIntlFinish(many, 'worlds', f);
     check('worldsBest 取生涯最佳（與寫入順序無關）', worldsBest(many) === 1, `${worldsBest(many)}`);
+  }
+
+  /* ---- 上屆名次與衛冕者查詢（S20g，§16.2） ---- */
+  {
+    const s = createState({ name: 'C', role: 'MID', seed: 'champ-query' });
+    check('沒打過世界賽 lastFinish = none', lastFinish(s, 'worlds') === 'none');
+    check('沒打過世界賽 reigningChampion = null', reigningChampion(s, 'worlds') === null);
+
+    // 上屆名次導出自 milestones：最近一年的 finish 才是「上屆」
+    s.milestones = [];
+    recordIntlFinish(s, 'worlds', 'semi');
+    s.milestones[0].year = 2018;
+    recordIntlFinish(s, 'worlds', 'champion');
+    s.milestones[1].year = 2019;
+    check('lastFinish 回最近一年的名次鍵', lastFinish(s, 'worlds') === 'champion', lastFinish(s, 'worlds'));
+
+    // 衛冕者導出自 titleHistory：玩家與 NPC 同一張表
+    s.titleHistory = [
+      { year: 2018, event: 'worlds', finish: 'champion', team: 'SKT', region: 'KR', isPlayer: false },
+      { year: 2019, event: 'worlds', finish: 'champion', team: 'T1', region: 'KR', isPlayer: true },
+    ];
+    const champ = reigningChampion(s, 'worlds');
+    check('reigningChampion 回最近一年的整筆 entry', champ && champ.team === 'T1' && champ.isPlayer === true, JSON.stringify(champ));
   }
 
   /* ---- 賽段冠軍入帳（N4，S20c）：每一座賽段冠軍在生涯評分裡都有份量 ----

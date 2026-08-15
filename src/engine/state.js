@@ -31,7 +31,10 @@ import { INNATE_POOL } from '../data/innate.js';
 // 特質的存放處，由生涯條件直接授予、不進合成樹）；`milestones` 的國際賽列改帶
 // `event`／`finish` 兩個機器可讀欄位（查詢層不再解析顯示文字）；死欄位 sixCount
 // 移除——舊存檔缺 unique 與 finish 會讓查詢層回「沒打過」，故作廢
-export const SAVE_VERSION = 20;
+// v21：冠軍登記表（S20g，V4 §16.2）。新增 titleHistory（每年世界賽的冠軍，
+// 玩家與 NPC 同一張表）——衛冕者身分與 `torch_bearer` 授予靠它；舊存檔缺這欄
+// 會讓 `reigningChampion` 回「第一年、無衛冕者」，故作廢
+export const SAVE_VERSION = 21;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -249,6 +252,8 @@ export function createState({ name, role, seed }) {
      */
     intlRecord: { W: 0, L: 0 },   // 國際賽的局勝負（MSI ＋ 世界賽，小組循環與 BO5 系列都算）
     teamHistory: [],              // 職業效力紀錄 [{team, league, fromYear, toYear, firstSeasonRating, teamAvgRating}]
+    titleHistory: [],             // 冠軍登記表（S20g，§16.2）：每年世界賽的冠軍，
+                                  // 玩家與 NPC 同一張表 [{year, event, finish, team, region, isPlayer}]
     disbandCrises: 0,             // 生涯累計的降級危機／重建期次數（單季最多加 1）
     awards: 0,                    // 個人獎項數（MVP／最佳新人／單殺王／全明星）
     milestones: [],               // [{year, kind, text}] 給 §15.5 拼接用的事實流

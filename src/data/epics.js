@@ -313,9 +313,11 @@ export const UNIQUE_TRAITS = {
     effects: { intlRoll: 6 },
     sideEffects: { mental_conf: 6 }, sideEffectLevel: 'medium',
     grant: '世界賽淘汰現任世界冠軍——史實成就：世代交替的那一手',
-    // ⚠ S20g 接：遊戲裡目前沒有「現任世界冠軍」這個東西——`worlds.js` 的對手全文
-    // 是一個浮點數，且玩家沒奪冠的年份不記錄誰奪冠。要先建對手身分層與冠軍登記表，
-    // 不是把條件硬寫成一個近似值（那是把 A2 換個地方再犯一次）
+    // ⚠ S20g 接線：這條不是「前提沒建好」，是**事件即時授予**——玩家在世界賽淘汰賽
+    // 贏下標記為衛冕冠軍的那一組 BO5 當下，由 `phases/worlds.js` 直接呼叫
+    // `grantUnique` 發放，不走年度檢查，所以 `grantWhen` 維持 null。授予條件的「可求
+    // 值」落在衛冕者查詢（`reigningChampion`）與賽路判定（`challengableChampion`），
+    // 不是這張卡
     grantWhen: null,
   },
 };

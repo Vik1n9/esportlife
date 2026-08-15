@@ -12,7 +12,7 @@ import { createState } from '../../src/engine/state.js';
 import { Rng } from '../../src/core/rng.js';
 import { EVENT_CARDS } from '../../src/data/events.js';
 import {
-  FLAG_TRAIT, SECOND_EVENT_CHANCE, TRAIT_FLAGS, currentSlots, eventOdds, eventTrigger, whenHits,
+  FLAG_TRAIT, SECOND_EVENT_CHANCE, TRAIT_FLAGS, currentSlots, eventOdds, eventTrigger,
 } from '../../src/engine/eventTrigger.js';
 import { SLOTS } from '../../tools/schema.js';
 import { STAMINA_MAX } from '../../src/engine/stamina.js';
@@ -86,8 +86,8 @@ export async function run({ check, log }) {
     s.attr.tec = 80;
     const pool = [
       card('plain', {}),                                  // 隨機池成員（無條件）
-      card('low', { when: { attr: { tec: [70, 100] } } }),   // 條件命中，優先度 0
-      card('high', { when: { attr: { tec: [70, 100] } }, priority: 5 }),
+      card('low', { when: ['stat', 'tec', 'gte', 70] }),   // 條件命中，優先度 0
+      card('high', { when: ['stat', 'tec', 'gte', 70], priority: 5 }),
     ];
     const [ev] = eventTrigger(s, { month: 5 }, pool, fakeRng(false));
     check('條件命中 → 取最高優先度那張', ev.id === 'high', ev.id);
@@ -99,8 +99,8 @@ export async function run({ check, log }) {
     const s = fresh('PRO', { age: 20 });
     s.attr.dec = 80;
     const pool = [
-      card('a', { when: { attr: { dec: [70, 100] } } }),
-      card('b', { when: { attr: { dec: [70, 100] } } }),
+      card('a', { when: ['stat', 'dec', 'gte', 70] }),
+      card('b', { when: ['stat', 'dec', 'gte', 70] }),
     ];
     let seen = [];
     const rng = { pick: (arr) => { seen = arr; return arr[0]; }, chance: () => false };
@@ -114,7 +114,7 @@ export async function run({ check, log }) {
   {
     const s = fresh('PRO', { age: 30 });   // 條件卡（tec 70+）不命中
     const pool = [
-      card('cond', { when: { attr: { tec: [70, 100] } } }),
+      card('cond', { when: ['stat', 'tec', 'gte', 70] }),
       card('poolA', {}), card('poolB', {}),
     ];
     const [ev] = eventTrigger(s, { month: 5 }, pool, fakeRng(false));
@@ -127,9 +127,9 @@ export async function run({ check, log }) {
     const s = fresh('PRO', { age: 20 });
     s.attr.tec = 80;
     const pool = [
-      card('condA', { when: { attr: { tec: [70, 100] } }, excl: 'g' }),
-      card('condB', { when: { attr: { tec: [70, 100] } }, excl: 'g' }),
-      card('condC', { when: { attr: { tec: [70, 100] } }, excl: 'other' }),
+      card('condA', { when: ['stat', 'tec', 'gte', 70], excl: 'g' }),
+      card('condB', { when: ['stat', 'tec', 'gte', 70], excl: 'g' }),
+      card('condC', { when: ['stat', 'tec', 'gte', 70], excl: 'other' }),
     ];
     const [first, second] = eventTrigger(s, { month: 5 }, pool, fakeRng(true));
     check('事件一：最高優先度候選（pick 取第一張）', first.id === 'condA', first.id);
@@ -143,7 +143,7 @@ export async function run({ check, log }) {
     const s = fresh('PRO', { age: 20 });
     s.attr.tec = 80;
     const pool = [
-      card('condA', { when: { attr: { tec: [70, 100] } } }),
+      card('condA', { when: ['stat', 'tec', 'gte', 70] }),
       card('poolX', {}),
     ];
     const picks = eventTrigger(s, { month: 5 }, pool, fakeRng(false));
@@ -155,8 +155,8 @@ export async function run({ check, log }) {
     const s = fresh('PRO', { age: 20 });
     s.attr.tec = 80;
     const pool = [
-      card('condA', { when: { attr: { tec: [70, 100] } }, excl: 'g' }),
-      card('condB', { when: { attr: { tec: [70, 100] } }, excl: 'g' }),
+      card('condA', { when: ['stat', 'tec', 'gte', 70], excl: 'g' }),
+      card('condB', { when: ['stat', 'tec', 'gte', 70], excl: 'g' }),
       card('poolC', { excl: 'g' }),                     // 隨機池也同組 → 應被排除
       card('poolD', { excl: 'other' }),
     ];
@@ -209,7 +209,7 @@ export async function run({ check, log }) {
     s.attr.tec = 80;
     s.recentEvents = ['condA'];
     const pool = [
-      card('condA', { when: { attr: { tec: [70, 100] } } }),
+      card('condA', { when: ['stat', 'tec', 'gte', 70] }),
       card('poolX', {}),
     ];
     const [ev] = eventTrigger(s, { month: 5 }, pool, fakeRng(false));
@@ -250,20 +250,24 @@ export async function run({ check, log }) {
     check('解散危機 → 多掛 crisis', [...currentSlots(fresh('PRO', { disbandThreat: true }), { month: 5 })].includes('crisis'));
   }
 
-  /* ---- whenHits：條件求值的各欄位 ---- */
+  /* ---- 條件求值（S20g 起事件卡吃 evalCond）：跨階特質也當得了條件 ----
+   *
+   * 遷移前 `whenHits` 的 trait 只讀 common 階——史詩特質（如 godhand）當不了事件卡
+   * 條件（N6）。遷移後 `['has', 階, 鍵]` 四階都支援，這條路第一次走得通。
+   */
   {
     const s = fresh('PRO', { age: 20 });
-    s.attr.tec = 80;
-    s.traits.godhand = true;
-    s.mental.comp = 40;
-    check('條件全命中', whenHits(s, {
-      stage: ['PRO'], minAge: 18, maxAge: 25,
-      attr: { tec: [70, 100] }, trait: ['godhand'], mental: { comp: [30, 60] },
-    }));
-    check('屬性範圍不命中 → false', !whenHits(s, { attr: { tec: [90, 100] } }));
-    check('心理範圍不命中 → false', !whenHits(s, { mental: { comp: [60, 80] } }));
-    check('特質未持有 → false', !whenHits(s, { trait: ['nonexistent'] }));
-    check('階段不符 → false', !whenHits(s, { stage: ['AM2'] }));
+    s.epic = { godhand: true };
+    const pool = [
+      card('epicCond', { when: ['has', 'epic', 'godhand'] }),
+      card('poolX', {}),
+    ];
+    const [ev] = eventTrigger(s, { month: 5 }, pool, fakeRng(false));
+    check('事件卡條件讀得到史詩特質（跨階 has）', ev.id === 'epicCond', ev.id);
+
+    const no = fresh('PRO', { age: 20 });
+    const [ev2] = eventTrigger(no, { month: 5 }, pool, fakeRng(false));
+    check('未持有史詩特質 → 條件不命中', ev2.id === 'poolX', ev2.id);
   }
 
   /* ---- eventOdds：成敗判定 = f(體力, 心理) ---- */

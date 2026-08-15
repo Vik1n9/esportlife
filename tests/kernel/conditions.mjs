@@ -8,8 +8,9 @@
 import { createState } from '../../src/engine/state.js';
 import { recordIntlFinish } from '../../src/phases/shared.js';
 import {
-  collectMaterials, consumeMaterial, evalCond, materialHeld,
+  collectMaterials, consumeMaterial, evalCond, materialHeld, QUERIES,
 } from '../../src/engine/conditions.js';
+import { PREDICATES } from '../../tools/schema.js';
 
 export const name = '條件式求值器（S17b）';
 
@@ -116,5 +117,35 @@ export async function run({ check }) {
     let threw2 = false;
     try { evalCond(s, ['stat', 'nonexistentQuery', 'gte', 1]); } catch { threw2 = true; }
     check('未知謂詞丟錯（不靜默）', threw2);
+  }
+
+  /* ---- 兩張註冊表鍵集合相同（S20g） ----
+   *
+   * `AGENTS.md` 條件語言規則：加謂詞＝同時加進 `conditions.js` 的 `QUERIES` 與
+   * `tools/schema.js` 的 `PREDICATES`。少一邊，編輯器與引擎就脫節——`careerGames`／
+   * `awardsThisYear`（S20c 加進 QUERIES）就曾經漏在 PREDICATES 外面，本站補回並鎖死。
+   */
+  {
+    const q = Object.keys(QUERIES).sort();
+    const p = [...PREDICATES].sort();
+    const onlyInQueries = q.filter((k) => !p.includes(k));
+    const onlyInPredicates = p.filter((k) => !q.includes(k));
+    check('QUERIES 每一鍵都在 PREDICATES 內', onlyInQueries.length === 0, onlyInQueries.join('／'));
+    check('PREDICATES 每一鍵都在 QUERIES 內', onlyInPredicates.length === 0, onlyInPredicates.join('／'));
+  }
+
+  /* ---- 上屆同賽事名次與衛冕者謂詞（S20g） ---- */
+  {
+    const s = fresh({ year: 2020 });
+    check('沒打過世界賽 lastWorlds = 沒打過', evalCond(s, ['stat', 'lastWorlds', 'eq', 99]));
+    s.milestones = [];
+    recordIntlFinish(s, 'worlds', 'champion');
+    check('上一屆世界賽奪冠 → lastWorlds = 1', evalCond(s, ['stat', 'lastWorlds', 'eq', 1]));
+    check('不是衛冕者 → isReigningChampion = 0', evalCond(s, ['stat', 'isReigningChampion', 'eq', 0]));
+
+    const defending = fresh({ year: 2021 });
+    defending.titleHistory = [{ year: 2020, event: 'worlds', finish: 'champion', team: 'T1', region: 'KR', isPlayer: true }];
+    check('玩家是上屆世界冠軍 → isReigningChampion = 1',
+      evalCond(defending, ['stat', 'isReigningChampion', 'eq', 1]));
   }
 }

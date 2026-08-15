@@ -201,20 +201,29 @@ export function activeTraitNames(state) {
  *
  * 授予條件是條件式（`grantWhen`），與任務卡、事件卡同一套 `evalCond`
  * （`AGENTS.md` 條件語言規則：全專案只有一套條件語言）。`grantWhen` 為
- * null 的特質代表前提還沒建好，本站不硬造假追蹤。
+ * null 的特質代表「由事件即時授予、不走年度檢查」——S20g 的 `torch_bearer`
+ * 就是這種（世界賽淘汰衛冕冠軍當下發），不是前提沒建好。
  *
  * @returns {string[]} 這次新授予的獨有特質鍵
  */
 export function grantUniqueTraits(state) {
   const gained = [];
-  const store = TIER_STORES.unique.store(state);
-  if (!store) return gained;
   for (const [key, t] of Object.entries(UNIQUE_TRAITS)) {
-    if (store[key] || !t.grantWhen) continue;
+    if (!t.grantWhen) continue;
     if (!evalCond(state, t.grantWhen)) continue;
-    if (exclusiveHeld(state, key)) continue;
-    store[key] = true;
-    gained.push(key);
+    if (grantUnique(state, key)) gained.push(key);
   }
   return gained;
+}
+
+/**
+ * 直接授予一個獨有特質（`torch_bearer` 這種「事件當下發」的走這裡，不走年度檢查）。
+ * 已持有或與已持有特質互斥則不發。回傳是否為新授予。
+ */
+export function grantUnique(state, key) {
+  const store = TIER_STORES.unique.store(state);
+  if (!store || store[key]) return false;
+  if (exclusiveHeld(state, key)) return false;
+  store[key] = true;
+  return true;
 }

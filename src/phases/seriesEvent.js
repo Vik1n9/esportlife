@@ -54,8 +54,10 @@ const TACTICS = [
 
 /**
  * 賽前敘事的語氣。`stakes` 是這一場的份量——生死戰跟八強不能是同一個調性。
+ * `oppTitle` 是選配的對手標記（S20g：對上衛冕冠軍時由世界賽掛上），它比 `oppNote`
+ * 多一層「這個對手有身分」的強調。
  */
-function preMatchNarrative(stakes, oppNote, state) {
+function preMatchNarrative(stakes, oppNote, state, oppTitle = '') {
   const head = {
     elimination: '輸了，賽季就結束了。',
     final: '整個賽季的努力，濃縮成一個 BO。',
@@ -65,14 +67,17 @@ function preMatchNarrative(stakes, oppNote, state) {
   const crowd = (state.fame ?? 0) >= 60
     ? '現場的鏡頭不斷帶到你身上。'
     : '看台上有人舉著你的應援牌。';
-  return `${head}<br>${oppNote}${oppNote ? '<br>' : ''}${crowd}`;
+  const tag = oppTitle ? `<b class="hl">${oppTitle}</b><br>` : '';
+  return `${head}<br>${tag}${oppNote}${oppNote ? '<br>' : ''}${crowd}`;
 }
 
 /**
  * 賽後敘事。贏的人進採訪，輸的人回更衣室——語氣跟 stakes 一起變重。
+ * `oppTag === 'reigningChampion'` 且贏球時是「世代交替」的 beat（S20g）。
  */
-function postMatchNarrative(stakes, win) {
+function postMatchNarrative(stakes, win, oppTag = null) {
   if (win) {
+    if (oppTag === 'reigningChampion') return '你擊敗了衛冕冠軍——老一輩的目光，現在落在你身上。';
     if (stakes === 'elimination') return '生死戰活下來了。賽後記者會上，你說這張門票是整個賽季的交代。';
     if (stakes === 'final') return '賽後採訪，你說這是整個賽季濃縮成的一個晚上。';
     if (stakes === 'intl') return '賽後混採區擠滿了記者——國際賽的每一場勝利都有人看見。';
@@ -99,15 +104,17 @@ function postMatchNarrative(stakes, win) {
  * @param {'playoff'|'final'|'intl'|'elimination'} opts.stakes 決定敘事語氣與預設壓力係數
  * @param {number} [opts.pressure] 失誤的壓力係數，預設 `PRESSURE[stakes]`
  * @param {string} [opts.oppNote] 對手敘事（怎麼來、什麼身分），由呼叫端提供
+ * @param {string} [opts.oppTag] 對手身分標記（S20g）：`'reigningChampion'` 等，改賽後語氣
+ * @param {string} [opts.oppTitle] 對手身分的顯示標籤（如「衛冕冠軍」），進賽前敘事
  * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean, deaths:number}}
  */
 export function* runSeriesEvent(g, {
-  title, bo, oppRating, seed, stakes, pressure = PRESSURE[stakes] ?? PRESSURE.playoff, oppNote = '',
+  title, bo, oppRating, seed, stakes, pressure = PRESSURE[stakes] ?? PRESSURE.playoff, oppNote = '', oppTag = null, oppTitle = '',
 }) {
   const { state, rng } = g;
 
   /* ── 第 1 拍：賽前敘事 ── */
-  yield card('info', `${title} · 賽前`, preMatchNarrative(stakes, oppNote, state));
+  yield card('info', `${title} · 賽前`, preMatchNarrative(stakes, oppNote, state, oppTitle));
 
   /* ── 第 2 拍：備賽戰術選擇（賽事期唯一的決策點） ── */
   const pickedId = yield {
@@ -164,7 +171,7 @@ export function* runSeriesEvent(g, {
     : (stakes === 'elimination' ? { conf: -2, comp: -1 } : { conf: -1 });
   const notes = applyMental(state, mental);
   yield card(res.win ? 'good' : 'bad', `${title} · 賽後`,
-    postMatchNarrative(stakes, res.win) +
+    postMatchNarrative(stakes, res.win, oppTag) +
     (notes.length ? `<br><span class="muted">（${notes.join('、')}）</span>` : ''));
 
   return res;

@@ -100,3 +100,44 @@ export function careerGames(state) {
 export function awardsThisYear(state) {
   return state.milestones.filter((m) => m.kind === 'award' && m.year === state.year).length;
 }
+
+/* ---------------- 衛冕者與上屆名次（S20g，V4 §16.2） ---------------- */
+
+/**
+ * 上屆同賽事的名次鍵（讀 `milestones` 導出，不另存）。
+ *
+ * 使用者 PR #16 要的「NPC 與玩家共用的上屆同賽事名次變數」——S20c 把名次以
+ * 機器可讀鍵（`event`／`finish`）入帳之後，這條查詢就是一行：找里程碑裡同 event
+ * 最近一年的 finish。沒打過回 `'none'`（`FINISH_ORDER.none` 的鍵）。
+ *
+ * ⚠ 名次鍵不是序位：要當條件式數值謂詞用，先過 `finishOrder`（見 conditions.js
+ * 的 `lastWorlds`／`lastMsi`）。
+ */
+export function lastFinish(state, event) {
+  let bestYear = -1;
+  let finish = 'none';
+  for (const m of state.milestones) {
+    if (m.kind !== 'intl' || m.event !== event) continue;
+    if (m.year > bestYear) { bestYear = m.year; finish = m.finish; }
+  }
+  return finish;
+}
+
+/**
+ * 上屆同賽事的衛冕冠軍（讀 `titleHistory` 導出，不另存）。
+ *
+ * 回傳 `titleHistory` 裡該 event 最近一年的整筆 entry（`{year, event, finish,
+ * team, region, isPlayer}`）；表是空的（遊戲第一年、或該賽事從沒打過）回 null。
+ *
+ * ⚠ 這是「NPC 與玩家共用」的資料面：玩家奪冠與合成 NPC 冠軍寫進同一張表，所以
+ * 玩家奪冠的下一年，這一條查出來的就是玩家自己（`isPlayer: true`）——世界賽要用
+ * 它判斷「玩家是不是衛冕者，不能把自己標成對手」。
+ */
+export function reigningChampion(state, event) {
+  let best = null;
+  for (const e of state.titleHistory) {
+    if (e.event !== event) continue;
+    if (!best || e.year > best.year) best = e;
+  }
+  return best;
+}

@@ -30,6 +30,7 @@ import { EVENT_CARDS } from '../data/events.js';
 import { staminaOf, successMul } from './stamina.js';
 import { traitName, flag } from '../kernel/modifiers.js';
 import { skillValue } from './attributes.js';
+import { evalCond } from './conditions.js';
 
 /** 第二張事件的機率（%）。§12.1「每回合固定觸發 1 張，有機率觸發 2 張」的機率值 */
 export const SECOND_EVENT_CHANCE = 30;
@@ -70,49 +71,26 @@ function slotHits(state, phase, ev) {
   return tags.some((t) => cur.has(t));
 }
 
-/* ================= 條件求值（步驟 1，v4.2） ================= */
+/* ================= 條件求值（步驟 1，v4.2 → S20g） ================= */
 
 /**
- * 一般事件卡的觸發條件（§12.2「時代/屬性範圍/特質/心理範圍/賽季階段」）。
+ * 一般事件卡的觸發條件。
  *
- * 寫成純資料形狀而不是函式：資料層不寫 `if`（共通規則六），而且 S18a 的內容編輯器
- * 要能填表生成這些欄位。v4.3 起隱藏心理六維可以當條件（§12.3 第三條約束廢止）。
+ * S20g 起事件卡與任務卡共用**同一套條件語言**（`AGENTS.md` 條件語言規則）：
+ * `when` 欄位是 s-expression（與任務卡的 `trigger` 同一種形狀），由
+ * `conditions.js` 的 `evalCond` 求值，不再有第二個求值器。
  *
- * 欄位全部可選；`when` 欄位存在（非空物件）的卡是**條件卡**，命中才進候選池；
- * 沒有 `when` 的卡是**隨機池成員**。
+ * 舊的 `whenHits` 只支援 stage／minAge／maxAge／attr／trait／mental，且 trait 只讀
+ * common 階、語意與文件相反——遷移後這三個缺陷自動消失（`evalCond` 的
+ * `['has', 階, 鍵]` 四階都支援）。`when` 存在（非 `undefined`）的卡是**條件卡**，
+ * 命中才進候選池；沒有 `when` 的卡是**隨機池成員**。
  *
  * ```js
- * when: {
- *   stage: ['PRO'],           // 限定生涯階段（AMATEUR／AM2／PRO）
- *   minAge: 20, maxAge: 25,   // 年齡範圍
- *   attr:   { tec: [70, 100] },   // 屬性範圍（閉區間）
- *   trait:  ['godhand'],      // 持有特質（任一即可）
- *   mental: { comp: [30, 60] },   // 心理六維範圍（閉區間）
- * }
+ * when: ['and', ['stat', 'age', 'gte', 20], ['has', 'epic', 'godhand']]
  * ```
+ *
+ * ⚠ `slot`（時段過濾）不是條件——它是步驟 0 的粗篩，與 `when` 分開（§12.1）。
  */
-export function whenHits(state, when) {
-  if (!when) return false;
-  if (when.stage && !when.stage.includes(state.stage)) return false;
-  if (when.minAge != null && state.age < when.minAge) return false;
-  if (when.maxAge != null && state.age > when.maxAge) return false;
-  if (when.attr) {
-    for (const [k, [lo, hi]] of Object.entries(when.attr)) {
-      const v = state.attr[k];
-      if (v == null || v < lo || v > hi) return false;
-    }
-  }
-  if (when.trait) {
-    for (const t of when.trait) if (!state.traits[t]) return false;
-  }
-  if (when.mental) {
-    for (const [k, [lo, hi]] of Object.entries(when.mental)) {
-      const v = state.mental?.[k];
-      if (v == null || v < lo || v > hi) return false;
-    }
-  }
-  return true;
-}
 
 /* ================= 隨機池與防重 ================= */
 
@@ -228,7 +206,7 @@ export function eventTrigger(state, phase, pool, rng) {
   const eligible = cards.filter((ev) => slotHits(state, phase, ev));
 
   /* 步驟 1：收集條件命中的卡 */
-  const condHits = eligible.filter((ev) => ev.when && whenHits(state, ev.when));
+  const condHits = eligible.filter((ev) => ev.when && evalCond(state, ev.when));
 
   /* 步驟 2：取最高優先度為事件一；候選空（步驟 4）→ 隨機池 */
   const first = condHits.length

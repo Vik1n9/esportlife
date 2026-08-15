@@ -1,4 +1,39 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-16 — S20g 賽事成績帳本與衛冕者：對手表上姓名，衛冕者終於可以被淘汰
+
+- **方向**：`torch_bearer`（火炬手）的授予條件「世界賽淘汰現任世界冠軍」接不上——
+  遊戲裡對手是一顆浮點數（無隊名／賽區／id），玩家沒奪冠的年份也不記錄誰奪冠，
+  全 `src/` 沒有 NPC 冠軍登記表。本站插進第一個**對手身分**概念，並順手執行
+  PR #16 拍板的「統一條件語言」。
+- **冠軍登記表 `state.titleHistory`**：玩家與 NPC 同一張表（`{year, event, finish,
+  team, region, isPlayer}`）。玩家奪冠寫自己、其餘抽合成 NPC 冠軍（賽區依世界賽
+  席位加權、隊名走 `teamNamesOf` 自動吃時代改名，零新內容）。查詢層
+  `lastFinish`／`reigningChampion` 從 `milestones`／`titleHistory` 導出，不另存。
+- **衛冕者賽路**：上屆冠軍佔一個淘汰賽席位，玩家與他相遇機率八強 15%／四強 30%／
+  決賽 60%（強隊後段相遇），衛冕者比同輪一般對手強 **+4 點**。淘汰賽贏下 → 發
+  `torch_bearer`（`grantUnique` 直接授予，非 `unlockTrait`、非年度檢查）。玩家自己
+  是衛冕者／第一年／衛冕者的賽區今年沒席位 → 不標記（`challengableChampion`）。
+- **統一條件語言**：`whenHits` 真刪除，事件卡 `when` 改吃 `evalCond`（s-expression，
+  與任務卡 `trigger` 同形狀）。舊 `whenHits` 的 `attr` 範圍條件補成六屬性謂詞
+  （`['stat','tec','gte',70]`），`stage` 由步驟 0 的 slot 過濾承接。⚠ 遷移前事件卡
+  「只讀 common 階、史詩特質當不了條件」的 N6 缺陷自動消失。
+- ⚠ **先紅後綠**：補的「QUERIES 與 PREDICATES 鍵集合相同」測試修前是紅的——
+  S20c 把 `careerGames`／`awardsThisYear` 加進 `QUERIES` 卻漏在 `PREDICATES`（跟
+  unique 階脫節同一種失敗模式），本站補回並鎖死。紅燈：`QUERIES 每一鍵都在
+  PREDICATES 內 — awardsThisYear`。
+- ⚠ **復健年空窗**：`skipSeason` 年原本跳過世界賽、`titleHistory` 留空窗。修成復健年
+  照樣登記 NPC 冠軍（世界賽照常舉行，只是玩家沒參賽）——否則隔年查到的是更早的舊冠軍。
+- **實測結論**（200 段生涯 A/B，同種子同策略）：`torch_bearer` 取得 8/200 = **4.0%**
+  （可達）；世界冠軍人均 0.055 → **0.035**（11→7 座，−36%），交給 **S20d** 校準再確認。
+  ⚠ `strength.js` 記的 0.128 是 S11/S12 年代，現在「衛冕者上路前」基準是 0.055。
+  登記表逐年無空窗（1747 接點空窗 0）。
+- **刻意沒做**：沒把對手改成完整 NPC 實體（S28）；沒動 MSI 衛冕邏輯（`event` 欄位
+  已容納）；沒動卡片資料檔文本（S20h）；沒調任何門檻。
+- **狀態**：完成。`npm test` **19093 項全綠**（S20c 收尾 18932，+161）。
+  `SAVE_VERSION` 20 → 21（新增 `titleHistory`）。新檔 `engine/champion.js`、
+  新測試 `tests/phases/worlds.mjs`（244 項含整段世界賽驅動驗 torch_bearer 可達）。
+  規格 §16.2 增訂 16.2.1 衛冕者機制。
+
 ## 2026-08-15 — S20c 交接鏈修復：名次以鍵入帳，三份手抄本收成一張表
 
 - **方向**：`20b` 列的 A3 不是孤例。三個 bug 形狀相同——**某張查表的鍵，必須與

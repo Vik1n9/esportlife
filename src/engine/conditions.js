@@ -25,14 +25,16 @@
 import { TIER_STORES } from '../kernel/modifiers.js';
 import {
   assistsPerGame, awardsThisYear, careerGames, distinctTeams, intlSemis, intlWinRate,
-  longestTenure, msiBest, worldsBest,
+  lastFinish, longestTenure, msiBest, reigningChampion, worldsBest,
 } from './ledger.js';
+import { finishOrder } from '../data/formats/finishes.js';
 import { careerScore } from './career.js';
 import { coachRating } from './attributes.js';
 import { fameTier } from '../data/reputation.js';
 import { eraOf } from '../data/eras.js';
 import { LEAGUES } from '../data/leagues.js';
 import { MENTAL_KEYS } from '../data/mental.js';
+import { ATTRS } from '../data/attributes.js';
 
 /**
  * 條件式的階名 → state 的存放處。**直接讀 `TIER_STORES`**，不再自己抄一份
@@ -48,8 +50,12 @@ const storeOf = (tier) => {
  * 謂詞表：名字 → 純查詢函式。加新謂詞＝加一行，不動求值器。
  * 除心智六維外全部是「生涯軌跡帳本或既有引擎的查詢」——條件式永遠不直接讀
  * `state` 的原始欄位（§12.3 約束 2）。
+ *
+ * ⚠ 鍵集合必須與 `tools/schema.js` 的 `PREDICATES` 相同（`AGENTS.md` 條件語言
+ * 規則：加謂詞＝加一行，但要同時加進兩張註冊表）。`tests/kernel/conditions.mjs`
+ * 有斷言在守這件事——少一邊，編輯器與引擎就脫節。
  */
-const QUERIES = {
+export const QUERIES = {
   age: (s) => s.age,
   proYears: (s) => s.proYears,
   splitTitles: (s) => s.splitTitles,
@@ -67,6 +73,9 @@ const QUERIES = {
   intlSemis,         // 底線門檻：站上過國際賽四強以上（0/1）
   careerGames,       // S20c：生涯累計出賽場次（獨有特質「千錘百鍊」的門檻）
   awardsThisYear,    // S20c：今年拿到幾個個人獎項（獨有特質「老來俏」的門檻）
+  lastWorlds: (s) => finishOrder(lastFinish(s, 'worlds')),   // S20g：上屆世界賽名次序位（99 = 沒打過）
+  lastMsi: (s) => finishOrder(lastFinish(s, 'msi')),         // S20g：上屆 MSI 名次序位
+  isReigningChampion: (s) => (reigningChampion(s, 'worlds')?.isPlayer ? 1 : 0),  // S20g：上屆世界賽冠軍是不是玩家
   fameLevel: (s) => {
     const t = fameTier(s.fame ?? 0);
     return ['沒沒無聞', '小有耳聞', '有點知名度', '圈內名人', '全民認識'].indexOf(t);
@@ -75,6 +84,9 @@ const QUERIES = {
   region: (s) => LEAGUES[s.league]?.region ?? 'amateur',
   role: (s) => s.role,
   ...Object.fromEntries(MENTAL_KEYS.map((k) => [k, (s) => s.mental?.[k] ?? 50])),
+  // 六大屬性（S20g 遷移補上：舊 `whenHits` 的 `attr` 範圍條件）。缺欄位回 0，
+  // 與心理六維同一套「缺欄位不炸」的寫法——舊存檔缺 attr 鍵時條件式照樣可求值
+  ...Object.fromEntries(ATTRS.map((k) => [k, (s) => s.attr?.[k] ?? 0])),
 };
 
 const OPS = {

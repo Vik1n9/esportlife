@@ -146,8 +146,10 @@ export const PREDICATES = [
   'age', 'proYears', 'splitTitles', 'awards', 'disbandCrises', 'fame',
   'careerScore', 'coachRating', 'intlWinRate', 'assistsPerGame',
   'longestTenure', 'distinctTeams', 'worldsBest', 'msiBest', 'intlSemis',
+  'careerGames', 'awardsThisYear', 'lastWorlds', 'lastMsi', 'isReigningChampion',
   'fameLevel', 'era', 'region', 'role',
   ...MENTAL_KEYS,
+  ...ATTRS,
 ];
 
 /** 心理維度鍵（隱藏六維，v4.3 起條件式可讀） */
@@ -214,7 +216,7 @@ export const EFFECT_OP_LABELS = {
  *   id（唯一鍵）
  *   cond（條件式：驗語法與謂詞名，不驗形狀）
  *   effect（效果物件：四種寫法＋窗口）
- *   when（事件卡觸發條件：stage/minAge/maxAge/attr/trait/mental）
+ *   when（特質影響：時段/月份/年份條件）
  *   outcome（事件卡結果：text＋attr＋flags）
  *   option（事件卡選項：label/odds/gain/loss/traits/on/flags）
  *   list（子陣列，min/max 控選項數 2~4）
@@ -275,7 +277,7 @@ export const SCHEMAS = {
       { key: 'sub', label: '子標籤', type: 'enum', options: SUB_TAGS, labels: SUB_LABELS },
       { key: 'slot', label: '時段標籤', type: 'multienum', options: SLOTS, labels: SLOT_LABELS },
       { key: 'excl', label: '互斥群組', type: 'text', hint: '同組卡互相排斥；solo_<id> 表示自成一格（必填，不填引擎會出錯）' },
-      { key: 'when', label: '觸發條件', type: 'when', optional: true },
+      { key: 'when', label: '觸發條件（條件式）', type: 'cond', optional: true },
       { key: 'priority', label: '優先度', type: 'number', min: 0, optional: true },
       { key: 'prompt', label: '敘事文本', type: 'textarea', required: true },
       { key: 'options', label: '選項（2~4 個）', type: 'list', min: 2, max: 4,
