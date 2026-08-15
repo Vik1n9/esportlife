@@ -60,7 +60,7 @@ export function* run(g, phase) {
 
   // 決策點不是「去不去」，是「在鏡頭前當什麼樣的人」。
   // 國際賽的關注度遠高於聯賽，同一句話的後座力也大得多
-  yield* drawRoleplay(g, 'intl', { amp: 1.6 });
+  yield* drawRoleplay(g, 'intl', { amp: 1.6, event: 'msi' });
 
   const outcome = rule.format === 'DOUBLE_ELIM'
     ? yield* doubleElim(g)
@@ -126,7 +126,7 @@ function* knockout(g, rounds) {
   for (let i = 0; i < rounds.length; i++) {
     const name = rounds[i];
     const isFinal = i === rounds.length - 1;
-    if (isFinal) yield* drawRoleplay(g, 'intl', { amp: 1.6 });
+    if (isFinal) yield* drawRoleplay(g, 'intl', { amp: 1.6, event: 'msi' });
 
     const res = yield* runSeriesEvent(g, {
       title: `MSI ${name} · BO5`,

@@ -280,6 +280,8 @@ export const SCHEMAS = {
       { key: 'when', label: '觸發條件（條件式）', type: 'cond', optional: true },
       { key: 'priority', label: '優先度', type: 'number', min: 0, optional: true },
       { key: 'prompt', label: '敘事文本', type: 'textarea', required: true },
+      { key: 'promptAlt', label: '降級文本', type: 'textarea', optional: true,
+        hint: '選配。prompt 用了 {lastTitle}／{oppTitle} 卻缺變數時改填這版；缺了引擎會直接報錯（S20h）' },
       { key: 'options', label: '選項（2~4 個）', type: 'list', min: 2, max: 4,
         item: {
           fields: [

@@ -15,6 +15,7 @@ import { activeTraitNames } from '../engine/progression.js';
 import { TIER_DISPLAY_ORDER, TIER_STORES } from '../kernel/modifiers.js';
 import { el, escapeHtml } from './dom.js';
 import { renderLoose } from './log.js';
+import { fill } from '../kernel/text.js';
 
 export function renderSummary({ state, rng, tier, seed, appVersion }) {
   // 階與樣式讀 TIER_STORES（S20c 單一來源），加一階不用改這裡
@@ -63,7 +64,7 @@ export function renderSummary({ state, rng, tier, seed, appVersion }) {
 }
 
 function fanQuotes(state, rng, tier) {
-  const picks = rng.sample(FAN_QUOTES[tier], 3).map((q) => q.replace(/\{n\}/g, state.name));
+  const picks = rng.sample(FAN_QUOTES[tier], 3).map((q) => fill(q, { n: escapeHtml(state.name) }));
   // TODO(S21a)：不老傳奇的長壽敘事——S19a 已把它重定義為生命週期窗口（衰退極慢、
   // 巔峰延後），「30 歲還能在世界賽奪冠」的粉絲語等 S21a 依新敘事放回來
   if (state.worldsWins > 0) picks.push('世界賽奪冠那一夜，全台灣都沒睡。謝謝你');

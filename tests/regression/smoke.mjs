@@ -16,7 +16,9 @@ export const order = 1;
 
 export async function run({ check, log, shared }) {
   const seeds = Array.from({ length: 16 }, (_, i) => `seed-${i}`);
-  const runs = playMatrix({ seeds, roles: ROLES });
+  // collectCards：S20h 起冒煙樣本順帶收下每一張卡片的 body，後續 suite 掃
+  // 「玩家看得到的文字有沒有未填的佔位符」不用再重跑 160 段
+  const runs = playMatrix({ seeds, roles: ROLES, collectCards: true });
   shared.runs = runs;
   shared.seeds = seeds;
 

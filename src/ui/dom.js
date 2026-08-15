@@ -23,7 +23,5 @@ export function scrollToBottom() {
   requestAnimationFrame(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
 }
 
-/** 使用者輸入一律經過這裡，避免 ID 內含 HTML 造成注入 */
-export function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-}
+/** 使用者輸入一律經過這裡，避免 ID 內含 HTML 造成注入（實作在 kernel/text.js，S20h 共用） */
+export { escapeHtml } from '../kernel/text.js';

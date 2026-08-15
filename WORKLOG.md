@@ -1,5 +1,32 @@
 # WORKLOG — 電競人生（esportlife）
-## 2026-08-16 — S20g 賽事成績帳本與衛冕者：對手表上姓名，衛冕者終於可以被淘汰
+## 2026-08-16 — S20h 卡片文本變數：採訪卡終於叫得出玩家頭銜，降級路徑擋住半成品
+
+- **方向**：使用者在 PR #16 提出「讓隔屆的事件抓上屆成績改文本」，實測卡片文本
+  當時**完全不能讀狀態**——`src/data/*.js` 的 `prompt`／`text` 全是字面字串，原樣進
+  `renderCard` 的 innerHTML，今天想讓文本隨狀態變只能整張卡重寫（組合爆炸）。
+  而 `{變數}` 語法其實早已存在兩份（`biography.js` 的 `fill()`、`summary.js:66` 的
+  `{n}`），`FAN_QUOTES` 資料檔都在用。本站把它收斂成一份共用，擴到卡片。
+- **共用 `fill()` 落地**：`kernel/text.js`（含 `templateVars` 與 `escapeHtml`）。
+  傳記、卡片、粉絲留言共用同一份，缺變數一律丟例外。`escapeHtml` 從 `ui/dom.js`
+  移到 kernel 並 re-export（卡片層也要用，phases 不能 import ui）。
+- **降級路徑（本站真正的難點）**：`{lastTitle}`／`{oppTitle}` 可能缺——變數**不可空**，
+  否則玩家某天讀到「作為 ，你有什麼話想說？」。走 biography 既有的備用模板形狀：
+  卡片的 `prompt` 缺變數時引擎改填 `promptAlt` 降級版，缺降級版直接丟例外。
+  MARKER 掃描從傳記擴到**所有卡片 body**（新 suite `cardText.mjs`），160 段零命中。
+- **變數集定案**：`{name}`（填空點轉義，`renderCard` 不轉義）／`{team}`／`{year}`／
+  `{age}` 恆有；`{lastTitle}` 只給四強以上（「作為 MSI 止步」不成句子）；`{oppTitle}`
+  有對手身分標記才給。`FINISH_LABELS` 定名為 `INTL_TEXT` 的別名（S20g 承諾卻漏建的
+  顯示標籤表）。
+- **採訪卡改寫**：presser 3 張＋intl 5 張用變數吃掉狀態變體——`presser_callout` 對上
+  衛冕者時指名、`presser_pressure`／intl 採訪卡「作為〈上屆名次〉」。160 段實測：
+  有頭銜版 **84 次**、無頭銜版 **296 次**，兩種狀態都印得出。
+- **未一起處理**：`{oppTitle}` 目前沒有扮演卡呼叫端真正傳（那輪對手是不是衛冕者是
+  `runSeriesEvent` 才知道，扮演卡在它之前抽）——機制與測試都通了，等 S28 真 NPC
+  戰隊池帶對手身分進來。`drawEvent` 用無 event 的 `cardVars`，事件卡要 `{lastTitle}`
+  需呼叫端自己帶。
+- **狀態**：完成。`npm test` **19105 項全綠**（S20g 收尾 19093，+12）。`SAVE_VERSION`
+  未動（不進存檔）。規格 **v4.4 → v4.5**（§12.2 增訂文本變數）。
+
 
 - **方向**：`torch_bearer`（火炬手）的授予條件「世界賽淘汰現任世界冠軍」接不上——
   遊戲裡對手是一顆浮點數（無隊名／賽區／id），玩家沒奪冠的年份也不記錄誰奪冠，

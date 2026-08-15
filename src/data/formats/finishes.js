@@ -74,6 +74,13 @@ const INTL_TEXT = {
   },
 };
 
+/**
+ * 顯示標籤表（S20h 定名）。**同一份物件的別名，不是第二份手抄本**——WORKLOG
+ * S20g 的命名定案叫它 `FINISH_LABELS`，消費端（卡片文本的 `{lastTitle}`）用它，
+ * 但真正的主體仍是 `INTL_TEXT`，改字串只動一處。
+ */
+export const FINISH_LABELS = INTL_TEXT;
+
 /** 國際賽的顯示名（傳記拼接用：『2019 年的{event}』） */
 export const INTL_EVENT_NAMES = { worlds: '世界賽', msi: 'MSI' };
 

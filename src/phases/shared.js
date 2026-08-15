@@ -9,17 +9,73 @@ import { ATTR_NAMES } from '../data/attributes.js';
 import { EVENT_CARDS } from '../data/events.js';
 import { CROWD_REACTIONS, ROLEPLAY_CARDS } from '../data/roleplay.js';
 import { QUEST_CARDS } from '../data/quests.js';
-import { intlMilestoneText } from '../data/formats/finishes.js';
+import { FINISH_LABELS, intlMilestoneText } from '../data/formats/finishes.js';
 import { BASE_TRAITS } from '../data/traits.js';
 import { adjustAttr } from '../engine/attributes.js';
 import { applyMental } from '../engine/mental.js';
 import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progression.js';
 import { settleQuests } from '../engine/quests.js';
 import { STAMINA_MAX } from '../engine/stamina.js';
+import { lastFinish } from '../engine/ledger.js';
 import { eventOdds, FLAG_TRAIT, TRAIT_FLAGS } from '../engine/eventTrigger.js';
 import { flag, lookupTrait, traitTier } from '../kernel/modifiers.js';
+import { escapeHtml, fill, templateVars } from '../kernel/text.js';
 
 export const card = (tone, title, body) => ({ type: 'card', tone, title, body });
+
+/* ================= 卡片文本變數（S20h，V4 §12.2 增訂） ================= */
+
+/**
+ * 卡片文本的變數集。集中解析——傳記有「引擎逐點供給變數」的呼叫點，卡片沒有，
+ * 所以在這裡統一從 state 導出。
+ *
+ * 可用變數（V4 §12.2）：
+ *   `{name}`／`{team}`／`{year}`／`{age}`　恆有
+ *   `{lastTitle}`　上屆同賽事名次的顯示字串（有 event 且上屆有打過才給）
+ *   `{oppTitle}`　對手的上屆身分（呼叫端有標記才給）
+ *
+ * ⚠ `{name}` 一定要在填空點轉義：`renderCard`（ui/log.js）走 `innerHTML` 且不轉義，
+ *   玩家自填的名字直接進 DOM 就是注入點。
+ *
+ * @param {object} state
+ * @param {{event?:string, oppTitle?:string|null}} [opts]
+ */
+export function cardVars(state, { event = null, oppTitle = null } = {}) {
+  const vars = {
+    name: escapeHtml(state.name),
+    team: state.team ?? '',
+    year: state.year,
+    age: state.age,
+  };
+  if (event) {
+    const finish = lastFinish(state, event);
+    // lastTitle 只給「站上四強以上」的名次（序位 ≤ 3）：採訪卡語境是「作為〈衛冕者〉／
+    // 〈四強〉」，「作為 MSI 止步」不成句子——其餘名次讓採訪卡走降級版。
+    if (finish !== 'none' && ['champion', 'final', 'semi'].includes(finish)) {
+      vars.lastTitle = FINISH_LABELS[event]?.[finish];
+    }
+  }
+  if (oppTitle) vars.oppTitle = oppTitle;
+  return vars;
+}
+
+/**
+ * 一張卡的文本：主模板缺變數 → 降級兄弟模板 → 都沒有就丟例外。
+ *
+ * 降級路徑的規則（V4 §12.2）：變數**不可空**——缺變數走備用模板，不是空字串。
+ * 寫卡的人必須為會缺變數的 prompt 準備降級版，否則玩家某天會讀到
+ * 「作為 ，你有什麼話想說？」。`MARKER` 測試（160 段生涯）掃不到未填的佔位符，
+ * 就是靠這條把缺口擋在寫卡階段。
+ */
+export function cardText(card, vars) {
+  const canFill = (template) => [...templateVars(template)].every((k) => vars[k] != null);
+  if (canFill(card.prompt)) return fill(card.prompt, vars);
+  if (card.promptAlt != null) {
+    if (!canFill(card.promptAlt)) throw new Error(`卡片「${card.id}」的降級模板也缺變數：${card.promptAlt}`);
+    return fill(card.promptAlt, vars);
+  }
+  throw new Error(`卡片「${card.id}」缺變數且沒有降級模板：${card.prompt}`);
+}
 
 /** 縮放事件結果的數值：倍率再小也不會把有效果的一項縮成 0 */
 function scaleAmount(v, mult) {
@@ -47,7 +103,7 @@ function optionNote(state, opt) {
 export function* drawEvent(g, ev, { fromChain = false } = {}) {
   const { state, rng } = g;
 
-  yield card('', ev.name, ev.prompt);
+  yield card('', ev.name, cardText(ev, cardVars(state)));
 
   const pickedId = yield {
     type: 'choice',
@@ -175,9 +231,12 @@ const PERSONA_RULES = [
  * 由知名度放大：越紅的人，同一句話被放得越大。
  *
  * @param {'presser'|'media'|'locker'|'coach'|'daily'} when
- * @param {{amp?:number}} [opts] `amp` 為外界反應的額外放大倍率（國際賽用）
+ * @param {{amp?:number, event?:string, oppTitle?:string}} [opts]
+ *   `amp` 為外界反應的額外放大倍率（國際賽用）；
+ *   `event`／`oppTitle` 為卡片文本變數（S20h）——`event` 決定 `{lastTitle}` 讀哪個
+ *   賽事（世界賽 `'worlds'`／MSI `'msi'`），`oppTitle` 在有對手身分標記時才給。
  */
-export function* drawRoleplay(g, when, { amp: extraAmp = 1 } = {}) {
+export function* drawRoleplay(g, when, { amp: extraAmp = 1, event = null, oppTitle = null } = {}) {
   const { state, rng } = g;
   const pool = ROLEPLAY_CARDS.filter((c) => c.when === when && (!c.need || c.need(state)));
   if (!pool.length) return;
@@ -187,7 +246,8 @@ export function* drawRoleplay(g, when, { amp: extraAmp = 1 } = {}) {
   let roll = rng.next() * total;
   const ev = pool.find((c) => (roll -= c.weight) < 0) || pool[0];
 
-  yield card('', ev.name, ev.prompt);
+  const vars = cardVars(state, { event, oppTitle });
+  yield card('', ev.name, cardText(ev, vars));
 
   const pickedId = yield {
     type: 'choice',

@@ -20,14 +20,7 @@ import { ROLE_NAMES } from '../data/skills.js';
 import { activeTraitNames } from './progression.js';
 import { distinctTeams } from './ledger.js';
 import { finishOrder, INTL_EVENT_NAMES, NO_FINISH } from '../data/formats/finishes.js';
-
-/** 模板填空。缺變數直接丟例外——測試跑 160 段生涯會把它抓出來，寧可大聲壞掉 */
-function fill(template, vars) {
-  return template.replace(/\{(\w+)\}/g, (_, k) => {
-    if (vars[k] == null) throw new Error(`傳記模板缺變數「${k}」：${template}`);
-    return String(vars[k]);
-  });
-}
+import { fill } from '../kernel/text.js';
 
 /** 特質清單的引用寫法：『「A」「B」』 */
 const joiner = (list) => list.map((x) => `「${x}」`).join('、');

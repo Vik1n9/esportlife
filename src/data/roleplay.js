@@ -22,6 +22,12 @@
  * - `need`   選填的出現條件（如「默契低於某值才會出現的衝突卡」）。
  * - `options[].mental` 直接套用的心理／聲量變動。
  *
+ * 文本變數（S20h，V4 §12.2）：`prompt` 可以帶 `{變數}` 佔位符，由引擎的
+ * `cardVars` 在抽卡當下填空——採訪卡從「一張卡一種狀態」變成「一張卡吃掉多個
+ * 狀態變體」。**會缺的變數（`{lastTitle}`／`{oppTitle}`）必須同時給 `promptAlt`
+ * 降級版**，缺變數時引擎改填降級版，絕不印出半成品（`AGENTS.md` 條件語言規則
+ * 與 `tests/kernel/biography.mjs` 的 MARKER 檢查都守住這條）。
+ *
  * ⚠ S20 重新對映後的完整對照（V4 §9.4 定案，S12 先做機械對映、S20 補完）：
  *
  * - `nerve`→`comp` 抗壓：同一件事，換成競技語彙。
@@ -45,7 +51,9 @@ export const ROLEPLAY_CARDS = [
   /* ---------------- 賽前放話 ---------------- */
   {
     id: 'presser_callout', name: '賽前記者會', when: 'presser', weight: 3,
-    prompt: '記者把麥克風遞到你面前：「這輪對上他們，有信心嗎？」台下鏡頭全開著。',
+    // 對上衛冕者時（S20g 標記）指名，否則講「他們」——匿名是刻意留給沒有身分的對手
+    prompt: '記者把麥克風遞到你面前：「這輪對上{oppTitle}，有信心嗎？」台下鏡頭全開著。',
+    promptAlt: '記者把麥克風遞到你面前：「這輪對上他們，有信心嗎？」台下鏡頭全開著。',
     options: [
       { id: 'callout', label: '「他們守不住我這條線。」', tone: 'bold',
         mental: { conf: 5, fame: 7, comp: 3, trust: -2 } },
@@ -57,7 +65,9 @@ export const ROLEPLAY_CARDS = [
   },
   {
     id: 'presser_pressure', name: '賽前壓力', when: 'presser', weight: 3,
-    prompt: '論壇已經在賭你們幾比零被掃。走進場館前，隊友都在看你的反應。',
+    // 上屆國際賽有好成績時，頭銜會變成被攻擊的靶子
+    prompt: '作為{lastTitle}，論壇已經在賭你們幾比零被掃。走進場館前，隊友都在看你的反應。',
+    promptAlt: '論壇已經在賭你們幾比零被掃。走進場館前，隊友都在看你的反應。',
     options: [
       { id: 'fire', label: '把那串留言截圖貼進隊內群組', tone: 'bold',
         mental: { comp: 6, conf: 4, trust: 3, fame: 2 } },
@@ -70,7 +80,8 @@ export const ROLEPLAY_CARDS = [
   {
     id: 'presser_underdog', name: '沒人看好的一輪', when: 'presser', weight: 3,
     need: (s) => (s.seedRank || 1) >= 3,
-    prompt: '種子序排在後段，賽前分析清一色不看好你們。主持人問：「你們憑什麼？」',
+    prompt: '種子序排在後段，賽前分析清一色不看好你們。主持人問：「{team}憑什麼？」',
+    promptAlt: '種子序排在後段，賽前分析清一色不看好你們。主持人問：「你們憑什麼？」',
     options: [
       { id: 'declare', label: '「等我們捧盃的時候再問一次。」', tone: 'bold',
         mental: { comp: 8, conf: 5, fame: 6, trust: 4 } },
@@ -84,7 +95,9 @@ export const ROLEPLAY_CARDS = [
   /* ---------------- 國際賽（MSI／世界賽） ---------------- */
   {
     id: 'intl_foreign_press', name: '外媒混合採訪區', when: 'intl', weight: 3,
-    prompt: '走出賽場，六七支麥克風同時遞過來，一半是聽不懂的語言。'
+    prompt: '作為{lastTitle}走出賽場，六七支麥克風同時遞過來，一半是聽不懂的語言。'
+      + '翻譯還沒到，有人已經用英文問了第一個問題。',
+    promptAlt: '走出賽場，六七支麥克風同時遞過來，一半是聽不懂的語言。'
       + '翻譯還沒到，有人已經用英文問了第一個問題。',
     options: [
       { id: 'english', label: '直接用破英文回，講完自己笑出來', tone: 'bold',
@@ -97,7 +110,9 @@ export const ROLEPLAY_CARDS = [
   },
   {
     id: 'intl_legend', name: '對上傳說中的那支隊伍', when: 'intl', weight: 3,
-    prompt: '抽到的對手是你高中在網咖熬夜看他們比賽的那支隊。'
+    prompt: '作為{lastTitle}，抽到的對手是你高中在網咖熬夜看他們比賽的那支隊。'
+      + '記者問：「小時候看著他們長大，現在要打他們了，什麼感覺？」',
+    promptAlt: '抽到的對手是你高中在網咖熬夜看他們比賽的那支隊。'
       + '記者問：「小時候看著他們長大，現在要打他們了，什麼感覺？」',
     options: [
       { id: 'hunt', label: '「偶像是拿來超越的。」', tone: 'bold',
@@ -110,7 +125,9 @@ export const ROLEPLAY_CARDS = [
   },
   {
     id: 'intl_region_hope', name: '賽區的凌晨四點', when: 'intl', weight: 3,
-    prompt: '這一輪開打的時間，家鄉是凌晨四點。'
+    prompt: '作為{lastTitle}，這一輪開打的時間，家鄉是凌晨四點。'
+      + '社群上滿滿都是「撐住」，有人請了假只為了看這一場。',
+    promptAlt: '這一輪開打的時間，家鄉是凌晨四點。'
       + '社群上滿滿都是「撐住」，有人請了假只為了看這一場。',
     options: [
       { id: 'carry', label: '「這場我來扛。」對著鏡頭比了個手勢', tone: 'bold',
@@ -123,7 +140,9 @@ export const ROLEPLAY_CARDS = [
   },
   {
     id: 'intl_group_draw', name: '分組抽籤結果出爐', when: 'intl', weight: 2,
-    prompt: '抽籤結束，你們被分到公認的死亡之組。'
+    prompt: '抽籤結束，{team}被分到公認的死亡之組。'
+      + '轉播鏡頭掃過來的時候，隊友的表情已經先被截圖了。',
+    promptAlt: '抽籤結束，你們被分到公認的死亡之組。'
       + '轉播鏡頭掃過來的時候，隊友的表情已經先被截圖了。',
     options: [
       { id: 'welcome', label: '「反正遲早要碰，早點打完早收工。」', tone: 'bold',
@@ -137,7 +156,9 @@ export const ROLEPLAY_CARDS = [
   {
     id: 'intl_after_upset', name: '爆冷之後', when: 'intl', weight: 2,
     need: (s) => (s.seedRank || 1) >= 3,
-    prompt: '你們剛把一支所有人都看好的隊伍送回家。'
+    prompt: '作為{lastTitle}，你們剛把一支所有人都看好的隊伍送回家。'
+      + '國際媒體全湧過來，這是你職業生涯最多鏡頭對著你的一刻。',
+    promptAlt: '你們剛把一支所有人都看好的隊伍送回家。'
       + '國際媒體全湧過來，這是你職業生涯最多鏡頭對著你的一刻。',
     options: [
       { id: 'declare', label: '「我早就說過我們不是來陪跑的。」', tone: 'bold',

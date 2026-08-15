@@ -214,7 +214,7 @@ export function allocate(state, beat, style = 'focus', cursor = { i: 0 }) {
  * 人生種子，所以同一個天賦每次過的人生都不同；測試則明確指定 `lifeSeed`，這樣回歸
  * 比對才有意義。`lifeSeed` 不給時預設等於出生種子，讓大多數測試只要寫一個種子。
  */
-export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strategy = 'first', style = 'focus' }) {
+export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strategy = 'first', style = 'focus', collectCards = false }) {
   const state = createState({ name, role, seed });
   const rng = new Rng(`${lifeSeed}:life`);
   const decisionRng = new Rng(`${lifeSeed}:decisions`);
@@ -224,6 +224,7 @@ export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strateg
   let input;
   let beats = 0;
   const beatTypes = {};
+  const cards = [];
   for (;;) {
     const { value, done } = flow.next(input);
     input = undefined;
@@ -233,8 +234,9 @@ export function playCareer({ seed, lifeSeed = seed, role, name = 'TEST', strateg
 
     if (value.type === 'choice') input = decide(value, strategy, decisionRng, state, style, cursor);
     else if (value.type === 'alloc') allocate(state, value, style, cursor);
+    else if (value.type === 'card' && collectCards) cards.push(value);
   }
-  return { state, beats, beatTypes, rng };
+  return { state, beats, beatTypes, rng, cards };
 }
 
 /** 一個 choice 是不是「有隊伍要簽你」——比對 option id，不依賴文案 */
@@ -267,13 +269,13 @@ export function driveUntil(state, rng, { stop, answer, maxBeats = 3000 }) {
 /**
  * 跑一批生涯並收集結果。冒煙測試與黃金種子共用同一組樣本，避免兩邊各跑一次。
  */
-export function playMatrix({ seeds, roles, styles = ['focus', 'spread'] }) {
+export function playMatrix({ seeds, roles, styles = ['focus', 'spread'], collectCards = false }) {
   const runs = [];
   for (const seed of seeds) {
     for (const role of roles) {
       for (const style of styles) {
         const strategy = ['first', 'last', 'random'][seed.length % 3];
-        runs.push({ seed, role, style, strategy, ...playCareer({ seed, role, strategy, style }) });
+        runs.push({ seed, role, style, strategy, ...playCareer({ seed, role, strategy, style, collectCards }) });
       }
     }
   }

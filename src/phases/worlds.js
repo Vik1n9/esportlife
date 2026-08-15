@@ -93,7 +93,7 @@ export function* run(g) {
   if (rule.gauntlet && seed === slots && slots > 1) {
     yield card('info', '地區資格賽',
       `賽區最後一張世界賽門票，由第 ${seed} 種子打<b class="hl">地區資格賽</b>決定。BO5，輸了整年就結束。`);
-    yield* drawRoleplay(g, 'presser', { amp: 1.4 });
+    yield* drawRoleplay(g, 'presser', { amp: 1.4, event: 'worlds' });
     // 生死戰是全遊戲壓力係數最高的場合（V4 §9.3／§11.1 都把它單獨列一行），
     // 五拍的 stakes 也給最高級——賽前與賽後的語氣跟著變重（V4 §15.4）
     const res = yield* runSeriesEvent(g, {
@@ -117,7 +117,7 @@ export function* run(g) {
     (state.worldsSlotBonus ? '<br><span class="muted">這張門票是靠 MSI 冠軍替賽區多掙來的。</span>' : '') +
     (seed >= 3 ? '<br><span class="muted">賽前預測沒有一份把你們排進四強。</span>' : '') +
     (defending?.isPlayer ? '<br><span class="muted">你是上一屆的冠軍——每一支隊伍都以你為目標。</span>' : ''));
-  yield* drawRoleplay(g, 'intl', { amp: 1.8 });
+  yield* drawRoleplay(g, 'intl', { amp: 1.8, event: 'worlds' });
 
   const outcome = yield* runTournament(g, rule, seed);
   yield* settle(g, outcome, seed);
@@ -208,7 +208,7 @@ function* knockout(g, seed) {
   ];
 
   for (const round of rounds) {
-    if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8 });
+    if (round.key === 'final') yield* drawRoleplay(g, 'intl', { amp: 1.8, event: 'worlds' });
 
     const isChamp = champ && !champMet && rng.chance(CHAMPION_ENCOUNTER[round.key]);
     if (isChamp) champMet = true;
