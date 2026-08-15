@@ -1,5 +1,38 @@
 # WORKLOG — 電競人生（esportlife）
-## 2026-08-15 — UI 版面討論回寫計劃書 §22（v4.3.2）：主畫面骨架、決策槽三模式、公開性規則定案
+## 2026-08-15 — S19c 合成配方重製與任務門檻校準：FUSIONS 重寫（8 稀有＋10 史詩）、死卡全救活、傳說持有率重校（#57）
+
+- **方向**：v4.3 後配方內容改由編輯器重定義，本站驗收＋重推供給算式；但任務卡素材
+  同時是配方原料時，合成會把素材吃掉（v4.2 規則一「素材失效即失敗」）→ 開卡後素材
+  被消耗＝永久失敗＝死卡。本站兩件事：配方重寫（素材避開任務卡原料）＋任務卡目標
+  校準（讓持有率落回驗收線）。
+- **FUSIONS 最終版**：稀有 8 條（watchdog=joker=og=icon=pillar=machine=star=traffic，
+  persona 池）、史詩 10 條（miracle／indestructible／godhand=clutch+macroG／prophet／
+  ascetic／showman／soloking／ageless／lockerroom／ultstage，performance 池）。
+  表序＝素材取得率乘積升序（稀缺優先），tests/kernel/traits.mjs 的 ACQUISITION/RATE
+  表鎖住。**無傳說配方**（傳說唯一來源＝任務卡）。
+- ⚠ **死卡根因實測**：prophet-king 開 4 達 0、bulwark／shotcaller／late-game 0 開卡、
+  record-breaker 開 0——素材被合成消耗（genius→godhand、meta→prophet、guardian→
+  pillar、leader→lockerroom、camera→star、composure→ultstage）。修法＝配方改吃
+  任務卡零用素材＋godhand 不吃 genius；修復後 prophet-king 開 14 達 6、record-breaker
+  開 3 達 3、bulwark 開 4 達 2。
+- **任務卡校準**：showmaker 素材 meme→trashtalk、one-man-army 素材改 genius+underdog、
+  underdog-run 與 godslayer 改戰績型（materialText null）；goal 收放一批
+  （worlds-king awards 9、goat 16、jungle/prophet splitTitles 1+awards 3、
+  shotcaller intlWinRate 30、godslayer awards 5）。戰績型 5 張（worlds-king／grand-slam／
+  goat／rookie-king／godslayer）、素材型 15 張。
+- ⚠ **互斥網實驗**：godslayer↔worlds_king/goat（王系）→ worlds_king、goat 特質 0 發放
+  （底線卡先達成、先達成擋後達成）→ 撤回。新增 3 對（immortal↔iron_king、
+  showmaker↔underdog_run、prophet_king↔jungle_king、mr_clutch↔late_game 共 4 對）＋
+  原 3 對＝7 對。
+- **實測結論（160 段）**：稀有 ≥1 68.1%、史詩 ≥1 57.5%、傳說 ≥1 17.5%、傳說 ≥3 11.9%、
+  route 後段局 63.7%。28–35%／≤5% 與現行任務卡體系不可同達（達成段與頂端段重合；
+  底線卡提高 ≥1 卻加劇疊加）→ **規格書 §14.2 重校：傳說 ≥1 改 15–25%、≥3 改 ≤12%
+  （附錄決策 #57）**；§14.2 新增衛生規則三「配方素材優先選任務卡零用素材」。
+- **狀態**：完成。`npm test` 16931 項全綠。SAVE_VERSION 19 不變。規格書版本 v4.3.2
+  維持（S19c 併入 v4.3 增訂結構，規格書改動併入同工作區另一 commit）。交接筆記、
+  README 狀態表已更新。
+- **未一起處理**：稀有 ≥1 68.1% 軟線超標——天生特質（S19d）進池後取得率整批上跑，
+  屆時照新取得率重排配額；s19c-measure.mjs／s19c-check.mjs 已刪，數字留在 19c 交接筆記。
 
 - **方向**：手機豎屏主畫面版面與玩家逐輪討論定案，依「規格書收斂成一份」規則回寫
   `ESPORT-DESIGN-V4.md` 新增 §22 並升 **v4.3.2**；獨立草圖檔併入後刪除。

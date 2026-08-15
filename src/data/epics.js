@@ -6,7 +6,9 @@
  *
  * 合成分四階，概念取自 LoL 的道具合成（小件疊成終極裝）：
  *   通用（traits.js）→ 稀有（traits.js）→ 史詩（本檔）→ 傳說（本檔）。
- * 每一階都只消耗下一階的特質，配方見 `FUSIONS`。
+ * 每一階都只消耗下一階的特質，配方見 `FUSIONS`。v4.1 起傳說**不由配方合成**——
+ * 唯一來源是生涯任務卡達成（§13.4），所以配方只剩「通用 → 稀有」與
+ * 「通用 → 史詩」兩段。
  *
  * 池歸屬：史詩一律 performance（§14.2 史詩＝2~3 個 performance 素材，且傳說任務卡的
  * 「史詩＋稀有」必然分屬兩池）；傳說不是配方素材、也不被合成消耗，池標 career。
@@ -122,6 +124,7 @@ export const LEGENDARY_TRAITS = {
     desc: '成長 ×2、衰退極慢、巔峰延後三年；獨斷獨行，信任 −10、隊友都怕他，摩擦 +12',
     effects: { growth_rate_mul: { mul: 2 }, fall_k_mul: { mul: 0.5 }, peak_age_shift: 3 },
     sideEffects: { mental_trust: -10, verdictRiftRisk: 12 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['iron_king'],
   },
   godslayer: {
     // v4.3：突破上限與直接加評價作廢，成長份量全由窗口承擔（growth ×2 ＋ 上升期極陡）
@@ -143,18 +146,21 @@ export const LEGENDARY_TRAITS = {
       endorsement: { mul: 1.5 }, contractFloor: { floor: 1.3 }, seriesDecider: 4,
     },
     sideEffects: { mental_comp: -10, mental_disc: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['underdog_run'],
   },
   underdog_run: {
     name: '一穿五', tier: 'legend', pool: 'career',
     desc: '下剋上加成爆表、國際賽保底、世界賽大加成；沒有被逼到絕境就不會打球，自信 −8',
     effects: { underdogDepth: 3.2, intlFloor: { floor: 4 }, worldsRoll: 8 },
     sideEffects: { mental_conf: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['showmaker'],
   },
   prophet_king: {
     name: '版本之神', tier: 'legend', pool: 'career',
     desc: '版本懲罰歸零、成長 ×1.8；看透一切，失去普通選手的飢渴，動機 −8',
     effects: { patchImmune: true, growth_rate_mul: { mul: 1.8 } },
     sideEffects: { mental_drive: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['jungle_king'],
   },
   // ── S19b 新增 14 個（鍵名與取材意象由 S18 任務卡定義，五路都有代表）──
 
@@ -180,6 +186,7 @@ export const LEGENDARY_TRAITS = {
     desc: '隊友戰力 +5、系列賽加成；算得太精開始輕敵，過自信（自信 +8）、動機 −6',
     effects: { teamLead: { floor: 5 }, seriesGame: 5 },
     sideEffects: { mental_conf: 8, mental_drive: -6 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['prophet_king'],
   },
   one_man_army: {
     // Uzi／Rookie「一神帶四腿」：全隊資源傾斜給一人。副作用走資源黑洞——隊友陪練。
@@ -195,7 +202,7 @@ export const LEGENDARY_TRAITS = {
     desc: '成長 ×1.3、衰退加速度 ×0.7；容不得隊友鬆懈（摩擦 +6）、熱情被規律磨平（動機 −8）',
     effects: { growth_rate_mul: { mul: 1.3 }, fall_accel_mul: { mul: 0.7 } },
     sideEffects: { verdictRiftRisk: 6, mental_drive: -8 }, sideEffectLevel: 'heavy',
-    exclusiveWith: ['heavenly'],
+    exclusiveWith: ['heavenly', 'immortal'],
   },
   late_game: {
     // Deft「後期之魔」：四十分鐘後的他是另一個人。副作用走前期——前四十分鐘他還在睡覺。
@@ -203,6 +210,7 @@ export const LEGENDARY_TRAITS = {
     desc: '決勝局與系列賽加成；前期隱形，扛不住前期的壓力，抗壓 −8',
     effects: { seriesDecider: 6, seriesGame: 6 },
     sideEffects: { mental_comp: -8 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['mr_clutch'],
   },
   adc_king: {
     // Uzi／GALA「團戰收割」：陣型最後排的裁判。副作用走逆風——輸出環境被保慣了。
@@ -218,6 +226,7 @@ export const LEGENDARY_TRAITS = {
     desc: '決勝局 +8、國際賽加成；例行賽心不在焉，動機 −8、紀律 −6',
     effects: { seriesDecider: 8, intlRoll: 10 },
     sideEffects: { mental_drive: -8, mental_disc: -6 }, sideEffectLevel: 'heavy',
+    exclusiveWith: ['late_game'],
   },
   record_breaker: {
     // 數據型選手：簽名簽在紀錄簿的下一行。副作用走疏離——眼裡只有數據就沒有隊友。
@@ -304,53 +313,57 @@ export const UNIQUE_TRAITS = {
  * 合成配方（完全隱藏，UI 不揭露）。
  *
  * 每一條配方消耗 `need` 指定的特質、賦予 `outTier` 階特質。`need` 是
- * `[tier, key]` 的配對，tier 為 `traits`(通用) / `rare`(稀有) / `epic`(史詩) /
- * `legendary`(傳說)。
+ * `[tier, key]` 的配對，tier 為 `traits`(通用) / `rare`(稀有) / `epic`(史詩)。
  *
  * 四階概念取自 LoL 道具合成（小件疊終極裝）：
  *   通用 → 稀有：由 2 個「人格／媒體」類通用小件合成。
  *   通用 → 史詩：核心配方，沿用既有設計（史詩是生涯主力，保持可達）。
- *   史詩 + 稀有 → 傳說：神話終極裝，把史詩與稀有再往上疊。
+ * 傳說不進配方（§13.4：唯一來源是生涯任務卡達成）——`outTier` 只剩
+ * `rare`／`epic` 兩階，留 `legendary` 的配方就是讓傳說繞過任務卡的第二條
+ * 發放路徑（v4.1 的漏洞，S19c 移除）。
  *
  * 兩池刻意不重疊：稀有吃「人格／媒體」類（persona），史詩吃「競技表現」類
  * （performance），稀有與史詩不會互相搶素材，兩條線都能成立。
  *
- * ⚠ **v4.3：具體配方已作廢，由 S18a 特質編輯器重建；這裡的 24 條是既有設計的
- * 佔位，S19c 重建時整表換掉。S19a 不動這張表**（鍵名與素材因此保持不變）。
+ * S19c 重寫（v4.3：具體配方由編輯器重建後的落檔）：
+ *   1. **素材全過 §14.2 死配方線**（取得率 = 持有＋合成消耗，160 段實測 ≥15%）。
+ *   2. **任務卡素材優先保留給開卡**：S18 的 25 張任務卡吃 guardian、grinder、
+ *      glue、camera、meta、composure、leader、laneking、underdog、disc、
+ *      trashtalk、iron、genius、meme。v4.2 規則一「素材失效即失敗」：開卡後
+ *      素材被合成消耗 = 永久失敗。所以配方素材盡量選任務卡零用的（popular、
+ *      lonewolf、innateLeader、veteran、clutch、bigheart、macroG、glass、
+ *      intlghost），任務卡素材（guardian、glue、grinder、camera、meme、disc、
+ *      laneking、composure）每素材至多 1~2 條配方——否則開卡窗口直接消失
+ *      （S19c 量到 bulwark／shotcaller／late-game 0 開卡的根因）。
+ *   3. **表序 = §14.2 衛生規則（二）**：同一素材被多條配方共用時，依「素材
+ *      取得率乘積」升序排——稀缺素材讓給最難湊的配方先檢核，不由表行序決定。
+ *      每組共用素材的相對順序由 `tests/kernel/traits.mjs` 鎖住。
  *
  * 同一階的特質會被多條配方爭奪，因此「追求長壽」與「追求團隊」無法兼得——
  * 這是設計上的取捨，不是 bug。
- *
- * 順序即優先序：稀有配方排在史詩配方之前，這樣一次 `checkFusions` 就能把樹走完。
  */
 export const FUSIONS = [
-  // ── 通用 → 稀有 ──
-  { outTier: 'rare', need: [['traits', 'grinder'], ['traits', 'lonewolf']], out: 'machine' },
-  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'popular']], out: 'traffic' },
-  { outTier: 'rare', need: [['traits', 'popular'], ['traits', 'camera']], out: 'star' },
-  { outTier: 'rare', need: [['traits', 'glue'], ['traits', 'guardian']], out: 'pillar' },
-  { outTier: 'rare', need: [['traits', 'franchise'], ['traits', 'glue']], out: 'og' },
-  { outTier: 'rare', need: [['traits', 'franchise'], ['traits', 'popular']], out: 'icon' },
-  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'camera']], out: 'joker' },
+  // ── 通用 → 稀有（persona 素材；產物 star／machine／traffic 是任務卡素材，
+  //    產能優先）──
   { outTier: 'rare', need: [['traits', 'lonewolf'], ['traits', 'guardian']], out: 'watchdog' },
+  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'lonewolf']], out: 'joker' },
+  { outTier: 'rare', need: [['traits', 'innateLeader'], ['traits', 'glue']], out: 'og' },
+  { outTier: 'rare', need: [['traits', 'popular'], ['traits', 'innateLeader']], out: 'icon' },
+  { outTier: 'rare', need: [['traits', 'glue'], ['traits', 'grinder']], out: 'pillar' },
+  { outTier: 'rare', need: [['traits', 'grinder'], ['traits', 'popular']], out: 'machine' },
+  { outTier: 'rare', need: [['traits', 'camera'], ['traits', 'popular']], out: 'star' },
+  { outTier: 'rare', need: [['traits', 'meme'], ['traits', 'popular']], out: 'traffic' },
 
-  // ── 通用 → 史詩（核心配方，沿用既有設計）──
-  { outTier: 'epic', need: [['traits', 'veteran'], ['traits', 'disc'], ['traits', 'single']], out: 'ageless' },
-  { outTier: 'epic', need: [['traits', 'genius'], ['traits', 'disc']], out: 'godhand' },
-  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'composure']], out: 'ultstage' },
-  { outTier: 'epic', need: [['traits', 'meta'], ['traits', 'macroG']], out: 'prophet' },
+  // ── 通用 → 史詩（performance 素材，2 個；產物 ultstage／soloking／ascetic／
+  //    lockerroom 是任務卡素材，配方素材刻意不與其他史詩配方共用，保產能）──
+  { outTier: 'epic', need: [['traits', 'macroG'], ['traits', 'bigheart']], out: 'miracle' },
+  { outTier: 'epic', need: [['traits', 'glass'], ['traits', 'bigheart']], out: 'indestructible' },
+  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'macroG']], out: 'godhand' },
+  { outTier: 'epic', need: [['traits', 'veteran'], ['traits', 'macroG']], out: 'prophet' },
+  { outTier: 'epic', need: [['traits', 'disc'], ['traits', 'bigheart']], out: 'ascetic' },
+  { outTier: 'epic', need: [['traits', 'trashtalk'], ['traits', 'glass']], out: 'showman' },
   { outTier: 'epic', need: [['traits', 'intlghost'], ['traits', 'laneking']], out: 'soloking' },
-  { outTier: 'epic', need: [['traits', 'iron'], ['traits', 'disc']], out: 'indestructible' },
-  { outTier: 'epic', need: [['traits', 'leader'], ['traits', 'veteran']], out: 'lockerroom' },
-  { outTier: 'epic', need: [['traits', 'single'], ['traits', 'disc']], out: 'ascetic' },
-  { outTier: 'epic', need: [['traits', 'underdog'], ['traits', 'bigheart']], out: 'miracle' },
-  { outTier: 'epic', need: [['traits', 'trashtalk'], ['traits', 'idol']], out: 'showman' },
-
-  // ── 史詩 + 稀有 → 傳說（神話終極裝）。史詩（競技）與稀有（人格）素材分屬兩池，必然不重疊 ──
-  { outTier: 'legendary', need: [['epic', 'ageless'], ['rare', 'machine']], out: 'immortal' },
-  { outTier: 'legendary', need: [['epic', 'godhand'], ['rare', 'star']], out: 'godslayer' },
-  { outTier: 'legendary', need: [['epic', 'indestructible'], ['rare', 'pillar']], out: 'bulwark' },
-  { outTier: 'legendary', need: [['epic', 'showman'], ['rare', 'icon']], out: 'showmaker' },
-  { outTier: 'legendary', need: [['epic', 'miracle'], ['rare', 'og']], out: 'underdog_run' },
-  { outTier: 'legendary', need: [['epic', 'prophet'], ['rare', 'traffic']], out: 'prophet_king' },
+  { outTier: 'epic', need: [['traits', 'veteran'], ['traits', 'clutch']], out: 'ageless' },
+  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'veteran']], out: 'lockerroom' },
+  { outTier: 'epic', need: [['traits', 'clutch'], ['traits', 'composure']], out: 'ultstage' },
 ];
