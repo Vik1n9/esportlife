@@ -574,3 +574,29 @@
 2026-08-16T19:52:43.782Z FAIL LPL/2025/Split 3（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2025%2FSplit+3&prop=wikitext&redirects=1，略過續下頁）
 2026-08-16T19:52:43.782Z 抓取完成: 抓 81、跳過 2、缺頁 0、失敗 26（失敗的頁重跑會再試）
 2026-08-16T19:52:57.438Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:53:07.996Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:53:28.424Z 退避重試 HTTP 429（45s 後）
+2026-08-16T19:54:18.876Z FAIL Champions/2012/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=Champions%2F2012%2FSpring&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T19:54:27.282Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:54:37.698Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:54:58.045Z 退避重試 HTTP 429（45s 後）
+2026-08-16T19:55:48.742Z FAIL Champions/2012/Summer（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=Champions%2F2012%2FSummer&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T19:55:57.963Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:56:08.570Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:56:28.916Z 退避重試 HTTP 429（45s 後）
+2026-08-16T19:57:19.463Z FAIL LCK/2020/Summer（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LCK%2F2020%2FSummer&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T19:57:27.794Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:57:38.371Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:57:58.719Z 退避重試 HTTP 429（45s 後）
+2026-08-16T19:58:49.530Z FAIL LCK/2021/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LCK%2F2021%2FSpring&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T19:58:59.721Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:59:10.192Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:59:30.538Z 退避重試 HTTP 429（45s 後）
+2026-08-16T20:00:21.286Z FAIL LCS/2024/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LCS%2F2024%2FSpring&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T20:00:31.544Z 退避重試 HTTP 429（5s 後）
+2026-08-16T20:00:41.883Z 退避重試 HTTP 429（15s 後）
+2026-08-16T20:01:02.521Z 退避重試 HTTP 429（45s 後）
+2026-08-16T20:01:52.999Z FAIL LCS/2024/Summer（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LCS%2F2024%2FSummer&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T20:02:03.088Z 退避重試 HTTP 429（5s 後）
+2026-08-16T20:02:13.430Z 退避重試 HTTP 429（15s 後）
+2026-08-16T20:02:33.773Z 退避重試 HTTP 429（45s 後）
