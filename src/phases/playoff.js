@@ -16,7 +16,8 @@ import { unlockTrait } from '../engine/progression.js';
 import {
   entryRound, opponentRating, playoffBerth, pointsFor, roundsFrom, splitSeed,
 } from '../kernel/series.js';
-import { card, drawRoleplay, fusionBeats } from './shared.js';
+import { drawRoleplay, fusionBeats, kinded } from './shared.js';
+const card = kinded('match');
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'PLAYOFF';

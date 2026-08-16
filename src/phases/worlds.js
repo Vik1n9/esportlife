@@ -26,7 +26,8 @@ import { UNIQUE_TRAITS } from '../data/epics.js';
 import { CHAMPION_BONUS, CHAMPION_ENCOUNTER, challengableChampion, drawChampion } from '../engine/champion.js';
 import { reigningChampion } from '../engine/ledger.js';
 import { bonus } from '../kernel/modifiers.js';
-import { card, drawRoleplay, fusionBeats, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
+import { drawRoleplay, fusionBeats, kinded, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
+const card = kinded('match');
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'WORLDS';

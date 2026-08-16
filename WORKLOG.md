@@ -1,5 +1,39 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S41 事件日誌閱讀：卡片分類篩選、五拍成組、年度跳轉
+
+- **方向**：事件文本區是無界捲軸，沒有篩選也沒有跳轉；賽事五拍散成五張同級卡，
+  讀不出是同一場系列賽（§22.1 v4.6.1 明訂五拍必須成組呈現、日誌檢視控制）。
+  解法：`kinded()` 工廠一檔一行加 `kind` 欄位（不改 91 個呼叫點）；五拍帶
+  `series` 標識，UI 層偵測連續同 series 收進 `.series-block`；六個篩選 chips
+  純靠 CSS 屬性選擇器切換；年度分隔線登記進目錄供下拉跳轉。
+
+- **分類鍵**：`train`（month）／`match`（seriesEvent/playoff/msi/worlds）／
+  `event`（split + shared.js 的 drawEvent/drawRoleplay 等）／`market`
+  （transfer/salary）／`season`（seasonEnd）。`engine/game.js` 的生命週期卡
+  無 `kind`，任何篩選下保持可見。
+
+- **五拍分組**：`kinded()` 工廠接受第 4 參 `series`，seriesEvent 五拍傳入
+  `title`（如「八強 · BO5」）。`log.js` 用 `lastSeriesBlock` 模組狀態追蹤，
+  同 series 追加、不同 series 開新 block。備賽戰術 choice 走 `'act'` 槽渲染在
+  `#act`，不在文本區，不中斷分組。
+
+- **篩選實作**：`#log` 帶 `.log-filters` class + `data-filter` 屬性，CSS 用
+  20 條選擇器（5 篩選 × 4 不符 kind）`display:none`。`series-block` 的
+  `data-kind` 掛在 block 層，整組一起隱藏不留空標頭。
+
+- **年度目錄**：`yearEntries[]` 陣列（`{ text, node }`），`renderDivider`
+  push、下拉 `onchange` 走 `scrollIntoView`。結構留給 S42 寬螢幕左欄取用。
+
+- **實測結論**：`npm test` 22754 項全綠（`kind`／`series` 純新增，既有測試
+  不碰）。四項檢驗通過。手動走查清單待執行（引擎測試不碰 DOM，UI 唯一守門）。
+
+- **狀態**：完成。`npm test` 22754 項全綠。SAVE_VERSION 未動（純 UI 變更）。
+  版號 v4.6.1 → v4.6.2。
+
+- **未一起處理**：`#log-bar` 沒有 sticky（被 `#board` 遮住，S42 處理）；篩選
+  狀態不存檔（重整回「全部」）。
+
 ## 2026-08-17 — S40 選手面板四分頁：11 section 長捲拆成賽程／生涯／隊伍／選手四 tab
 - **方向**：§22.3 定了四個 tab，現行只有一個 11 section 的長捲抽屜。賽程 tab
   的內容（年曆、冠軍積分、時代）與生涯 tab 的五欄位（milestones／teamHistory／

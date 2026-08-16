@@ -24,7 +24,8 @@ import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { consume, recover, recoveryOptions } from '../engine/stamina.js';
 import { runSeries } from '../kernel/series.js';
-import { card } from './shared.js';
+import { kinded } from './shared.js';
+const card = kinded('match');
 
 /**
  * 備賽戰術（V4 §15.3）。⚠ 效果只掛在「這一場系列賽」上，不是永久加屬性。
@@ -113,8 +114,10 @@ export function* runSeriesEvent(g, {
 }) {
   const { state, rng } = g;
 
+  const series = title;
+
   /* ── 第 1 拍：賽前敘事 ── */
-  yield card('info', `${title} · 賽前`, preMatchNarrative(stakes, oppNote, state, oppTitle));
+  yield card('info', `${title} · 賽前`, preMatchNarrative(stakes, oppNote, state, oppTitle), series);
 
   /* ── 第 2 拍：備賽戰術選擇（賽事期唯一的決策點） ── */
   // `'act'`（§22.2 第 4 條明訂）：備賽戰術與訓練菜單同性質——規劃型決策，要對照
@@ -149,14 +152,14 @@ export function* runSeriesEvent(g, {
   if (tactic.risk === 'counter' && rng.chance(20)) {
     mod = -4;
     yield card('bad', `${title} · 被反制`,
-      `針對對手弱點研究做了整套功課，但對方教練組也研究了你——BP 被針對。<br>${staminaNote}`);
+      `針對對手弱點研究做了整套功課，但對方教練組也研究了你——BP 被針對。<br>${staminaNote}`, series);
   } else if (tactic.risk === 'injury' && rng.chance(15)) {
     state.tempInjuryRisk = (state.tempInjuryRisk || 0) + 3;
     yield card('bad', `${title} · 集訓代價`,
-      `高強度集訓把狀態練出來了，但手腕也發出了警訊。<br>${staminaNote}`);
+      `高強度集訓把狀態練出來了，但手腕也發出了警訊。<br>${staminaNote}`, series);
   } else {
     yield card('', `${title} · 備賽結算`,
-      `${tactic.label}。${staminaNote}<br><span class="muted">${tactic.note}</span>`);
+      `${tactic.label}。${staminaNote}<br><span class="muted">${tactic.note}</span>`, series);
   }
 
   /* ── 第 4 拍：比賽自動模擬 → 結果呈現（沿用 kernel/series.js，不重寫） ── */
@@ -166,7 +169,7 @@ export function* runSeriesEvent(g, {
     : '';
   yield card(res.win ? 'good' : 'bad', `${title} · 結果`,
     `<b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${deciderNote}` +
-    `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`);
+    `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`, series);
 
   /* ── 第 5 拍：賽後敘事 ＋ 心理結算 ── */
   const mental = res.win
@@ -175,7 +178,7 @@ export function* runSeriesEvent(g, {
   const notes = applyMental(state, mental);
   yield card(res.win ? 'good' : 'bad', `${title} · 賽後`,
     postMatchNarrative(stakes, res.win, oppTag) +
-    (notes.length ? `<br><span class="muted">（${notes.join('、')}）</span>` : ''));
+    (notes.length ? `<br><span class="muted">（${notes.join('、')}）</span>` : ''), series);
 
   return res;
 }

@@ -24,7 +24,8 @@ import { clamp } from '../core/rng.js';
 import { unlockTrait } from '../engine/progression.js';
 import { flag } from '../kernel/modifiers.js';
 import { retire } from '../engine/retire.js';
-import { card, drawRoleplay, fusionBeats } from './shared.js';
+import { drawRoleplay, fusionBeats, kinded } from './shared.js';
+const card = kinded('market');
 
 export const kind = 'TRANSFER';
 

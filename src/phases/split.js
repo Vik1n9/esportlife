@@ -16,7 +16,8 @@
  */
 import { lineupFor } from '../engine/lineup.js';
 import { applyMental } from '../engine/mental.js';
-import { card } from './shared.js';
+import { kinded } from './shared.js';
+const card = kinded('event');
 
 export const kind = 'SPLIT';
 
