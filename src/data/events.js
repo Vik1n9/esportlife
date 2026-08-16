@@ -43,7 +43,12 @@
  *           `solo_<id>` 表示自成一格、與任何卡都不互斥。
  * - `when`  觸發條件（條件卡），沒寫＝隨機池成員。S20g 起是 s-expression，
  *           與任務卡的 `trigger` 同一套 `evalCond`（`AGENTS.md` 條件語言規則）。
- *           S20f 內容站開始填。
+ *           S20f 已為 13 張高價值卡填寫——版本類走 `patchDebt`、傷病類走
+ *           `stamina`／`injuryWeeks`、狀態類走 `benchedStreak`／`comp`、
+ *           特質回應類走 `['has', 'common', …]`。條件卡命中該來就來，
+ *           不受防重機制擋，所以**不要把所有卡都寫上條件**——隨機池會被抽乾。
+ * - `priority`  條件卡優先度（§12.1 步驟 2：取最高優先度為事件一；沒寫算 0）。
+ *           多張條件同時命中時，優先度決定誰先出。
  */
 export const EVENT_CARDS = [
   { id: 'solo_queue', name: '排位衝分', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_solo_queue',
@@ -74,7 +79,7 @@ export const EVENT_CARDS = [
     good: { text: '跟頂尖隊友加練對線，細節大開竅，教練忍不住點頭', attr: { tec: 1, agi: 1 } },
     bad:  { text: '加練到半夜，反應遲鈍，隔天團練被當人機打', attr: { agi: -2 } } },
 
-  { id: 'patch_study', name: '版本補習', kind: 'patch', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_patch_study',
+  { id: 'patch_study', name: '版本補習', kind: 'patch', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_patch_study', when: ['stat', 'patchDebt', 'gte', 2], priority: 6,
     prompt: '新版本上線，patch note 落落長。有人整晚在啃更新日誌，也有人直接進去打了再說。',
     options: [
       { id: 'study', label: '逐條讀完，開自訂房實測數值', odds: 55, gain: 2.2, loss: 1.3 },
@@ -84,7 +89,7 @@ export const EVENT_CARDS = [
     good: { text: '把 patch note 嗑到熟，新 Meta 拿捏得死死的，人人喊你「版本答案」', attr: { awr: 2 }, flags: { patchDebt: -2 } },
     bad:  { text: '版本理解跟不上，還停在上一季，被酸「版本逆子」', attr: { awr: -1 }, flags: { patchDebt: 1 } } },
 
-  { id: 'wrist', name: '手腕不適', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_wrist',
+  { id: 'wrist', name: '手腕不適', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_wrist', when: ['stat', 'stamina', 'lte', 25], priority: 3,
     prompt: '右手腕從上週就開始悶痛，握滑鼠久了會麻。賽季正打到一半。',
     options: [
       { id: 'clinic', label: '立刻就醫，該停就停', odds: 80, gain: 1, loss: 0.5, traits: false, main: true },
@@ -182,7 +187,7 @@ export const EVENT_CARDS = [
     good: { text: '代言商演安排得宜，名氣跟收入一起起飛', attr: { vit: 1 }, flags: { popular: true, bonusSalary: 120 } },
     bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', attr: { tec: -2, vit: -1 } } },
 
-  { id: 'slump', name: '季中低潮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['amateur', 'am2', 'regular'], excl: 'solo_slump',
+  { id: 'slump', name: '季中低潮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['amateur', 'am2', 'regular'], excl: 'solo_slump', when: ['stat', 'comp', 'lte', 40], priority: 4,
     prompt: '連續幾週怎麼打都不對，鏡頭掃到你的臉，論壇已經在喊換人了。',
     options: [
       { id: 'fight', label: '硬扛，加練到打回來為止', odds: 44, gain: 2.2, loss: 1.3 },
@@ -240,7 +245,7 @@ export const EVENT_CARDS = [
     good: { text: '整夜泡在自訂房，版本細節摸得透透的，被喊「人形外掛」', attr: { tec: 2 }, flags: { grinder: true } },
     bad:  { text: '練到靈魂出竅，隔天團練反應全沒，教練唸到爆', attr: { agi: -2, vit: -1 } } },
 
-  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['amateur', 'am2', 'regular'], excl: 'media',
+  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['amateur', 'am2', 'regular'], excl: 'media', when: ['has', 'common', 'meme'], priority: 4,
     prompt: '你昨天那波「開秀」被剪成短片，梗圖跟「○○傳奇」的標題刷滿全網。流量來了，斷章取義也來了。',
     options: [
       { id: 'ride', label: '順勢玩梗，流量全吃', odds: 42, gain: 2.2, loss: 1.3 },
@@ -290,7 +295,7 @@ export const EVENT_CARDS = [
     good: { text: '你閃現進場秒懲戒搶下巴龍，全場暴動，賽評喊破喉嚨', attr: { dec: 1, agi: 1 }, flags: { clutch: true } },
     bad:  { text: '搶龍失敗全隊陪葬，賽後被「打野差距」刷屏', attr: { dec: -2 } } },
 
-  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular'], excl: 'media',
+  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular'], excl: 'media', when: ['has', 'common', 'trashtalk'], priority: 5,
     prompt: '對手在採訪裡放話「今年會把你們打回原形」，底下留言一片揶揄。鏡頭轉到你，等你接招。',
     options: [
       { id: 'clap', label: '火力全開回嗆', odds: 42, gain: 2.2, loss: 1.3 },
@@ -408,7 +413,7 @@ export const EVENT_CARDS = [
     good: { text: '一個月後體脂下降、精神變好，連注意力都集中了', attr: { vit: 2 }, mental: { disc: 2 } },
     bad:  { text: '你撐不下去開始暴飲暴食，體重反彈還連帶作息崩壞', attr: { vit: -2 }, mental: { disc: -2 } } },
 
-  { id: 'sleep_hygiene', name: '睡眠管理', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_sleep_hygiene',
+  { id: 'sleep_hygiene', name: '睡眠管理', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_sleep_hygiene', when: ['stat', 'stamina', 'lte', 30], priority: 2,
     prompt: '你的作息已經亂了半個月，凌晨四點還很清醒，中午才起得來。隊友約你下午團練。',
     options: [
       { id: 'fix', label: '硬調作息，早睡早起一週', odds: 44, gain: 2.2, loss: 1.3 },
@@ -418,7 +423,7 @@ export const EVENT_CARDS = [
     good: { text: '作息調回來之後，反應速度跟判斷力一起恢復水準', attr: { agi: 2 }, mental: { disc: 2 } },
     bad:  { text: '硬調作息失敗，連續失眠，黑眼圈比聯盟還深', attr: { vit: -2 }, mental: { disc: -1 } } },
 
-  { id: 'rehab_care', name: '復健保養', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['regular', 'offseason'], excl: 'solo_rehab_care',
+  { id: 'rehab_care', name: '復健保養', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['regular', 'offseason'], excl: 'solo_rehab_care', when: ['stat', 'stamina', 'lte', 40], priority: 2,
     prompt: '賽季尾聲，你的手腕又開始隱隱作痛。隊醫說最好每週加兩次復健，但你只想多練兩小時。',
     options: [
       { id: 'rehab', label: '乖乖復健，保養優先', odds: 70, gain: 1, loss: 0.5, main: true },
@@ -494,7 +499,7 @@ export const EVENT_CARDS = [
     good: { text: '你們聊了一晚，你重新想起打職業的初衷，隔天訓練特別有勁', attr: { syn: 1 }, mental: { conf: 2, drive: 1 } },
     bad:  { text: '你被私訊內容觸動，開始患得患失，怕讓粉絲失望，壓力變大', attr: { vit: -1 }, mental: { comp: -2 } } },
 
-  { id: 'stream_meltdown', name: '直播翻車', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media',
+  { id: 'stream_meltdown', name: '直播翻車', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media', when: ['has', 'common', 'tilt'], priority: 4,
     prompt: '直播時遊戲崩潰，你把鍵盤砸了，畫面全程沒關——三百萬人看你失控。',
     options: [
       { id: 'apologize', label: '開誠布公道歉，好好解釋', odds: 56, gain: 1.5, loss: 1 },
@@ -520,7 +525,7 @@ export const EVENT_CARDS = [
 
   /* 賽場補充（1 張）＋生涯（3 張） */
 
-  { id: 'bench_seat', name: '替補席', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_bench_seat',
+  { id: 'bench_seat', name: '替補席', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['regular'], excl: 'solo_bench_seat', when: ['stat', 'benchedStreak', 'gte', 1], priority: 5,
     prompt: '教練把你換下，讓新人上場。你坐在替補席看完整場，新人打得還行。',
     options: [
       { id: 'study', label: '坐著看比賽，研究對手學東西', odds: 60, gain: 1, loss: 1, main: true },
@@ -562,7 +567,7 @@ export const EVENT_CARDS = [
 
   /* 版本／英雄池（1 張） */
 
-  { id: 'meta_shift', name: '版本改動', kind: 'patch', pool: ['performance'], sub: 'training', slot: ['regular', 'offseason'], excl: 'training',
+  { id: 'meta_shift', name: '版本改動', kind: 'patch', pool: ['performance'], sub: 'training', slot: ['regular', 'offseason'], excl: 'training', when: ['stat', 'patchDebt', 'gte', 1], priority: 3,
     prompt: '季中版本大改，你熟悉的打法被削了一輪，新的主流玩法你完全沒碰過。',
     options: [
       { id: 'deep', label: '立刻投入研究，搶先吃透新版本', odds: 46, gain: 2.2, loss: 1.3 },
@@ -643,7 +648,7 @@ export const EVENT_CARDS = [
     good: { text: '你的聲音穩住了軍心，全隊打得像一個人', attr: { syn: 1, dec: 1 }, mental: { comp: 2 } },
     bad:  { text: '你的聲音都在抖，隊友跟著緊張，關鍵團戰全亂', attr: { dec: -2 }, mental: { comp: -2 } } },
 
-  { id: 'injury_comeback', name: '傷癒復出', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['regular'], excl: 'solo_injury_comeback',
+  { id: 'injury_comeback', name: '傷癒復出', kind: 'normal', pool: ['performance'], sub: 'body', slot: ['regular'], excl: 'solo_injury_comeback', when: ['stat', 'injuryWeeks', 'gte', 1], priority: 5,
     prompt: '手腕養了六週，醫生說可以上了。但你的手感還在冰庫裡，第一場就要對上賽區最兇的打線。',
     options: [
       { id: 'eager', label: '首發上場，用實戰找回手感', odds: 42, gain: 2.2, loss: 1.3 },
@@ -779,7 +784,7 @@ export const EVENT_CARDS = [
 
   /* 版本／英雄池（1 張） */
 
-  { id: 'champ_nerfed', name: '本命角被砍', kind: 'patch', pool: ['performance'], sub: 'training', slot: ['regular', 'offseason'], excl: 'training',
+  { id: 'champ_nerfed', name: '本命角被砍', kind: 'patch', pool: ['performance'], sub: 'training', slot: ['regular', 'offseason'], excl: 'training', when: ['stat', 'patchDebt', 'gte', 1], priority: 2,
     prompt: '版本更新：你的本命角被砍了一刀大的，勝率直接掉三個百分點。群組裡哀鴻遍野。',
     options: [
       { id: 'adapt', label: '改打法重新適應，等版本回調', odds: 48, gain: 2.2, loss: 1.3 },
@@ -982,7 +987,7 @@ export const EVENT_CARDS = [
     good: { text: '你把話攤開講，管理層補了薪資還道歉，俱樂部反而更信任你', attr: { syn: 2 }, mental: { drive: 1, trust: 1 } },
     bad:  { text: '你帶頭鬧薪，被貼上「難搞」標籤，下季的買斷傳聞開始出現', attr: { syn: -2 }, mental: { drive: -2, trust: -1 } } },
 
-  { id: 'demote_rumor', name: '下放風聲', kind: 'normal', pool: ['career'], sub: 'crisis', slot: ['regular'], excl: 'solo_demote_rumor',
+  { id: 'demote_rumor', name: '下放風聲', kind: 'normal', pool: ['career'], sub: 'crisis', slot: ['regular'], excl: 'solo_demote_rumor', when: ['stat', 'benchedStreak', 'gte', 1], priority: 4,
     prompt: '休息室流言：下一季你可能被下放二隊。你這陣子表現平平，新人正虎視眈眈。',
     options: [
       { id: 'prove', label: '加倍練習，用表現守住位置', odds: 46, gain: 2.2, loss: 1.3 },

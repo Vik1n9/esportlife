@@ -1,4 +1,35 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-16 — S20f 事件卡條件補：真池的條件路徑從恆空轉到 85.5% 命中
+- **方向**：§12.1 的核心設計「事件變成對玩家狀態的回應」在真內容裡不存在——86 張卡
+  `when`／`priority` 全空，`eventTrigger.js` 四步演算法的第 1–2 步（條件命中→最高
+  優先度）恆空轉，實際永遠走第 4 步隨機池；測試只有假卡測條件，真池段從未碰
+  `when`／`priority`（機制全綠、生產全死）。解法：挑高價值卡補條件＋優先度，
+  條件卡命中該來就來（§12.1），隨機池成員數留測試下界防抽乾。
+- **13 張條件卡**：版本類 3（`patch_study` patchDebt≥2／`meta_shift`、`champ_nerfed`
+  ≥1）、傷病體力類 4（`wrist` stamina≤25、`rehab_care` ≤40、`sleep_hygiene` ≤30、
+  `injury_comeback` injuryWeeks≥1）、狀態類 3（`bench_seat`、`demote_rumor`
+  benchedStreak≥1、`slump` comp≤40）、特質回應類 3（`enemy_taunt` has trashtalk、
+  `clip_meme` has meme、`stream_meltdown` has tilt）。優先度 6 最高（版本補習）
+  ／5（復出、替補席、賽前互嗆）／4 ／3 ／2 分層。
+- **新增三個謂詞**（QUERIES＋schema.js PREDICATES 兩張註冊表同加，鍵集合斷言
+  自動鎖）：`stamina`（走 `staminaOf` 查詢層）、`patchDebt`、`injuryWeeks`。
+- ⚠ **wrist 門檻拉低到 stamina ≤ 25**：透支月佔養成回合 26.9%，`≤ 30` 會讓手腕卡
+  每個透支月都強制出。transfer（3 張）與 crisis（2 張）的卡刻意沒動——隨機池太薄，
+  條件化會抽乾（測試下界也把這兩段排除）。
+- ⚠ **條件命中率量測的取樣陷阱**：初版合成狀態用 `patchDebt=(i*3)%11` 均勻取樣，
+  10/11 回合命中 `≥ 1`，量到 100% 假象——真實分布 patchDebt 大半月份掛 0～2
+  （patch 事件才 +1、訓練會吸收），換成貼近分布的循環表後量到 85.5%。
+- **實測結論**：合成狀態 400 月條件路徑 **85.5%**（342/400）；真實生涯 64 段
+  **64/64 段的 recentEvents 尾端都含條件卡**、尾端 6 張中條件卡佔 79.2%（取樣偏
+  recentEvents 只留 6 張＋條件卡不受防重重複出）；各時段隨機池 regular 71／
+  offseason 36／amateur 22／am2 22（下界 ≥ 20 寫進測試）。
+- **未一起處理**：transfer／crisis 兩薄池的卡不條件化（下界規則明文）；特質回應
+  卡只挑了來源在外部的三張（trashtalk 扮演卡／meme 金句卡／tilt 低潮卡），
+  FLAG_TRAIT 同鍵卡（如 `flash_steal` 給 clutch）不適合拿自己的特質當條件。
+- **狀態**：完成。`npm test` **19282 項全綠**。⚠ 項數比 S20e 收尾（19430）少 148：
+  是「逐生涯／逐持有特質」檢查（合成消耗）跟著軌跡浮動（S09／S11 記載的同源
+  現象），非覆蓋率損失。SAVE_VERSION 不動（事件卡不在存檔）。狀態表已更新，
+  `next-station.mjs` 下一站 S21 DEMO 組裝。
 ## 2026-08-16 — S20e 三層退役事件：分母換成條件制，退役不再是統一結算
 - **方向**：§18.2 定義退役走條件制三層結構（特殊結局 → 選項 → 結算），但實作只有
   「無報價 throw → 一張通用退役卡＋分數驅動的榮譽殿堂」——S18 四批交接都寫「引擎無

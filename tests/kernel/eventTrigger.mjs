@@ -16,6 +16,7 @@ import {
 } from '../../src/engine/eventTrigger.js';
 import { SLOTS } from '../../tools/schema.js';
 import { STAMINA_MAX } from '../../src/engine/stamina.js';
+import { evalCond } from '../../src/engine/conditions.js';
 
 export const name = '事件觸發引擎（條件優先）';
 
@@ -268,6 +269,98 @@ export async function run({ check, log }) {
     const no = fresh('PRO', { age: 20 });
     const [ev2] = eventTrigger(no, { month: 5 }, pool, fakeRng(false));
     check('未持有史詩特質 → 條件不命中', ev2.id === 'poolX', ev2.id);
+  }
+
+  /* ---- 真池條件路徑（S20f）：13 張條件卡在真池裡真的走得到 ----
+   *
+   * 修前 `when`／`priority` 在真池裡恆空轉（tests 只用假卡測條件），條件路徑
+   * 全綠、生產全死。這裡逐卡設定對應狀態，斷言事件一就是那張卡——條件卡
+   * 命中該來就來（§12.1 的「事件變成對玩家狀態的回應」）。
+   */
+  {
+    check('真池有條件卡（機制活了，不是假卡）',
+      EVENT_CARDS.filter((c) => c.when).length === 13,
+      EVENT_CARDS.filter((c) => c.when).length);
+    const condHit = (s) => EVENT_CARDS.filter((ev) => ev.when && evalCond(s, ev.when));
+    const cases = [
+      { id: 'patch_study', state: { patchDebt: 5 }, month: 5 },
+      { id: 'meta_shift', state: { patchDebt: 1 }, month: 5 },
+      { id: 'wrist', state: { stamina: 20 }, month: 5 },
+      { id: 'sleep_hygiene', state: { stamina: 28 }, month: 5 },
+      { id: 'rehab_care', state: { stamina: 35 }, month: 5 },
+      { id: 'bench_seat', state: { benchedStreak: 1 }, month: 5 },
+      { id: 'slump', state: { mental: { comp: 30, conf: 50, drive: 50, disc: 50, trust: 50, resl: 50 } }, month: 5 },
+      { id: 'injury_comeback', state: { injuryWeeks: 2 }, month: 5 },
+      { id: 'enemy_taunt', state: { traits: { trashtalk: true } }, month: 5 },
+      { id: 'clip_meme', state: { traits: { meme: true } }, month: 5 },
+      { id: 'stream_meltdown', state: { traits: { tilt: true } }, month: 5 },
+    ];
+    for (const c of cases) {
+      const s = fresh('PRO', { age: 20 });
+      Object.assign(s, c.state);
+      const [ev] = eventTrigger(s, { month: c.month }, EVENT_CARDS, fakeRng(false));
+      check(`真池條件路徑：${c.id} 命中即出卡`, ev && ev.id === c.id, ev && ev.id);
+    }
+    // 低優先度卡與高優先卡並存：進候選但不出事件一（優先度排序生效）
+    const low = [
+      { id: 'champ_nerfed', state: { patchDebt: 1 } },
+      { id: 'demote_rumor', state: { benchedStreak: 1 } },
+    ];
+    for (const c of low) {
+      const s = fresh('PRO', { age: 20 });
+      Object.assign(s, c.state);
+      check(`真池條件路徑：${c.id} 進候選（低優先度）`, condHit(s).some((x) => x.id === c.id));
+    }
+  }
+
+  /* ---- 真池隨機池下界（S20f）：條件卡退出隨機池，池不能被抽乾 ----
+   *
+   * `availableEvents` 把有 `when` 的卡排除在隨機池外，條件卡寫太多隨機池會被
+   * 抽乾。transfer（3）與 crisis（2）本來就很薄，優先不動它們——下界只管另外
+   * 四個時段。
+   */
+  {
+    const tags = ['amateur', 'am2', 'regular', 'offseason', 'transfer', 'crisis'];
+    const count = Object.fromEntries(tags.map((t) => [t, 0]));
+    for (const ev of EVENT_CARDS) {
+      for (const t of tags) {
+        if ((!ev.slot || !ev.slot.length || ev.slot.includes(t)) && !ev.when) count[t]++;
+      }
+    }
+    for (const t of ['amateur', 'am2', 'regular', 'offseason']) {
+      check(`隨機池下界：${t} ≥ 20`, count[t] >= 20, count[t]);
+    }
+    check('隨機池下界：transfer／crisis 未動', count.transfer >= 3 && count.crisis >= 2,
+      `${count.transfer}／${count.crisis}`);
+    log(`隨機池成員數：regular ${count.regular}／offseason ${count.offseason}／`
+      + `amateur ${count.amateur}／am2 ${count.am2}／transfer ${count.transfer}／crisis ${count.crisis}`);
+  }
+
+  /* ---- 條件命中率量測（S20f）：多少比例的回合走條件路徑而非隨機池 ---- */
+  {
+    const rng = new Rng('evt:condrate');
+    let condRounds = 0; let total = 0;
+    for (let i = 0; i < 400; i++) {
+      const s = fresh('PRO', { age: 18 + (i % 12) });
+      s.stamina = (i * 7) % 101;
+      // 版本落差的真實分布不是均勻的：patch 事件才 +1、訓練會吸收（attributes.js），
+      // 大部分月份掛 0~2。均勻取樣會讓「patchDebt ≥ 1」每 10/11 回合命中，量到
+      // 100% 的假象——抽樣表要貼近真實分布，量到的命中率才有意義
+      s.patchDebt = [0, 0, 0, 0, 0, 1, 1, 2, 3, 4][i % 10];
+      s.benchedStreak = i % 4 === 0 ? 1 : 0;
+      s.injuryWeeks = i % 13 === 0 ? 2 : 0;
+      s.mental = { comp: 30 + (i % 7) * 10, conf: 50, drive: 50, disc: 50, trust: 50, resl: 50 };
+      if (i % 5 === 0) s.traits = { trashtalk: true };
+      if (i % 7 === 0) s.traits = { ...(s.traits || {}), meme: true };
+      if (i % 11 === 0) s.traits = { ...(s.traits || {}), tilt: true };
+      const picks = eventTrigger(s, { month: (i % 12) + 1 }, EVENT_CARDS, rng);
+      if (!picks.length) continue;
+      total++;
+      if (picks[0].when) condRounds++;
+    }
+    check('條件路徑量測：非零命中（機制真的會走）', condRounds > 0, `${condRounds}/${total}`);
+    log(`條件命中率（合成狀態 400 月）：${((condRounds / total) * 100).toFixed(1)}%`
+      + `（${condRounds}/${total} 回合事件一來自條件路徑）`);
   }
 
   /* ---- eventOdds：成敗判定 = f(體力, 心理) ---- */

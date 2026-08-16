@@ -150,6 +150,8 @@ export const PREDICATES = [
   'fameLevel', 'era', 'region', 'role',
   'stage', 'wonWorldsThisYear', 'benchedStreak', 'peakRating',
   'intlAppearances', 'marketQuiet', 'atPeak',
+  // S20f：事件卡條件補的三個謂詞（體力／版本落差／傷勢週數）
+  'stamina', 'patchDebt', 'injuryWeeks',
   ...MENTAL_KEYS,
   ...ATTRS,
 ];

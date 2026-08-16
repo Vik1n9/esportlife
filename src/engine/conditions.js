@@ -37,6 +37,7 @@ import { MENTAL_KEYS } from '../data/mental.js';
 import { ATTRS } from '../data/attributes.js';
 import { ROLE_ATTR_WEIGHTS } from '../data/skills.js';
 import { effectiveParams } from './lifecycle.js';
+import { staminaOf } from './stamina.js';
 
 /**
  * 條件式的階名 → state 的存放處。**直接讀 `TIER_STORES`**，不再自己抄一份
@@ -103,6 +104,12 @@ export const QUERIES = {
   // 六大屬性（S20g 遷移補上：舊 `whenHits` 的 `attr` 範圍條件）。缺欄位回 0，
   // 與心理六維同一套「缺欄位不炸」的寫法——舊存檔缺 attr 鍵時條件式照樣可求值
   ...Object.fromEntries(ATTRS.map((k) => [k, (s) => s.attr?.[k] ?? 0])),
+  // S20f 事件卡條件補的三個謂詞：體力資源、版本落差、傷勢週數。stamina 走
+  // `stamina.js` 的查詢（缺欄位當滿體力，與引擎其他消費端同一套讀法）；其餘兩個
+  // 直接讀 raw field，與 `benchedStreak` 同一種寫法（無查詢層可走）
+  stamina: (s) => staminaOf(s),
+  patchDebt: (s) => s.patchDebt ?? 0,
+  injuryWeeks: (s) => s.injuryWeeks ?? 0,
 };
 
 const OPS = {
