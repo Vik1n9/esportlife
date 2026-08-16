@@ -1,0 +1,414 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2F2023%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:12:32.102Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCS 2023 Summer }}
+{{NA LCS Navbox}}
+{{LCS 2023 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCS 2023 Summer 
+|shortname=2023 Summer 
+|tickername=LCS 2023 Summer 
+|image=League Championship Series.png
+|icon=League Championship Series 2021 icon lightmode.png
+|series=LCS
+|organizer=Riot Games
+|organizer-link=http://www.riotgames.com/ 
+|organizer2=
+|sponsor=[https://www.statefarm.com/ State Farm] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|patch=
+|epatch=
+|server=North America
+|type=Offline
+|country=United States
+|city=Los Angeles
+|venue=Riot Games Arena
+|format='''Group Stage''': Double Round Robin ({{Abbr/Bo1}}) <br> '''Playoffs:''' Double Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2023-06-14
+|edate=2023-08-20
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=
+|twitch=lcs
+|facebook=lolesports
+|twitter=lcsofficial
+|youtube=channel/UCSF_aFGIIIoWY30GVV19TKA
+|instagram=lolesports
+|team_number=10
+|previous=LCS/2023/Spring{{!}}2023 Spring 
+|next=LCS/2024/Spring{{!}}2024 Spring 
+}}
+The '''LCS 2023 Summer''' was the second split of the 2023 [[League of Legends Championship Series]] season, organized by Riot Games. It took place from June 14 to August 20, 2023, with the Regular Season held at the Riot Games Arena in Los Angeles, United States, and the Finals at the Prudential Center in Newark, United States. Ten franchised teams competed in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Double Elimination {{Abbr/Bo5}} Playoff bracket. The total prize pool was $200,000 USD.
+
+The top three teams from the Playoffs qualified for the [[World Championship/2023|2023 World Championship]], while the fourth-place team earned a spot in the [[World_Championship/2023/Qualifying_Series|2023 World Qualifying Series]]. [[NRG]] won their first LCS title after defeating [[Cloud9]] 3–1 in the Grand Final. The split was played on patches 13.11 through 13.14, with {{ChampionIcon|Ivern|20px}}, {{ChampionIcon|Rell|20px}}, and {{ChampionIcon|Naafiri|20px}} temporarily disabled.
+
+Following the changes to the [[North American Challengers League]], which saw a lift on the requirement of Challengers teams for [[LCS]] franchises, the ''LCSPA (LCS Player Association)'' announced a walk-out vote. They revealed on May 28th that the vote had received an overwhelming majority.<ref>{{cite web |url=https://twitter.com/NALCSPA/status/1663039093557608448 |title=The walk-out vote has overwhelmingly passed. |author=LCSPA |publisher=Twitter |date=2023-05-28}}</ref> On May 30th, it was announced that the '''LCS''' will be delayed by two weeks, from its original start date of June 1st to June 15th.<ref>{{cite web |url=https://lolesports.com/article/an-update-on-the-2023-lcs-summer-season/blt175d929f90a4804d |title=An Update on the 2023 LCS Summer Season |author=Naz Aletaha |publisher=Riot Games |date=2023-05-30}}</ref>
+{{See also|2023 LCS Player Walk-out|l1=2023 LCS Player Walk-out}}
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|qualifies1=World Championship/2023|qualifies1name=Worlds 2023|qualifies2=World_Championship/2023/Qualifying_Series|qualifies2name=Worlds Qualifying Series|cutafter=10|tournament1=LCS/2023/Summer/Group_Stage|tournament2=LCS/2023/Summer/Playoffs|groupElimStatuses=stay
+|{{Slot|qualified1=yes|usdprize=100,000}}
+|{{Slot|qualified1=yes|usdprize=50,000}}
+|{{Slot|qualified1=yes|usdprize=30,000}}
+|{{Slot|qualified2=yes|usdprize=20,000}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/2023/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5
+|title=Playoffs MVP
+|tournament=LCS/2023/Summer/Playoffs
+}}
+{{box|end}}
+===Tournament Awards===
+
+{{box|start|padding=2em}}
+====All-Season Awards====
+{{prize pool start award|noprize=true|cutafter=9|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Most Valuable Player |Jojopyun |flag1=ca |team1=eg |date=2023-08-17 }}
+{{prize pool slot award|award=Most Improved Player |Licorice |flag1=us |team1=ggs |date=2023-08-09 }}
+{{prize pool slot award|award=Rookie of the Year |Yeon |flag1=us |team1=tl |date=2023-08-02 }}
+{{prize pool slot award|award=Coaching Team of the Split |date=2023-08-02
+|Spookz |flag1=au |team1=ggs
+|ChuChuZ |flag2=au |team2=ggs
+|HustlinbeasT |flag3=se |team3=ggs
+|Bubbadub |flag4=us |team4=ggs
+|Glenn Thomakos	 |flag5=us |team5=ggs
+}}
+{{prize pool slot award|award=1st All-Pro Team |date=2023-07-26
+|Licorice |flag1=ca |team1=ggs
+|Blaber |flag2=us |team2=c9
+|Jojopyun |flag3=ca |team3=eg
+|Berserker |link4=Berserker_(Korean_player) |flag4=kr |team4=c9
+|huhi |flag5=kr |team5=ggs
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2023-07-26
+|Summit |flag1=kr |team1=tl
+|River |flag2=kr |team2=ggs
+|Gori |flag3=kr |team3=ggs
+|Stixxay |flag4=us |team4=ggs
+|Zven |flag5=dk |team5=c9
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2023-07-26
+|Fudge |flag1=au |team1=c9
+|Pyosik |flag2=kr |team2=tl
+|EMENES |flag3=kr |team3=c9
+|UNFORGIVEN |link4=Unforgiven (Swedish player) |flag4=se |team4=eg
+|CoreJJ |flag5=kr |team5=tl
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+====Player of the Week====
+{{prize pool start award|noprize=true|tier=weekly|margin=false|cutafter=8}}
+{{prize pool slot award|award=Player of the Week 1 |date=2023-06-23 |Summit |flag1=kr |team1=tl }}
+{{prize pool slot award|award=Player of the Week 2 |date=2023-06-23 |Armao |flag1=us |team1=eg }}
+{{prize pool slot award|award=Player of the Week 3 |date=2023-06-30 |Prince |flag1=kr |team1=fly }}
+{{prize pool slot award|award=Player of the Week 4 |date=2023-07-07 |Insanity |flag1=us |team1=tsm }}
+{{prize pool slot award|award=Player of the Week 5 |date=2023-07-14 |Palafox |flag1=us |team1=nrg }}
+{{prize pool slot award|award=Player of the Week 6 |date=2023-07-21 |Jojopyun |flag1=ca |team1=eg }}
+
+{{Prize pool end}}
+{{box|end|padding=2em}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2023-04-10
+|edate=2023-06-14
+|team=100t
+|team2=c9
+|team3=clg
+|team4=dig
+|team5=eg
+|team6=fly
+|team7=ggs
+|team8=imt
+|team9=tl
+|team10=tsm
+|team11=nrg
+}}
+{{Transfer List|title=Roster moves during the season
+|sdate=2023-06-15
+|edate=2023-08-20
+|team=100t
+|team2=c9
+|team3=clg
+|team4=dig
+|team5=eg
+|team6=fly
+|team7=ggs
+|team8=imt
+|team9=tl
+|team10=tsm
+|team11=nrg
+}}
+
+==Participating Teams LCS Summer 2023==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Closer
+|p3=Quid
+|p4=Doublelift
+|p5=Busio
+
+|t2p1=Nukeduck |t2pos1=mid
+|t3p1=Cain |t3pos1=head coach
+|t3p2=Dan Dan |t3pos2=assistant coach
+|t3p3=Nukeduck |t3pos3=assistant coach
+
+|inotes={{NoteBig
+|n1='''June 14th -''' [[100 Thieves]] will use [[Nukeduck]] in week 1 due to visa issues for [[Quid]]. <ref>{{cite web |url=https://twitter.com/100T_Esports/status/1669042040112308227 |title=LCS Update |date=2023-06-14 |author=[[100 Thieves]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=EMENES
+|p4=Berserker |p4link=Berserker (Korean player)
+|p5=Zven
+
+|t2p1=mithy |t2pos1=head coach
+|t2p2=Malice |t2pos2=coach
+|t2p3=Rigby |t2pos3=coach
+|t2p4=Veigarv2 |t2pos4=assistant coach
+|t2p5=Duffman |t2pos5=assistant coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Dignitas
+|p1=Rich |p1link=Rich (Korean player)
+|p2=Santorin
+|p3=Jensen
+|p4=Tomo
+|p5=Diamond|p5link=Diamond (Canadian player)
+|p6=Poome|pos6=sup
+
+|t2p1=Enatron|t2pos1=head coach
+|t2p2=Svenskeren|t2pos2=Strategic coach
+|t2p3=Invokid|t2pos3=positional coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Revenge
+|p2=Sheiden
+|p3=Jojopyun
+|p4=Unforgiven|p4link=Unforgiven (Swedish player)
+|p5=Eyla
+
+|t2p1=Armao |t2pos1=jg
+
+|t3p1=Razvan |t3pos1=head coach
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Impact
+|p2=Spica
+|p3=VicLa
+|p4=Prince
+|p5=Vulcan
+
+|t2p1=Spirax |t2pos1=mid
+
+|t3p1=SSONG |t3pos1=head coach
+|t3p2=Phantiks |t3pos2=strategic coach
+|t3p3=Sharkz |t3p3flag=by |t3pos3=Coach
+|t3p4=Montagne |t3p4flag=uk |t3pos4=analyst
+|t3p5=Sygh |t3p5flag=us |t3pos5=analyst
+|t3p6=Loyota|t3p6flag=us|t3pos6=analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Licorice
+|p2=River |p2link=River (Korean player)
+|p3=Gori
+|p4=Stixxay
+|p5=huhi
+
+|t2p1=Array |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Inero |t3pos1=manager
+|t3p2=Spookz |t3pos2=head coach
+|t3p3=ChuChuZ |t3p3flag=au |t3pos3=coach
+|t3p4=HustlinbeasT |t3pos4=coach
+|t3p5=Bubbadub |t3pos5=Analyst|t3p5flag=us 
+|t3p6=Glenn Thomakos |t3pos6=Analyst|t3p6flag=us 
+}}
+{{TeamCard
+|team=Immortals
+|p1=Solo
+|p2=Kenvi
+|p3=Bolulu
+|p4=Tactical
+|p5=Treatz
+
+|t2p1=Mabrey |t2pos1=head coach
+|t2p2=Dayos |t2pos2=coach
+|t2p3=Invert |t2pos3=coach
+|t2p4=Draxyr |t2pos4=positional coach
+|t2p5=Xmithie |t2pos5=strategic coach
+|t2p6=Joey |t2pos6=assistant coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=NRG
+|p1=Dhokla
+|p2=Contractz
+|p3=Palafox
+|p4=FBI
+|p5=IgNar
+
+|t2p1=Thinkcard |t2pos1=Head coach
+|t2p2=Juves |t2pos2=Coach
+|t2p3=Mash |t2pos3=Coach
+|t2p4=Apollo |t2pos4=Positional Coach
+|t2p5=Croissant |t2pos5=Strategic Coach
+|t2p6=Damonte |t2pos6=positional coach
+|t2p7=sOAZ |t2pos7=positional coach
+|t2p8=Gunaso |t2pos8=analyst
+|t2title=Staff
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Summit
+|p2=Pyosik
+|p3=APA
+|p4=Yeon
+|p5=CoreJJ
+
+|t2p1=Haeri |t2pos1=mid
+
+|t3p1=Reignover |t3pos1=head coach
+|t3p2=Dodo |t3pos2=assistant coach
+|t3p3=Haitham |t3p3flag=iq |t3pos3=head analyst
+}}
+{{TeamCard
+|team=TSM
+|p1=Hauntzer
+|p2=Bugi
+|p3=Insanity
+|p4=WildTurtle
+|p5=Chime
+
+|t2p1=Ruby |t2pos1=mid
+
+|t3p1=Reven |t3pos1=head coach
+|t3p2=Jido |t3pos2=analyst
+|t3title=Staff
+}}
+{{TeamCard columns end}}
+
+==Results LCS Summer 2023==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/2023/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/2023/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCS23SumPO}}
+
+==Format==
+* '''Group Stage''' - 
+** Double Round Robin
+** Each team plays 18 matches.
+**All matches are {{Abbr/Bo1}}
+**1st to 8th place will play the Playoffs
+***1st and 2nd place are seeded into Upper Bracket Semifinals
+***3rd to 6th place are seeded into Upper Bracket Quarterfinals
+***7th and 8th place are seeded into Lower Bracket Round 1
+
+* '''Playoffs ''' - 
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Top 3 qualify for the [[World Championship/2023|2023 World Championship]], 4th place qualifies for the [[World_Championship/2023/Qualifying_Series|2023 World Qualifying Series]].
+
+==Broadcast==
+===Streams===
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Gabby Durden
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Emily Rand
+|b2=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=CaptainFlowers
+|b2=Raafaa
+|b3=Cubby
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=Azael
+|b2=Jatt
+|b3=MarkZ
+|b4=Kobe
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="1" | [[Patch 13.11|13.11]]
+| colspan="2" | [[Patch 13.12|13.12]]
+| colspan="3" | [[Patch 13.13|13.13]]
+| colspan="1" | [[Patch 13.14|13.14]]
+|-
+| Disabled 
+| colspan="1" | {{ChampionIcon|ivern|30px}} {{ChampionIcon|rell|30px}}
+| colspan="5" |
+| colspan="1" | {{ChampionIcon|naafiri|35px}}
+|}
+
+===Statistics===
+{{#lst:LCS/2023/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/2023/Summer|edate=2023-12-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+{{2023 Season International Cycle Navbox}}

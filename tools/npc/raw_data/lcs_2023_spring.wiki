@@ -1,0 +1,390 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2F2023%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:12:25.719Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCS 2023 Spring }}
+{{NA LCS Navbox}}
+{{LCS 2023 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCS 2023 Spring 
+|shortname=2023 Spring 
+|tickername=LCS 2023 Spring 
+|image=League Championship Series.png
+|icon=League Championship Series 2021 icon lightmode.png
+|series=LCS
+|organizer=Riot Games
+|organizer-link=http://www.riotgames.com/ 
+|organizer2=
+|sponsor=[https://www.statefarm.com/ State Farm] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|patch=
+|epatch=
+|server=North America
+|type=Offline
+|country=United States
+|country2=United States
+|city=Los Angeles
+|city2=Raleigh
+|venue=Riot Games Arena
+|venue2=PNC Arena
+|format='''Group Stage''': Double Round Robin ({{Abbr/Bo1}}) <br> '''Playoffs:''' Double Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2023-01-26
+|edate=2023-04-09
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=
+|twitch=lcs
+|facebook=lolesports
+|twitter=lcsofficial
+|youtube=channel/UCSF_aFGIIIoWY30GVV19TKA
+|instagram=lolesports
+|team_number=10
+|previous=LCS/2022/Summer{{!}}2022 Summer 
+|next=LCS/2023/Summer{{!}}2023 Summer 
+}}
+The '''LCS 2023 Spring''' was the first split of the 2023 [[League of Legends Championship Series]] season, organized by Riot Games. It took place from January 26 to April 9, 2023, with the Regular Season held at the Riot Games Arena in Los Angeles, United States, and the Finals at the PNC Arena in Raleigh, United States. Ten franchised teams competed in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Double Elimination {{Abbr/Bo5}} Playoff bracket. The total prize pool was $200,000 USD. The top two teams from the Playoffs qualified for the [[Mid-Season Invitational/2023|2023 Mid-Season Invitational]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=10 |groupElimStatuses=down,staydown,stay
+|tournament1=LCS/2023/Spring/Group Stage
+|tournament2=LCS/2023/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2023
+|{{Slot |place=1 |qualified1=yes|usdprize=100,000}}
+|{{Slot |place=2 |qualified1=yes|usdprize=50,000}}
+|{{Slot |place=3 |usdprize=30,000}}
+|{{Slot |place=4 |usdprize=20,000}}
+}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/2023/Spring/Group Stage
+}}
+{{box|break|padding=2em}}
+
+{{MVPTable|cutafter=5
+|title=Playoffs MVP
+|tournament=LCS/2023/Spring/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+
+{{box|start|padding=2em}}
+====All-Season Awards====
+{{prize pool start award|noprize=true|cutafter=7|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Berserker |link=Berserker (Korean player) |flag1=kr |team1=c9 |date=2023-04-06}}
+{{prize pool slot award|award=Coaching Team of the Split |mithy |flag1=es |Malice |flag2=se |Tails |flag3=ca |Selfie |flag4=pl |Veigarv2 |flag5=no |Armao |flag6=us |team1=c9 |team2=c9 |team3=c9 |team4=c9 |team5=c9 |team6=c9 |date=2023-03-29 }}
+{{prize pool slot award|award=1st All-Pro Team |date=
+|Fudge |flag1=au |team1=c9
+|Blaber |flag2=us |team2=c9
+|Gori |flag3=kr |team3=ggs
+|Berserker |link4=Berserker (Korean player) |flag4=kr |team4=c9
+|Vulcan |flag5=ca |team5=eg
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=
+|Impact |flag1=kr |team1=fly
+|Spica |flag2=cn |team2=fly
+|EMENES |flag3=kr |team3=c9
+|Prince |flag4=kr |team4=fly
+|Zven |flag5=dk |team5=c9
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=
+|Ssumday |flag1=kr |team1=eg
+|Inspired |flag2=pl |team2=eg
+|Vicla |flag3=kr |team3=fly
+|Doublelift |flag4=us |team4=100
+|huhi |flag5=kr |team5=ggs
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+====Player of the Week====
+{{prize pool start award|noprize=true|tier=weekly|margin=false|cutafter=8}}
+{{prize pool slot award|award=Player of the Week 1 |date=2023-01-27 |Fudge |flag1=au |team1=c9 }}
+{{prize pool slot award|award=Player of the Week 2 |date=2023-02-03 |Prince |flag1=kr |team1=fly }}
+{{prize pool slot award|award=Player of the Week 3 |date=2023-02-10 |Prince |flag1=kr |team1=fly }}
+{{prize pool slot award|award=Player of the Week 4 |date=2023-02-17 |Stixxay |flag1=us |team1=gg }}
+{{prize pool slot award|award=Player of the Week 5 |date=2023-02-24 |River |flag1=kr |team1=gg }}
+{{prize pool slot award|award=Player of the Week 6 |date=2023-03-03 |jojopyun |flag1=ca |team1=eg }}
+{{prize pool slot award|award=Player of the Week 7 |date=2023-03-10 |EMENES |flag1=kr |team1=c9 }}
+{{prize pool slot award|award=Player of the Week 8 |date=2023-03-17 |Doublelift |flag1=us |team1=100 }}
+
+{{Prize pool end}}
+{{box|end|padding=2em}}
+
+{{box|end|padding=2em}}
+<!--
+==Roster Moves==
+{{Transfer List
+|sdate=2022-08-29
+|team=100t
+|team2=c9
+|team3=clg
+|team4=dig
+|team5=eg
+|team6=fly
+|team7=ggs
+|team8=imt
+|team9=tl
+|team10=tsm
+}}-->
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Tenacity
+|p2=Closer
+|p3=Bjergsen
+|p4=Doublelift
+|p5=Busio
+
+|t2p1=Kaas |t2pos1=head coach |t2p1leave=true
+|t2p2=Nukeduck |t2pos2=head coach
+|t2p3=Dan Dan |t2pos3=assistant coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=EMENES
+|p4=Berserker |p4link=Berserker (Korean player)
+|p5=Zven
+
+|t2p1=Diplex |t2pos1=mid
+
+|t3p1=mithy |t3pos1=head coach
+|t3p2=Tails |t3p2flag=ca |t3pos2=assistant coach
+|t3p3=Veigarv2 |t3pos3=assistant coach
+|t3p4=Selfie |t3pos4=positional coach
+|t3p5=Armao |t3pos5=positional coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Dhokla
+|p2=Contractz
+|p3=Palafox
+|p4=Luger
+|p5=poome
+
+|t2p1=Thinkcard |t2pos1=head coach
+|t2p2=Croissant |t2pos2=strategic coach
+|t2p3=Apollo |t2pos3=positional coach
+|t2p4=Damonte |t2pos4=positional coach
+|t2p5=sOAZ |t2pos5=positional coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Dignitas
+|p1=Armut
+|p2=Santorin
+|p3=Jensen
+|p4=Tomo
+|p5=Ignar
+
+|t2p1=Spawn |t2p1link=Spawn (Canadian player) |t2pos1=bot
+|t2p2=Biofrost |t2pos2=sup 
+
+|t3p1=Enatron |t3pos1=head coach
+|t3p2=Invokid|t3pos2=positional coach
+|t3title=Staff
+|inotes={{NoteBig
+|n1='''January 24th -''' [[Dignitas]] will use [[Biofrost]] in week 1 due to visa issues for [[Ignar]]. <ref>{{cite web |url=https://twitter.com/BakeryGG/status/1617968141237358594 |title=An update on our #LCS roster for Week #1 |date=2023-01-24 |author=[[Bakery]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Ssumday
+|p2=Inspired
+|p3=Jojopyun
+|p4=FBI
+|p5=Vulcan 
+
+|t2p1=Freeze |t2pos1=head coach
+|t2p2=H4xDefender |t2p2flag=us |t2pos2=assistant coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Impact
+|p2=Spica
+|p3=VicLa
+|p4=Prince
+|p5=Winsome
+
+|t2p1=Eyla |t2pos1=sup
+
+|t3p1=SSONG |t3pos1=head coach
+|t3p2=Phantiks |t3pos2=Strategic Coach
+|t3p3=Sharkz |t3pos3=
+|t3p4=Montagne |t3pos4=Analyst|t3p4flag=uk
+|t3p5=Sygh |t3pos5=Analyst|t3p5flag=us 
+|t3p6=Loyota|t3p6flag=us|t3pos6=analyst
+|inotes={{NoteBig
+|n1='''January 18th -''' [[FlyQuest]] will use [[Winsome]] in week 1 due to visa issues for [[Eyla]]. <ref>{{cite web |url=https://twitter.com/FlyQuest/status/1615484235363516416 |title=Week 1 #LCS FlyQuest Roster Update |date=2023-01-18 |author=[[FlyQuest]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Licorice
+|p2=River |p2link=River (Korean player)
+|p3=Gori
+|p4=Stixxay
+|p5=huhi
+
+|t2p1=Young |t2pos1=mid
+
+|t3p1=Inero |t3pos1=manager
+|t3p2=Spookz |t3pos2=head coach
+|t3p3=ChuChuZ |t3p3flag=au |t3pos3=coach
+|t3p4=HustlinbeasT |t3pos4=coach
+|t3p5=Bubbadub |t3pos5=Analyst|t3p5flag=us 
+|t3p6=Glenn Thomakos |t3pos6=Analyst|t3p6flag=us 
+|t3title=Staff
+|inotes={{NoteBig
+|n1='''January 24th -''' [[Golden Guardians]] will use [[Young]] in week 1 due to visa issues for [[Gori]]. <ref>{{cite web |url=https://twitter.com/GoldenGuardians/status/1618398442417721344 |title=Meet your GG starting lineup for Week 1 of the 2023 LCS Spring Split! |date=2023-01-25 |author=[[Golden Guardians]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Immortals
+|p1=Revenge
+|p2=Kenvi
+|p3=Bolulu
+|p4=Tactical
+|p5=Fleshy
+
+|t2p1=ablazeolive |t2pos1=mid
+
+|t3p1=Mabrey |t3pos1=head coach
+|t3p2=Xmithie |t3pos2=positional coach
+|t3p3=Draxyr |t3pos3=positional coach
+|t3p4=Dayos |t3p4flag=ca |t3pos4=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Summit
+|p2=Pyosik
+|p3=Haeri
+|p4=Yeon
+|p5=CoreJJ
+
+|t2p1=MaRin |t2pos1=head coach
+|t2p2=Reignover |t2pos2=assistant coach
+|t2p3=Haitham |t2pos3=Head Analyst|t2p3flag=eg
+|t2p4=TeeKay |t2p4flag=us |t2pos4=coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=TSM
+|p1=Hauntzer
+|p2=Bugi
+|p3=Maple
+|p4=WildTurtle
+|p5=Chime
+
+|t2p1=Solo |t2pos1=top
+|t2p2=Neo|t2p2link=Neo (American player)|t2pos2=bot
+
+|t3p1=Chawy |t3pos1=head coach
+|t3title=Staff
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/2023/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/2023/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=LCS23SprPO}}
+
+==Format==
+* '''Group Stage''' - 
+** Double Round Robin
+** Each team plays 18 matches.
+**All matches are {{Abbr/Bo1}}
+*** {{bgcolortext|seedup|''1st till 4th place''}} advance to the Upper-bracket of Playoffs.
+*** {{bgcolortext|up|''5th and 6th place''}} advance to the Lower-bracket of Playoffs.
+
+* '''Playoffs ''' - 
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Winner and the runner-up qualify for [[Mid-Season Invitational/2023|Mid-Season Invitational 2023]]
+
+==Broadcast==
+===Streams===
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=LeTigress
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Emily Rand
+|b2=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=CaptainFlowers
+|b2=Raafaa|b2flag=pe|b2name=Marc Arrambide
+}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Azael
+|b2=Jatt
+|b3=MarkZ
+|b4=Kobe
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Guest Analyst
+|b1=Bwipo
+|b2=QTCinderella |b2flag=us |b2name=Blaire
+}}
+{{BroadcasterCard
+|position=Guest Commentator
+|b1=Broxah
+|b2=Jensen
+|b3=Chime
+|b4=Revenge
+|b5=Dhokla
+|b6=Closer
+}}
+{{box|end|padding=2em}}
+
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/2023/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/2023/Spring|edate=2023-05-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+{{2023 Season International Cycle Navbox}}
