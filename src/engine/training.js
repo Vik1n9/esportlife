@@ -112,27 +112,49 @@ function greatFailureMul(stamina) {
 
 /* ================= 選單 ================= */
 
-/** 每個活動選項給 UI 的說明文字：體力標價、影響屬性、預期成功率 */
-function activityNote(state, activity) {
-  const cost = activity.cost;
-  const price = cost >= 0 ? `體力 −${cost}` : `體力 +${-cost}`;
-  if (activity.kind === 'rest') return `${price}　恢復體力`;
-  if (activity.kind === 'rehab') return `${price}　降低受傷風險`;
-  const attrs = Object.keys(activity.weights)
-    .map((k) => ATTR_NAMES[k]).join('·');
-  const pct = Math.round(expectedSuccess(state, activity) * 100);
-  const hero = activity.kind === 'heroes' ? '練英雄專精' : attrs;
-  return `${price}　${hero}　成功率 ${pct}%`;
+/**
+ * 一個活動選項的三段資訊，只算一次（§22.2.1，S39）。
+ *
+ * `note` 字串與結構化欄位（UI 的三欄可掃讀與屬性條高亮）都從這裡導出——
+ * 同一份計算結果兩種呈現，不出現第二份手抄本（單一來源規則）。
+ *
+ * @returns {{staminaDelta:number, attrs:string[], effectText:string, successRate:number|null}}
+ *   staminaDelta 正＝恢復、負＝消耗；attrs 是影響的屬性鍵（英雄池／休息／復健為空）；
+ *   successRate 是預期成功率整數百分位（休息／復健不分成敗，為 null）
+ */
+function activityInfo(state, activity) {
+  const staminaDelta = -activity.cost;
+  if (activity.kind === 'rest') return { staminaDelta, attrs: [], effectText: '恢復體力', successRate: null };
+  if (activity.kind === 'rehab') return { staminaDelta, attrs: [], effectText: '降低受傷風險', successRate: null };
+  const attrs = Object.keys(activity.weights);
+  const successRate = Math.round(expectedSuccess(state, activity) * 100);
+  const effectText = activity.kind === 'heroes'
+    ? '練英雄專精'
+    : attrs.map((k) => ATTR_NAMES[k]).join('·');
+  return { staminaDelta, attrs, effectText, successRate };
+}
+
+/** 結構化欄位壓回的單行說明（保留欄位：既有呼叫端與測試讀它） */
+function noteFromInfo({ staminaDelta, effectText, successRate }) {
+  const price = staminaDelta >= 0 ? `體力 +${staminaDelta}` : `體力 −${-staminaDelta}`;
+  return successRate == null ? `${price}　${effectText}` : `${price}　${effectText}　成功率 ${successRate}%`;
 }
 
 /** 養成回合的活動選單（§4 第 2 步）。month.js 據此組 choice */
 export function trainingMenu(state) {
-  return TRAINING_ACTIVITIES.map((a) => ({
-    id: a.id,
-    label: a.name,
-    main: a.kind === 'train' || a.kind === 'heroes',
-    note: activityNote(state, a),
-  }));
+  return TRAINING_ACTIVITIES.map((a) => {
+    const info = activityInfo(state, a);
+    return {
+      id: a.id,
+      label: a.name,
+      main: a.kind === 'train' || a.kind === 'heroes',
+      note: noteFromInfo(info),
+      staminaDelta: info.staminaDelta,
+      attrs: info.attrs,
+      effectText: info.effectText,
+      successRate: info.successRate,
+    };
+  });
 }
 
 /* ================= 結算 ================= */

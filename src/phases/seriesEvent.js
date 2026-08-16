@@ -117,11 +117,14 @@ export function* runSeriesEvent(g, {
   yield card('info', `${title} · 賽前`, preMatchNarrative(stakes, oppNote, state, oppTitle));
 
   /* ── 第 2 拍：備賽戰術選擇（賽事期唯一的決策點） ── */
+  // `'act'`（§22.2 第 4 條明訂）：備賽戰術與訓練菜單同性質——規劃型決策，要對照
+  // 屬性條與體力才選得下去，所以回底部決策槽，不跟卡片覆寫走（S39）
   const pickedId = yield {
     type: 'choice',
     kind: 'tactics',
+    slot: 'act',
     stakes,
-    title: `${title} · 備賽`,
+    title: `備賽戰術 · ${title}`,
     options: TACTICS.map((t) => ({
       id: t.id,
       label: t.label,

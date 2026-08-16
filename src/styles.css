@@ -14,7 +14,9 @@
    [hidden] 與 #act.collapsed 必須 display:none!important；
    #panel 預設隱藏、.open 才顯示；.yr-block.collapsed 收年度；
    #bd-quests 無任務時由 JS 切 [hidden] 整列折疊（§22.5）；
-   #attrbar 常駐、DOM 上緊貼 #act 上方，中間不得插入其他區塊（§22.1）。
+   #attrbar 常駐、DOM 上緊貼 #act 上方，中間不得插入其他區塊（§22.1）；
+   #act 的高度是決策槽的載重規則（§22.2.1）：位置與高度固定，內容超出改槽內捲動——
+   不得隨當月選項數量抽長縮短；生涯結束由 JS 切 [hidden] 整槽收掉。
    ============================================================ */
 
 :root{
@@ -153,6 +155,12 @@ button{font-family:var(--ui)}
 .card.legendary h4{color:var(--legendary)} .card.legendary h4::before{background:var(--legendary)}
 .card-body{font-size:14.5px;font-weight:400}
 
+/* 卡牌覆寫選項組（§22.2，S39）：接在卡片下緣；選定後換成定格文字，不留可按外觀 */
+.inline-opts{margin-top:10px;padding-top:8px;border-top:var(--hair) solid var(--edge)}
+.inline-opts .btn{margin-top:6px}
+.inline-title{font-size:13px;font-weight:600}
+.inline-picked{color:var(--dim);font-size:12.5px}
+
 /* 等寬字的統計行（比數、結算） */
 .statline{font-family:var(--mono);font-size:12.5px;background:var(--night);
   border-radius:var(--r-sm);padding:6px 8px;margin-top:6px;line-height:1.7;color:var(--dim)}
@@ -227,7 +235,10 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
   position:sticky;bottom:0;z-index:20;background:var(--night);
   border-top:var(--hair) solid var(--edge);
   padding:12px 14px calc(12px + env(safe-area-inset-bottom));
-  max-height:70dvh;overflow-y:auto;
+  /* §22.2.1：決策槽位置與高度固定，不隨當月選項數抽長縮短——內容超出時槽內捲動，
+     槽本身不長高。368px 以手機窄寬（390px）八項訓練菜單雙欄格為準量出：訓練按鈕
+     的三段資訊在窄屏拆兩行、單顆 74px，4 行×2 顆＋標題是全模式最高的內容（見 .act-grid） */
+  height:368px;max-height:70dvh;overflow-y:auto;
 }
 #act.collapsed{display:none!important}
 #act-toggle{display:block;margin:0 auto -4px;background:var(--night);border:var(--hair) solid var(--edge);
@@ -235,6 +246,14 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 #act-toggle:hover{color:var(--text)}
 .act-title{display:inline-block;font-size:13px;font-weight:600;margin-bottom:8px;
   border-bottom:2px solid var(--action);padding-bottom:4px}
+
+/* 訓練菜單雙欄格（§22.2.1 三項並列，S39）：八項活動壓成四行，決策槽高度才收得住 */
+.act-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.act-grid .btn{margin-top:0;padding:8px 10px}
+.btn .t-name{display:block;font-size:14px;font-weight:600}
+.btn .t-meta{display:flex;flex-wrap:wrap;gap:1px 8px;margin-top:3px;font-size:11.5px;color:var(--dim)}
+.btn .t-meta i{font-style:normal;white-space:nowrap}
+.btn .t-meta .up{font-weight:600}
 
 /* 按鈕：無邊框填色、3px 圓角的家族 */
 .btn{

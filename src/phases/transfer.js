@@ -159,6 +159,7 @@ function* buyout(g, heat) {
 
   const picked = yield {
     type: 'choice',
+    slot: 'act',   // 階段決策走底部決策槽（§22.2，S39）；本檔其餘 choice 同
     title: `買斷報價 · ${offer.team}`,
     options: [
       {
@@ -197,6 +198,7 @@ function* academyStage(g) {
 
   const picked = yield {
     type: 'choice',
+    slot: 'act',
     title: '青訓年度結束',
     options: [
       { id: 'try', label: `再次參加${state.am2Track === 'OVERSEAS' ? '海外' : '主場'}賽區試訓`, main: true, note: scoutVerdict(state) },
@@ -306,6 +308,7 @@ function* amateurStage(g) {
 
   const picked = yield {
     type: 'choice',
+    slot: 'act',
     title: mandatory
       ? `網咖盃第 ${state.stageYear} 年 · 該做決定了`
       : `有人要簽你 · ${state.year}`,
@@ -331,6 +334,7 @@ function* amateurDeadEnd(g) {
   }
   const picked = yield {
     type: 'choice',
+    slot: 'act',
     title: `網咖盃第 ${state.stageYear} 年 · 還沒有人來`,
     options: [
       { id: 'stay', label: '再打一年網咖盃', main: true, note: `${scoutVerdict(state)}｜最多撐到 22 歲` },
@@ -421,6 +425,7 @@ function* freeAgency(g, { forced }) {
 
   const pickedId = yield {
     type: 'choice',
+    slot: 'act',
     title: forced ? '自由市場報價一覽（強制轉隊）' : '合約到期 · 取得自由球員資格',
     options,
   };

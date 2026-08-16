@@ -22,7 +22,9 @@
  *   {type:'divider', text}                年度分隔線
  *   {type:'month', year, month}           月份推進（狀態列的進度顯示）
  *   {type:'checkpoint'}                   建議存檔點（年初）
- *   {type:'choice', title, options[]}     → resume 以 option.id
+ *   {type:'choice', title, options[], slot}→ resume 以 option.id。slot：'act'（底部
+ *                                           決策槽，預設語意）／'inline'（卡牌下緣，
+ *                                           §22.2 卡牌覆寫）。**發射端必寫**，UI 不猜
  *   {type:'alloc', mode, dice|points}     → resume 以 undefined（UI 直接改 state）
  *   {type:'end'}                          生涯結束
  */
@@ -307,6 +309,7 @@ export function* retirement(g) {
   const options = retireOptions(state);
   const picked = yield {
     type: 'choice',
+    slot: 'act',   // 生涯層級的階段決策，回底部決策槽（§22.2，S39）
     title: '職業生涯的最後一頁',
     options: options.map((o) => ({ id: o.id, label: o.label, note: o.note, main: o.id === 'announce' })),
   };

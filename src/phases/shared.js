@@ -105,8 +105,11 @@ export function* drawEvent(g, ev, { fromChain = false } = {}) {
 
   yield card('', ev.name, cardText(ev, cardVars(state)));
 
+  // `'inline'`（§22.2 卡牌覆寫，S39）：事件卡是卡牌內的即時反應，選項就地出在
+  // 這張卡下緣。⚠ 上一個 beat 必須是 card——UI 用最後一張卡當錨點，發射順序不能調
   const pickedId = yield {
     type: 'choice',
+    slot: 'inline',
     title: `${ev.name}：你怎麼應對？`,
     options: ev.options.map((o) => ({
       id: o.id, label: o.label, main: !!o.main, note: optionNote(state, o),
@@ -249,8 +252,10 @@ export function* drawRoleplay(g, when, { amp: extraAmp = 1, event = null, oppTit
   const vars = cardVars(state, { event, oppTitle });
   yield card('', ev.name, cardText(ev, vars));
 
+  // 扮演卡與事件卡同屬卡牌內的即時反應（§22.2 卡牌覆寫，S39）：選項就地出在卡下緣
   const pickedId = yield {
     type: 'choice',
+    slot: 'inline',
     title: ev.name,
     options: ev.options.map((o) => ({ id: o.id, label: o.label, main: o.tone === 'plain' })),
   };

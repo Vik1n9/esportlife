@@ -13,10 +13,10 @@ import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import {
   SUCCESS_COEF, TRAIN_YIELD, TRAINING_ACTIVITIES, drawTrainingCard,
-  expectedSuccess, resolveTraining, tickActiveEffects,
+  expectedSuccess, resolveTraining, tickActiveEffects, trainingMenu,
 } from '../../src/engine/training.js';
 import { TRAINING_CARDS, poolOfTier } from '../../src/data/trainingCards.js';
-import { ATTRS } from '../../src/data/attributes.js';
+import { ATTR_NAMES, ATTRS } from '../../src/data/attributes.js';
 import { MENTAL_KEYS } from '../../src/data/mental.js';
 import { staminaOf } from '../../src/engine/stamina.js';
 
@@ -229,6 +229,36 @@ export async function run({ check, log }) {
     check('結算結果帶檔位對應的卡', !!result.card && result.card.tier === result.tier, result.card?.tier);
     check('結算結果有 attrNotes 欄位', Array.isArray(result.attrNotes), typeof result.attrNotes);
     check('結算後體力被消耗', staminaOf(s) < 90, staminaOf(s));
+  }
+
+  /* ---- 選單的結構化欄位（§22.2.1 三項並列，S39） ---- */
+  // 訓練選項的三段資訊（體力增減／影響屬性／預期成功率）必須以機器欄位給 UI，
+  // 不能再只有一條壓扁的字串；note 保留，且兩者必須同源（同一份計算結果）
+  {
+    const state = fresh('menu-s', { stamina: 90 });
+    const menu = trainingMenu(state);
+    check('選單與活動表同長', menu.length === TRAINING_ACTIVITIES.length, String(menu.length));
+    for (const opt of menu) {
+      const act = TRAINING_ACTIVITIES.find((a) => a.id === opt.id);
+      check(`${act.id}：staminaDelta 與 cost 反號（正＝恢復）`,
+        opt.staminaDelta === -act.cost, `${opt.staminaDelta} vs cost ${act.cost}`);
+      if (act.kind === 'rest' || act.kind === 'rehab') {
+        check(`${act.id}：休息／復健不分成敗`, opt.successRate === null, String(opt.successRate));
+        check(`${act.id}：休息／復健不影響屬性`, Array.isArray(opt.attrs) && opt.attrs.length === 0, JSON.stringify(opt.attrs));
+      } else {
+        check(`${act.id}：successRate 等於 expectedSuccess 的四捨五入（不重算）`,
+          opt.successRate === Math.round(expectedSuccess(state, act) * 100),
+          `${opt.successRate} vs ${expectedSuccess(state, act)}`);
+        check(`${act.id}：attrs 就是活動的屬性鍵`,
+          JSON.stringify(opt.attrs) === JSON.stringify(Object.keys(act.weights)), JSON.stringify(opt.attrs));
+      }
+    }
+    // note 是同一份計算結果的另一種呈現——過寫入端的欄位重建一遍，不手抄字串
+    const mech = menu.find((o) => o.id === 'mechanics');
+    const mechNote = `體力 −${-mech.staminaDelta}　${mech.attrs.map((k) => ATTR_NAMES[k]).join('·')}　成功率 ${mech.successRate}%`;
+    check('note 與結構化欄位同源（重建後逐字相同）', mech.note === mechNote, `${mech.note} vs ${mechNote}`);
+    const rest = menu.find((o) => o.id === 'rest');
+    check('休息的 note 也走同一份欄位', rest.note.includes(`體力 +${rest.staminaDelta}`), rest.note);
   }
 
   log(`設施制訓練：${TRAINING_ACTIVITIES.length} 個活動、${TRAINING_CARDS.length} 張訓練事件卡（S18 完整目錄）`);

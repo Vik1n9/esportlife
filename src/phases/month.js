@@ -70,14 +70,24 @@ export function* run(g, phase) {
   /* ---- 1–2：狀態與選擇 ---- */
   const stamina = staminaOf(state);
   const band = bandOf(stamina);
+  // ⚠ 標題是純文字：askChoice 以 textContent 渲染，塞 HTML 會把標籤原樣印出來
   const preview = phase.matchWeight > 0 && !benched(g)
-    ? `　<span class="muted">本月有${phase.split?.name || '例行賽'}</span>` : '';
+    ? `　本月有${phase.split?.name || '例行賽'}` : '';
+
+  /*
+   * 三模式標題（§22.2 表格，S39）：常規月「本月訓練」／休賽期（1／12 月）
+   * 「休賽期行動」。模式由發射端依月份帶下來，UI 只負責顯示、不自己判斷月份。
+   * 賽事期由 seriesEvent 的「備賽戰術」標題承擔，養成回合不排賽事月（§3.3），
+   * 所以這裡不會出現第三種模式。
+   */
+  const mode = phase.month === 1 || phase.month === 12 ? '休賽期行動' : '本月訓練';
 
   const picked = yield {
     type: 'choice',
     kind: 'month',
+    slot: 'act',
     month: phase.month,
-    title: `${phase.month} 月　體力 ${Math.round(stamina)}（${band.label}）${preview}`,
+    title: `${mode} · ${phase.month} 月　體力 ${Math.round(stamina)}（${band.label}）${preview}`,
     options: trainingMenu(state),
   };
 

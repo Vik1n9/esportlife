@@ -6,7 +6,7 @@
 import { careerFlow } from '../engine/game.js';
 import { renderAttrBar } from './attrbar.js';
 import { renderBoard } from './board.js';
-import { askAllocation, askChoice, clearActions } from './actions.js';
+import { askAllocation, askChoice, askInline, clearActions } from './actions.js';
 import { renderCard, renderDivider } from './log.js';
 import { refreshPanel } from './panel.js';
 import { clearSave, saveGame } from './storage.js';
@@ -40,7 +40,9 @@ export async function runCareer({ state, rng, seed, appVersion }) {
         saveGame(state, rng);
         break;
       case 'choice':
-        input = await askChoice(beat);
+        // slot 由發射端指定（§22.2 卡牌覆寫，S39）：'inline' 就地出在卡下緣，
+        // 其餘（含缺失）回底部決策槽
+        input = beat.slot === 'inline' ? await askInline(beat) : await askChoice(beat);
         break;
       case 'alloc':
         await askAllocation(state, beat, sync);
@@ -52,6 +54,8 @@ export async function runCareer({ state, rng, seed, appVersion }) {
       case 'end':
         clearSave();
         byId('act-toggle').style.display = 'none';
+        // 決策槽高度固定（§22.2.1），生涯結束後清空不夠——整槽收掉才不會留一塊空白
+        byId('act').hidden = true;
         break;
       default:
         break;

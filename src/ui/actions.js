@@ -2,6 +2,8 @@
 import { ATTR_ABBR, ATTR_CAP, ATTR_NAMES, POTENTIAL_BANDS } from '../data/attributes.js';
 import { attrCap, attrKeys, growthThreshold, investAttr, needForNextGain } from '../engine/attributes.js';
 import { byId, clear, el, scrollToBottom } from './dom.js';
+import { highlightAttrs } from './attrbar.js';
+import { lastCard } from './log.js';
 
 /** `state.potential` 缺鍵時的保底，與 `engine/attributes.js` 同一個值 */
 const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
@@ -23,11 +25,11 @@ let awaitingInput = false;
 export const isAwaitingInput = () => awaitingInput;
 
 /**
- * 顯示一組選項，回傳玩家選中的 id。
+ * 顯示一組選項，回傳玩家選中的 id。只服務 `slot:'act'` 的 choice——底部決策槽。
  *
- * 設施制訓練（S16）之後，養成回合的「活動選單」也走這裡——每個選項的 `note` 已由
- * `engine/training.js` 的 `trainingMenu` 組好（活動名、影響屬性、體力消耗、吃當下體力
- * 算出的預期成功率），這裡只負責畫按鈕。
+ * 設施制訓練（S16）之後，養成回合的「活動選單」也走這裡；S39 起 `trainingMenu`
+ * 除 `note` 外另帶結構化欄位（體力增減／影響屬性鍵／預期成功率，§22.2.1 三段並列），
+ * 選項帶齊三個欄位就畫成三欄可掃讀的雙欄格，hover／focus 連動上方屬性條高亮。
  * @returns {Promise<string>}
  */
 export function askChoice({ title, options }) {
@@ -38,16 +40,96 @@ export function askChoice({ title, options }) {
     clear(act);
     if (title) act.appendChild(el('div', { class: 'act-title', text: title }));
 
+    const pick = (opt) => {
+      highlightAttrs(null);
+      clear(act);
+      awaitingInput = false;
+      resolve(opt.id);
+    };
+
+    const structured = options.every((o) => 'staminaDelta' in o && 'successRate' in o);
+    const list = structured ? el('div', { class: 'act-grid' }) : act;
+    if (structured) act.appendChild(list);
+
     for (const opt of options) {
-      const btn = el('button', {
-        class: 'btn',
-        onclick: () => { clear(act); awaitingInput = false; resolve(opt.id); },
-      });
-      btn.appendChild(el('span', { text: opt.label }));
-      if (opt.note) btn.appendChild(el('small', { text: opt.note }));
-      act.appendChild(btn);
+      const btn = structured ? trainBtn(opt) : plainBtn(opt);
+      btn.addEventListener('click', () => pick(opt));
+      list.appendChild(btn);
     }
     byId('act-toggle').style.display = '';
+    scrollToBottom();
+  });
+}
+
+/** 一般選項：標籤＋單行註記 */
+function plainBtn(opt) {
+  const btn = el('button', { class: 'btn' });
+  btn.appendChild(el('span', { text: opt.label }));
+  if (opt.note) btn.appendChild(el('small', { text: opt.note }));
+  return btn;
+}
+
+/**
+ * 訓練選項：三段資訊並列（§22.2.1）＋屬性條高亮連動。
+ *
+ * ⚠ 畫面上**只有預期成功率**——失敗率與大成功／大失敗細分機率不得出現（§5.4）。
+ * 高亮讀的是結構化欄位 `attrs`（屬性鍵），不是去解析顯示字串。
+ */
+function trainBtn(opt) {
+  const btn = el('button', { class: 'btn train' });
+  btn.appendChild(el('span', { class: 't-name', text: opt.label }));
+
+  const meta = el('span', { class: 't-meta' });
+  const sign = opt.staminaDelta >= 0 ? '+' : '−';
+  meta.appendChild(el('i', { class: opt.staminaDelta >= 0 ? 'up' : '', text: `體力 ${sign}${Math.abs(opt.staminaDelta)}` }));
+  if (opt.effectText) meta.appendChild(el('i', { class: 't-eff', text: opt.effectText }));
+  if (opt.successRate != null) meta.appendChild(el('i', { class: 't-rate', text: `成功率 ${opt.successRate}%` }));
+  btn.appendChild(meta);
+
+  if (opt.attrs?.length) {
+    const light = () => highlightAttrs(opt.attrs);
+    const dim = () => highlightAttrs(null);
+    btn.addEventListener('mouseenter', light);
+    btn.addEventListener('mouseleave', dim);
+    btn.addEventListener('focus', light);
+    btn.addEventListener('blur', dim);
+  }
+  return btn;
+}
+
+/**
+ * 卡牌覆寫（§22.2，S39）：`slot:'inline'` 的選項接在**剛才那張卡**的下緣，
+ * 不覆寫底部決策槽——卡牌結束決策槽自然歸還（它從來沒被佔用過）。
+ *
+ * 與 `askChoice` 的生命週期差異：`askChoice` 選定後清空 `#act`；這裡選定後選項組
+ * **就地換成定格文字**（「你選了 X」）留在卡片裡，成為敘事的一部分。兩邊都會把
+ * `awaitingInput` 歸位——屬性條〔+N〕入口靠它避開等待期。
+ * @returns {Promise<string>}
+ */
+export function askInline({ title, options }) {
+  const anchor = lastCard();
+  // 防呆：inline choice 的前一個 beat 必是 card（tests/phases/choiceSlot.mjs 守著），
+  // 真沒有錨點時退回決策槽，選項不會憑空消失
+  if (!anchor) return askChoice({ title, options });
+
+  awaitingInput = true;
+  return new Promise((resolve) => {
+    const box = el('div', { class: 'inline-opts' });
+    if (title) box.appendChild(el('div', { class: 'inline-title', text: title }));
+
+    for (const opt of options) {
+      const btn = plainBtn(opt);
+      btn.addEventListener('click', () => {
+        awaitingInput = false;
+        clear(box);
+        box.classList.add('picked');
+        box.appendChild(el('div', { class: 'inline-picked', text: `你選了 ${opt.label}` }));
+        resolve(opt.id);
+        scrollToBottom();
+      });
+      box.appendChild(btn);
+    }
+    anchor.appendChild(box);
     scrollToBottom();
   });
 }
