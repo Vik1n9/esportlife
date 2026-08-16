@@ -517,3 +517,10 @@
 2026-08-16T19:29:12.395Z 退避重試 HTTP 429（15s 後）
 2026-08-16T19:29:32.741Z 退避重試 HTTP 429（45s 後）
 2026-08-16T19:30:23.244Z FAIL LEC/2024/Finals（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LEC%2F2024%2FFinals&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T19:30:31.473Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:30:41.812Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:31:02.651Z 退避重試 HTTP 429（45s 後）
+2026-08-16T19:31:53.717Z FAIL LEC/2024/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LEC%2F2024%2FSpring&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T19:32:01.461Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:32:11.796Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:32:32.143Z 退避重試 HTTP 429（45s 後）
