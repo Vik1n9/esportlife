@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Qubi&redirects=1
+<!-- 抓取: 2026-08-16T16:58:51.678Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Qubi
+|ids=Chain
+|autoPI=Yes
+|image=
+|name=陳思翰
+|romanized_name=Chen Sih-han
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Mid
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

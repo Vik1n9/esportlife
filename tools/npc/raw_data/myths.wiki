@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Myths&redirects=1
+<!-- 抓取: 2026-08-16T16:49:07.858Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Myths
+|autoPI=Yes
+|image=
+|romanized_name=Tang Kit Man
+|familyname=Tang
+|givenname=Kit Man
+|name=邓杰文
+|birth_date=
+|country=Hong Kong
+|country2=
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Myths}}
+
+==Awards==
+{{player awards table|player=Myths}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Taco&redirects=1
+<!-- 抓取: 2026-08-16T17:41:27.363Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Taco
+|autoPI=Yes
+|image=
+|name=樊兆富
+|romanized_name=Fan Chao-fu
+|familyname=Fan
+|givenname=Chao-fu
+|birth_date=
+|country=Taiwan
+|team=
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Taco}}
+
+==Awards==
+{{player awards table|player=Taco}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

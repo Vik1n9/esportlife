@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Fish%20Dive%20Team&redirects=1
+<!-- 抓取: 2026-08-16T14:45:30.762Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Fish Dive Team
+|image=Fish Dive Team Logo.png
+|location=Taiwan
+|region=tw
+|sponsor=
+|website=
+|facebook=
+|instagram=
+|youtube=
+|twitch=
+|fanclub=
+|twitter=
+|created=2019-01-04
+|disbanded=2019-04-03
+}}
+'''Fish Dive Team''' was a [[:Category:Taiwan|Taiwanese]] team.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=DreamSha |name=Fei Chuan-Yuan |joindate=2019-01-04 }}
+|{{SquadAutoRow|id=Tako |name=Huang Mu-Siang |joindate=2019-01-04 }}
+|{{SquadAutoRow|id=CDD |name=Lin Yu-Lin |joindate=2019-01-04 }}
+|{{SquadAutoRow|id=seven six |link=Seven_six |name=Chen Bai-Ting |joindate=2019-01-04 }}
+|{{SquadAutoRow|id=Deer |name=Hung Sheng-Yu |joindate=2019-01-04 }}
+|{{SquadAutoRow|id=Fanshu |name=Wang Ying-Jian |joindate=2019-01-04 }}
+}}
+
+==Achievements==
+{{Team achievements table|team=Fish Dive Team}}
+==Recent Matches==
+{{Team recent matches table|team=Fish Dive Team}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

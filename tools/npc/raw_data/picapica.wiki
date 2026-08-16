@@ -1,0 +1,31 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PicaPica&redirects=1
+<!-- 抓取: 2026-08-16T17:37:53.097Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=PicaPica
+|autoPI=Yes
+|name=混韩偶
+|romanized_name=Chun-han Hou
+|birth_date=
+|country=Taiwan
+|country2=China
+|status=Active
+|roles=Support
+|twitter=Picapicalol
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

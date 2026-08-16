@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=CCB&redirects=1
+<!-- 抓取: 2026-08-16T15:38:50.168Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=CCB
+|image=
+|name=嚴詳鈞
+|romanized_name=Yen Hsiang-chun 
+|familyname=Yen
+|givenname=Hsiang-chun 
+|birth_date=
+|country=Taiwan
+|autoPI=Yes
+|status=Retired
+|roles=Top
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=CCB}}
+
+==Awards==
+{{player awards table|player=CCB}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,28 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Billy%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T15:35:27.286Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Billy
+|autoPI=Yes
+|image=
+|name=許家誌
+|romanized_name=Hs Chia-chih
+|birth_date=2003-11-20
+|country=Taiwan
+|status=Active
+|roles=jungle
+|ids=1X
+}}
+
+==Achievements==
+{{player achievements table|player=Billy (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Billy (Taiwanese player)}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Yuen&redirects=1
+<!-- 抓取: 2026-08-16T17:21:44.581Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Yuen
+|image=
+|name=黃榮遠
+|romanized_name=Wong Wing Yuen
+|familyname=Wong
+|givenname=Wing Yuen
+|birth_date=2001-10-21
+|country=Hong Kong
+|autoPI=Yes
+|status=active
+|roles=Support
+|twitch=yuenjai19
+|instagram=yuenjaiwwy
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Yuen}}
+
+==Awards==
+{{player awards table|player=Yuen}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

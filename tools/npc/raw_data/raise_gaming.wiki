@@ -1,0 +1,55 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Raise%20Gaming&redirects=1
+<!-- 抓取: 2026-08-16T14:56:33.792Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Raise Gaming
+|image=Raise_Gaming_Logo.png
+|motto=
+|alternate-name=
+|ceo=
+|manager=
+|location=Taiwan
+|region=Taiwan
+|captain=
+|website=
+|sponsor=
+|created=2016-09-12
+|disbanded=2017-09-16
+|footnotes=
+|twitter=
+|facebook=Raise.GnE
+|instagram=
+|youtube=
+}}
+'''Raise Gaming''' was a [[:category:Taiwan|Taiwanese]] esports organisation.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Dream |link=Dream_(Taiwanese_player) |name=Yeh Chung-Yao |joindate=2017-03-01 }}
+|{{SquadAutoRow|id=Ran |link=Ran_(Taiwanese_player) |name=Chen Kuan-Yu |joindate=2017-03-01 }}
+|{{SquadAutoRow|id=Fish |link=Fish_(Taiwanese_player) |name=Yang Yu-Sheng |joindate=2016-09-12 }}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Domo |name=Kung Yu-Te |joindate=2016-09-12 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Raise Gaming}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Raise Gaming}}
+}}
+
+==Awards==
+{{Team awards table|team=Raise Gaming}}
+
+==References==
+{{Reflist}}
+{{Team roster}}

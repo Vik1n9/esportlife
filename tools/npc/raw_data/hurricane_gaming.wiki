@@ -1,0 +1,49 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Hurricane%20Gaming&redirects=1
+<!-- 抓取: 2026-08-16T14:51:14.187Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Hurricane Gaming
+|location=Taiwan
+|region=Taiwan
+|league=PCS
+|website=
+|twitter=
+|facebook=
+|youtube=
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2022-02-11
+|disbanded=2022-06-18
+}}
+'''Hurricane Gaming''' was a [[:category:Taiwan|Taiwanese]] esports organisation, formerly known as [[Alpha Esports]]. They left the [[PCS]] when [[Dewish Team]] acquired their league slot, signing most of '''Hurricane Gaming's''' players players.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=ICU |name=Ke Wen-Hong |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=Aoliao |name=Le Jun-Yao |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=BangTwo |name=Huang Jyun-Kai |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=EnHao |name=Cai Hao-En |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=Happiness |name=Chen Hsin-Fu |joindate=2022-02-11 }}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Hurricane Gaming}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Hurricane Gaming}}
+}}
+
+==Awards==
+{{Team awards table}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

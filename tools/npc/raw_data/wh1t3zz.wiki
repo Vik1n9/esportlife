@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wh1t3zZ&redirects=1
+<!-- 抓取: 2026-08-16T17:41:34.488Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Wh1t3zZ
+|image=Royal Club Wh1t3zZ Worlds 2013.jpg
+|name=盧本偉
+|romanized_name=Lo Pun Wai
+|familyname=Lo
+|givenname=Pun Wai
+|birth_date=1993-08-11
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=mid
+|twitch=
+|autoPI=Yes
+|twitter=
+|bestgg=wh1t3zz
+|reddit=
+|nicknames= 五五开
+|champion=Kassadin
+|champion2=Twisted Fate
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Wh1t3zZ}}
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table|player=Wh1t3zZ}}
+
+==Media==
+{{Player Media}}
+
+==References==

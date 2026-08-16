@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=RenYe&redirects=1
+<!-- 抓取: 2026-08-16T18:08:47.514Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=RenYe
+|autoPI=Yes
+|image=
+|name=陳駿豐
+|romanized_name=Yang Yu-jen
+|familyname=Yang
+|givenname=Yu-jen
+|birth_date=
+|country=Taiwan
+|status=active
+|roles=jungle
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=RenYe}}
+
+==Awards==
+{{player awards table|player=RenYe}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

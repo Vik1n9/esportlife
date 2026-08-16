@@ -1,0 +1,36 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kane&redirects=1
+<!-- 抓取: 2026-08-16T16:39:31.762Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=kane
+|image=
+|name=李智鴻
+|romanized_name=Li Chi Hung
+|familyname=Li
+|givenname=Chi Hung
+|autoPI=Yes
+|birth_date=1994-07-20
+|country=Hong Kong
+|status=Retired
+|roles=bot
+|twitch=kaming810
+|ids=kane4357, k4ne, Bat
+|facebook=kane4357
+|youtube=
+|reddit=
+|achievements=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=kane}}
+
+==Awards==
+{{player awards table|player=kane}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

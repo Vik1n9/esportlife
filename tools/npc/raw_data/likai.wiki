@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Likai&redirects=1
+<!-- 抓取: 2026-08-16T16:44:46.018Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Likai
+|image=Likai_Worlds_2022.jpg
+|name=廖俐凱
+|romanized_name=Liao Li-kai 
+|familyname=Liao
+|givenname=Li-kai 
+|birth_date=
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=active
+|roles=top
+|ids=Lika1
+|factor=1772
+|twitter=
+|instagram=
+|facebook=
+}}
+
+==Achievements==
+{{player achievements table|player=Likai}}
+
+==Awards==
+{{player awards table|player=Likai}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

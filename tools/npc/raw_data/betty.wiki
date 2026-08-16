@@ -1,0 +1,59 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Betty&redirects=1
+<!-- 抓取: 2026-08-16T15:35:22.791Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Betty
+|image=GZ Betty LCP 2026 Split 3.jpg
+|ids=DoubleRed
+|name=盧禹宏
+|romanized_name=Lu Yu-hung
+|familyname=Lu
+|givenname=Yu-hung
+|birth_date=2000-01-16
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=Bot
+|twitch=betty206046
+|bestgg=betty
+|facebook=bettylolz
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+FW Betty 2018MSI.jpg|[[Flash Wolves|FW]] Betty at the [[Mid-Season_Invitational/2018|Mid-Season Invitational 2018]]
+FW Betty 2019MSI.jpg|[[Flash Wolves|FW]] Betty at the [[Mid-Season_Invitational/2019|Mid-Season Invitational 2019]]
+PSG Betty at the 2024 Mid-Season Invitational.jpg|[[PSG Talon|PSG]] Betty at the [[Mid-Season_Invitational/2024|Mid-Season Invitational 2024]]
+PSG Betty at the 2024 World Championship.jpg|[[PSG Talon|PSG]] Betty at [[Worlds 2024]]
+PSG Betty at Worlds 2025 Swiss Stage.jpg|[[PSG Talon|PSG]] Betty at [[Worlds 2025]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Tournament|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2024-11-30
+  |content2={{LeagueIconSmall/kespa cup|link=KeSPA Cup/2024}} [[KeSPA Cup/2024|KeSPA Cup 2024]]
+  |content3={{TeamIcon|chinese taipei|2024-11-30}}
+  |content4={{TeamIcon|kdf|2024-11-30}}
+  |content5={{ChampionIcon|Miss Fortune|size=25px}} [[Miss Fortune]]
+  |content6={{PositionIcon/bottom}} Bot
+  |content7=[https://youtu.be/IusL_KgnMME?t=2h14m36s VOD]
+}}
+{{ResponsiveTableEnd}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

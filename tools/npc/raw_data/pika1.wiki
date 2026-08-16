@@ -1,0 +1,26 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Pika1&redirects=1
+<!-- 抓取: 2026-08-16T16:58:31.579Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Pika1
+|autoPI=Yes
+|name=張育傑
+|romanized_name=Chang Yu-chieh
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Bot
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

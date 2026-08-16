@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Fung&redirects=1
+<!-- 抓取: 2026-08-16T15:50:06.215Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Fung
+|image=
+|name=陳姚峰
+|romanized_name=Chan Yiu Fung
+|familyname=Chan
+|givenname=Yiu Fung
+|birth_date=2000-10-28
+|country=Hong Kong
+|autoPI=Yes
+|status=active
+|roles=jungle
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Fung}}
+
+==Awards==
+{{player awards table|player=Fung}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

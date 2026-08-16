@@ -1,0 +1,27 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Cause&redirects=1
+<!-- 抓取: 2026-08-16T15:40:38.616Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Cause
+|autoPI=Yes
+|image=
+|name=吳承諭
+|romanized_name=Wu Cheng-yu
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Top
+}}
+
+==Achievements==
+{{player achievements table|player=Cause}}
+
+==Awards==
+{{player awards table|player=Cause}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

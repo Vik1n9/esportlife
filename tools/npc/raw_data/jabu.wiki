@@ -1,0 +1,26 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Jabu&redirects=1
+<!-- 抓取: 2026-08-16T16:04:33.964Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Jabu
+|autoPI=Yes
+|name=Lee Wen-hao
+|birth_date=
+|country=Taiwan
+|status=Active
+|role=Top
+|role2=Jungle
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

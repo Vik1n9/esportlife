@@ -1,0 +1,60 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Beyond%20Gaming&redirects=1
+<!-- 抓取: 2026-08-16T14:44:06.810Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|beyond gaming}}
+|name2={{Team|beyond gaming academy}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Beyond Gaming
+|image=Beyond Gaming full lightmode.png
+|imagedark=Beyond Gaming full darkmode.png
+|location=Taiwan
+|region=Taiwan
+|city=Taipei
+|league=PCS
+|website=
+|facebook=BeyondGamingBYG
+|instagram=beyond_gaminglol
+|twitter=BeyondGaminglol
+|twitch=
+|youtube=channel/UCMffhzC-EZlm00zL4bqH76A
+|created={{League of Legends}}: 2021-01-27
+|disbanded=2024-04-20
+}}
+'''Beyond Gaming''' was a [[:Category:Taiwan|Taiwanese]] esports organization competing in the '''LoL Pacific Championship Series'''.
+
+==History==
+Beyond Gaming was formed in 2021 by the acquisition of [[Ahq_e-Sports_Club|AHQ e-Sports Club]]'s ''PCS'' slot by former professional player [[DinTer]]. With a roster of [[Liang]], [[HuSha]], [[Husky]], [[Doggo]] and [[Kino]]. This team placed 2nd in their debut split, losing against [[PSG Talon]] in the [[PCS/2021/Spring|2021 Spring Finals]]. [[Doggo]] was loaned to [[PSG Talon]] for [[Mid-Season_Invitational/2021|MSI 2021]], but returned to the team after this loan period with a 3-4th place finish. Building on this success, Beyond Gaming stuck with the same roster heading into [[PCS/2021/Summer|Summer]]. This is where they once again finished second, beating [[PSG Talon]] in their first time, but eventually losing 3-2 in the finals. With a second place in the '''PCS''', Beyond Gaming qualified for [[World_Championship/2021|Worlds 2021]] in their debut year. After their 3-2 reverse sweep win against [[Galatasaray Esports]] earlier on the day, news started surfacing about [[Maoan]] leaking draft information for betting purposes. <ref>{{cite web |url=https://twitter.com/Reirachuu/status/1446571893339803650 |title=maoan has apparently been leaking pick/ban to people for betting |date=2021-10-08 |author=[[Reirachu]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref> Later that night, ''LoL Esports'' announced that [[Maoan]] was banned for the rest of [[World_Championship/2021|Worlds 2021]]. <ref name="Maoan suspended">{{cite web|url=https://twitter.com/lolesports/status/1446607587626176516|title=Competitive Ruling: Chien "Maoan" Mao-An|date=2021-10-08|author='''LoL Esports'''|language={{Flag|usuk}} English}}</ref> [[PK]] took over the mid-lane spot against [[Hanwha Life Esports]], which Beyond Gaming lost 3-0 to place 17-18th at the event.
+
+Ahead of 2022, Beyond Gaming signed [[Likai]], [[Minji]], [[SeNBon]] and [[Wako]]  to expand to an 8-man roster, while [[Maoan]] left the team. <ref>{{cite web |url=https://www.facebook.com/106040958163234/posts/274091791358149 |title=2021 絲BYG Fleet 們 is a year full of surprises. I hope all fans will accompany me to welcome a better year 2022, I will accompany you to the world once again! |date=2021-12-09 |author=Beyond Gaming |publisher=Facebook |language={{Flag|cn}} Chinese}}</ref> Despite a strong mid-season, Beyond Gaming lost to [[Deep Cross Gaming]] and [[J Team]] to place 5-6th in the [[PCS/2022/Spring|PCS 2022 Spring Playoffs]]. With the same roster for [[PCS/2022/Summer|Summer]], the team once again finished the regular season with an 11-7 record. In playoffs, Beyond Gaming took out reigning champions [[PSG Talon]] but fell 3-0 to [[CTBC Flying Oyster]] to finish second and qualify for the [[World_Championship/2022/Play-In|Worlds 2022 Play-in Stage]]. On September 12th, [[Beyond Gaming Academy]] was introduced in the [[Asia_Star_Challengers_Invitational/2022|Asia Star Challengers Invitational]], featuring former players [[Maoan]] and [[TNS]].
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=SeNBon |name=Wu Si-yu |joindate=2021-12-09 }}
+|{{SquadAutoRow|id=TNS |name=Huang Po-Wei |joindate=2021-02-04 }}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=KK |name=Xi Kun-han |joindate=2021-12-09 }}
+|{{SquadAutoRow|id=Wulala |name=Liu Sheng-wie |joindate=2021-12-09 }}
+|{{SquadAutoRow|id=Butter |name=Li Ming|joindate=2022-12-09 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Beyond Gaming}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Beyond Gaming}}
+}}
+
+==References==
+{{Reflist}}
+<br>
+{{Team roster}}

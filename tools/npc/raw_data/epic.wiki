@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Epic&redirects=1
+<!-- 抓取: 2026-08-16T15:48:03.645Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Epic
+|image=
+|name=胡晉軒
+|romanized_name=Wu Chun Hin
+|familyname=Wu
+|givenname=Chun Hin
+|birth_date=1998-10-01
+|country=Hong Kong
+|team=
+|autoPI=Yes
+|status=active
+|roles=jungle
+|twitch=
+|ids=
+|twitter=
+|bestgg=epic
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Epic}}
+
+==Awards==
+{{player awards table|player=Epic}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

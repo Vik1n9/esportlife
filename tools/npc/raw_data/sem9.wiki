@@ -1,0 +1,56 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=SEM9&redirects=1
+<!-- 抓取: 2026-08-16T17:04:07.623Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/SEM9}}
+{{Tabs static
+|name1={{Team|SEM9 WPE}}
+|name2={{Team|sem9}}
+|name3={{Team|berjaya dragons}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=SEM9
+|image=SEM9 allmode.png
+|location=Malaysia
+|region=Southeast Asia
+|league=PCS
+|facebook=SEM9.gg
+|instagram=sem9.gg
+|website=https://www.sem9.gg/
+|created={{League of Legends}}: 2020-01-17
+|disbanded=2022-12-04
+}}
+'''SEM9''' is a [[:Category:Malaysia|Malaysian]] professional esports organization, they joined the PCS by acquiring [[Berjaya Dragons]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Noname|link=Noname_(Chen_Jia_Wei) |name=Chen Jia Wei |joindate=2022-06-23 }}
+|{{SquadAutoRow|id=XieDoDo |name=Chiang Tung Chun |joindate=2022-06-19 }}
+|{{SquadAutoRow|id=Qaspiel |name=Eric Sia Sze Pin |joindate=2021-11-23 }}
+|{{SquadAutoRow|id=Kirino |name=Lee Kai Wen |joindate=2021-11-23 }}
+|{{SquadAutoRow|id=Clayx |name=Lim Yew Siang |joindate=2021-11-23 }}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Kent |name=Kent Ong |joindate=2021-11-23 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=SEM9}}
+|name2=Recent Matches |content2={{Team recent matches table|team=SEM9}}
+}}
+
+==Awards==
+{{Team awards table|team=SEM9}}
+
+==References==
+{{Reflist|1}}
+{{Team roster}}

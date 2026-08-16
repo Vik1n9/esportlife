@@ -1,0 +1,50 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=KaSing&redirects=1
+<!-- 抓取: 2026-08-16T16:08:25.288Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE: kaSing}}
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=kaSing
+|autoPI=Yes
+|image=XL kaSing 2019LEC.jpg
+|name=曾家星
+|romanized_name=Raymond Tsang
+|birth_date=1993-12-08
+|country2=Hong Kong
+|country=United Kingdom
+|status=Active
+|roles=support
+|sponsor=
+|ids=Yerrowstar
+|twitch=kasinglol
+|facebook=kasinglol
+|instagram=kasinglol
+|twitter=Kasing
+}}
+
+==Achievements==
+{{player achievements table}}
+==Statistics==
+{{Player statistics table}}
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+SHC KaSing EU LCS 2014 Summer.jpg|KaSing at [[LCS/Europe/2014/Summer|EU LCS 2014 Summer]] with [[SUPA HOT CREW]]
+H2K kaSing EU LCS 2015 Summer.jpg|KaSing at [[LCS/Europe/2015/Summer|EU LCS 2015 Summer]] with [[H2K]]
+Vitality KaSing EU LCS 2016 Spring.jpg|KaSing at [[LCS/Europe/2016/Spring|EU LCS 2016 Spring]] with [[Team Vitality]]
+Splyce kaSing EU LCS 2018 Spring.jpg|KaSing at [[LCS/Europe/2018/Spring|EU LCS 2018 Spring]] with [[Splyce]]
+SPY kaSing 2018EULCS.jpg|KaSing at [[LCS/Europe/2018/Summer|EU LCS 2018 Summer]] with [[Splyce]]
+</gallery>
+
+==Additional Content==
+===Interviews===
+{{ExternalMediaList
+|type=Interview
+|subject=KaSing
+|seperate_years=true
+}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

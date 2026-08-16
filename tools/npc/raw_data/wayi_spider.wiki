@@ -1,0 +1,54 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wayi%20Spider&redirects=1
+<!-- 抓取: 2026-08-16T15:10:25.733Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Wayi Spider}}
+{{Team Tabs}}
+{{Infobox team
+|name=Wayi Spider
+|location=Taiwan
+|region=taiwan
+|image=Wayi Spider allmode.png
+|website=http://www.madteam.com.tw/
+|website2=http://www.wayispider.com/
+|facebook=WAYISPIDER.TW
+|twitter=WayiSpiderTeam
+|created=2008
+|disbanded=2017-12-15
+}}
+'''Wayi Spider''' was a professional esports based in [[:Category:Taiwan|Taiwan]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Rain |link=Rain (Taiwanese player) |name= |joindate=2016-10-28}}
+|{{SquadAutoRow|id=Zor |name=Wu Chu-yung |joindate=2016-10-28}}
+|{{SquadAutoRow|id=Chunx |name= |joindate=2016-12-22}}
+|{{SquadAutoRow|id=LOFS |name= |joindate=2016-12-22}}
+|{{SquadAutoRow|id=Blues |name= |joindate=2017-03-13}}
+|{{SquadAutoRow|id=Rins |name=Shen Po-Ju |joindate=2017-03-13}}
+|{{SquadAutoRow|id=Nexus |link=Nexus (Hong Kong player) |name= |joindate=2017-05-12}}
+|{{SquadAutoRow|id=Zest |name=Hsieh Ming-Hsuan |joindate=2017-05-12}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Yo |name=Fan Chih-wei |joindate=2016-12-22}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Wayi Spider}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Wayi Spider}}
+}}
+
+==Awards==
+{{Team awards table|team=Wayi Spider}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

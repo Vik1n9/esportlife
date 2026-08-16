@@ -1,0 +1,36 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Breeze&redirects=1
+<!-- 抓取: 2026-08-16T16:28:50.403Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Breeze
+|autoPI=Yes
+|image=MAD Breeze 2018Worlds.jpg
+|name=黃建源
+|romanized_name=Huang Chien-yuan
+|familyname=Huang
+|givenname=Chien-yuan
+|birth_date=1997-09-20
+|country=Taiwan
+|status=retired
+|roles=Bot
+|ids=
+|twitch=breeze0920
+|instagram=breeze.lol
+|facebook=Breeze0920
+|bestgg=breeze
+|retired=2019-12-02
+}}
+
+
+==Achievements==
+{{player achievements table|player=Breeze}}
+
+==Awards==
+{{player awards table|player=Breeze}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

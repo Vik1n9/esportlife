@@ -1,0 +1,46 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Beyond%20Gaming%20Academy&redirects=1
+<!-- 抓取: 2026-08-16T14:44:11.251Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|beyond gaming}}
+|name2={{Team|beyond gaming academy}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Beyond Gaming Academy
+|image=Beyond Gaming full lightmode.png
+|imagedark=Beyond Gaming full darkmode.png
+|location=Taiwan
+|region=Taiwan
+|city=Taipei
+|league=PCS Academy
+|website=
+|facebook=BeyondGamingBYG
+|instagram=beyond_gaminglol
+|twitter=BeyondGaminglol
+|twitch=
+|youtube=channel/UCMffhzC-EZlm00zL4bqH76A
+|created={{League of Legends}}: 2022-09-12
+}}
+'''Beyond Gaming Academy''' was a [[:Category:Taiwan|Taiwanese]] esports team and academy roster of [[Beyond Gaming]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Beyond Gaming Academy}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Beyond Gaming Academy}}
+}}
+
+==Awards==
+{{Team awards table|team=Beyond Gaming Academy}}
+
+==References==
+{{Reflist}}
+{{team roster}}

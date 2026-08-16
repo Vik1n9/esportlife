@@ -1,0 +1,94 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PSG%20Talon&redirects=1
+<!-- 抓取: 2026-08-16T14:56:26.927Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Talon Esports}}
+{{Tabs static
+|name1={{Team|paris saint-germain esports}}
+|name2={{Team|talon}}
+|name3={{Team|talon academy}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=PSG Talon
+|image=PSG Talon 2025 full allmode.png
+|imagedark=PSG Talon 2025 full allmode.png
+|location=Hong Kong
+|region=Southeast Asia
+|league=LCP
+|website=https://www.talon.gg/
+|discord=talonesports
+|facebook=loltalonesports
+|instagram=psgtalonlol
+|twitter=talonesportslol
+|twitch=talonesports
+|youtube=TaloneSports
+|created={{Org}}: 2017-03-16
+|created2={{League of Legends}}: 2019-12-19
+|disbanded=2025-11-18
+}}
+'''PSG Talon''' (formerly stylized as '''Talon Esports''', and previously also known as '''TALON''' prior to their partnership with [[Paris Saint-Germain eSports]]) is a [[:Category:Hong Kong|Hong Kong]] based esports organization founded in 2017.
+
+===Timeline===
+{{TimelineSquadAuto
+|{{SquadAutoRow|date=2025-01-05|displaydate=January 5th|text='''TALON''' and [[Paris Saint-Germain eSports]] announce the end of their [[League of Legends]] partnership. <ref>{{cite web |url=https://x.com/talonesportslol/status/1875875582283743720|title=TALON and Paris Saint-Germain Esports: Conclusion of League of Legends Partnership|author=[[TALON|TALON LOL]]|date=2025-01-05}}</ref>}}
+|{{SquadAutoRow|date=2025-07-15|displaydate=July 15th|text='''TALON''' and [[Paris Saint-Germain eSports]] renew their [[League of Legends]] partnership. <ref>{{cite web |url=https://x.com/psgtalonlol/status/1944970181815775320|title=THE PSG TALON BIRD IS ALIVE AGAIN!|author=[[TALON|PSG TALON LOL]]|date=2025-07-15}}</ref>}}
+}}
+
+==Player Roster==
+<!--===Active===
+{{ActiveSquadAuto
+}}-->
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|flag=au|id=Sean|name=Sean Zhang|role=Co-Founder |joindate= }}
+|{{SquadAutoRow|flag=kr|id=Dohoon|name=Kim Do-hoon|role=General Manager |joindate= }}
+}}
+
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Yuwan|name=Hsu Chi-Chun |joindate=2021-12-31 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Talon Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=PSG Talon|team2=Talon Esports}}
+}}
+
+==Awards==
+{{Team awards table|team=Talon Esports}}
+
+==History==
+PSG Talon competes in the Pacific Championship Series (PCS), the premier professional League of Legends competition incluiding Hong Kong, Southeast Asia, Taiwan, Macau, and Oceania. The team has achieved notable success in the PCS, winning six out of the league's eight championships and qualifying for the World Championship three times, in [[World_Championship/2020|2020]], [[World_Championship/2021|2021]], and [[World_Championship/2023|2023]]. 
+
+In 2019, '''Talon Esports''' was announced as one of the 10 teams participating in the [[PCS]]<ref name="psg annoucement">{{cite web |url=https://www.oneesports.gg/league-of-legends/here-are-the-teams-for-the-league-of-legends-pacific-championship-series-pcs-2020/ |title=Here are the teams for the League of Legends Pacific Championship Series (PCS) 2020 |author=Kistine "Kurisu" Tuting |date=2019-12-19 |accessdate=2023-11-10 |publisher=One Esports}}</ref>. Their roster was announced in 2020, consisting of [[Hanabi]], [[River (Korean player)|River]], [[Candy (Korean player)|Candy]], [[Unified]] and [[Kaiwing]]. They won their debut season, with a 3-2 victory against [[Machi Esports]] in the [[PCS/2020/Spring|Spring]] finals. Unfortunately, [[Mid-Season Invitational/2020|MSI 2020]] was cancelled, which meant no full international debut for the team. Despite this, they faced the Vietnamese teams at the [[Mid-Season_Showdown/2020|Mid Season Showdown]] and won the title by beating [[Team Flash]] 3-1 in the finals. Ahead of the [[PCS/2020/Summer|Summer Season]], they partnered with [https://en.psg.fr/ Paris Saint-Germain eSports] to rebrand to PSG Talon. In this split, they placed second following a 0-3 defeat against [[Machi Esports]]. At [[World_Championship/2020|Worlds 2020]], PSG Talon placed 9-12th following a 2/-/4 record in their group.
+
+In 2021, PSG Talon signed [[Maple]] as a new midlaner <ref name="maple annoucement">{{cite web |url=https://us.millenium.gg/news/21075.html |title=League of Legends: Tank leaves PSG Talon, becomes free agent |author=Adel Chouadria |date=2020-10-31 |accessdate=2023-11-10 |publisher=MGG}}</ref>. They went 17-1 in the regular season and swept [[J Team]] and [[Beyond Gaming]] to win the title and qualify for [[Mid-Season_Invitational/2021|MSI 2021]]. This is where they placed top 4, securing a pool 1 slot for their region for [[World Championship/2021|Worlds 2021]]. PSG Talon went undefeated in [[PCS/2021/Summer|Summer 2021]], but lost a game against [[Beyond Gaming]] in playoffs which ended their streak. Despite that, they won the split by beating [[Beyond Gaming]] 3-2 in the finals. This resulted in them qualifying directly for [[World Championship/2021|Worlds 2021]]. They started their first week well, going 2-1 with wins against [[Hanwha Life Esports]] and [[Fnatic]], but the team came short in week 2 and was eliminated in {{Ordinal|9-12}} place with a 3/-/3 record, behind [[Royal Never Give Up]] and [[Hanwha Life Esports]].
+
+On November 18th, 2025 the organization was removed from the [[LCP]], and had their partnership in ''[[valorant:TALON|VALORANT]]'' for the [[valorant:VALORANT_Champions_Tour|VCT Pacific League]] terminated, citing a "ailure to operate in accordance with league standards, especially significant delays in payments to players and coaches". <ref name="TALON kicked">{{cite web|url=https://lolesports.com/en-SG/news/riot-games-removes-talon-from-the-lcp/|title=Riot Games Removes Talon from the LCP|author=LoL Esports|date=2025-11-18}}</ref><ref name="TALON kicked2">{{cite web|url=https://valorantesports.com/en-SG/news/riot-games-terminates-talon-esports-vct-pacific-partnership|title=Riot Games Terminates TALON Esports' VCT Pacific Partnership|author=[[VALORANT Champions Tour]]|date=2025-11-18}}</ref>
+
+==Gallery==
+===Logos===
+{{TeamLogoGallery}}
+
+===Teams===
+<gallery mode="packed-hover" heights="250px">
+PSG Team Photo Worlds 2023.jpg|PSG Talon at [[Worlds 2023]]
+PSG Talon Team Photo MSI 2024.jpg|PSG Talon at [[MSI 2024]]
+</gallery>
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

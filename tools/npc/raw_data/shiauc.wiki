@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=ShiauC&redirects=1
+<!-- 抓取: 2026-08-16T17:04:17.928Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=ShiauC
+|autoPI=Yes
+|image=DCG_ShiauC_at_MSI_2026.jpg
+|name=劉家豪
+|romanized_name=Liu Chia-hao
+|familyname=Liu
+|givenname=Chia-hao
+|birth_date=1999-07-12
+|country=Taiwan
+|status=active
+|roles=support
+|ids=
+|facebook=ShiauClol
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+FW ShiauC 2019MSI.jpg|ShiauC at [[MSI 2019]] with [[Flash Wolves]].
+CFO_ShiauC_Worlds_2023.jpg|ShiauC at the [[World_Championship/2023|2023 World Championship]] with [[CTBC Flying Oyster]]
+DCG ShiauC at the LCP 2026 Promotion.jpg|[[Deep Cross Gaming | DCG]] ShiauC at the [[LCP/2026/Promotion|LCP 2026 Promotion]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

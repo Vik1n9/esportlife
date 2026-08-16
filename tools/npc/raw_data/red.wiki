@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=ReD&redirects=1
+<!-- 抓取: 2026-08-16T17:37:57.559Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=ReD
+|image=
+|name=李肇軒
+|romanized_name=Lee Siu Hin
+|familyname=Lee
+|givenname=Siu Hin
+|birth_date=1994-11-12
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=Top
+|twitter=
+|bestgg=
+|autoPI=Yes
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=ReD}}
+
+==Awards==
+{{player awards table|player=ReD}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

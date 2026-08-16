@@ -6,15 +6,19 @@
 ```
 tools/npc/
 ├── crawl.mjs          Liquipedia 抓取工具（零相依，Node 18+）
+├── gen-target-tw.mjs  target_players.csv 台港澳段生成器（S24b）
+├── gen-team-history.mjs  team_history.json 台港澳段生成器（S24b）
 ├── README.md          本檔
+├── target_players.csv 台港澳選手清單（S24b，priority 全 1）
+├── team_history.json  戰隊演變樹台港澳段（S24b，S24c 補國際段）
+├── *.txt              分類枚舉／抓取清單（enum-cat 產出，可重跑再生）
 └── raw_data/          整頁 Wikitext 原始抓取（進 repo，CC BY-SA 可稽）
     ├── manifest.jsonl 成功記錄（冪等／續傳的依據）
     └── crawl.log       缺頁／重定向／退避記錄
 ```
 
-下游中間產物（`team_history.json`、`cleaned_players.json` 等）由後續站（S24b 起）
-在此目錄生成；**遊戲資料**一律 ESM `.js`，JSON 只准住在 `tools/npc/` 內
-（規格 §23.3）。
+下游中間產物（`cleaned_players.json` 等）由後續站（S25 起）在此目錄生成；**遊戲資料**
+一律 ESM `.js`，JSON 只准住在 `tools/npc/` 內（規格 §23.3）。
 
 ## 政策要點（違反會被整 IP 擋）
 
@@ -69,6 +73,36 @@ manifest 記最終頁題與 `redirectTo`；缺頁記 `crawl.log`。
 node crawl.mjs probe "頁題"        # 單頁元資料（存在／重定向／大小），不落檔
 node crawl.mjs search "關鍵字"      # 全文搜尋找正確頁題（題名猜不到時）
 ```
+
+## S24b 產物與重跑流程
+
+`target_players.csv`（200 筆）與 `team_history.json`（42 隊）由 gen-*.mjs 從
+枚舉清單＋raw 隊頁生成，全部可重現：
+
+```bash
+# 1. 重新枚舉分類（清單檔再生）
+node crawl.mjs enum-cat "Category:Taiwanese Players" --out tw_players.txt
+node crawl.mjs enum-cat "Category:Hong Kong Players" --out hk_players.txt
+node crawl.mjs enum-cat "Category:Macau Players" --out mo_players.txt
+node crawl.mjs enum-cat "Category:Taiwanese Teams" --out tw_teams.txt
+node crawl.mjs enum-cat "Category:PCS Teams" --out pcs_teams.txt
+node crawl.mjs enum-cat "Category:LCP Teams" --out lcp_teams.txt
+# 2. 組隊清單＋全量抓取清單（選手/隊/賽事三分片合併）
+cat tw_teams.txt pcs_teams.txt lcp_teams.txt | sort -u > teams_all.txt
+node -e "讀 target_players.csv 的 player_id → players_twhkmo_final.txt"   # 或直接由 CSV 抽
+cat players_twhkmo_final.txt teams_all.txt events_twhkmo.txt | sort -u > crawl_twhkmo_all.txt
+# 3. 重新生成產物
+node gen-target-tw.mjs            # → target_players.csv
+node crawl.mjs crawl teams_all.txt  # 隊頁 raw（gen-team-history 的原料）
+node gen-team-history.mjs --all   # → team_history.json（人工表 ABBREVIATIONS/RENAMES 已內建）
+```
+
+⚠ `gen-team-history.mjs` 的 `ABBREVIATIONS`（縮寫）與 `RENAMES`（更名/繼承）是
+**人工維護的單一來源**（電競圈通用縮寫＋隊頁散文明示的繼承關係，2026-08-16 定案）。
+重跑會用表內值覆寫輸出，不要改產出檔、要改表。`--all` 只影響警告輸出。
+賽事頁清單（`events_twhkmo.txt`，31 頁）手寫維護：GPL 2012–2014 9 頁、
+LMS 2015–2019 10 頁、PCS 2020–2024 10 頁、LCP 2025 3 頁（格式跨年不一，見
+24a 頁題陷阱第 4 點）。
 
 ## 探勘結論（S24a 實測，交接筆記全文在 docs/v4/24a-探勘與管線.md）
 

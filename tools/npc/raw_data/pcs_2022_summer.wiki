@@ -1,0 +1,387 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2022%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T16:56:15.494Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Summer 2022}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2022/Summer
+|name2=Group Stage
+|link2=PCS/2022/Summer/Group Stage
+|name3=Playoffs
+|link3=PCS/2022/Summer/Playoffs
+|name4=Statistics
+|link4=PCS/2022/Summer/Statistics
+|This=1}}
+{{Infobox league
+|name=PCS Summer 2022
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|shortname=Summer 2022
+|tickername=PCS Summer 2022
+|series=PCS
+|organizer=Riot Games
+|organizer2=Carry.live|organizer2-link=https://www.carry.live/
+|organizer3=Garena|organizer3-link=https://www.garena.tw/
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]</br>[https://calibre-global.com/ Calibre]
+|patch=
+|epatch=
+|country=Taiwan
+|country2=Hong Kong
+|country3=Southeast Asia
+|type=Online
+|venue=
+|format=Double Round Robin ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|sdate=2022-07-01
+|edate=2022-09-04
+|prizepoolusd=80,000
+|prizepool=
+|liquipediatier=2
+|team_number=10
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|youtube=lolpacific
+|previous=PCS/2022/Spring{{!}}Spring 2022
+|next=PCS/2023/Spring{{!}}Spring 2023
+}}
+
+==Format==
+* '''Group Stage''' - ''July 1st - August 6th, 2022''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 8th place will play the playoffs
+***1st and 2nd place are seeded into Semifinals
+***3rd to 6th place are seeded into Quarterfinals
+***7th and 8th place are seeded into Losers' Round 1
+* '''Playoffs''' - ''August 18th - September 4th, 2022''
+** Double Elimination
+** All matches are {{Abbr/Bo5}}
+** Winner and the runner-up qualify for [[World Championship/2022|World Championship 2022]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Taiwanese
+|name3=Thai
+|name4=Cantonese
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=Hysterics
+|b2=PiraTechnics
+}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator
+|b1=Clement Chu
+|b2=Nit3Star
+|b3=Reirachu
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=JR
+|b2=Section
+|b3=Tommy
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst
+|b1=Mountain
+|b2=Wulong
+|b3=Zod
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Commentator
+|b1=Cezanne |b1flag=th
+|b2=Lastcrosser |b2flag=th
+|b3=Robert Chase
+|b4=Xegor
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=hk
+|position=Commentator
+|b1=Bella |b1link=Bella (Cantonese caster)
+|b2=Dream |b2link=Dream (Cantonese caster)
+|b3=Hei Hei
+|b4=LoSing
+|b5=Sang
+|b6=Sigma
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{box|start|padding=2em}}
+{{prize pool start |points=seed |cutafter=10}}
+{{prize pool slot|place=1 |usdprize=30,000 |points=[[World Championship/2022|Worlds]] |ctbc flying oyster |lastvs1=beyond gaming |lastscore1=3 |lastvsscore1=0}}
+{{prize pool slot|place=2 |usdprize=14,000 |points=[[World Championship/2022|Worlds]] |beyond gaming |lastvs1=ctbc flying oyster |lastscore1=0 |lastvsscore1=3}}
+{{prize pool slot|place=3 |usdprize=10,000 |psg talon |lastvs1=beyond gaming |lastscore1=2 |lastvsscore1=3 |date1=2022-09-03}}
+{{prize pool slot|place=4 |usdprize=7,000 |deep cross gaming |lastvs1=psg talon |lastscore1=1 |lastvsscore1=3 |date1=2022-09-02}}
+{{prize pool slot |place=5-6 |usdprize=4,500
+|j team |lastvs1=psg talon |lastscore1=0 |lastvsscore1=3 |date1=2022-08-28
+|frank esports |lastvs2=deep cross gaming |lastscore2=0 |lastvsscore2=3 |date2=2022-08-27
+}}
+{{prize pool slot |place=7-8 |usdprize=3,000
+|meta falcon team |lastvs1=j team |lastscore1=0 |lastvsscore1=3 |date1=2022-08-20
+|impunity |lastvs2=frank esports |lastscore2=1 |lastvsscore2=3 |date2=2022-08-21
+}}
+{{prize pool slot |place=9 |usdprize=2,000 |sem9 |wdl1=2/16 |date1=2022-08-07}}
+{{prize pool slot |place=10 |usdprize=2,000 |dewish team |wdl1=2/16 |date1=2022-08-07}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5
+|title=Group Stage MVP
+|tournament=PCS/2022/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5
+|title=Playoffs MVP
+|tournament=PCS/2022/Summer/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+====Season Awards====
+{{prize pool start award|noprize=true|cutafter=10|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Gori |flag1=kr |team1=PSG Talon |date=2022-09-04}}
+{{prize pool slot award|award=Most Potential Player |YSKM |flag1=hk |team1=Frank Esports |date=2022-09-04}}
+{{prize pool slot award|award=Most Improved Player |Likai |flag1=tw |team1=Beyond Gaming |date=2022-09-04}}
+{{prize pool slot award|award=Coaching Team of the Split|date=2022-09-04
+|Coldicee |flag1=tw |team1=Deep Cross Gaming
+|Enzz |flag2=tw |team2=Deep Cross Gaming
+}}
+{{prize pool slot award|award=1st All-Pro Team|date=2022-09-04
+|Rest |flag1=tw |team1=CTBC Flying Oyster
+|Gemini |flag2=tw |team2=CTBC Flying Oyster
+|Gori |flag3=kr |team3=PSG Talon
+|Shunn |flag4=tw |team4=CTBC Flying Oyster
+|Enso |flag5=tw |team5=J Team
+}}
+{{prize pool slot award|award=2nd All-Pro Team|date=2022-09-04
+|YSKM |flag1=hk |team1=Frank Esports
+|Kongyue |flag2=tw |team2=J Team
+|M1ssion |flag3=tw |team3=CTBC Flying Oyster
+|Cryscata |flag4=tw |team4=Deep Cross Gaming
+|Kaiwing |flag5=hk |team5=PSG Talon
+}}
+{{prize pool slot award|award=3rd All-Pro Team|date=2022-09-04
+|Leaky |flag1=tw |team1=Deep Cross Gaming
+|Husha |flag2=tw |team2=Beyond Gaming
+|Nestea |flag3=tw |team3=Deep Cross Gaming
+|MnM |flag4=hk |team4=Frank Esports
+|Koala (Taiwanese player){{!}}Koala |flag5=tw |team5=CTBC Flying Oyster
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+====Player of the Week====
+{{prize pool start award|noprize=true|tier=weekly|margin=false|cutafter=6}}
+{{prize pool slot award|award=Player of the Week 1 |date=2022-07-06 |Gori |flag1=kr |team1=psg talon}}
+{{prize pool slot award|award=Player of the Week 2 |date=2022-07-13 |Woody |flag1=tw |team1=deep cross gaming}}
+{{prize pool slot award|award=Player of the Week 3 |date=2022-07-20 |YSKM |flag1=hk |team1=frank esports}}
+{{prize pool slot award|award=Player of the Week 4 |date=2022-07-27 |Leaky |flag1=tw |team1=deep cross gaming}}
+{{prize pool slot award|award=Player of the Week 5 |date=2022-08-03 |Nestea |flag1=tw |team1=deep cross gaming}}
+{{prize pool slot award|award=Player of the Week 6 |date=2022-08-11 |Likai |flag1=tw |team1=beyond gaming}}
+{{Prize pool end}}
+{{box|end|padding=2em}}
+
+{{box|end|padding=2em}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2022-04-27
+|edate=2022-08-01
+|team=beyond gaming
+|team2=ctbc flying oyster
+|team3=deep cross gaming
+|team4=dewish team
+|team5=hurricane gaming
+|team6=frank esports
+|team7=impunity
+|team8=j team
+|team9=meta falcon team
+|team10=psg talon
+|team11=sem9
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Likai
+|p2=Husha
+|p3=Minji
+|p4=Wako
+|p5=Kino
+
+|t2p1=Liang |t2pos1=top
+
+|t3p1=Benny |t3p1link=Benny (Taiwanese player) |t3pos1=Head Coach
+|t3p2=Wulala|t3pos2=assistant coach
+}}
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=Gemini
+|p3=Mission
+|p4=Shunn
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=Atlen |t2pos1=bot
+
+|t3p1=Achie |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Deep Cross Gaming
+|p1=Leaky
+|p2=Hana
+|p3=Nestea
+|p4=Cryscata
+|p5=Woody
+
+|t2p1=Coldicee |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Dewish Team
+|p1=Lacunae
+|p2=WSL
+|p3=xiaotu
+|p4=BangTwo
+|p5=EnHoa
+
+|t2p1=Sen |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|inotes={{NoteBig
+|n1=[[Hurricane Gaming]]'s league slot is acquired by [[Dewish Team]].
+}}
+}}
+{{TeamCard
+|team=Frank Esports
+|p1=YSKM
+|p2=Holo
+|p3=Pretender
+|p4=MnM
+|p5=Keres
+
+|t2p1=Rebirth |t2pos1=sup
+
+|t3p1=Skywalk |t3p1flag=hk |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Impunity
+|p1=Jackpot
+|p2=Alex
+|p3=Apex
+|p4=Anex
+|p5=Yusin
+
+|t2p1=ICU |t2pos1=top
+|t2p2=Husky |t2pos2=mid
+|t2p3=Lz |t2p3flag=tw |t2pos3=bot
+|t2p4=Natur3 |t2p4flag=tw |t2pos4=sup
+|t2p5=Winnie |t2p5flag=tw |t2pos5=sup
+
+|t3p1=Dreamer |t3p1flag=tw |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=J Team
+|p1=Rock |p1link=Rock (Taiwanese player)
+|p2=Kongyue
+|p3=Uniboy
+|p4=Lilv
+|p5=Enso
+
+|t2p1=Driver |t2pos1=top
+
+|t3p1=BigWei |t3p1flag=tw |t3pos1=Head Coach
+|t3p2=Nash |t3pos2=coach|t3p2link=Nash (Taiwanese caster)
+}}
+{{TeamCard
+|team=Meta Falcon Team
+|p1=Taco
+|p2=665
+|p3=Wen
+|p4=Whale
+|p5=1SSUE |p5flag=tw
+
+|t2p1=Renhao |t2pos1=jng
+|t2p2=Hong2 |t2pos2=mid
+
+|t3p1=Lx2 |t3p1flag=tw |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi
+|p2=Burry
+|p3=Gori
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=CorGi |t2pos1=Head Coach
+|t2p2=Maru|t2pos2=assistant Coach|t2p2flag=kr
+|t2title=Staff
+}}
+{{TeamCard
+|team=SEM9
+|p1=N0name |p1flag=tw |p1link=Noname (Chen Jia Wei)
+|p2=Arashi
+|p3=Lezar
+|p4=XieDoDo |p4flag=tw
+|p5=QaspieL
+
+|t2p1=Axin |t2p1flag=tw |t2pos1=sup
+
+|t3p1=AhWood |t3p1flag=tw |t3pos1=Head Coach
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#section:PCS/2022/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[PCS/2022/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LLT6GcjEVt}}
+
+==Additional Data==
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=lolpacific
+|lang2=tw |twitch2=lolpacifictw
+|lang3=hk |twitch3=lolpacifichk
+|lang4=th |twitch4=lolpacificth
+}}
+{{box|end}}
+
+
+===Statistics===
+{{#lst:PCS/2022/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+{{2022 Season International Cycle Navbox}}

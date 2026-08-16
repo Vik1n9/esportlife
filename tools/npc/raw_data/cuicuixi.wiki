@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Cuicuixi&redirects=1
+<!-- 抓取: 2026-08-16T15:44:13.750Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Cuicuixi
+|autoPI=Yes
+|image=
+|name=林宏霖
+|romanized_name=Lin Hong-lin
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=bot,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,54 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=SEM9%20WPE&redirects=1
+<!-- 抓取: 2026-08-16T14:58:23.266Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|SEM9 WPE}}
+|name2={{Team|SEM9}}
+|name3={{Team|West Point Esports}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=SEM9 WPE
+|image=SEM9 WPE lightmode.png
+|imagedark=SEM9 WPE darkmode.png
+|location=Philippines
+|region=SEA
+|league=PCS
+|website=
+|twitter=
+|facebook=WestPointEsports
+|youtube=
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2023-01-18
+|disbanded=2023-06-14
+}}
+'''SEM9 WPE''' was a [[:category:Philippines|Filipino]] esports organisation formed between a partnership between [[West Point Esports]] and [[SEM9]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Parzival	|name=Hezro Elijah Canlas|joindate=2023-01-17}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=SEM9 WPE}}
+|name2=Recent Matches |content2={{Team recent matches table|team=SEM9 WPE}}
+}}
+
+==Awards==
+{{Team awards table|team=SEM9 WPE}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

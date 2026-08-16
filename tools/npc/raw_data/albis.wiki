@@ -1,0 +1,47 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Albis&redirects=1
+<!-- 抓取: 2026-08-16T15:30:02.464Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|ageofempires=Albis}}
+{{Person Tabs}}
+{{Infobox player
+|id=Albis
+|autoPI=Yes
+|image=AHQ Albis 2016Worlds.jpg
+|name=康家維
+|romanized_name=Kang Chia-wei
+|familyname=Kang
+|givenname=Chia-wei
+|birth_date=1993-12-19
+|country=Taiwan
+|team=
+|status=Retired
+|roles=support,jungle,mid
+|role4=Bot
+|ids=
+|twitch=albislol
+|instagram=
+|facebook=ahqAlbis
+|youtube=UC_jy0BpWy1M4094rbYpYX_g
+|twitter=
+|bestgg=albis
+|askfm=
+|reddit=
+|retired=2019-01-07
+}}
+
+==Achievements==
+{{player achievements table|player=Albis}}
+
+==Awards==
+{{player awards table|player=Albis}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+Ahq Albis at IEM Taipei 2015.jpg|Albis at [[Intel_Extreme_Masters/Season_IX/Taipei|IEM Season IX - Taipei]] with [[ahq e-Sports Club]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

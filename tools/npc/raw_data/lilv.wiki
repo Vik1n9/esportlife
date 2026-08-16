@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Lilv&redirects=1
+<!-- 抓取: 2026-08-16T16:44:49.288Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Lilv
+|autoPI=Yes
+|image=
+|name=陳縉翰
+|romanized_name=Chen Chin-han
+|familyname=Chen
+|givenname=Chin-han
+|birth_date=1998-09-20
+|country=Taiwan
+|status=active
+|roles=Bot
+|ids=LilV
+|twitch=rita1591526
+|facebook=LilvLoL
+|twitter=SO4Pride
+|bestgg=lilv
+|champion=Ezreal
+|champion2=Caitlyn
+|champion3=Vayne
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Lilv}}
+
+==Awards==
+{{player awards table|player=Lilv}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

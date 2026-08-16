@@ -1,0 +1,31 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kanashimi&redirects=1
+<!-- 抓取: 2026-08-16T16:08:33.071Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Kanashimi
+|autoPI=Yes
+|image=
+|name=Lin Hsiu-Yu
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Mid
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

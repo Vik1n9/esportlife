@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Lantyr&redirects=1
+<!-- 抓取: 2026-08-16T16:19:47.184Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|honorofkings=Lantyr}}
+{{Person Tabs}}
+{{Infobox player
+|id=Lantyr
+|localid=蘭特
+|autoPI=Yes
+|image=Lantyr GCSsummer2018.png
+|name=張淮蒼
+|romanized_name=Zhang Huai-cang
+|familyname=Zhang
+|givenname=Huai-cang
+|birth_date=1995-03-09
+|country=Taiwan
+|team=
+|status=Retired
+|roles=jungle
+|ids=
+|instagram=lantyrrrr
+|facebook=Lantyr
+|twitch=lantyrlol
+|youtube=/user/ioplollpop
+|retired=
+|history=
+}}
+
+
+==Achievements==
+{{player achievements table|player=Lantyr}}
+
+==Awards==
+{{player awards table|player=Lantyr}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

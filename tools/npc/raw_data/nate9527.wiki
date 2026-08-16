@@ -1,0 +1,54 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Nate9527&redirects=1
+<!-- 抓取: 2026-08-16T14:56:23.965Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|nate9527}}
+|name2={{Team|nate.a}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Nate9527
+|image=NAT allmode.png
+|location=Taiwan
+|region=Taiwan
+|league=
+|website=
+|twitter=
+|facebook=
+|youtube=
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2023-08-15
+}}
+'''Nate9527''' is a [[:category:Taiwan|Taiwanese]] esports organisation.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+<!--
+===Former===
+{{FormerOrganizationAuto}}
+-->
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Nate9527}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Nate9527}}
+}}
+
+==Awards==
+{{Team awards table|team=Nate9527}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

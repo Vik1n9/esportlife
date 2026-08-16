@@ -1,0 +1,29 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Chillyz&redirects=1
+<!-- 抓取: 2026-08-16T15:42:32.698Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=chillyz
+|image=
+|name=江諾軒
+|romanized_name=Kong Lok Hin
+|familyname=Kong
+|givenname=Lok Hin
+|birth_date=1995-01-05
+|country=Hong Kong
+|status=Retired
+|roles=mid
+|autoPI=Yes
+}}
+
+==Achievements==
+{{Player achievements table|player=Chillyz}}
+
+==Awards==
+{{player awards table|player=Chillyz}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

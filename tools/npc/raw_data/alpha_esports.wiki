@@ -1,0 +1,64 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Alpha%20Esports&redirects=1
+<!-- 抓取: 2026-08-16T14:43:55.624Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Alpha Esports
+|image=Alpha Esports full allmode.png
+|location=Taiwan
+|region=Taiwan
+|league=
+|website=
+|twitter=
+|facebook=AlphaEsportsLoL
+|weibo=6314639405
+|instagram=
+|created={{League of Legends}}: 2018-11-29
+|disbanded=2022-01-28
+}}
+
+'''Alpha Esports''' is a professional esports based in [[:Category:Taiwan|Taiwan]].
+
+On January 28th, 2022 they had left the [[PCS]]. <ref name="team disband">{{cite web |url=https://twitter.com/lolesportspcs/status/1486960685691006976|title=Teams Announced for the Pacific Championship Series 2022 Spring Split|date=2022-01-28 |author=[[PCS]]|language={{Flag|usuk}} English}}</ref>
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Taizan|name=	Lin Ching-chia|joindate=2019-07-11}}
+|{{SquadAutoRow|id=WSY|name=Yuan Shiwen|joindate=2018-12-27}}
+|{{SquadAutoRow|id=Xiaoemo|name=Guang Kang|joindate=2019-01-23}}
+|{{SquadAutoRow|id=DDC|name=Tsao Yu-hao|joindate=2018-12-27}}
+|{{SquadAutoRow|id=Gengar|name=Li Chung-chieh|joindate=2018-12-27}}
+|{{SquadAutoRow|id=Kiwi|name=Yang Jie|joindate=2019-02-13}}
+|{{SquadAutoRow|id=Nabi|name=Chan Ka-chung|joindate=2019-12-18}}
+|{{SquadAutoRow|id=Eason|name=Yin Yi-shen|joindate=2019-12-18}}
+|{{SquadAutoRow|id=Assassin|name=Zhou Yi-xiang|joindate=2019-12-18}}
+|{{SquadAutoRow|id=Sworb|name=Chan Zhi Chong|joindate=2020-06-17}}
+|{{SquadAutoRow|id=Sheng|name=Chen Ting-sheng|joindate=2021-07-03}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Taizan|name=Lin Ching-chia|joindate=2021-02-15}}
+|{{SquadAutoRow|id=Radiance|name=Hu Yuan|joindate=2019-12-18}}
+|{{SquadAutoRow|id=Yuwan|name=Hsu Chi-chun|joindate=2019-12-18}}
+|{{SquadAutoRow|id=Kolia|name=Qin Zeqi|joindate=2018-12-27}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Alpha Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Alpha Esports}}	
+}}
+
+==Awards==
+{{Team awards table|team=Alpha Esports}}
+
+==References==
+{{Reflist}}
+<br/>
+{{Team roster}}

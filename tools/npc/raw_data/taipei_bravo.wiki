@@ -1,0 +1,54 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Taipei%20Bravo&redirects=1
+<!-- 抓取: 2026-08-16T15:00:06.588Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/J Team}}
+{{Tabs static
+|name1={{Team|j team}}
+|name2={{Team|j team 2}}
+|name3={{Team|tb}}
+|This=3
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Taipei Bravo
+|location=Taiwan
+|region=Taiwan
+|league=PCSA
+|city=Taipei
+|sponsor=
+|website=
+|twitter=
+|facebook=TaipeiEsportsTeam
+|instagram=
+|youtube=
+|weibo=
+|twitch=
+|created={{League of Legends}}: 2023-08-22
+}}
+
+'''Taipei Bravo''' is a [[:Category:Taiwan|Taiwanese]] professional gaming organization owned by the '''Taipei City Government''' and partnered with '''[[J Team]]'''.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+<!--==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+-->
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=tb}}
+|name2=Recent Matches |content2={{Team recent matches table|team=tb}}
+}}
+
+==Awards==
+{{Team awards table|team=tb}}
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

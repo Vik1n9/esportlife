@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=ShengBai&redirects=1
+<!-- 抓取: 2026-08-16T17:04:15.363Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=ShengBai
+|autoPI=Yes
+|image=
+|name=許家峻
+|romanized_name=Hsu Chia-chun
+|birth_date=1998-08-21
+|country=Taiwan
+|status=Active
+|roles=Mid
+|ids=jeffeRy <br/> MarS
+|instagram=jeffery0821_
+|facebook=JeffeRy0821
+|twitch=ggbb528
+|youtube=ggbb528
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=ShengBai}}
+
+==Awards==
+{{player awards table|player=ShengBai}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,29 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=BangTwo&redirects=1
+<!-- 抓取: 2026-08-16T15:33:39.585Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=BangTwo
+|autoPI=Yes
+|image=
+|name=黃俊凱
+|romanized_name=Huang Jyun-kai
+|familyname=Huang
+|givenname=Jyun-kai
+|country=Taiwan
+|birth_date=
+|status=Active
+|roles=Bot
+}}
+
+==Achievements==
+{{player achievements table|player=BangTwo}}
+
+==Awards==
+{{player awards table|player=BangTwo}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

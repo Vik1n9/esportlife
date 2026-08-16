@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Gamania%20Bears&redirects=1
+<!-- 抓取: 2026-08-16T15:05:14.536Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Gamania Bears}}
+{{Team Tabs}}
+{{Infobox team
+|name=Gamania Bears
+|image=Gamania Bears allmode.png
+|location=Taiwan
+|region=taiwan
+|website=http://tw.gamabears.gamania.com/
+|facebook=gamabears.fans
+|created={{lol}}: 2013-04-15
+|disbanded=2015-12-24
+}}
+'''Gamania Bears''' (also known as the ''Gama Bears'') was an esports team from [[:Category:Taiwan|Taiwan]].
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Gamania Bears}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Gamania Bears}}
+}}
+
+==Awards==
+{{Team awards table|team=Gamania Bears}}
+
+==References==
+{{Reflist|3}}
+<br>
+{{Team roster}}

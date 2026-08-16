@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=GodKwai&redirects=1
+<!-- 抓取: 2026-08-16T15:57:19.475Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=GodKwai
+|image=HKA GodKwai at Worlds 2017.jpg
+|name=張皓雲
+|romanized_name=Cheung Ho Wan
+|familyname=Cheung
+|givenname=Ho Wan
+|birth_date=1997-06-02
+|country=Hong Kong
+|autoPI=Yes
+|status=Retired
+|roles=jungle,Bot
+|ids=
+|twitch=hkes_godkwai
+|instagram=
+|facebook=GodKwaiLoL
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=Vayne
+|champion2=
+|history=
+{{THA}}
+}}
+
+
+==Achievements==
+{{player achievements table|player=GodKwai}}
+
+==Awards==
+{{player awards table|player=GodKwai}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

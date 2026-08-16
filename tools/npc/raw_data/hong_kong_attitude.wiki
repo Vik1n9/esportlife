@@ -1,0 +1,81 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Hong%20Kong%20Attitude&redirects=1
+<!-- 抓取: 2026-08-16T15:05:17.206Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Hong Kong Attitude}}
+{{Tabs static
+|name1={{Team|hong kong attitude}}
+|name2={{Team|hong kong attitude mage}}
+|name3={{Team|hong kong attitude priest}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Hong Kong Attitude
+|location=Hong Kong
+|location2=Taiwan
+|city=Hong Kong
+|city2=Taipei City
+|region=Taiwan
+|league=PCS
+|image=Hong Kong Attitude logo 2017.png
+|sponsor=
+|facebook=HongKongAttitude
+|weibo=3502918871
+|instagram=hkesports
+|youtube=channel/UCMwKmIVf-ZT7eQTkof6IzPw
+|twitch=hkesports
+|website=http://hkesports.com/
+|created=2013-03-22
+|disbanded=2021-11-24
+}}
+
+'''Hong Kong Attitude''' was a professional esports based in [[:Category:Hong Kong|Hong Kong]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Noel |name= |joindate=2014-05-05}}
+|{{SquadAutoRow|id=Wish |name= |joindate=2014-05-05}}
+|{{SquadAutoRow|id=Heovax |name= |joindate=2014-05-13}}
+|{{SquadAutoRow|id=Owl |name= |joindate=2014-05-13}}
+|{{SquadAutoRow|id=Lyrics |name= |joindate=2014-05-30}}
+|{{SquadAutoRow|id=STony |name= |joindate=2014-05-30}}
+|{{SquadAutoRow|id=Smoker |name= |joindate=2014-05-30}}
+|{{SquadAutoRow|id=Awei |name= |joindate=2014-10-11}}
+|{{SquadAutoRow|id=Yezi |name= |joindate=2014-10-11}}
+|{{SquadAutoRow|id=Smurph |name= |joindate=2015-01-02}}
+|{{SquadAutoRow|id=GoDJJ |name= |joindate=2015-05-17}}
+|{{SquadAutoRow|id=Raison |name=Jeong Soo-bin |joindate=2015-05-17}}
+|{{SquadAutoRow|id=May |name= |joindate=2015-07-17}}
+|{{SquadAutoRow|id=Chillyz |name= |joindate=2015-12-07}}
+|{{SquadAutoRow|id=MapleSnow |name=Yang Yu-wei |joindate=2015-12-07}}
+|{{SquadAutoRow|id=Rokenia |name=Jun Young-dae |joindate=2016-01-19}}
+|{{SquadAutoRow|id=jeffeRy |name= |joindate=2016-01-19}}
+|{{SquadAutoRow|id=Wind |name= |joindate=2016-06-30}}
+|{{SquadAutoRow|id=Nova |link=Nova (Kim Dong-hyeon) |name= |joindate=2018-03-01}}
+|{{SquadAutoRow|id=Sen |name=Lu Guan-Yu |joindate=2018-11-08}}
+|{{SquadAutoRow|id=HongSuo |name= |joindate=2021-07-06}}
+|{{SquadAutoRow|id=Nova (Kim Dong-hyeon) |name=Kim Dong-hyeon |joindate=2018-03-01}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Hong Kong Attitude}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Hong Kong Attitude}}
+}}
+
+==Awards==
+{{Team awards table|team=Hong Kong Attitude}}
+
+
+==References==
+{{Reflist|3}}
+<br>
+{{Team roster}}

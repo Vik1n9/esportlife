@@ -1,0 +1,25 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=S1aytrue&redirects=1
+<!-- 抓取: 2026-08-16T17:04:02.230Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=S1aytrue
+|autoPI=Yes
+|image=
+|name=林聖博
+|romanized_name=Lin Sheng-po
+|birth_date=2001-01-17
+|country=Taiwan
+|status=Active
+|roles=Support
+|ids=S01
+}}
+
+==Achievements==
+{{player achievements table|player=S1aytrue}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

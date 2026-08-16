@@ -1,0 +1,217 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2017%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T16:17:43.361Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2017 Summer }}
+{{Garena Taiwan Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=LMS/Summer/2017
+|name2=Group Stage
+|link2=LMS/Summer/2017/Group_Stage
+|name3=Playoffs
+|link3=LMS/Summer/2017/Playoffs
+|name4=Promotion
+|link4=LMS/Spring/2018/Promotion
+|This=1}}
+{{Infobox league
+|name=LMS 2017 Summer 
+|shortname=2017 Summer 
+|tickername=LMS Summer 2017
+|image=LMS Logo.png
+|series=LMS
+|icon=LMS_Logo.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=
+|epatch=
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=98,567
+|localcurrency=twd
+|prizepool=3,000,000
+|sdate=2017-06-02
+|edate=2017-08-25
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/esport/lms/documents/2017%20%20LMS%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20V1.1.pdf
+|website=http://2017.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=8
+|previous=LMS/Spring/2017{{!}}LMS Spring Season 2017
+|next=LMS/Spring/2018{{!}}LMS Spring Season 2018
+}}
+
+==Overview==
+===Format===
+
+===Broadcast Talent===
+
+===Prize Pool===
+$3,000,000 {{Abbr/NTD}} (≈ $98,567 {{Abbr/USD}}) are spread among the teams as seen below:
+{{prize pool start|points=lms2017|localcurrency=ntd|cutafter=10}}
+{{prize pool slot |place=1 |points=q|link=World_Championship/2017|usdprize=49,287|localprize=1,500,000|flash wolves|lastvs1=ahq e-sports club|lastscore1= 3|lastvsscore1=0 }}
+{{prize pool slot |place=2 |points=90 |usdprize=19,714|localprize=600,000|ahq e-sports club|lastvs1=flash wolves|lastscore1=0 |lastvsscore1= 3}}
+{{prize pool slot |place=3 |points=70 |usdprize=13,143|localprize=400,000|raise gaming|lastvs1=ahq e-sports club|lastscore1= 1|lastvsscore1=3|date1=2017-08-20 }}
+{{prize pool slot |place=4 |points=40 |usdprize=6,571|localprize=200,000|j team|lastvs1=ahq e-sports club |lastscore1=2 |lastvsscore1=3|date1=2017-08-18 }}
+{{prize pool slot |place=5 |points=20|usdprize=3,942|localprize=120,000|hong kong attitude|wdl1=7/7}}
+{{prize pool slot |place=6 |points=20|usdprize=2,628|localprize=80,000|machi esports|wdl1=7/7}}
+{{prize pool slot |place=7 |points=0|usdprize=1,642|localprize=50,000|wayi spider|wdl1=5/9}}
+{{prize pool slot |place=8 |points=0|usdprize=1,642|localprize=50,000|fireball|wdl1=0/14}}
+{{Prize pool end}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=9|margin=false}}
+{{prize pool slot award|award=MVP |FoFo |flag1=tw |team1=j team|date=2017-08-25}}
+{{prize pool slot award|award=Rookie of the Split|PK|flag1=tw|team1=raise gaming|date=2017-08-25}}
+{{prize pool slot award|award=Most Improved |Apex |flag1=tw |team1=machi esports|date=2017-08-25}}
+{{prize pool slot award|award=All-Pro Team  |date=2017-08-25
+|Ziv (Taiwanese player){{!}}Ziv|flag1=tw|team1=ahq
+|Karsa|flag2=tw|team2=fw
+|FoFo|flag3=tw|team3=j team
+|Betty|flag4=tw|team4=fw
+|SwordArt|flag5=tw|team5=fw
+}}
+{{Prize pool end}}
+
+{{prize pool start award|noprize=true|cutafter=9|team=true}}
+{{prize pool slot award|award=Best Coaching Staff|tbd |flag1=|team1=raise gaming|date=2017-08-25}}
+{{Prize pool end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|image=Ahq_logo.png
+|p1=Ziv|p1flag=tw|p1link=Ziv (Taiwanese player)
+|p2=Mountain|p2flag=tw
+|p3=Chawy|p3flag=sg
+|p4=Westdoor|p4flag=tw |pos4=Middle
+|p5=An|p5flag=tw|pos5=Bottom
+|p6=LBB |p6flag=tw |pos6=Bottom
+|p7=Albis|p7flag=tw|pos7=Support
+|c=GreenTea|cflag=tw
+|c2=NeXAbc |c2flag=tw
+|qualifier=[[LMS/Spring/2017|Spring Season]]
+}}
+{{TeamCard
+|team=Fireball
+|image=Fireball Logo.png
+|p1=Ninuo|p1flag=tw
+|p2=Wulala|p2flag=tw
+|p3=Wind|p3flag=hk|p3link=Wind (Lai Chap-yin)
+|p4=KuKu|p4flag=mo|pos4=Middle
+|p5=Unified|p5flag=hk|pos5=Bottom
+|p6=Enzz  |p6flag=tw |pos6=Bottom
+|p7=SkuLL|p7flag=hk|pos7=Support
+|c=Jensen|cflag=sg |clink=Jensen (Singaporean coach)
+|c2=Yang Chia-Chuan |c2flag=tw
+|qualifier=[[LMS/Spring/2017|Spring Season]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|image=Flash wolves logo.png
+|p1=MMD|p1flag=tw
+|p2=Karsa|p2flag=tw
+|p3=Maple|p3flag=tw
+|p4=Betty|p4flag=tw
+|p5=SwordArt|p5flag=tw
+|c=WarHorse|cflag=tw
+|c2=Cyo|c2flag=tw
+|qualifier=[[LMS/Spring/2017|Spring Season]]
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|image=
+|link=Hong Kong Esports/Hong Kong Attitude
+|notes=1
+|p1=MapleSnow|p1flag=tw
+|p2=Gemini|p2flag=tw
+|p3=Once |p3flag=kr |pos3=Jungler
+|p4=M1ssion|p4flag=tw|pos4=Middle
+|p5=GodKwai|p5flag=hk|pos5=Bottom
+|p6=DAN |p6flag=kr |pos6=Bottom
+|p7=Kaiwing|p7flag=hk|pos7=Support
+|c=Tabe|cflag=hk
+|c2=Nelson |c2flag=sg
+|qualifier=[[LMS/Spring/2017|Spring Season]]
+}}
+{{TeamCard
+|team=J Team
+|image=
+|p1=Morning|p1flag=tw
+|p2=REFRA1N|p2flag=tw
+|p3=Alex |p3flag=tw |pos3=Jungler
+|p4=FoFo|p4flag=tw |pos4=Middle
+|p5=BeBe|p5flag=tw |pos5=Bottom
+|p6=Breaker |p6flag=tw  |pos6=Bottom
+|p7=Jay |p7link=Jay (Taiwanese player)|p7flag=tw |pos7=Support
+|c=Prydz|cflag=tw
+|qualifier=[[LMS/Spring/2017|Spring Season]]
+}}
+{{TeamCard
+|team=Machi Esports
+|image=Machi_Esports.png
+|p1=3z|p1flag=tw
+|p2=Taizan|p2flag=tw
+|p3=Apex|p3flag=tw
+|p4=Dee|p4flag=tw
+|p5=CorGi |p5flag=tw |pos5=Bottom
+|p6=Dreamer|p6flag=tw|pos6=Support
+|c=Leo|cflag=tw
+|qualifier=[[LMS/Spring/2017|Spring Season]]
+}}
+{{TeamCard
+|team=Raise Gaming
+|image=Raise_Gaming_Logo.png
+|p1=PK|p1flag=tw
+|p2=Laba|p2flag=tw
+|p3=Wuji|p3flag=tw
+|p4=Lilv|p4flag=tw
+|p5=Ran |p5flag=tw |pos5=Bottom|p5link=Ran (Taiwanese player)
+|p6=Koala|p6flag=tw|pos6=Support|p6link=Koala (Taiwanese player)
+|c=Domo|cflag=tw
+|qualifier=[[LMS/Summer/2017/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Wayi Spider
+|image=Wayi Spider.png
+|p1=Nexus |p1link=Nexus (Hong Kong player)|p1flag=hk
+|p2=Epic|p2flag=hk
+|p3=Wako|p3flag=tw
+|p4=Breeze|p4flag=tw
+|p5=Zest|p5flag=tw
+|p6=K |p6flag=tw |pos6=Support
+|c=Yo|cflag=tw
+|qualifier=[[LMS/Summer/2017/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+*<sup>1</sup> <small> May 16th - '''Hong Kong Esports rebrands to [[Hong Kong Attitude]]<ref name="HKES夏季賽資訊">[https://www.facebook.com/HongKongEsports/photos/pb.408470975909516.-2207520000.1495026769./1345457185544219/?type=3&theater HKES夏季賽資訊]</ref></small>
+
+==Results==
+{{LPDB storage|false}}
+===Regular Season===
+{{#lst:LMS/Summer/2017/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LMS/Summer/2017/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LMS/Summer/2017/Playoffs|Playoffs}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=
+}}
+
+==External links==
+
+==References==
+{{Reflist}}

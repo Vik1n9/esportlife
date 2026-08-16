@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Prage&redirects=1
+<!-- 抓取: 2026-08-16T16:58:42.569Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Prage
+|autoPI=Yes
+|image=
+|name=陳重恩
+|romanized_name=Chen Chung-en
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Bot
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

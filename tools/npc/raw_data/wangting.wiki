@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wangting&redirects=1
+<!-- 抓取: 2026-08-16T15:02:05.789Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=wangting
+|location=Taiwan
+|region=SEA
+|league=PCS
+|website=
+|twitter=
+|facebook=
+|youtube=
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2025-03-17
+}}
+'''wangting''' is a [[:category:Taiwan|Taiwanese]] team competing in the [[PCS]].
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table}}
+|name2=Recent Matches |content2={{Team recent matches table}}
+}}
+
+==Awards==
+{{Team awards table}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

@@ -1,0 +1,51 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Koala%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T16:14:04.423Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Koala}}
+{{Person Tabs}}
+
+{{Infobox player
+|id=Koala
+|autoPI=Yes
+|image=Koala Worlds 2022.jpg
+|name=林志強
+|romanized_name=Lin Chih-chiang
+|familyname=Lin
+|givenname=Chih-chiang
+|birth_date=August 16, 1995
+|country=Taiwan
+|status=Active
+|roles=Support,Coach,
+|ids=
+|instagram=
+|facebook=MCXKoala
+|factor=1766
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Koala (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Koala (Taiwanese player)}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+GRX Koala 2018Worlds.jpg|[[G-Rex|GRX]] Koala at [[World_Championship/2018|Worlds 2018]].
+MCX Koala Worlds 2020.jpg|Koala at [[World_Championship/2020|Worlds 2020]].
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

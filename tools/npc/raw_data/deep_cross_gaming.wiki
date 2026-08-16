@@ -1,0 +1,70 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Deep%20Cross%20Gaming&redirects=1
+<!-- 抓取: 2026-08-16T14:44:30.402Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Deep Cross Gaming}}
+{{Tabs static
+|name1={{Team|deep cross gaming}}
+|name2={{Team|dcga}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Deep Cross Gaming
+|image=Deep Cross Gaming full lightmode.png
+|imagedark=Deep Cross Gaming full darkmode.png
+|location=Taiwan
+|region=pacific
+|league=LCP
+|website=
+|twitter=DeepCrossGaming
+|facebook=DeepCrossGaming
+|youtube=@deepcrossgaming
+|tiktok=deepcrossgaming
+|twitch=deepcrossgaming
+|instagram=deepcrossgaming
+|created={{League of Legends}}: 2022-01-29
+|disbanded=
+}}
+'''Deep Cross Gaming''' is a [[:category:Taiwan|Taiwanese]] esports organisation formed in January 2022. They are currently playing as '''Relove Deep Cross Gaming''' due to the sponsorship of [https://www.foreverrelove.com.tw Relove].
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Winnie |name=Shen Tzu-Chun |joindate=2022-01-29 }}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Coldicee |name=Min-Hsiang Yu |joindate=2022-06-18 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Deep Cross Gaming}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Deep Cross Gaming}}
+}}
+
+==Awards==
+{{Team awards table|team=Deep Cross Gaming}}
+
+<!--==History==
+https://fxtwitter.com/Sheep_Esports/status/1935374369687224741 target bans to win 2025 Split 2 finals-->
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

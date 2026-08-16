@@ -1,0 +1,34 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Rex&redirects=1
+<!-- 抓取: 2026-08-16T17:03:50.384Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|apexlegends=Rex|tft=Rex|valorant=Rex}}
+{{Tabs static
+|link1=REX
+|name1=Overview
+|link2=Rex/Broadcasts
+|name2=Broadcasts
+|This=1
+}}
+{{Infobox commentator
+|id=Rex
+|ids=雷克獅
+|image=
+|name=Lin Jinan
+|country=Taiwan
+|team=
+|birth_date=
+|twitch=rexlin777
+|youtube=@rexderyt
+|facebook=rexesportlife
+|instagram=rexderig
+}}
+
+{{PlayerIntroduction}}
+
+==Achievements==
+{{Broadcast talent achievements table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}

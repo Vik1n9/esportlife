@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Gear&redirects=1
+<!-- 抓取: 2026-08-16T15:55:36.464Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Gear
+|image=
+|name=林國華
+|romanized_name=Lam Kwok Wa
+|familyname=Lam
+|givenname=Kwok Wa
+|birth_date=1996-10-10
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=mid
+|autoPI=Yes
+|twitch=gearbaby1010
+|instagram=Gearbaby1010
+|facebook=Gearlol
+|youtube=c/Gearlolz
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=Leblanc
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Gear}}
+
+==Awards==
+{{player awards table|player=Gear}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

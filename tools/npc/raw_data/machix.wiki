@@ -1,0 +1,68 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MachiX&redirects=1
+<!-- 抓取: 2026-08-16T15:06:55.578Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|machi esports}}
+|name2={{Team|machix}}
+|name3={{Team|machi crew}}
+|name4={{Team|machi 17}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=MachiX
+|location=Taiwan
+|region=taiwan
+|website=http://ww38.machiesports.com/
+|twitter=MachiEsports
+|facebook=MachiPlay
+|created=2017-04-20
+|disbanded=2020-03-02
+}}
+
+'''MachiX''' (previously known as '''17 Academy''') was a [[:Category:Taiwan|Taiwanese]] academy team of [[Machi Esports]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=BoBo |link=BoBo (Wang You-Lin) |name=Wang You-lin |joindate=2017-05-27}}
+|{{SquadAutoRow|id=BoBo |link=BoBo (Wang You-Lin) |name=Wang You-lin |joindate=2018-08-05}}
+|{{SquadAutoRow|id=Eason |name=Yin Yi-shen |joindate=2017-05-27}}
+|{{SquadAutoRow|id=SiuSiu |name=Wu Chu-yung |joindate=2017-05-27}}
+|{{SquadAutoRow|id=Kawa |name=Mo Ka-wah |joindate=2017-09-06}}
+|{{SquadAutoRow|id=Dee |name=Chen Chun-dee |joindate=2018-07-03}}
+|{{SquadAutoRow|id=SiHao |name=Huang Si-hao |joindate=2018-07-21}}
+|{{SquadAutoRow|id=Daper |name=Tai Ting-feng |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Dreamer |name=Tseng Chien-hung |joindate=2019-01-04}}
+|{{SquadAutoRow|id=FoxYa |name=Wang Tsung-ching |joindate=2019-01-04}}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|flag=tw|id=BigBrother|name=Jeffrey Huang|role=Founder|joindate=2017-04-20}}
+}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=MachiX}}
+|name2=Recent Matches |content2={{Team recent matches table|team=MachiX}}
+}}
+
+==Gallery==
+===Logos===
+{{logoGallery|
+{{logo|17_Academy.png|title=Original logo as '''17 Academy'''|enddate=2018-12-23}}
+}}
+
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

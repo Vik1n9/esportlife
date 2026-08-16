@@ -1,0 +1,138 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=GAM%20Esports&redirects=1
+<!-- 抓取: 2026-08-16T14:45:42.071Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/GAM Esports}}
+{{Tabs static
+|name1=Overview
+|link1=GAM Esports
+|name2=Results
+|link2=GAM Esports/Results
+|name3=Played Matches
+|link3=GAM Esports/Played Matches
+|This=1
+}}
+{{Infobox team
+|name=GAM Esports
+|image=GAM Esports 2021 full allmode.png
+|location=Vietnam
+|region=vn
+|league=LCP
+|city=Ho Chi Minh City
+|website=https://gam.gg/
+|twitter=gamesportsvn
+|facebook=GAMeSportsVN
+|youtube=gamesports
+|instagram=gamesportsvn
+|created={{Org}}: 2014-05<br>{{League of Legends}}: 2016-12-19
+}}
+
+'''GAM Esports''' (previously known as '''GIGABYTE Adonis Marines''' and '''GIGABYTE Marines''' for sponsorship reasons) is a [[:Category:Vietnam|Vietnamese]] professional gaming organization. They were acquired by '''NRG Asia''' in 2021, but will keep competing under the '''GAM Esports''' name.
+
+{{SectionLinks
+|rosterHeader=Player Roster
+|achievementsHeader=Results
+|historyHeader=History
+|mediaHeader=Media
+}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+|{{SquadAutoRow|id=Emo |name=Nguyễn Thái Vinh |joindate=2024-04-01}}
+}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Emo |name=Nguyễn Thái Vinh |joindate=2024-01-05}}
+|{{SquadAutoRow|id=Minas |name=Phạm Minh Phước |joindate=2019-05-28 }}
+|{{SquadAutoRow|id=Milano |name=Nguyễn Tô Ny |joindate=2019-02-28 }}
+|{{SquadAutoRow|id=Yin |name=Văn Phúc An Khang |joindate=2018-12-08 }}
+|{{SquadAutoRow|id=Ciel |name=Trần Tiến Thịnh |joindate=2018-01-30 }}
+|{{SquadAutoRow|id=Kriss Kyle |name=Nguyễn Hữu Phúc |joindate=2018-01-10 }}
+|{{SquadAutoRow|id=Sena |name=Trương Tuấn Tú |joindate=2018-01-30 }}
+|{{SquadAutoRow|id=Sergh |name=Liêu Nam Lộc |joindate=2016-12-19 }}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=Hankay|name=Huỳnh Tấn Đạt|joindate=2023-02-20}}
+}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=GAM Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=GAM Esports}}
+}}
+
+==Awards==
+{{Team awards table|team=GAM Esports}}
+
+==History==
+===Acquiring Boba Marines (Early 2017)===
+Ahead of the [[VCS_A/2017/Spring|spring season]], [[Boba Marines|Boba Net Company]] decided to pull out of ''League of Legends'' eventually the team was acquired by their new sponsors GIGABYTE and Adonis Icyber Gaming and renamed to GIGABYTE Marines. With their roster containing [[Stark (Vietnamese player)|Stark]], [[Levi]], [[Optimus]], [[Slay]], and [[Archie_(Vietnamese_player)|Archie]] the team went on an unbeaten streak during the [[VCS_A/2017/Spring|VCS spring season]] going 12-0 in the group stage and defeating [[Young Generation]] 3-0 in the final. This impressive result earned them a spot at [[GPL/2017/Spring|GPL spring]] to represent Vietnam. Being a higher seed they qualified for the playoffs immediatly where the dropped 2 games against [[Kuala Lumpur Hunters]] but still secured the victory 3-2 to advance to the final. In the final GIGABYTE Marines proved to be the strongest team after sweeping, Thai's side, [[Ascension Gaming]] 3-0. With their first [[GPL]] title the team qualified for [[MSI 2017]]. 
+
+===Debuting on the International Stage (2017)===
+In their first international tournament they were drawn into a group of [[Isurus Gaming]], [[Ex-Lyon Gaming|Lyon Gaming]], and [[Virtus.pro]]. Once again the team showed why they earned their spot on the international stage by going 5-1 in the group stage only losing one game against [[Virtus.pro]]. Being first place in the play-in group stage the team advanced to round two of play-in where [[Team SoloMid]] awaited them. As GIGABYTE Marines suprised a lot of people by going up 2-0 they eventually got reversed swept 2-3 as they dropped down to an all deciding knockout match against Turkish [[SuperMassive eSports]]. GIGABYTE Marines managed to bounce back after their defeat to win this series 3-1 to advance to the [[Mid-Season_Invitational/2017/Group_Stage|main stage]]. As they got their revange winning both group stage matches versus [[Team SoloMid]], and winning one game against [[Team WE]], the team eventually placed still last place as [[SK Telecom T1]], [[G2 Esports]], and [[Flash Wolves]] proved to be stronger.
+
+The summer season, GIGABYTE once again dominated the [[VCS_A/2017/Summer|VCS]]. This time only losing 1 series against [[Young Generation]], as they finished 13-1, in the group stage.However, in the finals GIGABYTE did not have any trouble against [[Young Generation]] as they won 3-0 to secure another [[VCS]] title and qualify for [[GPL/2017/Summer|GPL Summer]]. During GPL they continued their dominating momentum as they defeated [[Manila Eagles]] and [[Ascension Gaming]] both 3-0 in the playoffs, and qualified for the first time for [[World_Championship/2017|Worlds]]. 
+
+Being the first seed of [[GPL]] earned them a direct group stage place. GIGABYTE Marines was drawn into a group against [[Fnatic]], [[Immortals]], and [[LCK]] first seed [[Longzhu Gaming]]. With a win against [[Fnatic]] and [[Immortals]] GIGABYTE was tied 2-4 in the group stage with [[Fnatic]] and [[Immortals]]. Moving the the tie-breaker GIGABYTE had the fastest game time out of the three teams and had to face the winner of [[Immortals]] versus [[Fnatic]]. As they awaited, [[Fnatic]] managed to win their first match and faced GIGABYTE Marines for a spot in the knockout stage. During a 43-minute long game GIGABYTE Marines fell short as they were eliminated by [[Fnatic]], who had suprised everyone after going 0-4.
+
+===VCS Independent Region (2018-2019)===
+Ahead of the 2018 season the [[VCS]] became an independent region and thus could directly qualify for international tournaments, instead of qualifying through [[GPL]]. The team underwent several key changes as [[Levi]] joined [[100 Thieves Academy]], after displaying a great performance during [[World_Championship/2017|Worlds]], and mid laner [[Optimus]] leaving. GIGABYTE Marines dropped 5 games in the group stage during the [[VCS/2018/Spring|spring season]] as they finished 9-5 and had to start in the quarterfinals of the playoffs. Despite winning their quaterfinals versus [[Young Generation]] and semifinals versus [[UTM Esports]]. GIGABYTE Marines lost to [[EVOS Esports]] in the final, as they failed to qualify for [[MSI 2018|MSI]].
+
+In June, 2018 the team decided to rename to GAM Esports. Multiple roster changes during [[VCS/2018/Summer|summer, 2018]] and [[VCS/2019/Spring|spring, 2019]] caused the team to struggle as they failed to qualify for the playoffs both seasons. After three dissapointing seasons GAM Esports brought back [[Levi]] alongside other changes to the roster once again. However, this time GAM Esports managed to find their old form again during the [[VCS/2019/Summer|summer season]]. As they finish the group stage in first place with a score of 11-3. In the playoffs GAM Esports went unbeaten after defeating [[Lowkey Esports]] and [[Team Flash]] to return back on the international stage as they qualified for [[World_Championship/2019|Worlds]]. At [[World_Championship/2019|Worlds]] GAM had to face [[FunPlus Phoenix]], [[J Team]], and [[Splyce]] in the group stage. But this year GAM Esports only managed to win one game against [[J Team]] as they went out last place in their group with a score 1-5.
+
+===COVID-19 impact (2020-2021)===
+Before the [[VCS/2020/Spring|spring season]] GAM Esports promoted [[Kiaya]] to be their starting top laner and [[Zeros]] will be their substitute. With [[Levi]] staying the roster was completed by [[Dia1]], [[Blazes]], and [[Palette]]. In the group stage GAM Esports managed to secure first place once again, after going 13-1 as they directly qualified for the finals. During the finals they were up against [[Team Flash]], in a series that went to game 5 GAM Esports fell short as they lost the final to place second. After not winning the [[VCS/2020/Spring|spring season]] GAM Esports replaced their bot lane as [[EasyLove]] moved to starting position and [[Slay]] rejoined the team to replace [[Palette]]. But during the [[VCS/2020/Summer|summer season]] they secured first place in the group stage, and defeated [[CERBERUS Esports]] in the upper bracket semifinals. In the upper bracket final their rivals of the year [[Team Flash]] took once again a 2-3 victory as they reversed swept GAM Esports. As GAM eventually won their lower bracket final versus [[EVOS Esports]], GAM Esports was unable to defeat [[Team Flash]] in the finals as for the third time in 2020, [[Team Flash]] secured the victory defeating GAM 2-3. With a second place finish in the [[VCS/2020/Summer|summer season]], GAM Esports originally would have qualified for [[Worlds 2020]]. However, due to national travel restrictions related to COVID-19. GAM was unfortunately be unable to travel to Shanghai to compete this season.
+
+Before the 2021 [[VCS/2021/Spring|spring season]], former [[Team Flash]] mid laner [[Kati]] joined the team and former [[EVOS Esports]] support [[Bie]] joined and [[Sty1e]] joined as ADC. With these changes GAM Esports, showed their dominance only losing 2 games, as they managed to secure their fourth [[VCS]] title as they defeated [[Saigon Buffalo]] in the finals. However, despite qualifying for [[MSI 2021]] the team was unable to participate due to national travel restrictions related to COVID-19. With the [[VCS/2021/Summer|summer season]] being cancelled due to COVID-19, GAM Esports would not be able to get a chance to qualify for [[Worlds 2021]]. As the [[VCS]] eventually continued with the [[VCS/2021/Winter|winter season]], GAM Esports finished second after [[CERBERUS Esports]] proved to be the strongest team during the winter season.
+
+===Regional Dominance (2022-2024)===
+In 2022 [[VCS/2022/Spring|spring season]] GAM Esports went undefeated in the group stage, and won their final against [[Saigon Buffalo]]. However, as GAM Esports qualified to be the representatives for [[Vietnam]] in [[Southeast_Asian_Games/2021|SEA Games]] the team did not attend [[MSI 2022]]. During the [[Southeast_Asian_Games/2021|SEA Games]] Vietnam went undefeated as the team continued their momentum. The [[VCS/2022/Summer|summer season]] was a bit more of a challenge, despite finishing first in the group stage, GAM Esports lost 2-3 to [[Saigon Buffalo]] in the upper bracket final. As they dropped down to the lower bracket final they met [[Team Secret]] but swept them 3-0 and met their rivals [[Saigon Buffalo]] again in the finals. But this time GAM Esports took the victory 3-0 and qualified for [[Worlds 2022]]. However, just like in 2019 they finished 1-5 and last place in their group as they were drawn into a group of [[DRX]], [[Rogue]], and [[Top Esports]]. And just like in 2019 when they were in a group versus [[FunPlus Phoenix]] who won worlds that year, [[DRX]] continued to win worlds in 2022. 
+
+As [[Bie]] decided to leave the team [[Zin]] rejoined. With another dominating [[VCS/2023/Spring|spring season]] going 14-0 in the group stage and defeating [[CERBERUS Esports]] in the semifinals and [[SBTC Esports]] in both upper bracket final and grand final. GAM Esports prepared for another international appearance. However, their [[MSI 2023]] run was a short run as they lost to [[Golden Guardians]] in the Play-In stage and to [[Rainbow7]] in the lower bracket. During the [[VCS/2023/Summer|summer season]], [[SBTC Esports]] was disqualified. However, support player [[Palette]] was excluded from the investigation and suspension rule against them removed. Eventually [[Palette]] rejoined GAM Esports replacing [[Zin]] during the playoffs. GAM Esports continued their regional dominance as they won their eight [[VCS]] title and qualified for [[Worlds 2023]].
+
+During [[Worlds 2023]] Play-In stage, GAM Esports had to face [[LOUD]] in their first match as they lost 0-2 GAM Esports was with their backs against the walls. As they faced [[Rainbow7]] in the elimination match they got their revange as they won 2-0 to meet [[LOUD]] once again in the decided match but this time GAM Esports won 2-0 as they advance to play-in round two. During round two they faced their regional rivals [[Team Whales]], but once again GAM Esports came out on top as the stronger Vietnamese team. With their victory against [[Team Whales]] GAM Esports moved to the swiss stage where they went 0-2 after losing to [[Gen.G Esports]] and [[Fnatic]]. As it was all or nothing GAM Esports managed to win their series versus [[Team Liquid]], they eventually got eliminated by [[Dplus]].
+
+At the start of the 2024 [[VCS/2024/Spring|spring season]] GAM Esports found themselves once again replacing their mid laner, ADC, and support as [[Kati]] left to join [[Vikings Esports]] and their bot lane leaving as well. [[Blazes]] joined the team as mid laner, [[Pyshiro]] joined as ADC, and [[Elio]] joined as support. However due to matchfixing investigations [[Blazes]] and [[Pyshiro]] were suspended indefinitely and [[Emo]] moved to starting mid laner and [[EasyLove]] rejoined. During the [[VCS/2024/Spring|spring season]] playoffs GAM Esports lost to [[Vikings Esports]] and moved to the lower bracket. After defeating [[Team Whales]] and later [[Team Secret]] GAM Esports advanced to the finals to meet, newly found, [[Vikings Esports]] again. However, GAM Esports got their revange and won another [[VCS]] title and qualified for [[MSI 2024]]. During MSI Play-In they faced [[Fnatic]] in the upper bracket but lost 0-2, GAM Esports bounced back after eliminating [[LOUD]] in the lower bracket. As [[Fnatic]] awaited them in the lower bracket final it showed to be a repeat of the previous series as GAM Esports lost 0-2 and saw themselves getting eliminated by [[Fnatic]] once again as their head-to-head is now 1-7 in favour of [[Fnatic]].
+
+During the [[VCS/2024/Summer|summer season]], GAM Esports managed to win their tenth, and sixth in a row, [[VCS]] title as they once again defeated [[Vikings Esports]] in the final to secure a spot in [[LCP|Championship Pacific]] and qualify for [[Worlds 2024]]. During the [[World_Championship/2024/Play-In|Play-In]] stage GAM managed to defeat [[Fukuoka SoftBank HAWKS gaming]] and [[Rainbow7]], both 2-0, to get their spot in the [[World_Championship/2024/Swiss_Stage|swiss stage]]. However, GAM went 0-2 down after losing to [[FlyQuest]] and, once again losing to [[Fnatic]]. They bounced back by defeating [[MAD Lions]] 2-1 but eventually GAM Esports got eliminated by [[Team Liquid]] despite winning game 1 they lost the series 1-2.
+
+<!--===League of Legends Championship Pacific (2025-Present)===
+
+https://x.com/TK_Nguyen/status/1932390184106242556
+https://www.facebook.com/tknguyen83/posts/pfbid02dNRYK4AZVihxnAS4QKs7QWrgRgbTU9oDyoev9UX94XEwU7HUXcrm7ZcP7EG29c4tl
+-->
+
+==Trivia==
+* At first, the name GAM was an abbreviation for '''GIGABYTE Adonis Marines''', due to the team sponsored by GIGABYTE Technology and Adonis Icyber Gaming in 2017. Currently GIGABYTE and Adonis no longer sponsors team, so the name GAM does not stand for anything at all. However in 2023, TK Nguyễn announced that NRG Asia, GAM's owner renamed to GAM Entertainment, fully known as '''Game and Media Entertainment'''.
+
+==Gallery==
+===Rosters===
+<gallery mode="packed-hover" heights="250px">
+GAM Worlds 2022.jpg|GAM Esports at [[World_Championship/2022|Worlds 2022]]<br><small>From left to right:</small><br>[[Bie]] ∙ [[Sty1e|Style]] ∙ [[Kati]] ∙ [[Levi]] ∙ [[Kiaya]]
+GAM Team Photo Worlds 2023.jpg|GAM Esports at [[World_Championship/2023|Worlds 2023]]
+</gallery>
+
+===Logos===
+<gallery mode="packed" heights="250px">
+GIGABYTE Marines Logo.png|Original logo prior to 2018
+GAM.png|Logo prior to May 13th, 2021
+</gallery>
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+==References==
+{{Reflist|3}}
+{{Team roster}}

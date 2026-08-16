@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=HongSuo&redirects=1
+<!-- 抓取: 2026-08-16T16:01:03.735Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=HongSuo 
+|autoPI=Yes
+|image=DCG HongSuo at MSI 2026.jpg
+|name=郭貝益
+|romanized_name=Kuo Bei-yi 
+|birth_date=2003-03-18
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Mid
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+DCG HongSuo at the LCP 2026 Promotion.jpg|HongSuo at the [[LCP/2026/Promotion|LCP 2026 Promotion]]
+PSG HongSuo Worlds 2024.jpg|HongSuo at the [[World_Championship/2024|2024 World Championship]] with [[PSG Talon]]
+</gallery>
+
+==References==
+{{Reflist}}
+{{Player team roster}}

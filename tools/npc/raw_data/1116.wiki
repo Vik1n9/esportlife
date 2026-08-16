@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=1116&redirects=1
+<!-- 抓取: 2026-08-16T17:33:28.854Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=1116
+|autoPI=Yes
+|image=
+|name=簡茂安
+|romanized_name=Chien Mao-an 
+|familyname=Chien
+|givenname=Mao-an
+|birth_date=
+|country=Taiwan
+|status=active
+|roles=Mid
+|ids=Maoan
+|twitch=123789456f
+|instagram=
+|facebook=BYG1116
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+}}
+
+==Achievements==
+{{player achievements table|player=1116}}
+
+==Awards==
+{{player awards table|player=1116}}
+
+==Media==
+{{Player Media}}
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

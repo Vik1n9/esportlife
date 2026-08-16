@@ -1,0 +1,452 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2023%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:56:24.191Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Spring 2023}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2023/Spring
+|name2=Group Stage
+|link2=PCS/2023/Spring/Group Stage
+|name3=Playoffs
+|link3=PCS/2023/Spring/Playoffs
+|name4=Statistics
+|link4=PCS/2023/Spring/Statistics
+|This=1}}
+{{Infobox league
+|name=PCS Spring 2023
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|shortname=Spring 2023
+|tickername=PCS Spring 2023
+|series=PCS
+|organizer=Riot Games
+|organizer-link=http://www.riotgames.com/ 
+|organizer2-link=https://www.carry.live/
+|organizer2=Carry
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]
+|sponsor2=[https://calibre-global.com/ Calibre]
+|sponsor3=[https://www.ihotel.com.tw/zh-tw iHotel]
+|patch=
+|epatch=
+|country=Asia-Pacific
+|type=Online/Offline
+|venue=Carry Studio|venuedesc=<small>Regular Season & Playoffs</small>
+|format=Double Round Robin ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|sdate=2023-02-03
+|edate=2023-04-09
+|prizepoolusd=86,000
+|liquipediatier=2
+|team_number=12
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|youtube=lolpacific
+|previous=PCS/2022/Summer{{!}}Summer 2022
+|next=PCS/2023/Summer{{!}}Summer 2023
+}}
+
+==Format==
+* '''Group Stage''' 
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 6th place will play the playoffs
+***1st and 2nd place are seeded into Semifinals
+***3rd and 4th place are seeded into Quarterfinals, facing top 2 teams from [[LCO/2023/Split 1|LCO Split 1]]
+***5th and 6th place are seeded into Losers' Round 1
+* '''Playoffs''' 
+** Double Elimination
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2023|Mid-Season Invitational 2023]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=Taiwanese
+|name2=Cantonese
+|name3=English
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=Jackie|b1flag=tw
+|b2=JR
+|b3=Section
+|b4=Yuwu|b4flag=tw
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst
+|b1=Mountain
+|b2=Nash|b2link=Nash (Taiwanese caster)
+|b3=Zod
+|b4=Art|b4link=Art (Taiwanese caster)
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst Desk
+|b1=Tommy
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst Desk Guest
+|b1=Liang
+|b2=Lilv
+|b3=Benny|b3link=Benny (Taiwanese player)
+|b4=Ziv|b4link=Ziv (Taiwanese player)
+}}
+{{BroadcasterCard|lang=tw
+|position=Host
+|b1=Changmao
+}}
+{{box|end}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=hk
+|position=Commentator
+|b1=Bella |b1link=Bella (Cantonese caster)|b1flag=hk
+|b2=Dream |b2link=Dream (Cantonese caster)|b2flag=hk
+|b3=Hei Hei|b3flag=hk
+|b4=LoSing
+|b5=Sang
+|b6=Sigma
+}}
+{{box|end}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=LCO Broadcast
+|b1=Mac |b1link=Mac (Australian Caster)
+|b2=Rusty 
+|b3=Skimmy
+|b4=Kitty|b4name=Athena Jiang|b4flag=cn|b4link=Kitty (Chinese caster)
+|b5=MAXIMIZE
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=12|qualifies1=Mid-Season_Invitational/2023|qualifies1name=MSI
+|{{Slot|qualified1=yes |usdprize=30,000 |{{Opponent|psg talon |lastvs=frank esports |lastvsscore=3-0}}}}
+|{{Slot|usdprize=14,000 |{{Opponent|frank esports |lastvs=psg talon |lastvsscore=0-3}}}}
+|{{Slot|usdprize=10,000 |{{Opponent|ctbc flying oyster |lastvs=frank esports |lastvsscore=1-3 |date=2023-04-08}}}}
+|{{Slot|usdprize=7,000 |{{Opponent|impunity |lastvs=frank esports |lastvsscore=0-3 |date=2023-04-07}}}}
+|{{Slot|place=5-6 |usdprize=4,500
+|{{Opponent|beyond gaming |lastvs=impunity |lastvsscore=2-3 |date=2023-04-02}}
+|{{Opponent|deep cross gaming |lastvs=frank esports |lastvsscore=2-3 |date=2023-04-01}}
+}}
+|{{Slot|place=7-8 |usdprize=3,000
+|{{Opponent|chiefs esports club |lastvs=beyond gaming |lastvsscore=1-3 |date=2023-03-25}}
+|{{Opponent|team bliss |lastvs=deep cross gaming |lastvsscore=0-3 |date=2023-03-26}}
+}}
+|{{Slot|usdprize=3,000 |{{Opponent|j team |wdl=8/10 |date=2023-03-11}}}}
+|{{Slot|usdprize=3,000 |{{Opponent|hell pigs |wdl=6/12 |date=2023-03-11}}}}
+|{{Slot|usdprize=2,000 |{{Opponent|dewish team |wdl=3/15 |date=2023-03-11}}}}
+|{{Slot|usdprize=2,000 |{{Opponent|sem9 wpe |wdl=3/15 |date=2023-03-11}}}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5|title=Group Stage MVP
+|tournament=PCS/2023/Spring/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5|title=Playoffs MVP
+|tournament=PCS/2023/Spring/Playoffs
+}}
+{{box|end}}
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=10|margin=false}}
+{{prize pool slot award|award=Finals MVP |JunJia |flag1=tw |team1=psgt |date=2023-04-09}}
+{{Prize pool end}}
+{{box|end|padding=2em}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2022-08-29
+|team=beyond gaming
+|team2=impunity
+|team3=j team
+|team4=psg talon
+|team5=sem9
+|team6=meta falcon team
+|team7=frank esports
+|team8=deep cross gaming
+|team9=ctbc flying oyster
+|team10=Dewish Team
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Likai
+|p2=Kongyue
+|p3=1116|p3flag=tw
+|p4=Feng|p4flag=tw|p4link=Feng (Taiwanese player)
+|p5=Kino
+
+|t2p1=RenYe |t2p1flag=tw |t2pos1=jg|t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Butter |t3p1flag=tw |t3pos1=head coach
+|t3p2=Eason |t3p2flag=tw |t3pos2=assistant coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=Gemini
+|p3=JimieN
+|p4=Shunn
+|p5=S1aytrue|p5flag=tw
+
+|t2p1=JokerHan |t2p1flag=tw |t2pos1=mid |t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Achie |t3p1flag=tw |t3pos1=head coach
+|t3p2=Bob |t3p2flag=tw |t3pos2=assistant coach
+|t3p3=Koala |t3p3link=Koala (Taiwanese player) |t3pos3=assistant coach
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=Deep Cross Gaming
+|p1=Hanabi
+|p2=Hana
+|p3=Nestea
+|p4=Cryscata	
+|p5=Orca|p5flag=tw
+
+|t2p1=665 |t2p1flag= |t2pos1=jg |t2p1dnp=true
+|t2p2=Cha |t2p2flag=tw |t2pos2=sup
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=REFRA1N |t3p1flag= |t3pos1=head coach
+|t3p2=Enzz |t3p2flag=tw |t3pos2=assistant coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=Dewish Team
+|p1=Lacunae
+|p2=WSL
+|p3=aoliao
+|p4=Pocky|p4flag=tw
+|p5=EnHoa
+
+|t2p1=DeathClaw	 |t2p1flag=tw |t2pos1=mid |t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Sen |t3p1flag=tw |t3pos1=head coach
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=FRANK Esports
+|p1=Solokill
+|p2=Holo
+|p3=Pretender
+|p4=MnM
+|p5=Kaiwing
+
+|t2p1=Kirt|t2pos1=top |t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Skywalk |t3p1flag=hk |t3pos1=head coach
+|t3p2=Kabe|t3pos2=assistant coach
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=Impunity
+|p1=Driver
+|p2=Alex
+|p3=Mission
+|p4=Atlen
+|p5=Natur3|p5flag=tw
+
+|t2p1=Anex |t2pos1=adc |t2p1dnp=true
+|t2title=Subs
+
+|t3p1=Taizan |t3p1flag=tw |t3pos1=head coach
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=J Team
+|p1=RYue|p1flag=tw
+|p2=Fung|p2flag=tw
+|p3=Minji
+|p4=Bruce
+|p5=Enso
+
+|t2p1=Lauva |t2p1flag=tw |t2pos1=jg
+|t2p2=Whale |t2p2flag=tw |t2pos2=adc |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=UDJ |t3p1flag=tw |t3pos1=head coach
+|t3p2=RD |t3p2flag=tw |t3pos2=assistant coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=HELL PIGS
+|p1=Taco
+|p2=Tako|p2flag=tw
+|p3=Hong2
+|p4=Tide|p4link=Tide (Taiwanese player)|p4flag=tw
+|p5=IC8|p5flag=tw
+
+|t2p1=GodTone |t2p1flag=tw |t2pos1=jg |t2p1dnp=true
+|t2title=Subs
+
+|t3p1=Sunlar |t3p1flag=tw |t3pos1=head coach
+|t3p2=Chen Hsueh-yi |t3p2flag=tw |t3pos2=analyst
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+|inotes={{NoteBig
+|n1=December 4th - [[Meta Falcon Team]]'s slot is acquired by [[HELL PIGS]]. <ref name="HPS"> {{cite web |url=https://www.facebook.com/story.php?story_fbid=pfbid029wcNJv8dzXbPbN8RQXVYP1AZbSfVfgFZAhtxhKrtQojHPH7gYpCGdZaPDvfy6azvl&id=100043981936439&mibextid=Nif5oz|title=跟大家宣佈一個好消息 戰隊目前經過20天的招兵買馬後 總算有了一個基本的雛形 先來公布一下我們的隊名 我們的隊名叫做HPS HELL PIGS 地獄豬 當然大家應該都知道這意思了 從地獄回來復仇的豬 那是誰我就不好說了 目前贊助 訓練室陸陸續續完善中 那在這邊除了要感謝各個贊助商之外呢 還要感謝弘光的多媒體遊戲發展與應用系主任基哥 黃建基 |date=2023-01-12|author=[[GodTone]]}}</ref>
+}}
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Azhi
+|p2=JunJia
+|p3=Uniboy
+|p4=Wako
+|p5=Woody
+
+|t2p1=HongSuo |t2p1flag=tw |t2pos1=mid |t2p1dnp=true
+|t2p2=Husha|t2pos2=jg
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=CorGi |t3pos1=head coach
+|t3p2=Maru |t3p2flag=kr |t3pos2=assistant coach
+|t3p3=Zero |t3p3flag=tw |t3pos3=assistant coach
+|t3title=Staff
+|qualifier=PCS
+}}
+{{TeamCard
+|team=SEM9 WPE
+|p1=Relhia|p1flag=ph
+|p2=Fiya|p2flag=hk
+|p3=Calumnia|p3flag=ph
+|p4=yjy|p4flag=ph
+|p5=K2
+
+|t2p1=Parzival |t2p1flag=ph |t2pos1=mid |t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Wit |t3p1flag=vn |t3pos1=head coach
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=PCS
+|inotes={{NoteBig
+|n1=December 4th - [[SEM9]] disbands its ''League of Legends'' division. <ref>{{cite web |url=https://www.facebook.com/photo/?fbid=676357873926261&set=a.568517508043632|title=Today marks the end of SEM9 League of Legends' journey.|author=[[SEM9]]|date=2022-12-04}}</ref>
+|n2=January 18th - '''West Point Esports''' and [[SEM9]] form [[SEM9 WPE]]. <ref>{{cite web |url=https://drive.google.com/file/d/1Q0uGRFHroHIbypGzMlrsl8iH6U-70NMo/view?fbclid=IwAR3FU3CWIydgMv3zwO7SzoInYCHZbTihE58BndaZOGZrOCtwuFEz7vb4E0Q|title=West Point Esports partners with SEM9 for 2023 Pacific Championship Series|author=[[SEM9]]|date=2023-01-18}}</ref>
+}}
+}}
+{{TeamCard
+|team=Chiefs Esports Club
+|p1=BioPanther
+|p2=Babip
+|p3=Kisee
+|p4=Raes
+|p5=Aladoric
+
+|t2p1=Thien |t2pos1=top |t2p1dnp=true
+
+|t3p1=Jellal|t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Cupcake |t3pos2=Coach
+|t3p3=Mirin|t3p3flag=au |t3pos3=Coach
+|qualifier=[[LCO/2023/Split_1|LCO]]
+}}
+{{TeamCard
+|team=Team Bliss
+|p1=Lived
+|p2=Whynot|p2flag=nz
+|p3=Daystar|p3flag=kr
+|p4=leemas
+|p5=Benvi
+
+|t2p1=Beats|t2pos1=support|t2p1dnp=true
+
+|t3p1=Calvin |t3pos1=Head Coach
+|t3p2=BloodLine |t3pos2= Coach|t3p2flag=au
+|qualifier=[[LCO/2023/Split_1|LCO]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#section:PCS/2023/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[PCS/2023/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=PCS23SprPO}}
+
+==Additional Data==
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=lolpacific
+|lang2=tw |twitch2=lolpacifictw
+|lang3=hk |twitch3=lolpacifichk
+}}
+{{box|end}}
+
+===Statistics===
+{{#lst:PCS/2023/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+
+==References==
+{{Reflist}}
+
+{{2023 Season International Cycle Navbox}}

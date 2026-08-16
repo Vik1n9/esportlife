@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Flauren&redirects=1
+<!-- 抓取: 2026-08-16T15:49:58.228Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Flauren
+|autoPI=Yes
+|image=DCG Flauren at MSI 2026.jpg
+|name=魯澤堅
+|romanized_name=Lo Chak Kin
+|familyname=Lo
+|givenname=Chak Kin
+|birth_date=2006-10-30
+|country=Hong Kong
+|country2=
+|status=Active
+|roles=Top
+|ids=Zz
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+DCG Flauren at the LCP 2026 Promotion.jpg|Flauren at the [[LCP/2026/Promotion|LCP 2026 Promotion]]
+</gallery>
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Husha&redirects=1
+<!-- 抓取: 2026-08-16T16:02:45.931Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Husha
+|image=GZ Husha at LCP 2026 Split 2.jpg
+|name=黃梓維
+|romanized_name=Huang Tzu-wei
+|familyname=Huang
+|givenname=Tzu-wei
+|autoPI=Yes
+|birth_date=2001-01-04
+|country=Taiwan
+|status=active
+|roles=jungle
+|ids=
+|twitch=husha
+|factor=745
+|twitter=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+Husha_Worlds_2022.jpg|Husha at [[Worlds 2022]] with [[Beyond Gaming]]
+</gallery>
+
+==References==
+{{Reflist}}
+{{Player team roster}}

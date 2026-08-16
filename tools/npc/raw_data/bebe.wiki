@@ -1,0 +1,59 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=BeBe&redirects=1
+<!-- 抓取: 2026-08-16T17:33:37.300Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:BeBe}}
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=BeBe
+|image=Taipei Assassins BeBe Worlds 2014.jpg
+|name=張博為
+|romanized_name=Chang Bo-wei
+|familyname=Chang
+|givenname=Bo-wei
+|birth_date=1991-06-27
+|country=Taiwan
+|status=Retired
+|twitch=bebelolz
+|twitter=
+|facebook=bebesLoL
+|instagram=bebe1o1z
+|youtube=channel/UCHilzfET9Mh0DDYEnSHaeUg
+|roles=Bot
+|ids=bebeisadog
+|achievements=
+{{LeagueIconSmall/world championship|World Championship/2012|date=2012-10-13}} [[World_Championship/2012|2012 World Championship]] {{TeamIcon|tpa|2012-10-13}}<br/>[[:File:Ezreal Splash 6.jpg|TPA Ezreal]]
+|history=
+{{THA}}
+}}
+
+
+==Achievements==
+{{player achievements table|player=BeBe}}
+==Statistics==
+{{Player statistics table}}
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+===Pentakills===
+{|class="wikitable"
+!Date||Tournament||Team||Vs.||Champion||Position|| VOD
+|-
+|2012-11-29||[[IGN_ProLeague/Season_5|IGN ProLeague Season 5]]||{{TeamIcon|taipei assassins}}|| {{TeamIcon|blackbean}} ||[[File:Champion icon Ezreal.png|25x25px]] [[Ezreal]] ||Bot ||[https://www.youtube.com/watch?v=vuCrJpnY3As VOD]
+|-
+|2013-03-04||[[GPL/Summer/2013|GPL Summer 2013 - Week 12]]||{{TeamIcon|taipei assassins}}|| {{TeamIcon|saigon fantastic five}} ||[[File:Champion icon Ezreal.png|25x25px]] [[Ezreal]] ||Mid ||[https://www.youtube.com/watch?v=8vNLbNA-NY0 VOD]
+|-
+|2013-11-01||[[GPL/Winter/2013|GPL Winter 2013 - Week 1]]||{{TeamIcon|taipei assassins}}|| {{TeamIcon|mineski}} ||[[File:Champion icon Nidalee.png|25x25px]] [[Nidalee]] ||Bot ||[https://www.youtube.com/watch?v=i6JL5EmXCvs VOD]
+|-
+|2015-05-01||[[LMS/Summer/2015/Promotion|LMS Summer 2015 Promotion]]||{{TeamIcon|assassin sniper}}|| {{TeamIcon|never give up}} ||[[File:Champion icon Kalista.png|25x25px]] [[Kalista]] ||Bot ||[https://www.youtube.com/watch?v=CGwXahJ2fDw#t=11321 VOD]
+|-
+|2016-09-03||[[LMS/Regional_Finals/2016|LMS Regional Finals 2016]]||{{TeamIcon|j team}}|| {{TeamIcon|machi e-sports}} ||[[File:Champion icon Caitlyn.png|25x25px]] [[Caitlyn]] ||Bot ||[https://www.youtube.com/watch?v=vuCrJpnY3As VOD]
+|-
+|2017-12-07||[[All-Star/2017|All Star 2017]]||{{TeamIcon|lms}}|| {{TeamIcon|tcl}} ||[[File:Champion icon Jhin.png|25x25px]] [[Jhin]] ||Bot ||
+|}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

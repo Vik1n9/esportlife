@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=SkuLL&redirects=1
+<!-- 抓取: 2026-08-16T18:08:50.875Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=SkuLL
+|image=
+|name=吳國玟
+|romanized_name=Gary Ng Kwok Man
+|givenname=Gary
+|familyname=Ng
+|nonameflip=true
+|autoPI=Yes
+|birth_date=1997-10-15
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=support
+|ids=
+|twitch=
+|instagram=
+|facebook=gary.ng.7505
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+
+==Achievements==
+{{player achievements table|player=SkuLL}}
+
+==Awards==
+{{player awards table|player=SkuLL}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

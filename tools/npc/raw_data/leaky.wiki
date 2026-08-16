@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Leaky&redirects=1
+<!-- 抓取: 2026-08-16T16:44:42.230Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=Leaky
+|autoPI=Yes
+|image=
+|name=張祖嘉
+|romanized_name=Chang Tsu-chia
+|familyname=Chang
+|givenname=Tsu-chia
+|birth_date=2000-12-02
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Top,,
+|ids=8917
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Leaky}}
+
+==Awards==
+{{player awards table|player=Leaky}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MMD&redirects=1
+<!-- 抓取: 2026-08-16T16:44:55.627Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=MMD
+|image=Flash Wolves MMD 2017 MSI.jpg
+|name=游立宏
+|romanized_name=Yu Li-hong
+|familyname=Yu
+|givenname=Li-hong
+|autoPI=Yes
+|birth_date=1994-12-24
+|country=Taiwan
+|team=
+|status=retired
+|roles=top
+|twitch=yulihong22
+|ids=
+|twitter=
+|instagram=yulihong22
+|bestgg=mmd
+|facebook=MMDlihong
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=MMD}}
+
+==Awards==
+{{player awards table|player=MMD}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+Flash Wolves MMD 2016 Mid-Season Invitational.jpg|MMD at [[Mid-Season_Invitational/2016|MSI 2016]] with [[Flash Wolves]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

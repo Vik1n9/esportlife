@@ -1,0 +1,62 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=HungKuang%20Falcon&redirects=1
+<!-- 抓取: 2026-08-16T14:51:11.026Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/HungKuang Falcon}}
+{{Team Tabs}}
+{{Infobox team
+|name=HungKuang Falcon
+|location=Taiwan
+|region=SEA
+|league=
+|instagram=hku_esports
+|facebook=HKUesports
+|created={{Org}}: 2016-??-??
+|created2={{League of Legends}}: 2021-12-10
+}}
+'''HungKuang Falcon''' is a [[:category:Taiwan|Taiwanese]] esports team and part of Hung Kuang University.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Rendi |name=Lu Chih-yuan |joindate=2023-09-14}}
+|{{SquadAutoRow|id=1ssue |name=Chao Yi-chieh |joindate=2024-01-23}}
+|{{SquadAutoRow|id=TopRed |name=Wu Shang-hung |joindate=2024-01-23}}
+|{{SquadAutoRow|id=Xiaoyi |name=Li Hung-yi |joindate=2024-01-23}}
+|{{SquadAutoRow|id=Zsouaia |name=Liu Yu-chen |joindate=2024-01-23}}
+|{{SquadAutoRow|id=1ssue |name=Chao Yi-chieh |joindate=2024-05-20}}
+|{{SquadAutoRow|id=Ray |link=Ray (Taiwanese player) |name=Hsieh Chia-jui |joindate=2024-05-20}}
+|{{SquadAutoRow|id=Yuk1jie |name=Hsueh Chieh |joindate=2024-05-20}}
+|{{SquadAutoRow|id=Zsouaia |name=Liu Yu-chen |joindate=2024-05-20}}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=1Go |name=Hsu Jui-fang |joindate=2025-02-08}}
+|{{SquadAutoRow|id=TopRed |name=Wu Shang-hung |joindate=2025-02-08}}
+}}
+
+===Former===
+{{FormerOrganizationAuto
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table}}
+|name2=Recent Matches |content2={{Team recent matches table}}
+}}
+
+==Awards==
+{{Team awards table}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

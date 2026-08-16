@@ -1,0 +1,81 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MVK%20Esports&redirects=1
+<!-- 抓取: 2026-08-16T14:53:01.935Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|MVK Esports}}
+|name2={{Team|MVK Esports Academy}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=MVK Esports
+|image=MVK Esports full allmode.png
+|imagedark=
+|abbreviation=MVK
+|location=Vietnam
+|region=vn
+|league=LCP
+|website=
+|facebook=MVKEsportsLOL
+|twitter=MVK_VN
+|youtube=@MVK_LOL
+|instagram=mvkesports.lol
+|created=2018-05-27
+|disbanded= 
+}}
+'''MVK Esports''' is a [[:category:Vietnam|Vietnamese]] esports organisation. They previously competed under the name '''Vikings Gaming''' prior to their rebrand to '''Vikings Esports''', while on December 30th, 2025 it was announced the team would rebrand to '''MVK Esports'''. MVK stand for Mind, Vision, and Kinetics.
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=BeeOne |name=Vũ Tuấn Phi |joindate=2018-05-27}}
+|{{SquadAutoRow|id=Beo |name=Phạm Vũ Khánh Toàn |joindate=2018-05-27}}
+|{{SquadAutoRow|id=Hani |name=Nguyễn Tuấn Phát |joindate=2018-05-27}}
+|{{SquadAutoRow|id=Opg1 |name=Phan Hoàng Tài |joindate=2018-05-27}}
+|{{SquadAutoRow|id=Upin |name=Lê Hoài An |joindate=2018-05-27}}
+|{{SquadAutoRow|id=Shinie |name=Lê Phúc Nhân |joindate=2018-07-10}}
+|{{SquadAutoRow|id=Light |name=Nguyễn Đức Minh |joindate=2018-07-17}}
+|{{SquadAutoRow|id=Eragon |link=Eragon (Vietnamese player) |name=Nguyễn Ngọc Huy |joindate=2018-07-24}}
+|{{SquadAutoRow|id=Osas |name=Hoàng Văn Cường |joindate=2018-07-24}}
+|{{SquadAutoRow|id=Bear |link=Pampy |name=Trần Công Tình |joindate=2018-07-31}}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=Zuko|link=Zuko (Vietnamese analyst)|name=Nguyễn Hoàng Thái|joindate=2025-12-02}}
+|{{SquadAutoRow|id=Suga|link=Suga (Vietnamese analyst)|name=Phan Bá Phúc|joindate=2025-12-02}}
+}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=MVK Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=MVK Esports}}
+}}
+
+==Gallery==
+===Logos===
+{{TeamLogoGallery}}
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+==References==
+{{Reflist|2}}
+{{Team roster}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

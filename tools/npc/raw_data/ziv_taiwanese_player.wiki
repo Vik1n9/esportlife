@@ -1,0 +1,48 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ziv%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:43:18.495Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Ziv}}
+{{Person Tabs}}
+{{Infobox player
+|id=Ziv
+|image=AHQ Ziv 2016Worlds.jpg
+|name=陳奕
+|romanized_name=Chen Yi
+|familyname=Chen
+|givenname=Yi
+|birth_date=1994-12-24
+|country=Taiwan
+|instagram=ziv_12.24
+|autoPI=Yes
+|status=Retired
+|twitch=ziv_lol
+|twitter=
+|facebook=ahqziv
+|youtube=@Zivlol
+|roles=top
+|stream=
+|champion=
+|champion2=
+|champion3=
+|champion4=
+|champion5=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Ziv (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Ziv (Taiwanese player)}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+Ahq Ziv at IEM Taipei 2015.jpg|AlbZivis at [[Intel_Extreme_Masters/Season_IX/Taipei|IEM Season IX - Taipei]] with [[ahq e-Sports Club]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

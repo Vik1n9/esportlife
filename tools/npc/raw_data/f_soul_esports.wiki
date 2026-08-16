@@ -1,0 +1,61 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=F-Soul%20Esports&redirects=1
+<!-- 抓取: 2026-08-16T14:45:00.690Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=F-Soul Esports
+|image=F-Soul Esports full lightmode.png
+|imagedark=F-Soul Esports full darkmode.png
+|location=Hong Kong
+|location2=Taiwan
+|region=tw
+|sponsor=
+|website=https://www.f-soulesports.com/
+|facebook=fsoulesports
+|instagram=
+|youtube=
+|twitch=
+|fanclub=
+|twitter=
+|created=2019-01-04
+|disbanded=2019-08-29
+}}
+'''F-Soul Esports''' was a [[:Category:Taiwan|Taiwanese]] team.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=BarOh |name=Yoo Gang-min |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Dennis |name=Lau Hoi-wing |joindate=2019-01-04}}
+|{{SquadAutoRow|id=KL |name=So Ka-lung |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Yuen |name=Wong Wing-yuen |joindate=2019-01-04}}
+|{{SquadAutoRow|id=BBanG |name=Kwon Yeong-jae |joindate=2019-05-29}}
+|{{SquadAutoRow|id=Coool |name=Choi Hoi-hin |joindate=2019-05-29}}
+|{{SquadAutoRow|id=Grail |name=Bong Geun-tae |joindate=2019-07-09}}
+|{{SquadAutoRow|id=Error |name=Sit Chong Fai |joindate=2019-07-22}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=228 |name=Cheung Chi-wai |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Riz |name=Lee Cho-kit |joindate=2019-01-04}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=F-Soul Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=F-Soul Esports}}
+}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

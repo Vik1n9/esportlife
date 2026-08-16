@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Pretender&redirects=1
+<!-- 抓取: 2026-08-16T16:58:47.808Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Pretender 
+|image=
+|name=伍焯綸
+|romanized_name=Jason Ng Cheuk Lun
+|givenname=Jason
+|familyname=Ng
+|nonameflip=true
+|birth_date=2001-03-11
+|country=Hong Kong
+|country2=
+|team=FRANK Esports
+|status=Active
+|roles=Mid
+|autoPI=Yes
+|ids=Kanna
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Pretender }}
+
+==Awards==
+{{player awards table|player=Pretender }}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=YSKM&redirects=1
+<!-- 抓取: 2026-08-16T17:20:06.010Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=YSKM
+|autoPI=Yes
+|image=
+|name=鄒樹德
+|romanized_name=Chau Shu Tak
+|familyname=Chau
+|givenname=Shu Tak
+|birth_date=2004-02-11
+|country=Hong Kong
+|status=Active
+|roles=Top,,
+|ids=You Should Know Me
+|instagram=cck_know
+|facebook=100081464037230
+|twitter=
+|twitch=lovezzs00
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=YSKM}}
+
+==Awards==
+{{player awards table|player=YSKM}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

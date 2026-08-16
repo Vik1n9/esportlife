@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=OVERT1ME&redirects=1
+<!-- 抓取: 2026-08-16T16:52:41.721Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=OVERT1ME
+|autoPI=Yes
+|image=
+|name=郭秉鑫
+|romanized_name=Kuo Ping-hsin
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Support
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

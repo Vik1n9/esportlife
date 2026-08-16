@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=BuLuKaKa&redirects=1
+<!-- 抓取: 2026-08-16T17:33:40.926Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=BuLuKaKa
+|autoPI=Yes
+|image=
+|name=梁家杰
+|romanized_name=Leong Ka Kit
+|familyname=Leong
+|givenname=Ka Kit
+|birth_date=2004-05-10
+|country=Hong Kong
+|status=active
+|roles=Mid
+|ids=
+|twitch=bulukakaka
+|instagram=bulukaka0510
+|douyin_page=rPsmBXm_tHY
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

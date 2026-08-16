@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Azhi&redirects=1
+<!-- 抓取: 2026-08-16T16:27:11.596Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Azhi
+|image=PSG Azhi at Worlds 2025 Swiss Stage.jpg
+|name=黃上鋕
+|romanized_name=Huang Shang-chih
+|familyname=Huang
+|givenname=Shang-chih
+|birth_date=2001-05-09
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=top
+|ids=
+|twitch=e25286123123
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+PSG Azhi MSI2022.jpg|[[PSG Talon|PSG]] Azhi at the [[Mid-Season_Invitational/2022|2022 Mid-Season Invitational]]
+PSG Azhi MSI 2023.jpg|[[PSG Talon|PSG]] Azhi at [[MSI 2023]]
+PSG Azhi MSI 2024.jpg|[[PSG Talon|PSG]] Azhi at [[MSI 2024]]
+PSG Azhi Worlds 2024.jpg|[[PSG Talon|PSG]] Azhi at [[Worlds 2024]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

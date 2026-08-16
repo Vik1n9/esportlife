@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kingpo54&redirects=1
+<!-- 抓取: 2026-08-16T16:12:07.292Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=kingpo54
+|autoPI=Yes
+|image=
+|name=
+|romanized_name=Mak Chun Pan
+|familyname=Mak|givenname=Chun Pan
+|birth_date=
+|country=Hong Kong
+|country2=
+|team=
+|status=Active
+|roles=Support
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

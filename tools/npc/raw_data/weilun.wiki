@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=WeiLun&redirects=1
+<!-- 抓取: 2026-08-16T17:13:11.662Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=WeiLun
+|image=
+|name=蔡緯綸
+|romanized_name=Tsai Wei-lun 
+|familyname=Tsai
+|givenname=Wei-lun 
+|autoPI=Yes
+|birth_date=2002-05-18
+|country=Taiwan
+|team=
+|status=active
+|roles=Bot
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+}}
+
+==Achievements==
+{{player achievements table|player=WeiLun}}
+
+==Awards==
+{{player awards table|player=WeiLun}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

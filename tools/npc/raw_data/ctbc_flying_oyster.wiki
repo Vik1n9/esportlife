@@ -1,0 +1,94 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=CTBC%20Flying%20Oyster&redirects=1
+<!-- 抓取: 2026-08-16T14:44:18.544Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|cfo}}
+|name2={{Team|cfoa}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=CTBC Flying Oyster
+|abbreviation=CFO
+|image=CTBC Flying Oyster 2022 allmode.png
+|location=Taiwan
+|city=Taipei
+|region=SEA
+|league=LCP
+|website=https://www.ctbcflyingoyster.com/
+|twitter=CTBC_cfo
+|facebook=ctbc.flyingoyster
+|youtube=channel/UCD9a7alpDJyALmUeUcvXFlw
+|twitch=
+|instagram=ctbc_flyingoyster
+|created={{League of Legends}}: 2022-01-26
+}}
+'''CTBC Flying Oyster''' (Also known as 中信飛牡蠣) is a [[:category:Taiwan|Taiwanese]] esports organisation owned by Taiwanese company '''CTBC''', which also own baseball team '''CTBC Brothers''' and basketball team '''New Taipei CTBC DEA'''.
+
+{{SectionLinks
+|rosterHeader=Player Roster
+|achievementsHeader=Results
+|historyHeader=History
+|mediaHeader=Media
+}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto
+|{{SquadAutoRow|date=2025-12-15 |displaydate=December 15th |text={{player|Rest|pos=top}}'s contract is extended. <ref>{{cite web |url=https://x.com/CTBC_cfo/status/2000415523780112844 |title=We are happy to announce Rest will be staying at CFO as our top laner. |author=[[CTBC Flying Oyster]] |date=2025-12-15 |language={{flag|usuk}} English}}</ref>}}
+}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=CTBC Flying Oyster}}
+|name2=Recent Matches |content2={{Team recent matches table|team=CTBC Flying Oyster}}
+}}
+
+==Awards==
+{{Team awards table|team=CTBC Flying Oyster}}
+
+==History==
+===Entry into LoL and Worlds debut (2022)===
+CTBC Flying Oyster entered League of Legends esports and the [[PCS]] after acquiring [[Hong Kong Attitude]]'s slot, replacing the team that had competed in League of Legends since 2013. In their debut season, finished in joined 3rd place with [[Deep Cross Gaming]] in the regular season, securing them a spot in the Upper Bracket for the playoffs. They would continue their route through the upper bracket all the way through the finals, where a narrow 2-3 rematch loss against [[PSG Talon]] kept them out of the [[Mid-Season_Invitational/2022|2022 Mid-Season Invitational]]. 
+
+The team made few changes to their roster for the following [[PCS/2022/Summer|Summer Season]]. They finished the regular season in fourth place but a much more successful playoffs run against [[Frank Esports]], [[PSG Talon]] and [[Beyond Gaming]] won them the championship and a spot at the [[World_Championship/2022|2022 World Championship]] group stage. A massive underdog in their group, Flying Oysters got just one win (against [[100 Thieves]]) and finished in joined last place with the LCS representatives.
+
+===Search for second gold and Worlds return (2023)===
+Ahead of the [[PCS/2023/Spring|2023 Spring]] season, the team parted ways with Sung  "[[Atlen]]" Ya-lun, Chen "[[M1ssion]]" Hsiao-hsien and Lin "[[Koala_(Taiwanese_player)|Koala]]" Chih-chiang. Koala however would end up returning to the organization a month later as a part of the coaching staff. CTBC also notably picked up Tseng "[[JimieN]]" Hao-chun, who had just come of a year in North America where he was a part of [[100 Thieves Academy]]. Former [[Hong Kong Attitude]] player Lin "[[S1aytrue]]" Sheng-po also joined the team
+
+Despite these changes — and also picking up veteran Liu "[[ShiauC]]" Chia-hao in Summer — CTBC Oyster failed to secure a second domestic gold medal, finishing third in Spring and second in Summer, but booked a ticket to the [[World_Championship/2023|2023 World Championship]] play-in stage nonetheless. Finishing behind [[Team Whales]] and [[Team BDS]] in groups, however, made for a short Worlds run and sent CTBC home to prepare for 2024.
+
+==Gallery==
+===Logos===
+{{TeamLogoGallery}}
+
+===Rosters===
+<gallery mode="packed-hover" heights="250px">
+CFO_Team_Photo_Worlds_2023.jpg|CFO at [[Worlds 2023]] Features Day<br /><small>From left to right:</small><br />[[Rest]] ∙ [[Gemini]] ∙ [[JimieN]] ∙ [[Shunn]] ∙ [[ShiauC]]
+CFO at Worlds 2025 Quarterfinals Features Day.jpg|CFO at [[Worlds 2025]] Quarterfinals Features Day<br /><small>From left to right:</small><br />[[Driver]] ∙ [[HongQ]] ∙ [[Rest]] ∙ [[JunJia]] ∙ [[Kaiwing]] ∙ [[Doggo]]
+</gallery>
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+==Trivia==
+* The name '''Flying Oyster'''' comes from the teams sponsor, CTBC, which has the slogan "We are family.". In mandarin, Flying Oyster (飛牡蠣) is pronounced as ''"fay-moo-lee"'', which reflects the sponsors slogan. Also maing the teams name in chinese read as ''' CTBC Family'''. <ref>{{cite web |url=https://www.reddit.com/r/leagueoflegends/comments/xyfrv0/flying_oyster_name_origin/ |title="Flying Oyster" name origin|author=Noobiate |language={{Flag|usuk}} English}}</ref>
+
+==References==
+{{Reflist}}
+{{team roster}}

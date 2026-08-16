@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Sun1&redirects=1
+<!-- 抓取: 2026-08-16T17:41:23.753Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Sun1
+|autoPI=Yes
+|image=
+|name=陳思翰
+|romanized_name=Sun Yi-an
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Mid
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

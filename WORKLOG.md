@@ -1,5 +1,33 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-16 — S24b 台港澳目錄與 raw：283 頁抓齊、42 隊演變樹，429 限流下續傳扛住
+- **方向**：庚組資料線第二站——S24a 把抓取管線探勘好了（crawl.mjs、覆蓋表、
+  頁題陷阱），本站把台港澳的史實資料落地：選手清單（S27 參數生成的取材範圍）、
+  戰隊演變樹（S25 實體對齊與 UI 隊名顯示的單一來源）、raw 全量（S25 清洗原料）。
+  依 §23.1 去姓名：只存選手 ID 與戰隊縮寫。
+- **選手清單**：TW 143＋HK 54＋MO 3＝200 筆，priority 全 1。分類枚舉合併去重，
+  扣掉 Macau 分類亂入的「Error」；check 全 OK 零 MISS——消歧義後綴頁就是正式頁題，
+  REDIRECT 展開沒派上用場。`gen-target-tw.mjs` 吃三個枚舉清單組 CSV，重跑冪等。
+- **戰隊演變樹**：42 隊（Taiwanese Teams＋PCS＋LCP 三分類枚舉 52 隊，LCP 日越澳
+  外隊 9 隊被過濾出段、留給 S24c）。⚠ 兩欄陷阱實測：Infobox 的 region 與 location
+  互相矛盾（G-Rex 標 HK 實為 TW、HKA 標 TW 實為 HK、Machi/TPA 標 Southeast Asia
+  實為 TW）——判定規則兩欄互補＋一張人工例外表。縮寫表與更名表（RENAMES）是
+  人工維護的單一來源，重跑改表不改產出檔。
+- **更名比對**：6 條線性繼承全部散文明示（RG→GRX→MCX、ALP→HG→DWT、
+  MFT→HP、ahq→BYG）；前身無獨立頁題的（yoe IRONMEN、17 Academy、Talon、
+  Afro Beast）不列 predecessors 陣列、寫交接筆記。Infobox 沒有 predecessors 欄位，
+  S25 若要自動化以「founded as／formerly known as／acquired the spot of」為關鍵字。
+- **raw 全量**：283/283 抓齊（選手 200＋隊 52＋賽事 31，含 GPL 2012–2014 9 頁、
+  LMS 10 頁、PCS 10 頁、LCP 2025 3 頁），1.6 MB 進 repo（23.3 明定 raw 可稽）。
+  重跑全跳過、零缺頁、零空頁。
+- ⚠ **429 限流比 S24a 預估嚴**：首輪每 1–2 分鐘被限一次、31 頁 FAIL，靠退避三級＋
+  冪等續傳無人工介入補完（共約 1.5 小時，後半 15 分鐘 20 頁）。教訓：大規模抓取
+  用 nohup 背景跑＋輪詢 manifest，前景等待與多進程交錯都會加重限流。
+- **實測**：`npm test` 22757 項全綠（純工具站，src/tests 未動）。`next-station.mjs`
+  回報 S24c。
+- **狀態**：完成。SAVE_VERSION 未動。交接筆記已回填（實測數字、更名表、疑慮：
+  8 頁 Want_to_Help 全在 GPL 2012–2014、三隊 active_years null、外賽區隊去留）。
+
 ## 2026-08-17 — S38 狀態列與常駐屬性條：壬組骨架站，體力／倒數／屬性常駐，技能讀數撤出狀態帶
 - **方向**：§22.1 主畫面骨架與 §22.5 定案細項從未實作——體力藏在面板裡（玩家要主動
   管理的資源決策時讀不到，§0.5 防農檢驗直接禁止）、屬性只在加點那幾秒出現、

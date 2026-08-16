@@ -1,0 +1,74 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=FRANK%20Esports&redirects=1
+<!-- 抓取: 2026-08-16T14:45:07.504Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=FRANK Esports
+|image=Frank Esports 2022 lightmode full.png
+|imagedark=Frank_Esports_2022_darkmode_full.png
+|location=Hong Kong
+|region=SEA
+|league=PCS
+|website=
+|twitter=
+|facebook=FrankEsportsLoL
+|youtube=@frankesports
+|twitch=
+|instagram=frankesportslol
+|created={{League of Legends}}: 2022-02-11
+}}
+'''FRANK Esports''' is a [[:category:Hong Kong|Hong Kong]] based esports organisation.
+{{See also|#Biography|l1=FRANK Esports: Biography}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+|{{SquadAutoRow|id=Kirt |name=Tsang Ka Kit |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=Pretender |name=Cheuk Lun Jason Ng |joindate=2022-02-09 }}
+|{{SquadAutoRow|id=Rebirth |name=Fu Chun Kit |joindate=2022-02-11 }}
+}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=Buck1 |Position=Founder |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=Skywalk |name=John Chun Him-wong |joindate=2022-02-11 }}
+|{{SquadAutoRow|id=Jazkit |name=Chan Cheuk-kit |joindate=2022-02-11 }}
+}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=FRANK Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=FRANK Esports}}
+}}
+
+==Awards==
+{{Team awards table|team=FRANK Esports}}
+
+==Biography==
+===Debut into the PCS with a Hong Kong team (2022)===
+FRANK Esports made their way into the [[PCS]] in the [[PCS/2022/Spring|2022 Spring]] split as was announced by the League on January 28th, 2022 as they acquired the slot of [[BOOM Esports]]. <ref name="4 new entries">{{cite web |url=https://lolesports.com/article/teams-announced-for-the-pacific-championship-series-2022-spring-split/blt34e2b7342d8f51dc |title=Teams Announced for the Pacific Championship Series 2022 Spring Split |date=2022-01-28 |author=[[LoL Esports]] |publisher=LoL Esports |language={{Flag|usuk}} English}}</ref> Joining the League alongside multiple other organizations such as [[CTBC Flying Oyster]], [[Deep Cross Gaming]] and [[Hurricane Gaming]]. The Hong Kong based organization there also fielded a line-up consisting only of Hong Kong based players, as they announced their roster consisting of Tsang "[[Kirt]]" Ka-kit, Tsang "[[Holo]]" Dek-lam, Jason "[[Pretender]]" Ng, Wong "[[MnM]]" Ka-chun, Fu "[[Rebirth]]" Chun-kit and Law "[[K2]]" Chi-kit. <ref name="first roster">{{cite web |url=https://www.facebook.com/FrankEsportsLoL/posts/103178598963295|title=“ANYONE CAN BE FRANK 👤” |date=2022-02-11 |author=FRANK Esports |language={{Flag|usuk}} English}}</ref>
+
+The team would perform middle of the pack during their first [[PCS/2022/Spring|split]] in the regular season, but in the last week the team lost their sixth place position which they had initially tied with [[Meta Falcon Team]], now finishing in seventh the team was seeded into the Lower Bracket. Here they did however get a chance to face off against Meta Falcon, beating them in a convincing 3-0. However their following opponents in [[Deep Cross Gaming]] would eliminate them from the playoffs.
+
+Their following [[PCS/2022/Summer|Summer Split]] saw them bring in Chau "[[YSKM]]" Shu-tak to improve the line-up, which seemed to have positive effects. Improving their regular season finish to a fifth  place, losing the tiebreaker for fourth place against [[CTBC Flying Oyster]]. They then also had to face them again in their first Upper Bracket round, again resulting in a loss for the team. The team recovered from their loss though and beat [[Impunity]] in their first lower bracket round. However another encounter against [[Deep Cross Gaming]] saw the team lose once again in a 3-0 fashion. Nearing the end of the year they would also lose their new star toplaner YSKM as he was acquired by [[Invictus Gaming]]. <ref name="YSKM leaves">{{cite web |url=https://weibo.com/2099708877/Mjy5ttTcG|title=【iG电子竞技俱乐部英雄联盟分部人员调整公告】|date=2022-12-14 |author=[[Invictus Gaming]] |language={{Flag|cn}} Chinese}}</ref>
+
+===Committing to the Hong Kong Superteam (2023)===
+Heading into the new year, FRANK filled the open spots in the Top and Support by acquiring Mak "[[Solokill]]" Fu-keung from [[EDG Youth Team|EDG's Youth Team]] and signing former [[PSG Talon]] support Ling "[[Kaiwing]]" Kai-wing. With these new pieces added unto their roster, the team would find new heights. Making an impressive run in the regular [[PCS/2023/Spring|Spring]] season where they finished om second to secure a bye to the Upper Bracket Semifinals. In the Semifinals however, FRANK got reverse sweeped by [[CTBC Flying Oyster]] to once again find themselves against [[Deep Cross Gaming]] in the Lower Bracket Quarterfinals. This time however FRANK was able to come out victorious after a back and forth best-of-five. Followed by a sweep against [[Impunity]] they found themselves a rematch against the Flying Oysters' this time getting the better off them, and placing themselves against [[PSG Talon]] in the Grand Finals. Here however they were swept 3-0 by the team who had been dominating the season thus far.
+
+Headed into [[PCS/2023/Summer|Summer]] FRANK added Chan "[[KennyChan]]" Chi-yung as their new starting jungler, but they were unable to show the same dominance as in Spring during the regular season. This time finishing in sixth place, which meant they had to start their playoffs run in the lower bracket. Initially finding victory over the [[LCO]]'s [[Chiefs Esports Club]], followed by a sweep of [[J Team]], their run was then halted by the [[CTBC Flying Oyster]] as they lost the back and forth best-of-five. Ending their Summer Split in fourth place.
+
+===Bringing in Taiwanese Talent (2024)===
+Heading into 2024 FRANK seemingly broke their formula of fielding only Hong Kong players as they rebuilt their roster. This time bringing in three Taiwanese players in Luo "[[Liang]]" Bai-jiang, Huang "[[Gemini]]" Chu-hsan and Tseng "[[JimieN]]" Hao-chun. JimieN sharing the Mid lane position with Pretender over the season. Even though the [[PCS/2024/Spring/Regular_Season|Spring Season]] looked to be a tough competition as the top teams looked to also improve their squads. FRANK made a splashing start in the newly formatted [[PCS]], only dropping a single series in the First Phase of the tournament.
+
+==References==
+{{Reflist}}
+{{team roster new}}

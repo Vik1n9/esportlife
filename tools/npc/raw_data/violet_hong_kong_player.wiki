@@ -1,0 +1,58 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Violet%20(Hong%20Kong%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:13:03.683Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Violet
+|autoPI=Yes
+|image=Violet at the LCP 2026 Promotion.jpg
+|name=Vincent Wong
+|birth_date=2000-10-31
+|country=Hong Kong
+|country2=
+|status=Active
+|roles=Bot,,
+|ids=
+|instagram=
+|facebook=
+|twitter=Violet_OCE
+|twitch=violetad
+|youtube=@violetadclol
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+PCE Violet Worlds 2021.jpg|Violet at the [[World_Championship/2021|2021 World Championship]] with [[PEACE]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+* Is the brother of Joshua "[[doraemon]]" Wong. <ref>{{cite web|url=https://x.com/Violet_OCE/status/1973345896260837877|title=Glad I got to share a stage with my brother which has been a cool experience.|author=Violet|language={{Flag|usuk}} English|date=2025-10-01}}</ref>
+
+
+==Bootcamps==
+{{BootcampPlayer
+	|{{BootcampPlayer/Row
+		|date=April 2024
+		|location={{flag|kr}} Seoul, South Korea
+		|host=fearx
+		|place=FEARX BOOTCAMP |place_link=https://fearx.gg/bootcamp
+		|source=https://x.com/FEARXBOOTCAMP/status/1750465706007957526
+	}}
+}}
+
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

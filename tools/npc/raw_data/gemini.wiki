@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Gemini&redirects=1
+<!-- 抓取: 2026-08-16T18:08:35.712Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Gemini
+|image=CFO_Gemini_Worlds_2023.jpg
+|name=黃楚軒
+|romanized_name=Huang Chu-hsan
+|familyname=Huang
+|givenname=Chu-hsan
+|birth_date=1998-06-09
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=jungle
+|twitch=
+|factor=3909
+|ids=
+|twitter=
+|instagram=
+|facebook=MCXGemini
+|champion=Lee sin
+|champion2=Graves
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Gemini}}
+
+==Awards==
+{{player awards table|player=Gemini}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+MCX Gemini Worlds 2020.jpg|Gemini at [[World_Championship/2020|Worlds 2020]].
+Gemini Worlds 2022.jpg|Gemini at [[World_Championship/2022|Worlds 2022]].
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,34 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=XiaoXiang%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:41:41.916Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=XiaoXiang
+|autoPI=Yes
+|image=DCG XiaoXiang at the LCP 2026 Promotion.jpg
+|name=Liao Yi-xiang
+|birth_date=2008-04-09
+|country=Taiwan
+|status=Active
+|roles=Mid
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

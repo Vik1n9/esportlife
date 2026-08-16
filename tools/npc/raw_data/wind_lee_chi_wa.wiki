@@ -1,0 +1,46 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wind%20(Lee%20Chi-wa)&redirects=1
+<!-- 抓取: 2026-08-16T17:16:37.877Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{for|the Danish player|Wind (Danish player)}}
+{{for|the Korean player|Wind (Korean player)}}
+{{for|the other Hong Kong player, Lai Chap-yin|Wind (Lai Chap-yin)}}
+{{Person Tabs}}
+{{Infobox player
+|id=Wind
+|image=
+|name=李志華
+|romanized_name=Lee Chi Wa
+|givenname=Chi Wa
+|familyname=Lee
+|autoPI=Yes
+|birth_date=
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=bot,support
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Wind (Lee Chi-wa)}}
+
+==Awards==
+{{player awards table|player=Wind (Lee Chi-wa)}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

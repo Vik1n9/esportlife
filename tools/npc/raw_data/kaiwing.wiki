@@ -1,0 +1,48 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kaiwing&redirects=1
+<!-- 抓取: 2026-08-16T16:08:28.802Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Kaiwing
+|image=GZ Kaiwing LCP 2026 Split 3.jpg
+|name=凌啟榮
+|romanized_name=Ling Kai Wing
+|familyname=Ling
+|givenname=Kai Wing
+|birth_date=1996-10-27
+|country=Hong Kong
+|team=
+|status=active
+|roles=support
+|autoPI=Yes
+|twitch=kaiwing1027
+|instagram=kaiwing1027
+|facebook=PSGTLN.Kaiwing
+|facebook2=HKAKaiWing
+|youtube=
+|twitter=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+PSG Kaiwing Worlds 2020.jpg|[[PSG Talon|PSG]] Kaiwing at [[World_Championship/2020|Worlds 2020]]
+PSG Kaiwing MSI 2021.jpg|[[PSG Talon|PSG]] Kaiwing at [[MSI 2021]]
+CFO Kaiwing First Stand 2025.jpg|[[CFO]] Kaiwing at [[FST 2025]]
+CFO Kaiwing at Worlds 2025 Quarterfinals.jpg|[[CFO]] Kaiwing at [[Worlds 2025]] Quarterfinals match against {{TeamIcon|kt rolster}}
+VKS Kaiwing at CBLOL 2026 Cup.jpeg|[[Keyd Stars|VKS]] Kaiwing at [[CBLOL/2026/Cup|CBLOL Cup 2026]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

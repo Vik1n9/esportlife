@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Holo&redirects=1
+<!-- 抓取: 2026-08-16T16:36:01.767Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Holo
+|image=
+|name=曾德霖
+|romanized_name=Tsang Dek Lam
+|familyname=Tsang
+|givenname=Dek Lam
+|birth_date=2000-05-04
+|country=Hong Kong
+|autoPI=Yes
+|status=active
+|roles=jungle,Bot
+|ids=Luther, HoLoGram
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Holo}}
+
+==Awards==
+{{player awards table|player=Holo}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

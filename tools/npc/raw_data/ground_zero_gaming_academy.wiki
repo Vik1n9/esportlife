@@ -1,0 +1,52 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ground%20Zero%20Gaming%20Academy&redirects=1
+<!-- 抓取: 2026-08-16T14:49:25.324Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|Ground Zero Gaming}}
+|name2={{Team|Ground Zero Gaming Academy}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Ground Zero Gaming Academy
+|location=Australia
+|location2=Taiwan
+|region=pacific
+|league=PCS
+|image=Ground Zero Gaming 2019.png
+|website=https://groundzerogaming.com.au/
+|twitter=GroundZeroOCE
+|facebook=GroundZeroOCE
+|instagram=groundzerooce
+|youtube=channel/UC8YaDfqslotfxot_DKe-jQg
+|created={{Org}}: 2016-05-12 <br />{{League of Legends}}: 2018-04-30 
+}}
+'''Ground Zero Gaming Academy''' is a [[:category:Taiwan|Taiwanese]] academy team of '''Ground Zero Gaming'''.
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team={{PAGENAME}}}}
+|name2=Recent Matches |content2={{Team recent matches table|team={{PAGENAME}}}}
+}}
+
+==Awards==
+{{Team awards table|team=Ground Zero Gaming Academy}}
+
+==References==
+{{Reflist}}
+{{team roster}}

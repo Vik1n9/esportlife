@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mission&redirects=1
+<!-- 抓取: 2026-08-16T16:48:56.600Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=M1ssion
+|image=M1ssion Worlds 2022.jpg
+|name=陳孝銜
+|romanized_name=Chen Hsiao-hsien
+|familyname=Chen
+|givenname=Hsiao-hsien
+|birth_date=1995-09-28
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=mid,jungle
+|ids=DonSan
+|twitch=
+|instagram=
+|facebook=M1ssion
+|factor=3910
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+}}
+
+==Achievements==
+{{player achievements table|player=M1ssion}}
+
+==Awards==
+{{player awards table|player=M1ssion}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+MCX M1ssion Worlds 2020.jpg|M1ssion at [[World Championship/2020|Worlds 2020]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

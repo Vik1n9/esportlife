@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=HotPot&redirects=1
+<!-- 抓取: 2026-08-16T16:37:41.140Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=HotPot
+|autoPI=Yes
+|image=
+|name=施逸杰
+|romanized_name=Shih Yi-jie
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Jungle
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

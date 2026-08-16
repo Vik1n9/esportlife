@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Pk&redirects=1
+<!-- 抓取: 2026-08-16T16:58:39.452Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=PK
+|image=MCX PK Worlds 2020.jpg 
+|name=謝宇庭
+|romanized_name=Hsieh Yu-ting
+|familyname=Hsieh
+|givenname=Yu-ting
+|birth_date=1995-11-18
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=Inactive
+|roles=top
+|twitch=
+|ids=
+|twitter=
+|bestgg=pk
+|reddit=
+|champion=Ekko
+|champion2=Nautilus
+|history=
+
+}}
+
+==Achievements==
+{{player achievements table|player=PK}}
+
+==Awards==
+{{player awards table|player=PK}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+GRX Pk 2018Worlds.jpg|[[G-Rex|GRX]] Pk at [[World_Championship/2018|Worlds 2018]].
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

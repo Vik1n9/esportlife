@@ -1,0 +1,34 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Siuman&redirects=1
+<!-- 抓取: 2026-08-16T17:04:25.453Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Siuman
+|autoPI=Yes
+|image=
+|name=羅樸文
+|romanized_name=Lo Pak Man
+|familyname=Lo
+|givenname=Pak Man
+|birth_date=
+|country=Hong Kong
+|status=Active
+|roles=Mid
+|ids=
+|twitter=Si3man
+|champion1=
+|champion2=
+|champion3=
+}}
+
+==Achievements==
+{{player achievements table|player=Siuman}}
+
+==Awards==
+{{player awards table|player=Siuman}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

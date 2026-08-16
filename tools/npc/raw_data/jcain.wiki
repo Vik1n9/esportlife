@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Jcain&redirects=1
+<!-- 抓取: 2026-08-16T16:04:37.990Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Jcain
+|image=
+|name=曾建泓
+|romanized_name=Huang Po-chun
+|familyname=Huang
+|givenname=Po-chun
+|birth_date=
+|country=Taiwan
+|autoPI=Yes
+|status=Retired
+|roles=Jungle
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Jcain}}
+
+==Awards==
+{{player awards table|player=Jcain}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

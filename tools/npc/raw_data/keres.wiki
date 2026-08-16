@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Keres&redirects=1
+<!-- 抓取: 2026-08-16T17:35:45.832Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Keres
+|ids=K2, SiuK
+|image=
+|name=羅智傑
+|romanized_name=Law Chi Kit 
+|familyname=Law
+|givenname=Chi Kit 
+|birth_date=1999-09-15
+|country=Hong Kong
+|autoPI=Yes
+|status=active
+|roles=Support,Bot
+|twitch=keres0915
+|instagram=ckk20915
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=K2}}
+
+==Awards==
+{{player awards table|player=K2}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

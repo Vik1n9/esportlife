@@ -1,0 +1,59 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Doraemon&redirects=1
+<!-- 抓取: 2026-08-16T15:46:14.464Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=doraemon
+|autoPI=Yes
+|image=doraemon at the LCP 2026 Promotion.jpg
+|name=Joshua Wong
+|birth_date=
+|country=Hong Kong
+|status=Active
+|roles=top
+|nonameflip=true
+|instagram=
+|facebook=
+|twitter=doraemonoce
+|twitch=kotooo
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+* Is the brother of Vincent "[[Violet_(Hong_Kong_player)|Violet]]" Wong. <ref>{{cite web|url=https://x.com/Violet_OCE/status/1973345896260837877|title=Glad I got to share a stage with my brother which has been a cool experience.|author=Violet|language={{Flag|usuk}} English|date=2025-10-01}}</ref>
+
+==Bootcamps==
+{{BootcampPlayer
+	|{{BootcampPlayer/Row
+		|team=ion global esports
+		|league_icon=lco
+		|event=LCO 2024 Split 2
+		|event_link=LCO/2024/Split_2
+		|date=May 2024
+		|location={{flag|kr}} Seoul, South Korea
+		|host=fearx
+		|place=FEARX BOOTCAMP |place_link=https://fearx.gg/bootcamp
+		|source=https://x.com/FEARXBOOTCAMP/status/1790934874339287276
+	}}
+	|{{BootcampPlayer/Row
+		|date=April 2024
+		|location={{flag|kr}} Seoul, South Korea
+		|host=fearx
+		|place=FEARX BOOTCAMP |place_link=https://fearx.gg/bootcamp
+		|source=https://x.com/FEARXBOOTCAMP/status/1750465706007957526
+	}}
+}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

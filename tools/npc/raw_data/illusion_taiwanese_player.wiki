@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Illusion%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T16:04:26.694Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Illusion 
+|image=
+|name=葉彥廷
+|romanized_name=Yeh Yen-tin
+|givenname=Yen-tin
+|familyname=Yeh
+|autoPI=Yes
+|birth_date=
+|country=Taiwan
+|team=
+|status=Retired
+|roles=Jungle
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Illusion (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Illusion (Taiwanese player)}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

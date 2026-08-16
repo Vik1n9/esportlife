@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Doggo&redirects=1
+<!-- 抓取: 2026-08-16T15:46:04.606Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Doggo
+|autoPI=Yes
+|image=CFO Doggo at Worlds 2025 Quarterfinals.jpg
+|name=邱梓銓
+|romanized_name=Chiu Tzu-chuan
+|familyname=Chiu
+|givenname=Tzu-chuan
+|birth_date=2003-01-14
+|country=Taiwan
+|status=active
+|roles=Bot
+|ids=Doge
+|twitch=
+|facebook=Doggo0114
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+PSG Doggo MSI 2021.jpg|[[PSG Talon|PSG]] Doggo at [[MSI 2021]]
+CFO Doggo First Stand 2025.jpg|[[CFO]] Doggo at [[FST 2025]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+===Pentakills===
+{{PlayerPentakillsTable}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

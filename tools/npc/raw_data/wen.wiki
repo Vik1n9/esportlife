@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wen&redirects=1
+<!-- 抓取: 2026-08-16T17:13:19.170Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Wen
+|autoPI=Yes
+|image=
+|name=許乃文
+|romanized_name=Hsu Nai-wen
+|familyname=Hsu
+|givenname=Nai-wen
+|birth_date=1999-11-19
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Mid,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table|player=Wen}}
+
+==Awards==
+{{player awards table|player=Wen}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

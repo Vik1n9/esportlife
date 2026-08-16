@@ -1,0 +1,36 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=AmazingJ&redirects=1
+<!-- 抓取: 2026-08-16T15:30:11.302Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|autoPI=Yes
+|id=AmazingJ
+|image=AmazingJ RNG 2019 spring.jpg
+|name=石偉豪
+|romanized_name=Shek Wai Ho
+|familyname=Shek
+|givenname=Wai Ho
+|birth_date=1997-11-08
+|country=Hong Kong
+|status=Retired
+|retired=2019-12-15
+|roles=top
+|twitch=shekho13579
+|facebook=神J奇-Amazingj-629498883767396
+|twitter=
+|bestgg=amazingj
+|reddit=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=AmazingJ}}
+
+==Awards==
+{{player awards table|player=AmazingJ}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

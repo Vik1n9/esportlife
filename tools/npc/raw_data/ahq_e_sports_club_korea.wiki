@@ -1,0 +1,62 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ahq%20e-Sports%20Club%20Korea&redirects=1
+<!-- 抓取: 2026-08-16T14:43:48.629Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|ahq e-sports club}}
+|name2={{Team|ahq e-sports club korea}}
+|name3={{Team|ahq fighter}}
+|name4={{Team|ahq snipers}}
+|name5={{Team|logitech g snipers}}
+|name6={{Team|ahq girls}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=ahq e-Sports Club Korea
+|location=South Korea
+|location2=Taiwan
+|region=Korea
+|image=Ahq_logo_notext.png
+|website=http://www.ahq.com.tw/
+|instagram=ahq_esportsclub
+|weibo=ahqclub
+|youtube=user/ahqeSportsClub
+|twitter=ahq_eSportsClub
+|facebook=AhqESportsClub
+|created={{League of Legends}}: 2013-03-01
+|disbanded=2013-05-04
+}}
+
+'''ahq e-Sports Club Korea''' is a [[:Category:Korea|Korean]] roster of [[:Category:Taiwan|Taiwanese]] e-sports organization [[ahq e-Sports Club]].
+
+==History==
+'''ahq e-Sports Club Korea''' was created in March 2013 as the [[:Category:Korea|Korean]] roster of [[ahq e-Sports Club]]. The roster competed in [[Champions/2013/Spring|Champions 2013 Spring]], before being released in June once the tournament ended. In March 2014, ADC [[Promise (Korean player)|Promise]] revealed details about matchfixing attempts in a suicide note, where he claimed that their head coach [[Noh Dae-cheol]] told the team to throw matches in order to qualify for ''OGN''. After investigation by ''KeSPA'', Promise was found guilty of matchfixing as the only member of the team, despite accusations towards the coach and teammate [[ActScene]]. <ref name="Promise story">{{cite web |url=https://www.gosugamers.net/lol/news/27122-former-ahq-korea-marksman-promise-attempts-suicide-following-matchfixing-scandal |title=Former AHQ Korea marksman "Promise" attempts suicide following matchfixing scandal |date=2014-03-13 |author=[[GosuGamers]] |publisher=[[GosuGamers]] |language={{Flag|uk}} English}}</ref>
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=HooN|name=Kim Nam-hoon|joindate=2013-03-01}}
+|{{SquadAutoRow|id=Promise|link=Promise (Korean player)|name=Cheon Min-ki|joindate=2013-03-01}}
+}}
+
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=ahq e-Sports Club Korea}}
+|name2=Recent Matches |content2={{Team recent matches table|team=ahq e-Sports Club Korea}}
+}}
+
+==Awards==
+{{Team awards table|team=ahq e-Sports Club Korea}}
+
+==References==
+{{Reflist}}
+<br>
+{{Team roster}}

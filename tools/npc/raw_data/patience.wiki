@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Patience&redirects=1
+<!-- 抓取: 2026-08-16T16:56:54.910Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+	{{Person Tabs}}
+{{Infobox player
+|id=Patience
+|image=
+|name=劉軒
+|romanized_name=Liu Hsuan 
+|familyname=Liu
+|givenname=Hsuan
+|birth_date=
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=retired
+|roles=jungle
+|ids=Kycz
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Patience}}
+
+==Awards==
+{{player awards table|player=Patience}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

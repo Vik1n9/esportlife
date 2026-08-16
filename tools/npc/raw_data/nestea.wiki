@@ -1,0 +1,34 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Nestea&redirects=1
+<!-- 抓取: 2026-08-16T16:50:59.687Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|apexlegends=Nestea}}
+{{Person Tabs}}
+{{Infobox player
+|id=Nestea
+|autoPI=Yes
+|image=
+|name=許寶遠
+|romanized_name=Hsu Bao-yuan
+|familyname=Hsu
+|givenname=Bao-yuan
+|birth_date=1999-10-18
+|country=Taiwan
+|status=active
+|roles=mid,support,jungle
+|ids=
+|twitch=asd8691983
+|facebook=NESTEAOxO
+|bestgg=nestea
+}}
+
+==Achievements==
+{{player achievements table|player=Nestea}}
+
+==Awards==
+{{player awards table|player=Nestea}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

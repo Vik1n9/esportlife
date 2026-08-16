@@ -1,0 +1,56 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=BUFF&redirects=1
+<!-- 抓取: 2026-08-16T14:44:00.145Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|team afro}}
+|name2={{Team|afro beast}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Afro Beast
+|location=Taiwan
+|location2=
+|region=tw
+|image=BUFF allmode.png
+|website=
+|twitter=teamafrogaming
+|facebook=AFROGAMING.TW/
+|youtube=
+|vk=
+|twitch=
+|fanclub=
+|sponsor=
+|created={{League of Legends}}: 2018-01-16
+|disbanded=2018-11-24
+}}
+'''BUFF''' (formerly known as ''Afro Beast'') was the academy team of [[Team Afro]], competing in the ECS.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Butter|name=	Li Hsien-ming|joindate=2018-08-01}}
+|{{SquadAutoRow|id=LBB|name=Liu Ping-hsin|joindate=2018-06-07}}
+|{{SquadAutoRow|id=MapleSnow|name=Yang Yu-wei|joindate=2018-06-07}}
+|{{SquadAutoRow|id=Error|name=Sit Chong Fai|joindate=2018-02-22}}
+|{{SquadAutoRow|id=Butter|name=	Li Hsien-ming|joindate=2018-01-16}}
+|{{SquadAutoRow|id=Pandabb|name=Chen Hao|joindate=2018-01-16}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=BUFF}}
+|name2=Recent Matches |content2={{Team recent matches table|team=BUFF}}
+}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

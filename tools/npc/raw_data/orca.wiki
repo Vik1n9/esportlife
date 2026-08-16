@@ -1,0 +1,31 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Orca&redirects=1
+<!-- 抓取: 2026-08-16T16:52:46.280Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Orca
+|autoPI=Yes
+|image=GZ Orca at LCP 2026 Split 2.jpg
+|name=郭承翰
+|romanized_name=Kuo Cheng-han
+|birth_date=2003-10-09
+|country=Taiwan
+|status=Active
+|roles=support
+|ids=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

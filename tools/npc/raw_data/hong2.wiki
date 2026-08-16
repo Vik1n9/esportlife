@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Hong2&redirects=1
+<!-- 抓取: 2026-08-16T15:59:24.539Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=Hong2
+|autoPI=Yes
+|image=
+|name=許永宏
+|romanized_name=Shiu Yong-hung
+|familyname=Shiu
+|givenname=Yong-hung
+|birth_date=
+|country=Taiwan
+|team=HELL PIGS
+|status=Active
+|roles=Jungle,Mid,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Hong2}}
+
+==Awards==
+{{player awards table|player=Hong2}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

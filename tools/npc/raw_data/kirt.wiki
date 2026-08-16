@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kirt&redirects=1
+<!-- 抓取: 2026-08-16T16:13:55.184Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=Kirt
+|autoPI=Yes
+|image=
+|name=曾嘉杰
+|romanized_name=Tsang Ka Kit
+|familyname=Tsang
+|givenname=Ka Kit
+|birth_date=
+|country=Hong Kong
+|country2=
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Kirt}}
+
+==Awards==
+{{player awards table|player=Kirt}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

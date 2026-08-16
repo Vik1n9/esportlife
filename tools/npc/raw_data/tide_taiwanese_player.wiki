@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Tide%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:11:21.748Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{for|the Norwegian player|Tide}}
+{{Person Tabs}}
+{{Infobox player
+|id=Tide
+|autoPI=Yes
+|image=
+|name=謝育哲
+|romanized_name=Hsieh Yu-che
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Support,Bot
+|ids=Tide
+|instagram=hps_tide
+|facebook=people/HPS-Tide/100090209075466/
+|twitch=tide0513
+}}
+
+==Achievements==
+{{player achievements table|player=Tide (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Tide (Taiwanese player)}}
+
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

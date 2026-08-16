@@ -1,0 +1,27 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Doggy&redirects=1
+<!-- 抓取: 2026-08-16T15:46:09.691Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Doggy
+|autoPI=Yes
+|image=
+|name=李昀輯
+|romanized_name=Lee Yun-chi
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Bot
+}}
+
+==Achievements==
+{{player achievements table|player=Doggy}}
+
+==Awards==
+{{player awards table|player=Doggy}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=CaiPi&redirects=1
+<!-- 抓取: 2026-08-16T16:30:28.505Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=CaiPi
+|autoPI=Yes
+|image=
+|name=莊銀順
+|romanized_name=Chuang Yin-shun 
+|familyname=Chuang
+|givenname=Yin-shun 
+|birth_date=1997-02-13
+|country=Taiwan
+|status=active
+|roles=mid
+|ids=PPCrazy
+}}
+
+==Achievements==
+{{player achievements table|player=CaiPi}}
+
+==Awards==
+{{player awards table|player=CaiPi}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

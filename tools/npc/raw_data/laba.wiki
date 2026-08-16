@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Laba&redirects=1
+<!-- 抓取: 2026-08-16T16:19:38.556Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Laba
+|image=Keyd Laba CBLOL 2019 Split 1.jpg
+|name=黃振揚
+|romanized_name=Huang Chen-yang
+|familyname=Huang
+|givenname=Chen-yang
+|birth_date=1999-03-15
+|country=Taiwan
+|status=active
+|roles=jungle
+|autoPI=Yes
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Laba}}
+
+==Awards==
+{{player awards table|player=Laba}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

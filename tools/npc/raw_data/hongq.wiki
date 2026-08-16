@@ -1,0 +1,49 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=HongQ&redirects=1
+<!-- 抓取: 2026-08-16T17:35:39.458Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=hongQ
+|autoPI=Yes
+|image=JDG HongQ at First Stand 2026.jpeg
+|name=蔡明宏
+|romanized_name=Tsai Ming-hong
+|birth_date=2007-07-02
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Mid,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+CFO HongQ FST 2025.jpg|[[CFO]] HongQ at [[FST 2025]]
+CFO HongQ at Worlds 2025 Quarterfinals.jpg|[[CFO]] HongQ at [[Worlds 2025]] Quarterfinal match against {{Team|kt rolster}}
+</gallery>
+
+==Trivia==
+* HongQ's mother is Vietnamese; he can speak Vietnamese himself.
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

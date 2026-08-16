@@ -1,0 +1,48 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=JunJia&redirects=1
+<!-- 抓取: 2026-08-16T16:06:25.479Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=JunJia
+|image=JDG JunJia at First Stand 2026.jpeg
+|name=余峻嘉
+|romanized_name=Yu Chun-chia
+|familyname=Yu
+|givenname=Chun-chia
+|country=Taiwan
+|autoPI=Yes
+|status=Active
+|birth_date=2002-06-10
+|roles=jungle
+|facebook=
+|instagram=
+|twitter=
+|twitch=junjia0610
+|ids=JunJia
+|weibo=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+PSG JunJia MSI 2023.jpg|[[PSG Talon|PSG]] JunJia at [[MSI 2023]]
+PSG JunJia Worlds 2023.jpg|[[PSG Talon|PSG]] JunJia at [[Worlds 2023]]
+PSG JunJia MSI 2024.jpg|[[PSG Talon|PSG]] JunJia at [[MSI 2024]]
+PSG JunJia Worlds 2024.jpg|[[PSG Talon|PSG]] JunJia at [[Worlds 2024]]
+CFO Junjia First Stand 2025.jpg|[[CFO]] JunJia at [[FST 2025]]
+CFO JunJia at Worlds 2025 Quarterfinals.jpg|[[CFO]] JunJia at [[Worlds 2025]] Quarterfinal match against {{Team|kt rolster}}
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

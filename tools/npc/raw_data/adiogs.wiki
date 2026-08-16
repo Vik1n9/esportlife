@@ -1,0 +1,26 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Adiogs&redirects=1
+<!-- 抓取: 2026-08-16T15:28:14.359Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Adiogs
+|autoPI=Yes
+|name=黃子齊
+|romanized_name=Huang Tzu-chi
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Mid
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

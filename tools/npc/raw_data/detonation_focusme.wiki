@@ -1,0 +1,118 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=DetonatioN%20FocusMe&redirects=1
+<!-- 抓取: 2026-08-16T14:44:43.873Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/DetonatioN Gaming}}
+{{Tabs static
+|name1={{Team|detonation focusme}}
+|name2={{Team|detonation focusme academy}}
+|name3={{Team|detonation rising}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=DetonatioN FocusMe
+|location=Japan
+|city=Tokyo
+|abbreviation=DFM
+|league=LCP
+|region=jp
+|image=DetonatioN FocusMe 2022 full lightmode.png
+|imagedark=DetonatioN FocusMe 2022 full darkmode.png
+|factor=90
+|website=http://team-detonation.net/
+|facebook=GamingTeam.DetonatioN
+|instagram=
+|twitter=team_detonation
+|youtube=DetonatioNGaming
+|created={{Org}}: 2012-07-20<br>{{League of Legends}}: 2013-04-13
+}}
+
+'''DetonatioN FocusMe''' is a [[:Category:Japan|Japanese]] team.
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Inactive===
+{{InactiveSquadAuto}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Hikari |name=Kazuhiro Myojo |joindate=2016-09-20 }}
+|{{SquadAutoRow|id=Hikari |name=Kazuhiro Myojo |joindate=2016-05-14 }}
+|{{SquadAutoRow|id=nororin |link=Nororin |name=Naoki Niimi |joindate=2016-03-03 }}
+|{{SquadAutoRow|id=BonziN |name=Keisuke Oda |joindate=2014-03-03 }}
+|{{SquadAutoRow|id=Yumenoti |name=Ryuki Soizumi |joindate=2014-12-21 }}
+|{{SquadAutoRow|id=Rokenia |name=Jun Young-dae |joindate=2015-05-21 }}
+|{{SquadAutoRow|id=Procxin |name=Kim Se-young |joindate=2015-06-28 }}
+|{{SquadAutoRow|id=Hwang |name=Hwang Young-sik |joindate=2015-05-21 }}
+|{{SquadAutoRow|id=Zenith |name=Shun Ohno |joindate=2015-04-30 }}
+|{{SquadAutoRow|id=Arden |name=Yusuke Suga |joindate=2014-12-10 }}
+|{{SquadAutoRow|id=Riosilva |name=Kensaku Nakamoto |joindate=2014-03-03 }}
+|{{SquadAutoRow|id=Maa |name=Ryota Nakano |joindate=2013-04-13 }}
+|{{SquadAutoRow|id=Sid |name=Tomohiro Fujita |joindate=2013-12-16 }}
+|{{SquadAutoRow|id=Gorira13 |name=Kodai Ichimichi |joindate=2013-04-13 }}
+|{{SquadAutoRow|id=Anelace |name=Noritaka Takehara |joindate=2013-04-13 }}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=Gismo |name=Haruhiko Aoki |joindate=2019-08-23 }}
+|{{SquadAutoRow|flag=jp|id=|name=Arika Takeda|role=Executive Officer|joindate=2023-05-01<ref>{{cite web|url=https://gamewith.co.jp/posts/71aHOpsa|title=株式会社DetonatioN、執行役員制度の導入および新経営体制のお知らせ|trans_title=DetonatioN Inc. Announces Introduction of Executive Officer System and New Management Structure|author='''GameWith'''|date=2023-05-01|language={{flagf|jp}} Japanese</ref>}}
+|{{SquadAutoRow|flag=jp|id=|name=Takuya Imaizumi|role=CEO|joindate=2026-07-29<ref name="Umezaki passed away"/>}}
+}}
+
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=JOON |name=Park Seong-joon |joindate=2018-01-09 }}
+|{{SquadAutoRow|id=OnAir |name=Kang Hyun-jong |joindate=2019-12-04 }}
+|{{SquadAutoRow|id=LGraN |name=Umezaki Nobuyuki |role=CEO |flag=jp |link=wikipedia:ja:梅崎伸幸 |joindate=2012-07-20|leavedate=2026-07-29<ref name="Umezaki passed away">{{cite web|url=https://team-detonation.net/news/52099|title=代表取締役社長 梅崎 伸幸 逝去のお知らせ|trans_title=Notice of the Passing of Nobuyuki Umezaki, President and CEO|author='''DetonatioN FocusMe'''|language={{flag|jp}} Japanese}}</ref>}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=DetonatioN FocusMe}}
+|name2=Recent Matches |content2={{Team recent matches table|team=DetonatioN FocusMe}}
+}}
+
+==Awards==
+{{Team awards table|team=DetonatioN FocusMe}}
+
+==History==
+DetonatioN FocusMe is one of the first competitive League of Legends teams in Japan, forming in 2013. <ref name="detonation history1">{{cite web|url=https://www.redbull.com/us-en/detonation-gaming-japanese-esports|title=DetonatioN Gaming: Japan's Vanguard|author=Cameron Gilbert|publisher=RedBull|date=2017-02-20|language={{Flag|usuk}} English}}</ref> The roster of [[gorira13]], [[Anelace]], [[Ceros]], [[iimitai]] and [[PresidentMaa]] made their international debut at the [[Intel_Extreme_Masters/Season_VIII/Singapore|IEM Singapore Amateur Tournament]] at the end of 2013, where they were eliminated by Hong Kong team [[CGA LEGENDs]] in a 2-1 loss. From here on, DetonatioN FocusMe won the [[LJL/2014/Summer|2014 LJL Summer Split]], and beat [[Rascal Jester]] in the [[LJL/Grand_Finals/2014|2014 LJL Grand Finals]].
+
+In 2015, the LoL esports circuit was expanded, with Japan now participating in the International Wildcard Tournament. With a win in the [[LJL/2015/Season_1|First season of 2015]], DFM qualified for [[International_Wildcard_Invitational/2015|IWCI 2015]]. The roster consisting of [[BonziN]], [[Astarore]], [[Ceros]], [[Yutapongo]] and [[KazuXD]] placed 6th, only beating 7th place finishers [[Kaos Latin Gamers]]. The roster stuck together despite this, and even with a 2nd place in the [[LJL/2015/Season_1|second LJL season]], they qualified for the [[LJL/Grand_Finals/2015|2015 Grand Finals]], where they beat [[Ozone Rampage]] 3-2 to qualify for the [[International_Wildcard_Tournament/2015/Turkey|International Wildcard Tournament]]. DetonatioN FocusMe placed 4th and last with a ''2-4'' record.
+
+DetonatioN FocusMe once again won the spring split in 2016, going undefeated (13-0). Despite regional dominance, they were unable to put up a great performance at [[International_Wildcard/2016/Invitational|IWCI 2016]], ending with a 3/-/4 record and a 5th place exit. With a second place in the [[LJL/2016/Summer|Summer split]], DetonatioN FocusMe did not qualify for the second international event. This would continue in 2017, where the team placed 2nd in both [[LJL/2017/Spring|Spring]] and [[LJL/2017/Summer|Summer]], failing to qualify for any international event.
+
+In 2018, DFM once again went undefeated in the regular season, but [[PENTAGRAM]] beat them 3-0 in the finals to take away their slot at [[Mid_Season_Invitational/2018|MSI 2018]]. They managed to win the [[LJL/2018/Summer|Summer Season]] with a 3-1 finals victory against [[Unsold Stuff Gaming]], securing a slot in the [[World_Championship/2018|Worlds 2018 Play-ins]], where they were eliminated by [[EDward Gaming]] in the second play-in stage. 2019 consisted of more regional dominance, winning both splits, but DetonatioN FocusMe did not impress internationally, not making it out of their [[Mid-Season_Invitational/2019|MSI 2019]] and [[World_Championship/2019|Worlds 2019]] play-in groups.
+
+Continuing their regional dominance, DetonatioN FocusMe won the [[LJL/2020/Spring|2020 LJL Spring Split]], but with [[Mid-Season_Invitational/2020|MSI 2020]] being cancelled, the team was not able to show what they're capable of internationally. In [[LJL/2020/Summer|Summer]], DetonatioN FocusMe was beat by [[V3 Esports]] in a close 5-game grand final. Ahead of 2021, it was announced that [[Aria]] joined the team, replacing long-time member [[Ceros]]. [[Kazu]] also returned to the starting roster after coaching the team, due to import regulations. The team won the [[LJL/2021/Spring|2021 LJL Spring Season]], but was eliminated in their [[Mid-Season_Invitational/2021|MSI 2021]] group with [[DAMWON Gaming]] and [[Cloud9]] placing ahead of them in group C. In the [[LJL/2021/Summer|2021 LJL Summer Season]], [[Gaeng]] returned to the starting roster, and DFM qualified for [[World_Championship/2021|Worlds 2021]] by securing yet another LJL title. At Worlds, DetonatioN FocusMe became the first Japanese team ever to qualify for the group stage<ref name="detonation first jp team qualify ">{{cite web|url=https://www.esports.com/en/dfm-becomes-the-first-ljl-team-in-history-to-qualify-for-the-worlds-group-stage-282197|title=DFM becomes the first LJL team in history to qualify for the Worlds Group Stage|author=Blaine Polhamus|publisher=esports.com|date=2021-10-08|language={{Flag|usuk}} English}}</ref>, where they ended with a 0-6 record, losing all their games against [[T1]], [[EDward Gaming]], and [[100 Thieves]].
+
+DFM needed two changes in their roster for the 2022 season when Mid laner [[Aria]] left the team for [[KT Rolster]] and was replaced by [[Yaharong]] and Support [[Gaeng]] announced his retirement as a player to go to the Korean Military service. Even with those roster changes, DFM was able to win both [[LJL/2022/Spring|Spring]] and [[LJL/2022/Summer|Summer]] of 2022 and qualified for [[World Championship/2022|Worlds]], where they were eliminated only in the second round of Play-In, leaving the tournament with wins against [[Evil Geniuses]] and [[Royal Never Give Up]].
+
+Before the 2023 year, [[Evi]] announced his departure to the [[LEC]] after five years of playing for DFM and [[tol2]] arrived from the Academy team to replace him. With many problems his backstage evolving harassment from the team’s Staff to tol2, Coaches [[Kazu]] and [[Ceros]] had their contracts terminated. Following that incident, DetonatioN FocusMe and tol2 also agreed to terminate his contract. <ref name="dfm incident">{{cite web|url=https://www.youtube.com/watch?v=YXsIFhL3P9g&t=1617s7|title=tol2 and DFM. - An extensive summary of an LJL drama|author=The Jesport Hub|publisher=Youtube|date=2023-07-08|language={{Flag|usuk}} English}}</ref> DFM won [[LJL/2023/Spring|Spring]] and [[LJL/2023/Summer|Summer]] of 2023 and for the first time in their history, they left both [[Mid-Season_Invitational|MSI]] and [[World Championship|World Championship]] without a single victory.
+
+==Gallery==
+===Logos===
+{{TeamLogoGallery}}
+
+===Rosters===
+<gallery mode="packed-hover" heights="300px">
+DFM Worlds 2022.jpg|DetonatioN FocusMe at [[World_Championship/2022|Worlds 2022]]<br><small>From left to right:</small><br>[[Steal]] ∙ [[Yaharong]] ∙ [[Evi]] ∙ [[Harp]] ∙ [[Yutapon]]
+DFM Team Photo Worlds 2023.jpg|DetonatioN FocusMe at [[World_Championship/2023|Worlds 2023]]
+</gallery>
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

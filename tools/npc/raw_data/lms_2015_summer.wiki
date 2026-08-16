@@ -1,0 +1,214 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2015%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T16:15:58.172Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2015 Summer }}
+{{Garena Taiwan Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=LMS/2015/Summer
+|name2=Group Stage
+|link2=LMS/2015/Summer/Group_Stage
+|name3=Playoffs
+|link3=LMS/2015/Summer/Playoffs
+|name4=Promotion
+|link4=LMS/2016/Spring/Promotion
+|This=1}}
+{{Infobox league
+|name=LMS 2015 Summer 
+|shortname=2015 Summer 
+|tickername=LMS Summer 2015
+|image=League of Legends Master Series icon allmode.png
+|series=LMS
+|icon=League of Legends Master Series icon allmode.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=
+|epatch=
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=twd
+|prizepool=4,250,000
+|sdate=2015-05-20
+|edate=2015-07-16
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/lol/news/2015%20LMS/20150601/LMS%202015%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20Ver.1.2.pdf
+|website=http://2015.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=8
+|previous=LMS/2015/Spring{{!}}Spring 2015
+|next=LMS/2016/Spring{{!}}Spring 2016
+}}
+
+==Overview==
+==Format==
+
+==Broadcast Talent==
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|localcurrency=twd|tournament1=LMS/2015/Summer/Group_Stage|tournament2=LMS/2015/Summer/Playoffs|groupElimStatuses=stay,down|qualifies1=World_Championship/2015
+|{{Slot|place=1|qualified=1|localprize=1,800,000}}
+|{{Slot|place=2|localprize=900,000}}
+|{{Slot|place=3|localprize=500,000}}
+|{{Slot|place=4|localprize=300,000}}
+|{{Slot|place=5|localprize=250,000}}
+|{{Slot|place=6|localprize=200,000}}
+|{{Slot|place=7|localprize=150,000}}
+|{{Slot|place=8|localprize=150,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|image=
+|p1=Ziv|p1link=Ziv_(Taiwanese_player)
+|p2=Mountain
+|p3=Westdoor|p3flag=tw
+|p4=AN
+|p5=Albis
+
+|t2p1=GreenTea|t2pos1=sup
+
+|t3p1=Backstairs|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|image=
+|p1=Steak
+|p2=Karsa
+|p3=Maple
+|p4=Kramer
+|p5=SwordArT
+
+|t2p1=MMD|t2p1flag=tw|t2pos1=top
+|t2p2=REFRA1N|t2p2flag=tw|t2pos2=adc
+|t2p3=NL|t2p3flag=tw|t2pos3=adc
+
+|t3p1=Fluidwind|t3p1flag=tw|t3pos1=head coach
+|qualifier=[[LMS/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Hong Kong Esports
+|image=
+|p1=May|p1flag=kr
+|p2=DinTer
+|p3=Toyz
+|p4=GodKwai
+|p5=Olleh
+
+|t2p1=Stanley|t2p1flag=tw|t2pos1=top
+|t2p2=Raison|t2p2flag=kr|t2pos2=mid
+|t2p3=GoDJJ|t2p3flag=tw|t3pos2=adc
+
+|t3p1=Revo|t3p1flag=hk|t3pos1=Head Coach
+|qualifier=[[LMS/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Taipei Assassins
+|image=
+|p1=Morning
+|p2=Domo|p2flag=tw
+|p3=Chawy
+|p4=Lupin
+|p5=Jay |p5link=Jay (Taiwanese player)
+
+|t2p1=Pony|t2p1flag=hk|t2pos1=jg
+|t2p2=Yue|t2p2flag=tw|t2pos2=sub
+
+|t3p1=Sim|t3p1flag=kr|t3pos1=Head Coach
+|qualifier=[[LMS/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Machi Esports
+|image=
+|p1=BoBo |p1link=BoBo (Wang You-Lin) |p1flag=tw
+|p2=Fiesta|p2flag=kr|p2link=Fiesta (Lee Yun-sang)
+|p3=Republic|p3flag=kr
+|p4=Dee|p4flag=tw
+|p5=Dreamer|p5flag=tw
+
+
+|t2p1=TheFeeling|t2p1flag=tw|t2pos1=jg
+|t2p2=HanJi|t2p2flag=tw|t2pos2=jg
+|t2p3=Apex|t2p3flag=tw|t3pos2=mid
+
+|t3p1=BayBay|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/2015/Summer/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=Midnight Sun Esports
+|image=
+|p1=LOFS|p1flag=HK
+|p2=Empt2
+|p3=Candy|p3link=Candy (Korean player)
+|p4=Stitch
+|p5=Chunx|p5flag=hk
+
+|t2p1=M1ssion|t2p1flag=tw|t2pos1=mid
+|t2p2=CorGi|t2p2flag=tw|t2pos2=adc
+
+|t3p1=Lilballz|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/2015/Summer/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=Logitech G Snipers
+|image=
+|p1=Lat|p1flag=tw
+|p2=illusion|p2flag=tw|p2link=illusion (Taiwanese player)
+|p3=Breaker|p3flag=tw
+|p4=RD|p4flag=tw
+|p5=Ysera|p5flag=tw
+
+|t2p1=Breeze|t2p1flag=tw|t2pos1=adc
+|t2p2=K|t2p2flag=tw|t2pos2=adc
+
+|t3p1=YO|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/2015/Summer/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=Assassin Sniper
+
+|image=
+|p1=MapleSnow|p1flag=tw
+|p2=Zonda|p2flag=tw
+|p3=Achie|p3flag=tw
+|p4=BeBe|p4flag=tw
+|p5=Weiiii|p5flag=tw
+
+|t2p1=MiHanna|t2p1flag=tw|t2pos1=jg
+|t2p2=Stone|t2p2flag=tw|t2pos2=mid
+|t3p1=Skywalk|t3p1flag=hk|t3pos1=head coach
+|qualifier=[[LMS/2015/Summer/Promotion|Summer Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Regular Season===
+{{#lst:LMS/2015/Summer/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LMS/2015/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=muNOIdvjl0}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=
+}}
+
+==External links==
+
+==References==
+{{Reflist}}

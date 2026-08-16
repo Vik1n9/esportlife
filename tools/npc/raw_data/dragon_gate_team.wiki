@@ -1,0 +1,56 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Dragon%20Gate%20Team&redirects=1
+<!-- 抓取: 2026-08-16T14:44:55.906Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Dragon Gate Team
+|image=Dragon Gate Team.png
+|location=Taiwan
+|region=Taiwan
+|website=
+|twitter=
+|facebook=
+|twitch=
+|instagram=
+|created=2018-11-29
+|disbanded=2019-04-23
+}}
+
+
+'''Dragon Gate Team''' (abbreviated DG) is a professional esports based in [[:Category:Taiwan|Taiwan]], The parent company is HONGKONG FISH DIVE INT'L CULTURE MEDIA LIMITED.
+
+On the 23rd of April in 2019, '''Dragon Gate Team''' were banned from the '''LMS''' for betting on other teams and matchfixing games. This resulted in the owner ''Hu Wei-Jie'' being banned from ever being associated with a League of Legends team again, while [[yoga]] and [[xiaoyu]] are suspended for 12 months. [[JGY]] was banned for 18 months. As a result of the bans, '''Dragon Gate Team''' disbanded with all players leaving the team. <ref name="team banned">{{cite web |url=https://2019.lms.garena.tw/news/content/3372 |title=Dragon Gate Team suspension announcement |date=2019-04-23 |author=''Garena'' |publisher=''Garena'' |language={{Flag|cn}} Chinese}}</ref>
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=JGY |name=Liu Yang |joindate=2018-12-27}}
+|{{SquadAutoRow|id=YuLun |name=Jiang Yu-lun |joindate=2018-12-27}}
+|{{SquadAutoRow|id=Xiaobo |name=Gong Baiyong |joindate=2018-12-27}}
+|{{SquadAutoRow|id=FongXiang |name=Liu Shih-chieh |joindate=2019-01-23}}
+|{{SquadAutoRow|id=Soul |link=Soul (Chinese player) |name=Kai Liu |joindate=2019-02-20}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=yoga |name=Fan Jiang-Peng |joindate=2018-12-27}}
+|{{SquadAutoRow|id=xiaoyu |link=Xiaoyu (Li Xinyu) |name=Li Xinyu |joindate=2018-12-27}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Dragon Gate Team}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Dragon Gate Team}}
+}}
+
+==Awards==
+{{Team awards table|team=Dragon Gate Team}}
+
+==References==
+{{Reflist}}
+<br/>
+{{Team roster}}

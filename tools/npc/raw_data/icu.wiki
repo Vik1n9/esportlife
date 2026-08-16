@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=ICU&redirects=1
+<!-- 抓取: 2026-08-16T17:35:42.866Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=ICU
+|autoPI=Yes
+|image=
+|name=柯文泓 
+|romanized_name=Ke Wen-hung
+|familyname=Ke
+|givenname=Wen-hung
+|birth_date=2000-03-17
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=ICU}}
+
+==Awards==
+{{player awards table|player=ICU}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

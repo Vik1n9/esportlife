@@ -1,0 +1,59 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Deep%20Cross%20Gaming%20Academy&redirects=1
+<!-- 抓取: 2026-08-16T14:44:36.733Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Deep Cross Gaming}}
+{{Tabs static
+|name1={{Team|deep cross gaming}}
+|name2={{Team|dcga}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Deep Cross Gaming Academy
+|image=Deep Cross Gaming full lightmode.png
+|imagedark=Deep Cross Gaming full darkmode.png
+|location=Taiwan
+|region=Taiwan
+|league=
+|website=
+|twitter=
+|facebook=DeepCrossGaming
+|youtube=@deepcrossgaming
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2023-08-19
+}}
+'''Deep Cross Gaming Academy''' is a [[:category:Taiwan|Taiwanese]] adademy team of '''Deep Cross Gaming'''.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+|{{SquadAutoRow|id=Masuhana |name=Tsai Ya-chun |joindate=2024-01-23}}
+|{{SquadAutoRow|id=RenHao |name=Liu Jen-hao |joindate=2024-01-23}}
+|{{SquadAutoRow|id=Kanashimi |name=Lin Hsiu-yu |joindate=2023-08-19}}
+|{{SquadAutoRow|id=OVERT1ME |name=Kuo ping-hsin |joindate=2024-01-23}}
+}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Deep Cross Gaming Academy}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Deep Cross Gaming Academy}}
+}}
+
+==Awards==
+{{Team awards table|team=dcga}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

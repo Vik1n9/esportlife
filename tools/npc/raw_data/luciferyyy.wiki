@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LuciferYYY&redirects=1
+<!-- 抓取: 2026-08-16T16:44:52.265Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=LuciferYYY
+|ids=Rena
+|image=
+|name=陳迪祺
+|romanized_name=Chan Dick Kay
+|familyname=Chan
+|givenname=Dick Kay
+|autoPI=Yes
+|birth_date=
+|country=Hong Kong
+|status=Retired
+|roles=mid
+|twitch=dickys0918
+|instagram=
+|facebook=Luciferyyy0918
+|youtube=@dickys0918
+|reddit=
+|achievements=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=LuciferYYY}}
+
+==Awards==
+{{player awards table|player=LuciferYYY}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

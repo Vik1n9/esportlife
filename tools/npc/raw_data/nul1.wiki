@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=NuL1&redirects=1
+<!-- 抓取: 2026-08-16T17:36:10.192Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=NuL1
+|autoPI=Yes
+|image=
+|name=張基亞
+|romanized_name=Chang Chi-ya
+|birth_date=2000-11-08
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Mid,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=NuL1}}
+
+==Awards==
+{{player awards table|player=NuL1}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

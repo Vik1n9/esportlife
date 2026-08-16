@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Zkai&redirects=1
+<!-- 抓取: 2026-08-16T17:23:35.950Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Zkai
+|localid=立楷
+|autoPI=Yes
+|image=
+|name=楊立楷
+|romanized_name=Yang Li-kai
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Top,,
+|ids=Zka1
+|instagram=
+|facebook=psgtalonzka1
+|twitter=
+|twitch=zzzka1
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table|player=Zka1}}
+
+==Awards==
+{{player awards table|player=Zka1}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

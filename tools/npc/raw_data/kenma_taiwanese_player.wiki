@@ -1,0 +1,32 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kenma%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T16:10:16.495Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Kenma
+|autoPI=Yes
+|image=
+|name=Lin Jing-xiu
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

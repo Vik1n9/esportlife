@@ -1,0 +1,28 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=RYue&redirects=1
+<!-- 抓取: 2026-08-16T16:58:56.400Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=RYue
+|autoPI=Yes
+|image=
+|name=陳晴岳
+|romanized_name=Chen Ching-yueh
+|familyname=Chen
+|givenname=Ching-yueh
+|birth_date=2003-07-17
+|country=Taiwan
+|status=Active
+|roles=top
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=RYue}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Adizai&redirects=1
+<!-- 抓取: 2026-08-16T16:25:34.111Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Adizai
+|autoPI=Yes
+|image=
+|name=呂冠廷
+|romanized_name=Lu Kuan-ting
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Top
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Adizai}}
+
+==Awards==
+{{player awards table|player=Adizai}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

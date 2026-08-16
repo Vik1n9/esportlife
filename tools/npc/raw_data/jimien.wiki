@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=JimieN&redirects=1
+<!-- 抓取: 2026-08-16T16:04:41.410Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=JimieN
+|image=GZ JimieN at LCP 2026 Split 2.jpg
+|name=曾浩鈞
+|romanized_name=Tseng Hao-chun
+|familyname=Tseng
+|givenname=Hao-chun
+|birth_date=2002-07-24
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=mid
+|twitch=
+|ids=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+CFO JimieN Worlds 2023.jpg|JimieN at [[Worlds 2023]] with [[CTBC Flying Oyster]]
+</gallery>
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=JoJo%20(Hong%20Kong%20player)&redirects=1
+<!-- 抓取: 2026-08-16T16:04:45.382Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{for|the Brazilian player|JoJo}}
+{{Person Tabs}}
+{{Infobox player
+|id=JoJo
+|autoPI=Yes
+|image=
+|name=簡耀韜
+|romanized_name=Kan Yiu Tou
+|givenname=Yiu Tou
+|familyname=Kan
+|country=hk
+|status=Retired
+|birth_date=1999-11-30
+|roles=mid
+|facebook=shogun3103
+|factor=1028
+}}
+
+==Achievements==
+{{player achievements table}}
+
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

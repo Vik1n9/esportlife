@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=1Jiang&redirects=1
+<!-- 抓取: 2026-08-16T15:24:52.142Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=1Jiang
+|autoPI=Yes
+|image=GZ 1Jiang at LCP 2026 Split 2.jpg
+|name=陳俋錦
+|romanized_name=Chen Yi-chin
+|birth_date=2003-10-22
+|country=Taiwan
+|status=Active
+|weibo=u/7969255376
+|roles=top
+|ids=一件
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

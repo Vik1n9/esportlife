@@ -1,0 +1,29 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=1mmeta1s&redirects=1
+<!-- 抓取: 2026-08-16T16:25:24.480Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=1mmeta1s
+|autoPI=Yes
+|image=
+|name=郭子穎
+|romanized_name=Kwok Tsz Wing
+|familyname=Kwok
+|givenname=Tsz Wing
+|country=Hong Kong
+|status=Active
+|roles=sup
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=1mmeta1s}}
+
+==Awards==
+{{player awards table|player=1mmeta1s}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Lauva&redirects=1
+<!-- 抓取: 2026-08-16T16:21:24.558Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Lauva
+|autoPI=Yes
+|image=
+|name=黃新宇
+|romanized_name=Huang Hsin-yu
+|birth_date=2000-03-19
+|country=Taiwan
+|status=Active
+|roles=Jungle
+|ids=Bengo <br/> eye <br/> Hfhy
+|facebook=people/JT-Lauva/100063560246863/
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Lauva}}
+
+==Awards==
+{{player awards table|player=Lauva}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

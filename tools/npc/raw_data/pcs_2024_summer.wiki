@@ -1,0 +1,342 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2024%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T16:56:45.400Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Summer Playoffs 2024}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview|link1=PCS/2024/Summer
+|name2=Regular Season|link2=PCS/2024/Summer/Regular Season
+|name3=Promotion|link3=PCS/2024/Summer/Promotion
+|name4=Champion Stats|link4=PCS/2024/Summer/Statistics
+|name5=Player Stats|link5=PCS/2024/Summer/Player Stats
+}}
+{{Infobox league
+|name=PCS Summer Playoffs 2024
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|tickername=PCS Summer Playoffs 2024
+|series=PCS
+|organizer=Riot Games
+|organizer-link=http://www.riotgames.com/ 
+|organizer2-link=https://www.carry.live/
+|organizer2=Carry
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]
+|patch=
+|epatch=
+|country=Taiwan
+|type=Offline
+|city=Taipei
+|venue=Taipei Heping Basketball Gymnasium|venuelink=http://www.tpehpbasketball.com.tw/|venuedesc=Lower Final and Grand Final
+|format=Double Elimination ({{Abbr/Bo5}})
+|sdate=2024-08-05
+|edate=2024-09-01
+|prizepoolusd=100,000
+|liquipediatier=2
+|team_number=11
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|youtube=lolpacific
+|previous=PCS/2024/Spring{{!}}Spring 2024
+|next=
+}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=6
+|qualifies1=World Championship/2024|qualifies1name=Worlds
+|qualifies2=LCP |qualifies2name=LCP 2025 |qualifies2icon=League of Legends Championship Pacific icon allmode.png
+|{{Slot|usdprize=35,000|qualified1=yes|qualified2=yes}}
+|{{Slot|usdprize=20,000|qualified1=yes}}
+|{{Slot|usdprize=14,000}}
+|{{Slot|usdprize=9,000}}
+|{{Slot|usdprize=5,000|count=2}}
+|{{Slot|usdprize=4,000}}
+|{{Slot|usdprize=2,500|count=2}}
+|{{Slot|usdprize=1,500|count=2}}
+|adjacentContent=
+	{{box|start|padding=1em}}
+	{{MVPTable|cutafter=5|title=Playoffs MVP|margin=false
+		|tournament=PCS/2024/Summer
+	}}
+	{{box|break}}
+	{{prize pool start award|noprize=true|margin=false}}
+	{{prize pool slot award|award=Finals MVP |tbd |flag1= |team1= |date=}}
+	{{Prize pool end}}
+	{{box|end}}
+}}
+'''Note 1:'''The best non-Partner team in the 2024 PCS Playoffs will secure their spot in the [[LCP|LCP 2025]].
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=215}}
+===Playoffs Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=PSG Talon 
+|p1=Azhi
+|p2=JunJia
+|p3=Maple
+|p4=Betty
+|p5=Woody
+
+|t2p1=CorGi|t2pos1=head coach
+|t2p2=Zero|t2p2link=Zero (Taiwanese player)|t2p2flag=tw|t2pos2=assistant coach
+|t2title=Staff
+|qualifier=[[PCS/2024/Summer/Regular Season|PCS Regular Season]]
+|placement=1
+}}
+{{TeamCard
+|team=Deep Cross Gaming
+|p1=Taco
+|p2=665
+|p3=Cryscata	
+|p4=Feng|p4link=Feng (Taiwanese player)
+|p5=Orca
+
+|t2p1=Tide|t2pos1=adc|t2p1dnp=true|t2p1link=Tide (Taiwanese player)
+
+|t3p1=Enzz|t3pos1=head coach
+|t3p2=Hana|t3pos2=assistant coach
+|qualifier=[[PCS/2024/Summer/Regular Season|PCS Regular Season]]
+|placement=2
+}}
+{{TeamCard
+|team=Fukuoka SoftBank HAWKS
+|p1=Evi
+|p2=Forest
+|p3=DasheR
+|p4=Marble
+|p5=Vsta
+
+|t2p1=VicaL |t2pos1=head coach
+|t2p2=Tussle|t2pos2=coach
+|t2p3=Kite|t2pos3=coach
+|t2title=Staff
+|qualifier=[[LJL/2024/Summer|LJL]]
+|placement=1
+}}
+{{TeamCard columns end}}
+
+===Play-In Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CTBC Flying Oyster 
+|p1=Driver
+|p2=Karsa
+|p3=Gori
+|p4=Shunn
+|p5=SwordArt
+
+|t2p1=Rest |t2pos1=top
+|t2p2=HongQ |t2pos2=mid |t2p2dnp=true
+
+|t3p1=|t3p1link=|t3pos1=head coach
+|t3p2=|t3p2flag=|t3pos2=assistant coach
+|qualifier=[[PCS/2024/Summer/Regular Season|PCS Regular Season]]
+|placement=3
+}}
+{{TeamCard
+|team=Frank Esports
+|p1=1Jiang
+|p2=Gemini
+|p3=JimieN
+|p4=Wako
+|p5=Kaiwing
+
+|t2p1=Pretender|t2pos1=mid
+
+|t3p1=Skywalk|t3pos1=head coach
+|t3p2=MnM|t3pos2=assistant coach
+|qualifier=[[PCS/2024/Summer/Regular Season|PCS Regular Season]]
+|placement=4
+}}
+{{TeamCard
+|team=J Team 
+|p1=Likai
+|p2=Lauva
+|p3=Minji
+|p4=ChiCh1
+|p5=Enso
+
+|t2p1=Yursan|t2pos1=sup|t2p1dnp=true
+
+|t3p1=Butter|t3pos1=head coach
+|t3p2=Eason|t3pos2=assistant coach
+|qualifier=[[PCS/2024/Summer/Regular Season|PCS Regular Season]]
+|placement=5
+}}
+{{TeamCard
+|team=West Point Esports 
+|p1=RYue
+|p2=Kongyue
+|p3=1116
+|p4=Lilv
+|p5=Cha
+
+|t2p1=Relhia|t2pos1=top
+|t2p2=RenYe|t2pos2=jg|t2p2dnp=true
+
+|t3p1=Calvin|t3pos1=head coach
+|qualifier=[[PCS/2024/Summer/Regular Season|PCS Regular Season]]
+|placement=6
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=RayFarky
+|p2=Steal
+|p3=Aria
+|p4=Yutapon
+|p5=Harp
+
+|t2p1=Milan|t2pos1=adc|t2p1dnp=true
+
+|t3p1=Hoon|t3p1link=Hoon_(Korean_coach)|t3pos1=head coach
+|t3p2=viviD|t3pos2=coach
+|t3p3=Gismo|t3pos3=analyst
+|qualifier=[[LJL/2024/Summer|LJL]]
+|placement=2
+}}
+{{TeamCard
+|team=Sengoku Gaming
+|p1=Kinatu
+|p2=Ellim
+|p3=Jett
+|p4=Yuhi
+|p5=Gaeng
+
+|t2p1=Kakkun|t2pos1=mid|t2p1dnp=true
+
+|t3p1=Yang|t3p1link=Yang (Korean player)|t3pos1=head coach
+|t3p2=Paz|t3pos2=coach
+|t3p3=YutoriMoyasi|t3pos3=coach
+|qualifier=[[LJL/2024/Summer|LJL]]
+|placement=3
+}}
+{{TeamCard
+|team=Ground Zero Gaming
+|p1=Thien
+|p2=Shernfire		
+|p3=Fighto
+|p4=Leemas
+|p5=Kurak
+
+|t2p1=JuJo |t2p1flag=it |t2pos1=jgl |t2p1dnp=true
+
+|t3p1=Benvi|t3pos1=coach
+|t3p2=styled|t3pos2=assistant coach
+|qualifier=[[LCO/2024/Split_2|LCO]]
+|placement=1
+}}
+{{TeamCard
+|team=Team Bliss
+|p1=BioPanther
+|p2=Kevy
+|p3=Haeri
+|p4=Violet |p4link=Violet (Hong Kong player)
+|p5=Aladoric
+
+|t2p1=Poltron|t2pos1=head coach
+|t2p2=Jellal|t2p2flag=au|t2pos2=assistant coach
+|t2title=Staff
+|qualifier=[[LCO/2024/Split_2|LCO]]
+|placement=2
+}}
+{{TeamCard columns end}}
+
+==Results==
+==={{Stage|Play-In Stage}}===
+{{Bracket|Bracket/8-2Q-U-4L2DS-1Q|id=5PMHWwY1JP
+<!-- Upper Bracket Round 1 -->
+|R1M1={{Match}}
+|R1M2={{Match}}
+|R1M3={{Match}}
+|R1M4={{Match}}
+
+<!-- Upper Bracket Round 2 -->
+|R2M1={{Match}}
+|R2M2={{Match}}
+
+<!-- Lower Bracket Round 1 -->
+|R1M5={{Match}}
+|R1M6={{Match}}
+
+<!-- Lower Bracket Round 2 -->
+|R2M3={{Match}}
+|R2M4={{Match}}
+
+<!-- Lower Bracket Round 3 -->
+|R3M1={{Match}}
+}}
+
+==={{Stage|Playoffs}}===
+{{Bracket|Bracket/4L2DSU4L1D|id=PCS24SumPO
+<!-- Upper Bracket Quarterfinals -->
+|R1M1={{Match}}
+|R1M2={{Match}}
+
+<!-- Upper Bracket Semifinals -->
+|R2M1={{Match}}
+|R2M2={{Match}}
+
+<!-- Upper Bracket Final -->
+|R4M1={{Match}}
+
+<!-- Lower Bracket Quarterfinals -->
+|R2M3={{Match}}
+
+|R2M4={{Match}}
+
+<!-- Lower Bracket Semifinal -->
+|R3M1={{Match}}
+
+<!-- Lower Bracket Final -->
+|R4M2={{Match}}
+
+<!-- Grand Final -->
+|R5M1={{Match}}
+}}
+
+==Format==
+* '''Play-In''' - ''August 5<sup>th</sup> - August 11<sup>th</sup>''
+** Double Elimination bracket
+** All matches are played in a {{Abbr/Bo3}} except for the {{Abbr/Bo5}} Lower Bracket Final.
+** <span class="bg-up">Top 3 teams</span> qualify to Playoffs.
+** <span class="mw-customtoggle-Seeding-Pots" style="border-bottom:1px dotted;">''Click here for detailed information about Seeding''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Seeding-Pots" style="margin-top:10px;">
+* Teams are splited into 2 seed pools to ensure quality brackets.
+** 8 teams from 3 leagues are splited into 2 pools
+*** '''Pool 1''' will consist of the top 4 teams, namely: '''CFO''' (PCS#3), '''FAK''' (PCS#4), '''DFM''' (LJL#2), '''GZ''' (LCO#1);
+*** '''Pool 2''' will consist of the 5th to 8th teams, namely: '''JT''' (PCS#5), '''WPE''' (PCS#6), '''SG''' (LJL#3), '''TB''' (LCO#2);
+* Two PCS teams of Pool 1 will not be drawn into the same bracket.
+* Teams from LJL and LCO will not be drwan into the same bracket.
+* The draw show was held after the last game of PCS Summer Regular Season.
+</div>
+
+* '''Playoffs''' - ''August 14<sup>th</sup> - September 1<sup>st</sup>''
+** Double Elimination bracket
+** PCS#1 and LJL#1 (PSG  and SHG) receive a bye to Upper Bracket Round 2 while PCS#1 can select the opponent in this round.
+** PCS#2 (DCG) can select the opponent in Upper Bracket Round 1.
+** All matches are {{Abbr/Bo5}}.
+** Top 2 teams qualify for [[World Championship/2024|Worlds 2024]].
+
+==Broadcast Talent==
+
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lolpacific |youtube1=@lolpacific
+|lang2=tw |twitch2=lolpacifictw |youtube2=@lolpacific
+|lang3=jp |youtube3=LoLeSportsJP |twitch3=riotgamesjp
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:PCS/2024/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==References==
+{{Reflist}}
+
+{{2024 Season International Cycle Navbox}}

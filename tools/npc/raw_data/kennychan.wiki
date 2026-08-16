@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=KennyChan&redirects=1
+<!-- 抓取: 2026-08-16T16:10:20.899Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=KennyChan
+|autoPI=Yes
+|image=
+|name=陈志勇
+|romanized_name=Chan Chi Yung
+|birth_date=2001-11-05
+|country=Hong Kong
+|familyname=Chan
+|givenname=Chi Yung
+|status=Active
+|roles=Jungle,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=KennyChan}}
+
+==Awards==
+{{player awards table|player=KennyChan}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

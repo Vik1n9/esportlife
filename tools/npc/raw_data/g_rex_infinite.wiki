@@ -1,0 +1,55 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=G-Rex%20Infinite&redirects=1
+<!-- 抓取: 2026-08-16T14:45:38.664Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|g-rex}}
+|name2={{Team|g-rex infinite}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=G-Rex Infinite
+|image=G-Rex Infinite Logo.png
+|location=Hong Kong
+|location2=Taiwan
+|region=tw
+|website=https://ees.zone/
+|twitter=EESstars
+|facebook=GRexLOL
+|youtube=UChA0tid4Ow8YDgMHC5ZbZOw?view_as=subscriber
+|vk=
+|twitch=
+|fanclub=
+}}
+'''G-Rex Infinite''' was the sister team of [[G-Rex]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Coool |name=Choi Hoi-hin |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Panda |name=Ye Weijian |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Rea |name=Yeh Chung-Yao |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Xuan |link=Xuan (Chan Yi-Hsuan) |name=Chan Yi-Hsuan |joindate=2019-01-04}}
+|{{SquadAutoRow|id=Rea |name=Yeh Chung-Yao |joindate=2019-05-01}}
+|{{SquadAutoRow|id=Rwei |name= |joindate=2019-05-01}}
+|{{SquadAutoRow|id=Winnie |name=Shen Tzu-chun |joindate=2019-05-01}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Payne |name= |joindate=2019-01-04}}
+}}
+
+==Achievements==
+{{Team achievements table|team=G-Rex Infinite}}
+==Recent Matches==
+{{Team recent matches table|team=G-Rex Infinite}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

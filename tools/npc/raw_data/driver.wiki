@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Driver&redirects=1
+<!-- 抓取: 2026-08-16T15:46:17.457Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Driver
+|image=CFO Driver at Worlds 2025 Quarterfinals.jpg
+|name=沈宗樺
+|romanized_name=Shen Tsung-hua
+|familyname=Shen
+|givenname=Tsung-hua
+|autoPI=Yes
+|birth_date=2002-04-04
+|country=Taiwan
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=JT-Driver-103611088059405
+|twitter=
+|twitch=gpgg1112
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+CFO Driver FST 2025.jpg|[[CFO]] Driver at [[FST 2025]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

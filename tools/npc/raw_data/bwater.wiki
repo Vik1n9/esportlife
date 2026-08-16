@@ -1,0 +1,29 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Bwater&redirects=1
+<!-- 抓取: 2026-08-16T15:38:46.841Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Bwater
+|ids=
+|autoPI=Yes
+|image=
+|name=鄭世博
+|romanized_name=Cheng Shih-Po
+|birth_date=2004-10-21
+|country=Taiwan
+|team=
+|status=Active
+|roles=top
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Bwater}}
+
+==Awards==
+{{player awards table|player=Bwater}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}

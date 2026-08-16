@@ -1,0 +1,325 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2019%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T16:18:01.709Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2019 Summer }}
+{{Garena Taiwan Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=LMS/2019/Summer
+|name2=Group Stage
+|link2=LMS/2019/Summer/Group_Stage
+|name3=Playoffs
+|link3=LMS/2019/Summer/Playoffs
+|name4=Promotion
+|link4=LMS/2020/Spring/Promotion
+|name5=Statistics
+|link5=LMS/2019/Summer/Statistics
+|This=1}}
+{{Infobox league
+|name=LMS 2019 Summer 
+|shortname=2019 Summer 
+|tickername=LMS Summer 2019
+|image=LMS_Logo.png
+|series=LMS
+|icon=Lmslogo_small.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|patch=9.11
+|epatch=9.16
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=Garena E-Sports Stadium
+|format='''Group Stage'''<br>Double Round-Robin<br>'''Playoffs'''<br>Single-elimination
+|localcurrency=twd
+|prizepool=2,700,000
+|prizepoolusd=87,463
+|sdate=2019-06-14
+|edate=2019-08-31
+|liquipediatier=1
+|rulebook=https://image.garena.tw/esport/lms/2019/2019%20%20LMS%20%E6%98%A5%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0.pdf
+|website=https://2019.lms.garena.tw/
+|garena=LOLTW2
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|facebook=Garenalolesports
+|instagram=garena_lol_esport
+|team_number=8
+|previous=LMS/2019/Spring{{!}}Spring 2019
+}}
+
+==Overview==
+===Format===
+*'''Group Stage''' - ''June 13th - August 4th, 2019''
+** Double Round-Robin
+** All matches are {{Abbr/Bo3}}
+** 1st place gets seeded to the Finals
+** 2nd place gets seeded to the Semifinals
+*** 3rd and 4th qualify to the first round of Playoffs
+
+*'''Playoffs''' - ''August 23rd - August 31st, 2019''
+** Single Elimination King of the Hill.
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[World Championship/2019|World Championship 2019]].
+
+===Broadcast Talent===
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=MC|lang=tw
+|b1=Jojo|b1link=Jojo (Taiwanese caster)|b1flag=tw
+|b2=阿樂|b2name=|b2flag=tw
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator|lang=tw
+|b1=Tommy|b1name=|b1flag=tw
+|b2=Section|b2name=|b2flag=tw
+|b3=JR|b3name=|b3flag=tw
+|b4=Multy|b4name=|b4flag=tw
+|b5=REX|b5name=|b5flag=tw
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator|lang=tw
+|b1=Cyo|b1name=|b1flag=tw
+|b2=Woody|b2name=|b2flag=tw
+|b3=Nash|b3name=|b3flag=tw|b3link=Nash (Taiwanese player)
+|b4=Actiom|b4name=|b4flag=tw
+|b5=Zod|b5name=|b5flag=tw
+|b6=Wulong|b6name=|b6flag=tw
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst|lang=tw
+|b1=Albis|b1name=|b1flag=tw
+|b2=MMD|b2name=|b2flag=tw
+|b3=westdoor
+}}
+{{box|end|padding=2em}}
+
+===Prize Pool===
+NT$2,700,000 {{Abbr/TWD}} are spread among the teams as seen below:
+{{prize pool start|points=lms2019|points2=seed|localcurrency=ntd|cutafter=10}}
+{{prize pool slot |place=1 |points2=[[World Championship/2019|Worlds 2019]] |usdprize=48,591|localprize=1,500,000|jt|lastvs1=ahq|lastscore1=3|lastvsscore1=1|date1=2019-08-31}}
+{{prize pool slot |place=2 |points=90|usdprize=19,436|localprize=600,000|ahq|lastvs1=jt|lastscore1=1|lastvsscore1=3|date1=2019-08-31}}
+{{prize pool slot |place=3 |points=70|usdprize=12,958|localprize=400,000|hka|lastvs1=ahq|lastscore1=2|lastvsscore1=3|date1=2019-08-25}}
+{{prize pool slot |place=4 |points=40|usdprize=6,479|localprize=200,000|mad|lastvs1=hka|lastscore1=1|lastvsscore1=3|date1=2019-08-23}}
+{{prize pool slot |place=5 |points=20|usdprize=3,887|localprize=120,000|grx|wdl1=5/7|date1=2019-08-04}}
+{{prize pool slot |place=6 |points=20|usdprize=2,591|localprize=80,000|fw|wdl1=4/8|date1=2019-08-04}}
+{{prize pool slot |place=7 |points=0|usdprize=1,620|localprize=50,000|alf|wdl1=2/10|date1=2019-08-04}}
+{{Prize pool end}}
+
+{{box|start|padding=2em}}
+<!--
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=9|margin=false}}
+{{prize pool slot award|award=MVP |tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=Rookie of the Split|tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=Best Coaching Staff|tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=Most Improved |tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=All-Pro Team  |date=
+|tbd|flag1=|team1=
+|tbd|flag2=|team2=
+|tbd|flag3=|team3=
+|tbd|flag4=|team4=
+|tbd|flag5=|team5=
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+-->
+
+===MVP Table===
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true  |cutafter=5 |margin=false
+|title=Group Stage MVP
+|tournament=LMS/2019/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true |cutafter=5 |margin=false
+|title=Playoffs MVP
+|tournament=LMS/2019/Summer/Playoffs
+}}
+{{box|end}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2019-04-01
+|edate=2019-09-01
+|team=ahq
+|team2=fw
+|team3=hka
+|team4=j team
+|team5=superesports
+|team6=g-rex
+|team7=mad team
+|team8=alpha esports
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Ziv|p1link=Ziv_(Taiwanese_player)|p1flag=tw
+|p2=Alex|p2flag=tw
+|p3=Apex|p3flag=tw
+|p4=Wako|p4flag=tw
+|p5=Ysera|p5flag=tw
+
+|t2p1=HuSha|t2p1pos=jg
+|t2p2=|t2p2flag=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=NeXAbc|t3p1flag=tw|t3pos1=coach
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{TeamCard
+|team=Alpha Esports
+|p1=Leaky|p1flag=tw
+|p2=WSY|p2flag=cn
+|p3=CaiPi|p3flag=tw
+|p4=Xiaoemo|p4flag=cn
+|p5=SkuLL|p5flag=hk
+
+|t2p1=MoonBlack|t2p1flag=hk|t2pos1=mid|t2p1dnp=
+|t2p2=|t2p2flag=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=Kolia|t3p1flag=cn|t3pos1=coach
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=Hanabi|p1flag=tw
+|p2=Bugi|p2flag=kr
+|p3=Rather|p3flag=kr
+|p4=Betty|p4flag=tw
+|p5=ShiauC|p5flag=tw
+
+|t2p1=Enso|t2p1flag=tw|t2pos1=jg|t2p1dnp=
+|t2p2=|t2p2flag=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=AFei|t3p1flag=tw|t3pos1=coach
+|t3p2=Morning|t3p2flag=tw|t3pos2=coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{TeamCard
+|team=G-Rex
+|p1=PK|p1flag=tw
+|p2=Gemini|p2flag=tw
+|p3=Candy|p3link=Candy_(Korean_player)
+|p4=Bruce|p4flag=tw
+|p5=Yoon|p5flag=kr
+
+|t2p1=Wei|t2p1flag=tw|t2pos1=head coach|t3p1link=Wei_(Taiwanese_player)
+|t2p2=Empt2y|t2pos2=coach
+|t2title=Staff
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|p1=3z|p1flag=tw
+|p2=Crash|p2flag=kr
+|p3=M1ssion|p3flag=tw
+|p4=Unified|p4flag=hk
+|p5=Kaiwing|p5flag=hk
+
+
+|t2p1=Chawy|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{TeamCard
+|team=J Team
+|p1=Rest|p1flag=tw
+|p2=Hana|p2flag=tw
+|p3=FoFo|p3flag=tw
+|p4=Lilv|p4flag=tw
+|p5=Koala|p5flag=tw|p5link=Koala (Taiwanese player)
+
+|t2p1=|t2p1flag=|t2p1dnp=true
+|t2p2=|t2p2flag=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=Coldicee|t3p1flag=tw|t3pos1=coach
+|t3p2=|t3p2flag=|t3pos2=
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{TeamCard
+|team=MAD Team
+|p1=Liang|p1flag=tw
+|p2=Kongyue|p2flag=tw
+|p3=Uniboy|p3flag=tw
+|p4=Breeze|p4flag=tw
+|p5=K|p5flag=tw
+
+|t2p1=Rock|t2p1flag=tw|t2pos1=top|t2p1dnp=
+|t2p2=|t2p2flag=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=TL|t3p1link= TL (Taiwanese player)|t3p1flag=tw|t3pos1=coach
+|t3p2=|t3p2flag=|t3pos2=
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2019/Spring|Spring 2019]]
+}}
+{{box|break|padding=2em}}
+<s>{{TeamCard
+|team=SuperEsports
+|notes=1
+|image=Super Esports Logo black.png
+|hideroster=true
+|qualifier=[[LMS/2019/Summer/Promotion|Promotion]]
+}}</s>
+{{TeamCard columns end}}
+{{noteBig
+|n1=[[SuperEsports]] is disqualified for not submitting relevant documents in time.
+}}
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LMS/2019/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LMS/2019/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=T9C8UF4PQ0}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:LMS/2019/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=LOLTW2
+|lang4=tw |facebook4=Garenalolesports/
+}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,211 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2016%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:16:01.687Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2016 Spring }}
+{{Garena Taiwan Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=LMS/2016/Spring
+|name2=Group Stage
+|link2=LMS/2016/Spring/Group_Stage
+|name3=Playoffs
+|link3=LMS/2016/Spring/Playoffs
+|name4=Promotion
+|link4=LMS/2016/Summer/Promotion
+|This=1}}
+{{Infobox league
+|name=LMS 2016 Spring 
+|shortname=2016 Spring 
+|tickername=LMS Spring 2016
+|image=League of Legends Master Series icon allmode.png
+|series=LMS
+|icon=League of Legends Master Series icon allmode.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=
+|epatch=
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=twd
+|prizepool=3,000,000
+|sdate=2016-01-14
+|edate=2016-04-12
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/lol/news/2016%20LMS/20160601/LMS%202016%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20Ver.1.2.pdf
+|website=http://2016.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=8
+|previous=LMS/2015/Summer{{!}}Summer 2015
+|next=LMS/2016/Summer{{!}}Summer 2016
+}}
+
+==Overview==
+==Format==
+
+==Broadcast Talent==
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|localcurrency=twd|tournament1=LMS/2016/Spring/Group_Stage|tournament2=LMS/2016/Spring/Playoffs|groupElimStatuses=stay,down
+|{{Slot|place=1|localprize=1,500,000}}
+|{{Slot|place=2|localprize=600,000}}
+|{{Slot|place=3|localprize=400,000}}
+|{{Slot|place=4|localprize=200,000}}
+|{{Slot|place=5|localprize=120,000}}
+|{{Slot|place=6|localprize=80,000}}
+|{{Slot|place=7|localprize=50,000}}
+|{{Slot|place=8|localprize=50,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|image=
+|p1=Ziv|p1link=Ziv_(Taiwanese_player)
+|p2=Mountain
+|p3=Westdoor|p3flag=tw
+|p4=AN
+|p5=Albis
+
+|t2p1=Chawy|t2pos1=mid
+|t2p2=RD|t2p2flag=tw|t2pos2=adc
+
+|t3p1=Backstairs|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2016|Spring Season]]-->
+}}
+{{TeamCard
+|team=Flash Wolves
+|image=
+|p1=MMD
+|p2=Karsa
+|p3=Maple
+|p4=NL
+|p5=SwordArT
+
+|t2p1=Rins|t2p1flag=tw|t2pos1=top
+|t2p2=Breeze|t2p2flag=tw|t2pos2=adc
+
+|qualifier=<!--[[LMS/Spring/2016|Spring Season]]-->
+}}
+{{TeamCard
+|team=Hong Kong Esports
+|image=
+|p1=MapleSnow
+|p2=DinTer
+|p3=chillyz|p3flag=hk
+|p4=GodKwai
+|p5=Olleh
+
+|t2p1=Rokenia|t2p1flag=kr|t2pos1=mid
+|t2p2=MarS|t2p2flag=tw|t2pos2=mid
+
+|t3p1=Revo|t3p1flag=hk|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2016|Spring Season]]-->
+}}
+{{TeamCard
+|team=Taipei Assassins
+|image=
+|p1=Morning
+|p2=Achie
+|p3=FoFo
+|p4=BeBe
+|p5=Jay |p5link=Jay (Taiwanese player)
+
+|t2p1=REFRA1N|t2p1flag=tw|t2pos1=jg
+|t2p2=Lilv|t2p2flag=tw|t2pos2=adc
+
+|t3p1=Sim|t3p1flag=kr|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2016|Spring Season]]-->
+}}
+{{TeamCard
+|team=Machi Esports
+|image=
+|p1=BoBo |p1link=BoBo (Wang You-Lin) |p1flag=tw
+|p2=Taizan|p2flag=tw
+|p3=Apex|p3flag=tw
+|p4=Dee|p4flag=tw
+|p5=Dreamer|p5flag=tw
+
+
+|t2p1=Grey|t2p1flag=us|t2pos1=Head Coach
+|t2title=Staff
+|qualifier=<!--[[LMS/Spring/2016|Spring Season]]-->
+}}
+{{TeamCard
+|team=Midnight Sun Esports
+|image=
+|p1=Julian|p1flag=tw
+|p2=Wulala|p2flag=tw
+|p3=M1ssion|p3flag=tw
+|p4=Payne|p4flag=tw
+|p5=SkuLL|p5flag=hk
+
+|t2p1=Ninuo|t2p1flag=tw|t2pos1=top
+|t2p2=CorGi|t2p2flag=tw|t2pos2=adc
+|t2p3=Kaiwing|t2pos3=sup
+
+|t3p1=NeXAbc|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2016|Spring Season]]-->
+}}
+{{TeamCard
+|team=eXtreme Gamers
+|image=
+|p1=Nexus |p1link=Nexus (Hong Kong player)|p1flag=hk
+|p2=Yo|p2flag=tw
+|p3=SuwaKo|p3flag=tw
+|p4=LBB|p4flag=tw
+|p5=Suki|p5flag=tw
+
+|t2p1=Exciting|t2pos1=top
+
+|t3p1=Atu|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2016/Promotion|Promotion]]-->
+}}
+{{TeamCard
+|team=Cougar E-Sport
+
+|image=
+|p1=AJun|p1flag=tw
+|p2=SpeaR|p2flag=tw
+|p3=KuKu|p3flag=macau
+|p4=Rabi2|p4flag=tw
+|p5=Never|p5flag=tw
+
+|t2p1=XUE|t2p1flag=tw|t2pos1=top
+|t2p2=Syuan|t2p2flag=tw|t2pos2=top
+|t2p3=CandyBB|t2p3flag=tw|t2pos3=sup
+|t2p4=Melon|t2p4link=Melon (Taiwanese player)|t2p4flag=tw|t2pos4=sup
+
+|qualifier=<!--[[LMS/Spring/2016/Promotion|Promotion]]-->
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Regular Season===
+{{#lst:LMS/2016/Spring/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LMS/2016/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=eGYJBsJjnE}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=
+}}
+
+==External links==
+
+==References==
+{{Reflist}}

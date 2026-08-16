@@ -1,0 +1,62 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ground%20Zero%20Gaming&redirects=1
+<!-- 抓取: 2026-08-16T14:47:19.396Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Ground Zero Gaming}}
+{{Tabs static
+|name1={{Team|Ground Zero Gaming}}
+|name2={{Team|Ground Zero Gaming Academy}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Ground Zero Gaming
+|location=Australia
+|location2=Taiwan
+|region=pacific
+|league=LCP
+|image=Ground Zero Gaming 2019.png
+|website=https://groundzerogaming.com.au/
+|twitter=GroundZeroOCE
+|facebook=GroundZeroOCE
+|instagram=groundzerooce
+|youtube=channel/UC8YaDfqslotfxot_DKe-jQg
+|created={{Org}}: 2016-05-12 <br />{{League of Legends}}: 2018-04-30 
+}}
+'''Ground Zero Gaming''' is an [[:Category:Australia|Australian]] esports organization.
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+|{{SquadAutoRow|id=JuJo |name=Julian Trecate |joindate=2024-01-12 }}
+}}
+
+===Timeline===
+{{TimelineSquadAuto
+|{{SquadAutoRow|date=2022-11-18|displaydate=November 18th|text=[[Ground Zero Gaming]] acquires the [[LCO/2023/Split 1|LCO]] league slot of [[ORDER]]. <ref>{{cite web |url=https://twitter.com/LCO/status/1593484355875516416 |title=Join us in giving @GroundZeroOCE a warm welcome to the League! |date=2022-11-18 |author=[[LCO]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>}}
+|{{SquadAutoRow|date=2025-12-22|displaydate=December 22nd|text=[[Ground Zero Gaming]] is invited as a new [[LCP]] guest team, replacing former partner team [[PSG Talon]]. <ref name="GZ join">{{cite web|url=https://lolesports.com/en-SG/news/ground-zero-gaming-will-join-the-lcp-for-the-2026-season|title=Ground Zero Gaming will join the LCP for the 2026 season|author=LoL Esports|date=2025-12-22}}</ref>}}
+}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Ground Zero Gaming}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Ground Zero Gaming}}
+}}
+
+==Gallery==
+<gallery mode="packed" heights="250px">
+Ground Zero Gaming.png|Original logo prior to 2019
+</gallery>
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

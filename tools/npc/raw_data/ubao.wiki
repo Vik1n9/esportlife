@@ -1,0 +1,49 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ubao&redirects=1
+<!-- 抓取: 2026-08-16T17:11:24.667Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Uniboy
+|image=GZ Uniboy LCP 2026 Split 3.jpg
+|name=陳昌駒
+|romanized_name=Chen Chang-chu
+|familyname=Chen
+|givenname=Chang-chu
+|birth_date=2001-03-03
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=mid
+|ids=ubao
+|twitch=
+|instagram=
+|facebook=Uniboy-183594799052686
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Uniboy}}
+
+==Awards==
+{{player awards table|player=Uniboy}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+MAD Uniboy 2018Worlds.jpg|[[MAD Team|MAD]] Uniboy at [[World_Championship/2018|Worlds 2018]].
+PSG Uniboy Worlds 2020.jpg|[[PSG Talon|PSG]] Uniboy at [[World_Championship/2020|Worlds 2020]].
+PSG Ubao MSI 2023.jpg|[[PSG Talon|PSG]] Uniboy at [[MSI 2023]].
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

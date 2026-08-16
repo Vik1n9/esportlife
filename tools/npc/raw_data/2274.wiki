@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=2274&redirects=1
+<!-- 抓取: 2026-08-16T16:25:28.849Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=2274
+|autoPI=Yes
+|image=CFO 2274 LCP 2026 Split 2.jpg
+|name=邱長恩
+|romanized_name=Chiu Chang-an
+|birth_date=2008-04-21
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Support,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

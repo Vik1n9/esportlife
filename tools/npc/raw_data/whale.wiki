@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Whale&redirects=1
+<!-- 抓取: 2026-08-16T17:15:00.717Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Whale
+|autoPI=Yes
+|image=
+|name=張子華
+|romanized_name=Chang Tzu-hua
+|familyname=Chang
+|givenname=Tzu-hua
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Bot,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Whale}}
+
+==Awards==
+{{player awards table|player=Whale}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

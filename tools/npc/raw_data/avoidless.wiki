@@ -1,0 +1,34 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Avoidless&redirects=1
+<!-- 抓取: 2026-08-16T15:31:54.860Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Avoidless
+|image=I May Avoidless 2016Worlds.jpg
+|name=范俊偉
+|romanized_name=Fan Jun Wei
+|familyname=Fan
+|givenname=Jun Wei
+|birth_date=1994-05-13
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=jungle
+|twitch=19wai
+|facebook=19Wai
+|bestgg=avoidless
+|weibo=avoidless0513?is_hot=1
+|autoPI=Yes
+}}
+
+==Achievements==
+{{player achievements table|player=Avoidless}}
+
+==Awards==
+{{player awards table|player=Avoidless}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

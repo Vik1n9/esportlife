@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Nexus%20(Hong%20Kong%20player)&redirects=1
+<!-- 抓取: 2026-08-16T16:51:03.469Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Nexus 
+|autoPI=Yes
+|image=
+|name=董童
+|romanized_name=Tung Tung 
+|birth_date=1997-03-03
+|country=Hong Kong
+|status=Retired
+|roles=Top
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Nexus (Hong Kong player)}}
+
+==Awards==
+{{player awards table|player=Nexus (Hong Kong player)}}
+
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

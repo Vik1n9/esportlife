@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Solokill&redirects=1
+<!-- 抓取: 2026-08-16T17:06:02.966Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Solokill
+|image=
+|name=麥富強
+|romanized_name=Mak Fu Keung
+|familyname=Mak
+|givenname=Fu Keung
+|birth_date=2001-10-13
+|country=Hong Kong
+|autoPI=Yes
+|status=active
+|roles=top
+|ids=
+|twitch=solokillbb
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Solokill}}
+
+==Awards==
+{{player awards table|player=Solokill}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

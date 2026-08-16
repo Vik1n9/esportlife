@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=SillySilly%20Gaming&redirects=1
+<!-- 抓取: 2026-08-16T15:08:38.079Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=SillySilly Gaming
+|location=Taiwan
+|region=Pacific
+|league=PCS
+|website=
+|twitter=
+|facebook=
+|youtube=
+|twitch=
+|instagram=sillysillygaming2026
+|threads=sillysillygaming2026
+|created=2026-04-08
+}}
+'''SillySilly Gaming''' is a [[:category:Taiwan|Taiwanese]] team who is competing in the [[PCS]].
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team={{PAGENAME}}}}
+|name2=Recent Matches |content2={{Team recent matches table|team={{PAGENAME}}}}
+}}
+
+==Awards==
+{{Team awards table}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

@@ -1,0 +1,277 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Garena%20Premier%20League%2F2014%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:34:09.906Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Garena Premier League 2014 Spring}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-12-21
+}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-12-21
+}}
+{{Garena Premier League Navbox}}
+{{GPL 2014 Tabs}}
+{{GPL 2014 Spring Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=Garena Premier League 2014 Spring
+|tickername=GPL 2014 Spring
+|shortname=2014 Spring
+|series=GPL
+|image=Old GPL Logo.png
+|icon=Old GPL Logo.png
+|organizer=Garena
+|sponsor=
+|patch=
+|epatch=
+|type=Online/Offline
+|country=Vietnam
+|city=Ho Chi Minh City
+|venue=Nhà thi đấu TDTT Phú Thọ
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2014-02-12
+|edate=2014-04-06
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/lol/news/2015%20LMS/20150601/LMS%202015%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20Ver.1.2.pdf
+|website=http://2015.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=12
+|previous=Garena Premier League/2014/Winter{{!}}2014 Winter
+|next=Garena Premier League/2014/Summer{{!}}2014 Summer
+}}
+The '''Garena Premier League 2014 Spring''' was the Spring iteration of the 2014 [[Garena Premier League]] ('''GPL''') season, the premier regional League of Legends competition for Southeast Asia, held from February 12 to April 6, 2014. The tournament featured twelve teams competing for a total prize pool of $200,000 {{Abbr/USD}}, with matches played online during the Group Stage and concluding with offline Playoffs at Nhà thi đấu TDTT Phú Thọ in Ho Chi Minh City, Vietnam. 
+
+The competition began with a Group Stage where teams were split into two groups of six, playing a Double Round Robin format with all matches played as {{Abbr/Bo1}}. The top four teams from each group advanced to the Playoffs, which were contested in a Single Elimination bracket with all matches played as {{Abbr/Bo5}}. Results from the split awarded GPL points toward seasonal standings.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=gpl2014|cutafter=12|import=true|tournament1=Garena Premier League/2014/Spring/Group_Stage|tournament2=Garena Premier League/2014/Spring/Playoffs
+|{{Slot|place=1|qualified=1|usdprize=80,000|points=400}}
+|{{Slot|place=2|usdprize=40,000|points=200}}
+|{{Slot|place=3|usdprize=25,000|points=150}}
+|{{Slot|place=4|usdprize=15,000|points=100}}
+|{{Slot|place=5-8|usdprize=8,000|points=70}}
+|{{Slot|place=9-10|usdprize=3,000|points=40}}
+|{{Slot|place=11-12|usdprize=1,000|points=20}}
+}}
+
+==Participating Teams==
+{{TeamParticipants
+|{{Opponent|ahq e-Sports Club
+ |players={{Persons
+  |{{Person|role=top|Prydz|flag=tw}}
+  |{{Person|role=jgl|Naz|flag=tw}}
+  |{{Person|role=mid|westdoor|flag=tw}}
+  |{{Person|role=bot|GarnetDevil|flag=tw}}
+  |{{Person|role=sup|GreenTea|flag=tw}}
+ }}
+ |qualification={{Qualification|method=qual|page=LNL/2014/Winter|text=Nova League}}
+}}
+
+|{{Opponent|Taipei Assassins
+ |players={{Persons
+  |{{Person|role=top|Achie|flag=tw}}
+  |{{Person|role=jgl|DinTer|flag=tw}}
+  |{{Person|role=mid|Morning|flag=tw}}
+  |{{Person|role=bot|BeBe|flag=tw}}
+  |{{Person|role=sup|Jay|link=Jay (Taiwanese player)|flag=tw}}
+ }}
+ |qualification={{Qualification|method=qual|page=LNL/2014/Winter|text=Nova League}}
+}}
+
+|{{Opponent|Taipei Snipers
+ |players={{Persons
+  |{{Person|role=top|Zonda|flag=tw}}
+  |{{Person|role=jgl|Winds|flag=tw}}
+  |{{Person|role=mid|OhReaL|flag=tw}}
+  |{{Person|role=bot|GoDJJ|flag=tw}}
+  |{{Person|role=sup|Awei|flag=tw}}
+ }}
+ |qualification={{Qualification|method=qual|page=LNL/2014/Winter|text=Nova League}}
+}}
+
+|{{Opponent|Flash Wolves
+ |players={{Persons
+  |{{Person|role=top|Steak|flag=tw}}
+  |{{Person|role=jgl|Mountain|flag=tw}}
+  |{{Person|role=mid|REFRA1N|flag=tw}}
+  |{{Person|role=bot|NL|flag=tw}}
+  |{{Person|role=sup|SwordArt|flag=tw}}
+ }}
+ |qualification={{Qualification|method=qual|page=LNL/2014/Winter|text=Nova League}}
+}}
+
+|{{Opponent|Insidious Gaming
+ |players={{Persons
+  |{{Person|role=top|BBTY|flag=sg}}
+  |{{Person|role=top|status=sub|Zappy|flag=sg}}
+  |{{Person|role=jgl|windowlicka|flag=sg}}
+  |{{Person|role=mid|ShinYa|flag=sg}}
+  |{{Person|role=bot|CrazyPine|flag=sg}}
+  |{{Person|role=sup|Vera|flag=sg}}
+ }}
+ |qualification={{Qualification|method=qual|page=The_Legends_Circuit/2013/Summer/Finals|text=The Legends Circuit}}
+}}
+
+|{{Opponent|Singapore Sentinels
+ |players={{Persons
+  |{{Person|role=top|BeNw|flag=sg}}
+  |{{Person|role=jgl|DDan|flag=sg}}
+  |{{Person|role=mid|Chawy}}
+  |{{Person|role=bot|Kryonics|flag=sg}}
+  |{{Person|role=sup|HarLeLuYaR|flag=sg}}
+  |{{Person|role=sup|status=sub|Kailing|flag=sg}}
+ }}
+ |qualification={{Qualification|method=qual|page=The_Legends_Circuit/2013/Summer/Finals|text=The Legends Circuit}}
+}}
+
+|{{Opponent|Imperium Pro Team
+ |players={{Persons
+  |{{Person|role=top|Hero|link=Hero (Filipino player)}}
+  |{{Person|role=jgl|Rebengga}}
+  |{{Person|role=mid|Light|flag=ph|link=Light (Filipino player)}}
+  |{{Person|role=bot|Fear|flag=ph|link=Fear (Filipino player)}}
+  |{{Person|role=sup|Shadow|flag=ph|link=Shadow (Filipino player)}}
+  |{{Person|role=sup|status=sub|Hatred|flag=ph|link=Hatred (Filipino player)}}
+ }}
+ |qualification={{Qualification|method=qual|page=Garena Premier League/2014/Spring/Qualifier/Philippines|text=Philippines Qualifier}}
+}}
+
+|{{Opponent|Manila Eagles
+ |players={{Persons
+  |{{Person|role=top|Yukz|flag=ph}}
+  |{{Person|role=jgl|Knut|flag=ph}}
+  |{{Person|role=mid|Chock|flag=ph}}
+  |{{Person|role=bot|H4T3|flag=ph}}
+  |{{Person|role=sup|Tgee}}
+ }}
+ |qualification={{Qualification|method=qual|page=Garena Premier League/2014/Spring/Qualifier/Philippines|text=Philippines Qualifier}}
+}}
+
+|{{Opponent|Saigon Jokers
+ |players={{Persons
+  |{{Person|role=top|QTV|flag=vn}}
+  |{{Person|role=jgl|Safety|flag=vn}}
+  |{{Person|role=mid|Optimus|flag=vn}}
+  |{{Person|role=mid|status=sub|Lovida|flag=vn}}
+  |{{Person|role=bot|Archie|flag=vn|link=Archie (Vietnamese player)}}
+  |{{Person|role=sup|Junie|flag=vn}}
+ }}
+ |qualification={{Qualification|method=qual|page=Garena Premier League/2014/Spring/Qualifier/Vietnam|text=Vietnam Qualifier}}
+}}
+
+|{{Opponent|Saigon Fantastic Five
+ |players={{Persons
+  |{{Person|role=top|GoNy|flag=vn}}
+  |{{Person|role=jgl|Jungleology|flag=vn}}
+  |{{Person|role=jgl|status=sub|Yushin|flag=vn}}
+  |{{Person|role=mid|Nixwater|flag=vn}}
+  |{{Person|role=bot|MinaS|flag=vn}}
+  |{{Person|role=sup|Vigoss|flag=vn}}
+ }}
+ |qualification={{Qualification|method=qual|page=Garena Premier League/2014/Spring/Qualifier/Vietnam|text=Vietnam Qualifier}}
+}}
+
+|{{Opponent|Full Louis
+ |players={{Persons
+  |{{Person|role=top|MeW|flag=vn}}
+  |{{Person|role=jgl|SofM|flag=vn}}
+  |{{Person|role=mid|Starfall|flag=vn}}
+  |{{Person|role=bot|Shyn|flag=vn}}
+  |{{Person|role=sup|Violet|flag=vn|link=Violet (Vietnamese player)}}
+ }}
+ |qualification={{Qualification|method=qual|page=Garena Premier League/2014/Spring/Qualifier/Vietnam|text=Vietnam Qualifier}}
+}}
+
+|{{Opponent|Bangkok Titans
+ |players={{Persons
+  |{{Person|role=top|WarL0cK|flag=th}}
+  |{{Person|role=top|status=sub|QaiZer|flag=th}}
+  |{{Person|role=jgl|NdD|flag=th}}
+  |{{Person|role=mid|InTreso}}
+  |{{Person|role=bot|Lloyd}}
+  |{{Person|role=sup|SKLz|flag=th}}
+ }}
+ |qualification={{Qualification|method=qual|page=Thailand Pro League/2014/Winter|text=Thailand Pro League}}
+}}
+}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:Garena Premier League/2014/Spring/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Garena Premier League/2014/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=3NAZjIiNry}}
+
+==Format==
+* '''Group Stage:''' 
+** Teams are divided into two (2) groups of six (6) teams 
+** Double Round Robin, {{Abbr/Bo1}}
+*** {{bgcolortext|up|''1st till 4th place of each group''}} advances to the Playoffs.
+*** {{bgcolortext|down|''5th and 6th place''}} are eliminated.
+* '''Playoffs:'''
+** Single Elimination
+** All matches are {{Abbr/Bo5}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=
+|lang2=tw |youtube2=
+|lang3=vn |youtube3=
+|lang4=th |youtube4=
+|lang5=my |youtube5=
+|lang6=ph |youtube6=
+|lang7=sg |youtube7=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:Garena Premier League/2014/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=Garena Premier League|limit=10|playerspage=Garena_Premier_League/2014/Spring|edate=2014-04-10}}
+:''See [[Garena Premier League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

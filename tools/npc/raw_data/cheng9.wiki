@@ -1,0 +1,27 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Cheng9&redirects=1
+<!-- 抓取: 2026-08-16T15:40:50.251Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Cheng9
+|autoPI=Yes
+|image=
+|name=潘暘承
+|romanized_name=Pan Yang-cheng
+|birth_date=2000-11-03
+|country=Taiwan
+|status=Active
+|roles=Bot
+}}
+
+==Achievements==
+{{player achievements table|player=Cheng9}}
+
+==Awards==
+{{player awards table|player=Cheng9}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

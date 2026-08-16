@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kartis&redirects=1
+<!-- 抓取: 2026-08-16T16:10:13.219Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Kartis
+|image=
+|name=黃嘉樂
+|romanized_name=Wong Ka Lok
+|familyname=Wong
+|givenname=Ka Lok
+|birth_date=2001-07-12
+|country=Hong Kong
+|team=FunPlus Phoenix Blaze
+|status=active
+|roles=Top
+|autoPI=Yes
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+
+==Achievements==
+{{player achievements table|player=Kartis}}
+
+==Awards==
+{{player awards table|player=Kartis}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

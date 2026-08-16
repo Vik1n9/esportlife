@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Tak&redirects=1
+<!-- 抓取: 2026-08-16T17:11:12.480Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Tak
+|image=
+|name=黃德誠
+|romanized_name=Vong Tak Seng
+|familyname=Vong
+|givenname=Tak Seng
+|birth_date=1997-07-07
+|country=Macau
+|autoPI=Yes
+|status=Retired
+|roles=support
+|ids=Taksen
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Tak}}
+
+==Awards==
+{{player awards table|player=Tak}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

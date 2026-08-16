@@ -1,0 +1,54 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Taipei%20Snipers&redirects=1
+<!-- 抓取: 2026-08-16T15:00:11.297Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|taipei assassins}}
+|name2={{Team|taipei snipers}}
+|This=2
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Taipei Snipers
+|image=Taipei Snipers allmode.png
+|location=Taiwan
+|region=Southeast Asia
+|city=Taipei
+|captain=
+|sponsor=
+|website=
+|twitter=
+|weibo=
+|tencent=
+|facebook=
+|youtube=
+|created={{Org}}: 2013-01-03
+|disbanded=2014-10-02
+|trades=
+|footnotes=
+|no-cat=
+}}
+'''Taipei Snipers''' was a [[:Category:Taiwan|Taiwanese]] team that was the sister team of the [[Taipei Assassins]].
+
+==Timeline==
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Taipei Snipers}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Taipei Snipers}}
+}}
+
+==Awards==
+{{Team awards table|team=Taipei Snipers}}
+
+==References==
+{{Reflist}}

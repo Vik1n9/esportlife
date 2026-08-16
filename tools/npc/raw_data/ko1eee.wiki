@@ -1,0 +1,50 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ko1eee&redirects=1
+<!-- 抓取: 2026-08-16T16:14:00.138Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Ko1eee
+|autoPI=Yes
+|image=
+|name=楊鎮瑜 
+|romanized_name=Yang Zhen-yu
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Jungle,Support,
+|ids=sHAKa
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Ko1eee}}
+
+==Awards==
+{{player awards table|player=Ko1eee}}
+
+==Media==
+{{Player Media}}
+
+==Bootcamps==
+{{BootcampPlayer
+	|{{BootcampPlayer/Row
+		|team=ion global esports
+		|league_icon=lco
+		|event=LCO 2024 Split 2
+		|event_link=LCO/2024/Split_2
+		|date=May 2024
+		|location={{flag|kr}} Seoul, South Korea
+		|host=fearx
+		|place=FEARX BOOTCAMP |place_link=https://fearx.gg/bootcamp
+		|source=https://x.com/FEARXBOOTCAMP/status/1790934874339287276
+	}}
+}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

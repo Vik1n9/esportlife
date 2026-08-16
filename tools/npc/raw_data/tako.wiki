@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Tako&redirects=1
+<!-- 抓取: 2026-08-16T17:11:16.763Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Tako
+|autoPI=Yes
+|image=
+|name=Huang Mu-siang 
+|birth_date=
+|country=Taiwan
+|team= 
+|status=Active
+|roles=Jungle,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Tako}}
+
+==Awards==
+{{player awards table|player=Tako}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

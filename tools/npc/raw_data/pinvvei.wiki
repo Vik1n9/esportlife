@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Pinvvei&redirects=1
+<!-- 抓取: 2026-08-16T16:58:36.080Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Pinvvei
+|autoPI=Yes
+|image=
+|name=林平偉
+|romanized_name=Lin Pin-wei
+|birth_date=
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Support,
+|role3=
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Pinvvei}}
+
+==Awards==
+{{player awards table|player=Pinvvei}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

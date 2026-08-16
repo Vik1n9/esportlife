@@ -1,0 +1,48 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Naz&redirects=1
+<!-- 抓取: 2026-08-16T16:50:57.266Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|player=true|coach=true}}
+{{Infobox player
+|id=Naz
+|image=ahq Naz Worlds 2014.jpg
+|name=陳添志
+|romanized_name=Chen Tien-chih
+|familyname=Chen
+|givenname=Tien-chih
+|birth_date=1993-12-01
+|country=Taiwan
+|autoPI=Yes
+|status=Retired
+|roles=jungle
+|twitch=
+|ids=
+|twitter=
+|bestgg=
+|facebook=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{tabs dynamic
+|name1=Coach
+|name2=Player
+|This=2
+}}
+{{tabs dynamic/tab|1}}
+{{Coach achievements table|coach=Naz}}
+{{tabs dynamic/tab|2}}
+{{player achievements table|player=Naz}}
+{{tabs dynamic/end}}
+
+
+==Awards==
+{{player awards table|player=Morning}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

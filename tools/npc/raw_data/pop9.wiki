@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=POP9&redirects=1
+<!-- 抓取: 2026-08-16T16:56:48.856Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=POP9
+|autoPI=Yes
+|image=DCG 665 at the LCP 2026 Promotion.jpg
+|name=吳羿翰
+|romanized_name=Wu Yi-han
+|familyname=Wu
+|givenname=Yi-han
+|birth_date=2003-03-24
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Jungle
+|ids=665
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

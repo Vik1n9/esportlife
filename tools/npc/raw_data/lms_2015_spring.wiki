@@ -1,0 +1,209 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2015%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:15:52.985Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2015 Spring}}
+{{Garena Taiwan Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=LMS/2015/Spring
+|name2=Group Stage
+|link2=LMS/2015/Spring/Group_Stage
+|name3=Playoffs
+|link3=LMS/2015/Spring/Playoffs
+|name4=Promotion
+|link4=LMS/2015/Summer/Promotion
+|This=1}}
+{{Infobox league
+|name=LMS 2015 Spring 
+|shortname=2015 Spring 
+|tickername=LMS Spring 2015
+|image=League of Legends Master Series icon allmode.png
+|series=LMS
+|icon=League of Legends Master Series icon allmode.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=
+|epatch=
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=twd
+|prizepool=4,250,000
+|sdate=2015-01-08
+|edate=2015-04-12
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/lol/news/2015%20LMS/20150601/LMS%202015%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20Ver.1.2.pdf
+|website=http://2015.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=8
+|previous=
+|next=LMS/2015/Summer{{!}}Summer 2015
+}}
+
+==Overview==
+==Format==
+
+==Broadcast Talent==
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|localcurrency=twd|tournament1=LMS/2015/Spring/Group_Stage|tournament2=LMS/2015/Spring/Playoffs|groupElimStatuses=stay,down|qualifies1=Mid-Season_Invitational/2015|qualifies2=LMS/2015/Summer|qualifies3=LMS/2015/Summer/Promotion
+|{{Slot|place=1|qualified=1|qualified2=true|localprize=1,800,000}}
+|{{Slot|place=2|localprize=900,000|qualified2=true}}
+|{{Slot|place=3|localprize=500,000|qualified2=true}}
+|{{Slot|place=4|localprize=300,000|qualified2=true}}
+|{{Slot|place=5|localprize=250,000|qualified3=true}}
+|{{Slot|place=6|localprize=200,000|qualified3=true}}
+|{{Slot|place=7|localprize=150,000|qualified3=true}}
+|{{Slot|place=8|localprize=150,000|qualified3=true}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|image=
+|p1=Ziv|p1link=Ziv_(Taiwanese_player)
+|p2=Mountain
+|p3=westdoor
+|p4=AN
+|p5=GreenTea
+
+|t2p1=Albis|t2pos1=jg
+
+|t3p1=Backstairs|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2015|Spring Season]]-->
+}}
+{{TeamCard
+|team=Flash Wolves
+|image=
+|p1=Steak
+|p2=Karsa
+|p3=Maple
+|p4=NL
+|p5=SwordArT
+
+|t2p1=MMD|t2p1flag=tw|t2pos1=top
+|t2p2=REFRA1N|t2p2flag=tw|t2pos2=adc
+
+|t3p1=Fluidwind|t3p1flag=tw|t3pos1=head coach
+|qualifier=<!--[[LMS/Spring/2015|Spring Season]]-->
+}}
+{{TeamCard
+|team=Hong Kong Esports
+|image=
+|p1=Stanley
+|p2=DinTer
+|p3=Toyz
+|p4=GoDJJ|p4flag=tw
+|p5=Olleh
+
+|t2p1=Smurph|t2p1flag=kr|t2pos1=jg
+
+|t3p1=Kingdom|t3p1flag=kr|t3pos1=Head Coach
+|qualifier=<!--[[LMS/Spring/2015|Spring Season]]-->
+}}
+{{TeamCard
+|team=Taipei Assassins
+|image=
+|p1=Morning
+|p2=Winds
+|p3=Chawy
+|p4=Lupin
+|p5=Jay |p5link=Jay (Taiwanese player)
+
+|t2p1=Sim|t2p1flag=kr|t2pos1=Head Coach
+|t2title=Staff
+|qualifier=<!--[[LMS/Spring/2015|Spring Season]]-->
+}}
+{{TeamCard
+|team=Dream or Reality
+|image=
+|p1=HanShao  |p1flag=tw
+|p2=HanJi|p2flag=tw
+|p3=Kawai|p3flag=hk
+|p4=HoNeyRain|p4flag=tw
+|p5=Melon|p5link=Melon (Taiwanese player)|p5flag=tw
+
+
+|t2p1=ArJuan|t2p1flag=tw|t2pos1=tp
+|t2p2=LeeMid|t2p2flag=tw|t2pos2=mid
+
+|qualifier=<!--[[LMS/Spring/2015|Spring Season]]-->
+|inotes={{NoteBig
+|n1=January 21st - [[Machi Crew]] drops the team which continues as [[Dream or Reality]]. <ref>{{cite web |url=https://web.archive.org/web/20150319102931/http://lol.esport.garena.tw/news/news_info.php?nid=2474|title=【LMS 職業聯賽】Machi Crew、DarlingYou 隊名更動公告|trans_title=【LMS Pro League】 Machi Crew and DarlingYou Team Name Change Announcement|publisher=Garena |date=2015-01-21|language={{flag|tw}} Taiwanese}}</ref>
+}}
+}}
+{{TeamCard
+|team=Midnight Sun Esports
+|image=
+|p1=LOFS|p1flag=HK
+|p2=Empt2
+|p3=Wish|p3flag=hk
+|p4=Tour|p4flag=hk
+|p5=Chunx|p5flag=hk
+
+|t2p1=CorGi|t2p1flag=tw|t2pos1=adc
+
+|qualifier=<!--[[LMS/Spring/2015|Spring Season]]-->
+}}
+{{TeamCard
+|team=Logitech G Snipers
+|image=
+|p1=Achie|p1flag=tw
+|p2=JCain|p2flag=tw
+|p3=Ysera|p3flag=tw
+|p4=RD|p4flag=tw
+|p5=HoHotDoG|p5flag=tw
+
+|t2p1=CCB|t2p1flag=tw|t2pos1=top
+|t2p2=Lat|t2p2flag=tw|t2pos2=adc
+
+|qualifier=<!--[[LMS/Spring/2015/Promotion|Promotion]]-->
+}}
+{{TeamCard
+|team=Never Give Up
+|link=Never Give Up (Taiwanese team)
+|image=
+|p1=MapleSnow|p1flag=tw
+|p2=iLLusion|p2flag=tw|p2link=illusion (Taiwanese player)
+|p3=CooCooDai|p3flag=tw
+|p4=Unlimited|p4flag=tw|p4link=Unlimited (Taiwanese player)
+|p5=QuietRain|p5flag=tw
+
+|t2p1=VII|t2p1flag=hk|t2pos1=jg
+|t2p2=momo|t2p2flag=tw|t2pos2=adc|t2p2link=momo (Taiwanese player)
+|qualifier=<!--[[LMS/Spring/2015/Promotion|Promotion]]-->
+|inotes={{NoteBig
+|n1=January 21st - [[Darling You]] rebrands to [[Never Give Up]]. <ref>{{cite web |url=https://web.archive.org/web/20150319102931/http://lol.esport.garena.tw/news/news_info.php?nid=2474|title=【LMS 職業聯賽】Machi Crew、DarlingYou 隊名更動公告|trans_title=【LMS Pro League】 Machi Crew and DarlingYou Team Name Change Announcement|publisher=Garena |date=2015-01-21|language={{flag|tw}} Taiwanese}}</ref>
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Regular Season===
+{{#lst:LMS/2015/Spring/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LMS/2015/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=0ik3XaswWI}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=
+}}
+
+==External links==
+
+==References==
+{{Reflist}}

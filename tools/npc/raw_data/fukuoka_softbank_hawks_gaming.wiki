@@ -1,0 +1,89 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Fukuoka%20SoftBank%20HAWKS%20gaming&redirects=1
+<!-- 抓取: 2026-08-16T14:45:34.436Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Fukuoka SoftBank HAWKS gaming}}
+{{Tabs static
+|name1={{Team|Fukuoka SoftBank HAWKS gaming}}
+|name2={{Team|Fukuoka SoftBank HAWKS academy}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Fukuoka SoftBank HAWKS gaming
+|abbreviation=SHG
+|image=Fukuoka SoftBank Hawks 2024 lightmode.png
+|imagedark=Fukuoka SoftBank Hawks 2024 darkmode.png
+|location=Japan
+|region=japan
+|league=LCP
+|city=Fukuoka
+|factor=200
+|website=https://gaming.softbankhawks.co.jp/
+|website2=
+|twitter=esports_hawks
+|created={{League of Legends}}: 2019-12-20
+|disbanded=
+}}
+'''Fukuoka SoftBank HAWKS gaming''' is the esports division of [[:Category:Japan|Japanese]] baseball team ''[[wikipedia:Fukuoka SoftBank Hawks|Fukuoka SoftBank HAWKS]]''.
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto}}
+
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Sweet |name=Chun Jung-hee |joindate=2020-07-22 }}
+|{{SquadAutoRow|id=ZanDarC |name=Oh Chang-jong |joindate=2020-07-22 }}
+|{{SquadAutoRow|id=Squirtle |name=Park Hyeon-woo |joindate=2020-12-18 }}
+|{{SquadAutoRow|id=Sweet |name=Chun Jung-hee |joindate=2020-12-18 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Fukuoka SoftBank HAWKS gaming}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Fukuoka SoftBank HAWKS gaming}}
+}}
+
+==Awards==
+{{Team awards table|team=Fukuoka SoftBank HAWKS gaming}}
+
+==History==
+===Entering League of Legends and the LJL (2019)===
+After the [[Unsold Stuff Gaming]] team didn't renew its contract with LJL at the end of the 2019 Season for the next franchise year, the Fukuoka SoftBank HAWKS gaming, a subsidiary of the [[wikipedia:Fukuoka SoftBank Hawks|Fukuoka SoftBank Hawks baseball team]] who is playing at the [[wikipedia:Nippon Professional Baseball|Nippon Professional Baseball (NPB)]] as a member of the [[wikipedia:Pacific League|Pacific League]], was chosen to enter the LJL franchise.
+
+===A tough year (2020)===
+In their first season (2020), the first-ever roster of the team was formed by Korean Top laner Kim "[[DasheR]]" Deok-beom, Korean Jungler Lee "[[Tussle]]" Moon-yong (recognized as a Japanese resident by Interregional Movement Policy (IMP) from Riot), Japanese/Chinese Mid laner Osamu "[[Ramune]]" Ozawa, Korean Bottom laner Park "[[Honey]]" Bo-heon, and the Japanese Support Norimitsu "[[Pooh]]" Hosogai, with Naoya "[[Arumik]]" Kimura being the substitute. That team finished the season with just 8th position in the [[LJL/2020/Spring|Spring Split]] and 5th-6th in the [[LJL/2020/Summer|Summer Split]], when they lost to Crest Gaming Act 3:1 in the first round of Playoffs.
+
+===Grounded (2021)===
+For the 2021 season, Ramune, Honey,  Pooh, Arumik and [[Awaker]] left the team to Ryo "[[apaMEN]]" Odagiri, Jeon "[[Zenit]]" Tae-gwon, Australian/Japanese Ian "[[Corporal]]" Pearse, and Park "[[Squirtle]]" Hyeon-woo arrived. Plus, DasheR changed his position from Top to Mid lane and Coach [[Sweet]] changed from Coach to Head Coach. But they were eliminated twice again in their first round of Playoffs to V3 Esports ([[LJL/2021/Spring|Spring]] 3:2, [[LJL/2021/Summer|Summer]]Summer 3:0).
+
+===Big Changes (2022)===
+Big changes occurred for the 2022 season when apaMEN announced his retirement from LoL Pro scene; Corporal, Zenit and Coaches Squirtle and Sweet left the team. In addition, Tussle changed his function as a player to be the Coach of the team with the Korean Head Coach Kim "[[Ares]]" Min-kwon. The new roster was formed by: Top laner Yuto "[[Kinatu]]" Enomoto, former [[https://liquipedia.net/overwatch/Luna_(Japanese_player)|Overwatch player]] and Bottom laner Rei "[[Marble]]" Shimaya, two Japanese promises of Japan scene. Jungler Blank, previously [[SK Telecom T1|SKT Telecom T1 player]] and Worlds champion in [[World Championship/2016|2016]], DasheR, and Japanese Support Shin "[[Raina]]" Okubo, LJL Champion in [[LJL/2020/Summer|2020]] with [[V3 Esports]].  One more time, in the [[LJL/2022/Spring|Spring Split]], they were eliminated in the First round of Playoffs for [[Burning Core]], but in the [[LJL/2022/Summer|Summer]] they got to the Semifinals when lost to [[Sengoku Gaming]] 3:1 in a one-sided series.
+
+===A Great Year (2023)===
+Oh "[[Vsta]]" Hyo-seong arrived for the 2023 season to replace Raina. In the [[LJL/2023/Spring|Spring Split]], SHG lost to [[DetonatioN FocusMe]] 3:0 after playing against them for the their first time in the LJL Playoffs, this loss resulted in a 3rd-4th place. In the [[LJL/2023/Summer|Summer Split]], SHG became the second force in the league facing DFM two more times during Playoffs when lost to them at the Upper Bracket Finals 3:2 and at the Grand Finals (the first offline LJL Finals since 2019) 3:2 for DFM again.
+
+==Gallery==
+===Logos===
+{{TeamLogoGallery}}
+
+==Media==
+{{Team Media}}
+
+==Data==
+{{TeamData}}
+
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

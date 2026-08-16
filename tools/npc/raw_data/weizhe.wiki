@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Weizhe&redirects=1
+<!-- 抓取: 2026-08-16T17:13:14.887Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Weizhe
+|autoPI=Yes
+|image=
+|name=林煒哲 
+|romanized_name=Lin Wei-Zhe
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Weizhe}}
+
+==Awards==
+{{player awards table|player=Weizhe}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

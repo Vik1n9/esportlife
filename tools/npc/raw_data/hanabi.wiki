@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Hanabi&redirects=1
+<!-- 抓取: 2026-08-16T15:57:29.343Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Hanabi
+|image=PSG Hanabi MSI 2021.jpg
+|name=蘇嘉祥
+|romanized_name=Su Chia-hsiang
+|familyname=Su
+|givenname=Chia-hsiang
+|autoPI=Yes
+|birth_date=2000-08-12
+|country=Taiwan
+|status=active
+|roles=Top
+|ids=
+|twitch=ysp2222
+|twitter=
+|youtube=channel/UCiiAzt1lLaZkXsIuaKa3f5w
+|facebook=ysp22222
+|champion=yasuo
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Hanabi}}
+
+==Awards==
+{{player awards table|player=Hanabi}}
+
+==Trivia==
+<gallery mode="packed-hover" heights="250px">
+FW Hanabi 2018MSI.jpg|[[Flash Wolves|FW]] Hanabi at [[Mid-Season_Invitational/2018|MSI 2018]].
+PSG Hanabi Worlds 2020.jpg |[[PSG Talon|PSG]] Hanabi at [[World_Championship/2020|Worlds 2020]].
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

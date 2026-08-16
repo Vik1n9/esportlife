@@ -1,0 +1,69 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=SwordArT&redirects=1
+<!-- 抓取: 2026-08-16T17:07:55.886Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=SwordArT
+|image=Vikings SwordArt at LCP 2025 Season Kickoff.jpg
+|name=胡碩傑
+|romanized_name=Hu Shuo-chieh 
+|familyname=Hu
+|givenname=Shuo-chieh 
+|birth_date=1996-12-21
+|country=Taiwan
+|autoPI=Yes
+|status=Retired
+|retired=2025-05-28
+|roles=support
+|ids=蛇蛇
+|twitch=
+|twitter=CFO_Swordart
+|weibo=6594422184
+|huya=131391
+|facebook=Swordartlol
+|douyu=7341842
+|instagram=swordart1221
+|champion=Thresh
+|champion2=Tahm Kench
+|champion3=Leona
+|champion4=Nautilus
+|champion5=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=SwordArT}}
+==Statistics==
+{{Player statistics table}}
+==Awards==
+{{player awards table|player=SwordArT}}
+
+==Trivia==
+* His nickname '''SwordArt''' comes from the Japanese light novel series ''[[wikipedia:Sword Art Online|Sword Art Online]]''.
+* Went to the same school as [[Maple]] and [[Karsa]].
+
+===Penta Kills===
+{|class="wikitable"
+!Date||Tournament||Team||Vs.||Champion||Position||Match History|| VOD
+|-
+|2017-11-19||[[LMS/All-Star/2017|LMS All-Star 2017]]||{{TeamIcon|lms all-star blue}}|| {{TeamIcon|lms all-star red}} ||[[File:Champion icon Tristana.png|25x25px]] [[Tristana]] ||ADC||||[https://www.youtube.com/watch?v=bUcGL5IiIRY VOD]
+|}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+FW SwordArt at Worlds 2015.jpg|SwordArt at [[World_Championship/2015|Worlds 2015]] with [[Flash Wolves]]
+FW SwordArt at MSI 2016.jpg|SwordArt at [[Mid-Season_Invitational/2016|2016 Mid-Season Invitational]] with [[Flash Wolves]]
+FW SwordArt at MSI 2017.jpg|SwordArt at [[Mid-Season_Invitational/2017|2017 Mid-Season Invitational]] with [[Flash Wolves]]
+FW SwordArt at All-Star 2017.jpg|SwordArt at [[All-Star/2017|All-Star 2017]]
+FW SwordArt 2018MSI.jpg|SwordArt at [[Mid-Season_Invitational/2018|MSI 2018]] with [[Flash Wolves]]
+FW SwordArt at Worlds 2018.jpg|SwordArt at [[World_Championship/2018|Worlds 2018]] with [[Flash Wolves]]
+SN SwordArt Worlds 2020.jpg|SwordArt at [[World_Championship/2020|Worlds 2020]] with [[Suning]]
+TSM SwordArt 2021LCS.jpg|SwordArt at [[LCS/2021/Spring|LCS 2021 Spring]] with [[TSM]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

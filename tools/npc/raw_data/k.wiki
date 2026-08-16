@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=K&redirects=1
+<!-- 抓取: 2026-08-16T16:39:25.520Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=K
+|image=MAD K 2018Worlds.jpg
+|name=柯凱盛
+|romanized_name=Ke Kai-sheng
+|familyname=Ke
+|givenname=Kai-sheng
+|birth_date=1994-05-20
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=Retired
+|roles=support,mid,top
+|ids=HoHotDog
+|twitch=kedog
+|instagram=
+|facebook=kehotdog
+|youtube=
+|twitter=
+|bestgg=k
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=K}}
+
+==Awards==
+{{player awards table|player=K}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

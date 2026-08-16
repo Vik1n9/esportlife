@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=YMS&redirects=1
+<!-- 抓取: 2026-08-16T17:20:02.183Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|player=true}}
+{{Infobox player
+|id=YMS
+|image=
+|name=舒文
+|romanized_name=Shu Wen
+|familyname=Shu
+|givenname=Wen
+|birth_date=
+|country=hk
+|status=Retired
+|roles=Top
+|autoPI=Yes
+|ids=
+}}
+
+==Achievements==
+{{player achievements table|player=YMS}}
+
+==Awards==
+{{player awards table|player=YMS}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

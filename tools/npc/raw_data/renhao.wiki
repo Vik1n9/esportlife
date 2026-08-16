@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Renhao&redirects=1
+<!-- 抓取: 2026-08-16T17:02:13.720Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=Renhao
+|autoPI=Yes
+|image=
+|name=劉人豪
+|romanized_name=Lau Ren-ho
+|familyname=Lau
+|givenname=Ren-ho
+|birth_date=
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Jungle,Support,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Renhao}}
+
+==Awards==
+{{player awards table|player=Renhao}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

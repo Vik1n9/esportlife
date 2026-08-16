@@ -1,0 +1,325 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2021%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:54:29.706Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Spring 2021}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2021/Spring
+|name2=Group Stage
+|link2=PCS/2021/Spring/Group Stage
+|name3=Playoffs
+|link3=PCS/2021/Spring/Playoffs
+|name4=Statistics
+|link4=PCS/2021/Spring/Statistics
+|This=1}}
+{{Infobox league
+|name=PCS Spring 2021
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|shortname=Spring 2021
+|tickername=PCS Spring 2021
+|series=PCS
+|organizer=Riot Games
+|organizer2=Carry.live|organizer2-link=https://www.carry.live/
+|organizer3=Garena|organizer3-link=https://www.garena.tw/
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]
+|patch=11.2
+|epatch=11.6
+|country=Taiwan
+|country2=Hong Kong
+|country3=Southeast Asia
+|type=Online
+|venue=
+|format=Double Round Robin ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|sdate=2021-02-19
+|edate=2021-04-18
+|prizepoolusd=80,000
+|prizepool=
+|liquipediatier=2
+|team_number=10
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|twitch2=lolpacificth
+|youtube=lolpacific
+|previous=PCS/2020/Summer{{!}}Summer 2020
+|next=PCS/2021/Summer{{!}}Summer 2021
+}}
+
+==Format==
+* '''Group Stage''' - ''February 19th - March 20th, 2021''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 8th place will play the playoffs
+***1st and 2nd place are seeded into Semifinals
+***3rd to 6th place are seeded into Quarterfinals
+***7th and 8th place are seeded into Losers' Round 1
+* '''Playoffs''' - ''April 1st - April 18th, 2021''
+** Double Elimination
+** Quarterfinals and Losers' Round 1 matches are {{Abbr/Bo3}}
+** All other matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2021|Mid-Season Invitational 2021]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Taiwanese
+|name3=Thai
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=Clement Chu|b1name=|b1flag=tw
+|b2=|b2name=|b2flag=
+|b3=|b3name=|b3flag=
+}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator
+|b1=Calvin|b1name=Calvin Lee|b1flag=hk
+|b2=Reirachu|b2name=Jenny Lee|b2flag=sg
+|b3=Jake|b3name=Jake Alexander|b3flag=au
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=Section|b1name=Jhu Dakai|b1flag=tw
+|b2=Tommy|b2name=Chen Ching-Heng|b2flag=tw
+|b3=JR|b3name=Yang Chih-Jen |b3flag=tw
+|b4=Mountain|b4name=|b4flag=tw
+|b5=Wulong|b5name=Chuang Tzu-Chun|b5flag=tw
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Commentator
+|b1=Lloyd|b1name=|b1flag=th
+|b2=Robert Chase|b2name=Prakasit Anukul|b2flag=th
+|b3=Xegor|b3name=Thanat Pariwatvorn|b3flag=th
+|b4=Moonfalling|b4name=Chatri Rojkarnwong|b4flag=th
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{box|start|padding=2em}}
+{{prize pool start |points=seed |cutafter=10}}
+{{prize pool slot|place=1 |usdprize=30,000 |points=[[Mid-Season Invitational/2021|MSI]] |psg talon |lastvs1=beyond gaming |lastscore1=3 |lastvsscore1=0}}
+{{prize pool slot|place=2 |usdprize=14,000 |beyond gaming |lastvs1=psg talon |lastscore1=0 |lastvsscore1=3}}
+{{prize pool slot|place=3 |usdprize=10,000 |machi esports |lastvs1=beyond gaming |lastscore1=2 |lastvsscore1=3 |date1=2021-04-17}}
+{{prize pool slot|place=4 |usdprize=7,000 |j team |lastvs1=machi esports |lastscore1=0 |lastvsscore1=3 |date1=2021-04-11}}
+{{prize pool slot |place=5-6 |usdprize=4,500
+|berjaya dragons |lastvs1=j team |lastscore1=0 |lastvsscore1=3 |date1=2021-04-09
+|hong kong attitude |lastvs2=machi esports |lastscore2=0 |lastvsscore2=3 |date2=2021-04-10
+}}
+{{prize pool slot |place=7-8 |usdprize=3,000
+|impunity |lastvs1=berjaya dragons |lastscore1=0 |lastvsscore1=2 |date1=2021-04-01
+|boom esports |lastvs2=hong kong attitude |lastscore2=1 |lastvsscore2=2 |date2=2021-04-01
+}}
+{{prize pool slot|place=9 |usdprize=2,000 |alpha esports |wdl1=5/13 |date1=2021-03-21}}
+{{prize pool slot|place=10 |usdprize=2,000 |liyab esports |wdl1=1/17 |date1=2021-03-20}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=PCS/2021/Spring/Group Stage
+}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=PCS/2021/Spring/Playoffs
+}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Alpha Esports
+|p1=3z
+|p2=kiy1n9
+|p3=APEX
+|p4=AN 
+|p5=Zihan
+
+|t2p1=Taizan |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[PCS/2020/Summer|Summer 2020]]
+}}
+{{TeamCard
+|team=Berjaya Dragons
+|p1=Azhi
+|p2=Enso
+|p3=Minji
+|p4=Eren |p4link=Eren (Malaysian player)
+|p5=K2
+
+|t2p1=Axin |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[PCS/2020/Summer|Summer 2020]]
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|notes=5
+|p1=Rock |p1link=Rock (Taiwanese player)
+|p2=Kongyue
+|p3=B1ven
+|p4=MnM
+|p5=Wing
+
+|t2p1=Patience |t2pos1=jng
+
+|t3p1=Chawy |t3pos1=Head Coach
+|qualifier=[[PCS/2020/Summer|Summer 2020]]
+}}
+{{TeamCard
+|team=Taipei J Team |link=J Team
+|p1=Rest
+|p2=Hana
+|p3=Mission
+|p4=Lilv
+|p5=Woody
+
+|t2p1=Driver |t2p1flag=tw |t2pos1=top
+
+|t3p1=Coldicee |t3p1flag=tw |t3pos1=Coach
+|qualifier=[[PCS/2020/Summer|Summer 2020]]
+}}
+{{TeamCard
+|team=Machi Esports
+|p1=Likai
+|p2=Gemini
+|p3=JimieN
+|p4=Atlen 
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=Dreamer |t2p1flag=tw |t2pos1=Head Coach
+|t2p2=Gengar |t2p2flag=tw |t2pos2=Assistant Coach
+|t2title=Staff
+|qualifier=[[PCS/2020/Summer|Summer 2020]]
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi
+|p2=River |p2link=River (Korean player)
+|p3=Maple
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=Helper |t2p1flag=kr |t2pos1=Head Coach|t2p1link=Helper (Korean player)
+|t2p2=Winged |t2p2flag=kr |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[PCS/2020/Summer|Summer 2020]]
+}}
+{{TeamCard
+|team=Beyond Gaming
+|notes=1,4
+|p1=Liang
+|p2=HuSha
+|p3=Maoan
+|p4=Doggo
+|p5=Kino
+
+|t2p1=PK |t2pos1=top
+|t2p2=Husky |t2pos2=mid
+
+|t3p1=Benny |t3p1link=Benny (Taiwanese player) |t3pos1=Coach
+|qualifier=Invited
+}}
+{{TeamCard
+|team=BOOM Esports
+|image=Boom Esports logo.png
+|notes=2, 3
+|p1=Rockky
+|p2=Epic
+|p3=Ruby
+|p4=Wako
+|p5=PoP
+
+|t2p1=WarL0cK |t2pos1=Coach
+|t2p2=HammocK |t2pos2=Coach|t2p2flag=th
+|t2title=Staff
+|qualifier=Invited
+}}
+{{TeamCard
+|team=Impunity
+|p1=TOPKING
+|p2=CYH |p2flag=sg
+|p3=Shera
+|p4=Blaze
+|p5=Smerv |p5flag=sg
+
+|t2p1=Shiazuri |t2p1flag=sg |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[PCS/2021/Spring/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Liyab Esports
+|p1=Speltz |p1flag=ph
+|p2=DoeDoii
+|p3=Kanji
+|p4=Dawn |p4link=Dawn (Filipino player)
+|p5=Xyliath |p5flag=ph
+
+|t2p1=Cresho |t2p1flag=ph |t2pos1=sup
+
+|t3p1=Cabbage |t3p1flag=th |t3pos1=Head coach
+|t3p2=Tgee |t3pos2=Assistant Coach
+|qualifier=[[PCS/2021/Spring/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+{{roster changes start}}
+{{note15|nobox=y
+|n1='''[[ahq e-Sports Club]]''' will no longer participate in the PCS,<ref name="ahq e-Sports Club">{{cite web |url=https://www.facebook.com/ahqeSportsClub/posts/3062572613845387|title=路陪伴AHQ的粉絲們：|author=[[ahq e-Sports Club]]|date=2021-01-07|publisher=Facebook|language={{Flag|tw}} Chinese}}</ref> their spot has been aquired by [[Beyond Gaming]].<ref name="Beyond Gaming">{{cite web |url=https://www.facebook.com/541628172531709/posts/4241736262520863 |title=I will announce a good news to you today. I have bought the AHQ LOL team and the league PCS seats, and I am going to compete in the 2021 season. |author=[[DinTer]] |date=2021-01-27 |publisher=Facebook|language={{Flag|tw}} Chinese}}</ref>
+|n2='''[[Nova Esports]]''' will no longer participate in the PCS.<ref name="Season 2021 Announcement">{{cite web |url=https://www.facebook.com/112969210200905/posts/250803479750810 |title=The PCS 2021 season will start on February 19, with Riot Games SEA announcing their 9 teams in the Pacific League. |date=2021-01-26 |author=[[PCS]] |publisher=Twitter |language={{Flag|tw}} Chinese}}</ref>
+|n3='''[[BOOM Esports]]'''  are announced as the 10th team.<ref>{{cite web |url=https://twitter.com/chisinRPL/status/1357648702337241088 |title=10th team of PCS is @boomesportsid |date=2021-02-05 |author=[[Riot Games SEA]] |publisher=Twitter |language={{Flag|uk}} English}}</ref>
+|n4='''[[Beyond Gaming]]''' sign {{player|Maoan|flag=tw}}.<ref>{{cite web|url=https://www.facebook.com/BeyondGamingBYG/posts/116884497078880|publisher=Facebook|title=讓我們歡迎新加入的中路！BYG Maoan|author='''Beyond Gaming'''|date=2021-03-05|language={{Flag|tw}} Chinese}}</ref>
+|n5='''[[Hong Kong Attitude]]''' sign {{player|Kongyue|flag=tw}}.<ref>{{cite web |url=https://www.facebook.com/HongKongEsports/photos/a.421536804602933/3736549516434962/ |title=welcomes Kongyue to join the HongKong Attitude League of Legends. |date=2021-03-05 |author=[[Hong Kong Attitude]] |publisher=Facebook |language={{Flag|tw}} Chinese}}</ref>
+{{tabs dynamic/end}}
+}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#section:PCS/2021/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[PCS/2021/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#section:PCS/2021/Spring/Playoffs|Playoffs}}
+==Additional Data==
+
+
+===Statistics===
+{{#lst:PCS/2021/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Streams===
+{{box|start|padding=2em}}
+{{Streams|title=
+|lang1=usuk |twitch1=lolpacific   |youtube1=channel/UCYfC038eP_cm9WNo5Cv-tBg |facebook1=lolpacific
+|lang2=tw   |twitch2=lolpacifictw |youtube2=channel/UCYfC038eP_cm9WNo5Cv-tBg |facebook2=lolpacifictw
+|lang3=th   |twitch3=lolpacificth |youtube3=channel/UCYfC038eP_cm9WNo5Cv-tBg |facebook3=lolpacificth
+}}
+{{box|end}}
+
+==References==
+{{Reflist}}
+
+{{2021 Season International Cycle Navbox}}

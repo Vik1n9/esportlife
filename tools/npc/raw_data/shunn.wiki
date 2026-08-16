@@ -1,0 +1,46 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Shunn&redirects=1
+<!-- 抓取: 2026-08-16T17:04:22.096Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Shunn
+|autoPI=Yes
+|image=GZ Shunn at LCP 2026 Split 2.jpg
+|name=趙盈舜
+|romanized_name=Chao Ying-shun
+|familyname=Chao
+|givenname=Ying-shun
+|birth_date=2002-06-02
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Bot,,
+|ids=
+|instagram=
+|factor=3847
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+Shunn Worlds 2022.jpg|Shunn at [[World_Championship/2022|Worlds 2022]] with [[CTBC Flying Oyster]]
+CFO Shunn Worlds 2023.jpg|Shunn at [[World_Championship/2023|Worlds 2023]] with [[CTBC Flying Oyster]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

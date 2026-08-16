@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Medzz&redirects=1
+<!-- 抓取: 2026-08-16T16:47:20.469Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Medzz
+|autoPI=Yes
+|image=
+|name=李家源
+|romanized_name=Li Ka Yuen
+|familyname=Li
+|givenname=Ka Yuen
+|birth_date=2003-08-24
+|country=Hong Kong
+|country2=
+|team=MAX
+|status=Active
+|roles=Mid,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Medzz}}
+
+==Awards==
+{{player awards table|player=Medzz}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

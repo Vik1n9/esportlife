@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Fireball&redirects=1
+<!-- 抓取: 2026-08-16T14:45:13.938Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Fireball
+|image=
+|location=Taiwan
+|region=tw
+|sponsor=
+|website=
+|facebook=FireBallESports
+|instagram=
+|youtube=
+|twitch=
+|fanclub=
+|twitter=
+|created=
+|disbanded=
+}}
+'''Fireball''' was a [[:Category:Taiwan|Taiwanese]] esports organization.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Fireball}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Fireball}}
+}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

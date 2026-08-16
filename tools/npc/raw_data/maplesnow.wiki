@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MapleSnow&redirects=1
+<!-- 抓取: 2026-08-16T16:47:16.516Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|wildrift=MapleSnow}}
+{{Person Tabs}}
+{{Infobox player
+|id=MapleSnow
+|image=
+|name=楊育瑋
+|romanized_name=Yang Yu-wei
+|familyname=Yang
+|givenname=Yu-wei
+|birth_date=1995-09-20
+|country=Taiwan
+|autoPI=Yes
+|status=Retired
+|roles=top,
+|twitch=hkes_maplesnow
+|facebook=HKES.MapleSnow
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=MapleSnow}}
+==Awards==
+{{player awards table|player=MapleSnow}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Bruce&redirects=1
+<!-- 抓取: 2026-08-16T15:37:05.416Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Liquipedia links|wildrift=Bruce}}
+{{Infobox player
+|id=Bruce
+|autoPI=Yes
+|image=MCX Bruce Worlds 2020.jpg
+|name=邱致鈞
+|romanized_name=Chiu Chih-chun
+|familyname=Chiu
+|givenname=Chih-chun
+|birth_date=1998-06-16
+|country=Taiwan
+|status=Active
+|roles=Bot
+|twitch=bruceo_o
+|facebook=BruceADC0616
+}}
+After having played [[wildrift:Bruce|Wild Rift]] for [[wildrift:Flash Wolve|Flash Wolves]] he returned to ''League of Legends'' on January 13th, 2023 by joining [[J Team]].
+==Achievements==
+{{player achievements table|player=Bruce}}
+
+==Awards==
+{{player awards table|player=Bruce}}
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+* He is now a professional player on Wild Rift.
+
+==References==
+{{Reflist}}
+{{Player team roster}}

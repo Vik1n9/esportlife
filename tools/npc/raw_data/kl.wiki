@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=KL&redirects=1
+<!-- 抓取: 2026-08-16T16:08:15.866Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=KL
+|ids=Kaloopao, SKL
+|autoPI=Yes
+|image=
+|name=蘇家隆
+|romanized_name=So Ka Lung
+|givenname=Ka Lung
+|familyname=So
+|birth_date=2000-10-08
+|country=Hong Kong
+|status=Retired
+|roles=Jungle
+|instagram=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=KL}}
+
+==Awards==
+{{player awards table|player=KL}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

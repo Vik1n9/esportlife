@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Rest&redirects=1
+<!-- 抓取: 2026-08-16T17:39:35.041Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Rest
+|image=CFO Rest at Worlds 2025 Quarterfinals.jpg
+|name=徐士傑
+|romanized_name=Hsu Shih-chieh
+|familyname=Hsu
+|givenname=Shih-chieh
+|birth_date=1998-12-11
+|country=Taiwan
+|team=CTBC Flying Oyster
+|autoPI=Yes
+|status=active
+|roles=top
+|ids=
+|twitch=
+|instagram=
+|facebook=lolRest1211
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+Rest Worlds 2022.jpg|[[CFO]] Rest at [[World Championship/2022|Worlds 2022]]
+CTBC Flying Oyster Rest Worlds 2023.jpg|[[CFO]] Rest at [[World Championship/2023|Worlds 2023]]
+CFO Rest FST 2025.jpg|[[CFO]] Rest at [[FST 2025]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

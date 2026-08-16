@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Fai&redirects=1
+<!-- 抓取: 2026-08-16T15:48:12.348Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Fai
+|autoPI=Yes
+|image=
+|name=鄭曉暉
+|romanized_name=Cheng Hiu Fai
+|familyname=Cheng
+|givenname=Hiu Fai
+|birth_date=
+|country=Hong Kong
+|team=
+|status=retired
+|roles=Jungle
+|ids=
+|twitch=failol
+|instagram=
+|facebook=CGFai
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+
+==Achievements==
+{{player achievements table|player=Fai}}
+
+==Awards==
+{{player awards table|player=Fai}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

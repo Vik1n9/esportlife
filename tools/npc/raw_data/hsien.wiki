@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Hsien&redirects=1
+<!-- 抓取: 2026-08-16T16:02:42.339Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Hsien
+|image=
+|name=Kuo Yu-hsien
+|familyname=Kuo
+|givenname=Yu-hsien
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|autoPI=Yes
+|status=Active
+|roles=Bot
+|role2=
+|role3=
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Hsien}}
+
+==Awards==
+{{player awards table|player=Hsien}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

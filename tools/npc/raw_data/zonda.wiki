@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Zonda&redirects=1
+<!-- 抓取: 2026-08-16T17:23:39.637Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|apexlegends=Zonda|overwatch=Zonda}}
+{{Person Tabs|player=true}}
+{{Infobox player
+|id=Zonda
+|image=
+|name=呂仲達
+|romanized_name=Lyu Jung-da
+|familyname=Lyu
+|givenname=Jung-da
+|autoPI=Yes
+|birth_date=????-07-01
+|country=Taiwan
+|status=Retired
+|roles=top
+|twitch=zondalol
+|youtube=channel/UCqoKS5St7Gjtxtu2ZkiPJtQ
+|facebook=zondalol
+|history=
+{{THA}}
+}}
+
+
+
+==Achievements==
+{{player achievements table|player=Zonda}}
+
+
+==Awards==
+{{player awards table|player=Zonda}}
+
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

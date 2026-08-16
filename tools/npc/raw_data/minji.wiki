@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Minji&redirects=1
+<!-- 抓取: 2026-08-16T17:36:02.251Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Minji
+|image=Minji_Worlds_2022.jpg
+|name=呂柏緯
+|romanized_name=Lu Po-wei 
+|familyname=Lu
+|givenname=Po-wei
+|birth_date=2001-01-17
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=active
+|roles=mid
+|ids=
+|twitch=
+|instagram=
+|factor=1478
+|facebook=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Minji}}
+
+==Awards==
+{{player awards table|player=Minji}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

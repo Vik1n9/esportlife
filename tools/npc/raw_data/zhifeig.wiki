@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Zhifeig&redirects=1
+<!-- 抓取: 2026-08-16T17:21:57.952Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Zhifeig
+|autoPI=Yes
+|image=
+|name=黃俊傑
+|romanized_name=Huang Chun-chieh
+|birth_date=
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Mid,
+|role3=
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Zhifeig}}
+
+==Awards==
+{{player awards table|player=Zhifeig}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

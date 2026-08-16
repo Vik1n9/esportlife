@@ -1,0 +1,27 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MadDogg&redirects=1
+<!-- 抓取: 2026-08-16T16:46:34.864Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=MadDogg
+|autoPI=Yes
+|name=Kelvin Sham Tsz Chung|givenname=Kelvin|familyname=Sham|nonameflip=true
+|givenname=Kelvin
+|familyname=Sham
+|birth_date=
+|country=Hong Kong
+|status=Active
+|roles=Bot
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

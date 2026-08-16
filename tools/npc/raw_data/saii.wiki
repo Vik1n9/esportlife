@@ -1,0 +1,32 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Saii&redirects=1
+<!-- 抓取: 2026-08-16T17:04:11.817Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Saii
+|autoPI=Yes
+|image=
+|name=Pung Yi-tsui
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Mid,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

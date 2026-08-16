@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MnM&redirects=1
+<!-- 抓取: 2026-08-16T16:49:00.125Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=MnM
+|image=HKA MnM 2019 Worlds.jpg
+|name=王嘉駿
+|romanized_name=Wong Ka Chun
+|familyname=Wong
+|givenname=Ka Chun
+|birth_date=2000-09-19
+|country=Hong Kong
+|team=FRANK Esports
+|autoPI=Yes
+|status=active
+|roles=Support,Coach,Bot
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=MnM}}
+
+==Awards==
+{{player awards table|player=MnM}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

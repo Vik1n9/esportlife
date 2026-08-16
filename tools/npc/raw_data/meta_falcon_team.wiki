@@ -1,0 +1,46 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Meta%20Falcon%20Team&redirects=1
+<!-- 抓取: 2026-08-16T14:54:41.052Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=Meta Falcon Team
+|image=Meta Falcon Team allmode.png
+|region=Taiwan
+|location=Taiwan
+|city=Hungkuang
+|league=PCS
+|website=https://mftesports.com/
+|twitter=
+|facebook=MetaFalconTeamMFT
+|youtube=
+|twitch=
+|instagram=metafalconteam
+|created={{League of Legends}}: 2022-02-06
+|disbanded=2023-01-11
+}}
+'''Meta Falcon Team''' is a [[:category:Taiwan|Taiwanese]] esports organisation.
+On January 12th, 2023. Their [[PCS]] slot was acquired by [[HELL PIGS]]. <ref name="HPS"> {{cite web |url=https://www.facebook.com/story.php?story_fbid=pfbid029wcNJv8dzXbPbN8RQXVYP1AZbSfVfgFZAhtxhKrtQojHPH7gYpCGdZaPDvfy6azvl&id=100043981936439&mibextid=Nif5oz|title=跟大家宣佈一個好消息 戰隊目前經過20天的招兵買馬後 總算有了一個基本的雛形 先來公布一下我們的隊名 我們的隊名叫做HPS HELL PIGS 地獄豬 當然大家應該都知道這意思了 從地獄回來復仇的豬 那是誰我就不好說了 目前贊助 訓練室陸陸續續完善中 那在這邊除了要感謝各個贊助商之外呢 還要感謝弘光的多媒體遊戲發展與應用系主任基哥 黃建基 |date=2023-01-12|author=[[GodTone]]}}</ref>
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Meta Falcon Team}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Meta Falcon Team}}
+}}
+
+==Awards==
+{{Team awards table|team=Meta Falcon Team}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

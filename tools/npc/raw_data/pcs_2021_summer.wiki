@@ -1,0 +1,355 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2021%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T16:54:35.118Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Summer 2021}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2021/Summer
+|name2=Group Stage
+|link2=PCS/2021/Summer/Group Stage
+|name3=Playoffs
+|link3=PCS/2021/Summer/Playoffs
+|name4=Statistics
+|link4=PCS/2021/Summer/Statistics
+|This=1}}
+{{Infobox league
+|name=PCS Summer 2021
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|shortname=Summer 2021
+|tickername=PCS Summer 2021
+|series=PCS
+|organizer=Riot Games
+|organizer2=Carry.live|organizer2-link=https://www.carry.live/
+|organizer3=Garena|organizer3-link=https://www.garena.tw/
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]</br>[https://www.china-airlines.com/us/en China Airlines]</br>[https://www.cht.com.tw/zh-tw/home/cht Chunghwa Telecom]</br>[https://calibre-global.com/ Calibre]
+|patch=
+|epatch=
+|country=Taiwan
+|country2=Hong Kong
+|country3=Southeast Asia
+|type=Online
+|venue=
+|format=Double Round Robin ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|sdate=2021-07-09
+|edate=2021-08-29
+|prizepoolusd=80,000
+|prizepool=
+|liquipediatier=2
+|team_number=10
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|youtube=lolpacific
+|previous=PCS/2021/Spring{{!}}Spring 2021
+|next=PCS/2022/Spring{{!}}Spring 2022
+}}
+
+==Format==
+* '''Group Stage''' - ''July 9th - August 7th, 2021''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 8th place will play the playoffs
+***1st and 2nd place are seeded into Semifinals
+***3rd to 6th place are seeded into Quarterfinals
+***7th and 8th place are seeded into Losers' Round 1
+* '''Playoffs''' - ''August 12th - August 29th, 2021''
+** Double Elimination
+** Quarterfinals and Losers' Round 1 matches are {{Abbr/Bo3}}
+** All other matches are {{Abbr/Bo5}}
+** Winner and the runner-up qualify for [[World Championship/2021|World Championship 2021]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Taiwanese
+|name3=Thai
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=Clement Chu |b1flag=tw
+|b2=PiraTechnics |b2name=Devin Younge |b2flag=us
+}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator
+|b1=Nit3Star |b1name=Frank Peng |b1flag=us
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Host
+|b1=Reirachu <!-- https://youtu.be/bLwC8biHGHQ?si=5TiXpvR3cG5G5-VX&t=3149 -->
+}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=JR |b1name=Jhu Dakai|b1flag=tw
+|b2=Section |b2name=Chen Ching-Heng|b2flag=tw
+|b3=Tommy |b3name=Yang Chih-Jen |b3flag=tw
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst
+|b1=Egg |b1name=Chan Wen-Hao |b1flag=tw
+|b2=Mountain
+|b3=Wulong |b3name=Chuang Tzu-Chun |b3flag=tw
+|b4=Zod |b4name=Chang Po-Cheng |b4flag=tw
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Commentator
+|b1=Lloyd
+|b2=Mayuko |b2name=Thanyarat Kunarittipol |b2flag=th
+|b3=Moonfalling |b3name=Chatri Rojkarnwong |b3flag=th
+|b4=Robert Chase |b4name=Prakasit Anukul |b4flag=th
+|b5=Xegor |b5name=Thanat Pariwatvorn |b5flag=th
+|b6=Zylfelia |b6name=Thanapong Srisawat |b6flag=th
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{box|start|padding=2em}}
+{{prize pool start |points=seed |cutafter=10}}
+{{prize pool slot|place=1 |usdprize=30,000 |points=[[World Championship/2021|Worlds]] |psg talon |lastvs1=beyond gaming |lastscore1=3 |lastvsscore1=2}}
+{{prize pool slot|place=2 |usdprize=14,000 |points=[[World Championship/2021|Worlds]] |beyond gaming |lastvs1=psg talon |lastscore1=2 |lastvsscore1=3}}
+{{prize pool slot|place=3 |usdprize=10,000 |j team |lastvs1=psg talon |lastscore1=0 |lastvsscore1=3 |date1=2021-08-29}}
+{{prize pool slot|place=4 |usdprize=7,000 |machi esports |lastvs1=j team |lastscore1=2 |lastvsscore1=3 |date1=2021-08-22}}
+{{prize pool slot |place=5-6 |usdprize=4,500
+|hong kong attitude |lastvs1=j team |lastscore1=1 |lastvsscore1=3 |date1=2021-08-20
+|boom esports |lastvs2=machi esports |lastscore2=2 |lastvsscore2=3 |date2=2021-08-21
+}}
+{{prize pool slot |place=7-8 |usdprize=3,000
+|liyab esports |lastvs1=boom esports |lastscore1=1 |lastvsscore1=2 |date1=2021-08-13
+|berjaya dragons |lastvs2=hong kong attitude |lastscore2=0 |lastvsscore2=2 |date2=2021-08-13
+}}
+{{prize pool slot|place=9 |usdprize=2,000 |impunity |wdl1=4/14 |date1=2021-08-08}}
+{{prize pool slot|place=10 |usdprize=2,000 |alpha esports |wdl1=1/17 |date1=2021-08-07}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=PCS/2021/Summer/Group Stage
+}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=PCS/2021/Summer/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=1em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=6|margin=false|opentext=Show All}}
+{{prize pool slot award|award=Most Valuable Player |date=2021-08-29
+|Unified |flag1=hk |team1=psg talon
+}}
+{{prize pool slot award|award=1st All-Pro Team |date=2021-08-29
+|Rest |flag1=tw |team1=jt
+|River |flag2=kr |team2=psg talon
+|Maple |flag3=tw |team3=psg talon
+|Unified |flag4=hk |team4=psg talon
+|Kaiwing |flag5=hk |team5=psg talon
+}}
+{{prize pool slot award|award=Most Improved Player |date=2021-08-29
+|JimieN |flag1=tw |team1=mcx
+|Kanji |flag2=jp |team2=liyab esports
+|Husha |flag3=tw |team3=byg
+}}
+{{prize pool slot award|award=Most Potential Player |date=2021-08-29
+|Doggo |flag1=tw |team1=byg
+|JimieN |flag2=tw |team2=mcx
+|Lika1 |flag3=tw |team3=mcx
+}}
+{{prize pool slot award|award=Best Esports Fanpage |date=2021-08-29
+|Beyond Gaming |flag1=tw |team1=byg
+}}
+{{Prize pool end noprize}}
+{{box|end|padding=1em}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Alpha Esports
+|p1=3z
+|p2=Kiy1n9
+|p3=Xiaotu |p3flag=cn
+|p4=An
+|p5=Sheng |p5flag=tw
+
+|t2p1=Laba |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=Berjaya Dragons
+|p1=Azhi 
+|p2=Arashi
+|p3=Minji 
+|p4=K2 
+|p5=Enso
+
+|t2p1=Felia |t2p1flag=my |t2pos1=sup
+
+|t3p1=Axin |t3p1flag=tw |t3pos1=Head Coach
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Liang
+|p2=Husha
+|p3=Husky
+|p4=Doggo
+|p5=Kino
+
+|t2p1=PK |t2pos1=top
+
+|t3p1=Benny |t3p1link=Benny (Taiwanese player) |t3pos1=Head Coach
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=BOOM Esports
+|p1=Rockky
+|p2=Holo
+|p3=Ruby
+|p4=Wako
+|p5=Pop
+
+|t2p1=Alex |t2pos1=jng
+
+|t3p1=WarL0cK |t3pos1=Head Coach
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|notes=1,2
+|p1=Rock |p1flag=
+|p2=Kongyue |p2flag=
+|p3=Biven |p3flag=hk
+|p4=MnM |p4flag=
+|p5=K |p5flag=hk
+
+|t2p1=HongSuo |t2p1flag=tw |t2pos1=mid
+|t2p2=Wen |t2p2flag=tw |t2pos2=mid
+|t2p3=s1aytrue |t2p3flag=tw |t2pos3=sup
+
+|t3p1=Chawy |t3pos1=Head Coach
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=Impunity
+|p1=TOPKING
+|p2=Epic
+|p3=MoonBlack
+|p4=Bureiku |p4flag=tw
+|p5=CraliX |p5flag=sg
+
+|t2p1=Blaze |t2pos1=bot
+|t2p2=Smerv |t2p2flag=sg |t2pos2=sup
+
+|t3p1=Shiazuri |t3p1flag=sg |t3pos1=Head Coach
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=J Team
+|p1=Rest
+|p2=Hana
+|p3=Mission
+|p4=Lilv
+|p5=Woody
+
+|t2p1=Wei |t2p1flag=tw |t2p1link=Wei (Taiwanese coach) |t2pos1=Head Coach
+|t2p2=Nash |t2pos2=coach|t2p2link=Nash (Taiwanese caster)
+|t2title=Staff
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=Liyab Esports
+|p1=Kanji
+|p2=DoeDoii
+|p3=Xyliath |p3flag=ph
+|p4=Dawn |p4link=Dawn (Filipino player) |p4flag=ph
+|p5=Aeiden |p5flag=ph
+
+|t2p1=Speltz |t2p1flag=ph |t2pos1=top
+
+|t3p1=Tgee |t3pos1=Coach
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=Machi Esports
+|p1=Likai
+|p2=Gemini
+|p3=JimieN
+|p4=Atlen
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=Dreamer |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi
+|p2=River|p2link=River (Korean player)
+|p3=Maple
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=Helper |t2p1flag=kr |t2pos1=Head Coach|t2p1link=Helper (Korean player)
+|t2p2=Winged |t2p2flag=kr |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[PCS/2021/Spring|Spring 2021]]
+}}
+{{TeamCard columns end}}
+{{roster changes start}}
+{{note15|nobox=y
+|n1='''[[Hong Kong Attitude]]''' sign {{player|Wen|flag=hk}} and {{player|K|flag=tw}} for Week 2 of PCS. <ref name="wen and k join hka">{{cite web|url=https://www.facebook.com/HongKongAttitude/posts/2400538666750857|title=本公司旗下《英雄聯盟》戰隊成員|date=2021-07-13|author=[[Hong Kong Attitude]]|publisher=Facebook|language={{Flag|tw}} Chinese}}</ref>
+|n2='''[[Hong Kong Attitude]]''' sign {{player|Biven|flag=tw}} for Week 4 of PCS. <ref name="biven joins hka">{{cite web|url=https://www.facebook.com/HongKongAttitude/posts/2412249048913152|title=本公司旗下《英雄聯盟》戰隊成員|date=2021-07-27|author=[[Hong Kong Attitude]]|publisher=Facebook|language={{Flag|tw}} Chinese}}</ref>
+{{tabs dynamic/end}}
+}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#section:PCS/2021/Summer/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[PCS/2021/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=GGgCYTqo5k}}
+
+==Additional Data==
+
+===Streams===
+{{Streams
+|lang1=uk |twitch1=lolpacific
+|lang2=tw |twitch2=lolpacifictw
+|lang3=th |twitch3=lolpacificth
+}}
+
+
+===Statistics===
+{{#lst:PCS/2021/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==References==
+{{Reflist}}
+
+{{2021 Season International Cycle Navbox}}

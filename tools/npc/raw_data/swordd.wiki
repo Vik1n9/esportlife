@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Swordd&redirects=1
+<!-- 抓取: 2026-08-16T17:09:24.572Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Swordd
+|image=
+|ids=Sword
+|name=Rico Chen
+|birth_date=2002-09-18
+|country=United States
+|country2=Taiwan
+|status=active
+|roles=support,mid
+|twitch=tsmsword
+|facebook=
+|twitter=lol_sword
+|bestgg=
+|instagram=
+|champion=
+|champion2=
+|autoPI=Yes
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

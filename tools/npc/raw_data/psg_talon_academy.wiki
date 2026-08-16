@@ -1,0 +1,58 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PSG%20Talon%20Academy&redirects=1
+<!-- 抓取: 2026-08-16T14:56:29.317Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Talon Esports}}
+{{Tabs static
+|name1={{Team|paris saint-germain esports}}
+|name2={{Team|talon}}
+|name3={{Team|talon academy}}
+|This=3
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=PSG Talon Academy
+|image=PSG Talon 2025 full allmode.png
+|imagedark=PSG Talon 2025 full allmode.png
+|location=Hong Kong
+|region=Southeast Asia
+|league=PCS
+|website=https://www.talon.gg/
+|discord=talonesports
+|facebook=loltalonesports
+|instagram=psgtalonlol
+|twitter=psgtalonlol
+|twitch=talonesports
+|youtube=TaloneSports
+|created={{Org}}: 2016-??-??
+|created2={{League of Legends}}: 2023-08-15
+|disbanded=2025-11-18
+}}
+'''PSG Talon Academy''' (formerly '''TALON Academy''') was the academy team of [[TALON|PSG Talon]].
+
+==Player Roster==
+===Timeline===
+{{TimelineSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table}}
+|name2=Recent Matches |content2={{Team recent matches table}}
+}}
+
+==Awards==
+{{Team awards table|team=psga}}
+
+==Gallery==
+===Logos===
+{{TeamLogoGallery}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

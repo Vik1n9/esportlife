@@ -1,0 +1,58 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=HELL%20PIGS&redirects=1
+<!-- 抓取: 2026-08-16T14:49:30.877Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Team Tabs}}
+{{Infobox team
+|name=HELL PIGS
+|image=HELL PIGS full lightmode.png
+|imagedark=HELL PIGS full darkmode.png
+|location=Taiwan
+|region=SEA
+|league=
+|website=
+|twitter=
+|facebook=hellpigs
+|youtube=
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2022-02-11
+}}
+'''HELL PIGS''' is a [[:category:Taiwan|Taiwanese]] esports organisation owned by streamer [[GodTone]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+|{{SquadAutoRow|id=HotPot|name=Shi Yijie|joindate=2025-02-10}}
+|{{SquadAutoRow|id=Jabu|name=Lee Wen-hao|joindate=2025-02-10}}
+}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=kanashimi|name=Lin Hsiu-yu|joindate=2025-02-10}}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=Z-AN|name=Lai Li-an|joindate=2024-01-11}}
+|{{SquadAutoRow|id=RED|name=Tsai Ping-hung|joindate=2025-02-10}}
+}}
+
+===Former===
+{{FormerOrganizationAuto}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=HELL PIGS}}
+|name2=Recent Matches |content2={{Team recent matches table|team=HELL PIGS}}
+}}
+
+==Awards==
+{{Team awards table|team=HELL PIGS}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Dennis&redirects=1
+<!-- 抓取: 2026-08-16T15:44:18.666Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|ageofempires=Dennis}}
+{{Person Tabs}}
+{{Infobox player
+|id=Dennis 
+|autoPI=Yes
+|image=
+|name=劉凱穎
+|romanized_name=Dennis Lau Hoi Wing
+|givenname=Dennis
+|familyname=Lau|nonameflip=true
+|birth_date=1994-06-03
+|country=Hong Kong
+|status=Retired
+|roles=Support,Mid
+|instagram=rsgdennis
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Dennis}}
+
+==Awards==
+{{player awards table|player=Dennis}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

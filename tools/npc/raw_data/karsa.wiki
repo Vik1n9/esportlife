@@ -1,0 +1,52 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Karsa&redirects=1
+<!-- 抓取: 2026-08-16T16:10:10.045Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Karsa
+|autoPI=Yes
+|image=PSG Karsa at Worlds 2025 Swiss Stage.jpg
+|name=洪浩軒
+|romanized_name=Hung Hau-hsuan 
+|familyname=Hung
+|givenname=Hau-hsuan 
+|birth_date=1997-02-14
+|country=Taiwan
+|status=Retired
+|roles=jungle
+|retired=2025-12-28
+|twitch=karsalol
+|facebook=karsahong
+|instagram=karsalol
+|douyu=5631401
+|weibo=7732235238
+|bilibili=1722516565
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+Flash Wolves Karsa at IEM Taipei 2015.jpg|Karsa at [[Intel_Extreme_Masters/Season_IX/Taipei|IEM Season IX - Taipei]] with [[Flash Wolves]]
+Flash Wolves Karsa Worlds 2015.jpg|Karsa at [[World_Championship/2015|Worlds 2015]] with [[Flash Wolves]]
+Flash Wolves Karsa 2016 Mid-Season Invitational.jpg|Karsa at [[Mid-Season_Invitational/2016|MSI 2016]] with [[Flash Wolves]]
+RNG Karsa 2018MSI.jpg|[Karsa at [[Mid-Season_Invitational/2018|MSI 2018]] with [[Royal Never Give Up]]
+TES Karsa Worlds 2020.jpg|Karsa at [[World Championship/2020|Worlds 2020]] with [[Top Esports]]
+WBG Karsa Worlds 2023.jpg|Karsa at [[Worlds 2023]] with [[Weibo Gaming]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+* Went to the same school as [[Maple]] and [[SwordArt]].
+
+==References==
+{{Reflist}}
+{{Player team roster}}

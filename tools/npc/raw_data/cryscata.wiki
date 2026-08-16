@@ -1,0 +1,29 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Cryscata&redirects=1
+<!-- 抓取: 2026-08-16T16:32:16.001Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Cryscata
+|autoPI=Yes
+|image=
+|name=張哲霖
+|romanized_name=Chang Che-lin
+|familyname=Chang
+|givenname=Che-lin
+|birth_date=2002-09-16
+|country=Taiwan
+|status=Active
+|roles=Bot,Mid
+}}
+
+==Achievements==
+{{player achievements table|player=Cryscata}}
+
+==Awards==
+{{player awards table|player=Cryscata}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

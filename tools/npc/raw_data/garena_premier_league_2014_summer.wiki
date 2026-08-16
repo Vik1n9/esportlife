@@ -1,0 +1,276 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Garena%20Premier%20League%2F2014%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T15:53:43.307Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Garena Premier League 2014 Summer}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-12-31
+}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-12-31
+}}
+{{Garena Premier League Navbox}}
+{{GPL 2014 Tabs}}
+{{GPL 2014 Summer Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=Garena Premier League 2014 Summer
+|tickername=GPL 2014 Summer
+|shortname=2014 Summer
+|series=GPL
+|image=Old GPL Logo.png
+|icon=Old GPL Logo.png
+|organizer=Garena
+|sponsor=
+|patch=
+|epatch=
+|type=Online/Offline
+|country=Taiwan
+|city=Taipei
+|venue=Nangang Exhibition Center|venuedesc=Finals
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2014-06-11
+|edate=2014-08-16
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/lol/news/2015%20LMS/20150601/LMS%202015%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20Ver.1.2.pdf
+|website=http://2015.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=12
+|previous=Garena Premier League/2014/Spring{{!}}2014 Spring
+|next=Garena Premier League/2014-2015/Spring{{!}}2015 Spring
+}}
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=12|points=gpl2014|import=true|qualifies1=World_Championship/2014|tournament1=Garena Premier League/2014/Summer/Group_Stage|tournament2=Garena Premier League/2014/Summer/Playoffs
+|{{Slot|place=1|qualified=1|usdprize=80,000|points=400}}
+|{{Slot|place=2|usdprize=40,000|points=200}}
+|{{Slot|place=3|usdprize=25,000|points=150}}
+|{{Slot|place=4|usdprize=15,000|points=100}}
+|{{Slot|place=5-8|usdprize=8,000|points=70}}
+|{{Slot|place=9-10|usdprize=3,000|points=40}}
+|{{Slot|place=11-12|usdprize=1,000|points=20}}
+}}
+
+==Participating Teams==
+{{TeamParticipants
+|{{Opponent|ahq e-Sports Club
+ |players={{Persons
+  |{{Person|role=top|Prydz|flag=tw}}
+  |{{Person|role=jgl|Naz|flag=tw}}
+  |{{Person|role=mid|westdoor|flag=tw}}
+  |{{Person|role=bot|GarnetDevil|flag=tw}}
+  |{{Person|role=sup|GreenTea|flag=tw}}
+ }}
+ |qualification={{Qualification|method=league|page=GPL/2014/Spring|text=GPL Spring}}
+}}
+
+|{{Opponent|Taipei Assassins
+ |players={{Persons
+  |{{Person|role=top|Achie|flag=tw}}
+  |{{Person|role=jgl|Winds|flag=tw}}
+  |{{Person|role=mid|Morning|flag=tw}}
+  |{{Person|role=mid|Chawy|flag=|status=sub}}
+  |{{Person|role=bot|BeBe|flag=tw}}
+  |{{Person|role=sup|Jay|flag=tw}}
+ }}
+ |qualification={{Qualification|method=league|page=GPL/2014/Spring|text=GPL Spring}}
+}}
+
+|{{Opponent|Saigon Jokers
+ |players={{Persons
+  |{{Person|role=top|Gony|flag=vn}}
+  |{{Person|role=jgl|Safety|flag=vn}}
+  |{{Person|role=mid|Nixwater|flag=vn}}
+  |{{Person|role=bot|Archie|flag=vn}}
+  |{{Person|role=sup|Vigoss|flag=vn}}
+ }}
+ |qualification={{Qualification|method=league|page=GPL/2014/Spring|text=GPL Spring}}
+}}
+
+|{{Opponent|Saigon Fantastic Five
+ |players={{Persons
+  |{{Person|role=top|QTV|flag=vn}}
+  |{{Person|role=jgl|Jungleology|flag=vn}}
+  |{{Person|role=jgl|Yushin|flag=ph|status=sub}}
+  |{{Person|role=mid|Optimus|flag=vn}}
+  |{{Person|role=bot|MinaS|flag=vn}}
+  |{{Person|role=sup|TSU|flag=vn}}
+ }}
+ |qualification={{Qualification|method=league|page=GPL/2014/Spring|text=GPL Spring}}
+}}
+|{{Opponent|ahq Fighter
+ |players={{Persons
+  |{{Person|role=top|CCB|flag=tw}}
+  |{{Person|role=jgl|Lantyr|flag=tw}}
+  |{{Person|role=mid|Albis|flag=tw}}
+  |{{Person|role=bot|RD|flag=tw}}
+  |{{Person|role=sup|Ysera|flag=tw}}
+ }}
+ |qualification={{Qualification|method=promotion|page=GPL/2014/Summer/TWHKMO Promotion|text=TW/HK/MO Promotion}}
+}}
+
+|{{Opponent|Machi Esports
+ |players={{Persons
+  |{{Person|role=top|Golem|flag=tw}}
+  |{{Person|role=top|BigBrother|flag=tw|status=sub}}
+  |{{Person|role=top|Monk|flag=tw|status=sub}}
+  |{{Person|role=jgl|JCain|flag=tw}}
+  |{{Person|role=mid|Ender|flag=tw}}
+  |{{Person|role=bot|Dee|flag=tw}}
+  |{{Person|role=sup|Dreamer|flag=tw}}
+ }}
+ |qualification={{Qualification|method=promotion|page=GPL/2014/Summer/TWHKMO Promotion|text=TW/HK/MO Promotion}}
+}}
+
+|{{Opponent|Full Louis
+ |players={{Persons
+  |{{Person|role=top|Starfall|flag=vn}}
+  |{{Person|role=jgl|SofM|flag=vn}}
+  |{{Person|role=mid|Shyn|flag=vn}}
+  |{{Person|role=bot|Jeff|flag=vn}}
+  |{{Person|role=sup|Violet|flag=vn}}
+ }}
+ |qualification={{Qualification|method=promotion|page=GPL/2014/Summer/Vietnam Promotion|text=Vietnam Promotion}}
+}}
+
+|{{Opponent|Insidious Gaming Rebirth
+ |players={{Persons
+  |{{Person|role=top|ly4ly4ly4|flag=sg}}
+  |{{Person|role=top|Tofu|flag=sg|status=sub}}
+  |{{Person|role=jgl|wEiJiE|flag=sg}}
+  |{{Person|role=mid|Floda|flag=sg}}
+  |{{Person|role=bot|Valkyrie|flag=sg}}
+  |{{Person|role=sup|Vera|flag=sg}}
+ }}
+ |qualification={{Qualification|method=league|page=The_Legends_Circuit/2014/Spring/Finals|text=The Legends Circuit}}
+}}
+
+|{{Opponent|Insidious Gaming Legends
+ |players={{Persons
+  |{{Person|role=top|Frenzy|flag=sg}}
+  |{{Person|role=top|Han|flag=kr|status=sub}}
+  |{{Person|role=jgl|Equivocal|flag=sg}}
+  |{{Person|role=mid|Slayer|link=Slayer (Singaporean player)|flag=sg}}
+  |{{Person|role=bot|BBTY|flag=sg}}
+  |{{Person|role=sup|Zappy|flag=sg}}
+ }}
+ |qualification={{Qualification|method=league|page=The_Legends_Circuit/2014/Spring/Finals|text=The Legends Circuit}}
+}}
+
+|{{Opponent|Imperium Pro Team
+ |players={{Persons
+  |{{Person|role=top|Hero|link=Hero (Filipino player)|flag=ph}}
+  |{{Person|role=jgl|Kaigu|flag=ph}}
+  |{{Person|role=mid|Light|link=Light (Filipino player)|flag=ph}}
+  |{{Person|role=bot|Fear|link=Fear (Filipino player)|flag=ph}}
+  |{{Person|role=sup|Shadow|link=Shadow (Filipino player)|flag=ph}}
+ }}
+ |qualification={{Qualification|method=league|page=Pro_Gaming_Series/2014/Spring|text=Pro Gaming Series}}
+}}
+
+|{{Opponent|Wargods
+ |players={{Persons
+  |{{Person|role=top|JLC|flag=ph}}
+  |{{Person|role=jgl|Stronger|flag=ph}}
+  |{{Person|role=mid|Trebor|flag=ph}}
+  |{{Person|role=bot|suEz|flag=ph}}
+  |{{Person|role=bot|Otchie|flag=ph|status=sub}}
+  |{{Person|role=sup|Poysanity|flag=ph}}
+ }}
+ |qualification={{Qualification|method=league|page=Pro_Gaming_Series/2014/Spring|text=Pro Gaming Series}}
+}}
+
+|{{Opponent|Bangkok Titans
+ |players={{Persons
+  |{{Person|role=top|WarL0cK|flag=th}}
+  |{{Person|role=jgl|007x|flag=th}}
+  |{{Person|role=mid|G4|flag=th}}
+  |{{Person|role=bot|Lloyd|flag=th}}
+  |{{Person|role=bot|Sek|flag=th|status=sub}}
+  |{{Person|role=sup|InTreso|flag=th}}
+ }}
+ |qualification={{Qualification|method=league|page=Thailand_Pro_League/2014/Spring|text=Thailand Pro League}}
+}}
+}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:Garena Premier League/2014/Summer/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Garena Premier League/2014/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=cKgFiAjEvT}}
+
+==Format==
+* '''Group Stage:''' 
+** Teams are divided into two (2) groups of six (6) teams 
+** Double Round Robin, {{Abbr/Bo1}}
+*** {{bgcolortext|up|''1st till 4th place of each group''}} advances to the Playoffs.
+*** {{bgcolortext|down|''5th and 6th place''}} are eliminated.
+* '''Playoffs:'''
+** Single Elimination
+** All matches are {{Abbr/Bo5}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=
+|lang2=tw |youtube2=
+|lang3=vn |youtube3=
+|lang4=th |youtube4=
+|lang5=my |youtube5=
+|lang6=ph |youtube6=
+|lang7=sg |youtube7=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:Garena Premier League/2014/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=Garena Premier League|limit=10|playerspage=Garena_Premier_League/2014/Summer|edate=2014-08-18}}
+:''See [[Garena Premier League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Woody&redirects=1
+<!-- 抓取: 2026-08-16T17:16:46.074Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Woody
+|autoPI=Yes
+|image=DFM Woody LCP 2026 Split 3.jpg
+|name=林煜恩
+|romanized_name=Lin Yu-en
+|familyname=Lin
+|givenname=Yu-en
+|birth_date=1998-04-11
+|country=Taiwan
+|status=active
+|roles=Support
+|ids=Bao
+|facebook=lolJTwoody
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+PSG Woody Worlds 2023.jpg|[[PSG Talon|PSG]] Woody at [[Worlds 2023]]
+PSG Woody MSI 2023.jpg|[[PSG Talon|PSG]] Woody at [[MSI 2023]]
+PSG Woody Worlds 2024.jpg|[[PSG Talon|PSG]] Woody at [[Worlds 2024]]
+PSG Woody at Worlds 2025 Swiss Stage.jpg|[[PSG Talon|PSG]] Woody at [[Worlds 2025]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

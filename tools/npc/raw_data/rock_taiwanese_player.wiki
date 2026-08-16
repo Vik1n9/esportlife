@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Rock%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:03:54.038Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Rock
+|image=
+|name=蔡忠廷
+|romanized_name=Tsai Chung-ting
+|familyname=Tsai
+|givenname=Chung-ting
+|birth_date=
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=active
+|roles=top,Bot,mid
+|ids=
+|twitch=
+|instagram=
+|facebook=HKA-Rock-183357559077443
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Rock (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Rock (Taiwanese player)}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

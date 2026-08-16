@@ -1,0 +1,2408 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Garena%20Premier%20League%2F2013%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:34:06.223Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Garena Premier League 2013 Spring}}
+{{Want_to_Help
+|issue=Missing match details
+|fix=Add all the missing match details such as Pick and Bans, VoDs etc.
+|date=2025-12-14
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-12-14
+}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-12-14
+}}
+{{Garena Premier League Navbox}}
+{{GPL 2013 Tabs}}
+{{Tournament Tabs 3}}
+{{Infobox league
+|name=Garena Premier League 2013 Spring
+|tickername=GPL 2013 Spring
+|shortname=2013 Spring
+|series=GPL
+|image=Old GPL Logo.png
+|icon=Old GPL Logo.png
+|organizer=Garena
+|sponsor=
+|patch=
+|epatch=
+|type=Online
+|country=Southeast Asia
+|city=
+|venue=
+|format=
+|prizepoolusd=100,000
+|sdate=2013-01-04
+|edate=2013-04-21
+|liquipediatier=2
+|highlighted=|rulebook=
+|website=http://2015.lms.garena.tw/
+|stream=
+|youtube=
+|twitch=
+|twitch2=
+|team_number=8
+|previous=GPL/Season 1{{!}}Season 1
+|next=GPL/2013/Summer{{!}}2013 Summer
+}}
+The '''Garena Premier League 2013 Spring''' was the Spring split of the [[Garena Premier League]] ('''GPL''') 2013 season, held online from January 4 to April 21, 2013. Eight teams from across Southeast Asia competed, marking an expansion from previous editions of the league. The Group Stage was played as a Quadruple Round Robin with best-of-one matches. The first-place team qualified directly for the [[Garena Premier League/2013/Championship|Garena Premier League 2013 Championship]], while all remaining teams were eliminated from the split but retained eligibility to qualify through the Summer split. The tournament featured a total prize pool of $100,000 {{Abbr/USD}}.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|import=true|tournament1=Garena Premier League/2013/Spring
+|qualifies1=Garena Premier League/2013/Championship|qualifies1name=Championship
+|{{Slot|place=1|usdprize=50,000|qualified1=true}}
+|{{Slot|place=2|usdprize=25,000}}
+|{{Slot|place=3|usdprize=10,000}}
+|{{Slot|place=4|usdprize=5,000}}
+|{{Slot|place=5|usdprize=2,500}}
+|{{Slot|place=6|usdprize=2,500}}
+|{{Slot|place=7|usdprize=2,500}}
+|{{Slot|place=8|usdprize=2,500}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq eSports Club
+|flag=tw
+|p1=Prydz
+|p2=Lantyr|p2flag=tw
+|p3=Westdoor
+|p4=MrAlbis
+|p5=GreenTea
+
+|t2p1=GarnetDevil|t2p1flag=tw|t2pos1=jg
+|t2p2=ArTie|t2p2flagtw|t2pos2=mid
+}}
+{{TeamCard
+|team=Taipei Assassins
+|flag=tw
+|p1=Stanley
+|p2=Lilballz
+|p3=Toyz
+|p4=BeBe
+|p5=DinTer
+}}
+{{TeamCard
+|team=Singapore Sentinels
+|flag=sg
+|p1=ToFu|p1flag=sg
+|p2=HarLeLuYaR
+|p3=hyhy
+|p4=Chawy
+|p5=d4rkness|p4flag=sg
+
+|t2p1=Ly4ly4ly4|t2p1flag=sg|t2pos1=adc
+|t2p2=Kailing|t2p2flag=sg|t2pos2=sup
+}}
+{{TeamCard
+|team=Saigon Jokers
+|flag=vn
+|p1=QTV|p1flag=vn
+|p2=Safety|p2flag=vn
+|p3=NIXWATER
+|p4=Archie|p4link=Archie (Vietnamese player)
+|p5=Junie|p5flag=vn
+
+|t2p1=Burning|t2p1flag=vn|t2pos1=adc
+}}
+{{TeamCard
+|team=Saigon Fantastic Five
+|flag=vn
+|p1=Zerg|p1flag=vn
+|p2=Egg|p2flag=vn
+|p3=TieuQuy|p3flag=vn
+|p4=Violet|p4flag=vn
+|p5=YangSieu|p5flag=vn
+
+|t2p1=Navy|t2p1flag=vn|t2pos1=top
+|t2p2=Aci|t2pos2=adc|t2p2flag=vn
+
+}}
+{{TeamCard
+|team=Bangkok Titans
+|flag=th
+|p1=leah|p1flag=th
+|p2=NdD|p2flag=th
+|p3=Xllyra|p3flag=th
+|p4=NLgnz|p4flag=th
+|p5=SKLz|p5flag=th
+
+|t2p1=NVM|t2p1flag=th|t2pos1=mid
+|t2p2=AAey|t2p2flag=th|t2pos2=mid
+|t2p3=RoyHun|t2p3flag=th|t2pos3=adc
+|t2p4=Sek|t2p4flag=th|t2pos4=adc
+|t2p5=Xeres|t2p5flag=th|t2pos5=sup
+
+}}
+{{TeamCard
+|team=Manila Eagles
+|flag=ph
+|p1=H4T3|p1flag=ph
+|p2=PF|p2flag=ph
+|p3=Chock|p3flag=ph
+|p4=VYY|p4flag=ph
+|p5=Astarte|p5flag=ph|p5link=Astarte (Filipino player)
+
+|t2p1=Kappuchu|t2pos1=top|t2p1flag=ph
+|t2p2=Apathy|t2pos2=jg|t2p2flag=ph
+|t2p3=LittlePanda|t2pos3=mid|t2p3flag=ph
+|t2p4=Vileroze|t2pos4=mid|t2p4flag=ph
+|t2p5=Xarr|t2pos5=adc|t2p5flag=ph
+|t2p6=Ron|t2pos6=top|t2p6flag=ph
+}}
+{{TeamCard
+|team=Kuala Lumpur Hunters
+|flag=my
+|p1=TaintedOnes|p1flag=my
+|p2=XXF|p2flag=my
+|p3=GoldeN|p3flag=my
+|p4=WahzleNs|p4flag=my
+|p5=RedHotRayz|p5flag=my
+
+|t2p1=ShineWalker|t2p1flag=my|t2pos1=adc
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Standings===
+<section begin="Group Stage"/>
+{{box|start|padding=2em}}
+{{GroupTableLeague2|title=Regular Season |width=325px |show_g=false |diff=false
+|tournament=GPL/2013/Spring|pbg1=up|pbg2=stay|pbg3=stay|pbg4=stay|pbg5=stay|pbg6=stay|pbg7=stay|pbg8=stay
+|team1=Bangkok Titans
+|team2=Kuala Lumpur Hunters
+|team3=Manila Eagles 
+|team4=Saigon Jokers
+|team5=Singapore Sentinels 
+|team6=Taipei Assassins
+|team7=Saigon Fantastic Five
+|team8=ahq eSports Club
+|round1edate=January 6, 2013 - 21:00 {{Abbr/SGT}}
+|round2edate=January 13, 2013 - 21:00 {{Abbr/SGT}}
+|round3edate=January 20, 2013 - 21:00 {{Abbr/SGT}}
+|round4edate=January 27, 2013 - 21:00 {{Abbr/SGT}}
+|round5edate=February 3, 2013 - 21:00 {{Abbr/SGT}}
+|round6edate=February 24, 2013 - 21:00 {{Abbr/SGT}}
+|round7edate=March 3, 2013 - 21:00 {{Abbr/SGT}}
+|round8edate=March 10, 2013 - 21:00 {{Abbr/SGT}}
+|round9edate=March 17, 2013 - 21:00 {{Abbr/SGT}}
+|round10edate=March 24, 2013 - 21:00 {{Abbr/SGT}}
+|round11edate=March 31, 2013 - 21:00 {{Abbr/SGT}}
+|round12edate=April 7, 2013 - 21:00 {{Abbr/SGT}}
+|round13edate=April 14, 2013 - 21:00 {{Abbr/SGT}}
+|round14edate=April 21, 2013 - 21:00 {{Abbr/SGT}}
+|edate=April 21, 2013 - 21:00 {{Abbr/SGT}}
+}}
+<br/>
+{{box|break}}
+{{CrossTableLeague
+|tournament=GPL/2013/Spring/Regular Season
+}}
+{{box|end|padding=2em}}
+<section end="Group Stage"/>
+
+===Detailed Results===
+{{box|start|padding=2em}}
+====={{HiddenSort|Week 1}}=====
+{{Matchlist|id=P0MhEDce4k|title=Week 1
+|M1header=January 4, 2012
+|M4header=January 5, 2012
+|M7header=January 6, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-01-04 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |mvp=
+    |vodgame1=https://youtu.be/bzsEu76T01w
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-01-04 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |mvp=
+    |vodgame1=https://youtu.be/WE05DUNokrc
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-01-04 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |mvp=
+    |vodgame1=https://youtu.be/k2SafJ-mZKo
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-01-05 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |mvp=
+    |vodgame1=https://youtu.be/3gWt1XVIsUU
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-01-05 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=https://youtu.be/LH5Lf7q87Hw
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-01-05 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |mvp=
+    |vodgame1=https://youtu.be/2w8SEt3Sfm4
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-01-06 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |mvp=
+    |vodgame1=https://youtu.be/06pxSY_nzi8
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-01-06 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+	|caster1=Fluidwind |caster2=Vincent Lee 
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=https://youtu.be/0uMqM2RI-rA
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 2}}=====
+{{Matchlist|id=K1VVKw9mnq|title=Week 2
+|M1header=January 11, 2012
+|M4header=January 12, 2012
+|M7header=January 13, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-01-11 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-01-11 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-01-11 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-01-12 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-01-12 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-01-12 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-01-13 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-01-13 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 3}}=====
+{{Matchlist|id=k3tsbhcTeE|title=Week 3
+|M1header=January 18, 2012
+|M4header=January 19, 2012
+|M7header=January 20, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-01-18 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-01-18 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-01-18 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-01-19 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-01-19 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-01-19 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-01-20 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-01-20 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 4}}=====
+{{Matchlist|id=PbCpOOwAmE|title=Week 4
+|M1header=January 25, 2012
+|M4header=January 26, 2012
+|M7header=January 27, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-01-25 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-01-25 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-01-25 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-01-26 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-01-26 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-01-26 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-01-27 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-01-27 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 5}}=====
+{{Matchlist|id=VFQZzSFiWX|title=Week 5
+|M1header=February 1, 2012
+|M4header=February 2, 2012
+|M7header=February 3, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-02-01 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-02-01 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-02-01 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-02-02 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-02-02 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-02-02 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-02-03 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-02-03 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 6}}=====
+{{Matchlist|id=OEbYnbRmpI|title=Week 6
+|M1header=February 22, 2012
+|M4header=February 23, 2012
+|M7header=February 24, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-02-22 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-02-22 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-02-22 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-02-23 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-02-23 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-02-23 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-02-24 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-02-24 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 7}}=====
+{{Matchlist|id=LRXXeaEHup|title=Week 7
+|M1header=March 1, 2012
+|M4header=March 2, 2012
+|M7header=March 3, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-03-01 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-03-01 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-01 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-03-02 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-03-02 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-02 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-03-03 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-03-03 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 8}}=====
+{{Matchlist|id=XpeukNItt3|title=Week 8
+|M1header=March 8, 2012
+|M4header=March 9, 2012
+|M7header=March 10, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-03-08 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-03-08 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-03-08 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-03-09 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-03-09 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-03-09 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-03-10 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-03-10 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 9}}=====
+{{Matchlist|id=8aJYxI67RK|title=Week 9
+|M1header=March 15, 2012
+|M4header=March 16, 2012
+|M7header=March 17, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-03-15 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-03-15 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-03-15 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-03-16 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-16 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-03-16 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-03-17 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-03-17 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 10}}=====
+{{Matchlist|id=huTHYRcFZ5|title=Week 10
+|M1header=March 22, 2012
+|M4header=March 23, 2012
+|M7header=March 24, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-03-22 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-22 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-03-22 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-03-23 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-03-23 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-03-23 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-24 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-03-24 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 11}}=====
+{{Matchlist|id=WMxCPTIT2z|title=Week 11
+|M1header=March 29, 2012
+|M4header=March 30, 2012
+|M7header=March 31, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-03-29 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-03-29 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-03-29 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-03-30 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-30 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-03-30 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-03-31 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-03-31 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 12}}=====
+{{Matchlist|id=Ihx7fHH8vN|title=Week 12
+|M1header=April 5, 2012
+|M4header=April 6, 2012
+|M7header=April 7, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-04-05 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-04-05 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-04-05 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-04-06 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-04-06 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|mle}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-04-06 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-04-07 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|sgs}}
+    |date=2013-04-07 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 13}}=====
+{{Matchlist|id=Z5mqXVmVZt|title=Week 13
+|M1header=April 12, 2012
+|M4header=April 13, 2012
+|M7header=April 14, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-04-12 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-04-12 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-04-12 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|ahq}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-04-13 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|tpa}}
+    |date=2013-04-13 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|klh}}
+    |date=2013-04-13 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|sf5}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-04-14 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-04-14 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|break|padding=2em}}
+
+====={{HiddenSort|Week 14}}=====
+{{Matchlist|id=Q7mnfYY8DW|title=Week 14
+|M1header=April 19, 2012
+|M4header=April 20, 2012
+|M7header=April 21, 2012
+|M1={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-04-19 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M2={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|bkt}}
+    |date=2013-04-20 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M3={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-04-20 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+|M4={{Match|patch=
+    |opponent1={{TeamOpponent|klh}}
+    |opponent2={{TeamOpponent|ahq}}
+    |date=2013-04-21 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M5={{Match|patch=
+    |opponent1={{TeamOpponent|bkt}}
+    |opponent2={{TeamOpponent|mle}}
+    |date=2013-04-21 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M6={{Match|patch=
+    |opponent1={{TeamOpponent|saj}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-04-21 21:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M7={{Match|patch=
+    |opponent1={{TeamOpponent|sgs}}
+    |opponent2={{TeamOpponent|saj}}
+    |date=2013-04-21 19:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=2
+    }}
+}}
+|M8={{Match|patch=
+    |opponent1={{TeamOpponent|tpa}}
+    |opponent2={{TeamOpponent|sf5}}
+    |date=2013-04-21 20:00 {{Abbr/SGT}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=
+    |map1={{Map
+        |team1side=
+        |t1c1= |t1c2= |t1c3= |t1c4= |t1c5=
+        |t1b1= |t1b2= |t1b3= |t1b4= |t1b5=
+        |team2side=
+        |t2c1= |t2c2= |t2c3= |t2c4= |t2c5=
+        |t2b1= |t2b2= |t2b3= |t2b4= |t2b5=
+        |length= |winner=1
+    }}
+}}
+}}
+{{box|end|padding=2em}}
+
+==Format==
+* '''Group Stage'''
+** Quadruple Round Robin {{Abbr/Bo1}}
+*** {{bgcolortext|up|''1st place''}} qualifies for [[Garena Premier League/2013/Championship|Garena Premier League 2013 Championship]]
+*** {{bgcolortext|stay|''2nd till 8th place''}} are eliminated from this split, but still have a chance to qualify for the Championship during [[Garena Premier League/2013/Summer|Summer split]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=
+|lang2=tw |youtube2=
+|lang3=vn |youtube3=
+|lang4=th |youtube4=
+|lang5=my |youtube5=
+|lang6=ph |youtube6=
+|lang7=sg |youtube7=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:Garena Premier League/2013/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=Garena Premier League|limit=10|playerspage=Garena_Premier_League/2013/Spring|edate=2013-04-23}}
+:''See [[Garena Premier League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

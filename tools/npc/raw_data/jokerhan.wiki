@@ -1,0 +1,38 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=JokerHan&redirects=1
+<!-- 抓取: 2026-08-16T16:39:19.977Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=JokerHan
+|autoPI=Yes
+|image=
+|name=謝瀚陞
+|romanized_name=Hsieh Han-sheng
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Mid,
+|role3=
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table|player=JokerHan}}
+
+==Awards==
+{{player awards table|player=JokerHan}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

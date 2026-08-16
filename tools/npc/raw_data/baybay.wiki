@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Baybay&redirects=1
+<!-- 抓取: 2026-08-16T15:33:43.680Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=baybay
+|autoPI=Yes
+|image=GRX baybay 2018Worlds.jpg
+|name=王佑軍
+|romanized_name=Wang You-chun
+|familyname=Wang
+|givenname=You-chun
+|birth_date=1997-11-29
+|country=Taiwan
+|status=active
+|roles=jungle
+|bestgg=baybay
+}}
+
+==Achievements==
+{{player achievements table|player=baybay}}
+
+==Awards==
+{{player awards table|player=baybay}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

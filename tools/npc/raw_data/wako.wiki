@@ -1,0 +1,48 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wako&redirects=1
+<!-- 抓取: 2026-08-16T17:13:07.781Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Wako
+|autoPI=Yes
+|image=PSG Wako Worlds 2023.jpg
+|name=鄒惟洋
+|romanized_name=Tsou Wei-yang
+|familyname=Tsou
+|givenname=Wei-yang
+|birth_date=1998-07-31
+|country=Taiwan
+|status=Retired
+|retired=2025-07-04
+|roles=Bot,mid
+|ids=zHou, SuwaKo
+|twitch=gcobc24157
+|instagram=
+|facebook=ahqWako
+|factor=139
+|weibo=u/7968011602
+|champion=Corki
+|champion2=Zed
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Wako}}
+
+==Awards==
+{{player awards table|player=Wako}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+AHQ Wako Worlds 2019.jpg|Wako at [[World Championship/2019|Worlds 2019]]. 
+Wako_Worlds_2022.jpg|Wako at [[World Championship/2022|Worlds 2022]]. 
+PSG Wako MSI 2023.jpg|Wako at [[MSI 2023]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

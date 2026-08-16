@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=GarnetDevil&redirects=1
+<!-- 抓取: 2026-08-16T16:34:14.105Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|heroes=GarnetDevil|honorofkings=GarnetD}}
+{{Person Tabs|player=true}}
+{{Infobox player
+|id=GarnetDevil
+|image=AHQ GarnetDevil Worlds 2014.jpg
+|name=賴翊銘
+|romanized_name=Lai Yi-meng 
+|familyname=Lai
+|givenname=Yi-meng 
+|birth_date=1988-02-29
+|country=Taiwan
+|team=
+|autoPI=Yes
+|status=Retired
+|roles=adc,jungle
+|twitch=
+|facebook=GarnetDevil
+|twitter=
+|bestgg=
+|youtube=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=GarnetDevil}}
+
+==Awards==
+{{player awards table|player=GarnetDevil}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

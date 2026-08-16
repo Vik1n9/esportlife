@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ysera&redirects=1
+<!-- 抓取: 2026-08-16T18:10:58.278Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Liquipedia links|wildrift=Ysera}}
+{{Infobox player
+|id=Ysera
+|image=ahq Ysera Worlds 2019.jpg
+|name=汪宗志
+|romanized_name=Wang Tsung-chih
+|familyname=Wang
+|givenname=Tsung-chih
+|autoPI=Yes
+|birth_date=1997-03-02
+|country=Taiwan
+|team=
+|status=retired
+|roles=support
+|twitch=chawy
+|facebook=Y5era
+|twitter=
+|bestgg=ysera
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Ysera}}
+
+==Awards==
+{{player awards table|player=Ysera}}
+
+==Media==
+{{Player Media}}
+
+==Trivia==
+* He is now a professional player on Wild Rift.
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Feng55&redirects=1
+<!-- 抓取: 2026-08-16T15:49:49.752Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Feng55
+|autoPI=Yes
+|image=
+|name=林修遠	
+|romanized_name=Lin Hsiu-Yuan
+|familyname=Lin
+|givenname=Hsiu-Yuan
+|birth_date=1998-01-11
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Support
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Feng55}}
+
+==Awards==
+{{player awards table|player=Feng55}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

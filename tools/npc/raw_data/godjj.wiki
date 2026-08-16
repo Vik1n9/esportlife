@@ -1,0 +1,31 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=GoDJJ&redirects=1
+<!-- 抓取: 2026-08-16T15:57:15.468Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=GoDJJ
+|autoPI=Yes
+|image=
+|name=王永傑
+|romanized_name=Wang Yung-chieh
+|birth_date=1994-07-07
+|country=Taiwan
+|status=Active
+|roles=bot
+|youtube=GodJJ
+|facebook=GodJJLOL
+|twitch=GodJJ
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=GoDJJ}}
+
+==Awards==
+{{player awards table|player=GoDJJ}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

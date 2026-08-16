@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Lacunae&redirects=1
+<!-- 抓取: 2026-08-16T16:19:43.271Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=Lacunae
+|autoPI=Yes
+|image=
+|name=黃頊宸
+|romanized_name=Huang Xu-chen
+|familyname=Huang
+|givenname=Xu-chen
+|birth_date=
+|country=Taiwan
+|country2=
+|status=Active
+|roles=Top,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table|player=Lacunae}}
+
+==Awards==
+{{player awards table|player=Lacunae}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

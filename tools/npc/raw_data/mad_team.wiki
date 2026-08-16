@@ -1,0 +1,57 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=MAD%20Team&redirects=1
+<!-- 抓取: 2026-08-16T15:15:53.797Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|honorofkings=MAD Team}}
+{{Team Tabs}}
+{{Infobox team
+|name=MAD Team
+|location=Taiwan
+|location2=
+|region=taiwan
+|image=MAD Team full lightmode.png
+|imagedark=MAD Team full darkmode.png
+|website=http://www.madteam.com.tw/
+|twitter=
+|facebook=MadTeam.club
+|youtube=channel/UCuvMZDJMHW3LEdzPREMMWpA
+|instagram=madteam_official
+|twitch=
+|fanclub=
+|created=2017-11-29
+|disbanded=2019-12-18
+}}
+'''MAD Team''' (abbreviated MAD) was a professional esports based in [[:Category:Taiwan|Taiwan]].
+
+'''MAD Team''' disbanded on December 18, 2019 after not being selected for the [[PCS/2020/Spring|PCS 2020]] season. <ref name="MAD disband">{{cite web |url=https://www.facebook.com/MadTeam.club/posts/740026319840768 |title=MAD Team League of Legends Announcement |date=2019-12-18 |author='''MAD Team'''|language={{Flag|tw}}}}</ref>
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=|flag=hk|name=Shawn Yue Man-lok|role=Owner|joindate=2017-11-29}}
+}}
+
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Paul|name=Sun Pu-sheng|joindate=2017-11-29}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=MAD Team}}
+|name2=Recent Matches |content2={{Team recent matches table|team=MAD Team}}
+}}
+
+==Awards==
+{{Team awards table|team=MAD Team}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

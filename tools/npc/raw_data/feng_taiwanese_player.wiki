@@ -1,0 +1,44 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Feng%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:33:50.232Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Feng}}
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=Feng
+|autoPI=Yes
+|image=DCG Feng at MSI 2026.jpg
+|name=陳駿豐
+|romanized_name=Chen Chun-feng
+|familyname=Chen
+|givenname=Chun-feng
+|birth_date=2003-08-13
+|country=Taiwan
+|status=active
+|roles=adc
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+DCG Feng at the LCP 2026 Promotion.jpg|[[Deep Cross Gaming | DCG]] Feng at the [[LCP/2026/Promotion|LCP 2026 Promotion]]
+</gallery>
+
+==References==
+{{Reflist}}
+{{Player team roster}}

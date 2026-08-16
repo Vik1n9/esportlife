@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Husky&redirects=1
+<!-- 抓取: 2026-08-16T16:02:49.273Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Husky
+|autoPI=Yes
+|image=
+|name=黃錦誠
+|romanized_name=Huang Chin-cheng 
+|familyname=Huang
+|givenname=Chin-cheng 
+|birth_date=1999-08-27
+|country=Taiwan
+|team=
+|status=active
+|roles=mid
+|ids=
+|twitch=
+|twitter=
+|bestgg=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Husky}}
+
+==Awards==
+{{player awards table|player=Husky}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

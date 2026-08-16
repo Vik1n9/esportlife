@@ -1,0 +1,50 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Empt2y&redirects=1
+<!-- 抓取: 2026-08-16T15:47:55.346Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|player=true|coach=true}}
+{{Infobox player
+|id=Empt2y
+|image=G-Rex Empt2y 2018Worlds.jpg
+|name=梁子皞
+|romanized_name=Anson Leung Tsz Ho
+|familyname=Leung
+|givenname=Anson
+|autoPI=Yes
+|nonameflip=true
+|birth_date=1997-07-15
+|country=Hong Kong
+|country2=Canada
+|team=
+|status=retired
+|roles=jungle,coach
+|ids=0414, Empt2, WithCoRong
+|twitter=
+|bestgg=empt2y
+|reddit=
+|champion=Nidalee
+|champion2=Elise
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{tabs dynamic
+|name1=Coach
+|name2=Player
+|This=2
+}}
+{{tabs dynamic/tab|1}}
+{{Coach achievements table|coach=Empt2y}}
+{{tabs dynamic/tab|2}}
+{{player achievements table|player=Empt2y}}
+{{tabs dynamic/end}}
+
+
+==Awards==
+{{player awards table|player=Empty2}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

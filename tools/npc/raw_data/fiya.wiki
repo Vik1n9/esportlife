@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Fiya&redirects=1
+<!-- 抓取: 2026-08-16T15:49:54.382Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Fiya
+|autoPI=Yes
+|image=
+|name=Keung Win Lok 
+|familyname=Keung|givenname=Win Lok
+|birth_date=
+|country=Hong Kong
+|country2=
+|status=Active
+|roles=Jungle,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+}}
+
+==Achievements==
+{{player achievements table|player=Fiya}}
+
+==Awards==
+{{player awards table|player=Fiya}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

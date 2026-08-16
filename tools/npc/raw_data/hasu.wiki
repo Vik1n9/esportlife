@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Hasu&redirects=1
+<!-- 抓取: 2026-08-16T15:57:36.475Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Hasu
+|ids=Hasu7
+|autoPI=Yes
+|image=
+|name=洪秉佑
+|romanized_name=Hung Ping-yu
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Top,,
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table|player=Hasu}}
+
+==Awards==
+{{player awards table|player=Hasu}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

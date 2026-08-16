@@ -1,0 +1,29 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ch1chi&redirects=1
+<!-- 抓取: 2026-08-16T15:40:41.679Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Ch1chi
+|autoPI=Yes
+|image=
+|name=Hsu Chia-chi
+|familyname=Hsu
+|givenname=Chia-chi
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Top
+|twitter=Ch1Chi_lol
+}}
+
+==Achievements==
+{{player achievements table|player=Ch1chi}}
+
+==Awards==
+{{player awards table|player=Ch1chi}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

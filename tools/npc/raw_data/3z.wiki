@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=3z&redirects=1
+<!-- 抓取: 2026-08-16T15:28:05.246Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=3z
+|autoPI=Yes
+|image=HKA 3z 2019 Worlds.jpg
+|name=陳翰
+|romanized_name=Chen Han
+|familyname=Chen
+|givenname=Han
+|birth_date=1996-12-30
+|country=Taiwan
+|status=Retired
+|roles=top,Bot
+|ids=Vayn3z, Lat
+|twitch=vayn3z
+|instagram=
+|facebook=HKA3z
+|youtube=
+|twitter=
+|retired=2022-01-28
+}}
+
+==Achievements==
+{{player achievements table|player=3z}}
+
+==Awards==
+{{player awards table|player=3z}}
+
+==Media==
+{{Player Media}}
+
+
+==References==
+{{Reflist}}
+{{Player team roster}}

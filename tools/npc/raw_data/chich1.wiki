@@ -1,0 +1,27 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=ChiCh1&redirects=1
+<!-- 抓取: 2026-08-16T15:40:52.903Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=ChiCh1
+|autoPI=Yes
+|image=
+|name=吳奇軒
+|romanized_name=Wu Chi-Hsuan
+|birth_date=2002-10-23
+|country=Taiwan
+|status=Active
+|roles=Bot
+}}
+
+==Achievements==
+{{player achievements table|player=ChiCh1}}
+
+==Awards==
+{{player awards table|player=ChiCh1}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

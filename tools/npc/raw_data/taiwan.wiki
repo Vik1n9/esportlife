@@ -1,0 +1,117 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Taiwan&redirects=1
+<!-- 抓取: 2026-08-16T15:00:15.497Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/Team Taiwan}}
+{{Team Tabs}}
+{{Infobox team
+|name=Taiwan
+|image=Flag of Taiwan.svg
+|location=Taiwan
+|location2=
+|coaches=
+|region=tw
+|sponsor=
+|website=
+|twitter=
+|instagram=
+|facebook=
+|twitch=
+|youtube=
+|created=
+|disbanded=
+|trades= 
+}}
+
+==Rosters==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=2013 Asian Indoor and Martial Arts Games
+|link=Asian_Indoor_and_Martial_Arts_Games/2013
+|image=AIMAG 4 allmode.png
+|p1=Zonda|p1flag=tw|p1team=Taipei Snipers
+|p2=Anex|p2flag=tw|p2team=Taipei Snipers
+|p3=NeXAbc|p3flag=tw|p3team=Taipei Snipers
+|p4=GoDJJ|p4flag=tw|p4team=Taipei Snipers
+|p5=MiSTakE|p5flag=tw|p5team=Taipei Snipers
+}}
+{{TeamCard
+|team=7th Esports World Championship
+|link=IeSF/Esports_World_Championship/2015
+|image=7th eSports World Championship.jpg
+|p1=Beat|p1flag=tw|p1team=|p1link=Beat (Taiwanese player)
+|p2=Ratis|p2flag=tw|p2team=
+|p3=Wuji|p3flag=tw|p3team=
+|p4=Rabi|p4flag=tw|p4team=
+|p5=Zero|p5flag=tw|p5team=|p5link=Zero (Taiwanese player)
+}}
+{{TeamCard
+|team=9th Esports World Championship
+|link=IeSF/World Championship/2017
+|image=IeSF_2017-Icon.png
+|p1=Zod|p1flag=tw|p1team=
+|p2=Ray|p2flag=tw|p2team=|p2link=Ray (Taiwanese player)
+|p3=Lemon|p3flag=tw|p3team=
+|p4=Hana|p4flag=tw|p4team=
+|p5=Chasel|p5flag=tw|p5team=
+|c=|cflag=
+}}
+{{TeamCard
+|team=Asian Games 2018
+|link=Asian_Games/2018
+|image=Asiangameslogo.png
+|p1=PK|p1flag=tw|pos1=top|p1team=g-rex
+|p2=baybay| p2flag=tw|pos2=jg|p2team=g-rex
+|p3=Morning|p3flag=tw|pos3=jg|p3team=fw
+|p4=Maple|p4flag=tw|pos4=mid|p4team=fw
+|p5=Betty|p5flag=tw|pos5=ad|p5team=fw
+|p6=SwordArT|p6flag=tw|pos6=sup|p6team=fw
+|c=Warhorse|cflag=tw|cteam=fw
+}}
+{{TeamCard
+|team=10th Esports World Championship
+|link=IeSF/World Championship/2018
+|image=IeSF 2018 icon allmode.png
+|p1=MiMiLucky|p1flag=tw|pos1=top |p1team=
+|p2=Daper|p2flag=tw|pos2=jg |p2team=
+|p3=JeffeRy0821|p3flag=tw|pos3=jg |p3team=
+|p4=BeBe|p4flag=tw|pos4=mid |p4team=
+|p5=Yursan|p5flag=tw|pos5=ad |p5team=
+|c=Backstairs|cflag=tw
+}}
+{{TeamCard
+|team=2022 Road to Asian Games
+|link=Road_to_Asian_Games/2022/East_Asia
+|image=Road to Asian Games 2022 lightmode.png
+|p1=Azhi|p1flag=tw |p1team=psgt|pos1=Top
+|p2=JunJia|p2flag=tw |p2team=psgt|pos2=Jungle
+|p3=Maple|p3flag=tw |p3team=psgt|pos3=Mid
+|p4=Wako|p4flag=tw |p4team=psgt|pos4=ADC
+|p5=Woody|p5flag=tw |p5team=psgt|pos5=Support
+
+|c=CorGi|cflag=tw|cteam=psgt
+|c2=Zero|c2flag=tw|c2team=psgt
+}}
+{{TeamCard
+|team=Asian Games 2022
+|link=Asian_Games/2022
+|image=ASIAD 19.png
+|p1=Rest|p1flag=tw |p1team=CFO|pos1=Top
+|p2=Hanabi|p2flag=tw |p2team=Deep Cross Gaming|pos2=Top
+|p3=Karsa|p3flag=tw |p3team=Weibo Gaming|pos3=Jungle
+|p4=FoFo|p4flag=tw |p4team=EDG|pos4=Mid
+|p5=Doggo|p5flag=tw |p5team=UP|pos5=ADC
+|p6=SwordArt|p6flag=tw |p6team=UP|pos6=Support
+|c=WarHorse|cflag=tw|cteam=WE
+}}
+{{TeamCard columns end}}
+
+==Achievements==
+{{Team achievements table|team=Taiwan}}
+==Recent Matches==
+{{Team recent matches table|team=Chinese Taipei}}
+
+==Additional Content==
+
+==References==
+{{Reflist}}
+<br>

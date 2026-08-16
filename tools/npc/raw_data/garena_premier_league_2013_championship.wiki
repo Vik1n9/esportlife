@@ -1,0 +1,167 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Garena%20Premier%20League%2F2013%2FChampionship&redirects=1
+<!-- 抓取: 2026-08-16T15:50:11.644Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Garena Premier League 2013 Championship}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-12-14
+}}
+{{Garena Premier League Navbox}}
+{{GPL 2013 Tabs}}
+{{Tournament Tabs 3}}
+{{Infobox league
+|name=Garena Premier League 2013 Championship
+|tickername=GPL 2013 Championship
+|shortname=2013 Championship
+|series=GPL
+|image=Old GPL Logo.png
+|icon=Old GPL Logo.png
+|organizer=Garena
+|sponsor=
+|patch=
+|epatch=
+|type=Offline
+|country=Taiwan
+|city=
+|venue=
+|format=
+|prizepoolusd=52,000
+|date=2013-08-29
+|liquipediatier=2
+|highlighted=|rulebook=
+|website=http://2015.lms.garena.tw/
+|stream=
+|youtube=
+|twitch=
+|twitch2=
+|team_number=2
+|previous=GPL/2013/Summer{{!}}2013 Summer
+|next=Garena_Premier_League/2014/Winter{{!}}2014 Winter
+}}
+The '''Garena Premier League 2013 Championship''' was the final event of the [[Garena Premier League]] ('''GPL''') 2013 season, held offline in Taiwan on August 29, 2013. The tournament featured a total prize pool of $52,000 {{Abbr/USD}} and brought together the champions of the Spring and Summer splits to determine the overall GPL champion for the year. The Championship was contested as a single best-of-three match. [[Taipei Assassins]] qualified by winning the Spring split, while [[ahq e-Sports Club]] earned their spot as the Summer split champion. The winner of the match was crowned the GPL champion for the 2013 season.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=|import=true
+|{{Slot|place=1|usdprize=50,000}}
+|{{Slot|place=2|usdprize=2,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Taipei Assassins
+|flag=tw
+|p1=Achie
+|p2=Sarsky|p2flag=tw
+|p3=BeBe
+|p4=DinTer
+|p5=Jay|p5link=Jay (Taiwanese player)
+|qualifier=[[GPL/2013/Spring|Spring]]
+}}
+{{TeamCard
+|team=ahq eSports Club
+|flag=tw
+|p1=Prydz
+|p2=GarnetDevil
+|p3=Westdoor
+|p4=MrAlbis
+|p5=GreenTea
+
+|qualifier=[[GPL/2013/Summer|Summer]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{SingleMatch|id=LBZtR0jwaJ
+|{{Match|patch=
+    |opponent1={{TeamOpponent|ahq|score=}}
+    |opponent2={{TeamOpponent|tpa|score=}}
+    |date=2013-08-29 07:00 {{Abbr/CEST}}
+    |twitch= |youtube=
+    |reddit= |gol=
+    |mvp=
+    |vodgame1=https://youtu.be/UvV3MbHrMfo
+    |vodgame2=https://youtu.be/7vJ8HzBnPcs
+    |map1={{Map
+        |team1side=blue
+        |t1c1=zac |t1c2=elise |t1c3=gragas |t1c4=caitlyn |t1c5=thresh
+        |t1b1=ryze |t1b2=vayne|t1b3=ahri
+        |team2side=red
+        |t2c1=shen |t2c2=lee sin |t2c3=corki |t2c4=twitch |t2c5=annie
+        |t2b1=zed |t2b2=fizz |t2b3=evelynn
+        |length= |winner=1
+    }}
+    |map2={{Map
+        |team1side=red
+        |t1c1=singed |t1c2=elise |t1c3=gragas |t1c4=ezreal |t1c5=sona
+        |t1b1=ryze |t1b2=thresh|t1b3=ahri
+        |team2side=blue
+        |t2c1=zac |t2c2=vi |t2c3=orianna |t2c4=varus |t2c5=nami
+        |t2b1=zed |t2b2=fizz |t2b3=evelynn
+        |length= |winner=1
+    }}
+    |map3={{Map
+        |length= |winner=skip
+    }}
+}}
+}}
+
+==Format==
+* '''Championship'''
+** Single Match {{Abbr/Bo3}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=
+|lang2=tw |youtube2=
+|lang3=vn |youtube3=
+|lang4=th |youtube4=
+|lang5=my |youtube5=
+|lang6=ph |youtube6=
+|lang7=sg |youtube7=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+==Additional Data==
+===Statistics===
+{{#lst:Garena Premier League/2013/Championship/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=Garena Premier League|limit=10|playerspage=Garena_Premier_League/2013/Championship|edate=2013-09-01}}
+:''See [[Garena Premier League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,46 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wind%20(Lai%20Chap-yin)&redirects=1
+<!-- 抓取: 2026-08-16T17:41:37.827Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{for|the Danish player|Wind (Danish player)}}
+{{for|the Korean player|Wind (Korean player)}}
+{{for|the other Hong Kong player, Lee Chi-wa|Wind (Lee Chi-wa)}}
+{{Person Tabs}}
+{{Infobox player
+|id=Wind
+|image=
+|name=賴集賢
+|romanized_name=Lai Chap Yin
+|givenname=Chap Yin
+|familyname=Lai
+|autoPI=Yes
+|birth_date=
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=jungle
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Wind (Lai Chap-yin)}}
+
+==Awards==
+{{player awards table|player=Wind (Lai Chap-yin)}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

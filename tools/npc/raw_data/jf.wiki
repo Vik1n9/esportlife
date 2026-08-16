@@ -1,0 +1,35 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=JF&redirects=1
+<!-- 抓取: 2026-08-16T16:04:30.688Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=JF
+|image=
+|name=趙鴻樂
+|romanized_name=Chio Hong Loc
+|birth_date=1997-04-19
+|country=Macau
+|team=
+|status=retired
+|roles=top
+|twitch=
+|ids=
+|twitter=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+
+}}
+Chio '''"JF"''' Hong Loc is a [[:Category:Macau|Macanese]] player who was recently the Toplaner for [[Ares Gaming]].
+
+==Achievements==
+{{player achievements table|player=JF}}
+
+==Awards==
+{{player awards table|player=JF}}
+
+==Media==
+{{Player Media}}
+
+==References==

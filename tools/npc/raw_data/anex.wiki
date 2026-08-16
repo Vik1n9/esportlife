@@ -1,0 +1,39 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Anex&redirects=1
+<!-- 抓取: 2026-08-16T15:30:15.706Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Anex
+|autoPI=Yes
+|image=AHQ AN Worlds 2015.jpg
+|name=周俊諳
+|romanized_name=Chou Chun-an
+|familyname=Chou
+|givenname=Chun-an
+|birth_date=1994-10-20
+|country=Taiwan
+|status=retired
+|retired=2023-06-18
+|roles=Bot,mid,jungle
+|twitch=An_lol
+|ids=OhReaL, AN, An
+|facebook=Ohreallol
+|bestgg=an
+}}
+
+==Achievements==
+{{player achievements table|player=An}}
+
+==Awards==
+{{player awards table|player=An}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+Ahq AN at IEM Taipei 2015.jpg|AN at [[Intel_Extreme_Masters/Season_IX/Taipei|IEM Season IX - Taipei]] with [[ahq e-Sports Club]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

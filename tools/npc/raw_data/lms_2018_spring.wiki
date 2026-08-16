@@ -1,0 +1,255 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2018%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:17:47.068Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2018 Spring }}
+{{Garena Taiwan Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=LMS/2018/Spring
+|name2=Group Stage
+|link2=LMS/2018/Spring/Group_Stage
+|name3=Playoffs
+|link3=LMS/2018/Spring/Playoffs
+|name4=Promotion
+|link4=LMS/Summer/2018/Promotion
+|This=1}}
+{{Infobox league
+|name=LMS 2018 Spring 
+|shortname=2018 Spring 
+|tickername=LMS Spring 2018
+|image=LMS_Logo.png
+|series=LMS
+|icon=LMS_Logo.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=
+|epatch=
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|country2=Macau
+|venue=Garean E-sports Studio|venuedesc=<small>Regular Season & Playoffs</small>
+|venue2=Studio City Arena|venue2link=https://www.studiocity-macau.com/en/entertainment/studio-city-event-center|venue2desc=<small>Grand Final</small>
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=101,698.92
+|localcurrency=twd
+|prizepool=3,000,000
+|date=
+|sdate=2018-01-20
+|edate=2018-04-22
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/esport/lms/documents/2018%20%20LMS%20%E6%98%A5%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20V0119.pdf
+|website=http://2018.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=8
+|previous=LMS/2017/Summer{{!}}Summer 2017
+|next=LMS/2018/Summer{{!}}Summer 2018
+}}
+
+==Overview==
+===Format===
+* 8 teams
+* Double round robin
+* Matches are best-of-three
+* 1st place gets seeded to the finals
+** 2nd place gets seeded to the semifinals
+** 3rd and 4th qualify to the playoffs
+** 5th, 6th and 7th retain their league spot for the [[LMS/2018/Summer|Summer Split]]
+* Last place team plays in the [[LMS/2018/Summer/Promotion|Summer Promotion]]
+* Top 4 qualifies for [[Rift Rivals/2018/LCK-LMS-LPL|Rival Rivals 2018 - LCK vs LMS vs LPL]]
+* Winner qualifies for [[Mid_Season_Invitational/2018|Mid Season Invitational 2018]]
+
+===Broadcast Talent===
+
+===Prize Pool===
+NT$3,000,000 {{Abbr/NTD}} are spread among the teams as seen below:
+{{prize pool start|points=lms2018|points2=seed|points3=seed|localcurrency=ntd|cutafter=10}}
+{{prize pool slot |place=1 |points=90|points2=[[LMS/2018/Summer|LMS Summer]] |points3=[[Mid_Season_Invitational/2018|MSI 2018]] |usdprize=50,849.46|localprize=1,500,000|fw|lastvs1=g-rex|lastscore1=3|lastvsscore1=0 |date1=2018-04-22 }}
+{{prize pool slot |place=2 |points=70|points2=[[LMS/2018/Summer|LMS Summer]] |usdprize=20,339.78|localprize=600,000|g-rex|lastvs1=fw|lastscore1=0|lastvsscore1=3|date1=2018-04-22 }}
+{{prize pool slot |place=3 |points=50|points2=[[LMS/2018/Summer|LMS Summer]] |usdprize=13,559.86|localprize=400,000|mad team|lastvs1=g-rex|lastscore1=0|lastvsscore1=3|date1=2018-04-15 }}
+{{prize pool slot |place=4 |points=30|points2=[[LMS/2018/Summer|LMS Summer]] |usdprize=6,779.93|localprize=200,000|machi esports|lastvs1=mad team|lastscore1=1|lastvsscore1=3|date1=2018-04-14 }}
+{{prize pool slot |place=5 |points=10|points2=[[LMS/2018/Summer|LMS Summer]]|usdprize=4,067.96|localprize=120,000|j team|wdl1=6/8|date1=2018-04-01}}
+{{prize pool slot |place=6 |points=10|points2=[[LMS/2018/Summer|LMS Summer]]|usdprize=2,711.97|localprize=80,000|ahq|wdl1=5/9|date1=2018-04-01}}
+{{prize pool slot |place=7 |points=0|points2=[[LMS/2018/Summer|LMS Summer]]|usdprize=1,694.98|localprize=50,000|hong kong attitude|wdl1=3/11|date1=2018-04-01}}
+{{prize pool slot |place=8 |points=0|points2=[[LMS/2018/Summer/Promotion|Promotion]]|usdprize=1,694.98|localprize=50,000|team afro|wdl1=3/11|date1=2018-04-01}}
+{{Prize pool end}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=9|margin=false}}
+{{prize pool slot award|award=Group Stage MVP |PK|flag1=tw |team1=g-rex |date=2018-04-01}}
+{{prize pool slot award|award=Rookie of the Split |Moojin |flag1=kr |team1=fw |date=2018-04-15}}
+{{prize pool slot award|award=Coach of the Split |Toyz |flag1=hk |team1=g-rex |date=2018-04-15}}
+{{prize pool slot award|award=Most Improved |wuji |flag1=tw |team1=g-rex |date=2018-04-15}}
+{{prize pool slot award|award=All-Pro Team  |date=2018-04-15
+|PK |flag1=tw |team1=g-rex 
+|Moojin |flag2=kr |team2=fw
+|Maple (Taiwanese player){{!}}Maple |flag3=tw |team3=fw
+|Betty |flag4=tw |team4=fw
+|Koala (Taiwanese player){{!}}Koala |flag5=tw |team5=g-rex 
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===MVP Table===
+{{MVPTable|useSmw=true  |cutafter=4 |margin=false
+|title=Group Stage MVP
+|tournament=LMS/2018/Spring/Group Stage
+}}
+<!--
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true 
+|title=Playoffs MVP
+|tournament=LMS/2018/Spring/Playoffs
+}}
+-->
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|image=Ahq_logo.png
+|p1=Ziv|p1flag=tw |p1link=Ziv (Taiwanese player)
+|p2=Mountain|p2flag=tw
+|p3=Wako|p3flag=tw
+|p4=AN|p4flag=tw
+|p5=LBB|p5flag=tw|pos5=adc
+|p6=Tuna|p6flag=tw|pos6=Support
+|c=Domo|cflag=tw
+|c2=|c2flag=
+|qualifier=[[LMS/Summer/2017|Summer 2017]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|image=Flash wolves logo.png
+|p1=Hanabi|p1flag=tw
+|p2=MMD|p2flag=tw|pos2=top
+|p3=Moojin|p3flag=kr|pos3=jungle
+|p4=Morning|p4flag=tw|pos4=jungle
+|p5=Maple|p5flag=tw|pos5=mid|p5link=Maple (Taiwanese player)
+|p6=Atlen|p6flag=tw|pos6=adc
+|p7=Betty|p7flag=tw|pos7=adc
+|p8=ShiauC|p8flag=tw|pos8=Support
+|p9=SwordArt|p9flag=tw|pos9=Support
+|c=WarHorse|cflag=tw
+|c2=|c2flag=
+|qualifier=[[LMS/Summer/2017|Summer 2017]]
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|image=
+|link=Hong Kong Esports/Hong Kong Attitude
+|p1=Riris|p1flag=kr
+|p2=Gemini|p2flag=tw |pos2=jg
+|p3=Nova|p3flag=kr |pos3=jg|p3link=Nova (Kim Dong-hyeon)
+|p4=Chawy|p4flag=sg |pos4=mid
+|p5=Gear|p5flag=hk|pos5=mid
+|p6=Unified|p6flag=hk|pos6=adc
+|p7=Kaiwing|p7flag=hk|pos7=support
+|p8=Destiny|p8flag=kr|pos8=support|p8link=Destiny (Korean player)
+|c=Tabe|cflag=hk
+|c2=|c2flag=
+|qualifier=[[LMS/Summer/2017|Summer 2017]]
+}}
+{{TeamCard
+|team=J Team
+|image=
+|p1=Rest|p1flag=tw
+|p2=Alex|p2flag=tw
+|p3=Breaker|p3flag=tw|pos3=jungle
+|p4=Hana|p4flag=tw|pos4=jungle
+|p5=FoFo|p5flag=tw|pos5=mid
+|p6=Lilv|p6flag=tw|pos6=adc
+|p7=Ysera|p7flag=tw|pos7=support
+|p8=Woody|p8flag=tw|pos8=support
+|c=Ysera|cflag=tw
+|qualifier=[[LMS/Summer/2017|Summer 2017]]
+}}
+{{TeamCard
+|team=Machi Esports
+|image=Machi_Esports_2018_logo.png
+|p1=3z|p1flag=tw
+|p2=Move|p2flag=kr
+|p3=Taizan|p3flag=tw|pos3=jungle
+|p4=Apex|p4flag=tw|pos4=mid
+|p5=CorGi|p5flag=tw|pos5=adc
+|p6=Deul|p6flag=kr|pos6=adc
+|p7=Dreamer|p7flag=tw|pos7=support
+|c=Lo Kang-Ming|cflag=tw
+|qualifier=[[LMS/Summer/2017|Summer 2017]]
+}}
+{{TeamCard
+|team=G-Rex
+|notes=1
+|p1=PK|p1flag=tw
+|p2=Empt2y|p2flag=ca
+|p3=baybay|p3flag=tw|pos3=jungle
+|p4=Candy |p4link=Candy (Korean player) |p4flag=kr|pos4=mid
+|p5=wuji|p5flag=tw|pos5=mid
+|p6=Stitch|p6flag=kr|pos6=adc
+|p7=Koala|p7flag=tw|pos7=support|p7link=Koala (Taiwanese player)
+|c=Toyz|cflag=hk
+|qualifier=[[LMS/Summer/2017|Summer 2017]]
+}}
+{{TeamCard
+|team=Team Afro
+|image=Team_Afro.png
+|notes=3
+|p1=Exciting|p1flag=tw
+|p2=Ninuo|p2flag=tw|pos2=top
+|p3=Epic|p3flag=hk|pos3=jungle
+|p4=CooN|p4flag=kr|pos4=mid
+|p5=CaiPi|p5flag=tw|pos5=mid
+|p6=Dalka|p6flag=kr|pos6=adc
+|p7=Zest|p7flag=tw|pos7=support
+|c=Yo|cflag=tw
+|qualifier=[[LMS/Spring/2018/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=MAD Team
+|image=
+|notes=2
+|p1=Liang|p1flag=tw
+|p2=Benny|p2flag=tw|p2link=Benny (Taiwanese player)
+|p3=Kongyue|p3flag=tw|pos3=jungle
+|p4=Uniboy|p4flag=tw|pos4=mid
+|p5=Rock|p5flag=tw|pos5=adc|p5link=Rock (Taiwanese player)
+|p6=Breeze|p6flag=tw|pos6=adc
+|p7=K|p7flag=tw|pos7=support
+|c=GreenTea|cflag=tw
+|qualifier=[[LMS/Spring/2018/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+*<sup>1</sup> <small> September 15th - [[Raise Gaming]] is replaced by [[G-Rex]]<ref name="【LMS 職業聯賽】聯盟公告：英皇電競動力接手 RG 2018 春季賽經營權">{{cite web|url=http://lms.garena.tw/news/content/3132|date=2017-09-15|title=【LMS 職業聯賽】聯盟公告：英皇電競動力接手 RG 2018 春季賽經營權|publisher=Garena.tw}}</ref></small>
+*<sup>2</sup> <small> November 29th - [[ahq Fighter]] is replaced by [[MAD Team]]<ref name="Roster Announcement">{{cite web|url=https://www.facebook.com/MadTeam.club/photos/a.295026821007389.1073741829.288554201654651/294768397699898/?type=3|title=瘋狂電競有限公司 (MAD CREW ESPORT LTD.) 新聞稿|author=|publisher=MAD Team|date=2017-11-29|language={{Flag|tw}}}}</ref></small>
+*<sup>3</sup> <small> December 15th - [[Wayi Spider]] is replaced by [[Team Afro]]<ref name="Team Afro">{{cite web|url=https://game.ettoday.net/article/1073386.htm|title=新《英雄聯盟》戰隊成立！Yo領軍TEAM AFRO衝擊明年LMS|author=|publisher=|date=2017-12-15|language={{Flag|tw}}}}</ref></small>
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LMS/2018/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LMS/2018/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LMS/2018/Spring/Playoffs|Playoffs}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=LOLTW2
+}}
+
+==External links==
+
+==References==
+{{Reflist}}

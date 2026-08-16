@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Killer%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T16:12:02.595Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Killer
+|autoPI=Yes
+|image=
+|name=張正昱
+|romanized_name=Chang Cheng-yu
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Jungle,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

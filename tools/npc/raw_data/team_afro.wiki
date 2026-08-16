@@ -1,0 +1,65 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Team%20Afro&redirects=1
+<!-- 抓取: 2026-08-16T15:17:41.318Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|team afro}}
+|name2={{Team|afro beast}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Team Afro
+|location=Taiwan
+|location2=
+|region=tw
+|image=Team_Afro.png
+|website=
+|twitter=teamafrogaming
+|facebook=AFROGAMING.TW/
+|youtube=
+|vk=
+|twitch=
+|fanclub=
+|sponsor=
+|created=2017-12-14
+|disbanded=2018-11-25
+|trades= 
+}}<br>
+
+'''Team Afro''' was a [[:category:Taiwan|Taiwanese]] esports organization.
+
+On November 25th, 2018 '''Team Afro''' disbanded. <ref name="Afro Disbands">{{cite web|url=https://www.facebook.com/labalol/posts/2145473185510698|title=大家好我是LABA|author=[[Laba]]|publisher=Facebook|date=2018-11-25|language={{Flag|tw}}}}</ref>
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Mareritt|name=Yang Seong-pil|joindate=2017-12-15}}
+|{{SquadAutoRow|id=CooN|name=Park Jae-ha|joindate=2018-01-03}}
+|{{SquadAutoRow|id=Dalka|name=Park Myeong-joon|joindate=2017-12-15}}
+|{{SquadAutoRow|id=Zest|name=Hsieh Ming-hsuan|joindate=2017-12-15}}
+|{{SquadAutoRow|id=Butter|name=Li Hsien-ming|joindate=2018-06-06}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Yo|name=	Fan Chih-wei|joindate=2017-12-15}}
+}}
+
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Team Afro}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Team Afro}}
+}}
+
+==Awards==
+{{Team awards table|team=Team Afro}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}

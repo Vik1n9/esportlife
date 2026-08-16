@@ -1,0 +1,616 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2019%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:17:58.120Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2019 Spring }}
+{{Garena Taiwan Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=LMS/2019/Spring
+|name2=Group Stage
+|link2=LMS/2019/Spring/Group_Stage
+|name3=Playoffs
+|link3=LMS/2019/Spring/Playoffs
+|name4=Promotion
+|link4=LMS/2019/Summer/Promotion
+|name5=Statistics
+|link5=LMS/2019/Spring/Statistics
+|This=1}}
+{{Infobox league
+|name=LMS 2019 Spring 
+|shortname=2019 Spring 
+|tickername=LMS Spring 2019
+|image=LMS_Logo.png
+|series=LMS
+|icon=Lmslogo_small.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=9.1
+|epatch=9.7
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=Garena E-Sports Stadium
+|format='''Group Stage'''<br>Double Round-Robin<br>'''Playoffs'''<br>Single-elimination
+|prizepoolusd=87,463
+|localcurrency=twd
+|prizepool=2,700,000
+|sdate=2019-01-17
+|edate=2019-04-20
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/esport/lms/2019/2019%20%20LMS%20%E6%98%A5%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0.pdf
+|website=https://2019.lms.garena.tw/
+|garena=LOLTW2
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|facebook=Garenalolesports
+|instagram=garena_lol_esport
+|twitch=
+|twitch2=
+|team_number=8
+|previous=LMS/2018/Summer{{!}}Summer 2018
+|next=LMS/2019/Summer{{!}}Summer 2019
+}}
+
+==Overview==
+===Format===
+*'''Group Stage'''
+** Double Round-Robin
+** All matches are {{Abbr/Bo3}}
+** 1st place gets seeded to the Finals
+** 2nd place gets seeded to the Semifinals
+*** 3rd and 4th qualify to the Playoffs
+*** 5th, 6th and 7th retain their league spot for the [[LMS/2019/Summer|Summer 2019]]
+*** Last place team plays in the [[LMS/2019/Summer/Promotion|Summer Promotion]]
+*'''Playoffs'''
+** Single Elimination King of the Hill.
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2019|Mid-Season Invitational 2019]].
+
+===Broadcast Talent===
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=MC|lang=tw
+|b1=Tila|b1name=|b1flag=tw
+|b2=阿樂|b2name=|b2flag=tw
+|b3=Lana|b3name=|b3flag=tw
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator|lang=tw
+|b1=Tommy|b1name=|b1flag=tw
+|b2=Section|b2name=|b2flag=tw
+|b3=Lilballz|b3name=|b3flag=tw
+|b4=Scott|b4name=|b4flag=tw
+|b5=REX|b5name=|b5flag=tw
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator|lang=tw
+|b1=Yo|b1name=|b1flag=tw
+|b2=Woody|b2name=|b2flag=tw
+|b3=Fluidwind|b3name=|b3flag=tw
+|b4=Cyo|b4name=|b4flag=tw
+|b5=EGG|b5name=|b5flag=tw
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst|lang=tw
+|b1=Albis|b1name=|b1flag=tw
+|b2=Zod|b2name=|b2flag=tw
+|b3=westdoor
+}}
+{{box|end|padding=2em}}
+
+===Prize Pool===
+NT$2,700,000 {{Abbr/TWD}} are spread among the teams as seen below:
+{{prize pool start|points=lms2019|points2=seed|points3=seed|localcurrency=ntd|cutafter=10}}
+{{prize pool slot |place=1 |points=90|points2=[[LMS/2019/Summer|LMS Summer]] |points3=[[Mid-Season Invitational/2019|MSI]]|usdprize=48,591|localprize=1,500,000|fw|lastvs1=mad|lastscore1=3|lastvsscore1=0}}
+{{prize pool slot |place=2 |points=70|points2=[[LMS/2019/Summer|LMS Summer]] |usdprize=19,436|localprize=600,000|mad|lastvs1=fw|lastscore1=0|lastvsscore1=3}}
+{{prize pool slot |place=3 |points=50|points2=[[LMS/2019/Summer|LMS Summer]] |usdprize=12,958|localprize=400,000|ahq|lastvs1=fw|lastscore1=2|lastvsscore1=3|date1=2019-04-13}}
+{{prize pool slot |place=4 |points=30|points2=[[LMS/2019/Summer|LMS Summer]] |usdprize=6,479|localprize=200,000|j team|lastvs1=ahq|lastscore1=1|lastvsscore1=3|date1=2019-04-12}}
+{{prize pool slot |place=5 |points=10|points2=[[LMS/2019/Summer|LMS Summer]]|usdprize=3,887|localprize=120,000|hka|wdl1=7/7|date1=2019-03-30}}
+{{prize pool slot |place=6 |points=10|points2=[[LMS/2019/Summer|LMS Summer]]|usdprize=2,591|localprize=80,000|g-rex|wdl1=6/8|date1=2019-03-30}}
+{{prize pool slot |place=7 |points=0|points2=[[LMS/2019/Summer|LMS Summer]]|usdprize=1,620|localprize=50,000|alpha esports|wdl1=5/9|date1=2019-03-30}}
+{{prize pool slot |place=8 |points=0|points2=[[LMS/2019/Summer/Promotion|Promotion]]|usdprize=1,620|localprize=50,000|dragon gate team|wdl1=2/12|date1=2019-03-30}}
+{{Prize pool end}}
+
+{{box|start|padding=2em}}
+<!--
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=9|margin=false}}
+{{prize pool slot award|award=MVP |tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=Rookie of the Split|tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=Best Coaching Staff|tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=Most Improved |tbd|flag1=|team1=|date=}}
+{{prize pool slot award|award=All-Pro Team  |date=
+|tbd|flag1=|team1=
+|tbd|flag2=|team2=
+|tbd|flag3=|team3=
+|tbd|flag4=|team4=
+|tbd|flag5=|team5=
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+-->
+
+===MVP Table===
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true  |cutafter=5 |margin=false
+|title=Group Stage MVP
+|tournament=LMS/2019/Spring/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true |cutafter=5 |margin=false
+|title=Playoffs MVP
+|tournament=LMS/2019/Spring/Playoffs
+}}
+{{box|end}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2018-09-16
+|edate=2019-04-01
+|team=ahq
+|team2=fw
+|team3=hka
+|team4=j team
+|team5=dragon gate team
+|team6=g-rex
+|team7=mad team
+|team8=alpha esports
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Alpha Esports
+|notes=1
+|p1=Leaky|p1flag=tw
+|p2=WSY|p2flag=cn
+|p3=CaiPi|p3flag=tw
+|p4=Xiaoemo|p4flag=cn
+|p5=SkuLL|p5flag=hk
+
+|t2p1=Gengar|t2p1flag=tw
+|t2p2=Kiwi|t2p2flag=cn
+|t2p3=DDC|t2p3flag=tw
+
+|t3p1=Kolia|t3p1flag=cn|t3pos1=coach
+|t3p2=|t3p2flag=|t3pos2=
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=Dragon Gate Team
+|notes=1
+|p1=2188|p1flag=tw
+|p2=JGY|p2flag=cn
+|p3=Moonblack|p3flag=hk
+|p4=Soul|p4flag=cn
+|p5=PaSa|p5flag=hk
+
+|t2p1=Xiaobo|t2p1flag=cn|t2pos1=adc
+|t2p2=YuLun|t2p2flag=tw|t2pos2=adc
+|t2p3=FongXiang|t2p3flag=tw|t2pos3=sup|t2p3dnp=true
+|t2p4=Do1u1u|t2p4flag=tw|t2p4dnp=true|t2pos4=support
+
+|t3p1=yoga|t3p1flag=cn|t3pos1=coach
+|t3p2=|t3p2flag=|t3pos2=
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=Hanabi|p1flag=
+|p2=Bugi|p2flag=kr
+|p3=Rather|p3flag=kr
+|p4=Betty|p4flag=
+|p5=ShiauC|p5flag=
+
+|t2p1=Enso|t2p1dnp=true|t2pos1=jg|t2p1flag=tw
+
+|t3p1=Sweet|t3p1flag=kr|t3pos1=coach
+|t3p2=MadWolf|t3p2flag=tw|t3pos2=coach
+|t3p3=Morning|t3pos3=coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=G-Rex
+|p1=PK
+|p2=Raise
+|p3=Wuji
+|p4=Bruce|p4flag=tw
+|p5=Yoon
+
+|t2p1=Epic|t2p1dnp=true|t2pos1=jg
+|t2p2=Empt2y|t2p2flag=hk|t2pos2=jgl
+|t2p3=Candy|t2p3link=Candy (Korean player)|t2p3flag=kr
+|t2p4=Atlen|t2p4flag=tw|t2pos4=adc
+|t2p5=Eason|t2p5flag=tw|t2pos5=sup
+
+|t3p1=Toyz|t3pos1=coach
+|t3p2=Wei|t3pos2=coach|t3p2link=Wei (Taiwanese player)
+|t3p3=Leo|t3p3flag=tw|t3pos3=coach|t3p3link=Leo (Taiwanese player)
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|p1=3z|p1flag=tw
+|p2=Gemini|p2flag=tw
+|p3=M1ssion|p3flag=tw
+|p4=Unified|p4flag=hk
+|p5=Kaiwing|p5flag=hk
+
+|t2p1=Crash|t2p1flag=kr|t2pos1=jgl
+|t2p2=Error|t2p2flag=mo|t2pos2=mid
+|t2p3=MnM|t2p3flag=hk|t2pos3=adc
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=Chawy|t3p1flag=sg|t3pos1=coach
+|t3p2=Skywalk|t3p2flag=tw|t3pos2=coach
+|t3p3=SoCool|t3p3flag=tw|t3pos3=coach
+|t3p4=BBTY|t3p4flag=sg|t3pos4=coach
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=J Team
+|p1=Rest|p1flag=tw
+|p2=Hana|p2flag=tw
+|p3=FoFo|p3flag=tw
+|p4=Lilv|p4flag=tw
+|p5=Koala|p5flag=tw|p5link=Koala (Taiwanese player)
+
+|t2p1=Breaker|t2p1flag=tw|t2pos1=jgl
+|t2p2=|t2p2flag=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=REFRA1N|t3p1flag=tw|t3pos1=coach
+|t3p2=Coldicee|t3p2flag=tw|t3pos2=coach
+|t3p3=Ratis|t3p3flag=tw|t3pos3=coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=MAD Team
+|p1=Liang|p1flag=tw
+|p2=Kongyue|p2flag=tw
+|p3=Uniboy|p3flag=tw
+|p4=Breeze|p4flag=tw
+|p5=K|p5flag=tw
+
+|t2p1=Rock|t2p1flag=tw|t2p1link=Rock (Taiwanese player)
+|t2p2=ฺBenny|t2p2flag=tw|t2p2link=Benny (Taiwanese player)
+|t2p3=|t2p3flag=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=Paul|t3p1flag=tw|t3pos1=coach
+|t3p2=SAFELOVE|t3p2flag=tw|t3pos2=coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2018/Summer|Summer 2018]]
+}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Ziv|p1link=Ziv (Taiwanese player)
+|p2=Baby|p2flag=kr|p2link=Baby (Korean player)
+|p3=Rainbow|p3flag=kr
+|p4=Wako|pos4=mid
+|p5=An|pos5=adc
+|p6=Kino|p6flag=tw|pos6=support
+
+|t2p1=Alex|t2p1flag=tw|t2pos1=jg
+|t2p2=Ysera|t2p2flag=tw|t2p2dnp=true|t2pos2=sup
+|t2p3=|t2p3dnp=true
+|t2p4=|t2p4dnp=true
+|t2p5=|t2p5dnp=true
+
+|t3p1=Domo|t3p1flag=tw|t3pos1=coach
+|t3p2=NeXAbc|t3p2flag=tw|t3pos2=coach
+|t3p3=Zero|t3p3flag=tw|t3pos3=analyst|t3p1link=Zero (Taiwanese player)
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|qualifier=[[LMS/2019/Spring/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+{{note15|nobox=y
+|n1=[[Team Afro]]'s spot is acquired by [[Dragon Gate Team]] and [[Machi Esports]]' spot is acquired by [[Alpha Esports]].<ref name="Dragon Gate Team & Alpha Esports">{{cite web|url=https://2018.lms.garena.tw/news/content/3346|title=【LMS 職業聯賽】2019 LMS 春季賽戰隊參賽權轉移公告|date=2018-11-29|author=|publisher=LMS Garena}}</ref>
+}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LMS/2019/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LMS/2019/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=41Y04V6O1S}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:LMS/2019/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=LOLTW2
+|lang4=tw |facebook4=Garenalolesports/
+}}
+===Videos===
+*{{ExternalMediaLink
+|mediatype=video
+|date=2019-01-17
+|link=https://youtu.be/jOtP7jTSgG8
+|title=《LOL》2019 LMS 春季職業聯賽片頭
+|by=Garena eSports
+|language=tw
+}}
+
+===Full Day Streams===
+{{tabs dynamic
+|name1=Week 1
+|name2=Week 2
+|name3=Week 3
+|name4=Week 4
+|name5=Week 5
+|name6=Week 6
+|name7=Week 7
+|name8=Week 8
+|name9=Week 9
+|This=6
+}}
+{{tabs dynamic/tab|1}}
+*{{ExternalMediaLink
+|team=grx
+|team2=jt
+|team3=ahq
+|team4=mad
+|mediatype=video
+|date=2019-01-17
+|link=https://youtu.be/zG2stXl07n4
+|title=GRX vs. JT - AHQ vs. MAD - Week 1 Day 1 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=alf
+|team2=dragon gate team
+|team3=hka
+|team4=fw
+|mediatype=video
+|date=2019-01-18
+|link=https://youtu.be/eUEFWXBPwSw
+|title=ALF vs. DG - HKA vs. FW - Week 1 Day 2 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=jt
+|team2=ahq
+|team3=fw
+|team4=mad
+|mediatype=video
+|date=2019-01-19
+|link=https://youtu.be/Vy1fXrgLHo4
+|title=JT vs. AHQ - FW vs. MAD - Week 1 Day 3 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+{{tabs dynamic/tab|2}}
+*{{ExternalMediaLink
+|team=fw
+|team2=dragon gate team
+|team3=mad
+|team4=hka
+|mediatype=video
+|date=2019-01-24
+|link=https://youtu.be/y6qfGxNnZXc
+|title=FW vs. DG - MAD vs. HKA - Week 2 Day 1 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=ahq
+|team2=g-rex
+|team3=jt
+|team4=alf
+|mediatype=video
+|date=2019-01-25
+|link=https://youtu.be/v9KeFilrhyw
+|title=AHQ vs. GRX - JT vs. ALF - Week 2 Day 2 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=dragon gate team
+|team2=g-rex
+|team3=hka
+|team4=alf
+|mediatype=video
+|date=2019-01-26
+|link=https://youtu.be/8edC0ph2cv0
+|title=DG vs. GRX - HKA vs. ALF - Week 2 Day 3 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+{{tabs dynamic/tab|3}}
+*{{ExternalMediaLink
+|team=mad team
+|team2=alf
+|team3=jt
+|team4=hka
+|mediatype=video
+|date=2019-02-14
+|link=https://youtu.be/JJueFDKWQiw
+|title=MAD vs. ALF - JT vs. HKA - Week 3 Day 1 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=g-rex
+|team2=mad
+|team3=dragon gate team
+|team4=jt
+|mediatype=video
+|date=2019-02-15
+|link=https://youtu.be/uYLqwacCE2g
+|title=GRX vs. MAD - DG vs. JT - Week 3 Day 2 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=hka
+|team2=dragon gate team
+|team3=fw
+|team4=ahq
+|mediatype=video
+|date=2019-02-16
+|link=https://youtu.be/soZP4n3hQnM
+|title=HKA vs. DG - FW vs. AHQ - Week 3 Day 3 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+{{tabs dynamic/tab|4}}
+*{{ExternalMediaLink
+|team=dragon gate team
+|team2=ahq
+|team3=grx
+|team4=fw
+|mediatype=video
+|date=2019-02-21
+|link=https://youtu.be/I4rEJw5vDbA
+|title=DG vs. AHQ - GRX vs. FW - Week 4 Day 1 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=alf
+|team2=fw
+|team3=grx
+|team4=hka
+|mediatype=video
+|date=2019-02-22
+|link=https://youtu.be/rt721m4Jyrg
+|title=ALF vs. FW - GRX vs. HKA - Week 4 Day 2 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=mad
+|team2=jt
+|team3=alf
+|team4=ahq
+|mediatype=video
+|date=2019-02-23
+|link=https://youtu.be/HxI19bldCaM
+|title=MAD vs. JT - ALF vs. AHQ - Week 4 Day 3 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+{{tabs dynamic/tab|5}}
+*{{ExternalMediaLink
+|team=alf
+|team2=grx
+|team3=mad
+|team4=dragon gate team
+|mediatype=video
+|date=2019-02-28
+|link=https://youtu.be/afUyitu-R0c
+|title=ALF vs. GRX - MAD vs. DG - Week 5 Day 1 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=ahq
+|team2=hka
+|team3=fw
+|team4=jt
+|mediatype=video
+|date=2019-03-01
+|link=https://youtu.be/uPw9ilUnAX4
+|title=AHQ vs. HKA - FW vs. JT - Week 5 Day 2 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=jt
+|team2=dragon gate team
+|team3=hka
+|team4=mad team
+|mediatype=video
+|date=2019-03-02
+|link=https://youtu.be/pQEuiwa7eT4
+|title=JT vs. DG - HKA vs. MAD - Week 5 Day 3 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+{{tabs dynamic/tab|6}}
+*{{ExternalMediaLink
+|team=ahq
+|team2=alf
+|team3=j team
+|team4=mad team
+|mediatype=video
+|date=2019-03-07
+|link=https://youtu.be/n36wdq2juXE
+|title=AHQ vs. ALF - JT vs. MAD - Week 6 Day 1 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=dragon gate team
+|team2=fw
+|team3=grx
+|team4=ahq
+|mediatype=video
+|date=2019-03-08
+|link=https://youtu.be/nOxP0d8oiA8
+|title=DG vs. FW - GRX vs. AHQ - Week 6 Day 2 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+*{{ExternalMediaLink
+|team=fw
+|team2=hka
+|team3=grx
+|team4=alf
+|mediatype=video
+|date=2019-03-09
+|link=https://youtu.be/OIttqqUTV7g
+|title=FW vs. HKA - GRX vs. ALF - Week 6 Day 3 LMS Spring Split (2019)
+|by=Garena eSports
+|language=tw
+}}
+{{tabs dynamic/tab|7}}
+
+{{tabs dynamic/tab|8}}
+
+{{tabs dynamic/tab|9}}
+
+{{tabs dynamic/end}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Wing&redirects=1
+<!-- 抓取: 2026-08-16T17:16:42.659Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Wing
+|image=
+|name=林永俊
+|romanized_name=Lam Wing Chun
+|familyname=Lam
+|givenname=Wing Chun
+|birth_date=1999-01-14
+|country=Hong Kong
+|team=
+|autoPI=Yes
+|status=active
+|roles=support
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Wing}}
+
+==Awards==
+{{player awards table|player=Wing}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

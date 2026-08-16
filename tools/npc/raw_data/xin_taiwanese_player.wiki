@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Xin%20(Taiwanese%20player)&redirects=1
+<!-- 抓取: 2026-08-16T17:18:29.976Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Xin
+|autoPI=Yes
+|image=
+|name=葉尚鑫
+|romanized_name=Ye Shang-hsin
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Jungle,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table|player=Xin (Taiwanese player)}}
+
+==Awards==
+{{player awards table|player=Xin (Taiwanese player)}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

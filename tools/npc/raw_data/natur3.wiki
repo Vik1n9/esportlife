@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Natur3&redirects=1
+<!-- 抓取: 2026-08-16T17:36:06.143Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Natur3
+|autoPI=Yes
+|image=
+|name=Cai Ting-xuan
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Support,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Natur3}}
+
+==Awards==
+{{player awards table|player=Natur3}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

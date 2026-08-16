@@ -1,0 +1,48 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kongyue&redirects=1
+<!-- 抓取: 2026-08-16T16:41:16.623Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Kongyue
+|image=PSG Kongyue Worlds 2020.jpg
+|name=蕭任佐
+|romanized_name=Hsiao Jen-tso
+|familyname=Hsiao
+|givenname=Jen-tso
+|birth_date=1999-07-19
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=jungle
+|ids=
+|twitch=kong_yue
+|instagram=
+|facebook=Kongyue-316762945480860
+|youtube=
+|twitter=
+|bestgg=kongyue
+|askfm=
+|reddit=
+|champion=Lee Sin
+|champion2=
+|history=
+{{THA}}
+}}
+
+==History==
+==Achievements==
+{{player achievements table|player=Kongyue}}
+
+==Awards==
+{{player awards table|player=Kongyue}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+MAD Kongyue 2018Worlds.jpg|[[MAD Team|MAD]] Kongyue at [[World_Championship/2018|Worlds 2018]].
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

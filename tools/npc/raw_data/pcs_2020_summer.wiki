@@ -1,0 +1,341 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2020%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T17:36:15.360Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Summer 2020}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2020/Summer
+|name2=Group Stage
+|link2=PCS/2020/Summer/Group Stage
+|name3=Playoffs
+|link3=PCS/2020/Summer/Playoffs
+|name4=Promotion
+|link4=PCS/2021/Spring/Promotion
+|name5=Statistics
+|link5=PCS/2020/Summer/Statistics
+|This=1}}
+{{Infobox league
+|name=PCS Summer 2020
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|shortname=Summer 2020
+|tickername=PCS Summer 2020
+|series=PCS
+|organizer=Riot Games
+|organizer2=FunPlus Esports
+|organizer3=Garena
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]
+|patch=10.11
+|epatch=10.16
+|country=Taiwan
+|country2=Hong Kong
+|country3=Southeast Asia
+|type=Online
+|venue=
+|format=Double Round Robin ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|prizepoolusd=80,000
+|prizepool=
+|sdate=2020-06-20
+|edate=2020-08-30
+|liquipediatier=2
+|team_number=10
+|website=https://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|twitch2=lolpacificth
+|youtube=channel/UCYfC038eP_cm9WNo5Cv-tBg
+|previous=PCS/2020/Spring{{!}}Spring 2020
+|next=PCS/2021/Spring{{!}}Spring 2021
+}}
+
+==Format==
+* '''Group Stage''' - ''June 20th - August 1st, 2020''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 8th place will play the playoffs
+***1st and 2nd place are seeded into Semifinals
+***3rd to 6th place are seeded into Quarterfinals
+***7th and 8th place are seeded into Losers' Round 1
+* '''Playoffs''' - ''August 13th - August 30th, 2020''
+** Double Elimination
+** Quarterfinals and Losers' Round 1 matches are {{Abbr/Bo3}}
+** All other matches are {{Abbr/Bo5}}
+** Winner and the runner-up qualify for [[World Championship/2020|World Championship 2020]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Taiwanese
+|name3=Thai
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=OPAL|b1name=Alexander Archambault|b1flag=ca
+|b2=Ibriz|b2name= Ibriz Dayat|b2flag=uk
+}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator
+|b1=Riku|b1name=Rikki Quiapon|b1flag=ph
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=JR|b1name=Yang Chih-Jen|b1flag=tw
+|b2=Multy|b2name=|b2flag=tw
+|b3=Nash|b3link=Nash (Taiwanese caster)
+|b4=Section|b4name=Jhu Dakai|b4flag=tw
+|b5=Wulong|b5name=|b5flag=tw
+|b6=Zod|b6name=|b6flag=tw
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Commentator
+|b1=Lloyd|b1name=|b1flag=th
+|b2=Rezalett|b2name=Isara Puangchompoo|b2flag=th
+|b3=SunSunSun|b3name=Ronnakrit Jaideecharoen|b3flag=th
+|b4=Xegor|b4name=Thanat Pariwatvorn|b4flag=th
+|b5=HeaGow|b5name=Prasit Kiatwacharawit|b5flag=th
+}}
+{{box|end}}
+
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+$80,000 {{Abbr/USD}} are spread among the teams as seen below:
+{{box|start|padding=2em}}
+{{prize pool start |points=seed |cutafter=10}}
+{{prize pool slot|place=1 |usdprize=30,000 |points=[[World Championship/2020|Worlds]] |mcx |lastvs1=psg talon |lastscore1=3 |lastvsscore1=0 }}
+{{prize pool slot|place=2 |usdprize=14,000 |points=[[World Championship/2020|Worlds]] |psg talon |lastvs1=mcx |lastscore1=0 |lastvsscore1=3 }}
+{{prize pool slot|place=3 |usdprize=10,000 |j team |lastvs1=machi esports |lastscore1=0 |lastvsscore1=3 |date1=2020-08-29}}
+{{prize pool slot|place=4 |usdprize=7,000 |ahq esports club |lastvs1=j team |lastscore1=1 |lastvsscore1=3 |date1=2020-08-23}}
+{{prize pool slot |place=5-6 |usdprize=4,500
+|nova esports |lastvs1=j team |lastscore1=0 |lastvsscore1=3 |date1=2020-08-21
+|berjaya dragons |lastvs2=ahq esports club |lastscore2=1 |lastvsscore2=3 |date2=2020-08-22
+}}
+{{prize pool slot |place=7-8 |usdprize=3,000
+|hong kong attitude |lastvs1=nova esports |lastscore1=0 |lastvsscore1=2 |date1=2020-08-14
+|alpha esports |lastvs2=berjaya dragons |lastscore2=0 |lastvsscore2=2 |date2=2020-08-14
+}}
+{{prize pool slot|place=9 |usdprize=2,000 |liyab esports |points=[[PCS/2021/Spring/Promotion|Promotion]] |wdl1=4/14 |date1=2020-08-01}}
+{{prize pool slot|place=10 |usdprize=2,000 |resurgence |points=[[PCS/2021/Spring/Promotion|Promotion]] |wdl1=3/15 |date1=2020-08-01}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=PCS/2020/Summer/Group Stage
+}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=PCS/2020/Summer/Playoffs
+}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2020-05-03
+|edate=2020-06-20
+|team=ahq e-Sports Club
+|team2=Alpha Esports
+|team3=Berjaya Dragons
+|team4=Hong Kong Attitude
+|team5=J Team
+|team6=Liyab Esports
+|team7=Machi Esports
+|team8=Nova Esports
+|team9=Resurgence
+|team10=PSG Talon
+}}
+{{Transfer List
+|sdate=2020-06-20
+|edate=2020-09-06
+|team=ahq e-Sports Club
+|team2=Alpha Esports
+|team3=Berjaya Dragons
+|team4=Hong Kong Attitude
+|team5=J Team
+|team6=Liyab Esports
+|team7=Machi Esports
+|team8=Nova Esports
+|team9=Resurgence
+|team10=PSG Talon
+|title=Roster moves during the season
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Ziv  |p1link=Ziv (Taiwanese player)
+|p2=Kongyue |p2flag=
+|p3=Uniboy |p3flag=
+|p4=Wako |p4flag=
+|p5=Ysera |p5flag=
+
+|t2p1=Leaky  |t2p1flag=tw |t2pos1=top 
+|t2p2=Apex |t2p2flag=tw |t2pos2=mid |t2p2dnp=true
+|t2p3=Doggo  |t2p3flag=tw |t2pos3=adc |t2p3dnp=true
+
+|t3p1=GreenTea	 |t3p1flag=tw |t3pos1=Head Coach
+|t3p2=Zero |t3p2link=Zero (Taiwanese player)|t3p2flag=tw |t3pos2=Assistant Coach
+}}
+{{TeamCard
+|team=Alpha Esports
+|p1=Bush |p1flag=tw
+|p2=YourRiver |p2flag=cn
+|p3=chen9 |p3flag=cn
+|p4=WeiLun |p4flag=tw
+|p5=Yursan |p5flag=tw
+
+|t2p1=World6 |t2p1flag=cn |t2pos1=jungle |t2p1dnp=false
+|t2p2=Sworb |t2p2flag=my |t2pos2=jungle |t2p2dnp=true
+|t2p3=Aun |t2p3flag=th |t2pos3=support |t2p3dnp=true
+
+|t3p1=Xiaoya |t3p1flag=tw |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Berjaya Dragons
+|p1=Azhi |p1flag=tw
+|p2=Enso |p2flag=tw
+|p3=Maoan |p3flag=tw
+|p4=K2 |p4flag=hk
+|p5=Do1u1u |p5flag=tw
+
+|t2p1=Minji |t2p1flag=tw |t2pos1=mid 
+|t2p2=Chilly |t2p2flag=my |t2pos2=support |t2p2dnp=true
+
+|t3p1=Paul |t3p1flag=tw |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|p1=Kartis |p1flag=hk
+|p2=Holo |p2flag=hk
+|p3=MoonBlack |p3flag=hk
+|p4=MnM |p4flag=hk
+|p5=Wing |p5flag=hk
+
+|t2p1=Tak |t2p1flag=mo |t2pos1=sup
+
+|t3p1=Skywalk |t3p1flag=hk |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Taipei J Team |link=J Team
+|p1=Rest |p1flag=
+|p2=Hana |p2flag=
+|p3=Nestea |p3flag=
+|p4=Lilv |p4flag=
+|p5=Woody |p5flag=tw
+
+|t2p1=Driver  |t2p1flag=tw |t2pos1=top |t2p1dnp=true
+|t2p2=Keorb |t2p2flag=tw |t2pos2=mid |t2p2dnp=true
+
+|t3p1=Coldicee |t3p1flag=tw |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Liyab Esports
+|p1=Kanji |p1flag=ph
+|p2=DoeDoii |p2flag=ph
+|p3=Rex |p3link=Rex (Korean player)|p3flag=kr
+|p4=Dawn |p4link=Dawn (Filipino player)|p4flag=ph
+|p5=Mocha |p5flag=kr
+
+|t3p1=Cabbage |t3p1flag=th |t3pos1=Head Coach
+|t3p2=Tgee |t3p2flag=ph |t3pos2=Assistant Coach
+}}
+{{TeamCard
+|team=Machi Esports
+|p1=PK |p1flag=tw
+|p2=Gemini |p2flag=tw
+|p3=Mission |p3flag=tw
+|p4=Bruce |p4flag=tw
+|p5=Koala |p5flag=tw|p5link=Koala (Taiwanese player)
+
+|t2p1=JimieN |t2p1flag=hk |t2pos1=Mid |t2p1dnp=true
+|t2p2=Atlen |t2p2flag=tw |t2pos2=Bot
+|t2p3=Lika1 |t2p3flag=tw |t2pos3=Top |t2p3dnp=true
+
+|t3p1=Dreamer |t3p1flag=tw |t3pos1=Head Coach
+|t3p2=Mountain |t3p2flag=tw |t3pos2=Coach
+}}
+{{TeamCard
+|team=Nova Esports
+|p1=Rockky |p1flag=
+|p2=Ryan |p2flag=kr
+|p3=G4 |p3flag=
+|p4=Coldenfeet |p4flag=th
+|p5=POP |p5flag=
+
+|t2p1=Merlyy|t2p1flag=th|t2pos1=jg |t2p1dnp=true
+
+|t3p1=WarL0cK|t3p1flag=th|t3pos1=Coach
+|t3p2=Deul|t3p2flag=kr |t3pos2=Coach
+}}
+{{TeamCard
+|team=Resurgence
+|p1=Shinsekai |p1flag=sg
+|p2=Epic |p2flag=
+|p3=Raven |p3link=Raven (Singaporean player)|p3flag=sg
+|p4=Mexi |p4flag=sg
+|p5=Kusuo |p5flag=sg
+
+|t2p1=Jensen|t2p1link=Jensen (Singaporean coach)|t2p1flag=sg|t2pos1=Head Coach
+|t2p2=OMO|t2p2flag=sg|t2pos2=Strategic Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi |p1flag=
+|p2=River |p2link=River (Korean player)
+|p3=Tank |p3flag=kr
+|p4=Unified  |p4flag=
+|p5=Kaiwing  |p5flag=
+
+|t2p1=Candy |t2p1link=Candy (Korean player) |t2pos1=mid |t2p1leave=true
+
+|t3p1=Bigfafa |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Saroo |t3p2flag=kr |t3pos2=Coach
+}}
+{{TeamCard columns end}}
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#section:PCS/2020/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[PCS/2020/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#section:PCS/2020/Summer/Playoffs|Playoffs}}
+
+==Additional Data==
+===Statistics===
+{{#lst:PCS/2020/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Streams===
+{{box|start|padding=2em}}
+{{Streams|title=
+|lang1=usuk |twitch1=lolpacific   |youtube1=channel/UCYfC038eP_cm9WNo5Cv-tBg |facebook1=lolpacific
+|lang2=tw   |twitch2=lolpacifictw |youtube2=channel/UCYfC038eP_cm9WNo5Cv-tBg |facebook2=lolpacifictw
+|lang3=th   |twitch3=lolpacificth |youtube3=channel/UCYfC038eP_cm9WNo5Cv-tBg |facebook3=lolpacificth
+}}
+{{box|end}}

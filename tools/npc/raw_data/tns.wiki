@@ -1,0 +1,41 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=TNS&redirects=1
+<!-- 抓取: 2026-08-16T17:09:29.534Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+
+{{Infobox player
+|id=TNS
+|autoPI=Yes
+|image=
+|name=Huang Po-Wei
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Support,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=TNS}}
+
+==Awards==
+{{player awards table|player=TNS}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

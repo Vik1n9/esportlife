@@ -1,0 +1,26 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Rwei&redirects=1
+<!-- 抓取: 2026-08-16T17:03:57.725Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Rwei
+|autoPI=Yes
+|name=詹冠緯
+|romanized_name=Chan Kuan-wei
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Jungle
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

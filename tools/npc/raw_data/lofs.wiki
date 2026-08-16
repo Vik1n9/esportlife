@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LOFS&redirects=1
+<!-- 抓取: 2026-08-16T16:42:53.689Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=LOFS
+|image=
+|name=林嘉俊
+|romanized_name=Lam Ka Chun
+|givenname=Ka Chun
+|familyname=Lam
+|autoPI=Yes
+|birth_date=
+|country=Hong Kong
+|team=
+|status=Retired
+|roles=top
+|ids=001122
+|twitch=lofslofs
+|instagram=
+|facebook=LOFSlol
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=LOFS}}
+
+==Awards==
+{{player awards table|player=LOFS}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

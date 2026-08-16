@@ -1,0 +1,54 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Dewish%20Team&redirects=1
+<!-- 抓取: 2026-08-16T14:44:48.985Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|dewish team}}
+|name2={{Team|dwtt}}
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Dewish Team
+|location=Taiwan
+|region=Taiwan
+|league=
+|website=
+|twitter=
+|facebook=
+|youtube=
+|twitch=
+|instagram=
+|created={{League of Legends}}: 2022-06-18
+}}'''Dewish Team''' is a [[:category:Taiwan|Taiwanese]] esports organisation.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto}}
+
+===Former===
+{{FormerSquadAuto}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|id=Sen |name=Lu Guan-Yu |joindate=2022-06-18 }}
+|{{SquadAutoRow|id=Luka|link=Luka_(Taiwanese_player) |name=Xu Gang-Cheng |joindate=2022-06-18 }}
+}}
+<!--
+===Former===
+{{FormerOrganizationAuto}}
+-->
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Dewish Team}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Dewish Team}}
+}}
+
+==Awards==
+{{Team awards table|team=Dewish Team}}
+
+==References==
+{{Reflist}}
+{{team roster new}}

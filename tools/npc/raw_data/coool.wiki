@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Coool&redirects=1
+<!-- 抓取: 2026-08-16T15:42:35.960Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Coool
+|image=
+|name=蔡海軒
+|romanized_name=Choi Hoi Hin
+|familyname=Choi
+|givenname=Hoi Hin
+|birth_date=1997-11-10
+|country=Hong Kong
+|autoPI=Yes
+|status=Retired
+|roles=Support
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=Coool}}
+
+==Awards==
+{{player awards table|player=Coool}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

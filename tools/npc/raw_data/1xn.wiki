@@ -1,0 +1,40 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=1xn&redirects=1
+<!-- 抓取: 2026-08-16T15:26:28.478Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=1xn
+|autoPI=Yes
+|image=
+|name=李修楠
+|romanized_name=Li Sau Nam
+|familyname=Li
+|givenname=Sau Nam
+|birth_date=2004-05-01
+|country=Hong Kong
+|status=Active
+|roles=Bot
+|region=China
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|weibo=u/6291941927
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

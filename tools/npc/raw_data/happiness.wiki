@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Happiness&redirects=1
+<!-- 抓取: 2026-08-16T15:57:32.891Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Happiness
+|autoPI=Yes
+|image=
+|name=Chen Hsin-fu
+|familyname=Chen
+|givenname=Hsin-fu
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Top
+|role2=
+|role3=
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+|champion1=
+|champion2=
+|champion3=
+|history={{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Happiness}}
+
+==Awards==
+{{player awards table|player=Happiness}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

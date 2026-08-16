@@ -1,0 +1,345 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCP%2F2025%2FSeason%20Finals&redirects=1
+<!-- 抓取: 2026-08-16T16:15:49.439Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCP 2025 Season Finals}}
+{{LoL_Championship_Pacific_Navbox}}
+{{Tabs LCP 2025}}
+{{Tabs static
+|name1=Overview
+|link1=LCP/2025/Season Finals
+|name2=Group Stage
+|link2=LCP/2025/Season Finals/Group Stage
+|name3=Group Breaker
+|link3=LCP/2025/Season Finals/Group Breaker
+|name4=Group Seeding Bracket
+|link4=LCP/2025/Season Finals/Group Seeding Bracket
+|name5=Playoffs
+|link5=LCP/2025/Season Finals/Playoffs
+|name6=Champion Stats
+|link6=LCP/2025/Season Finals/Statistics
+|name7=Player Stats
+|link7=LCP/2025/Season Finals/Player Stats
+}}
+{{Infobox league
+|name=LCP 2025 Season Finals
+|shortname=2025 Season Finals
+|tickername=LCP 2025 Season Finals
+|image=League of Legends Championship Pacific allmode.png
+|icon=League of Legends Championship Pacific icon allmode.png
+|series=LoL Championship Pacific
+|organizer=Riot Games
+|sponsor=
+|patch=
+|epatch=
+|type=Offline
+|country=Taiwan
+|city=Taipei
+|venue=LCP Arena
+|country2=Vietnam
+|city2=Đà Nẵng
+|venue2=Tiên Sơn Sports Palace|venue2desc=Finals Weekend
+|format='''Regular Season:'''<br>Single Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepoolusd=80,000
+|sdate=2025-07-26
+|edate=2025-09-21
+|liquipediatier=1
+|website=https://lolesports.com/tournament/113503113902025188
+|rulebook=https://cdn.sanity.io/files/dsfx7636/news/aa6ec7a0cc7de681de13e8caff47aa12b4931e9d.pdf
+|rulebook2=https://cdn.sanity.io/files/dsfx7636/news/0b3fa772ef1927784d2599c70f0303053c2d60ca.pdf
+|facebook=lolpacificen
+|instagram=LoLPacificEN
+|twitter=LoLPacificEN
+|twitch=lolpacificen
+|youtube=@lolpacificen
+|team_number=8
+|previous=LCP/2025/Mid Season{{!}}2025 Mid Season 
+|next=LCP/2026/Season Kickoff{{!}}2026 Split 1
+|next2=LCP/2026/Promotion{{!}}2026 Promotion 
+}}
+
+'''League of Legends Championship Pacific 2025 Season Finals''' is the third Pacific League of Legends split under the LCP banner, with eight Pacific teams compete for the LCP title.
+
+==Format==
+* '''Group Stage'''
+**Teams are split into 2 groups based on their [[LCP/2025/Mid Season/Regular Season|Mid Season's Regular Season]] performance:
+***Top 4 teams are placed into Contender Group
+***Bottom 4 teams are placed into Breakout Group
+**Single Round Robin
+**Each team plays 3 matches
+**Top 2 teams of Contender Group and bottom 2 teams of Breakout Group stays in their group for the Group Seeding Bracket, all remaining teams will play in Group Breaker
+**All matches are {{Abbr/Bo3}}
+* '''Group Breaker'''
+**Matchups are determined as follows:
+***Contender Group 4th vs. Breakout Group 1st
+***Contender Group 3rd vs. Breakout Group 2nd
+**Matches are {{Abbr/Bo3}}
+**Winners are placed into Contender Group, losers are placed into Breakout Group
+* '''Group Seeding Bracket'''
+**GSL Format
+**All matches are {{Abbr/Bo3}}
+**All teams of Contender Group and Top 2 teams of Breakout Group will play the Playoffs
+* '''Playoffs'''
+**Double Elimination
+** Upper Bracket Quarterfinals and Semifinals matches are {{Abbr/Bo3}}.
+** All remaining matches are {{Abbr/Bo5}}.
+** Top three teams qualify for [[World_Championship/2025|Worlds]].
+* All matches are played under {{Abbr|Fearless Draft|No champion can be played more than once during the entire series.}} rules after receiving positive feedback on this format during Split 1.
+* '''Relegation Rules'''
+**A maximum of 2 Guest teams will have to play in [[LCP/2026/Promotion|LCP 2026 Promotion]]:
+*** Any Guest teams qualify for [[World_Championship/2025|Worlds]] will be exempted from the Promotion.
+*** The lowest placed Guest team, regardless of their home region, will be selected to contest for the Free-for-All (FFA) Guest spot.
+*** After FFA, the second Guest team selected to participate in the Promotion for the Regional Merit spot will be based on the following priority:
+**** If the remaining Guest teams consist of more than one Guest team from the same home region (e.g. VCS with Secret Whales and Vikings Esports for the 2025 season), the lower placed Guest team from that home region will compete in the Promotion.
+**** If the remaining Guest teams are from different home regions, the second-lowest placed Guest team in LCP, regardless of home region, will enter the Promotion.
+**** Team(s) from the domestic league competing for the Regional Merit slot will not be contesting for the FFA slot.
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=10
+|qualifies1=World_Championship/2025|qualifies1name=Worlds
+|qualifies2=LCP/2026/Promotion|qualifies2name=Promotion
+|qualifies3=Asia Invitational/2025 |qualifies3name=ASI
+|tournament1=LCP/2025/Split 3/Group Seeding Bracket#Breakout Group
+|tournament2=LCP/2025/Split 3/Playoffs
+|{{Slot|qualified1=yes|usdprize=26400}}
+|{{Slot|qualified1=yes|usdprize=16000}}
+|{{Slot|qualified1=yes|usdprize=12000}}
+|{{Slot|qualified3=yes|usdprize=8000}}
+|{{Slot|qualified2=yes|qualified3=yes|usdprize=5600}}
+|{{Slot|usdprize=4800}}
+|{{Slot|usdprize=4000}}
+|{{Slot|qualified2=yes|usdprize=3200}}
+|adjacentContent={{AwardPrizePool
+|{{Slot|award=Finals MVP|{{Opponent|HongQ}}}}
+|{{Slot|award=Coach of the Year|date=2025-10-05|{{Opponent|Chawy}}}}
+|{{Slot|award=Rookie of the Year|date=2025-10-05|{{Opponent|HongQ}}}}
+|{{Slot|award=Player of the Year|date=2025-10-05|{{Opponent|HongQ}}}}
+|{{Slot|award=Team of the Year|date=2025-10-05
+  |{{Opponent|Kiaya}}
+  |{{Opponent|JunJia}}
+  |{{Opponent|HongQ}}
+  |{{Opponent|Doggo}}
+  |{{Opponent|Taki|link=Taki_(Vietnamese_player)}}
+}}
+}}
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=JunJia
+|p3=HongQ
+|p4=Doggo
+|p5=Kaiwing
+
+|t2p1=Driver |t2pos1=top
+|t2p2= |t2pos2=
+|t2p3= |t2pos3=
+
+|t3p1=Chawy |t3pos1=head coach
+|t3p2=Wulala |t3pos2=coach
+|qualifier=Partner
+}}
+{{TeamCard
+|team=Fukuoka SoftBank HAWKS
+|team=Fukuoka SoftBank HAWKS
+|p1=Evi
+|p2=YoHan
+|p3=FATE|p3link=FATE_(Korean_player)
+|p4=Marble
+|p5=Gaeng
+
+|t2p1=YellowYoshi |t2pos1=top |t2p1dnp=true
+|t2p2=Courage |t2pos2=jg|t2p2dnp=true
+
+|t3p1=moment |t3pos1= coach
+|t3p2=Gamin |t3pos2= coach
+|t3title=Staff
+|qualifier=Partner
+}}
+{{TeamCard
+|team=GAM Esports
+|p1=Kiaya
+|p2=Levi
+|p3=Aress
+|p4=Artemis
+|p5=Elio
+
+|t2p1=Emo |t2pos1=mid 
+|t2p2=EasyLove |t2pos2=adc |t2p2dnp=true
+|t2p3=Xuhao |t2pos3=sup |t2p3dnp=true
+
+|t3p1=Archie|t3pos1=head coach|t3p1link=Archie_(Vietnamese_player)
+|t3p2=Hype|t3pos2=analyst|t3p2link=Hype (Vietnamese player)|t3p2flag=vn
+|qualifier=Partner
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Azhi
+|p2=Karsa
+|p3=Maple
+|p4=Betty
+|p5=Woody
+
+|t2p1=CorGi |t2pos1=head coach
+|t2p2=Hua |t2pos2=coach
+|t2p3=Maru |t2pos3=assistant coach
+|t2title=Staff
+|qualifier=Partner
+}}
+{{TeamCard
+|team=Chiefs Esports Club
+|p1=BioPanther
+|p2=Whynot
+|p3=JimieN
+|p4=Slayder
+|p5=Luon
+
+|t2p1=Ceres |t2pos1=head coach
+|t2p2=Jellal |t2pos2=assistant coach
+|t2p3=Hankay |t2pos3=analyst
+|t2title=Staff
+|qualifier=Guest Slot
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=RayFarky
+|p2=Citrus
+|p3=Aria
+|p4=Kakkun
+|p5=Harp
+
+|t2p1=Milan |t2pos1=bot |t2p1dnp=true
+|t2p2=Momo |t2pos2=top|t2p2dnp=true
+
+|t3p1=Paz |t3pos1=coach
+|t3p2=Gismo |t3pos2=analyst
+|t3title=Staff
+|qualifier=Guest Slot
+|inotes={{NoteBig
+|n1=August 12th - '''[[DetonatioN FocusMe]]''' promotes {{player|Momo|flag=jp}} from its [[DetonatioN FocusMe Academy|Academy]].<ref>{{cite web|url=https://x.com/team_detonation/status/1955193333187514858|title=#DFM_LoL｜LoL部門 Momo選手 LCPロスター登録のお知らせ|author='''[[DetonatioN FocusMe]]'''|language={{flag|jp}} Japanese|date=2025-08-12}}</ref>
+}}
+}}
+{{TeamCard
+|team=Secret Whales 
+|p1=Hiro02
+|p2=Hizto
+|p3=Dire
+|p4=Eddie
+|p5=Taki |p5link=Taki (Vietnamese player)
+
+|t2p1=Steller |t2pos1=top|t2p1dnp=true
+|t2p2=Pun |t2pos2=top 
+
+|t3p1=Naul |t3pos1=head coach
+|t3p2=Ciel |t3p2link=Ciel (Vietnamese player) |t3pos2=coach
+|qualifier=Guest Slot
+}}
+{{TeamCard
+|team=Vikings Esports
+|p1=Kratos
+|p2=Gury
+|p3=Kati
+|p4=Shogun |p4link=Shogun (Vietnamese player)
+|p5=SiuLoong
+
+|t2p1=Chika |t2pos1=mid |t2p1dnp=true
+|t2p2=Sty1e |t2pos2=bot 
+
+|t3p1=SofM|t3pos1=head coach
+|t3p2=Suga|t3pos2=analyst|t3p2flag=vn
+|qualifier=Guest Slot
+}}
+{{TeamCard columns end}}
+{{Tabs dynamic/end}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{box|start|padding=2em}}
+{{#lst:LCP/2025/Season Finals/Group Stage|Contender Group}}
+{{box|break|padding=2em}}
+{{#lst:LCP/2025/Season Finals/Group Stage|Breakout Group}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[LCP/2025/Season Finals/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Group Breaker===
+{{ShowBracket|LCP25S3GBB}}
+
+===Group Seeding Bracket===
+{{box|start|padding=2em}}
+{{BracketGroupToggle
+|gtl={{LPDB storage|false}}{{GroupTableLeague2
+|title=Contender Group |width=350px |diff=false
+|pbg1=up |pbg2=up |pbg3=stayup |pbg4=stayup
+|matchGroupId1=LCP25S3CSB
+}}{{LPDB storage|true}}
+|id=LCP25S3CSB|matchsection=Contender Group|width=350px
+}}
+{{box|break|padding=2em}}
+{{BracketGroupToggle
+|gtl={{LPDB storage|false}}{{GroupTableLeague2
+|title=Breakout Group |width=350px |diff=false
+|pbg1=stayup |pbg2=stayup |pbg3=down |pbg4=down
+|matchGroupId1=LCP25S3BSB
+}}{{LPDB storage|true}}
+|id=LCP25S3BSB|matchsection=Breakout Group|width=350px
+}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[LCP/2025/Season Finals/Group Seeding Bracket|Click here for detailed results of the '''Group Seeding Bracket''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|LCP25S3POB}}
+
+==Broadcasts==
+===Streams===
+{{Streams 
+|lang1=usuk |twitch1=lolpacificen |youtube1=@lolpacificen
+|lang2=vn |youtube2=@lolesports_vn |tiktok2=@lolesports_vn/live |stream2=https://play.onlive.vn/onlivelmht
+|lang3=tw |twitch3=lolesportstw |youtube3=@lolesportstw
+|lang4=jp |twitch4=leagueoflegendsjp |youtube4=@lolesportsjp
+|lang5=th |twitch5=leagueoflegendsth |youtube5=@leagueoflegendstha |facebook5=Leagueoflegendsth
+}}
+
+===Talent===
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="1" |
+| colspan="2" | 
+| colspan="1" | 
+|-
+| Disabled
+| colspan="3" |
+| colspan="1" | 
+|}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=LCP25S3GS3|matchid=4|gameNum=1|player=Doggo|vod=}}
+|{{Json|id=LCP25S3BSB|matchid=R2M1|gameNum=2|player=Betty|vod=}}
+}}
+
+===Statistics===
+{{#lst:LCP/2025/Season Finals/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+
+==References==
+{{Reflist}}
+
+{{2025 Season International Cycle Navbox}}

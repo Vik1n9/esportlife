@@ -1,0 +1,30 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Rebirth&redirects=1
+<!-- 抓取: 2026-08-16T17:00:35.454Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Rebirth
+|autoPI=Yes
+|image=
+|name=傅俊傑
+|romanized_name=Fu Chun Kit
+|familyname=Fu
+|givenname=Chun Kit
+|birth_date=2000-12-08
+|country=Hong Kong
+|status=active
+|roles=support
+|history={{TeamHistoryAuto}}
+}}
+
+==Achievements==
+{{player achievements table|player=Rebirth}}
+
+==Awards==
+{{player awards table|player=Rebirth}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

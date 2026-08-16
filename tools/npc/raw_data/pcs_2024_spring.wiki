@@ -1,0 +1,741 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2024%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T16:56:38.360Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Spring Playoffs 2024}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2024/Spring
+|name2=Regular Season
+|link2=PCS/2024/Spring/Regular Season
+|name3=Promotion
+|link3=PCS/2024/Spring/Promotion
+|name4=Champion Stats
+|link4=PCS/2024/Spring/Statistics
+|name5=Player Stats
+|link5=PCS/2024/Spring/Player Stats
+}}
+{{Infobox league
+|name=PCS Spring Playoffs 2024
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|tickername=PCS Spring Playoffs 2024
+|series=PCS
+|organizer=Riot Games
+|organizer-link=http://www.riotgames.com/ 
+|organizer2-link=https://www.carry.live/
+|organizer2=Carry
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]
+|patch=14.5
+|epatch=
+|country=Taiwan
+|type=Offline
+|venue=
+|format=Double Elimination ({{Abbr/Bo5}})
+|sdate=2024-03-11
+|edate=2024-04-07
+|prizepoolusd=100,000
+|liquipediatier=2
+|team_number=11
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|youtube=lolpacific
+|previous=PCS/2023/Summer{{!}}Summer 2023
+|next=PCS/2024/Summer{{!}}Summer 2024
+}}
+
+==Prize Pool==
+{{TeamPrizePool|qualifies1=Mid-Season_Invitational/2024|qualifies1name=MSI|cutafter=6
+|matchGroupId1=s2Kb2NJ6rv|matchGroupId2=akHFSqs1vO
+|{{Slot|usdprize=35,000|qualified1=yes}}
+|{{Slot|usdprize=20,000}}
+|{{Slot|usdprize=14,000}}
+|{{Slot|usdprize=9,000}}
+|{{Slot|usdprize=5,000|count=2}}
+|{{Slot|usdprize=4,000}}
+|{{Slot|usdprize=2,500|count=2}}
+|{{Slot|usdprize=1,500|count=2}}
+|adjacentContent=
+	{{box|start|padding=1em}}
+	{{MVPTable|cutafter=5|title=Playoffs MVP|margin=false
+		|tournament=PCS/2024/Spring
+	}}
+	{{box|break}}
+	{{prize pool start award|noprize=true|margin=false}}
+	{{prize pool slot award|award=Finals MVP |tbd |flag1= |team1= |date=}}
+	{{Prize pool end}}
+	{{box|end}}
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=215}}
+===Playoffs Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CTBC Flying Oyster 
+|p1=Rest
+|p2=Karsa
+|p3=Gori
+|p4=Shunn
+|p5=SwordArT
+
+|t2p1=DPower|t2p1flag=tw|t2pos1=sup|t2p1dnp=true
+
+|t3p1=Achie|t3pos1=head coach
+|t3p2=Bob|t3pos2=assistant coach
+|qualifier=[[PCS/2024/Spring/Regular Season|PCS Regular Season]]
+|placement=1
+}}
+{{TeamCard
+|team=PSG Talon 
+|p1=Azhi
+|p2=JunJia
+|p3=Maple
+|p4=Betty
+|p5=Woody
+
+|t2p1=HongSuo |t2p1pos=mid |t2p1dnp=true
+
+|t3p1=CorGi |t3pos1=Head Coach
+|t3p2=Hua |t3pos2=Assistant Coach
+|t3p3=Maru |t3pos3=Assistant Coach
+|qualifier=[[PCS/2024/Spring/Regular Season|PCS Regular Season]]
+|placement=2
+}}
+{{TeamCard
+|team=Fukuoka SoftBank HAWKS
+|p1=Evi
+|p2=Forest
+|p3=Dasher
+|p4=Marble
+|p5=Vsta
+
+|t2title=Substitutes
+|t2p1=Ankochan|t2pos1=jungle|t2p1dnp=true
+
+|t3title=Staff
+|t3p1=VicaL |t3pos1=head coach
+|t3p2=Tussle |t3pos2=coach
+|t3p3=Kite|t3pos3=coach
+|qualifier=[[LJL/2024/Spring|LJL]]
+|placement=1
+}}
+{{TeamCard columns end}}
+
+===Play-In Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Frank Esports
+|p1=1Jiang|p1flag=tw
+|p2=Gemini
+|p3=JimieN
+|p4=MnM
+|p5=Kaiwing
+
+|t2p1=Pretender|t2pos1=mid
+
+|t3p1=Skywalk|t3pos1=head coach
+|t3p2=Sanchi|t3pos2=analyst|t3p2flag=pl
+|qualifier=[[PCS/2024/Spring/Regular Season|PCS Regular Season]]
+|placement=3
+}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Driver
+|p2=Husha
+|p3=1116
+|p4=Feng|p4link=Feng_(Taiwanese_player)
+|p5=S1aytrue
+
+|t2p1=Jay|t2p1link=Jay (Taiwanese player)|t2pos1=head coach
+|t2p2=Eason|t2p2flag=tw|t2pos2=assistant coach
+|t2title=Staff
+|qualifier=[[PCS/2024/Spring/Regular Season|PCS Regular Season]]
+|placement=4
+}}
+{{TeamCard
+||team=Deep Cross Gaming
+|p1=Taco
+|p2=665
+|p3=Cryscata		
+|p4=Tide|p4link=Tide (Taiwanese player)
+|p5=Orca
+
+|t2p1=Enzz|t2pos1=head coach
+|t2p2=Hana|t2pos2=assistant coach
+|t2title=Staff
+|qualifier=[[PCS/2024/Spring/Regular Season|PCS Regular Season]]
+|placement=5
+}}
+{{TeamCard
+|team=J Team 
+|p1=Likai
+|p2=Lauva
+|p3=Minji
+|p4=ChiCh1
+|p5=Enso
+
+|t2p1=Yursan|t2p1flag=tw|t2pos1=support
+|t2p2=SoCool|t2p2flag=tw|t2pos2=jungle
+
+|t3p1=UDJ|t3pos1=head coach
+|t3p2=RD|t3p2flag=tw|t3pos2=assistant coach
+|t3p3=SoCool|t3p3flag=tw|t3pos3=assistant coach
+|qualifier=[[PCS/2024/Spring/Regular Season|PCS Regular Season]]
+|placement=6
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=RayFarky
+|p2=Steal
+|p3=Aria
+|p4=Yutapon
+|p5=Harp
+
+|t2title=Staff
+|t2p1=viviD |t2pos1=head coach
+|t2p2=Gismo|t2pos2=analyst
+|qualifier=[[LJL/2024/Spring|LJL]]
+|placement=2
+}}
+{{TeamCard
+|team=V3 Esports
+|p1=TaNa
+|p2=HRK
+|p3=Ace|p3link=Ace (Japanese player)
+|p4=Bini
+|p5=hetel
+|t2p1=HW4NG |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LJL/2024/Spring|LJL]]
+|placement=3
+}}
+{{TeamCard
+|team=Ground Zero Gaming
+|p1=Thien
+|p2=Shernfire
+|p3=Kisee
+|p4=Leemas
+|p5=Benvi
+
+|t2p1=JuJo |t2p1flag=it |t2pos1=jg |t2p1dnp=true
+
+|t3p1=Aarsh |t3pos1=head coach
+|t3p2=styled |t3pos2=assistant coach
+|qualifier=[[LCO/2024/Split_1|LCO]]
+|placement=1
+}}
+{{TeamCard
+|team=Antic Esports
+|p1=Zorenous
+|p2=Swip3rR
+|p3=Ryoma
+|p4=K1ng
+|p5=Dragku
+
+|t2p1=9 God|t2pos1=jg|t2p1dnp=true
+|t2p2=Voice|t2pos2=bot|t2p2dnp=true
+
+|t3p1=Cadence|t3pos1=head coach
+|t3p2=TheBoostedAnimal|t3p2flag=au|t3pos2=assistant coach
+|t3p3=SpaceDoggy|t3p3flag=au|t3pos3=analyst
+|qualifier=[[LCO/2024/Split_1|LCO]]
+|placement=2
+}}
+{{TeamCard columns end}}
+
+==Results==
+==={{Stage|Play-In Stage}}===
+{{Bracket|Bracket/8-2Q-U-4L2DS-1Q|id=s2Kb2NJ6rv
+<!-- Upper Bracket Round 1 -->
+|R1M1={{Match}}
+|R1M2={{Match}}
+|R1M3={{Match}}
+|R1M4={{Match}}
+
+<!-- Upper Bracket Round 2 -->
+|R2M1={{Match}}
+|R2M2={{Match}}
+
+<!-- Lower Bracket Round 1 -->
+|R1M5={{Match}}
+|R1M6={{Match}}
+
+<!-- Lower Bracket Round 2 -->
+|R2M3={{Match}}
+|R2M4={{Match}}
+
+<!-- Lower Bracket Round 3 -->
+|R3M1={{Match}}
+}}
+
+==={{Stage|Playoffs}}===
+{{box|start|padding=15px}}
+{{Bracket|Bracket/2-2|id=cWnhkXOiDt
+<!-- Upper Bracket Quarterfinals -->
+|R1M1={{Match}}
+|R1M2={{Match}}
+}}
+{{box|break}}
+{{Bracket|Bracket/4U4L1D|id=akHFSqs1vO
+<!-- Upper Bracket Semifinals -->
+|R1M1={{Match}}
+|R1M2={{Match}}
+
+<!-- Upper Bracket Final -->
+|R3M1={{Match}}
+
+<!-- Lower Bracket Quarterfinals -->
+|R1M3={{Match}}
+
+|R1M4={{Match}}
+
+<!-- Lower Bracket Semifinal -->
+|R2M1={{Match}}
+
+<!-- Lower Bracket Final -->
+|R3M2={{Match}}
+
+<!-- Grand Final -->
+|R4M1={{Match}}
+}}
+{{box|end}}
+
+==Format==
+* '''Play-In''' - ''March 11<sup>th</sup> - March 17<sup>th</sup>''
+** Double Elimination bracket
+** All matches are played in a {{Abbr/Bo3}} except for the {{Abbr/Bo5}} Lower Bracket Final.
+** <span class="bg-up">Top 3 teams</span> qualify to Playoffs.
+
+* '''Playoffs''' - ''March 20<sup>th</sup> - April 7<sup>th</sup>''
+** Double Elimination bracket
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2024|Mid-Season Invitational 2024]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=Taiwanese
+|name2=Cantonese
+|name3=English
+|name4=Japanese
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=Jackie|b1flag=tw
+|b2=JR
+|b3=Section
+|b4=Yuwu|b4flag=tw
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst
+|b1=Mountain
+|b2=Nash|b2link=Nash (Taiwanese caster)
+|b3=Zod
+|b4=Art|b4link=Art (Taiwanese caster)
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst Desk
+|b1=Tommy
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst Desk Guest
+|b1=Liang
+|b2=Lilv
+|b3=Benny|b3link=Benny (Taiwanese player)
+|b4=Ziv|b4link=Ziv (Taiwanese player)
+}}
+{{BroadcasterCard|lang=tw
+|position=Host
+|b1=Changmao
+}}
+{{box|end}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=hk
+|position=Commentator
+|b1=Bella |b1link=Bella (Cantonese caster)|b1flag=hk
+|b2=Dream |b2link=Dream (Cantonese caster)|b2flag=hk
+|b3=Hei Hei|b3flag=hk
+|b4=LoSing
+|b5=Sang
+|b6=Sigma
+}}
+{{box|end}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=LCO Broadcast
+|b1=Mac |b1link=Mac (Australian Caster)
+|b2=Rusty 
+|b3=Skimmy
+|b4=Kitty|b4name=Athena Jiang|b4flag=au|b4link=Kitty (Chinese caster)
+|b5=MAXIMIZE
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=jp
+|position=Play-by-Play Caster
+|b1=eyes
+|b2=Jaeger |b2link=Jaegar (Japanese caster) |b2flag=jp
+|b3=katsudion |b3name=Tatsuya Yamamoto |b3flag=jp
+}}
+{{BroadcasterCard|lang=jp
+|position=Color Caster
+|b1=wataneko|b1flag=jp
+|b2=Recruit |b2name= |b2flag=jp
+|b3=Revol
+|b4=Nemoh|b4name=Keisuke Koresawa
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=shuiniao|b1name=Hiromi Mizunaga  |b1flag=jp
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=lolpacific
+|lang2=tw |twitch2=lolpacifictw
+|lang3=hk |twitch3=lolpacifichk
+|lang4=jp |twitch4=riotgamesjp |youtube4=lolesportsjp
+}}
+====Co-Streams====
+{{Streams
+|lang1=jp |twitch1=takayaspecial
+|lang2=jp |twitch2=alfrea
+|lang3=jp |twitch3=syaruru3
+}}
+{{box|end}}
+
+
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| Playoffs
+|-
+| Patch
+| colspan="1" | [[Patch 14.5|14.5]]
+|-
+| Disabled 
+| colspan="1" | {{ChampionIcon|Azir|35px}}
+|}
+{{Note|1|Azir is disabled due to known bugs.}}
+
+==Additional Data==
+===Statistics===
+{{#lst:PCS/2024/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Articles===
+<!--
+*{{ExternalMediaLink
+|date=
+|link=
+|title=
+|by=
+|of=
+|mediatype=Article
+|language=
+}}
+-->
+
+*{{ExternalMediaLink
+|date=03-08-2024
+|link=https://esports-world.jp/tournament/36967
+|title=PCS 2024 Spring Split プレイオフ DAY2【2024年3月12日】
+|by=eSports World
+|of=
+|mediatype=Article
+|language=jp
+}}
+
+*{{ExternalMediaLink
+|date=03-11-2024
+|link=https://gamerszone.jp/post/18357
+|title=出場権をかけた「PCS 2024 Spring Split Playoffs」が本日開幕！ LJL上位3チームが参加
+|by=GAMERS ZONE
+|of=
+|mediatype=Article
+|language=jp
+}}
+
+*{{ExternalMediaLink
+|date=03-12-2024
+|link=https://note.com/yamaokax/n/n283c374773c7?sub_rt=share_pb
+|title=新形式PCSプレーオフの仕組みとDFMのライバルを見てみようの回
+|by=Yamaokax
+|of=
+|mediatype=Article
+|language=jp
+}}
+
+*{{ExternalMediaLink
+|date=03-12-2024
+|link=https://sports.news.naver.com/news.nhn?oid=347&aid=0000178826
+|title=LJL 자존심 지킨 DFM, J팀 꺾고 PCS PO 승자전 진출
+|by=김용우 기자
+|of=Daily e-sports
+|mediatype=Article
+|language=kr
+}}
+
+===Interviews===
+<!--
+*{{ExternalMediaLink
+|date=
+|link=
+|title=
+|by=
+|of=
+|mediatype=Interview
+|language=
+}}
+-->
+
+*{{ExternalMediaLink
+|date=03-12-2024
+|link=https://tw.news.yahoo.com/dfm-122808688.html
+|title=日本DFM直落二拿下PCS季後賽首勝！中路Aria讚對手：Minji今天很難纏
+|by=閃電
+|of=Yahoo!
+|mediatype=Interview
+|language=cn
+}}
+
+*{{ExternalMediaLink
+|date=03-13-2024
+|link=https://x.com/JesportHub/status/1768121087747928145?s=20
+|title=V3 Interview translated.
+|by=The Jesport Hub
+|of=
+|mediatype=Interview
+|language=us
+}}
+
+*{{ExternalMediaLink
+|date=03-13-2024
+|link=https://tw.news.yahoo.com/v3-145908255.html
+|title=《英雄聯盟》V3 成首隻 PCS 季後賽被淘汰戰隊，Bini：太緊張了，DFM Harp 要加油！
+|by=閃電
+|of=Yahoo!
+|mediatype=Interview
+|language=cn
+}}
+
+*{{ExternalMediaLink
+|date=03-14-2024
+|link=https://esports-world.jp/interview/37129
+|title=V3 Esports Ace選手：「PCS プレイオフ」の手応えと夏に向けての課題「手札を増やしてコールを簡潔に」
+|by=スイニャン
+|of=eSports World
+|mediatype=Interview
+|language=jp
+}}
+
+*{{ExternalMediaLink
+|date=03-14-2024
+|link=https://x.com/JesportHub/status/1768310941559529514?s=20
+|title=DFM interview translated.
+|by=The Jesport Hub
+|of=
+|mediatype=Interview
+|language=us
+}}
+
+*{{ExternalMediaLink
+|date=03-14-2024
+|link=https://tw.news.yahoo.com/dfm-145216981.html
+|title=《英雄聯盟》DFM 只差一步擊敗 FAK 晉級，Yutapon：沒有準備好就上場好可惜
+|by=閃電
+|of=Yahoo!
+|mediatype=Interview
+|language=cn
+}}
+
+*{{ExternalMediaLink
+|date=03-16-2024
+|link=https://tw.news.yahoo.com/jt-145056941.html
+|title=DFM 「讓一追二」成功，JT 成 PCS 首隻季後賽遭到淘汰戰隊，Minji：感到不甘心
+|by=閃電
+|of=Yahoo!
+|mediatype=Interview
+|language=cn
+}}
+
+*{{ExternalMediaLink
+|date=03-17-2024
+|link=https://tw.news.yahoo.com/dfm-harp-155511912.html
+|title=DFM 順利晉級，輔助 Harp：PCS 整體水準變好高！
+|by=閃電
+|of=Yahoo!
+|mediatype=Interview
+|language=cn
+}}
+
+*{{ExternalMediaLink
+|date=03-17-2024
+|link=https://tw.news.yahoo.com/dfm-160151010.html
+|title=DFM 打滿五局遭到淘汰，中路 Aria 盛讚 Cryscata 對線很強
+|by=閃電
+|of=Yahoo!
+|mediatype=Interview
+|language=cn
+}}
+
+*{{ExternalMediaLink
+|date=03-17-2024
+|link=https://x.com/JesportHub/status/1769445834905497871?s=20
+|title=DFM interview translated.
+|by=The Jesport Hub
+|of=
+|mediatype=Interview
+|language=us
+}}
+
+*{{ExternalMediaLink
+|date=03-19-2024
+|link=https://esports-world.jp/interview/37232
+|title=DFM Yutapon選手：フルセットの末、ステージ2進出を逃す「もう一度世界大会で戦えるように頑張りたい」
+|by=スイニャン
+|of=eSports World
+|mediatype=Interview
+|language=jp
+}}
+
+*{{ExternalMediaLink
+|date=03-23-2024
+|link=https://game.watch.impress.co.jp/docs/interview/1577931.html
+|title=SHG Evi選手、PCS初戦直前インタビュー！ 「PCSプレイオフで勝つために必要なものは総合力」
+|by=スイニャン
+|of=Game Watch
+|mediatype=Interview
+|language=jp
+}}
+
+===Videos===
+<!--*{{ExternalMediaLink
+|date=
+|link=
+|title=
+|by=
+|of=
+|mediatype=Video
+|language=jp
+}}
+-->
+
+{{ExternalMediaLink
+|date=03-09-2024
+|link=https://youtu.be/CoGk3LScqQM?si=Na67ewYyNtJhTH_l
+|title=What You Should Know about SHG, DFM and V3 (PCS 2024 Spring Playoffs)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-11-2024
+|link=https://youtu.be/Qn2ReQUYA1Y?si=TrAg5SrUX-Bmm4Xe
+|title=SHG・DFM・V3が勝ち抜く可能性は？PCSプレイオフ注目チーム徹底解剖
+|by=Revol, eyes
+|of=Smashlog
+|mediatype=Video
+|language=jp
+}}
+
+{{ExternalMediaLink
+|date=03-11-2024
+|link=https://youtu.be/Qn2ReQUYA1Y?si=TrAg5SrUX-Bmm4Xe
+|title=HAIRSTYLE GAP!? - BYG vs V3 (PCS Playoffs Live-viewing Streams)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-13-2024
+|link=https://youtu.be/wmvuYyue6mI?si=FvC5tR8tCG8eFyqt
+|title=GOOD LUCK PIGEON ****!? - DFM vs JT (PCS Playoffs Live-viewing Streams)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-14-2024
+|link=https://youtu.be/qijofTr1TTs?si=TAo9RDQyCfgQNrnO
+|title=GOOD BYE! - GZ vs V3 (PCS Playoffs Live-viewing Streams)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-15-2024
+|link=https://youtu.be/6hXRm5MlkFw?si=gquxL3Om4xpQFXQw
+|title=DOWN WITH THE DRAGON - FAK vs DFM (PCS Playoffs Live-viewing Streams)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-16-2024
+|link=https://youtu.be/8BDvgTC29GQ?si=8AhwktKor3ag0h8N
+|title=REVENGE OF THE SMOLDER - DFM vs JT (PCS Playoffs Live-viewing Streams)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-20-2024
+|link=https://youtu.be/w39gq5MCb64?si=Njb6LGc5ST5-9VgR
+|title=THE FALL OF A KING - DCG vs DFM (PCS Playoffs Live-viewing Streams)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-22-2024
+|link=https://youtu.be/iG-FyhZfvLc?si=FSpRBcW_wC-XivFQ
+|title=台北漢來大飯店開箱！ LJL 與 LCO 選手狂讚的極致奢華體驗 | LJL and LCO Players Enjoy Luxurious Grand Hilai Taipei
+|by=Nash
+|of=PCS
+|mediatype=Video
+|language=us
+}}
+
+{{ExternalMediaLink
+|date=03-23-2024
+|link=https://youtu.be/uvgJGkrHoh8?si=J0WajuUEA6O3hpOE
+|title=SUPPORT CAMILLE!? - Rank Check (PSG vs SHG)
+|by=Hina
+|of=The Jesport Hub
+|mediatype=Video
+|language=us
+}}
+
+==References==
+{{Reflist}}
+
+{{2024 Season International Cycle Navbox}}

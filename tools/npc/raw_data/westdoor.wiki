@@ -1,0 +1,49 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Westdoor&redirects=1
+<!-- 抓取: 2026-08-16T17:13:22.353Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Westdoor
+|autoPI=Yes
+|image=AHQ westdoor at Worlds 2017.jpg
+|name=劉書瑋
+|romanized_name=Liu Shu-wei
+|familyname=Liu
+|givenname=Shu-wei
+|birth_date=1993-10-16
+|country=Taiwan
+|team=
+|status=Retired
+|roles=jungle,mid
+|twitch=westdoor
+|ids=
+|instagram=westdoor_1016
+|facebook=ho5866252
+|askfm=
+|reddit=
+|champion=Fizz
+|champion2=Twisted Fate
+|retired=2019-01-07
+|history=
+}}
+
+On January 7th, 2019, westdoor announced his official retirement from competitive gaming.
+
+==Achievements==
+{{player achievements table|player=westdoor}}
+
+==Awards==
+{{player awards table|player=westdoor}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+AHQ westdoor at Worlds 2014.jpg|westdoor at the [[World_Championship/2014|2014 World Championship]] with [[ahq e-Sports Club]]
+ahq westdoor at IEM Taipei 2015.jpg|westdoor at [[Intel_Extreme_Masters/Season_IX/Taipei|IEM Season IX - Taipei]] with [[ahq e-Sports Club]]
+AHQ Westdoor 2016Worlds.jpg|westdoor at the [[World_Championship/2016|2016 World Championship]] with [[ahq e-Sports Club]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

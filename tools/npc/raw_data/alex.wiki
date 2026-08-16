@@ -1,0 +1,34 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Alex&redirects=1
+<!-- 抓取: 2026-08-16T15:30:06.301Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Alex
+|image=Ahq Alex Worlds 2019.jpg
+|name=陳煜明
+|romanized_name=Chen Yu-ming
+|familyname=Chen
+|givenname=Yu-ming
+|birth_date=2000-01-22
+|country=Taiwan
+|autoPI=Yes
+|status=active
+|roles=jungle
+|twitch=
+|ids=Boom
+|twitter=
+|askfm=
+|reddit=
+}}
+
+==Achievements==
+{{player achievements table|player=Alex}}
+
+==Awards==
+{{player awards table|player=Alex}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

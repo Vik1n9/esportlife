@@ -1,0 +1,36 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LaoPi&redirects=1
+<!-- 抓取: 2026-08-16T17:35:54.202Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=LaoPi
+|image=
+|name=黃永昌
+|romanized_name=Wong Wing Cheong
+|familyname=Wong
+|givenname=Wing Cheong
+|autoPI=Yes
+|birth_date=1991-11-14
+|country=Hong Kong
+|status=Retired
+|roles=top
+|twitch=wong1224
+|ids=
+|facebook=wong1224
+|youtube=
+|reddit=
+|achievements=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=LaoPi}}
+
+==Awards==
+{{player awards table|player=LaoPi}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

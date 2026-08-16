@@ -1,0 +1,208 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LMS%2F2016%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T17:35:50.842Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LMS 2016 Summer }}
+{{Garena Taiwan Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=LMS/2016/Summer
+|name2=Group Stage
+|link2=LMS/2016/Summer/Group_Stage
+|name3=Playoffs
+|link3=LMS/2016/Summer/Playoffs
+|name4=Promotion
+|link4=LMS/2017/Spring/Promotion
+|This=1}}
+{{Infobox league
+|name=LMS 2016 Summer 
+|shortname=2016 Summer 
+|tickername=LMS Summer 2016
+|image=LMS Logo.png
+|series=LMS
+|icon=LMS_Logo.png
+|organizer2=Riot Games|organizer2-link=http://www.riotgames.com/
+|organizer=Garena Taiwan|organizer-link=https://www.garena.tw/
+|sponsor=
+|patch=
+|epatch=
+|server=Taiwan
+|type=offline
+|country=Taiwan
+|city=Taipei
+|venue=
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=98,567
+|localcurrency=twd
+|prizepool=3,000,000
+|sdate=2016-06-09
+|edate=2016-08-21
+|liquipediatier=1
+|highlighted=|rulebook=https://image.garena.tw/lol/news/2016%20LMS/20160601/LMS%202016%20%E5%A4%8F%E5%AD%A3%E8%B3%BD%E8%A6%8F%E7%AB%A0%20Ver.1.2.pdf
+|website=http://2016.lms.garena.tw/
+|stream=https://garena.live/
+|youtube=channel/UCCqnLewexMM7LwGzqpMpPrA
+|twitch=garenatw
+|twitch2=
+|team_number=8
+|previous=LMS/2016/Spring{{!}}Spring 2016
+|next=LMS/Spring/2017{{!}}Spring 2017
+}}
+
+==Overview==
+===Format===
+
+===Broadcast Talent===
+
+===Prize Pool===
+$3,000,000 {{Abbr/NTD}} (≈ $98,567 {{Abbr/USD}}) are spread among the teams as seen below:
+{{prize pool start|points=lms2016|localcurrency=ntd|cutafter=10}}
+{{prize pool slot |place=1 |points=q |link=World_Championship/2016 |usdprize=49,287 |localprize=1,500,000 |flash wolves |lastvs1=j team |lastscore1=3 |lastvsscore1=0}}
+{{prize pool slot |place=2 |points=90 |usdprize=19,714 |localprize=600,000 |j team |lastvs1=flash wolves |lastscore1=0 |lastvsscore1=3}}
+{{prize pool slot |place=3 |points=70 |usdprize=13,143 |localprize=400,000 |ahq |lastvs1=flash wolves |lastscore1=2 |lastvsscore1=3 |date1=2016-08-18 }}
+{{prize pool slot |place=4 |points=40 |usdprize=6,571 |localprize=200,000 |hong kong esports |lastvs1=ahq |lastscore1=0 |lastvsscore1=3 |date1=2016-08-17 }}
+{{prize pool slot |place=5 |points=20 |usdprize=3,942 |localprize=120,000 |midnight sun esports |wdl1=7/7}}
+{{prize pool slot |place=6 |points=20 |usdprize=2,628 |localprize=80,000 |machi esports |wdl1=7/7}}
+{{prize pool slot |place=7 |points=0 |usdprize=1,642 |localprize=50,000 |extreme gamers |wdl1=5/9}}
+{{prize pool slot |place=8 |points=0 |usdprize=1,642 |localprize=50,000 |team mist |wdl1=-/-}}
+{{Prize pool end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=ahq e-Sports Club
+|image=
+|p1=Ziv|p1link=Ziv_(Taiwanese_player)
+|p2=Mountain|p2flag=tw
+|p3=Westdoor|p3flag=tw
+|p4=An|p4flag=tw
+|p5=Albis|p5flag=tw
+
+|t2p1=BayBay|t2p1flag=tw|t2pos1=jungle
+|t2p2=RD|t2p2flag=tw|t2pos2=adc
+
+|t3p1=Greentea|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|image=
+|p1=MMD|p1flag=tw
+|p2=Karsa|p2flag=tw
+|p3=Maple|p3flag=tw
+|p4=NL|p4flag=tw
+|p5=SwordArT|p5flag=tw
+
+|t2p1=Steak|t2p1flag=tw|t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Hong Kong Esports
+|image=
+|p1=MapleSnow|p1flag=tw
+|p2=DinTer|p2flag=tw
+|p3=Gear|p3flag=hk
+|p4=Raison|p4flag=kr
+|p5=Olleh|p5flag=kr
+
+|t2p1=XiaoLiang|t2p1flag=tw|t2pos1=top
+|t2p2=wind|t2p2link=Wind_(Lai_Chap-yin)|t2p2flag=hk|t2pos2=jungle
+|t2p3=MarS|t2p3flag=tw|t2pos3=mid
+
+|t3p1=Revo|t3p1flag=hk|t3pos1=Head Coach
+|qualifier=[[LMS/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=J Team
+|image=
+|p1=Morning|p1flag=tw
+|p2=REFRA1N|p2flag=tw
+|p3=FoFo|p3flag=tw
+|p4=BeBe|p4flag=tw
+|p5=Jay |p5link=Jay (Taiwanese player)|p5flag=tw
+
+|t2p1=Sim |t2p1flag=kr |t2p1pos=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Machi Esports
+|image=
+|p1=BoBo |p1link=BoBo (Wang You-Lin) |p1flag=tw
+|p2=Taizan|p2flag=tw
+|p3=Apex|p3flag=tw
+|p4=Dee|p4flag=tw
+|p5=Dreamer|p5flag=tw
+
+|t2p1=Vayn3z|t2p1flag=tw|t2pos1=top
+|t2p2=PaSa|t2p2flag=hk|t2pos2=mid
+|t2p3=Breaker|t2p3flag=tw|t2pos3=adc
+
+|t3p1=Grey|t3p1flag=us|t3pos1=Head Coach
+|qualifier=[[LMS/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Midnight Sun Esports
+|image=
+|p1=Ninuo|p1flag=tw
+|p2=Wulala|p2flag=tw
+|p3=M1ssion|p3flag=tw
+|p4=CorGi|p4flag=tw
+|p5=Kaiwing|p5flag=hk
+
+|t2p1=NeXAbc |t2p1flag=tw |t2p1pos=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=eXtreme Gamers
+|image=
+|p1=Nexus |p1link=Nexus (Hong Kong player)|p1flag=hk
+|p2=Yo|p2flag=tw
+|p3=SuwaKo|p3flag=tw
+|p4=LBB|p4flag=tw
+|p5=Suki|p5flag=tw
+
+|t2p1=Mist|t2p1link=Mist (Taiwanese player)|t2p1flag=tw|t2pos1=top
+|t2p2=Pony|t2p2flag=hk|t2pos2=jungle
+
+|t3p1=Atu|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/Summer/2016/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team Mist
+|image=
+|p1=Rins|p1flag=tw
+|p2=Benny|p2link=Benny_(Taiwanese_player)|p2flag=tw
+|p3=Zor|p3flag=tw
+|p4=Breeze|p4flag=tw
+|p5=Rain|p5flag=tw
+
+|t2p1=K|t2p1flag=tw|t2pos1=jungle
+
+|t3p1=Cyo|t3p1flag=tw|t3pos1=Head Coach
+|qualifier=[[LMS/Summer/2016/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Regular Season===
+{{#lst:LMS/2016/Summer/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LMS/2016/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LMS/2016/Summer/Playoffs|Playoffs}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=tw |twitch1=garenatw
+|lang2=tw |youtube2=channel/UCCqnLewexMM7LwGzqpMpPrA
+|lang3=tw |garena3=
+}}
+
+==External links==
+
+==References==
+{{Reflist}}

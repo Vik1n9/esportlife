@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=KuKu&redirects=1
+<!-- 抓取: 2026-08-16T16:15:43.050Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links|honorofkings=KuKu}}
+{{Person Tabs}}
+{{Infobox player
+|id=KuKu
+|image=
+|name=林家富
+|romanized_name=Lam Ka Fu
+|birth_date=1996-09-01
+|country=Macau
+|team=
+|status=retired
+|roles=mid
+|ids=
+|twitch=
+|instagram=
+|facebook=
+|youtube=
+|twitter=
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+Lam '''"KuKu"''' Ka Fu is a [[:Category:Macau|Macaunese]] player who last was the Midlaner for [[Fireball]].
+
+==Achievements==
+{{player achievements table|player=KuKu}}
+
+==Awards==
+{{player awards table|player=KuKu}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

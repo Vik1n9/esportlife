@@ -1,0 +1,33 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Xinshou1&redirects=1
+<!-- 抓取: 2026-08-16T17:19:59.000Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Xinshou1
+|autoPI=Yes
+|image=
+|name=謝政廷
+|romanized_name=Hsieh Cheng-ting
+|birth_date=
+|country=Taiwan
+|status=Active
+|roles=Jungle
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+}}
+
+==Achievements==
+{{player achievements table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

@@ -1,0 +1,37 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kerry&redirects=1
+<!-- 抓取: 2026-08-16T16:11:58.646Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Kerry
+|autoPI=Yes
+|image=
+|name=鍾睿文
+|romanized_name=Chung Jui-wen
+|birth_date=
+|country=Taiwan
+|country2=
+|team=
+|status=Active
+|roles=Support,,
+|ids=
+|instagram=
+|facebook=
+|twitter=
+|twitch=
+|youtube=
+|vk=
+|weibo=
+}}
+
+==Achievements==
+{{player achievements table|player=Kerry}}
+
+==Awards==
+{{player awards table|player=Kerry}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

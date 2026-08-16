@@ -1,0 +1,36 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=SuperCat&redirects=1
+<!-- 抓取: 2026-08-16T17:07:51.301Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=SuperCat
+|image=
+|name=張嘉明
+|romanized_name=Cheung Ka Ming
+|familyname=Cheung
+|givenname=Ka Ming
+|autoPI=Yes
+|birth_date=1993-08-10
+|country=Hong Kong
+|status=Retired
+|roles=mid
+|twitch=kaming810
+|ids=SuperC4t, SuperCatt
+|facebook=
+|youtube=
+|reddit=
+|achievements=
+|history=
+}}
+
+==Achievements==
+{{player achievements table|player=SuperCat}}
+
+==Awards==
+{{player awards table|player=SuperCat}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

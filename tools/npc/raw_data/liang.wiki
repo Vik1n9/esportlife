@@ -1,0 +1,63 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Liang&redirects=1
+<!-- 抓取: 2026-08-16T16:23:01.638Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1=Overview |link1=Liang
+|name2=Results |link2=Liang/Results
+|name3=Broadcasts |link3=Liang/Broadcasts
+}}
+{{Infobox player
+|id=Liang
+|image=Liang Worlds 2022.jpg
+|name=吳亮德
+|romanized_name=Wu Liang-te
+|familyname=Wu
+|givenname=Liang-te
+|birth_date=1998-07-14
+|country=Taiwan
+|team=
+|status=active
+|roles=top
+|role2=Caster
+|ids=XiaoLiang
+|twitch=
+|instagram=
+|facebook=Liang0714
+|factor=1688
+|youtube=
+|twitter=
+|bestgg=liang
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+Wu '''"Liang"''' Liang-te {{born}} is a [[:Category:Taiwan|Taiwanese]] caster for the [[PCS|Pacific Championship Series]] and who last played for [[Beyond Gaming]].
+
+==Achievements==
+{{tabs dynamic
+|name1=As Talent
+|name2=As Player
+|This=1
+|content1=
+{{Broadcast talent achievements table|broadcaster=Liang}}
+|content2=
+{{Player achievements table|player=Liang}}
+}}
+
+==Awards==
+{{player awards table|player=Liang}}
+
+==Media==
+===Interviews===
+{{ExternalMediaList
+|type=Interview
+|subject=Liang
+|seperate_years=true
+}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

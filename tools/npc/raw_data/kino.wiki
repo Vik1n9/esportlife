@@ -1,0 +1,45 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Kino&redirects=1
+<!-- 抓取: 2026-08-16T16:41:11.462Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=Kino
+|image=CFO Kino LCP 2026 Split 3.jpg
+|name=吳欣榮
+|romanized_name=Wu Hsin-jung
+|familyname=Wu
+|givenname=Hsin-jung
+|autoPI=Yes
+|birth_date=1998-04-12
+|country=Taiwan
+|team=
+|status=active
+|roles=support
+|ids=LanPeiFang
+|facebook=BYG-Kino-103203647904931
+|factor=727
+|twitter=
+|twitch=kino_0412
+|reddit=
+|champion=
+|champion2=
+|history=
+{{THA}}
+}}
+
+==Achievements==
+{{player achievements table|player=Kino}}
+
+==Awards==
+{{player awards table|player=Kino}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="200px">
+Kino_Worlds_2022.jpg|[[Beyond Gaming|BYG]] Kino at [[Worlds 2022]]
+</gallery>
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}

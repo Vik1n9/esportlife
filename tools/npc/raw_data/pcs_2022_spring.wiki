@@ -1,0 +1,380 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PCS%2F2022%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T18:08:43.029Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:PCS Spring 2022}}
+{{PCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=PCS/2022/Spring
+|name2=Group Stage
+|link2=PCS/2022/Spring/Group Stage
+|name3=Playoffs
+|link3=PCS/2022/Spring/Playoffs
+|name4=Statistics
+|link4=PCS/2022/Spring/Statistics
+|This=1}}
+{{Infobox league
+|name=PCS Spring 2022
+|image=Pacific Championship Series lightmode.png
+|imagedark=Pacific Championship Series darkmode.png
+|icon=Pacific Championship Series icon lightmode.png
+|icondark=Pacific Championship Series icon darkmode.png
+|shortname=Spring 2022
+|tickername=PCS Spring 2022
+|series=PCS
+|organizer=Riot Games
+|organizer2=Carry.live|organizer2-link=https://www.carry.live/
+|organizer3=Garena|organizer3-link=https://www.garena.tw/
+|sponsor=[https://www.ctbcbank.com/twrbo/zh_tw/index.html CTBC]</br>[https://calibre-global.com/ Calibre]
+|patch=
+|epatch=
+|country=Taiwan
+|country2=Hong Kong
+|country3=Southeast Asia
+|type=Online
+|venue=
+|format=Double Round Robin ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|sdate=2022-02-11
+|edate=2022-04-17
+|prizepoolusd=80,000
+|prizepool=
+|liquipediatier=2
+|team_number=10
+|website=http://www.lolpcs.com/
+|facebook=lolpacific
+|twitter=lolesportspcs
+|twitch=lolpacifictw
+|youtube=lolpacific
+|previous=PCS/2021/Summer{{!}}Summer 2021
+|next=PCS/2022/Summer{{!}}Summer 2022
+}}
+
+==Format==
+* '''Group Stage''' - ''February 11th - March 19th, 2022''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 8th place will play the playoffs
+***1st and 2nd place are seeded into Semifinals
+***3rd to 6th place are seeded into Quarterfinals
+***7th and 8th place are seeded into Losers' Round 1
+* '''Playoffs''' - ''March 31st - April 17th, 2022''
+** Double Elimination
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2022|Mid-Season Invitational 2022]]
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Taiwanese
+|name3=Thai
+|name4=Cantonese
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=Hysterics
+|b2=PiraTechnics
+}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator
+|b1=Clement Chu
+|b2=Nit3Star
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=tw
+|position=Host
+|b1=Reirachu <!-- https://youtu.be/bLwC8biHGHQ?si=5TiXpvR3cG5G5-VX&t=3149 -->
+}}
+{{BroadcasterCard|lang=tw
+|position=Commentator
+|b1=JR
+|b2=Section
+|b3=Tommy
+}}
+{{BroadcasterCard|lang=tw
+|position=Analyst
+|b1=Mountain
+|b2=Wulong
+|b3=Zod
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Commentator
+|b1=Cezanne |b1flag=th
+|b2=Lastcrosser |b2flag=th
+|b3=Robert Chase
+|b4=Xegor
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=hk
+|position=Commentator
+|b1=Bella |b1link=Bella (Cantonese caster)
+|b2=Dream |b2link=Dream (Cantonese caster)
+|b3=Hei Hei
+|b4=LoSing
+|b5=Sang
+|b6=Sigma
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{box|start|padding=2em}}
+{{prize pool start |points=seed |cutafter=10}}
+{{prize pool slot|place=1 |usdprize=30,000 |points=[[Mid-Season Invitational/2022|MSI]] |psg talon |lastvs1=ctbc flying oyster |lastscore1=3 |lastvsscore1=2}}
+{{prize pool slot|place=2 |usdprize=14,000 |ctbc flying oyster |lastvs1=psg talon |lastscore1=2 |lastvsscore1=3}}
+{{prize pool slot|place=3 |usdprize=10,000 |j team |lastvs1=psg talon |lastscore1=2 |lastvsscore1=3 |date1=2022-04-16}}
+{{prize pool slot|place=4 |usdprize=7,000 |deep cross gaming |lastvs1=j team |lastscore1=1 |lastvsscore1=3 |date1=2022-04-15}}
+{{prize pool slot |place=5-6 |usdprize=4,500
+|frank esports |lastvs1=deep cross gaming |lastscore1=0 |lastvsscore1=3 |date1=2022-04-10
+|beyond gaming |lastvs2=j team |lastscore2=2 |lastvsscore2=3 |date2=2022-04-09
+}}
+{{prize pool slot |place=7-8 |usdprize=3,000
+|meta falcon team |lastvs1=frank esports |lastscore1=0 |lastvsscore1=3 |date1=2022-04-02
+|impunity |lastvs2=beyond gaming |lastscore2=0 |lastvsscore2=3 |date2=2022-04-03
+}}
+{{prize pool slot|place=9 |usdprize=2,000 |hurricane gaming |wdl1=2/16 |date1=2022-03-19}}
+{{prize pool slot|place=10 |usdprize=2,000 |sem9 |wdl1=0/18 |date1=2022-03-19}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=PCS/2022/Spring/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=PCS/2022/Spring/Playoffs
+}}
+{{box|end}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2021-08-29
+|team=alpha esports
+|team2=berjaya dragons
+|team3=beyond gaming
+|team4=boom esports
+|team5=hong kong attitude
+|team6=impunity
+|team7=j team
+|team8=liyab esports
+|team9=machi esports
+|team10=psg talon
+|team11=ctbc flying oyster
+|team12=deep cross gaming
+|team13=frank esports
+|team14=hurricane gaming
+|team15=meta falcon team
+|team16=sem9
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Liang
+|p2=Husha
+|p3=Minji
+|p4=Wako
+|p5=Kino
+
+|t2p1=Likai |t2pos1=top
+
+|t3p1=Benny |t3p1link=Benny (Taiwanese player) |t3pos1=Head Coach
+|t3p2=Wulala|t3pos2=assistant coach
+}}
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=Gemini
+|p3=M1ssion
+|p4=Atlen
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=Shunn |t2pos1=bot
+
+|t3p1=Achie |t3pos1=Head Coach
+|t3p2=Kevin Miller |t3pos2=coach
+|inotes={{NoteBig
+|n1=January 26th - '''CTBC Flying Oyster''' acquires [[Hong Kong Attitude]]'s PCS slot. <ref>{{cite web |url=https://www.facebook.com/ctbc.flyingoyster/posts/103569912241216 |title=We are family Nakushin Air Force Official Completion |date=2022-01-26 |author=[[CTBC Flying Oyster]] |publisher=Facebook |language={{Flag|usuk}} English}}</ref>
+|n2=March 11th - According to the game against [[Hurricane Gaming]], {{player|Shunn|pos=bot}} joins the team.
+}}
+}}
+{{TeamCard
+|team=Deep Cross Gaming
+|p1=Leaky
+|p2=Hana
+|p3=Nestea
+|p4=Cryscata
+|p5=Woody
+
+|t2p1=Enzz |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|inotes={{NoteBig
+|n1=[[Deep Cross Gaming]] acquires the PCS slot of [[Liyab Esports]]. <ref name="4 new entries">{{cite web |url=https://lolesports.com/article/teams-announced-for-the-pacific-championship-series-2022-spring-split/blt34e2b7342d8f51dc |title=Teams Announced for the Pacific Championship Series 2022 Spring Split |date=2022-01-28 |author=[[LoL Esports]] |publisher=LoL Esports |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Frank Esports
+|p1=Kirt |p1flag=hk
+|p2=Holo
+|p3=Pretender
+|p4=MnM
+|p5=K2
+
+|t2p1=Rebirth |t2p1flag=hk |t2pos1=sup
+
+|t3p1=Skywalk |t3p1flag=hk |t3pos1=Head Coach
+|t3p2=Jazkit |t3p2flag=hk |t3pos2=Assistant Coach
+|inotes={{NoteBig
+|n1=[[Frank Esports]] acquires the PCS slot of [[BOOM Esports]]. <ref name="4 new entries"/>
+}}
+}}
+{{TeamCard
+|team=Impunity
+|p1=Quiet |p1flag=tw
+|p2=tako |p2flag=tw
+|p3=Faith |p3link=Faith (Macanese player) |p3flag=mo
+|p4=Blaze
+|p5=pinwei |p5flag=tw
+
+|t2p1=CraliX |t2p1flag=sg |t2pos1=bot
+
+|t3p1=Jayz |t3p1flag=sg |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=J Team
+|p1=Driver
+|p2=Kongyue
+|p3=Uniboy
+|p4=Lilv
+|p5=Enso
+
+|t2p1=BigWei |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Hurricane Gaming
+|p1=ICU |p1flag=tw
+|p2=aoliao |p2flag=cn
+|p3=qiaqia |p3link=Boz
+|p4=BangTwo |p4flag=tw
+|p5=EnHoa |p5flag=tw
+
+|t2p1=Sen |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|inotes={{NoteBig
+|n1=[[Alpha Esports]] rebrands to [[Hurricane Gaming]]. <ref name="4 new entries"/>
+}}
+}}
+{{TeamCard
+|team=Meta Falcon Team
+|p1=Taco
+|p2=665
+|p3=Wen
+|p4=Whale
+|p5=Renhao
+
+|t2p1=Epoch |t2pos1=sup
+
+|t3p1=Lx2 |t3p1flag=tw |t3pos1=Head Coach
+|inotes={{NoteBig
+|n1=[[Meta Falcon Team]] acquires the PCS slot of [[Machi Esports]]. <ref name="4 new entries"/>
+}}
+}}
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi
+|p2=Juhan
+|p3=Bay
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=CorGi |t2pos1=Head Coach
+|t2p2=Tom |t2pos2=Coach
+|t2p3=Maru|t2pos3=assistant Coach|t2p3flag=kr
+|t2title=Staff
+}}
+{{TeamCard
+|team=SEM9
+|p1=Shiromine
+|p2=Arashi
+|p3=Lezar |p3flag=my
+|p4=Clayx |p4flag=my
+|p5=Felia |p5flag=my
+
+|t2p1=QaspieL |t2pos1=jg
+|t2p2=Kirino |t2p2flag=my |t2pos2=mid
+
+|t3p1=Axin |t3p1flag=tw |t3pos1=Head Coach
+|inotes={{NoteBig
+|n1=November 17th - '''Berjaya Dragons''' are acquired by [[SEM9]]. <ref>{{Cite web |url=https://www.facebook.com/BerjayaDragons/posts/440341540826180 |title=We are proud to announce that our League of Legends and Wild Rift roster will be merged into SEM9. |date=2021-11-17 |author='''Berjaya Dragons''' |publisher=Facebook |language={{Flag|usuk}} English}}</ref><ref>{{Cite web |url=https://www.facebook.com/SEM9.gg/posts/436600694533051 |title=𝗦𝗘𝗠𝟵 𝗔𝗰𝗾𝘂𝗶𝗿𝗲𝘀 𝗕𝗲𝗿𝗷𝗮𝘆𝗮 𝗗𝗿𝗮𝗴𝗼𝗻𝘀 |date=2021-11-17 |author=[[SEM9]] |publisher=Facebook |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#section:PCS/2022/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[PCS/2022/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=Kfu0vowyAZ}}
+==Additional Data==
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=lolpacific
+|lang2=tw |twitch2=lolpacifictw
+|lang3=hk |twitch3=lolpacifichk
+|lang4=th |twitch4=lolpacificth
+}}
+{{box|end}}
+
+
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="3" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-3-notes/ 12.3]
+| colspan="2" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-4-notes/ 12.4]
+| colspan="2" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-5-notes/ 12.5]
+|-
+| Disabled
+| colspan="7" |
+|}
+
+===Statistics===
+{{#lst:PCS/2022/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==References==
+{{Reflist}}
+
+{{2022 Season International Cycle Navbox}}

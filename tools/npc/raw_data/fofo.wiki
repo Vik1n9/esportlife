@@ -1,0 +1,42 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=FoFo&redirects=1
+<!-- 抓取: 2026-08-16T15:50:01.300Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs|statistics=1}}
+{{Infobox player
+|id=FoFo
+|autoPI=Yes
+|image=PSG FoFo at LCP 2025 Mid Season.jpg
+|name=朱駿嵐
+|romanized_name=Chu Chun-lan
+|familyname=Chu
+|givenname=Chun-lan
+|birth_date=1999-01-08
+|country=Taiwan
+|status=Active
+|twitch=
+|twitter=
+|facebook=
+|youtube=
+|roles=mid
+|ids=
+}}
+
+==Achievements==
+{{Player achievements table}}
+
+==Statistics==
+{{Player statistics table}}
+
+==Awards==
+{{player awards table}}
+
+==Media==
+{{Player Media}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+FoFo All-Star 2017.jpg|FoFo at [[All-Star/2017|All-Star 2017]]
+</gallery>
+
+==References==
+{{Reflist}}
+{{Player team roster}}

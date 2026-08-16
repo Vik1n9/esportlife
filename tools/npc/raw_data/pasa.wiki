@@ -1,0 +1,43 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=PaSa&redirects=1
+<!-- 抓取: 2026-08-16T16:56:52.144Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Person Tabs}}
+{{Infobox player
+|id=PaSa
+|autoPI=Yes
+|image=
+|name=羅鴻盛
+|romanized_name=Lo Hung Sing
+|familyname=Lo
+|givenname=Hung Sing
+|birth_date=1995-12-17
+|country=Hong Kong
+|team=
+|status=active
+|roles=support,Bot,mid
+|ids=
+|twitch=djkaka300
+|instagram=
+|facebook=PaSa-1409784892645244/
+|youtube=
+|twitter=SO4Pride
+|bestgg=
+|askfm=
+|reddit=
+|champion=
+|champion2=
+|history=
+}}
+
+
+==Achievements==
+{{player achievements table|player=PaSa}}
+
+==Awards==
+{{player awards table|player=PaSa}}
+
+==Media==
+{{Player Media}}
+
+==References==
+{{Reflist}}
+{{Player team roster}}
