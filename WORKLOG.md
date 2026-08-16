@@ -1,5 +1,40 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S42b 寬螢幕版面修正：三欄重疊、sticky 落點、超寬欄距
+
+- **回報**：寬螢幕實機截圖「版面排列混亂，沒有照計劃排列」。復現（playwright，
+  1440×900）確認 §22.6 線框的三欄在實作上根本沒成形。
+
+- **根因（一行 CSS）**：`≥1024px` 那段只寫了 `#app{grid-column:2}`，`#panel` 仍留在
+  `≥720px` 段設定的第 2 欄。兩者同格疊放——量測 `#app` x=370 w=600、`#panel` x=240
+  w=860，選手資料整片蓋在敘事流上，右邊 340px 欄空著。補 `#panel{grid-column:3}`。
+
+- **⚠ 硬寫的 sticky 落點**：`#year-dir` 與 `.panel-sheet` 都寫 `top:56px`，但狀態帶
+  是五列、列4 任務會整列折疊，實測 165px（且會變）。側欄因此滑進狀態帶底下。
+  解法：`initBoardMetrics()` 用 `ResizeObserver` 量 `#board` 實高寫回 `--board-h`
+  （寫在 `#layout` 上），三處 sticky 與兩處高度計算全部改吃變數，不留第二份常數。
+
+- **⚠ sticky 需要可走的距離**：`.panel-sheet` 的包含塊是 `#panel`（`position:static`
+  的 grid item），grid 的 `align-items:start` 讓 `#panel` 只有內容高，sticky 等於
+  沒作用——長日誌一捲右欄就跟著滑掉。`#panel` 補 `align-self:stretch`。
+  `#year-dir` 不受影響：它自己就是 grid item，包含塊是整個 grid area。
+
+- **超寬螢幕**：`1fr` 吃滿視窗，中欄（600px 上限）在裡面置中，2560px 下與左欄裂出
+  690px 空白。線框畫的是三欄相鄰，所以改成整個 grid 置中：`#layout` 補
+  `max-width`（兩欄 940＝600+340／三欄 1180＝240+600+340）。
+
+- **順手修**：`#app` 補 `min-height:calc(100dvh - var(--board-h))`，決策槽回到欄底；
+  `panel/player.js` 的蓄力讀數補 `num()`（原樣印浮點 `·蓄0.1376267417605339`，
+  把屬性列擠成兩行）——`attrbar.js`／`actions.js` 早有同一份格式化，只有這處漏掉。
+
+- **實測結論**：`npm test` 22757 項全綠（本站不動引擎）。playwright 掃八個寬度
+  （360／719／720／1023／1024／1440／1920／2560）逐一比對三欄 bounding box：
+  無重疊、無橫向溢出；長日誌捲到底時 `.panel-sheet` 與 `#year-dir` 皆停在
+  `top=165／bottom=900`。窄螢幕（390／719）回歸確認：面板仍是抽屜、☰ 仍在、
+  年度目錄仍隱藏。
+
+- **狀態**：完成。版號不升（純修正，規格未動）。
+
 ## 2026-08-17 — S42 寬螢幕版面：兩個斷點、#panel 兩態、年度目錄左欄
 
 - **方向**：現行版面固定單欄置中，寬螢幕兩側大量留白，選手資料被關在底部抽屜。
