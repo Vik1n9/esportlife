@@ -1,0 +1,768 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2018&redirects=1
+<!-- 抓取: 2026-08-16T18:30:39.049Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2018 World Championship}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World_Championship/2018
+|name2=Qualification
+|link2=World_Championship/2018/Qualification
+|name3=Championship Points
+|link3=World_Championship/2018/Championship_Points
+|name4=Regional Finals
+|link4=World_Championship/2018/Regional_Finals
+|name5=Play-In
+|link5=World_Championship/2018/Play-In
+|name6=Group Stage
+|link6=World_Championship/2018/Group_Stage
+|name7=Playoffs
+|link7=World_Championship/2018/Playoffs
+|name8=Statistics
+|link8=World_Championship/2018/Statistics
+|name9=Additional Content
+|link9=World_Championship/2018/Additional_Content
+|This=1}}
+{{Infobox league
+|name=2018 World Championship
+|shortname=Worlds 2018
+|image=Worlds 2018 Logo.png
+|series=World Championships
+|icon=Worlds crest.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.mastercard.com/ Mastercard]
+|sponsor2=[https://www.acer.com/predator Acer Predator]
+|sponsor3=[https://www.statefarm.com/ State Farm]
+|server=
+|type=offline
+|country=South Korea
+|country2=South Korea
+|country3=South Korea
+|country4=South Korea
+|city=Seoul
+|city2=Busan
+|city3=Gwangju
+|city4=Incheon
+|venue=LoL Park
+|venue2=BEXCO Auditorium
+|venue3=Gwangju Women's University Universiade Gymnasium
+|venue4=Incheon Munhak Stadium
+|rulebook=http://esports-assets.s3-us-west-2.amazonaws.com/production/files/rules/2018-World-Championship-Rule-Set-v18.4.pdf
+|format=
+|patch=8.19
+|prizepoolusd=6,450,000
+|date=
+|sdate=2018-10-01
+|edate=2018-11-03
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/en_US
+|stream=
+|twitch=riotgames
+|team_number=24
+|previous=World_Championship/2017{{!}}2017
+|next=World_Championship/2019{{!}}2019
+}}
+
+==Format==
+* '''Qualification'''
+** 24 teams from professional leagues will qualify for the event.
+** 14 region winners of the recent split
+*** The winners of Brazil (CBLOL), Commonwealth of Independent States (LCL), Japan (LJL), Latin America North (LLN), Latin America South (CLS), Oceania (OPL), Southeast Asia (SEA Tour) and Turkey (TCL) will qualify for the Play-In Stage.
+*** The winners of China (LPL), Europe (EU LCS), Korea (LCK), North America (NA LCS), Taiwan/Hong Kong/Macau (LMS) and Vietnam (VCS) will qualify for the Group Stage as the region's first seed.
+** 5 Championship Point seeds
+*** Championship Points are awarded to teams based on their Spring and Summer performances in Korea (LCK), China (LPL), Europe (EU LCS), Taiwan/Hong Kong/Macau (LMS) and North America (NA LCS)
+*** The teams with the highest Championship Points will qualify for the Group Stage as the region's second seed.
+*** The remaining teams can qualify for the Regional Finals depending on their point ranking.
+** 5 Regional Finals winners
+*** The winner of the Korea (LCK) Regional Finals will qualify for the Group Stage as the region's third seed.
+*** The winners of the China (LPL), Europe (EU LCS), Taiwan/Hong Kong/Macau (LMS), and North America (NA LCS) Regional Finals will qualify for the Play-In Stage as the region's third seed.
+* '''Play-In Round 1''' - ''October 1st - 4th in {{Flag|kr}} Seoul''
+** Twelve teams are divided into four groups where they play a Double Round Robin format.
+**All matches are played in a {{Abbr/Bo1}}.
+**<span class="bg-up">Top two teams</span> in each group advance to Play-In: Round 2.
+**<span class="bg-down">Bottom team</span> in each group is eliminated.
+* '''Play-In Round 2''' - ''October 6th - 7th in {{Flag|kr}} Seoul''
+** First-place teams from each group are randomly paired with second-place teams from another group for a {{Abbr/Bo5}}.
+** The winner of each match advances to the Group Stage.
+* '''Group Stage''' - ''October 10th - 17th in {{Flag|kr}} Busan''
+** Four teams from Play-In Round 2 join twelve teams with direct entry from Korea, China, Europe, Taiwan/Hong Kong/Macau, North America and Vietnam.
+** All sixteen teams are divided into four groups where they play a Double Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+**<span class="bg-up">Top two teams</span> in each group advance to Knockout Stage.
+**<span class="bg-down">Bottom two teams</span> in each group are eliminated.
+* '''Knockout Stage''' - ''October 20th - 21st in {{Flag|kr}} Busan, October 27th - 28th in {{Flag|kr}} Gwangju and November 3rd in {{Flag|kr}} Incheon''
+** Eight teams play in a single elimination bracket over five matchdays.
+** All matches are {{Abbr/Bo5}}.
+
+===Worlds Draw Show===
+The Worlds Draw Show held on {{Countdown|date=September 23, 2018 - 21:00 {{Abbr/KST}}|rawdatetime=true}} was the process by which teams are placed into groups for the Play-In Stage and the Group Stage of the 2018 World Championship. 
+
+<span class="mw-customtoggle-PreSeasonNotes">'''''Click here''' for more details on the draw process.''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-PreSeasonNotes" style="width:75%">
+====Play-In Draw====
+* ''' Pools'''
+** Twelve teams have been placed into three Draw Pools based on past regional performance over the last two years of international competition.
+*** Recent results prioritised over older results and regions were evaluated on tournament results by the stage achieved, regardless of opponent or game record.
+*** Pool 1: Third seeds from Taiwan, Hong Kong and Macau (LMS), Europe (EU LCS), China (LPL) and North America (NA LCS).
+*** Pool 2: First seeds from Turkey (TCL), Brazil (CBLOL), Latin America North (LLN) and Commonwealth of Independent States (LCL).
+*** Pool 3: First seeds from Japan (LJL), Oceania (OPL), Latin America South (LAS) and Southeast Asia (SEA Tour)
+* ''' Rules'''
+** Each group must have exactly one team from Pool 1, one team from Pool 2 and one team from Pool 3.
+* '''Procedure'''
+** All four teams from Pool 1 into different groups followed by drawing one team from Pool 2 into each group and finally one team from Pool 3 into each group.
+====Group Stage Draw====
+* '''Pools'''
+** Twelve teams have been placed into two Draw Pools based on past regional performance over the last two years of international competition.
+*** Pool 1: First seeds from Taiwan, Hong Kong and Macau (LMS), Europe (EU LCS), China (LPL) and Korea (LCK).
+*** Pool 2: First seeds from North America (NA LCS) and Vietnam (VCS); second seeds from Taiwan, Hong Kong and Macau (LMS), Europe (EU LCS), China (LPL), North America (LPL) and Korea (LCK); and third seed from Korea (LCK).
+*** Pool 3: Four qualifying teams from Play-In.
+* '''Rules'''
+** No group can have more than one team from the same region. So, for example, first seed from China and second seed from China cannot inhabit the same group.
+** Each group must have exactly one team from Pool 1, two teams from Pool 2 and one team that qualifies from the Play-In Stage.
+* '''Procedure'''
+** The draw begins with the seeds physically separated into two bowls by Pool. The groups are arranged in alphabetical order from left to right.
+** First, all of the seeds from Pool 1 are drawn randomly and then Pool 2. The Play-In teams will be drawn into the already existing groups after the final Play-In: Round 2 game on October 7. 
+** When a seed is drawn, it is placed into the next group available in alphabetical order so long as that would not render the draw invalid at any future point by preventing another seed from being placed in a valid spot. 
+** In Pool 2, each group must have one Pool 2 seed before any group has two Pool 2 seeds, unless doing so would create an invalid draw.
+* '''Invalid Draws'''
+** Because seeds are drawn randomly and there are several rules governing where those seeds can go, there are a few situations we can run into in which a draw cannot be completed, rendering the draw “invalid”.
+** The draw is monitored as it proceeds and use a series of logical checks to identify when placement of a specific team would create an invalid draw down the road. If that happens, the team moves to the first available placement that would avoid the invalid draw.
+</div>
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Korean
+|This=1}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Host
+|b1=Dash|b1name=James Patterson|b1flag=us
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Ovilee|b1name=Ovilee May|b1flag=us
+}}
+{{BroadcasterCard|lang=en
+|position=Host and Interviewer
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=MarkZ|b1name=Mark Zimmerman|b1flag=us
+|b2=Jatt|b2name=Joshua Leesman|b2flag=ca
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=CaptainFlowers |b1name=Clayton Raines|b1flag=ca
+|b2=Drakos|b2name=Daniel Drakos|b2flag=us
+|b3=Phreak|b3name=David Turley|b3flag=us
+|b4=Spawn|b4name=Jake Tiberi|b4flag=au
+|b5=Pastrytime|b5name=Julian Carr|b5flag=au
+|b6=Riv|b6name=Rivington Bisland III|b6flag=us
+|b7=Quickshot|b7name=Trevor Henry|b7flag=za
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator and Analyst
+|b1=Vedius|b1name=Andrew Day|b1flag=uk
+|b2=Raz|b2name=Barento Mohammed|b2flag=ca
+|b3=PapaSmithy|b3name=Chris Smith|b3flag=au
+|b4=Froskurinn|b4name=Indiana Black|b4flag=us
+|b5=Azael|b5name=Isaac Cummings Bentley|b5flag=ca
+|b6=Deficio|b6name=Martin Lynge|b6flag=dk
+|b7=Kobe|b7name=Sam Hartman-Kenzler|b7flag=us
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Play-by-play Commentator|studio=ogn
+|b1=Caster Jun |b1name=Jeon Yong-jun|b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Color Commentator
+|b1=Kim Dong-joon
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+|b3=Canata |b3name=Ko In-kyu|b3flag=kr|b3link=starcraft:Canata
+|b4=KangQui|b4name=Kang Seung-hyeon|b4flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Analyst
+|b1=bitdory|b1name=Ha Gwang-seok|b1flag=kr
+|b2=Peanut
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Translator and Interviewer
+|b1=zeetwo|b1name=Park Jee-sun|b1flag=kr
+}}
+{{box|end}}
+
+{{tabs dynamic/end}}
+
+==Prize Pool==
+The initial prize pool of the tournament is $2,225,000 {{abbr/USD}}.
+12.5% of all revenue from Championship Kha'Zix & Championship Ward skins will added to the total prize pool and another 12.5% will be equally distributed among the teams.
+
+The total prize pool was $6,450,000 {{abbr/USD}} ($4,200,000 {{abbr/USD}} added)
+{{TeamPrizePool|prizesummary=no|cutafter=8|percentage1=1
+|tournament1=World Championship/2018/Play-In#Round 1|tournament2=World Championship/2018/Play-In#Round 2
+|tournament3=World Championship/2018/Group Stage|tournament4=World Championship/2018/Playoffs
+|{{Slot|percentage1=37.5%}}
+|{{Slot|percentage1=13.5%}}
+|{{Slot|percentage1=7% |place=3-4}}
+|{{Slot|percentage1=4% |place=5-8}}
+|{{Slot|percentage1=2.25% |place=9-12}}
+|{{Slot|percentage1=1.25% |place=13-16}}
+|{{Slot|percentage1=0.75% |place=17-20}}
+|{{Slot|percentage1=0.5% |place=21-24}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP |{{Opponent|Ning |flag1=cn |team=ig }}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=World Championship/2018/Play-In
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=World_Championship/2018/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=World Championship/2018/Playoffs
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=KT Rolster
+|p1=Smeb
+|p2=Score
+|p3=Ucal
+|p4=Deft
+|p5=Mata |p5wins=1
+
+|t2p1=Kingen |t2pos1=top |t2p1dnp=true
+
+|t3p1=Noexcuse |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LCK/2018/Summer|LCK Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|2015 World Championship}} '''(2015)'''
+}}
+{{TeamCard
+|team=Afreeca Freecs
+|p1=Kiin
+|p2=Spirit
+|p3=Kuro
+|p4=Kramer
+|p5=TusiN
+
+|t2p1=Mowgli |t2pos1=jg
+
+|t3p1=Ccomet |t3pos1=Head Coach
+|qualifier=[[LCK/2018/Championship_Points|LCK Championship Points]]
+}}
+{{TeamCard
+|team=Gen.G
+|p1=CuVee |p1wins=1
+|p2=Haru |p2wins=1
+|p3=Crown |p3wins=1
+|p4=Ruler |p4wins=1
+|p5=CoreJJ |p5wins=1
+
+|t2p1=Ambition |t2pos1=jng |t2p1wins=1
+
+|t3p1=Edgar |t3pos1=Head Coach |t3p1winsc=1
+|qualifier=[[LCK/2018/Regional_Finals|LCK Regional Finals]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Letme
+|p2=Karsa
+|p3=Xiaohu
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Ming
+
+|t2p1=Mlxg |t2pos1=jng
+
+|t3p1=Heart |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Kezman |t3p2flag=kr |t3pos2=Coach
+|t3p3=Xiaoxuan |t3p3flag=kr |t3pos3=Analyst
+|qualifier=[[LPL/2018/Summer|LPL Summer]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|2017 World Championship}} '''(2017)'''
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=TheShy
+|p2=Ning
+|p3=Rookie
+|p4=JackeyLove
+|p5=Baolan
+
+|t2p1=Duke |t2pos1=top |t2p1wins=1
+
+|t3p1=Kim |t3pos1=Head Coach |t3p1link=Kim Jung-su
+|qualifier=[[LPL/2018/Championship_Points|LPL Championship Points]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|Season 2 World Championship}} '''(2012)'''
+}}
+{{TeamCard
+|team=Phong Vũ Buffalo
+|image=Phong Vũ Buffalo June 2018.png
+|p1=Zeros
+|p2=Meliodas |p2link=Meliodas (Vietnamese player)
+|p3=Naul
+|p4=BigKoro
+|p5=Palette
+
+|t2p1=XuHao |t2pos1=jng
+
+|t3p1=Ren |t3pos1=Head Coach
+|qualifier=[[VCS/2018/Summer|VCS Summer]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo
+|p2=Broxah
+|p3=Caps
+|p4=Rekkles
+|p5=Hylissang
+
+|t2p1=sOAZ |t2pos1=top
+
+|t3p1=Dylan Falco |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/2018/Summer|EU LCS Summer]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|Riot Season 1 Championship}} '''(2011)'''
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard
+|p2=Kikis
+|p3=Jiizuke
+|p4=Attila
+|p5=Jactroll
+
+|t2p1=Dreams |t2pos1=sup |t2p1link=Dreams (Korean player) |t2p1dnp=true
+
+|t3p1=YamatoCannon |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/2018/Championship_Points|EU Championship Points]]
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact |p1wins=1
+|p2=Xmithie
+|p3=Pobelter
+|p4=Doublelift
+|p5=Olleh
+
+|t2p1=Viper |t2pos1=top |t2p1link=Viper (Canadian player) |t2p1dnp=true
+
+|t3p1=Cain |t3pos1=Head Coach
+|qualifier=[[LCS/North America/2018/Summer|NA LCS Summer]]
+}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=AnDa
+|p3=Ryu
+|p4=Rikara 
+|p5=aphromoo
+
+|t2p1=Cody Sun |t2pos1=bot |t2p1dnp=true
+
+|t3p1=pr0lly |t3pos1=Head Coach
+|t3p2=Stardust |t3p2link=Stardust (Korean player) |t3pos2=coach
+|qualifier=[[LCS/North America/2018/Championship_Points|NA Championship Points]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=Hanabi
+|p2=Moojin
+|p3=Maple
+|p4=Betty
+|p5=SwordArt
+
+|t2p1=MMD |t2pos1=top |t2p1dnp=true
+
+|t3p1=WarHorse |t3pos1=Head Coach
+|qualifier=[[LMS/2018/Summer|LMS Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|2015 World Championship}} '''(2015)'''
+}}
+{{TeamCard
+|team=MAD Team
+|p1=Liang
+|p2=Kongyue
+|p3=Uniboy
+|p4=Breeze
+|p5=K
+
+|t2p1=Benny |t2pos1=jng |t2p1link=Benny (Taiwanese player)
+
+|t3p1=GreenTea |t3pos1=Head Coach
+|qualifier=[[LMS/2018/Championship_Points|LMS Championship Points]]
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Ascension Gaming
+|p1=Rockky
+|p2=LIoyd
+|p3=G4
+|p4=NikSar
+|p5=Rich |p5link=Rich (Thai player)
+
+|t2p1=SunSunSun |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Chainarin |t3pos1=Head Coach
+|qualifier=[[Globe_Conquerors/2018/Manila|Globe Conquerors Manila]]
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Licorice
+|p2=Svenskeren
+|p3=Jensen
+|p4=Sneaky
+|p5=Zeyzal
+
+|t2p1=Blaber |t2pos1=jng
+
+|t3p1=Reapered |t3pos1=Head Coach
+|qualifier=[[LCS/North America/2018/Regional_Finals|NA LCS Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|2017 World Championship}} '''(2017)'''
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=Evi
+|p2=Steal
+|p3=Ceros
+|p4=Yutapon
+|p5=viviD
+
+|t2p1=Pink Bean |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Kazu |t3pos1=Head Coach
+|qualifier=[[LJL/2018/Summer|LJL Summer]]
+}}
+{{TeamCard
+|team=Dire Wolves
+|p1=BioPanther
+|p2=Shernfire
+|p3=Triple
+|p4=k1ng
+|p5=Cupcake
+
+|t2p1=UDYSOF |t2pos1=jng
+|t2p2=Rippii |t2pos2=jng |t2p2dnp=true
+
+|t3p1=Sharp |t3p1link=Sharp (Australian player) |t3pos1=Head Coach
+|qualifier=[[OPL/2018/Split_2|OPL Split 2]]
+|placement=21-24
+|placementicon={{LeagueIconSmall/worlds|2017 World Championship}} '''(2017)'''
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Ray
+|p2=Haro
+|p3=Scout
+|p4=iBoy
+|p5=Meiko
+
+|t2p1=Clearlove |t2pos1=jng
+
+|t3p1=NoFe |t3pos1=Head Coach
+|qualifier=[[LPL/2018/Regional_Finals|LPL Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|2016 World Championship}} '''(2016)'''
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Perkz
+|p4=Hjärnan
+|p5=Wadid
+
+|t2p1=Sacre |t2pos1=top |t2p1dnp=true
+
+|t3p1=GrabbZ |t3pos1=Head Coach
+|t3p2=Duffman|t3pos2=analyst
+|qualifier=[[LCS/Europe/2018/Regional_Finals|EU LCS Regional Finals]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|2017 World Championship}} '''(2017)'''
+}}
+{{TeamCard
+|team=Gambit Esports
+|p1=PvPStejos
+|p2=Diamondprox
+|p3=Kira
+|p4=Lodik
+|p5=Edward
+
+|t2p1=Seigimitsu |t2pos1=jng |t2p1dnp=true
+
+|t3p1=ATRemains |t3pos1=Head Coach
+|t3p2=Seigimitsu|t3p2flag=ru|t3pos2=Analyst
+|qualifier=[[LCL/2018/Summer|LCL Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|Season 3 World Championship}} '''(2013)'''
+}}
+{{TeamCard
+|team=G-Rex
+|p1=PK
+|p2=Empt2y
+|p3=Candy |p3link=Candy (Korean player)
+|p4=Stitch
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=baybay |t2pos1=jng
+
+|t3p1=Wei  |t3p1link=Wei (Taiwanese player) |t3pos1=Head Coach
+|qualifier=[[LMS/2018/Regional_Finals|LMS Regional Finals]]
+}}
+{{TeamCard
+|team=Infinity eSports
+|p1=Relic
+|p2=SolidSnake
+|p3=Cotopaco
+|p4=Renyu
+|p5=Arce
+
+|t2p1=ottovaG |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Soren |t3pos1=Head Coach |t3p1link=Soren (Mexican player)
+|qualifier=[[LLN/2018/Closing|LLN Closing]]
+}}
+{{TeamCard
+|team=KaBuM! e-Sports
+|p1=Zantins
+|p2=Ranger
+|p3=dyNquedo
+|p4=Titan
+|p5=Riyev
+
+|t2p1=Wos |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Hiro |t3pos1=Head Coach
+|qualifier=[[CBLOL/2018/Winter|CBLOL Winter]]
+|placement=14-16
+|placementicon={{LeagueIconSmall/worlds|2014 World Championship}} '''(2014)'''
+}}
+{{TeamCard
+|team=Kaos Latin Gamers 
+|p1=Nate
+|p2=Tierwulf
+|p3=Plugo
+|p4=Fix
+|p5=Slow
+
+|t2p1=Zealot |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Pierre |t3pos1=Head Coach
+|qualifier=[[CLS/2018/Closing|CLS Closing]]
+}}
+{{TeamCard
+|team=SuperMassive eSports
+|p1=fabFabulous
+|p2=Stomaged
+|p3=GBM
+|p4=Zeitnot
+|p5=SnowFlower
+
+|t2p1=Secaf Reis |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Irean |t3pos1=Head Coach
+|qualifier=[[TCL/2018/Summer|TCL Summer]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Play-In: Round 1===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2018/Play-In|PlayInA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2018/Play-In|PlayInB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2018/Play-In|PlayInC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2018/Play-In|PlayInD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2018/Play-In|Click here for more information about the Play In: Round 1 matches.]]''</span>
+
+===Play-In: Round 2===
+{{ShowBracket|id=QWVT5ZXT2Q}}
+
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2018/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2018/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2018/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2018/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+{{Toggle group end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2018/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=8Y27U1R7G6}}
+
+==Additional Data==
+
+
+===Statistics===
+{{#lst:World Championship/2018/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Worlds Top 20===
+{|- class="wikitable sortable" class="table table-bordered prizepooltable collapsed" style="text-align:center" data-cutafter="5" data-opentext="Place 6 to 20" data-closetext="Place 6 to 20"
+|-
+! colspan=1| # 
+! Player 
+! Team 
+|-
+|1
+|style="text-align:left" | {{Player|flag=cn|pos=adc|Uzi|link=Uzi (Chinese player)}}
+|style="text-align:left" |{{Team|rng}}
+|-
+|2
+|style="text-align:left" | {{Player|flag=kr|pos=mid|Rookie}}
+|style="text-align:left" |{{Team|ig}}
+|-
+|3
+|style="text-align:left" | {{Player|flag=kr|pos=jg|Score}}
+|style="text-align:left" |{{Team|kt}}
+|-
+|4
+|style="text-align:left" | {{Player|flag=kr|pos=top|Kiin}}
+|style="text-align:left" |{{Team|afs}}
+|-
+|5
+|style="text-align:left" | {{Player|flag=kr|pos=adc|Ruler}}
+|style="text-align:left" |{{Team|geng}}
+|-
+|6
+|style="text-align:left" | {{Player|flag=kr|pos=top|Smeb}}
+|style="text-align:left" |{{Team|kt}}
+|-
+|7
+|style="text-align:left" | {{Player|flag=tw|pos=sup|SwordArt}}
+|style="text-align:left" |{{Team|fw}}
+|-
+|8
+|style="text-align:left" | {{Player|flag=cn|pos=sup|Ming}}
+|style="text-align:left" |{{Team|rng}}
+|-
+|9
+|style="text-align:left" | {{Player|flag=dk|pos=mid|Caps}}
+|style="text-align:left" |{{Team|fnc}}
+|-
+|10
+|style="text-align:left" | {{Player|flag=kr|pos=top|CuVee}}
+|style="text-align:left" |{{Team|geng}}
+|-
+|11
+|style="text-align:left" | {{Player|flag=tw|pos=jg|Karsa}}
+|style="text-align:left" |{{Team|rng}}
+|-
+|12
+|style="text-align:left" | {{Player|flag=kr|pos=adc|Deft}}
+|style="text-align:left" |{{Team|kt}}
+|-
+|13
+|style="text-align:left" | {{Player|flag=kr|pos=sup|Mata}}
+|style="text-align:left" |{{Team|kt}}
+|-
+|14
+|style="text-align:left" | {{Player|flag=kr|pos=top|TheShy}}
+|style="text-align:left" |{{Team|ig}}
+|-
+|15
+|style="text-align:left" | {{Player|flag=tw|pos=mid|Maple}}
+|style="text-align:left" |{{Team|fw}}
+|-
+|16
+|style="text-align:left" | {{Player|flag=kr|pos=mid|Kuro}}
+|style="text-align:left" |{{Team|afs}}
+|-
+|17
+|style="text-align:left" | {{Player|flag=cn|pos=mid|Xiaohu}}
+|style="text-align:left" |{{Team|rng}}
+|-
+|18
+|style="text-align:left" | {{Player|flag=kr|pos=mid|Scout}}
+|style="text-align:left" |{{Team|edg}}
+|-
+|19
+|style="text-align:left" | {{Player|flag=kr|pos=mid|Ucal}}
+|style="text-align:left" |{{Team|kt}}
+|-
+|20
+|style="text-align:left" | {{Player|flag=us|pos=adc|Doublelift}}
+|style="text-align:left" |{{Team|tl}}
+|}
+
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames
+|lang2=usuk |youtube2=user/LoLChampSeries
+}}
+
+===Announcements===
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2018-02-28
+|link=https://oce.leagueoflegends.com/en/featured/2018-global-esports-event-announcement
+|title=2018 Global LoL Esports Event Locations
+|by=riot games
+|language=usuk
+}}
+
+===Official Song===
+{{#ev:youtube|fB8TyLTD7EE|600}}
+
+===More Additional Content===
+*<span style="line-height:24px">&nbsp;''[[World Championship/2018/Additional_Content|Click here for a general overview of all the Interviews, Articles, Videos and Match Highlights]]''</span>

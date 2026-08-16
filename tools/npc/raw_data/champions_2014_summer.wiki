@@ -1,0 +1,419 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Champions%2F2014%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:05:52.054Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Champions 2014 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-31
+}}
+{{LCK Navbox}}
+{{Champions 2014 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=Champions 2014 Summer 
+|shortname=2014 Summer 
+|image=LCK full lightmode.png
+|imagedark=LCK full darkmode.png
+|icon=LCK lightmode.png
+|icondark=LCK darkmode.png
+|series=Champions Korea
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|sponsor=HOT6iX
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=
+|format=Group Stage<br/>Single Elimination ({{Abbr/Bo5}})
+|prizepool=270,000,000
+|localcurrency=krw
+|prizepoolusd=
+|sdate=2014-06-18
+|edate=2014-08-16
+|liquipediatier=1
+|highlighted=|website=
+|stream=
+|twitch=lck1
+|twitch2=ogn_lol
+|youtube=user/LoLChampSeries
+|teamfirst=
+|teamfirst2=
+|teamsecond=
+|teamsecond2=
+|teamthird=
+|teamthird2=
+|team_number=16
+|previous=Champions/2014/Spring{{!}}2014 Spring 
+|next=LCK/2015/Spring{{!}}2015 Spring 
+}}
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+{{TeamPrizePool|points=champions2014|localcurrency=krw|cutafter=8
+|tournament1=Champions/2014/Summer/Group Stage|tournament2=Champions/2014/Summer/Playoffs
+|qualifies1=NLB/2014/Summer |qualifies1name=NLB Summer
+|{{Slot |points=400 |localprize=80,000,000}}
+|{{Slot |points=225 |localprize=40,000,000}}
+|{{Slot |points=150 |localprize=24,000,000}}
+|{{Slot |points=100 |localprize=18,000,000}}
+|{{Slot |place=5-8 |qualified1=yes |localprize=10,000,000}}
+|{{Slot |place=9-12 |qualified1=yes |localprize=6,000,000}}
+|{{Slot |place=13-16 |qualified1=yes |localprize=6,000,000}}
+}}
+
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=6
+|{{Slot |award=Season MVP |localprize=10,000,000|{{Opponent|KaKAO|flag=kr|team=kt arrows}}}}
+|{{Slot |award=Top Lane KDA |localprize=2,000,000|{{Opponent|Looper|flag=kr|team=samsung white}}}}
+|{{Slot |award=Jungle KDA |localprize=2,000,000|{{Opponent|DanDy|flag=kr|team=samsung white}}}}
+|{{Slot |award=Mid Lane KDA |localprize=2,000,000|{{Opponent|Easyhoon|flag=kr|team=skt t1 s}}}}
+|{{Slot |award=AD Carry KDA |localprize=2,000,000|{{Opponent|Arrow|flag=kr|team=kt arrows}}}}
+|{{Slot |award=Support KDA |localprize=2,000,000|{{Opponent|Mata|flag=kr|team=samsung white}}}}
+}}
+<!--
+{{box|break|padding=2em}}
+{{MVPTable |points=true
+|title=Group Stage MVP
+|tournament=Champions/2014/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable |points=true
+|title=Playoffs MVP
+|tournament=Champions/2014/Summer/Playoffs
+}}
+-->
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CJ Entus Blaze
+|image=CJ Entus Blaze Logo.png
+|p1=Flame |p1flag=kr 
+|p2=Daydream |p2flag=kr 
+|p3=Ambition |p3flag=kr 
+|p4=BaeMe |p4flag=kr |pos4=mid
+|p5=Emperor |p5flag=kr |pos5=ad
+|p6=Gunza |p6flag=kr |pos6=sup
+|t2title=Staff
+|t2p1=Kang Hyun-jong |t2pos1=head coach
+|t2p2=Kezman |t2pos2=coach
+|t2p3=fOru |t2p3flag=kr |t2pos3=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=CJ Entus Frost
+|image=CJ Entus Frost Logo.png
+|p1=Shy |p1flag=kr 
+|p2=Swift |p2flag=kr 
+|p3=CoCo |p3flag=kr 
+|p4=Space |p4flag=kr 
+|p5=MadLife |p5flag=kr 
+|t2title=Staff
+|t2p1=Kang Hyun-jong |t2pos1=head coach
+|t2p2=Kezman |t2pos2=coach
+|t2p3=fOru |t2p3flag=kr |t2pos3=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=KT Rolster Arrows
+|image=kt Rolster Arrows lightmode.png|imagedark=kt Rolster Arrows darkmode.png
+|p1=Ssumday |p1flag=kr 
+|p2=KaKAO |p2flag=kr 
+|p3=Rookie |p3flag=kr 
+|p4=Arrow |p4flag=kr 
+|p5=Hachani |p5flag=kr
+
+|t2title=Staff
+|t2p1=FIFAHUN |t2pos1=head coach
+|t2p2=Oh Chang-jong |t2p2flag=kr|t2pos2=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=KT Rolster Bullets
+|image=kt Rolster Bullets lightmode.png|imagedark=kt Rolster Bullets darkmode.png
+|p1=GimGoon |p1flag=kr 
+|p2=Ryu |p2flag=kr 
+|p3=Nagne |p3flag=kr 
+|p4=Score |p4flag=kr 
+|p5=Mafa |p5flag=kr 
+|t2title=Staff
+|t2p1=FIFAHUN |t2pos1=head coach
+|t2p2=Oh Chang-jong |t2p2flag=kr|t2pos2=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=NaJin White Shield
+|image=NJWS logo.png
+|p1=Save |p1flag=kr 
+|p2=Watch |p2flag=kr 
+|p3=Ggoong |p3flag=kr 
+|p4=Zefa |p4flag=kr 
+|p5=GuGer |p5flag=kr |pos5=ad
+|p6=GorillA |p6flag=kr |pos6=sup
+|p7=Pure |p7flag=kr  |pos7=sup
+|t2title=Staff
+|t2p1=Reach |t2p1flag=kr |t2pos1=head coach
+|t2p2=viNylCat |t2pos2=coach
+|t2p3=MOKUZA |t2pos3=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=NaJin Black Sword
+|image=Najin Black Sword Logo.png
+|p1=Duke |p1flag=kr 
+|p2=Lee |p2flag=kr |p2link=Lee (Korean player)
+|p3=kurO |p3flag=kr 
+|p4=Ohq |p4flag=kr 
+|p5=Cain |p5flag=kr 
+|t2title=Staff
+|t2p1=Reach |t2p1flag=kr |t2pos1=head coach
+|t2p2=SSONG |t2pos2=coach
+|t2p3=MOKUZA |t2pos3=coach
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Samsung Blue
+|image=Samsung Blue Logo.png
+|p1=Acorn |p1flag=kr 
+|p2=Vision |p2flag=kr |pos2=top
+|p3=Spirit |p3flag=kr |pos3=jg
+|p4=dade |p4flag=kr |pos4=mid
+|p5=Deft |p5flag=kr  |pos5=ad
+|p6=Heart |p6flag=kr |pos6=sup
+|t2title=Staff
+|t2p1=Choi |t2p1flag=kr |t2pos1=head coach
+|t2p2=DoGGi |t2pos2=coach
+|t2p3=BanBazi |t2p3flag=kr|t2pos3=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=Samsung White
+|image=Samsung White Logo.png
+|p1=Looper |p1flag=kr
+|p2=DanDy |p2flag=kr 
+|p3=PawN |p3flag=kr 
+|p4=imp |p4flag=kr 
+|p5=Mata |p5flag=kr 
+|c=Homme |cflag=kr
+|t2title=Staff
+|t2p1=Choi |t2p1flag=kr |t2pos1=head coach
+|t2p2=DoGGi |t2pos2=coach
+|t2p3=Homme |t2pos3=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=SK Telecom T1 K
+|image=SK Telecom K Logo.png
+|p1=Impact |p1flag=kr 
+|p2=Bengi |p2flag=kr 
+|p3=Faker |p3flag=kr 
+|p4=Piglet |p4flag=kr 
+|p5=PoohManDu |p5flag=kr 
+
+|t2title=Staff
+|t2p1=cCarter|t2p1flag=kr|t2pos1=head coach
+|t2p2=kkOma |t2p2flag=kr |t2pos2=coach
+|qualifier=[[Champions/2014/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=SK Telecom T1 S
+|image=SK Telecom S Logo.png
+|p1=MaRin |p1flag=kr 
+|p2=H0R0 |p2flag=kr 
+|p3=Easyhoon |p3flag=kr 
+|p4=Bang |p4flag=kr 
+|p5=Wolf |p5flag=kr |p5link=Wolf (Korean player)
+
+|t2title=Staff
+|t2p1=cCarter|t2p1flag=kr|t2pos1=head coach
+|t2p2=kkOma |t2p2flag=kr |t2pos2=coach
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Incredible Miracle 1
+|image=Incredible Miracle 1 Logo.png
+|p1=Smeb |p1flag=kr
+|p2=Smurf |p2link=Smurf (Korean player) |p2flag=kr
+|p3=Thy |p3flag=kr
+|p4=Bory |p4flag=kr
+|p5=BBuing |p5flag=kr
+
+|t2title=Staff
+|t2p1=Hirai |t2p1flag=kr |t2pos1=head coach
+|t2p2=Supreme |t2pos2=coach
+|t2p3=Spark |t2pos3=coach
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Incredible Miracle 2
+|image=Incredible Miracle 2 Logo.png.png
+|p1=Lilac |p1flag=kr
+|p2=Wisdom |p2flag=kr
+|p3=Frozen |p3flag=kr
+|p4=S0NSTAR |p4flag=kr
+|p5=TuSin |p5flag=kr
+
+|t2title=Staff
+|t2p1=Hirai |t2p1flag=kr |t2pos1=head coach
+|t2p2=Supreme |t2pos2=coach
+|t2p3=Spark |t2pos3=coach
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Jin Air Falcons
+|link=Jin Air Green Wings Falcons
+|image=Jin Air Green Wings Falcons Logo.png
+|p1=Rock |p1link=Rock (Korean player) |p1flag=kr 
+|p2=Vin |p2flag=kr 
+|p3=Radar |p3flag=kr |pos3=jg
+|p4=GBM |p4flag=kr |pos4=mid
+|p5=Pilot |p5flag=kr |pos5=ad
+|p6=XD |p6flag=kr |pos6=sup
+|t2title=Staff
+|t2p1=Han Sang-yong |t2p1flag=kr |t2pos1=head coach
+|t2p2=Micro |t2pos2=coach
+|t2p3=Fly |t2pos3=coach |t2p3link=Fly_(Kim_Sang-chul)
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Jin Air Stealths
+|link=Jin Air Green Wings Stealths
+|image=Jin Air Green Wings Stealths Logo.png
+|p1=TrAce |p1flag=kr 
+|p2=Chaser |p2flag=kr 
+|p3=Fly |p3flag=kr  |p3link=Fly_(Song_Yong-jun)
+|p4=Cpt Jack |p4flag=kr 
+|p5=Chei |p5flag=kr
+|t2title=Staff
+|t2p1=Han Sang-yong |t2p1flag=kr |t2pos1=head coach
+|t2p2=Micro |t2pos2=coach
+|t2p3=Fly |t2pos3=coach |t2p3link=Fly_(Kim_Sang-chul)
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=MKZ
+|image=
+|p1=PLL |p1flag=kr 
+|p2=Procxin |p2flag=kr 
+|p3=MidKing |p3flag=kr 
+|p4=BetKyo |p4flag=kr 
+|p5=Violet |p5link=Violet (Korean player) |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Bigfile Miracle
+|image=
+|p1=SuDal |p1flag=kr 
+|p2=Beast |p2link=Beast (Korean player) |p2flag=kr 
+|p3=HuHi |p3flag=kr 
+|p4=Core |p4flag=kr 
+|p5=LinLan |p5flag=kr 
+|t2title=Staff
+|t2p1=firebathero |t2p1flag=kr |t2pos1=head coach
+|t2p2=M4sin |t2pos2=coach|t2p2link=Travel
+|qualifier=[[Champions/2014/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:Champions/2014/Summer/Group Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:Champions/2014/Summer/Group Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:Champions/2014/Summer/Group Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:Champions/2014/Summer/Group Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Champions/2014/Summer/Group Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=4O9UxWcF6v}}
+
+==Format==
+* '''Group Stage'''
+** Two groups of four
+** Single Round Robin
+** All matches are {{Abbr/Bo2}}
+** {{bgcolortext|up|Top two}} from each group qualify for Playoffs
+** {{bgcolortext|down|Bottom two}} from each group are seeded into [[NLB/2014/Summer|NLB Summer]]
+* '''Playoffs'''
+** Single elimination bracket
+** All matches are {{Abbr/Bo5}}
+** If a series reaches Game 5, said game will be played in ''Blind Pick'' mode
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=uk |twitch1=ongamenet
+|lang2=kr |twitch2=ogn_lol
+}}
+===Talent===
+====Korean Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=Kim Dong-joon |b2flag=kr
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Caster
+|b1=DoA
+|b2=MonteCristo
+}}
+{{box|end|padding=2em}}
+
+
+==Additional Data==
+===Statistics===
+{{#lst:Champions/2014/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|tiers=1|limit=10|playerspage=Champions/2014/Summer|edate=2014-09-01}}
+:''See [[Champions/Player appearances|here]] for the complete list.''
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2014-07-30
+  |content2={{Player|Bang|flag=kr}}
+  |content3={{TeamIcon|sk telecom t1|2014-07-30}}
+  |content4={{TeamIcon|kt rolster|2014-07-30}}
+  |content5={{ChampionIcon|size=25px|tristana|date=2014-07-30|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7=[http://www.youtube.com/watch?v=GhwBdH7heIA VOD]
+}}
+{{ResponsiveTableEnd}}
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

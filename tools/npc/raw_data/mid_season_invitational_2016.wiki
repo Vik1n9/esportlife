@@ -1,0 +1,265 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2016&redirects=1
+<!-- 抓取: 2026-08-16T18:38:18.952Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2016 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=Mid-Season_Invitational/2016
+|name2=Group Stage
+|link2=Mid-Season_Invitational/2016/Group_Stage
+|name3=Knockout Stage
+|link3=Mid-Season_Invitational/2016/Knockout_Stage
+|name4=Statistics
+|link4=Mid-Season_Invitational/2016/Statistics
+|This=1}}
+{{Infobox league
+|name=2016 Mid-Season Invitational
+|shortname=MSI 2016
+|image=MSI 2016 lightmode.png
+|imagedark=MSI 2016 darkmode.png
+|series=MSI
+|icon=MSI 2016 lightmode.png
+|icondark=MSI 2016 darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=6.8
+|sponsor=
+|type=Offline
+|country=China
+|city=Shanghai
+|venue=Shanghai Oriental Sports Center
+|format='''Group Stage:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Single Elimination
+|prizepoolusd=450,000
+|sdate=2016-05-04
+|edate=2016-05-15
+|liquipediatier=1
+|highlighted=true
+|website=https://nexus.leagueoflegends.com/en-us/esports/
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=LoLChampSeries
+|team_number=6
+|previous=Mid-Season Invitational/2015{{!}}2015
+|next=Mid-Season Invitational/2017{{!}}2017
+}}
+
+==Format==
+* '''Group Stage''' - ''May 4th - May 8th, 2016''
+**Double Round Robin
+**Each team plays 10 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 4th place will play the Playoffs
+* '''Playoffs''' - ''May 13th - May 15th, 2016''
+** Single Elimination
+** All matches are {{Abbr/Bo5}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=6|tournament1=Mid-Season Invitational/2016/Group Stage|tournament2=Mid-Season Invitational/2016/Knockout Stage|groupElimStatuses=down
+|{{Slot|usdprize=250,000}}
+|{{Slot|usdprize=100,000}}
+|{{Slot|place=3-4|usdprize=50,000}}
+|{{Slot|place=5}}
+|{{Slot|place=6}}
+|adjacentContent=
+{{AwardPrizePool|noprize=true
+|{{Slot|award=MVP |{{Opponent|Faker|flag1=kr|team1=SK Telecom T1|date1=2016-05-15}}}}
+}}
+}}
+
+==Qualification==
+{| class="wikitable"
+|-
+! Event
+! Date
+! Teams in contention
+|-
+|-
+| {{LeagueIconSmall/eu lcs}} [[LCS/Europe/2016/Spring|EU LCS Spring Champion]]
+| 2016-01-14 – 2016-04-17
+| {{Team|g2}} 
+|-
+| {{LeagueIconSmall/na lcs}} [[LCS/North_America/2016/Spring|NA LCS Spring Champion]]
+| 2016-01-16 – 2016-04-17
+| {{Team|clg}}
+|-
+| {{LeagueIconSmall/lck}} [[LCK/2016/Spring|LCK Spring Champion]]
+| 2016-01-13 – 2016-04-23
+| {{Team|skt}}
+|-
+| {{LeagueIconSmall/lpl}} [[LPL/2016/Spring|LPL Spring Champion]]
+| 2016-01-14 – 2016-04-23
+| {{Team|rng}}
+|-
+| {{LeagueIconSmall/lms}} [[LMS/2016/Spring|LMS Spring Champion]]
+| 2016-01-14 – 2016-04-17
+| {{Team|fw}} 
+|-
+| {{LeagueIconSmall/iwci}} [[International_Wildcard_Invitational/2016|IWC Invitational]]
+| 2016-04-16 – 2016-04-23
+| {{Team|sup}}
+|}
+
+==Participating Teams==
+{{TeamCard columns start}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Darshan
+|p2=Xmithie
+|p3=Huhi
+|p4=Stixxay
+|p5=aphromoo
+
+|t2p1=Zikzlol |t2p1flag=us |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2016/Spring|NA LCS Spring]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=MMD
+|p2=Karsa
+|p3=Maple
+|p4=NL
+|p5=SwordArt
+
+|t2p1=Fluidwind |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/2016/Spring|LMS Spring]]
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Kikis
+|p2=Trick
+|p3=Perkz
+|p4=Emperor
+|p5=Hybrid
+
+|t2p1=YoungBuck |t2p1flag=nl |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2016/Spring|EU LCS Spring]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Looper
+|p2=mlxg
+|p3=xiaohu
+|p4=Wuxx
+|p5=Mata
+
+|t2p1=Fly |t2p1flag=kr |t2pos1=Head Coach |t2p1link=Fly (Kim Sang-chul)
+|t2title=Staff
+|qualifier=[[LPL/2016/Spring|LPL Spring]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Duke
+|p2=Blank 
+|p3=Faker
+|p4=Bang
+|p5=Wolf |p5link=Wolf (Korean player)
+
+|t2p1=Bengi |t2pos1=jng |t2p1dnp=true
+
+|t3p1=cCarter |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=kkOma |t3pos2=Coach
+|qualifier=[[LCK/2016/Spring|LCK Spring]]
+
+|placement=2
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2015|date=2015-05-10}} '''(2015)'''
+}}
+{{TeamCard
+|team=SuperMassive eSports
+|p1=Thaldrin
+|p2=Stomaged
+|p3=Naru
+|p4=Achuu |p4flag=dk
+|p5=Dumbledoge
+
+|t2p1=fabFabulous |t2pos1=top
+
+|t3p1=hatchý |t3p1flag=pl |t3pos1=Head Coach
+|qualifier=[[International_Wildcard_Invitational/2016|IWC Invitational]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#lst:Mid_Season_Invitational/2016/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid_Season_Invitational/2016/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=EM8ULH56NN}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+}}
+
+===Broadcast Talent===
+{{Tabs dynamic
+|name1=English
+|name2=Korean
+|This=1
+}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host
+|b1=Dash
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Sjokz
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Clement Chu |b1flag=cn
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Atlus |b1name=Max Anderson |b1flag=au
+|b2=Phreak
+|b3=PiraTechnics |b3name=Devin Younge |b3flag=us
+|b4=Quickshot
+|b5=Rivington
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Deficio
+|b2=Jatt
+|b3=Kobe
+|b4=Krepo
+|b5=Spawn
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Caster
+|b1=Caster Jun
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Commentator
+|b1=Kim Dong-joon|b1flag=kr
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Translator
+|b1=채동희|b1name=Chae Dong-hee|b1flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2016/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}

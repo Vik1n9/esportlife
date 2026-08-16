@@ -1,0 +1,337 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2018%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:18:00.675Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2018 Spring }}
+{{EU LCS Navbox}}
+{{EU LCS 2018 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2018 Spring 
+|shortname=2018 Spring 
+|tickername=EU LCS 2018 Spring
+|image=EU LCS 2018.png
+|series=EU LCS
+|icon=EU LCS 2018 icon.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=
+|patch=8.1
+|epatch=8.5
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Denmark
+|city=Berlin
+|city2=Copenhagen
+|venue=EU LCS Studio
+|venue2=Royal Arena
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=eur
+|prizepool=200,000
+|sdate=2018-01-19
+|edate=2018-04-08
+|liquipediatier=1
+|website=https://eu.lolesports.com/en
+|twitch=RiotGames
+|team_number=10
+|previous=LCS/Europe/Summer/2017{{!}}2017 Summer 
+|next=LCS/Europe/2018/Summer{{!}}2018 Summer 
+|previous2=LCS/Europe/2018/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''EU LCS 2018 Spring Split''' was the first split of the 2018 [[European League of Legends Championship Series]] season, organized by Riot Games and held from January 19 to April 8, 2018. The season featured ten teams — eight returning from the [[LCS/Europe/2017/Summer|2017 Summer Split]] and two promoted from the [[LCS/Europe/2018/Spring/Promotion|2018 Spring Promotion]], [[FC Schalke 04 Esports]] and [[Giants Gaming]]. The split used a double round-robin format in the Group Stage with Best-of-One matches, followed by a Single Elimination Best-of-Five Playoffs to determine the European champion and the region’s representatives at the [[Mid-Season Invitational/2018|2018 Mid-Season Invitational]] while the top three teams would represent Europe at [[Rift_Rivals/2018/NA-EU|Rift Rivals 2018 – NA vs EU]].
+
+This split was notable for being the last EU LCS season with a spring promotion tournament, as Riot Games announced that the league would transition to a [[LEC]] franchised system in 2019, eliminating relegation and promotion. As a result, there was no Summer Promotion Tournament for the 2018 season.
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=eulcs2018|localcurrency=eur|cutafter=10
+|tournament1=LCS/Europe/2018/Spring/Group Stage |groupElimStatuses=down,staydown,stay
+|tournament2=LCS/Europe/2018/Spring/Playoffs
+|qualifies1=Mid Season Invitational/2018 |qualifies1name=MSI
+|qualifies2=Rift Rivals/NA-EU/2018 |qualifies2name=Rift Rivals
+|{{Slot |place=1 |points=90|qualified1=yes |qualified2=yes |localprize=80,000}}
+|{{Slot |place=2 |points=70|qualified2=yes |localprize=50,000}}
+|{{Slot |place=3 |points=50|qualified2=yes |localprize=30,000}}
+|{{Slot |place=4 |points=30 |localprize=20,000}}
+|{{Slot |place=5-6 |points=10|localprize=10,000}}
+|{{Slot |place=7}}
+|{{Slot |place=8}}
+|{{Slot |place=9}}
+|{{Slot |place=10}}
+}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Rekkles |flag1=se |team1=fnc  |date=2018-04-08 }}
+{{prize pool slot award|award=Rookie of the Split |Jiizuke |flag1=it |team1=vit |date=2018-03-30}}
+{{prize pool slot award|award=Coach of the Split |Peter Dun |flag1=uk |team1=splyce |date=2018-03-30}}
+{{prize pool slot award|award=1st All-Pro Team |date=2018-03-23
+|Wunder |flag1=dk |team1=g2
+|Xerxe |flag2=ro |team2=splyce
+|Caps |flag3=dk |team3=fnc
+|Rekkles |flag4=se |team4=fnc
+|Hylissang |flag5=bg |team5=fnc
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2018-03-23
+|sOAZ |flag1=fr |team1=fnc
+|Jankos |flag2=pl |team2=g2
+|Perkz |flag3=hr |team3=g2
+|Kobbe |flag4=dk |team4=splyce
+|kaSing |flag5=uk |team5=splyce
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2018-03-23
+|Odoamne |flag1=ro |team1=splyce
+|Broxah |flag2=dk |team2=fnc
+|Jiizuke |flag3=it |team3=vit
+|Hans Sama |flag4=fr |team4=msf
+|Mikyx |flag5=si |team5=msf
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+==={{HiddenSort|MVP Table}}===
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/Europe/2018/Spring/Group Stage
+}}
+<!--
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true |points=true
+|title=Playoffs MVP
+|tournament=LCS/Europe/2018/Spring/Playoffs
+}}
+-->
+{{box|end}}
+
+<!--==Roster moves==
+{{Transfer List
+|title=Roster moves during the season
+|sdate={{#var:sdate}}
+|edate={{#var:edate}}
+|page={{PAGENAME}}
+}}-->
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Fnatic
+|image=
+|p1=sOAZ|p1flag=fr
+|p2=Broxah|p2flag=denmark |pos2=jg
+|p3=Caps|p3flag=denmark |pos3=mid
+|p4=Rekkles|p4flag=sweden |pos4=ad
+|p5=Hylissang|p5flag=bulgaria |pos5=sup
+
+|t2title=Staff
+|t2p1=Dylan|t2p1flag=ca|t2pos1=coach
+|t2p2=YoungBuck|t2pos2=coach
+|qualifier=[[LCS/Europe/Summer/2017|Summer ]]
+}}
+{{TeamCard
+|team=G2 Esports
+|image=
+|p1=Wunder|p1flag=dk
+|p2=Jankos|p2flag=pl
+|p3=Perkz|p3flag=
+|p4=Hjärnan|p4flag=se
+|p5=Wadid|p5flag=kr
+|t2p1=GrabbZ|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=H2K
+|image=H2k Gaming-logo square.png
+|p1=Smittyj|p1flag=de
+|p2=Santorin|p2flag=dk
+|p3=Caedrel
+|p4=Sheriff
+|p5=Promisq
+
+|t2p1=Shook|t2p1flag=nl|t2pos1=jg
+|t2p2=Selfie|t2p2flag=pl|t2pos2=mid
+
+|t3p1=Veteran|t3p1flag=uk|t3pos1=coach
+|t3p2=Kelsey Moser|t3p2flag=us|t3pos2=coach
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=Misfits Gaming
+|image=
+|p1=Alphari|p1flag=uk
+|p2=Maxlore|p2flag=uk
+|p3=Sencux|p3flag=dk
+|p4=Hans Sama|p4flag=fr
+|p5=Mikyx|p5flag=si
+|t2p1=Daku|t2pos1=head coach|t2p1link=Daku (Emirati coach)|t2p1flag=ae
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=Splyce
+|image=Splyce Logo 2017.png
+|p1=Odoamne|p1flag=ro
+|p2=Xerxe|p2flag=ro
+|p3=Nisqy|p3flag=be
+|p4=Kobbe|p4flag=dk
+|p5=kaSing|p5flag=uk
+
+|t2title=Staff
+|t2p1=Peter Dun|t2p1flag=uk|t2pos1=coach
+|t2p2=Mac|t2p2flag=uk|t2pos2=coach
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|image=Roccat logo2.png
+|p1=Profit|p1flag=
+|p2=Memento|p2flag=se
+|p3=Blanc|p3flag=kr
+|p4=HeaQ|p4flag=ee
+|p5=Norskeren|p5flag=no
+|t2p1=fredy122|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard|p1flag=fr
+|p2=Gilius|p2flag=de
+|p3=Jiizuke|p3flag=it
+|p4=Minitroupax|p4flag=pt
+|p5=Jactroll|p5flag=pl
+|t2p1=YamatoCannon|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|image=Unicorns_Of_Love_Logo.png
+|p1=WhiteKnight|p1flag=fi
+|p2=Kold|p2flag=dk
+|p3=Exileh|p3flag=de
+|p4=Samux|p4flag=es
+|p5=Totoro|p5flag=kr
+|t2p1=Sheepy|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=FC Schalke 04 Esports
+|image=
+|p1=Vizicsacsi|p1flag=hu
+|p2=Pridestalker|p2flag=nl
+|p3=Nukeduck|p3flag=no
+|p4=Upset|p4flag=de
+|p5=VandeR|p5flag=pl
+
+|t2title=Staff
+|t2p1=Krepo|t2p1cflag=be|t2pos1=coach
+|t2p2=André Guilhoto|t2p2flag=pt|t2pos2=coach
+|qualifier=[[LCS/Europe/Spring/2018/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Giants Gaming
+|image=Giants Gaming 2017.png
+|p1=Ruin|p1flag=kr
+|p2=Djoko|p2flag=fr
+|p3=Betsy|p3flag=se
+|p4=Steeelback|p4flag=fr
+|p5=Targamas|p5flag=be
+|t2p1=Naruterador|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2018/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/2018/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2018/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=8I3GECVLRW}}
+
+==Format==
+* Group Stage
+**Double Round Robin
+**All matches are {{Abbr/Bo1}}
+**Top 6 qualify for playoffs
+**Top 2 receive playoff byes into the semifinals
+*Playoffs
+** Single Elimination {{Abbr/Bo5}} 
+* Top 3 qualifies for [[Rift_Rivals/2018/NA-EU|Rift Rivals 2018 - NA vs EU]]
+* Winner qualifies for [[Mid Season Invitational/2018|Mid Season Invitational 2018]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=RiotGames
+|lang2=usuk |youtube2=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang3=de |twitch3=summonersinnlive
+|lang4=es |twitch4=lvpes
+|lang5=fr |twitch5=ogaminglol
+|lang6=hu |twitch6=magyarloltv
+|lang7=pl |twitch7=nervarien
+|lang8=pl |twitch8=esl_lol_pl
+|lang9=it |twitch9=pg_esports
+|lang10=it |twitch10=esl_lol_it
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulli|b1name=Laure Valée|b1flag=fr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Amazing|b1link=Amazing (German player)
+|b2=Freeze|b2flag=cz|b2name=Aleš Kněžínek
+|b3=Kold
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=PiraTechnics|b1name=Devin Younge|b1flag=us
+|b2=Quickshot|b2name=Trevor Henry|b2flag=za
+|b3=Drakos|b3name=Daniel Drakos|b3flag=us
+|b4=Medic|b4name=Aaron Chamberlain|b4flag=gb
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Colour Caster
+|b1=Vedius|b1name=Andrew Day|b1flag=gb
+|b2=Quickshot|b2name=Trevor Henry|b2flag=za
+|b3=Deficio|b3name=Martin Lynge|b3flag=dk
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2018/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2018/Spring|edate=2018-05-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

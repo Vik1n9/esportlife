@@ -1,0 +1,310 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FNorth%20America%2F2016%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:18:41.660Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:NA LCS 2016 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-29
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-29
+}}
+{{NA LCS Navbox}}
+{{NA LCS 2016 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=NA LCS 2016 Summer 
+|shortname=2016 Summer 
+|tickername=NA LCS 2016 Summer 
+|image=NA LCS 2015.png
+|series=NA LCS
+|icon=NA LCS 2015.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=
+|patch=
+|epatch=
+|server=North America
+|type=offline
+|country=United States
+|country2=Canada
+|city=Los Angeles 
+|city2=Toronto
+|venue=Air Canada Centre
+|format='''Group Stage'''<br>Double Round Robin ({{Abbr/Bo3}})<br>'''Playoffs'''<br>Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2016-06-03
+|edate=2016-08-28
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|stream=
+|twitch=nalcs1
+|twitch2=nalcs2
+|team_number=10
+|previous=LCS/North_America/Spring/2016{{!}}Spring 2016
+|next=LCS/North_America/Spring/2017{{!}}2017 Spring 
+|previous2=LCS/North_America/2016/Summer/Promotion{{!}}Summer Promotion
+|next2=LCS/North_America/2017/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''NA LCS 2016 Summer''' second split of 2016 of the [[North American League of Legends Championship Series]] (NA LCS), held from June 3 to August 28, 2016. The regular season took place in Los Angeles and Toronto, with the playoffs concluding offline at the Air Canada Centre. Ten teams competed, including returning Spring Split teams and promoted squads from the [[LCS/North_America/2016/Summer/Promotion|2016 Summer Promotion series]], battling for a $100,000 prize pool and qualification to the [[World Championship/2016|2016 World Championship]]. The split consisted of a Double Round Robin Group Stage (all matches Best-of-Three) followed by Single Elimination Playoffs (all matches Best-of-Five). Top teams earned points for seeding and qualification for both the playoffs and the World Championship. This season also saw major roster changes, including [[Phoenix1]] acquiring [[Team Impulse]]’s LCS spot and [[Team EnVyUs]] acquiring [[Renegades]]’ spot, reshaping the North American competitive scene for the latter half of 2016.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|points=nalcs2016|cutafter=10
+|tournament1=LCS/North America/2016/Summer/Group Stage |groupElimStatuses=down,staydown,stay
+|tournament2=LCS/North America/2016/Summer/Playoffs
+|qualifies1=World Championship/2016 |qualifies1name=Worlds
+|qualifies2=LCS/North America/2017/Spring |qualifies2name=Spring
+|qualifies3=LCS/North_America/2016/Summer/Promotion  |qualifies3name=Promotion
+|{{Slot |place=1 |qualified1=yes|qualified2=yes |usdprize=50,000}}
+|{{Slot |place=2 |qualified2=yes|points=90|usdprize=25,000}}
+|{{Slot |place=3 |qualified2=yes|points=70|usdprize=15,000}}
+|{{Slot |place=4 |qualified2=yes|points=40 |usdprize=10,000}}
+|{{Slot |place=5-6|qualified2=yes |points=20}}
+|{{Slot |place=7|qualified2=yes}}
+|{{Slot |place=8 |qualified3=yes}}
+|{{Slot |place=9 |qualified3=yes}}
+|{{Slot |place=10 |qualified3=yes}}
+}}
+
+{{box|break|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=8|margin=false}}
+{{prize pool slot award|award=MVP |Bjergsen|flag1=dk|team1=tsm |date=2016-08-28}}
+{{prize pool slot award|award=Rookie of the Split |Biofrost|flag1=ca|team1=tsm |date=2016-08-24}}
+{{prize pool slot award|award=Coach of the Split |Parth|flag1=us|team1=tsm |date=2016-08-17}}
+{{prize pool slot award|award=1st All-Pro Team |date=2016-08-10
+|Hauntzer|flag1=us|team1=tsm
+|Reignover|flag2=kr|team2=imt
+|Bjergsen|flag3=dk|team3=tsm
+|Doublelift|flag4=us|team4=tsm
+|Biofrost|flag5=ca|team5=tsm
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2016-08-10
+|Huni|flag1=kr|team1=imt
+|Svenskeren|flag2=dk|team2=tsm
+|Pobelter|flag3=us|team3=imt
+|Sneaky|flag4=us|team4=c9
+|Aphromoo|flag5=us|team5=clg
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2016-08-10
+|Impact|flag1=kr|team1=c9
+|Dardoch|flag2=us|team2=tl
+|Jensen|flag3=dk|team3=c9
+|WildTurtle|flag4=ca|team4=imt
+|Adrian|flag5=us|team5=imt
+}}
+{{Prize pool end}}
+{{box|end|padding=2em}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Cloud9
+|p1=Impact |p1flag=kr 
+|p2=Meteos |p2flag=us 
+|p3=Jensen |p3flag=dk 
+|p4=Sneaky |p4flag=us 
+|p5=Bunny FuFuu |p5flag=us 
+|p6=Smoothie |p6flag=ca |pos6=sup
+
+|t2p1=Reapered |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/Spring/2016|Spring ]]
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|image=
+|p1=Darshan |p1flag=ca
+|p2=Xmithie |p2flag=ph
+|p3=Huhi |p3flag=kr
+|p4=Stixxay |p4flag=us
+|p5=aphromoo |p5flag=us
+
+|t2p1=Zikzlol |t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/Spring/2016|Spring ]]
+}}
+{{TeamCard
+|team=Echo Fox
+|p1=kfo |p1flag=kr 
+|p2=Hard
+|p3=Froggen
+|p4=KEITH
+|p5=Big
+
+|t2p1=Grigne |t2pos1=jg
+|t2p2=Kez |t2p2flag=us |t2pos2=jg
+
+|t3p1=Cop |t3p1flag=us 
+|t3p2=heavenTime |t3p2flag=us
+|t3p3=Ginko |t3p3flag=us
+|qualifier=[[LCS/North_America/Spring/2016|Spring ]]
+}}
+{{TeamCard
+|team=Immortals
+|p1=Huni |p1flag=kr 
+|p2=Reignover |p2flag=kr 
+|p3=Pobelter |p3flag=us 
+|p4=WildTurtle |p4flag=ca 
+|p5=Adrian |p5flag=us
+
+|t2p1=Dylan |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=NRG Esports
+|p1=Quas |p1flag=venezuela
+|p2=Santorin|p2flag=dk
+|p3=GBM |p3flag=kr
+|p4=Ohq|p4flag=kr
+|p5=KiWiKiD |p5flag=us
+
+|t2p1=Hermit |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/Spring/2016|Spring ]]
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Lourlo |p1flag=us 
+|p2=Moon |p2link=Moon (American player) |p2flag=us 
+|p3=Dardoch |p3flag=us |pos3=jg 
+|p4=FeniX |p4flag=kr |pos4=mid
+|p5=fabbbyyy |p5flag=us |pos5=bot
+|p6=Matt |p6flag=us |pos6=sup
+
+|t2p1=Piglet |t2p1flag=kr |t2pos1=ad
+
+|t3p1=Locodoco |t3pos1=head coach 
+|qualifier=[[LCS/North_America/Spring/2016|Spring ]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Hauntzer |p1flag=us
+|p2=Svenskeren |p2flag=dk
+|p3=Bjergsen |p3flag=dk
+|p4=Doublelift |p4flag=us
+|p5=Biofrost |p5flag=ca
+
+|t2p1=Parth |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=Apex Gaming
+|p1=Ray |p1flag=kr 
+|p2=Shrimp |p2flag=kr 
+|p3=Keane |p3flag=kr 
+|p4=Apollo |p4flag=us 
+|p5=Xpecial |p5flag=us 
+
+|t2p1=Saintvicious |t2pos1=head coach 
+|t2title=Staff
+|qualifier=[[LCS/North_America/2016/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Phoenix1
+|p1=Brandini |p1flag=us  |pos1=top
+|p2=Inori |p2flag=iq |pos2=jg
+|p3=Slooshi |p3flag=us |pos3=mid
+|p4=Mash |p4flag=us |pos4=ad
+|p5=Gate |p5flag=cn |pos5=sup
+
+|t2p1=Zig |t2p1flag=ca |t2pos1=top
+|t2p2=Zentinel |t2p2flag=us |t2pos2=jg
+|t2p3=Pirean |t2p3flag=kr |t2pos3=mid
+
+|t3p1=Charlie |t3p1link=Charlie (Chinese player) |t3p1flag=cn |t3pos1=coach
+|t3p2=BonQuash |t3p2flag=us |t3pos2=coach
+|qualifier=[[LCS/North_America/2016/Summer/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1=May 23rd - LCS Spot of [[Team Impulse]] is acquired by [[Phoenix1]]
+}}
+}}
+{{TeamCard
+|team=Team EnVyUs
+|p1=Seraph |p1flag=kr
+|p2=Procxin |p2flag=kr 
+|p3=Ninja |p3flag=kr 
+|p4=LOD |p4flag=ca 
+|p5=Hakuho |p5flag=us 
+
+|t2p1=Miracle |t2p1link=Miracle (Korean player) |t2p1flag=kr |t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2016/Summer/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1=May 18th - LCS Spot of [[Renegades]] is acquired by [[Team EnVyUs]]
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/North_America/2016/Summer/Group_Stage|Regular Season}}
+===Playoffs===
+{{ShowBracket|id=TJP3AZ6P04}}
+
+==Format==
+* Group Stage
+**Double Round Robin
+**Each team plays 18 matches.
+**All matches are {{Abbr/Bo3}}
+**Top 6 qualifies to the [[LCS/North_America/2016/Summer/Playoffs|Summer Playoffs]]
+*Playoffs
+** Single Elimination {{Abbr/Bo5}} 
+* Winner qualifies for [[World_Championship/2016|2016 World Championship]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=nalcs1
+|lang2=usuk |twitch2=nalcs2
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/North America/2016/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/North_America/2016/Summer|edate=2016-12-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

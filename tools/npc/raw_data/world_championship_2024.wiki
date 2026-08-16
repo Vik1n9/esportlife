@@ -1,0 +1,984 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2024&redirects=1
+<!-- 抓取: 2026-08-16T18:31:01.615Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+<metadesc>The League of Legends World Championship 2024 is the crowning event of League of Legends esports. Learn more about its format, venues, and teams here!</metadesc><!--
+-->{{DISPLAYTITLE:2024 World Championship}}{{World Championship}}<!--
+-->{{Worlds2024Tabs}}
+{{Infobox league
+|name=2024 World Championship
+|tickername=Worlds 2024
+|shortname=Worlds 2024
+|caption=MAKE THEM BELIEVE
+|image=LoL World Championship 2024 lightmode.png
+|imagedark=LoL World Championship 2024 darkmode.png
+|series=World Championships
+|icon=League of Legends Worlds lightmode.png
+|icondarkmode=League of Legends Worlds darkmode.png
+|organizer=Riot Games
+|sponsor1=[https://www.omen.com/ OMEN]
+|sponsor2=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor3=[https://hyperx.com/ HyperX]
+|sponsor4=[https://www.redbull.com/ Red Bull]
+|sponsor5=[https://secretlab.eu/ Secretlab]
+|sponsor6=[https://www.oppo.com/ OPPO]
+|sponsor7=[https://www.verizon.com/ Verizon]
+|sponsor8=[http://www.mastercard.com/ Mastercard]
+|sponsor9=[https://www.cisco.com/ Cisco]
+|sponsor10=[https://www.opera.com/gx Opera GX]
+|sponsor11=[https://aws.amazon.com/ AWS]
+|patch=14.18
+|type=Offline
+|country=United Kingdom
+|city=London
+|country2=France
+|city2=Paris
+|country3=Germany
+|city3=Berlin
+|venuename=The O2 arena|venue=wikipedia:The O2 Arena |venuedesc=Grand Final
+|venue2=adidas arena|venue2link=https://www.adidasarena.com/ |venue2desc=Quarterfinals & Semifinals
+|venue3=Riot Games Arena |venue3link= |venue3desc=Play-Ins & Swiss Stage
+|rulebook=https://cdn.sanity.io/files/dsfx7636/news/f69130a70849462c75fbd834f740f170963b173e.pdf
+|format=Play-Ins<br>Swiss<br>Single Elimination
+|prizepoolusd=2,225,000
+|sdate=2024-09-25
+|edate=2024-11-02
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|tiktok=lolesports
+|twitch=riotgames
+|youtube=lolesports
+|team_number=20
+|previous=World Championship/2023{{!}}2023
+|next=World Championship/2025{{!}}2025
+}}
+<br>
+The '''League of Legends World Championship 2024''' (also known as '''LoL Worlds 2024''' or just '''Worlds 2024''') is the crowning event of League of Legends esports for the year. The tournament includes 20 teams from all regions of the game in a months-long race for the Summoner's Cup. 
+
+The tournament will start the Play-Ins and Swiss Stages in the Riot Games Arena in Berlin, Germany. For the Knockout Stage the event moves to the adidas arena in Paris, France and the Grand Finals will be played in the O2 arena in London, England.
+
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+|newsHeader=Additional Content
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+<!--12.5% of all revenue from Championship Viego & Championship Ward skins will added to the total prize pool and another 12.5% will be equally distributed among the teams.
+The total prize pool was $2,225,000 {{abbr/USD}}-->
+{{TeamPrizePool|cutafter=8|percentage=true
+|tournament1=World Championship/2024/Play-In
+|tournament2=World Championship/2024/Swiss Stage
+|tournament3=World Championship/2024/Knockout Stage
+|{{Slot|percentage=20%}}
+|{{Slot|percentage=16%}}
+|{{Slot|percentage=8% |place=3-4}}
+|{{Slot|percentage=4.5% |place=5-8}}
+|{{Slot|percentage=3.5% |place=9-11}}
+|{{Slot|percentage=3% |place=12-14}}
+|{{Slot|percentage=2.5% |place=15-16}}
+|{{Slot|percentage=1.75% |place=17-18}}
+|{{Slot|percentage=1% |place=19-20}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP|{{Opponent|Faker|flag=kr|team=t1}}}}
+}}<br>
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=World Championship/2024/Play-In
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Swiss Stage MVP
+|tournament=World_Championship/2024/Swiss_Stage
+}}
+{{box|break}} 
+{{MVPTable|cutafter=6|margin=false
+|title=Knockout Stage MVP
+|tournament=World Championship/2024/Knockout Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Swiss Stage Teams===
+{{TeamParticipants
+|{{Opponent|Hanwha Life Esports
+    |players={{Persons
+        |{{Person|Doran|role=top}}
+        |{{Person|Peanut|role=jgl}}
+        |{{Person|Zeka|role=mid|trophies=1}}
+        |{{Person|Viper|link=Viper (Korean player)|role=bot|trophies=1}}
+        |{{Person|Delight|role=sup}}
+
+        |{{Person|DanDy|role=head coach|trophies=1|type=staff}}
+        |{{Person|Mowgli|role=coach|trophies=1|type=staff}}
+        |{{Person|Bibra|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2024/Summer|placement=1}}
+}}
+
+|{{Opponent|Gen.G Esports
+    |players={{Persons
+        |{{Person|Kiin|role=top}}
+        |{{Person|Canyon|role=jgl|trophies=1}}
+        |{{Person|Chovy|role=mid}}
+        |{{Person|Peyz|role=bot}}
+        |{{Person|Lehends|role=sup}}
+
+        |{{Person|Kim|role=head coach|trophies=1|type=staff}}
+        |{{Person|Helper|link=Helper (Korean player)|role=coach|type=staff}}
+        |{{Person|Mata|role=coach|trophies=1|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=Mid-Season Invitational/2024|placement=1}}
+    |notes={{Notes
+        |{{Notes|[[Gen.G Esports]] qualified for Worlds 2024 through MSI Champion seed after qualifying for [[LCK/2024/Summer/Playoffs|LCK Summer Playoffs]]. Their seeding was later determined from their regional results.}}
+    }}
+}}
+
+|{{Opponent|Dplus
+    |players={{Persons
+        |{{Person|Kingen|role=top|trophies=1}}
+        |{{Person|Lucid|role=jgl}}
+        |{{Person|ShowMaker|role=mid|trophies=1}}
+        |{{Person|Aiming|role=bot}}
+        |{{Person|Moham|role=sup}}
+
+        |{{Person|Kellin|role=sup|played=false|status=sub}}
+
+        |{{Person|Zefa|role=head coach|trophies=1|type=staff}}
+        |{{Person|Bubbling|role=coach|type=staff}}
+        |{{Person|SSONG|role=coach|trophies=1|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2024/Regional Finals|placement=1}}
+}}
+
+|{{Opponent|T1
+    |players={{Persons
+        |{{Person|Zeus|role=top|trophies=1}}
+        |{{Person|Oner|role=jgl|trophies=1}}
+        |{{Person|Faker|role=mid|trophies=4}}
+        |{{Person|Gumayusi|role=bot|trophies=1}}
+        |{{Person|Keria|role=sup|trophies=1}}
+
+        |{{Person|Rekkles|role=sup|played=false|status=sub}}
+
+        |{{Person|kkOma|role=head coach|trophies=3|type=staff}}
+        |{{Person|Tom|role=coach|trophies=1|type=staff}}
+        |{{Person|Roach|role=coach|trophies=1|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2024/Regional Finals|placement=2}}
+}}
+
+|{{Opponent|Bilibili Gaming
+    |players={{Persons
+        |{{Person|Bin|role=top}}
+        |{{Person|XUN|role=jgl}}
+        |{{Person|knight|role=mid}}
+        |{{Person|Elk|role=bot}}
+        |{{Person|ON|role=sup}}
+
+        |{{Person|LvMao|role=sup|played=false|status=sub}}
+        |{{Person|Wei|role=jgl|played=true|status=sub}}
+
+        |{{Person|BigWei|role=head coach|type=staff}}
+        |{{Person|Xiasu|role=assistant coach|flag=cn|type=staff}}
+        |{{Person|zyb|role=analyst|flag=cn|type=staff}}
+        |{{Person|Easyhoon|role=assistant coach|trophies=1|type=staff}}
+        |{{Person|Fury|link=Fury (Korean player)|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2024/Summer|placement=1}}
+}}
+
+|{{Opponent|Top Esports
+    |players={{Persons
+        |{{Person|369|role=top}}
+        |{{Person|Tian|role=jgl|trophies=1}}
+        |{{Person|Creme|role=mid}}
+        |{{Person|JackeyLove|role=bot|trophies=1}}
+        |{{Person|Meiko|role=sup|trophies=1}}
+
+        |{{Person|xiye|role=mid|played=false|status=sub}}
+
+        |{{Person|Maokai|link=Maokai (Chinese coach)|role=head coach|trophies=1|type=staff}}
+        |{{Person|Despa1r|role=assistant coach|type=staff}}
+        |{{Person|Shuijing|flag=cn|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2024/Championship Points|text=LPL Championship Points|placement=}}
+}}
+
+|{{Opponent|LNG Esports
+    |players={{Persons
+        |{{Person|Zika|role=top}}
+        |{{Person|Weiwei|role=jgl}}
+        |{{Person|Scout|role=mid|trophies=1}}
+        |{{Person|GALA|role=bot}}
+        |{{Person|Hang|role=sup}}
+
+        |{{Person|Yagao|role=mid|played=false|team=jdg|status=sub}}
+        |{{Person|xiaoyu|link=Alley|role=top|played=false|status=sub}}
+        |{{Person|shad0w|link=shad0w (Italian player)|role=jgl|played=false|status=sub}}
+
+        |{{Person|U|role=head coach|type=staff}}
+        |{{Person|DynAmlte|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2024/Regional Finals|placement=1}}
+    |notes={{Notes
+        |{{Notes|{{player|Scout|flag=kr}} is temporarily restricted from traveling to Worlds, and {{player|Yagao|flag=cn}} will be playing for LNG as an emergency substitute until Scout's travel ban is resolved.<ref>{{cite web|url=https://x.com/lolesports/status/1836601105721213074|title=#Worlds2024 Update|author=LoL Esports|date=2024-09-19}}</ref>}}
+        |{{Notes|[[LNG Esports]]<ref>{{cite web|url=https://weibo.com/5511584320/OyV3ff2IE|title=针对近日Scout选手的出境限制问题，俱乐部在这里给大家作出明确回复|trans_title=With regards to Scout's travel restrictions, the club would like to formally give a response to the matter|author=[[LNG Esports]]|date=2024-09-27|language={{Flag|cn}} Chinese}}</ref> and [[Riot Games]] <ref>{{cite web|url=https://x.com/lolesports/status/1839726704144605287|title=An update on Scout #Worlds2024 |author=LoL Esports|date=2024-09-28|language={{Flag|usuk}} English}}</ref> confirms that {{player|Scout|flag=kr}} will be able to play in Worlds as expected.}}
+    }}
+}}
+
+|{{Opponent|Weibo Gaming
+    |players={{Persons
+        |{{Person|Breathe|role=top}}
+        |{{Person|Tarzan|role=jgl}}
+        |{{Person|Xiaohu|role=mid}}
+        |{{Person|Light|link=Light (Wang Guang-Yu)|role=bot}}
+        |{{Person|Crisp|role=sup|trophies=1}}
+
+        |{{Person|Youdang|role=jgl|played=false|status=sub}}
+
+        |{{Person|Daeny|role=head coach|trophies=1|type=staff}}
+        |{{Person|Tselin|flag=cn|role=assistant coach|type=staff}}
+        |{{Person|Rui|flag=cn|role=assistant coach|type=staff}}
+        |{{Person|Medusa|flag=cn|role=analyst|type=staff}}
+        |{{Person|Fly|link=Fly (Kim Sang-chul)|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2024/Regional Finals|placement=2}}
+}}
+
+|{{Opponent|G2 Esports
+    |players={{Persons
+        |{{Person|BrokenBlade|role=top}}
+        |{{Person|Yike|role=jgl}}
+        |{{Person|Caps|role=mid}}
+        |{{Person|Hans Sama|role=bot}}
+        |{{Person|Mikyx|role=sup}}
+
+        |{{Person|Dylan Falco|role=head coach|type=staff}}
+        |{{Person|Duffman|role=assistant coach|type=staff}}
+        |{{Person|Ismind|flag=co|role=performance coach|type=staff}}
+        |{{Person|Rodrigo|role=analyst|type=staff}}
+        |{{Person|Click|flag=ru |link=Click (Russian analyst) |role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2024/Finals|placement=1}}
+}}
+
+|{{Opponent|Fnatic
+    |players={{Persons
+        |{{Person|Oscarinin|role=top}}
+        |{{Person|Razork|role=jgl}}
+        |{{Person|Humanoid|role=mid}}
+        |{{Person|Noah|role=bot}}
+        |{{Person|Jun|role=sup}}
+
+        |{{Person|Nightshare|role=head coach|type=staff}}
+        |{{Person|Gaax|role=assistant coach|type=staff}}
+        |{{Person|Hidon|role=positional coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2024/Finals|placement=2}}
+}}
+
+|{{Opponent|FlyQuest
+    |players={{Persons
+        |{{Person|Bwipo|role=top}}
+        |{{Person|Inspired|role=jgl}}
+        |{{Person|Quad|role=mid}}
+        |{{Person|Massu|role=bot}}
+        |{{Person|Busio|role=sup}}
+
+        |{{Person|Nukeduck|role=head coach|type=staff}}
+        |{{Person|Arrow|role=coach|type=staff}}
+        |{{Person|mithy|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCS/2024/Summer|placement=1}}
+}}
+
+|{{Opponent|Team Liquid
+    |players={{Persons
+        |{{Person|Impact|role=top|trophies=1}}
+        |{{Person|UmTi|role=jgl}}
+        |{{Person|APA|role=mid}}
+        |{{Person|Yeon|role=bot}}
+        |{{Person|CoreJJ|role=sup|trophies=1}}
+
+        |{{Person|Spawn|role=head coach|type=staff}}
+        |{{Person|Reignover|role=assistant coach|type=staff}}
+        |{{Person|RapidStar|role=positional coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCS/2024/Summer|placement=2}}
+}}
+}}
+
+===Play-In Teams===
+{{TeamParticipants
+|{{Opponent|MAD Lions KOI
+    |players={{Persons
+        |{{Person|Myrwn|role=top}}
+        |{{Person|Elyoya|role=jgl}}
+        |{{Person|Fresskowy|role=mid}}
+        |{{Person|Supa|role=bot}}
+        |{{Person|Alvaro|link=Alvaro (Álvaro Fernández)|role=sup}}
+
+        |{{Person|Shy Carry|role=adc|played=false|status=sub}}
+
+        |{{Person|Melzhet|role=head coach|type=staff}}
+        |{{Person|Zeph|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2024/Finals|placement=3}}
+}}
+
+|{{Opponent|100 Thieves
+    |players={{Persons
+        |{{Person|Sniper|role=top}}
+        |{{Person|River|link=River (Korean player)|role=jgl}}
+        |{{Person|Quid|role=mid}}
+        |{{Person|Tomo|role=bot}}
+        |{{Person|Eyla|role=sup}}
+
+        |{{Person|Goldenglue|role=head coach|type=staff}}
+        |{{Person|Spookz|role=coach|type=staff}}
+        |{{Person|Kaimera|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCS/2024/Summer|placement=3}}
+}}
+
+|{{Opponent|PSG Talon
+    |players={{Persons
+        |{{Person|Azhi|role=top}}
+        |{{Person|JunJia|role=jgl}}
+        |{{Person|Maple|role=mid}}
+        |{{Person|Betty|role=bot}}
+        |{{Person|Woody|role=sup}}
+
+        |{{Person|CorGi|role=head coach|trophies=1|type=staff}}
+        |{{Person|Zero|link=Hua|flag=tw|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=PCS/2024/Summer|placement=1}}
+}}
+
+|{{Opponent|Fukuoka HAWKS gaming
+    |players={{Persons
+        |{{Person|Evi|role=top}}
+        |{{Person|Forest|role=jgl}}
+        |{{Person|DasheR|role=mid}}
+        |{{Person|Marble|role=bot}}
+        |{{Person|Vsta|role=sup}}
+
+        |{{Person|VicaL|role=head coach|type=staff}}
+        |{{Person|Tussle|role=coach|type=staff}}
+        |{{Person|Kite|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=PCS/2024/Summer|placement=2}}
+}}
+
+|{{Opponent|GAM Esports
+    |players={{Persons
+        |{{Person|Kiaya|role=top}}
+        |{{Person|Levi|role=jgl}}
+        |{{Person|Emo|role=mid}}
+        |{{Person|Easylove|role=bot}}
+        |{{Person|Elio|role=sup}}
+
+        |{{Person|Neo|link=Neo (American player)|role=adc|played=false|status=sub}}
+        |{{Person|SkyK|flag=vn|role=adc|played=false|status=sub}}
+
+        |{{Person|Archie|link=Archie (Vietnamese player)|role=head coach|type=staff}}
+        |{{Person|Hype|flag=vn|link=Hype (Vietnamese player)|role=analyst|type=staff}}
+        |{{Person|BigKoro|role=performance coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=VCS/2024/Summer|placement=1}}
+}}
+
+|{{Opponent|Vikings Esports
+    |players={{Persons
+        |{{Person|Nanaue|role=top}}
+        |{{Person|Gury|role=jgl}}
+        |{{Person|Kati|role=mid}}
+        |{{Person|Shogun|link=Shogun (Vietnamese player)|role=bot}}
+        |{{Person|Bie|role=sup}}
+
+        |{{Person|Tomrio|role=jg|played=false|status=sub}}
+        |{{Person|Fear|flag=vn|link=Fear (Vietnamese player)|role=sup|played=false|status=sub}}
+
+        |{{Person|SofM|role=head coach|type=staff}}
+        |{{Person|Hankay|role=assistant coach|type=staff}}
+        |{{Person|Suga|flag=vn|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=VCS/2024/Summer|placement=2}}
+}}
+
+|{{Opponent|paiN Gaming
+    |players={{Persons
+        |{{Person|Wizer|role=top}}
+        |{{Person|Cariok|role=jgl}}
+        |{{Person|dyNquedo|role=mid}}
+        |{{Person|TitaN|role=bot}}
+        |{{Person|Kuri|role=sup}}
+
+        |{{Person|Xero|role=coach|type=staff}}
+        |{{Person|Sarkis|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=CBLOL/2024/Split 2|placement=1}}
+}}
+
+
+|{{Opponent|Rainbow7
+    |players={{Persons
+        |{{Person|Summit|role=top}}
+        |{{Person|Oddie|role=jgl}}
+        |{{Person|Keine|role=mid}}
+        |{{Person|Ceo|role=bot}}
+        |{{Person|Lyonz|role=sup}}
+
+        |{{Person|Khynm|role=head coach|type=staff}}
+        |{{Person|Nothing|role=assistant coach|type=staff}}
+        |{{Person|Pointless|role=strategic coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LLA/2024/Closing|placement=1}}
+}}
+}}
+
+==Results==
+==={{Stage|Play-In}}===
+{{ShowBracket|id=Wrd24PlyIn}}
+
+==={{Stage|Swiss Stage}}===
+{{ShowStandings|page=World Championship/2024/Swiss Stage|index=0}}<br>
+<span style="line-height:24px">&nbsp;''[[World Championship/2024/Swiss Stage|Click here for more information about the Swiss matches.]]''</span>
+
+==={{Stage|Knockout Stage}}===
+{{ShowBracket|id=Wrd24KnOut}}
+
+==Format==
+* '''Qualification'''<ref name="Worlds 2024 format">{{cite web|url=https://x.com/lolesports/status/1829949966283915630|title=Worlds is back! Here's everything you need to know about the #Worlds2024 format.|author=LoL Esports|date=2024-08-31|language={{Flag|usuk}} English}}</ref>
+** 20 teams from professional leagues will qualify for the event.
+** LPL and LCK will have 4 slots, while LEC and LCS will have 3 slots, PCS and VCS will have 2 slots, remaining slots will be one each for CBLOL and LLA.
+
+* '''Play-In''' - ''September 25<sup>th</sup> - 29<sup>th</sup>''
+** Eight teams play a Double Elimination bracket
+** All matches are played in a {{Abbr/Bo3}}.
+** {{Bgcolortext|up|Top 4 teams}} advance to Swiss Stage.
+** {{Bgcolortext|down|Remaining teams}} are eliminated.
+
+* '''Swiss Stage''' - ''October 3<sup>rd</sup> - 7<sup>th</sup> and 10<sup>th</sup> - 13<sup>th</sup>''
+** Four teams from the Play-In Stage join twelve teams with direct entry from China, South Korea, Europe and North America
+** 16 Team Swiss System Format
+*** Round 1 teams will be paired against teams from a different region
+*** Rounds 2 to 5 are seeded based on each team win-loss record
+*** Elimination and Advancement matches are {{Abbr/Bo3}}
+*** All other matches are {{Abbr/Bo1}}.
+*** Each team can face an opponent only '''once''' throughout the Swiss Stage.
+**{{Bgcolortext|up|Teams that reach 3 wins}} advance to Knockout Stage.
+**{{Bgcolortext|down|Teams that reach 3 losses}} are eliminated.
+** Throughout the Swiss Stage, side selection will be determined by initial draw pool - the higher pool will receive side selection. 
+** In matches between teams from the same draw pool, side selection will be determined by team's drawing order.
+
+* '''Knockout Stage''' - ''October 17<sup>th</sup> - 20<sup>th</sup>, October 26<sup>th</sup> - 27<sup>th</sup> and November 2<sup>nd</sup>''
+** Eight teams play in a single elimination bracket.
+** Side Selection Privilege
+*** Teams with Side Selection Privilege can choose the side in game 1, after that, the losing team can choose the side in the next game.
+*** In Quarterfinals, Side Selection Privilege will be granted to teams with better match record in Swiss Stage. In the case where both teams have the same match record, Side Selection Privilege will be determined by the order teams are drawn in Quarterfinals.
+*** In the following matches, the Side Selection Privilege will be determined by coin flip.
+** All matches are {{Abbr/Bo5}}.
+
+===Worlds 2024 Draw Show===
+* The Worlds Draw Show will be held after [[LEC/2024/Finals|LEC Season Finals]] to place teams into groups for the Play-In Stage of the 2024 World Championship.<ref name="#Worlds2024 Play-In Stage Draw Show">{{cite web|url=https://x.com/lolesports/status/1829887523340108221|title=Tune in for the #Worlds2024 Draw Show after the #LEC Grand Final on September 1st!|author=LoL Esports|date=2024-08-31|language={{Flag|usuk}} English}}</ref>
+** ''[https://youtu.be/s1JNuujOBIs Click here to watch the Play-In Draw Show video] (Guest for the Draw: {{player|Odoamne|flag=ro}})''
+** <span class="mw-customtoggle-Playin-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Worlds Draw Show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Playin-Draw" style="margin-top:10px;">
+* Teams are splited into 2 seed pools to ensure quality matchups.
+** 8 teams are splited into 2 pools
+*** '''Pool 1''' will consist of LEC3 (''MDK''), LCS3 (''100''), VCS1 (''GAM''), and PCS1 (''PSG'').
+*** '''Pool 2''' will consist of VCS2 (''VKE''), PCS2 (''SHG''), CBLOL1 (''PNG''), and LLA1 (''R7'').
+* The first round of the Play-In will always be played against a team from a different Pool.
+* No more than two teams from the same region can be in the same half.
+</div>
+*Swiss Stage Draw Show will be held after the completion of the Play-In and each round of play.
+** ''Click links below to watch the Swiss Stage Draw Show videos: <br> [https://youtu.be/jvtongF0IK4 Round 1] - [https://youtu.be/74w77WSLgqA?t=3689 Round 2] - [https://youtu.be/Z-5dyjIB8Pc?t=3531 Round 3] - [https://youtu.be/qigmJvywXpo Round 4] - [https://youtu.be/Vxrpe2ryejQ Round 5]<br> (Guests for the Draw: Rounds 1-4: {{Flag|br}} [https://x.com/RiotWalu/status/1840696387622879526 Malu] & Round 5: Nick Weatherlow)''
+** <span class="mw-customtoggle-Swiss-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Swiss Stage Draw show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Swiss-Draw" style="margin-top:10px;">
+* Teams are splited into 4 seed pools to ensure quality matchups.
+** 16 teams are splited into 4 pools
+*** '''Pool 1''' will consist of LCK1 (''HLE''), LPL1 (''BLG''), LEC1 (''G2''), and LCS1 (''FLY'').
+*** '''Pool 2''' will consist of LPL2 (''TES''), LCK2 (''GEN''), LEC2 (''FNC''), and LCS2 (''TL'').
+*** '''Pool 3''' will consist of LPL3 (''LNG''), LCK3 (''DK''), LPL4 (''WBG''), and LCK4 (''T1'').
+*** '''Pool 4''' will consist of 4 Play-In Stage winners (''MDK'', ''GAM'', ''PNG'' & ''PSG'')
+* Pool 1 teams will face Pool 4 teams, while Pool 2 teams will face Pool 3 teams in the first round.
+* No team will play a team from their own region in the first round.
+* Following the first round of play, there will be another draw for the second round to pair teams with the same record against one another
+* Each team will face an opponent only once throughout the Swiss Stage.
+</div>
+* Quarterfinal matchups will be decided by an on-stage draw following the final day of the Swiss Stage. 
+** ''[https://youtu.be/91pAEJO73GM Click here to watch the Quarterfinals Draw Show video] (Guests for the Draw: {{Flag|br}} [https://x.com/RiotWalu/status/1840696387622879526 Malu])''
+** In this draw, teams that advanced with a 3-0 record will be matched against teams that advanced with a 3-2 record. 
+** The remaining teams will then be matched against one another.
+
+==Broadcasts==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+|lang2=cn |huya2=660000 |bilibili2=6 |douyu2=288016
+|lang3=kr |youtube3=lck |afreeca3=aflol |soop3=lckkr |chzzk3=9381e7d6816e6d915a44a13c0195b202
+|lang4=tr |twitch4=riotgamesturkish |youtube4=Lolespor
+|lang5=br |twitch5=cblol |youtube5=lolesportsbr
+|lang6=sam |twitch6=lla |youtube6=lla |trovo6=LLA
+|lang7=jp |twitch7=riotgamesjp |youtube7=lolesportsjp
+|lang8=tw |twitch8=lolpacifictw |youtube8=lolpacific
+|lang9=th |soop9=lolesportsth
+|lang10=vn |youtube10=@vcslmht |tiktok10=@vcslmht/live
+|lang11=fr |twitch11=otplol_
+|lang12=it |twitch12=litofficial
+|lang13=es |twitch13=lvpes
+|lang14=cz |twitch14=hitpointcz
+|lang15=hu |twitch15=esport2tv |youtube15=Esport1gg
+|lang16=pl |twitch16=polsatgames |youtube16=polsatgames
+|lang17=rs |twitch17=fortuna |youtube17=fortunaesports
+|lang18=gr |twitch18=gamersloungegr
+}}
+
+===Talent===
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=LATAM Broadcasts
+|name3=Brazilian Broadcasts
+|name4=EMEA Broadcasts
+|name5=Asian Broadcasts
+|name6=Observers
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Desk Host
+|b1=Sjokz
+|b2=Laure
+|b3=Drakos
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=zeetwo
+|b2=Laure
+|b3=Sjokz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Caster
+|b1=CaptainFlowers
+|b2=Drakos
+|b3=Hysterics
+|b4=Medic
+|b5=Atlus
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Emily Rand
+|b3=Jatt
+|b4=Kobe
+|b5=Raz
+|b6=Dagda
+|b7=Guldborg
+|b8=Vedius
+|b9=Chronicler
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Translator
+|b1=Reason|b1flag=tw<!--https://youtube.com/clip/Ugkx1CyTHRy2Q2BbePLmwg8pmyW77Ef-vC4S?feature=shared Check clip again, not sure who this is and its not Rita-->
+|b2=Nazgriel
+|b3=Arthur Dias
+|b4=Wendy
+|b5=Christina
+|b6=zeetwo
+}}
+{{box|end}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Host
+|b1=Magui Sunshine|b1flag=ar|b1name=Magalí Sanyán
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Commentator & Analyst
+|b1=Elmo|b1link=Elmo (Chilean caster)|b1flag=cl|b1name=Bastian Guzmán
+|b2=AndresX
+|b3=Jirall
+|b4=Lenore
+|b5=Rafamaik
+|b6=Corsario
+|b7=Jonni
+|b8=Nachittus|b8flag=ar|b8name=Ignacio Santamarina
+|b9=Fahrenheit
+|b10=Abdiel|b10flag=mx|b10name=Abdiel Estrada
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Interviewer
+|b1=Lau Agnolin|b1flag=br
+}}
+{{box|end}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Host
+|b1=Tabs
+|b2=Rafaela Tomasi
+|b3=Fogueta
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Play-by-Play Caster
+|b1=Gruntar
+|b2=Schaeppi
+|b3=Vecet
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Color Caster & Analyst
+|b1=gstv1
+|b2=Skeat
+|b3=Colosimus|b3name=Brunno Colosimo
+|b4=Loop
+|b5=Lahgolas
+|b6=Dioud
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Interviewer
+|b1=Takeshi
+}}
+{{box|end}}
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=it
+|position=Italian Commentator
+|b1=KenRhen|b1name=Roberto Prampolini|b1flag=it
+|b2=Charlie|b2flag=it|b2name=Carlotta De Simon |b2link=Charlie (Italian caster)
+|b3=Moonboy|b3flag=it
+|b4=Wolcat|b4flag=it|b4name=Gabriele Catterin
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Spanish Commentator
+|b1=Champi
+|b2=Wolk
+|b3=Noa
+|b4=Bebé
+|b5=Fernando Cardenete
+|b6=Toad
+}}
+{{BroadcasterCard|lang=es
+|position=Spanish Guest Analyst
+|b1=F1RE
+|b2=JordiLMK|b2flag=es|b2name=Jordi Laguia Morales
+|b3=Marhoder
+|b4=Jandro
+|b5=Legolas
+|b6=Xixauxas|b6flag=es|b6name=Xavier Fluxà i Millan
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=fr
+|position=French Commentator
+|b1=Tweekz
+|b2=Trayton
+|b3=Zerotick
+|b4=Finghin
+|b5=Chreak
+|b6=Chips
+|b7=Noi
+|b8=Glopo
+|b9=Rhobalas
+|b10=Blackbigo
+|b11=Marex
+}}
+{{BroadcasterCard|lang=fr
+|position=French Guest Analyst
+|b1=SAKEN
+|b2=Striker
+|b3=Hiro|b3link=Hiro (French player)
+|b4=Vetheo
+|b5=Laure
+|b6=YellOwStaR
+|b7=nuc
+|b8=Caliste
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pl
+|position=Polish Commentator
+|b1=Silv4n
+|b2=Devilpiotr
+|b3=Bezi
+|b4=CzarnyPiotrus
+|b5=Kaspersky
+|b6=Bialito
+|b7=Magvayer
+|b8=Tabasko
+|b9=Myha
+|b10=Trymbi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=cz
+|position=Czech Commentator
+|b1=Kangae
+|b2=Mortsche
+|b3=Fortanu|b3name=Filip Růžička
+|b4=Karas|b4flag=cz|b4name=Tomáš Karas
+|b5=KNEZA
+|b6=Hany |b6flag=cz |b6name=Lukáš Hanáček
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=de
+|position=German Commentator
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=hu
+|position=Hungarian Commentator
+|b1=Loemifar
+|b2=Makaria |b2name=Makaria Márk
+|b3=Livius |b3name=Koncz Máté
+|b4=Asdelek |b4name=Nagy Márton
+|b5=Atreus |b5name=Loksa Bence
+|b6=Mentsvar
+|b7=Rka
+|b8=Mathias
+|b9=R3H4B|b9flag=hu|b9name=Sipos Szabolcs
+|b10=Bengac|b10flag=hu|b10name=Gács Bence
+|b11=Pierce
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=rs
+|position=Serbian Commentator
+|b1=Ljuba
+|b2=Sa1na
+|b3=Njen
+|b4=Ralla
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=gr
+|position=Greek Commentator
+|b1=LivingDead
+|b2=Rev
+|b3=Nero
+|b4=IceBreaker
+|b5=Labokop
+|b6=D.K.Drake|b6flag=gr|b6name=Dimitris Drakiotis
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=sa
+|position=Arabic Commentator
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=tr
+|position=Turkish Commentator
+|b1=Hoca
+|b2=Trix
+|b3=Euphony
+|b4=Rehaer
+|b5=Telch
+|b6=Jhonnie|b6name=Caner Güngörür
+|b7=Hetze
+|b8=Scarlet|b8link=Scarlet (Turkish caster)
+|b9=Noeldayi
+|b10=Halpern
+}}
+{{box|end}}
+{{tabs dynamic/tab|5}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Commentator & Analysts
+|b1=TianShu
+|b2=Wang Song
+|b3=Pengpeng
+|b4=Lele |b4name=Le Huilei |b4link=Lele (Chinese caster)
+|b5=YouHao |b5name=Yan Youhao |b5flag=cn
+|b6=乘风儿
+|b7=ShuoShuo
+|b8=HuaiNan
+|b9=Junri
+|b10=pyl
+|b11=Maomao
+|b12=Zeyuan
+|b13=Mile
+|b14=Tongxi
+|b15=Remember
+|b16=Fireloli
+|b17=Duoduo
+|b18=Rita
+|b19=Cat|b19link=Cat (Chinese player)
+|b20=MacT
+|b21=san
+|b22=957
+|b23=Langx
+}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Guest Commentator & Analyst
+|b1=H4cker
+|b2=Zhuo
+|b3=Zdz
+|b4=Hope|b4link=Hope (Chinese player)
+|b5=Wayward
+|b6=Yagao
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Desk Host
+|b1=Afu
+|b2=Shiyue
+|b3=WeiWei |b3link=Weiwei (Chinese caster)
+|b4=Zhou Gangan
+|b5=Chen Yu
+|b6=BaoBao
+|b7=YangYang
+|b8=Luo Xin
+}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Interviewer & Translator
+|b1=Xiran
+|b2=Candice
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host |lang=kr
+|b1=Youn Soo-bin
+|b2=Lee Eun-bin
+|b3=Bae Hye-ji
+}}
+{{BroadcasterCard
+|position=Korean Caster |lang=kr
+|b1=SEONG K
+|b2=Caster Jun
+}}
+{{BroadcasterCard
+|position=Korean Commentator |lang=kr
+|b1=CloudTemplar
+|b2=NoFe
+|b3=Ggoggo
+|b4=Pony
+}}
+{{BroadcasterCard
+|position=Korean Analyst |lang=kr
+|b1=Cpt Jack
+|b2=Helios |b2link=Helios (Korean player)
+|b3=Ggoggo
+|b4=Pony
+}}
+{{BroadcasterCard
+|position=Korean Interviewer & Translator
+|b1=zeetwo
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Mandarin Commentator
+|b1=JR
+|b2=Nash|b2link=Nash (Taiwanese caster)
+|b3=Jackie
+|b4=Zod
+|b5=Chawy
+|b6=Mountain
+|b7=Yuwu
+|b8=Art|b8link=Art (Taiwanese caster)
+|b9=Mattlin|b9flag=tw|b9name=Lin Hsiao-Chien
+|b10=Jay|b10link=Jay (Taiwanese caster)
+|b11=Chenzui
+}}
+{{BroadcasterCard|lang=cn
+|position=Mandarin Interviewer & Translator
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Thai Commentator
+|b1=SunWaltz
+|b2=Winzy
+|b3=HeaGow
+|b4=Moonfalling
+|b5=Nerfgy |b5flag=th |b5name=Pongpat Bangpetch
+|b6=Nohimitsu
+|b7=Zylfelia
+|b8=SunSunSun
+|b9=Adam|b9link=Adam (Thai caster)
+|b10=Lastcrosser
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Host
+|b1=Tạ Vy|b1flag=vn|b1name=Tạ Hoàng Thảo Vy
+|b2=Minh Hảo|b2flag=vn|b2name=Nguyễn Minh Hảo
+}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Interviewer & Translator
+|b1=Nazgriel|b1flag=vn
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Commentator
+|b1=Hải Dương|b1flag=vn|b1name=Nguyễn Hải Dương
+|b2=Minh Trí|b2flag=vn|b2name=Phạm Minh Trí
+|b3=Tùng Lâm|b3flag=vn|b3name=Hoàng Tùng Lâm
+|b4=Khải Nguyễn|b4flag=vn|b4name=Nguyễn Đỗ Khải
+|b5=Ngọc Thiên|b5flag=vn|b5name=Đặng Ngọc Thiên
+|b6=Minh Hảo|b6flag=vn|b6name=Nguyễn Minh Hảo
+|b7=Văn Tùng
+|b8=Hữu Trung
+|b9=Hoàng Luân
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Special Guests
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=jp
+|position=Japanese Commentator
+|b1=Eyes
+|b2=Revol
+|b3=Jaeger |b3name=Kota Horie |b3link=Jaegar (Japanese caster) |b3flag=jp
+|b4=Recruit
+|b5=Katsudion
+|b6=Nemoh
+}}
+{{box|end}}
+{{Tabs dynamic/tab|6}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=In-game Observers
+|b1=Effie
+|b2=Mermage
+|b3=Dandelian 
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Champion Statistics===
+{{#lst:World Championship/2024/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Worlds Appearances===
+{{Player tournament appearances|series=World Championships|tiers=1|limit=10|playerspage=World_Championship/2024}}
+:''See [[World_Championships/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{#section:World_Championship/2024/Additional_Content|additional}}
+
+{{Event media}}
+
+===Trivia===
+* With this World Championship, {{Player|Faker|flag=kr}} marks his {{Ordinal|9}} Worlds appearance, being the first ever player to do so.<ref>{{cite web|url=https://x.com/lolesports/status/1834899711439839553|title=9TH WORLDS FOR FAKER.|author=LoL Esports|date=2024-09-14}}</ref>
+
+==References==
+{{Reflist|2}}
+
+==See Also==
+{{World Championship}}

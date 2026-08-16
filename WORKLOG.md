@@ -245,6 +245,43 @@
 - **狀態**：完成。`npm test` 22754 項全綠（引擎測試不碰 DOM，數字不變）。
   SAVE_VERSION 未動（純 UI 重組）。
 
+## 2026-08-16 — S24c 國際目錄：Worlds/MSI 全枚舉＋四大賽區 79 個賽段冠軍隊，改用 qualifier 反推冠軍避開 LPDB 死路
+- **方向**：庚組資料線第三站——S24b 把台港澳落地了，本站把 fetch_priority 2 的
+  國際取材範圍（§23.3 定案：歷年 Worlds／MSI 參賽隊全部隊員＋LCK／LPL／LEC／
+  LCS 歷年賽段冠軍隊員）列成清單，同時補 `team_history.json` 國際段（單一來源，
+  與 S24b 台港澳段同一份檔）。
+- **賽事頁枚舉**：Worlds（`World Championship/<年>`，2011–2025）與 MSI
+  （`Mid-Season Invitational/<年>`，2015–2025）共 26 頁，`crawl.mjs check`
+  全 OK、全數抓齊。LCK／LPL／LEC／LCS 歷年賽段頁題跨年不一致（24a 已預警，
+  實測驗證）——靠 Worlds／MSI 頁的 `qualifier=` 連結逆推出 109 個真實存在的頁題
+  （`events_champions.txt`），含 2015 前韓國前身 `Champions/<年>/<季>`、LCS 分
+  `Europe`／`North America` 兩個歷史子路徑。
+- **冠軍判定改法（本站核心決定）**：split 頁本身沒有可靠的靜態文字冠軍欄——
+  `TeamPrizePool` 的 Slot 不含隊伍名，名次靠 `{{ShowBracket}}` 走 LPDB 資料庫
+  算圖，靜態 wikitext 抓不到（24a 已預警此路不通）；Tournament Awards 的裸
+  `award=MVP` 是例行賽 MVP 跟冠軍隊無關，不能當判定。改用零額外抓取的訊號：
+  Worlds/MSI 頁 `qualifier=` 連結剛好指到該 split 自己的頁面（不是 Championship
+  Points／Regional Finals／Promotion 等晉級途徑變體）即代表該隊是該 split 冠軍
+  直接種子——已用 2017 LCK Summer 冠軍 Longzhu Gaming（爆冷擊敗 SKT）驗證準確。
+  109 個 split 中 79 筆 ground truth 命中、4 筆退回 Finals/Playoffs MVP 次要訊號
+  命中、26 筆未判定（早期 Champions／LPL／EU LCS／NA LCS 2013–2015 完全無訊號，
+  或頁面因限流沒抓到）。
+- **429 限流遠比預估嚴重**：109 頁賽段頁抓取歷時近 5 小時，3 輪全量重跑＋一次
+  15 分鐘完全冷卻後仍卡在同一批 26 頁——判斷是持續性限流，記交接筆記不再空轉
+  重試，下一輪重跑 `crawl.mjs crawl events_champions.txt`（冪等）即可續抓。
+- **產出**：`target_players.csv` 國際段新增 744 筆（region=INTL、
+  fetch_priority=2，與台港澳 200 筆去重合併共 945 筆）；`team_history.json`
+  國際段新增 132 隊（台港澳段 42 隊不動，共 174 隊）——因逐隊抓 Infobox 在目前
+  限流下不可行，改用 Worlds/MSI/split 頁 TeamCard 反推：`region` 是 Liquipedia
+  賽區代碼本身（不是 ISO 國碼，避免瞎猜冷門外卡賽區對應國家）、`active_years`
+  是已抓資料年份窗近似值（非 Infobox 真實創隊／解散年）、91 隊用人工縮寫表
+  （SKT/T1/GEN/G2/FNC…）＋SKT→T1／DWG→Dplus 等已知更名鏈，41 隊程式化 fallback
+  縮寫（低信心）、24 隊 region 未判定（多是一次性外卡隊）。
+- **實測**：`npm test` 22757 項全綠（純工具站，src/tests 未動）。
+  `next-station.mjs` 回報 S24d。
+- **狀態**：完成。交接筆記已回填（26 頁抓取失敗清單、13 個 split 無法判定冠軍、
+  team_history 國際段已知簡化與同隊跨年頁題漂移未窮舉，留給 S24d／S25）。
+
 ## 2026-08-17 — S39 決策槽與卡牌覆寫：choice 帶 slot 由發射端分流，事件卡選項就地出在卡下緣
 - **方向**：§22.2 卡牌覆寫整條未實作（S37 盤點）——所有 choice beat 一律送底部決策槽，
   事件卡的選項離敘事太遠；決策槽還會依選項數抽長縮短（每月重新找按鈕，違反 §0.5

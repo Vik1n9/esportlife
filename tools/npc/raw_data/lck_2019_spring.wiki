@@ -1,0 +1,464 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2019%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:06:41.259Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2019 Spring}}
+{{LCK Navbox}}
+{{LCK 2019 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCK 2019 Spring 
+|shortname=2019 Spring 
+|tickername=LCK 2019 Spring 
+|image=LCK 2018 full lightmode.png
+|imagedark=LCK 2018 full darkmode.png
+|icon=LCK 2018 icon lightmode.png
+|icondark=LCK 2018 icon darkmode.png
+|series=LCK
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|sponsor= [https://spot.wooribank.com/pot/Dream?withyou=en Woori Bank] <br> [https://www.sktelecom.com/ SK Telecom] <br> [https://rog.asus.com/ Republic of Gamers] <br> [http://www.sidiz.com/ Sidiz] <br> [https://www.logitechg.com/ Logitech G] 
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|venue2=Jamsil indoor Stadium ''{Finals)''
+|format='''Group Stage'''<br> Double Round Robin ({{Abbr/Bo3}}) <br> '''Playoffs'''<br>King of The Hill ({{Abbr/Bo5}}) 
+|prizepool=275,000,000
+|localcurrency=krw
+|sdate=2019-01-16
+|edate=2019-04-13
+|liquipediatier=1
+|highlighted=|epatch=9.1 
+|epatch=9.6
+|website=http://www.lolesports.com/en_US/lck
+|stream=
+|twitch=lck1
+|facebook=lckglobal
+|youtube=user/LoLChampSeries
+|youtube2=channel/UCKVlixycWmapnGQ_wht4cHQ
+|team_number=10
+|previous=LCK/2018/Summer{{!}}2018 Summer 
+|next=LCK/2019/Summer{{!}}2019 Summer 
+|previous2=LCK/2019/Spring/Promotion{{!}}Spring Promotion 
+|next2=LCK/2019/Summer/Promotion{{!}}Summer Promotion 
+}}
+The '''LCK 2019 Spring''' was the first split of the 2019 [[League of Legends Champions Korea]] season, organized by Riot Games and held offline at LoL Park in Seoul, South Korea, from January 16 to April 13, 2019. The Finals took place at Jamsil Indoor Stadium in Seoul. Matches were played on Patches 9.1 through 9.6. The Regular Season was played in a Double Round Robin format with Best-of-Three matches, while the Playoffs followed a Single Elimination King of the Hill format with Best-of-Five series from Round 1 onwards. Ten teams competed for a ₩275,000,000 KRW prize pool, with the split champion qualifying for the [[Mid-Season Invitational/2019|2019 Mid-Season Invitational]]. [[DAMWON Gaming]] and [[SANDBOX Gaming]] joined the league through the [[LCK/2019/Spring/Promotion|Spring Promotion Tournament]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=krw|cutafter=10|points=lck2019
+|qualifies1=Mid-Season Invitational/2019|qualifies1name=MSI
+|qualifies2=Rift Rivals/LCK-LPL-LMS-VCS/2019|qualifies2name=Rift Rivals 2019
+|qualifies3=LCK/2019/Summer/Promotion|qualifies3name=Promotion
+|qualifies4=LCK/2019/Summer|qualifies4name=Summer
+|tournament1=LCK/2019/Spring/Group Stage
+|tournament2=LCK/2019/Spring/Playoffs
+|groupElimStatuses=stay, down
+|{{Slot|points=90 |qualified1=yes |qualified4=yes |qualified2=yes |localprize=100,000,000}}
+|{{Slot|points=70 |qualified2=yes |qualified4=yes |qualified4=yes |localprize=60,000,000}}
+|{{Slot|points=50 |qualified2=yes|qualified4=yes  |localprize=30,000,000}}
+|{{Slot|points=30 |qualified2=yes|qualified4=yes  |localprize=20,000,000}}
+|{{Slot|qualified4=yes |points=10 |localprize=15,000,000}}
+|{{Slot|qualified4=yes |localprize=10,000,000}}
+|{{Slot|qualified4=yes |localprize=10,000,000}}
+|{{Slot|qualified4=yes |localprize=10,000,000}}
+|{{Slot|qualified3=yes |localprize=10,000,000}}
+|{{Slot|qualified3=yes |localprize=10,000,000}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=7
+|{{Slot|award=Group Stage MVP |localprize=5,000,000 |{{Opponent|Chovy|flag=kr|team=grf}}|date=2019-03-31}}
+|{{Slot|award=Playoffs MVP |localprize=5,000,000 |{{Opponent|Teddy |flag=kr|team=skt }}}}
+|{{Slot|award=Top Lane KDA |localprize=2,000,000 |{{Opponent|Khan|flag=kr|team=skt}}|date=2019-03-31}}
+|{{Slot|award=Jungle KDA |localprize=2,000,000 |{{Opponent|link=Tarzan (Korean player)|Tarzan|flag=kr|team=grf}}|date=2019-03-31}}
+|{{Slot|award=Mid Lane KDA |localprize=2,000,000 |{{Opponent|Chovy|flag=kr|team=grf}}|date=2019-03-31}}
+|{{Slot|award=AD Carry KDA |localprize=2,000,000 |{{Opponent|link=Viper (Korean player)|Viper|flag=kr|team=grf}}|date=2019-03-31}}
+|{{Slot|award=Support KDA |localprize=2,000,000 |{{Opponent|Lehends|flag=kr|team=grf}}|date=2019-03-31}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|points=true |cutafter=5 |margin=false
+|title=Group Stage MVP
+|tournament=LCK/2019/Spring/Group Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|points=true |cutafter=5 |margin=false
+|title=Playoffs MVP
+|tournament=LCK/2019/Spring/Playoffs
+}}
+{{box|end}}
+<!--
+==Roster moves==
+{{Transfer List
+|sdate=2018-09-22
+|edate=2019-01-16
+|team=afreeca freecs
+|team2=jagw
+|team3=kz
+|team4=skt
+|team5=kt
+|team6=grf
+|team7=gen.g
+|team8=rox tigers
+|team9=damwon gaming
+|team10=btc
+}}
+{{Transfer List
+|sdate=2019-01-16
+|edate=2019-04-13
+|team=afreeca freecs
+|team2=jagw
+|team3=kz
+|team4=skt
+|team5=kt
+|team6=grf
+|team7=gen.g
+|team8=rox tigers
+|team9=damwon gaming
+|team10=btc
+|title=Roster moves during the season
+}}-->
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Afreeca Freecs
+|p1=Kiin
+|p2=Spirit
+|p3=Ucal
+|p4=Aiming
+|p5=Jelly
+
+|t2p1=Dread|t2p1link=Dread (Korean player)|t2p1flag=kr|t2pos1=jg
+|t2p2=SSUN|t2p2flag=kr|t2pos2=mid
+|t2p3=Brook|t2pos3=mid
+|t2p4=SSol|t2pos4=adc
+|t2p5=Proud|t2pos5=sup
+|t2p6=Senan|t2p6flag=kr|t2pos6=sup
+
+|t3p1=iloveoov|t3p1flag=kr|t3pos1=head coach
+|t3p2=NoFe|t3pos2=coach
+|t3p3=viNylCat|t3pos3=coach
+|t3p4=Yeon|t3p4flag=kr|t3pos4=coach |t3p4link=Yang (Korean player)
+|qualifier=[[LCK/2018/Summer|Summer]]
+}}
+{{TeamCard
+|team=Gen.G
+|p1=CuVee
+|p2=Peanut
+|p3=Fly|p3link=Fly (Song Yong-jun)
+|p4=Ruler
+|p5=Life
+
+|t2p1=Roach|t2pos1=top
+
+|t3p1=Edgar|t3p1flag=kr|t3pos1=head coach
+|t3p2=TrAce|t3p2flag=kr|t3pos2=coach
+|t3p3=|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2018/Summer|Summer ]]
+}}
+{{TeamCard
+|team=Griffin
+|p1=Sword
+|p2=Tarzan|p2link=Tarzan (Korean player)
+|p3=Chovy
+|p4=Viper|p4link=Viper (Korean player)
+|p5=Lehends
+
+|t2p1=Kanavi|t2pos1=jgl|t2p1dnp=true
+|t2p2=Kabbie|t2pos2=sup|t2p2dnp=true
+
+|t3p1=cvMax|t3p1flag=kr|t3pos1=head coach
+|t3p2=Chaos |t3p2link=Chaos (Byun Young-sub) |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/2018/Summer|Summer ]]
+}}
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=Thal
+|p2=Bono
+|p3=Lava
+|p4=Sangyoon
+|p5=Key
+
+|t2p1=SoHwan |t2pos1=top
+|t2p2=Moojin |t2pos2=jg
+|t2p3=Tempt |t2pos3=mid
+|t2p4=Clever |t2pos4=ad|t2p4dnp=true 
+|t2p5=Asper |t2pos5=sup|t2p5dnp=true
+
+|t3p1=OnAir|t3p1flag=kr|t3pos1=head coach
+|t3p2=LinLan|t3p2flag=kr|t3pos2=coach
+|t3p3=Woong|t3p3link=Woong (Jang Gun-woong)|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2018/Summer|Summer ]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings
+|p1=Lindarang
+|p2=Malrang
+|p3=Grace
+|p4=Stitch
+|p5=Nova|p5link=Nova (Park Chan-ho)
+
+|t2p1=TaNa|t2p1flag=kr |t2pos1=top
+|t2p2=Seize|t2p2flag=kr |t2pos2=jg
+|t2p3=CheonGo |t2pos3=mid
+|t2p4=Route|t2p4flag=kr|t2pos4=ad
+|t2p5=Kellin|t2p5flag=kr|t2pos5=sup
+
+|t3p1=H-Dragon|t3p1flag=kr|t3pos1=head coach
+|t3p2=Alvingo|t3p2flag=kr|t3pos2=coach
+|t3p3=Moment|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2018/Summer|Summer ]]
+}}
+{{TeamCard
+|team=KING-ZONE DragonX
+|p1=Rascal
+|p2=Cuzz
+|p3=PawN
+|p4=NaeHyun|pos4=mid
+|p5=Deft|pos5=ad
+|p6=TusiN|pos6=sup
+
+|t2p1=Naehyun|t2p1flag=kr |t2pos1=mid
+
+|t3p1=Hirai|t3p1flag=kr|t3pos1=head coach
+|t3p2=supreme|t3p2flag=kr|t3pos2=coach
+|t3p3=Acorn|t3p3flag=kr|t3pos3=coach
+|t3p4=Gisepa|t3p4flag=kr|t3pos4=Analyst
+|t3title=Staff
+|qualifier=[[LCK/2018/Summer|Summer]]
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Smeb
+|p2=Score
+|p3=Bdd
+|p4=Gango
+|p5=SnowFlower
+
+|t2p1=Kingen |t2pos1=top
+|t2p2=UmTi |t2pos2=jg
+|t2p3=Zenit|t2p3flag=kr|t2pos3=ad
+|t2p4=Mia|t2pos4=sup|t2p4dnp=true
+
+|t3p1=Noexcuse|t3p1flag=kr|t3pos1=head coach
+|t3p2=ZanDarc|t3p2flag=kr|t3pos2=coach
+|t3p3=S0NSTAR|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2018/Summer|Summer]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Khan
+|p2=Clid
+|p3=Faker
+|p4=Teddy
+|p5=Mata
+
+|t2p1=Crazy|t2pos1=top|t2p1dnp=true
+|t2p2=Haru|t2pos2=jg|t2p2dnp=true
+|t2p3=Gori|t2pos3=mid|t2p3dnp=true
+|t2p4=Leo||t2pos4=ad|t2p4link=Leo_(Han_Gyeo-re)|t2p4dnp=true
+|t2p5=Effort|t2pos5=sup|t2p5dnp=true
+
+|t3p1=kkOma|t3p1flag=kr|t3pos1=head coach
+|t3p2=Fly|t3p2flag=kr|t3pos2=coach|t3p2link=Fly_(Kim_Sang-chul)
+|t3p3=Zefa|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2018/Summer|Summer]]
+}}
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Nuguri
+|p2=Canyon
+|p3=ShowMaker
+|p4=Nuclear
+|p5=Hoit
+
+|t2p1=Flame |t2pos1=top
+|t2p2=Punch|t2pos2=jg|t2p2link=Punch (Korean player)
+|t2p3=Aries|t2pos3=ad|t2p3link=Aries (Korean player)
+|t2p4=BeryL|t2pos4=sup
+
+|t3p1=Micro|t3p1flag=kr|t3pos1=head coach
+|t3p2=Kim Jung-su|t3p2flag=kr|t3pos2=coach
+|t3p3=|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2019/Spring/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=SANDBOX Gaming
+|p1=Summit
+|p2=OnFleek
+|p3=Dove
+|p4=Ghost|p4link=Ghost (Korean player)
+|p5=Joker|p5link=Joker (Cho Jae-eup)
+
+|t2p1=Wizer |t2pos1=top
+|t2p2=Crush |t2pos2=jg
+|t2p3=Justice|t2pos3=mid|t2p3dnp=true
+|t2p4=Hollow|t2pos4=ad|t2p4dnp=true
+|t2p5=Totoro|t2pos5=sup|t2p5dnp=true
+
+|t3p1=Sally|t3p1flag=kr|t3pos1=head coach
+|t3p2=Dragon |t3p2link=Dragon (Korean player) |t3p2flag=kr|t3pos2=coach
+|t3p3=Laden|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/2019/Spring/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1={{Team|Team BattleComics}} is acquired by {{Team|SANDBOX Gaming}}
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{#lst:{{FULLPAGENAME}}/Group_Stage|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/2019/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCKSpr19PO}}
+
+==Format==
+*'''Group Stage''' - ''January 16th - March 31st, 2019''
+** Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st place''}} advance to the Finals of the Playoffs.
+*** {{bgcolortext|seedup|''2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|stayup|''4th and 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 8th place''}} qualify for [[LCK/2019/Summer|Summer split]].
+*** {{bgcolortext|down|''9th and 10th place''}} will have to play in the [[LCK/2019/Summer/Promotion|Summer Promotion Tournament]].
+*'''Playoffs''' - ''April 3rd - April 13th, 2019''
+** Single Elimination King of the Hill.
+*** Wild Card match is {{Abbr/Bo3}}.
+*** Round 1 onwards is {{Abbr/Bo5}}.
+** Top 4 qualifies for [[Rift Rivals/2019/LCK-LMS-LPL|Rift Rivals 2019 - LCK vs LMS vs LPL]]
+** Winner qualifies for [[Mid-Season Invitational/2019|Mid-Season Invitational 2019]]
+*'''MVP Points'''
+** Regular Season & WildCard, Playoffs R1-R2 | 100pts
+** Finals | 300pts
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lck1 |youtube1=channel/UCvqRdlKsE5Q8mf8YXbdIJLw |facebook1=lckglobal
+|lang2=kr |twitch2=lck_korea |afreeca2=aflol |facebook2=lckkorea |stream2=https://sports.news.naver.com/tv/index.nhn?uCategory=others&gameId=2019021420R495R90lol&infoGameId=2019021420R495R90lol&type=info
+|lang3=cn |huya3=lck
+|lang4=jp |openrec4=RiotGamesKorea
+|lang5=de |twitch5=summonersinnlive
+|lang6=fr |twitch6=ogaminglol
+}}
+===Talent===
+{{box|start|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Color Commentator|lang=en
+|b1=PapaSmithy
+|b2=LS
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator|lang=en
+|b1=Atlus|b1name=Max Anderson|b1flag=au
+|b2=Valdes|b2name=Brendan valdes|b2flag=us
+}}
+{{box|break|padding=2em}}
+====Korean Broadcast====
+{{BroadcasterCard
+|position=Announcer
+|b1=김민아|b1name=Kim Min-a|b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator|lang=kr
+|b1=Caster Jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Color Commentator|lang=kr
+|b1=Kim Dong-joon
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+|b3=KangQui|b3name=Kang Seung-hyeon|b3flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=MadLife|b1flag=kr
+|b2=bitdory|b2name=Ha Gwang-seok|b2flag=kr
+|b3=Cpt Jack|b3name=Kang Hyeong-woo|b3flag=kr
+}}
+{{BroadcasterCard
+|position=Observer|lang=kr
+|b1=JonnaStrong
+}}
+{{box|end}}
+
+
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="2" |[[Patch 9.1]]
+| colspan="1" |[[Patch 9.2]]
+| colspan="2" |[[Patch 9.3]]
+| colspan="2" |[[Patch 9.4]]
+| colspan="2" |[[Patch 9.5]]
+| colspan="2" |[[Patch 9.6]]
+|-
+| Disabled
+| colspan="14" |
+|}
+
+===Statistics===
+{{#lst:LCK/2019/Spring/Statistics|Champion Stats}}
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2019-03-10
+  |content2={{Player|SSUN|flag=kr}}
+  |content3={{TeamIcon|Afreeca Freecs|date=2019-03-10}}
+  |content4={{TeamIcon|kt rolster|date=2019-03-10}}
+  |content5={{ChampionIcon|size=25px|xayah|date=2019-03-10|addTextLink=true}}
+  |content6={{PositionIcon/mid}} Mid
+  |content7={{Vodlink|vod=https://youtu.be/5V2UG6iT09w?t=2280|gamenum=}}
+}}
+{{ResponsiveTableRow
+  |content1=2019-01-23
+  |content2={{Player|Viper|link=Viper (Korean player)|flag=kr}}
+  |content3={{TeamIcon|griffin|date=2019-01-23}}
+  |content4={{TeamIcon|hle|date=2019-01-23}}
+  |content5={{ChampionIcon|size=25px|kai'sa|date=2019-01-23|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7={{Vodlink|vod=https://youtu.be/OeVbAHl8ErU?t=3301|gamenum=}}
+}}
+{{ResponsiveTableEnd}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2019/Spring|edate=2019-05-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

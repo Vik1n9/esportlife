@@ -1,0 +1,215 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FNorth%20America%2F2013%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:18:15.511Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:NA LCS 2013 Summer }}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-29
+}}
+{{NA LCS Navbox}}
+{{NA LCS 2013 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=NA LCS 2013 Summer 
+|shortname=2013 Summer 
+|tickername=NA LCS 2013 Summer 
+|image=NA LCS Logo.png
+|series=NA LCS
+|icon=NA LCS Logo.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=
+|epatch=
+|server=North America
+|type=Offline
+|country=United States
+|country2=United States
+|city=Los Angeles
+|city2=Seattle
+|venue=
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo3}}) <br> Finals ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2013-06-12
+|edate=2013-09-01
+|liquipediatier=1
+|twitch=riotgames
+|team_number=8
+|previous=LCS/North America/2013/Spring{{!}}2013 Spring 
+|next=LCS/North America/2014/Spring{{!}}2014 Spring 
+|previous2=LCS/North America/2013/Summer/Promotion{{!}}Summer Promotion 
+|next2=LCS/North America/2014/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''NA LCS 2013 Summer''' split was the second split of the 2013 North American LCS season, held from June 12 to September 1, 2013. Eight teams competed in a quadruple round-robin Regular Season, with all matches being best-of-one. The top six teams advanced to the Playoffs, which were played in a single-elimination format. All matches were best-of-three, except for the Final, which was best-of-five.
+The winner of the split qualified for the [[World_Championship/2013|2013 World Championship]] and secured a spot in the [[Battle_Of_The_Atlantic/2013|2013 Battle of the Atlantic]]. The split was organized by Riot Games and held in Los Angeles and Seattle, United States, with the Finals taking place at PAX 2013.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10
+|tournament1=LCS/North America/2013/Summer/Group Stage |groupElimStatuses=stay, down
+|qualifies1=LCS/North America/2014/Spring|qualifies1name=Spring
+|qualifies2=LCS/North America/2014/Spring/Promotion|qualifies2name=Promotion
+|qualifies3=World Championship/2013|qualifies3name=Worlds
+|qualifies4=Battle_of_the_Atlantic|qualifies4name=Battle of the Atlantic
+|{{Slot|usdprize=50000|qualified1=true|qualified3=true|qualified4=true|{{Opponent|Cloud9|lastvs=tsm|lastvsscore=3-0}}}}
+|{{Slot|usdprize=25000|qualified1=true|qualified3=true|qualified4=true|{{Opponent|tsm|lastvs=c9|lastvsscore=0-3}}}}
+|{{Slot|usdprize=15000|qualified1=true|qualified3=true|qualified4=true|{{Opponent|team vulcun|lastvs=dig|lastvsscore=2-0}}}}
+|{{Slot|usdprize=10000|qualified1=true|qualified4=true|{{Opponent|dig|lastvs=team vulcun|lastvsscore=0-2}}}}
+|{{Slot|qualified1=true|qualified4=true|{{Opponent|clg|lastvs=team curse|lastvsscore=2-0}}}}
+|{{Slot|qualified2=true|{{Opponent|team curse|lastvs=clg|lastvsscore=0-2}}}}
+|{{Slot|qualified2=true}}
+|{{Slot|qualified2=true}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Team Coast
+|image=Team Coast notext.png
+|p1=ZionSpartan|p1flag=ca
+|p2=NintendudeX|p2flag=us
+|p3=Shiphtur|p3flag=ca
+|p4=DontMashMe|p4flag=ca
+|p5=Daydreamin|p5flag=us
+
+|t2p1=Jintae|t2p1flag=us|t2pos1=jg
+
+|t3p1=Elementz|t3pos1=head coach
+|qualifier=[[LCS/North America/2013/Spring|Spring]]
+}}
+{{TeamCard
+|team=Team Curse
+|image=Curse Logo notext.png
+|p1=Voyboy|p1flag=ca
+|p2=Saintvicious|p2flag=us
+|p3=NyJacky|p3flag=cn
+|p4=Cop|p4flag=us
+|p5=Edward|p5flag=ar
+|qualifier=[[LCS/North America/2013/Spring|Spring]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Dyrus|p1flag=us
+|p2=TheOddOne|p2flag=ca
+|p3=Reginald|p3flag=us
+|p4=WildTurtle|p4flag=ca
+|p5=Xpecial|p5flag=us
+|qualifier=[[LCS/North America/2013/Spring|Spring]]
+}}
+{{TeamCard
+|team=Team Vulcun
+|image=Team Vulcun Logo notext.png
+|p1=Sycho Sid|p1flag=us
+|p2=Xmithie|p2flag=ph
+|p3=mandatorycloud|p3flag=us
+|p4=Zuna|p4flag=us
+|p5=BloodWater|p5flag=bg
+|c=|cflag=
+|qualifier=[[LCS/North America/2013/Spring|Spring]]
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Balls|p1flag=us
+|p2=Meteos|p2flag=us
+|p3=Hai|p3flag=us
+|p4=Sneaky|p4flag=us
+|p5=LemonNation|p5flag=us
+|t2p1=Alex Penn|t2p1flag=us|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/North America/2013/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Nientonsoh|p1flag=us
+|p2=bigfatlp|p2flag=ca
+|p3=Link|p3flag=us
+|p4=Doublelift|p4flag=us
+|p5=Chauster|p5flag=us
+|t2p1=MonteCristo|t2p1flag=us|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/North America/2013/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team Dignitas
+|p1=KiWiKiD|p1flag=us
+|p2=Crumbzz|p2flag=ve
+|p3=scarra|p3flag=us
+|p4=Imaqtpie|p4flag=us
+|p5=Patoy|p5flag=us
+|c=|cflag=
+|qualifier=[[LCS/North America/2013/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Velocity eSports
+|p1=Cris|p1flag=mx
+|p2=Nk Inc|p2flag=us
+|p3=Vileroze|p3flag=us
+|p4=Maplestreet|p4flag=ca
+|p5=Evaniskus|p5flag=us
+|t2p1=ecco|t2p1flag=us|t2pos1=mid
+|c=|cflag=
+|qualifier=[[LCS/North America/2013/Summer/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/North America/2013/Summer/Group_Stage|Group Stage}}
+===Playoffs===
+{{ShowBracket|id=O1XLOMYS7V}}
+
+==Format==
+* Group Stage
+** Each team plays all other teams 4 times
+**All matches are {{Abbr/Bo1}}
+**Top 6 advance for playoffs
+**Top 2 receive playoffs byes into the semifinals
+*Playoffs
+** Single Elimination 
+** Matches are {{Abbr/Bo3}} 
+**Final is {{Abbr/Bo5}}
+* Top 3 Qualifies for [[World_Championship/2013|2013 World Championship]]
+* Top 5 Qualifies for [[Battle_Of_The_Atlantic/2013|Battle of the Atlantic 2013]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Phreak
+|b2=Riv
+|b3=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Jatt
+|b2=Kobe
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/North America/2013/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/North_America/2013/Summer|edate=2013-12-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,521 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2022&redirects=1
+<!-- 抓取: 2026-08-16T18:38:40.398Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2022 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}
+{{MSI2022Tabs}}
+{{Infobox league
+|name=2022 Mid-Season Invitational
+|shortname=MSI 2022
+|image=MSI 2022 lightmode.png
+|imagedark=MSI 2022 darkmode.png
+|series=MSI
+|icon=MSI 2021 lightmode.png
+|icondark=MSI 2021 darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=12.8
+|sponsor1=[http://www.bose.com/ Bose]
+|sponsor2=[https://www.mastercard.com/ Mastercard]
+|sponsor3=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor4=[https://www.oneplus.com/ OnePlus]
+|sponsor5=[https://gaming.amazon.com/ Prime Gaming]
+|sponsor6=[https://www.redbull.com/ Red Bull]
+|sponsor7=[https://secretlab.co/ Secretlab]
+|sponsor8=[https://www.spotify.com/ Spotify]
+|sponsor9=[https://www.statefarm.com/ State Farm]
+|sponsor10=[https://www.verizon.com/ Verizon]
+|type=Offline
+|country=South Korea
+|city=Busan
+|venue=Busan Esports Arena
+|venuedesc=Group Stage
+|venuelink=https://brena.or.kr/brena/index.do
+|venue2=Busan Exhibition & Convention Center
+|venue2desc=Rumble & Knockout Stage
+|venue2link=http://bexco.co.kr/eng/Main.do
+|format='''Group & Rumble Stage:'''<br>Double Round-Robin<br>'''Playoffs:'''<br>Single Elimination
+|prizepoolusd=250,000
+|sdate=2022-05-10
+|edate=2022-05-29
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/en_US/
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|team_number=11
+|previous=Mid-Season Invitational/2021{{!}}2021
+|next=Mid-Season Invitational/2023{{!}}2023
+}}
+
+The '''Mid-Season Invitational''' (also abbreviated as ''MSI'') features the winners from 11 individual Riot leagues spring splits, with the [[LCL]] not sending a representative due to the LCL Spring Split being cancelled. On the 21st of April, it was also announced that the [[LPL]] representative would be competing online from China due to the COVID-19 pandemic, with all teams competing at 35ms instead to level the playing field. <ref>{{cite web |url=https://lolesports.com/article/mid-season-invitational-2022-update/bltd6b5a63691b4faf6 |title=Mid-Season Invitational 2022 Update |date=2021-04-21 |author=[[Riot Games]] |publisher=[[LoL Esports]] |language={{Flag|usuk}} English}}</ref>
+
+==Format==
+* '''Group Stage''' - ''May 10th - 15th, 2022''
+** Eleven teams are split into one group of three and two groups of four teams
+** Group A & B will play in a Double Round-Robin format
+** Group C will play in a Quadruple Round-Robin format
+** {{Bgcolortext|up|Top two teams}} per group advance to the next stage
+** {{Bgcolortext|down|Bottom two teams}} are eliminated
+** All matches are {{Abbr/Bo1}}
+
+* '''Rumble Stage''' - ''May 20th - 24th, 2022''
+** Six remaining teams play in another Double Round-Robin format 
+** {{Bgcolortext|up|Top four teams}} advance to Knockout Stage
+** {{Bgcolortext|down|Bottom two teams}} are eliminated
+** All matches are {{Abbr/Bo1}}
+
+* '''Knockout Stage''' - ''May 27th - 29th, 2022''
+** The first place team of Rumble Stage will choose to face either the third or fourth place team
+** Single-Elimination bracket
+** All matches are {{Abbr/Bo5}}
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host
+|b1=Dash
+|b2=Quickshot
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii
+|b2=Yinsu |b2name=Yinsu Collins |b2flag=uk |b2link=valorant:Yinsu
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Aux
+|b2=Emily Rand
+|b3=Jatt
+|b4=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=Drakos
+|b3=Medic
+|b4=Oisín |b4link=Oisín (Irish Commentator)
+|b5=Pastrytime
+|b6=Phreak
+|b7=Valdes
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Chronicler
+|b3=Dagda
+|b4=Guldborg
+|b5=Kobe
+|b6=Lyric
+|b7=MarkZ
+|b8=Vedius
+|b9=Wolf|b9link=Wolf (American caster)
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Jennlee
+|b2=Youn Soo-bin
+}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun
+|b2=SEONG K
+|b3=Dankun
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=GorillA
+|b3=LirA
+|b4=Bitdory|b4flag=kr
+|b5=KangQui|b5flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Kuro |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Interviewer & Translator
+|b1=zeetwo
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=6|percentage1=1
+|tournament1=Mid-Season Invitational/2022/Rumble Stage
+|tournament2=Mid-Season Invitational/2022/Knockout Stage
+|{{Slot|percentage1=30}}
+|{{Slot|percentage1=20}}
+|{{Slot|count=2|percentage1=10}}
+|{{Slot|percentage1=7}}
+|{{Slot|percentage1=7}}
+|{{Slot|count=2|percentage1=3.33
+|{{Opponent|red |wdl=2/4 |date=2022-05-14}}
+|{{Opponent|order |wdl=0/8 |date=2022-05-14}}
+}}
+|{{Slot|count=2|percentage1=2.67
+|{{Opponent|dfm |wdl=1/5 |date=2022-05-15}}
+|{{Opponent|aze |wdl=1/5 |date=2022-05-15}}
+}}
+|{{Slot|percentage1=1
+|{{Opponent|iw |wdl=1/5 |date=2022-05-14}}
+}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=MVP |{{Opponent|Wei |flag=cn |team=rng}}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=Mid-Season_Invitational/2022/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Rumble Stage MVP
+|tournament=Mid-Season_Invitational/2022/Rumble_Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Knockout Stage MVP
+|tournament=Mid-Season Invitational/2022/Knockout_Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamCard columns start|showplayerinfo=true}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=Evi
+|p2=Steal
+|p3=Yaharong
+|p4=Yutapon
+|p5=Harp
+
+|t2p1=Kazu |t2pos1=Head Coach
+|t2p2=Ceros |t2p2flag=jp |t2pos2=Coach
+|t2p3=Gismo |t2p3flag=jp |t2pos3=Coach
+|t2title=Staff
+|qualifier=[[LJL/2022/Spring|LJL Spring]]
+|placement=7-9
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Evil Geniuses
+|p1=Impact
+|p2=Inspired
+|p3=jojopyun
+|p4=Danny
+|p5=Vulcan
+
+|t2p1=Turtle |t2pos1=Head Coach
+|t2p2=Rigby |t2p2flag=kr |t2pos2=Assistant Coach
+|t2p3=SH4DOW |t2pos3=positional coach
+|t2p4=Draxyr |t2pos4=positional coach
+|t2p5=Artemis |t2p5link=Artemis (American player) |t2p5flag=us |t2pos5=performance coach
+|t2title=Staff
+|qualifier=[[LCS/2022/Spring|LCS Spring]]
+}}
+
+{{TeamCard
+|team=G2 Esports
+|p1=BrokenBlade
+|p2=Jankos |p2wins=1
+|p3=caPs |p3wins=1
+|p4=Flakked
+|p5=Targamas
+
+|t2p1=Dylan Falco |t2pos1=Head Coach
+|t2p2=Rodrigo |t2p2flag=pt |t2p2link=rLT |t2pos2=analyst
+|t2title=Staff
+|qualifier=[[LEC/2022/Spring|LEC Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2019|date=2019-05-19}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=İstanbul Wildcats
+|p1=StarScreen
+|p2=Ferret
+|p3=Serin
+|p4=HolyPhoenix
+|p5=Farfetch
+
+|t2p1=TheQep |t2p1flag=tr |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[TCL/2022/Winter|TCL Winter]]
+|placement=10-11
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=ORDER
+|p1=BioPanther
+|p2=Kevy
+|p3=Kisee
+|p4=Puma
+|p5=Corporal
+
+|t2p1=Loki |t2p1flag=au |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCO/2022/Split 1|LCO Split 1]]
+}}
+
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi
+|p2=Juhan
+|p3=Bay
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=Azhi |t2pos1=top
+
+|t3p1=CorGi |t3pos1=Head Coach
+|t3p2=Maru |t3p2flag=kr |t3pos2=assistant Coach
+|qualifier=[[PCS/2022/Spring|PCS Spring]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=RED Canids
+|p1=Guigo
+|p2=Aegis
+|p3=Grevthar
+|p4=TitaN
+|p5=Jojo
+
+|t2p1=Coelho |t2p1flag=br |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[CBLOL/2022/Split 1|CBLOL Split 1]]
+|placement=8-9
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Bin
+|p2=Wei |p2wins=1
+|p3=Xiaohu |p3wins=2
+|p4=GALA |p4wins=1
+|p5=Ming |p5wins=2
+
+|t2p1=KenZhu |t2p1flag=cn |t2pos1=Head Coach
+|t2p2=Tabe |t2p2flag=hk |t2pos2=Assistant Coach
+|t2p3=Xiaobai |t2p3flag=cn |t2pos3=Coach
+|t2p4=Sin |t2p4link=Sin (Korean player) |t2pos4=Analyst
+|t2title=Staff
+|qualifier=[[LPL/2022/Spring|LPL Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2018, 2021)'''
+}}
+
+{{TeamCard
+|team=Saigon Buffalo
+|image=Saigon Buffalo full allmode.png
+|p1=Hasmed
+|p2=BeanJ
+|p3=Froggy
+|p4=Shogun |p4link=Shogun (Vietnamese player)
+|p5=Taki |p5link=Taki (Vietnamese player)
+
+|t2p1=Ren |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[VCS/2022/Spring|VCS Spring]]
+|placement=6
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2019|date=2019-05-14}} '''(2019)'''
+
+|inotes=[[GAM Esports]] decided not to participate in the MSI due to their participation in the [[Southeast_Asian_Games/2021|31st SEA Games]] as the [[Vietnam|Vietnam National Team]]. '''Saigon Buffalo''' are invited to MSI as the runners-up. <ref>{{cite web |url=https://www.facebook.com/SaigonBuffaloLoL/posts/5191209864233535 |title=QUẨY LÊN ANH EM NHÀ TRÂU ƠI!!!!!! |date=2022-04-22 |author=[[Saigon Buffalo]] |publisher=Facebook |language={{Flag|vn}} Vietnamese}}</ref>
+}}
+
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker |p3wins=2
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Polt |t2pos1=Head Coach
+|t2p2=Moment |t2p2flag=kr |t2pos2=Coach
+|t2p3=Bengi |t2p3flag=kr |t2pos3=Coach
+|t2p4=Gisepa |t2p4flag=kr |t2pos4=analyst
+|t2title=Staff
+|qualifier=[[LCK/2022/Spring|LCK Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season Invitational/2017|date=2017-05-21}} '''(2016, 2017)'''
+}}
+
+{{TeamCard
+|team=Team Aze
+|p1=Lonely
+|p2=Dimitry
+|p3=Aloned
+|p4=5kid
+|p5=Straight
+
+|t2p1=Yeti |t2pos1=Head Coach
+|t2p2=ukFalleN |t2p2flag=mx |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[LLA/2022/Opening|LLA Opening]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=2em}}
+{{#section:Mid-Season_Invitational/2022/Group Stage|Group_A}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2022/Group Stage|Group_B}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2022/Group Stage|Group_C}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2022/Group_Stage|Click here for more information about the '''''Group Stage''''' matches.]]''</span>
+
+===Rumble Stage===
+{{#lst:Mid-Season_Invitational/2022/Rumble_Stage|Rumble Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season Invitational/2022/Rumble_Stage|Click here for detailed results of the '''Rumble Stage''' matches]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=LS1FpFsDaE}}
+
+==Additional Data==
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports |trovo1=RiotGames
+|lang2=cn |bilibili2=6 |douyu2=288016 |huya2=lpl
+|lang3=kr |twitch3=lck_korea |afreeca3=aflol
+|lang4=tr |twitch4=riotgamesturkish |youtube4=Lolespor
+|lang5=br |twitch5=CBLOL |youtube5=lolesportsbr
+|lang6=esmx |twitch6=lla |youtube6=LLA |trovo6=LLA
+|lang7=jp |twitch7=riotgamesjp
+|lang8=tw |twitch8=lolpacifictw |youtube8=lolpacific
+|lang9=th |twitch9=lolpacificth |youtube9=lolpacific
+|lang10=hk |twitch10=lolpacifichk |youtube10=lolpacific
+|lang11=vn |youtube11=VETV7ESPORTS
+|lang12=fr |twitch12=otplol_
+|lang13=de |twitch13=summonersinnlive |youtube13=SummonerInnDE
+|lang14=it |twitch14=pg_esports_lol
+|lang15=es |twitch15=lvpes
+|lang16=pl |twitch16=polsatgames |youtube16=polsatgames
+|lang17=hu |twitch17=esport2tv |youtube17=Esport1gg
+|lang18=cz |twitch18=hitpointcz
+|lang19=pt |twitch19=inygontv1
+}}
+{{box|end}}
+
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2022/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+{{Event media}}
+
+===Articles===
+*{{ExternalMediaLink
+|date=2022-04-29
+|link=https://tips.gg/article/msi-2022-power-rankings/
+|title=MSI 2022 Power Rankings
+|by=carrico
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-06
+|link=https://tips.gg/article/msi-group-a-preview/
+|title=Mid-Season Invitational 2022 Group A Preview
+|by=zechs
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-07
+|link=https://tips.gg/article/mid-season-invitational-2022-group-b-preview/
+|title=Mid-Season Invitational 2022 Group B Preview
+|by=zechs
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-08
+|link=https://tips.gg/article/mid-season-invitational-2022-group-c-preview/
+|title=Mid-Season Invitational 2022 Group C Preview
+|by=zechs
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-19
+|link=https://tips.gg/article/why-msi-needs-to-change/
+|title=Why MSI needs to change
+|by=carrico
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-21
+|link=https://tips.gg/article/mid-season-invitational-2022-rumble-stage-power-rankings/
+|title=Mid-Season Invitational 2022 Rumble Stage Power Rankings
+|by=alovct
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-30
+|link=https://tips.gg/article/msi-as-a-snapshot-of-pre-12-10-meta/
+|title=MSI as a snapshot of pre 12.10 meta
+|by=Frokat
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+*{{ExternalMediaLink
+|date=2022-05-31
+|link=https://tips.gg/article/the-meh-season-invitational/
+|title=RNG Impressed in The "Meh"-Season Invitational
+|by=zechs
+|of=Tips.GG
+|mediatype=article
+|language=usuk
+}}
+
+==References==
+{{Reflist}}
+
+{{2022 Season International Cycle Navbox}}

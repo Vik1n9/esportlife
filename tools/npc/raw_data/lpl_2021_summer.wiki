@@ -1,0 +1,727 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2021%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:47:10.404Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2021 Summer}}
+{{Tencent Games Navbox}}
+{{LPL 2021 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2021 Summer 
+|shortname=2021 Summer 
+|tickername=LPL 2021 Summer
+|series=LPL
+|image=LPL 2020 Logo.png
+|icon=LPL 2020 icon.png
+|organizer-link=https://www.tjsports.com/ |organizer=TJ Sports
+|organizer2=
+|sponsor=[https://www.mercedes-benz.com/ Mercedes-Benz]<br>[https://www.nike.com/cn/zh_cn/ Nike]<br>[http://www.mosilian.cn/ Momchilovtsi]<br>[https://www.harbin-beer.com.cn/ Harbin Beer]<br>[https://www.lenovo.com/ph/en Lenovo]<br>[http://en.wahaha.com.cn/ Wahaha]<br>[http://www.kfc.com.cn/kfccda/index.aspx KFC]<br>[https://www.redbull.com/ RB War Horse]<br>[https://www.oppo.com/en/ OPPO]<br>[http://www.suning.com/ Suning.com]<br>[https://www.52tt.com/ ThunderTalk]<br>[https://www.liepin.com/ Liepin]<br>[https://www.razer.com/ Razer]<br>[https://autofull.com/ AutoFull]<br>[https://www.intel.com/content/www/us/en/gaming/serious-gaming.html Intel-Gaming]
+|patch=11.11
+|epatch=11.15
+|server=China
+|type=Offline
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|country5=China
+|country6=China
+|city=Shanghai 
+|city2=Hangzhou
+|city3=Suzhou
+|city4=Shenzhen
+|city5=Xi'an
+|city6=Beijing
+|venue=Hongqiao World IE Hub|venuedesc=Group Stage
+|venue2=LGD Allied Esports Stadium|venue2desc=LGD Homeground
+|venue3=Yangcheng International Esports Center|venue3desc=LNG Homeground
+|venue4=Shenzhen Media Group Longgang Production Center|venue4desc=Victory Five Homeground
+|venue5=Guangdian Grand Theatre|venue5desc=Team WE Homeground
+|venue6=Legion JDG Esports Center|venue6desc=JD Gaming Homeground
+|format='''Group Stage'''<br>Single Round-Robin<br>'''Playoffs'''<br>King-of-the-Hill & Double Elimination
+|localcurrency=CNY
+|prizepool=4,200,000
+|sdate=2021-06-07
+|edate=2021-09-02
+|liquipediatier=1
+|highlighted=|website=https://lpl.qq.com/es/lpl/2021/
+|rulebook= https://lol.qq.com/news/detail_m.html?docid=3445160776010661269
+|youtube=LPLEnglish
+|weibo=lolesports
+|twitter=lplenglish
+|douyu=lpl
+|huya=lpl
+|twitch=lpl
+|team_number=17
+|previous=LPL/2021/Spring{{!}}2021 Spring 
+|next=LPL/2022/Spring{{!}}2022 Spring 
+}}
+The '''LPL 2021 Summer''' was the summer split of the [[LoL Pro League]] ('''LPL''') organized by TJ Sports, held from June 7 to September 2, 2021, across multiple cities in China including Shanghai, Hangzhou, Suzhou, Shenzhen, Xi'an, and Beijing. The Group Stage took place at team home venues, while the playoffs were conducted in a King-of-the-Hill and Double-Elimination format. Seventeen teams competed in a single round-robin Group Stage, with the top ten advancing to playoffs. All matches in the Group Stage were {{Abbr/Bo3}}, while playoff matches were {{Abbr/Bo5}}. The total prize pool was ¥4,200,000 CNY, with the winner qualifying for the [[World Championship/2021|Worlds 2021]]. The split was played on patches 11.11–11.15, with [[Akshan]] disabled from the playoffs.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=10|points=lpl2021|localcurrency=cny|groupElimStatuses=down,stay
+|tournament1=LPL/2021/Summer/Group_Stage
+|tournament2=LPL/2021/Summer/Playoffs
+|qualifies1=World Championship/2021|qualifies1name=Worlds
+|{{Slot |qualified1=true|points=|localprize=2,000,000}}
+|{{Slot |points=110|qualified2=true|localprize=1,000,000}}
+|{{Slot |points=80|qualified2=true|localprize=500,000}}
+|{{Slot |points=60|qualified2=true|localprize=300,000}}
+|{{Slot |points=40|count=2|localprize=200,000}}
+|{{Slot |points=10|count=2}}
+}}
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|cutafter=7|margin=false|title=Group Stage MVPs
+|tournament=LPL/2021/Summer/Group Stage/Week_1-5
+|tournament2=LPL/2021/Summer/Group Stage/Week_6-9
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=7|margin=false|title=Playoffs MVPs
+|tournament=LPL/2021/Summer/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=1em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Group Stage MVP |Doinb |flag1=kr |team1=fpx |date=2021-08-10}}
+{{prize pool slot award|award=Playoffs MVP |Scout |flag1=kr |team1=edg }}
+{{prize pool slot award|award=Outstanding Rookie |Creme |flag1=cn |team1=omg |date=2021-08-10}}
+{{prize pool slot award|award=1st All-Pro Team |date=2021-08-10
+|Xiaohu |flag1=cn |team1=rng
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|Doinb |flag3=kr |team3=fpx
+|Viper (Korean player){{!}}Viper |flag4=kr |team4=edg
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2021-08-10
+|Bin |flag1=cn |team1=sn
+|Wei |flag2=cn |team2=rng
+|knight |flag3=cn |team3=tes
+|Lwx |flag4=cn |team4=fpx
+|Meiko |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2021-08-10
+|Breathe |flag1=cn |team1=we
+|Tian |flag2=cn |team2=fpx
+|FoFo |flag3=tw |team3=ra
+|Elk |flag4=cn |team4=we
+|Hang |flag5=cn |team5=ra
+}}
+{{Prize pool end noprize}}
+{{box|break|padding=1em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Other Weeks}}
+{{prize pool slot award|award=Player of Week 9 |Doinb |flag1=kr |team1=fpx |date1=2021-08-09}}
+{{prize pool slot award|award=Rookie of Week 9 |Xiaohao |flag1=cn |team1=rw |date1=2021-08-09}}
+{{prize pool slot award|award=Best of the Rift - Week 9 |date=2021-08-09
+|Biubiu |flag1=cn |team1=blg
+|Weiwei |flag2=cn |team2=blg
+|Doinb |flag3=kr |team3=fpx
+|iBoy |flag4=cn |team4=ra
+|Crisp |flag5=cn |team5=fpx
+}}
+{{prize pool slot award|award=Player of Week 8 |AKi |flag1=cn |team1=omg |date1=2021-08-02}}
+{{prize pool slot award|award=Rookie of Week 8 |Creme |flag1=cn |team1=omg |date1=2021-08-02}}
+{{prize pool slot award|award=Best of the Rift - Week 8 |date=2021-08-02
+|Xiaohu |flag1=cn |team1=rng
+|AKi |flag2=cn |team2=omg
+|Creme |flag3=cn |team3=omg
+|Lwx |flag4=cn |team4=fpx
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 7 |beishang |flag1=cn |team1=we |date1=2021-07-26}}
+{{prize pool slot award|award=Rookie of Week 7 |Creme |flag1=cn |team1=omg |date1=2021-07-26}}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2021-07-26
+|Xiaohu |flag1=cn |team1=rng
+|beishang |flag2=cn |team2=we
+|Doinb |flag3=kr |team3=fpx
+|Elk |flag4=cn |team4=we
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 6 |Xiaohu |flag1=cn |team1=rng |date1=2021-07-19}}
+{{prize pool slot award|award=Rookie of Week 6 |Xiaohao |flag1=cn |team1=rw |date1=2021-07-19}}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2021-07-19
+|Xiaohu |flag1=cn |team1=rng
+|Wei |flag2=cn |team2=rng
+|Doinb |flag3=kr |team3=fpx
+|Elk |flag4=cn |team4=we
+|Shenyi |flag5=cn |team5=fpx
+}}
+{{prize pool slot award|award=Player of Week 5 |Xiaohu |flag1=cn |team1=rng |date1=2021-07-12}}
+{{prize pool slot award|award=Rookie of Week 5 |xiaolaohu |flag1=cn |team1=fpx |date1=2021-07-12}}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2021-07-12
+|Xiaohu |flag1=cn |team1=rng
+|Kanavi |flag2=kr |team2=jdg
+|Zeka |flag3=kr |team3=blg
+|Smlz |flag4=cn |team4=up
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 4 |FoFo |flag1=tw |team1=ra |date1=2021-07-05}}
+{{prize pool slot award|award=Rookie of Week 4 |Qingtian |flag1=cn |team1=tes |date1=2021-07-05}}
+{{prize pool slot award|award=Best of the Rift - Week 4 |date=2021-07-05
+|fearness |flag1=cn |team1=lgd
+|Karsa |flag2=tw |team2=tes
+|FoFo |flag3=tw |team3=ra
+|JackeyLove |flag4=cn |team4=tes
+|COLD |flag5=cn |team5=omg
+}}
+{{prize pool slot award|award=Player of Week 3 |Doinb |flag1=kr |team1=fpx |date1=2021-06-28}}
+{{prize pool slot award|award=Rookie of Week 3 |Creme |flag1=cn |team1=omg |date1=2021-06-28}}
+{{prize pool slot award|award=Best of the Rift - Week 3 |date=2021-06-28
+|Flandre |flag1=cn |team1=edg
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|Doinb |flag3=kr |team3=fpx
+|iBoy |flag4=cn |team4=ra
+|Meiko |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=Player of Week 2 |Tarzan (Korean player){{!}}Tarzan |flag1=kr |team1=lng |date1=2021-06-21}}
+{{prize pool slot award|award=Rookie of Week 2 |Creme |flag1=cn |team1=omg |date1=2021-06-21}}
+{{prize pool slot award|award=Best of the Rift - Week 2 |date=2021-06-21
+|Flandre |flag1=cn |team1=edg
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|icon |flag3=cn |team3=lng
+|Kramer |flag4=kr |team4=lgd
+|Iwandy |flag5=cn |team5=lng
+}}
+{{prize pool slot award|award=Player of Week 1 |Nuguri|flag1=kr|team1=fpx|date1=2021-06-14}}
+{{prize pool slot award|award=Rookie of Week 1 |neny|flag1=cn|team1=ig|date1=2021-06-14}}
+{{prize pool slot award|award=Best of the Rift - Week 1 |date=2021-06-14
+|Nuguri|flag1=kr|team1=fpx
+|Kanavi|flag2=kr|team2=jdg
+|Yagao|flag3=cn|team3=jdg
+|LokeN|flag4=kr|team4=jdg
+|LvMao|flag5=cn|team5=jdg
+}}
+{{Prize pool end noprize}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2021-04-19
+|edate=2021-06-07
+|team=blg
+|team2=edg
+|team3=fpx
+|team4=ig
+|team5=jdg
+|team6=lgd
+|team7=lng
+|team8=omg
+|team9=ra
+|team10=rw
+|team11=rng
+|team12=sn
+|team13=we
+|team14=tes
+|team15=tt
+|team16=up
+|team17=v5
+}}
+{{Transfer List
+|sdate=2021-06-07
+|edate=2021-09-02
+|team=blg
+|team2=edg
+|team3=fpx
+|team4=ig
+|team5=jdg
+|team6=lgd
+|team7=lng
+|team8=omg
+|team9=ra
+|team10=rw
+|team11=rng
+|team12=sn
+|team13=we
+|team14=tes
+|team15=tt
+|team16=up
+|team17=v5
+|title=Roster moves during the season
+}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Biubiu
+|p2=Weiwei
+|p3=Zeka
+|p4=Aiming
+|p5=ppgod
+
+|t2p1=Rise|t2p1flag=cn|t2pos1=adc|t2p1dnp=true
+
+|t3p1=Kim|t3p1link=Kim_Jung-su|t3pos1=Head Coach
+|t3p2=Morning|t3pos2=Coach
+|t3p3=Jay|t3p3link=Jay (Taiwanese player)|t3pos3=Coach
+|t3p4=Jykim|t3p4flag=kr|t3pos4=Coach
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Flandre
+|p2=Jiejie
+|p3=Scout
+|p4=Viper|p4link=Viper (Korean player)
+|p5=Meiko
+
+|t2p1=Xiaoxiang|t2p1flag=cn|t2po1=top|t2p1dnp=true
+|t2p2=Clearlove|t2pos2=jg
+|t2p3=JunJia|t2pos3=jg
+|t2p4=Hope|t2p4link=Hope (Chinese player) |t2pos4=adc|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=Maokai|t3p1link=Maokai (Chinese coach)|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=CorGi|t3p2flag=tw|t3pos2=coach
+|t3p3=Aaron |t3p3link=Aaron (Chinese coach) |t3p3flag=cn|t3pos3=coach
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=Nuguri
+|p2=Tian
+|p3=Doinb
+|p4=Lwx
+|p5=Crisp
+
+|t2p1=Jiang|t2p1flag=cn|t2pos1=adc|t2p1dnp=true
+|t2p2=Xiaolaohu|t2p2flag=cn|t2pos2=top
+|t2p3=JingYi|t2p3flag=cn|t2pos3=adc
+|t2p4=Shenyi|t2p4flag=cn|t2pos4=sup
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Steak|t3pos1=Head Coach
+|t3p2=REFRA1N|t3pos2=Coach
+|t3p3=Sean|t3p3flag=cn|t3pos3=Analyst
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=TheShy
+|p2=XUN
+|p3=Rookie
+|p4=Wink
+|p5=Lucas|p5flag=cn
+
+|t2p1=neny|t2pos1=top
+|t2p2=Puff|t2pos2=adc
+|t2p3=Snow|t2p3flag=cn|t2pos3=adc|t2p3dnp=true
+|t2p4=Baolan|t2pos4=sup
+|t2p5=Southwind|t2pos5=sup|t2p5dnp=true
+
+|t3p1=NoFe|t3pos1=Head Coach
+|t3p2=Along|t3p2link=Along (Long Hong-Zhou)|t3p2flag=cn|t3pos2=Coach
+|t3p3=IceCoffee|t3p3flag=cn|t3pos3=Analyst
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Zoom
+|p2=Kanavi
+|p3=Yagao
+|p4=LokeN
+|p5=LvMao
+
+|t2p1=Mystic|t2pos1=adc|t2p1dnp=true
+|t2p2=Lpc|t2p2flag=cn|t2pos2=adc
+|t2p3=|t2p3flag=|t2pos3=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Chashao|t3pos1=Head Coach
+|t3p2=vus5o|t3p2flag=cn|t3pos2=Analyst
+|t3p3=Huge|t3p3flag=cn|t3pos3=Coach
+|t3p4=renzhe|t3p4flag=cn|t3pos4=Coach
+|t3p5=Daxiong|t3p5flag=cn|t3pos5=Assistant Coach
+|context=Beijing
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Garvey
+|p2=Shad0w |p2link=Shad0w (Italian player)
+|p3=xiye
+|p4=Kramer
+|p5=Mark |p5link=Mark (Chinese player)
+
+|t2p1=fearness|t2pos1=top
+|t2p2=Kui|t2p2flag=cn|t2pos2=jg|t2p2dnp=true
+|t2p3=Chance |t2p3link=Chance (Chinese player) |t2p3flag=cn|t2pos3=sup|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Maizijian|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Eimy|t3pos2=Coach
+|context=Hangzhou
+}}
+{{TeamCard
+|team=LNG Esports
+|p1=Ale
+|p2=Tarzan |p2link=Tarzan (Korean player)
+|p3=icon
+|p4=Light |p4link=Light_(Wang_Guang-Yu)|p4flag=cn
+|p5=Iwandy
+
+|t2p1=M1kuya|t2p1flag=cn|t2pos1=top
+|t2p2=LP|t2p2flag=cn|t2pos2=ad
+|t2p3=Kedaya|t2p3flag=cn|t2pos3=sup
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=U|t3pos1=Head Coach
+|t3p2=Rather|t3pos2=Coach
+|t3p3=Martin|t3p3link=Martin (Chinese player)|t3pos3=Coach
+|t3p4=Wuyan|t3p4flag=cn|t3pos4=Assistant Coach
+|context=Suzhou
+}}
+{{TeamCard
+|team=Oh My God
+|p1=New
+|p2=AKi
+|p3=Creme
+|p4=Able
+|p5=COLD
+
+|t2p1=Wuming|t2p1flag=cn|t2pos1=mid|t2p1dnp=true
+|t2p2=Eric|t2pos2=adc|t2p2dnp=true
+|t2p3=Kane|t2p3flag=cn|t2pos3=adc|t2p3dnp=true
+|t2p4=Bafang|t2p4flag=cn|t2pos4=sup|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=NoName|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=BoBo |t3p2link=BoBo (He Wen-bo) |t3p2flag=cn|t3pos2=Assistant Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+}}
+{{TeamCard
+|team=Rare Atom
+|p1=Cube
+|p2=Leyan
+|p3=FoFo
+|p4=iBoy
+|p5=Hang
+
+|t2p1=Aix|t2pos1=jg|t2p1dnp=true
+|t2p2=Maestro|t2pos2=sup|t2p2dnp=true
+|t2p3=|t2p3flag=|t2pos3=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Loong|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Endless|t3p2flag=cn|t3pos2=Assistant Coach
+}}
+{{TeamCard
+|team=Rogue Warriors
+|p1=8917
+|p2=Xiaohao
+|p3=Forge
+|p4=ZWuJi
+|p5=QiuQiu
+
+|t2p1=Haro|t2pos1=jg|t2p1dnp=true
+|t2p2=Betty|t2pos2=adc
+|t2p3=kaixuan|t2p3flag=cn|t2pos3=sup
+|t2p4=Zdz|t2pos4=top
+|t2p5=icecoKe|t2p5flag=cn|t2pos5=jg
+
+|t3p1=MingZhe|t3p1flag=cn|t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Xiaohu
+|p2=Wei
+|p3=Cryin
+|p4=GALA
+|p5=Ming
+
+|t2p1=Xiaoxu|t2p1flag=cn|t2pos1=top|t2p1dnp=true
+|t2p2=lovely|t2p2flag=cn|t2pos2=jg|t2p2dnp=true
+|t2p3=Yuekai|t2p3flag=cn|t2pos3=mid
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Tabe|t3pos1=Head Coach
+|t3p2=Poppy|t3p2link=Poppy (Chang Po-Hao)|t3pos2=Coach
+|t3p3=Yuzhang|t3p3flag=cn|t3pos3=Analyst
+}}
+{{TeamCard
+|team=Suning
+|p1=Bin
+|p2=SofM
+|p3=Angel |p3link=Angel (Chinese player)
+|p4=huanfeng
+|p5=ON
+
+|t2p1=View|t2pos1=jg
+|t2p2=Assum|t2p2flag=cn|t2pos2=adc|t2p2dnp=true
+|t2p3=|t2p3flag=|t2pos3=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Dian|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Fury|t3p2link=Fury (Korean player)|t3pos2=Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=Jzz|t3p4flag=cn|t3pos4=Analyst
+}}
+{{TeamCard
+|team=Team WE
+|p1=Breathe|p1flag=cn
+|p2=beishang
+|p3=Mole
+|p4=Elk
+|p5=Missing
+
+|t2p1=Shanks|t2pos1=mid
+|t2p2=Teacherma|t2pos2=mid|t2p2dnp=true
+|t2p3=Stay|t2p3flag=cn|t2pos3=adc|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Assassin|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Changan|t3p2flag=cn|t3pos2=Coach
+|context=Xi'an
+}}
+{{TeamCard
+|team=ThunderTalk Gaming
+|p1=LANGX
+|p2=Xiaopeng
+|p3=Captain
+|p4=SamD
+|p5=Patch|p5flag=kr
+
+|t2p1=Chelizi|t2pos1=top|t2p1dnp=true
+|t2p2=VV|t2p2flag=cn|t2pos2=jg|t2p2dnp=true
+|t2p3=Twila|t2pos3=mid|t2p3dnp=true
+|t2p4=Ye|t2p4flag=cn|t2pos4=mid
+|t2p5=Pudding|t2p5flag=cn|t2pos5=sup
+
+|t3p1=X1ri|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=AFei|t3p2flag=cn|t3pos2=Coach
+|t3p3=Lee|t3p3flag=cn|t3pos3=Analyst
+}}
+{{TeamCard
+|team=Top Esports
+|p1=Qingtian
+|p2=Karsa
+|p3=knight
+|p4=JackeyLove
+|p5=Zhuo
+
+|t2p1=369|t2pos1=top
+|t2p2=yuyanjia|t2pos2=sup
+|t2p3=|t2p3flag=|t2pos3=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=WarHorse|t3pos1=Head Coach
+|t3p2=Tselin|t3p2flag=cn|t3pos2=Assistant Coach
+|t3p3=Dynamite|t3p3flag=cn|t3pos3=Analyst
+|t3p4=BZ|t3p4flag=cn|t3pos4=Analyst
+}}
+{{TeamCard
+|team=Ultra Prime
+|p1=zs
+|p2=H4cker
+|p3=irma
+|p4=Smlz
+|p5=ShiauC
+
+|t2p1=xiaocaobao|t2p1flag=cn|t2pos1=mid
+|t2p2=|t2p2flag=|t2pos2=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2pos3=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=GreenTea|t3pos1=Head Coach
+|t3p2=Panda|t3p2flag=cn|t3pos2=Assistant Coach
+|t3p3=Ratis|t3p3flag=tw|t3pos3=Assistant Coach
+|inotes={{NoteBig
+|n1='''[[eStar Gaming]]''' rebranded to '''[[Ultra Prime]]'''.<ref name="es rebrand">{{cite web |url=https://weibo.com/6424306175/K8qRKvFhU |title=ES英雄联盟分部正式更名为UP |date=2021-03-29 |author=[[Ultra Prime]] |publisher=Weibo |language={{Flag|cn}} Chinese}}</ref>
+}}
+}}
+{{TeamCard
+|team=Victory Five
+|p1=Invincible|p1flag=cn|p1link=Invincible (Chinese player)
+|p2=pzx|p2flag=cn
+|p3=Uniboy
+|p4=Kepler|p4flag=cn
+|p5=ZYF|p5flag=cn
+
+|t2p1=Aliez|t2pos1=top
+|t2p2=JugGod|t2p2flag=cn|t2pos2=jg
+|t2p3=Reheal|t2p3flag=cn|t2pos3=sup
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+
+|t3p1=Domo|t3p1flag=tw|t3pos1=Head Coach
+|t3p2=Zero|t3p2flag=tw|t3pos2=Coach
+|context=Shenzhen
+}}
+{{TeamCard columns end}}
+==Results==
+===Group Stage===
+{{LPDB storage|false}}
+{{#lst:LPL/2021/Summer/Group_Stage/Week 1-5|Regular Season}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2021/Summer/Group_Stage/Week_1-5|Click here for detailed results of the '''Group Stage''' matches (Week 1-5)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/2021/Summer/Group Stage/Week_6-9|Click here for detailed results of the '''Group Stage''' matches (Week 6-9)]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=TA11tbTVax}}
+
+==Format==
+*'''Group Stage''' - ''June 7th - August 8th, 2021''
+** Single round robin
+** All matches are {{Abbr/Bo3}}
+** Top 10 advanced to [[LPL/2021/Spring/Playoffs|Playoffs]]
+*** {{bgcolortext|byeup|''1st and 2nd place''}} advance to the Semfinals of the Playoffs.
+*** {{bgcolortext|seedup|''3rd and 4th place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|up|''5th and 6th place''}} advance to Round 2 of the Playoffs.
+*** {{bgcolortext|stayup|''7th till 10th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''11th till 17th place''}} are eliminated from this split.
+<!--** Tiebreakers
+*** If two or more teams have won the same number of matches, the tie will be broken by the order:
+***# Games differential
+***# Head-to-head results-->
+
+*'''Playoffs''' - ''August 12th - September 2nd, 2021''
+** '''''Phase One: King-of-the-Hill'''''
+*** 3rd - 10th seeded teams from Group Stage are divided into two brackets to play a King-of-the-Hill format
+**** 3rd, 6th, 7th and 10th seed are in one bracket (the first bracket), the other 4 seeds are in the other
+**** The winners advance to Phase Two
+**** The winner of the first bracket faces 2nd seed team in the Double-Elimination Stage, the other faces the 1st seed
+** '''''Phase Two: Double-Elimination'''''
+*** Four teams play in a Double-Elimination format to compete for the championship
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[World Championship/2021|World Championship 2021]]
+
+*'''Free Side Selection Privilege'''
+** The teams have Free Side Selection Privilege can choose which '''''three''''' games of the {{Abbr/Bo5}} series to pick the side
+** At the last match of Playoffs ''Phase One'' and the lower bracket matches of Playoffs ''Phase Two'', the Free Side Selection Privilege will be determined by coin toss. Besides that, the higher seeded teams (in Grand Finals, the upper bracket winner) will have the Free Side Selection Privilege.
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lpl |youtube1=channel/UCaFMdq6QrAAEx5k2cLlZNPA |huya1=riotgame2
+|lang2=cn |douyu2=lpl |huya2=lpl |bilibili2=6
+|lang3=fr |twitch3=ogaminglol
+|lang4=vn |youtube4=channel/UCArT1kGzd_CyCTSCKrCEk-A
+}}
+===Talent===
+{{Tabs dynamic|name1=Chinese Broadcast|name2=English Broadcasts|name3=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Candice
+|b2=Liu Hang|b2name=Liu Hang|b2flag=cn
+|b3=Xiaoyu|b3name=Zhu Yu|b3flag=cn
+|b4=Xiran|b4name=Feng Xi|b4flag=cn
+|b5=Luo Xin|b5name=Luo Yuting|b5flag=cn
+}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Mile|b1name=Qian Chen|b1flag=cn
+|b2=Remember|b2name=Wang Chi-Te|b2flag=tw
+|b3=Zeyuan|b3name=Guan Zeyuan|b3flag=cn
+|b4=wAwa|b4name=Yan Zijing|b4flag=cn
+|b5=Cat|b5link=Cat (Chinese player)
+|b6=Tongxi|b6name=Zhang He|b6flag=cn
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Changmao|b1name=Vincent Lee|b1flag=tw
+|b2=957
+|b3=GuGu|b3name=Chen Jieyan|b3flag=cn
+|b4=Keji|b4name=|b4flag=cn
+|b5=Fireloli
+|b6=san
+|b7=Shiyi|b7name=|b7flag=cn
+|b8=Yutong|b8name=Hu Yutong|b8flag=cn
+|b9=pyl
+|b10=Junri
+|b11=Rita|b11name=Feng Yu|b11flag=cn
+|b12=Duoduo|b12name=Wang Qianyuan|b12flag=cn
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play and Color Commentator 
+|b1=Dagda |b1name=Rob Price |b1flag=ie
+|b2=Hysterics |b2name=Jake Osypenko |b2flag=au
+|b3=Lyric |b3name=Jordan Corby |b3flag=us
+|b4=Magical |b4name=Alex Whieldon |b4flag=us
+|b5=Mazel |b5name=Lennon White |b5flag=us
+|b6=Munchables |b6name=Joe Fenny |b6flag=uk
+|b7=Penguin |b7name=Oisín Molloy |b7link=Penguin (Irish Commentator) |b7flag=ie
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Dankun |b1name= |b1flag=kr
+|b2=Chaester |b2name=Chae Min-joon |b2flag=kr
+|b3=Park Han-eol |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Bitdory
+|b2=Kim Dong-joon|b2flag=kr
+|b3=JYP |b3name=Park Jin-young |b3flag=kr
+|b4=Pony |b5flag=kr |b4link=MyLittlePony
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="40"| 9
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-11-notes/ 11.11]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-12-notes/ 11.12]
+| colspan="3" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-13-notes/ 11.13]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-14-notes/ 11.14]
+| [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-15-notes/ 11.15]
+|-
+| Disabled
+| colspan="2" |{{SpellIcon|Hexflash|24px}}
+| colspan="7" |
+| colspan="1" |{{ChampionIcon|Akshan|30px}}
+|}
+===Statistics===
+{{#lst:LPL/2021/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2021/Summer|edate=2021-12-05}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+==Additional content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+{{2021 Season International Cycle Navbox}}

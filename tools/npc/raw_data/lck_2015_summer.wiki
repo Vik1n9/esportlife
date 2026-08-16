@@ -1,0 +1,445 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2015%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:06:03.085Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2015 Summer }}
+{{LCK Navbox}}
+{{LCK 2015 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCK 2015 Summer 
+|shortname=2015 Summer 
+|tickername=LCK 2015 Summer 
+|image=LCK full lightmode.png
+|imagedark=LCK full darkmode.png
+|icon=LCK lightmode.png
+|icondark=LCK darkmode.png
+|series=LCK
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|sponsor=[http://www.sbenu.co.kr SBENU]
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|format=Single Elimination ({{Abbr/Bo5}})
+|prizepool=275,000,000
+|localcurrency=krw
+|sdate=2015-05-20
+|edate=2015-08-29
+|liquipediatier=1
+|rulebook=http://static.leagueoflegends.co.kr/esports/files/2015_Champions_Korea_Official_Regulations.pdf
+|highlighted=|website=http://www.lolesports.com/en_US/lck
+|patch=5.8
+|epatch=5.15
+|twitch=lck1
+|twitch2=ogn_lol
+|youtube=user/LoLChampSeries
+|team_number=10
+|previous=LCK/2015/Spring{{!}}2015 Spring 
+|next=LCK/2016/Spring{{!}}2016 Spring 
+|previous2=LCK/2015/Summer/Promotion{{!}}Summer Qualifier 
+|next2=LCK/2016/Spring/Promotion{{!}}Spring Promotion 
+|next3=LCK/2015/Regional Finals{{!}}Regional Finals 
+}}
+The '''LCK 2015 Summer''' was the second split of the 2015 [[League of Legends Champions Korea]] season, organized by Riot Games in partnership with OnGameNet. Officially titled the '''SBENU LCK 2015 Summer''' for sponsorship reasons, the competition took place in Seoul, South Korea, from May 20 to August 29, 2015, featuring ten teams following the league’s expansion from eight.
+
+The regular season was played in a Double Round Robin format with Best-of-Three matches, while the Playoffs used a Single Elimination King of the Hill structure with Best-of-Five series. Teams competed for a ₩275,000,000 KRW prize pool, with the split champion earning qualification for the [[World Championship/2015|2015 World Championship]]. [[Incredible Miracle]], [[Rebels Anarchy]], [[Samsung Galaxy]], and [[SBENU Sonicboom]] joined the league through the [[LCK/2015/Summer/Promotion|2015 Summer Promotion Tournament]]. Matches were played primarily on Patches 5.8 through 5.15.
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=krw|cutafter=10|points=lck2015
+|qualifies1=World Championship/2015|qualifies1name=Worlds
+|qualifies2=LCK/2016/Spring/Promotion|qualifies2name=Promotion
+|qualifies3=LCK/2016/Spring|qualifies3name=Spring
+|tournament1=LCK/2015/Summer/Group Stage
+|tournament2=LCK/2015/Summer/Playoffs
+|groupElimStatuses=stay, down
+|{{Slot|qualified1=true|qualified3=true |localprize=100,000,000}}
+|{{Slot|points=90|qualified3=true |localprize=60,000,000}}
+|{{Slot|points=70|qualified3=true |localprize=30,000,000}}
+|{{Slot|points=40|qualified3=true |localprize=20,000,000}}
+|{{Slot|points=20|qualified3=true |localprize=15,000,000}}
+|{{Slot|points=20|qualified3=true |localprize=10,000,000}}
+|{{Slot|localprize=10,000,000|qualified3=true}}
+|{{Slot|localprize=10,000,000|qualified3=true}}
+|{{Slot|qualified2=true |localprize=10,000,000}}
+|{{Slot|qualified2=true |localprize=10,000,000}}
+}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=7
+|{{Slot |award=Group Stage MVP |localprize=5,000,000|{{Opponent|Ssumday|flag=kr|team=kt}}}}
+|{{Slot |award=Playoffs MVP |localprize=5,000,000|{{Opponent|Faker|flag=kr|team=skt}}}}
+|{{Slot |award=Top Lane KDA |localprize=2,000,000|{{Opponent|Ssumday|flag=kr|team=kt}}}}
+|{{Slot |award=Jungle KDA |localprize=2,000,000|{{Opponent|Score|flag=kr|team=kt}}}}
+|{{Slot |award=Mid Lane KDA |localprize=2,000,000|{{Opponent|Kuro|flag=kr|team=koo}}}}
+|{{Slot |award=AD Carry KDA |localprize=2,000,000|{{Opponent|Arrow|flag=kr|team=kt}}}}
+|{{Slot |award=Support KDA |localprize=2,000,000|{{Opponent|Wolf|link=Wolf (Korean player)|flag=kr|team=skt}}}}
+}}
+{{box|end}}
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CJ Entus
+|p1=Shy |p1flag=kr
+|p2=Ambition |p2flag=kr
+|p3=CoCo |p3flag=kr
+|p4=Space |p4flag=kr
+|p5=MadLife |p5flag=kr
+
+|t2p1=Helper |t2pos1=top |t2p1link=Helper (Korean player)
+|t2p2=Trick |t2pos2=jg
+|t2p3=Max |t2pos3=sup |t2p3link=Max_(Korean_player)
+|t2title=Substitutes
+
+|t3p1=OnAir  |t3pos1=head coach
+|t3p2=Kezman |t3pos2=coach
+|t3p3=AnimalDAX |t3p3flag=kr|t3pos3=coach
+|t3title=Staff
+|qualifier=[[LCK/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings
+|p1=TrAce |p1flag=kr
+|p2=Chaser |p2flag=kr
+|p3=GBM |p3flag=kr
+|p4=Pilot |p4flag=kr
+|p5=Chei |p5flag=kr
+
+|t2p1=Winged |t2pos1=jg
+|t2p2=Kuzan |t2pos2=ad
+|t2p3=Cpt Jack |t2pos3=sup
+|t2p4=Sweet |t2p4flag=kr|t2pos4=sup |t2p4link=Sweet (Lee Eun-teak)
+|t2title=Substitutes
+
+|t3p1=Han Sang-yong  |t3pos1=head coach
+|t3p2=Sweet |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=KOO Tigers
+|image=KOO Tigers Logo.png
+|p1=Smeb |p1flag=kr
+|p2=Hojin |p2flag=kr
+|p3=Kuro |p3flag=kr
+|p4=PraY |p4flag=kr
+|p5=GorillA |p5flag=kr
+
+|t2p1=Wisdom |t2pos1=jg
+|t2title=Substitutes
+
+|t3p1=NoFe  |t3pos1=head coach
+|t3p2=SSONG |t3pos2=coach
+|t3title=Staff
+|qualifier=[[LCK/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Ssumday |p1flag=kr
+|p2=Score |p2flag=kr
+|p3=Nagne |p3flag=kr
+|p4=Arrow |p4flag=kr
+|p5=Piccaboo |p5flag=kr
+
+|t2p1=Prime |t2p1flag=kr|t2pos1=jg |t2p1dnp=true |t2p1leave=true
+|t2p2=Edge |t2pos2=mid
+|t2p3=Mach |t2pos3=bot |t2p3dnp=true |t2p3link=MaHa
+|t2p4=Fixer |t2p4flag=kr|t2pos4=sup
+|t2title=Substitutes
+
+|t3p1=Lee Ji-hun |t3p1link=FIFAHUN |t3p1flag=kr|t3pos1=head coach
+|t3p2=Oh Chang-jong |t3p2flag=kr|t3pos2=coach
+|t3p3=Kim Hwan |t3p3flag=kr|t3pos3=coach
+|t3title=Staff
+|qualifier=[[LCK/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Najin e-mFire
+|p1=Duke |p1flag=kr
+|p2=Peanut |p2flag=kr
+|p3=Ggoong |p3flag=kr
+|p4=Ohq |p4flag=kr
+|p5=Pure |p5flag=kr
+
+|t2p1=Watch |t2pos1=jg
+|t2p2=TANK |t2pos2=mid
+|t2p3=Zefa |t2pos3=bot |t2p3dnp=true
+|t2p4=Cain |t2pos4=sup |t2p4dnp=true
+|t2title=Substitutes
+
+|t3p1=Reach |t3p1flag=kr|t3pos1=head coach
+|t3p2=viNylCat |t3pos2=coach
+|t3p3=MOKUZA |t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=MaRin |p1flag=kr
+|p2=Bengi |p2flag=kr
+|p3=Faker |p3flag=kr
+|p4=Bang |p4flag=
+|p5=Wolf |p5flag=kr |p5link=Wolf (Korean player)
+
+|t2p1=T0M |t2pos1=jg |t2p1link=Tom
+|t2p2=Easyhoon |t2pos2=mid
+|t2title=Substitutes
+
+|t3p1=L.i.E.S |t3pos1=head coach |t3p1link=cCarter
+|t3p2=kkOma |t3pos2=coach
+|t3title=Staff
+|qualifier=[[LCK/Spring/2015|Spring Season]]
+}}
+{{TeamCard
+|team=Incredible Miracle
+|p1=Expession |p1flag=kr
+|p2=TusiN |p2flag=kr
+|p3=Frozen |p3flag=kr
+|p4=S0NSTAR |p4flag=kr
+|p5=IgNar |p5flag=kr
+
+|t2p1=Apple |t2p1flag=kr|t2pos1=top
+|t2p2=Lilac |t2pos2=top
+|t2p3=Spooky |t2pos3=jg
+|t2p4=Roar |t2p4flag=kr|t2pos4=ad
+|t2p5=Paragon |t2p5flag=kr|t2pos5=ad
+|t2title=Substitutes
+
+|t3p1=Hirai  |t3pos1=head coach
+|t3p2=Supreme |t3pos2=coach
+|t3p3=Micro |t3pos3=coach
+|t3p4=Spark |t3p4flag=kr |t3pos4=coach
+|t3title=Staff
+|qualifier=[[LCK/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Rebels Anarchy
+|p1=Ikssu |p1flag=kr
+|p2=LirA |p2flag=kr
+|p3=Mickey|p3flag=kr
+|p4=Sangyoon |p4flag=kr
+|p5=SnowFlower |p5flag=kr
+
+|t2p1=cvMax |t2pos1=top |t2p1leave=true
+|t2title=Substitutes
+
+|t3p1=Hachani  |t3pos1=coach
+|t3title=Staff
+|qualifier=[[LCK/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Samsung Galaxy
+|p1=CuVee |p1flag=kr 
+|p2=Eve |p2flag=kr |p2link=Eve (Korean player)
+|p3=Crown |p3flag=kr
+|p4=Fury |p4flag=kr|p4link=Fury (Korean player)
+|p5=Wraith |p5flag=kr 
+
+|t2p1=BlisS |t2p1flag=kr|t2pos1=jg
+|t2p2=Ace |t2pos2=mid  |t2p2link=Ace (Korean player)
+|t2p3=Luna |t2p3flag=kr|t2pos3=sup  |t2p3link=Luna (Jang Kyung-ho)
+|t2title=Substitutes
+
+|t3p1=DoGGi  |t3pos1=head coach |t3p1link=Edgar
+|t3p2=Horang2 |t3p2flag=kr|t3pos2=coach
+|t3title=Staff
+|qualifier=[[LCK/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=SBENU Sonicboom
+|p1=Soul |p1flag=kr
+|p2=Catch |p2flag=kr
+|p3=SaSin |p3flag=kr
+|p4=Nuclear |p4flag=kr
+|p5=Secret |p5flag=kr
+
+|t2p1=SoaR |t2pos1=top
+|t2p2=do it |t2p2flag=kr|t2pos2=mid
+|t2p3=dan |t2p3flag=kr|t2pos3=ad|t2p3link=Dan (Korean player)
+|t2p4=viviD |t2pos4=sup
+|t2title=Substitutes
+
+|t3p1=Gerrard |t3p1flag=kr|t3pos1=head coach
+|t3p2=Wi Dae-yun |t3p2flag=kr|t3pos2=coach
+|t3title=Staff
+|qualifier=[[LCK/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{#lst:LCK/Summer/2015/Group_Stage|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/Summer/2015/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=L897ZZ4CQR}}
+
+==Format==
+* '''Group Stage'''
+** Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st place''}} advance to the Finals of the Playoffs.
+*** {{bgcolortext|seedup|''2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|stayup|''4th and 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 8th place''}} qualify for [[LCK/2016/Spring|Spring split]].
+*** {{bgcolortext|down|''9th and 10th place''}} will have to play in the [[LCK/2016/Spring/Promotion|Spring Promotion Tournament]].
+*'''Playoffs'''
+** Single Elimination King of the Hill.
+*** Wild Card match is {{Abbr/Bo3}}.
+*** Round 1 onwards is {{Abbr/Bo5}}.
+* Winner qualifies for [[World_Championship/2015|Worlds 2015]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=uk |twitch1=riotgames
+|lang2=kr |twitch2=ogn_lol|afreeca2=|azuba2=
+}}
+===Talent===
+{{box|start|padding=2em}}
+====Korean Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=Kim Dong-joon |b2flag=kr
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Caster
+|b1=DoA
+|b2=MonteCristo
+|b3=PapaSmithy
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="90"| Week 11
+! width="90"| Week 12
+! width="90"| Week 13
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="1" |[[Patch 5.8]]
+| colspan="2" |[[Patch 5.9]]
+| colspan="2" |[[Patch 5.10]]
+| colspan="2" |[[Patch 5.11]]
+| colspan="2" |[[Patch 5.12]]
+| colspan="2" |[[Patch 5.13]]
+| colspan="2" |[[Patch 5.14]]
+| colspan="1" |[[Patch 5.15]]
+|-
+| Disabled
+| colspan="14" |
+|}
+
+===Statistics===
+{{#lst:LCK/2015/Summer/Statistics|Champion Stats}}
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2015-04-26
+  |content2={{Player|Smeb|flag=kr}}
+  |content3={{TeamIcon|Koo Tigers|2015-05-20}}
+  |content4={{TeamIcon|jin air green wings|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|riven|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/top}} Top
+  |content7=[https://www.youtube.com/watch?v=sixbj5GM364 VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2015-06-13
+  |content2={{Player|Arrow|flag=kr}}
+  |content3={{TeamIcon|KT Rolster|2015-05-20}}
+  |content4={{TeamIcon|Rebels Anarchy|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|Sivir|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7=[https://www.youtube.com/watch?v=E_qzMra26fI VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2015-07-10
+  |content2={{Player|Nagne|flag=kr}}
+  |content3={{TeamIcon|KT Rolster|2015-05-20}}
+  |content4={{TeamIcon|CJ Entus|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|azir|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/mid}} Mid
+  |content7=[http://www.youtube.com/watch?v=wzdmKGUC00U VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2015-07-15
+  |content2={{Player|Arrow|flag=kr}}
+  |content3={{TeamIcon|KT Rolster|2015-05-20}}
+  |content4={{TeamIcon|SBENU Sonicboom|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|Sivir|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7=[http://www.youtube.com/watch?v=SMbpi1Ne3fk VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2015-07-16
+  |content2={{Player|Bang|flag=kr}}
+  |content3={{TeamIcon|sk telecom t1|2015-05-20}}
+  |content4={{TeamIcon|koo tigers|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|corki|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7=[https://www.youtube.com/watch?v=4QYOlN74-cc VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2015-07-22
+  |content2={{Player|Pilot|flag=kr}}
+  |content3={{TeamIcon|jin air green wings|2015-05-20}}
+  |content4={{TeamIcon|incredible miracle|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|ezreal|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7=[https://youtu.be/D4lkTFrqC8Q?t=2112 VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2015-08-05
+  |content2={{Player|Ssumday|flag=kr}}
+  |content3={{TeamIcon|kt rolster|2015-05-20}}
+  |content4={{TeamIcon|incredible miracle|2015-05-20}}
+  |content5={{ChampionIcon|size=25px|riven|date=2015-05-20|addTextLink=true}}
+  |content6={{PositionIcon/top}} Top
+  |content7=[https://www.youtube.com/watch?v=A5y7FYgVcEo VOD]
+}}
+{{ResponsiveTableEnd}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2015/Summer|edate=2015-09-03}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

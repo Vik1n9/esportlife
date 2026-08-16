@@ -1,0 +1,790 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2021&redirects=1
+<!-- 抓取: 2026-08-16T18:30:48.204Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2021 World Championship}}
+{{World Championship}}<br>
+{{Worlds2021Tabs}}
+{{Infobox league
+|name=2021 World Championship
+|tickername=Worlds 2021
+|shortname=Worlds 2021
+|caption=MAKE/BREAK
+|image=LoL World Championship 2021.png
+|series=World Championships
+|icon=League of Legends Worlds lightmode.png
+|icondarkmode=League of Legends Worlds darkmode.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|sponsor=[https://www.axe.com/ AXE]
+|sponsor2=[https://www.bose.com/ Bose]
+|sponsor3=[https://www.cisco.com/ Cisco]
+|sponsor4=[https://www.mastercard.com Mastercard]
+|sponsor5=[https://www.mercedes-benz.com Mercedes-Benz]
+|sponsor6=[https://www.oppo.com/en OPPO]
+|sponsor7=[https://www.redbull.com/ Red Bull]
+|sponsor8=[https://secretlab.co/ Secretlab]
+|sponsor9=[https://www.spotify.com/ Spotify]
+|sponsor10=[https://www.statefarm.com State Farm]
+|sponsor11=[https://www.verizon.com/ Verizon]
+|sponsor12=[https://gaming.amazon.com/ Prime Gaming]
+|server=
+|type=Offline
+|country=Iceland
+|city=Reykjavík
+|venue=wikipedia:Laugardalshöll |venuename=Laugardalshöll
+|rulebook=https://assets.contentstack.io/v3/assets/bltad9188aa9a70543a/bltaafb2c10c4db0333/2021_World_Championship_Rule_Set.pdf
+|format=Round-Robin<br>Single Elimination
+|patch=11.19
+|prizepoolusd=2,225,000
+|sdate=2021-10-05
+|edate=2021-11-06
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=LoLChampSeries
+|team_number=22
+|previous=World_Championship/2020{{!}}2020
+|next=World_Championship/2022{{!}}2022
+}}
+<br>
+The '''2021 World Championship''' is the crowning event of League of Legends esports for the year. The tournament welcomes 24 teams from all regions of the game in a months-long race for the Summoner's Cup.
+
+This year's World Championship was planned to be held in China, with various stages being held in Shanghai, Qingdao, Wuhan, Chengdu, and Shenzhen--who would have also hosted the finals. China would have been a back-to-back host for Worlds due to the COVID-19 pandemic disallowing spectators from 2020's event. They have also previously hosted it in 2017. North America's Worlds event has been pushed to 2022. The starting prize pool for the tournament is $2.225 million, which is expected to grow with in-game item sales.
+
+Due to the changing COVID-19 situation and epidemic control policies in China, the LoL Esports team announced on August 24th that the event has been moved to an as of yet unannounced location in Europe.<ref name="lolesports20210824">{{cite web|url=https://twitter.com/lolesports/status/1430153585862512655?s=20|title=#Worlds2021 Update from John Needham.|author=LoL Esports|publisher=Twitter.com|date=2021-08-24|language={{Flag|usuk}} English}}</ref>
+
+On September 9th, the LoL Esports team reveals that the 2021 World Championship will take place in Reykjavík, Iceland.<ref name="ICELAND">{{cite web|url=https://twitter.com/lolesports/status/1435951182506246151|title=Worlds 2021 is heading to Iceland!|author=LoL Esports|publisher=Twitter.com|date=2021-09-09|language={{Flag|usuk}} English}}</ref>
+
+==Format==
+* '''Qualification'''
+** 24 teams from professional leagues will qualify for the event.
+{{note||'''Note:''' Unfortunately, due to travel restrictions, the two teams from the VCS will still not be able to attend this year's Worlds.<ref name="ICELAND"/>}}
+
+* '''Play-In Round 1''' - ''October 5th - 7th''
+** Ten teams are divided into two groups where they play a Single Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+** {{Bgcolortext|seedup|Top teams}} in each group advance to Group Stage.
+** <span class="bg-up">2nd</span>, <span class="bg-stayup">3rd and 4th teams</span> in each group advance to Play-In: Round 2.
+** <span class="bg-down">Bottom team</span> in each group is eliminated.
+<!--** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">''Click here for information about tiebreaker rules''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;">
+* If teams are tied and competing for 3rd and 4th place, there will not be any additional matches, the placement will be determined by their head-to-head result.
+* In other circumstances: 
+** If there are '''two''' teams have an equal amount of points, an additional tiebreaker match will be played
+*** Team that won the head-to-head result will have the side choice previlege.
+** If there are '''three''' teams have an equal amount of points, two circumstances will be considered:
+*** If all three teams have the same results against the other two teams, two teams that won with longer time length will compete first. The loser will be the bottom team in this tie, the winner will compete with the remained team. 
+**** Team that won with shorter time length will have the side choice previlege.
+**** If the remained two teams are competing for 3rd and 4th place, the placement will be determined by their head-to-head result.
+*** If three team has different results against the other two teams, the tie will be broken by the results (2-0, 1-1 and 0-2).
+** If there are '''five''' teams have an equal amount of points, 
+*** All the teams will be ranked by the total time length of winning games, the two teams won with the longest total time length will compete first, loser will be placed fifth, winner will play a single elimination bracket with the other three teams.
+*** In the single elimination bracket, the team that won with shortest time length will face the team won with the longest time length, the other two will compete, two winners will compete for 1st place.
+**** 3rd and 4th place match will not be played.
+* All tiebreaker matches are {{abbr/Bo1}}-->
+</div><!--
+-->
+* '''Play-In Round 2''' - ''October 8th - 9th''
+**Six teams from Play-In: Round 1.
+**The 3rd and 4th placed teams of the same group of Round 1 face each other, winners compete against the 2nd placed team of the other group.
+**All matches are played in a {{Abbr/Bo5}}.
+**Two winners will advance to Group Stage.
+**Four losers will be eliminated.
+
+* '''Group Stage''' - ''October 11th - 13th and 15th - 18th''
+** Four teams from the Play-In Stage join twelve teams with direct entry from China, South Korea, Europe, Southeast Asia and North America.
+** All sixteen teams are divided into four groups where they play a Double Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+**<span class="bg-up">Top two teams</span> in each group advance to Playoffs.
+**<span class="bg-down">Bottom two teams</span> in each group are eliminated.
+** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">''Click here for information about tiebreaker rules''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;">
+* If teams are tied and competing for 3rd and 4th place, there will not be any additional matches, the placement will be determined by their head-to-head result. If teams an identical head-to-head record, they will share the 3rd place.
+* No tiebreaker game will be played if the tiebreaker would not decide either the first or second place position in the group.
+* In other circumstances: 
+** If there are '''two''' teams have an equal amount of points, an additional tiebreaker match will be played.
+** If there are '''three''' teams have an equal amount of points, five circumstances will be considered based on the records against each of the other teams in the tie:
+*** ''Each team in the tiebreaker has a record of 2-2: the two teams with highest winning time will play against each other, winner will face the other team. (Group A)''
+*** The teams have 3-1, 2-2 and 1-3 records: the 2-2 and 1-3 teams will play against each other, winner will face the 3-1 team.
+*** The teams are with two 3-1 and one 0-4 records: the team that is 0-4 will be awarded the lowest standing being decided by the tiebreaker and a new tiebreaker is declared amongst the two teams with an aggregate record of 3-1 utilizing the two-way tie procedure set.
+*** One team has 4-0 and the others are 1-3: The team that is 4-0 is automatically granted the highest seed available in the tiebreaker, and a new tiebreaker is declared amongst the two teams with an aggregate record of 1-3 utilizing the two-way tie procedure set.
+*** The teams are with 4-0, 2-2 and 0-4 record: the tie will be broken by the aggregate record.
+** If there are '''four''' teams have an equal amount of points, the teams will be drawn into a single elimination bracket based on the cumulative game victory time for the individual teams.
+*** The seeds will be given in order to the teams that won their games the quickest. The four teams will be split into two first-round matches: quickest team faces slowest team and 2nd team faces 3rd team. 
+*** The losing teams will be eliminated from the tournament. The winning teams play a match to determine the first and second seeds of the group.
+* Side selection for a head-to-head tiebreaker matchup will be awarded to the team with the lower total game victory time.
+* All tiebreaker matches are {{abbr/Bo1}}
+</div>
+
+* '''Playoffs''' - ''October 22nd - 25th, October 30th - 31st and November 6th''
+** Eight teams play in a single elimination bracket where 1st placed team of each group faces 2nd placed team from another group.
+** Side Selection Privilege
+*** Teams with Side Selection Privilege can choose the side in game 1, after that, the team lost can choose the side in the next game.
+*** In Quarterfinals, 1st placed team from each group will have the Side Choice Previlege.
+*** In the following matches, the Side Choice Previlege will be determined by coin flip.
+** All matches are {{Abbr/Bo5}}.
+
+* '''Patch Information'''
+** {{ChampionIcon|Akshan|20px}} [https://euw.leagueoflegends.com/en-gb/champions/akshan/ Akshan] and {{ChampionIcon|Vex|20px}} [https://euw.leagueoflegends.com/en-gb/champions/vex/ Vex] will be disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<ref name="Yone banned">{{cite web|url=https://na.leagueoflegends.com/en-us/news/dev/dev-balancing-for-pro-play/|title=/dev: Balancing for Pro Play|author=Summoner's Rift Team|publisher=Riot Games|date=2020-08-19|language={{Flag|usuk}}English}}</ref>
+
+===Worlds Draw Show===
+The Worlds Draw Show was held on {{countdown|date=September 22, 2021 - 12:00 {{Abbr/GMT}} |rawdatetime=true |finished=true}} to place teams into groups for the Play-In Stage and the Group Stage of the 2021 World Championship.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Desk Host
+|b1=Dash
+|b2=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Bulii
+|b2=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=Emily Rand |b1flag=us
+|b2=MarkZ
+|b3=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=Drakos
+|b3=Medic
+|b4=Pastrytime
+|b5=Penguin |b5link=Penguin (Irish Commentator)
+|b6=Phreak
+|b7=Valdes
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Caedrel
+|b3=Chronicler
+|b4=Dagda
+|b5=Guldborg
+|b6=Kobe
+|b7=Lyric
+|b8=Vedius
+|b9=Wolf|b9link=Wolf (American caster)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Translator
+|b1=Candice
+|b2=Clement Chu |b2flag=tw |b2name=Chu Kai-Hsin
+|b3=zeetwo |b3flag=kr |b3name=Park Jeesun
+|b4=Wendy |b4flag=cn |b4name=Shi Wendi
+}}
+{{box|end}}
+{{tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Wadid
+|b3=LirA
+|b4=Kim Dong-joon|b4flag=kr
+|b5=KangQui|b5flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Interviewer
+|b1=Youn Soo-bin |b1flag=kr
+|b2=Lee Jeong-hyun
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+The initial prize pool of the tournament is $2,225,000 {{abbr/USD}}.
+<!--12.5% of all revenue from Championship Ryze & Championship Ward skins will added to the total prize pool and another 12.5% will be equally distributed among the teams.
+The total prize pool was $2,225,000 {{abbr/USD}} -->
+{{TeamPrizePool|prizesummary=no|cutafter=8|percentage1=1
+|tournament1=World Championship/2021/Knockout Stage
+|{{Slot|percentage1=22%}}
+|{{Slot|percentage1=15%}}
+|{{Slot|place=3-4 |percentage1=8%}}
+|{{Slot|place=5-8 |percentage1=4.5%}}
+|{{Slot|place=9-11 |percentage1=2.5%
+|{{Opponent|rge |wdl=2/4 |date=2021-10-15}}
+|{{Opponent|100 |wdl=3/3 |date=2021-10-16}}
+|{{Opponent|psgt |wdl=3/3 |date=2021-10-17}}
+}}
+|{{Slot|place=12-13 |percentage1=2.375%
+|{{Opponent|tl |wdl=3/3 |date=2021-10-18}}
+|{{Opponent|lng |wdl=3/3 |date=2021-10-18}}
+}}
+|{{Slot|place=14-16 |percentage1=2.25%
+|{{Opponent|fpx |wdl=2/4 |date=2021-10-15}}
+|{{Opponent|dfm |wdl=0/6 |date=2021-10-16}}
+|{{Opponent|fnc |wdl=1/5 |date=2021-10-17}}
+}}
+|{{Slot|place=17-18 |percentage1=1.75% |date=2021-10-09
+|{{Opponent|pce |lastvs=c9 |lastvsscore=0-3}}
+|{{Opponent|byg |lastvs=hle |lastvsscore=0-3}}
+}}
+|{{Slot|place=19-20 |percentage1=1.25% |date=2021-10-08
+|{{Opponent|red |lastvs=pce |lastvsscore=2-3}}
+|{{Opponent|gs |lastvs=byg |lastvsscore=2-3}}
+}}
+|{{Slot|place=21-22 |percentage1=1% |date=2021-10-07
+|{{Opponent|inf |wdl=0/4}}
+|{{Opponent|uol |wdl=1/3}}
+}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP |{{Opponent|Scout |flag1=kr |team=edg |date=2021-11-06}}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=World Championship/2021/Play-In
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=World_Championship/2021/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Knockout Stage MVP
+|tournament=World Championship/2021/Knockout Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Group Stage Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Flandre
+|p2=Jiejie
+|p3=Scout
+|p4=Viper |p4link=Viper (Korean player)
+|p5=Meiko
+
+|t2p1=JunJia |t2pos1=jg |t2p1dnp=true
+
+|t3p1=Maokai |t3p1link=Maokai (Chinese coach)|t3p1flag=cn |t3pos1=Head Coach
+|t3p2=CorGi |t3p2flag=tw |t3pos2=Coach
+|t3p3=KenZhu |t3p3flag=cn |t3pos3=Coach
+
+|qualifier=[[LPL/2021/Summer|LPL Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=Nuguri |p1wins=1
+|p2=Tian |p2wins=1
+|p3=Doinb |p3wins=1
+|p4=Lwx |p4wins=1
+|p5=Crisp |p5wins=1
+
+|t2p1=xiaolaohu |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+|t2p2=Shenyi |t2p2flag=cn |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Steak |t3pos1=Head Coach
+|t3p2=REFRA1N |t3pos2=Coach
+|t3p3=River |t3p3flag=cn |t3p3link=River (Chinese Coach) |t3pos3=Assistant Coach
+|t3p4=Sean |t3p4flag=cn |t3pos4=Analyst
+|qualifier=[[LPL/2021/Championship Points|LPL Championship Points]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Xiaohu
+|p2=Wei
+|p3=Cryin
+|p4=GALA
+|p5=Ming
+
+|t2p1=Yuekai |t2p1flag=cn |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Poppy |t3p1link=Poppy (Chang Po-Hao) |t3pos1=Head Coach
+|t3p2=Xiaobai |t3pos2=Assistant Coach
+|qualifier=[[LPL/2021/Regional Finals|LPL Regional Finals]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2017}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Khan
+|p2=Canyon |p2wins=1
+|p3=ShowMaker |p3wins=1
+|p4=Ghost |p4link=Ghost (Korean player) |p4wins=1
+|p5=BeryL |p5wins=1
+
+|t2p1=Rahel |t2pos1=bot |t2p1dnp=true
+
+|t3p1=kkOma |t3pos1=Head Coach |t3p1winsc=3
+|t3p2=PoohManDu |t3pos2=Coach |t3p2wins=1 |t3p2winsc=1
+|t3p3=Daeny |t3pos3=analyst |t3p3winsc=1
+|qualifier=[[LCK/2021/Summer|LCK Summer]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=Gen.G
+|p1=Rascal
+|p2=Clid
+|p3=Bdd
+|p4=Ruler |p4wins=1
+|p5=Life
+
+|t2p1=Burdol |t2pos1=top 
+|t2p2=YoungJae |t2pos2=jg |t2p2dnp=true
+
+|t3p1=oDin |t3p1flag=kr |t3pos1=Head Coach |t3p1winsc=1
+|t3p2=Lyn |t3p2flag=kr |t3pos2=Coach
+|t3p3=Ggoong |t3p3flag=kr |t3pos3=Coach
+|qualifier=[[LCK/2021/Championship Points|LCK Championship Points]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=T1
+|p1=Canna
+|p2=Oner
+|p3=Faker |p3wins=3
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Cuzz |t2pos1=jg |t2p1dnp=true
+|t2p2=Teddy |t2pos2=bot |t2p2dnp=true
+
+|t3p1=Stardust |t3p1flag=kr |t3pos1=Coach |t3p1link=Stardust (Korean player)
+|t3p2=Moment |t3p2flag=kr |t3pos2=Coach
+
+|qualifier=[[LCK/2021/Regional Finals|LCK Regional Finals]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-29}} '''(2013, 2015, 2016)'''
+}}
+
+{{TeamCard
+|team=MAD Lions
+|p1=Armut
+|p2=Elyoya
+|p3=Humanoid
+|p4=Carzzy
+|p5=Kaiser
+
+|t2p1=Kaas |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Mac |t3pos1=Head Coach
+|t3p2=Kaas |t3pos2=Coach
+|t3p3=Pad |t3p3flag=dk |t3pos3=Coach
+
+|qualifier=[[LEC/2021/Summer|LEC Summer]]
+|placement=19-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=Fnatic
+|p1=Adam
+|p2=Bwipo
+|p3=Nisqy
+|p4=Bean
+|p5=Hylissang
+
+|t2p1=Upset |t2pos1=bot |t2p1dnp=true
+
+|t3p1=YamatoCannon |t3pos1=Head Coach
+|t3p2=Shaves |t3p2flag=uk |t3pos2=Strategic Coach
+|t3p3=FAB |t3p3flag= |t3pos3=Coach
+
+|qualifier=[[LEC/2021/Summer|LEC Summer]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011|date=2011-06-20}} '''(2011)'''
+|inotes={{NoteBig
+|n1='''{{player|pos=bot|Bean|flag=de}}''' was moved to the starting position after '''{{player|Upset|pos=bot|flag=de}}''' had to return home due to an urgent family matter.<ref name="Bean moved to starter">{{cite web|url=https://twitter.com/FNATIC/status/1447342826317139969?s=20|title=Following an urgent family matter, Upset is forced to return to home and will until further notice not start for our team in the group stage|author=Fnatic|publisher=Twitter.com|date=2021-10-10|language={{Flag|usuk}} English}}</ref>
+}}
+}}
+
+{{TeamCard
+|team=Rogue
+|p1=Odoamne
+|p2=Inspired
+|p3=Larssen
+|p4=Hans Sama
+|p5=Trymbi
+
+|t2p1=Blueknight |t2p1flag=de |t2pos1=top |t2p1dnp=true
+
+|t3p1=fredy122 |t3pos1=Head Coach
+|t3p2=Blumigan |t3pos2=Coach
+|t3p3=Ismind |t3p3flag=co |t3pos3=Coach
+
+|qualifier=[[LEC/2021/Summer|LEC Summer]]
+|placement=13-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+|inotes={{NoteBig
+|n1='''Rogue''' was promoted to the group stage, as the '''VCS''' teams were unable to attend.
+}}
+}}
+
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Closer
+|p3=Abbedagge
+|p4=FBI
+|p5=huhi
+
+|t2p1=Tenacity |t2pos1=top |t2p1dnp=true
+
+|t3p1=Reapered |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Freeze |t3pos2=assistant coach
+|t3p3=Kaimera|t3p3flag=us|t3pos3=analyst
+
+|qualifier=[[LCS/2021/Summer|LCS Championship]]
+|placement=9-12
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=Team Liquid
+|p1=Alphari
+|p2=Santorin
+|p3=Jensen
+|p4=Tactical
+|p5=CoreJJ |p5wins=1
+
+|t2p1=Jenkins |t2pos1=top |t2p1dnp=true
+|t2p2=Armao |t2pos2=jg |t2p2dnp=true
+
+|t3p1=Kold |t3p1flag=dk |t3pos1=Head Coach
+|t3p2=H4xDefender |t3p2flag=us |t3pos2=Coach
+|qualifier=[[LCS/2021/Summer|LCS Championship]]
+|placement=9-12
+|placementicon= {{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=PSG Talon
+|p1=Hanabi
+|p2=River|p2link=River (Korean player)
+|p3=Maple
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=Kartis |t2pos1=top |t2p1dnp=true
+
+|t3p1=Helper |t3p1flag=kr |t3pos1=Head Coach |t3p1link=Helper (Korean player)
+|t3p2=Winged |t3p2flag=kr |t3pos2=Coach
+
+|qualifier=[[PCS/2021/Summer|PCS Summer]]
+|placement=9-12
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Liang
+|p2=Husha
+|p3=PK
+|p4=Doggo
+|p5=Kino
+
+|t2p1=TNS |t2p1flag=tw |t2pos1=sup |t2p1dnp=true
+|t2p2=Maoan |t2pos2=mid |t2p2leave=true
+
+|t3p1=Benny |t3p1link=Benny (Taiwanese player) |t3pos1=Coach
+|t3p2=Wulala |t3p2flag=tw |t3pos2=Coach
+|qualifier=[[PCS/2021/Summer|PCS Summer]]
+|inotes={{NoteBig
+|n1=October 8th - '''{{player|Maoan|pos=mid|flag=tw}}''' is suspended for the remainder of the '''2021 World Championship''', due to him violating [https://assets.contentstack.io/v3/assets/bltad9188aa9a70543a/bltaafb2c10c4db0333/2021_World_Championship_Rule_Set.pdf#page47 Rule 9.3 of the 2021 World Championship Ruleset]. <ref name="Maoan suspended">{{cite web|url=https://twitter.com/lolesports/status/1446607587626176516|title=Competitive Ruling: Chien "Maoan" Mao-An|date=2021-10-08|author='''LoL Esports'''|language={{Flag|usuk}} English}}</ref>
+}}
+}}
+
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=Perkz
+|p4=Zven
+|p5=Vulcan
+
+|t2p1=Mithy |t2pos1=Head Coach
+|t2p2=Reignover |t2pos2=Strategic Coach
+|t2p3=Max |t2p3flag=us |t2pos3=Strategic Coach
+|t2title=Staff
+|qualifier=[[LCS/2021/Summer|LCS Championship]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=Evi
+|p2=Steal
+|p3=Aria
+|p4=Yutapon
+|p5=Gaeng
+
+|t2p1=Kazu |t2pos1=Head Coach
+|t2p2=Yang |t2p2link=Yang (Korean player) |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[LJL/2021/Summer|LJL Summer]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=Galatasaray Esports
+|p1=Crazy
+|p2=Mojito
+|p3=Bolulu
+|p4=Alive
+|p5=Zergsting
+
+|t2p1=Padden |t2pos1=adc |t2p1dnp=true
+
+|t3p1=Irean |t3pos1=Head Coach
+|qualifier=[[TCL/2021/Summer|TCL Summer]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=Morgan
+|p2=Willer
+|p3=Chovy
+|p4=Deft
+|p5=Vsta
+
+|t2p1=DuDu |t2pos1=top |t2p1dnp=true
+|t2p2=yoHan |t2pos2=jg |t2p2dnp=true
+
+|t3p1=Kezman |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=SuDal |t3p2flag=kr |t3ps2=Coach
+|qualifier=[[LCK/2021/Regional Finals|LCK Regional Finals]]
+}}
+
+{{TeamCard
+|team=Infinity
+|p1=Buggax
+|p2=SolidSnake
+|p3=cody
+|p4=Whitelotus
+|p5=Ackerman |p5link=Ackerman (Argentinian player)
+
+|t2p1=Brayaron |t2p1flag=pe |t2pos1=top |t2p1dnp=true
+|t2p2=Kz |t2p2flag=cl |t2pos2=adc |t2p2dnp=true
+
+|t3p1=Von |t3p1flag=br |t3p1link=Von (Brazilian Coach) |t3pos1=Head Coach
+|t3p2=Snok |t3p2flag=sv |t3pos2=Strategic Coach
+|qualifier=[[LLA/2021/Closing|LLA Closing]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=LNG Esports
+|p1=Ale
+|p2=Tarzan |p2link=Tarzan (Korean player)
+|p3=icon
+|p4=Light |p4link=Light (Wang Guang-Yu)
+|p5=Iwandy
+
+|t2p1=Kedaya |t2pos1=sup |t2p1flag=cn |t2p1dnp=true
+
+|t3p1=Rather |t3pos1=Coach
+|t3p2=U |t3pos2=Coach
+|t3p3=Martin |t3p3link=Martin (Chinese player) |t3pos3=Coach
+|t3p4=Wuyan |t3p4flag=cn |t3pos4=Assistant Coach
+|qualifier=[[LPL/2021/Regional Finals|LPL Regional Finals]]
+}}
+
+{{TeamCard
+|team=PEACE
+|p1=Vizicsacsi
+|p2=Babip
+|p3=Tally
+|p4=Violet |p4link=Violet (Cantonese player)
+|p5=Aladoric
+
+|t2p1=Lived |t2pos1=top |t2p1flag=au |t2p1dnp=true
+|t2p2=Halo |t2pos2=mid |t2p2dnp=true
+
+|t3p1=Colla |t3p1flag=cn |t3pos1=Head Coach
+|t3p2=Coach Daniel |t3p2flag=cn |t3pos2=Coach
+|qualifier=[[LCO/2021/Split 2|LCO Split 2]]
+|inotes={{NoteBig
+|n1='''{{player|Apii|pos=top|flag=cn}}''' and '''{{player|LeeSA|pos=jg|flag=cn}}''' cannot attend due to visa issues during COVID-19 pandemic. <ref name="peace 20210922">{{cite web|url=https://twitter.com/pce_gg/status/1440603272109182980|title=An update on our #Worlds2021 campaign:|author=PEACE|publisher=Twitter.com|date=2021-09-22|language={{Flag|usuk}} English}}</ref> '''{{player|Vizicsacsi|pos=top|flag=hu}}''' stood for '''Apii'''. <ref name="peace 20210922 2">{{cite web|url=https://twitter.com/pce_gg/status/1440631968098500616|title=Please join us in welcoming the replacement Top Laner for our #Worlds2021 campaign:|author=PEACE|publisher=Twitter.com|date=2021-09-22|language={{Flag|usuk}} English}}</ref>
+|n2='''{{player|Lived|pos=top|flag=au}}''' was loaned from '''[[Chiefs Esports Club]]''' as a substitute. <ref name="peace 20210924">{{cite web|url=https://twitter.com/pce_gg/status/1441319120327233539|title=At the final hour, we add some more firepower to our #Worlds2021 arsenal|author=PEACE|publisher=Twitter.com|date=2021-09-24|language={{Flag|usuk}} English}}</ref>
+}}
+}}
+
+{{TeamCard
+|team=RED Canids
+|p1=Guigo
+|p2=Aegis
+|p3=Grevthar
+|p4=TitaN
+|p5=Jojo
+
+|t2p1=Avenger |t2pos1=mid
+
+|t3p1=Coelho |t3p1flag=br |t3pos1=Head Coach
+|qualifier=[[CBLOL/2021/Split 2|CBLOL Split 2]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=Unicorns Of Love
+|p1=BOSS |p1link=BOSS (Russian player)
+|p2=AHaHaCiK
+|p3=Nomanz
+|p4=Argonavt
+|p5=SaNTaS
+
+|t2p1=Sheepy |t2pos1=Head Coach
+|t2p2=Invi |t2p2flag=ru |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[LCL/2021/Summer|LCL Summer]]
+|placement=13-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+{{TeamCard columns end}}
+{{note15|nobox=y
+|n1=The two '''VCS''' representatives were not selected due to COVID-19 regulations in Vietnam and a lengthy delay of the [[VCS/2021/Summer|VCS 2021 Summer season]].
+}}
+
+==Results==
+{{LPDB storage|false}}
+===Play-In: Round 1===
+{{box|start|padding=4em}}
+{{#section:World Championship/2021/Play-In|PlayInA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2021/Play-In|PlayInB}}
+<br/>
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2021/Play-In|Click here for more information about the Play-In: Round 1 matches.]]''</span>
+
+===Play-In: Round 2===
+{{ShowBracket|id=lc2keq5rSi}}
+
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2021/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2021/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2021/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2021/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+{{Toggle group end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2021/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=ZHPBREEL15}}
+
+==Additional Data==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports |trovo1=RiotGames
+|lang2=cn |douyu2=lpl |huya2=s |bilibili2=6
+|lang3=kr |twitch3=lck_korea |afreeca3=aflol
+|lang4=ru |twitch4=riotgamesru |youtube4=lolesportsRU
+|lang5=tr |twitch5=riotgamesturkish |youtube5=Lolespor
+|lang6=br |twitch6=cblol |youtube6=lolesportsbr |nimotv6=CBLOL
+|lang7=sam |twitch7=lla |youtube7=lla |trovo7=LLA
+|lang8=mx |twitch8=tvaztecaesports
+|lang9=jp |twitch9=riotgamesjp |mildom9=10244404
+|lang10=tw |twitch10=lolpacifictw |youtube10=lolpacific
+|lang11=th |twitch11=lolpacificth |youtube11=lolpacific
+|lang12=vn |youtube12=VETV7ESPORTS |nimotv12=worlds2021
+|lang13=fr |twitch13=otplol_
+|lang14=de |twitch14=summonersinnlive |youtube14=SummonerInnDE
+|lang15=it |twitch15=pg_esports_lol
+|lang16=es |twitch16=lvpes
+|lang17=cz |twitch17=hitpointcz
+|lang18=hu |twitch18=esport2tv |youtube18=Esport1gg
+|lang19=pl |youtube19=polsatgames
+}}
+{{box|end}}
+
+
+===Statistics===
+{{#lst:World Championship/2021/Statistics|Champion Stats}}
+
+===Pentakills===
+{|class="wikitable"
+!Date||Stage||Team||Vs.||Champion||Player||KDA|| VOD
+|-
+|2021-10-15||[[World_Championship/2021/Group_Stage|Group Stage]]||{{TeamIcon|damwon gaming}}|| {{TeamIcon|Rogue}} ||{{ChampionIcon|Lucian|size=25px|addTextLink=true}} ||{{player|Khan|pos=top|flag=kr}} ||10/3/6||{{vodlink|vod=https://youtu.be/QW9AejOoGhw?t=2822}}
+|}
+
+===Country Representation===
+{{Country representation}}
+
+===Worlds Appearances===
+{{Player tournament appearances|series=World Championships|tiers=1|limit=10|playerspage=World_Championship/2021}}
+:''Click [[World_Championships/Player appearances|here]] for the complete list.''
+
+==Additional content==
+{{#section:World_Championship/2021/Additional_Content|additional}}
+
+==Storylines==
+===EDG's quarter final curse===
+2-3 against [[Star Horn Royal Club]] in 2014, 0-3 against [[Fnatic]] in 2015, 1-3 against [[KOO Tigers]] in 2016, a group stage exit in 2017 and 1-3 against [[Fnatic]] in 2018. [[EDward Gaming]] has had a rough time at Worlds so far. With a line-up almost completely different, they'll be looking to make it far this year with only [[Meiko]] and [[Scout]] remaining from these rosters.
+
+===Khan's final tournament===
+[[Khan]] announced the possibility of retirement after the 2021 season, which means this might be his last tournament. <ref>{{cite web |url=https://sports.news.naver.com/news.nhn?oid=311&aid=0001262057 |title=I think this year might be the last... I think pentakill would be okay |date=2021-02-08 |author=Xportsnews |publisher=Naver |language={{Flag|kr}} Korean}}</ref> He will be playing with [[DAMWON Gaming]] as one of the tournament favourites, but the player he replaced, [[FunPlus Phoenix]]'s [[Nuguri]], could just be one of the strong competitors trying to deny this chance. With a title win, [[Khan]] would potentially end his career on a high with his first ever international title.
+
+===From NA Academy to representing the LCO at Worlds===
+[[Babip]] and [[Tally]] qualified for Worlds on [[PEACE]], the Oceanic entry for 2021. Following the announcement of the disbandment of the [[LCO]] in 2020, both players moved to North America to continue their careers. [[Babip]] joined [[TSM Academy]], placing just 5-6th at the [[LCS/Academy_League/2021/Spring/Proving_Grounds|Proving Grounds Tournament]], while [[Tally]] joined [[Golden Guardians Academy]], not making it further than 7-8th. With a return to Australia for the summer season, the two put any doubts to bed with [[PEACE]]'s incredible run through the [[LCO/2021/Split 2|LCO Lower Bracket]] to secure the title.
+
+===Vizicsacsi's return===
+[[Vizicsacsi]] retired in 2019 after finishing top 8 at [[World_Championship/2019|Worlds 2019]] with [[Splyce]]. After 1,5 years of inactivity, he returned, competing in the [[Magyar_Esport_Kupa/2021/Spring|Magyar Esports Kupa 2021]]. From here on, he announced that he was interested in competing again, and even coached [[MAD Lions]] for a brief period of time. On September 22nd, [[Vizicsacsi]] was announced as stand-in for Oceanic team [[PEACE]], replacing [[Apii]] who is unable to attend the event. This means a return to competition at the event he ended in 2019, where he could potentially prove himself for [[LEC]] teams ahead of 2022. <ref name="peace 20210922 2"/>
+
+===Redemption for Europe===
+At [[World Championship/2020|Worlds 2020]], [[MAD Lions]] and [[Rogue]] performed below the expectations of many. [[MAD Lions]] became the first European team to be eliminated from the play-ins tournament, after losing 2-3 against [[SuperMassive Esports]], while [[Rogue]] placed 13-16th, winning just a single game in their group with [[DAMWON Gaming]], [[JD Gaming]] and [[PSG Talon]]. Both teams are looking to redeem themselves, but it could be hard as [[Rogue]] has been placed in the group of the [[World Championship/2019|2019]] and [[World Championship/2020|2020]] world champions [[FunPlus Phoenix]] and [[DAMWON Gaming]].
+
+==References==
+{{Reflist|2}}
+
+{{2021 Season International Cycle Navbox}}

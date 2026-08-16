@@ -1,0 +1,383 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2014%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:17:23.485Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2014 Spring}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-10
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-10
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2014 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2014 Spring 
+|shortname=2014 Spring 
+|tickername=EU LCS 2014 Spring
+|image=EU LCS Logo.png
+|series=EU LCS
+|icon=EU LCS Logo.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=
+|patch=3.15
+|epatch=4.5
+|server=Europe
+|type=Offline
+|country=Germany
+|country2=Germany
+|city=Berlin
+|city2=Cologne
+|venue=
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo3}}) Finals ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2014-01-14
+|edate=2014-04-17
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|stream=
+|twitch=eulcs1
+|twitch2=
+|team_number=10
+|previous=LCS/Europe/Summer/2013{{!}}2013 Summer 
+|next=LCS/Europe/Summer/2014{{!}}2014 Summer 
+|previous2=LCS/Europe/2014/Spring/Promotion{{!}}Spring Promotion 
+|next2=LCS/Europe/2014/Summer/Promotion{{!}}Summer Promotion
+}}
+The '''EU LCS 2014 Spring''' Split was the third split of the European League of Legends Championship Series, organized by Riot Games. The season took place from January 14 to April 17, 2014, with the regular season held in Berlin and the Playoffs hosted in Cologne, Germany. Ten teams competed in a quadruple round-robin Best-of-One format, followed by a Single Elimination Playoff. The top five teams automatically qualified for the [[LCS/Europe/Summer/2014|Summer Split]], while the bottom three were sent to the [[LCS/Europe/Summer/2014/Promotion|2014 Summer Promotion Tournament]]. The split featured a $100,000 USD prize pool, with the champion also earning a spot at the [[All-Star/2014|2014 All-Star Event]].
+
+Before the start of the season, several roster and organizational changes took place. [[Alliance]] acquired the EU LCS spot of [[Evil Geniuses]], Millenium took over Team ALTERNATE’s position, and [[Team ROCCAT]] took over the position from [[Kiedyś Miałem Team]]. [[Supa Hot Crew]] joined the league after defeating [[Meet Your Makers]] in the [[LCS/Europe/2014/Spring/Play-In|Spring Play-In tournament]], which was created following the removal of [[Lemondogs]] on January 8, 2014, due to their failure to submit satisfactory paperwork. The Play-In, held on January 11, 2014, determined the final participant for the Spring Split.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8
+|tournament1=LCS/Europe/2014/Spring/Group Stage
+|tournament2=LCS/Europe/2014/Spring/Playoffs#5th Place |stage2importWinners=true
+|tournament3=LCS/Europe/2014/Spring/Playoffs#Playoffs |stage3importLimit=4
+|qualifies1=All-Star/2014
+|qualifies2=LCS/Europe/2014/Summer|qualifies2name=Summer
+|qualifies3=LCS/Europe/2014/Summer/Promotion|qualifies3name=Promotion
+|{{Slot |place=1|qualified2=true|qualified1=true |usdprize=50,000}}
+|{{Slot |place=2|qualified2=true |usdprize=25,000}}
+|{{Slot |place=3|qualified2=true |usdprize=15,000}}
+|{{Slot |place=4|qualified2=true |usdprize=10,000}}
+|{{Slot |place=5|qualified2=true}}
+|{{Slot |place=6|qualified3=true}}
+|{{Slot |place=7|qualified3=true}}
+|{{Slot |place=8|qualified3=true}}
+}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{AwardPrizePool|noprize=true|cutafter=8|margin=false
+|{{Slot|award=Group Stage MVP |{{Opponent|Froggen |flag=dk |team=alliance}} |date=2014-04-16}}
+|{{Slot|award=Playoffs MVP |{{Opponent|Rekkles |flag=se |team=fnc}} |date=2014-04-18}}
+}}
+
+{{box|break|padding=2em}}
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=1|margin=false|tier=weekly|opentext=Weeks 2 to 11 - MVPs and OP 5}}
+{{prize pool slot award|award=MVP - Week 1 |date=2014-01-16
+|Rekkles |flag1=se |team1=fnc
+}}
+{{prize pool slot award|award=MVP - Week 2 |date=2014-01-24
+|Overpow |flag1=pl |team1=roccat
+}}
+{{prize pool slot award|award=OP 5 - Week 2 |date=2014-01-24
+|Wickd |flag1=dk |team1=alliance
+|Jankos |flag2=pl |team2=roccat
+|Froggen |flag3=dk |team3=alliance
+|Tabzz |flag4=nl |team4=alliance
+|VandeR |flag5=pl |team5=roccat
+}}
+{{prize pool slot award|award=MVP - Week 3 |date=2014-01-31
+|CandyPanda |flag1=de |team1=sk
+}}
+{{prize pool slot award|award=OP 5 - Week 3 |date=2014-01-31
+|Mimer |flag1=se |team1=supa hot crew
+|Svenskeren |flag2=dk |team2=sk
+|Alex Ich |flag3=ru |team3=gambit gaming
+|MrRalleZ |flag4=dk |team4=supa hot crew
+|Migxa |flag5=fr |team5=supa hot crew
+}}
+{{prize pool slot award|award=MVP - Week 4 |date=2014-02-07
+|VandeR |flag1=pl |team1=roccat
+}}
+{{prize pool slot award|award=OP 5 - Week 4  |date=2014-02-07
+|Mimer |flag1=se |team1=supa hot crew
+|Impaler |flag2=uk |team2=supa hot crew
+|Froggen |flag3=dk |team3=alliance
+|Creaton |flag4=pl |team4=mill
+|Jree |flag5=se |team5=mill
+}}
+{{prize pool slot award|award=MVP - Week 5 |date=2014-02-14
+|Migxa |flag1=fr |team1=supa hot crew
+}}
+{{prize pool slot award|award=OP 5 - Week 5 |date=2014-02-14
+|kev1n |flag1=de |team1=mill
+|Svenskeren |flag2=dk |team2=sk
+|Moopz |flag3=be |team3=supa hot crew
+|MrRalleZ |flag4=dk |team4=supa hot crew
+|Jree |flag5=se |team5=mill
+}}
+{{prize pool slot award|award=MVP - Week 6 |date=2014-02-21
+|Tabzz |flag1=nl |team1=alliance
+}}
+{{prize pool slot award|award=OP 5 - Week 6 |date=2014-02-21
+|fredy122 |flag1=uk |team1=sk
+|Svenskeren |flag2=dk |team2=sk
+|Jesiz |flag3=dk |team3=sk
+|Forg1ven |flag4=gr |team4=copenhagen wolves
+|Unlimited |flag5=bg |team5=copenhagen wolves
+}}
+{{prize pool slot award|award=MVP - Week 7 |date=2014-02-28
+|Amazing (German player){{!}}Amazing |flag1=de |team1=copenhagen wolves 
+}}
+{{prize pool slot award|award=OP 5 - Week 7 |date=2014-02-28
+|fredy122 |flag1=uk |team1=sk
+|Svenskeren |flag2=dk |team2=sk
+|Jesiz |flag3=dk |team3=sk
+|CandyPanda |flag4=de |team4=sk
+|nRated |flag5=de |team5=sk
+}}
+{{prize pool slot award|award=MVP - Week 8 |date=2014-03-06
+|Froggen |flag1=dk |team1=alliance
+}}
+{{prize pool slot award|award=OP 5 - Week 8 |date=2014-03-06
+|Wickd |flag1=dk |team1=alliance
+|Svenskeren |flag2=dk |team2=sk
+|Jesiz |flag3=dk |team3=sk
+|CandyPanda |flag4=de |team4=sk
+|nRated |flag5=de |team5=sk
+}}
+{{prize pool slot award|award=MVP - Week 9 |date=2014-03-21
+|Froggen |flag1=dk |team1=alliance
+}}
+{{prize pool slot award|award=OP 5 - Week 9 |date=2014-03-21
+|sOAZ |flag1=fr |team1=fnc
+|Shook |flag2=nl |team2=alliance
+|xPeke |flag3=es |team3=fnc
+|Tabzz |flag4=nl |team4=alliance
+|Nyph |flag5=de |team5=alliance
+}}
+{{prize pool slot award|award=MVP - Week 10 |date=2014-03-28
+|Nyph |flag1=de |team1=alliance
+}}
+{{prize pool slot award|award=OP 5 - Week 10 |date=2014-03-28
+|sOAZ |flag1=fr |team1=fnc
+|Shook |flag2=nl |team2=alliance
+|Froggen |flag3=dk |team3=alliance
+|MrRalleZ |flag4=dk |team4=supa hot crew
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{prize pool slot award|award=MVP - Week 11 |date=2014-04-03
+|nRated |flag1=de |team1=sk
+}}
+{{prize pool slot award|award=OP 5 - Week 11 |date=2014-04-03
+|sOAZ |flag1=fr |team1=fnc
+|Svenskeren |flag2=dk |team2=sk
+|Jesiz |flag3=dk |team3=sk
+|Rekkles |flag4=se |team4=fnc
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{Prize pool end noprize}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton|playerinfo=true}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Alliance
+|p1=Wickd|p1flag=dk
+|p2=Shook|p2flag=nl
+|p3=Froggen|p3flag=dk
+|p4=Tabzz|p4flag=nl
+|p5=Nyph|p5flag=de
+|t2p1=Leviathan|t2p1flag=ca|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2013|Summer]]
+|inotes={{NoteBig
+|n1={{Team|evil geniuses}} decided to move to the NA LCS.
+|n2={{Team|alliance}} acquired the EU LCS spot from Evil Geniuses
+}}
+}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ|p1flag=
+|p2=Cyanide|p2flag=fi
+|p3=xPeke|p3flag=es
+|p4=Rekkles|p4flag=
+|p5=YellOwStaR|p5flag=fr
+|c=|cflag=
+|qualifier=[[LCS/Europe/Summer/2013|Summer]]
+}}
+{{TeamCard
+|team=Gambit Gaming
+|p1=Darien|p1flag=ru
+|p2=Diamondprox|p2flag=ru
+|p3=Alex Ich|p3flag=ru
+|p4=Genja|p4flag=ru
+|p5=Edward|p5flag=am
+
+|t2p1=Zorozero|t2pos1=top
+|t2p2=Hulberto|t2pos2=jg
+|t2p3=Nukeduck|t2pos3=mid
+|t2p4=Fury|t2pos4=adc|t2p4link=Fury (German player)|t2p4flag=de
+
+|t3p1=Groove|t3p1flag=ru|t3pos1=coach
+|qualifier=[[LCS/Europe/Summer/2013|Summer]]
+}}
+{{TeamCard
+|team=Millenium
+|p1=kev1n|p1flag=de
+|p2=Araneae|p2flag=es
+|p3=Kerp|p3flag=de
+|p4=Creaton|p4flag=pl
+|p5=Jree|p5flag=se
+|t2p1=Kottenx|t2p1flag=ca|t2pos1=jg
+
+|t3p1=Olly|t3p1flag=be|t3pos1=coach
+|qualifier=[[LCS/Europe/Summer/2013|Summer]]
+|inotes={{NoteBig
+|n1={{Team|Millenium}} acquired the roster and spot of {{Team|Team Alternate}}
+}}
+}}
+{{TeamCard
+|team=Copenhagen Wolves
+|p1=YoungBuck
+|p2=Amazing|p2link=Amazing (German player)
+|p3=cowTard
+|p4=Forg1ven
+|p5=Unlimited
+|t2p1=Ducky|t2p1flag=de|t2pos1=coach|t2p1link=Ducky (German player)
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=fredy122|p1flag=uk
+|p2=Svenskeren|p2flag=dk
+|p3=Jesiz|p3flag=dk
+|p4=CandyPanda|p4flag=de
+|p5=nRated|p5flag=de
+
+|t2p1=Incarnati0n|t2p1flag=dk|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|p1=Xaxus|p1flag=pl
+|p2=Jankos|p2flag=pl
+|p3=Overpow|p3flag=pl
+|p4=Celaver|p4flag=pl
+|p5=VandeR|p5flag=pl
+
+|t2p1=Veggie|t2p1flag=us|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1={{Team|Team ROCCAT}} acquired the roster and spot of {{Team|Kiedyś Miałem Team}}
+}}
+}}
+{{TeamCard
+|team=SUPA HOT CREW
+|p1=Mimer|p1flag=se
+|p2=Impaler|p2flag=uk
+|p3=Moopz|p3flag=be
+|p4=MrRalleZ|p4flag=dk
+|p5=Migxa|p5flag=fr
+|c=|cflag=us
+
+|t2p1=Selfie|t2p1flag=pl|t2pos1=mid
+
+|t3p1=LastShadow|t3p1flag=us|t3pos1=coach
+|qualifier=[[LCS/Europe/2014/Spring/Play-In|Play-In]]
+|inotes={{NoteBig
+|n1=January 8, 2014 - {{Team|lemondogs}} are removed from the EU LCS due to failing to submit required paperwork.<ref name="lemondogs">{{cite web|url=https://web.archive.org/web/20140112112056/http://eune.lolesports.com/articles/update-lemondogs-lcs-rule-changes|title=Update on Lemondogs & LCS Rule Changes|publisher=[[EU LCS]] |date=2014-01-08|language={{Flag|usuk}} English}}</ref>
+|n2=January 11, 2014 - A [[LCS/Europe/2014/Spring/Play-In|replacement tournament]] was held on in which {{Team|supa hot crew}} secured the vacant EU LCS spot.
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/2014/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2014/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=FC6O2R4OEQ}}
+{{ShowBracket|id=tLjYhFZq2F}}
+
+==Format==
+*'''Group Stage'''
+** Each team plays all other teams 4 times
+**All matches are {{Abbr/Bo1}}
+**Top 6 advance to playoffs
+**Top 2 receive playoffs byes into the semifinals
+*'''Playoffs'''
+** Single Elimination 
+** Matches are {{Abbr/Bo3}} 
+**Final is {{Abbr/Bo5}}
+* Winner Qualifies for [[All-Star/2014|All-Star 2014]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1
+|lang2=usuk |twitch2=eulcs2
+|lang3=usuk |youtube3=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang4=de |twitch4=summonersinnlive
+|lang5=es |twitch5=lvpes
+|lang6=fr |twitch6=ogaminglol
+|lang7=fr |twitch7=eclypsiatvlol
+|lang8=hu |twitch8=magyarloltv
+|lang9=pl |twitch9=nervarien
+|lang10=pl |twitch10=teamfrenzygg
+}}
+
+===Talent===
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Deman|b1name=Leigh Smith|b1flag=us
+|b2=qu1ksh0t|b2name=Trevor Henry|b2flag=za
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=Joe Miller|b1name=Daniel Drakos|b1flag=uk
+|b2=Deficio
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2014/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2014/Spring|edate=2014-05-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

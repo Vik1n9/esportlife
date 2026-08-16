@@ -1,0 +1,525 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2F2022%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:12:11.449Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCS 2022 Spring }}
+{{NA LCS Navbox}}
+{{LCS 2022 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCS 2022 Spring 
+|shortname=2022 Spring 
+|tickername=LCS 2022 Spring 
+|image=League Championship Series.png
+|icon=League Championship Series 2021 icon lightmode.png
+|series=LCS
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.statefarm.com/ State Farm] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|patch=
+|epatch=
+|server=North America
+|type=Offline
+|country=United States
+|country2=United States
+|city=Los Angeles
+|city2=Houston
+|venue=LCS Studio
+|venue2=[https://en.wikipedia.org/wiki/NRG_Stadium NRG Stadium]
+|format='''Group Stage''': Double Round Robin ({{Abbr/Bo1}}) <br> '''Playoffs:''' Double Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2022-02-05
+|edate=2022-04-24
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=
+|twitch=RiotGames
+|facebook=lolesports
+|twitter=lcsofficial
+|youtube=channel/UCSF_aFGIIIoWY30GVV19TKA
+|instagram=lolesports
+|team_number=10
+|previous=LCS/2021/Summer{{!}}2021 Summer 
+|next=LCS/2022/Summer{{!}}2022 Summer 
+}}
+
+The '''LCS 2022 Spring''' was the first split of the 2022 [[League of Legends Championship Series]] (LCS) season, organized by Riot Games. It ran from February 5 to April 24, 2022, with the Regular Season held at the LCS Studio in Los Angeles, United States, and the Finals played at NRG Stadium in Houston, United States. Ten franchised teams competed in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Double Elimination {{Abbr/Bo5}} Playoff bracket. The total prize pool was $200,000 USD, and the split winner qualified for the [[Mid-Season Invitational/2022|2022 Mid-Season Invitational]].
+
+Ahead of the 2022 Spring season, it was announced that {{player|Bjergsen|pos=coach}} would leave [[TSM]], ending an 8 year period with the organisation. <ref name="Bjergsen leaves">{{cite web |url=https://twitter.com/TSM/status/1453838533710553092 |title=An update from @TSMReginald and @parthenaan on our LCS roster. |date=2021-10-28 |author=[[Bjergsen]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref> A day later, {{player|SwordArt|pos=sup}} was also released, a year after signing a multi-million dollar deal with the organisation. <ref name="Swordart Leaves">{{Cite web |date=2021-10-29 |url=https://twitter.com/TSM/status/1454086640394252292 |title=Today we bid farewell to @TSM_SwordArt |language={{Flag|usuk}} English |author=TSM |publisher=Twitter}}</ref> [[TSM]] also removed {{player|PowerOfEvil|pos=mid}} and {{player|Lost|pos=bot}} from the active roster later on and later announced {{player|Keaiduo|pos=mid}}, {{player|Shenyi|pos=sup}}, and {{player|Tactical|pos=bot}}. <ref name="TSM New Roster">{{Cite web |date=2021-12-09 |url=https://twitter.com/TSM/status/1468961797487022091 |title=Roster Announcement |language={{Flag|usuk}} English |author=TSM |publisher=Twitter}}</ref> Ahead of Lock-In, [[100 Thieves]] promoted {{player|Tenacity|pos=top}} to their starting lineup, causing them to now field six starting players. <ref name="Welcome Tenacity">{{Cite web |date=2021-11-15 |url=https://twitter.com/100T_Esports/status/1460404782573789187 |title=The best in NA just got better. |language={{Flag|usuk}} English |author=100 Thieves |publisher=Twitter}}</ref> [[Evil Geniuses]] released {{player|Jiizuke|pos=mid}} after playing with him for 2 years, promoting academy player {{player|Jojopyun|pos=mid}} to the main roster. They also signed {{player|Inspired|pos=jg}} as their starting jungler. <ref name="Jojopyun promoted">{{cite web |url=https://twitter.com/EvilGeniuses/status/1460398075533537280 |title=Forged from the depths of Evil, delivered to the mid lane for battle. |date=2021-11-16 |author=[[Evil Geniuses]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref> After a one-year hiatus, {{player|Biofrost|pos=sup}} returned to competing, signing with [[Dignitas]] for the spring season, replacing {{player|Aphromoo|pos=sup}}. {{player|River (Korean player)|pos=jg}} replaced {{player|Akaadian|pos=jg}} while {{player|Blue|pos=mid}} replaced {{player|Yusui|pos=mid}} <ref name="Biofrost joins">{{cite web |url=https://twitter.com/dignitas/status/1461111569107013637 |title=Welcome @Biofrostlol to @DignitasLoL for the 2022 #LCS season! |date=2021-11-17 |author=[[Dignitas]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>.
+
+[[Counter Logic Gaming]] completely revamped their roster by releasing the old one and adding five new players in {{player|Jenkins|pos=top}}, {{player|Contractz|pos=jg}}, {{player|Palafox|pos=mid}}, {{player|Luger|pos=bot}}, and {{player|poome|pos=sup}}. <ref name="CLG Roster">{{cite web |url=https://twitter.com/clgaming/status/1461741067942776836|title=A New Age.|date=2021-11-19 |author=[[CLG]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref> [[Golden Guardians]] also changed multiple players on their team. {{player|Ic0nic|pos=jg}} and {{player|Chime|pos=sup}} were moved down to the academy roster while moving {{player|Stixxay|pos=bot}} into a coaching position. Replacing them are {{player|Pridestalkr|pos=jg}}, {{player|Lost|pos=bot}}, and {{player|Olleh|pos=sup}}. <ref name="Golden Guardians Roster">{{cite web |url=https://twitter.com/GoldenGuardians/status/1461071150331482113|title=Your 2022 Golden Guardians|date=2021-11-17 |author=[[Golden Guardians]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref> Coming at a surprise, [[Cloud9]] revamped most of their roster. {{player|Perkz|pos=mid}} left the team to return to Europe, {{player|Vulcan|pos=sup}} left for [[Evil Geniuses]], {{player|Zven|pos=bot}} was moved to the academy roster while {{player|Fudge|pos=top}} roleswapped to midlane. Replacing the former players are {{player|Summit|pos=top}}, {{player|Berserker|link=Berserker (Korean player)|pos=bot}}, and {{player|Isles|pos=sup}}. They also notably signed {{player|LS|pos=coach}} as head coach. <ref name="C9 Roster">{{cite web |url=https://twitter.com/Cloud9/status/1462148815289471000|title=Our offseason is finally over.|date=2021-11-20 |author=[[Cloud9]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref> [[Team Liquid]] overhauled their roster by replacing {{player|Alphari|pos=top}}, {{player|Jensen|pos=mid}}, and {{player|Tactical|pos=bot}} with {{player|Bwipo|pos=top}}, {{player|Bjergsen|pos=mid}}, {{player|Hans Sama|pos=bot}} <ref name="TL Roster">{{cite web |url=https://twitter.com/TravisGafford/status/1456344558439067669|title=Team Liquid have decided on their 2022 roster.|date=2021-11-20 |author=[[Team Liquid]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10 |groupElimStatuses=down,staydown,stay
+|tournament1=LCS/2022/Spring/Group Stage
+|tournament2=LCS/2022/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2022
+|{{Slot |place=1 |qualified1=yes|usdprize=100,000}}
+|{{Slot |place=2 |usdprize=50,000}}
+|{{Slot |place=3 |usdprize=30,000}}
+|{{Slot |place=4 |usdprize=20,000}}
+}}
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/2022/Spring/Group Stage
+}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LCS/2022/Spring/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+
+{{box|start|padding=2em}}
+====All-Season Awards====
+{{prize pool start award|noprize=true|cutafter=9|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Summit |flag1=kr |team1=c9 |date=2022-04-22}}
+{{prize pool slot award|award=Coaching Team of the Split |Guilhoto |Kold |H4xDefender |flag1=pt |flag2=dk |flag3=us |team1=tl |team2=tl |team3=tl |date=2022-04-08}}
+{{prize pool slot award|award=1st All-Pro Team |date=2022-04-01
+|Summit |flag1=kr|team1=c9
+|Blaber |flag2=us |team2=c9
+|Bjergsen |flag3=dk |team3=tl
+|Hans Sama |flag4=fr |team4=tl
+|CoreJJ |flag5=kr |team5=tl
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2022-04-01
+|Ssumday |flag1=kr |team1=100
+|Santorin |flag2=dk |team2=tl
+|Toucouille |flag3=fr |team3=fly
+|Berserker (Korean_player){{!}}Berserker |flag4=kr |team4=c9
+|huhi |flag5=kr |team5=100
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2022-04-01
+|Bwipo |flag1=be |team1=tl
+|Closer |flag2=turkey |team2=100
+|Fudge |flag3=au |team3=c9
+|FBI |flag4=au |team4=100
+|Vulcan |flag5=ca |team5=eg
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+====Player of the Week====
+{{prize pool start award|noprize=true|tier=weekly|margin=false|cutafter=8}}
+{{prize pool slot award|award=Player of the Week 1 |date=2022-02-06 |FBI |flag1=au |team1=100t }}
+{{prize pool slot award|award=Player of the Week 2 |date=2022-02-13 |Bwipo |flag1=be |team1=tl }}
+{{prize pool slot award|award=Player of the Week 3 |date=2022-02-20 |Toucouille |flag1=fr |team1=fly }}
+{{prize pool slot award|award=Player of the Week 4 |date=2022-02-27 |Summit |flag1=kr |team1=c9 }}
+{{prize pool slot award|award=Player of the Week 5 |date=2022-03-06 |Blaber |flag1=us |team1=c9 }}
+{{prize pool slot award|award=Player of the Week 6 |date=2022-03-13 |Summit |flag1=kr|team1=c9 }}
+{{prize pool slot award|award=Player of the Week 7 |date=2022-03-20 |Tactical |flag1=us |team1=tsm }}
+{{prize pool slot award|award=Player of the Week 8 |date=2022-03-27 |Santorin  |flag1=dk |team1=tl }}
+{{Prize pool end}}
+{{box|end|padding=2em}}
+
+{{box|end|padding=2em}}
+
+<!--==Roster Moves==
+{{Transfer List
+|sdate=2021-08-29
+|team=100t
+|team2=c9
+|team3=clg
+|team4=dig
+|team5=eg
+|team6=fly
+|team7=ggs
+|team8=imt
+|team9=tl
+|team10=tsm
+}}
+-->
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=240}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Tenacity |pos2=top |p2dnp=true
+|p3=Closer |pos3=jg
+|p4=Abbedagge |pos4=mid
+|p5=FBI |pos5=bot
+|p6=huhi |pos6=sup
+
+|t2p1=Gamsu |t2pos1=top |t2p1dnp=true
+|t2p2=Kenvi |t2pos2=jgl |t2p2dnp=true
+|t2p3=JimieN |t2pos3=mid |t2p3dnp=true
+|t2p4=Wixxi |t2pos4=bot |t2p4dnp=true
+|t2p5=Busio |t2pos5=sup |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Reapered |t3p1flag=kr |t3pos1=head coach
+|t3p2=Freeze |t3p2flag=cz |t3pos2=coach
+|t3p3=mithy |t3p3flag=es |t3pos3=coach
+|t3p4=Kaimera|t3p4flag=us|t3pos4=analyst
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Summit
+|p2=Blaber
+|p3=Svenskeren |p3dnp=true |pos3=jg
+|p4=Fudge |pos4=mid
+|p5=Berserker |p5link=Berserker (Korean player) |pos5=bot
+|p6=Isles |pos6=sup
+
+|t2p1=Darshan |t2pos1=top |t2p1dnp=true
+|t2p2=Malice |t2pos2=jgl |t2p2dnp=true
+|t2p3=Copy |t2pos3=mid |t2p3dnp=true
+|t2p4=Zven |t2pos4=bot |t2p4dnp=true
+|t2p5=Winsome |t2pos5=sup
+|t2title=Academy
+
+|t3p1=LS |t3p1flag=us |t3pos1=head coach
+|t3p2=Veigar v2 |t3p2flag=no |t3pos2=assistant coach
+|t3p3=Max Waldo |t3p3flag=us |t3pos3=assistant coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+|inotes={{NoteBig
+|n1=March 14th - {{player|Svenskeren|flag=dk}} joins as a substitute. <ref name="Svenskeren sub">{{cite web |url=https://twitter.com/Cloud9/status/1503445995866103809 |title=Sven rejoins the Cloud9 family as a substitute player! |date=2022-03-14 |author=[[Cloud9]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Jenkins
+|p2=Contractz
+|p3=Palafox
+|p4=Luger
+|p5=poome
+
+|t2p1=Dhokla |t2pos1=top
+|t2p2=RoseThorn |t2pos2=jgl
+|t2p3=Triple |t2pos3=mid
+|t2p4=Prismal |t2pos4=bot
+|t2p5=breezyyy |t2pos5=sup
+|t2title=Academy
+
+|t3p1=Thinkcard |t3p1flag=us |t3pos1=head coach
+|t3p2=Croissant |t3p2flag=us |t3pos2=strategic coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Dignitas
+|p1=FakeGod
+|p2=River |p2link=River (Korean player)
+|p3=Blue
+|p4=Neo |p4link=Neo (American player)
+|p5=Biofrost
+
+|t2p1=Eclipse |t2p1link=Eclipse (Yujie Wu) |t2pos1=top |t2p1dnp=true
+|t2p2=Exyu |t2pos2=jgl |t2p2dnp=true
+|t2p3=DarkWings |t2pos3=mid |t2p3dnp=true
+|t2p4=Spawn |t2p4link=Spawn (Canadian player) |t2pos4=bot |t2p4dnp=true
+|t2p5=JayJ |t2pos5=sup |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Enatron |t3p1flag=gr |t3pos1=head coach
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Impact
+|p2=Inspired
+|p3=jojopyun
+|p4=Danny
+|p5=Vulcan
+
+|t2p1=Srtty |t2pos1=top |t2p1dnp=true
+|t2p2=Tomio |t2pos2=jgl |t2p2dnp=true
+|t2p3=Soligo |t2pos3=mid |t2p3dnp=true
+|t2p4=Kaori |t2pos4=bot |t2p4dnp=true
+|t2p5=SkyTec |t2pos5=sup |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Turtle |t3p1flag=br |t3pos1=head coach
+|t3p2=Rigby |t3p2flag=kr |t3pos2=coach
+|t3p3=SH4DOW |t3pos3=positional coach
+|t3p4=Draxyr |t3pos4=positional coach
+|t3p5=Artemis |t3p5link=Artemis (American player) |t3p5flag=us |t3pos5=performance coach
+|t3title=Staff
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Kumo
+|p2=Josedeodo 
+|p3=toucouille
+|p4=Johnsun
+|p5=aphromoo
+
+|t2p1=Philip |t2pos1=top |t2p1dnp=true
+|t2p2=Yuuji |t2pos2=jgl |t2p2dnp=true
+|t2p3=Spirax |t2pos3=mid |t2p3dnp=true
+|t2p4=Tomo |t2pos4=bot |t2p4dnp=true
+|t2p5=Diamond |t2p5link=Diamond (Canadian player) |t2pos5=sup |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Sharkz |t3p1flag= |t3pos1=head coach
+|t3p2=Loyota|t3p2flag=us|t3pos2=analyst
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Licorice
+|p2=Pridestalkr
+|p3=Ablazeolive
+|p4=Lost
+|p5=Olleh
+
+|t2p1=Tony Top |t2pos1=top |t2p1dnp=true
+|t2p2=Ic0nic |t2pos2=jgl |t2p2dnp=true
+|t2p3=Ryoma |t2pos3=mid |t2p3dnp=true
+|t2p4=Violet |t2p4link=Violet (Cantonese player) |t2pos4=bot |t2p4dnp=true
+|t2p5=Chime |t2pos5=sup |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Inero |t3p1flag=us |t3pos1=head coach
+|t3p2=Swip3rR |t3p2flag=au |t3pos2=assistant coach
+|t3p3=Spookz |t3p3flag=au |t3pos3=assistant coach
+|t3p4=ChuChuZ |t3p4flag=au |t3pos4=assistant coach
+|t3p5=Stixxay |t3p5flag=us |t3pos5=assistant coach
+|t3p6=HustlinbeasT |t3p6flag=us |t3pos6=assistant coach
+|t3p7=Apollo |t3p7flag=us |t3pos7=positional coach
+|t3p8=Jido|t3pos8=analyst
+|t3title=Staff
+}}
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+{{TeamCard
+|team=Immortals
+|p1=Revenge
+|p2=Xerxe 
+|p3=PowerOfEvil
+|p4=Arrow
+|p5=Destiny |p5link=Destiny (Australian player)
+
+|t2p1=Concept |t2pos1=top |t2p1dnp=true
+|t2p2=Chad |t2pos2=jgl
+|t2p3=Pretty |t2pos3=mid |t2p3dnp=true
+|t2p4=WildTurtle |t2pos4=bot
+|t2p5=Joey |t2pos5=sup 
+|t2title=Academy
+
+|t3p1=Malaclypse |t3p1flag=us |t3pos1=head coach
+|t3p2=Nightshare|t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+}}
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+{{TeamCard
+|team=Team Liquid
+|p1=Bwipo
+|p2=Santorin
+|p3=Bjergsen
+|p4=Hans sama
+|p5=CoreJJ
+
+|t2p1=Bradley |t2pos1=top |t2p1dnp=true
+|t2p2=Armao |t2pos2=jgl |t2p2dnp=true
+|t2p3=Haeri |t2pos3=mid |t2p3dnp=true
+|t2p4=Yeon |t2pos4=bot |t2p4dnp=true
+|t2p5=Eyla |t2pos5=sup |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Guilhoto |t3p1flag=pt |t3pos1=head coach
+|t3p2=H4xDefender |t3pos2=coach
+|t3p3=Kold |t3pos3=assistant coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=TSM
+|p1=Huni
+|p2=Spica
+|p3=Takeover
+|p4=Tactical
+|p5=Shenyi
+
+|t2p1=V1per |t2pos1=top |t2p1dnp=true
+|t2p2=Hyper |t2pos2=jgl |t2p2dnp=true
+|t2p3=Keaiduo |t2pos3=mid
+|t2p4=Instinct |t2p4link=Instinct (American player) |t2pos4=bot |t2p4dnp=true
+|t2p5=Yursan |t2pos5=sup
+|t2title=Academy
+
+|t3p1=Chawy |t3pos1=head coach
+|t3p2=Curry |t3p2flag=us |t3pos2=coach
+|t3p3=Kayys |t3p3flag=us |t3pos3=coach
+|t3p4=Tonington |t3p4flag=us |t3pos4=assistant Coach |t3p4leave=true
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+
+|inotes={{NoteBig
+|n1=February - {{player|Tonington|flag=us}} leaves the team. {{citation needed}}
+|n2=February 16th - {{player|Yursan|flag=tw}} is promoted from [[TSM Academy]], {{player|Shenyi|flag=cn}} is moved down. <ref name="Yursan joins">{{cite web |url=https://twitter.com/TSM/status/1494019055552016392 |title=LCS roster update |date=2022-02-16 |author=[[TSM]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n3=March 3rd - {{player|Takeover|flag=kr}} and {{player|Shenyi|flag=cn}} are promoted from [[TSM Academy]], {{player|Keaiduo|flag=cn}} and {{player|Yursan|flag=tw}} are moved down. <ref name="Takeover and Shenyi join">{{cite web |url=https://twitter.com/TSM/status/1499474979146145802 |title=We're making changes to our League rosters this week: Shenyi will return to the LCS team, while Keaiduo will be moved to Academy. |date=2022-03-03 |author=[[TSM]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/2022/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/2022/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=Tl5Ygouemt|matchWidth=190}}
+
+==Format==
+* '''Group Stage''' - ''February 5th - March 27th, 2022''
+** Double Round Robin
+** Each team plays 18 matches.
+**All matches are {{Abbr/Bo1}}
+*** {{bgcolortext|seedup|''1st till 4th place''}} advance to the Upper-bracket of Playoffs.
+*** {{bgcolortext|up|''5th and 6th place''}} advance to the Lower-bracket of Playoffs.
+
+* '''Playoffs ''' - ''April 2nd - April 24th, 2022''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Winner qualifies for [[Mid-Season Invitational/2022|Mid-Season Invitational 2022]]
+
+==Broadcast==
+===Streams===
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=LeTigress
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Emily Rand
+|b2=Hai
+|b3=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=CaptainFlowers
+|b2=Pastrytime
+|b3=Phreak
+}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Azael
+|b2=Jatt
+|b3=MarkZ
+|b4=Kobe
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="1" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-2-notes/ 12.2]
+| colspan="2" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-3-notes/ 12.3]
+| colspan="2" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-4-notes/ 12.4]
+| colspan="3" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-5-notes/ 12.5]
+| colspan="1" | [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-6-notes/ 12.6]
+|-
+| Disabled
+| colspan="3" |
+| colspan="1" | {{ChampionIcon|Renata Glasc|30px}}
+| colspan="5" |
+|}
+
+===Statistics===
+{{#lst:LCS/2022/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/2022/Spring|edate=2022-05-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+{{2022 Season International Cycle Navbox}}

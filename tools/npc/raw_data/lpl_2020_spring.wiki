@@ -1,0 +1,640 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2020%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:46:46.907Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2020 Spring}}
+{{Tencent Games Navbox}}
+{{LPL 2020 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2020 Spring 
+|shortname=2020 Spring 
+|tickername=LPL 2020 Spring
+|series=LPL
+|image=LPL 2020 Logo.png
+|icon=LPL 2020 icon.png
+|organizer-link=https://www.tjsports.com/ |organizer=TJ Sports
+|organizer2=
+|sponsor=[http://english.cmbchina.com/ China Merchants Bank]<br>[https://www.dxracer.com/ DXRacer]<br>[https://www.mercedes-benz.com/ Mercedes-Benz]<br>[https://www.redbull.com/ RB War Horse]<br>[https://www.intel.com/ Intel]<br>[http://www.dareu.com/ DEREU]<br>[https://www.nike.com/cn/zh_cn/ Nike]
+|patch=10.1
+|epatch=10.7
+|server=China
+|type=Offline/Online
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|country5=China
+|country6=China
+|country7=China
+|city=Shanghai 
+|city2=Hangzhou
+|city3=Suzhou
+|city4=Chengdu
+|city5=Xi'an
+|city6=Beijing
+|city7=Suzhou
+|venue=Hongqiao World IE Hub|venuedesc=Group Stage
+|venue2=LGD Allied Esports Stadium|venue2desc=LGD Homeground<br>Playoffs
+|venue3=Snake Esports Center|venue3desc=LNG Homeground
+|venue4=DOUBLE-G Stadium|venue4desc=Oh My God Homeground
+|venue5=Guangdian Grand Theatre|venue5desc=Team WE Homeground
+|venue6=Legion JDG Esports Center|venue6desc=JD Gaming Homeground
+|format=Single Round Robin Group Stage<br>Single Elimination Playoffs
+|prizepool=4,200,000
+|localcurrency=cny
+|sdate=2020-01-13
+|edate=2020-05-02
+|liquipediatier=1
+|highlighted=|rulebook=https://weibo.com/ttarticle/p/show?id=2309404186990689056037
+|rulebook2=https://weibo.com/ttarticle/p/show?id=2309404187375956843951
+|website=https://lpl.qq.com/es/lpl/2020/
+|weibo=lolesports
+|twitter=lplenglish
+|youtube=lplenglish
+|douyu=lpl
+|twitch=lpl
+|team_number=17
+|previous=LPL/2019/Summer{{!}}2019 Summer 
+|next=LPL/2020/Summer{{!}}2020 Summer 
+}}
+The '''2020 LPL Spring''' split was the first split of the year in China’s franchised '''LoL Pro League''' (''LPL''), organized by Tencent Games. Sixteen teams competed from 13 January to 2 May, with matches originally scheduled across team homeground venues in Shanghai, Hangzhou, Chengdu, and Suzhou. The league opened offline but was suspended after Week 1 due to the COVID-19 outbreak, returning on 9 March in a fully online format for the remainder of the Regular Season and Playoffs. The split followed a single round-robin Regular Season and a Single Elimination Playoffs bracket, with the champion earning championship points toward qualification for international events. Matches were played on patches ranging from 10.1 to 10.8.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=8|points=lpl2020|localcurrency=cny|groupElimStatuses=down,stay
+|tournament1=LPL/2020/Spring/Group_Stage
+|tournament2=LPL/2020/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2020|qualifies1name=<s>MSI</s>
+|qualifies2=Mid-Season_Cup/2020|qualifies2name=Mid-Season Cup
+|{{Slot |qualified1=true|qualified2=true|points=60|localprize=2,000,000}}
+|{{Slot |points=40|qualified2=true|localprize=1,000,000}}
+|{{Slot |points=30|qualified2=true|localprize=500,000}}
+|{{Slot |points=20|qualified2=true|localprize=300,000}}
+|{{Slot |points=10|count=2|localprize=200,000}}
+}}
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|cutafter=5|margin=false|title=Group Stage MVPs
+|tournament=LPL/2020/Spring/Group Stage/Week_1-4
+|tournament2=LPL/2020/Spring/Group Stage/Week_5-7
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false|title=Playoffs MVPs
+|tournament=LPL/2020/Spring/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Group Stage MVP|Kanavi|flag1=kr|team1=jdg|date=2020-04-22}}
+{{prize pool slot award|award=Playoffs MVP |LvMao|flag1=cn|team1=jdg|date=2020-05-02}}
+{{prize pool slot award|award=Top Rookie |ShiauC|flag1=tw|team1=estar|date=2020-04-22}}
+{{prize pool slot award|award=1st All-Pro Team |date=2020-04-22
+|TheShy|flag1=kr|team1=ig
+|Kanavi|flag2=kr|team2=jdg
+|Doinb|flag3=kr|team3=fpx
+|Puff|flag4=cn|team4=ig
+|ShiauC|flag5=tw|team5=estar
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2020-04-22
+|GimGoon|flag1=kr|team1=fpx
+|Tian|flag2=cn|team2=fpx
+|Rookie|flag3=kr|team3=ig
+|Hope (Chinese player){{!}}Hope|flag4=cn|team4=edg
+|LvMao|flag5=cn|team5=jdg
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2020-04-22
+|369|flag1=cn|team1=tes
+|Peanut|flag2=kr|team2=lgd
+|Knight|flag3=cn|team3=tes
+|Wink|flag4=cn|team4=estar
+|Crisp|flag5=cn|team5=fpx
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Weeks 2 to 7}}
+{{prize pool slot award|award=Player of the Week - Week 1 |date=2020-01-20|Knight|flag1=cn|team1=tes}}
+{{prize pool slot award|award=Rookie of the Week - Week 1 |date=2020-01-20|Wei|flag1=cn|team1=estar}}
+{{prize pool slot award|award=Best of the Rift - Week 1 |date=2020-01-20
+|TheShy|flag1=kr|team1=ig
+|Kanavi|flag2=kr|team2=jdg
+|Knight|flag3=cn|team3=tes
+|Wink|flag4=cn|team4=estar
+|XinMo|flag5=cn|team5=blg
+}}
+{{prize pool slot award|award=Player of the Week - Week 2 |date=2020-03-16|Doinb|flag1=kr|team1=fpx}}
+{{prize pool slot award|award=Rookie of the Week - Week 2 |date=2020-03-16|XLB|flag1=cn|team1=rng}}
+{{prize pool slot award|award=Best of the Rift - Week 2 |date=2020-03-16
+|Langx|flag1=cn|team1=rng
+|XLB|flag2=cn|team2=rng
+|Doinb|flag3=kr|team3=fpx
+|huanfeng|flag4=cn|team4=sn
+|ShiauC|flag5=tw|team5=estar
+}}
+{{prize pool slot award|award=Player of the Week - Week 3 |date=2020-03-23 |Doinb|flag1=kr|team1=fpx}}
+{{prize pool slot award|award=Rookie of the Week - Week 3 |date=2020-03-23 |Wei|flag1=cn|team1=estar}}
+{{prize pool slot award|award=Best of the Rift - Week 3 |date=2020-03-23
+|Flandre|flag1=cn|team1=lng
+|Wei|flag2=cn|team2=estar
+|Doinb|flag3=kr|team3=fpx
+|Puff|flag4=cn|team4=ig
+|Crisp|flag5=cn|team5=fpx
+}}
+{{prize pool slot award|award=Player of the Week - Week 4 |date=2020-03-30 |ShiauC|flag1=tw|team1=estar}}
+{{prize pool slot award|award=Rookie of the Week - Week 4 |date=2020-03-30 |ShiauC|flag1=tw|team1=estar}}
+{{prize pool slot award|award=Best of the Rift - Week 4 |date=2020-03-30
+|369|flag1=cn|team1=tes
+|Tian|flag2=cn|team2=fpx
+|Knight|flag3=cn|team3=tes
+|Wink|flag4=cn|team4=estar
+|ShiauC|flag5=tw|team5=estar
+}}
+{{prize pool slot award|award=Player of the Week - Week 5 |date=2020-04-06 |Kanavi|flag1=kr|team1=jdg}}
+{{prize pool slot award|award=Rookie of the Week - Week 5 |date=2020-04-06 |Forge|flag1=cn|team1=vg}}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2020-04-06
+|TheShy|flag1=kr|team1=ig
+|Kanavi|flag2=kr|team2=jdg
+|Rookie|flag3=kr|team3=ig
+|Hope (Chinese player){{!}}Hope|flag4=cn|team4=edg
+|Hang|flag5=cn|team5=vg
+}}
+{{prize pool slot award|award=Player of the Week - Week 6 |date=2020-04-13 |Peanut|flag1=kr|team1=lgd}}
+{{prize pool slot award|award=Rookie of the Week - Week 6 |date=2020-04-13 |Peanut|flag1=kr|team1=lgd}}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2020-04-13
+|Zoom|flag1=cn|team1=jdg
+|Peanut|flag2=kr|team2=lgd
+|Yuuki|flag3=cn|team3=lgd
+|Jinjiao|flag4=cn|team4=blg
+|LvMao|flag5=cn|team5=jdg
+}}
+{{prize pool slot award|award=Player of the Week - Week 7 |date=2020-04-21 |JackeyLove|flag1=cn|team1=tes}}
+{{prize pool slot award|award=Rookie of the Week - Week 7 |date=2020-04-21 |huanfeng|flag1=cn|team1=sn}}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2020-04-21
+|Zoom|flag1=cn|team1=jdg
+|Karsa|flag2=tw|team2=tes
+|Rookie|flag3=kr|team3=ig
+|JackeyLove|flag4=cn|team4=tes
+|Missing|flag5=cn|team5=we
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+
+===Monthly Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|tier=monthly|opentext=Monthly Best of the Rift - April to May}}
+{{prize pool slot award|award=Player of 2020 Jan to Mar |date=2020-04-01|Doinb|flag1=kr|team1=fpx}}
+{{prize pool slot award|award=Best of the Rift - 2020 Jan to Mar |date=2020-04-01
+|TheShy|flag1=kr|team1=ig
+|Wei|flag2=cn|team2=estar
+|Doinb|flag3=kr|team3=fpx
+|Wink|flag4=cn|team4=estar
+|ShiauC|flag5=tw|team5=estar
+}}
+{{prize pool slot award|award=Rookie of the Month - 2020 Jan to Mar |date=2020-04-01
+|ShiauC|flag1=tw|team1=estar
+}}
+{{prize pool slot award|award=Player of April 2020 |date=2020-04-21|Kanavi|flag1=kr|team1=jdg}}
+{{prize pool slot award|award=Rookie of the Month - April 2020|date=2020-04-21|huanfeng|flag1=cn|team1=sn}}
+{{prize pool slot award|award=Best of the Rift - 2020 Apr |date=2020-04-21
+|Zoom|flag1=cn|team1=jdg
+|Kanavi|flag2=kr|team2=jdg
+|Rookie|flag3=kr|team3=ig
+|Lwx|flag4=cn|team4=fpx
+|LvMao|flag5=cn|team5=jdg
+}}
+{{Prize pool end noprize}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Kingen
+|p2=Meteor
+|p3=FoFo
+|p4=Jinjiao
+|p5=XinMo
+
+|t2p1=ADD|t2pos1=top
+|t2p2=Wings|t2p2flag=cn|t2pos2=jg|t2p2dnp=true
+
+|t3p1=Sim|t3p1flag=kr|t3pos1=Head Coach
+|t3p2=Jay |t3p2link=Jay (Taiwanese player)|t3pos2=Assistant Coach
+|t3p3=Achie|t3p3flag=cn|t3pos3=Assistant Coach
+|t3p4=Java|t3p4flag=cn|t3pos4=Assistant Coach
+}}
+{{TeamCard
+|team=Dominus Esports
+|p1=Natural
+|p2=Xiaopeng
+|p3=xiye
+|p4=Gala
+|p5=Mark|p5link=Mark (Chinese player)
+
+|t2p1=Melody|t2p1flag=cn|t2pos1=top
+|t2p2=bless|t2p2flag=cn|t2pos2=jg|t2p2link=bless (Chinese player)
+|t2p3=Xiaowei|t2p3flag=cn|t2pos3=mid
+
+|t3p1=Bai |t3p1link=Bai (Yu Tanhao) |t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Aqua |t3p2link=Aqua (Yin Weizhe) |t3p2flag=cn|t3pos2=Coach
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Jinoo
+|p2=Jiejie
+|p3=Scout
+|p4=Hope|p4link=Hope (Chinese player)
+|p5=Meiko
+
+|t2p1=xiaoxiang|t2p1flag=cn
+|t2p2=Xinyi|t2pos2=jg|t2p2dnp=true
+|t2p3=JunJia|t2p3flag=cn|t2pos3=jg
+|t2p4=Aodi|t2p4flag=cn|t2pos4=top
+
+|t3p1=Clearlove|t3pos1=Head Coach
+|t3p2=Heart|t3pos2=Coach
+|t3p3=Bibra|t3p3flag=kr|t3pos3=analyst
+}}
+{{TeamCard
+|team=eStar Gaming
+|p1=Xiaobai
+|p2=Wei
+|p3=Cryin
+|p4=Wink
+|p5=ShiauC
+
+|t2p1=CJJ|t2p1flag=cn|t2pos1=top|t2p1dnp=true
+|t2p2=Alu|t2p2flag=cn|t2pos2=sup|t2p2dnp=true
+
+|t3p1=Lucky|t3pos1=Coach
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=GimGoon
+|p2=Tian
+|p3=Doinb
+|p4=Lwx
+|p5=Crisp
+
+|t2p1=Khan|t2pos1=top
+
+|t3p1=WarHorse|t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=TheShy
+|p2=Ning
+|p3=Rookie
+|p4=Puff|p4flag=cn
+|p5=Southwind
+
+|t2p1=Leyan|t2pos1=jg
+|t2p2=Fate|t2p2flag=cn|t2pos2=sup|t2p2dnp=true
+|t2p3=Baolan|t2pos3=sup|t2p3dnp=true
+|t2p4=|t2p4flag=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=Fly|t3pos1=Head Coach |t3p1link=Fly (Kim Sang-chul)
+|t3p2=Dingbo|t3p2flag=cn|t3pos2=Coach
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Zoom
+|p2=Kanavi
+|p3=Yagao
+|p4=LokeN
+|p5=LvMao
+
+|t2p1=705|t2p1flag=cn|t2pos1=top
+|t2p2=Peace|t2p2flag=cn|t2pos2=sup|t2p2dnp=true
+
+|t3p1=Homme|t3pos1=Head Coach
+|context=Beijing
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Cult|p1flag=cn
+|p2=Peanut
+|p3=Fenfen
+|p4=Kramer
+|p5=Killua
+
+|t2p1=Lies|t2p1link=Lies_(Chinese_player)|t2pos1=top
+|t2p2=badeMan|t2pos2=jg|t2p2dnp=true
+|t2p3=Yuuki|t2pos3=mid
+|t2p4=Chance |t2p4link=Chance (Chinese player) |t2p4flag=cn|t2pos4=sup
+|t2p5=Fenfen|t2pos5=top
+
+|t3p1=ZanDarC|t3p1flag=kr|t3pos1=Head coach
+|t3p2=김태영|t3p2flag=kr|t3pos2=Assistant coach
+|t3p3=Eimy|t3p3flag=|t3pos3=Assistant coach
+
+|context=Hangzhou
+}}
+{{TeamCard
+|team=LNG Esports
+|p1=Flandre
+|p2=Xx
+|p3=Maple|p3link=Maple_(Taiwanese_player)
+|p4=Asura|p4flag=cn
+|p5=Duan
+
+|t2p1=Light|t2p1flag=cn|t2pos1=adc|t2p1link=Light (Wang Guang-Yu)
+|t2p2=Iwandy|t2p2flag=cn|t2pos2=sup
+|t2p3=chenlun17|t2p3flag=cn|t2pos3=top
+
+|t3p1=Cyo|t3p1flag=tw|t3pos1=Head Coach
+|t3p2=Nelson|t3p2flag=sg|t3pos2=Coach
+|context=Suzhou
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Curse|p1link=Curse (Chinese player)
+|p2=H4cker
+|p3=icon
+|p4=Smlz
+|p5=cold|p5link=Five
+
+|t2p1=Kane|t2p1flag=cn|t2pos1=adc|t2p1dnp=true
+
+|t3p1=Panda|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Medusa|t3p2flag=cn|t3pos2=Analyst
+|context=Chengdu
+}}
+{{TeamCard
+|team=Rogue Warriors
+|p1=Crazy
+|p2=Haro
+|p3=Ruby
+|p4=ZWuJi
+|p5=LeY
+
+|t2p1=Holder|t2p1flag=kr|t2pos1=top
+|t2p2=WeiYan|t2p2flag=cn|t2pos2=jg|t2p2leave=true
+|t2p3=Wuming|t2p3flag=cn|t2pos3=mid
+
+|t3p1=HooN|t3p1flag=kr|t3pos1=Coach
+|t3p2=|t3p2flag=|t3pos2=
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Langx
+|p2=XLB
+|p3=xiaohu
+|p4=Betty
+|p5=Ming|p5link=Ming_(Shi_Sen-Ming)
+
+|t2p1=Yuekai|t2p1flag=cn|t2pos1=top|t2p1dnp=true
+|t2p2=S1xu|t2p2flag=cn|t2pos2=jg|t2p2dnp=true
+|t2p3=Uzi|t2p3link=Uzi_(Chinese_player)|t2pos3=adc|t2p3dnp=true
+
+|t3p1=Mata|t3pos1=Head Coach
+|t3p2=Sereno|t3p2link=Shine (Shin Dong-wook)|t3p2flag=kr|t3pos2=Assistant Coach
+|t3p3=Tabe|t3p3flag=hk|t3pos3=Analyst
+}}
+{{TeamCard
+|team=Suning Gaming
+|p1=bin|p1flag=cn
+|p2=SofM
+|p3=Angel|p3link=Angel_(Chinese_player)|p3flag=cn
+|p4=huanfeng
+|p5=SwordArT
+
+|t2p1=Biubiu|t2p1flag=cn|t2pos1=top
+|t2p2=Weiwei|t2p2flag=cn|t2pos2=adc
+
+|t3p1=Fluidwind|t3p1flag=tw|t3pos1=Head Coach
+|t3p2=Helper|t3p2flag=kr|t3pos2=Assistant Coach|t3p2link=Helper (Korean player)
+}}
+{{TeamCard
+|team=Team WE
+|p1=Morgan|p1flag=kr
+|p2=beishang
+|p3=Plex
+|p4=Jiumeng
+|p5=Missing
+
+|t2p1=Poss|t2pos1=top|t2p1dnp=true
+|t2p2=Yimeng|t2p2flag=cn|t2pos2=mid|t2p2dnp=true
+|t2p3=Teacherma|t2pos3=mid
+
+|t3p1=Domo|t3p1flag=cn|t3pos1=Head Coach
+
+|context=Xi'an
+}}
+{{TeamCard
+|team=Top Esports
+|p1=369
+|p2=Karsa
+|p3=Knight
+|p4=Photic|p4flag=cn
+|p5=yuyanjia|p5flag=cn
+
+|t2p1=Moyu|t2p1flag=cn|t2pos1=top|t2p1dnp=true
+|t2p2=AKi|t2p2flag=cn|t2pos2=jg|t2p2dnp=true
+|t2p3=QiuQiu|t2p3flag=cn|t2pos3=sup
+|t2p4=JackeyLove|t2pos4=adc
+
+|t3p1=Crescent|t3pos1=Head Coach
+|t3p2=Ggoong|t3pos2=coach
+}}
+{{TeamCard
+|team=Vici Gaming
+|p1=Cube|p1flag=cn
+|p2=Aix|p2flag=cn
+|p3=Forge
+|p4=iBoy
+|p5=Maestro|p5link=Maestr0
+
+|t2p1=Zdz|t2p1flag=cn|t2pos1=top|t2p1dnp=true
+|t2p2=Chieftain|t2pos2=jg
+|t2p3=Zeka|t2p3link=Zeka_(Korean_player)|t2pos3=mid
+|t2p4=Hang|t2p4flag=cn|t2pos4=sup
+|t2p5=|t2p5flag=|t2p5dnp=true
+
+|t3p1=kkOma|t3pos1=Head Coach
+|t3p2=Maokai|t3p2flag=cn|t3p2link=Maokai (Chinese coach)|t3pos2=Assistant Coach
+|t3p3=PoohManDu|t3pos3=Assistant Coach
+|t3p4=Kinte|t3p4flag=cn|t3pos4=Assistant Coach
+}}
+{{TeamCard
+|team=Victory Five
+|p1=Aliez|p1flag=cn
+|p2=Xiaohan
+|p3=Mole|p3flag=cn
+|p4=y4
+|p5=Max|p5flag=cn
+
+|t2p1=clx|t2p1flag=cn|t2pos1=sup
+|t2p2=Windy|t2p2flag=cn|t2pos2=mid|t2p2dnp=true
+|t2p3=997|t2p3flag=cn|t2pos3=top|t2p3dnp=true
+|t2p4=As6|t2p4flag=cn|t2pos4=jg
+|t2p5=Daylight|t2p5flag=cn|t2pos5=jg
+
+|t3p1=Suannai|t3p1flag=cn|t3pos1=Head Coach
+}}
+{{TeamCard columns end}}
+{{Transfer List
+|sdate=2019-09-06
+|team=blg
+|team2=dmo
+|team3=edg
+|team4=estar
+|team5=fpx
+|team6=ig
+|team7=jdg
+|team8=lgd
+|team9=lng
+|team10=omg
+|team11=rw
+|team12=rng
+|team13=sn
+|team14=we
+|team15=tes
+|team16=vg
+|team17=v5
+}}
+
+{{LPDB storage|false}}
+==Results==
+===Group Stage===
+{{#lst:LPL/2020/Spring/Group_Stage/Week 1-4|Regular Season}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2020/Spring/Group_Stage/Week_1-4|Click here for detailed results of the '''Group Stage''' matches (Week 1-4)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/2020/Spring/Group Stage/Week_5-7|Click here for detailed results of the '''Group Stage''' matches (Week 5-7)]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=UUYW4Y4CJW}}
+
+
+==Format==
+*'''Group Stage''' - ''January 13th - April 20th''
+** Single round robin, {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st and 2nd place''}} advance to the Semfinals of the Playoffs.
+*** {{bgcolortext|seedup|''3rd and 4th place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|up|''5th till 8th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''9th till 17th place''}} are eliminated from this split.
+****1st, 4th, 5th, and 8th seed will be in one bracket. The other 4 seeds will be in the other.
+*'''Playoffs''' - ''April 22nd - May 2nd''
+** Single elimination
+** All matches are {{Abbr/Bo5}}
+** Top 4 qualify for <s>[[Rift Rivals/LCK-LPL-PCS-VCS/2020|Rift Rivals 2020 - LCK vs LPL vs PCS vs VCS]]</s>
+** Winner qualifies for [[Mid-Season Invitational/2020|Mid Season Invitational 2020]]
+
+*'''From Week 2, the official of LPL has decided to postpone the tournament due to the Coronavirus problem in China'''<ref name="postponed cn">{{cite web|url=https://card.weibo.com/article/m/show/id/2309404464923395621019?_wb_client_=1|title=关于英雄联盟赛事（LPL及LDL）延期说明|date=2020-01-26|author=英雄联盟赛事|publisher=Weibo|language={{Flag|cn}}}}</ref><ref name="LPL postponed">{{cite web |url=https://twitter.com/lplenglish/status/1221301834909769729|title=We have decided to postpone week 2 of the LPL until we can ensure the safety and health of our players and fans. 
+|author=LPL|date=2020-01-26|publisher=Twitter|language={{Flag|usuk}} English}}</ref>
+** '''The tournament returned by being played in online matches from March 9th'''.<ref name="online">{{cite web|url=https://weibo.com/5756404150/IwgPefsl8|title=2020LPL春季赛3月9日线上恢复开赛|date=2020-02-28|author=英雄联盟赛事|publisher=Weibo|language={{Flag|cn}}}}</ref>
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=|stream1=|douyu1=lpl|zhanqi1=lpl|panda1=lpl
+|lang2=usuk |twitch2=lpl1 |youtube2=LoLChampSeries|douyu2=LPL2019|huya2=riotgame2
+|lang3=kr
+|lang4=fr
+}}
+===Talent===
+{{Tabs dynamic|name1=Chinese Broadcast|name2=English Broadcasts|name3=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Luo Xin|b1name=Luo Yuting|b1flag=cn
+|b2=Candice|b2name=Duan Yushuang|b2flag=cn
+|b3=Xiaoyu|b3flag=cn|b3link=Hilda
+}}
+{{BroadcasterCard
+|position=Commentator
+|b1=wAwa|b1name=Yan Zi-Jing|b1flag=cn
+|b2=Zeyuan|b2name=Guan Ze-Yuan|b2flag=cn
+|b3=Remember|b3name=Wang Chi-Te|b3flag=tw
+|b4=Cat|b4link=Cat (Chinese player)
+|b5=Rita|b5name=Feng Yu|b5flag=cn
+|b6=Duoduo|b6name=Wang Qian-Yuan|b6flag=cn
+|b7=Shuyi|b7name=Zhou Shu-Yi|b7flag=cn
+|b8=Mile|b8name=Qian Chen|b8flag=cn
+|b9=Changmao|b9name=Vincent Lee|b9flag=tw
+|b10=957
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator and Color Commentator 
+|b1=Clement Chu|b1name=Clement Chu|b1flag=tw
+|b2=Penguin|b2name=Oisín Molloy|b2link=Penguin (Irish Commentator)|b2flag=ie
+|b3=Hysterics|b3name=Jake Osypenko|b3flag=au
+|b4=Dagda|b4name=Rob Price|b4flag=ie
+|b5=Munchables|b5name=Joe Fenny|b5flag=uk
+|b6=Lyric|b6name=Jordan Corby|b6flag=us
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Dankun |b1name= |b1flag=kr
+|b2=Park Han-eol |b2name= |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Bitdory
+|b2=Pony|b2flag=kr |b2link=MyLittlePony
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="7.6%"| Week
+! colspan=2 width="8.4%"| 1 
+! width="8.4%"| 2
+! colspan=2 width="8.4%"| 3 
+! width="8.4%"| 4
+! colspan=2 width="8.4%"| 5
+! width="8.4%"| 6
+! width="9.6%"| 7
+! width="8.4%"| Playoffs
+|-
+| Patch
+| colspan="2" width="8.4%" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-1-notes/ 10.1]
+| colspan="2" width="12.0%" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-4-notes/ 10.4]
+| colspan="3" width="15.6%" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-5-notes/ 10.5]
+| colspan="3" width="24.0%" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-6-notes/ 10.6] 
+| colspan="1" width="8.4%" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-7-notes/ 10.7] 
+|-
+| Disabled
+| colspan="1" width="3.6%"| {{ChampionIcon|Sett|16px}}
+| colspan="9" width="63.6%"|
+| colspan="1" width="8.4%"| {{ChampionIcon|Wukong|16px}}
+|}
+
+
+
+===Statistics===
+{{#lst:LPL/2020/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2020/Spring|edate=2020-05-05}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

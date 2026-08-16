@@ -1,0 +1,518 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2025&redirects=1
+<!-- 抓取: 2026-08-16T18:54:13.654Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2025 Season}}
+{{LCK Navbox}}
+{{LCK 2025 Tabs}}
+{{Tabs static
+|name1=Overview
+|link1={{FULLPAGENAME}}
+|name2=Rounds 1-2
+|link2=/Rounds 1-2
+|name3=Road to MSI
+|link3=/Road to MSI
+|name4=Rounds 3-5
+|link4=/Rounds 3-5
+|name5=Play-In
+|link5=/Play-In
+|name6=Playoffs
+|link6=/Playoffs
+|name7=Champion Stats
+|link7=/Statistics
+|name8=Player Stats
+|link8=/Player Stats
+|This=1}}
+{{Infobox league
+|name=LCK 2025 Season
+|shortname=2025 Season
+|tickername=LCK 2025
+|image=LCK 2021 full lightmode.png
+|imagedark=LCK 2021 full_darkmode.png
+|caption=FOR ONE LEGACY
+|series=LCK 
+|icon=LCK 2021 lightmode.png
+|icondark=LCK 2021 darkmode.png
+|organizer=Riot Games
+|organizer-link=https://www.riotgames.com/
+|sponsor=[https://www.wooribank.com/ Woori Bank]
+|sponsor2=[https://upbit.com/home UPbit]
+|sponsor3=[https://www.posco.co.kr/ POSCO]
+|sponsor4=[https://www.cass.co.kr/ Cass]
+|sponsor5=[https://www.lge.co.kr/ultragear LG UltraGear]
+|sponsor6=[https://www.inspireresorts.com/en/ INSPIRE]
+|sponsor7=[https://www.jw-pharma.co.kr/ JW Pharmaceutical]
+|sponsor8=[https://goldendew.com/ Golden Dew]
+|sponsor9=[https://www.logitechg.com/ Logitech G]
+|sponsor10=[https://www.sooplive.co.kr/ SOOP]
+|sponsor11=[https://secretlabchairs.co.kr/ Secretlab]
+|sponsor12=[https://www.cgv.co.kr/ CGV]
+|patch=25.6
+|epatch=25.17
+|type=Offline
+|country=Korea |city=Seoul |venue=LoL PARK
+|country2=Korea |city2=Suwon |venue2=Suwon Convention Center |venue2link=https://www.scc.or.kr/en/ |venue2desc=LCK ROADSHOW
+|country3=Korea |city3=Incheon |venue3=Inspire Arena |venue3link=https://www.inspireresorts.com/en/entertainment/inspire-arena/inspire-arena |venue3desc=T1 Home Ground, LB Final & Grand Final
+|format=
+|prizepool=562,500,000
+|localcurrency=krw
+|sdate=2025-04-02
+|edate=2025-09-28
+|liquipediatier=1
+|rulebook=https://cdn.sanity.io/files/dsfx7636/news/3e74c542dd1efc5c07529772e4b978ab83c99352.pdf
+|rulebook2=https://cdn.sanity.io/files/dsfx7636/news/1338513ffc643878aab72ac262b377a8c535675a.pdf
+|website=https://www.lck.co.kr
+|website2=https://lolesports.com/tournament/113503357263583149
+|afreeca=aflol
+|chzzk=9381e7d6816e6d915a44a13c0195b202
+|twitch=lck
+|twitter=lck
+|facebook=officiallck
+|tiktok=lck_official
+|instagram=lckofficial
+|youtube=@LCK
+|youtube2=@LCKglobal
+|soop=lckkr
+|team_number=10
+|previous=LCK/2024/Summer{{!}}Summer 2024
+|next=LCK/2026{{!}}2026 Season
+|previous2=LCK/2025/Cup{{!}}LCK Cup 2025
+|next2=LCK/2026/Cup{{!}}LCK Cup 2026
+}}
+
+==Format==
+* '''Rounds 1-2''' - ''April 2<sup>nd</sup> - June 1<sup>st</sup>, 2025''
+** Double round-robin
+** All matches are {{Abbr/Bo3}} using {{Abbr/Fearless Draft}}
+** {{bgcolortext|stayup|Top 6 teams}} qualify for [[/Road to MSI|Road to MSI]]
+* '''Rounds 3-5''' - ''July 23<sup>rd</sup> - August 31<sup>st</sup>, 2025''
+** 10 teams are split into two groups based on Round 1-2 standings
+*** Top 5 teams from round 1-2 are assigned to '''Legend Group'''
+*** Bottom 5 teams from round 1-2 are assigned to '''Rise Group'''
+** Triple round-robin
+** Records from Rounds 1-2 are carried over.
+** All matches are {{Abbr/Bo3}} using {{Abbr/Fearless Draft}}
+** {{bgcolortext|seedup|Top 2 teams}} from Legend Group advance to Playoffs Round 2
+** {{bgcolortext|up|{{Ordinal|3-4}} teams}} from Legend Group advance to Playoffs Round 1
+** {{bgcolortext|stayup|Bottom team}} from Legend Group and {{bgcolortext|stayup|top 3 teams}} from Rise Group advance to Play-In
+** {{bgcolortext|stay|Bottom two teams}} from Rise Group are eliminated
+* '''Play-In''' - ''September 3<sup>rd</sup> - 7<sup>th</sup>, 2025''
+** Double Elimination
+** Top two teams advance to Playoffs Round 1
+** All matches are {{Abbr/Bo5}} using {{Abbr/Fearless Draft}}
+* '''Playoffs''' - ''September 10<sup>th</sup> - 28<sup>th</sup>, 2025''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} using {{Abbr/Fearless Draft}}
+** Top 3 teams qualify for [[World Championship/2025|Worlds]]
+*** If [[Gen.G Esports]] (the MSI Champion) finishes in the top 3, the {{Ordinal|4}} place team qualifies for Worlds as the {{Ordinal|4}} seed of LCK
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=10|localcurrency=krw
+|qualifies1=World Championship/2025 |qualifies1name=Worlds
+|qualifies2=Asia Invitational/2025 |qualifies2name=ASI
+|tournament1=LCK/2025/Rounds 3-5 |groupElimStatuses=stay
+|tournament2=LCK/2025/Play-In
+|tournament3=LCK/2025/Playoffs
+|{{Slot|qualified1=yes|localprize=300,000,000}}
+|{{Slot|qualified1=yes|localprize=150,000,000}}
+|{{Slot|qualified1=yes|localprize=75,000,000}}
+|{{Slot|qualified1=yes|localprize=37,500,000}}
+|{{Slot|qualified2=yes}}
+|{{Slot|qualified2=yes}}
+|{{Slot|qualified2=yes}}
+}}
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|cutafter=10
+|{{Slot|award=Finals MVP |localprize=5,000,000 |date=2025-09-28 |{{Opponent|Ruler}}}}
+|{{Slot|award=Regular Round MVP |localprize=10,000,000 |date=2025-09-04 |{{Opponent|Chovy}}}}
+|{{Slot|award=Most Player of the Match |localprize=4,000,000 |date=2025-09-04 |{{Opponent|Chovy}}}}
+|{{Slot|award=Head Coach of the Year |localprize=3,000,000 |date=2025-09-04 |{{Opponent|Kim}}}}
+|{{Slot|award=Rookie of the Year |localprize=3,000,000 |date=2025-09-04 |{{Opponent|Diable}}}}
+|{{Slot|award=All-LCK 1st Team |localprize=4,000,000 |date=2025-09-04
+  |{{Opponent|Kiin}}
+  |{{Opponent|Canyon}}
+  |{{Opponent|Chovy}}
+  |{{Opponent|Ruler}}
+  |{{Opponent|Duro}}
+}}
+|{{Slot|award=All-LCK 2nd Team |date=2025-09-04
+  |{{Opponent|Doran}}
+  |{{Opponent|Oner}}
+  |{{Opponent|Bdd}}
+  |{{Opponent|Viper|link=Viper (Korean player)}}
+  |{{Opponent|Keria}}
+}}
+|{{Slot|award=All-LCK 3rd Team |date=2025-09-04
+  |{{Opponent|Zeus}}
+  |{{Opponent|Peanut}}
+  |{{Opponent|Faker}}
+  |{{Opponent|Gumayusi}}
+  |{{Opponent|Delight}}
+}}
+}}
+
+==Participating Teams==
+{{TeamCard columns start|playerinfo=true}}
+{{TeamCard
+|team=BRION
+|p1=Morgan
+|p2=Croco
+|p3=Clozer
+|p4=Hype |p4link=Hype (Byeon Jeong-hyeon) |p4team=kt
+|p5=Pollu
+
+|t2p1=HamBak |t2pos1=jgl
+|t2p2=Ellim |t2pos2=jgl
+|t2p3=Bull |t2pos3=bot
+
+|t3p1=Duke |t3pos1=head coach
+|t3p2=GuGer |t3pos2=coach
+|t3p3=Edgar |t3pos3=head coach |t3p3leave=true
+}}
+
+{{TeamCard
+|team=Dplus
+|p1=Siwoo
+|p2=Lucid
+|p3=ShowMaker
+|p4=Aiming
+|p5=BeryL
+
+|t2p1=Bengi |t2pos1=Head Coach
+|t2p2=PoohManDu |t2pos2=Coach
+|t2p3=cvMax |t2pos3=coach
+|t2p4=Hachani |t2pos4=Coach
+
+|t3p1= |t3pos1=
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=DRX
+|p1=Rich |p1link=Rich (Korean player)
+|p2=Sponge
+|p3=Kyeahoo
+|p4=Teddy
+|p5=Andil
+
+|t2p1=ucal |t2pos1=mid
+|t2p2=LazyFeel |t2pos2=bot
+|t2p3=Pleata |t2pos3=sup
+
+|t3p1=SSONG |t3pos1=head coach
+|t3p2=Alive |t3pos2=coach
+|t3p3=Saroo |t3pos3=coach
+}}
+
+{{TeamCard
+|team=FEARX
+|p1=Clear
+|p2=Raptor
+|p3=VicLa
+|p4=Diable
+|p5=Kellin
+
+|t2p1=Soboro |t2pos1=top
+|t2p2=Daystar |t2pos2=mid
+
+|t3p1=Ryu |t3pos1=head coach
+|t3p2=Joker |t3p2link=Joker (Cho Jae-eup) |t3pos2=coach
+}}
+
+{{TeamCard
+|team=Freecs
+|p1=DuDu
+|p2=Pyosik
+|p3=BuLLDoG
+|p4=Berserker |p4link=Berserker (Korean player)
+|p5=Life
+
+|t2p1=DDoiV |t2pos1=jgl
+|t2p2=Pungyeon |t2pos2=mid
+|t2p3=Quantum |t2pos3=sup |t2p3link=Quantum (Korean player)
+
+|t3p1=oDin |t3pos1=Head Coach
+|t3p2=RapidStar |t3pos2=Coach
+|t3p3=Cube |t3p3link=Cube (Korean player) |t3pos3=coach 
+|t3p4=Minit |t3pos4=Coach
+}}
+
+{{TeamCard
+|team=Gen.G Esports
+|p1=Kiin
+|p2=Canyon
+|p3=Chovy
+|p4=Ruler
+|p5=Duro
+
+|t2p1=Kim |t2pos1=head coach
+|t2p2=Helper |t2p2link=Helper (Korean player) |t2pos2=coach
+|t2p3=Lyn |t2pos3=coach
+
+|t3p1= |t3pos1=
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=Zeus
+|p2=Peanut
+|p3=Zeka
+|p4=Viper |p4link=Viper (Korean player)
+|p5=Delight
+
+|t2p1=DanDy |t2pos1=head coach
+|t2p2=Mowgli |t2pos2=coach
+|t2p3=Bibra |t2pos3=Analyst
+
+|t3p1= |t3pos1=
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=KT Rolster
+|p1=PerfecT
+|p2=Cuzz
+|p3=Bdd
+|p4=deokdam
+|p5=Peter |p5link=Peter (Korean player)
+
+|t2p1=Casting |t2pos1=top
+|t2p2=Paduck |t2pos2=bot
+
+|t3p1=Score |t3pos1=head coach
+|t3p2=Sonstar |t3pos2=coach
+|t3p3=Museong |t3pos3=coach
+}}
+
+{{TeamCard
+|team=Nongshim RedForce
+|p1=Kingen
+|p2=GIDEON
+|p3=Calix |p3link=Calix (Seon Hyeon-bin)
+|p4=Jiwoo
+|p5=Lehends
+
+|t2p1=Fisher |t2pos1=mid
+|t2p2=vital |t2pos2=bot
+
+|t3p1=Chelly |t3p1link=Chelly (Park Seung-jin) |t3pos1=head coach
+|t3p2=Crazy |t3pos2=coach
+|t3p3=SSUN |t3pos3=coach
+}}
+
+{{TeamCard
+|team=T1
+|p1=Doran
+|p2=Oner
+|p3=Faker
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Smash |t2pos1=bot
+
+|t3p1=kkOma |t3pos1=head coach
+|t3p2=Tom |t3pos2=coach
+|t3p3=Mata |t3pos3=coach
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Round 1-2===
+{{LPDB storage|false}}<!--
+-->{{box|start|padding=2em}}
+{{#section:LCK/2025/Rounds 1-2|Rounds1-2}}
+{{box|break|padding=2em}}
+{{#section:LCK/2025/Rounds 1-2|Legend}}
+{{box|end}}
+<br />
+<span style="line-height:24px">&nbsp;''[[/Rounds 1-2|Click here for detailed match results of '''Rounds 1-2''']]''</span>
+
+===Round 3-5===
+{{box|start|padding=2em}}
+{{#section:LCK/2025/Rounds 3-5|Legend}}
+{{box|break|padding=2em}}
+{{#section:LCK/2025/Rounds 3-5|Rise}}
+{{box|end}}<!--
+-->{{LPDB storage|true}}
+<br />
+<span style="line-height:24px">&nbsp;''[[/Rounds 3-5|Click here for detailed results of the '''Rounds 3-5''' matches]]''</span>
+
+===Play-In===
+{{ShowBracket|id=LCK2025PIB}}
+
+===Playoffs===
+{{ShowBracket|id=LCK2025POB}}
+
+==Broadcasts==
+===Streams===
+{{Streams 
+|lang1=kr |afreeca1=aflol |youtube1=LCK |chzzk1=9381e7d6816e6d915a44a13c0195b202 |soop1=lckkr
+|lang2=usuk |twitch2=lck |youtube2=LCKglobal
+|lang3=vn |youtube3=LCKTiếngViệt |facebook3=LCKTiengViet |tiktok3=@lcktiengviet/live |stream3=https://play.onlive.vn/lcktiengviet
+|lang4=tw |twitch4=LCK_Carry |youtube4=@LCKCarry |soop4=lckcarry
+|lang5=fr |twitch5=otplol_ |youtube5=@OTP_VODs
+|lang6=pl |twitch6=riotgamespl |youtube6=@LeagueofLegendsPoland
+|lang7=deat |twitch7=cast2de
+}}
+
+===Talent===
+{{Tabs dynamic
+|name1=Korean Broadcast
+|name2=English Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host |lang=kr
+|b1=Youn Soo-bin
+|b2=Bae Hye-ji
+|b3=Lee Eun-bin
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster |lang=kr
+|b1=Caster Jun
+|b2=SEONG K
+|b3=Dankun
+}}
+{{BroadcasterCard
+|position=Commentator |lang=kr
+|b1=CloudTemplar
+|b2=Ggoggo
+|b3=Pony
+|b4=Prince
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst |lang=kr
+|b1=Helios |b1link=Helios (Korean player)
+|b2=Ggoggo
+|b3=Pony
+|b4=Prince
+|b5=Rascal
+|b6=UmTi
+|b7=Kuro
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JonnaStrong
+}}
+{{box|end}}
+
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Caster |lang=en
+|b1=Atlus
+|b2=Valdes
+}}
+{{BroadcasterCard
+|position=Commentator |lang=en
+|b1=Chronicler
+|b2=proxywolf
+|b3=Aux
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Host |lang=en
+|b1=dGon |b1name=Daniel Gonzales
+}}
+{{BroadcasterCard
+|position=Analyst |lang=en
+|b1=Wadid
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=zeetwo
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Patch Information===
+<div class="table-responsive">
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60" rowspan="2"|
+! colspan="9" | Rounds 1 - 2
+|-
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+<!--
+! width="140"| Playoffs
+-->
+|-
+| Patch
+| [[Patch 25.6|25.6]]
+| colspan="2" | [[Patch 25.7|25.7]]
+| colspan="2" | [[Patch 25.8|25.8]]
+| colspan="2" | [[Patch 25.9|25.9]]
+| colspan="2" | [[Patch 25.10|25.10]]
+|-
+| Disabled
+| colspan="9" |
+|}
+</div>
+
+<div class="table-responsive">
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60" rowspan="2"|
+! colspan="2" | Round 3
+! colspan="2" | Round 4
+! colspan="2" | Round 5
+! rowspan="2" width="135"| Play-In
+! rowspan="2" width="135"| Playoffs
+|-
+! width="90"| Week 10
+! width="90"| Week 11
+! width="90"| Week 12
+! width="90"| Week 13
+! width="90"| Week 14
+! width="90"| Week 15
+|-
+| Patch
+| colspan="2" | [[Patch 25.14|25.14]]
+| colspan="2" | [[Patch 25.15|25.15]]
+| colspan="2" | [[Patch 25.16|25.16]]
+| colspan="2" | [[Patch 25.17|25.17]]
+|-
+| Disabled
+| {{ChampionIcon|yunara|size=30px}}
+| {{ChampionIcon|yunara|size=30px}}{{ChampionIcon|mel|size=30px}}
+| colspan="2" | {{ChampionIcon|mel|size=30px}}
+| colspan="2" |
+| colspan="2" |
+|}
+</div>
+
+===Pentakills===
+{{See also|LCK/2025/Player Stats#Pentakills|l1=Pentakills}}
+
+===Statistics===
+{{See also|LCK/2025/Statistics|l1=Champion Statistics}}
+<!--
+{{#lst:LCK/2025/Statistics|Champion Stats}}
+-->
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|tiers=1|limit=15|playerspage=LCK/2025|edate=2025-12-01}}
+:''See [[LoL_Champions_Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+
+{{2025 Season International Cycle Navbox}}

@@ -1,0 +1,232 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2013%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:17:19.169Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2013 Summer}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-10
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2013 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2013 Summer 
+|shortname=2013 Summer 
+|tickername=EU LCS 2013 Summer
+|image=EU LCS Logo.png
+|series=EU LCS
+|icon=EU LCS Logo.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|server=Europe
+|type=offline
+|country=Germany
+|city=Cologne
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo3}}) <br> Finals ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2013-06-15
+|edate=2013-08-25
+|liquipediatier=1
+|team_number=8
+|previous=LCS/Europe/Spring/2013{{!}}2013 Spring 
+|next=LCS/Europe/Spring/2014{{!}}2014 Spring 
+|previous2=LCS/Europe/2013/Summer/Promotion{{!}}Summer Promotion 
+|next2=LCS/Europe/2014/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''EU LCS 2013 Summer Split''' was the second split of the inaugural [[European League of Legends Championship Series]] (EU LCS), organized by Riot Games. The regular season was held offline in Berlin, Germany, from June 15 to August 11, 2013, followed by the Playoffs at Gamescom 2013 in Cologne, Germany, from August 23 to 25, 2013. Eight teams competed in a quadruple round-robin format, with the top six advancing to the Playoffs. The top three teams qualified for the [[Worlds 2013|Season 3 World Championship]], while the bottom three (6th–8th place) were sent to the [[LCS/Europe/2014/Spring/Promotion|2014 Spring Promotion]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool |cutafter=8
+|qualifies1=World Championship/2013
+|qualifies2=LCS/Europe/2014/Spring|qualifies2name=Spring
+|qualifies3=LCS/Europe/2014/Spring/Promotion|qualifies3name=Promotion
+|qualifies4=Battle_of_the_Atlantic|qualifies4name=Battle of the Atlantic
+|tournament1=LCS/Europe/2013/Summer/Playoffs#5th Place |stage1importWinners=true
+|tournament2=LCS/Europe/2013/Summer/Playoffs#Playoffs |stage2importLimit=4
+|{{Slot |place=1|qualified2=yes |qualified4=yes |qualified1=yes |usdprize=50,000}}
+|{{Slot |place=2|qualified2=yes |qualified4=yes|qualified1=yes |usdprize=25,000}}
+|{{Slot |place=3|qualified2=yes |qualified4=yes|qualified1=yes |usdprize=15,000}}
+|{{Slot |place=4|qualified2=yes |qualified4=yes|usdprize=10,000}}
+|{{Slot |place=5|qualified2=yes|qualified4=yes}}
+|{{Slot |place=6|qualified3=yes}}
+|{{Slot |place=7 |qualified3=yes |{{Opponent|sk gaming |wdl=13/15 |date=2013-08-17}}}}
+|{{Slot |place=8 |qualified3=yes |{{Opponent|meetyourmakers |wdl=8/20 |date=2013-08-17}}}}
+}}
+
+==Participants==
+{{TeamCardToggleButton|playerinfo=true}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Wickd|p1flag=dk
+|p2=Snoopeh|p2flag=uk
+|p3=Froggen|p3flag=dk
+|p4=yellowpete|p4flag=de
+|p5=Krepo|p5flag=be
+|t2p1=Shacker|t2p1flag=uk|t2pos1=jg
+|c=|cflag=
+|qualifier=[[LCS/Europe/Spring/2013|Spring 2013]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ|p1flag=
+|p2=Cyanide|p2flag=fi
+|p3=xPeke|p3flag=es
+|p4=puszu|p4flag=ee
+|p5=YellOwStaR
+
+|t2p1=nRated|t2p1flag=de|t2pos1=support
+|c=|cflag=
+|qualifier=[[LCS/Europe/Spring/2013|Spring 2013]]
+}}
+{{TeamCard
+|team=Gambit Gaming
+|p1=Darien|p1flag=ru
+|p2=Diamondprox|p2flag=ru
+|p3=Alex Ich|p3flag=ru
+|p4=Genja|p4flag=ru
+|p5=D4rker|p5flag=ru
+
+|t2p1=Spontexx|t2p1flag=fr|t2pos1=top
+|t2p2=Voidle|t2p2flag=ee|t2pos2=support
+|qualifier=[[LCS/Europe/Spring/2013|Spring 2013]]
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=Kev1n|p1flag=de
+|p2=hyrqBot|p2flag=fr
+|p3=ocelote|p3flag=es
+|p4=CandyPanda|p4flag=de
+|p5=Nyph|p5flag=de
+|c=|cflag=
+|qualifier=[[LCS/Europe/Spring/2013|Spring 2013]]
+}}
+{{TeamCard
+|team=ALTERNATE aTTaX
+|image=Alternate.png
+|p1=Kerp|p1flag=de
+|p2=Araneae|p2flag=es
+|p3=ForellenLord|p3flag=de
+|p4=Creaton|p4flag=pl
+|p5=Jree|p5flag=se
+
+|t2p1=WhiteKnight108|t2p1flag=fi|t2pos1=adc
+|c=|cflag=
+|qualifier=[[LCS/Europe/Summer/2013/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=Lemondogs
+|p1=Zorozero|p1flag=dk
+|p2=dexter1|p2flag=de
+|p3=Nukeduck|p3flag=no
+|p4=Tabzz|p4flag=nl
+|p5=wewillfailer|p5flag=be
+|t2p1=Mithy|t2p1flag=es|t2pos1=Support
+|c=|cflag=
+|qualifier=[[LCS/Europe/Summer/2013/Promotion|Summer Promotion]]
+|inotes={{NoteBig
+|n1={{Team|lemondogs}} acquires the spot of {{Team|Sinners Never Sleep}} 
+}}
+}}
+{{TeamCard
+|team=Meet Your Makers
+|image=MYM_logo.png
+|p1=Kubon|p1flag=pl
+|p2=Mokatte|p2flag=pl
+|p3=Czaru|p3flag=pl
+|p4=Makler|p4flag=pl
+|p5=Libik|p5flag=pl
+|c=|cflag=
+|qualifier=[[LCS/Europe/Summer/2013/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=Ninjas in Pyjamas
+|p1=Mimer|p1flag=se
+|p2=Malunoo|p2flag=se
+|p3=Bjergsen|p3flag=dk
+|p4=Freeze|p4flag=cz
+|p5=Deficio|p5flag=dk
+
+|t2p1=extinkt|t2p1flag=lt|t2pos1=top
+|t2p2=Godbro|t2p2flag=dk|t2pos2=top
+|t2p3=Svenskeren|t2p3flag=dk|t2pos3=jg
+|t2p4=TheTess|t2p4flag=dk|t2pos4=top
+|c=|cflag=
+|qualifier=[[LCS/Europe/Summer/2013/Promotion|Summer Promotion]]
+|inotes={{NoteBig
+|n1={{Team|nip}} acquires the spot of {{Team|copenhagen wolves}} 
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start|padding=2em}}
+{{#lst:LCS/Europe/2013/Summer/Group_Stage|Group Stage}}
+<br/>
+{{box|break|padding=2em}}
+{{#lst:LCS/Europe/2013/Summer/Group_Stage|CrossTable}}
+{{box|end}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2013/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=0444PLCGGZ}}
+{{ShowBracket|id=ZXjRlo0kYC}}
+
+==Format==
+* '''Group Stage'''
+:* Each team plays all other teams 4 times
+:* Each team plays 28 matches
+:* All Matches are {{Abbr/Bo1}}
+:** 1st to 6th place will play the playoffs
+:** 1st and 2nd receive playoff byes into the semifinals
+:* 7th and 8th place will play the [[LCS/Europe/2014/Spring/Promotion|Promotion]]
+* '''Playoffs'''
+:* Single Elimination 
+:** Matches are {{Abbr/Bo3}} 
+:** Final is {{Abbr/Bo5}}
+:* Top 5 qualifies for [[Battle_Of_The_Atlantic/2013|Battle of the Atlantic 2013]]
+:* Top 3 qualifies for [[World_Championship/2013|Season 3 World Championship]]
+
+==Broadcast==
+===Streams===
+
+===Talent===
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Deman|b1name=Leigh Smith|b1flag=us
+|b2=qu1ksh0t|b2name=Trevor Henry|b2flag=za
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=Joe Miller|b1name=Daniel Drakos|b1flag=uk
+|b2=Jason Kaplan|b2name=Jason Kaplan|b2flag=us
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2013/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2013/Summer|edate=2013-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

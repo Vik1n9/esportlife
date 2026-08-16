@@ -1,0 +1,430 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2017&redirects=1
+<!-- 抓取: 2026-08-16T18:38:22.882Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2017 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=Mid-Season_Invitational/2017
+|name2=Play-In
+|link2=Mid-Season_Invitational/2017/Play-In
+|name3=Group Stage
+|link3=Mid-Season_Invitational/2017/Group_Stage
+|name4=Knockout Stage
+|link4=Mid-Season_Invitational/2017/Knockout_Stage
+|name5=Statistics
+|link5=Mid-Season_Invitational/2017/Statistics
+|This=1}}
+{{Infobox league
+|name=2017 Mid-Season Invitational
+|shortname=MSI 2017
+|image=MSI 2017 Logo.png
+|series=MSI
+|icon=Msilogo_small.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=7.8
+|sponsor=[https://www.acer.com/ Acer]
+|server=Brazil
+|type=Offline
+|country=Brazil
+|country2=Brazil
+|city=São Paulo
+|city2=Rio de Janeiro
+|venue=Riot Games Brazil Studio
+|venue2=Jeunesse Arena
+|format=
+|prizepoolusd=1,690,000
+|sdate=2017-04-28
+|edate=2017-05-21
+|liquipediatier=1
+|highlighted=true
+|website=https://nexus.leagueoflegends.com/en-us/esports/
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=LoLChampSeries
+|team_number=13
+|previous=Mid-Season Invitational/2016{{!}}2016
+|next=Mid-Season Invitational/2018{{!}}2018
+}}
+
+==Format==
+* '''Play In'''
+** Round 1
+*** Two groups of 4 teams.
+*** Double Round Robin {{Abbr/Bo1}} .
+*** Winner of each group advances to Round 2.
+** Round 2
+*** Two teams from Play In: Round 1 and two seeded teams from North America and Taiwan.
+*** All matches are {{Abbr/Bo5}}
+*** Winners qualifies for Group Stage.
+** Round 3
+*** Two losing teams from Play In: Round 2
+*** All matches are {{Abbr/Bo5}}
+*** Winner qualifies for Group Stage.
+* '''Group Stage'''
+** Three teams from Play In and seeded teams from China, Europe and Korea.
+** Six teams Double Round Robin {{Abbr/Bo1}}.
+** Top four teams advance to Knockout Stage
+* '''Knockout Stage'''
+** Four teams Single Elimination
+** All matches are {{Abbr/Bo5}}
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Korean
+|This=1
+}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash
+|b2=Drakos
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Sjokz
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Froskurinn
+|b2=MarkZ
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=CaptainFlowers
+|b2=Fish |b2name=Matthew Stewart |b2flag=au
+|b3=Pastrytime
+|b4=Phreak
+|b5=PiraTechnics |b5name=Devin Younge |b5flag=us
+|b6=Riv
+|b7=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Deficio
+|b3=Jatt
+|b4=Kobe
+|b5=Krepo
+|b6=PapaSmithy
+|b7=Rusty
+|b8=Stress |b8name=James O'Leary |b8flag=uk
+|b9=Vedius
+|b10=Zirene
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Caster
+|b1=Caster Jun
+|b2=SEONG K
+|b3=Lee Ki-min
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Commentator
+|b1=Kim Dong-joon|b1flag=kr
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+|b3=Bitdory
+|b4=KangQui
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Translator
+|b1=채동희|b1name=Chae Dong-hee|b1flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+The base prize pool of the tournament was $250,000 {{Abbr/USD}}.
+<br /> 25% of the total sales from the Conqueror Karma and the Conqueror ward skin will contribute the MSI 2017 prize pool from April 24-May 24.
+<br /> Guaranteed to be at least $750,000 from the Conqueror Karma and Conqueror ward skin, for a total prize pool of at least $1,000,000.    
+
+{{TeamPrizePool|cutafter=6|percentage1=1
+|tournament1=Mid-Season Invitational/2017/Play-In#Group Stage|tournament2=Mid-Season Invitational/2017/Play-In#Play-In Knockout
+|tournament3=Mid-Season Invitational/2017/Group Stage|tournament4=Mid-Season Invitational/2017/Knockout Stage
+|{{Slot|percentage1=40}}
+|{{Slot|percentage1=20}}
+|{{Slot|count=2|percentage1=10}}
+|{{Slot|percentage1=5}}
+|{{Slot|percentage1=5}}
+|{{Slot|percentage1=2.5%}}
+|{{Slot|count=2|percentage1=1.5%}}
+|{{Slot|count=2|percentage1=1.25%}}
+|{{Slot|count=2|percentage1=1%}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=MVP|{{Opponent|Wolf |link=Wolf (Korean player)|flag=kr}}}}
+}}<br>
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=Mid-Season Invitational/2017/Play-In
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=Mid-Season Invitational/2017/Group Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=Mid-Season Invitational/2017/Knockout Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Group Stage Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=G2 Esports
+|p1=Expect
+|p2=Trick
+|p3=Perkz
+|p4=Zven
+|p5=mithy
+
+|t2p1=Upset |t2pos1=adc |t2p1dnp=true
+
+|t3p1=YoungBuck |t3p1flag=nl |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/Spring/2017|EU LCS Spring]]
+
+|placement=5
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2016|date=2016-05-15}} '''(2016)'''
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Huni
+|p2=Peanut
+|p3=Faker |p3wins=1
+|p4=Bang |p4wins=1
+|p5=Wolf |p5link=Wolf (Korean player) |p5wins=1
+
+|t2p1=Blank |t2pos1=jng |t2p1dnp=true |t2p1wins=1
+
+|t3p1=cCarter |t3p1flag=kr |t3pos1=Head Coach |t3p1winsc=1
+|t3p2=kkOma |t3p2flag=kr |t3pos2=Coach |t3p2winsc=1
+|t3p3=RapidStar |t3p3flag=kr |t3pos3=Coach
+|qualifier=[[LCK/Spring/2017|LCK Spring]]
+
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2016|date=2016-05-15}} '''(2016)'''
+}}
+{{TeamCard
+|team=Team WE
+|p1=957
+|p2=Condi
+|p3=Xiye
+|p4=Mystic
+|p5=Ben
+
+|t2p1=Zero |t2p1link=Zero (Korean player) |t2pos1=sup
+
+|t3p1=Homme |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LPL/Spring/2017|LPL Spring]]
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Dire Wolves
+|p1=Chippys
+|p2=Shernfire
+|p3=Phantiks
+|p4=k1ng
+|p5=Destiny |p5link=Destiny (Australian player)
+
+|t2p1=Sharp |t2p1flag=au |t2p1link=Sharp (Australian player) |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[OPL/2017/Split_1|OPL Split 1]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=MMD
+|p2=Karsa
+|p3=Maple |p3link=Maple (Taiwanese player)
+|p4=Betty
+|p5=SwordArT
+
+|t2p1=Steak |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/2017/Spring|LMS Spring]]
+
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2016|date=2016-05-15}} '''(2016)'''
+}}
+{{TeamCard
+|team=GIGABYTE Marines
+|p1=Stark |p1link=Stark (Vietnamese player)
+|p2=Levi
+|p3=Optimus
+|p4=Slay
+|p5=Archie |p5link=Archie (Vietnamese player)
+
+|t2p1=Tinikun |t2p1flag=vn |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[GPL/2017/Spring|GPL Spring]]
+}}
+{{TeamCard
+|team=Isurus Gaming
+|p1=Pride |p1link=Pride (Chilean player)
+|p2=QQmore
+|p3=Emp
+|p4=Kindless
+|p5=Newbie
+
+|t2p1=Ukkyr |t2p1flag=ar |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[CLS/2017/Opening|CLS Opening]]
+}}
+{{TeamCard
+|team=Lyon Gaming
+|image=Lyon Gaming allmode.png
+|p1=Jirall
+|p2=Oddie
+|p3=Seiya
+|p4=WhiteLotus|
+|p5=Genthix
+
+|t2p1=Yeti |t2p1flag=me |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LLN/2017/Opening|LLN Opening]]
+}}
+{{TeamCard
+|team=Rampage
+|p1=Evi
+|p2=Tussle
+|p3=Ramune
+|p4=YutoriMoyasi
+|p5=Dara
+
+|t2p1=34 |t2p1flag=kr |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LJL/2017/Spring|LJL Spring]]
+}}
+{{TeamCard
+|team=RED Canids
+|p1=Robo
+|p2=Nappon
+|p3=tockers
+|p4=brTT
+|p5=Dioud
+
+|t2p1=YoDa |t2p1flag=br |t2pos1=mid
+
+|t3p1=Brokenshard |t3p1flag=is |t3pos1=Head Coach
+|qualifier=[[CBLOL/2017/Summer|CBLOL Summer]]
+}}
+{{TeamCard
+|team=SuperMassive eSports
+|p1=fabFabulous
+|p2=Stomaged
+|p3=Naru
+|p4=Zeitnot
+|p5=Dumbledoge
+
+|t2p1=Exorant |t2p1flag=ro |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[TCL/2017/Winter|TCL Winter]]
+
+|placement=6
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2016|date=2016-05-15}} '''(2016)'''
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Hauntzer
+|p2=Svenskeren
+|p3=Bjergsen
+|p4=WildTurtle
+|p5=Biofrost
+
+|t2p1=Parth |t2p1flag=us |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2017/Spring|NA LCS Spring]]
+
+|placement=5
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2015|date=2015-05-10}} '''(2015)'''
+}}
+{{TeamCard
+|team=Virtus.pro
+|p1=Doxy
+|p2=Kreox
+|p3=Paranoia
+|p4=Blasting
+|p5=SaNTaS
+
+|t2p1=Moo |t2p1flag=ru |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCL/2017/Spring|LCL Spring]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Play-In Group Stage===
+{{box|start}}
+{{box|start|padding=2em}}
+{{#section:Mid-Season_Invitational/2017/Play-In|Play-In_Group_A}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2017/Play-In|Play-In_Group_B}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2017/Play-In|Click here for more information about the '''''Play-In Group Stage''''' matches.]]''</span>
+
+===Play-In Knockout Stage===
+{{ShowBracket|id=iy1oOwU7vc}}
+
+===Group Stage===
+{{#section:Mid-Season_Invitational/2017/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season Invitational/2017/Group Stage|Click here for detailed results of the '''''Group Stage''''' matches]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=E6T0NS82EA}}
+
+==Additional Data==
+
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2017/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==External links==
+*{{ExternalMediaLink
+|date=2017-04-24
+|link=http://na.leagueoflegends.com/en/page/msi-2017-hits-rift
+|mediatype=announcement
+|title=MSI HITS THE RIFT
+|by=Riot Games
+|of=
+|language=usuk
+|translation=
+|translator=
+}}
+*{{ExternalMediaLink
+|date=2017-04-25
+|link=http://na.leagueoflegends.com/en/page/battle-begins-meet-teams-msi-2017
+|mediatype=article
+|title=THE BATTLE BEGINS
+|by=Riot Games
+|of=
+|language=usuk
+|translation=
+|translator=
+}}
+
+==References==
+{{Reflist}}

@@ -18,10 +18,11 @@ S24 拆四站（S24a–d，附錄 #74，版號不升），庚組 8→11 站；v4
 打磨，無後續站依賴，不進表，詳見 CHANGELOG）。
 
 > **現況**（2026-08-17）：主線 S01–S22 共 39 站全部完成；庚組 S23（§23 細部定案，
-> v4.6.0）與 S24a（探勘與管線）完成，S24b–S30 與辛組 S31–S36 規格已定案、
-> 施工未開始；壬組 S37–S42 全部完工，其後另有 S42b／S43／S44 線性 UI 打磨
-> （不進表，見 CHANGELOG）與 **S45 alpha 內測完整版組裝（v4.6.6）** 完成。站數與
-> 完成度以本檔狀態表與 `next-station.mjs` 的輸出為準（`node docs/v4/next-station.mjs`）。
+> v4.6.0）與 S24a／S24b／S24c（探勘與管線／台港澳目錄／國際目錄）完成，
+> S24d–S30 與辛組 S31–S36 規格已定案、施工未開始；壬組 S37–S42 全部完工，其後
+> 另有 S42b／S43／S44 線性 UI 打磨（不進表，見 CHANGELOG）與 **S45 alpha 內測
+> 完整版組裝（v4.6.6）** 完成。站數與完成度以本檔狀態表與 `next-station.mjs`
+> 的輸出為準（`node docs/v4/next-station.mjs`）。
 >
 > 🔗 **線上入口**：demo <https://vik1n9.github.io/esportlife/>（PRO 起點三年期程）·
 > **alpha 內測** <https://vik1n9.github.io/esportlife/alpha/>（AMATEUR 完整生涯）
@@ -340,7 +341,7 @@ S21／S22 完成前整組封鎖。範圍定案見規格 §23：一次到位（�
 | [S23](23-NPC規格增訂.md) | **NPC 規格增訂**（§23 細部定案） | ✅ 完成 | S21 S22 | 高 | Opus 5 |
 | [S24a](24a-探勘與管線.md) | **探勘與管線**（完整探勘＋`crawl.mjs` 基建＋文件同步） | ✅ 完成 | S23 | 中 | Sonnet 5 |
 | [S24b](24b-台港澳目錄與raw.md) | **台港澳目錄與 raw**（team_history＋清單＋台港澳全量） | ✅ 完成 | S24a | 中 | Sonnet 5 |
-| [S24c](24c-國際目錄.md) | **國際目錄**（Worlds/MSI 枚舉＋國際清單） | 未開始 | S24a | 中 | Sonnet 5 |
+| [S24c](24c-國際目錄.md) | **國際目錄**（Worlds/MSI 枚舉＋國際清單） | ✅ 完成 | S24a | 中 | Sonnet 5 |
 | [S24d](24d-國際raw.md) | **國際 raw**（國際抓取全量） | 未開始 | S24c | 中 | Sonnet 5 |
 | [S25](25-資料清洗.md) | **資料清洗**（欄位解析＋實體對齊） | 未開始 | S24d | 中 | Sonnet 5 |
 | [S26](26-母體百分位.md) | **母體百分位**（§14.3 回歸） | 未開始 | S23 S25 | 中 | Sonnet 5 |

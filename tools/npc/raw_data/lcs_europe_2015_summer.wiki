@@ -1,0 +1,376 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2015%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:17:38.205Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2015 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-10
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-10
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2015 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2015 Summer 
+|shortname=2015 Summer 
+|tickername=EU LCS 2015 Summer
+|image=EU LCS 2015.png
+|series=EU LCS
+|icon=EU LCS 2015.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=5.9
+|epatch=5.14
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Sweden
+|city=Berlin
+|city2=Stockholm
+|venue=EU LCS Studio
+|venue2=Hovet Arena
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2015-05-28
+|edate=2015-08-23
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|twitch=eulcs1
+|twitch2=eulcs2
+|team_number=10
+|previous=LCS/Europe/2015/Spring{{!}}2015 Spring 
+|next=LCS/Europe/2016/Spring{{!}}2016 Spring 
+|previous2=LCS/Europe/2015/Summer/Promotion{{!}}Summer Promotion
+|next2=LCS/Europe/2016/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''EU LCS 2015 Summer Split''' was the sixth split of the [[European League of Legends Championship Series]] (EU LCS), organized by Riot Games. The regular season took place from May 28 to August 23, 2015, with matches held at the EU LCS Studio in Berlin, while the Playoffs concluded at Hovet Arena in Stockholm, Sweden. Ten teams competed in a Double Round-Robin Best-of-One format, with the top six advancing to the Single Elimination Best-of-Five Playoffs. The split featured a $100,000 USD prize pool, and the champion earned a direct qualification to the [[Worlds 2015|2015 World Championship]], while the eight and ninth place were sent to the [[LCS/Europe/2016/Spring/Promotion|Spring Promotion Tournament]] and last place is relegated to [[Challenger Series/Europe/2016/Spring|Challenger Series]].
+
+Between the Spring and Summer splits there were several roster and lineup moves and promotion/relegation matches that reshaped the Summer field. [[Origen]] secured an EU LCS spot by winning the [[Challenger Series/Europe/2015/Spring|Challenger Series]] and joined the league as a new organization built around [[xPeke]]. The Summer Promotion featured [[Giants Gaming]] vs [[Reason Gaming]] and [[Team ROCCAT]] vs [[Copenhagen Wolves Academy]]; Giants defeated Reason and ROCCAT swept Copenhagen Wolves Academy to join/retain their LCS positions for Summer.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=eulcs2015|cutafter=10
+|tournament1=LCS/Europe/2015/Summer/Group Stage |groupElimStatuses=down,staydown,stay
+|tournament2=LCS/Europe/2015/Summer/Playoffs
+|qualifies1=World Championship/2015 |qualifies1name=Worlds
+|qualifies2=LCS/Europe/2016/Spring/Promotion |qualifies2name=Promotion
+|qualifies3=CS/Europe/2016/Spring |qualifies3name=Challenger Series
+|{{Slot |place=1 |qualified1=yes |usdprize=50,000}}
+|{{Slot |place=2 |points=90 |usdprize=25,000}}
+|{{Slot |place=3 |points=70 |usdprize=15,000}}
+|{{Slot |place=4 |points=40 |usdprize=10,000}}
+|{{Slot |place=5-6 |points=20}}
+|{{Slot |place=7}}
+|{{Slot |place=8 |qualified2=yes}}
+|{{Slot |place=9 |qualified2=yes}}
+|{{Slot |place=10 |qualified3=yes}}
+}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false}}
+{{prize pool slot award|award=MVP |YellOwStaR |flag1=fr |team1=fnc |date=2015-08-24}}
+{{prize pool slot award|award=Rookie of the Split |Niels |flag1=dk |team1=origen |date=2015-08-13}}
+{{prize pool slot award|award=Coach of the Split |Deilor |flag1=es |team1=fnc |date=2015-08-05}}
+{{prize pool slot award|award=All-Pro Team |date=2015-08-22
+|Huni |flag1=kr |team1=fnc
+|Reignover |flag2=kr |team2=fnc
+|Febiven |flag3=nl |team3=fnc
+|Rekkles |flag4=se |team4=fnc
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=6|margin=false|tier=weekly|opentext=Weeks 2 to 9 - MVPs and OP 5}}
+{{prize pool slot award|award=MVP - Week 1 |date=2015-05-29
+|Niels |flag1=dk |team1=origen
+}}
+{{prize pool slot award|award=OP 5 - Week 1 |date=2015-05-29
+|Adryh |flag1=es |team1=giants
+|Niels |flag2=dk |team2=origen
+|Mithy |flag3=es |team3=origen
+|Reignover |flag4=kr |team4=fnc
+|PowerOfEvil |flag5=de |team5=uol
+}}
+{{prize pool slot award|award=MVP - Week 2 |date=2015-06-05
+|Werlyb |flag1=es |team1=giants
+}}
+{{prize pool slot award|award=OP 5 - Week 2 |date=2015-06-05
+|Niels |flag1=dk |team1=origen
+|Mithy |flag2=es |team2=origen
+|Werlyb |flag3=es |team3=giants
+|PePiiNeRO |flag4=es |team4=giants
+|Odoamne |flag5=ro |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 3 |date=2015-06-12
+|Ryu |flag1=kr |team1=h2k
+}}
+{{prize pool slot award|award=OP 5 - Week 3 |date=2015-06-12
+|Huni |flag1=kr |team1=fnc
+|Reignover |flag2=kr |team2=fnc
+|Jankos |flag3=pl |team3=roccat
+|Cabochard |flag4=fr |team4=gambit gaming
+|Hjärnan |flag5=se |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 4 |date=2015-06-19
+|kaSing |flag1=uk |team1=h2k
+}}
+{{prize pool slot award|award=OP 5 - Week 4  |date=2015-06-19
+|Svenskeren |flag1=dk |team1=sk
+|fredy122 |flag2=uk |team2=sk
+|Huni |flag3=kr |team3=fnc
+|YellOwStaR |flag4=fr |team4=fnc
+|kaSing |flag5=uk |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 5 |date=2015-06-26
+|Febiven |flag1=nl |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 5 |date=2015-06-26
+|Jankos |flag1=pl |team1=roccat
+|Steve |flag2=fr |team2=roccat
+|xPeke |flag3=es |team3=origen
+|Betsy |flag4=se |team4=gambit gaming
+|Ryu |flag5=kr |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 6 |date=2015-07-03
+|Rekkles |flag1=se |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 6 |date=2015-07-03
+|PePiiNeRO |flag1=es |team1=giants
+|Hjärnan |flag2=se |team2=h2k
+|Betsy |flag3=se |team3=gambit gaming
+|Cabochard |flag4=fr |team4=vitality
+|Hylissang |flag5=bg |team5=uol
+}}
+{{prize pool slot award|award=MVP - Week 7 |date=2015-07-10
+|YellOwStaR |flag1=fr |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 7 |date=2015-07-10
+|PowerOfEvil |flag1=de |team1=uol
+|Rekkles |flag2=se |team2=fnc
+|Febiven |flag3=nl |team3=fnc
+|dexter |flag4=de |team4=elements
+|Kikis |flag5=pl |team5=uol
+}}
+{{prize pool slot award|award=MVP - Week 8 |date=2015-07-17
+|Huni |flag1=kr |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 8 |date=2015-07-17
+|nukeduck |flag1=no |team1=roccat
+|Freeze |flag2=cz |team2=copenhagen wolves
+|nRated |flag3=de |team3=sk gaming
+|Froggen |flag4=dk |team4=elements
+|PowerOfEvil |flag5=de |team5=uol
+}}
+{{prize pool slot award|award=MVP - Week 9 |date=2015-07-24
+|Deilor |flag1=es |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 9 |date=2015-07-24
+|Huni |flag1=kr |team1=fnc
+|Reignover |flag2=kr |team2=fnc
+|Febiven |flag3=nl |team3=fnc
+|Rekkles |flag4=se |team4=fnc
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{Prize pool end noprize}}
+
+{{box|end|padding=2em}}
+
+==Participants==
+{{TeamCardToggleButton|playerinfo=true}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Copenhagen Wolves
+|image=Copenhagen_Wolves.png
+|p1=Lenny
+|p2=Shook
+|p3=Soren
+|p4=Freeze
+|p5=Je suis Kaas
+
+|t2p1=YoungBuck |t2pos1=top
+|t2p2=Airwaks |t2pos2=jng
+|t2p3=Unlimited	|t2pos3=sup
+
+|t3p1=Dentist |t3p1flag=de |t3pos1=Head Coach
+|t3p2=Duffman |t3pos2=Analyst
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=Elements
+|p1=Jwaow
+|p2=Dexter
+|p3=Froggen
+|p4=Tabzz
+|p5=Nyph
+
+|t2p1=promisQ |t2pos1=sup
+
+|t3p1=Mart |t3p1flag=dk |t3pos1=Coach
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Huni
+|p2=Reignover
+|p3=Febiven
+|p4=Rekkles
+|p5=YellOwStaR
+
+|t2p1=Deilor |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=Gambit Gaming
+|p1=Cabochard
+|p2=Diamondprox
+|p3=Betsy
+|p4=FORG1VEN
+|p5=Gosu Pepper
+
+|t2p1=Moopz |t2pos1=bot
+
+|t3p1=Shaunz |t3p1flag=fr |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=H2K
+|p1=Odoamne
+|p2=loulex
+|p3=Ryu
+|p4=Hjarnan
+|p5=kaSing
+
+|t2p1=Pr0lly |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=fredy122
+|p2=Svenskeren
+|p3=Fox
+|p4=CandyPanda
+|p5=nRated
+
+|t2p1=Material Boy |t2p1flag=de	|t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=Unicorns of Love
+|p1=Vizicsacsi
+|p2=H0R0
+|p3=PowerOfEvil
+|p4=Vardags
+|p5=Hylissang
+
+|t2p1=Kikis |t2pos1=jng
+|t2p2=Gilius |t2pos2=jng
+
+|t3p1=Sheepy |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/Spring/2015|Spring]]
+}}
+{{TeamCard
+|team=Origen
+|p1=sOAZ
+|p2=Amazing |p2link=Amazing (German player)
+|p3=xPeke
+|p4=Niels
+|p5=Mithy
+
+|t2p1=LeDuck |t2p1flag=de |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[CS/Europe/Spring/2015|Challenger Series]]
+}}
+{{TeamCard
+|team=Giants Gaming
+|p1=Werlyb
+|p2=Fr3deric
+|p3=PePiiNeRO
+|p4=Adryh
+|p5=G0DFRED
+
+|t2p1=Lozark |t2p1flag=es |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|p1=Steve |p1link=Steve (French player)
+|p2=Jankos
+|p3=nukeduck
+|p4=MrRalleZ
+|p5=VandeR
+
+|t2p1=Woolite |t2pos1=bot
+
+|t3p1=YamatoCannon |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/2015/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2015/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=NCPS7VIESI}}
+
+==Format==
+* Group Stage
+** Double Round Robin
+**All matches are {{Abbr/Bo1}}
+**Top 6 advance to playoffs
+**Top 2 receive playoffs byes into the semifinals
+*Playoffs
+** Single Elimination {{Abbr/Bo5}} 
+* Winner Qualifies for [[World_Championship/2015|2015 World Championship]]
+
+==Braodcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1 |2twitch1=eulcs2 |youtube1=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang2=de |twitch2=summonersinnlive
+|lang3=es |twitch3=lvpes
+|lang4=fr |twitch4=ogaminglol |2twitch4=eclypsiatvlol
+|lang5=hu |twitch5=magyarloltv
+|lang6=pl |twitch6=nervarien |2twitch6=teamfrenzygg
+}}
+
+===Talent===
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=
+|b2=
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=
+|b2=
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2015/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}

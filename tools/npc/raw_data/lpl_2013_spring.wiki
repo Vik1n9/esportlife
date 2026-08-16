@@ -1,0 +1,217 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2013%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:39:40.217Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2013 Spring}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-11-18
+}}
+{{Tencent Games Navbox}}
+{{LPL 2013 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2013 Spring 
+|shortname=2013 Spring 
+|tickername=LPL 2013 Spring
+|series=LPL
+|image=Old_LPL_Logo.png
+|icon=Old LPL Logo.png
+|organizer-link=http://game.qq.com/index.shtml |organizer=Tencent Games
+|organizer2=Riot Games|organizer2-link=https://www.riotgames.com/en
+|sponsor=
+|patch=
+|epatch=
+|server=China
+|type=Offline
+|country=China
+|city=Shanghai 
+|venue=
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo3}}/{{Abbr/Bo5}})
+|prizepoolusd=
+|localcurrency=cny
+|prizepool=1,450,000
+|date=
+|sdate=2013-03-16
+|edate=2013-06-23
+|liquipediatier=1
+|highlighted=|website=
+|stream=
+|twitch=
+|twitch2=
+|teamfirst=omg
+|teamsecond=positive energy
+|teamthird=invictus gaming
+|teamfourth=we
+|team_number=8
+|next=LPL/2013/Summer{{!}}LPL Summer 2013
+|previous=Tencent_Games_Arena/City_Hero_Tournament/Season_3{{!}}TGA City Hero Season 3
+|next2=Tencent_Games_Arena/City_Hero_Tournament/Season_4{{!}}TGA City Hero Season 4
+|previous2=LPL/2013/Spring/Qualifier{{!}}Spring Qualifier
+}}
+The '''LPL 2013 Spring''' was the first split of the [[LoL Pro League]] (''LPL'') season, organized by Tencent Games and Riot Games from 16 March to 23 June 2013 in Shanghai. Eight teams competed in a Quadruple Round Robin {{Abbr/Bo1}} Group Stage followed by a Single Elimination Playoffs bracket. Two teams—[[Royal Club]] and [[Team WE]]—entered through the [[Tencent_Games_Arena/City_Hero_Tournament/Season_3|TGA City Hero Tournament]], while the remaining six qualified via the [[LPL/2013/Spring/Qualifier|LPL 2013 Spring Qualifier]]: [[Invictus Gaming]], [[Oh My God]], [[Positive Energy]], [[Team Livemore]], [[Wayi Spider]], and [[Wings of Aurora]]. The top two teams from the Group Stage advanced to the [[World_Championship/2013/Regional_Finals/China|2013 China Regional Finals]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|noprize=1|localcurrency=cny
+|tournament1=LPL/2013/Spring/Group_Stage
+|tournament2=LPL/2013/Spring/Playoffs
+|qualifies1=LPL/2013/Summer|qualifies1name=Summer
+|qualifies2=World_Championship/2013/Regional_Finals/China|qualifies2name=Regional Finals|groupElimStatuses=stay,down
+|{{Slot |qualified1=true|qualified2=true|localprize=500,000}}
+|{{Slot |qualified1=true|localprize=300,000}}
+|{{Slot |qualified1=true|qualified2=true|localprize=200,000}}
+|{{Slot |qualified1=true|localprize=150,000}}
+|{{Slot |qualified1=true|localprize=100,000}}
+|{{Slot |qualified1=true|localprize=100,000}}
+|{{Slot |localprize=50,000}}
+|{{Slot |localprize=50,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Royal Club
+|image=Royal Club Logo Old.png
+|p1=HzGoDlike |p1link=GodLike
+|p2=Lucky
+|p3=Wh1t3zZ
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Rui |p5flag=cn
+
+|t2p1=Atu |t2p1flag=tw |t2pos1=support
+|qualifier=[[Tencent_Games_Arena/City_Hero_Tournament/Season_3|TGA City Hero Tournament]]
+}}
+{{TeamCard
+|team=Team WE
+|p1=CaoMei
+|p2=Troll
+|p3=Misaya
+|p4=Wx
+|p5=FZZF
+|qualifier=[[Tencent_Games_Arena/City_Hero_Tournament/Season_3|TGA City Hero Tournament]]
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=Pdd
+|p2=illuSioN
+|p3=Zz1tai
+|p4=Kid
+|p5=XiaoXiao
+|qualifier=[[LPL/2013/Spring/Qualifier|Qualifiers]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Gogoing
+|p2=bigpomelo
+|p3=Cool
+|p4=san
+|p5=LoveLin
+|qualifier=[[LPL/2013/Spring/Qualifier|Qualifiers]]
+}}
+{{TeamCard
+|team=Positive Energy
+|image=Positive Energy Symbol.png
+|p1=Aluka
+|p2=Jing |p2flag=cn
+|p3=JoJo |p3link=JoJo (Cantonese player) |p3flag=hk
+|p4=NaMei
+|p5=Sicca |p5flag=cn
+
+|t2p1=Ziv |t2p1link=Ziv (Chinese player) |t2p1flag=cn |t2pos1=jungle
+|qualifier=[[LPL/2013/Spring/Qualifier|Qualifiers]]
+}}
+{{TeamCard
+|team=Team Livemore
+|p1=Dreams |p1link=Dreams (Chinese player) |p1flag=cn
+|p2=Wayoff |p2flag=cn
+|p3=Snowy |p3flag=cn
+|p4=F1sh |p4flag=cn
+|p5=Dragon |p5link=Dragon (Chinese player) |p5flag=cn
+|qualifier=[[LPL/2013/Spring/Qualifier|Qualifiers]]
+}}
+{{TeamCard
+|team=Wayi Spider
+|image=Wayi Spider.png
+|p1=Easy |p1link=Easy (Chinese player)|p1flag=cn
+|p2=BSYY
+|p3=Leaf |p3flag=cn
+|p4=Jun |p4link=Jun (Chinese player) |p4flag=cn
+|p5=Fan |p5link=Fan (Liu Yifan) |p5flag=cn
+
+|t2p1=SS |t2p1link=SS (Chinese player) |t2p1flag=cn |t2pos1=adc
+|t2p2=Leon |t2p2link=Leon (Chinese player) |t2p2flag=cn |t2pos2=adc
+|qualifier=[[LPL/2013/Spring/Qualifier|Qualifiers]]
+}}
+{{TeamCard
+|team=Wings of Aurora
+|image=Wings of Auroralogo square.png
+|p1=Yi |p1flag=cn
+|p2=Hensen |p2flag=cn
+|p3=Mortred |p3flag=cn
+|p4=youmeng |p4flag=cn
+|p5=HaoKai |p5flag=cn
+
+|t2p1=Pgggggg |t2p1flag=cn |t2pos1=top
+|t2p2=ChouD1 |t2p2flag=cn |t2pos2=jungle
+|qualifier=[[LPL/2013/Spring/Qualifier|Qualifiers]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LPL/2013/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LPL/2013/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=6NJYF025NF}}
+
+==Format==
+* '''Group Stage'''
+**  Quadruple Round Robin {{Abbr/Bo1}}
+*** {{bgcolortext|up|''1st till 4th place''}} advance to the Playoffs.
+**** Top 2 in the group stage qualify for the [[World_Championship/2013/Regional_Finals/China|Regional Finals]]
+*** {{bgcolortext|stay|''5th and 6th place''}} qualify for [[LPL/2013/Summer|Summer season]].
+*** {{bgcolortext|down|''7th and 8th place''}} are relegated from the league.
+* '''Playoffs'''
+**  Single elimination
+** Semifinals and third place match are {{Abbr/Bo3}}
+** Finals are {{Abbr/Bo5}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=
+}}
+
+===Talent===
+{{BroadcasterCard
+|position=Caster 
+|b1=|b1flag=cn
+|b2=|b2flag=cn
+|b3=|b3flag=cn
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LPL/2013/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2013/Spring|edate=2013-07-01}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

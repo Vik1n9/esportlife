@@ -1,0 +1,481 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2022%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:11:04.244Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2022 Summer}}
+{{LCK Navbox}}
+{{LCK 2022 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCK 2022 Summer 
+|shortname=2022 Summer 
+|tickername=LCK 2022 Summer 
+|image=LCK 2021 full lightmode.png
+|imagedark=LCK 2021 full_darkmode.png
+|series=LCK 
+|icon=LCK 2021 lightmode.png
+|icondark=LCK 2021 darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|sponsor=
+|patch=12.10
+|epatch=12.14
+|type=Offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|venuedesc=Regular Season
+|country2=Korea
+|city2=Gangneung
+|venue2=Gangneung Arena
+|venue2link=https://www.gn.go.kr/olympicpark/contents.do?key=4225
+|venue2desc=Grand Final
+|format='''Group Stage:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Single Elimination
+|prizepool=375,000,000
+|localcurrency=krw
+|prizepoolusd=
+|sdate=2022-06-15
+|edate=2022-08-28
+|liquipediatier=1
+|highlighted=|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/d51fd18cfd750fd05e11db5f2679d22bc19c306a.pdf
+|website=http://www.lolesports.com/en_US/lck
+|twitch=lck
+|twitter=lck
+|facebook=officiallck
+|instagram=lckofficial
+|youtube=LCKglobal
+|team_number=10
+|previous=LCK/2022/Spring{{!}}2022 Spring 
+|next=LCK/2023/Spring{{!}}2023 Spring 
+|next2=LCK/2022/Regional Finals{{!}}Regional Finals
+}}
+The '''LCK 2022 Summer''' Split was the second split of the 2022 season of the [[League of Legends Champions Korea]], organized by Riot Games. The competition ran from June 15 to August 28, with the Group Stage held at LoL Park in Seoul and the Grand Final played at Gangneung Arena in Gangneung. Ten teams competed in a Double Round Robin Group Stage using best-of-three matches, with the top six advancing to a Single Elimination Playoffs played as best-of-five. The winner qualified for the [[World Championship/2022|2022 World Championship]]. The split was played on patches 12.10 through 12.14, with Bel’Veth and Nilah disabled at points due to balance considerations.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=lck2022|localcurrency=krw|cutafter=10
+|qualifies1=World Championship/2022|qualifies1name=Worlds
+|{{Slot |place=1 |qualified1=yes |localprize=200,000,000 |{{Opponent|gen |lastvs=t1 |lastvsscore=3-0 }}}}
+|{{Slot |place=2 |points=100 |localprize=100,000,000 |{{Opponent|t1 |lastvs=gen |lastvsscore=0-3 }}}}
+|{{Slot |place=3 |points=80 |localprize=50,000,000 |{{Opponent|lsb |lastvs=gen |lastvsscore=1-3 |date=2022-08-20 }}}}
+|{{Slot |place=4 |points=50 |localprize=25,000,000 |{{Opponent|dk |lastvs=t1 |lastvsscore=2-3 |date=2022-08-21 }}}}
+|{{Slot |place=5 |points=30 |{{Opponent|Kt Rolster |lastvs=Damwon gaming |lastvsscore=2-3 |date=2022-08-18 }}}}
+|{{Slot |place=6 |points=10 |{{Opponent|drx |lastvs=lsb |lastvsscore=1-3 |date=2022-08-17 }}}}
+|{{Slot |place=7 |{{Opponent|kdf |wdl=6/12 |date=2022-08-14 }}}}
+|{{Slot |place=8 |{{Opponent|nrf |wdl=5/13 |date=2022-08-14 }}}}
+|{{Slot |place=9 |{{Opponent|bro |wdl=3/15 |date=2022-08-14 }}}}
+|{{Slot |place=10 |{{Opponent|hle |wdl=2/16 |date=2022-08-14 }}}}
+}}
+
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|cutafter=11|margin=false
+|{{Slot|award=Player of the Split |localprize=2000000 |date=2022-08-16
+|{{Opponent|Ruler |flag=kr |team=Gen.G}}
+|{{Opponent|Prince |flag=kr |team=SANDBOX Gaming}}
+}}
+|{{Slot|award=Regular Season MVP |localprize=5000000 |date=2022-08-16 |{{Opponent|Ruler |flag=kr |team=Gen.G }}}}
+|{{Slot|award=Final MVP |localprize=5000000 |{{Opponent|Peanut |flag=kr |team=gen }}}}
+|{{Slot|award=Best Coach |localprize=3000000 |date=2022-08-16 |{{Opponent|Score |flag=kr |team=Gen.G }}}}
+|{{Slot|award=Rookie of the Year |localprize=3000000 |date=2022-08-16 |{{Opponent|VicLa |flag=kr |team=KT Rolster }}}}
+|{{Slot|award=All-LCK First Team |localprize=2000000 |date=2022-08-16
+|{{Opponent|Zeus |flag=kr |team=T1}}
+|{{Opponent|Peanut |flag=kr |team=Gen.G}}
+|{{Opponent|Chovy |flag=kr |team=Gen.G}}
+|{{Opponent|Ruler |flag=kr |team=Gen.G}}
+|{{Opponent|Lehends |flag=kr |team=Gen.G}}
+}}
+|{{Slot|award=All-LCK Second Team |date=2022-08-16
+|{{Opponent|Doran |flag=kr |team=Gen.G}}
+|{{Opponent|Oner |flag=kr |team=T1}}
+|{{Opponent|Faker |flag=kr |team=T1}}
+|{{Opponent|Prince |flag=kr |team=SANDBOX Gaming}}
+|{{Opponent|Keria |flag=kr |team=T1}}
+}}
+|{{Slot|award=All-LCK Third Team |date=2022-08-16
+|{{Opponent|Rascal |flag=kr |team=KT Rolster}}
+|{{Opponent|Croco |flag=kr |team=SANDBOX Gaming}}
+|{{Opponent|Clozer |flag=kr |team=SANDBOX Gaming}}
+|{{Opponent|Aiming |flag=kr |team=KT Rolster}}
+|{{Opponent|Kael |flag=kr |team=SANDBOX Gaming}}
+}}
+|adjacentContent=
+{{box|start|padding=1em}}
+{{MVPTable|points=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=LCK/2022/Summer/Group Stage/Week 1-5
+|tournament2=LCK/2022/Summer/Group Stage/Week 6-9
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|points=true|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=LCK/2022/Summer/Playoffs
+}}
+{{box|end}}
+}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2022-03-23
+|edate=2022-06-15
+|team=freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}
+{{Transfer List
+|title=Roster moves during the season
+|sdate=2022-06-15
+|edate=2022-08-28
+|team=freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Brion Esports
+|p1=Morgan
+|p2=UmTi
+|p3=Lava
+|p4=Hena
+|p5=Delight
+
+|t2p1=Sw0rd |t2pos1=top |t2p1dnp=
+|t2p2=Raptor |t2pos2=jg |t2p2dnp=
+|t2p3=Gamin |t2pos3=bot |t2p3dnp=
+|t2title=Substitutes
+
+|t3p1=Edgar|t3p1flag=kr|t3pos1=head coach
+|t3p2=Drinker|t3p2flag=kr|t3pos2=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Nuguri
+|p2=Canyon
+|p3=ShowMaker
+|p4=deokdam
+|p5=Kellin
+
+|t2p1=Burdol |t2pos1=top |t2p1dnp=
+|t2p2=Bible |t2pos2=sup |t2p2dnp=
+|t2title=Substitutes
+
+|t3p1=Daeny|t3p1flag=kr|t3pos1=head coach
+|t3p2=Zefa|t3p2flag=kr|t3pos2=coach
+|t3p3=Bubbling|t3p3flag=kr|t3pos3=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=DRX
+|p1=Kingen
+|p2=Pyosik
+|p3=Zeka
+|p4=Deft
+|p5=BeryL
+
+|t2p1=Juhan |t2p1flag=kr |t2pos1=jg
+|t2p2=Taeyoon |t2p2flag=kr |t2pos2=bot |t2p2dnp=true
+|t2title=Substitutes
+
+|t3p1=SSONG |t3p1flag=kr |t3pos1=head coach
+|t3p2=Mowgli |t3p2flag=kr |t3pos2=coach
+|t3p3=Shine |t3p3link=Shine (Shin Dong-wook)|t3p3flag=kr |t3pos3=coach
+}}
+{{TeamCard
+|team=Freecs
+|p1=Kiin
+|p2=Ellim
+|p3=FATE |p3link=FATE_(Korean_player)
+|p4=Teddy
+|p5=Hoit
+
+|t2p1=Moham |t2p1flag=kr |t2pos1=bot
+|t2title=Substitutes
+
+|t3p1=Cain |t3p1flag=kr |t3pos1=head coach
+|t3p2=Alvingo |t3p2flag=kr |t3pos2=coach
+|t3p3=Spirit |t3p3flag=kr |t3pos3=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Gen.G
+|p1=Doran
+|p2=Peanut
+|p3=Chovy
+|p4=Ruler
+|p5=Lehends
+
+|t2p1=YoungJae |t2p1flag=kr |t2pos1=jg |t2p1dnp=true
+|t2p2=|t2p2flag=|t2pos2=|t2p2dnp=true
+|t2p3=|t2p3flag=|t2pos3=|t2p3dnp=true
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+|t2title=Substitutes
+
+|t3p1=Score |t3p1flag=kr |t3pos1=head coach
+|t3p2=Mafa |t3p2flag=kr |t3pos2=coach
+|t3p3=Museong |t3p3flag=kr |t3pos3=coach
+|t3p4=J |t3p4flag=kr |t3pos4=analyst |t3p4link=Jay (Lee Jang-hee)
+}}
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=DuDu
+|p2=OnFleek
+|p3=Karis
+|p4=SamD
+|p5=Vsta
+
+|t2p1=Willer |t2p1flag=kr |t2pos1=jg |t2p1dnp=
+|t2p2=Cheoni |t2p2flag=|t2pos2=|t2p2dnp=
+|t2title=Substitutes
+
+|t3p1=Kezman |t3p1flag=kr |t3pos1=head coach
+|t3p2=SuDal |t3p2flag=kr |t3pos2=coach
+|t3p3=DanDy |t3p3flag=kr |t3pos3=coach
+|t3p4=Key |t3p4flag=kr |t3pos4=coach
+|t3p5=Bibra |t3p5flag=kr |t3pos5=Analyst
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Rascal
+|p2=Cuzz
+|p3=VicLa
+|p4=Aiming
+|p5=Life
+
+|t2p1=PerfecT |t2pos1=top |t2p1dnp=true
+|t2p2=GIDEON |t2p2flag=|t2pos2=jg |t2p2dnp=true
+|t2p3=Aria |t2p3flag=|t2pos3=mid |t2p3dnp=
+|t2p4=|t2p4flag=|t2pos4=|t2p4dnp=true
+|t2p5=|t2p5flag=|t2pos5=|t2p5dnp=true
+|t2title=Substitutes
+
+|t3p1=Hirai |t3p1flag=kr |t3pos1=head coach
+|t3p2=Acorn |t3p2flag=kr |t3pos2=coach
+|t3p3=supreme |t3p3flag=kr |t3pos3=coach
+|t3p4=Heetul|t3p4flag=kr|t3pos4=Analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=Nongshim RedForce
+|p1=Canna
+|p2=Dread |p2link=Dread_(Korean_player)
+|p3=Bdd
+|p4=Ghost |p4link=Ghost_(Korean_player)
+|p5=SnowFlower
+
+|t2p1=Sylvie |t2pos1=jg
+|t2p2=Peter |t2p2flag=|t2pos2=jg |t2p2link=Peter_(Korean_player)
+|t2p3=Effort |t2p3flag=|t2pos3=mid |t2p3dnp=
+|t2title=Substitutes
+
+|t3p1=Irean |t3p1flag=kr |t3pos1=head coach
+|t3p2=Comet |t3p2flag=kr |t3pos2=coach
+|t3p3=Coco |t3p3flag=kr |t3pos3=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=SANDBOX Gaming
+|p1=Dove
+|p2=Croco
+|p3=Clozer
+|p4=Prince
+|p5=Kael
+
+|t2p1=Envyy |t2pos1=bot |t2p1dnp=true
+|t2title=Substitutes
+
+|t3p1=Micro |t3p1flag=kr |t3pos1=head coach
+|t3p2=Joker |t3p2flag=kr |t3pos2=coach|t3p2link=Joker_(Cho_Jae-eup)
+|t3p3=Travel |t3p3flag=kr |t3pos3=coach
+|t3p4=PawN |t3p4flag=kr |t3pos4=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Asper |t2pos1=sup |t2p1dnp=true
+|t2title=Substitutes
+
+|t3p1=Polt |t3p1flag=kr |t3pos1=head coach
+|t3p2=Moment |t3p2flag=kr |t3pos2=coach
+|t3p3=Bengi |t3p3flag=kr |t3pos3=coach
+|t3p4=Gisepa |t3p4flag=kr |t3pos4=analyst
+|t3title=Staff
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{#lst:LCK/2022/Summer/Group_Stage/Week 1-5|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/2022/Summer/Group_Stage/Week_1-5|Click here for detailed results of the '''Group Stage Week 1-5''' matches]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LCK/2022/Summer/Group_Stage/Week_6-9|Click here for detailed results of the '''Group Stage Week 6-9''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCK22SumPO}}
+
+==Format==
+*'''Group Stage''' - ''June 15<sup>th</sup> - August 14<sup>th</sup>, 2022''
+**Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|seedup|''1st and 2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd till 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 10th place''}} are eliminated from this split.
+*'''Playoffs''' - ''August 17<sup>th</sup> - 28<sup>th</sup>, 2022''
+** Single Elimination
+** 1st placed team from group stage can choose the opponent from first round
+** All matches are {{Abbr/Bo5}} 
+** Winner qualifies for [[World Championship/2022|World Championship 2022]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lck |youtube1=LCKglobal
+|lang2=kr |twitch2=lck_korea |afreeca2=aflol
+|lang3=cn |huya3=lck
+|lang4=jp |afreeca4=lckjp
+|lang5=vn |youtube5=LCKTiếngViệt
+|lang6=de |twitch6=summonersinnlive |youtube6=SummonerInnDE
+|lang7=fr |twitch7=otplol_
+|lang8=it |twitch8=pg_esports_lol
+}}
+===Talent===
+{{box|start|padding=2em}}
+====Korean Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Lee Jeong-hyun |b1flag=kr
+|b2=Youn Soo-bin |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=Park Jee-sun
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Bitdory |b1name=Ha Guang-seok |b1flag=kr    
+|b2=GorillA
+|b3=RapidStar
+|b4=LirA
+|b5=Helios |b5link=Helios (Korean player)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=KangQui |b2name=Kang Seung-hyeon |b2flag=kr
+|b3=LirA
+|b4=GorillA  
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JonnaStrong
+}}
+{{box|end}}
+{{box|break|padding=2em}}
+
+====English Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Atlus
+|b2=Valdes
+}}
+{{BroadcasterCard
+|position=Color Commentator 
+|b1=Chronicler
+|b2=Wolf|b2link=Wolf (American caster)
+}}
+{{box|end}}
+
+{{box|end|padding=2em}}
+
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="1" |[[Patch 12.10]]
+| colspan="2" |[[Patch 12.11]]
+| colspan="3" |[[Patch 12.12]]
+| colspan="2" |[[Patch 12.13]]
+| colspan="2" |[[Patch 12.14]]
+|-
+| Disabled
+| colspan="1" | 
+| colspan="2" | {{ChampionIcon|Bel'Veth|35px}}
+| colspan="3" | 
+| colspan="2" | {{ChampionIcon|Nilah|35px}}
+| colspan="2" | 
+|}
+
+===Statistics===
+{{#lst:LCK/2022/Summer/Statistics|Champion Stats}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=WXak5h43UA|matchid=6|gameNum=2|player=Prince|vod=https://youtu.be/KUeJ3OraHno?t=17783}}
+|{{Json|id=vm4lLllejX|matchid=8|gameNum=2|player=Ruler|vod=https://youtu.be/qkwFxxjRHzw?t=20350}}
+|{{Json|id=vm4lLllejX|matchid=1|gameNum=3|player=Gumayusi|vod=https://youtu.be/Y5eSChexGHU?t=11702}}
+|{{Json|id=RVtw98EHtX|matchid=8|gameNum=2|player=Bdd|vod=https://youtu.be/WHjSsc1ftXM?t=20772}}
+|{{Json|id=AELJcxJ1bq|matchid=7|gameNum=2|player=Aiming|vod=https://youtu.be/hHHZED-mUA8?t=8106}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2022/Summer|edate=2022-12-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist|2}}
+
+{{2022 Season International Cycle Navbox}}

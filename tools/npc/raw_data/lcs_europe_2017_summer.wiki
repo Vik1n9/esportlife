@@ -1,0 +1,319 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2017%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:17:54.940Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2017 Summer }}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-27
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2017 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2017 Summer 
+|shortname=2017 Summer 
+|tickername=EU LCS 2017 Summer
+|image=2017 EU LCS.png
+|series=EU LCS
+|icon=eulcslogo small.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=
+|patch=7.10
+|epatch=7.16
+|server=Europe
+|type=offline
+|country=Germany
+|country2=France
+|city=Berlin
+|city2=Paris
+|venue=EU LCS Studio
+|venue2=AccorsHotels Arena
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=eur
+|prizepool=200,000
+|sdate=2017-06-01
+|edate=2017-09-03
+|liquipediatier=1
+|website=http://www.lolesports.com/en_US/
+|twitch=eulcs1
+|twitch2=eulcs2
+|team_number=10
+|previous=LCS/Europe/2017/Spring{{!}}2017 Spring 
+|next=LCS/Europe/2018/Spring{{!}}2018 Spring 
+|next2=LCS/Europe/2018/Spring/Promotion{{!}}Spring Promotion
+|previous2=LCS/Europe/2017/Summer/Promotion{{!}}Summer Promotion
+}}
+The '''EU LCS 2017 Summer''' Split was the tenth split of the [[European League of Legends Championship Series]], organized by Riot Games. The season ran from June 1 to September 3, 2017, with matches played in Berlin, Germany, and the Finals hosted in Paris, France. Ten teams competed in a Group Stage consisting of two groups of five, followed by a Single Elimination Best-of-Five Playoff. The top three teams of each group advanced to the Playoffs, while the bottom team was sent to the [[LCS/Europe/2018/Spring/Promotion|Spring Promotion Tournament]]. The split featured a total prize pool of $200,000 USD, and the winner earned a spot at the [[World_Championship/2017|2017 World Championship]].
+
+Ahead of the split, the EU LCS saw significant roster and organizational changes. [[Fnatic Academy]] and [[Misfits Academy]] sold their newly earned LCS spots to [[Ninjas in Pyjamas]] and [[Mysterious Monkeys]] respectively, while [[Origen]] and [[Giants Gaming]] were relegated.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|points=eulcs2017|localcurrency=eur|cutafter=10
+|qualifies1=World Championship/2017 |qualifies1name=Worlds
+|qualifies2=LCS/Europe/2018/Spring |qualifies2name=Summer
+|qualifies3=LCS/Europe/2018/Spring/Promotion|qualifies3name=Promotion
+|tournament1=LCS/Europe/2017/Summer/Group Stage
+|tournament2=LCS/Europe/2017/Summer/Playoffs
+|groupElimStatuses=down,staydown,stay
+|{{Slot |place=1 |qualified1=yes |qualified2=yes|localprize=80,000}}
+|{{Slot |place=2 |points=90 |qualified2=yes|localprize=50,000}}
+|{{Slot |place=3 |points=70|qualified2=yes |localprize=30,000}}
+|{{Slot |place=4 |points=50|qualified2=yes |localprize=20,000}}
+|{{Slot |place=5-6 |points=20|qualified2=yes |localprize=10,000}}
+|{{Slot |place=7-8|qualified2=yes}}
+|{{Slot |place=9-10|qualified3=yes}}
+}}
+{{box|break|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=8|margin=false}}
+{{prize pool slot award|award=MVP |Rekkles |flag1=se |team1=fnc |date=2017-09-03}}
+{{prize pool slot award|award=Rookie of the Split |Pridestalker |flag1=nl |team1=roccat |date=2017-08-25}}
+{{prize pool slot award|award=Coach of the Split |pr0lly |flag1=us |team1=h2k |date=2017-08-25}}
+{{prize pool slot award|award=1st All-Pro Team |date=2017-08-18
+|sOAZ |flag1=fr |team1=fnc
+|Broxah |flag2=dk |team2=fnc
+|Febiven |flag3=nl |team3=h2k
+|Rekkles |flag4=se |team4=fnc
+|mithy |flag5=es |team5=g2
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2017-08-18
+|Odoamne |flag1=ro |team1=h2k
+|Jankos |flag2=pl |team2=h2k
+|Caps |flag3=dk |team3=fnc
+|Zven |flag4=dk |team4=g2
+|Chei |flag5=kr |team5=h2k
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2017-08-18
+|Vizicsacsi |flag1=hu |team1=uol
+|Trick |flag2=kr |team2=g2
+|Perkz |flag3=hr |team3=g2
+|Samux |flag4=es |team4=uol
+|Jesiz |flag5=dk |team5=fnc
+}}
+{{Prize pool end noprize}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Fnatic
+|image=
+|p1=sOAZ|p1flag=fr
+|p2=Broxah|p2flag=dk
+|p3=Caps|p3flag=dk
+|p4=Rekkles|p4flag=se
+|p5=Jesiz|p5flag=dk
+
+|t2p1=Dylan|t2pos1=head coach
+|t2p2=Quaye|t2pos2=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=G2 Esports
+|image=
+|p1=Expect|p1flag=kr|pos1=Top
+|p2=Trick|p2flag=kr|pos2=Jungler
+|p3=Perkz|p3flag=hr|pos3=Middle
+|p4=Zven|p4flag=dk|pos4=Bottom
+|p5=mithy|p5flag=es|pos5=Support
+
+|t2p1=Sendoo|t2pos1=top
+|t2p2=Loulex|t2pos2=jg
+|t2p3=Blanc|t2pos3=mid
+
+|t3p1=YoungBuck|t3pos1=head coach
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=H2K
+|image=H2k Gaming-logo square.png
+|p1=Odoamne|p1flag=ro
+|p2=Jankos|p2flag=pl
+|p3=Febiven|p3flag=nl
+|p4=Nuclear|p4flag=kr
+|p5=Chei|p5flag=kr
+
+|t2p1=pr0lly|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=Misfits Gaming
+|image=
+|p1=Alphari|p1flag=uk
+|p2=Maxlore|p2flag=uk
+|p3=PowerOfEvil|p3flag=de
+|p4=Hans sama|p4flag=fr
+|p5=IgNar|p5flag=kr
+
+|t2p1=Daku|t2p1link=Daku (Emirati coach)|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=Splyce
+|image=Splyce Logo SnakeMark YellowCircle.png
+|p1=Wunder|p1flag=dk
+|p2=Trashy|p2flag=dk
+|p3=Sencux|p3flag=dk
+|p4=Kobbe|p4flag=dk
+|p5=Mikyx|p5flag=si
+
+|t2p1=Gevous|t2pos1=head coach
+|t2p2=Liq|t2pos2=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|image=Roccat logo2.png
+|p1=Phaxi|p1flag=si
+|p2=Pridestalker|p2flag=nl
+|p3=Betsy|p3flag=my
+|p4=Hjärnan|p4flag=se
+|p5=Wadid|p5flag=kr
+
+|t2p1=GrabbZ|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard|p1flag=fr
+|p2=Djoko|p2flag=fr
+|p3=Nukeduck|p3flag=no
+|p4=Steeelback|p4flag=fr
+|p5=VandeR|p5flag=pl
+|t2p1=YamatoCannon|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|image=Unicorns_Of_Love_Logo.png
+|p1=Vizicsacsi|p1flag=hu
+|p2=Xerxe|p2flag=ro
+|p3=Exileh|p3flag=de
+|p4=Samux|p4flag=es
+|p5=Hylissang|p5flag=bg
+|t2p1=Sheepy|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017|Spring 2017]]
+}}
+{{TeamCard
+|team=Mysterious Monkeys
+|image=Mysterious_Monkeys.png
+|p1=Kikis
+|p2=Amazing|p2link=Amazing (German player)
+|p3=CozQ
+|p4=Yuuki60
+|p5=Dreams|p6link=Dreams (Korean player)
+
+|t2p1=Jisu|t2pos1=top
+|t2p2=Lamabear|t2pos2=jg
+
+|t3p1=Unlimited|t3pos1=head coach
+|qualifier=[[LCS/Europe/Summer/2017/Promotion|Summer Promotion]]
+|inotes={{NoteBig
+|n1={{Team|Mysterious Monkeys}} acquired the spot of {{Team|misfits academy}}
+}}
+}}
+{{TeamCard
+|team=Ninjas in Pyjamas
+|image=NiP-StarLogo 20170209-Original.png
+|p1=Profit|p1flag=kr
+|p2=Shook|p2flag=nl
+|p3=Nagne|p3flag=kr
+|p4=HeaQ|p4flag=ee
+|p5=sprattel|p5flag=se
+|t2p1=NicoThePico|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2017/Promotion|Summer Promotion]]
+|inotes={{NoteBig
+|n1={{Team|nip}} acquired the spot of {{Team|fnatic academy}}
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/Summer/2017/Group_Stage|Regular Season}}
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2017/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=BU5L3EBPYX}}
+==Format==
+* '''Group Stage'''
+**Two groups of five teams each
+**Each team plays 13 matches.
+***Double Round Robin within own group
+***Single Round Robin against other group
+**All matches are {{Abbr/Bo3}}
+**Top 3 from each group qualifies to the [[LCS/Europe/Spring/2017/Playoffs|Spring Playoffs]]
+**Group winners receive playoff byes into the semifinals
+*'''Playoffs'''
+** Single Elimination {{Abbr/Bo5}} 
+* Winner Qualifies for [[World_Championship/2017|2017 World Championship]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1 |2twitch1=eulcs2 |youtube1=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang2=de |twitch2=summonersinnlive
+|lang3=es |twitch3=lvpes
+|lang4=fr |twitch4=ogaminglol |2twitch4=eclypsiatvlol
+|lang5=hu |twitch5=magyarloltv
+|lang6=pl |twitch6=nervarien |2twitch6=teamfrenzygg
+}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Commentator and Analyst
+|b1=Vedius|b1name=Andrew Day|b1flag=gb
+|b2=PiraTechnics|b2name=Devin Younge|b2flag=us
+|b3=Quickshot|b3name=Trevor Henry|b3flag=za
+|b4=Drakos|b4name=Daniel Drakos|b4flag=us
+|b5=Stress|b5name=James O'Leary|b5flag=uk
+|b6=Deficio|b6name=Martin Lynge|b6flag=dk
+|b7=Henning|b7name=Henning Eklund|b7flag=se
+|b8=Medic|b8name=Aaron Chamberlain|b8flag=uk
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Playoffs Analyst
+|b1=YamatoCannon|b1name=Jakob Mebdi|b1flag=se
+|b2=Zaboutine|b2name=Thomas Si Hassan|b2flag=fr
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2017/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2017/Summer|edate=2017-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

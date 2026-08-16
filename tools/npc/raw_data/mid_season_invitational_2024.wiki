@@ -1,0 +1,999 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2024&redirects=1
+<!-- 抓取: 2026-08-16T18:37:36.371Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2024 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}
+{{MSI2024Tabs}}
+{{Infobox league
+|name=2024 Mid-Season Invitational
+|shortname=MSI 2024
+|caption=BECOME THE UNKNOWN
+|image=MSI 2024 allmode.png
+|series=MSI
+|icon=MSI 2021 lightmode.png
+|icondark=MSI 2021 darkmode.png
+|organizer=Riot Games
+|organizer-link=https://www.riotgames.com/
+|patch=14.8
+|sponsor1=[https://www.omen.com/ OMEN]
+|sponsor2=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor3=[https://hyperx.com/ HyperX]
+|sponsor4=[https://www.redbull.com/ Red Bull]
+|sponsor5=[https://secretlab.eu/ Secretlab]
+|sponsor6=[https://www.oppo.com/ OPPO]
+|sponsor7=[https://www.verizon.com/ Verizon]
+|sponsor8=[http://www.mastercard.com/ Mastercard]
+|sponsor9=[https://www.cisco.com/ Cisco]
+|sponsor10=[https://aws.amazon.com/ AWS]
+|type=Offline
+|country=China
+|city=Chengdu
+|venue=Chengdu Financial City Performing Arts Center
+|venuelink=http://www.amazingart.cn/
+|format='''Play-In Stage:'''<br>Double Elimination<br>'''Bracket Stage:'''<br>Double Elimination
+|prizepoolusd=250000
+|sdate=2024-05-01
+|edate=2024-05-19
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com
+|website2=https://lpl.qq.com/es/msi/2024/
+|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/c5eb4dfed0dd2574a94a145c6ac9a23818cbf8b8.pdf
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|tiktok=lolesports
+|team_number=12
+|previous=Mid-Season Invitational/2023{{!}}2023
+|next=Mid-Season Invitational/2025{{!}}2025
+}}
+
+
+The '''Mid-Season Invitational''' (commonly referred to as ''MSI'') is the first cross-regional competition of the annual LoL Esports calendar. It features twelve teams, the winning teams from eight individual Riot Leagues Spring Splits and the runners-up from three ([[LCK/2024/Spring|LCK]], [[LPL/2024/Spring|LPL]], and [[LCS/2024/Spring|LCS]].) In addition the winner from the [[LEC/2024/Winter|LEC Winter]] split is also qualified to the play-in stage. MSI 2024 is held in Chengdu, China at the Wuliangye Chengdu Performing Arts Center. The event runs between May 1<sup>st</sup> and 19<sup>th</sup>. 
+
+A new rule for 2024 is that the MSI champion will now earn direct qualification to the [[World_Championship/2024|2024 World Championship]], guaranteeing an additional slot for its region. This rule will only apply if the winning team reaches the Playoffs in their domestic Summer split.
+
+Additionally, the second best region in the final standings will also be granted an additional seed for its domestic league at Worlds. <ref>{{cite web |url=https://lolesports.com/article/the-state-of-the-game-lol-esports-in-2024/blt2d30ff1e12862524 |title=The State of the Game: LoL Esports in 2024|date=2024-01-04 |publisher=LoL Esports|language={{Flag|usuk}} English}}</ref>
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+|newsHeader=Additional Content
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Schedule==
+* '''Play-in Stage''': ''May 1<sup>st</sup> – 5<sup>th</sup>''
+* '''Bracket Stage''': ''May 7<sup>nd</sup> – 12<sup>th</sup>, and May 14<sup>th</sup> – 19<sup>th</sup>''
+<br>
+''[[Mid-Season_Invitational/2024/Match_Schedule|Click here for the full '''Match Schedule''']].''
+
+==Prize Pool==
+{{TeamPrizePool|prizesummary=yes|cutafter=8|percentage=true
+|qualifies1=World Championship/2024 |qualifies1name=Worlds
+|tournament1=Mid-Season Invitational/2024/Play-In Stage
+|tournament2=Mid-Season Invitational/2024/Bracket Stage
+|{{Slot|percentage=20|qualified1=yes}}
+|{{Slot|percentage=16}}
+|{{Slot|percentage=12}}
+|{{Slot|percentage=10}}
+|{{Slot|percentage=8|count=2}}
+|{{Slot|percentage=6|count=2}}
+|{{Slot|percentage=4|count=2}}
+|{{Slot|percentage=3|count=2}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true|margin=false
+|{{Slot|award=MVP |{{Opponent|Lehends |flag=kr |team=geng}}}}
+}}<br />
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=Mid-Season Invitational/2024/Play-In Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Bracket Stage MVP
+|tournament=Mid-Season Invitational/2024/Bracket Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Bracket Stage Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Bin |p1wins=1
+|p2=Xun
+|p3=knight |p3wins=1
+|p4=Elk
+|p5=ON
+
+|t2p1=LvMao |t2pos1=sup |t2p1dnp=true
+
+|t3p1=BigWei |t3pos1=head coach
+|t3p2=Xiasu |t3p2flag=cn |t3pos2=assistant coach
+|t3p3=zyb |t3p3flag=cn |t3pos3=analyst
+|qualifier=[[LPL/2024/Spring|LPL Spring]]
+|placement=2
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2023}} '''(2023)'''
+}}
+
+{{TeamCard
+|team=G2 Esports
+|p1=BrokenBlade
+|p2=Yike
+|p3=Caps |p3wins=1
+|p4=Hans Sama
+|p5=Mikyx |p5wins=1
+
+|t2p1=Dylan Falco |t2pos1=Head Coach
+|t2p2=Duffman |t2pos2=Assistant coach |t2p2winsc=1
+|t2p3=Ismind |t2p3flag=co |t2pos3=Performance Coach
+|t2p4=Rodrigo |t2p4flag=pt |t2p4link=rLT |t2pos4=analyst
+|t2p5=Click |t2p5flag=ru |t2p5link=Click (Russian analyst) |t2pos5=analyst
+|t2title=Staff
+|qualifier=[[LEC/2024/Spring|LEC Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2019|date=2019-05-19}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=Gen.G Esports
+|p1=Kiin
+|p2=Canyon
+|p3=Chovy
+|p4=Peyz
+|p5=Lehends
+
+|t2p1=Kim |t2pos1=Head Coach
+|t2p2=Helper |t2p2link=Helper_(Korean_player) |t2pos2=Coach
+|t2p3=Mata |t2pos3=Coach
+|t2title=Staff
+|qualifier=[[LCK/2024/Spring|LCK Spring]]
+|placement=4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2023}} '''(2023)'''
+}}
+
+{{TeamCard
+|team=Team Liquid
+|p1=Impact
+|p2=UmTi
+|p3=APA
+|p4=Yeon
+|p5=CoreJJ
+
+|t2p1=Spawn|t2pos1=Head Coach
+|t2p2=Reignover|t2pos2=assistant coach 
+|t2p3=RapidStar|t2pos3=positional coach
+|t2p4=Haitham|t2p4flag=iq|t2pos4=head analyst
+|t2p5=TeeKay|t2p5flag=us|t2pos5=analyst
+|t2title=Staff
+|qualifier=[[LCS/2024/Spring|LCS Spring]]
+|placement=2
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2019|date=2019-05-19}} '''(2019)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Estral Esports
+|p1=Zothve
+|p2=Josedeodo
+|p3=cody
+|p4=Snaker
+|p5=Ackerman|p5link=Ackerman_(Argentinian_player)
+
+|t2p1=Snok |t2pos1=head coach
+|t2p2=Leon |t2p2flag=mx |t2pos2=assistant coach |t2p2link=Leon_(Mexican_coach)
+|t2title=Staff
+|qualifier=[[LLA/2024/Opening|LLA Opening]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=FlyQuest
+|p1=Bwipo
+|p2=Inspired
+|p3=Jensen
+|p4=Massu
+|p5=Busio
+
+|t2p1=Nukeduck |t2pos1=Head Coach
+|t2p2=Arrow |t2pos2=assistant coach
+|t2title=Staff
+|qualifier=[[LCS/2024/Spring|LCS Spring]]
+}}
+
+{{TeamCard
+|team=Fnatic
+|p1=Oscarinin
+|p2=Razork
+|p3=Humanoid
+|p4=Noah
+|p5=Jun
+
+|t2p1=Nightshare |t2pos1=Head Coach
+|t2p2=Gaax |t2pos2=Assistant Coach |t2p2flag=es
+|t2p3=Hiiva |t2pos3=Strategic Coach
+|t2p4=Hidon |t2pos4=Positional Coach
+|t2title=Staff
+|qualifier=[[LEC/2024/Championship_Points|LEC Points]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2018|date=2018-05-18}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=GAM Esports
+|image=GAM Esports 2021 full allmode.png
+|p1=Kiaya
+|p2=Levi
+|p3=Emo |p3flag=vn
+|p4=EasyLove
+|p5=Elio
+
+|t2p1=Archie|t2p1link=Archie (Vietnamese player)|t2pos1=head coach
+|t2p2=Bigkoro|t2pos2=positional coach
+|t2p3=Hype|t2p3link=Hype (Vietnamese player)|t2p3flag=vn|t2pos3=analyst
+|t2title=Staff
+|qualifier=[[VCS/2024/Spring|VCS Spring]]
+|placement=6
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-14}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=LOUD
+|p1=Robo
+|p2=Croc
+|p3=tinowns
+|p4=Route
+|p5=RedBert
+
+|t2p1=Stardust |t2p1link=Stardust (Korean coach) |t2pos1=head coach
+|t2p2=Maximillius|t2p2flag=br|t2pos2=Analyst
+|t2title=Staff
+|qualifier=[[CBLOL/2024/Split_1|CBLOL Split 1]]
+|placement=10-11
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2023}} '''(2023)'''
+}}
+
+{{TeamCard
+|team=PSG Talon 
+|p1=Azhi
+|p2=JunJia
+|p3=Maple
+|p4=Betty
+|p5=Woody
+|t2p1=HongSuo |t2p1pos=mid |t2p1dnp=true
+|t3p1=CorGi |t3pos1=Head Coach
+|t3p2=Hua |t3pos2=Assistant Coach
+|t3p3=Maru |t3pos3=Assistant Coach
+|qualifier=[[PCS/2024/Spring|PCS Spring]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker |p3wins=2
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=kkOma |t2pos1=Head Coach |t2p1winsc=2
+|t2p2=Roach |t2pos2=Coach
+|t2p3=Tom |t2pos3=Coach
+|t2title=Staff
+|qualifier=[[LCK/2024/Spring|LCK Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2016, 2017)'''
+}}
+
+{{TeamCard
+|team=Top Esports
+|p1=369 |p1wins=1
+|p2=Tian
+|p3=Creme
+|p4=JackeyLove
+|p5=Meiko |p5wins=1
+
+|t2p1=Niket |t2p1flag=cn |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Despa1r |t3p1flag=cn |t3pos1=head coach
+|t3p2=River |t3p2link=River (Chinese coach) |t3p2flag=cn |t3pos2=assistant coach
+|t3p3=java |t3p3flag=cn |t3pos3=analyst
+|qualifier=[[LPL/2024/Spring|LPL Spring]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+==={{Stage|Play-In Stage}}===
+{{LPDB storage|false}}<!--
+-->{{box|start|padding=2em}}
+{{BracketGroupToggle|id=MSI24PiSGA|width=330px|gtl={{GroupTableLeague |tournament=Mid-Season Invitational/2024/Play-In Stage
+|title=Group A |diff=false |width=330px
+|tiebreaker1=series
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |team1=t1
+|bg2=down |team2=flyquest
+|bg3=up |team3=psg talon
+|bg4=down |team4=estral esports
+}}}}
+<br/>
+{{box|break|padding=2em}}
+{{BracketGroupToggle|id=MSI24PiSGB|width=330px|gtl={{GroupTableLeague |tournament=Mid-Season Invitational/2024/Play-In Stage
+|title=Group B |diff=false |width=330px
+|tiebreaker1=series
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |team1=top esports
+|bg2=up |team2=fnatic
+|bg3=down |team3=gam esports
+|bg4=down |team4=loud
+}}}}
+{{box|end}}<!--
+-->{{LPDB storage|true}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season Invitational/2024/Play-In_Stage|Click here for detailed results of the '''Play-In Stage''' matches]]''</span>
+
+==={{Stage|Bracket Stage}}===
+{{ShowBracket|id=MSI24Brakt}}
+
+==Format==
+* '''Qualification'''
+** Twelve teams from professional leagues will qualify for the event.
+** The [[LPL]], [[LCK]], [[LEC]], and [[LCS]] will have 2 slots, the [[LLA]], [[CBLOL]], [[PCS]] and [[VCS]] have one slot. <ref name="2024 Format Venue">{{cite web |url=https://lolesports.com/article/msi-2024-format,-venue,-ticket-information/bltf0f6812a20dc5ba5 |title=MSI 2024 Format, Venue, Ticket Information|date=2024-03-29|publisher=[[LoL Esports]] |language={{Flag|usuk}} English}}</ref>
+*** Following the merger of the [[LJL]] into the [[PCS]] Ecosystem this year, they no longer have a direct slot at MSI, but are able to qualify through the [[PCS/2024/Spring|PCS Playoffs]] similiar to the [[LCO]] teams. <ref name="ljl merged with lco">{{cite web |url=https://lolesports.com/article/league-of-legends-japan-league-joins-pacific-championship-series-ecosystem/blt80ae84082260adc9 |title=League of Legends Japan League Joins Pacific Championship Series Ecosystem |date=2023-12-23 |author=[[LJL]] |publisher=[[LoL Esports]] |language={{Flag|us}} us}}</ref>
+
+* '''Play-In Stage''' - ''May 1<sup>st</sup> – 5<sup>th</sup>''
+** Eight teams are divided into two groups where they play a Double Elimination Bracket. (Also often known as a ''[[starcraft2:Dual_Tournament_Format|GSL-Style Group stage]]'')
+** All matches are played in a {{Abbr/Bo3}}.
+** {{Bgcolortext|up|Top 2 teams}} in each group advance to Bracket Stage.
+** {{Bgcolortext|down|Bottom 2 teams}} in each group are eliminated.
+** '''Side Selection Procedures'''
+*** In the first round, first game side selection is reserved for the Pool 1/2 team;
+*** In subsequent rounds, first game side selection will be decided by a coin toss (or equivalent procedure);
+*** For all series, apart from the first game, the side selection for subsequent games will be decided by the loser of the previous game.
+
+* '''Bracket Stage''' - ''May 7<sup>nd</sup> - 12<sup>th</sup>, and May 14<sup>th</sup> - 19<sup>th</sup>''
+** Eight teams play in a Double Elimination Bracket.
+** All matches are {{Abbr/Bo5}}.
+** '''Side Selection Procedures'''
+*** In the first round, first game side selection is reserved for team who started in the Bracket Stage;
+*** In the grand finals, first game side selection is reserved for the winner of the Upper Bracket finals;
+*** In all other rounds, first game side selection will be decided by a coin toss (or equivalent procedure);
+*** For all series, apart from the first game, the side selection for subsequent games will be decided by the loser of the previous game.
+
+* '''Patch Information'''
+** {{ChampionIcon|Skarner|20px}} [[Skarner]] is disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<!--<ref name="yuumi banned">{{cite web|url=https://twitter.com/lolesports/status/1648748727765549056|title=A quick update regarding champion restrictions for #MSI2023|author=LoL Esports|publisher=Twitter|date=2023-04-19|language={{Flag|usuk}}English}}</ref>-->
+
+===MSI 2024 Draw Show===
+* The MSI Draw Show will be held after [[LPL/2024/Spring/Playoffs|LPL Spring Finals]] to place teams into groups for the Play-In Stage of the Mid-Season Invitational 2024.<ref name="#Worlds2023 Play-In Stage Draw Show">{{cite web|url=https://twitter.com/lolesports/status/1778446360980684995|title=Tune in for the #MSI2024 Draw Show during the #LPL Spring Finals on April 20th, featuring special guest Xiye!|author=LoL Esports|date=2024-04-11|language={{Flag|usuk}} English}}</ref>
+** ''[https://www.youtube.com/live/H-WZvO2ZJ5M?feature=shared&t=19000 Click here to watch the Play-In Draw Show video] Hosted by {{player|Iris|link=Xiran|flag=cn}} and guested by {{player|Xiye|flag=cn}}''
+** <span class="mw-customtoggle-Playin-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about MSI Draw Show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Playin-Draw" style="margin-top:10px;">
+* Teams are splited into 4 seed pools to ensure quality groups.
+** 8 teams are splited into 4 pools
+*** '''Pool 1''' will consist of LPL2 (''TES''), LCK2 (''T1'').
+*** '''Pool 2''' will consist of LEC2 (''FNC''), LCS2 (''FLY'').
+*** '''Pool 3''' will consist of PCS1 (''PSG''), VCS1 (''GAM'').
+*** '''Pool 4''' will consist of LLA1 (''EST''), CBLOL (''LLL'').
+* One team from each Pool will be seeded to each group.
+* Pool 1 teams will face Pool 4 teams, while Pool 2 teams will face Pool 3 teams in the first round.
+</div>
+*Bracket Stage Draw Show will be held after the completion of the Play-in.
+** ''[https://www.youtube.com/live/H-WZvO2ZJ5M?feature=shared&t=19000 Click here to watch the Bracket Stage Draw Show video] Hosted by {{player|Hilda|flag=cn}} and guested by {{player|Xiye|flag=cn}}''
+** <span class="mw-customtoggle-Swiss-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Bracket Stage Draw show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Swiss-Draw" style="margin-top:10px;">
+* Teams are splited into 4 seed pools to ensure quality groups.
+** 8 teams are splited into 4 pools
+*** '''Pool 1''' will consist of LPL1 (''BLG''), LCK1 (''GEN'')
+*** '''Pool 2''' will consist of LEC1 (''G2''), and LCS1 (''TL'').
+*** '''Pool 3''' will consist of the 2 teams who went 2-0 in the Play-in (''T1'' and ''TES'').
+*** '''Pool 4''' will consist of the 2 teams who went 2-1 in the Play-in (''PSG'' and ''FNC'').
+* Pool 1 teams will face Pool 4 teams, while Pool 2 teams will face Pool 3 teams in the first round.
+* Each region can only have one team in each half of the upper bracket.
+</div>
+
+==Broadcasts==
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+|lang2=cn |huya2=msi |bilibili2=6 |douyu2=LPL
+|lang3=kr |youtube3=LCK |afreeca3=aflol
+|lang4=tr |twitch4=riotgamesturkish |youtube4=Lolespor
+|lang5=br |twitch5=cblol |youtube5=lolesportsbr
+|lang6=sam |twitch6=lla |youtube6=lla |trovo6=LLA
+|lang7=mx |twitch7=tvaztecaesports |youtube7=AztecaEsports
+|lang8=jp |twitch8=riotgamesjp |afreeca8=ljl
+|lang9=tw |twitch9=lolpacifictw |youtube9=lolpacific
+|lang10=hk |twitch10=lolpacifichk
+|lang11=vn |youtube11=@vcslmht
+|lang12=fr |twitch12=otplol_
+|lang13=de |twitch13=summonersinnlive |youtube13=SummonerInnDE
+|lang14=it |twitch14=litofficial
+|lang15=es |twitch15=lvpes
+|lang16=cz |twitch16=hitpointcz
+|lang17=gr |twitch17=gamersloungegr |youtube17=@GreekLegendsLeague
+|lang18=hu |twitch18=esport2tv |youtube18=Esport1gg
+|lang19=pl |twitch19=polsatgames |youtube19=polsatgames
+|lang20=rs |youtube20=Sa1naTV
+|lang21=th |afreeca21=lolesportsth
+}}
+{{box|end}}
+
+===Broadcast Talent===
+{{Tabs dynamic|name1=English Broadcast|name2=EMEA Broadcasts|name3=LATAM Broadcast|name4=Brazilian Broadcast|name5=Asian Broadcasts|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host & Interview
+|b1=Laure
+|b2=Sjokz
+|b3=zeetwo
+|b4=Drakos
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=Wendy
+|b2=Iris|b2link=Xiran
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-Play Caster
+|b1=Drakos
+|b2=Medic
+|b3=Atlus
+|b4=Hysterics
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster & Analyst
+|b1=Vedius
+|b2=Kobe
+|b3=Dagda
+|b4=Emily Rand
+|b5=Raz
+|b6=Chronicler
+|b7=Jatt
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=French Commentator
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=Finghin
+|b5=Trayton
+|b6=Marex
+|b7=Zerotick
+|b8=Rhobalas
+|b9=Chreak
+|b10=Glopo
+}}
+{{BroadcasterCard
+|position=French Interviewer
+|b1=Laure
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Spanish Commentator
+|b1=Noa
+|b2=Wolk
+|b3=Champi
+|b4=Jaime Mellado
+|b5=Fernando Cardenete
+|b6=Bebé
+|b7=Toad
+|b8=Adre
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Polish Commentator
+|b1=CzarnyPiotruś
+|b2=Kaspersky
+|b3=Silv4n
+|b4=Myha
+|b5=Magvayer
+|b6=Devilpiotr
+|b7=MrHyena
+|b8=Bezi
+|b9=Bialito
+|b10=Tabasko
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Italian Commentator
+|b1=KenRhen
+|b2=Moonboy
+|b3=Charlie Yay
+|b4=Wolcat
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Czech Commentator
+|b1=Mortsche
+|b2=Kangae
+|b3=Fortanu|b3name=Filip Růžička
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Hungarian Commentator
+|b1=Loemifar
+|b2=Atreus
+|b3=Livius
+|b4=Makaria
+|b5=Asdelek
+|b6=Mentsvar
+|b7=Pierce
+|b8=Mathias|b8flag=hu|b8name=Sajtos Mátyás
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Serbian Commentator
+|b1=Sa1na
+|b2=Glisha
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Greek Commentator
+|b1=Nero|b1link=Nero (Greek player)|b1flag=gr|b1name=Konstantinos Perperidis
+|b2=Rev
+|b3=Drake|b3link=Drake (Greek player)|b3flag=gr|b3name=Dimitris Drakiotis
+|b4=LivingDead
+|b5=Labokop
+|b6=IceBreaker
+|b7=TheRock7
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Turkish Commentator
+|b1=Telch
+|b2=Jhonnie|b2name=Caner Güngörür
+|b3=Hoca
+|b4=Trix
+|b5=Halpern
+|b6=Rehaer
+|b7=Hetze
+|b8=Nova
+|b9=Noeldayi
+|b10=Scarlet |b10name=Can Çaldıran |b10flag=tr |b10link=Scarlet (Turkish caster)
+|b11=Basei
+|b12=Euphony
+|b13=Japone
+|b14=Farfetch
+}}
+{{box|end|padding=2em}}
+<!--{{BroadcasterCard
+|position=Italian Commentator
+|b1=etrurian
+|b2=KenRhen
+|b3=Moonboy
+|b4=Juannetti
+|b5=Charlie Yay
+|b6=Wolcat
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Polish Commentator
+|b1=Bezi
+|b2=Tabasko
+|b3=TheFakeOne
+|b4=Kaspersky
+|b5=Silv4n
+|b6=Myha
+|b7=CzarnyPiotruś
+|b8=Magvayer
+|b9=Bialito
+|b10=Veggie
+|b11=Woolite
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Spanish Commentator
+|b1=Noa
+|b2=Champi
+|b3=Wolk
+|b4=Jaime Mellado|b4flag=es|b4name=Jaime Mellado
+|b5=Tesh
+|b6=Fernando Cardenete|b6flag=es
+|b7=Toad
+|b8=Bebé|b8flag=es|b8name=Carlos Bahlsen
+|b9=mrfreak00
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=French Commentator
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=Zerotick
+|b5=Finghin
+|b6=TraYtoN
+|b7=Duke|b7link=Duke_(French_coach)
+|b8=Saken
+|b9=Wakz
+|b10=Glopo
+|b11=Chreak
+|b12=Vetheo
+|b13=ImSoFresh
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=German Commentator
+|b1=EisohneWaffel
+|b2=Basti
+|b3=Kernus
+|b4=Ryxcales
+|b5=Pixavis
+|b6=Alanio
+|b7=Mori
+|b8=Masterplay
+|b9=Kxng
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Czech Commentator
+|b1=Kangae
+|b2=Mortsche
+|b3=Fortanu
+|b4=Murde
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Hungarian Commentator
+|b1=Loemifar
+|b2=Makaria
+|b3=Atreus
+|b4=Asdelek
+|b5=noizR
+|b6=Mentsvar
+|b7=Livius
+|b8=Pierce
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Portuguese Commentator
+|b1=OneRingWraith
+|b2=Omegamon
+|b3=Guerreiro
+|b4=Hackali
+|b5=Zemo
+|b6=Saeken
+|b7=Ahnyfar
+|b8=Enlatado
+|b9=Tibi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Serbian Commentator
+|b1=Ljuba
+|b2=Mićko
+|b3=Njen
+|b4=Sa1na
+|b5=Glisha
+|b6=Ralla
+|b7=Neeko's Help
+|b8=Njami
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Turkish Commentator
+|b1=Hoca
+|b2=Trix
+|b3=Nova
+|b4=Japone
+|b5=Euphony
+|b6=Jhonnie
+|b7=Mehitra|b7flag=tr|b7name=Sinan Susler
+|b8=Farfetch
+|b9=Dora
+|b10=Noeldayi
+}}
+{{box|end|padding=2em}}-->
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Host
+|b1=Magui Sunshine|b1flag=ar|b1name=Magalí Sanyán
+|b2=Elmo|b2link=Elmo (Chilean caster)|b2flag=cl|b2name=Bastian Guzmán
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Commentator
+|b1=Lenore
+|b2=Nachittus|b2name=Ignacio Martín Santamarina
+|b3=Corsario
+|b4=Rafamaik
+|b5=Fahrenheit
+|b6=Jonni
+|b7=Abdiel|b7flag=mx|b7name=Abdiel Estrada
+|b8=AndresX
+|b9=Jirall
+|b10=Roman|b10flag=ar|b10name=Nahuel Wenzin
+|b11=Demizos
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Interviewer
+|b1=Lau Agnolin  |b1flag=br
+}}
+{{box|end|padding=2em}}
+<!--
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Commentator
+|b1=Corsario
+|b2=Jiral|b2flag=mx|b2name=Daniel del Castillo
+|b3=AndresX
+|b4=Lenore
+|b5=Rafamaik
+|b6=Nachittus
+|b7=Tyrone
+|b8=Magui Sunshine|b8flag=ar|b8name=Magalí Sanyán
+|b9=Darkoz|b9flag=ar|b9name=Lucas Ledesma
+|b10=Demizos
+|b11=Seiya
+|b12=Skyshock|b12flag=mx|b12name=Erick González
+|b13=Balpo|b13flag=mx|b13name=Pablo de Rubens
+|b14=Elmo|b14link=Elmo (Chilean caster)|b14flag=cl|b14name=Bastian Guzmán
+|b15=Gotszar
+|b16=Charlie|b16link=Charlie (Colombian caster)|b16flag=co|b16name=Carlos Bravo
+|b17=Fahrenheit
+|b18=JJ EX
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Interviewer
+|b1=Lau Agnolin
+}}
+{{box|end|padding=2em}}-->
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Host
+|b1=Tabs
+|b2=Fogueta
+|b3=Rafaela Tomasi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Analyst
+|b1=Lahgolas
+|b2=Skeat
+|b3=Dioud
+|b4=gstv1
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Play-by-Play Caster
+|b1=Vecet
+|b2=Gruntar
+|b3=Schaeppi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Color Caster
+|b1=Loop
+|b2=Colosimus|b2name=Brunno Colosimo
+|b3=Takeshi
+}}
+{{box|end|padding=2em}}
+<!--
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Commentator
+|b1=Skeat
+|b2=gstv1
+|b3=Schaeppi
+|b4=Dioud
+|b5=Tabs
+|b6=Professor
+|b7=Loop
+|b8=Gruntar
+|b9=Colosimus
+|b10=Fogueta
+|b11=Stoker|b11flag=br|b11name=Victor Stoker
+|b12=Lahgolas
+|b13=Dudu|b13name=Eduardo Souza|b13link=Dudu (Brazilian caster) |b13flag=br
+|b14=Nappon
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Interviewer
+|b1=Rafaela Tomasi
+|b2=Takeshi
+}}
+{{box|end|padding=2em}}-->
+{{Tabs dynamic/tab|5}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Mandarin Commentator|lang=tw
+|b1=JR
+|b2=Nash|b2link=Nash (Taiwanese caster)
+|b3=Section
+|b4=Yuwu
+|b5=Chenzui
+|b6=Jackie
+|b7=Art|b7link=Art (Taiwanese caster)|b7flag=tw|b7name=Chen Yu-Ting
+|b8=Jay|b8link=Jay (Taiwanese caster)
+|b9=Mountain
+|b10=Zod
+}}
+{{BroadcasterCard
+|position=Mandarin Interviewer|lang=tw
+|b1=Patty Yu|b1flag=tw
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Japanese Commentator|lang=jp
+|b1=Jaeger |b1name=Kota Horie |b1link=Jaegar (Japanese caster) |b1flag=jp
+|b2=Recruit |b2name=Satoshi Horikawa |b2flag=jp
+|b3=Katsudion
+|b4=Nemoh
+|b5=Wataneko
+|b6=Eyes
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Thailand Commentator|lang=th
+|b1=Winzy
+|b2=SunWaltz
+|b3=Nohimitsu
+|b4=HeaGow
+|b5=Zylfelia
+|b6=Adam|b6link=Adam (Thai caster)
+|b7=Lastcrosser
+|b8=Nerfgy
+|b9=SunSunSun
+|b10=Moonfalling
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Chinese Interviewer|lang=cn
+|b1=Xiran|b1name=Feng Xi|b1flag=cn<!--PlayIn Day 2-->
+|b2=BaoBao|b2name=Fu Ruozhen|b2flag=cn<!--Bracket Day 1/2-->
+|b3=Candice<!--Bracket Day 6/7/9-->
+|b4=Wendy<!--PlayIn Day 4/5-->
+|b5=Jackson|b5link=Liu Hang|b5name=Liu Hang|b5flag=cn<!--PlayIn Day 1/3-->
+|b6=Luo Xin|b6name=Luo Yuting|b6flag=cn<!--Bracket Day 4/5-->
+|b7=Hilda<!--PlayIn Day 4/5, Bracket Day 3/8-->
+|b9=Chen Yu|b9name=Zhou Chenyu|b9flag=cn
+}}
+{{BroadcasterCard
+|position=Chinese Translators|lang=cn
+|b1=Xiran|b1name=Feng Xi|b1flag=cn
+|b2=Candice
+|b3=Wendy
+}}
+{{BroadcasterCard
+|position=Chinese Guest Commentator|lang=cn
+|b1=Kitty|b1flag=au|b1link=Kitty (Chinese caster)<!--MSI Preview Shows-->
+|b2=Zhuo<!--Bracket Day 5/6-->
+|b3=AKi<!--Bracket Day 5/6-->
+|b4=Sao Nan|b4flag=cn|b4name=Jiang Tao<!--Bracket Day 9-->
+|b5=小杨哥|b5flag=cn<!--Bracket Day 12-->
+|b6=Clearlove<!--Bracket Day 12-->
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Chinese Commentator|lang=cn
+|b1=Duoduo<!--PlayIn Day 5, Bracket Day 1/5/9/10/12-->
+|b2=pyl|b2name=Chen Bo|b2flag=cn<!--Bracket Day 4/7/10/11-->
+|b3=Rita|b3name=Feng Yu|b3flag=cn<!--Bracket Day 7/9/10-->
+|b4=ShuoShuo|b4name=Zhang Shuo|b4flag=cn<!--Bracket Day 3-->
+|b5=GuGu|b5name=Chen Jieyan|b5flag=cn<!--Bracket Day 1/5/8-->
+|b6=Junri|b6name=Zhao Junri|b6flag=cn<!--Bracket Day 4/6-->
+|b7=乘风儿|b7name=Zhong Yingjie|b7flag=cn<!--Bracket Day 2-->
+|b8=Remember<!--Bracket Day 8/9/11-->
+|b9=Zonic|b9name=Zhang Shiyu|b9flag=cn<!--PlayIn Day 4-->
+|b10=MacT|b10name=Tan PingTao|b10flag=cn<!--Bracket Day 7/8-->
+|b11=Zeyuan<!--PlayIn Day 3/4, Bracket Day 4/5/11/12-->
+|b12=Kris|b12name=Tang Xintong|b12flag=cn<!--PlayIn Day 3-->
+|b13=Maomao|b13name=Yuan Weiyi|b13flag=cn<!--PlayIn Day 1/2, Bracket Day 2/6/10-->
+|b14=Suki|b14link=Suki (Sun Qi)|b14name=Sun Qi|b14flag=cn<!--PlayIn Day 2-->
+|b15=Mile|b15name=Qian Chen|b15flag=cn<!--Bracket Day 3/6/9/10/12-->
+|b16=Tongxi|b16name=Zhang He|b16flag=cn<!--Bracket Day 3/5/8/11-->
+|b17=957<!--Bracket Day 2/8/11-->
+|b18=Wang Song|b18name=Wang Song|b18flag=cn<!--PlayIn Day 3-->
+|b19=fireloli|b19name=Zhao Zhiming|b19flag=cn<!--PlayIn Day 9/10-->
+|b20=Pengpeng|b20name=Feng Sheng-Yao|b20flag=tw<!--Bracket Day 1/6-->
+|b21=TianShu|b21name=Yao Tianshu|b21flag=cn<!--PlayIn Day 1-->
+|b22=Mage|b22name=Zhong Kexin|b22flag=cn<!--PlayIn Day 4-->
+|b23=XiaoMi|b23name=Liu Jin|b23flag=cn<!--PlayIn Day 1-->
+|b24=wAwa|b24name=Yan Zijing|b24flag=cn<!--Bracket Day 11/12-->
+|b25=ChongYue|b25name=Zhao Chongyue|b25flag=cn<!--PlayIn Day 2-->
+|b26=HuaiNan|b26name=Feng Zhuocheng|b26flag=cn<!--PlayIn Day 5-->
+|b27=KinKo|b27name=Jin Zhuohan|b27flag=cn<!--PlayIn Day 5-->
+|b28=Cat|b28link=Cat (Chinese player)<!--Bracket Day 7/8-->
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Youn Soo-bin
+|b2=Bae Hye-ji
+|b3=Lee Eun-bin|b3flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=SEONG K |b2name=Seong Seung-heon
+|b3=Dankun |b3name=Kim Eui-jung
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=NoFe
+|b3=MyLittlePony
+|b4=Ggoggo
+}}
+{{BroadcasterCard
+|position=Korean Guest Commentator
+|b1=Cuzz
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Cpt Jack
+|b2=Helios |b2link=Helios (Korean player)
+|b3=Easyhoon
+|b4=Kuro
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Vietnamese Host|lang=vn
+|b1=Tạ Vy|b1flag=cz|b1name=Tạ Hoàng Thảo Vy
+|b2=Minh Nghi
+}}
+{{BroadcasterCard
+|position=Vietnamese Translator|lang=vn
+|b1=Nazgriel|b1flag=vn
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Vietnamese Commentator|lang=vn
+|b1=Văn Tùng
+|b2=Minh Hảo|b2flag=vn|b2name=Nguyễn Minh Hảo
+|b3=Hữu Trung
+|b4=Tùng Lâm|b4flag=vn|b4name=Hoàng Tùng Lâm
+|b5=Hải Dương|b5flag=vn|b5name=Nguyễn Hải Dương
+|b6=Ngọc Thiên|b6flag=vn|b6name=Đặng Ngọc Thiên
+|b7=Khải Nguyễn|b7flag=vn|b7name=Nguyễn Đỗ Khải
+|b8=Minh Trí|b8flag=vn|b8name=Phạm Minh Trí
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Champion Statistics===
+{{#lst:Mid-Season Invitational/2024/Statistics|Champion Stats}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=MSI24Brakt|matchid=R5M1|gameNum=2|player=Peyz|vod=https://youtu.be/H-_HxaG954w?t=13917}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+===MSI Appearances===
+{{Player tournament appearances|series=Mid-Season Invitational|tiers=1|limit=10|playerspage=Mid-Season_Invitational/2024}}
+:''See [[Mid-Season Invitational/Player appearances|here]] for the complete list.''
+
+==Trivia==
+* [[G2 Esports]] and [[T1]] return to this year's MSI with the same rosters as in [[Mid-Season_Invitational/2023|MSI 2023]]. In T1's case, this is the first time an organisation plays in the MSI for 3 consecutive years with the same roster (since [[Mid-Season_Invitational/2022|MSI 2022]]).
+* The winner from [[Mid-Season_Invitational/2023|last year's MSI]], [[JD Gaming]], won't return to defend the title, as they failed to qualify after losing to [[Top Esports]] in the Lower Bracket Final in the [[LPL/2024/Spring|LPL 2024 Spring Playoffs]].
+* {{player|Bin|pos=top|flag=cn}} is the first player from LPL to play in 3 consecutive MSI.<ref>{{cite web|url=https://weibo.com/6931173462/O9h8r5SXF|title=Bin成为LPL首个连续三年进入MSI的选手|trans_title=Bin becomes LPL's first player to play in 3 consecutive MSI|date=2024-04-11|language={{Flag|cn}} Chinese}}</ref>
+
+==References==
+{{Reflist}}
+
+{{2024 Season International Cycle Navbox}}

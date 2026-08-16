@@ -1,0 +1,521 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2F2021%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:12:04.864Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCS 2021 Summer }}
+{{NA LCS Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=LCS/2021/Summer
+|name2=Group Stage
+|link2=LCS/2021/Summer/Group_Stage
+|name3=LCS Championship
+|link3=LCS/2021/Summer/Playoffs
+|name4=Statistics
+|link4=LCS/2021/Summer/Statistics
+}}
+{{Infobox league
+|name=LCS 2021 Summer 
+|shortname=2021 Summer 
+|tickername=LCS 2021 Summer 
+|image=League Championship Series.png
+|icon=League Championship Series 2021 icon lightmode.png
+|series=LCS
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.statefarm.com/ State Farm] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|patch=
+|epatch=
+|server=North America
+|type=Online/Offline
+|country=United States
+|city=Los Angeles 
+|venue=LCS Studio
+|format='''Group Stage''': Triple Round Robin ({{Abbr/Bo1}}) <br> '''Playoffs:''' Double Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2021-06-04
+|edate=2021-08-29
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=
+|twitch=RiotGames
+|facebook=lolesports
+|twitter=lcsofficial
+|youtube=channel/UCSF_aFGIIIoWY30GVV19TKA
+|instagram=lolesports
+|team_number=10
+|previous=LCS/2021/Spring{{!}}2021 Spring 
+|next=LCS/2022/Spring{{!}}2022 Spring 
+}}
+The '''LCS 2021 Summer''' was the second split of the 2021 season of the [[League of Legends Championship Series]] (LCS), organized by Riot Games. It took place from June 4 to August 29, 2021, with all matches played online and broadcast from Los Angeles, United States. Ten franchised teams competed in a Triple Round Robin {{Abbr/Bo1}} Group Stage, followed by a Double Elimination {{Abbr/Bo5}} Playoff bracket known as the LCS Championship. Unlike previous years, the split continued the 2021 format introduced in Spring, with regular season records carrying over from the previous split. The total prize pool was $200,000 USD, and the top three teams qualified for the [[World Championship/2021|2021 World Championship]].
+
+The summer season revealed just a few roster changes, with [[Evil Geniuses]] benching {{player|Deftly|flag=us}} to promote {{player|Danny|flag=us}}, the Spring [[Evil Geniuses Prodigies]] midlaner <ref name="Danny promoted">{{cite web |url=https://twitter.com/EvilGeniuses/status/1393281207140454401 |title=@EG_Danny will be our first player promoted from Prodigies to the #LCS as our starting ADC. |date=2021-05-14 |author=[[Evil Geniuses]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>, while [[Cloud9]] decided to move {{player|Zven|flag=dk}} to their academy team, promoting {{player|K1ng|flag=au}} <ref name="-zven +k1ng"> {{cite web |url=https://twitter.com/Cloud9/status/1398715767844065280 |title=#C9LoL 2021 #LCS Summer Split Roster Update |date=2021-05-29 |author=[[Cloud9]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>. In an attempt to improve their 10th place spring split, [[Golden Guardians]] signed {{player|Solo|flag=us}}, while promoting {{player|Chime|flag=ca}} to the main roster <ref name="Summer 2021">{{cite web |url=https://twitter.com/GoldenGuardians/status/1394004900443426816 |title=Your Summer 2021 GG Starting LCS Roster. |date=2021-05-16 |author=[[Golden Guardians]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>.
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10 |groupElimStatuses=down,staydown,stay
+|tournament1=LCS/2021/Summer/Group Stage
+|tournament2=LCS/2021/Summer/Playoffs
+|qualifies1=World Championship/2021
+|{{Slot |place=1 |qualified1=yes|usdprize=100,000}}
+|{{Slot |place=2 |qualified1=yes|usdprize=50,000}}
+|{{Slot |place=3 |qualified1=yes|usdprize=30,000}}
+|{{Slot |place=4 |usdprize=20,000}}
+|adjacentContent=
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/2021/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LCS/2021/Summer/Playoffs
+}}
+{{box|end}}
+}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+====All-Season Awards====
+
+{{prize pool start award|noprize=true|cutafter=10|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Spica|flag1=cn|team1=tsm|date=2021-08-27}}
+{{prize pool slot award|award=Rookie of the Year |Danny|flag1=us|team1=evil geniuses|date=2021-08-11}}
+{{prize pool slot award|award=Coaching Staff of the Split |date=2021-08-06
+|Peter Dun|flag1=uk|team1=evil geniuses
+|Turtle|flag2=br|team2=evil geniuses
+|Artemis (American coach){{!}}Artemis|flag3=us|team3=evil geniuses
+}}
+{{prize pool slot award|award=1st All-Pro Team |date=2021-08-06
+|Fudge|flag1=au|team1=cloud9
+|Spica|flag2=cn|team2=tsm
+|Jiizuke|flag3=it|team3=evil geniuses
+|FBI|flag4=au|team4=100 thieves
+|CoreJJ|flag5=kr|team5=team liquid
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2021-08-06
+|Impact|flag1=kr|team1=evil geniuses
+|Closer|flag2=tr|team2=100 thieves
+|Abbedagge|flag3=de|team3=100 thieves
+|Danny|flag4=us|team4=evil geniuses
+|huhi|flag5=kr|team5=100 thieves
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2021-08-06
+|Huni|flag1=kr|team1=tsm
+|Blaber|flag2=us|team2=cloud9
+|PowerOfEvil|flag3=de|team3=tsm
+|Tactical|flag4=us|team4=team liquid
+|Vulcan|flag5=ca|team5=cloud9
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+====Player of the Week====
+
+{{prize pool start award|noprize=true|tier=weekly|margin=false}}
+{{prize pool slot award|award=Player of the Week 1 |Xerxe |flag1=ro |team1=imt |date=2021-06-07}}
+{{prize pool slot award|award=Player of the Week 2 |Abbedagge |flag1=de |team1=100 |date=2021-06-14}}
+{{prize pool slot award|award=Player of the Week 3 |Broxah |flag1=dk |team1=clg |date=2021-06-21}}
+{{prize pool slot award|award=Player of the Week 4 |FBI |flag1=au |team1=100 |date=2021-06-28}}
+{{prize pool slot award|award=Player of the Week 5 |Closer |flag1=tr |team1=100 |date=2021-07-05}}
+{{prize pool slot award|award=Player of the Week 6 |Licorice |flag1=ca |team1=gg |date=2021-07-12}}
+{{prize pool slot award|award=Player of the Week 7 |Impact |flag1=kr |team1=eg |date=2021-07-19}}
+{{prize pool slot award|award=Player of the Week 8 |Destiny (Australian player){{!}}Destiny |flag1=au |team1=imt |date=2021-07-26}}
+{{prize pool slot award|award=Player of the Week 9 |Spica |flag1=cn |team1=tsm |date=2021-08-02}}
+{{Prize pool end}}
+
+{{box|end|padding=2em}}
+
+{{box|end|padding=2em}}
+
+<!--==Roster moves==
+{{Transfer List
+|sdate=2021-04-12
+|edate=2021-06-04
+|team=100 Thieves
+|team2=Cloud9
+|team3=Team Liquid
+|team4=TSM
+|team5=Flyquest
+|team6=Dignitas
+|team7=Evil Geniuses
+|team8=Counter Logic Gaming
+|team9=Golden Guardians
+|team10=Immortals
+}}
+{{Transfer List
+|title=Roster moves during the season
+|sdate=2021-06-04
+|edate=2021-08-29
+|team=100 Thieves
+|team2=Cloud9
+|team3=Team Liquid
+|team4=TSM
+|team5=Flyquest
+|team6=Dignitas
+|team7=Evil Geniuses
+|team8=Counter Logic Gaming
+|team9=Golden Guardians
+|team10=Immortals
+}}-->
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Closer
+|p3=Abbedagge
+|p4=FBI
+|p5=huhi
+
+|t2p1=Tenacity |t2p1dnp=true |t2pos1=top
+|t2p2=Kenvi |t2p2dnp=true |t2pos2=jg
+|t2p3=Ryoma |t2p3dnp=true |t2pos3=mid
+|t2p4=Luger |t2p4dnp=true |t2pos4=bot
+|t2p5=Poome |t2p5dnp=true |t2pos5=sup
+|t2p6=Busio |t2p6dnp=true |t2pos6=sup
+
+|t3p1=Reapered |t3pos1=Head coach
+|t3p2=Freeze|t3p2flag=|t3pos2=assistant coach
+|t3p3=Lustboy|t3p3flag=|t3pos3=strategic coach
+|t3p4=Kaimera|t3p4flag=us|t3pos4=analyst
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=Perkz
+|p4=Zven
+|p5=Vulcan
+
+|t2p1=Darshan |t2p1dnp=true |t2pos1=top
+|t2p2=Shernfire |t2p2dnp=true |t2pos2=jg
+|t2p3=Copy |t2p3dnp=true |t2pos3=mid
+|t2p4=K1ng |t2pos4=bot
+|t2p5=Isles |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Mithy|t3p1flag=|t3pos1=head coach
+|t3p2=Reignover|t3p2flag=|t3pos2=strategic coach
+|t3p3=Veigar v2|t3p3flag=no|t3pos3=strategic coach
+|t3p4=Max Waldo|t3p4flag=us|t3pos4=strategic coach
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Finn
+|p2=Broxah
+|p3=Pobelter
+|p4=Damonte |pos4=mid
+|p5=WildTurtle |pos5=bot
+|p6=Smoothie |pos6=sup
+
+|t2p1=Thien |t2p1dnp=true |t2pos1=top
+|t2p2=Keel |t2p2dnp=true |t2pos2=jg
+|t2p3=rjs |t2p3dnp=true |t2pos3=mid
+|t2p4=Katsurii |t2p4dnp=true |t2pos4=bot
+|t2p5=Auto |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Galen|t3p1flag=us|t3pos1=head coach
+|t3p2=Prymari|t3p2flag=us|t3pos2=assistant coach
+|t3p3=Gutex|t3p3flag=dk|t3pos3=positional coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Dignitas
+|p1=FakeGod
+|p2=Dardoch |p2leave=true
+|p3=Akaadian |pos3=jg
+|p4=Yusui |pos4=mid
+|p5=Neo |p5link=Neo_(American_player) |pos5=bot
+|p6=aphromoo |pos6=sup
+
+|t2p1=Lourlo |t2p1dnp=true |t2pos1=top
+|t2p2=Will |t2p2flag=us |t2p2dnp=true |t2pos2=jg
+|t2p3=Soligo |t2pos3=mid
+|t2p4=Spawn |t2p4dnp=true |t2pos4=bot
+|t2p5=JayJ |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Invert|t3p1flag=ca|t3pos1=coach
+|t3p2=Mabrey|t3p2flag=us|t3pos2=strategic coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Impact
+|p2=Svenskeren
+|p3=Contractz |pos3=jg
+|p4=Jiizuke |pos4=mid
+|p5=Danny |pos5=bot
+|p6=IgNar |pos6=sup
+
+|t2p1=Tony Top |t2p1dnp=true |t2pos1=top
+|t2p2=Tomio |t2p2dnp=true |t2pos2=jg
+|t2p3=Jojopyun |t2p3dnp=true |t2pos3=mid
+|t2p4=TeamLuke |t2p4dnp=true |t2pos4=bot
+|t2p5=Mystiques |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Peter Dun|t3p1flag=uk|t3pos1=head coach
+|t3p2=Artemis|t3p2link=Artemis (American player)|t3p2flag=us|t3pos2=strategic coach
+|t3p3=Mash|t3p3flag=ca|t3pos3=coach
+|t3p4=Turtle|t3p4flag=br|t3pos4=coach
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Kumo |pos1=top
+|p2=Josedeodo |pos2=jg
+|p3=Palafox |pos3=mid
+|p4=Tomo |pos4=bot
+|p5=Diamond |p5link=Diamond (Canadian player) |pos5=sup
+
+|t2p1=Licorice |t2p1leave=true |t2pos1=top
+|t2p2=Philip |t2p2flag=ca |t2pos2=top |t2p2dnp=true
+|t2p3=Nxi |t2pos3=jg
+|t2p4=Triple |t2pos4=mid
+|t2p5=Johnsun |t2pos5=bot
+|t2p6=Dreams |t2p6link=Dreams (Korean player) |t2pos6=sup
+
+|t3p1=Kanani|t3p1flag=algeria|t3pos1=head coach
+|t3p2=Lufty|t3p2flag=us|t3pos2=assistant coach
+|t3p3=Sharkz|t3p3flag=belarus|t3pos3=assistant coach
+|t3p4=Loyota|t3p4flag=us|t3pos4=analyst
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Licorice
+|p2=Solo |pos2=top
+|p3=Iconic |pos3=jg
+|p4=Ablazeolive |pos4=mid
+|p5=Stixxay |pos5=bot
+|p6=Chime |pos6=sup
+
+|t2p1=Niles |t2p1dnp=true |t2pos1=top
+|t2p2=RoseThorn |t2p2dnp=true |t2pos2=jg
+|t2p3=Yunbee |t2p3dnp=true |t2pos3=mid
+|t2p4=Prismal |t2p4dnp=true |t2pos4=bot
+|t2p5=Newbie |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Inero|t3p1flag=us|t3pos1=head coach
+|t3p2=Swip3rR|t3p2flag=au|t3pos2=coach
+|t3p3=Bubbadub|t3p3flag=us|t3pos3=analyst
+|t3p4=Jido|t3pos4=analyst
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Immortals
+|p1=Revenge
+|p2=Xerxe
+|p3=Insanity
+|p4=Raes
+|p5=Destiny |p5link=Destiny (Australian player)
+
+|t2p1=V1per |t2p1dnp=true |t2pos1=top
+|t2p2=AnDa |t2p2dnp=true |t2pos2=jg
+|t2p3=Pretty |t2pos3=mid
+|t2p4=Keith |t2p4dnp=true |t2pos4=bot
+|t2p5=Joey |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Guilhoto|t3p1flag=|t3pos1=head coach
+|t3p2=Malaclypse|t3p2flag=us|t3pos2=coach
+|t3p3=Dardoch|t3p3flag=us|t3pos3=assistant coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Alphari
+|p2=Santorin
+|p3=Armao |pos3=jg
+|p4=Jensen |pos4=mid
+|p5=Tactical |pos5=bot
+|p6=CoreJJ |pos6=sup
+
+|t2p1=Jenkins |t2pos1=top
+|t2p2=Inori |t2pos2=jg |t2p2dnp=true
+|t2p3=Haeri |t2p3dnp=true |t2pos3=mid
+|t2p4=Yeon |t2p4dnp=true |t2pos4=bot
+|t2p5=Eyla |t2p5dnp=true |t2pos5=sup
+
+|t3p1=Jatt|t3p1flag=|t3pos1=head coach|t3p1leave=true
+|t3p2=Kold|t3p2flag=|t3pos2=head coach
+|t3p3=H4xDefender|t3p3flag=us|t3pos3=assistant coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=TSM
+|p1=Huni
+|p2=Spica
+|p3=PowerOfEvil
+|p4=Lost
+|p5=SwordArt
+
+|t2p1=Hauntzer |t2p1dnp=true |t2pos1=top
+|t2p2=Hyper |t2p2dnp=true |t2pos2=jg
+|t2p3=Swordd |t2p3dnp=true |t2pos3=mid
+|t2p4=Takeover |t2pos4=mid |t2p4dnp=true
+|t2p5=Cody Sun |t2pos5=bot |t2p5dnp=true
+|t2p6=Yursan |t2pos6=support |t2p6dnp=true
+
+|t3p1=Bjergsen|t3p1flag=|t3pos1=head coach
+|t3p2=Curry|t3p2flag=|t3pos2=assistant coach
+|t3p3=Kayys|t3p3flag=|t3pos3=strategic coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard columns end}}
+<!--{{roster changes start}}
+{{note15|nobox=y
+|n1=June 5th - {{player|Jenkins|flag=us}} will be '''[[Team Liquid]]''''s starting toplaner until June 27th, replacing {{player|Alphari|flag=uk}}. <ref>{{cite web |url=https://twitter.com/TeamLiquidLoL/status/1401048399688859648 |title=Weekend Roster Update |date=2021-06-05 |author=[[Team Liquid]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref><ref>{{cite web |url=https://twitter.com/TeamLiquidLoL/status/1403454568130772993 |title=LCS Roster Update |date=2021-06-11 |author=[[Team Liquid]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n2=June 9th - {{player|Yusui|flag=us}} is promoted to '''[[Dignitas]]'''' starting roster, {{player|Soligo|flag=us}} is moved to '''[[Dignitas Academy]]'''. <ref>{{cite web |url=https://twitter.com/dignitas/status/1402698797117894657 |title=#LCS Roster Update |date=2021-06-09 |author=[[Dignitas]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n3=June 10th - {{player|Pretty|flag=gr}} will play for '''[[Immortals]]''' in the game against '''[[Evil Geniuses]]''', {{player|Insanity|flag=us}} will remain on the starting roster. <ref>{{cite web |url=https://twitter.com/Immortals/status/1403056873104887808 |title=IMT #LCS Roster Update |date=2021-06-10 |author=[[Immortals]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n4=June 18th - '''[[Dignitas]]''' bench {{player|Dardoch|flag=us}} as they promote {{player|Akaadian|flag=us}} from the academy team. <ref>{{cite web |url=https://twitter.com/dignitas/status/1406098368556789763 |title=Dardoch has been benched for tomorrow's #LCS game against TSM. |date=2021-06-19 |author=[[Dignitas]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n5=June 22nd - '''[[Cloud9]]''' announce the return of {{player|Zven|flag=dk}}, {{player|K1ng|flag=au}} is moved to '''[[Cloud9 Academy]]'''. <ref>{{cite web |url=https://twitter.com/Cloud9/status/1407428373534625798 |title=He's back. |date=2021-06-22 |author=[[Cloud9]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n6=June 24th - {{player|Armao|flag=us}} joins '''[[Team Liquid]]''', {{player|Santorin|flag=dk}} steps back temporarily due to health issues. {{player|Jatt|flag=ca}} leaves the team, {{player|Kold|flag=dk}} moves to an interim head coach position, {{player|H4xDefender|flag=us}} moves to an assistant coach position. <ref>{{cite web |url=https://twitter.com/TeamLiquidLoL/status/1408107651821490185 |title=Team Update |date=2021-06-24 |author=[[Team Liquid]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n7=June 25th - '''[[Dignitas]]''' part ways with {{player|Dardoch|flag=us}}. <ref>{{Cite web |date=2021-06-25 |url=https://twitter.com/dignitas/status/1408489694963269636 |title=Our statement regarding the #LCS roster. |language={{Flag|engspeaking}} English |author=Dignitas |publisher=Twitter}}</ref>
+|n8=June 26th - '''[[Evil Geniuses]]''' will play with {{player|Contractz|flag=us}} against [[TSM]]. <ref>{{cite web |url=https://mobile.twitter.com/pcdv8r/status/1408628582855839745 |title=Evil Geniuses Jungle Change vs TSM |date=2021-06-26 |author=[[Peter Dun]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n9=July 6th - {{player|Licorice|flag=ca}} leaves '''[[FlyQuest]]''' to join '''[[Golden Guardians]]''', {{player|Kumo|flag=us}} is promoted from '''[[FlyQuest Academy]]''', '''[[FlyQuest]]''' will field their academy team for week 6. <ref>{{cite web |url=https://twitter.com/GoldenGuardians/status/1412516816451117056 |title=Join us in welcoming the newest addition to Golden Guardians, @Licorice. |date=2021-07-06 |author=[[Golden Guardians]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref><ref>{{cite web |url=https://twitter.com/FlyQuest/status/1412516949263675392 |title=Today, we're announcing two major changes to our LCS and Academy rosters. |date=2021-07-06 |author=[[FlyQuest]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n10=July 9th - {{player|Alphari|flag=uk}} returns to the '''[[Team Liquid]]''' starting roster. <ref>{{cite web |url=https://twitter.com/TeamLiquidLoL/status/1413680115356102656 |title=Barney’s back. #TLWIN |date=2021-07-09 |author=[[Team Liquid]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n11=July 9th - {{player|Dardoch|flag=us}} joins '''[[Immortals]]''' as an assistant coach. <ref>{{cite web |url=https://twitter.com/Immortals/status/1413528381547708417 |title=Welcome home, IMT @Dardoch |date=2021-07-09 |author=[[Immortals]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n12=July 13th - {{player|Damonte|flag=us}} joins '''[[Counter Logic Gaming]]'''. <ref name="Damonte joins">{{cite web |url=https://twitter.com/clgaming/status/1415023221938606081 |title=@Damonte will be starting for CLG this weekend. |date=2021-07-13 |author=[[Counter Logic Gaming]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n13=July 21st - {{player|Contractz|flag=us}} is promoted to [[Evil Geniuses]] alongside {{player|Svenskeren|flag=dk}}, he will split time between the main and [[Evil Geniuses Academy|academy]] roster. <ref>{{cite web |url=https://twitter.com/EvilGeniuses/status/1417994059998810124 |title=Another Prodigy making moves |date=2021-07-21 |author=[[Evil Geniuses]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n14=July 27th - {{player|Josedeodo|flag=ar}} and {{player|Palafox|flag=us}} return to [[FlyQuest]], replacing {{player|Nxi|flag=ca}} and {{player|Triple|flag=au}}. <ref>{{cite web |url=https://twitter.com/FlyQuest/status/1420141956915683335 |title=Week 9 - Roster update |date=2021-07-27 |author=[[FlyQuest]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+|n15=July 30th - {{player|Santorin|flag=dk}} returns to the [[Team Liquid]] starting roster. <ref>{{cite web |url=https://twitter.com/TeamLiquidLoL/status/1421164316212957188 |title=Santorin's back. |date=2021-07-30 |author=[[Team Liquid]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+{{tabs dynamic/end}}}}-->
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/2021/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/2021/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===LCS Championship 2021===
+{{#lst:LCS/2021/Summer/Playoffs|Playoffs}}
+
+
+==Format==
+* '''Group Stage''' - ''June 4th - August 1st, 2021''
+** Triple Round Robin
+** Each team plays 27 matches.
+** All matches are played in a {{Abbr/Bo1}}
+** Unlike previous editions, records are carried over from [[LCS/2021/Spring/Group Stage|LCS Spring Group Stage]].
+
+* '''Playoffs''' - now known as ''LCS Championship''
+** Top 8 qualify for the LCS Championship
+** 1st and 2nd starts in the Upper Bracket Round 2,
+** 3rd, 4th, 5th and 6th starts in the Upper Bracket Round 1,
+** 7th and 8th start in the Lower Bracket.
+** Double Elimination
+** All matches are played in a {{Abbr/Bo5}} 
+** Top 3 teams will be qualified for [[World_Championship/2021|Worlds 2021]]
+
+==Broadcast==
+===Streams===
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash
+|b2=LeTigress
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=LeTigress
+|b2=Pastrytime
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Emily Rand |b1flag=us
+|b2=Hai
+|b3=MarkZ
+|b4=Kaizen |b4name=Kaizen Asiedu |b4flag=us
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=CaptainFlowers
+|b2=Pastrytime
+|b3=Phreak
+}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Azael
+|b2=Crumbz
+|b3=Kobe
+|b4=Raz
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="40"| 9
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-11-notes/ 11.11]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-12-notes/ 11.12]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-13-notes/ 11.13]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-14-notes/ 11.14]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-15-notes/ 11.15]
+|-
+| Disabled
+| colspan="2" |
+| colspan="1" |{{ChampionIcon|Dr. Mundo|30px}}
+| colspan="5" |
+| colspan="2" |{{ChampionIcon|Akshan|30px}}
+|}
+
+===Statistics===
+{{#lst:LCS/2021/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/2021/Summer|edate=2021-12-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+{{2021 Season International Cycle Navbox}}

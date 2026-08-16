@@ -8,9 +8,11 @@ tools/npc/
 ├── crawl.mjs          Liquipedia 抓取工具（零相依，Node 18+）
 ├── gen-target-tw.mjs  target_players.csv 台港澳段生成器（S24b）
 ├── gen-team-history.mjs  team_history.json 台港澳段生成器（S24b）
+├── gen-target-intl.mjs   target_players.csv 國際段生成器（S24c，冪等疊加）
+├── gen-team-history-intl.mjs  team_history.json 國際段生成器（S24c，冪等疊加）
 ├── README.md          本檔
-├── target_players.csv 台港澳選手清單（S24b，priority 全 1）
-├── team_history.json  戰隊演變樹台港澳段（S24b，S24c 補國際段）
+├── target_players.csv 選手清單（台港澳 S24b priority 1 ＋ 國際 S24c priority 2）
+├── team_history.json  戰隊演變樹（台港澳 S24b ＋ 國際 S24c，同一份檔）
 ├── *.txt              分類枚舉／抓取清單（enum-cat 產出，可重跑再生）
 └── raw_data/          整頁 Wikitext 原始抓取（進 repo，CC BY-SA 可稽）
     ├── manifest.jsonl 成功記錄（冪等／續傳的依據）
@@ -103,6 +105,31 @@ node gen-team-history.mjs --all   # → team_history.json（人工表 ABBREVIATI
 賽事頁清單（`events_twhkmo.txt`，31 頁）手寫維護：GPL 2012–2014 9 頁、
 LMS 2015–2019 10 頁、PCS 2020–2024 10 頁、LCP 2025 3 頁（格式跨年不一，見
 24a 頁題陷阱第 4 點）。
+
+## S24c 產物與重跑流程
+
+國際段（Worlds／MSI 全參賽隊＋LCK／LPL／LEC／LCS 歷年賽段冠軍隊）疊加進
+`target_players.csv`（region=INTL、fetch_priority=2）與 `team_history.json`
+（同一份檔）：
+
+```bash
+# 1. Worlds/MSI 賽事頁（26 頁，冪等）
+node crawl.mjs crawl events_worlds_msi.txt
+# 2. LCK/LPL/LEC/LCS 歷年賽段頁（109 頁，冪等——429 限流抓不齊時重跑只補缺的）
+node crawl.mjs crawl events_champions.txt
+# 3. 重新生成（都冪等：疊加進現有檔，不覆寫台港澳段／已有國際資料）
+node gen-target-intl.mjs
+node gen-team-history-intl.mjs
+```
+
+⚠ **冠軍判定不靠 MVP 猜測，靠 Worlds/MSI 頁 `qualifier=` 連結反推**（split 頁
+本身的 `TeamPrizePool` 不含隊伍名、名次要靠 `{{ShowBracket}}` 走 LPDB，靜態
+wikitext 抓不到，24a 已預警）——詳細判定邏輯與驗證見 `gen-target-intl.mjs` 檔頭
+註解與 `docs/v4/24c-國際目錄.md` 交接筆記。`ABBREVIATIONS_INTL`／
+`RENAMES_INTL`／`NAME_ALIASES` 是 `gen-team-history-intl.mjs` 內的人工維護表，
+重跑改表不改產出檔。`team_history.json` 國際段的 `region` 是 Liquipedia 賽區
+代碼（LCK/LPL/LEC/…），`active_years` 是已抓資料的年份窗近似值，**都不是**
+Infobox 的權威欄位——精確值留給 S25 需要時另外抓。
 
 ## 探勘結論（S24a 實測，交接筆記全文在 docs/v4/24a-探勘與管線.md）
 

@@ -1,0 +1,724 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2023&redirects=1
+<!-- 抓取: 2026-08-16T18:37:29.595Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2023 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}
+{{MSI2023Tabs}}
+{{Infobox league
+|name=2023 Mid-Season Invitational
+|shortname=MSI 2023
+|image=MSI 2023 allmode.png
+|series=MSI
+|icon=MSI 2021 lightmode.png
+|icondark=MSI 2021 darkmode.png
+|organizer=Riot Games
+|organizer-link=https://www.riotgames.com/
+|patch=13.8
+|sponsor1=[https://www.oneplus.com/ OnePlus]
+|sponsor2=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor3=[https://www.redbull.com/ Red Bull]
+|sponsor4=[https://secretlab.eu/ Secretlab]
+|sponsor5=[https://www.verizon.com/ Verizon]
+|sponsor6=[http://www.mastercard.com/ Mastercard]
+|sponsor7=[https://www.cisco.com/ Cisco]
+|sponsor8=[https://www.amazon.com/prime-gaming Prime Gaming]
+|sponsor9=[https://aws.amazon.com/ AWS]
+|type=Offline
+|country=United Kingdom
+|city=London
+|venue=Copper Box Arena
+|venuedesc=
+|venuelink=https://en.wikipedia.org/wiki/Copper_Box_Arena
+|format='''Play-In Stage:'''<br>Double Elimination<br>'''Bracket Stage:'''<br>Double Elimination
+|prizepoolusd=250,000
+|sdate=2023-05-02
+|edate=2023-05-21
+|liquipediatier=1
+|highlighted=true
+|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/96b920d226d09d3c875711aeaac0214975636d56.pdf
+|website=http://www.lolesports.com/
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|team_number=13
+|previous=Mid-Season Invitational/2022{{!}}2022
+|next=Mid-Season Invitational/2024{{!}}2024
+}}
+
+
+The '''Mid-Season Invitational''' (also abbreviated as ''MSI'') features the winners from 9 individual Riot leagues spring splits and 4 runner ups from [[LCK]], [[LPL]], [[LEC]], [[LCS]].
+
+==Format==
+* '''Qualification'''
+** LCK, LPL, LEC, LCS will have 2 slots, while PCS, VCS, LJL, CBLoL, LLA will have 1 slot.
+** Each winner from LCK, LPL, LEC (only in Spring), LCS and runner up from LCK (awarded by winning Worlds 2022) will start from Playoffs, while the others start from Play-In.
+
+* '''Play-In''' - ''May 2<sup>nd</sup> - May 7<sup>th</sup>''
+** Double Elimination bracket
+** All matches (excl. Lower Bracket Final) are played in a {{Abbr/Bo3}}, Lower Final is played in {{Abbr/Bo5}}.
+** <span class="bg-up">Top 3 teams</span> qualify to Playoff.
+
+* '''Playoffs''' - ''May 9<sup>th</sup> - May 14<sup>th</sup> and May 16<sup>th</sup> - May 21<sup>st</sup>''
+** Three teams from Play-In Stage join five teams with direct entry.
+** Double-Elimination bracket
+** All matches are {{Abbr/Bo5}}
+
+* '''Patch Information'''
+** {{ChampionIcon|Yuumi|20px}} [[Yuumi]] and {{ChampionIcon|Milio|20px}} [[Milio]] are disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<ref name="yuumi banned">{{cite web|url=https://twitter.com/lolesports/status/1648748727765549056|title=A quick update regarding champion restrictions for #MSI2023|author=LoL Esports|publisher=Twitter|date=2023-04-19|language={{Flag|usuk}}English}}</ref>
+
+==Broadcast Talent==
+{{Tabs dynamic|name1=English Broadcast|name2=EMEA Broadcasts|name3=LATAM Broadcast|name4=Brazilian Broadcast|name5=Asian Broadcasts|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host
+|b1=Laure
+|b2=Sjokz
+|b3=Quickshot
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Frankie
+|b2=Laure
+|b3=Yinsu |b3name=Yinsu Collins |b3flag=uk |b3link=valorant:Yinsu
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Aux
+|b2=Guldborg
+|b3=Emily Rand
+|b4=Jatt
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=CaptainFlowers
+|b3=Drakos
+|b4=Medic
+|b5=Munchables
+|b6=Oisín |b6link=Oisín (Irish Commentator)
+|b7=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Chronicler
+|b3=Dagda
+|b4=Kobe
+|b5=MarkZ
+|b6=Vedius
+|b7=Raz
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Italian Commentator
+|b1=etrurian
+|b2=KenRhen
+|b3=Moonboy
+|b4=Juannetti
+|b5=Charlie Yay
+|b6=Wolcat
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Polish Commentator
+|b1=Bezi
+|b2=Tabasko
+|b3=TheFakeOne
+|b4=Kaspersky
+|b5=Silv4n
+|b6=Myha
+|b7=CzarnyPiotruś
+|b8=Magvayer
+|b9=Bialito
+|b10=Veggie
+|b11=Woolite
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Spanish Commentator
+|b1=Noa
+|b2=Champi
+|b3=Wolk
+|b4=Jaime Mellado|b4flag=es|b4name=Jaime Mellado
+|b5=Tesh
+|b6=Fernando Cardenete|b6flag=es
+|b7=Toad
+|b8=Bebé|b8flag=es|b8name=Carlos Bahlsen
+|b9=mrfreak00
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=French Commentator
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=Zerotick
+|b5=Finghin
+|b6=TraYtoN
+|b7=Duke|b7link=Duke_(French_coach)
+|b8=Saken
+|b9=Wakz
+|b10=Glopo
+|b11=Chreak
+|b12=Vetheo
+|b13=ImSoFresh
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=German Commentator
+|b1=EisohneWaffel
+|b2=Basti
+|b3=Kernus
+|b4=Ryxcales
+|b5=Pixavis
+|b6=Alanio
+|b7=Mori
+|b8=Masterplay
+|b9=Kxng
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Czech Commentator
+|b1=Kangae
+|b2=Mortsche
+|b3=Fortanu
+|b4=Murde
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Hungarian Commentator
+|b1=Loemifar
+|b2=Makaria
+|b3=Atreus
+|b4=Asdelek
+|b5=noizR
+|b6=Mentsvar
+|b7=Livius
+|b8=Pierce
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Portuguese Commentator
+|b1=OneRingWraith
+|b2=Omegamon
+|b3=Guerreiro
+|b4=Hackali
+|b5=Zemo
+|b6=Saeken
+|b7=Ahnyfar
+|b8=Enlatado
+|b9=Tibi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Serbian Commentator
+|b1=Ljuba
+|b2=Mićko
+|b3=Njen
+|b4=Sa1na
+|b5=Glisha
+|b6=Ralla
+|b7=Neeko's Help
+|b8=Njami
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Turkish Commentator
+|b1=Hoca
+|b2=Trix
+|b3=Nova
+|b4=Japone
+|b5=Euphony
+|b6=Jhonnie
+|b7=Mehitra|b7flag=tr|b7name=Sinan Susler
+|b8=Farfetch
+|b9=Dora
+|b10=Noeldayi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Greek Commentator
+|b1=Nero|b1link=Nero (Greek player)|b1flag=gr|b1name=Konstantinos Perperidis
+|b2=Rev
+|b3=TonyB
+|b4=LivingDead
+|b5=Labokop
+|b6=IceBreaker
+|b7=TheRock7
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Commentator
+|b1=Corsario
+|b2=Jiral|b2flag=mx|b2name=Daniel del Castillo
+|b3=AndresX
+|b4=Lenore
+|b5=Rafamaik
+|b6=Nachittus
+|b7=Tyrone
+|b8=Magui Sunshine|b8flag=ar|b8name=Magalí Sanyán
+|b9=Darkoz|b9flag=ar|b9name=Lucas Ledesma
+|b10=Demizos
+|b11=Seiya
+|b12=Skyshock|b12flag=mx|b12name=Erick González
+|b13=Balpo|b13flag=mx|b13name=Pablo de Rubens
+|b14=Elmo|b14link=Elmo (Chilean caster)|b14flag=cl|b14name=Bastian Guzmán
+|b15=Gotszar
+|b16=Charlie|b16link=Charlie (Colombian caster)|b16flag=co|b16name=Carlos Bravo
+|b17=Fahrenheit
+|b18=JJ EX
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Interviewer
+|b1=Lau Agnolin
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Commentator
+|b1=Skeat
+|b2=gstv1
+|b3=Schaeppi
+|b4=Dioud
+|b5=Tabs
+|b6=Professor
+|b7=Loop
+|b8=Gruntar
+|b9=Colosimus
+|b10=Fogueta
+|b11=Stoker|b11flag=br|b11name=Victor Stoker
+|b12=Lahgolas
+|b13=Dudu|b13name=Eduardo Souza|b13link=Dudu (Brazilian caster) |b13flag=br
+|b14=Nappon
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Interviewer
+|b1=Rafaela Tomasi
+|b2=Takeshi
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|5}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Japanese Commentator
+|b1=eyes
+|b2=Revol
+|b3=katsudion
+|b4=wataneko|b4flag=jp|b4name=Wataru Kaneko
+|b5=Jaeger|b5link=Jaeger (Japanese caster)|b5flag=jp
+|b6=Recruit|b6flag=jp
+|b7=Nemoh
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Cantonese Commentator
+|b1=LoSing|b1name=Wu kit-sing|b1flag=hk
+|b2=Bella|b2link=Bella (Hong Kong Caster)|b2flag=hk|b2name=Lee Yan-wing
+|b3=Berry Boys' Andy|b3flag=hk
+|b4=Berry Boys' Chris|b4flag=hk
+|b5=Hei Hei|b5flag=hk|b5name=Pang Wing-hei
+|b6=Chris|b6link=Chris (Hong Kong caster)|b6flag=hk
+|b7=Ice|b7link=Ice (Hong Kong caster)|b7flag=hk
+|b8=Dream|b8link=Dream (Hong Kong caster)|b8flag=hk|b8name=Shek Hoi-yee
+|b9=Sigma |b9name=Micheal Lui |b9flag=hk
+|b10=Sang|b10flag=hk|b10name=Wong Wai-sang
+|b11=Jazkit|b11flag=hk|b11name=Chan Cheuk-kit
+|b12=Kabe
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Mandarin Commentator
+|b1=Section
+|b2=Zod
+|b3=YuWu|b3flag=tw
+|b4=Nash|b4link=Nash (Taiwanese caster)
+|b5=Jackie|b5flag=tw
+|b6=Art|b6link=Art (Taiwanese caster)|b6flag=tw|b6name=Chen Yu-Ting
+|b7=Changmao
+|b8=JR|b8flag=tw|b8name=Yang Chih-jen
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Vietnamese Commentator
+|b1=Hải Dương|b1flag=vn|b1name=Nguyễn Hải Dương
+|b2=Tùng Lâm|b2flag=vn|b2name=Hoàng Tùng Lâm
+|b3= Bá Điền|b3flag=vn
+|b4=Hữu Trung
+|b5=Văn Tùng
+|b6=Minh Hảo|b6flag=vn|b6name=Nguyễn Minh Hảo
+|b7=Hoàng Luân|b7flag=vn|b7name=Huỳnh Hải Hoàng Luân 
+|b8=Minh Trí|b8flag=vn
+|b9=Ngọc Thiên |b9flag=vn |b9name=Đặng Ngọc Thiên
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Caster
+|b1=Caster Jun
+|b2=SEONG K
+|b3=Dankun|b3flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Ggoggo|b2flag=kr
+|b3=MyLittlePony|b3flag=kr|b3name=Lim Ju-wan
+|b4=NoFe
+|b5=Huni
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Cpt Jack |b1flag=kr
+|b2=Helios|b2link=Helios (Korean player)
+|b3=Bang |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Bae Hye-ji |b1flag=kr
+|b2=Ham Ye-jin |b2flag=kr
+|b3=Youn Soo-bin |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Interviewer
+|b1=zeetwo
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Chinese Commentator
+|b1=Zeyuan
+|b2=Mile
+|b3=wAwa
+|b4=Duoduo
+|b5=957
+|b6=Tongxi
+|b7=Maomao
+|b8=pyl|b8flag=cn
+|b9=san
+|b10=Fireloli
+|b11=MacT|b11flag=cn
+}}
+{{BroadcasterCard
+|position=Chinese Interviewer
+|b1=Candice
+}}
+{{BroadcasterCard
+|position=Chinese Translator
+|b1=Christina
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8 |percentage1=1
+|tournament1=Mid-Season Invitational/2023/Play-In Stage|tournament2=Mid-Season Invitational/2023/Bracket Stage
+|{{Slot|percentage1=20%}}
+|{{Slot|percentage1=15%}}
+|{{Slot|percentage1=12%}}
+|{{Slot|percentage1=10%}}
+|{{Slot|count=2|percentage1=8%}}
+|{{Slot|count=2|percentage1=6%}}
+|{{Slot|percentage1=5%}}
+|{{Slot|count=2|percentage1=3%}}
+|{{Slot|count=2|percentage1=2%}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true|margin=false
+|{{Slot|award=MVP |{{Opponent|knight |flag=cn |team=jdg}}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=Mid-Season_Invitational/2023/Play-In_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Bracket Stage MVP
+|tournament=Mid-Season_Invitational/2023/Bracket_Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Bracket Stage Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Gen.G
+|p1=Doran
+|p2=Peanut |p2wins=1
+|p3=Chovy
+|p4=Peyz
+|p5=Delight
+
+|t2p1=Score  |t2p1flag=kr |t2pos1=head coach
+|t2p2=Mafa |t2pos2=coach
+|t2p3=Museong |t2pos3=coach
+|t2title=Staff
+|qualifier=[[LCK/2023/Spring|LCK Spring]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker |p3wins=2
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Bengi |t2pos1=head coach
+|t2p2=Sky |t2pos2=coach|t2p2link=Sky (Kim Ha-neul)
+|t2p3=Roach |t2pos3=Coach 
+|t2p4=Tom |t2pos4=Coach 
+|t2p5=Gisepa |t2pos5=analyst
+|t2title=Staff
+|qualifier=[[LCK/2023/Spring|LCK Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season Invitational/2017|date=2017-05-21}} '''(2016, 2017)'''
+}}
+
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=EMENES
+|p4=Berserker |p4link=Berserker (Korean player)
+|p5=Zven
+
+|t2p1=mithy |t2pos1=head coach
+|t2p2=Tails |t2p2flag=ca |t2pos2=assistant coach
+|t2p3=Veigarv2 |t2pos3=assistant coach
+|t2p4=Duffman|t2p4flag=uk |t2pos4=assistant coach
+|t2title=Staff
+|qualifier=[[LCS/2023/Spring|LCS Spring]]
+|placement=5
+|placementicon={{LeagueIconSmall/msi|Mid-Season Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=JD Gaming
+|p1=369
+|p2=Kanavi
+|p3=knight
+|p4=Ruler
+|p5=MISSING
+
+|t2p1=Homme |t2pos1=head coach
+|t2p2=Viod |t2pos2=coach
+|t2p3=Vus5o |t2pos3=analyst
+|t2title=Staff
+|qualifier=[[LPL/2023/Spring|LPL Spring]]
+}}
+
+{{TeamCard
+|team=MAD Lions
+|p1=Chasy
+|p2=Elyoya
+|p3=Nisqy
+|p4=Carzzy
+|p5=Hylissang
+
+|t2p1=Mac |t2pos1=Head Coach
+|t2p2=Achuu |t2pos2=Assistant Coach
+|t2p3=Zeph |t2pos3=Assistant Coach
+|t2p4=Pad |t2pos4=Strategic Coach
+|t2p5=Aagie |t2p5flag=es |t2pos5=Analyst
+|t2title=Staff
+|qualifier=[[LEC/2023/Spring|LEC Spring]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season Invitational/2021}} '''(2021)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Bin |p1wins=1
+|p2=Xun
+|p3=Yagao
+|p4=Elk
+|p5=ON
+
+|t2p1=Tabe |t2pos1=Head Coach
+|t2p2=BigWei |t2p2flag=tw |t2pos2=Assistant Coach
+|t2p3=Zizheng |t2pos3=analyst
+|t2title=Staff
+|qualifier=[[LPL/2023/Spring|LPL Spring]]
+}}
+
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=tol2
+|p2=Steal
+|p3=Aria
+|p4=Yutapon
+|p5=Harp
+
+|t2p1=Kazu |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LJL/2023/Spring|LJL Spring]]
+|placement=7-9
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=G2 Esports
+|p1=BrokenBlade 
+|p2=Yike
+|p3=Caps |p3wins=1
+|p4=Hans Sama
+|p5=Mikyx |p5wins=1
+
+|t2p1=Dylan Falco |t2pos1=Head Coach
+|t2p2=Rodrigo |t2pos2=Head Analyst
+|t2p3=Click |t2p3link=Click (Russian analyst)|t2p3flag=ru |t2pos3=Analyst
+|t2p4=Ismind |t2p4flag=co |t2pos4=Performance Coach
+|t2title=Staff
+|qualifier=[[LEC/2023/Winter|LEC Winter]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2019|date=2019-05-19}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=GAM Esports
+|image=GAM Esports 2021 full allmode.png
+|p1=Kiaya
+|p2=Levi
+|p3=Kati
+|p4=Sty1e
+|p5=Zin
+
+|t2p1=Hankay |t2p1flag=vn |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[VCS/2023/Dawn|VCS Dawn]]
+|placement=6
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-14}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=Golden Guardians
+|p1=Licorice
+|p2=River |p2link=River (Korean player)
+|p3=Gori
+|p4=Stixxay
+|p5=huhi
+
+|t2p1=Inero |t2pos1=manager
+|t2p2=Spookz |t2pos2=head coach
+|t2p3=ChuChuZ |t2p3flag=au |t2pos3=coach
+|t2p4=HustlinbeasT |t2pos4=coach
+|t2p5=Bubbadub |t2pos5=Analyst|t2p5flag=us 
+|t2p6=Glenn Thomakos |t2pos6=Analyst|t2p6flag=us 
+|t2title=Staff
+|qualifier=[[LCS/2023/Spring|LCS Spring]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=LOUD
+|p1=Robo
+|p2=Croc
+|p3=tinowns
+|p4=Route
+|p5=Ceos
+
+|t2p1=BeeLLLzY |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[CBLOL/2023/Split_1|CBLOL Split 1]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=PSG Talon
+|p1=Azhi
+|p2=JunJia
+|p3=Ubao
+|p4=Wako
+|p5=Woody
+
+|t2p1=CorGi |t2pos1=Head Coach
+|t2p2=Maru|t2pos2=assistant Coach|t2p2flag=kr
+|t2title=Staff
+|qualifier=[[PCS/2023/Spring|PCS Spring]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Rainbow7
+|p1=Bong
+|p2=Oddie
+|p3=Mireu
+|p4=Ceo
+|p5=Lyonz
+
+|t2p1=Khynm |t2p1flag=ar |t2pos1=head coach
+|t2p2=Kun |t2p2flag=kr |t2pos2=assistant coach
+|t2p3=Pointless |t2p3flag=ar |t2pos3=strategic coach
+|t2title=Staff
+|qualifier=[[LLA/2023/Opening|LLA Opening]]
+|placement=8-9
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2017)'''
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Play-In Stage===
+{{ShowBracket|id=MSI23PlyIn}}
+
+===Bracket Stage===
+{{ShowBracket|id=MSI23Brakt}}
+
+==Additional Data==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+|lang2=cn |huya2=msi |bilibili2=6 |douyu2=LPL
+|lang3=kr |youtube3=LCK |afreeca3=aflol
+|lang4=tr |twitch4=riotgamesturkish |youtube4=Lolespor
+|lang5=br |twitch5=cblol |youtube5=lolesportsbr
+|lang6=sam |twitch6=lla |youtube6=lla |trovo6=LLA
+|lang7=mx |twitch7=tvaztecaesports |youtube7=AztecaEsports
+|lang8=jp |twitch8=riotgamesjp |afreeca8=ljl
+|lang9=tw |twitch9=lolpacifictw |youtube9=lolpacific
+|lang10=hk |twitch10=lolpacifichk
+|lang11=vn |youtube11=@vcslmht
+|lang12=fr |twitch12=otplol_
+|lang13=de |twitch13=summonersinnlive |youtube13=SummonerInnDE
+|lang14=it |twitch14=pg_esports_lol
+|lang15=es |twitch15=lvpes
+|lang16=cz |twitch16=hitpointcz
+|lang17=gr |twitch17=gamersloungegr |youtube17=GamersLoungeGr
+|lang18=hu |twitch18=esport2tv |youtube18=Esport1gg
+|lang19=pl |twitch19=polsatgames |youtube19=polsatgames
+|lang20=pt |twitch20=inygontv1
+|lang21=rs |twitch21=fortuna |youtube21=fortunaesports
+}}
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2023/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+
+{{2023 Season International Cycle Navbox}}

@@ -1,0 +1,517 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2019&redirects=1
+<!-- 抓取: 2026-08-16T18:35:33.356Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2019 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=Mid-Season_Invitational/2019
+|name2=Qualification
+|link2=Mid-Season_Invitational/2019/Qualification
+|name3=Play-In
+|link3=Mid-Season_Invitational/2019/Play-In
+|name4=Group Stage
+|link4=Mid-Season_Invitational/2019/Group_Stage
+|name5=Knockout Stage
+|link5=Mid-Season_Invitational/2019/Knockout_Stage
+|name6=Statistics 
+|link6=Mid-Season_Invitational/2019/Statistics 
+|name7=Additional Content
+|link7=Mid-Season_Invitational/2019/Additional_Content
+|This=1}}
+{{Infobox league
+|name=2019 Mid-Season Invitational
+|shortname=MSI 2019
+|image=MSI 2019 Logo.png
+|series=MSI
+|icon=Msilogo_small.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=9.8
+|sponsor=[https://www.mastercard.com Mastercard] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab] <br> [http://www.statefarm.com/ State Farm]
+|server=
+|type=offline
+|country=Vietnam
+|country2=Vietnam
+|country3=Taiwan
+|city=Ho Chi Minh City
+|city2=Hanoi
+|city3=Taipei
+|venue=GG Stadium
+|venue2=National Convention Center
+|venue3=Heping Basketball Gymnasium
+|format=
+|prizepoolusd=1,000,000
+|sdate=2019-05-01
+|edate=2019-05-19
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/en_US/
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|bracket=
+|rulebook=http://esports-assets.s3-us-west-2.amazonaws.com/production/files/rules/2019-MSI-Ruleset-v20.0.pdf
+|team_number=13
+|previous=Mid-Season Invitational/2018{{!}}2018
+|next=Mid-Season Invitational/2021{{!}}2021
+}}
+
+The Mid-Season Invitational features the winners from 13 individual Riot leagues spring splits competing in the 5th annual tournament.
+
+==Format==
+*'''Play-In Group Stage''' - ''May 1st, 2nd & 5th in GG Stadium, {{Flag|vn}} Ho Chi Minh City''
+** Two groups of four teams each, the Play-In '''Draw Show''' will take place on {{Countdown|date=April 23, 2019 - 19:00 {{Abbr/CST}}|rawdatetime=true}} (4:00{{abbr/PDT}})<ref name="draw show">{{cite web|url=https://nexus.leagueoflegends.com/en-us/2019/04/msi-2019-play-in-draw-show-guide/|title=MSI 2019 PLAY-IN DRAW SHOW GUIDE|date=2019-04-17|author=LOLESPORTS STAFF|publisher=LoL eSports}}</ref>
+*** by {{flag|tw}} [[SwordArt]] & {{flag|vn}} [[SofM]]
+** {{Abbr/Bo1}} Double round robin
+** The <span class="bg-up">Winner</span> of each group advances to Play-In Knockout
+** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">Each group contains two teams each from Pool 1 and Pool 2</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;width:50%;margin-left:45px">
+* Pool 1: Turkey's TCL, Vietnam's VCS, Southeast Asia's LST, and the Commonwealth of Independent States’ LCL
+* Pool 2: Japan's LJL, Latin America's LLA, Brazil's CBLOL, and Oceania's OPL
+</div><!--
+-->
+*'''Play-In Knockout Stage''' - ''May 5th - 7th in GG Stadium, {{Flag|vn}} Ho Chi Minh City''
+** Four teams, in the first round:
+*** Winner of Group A against the team from LCS
+*** Winner of Group B against the team from LMS
+** {{Abbr/Bo5}} Double elimination format
+** Three teams qualify for Group Stage
+*'''Group Stage''' - ''May 10th - 14th in National Convention Center, {{Flag|vn}} Hanoi''
+** Six teams: three from the Play-In Stage, three from LEC, LPL and LCK
+** {{Abbr/Bo1}} Double Round-Robin
+** Top 4 advanced to Knockout Stage
+*'''Knockout Stage''' - ''May 17th - 19th in Heping Basketball Gymnasium, {{Flag|tw}} Taipei''
+** Four teams
+** {{Abbr/Bo5}} Single Elimination
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Korean
+|This=1}}
+{{tabs dynamic/tab|1}}
+The talent for the English broadcast was announced on April 25th, 2019.<ref name="overview">{{cite web|url=https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/|title=2019 MID-SEASON INVITATIONAL EVENT OVERVIEW|author=LOLESPORTS STAFF|publisher=lolesports|date=2019-04-25}}</ref>
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Host
+|b1=Dash
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Rivington
+|b2=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=Deficio
+|b2=MarkZ
+|b3=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=CaptainFlowers
+|b2=Drakos
+|b3=Medic
+|b4=Pastrytime
+|b5=Phreak
+|b6=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator and Analyst
+|b1=Azael
+|b2=Froskurinn
+|b3=Kobe
+|b4=PapaSmithy
+|b5=Vedius
+|b6=Spawn
+}}
+{{box|end|padding=2em}}
+
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Play-by-play Commentator|studio=ogn
+|b1=Caster Jun |b1name=Jeon Yong-jun|b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Color Commentator
+|b1=Kim Dong-joon
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+|b3=KangQui|b3name=Kang Seung-hyeon|b3flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Analysts
+|b1=MadLife |b1flag=kr
+|b2=Cpt Jack |b2flag=kr
+|b3=Bitdory |b3flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Translator and Interviewer
+|b1=zeetwo|b1name=Park Jee-sun|b1flag=kr
+}}
+{{box|end}}
+
+{{tabs dynamic/end}}
+
+==Prize Pool==
+The initial prize pool of the tournament is $250,000 {{abbr/USD}}.
+25% of all revenue from Conqueror Alistar & 2019 Conqueror Ward skins will added to the total prize pool and 50% of revenue from team icons will go to their respective teams.<ref>{{cite web|url=https://na.leagueoflegends.com/en/news/esports/esports-editorial/celebrate-msi-2019|date=2019-04-25|title=
+Celebrate MSI 2019|lang={{Flag|usuk}}|author=Aether|publisher=LoLesports}}</ref> 
+{{TeamPrizePool|prizesummary=no|cutafter=6|percentage1=1
+|tournament1=Mid-Season Invitational/2019/Play-In#Knockout Stage
+|tournament2=Mid-Season Invitational/2019/Group Stage|tournament3=Mid-Season Invitational/2019/Knockout Stage
+|{{Slot|percentage1=40}}
+|{{Slot|percentage1=20}}
+|{{Slot|count=2|percentage1=10}}
+|{{Slot|percentage1=5}}
+|{{Slot|percentage1=5}}
+|{{Slot|percentage1=2.5%}}
+|{{Slot|count=2|percentage1=1.5%
+|{{Opponent|1907 |wdl=4/2 |date=2019-05-02}}
+|{{Opponent|dfm |wdl=4/2 |date=2019-05-05}}
+}}
+|{{Slot|percentage1=1.25%
+|{{Opponent|mega |wdl=2/4 |date=2019-05-05}}
+}}
+|{{Slot|count=2|percentage1=1.125%
+|{{Opponent|bmr |wdl=2/4 |date=2019-05-02}}
+|{{Opponent|isg |wdl=2/4 |date=2019-05-02}}
+}}
+|{{Slot|percentage1=1%
+|{{Opponent|intz |wdl=1/5 |date=2019-05-05}}
+}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=MVP |{{Opponent|Caps |flag=dk |team=g2}}}}
+}}<br />
+{{box|start|padding=1em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=Mid-Season Invitational/2019/Play-In
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=Mid-Season Invitational/2019/Group_Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=Mid-Season Invitational/2019/Knockout_Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Perkz
+|p5=Mikyx
+
+|t2p1=promisq |t2pos1=sup |t2p1dnp=true
+
+|t3p1=GrabbZ |t3pos1=Head Coach
+|t3p2=Duffman |t3pos2=Analyst
+
+|qualifier=[[LEC/2019/Spring|LEC Spring]]
+|placement=2
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2017)'''
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=TheShy
+|p2=Ning
+|p3=Rookie
+|p4=JackeyLove
+|p5=Baolan
+
+|t2p1=Duke |t2pos1=top |t2p1dnp=true
+
+|t3p1=Karam |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Mafa |t3p2flag=kr |t3pos2=Coach
+|qualifier=[[LPL/2019/Spring|LPL Spring]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Khan
+|p2=Clid
+|p3=Faker |p3wins=2
+|p4=Teddy
+|p5=Mata
+
+|t2p1=Haru |t2pos1=jng |t2p1dnp=true
+
+|t3p1=kkOma |t3pos1=Head Coach |t3p1winsc=2
+|qualifier=[[LCK/2019/Spring|LCK Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2016, 2017)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start|cols=5}}
+{{TeamCard
+|team=1907 Fenerbahçe Esports
+|p1=Ruin
+|p2=Kirei
+|p3=Bolulu
+|p4=Hades |p4link=Hades (Swedish player)
+|p5=Japone
+
+|t2p1=Only35 |t2pos1=sup
+
+|t3p1=Turkinator |t3p1flag=tr |t3pos1=Head Coach
+|qualifier=[[TCL/2019/Winter|TCL Winter]]
+}}
+{{TeamCard
+|team=Bombers
+|p1=Mimic
+|p2=BalKhan
+|p3=ry0ma
+|p4=FBI
+|p5=Rogue |p5link=Rogue (Australian player)
+
+|t2p1=Seb |t2pos1=jng |t2p1dnp=true
+
+|t3p1=Westonway |t3p1flag=uk |t3pos1=Head Coach
+|qualifier=[[OPL/2019/Split_1|OPL Split 1]]
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=Evi
+|p2=Steal
+|p3=Ceros
+|p4=Yutapon
+|p5=Gaeng
+
+|t2p1=Ramune |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Kazu |t3pos1=Head Coach
+|qualifier=[[LJL/2019/Spring|LJL Spring]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=Hanabi
+|p2=Bugi
+|p3=Rather
+|p4=Betty
+|p5=ShiauC
+
+|t2p1=Enso |t2pos1=jng |t2p1dnp=true
+
+|t3p1=Sweet |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LMS/2019/Spring|LMS Spring]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2018}} ('16, '17, '18)
+}}
+{{TeamCard
+|team=INTZ eSports
+|p1=Tay
+|p2=Shini
+|p3=Envy
+|p4=Mills
+|p5=RedBert
+
+|t2p1=BocaJR |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Maestro |t3pos1=Head Coach |t3p1link=Maestro (Brazilian coach)
+|qualifier=[[CBLOL/2019/Summer|CBLOL Summer]]
+}}
+{{TeamCard
+|team=Isurus Gaming
+|p1=Buggax
+|p2=Oddie
+|p3=Seiya
+|p4=Warangelus
+|p5=Slow
+
+|t2p1=Emp |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Pierre |t3pos1=Head Coach
+|qualifier=[[LLA/2019/Opening|LLA Opening]]
+|placement=12-13
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017}} (2017)
+}}
+{{TeamCard
+|team=MEGA Esports
+|p1=Rockky
+|p2=Jjun
+|p3=G4
+|p4=Lloyd
+|p5=PoP
+
+|t2p1=WarL0cK |t2pos1=top |t2p1dnp=true
+
+|t3p1=Bigfafa |t3pos1=Head Coach
+|qualifier=[[LST/2019/Spring|LST Spring]]
+}}
+{{TeamCard
+|team=Phong Vũ Buffalo
+|image=Phong Vũ Buffalo June 2018.png
+|p1=Zeros
+|p2=Meliodas |p2link=Meliodas (Vietnamese player)
+|p3=Naul
+|p4=BigKoro
+|p5=Palette
+
+|t2p1=XuHao |t2pos1=jng
+
+|t3p1=Ren |t3pos1=Head Coach
+|qualifier=[[VCS/2019/Spring|VCS Spring]]
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact
+|p2=Xmithie
+|p3=Jensen
+|p4=Doublelift
+|p5=CoreJJ
+
+|t2p1=MikeYeung |t2pos1=jng |t2p1dnp=true
+
+|t3p1=Cain |t3pos1=Head Coach
+|qualifier=[[LCS/2019/Spring|LCS Spring]]
+|placement=5
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2018}} (2018)
+}}
+{{TeamCard
+|team=Vega Squadron
+|p1=BOSS |p1link=BOSS (Russian player)
+|p2=AHaHaCiK
+|p3=Nomanz
+|p4=Gadget
+|p5=SaNTaS
+
+|t2p1=Razly |t2p1flag=ru |t2pos1=top |t2p1dnp=true
+
+|t3p1=Invi |t3p1flag=ru |t3pos1=Head Coach
+|qualifier=[[LCL/2019/Spring|LCL Spring]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Play-In Group Stage===
+{{box|start}}
+{{box|start|padding=2em}}
+{{#section:Mid-Season_Invitational/2019/Play-In|Play-In_Group_A}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2019/Play-In|Play-In_Group_B}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2019/Play-In|Click here for more information about the '''''Play-In Group Stage''''' matches.]]''</span>
+
+===Play-In Knockout Stage===
+{{#section:Mid-Season Invitational/2019/Play-In|Play In Knockout}}
+===Group Stage===
+{{#section:Mid-Season_Invitational/2019/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season Invitational/2019/Group Stage|Click here for detailed results of the '''''Group Stage''''' matches]]''</span>
+
+===Knockout Stage===
+{{#section:Mid-Season_Invitational/2019/Knockout_Stage|Knockout Stage}}
+
+==Additional Data==
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+|lang2=cn |douyu2=lpl |zhanqi2=msi |stream2=https://lpl.qq.con/es/live.shtml
+|lang3=kr |twitch3=lck_korea
+|lang4=tw |youtube4=GarenaTaiwan |garena4=LOLTW2
+|lang5=vn |youtube5=GarenaVietnam
+|lang6=fr |twitch6=ogaminglol
+|lang7=de |twitch7=summonersinnlive
+|lang8=br |twitch8=riotgamesbrazil |youtube8=lolesportsbr |stream8=https://www.cube.tv/lolesportsbr
+|lang9=jp |twitch9=riotgamesjp
+|lang10=tr |twitch10=riotgamesturkish |youtube10=Lolespor
+|lang11=ru |twitch11=riotgamesru |youtube11=lolesportsRU
+|lang12=pl |twitch12=polsatgams |youtube12=channel/UCrPE9FDBnSMX6W5K0-r7K-g
+|lang13=it |twitch13=pg_esports
+|lang14=hu |twitch14=magyarloltv
+|lang15=cz |twitch15=hitpointcz
+|lang16=id |youtube16=LoLindonesia
+|lang17=th |youtube17=LoLPlayinter |garena17=LoLTH
+|lang18=es |twitch18=lolesportsla |2twitch18=lvpes |youtube18=channel/UC-I8d_BjKP6MMsYjZhAtjlA
+}}
+{{box|end}}
+
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2019/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+
+===Announcements===
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2019-01-28
+|link=https://nexus.leagueoflegends.com/en-us/2019/01/msi-2019-heads-to-vietnam-and-chinese-taipei/
+|title=MSI 2019 Heads to Vietnam and Chinese Taipei
+|by=Riot Eroica
+|of=Nexus
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2019-04-23
+|link=https://www.youtube.com/watch?v=pXzTsSu5ssQ
+|title=MSI 2019 - Format Summary
+|by=LoL Esports
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2019-04-23
+|link=https://www.youtube.com/watch?v=qkurBGLdrYc
+|title=Play-In Draw Show - 2019 Mid-Season Invitational
+|by=LoL Esports
+|language=usuk
+}}
+
+===Tease===
+{{#ev:youtube|AE80ioRXbiM|440}}
+===Represent===
+{{box|start|padding=2em}}
+{{#ev:youtube|Ms2SaigNooc|440}}
+{{box|break|padding=2em}}
+{{#ev:youtube|uCOhXilhDEo|440}}
+{{box|end}}
+<br>
+{{box|start|padding=2em}}
+{{#ev:youtube|T22RrOC80j0|440}}
+{{box|break|padding=2em}}
+{{#ev:youtube|_oPAJKZ7qbY|440}}
+{{box|end}}
+<br>
+{{box|start|padding=2em}}
+{{#ev:youtube|9PQkxFuMMLo|440}}
+{{box|break|padding=2em}}
+{{#ev:youtube|I2KH_09q9aY|440}}
+{{box|end}}
+
+===More Additional Content===
+* <span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2019/Additional_Content|Click here for more '''Additional Content''']]''</span>
+
+==References==
+{{Reflist}}

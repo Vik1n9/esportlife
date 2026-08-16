@@ -1,0 +1,256 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FNorth%20America%2F2014%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:18:20.122Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:NA LCS 2014 Spring}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-29
+}}
+{{NA LCS Navbox}}
+{{NA LCS 2014 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=NA LCS 2014 Spring 
+|shortname=2014 Spring 
+|tickername=NA LCS 2014 Spring 
+|image=NA LCS Logo.png
+|series=NA LCS
+|icon=NA LCS Logo.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|server=North America
+|type=Offline
+|country=United States
+|city=Los Angeles
+|venue=
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2014-01-16
+|edate=2014-04-20
+|liquipediatier=1
+|website=http://www.lolesports.com/en_US/
+|twitch=riotgames
+|team_number=8
+|previous=LCS/North_America/2013/Summer{{!}}2013 Summer
+|next=LCS/North_America/2014/Summer{{!}}2014 Summer
+|previous2=LCS/North_America/2014/Spring/Promotion{{!}}Spring Promotion
+|next2=LCS/North_America/2014/Summer/Promotion{{!}}Summer Promotion
+}}
+The '''NA LCS 2014 Spring''' split was the first split of the 2014 North American [[LCS|League of Legends Championship Series]] season, organized by Riot Games and held from January 16 to April 20, 2014, in Los Angeles, United States. Eight teams competed in a double round-robin Regular Season, with all matches being best-of-one. The top six teams advanced to the Playoffs, which were played in a Single Elimination Best-of-Five format. The winner of the split qualified for the [[All-Star/2014|2014 All-Star Invitational]] and earned championship points toward qualification for the [[World_Championship/2014|2014 World Championship]]. The total prize pool for the event was US$100,000.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10
+|tournament1=LCS/North America/2014/Spring/Group Stage |groupElimStatuses=stay, down
+|tournament2=LCS/North America/2014/Spring/Playoffs#5th Place Decider |stage2importWinners=true
+|tournament3=LCS/North America/2014/Spring/Playoffs#Playoffs |stage3importLimit=4
+|qualifies1=LCS/North America/2014/Summer|qualifies1name=Summer
+|qualifies2=LCS/North America/2014/Summer/Promotion|qualifies2name=Promotion
+|qualifies3=All-Star/2014|qualifies3name=All-Star
+|{{Slot|usdprize=50000|qualified1=true|qualified3=true}}
+|{{Slot|usdprize=25000|qualified1=true}}
+|{{Slot|usdprize=15000|qualified1=true}}
+|{{Slot|usdprize=10000|qualified1=true}}
+|{{Slot|qualified1=true}}
+|{{Slot|qualified2=true}}
+|{{Slot|qualified2=true}}
+|{{Slot|qualified2=true}}
+}}
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=12|margin=false|tier=weekly}}
+{{prize pool slot award|award=MVP - Week 1 |date=
+|Bjergsen|flag1=dk|team1=tsm
+}}
+{{prize pool slot award|award=MVP - Week 2 |date=
+|Bjergsen|flag1=dk|team1=tsm
+}}
+{{prize pool slot award|award=MVP - Week 3 |date=
+|TheOddOne|flag1=ca|team1=tsm
+}}
+{{prize pool slot award|award=MVP - Week 4 |date=
+|Meteos|flag1=us|team1=c9
+}}
+{{prize pool slot award|award=MVP - Week 5 |date=
+|ZionSpartan|flag1=ca|team1=team coast
+}}
+{{prize pool slot award|award=MVP - Week 6 |date=
+|LiNk|flag1=us|team1=clg
+}}
+{{prize pool slot award|award=MVP - Week 7 |date=
+|LiNk|flag1=us|team1=clg
+}}
+{{prize pool slot award|award=MVP - Week 8 |date=
+|Reginald|flag1=us|team1=tsm
+}}
+{{prize pool slot award|award=MVP - Week 9 |date=
+|Xpecial|flag1=us|team1=tsm
+}}
+{{prize pool slot award|award=MVP - Week 10 |date=
+|Sneaky|flag1=us|team1=c9
+}}
+{{prize pool slot award|award=MVP - Week 11 |date=
+|Hai|flag1=us|team1=c9
+}}
+{{prize pool slot award|award=MVP - Finals |date=
+|Bjergsen|flag1=dk|team1=tsm
+}}
+{{prize pool end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Cloud9
+|image=
+|p1=Balls|p1flag=us
+|p2=Meteos|p2flag=us
+|p3=Hai|p3flag=us
+|p4=Sneaky|p4flag=us
+|p5=LemonNation|p5flag=us
+|qualifier=[[LCS/North_America/2013/Summer|Summer 2013]]
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|image=
+|p1=Nien|p1flag=us
+|p2=dexter|p2flag=de
+|p3=Link|p3flag=us
+|p4=Doublelift|p4flag=us
+|p5=Aphromoo|p5flag=us
+
+|t2p1=HotshotGG|t2p1flag=ca|t2pos1=jg
+|t2p2=Chauster|t2p2flag=us|t2pos2=jg
+
+|t3p1=MonteCristo|t3pos1=head coach
+|qualifier=[[LCS/North_America/2013/Summer|Summer 2013]]
+}}
+{{TeamCard
+|team=Team Dignitas
+|image=
+|p1=Cruzer|p1flag=us
+|p2=Crumbzz|p2flag=ve
+|p3=Scarra|p3flag=us
+|p4=Imaqtpie|p4flag=us
+|p5=KiWiKiD|p5flag=us
+
+|t2p1=Goldenglue|t2p1flag=us|t2pos1=mid
+|qualifier=[[LCS/North_America/2013/Summer|Summer 2013]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Dyrus|p1flag=us
+|p2=TheOddOne|p2flag=ca
+|p3=Bjergsen|p3flag=dk
+|p4=WildTurtle|p4flag=ca
+|p5=Xpecial|p5flag=us
+|t2p1=Reginald|t2p1flag=us|t2pos1=mid
+|qualifier=[[LCS/North_America/2013/Summer|Summer 2013]]
+}}
+{{TeamCard
+|team=XDG Gaming
+|image=
+|p1=Benny|p1link=Benny (American player)|p1flag=us
+|p2=Xmithie|p2flag=us
+|p3=Mancloud|p3flag=us
+|p4=Zuna|p4flag=us
+|p5=BloodWater|p5flag=bg
+|p6=Sheep|p6flag=ca|pos6=support
+
+|t2p1=Nickwu|t2p1flag=us|t2pos1=support
+|qualifier=[[LCS/North_America/2013/Summer|Summer 2013]]
+}}
+{{TeamCard
+|team=Evil Geniuses
+|image=
+|p1=InnoX|p1flag=ca
+|p2=Snoopeh
+|p3=Pobelter|p3flag=us
+|p4=Yellowpete|p4flag=de
+|p5=Krepo|p5flag=be
+|qualifier=[[LCS/North_America/2014/Spring/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team Coast
+|image=Team Coast notext.png
+|p1=ZionSpartan|p1flag=ca
+|p2=NintendudeX|p2flag=us
+|p3=Shiphtur|p3flag=ca
+|p4=WizFujiiN|p4flag=ca
+|p5=Daydreamin|p5flag=us
+|t2p1=Alex Penn|t2p1flag=us|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2014/Spring/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team Curse
+|image=Curse_Logo_notext.png
+|p1=Quas|p1flag=ve
+|p2=IWDominate|p2flag=us
+|p3=Voyboy|p3flag=us
+|p4=Cop|p4flag=us
+|p5=Zekent|p5flag=us
+|p6=Saintvicious|p6flag=us|pos6=support
+|p7=Bunny FuFuu|p7flag=us|pos7=support
+
+|qualifier=[[LCS/North_America/2014/Spring/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/North_America/2014/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LCS/North America/2014/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=ksu6ITs6kT}}
+{{ShowBracket|id=rgscg00HBe}}
+
+==Format==
+* '''Group Stage'''
+**2 Double Round Robin
+**Each team plays 28 matches.
+**All matches are {{Abbr/Bo1}}
+**Top 6 qualifies to the Playoffs
+*'''Playoffs'''
+** Single Elimination {{Abbr/Bo5}} 
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Phreak
+|b2=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Jatt
+|b2=Kobe
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/North America/2014/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/North_America/2014/Spring|edate=2014-05-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

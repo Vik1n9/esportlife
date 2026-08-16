@@ -1,0 +1,463 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2018%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:06:27.853Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2018 Spring}}
+{{LCK Navbox}}
+{{LCK 2018 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCK 2018 Spring 
+|shortname=2018 Spring 
+|tickername=LCK 2018 Spring 
+|image=LCK 2018 full lightmode.png
+|imagedark=LCK 2018 full darkmode.png
+|icon=LCK 2018 icon lightmode.png
+|icondark=LCK 2018 icon darkmode.png
+|series=LCK
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|organizer3=SPOTV GAMES|organizer3-link=http://www.spotv.net/
+|sponsor=
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|format=Group Stage ({{Abbr/Bo3}}) <br> Playoffs
+|prizepool=275,000,000
+|localcurrency=krw
+|sdate=2018-01-16
+|edate=2018-04-14
+|liquipediatier=1
+|patch=8.1
+|epatch=8.6
+|website=http://www.lolesports.com/en_US/lck
+|twitch=lck1
+|twitch2=ogn_lol
+|youtube=user/LoLChampSeries
+|team_number=10
+|previous=LCK/2017/Summer{{!}}2017 Summer 
+|next=LCK/2018/Summer{{!}}2018 Summer 
+|previous2=LCK/2018/Spring/Promotion{{!}}Spring Promotion 
+|next2=LCK/2018/Summer/Promotion{{!}}Summer Promotion 
+}}
+The '''LCK 2018 Spring''' was the first split of the 2018 [[League of Legends Champions Korea]] season, organized by Riot Games in partnership with OnGameNet and SPOTV GAMES. The competition took place in Seoul, South Korea, from January 16 to April 14, 2018, featuring ten teams competing at LoL Park. The regular season was played in a Double Round Robin format with Best-of-Three matches, while the Playoffs followed a Single Elimination King of the Hill structure with Best-of-Five series. Teams competed for a ₩275,000,000 KRW prize pool, with the champion qualifying for the [[Mid-Season Invitational/2018|2018 Mid-Season Invitational]]. [[bbq Olivers]] and [[Kongdoo Monster]] joined through the [[LCK/2018/Spring/Promotion|2018 Spring Promotion Tournament]]. During the offseason, [[Longzhu Gaming]] was acquired and renamed to [[KING-ZONE DragonX]], while [[Samsung Galaxy]] was purchased by [[KSV eSports]]. Matches were played on Patches 8.1 through 8.6.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=krw|cutafter=10|points=lck2018
+|qualifies1=Mid-Season Invitational/2018|qualifies1name=MSI
+|qualifies2=Rift Rivals/LCK-LPL-LMS/2018|qualifies2name=Rift Rivals 2018
+|qualifies3=LCK/2018/Summer/Promotion|qualifies3name=Promotion
+|qualifies4=LCK/2018/Summer|qualifies4name=Summer
+|tournament1=LCK/2018/Spring/Group Stage
+|tournament2=LCK/2018/Spring/Playoffs
+|groupElimStatuses=stay, down
+|{{Slot|points=90 |qualified1=yes|qualified4=yes |qualified2=yes |localprize=100,000,000}}
+|{{Slot|points=70 |qualified2=yes|qualified4=yes |localprize=60,000,000}}
+|{{Slot|points=50 |qualified2=yes|qualified4=yes |localprize=30,000,000}}
+|{{Slot|points=30 |qualified2=yes|qualified4=yes |localprize=20,000,000}}
+|{{Slot|points=10 |localprize=15,000,000|qualified4=yes}}
+|{{Slot|localprize=10,000,000|qualified4=yes}}
+|{{Slot|localprize=10,000,000|qualified4=yes}}
+|{{Slot|localprize=10,000,000|qualified4=yes}}
+|{{Slot|qualified3=yes |localprize=10,000,000}}
+|{{Slot|qualified3=yes |localprize=10,000,000}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=7
+|{{Slot|award=Group Stage MVP |localprize=5,000,000|{{Opponent|Bdd|flag=kr|team=king-zone dragonx|date=2018-03-25}}}}
+|{{Slot|award=Playoffs MVP |localprize=5,000,000|{{Opponent|PraY|flag=kr|team=king-zone dragonx}}}}
+|{{Slot|award=Top Lane KDA |localprize=2,000,000|{{Opponent|Khan|flag=kr|team=king-zone dragonx|date=2018-03-25}}}}
+|{{Slot|award=Jungle KDA |localprize=2,000,000|{{Opponent|Peanut|flag=kr|team=king-zone dragonx|date=2018-03-25}}}}
+|{{Slot|award=Mid Lane KDA |localprize=2,000,000|{{Opponent|Bdd|flag=kr|team=king-zone dragonx|date=2018-03-25}}}}
+|{{Slot|award=AD Carry KDA |localprize=2,000,000|{{Opponent|Bang|flag=kr|team=skt|date=2018-03-25}}}}
+|{{Slot|award=Support KDA |localprize=2,000,000|{{Opponent|Mata|flag=kr|team=kt|date=2018-03-25}}}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true |points=true |cutafter=5 |margin=false
+|title=Group Stage MVP
+|tournament=LCK/2018/Spring/Group Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true |points=true |cutafter=5 |margin=false
+|title=Playoffs MVP
+|tournament=LCK/2018/Spring/Playoffs
+}}
+{{box|end}}
+<!--
+==Roster moves==
+{{Transfer List
+|title=Roster moves during the season
+|sdate={{#var:sdate}}
+|edate={{#var:edate}}
+|page={{PAGENAME}}
+|team=afreeca freecs
+|team2=jagw
+|team3=kz
+|team4=skt
+|team5=kt
+|team6=ksv
+|team7=bbq
+|team8=kongdoo monster
+|team9=rox tigers
+|team10=mvp
+}}
+-->
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Afreeca Freecs
+|p1=Kiin|p1flag=kr
+|p2=Spirit|p2flag=kr
+|p3=Kuro
+|p4=Kramer
+|p5=TusiN
+
+|t2p1=Mowgli	|t2pos1=jg
+|t2p2=Aiming	|t2pos2=adc
+
+|t3p1=iloveoov	|t3p1flag=kr|t3pos1=head coach
+|t3p2=Ccomet	|t3p2flag=kr|t3pos2=coach
+|t3p3=Zefa		|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings
+|p1=SoHwan|p1flag=kr
+|p2=UmTi|p2flag=kr
+|p3=Grace
+|p4=Teddy
+|p5=Wraith
+
+|t2p1=Justice|t2pos1=mid
+
+|t3p1=H-Dragon|t3p1flag=kr|t3pos1=head coach
+|t3p2=Fly|t3p2flag=kr|t3p2link=Fly (Kim Sang-chul)|t3pos2=coach
+|t2title=Staff
+|qualifier=[[LCK/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=KING-ZONE DragonX
+|p1=Khan|p1flag=kr
+|p2=Peanut
+|p3=Bdd
+|p4=PraY
+|p5=GorillA
+
+|t2p1=Rascal	|t2pos1=top
+|t2p2=Cuzz	|t2pos2=jg
+
+|t3p1=Hirai		|t3p1flag=kr|t3pos1=head coach
+|t3p2=supreme	|t3p2flag=kr|t3pos2=coach
+|t3p3=Sin		|t3p3flag=kr|t3pos3=coach
+|t2title=Staff
+|qualifier=[[LCK/Summer/2017|Summer]]
+|inotes={{NoteBig
+|n1={{Team|Longzhu Gaming}} is purchased by Kingzone and renamed to {{Team|KING-ZONE DragonX}}
+}}
+}}
+{{TeamCard
+|team=KSV eSports
+|notes=1
+|p1=CuVee|p1flag=kr
+|p2=Ambition|p2flag=kr
+|p3=Haru|p3flag=kr|pos3=jg
+|p4=Crown|p4flag=kr|pos4=mid
+|p5=Ruler|p5flag=kr|pos5=ad
+|p6=CoreJJ|p6flag=kr|pos6=sup
+
+|t2p1=Edgar|t2p1flag=kr|t2pos1=head coach
+|t2p2=oDin|t2p2flag=kr|t2pos2=coach
+|t2p3=TrAce|t2p3flag=kr|t2pos3=coach
+|t2title=Staff
+|qualifier=[[LCK/Summer/2017|Summer]]
+|inotes={{NoteBig
+|n1={{Team|Samsung Galaxy}} is purchased by {{Team|KSV}}
+}}
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Smeb|p1flag=kr
+|p2=Score|p2flag=kr
+|p3=PawN|p3flag=kr|pos3=Mid
+|p4=Deft
+|p5=Mata
+|t2p1=Rush|t2p1flag=kr|t2pos1=Jungle
+|t2p2=Ucal|t2p2flag=kr|t2pos2=mid
+
+|t3p1=ZanDarc|t3p1flag=kr|t3pos1=head coach
+|t3p2=Jeong Je-seung|t3p2flag=kr
+|t3p3=S0NSTAR|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Summer/2017|Summer ]]
+}}
+{{TeamCard
+|team=MVP
+|p1=ADD|p1flag=kr
+|p2=Beyond|p2flag=kr|p2link=Beyond (Korean player)
+|p3=Ian|p3flag=kr
+|p4=MaHa|p4flag=kr
+|p5=Pilot|p5flag=kr|pos5=ADC
+|p6=Max|p6flag=kr|p6link=Max (Korean player)|pos6=Support
+
+|t2p1=Hell|t2p1flag=kr|t2pos1=head coach
+|t2p2=Saroo|t2p2flag=kr|t2pos2=coach
+|t2title=Staff
+|qualifier=[[LCK/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=ROX Tigers
+|p1=Lindarang |p1flag=kr
+|p2=SeongHwan|p2flag=kr
+|p3=Lava|p3flag=kr
+|p4=Sangyoon|p4flag=kr
+|p5=Key|p5flag=kr
+
+|t2p1=Mightybear|t2p1flag=kr|t2pos1=jg
+|t2p2=Kuzan|t2p2flag=kr|t2pos2=Mid
+
+|t3p1=Kang Hyun-jong|t3pflag=kr|t3pos1=head coach
+|t3p2=Emperor|t3p2flag=kr
+|qualifier=[[LCK/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Untara|p1flag=kr
+|p2=Thal|p2flag=kr|pos2=Top
+|p3=Blank|p3flag=kr|pos3=Jungle
+|p4=Faker|p4flag=kr|pos4=Mid
+|p5=Bang|p5flag=kr|pos5=ADC
+|p6=Wolf|p6flag=kr|p6link=Wolf (Korean player)|pos6=Support
+
+|t2p1=Blossom|t2p1flag=kr|t2pos1=Jungle
+|t2p2=Effort|t2pos2=support
+
+|t3p1=kkOma|t3pflag=kr|t3pos1=head coach
+|t3p2=Bengi|t3p2flag=kr|t3pos2=assistant coach
+|t3p3=PoohManDu|t3p3flag=kr|t3pos3=assistant coach
+|qualifier=[[LCK/Summer/2017|Summer]]
+}}
+{{TeamCard
+|team=bbq Olivers
+|p1=Crazy|p1flag=kr
+|p2=Bono|p2flag=kr|p2link=Bono (Kim Gi-beom)
+|p3=Trick|p3flag=kr|pos3=Jungle
+|p4=Tempt|p4flag=kr|pos4=Mid
+|p5=Ghost|p5flag=kr|pos5=ADC|p5link=Ghost (Korean player)
+|p6=IgNar|p6flag=kr|pos6=Support
+|t2p1=Kim Ga-ram|t2p1flag=kr|t2pos1=head coach
+|t2p2=Ares|t2p2flag=kr|t2pos2=coach
+|t2p3=Xero|t2p3flag=kr|t2pos3=coach
+|t2title=Staff
+|qualifier=[[LCK/Spring/2018/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Kongdoo Monster
+|p1=Roach|p1flag=kr
+|p2=U Jun|p2flag=kr |p2link=Wiz
+|p3=Raise|p3flag=kr|pos3=Jg
+|p4=Edge|p4flag=kr|pos4=Mid
+|p5=SSol|p5flag=kr|pos5=ADC
+|p6=Secret|p6flag=kr|pos6=Support
+|t2p1=Han|t2p1flag=kr|t2pos1=Mid|t2p1link=Han (Choi Hyeon-woo)|t2p1dnp=true
+|t3p1=WhyManMC|t3p1flag=kr|t3pos1=head coach
+|t3p2=Chun Jung-hee|t3p2flag=kr|t3pos2=coach |t3p2link=Sweet
+|t3p3=Rigby|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Spring/2018/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{#lst:{{FULLPAGENAME}}/Group_Stage|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/2018/Spring/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCK18SprPO}}
+
+==Format==
+* '''Group Stage'''
+** Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st place''}} advance to the Finals of the Playoffs.
+*** {{bgcolortext|seedup|''2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|stayup|''4th and 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 8th place''}} qualify for [[LCK/2018/Summer|Summer split]].
+*** {{bgcolortext|down|''9th and 10th place''}} will have to play in the [[LCK/2018/Summer/Promotion|Summer Promotion Tournament]].
+*'''Playoffs'''
+** Single Elimination King of the Hill.
+*** Wild Card match is {{Abbr/Bo3}}.
+*** Round 1 onwards is {{Abbr/Bo5}}.
+** Top 4 qualify for [[Rift Rivals/2018/LCK-LMS-LPL|Rift Rivals 2018 - LCK vs LMS vs LPL]]
+** Winner qualifies for [[Mid Season Invitational/2018|Mid Season Invitational 2018]]
+
+==Broadcast==
+===Streams===
+===Talent===
+{{box|start}}
+{{box|start|padding=2em}}
+====OGN English Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Caster|lang=en|studio=ogn
+|b1=Atlus|b1name=Max Anderson|b1flag=au
+}}
+{{BroadcasterCard
+|position=Color Caster|lang=en
+|b1=PapaSmithy|b1name=Chris Smith|b1flag=au
+}}
+{{BroadcasterCard
+|position=Translator|lang=en
+|b1=JoelSophie|b1name=Lee Seung-min|b1flag=kr
+}}
+{{box|break|padding=2em}}
+====SPOTV GAMES English Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Caster|lang=en|studio=spotv
+|b1=Valdes|b1name=Brendan Valdes|b1flag=us
+}}
+{{BroadcasterCard
+|position=Color Caster|lang=en
+|b1=PapaSmithy|b1name=Chris Smith|b1flag=au
+}}
+{{BroadcasterCard
+|position=Translator|lang=en
+|b1=zeetwo|b1name=Park Jee-sun|b1flag=kr
+}}
+{{box|end}}
+{{box|break}}
+{{box|start|padding=2em}}
+====OGN Korean Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Caster|lang=kr|studio=ogn
+|b1=Caster Jun |b1name=Jeon Yong-jun|b1flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster|lang=kr|studio=ogn
+|b1=Kim Dong-joon |b1name=Kim Dong-jun|b1flag=kr
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+}}
+{{box|break|padding=2em}}
+
+====SPOTV GAMES Korean Broadcast====
+{{BroadcasterCard
+|position=Announcer |lang=kr|studio=spotv
+|b1=Kim Su-hyeon |b1link=valorant:Kim Su-hyeon |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play Caster|lang=kr|studio=spotv
+|b1=SEONG K |b1name=Seong Seung-heon |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster|lang=kr|studio=spotv
+|b1=Canata |b1name=Ko In-kyu|b1flag=kr|b1link=starcraft:Canata
+|b2=KangQui|b2flag=kr
+}}
+{{BroadcasterCard
+|position=Observer|lang=kr|studio=spotv
+|b1=JonnaStrong
+}}
+{{box|end}}
+{{box|end}}
+
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="3" |[[Patch 8.1]]
+| colspan="1" |[[Patch 8.2]]
+| colspan="2" |[[Patch 8.3]]
+| colspan="2" |[[Patch 8.4]]
+| colspan="1" |[[Patch 8.5]]
+| colspan="1" |[[Patch 8.6]]
+|-
+| Disabled
+| colspan="14" |
+|}
+
+===Statistics===
+{{#lst:LCK/2018/Spring/Statistics|Champion Stats}}
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2018-03-24
+  |content2={{Player|Teddy|flag=kr}}
+  |content3={{TeamIcon|jin air green wings|date=2018-03-24}}
+  |content4={{TeamIcon|rox tigers|date=2018-03-24}}
+  |content5={{ChampionIcon|size=25px|xayah|date=2018-03-24|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7={{Vodlink|vod=https://youtu.be/S29XJ-npA8M?t=167|gamenum=}}
+}}
+{{ResponsiveTableRow
+  |content1=2018-03-04
+  |content2={{Player|Pilot|flag=kr}}
+  |content3={{TeamIcon|mvp|date=2018-03-04}}
+  |content4={{TeamIcon|ksv|date=2018-03-04}}
+  |content5={{ChampionIcon|size=25px|caitlyn|date=2018-03-04|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7={{Vodlink|vod=https://www.youtube.com/watch?v=RMSPINHRTUY&t=59m42s|gamenum=}}
+}}
+{{ResponsiveTableRow
+  |content1=2018-02-25
+  |content2={{Player|Teddy|flag=kr}}
+  |content3={{TeamIcon|jin air green wings|date=2018-02-25}}
+  |content4={{TeamIcon|kt rolster|date=2018-02-25}}
+  |content5={{ChampionIcon|size=25px|kalista|date=2018-02-25|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7={{Vodlink|vod=https://www.youtube.com/watch?v=HPy0tTqTz38|gamenum=}}
+}}
+{{ResponsiveTableRow
+  |content1=2018-01-31
+  |content2={{Player|Khan|flag=kr}}
+  |content3={{TeamIcon|kingzone dragonx|date=2018-01-31}}
+  |content4={{TeamIcon|rox tigers|date=2018-01-31}}
+  |content5={{ChampionIcon|size=25px|riven|date=2018-01-31|addTextLink=true}}
+  |content6={{PositionIcon/top}} Top
+  |content7={{Vodlink|vod=https://www.youtube.com/watch?v=QVYRxhybs4U&t=39m05s|gamenum=}}
+}}
+{{ResponsiveTableRow
+  |content1=2018-01-25
+  |content2={{Player|Lava|flag=kr}}
+  |content3={{TeamIcon|rox tigers|date=2018-01-25}}
+  |content4={{TeamIcon|kongdoo monster|date=2018-01-25}}
+  |content5={{ChampionIcon|size=25px|corki|date=2018-01-25|addTextLink=true}}
+  |content6={{PositionIcon/mid}} Mid
+  |content7={{Vodlink|vod=https://www.youtube.com/watch?v=-8kp3pyX1A8&t=3m33s|gamenum=}}
+}}
+{{ResponsiveTableEnd}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2018/Spring|edate=2018-05-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

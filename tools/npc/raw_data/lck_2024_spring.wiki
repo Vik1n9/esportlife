@@ -1,0 +1,480 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2024%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:11:19.572Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2024 Spring}}
+{{LCK Navbox}}
+{{LCK 2024 Tabs}}
+{{Tournament Tabs 2}}
+{{Infobox league
+|name=LCK 2024 Spring 
+|shortname=2024 Spring 
+|tickername=LCK 2024 Spring 
+|image=LCK 2021 full lightmode.png
+|imagedark=LCK 2021 full_darkmode.png
+|caption=HOUSE OF LEGENDS
+|series=LCK 
+|icon=LCK 2021 lightmode.png
+|icondark=LCK 2021 darkmode.png
+|organizer=Riot Games
+|organizer-link=https://www.riotgames.com/
+|sponsor=[https://www.wooribank.com/ Woori Bank]
+|sponsor2=[https://www.redbull.com/ Red Bull]
+|sponsor3=[https://www.cass.co.kr/ Cass]
+|sponsor4=[https://www.lge.co.kr/ultragear LG UltraGear]
+|sponsor5=[https://www.op.gg/ OP.GG]
+|sponsor6=[https://www.jw-pharma.co.kr/ JW Pharmaceutical]
+|sponsor7=[https://goldendew.com/ Golden Dew]
+|sponsor8=[https://www.logitech.com/ Logitech]
+|sponsor9=[http://www.hanwhalife.com/ Hanwha Life]
+|sponsor10=[https://www.cgv.co.kr/ CGV]
+|sponsor11=[https://www.pulmuone.co.kr/ Pulmuone]
+|sponsor12=[https://secretlabchairs.co.kr/ Secretlab]
+|patch=14.1
+|epatch=14.6
+|type=Offline
+|country=Korea
+|city=Seoul 
+|venue1=LoL Park
+|venue2=KSPO Dome |venue2desc=Lower Bracket Final & Grand Final
+|format='''Regular Season:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepool=375,000,000
+|localcurrency=krw
+|prizepoolusd=
+|sdate=2024-01-17
+|edate=2024-04-14
+|liquipediatier=1
+|highlighted=|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/662d545de8e0beee82c6e0fcc718846fa8516005.pdf
+|website=http://www.lolesports.com/en_US/lck
+|afreeca=aflol
+|twitch=lck
+|twitter=lck
+|facebook=officiallck
+|instagram=lckofficial
+|youtube=LCKglobal
+|team_number=10
+|previous=LCK/2023/Summer{{!}}2023 Summer
+|next=LCK/2024/Summer{{!}}2024 Summer
+|previous2=LCK/2024/Season Opening{{!}}Season Opening
+}}
+The '''LCK 2024 Spring''' Split was the first split of the 2024 season of the [[League of Legends Champions Korea]], organized by Riot Games. The competition ran from January 17 to April 14, with the Regular Season held offline at LoL Park in Seoul and the Lower Bracket Final and Grand Final played at the KSPO Dome. Ten teams competed in a Double Round Robin Regular Season using best-of-three matches, with the top six advancing to a Double Elimination Playoffs played as best-of-five. The winner and runner-up qualified for the [[Mid-Season Invitational/2024|Mid-Season Invitational]]. The split was played across patches 14.1 through 14.6, with Smolder, Neeko, and Azir disabled at various points for competitive reasons.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10|points=lck2024|qualifies1=Mid-Season Invitational/2024|qualifies1name=MSI|localcurrency=krw
+|tournament1=LCK/2024/Spring/Playoffs |stage1importLimit=4
+|{{Slot|points=90 |qualified1=yes |localprize=200,000,000}}
+|{{Slot|points=70 |qualified1=yes |localprize=100,000,000}}
+|{{Slot|points=50 |localprize=50,000,000}}
+|{{Slot|points=30 |localprize=25,000,000}}
+|{{Slot|points=20 |{{Opponent|kt rolster |lastvs=dplus |lastvsscore=2-3 |date=2024-03-31}}}}
+|{{Slot|points=10 |{{Opponent|freecs |lastvs=hle |lastvsscore=0-3 |date=2024-03-30}}}}
+|{{Slot|points=0 |{{Opponent|fearx |wdl=6/12 |date=2024-03-24}}}}
+|{{Slot|points=0 |{{Opponent|nongshim redforce |wdl=4/14 |date=2024-03-24}}}}
+|{{Slot|points=0 |{{Opponent|drx |wdl=3/15 |date=2024-03-24}}}}
+|{{Slot|points=0 |{{Opponent|brion |wdl=3/15 |date=2024-03-24}}}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{AwardPrizePool|cutafter=8|margin=false|localcurrency=krw
+|{{Slot|award=Player of the Split|{{Opponent|Chovy|localprize=2000000|flag=kr|team=geng|date=2024-03-26}}}}
+|{{Slot|award=Regular Season MVP|{{Opponent|Chovy|localprize=5000000|flag=kr|team=geng|date=2024-03-26}}}}
+|{{Slot|award=Finals MVP|localprize=5000000|{{Opponent|Kiin|flag=kr|team=geng|date=2024-04-14}}}}
+|{{Slot|award=All-LCK First Team|date=2024-03-25|localprize=2000000
+  |{{Opponent|Kiin|flag=kr|team=geng}}
+  |{{Opponent|Canyon|flag=kr|team=geng}}
+  |{{Opponent|Chovy|flag=kr|team=geng}}
+  |{{Opponent|Peyz|flag=kr|team=geng}}
+  |{{Opponent|Keria|flag=kr|team=t1}}
+}}
+|{{Slot|award=All-LCK Second Team|date=2024-03-25
+  |{{Opponent|Zeus|flag=kr|team=t1}}
+  |{{Opponent|Oner|flag=kr|team=t1}}
+  |{{Opponent|Faker|flag=kr|team=t1}}
+  |{{Opponent|Viper|link=Viper (Korean player)|flag=kr|team=hle}}
+  |{{Opponent|Lehends|flag=kr|team=geng}}
+}}
+|{{Slot|award=All-LCK Third Team|date=2024-03-25
+  |{{Opponent|Doran|flag=kr|team=hle}}
+  |{{Opponent|Peanut|flag=kr|team=hle}}
+  |{{Opponent|Zeka|flag=kr|team=hle}}
+  |{{Opponent|Gumayusi|flag=kr|team=t1}}
+  |{{Opponent|Delight|flag=kr|team=hle}}
+}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|points=true|cutafter=5|margin=false
+|title=Regular Season Player of the Game
+|tournament=LCK/2024/Spring/Regular Season
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=LCK/2024/Spring/Playoffs
+}}
+{{box|end}}
+<!--==Roster Moves==
+{{Transfer List
+|sdate=2022-08-28
+|team=afreeca freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}-->
+
+==Roster Moves==
+{{Transfer List
+|sdate=2023-08-23
+|edate=2024-02-27
+|team=afreeca freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}
+
+==Participating Teams==
+{{TeamCard columns start}}
+{{TeamCard
+|team=BRION
+|p1=Morgan
+|p2=GIDEON
+|p3=Karis
+|p4=Envyy
+|p5=Effort
+
+|t2p1=DDoiV |t2pos1=jgl
+|t2p2=Pullbae |t2pos2=mid
+|t2p3=Samver |t2pos3=adc
+|t2p4=Pollu |t2pos4=sup
+
+|t3p1=Edgar |t3pos1=Head Coach
+|t3p2=Drinker |t3pos2=Coach
+|t3title=Staff
+}}
+
+{{TeamCard
+|team=Dplus
+|p1=Kingen
+|p2=Lucid
+|p3=ShowMaker
+|p4=Aiming
+|p5=Kellin	
+
+|t2p1=Zefa |t2pos1=Head Coach
+|t2p2=Bubbling |t2pos2=Coach
+|t2p3=SSONG |t2pos3=Coach
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=DRX
+|p1=Rascal
+|p2=Sponge
+|p3=SeTab
+|p4=Teddy
+|p5=Pleata
+
+|t2p1=Frog|t2p1link=Frog (Korean player)|t2pos1=top
+|t2p2=kyeahoo|t2pos2=mid
+
+|t3p1=Micro |t3pos1=head coach
+|t3p2=Crush |t3pos2=coach
+|t3title=Staff
+}}
+
+{{TeamCard
+|team=FearX
+|p1=Clear
+|p2=Willer
+|p3=Clozer
+|p4=Hena
+|p5=Execute
+
+|t2p1=Ryu |t2pos1=Head Coach
+|t2p2=DooTi |t2pos2=Coach
+|t2p3=Seobi |t2pos3=Coach
+|t2p4=Yvon |t2p4flag=kr |t2pos4=analyst
+|t2title=Staff
+|notes=[[SANDBOX Gaming]] has rebranded to [[FearX]].
+}}
+
+{{TeamCard
+|team=Freecs
+|p1=DuDu
+|p2=Cuzz
+|p3=BuLLDoG
+|p4=Bull
+|p5=Andil
+
+|t2p1=Youngjae |t2pos1=jg |t2p1dnp=true
+|t2p2=Taeyoon|t2pos2=bot
+|t2p3=Quantum|t2pos3=sup |t2p3link=Quantum (Korean player)
+
+|t3p1=cvMax |t3pos1=Head Coach
+|t3p2=FanTaSy |t3pos2=Coach
+|t3p3=Millimas |t3pos3=Coach
+}}
+
+{{TeamCard
+|team=Gen.G
+|p1=Kiin
+|p2=Canyon
+|p3=Chovy
+|p4=Peyz
+|p5=Lehends
+
+|t2p1=Kim |t2pos1=Head Coach
+|t2p2=Helper |t2p2link=Helper_(Korean_player) |t2pos2=Coach
+|t2p3=Mata |t2pos3=Coach
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=Doran
+|p2=Peanut
+|p3=Zeka
+|p4=Viper |p4link=Viper (Korean player)
+|p5=Delight
+
+|t2p1=DanDy |t2pos1=Head Coach
+|t2p2=Mowgli |t2pos2=Coach
+|t2p3=Bibra |t2pos3=analyst
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=KT Rolster
+|p1=PerfecT
+|p2=Pyosik
+|p3=Bdd
+|p4=Deft
+|p5=BeryL
+
+|t2p1=Hirai |t2pos1=Head Coach
+|t2p2=Comet |t2pos2=Coach
+|t2p3=Museong |t2pos3=coach
+|t2p4=supreme |t2pos4=coach
+|t2title=Staff
+}}
+
+{{TeamCard
+|team=Nongshim RedForce
+|p1=DnDn
+|p2=Sylvie
+|p3=Callme
+|p4=Jiwoo
+|p5=Peter |p5link=Peter (Korean player)
+
+|t2p1=FIESTA |t2pos1=mid
+|t2p2=Calix |t2pos2=mid |t2p2link=Calix (Seon Hyeon-bin)
+
+|t3p1=irean |t3pos1=head coach
+|t3p2=Chelly |t3pos2=coach |t3p2link=Chelly (Park Seung-jin)
+|t3p3=Coco |t3pos3=coach
+|t3p4=Noblesse |t3pos4=coach
+}}
+
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=kkOma |t2pos1=Head Coach
+|t2p2=Roach |t2pos2=Coach
+|t2p3=Tom |t2pos3=Coach
+|t2title=Staff
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Regular Season===
+{{LPDB storage|false}}<!--
+-->{{#lst:LCK/2024/Spring/Regular Season|Regular Season}}<!--
+-->{{LPDB storage|true}}
+<span style="line-height:24px">&nbsp;''[[LCK/2024/Spring/Regular Season|Click here for detailed results of the '''Regular Season''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCK24SprPO}}
+
+==Format==
+*'''Regular Season'''
+**Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|seedup|''1st and 2nd place''}} advance to Round 2 of the Playoffs.
+*** {{bgcolortext|up|''3rd till 6th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''6th till 10th place''}} are eliminated from this split.
+*'''Playoffs'''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Winner and the runner-up qualify for [[Mid-Season Invitational/2024|Mid-Season Invitational 2024]]
+
+==Broadcast==
+===Streams===
+{{Streams 
+|lang1=usuk |twitch1=lck |youtube1=LCKglobal 
+|lang2=kr |afreeca2=aflol |youtube2=LCK 
+|lang3=vn |youtube3=LCKTiếngViệt 
+|lang4=fr |twitch4=otplol_
+|lang5=tw |twitch5=LCK_Carry |youtube5=LCKCarry 
+|lang6=es |twitch6=mfreak00 |youtube6=@mfreak00.
+}}
+===Talent===
+{{box|start|padding=2em}}
+====Korean Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Youn Soo-bin |b1flag=kr
+|b2=Bae Hye-ji |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=Park Jee-sun
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Helios |b1link=Helios (Korean player)
+|b2=Cpt Jack
+|b3=Huni
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=Ggoggo |b2name=Go Su-jin |b2flag=kr
+|b3=MyLittlePony|b3name=Im Ju-wan |b3flag=kr   
+|b4=NoFe  
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JonnaStrong
+}}
+{{box|end}}
+{{box|break|padding=2em}}
+
+====English Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Atlus
+|b2=Valdes
+}}
+{{BroadcasterCard
+|position=Color Commentator 
+|b1=Chronicler
+|b2=Wolf|b2link=Wolf (American caster)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Special Appearence
+|b1=Bulii
+}}
+{{BroadcasterCard
+|position=Guest Commentator
+|b1=Aux
+}}
+{{BroadcasterCard
+|position=Analyst Desk Guest
+|b1=Huni
+}}
+{{box|end}}
+
+{{box|end|padding=2em}}
+
+==Additional Data==
+
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="1" | [[Patch 14.1|14.1]]
+| colspan="2" | [[Patch 14.1B|14.1B]]
+| colspan="1" | [[Patch 14.2|14.2]]
+| colspan="2" | [[Patch 14.3|14.3]]
+| colspan="2" | [[Patch 14.4|14.4]]
+| colspan="1" | [[Patch 14.5|14.5]]
+| colspan="1" | [[Patch 14.6|14.6]]
+|-
+| Disabled 
+| colspan="3" |
+| colspan="1" | {{ChampionIcon|smolder|30px}}
+| colspan="2" | {{ChampionIcon|neeko|30px}}
+| colspan="3" | {{ChampionIcon|azir|30px}}
+| colspan="1" |
+|}
+
+===Champion Statistics===
+{{ChampionStats
+|tournament=LCK/2024/Spring/Regular_Season
+|tournament2=LCK/2024/Spring/Playoffs
+|statspage={{FULLPAGENAME}}/Statistics
+}}
+
+===Player Statistics Leaders===
+{{TournamentStatsLeader
+|tournament1=LCK/2024/Spring/Regular_Season
+|tournament2=LCK/2024/Spring/Playoffs
+|statspage={{FULLPAGENAME}}/Player Stats
+}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=LCK24SprW8|matchid=4|gameNum=1|player=Pyosik|vod=https://youtu.be/ZDqsHJzjf1M?t=12230}}
+|{{Json|id=LCK24SprW7|matchid=10|gameNum=2|player=ShowMaker|vod=https://youtu.be/euxbqCksnaw?t=17467}}
+|{{Json|id=LCK24SprW7|matchid=9|gameNum=3|player=Deft|vod=https://youtu.be/euxbqCksnaw?t=9513}}
+|{{Json|id=LCK24SprW5|matchid=8|gameNum=1|player=Peyz|vod=https://youtu.be/1j5reTNDnTc?t=14390}}
+|{{Json|id=LCK24SprW2|matchid=3|gameNum=2|player=ShowMaker|vod=https://youtu.be/mM1vzpAYR5w?t=7637}}
+|{{Json|id=LCK24SprW1|matchid=3|gameNum=1|player=Aiming|vod=https://youtu.be/0-M1q07v5fs?t=4905}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2024/Spring|edate=2024-05-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+
+{{2024 Season International Cycle Navbox}}

@@ -1,0 +1,690 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2025&redirects=1
+<!-- 抓取: 2026-08-16T18:37:40.171Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2025 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}
+{{MSI2025Tabs}}
+{{Infobox league
+|name=2025 Mid-Season Invitational
+|shortname=MSI 2025
+|caption=IGNITE THE FIRE WITHIN
+|image=MSI 2025 lightmode.png
+|imagedark=MSI 2025 darkmode.png
+|series=MSI
+|icon=MSI 2021 lightmode.png
+|icondark=MSI 2021 darkmode.png
+|organizer=Riot Games
+|organizer-link=https://www.riotgames.com/
+|patch=25.13
+|sponsor1=[https://aws.amazon.com/ AWS]
+|sponsor2=[https://hyperx.com/ HyperX]
+|sponsor3=[https://www.cisco.com/ Cisco]
+|sponsor4=[http://www.mastercard.com/ Mastercard]
+|sponsor5=[http://www.esportsworldcup.com/ Esports World Cup]
+|sponsor6=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor7=[https://www.omen.com/ OMEN]
+|sponsor8=[https://www.opera.com/gx Opera GX]
+|sponsor9=[https://www.oppo.com/ OPPO]
+|sponsor10=[https://secretlab.co/ Secretlab]
+|sponsor11=[https://www.redbull.com/ Red Bull]
+|sponsor12=[https://www.verizon.com/ Verizon]
+|sponsor13=[https://www.coinbase.com/ Coinbase]
+|type=Offline
+|country=Canada
+|city=Vancouver
+|venue=Pacific Coliseum
+|venuelink=https://www.pne.ca/book-an-event/venues/pacific-coliseum/
+|format='''Play-In Stage:'''<br>Double Elimination<br>'''Bracket Stage:'''<br>Double Elimination
+|prizepoolusd=2,000,000
+|sdate=2025-06-27
+|edate=2025-07-12
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com/tournament/113470835034591734
+|rulebook=https://cdn.sanity.io/files/dsfx7636/news_live/53e33fce18c6b894749de07156d6bb518d1487fc.pdf
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|tiktok=lolesports
+|team_number=10
+|previous=Mid-Season Invitational/2024{{!}}2024
+|next=Mid-Season Invitational/2026{{!}}2026 
+}}
+
+
+The '''Mid-Season Invitational''' (commonly referred to as ''MSI'') is the second cross-regional competition of the annual LoL Esports calendar. It features ten teams, two from each pro region. MSI 2025 was held in Vancouver, British Columbia, Canada.<ref>{{cite web|url=https://www.instagram.com/lolesports/p/DB1ID1JoD1M/|title=Canada: see you soon!|date=2024-11-01|publisher=LoL Esports}}</ref><ref>{{cite web |publisher=Riot Games |title=Welcome to Noxus {{!}} Dev Update - League of Legends |url=https://youtu.be/z76xgEYgjt0?t=11m22s |date=2025-01-08}}</ref><ref>{{cite web |title=LoL Esports in 2025 |url=https://lolesports.com/en-US/news/lol-esports-in-2025 |date=2025-01-08 |publisher=LoL Esports}}</ref>
+
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+|newsHeader=Additional Content
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Schedule==
+<br>
+''[[Mid-Season_Invitational/2025/Match_Schedule|Click here for the full '''Match Schedule''']].''
+
+==Prize Pool==
+{{TeamPrizePool|percentage=true|cutafter=8
+|qualifies1=World Championship/2025|qualifies1name=Worlds
+|tournament1={{FULLPAGENAME}}/Play-In Stage
+|tournament2={{FULLPAGENAME}}/Bracket Stage
+|{{Slot|place=1|qualified1=true|percentage=25}}
+|{{Slot|place=2|percentage=15}}
+|{{Slot|place=3|percentage=12}}
+|{{Slot|place=4|percentage=10}}
+|{{Slot|place=5-6|percentage=8}}
+|{{Slot|place=7-8|percentage=6.5}}
+|{{Slot|place=9|percentage=5}}
+|{{Slot|place=10|percentage=4}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true|margin=false
+|{{Slot|award=Finals MVP |{{Opponent|Chovy}}}}
+}}<br />
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=Mid-Season Invitational/2025/Play-In Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Bracket Stage MVP
+|tournament=Mid-Season Invitational/2025/Bracket Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+
+===Bracket Stage Teams===
+{{TeamParticipants
+|{{Opponent|Gen.G Esports
+    |players={{Persons
+        |{{Person|Kiin|role=top|trophies=1}}
+        |{{Person|Canyon|role=jgl|trophies=1}}
+        |{{Person|Chovy|role=mid|trophies=1}}
+        |{{Person|Ruler|role=bot|trophies=1}}
+        |{{Person|Duro|role=sup}}
+
+        |{{Person|Kim|role=head coach|trophies=1|type=staff}}
+        |{{Person|Helper|link=Helper (Korean player)|role=coach|trophies=1|type=staff}}
+        |{{Person|Lyn|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2025/Road to MSI|placement=1}}
+}}
+
+|{{Opponent|T1
+    |players={{Persons
+        |{{Person|Doran|role=top}}
+        |{{Person|Oner|role=jgl}}
+        |{{Person|Faker|role=mid|trophies=2}}
+        |{{Person|Gumayusi|role=bot}}
+        |{{Person|Keria|role=sup}}
+
+        |{{Person|kkOma|role=head coach|trophies=2|type=staff}}
+        |{{Person|Tom|role=coach|type=staff}}
+        |{{Person|Mata|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2025/Road to MSI|placement=2}}
+}}
+
+|{{Opponent|Anyone's Legend
+    |players={{Persons
+        |{{Person|Flandre|role=top}}
+        |{{Person|Tarzan|role=jgl}}
+        |{{Person|Shanks|role=mid}}
+        |{{Person|Hope|link=Hope (Chinese player)|role=bot}}
+        |{{Person|Kael|link=Kael (Korean player)|role=sup}}
+
+        |{{Person|Tabe|role=head coach|trophies=1|type=staff}}
+        |{{Person|Xiaobai|role=coach|trophies=2|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2025/Split 2|placement=1}}
+}}
+
+|{{Opponent|FlyQuest
+    |players={{Persons
+        |{{Person|Bwipo|role=top}}
+        |{{Person|Inspired|role=jgl}}
+        |{{Person|Quad|role=mid}}
+        |{{Person|Massu|role=bot}}
+        |{{Person|Busio|role=sup}}
+
+        |{{Person|Nukeduck|role=head coach|type=staff}}
+        |{{Person|Arrow|role=assistant coach|type=staff}}
+        |{{Person|mithy|role=assistant coach|type=staff}}
+        |{{Person|Sygh|flag=us|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LTA/2025/Split 2/North|placement=1}}
+}}
+
+|{{Opponent|Movistar KOI
+    |players={{Persons
+        |{{Person|Myrwn|role=top}}
+        |{{Person|Elyoya|role=jgl}}
+        |{{Person|Jojopyun|role=mid}}
+        |{{Person|Supa|role=bot}}
+        |{{Person|Alvaro|link=Alvaro (Álvaro Fernández)|role=sup}}
+
+        |{{Person|Melzhet|role=head coach|type=staff}}
+        |{{Person|Zeph|role=assistant coach|type=staff}}
+        |{{Person|Hansen|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2025/Spring|placement=1}}
+}}
+
+|{{Opponent|CTBC Flying Oyster
+    |players={{Persons
+        |{{Person|Driver|role=top}}
+        |{{Person|Rest|role=top}}
+        |{{Person|JunJia|role=jgl}}
+        |{{Person|HongQ|role=mid}}
+        |{{Person|Doggo|role=bot}}
+        |{{Person|Kaiwing|role=sup}}
+
+        |{{Person|Chawy|role=head coach|type=staff}}
+        |{{Person|Wulala|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCP/2025/Mid Season|placement=1}}
+}}
+}}
+
+===Play-In Teams===
+{{TeamParticipants
+|{{Opponent|Bilibili Gaming
+    |players={{Persons
+        |{{Person|Bin|role=top|trophies=1}}
+        |{{Person|Beichuan|role=jgl}}
+        |{{Person|knight|role=mid|trophies=1}}
+        |{{Person|Elk|role=bot}}
+        |{{Person|ON|role=sup}}
+
+        |{{Person|BigWei|role=head coach|type=staff}}
+        |{{Person|Easyhoon|role=coach|type=staff}}
+        |{{Person|LvMao|role=coach|type=staff}}
+        |{{Person|zyb|role=analyst|flag=cn|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2025/Split 2|placement=2}}
+}}
+
+|{{Opponent|FURIA
+    |players={{Persons
+        |{{Person|Guigo|role=top}}
+        |{{Person|Tatu|role=jgl}}
+        |{{Person|Tutsz|role=mid}}
+        |{{Person|Ayu|role=bot}}
+        |{{Person|Jojo|role=sup}}
+
+        |{{Person|Thinkcard|role=head coach|type=staff}}
+        |{{Person|Furyz|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LTA/2025/Split 2/South|placement=1}}
+}}
+
+|{{Opponent|G2 Esports
+    |players={{Persons
+        |{{Person|BrokenBlade|role=top}}
+        |{{Person|SkewMond|role=jgl}}
+        |{{Person|Caps|role=mid|trophies=1}}
+        |{{Person|Hans Sama|role=bot}}
+        |{{Person|Labrov|role=sup}}
+
+        |{{Person|Dylan Falco|role=head coach|type=staff}}
+        |{{Person|Memento|role=assistant coach|type=staff}}
+        |{{Person|Ismind|flag=co|role=performance coach|type=staff}}
+        |{{Person|Rodrigo|role=head analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2025/Spring|placement=2}}
+}}
+
+|{{Opponent|GAM Esports
+    |players={{Persons
+        |{{Person|Kiaya|role=top}}
+        |{{Person|Levi|role=jgl}}
+        |{{Person|Emo|role=mid}}
+        |{{Person|Artemis|role=bot}}
+        |{{Person|Elio|role=sup}}
+
+        |{{Person|Aress|role=mid|status=sub}}
+        |{{Person|EasyLove|role=adc|status=sub|played=false}}
+
+        |{{Person|Archie|link=Archie (Vietnamese player)|role=head coach|type=staff}}
+        |{{Person|Hype|link=Hype (Vietnamese player)|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCP/2025/Mid Season|placement=2}}
+}}
+}}
+
+==Results==
+===Play-In Stage===
+{{Toggle bracket start|tournament=Mid-Season Invitational/2025/Play-In Stage|matchpage=true}}
+{{ShowBracket|id=MSI25PlyIn}}
+{{Toggle bracket end}}
+
+===Bracket Stage===
+{{Toggle bracket start|tournament=Mid-Season Invitational/2025/Bracket Stage|matchpage=true}}
+{{ShowBracket|id=MSI25Brakt}}
+{{Toggle bracket end}}
+
+==Format==
+* '''Qualification'''
+** The top two teams from each region (10 total) participate in MSI. 
+** The 1st seed of each region and 2nd seed of [[LCK/2025/Road to MSI|LCK]] (the winning region of [[First Stand Tournament/2025|FST 2025]]) will get a bye into the Bracket Stage, while the other 4 teams will start from Play-In.
+
+* '''Play-In''' - ''June 27th - 29th''
+** 4 teams play in a ''[[starcraft2:Dual Tournament Format|GSL-Style Group]]''
+** Teams are seeded based on the results from [[First Stand Tournament/2025|FST 2025]]
+** Top 2 teams (the 2-0 and 2-1 teams) advance the Bracket Stage.
+** All matches are {{Abbr/Bo5}} with {{Abbr/Fearless Draft}}.
+
+* '''Bracket Stage''' - ''July 1st - 12th''
+** 8 teams play double elimination bracket. 
+** All matches are {{Abbr/Bo5}} with {{Abbr/Fearless Draft}}.
+** The winner of MSI qualifies for [[World Championship/2025|Worlds]] if they reach their regional playoffs in Split 3 and the 2nd place region gets a 4th seed for its domestic league at Worlds.
+
+* '''Patch Information'''
+** All matches are played in [[Patch 25.13]]
+
+===MSI 2025 Draw Show===
+* '''Bracket Stage'''
+** <span class="mw-customtoggle-Swiss-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Bracket Stage Draw show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Swiss-Draw" style="margin-top:10px;">
+* Teams are splited into 4 seed pools to ensure quality groups. The seed pools are determined based on performance at [[First Stand/2025|FST 2025]].
+** 8 teams are splited into 4 pools
+*** '''Pool 1''' will consist of LCK1 (''GEN''), LEC1 (''MKOI'')
+*** '''Pool 2''' will consist of LCP1 (''CFO''), and LPL1 (''AL'').
+*** '''Pool 3''' will consist of LTA1 (''FLY''), and LCK2 (''T1'').
+*** '''Pool 4''' will consist of the 2 teams who qualified from Play-ins (''BLG'' and ''G2'').
+* Pool 1 teams will face Pool 4 teams, while Pool 2 teams will face Pool 3 teams in the first round.
+* Each region can only have one team in each half of the upper bracket.
+** As a result, dependent on the results of the Play-ins, there is no need for a draw show.
+</div>
+
+==Broadcasts==
+===Talent===
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcasts
+|name3=LATAM Broadcasts
+|name4=EMEA Broadcasts
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host & Interview
+|b1=Jeesun |b1link=zeetwo
+|b2=Laure
+|b3=Sjokz
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=Jeesun |b1link=zeetwo
+|b2=Wendy
+|b3=Kitty |b3link=Kitty (Athena Jiang)
+|b4=Nazgriel
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster |lang=en
+|b1=Azael
+|b2=CaptainFlowers
+|b3=Chronicler
+|b4=Drakos
+|b5=Emily Rand
+|b6=Kobe
+|b7=Medic
+|b8=Raz
+|b9=Vedius
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Youn Soo-bin
+|b2=Bae Hye-ji
+|b3=Lee Eun-bin
+}}
+{{BroadcasterCard
+|position=Korean Caster
+|b1=Caster Jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Ggoggo
+|b3=Pony
+|b4=Prince
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Helios |b1link=Helios (Korean player)
+|b2=Prince
+|b3=UmTi
+|b4=Nuclear
+|b5=Kuro
+}}
+{{BroadcasterCard
+|position=Korean Interviewer
+|b1=Jeesun |b1link=zeetwo
+}}
+{{box|end}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Chinese Inteviewer
+|b1=Candice
+}}
+{{BroadcasterCard
+|position=Chinese Translator
+|b1=Wendy
+|b2=Christina
+}}
+{{BroadcasterCard
+|position=Chinese In-Studio Host
+|b1=Chen Yu
+|b2=Shiyue
+|b3=Afu
+|b4=YangYang
+|b5=Zhou Gangan
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Chinese Casters
+|b1=Remember
+|b2=Cat |b2link=Cat (Chinese player)
+|b3=CF2
+|b4=Zeyuan
+|b5=957
+|b6=HuaiNan
+|b7=MacT
+|b8=pyl
+|b9=YuFan
+|b10=Mile
+|b11=Tongxi
+|b12=TianShu
+|b13=Wang Duoduo
+|b14=GuGu
+|b15=Rita
+|b16=san
+|b17=Maomao
+|b18=Zdz
+|b19=Wang Song
+|b20=LANGX
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Japanese Caster
+|b1=Jaeger |b1link=Jaeger (Japanese caster) |b1name=Kota Horie
+|b2=Recruit
+|b3=Syouryu |b3name=Kouya Ozawa
+|b4=Eyes
+|b5=Katsudion
+|b6=Revol
+|b7=Nemoh
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Taiwanese Interviewer & Translator
+|b1=Patty Yu
+}}
+{{BroadcasterCard
+|position=Taiwanese Caster
+|b1=Section
+|b2=Chenzui
+|b3=Yuwu
+|b4=Jay|b4link=Jay (Taiwanese caster)
+|b5=Jackie
+|b6=Art|b6link=Art (Taiwanese caster)
+|b7=Mattlin
+|b8=Mountain
+|b9=JR
+|b10=Zod
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Thai Caster
+|b1=Nerfgy |b1name=Pongpat Bangpetch
+|b2=Moonfalling
+|b3=Mayuko |b3name=Thanyarat Kunarittipol
+|b4=Lastcrosser |b4name=Hassan Zafar
+|b5=Adam |b5link=Adam (Thai caster)
+|b6=Whatthejes |b6flag=th |b6name=Soragit Buranathanasin
+|b7=NaIZer
+|b8=Nohimitsu
+|b9=HeaGow
+|b10=Vision |b10link=Vision (Thai caster)
+|b11=Zylfelia
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Vietnamese Caster
+|b1=Ngọc Thiên
+|b2=Hải Dương
+|b3=Minh Nghi
+|b4=Huy Lova
+|b5=Duy Đức
+|b6=Hữu Trung
+|b7=Khải Nguyễn
+|b8=Tùng Lâm
+|b9=Đức Mạnh
+|b10=Đức Lợi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Vietnamese VTVCabs OnLive Caster
+|b1=Mạnh An
+|b2=Đức Mạnh
+|b3=Đức Lợi
+|b4=Husky Man |b4flag=vn |b4name=Lê Tiến Thành
+|b5=Hữu Trung
+|b6=Khải Nguyễn
+|b7=Minh Trí
+|b8=Trịnh Long |b8flag=vn |b8name=Trịnh Thế Long
+|b9=Flurrish |b9flag=vn |b9name=Lê Trương Phúc Bảo
+|b10=Drize |b10flag=vn |b10name=Trần Đình Hiếu
+|b11=Hoàng Luân
+|b12=Văn Tùng
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Desk Host
+|b1=Tabs
+}}
+{{BroadcasterCard
+|position=LATAM Desk Host
+|b1=Kalipso
+}}
+{{BroadcasterCard
+|position=Brazilian Interviewer
+|b1=Rafaela Tomasi
+}}
+{{BroadcasterCard
+|position=LATAM Interviewer
+|b1=Lau Agnolin
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Caster
+|b1=Schaeppi
+|b2=Takeshi
+|b3=Loop
+|b4=Fogueta
+|b5=Lahgolas
+|b6=gstv
+|b7=Gruntar
+|b8=Colosimus |b8name=Brunno Colosimo
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Caster
+|b1=Abdiel
+|b2=AlanQ
+|b3=Corsario
+|b4=Drago
+|b5=Elmo |b5link=Elmo (Chilean caster)
+|b6=Fahrenheit
+|b7=JJ EX
+|b8=Lilynn
+|b9=Nachittus |b9flag=ar |b9name=Ignacio Martín Santamarina
+|b10=Rafamaik
+|b11=SOSO
+|b12=Yeti
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=French Caster
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=Finghin
+|b5=Chreak
+|b6=Glopo
+|b7=Marex
+|b8=Rhobalas
+|b9=Zerotick
+|b10=Blackbigo
+|b11=YellOwStaR
+|b12=Splinter
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Italian Caster
+|b1=KenRhen
+|b2=Moonboy
+|b3=Wolcat
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Czech & Slovak Caster
+|b1=Falazury
+|b2=Goksi
+|b3=Karas
+|b4=Murde
+|b5=Hany
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Polish Caster
+|b1=Bialito
+|b2=CzarnyPiotruś
+|b3=Ikar |b3flag=pl |b3name=Igor Łypian
+|b4=Leo |b4link=Leo (Polish caster) |b4flag=pl |b4name=Łukasz Mirek
+|b5=Magvayer
+|b6=Majutek |b6flag=pl |b6name=Rafał Szczepanek
+|b7=Nahovsky
+|b8=Nervarien
+|b9=Jaskier
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Hungarian Caster
+|b1=Makaria |b1name=Makaria Márk
+|b2=R3h4b |b2flag=hu |b2name=Sipos Szabolcs
+|b3=Loemifar
+|b4=Atreus |b4name=Loksa Bence
+|b5=Livius |b5name=Koncz Máté
+|b6=Mathias
+|b7=Rka
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Serbian Caster
+|b1=Sa1na
+|b2=Ralla
+|b3=Mare
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=German Caster
+|b1=Tolkin
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Turkish Caster
+|b1=Hetze
+|b2=Halpern
+|b3=Euphony
+|b4=Noeldayi
+|b5=Jhonnie |b5name=Caner Güngörür
+|b6=Hoca
+|b7=Scarlet |b7link=Scarlet (Turkish caster) |b7flag=tr |b7name=Can Çaldıran
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Spanish Caster
+|b1=Fernando Cardenete
+|b2=Wolk
+|b3=Noa
+|b4=Champi
+|b5=Bebé
+}}
+{{BroadcasterCard
+|position=Spanish Guest Analyst
+|b1=Marhoder
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=@lolesports |tiktok1=@lolesports/live |2tiktok1=@leagueoflegends/live
+|lang2=cn |huya2=660000 |bilibili2=6 |stream2=https://lpl.qq.com/web202301/live.html |2stream2=https://weibo.com/lolesports
+|lang3=kr |youtube3=@LCK |afreeca3=aflol |soop3=lckkr |chzzk3=9381e7d6816e6d915a44a13c0195b202
+|lang4=ptbr |twitch4=ltasul |youtube4=@LTASul |tiktok4=@ltasul/live
+|lang5=esmx |twitch5=ltaespanol |youtube5=@LTAEspanol
+|lang6=jp |twitch6=leagueoflegendsjp |youtube6=lolesportsjp
+|lang7=tw |twitch7=lolesportstw |youtube7=@lolesportstw
+|lang8=th |twitch8=leagueoflegendsth |youtube8=@leagueoflegendstha |facebook8=Leagueoflegendsth
+|lang9=vn |youtube9=@lolesports_vn |stream9=https://play.onlive.vn/onlivelmht |tiktok9=@lolesports_vn/live
+|lang10=fr |twitch10=otplol_ |youtube10=@OTP_VODs |stream10=https://x.com/OTP_LoL/live
+|lang11=it |twitch11=litofficial |youtube11=@lit_official_it
+|lang12=es |twitch12=lvpes |youtube12=lvpward |tiktok12=@lvpes/live
+|lang13=de |twitch13=tolkin |youtube13=@TolkinLoL
+|lang14=cz |twitch14=hitpointcz |youtube14=@hitpointcz
+|lang15=hu |twitch15=esport2tv |youtube15=Esport1gg |tiktok15=@esport1.hu/live
+|lang16=pl |twitch16=nervarien |youtube16=@Nervarien
+|lang17=rs |youtube17=@Sa1naTV
+|lang18=tr |twitch18=riotgamesturkish |youtube18=@Lolespor |2youtube18=@ESAEsportsTV
+}}
+
+==Additional Data==
+===Champion Statistics===
+{{#lst:Mid-Season Invitational/2025/Statistics|Champion Stats}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=MSI25Brakt|matchid=R1M3|gameNum=3|player=Doggo|vod=https://youtu.be/YZMX_g7fgG8?t=2120}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+===MSI Appearances===
+{{Player tournament appearances|series=Mid-Season Invitational|tiers=1|limit=10|playerspage=Mid-Season_Invitational/2025}}
+:''See [[Mid-Season Invitational/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==Trivia==
+* With {{team|cfo}}'s win over {{team|mkoi}} in the Lower Bracket Round 1, this marked APAC's first {{Abbr/Bo5}} win over EU/NA/CN/KR since {{team|tpa|date=2012-12-31}} in 2012.<ref>{{cite web|url=https://x.com/lolpacificen/status/1941624517987860924|title=13 YEARS.|author=[[LCP]]|language={{flag|usuk}} English|date=2025-07-06}}</ref>
+
+==References==
+{{Reflist}}
+
+{{2025 Season International Cycle Navbox}}
