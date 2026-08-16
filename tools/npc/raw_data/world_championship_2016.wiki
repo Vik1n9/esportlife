@@ -1,0 +1,548 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2016&redirects=1
+<!-- 抓取: 2026-08-16T18:30:34.126Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2016 World Championship}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World Championship/2016
+|name2=Championship Points
+|link2=World Championship/2016/Championship Points
+|name3=Regional Finals
+|link3=World Championship/2016/Regional Finals
+|name4=Group Stage
+|link4=World Championship/2016/Group Stage
+|name5=Knockout Stage
+|link5=World Championship/2016/Knockout Stage
+|name6=Statistics
+|link6=World Championship/2016/Statistics
+|This=1}}
+{{Infobox league
+|name=2016 World Championship
+|shortname=Worlds 2016
+|image=2016 LoL Worlds Logo.png
+|series=World Championships
+|icon=Lolworldslogo_small.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.acer.com/ Acer]
+|patch=6.18
+|server=
+|type=Offline
+|country=United States
+|country2=United States
+|country3=United States
+|country4=United States
+|city=San Francisco
+|city2=Chicago
+|city3=New York
+|city4=Los Angeles
+|venue=Bill Graham Civic Auditorium
+|venue2=The Chicago Theatre
+|venue3=Madison Square Garden
+|venue4=Staples Center
+|format=Group Stage <br> Single Elimination
+|prizepoolusd=5,070,000
+|sdate=2016-09-29
+|edate=2016-10-29
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com/
+|rulebook=https://esports-assets.s3.amazonaws.com/production/files/rules/2016%20World%20Championship%20Rule%20Set%20v%201.10.pdf
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=LoLChampSeries
+|team_number=16
+|previous=World_Championship/2015{{!}}2015
+|next=World_Championship/2017{{!}}2017
+}}
+
+==Format==
+* '''Qualifiers''' - ''August 27th - September 5th, 2016''
+** Five Regional Finals.
+*** The winners of each Regional Final will advance to the World Championship.
+**Two International Wildcard Qualifiers.
+***The winner of each International Wildcard Qualifier will advance to the World Championship.
+* '''Group Stage''' - ''September 29th - October 9th, 2016 in {{Flag|us}} San Francisco''
+** All sixteen teams are divided into four groups where they play a Double Round robin format.
+*** All Matches are played in a {{Abbr/Bo1}}.
+*** The top two teams in each group advance to the Knockout Stage.
+*** The remaining teams are eliminated.
+* '''Knockout Stage''' - ''October 13th - October 29st, 2016 in {{Flag|us}} Chicago, {{Flag|us}} New York, and {{Flag|us}} Los Angeles''
+** Eight teams play in a single elimination bracket over seven days.
+*** All matches are {{Abbr/Bo5}}.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Desk Host
+|b1=Dash
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=Clement Chu 
+|b2=Crumbz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=PiraTechnics
+|b3=Phreak
+|b4=Pastrytime
+|b5=Riv
+|b6=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Deficio
+|b3=Froskurinn
+|b4=Jatt
+|b5=Kobe
+|b6=Krepo
+|b7=LS
+|b8=PapaSmithy
+|b9=Rusty
+|b10=Spawn
+|b11=Stress
+|b12=Zirene
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=Dankun|b2flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Kim Dong-joon|b2flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+The initial prize pool of the tournament was $2,130,000 {{abbr/USD}}.<br />
+An additional 25% of all Championship Zed & Championship Ward skins are added to the total prize pool. <br />
+The total prize pool is $5,070,000 {{Abbr/USD}} ($2,940,000 {{abbr/USD}} added).
+{{TeamPrizePool|cutafter=8|prizesummary=no|percentage=true
+|tournament1=World Championship/2016/Group Stage|tournament2=World Championship/2016/Playoffs
+|{{Slot|percentage=40}}
+|{{Slot|percentage=15}}
+|{{Slot|place=3-4|percentage=7.5}}
+|{{Slot|place=5-8|percentage=4}}
+|{{Slot|place=9-12|percentage=2.25}}
+|{{Slot|place=13-16|percentage=1.25}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP |{{Opponent|Faker |team=skt}}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=World_Championship/2016/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=World Championship/2016/Playoffs
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Pool 1 Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Hauntzer
+|p2=Svenskeren
+|p3=Bjergsen
+|p4=Doublelift
+|p5=Biofrost
+
+|t2p1=Parth |t2p1flag=us |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2016/Summer|NA LCS Summer]]
+|placement=3
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=MMD
+|p2=Karsa
+|p3=Maple
+|p4=NL
+|p5=SwordArt
+
+|t2p1=Fluidwind |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/2016/Summer|LMS Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2015)'''
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Koro1
+|p2=Clearlove
+|p3=Scout
+|p4=Deft
+|p5=Meiko
+
+|t2p1=Mouse |t2pos1=top
+|t2p2=PawN |t2pos2=mid |t2p2wins=1
+
+|t3p1=RapidStar |t3pos1=Head Coach
+|qualifier=[[LPL/2016/Summer|LPL Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2015)'''
+}}
+{{TeamCard
+|team=ROX Tigers
+|image=ROX Tigers logo old.png
+|p1=Smeb
+|p2=Peanut
+|p3=Kuro
+|p4=PraY
+|p5=GorillA
+
+|t2p1=NoFe |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCK/2016/Summer|LCK Summer]]
+|placement=2
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2015)'''
+}}
+{{TeamCard columns end}}
+
+===Pool 2 Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Darshan
+|p2=Xmithie
+|p3=Huhi
+|p4=Stixxay
+|p5=aphromoo
+
+|t2p1=Zikzlol |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2016/Championship_Points|NA Championship Points]]
+|placement=5
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Ziv |p1link=Ziv (Taiwanese player)
+|p2=Mountain
+|p3=Westdoor
+|p4=AN
+|p5=Albis
+
+|t2p1=Chawy |t2pos1=mid
+
+|t3p1=GreenTea |t3pos1=Head Coach
+|qualifier=[[LMS/2016/Regional_Finals|LMS Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2015)'''
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Expect
+|p2=Trick
+|p3=Perkz
+|p4=Zven
+|p5=mithy
+
+|t2p1=YoungBuck |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2016/Summer|EU LCS Summer]]
+}}
+{{TeamCard
+|team=H2K
+|p1=Odoamne
+|p2=Jankos
+|p3=Ryu
+|p4=FORG1VEN
+|p5=Vander
+
+|t2p1=pr0lly |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2016/Championship_Points|EU Championship Points]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2015)'''
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Looper |p1wins=1
+|p2=Mlxg
+|p3=Xiaohu
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Mata |p5wins=1
+
+|t2p1=Fly |t2p1link=Fly (Kim Sang-chul) |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LPL/2016/Championship_Points|LPL Championship Points]]
+}}
+{{TeamCard
+|team=I May
+|p1=AmazingJ
+|p2=Avoidless
+|p3=Athena
+|p4=Jinjiao
+|p5=Road
+
+|t2p1=BaeMe |t2pos1=mid
+
+|t3p1=Kezman |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LPL/2016/Regional_Finals|LPL Regional Finals]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Duke
+|p2=Bengi |p2wins=2
+|p3=Faker |p3wins=2
+|p4=Bang |p4wins=1
+|p5=Wolf |p5link=Wolf (Korean player) |p5wins=1
+
+|t2p1=Blank |t2pos1=jng
+
+|t3p1=cCarter |t3p2flag=kr |t3pos1=Head Coach |t3p1winsc=2
+|t3p2=kkOma |t3pos2=Coach |t3p2winsc=2
+|t3p3=PoohManDu |t3pos3=Coach |t3p3wins=1
+|qualifier=[[LCK/2016/Championship_Points|LCK Championship Points]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2013, 2015)'''
+}}
+{{TeamCard
+|team=Samsung Galaxy
+|p1=CuVee
+|p2=Ambition
+|p3=Crown
+|p4=Ruler
+|p5=CoreJJ
+
+|t2p1=Wraith |t2pos1=sup
+
+|t3p1=Edgar |t3pos1=Head Coach
+|t3p2=Kim |t3pos2=Coach
+|t3p3=oDin |t3pos3=Coach
+|qualifier=[[LCK/2016/Regional_Finals|LCK Regional Finals]]
+}}
+{{TeamCard columns end}}
+
+===Pool 3 Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Cloud9
+|p1=Impact |p1wins=1
+|p2=Meteos
+|p3=Jensen
+|p4=Sneaky
+|p5=Smoothie
+
+|t2p1=Reapered |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2016/Regional_Finals|NA Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2014}} '''(2014)'''
+}}
+{{TeamCard
+|team=Splyce
+|p1=Wunder
+|p2=Trashy
+|p3=Sencux
+|p4=Kobbe
+|p5=Mikyx
+
+|t2p1=YamatoCannon |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2016/Regional_Finals|EU LCS Regional Finals]]
+}}
+{{TeamCard
+|team=Albus NoX Luna
+|p1=Smurf |p1link=Smurf (Russian player)
+|p2=PvPStejos
+|p3=Kira
+|p4=aMiracle
+|p5=Likkrit
+
+|t2p1=Unho1y |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Ansva |t3pos1=Head Coach
+|qualifier=[[International_Wildcard_Qualifier/2016|IWC Qualifier]]
+}}
+{{TeamCard
+|team=INTZ eSports
+|p1=Yang
+|p2=Revolta
+|p3=tockers
+|p4=micaO
+|p5=Jockster
+
+|t2p1=Abaxial |t2p1flag=us |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[International_Wildcard_Qualifier/2016|IWC Qualifier]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2016/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2016/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2016/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2016/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2016/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=Wrd16KnOut}}
+
+==Additional Data==
+
+
+===Statistics===
+{{#section:World Championship/2016/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Top 20 Players Before Tournament===
+{|- class="wikitable sortable" class="table table-bordered prizepooltable collapsed" style="text-align:center;" data-cutafter="5"
+|-
+! colspan=1| # !! Player !! Position !! Team
+|-
+|1
+|style="text-align:left" | {{Flag|kr}} [[Smeb]]
+|Top
+|{{TeamIcon|rox tigers}}
+|-
+|2
+|style="text-align:left" | {{Flag|kr}} [[Faker]]
+|Mid
+|{{TeamIcon|skt}}
+|-
+|3
+|style="text-align:left" | {{Flag|kr}} [[Deft]]
+|AD Cary
+|{{TeamIcon|edg}}
+|-
+|4
+|style="text-align:left" | {{Flag|cn}} [[Clearlove]]
+|Jungle
+|{{TeamIcon|edg}}
+|-
+|5
+|style="text-align:left" | {{Flag|kr}} [[Peanut]]
+|Jungle
+|{{TeamIcon|rox tigers}}
+|-
+|6
+|style="text-align:left" | {{Flag|kr}} [[Bang]]
+|AD Carry
+|{{TeamIcon|skt}}
+|-
+|7
+|style="text-align:left" | {{Flag|kr}} [[Gorilla]]
+|Support
+|{{TeamIcon|rox tigers}}
+|-
+|8
+|style="text-align:left" | {{Flag|dk}} [[Bjergsen]]
+|Mid
+|{{TeamIcon|tsm}}
+|-
+|9
+|style="text-align:left" | {{Flag|kr}} [[PraY]]
+|AD Carry
+|{{TeamIcon|rox tigers}}
+|-
+|10
+|style="text-align:left" | {{Flag|kr}} [[Duke]]
+|Top
+|{{TeamIcon|skt}}
+|-
+|11
+|style="text-align:left" | {{Flag|cn}} [[Uzi (Chinese player){{!}}Uzi]]
+|AD Carry
+|{{TeamIcon|rng}}
+|-
+|12
+|style="text-align:left" | {{Flag|cn}} [[Meiko]]
+|Support
+|{{TeamIcon|edg}}
+|-
+|13
+|style="text-align:left" | {{Flag|kr}} [[Looper]]
+|Top
+|{{TeamIcon|rng}}
+|-
+|14
+|style="text-align:left" | {{Flag|kr}} [[Trick]]
+|Jungle
+|{{TeamIcon|g2}}
+|-
+|15
+|style="text-align:left" | {{Flag|kr}} [[Mata]]
+|Support
+|{{TeamIcon|rng}}
+|-
+|16
+|style="text-align:left" | {{Flag|dk}} [[Zven]]
+|AD Carry
+|{{TeamIcon|g2}}
+|-
+|17
+|style="text-align:left" | {{Flag|es}} [[Mithy]]
+|Support
+|{{TeamIcon|g2}}
+|-
+|18
+|style="text-align:left" | {{Flag|us}} [[Doublelift]]
+|AD Carry
+|{{TeamIcon|tsm}}
+|-
+|19
+|style="text-align:left" | {{Flag|kr}} [[Crown]]
+|Mid
+|{{TeamIcon|ssg}}
+|-
+|20
+|style="text-align:left" | {{Flag|tw}} [[Karsa]]
+|Jungle
+|{{TeamIcon|fw}}
+|-
+|}
+
+===Official Song===
+{{#ev:youtube|Zasx9hjo4WY|600}}

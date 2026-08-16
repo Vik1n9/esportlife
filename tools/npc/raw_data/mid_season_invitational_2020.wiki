@@ -1,0 +1,258 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2020&redirects=1
+<!-- 抓取: 2026-08-16T18:35:36.980Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2020 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}
+{{Tabs static
+|name1=Overview
+|link1=Mid-Season_Invitational/2020
+|name2=Play-In
+|link2=Mid-Season_Invitational/2020/Play-In
+|name3=Group Stage
+|link3=Mid-Season_Invitational/2020/Group_Stage
+|name4=Knockout Stage
+|link4=Mid-Season_Invitational/2020/Knockout_Stage
+|name5=Statistics 
+|link5=Mid-Season_Invitational/2020/Statistics 
+|name6=Additional Content
+|link6=Mid-Season_Invitational/2020/Additional_Content
+|This=1}}
+{{Infobox league
+|name=2020 Mid-Season Invitational
+|shortname=MSI 2020
+|image=MSI crest.png
+|series=MSI
+|icon=Msilogo_small.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=
+|sponsor=[https://www.mastercard.com MasterCard] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|server=
+|type=
+|country=
+|city=
+|venue=
+|format=
+|prizepoolusd=
+|sdate=2020-07-03
+|edate=2020-07-19
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/en_US/
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|rulebook=
+|team_number=12
+|previous=Mid-Season Invitational/2019{{!}}Mid-Season Invitational 2019
+|next=Mid-Season Invitational/2021{{!}}Mid-Season Invitational 2021
+}}
+
+<br>
+{{Cancelled Tournament|confirmed=true}}
+
+The '''Mid-Season Invitational''' (MSI) features the winners from 12 individual Riot leagues spring splits competing in the 6th annual tournament.
+
+'''On April 23, [http://www.riotgames.com/ Riot Games] announced that the MSI has been canceled due to the worldwide [[wikipedia:COVID-19|''Coronavirus'' epidemic]].'''<ref name="MSI canceled">{{cite web|url=https://watch.lolesports.com/article/update-on-msi-from-john-needham/blt26cfaff9e2c05782|title=Update on MSI from John Needham|date=2020-04-23|author=JOHN NEEDHAM|publisher=Riot Games|language={{Flag|usuk}}}}</ref> [[Mid-Season Cup/2020|Mid-Season Cup 2020]] was held for the [[LCK]] and [[LPL]] teams as a substitute for the cancelled MSI.<ref>{{cite web|url=https://www.dailyesports.com/view.php?ud=2020051309090889903cf949c6b9_27|title='LoL 한중전' 미드 시즌 컵 5월말에 열린다|trans_title='LoL Korea vs. China' Mid-Season Cup will take place in late May|date=2020-05-13|author=남윤성|publisher=데일리e스포츠|language={{FlagNoLink|kr}} Korean}}</ref>
+
+==Format==
+
+==Broadcast Talent==
+
+
+==Prize Pool==
+
+==Qualification==
+{| class="wikitable"
+|-
+! Event
+! Date
+! Teams
+|-
+! colspan=3 | Seeded into Play-In Groups
+|-
+| {{LeagueIconSmall/vcs}} [[VCS/2020/Spring|VCS Spring Champion]]
+| 2020-01-31 - 2020-04-18
+| {{Team|team flash}}
+|-
+| {{LeagueIconSmall/opl}} [[OPL/2020/Split 1|OPL Split 1 Champion]]
+| 2020-01-31 - 2020-04-24
+| {{Team|legacy esports}}
+|-
+| {{LeagueIconSmall/lcl}} [[LCL/2020/Spring|LCL Spring Champion]]
+| 2020-02-22 - 2020-04-26
+| {{Team|unicorns of love}}
+|-
+| {{LeagueIconSmall/lla}} [[LLA/2020/Opening|LLA Opening Champion]]
+| 2020-02-15 - 2020-05-02
+| {{Team|all knights}}
+|-
+| {{LeagueIconSmall/pcs}} [[PCS/2020/Spring|PCS Spring Champion]]
+| 2020-02-29 - 2020-05-03
+| {{Team|talon esports}}
+|-
+| {{LeagueIconSmall/ljl}} [[LJL/2020/Spring|LJL Spring Champion]]
+| 2020-02-08 - 2020-05-04
+| {{Team|detonation focusme}}
+|-
+| {{LeagueIconSmall/cblol}} [[CBLOL/2020/Summer|CBLOL Summer Champion]]
+| 2020-01-25 - 2020-05-09
+| {{Team|kabum! e-sports}}
+|-
+| {{LeagueIconSmall/tcl}} [[TCL/2020/Winter|TCL Winter Champion]]
+| 2020-02-01 - 2020-05-11
+| {{Team|1907 fenerbahçe esports}}
+|-
+! colspan=3 | Seeded into Group Stage
+|-
+| {{LeagueIconSmall/lec}} [[LEC/2020/Spring|LEC Spring Champion]]
+| 2020-01-24 - 2020-04-19
+| {{Team|g2}}
+|-
+| {{LeagueIconSmall/lcs}} [[LCS/2020/Spring|LCS Spring Champion]]
+| 2020-01-25 - 2020-04-19
+| {{Team|c9}}
+|-
+| {{LeagueIconSmall/lck}} [[LCK/2020/Spring|LCK Spring Champion]]
+| 2020-02-05 - 2020-04-25
+| {{Team|t1}}
+|-
+| {{LeagueIconSmall/lpl}} [[LPL/2020/Spring|LPL Spring Champion]]
+| 2020-01-13 - 2020-05-09
+| {{Team|jdg}}
+|}
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Cloud9
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LCS/2020/Spring|LCS Spring]]
+}}
+{{TeamCard
+|team=G2 Esports
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LEC/2020/Spring|LEC Spring]]
+}}
+{{TeamCard
+|team=JD Gaming
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LPL/2020/Spring|LPL Spring]]
+}}
+{{TeamCard
+|team=T1
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LCK/2020/Spring|LCK Spring]]
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=1907 Fenerbahçe Esports
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[TCL/2020/Winter|TCL Winter]]
+}}
+{{TeamCard
+|team=All Knights
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LLA/2020/Opening|LLA Opening]]
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LJL/2020/Spring|LJL Spring]]
+}}
+{{TeamCard
+|team=KaBuM! e-Sports
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[CBLOL/2020/Summer|CBLOL Summer]]
+}}
+{{TeamCard
+|team=Legacy Esports
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[OPL/2020/Split_1|OPL Split 1]]
+}}
+{{TeamCard
+|team=Talon Esports
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[PCS/2020/Spring|PCS Spring]]
+}}
+{{TeamCard
+|team=Team Flash
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[VCS/2020/Spring|VCS Spring]]
+}}
+{{TeamCard
+|team=Unicorns of Love
+|p1= |p1flag=
+|p2= |p2flag=
+|p3= |p3flag=
+|p4= |p4flag=
+|p5= |p5flag=
+|qualifier=[[LCL/2020/Spring|LCL Spring]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+
+==Additional Data==
+
+===Statistics===
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+
+===Announcements===
+
+==References==
+{{Reflist}}

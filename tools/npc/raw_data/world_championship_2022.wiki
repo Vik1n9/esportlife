@@ -1,0 +1,1003 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2022&redirects=1
+<!-- 抓取: 2026-08-16T18:30:50.852Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2022 World Championship}}
+{{World Championship}}<br>
+{{Worlds2022Tabs}}
+{{Infobox league
+|name=2022 World Championship
+|caption=ONE & ONLY
+|tickername=Worlds 2022
+|shortname=Worlds 2022
+|image=LoL World Championship 2022.png
+|series=World Championships
+|icon=League of Legends Worlds lightmode.png
+|icondarkmode=League of Legends Worlds darkmode.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|sponsor1=[https://www.oneplus.com/ OnePlus]
+|sponsor2=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor3=[https://www.redbull.com/ Red Bull]
+|sponsor4=[https://secretlab.eu/ Secretlab]
+|sponsor5=[https://www.verizon.com/ Verizon]
+|sponsor6=[http://www.mastercard.com/ Mastercard]
+|sponsor7=[https://www.cisco.com/ Cisco]
+|sponsor8=[https://www.amazon.com/prime-gaming Prime Gaming]
+|sponsor9=[https://aws.amazon.com/ AWS]
+|sponsor10=[https://www.statefarm.com/ State Farm]
+|sponsor11=[https://www.spotify.com/ Spotify]
+|patch=12.18 <!--https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-18-notes/-->
+|type=Offline
+|country=United States
+|country2=United States
+|country3=United States
+|country4=Mexico
+|city=San Francisco
+|city2=Atlanta
+|city3=New York
+|city4=Mexico City
+|venuename=Chase Center |venue=wikipedia:Chase_Center |venuedesc=Grand Final
+|venue2name=State Farm Arena |venue2=wikipedia:State_Farm_Arena |venue2desc=Semifinals
+|venue3name=Hulu Theater in Madison Square Garden |venue3=wikipedia:Hulu_Theater |venue3desc=Group Stage & Quarterfinals
+|venue4=Arena Esports Stadium (LLA Studio) |venue4desc=Play-In
+|rulebook=https://assets.contentstack.io/v3/assets/bltad9188aa9a70543a/bltb598a2440acbaf75/63316008ecd0b92b89dfc53c/2022_World_Championship_Rules.pdf
+|format=Round-Robin<br>Single Elimination
+|prizepoolusd=2,225,000
+|sdate=2022-09-29
+|edate=2022-11-05
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=lolesports
+|youtube2=leagueoflegends
+|team_number=24
+|previous=World_Championship/2021{{!}}2021
+|next=World_Championship/2023{{!}}2023
+}}
+<br>
+The '''2022 World Championship''' is the crowning event of League of Legends esports for the year. The tournament welcomes 24 teams from all regions of the game in a months-long race for the Summoner's Cup.
+
+Worlds this year will host 24 teams from around the globe. Unfortunately, the LCL will not be able to send a representative to Worlds 2022. The LCL slot will be granted to the region that has had the best performance during international events over the past two years, but does not already have 4 team berths: Europe.<ref name="lolesports20220721">{{cite web|url=https://lolesports.com/article/league-of-legends-worlds-2022-dates-and-seeding/blt030c8a08a910c7f5|title=League of Legends Worlds 2022 Dates and Seeding|author=LoL Esports|publisher=Twitter.com|date=2022-07-21|language={{Flag|usuk}} English}}</ref>
+
+==Format==
+* '''Qualification'''
+** 24 teams from professional leagues will qualify for the event.
+** LPL, LCK, LEC will have 4 slots, while LCS will have 3 slots, PCS and VCS will have 2 slots, remaining slots will be one each for CBLOL, LJL, LLA, LCO and TCL.<ref name="lolesports20220721"/>
+
+* '''Play-In Round 1''' - ''September 29<sup>th</sup> - October 2<sup>nd</sup>''
+** Twelve teams are divided into two groups where they play a Single Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+** <span class="bg-seedup">Top teams</span> in each group advance to Group Stage.
+** <span class="bg-up">2nd</span>, <span class="bg-stayup">3rd and 4th teams</span> in each group advance to Play-In: Round 2.
+** <span class="bg-down">Bottom 2 teams</span> in each group are eliminated.
+
+* '''Play-In Round 2''' - ''October 3<sup>rd</sup> - 4<sup>th</sup>''
+**Six teams from Play-In: Round 1.
+**The 3rd and 4th placed teams of the same group of Round 1 face each other, winners compete against the 2nd placed team of the other group.
+**All matches are played in a {{Abbr/Bo5}}.
+**Two winners will advance to Group Stage.
+**Four losers will be eliminated.
+
+* '''Group Stage''' - ''October 7<sup>th</sup> - 10<sup>th</sup> and 13<sup>th</sup> - 16<sup>th</sup>''
+** Four teams from the Play-In Stage join twelve teams with direct entry from China, South Korea, Europe, North America, Southeast Asia and Vietnam.
+** All sixteen teams are divided into four groups where they play a Double Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+**<span class="bg-up">Top two teams</span> in each group advance to Knockout Stage.
+**<span class="bg-down">Bottom two teams</span> in each group are eliminated.
+** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">''Click here for information about tiebreaker rules''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;">
+* If teams are tied and competing for 3rd and 4th place, there will not be any additional matches, the placement will be determined by their head-to-head result. If teams an identical head-to-head record, they will share the 3rd place.
+* No tiebreaker game will be played if the tiebreaker would not decide either the first or second place position in the group.
+* In other circumstances: 
+** If there are '''two''' teams have an equal amount of points, an additional tiebreaker match will be played.
+** If there are '''three''' teams have an equal amount of points, five circumstances will be considered based on the records against each of the other teams in the tie:
+*** ''Each team in the tiebreaker has a record of 2-2: the two teams with highest winning time will play against each other, winner will face the other team. (Group A)''
+*** The teams have 3-1, 2-2 and 1-3 records: the 2-2 and 1-3 teams will play against each other, winner will face the 3-1 team.
+*** The teams are with two 3-1 and one 0-4 records: the team that is 0-4 will be awarded the lowest standing being decided by the tiebreaker and a new tiebreaker is declared amongst the two teams with an aggregate record of 3-1 utilizing the two-way tie procedure set.
+*** One team has 4-0 and the others are 1-3: The team that is 4-0 is automatically granted the highest seed available in the tiebreaker, and a new tiebreaker is declared amongst the two teams with an aggregate record of 1-3 utilizing the two-way tie procedure set.
+*** The teams are with 4-0, 2-2 and 0-4 record: the tie will be broken by the aggregate record.
+** If there are '''four''' teams have an equal amount of points, the teams will be drawn into a single elimination bracket based on the cumulative game victory time for the individual teams.
+*** The seeds will be given in order to the teams that won their games the quickest. The four teams will be split into two first-round matches: quickest team faces slowest team and 2nd team faces 3rd team. 
+*** The losing teams will be eliminated from the tournament. The winning teams play a match to determine the first and second seeds of the group.
+* Side selection for a head-to-head tiebreaker matchup will be awarded to the team with the lower total game victory time.
+* All tiebreaker matches are {{abbr/Bo1}}
+</div>
+
+* '''Knockout Stage''' - ''October 20<sup>th</sup> - 23<sup>rd</sup>, October 29<sup>th</sup> - 30<sup>th</sup> and November 5<sup>th</sup>''
+** Eight teams play in a single elimination bracket where 1st placed team of each group faces 2nd placed team from another group.
+** Side Selection Privilege
+*** Teams with Side Selection Privilege can choose the side in game 1, after that, the losing team can choose the side in the next game.
+*** In Quarterfinals, 1st placed team from each group will have the Side Choice Previlege.
+*** In the following matches, the Side Choice Previlege will be determined by coin flip.
+** All matches are {{Abbr/Bo5}}.
+
+* '''Patch Information'''
+** Worlds 2022 will be played on [https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-18-notes/ Patch 12.18].
+** [[File:Champion icon Udyr 2022.png|20px|link=]] [https://euw.leagueoflegends.com/en-gb/champions/udyr/ Udyr] was disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<ref name="Udyr banned">{{cite web|url=https://na.leagueoflegends.com/en-us/news/dev/dev-balancing-for-pro-play/|title=/dev: Balancing for Pro Play|author=Summoner's Rift Team|publisher=Riot Games|date=2020-08-19|language={{Flag|usuk}}English}}</ref>
+* '''Game related changes'''
+** [[File:Champion_icon_Orianna.png|20px|link=]] [https://euw.leagueoflegends.com/en-gb/champions/orianna/ Orianna] was disabled during the October 10th matches.<ref name="Orianna disabled">{{cite web |url=https://twitter.com/lolesports/status/1579476329468424194|title=Due to a recently discovered bug, Orianna will be disabled for Worlds 2022 until further notice|author=LoL Esports|publisher=Twitter|language={{Flag|usuk}}English}}</ref> <ref name="Orianna re-enabled">{{cite web|url=https://twitter.com/lolesports/status/1579985320220598272|title=The Orianna bug has been resolved and the champion will be re-enabled for Worlds|author=LoL Esports|publisher=Twitter|language={{Flag|usuk}}English}}</ref>
+===Worlds Draw Show===
+* The Worlds Draw Show will be held after [[LCS/2022/Summer/Playoffs|LCS Championship Grand Finals]] to place teams into groups for the Play-In Stage and the Group Stage of the 2022 World Championship.<ref name="lolesports20220902">{{cite web|url=https://lolesports.com/article/tune-in-for-the-worlds-2022-draw-show!/blte31d58b71aa77fd8|title=Tune in for the Worlds 2022 Draw Show!|author=LoL Esports Staff|publisher=lolesports.com|date=2022-09-02|language={{Flag|usuk}} English}}</ref>
+** <span class="mw-customtoggle-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Worlds Draw Show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Draw" style="margin-top:10px;">
+* Teams are splited into 3 seed pools to ensure quality groups.
+* '''Play-In Draw'''
+** 12 teams are splited into 3 pools
+*** '''Pool 1''' will consist of LPL4 (''RNG''), LCK4 (''DRX''), LEC3 (''FNC''), and PCS2 (''BYG'').
+*** '''Pool 2''' will consist of LEC4 (''MAD''), LCS3 (''EG''), VCS2 (''SGB''), and LJL1 (''DFM'').
+*** '''Pool 3''' will consist of LCO1 (''CHF''), TCL1 (''IW''), LLA1 (''ISG''), and CBLOL1 (''LLL'').
+* '''Groups Draw'''
+** 12 teams are splited into 3 pools
+*** '''Pool 1''' will consist of LPL1 (''JDG''), LCK1 (''GEN''), LEC1 (''RGE''), and LCS1 (''C9'').
+*** '''Pool 2''' will consist of LPL2 (''TES''), LCK2 (''T1''), LEC2 (''G2''), and PCS1 (''CFO'').
+*** '''Pool 3''' will consist of LPL3 (''EDG''), LCK3 (''DK''), LCS2 (''100''), and VCS1 (''GAM'').
+* The winners from the Play-In Stage will be drawn directly into each of the four groups once Play-Ins concludes and will not be part of the Draw Show.
+* No team may be in the same group as another team from their region. 
+** '''Note''': In the scenario where both the LEC 3rd (''FNC'') and 4th seeded (''MAD'') teams advance to the Group Stage, the 4th seeded team will not be subject to the rule preventing a Group from having more than one team from the same region in it. <ref name="lolesports20220909">{{cite web|url=https://www.lolesportsmedia.com/Competitive-Operations-Update-Worlds-2022-Group-Draw|title=Competitive Operations Update: Worlds 2022 Group Draw |author=LoL Esports|publisher=lolesportsmedia.com|date=2022-09-09|language={{Flag|usuk}} English}}</ref>
+** In the scenario where either LEC team is eliminated from the competition during the Play-In Stage, the rule will remain in place.
+</div>
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Spanish (LATAM) Broadcast
+|name3=European Broadcasts
+|name4=Asian Broadcasts
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Desk Host
+|b1=Dash
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Bulii
+|b2=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=Emily Rand
+|b2=Jatt
+|b3=Raz
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=CaptainFlowers
+|b3=Drakos
+|b4=Pastrytime
+|b5=Phreak
+|b6=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Caedrel
+|b3=Chronicler
+|b4=Dagda
+|b5=Guldborg
+|b6=Kobe
+|b7=Lyric
+|b8=MarkZ
+|b9=Vedius
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Translator
+|b1=zeetwo
+|b2=Candice
+}}
+{{box|end}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Host
+|b1=Milky |b1name=Michelle Siles |b1flag=cr|b1link=Milky (Costa Rican commentator)
+|b2=Kalipso
+}}
+{{BroadcasterCard|lang=es
+|position=Analyst
+|b1=DCStar|b1flag=mx|b1name=Carlos Méndez
+|b2=AndresX
+|b3=imOdraude|b3flag=mx|b3name=Jose Eduardo Morales
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Play-by-play Caster
+|b1=Chunilda
+|b2=Nachittus|b2name=Ignacio Santamarina|b2flag=ar
+|b3=Lenore
+|b4=Fahren|b4name=Cristian Fahren|b4flag=mx
+|b5=Raytone|b5name=Raúl Gonzáles|b5flag=mx
+|b6=Baula
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Color Caster and Analyst
+|b1=Tyrone
+|b2=Gotszar
+|b3=Relic
+|b4=Yeti
+|b5=Jirall
+|b6=Dye|b6flag=co|b6name=Gerson Castaño
+}}
+{{box|end}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=it
+|position=Italian Commentator
+|b1=Moonboy|b1flag=it|b1name=Emiliano Marini
+|b2=KenRhen|b2flag=it|b2name=Roberto Prampolini
+|b3=Terenas |b3flag=it
+|b4=Wolcat|b4flag=it
+|b5=Juannetti|b5flag=it|b5name=Andrea Giovannetti
+|b6=etrurian|b6flag=it
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pt
+|position=Portuguese Commentator
+|b1=One Ring Wraith|b1flag=pt|b1name=Ana Martins
+|b2=Zemo|b2flag=pt|b2name=João Almeida
+|b3=Saeken |b3flag=pt
+|b4=Guerreiro|b4flag=pt
+|b5=Ahnyfar|b5flag=pt|b5name=Rafael Oliveira
+|b6=Hackali|b6flag=pt
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Spanish Commentator
+|b1=Noa
+|b2=Jaime Mellado|b2flag=es
+|b3=Skain
+|b4=Champi|b4flag=es|b4name=David Pérez
+|b5=Teshrak|b5flag=es|b5name=Sergio Cerdán
+|b6=Wolk
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=fr
+|position=French Commentator
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=TraYtoN
+|b5=Marex
+|b6=Zerotick
+|b7=Finghin|b7flag=fr
+|b8=Duke|b8link=Duke (French coach)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pl
+|position=Polish Commentator
+|b1=Magvayer|b1name=|b1flag=pl
+|b2=CzarnyPiotruś|b2flag=pl|b2name=Piotr Barański
+|b3=TheFakeOne|b3flag=pl|b3name=
+|b4=Avahir|b4flag=pl|b4name=Michał Kudliński
+|b5=Myha 
+|b6=Tabasko|b6flag=pl|b6name=Wojciech Kruza
+|b7=Silv4n
+|b8=Bezi|b8flag=pl|b8name=Wojciech Wróbel
+|b9=Kaspersky
+|b10=Bialito|b10flag=pl|b10name=Michał Biały
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=cz
+|position=Czech Commentator
+|b1=Xnapy|b1flag=cz|b1name=Petr Jirák
+|b2=Mortsche|b2flag=cz|b2name=Tomáš Anděl
+|b3=Kangae|b3flag=cz|b3name=Jan Sekanina
+|b4=Davkouny|b4flag=cz|b4name=David Vogel
+|b5=Fortanu|b5flag=cz|b5name=Filip Růžička
+|b6=Happ1|b6flag=cz|b6name=Jiří Šťastný
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=de
+|position=German Commentator
+|b1=alanio|b1flag=de|b1name=Oskar van Elsberg
+|b2=BehaartMitBart|b2flag=de|b2name=Niklas Eigen
+|b3=Basti
+|b4=Masterplay|b4flag=de|b4name=Rene Geigenberger
+|b5=Mori
+|b6=Pixavis
+|b7=EisohneWaffel|b7flag=de|b7name=Christian Thamm
+|b8=Kernus
+|b9=Ryxcales
+|b10=Sola
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=hu
+|position=Hungarian Commentator
+|b1=Makaria|b1flag=hu|b1name=Makaria Márk
+|b2=Atreus|b2flag=hu|b2name=Loksa Bence
+|b3=Loemifar|b3flag=hu|b3name=Dienes Valentin
+|b4=AsdElek|b4flag=hu|b4name=Nagy Márton
+|b5=Menstvar|b5flag=hu|b5name=Mihály Zalán
+|b6=noizR|b6flag=hu|b6name=Riczy Dániel
+|b7=Rka|b7flag=hu|b7name=Balogh Réka
+|b8=Livius|b8flag=hu|b8name=Koncz Máté
+|b9=Mr10k|b9flag=hu|b9name=Tóth Marcell
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=rs
+|position=Serbian Commentator
+|b1=Ljuba|b1flag=rs|b1name=Aleksa Šurlan
+|b2=Mićko|b2flag=rs|b2name=Nikola Milićević
+|b3=Ralla|b3flag=rs|b3name=Rastko Kojić
+|b4=Sa1na|b4flag=rs|b4name=Miloš Šainović
+|b5=Njen|b5flag=rs|b5name=Ognjen Pejić
+|b6=Glisha|b6flag=rs|b6name=Nemanja Glišić
+|b7=Neeko's Help|b7flag=rs|b7name=Nevena Vulićević
+|b8=Njami|b8flag=rs|b8name=Minja Kefer
+|b9=Redulj|b9flag=rs|b9name=Aleksa Radojković 
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=gr
+|position=Greek Commentator
+|b1=IceBreaker|b1flag=gr|b1name=Dimitris Chatzitsobanis
+|b2=LivingDead|b2flag=gr|b2name=Kosmas Baxevanidis
+|b3=TheRock7|b3flag=gr|b3name=Vasilis Voltis
+|b4=TonyB|b4flag=gr|b4name= Antonis Baladimas
+|b5=Rev|b5flag=gr|b5name= Antonis Stepchenko
+|b6=Ner0|b6flag=gr|b6name= Konstantinos Perperidis
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=sa
+|position=Arabic Commentator
+|b1=NewFolder|b1flag=eg|b1name=Mohamed SalaDine
+|b2=Dattura|b2flag=eg|b2name=Eslam Farag Ali
+|b3=Paralyze|b3flag=eg|b3name=Mahmoud Nassef
+|b4=Moha|b4flag=eg|b4name=Mohamed Mahmoud
+|b5=Legion|b5flag=eg|b5name=Taha Salman
+|b6=Maro|b6flag=eg|b6name=Amr Mohamed Fouad
+|b7=MorganCasts|b7flag=eg|b7name=Ahmed Morgan
+|b8=Smoothcast|b8flag=tn|b8name=Karim Mellouli
+|b9=Dimaziko|b9flag=ma|b9name=Aymane Hafd
+|b10=Raiizow|b10flag=ma|b10name=Saad Melouki
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=tr
+|position=Turkish Commentator
+|b1=Euphony|b1flag=tr|b1name=Aykut Özgan
+|b2=Jhonnie|b2flag=tr|b2name=Caner Güngörür'ün
+|b3=Secondbest|b3flag=tr|b3name=Kaan Kural
+|b4=Noeldayi|b4flag=tr|b4name=Oğuz Avcı
+|b5=Dora|b5flag=tr|b5name=Dora Özsoy
+|b6=Halpern|b6flag=tr|b6name=Aral Norman
+|b7=Hetze|b7flag=tr|b7name=Eren Akın
+|b8=TrieLBaenRe|b8flag=tr|b8name=Ercan Bozkurt
+|b9=Scarlet|b9flag=tr|b9name=Can Çaldıran|b9link=Scarlet (Turkish caster)
+}}
+{{box|end}}
+{{tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Korean Commentator|lang=kr
+|b1=CloudTemplar
+|b2=GorillA
+|b3=LirA
+|b4=Bitdory|b4flag=kr
+|b5=KangQui|b5flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Guest Commentator|lang=kr
+|b1=Ggoggo
+|b2=Life
+}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Youn Soo-bin |b1flag=kr
+|b2=Lee Jeong-hyun
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+<!--12.5% of all revenue from Championship Azir & Championship Ward skins will added to the total prize pool and another 12.5% will be equally distributed among the teams.
+The total prize pool was $2,225,000 {{abbr/USD}} -->
+{{TeamPrizePool|prizesummary=yes|cutafter=8|percentage=true
+|tournament1=World Championship/2022/Knockout Stage
+|{{Slot|percentage=22%}}
+|{{Slot|percentage=15%}}
+|{{Slot|percentage=8%|place=3-4}}
+|{{Slot|percentage=4.5%|place=5-8}}
+|{{Slot|percentage=2.5%|place=9-10
+|{{Opponent|fnc |wdl=2/4 |date=2022-10-13}}
+|{{Opponent|tes |wdl=3/3 |date=2022-10-15}}
+}}
+|{{Slot|percentage=2.375%|place=11-14
+|{{Opponent|eg |wdl=1/5 |date=2022-10-14}}
+|{{Opponent|g2 |wdl=1/5 |date=2022-10-14}}
+|{{Opponent|100 |wdl=1/5 |date=2022-10-16}}
+|{{Opponent|cfo |wdl=1/5 |date=2022-10-16}}
+}}
+|{{Slot|percentage=2.25%|place=15-16
+|{{Opponent|c9 |wdl=1/5 |date=2022-10-13}}
+|{{Opponent|gam |wdl=1/5 |date=2022-10-15}}
+}}
+|{{Slot|percentage=1.75%|place=17-18|date=2022-10-04
+|{{Opponent|madl |lastvs=eg |lastvsscore=0-3}}
+|{{Opponent|dfm |lastvs=rng |lastvsscore=1-3}}
+}}
+|{{Slot|percentage=1.5%|place=19-20|date=2022-10-03
+|{{Opponent|sgb |lastvs=madl |lastvsscore=1-3}}
+|{{Opponent|lll |lastvs=dfm |lastvsscore=1-3}}
+}}
+|{{Slot|percentage=1%|place=21-22|date=2022-10-02
+|{{Opponent|byg |wdl=2/3}}
+|{{Opponent|isg |wdl=1/4}}
+}}
+|{{Slot|percentage=0.75%|place=23-24|date=2022-10-02
+|{{Opponent|chf |wdl=0/5}}
+|{{Opponent|iw |wdl=0/5}}
+}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP |{{Opponent|Kingen |flag=kr |team=drx }}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=World Championship/2022/Play-In
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=World_Championship/2022/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Knockout Stage MVP
+|tournament=World Championship/2022/Knockout Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Group Stage Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=JD Gaming
+|p1=369
+|p2=Kanavi
+|p3=Yagao
+|p4=Hope |p4link=Hope (Chinese player)
+|p5=Missing
+
+|t2p1=M1kuya |t2pos1=top |t2p1dnp=true
+
+|t3p1=Homme |t3pos1=head coach
+|t3p2=Xiasu |t3p2flag=cn |t3pos2=coach
+|t3p3=Vus5o |t3p3flag=cn |t3pos3=analyst
+|qualifier=[[LPL/2022/Summer|LPL Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=Top Esports
+|p1=Wayward
+|p2=Tian |p2wins=1
+|p3=knight
+|p4=JackeyLove |p4wins=1
+|p5=Mark |p5link=Mark_(Chinese_player)
+
+|t2p1=Qingtian |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+
+|t3p1=Crescent |t3pos1=head coach
+|t3p2=byg97 |t3pos2=assistant coach
+|t3p3=Dynamite |t3p3flag=cn |t3pos3=analyst
+|qualifier=[[LPL/2022/Championship_Points|LPL Championship Points]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=EDward Gaming
+|p1=Flandre |p1wins=1
+|p2=Jiejie |p2wins=1
+|p3=Scout |p3wins=1
+|p4=Viper |p4link=Viper_(Korean_player) |p4wins=1
+|p5=Meiko |p5wins=1
+
+|t2p1=JunJia |t2pos1=jg |t2p1dnp=true
+
+|t3p1=Maokai |t3p1link=Maokai_(Chinese_coach) |t3pos1=head coach |t3p1winsc=1
+|t3p2=Ziv |t3p2flag=tw |t3p2link=Ziv_(Taiwanese_player) |t3pos2=coach
+|t3p3=Mni |t3p3flag=cn |t3pos3=coach
+|qualifier=[[LPL/2022/Regional Finals|LPL Regional Finals]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Gen.G Esports
+|p1=Doran
+|p2=Peanut
+|p3=Chovy
+|p4=Ruler |p4wins=1
+|p5=Lehends
+
+|t2p1=YoungJae |t2pos1=jg |t2p1dnp=true
+
+|t3p1=Score |t3pos1=Head Coach
+|t3p2=Mafa |t3pos2=Coach
+|t3p3=Museong |t3pos3=Coach
+|qualifier=[[LCK/2022/Summer|LCK Summer]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker |p3wins=3
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Asper |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Bengi |t3pos1=Head Coach |t3p1wins=3
+|t3p2=Moment |t3pos2=Coach
+|t3p3=Sky |t3p3link=Sky (Kim Ha-neul) |t3pos3=Coach
+|t3p4=Gisepa |t3p4flag=kr |t3pos4=analyst
+|qualifier=[[LCK/2022/Championship Points|LCK Championship Points]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-29}} '''(2013, 2015, 2016)'''
+}}
+
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Nuguri |p1wins=1
+|p2=Canyon |p2wins=1
+|p3=ShowMaker |p3wins=1
+|p4=deokdam
+|p5=Kellin
+
+|t2p1=Burdol |t2pos1=top |t2p1dnp=true
+
+|t3p1=Daeny |t3pos1=Head Coach |t3p1winsc=1
+|t3p2=Zefa |t3pos2=Coach |t3p2winsc=1
+|t3p3=Bubbling |t3pos3=Coach
+|qualifier=[[LCK/2022/Regional Finals|LCK Regional Finals]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=Rogue
+|p1=Odoamne
+|p2=Malrang
+|p3=Larssen
+|p4=Comp
+|p5=Trymbi
+
+|t2p1=Blueknight |t2p1flag=de |t2pos1=top |t2p1dnp=true
+
+|t3p1=fredy122 |t3pos1=Head Coach
+|t3p2=SeeEl |t3pos2=Assistant Coach
+|t3p3=Arces|t3pos3=analyst
+|qualifier=[[LEC/2022/Summer|LEC Summer]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=G2 Esports
+|p1=BrokenBlade
+|p2=Jankos
+|p3=caPs
+|p4=Flakked
+|p5=Targamas
+
+|t2p1=Dylan Falco |t2pos1=Head Coach
+|t2p2=Rodrigo |t2p2flag=pt |t2p2link=rLT |t2pos2=analyst
+|t2title=Staff
+|qualifier=[[LEC/2022/Summer|LEC Summer]]
+|placement=2
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019|date=2019-11-10}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=Jensen
+|p4=Berserker |p4link=Berserker (Korean player) |pos4=bot
+|p5=Zven
+
+|t2p1=Max Waldo |t2p1flag=us |t2pos1=Head Coach
+|t2p2=Reven |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[LCS/2022/Summer|LCS Summer]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018|date=2018-10-28}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Closer
+|p3=Abbedagge
+|p4=FBI
+|p5=huhi
+
+|t2p1=Reapered |t2pos1=head coach
+|t2p2=Freeze |t2pos2=assistant coach
+|t3p3=Kaimera|t3p3flag=us|t3pos3=analyst
+|t2title=Staff
+|qualifier=[[LCS/2022/Summer|LCS Summer]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=Gemini
+|p3=Mission
+|p4=Shunn
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=Atlen |t2pos1=bot
+
+|t3p1=Achie |t3pos1=Head Coach
+|t3p2=Bob |t3p2flag=tw |t3pos2=Assistant Coach
+|t3p3=Kevin Miller |t3pos3=Assistant Coach
+|qualifier=[[PCS/2022/Summer|PCS Summer]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=GAM Esports
+|image=GAM Esports 2021 full allmode.png
+|p1=Kiaya
+|p2=Levi
+|p3=Kati
+|p4=Style
+|p5=Bie
+
+|t2p1=JackieWind |t2p1flag=vn |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[VCS/2022/Summer|VCS Summer]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2017|date=2017-10-12}} '''(2017)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Beyond Gaming
+|p1=Likai
+|p2=Husha
+|p3=Minji
+|p4=Wako
+|p5=Kino
+
+|t2p1=Liang |t2pos1=top
+
+|t3p1=Benny |t3p1link=Benny (Taiwanese player)  |t3pos1=Head Coach
+|t3p2=Wulala |t3p2flag=tw |t3pos2=Assistant Coach
+|qualifier=[[PCS/2022/Summer|PCS Summer]]
+|placement=17-18
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Chiefs Esports Club
+|p1=Topoon
+|p2=Arthur |p2link=Arthur (Park Mi-reu)
+|p3=Tally
+|p4=Raes
+|p5=Aladoric
+
+|t2p1=Dragku |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Babip |t3pos1=Head Coach
+|t3p2=Aiden Hiko |t3p2flag=au |t3pos2=assistant Coach
+|qualifier=[[LCO/2022/Split 2|LCO Split 2]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=Evi
+|p2=Steal
+|p3=Yaharong
+|p4=Yutapon
+|p5=Harp
+
+|t2p1=Marimo |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Kazu |t3pos1=Head Coach
+|t3p2=Ceros |t3pos2=Assistant Coach
+|t3p3=Gismo |t3pos3=Analyst
+|qualifier=[[LJL/2022/Summer|LJL Summer]]
+|placement=14-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=DRX
+|p1=Kingen
+|p2=Pyosik
+|p3=Zeka
+|p4=Deft
+|p5=BeryL |p5wins=1
+
+|t2p1=Juhan |t2pos1=jng
+
+|t3p1=SSONG |t3pos1=Head Coach
+|t3p2=Mowgli |t3pos2=Coach
+|t3p3=Shine |t3p3link=Shine (Shin Dong-wook) |t3pos3=Coach
+|qualifier=[[LCK/2022/Regional Finals|LCK Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=Evil Geniuses
+|p1=Impact |p1wins=1
+|p2=Inspired
+|p3=jojopyun
+|p4=Kaori
+|p5=Vulcan
+
+|t2p1=Rigby |t2pos1=head coach
+|t2p2=Turtle |t2pos2=Assistant Coach
+|t2p3=SH4DOW |t2pos3=positional coach
+|t2p4=Draxyr |t2pos4=positional coach
+|t2p5=Artemis |t2p5link=Artemis (American player) |t2p5flag=us |t2pos5=performance coach
+|t2title=Staff
+|qualifier=[[LCS/2022/Summer|LCS Summer]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=Fnatic
+|p1=Wunder
+|p2=Razork
+|p3=Humanoid
+|p4=Upset
+|p5=Hylissang
+
+|t2p1=BEAN |t2pos1=bot |t2p1dnp=true
+|t2p2=rhuckz |t2pos2=sup
+
+|t3p1=YamatoCannon |t3pos1=Head Coach
+|t3p2=Shaves |t3p2flag=gb |t3pos2=Strategic Coach
+|qualifier=[[LEC/2022/Summer|LEC Summer]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011|date=2011-06-20}} '''(2011)'''
+|inotes={{NoteBig
+|n1=September 26th - '''{{player|Upset|pos=bot|flag=de}}''' and '''{{player|Hylissang|pos=sup|flag=bg}}''' cannot attend at the start of Play-Ins due to a positive test result of COVID-19. <ref name="fnatic20220923">{{cite web|url=https://twitter.com/fnatic/status/1573386813225701377|title=WITH WORLDS 2022 FAST APPROACHING,...|date=2022-09-23
+|author=Fnatic|publisher=Twitter|language={{Flag|usuk}} English}}</ref> '''{{player|Rhuckz|pos=sup|flag=pt}}''' has been added as an emergency substitute<ref name="fnatic20220926">{{cite web|url=https://twitter.com/lolesports/status/1574489460699381760|title=Competitive Operations Update: FNATIC Roster|date=2022-09-26
+|author=LoL Esports|publisher=Twitter|language={{Flag|usuk}} English}}</ref> to replace '''Hylissang''' for the first day of Play-Ins.
+}}
+}}
+
+{{TeamCard
+|team=İstanbul Wildcats
+|p1=StarScreen
+|p2=Ferret
+|p3=Serin
+|p4=HolyPhoenix
+|p5=Farfetch
+
+|t2p1=TheQep |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[TCL/2022/Summer|TCL Summer]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=Isurus
+|p1=ADD
+|p2=Grell
+|p3=Seiya
+|p4=Gavotto
+|p5=Jelly
+
+|t2p1=Pan |t2p1flag=ar |t2pos1=top |t2p1dnp==true
+
+|t3p1=Ukkyr |t3pos1=Head Coach
+|t3p2=Nunu |t3p2flag=pt |t3p2link=Wh1sper |t3pos2=Assistant Coach
+|qualifier=[[LLA/2022/Closing|LLA Closing]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019|date=2019-10-08}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=LOUD
+|p1=Robo
+|p2=Croc
+|p3=tinowns
+|p4=Brance
+|p5=Ceos
+
+|t2p1=Von |t2p1link=Von (Brazilian player) |t2p1flag=br|t2pos1=head coach
+|t2p2=BeeLLLzY|t2p2flag=br|t2pos2=positional coach
+|t2title=Staff
+|qualifier=[[CBLOL/2022/Split 2|CBLOL Split 2]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=MAD Lions
+|p1=Armut
+|p2=Elyoya
+|p3=Nisqy
+|p4=UNF0RGIVEN
+|p5=Kaiser
+
+|t2p1=Knighter |t2pos1=sub |t2p1dnp=true
+
+|t3p1=Mac |t3pos1=Head Coach
+|t3p2=Kaas |t3pos2=Strategic Coach
+|qualifier=[[LEC/2022/Summer|LEC Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Breathe
+|p2=Wei
+|p3=Xiaohu
+|p4=GALA
+|p5=Ming
+
+|t2p1=Bunny |t2p1flag=cn |t2pos1=sup |t2p1dnp=true
+
+|t3p1=KenZhu |t3pos1=head coach |t3p1winsc=1
+|t3p2=Tabe |t3pos2=coach
+|t3p3=Xiaobai |t3pos3=Assistant coach
+|t3p4=Sin |t3pos4=Analyst
+|qualifier=[[LPL/2022/Regional Finals|LPL Regional Finals]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2017|date=2017-10-28}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=Saigon Buffalo
+|image=Saigon Buffalo full allmode.png
+|p1=Hasmed
+|p2=BeanJ
+|p3=Froggy
+|p4=Shogun |p4link=Shogun_(Vietnamese_player)
+|p5=Taki |p5link=Taki (Vietnamese player)
+
+|t2p1=Richard |t2p1flag=vn |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Ren |t3pos1=Head Coach
+|qualifier=[[VCS/2022/Summer|VCS Summer]]
+|placement=13-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018|date=2018-10-15}} '''(2018)'''
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+==={{Stage|Play-In: Round 1}}===
+{{box|start|padding=4em}}
+{{#section:World Championship/2022/Play-In|PlayInA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2022/Play-In|PlayInB}}
+<br/>
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2022/Play-In|Click here for more information about the Play-In: Round 1 matches.]]''</span>
+
+==={{Stage|Play-In: Round 2}}===
+{{ShowBracket|id=Wrd22PIR02}}
+
+==={{Stage|Group Stage}}===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2022/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2022/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2022/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2022/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+
+<span style="line-height:24px">&nbsp;''[[World Championship/2022/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=LoLWrld22P}}
+
+==Additional Data==
+
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+|lang2=cn |huya2=s |bilibili2=6
+|lang3=kr |twitch3=lck_korea |afreeca3=aflol
+|lang4=tr |twitch4=riotgamesturkish |youtube4=Lolespor
+|lang5=br |twitch5=cblol |youtube5=lolesportsbr
+|lang6=sam |twitch6=lla |youtube6=lla |trovo6=LLA
+|lang7=mx |twitch7=tvaztecaesports |youtube7=AztecaEsports
+|lang8=jp |twitch8=riotgamesjp |afreeca8=ljl
+|lang9=tw |twitch9=lolpacifictw |youtube9=lolpacific
+|lang10=vn |youtube10=VETV7ESPORTS
+|lang11=fr |twitch11=otplol_
+|lang12=de |twitch12=summonersinnlive |youtube12=SummonerInnDE
+|lang13=it |twitch13=pg_esports_lol
+|lang14=es |twitch14=lvpes
+|lang15=cz |twitch15=hitpointcz
+|lang16=hu |twitch16=esport2tv |youtube16=Esport1gg
+|lang17=pl |twitch17=polsatgames |youtube17=polsatgames
+|lang18=pt |twitch18=inygontv1
+|lang19=rs |youtube19=fortunaesports
+|lang20=arab states |twitch20=lolarabia |youtube20=leagueoflegendsarabia
+}}
+
+
+====Official CoStreams====
+Official CoStreams partnered by '''Riot Games''' will take place during the '''Worlds Finals''' on '''San Francisco''' <ref name="finals costream">{{cite web|url=https://twitter.com/lolesports/status/1587462647913422851|title=Announcing WORLDS 2022 Co-Streaming - Nov 5 Live from San Francisco|author=LoL Esports|publisher=Twitter|language={{Flag|usuk}}English}}</ref>
+*{{Flag|es}} [https://twitch.tv/ibai Ibai]
+*{{Flag|us}} [https://youtube.com/user/Sykkuno Sykkuno]
+*{{Flag|cn}} [https://www.huya.com/910004 Rita]
+*{{Flag|kr}} [https://bj.afreecatv.com/lshooooo Sangho Lee & Min Gyo Kim]
+
+===Champion Statistics===
+{{#lst:World Championship/2022/Statistics|Champion Stats}}
+
+===Pentakills===
+{|class="wikitable"
+!Date||Stage||Team||Vs.||Champion||Player||KDA|| VOD
+|-
+|2022-09-30||[[/Play-In|Play-in]]||{{TeamIcon|SGB}}|| {{TeamIcon|ISG}} ||{{ChampionIcon|Aphelios|size=25px}} [[Aphelios]] ||{{player|Shogun|link=Shogun_(Vietnamese_player)|pos=bot|flag=vietnam}} ||16/2/6||{{vodlink|vod=https://youtu.be/vm0Chk66dZo?t=2487}}
+|-
+|2022-09-30||[[/Play-In|Play-in]]||{{TeamIcon|FNC}}|| {{TeamIcon|CHF}} ||{{ChampionIcon|Kalista|size=25px}} [[Kalista]] ||{{player|Upset|pos=bot|flag=germany}} ||9/0/2||{{vodlink|vod=https://youtu.be/Gnbg7Fjzyzc?t=3150}}
+|}
+
+===Country Representation===
+{{Country representation}}
+
+===Worlds Appearances===
+{{Player tournament appearances|series=World Championships|tiers=1|limit=10|playerspage=World_Championship/2022}}
+:''See [[World_Championships/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{#section:World_Championship/2022/Additional_Content|additional}}
+
+==Storylines==
+====MAD Lions Return to Play-Ins====
+In their third consecutive Worlds appearance, [[MAD Lions]] once again find themselves in the Play-In stage, which previously knocked them out in 19-20th place to make them the first major region team in history to fail making it to the group stage. With more major region representatives in the event than ever before, one major region team is guaranteed to be eliminated in Play-Ins, which [[MAD Lions]] will hope to avoid this time around.
+
+====T1's Last Minute Coaching Changes====
+Following a drop in form in the [[LCK/2022/Summer|LCK 2022 Summer Split]], [[T1]] announced coaching staff changes with [[Bengi]] moving to the head coach position and [[Sky_(Kim_Ha-neul)|Sky]] joining from [[T1 Academy]] as a new coaching staff member.
+
+====Kaori in for Evil Geniuses====
+Following the choice by [[Danny]] to take a step back from the starting roster<ref name="Danny inactive">{{cite web |url=https://twitter.com/totheLaPointe/status/1567180951842689029 |title=With love regarding our League roster for Chicago. |date=2022-09-06 |author=[[totheLapointe]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>, [[Kaori]] moved up from [[Evil Geniuses Academy]]<ref name="Kaori promoted">{{cite web |url=https://twitter.com/EvilGeniuses/status/1567588520323055618 |title=Big stage, big call up. |date=2022-09-07 |author=[[Evil Geniuses]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>, taking [[100 Thieves]] to 5 games in the [[LCS/2022/Summer/Playoffs|LCS 2022 Summer Playoffs]]. With just a single LCS match under their belt and no international experience, [[Kaori]] will be looking to fill Danny's shoes for the team.
+
+==References==
+{{reflist}}

@@ -1,0 +1,488 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2021&redirects=1
+<!-- 抓取: 2026-08-16T18:35:39.562Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2021 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}
+{{MSI2021Tabs}}
+{{Infobox league
+|name=2021 Mid-Season Invitational
+|shortname=MSI 2021
+|image=MSI 2021 allmode.png
+|series=MSI
+|icon=MSI 2021 lightmode.png
+|icondark=MSI 2021 darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=11.9
+|sponsor=[https://www.axe.com/us/en/home.html AXE] <br> [https://www.bose.com/en_us/index.html Bose] <br> [https://www.cisco.com/ Cisco] <br> [https://www.mastercard.com Mastercard] <br> [https://www.mercedes-benz.com Mercedes-Benz] <br> [https://www.oppo.com/en OPPO] <br> [https://www.redbull.com/ Red Bull] <br> [https://secretlab.co/ Secretlab] <br> [https://www.spotify.com/us/ Spotify] <br> [https://www.statefarm.com State Farm] <br> [https://www.verizon.com/ Verizon]
+|server=
+|type=Offline
+|country=Iceland
+|city=Reykjavík
+|venue=[https://en.wikipedia.org/wiki/Laugardalsh%C3%B6ll Laugardalshöll]
+|format=Round-Robin & Single-Elimination
+|prizepoolusd=250,000
+|sdate=2021-05-06
+|edate=2021-05-23
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/
+|twitch=riotgames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|youtube2=leagueoflegends
+|instagram=lolesports
+|rulebook=https://assets.contentstack.io/v3/assets/bltad9188aa9a70543a/blt6c403c389ad57d17/6093ffcd3c9496102751c07f/2021_MSI_Rule_Set_Eng.pdf
+|team_number=11
+|previous=Mid-Season Invitational/2019{{!}}2019
+|next=Mid-Season Invitational/2022{{!}}2022
+
+}}
+
+The '''Mid-Season Invitational''' (MSI) features the winners from 12 individual Riot leagues spring splits competing in the 6th annual tournament. In this year, it is headed to Reykjavík - the capital of Iceland.<ref name="announcement">{{cite web|url=https://lolesports.com/article/msi-2021-is-heading-to-reykjavik,-iceland/blt5ce2353d09227156|title=MSI 2021 is Heading to Reykjavik, Iceland|author=LoLEsports Staff|publisher=Riot Games|date=2021-03-01|language={{Flag|usuk}}English}}</ref> The games will be played at the Laugardalshöll indoor sporting arena, where the historic “Match of the Century” 1972 World Chess Championship was held.
+
+==Format==
+* '''Group Stage''' - ''May 6th - 11th, 2021''
+** Eleven teams are split into one group of three and two groups of four teams
+** Group A will play in a Quadruple Round-Robin format
+** Group B & C will play in a Double Round-Robin format
+** <span class="bg-up">Top two teams</span> per group advance to the next stage
+** <span class="bg-down">Bottom two teams</span> are eliminated
+** All matches are {{Abbr/Bo1}}
+** The groups draw was announced on March 31st, 2021<ref name="MSI Draw and Prizes">{{cite web|url=https://lolesports.com/article/msi-2021-group-draw-and-prize-updates/bltf3aff06c2db95be5|title=MSI 2021: Group Draw and Prize Updates|date=2021-03-30|author=Lol Esports Staff|publisher=Riot Games|language={{Flag|usuk}} English}}</ref>
+{{note||'''Note:''' Due to national travel restrictions related to COVID-19, the qualifying team from '''Vietnam''' [[File:GIGABYTE Marines allmode.png|GAM Esports|36px]] [[GAM Esports]] will unfortunately not be able to participate.<ref name="Teams Update">{{cite web|url=https://lolesports.com/article/msi-2021-teams-update/blt328f8f08bea703f8|title=MSI 2021: Teams Update|date=2021-04-20|author=Tom Martell, Director of Operations|publisher=Riot Games|language={{Flag|usuk}}English}}</ref> Despite having to continue with one less team, the format of the tournament will not change. VCS was slated to start in Group A along with the teams from the LPL (China), LCL (CIS), and LCO (Oceania). This group begins the tournament with the remaining 3 teams and the top 2 will advance to the next stage of the competition as originally planned. Groups B and C will remain unaffected.}}
+
+* '''Rumble Stage''' - ''May 14th - 18th, 2021''
+** Six remaining teams play in another Double Round-Robin format 
+** <span class="bg-up">Top four teams</span> advance to Knockout Stage
+** <span class="bg-down">Bottom two teams</span> are eliminated
+** All matches are {{Abbr/Bo1}}
+
+* '''Knockout Stage''' - ''May 21st - 23rd, 2021''
+** The first place team of Rumble Stage will choose to face either the third or fourth place team
+** Single-Elimination bracket
+** All matches are {{Abbr/Bo5}}
+
+* '''Patch Information'''
+** {{ChampionIcon|Viego|20px}} [[Viego]] and {{ChampionIcon|Gwen|20px}} [[Gwen]] are disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<ref name="viego banned">{{cite web|url=https://na.leagueoflegends.com/en-us/news/dev/dev-balancing-for-pro-play/|title=/dev: Balancing for Pro Play|author=Summoner's Rift Team|publisher=Riot Games|date=2020-08-19|language={{Flag|usuk}}English}}</ref>
+
+==Broadcast Talent==
+<!--The English broadcast talents are announced on May 3rd.<ref name="talents">{{cite web|url=https://lolesports.com/article/msi-2021-on-air-talent/blte6415a1134ed3f0f|title=MSI 2021 On-Air Talent|author=LoLEsports Staff|publisher=Riot Games|date=2021-05-03|language={{Flag|usuk}}English}}</ref>
+-->
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host
+|b1=Sjokz
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii
+|b2=Dash
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Bwipo
+|b2=Clement |b2name=Clement Chu |b2flag=tw
+|b3=Dagda |b3name=Rob Price |b3flag=ie
+|b4=Emily Rand |b4flag=us
+|b5=Wadid
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=CaptainFlowers
+|b3=Drakos
+|b4=Medic
+|b5=Pastrytime
+|b6=Phreak
+|b7=Quickshot
+|b8=Valdes |b8name=Brendan Valdes |b8flag=us |b8link=starcraft2:Valdes
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Caedrel
+|b3=Chronicler
+|b4=Ender
+|b5=Kobe
+|b6=Lyric |b6name=Jordan Corby |b6flag=us
+|b7=Raz
+|b8=Vedius
+|b9=Wolf|b9link=Wolf (American caster)
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Kim Dong-joon
+|b3=GorillA
+|b4=KangQui|b4flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Kuro |b1flag=kr
+|b2=Bitdory |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Host & Translator
+|b1=Lee Jeong-hyun
+|b2=Youn Soo-bin |b2flag=kr
+|b3=Park Jee-sun |b3flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=6|percentage1=1
+|tournament1=Mid-Season Invitational/2021/Group Stage
+|tournament2=Mid-Season Invitational/2021/Rumble Stage
+|tournament3=Mid-Season Invitational/2021/Knockout Stage
+|{{Slot|percentage1=30}}
+<!--* The MSI champion also secures an extra team spot at [[World_Championship/2021|Worlds 2021]] for their region. <ref name="MSI Draw and Prizes"/>-->
+|{{Slot|percentage1=20}}
+|{{Slot|count=2|percentage1=10}}
+|{{Slot|percentage1=7}}
+|{{Slot|percentage1=7}}
+|{{Slot|count=3|percentage1=3.33}}
+|{{Slot|count=2|percentage1=2}}
+|{{Slot|dnp=true|date=2021-04-20
+|{{Opponent|gam}}
+}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=MVP |{{Opponent|GALA |flag=cn |team=rng}}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=Mid-Season Invitational/2021/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Rumble Stage MVP
+|tournament=Mid-Season Invitational/2021/Rumble_Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=Perkz
+|p4=Zven
+|p5=Vulcan
+
+|t2p1=Darshan |t2pos1=top |t2p1dnp=true
+
+|t3p1=Mithy |t3pos1=Head Coach
+|t3p2=Reignover |t3pos2=Assistant Coach
+|t3p3=Veigar v2 |t3p3flag=no |t3pos3=Strategic Coach
+|t3p4=Max Waldo |t3p4flag=us |t3pos4=Strategic Coach
+|qualifier=[[LCS/2021/Spring|LCS MSS]]
+}}
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Khan
+|p2=Canyon
+|p3=ShowMaker
+|p4=Ghost |p4link=Ghost (Korean player)
+|p5=BeryL
+
+|t2p1=Chasy |t2pos1=top |t2p1dnp=true
+
+|t3p1=kkOma |t3pos1=Head Coach |t3p1winsc=2
+|t3p2=PoohManDu |t3pos2=Assistant Coach
+|qualifier=[[LCK/2021/Spring|LCK Spring]]
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=Evi
+|p2=Steal
+|p3=Aria
+|p4=Yutapon
+|p5=Kazu
+
+|t2p1=Ceros |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Yang |t3p1link=Yang (Korean player) |t3pos1=Head Coach
+|qualifier=[[LJL/2021/Spring|LJL Spring]]
+|placement=8-9
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2019|date=2019-05-05}} '''(2019)'''
+}}
+{{TeamCard
+|team=Infinity Esports
+|p1=Buggax
+|p2=SolidSnake
+|p3=cody
+|p4=WhiteLotus
+|p5=Ackerman |p5link=Ackerman (Argentinian player)
+
+|t2p1=Kz |t2p1flag=cl |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Von |t3p1flag=br |t3p1link=Von (Brazilian coach) |t3pos1=Head Coach
+|t3p2=Snok |t3p2flag=sv |t3pos2=Assistant Coach
+|qualifier=[[LLA/2021/Opening|LLA Opening]]
+}}
+{{TeamCard
+|team=İstanbul Wild Cats
+|p1=StarScreen
+|p2=Ferret
+|p3=Serin
+|p4=HolyPhoenix
+|p5=Farfetch
+
+|t2p1=Robogod |t2pos1=Head Coach
+|t2p2=Janus |t2p2flag=tr |t2pos2=Assistant Coach
+|t2title=Staff
+|qualifier=[[TCL/2021/Winter|TCL Winter]]
+}}
+{{TeamCard
+|team=MAD Lions
+|p1=Armut
+|p2=Elyoya
+|p3=Humanoid
+|p4=Carzzy
+|p5=Kaiser
+
+|t2p1=Kaas |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Mac |t3pos1=Head Coach
+|t3p2=Kaas |t3pos2=Assistant Coach
+|t3p3=Pad |t3pos3=assistant coach
+|qualifier=[[LEC/2021/Spring|LEC Spring]]
+}}
+{{TeamCard
+|team=paiN Gaming
+|p1=Robo
+|p2=CarioK
+|p3=Tinowns
+|p4=brTT 
+|p5=Luci 
+
+|t2p1=Dionrray |t2p1flag=br |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[CBLOL/2021/Split 1|CBLOL Split 1]]
+}}
+{{TeamCard
+|team=Pentanet.GG
+|p1=BioPanther
+|p2=Pabu
+|p3=Chazz
+|p4=Praedyth
+|p5=Decoy
+
+|t2p1=DSN |t2p1flag=au |t2pos1=sup |t2p1dnp=true
+
+|t3p1=UDYSOF |t3pos1=Head Coach
+|qualifier=[[LCO/2021/Split 1|LCO Split 1]]
+}}
+{{TeamCard
+|team=PSG Talon
+|notes=2
+|p1=Hanabi
+|p2=River|p2link=River (Korean player)
+|p3=Maple
+|p4=Doggo
+|p5=Kaiwing
+
+|t2p1=Kartis |t2pos1=top |t2p1dnp=true
+
+|t3p1=Helper |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Winged |t3p2flag=kr |t3pos2=Assistant Coach
+|qualifier=[[PCS/2021/Spring|PCS Spring]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Xiaohu |p1wins=1
+|p2=Wei
+|p3=Cryin
+|p4=GALA
+|p5=Ming |p5wins=1
+
+|t2p1=Xiaobai |t2pos1=top
+|t2p2=Lele |t2p2flag=cn |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Poppy |t3p1link=Poppy (Chang Po-Hao) |t3pos1=Head Coach
+|qualifier=[[LPL/2021/Spring|LPL Spring]]
+|placement=1
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2018|date=2018-05-20}} '''(2018)'''
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|p1=BOSS |p1link=BOSS (Russian player)
+|p2=AHaHaCiK
+|p3=Nomanz
+|p4=Lodik
+|p5=SaNTaS
+
+|t2p1=Frappii |t2pos1=bot |t2p1dnp=true
+
+|t3p1=Sheepy |t3pos1=Head Coach
+|t3p2=Invi |t3p2flag=ru |t3pos2=Assistant Coach
+|qualifier=[[LCL/2021/Spring|LCL Spring]]
+}}
+{{TeamCard columns end}}
+{|class="wikitable collapsible collapsed"
+!Former Participants
+|-
+|{{TeamCard columns start}}
+{{TeamCard|nostorage=true
+|team=GAM Esports
+|notes=1
+|p1=Kiaya
+|p2=Levi
+|p3=Kati
+|p4=Style
+|p5=Bie
+|qualifier=[[VCS/2021/Spring|VCS Spring]]
+}}
+{{TeamCard columns end}}
+|}
+{{note15
+|n1=April 20th - Due to national travel restrictions related to COVID-19, the qualifying team from '''Vietnam''' [[File:GIGABYTE Marines allmode.png|GAM Esports|36px]] [[GAM Esports]] will unfortunately not be able to participate.<ref name="Teams Update"/>
+|n2=April 25th - {{player|Unified|flag=hk}} cannot attend due to a personal health issue, {{player|Doggo|flag=tw}} is loaned from [[File:Beyond Gaming Logo Std.png|Beyond Gaming|40px]][[Beyond Gaming]] for stand-in.<ref name="psg 20210425">{{cite web|url=https://twitter.com/PSG_Talon/status/1386198016588062726?s=20|title=Update regarding our roster heading into MSI|author=[[PSG Talon]]|publisher=Twitter.com|date=2021-04-25|language={{Flag|usuk}} English}}</ref>
+}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=2em}}
+{{#section:Mid-Season_Invitational/2021/Group Stage|Group_A}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2021/Group Stage|Group_B}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2021/Group Stage|Group_C}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2021/Group_Stage|Click here for more information about the '''''Group Stage''''' matches.]]''</span>
+
+===Rumble Stage===
+{{#lst:Mid-Season_Invitational/2021/Rumble_Stage|Rumble Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season Invitational/2021/Rumble_Stage|Click here for detailed results of the '''Rumble Stage''' matches]]''</span>
+
+===Knockout Stage===
+{{#lst:Mid-Season_Invitational/2021/Knockout_Stage|Knockout Stage}}
+==Additional Data==
+
+===Streams===
+{{box|start|padding=2em}}
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports |trovo1=RiotGames
+|lang2=cn |bilibili2=6 |douyu2=topic/2021MSI |huya2=msi
+|lang3=kr |twitch3=lck_korea |afreeca3=aflol
+|lang4=ru |twitch4=riotgamesru |youtube4=lolesportsRU
+|lang5=tr |twitch5=riotgamesturkish |youtube5=Lolespor
+|lang6=br |twitch6=CBLOL |youtube6=lolesportsbr |nimotv6=CBLOL
+|lang7=esmx |twitch7=lla |youtube7=LLA |trovo7=LLA
+|lang8=cl |twitch8=viaxesports |youtube8=viaxesports
+|lang9=mx |twitch9=tvaztecaesports |youtube9=AztecaEsports
+|lang10=jp |twitch10=riotgamesjp |mildom10=10244404
+|lang11=tw |twitch11=lolpacifictw |youtube11=lolpacific
+|lang12=th |twitch12=lolpacificth |youtube12=lolpacific
+|lang13=vn |youtube13=VETV7ESPORTS |nimotv13=msi2021
+|lang14=fr |twitch14=ogaminglol
+|lang15=de |twitch15=summonersinnlive |youtube15=SummonerInnDE
+|lang16=it |twitch16=pg_esports
+|lang17=es |twitch17=lvpes
+|lang18=pl |twitch18=polsatgames2 |youtube18=polsatgames
+}}
+{{box|end}}
+
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2021/Statistics|Champion Stats}}
+
+===Pentakills===
+{|class="wikitable"
+!Date||Stage||Team||Vs.||Champion||Player||KDA|| VOD
+|-
+|2021-05-23||[[Mid-Season_Invitational/2021/Knockout_Stage|Knockout Stage]]||{{TeamIcon|damwon gaming}}|| {{TeamIcon|royal never give up}} ||[[File:Champion icon Tristana.png|25x25px]] [[Tristana]] ||{{player|Ghost|link=Ghost_(Korean_player)|pos=bot|flag=kr}} ||10/1/4||[https://youtu.be/T_Z_s-Oi9Cw?t=1780 VOD]
+|}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+
+===Announcements===
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2021-03-01
+|link=https://lolesports.com/article/msi-2021-is-heading-to-reykjavik,-iceland/blt5ce2353d09227156
+|title=MSI 2021 is Heading to Reykjavik, Iceland
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2021-03-30
+|link=https://lolesports.com/article/msi-2021-group-draw-and-prize-updates/bltf3aff06c2db95be5
+|title=MSI 2021: Group Draw and Prize Updates
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2021-04-19
+|link=https://lolesports.com/article/msi-2021-teams-update/blt328f8f08bea703f8
+|title=MSI 2021: Teams Update
+|by=Tom Martell, Director of Operations
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2021-04-26
+|link=https://lolesports.com/article/msi-2021-qualified-teams,-broadcast-schedule,-watch-rewards/bltd9eef4f151e24bca
+|title=MSI 2021: Qualified Teams, Broadcast Schedule, Watch Rewards
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2021-05-03
+|link=https://lolesports.com/article/msi-2021-on-air-talent/blte6415a1134ed3f0f
+|title=MSI 2021 On-Air Talent
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+
+===Official Song===
+{{#ev:youtube|XUQ4ZI0h0-E|600}}
+
+===More Additional Content===
+* <span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2021/Additional_Content|Click here for more '''Additional Content''']]''</span>
+
+==References==
+{{Reflist}}
+
+
+{{2021 Season International Cycle Navbox}}

@@ -387,3 +387,17 @@
 2026-08-16T18:10:51.525Z 退避重試 HTTP 429（5s 後）
 2026-08-16T18:10:58.279Z 抓取完成: 抓 1、跳過 282、缺頁 0、失敗 0（失敗的頁重跑會再試）
 2026-08-16T18:11:03.371Z 抓取完成: 抓 0、跳過 283、缺頁 0、失敗 0（失敗的頁重跑會再試）
+2026-08-16T18:31:17.705Z 退避重試 HTTP 429（5s 後）
+2026-08-16T18:31:28.041Z 退避重試 HTTP 429（15s 後）
+2026-08-16T18:31:48.409Z 退避重試 HTTP 429（45s 後）
+2026-08-16T18:32:39.110Z FAIL Mid-Season Invitational/2016（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=Mid-Season+Invitational%2F2016&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T18:32:46.577Z 退避重試 HTTP 429（5s 後）
+2026-08-16T18:32:56.920Z 退避重試 HTTP 429（15s 後）
+2026-08-16T18:33:17.555Z 退避重試 HTTP 429（45s 後）
+2026-08-16T18:34:08.119Z FAIL Mid-Season Invitational/2017（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=Mid-Season+Invitational%2F2017&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T18:34:16.969Z 退避重試 HTTP 429（5s 後）
+2026-08-16T18:34:27.451Z 退避重試 HTTP 429（15s 後）
+2026-08-16T18:34:47.798Z 退避重試 HTTP 429（45s 後）
+2026-08-16T18:35:49.452Z 退避重試 HTTP 429（5s 後）
+2026-08-16T18:35:59.981Z 退避重試 HTTP 429（15s 後）
+2026-08-16T18:36:20.325Z 退避重試 HTTP 429（45s 後）

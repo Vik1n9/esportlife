@@ -1,0 +1,249 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2015&redirects=1
+<!-- 抓取: 2026-08-16T18:31:08.004Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2015 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=Mid-Season_Invitational/2015
+|name2=Group Stage
+|link2=Mid-Season_Invitational/2015/Group_Stage
+|name3=Knockout Stage
+|link3=Mid-Season_Invitational/2015/Knockout_Stage
+|name4=Statistics
+|link4=Mid-Season_Invitational/2015/Statistics
+|This=1}}
+{{Infobox league
+|name=2015 Mid-Season Invitational
+|shortname=MSI 2015
+|image=MSI 2015 allmode.png
+|series=MSI
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=5.7
+|sponsor=
+|type=Offline
+|country=United States
+|city=Florida
+|venue=Donald L. Tucker Civic Center <br> Florida State University
+|format='''Group Stage:'''<br>Single Round-Robin <br>'''Playoffs:'''<br>Single Elimination
+|prizepoolusd=200,000
+|sdate=2015-05-07
+|edate=2015-05-10
+|liquipediatier=1
+|highlighted=true
+|website=https://nexus.leagueoflegends.com/en-us/esports/
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=LoLChampSeries
+|team_number=6
+|next=Mid-Season Invitational/2016{{!}}2016
+}}
+
+==Format==
+* '''Group Stage''' - ''May 7th - May 8th, 2015''
+**Single Round Robin
+**Each team plays 5 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 4th place will play the Playoffs
+* '''Playoffs''' - ''May 9th - May 10th, 2015''
+** Single Elimination
+** All matches are {{Abbr/Bo5}} 
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Korean
+|This=1
+}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host
+|b1=Dash
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Sjokz
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Crumbz
+|b2=Sheepy
+|b3=Spawn
+|b4=Zirene
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=DoA |b2name=Erik Lonnquist |b2flag=us |b2link=overwatch:DoA
+|b3=Phreak
+|b4=Quickshot
+|b5=Rivington
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Deficio
+|b2=Jatt
+|b3=Kobe
+|b4=MonteCristo
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Caster
+|b1=Caster Jun
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Commentator
+|b1=Kim Dong-joon|b1flag=kr
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Translator
+|b1=채동희|b1name=Chae Dong-hee|b1flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=6|tournament1=Mid-Season Invitational/2015/Group Stage|tournament2=Mid-Season Invitational/2015/Knockout Stage|groupElimStatuses=down
+|{{Slot|usdprize=100,000}}
+|{{Slot|usdprize=50,000}}
+|{{Slot|place=3-4|usdprize=25,000}}
+|{{Slot|place=5}}
+|{{Slot|place=6}}
+}}
+
+==Qualification==
+{| class="wikitable"
+|-
+! Event
+! Date
+! Teams in contention
+|-
+|-
+| {{LeagueIconSmall/eu lcs}} [[LCS/Europe/2015/Spring|EU LCS Spring Champion]]
+| 2015-01-22 – 2015-04-19
+| {{Team|fnc}} 
+|-
+| {{LeagueIconSmall/na lcs}} [[LCS/North_America/2015/Spring|NA LCS Spring Champion]]
+| 2015-01-24 – 2015-04-09
+| {{Team|tsm}}
+|-
+| {{LeagueIconSmall/lck}} [[LCK/2015/Spring|LCK Spring Champion]]
+| 2015-01-07 – 2015-05-02
+| {{Team|skt}}
+|-
+| {{LeagueIconSmall/lpl}} [[LPL/2015/Spring|LPL Spring Champion]]
+| 2015-01-16 – 2015-04-26
+| {{Team|edg}}
+|-
+| {{LeagueIconSmall/lms}} [[LMS/2015/Spring|LMS Spring Champion]]
+| 2015-01-08 – 2015-04-12
+| {{Team|ahq}} 
+|-
+| {{LeagueIconSmall/iwci}} [[International_Wildcard_Invitational/2015|IWC Invitational]]
+| 2015-04-21 – 2015-04-25
+| {{Team|bjk}}
+|}
+
+==Participating Teams==
+{{TeamCard columns start}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Ziv |p1link=Ziv (Taiwanese player)
+|p2=Mountain
+|p3=westdoor
+|p4=AN
+|p5=Albis
+
+|t2p1=Backstairs |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LMS/2015/Spring|LMS Spring]]
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Koro1
+|p2=Clearlove
+|p3=PawN
+|p4=Deft
+|p5=Meiko
+
+|t2p1=Aaron |t2p1link=Aaron (Chinese coach) |t2p1flag=cn |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LPL/2015/Spring|LPL Spring]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Huni
+|p2=Reignover
+|p3=Febiven
+|p4=Steeelback
+|p5=YellOwStaR
+
+|t2p1=Deilor |t2p1flag=es |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2015/Spring|EU LCS Spring]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=MaRin
+|p2=Bengi
+|p3=Faker
+|p4=Bang
+|p5=Wolf |p5link=Wolf (Korean player)
+
+|t2p1=Easyhoon |t2pos1=mid
+
+|t3p1=cCarter |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=kkOma |t3pos2=Coach
+|qualifier=[[LCK/2015/Spring|LCK Spring]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Dyrus
+|p2=Santorin
+|p3=Bjergsen
+|p4=WildTurtle
+|p5=Lustboy
+
+|t2p1=Locodoco |t2p1flag=kr |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2015/Spring|NA LCS Spring]]
+}}
+{{TeamCard
+|team=Beşiktaş e-Sports Club
+|p1=Thaldrin
+|p2=Theokoles |p2flag=tr
+|p3=Energy
+|p4=Nardeus |p4flag=cz
+|p5=Dumbledoge
+
+|t2p1=Lethilion |t2p1flag=tr |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[International_Wildcard_Invitational/2015|IWC Invitational]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#lst:Mid_Season_Invitational/2015/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid_Season_Invitational/2015/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=MSI15KnOut}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2015/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}

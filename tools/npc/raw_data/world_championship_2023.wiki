@@ -1,0 +1,1176 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2023&redirects=1
+<!-- 抓取: 2026-08-16T18:30:59.448Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2023 World Championship}}{{World Championship}}<!--
+-->{{Worlds2023Tabs}}<!--
+-->{{Infobox league
+|name=2023 World Championship
+|tickername=Worlds 2023
+|shortname=Worlds 2023
+|caption='''THE GRIND.''' <font style="font-family:serif;font-weight:bolder;">THE GLORY.</font>
+|image=LoL World Championship 2023 lightmode.png
+|imagedark=LoL World Championship 2023 darkmode.png
+|series=World Championships
+|icon=League of Legends Worlds lightmode.png
+|icondarkmode=League of Legends Worlds darkmode.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|sponsor1=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor2=[https://www.redbull.com/ Red Bull]
+|sponsor3=[https://secretlab.eu/ Secretlab]
+|sponsor4=[https://www.oppo.com/ OPPO]
+|sponsor5=[https://www.verizon.com/ Verizon]
+|sponsor6=[http://www.mastercard.com/ Mastercard]
+|sponsor7=[https://www.cisco.com/ Cisco]
+|sponsor8=[https://www.amazon.com/prime-gaming Prime Gaming]
+|sponsor9=[https://aws.amazon.com/ AWS]
+|patch=13.19<!--LINK-->
+|type=Offline
+|country=South Korea
+|city=Seoul
+|country2=South Korea
+|city2=Busan
+|venuename=Gocheok Sky Dome|venue=wikipedia:Gocheok Sky Dome |venuedesc=Grand Final
+|venue2=Sajik Arena|venue2link=https://www.busan.go.kr/stadium/sfcimplexindoors |venue2desc=Quarterfinals & Semifinals
+|venue3=KBS Stadium|venue3link=https://kbsbiz.co.kr/kbsarena |venue3desc=Swiss Stage
+|venue4=LoL PARK|venue4link= |venue4desc=Play-Ins
+|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/1068e920b7b4826b2c34a22ec602646ded96cb3f.pdf
+|format=Play-Ins<br>Swiss<br>Single Elimination
+|prizepoolusd=2,225,000
+|sdate=2023-10-10
+|edate=2023-11-19
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=lolesports
+|team_number=22
+|previous=World_Championship/2022{{!}}2022
+|next=World_Championship/2024{{!}}2024
+}}
+<br>
+The '''League of Legends World Championship 2023''' (also known as '''LoL Worlds 2023''' or just '''Worlds 2023''') is the crowning event of League of Legends esports for the year. The tournament includes 22 teams from all regions of the game in a months-long race for the Summoner's Cup.
+
+For this Worlds tournament Riot introduced a Swiss Format which will be replacing the Group Stage of previous years, and a new qualifying series to determine the last spot between {{Ordinal|4|sup=yes}} Seed of Europe and North America.<ref name="2023 announcement">{{cite web|url=https://lolesports.com/article/state-of-the-game-lol-esports-in-2023/blt5d3bca31d1b39e0c|title=State of the Game: LoL Esports in 2023|author=LoL Esports|publisher=LoLEsports.com|date=2023-01-10|language={{Flag|usuk}} English}}</ref>
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+|newsHeader=Additional Content
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+<!-- The initial prize pool of the tournament is $2,225,000 {{abbr/USD}}.
+12.5% of all revenue from Championship Renekton & Championship Ward skins will added to the total prize pool and another 12.5% will be equally distributed among the teams.
+The total prize pool was $2,225,000 {{abbr/USD}} -->
+{{TeamPrizePool|cutafter=8|percentage=true
+|tournament1=World Championship/2023/Play-In#Play-In Round 1|tournament2=World Championship/2023/Play-In#Play-In Round 2
+|tournament3=World Championship/2023/Swiss Stage|tournament4=World Championship/2023/Knockout Stage
+|{{Slot|percentage=20%}}
+|{{Slot|percentage=15%}}
+|{{Slot|percentage=8% |place=3-4}}
+|{{Slot|percentage=4.5% |place=5-8}}
+|{{Slot|percentage=3.25% |place=9-11}}
+|{{Slot|percentage=2.75% |place=12-14}}
+|{{Slot|percentage=2.25% |place=15-16}}
+|{{Slot|percentage=1.75% |place=17-18}}
+|{{Slot|percentage=1.5% |place=19-20}}
+|{{Slot|percentage=1% |place=21-22}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP|{{Opponent|Zeus|flag=kr|team=t1}}}}
+}}<br>
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=World Championship/2023/Play-In
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Swiss Stage MVP
+|tournament=World_Championship/2023/Swiss_Stage
+}}
+{{box|break}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Knockout Stage MVP
+|tournament=World Championship/2023/Knockout Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Swiss Stage Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=Gen.G
+|p1=Doran
+|p2=Peanut
+|p3=Chovy
+|p4=Peyz
+|p5=Delight
+
+|t2p1=Score  |t2p1flag=kr |t2pos1=head coach
+|t2p2=Mafa |t2pos2=coach
+|t2p3=Museong |t2pos3=coach
+|t2title=Staff
+
+|qualifier=[[LCK/2023/Summer|LCK Summer]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2022}} '''(2021, 2022)'''
+}}
+
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker|p3wins=3
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Tom |t2pos1=Head Coach 
+|t2p2=Sky |t2pos2=coach|t2p2link=Sky_(Kim_Ha-neul)
+|t2p3=Roach |t2pos3=Coach 
+|t2p4=Gisepa |t2pos4=analyst
+|t2title=Staff
+
+|qualifier=[[LCK/2023/Championship Points|LCK Championship Points]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-29}} '''(2013, 2015, 2016)'''
+}}
+
+{{TeamCard
+|team=KT Rolster
+|p1=Kiin
+|p2=Cuzz
+|p3=Bdd
+|p4=Aiming
+|p5=Lehends
+
+|t2p1=PerfecT |t2pos1=top |t2p1dnp=true
+
+|t3p1=Hirai  |t3pos1=head coach
+|t3p2=supreme |t3pos2=coach
+|t3p3=RapidStar |t3pos3=coach
+|t3p4=Heetul |t3p4flag=kr |t3pos4=analyst
+|qualifier=[[LCK/2023/Regional Finals|LCK Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2018|date=2018-10-20}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=Dplus
+|p1=Canna
+|p2=Canyon |p2wins=1
+|p3=ShowMaker |p3wins=1
+|p4=Deft |p4wins=1
+|p5=Kellin
+
+|t2p1=Bible |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Acorn |t3pos1=head coach
+|t3p2=GorillA |t3pos2=coach
+|t3p3=Jay|t3p3link=Jay (Lee Jang-hee)|t3p3flag=kr |t3pos3=analyst
+|qualifier=[[LCK/2023/Regional Finals|LCK Regional Finals]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020|date=2020-10-31}} '''(2020)'''
+}}
+
+{{TeamCard
+|team=JD Gaming
+|p1=369
+|p2=Kanavi 
+|p3=knight
+|p4=Ruler|p4wins=1
+|p5=MISSING
+
+|t2p1=Lzq|t2p1flag=cn|t2pos1=mid |t2p1dnp=true
+
+|t3p1=Homme |t3pos1=head coach
+|t3p2=Viod |t3pos2=coach
+|t3p3=Vus5o |t3pos3=analyst
+|qualifier=[[LPL/2023/Summer|LPL Summer]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2022}} '''(2022)'''
+}}
+
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Bin 
+|p2=XUN
+|p3=Yagao  
+|p4=Elk 
+|p5=ON
+
+|t2p1=Baiye|t2pos1=adc|t2p1flag=cn|t2p1dnp=true
+
+|t3p1=Tabe |t3pos1=head coach
+|t3p2=BigWei |t3p2flag=tw |t3pos2=coach
+|t3p3=Xiasu |t3pos3=coach
+|t3p4=Duan |t3pos4=coach
+|qualifier=[[LPL/2023/Championship_Points|LPL Championship Points]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=LNG Esports
+|p1=Zika
+|p2=Tarzan |p2link=Tarzan (Korean player)
+|p3=Scout|p3wins=1
+|p4=Gala
+|p5=Hang
+
+|t2p1=Yuekai |t2pos1= mid|t2p1dnp=true
+
+|t3p1=Poppy |t3p1flag=tw |t3pos1=coach|t3p1link=Poppy (Chang Po-Hao)
+|t3p2=U |t3p2flag= |t3pos2=coach
+|t3p3=Yuzhang |t3p3flag=cn |t3pos3=analyst
+|qualifier=[[LPL/2023/Regional Finals|LPL Regional Finals]]
+|placement=12-13
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Weibo Gaming
+|p1=TheShy|p1wins=1
+|p2=weiwei
+|p3=Xiaohu
+|p4=Light |p4link=Light (Wang_Guang-Yu)
+|p5=Crisp|p5wins=1
+
+|t2p1=Karsa |t2pos1=jgl |t2p1dnp=true 
+
+|t3p1=Daeny  |t3pos1=head coach|t3p1winsc=1
+|t3p2=Rui  |t3p2flag=cn |t3pos2=coach
+|t3p3=Tselin |t3p3flag=cn |t3pos3=coach
+|t3p4=fly |t3p4flag=kr |t3p4link=Fly_(Kim_Sang-chul) |t3pos4=coach
+|t3p5=Medusa |t3p5flag=cn |t3pos5=analyst
+|qualifier=[[LPL/2023/Regional Finals|LPL Regional Finals]]
+|placement=
+|placementicon=
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=BrokenBlade
+|p2=Yike
+|p3=Caps
+|p4=Hans Sama
+|p5=Mikyx
+
+|t2p1=Dylan Falco |t2pos1=Head Coach
+|t2p2=rLT |t2p2flag=pt |t2pos2=Head Analyst
+|t2p3=Click |t2p3link=Click (Russian analyst)|t2p3flag=ru |t2pos3=Analyst
+|t2p4=Ismind |t2p4flag=co |t2pos4=Performance Coach
+|t2title=Staff
+|qualifier=[[LEC/2023/Finals|LEC Finals]]
+|placement=2
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019|date=2019-11-10}} '''(2019)'''
+}}
+
+{{TeamCard
+|team=Fnatic
+|p1=Oscarinin
+|p2=Razork	
+|p3=Humanoid
+|p4=Noah
+|p5=Trymbi
+
+|t2p1=Nightshare |t2pos1=Head Coach
+|t2p2=Hiiva |t2pos2=Assistant Coach
+|t2p3=Shaves |t2p3flag=uk |t2pos3=Strategic Coach
+|t2title=Staff
+|qualifier=[[LEC/2023/Finals|LEC Finals]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011|date=2011-06-20}} '''(2011)'''
+}}
+
+{{TeamCard
+|team=MAD Lions
+|p1=Chasy
+|p2=Elyoya
+|p3=Nisqy
+|p4=Carzzy
+|p5=Hylissang
+
+|t2p1=Pad |t2pos1=Head Coach
+<!--|t2p2=Mac |t2pos2=Coach-->
+|t2title=Staff
+|qualifier=[[LEC/2023/Finals|LEC Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=NRG
+|p1=Dhokla
+|p2=Contractz
+|p3=Palafox
+|p4=FBI
+|p5=IgNar
+
+|t2p1=Thinkcard |t2pos1=Head coach
+|t2p2=Juves |t2pos2=Coach
+|t2p3=Mash |t2pos3=Coach
+|t2p4=Apollo |t2pos4=Positional Coach
+|t2p5=Croissant |t2pos5=Strategic Coach
+|t2p6=Damonte |t2pos6=positional coach
+|t2p7=sOAZ |t2pos7=positional coach
+|t2p8=Gunaso |t2pos8=analyst
+|t2title=Staff
+|qualifier=[[LCS/2023/Summer|LCS Summer]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=Cloud9
+|p1=Fudge
+|p2=Blaber
+|p3=EMENES
+|p4=Berserker |p4link=Berserker (Korean player)
+|p5=Zven
+
+|t2p1=mithy |t2pos1=head coach
+|t2p2=Malice |t2pos2=coach
+|t2p3=Rigby |t2pos3=coach
+|t2p4=Veigarv2 |t2pos4=assistant coach
+|t2p5=Duffman |t2pos5=assistant coach
+|t2title=Staff
+|qualifier=[[LCS/2023/Summer|LCS Summer]]
+|placement=3-4
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018|date=2018-10-28}} '''(2018)'''
+}}
+
+{{TeamCard
+|team=Team Liquid
+|p1=Summit
+|p2=Pyosik|p2wins=1
+|p3=APA
+|p4=Yeon
+|p5=CoreJJ|p5wins=1
+
+|t2p1=Haeri |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Reignover |t3pos1=head coach
+|t3p2=Dodo |t3pos2=assistant coach
+|t3p3=Haitham |t3p3flag=iq |t3pos3=head analyst
+|qualifier=[[LCS/2023/Summer|LCS Summer]]
+|placement=9-12
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2020}} '''(2020)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start}}
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=Gemini
+|p3=JimieN
+|p4=Shunn
+|p5=ShiauC
+
+|t2p1=S1aytrue |t2pos1=sup |t2p1dnp=true
+|t2title=Substitutes
+
+|t3p1=Achie |t3pos1=head coach
+|t3p2=Bob |t3pos2=assistant coach
+|t3p3=Koala |t3p3link=Koala (Taiwanese player) |t3pos3=assistant coach
+|t3title=Staff
+|qualifier=[[PCS/2023/Summer|PCS Summer]]
+|placement=11-14
+|placementicon= {{LeagueIconSmall/worlds|World_Championship/2022}} '''(2022)'''
+}}
+
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=apaMEN
+|p2=Steal
+|p3=Aria
+|p4=Yutapon
+|p5=Harp
+
+|t2p1=Milan |t2pos1=adc |t2p1dnp=true
+|t2title=Substitutes
+
+|t3p1=viviD |t3p1flag=jp |t3pos1=Coach
+|t3p2=Gismo |t3p2flag=jp |t3pos2=Analyst
+|t3title=Staff
+|qualifier=[[LJL/2023/Summer|LJL Summer]]
+|placement=14-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=GAM Esports
+|image=GAM Esports 2021 full allmode.png
+|p1=Kiaya
+|p2=Levi
+|p3=Kati
+|p4=Slayder
+|p5=Palette
+
+|t2p1=playcool |t2pos1=mid |t2p1dnp=true
+|t2p2=Zin |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Hankay |t3pos1=Head Coach |t3p1flag=vn
+|t3p2=Rei |t3pos2=Strategic Coach |t3p2flag=vn
+|t3p3=Jensen Goh |t3pos3=analyst |t3p3flag=sg
+|t3p4=Molecule |t3pos4=analyst |t3p4flag=uk
+|t3p5=Yutility |t3pos5=Coach |t3p5flag=kr
+|qualifier=[[VCS/2023/Dusk|VCS Dusk]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2017|date=2017-10-12}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=LOUD
+|p1=Robo
+|p2=Croc
+|p3=Tinowns
+|p4=Route
+|p5=Ceos
+|t2p1=BeellzY |t2p1flag=br |t2pos1=head coach
+|t2p2=Shaquinn |t2p2flag=br |t2pos2=assistant coach
+|t2p3= |t2p3flag= |t2pos3=
+|t2p4= |t2p4flag= |t2pos4=
+|t2title=Staff
+|t3p1= |t3p1flag= |t3pos1=
+|t3p2= |t3p2flag= |t3pos2=
+|t3title=Substitutes
+|qualifier=[[CBLOL/2023/Split_2|CBLOL Split 2]]
+|placement=19-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2022}} '''(2022)'''
+}}
+
+{{TeamCard
+|team=PSG Talon
+|p1=Azhi
+|p2=JunJia
+|p3=Maple
+|p4=Wako
+|p5=Woody
+
+|t2p1=Husha |t2pos1=jg |t2p1dnp=true
+|t2p2=HongSuo |t2pos2=mid |t2p2dnp=true
+|t2title=Substitutes
+
+|t3p1=CorGi |t3pos1=head coach |t3p1winsc=1
+|t3p2=Maru|t3pos2=assistant Coach |t3p2flag=kr
+|t3p3= |t3p3flag= |t3pos3=
+|t3title=Staff
+|qualifier=[[PCS/2023/Summer|PCS Summer]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2021}} '''(2021)'''
+}}
+
+{{TeamCard
+|team=Rainbow7
+|p1=Bong |p1flag=kr
+|p2=Oddie |p2flag=pe
+|p3=Mireu |p3flag=kr
+|p4=Ceo |p4flag=ar
+|p5=Lyonz |p5flag=ar
+
+|t2p1=Khynm |t2p1flag=ar |t2pos1=head coach
+|t2p2=Kun |t2p2flag=kr |t2pos2=assistant coach
+|t2p3=Pointless |t2p3flag=ar |t2pos3=strategic coach
+|t2title=Staff
+|qualifier=[[LLA/2023/Closing|LLA Closing]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2017|date=2017-09-28}} '''(2017)'''
+}}
+
+{{TeamCard
+|team=Team BDS
+|p1=Adam
+|p2=Sheo
+|p3=nuc
+|p4=Crownie
+|p5=Labrov
+
+|t2p1=GoToOne |t2pos1=Head Coach
+|t2p2=Clément |t2p2flag=fr |t2pos2=performance Coach
+|t2p3=MenQ |t2p3flag=pl |t2pos3=assistant Coach
+|t2p4=Striker |t2pos4=assistant Coach
+|t2p5=Arces |t2pos5=analyst|t2p5flag=pl
+|t2title=Staff
+|qualifier=[[World Championship/2023/Qualifying Series|Worlds Qualifying Series]]
+|placement=
+|placementicon=
+}}
+
+{{TeamCard
+|team=Team Whales
+|p1=Sparda |p1link=Nagiya
+|p2=BeanJ
+|p3=Glory |p3link=Glory (Vietnamese player)
+|p4=Artemis
+|p5=Bie
+
+|t2p1=Vit |t2pos1=bot |t2p1dnp=true
+|t2p2=CBL |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Yuna |t3pos1=Head Coach |t3p1flag=vn
+|t3p2=Ciel |t3pos2=Coach |t3p2link=Ciel (Vietnamese player)
+|qualifier=[[VCS/2023/Dusk|VCS Dusk]]
+|placement=
+|placementicon=
+}}
+{{TeamCard columns end}}
+
+==Results==
+==={{Stage|Play-In: Round 1}}===
+{{box|start|padding=2em}}
+{{BracketGroupToggle
+|gtl={{LPDB storage|false}}{{GroupTableLeague2
+|title=Group A |width=350px |diff=false
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|matchGroupId1=Wrd23PInGA
+}}{{LPDB storage|true}}
+|id=Wrd23PInGA|matchsection=Play-In Round 1 Group A|width=350px
+}}
+<br/>
+{{box|break|padding=2em}}
+{{BracketGroupToggle
+|gtl={{LPDB storage|false}}{{GroupTableLeague2
+|title=Group B |width=350px |diff=false
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|matchGroupId1=Wrd23PInGB
+}}{{LPDB storage|true}}
+|id=Wrd23PInGB|matchsection=Play-In Round 1 Group B|width=350px
+}}
+{{box|end}}
+
+==={{Stage|Play-In: Round 2}}===
+{{ShowBracket|id=Wrd23PInR2}}
+
+==={{Stage|Swiss Stage}}===
+{{ShowStandings|page=World Championship/2023/Swiss Stage|index=0}}<br>
+<span style="line-height:24px">&nbsp;''[[World Championship/2023/Swiss Stage|Click here for more information about the Swiss matches.]]''</span>
+
+==={{Stage|Knockout Stage}}===
+{{ShowBracket|id=Wrd23KnOut}}
+
+==Format==
+* '''Qualification'''
+** 22 teams from professional leagues will qualify for the event.
+** LPL and LCK will have 4 slots, while LEC and LCS will have 3 slots, PCS and VCS will have 2 slots, remaining slots will be one each for CBLOL, LJL, LLA and {{Abbr|Worlds Qualifying Series|LEC #4 vs LCS #4}}.<ref name="2023 announcement"/>
+
+* '''Play-In Round 1''' - ''October 10<sup>th</sup> - 14<sup>th</sup>''
+** Eight teams are divided into two groups where they play a Double Elimination bracket
+** All matches are played in a {{Abbr/Bo3}}.
+** {{bgcolortext|up|Top 2 teams}} in each group advance to Play-In Round 2.
+** {{bgcolortext|down|Bottom 2 teams}} in each group are eliminated.
+
+* '''Play-In Round 2''' - ''October 15<sup>th</sup>''
+**Four teams from Play-In: Round 1.
+**The Upper Bracket winner from each group compete against Lower Bracket winners of the other group
+**All matches are played in a {{Abbr/Bo5}}.
+**Two winners will advance to Swiss.
+
+* '''Swiss''' - ''October 19<sup>th</sup> - 23<sup>rd</sup> and 26<sup>th</sup> - 29<sup>th</sup>''
+** Two teams from the Play-In Stage join fourteen teams with direct entry from China, South Korea, Europe and North America
+** 16 Team Swiss System Format
+*** Round 1 teams will be paired against teams from a different region
+*** Rounds 2 to 5 are seeded based on each team win-loss record
+*** Elimination and Advancement matches are {{Abbr/Bo3}}
+*** All other matches are {{Abbr/Bo1}}.
+**{{bgcolortext|up|Teams that reach 3 wins in swiss}} advance to Knockout Stage.
+**{{bgcolortext|down|Teams that reach 3 losses in swiss}} are eliminated.
+** Throughout the Swiss Stage, side selection will be determined by initial draw pool - the higher pool will receive side selection. 
+** In matches between teams from the same draw pool, side selection will be determined by team's drawing order.
+
+* '''Knockout Stage''' - ''November 2<sup>nd</sup> - 5<sup>th</sup>, November 11<sup>th</sup> - 12<sup>th</sup> and November 19<sup>th</sup>''
+** Eight teams play in a single elimination bracket.
+** Side Selection Privilege
+*** Teams with Side Selection Privilege can choose the side in game 1, after that, the losing team can choose the side in the next game.
+*** In Quarterfinals, Side Selection Privilege will be granted to teams with better match record in Swiss Stage. In the case where both teams have the same match record, Side Selection Privilege will be determined by the order teams are drawn in Quarterfinals.
+*** In the following matches, the Side Selection Privilege will be determined by coin flip.
+** All matches are {{Abbr/Bo5}}.
+
+* '''Patch Information'''
+** Worlds 2023 will be played on [[Patch 13.19]].
+** {{ChampionIcon|Naafiri|size=20px}} [[Naafiri]] and {{ChampionIcon|Briar|size=20px}} [[Briar]] were disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<ref name="Naafiri & Briar banned">{{cite web|url=https://na.leagueoflegends.com/en-us/news/dev/dev-balancing-for-pro-play/|title=/dev: Balancing for Pro Play|author=Summoner's Rift Team|publisher=Riot Games|date=2020-08-19|language={{Flag|usuk}}English}}</ref>
+===Worlds 2023 Draw Show===
+* The Worlds Draw Show will be held after [[LEC/2023/Finals|LEC Season Finals]] to place teams into groups for the Play-In Stage of the 2023 World Championship.<ref name="#Worlds2023 Play-In Stage Draw Show">{{cite web|url=https://twitter.com/lolesports/status/1699437446390333656|title=Stay tuned for the #Worlds2023 Play-In Stage Draw Show|author=LoL Esports|date=2023-09-06|language={{Flag|usuk}} English}}</ref>
+** ''[https://youtu.be/VFHRhCQa13w?si=xwoqp2MjmWzlOyWe Click here to watch the Play-In Draw Show video] (Guest for the Draw: {{player|Odoamne|flag=ro}})''
+** <span class="mw-customtoggle-Playin-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Worlds Draw Show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Playin-Draw" style="margin-top:10px;">
+* Teams are splited into 2 seed pools to ensure quality groups.
+** 8 teams are splited into 2 pools
+*** '''Pool 1''' will consist of WQS (''BDS/GG''), PCS1 (''PSG''), VCS1 (''GAM''), and PCS2 (''CFO'').
+*** '''Pool 2''' will consist of VCS2 (''TW''), LLA1 (''R7''), CBLOL1 (''LLL''), and LJL1 (''DFM'').
+* Two teams from each Pool will be seeded to each group.
+* The first round of the Play-In will always be played against a team from a different Pool.
+* No more than two teams from the same region can be in a group.
+</div>
+*Swiss Stage Draw Show will be held after the completion of the Play-in and each round of play.
+** ''Click links below to watch the Swiss Stage Draw Show videos: <br> [https://youtu.be/UJZsEd9Qz9o Round1] (Guest: {{player|Mata|flag=kr}}) - [https://youtu.be/8ExtmHlOhPc Round2] - [https://youtu.be/D_TeTPJaLKc Round3] - [https://youtu.be/I2DN2lNXELw Round4] - [https://youtu.be/CNyBOO1Z6Lc Round5]
+** <span class="mw-customtoggle-Swiss-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Swiss Stage Draw show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Swiss-Draw" style="margin-top:10px;">
+* Teams are splited into 4 seed pools to ensure quality groups.
+** 16 teams are splited into 4 pools
+*** '''Pool 1''' will consist of LPL1 (''JDG''), LCK1 (''GEN''), LEC1 (''G2''), and LCS1 (''NRG'').
+*** '''Pool 2''' will consist of LPL2 (''BLG''), LCK2 (''T1''), LEC2 (''FNC''), and LCS2 (''C9'').
+*** '''Pool 3''' will consist of LPL3 (''LNG''), LCK3 (''KT''), LEC3 (''MAD''), and LCS3 (''TL'').
+*** '''Pool 4''' will consist of LPL4 (''WBG''), LCK4 (''DK'') and 2 Play-In Stage winners (''GAM'' & ''BDS'')
+* Two teams from each Pool will be seeded to each group.
+* Pool 1 teams will face Pool 4 teams, while Pool 2 teams will face Pool 3 teams in the first round.
+* No team will play a team from their own region in the first round.
+* Following the first round of play, there will be another draw for the second round to pair teams with the same record against one another - this time with no further draw restrictions.
+</div>
+* Quarterfinal matchups will be decided by an on-stage draw following the final day of the Swiss Stage. 
+** ''[https://youtu.be/WXr4h7XYlHA Click here to watch the Quarterfinals Draw Show video] (Guest for the Draw: {{player|BeryL|flag=kr}})''
+** In this draw, teams that advanced with a 3-0 record will be matched against teams that advanced with a 3-2 record. 
+** The remaining teams will then be matched against one another.
+
+==Broadcasts==
+===Broadcast Talent===
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=LATAM Broadcasts
+|name3=EMEA Broadcasts
+|name4=Asian Broadcasts
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Desk Host
+|b1=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Laure
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=Emily Rand
+|b2=Guldborg
+|b3=Huni
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=CaptainFlowers
+|b3=Drakos
+|b4=Hysterics
+|b5=Medic
+|b6=Munchables|b6name=Joseph Fenny
+|b7=Oisín |b7link=Oisín (Irish Commentator)
+|b8=Valdes
+|b9=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Chronicler
+|b3=Dagda
+|b4=Jatt
+|b5=Kobe
+|b6=MarkZ
+|b7=Raz
+|b8=Vedius
+|b9=Wolf |b9link=Wolf (American caster)
+|b10=Ender
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Translator
+|b1=Xiran|b1flag=cn|b1name=Feng Xi
+|b2=Wendy
+|b3=Candice
+|b4=zeetwo
+|b5=Dear|b5flag=kr|b5name=Helen Jang
+|b6=Nash|b6link=Nash (Taiwanese caster)
+|b7=shuiniao|b7name=Hiromi Mizunaga
+|b8=Nazgriel|b8name=Phùng Đăng Khoa|b8flag=vn
+|b9=Arthur Dias|b9flag=br
+}}
+{{box|end}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Host
+|b1=Fogueta
+|b2=Tabs
+}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Analyst
+|b1=Dioud
+|b2=Lahgolas
+|b3=Loop
+|b4=micaO
+|b5=Professor
+|b6=gstv1
+|b7=Dudu|b7name=Eduardo Souza|b7link=Dudu (Brazilian caster) |b7flag=br
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Play-by-Play Caster
+|b1=Gruntar
+|b2=Schaeppi
+|b3=Vecet
+}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Color Caster
+|b1=Colosimus |b1name=Brunno Colosimo
+|b2=Skeat
+|b3=Ravena
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=br
+|position=Brazilian Interviewer
+|b1=Rafaela Tomasi
+|b2=Takeshi
+}}
+{{box|end}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Host
+|b1=Magui Sunshine|b1flag=ar|b1name=Magalí Sanyán
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Analyst
+|b1=Jirall
+|b2=Fahren
+|b3=Elmo|b3link=Elmo (Chilean caster)|b3flag=cl|b3name=Bastian Guzmán
+|b4=Lesmart
+|b5=Baula
+|b6=AndresX
+|b7=JJ EX
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Play-by-play Caster
+|b1=Corsario
+|b2=Lenore
+|b3=Nachittus|b3name=Ignacio Martín Santamarina
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Color Caster and Analyst
+|b1=Rafamaik
+|b2=Abdiel|b2flag=mx|b2name=Abdiel Estrada
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Interviewer
+|b1=Lau Agnolin  |b1flag=br
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=LATAM Casters - TV Azteca Esports
+|b1=AlanQ
+|b2=Balpo
+|b3=Darkoz
+|b4=Skyshock
+}}
+{{box|end}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=it
+|position=Italian Commentator
+|b1=Juannetti|b1flag=it
+|b2=KenRhen|b2name=Roberto Prampolini|b2flag=it
+|b3=Moonboy|b3flag=it
+|b4=Charlie|b4flag=it|b4name=Carlotta De Simon |b4link=Charlie (Italian caster)
+|b5=Wolcat|b5flag=it|b5name=Gabriele Catterin
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pt
+|position=Portuguese Commentator
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Spanish Commentator
+|b1=Noa
+|b2=Jaime Mellado
+|b3=Fernando Cardenete
+|b4=Wolk
+|b5=Champi
+|b6=Tesh
+|b7=Toad
+|b8=Bebé
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=fr
+|position=French Commentator
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=TraYtoN
+|b5=Finghin
+|b6=Zerotick
+|b7=Chreak
+|b8=Marex
+|b9=Glopo
+|b10=Wakz
+|b11=Duke |b11link=Duke (French coach)
+|b12=Rhobalas
+}}
+{{BroadcasterCard|lang=fr
+|position= French Analyst
+|b1=Vetheo
+|b2=Reha
+|b3=Karim kt
+|b4=Striker
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pl
+|position=Polish Commentator
+|b1=Bezi
+|b2=Myha
+|b3=Silv4n
+|b4=Devilpiotr
+|b5=Bialito
+|b6=Magvayer
+|b7=MrHyena
+|b8=Tabasko
+|b9=Kaspersky
+|b10=CzarnyPiotruś
+|b11=TheFakeOne
+|b12=Vander
+|b13=Respite
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=cz
+|position=Czech Commentator
+|b1=Kangae
+|b2=Mortsche
+|b3=Fortanu|b3name=Filip Růžička|b3flag=cz
+|b4=Falazury|b4name=Aleš Lipl|b4flag=cz
+|b5=Davkouny
+|b6=Xnapy
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=de
+|position=German Commentator
+|b1=Eis
+|b2=Alanio
+|b3=Ryxcales
+|b4=Kernus
+|b5=Mori
+|b6=Basti
+|b7=Masterplay
+|b8=Pixavis
+|b9=Rulfchen
+|b10=Sheepy
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=hu
+|position=Hungarian Commentator
+|b1=Loemifar
+|b2=Atreus
+|b3=Livius
+|b4=Makaria
+|b5=Asdelek
+|b6=Pierce
+|b7=Mentsvar
+|b8=Anniewhere|b8flag=hu|b8name=Huzsvári Patrik
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=rs
+|position=Serbian Commentator
+|b1=Sa1na
+|b2=Mićko
+|b3=Ljuba
+|b4=Ralla
+|b5=Njen
+|b6=Redulj
+|b7=Glisha
+|b8=Njami
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=gr
+|position=Greek Commentator
+|b1=TheRock7
+|b2=Ner0|b2flag=gr|b2name=Konstantinos Perperidis
+|b3=Labokop
+|b4=IceBreaker
+|b5=D.K.Drake|b5flag=gr|b5name=Dimitris Drakiotis
+|b6=LivingDead
+|b7=Rev
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=sa
+|position=Arabic Commentator
+|b1=CoolSystem|b1flag=ps|b1name=Farid Jarrah
+|b2=Dattura
+|b3=Paralyze
+|b4=Adham
+|b5=Smoothcast|b5flag=tn|b5name=Karim Mellouli
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=tr
+|position=Turkish Commentator
+|b1=Hoca
+|b2=Mehitra
+|b3=Japone
+|b4=Jhonnie|b4name=Caner Güngörür|b4flag=tr
+|b5=Euphony
+|b6=Scarlet|b6link=Scarlet (Turkish caster)
+|b7=Nova
+|b8=Rehaer|b8name=Reha Domaniç|b8flag=tr
+|b9=Karahan
+|b10=Noeldayi
+|b11=midali
+|b12=Zetsu|b12flag=tr|b12name=Baturhan Bahadır
+|b13=GeneralBaho|b13flag=tr|b13name=Bahadır Van
+}}
+{{box|end}}
+{{tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Commentator & Analysts
+|b1=Duoduo|b1name=Wang Qianyuan|b1flag=cn
+|b2=Mile|b2name=Qian Chen|b2flag=cn
+|b3=Zeyuan|b3name=Guan Zeyuan|b3flag=cn
+|b4=wAwa|b4name=Yan Zijing|b4flag=cn
+|b5=957
+|b6=Tongxi|b6name=Zhang He|b6flag=cn
+|b7=Maomao|b7name=Yuan Weiyi|b7flag=cn
+|b8=Rita|b8name=Feng Yu|b8flag=cn
+|b9=pyl|b9name=Chen Bo|b9flag=cn
+|b10=MacT|b10name=Tan PingTao|b10flag=cn
+|b11=san
+|b12=fireloli|b12name=Zhao Zhiming|b12flag=cn
+|b13=GuGu|b13name=Chen Jieyan|b13flag=cn
+|b14=Junri|b14name=Zhao Junri|b14flag=cn
+|b15=Pengpeng|b15name=Feng Sheng-Yao|b15flag=tw
+|b16=ShuoShuo|b16name=Zhang Shuo|b16flag=cn
+|b17=Mage|b17name=Zhong Kexin|b17flag=cn
+|b18=Kris|b18name=Tang Xintong|b18flag=cn
+|b19=HuaiNan|b19name=Feng Zhuocheng|b19flag=cn
+|b20=Suki|b20name=Sun Qi|b20flag=cn|b20link=Suki_(Sun_Qi)
+|b21=乘风儿|b21name=Zhong Yingjie|b21flag=cn
+|b22=Wang Song|b22name=Wang Song|b22flag=cn
+|b23=TianShu|b23name=Yao Tianshu|b23flag=cn
+|b24=Zonic|b24name=Zhang Shiyu|b24flag=cn
+|b25=XiaoMi|b25name=Liu Jin|b25flag=cn
+|b26=KinKo|b26name=Jin Zhuohan|b26flag=cn
+}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Guest Commentator & Analyst
+|b1=Letme
+|b2=Zoom
+|b3=LANGX
+|b4=Baolan
+|b5=SwordArt
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Desk Host
+|b1=Hilda
+|b2=Luo Xin|b2name=Luo Yuting|b2flag=cn
+|b3=WeiWei|b3link=Weiwei (Chinese caster)|b3name=Zhang Wei|b3flag=cn
+|b4=WenShan|b4name=He Wenshan|b4flag=cn
+|b5=Peipei|b5name=Liu Yue|b5flag=cn
+|b6=Zhou Gangan|b6name=Zhou Siyu|b6flag=cn
+|b7=Shiyue|b7name=Huang Liyao|b7flag=cn
+|b8=Kele|b8name=Zhang Meichen|b8flag=cn
+|b9=Tongtong|b9name=Xu Yutong|b9flag=cn
+|b10=Xiaoyou|b10name=Gao Shan|b10flag=cn
+|b11=BaoBao|b11name=Fu Ruozhen|b11flag=cn
+|b12=Qianxun|b12name=Guan Zhiyu|b12flag=cn
+|b13=Christina
+}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Interviewer
+|b1=Liu Hang|b1name=Liu Hang|b1flag=cn
+}}
+{{BroadcasterCard|lang=cn
+|position=Chinese Interviewer & Translator
+|b1=Christina
+|b2=Wendy
+|b3=Candice
+|b4=Xiran|b4name=Feng Xi|b4flag=cn
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=NoFe
+|b3=Pony|b3name=Lim Ju-wan |b3link=MyLittlePony
+|b4=Ggoggo|b4name=Go Su-jin
+|b5=Huni
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Cpt Jack
+|b2=Helios |b2link=Helios (Korean player)
+}}
+{{BroadcasterCard
+|position=Korean Interviewer & Translator
+|b1=Youn Soo-bin |b1flag=kr
+|b2=Bae Hye-ji |b2flag=kr
+|b3=Ham Ye-jin |b3flag=kr
+|b4=zeetwo
+|b5=Dear|b5flag=kr|b5name=Helen Jang
+}}
+{{BroadcasterCard
+|position=Observer|lang=kr
+|b1=JonnaStrong
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Mandarin Caster
+|b1=Jackie
+|b2=JR
+|b3=Section
+|b4=YuWu
+}}
+{{BroadcasterCard
+|position=Mandarin Commentator
+|b1=Art|b1link=Art (Taiwanese caster)
+|b2=Mountain
+|b3=Zod
+|b4=Chawy
+|b5=Chenzui
+|b6=Jay|b6link=Jay (Taiwanese caster)
+|b7=Nash|b7link=Nash (Taiwanese caster)
+}}
+{{BroadcasterCard|lang=cn
+|position=Mandarin Interviewer & Translator
+|b1=Nash|b1link=Nash (Taiwanese caster)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Cantonese Commentator
+|b1=Mogu|b1flag=hk
+|b2=Chris|b2link=Chris (Hong Kong caster)|b2flag=hk
+|b3=Lazy|b3flag=hk
+|b4=Dream|b4link=Dream (Hong Kong caster)|b4flag=hk|b4name=Shek Hoi-yee
+|b5=Bella|b5link=Bella (Hong Kong Caster)|b5flag=hk|b5name=Lee Yan-wing
+|b6=Skywalk
+|b7=Sang|b7flag=hk|b7name=Wong Wai-sang
+|b8=LoSing
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Commentator
+|b1=Minh Trí|b1flag=vn
+|b2=Ngọc Thiên|b2flag=vn|b2name=Đặng Ngọc Thiên
+|b3=Tùng Lâm|b3flag=vn|b3name=Hoàng Tùng Lâm
+|b4=Minh Hảo|b4flag=vn|b4name=Nguyễn Minh Hảo
+|b5=Hải Dương|b5flag=vn|b5name=Nguyễn Hải Dương
+|b6=Bá Điền|b6flag=vn
+|b7=Hữu Trung
+|b8=Văn Tùng
+|b9=Hoàng Luân|b9flag=vn|b9name=Huỳnh Hải Hoàng Luân 
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Interviewers
+|b1=Nazgriel|b1name=Phùng Đăng Khoa|b1flag=vn
+|b2=Tú Anh Susu|b2flag=vn|b2name=Nguyễn Tú Anh
+|b3=Remind|b3flag=vn|b3name=Du Phong Linh
+|b4=Mai Dora|b4name=Trương Vũ Quỳnh Mai|b4flag=vn
+|b5=Minh Nghi|b5name=Trần Nguyễn Minh Nghi|b5flag=vn
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Analysts
+|b1=Thành Hiệp|b1flag=vn
+|b2=RonOP|b2flag=vn
+|b3=Hasmed|b3flag=vn
+|b4=JackieWind|b4flag=vn
+|b5=Slay|b5flag=vn
+|b6=Archie|b6name=Trần Minh Nhựt|b6flag=vn
+|b7=Ling|b7name=Nguyễn Mạnh Linh|b7flag=vn
+|b8=Stark|b8name=Phan Công Minh|b8flag=vn
+|b9=Yoshino|b9flag=vn
+|b10=Puddin|b10name=Lương Thành Tài|b10flag=vn
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Special Guests
+|b1=Team Secret|b1flag=vn|b1name=Day 1,5
+|b2=CERBERUS Esports|b2flag=vn|b2name=Day 2
+|b3=Team Flash|b3flag=vn|b3name=Day 3
+|b4=MGN Box Esports|b4flag=vn|b4name=Day 4
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=jp
+|position=Japanese Commentator
+|b1=Jaeger |b1name=Kota Horie |b1link=Jaegar (Japanese caster) |b1flag=jp
+|b2=Recruit |b2name=Satoshi Horikawa |b2flag=jp
+|b3=eyes 
+|b4=Revol 
+|b5=katsudion
+|b6=Nemoh
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=lolesports
+|lang2=cn |huya2=660000 |bilibili2=6 |douyu2=288016
+|lang3=kr |twitch3=lck_korea |afreeca3=aflol |youtube3=lck
+|lang4=tr |twitch4=riotgamesturkish |youtube4=Lolespor
+|lang5=br |twitch5=cblol |youtube5=lolesportsbr
+|lang6=sam |twitch6=lla |youtube6=lla |trovo6=LLA
+|lang7=mx |twitch7=tvaztecaesports |youtube7=AztecaEsports
+|lang8=jp |twitch8=riotgamesjp |youtube8=lolesportsjp |afreeca8=ljl
+|lang9=tw |twitch9=lolpacifictw |youtube9=lolpacific
+|lang10=vn |youtube10=@vcslmht |tiktok10=@vcslmht
+|lang11=fr |twitch11=otplol_
+|lang12=de |twitch12=summonersinnlive |youtube12=SummonerInnDE
+|lang13=it |twitch13=pg_esports_lol
+|lang14=es |twitch14=lvpes
+|lang15=cz |twitch15=hitpointcz
+|lang16=hu |twitch16=esport2tv |youtube16=Esport1gg
+|lang17=pl |twitch17=polsatgames |youtube17=polsatgames
+|lang18=pt |twitch18=inygontv1
+|lang19=rs |youtube19=fortunaesports
+|lang20=gr |twitch20=gamersloungegr |youtube20=GamersLoungeGr
+|lang21=sa |twitch21=lolesports_ar
+}}
+
+==Additional Data==
+
+
+===Champion Statistics===
+{{#lst:World Championship/2023/Statistics|Champion Stats}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=Wrd23PInGA|matchid=R1M2|gameNum=1|player=Route|vod=https://youtu.be/PE2C5PZ0ib0?t=3170}}
+|{{Json|id=Wrd23PInGA|matchid=R1M3|gameNum=2|player=Slayder|vod=https://youtu.be/M1zaP85pEFE?t=2586}}
+|{{Json|id=Wrd23PInGB|matchid=R1M3|gameNum=2|player=Crownie|vod=https://youtu.be/N8Tkv7nhZkI?t=2468}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+===Worlds Appearances===
+{{Player tournament appearances|series=World Championships|tiers=1|limit=10|playerspage=World_Championship/2023}}
+:''See [[World_Championships/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{#section:World_Championship/2023/Additional_Content|additional}}
+
+{{Event media}}
+
+===Trivia===
+* [[DRX]] did not manage to qualify to Worlds so they {{Are or Were|2023-11-19}} unable to defend their title.
+* [[apaMEN]] from [[DetonatioN FocusMe]] is the oldest player to attend to play one Worlds edition, he is 31 years old.
+
+==References==
+{{reflist}}
+
+==See Also==
+{{World Championship}}

@@ -1,0 +1,878 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2025&redirects=1
+<!-- 抓取: 2026-08-16T18:31:05.442Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+<metadesc>The League of Legends 2025 World Championship is the crowning event of League of Legends Esports. Learn more about its format, venues, and teams here!</metadesc><!--
+-->{{DISPLAYTITLE:2025 World Championship}}<!--
+-->{{Worlds2025Tabs}}<!--
+-->{{Infobox league
+|name=2025 World Championship
+|tickername=Worlds 2025
+|shortname=Worlds 2025
+|caption=EARN YOUR LEGACY
+|image=LoL World Championship 2025 lightmode.png
+|imagedark=LoL World Championship 2025 darkmode.png
+|series=World Championships
+|icon=League of Legends Worlds lightmode.png
+|icondarkmode=League of Legends Worlds darkmode.png
+|organizer=Riot Games
+|sponsor1=[https://aws.amazon.com/ AWS]
+|sponsor2=[https://www.cisco.com/ Cisco]
+|sponsor3=[https://www.coinbase.com/ Coinbase]
+|sponsor4=[https://www.crunchyroll.com/ Crunchyroll]
+|sponsor5=[http://www.esportsworldcup.com/ Esports World Cup]
+|sponsor6=[https://hyperx.com/ HyperX]
+|sponsor7=[http://www.mastercard.com/ Mastercard]
+|sponsor8=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor9=[https://www.omen.com/ OMEN]
+|sponsor10=[https://www.opera.com/gx Opera GX]
+|sponsor11=[https://www.oppo.com/ OPPO]
+|sponsor12=[https://www.redbull.com/ Red Bull]
+|sponsor13=[https://secretlab.co/ Secretlab]
+|sponsor14=[https://www.verizon.com/ Verizon]
+|sponsor15=[https://games.globant.com/ Globant]
+|patch=25.20
+|type=Offline
+|country3=China
+|city3=Beijing
+|country2=China
+|city2=Shanghai
+|country=China
+|city=Chengdu
+|venue=Dong'an Lake Sports Park Multifunctional Gymnasium |venuelink=https://chengdu-expat.com/places/dongan-lake-sports-park/ |venuedesc=Grand Final
+|venue2=Mercedes-Benz Arena |venue2link=https://www.mercedes-benzarena.com/en |venue2desc=Quarterfinals & Semifinals
+|venue3=Beijing JD Esports Center |venue3link=https://www.beijingetown.com.cn/2023-04/20/c_879517.htm |venue3desc=Play-In & Swiss
+|format='''Play-In Stage:'''<br>Single Match<br>'''Swiss Stage:'''<br>Hybrid-Swiss System<br>'''Knockout Stage:'''<br>Single Elimination
+|prizepoolusd=5,000,000
+|sdate=2025-10-14
+|edate=2025-11-09
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com/tournament/113475452383887518
+|rulebook=https://cdn.sanity.io/files/dsfx7636/news_live/d3d5b3d1ad2d201d397818ca4209c99536182a18.pdf
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=lolesports
+|tiktok=lolesports
+|team_number=17
+|previous=World_Championship/2024{{!}}2024
+|next=World_Championship/2026{{!}}2026
+}}
+The '''League of Legends World Championship 2025''' (also known as '''LoL Worlds 2025''' or just '''Worlds 2025''') is the crowning event of League of Legends esports for the year. The tournament includes 17 teams from all regions of the game in a months-long race for the Summoner's Cup, which was rebranded in this season thanks to a partnership between Riot Games and [https://www.volpinprops.com/ Volpin Props]. 
+
+The Grand Finals played at the Dong'an Lake Sports Park Multifunctional Gymnasium in Chengdu, China. <ref>{{cite web |url=https://x.com/lolesports/status/1852339222906052826|title=The location of the 2025 @LeagueOfLegends World Final: Chengdu!|author=LoL Esports|date=2024-11-01}}</ref>
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+|formatHeader=Format
+|newsHeader=Additional Content
+}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|percentage=true
+|tournament1={{FULLPAGENAME}}/Play-In
+|tournament2={{FULLPAGENAME}}/Swiss Stage
+|tournament3={{FULLPAGENAME}}/Knockout Stage
+|{{Slot|place=1|percentage=20%}}
+|{{Slot|place=2|percentage=16%}}
+|{{Slot|place=3-4|percentage=8%}}
+|{{Slot|place=5-8|percentage=6%}}
+|{{Slot|place=9-11|percentage=3.5%}}
+|{{Slot|place=12-14|percentage=2.5%}}
+|{{Slot|place=15-16|percentage=2.25%}}
+|{{Slot|place=17|percentage=1.5%}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true|margin=false
+|{{Slot|award=Finals MVP |{{Opponent|Gumayusi}}}}
+}}<br />
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Swiss Stage MVP
+|tournament=World_Championship/2025/Swiss_Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Knockout Stage MVP
+|tournament=World_Championship/2025/Knockout_Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipants|showplayerinfo=true
+|{{Opponent|Gen.G Esports
+    |players={{Persons
+        |{{Person|Kiin|role=top}}
+        |{{Person|Canyon|role=jgl|trophies=1}}
+        |{{Person|Chovy|role=mid}}
+        |{{Person|Ruler|role=bot|trophies=1}}
+        |{{Person|Duro|role=sup}}
+
+        |{{Person|Kim|role=head coach|trophies=1|type=staff}}
+        |{{Person|Helper|link=Helper (Korean player)|role=coach|type=staff}}
+        |{{Person|Lyn|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=Mid-Season Invitational/2025|placement=1}}
+    |notes={{Notes
+        |{{Notes|[[Gen.G Esports]] qualified for Worlds 2025 through MSI Champion seed after qualifying for [[LCK/2025/Playoffs|LCK Playoffs]]. Their seeding was later determined from their regional results.}}
+    }}
+}}
+
+|{{Opponent|Hanwha Life Esports
+    |players={{Persons
+        |{{Person|Zeus|role=top|trophies=2}}
+        |{{Person|Peanut|role=jgl}}
+        |{{Person|Zeka|role=mid|trophies=1}}
+        |{{Person|Viper|link=Viper (Korean player)|role=bot|trophies=1}}
+        |{{Person|Delight|role=sup}}
+
+        |{{Person|DanDy|role=head coach|trophies=1|type=staff}}
+        |{{Person|Mowgli|role=coach|trophies=1|type=staff}}
+        |{{Person|Bibra|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2025|placement=2}}
+}}
+
+|{{Opponent|KT Rolster
+    |players={{Persons
+        |{{Person|PerfecT|role=top}}
+        |{{Person|Cuzz|role=jgl}}
+        |{{Person|Bdd|role=mid}}
+        |{{Person|deokdam|role=bot}}
+        |{{Person|Peter|link=Peter (Korean player)|role=sup}}
+
+        |{{Person|Score|role=head coach|type=staff}}
+        |{{Person|S0NSTAR|role=coach|type=staff}}
+        |{{Person|Museong|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2025|placement=3}}
+}}
+
+|{{Opponent|T1
+    |players={{Persons
+        |{{Person|Doran|role=top}}
+        |{{Person|Oner|role=jgl|trophies=2}}
+        |{{Person|Faker|role=mid|trophies=5}}
+        |{{Person|Gumayusi|role=bot|trophies=2}}
+        |{{Person|Keria|role=sup|trophies=2}}
+
+        |{{Person|kkOma|role=head coach|trophies=4|type=staff}}
+        |{{Person|Tom|role=coach|trophies=2|type=staff}}
+        |{{Person|Mata|role=coach|trophies=1|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCK/2025|placement=4}}
+}}
+
+|{{Opponent|Bilibili Gaming
+    |players={{Persons
+        |{{Person|Bin|role=top}}
+        |{{Person|shad0w|link=shad0w (Italian player)|role=jgl}}
+        |{{Person|knight|role=mid}}
+        |{{Person|Elk|role=bot}}
+        |{{Person|ON|role=sup}}
+
+        |{{Person|Beichuan|role=jgl|played=true|status=sub}}
+
+        |{{Person|BigWei|role=head coach|type=staff}}
+        |{{Person|Easyhoon|role=assistant coach|trophies=1|type=staff}}
+        |{{Person|LvMao|role=assistant coach|type=staff}}
+        |{{Person|KaKAO|role=assistant coach|type=staff}}
+        |{{Person|zyb|role=analyst|flag=cn|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2025/Split_3|placement=1}}
+}}
+
+|{{Opponent|Anyone's Legend
+    |players={{Persons
+        |{{Person|Flandre|role=top|trophies=1}}
+        |{{Person|Tarzan|role=jgl}}
+        |{{Person|Shanks|role=mid}}
+        |{{Person|Hope|link=Hope (Chinese player)|role=bot}}
+        |{{Person|Kael|link=Kael (Korean player)|role=sup}}
+
+        |{{Person|Tabe|role=head coach|type=staff}}
+        |{{Person|Xiaobai|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2025/Championship Points|text=LPL Championship Points|placement=}}
+}}
+
+|{{Opponent|Top Esports
+    |players={{Persons
+        |{{Person|369|role=top}}
+        |{{Person|Kanavi|role=jgl}}
+        |{{Person|Creme|role=mid}}
+        |{{Person|JackeyLove|role=bot|trophies=1}}
+        |{{Person|Hang|role=sup}}
+
+        |{{Person|fengyue|role=support|played=false|status=sub}}
+
+        |{{Person|Homme|role=head coach|type=staff}}
+        |{{Person|Ggoong|role=assistant coach|type=staff}}
+        |{{Person|Ben|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2025/Regional_Finals|placement=1}}
+}}
+
+|{{Opponent|Invictus Gaming
+    |players={{Persons
+        |{{Person|TheShy|role=top|trophies=1}}
+        |{{Person|Wei|role=jgl}}
+        |{{Person|Rookie|role=mid|trophies=1}}
+        |{{Person|GALA|role=bot}}
+        |{{Person|Meiko|role=sup|trophies=1}}
+
+        |{{Person|Daeny|role=head coach|trophies=1|type=staff}}
+        |{{Person|Mafa|role=coach|type=staff}}
+        |{{Person|yongsoo|flag=kr|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LPL/2025/Regional_Finals|placement=2}}
+    |notes={{Notes
+        |{{Notes|LPL earned an extra seed for Worlds 2025 as the 2nd-best performing region at [[MSI 2025]].}}
+    }}
+}}
+
+|{{Opponent|FlyQuest
+    |players={{Persons
+        |{{Person|Bwipo|role=top}}
+        |{{Person|Inspired|role=jgl}}
+        |{{Person|Quad|role=mid}}
+        |{{Person|Massu|role=bot}}
+        |{{Person|Busio|role=sup}}
+
+        |{{Person|GaKGoS|role=top|status=sub|played=false}}
+
+        |{{Person|Nukeduck|role=head coach|type=staff}}
+        |{{Person|Arrow|role=coach|type=staff}}
+        |{{Person|mithy|role=coach|type=staff}}
+        |{{Person|Sygh|flag=us|role=analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LTA/2025/Championship|placement=1}}
+}}
+
+|{{Opponent|Keyd Stars
+    |players={{Persons
+        |{{Person|Boal|role=top}}
+        |{{Person|Disamis|role=jgl}}
+        |{{Person|Mireu|role=mid}}
+        |{{Person|Morttheus|role=bot}}
+        |{{Person|Trymbi|role=sup}}
+
+        |{{Person|scamber|role=sup|status=sub|played=false}}
+
+        |{{Person|SeeEl|role=head coach|type=staff}}
+        |{{Person|bieLzera|role=assistant coach|type=staff}}
+        |{{Person|Benvi|role=assistant coach|type=staff}}
+        |{{Person|SMILEY|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LTA/2025/Championship|placement=2}}
+}}
+
+|{{Opponent|100 Thieves
+    |players={{Persons
+        |{{Person|Dhokla|role=top}}
+        |{{Person|River|link=River (Korean player)|role=jgl}}
+        |{{Person|Quid|role=mid}}
+        |{{Person|FBI|role=bot}}
+        |{{Person|Eyla|role=sup}}
+
+        |{{Person|Sniper|role=top|status=sub|played=false}}
+
+        |{{Person|Goldenglue|role=head coach|type=staff}}
+        |{{Person|Spookz|role=coach|type=staff}}
+        |{{Person|Kaimera|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LTA/2025/Championship|placement=3}}
+}}
+
+|{{Opponent|G2 Esports
+    |players={{Persons
+        |{{Person|BrokenBlade|role=top}}
+        |{{Person|SkewMond|role=jgl}}
+        |{{Person|Caps|role=mid}}
+        |{{Person|Hans Sama|role=bot}}
+        |{{Person|Labrov|role=sup}}
+
+        |{{Person|Dylan Falco|role=head coach|type=staff}}
+        |{{Person|Memento|role=assistant coach|type=staff}}
+        |{{Person|Ismind|role=performance coach|type=staff}}
+        |{{Person|Rodrigo|role=head analyst|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2025/Summer|placement=1}}
+}}
+
+|{{Opponent|Movistar KOI
+    |players={{Persons
+        |{{Person|Myrwn|role=top}}
+        |{{Person|Elyoya|role=jgl}}
+        |{{Person|Jojopyun|role=mid}}
+        |{{Person|Supa|role=bot}}
+        |{{Person|Alvaro|link=Alvaro (Álvaro Fernández)|role=sup}}
+
+        |{{Person|Melzhet|role=head coach|type=staff}}
+        |{{Person|Zeph|role=coach|type=staff}}
+        |{{Person|Hansen|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2025/Summer|placement=2}}
+}}
+
+|{{Opponent|Fnatic
+    |players={{Persons
+        |{{Person|Oscarinin|role=top}}
+        |{{Person|Razork|role=jgl}}
+        |{{Person|Poby|role=mid}}
+        |{{Person|Upset|role=bot}}
+        |{{Person|Mikyx|role=sup}}
+
+        |{{Person|GrabbZ|role=head coach|type=staff}}
+        |{{Person|Gaax|role=assistant coach|type=staff}}
+        |{{Person|Immanuelity|flag=de|role=performance coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LEC/2025/Summer|placement=3}}
+}}
+
+|{{Opponent|CTBC Flying Oyster
+    |players={{Persons
+        |{{Person|Driver|role=top}}
+        |{{Person|Rest|role=top}}
+        |{{Person|JunJia|role=jgl}}
+        |{{Person|HongQ|role=mid}}
+        |{{Person|Doggo|role=bot}}
+        |{{Person|Kaiwing|role=sup}}
+
+        |{{Person|Chawy|role=head coach|type=staff}}
+        |{{Person|Wulala|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCP/2025/Season_Finals|placement=1}}
+}}
+
+|{{Opponent|Secret Whales
+    |players={{Persons
+        |{{Person|Hiro02|role=top}}
+        |{{Person|Hizto|role=jgl}}
+        |{{Person|Dire|role=mid}}
+        |{{Person|Eddie|role=bot}}
+        |{{Person|Taki|link=Taki (Vietnamese player)|role=sup}}
+
+        |{{Person|Steller|role=top|status=sub|played=false}}
+        |{{Person|Pun|role=top|status=sub|played=true}}
+
+        |{{Person|Naul|role=head coach|type=staff}}
+        |{{Person|Ciel|link=Ciel (Vietnamese player)|role=coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCP/2025/Season_Finals|placement=2}}
+}}
+
+|{{Opponent|PSG Talon
+    |players={{Persons
+        |{{Person|Azhi|role=top}}
+        |{{Person|Karsa|role=jgl}}
+        |{{Person|Maple|role=mid}}
+        |{{Person|Betty|role=bot}}
+        |{{Person|Woody|role=sup}}
+
+        |{{Person|CorGi|role=head coach|trophies=1|type=staff}}
+        |{{Person|Hua|role=coach|type=staff}}
+        |{{Person|Maru|role=assistant coach|type=staff}}
+    }}
+    |qualification={{Qualification|method=qual|page=LCP/2025/Season_Finals|placement=3}}
+}}
+}}
+
+==Results==
+===Play-In===
+{{ShowSingleMatch|id=Wrd25PlyIn|matchid=R1M1}}
+
+===Swiss Stage===
+{{ShowStandings|page=World Championship/2025/Swiss Stage|index=0}}<br>
+''[[World Championship/2025/Swiss Stage|Click here for detailed results of Swiss Stage]]''
+
+===Knockout Stage===
+{{ShowBracket|id=Wrd25KnOut}}
+
+==Format==
+* '''Qualification'''
+** [[Mid-Season Invitational/2025|MSI]] champion qualifies into Worlds if they advance to their regional playoffs
+** The top three teams besides MSI champion from each region (15 total) participate in Swiss Stage
+** The 4th seed of MSI winning region (LCK) & runner-up region (LPL) start from Play-In
+
+* '''Play-In''' - ''October 14<sup>th</sup>
+** The 4th seed of the regions that obtained an additional slot from MSI compete in a single elimination match.
+** Winner qualifies into Swiss Stage.
+** The match is {{Abbr/Bo5}} using {{Abbr/Fearless Draft}}.
+
+* '''Swiss Stage''' - ''October 15<sup>th</sup> - 19<sup>th</sup>, 22<sup>nd</sup> - 25<sup>th</sup>''
+** Sixteen teams play in a 5 round Swiss format. 
+**{{Bgcolortext|up|Teams that reach 3 wins}} advance to Knockout Stage.
+**{{Bgcolortext|down|Teams that reach 3 losses}} are eliminated.
+** Elimination and advancement matches are {{Abbr/Bo3}} using {{Abbr/Fearless Draft}}
+** All other matches are {{Abbr/Bo1}}.
+** Side Selection for Game 1:
+**# Higher regional seed picks sides
+**# If both teams have the same regional seed, the team drawn first picks sides
+
+* '''Knockout Stage''' - ''October 28<sup>th</sup> - November 2<sup>nd</sup>, November 9<sup>th</sup>''
+** Eight teams play in a single elimination bracket.
+** All matches are {{Abbr/Bo5}} using {{Abbr/Fearless Draft}}.
+** Side Selection for Game 1:
+*** Quaterfinals:
+***# Team with better match record picks sides
+***# If both teams have the same match record, the team drawn first picks sides
+*** Semifinals & Finals:
+**** The right of side selection will be determined by coin flip
+
+* '''Patch Information'''
+** The tournament will be played on '''[[Patch 25.20]]'''.
+
+===Worlds 2025 Draw Show===
+*Swiss Stage Draw Show will be held after the completion of the Play-In and each round of play.
+** ''Click links below to watch the Swiss Stage Draw Show videos: 
+*** [https://youtu.be/VZnPBqbS-q0 Round 1] (Guest for the Draw: {{player|Ming|flag=cn}})
+*** [https://youtu.be/DWPuaIoAdd0 Round 2] (Guest for the Draw: {{player|Jiejie|flag=cn}})
+*** [https://youtu.be/Ca6TdUm50RM Round 3] (Guest for the Draw: {{player|Baolan|flag=cn}})
+*** [https://youtu.be/zVbKtqnRd4Q Round 4] (Guest for the Draw: {{player|Crisp|flag=cn}})
+*** [https://youtu.be/8TgA2j6O6lE Round 5] (Guest for the Draw: {{player|xiye|flag=cn}})
+** <span class="mw-customtoggle-Swiss-Draw" style="border-bottom:1px dotted;">''Click here for detailed information about Swiss Stage Draw show''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Swiss-Draw" style="margin-top:10px;">
+* Teams are split into 3 seed pools to ensure quality matchups.
+** 16 teams are split into 3 pools:
+*** '''Pool 1''' will consist of LCK1 (''GEN''), LPL1 (''BLG''), LCP1 (''CFO''), LEC1 (''G2''), and LTA1 (''FLY'').
+*** '''Pool 2''' will consist of LCK2 (''HLE''), LPL2 (''AL''), LCP2 (''TSW''), LEC2 (''KOI''), LTA2 (''VKS''). and LCK3 (''KT'').
+*** '''Pool 3''' will consist of LPL3 (''TES''), LCP3 (''PSG''), LEC3 (''FNC''), LTA3 (''100T''), and Play-In Stage winners (''T1'').
+* Pool 1 teams will face Pool 3 teams, while Pool 2 teams will face Pool 2 teams in the first round.
+* No team will play a team from their own region in the first round.
+* Following the first round of play, there will be another draw for the second round to pair teams with the same record against one another.
+* Each team will face an opponent only once throughout the Swiss Stage.
+</div>
+* Quarterfinal matchups will be decided by an on-stage draw following the final day of the Swiss Stage. 
+** ''Click [https://youtu.be/JaHfXXuBdqs here] to watch the Knockout Stage Draw Show video (Guest for the Draw: {{player|Zz1tai|flag=cn}})''
+** Each 3-0 team is placed on opposite sides of the bracket.
+** In this draw, teams that advanced with a 3-0 record will be matched against teams that advanced with a 3-2 record.
+** The remaining teams will then be matched against one another.
+
+==Broadcasts==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=@lolesports |tiktok1=@lolesports/live |2tiktok1=@leagueoflegends/live
+|lang2=cn |douyu2=288016 |huya2=660000 |bilibili2=6 |2bilibili2=10 |2huya2=18524915 |stream2=https://lpl.qq.com/es/live.shtml |kuaishou2=lol_saishi
+|lang3=kr |youtube3=@LCK |afreeca3=aflol |soop3=lckkr |chzzk3=9381e7d6816e6d915a44a13c0195b202
+|lang4=ptbr |twitch4=ltasul |youtube4=@CBLOL |tiktok4=@ltasul/live
+|lang5=esmx |twitch5=ltaespanol |youtube5=@LTAEspanol
+|lang6=jp |twitch6=leagueoflegendsjp |youtube6=lolesportsjp
+|lang7=tw |twitch7=lolesportstw |youtube7=@lolesportstw
+|lang8=th |twitch8=leagueoflegendsth |youtube8=@leagueoflegendstha |facebook8=Leagueoflegendsth
+|lang9=vn |youtube9=@lolesports_vn |stream9=https://play.onlive.vn/onlivelmht |tiktok9=@lolesports_vn/live
+|lang10=fr |twitch10=otplol_ |youtube10=@OTP_VODs |stream10=https://x.com/OTP_LoL/live
+|lang11=es |twitch11=lvpes |youtube11=lvpward
+|lang12=de |twitch12=tolkin |youtube12=@TolkinLoL
+|lang13=pl |twitch13=nervarien |youtube13=@Nervarien
+|lang14=it |twitch14=litofficial |youtube14=@lit_official_it
+|lang15=pt |twitch15=rtparenalol
+|lang16=hu |twitch16=esport2tv |youtube16=@Esport1gg |tiktok16=@esport1.hu/live
+|lang17=cz |twitch17=hitpointcz |youtube17=@hitpointcz
+|lang18=rs |youtube18=@fortunaesports
+|lang19=tr |twitch19=riotgamesturkish |youtube19=@Lolespor |2youtube19=@ESAEsportsTV
+|lang20=sa |twitch20=lolesports_ar |youtube20=@leagueoflegendsarabia
+}}
+
+===Broadcast Talent===
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcasts
+|name3=LATAM Broadcasts
+|name4=EMEA Broadcasts
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Desk Host & Interview |lang=en
+|b1=Jeesun |b1link=zeetwo
+|b2=Laure
+|b3=Sjokz
+}}
+{{BroadcasterCard
+|position=Translators |lang=en
+|b1=Wendy
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster |lang=en
+|b1=Atlus
+|b2=Aux
+|b3=Azael
+|b4=CaptainFlowers
+|b5=Chronicler
+|b6=Dagda
+|b7=Drakos
+|b8=Emily Rand
+|b9=Hysterics
+|b10=Kobe
+|b11=Medic
+|b12=Raz
+|b13=Vedius
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Caster |lang=kr
+|b1=Caster Jun
+|b2=SEONG K
+}}
+{{BroadcasterCard
+|position=Korean Commentator |lang=kr
+|b1=CloudTemplar
+|b2=Pony
+|b3=Ggoggo
+|b4=Prince
+}}
+{{BroadcasterCard
+|position=Korean Host |lang=kr
+|b1=Youn Soo-bin
+|b2=Bae Hye-ji
+|b3=Lee Eun-bin
+}}
+{{BroadcasterCard
+|position=Korean Analyst |lang=kr
+|b1=Ggoggo
+|b2=Helios |b2link=Helios (Korean player)
+|b3=Pony
+|b4=Prince
+}}
+{{BroadcasterCard
+|position=Korean Guest Analyst |lang=kr
+|b1=UmTi
+|b2=Kuro
+|b3=Berserker |b3link=Berserker (Korean player)
+|b4=Nuclear
+}}
+{{BroadcasterCard
+|position=Korean Interviewer |lang=kr
+|b1=Jeesun |b1link=zeetwo
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Chinese Host |lang=cn
+|b1=Candice
+|b2=YangYang
+|b3=Iris
+|b4=Liu Hang
+}}
+{{BroadcasterCard
+|position=Chinese Translator |lang=cn
+|b1=Fannie |b1name=Fang Yuan |b1flag=cn
+}}
+{{BroadcasterCard
+|position=Chinese Caster |lang=cn
+|b1=Zeyuan
+|b2=Mile
+|b3=Rita
+|b4=Duoduo
+|b5=YuFan
+|b6=Remember
+|b7=pyl
+|b8=CF2
+|b9=Wang Song
+|b10=ShuoShuo
+|b11=GuGu
+|b12=HuaiNan
+|b13=MacT
+|b14=Cat|b14link=Cat (Chinese player)
+|b15=san
+|b16=957
+|b17=Tongxi
+|b18=Maomao
+}}
+{{BroadcasterCard
+|position=Chinese Analyst |lang=cn
+|b1=LANGX
+|b2=Baolan
+|b3=Wang Heye
+|b4=Xiye
+|b5=Wx
+|b6=Zhang Boheng|b6flag=cn|b6name=Zhang Boheng
+|b7=Luo Yunxi
+|b8=Uzi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Thai Commentator
+|b1=Adam|b1link=Adam (Thai caster)
+|b2=HeaGow
+|b3=Lastcrosser|b3name=Hassan Zafar
+|b4=Mayuko
+|b5=Moonfalling
+|b6=NaIZer
+|b7=Nerfgy
+|b8=Nohimitsu
+|b9=Vision|b9link=Vision (Thai caster)
+|b10=Zylfelia
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=th
+|position=Taiwanese Commentator
+|b1=Section
+|b2=Zod
+|b3=JR
+|b4=Art|b4link=Art_(Taiwanese_caster)
+|b5=Jackie
+|b6=Chenzui
+|b7=Jay|b7link=Jay_(Taiwanese_caster)
+|b8=Yuwu
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=hk
+|position=Cantonese Commentator
+|b1=Moon|b1flag=hk|b1name=Lau Pui Yuet
+|b2=Joey|b2flag=hk|b2link=Joey_(Cantonese Caster)|b2name=Thye Cho Yee
+|b3=Randal|b3flag=hk|b3link=Randal_(Cantonese Caster)|b3name=Tsang Gin Mong
+|b4=Sophie|b4flag=hk|b4name=Yip Sin Man
+|b5=Kris|b5flag=hk|b5link=Kris_(Cantonese Caster)|b5name=Lam Chun Ki
+|b6=Amber|b6flag=hk|b6name=Chan Yeuk Sze
+|b7=Arthur Sy|b7flag=hk|b7name=Sy Cheuk Yat
+|b8=Kate|b8flag=hk|b8name=Ng Man Yi
+|b9=Michelle|b9flag=hk|b9name=Tsang Man Sum
+|b10=Verena|b10flag=hk|b10name=Wong Ying Yuet
+}}
+{{BroadcasterCard
+|position=Cantonese Guest Commentator |lang=hk
+|b1=LoSing
+|b2=Solokill
+|b3=Skywalk
+|b4=YSKM
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Serious Commentator
+|b1=Ngọc Thiên
+|b2=Hải Dương
+|b3=Minh Nghi
+|b4=Huy Lova
+|b5=Duy Đức
+|b6=Hữu Trung
+|b7=Khải Nguyễn
+|b8=Tùng Lâm
+|b9=Đức Lợi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=vn
+|position=Vietnamese Emotional Commentator
+|b1=Văn Tùng
+|b2=Levi
+|b3=Mạnh An
+|b4=Đức Mạnh
+|b5=Mạnh Linh
+|b6=Hoàng Luân
+|b7=Husky Man
+|b8=Trịnh Long
+|b9=Zhong|b9flag=vn|b9name=Nguyễn Thành Trung
+|b10=Nóc|b10flag=vn|b10name=Nguyễn Đức Thịnh
+|b11=Virgo
+|b12=Drize
+|b13=Phương Nghiêm|b13flag=vn|b13name=Khổng Tường Minh
+|b14=Hoàng Long|b14flag=vn|b14name=Nguyễn Xuân Hoàng Long
+|b15=Hữu Huân|b15flag=vn|b15name=Nguyễn Văn Huân
+|b16=Duy Anh|b16flag=vn|b16name=Phạm Duy Anh
+|b17=Xuân Sơn|b17flag=vn|b17name=Bùi Xuân Sơn
+|b18=Lâm Vỹ|b18flag=vn|b18name=Nguyễn Lâm Vỹ
+|b19=Ngọc Bách|b19flag=vn|b19name=Hoàng Ngọc Bách
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=jp
+|position=Japanesse Commentator
+|b1=eyes
+|b2=Jaeger|b2flag=jp|b2name=Kota Horie|b2link=Jaeger_(Japanese_Caster)
+|b3=katsudion
+|b4=Nemoh
+|b5=Recruit
+|b6=Revol
+|b7=syouryu|b7flag=jp|b7name=Kouya Ozawa|b7link=syouryu_(Japanese_Caster)
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=LATAM Host
+|b1=Lilynn
+|b2=Kalipso
+}}
+{{BroadcasterCard
+|position=LATAM Commentator & Analysts
+|b1=Abdiel
+|b2=Yeti
+|b3=Fahren
+|b4=JJ EX
+|b5=AlanQ
+|b6=Corsario
+|b7=Rafamaik
+|b8=Nachitus|b8flag=ar|b8name=Ignacio Martín Santamarina
+|b9=Elmo|b9link=Elmo (Chilean caster)
+|b10=SOSO
+|b11=Lau Agnolin|b11flag=br
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Brazilian Host
+|b1=Lahgolas
+|b2=Tabs
+}}
+{{BroadcasterCard
+|position=Brazilian Analyst
+|b1=gstv
+|b2=Loop
+}}
+{{BroadcasterCard
+|position=Brazilian Commentator
+|b1=Gruntar
+|b2=Colosimus|b2name=Brunno Colosimo
+|b3=Schaeppi
+|b4=Takeshi
+}}
+{{box|end|padding=2em}}
+{{tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=fr
+|position=French Commentator
+|b1=Chips
+|b2=Noi
+|b3=Tweekz
+|b4=Zerotick
+|b5=Glopo
+|b6=Chreak
+|b7=Finghin
+|b8=Marex
+|b9=Blackbigo
+|b10=Rhobalas
+|b11=Splinter
+|b12=Yellowstar
+}}
+{{BroadcasterCard|lang=fr
+|position=French Guest Analyst
+|b1=Reha
+|b2=Kamiloo
+|b3=Cabochard
+|b4=3XA
+|b5=Saken
+|b6=Trayton
+}}
+{{BroadcasterCard|lang=fr
+|position=French Interviewer
+|b1=Laure
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=es
+|position=Spanish Commentator
+|b1=Fernando Cardenete
+|b2=Champi
+|b3=Noa
+|b4=Bebé
+|b5=Wolk
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=de
+|position=German Commentator
+|b1=Tolkin
+|b2=Maxim|b2link=Maxim_(German Caster)|b2flag=de|b2name=Maxim Markow
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pl
+|position=Polish Commentator
+|b1=Jaskier
+|b2=Bialito
+|b3=Nervarien
+|b4=Magvayer
+|b5=CzarnyPiotruś
+|b6=Majutek
+|b7=Leo|b7link=Leo (Polish caster)|b7flag=pl|b7name=Łukasz Mirek
+|b8=Myha
+|b9=Devilpiotr
+|b10=Nahovsky
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=it
+|position=Italian Commentator
+|b1=Wolcat
+|b2=KenRhen
+|b3=Moonboy
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=pt
+|position=Portuguese Commentator
+|b1=DVKing|b1link=DVKing (Portuguese_Caster)|b1flag=pt|b1name=Marcos Cruz
+|b2=Serezinho
+|b3=AC
+|b4=Hackali|b4name=Kevin Sousa
+|b5=Guerreiro
+|b6=Sanero
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=hu
+|position=Hungarian Commentator
+|b1=Livius|b1name=Máté Koncz
+|b2=Mentsvar
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=cs
+|position=Czech and Slovak Commentator
+|b1=Murde
+|b2=Goksi
+|b3=Karas
+|b4=Falazury
+|b5=Hany
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=rs
+|position=Serbian Commentator
+|b1=Ljuba
+|b2=Ralla
+|b3=Mare
+|b4=Krtoni|b4flag=rs
+|b5=Sa1na
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=tr
+|position=Turkish Commentator
+|b1=Hoca
+|b2=Halpern
+|b3=Jhonnie|b3name=Caner Güngörür
+|b4=Euphony
+|b5=Noeldayi
+|b6=Hetze
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=sa
+|position=Arabic Commentator
+|b1=Adham
+|b2=Paralyze
+|b3=Kholio
+|b4=Maro
+|b5=Raiizow
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Champion Statistics===
+{{#lst:World Championship/2025/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Worlds Appearances===
+{{Player tournament appearances|series=World Championships|tiers=1|limit=10|playerspage=World_Championship/2025|edate=2025-12-31}}
+:''See [[World_Championships/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{#section:World_Championship/2025/Additional_Content|additional}}
+
+{{Event media}}
+
+===Trivia===
+
+
+==References==
+{{Reflist|2}}
+==See Also==
+{{2025 Season International Cycle Navbox}}
+{{World Championship}}

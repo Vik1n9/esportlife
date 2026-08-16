@@ -1,0 +1,799 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2020&redirects=1
+<!-- 抓取: 2026-08-16T18:30:45.891Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2020 World Championship}}
+{{World Championship}}<br>
+{{Worlds2020Tabs}}
+{{Infobox league
+|name=2020 World Championship
+|shortname=Worlds 2020
+|image=Worlds_2020.png
+|caption=TAKE OVER
+|series=World Championships
+|icon=League of Legends Worlds.png
+|icondarkmode=League of Legends Worlds darkmode.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.mercedes-benz.com Mercedes-Benz]
+|sponsor2=[https://www.oppo.com/ OPPO]
+|sponsor3=[https://www.mastercard.com Mastercard]
+|sponsor4=[https://www.cisco.com Cisco]
+|sponsor5=[https://www.bose.com Bose]
+|sponsor6=[https://www.spotify.com Spotify] 
+|sponsor7=[http://www.alienware.com/ Alienware] 
+|sponsor8=[http://www.statefarm.com/ State Farm] 
+|sponsor9=[https://secretlab.eu/ Secretlab] 
+|sponsor10=[https://www.axe.com/ AXE] 
+|sponsor11=[https://www.redbull.com/ Red Bull]
+|server=China
+|type=offline
+|country=China
+|city=Shanghai
+|venue=Shanghai Media Tech Studio
+|venue2name=Pudong Football Stadium
+|venue2=wikipedia:Pudong Football Stadium
+|format=Round-Robin<br>Single Elimination
+|patch=10.19
+|prizepoolusd=2,225,000
+|sdate=2020-09-25
+|edate=2020-10-31
+|liquipediatier=1
+|highlighted=true
+|website=https://lolesports.com/
+|facebook=lolesports
+|twitter=lolesports
+|instagram=lolesports
+|twitch=riotgames
+|youtube=LoLChampSeries
+|youtube2=leagueoflegends
+|rulebook={{fullurl:File:2020 World Championship Rules.pdf}}
+|team_number=22
+|previous=World_Championship/2019{{!}}2019
+|next=World_Championship/2021{{!}}2021
+}}
+
+The '''2020 World Championship''' is the crowning event of League of Legends esports for the year. The tournament welcomes 22 teams from all regions of the game in a months-long race for the Summoner's Cup.
+
+This year's world championship was held exclusively in Shanghai, China to reduce travel throughout the tournament and control the show environment under the [[wikipedia:COVID-19_pandemic|coronavirus pandemic]]<ref name="when&where">{{cite web|url=https://lolesports.com/article/2020-world-championship-starts-sept.-25/blt2237ab89da64fb68|title=2020 World Championship Starts Sept. 25|author=LoLEsports Staff|publisher=Riot Games|language={{Flag|usuk}}English}}</ref>. It was the first time Worlds returned to the country since 2017. <!--The initial prize pool of the tournament was $2.225M, which grew even larger through in-game item sales.-->
+
+==Format==
+* '''Qualification'''
+** 24 teams from professional leagues qualified for the event.
+{{note||'''Note:''' The format for seed determination changed in North America and Europe this year; their teams qualified through the [[LCS/2020/Summer|LCS]] and [[LEC/2020/Summer|LEC]] Summer Playoffs alone. Also, as part of the April 23 announcement of this year's [[Mid-Season Invitational/2020|Mid-Season Invitational]] being cancelled due to the 2019–20 Coronavirus Pandemic <ref name="MSi canceled">{{cite web|url=https://watch.lolesports.com/article/update-on-msi-from-john-needham/blt26cfaff9e2c05782|title=Update on MSI from John Needham|date=2020-04-23|author=John Needham|publisher=Riot Games|language={{Flag|usuk}}English}}</ref>, Riot announced 2020 Worlds seeding changes including the following: China and Europe got one extra seed for four each, the seeds of PCS was reduced to two after their merger between LMS and Southeast Asia, which had three and one seed respectively, while Vietnam got a second seed.<ref name="Seed Allocation">{{cite web|url=https://lolesports.com/article/2020-world-championship-regional-seed-allocation/blt39a37713a2014366|title=2020 World Championship Regional Seed Allocation|author=LoLEsports Staff|date=2020-04-23|publisher=Riot Games|language={{Flag|usuk}}English}}</ref>}}
+
+{{note||'''Note²:''' Due to national travel restrictions related to COVID-19, our two qualifying teams from '''Vietnam''' will unfortunately be unable to travel to Shanghai to compete this season.<ref name="Worlds 2020 Update">{{cite web|url=https://lolesports.com/article/worlds-2020-update-format-changes/blt844a57584da327bf|title=Worlds 2020 Update: Format Changes|date=2020-09-01|author=Tom Martell, Director of Operations|publisher=Riot Games|language={{Flag|usuk}}English}}</ref> Two teams from VCS: {{team|Team Flash}} and {{team|GAM Esports}} who are unable to attend will both gain 2.1% of the prize pool ($ 46,725 {{abbr/USD}}).<ref name="Primer">{{cite web|url=https://lolesports.com/article/worlds-2020-primer/blt065c89b2c6d7b75d|title=Worlds 2020 Primer|author=LoLEsports Staff|date=2020-09-14|publisher=Riot Games|language={{Flag|usuk}}English}}</ref>}}
+{{note||'''Note<sup>3</sup>:'''[[File:Gambit 2020 std.png|Gambit Esports|36px]][[Gambit Esports]] will also gain 0.6% of the prize pool ($ 13,350 {{abbr/USD}}), as they were invited to join as a standby team for [[File:UOLlogo std.png|Unicorns of Love|36px]][[Unicorns of Love]] in case they were unable to attend due to visa issues.}}<ref name="Gambit">{{cite web|url=http://t.co/jNqgNfhSLH?amp=1|title=How the League of Legends World Championship went on in a pandemic|author=Emily Rand|date=2020-09-22|publisher=ESPN|language={{Flag|usuk}}English}}</ref>
+
+* '''Play-In Round 1''' - ''September 25th - 28th''
+** Ten teams are divided into two groups where they play a Single Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+** <span class="bg-seedup">Top teams</span> in each group advance to Group Stage.
+** <span class="bg-up">2nd</span>, <span class="bg-stayup">3rd and 4th teams</span> in each group advance to Play-In: Round 2.
+** <span class="bg-down">Bottom team</span> in each group is eliminated.
+** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">''Click here for information about tiebreaker rules''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;">
+* If teams are tied and competing for 3rd and 4th place, there will not be any additional matches, the placement will be determined by their head-to-head result.
+* In other circumstances: 
+** If there are '''two''' teams have an equal amount of points, an additional tiebreaker match will be played
+*** Team that won the head-to-head result will have the side choice previlege.
+** If there are '''three''' teams have an equal amount of points, two circumstances will be considered:
+*** If all three teams have the same results against the other two teams, two teams that won with longer time length will compete first. The loser will be the bottom team in this tie, the winner will compete with the remained team. 
+**** Team that won with shorter time length will have the side choice previlege.
+**** If the remained two teams are competing for 3rd and 4th place, the placement will be determined by their head-to-head result.
+*** If three team has different results against the other two teams, the tie will be broken by the results (2-0, 1-1 and 0-2).
+** If there are '''five''' teams have an equal amount of points, 
+*** All the teams will be ranked by the total time length of winning games, the two teams won with the longest total time length will compete first, loser will be placed fifth, winner will play a single elimination bracket with the other three teams.
+*** In the single elimination bracket, the team that won with shortest time length will face the team won with the longest time length, the other two will compete, two winners will compete for 1st place.
+**** 3rd and 4th place match will not be played.
+* All tiebreaker matches are {{abbr/Bo1}}
+</div><!--
+-->
+* '''Play-In Round 2''' - ''September 29th - 30th''
+**Six teams from Play-In: Round 1.
+**The 3rd and 4th placed teams of the same group of Round 1 face each other, winners compete against the 2nd placed team of the other group
+**All matches are played in a {{Abbr/Bo5}}.
+**Two winners will advance to Group Stage.
+**Four losers will be eliminated
+* '''Group Stage''' - ''October 3rd - 6th and 8th - 11th''
+** Four teams from the Play-In Stage join twelve teams with direct entry from China, South Korea, Europe, North America and Southeast Asia.
+** All sixteen teams are divided into four groups where they play a Double Round Robin format.
+** All matches are played in a {{Abbr/Bo1}}.
+**<span class="bg-up">Top two teams</span> in each group advance to Bracket Stage.
+**<span class="bg-down">Bottom two teams</span> in each group are eliminated.
+** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">''Click here for information about tiebreaker rules''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;">
+* If teams are tied and competing for 3rd and 4th place, there will not be any additional matches, the placement will be determined by their head-to-head result. If teams an identical head-to-head record, they will share the 3rd place.
+* No tiebreaker game will be played if the tiebreaker would not decide either the first or second place position in the group.
+* In other circumstances: 
+** If there are '''two''' teams have an equal amount of points, an additional tiebreaker match will be played.
+*** Side selection for a head-to-head tiebreaker matchup will be awarded to the team with the lower total game victory time.
+* All tiebreaker matches are {{abbr/Bo1}}
+</div>
+
+* '''Bracket Stage''' - ''October 15th - 18th, October 24th - 25th and October 31st in Pudong Football Stadium, {{Flag|cn}} Shanghai''
+** Eight teams play in a single elimination bracket where 1st placed team of each group faces 2nd placed team from another group.
+** Side Selection Privilege
+*** Teams with Side Selection Privilege can choose the side in game 1, after that, the team lost can choose the side in the next game.
+*** In Quarterfinals, 1st placed team from each group will have the Side Choice Previlege.
+*** In the following matches, the Side Choice Previlege will be determined by coin flip.
+** All matches are {{Abbr/Bo5}}.
+* '''Patch Information'''
+** {{ChampionIcon|Yone|20px}} [[Yone]] and {{ChampionIcon|Samira|20px}} [[Samira]] were disabled for this tournament due to the ''"New Champions and VGUs must be enabled for playoffs in all four of the top regions in order to be playable at the next international tournament."'' policy.<ref name="Yone banned">{{cite web|url=https://na.leagueoflegends.com/en-us/news/dev/dev-balancing-for-pro-play/|title=/dev: Balancing for Pro Play|author=Summoner's Rift Team|publisher=Riot Games|date=2020-08-19|language={{Flag|usuk}}English}}</ref>
+
+===Worlds Draw Show===
+The Worlds Draw Show was held on {{countdown|date=September 15, 2020 - 20:00 {{Abbr/CST}}|rawdatetime=true|finished=true}} to place teams into groups for the Play-In Stage and the Group Stage of the 2020 World Championship.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Cooldown
+|name3=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Desk Host
+|b1=Machine |b1name=Alex Richardson |b1flag=gb |b1link=counterstrike:Machine
+|b2=Sjokz
+}}
+{{BroadcasterCard|lang=en
+|position=Stage Host
+|b1=Candice
+}}
+{{BroadcasterCard|lang=en
+|position=Interviewer
+|b1=Bulii
+}}
+{{BroadcasterCard|lang=en
+|position=Analyst
+|b1=Amazing |b1link=Amazing (German player)
+|b2=Drakos
+|b3=YamatoCannon
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Caster
+|b1=Atlus
+|b2=CaptainFlowers
+|b3=Drakos
+|b4=Medic
+|b5=Pastrytime
+|b6=Phreak
+|b7=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Caster and Analyst
+|b1=Azael
+|b2=Caedrel
+|b3=Crumbz
+|b4=Ender
+|b5=Froskurinn
+|b6=Kobe
+|b7=LS
+|b8=Raz
+|b9=Vedius
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Translator
+|b1=zeetwo
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Worlds Cooldown Host and Analyst
+|b1=Dash
+|b2=LeTigress |b2name=Gabriella Devia-Allen |b2flag=us
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Worlds Cooldown Analyst
+|b1=Allorim
+|b2=MarkZ
+|b3=Spawn
+}}
+{{box|end}}
+{{tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=SEONG K
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Wadid
+|b3=LirA
+|b4=Kim Dong-joon
+|b5=KangQui|b5flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Guest Commentator
+|b1=kkOma
+|b2=Bengi
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Wadid |b1flag=kr
+|b2=LirA |b2flag=kr
+|b3=PawN |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Youn Soo-bin
+|b2=Jennlee
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+The initial prize pool of the tournament is $2,225,000 {{abbr/USD}}.<br>
+<!--12.5% of all revenue from Championship LeBlanc & Championship Ward skins is added to the total prize pool and another 12.5% will be equally distributed among the teams.
+The total prize pool was $xxxx {{abbr/USD}} ($xxxx {{abbr/USD}} added)-->
+{{TeamPrizePool|prizesummary=no|cutafter=8|percentage1=1
+|tournament1=World Championship/2020/Play-In#Round 1|tournament2=World Championship/2020/Play-In#Round 2
+|tournament3=World Championship/2020/Group Stage|tournament4=World Championship/2020/Bracket Stage
+|{{Slot|percentage1=25%}}
+|{{Slot|percentage1=17.5%}}
+|{{Slot|percentage1=9% |place=3-4}}
+|{{Slot|percentage1=4.5% |place=5-8}}
+|{{Slot|percentage1=2.5% |place=9-12}}
+|{{Slot|percentage1=1.5% |place=13-16}}
+|{{Slot|percentage1=1% |place=17-18}}
+|{{Slot|percentage1=0.75% |place=19-20}}
+|{{Slot|percentage1=0.6% |place=21-22}}
+|{{Slot|percentage1=2.1% |dnp=true
+|{{Opponent|fl}}
+|{{Opponent|gam}}
+}}
+|{{Slot|percentage1=0.6% |dnp=true
+|{{Opponent|gmb}}
+}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP |{{Opponent|Canyon |flag1=kr |team=dwg}}}}
+}}<br />
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Play-In MVP
+|tournament=World_Championship/2020/Play-In
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=World_Championship/2020/Group_Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true|cutafter=5|margin=false
+|title=Bracket Stage MVP
+|tournament=World_Championship/2020/Bracket Stage
+}}
+{{box|end}}
+</div>
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Top Esports
+|p1=369
+|p2=Karsa
+|p3=knight
+|p4=JackeyLove |p4wins=1
+|p5=yuyanjia
+
+|t2p1=QiuQiu |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Crescent |t3pos1=Head Coach
+|qualifier=[[LPL/2020/Summer|LPL Summer]]
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Zoom
+|p2=Kanavi
+|p3=Yagao
+|p4=LokeN
+|p5=LvMao
+
+|t2p1=Peace |t2p1flag=cn |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Homme |t3pos1=Head Coach
+|qualifier=[[LPL/2020/Championship Points|LPL Championship Points]]
+}}
+{{TeamCard
+|team=Suning
+|p1=Bin
+|p2=SofM
+|p3=Angel |p3link=Angel_(Chinese_player)
+|p4=huanfeng
+|p5=SwordArt
+
+|t2p1=View |t2pos1=jg |t2p1dnp=true
+|t2p2=owo |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Chashao |t3pos1=Head Coach
+|t3p2=Dian |t3p2flag=cn |t3pos2=Coach
+|t3p3=Fury |t3p3link=Fury (Korean player) |t3pos3=Coach
+|t3p4=Helper |t3p4flag=kr |t3pos4=Coach|t3p4link=Helper (Korean player)
+|t3p5=Spark|t3p5flag=kr|t3pos5=Supervisor
+|t3p6=ZYB|t3p6flag=cn|t3pos6=Analyst
+|qualifier=[[LPL/2020/Regional Finals|LPL Regional Finals]]
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Perkz
+|p5=Mikyx
+
+|t2p1=P1noy |t2pos1=ad |t2p1dnp=true
+
+|t3p1=GrabbZ |t3pos1=Head Coach
+|t3p2=Duffman|t3pos2=analyst
+|qualifier=[[LEC/2020/Summer|LEC Summer]]
+|placement=2
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019}} '''(2019)'''
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo
+|p2=Selfmade
+|p3=Nemesis
+|p4=Rekkles
+|p5=Hylissang
+
+|t2p1=MagiFelix |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Mithy |t3pos1=Head Coach
+|qualifier=[[LEC/2020/Summer|LEC Summer]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=Rogue
+|p1=Finn
+|p2=Inspired
+|p3=Larssen
+|p4=Hans sama
+|p5=Vander
+
+|t2p1=Blueknight |t2p1flag=de |t2pos1=mid |t2p1dnp=true
+
+|t3p1=fredy122 |t3pos1=Head Coach
+|qualifier=[[LEC/2020/Summer|LEC Summer]]
+}}
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Nuguri
+|p2=Canyon
+|p3=ShowMaker
+|p4=Ghost |p4link=Ghost (Korean player)
+|p5=BeryL
+
+|t2p1=Nuclear |t2pos1=ad |t2p1dnp=true
+|t2p2=Hoit |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Zefa |t3pos1=Head Coach
+|t3p2=Daeny |t3pos2=Coach
+|qualifier=[[LCK/2020/Summer|LCK Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019}} '''(2019)'''
+}}
+{{TeamCard
+|team=DRX
+|p1=Doran |p1link=Doran_(Choi_Hyeon-joon)
+|p2=Pyosik
+|p3=Chovy
+|p4=Deft
+|p5=Keria
+
+|t2p1=Quad |t2pos1=mid |t2p1dnp=true
+
+|t3p1=cvMax |t3pos1=Head Coach
+|t3p2=Museong |t3pos2=Coach
+|qualifier=[[LCK/2020/Championship Points|LCK Championship Points]]
+}}
+{{TeamCard
+|team=Gen.G Esports
+|p1=Rascal
+|p2=Clid
+|p3=Bdd
+|p4=Ruler |p4wins=1
+|p5=Life
+
+|t2p1=Kellin |t2pos1=sup |t2p1dnp=true
+
+|t3p1=oDin |t3p1flag=kr |t3pos1=Head Coach |t3p1winsc=1
+|t3p2=Tom |t3pos2=Coach
+|qualifier=[[LCK/2020/Regional Finals|LCK Regional Finals]]
+|placement=13-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+{{TeamCard
+|team=TSM
+|p1=Broken Blade
+|p2=Spica
+|p3=Bjergsen
+|p4=Doublelift
+|p5=Biofrost
+
+|t2p1=Treatz |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Parth |t3p1flag=us |t3pos1=Head Coach
+|t3p2=Haitham |t3p2flag=iq |t3pos2=coach
+|t3p3=Lustboy |t3pos3=coach
+|t3p4=Peter Zhang |t3pos4=coach
+|qualifier=[[LCS/2020/Summer|LCS Summer]]
+|placement=3
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Solo
+|p2=Santorin
+|p3=PowerOfEvil
+|p4=WildTurtle
+|p5=IgNar
+
+|t2p1=MasH |t2pos1=ad |t2p1dnp=true
+
+|t3p1=Curry |t3p1flag=us |t3pos1=Head Coach
+|t3p2=Loyota|t3p2flag=us|t3pos2=analyst
+|qualifier=[[LCS/2020/Summer|LCS Summer]]
+}}
+{{TeamCard
+|team=Machi Esports
+|p1=PK
+|p2=Gemini
+|p3=Mission
+|p4=Bruce
+|p5=Koala |p5link=Koala (Taiwanese player)
+
+|t2p1=Atlen |t2pos1=ad |t2p1dnp=true
+
+|t3p1=Mountain |t3pos1=Head Coach
+|qualifier=[[PCS/2020/Summer|PCS Summer]]
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+<!--  As long as there's more than 6 players eligible for a team and it's not confirmed (by Riot or the team themselves) which members the team is bringing, they should not be listed on the page. -->
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=INTZ
+|p1=Tay
+|p2=Shini
+|p3=Envy
+|p4=micaO
+|p5=RedBert
+
+|t2p1=Mills |t2pos1=ad |t2p1dnp=true
+
+|t3p1=Maestro |t3p1link=Maestro (Brazilian coach) |t3pos1=Head Coach
+|qualifier=[[CBLOL/2020/Winter|CBLOL Winter]]
+|placement=13-16
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2016}} '''(2016)'''
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Langx
+|p2=Peanut
+|p3=xiye
+|p4=Kramer
+|p5=Mark |p5link=Mark (Chinese player)
+
+|t2p1=Garvey |t2pos1=top |t2p1dnp=true
+|t2p2=Killua |t2pos2=sup |t2p2dnp=true
+
+|t3p1=Maizijian |t3p1flag=cn |t3pos1=Head Coach
+|t3p2=Eimy |t3pos2=Assistant Coach
+|qualifier=[[LPL/2020/Regional Finals|LPL Regional Finals]]
+|placement=9-11
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2015}} '''(2015)'''
+}}
+{{TeamCard
+|team=Legacy Esports
+|p1=Topoon
+|p2=Babip
+|p3=Tally
+|p4=Raes
+|p5=Isles
+
+|t2p1=Halo |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Denian |t3pos1=Head Coach
+|qualifier=[[OPL/2020/Split 2|OPL Split 2]]
+}}
+{{TeamCard
+|team=MAD Lions
+|p1=Orome
+|p2=Shad0w |p2link=Shad0w (Italian player)
+|p3=Humanoid
+|p4=Carzzy
+|p5=Kaiser
+
+|t2p1=Kaas |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Mac |t3pos1=Head Coach
+|t3p2=Kaas |t3pos2=Assistant Coach
+|qualifier=[[LEC/2020/Summer|LEC Summer]]
+}}
+{{TeamCard
+|team=PSG Talon
+|notes=1
+|p1=Hanabi
+|p2=River|p2link=River (Korean player)
+|p3=Tank
+|p4=Unified
+|p5=Kaiwing
+
+|t2p1=Kongyue |t2pos1=jg
+|t2p2=Uniboy |t2pos2=mid
+|t2p3=Dee |t2p3flag=tw |t2pos3=ad
+
+|t3p1=Bigfafa |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Saroo |t3p2flag=kr |t3pos2=Head Coach
+|t3p3=WenYi|t3p3flag=tw|t3pos3=Coach
+|qualifier=[[PCS/2020/Summer|PCS Summer]]
+}}
+{{TeamCard
+|team=Rainbow7
+|p1=Acce
+|p2=Josedeodo
+|p3=Aloned
+|p4=Leza
+|p5=Shadow |p5link=Shadow (Argentinian player)
+
+|t2p1=Khynm |t2pos1=jg |t2p1dnp=true
+
+|t3p1=Skin |t3p1flag=mx |t3pos1=Head Coach
+|t3p2=Fallen |t3p2flag=mx |t3p2link=Fallen (Mexican player) |t3pos2=Coach
+|qualifier=[[LLA/2020/Closing|LLA Closing]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2017}} '''(2017)'''
+}}
+{{TeamCard
+|team=SuperMassive eSports
+|p1=Armut
+|p2=KaKAO
+|p3=Bolulu
+|p4=Zeitnot
+|p5=SnowFlower
+
+|t2p1=Stomaged |t2pos1=jg |t2p1dnp=true
+
+|t3p1=Pades |t3pos1=Head Coach
+|t3p2=GBM |t3pos2=Coach
+|qualifier=[[TCL/2020/Summer|TCL Summer]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2018}} '''(2018)'''
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact |p1wins=1
+|p2=Broxah
+|p3=Jensen
+|p4=Tactical
+|p5=CoreJJ |p5wins=1
+
+|t2p1=Jenkins |t2pos1=top |t2p1dnp=true
+
+|t3p1=Jatt |t3pos1=Head Coach
+|t3p2=Cain |t3pos2=Coach
+|qualifier=[[LCS/2020/Summer|LCS Summer]]
+|placement=9-12
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019}} '''(2019)'''
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|p1=BOSS |p1link=BOSS (Russian player)
+|p2=AHaHaCiK
+|p3=Nomanz
+|p4=Gadget
+|p5=SaNTaS
+
+|t2p1=Sheepy |t2pos1=Head Coach
+|t2p2=Invi |t2p2flag=ru |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[LCL/2020/Summer|LCL Summer]]
+|placement=17-20
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2019}} '''(2019)'''
+}}
+{{TeamCard
+|team=V3 Esports
+|p1=Paz
+|p2=Bugi
+|p3=Ace |p3link=Ace (Japanese player)
+|p4=Archer
+|p5=Raina
+
+|t2p1=Ricky |t2p1flag=jp |t2pos1=top |t2p1dnp=true
+
+|t3p1=Son |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LJL/2020/Summer|LJL Summer]]
+}}
+{{TeamCard columns end}}
+{|class="wikitable collapsible collapsed"
+!Former Participants
+|-
+|
+{{TeamCard columns start|cols=4}}
+{{TeamCard|nostorage=true
+|team=Team Flash
+|notes=2
+|p1=Stark |p1link=Stark (Vietnamese player)
+|p2=EGO
+|p3=Naul
+|p4=Slayder
+|p5=Palette
+|qualifier=[[VCS/2020/Summer|VCS Summer]]
+}}
+{{TeamCard|nostorage=true
+|team=GAM Esports
+|notes=2
+|p1=Kiaya
+|p2=Levi
+|p3=Dia1
+|p4=Easylove
+|p5=Slay
+|qualifier=[[VCS/2020/Summer|VCS Summer]]
+}}
+{{TeamCard columns end}}
+|}
+{{noteBig
+|n1=Due to visa and flight issues, {{player|Kongyue|flag=tw}} and {{player|Uniboy|flag=tw}} were loaned from [[ahq e-Sports Club]] for Play-In Stage and {{player|Dee|flag=tw}} was loaned from [[Machi Esports]] for Day 1 & 2 of Play-In Stage.<ref name="psg 20200916">{{cite web|url=https://www.facebook.com/409025786106693/posts/1282500582092538/?extid=okpIo5W4ziBzKTvJ&d=n|title=As Worlds 2020 draws near|author=Talon Esports|publisher=Facebook|date=2020-09-16|language={{Flag|tw}} Traditional Chinese and {{Flag|usuk}} English}}</ref>
+|n2=Due to national travel restrictions related to COVID-19, our two qualifying teams from '''Vietnam''' will unfortunately be unable to travel to Shanghai to compete this season.<ref name="Worlds 2020 Update">{{cite web|url=https://lolesports.com/article/worlds-2020-update-format-changes/blt844a57584da327bf|title=Worlds 2020 Update: Format Changes|date=2020-09-01|author=Tom Martell, Director of Operations|publisher=Riot Games|language={{Flag|usuk}}English}}</ref> Two teams from VCS: {{TeamIcon|Team Flash|2020-09-01}} [[Team Flash]] and {{TeamIcon|GAM Esports|2020-09-01}} [[GAM Esports]] are unable to attend.
+}}
+
+==Results==
+===Play-In: Round 1===
+{{LPDB storage|false}}<!--
+-->{{box|start|padding=4em}}
+{{#section:World Championship/2020/Play-In|PlayInA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2020/Play-In|PlayInB}}
+<br/>
+{{box|end}}<!--
+-->{{LPDB storage|true}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2020/Play-In|Click here for more information about the Play-In: Round 1 matches.]]''</span>
+
+===Play-In: Round 2===
+{{ShowBracket|id=JrG0dw9uL6}}
+
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2020/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2020/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2020/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2020/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}<!--
+-->{{LPDB storage|true}}
+{{Toggle group end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2020/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Bracket Stage===
+{{ShowBracket|id=Wrd20Brakt}}
+
+==Additional Data==
+===Streams===
+{{box|start|padding=2em}}
+{{Streams|title=
+|lang1=usuk |twitch1=riotgames |youtube1=LoLChampSeries
+|lang2=cn |bilibili2=6 |douyu2=topic/lols10 |huya2=s
+|lang3=kr |twitch3=lck_korea |youtube3=LCK |afreeca3=aflol
+|lang4=ru |twitch4=riotgamesru |youtube4=lolesportsRU
+|lang5=tr |twitch5=riotgamesturkish |youtube5=Lolespor
+|lang6=br |twitch6=riotgamesbrazil |youtube6=lolesportsbr
+|lang7=esmx |twitch7=lolesportsla |youtube7=lolesportsla
+|lang8=mx |twitch8=tvaztecaesports |youtube8=AztecaDeportes 
+|lang9=jp |twitch9=riotgamesjp |mildom9=10244404
+|lang10=tw |twitch10=lolpacifictw |youtube10=lolpacific
+|lang11=th |twitch11=lolpacificth |youtube11=lolpacific
+|lang12=vn |youtube12=VETV7ESPORTS
+|lang13=fr |twitch13=ogaminglol
+|lang14=de |twitch14=summonersinnlive |youtube14=SummonerInnDE
+|lang15=it |twitch15=pg_esports
+|lang16=es |twitch16=lvpes
+|lang17=pl |twitch17=polsatgames |youtube17=polsatgames
+}}
+{{box|end}}
+
+
+===Statistics===
+{{#lst:World Championship/2020/Statistics|Champion Stats}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=Wrd20Brakt|matchid=R3M1|gameNum=2|player=Bin|vod=https://youtu.be/u8Sy6rQ8Yf8?t=2600}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Announcements===
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2019-11-20
+|link=https://nexus.leagueoflegends.com/en-us/2019/11/2020-world-championship-final-heads-to-shanghai/
+|title=2020 WORLD CHAMPIONSHIP FINAL HEADS TO SHANGHAI
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2020-04-23
+|link=https://lolesports.com/article/update-on-msi-from-john-needham/blt26cfaff9e2c05782
+|title=Update from John Needham, Global Head of Esports
+|by=John Needham
+|of=Riot Games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2020-04-23
+|link=https://lolesports.com/article/2020-world-championship-regional-seed-allocation/blt39a37713a2014366
+|title=2020 World Championship Regional Seed Allocation
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2020-07-31
+|link=https://lolesports.com/article/2020-world-championship-starts-sept.-25/blt2237ab89da64fb68
+|title=2020 World Championship Starts Sept. 25
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2020-09-01
+|link=https://lolesports.com/article/worlds-2020-update-format-changes/blt844a57584da327bf
+|title=Worlds 2020 Update: Format Changes
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2020-09-14
+|link=https://lolesports.com/article/worlds-2020-primer/blt065c89b2c6d7b75d
+|title=Worlds 2020 Primer
+|by=LoLEsports Staff
+|of=riot games
+|language=usuk
+}}
+
+===Official Song===
+{{#ev:youtube|KbNL9ZyB49c|600}}
+
+===More Additional Content===
+*<span style="line-height:24px">&nbsp;''[[World Championship/2020/Additional_Content|Click here for a general overview of all the Interviews, Articles, Videos and Match Highlights]]''</span>
+
+==References==
+{{reflist}}

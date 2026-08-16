@@ -1,0 +1,526 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2014&redirects=1
+<!-- 抓取: 2026-08-16T18:30:27.930Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2014 World Championship}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World_Championship/2014
+|name2=Championship Points
+|link2=World_Championship/2014/Championship_Points
+|name3=Regional Finals
+|link3=World_Championship/2014/Regional_Finals
+|name4=Group Stage
+|link4=World_Championship/2014/Group_Stage
+|name5=Playoffs
+|link5=World_Championship/2014/Playoffs
+|name6=Statistics
+|link6=World_Championship/2014/Statistics
+|This=1
+}}
+{{Infobox league
+|name=2014 World Championship
+|shortname=Worlds 2014
+|image=LoL Worlds 2014 Logo.png
+|series=World Championships
+|icon=LoL Worlds 2014 Logo.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=4.14
+|sponsor=[https://www.koreanair.com/ Korean Air]
+|sponsor2=[https://www.coca-cola.com/ Coca-Cola]
+|server=
+|type=offline
+|country3=Taiwan
+|country4=Singapore
+|country=South Korea
+|country2=South Korea
+|city3=Taipei
+|city4=Singapore
+|city2=Busan
+|city=Seoul
+|venue4=National Taiwan University Sports Center
+|venue5=Singapore EXPO
+|venue3=Busan Exhibition and Convention Center
+|venue3desc=Quarterfinals
+|venue2=Olympic Gymnastics Arena
+|venue2desc=Semifinals
+|venue1=Seoul World Cup Stadium
+|venue1desc=Grand Final
+|format=Group Stage <br> Single Elimination
+|prizepoolusd=2,130,000
+|date=
+|sdate=2014-09-18
+|edate=2014-10-19
+|liquipediatier=1
+|highlighted=true
+|web=
+|rulebook=https://web.archive.org/web/20140822073710/http://riot-web-static.s3.amazonaws.com/lolesports/Rule%20Sets/2014%20World%20Championship%20Rule%20Set%20v2%20812.pdf
+|stream=
+|twitch=
+|team_number=16
+|previous=World Championship/2013{{!}}Season 3
+|next=World Championship/2015{{!}}2015
+}}
+
+The '''2014 World Championship''' was the fourth annual edition of the League of Legends World Championships held by Riot Games from September 18, 2014 to October 19th, 2014. The tournament was hosted for the first time in Asia, with the group stage matches held in both Taiwan and Singapore, with the quarterfinals held in Busan, South Korea, and the semi- and grand finals held in Seoul, South Korea at Sangam Stadium.
+
+==Format==
+* '''Qualifiers''' - ''August 13th - September 7th, 2014''
+**Three Regional Finals.
+***The winners of each Regional Final will advance to the World Championship.
+***The runners-up and third place teams of the China Regional Final will advance to the World Championship.
+**Two International Wildcard Qualifiers.
+***The winner of each International Wildcard Qualifier will advance to the World Championship.
+* '''Group Stage''' - ''September 18th - September 21st, 2014''
+** All sixteen teams are divided into four groups where they play a Double Round Robin format.
+*** All Matches are played in a {{Abbr/Bo1}}
+*** The top two teams in each group advance to the Knockout Stage.
+*** The remaining teams are eliminated.
+* '''Knockout Stage''' - ''October 3rd - October 19th, 2013''
+** Eight teams play in a single elimination bracket over seven days.
+*** Quarterfinals are {{Abbr/Bo3}}, all other rounds are {{Abbr/Bo5}}.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Rivington|b1name=Rivington Bruce Bisland III|b1flag=us
+|b2=Jatt|b2name=Joshua Leesman|b2flag=ca
+|b3=Kobe |b3name=Sam Hartman-Kenzler |b3flag=us
+|b4=Deman |b4name=Leigh Smith |b4flag=uk
+|b5=Joe Miller| b5name=Joe Miller |b5flag=uk
+|b6=Deficio |b6name=Martin Lynge |b6flag=dk
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Phreak|b1name=David Turley|b1flag=us
+|b2=Quickshot|b2name=Trevor Henry|b2flag=za
+|b3=Doublelift |b3name=Yiliang Peng |b3flag=us
+|b4=MonteCristo | b4name=Christopher Mykles |b4flag=us
+|b5=pr0lly | b5name=Neil Hammad |b5flag=us
+|b6=Crumbz |b6name=Alberto Rengifo |b6flag=ve
+|b7=Krepo|b7name=Mitch Voorspoels|b7flag=be
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Casters
+|b1=Caster Jun|b1name=Jeon Yong-jun
+}}
+{{BroadcasterCard
+|position=Korean Commentators
+|b1=CloudTemplar
+|b2=Kim Dong-joon|b2flag=kr
+|b3=Nal_rA <!-- |b3link=starcraft:Nal_rA --> |b3name=Kang Min |b3flag=kr
+|b4=Chobra |b4name=William Cho |b4flag=us
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8
+|tournament1=World Championship/2014/Playoffs
+|{{Slot|usdprize=1,000,000}}
+|{{Slot|usdprize=250,000}}
+|{{Slot|place=3-4|usdprize=150,000}}
+|{{Slot|place=5-8|usdprize=75,000}}
+|{{Slot|place=9-11|usdprize=45,000
+|{{Opponent|ahq |wdl=3/3 |date=2014-09-21}}
+|{{Opponent|sk |wdl=2/4 |date=2014-09-21}}
+|{{Opponent|all |wdl=3/3 |date=2014-09-28}}
+}}
+|{{Slot|place=12-13|usdprize=35,000
+|{{Opponent|lmq |wdl=2/4 |date=2014-09-28}}
+|{{Opponent|fnc |wdl=2/4 |date=2014-09-28}}
+}}
+|{{Slot|place=14-16|usdprize=25,000
+|{{Opponent|dp |wdl=0/6 |date=2014-09-21}}
+|{{Opponent|tpa |wdl=1/5 |date=2014-09-21}}
+|{{Opponent|kbm |wdl=1/5 |date=2014-09-28}}
+}}
+|adjacentContent=
+{{AwardPrizePool|noprize=true
+|{{Slot|award=MVP |{{Opponent|Mata |flag=kr |team=samsung galaxy white  |date=2014-10-19}}}}
+}}
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+
+===Pool 1 Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Alliance
+|p1=Wickd
+|p2=Shook
+|p3=Froggen
+|p4=Tabzz
+|p5=Nyph
+
+|t2p1=Leviathan |t2p1flag=ca |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/2014/Summer|EU LCS Summer]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Dyrus
+|p2=Amazing |p2link=Amazing (German player)
+|p3=Bjergsen
+|p4=WildTurtle
+|p5=Lustboy
+
+|t2p1=Locodoco |t2pos1=Head Coach
+|t2title=Staff
+|placement=3
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011}} '''(2011)'''
+|qualifier=[[LCS/North_America/2014/Summer|NA LCS Summer]]
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Koro1
+|p2=ClearLove
+|p3=U
+|p4=NaMei
+|p5=Fzzf |p5flag=cn
+
+|t2p1=Aaron |t2p1link=Aaron (Chinese coach) |t2p1flag=cn |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LPL/2014/Regional Finals|China Regional Finals]]
+}}
+{{TeamCard
+|team=Samsung Blue
+|image=Samsung Blue Logo.png
+|p1=Acorn
+|p2=Spirit
+|p3=Dade
+|p4=Deft
+|p5=Heart
+
+|t2p1= |t2p1flag= |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[Champions/2014/Points|Korea Circuit Points]]
+}}
+{{TeamCard columns end}}
+
+===Pool 2 Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ
+|p2=Cyanide |p2wins=1
+|p3=xPeke |p3wins=1
+|p4=Rekkles
+|p5=YellOwStaR
+
+|t2p1=Araneae |t2pos1=Head Coach
+|t2title=Staff
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2011}} '''(2011)'''
+|qualifier=[[LCS/Europe/2014/Summer|EU LCS Summer]]
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Balls
+|p2=Meteos
+|p3=Hai
+|p4=Sneaky
+|p5=LemonNation
+
+|t2p1= |t2p1flag= |t2pos1=Head Coach
+|t2title=Staff
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2013}} '''(2013)'''
+|qualifier=[[LCS/North_America/2014/Summer|NA LCS Summer]]
+}}
+{{TeamCard
+|team=Star Horn Royal Club
+|image=Star Horn Royal Club logo.png
+|p1=Cola
+|p2=inSec
+|p3=corn |p3link=Corn (Chinese player)
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Zero |p5link=Zero (Korean player)
+
+|t2p1=VicaL |t2p1flag=kr |t2pos1=Head Coach
+|t2title=Staff
+|placement=2
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2013}} '''(2013)'''
+|qualifier=[[LPL/2014/Regional Finals|China Regional Finals]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Gogoing
+|p2=Loveling
+|p3=cool
+|p4=san
+|p5=Cloud
+
+|t2p1=DaDa777 |t2p1flag=cn |t2pos1=sup
+
+|t3p1= |t3p1flag= |t3pos1=Head Coach
+|qualifier=[[LPL/2014/Regional Finals|China Regional Finals]]
+}}
+{{TeamCard
+|team=Samsung White
+|image=Samsung White Logo.png
+|p1=Looper
+|p2=Dandy
+|p3=PawN
+|p4=imp
+|p5=Mata
+
+|t2p1= |t2p1flag= |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[Champions/2014/Regional_Finals|Korea Regional Finals]]
+}}
+{{TeamCard
+|team=NaJin White Shield
+|p1=Save
+|p2=Watch
+|p3=Ggoong
+|p4=Zefa
+|p5=GorillA
+
+|t2p1= |t2p1flag= |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[Champions/2014/Regional_Finals|Korea Regional Finals]]
+}}
+{{TeamCard
+|team=Taipei Assassins
+|p1=Achie |p1flag=tw
+|p2=Winds
+|p3=Morning
+|p4=BeBe |p4wins=1
+|p5=Jay |p5link=Jay (Taiwanese player)
+
+|t2p1=Sim |t2pos1=Head Coach
+|t2title=Staff
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2012}} '''(2012)'''
+|qualifier=[[GPL/2014/Summer|GPL Summer]]
+}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Prydz |p1flag=tw
+|p2=NAZ |p2flag=tw
+|p3=westdoor
+|p4=GarnetDevil |p4flag=tw
+|p5=GreenTea
+
+|t2p1=Backstairs |t2p1flag=tw |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[GPL/2014/Regional_Finals|SEA Regional Finals]]
+}}
+{{TeamCard columns end}}
+
+===Pool 3 Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=SK Gaming
+|p1=fredy122
+|p2=Svenskeren
+|p3=Jesiz
+|p4=CandyPanda
+|p5=nRated
+
+|t2p1=Gilius |t2pos1=jng
+
+|t3p1= |t3p1flag= |t3pos1=Head Coach
+|placement=11-12
+|placementicon={{LeagueIconSmall/worlds|World_Championship/2012}} '''(2012)'''
+|qualifier=[[LCS/Europe/2014/Summer|EU LCS Summer]]
+}}
+{{TeamCard
+|team=LMQ
+|p1=ackerman
+|p2=NoName |p2flag=cn
+|p3=XiaoWeiXiao
+|p4=Vasilii
+|p5=Mor |p5flag=cn
+
+|t2p1= |t2p1flag= |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LCS/North_America/2014/Summer|NA LCS Summer]]
+}}
+{{TeamCard
+|team=Dark Passage
+|p1=fabFabulous
+|p2=Crystal
+|p3=Naru
+|p4=HolyPhoenix
+|p5=Touch
+
+|t2p1=Auspexa |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[International_Wildcard_Tournament/Gamescom/2014|Gamescom Wildcard]]
+}}
+{{TeamCard
+|team=KaBuM! e-Sports
+|p1=LEP
+|p2=Danagorn |p2flag=br
+|p3=TinOwns
+|p4=Minerva
+|p5=dans |p5flag=br
+
+|t2p1= |t2p1flag= |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[International_Wildcard_Tournament/PAX/2014|PAX Wildcard]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2014/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2014/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2014/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2014/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2014/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=DVTHP52KTF}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:World Championship/2014/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+===Top 20 Players Before Tournament===
+{|- class="wikitable sortable" class="table table-bordered prizepooltable collapsed" style="text-align:center;" data-cutafter="5"
+|-
+! colspan=1| # !! Player !! Position !! Team
+|-
+|1
+|style="text-align:left" | {{Flag|kr}} [[Dade]]
+|Mid
+|{{TeamIcon|ssb}}
+|-
+|2
+|style="text-align:left" | {{Flag|cn}} [[Cool]]
+|Mid
+|{{TeamIcon|omg}}
+|-
+|3
+|style="text-align:left" | {{Flag|kr}} [[Mata]]
+|Support
+|{{TeamIcon|samsung white}}
+|-
+|4
+|style="text-align:left" | {{Flag|cn}} [[NaMei]]
+|AD Carry
+|{{TeamIcon|edg}}
+|-
+|5
+|style="text-align:left" | {{Flag|cn}} [[Uzi (Chinese player){{!}}Uzi]]
+|AD Carry
+|{{TeamIcon|star horn royal club}}
+|-
+|6
+|style="text-align:left" | {{Flag|dk}} [[Froggen]]
+|Mid
+|{{TeamIcon|alliance}}
+|-
+|7
+|style="text-align:left" | {{Flag|kr}} [[Dandy]]
+|Jungle
+|{{TeamIcon|samsung white}}
+|-
+|8
+|style="text-align:left" | {{Flag|se}} [[Rekkles]]
+|AD Carry
+|{{TeamIcon|fnc}}
+|-
+|9
+|style="text-align:left" | {{Flag|cn}} [[Loveling]]
+|Jungle
+|{{TeamIcon|omg}}
+|-
+|10
+|style="text-align:left" | {{Flag|dk}} [[Bjergsen]]
+|Mid
+|{{TeamIcon|tsm}}
+|-
+|11
+|style="text-align:left" | {{Flag|kr}} [[Deft]]
+|AD Carry
+|{{TeamIcon|ssb}}
+|-
+|12
+|style="text-align:left" | {{Flag|kr}} [[Spirit]]
+|Jungle
+|{{TeamIcon|ssb}}
+|-
+|13
+|style="text-align:left" | {{Flag|kr}} [[Save]]
+|Top
+|{{TeamIcon|najin white shield}}
+|-
+|14
+|style="text-align:left" | {{Flag|fr}} [[Yellowstar]]
+|Support
+|{{TeamIcon|fnc}}
+|-
+|15
+|style="text-align:left" | {{Flag|kr}} [[Imp]]
+|AD Carry
+|{{TeamIcon|samsung white}}
+|-
+|16
+|style="text-align:left" | {{Flag|cn}} [[XiaoWeiXiao]]
+|Mid
+|{{TeamIcon|lmq}}
+|-
+|17
+|style="text-align:left" | {{Flag|cn}} [[Gogoing]]
+|Top
+|{{TeamIcon|omg}}
+|-
+|18
+|style="text-align:left" | {{Flag|kr}} [[Watch]]
+|Jungle
+|{{TeamIcon|najin white shield}}
+|-
+|19
+|style="text-align:left" | {{Flag|us}} [[Sneaky]]
+|AD Carry
+|{{TeamIcon|c9}}
+|-
+|20
+|style="text-align:left" | {{Flag|cn}} [[Clearlove]]
+|Jungle
+|{{TeamIcon|edg}}
+|-
+|}
+
+===Official Song===
+{{#ev:youtube|fmI_Ndrxy14|600}}

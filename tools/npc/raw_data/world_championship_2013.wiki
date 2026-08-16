@@ -1,0 +1,335 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2013&redirects=1
+<!-- 抓取: 2026-08-16T18:30:24.814Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Season 3 World Championship}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World_Championship/2013
+|name2=Circuit Points
+|link2=World_Championship/2013/Circuit_Points
+|name3=Regional Finals
+|link3=World_Championship/2013/Regional_Finals
+|name4=Group Stage
+|link4=World_Championship/2013/Group_Stage
+|name5=Playoffs
+|link5=World_Championship/2013/Playoffs
+|name6=Statistics
+|link6=World_Championship/2013/Statistics
+|name7=Player Stats
+|link7=World_Championship/2013/Player Stats
+|This=1
+}}
+{{Infobox league
+|name=Season 3 World Championship
+|image=LoL Worlds 2013 Logo.png
+|series=World Championships
+|icon=Lolworldslogo_small.png
+|shortname=Worlds 2013
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[http://alienware.com/ Alienware]
+|sponsor2=[https://www.logitechg.com/ Logitch G]
+|sponsor3=[http://www.plantronics.com/ Plantronics]
+|sponsor4=[https://www.americanexpress.com/ American Express]
+|server=
+|type=offline
+|country=United States
+|city=Los Angeles
+|venue=Culver Studios|venuelink=http://theculverstudios.com|venuedesc=Groups & Quarterfinals
+|venue2=Galen Center|venue2link=http://www.galencenter.org|venue2desc=Semifinals
+|venue3=Staples Center|venue3link=https://www.staplescenter.com |venue3desc=Grand Finals
+|format=Group Stage <br> Single Elimination
+|prizepoolusd=2,050,000
+|date=
+|sdate=2013-09-15
+|edate=2013-10-04
+|liquipediatier=1
+|highlighted=true
+|web=
+|rulebook=https://web.archive.org/web/20141107091718/http://riot-web-static.s3.amazonaws.com/lolesports/League%20of%20Legends%20Season%203%20World%20Championship%20Ruleset%201.03%20FINAL.pdf
+|stream=
+|twitch=
+|team_number=14
+|previous=World_Championship/2012{{!}}Season 2
+|next=World_Championship/2014{{!}}2014
+}}
+
+The '''Season 3 World Championship''' was the third annual edition of the League of Legends World Championships held by Riot Games to close Season 3. The tournament was hosted in Los Angeles, with the group stages and quarterfinals held at the Culver Studios, the semifinals held at the Galen Center, and the Grand Finals held at the Staples Center.
+
+==Format==
+* '''Qualifiers''' - ''July 3rd - September 8th, 2013''
+**Four Regional Finals.
+***The winners of each Regional Final will advance to the World Championship.
+***The runners-up of the China Regional Final will advance to the World Championship.
+**One International Wildcard Qualifier.
+***The winner of the International Wildcard Qualifier will advance to the World Championship.
+* '''Group Stage''' - ''September 15th - September 21st, 2013''
+** Ten teams are divided into two groups where they play in a Double Round Robin format.
+*** All matches are played in a {{Abbr/Bo1}}.
+*** The {{Bgcolortext|up|top two teams}} in each group advance to the Knockout Stage.
+*** The {{Bgcolortext|down|remaining teams}} are eliminated.
+* '''Knockout Stage''' - ''September 23rd - October 4th, 2013''
+** Eight teams play in a single elimination bracket over five days.
+*** Four teams from Group Stage are matched against four teams with direct entry from China, North America, TW/HK/MO, and Korea.
+*** Quarterfinals are {{Abbr/Bo3}}, all other rounds are {{Abbr/Bo5}}.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Phreak|b1name=David Turley|b1flag=us
+|b2=Quickshot|b2name=Trevor Henry|b2flag=za
+|b3=Rivington|b3name=Rivington Bruce Bisland III|b3flag=us
+|b4=Jatt|b4name=Joshua Leesman|b4flag=ca
+|b5=Kobe |b5name=Sam Hartman-Kenzler |b5flag=us
+|b6=Deman |b6name=Leigh Smith |b6flag=uk
+|b7=Joe Miller| b7name=Joe Miller |b7flag=uk
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Deficio|b1name=Martin Lynge|b1flag=dk
+|b2=Krepo|b2name=Mitch Voorspoels|b2flag=be
+|b3=Doublelift |b3name=Yiliang Peng |b3flag=us
+|b4=MonteCristo | b4name=Christopher Mykles |b4flag=us
+|b5=snoopeh | b5name=Stephen Ellis |b5flag=uk
+|b6=Nien |b6name=Zach Malhas |b6flag=us
+|b7=Darshan |b7name=Darshan Upadhyaha |b7flag=ca
+|b8=ocelote |b8name=Carlos Rodriguez Santiago |b8flag=es
+|b9=Voyboy |b9name=Joedat Esfahani |b9flag=us
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Casters
+|b1=Caster Jun|b1name=Jeon Yong-jun
+}}
+{{BroadcasterCard
+|position=Korean Commentators
+|b1=CloudTemplar
+|b2=Kim Dong-joon|b2flag=kr
+|b3=Nal_rA <!-- |b3link=starcraft:Nal_rA --> |b3name=Kang Min |b3flag=kr
+|b4=Reapered
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8
+|tournament1=World Championship/2013/Group Stage|tournament2=World Championship/2013/Playoffs
+|{{Slot|usdprize=1,000,000}}
+|{{Slot|usdprize=250,000}}
+|{{Slot|place=3-4|usdprize=150,000}}
+|{{Slot|place=5-8|usdprize=75,000}}
+|{{Slot|place=9-10|usdprize=45,000}}
+|{{Slot|place=11-12|usdprize=30,000}}
+|{{Slot|place=13-14|usdprize=25,000}}
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+
+===Quarterfinal Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Cloud9
+|p1=Balls |p1flag=us
+|p2=Meteos |p2flag=us
+|p3=Hai|p3flag=us
+|p4=Sneaky |p4flag=us
+|p5=LemonNation |p5flag=us
+|c=
+|qualifier=[[LCS/North America/2013/Summer|NA LCS Summer]]
+}}
+{{TeamCard
+|team=Gamania Bears
+|p1=Steak |p1flag=tw
+|p2=Winds |p2flag=tw
+|p3=Maple |p3flag=tw|p3link=Maple (Taiwanese player)
+|p4=NL |p4flag=tw
+|p5=SwordArt |p5flag=tw
+|c=
+|qualifier=[[World Championship/2013/Regional Finals/Taiwan|TW/HK/MO Regional Finals]]
+}}
+{{TeamCard
+|team=NaJin Black Sword
+|p1=Expession |p1flag=kr
+|p2=watch |p2flag=kr
+|p3=Nagne |p3flag=kr
+|p4=PraY |p4flag=kr
+|p5=Cain |p5flag=kr
+
+|t2title=Staff
+|t2p1=Sim |t2p1flag=kr |t2pos1=coach
+|qualifier=[[Champions/2013/Points|Korea Circuit Points]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2012}} '''(2012)'''
+}}
+{{TeamCard
+|team=Royal Club
+|p1=GoDlike |p1flag=cn
+|p2=Lucky |p2flag=cn
+|p3=Wh1t3zZ |p3flag=cn
+|p4=Uzi |p4flag=cn|p4link=Uzi (Chinese player)
+|p5=Tabe |p5flag=hk
+|c=
+|qualifier=[[World Championship/2013/Regional Finals/China|China Regional Finals]]
+}}
+{{TeamCard columns end}}
+
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Dyrus |p1flag=us
+|p2=TheOddOne |p2flag=ca
+|p3=Reginald |p3flag=us
+|p4=WildTurtle |p4flag=ca
+|p5=Xpecial |p5flag=us
+|c=
+|qualifier=[[LCS/North America/2013/Summer|NA LCS Summer]]
+|placement=3
+|placementicon={{LeagueIconSmall/worlds|World Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=Team Vulcun
+|p1=Sycho Sid |p1flag=us
+|p2=Xmithie |p2flag=ph
+|p3=mancloud |p3flag=us
+|p4=Zuna |p4flag=us
+|p5=BloodWater |p5flag=bg
+|c=
+|qualifier=[[LCS/North America/2013/Summer|NA LCS Summer]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ |p1flag=fr
+|p2=Cyanide |p2flag=fi |p2wins=1
+|p3=xPeke |p3flag=es |p3wins=1
+|p4=puszu |p4flag=ee
+|p5=YellOwStaR |p5flag=fr
+|c=
+|qualifier=[[LCS/Europe/Summer/2013|EU LCS Summer]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=Lemondogs
+|p1=Zorozero |p1flag=dk
+|p2=dexter1 |p2flag=de
+|p3=Nukeduck |p3flag=no
+|p4=Tabzz |p4flag=nl
+|p5=Mithy |p5flag=es
+|c=
+|qualifier=[[LCS/Europe/Summer/2013|EU LCS Summer]]
+}}
+{{TeamCard
+|team=Gambit Gaming
+|p1=Darien |p1flag=ru
+|p2=Diamondprox |p2flag=ru
+|p3=Alex Ich |p3flag=ru
+|p4=Genja |p4flag=ru
+|p5=Voidle|p5flag=ee
+|c=
+|qualifier=[[LCS/Europe/Summer/2013|EU LCS Summer]]
+}}
+{{TeamCard
+|team=Samsung Ozone
+|p1=Looper |p1flag=kr
+|p2=DanDy |p2flag=kr
+|p3=dade |p3flag=kr
+|p4=imp |p4flag=kr
+|p5=Mata |p5flag=kr
+|c=
+|qualifier=[[Champions/2013/Points|Korea Circuit Points]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|link=SK Telecom T1 K
+|p1=Impact |p1flag=kr
+|p2=bengi |p2flag=kr
+|p3=Faker |p3flag=kr
+|p4=Piglet |p4flag=kr
+|p5=PoohManDu |p5flag=kr
+|t2p1=cCarter |t2p1flag=kr |t2pos1=Head Coach
+|t2p2=kkOma |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[World Championship/2013/Regional Finals/South Korea|Korea Regional Finals]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Gogoing |p1flag=cn
+|p2=LoveLin |p2flag=cn
+|p3=Cool|p3flag=cn
+|p4=san|p4flag=cn
+|p5=bigpomelo|p5flag=cn
+|t2p1=comA|t2p1flag=cn|t2pos1=sup
+|c=
+|qualifier=[[World Championship/2013/Regional Finals/China|China Regional Finals]]
+}}
+{{TeamCard
+|team=Mineski
+|p1=Snoy |p1flag=ph
+|p2=Kaigu |p2flag=ph
+|p3=Yume |p3link=Yume (Filipino player) |p3flag=ph
+|p4=Exo |p4flag=ph
+|p5=Tgee|p5flag=ph
+|c=
+|qualifier=[[World Championship/2013/Regional Finals/Southeast Asia|SEA Regional Finals]]
+}}
+{{TeamCard
+|team=GamingGear.eu
+|p1=NBs|p1flag=lt
+|p2=Alunir |p2flag=lt
+|p3=Mazzerin |p3flag=lt
+|p4=DeadlyBrother |p4flag=lt
+|p5=Inspirro |p5flag=lt
+|c=
+|qualifier=[[International Wildcard Qualifier/2013|IWC Qualifier]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start|padding=2em}}
+{{#section:World Championship/2013/Group_Stage|GroupA}}
+{{box|break|padding=2em}} 
+{{#section:World Championship/2013/Group_Stage|GroupB}}
+{{box|end}}
+<br/>
+<span style="line-height:24px">&nbsp;''[[World Championship/2013/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=S3WorldsPo}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:World Championship/2013/Statistics|Champion Stats}}
+===Player Statistics Leaders===
+{{TournamentStatsLeader
+|tournament1=World_Championship/2013/Group_Stage
+|tournament2=World_Championship/2013/Playoffs
+|statspage={{FULLPAGENAME}}/Player Stats
+}}
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,230 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2011&redirects=1
+<!-- 抓取: 2026-08-16T18:30:19.920Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Riot Season 1 Championship}}
+{{Liquipedia links
+|counterstrike=DreamHack/2011/Summer
+|starcraft2=DreamHack Summer 2011
+|fighters=DreamHack/2011/Summer
+|trackmania=DreamHack_Summer/2011
+}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World_Championship/2011
+|name2=Group Stage
+|link2=World_Championship/2011/Group_Stage
+|name3=Playoffs
+|link3=World_Championship/2011/Playoffs
+|name4=Statistics
+|link4=World_Championship/2011/Statistics
+|This=1
+}}<br>
+{{Infobox league
+|name=Riot Season 1 Championship
+|shortname=Worlds 2011
+|image=LoL Wolrd Championship 2011 Logo.png
+|series=World Championships
+|series2=DreamHack
+|icon=Lolworldslogo_small.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[http://www.alienware.com/ Alienware]
+|server=
+|type=offline
+|country=Sweden
+|city=Jönköping
+|venue=Elmia Exhibition and Convention Centre
+|format=Group Stage <br> Double Elimination
+|prizepoolusd=98,500
+|date=
+|sdate=2011-06-18
+|edate=2011-06-20
+|liquipediatier=1
+|highlighted=true
+|web=
+|stream=
+|twitch=
+|team_number=8
+|previous=
+|next=World_Championship/2012{{!}}Season 2
+}}
+
+==Format==
+*'''Qualifiers''' - ''April 2nd - June 6th, 2011''
+**Four Regional Qualifiers
+***The winners of each Qualifier will advance to the World Championship.
+***The runners-up and third place teams of the Europe and North America Qualifiers will advance to the World Championship.
+*'''Group Stage''' - ''June 17th, 2011''
+**All eight teams are divided into two groups where they play in a Round Robin format.
+***All matches are played in a {{abbr/Bo1}}.
+***The top teams in each group advances to the Upper Bracket Semifinals of the Playoffs.
+***The bottom team in each group is eliminated.
+***The remaining teams advance to the Upper Bracket Quarterfinals of the Playoffs.
+*'''Playoffs''' - ''June 18th - June 19th, 2011''
+**Six teams play in a double-elimination format over two days.
+***Two teams begin in the Upper Bracket Semifinals, four in the Upper Bracket Quarterfinals.
+***5th Place Match is {{abbr/Bo1}}, all other rounds are {{abbr/Bo3}}.
+***Teams placing second in their Group start with a one win lead in their Upper Bracket Semifinal match.
+***Teams who have defeated an opponent previously in the Playoff Bracket start with a one win lead.
+
+==Broadcast Talent==
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Host
+|b1=KarrieBear |b1name=Karen Wnuk |b1flag=us 
+|b2=Traveler|b2name= |b2flag=us 
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Caster
+|b1=ZenonTheStoic |b1name=Daniel Klein |b1flag=de 
+|b2=Rivington|b2name=Rivington Bruce Bisland III |b2flag=us 
+|b3=Joe Miller |b3name=Joe Miller |b3flag=uk
+|b4=Phreak |b4name=David Turley |b4flag=us
+}}
+{{box|end}}
+
+==Prize Pool==
+{{TeamPrizePool
+|tournament1=World Championship/2011/Group Stage
+|tournament2=World Championship/2011/Playoffs#5th Place |stage2importWinners=true
+|tournament3=World Championship/2011/Playoffs#Playoffs |stage3importLimit=4
+|{{Slot|place=1|usdprize=50,000}}
+|{{Slot|place=2|usdprize=25,000}}
+|{{Slot|place=3|usdprize=10,000}}
+|{{Slot|place=4|usdprize=7,000}}
+|{{Slot|place=5|usdprize=3,500}}
+|{{Slot|place=6|usdprize=2,000}}
+|{{Slot|place=7-8|usdprize=1,000}}
+|adjacentContent={{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP|{{Opponent|Shushei}}}}
+}}
+}}
+
+==Participating Teams==
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=against All authority
+|image=TeamaAa.png
+|p1=sOAZ |p1flag=fr
+|p2=Linak |p2flag=fr
+|p3=MoMa |p3flag=de
+|p4=YellOwStaR |p4flag=fr
+|p5=kujaa |p5flag=fr
+|qualifier=[[World_Championship/2011/Qualifier/Europe|Europe ]]
+}}
+{{TeamCard
+|team=Team gamed!de
+|p1=kev1n  |p1flag=de
+|p2=Zylor|p2flag=de
+|p3=Reyk|p3flag=de
+|p4=CandyPanda|p4flag=de
+|p5=Nyph|p5flag=de
+|qualifier=[[World_Championship/2011/Qualifier/Europe|Europe ]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=xPeke  |p1flag=es
+|p2=CyanideFI |p2flag=fi
+|p3=Shushei|p3flag=pl
+|p4=LaMiaZealot  |p4flag=de
+|p5=Mellisan  |p5flag=de
+|t2p1=wewillfailer |t2pos1=mid
+|qualifier=[[World_Championship/2011/Qualifier/Europe|Europe ]]
+}}
+{{TeamCard
+|team=Xan
+|p1=Vech  |p1flag=sg
+|p2=Radeon6870|p2flag=sg
+|p3=Axion|p3flag=sg
+|p4=d4rkness|p4flag=sg
+|p5=iNtrigueD|p5flag=sg
+|qualifier=[[World_Championship/2011/Qualifier/Singapore|Singapore]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=TheRainMan|p1flag=us
+|p2=TheOddOne|p2flag=ca
+|p3=Reginald|p3flag=us
+|p4=Chaox|p4flag=ca
+|p5=Xpecial|p5flag=us
+|qualifier=[[World_Championship/2011/Qualifier/North America|North America]]
+}}
+{{TeamCard
+|team=Epik Gamer
+|p1=Dyrus|p1flag=us
+|p2=Dan Dinh|p2flag=us
+|p3=Salce|p3flag=us
+|p4=Westrice|p4flag=us
+|p5=Doublelift|p5flag=us
+|qualifier=[[World_Championship/2011/Qualifier/North America|North America]]
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Chauster|p1flag=us
+|p2=Saintvicious|p2flag=us
+|p3=HotshotGG |p3flag=ca
+|p4=Bigfatlp|p4flag=ca
+|p5=Elementz|p5flag=ca
+|qualifier=[[World_Championship/2011/Qualifier/North America|North America]]
+}}
+{{TeamCard
+|team=Pacific eSports
+|image=Pacific_eSports.png
+|p1=VYY|p1flag=ph
+|p2=dabe|p2flag=ph
+|p3=wormy|p3flag=ph
+|p4=iddo|p4flag=ph
+|p5=gibo|p5flag=ph
+|qualifier=[[World_Championship/2011/Qualifier/Philippines|Philippines]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start|padding=2em}}
+{{#section:World Championship/2011/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=2em}} 
+{{#section:World Championship/2011/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2011/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=92ENVUL71S}}
+{{ShowBracket|id=Aop9QQdq0Y}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:World Championship/2011/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Videos===
+*{{ExternalMediaLink
+|team=
+|mediatype=video
+|date=2011-04-07
+|link=https://www.youtube.com/watch?v=KwrPHolkkOE
+|title=Season One Championship: Destination Dreamhack Summer!
+|by=League of Legends youtube
+|language=uk
+|translation=
+}}
+*{{ExternalMediaLink
+|team=
+|mediatype=video
+|date=2011-06-19
+|link=https://www.youtube.com/watch?v=_PPu1TTZXRg
+|title=Day 1 Recap: Season One Championship
+|by=League of Legends youtube
+|language=uk
+|translation=
+}}
+
+==References==
