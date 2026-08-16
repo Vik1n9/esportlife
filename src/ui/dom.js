@@ -19,8 +19,15 @@ export function el(tag, props = {}, children = []) {
 
 export function clear(node) { if (node) node.innerHTML = ''; }
 
+/**
+ * 捲到最新一張卡。S43 固定框架之後**頁面本身不捲**——會捲的是事件文本區這個窗格，
+ * 所以捲的對象是 `#log` 而不是 window（捲 window 等於什麼都沒做）。
+ */
 export function scrollToBottom() {
-  requestAnimationFrame(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
+  requestAnimationFrame(() => {
+    const log = byId('log');
+    if (log) log.scrollTo({ top: log.scrollHeight, behavior: 'smooth' });
+  });
 }
 
 /** 使用者輸入一律經過這裡，避免 ID 內含 HTML 造成注入（實作在 kernel/text.js，S20h 共用） */

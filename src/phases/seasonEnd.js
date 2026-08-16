@@ -13,7 +13,8 @@ import { formatStatLine, mergeSplits } from '../engine/season.js';
 import { applyPatch, grantUniqueTraits, trainHeroes, unlockTrait } from '../engine/progression.js';
 import { UNIQUE_TRAITS } from '../data/epics.js';
 import { worldsSeed } from '../kernel/series.js';
-import { card, fusionBeats } from './shared.js';
+import { fusionBeats, kinded } from './shared.js';
+const card = kinded('season');
 
 export const kind = 'SEASON_END';
 

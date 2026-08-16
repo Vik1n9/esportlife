@@ -1,3 +1,124 @@
+## [v4.6.6] - 2026-08-17
+
+### S45：alpha 內測完整版組裝（§19.4）
+
+在既有 demo（PRO 起點三年期程）之外，組裝 alpha 完整版：AMATEUR 起點（16 歲
+2012 網咖盃）一路打到退役，無年份上限。引擎零改動、SAVE_VERSION 不動——業餘期
+與完整生涯本來就是 160 段測試的基線，這一站只補「瀏覽器入口 + 文案 + 存檔隔離」。
+
+- **獨立目錄 `alpha/`**：`alpha/index.html` 複製自根目錄 `index.html`，改開場文案
+  （2012 業餘期、完整生涯、ALPHA 內測標記），路徑指到 `../src/*`，檔頭標
+  `window.__ESPORTLIFE_MODE__ = 'alpha'`。demo 根目錄入口不動。
+- **`src/main.js` 讀模式**：`MODE`（預設 demo）→ `createState` 傳
+  `stage: 'AMATEUR'`；存檔 namespace 跟著模式走。
+- **存檔隔離**：`src/ui/storage.js` 的 key 加 namespace（`…v4.alpha` vs `…v4.demo`），
+  兩邊不再互讀到對方存檔（起點語意不同）。
+- **升版**：package.json／APP_VERSION／規格書檔頭／CHANGELOG 四處同號
+  v4.6.5 → v4.6.6。
+
+## [v4.6.5] - 2026-08-17
+
+### S44：技能下拉說明＋結算圖轉播卡重設計（§22.3、§19.4）
+
+純 UI 改版，不動任何遊戲機制與校準常數。
+
+- **技能下拉**：選手 tab 技能欄比照屬性加 `▸` 下拉箭頭，展開顯示一句說明＋
+  來源屬性；**不顯示權重數字**。說明文字 `SKILL_DESC` 收於 `data/skills.js`，
+  來源屬性直接讀 `SKILL_WEIGHTS` 鍵不另存（單一來源規則）。
+- **結算圖重設計**：轉播選手卡風格——左欄六維屬性雷達圖（Canvas 手繪，
+  零依賴）、右欄各賽區生涯數據（出賽／K-D-A／KDA 比值＋生涯合計），
+  下方依序放個人特質、頂級榮譽、生涯總薪資與生涯傳記（§15.5）。
+- **帳本層新增 `kdaOf`／`careerKda`**：KDA 比值 (K+A)÷D 取一位小數，
+  D=0 回 K+A 不炸；結算圖與 UI 讀帳本不直接除 raw 欄位。
+- **升版**：package.json／APP_VERSION／規格書檔頭／CHANGELOG 四處同號
+  v4.6.4 → v4.6.5（`tests/kernel/version.mjs` 守門）。
+- **新增測試**：`tests/kernel/skillDescs.mjs`（說明覆蓋十二技能）、`kdaOf`／
+  `careerKda` 單元進 `tests/kernel/ledger.mjs`。
+
+## [v4.6.4] - 2026-08-17
+
+### S43：固定框架與單一決策槽（§22.2／§22.2.1 修訂）
+
+決策槽原本靠 `position:sticky;bottom:0` 假裝固定。sticky 的底部吸附需要包含塊在
+元素下方還有剩餘高度，而 `#act` 是 `#app` 最後一個子元素、兩者底邊重合——travel
+距離為零，等於完全沒作用：事件文本一長，選項就被推到摺線以下，玩家得捲回去找。
+
+- **固定框架**：`#layout` 高度＝`100dvh`＋`overflow:hidden`，頁面本身不再捲動。
+  `#log` 成為框內唯一的捲動窗格（`flex:1;min-height:0;overflow-y:auto`），狀態帶、
+  屬性條、決策槽都是框內的 `flex:none` 子項，位置不隨文本長度改變。寬螢幕三欄同理：
+  `#year-dir`／`#app`／`.panel-sheet` 各自吃滿框高、各自獨立捲動。
+- **sticky 全數退場**：`#board`、`#year-dir`、`.panel-sheet` 不再需要 sticky，
+  S42b 為了算 sticky 落點而加的 `--board-h` 與 `initBoardMetrics()` 一併移除
+  （固定框架下欄高由 grid 列高決定，不必量測狀態帶）。
+- **單一決策槽**：`slot:'inline'` 的卡牌選項改畫在決策槽，不再接在卡片下緣。
+  卡片端保留兩個唯讀狀態——等待中掛 `.awaiting` 提示條並以 ↓ 指向下方，選定後
+  就地留下「你選了 X」。`askChoice`／`askInline` 合流為同一個 `promptOptions`，
+  差別只在有沒有錨點卡。
+- **槽高改隨視窗縮放**：`--act-h: clamp(240px, 38dvh, 368px)`。固定框架下槽高吃掉
+  的就是文本區高度，368px 定值會讓 844px 高的手機只剩 136px 可讀；改後約各分一半。
+  §22.2.1 要的是同一視窗內不隨當月選項數跳動，不是全裝置同一個像素數。
+- **捲動對象**：`scrollToBottom()` 改捲 `#log`（頁面不捲，捲 window 等於沒動作）。
+- **日誌篩選 chips** 改單列橫捲＋右緣淡出，不再換行多吃一列高度。
+
+規格同步：§22.2「卡牌覆寫」改寫為「卡牌問答」並說明為何收成單一操作點；
+§22.2.1 增訂「固定框架」不變式。
+
+## [v4.6.3] - 2026-08-17
+
+### S42b：寬螢幕版面修正（§22.6，接續 S42）
+
+S42 的三欄斷點只把 `#app` 推到第 2 欄、`#panel` 留在原地，兩者落在同一個 grid 格
+互相疊字，右邊 340px 欄空著。本次修掉這條與另外三處版面偏差，規格未動。
+
+- **三欄重疊**：`≥1024px` 補 `#panel{grid-column:3}`。原本 `#app` 與 `#panel` 同格
+  疊放，選手資料蓋在敘事流上、事件文本左緣被截。
+- **側欄 sticky 落點**：狀態帶實高約 165px（五列），CSS 卻硬寫 `top:56px`，左右欄
+  一捲就滑進狀態帶底下。改由 `ui/board.js` 的 `initBoardMetrics()` 以
+  `ResizeObserver` 量測 `#board` 實高寫回 `--board-h`，`#year-dir` 與 `.panel-sheet`
+  的 `top`／高度都吃這個變數。
+- **右欄不再跟著捲走**：`#panel` 補 `align-self:stretch`——`.panel-sheet` 的包含塊
+  是 `#panel`，`#panel` 只有內容高時 sticky 沒有可走距離。
+- **超寬螢幕欄距**：`#layout` 補 `max-width`（兩欄 940px／三欄 1180px），整個 grid
+  置中。原本中欄在無限寬的 `1fr` 裡置中，2560px 下與側欄裂出 690px 空白。
+- **中欄高度**：`#app` 補 `min-height:calc(100dvh - var(--board-h))`，讓決策槽回到
+  欄底（豎屏靠 `#layout` 的 `min-height` 達成，grid 的 `align-items:start` 會失效）。
+- **蓄力讀數**：選手 tab 的屬性列直接印浮點（`·蓄0.1376267417605339`）把整列擠成
+  兩行，補上 `attrbar.js` 同一套 `num()` 格式化。
+
+三條不變式重新驗證：決策動線不變、`#app` 維持 600px 行長上限、寬螢幕無額外資訊。
+
+### S42：寬螢幕版面（§22.6）
+
+壬組完工站。新增兩個斷點（≥720px 兩欄、≥1024px 三欄），手機豎屏版面完全不受影響。
+
+- **DOM 重組**：新增 `#layout` 包裹 `#board`／`#app`／`#panel`，`#board` 移出 `#app`
+  成為 `#layout` 直接子元素以橫跨整寬；移除假導覽列 `.site-nav`。
+- **#panel 兩態**：窄螢幕（<720px）底部抽屜（`.open` 控制顯隱）；寬螢幕（≥720px）
+  常駐右欄 340px（`position:static`，`display:block`，`.open` 不參與顯隱）。
+  `refreshPanel`／`togglePanel` 改讀 `isPanelVisible()`（含 `matchMedia` 查詢），
+  斷點跨越時由 `change` 事件觸發重繪。
+- **年度目錄左欄**：新檔 `src/ui/yearDir.js`，≥1024px 時在 240px 左欄常駐顯示年度
+  目錄（資料取用 `ui/log.js` 的 `yearEntries`，不重建一份）。
+- **開場畫面**：≥720px 建角表單改雙欄（左說明／右表單）；favicon 對齊現行
+  terracotta 品牌色。
+- **分享圖**：移除從未載入的 `Cinzel`／`Rajdhani` 字型，改讀 `--ui`（Inter＋Noto Sans TC）；
+  底色與標題色對齊現行色票。
+- **鐵則註解**：`src/styles.css` 檔頭鐵則改寫為「窄螢幕抽屜／寬螢幕常駐」兩態。
+- **三條不變式**：決策動線不變（#act 仍錨定在 #log 正下方）、文本行長不隨螢幕拉寬
+  （#app 維持 max-width 600px）、寬螢幕不出現豎屏看不到的資訊。
+
+## [v4.6.2] - 2026-08-17
+
+### S41：事件日誌閱讀（分類／年度跳轉／五拍成組）
+
+卡片分類（`kind` 欄位）：各 phase 檔透過 `kinded()` 工廠標示卡片類型
+（`train`／`match`／`event`／`market`／`season`），91 個呼叫點零改動。
+賽事五拍成組：`seriesEvent.js` 五拍帶 `series` 標識，`ui/log.js` 偵測連續同
+`series` 的卡片收進 `.series-block`，跨過中間的 `choice`（備賽戰術走 `act` 槽）。
+分類篩選：六個 chips（全部／賽事／訓練／事件／市場／結算），純 CSS 屬性選擇器
+切換，不重繪、不重跑 generator。年度跳轉：年度分隔線登記進目錄，下拉選單跳轉。
+生命週期卡（`game.js` 的出生／退役／結局）無 `kind`，任何篩選下保持可見。
+
 ## [v4.6.1] - 2026-08-16
 
 ### 壬組 S37：UI 版面規格增訂（純文件，除版號外程式與測試未動）

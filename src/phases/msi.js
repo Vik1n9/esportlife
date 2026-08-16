@@ -20,7 +20,8 @@ import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
 import { bonus, floorOf } from '../kernel/modifiers.js';
-import { card, drawRoleplay, fusionBeats, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
+import { drawRoleplay, fusionBeats, kinded, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
+const card = kinded('match');
 import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'MSI';

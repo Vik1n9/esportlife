@@ -7,7 +7,8 @@
  */
 import { annualSalary, formatMoney } from '../engine/market.js';
 import { currentLeagueKey } from '../engine/roster.js';
-import { card } from './shared.js';
+import { kinded } from './shared.js';
+const card = kinded('market');
 
 export const kind = 'SALARY';
 

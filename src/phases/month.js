@@ -37,7 +37,8 @@ import { resolveTraining, trainingMenu } from '../engine/training.js';
 import { formatStatLine, simulateSeason } from '../engine/season.js';
 import { currentLeagueKey } from '../engine/roster.js';
 import { eventTrigger } from '../engine/eventTrigger.js';
-import { card, drawEvent, drawRoleplay } from './shared.js';
+import { drawEvent, drawRoleplay, kinded } from './shared.js';
+const card = kinded('train');
 
 export const kind = 'MONTH';
 

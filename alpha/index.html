@@ -4,17 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#0d202b">
-<title>電競人生：LoL 職業選手生涯模擬</title>
-<meta name="description" content="2015 年職業出道，三個賽季的 LoL 電競選手生涯模擬 DEMO。訓練、賽段、MSI、世界賽、轉會、特質合成——每一個決定都算數。">
+<title>電競人生：LoL 職業選手生涯模擬（alpha 內測）</title>
+<meta name="description" content="2012 年網咖盃出道，一路打進職業、直到退役的 LoL 電競選手完整生涯模擬（alpha 內測版）。業餘盃賽、青訓、職業、轉會、MSI、世界賽、退役結局。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="電競人生：LoL 職業選手生涯模擬">
-<meta property="og:description" content="2015 年職業出道，三個賽季的電競生涯 DEMO：訓練、賽段、MSI、世界賽與特質合成。">
+<meta property="og:title" content="電競人生：LoL 職業選手生涯模擬（alpha 內測）">
+<meta property="og:description" content="2012 年網咖盃出道，打進職業直到退役的完整生涯：業餘盃賽、青訓、職業、MSI、世界賽與退役結局。">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='4' width='24' height='24' rx='4' fill='%23d47559'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./src/styles.css">
+<link rel="stylesheet" href="../src/styles.css">
+<script>window.__ESPORTLIFE_MODE__ = 'alpha';</script>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
 
     <div class="hero">
       <h1><span class="hero-en">SUMMONER</span><em>職業選手生涯模擬</em></h1>
-      <p class="sub">純文字的 LoL 電競選手生涯養成遊戲。<br><span class="seed-hint">DEMO：2015–2017 三個賽季（36 個月）；期間沒走到任何結局，第三季打完就結算生涯。</span></p>
+      <p class="sub">純文字的 LoL 電競選手生涯養成遊戲。<br><span class="seed-hint">ALPHA 內測：完整生涯，打到退役才結束（沒有年份上限）。</span></p>
     </div>
 
     <button class="btn resume" id="btn-resume" hidden>
@@ -48,7 +49,7 @@
         <div class="seg" id="seg-pos" role="group" aria-labelledby="pos-label"></div>
       </div>
 
-      <button class="btn main start" id="btn-start">開始生涯 <span class="chev">▸</span> 2015 春季</button>
+      <button class="btn main start" id="btn-start">開始生涯 <span class="chev">▸</span> 2012 春季</button>
 
       <p class="seedline">
         世界種子
@@ -146,6 +147,6 @@
   </div>
 </div>
 
-<script type="module" src="./src/main.js"></script>
+<script type="module" src="../src/main.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ import { renderAttrBar } from './attrbar.js';
 import { renderBoard } from './board.js';
 import { askAllocation, askChoice, askInline, clearActions } from './actions.js';
 import { renderCard, renderDivider } from './log.js';
-import { refreshPanel } from './panel.js';
+import { refreshPanel } from './panel/index.js';
 import { clearSave, saveGame } from './storage.js';
 import { renderSummary } from './summary.js';
 import { byId } from './dom.js';
@@ -40,8 +40,8 @@ export async function runCareer({ state, rng, seed, appVersion }) {
         saveGame(state, rng);
         break;
       case 'choice':
-        // slot 由發射端指定（§22.2 卡牌覆寫，S39）：'inline' 就地出在卡下緣，
-        // 其餘（含缺失）回底部決策槽
+        // slot 由發射端指定（§22.2，S39 分流／S43 改義）：兩者都畫在底部決策槽，
+        // 'inline' 額外把「這張卡在問」標到卡上（等待提示＋選後定格文字）
         input = beat.slot === 'inline' ? await askInline(beat) : await askChoice(beat);
         break;
       case 'alloc':

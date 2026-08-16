@@ -13,12 +13,19 @@ import { createState } from './engine/state.js';
 import { renderBoard } from './ui/board.js';
 import { byId, qsa } from './ui/dom.js';
 import { initLog } from './ui/log.js';
-import { initPanel, setPanelState } from './ui/panel.js';
+import { initPanel, setPanelState } from './ui/panel/index.js';
 import { runCareer } from './ui/runner.js';
-import { clearSave, loadGame } from './ui/storage.js';
+import { clearSave, loadGame, setSaveNamespace } from './ui/storage.js';
+import { initYearDir } from './ui/yearDir.js';
 import { APP_VERSION } from './version.js';
 
 export { APP_VERSION };
+
+// 起點模式（S45，alpha 內測）：根目錄 index.html 沒標 → 'demo'（PRO 三年期程）；
+// alpha/index.html 檔頭標 `__ESPORTLIFE_MODE__ = 'alpha'` → AMATEUR 完整生涯。
+// 存檔 namespace 跟著模式走，兩邊的存檔互不污染。
+const MODE = window.__ESPORTLIFE_MODE__ || 'demo';
+setSaveNamespace(MODE);
 
 let selectedRole = 'TOP';
 let seed = new URLSearchParams(location.search).get('seed') || randomSeed();
@@ -27,7 +34,7 @@ let seed = new URLSearchParams(location.search).get('seed') || randomSeed();
 
 function bindStartScreen() {
   byId('seed-input').value = seed;
-  byId('ver-badge').textContent = APP_VERSION;
+  byId('ver-badge').textContent = `${MODE === 'alpha' ? 'ALPHA ' : 'DEMO '}${APP_VERSION}`;
 
   byId('seed-reroll').addEventListener('click', (e) => {
     e.preventDefault();
@@ -66,7 +73,7 @@ function startNewCareer() {
 
   // 種子只決定天賦；人生走另一條每次都重開的亂數流。
   // 同一個種子可以反覆玩，養出來的是同一個天分的人，過的卻是不同的人生。
-  const state = createState({ name, role: selectedRole, seed });
+  const state = createState({ name, role: selectedRole, seed, stage: MODE === 'alpha' ? 'AMATEUR' : 'PRO' });
   enterGame(state, new Rng(randomSeed()));
 }
 
@@ -87,6 +94,7 @@ function enterGame(state, rng) {
   byId('act').hidden = false;
 
   initLog();
+  initYearDir();
   initPanel(state);
   setPanelState(state);
   renderBoard(state, 0);

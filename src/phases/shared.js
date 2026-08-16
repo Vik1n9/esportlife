@@ -23,6 +23,19 @@ import { escapeHtml, fill, templateVars } from '../kernel/text.js';
 
 export const card = (tone, title, body) => ({ type: 'card', tone, title, body });
 
+/**
+ * 帶分類的卡片工廠（S41，§22.1）。各 phase 檔依主要卡片類型選一個 kind，
+ * 一檔一行——不必逐個改 91 個 card() 呼叫點。`kind` 純新增欄位，既有測試不碰。
+ *
+ * 分類鍵：`train`／`match`／`event`／`market`／`season`
+ * 顯示字串由鍵導出（`ui/log.js` 的 `KIND_LABEL`），不反過來解析標題文字。
+ */
+export const kinded = (kind) => (tone, title, body, series) => {
+  const c = { type: 'card', tone, title, body, kind };
+  if (series != null) c.series = series;
+  return c;
+};
+
 /* ================= 卡片文本變數（S20h，V4 §12.2 增訂） ================= */
 
 /**

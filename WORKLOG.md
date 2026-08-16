@@ -1,5 +1,250 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S45 alpha 內測完整版組裝：demo 保留、AMATEUR 完整生涯接成獨立入口
+
+- **方向**：DEMO 驗證完（S21／S21b），照 §19.4「補業餘期、拿掉期程上限」把引擎既有
+  的 AMATEUR 起點（16 歲 2012 網咖盃 → 職業 → 市場淘汰退役、無年份上限）接成可分享
+  的 alpha 內測入口，與 demo 並存。這不是重建——業餘期與完整生涯本來就是 160 段測試
+  的基線（`createState` 的 `stage:'AMATEUR'`），缺的只有瀏覽器入口＋開場文案＋存檔
+  隔離。引擎一行未改、SAVE_VERSION 不動。
+
+- **入口與文案**：新增 `alpha/index.html`（複製根目錄 index.html，路徑改 `../src/*`、
+  開場文案改 2012 業餘期＋ALPHA 內測標記，檔頭標 `window.__ESPORTLIFE_MODE__='alpha'`）。
+  `main.js` 讀 `MODE`（預設 demo）→ `createState` 傳 `stage`。demo 根目錄一字不動。
+
+- **存檔隔離**：`storage.js` key 加 namespace（`esportlife.save.v4.alpha` vs `…v4.demo`），
+  `setSaveNamespace(ns)` 由 main.js 摸存檔前呼叫一次。⚠ 不隔離的話 alpha 頁「繼續上次
+  的生涯」會讀到 demo 的 PRO 存檔（起點語意不同）。重開按鈕走 `location.pathname`，
+  alpha 會正確回 `/alpha/`，不需改。
+
+- **實測結論**：`npm test` 22763 項全綠（零引擎改動、測試數不變）。playwright 逐項：
+  alpha 開局 `16 歲 · 2012.1 · 網咖盃賽`、開場卡「選手誕生」2012 分支無 DEMO 字眼；
+  demo 不變（`19 歲 · 2015.1 · LMS`、DEMO 1/36、開場卡帶三年期程）；同瀏覽器兩頁
+  各存一份，localStorage 出現 alpha 與 demo 兩把 key 互不覆蓋。
+
+- **狀態**：完成。`npm test` 22763 項全綠。版號 v4.6.5 → v4.6.6（package.json／
+  APP_VERSION／規格書檔頭／CHANGELOG 四處同號）。SAVE_VERSION 不變（23）；無常數變動。
+  `next-station.mjs` 解析 49/63，下一站仍 S24c（不受影響）。
+
+- **未一起處理**：S42b／S43／S44 仍不在狀態表（既有漂移，非本站造成）——三站是壬組
+  後線性 UI 打磨、無後續站依賴，本站只在 README 現況塊註記不補表格列（無說明書檔，
+  補了會讓 next-station 解析到空連結）。alpha 部署靠 GitHub Pages main 根目錄自動
+  生效，push 後即上線，無需設定。
+
+## 2026-08-17 — S44 技能下拉說明＋結算圖轉播卡重設計
+
+- **方向**：兩件 UI 打磨。①選手 tab 技能欄只有數值沒有說明，玩家看不懂「視野」在
+  峽谷裡長什麼樣；②結算圖只有幾行字，不像 LoL 轉播的選手卡。解法：技能比照屬性
+  加下拉（一句說明＋來源屬性＋相關技能，**不顯示權重**）；結算圖改成轉播卡——左欄
+  六維雷達、右欄各賽區 KDA 表、下方特質＋榮譽＋薪資＋傳記。純 UI，不動引擎機制。
+
+- **技能下拉**：`data/skills.js` 新增 `SKILL_DESC`（十二句覆盤語彙）。`player.js`
+  的 `skillSection` 從純 `abrow` 改成 `<details class="skill-item">`＋`▸` 箭頭，
+  `styles.css` 補 `.skill-item` 規則並把箭頭旋轉選擇器擴到 `.skill-item[open]`。
+  下拉內容＝一句說明＋來源屬性（讀 `SKILL_WEIGHTS` 鍵不另存、不顯示權重）。
+  ⚠ 首版曾加「相關技能／位置意義」與 `SKILL_LINKS` 四組關係，經使用者拍板刪減——
+  下拉只留說明與來源屬性，關係表與測試一併移除。
+
+- **KDA 比值進帳本**：`ledger.js` 新增 `kdaOf`（(K+A)÷D 取一位小數、D=0 回 K+A）與
+  `careerKda`（各分區加總後再除一次，不是各比值平均）。結算圖與未來 UI 讀帳本，
+  不直接除 raw 欄位——D=0 的 Infinity 會直接印上圖。
+
+- **結算圖重寫**：`summary.js` 的 `drawShareImage` 全換，維持先量後畫（scratch context
+  做中文換行、高度由內容累加）。雷達圖 `drawRadar` 手繪四圈網格＋六軸＋數值多邊形，
+  頂點固定走 `ATTRS` 順序；數據表 `drawStatTable` 列「階段／出賽／K-D-A／KDA」＋合計。
+  零依賴，照專案鐵則不引圖表庫。
+
+- **實測結論**：`npm test` 全綠（新增 skillDescs 說明覆蓋、kdaOf 單元）。結算圖四種情境
+  （AMATEUR 完整生涯／PRO 三年期程／SUP 空表／fusedAway 有值）以 stub DOM/canvas 煙霧
+  ＋playwright 真實渲染各跑一遍不炸，產圖 1800×1700。
+
+- **狀態**：完成。`npm test` 22901 項全綠。版號 v4.6.4 → v4.6.5（package.json／
+  APP_VERSION／規格書檔頭／CHANGELOG 四處同號）。SAVE_VERSION 不變（不動存檔結構）。
+
+- **未一起處理**：結算圖特質未按五階配色（圖上統一白字，fusedAway 灰字）——階色是
+  CSS 變數，canvas 需另建色票，留 TODO 待視覺定稿；網頁內「生涯數據」表未加 KDA
+  比值列（本次範圍只改分享圖）。
+
+## 2026-08-17 — S43 固定框架與單一決策槽：決策槽真的固定、卡牌選項收回槽內
+
+
+- **回報**：「最下方訓練選項欄位固定，不因事件文本導致滑動；事件選項出現時，
+  自動代替下方訓練選項。」兩件事其實是同一件——先有固定的槽，選項才有理由收成一處。
+
+- **⚠ 根因：sticky 從來沒有生效過**。`#act` 寫的是 `position:sticky;bottom:0`，
+  看起來是照 §22.2.1 做的。但 sticky 的底部吸附需要**包含塊在元素下方還有剩餘高度**，
+  而 `#act` 是 `#app` 的最後一個子元素、兩者底邊重合，travel 距離為零——等於整條
+  宣告不存在。事件文本一長就把它推到摺線以下，玩家得往下捲才找得到選項。
+  之所以一直沒被發現，是因為每張卡渲染完都會 `scrollToBottom()`，畫面「剛好」停在
+  底部；只要往上讀一下文本，選項就不見了。
+
+- **解法：整個遊戲改成 100dvh 的固定框**。`#layout` 加 `height:100dvh;overflow:hidden`，
+  頁面本身不再捲；`#log` 變成框內唯一的捲動窗格（`flex:1;min-height:0;overflow-y:auto`
+  ——`min-height:0` 是 flex 子項真的能縮的前提，少了它 #log 會被內容撐高，決策槽
+  再次被頂出框外）。狀態帶／屬性條／決策槽都是 `flex:none`，位置與高度不隨文本變動。
+
+- **sticky 全數退場**：寬螢幕三欄改由 grid 列高（`auto 1fr`）撐滿框高、各自
+  `overflow-y:auto`，`#board`／`#year-dir`／`.panel-sheet` 都不再需要 sticky。
+  S42b 為了算 sticky 落點而加的 `--board-h` 與 `initBoardMetrics()` 一併移除——
+  固定框架下沒有任何東西需要知道狀態帶多高。
+
+- **單一決策槽**：`slot:'inline'` 的卡牌選項改畫在決策槽。`askChoice`／`askInline`
+  合流成同一個 `promptOptions(beat, anchor)`，差別只在有沒有錨點卡；有錨點時卡片
+  等待中掛 `.awaiting`＋`↓` 提示條，選定後就地換成「你選了 X」。
+  **引擎協定一字未改**——`slot` 仍由發射端指定，只是 `'inline'` 的語意從
+  「畫在卡片下緣」變成「有一張發問的錨點卡」，`tests/phases/choiceSlot.mjs` 的斷言
+  全部照舊通過（只改了檔頭說明）。
+
+- **⚠ 槽高不能再是死的 368px**：固定框架下槽高吃掉的就是文本區高度。維持 368px
+  會讓 390×844 的手機只剩 136px 可讀（實測），事件文本連標題都看不到。改成
+  `clamp(240px,38dvh,368px)`：844px 高時 321px，文本區 211px，收合選項後 532px。
+  §22.2.1 要的是「同一視窗內不隨當月選項數跳動」，不是全裝置同一個像素數。
+
+- **順手**：`scrollToBottom()` 改捲 `#log`（頁面不捲，捲 window 等於沒動作）；
+  日誌篩選 chips 改單列橫捲＋右緣淡出，不再換行多吃 30px 高度。
+
+- **實測結論**：`npm test` 22757 項全綠。playwright 三個尺寸（390×844／768×900／
+  1440×900）各走 40 拍，決策槽的 bounding box 全程只出現過**一個**位置
+  （390：523/844；768 與 1440：558/900），`pageScroll` 全程 0，無殘留 inline 選項。
+  收合選項後文本區 211→532px；窄螢幕 ☰ 抽屜照常（`position:fixed` 不被
+  `overflow:hidden` 裁切，已實機確認）；年度跳轉改捲窗格仍作用。
+  console 唯一錯誤是 Google Fonts 被本機沙箱擋掉（`ERR_CONNECTION_RESET`），與本站無關。
+
+- **狀態**：完成。規格 §22.2／§22.2.1 同步修訂，版號 v4.6.3 → v4.6.4（一個章節內，
+  照 AGENTS.md 屬 Z 級）。SAVE_VERSION 不變。
+
+## 2026-08-17 — S42b 寬螢幕版面修正：三欄重疊、sticky 落點、超寬欄距
+
+- **回報**：寬螢幕實機截圖「版面排列混亂，沒有照計劃排列」。復現（playwright，
+  1440×900）確認 §22.6 線框的三欄在實作上根本沒成形。
+
+- **根因（一行 CSS）**：`≥1024px` 那段只寫了 `#app{grid-column:2}`，`#panel` 仍留在
+  `≥720px` 段設定的第 2 欄。兩者同格疊放——量測 `#app` x=370 w=600、`#panel` x=240
+  w=860，選手資料整片蓋在敘事流上，右邊 340px 欄空著。補 `#panel{grid-column:3}`。
+
+- **⚠ 硬寫的 sticky 落點**：`#year-dir` 與 `.panel-sheet` 都寫 `top:56px`，但狀態帶
+  是五列、列4 任務會整列折疊，實測 165px（且會變）。側欄因此滑進狀態帶底下。
+  解法：`initBoardMetrics()` 用 `ResizeObserver` 量 `#board` 實高寫回 `--board-h`
+  （寫在 `#layout` 上），三處 sticky 與兩處高度計算全部改吃變數，不留第二份常數。
+
+- **⚠ sticky 需要可走的距離**：`.panel-sheet` 的包含塊是 `#panel`（`position:static`
+  的 grid item），grid 的 `align-items:start` 讓 `#panel` 只有內容高，sticky 等於
+  沒作用——長日誌一捲右欄就跟著滑掉。`#panel` 補 `align-self:stretch`。
+  `#year-dir` 不受影響：它自己就是 grid item，包含塊是整個 grid area。
+
+- **超寬螢幕**：`1fr` 吃滿視窗，中欄（600px 上限）在裡面置中，2560px 下與左欄裂出
+  690px 空白。線框畫的是三欄相鄰，所以改成整個 grid 置中：`#layout` 補
+  `max-width`（兩欄 940＝600+340／三欄 1180＝240+600+340）。
+
+- **順手修**：`#app` 補 `min-height:calc(100dvh - var(--board-h))`，決策槽回到欄底；
+  `panel/player.js` 的蓄力讀數補 `num()`（原樣印浮點 `·蓄0.1376267417605339`，
+  把屬性列擠成兩行）——`attrbar.js`／`actions.js` 早有同一份格式化，只有這處漏掉。
+
+- **實測結論**：`npm test` 22757 項全綠（本站不動引擎）。playwright 掃八個寬度
+  （360／719／720／1023／1024／1440／1920／2560）逐一比對三欄 bounding box：
+  無重疊、無橫向溢出；長日誌捲到底時 `.panel-sheet` 與 `#year-dir` 皆停在
+  `top=165／bottom=900`。窄螢幕（390／719）回歸確認：面板仍是抽屜、☰ 仍在、
+  年度目錄仍隱藏。
+
+- **狀態**：完成。版號不升（純修正，規格未動）。
+
+## 2026-08-17 — S42 寬螢幕版面：兩個斷點、#panel 兩態、年度目錄左欄
+
+- **方向**：現行版面固定單欄置中，寬螢幕兩側大量留白，選手資料被關在底部抽屜。
+  §22.6 新增漸進增強層：寬螢幕把原本要開抽屜才看得到的東西攤開，不重排決策動線。
+  解法：新增 `#layout` 包裹層 + CSS Grid 兩個斷點（720px 兩欄、1024px 三欄），
+  `#panel` 改兩態（窄螢幕抽屜／寬螢幕常駐右欄），年度目錄升級為左欄常駐。
+
+- **DOM 重組**：新增 `<div id="layout">` 包裹 `#board`／`#year-dir`／`#app`／`#panel`。
+  `#board` 移出 `#app`（原 max-width:600px 約束），由 `#layout` 包裹才能橫跨整寬。
+  `#panel` 也移入 `#layout`，≥720px 成為 grid 第二欄。移除假導覽列 `.site-nav`。
+
+- **⚠ #panel 可見性守衛**：原 `refreshPanel` 只讀 `.open`，寬螢幕 `.open` 永遠
+  false 會導致面板不更新。解法：模組頂層建 `matchMedia('(min-width:720px)')`，
+  `isPanelVisible()` 同時判斷 `.open` 與斷點查詢；斷點跨越由 `change` 事件
+  觸發重繪。`togglePanel` 在寬螢幕直接 return（CSS 接管）。
+
+- **年度目錄左欄**：新檔 `src/ui/yearDir.js`，`log.js` 新增 `getYearEntries()`
+  與 `onYearsUpdated(cb)` 兩個 API。yearDir 註冊 callback，每次 `renderDivider`
+  觸發重繪——不複製 DOM，只讀 `yearEntries` 陣列建按鈕。
+
+- **分享圖**：移除從未載入的 `Cinzel`／`Rajdhani`，改讀 `--ui` 字體堆疊。
+  底色 `#0A1428` → `--night`、標題金 → `--accent`。favicon 同步對齊。
+
+- **實測結論**：`npm test` 22757 項全綠（本站不動引擎）。手動走查（playwright-cli）
+  四個寬度（375／720／1024／1440px）全項確認；斷點來回拖曳三次 panel 不卡死不空白；
+  console 0 錯誤。三條不變式驗證：決策動線不變（#act 在 #log 正下方）、
+  文本行長不拉寬（#app 維持 600px）、寬螢幕無額外資訊。
+
+- **狀態**：完成。`npm test` 22757 項全綠。版號 v4.6.2 → v4.6.3。SAVE_VERSION 不變。
+  壬組 S37–S42 全部完工。
+
+- **未一起處理**：左欄「賽程摘要」（§22.6 線框有但非必須）；年度目錄文字精簡
+  （目前顯示完整分隔文字，240px 欄寬會截斷）。
+
+## 2026-08-17 — S41 事件日誌閱讀：卡片分類篩選、五拍成組、年度跳轉
+
+- **方向**：事件文本區是無界捲軸，沒有篩選也沒有跳轉；賽事五拍散成五張同級卡，
+  讀不出是同一場系列賽（§22.1 v4.6.1 明訂五拍必須成組呈現、日誌檢視控制）。
+  解法：`kinded()` 工廠一檔一行加 `kind` 欄位（不改 91 個呼叫點）；五拍帶
+  `series` 標識，UI 層偵測連續同 series 收進 `.series-block`；六個篩選 chips
+  純靠 CSS 屬性選擇器切換；年度分隔線登記進目錄供下拉跳轉。
+
+- **分類鍵**：`train`（month）／`match`（seriesEvent/playoff/msi/worlds）／
+  `event`（split + shared.js 的 drawEvent/drawRoleplay 等）／`market`
+  （transfer/salary）／`season`（seasonEnd）。`engine/game.js` 的生命週期卡
+  無 `kind`，任何篩選下保持可見。
+
+- **五拍分組**：`kinded()` 工廠接受第 4 參 `series`，seriesEvent 五拍傳入
+  `title`（如「八強 · BO5」）。`log.js` 用 `lastSeriesBlock` 模組狀態追蹤，
+  同 series 追加、不同 series 開新 block。備賽戰術 choice 走 `'act'` 槽渲染在
+  `#act`，不在文本區，不中斷分組。
+
+- **篩選實作**：`#log` 帶 `.log-filters` class + `data-filter` 屬性，CSS 用
+  20 條選擇器（5 篩選 × 4 不符 kind）`display:none`。`series-block` 的
+  `data-kind` 掛在 block 層，整組一起隱藏不留空標頭。
+
+- **年度目錄**：`yearEntries[]` 陣列（`{ text, node }`），`renderDivider`
+  push、下拉 `onchange` 走 `scrollIntoView`。結構留給 S42 寬螢幕左欄取用。
+
+- **實測結論**：`npm test` 22754 項全綠（`kind`／`series` 純新增，既有測試
+  不碰）。四項檢驗通過。手動走查清單待執行（引擎測試不碰 DOM，UI 唯一守門）。
+
+- **狀態**：完成。`npm test` 22754 項全綠。SAVE_VERSION 未動（純 UI 變更）。
+  版號 v4.6.1 → v4.6.2。
+
+- **未一起處理**：`#log-bar` 沒有 sticky（被 `#board` 遮住，S42 處理）；篩選
+  狀態不存檔（重整回「全部」）。
+
+## 2026-08-17 — S40 選手面板四分頁：11 section 長捲拆成賽程／生涯／隊伍／選手四 tab
+- **方向**：§22.3 定了四個 tab，現行只有一個 11 section 的長捲抽屜。賽程 tab
+  的內容（年曆、冠軍積分、時代）與生涯 tab 的五欄位（milestones／teamHistory／
+  awards／intlRecord／disbandCrises）完全沒有出口；玩家看不到生涯軌跡數字，
+  route 任務卡的條件就湊不成（§12.3「看不到就不成決策」）。本站把 panel.js 拆成
+  `panel/` 目錄五檔，每個 tab 一個渲染模組。
+- **架構**：`panel/index.js` 管分頁狀態（`activeTab` 模組變數）與事件委派
+  （`[data-tab]` 切 tab、`[data-action]` 處理重開），匯出 `initPanel`／
+  `setPanelState`／`togglePanel`／`refreshPanel`／`questRows` 五個 API
+  對外部不變。board.js 的 `questRows` import 路徑改指 `panel/index.js`。
+- **賽程 tab**：`calendarFor` 展開 12 個月格，標記當下月份；賽事月依類型上色
+  （季後賽／MSI／世界賽）。戰績讀 `state.stats`（BUCKET_NAMES 顯示分區名）。
+  冠軍登記表讀 `state.titleHistory`。時代讀 `eraOf`。
+- **生涯 tab**：生涯軌跡五欄位全公開（§22.4），`distinctTeams`／
+  `intlWinRate`／`longestTenure` 直接從 `ledger.js` 匯出顯示，讓 route 任務
+  卡的條件式可對照。里程碑反序限制 20 筆。
+- **隊伍 tab**：隊友／教練（`coachBonus` 是隊伍加成，非 §10.2 教練評價）／合約
+  （剩餘年數 ×係數、目前年薪、生涯總薪資）／下放狀態（`benchedStreak`）。
+- **選手 tab**：基本資料／體力／六屬性（可展開說明）／十二技能（核心 4 標註，
+  全部唯讀 `.abrow.static`）／英雄池／版本落差／聲量分級／特質列表／任務／
+  重開。S38 從狀態帶移除的版本落差 title 提示在此落地。
+- **§22.4 自查**：四個 tab 均不顯示隱藏心理六維與教練評價；聲量有分級標籤；
+  特質配方不揭露；技能全部唯讀。
+- **CSS**：分頁列沿用 `.seg` 語彙加 `.seg-4` modifier（四等分），`.panel-tabs`
+  負 margin 撐到面板邊緣。年曆用 `.cal-grid`（4×3 grid），`.cal-m.now` 標記
+  當下月、`.msi`／`.worlds` 上色。
+- **狀態**：完成。`npm test` 22754 項全綠（引擎測試不碰 DOM，數字不變）。
+  SAVE_VERSION 未動（純 UI 重組）。
+
 ## 2026-08-16 — S24c 國際目錄：Worlds/MSI 全枚舉＋四大賽區 79 個賽段冠軍隊，改用 qualifier 反推冠軍避開 LPDB 死路
 - **方向**：庚組資料線第三站——S24b 把台港澳落地了，本站把 fetch_priority 2 的
   國際取材範圍（§23.3 定案：歷年 Worlds／MSI 參賽隊全部隊員＋LCK／LPL／LEC／

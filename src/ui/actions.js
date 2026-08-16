@@ -16,6 +16,17 @@ function actRoot() { return byId('act'); }
 export function clearActions() { clear(actRoot()); }
 
 /**
+ * 新一輪選項一律把槽展開。固定框架（S43）之後玩家會常用「收合選項」把文本區讓大
+ * 來讀長文，收著的槽等於答不了題——展開時連按鈕字樣一起歸位，否則按鈕寫著
+ * 「展開選項」但槽已經是開的。
+ */
+function expandAct() {
+  actRoot().classList.remove('collapsed');
+  const toggle = byId('act-toggle');
+  if (toggle) toggle.textContent = '⌄ 收合選項';
+}
+
+/**
  * 是否有正在等待玩家輸入的 beat（選項／加點）。
  *
  * S38 的屬性條〔+N〕入口要在空窗期直接開加點流程——`askChoice` 掛著時覆寫 #act
@@ -25,26 +36,57 @@ let awaitingInput = false;
 export const isAwaitingInput = () => awaitingInput;
 
 /**
- * 顯示一組選項，回傳玩家選中的 id。只服務 `slot:'act'` 的 choice——底部決策槽。
+ * 顯示一組選項，回傳玩家選中的 id。所有 choice 都走這裡——決策槽是唯一的操作面
+ * （§22.2，S43）。
  *
  * 設施制訓練（S16）之後，養成回合的「活動選單」也走這裡；S39 起 `trainingMenu`
  * 除 `note` 外另帶結構化欄位（體力增減／影響屬性鍵／預期成功率，§22.2.1 三段並列），
  * 選項帶齊三個欄位就畫成三欄可掃讀的雙欄格，hover／focus 連動上方屬性條高亮。
  * @returns {Promise<string>}
  */
-export function askChoice({ title, options }) {
+export function askChoice(beat) { return promptOptions(beat, null); }
+
+/**
+ * 卡牌問答（§22.2，S43 改單一決策槽）：`slot:'inline'` 的選項也出在決策槽，差別
+ * 只在**這張卡是提問者**——等待時卡片掛 `.awaiting` 提示條指向下方，選定後就地
+ * 留下定格文字「你選了 X」成為敘事的一部分。
+ *
+ * S39–S42 是把按鈕畫在卡片下緣。改掉的理由：那時決策槽只是 sticky（實際沒固定），
+ * 兩處都會被文本推走，所以「選項貼著文本」還算有意義；S43 把決策槽真的釘死在框底
+ * 之後，操作點只該有一個——選項散在兩處反而讓玩家每張卡都要重找按鈕在哪
+ * （§0.5 防農檢驗、§22.2.1 位置固定同一條理由）。
+ * @returns {Promise<string>}
+ */
+export function askInline(beat) { return promptOptions(beat, lastCard()); }
+
+/**
+ * 決策槽本體。`anchor` 是發問的那張卡（沒有就是規劃型決策，如訓練菜單）。
+ */
+function promptOptions({ title, options }, anchor) {
   awaitingInput = true;
   return new Promise((resolve) => {
     const act = actRoot();
-    act.classList.remove('collapsed');
+    expandAct();
     clear(act);
     if (title) act.appendChild(el('div', { class: 'act-title', text: title }));
+
+    // 提問的卡片與決策槽建立視覺連線：卡片標記等待中，並在卡尾指向下方
+    if (anchor) {
+      anchor.classList.add('awaiting');
+      anchor.appendChild(el('div', { class: 'card-ask', text: title || '你的選擇' }));
+    }
 
     const pick = (opt) => {
       highlightAttrs(null);
       clear(act);
       awaitingInput = false;
+      if (anchor) {
+        anchor.classList.remove('awaiting');
+        anchor.querySelector('.card-ask')?.remove();
+        anchor.appendChild(el('div', { class: 'inline-picked', text: `你選了 ${opt.label}` }));
+      }
       resolve(opt.id);
+      scrollToBottom();
     };
 
     const structured = options.every((o) => 'staminaDelta' in o && 'successRate' in o);
@@ -98,43 +140,6 @@ function trainBtn(opt) {
 }
 
 /**
- * 卡牌覆寫（§22.2，S39）：`slot:'inline'` 的選項接在**剛才那張卡**的下緣，
- * 不覆寫底部決策槽——卡牌結束決策槽自然歸還（它從來沒被佔用過）。
- *
- * 與 `askChoice` 的生命週期差異：`askChoice` 選定後清空 `#act`；這裡選定後選項組
- * **就地換成定格文字**（「你選了 X」）留在卡片裡，成為敘事的一部分。兩邊都會把
- * `awaitingInput` 歸位——屬性條〔+N〕入口靠它避開等待期。
- * @returns {Promise<string>}
- */
-export function askInline({ title, options }) {
-  const anchor = lastCard();
-  // 防呆：inline choice 的前一個 beat 必是 card（tests/phases/choiceSlot.mjs 守著），
-  // 真沒有錨點時退回決策槽，選項不會憑空消失
-  if (!anchor) return askChoice({ title, options });
-
-  awaitingInput = true;
-  return new Promise((resolve) => {
-    const box = el('div', { class: 'inline-opts' });
-    if (title) box.appendChild(el('div', { class: 'inline-title', text: title }));
-
-    for (const opt of options) {
-      const btn = plainBtn(opt);
-      btn.addEventListener('click', () => {
-        awaitingInput = false;
-        clear(box);
-        box.classList.add('picked');
-        box.appendChild(el('div', { class: 'inline-picked', text: `你選了 ${opt.label}` }));
-        resolve(opt.id);
-        scrollToBottom();
-      });
-      box.appendChild(btn);
-    }
-    anchor.appendChild(box);
-    scrollToBottom();
-  });
-}
-
-/**
  * 屬性點分配（國際賽／事件卡發下來的 `pendingPoints`）。
  *
  * 設施制訓練（S16）之後，訓練不再擲骰加點——訓練活動的屬性成長由權重自動決定，
@@ -149,7 +154,7 @@ export function askAllocation(state, spec, onChange) {
   awaitingInput = true;
   return new Promise((resolve) => {
     const act = actRoot();
-    act.classList.remove('collapsed');
+    expandAct();
     clear(act);
 
     let pool = spec.points || 0;

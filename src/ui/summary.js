@@ -5,12 +5,14 @@
  * `engine/career.js` 的生涯評分仍然吃 `state.peakRating`——那是 §10.3 明文允許的，
  * 結算分數本來就要有個單一尺度，但玩家看到的是「評分與等第」而不是評價本身。
  */
+import { ATTR_CAP, ATTR_NAMES, ATTRS } from '../data/attributes.js';
 import { DEMO_YEARS } from '../data/eras.js';
 import { ROLE_NAMES } from '../data/skills.js';
 import { FAN_QUOTES } from '../data/events.js';
 import { BUCKET_NAMES } from '../data/leagues.js';
 import { buildBiography } from '../engine/biography.js';
 import { careerScore, tierName } from '../engine/career.js';
+import { kdaOf } from '../engine/ledger.js';
 import { formatMoney } from '../engine/market.js';
 import { activeTraitNames } from '../engine/progression.js';
 import { TIER_DISPLAY_ORDER, TIER_STORES } from '../kernel/modifiers.js';
@@ -117,49 +119,129 @@ function copyReplayLink(btn, seed) {
 }
 
 /**
- * 結算圖。舊版在 fillText 之後才設 textAlign，第一行標題永遠對不齊，
- * 且畫布高度寫死 420 但只畫到 200，下半截空白。這裡改成先量後畫。
+ * 結算圖（v4.6.5 重設計：轉播選手卡風格）。
+ *
+ * 左欄六維屬性雷達圖＋右欄各賽區生涯數據（出賽／K/D/A／KDA 比值），
+ * 下方依序放個人特質、頂級榮譽、生涯總薪資與生涯傳記。零依賴 Canvas 2D，
+ * 維持老規矩：先量後畫——換行與高度都量過才設畫布。
+ *
+ * ⚠ KDA 比值走 `ledger.kdaOf`（D=0 回 K+A），結算圖不直接除 raw 欄位。
  */
+// 數據表欄位 x 座標（drawShareImage 與 drawStatTable 共用，單一來源避免漂移）
+const COL_STAGE = 424; const COL_G = COL_STAGE + 148; const COL_KDA = COL_STAGE + 278; const COL_RATIO = 860;
+const UI = "'Inter','Noto Sans TC',sans-serif";
+
 function drawShareImage(out, { state, tier, seed, appVersion }) {
   const W = 900; const PAD = 40; const SCALE = 2;
-  const lines = [
-    ['big', `${state.name}`],
-    ['sub', `${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${state.year} 年`
-      + `${state.demoEnded ? ` DEMO 結算（${state.age} 歲，${DEMO_YEARS} 個賽季）` : `退役（${state.age} 歲）`}`],
-    ['gap', ''],
-    ['row', `世界賽冠軍 ${state.worldsWins}　MSI 冠軍 ${state.msiWins}　職業年資 ${state.proYears} 季`],
-    ['row', `賽段冠軍 ${state.splitTitles}　例行賽 MVP ${state.honors.filter((h) => h.includes('例行賽 MVP')).length} 次`],
-    ['gold', `生涯總薪資 ${formatMoney(state.salary)} 台幣`],
-  ];
-  const topHonors = state.honors.filter((h) => /世界賽冠軍|MSI 冠軍|改寫歷史/.test(h)).slice(0, 4);
-  if (topHonors.length) { lines.push(['gap', '']); for (const h of topHonors) lines.push(['row', `· ${h}`]); }
+  const RADAR_R = 108; const RADAR_CX = PAD + 176;
 
-  // 先量再畫：畫布高度由實際行高累加而來，才不會像舊版一樣留下半張空白
-  const LINE_HEIGHT = { big: 44, sub: 34, gold: 34, row: 30, gap: 12 };
-  const contentHeight = lines.reduce((sum, [kind]) => sum + LINE_HEIGHT[kind], 0);
-  const H = 100 + contentHeight + 56;
+  /* ---- 內容組裝 ---- */
+  const buckets = Object.entries(state.stats).filter(([, s]) => s.G > 0);
+  const total = { G: 0, K: 0, D: 0, A: 0 };
+  for (const [, s] of buckets) for (const k of ['G', 'K', 'D', 'A']) total[k] += s[k];
+
+  const held = activeTraitNames(state);
+  const traitNames = TIER_DISPLAY_ORDER.flatMap((t) => held[t] || []);
+  const honorRows = state.honors.filter((h) => /世界賽冠軍|MSI 冠軍|改寫歷史/.test(h)).slice(0, 4);
+
+  /* ---- 先量：scratch context 做中文換行，高度全由內容累加 ---- */
+  const scratch = el('canvas').getContext('2d');
+  const FULL_W = W - PAD * 2;
+  const wrapLines = (text, font) => {
+    scratch.font = font;
+    const lines = [];
+    let line = '';
+    for (const ch of text) {
+      if (scratch.measureText(line + ch).width > FULL_W) { lines.push(line); line = ch; } else line += ch;
+    }
+    lines.push(line);
+    return lines;
+  };
+
+  const traitLines = traitNames.length
+    ? wrapLines(traitNames.map((n) => `【${n}】`).join(' '), `600 15px ${UI}`)
+    : ['（無）'];
+  const fusedLines = state.fusedAway.length
+    ? wrapLines(`合成離隊：${state.fusedAway.join(' ')}`, `400 13px ${UI}`)
+    : [];
+  const honorLines = honorRows.flatMap((h) => wrapLines(`· ${h}`, `400 15px ${UI}`));
+  const bioLines = buildBiography(state).flatMap((p) => wrapLines(p, `400 13px ${UI}`));
+
+  const radarH = 46 + RADAR_R * 2 + 52;                              // 標題＋圖＋上下標籤
+  const tableH = 46 + buckets.length * 28 + 54;                      // 標題＋表頭＋列＋總計
+  const middleH = Math.max(radarH, tableH) + 12;
+
+  // 與下面繪製同順的帳面高度：先量後畫，畫布不留空白
+  const H = 100 + 44 + 38 + middleH
+    + 36 + traitLines.length * 24 + (fusedLines.length ? 6 + fusedLines.length * 20 : 0)
+    + (honorLines.length ? 44 + honorLines.length * 22 : 6)
+    + 34
+    + 38 + bioLines.length * 21
+    + 52;
+
   const canvas = el('canvas');
   canvas.width = W * SCALE; canvas.height = H * SCALE;
   const c = canvas.getContext('2d');
   c.scale(SCALE, SCALE);
 
-  c.fillStyle = '#0A1428'; c.fillRect(0, 0, W, H);
-  c.fillStyle = '#C89B3C'; c.fillRect(0, 0, W, 4);
-
+  /* ---- 背景與標頭 ---- */
+  c.fillStyle = '#0d202b'; c.fillRect(0, 0, W, H);
+  c.fillStyle = '#d47559'; c.fillRect(0, 0, W, 4);
   c.textAlign = 'left';
-  c.fillStyle = '#A09B8C'; c.font = '700 14px Rajdhani, sans-serif';
+  c.fillStyle = '#7c8f92'; c.font = `600 13px ${UI}`;
   c.fillText('電競人生 · LoL 職業選手生涯模擬', PAD, 50);
 
   let y = 100;
-  for (const [kind, text] of lines) {
-    if (kind === 'gap') { y += 12; continue; }
-    if (kind === 'big') { c.fillStyle = '#C89B3C'; c.font = '900 40px Cinzel, sans-serif'; c.fillText(text, PAD, y); y += 44; continue; }
-    if (kind === 'sub') { c.fillStyle = '#F0E6D2'; c.font = '600 17px Rajdhani, sans-serif'; c.fillText(text, PAD, y); y += 34; continue; }
-    if (kind === 'gold') { c.fillStyle = '#C89B3C'; c.font = '800 20px Rajdhani, sans-serif'; c.fillText(text, PAD, y); y += 34; continue; }
-    c.fillStyle = '#F0E6D2'; c.font = '500 16px Rajdhani, sans-serif'; c.fillText(text, PAD, y); y += 30;
+  c.fillStyle = '#d47559'; c.font = `700 36px ${UI}`;
+  c.fillText(`${state.name}`, PAD, y); y += 44;
+  c.fillStyle = 'rgba(255,255,255,.92)'; c.font = `600 16px ${UI}`;
+  c.fillText(`${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${state.year} 年`
+    + `${state.demoEnded ? ` DEMO 結算（${state.age} 歲，${DEMO_YEARS} 個賽季）` : `退役（${state.age} 歲）`}`, PAD, y);
+  y += 38;
+
+  /* ---- 中段：左雷達圖、右數據表 ---- */
+  const yMid = y;
+  c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
+  c.fillText('六維屬性', PAD, yMid + 18);
+  c.fillText('生涯數據', COL_STAGE, yMid + 18);
+
+  drawRadar(c, RADAR_CX, yMid + 46 + RADAR_R, RADAR_R, state);
+  drawStatTable(c, yMid, buckets, total);
+  y = yMid + middleH;
+
+  /* ---- 特質 ---- */
+  c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
+  c.fillText('個人特質', PAD, y + 14); y += 36;
+  c.font = `600 15px ${UI}`; c.fillStyle = 'rgba(255,255,255,.92)';
+  for (const line of traitLines) { c.fillText(line, PAD, y); y += 24; }
+  if (fusedLines.length) {
+    y += 6;
+    c.font = `400 13px ${UI}`; c.fillStyle = '#7c8f92';
+    for (const line of fusedLines) { c.fillText(line, PAD, y); y += 20; }
   }
 
-  c.fillStyle = '#A09B8C'; c.font = '12px monospace';
+  /* ---- 頂級榮譽＋生涯總薪資 ---- */
+  if (honorLines.length) {
+    c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
+    c.fillText('頂級榮譽', PAD, y + 16); y += 38;
+    c.font = `400 15px ${UI}`; c.fillStyle = 'rgba(255,255,255,.92)';
+    for (const line of honorLines) { c.fillText(line, PAD, y); y += 22; }
+    y += 6;
+  } else {
+    y += 6;
+  }
+  c.font = `700 18px ${UI}`; c.fillStyle = '#d9c05a';
+  c.fillText(`生涯總薪資 ${formatMoney(state.salary)} 台幣`, PAD, y); y += 34;
+
+  /* ---- 生涯傳記 ---- */
+  c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
+  c.fillText('生涯傳記', PAD, y + 16); y += 38;
+  c.font = `400 13px ${UI}`; c.fillStyle = 'rgba(255,255,255,.82)';
+  for (const line of bioLines) { c.fillText(line, PAD, y); y += 21; }
+
+  /* ---- 頁尾 ---- */
+  c.fillStyle = '#7c8f92'; c.font = '12px monospace';
+  c.textAlign = 'left';
   c.fillText(`seed: ${seed}`, PAD, H - 26);
   c.textAlign = 'right';
   c.fillText(appVersion, W - PAD, H - 26);
@@ -190,4 +272,104 @@ function drawShareImage(out, { state, tier, seed, appVersion }) {
     }
     download();
   });
+}
+
+/** 六維屬性雷達圖：四圈網格＋六軸＋數值多邊形，頂點由 ATTRS 順序固定 */
+function drawRadar(c, cx, cy, r, state) {
+  const N = ATTRS.length;
+  const pt = (i, rr) => {
+    const a = ((i * 360) / N - 90) * (Math.PI / 180);
+    return [cx + rr * Math.cos(a), cy + rr * Math.sin(a)];
+  };
+
+  c.strokeStyle = 'rgba(255,255,255,.12)';
+  c.lineWidth = 1;
+  for (let ring = 1; ring <= 4; ring++) {
+    c.beginPath();
+    for (let i = 0; i < N; i++) {
+      const [x, yy] = pt(i, (r * ring) / 4);
+      if (i) c.lineTo(x, yy); else c.moveTo(x, yy);
+    }
+    c.closePath();
+    c.stroke();
+  }
+  c.strokeStyle = 'rgba(255,255,255,.07)';
+  for (let i = 0; i < N; i++) {
+    const [x, yy] = pt(i, r);
+    c.beginPath(); c.moveTo(cx, cy); c.lineTo(x, yy); c.stroke();
+  }
+
+  c.beginPath();
+  ATTRS.forEach((key, i) => {
+    const [x, yy] = pt(i, (r * state.attr[key]) / ATTR_CAP);
+    if (i) c.lineTo(x, yy); else c.moveTo(x, yy);
+  });
+  c.closePath();
+  c.fillStyle = 'rgba(212,117,89,.30)';
+  c.fill();
+  c.strokeStyle = '#d47559';
+  c.lineWidth = 2;
+  c.stroke();
+  ATTRS.forEach((key, i) => {
+    const [x, yy] = pt(i, (r * state.attr[key]) / ATTR_CAP);
+    c.beginPath();
+    c.arc(x, yy, 3, 0, Math.PI * 2);
+    c.fillStyle = '#d9c05a';
+    c.fill();
+  });
+
+  ATTRS.forEach((key, i) => {
+    const a = ((i * 360) / N - 90) * (Math.PI / 180);
+    const [lx, ly] = pt(i, r + 26);
+    c.font = `600 12.5px ${UI}`;
+    c.textAlign = Math.abs(Math.cos(a)) < 0.35 ? 'center' : (Math.cos(a) > 0 ? 'left' : 'right');
+    c.fillStyle = 'rgba(255,255,255,.78)';
+    c.fillText(`${ATTR_NAMES[key]} ${state.attr[key]}`, lx, ly + 4);
+  });
+}
+
+/** 右欄數據表：階段／出賽／K-D-A／KDA 比值，末列為生涯合計 */
+function drawStatTable(c, yMid, buckets, total) {
+  const headY = yMid + 44;
+
+  c.font = `600 12px ${UI}`;
+  c.fillStyle = '#7c8f92';
+  c.textAlign = 'left';
+  c.fillText('階段', COL_STAGE, headY);
+  c.textAlign = 'center';
+  c.fillText('出賽', COL_G, headY);
+  c.fillText('K / D / A', COL_KDA, headY);
+  c.textAlign = 'right';
+  c.fillText('KDA', COL_RATIO, headY);
+
+  let y = headY + 28;
+  c.font = `400 12.5px ${UI}`;
+  for (const [b, s] of buckets) {
+    c.textAlign = 'left';
+    c.fillStyle = 'rgba(255,255,255,.92)';
+    c.fillText(BUCKET_NAMES[b] || b, COL_STAGE, y);
+    c.textAlign = 'center';
+    c.fillText(`${s.G}`, COL_G, y);
+    c.fillText(`${s.K}/${s.D}/${s.A}`, COL_KDA, y);
+    c.textAlign = 'right';
+    c.fillText(`${kdaOf(s)}`, COL_RATIO, y);
+    y += 28;
+  }
+
+  c.strokeStyle = 'rgba(255,255,255,.14)';
+  c.lineWidth = 1;
+  c.beginPath();
+  c.moveTo(COL_STAGE, y - 10);
+  c.lineTo(COL_RATIO, y - 10);
+  c.stroke();
+
+  c.font = `600 13px ${UI}`;
+  c.textAlign = 'left';
+  c.fillStyle = '#d9c05a';
+  c.fillText('合計', COL_STAGE, y);
+  c.textAlign = 'center';
+  c.fillText(`${total.G}`, COL_G, y);
+  c.fillText(`${total.K}/${total.D}/${total.A}`, COL_KDA, y);
+  c.textAlign = 'right';
+  c.fillText(`${kdaOf(total)}`, COL_RATIO, y);
 }
