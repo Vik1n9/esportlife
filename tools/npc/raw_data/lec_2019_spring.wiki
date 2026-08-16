@@ -1,0 +1,390 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LEC%2F2019%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:19:19.036Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LEC 2019 Spring }}
+{{EU LCS Navbox}}
+{{LEC 2019 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LEC 2019 Spring 
+|shortname=2019 Spring 
+|tickername=LEC 2019 Spring
+|image=League of Legends European Championship lightmode.png
+|imagedark=League of Legends European Championship darkmode.png
+|series=LEC
+|icon=LEC lightmode.png
+|icondark=LEC darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=9.1
+|epatch=9.6
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Netherlands
+|city=Berlin
+|city2=Rotterdam
+|venue=
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=EUR
+|prizepool=200,000
+|sdate=2019-01-18
+|edate=2019-04-14
+|liquipediatier=1
+|website=https://eu.lolesports.com/en
+|sponsor=[https://www.kia.com/ Kia Motors]
+|sponsor2=[https://www.alienware.com/ Alienware]
+|sponsor3=[https://www.shell.com/ Shell]
+|sponsor4=[https://www.footlocker.com/ Foot Locker]
+|sponsor5=[https://www.logitechg.com Logitech G]
+|sponsor6=[https://www.dxracer.com/ DXRacer]
+|rulebook=https://s3-eu-west-1.amazonaws.com/cdn.eu.lolesports.com/LEC+Rulebook+'19+(Updated_+18.01.2019).pdf
+|twitch=RiotGames
+|facebook=lolesports
+|twitter=lolesports
+|youtube=lolesports
+|instagram=lolesports
+|team_number=10
+|previous=LCS/Europe/2018/Summer{{!}}Summer 2018
+|next=LEC/2019/Summer{{!}}Summer 2019
+}}
+The '''LEC 2019 Spring Split''' was the first split of the newly rebranded [[League of Legends European Championship]] season (''Previously EU LCS''), organized by Riot Games and held from January 18 to April 14, 2019. The season featured ten permanent partner teams competing in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Single Elimination {{Abbr/Bo5}} Playoffs to determine the European champion. The winner of the split qualified for the [[Mid-Season Invitational/2019|2019 Mid-Season Invitational]] as Europe’s representative.
+
+This split marked the beginning of a new era for European League of Legends, as the league transitioned from the [[EU LCS]] to the franchised '''LEC (League of Legends European Championship)''', eliminating the previous promotion and relegation system.
+
+''See [[EU LCS Franchising]] for further details.''
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=eur|points=lec2019|cutafter=10
+|qualifies1=Mid-Season Invitational/2019 |qualifies1name=MSI
+|tournament1=LEC/2019/Spring/Group Stage |groupElimStatuses=stay
+|tournament2=LEC/2019/Spring/Playoffs
+|{{Slot |place=1 |points=90 |qualified1=true |localprize=80,000}}
+|{{Slot |place=2 |points=70 |localprize=50,000}}
+|{{Slot |place=3 |points=50 |localprize=30,000}}
+|{{Slot |place=4 |points=30 |localprize=20,000}}
+|{{Slot |place=5-6 |points=10 |localprize=10,000}}
+}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Caps|flag1=dk|team1=g2 esports|date=2019-04-12}}
+{{prize pool slot award|award=Rookie of the Split |Selfmade|flag1=pl|team1=sk|date=2019-04-04}}
+{{prize pool slot award|award=Coach of the Split |Guilhoto|flag1=pt|team1=origen|date=2019-04-04}}
+{{prize pool slot award|award=1st All-Pro Team |date=
+|Cabochard|flag1=fr|team1=vitality
+|Jankos|flag2=pl|team2=g2 esports
+|Caps|flag3=dk|team3=g2 esports
+|Kobbe|flag4=dk|team4=splyce
+|Mikyx|flag5=si|team5=g2 esports
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=
+|Wunder|flag1=dk|team1=g2 esports
+|Selfmade|flag2=pl|team2=sk
+|Nukeduck|flag3=NO|team3=origen
+|Upset|flag4=de|team4=s04
+|Hylissang|flag5=bg|team5=fnatic
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=
+|Alphari|flag1=United Kingdom|team1=origen
+|Broxah|flag2=dk|team2=fnatic
+|Jiizuke|flag3=it|team3=vitality
+|Rekkles|flag4=se|team4=fnatic
+|Mithy|flag5=es|team5=origen
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===MVP Table===
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|tournament=LEC/2019/Spring/Group Stage
+}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Excel Esports
+|p1=Expect
+|p2=Caedrel
+|p3=Special
+|p4=Jeskla
+|p5=KaSing
+
+|t2p1=Send0o|t2p1dnp=true
+|t2p2=Taxer|t2p2dnp=true
+|t2p3=Exile|t2p3link=Exile (German player)
+|t2p4=Innaxe|t2p4dnp=true
+|t2p5=Mystiques|
+|t2title=Academy
+
+|t3p1=Furndog|t3p1flag=uk|t3pos1=coach
+|t3p2=Jarge|t3p2flag=uk|t3pos2=coach
+|t3p3=	Unlimited|t3p3flag=bg|t3pos3=coach
+|t3p4=Mapache|t3p4flag=es|t3pos4=analyst
+|t3p5=AngelArcher|t3p5flag=ro|t3pos5=analyst
+}}
+{{TeamCard
+|team=FC Schalke 04 Esports
+|p1=Odoamne
+|p2=Memento
+|p3=Abbedagge
+|p4=Upset
+|p5=IgNar
+
+|t2p1=Ventair|t2p1dnp=true
+|t2p2=Lurox|t2p2dnp=true
+|t2p3=Sertuss|t2p3dnp=true
+|t2p4=Sedrion|t2p4dnp=true
+|t2p5=Bravado|t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Dylan Falco|t3pos1=coach
+|t3p2=DLim|t3p2flag=ca|t3pos2=coach
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo 
+|p2=Broxah
+|p3=Nemesis
+|p4=Rekkles
+|p5=Hylissang
+
+|t2p1=Shikari|t2p1dnp=true
+|t2p2=Dan|t2p2link=Dan (British player)|t2p2dnp=true
+|t2p3=MagiFelix|t2p3dnp=true
+|t2p4=xMatty|t2p4dnp=true
+|t2p5=Prosfair|t2p5dnp=true
+|t2title=Academy
+
+|t3p1=YoungBuck|t3p1flag=nl|t3pos1=Head Coach
+|t3p2=Mephisto|t3p2flag=fr|t3pos2=coach
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Perkz
+|p5=Mikyx
+|p6=promisq|pos6=support
+
+|t2p1=Wardain|t2p1dnp=true
+|t2p2=Lamabear|t2p2dnp=true
+|t2p3=Xico|t2p3dnp=true
+|t2p4=XDSMILEY|t2p4dnp=true
+|t2p5=Skain|t2p5dnp=true
+|t2title=Academy
+
+|t3p1=GrabbZ|t3p1flag=de|t3pos1=head coach
+|t3p2=Duffman|t3p2flag=uk|t3pos2=coach
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=sOAZ
+|p2=Maxlore
+|p3=Febiven
+|p4=Hans Sama
+|p5=GorillA
+
+|t2p1=Dan Dan|t2p1dnp=true
+|t2p2=Obsess|t2p2dnp=true
+|t2p3=LIDER|t2p3dnp=true
+|t2p4=Neon|t2p4dnp=true
+|t2p5=Hiiva|t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Moose|t3p1flag=united arab emirates|t3pos1=coach
+|t3p2=PoohManDu|t3p2flag=kr|t3pos2=coach
+|t3p3=Robert Yip|t3p3flag=ie|t3pos3=coach
+|t3p4=Jesiz|t3p4flag=dk|t3pos4=coach
+}}
+{{TeamCard
+|team=Origen
+|p1=Alphari
+|p2=Kold
+|p3=Nukeduck
+|p4=Patrik
+|p5=mithy|p5flag=es
+
+|t2p1=Szygenda|t2p1flag=dk|t2p1dnp=true
+|t2p2=Zanzarah|t2p2dnp=true
+|t2p3=Speedy |t2p3flag=ro|t2p3dnp=true |t2pos3=jungle
+|t2p4=Roison|t2p4dnp=true |t2pos4=mid
+|t2p5=Venzer||t2p5dnp=true |t2pos5=adc
+|t2p6=Homi|t2p6flag=es|t2p6dnp=true |t2pos6=support
+|t2title=Academy
+
+|t3p1=Guilhoto|t3p1flag=pt|t3pos1=coach
+|t3p2=Fabian Broich|t3p2flag=de|t3pos2=coach
+}}
+{{TeamCard
+|team=Rogue
+|p1=Finn
+|p2=Kikis
+|p3=Sencux
+|p4=HeaQ
+|p5=Wadid
+|p6=Vander|pos6=support
+
+|t2p1=Profit
+|t2p2=Inspired|t2p2dnp=true
+|t2p3=Larssen|t2p3dnp=true
+|t2p4=Woolite|t2p4dnp=true
+|t2p5=Raxxo|t2p5dnp=true
+|t2title=Academy
+
+|t3p1=fredy122|t3p1flag=uk|t3pos1=coach
+|t3p2=Edward|t3p2flag=am|t3pos2=coach
+|t3p3=Blumigan|t3p3flag=se|t3pos3=coach
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=Werlyb
+|p2=Selfmade
+|p3=Pirean
+|p4=Crownshot
+|p5=Dreams|p5link=Dreams (Korean player)
+
+|t2p1=Sacre|t2p1dnp=true
+|t2p2=Phrenic |t2p2dnp=true
+|t2p3=Jenax|t2p3dnp=true
+|t2p4=Keduii |t2p4dnp=true
+|t2p5=Doss|t2p5dnp=true
+|t2title=Academy
+
+|t3p1=Brokenshard|t3pos1=coach
+|t3p2=Realistik|t3p2flag=ro|t3pos2=analyst
+|t3p3=Sheepy|t3p3flag=de|t3pos3=coach
+}}
+{{TeamCard
+|team=Splyce
+|p1=Vizicsacsi
+|p2=Xerxe
+|p3=Humanoid
+|p4=Kobbe
+|p5=Norskeren
+
+|t2p1=Orome
+|t2p2=Tierwulf|t2p2dnp=true
+|t2p3=Hatrixx|t2p3dnp=true
+|t2p4=Freeze|t2p4dnp=true
+|t2p5=Prime|t2p5dnp=true|t2p5link=Prime (French player)
+|t2title=Academy
+
+|t3p1=Peter Dun|t3p1flag=uk|t3pos1=head coach
+|t3p2=Duke|t3p2link=Duke (French coach)|t3p2flag=fr|t2pos2=coach
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard
+|p2=Mowgli
+|p3=Jiizuke
+|p4=Attila
+|p5=Jactroll
+
+|t2p1=Shemek |t2p1dnp=true
+|t2p2=Skeanz |t2p2dnp=true
+|t2p3=Saken
+|t2p4=Cookie |t2p4link=Cookie (Swedish player)|t2p4dnp=true
+|t2p5=TraYtoN |t2p5dnp=true
+|t2title=Academy
+
+|t3p1=YamatoCannon|t3p1flag=se|t3pos1=coach
+}}
+{{TeamCard columns end}}
+
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LEC/2019/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LEC/2019/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=SKGV42T9WL}}
+
+==Format==
+* '''Group Stage'''- ''January 18th - March 16th, 2019''
+**Double Round Robin
+**Each team plays 18 matches.
+**All matches are {{Abbr/Bo1}}
+**Top 6 qualifies to the Spring Playoffs
+* '''Playoffs'''
+<!--** Quarterfinals played on August 25-26, 2018 in EU LCS Studio in Berlin Germany.
+** Semifinals played on September 01-02, 2018 in EU LCS Studio in Berlin, Germany.
+** Finals and 3rd place match played on September 08-09, 2018 in Oracle Arena in Oakland, California.-->
+** All matches are played in {{Abbr/Bo5}} 
+** Winner qualifies for [[Mid-Season Invitational/2019|Mid-Season Invitational 2019]]
+** <span class="mw-customtoggle-Tiebreaker" style="border-bottom:1px dotted;">The LEC 2019 Spring Playoffs will be played in a new format:<ref name="Playoffs format">{{cite web |url=https://eu.lolesports.com/en/articles/the-2019-lec-format-explained|title=THE 2019 LEC PLAYOFFS FORMAT: EXPLAINED|author=Maximilian Peter Schmidt|date=2019-01-15|publisher=LEC|language={{Flag|uk}} }}</ref></span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Tiebreaker" style="margin-top:10px;width:50%;margin-left:45px">
+*First Round: The 3rd seed will choose to face either the 5th or 6th seed and the 4th seed will face the remaining team. The winning teams will advance to the second round, the losing teams will be eliminated.
+*Second Round: The two teams advancing from the first round will play each other, winner advances to the Loser's Finals. The 1st and 2nd seeds will play against each other, winner advances to the Grand Finals, loser drops to the Loser's Finals.
+*Third round: The winner of the Loser's Finals will advance to the final.
+</div>
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=RiotGames |youtube1=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang2=fr |twitch2=ogaminglol
+|lang3=es |twitch3=lvpes
+|lang4=pl |twitch4=polsatgames
+|lang5=de |twitch5=summonersinnlive
+|lang6=it |twitch6=pg_esports
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz
+|b2=Machine|b2name= Alex Richardson|b2flag=gb |b2link=counterstrike:Machine
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii|b1name=Laure Valée|b1flag=fr
+|b2=Frankie|b2name=Frankie Ward|b2flag=gb |b2link=counterstrike:Frankie
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Quickshot
+|b2=Drakos
+|b3=Medic
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Vedius
+|b2=Ender
+|b3=Foxdrop|b3name=Dan Wyatt|b3flag=gb
+|b4=Froskurinn 
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LEC/2019/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LEC/2019/Spring|edate=2019-05-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

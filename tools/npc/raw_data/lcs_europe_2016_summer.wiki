@@ -1,0 +1,312 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2016%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:17:46.311Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2016 Summer }}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-27
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-27
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2016 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2016 Summer 
+|shortname=2016 Summer 
+|tickername=EU LCS 2016 Summer
+|image=EU LCS 2015.png
+|series=EU LCS
+|icon=EU LCS 2015.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=6.10
+|epatch=6.15
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Poland
+|city=Berlin
+|city2=Kraków
+|venue=EU LCS Studio
+|venue2=Tauron Arena
+|format=Group Stage ({{Abbr/Bo2}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2016-06-02
+|edate=2016-08-28
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|twitch=eulcs1
+|twitch2=eulcs2
+|team_number=10
+|previous=LCS/Europe/2016/Spring{{!}}2016 Spring 
+|next=LCS/Europe/2017/Spring{{!}}2017 Spring 
+|next2=LCS/Europe/2017/Spring/Promotion{{!}}Spring Promotion
+|previous2=LCS/Europe/2016/Summer/Promotion{{!}}Summer Promotion
+}}
+The '''EU LCS 2016 Summer Split''' was the second split of the 2016 season, organized by Riot Games and held from June 2 to August 28, 2016 in Berlin, Germany, with the finals taking place in Kraków, Poland. The split featured ten teams — seven returning from the [[LCS/Europe/2016/Spring|Spring Split]] and three promoted from the [[LCS/Europe/2016/Summer/Promotion|Summer Promotion Tournament]] — competing in a double round-robin group stage followed by playoffs. [[G2 Esports]] entered the split as the defending champions, while [[FC Schalke 04 Esports]] made their LCS debut after acquiring [[Elements]]’ slot.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+{{TeamPrizePool|points=eulcs2016|cutafter=10
+|qualifies1=World Championship/2016 |qualifies1name=Worlds
+|qualifies2=LCS/Europe/2017/Spring/Promotion|qualifies2name=Promotion
+|tournament1=LCS/Europe/2016/Summer/Group Stage
+|tournament2=LCS/Europe/2016/Summer/Playoffs
+|groupElimStatuses=down,staydown,stay
+|{{Slot |place=1 |qualified1=yes |usdprize=50,000}}
+|{{Slot |place=2 |points=90 |usdprize=25,000}}
+|{{Slot |place=3 |points=70 |usdprize=15,000}}
+|{{Slot |place=4 |points=40 |usdprize=10,000}}
+|{{Slot |place=5-6 |points=20}}
+|{{Slot |place=7}}
+|{{Slot |place=8 |qualified2=yes}}
+|{{Slot |place=9 |qualified2=yes}}
+|{{Slot |place=10 |qualified2=yes}}
+|adjacentContent=<div>
+{{AwardPrizePool|noprize=true|cutafter=3
+|{{Slot|award=MVP |{{Opponent|Trick|team=g2|date=2016-08-28}}}}
+|{{Slot|award=Rookie of the Split |{{Opponent|Night|team=giants|date=2016-08-24}}}}
+|{{Slot|award=Coach of the Split |{{Opponent|YamatoCannon|team=splyce|date=2016-08-17}}}}
+|{{Slot|award=1st All-Pro Team|date=2016-08-10
+  |{{Opponent|Wunder|team=splyce}}
+  |{{Opponent|Trick|team=g2}}
+  |{{Opponent|Night|team=giants}}
+  |{{Opponent|Zven|team=g2}}
+  |{{Opponent|mithy|team=g2}}
+}}
+|{{Slot|award=2nd All-Pro Team|date=2016-08-10
+  |{{Opponent|Vizicsacsi|team=uol}}
+  |{{Opponent|Trashy |team=splyce}}
+  |{{Opponent|Perkz|team=g2}}
+  |{{Opponent|Kobbe|team=splyce}}
+  |{{Opponent|Mikyx|team=splyce}}
+}}
+|{{Slot|award=3rd All-Pro Team|date=2016-08-10
+  |{{Opponent|SmittyJ|team=giants}}
+  |{{Opponent|Jankos|team=h2k}}
+  |{{Opponent|Sencux|team=splyce}}
+  |{{Opponent|Rekkles|team=fnc}}
+  |{{Opponent|Vander|team=h2k}}
+}}
+}}<br/>
+{{box|start|padding=1em}}
+{{MVPTable|cutafter=5|margin=false
+|title=Group Stage MVP
+|tournament=LCS/Europe/2016/Summer/Group Stage
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=LCS/Europe/2016/Summer/Playoffs
+}}
+{{box|end}}
+</div>
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=FC Schalke 04 Esports |notes=1
+|p1=Steve|p1link=Steve (French player)|p1flag=fr
+|p2=Gilius|p2flag=de
+|p3=Fox|p3flag=se
+|p4=MrRalleZ|p4flag=dk
+|p5=sprattel|p5flag=se
+|t2p1=Nyph|t2p1flag=de|t2p1pos=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+|inotes={{NoteBig
+|n1={{Team|s04}} acquired the spot of {{Team|Elements}}
+}}
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Gamsu|p1flag=kr
+|p2=Spirit
+|p3=Febiven
+|p4=Rekkles
+|p5=YellOwStaR
+
+|t2p1=Kikis|t2p1pos=top
+
+|t3p1=Deilor|t3p1flag=es|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=G2 Esports
+|image=
+|p1=Expect|p1flag=kr|pos1=Top
+|p2=Trick|p2flag=kr|pos2=Jungler
+|p3=Perkz|p3flag=hr|pos3=Middle
+|p4=Zven|p4flag=dk|pos4=Bottom
+|p5=mithy|p5flag=es|pos5=Support
+|t2p1=YoungBuck|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=H2K
+|p1=Odoamne|p1flag=ro
+|p2=Jankos|p2flag=pl
+|p3=Ryu|p3flag=kr
+|p4=Freeze|p4flag=cz
+|p5=VandeR
+
+|t2p1=FORG1VEN|t2p1pos=adc
+
+|t3p1=pr0lly|t3p1flag=us|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=Origen
+|p1=sOAZ|p1flag=
+|p2=Amazing|p2flag=de|p2link=Amazing (German player)
+|p3=PowerOfEvil|p3flag=de
+|p4=Toaster
+|p5=Hybrid
+
+|t2p1=xPeke|t2p1flag=es|t2p1pos=mid
+
+|t3p1=NicoThePico|t3p1flag=no|t3p1pos=head coach
+|t3p2=Araneae|t3p2flag=es|t3p2pos=coach
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=Team Vitality
+|image=
+|p1=Cabochard|p1flag=fr
+|p2=Mightybear|p2flag=kr
+|p3=Nukeduck
+|p4=Police|p4link=Police (Korean player)
+|p5=kaSing
+
+|t2p1=Shook|t2p1flag=nl|t2p1pos=jg
+
+|t3p1=Shaunz|t3p1flag=fr|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|p1=Vizicsacsi|p1flag=hu
+|p2=Move|p2flag=kr
+|p3=Exileh|p3flag=de
+|p4=Veritas|p4flag=kr
+|p5=Hylissang|p5flag=bg
+|t2p1=Sheepy|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2016|Spring]]
+}}
+{{TeamCard
+|team=Giants Gaming
+|p1=SmittyJ|p1flag=de
+|p2=Maxlore|p2flag=uk
+|p3=NighT|p3flag=kr
+|p4=S0NSTAR|p4flag=kr
+|p5=Hustlin|p5flag=se
+|t2p1=Lozark|t2p1flag=es|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Splyce
+|p1=Wunder|p1flag=dk
+|p2=Trashy|p2flag=dk
+|p3=Sencux|p3flag=dk
+|p4=Kobbe|p4flag=dk
+|p5=Mikyx|p5flag=si
+|t2p1=YamatoCannon|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|p1=Parang|p1flag=kr
+|p2=Airwaks|p2flag=ch
+|p3=Betsy
+|p4=Steeelback
+|p5=Raise
+
+|t2p1=Memento|t2p1flag=se|t2p1pos=jg
+
+|t3p1=GrabbZ|t3p1flag=fr|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Summer/2016/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/2016/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2016/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LCS/Europe/2016/Summer/Playoffs|Playoffs}}
+
+==Format==
+* '''Group Stage'''
+** Double Round Robin
+**All matches are {{Abbr/Bo1}}
+**Top 6 advance to playoffs
+**Top 2 receive playoffs byes into the semifinals
+*'''Playoffs'''
+** Single Elimination {{Abbr/Bo5}} 
+* Winner qualifies for [[World_Championship/2016|2016 World Championship]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1
+|lang2=usuk |twitch2=eulcs2
+|lang3=usuk |youtube3=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang4=de |twitch4=summonersinnlive
+|lang5=es |twitch5=lvpes
+|lang6=fr |twitch6=ogaminglol
+|lang7=fr |twitch7=eclypsiatvlol
+|lang8=hu |twitch8=magyarloltv
+|lang9=pl |twitch9=nervarien
+|lang10=pl |twitch10=teamfrenzygg
+}}
+
+===Talent===
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=
+|b2=
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=
+|b2=
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2016/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2016/Summer|edate=2016-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

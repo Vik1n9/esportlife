@@ -1,0 +1,360 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2014%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:17:28.520Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2014 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-10
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-10
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2014 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2014 Summer 
+|shortname=2014 Summer 
+|tickername=EU LCS 2014 Summer
+|image=EU LCS Logo.png
+|series=EU LCS
+|icon=EU LCS Logo.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=4.7
+|epatch=4.12
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Germany
+|city=Berlin
+|city2=Cologne
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2014-05-20
+|edate=2014-08-17
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=https://web.archive.org/web/20150324063606/https://riot-web-static.s3.amazonaws.com/lolesports/Rule%20Sets/LCS%20Rule%20Set%201.05.pdf
+|stream=
+|twitch=eulcs1
+|twitch2=
+|team_number=10
+|previous=LCS/Europe/2014/Spring{{!}}2014 Summer
+|next=LCS/Europe/2015/Spring{{!}}2015 Spring
+|previous2=LCS/Europe/2014/Summer/Promotion{{!}}Summer Promotion
+|next2=LCS/Europe/2015/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''EU LCS 2014 Summer Split''' was the fourth split of the [[European League of Legends Championship Series]], organized by Riot Games. The season took place from May 20 to August 17, 2014, with the regular season hosted in Berlin and the Playoffs held at gamescom in Cologne, Germany. Ten teams competed in a quadruple round-robin Best-of-One format, followed by a Single Elimination Playoff. The top six teams advanced to the Playoffs, while the bottom two were relegated to the [[LCS/Europe/2015/Spring/Promotion|2015 Spring Promotion Tournament]]. The split featured a $100,000 USD prize pool, with the top three teams qualifying for the [[Worlds 2014|2014 World Championship]].
+
+Between the 2014 Spring and Summer Splits, several roster and structural changes took place in the European LCS. [[Millenium]], [[SUPA HOT CREW]], and [[Copenhagen Wolves]] retained their LCS spots through the [[LCS/Europe/2014/Summer/Promotion|Summer Promotion tournament]], while multiple teams adjusted their lineups ahead of the new split. [[Gambit Gaming]] replaced [[Darien]] with [[Kubon]] in the top lane and added [[niQ]] as their new mid laner, while Copenhagen Wolves strengthened their roster by signing [[Airwaks]] and [[Woolite]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=8
+|tournament1=LCS/Europe/2014/Summer/Group Stage
+|tournament2=LCS/Europe/2014/Summer/Playoffs#5th Place |stage2importWinners=true
+|tournament3=LCS/Europe/2014/Summer/Playoffs#Playoffs |stage3importLimit=4
+|qualifies1=World Championship/2014
+|qualifies2=LCS/Europe/2015/Spring|qualifies2name=Spring
+|qualifies3=LCS/Europe/2015/Spring/Promotion|qualifies3name=Promotion
+|{{Slot |place=1 |qualified1=yes |qualified2=yes|usdprize=50,000}}
+|{{Slot |place=2 |qualified1=yes |qualified2=yes|usdprize=25,000}}
+|{{Slot |place=3 |qualified1=yes |qualified2=yes|usdprize=15,000}}
+|{{Slot |place=4 |qualified2=yes|usdprize=10,000}}
+|{{Slot |place=5|qualified2=yes}}
+|{{Slot |place=6|qualified3=yes}}
+|{{Slot |place=7|qualified3=yes}}
+|{{Slot |place=8|qualified3=yes}}
+}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{AwardPrizePool|noprize=true|cutafter=8|margin=false
+|{{Slot |award=Group Stage MVP |{{Opponent|Rekkles |flag=se |team=fnc |date=2014-08-17}}}}
+|{{Slot |award=Playoffs MVP |{{Opponent|Froggen |flag=dk |team=alliance |date=2014-08-17}}}}
+}}
+
+{{box|break|padding=2em}}
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=6|margin=false|tier=weekly|opentext=Weeks 2 to 9 - MVPs and OP 5}}
+{{prize pool slot award|award=MVP - Week 1 |date=2014-05-22
+|Kerp |flag1=de |team1=mill
+}}
+{{prize pool slot award|award=OP 5 - Week 1 |date=2014-05-22
+|kev1n |flag1=de |team1=mill
+|Kottenx |flag2=se |team2=mill
+|Kerp |flag3=de |team3=mill
+|Creaton |flag4=pl |team4=mill
+|Nyph |flag5=de |team5=alliance
+}}
+{{prize pool slot award|award=MVP - Week 2 |date=2014-05-30
+|Shook |flag1=nl |team1=alliance
+}}
+{{prize pool slot award|award=OP 5 - Week 2 |date=2014-05-30
+|Mimer |flag1=se |team1=supa hot crew
+|Shook |flag2=nl |team2=alliance
+|SELFIE |flag3=pl |team3=supa hot crew
+|Tabzz |flag4=nl |team4=alliance
+|wewillfailer |flag5=bg |team5=supa hot crew
+}}
+{{prize pool slot award|award=MVP - Week 3 |date=2014-06-06
+|Svenskeren |flag1=dk |team1=sk
+}}
+{{prize pool slot award|award=OP 5 - Week 3 |date=2014-06-06
+|Wickd |flag1=dk |team1=alliance
+|Svenskeren |flag2=dk |team2=sk
+|Froggen |flag3=dk |team3=alliance
+|Tabzz |flag4=nl |team4=alliance
+|Nyph |flag5=de |team5=alliance
+}}
+{{prize pool slot award|award=MVP - Week 4 |date=2014-06-13
+|Kerp |flag1=de |team1=mill
+}}
+{{prize pool slot award|award=OP 5 - Week 4  |date=2014-06-13
+|kev1n |flag1=de |team1=mill
+|Kottenx |flag2=se |team2=mill
+|Kerp |flag3=de |team3=mill
+|Rekkles |flag4=se |team4=fnc
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{prize pool slot award|award=MVP - Week 5 |date=2014-06-22
+|Overpow |flag1=pl |team1=roccat
+}}
+{{prize pool slot award|award=OP 5 - Week 5 |date=2014-06-22
+|Mimer |flag1=se |team1=supa hot crew
+|Shook |flag2=nl |team2=alliance
+|Overpow |flag3=pl |team3=roccat
+|Celaver |flag4=pl |team4=roccat
+|Yerrow |flag5=uk |team5=supa hot crew
+}}
+{{prize pool slot award|award=MVP - Week 6 |date=2014-06-27
+|Tabzz |flag1=nl |team1=alliance
+}}
+{{prize pool slot award|award=OP 5 - Week 6 |date=2014-06-27
+|kev1n |flag1=de |team1=mill
+|Shook |flag2=nl |team2=alliance
+|Froggen |flag3=dk |team3=alliance
+|Tabzz |flag4=nl |team4=alliance
+|Edward |flag5=am |team5=gambit gaming
+}}
+{{prize pool slot award|award=MVP - Week 7 |date=2014-07-03
+|YellOwStaR |flag1=fr |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 7 |date=2014-07-03
+|sOAZ |flag1=fr |team1=fnc
+|Impaler |flag2=uk |team2=supa hot crew
+|SELFIE |flag3=pl |team3=supa hot crew
+|Rekkles |flag4=se |team4=fnc
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{prize pool slot award|award=MVP - Week 8 |date=2014-07-11
+|Jankos |flag1=pl |team1=roccat
+}}
+{{prize pool slot award|award=OP 5 - Week 8 |date=2014-07-11
+|sOAZ |flag1=fr |team1=fnc
+|Jankos |flag2=pl |team2=roccat
+|Overpow |flag3=pl |team3=roccat
+|Woolite |flag4=pl |team4=roccat
+|VandeR |flag5=pl |team5=roccat
+}}
+{{prize pool slot award|award=MVP - Week 9 |date=2014-07-18
+|Rekkles |flag1=se |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 9 |date=2014-07-18
+|Wickd |flag1=dk |team1=alliance
+|Shook |flag2=nl |team2=alliance
+|Soren |flag3=dk |team3=copenhagen wolves
+|Rekkles |flag4=se |team4=fnc
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{prize pool slot award|award=MVP - Week 10 |date=2014-07-25
+|SELFIE |flag1=pl |team1=supa hot crew
+}}
+{{prize pool slot award|award=OP 5 - Week 10 |date=2014-07-25
+|fredy122 |flag1=uk |team1=sk
+|Kottenx |flag2=se |team2=mill
+|SELFIE |flag3=pl |team3=supa hot crew
+|Creaton |flag4=pl |team4=mill
+|Nyph |flag5=de |team5=alliance
+}}
+{{prize pool slot award|award=MVP - Week 11 |date=2014-07-31
+|YellOwStaR |flag1=fr |team1=fnc
+}}
+{{prize pool slot award|award=OP 5 - Week 11 |date=2014-07-31
+|Kubon |flag1=pl |team1=gambit gaming
+|Diamondprox |flag2=ru |team2=gambit gaming
+|xPeke |flag3=es |team3=fnc
+|Candy Panda |flag4=de |team4=sk
+|YellOwStaR |flag5=fr |team5=fnc
+}}
+{{Prize pool end noprize}}
+
+{{box|end|padding=2em}}
+
+==Participants==
+{{TeamCardToggleButton|playerinfo=true}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Alliance
+|p1=Wickd|p1flag=dk
+|p2=Shook|p2flag=nl
+|p3=Froggen|p3flag=dk
+|p4=Tabzz|p4flag=nl
+|p5=Nyph|p5flag=de
+|t2p1=Leviathan|t2p1flag=ca|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014|Spring 2014]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ|p1flag=
+|p2=Cyanide|p2flag=fi
+|p3=xPeke|p3flag=es
+|p4=Rekkles|p4flag=
+|p5=YellOwStaR|p5flag=fr
+|t2p1=Araneae|t2p1flag=es|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014|Spring 2014]]
+}}
+{{TeamCard
+|team=Gambit Gaming
+|p1=Darien
+|p2=Diamondprox
+|p3=niQ
+|p4=Genja
+|p5=Edward
+
+|t2p1=Cabochard|t2p1flag=fr|t2pos1=top
+|t2p2=Kubon|t2p2flag=pl|t2pos2=top
+|t2p3=Loulex|t2p3flag=fr|t2pos3=jg
+|t2p4=Fury|t2p4flag=de|t2pos4=adc|t2p4link=Fury (German player)
+|t2p5=Hiiva|t2p5flag=fi|t2pos5=support
+
+|t3p1=Groove|t3p1flag=ru|t3pos1=coach
+|qualifier=[[LCS/Europe/Spring/2014|Spring 2014]]
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=fredy122|p1flag=uk
+|p2=Svenskeren|p2flag=dk
+|p3=Jesiz|p3flag=dk
+|p4=Candy Panda|p4flag=de
+|p5=nRated|p5flag=de
+|t2p1=Incarnati0n|t2p1flag=dk|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014|Spring 2014]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|p1=Xaxus|p1flag=pl
+|p2=Jankos|p2flag=pl
+|p3=Overpow|p3flag=pl
+|p4=Celaver|p4flag=pl
+|p5=VandeR|p5flag=pl
+|t2p1=Veggie|t2p1flag=us|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2014|Spring 2014]]
+}}
+{{TeamCard
+|team=Copenhagen Wolves
+|image=Copenhagen_Wolves.png
+|p1=YoungBuck|p1flag=nl
+|p2=Airwaks
+|p3=cowTard|p3flag=se
+|p4=Woolite|p4flag=se
+|p5=Unlimited|p5flag=bg
+
+|t2p1=Brokenshard|t2p1flag=il|t2pos1=jg
+|t2p2=Mazzerin|t2p2flag=lt|t2pos2=mid
+|t2p3=Soren|t2p3flag=dk|t2pos3=mid
+
+|t3p1=Ducky|t3p1flag=de|t3pos1=coach|t3p1link=Ducky (German player)
+|qualifier=[[LCS/Europe/Summer/2014/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=SUPA HOT CREW
+|p1=Mimer|p1flag=se
+|p2=Impaler|p2flag=uk
+|p3=SELFIE|p3flag=pl
+|p4=MrRalleZ|p4flag=de
+|p5=KaSing
+
+|t2p1=wewillfailer|t2p1flag=be|t2pos1=support
+
+|t3p1=LastShadow|t3p1flag=us|t3pos1=coach
+|qualifier=[[LCS/Europe/Summer/2014/Promotion|Summer Promotion]]
+}}
+{{TeamCard
+|team=Millenium
+|p1=kev1n|p1flag=de
+|p2=Kottenx|p2flag=se
+|p3=Kerp|p3flag=de
+|p4=Creaton|p4flag=pl
+|p5=Jree|p5flag=se
+|t2p1=Olly|t2p1flag=be|t2pos1=coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2014/Promotion|Summer Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/2014/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2014/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=QXHMODTSY3}}
+{{ShowBracket|id=vdfpOlwjYI}}
+
+==Format==
+*'''Group Stage'''
+** Each team plays all other teams 4 times
+**All matches are {{Abbr/Bo1}}
+**Top 6 advance to playoffs 
+**Top 2 receive playoffs byes into the semifinals
+*'''Playoffs'''
+** Single Elimination {{Abbr/Bo5}} 
+* Top 3 Qualifies for [[World_Championship/2014|2014 World Championship]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1
+|lang2=usuk |twitch2=eulcs2
+|lang3=usuk |youtube3=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang4=de |twitch4=summonersinnlive
+|lang5=es |twitch5=lvpes
+|lang6=fr |twitch6=ogaminglol
+|lang7=fr |twitch7=eclypsiatvlol
+|lang8=hu |twitch8=magyarloltv
+|lang9=pl |twitch9=nervarien
+|lang10=pl |twitch10=teamfrenzygg
+}}
+===Talent===
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2014/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2014/Summer|edate=2014-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,362 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LEC%2F2019%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:19:24.908Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LEC 2019 Summer }}
+{{EU LCS Navbox}}
+{{LEC 2019 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LEC 2019 Summer 
+|shortname=2019 Summer 
+|tickername=LEC 2019 Summer
+|image=League of Legends European Championship lightmode.png
+|imagedark=League of Legends European Championship darkmode.png
+|series=LEC
+|icon=LEC lightmode.png
+|icondark=LEC darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=9.11
+|epatch=9.16
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Greece
+|city=Berlin
+|city2=Athens
+|venue=Nikos Galis Olympic Indoor Hall
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|localcurrency=EUR
+|prizepool=200,000
+|sdate=2019-06-07
+|edate=2019-09-08
+|liquipediatier=1
+|website=https://eu.lolesports.com/en
+|sponsor=[https://www.kia.com/ Kia Motors]
+|sponsor2=[https://www.alienware.com/ Alienware]
+|sponsor3=[https://www.shell.com/ Shell]
+|sponsor4=[https://www.footlocker.com/ Foot Locker]
+|sponsor5=[https://www.logitechg.com Logitech G]
+|sponsor6=[https://www.dxracer.com/ DXRacer]
+|rulebook=https://s3-eu-west-1.amazonaws.com/cdn.eu.lolesports.com/LEC+Rulebook+'19+(Updated_+18.01.2019).pdf
+|twitch=RiotGames
+|facebook=lolesports
+|twitter=LEC
+|youtube=lolesports
+|instagram=lolesports
+|team_number=10
+|previous=LEC/2019/Spring{{!}}2019 Spring 
+|next=LEC/2020/Spring{{!}}2020 Spring 
+}}
+The '''LEC 2019 Summer Split''' was the second split of the 2019 [[League of Legends European Championship season]], organized by Riot Games and held from June 7 to September 8, 2019. Ten permanent partner teams competed in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Single Elimination {{Abbr/Bo5}} Playoffs to determine the European champion. The winner of the split qualified for the [[World Championship/2019|2019 World Championship]] as Europe’s representative.
+
+This split continued the franchised LEC format introduced in [[LEC/2019/Spring|Spring]], maintaining the same ten permanent teams with no relegation. Matches were held in Berlin, Germany, and the Playoffs concluded at the Nikos Galis Olympic Indoor Hall in Athens, Greece.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool== 
+{{TeamPrizePool|localcurrency=eur|points=lec2019|cutafter=10
+|qualifies1=World_Championship/2019 |qualifies1name=Worlds
+|tournament1=LEC/2019/Summer/Group Stage |groupElimStatuses=stay
+|tournament2=LEC/2019/Summer/Playoffs
+|{{Slot |place=1 |points= |qualified1=true |localprize=80,000}}
+|{{Slot |place=2 |points=90 |localprize=50,000}}
+|{{Slot |place=3 |points=70 |localprize=30,000}}
+|{{Slot |place=4 |points=40 |localprize=20,000}}
+|{{Slot |place=5-6 |points=20 |localprize=10,000}}
+}}
+
+{{box|start|padding= 2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Jankos |flag1=pl |team1=g2 esports |date=2019-09-08}}
+{{prize pool slot award|award=Rookie of the Split |Inspired |flag1=pl |team1=rogue |date=2019-09-03}}
+{{prize pool slot award|award=Coach of the Split |GrabbZ |flag1=de |team1=g2 esports |date=2019-09-03}}
+{{prize pool slot award|award=1st All-Pro Team |date=2019-08-29
+|Wunder |flag1=dk |team1=g2 esports
+|Jankos |flag2=pl |team2=g2 esports
+|Caps |flag3=dk |team3=g2 esports
+|Perkz |flag4=hr |team4=g2 esports
+|Mikyx |flag5=si |team5=g2 esports
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2019-08-29
+|Alphari |flag1=uk |team1=origen
+|Xerxe |flag2=ro |team2=splyce
+|Humanoid |flag3=cz |team3=splyce
+|Upset |flag4=de |team4=schalke 04 esports
+|Hylissang |flag5=bg |team5=fnatic
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2019-08-29
+|Bwipo |flag1=be |team1=fnatic
+|Broxah |flag2=dk |team2=fnatic
+|Nemesis |flag3=si |team3=fnatic
+|Rekkles |flag4=se |team4=fnatic
+|IgNar |flag5=kr |team5=schalke 04 esports
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+===Group Stage MVP===
+{{MVPTable|useSmw=true|margin=false
+|tournament=LEC/2019/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+
+===Playoffs MVP===
+{{MVPTable|useSmw=true|margin=false
+|tournament=LEC/2019/Summer/Playoffs
+}}
+{{box|end}}
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Excel Esports
+|p1=Expect
+|p2=Caedrel
+|p3=Mickey
+|p4=Jeskla
+|p5=Mystiques
+
+|t2p1=Special |t2pos1=mid
+|t2p2=Hjarnan |t2pos2=adc
+|t2p3=KaSing |t2pos3=sup
+
+|t3p1=DLim |t3p1flag=ca |t3pos1=Head coach
+}}
+{{TeamCard
+|team=FC Schalke 04 Esports
+|p1=Odoamne
+|p2=Trick
+|p3=Abbedagge
+|p4=Upset
+|p5=IgNar
+
+|t2p1=Dylan Falco |t2pos1=coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo
+|p2=Broxah
+|p3=Nemesis
+|p4=Rekkles
+|p5=Hylissang
+
+|t2p1=MagiFelix |t2pos1=mid
+
+|t3p1=YoungBuck |t3pos1=Head Coach
+|t3p2=Mephisto |t3p2flag=fr |t3pos2=Assistant Coach
+|t3p3=Mapache |t3p3flag=es |t3pos3=Head Analyst
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Perkz
+|p5=Mikyx
+
+|t2p1=GrabbZ |t2pos1=Head Coach
+|t2p2=Duffman |t2p2flag=uk |t2pos2=Head Analyst
+|t2title=Staff
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=Dan Dan
+|p2=Kirei
+|p3=LIDER
+|p4=Hans Sama
+|p5=Hiiva
+
+|t2p1=sOAZ |t2pos1=top
+|t2p2=Maxlore |t2pos2=jungle
+|t2p3=Febiven |t2pos3=mid
+|t2p4=Neon |t2pos4=adc
+|t2p5=GorillA  |t2pos5=sup
+|t2p6=Doss |t2pos6=sup
+
+|t3p1=Moose |t3p1flag=ae |t3pos1=Head Coach
+|t3p2=Jesiz |t3pos2=Assistant Coach
+}}
+{{TeamCard
+|team=Origen
+|p1=Alphari
+|p2=Kold
+|p3=Nukeduck
+|p4=Patrik
+|p5=mithy
+
+|t2p1=Guilhoto |t2pos1=Head coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Rogue
+|p1=Finn
+|p2=Inspired
+|p3=Larssen
+|p4=Woolite
+|p5=Vander
+
+|t2p1=Profit |t2pos1=top
+|t2p2=HeaQ |t2pos2=adc
+
+|t3p1=fredy122 |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=Sacre
+|p2=Selfmade
+|p3=Jenax
+|p4=Crownshot
+|p5=Dreams |p5link=Dreams (Korean player)
+
+|t2p1=Pirean |t2pos1=mid
+
+|t3p1=Realistik |t3p1flag=ro |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Splyce
+|p1=Vizicsacsi
+|p2=Xerxe
+|p3=Humanoid
+|p4=Kobbe
+|p5=Norskeren
+
+|t2p1=Duke |t2p1link=Duke (French coach) |t2pos1=Head Coach
+|t2p2=Mac|t2pos2=assistant coach
+|t2p3=Peter Dun|t2pos3=coach
+|t2p4=Jensen Goh|t2pos4=coach
+|t2p5=GuySake|t2p5flag=fr|t2pos5=analyst
+|t2title=Staff
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard
+|p2=Mowgli
+|p3=Jiizuke
+|p4=Attila
+|p5=Jactroll
+
+|t2p1=YamatoCannon |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard columns end}}
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LEC/2019/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LEC/2019/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=QG5S4GNJ8P}}
+
+==Format==
+* '''Group Stage''' - ''June 7 - August 10''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 6th place will play the playoffs
+***1st and 2nd place are seeded into Round 3
+*** 3rd to 6th place are seeded into Round 1
+* '''Playoffs''' - ''August 23 - September 8''
+** Single Elimination
+** All matches are {{Abbr/Bo5}} 
+** Winner Qualifies for [[World Championship/2019|World Championship 2019]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=RiotGames
+|lang2=usuk |youtube2=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang3=fr |twitch3=ogaminglol
+|lang4=es |twitch4=lvpes
+|lang5=pl |twitch5=polsatgames
+|lang6=de |twitch6=summonersinnlive
+|lang7=it |twitch7=pg_esports
+}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz
+|b2=Excoundrel|b2name=Ceirnan Lowe|b2flag=uk
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Drakos
+|b2=Medic
+|b3=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Ender
+|b2=Foxdrop|b2name=Dan Wyatt|b2flag=gb
+|b3=Froskurinn 
+|b4=Vedius
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Playoffs Analyst
+|b1=YamatoCannon
+}}
+{{box|end|padding=2em}}
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="110"| 6
+! width="40"| 7
+! width="40"| 8
+! width="40"| 9
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="2" | [[Patch 9.11|9.11]]
+| colspan="1" | [[Patch 9.12|9.12]]
+| colspan="2" | [[Patch 9.13|9.13]]
+| colspan="2" | [[Patch 9.14|9.14]]
+| colspan="2" | [[Patch 9.15|9.15]]
+| colspan="1" | [[Patch 9.16|9.16]]
+|-
+| Disabled
+| colspan="2" |
+| colspan="1" | {{ChampionIcon|Mordekaiser|30px}}
+| colspan="1" | {{ChampionIcon|Karthus|30px}}
+| colspan="1" | {{ChampionIcon|Yuumi|30px}}
+| colspan="1" | {{ChampionIcon|Jayce|30px}}  {{ChampionIcon|Mordekaiser|30px}} {{ChampionIcon|Taliyah|30px}} 
+| colspan="1" | {{ChampionIcon|Mordekaiser|30px}}
+| colspan="2" |
+| colspan="1" | {{ChampionIcon|Pantheon|30px}}
+|}
+===Statistics===
+{{#lst:LEC/2019/Summer/Statistics|Champion Stats}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LEC/2019/Summer|edate=2019-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

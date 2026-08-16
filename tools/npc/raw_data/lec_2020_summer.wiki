@@ -1,0 +1,394 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LEC%2F2020%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:19:36.514Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LEC 2020 Summer }}
+{{EU LCS Navbox}}
+{{LEC 2020 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LEC 2020 Summer 
+|shortname=2020 Summer 
+|tickername=LEC 2020 Summer
+|image=League of Legends European Championship lightmode.png
+|imagedark=League of Legends European Championship darkmode.png
+|series=LEC
+|icon=LEC lightmode.png
+|icondark=LEC darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.alienware.com/ Alienware] <br> [https://www.beko.com/ Beko] <br> [https://www.erstegroup.com/en/home Erste Group] <br> [https://www.kia.com/ Kia] <br> [https://www.kitkat.com/ KitKat] <br> [https://www.logitechg.com/ Logitech G] <br> [https://www.redbull.com/ Red Bull] <br> [https://secretlab.co/ Secretlab]
+|patch=10.11
+|epatch=10.16
+|server=Europe
+|type=Online
+|country=Germany
+|city=Berlin
+|venue=
+|format='''Group Stage:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Double Elimination 
+|prizepoolusd=
+|localcurrency=EUR
+|prizepool=200,000
+|sdate=2020-06-12
+|edate=2020-09-06
+|liquipediatier=1
+|highlighted=|website=https://eu.lolesports.com/en
+|twitch=lec
+|facebook=lolesports
+|twitter=LEC
+|youtube=lolesports
+|instagram=lecofficial
+|team_number=10
+|previous=LEC/2020/Spring{{!}}2020 Spring 
+|next=LEC/2021/Spring{{!}}2021 Spring 
+}}
+The '''LEC 2020 Summer Split''' was the second split of the 2020 [[League of Legends European Championship]] season, organized by Riot Games and held from June 12 to September 6, 2020. The season featured ten permanent partner teams competing in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Double Elimination {{Abbr/Bo5}} Playoffs to determine the European champion.
+
+The top four teams from the Playoffs qualified for the [[World Championship/2020|2020 World Championship]], with the split winner claiming the first European seed. Due to the ongoing COVID-19 pandemic, the entire season, including the Playoffs, was played online for the first time in league history.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=eur|cutafter=10
+|qualifies1=World Championship/2020 |qualifies1name=Worlds
+|tournament1=LEC/2020/Summer/Group Stage |groupElimStatuses=stay
+|tournament2=LEC/2020/Summer/Playoffs
+|{{Slot |place=1 |qualified1=true |localprize=80,000}}
+|{{Slot |place=2  |qualified1=true |localprize=50,000}}
+|{{Slot |place=3  |qualified1=true  |localprize=30,000}}
+|{{Slot |place=4  |qualified1=true  |localprize=20,000}}
+|{{Slot |place=5  |localprize=12,500}}
+|{{Slot |place=6 |localprize=7500}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Caps |flag1=dk |team1=g2 esports |date=2020-09-06}}
+{{prize pool slot award|award=Rookie of the Split |Labrov |flag1=gr |team1=team vitality |date=2020-08-26}}
+{{prize pool slot award|award=Coach of the Split |Mac |flag1=uk |team1=mad lions |date=2020-08-26}}
+{{prize pool slot award|award=1st All-Pro Team |date=2020-08-19
+|Alphari |flag1=uk |team1=origen
+|Shad0w (Italian player){{!}}Shad0w |flag2=it |team2=mad lions
+|Caps |flag3=dk |team3=g2 esports
+|Patrik |flag4=cz |team4=excel esports
+|Kaiser |flag5=de |team5=mad lions
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2020-08-19
+|Wunder |flag1=dk |team1=g2 esports
+|Inspired |flag2=pl |team2=rogue
+|Larssen |flag3=se |team3=rogue
+|Hans sama |flag4=fr |team4=rogue
+|Vander |flag5=pl |team5=rogue
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2020-08-19
+|Orome |flag1=ro |team1=mad lions
+|Gilius |flag2=de |team2=fc schalke 04 esports
+|Humanoid |flag3=cz |team3=mad lions
+|Rekkles |flag4= se|team4=fnatic
+|Mikyx |flag5=slovenia |team5=g2 esports
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LEC/2020/Summer/Group Stage
+}}
+
+{{box|break|padding=4em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LEC/2020/Summer/Playoffs
+}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2020-04-19
+|edate=2020-06-12
+|team=excel esports 2018
+|team2=schalke
+|team3=fnatic
+|team4=g2
+|team5=msf
+|team6=origen
+|team7=rogue
+|team8=sk
+|team9=splyce
+|team10=vit
+|team11=excel esports 2019
+}}
+{{Transfer List
+|sdate=2020-06-12
+|edate=2020-09-06
+|team=excel esports 2018
+|team2=schalke
+|team3=fnatic
+|team4=g2
+|team5=msf
+|team6=origen
+|team7=rogue
+|team8=sk
+|team9=splyce
+|team10=vit
+|team11=excel esports 2019
+|title=Roster moves during the season
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Excel Esports
+|p1=Kryze
+|p2=Caedrel
+|p3=Special
+|p4=Patrik
+|p5=Tore
+
+|t2p1=YoungBuck |t2p1flag=nl |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=FC Schalke 04 Esports
+|p1=Odoamne
+|p2=Gilius
+|p3=Abbedagge
+|p4=Neon
+|p5=Dreams |p5link=Dreams (Korean player)
+
+|t2p1=Lurox |t2pos1=jng
+|t2p2=Innaxe |t2pos2=adc
+|t2p3=Nukes |t2pos3=sup
+
+|t3p1=Dylan Falco |t3p1flag=ca |t3pos1=Head Coach
+|t3p2=Rodrigo |t3p2flag=pt |t3p2link=RLT |t3pos2=Analyst
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo
+|p2=Selfmade
+|p3=Nemesis
+|p4=Rekkles
+|p5=Hylissang
+
+|t2p1=Mithy |t2p1flag=es |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Perkz
+|p5=Mikyx
+
+|t2p1=P1noy |t2pos1=adc
+
+|t3p1=GrabbZ |t3p1flag=de |t3pos1=Head Coach
+|t3p2=Duffman|t3pos2=analyst
+}}
+{{TeamCard
+|team=MAD Lions
+|p1=Orome
+|p2=Shad0w |p2link=Shad0w (Italian player)
+|p3=Humanoid
+|p4=Carzzy
+|p5=Kaiser
+
+|t2p1=Mac |t2p1flag=uk |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=Dan Dan
+|p2=Razork
+|p3=Febiven
+|p4=Kobbe
+|p5=Denyk
+
+|t2p1=Doss |t2pos1=sup
+
+|t3p1=Jandro |t3p1flag=es |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Origen
+|p1=Alphari
+|p2=Xerxe
+|p3=Nukeduck
+|p4=Upset
+|p5=Jactroll
+
+|t2p1=Destiny |t2p1link=Destiny (Australian player) |t2pos1=sup
+
+|t3p1=Guilhoto |t3p1flag=pt |t3pos1=Head Coach
+}}
+{{TeamCard
+|team=Rogue
+|p1=Finn
+|p2=Inspired
+|p3=Larssen
+|p4=Hans sama
+|p5=Vander
+
+|t2p1=fredy122 |t2p1flag=uk |t2pos1=Head Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=Jenax
+|p2=Trick
+|p3=ZaZee
+|p4=Crownshot
+|p5=LiMiT
+
+|t2p1=Jesiz |t2p1flag=dk |t2pos1=Head Coach
+|t2p2=Kanani |t2p2flag=de |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard
+|p2=Skeanz
+|p3=Milica
+|p4=Comp
+|p5=Labrov
+
+|t2p1=Nji |t2pos1=jng
+
+|t3p1=Duke |t3p1flag=fr |t3p1link=Duke (French coach) |t3pos1=Head Coach
+|t3p2=Mephisto |t3p2flag=fr |t3pos2=Assistant Coach
+}}
+{{TeamCard columns end}}
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LEC/2020/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LEC/2020/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=7IKEMJ96RB}}
+
+==Format==
+* '''Group Stage''' - ''June 12th - August 9th, 2020''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+
+* '''[[LEC/2020/Championship_Points|Championship Points]]'''
+**Teams are awarded points based on their performances in their respective Spring Playoffs and Summer Regular Season.
+**Points determine playoff seeding after participants are determined by summer placement.
+**If a team finishes in 7th-10th in summer they lose all of their points.
+**1st to 6th place will play the Playoffs
+
+* '''Playoffs''' - ''August 22nd - September 6th, 2020''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Top 4 teams qualify for [[World Championship/2020|World Championship 2020]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lec
+|lang2=usuk |youtube2=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang3=de |twitch3=summonersinnlive
+|lang4=fr |twitch4=ogaminglol
+|lang5=it |twitch5=pg_esports
+|lang6=es |twitch6=lvpes
+|lang7=hu |twitch7=esport2tv
+|lang8=pl |twitch8=polsatgames
+|lang9=pl |youtube9=channel/UCrPE9FDBnSMX6W5K0-r7K-g
+|lang10=pt |twitch10=inygontv1
+|lang11=kr |afreeca11=leclcs
+}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz
+|b2=Machine |b2name= Alex Richardson |b2flag=gb |b2link=counterstrike:Machine
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Drakos
+|b2=Medic
+|b3=Quickshot
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Froskurinn 
+|b2=Ender
+|b3=Vedius
+}}
+{{BroadcasterCard
+|position=Playoffs Analyst
+|b1=Caedrel
+|b2=YamatoCannon
+}}
+{{box|end|padding=2em}}
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="1" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-11-notes/ 10.11]
+| colspan="2" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-12-notes/ 10.12]
+| colspan="1" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-13-notes/ 10.13]
+| colspan="2" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-14-notes/ 10.14]
+| colspan="2" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-15-notes/ 10.15]
+| colspan="1" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-10-16-notes/ 10.16]
+|-
+| Disabled
+| colspan="1" |
+| colspan="2" |{{ChampionIcon|Annie|30px}}
+| colspan="3" |{{ChampionIcon|Diana|30px}}
+| colspan="1" |{{ChampionIcon|Lillia|30px}}
+| colspan="1" |
+| colspan="1" |{{ChampionIcon|Yone|30px}}
+|}
+
+===Pentakills===
+{|class="wikitable"
+!Date||Stage||Team||Vs.||Champion||Player||KDA|| VOD
+|-
+|2020-07-04||[[LEC/2020/Summer/Group_Stage|Group Stage]]||{{TeamIcon|team vitality}}|| {{TeamIcon|origen|}} ||[[File:Champion icon Ezreal.png|25x25px]] [[Ezreal]] ||{{player|Comp|pos=bot|flag=gr}} ||9/1/2||[https://youtu.be/4F3pPPO3aBg?t=2320 VOD]
+|}
+
+===Statistics===
+{{#lst:LEC/2020/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LEC/2020/Summer|edate=2020-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

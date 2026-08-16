@@ -1,0 +1,412 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FNorth%20America%2F2018%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:18:56.256Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:NA LCS 2018 Spring}}
+{{NA LCS Navbox}}
+{{NA LCS 2018 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=NA LCS 2018 Spring 
+|shortname=2018 Spring 
+|tickername=NA LCS 2018 Spring 
+|image=NA LCS 2018.png
+|series=NA LCS
+|icon=nalcslogo small.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=
+|epatch=
+|server=North America
+|type=offline
+|country=United States
+|country2=United States
+|city=Los Angeles 
+|city2=Miami
+|venue=Riot Games Studio
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2018-01-20
+|edate=2018-04-08
+|liquipediatier=1
+|highlighted=|rulebook=http://esports-assets.s3.amazonaws.com/production/files/rules/2018_LCS_LACS_Rules.pdf
+|website=http://www.lolesports.com/en_US/
+|twitch=RiotGames
+|team_number=10
+|previous=LCS/North_America/2017/Summer{{!}}2017 Summer 
+|next=LCS/North_America/2018/Summer{{!}}2018 Summer 
+}}
+
+The '''NA LCS 2018 Spring Split''' was the first franchised split of the [[North American League of Legends Championship Series]], organized by Riot Games. It ran from January 20 to April 8, 2018, with the Regular Season held in Los Angeles, United States, and the Playoffs in Miami, United States. Ten permanent partner teams competed in a Double Round Robin {{Abbr/Bo1}} Group Stage, followed by a Single Elimination {{Abbr/Bo5}} Playoff bracket. The total prize pool was $200,000 USD.The top three teams from the Playoffs qualified for the [[Rift Rivals/NA-EU/2018|2018 Rift Rivals]] tournament against the [[EU LCS]], and the Spring champion qualified for the [[Mid Season Invitational/2018|2018 Mid-Season Invitational]]. 
+
+This split marked the launch of the NA LCS franchising system, replacing relegation with permanent league slots. Teams will be selected from an application process and no longer have to face relegation or the promotion tournament. Additionally, the Challenger Series will be rebooted as an Academy League, where each NA LCS organization will field a team of developmental players. 
+
+''See [[NA LCS Franchising]] for further details.''
+
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=nalcs2018|cutafter=10
+|qualifies1=Mid Season Invitational/2018 |qualifies1name=MSI
+|qualifies2=Rift Rivals/NA-EU/2018 |qualifies2name=Rift Rivals 2018
+|tournament1=LCS/North America/2018/Spring/Playoffs
+|{{Slot |place=1 |points=90 |qualified1=yes |qualified2=yes |usdprize=100,000}}
+|{{Slot |place=2 |points=70 |qualified2=yes |usdprize=50,000}}
+|{{Slot |place=3 |points=50 |qualified2=yes |usdprize=30,000}}
+|{{Slot |place=4 |points=30 |qualified2=yes |usdprize=20,000}}
+|{{Slot |place=5-6 |points=10}}
+|{{Slot |place=7 |{{Opponent|clg|wdl=7/11|date=2018-03-19}}}}
+|{{Slot |place=8 |{{Opponent|fq|wdl=6/12|date=2018-03-19}}}}
+|{{Slot |place=9 |{{Opponent|optic|wdl=5/13|date=2018-03-19}}}}
+|{{Slot |place=10 |{{Opponent|ggs|wdl=4/14|date=2018-03-19}}}}
+}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Aphromoo|flag1=us |team1=100 thieves |date=2018-04-07}}
+{{prize pool slot award|award=Rookie of the Split |Licorice |flag1=ca |team1=c9 |date=2018-03-31}}
+{{prize pool slot award|award=Coach of the Split |pr0lly |flag1=us |team1=100 |date=2018-03-31}}
+{{prize pool slot award|award=1st All-Pro Team |date=2018-03-24
+|Huni |flag1=kr |team1=efx
+|Dardoch |flag2=us |team2=efx
+|Bjergsen |flag3=dk |team3=tsm
+|Cody Sun |flag4=us |team4=100
+|Aphromoo |flag5=us |team5=100
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2018-03-24
+|Hauntzer |flag1=us |team1=tsm
+|Meteos |flag2=us |team2=100
+|Jensen |flag3=dk |team3=c9
+|Zven |flag4=dk |team4=tsm
+|Smoothie |flag5=ca |team5=c9
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2018-03-24
+|Ssumday |flag1=kr |team1=100
+|Svenskeren |flag2=dk |team2=c9
+|Febiven |flag3=nl |team3=clutch gaming
+|Sneaky |flag4=us |team4=c9
+|Hakuho |flag5=us |team5=clutch gaming
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=5|margin=false|tier=weekly|opentext=OP 5 - Weeks 2 to 9}}
+{{prize pool slot award|award=OP 5 - Week 1 |date=2018-01-21
+|Huni |flag1=kr |team1=efx
+|Dardoch |flag2=us |team2=efx
+|Jensen |flag3=dk |team3=c9
+|Doublelift |flag4=us |team4=tl
+|Aphromoo |flag5=us |team5=100 thieves
+}}
+{{prize pool slot award|award=OP 5 - Week 2 |date=2018-01-28
+|Darshan |flag1=ca |team1=clg
+|Dardoch |flag2=us |team2=efx
+|Fenix |flag3=kr |team3=efx
+|Sneaky |flag4=us |team4=c9
+|Smoothie |flag5=ca |team5=c9
+}}
+{{prize pool slot award|award=OP 5 - Week 3 |date=2018-02-04
+|Hauntzer |flag1=us |team1=tsm
+|Xmithie |flag2=us |team2=tl
+|Pobelter |flag3=us |team3=tl
+|Doublelift |flag4=us |team4=tl
+|Smoothie |flag5=ca |team5=c9
+}}
+{{prize pool slot award|award=OP 5 - Week 4 |date=2018-02-11
+|Flame |flag1=kr |team1=flyquest
+|Dardoch |flag2=us |team2=echo fox
+|Jensen |flag3=dk |team3=c9
+|Zven |flag4=dk |team4=tsm
+|Smoothie |flag5=ca |team5=c9
+}}
+{{prize pool slot award|award=OP 5 - Week 5 |date=2018-02-18
+|Huni |flag1=kr |team1=efx
+|Dardoch |flag2=us |team2=efx
+|PowerOfEvil |flag3=de |team3=optic
+|Altec |flag4=ca |team4=efx
+|Hakuho |flag5=us |team5=clutch gaming
+}}
+{{prize pool slot award|award=OP 5 - Week 6 |date=2018-02-25
+|Licorice |flag1=us |team1=c9
+|Meteos |flag2=us |team2=100 thieves
+|Bjergsen |flag3=dk |team3=tsm
+|Zven |flag4=dk |team4=tsm
+|Aphromoo |flag5=us |team5=100 thieves
+}}
+{{prize pool slot award|award=OP 5 - Week 7 |date=2018-03-04
+|Impact |flag1=kr |team1=tl
+|Dardoch |flag2=us |team2=efx
+|Febiven |flag3=nl |team3=clutch gaming
+|Stixxay |flag4=us |team4=clg
+|Biofrost |flag5=ca |team5=clg
+}}
+{{prize pool slot award|award=OP 5 - Week 8 |date=2018-03-11
+|Ssumday |flag1=kr |team1=100 thieves
+|MikeYeung |flag2=us |team2=tsm
+|Bjergsen |flag3=dk |team3=tsm
+|Stixxay |flag4=us |team4=clg
+|Biofrost |flag5=ca |team5=clg
+}}
+{{prize pool slot award|award=OP 5 - Week 9 |date=2018-03-18
+|Ssumday |flag1=kr |team1=100 thieves
+|Meteos |flag2=us |team2=100 thieves
+|Bjergsen |flag3=dk |team3=tsm
+|Zven |flag4=dk |team4=tsm
+|Aphromoo |flag5=us |team5=100 thieves
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+==={{HiddenSort|MVP Table}}===
+{{MVPTable|useSmw=true|margin=false
+|tournament=LCS/North_America/2018/Spring/Group Stage
+}}
+
+{{box|end}}
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday|p1flag=kr
+|p2=Meteos|p2flag=us
+|p3=Ryu|p3flag=kr
+|p4=Cody Sun|p4flag=
+|p5=Aphromoo|p5flag=us
+|t2p1=Kaizen|t2p1flag=us|t2p1dnp=true
+|t2p2=Levi|t2p2dnp=true
+|t2p3=Kitzuo|t2p3flag=us|t2pos3=jg|t2p3dnp=true
+|t2p4=Linsanity|t2p4flag=us|t2pos4=mid|t2p4dnp=true
+|t2p5=Rikara|t2p5flag=us|t2pos5=ad|t2p5dnp=true
+|t2p6=Whyin|t2p6flag=us|t2pos6=sup|t2p6dnp=true
+|t3p1=pr0lly|t3p1flag=us|t3pos1=head coach
+|t3p2=Reinfcmnt|t3p2flag=us|t3pos2=performance coach
+|t3p3=Stardust|t3p3flag=kr|t3pos3=coach |t3p3link=Stardust (Korean player)
+|t2title=Academy
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Licorice|p1flag=ca
+|p2=Svenskeren|p2flag=dk
+|p3=Jensen|p3flag=dk
+|p4=Sneaky| p4flag=us
+|p5=Smoothie|p5flag=ca
+|t2p1=Shiro|t2p1flag=us|t2p1dnp=true|t2p1link=Shiro (American player)
+|t2p2=Wiggily|t2p2flag=us|t2p2dnp=true
+|t2p3=Goldenglue|t2p3flag=us|t2p3dnp=true
+|t2p4=Keith|t2p4flag=us|t2p4dnp=true
+|t2p5=Zeyzal|t2p5flag=us|t2p5dnp=true
+|t3p1=Reapered|t3p1flag=kr|t3pos1=head coach
+|t3p2=Robin|t3p2flag=kr|t3pos2=analyst
+|t3p3=Platypus|t3p3flag=ca|t3pos3=analyst
+|t2title=Academy
+}}
+{{TeamCard
+|team=Clutch Gaming
+|p1=Solo|p1flag=us
+|p2=LirA|p2flag=kr
+|p3=Febiven|p3flag=nl
+|p4=Apollo|p4flag=us
+|p5=Hakuho|p5flag=us
+|t2p1=Maxtrobo|t2p1flag=ca|t2p1dnp=true
+|t2p2=Moon|t2p2flag=us|t2p2link=Moon (American player)|t2p2dnp=true
+|t2p3=Sun|t2p3flag=us|t2p3dnp=true|t2p3link=Sun (American player)
+|t2p4=Eclipse|t2p4link=Eclipse (American player)|t2p4flag=us|t2p4dnp=true
+|t2p5=Piglet|t2p5flag=kr|t2pos5=ad|t2p5dnp=true
+|t2p6=Vulcan|t2p6flag=ca|t2pos6=sup|t2p6dnp=true
+|t3p1=Dlim|t3p1flag=ca|t3pos1=head coach
+|t3p2=Curry|t3p2flag=us|t3pos2=coach
+|t3p3=Empyre|t3p3flag=kw|t3pos3=analyst
+|t2title=Academy
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Darshan|p1flag=ca
+|p2=Reignover|p2flag=kr
+|p3=Huhi|p3flag=fr
+|p4=Stixxay|p4flag=us
+|p5=Biofrost|p5flag=chn
+|t2p1=fallenbandit|t2p1flag=us|t2p1dnp=true
+|t2p2=OmarGod|t2p2flag=us|t2p2dnp=true
+|t2p3=Tuesday|t2p3flag=ca|t2p3dnp=true|t2p3link=Tuesday (Canadian player)
+|t2p4=Auto|t2p4flag=us|t2p4dnp=true
+|t2p5=Fill|t2p5flag=us|t2p5dnp=true
+|t3p1=Zikz|t3p1flag=us|t3pos1=head coach
+|t2title=Academy
+}}
+{{TeamCard
+|team=Echo Fox
+|p1=Huni|p1flag=kr
+|p2=Dardoch|p2flag=us
+|p3=Fenix|p3flag=kr
+|p4=Altec|p4flag=ca
+|p5=Adrian|p5flag=us
+|t2p1=Allorim|t2p1flag=us|t2p1dnp=true
+|t2p2=TheOddOrange|t2p2flag=us|t2p2dnp=true
+|t2p3=Damonte|t2p3flag=us
+|t2p4=Lost|t2p4flag=nz|t2p4dnp=true
+|t2p5=Papa Chau|t2p5flag=us
+|t3p1=Inero|t3p1flag=us|t3pos1=head coach
+|t3p2=Peter|t3p2link=Peter Zhang|t3p2flag=cn|t3pos2=assistant coach
+|t2title=Academy
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Flame|p1flag=kr
+|p2=AnDa|p2flag=ca
+|p3=Fly|p3flag=kr|p3link=Fly (Song Yong-jun)
+|p4=WildTurtle|p4flag=
+|p5=Stunt|p5flag=us
+|t2p1=Ngo|t2p1flag=ca|t2p1dnp=true
+|t2p2=Shrimp|t2p2flag=kr
+|t2p3=Keane|t2p3flag=kr
+|t2p4=Erry|t2p4flag=ca|t2p4dnp=true
+|t2p5=JayJ|t2p5flag=ca
+|t3p1=Robert Yip|t3p1flag=ie|t3pos1=head coach
+|t3p2=RapidStar|t3p2flag=kr|t3pos2=strategic coach
+|t2title=Academy
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Lourlo|p1flag=us
+|p2=Contractz|p2flag=us
+|p3=Hai|p3flag=us
+|p4=Deftly|p4flag=us
+|p5=Matt|p5flag=us
+|t2p1=Jenkins|t2p1flag=us|t2p1dnp=true
+|t2p2=Potluck|t2p2flag=ca|t2p2dnp=true
+|t2p3=Bobqin|t2p3flag=ca|t2p3dnp=true
+|t2p4=Jurassiq|t2p4flag=us|t2p4dnp=true
+|t2p5=Xpecial|t2p5flag=us|t2p5dnp=true
+|t3p1=Locodoco|t3p1flag=kr|t3pos1=head coach|t3p1leave=true
+|t3p2=Akiri|t3p2flag=us|t3pos2=head coach
+|t3p3=Real|t3p3flag=us|t3pos3=assistant coach
+|t2title=Academy
+}}
+{{TeamCard
+|team=OpTic Gaming
+|p1=Zig|p1flag=ca
+|p2=Akaadian|p2flag=us
+|p3=PowerOfEvil|p3flag=
+|p4=Arrow|p4flag=kr
+|p5=LemonNation|p5flag=us
+|t2p1=Dhokla|t2p1flag=us
+|t2p2=PieCakeLord|t2p2flag=ua|t2pos2=Top|t2p2dnp=true
+|t2p3=Kadir|t2p3flag=nl|t2pos3=Jungle|t2p3dnp=true
+|t2p4=Palafox|t2p4flag=us|t2pos4=Mid|t2p4dnp=true
+|t2p5=Andy|t2p5flag=us|t2pos5=ADC|t2p5dnp=true
+|t2p6=Winter|t2p6link=Winter (Olivier Lapointe)|t2p6flag=ca|t2pos6=Support|t2p6dnp=true
+|t3p1=Zaboutine|t3p1flag=fr|t3pos1=head coach
+|t2title=Academy
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact|p1flag=kr
+|p2=Xmithie|p2flag=us
+|p3=Pobelter|p3flag=us
+|p4=Doublelift|p4flag=us
+|p5=Olleh|p5flag=kr
+|t2p1=Viper|t2p1flag=ca|t2p1link=Viper (Canadian player)|t2p1dnp=true
+|t2p2=Hard|t2p2flag=ca|t2p2dnp=true
+|t2p3=Mickey|t2p3flag=kr|t2p3dnp=true
+|t2p4=Shoryu|t2p4flag=ca|t2p4dnp=true
+|t2p5=Joey|t2p5flag=us|t2p5dnp=true
+|t3p1=Cain|t3p1flag=kr|t3pos1=head coach
+|t3p2=Dodo|t3p2flag=kr|t3pos2=assistant coach
+|t3p3=Kevin Bracken|t3p3flag=us|t3pos3=analyst
+|t2title=Academy
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Hauntzer|p1flag=us
+|p2=MikeYeung|p2flag=us
+|p3=Bjergsen|p3flag=dk
+|p4=Zven|p4flag=dk
+|p5=mithy|p5flag=es
+|t2p1=Brandini|t2p1flag=us|t2p1dnp=true
+|t2p2=Grig|t2p2flag=us|t2p2dnp=true
+|t2p3=Ablazeolive|t2p3flag=ca|t2p3dnp=true
+|t2p4=MrRalleZ|t2p4flag=dk|t2p4dnp=true
+|t2p5=Shady|t2p5flag=us|t2p5dnp=true
+|t3p1=SSONG|t3p1flag=kr|t3pos1=head coach
+|t3p2=Lustboy|t3p2flag=kr|t3pos2=strategic coach
+|t2title=Academy
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#section:LCS/North_America/2018/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LCS/North America/2018/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=3NNDT28H42}}
+
+==Format==
+* Group Stage
+**Double Round Robin, {{Abbr/Bo1}}
+*** {{bgcolortext|seedup|''1st and 2nd place''}} advance to the Semifinals of Playoffs.
+*** {{bgcolortext|up|''3rd till 6th place''}} advance to the Quarterfinals of Playoffs.
+*Playoffs
+** Single Elimination {{Abbr/Bo5}} 
+** Top 3 qualifies for [[Rift_Rivals/2018/NA-EU|Rift Rivals 2018 - NA vs EU]]
+** Winner qualifies for [[Mid Season Invitational/2018|Mid Season Invitational 2018]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=RiotGames |youtube1=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang2=fr |twitch2=ogaminglol
+|lang3=pl |twitch3=esl_lol_pl
+}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash|b1name=James Patterson|b1flag=us
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Ovilee |b1name=Ovilee May|b1flag=us
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=MarkZ|b1name=Mark Zimmerman|b1flag=us
+|b2=Jatt|b2name=Joshua Leesman|b2flag=ca
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=CaptainFlowers |b1name=Clayton Raines|b1flag=ca
+|b2=Azael|b2name=Isaac Cummings Bentley|b2flag=ca
+|b3=Kobe|b3name=Sam Hartman-Kenzler|b3flag=us
+|b4=Pastrytime|b4name=Julian Carr|b4flag=au
+|b5=Phreak|b5name=David Turley|b5flag=us
+|b6=Rivington|b6name=Rivington Bruce Bisland III|b6flag=us
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/North America/2018/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/North_America/2018/Spring|edate=2018-05-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

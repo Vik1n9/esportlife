@@ -1,0 +1,381 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LEC%2F2021%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:19:48.147Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LEC 2021 Summer }}
+{{EU LCS Navbox}}
+{{LEC 2021 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LEC 2021 Summer 
+|shortname=2021 Summer 
+|tickername=LEC 2021 Summer
+|image=League of Legends European Championship lightmode.png
+|imagedark=League of Legends European Championship darkmode.png
+|series=LEC
+|icon=LEC lightmode.png
+|icondark=LEC darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[http://www.logitechg.com/ Logitech G] <br> [http://www.redbull.com/ Red Bull] <br> [https://secretlab.eu/ Secretlab] <br> [http://www.sap.com/ SAP] <br> [https://www.beko.com/ Beko] <br> [https://www.kitkat.com/ KitKat] <br> [https://kia.com/ Kia] <br> [http://www.mastercard.com/ Mastercard] <br> [http://www.erstegroup.com/ Erste Group]
+|patch=
+|epatch=
+|server=Europe
+|type=Online/Offline
+|country=Germany
+|city=Berlin
+|venue=LEC Studio
+|format='''Group Stage:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepool=200,000
+|localcurrency=eur
+|prizepoolusd=
+|sdate=2021-06-11
+|edate=2021-08-29
+|liquipediatier=1
+|highlighted=|website=https://eu.lolesports.com/en
+|twitch=lec
+|facebook=lolesports
+|twitter=LEC
+|youtube=LEC
+|instagram=lecofficial
+|team_number=10
+|previous=LEC/2021/Spring{{!}}2021 Spring 
+|next=LEC/2022/Spring{{!}}2022 Spring 
+}}
+The '''LEC 2021 Summer''' Split was organized by Riot Games and held in Berlin, Germany, from June 11 to August 29, 2021. Ten teams competed in a Double Round Robin Best-of-One format during the regular season, followed by a Double Elimination Best-of-Five Playoff. The split featured a total prize pool of €200,000, with the top three teams qualifying for the [[World Championship/2021|2021 World Championship]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=eur|cutafter=10
+|qualifies1=World Championship/2021 |qualifies1name=Worlds
+|tournament1=LEC/2021/Summer/Group Stage |groupElimStatuses=stay
+|tournament2=LEC/2021/Summer/Playoffs
+|{{Slot |place=1 |qualified1=true |localprize=80,000}}
+|{{Slot |place=2 |qualified1=true|localprize=50,000}}
+|{{Slot |place=3 |qualified1=true|localprize=30,000}}
+|{{Slot |place=4  |localprize=20,000}}
+|{{Slot |place=5 |localprize=12,500}}
+|{{Slot |place=6 |localprize=7500}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=9|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Inspired |flag1=pl |team1=rge |date=2021-08-28}}
+{{prize pool slot award|award=Rookie of the Split |Adam |flag1=fr |team1=fnc |date=2021-08-27}}
+{{prize pool slot award|award=Coaching Team of the Split |fredy122 |Blumigan |flag1=uk |flag2=se |team1=rge |team2=rge |date=2021-08-25}}
+{{prize pool slot award|award=1st All-Pro Team |date=2021-08-24
+|Odoamne |flag1=ro |team1=rge
+|Inspired |flag2=pl |team2=rge
+|Caps |flag3=dk |team3=g2
+|Rekkles |flag4=se |team4=g2
+|Mikyx |flag5=si |team5=g2
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2021-08-24
+|Adam |flag1=fr |team1=fnc
+|Jankos |flag2=pl |team2=g2
+|Humanoid |flag3=cz |team3=madl
+|Hans sama |flag4=fr |team4=rge
+|Hylissang |flag5=bg |team5=fnc
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2021-08-24
+|Wunder |flag1=dk |team1=g2
+|Bwipo |flag2=be |team2=fnc
+|Nisqy |flag3=be |team3=fnc
+|Upset |flag4=de |team4=fnc
+|Kaiser |flag5=de |team5=madl
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LEC/2021/Summer/Group Stage
+}}
+
+{{box|break|padding=4em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LEC/2021/Summer/Playoffs
+}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Astralis
+|p1=WhiteKnight
+|p2=Zanzarah
+|p3=MagiFelix
+|p4=Jeskla
+|p5=promisq
+
+|t3p1=AoD |t3p1flag=ro |t3pos1=Head Coach
+|t3p2=iHansen |t3p2flag=no |t3pos2=Assistant Coach
+|t3p3=Lars Robl |t3p3flag=dk |t3pos3=Performance Coach
+|t3p4=Arailla |t3p4flag=fr |t3pos4=analyst
+|t2title=Staff
+}}
+{{TeamCard
+|team=Excel Esports
+|notes=3
+|p1=Kryze
+|p2=Markoon
+|p3=nukeduck
+|p4=Patrik
+|p5=Advienne
+
+|t2p1=Dan |t2p1link=Dan (British player) |t2pos1=jg
+|t2p2=Denyk |t2pos2=sup
+|t2title=Substitutes
+
+|t3p1=YoungBuck |t3pos1=Head Coach
+|t3p2=Unlimited |t3pos2=Assistant Coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=FC Schalke 04 Esports
+|p1=BrokenBlade
+|p2=Kirei
+|p3=NUCLEARINT
+|p4=Neon
+|p5=LIMIT
+
+|t2p1=Gilius |t2pos1=jg |t2p1dnp=true 
+
+|t3p1=Dylan Falco |t3pos1=Head Coach
+|t3p2=Rodrigo |t3p2flag=pt |t3p2link=rLT |t3pos2=analyst
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Adam
+|p2=Bwipo
+|p3=Nisqy
+|p4=Upset
+|p5=Hylissang
+
+|t2p1=YamatoCannon |t2pos1=Head Coach
+|t2p2=Shaves |t2p2flag=uk |t2pos2=Strategic Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Rekkles
+|p5=Mikyx
+
+|t2p1=GrabbZ |t2pos1=Head Coach
+|t2p2=Nelson |t2p2flag=sg |t2pos2=Strategic Coach
+|t2p3=Duffman|t2pos3=analyst
+|t2title=Staff
+}}
+{{TeamCard
+|team=MAD Lions
+|p1=Armut
+|p2=Elyoya
+|p3=Humanoid
+|p4=Carzzy
+|p5=Kaiser
+
+|t2p1=Mac |t2pos1=Head Coach
+|t2p2=Kaas |t2pos2=Strategic Coach
+|t2p3=Pad |t2pos3=assistant coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=HiRit
+|p2=Razork
+|p3=Vetheo
+|p4=Kobbe
+|p5=Vander
+
+|t2p1=Candyfloss |t2pos1=Head Coach
+|t2p2=xani |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Rogue
+|p1=Odoamne
+|p2=Inspired
+|p3=Larssen
+|p4=Hans sama
+|p5=Trymbi
+
+|t2p1=fredy122 |t2pos1=Head Coach
+|t2p2=Blumigan |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=SK Gaming
+|notes=1,2
+|p1=Jenax
+|p2=Treatz
+|p3=Blue
+|p4=Jezu
+|p5=Lilipp
+
+|t2p1=Twohoyrz |t2pos1=mid
+|t2p2=Jesiz |t2pos2=sup
+
+|t3p1=Jesiz |t3pos1=Head Coach
+|t3p2=Tom |t3p2link=Tom (British player) |t3p2flag=uk |t3pos2=Assistant Coach
+}}
+{{TeamCard
+|team=Team Vitality
+|notes=4
+|p1=Szygenda
+|p2=Selfmade
+|p3=LIDER
+|p4=Crownshot
+|p5=Labrov
+
+|t2p1=SLT |t2pos1=top
+
+|t3p1=Tasz |t3p1flag=pl |t3pos1=Head Coach
+|t3p2=Mephisto |t3pos2=Assistant Coach
+}}
+{{TeamCard columns end}}
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LEC/2021/Summer/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LEC/2021/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LEC/2021/Summer/Playoffs|Playoffs}}
+
+
+==Format==
+* '''Group Stage''' - ''June 11th - August 1st, 2021''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+
+* '''[[LEC/2021/Championship_Points|Championship Points]]'''
+**Teams are awarded points based on their performances in their respective Spring Playoffs and Summer Regular Season.
+**Points determine playoff seeding after participants are determined by summer placement.
+**If a team finishes in 7th-10th in summer they lose all of their points.
+**1st to 6th place will play the Playoffs
+
+* '''Playoffs''' - ''August 13th - August 29th, 2021''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Top 3 teams qualify for [[World Championship/2021|World Championship 2021]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lec |youtube1=LEC
+|lang2=de |twitch2=summonersinnlive
+|lang3=fr |twitch3=otplol_
+|lang4=it |twitch4=pg_esports
+|lang5=es |twitch5=lvpes
+|lang6=cz |twitch6=hitpointcz
+|lang7=hu |twitch7=esport2tv
+|lang8=nl |twitch8=esportsprimelol
+|lang9=pl |twitch9=polsatgames
+|lang10=pt |twitch10=inygontv1
+|lang11=ru |twitch11=riotgamesru
+|lang12=rs |trovo12=FortunaEsports
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz
+|b2=Machine |b2name=Alex Richardson |b2flag=gb |b2link=counterstrike:Machine
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii
+|b2=Ashley Kang
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Drakos
+|b2=Medic
+|b3=Quickshot
+}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Caedrel
+|b2=Vedius
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Guest Caster and Analyst
+|b1=Ender
+|b2=Excoundrel
+|b3=Foxdrop
+|b4=Guldborg
+|b5=Hiprain
+|b6=Jamada
+|b7=Troubleinc
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="1" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-11-notes/ 11.11]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-12-notes/ 11.12]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-13-notes/ 11.13]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-14-notes/ 11.14]
+| colspan="2" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-11-15-notes/ 11.15]
+|-
+| Disabled
+| colspan="1" | {{SpellIcon|Hexflash|30px}}
+| colspan="1" | {{ChampionIcon|Dr. Mundo|30px}}
+| colspan="1" |
+| colspan="1" | {{ChampionIcon|Tahm Kench|30px}}
+| colspan="3" |
+| colspan="2" | {{ChampionIcon|Akshan|30px}}
+|}
+===Pentakills===
+{|class="wikitable"
+!Date||Stage||Team||Vs.||Champion||Player||KDA|| VOD
+|-
+|2021-08-13||[[LEC/2021/Summer/Playoffs|Playoffs]]|| {{TeamIcon|rogue}} || {{TeamIcon|misfits gaming}} ||[[File:Champion icon Viego.png|25x25px]] [[Viego]] ||{{player|Inspired|pos=jg|flag=pl}} ||10/0/6||[https://youtu.be/imCIUWI5sZ8?t=2245 VOD]
+|}
+
+===Statistics===
+{{#lst:LEC/2021/Summer/Statistics|Champion Stats}}
+
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LEC/2021/Summer|edate=2021-12-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

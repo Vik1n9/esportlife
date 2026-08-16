@@ -1,0 +1,388 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LEC%2F2021%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:19:43.453Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LEC 2021 Spring }}
+{{EU LCS Navbox}}
+{{LEC 2021 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LEC 2021 Spring 
+|shortname=2021 Spring 
+|tickername=LEC 2021 Spring
+|image=League of Legends European Championship lightmode.png
+|imagedark=League of Legends European Championship darkmode.png
+|series=LEC
+|icon=LEC lightmode.png
+|icondark=LEC darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=''Main Partners'' <br> [https://www.erstegroup.com/ Erste Group] <br> [https://www.kia.com/ Kia] <br> [https://www.kitkat.com/ KitKat] <br> ''Official Suppliers'' <br> [https://www.beko.com/ Beko] <br> [https://www.logitechg.com/ Logitech G] <br> [https://www.redbull.com/ Red Bull] <br> [https://secretlab.co/ Secretlab] <br> ''Music Partner'' <br> [https://www.wmg.com/ Warner Music Group]
+|patch=11.1
+|epatch=11.6
+|server=Europe
+|type=Online/Offline
+|country=Germany
+|city=Berlin
+|venue=LEC Studio
+|format='''Group Stage:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepool=200,000
+|localcurrency=eur
+|prizepoolusd=
+|sdate=2021-01-22
+|edate=2021-04-11
+|liquipediatier=1
+|highlighted=|website=https://eu.lolesports.com/en
+|twitch=lec
+|facebook=lolesports
+|twitter=LEC
+|youtube=LEC
+|instagram=lecofficial
+|team_number=10
+|previous=LEC/2020/Summer{{!}}2020 Summer 
+|next=LEC/2021/Summer{{!}}2021 Summer 
+}}
+
+The '''LEC 2021 Spring''' was the first split of the 2021 season, organized by Riot Games and held from January 22 to April 11, 2021. Ten franchised teams competed in an online/offline hybrid season broadcast from Berlin, Germany, featuring a Double Round Robin Best-of-One Group Stage followed by a Double Elimination Best-of-Five Playoff. The split champion qualified for the [[Mid-Season Invitational/2021|2021 Mid-Season Invitational]] as Europe’s representative.
+
+During the off-season, [[Astralis]] announced their plans to retire the [[Origen]] brand, retiring it after competing in ''League of Legends'' for a total of 6 years <ref name="astralis rebrand 2020">{{cite web|url=https://www.astralis.gg/post/league-of-legends-the-astralis-way|title=League of Legends - The Astralis Way|publisher=[[Astralis]]|date=2020-09-15|language={{Flag|usuk}} English}}</ref>. On the 18th of November, {{player|Rekkles|flag=se}} left [[Fnatic]] after playing for them for 6 years <ref name="rekkles leaves 3rd">{{cite web |url=https://twitter.com/FNATIC/status/1329157029462757378|title=After an incredible career in the black and orange, Martin "Rekkles" Larsson has decided to move on from Fnatic.|date=2020-11-18|publisher=[[Fnatic]]|language={{Flag|usuk}} English}}</ref>. He joined [[G2 Esports]] to team up with former [[Fnatic]] teammate {{player|Caps|flag=dk}} <ref name="Rekkles joins">{{cite web |url=https://twitter.com/G2esports/status/1329816841733214213|title=A dream come true|author=[[G2 Esports]] |publisher=Twitter|date=2020-11-20}}</ref>. On the 20th of November, {{player|Perkz|flag=hr}} officially parted ways with [[G2 Esports]], joining North American team [[Cloud9]] <ref name="Perkz joins">{{cite web|url=https://twitter.com/Cloud9/status/1329847234209345536|title=We are bringing the most accomplished and most impactful Western player in the history of League of Legends to #C9LoL.|date=2020-11-20|author=[[Cloud9]]|publisher=Twitter|language={{Flag|usuk}} English}}</ref>.
+
+Former [[Excel Esports]] jungler {{player|Caedrel|flag=uk}} announced his retirement on the 3rd of November, joining the ''LEC'' analyst desk for the 2021 spring season <ref name="Caedrel leaves">{{cite web |url=https://twitter.com/Caedrel/status/1323624029085933570 |title=Announcement |date=2020-11-03|publisher=Twitter |author=[[Caedrel]] |language={{Flag|usuk}} English}}</ref>. Retiring on the 6th of January was [[SK Gaming]] jungler {{player|Trick|flag=kr}} <ref name="Trick retires">{{cite web |url=https://twitter.com/Tricklol12/status/1346809395347222534 |title=Bye progamer life maybe esports life was really fun and i had good experience |date=2021-01-06 |author=[[Trick]] |publisher=Twitter |language={{Flag|uk}} English}}</ref>.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+{{TeamPrizePool|localcurrency=eur|points=lec2021|cutafter=10
+|qualifies1=Mid-Season Invitational/2021 |qualifies1name=MSI
+|tournament1=LEC/2021/Spring/Group Stage |groupElimStatuses=stay
+|tournament2=LEC/2021/Spring/Playoffs
+|{{Slot |place=1 |points=90 |qualified1=true |localprize=80,000}}
+|{{Slot |place=2 |points=70 |localprize=50,000}}
+|{{Slot |place=3 |points=50 |localprize=30,000}}
+|{{Slot |place=4 |points=30 |localprize=20,000}}
+|{{Slot |place=5 |points=20 |localprize=12,500}}
+|{{Slot |place=6 |points=10 |localprize=7500}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Rekkles |flag1=se |team1=g2 |date=2021-04-10}}
+{{prize pool slot award|award=Rookie of the Split |Elyoya |flag1=es |team1=madl |date=2021-04-11}}
+{{prize pool slot award|award=Coaching Team of the Split |tbd |flag1= |team1=rge |date=2021-04-10}}
+{{prize pool slot award|award=1st All-Pro Team |date=2021-04-11
+|Wunder |flag1=dk |team1=g2
+|Jankos |flag2=pl |team2=g2
+|Caps |flag3=dk |team3=g2
+|Rekkles |flag4=se |team4=g2
+|Mikyx |flag5=si |team5=g2
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2021-04-11
+|Odoamne |flag1=ro |team1=rge
+|Inspired |flag2=pl |team2=rge
+|Larssen |flag3=se |team3=rge
+|Hans sama |flag4=fr |team4=rge
+|Hylissang |flag5=bg |team5=fnc
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2021-04-11
+|Bwipo |flag1=be |team1=fnc
+|Elyoya |flag2=es |team2=madl
+|Humanoid |flag3=cz |team3=madl
+|Upset |flag4=de |team4=fnc
+|Kaiser |flag5=de |team5=madl
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LEC/2021/Spring/Group Stage
+}}
+
+{{box|break|padding=4em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LEC/2021/Spring/Playoffs
+}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Astralis
+|p1=WhiteKnight
+|p2=Zanzarah
+|p3=MagiFelix
+|p4=Jeskla
+|p5=promisq
+
+|t2p1=nukeduck |t2pos1=mid
+
+|t3p1=AoD |t3p1flag=ro |t3pos1=Head Coach
+|t3p2=iHansen |t3p2flag=no |t3pos2=Assistant Coach
+|t3p3=Lars Robl |t3p3flag=dk |t3pos3=Performance Coach
+|t3p4=Arailla |t3p4flag=fr |t3pos4=analyst
+|inotes={{NoteBig
+|n1=September 15th, 2019 - [[Origen]] rebrands to [[Astralis]].<ref>{{cite web |url=https://astralis.gg/post/one-brand-one-family |title=One Brand. One Family. |author=[[Astralis]] |publisher=[[Astralis]] |date=2020-09-15 |language={{Flag|uk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=Excel Esports
+|p1=Kryze
+|p2=Dan |p2link=Dan (British player)
+|p3=Czekolad
+|p4=Patrik
+|p5=Tore
+
+|t2p1=Youngbuck |t2pos1=Head Coach
+|t2p2=Unlimited |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=FC Schalke 04 Esports
+|p1=BrokenBlade
+|p2=Gilius
+|p3=Abbedagge
+|p4=Neon
+|p5=LIMIT
+
+|t2p1=Dylan Falco |t2pos1=Head Coach
+|t2p2=Rodrigo |t2p2flag=pt |t2p2link=RLT |t2pos2=Analyst
+|t2title=Staff
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo
+|p2=Selfmade
+|p3=Nisqy
+|p4=Upset
+|p5=Hylissang
+
+|t2p1=YamatoCannon |t2pos1=Head Coach
+|t2p2=Tolki |t2p2flag=fr |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Wunder
+|p2=Jankos
+|p3=Caps
+|p4=Rekkles
+|p5=Mikyx
+
+|t2p1=P1noy |t2pos1=adc |t2p1dnp=true
+
+|t3p1=GrabbZ |t3pos1=Head Coach
+|t3p2=Duffman|t3pos2=analyst
+}}
+{{TeamCard
+|team=MAD Lions
+|p1=Armut
+|p2=Elyoya
+|p3=Humanoid
+|p4=Carzzy
+|p5=Kaiser
+
+|t2p1=Mac |t2pos1=Head Coach
+|t2p2=Kaas |t2p2flag=be |t2pos2=Strategic Coach
+|t2p3=Pad |t2pos3=assistant coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=HiRit
+|p2=Razork
+|p3=Vetheo
+|p4=Kobbe
+|p5=Vander
+
+|t2p1=denyk |t2pos1=sup |t2p1dnp=true
+
+|t3p1=Enatron |t3pos1=Head Coach
+|t3p2=Candyfloss |t3pos2=Strategic Coach
+}}
+{{TeamCard
+|team=Rogue
+|p1=Odoamne
+|p2=Inspired
+|p3=Larssen
+|p4=Hans sama
+|p5=Trymbi
+
+|t2p1=fredy122 |t2pos1=Head Coach
+|t2p2=Blumigan |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=SK Gaming
+|p1=Jenax
+|p2=Tynx
+|p3=Blue
+|p4=Jezu
+|p5=Treatz
+
+|t2p1=Jesiz |t2pos1=Head Coach
+|t2p2=Tom |t2p2link=Tom (British coach) |t2p2flag=uk |t2pos2=Assistant Coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Szygenda
+|p2=Skeanz
+|p3=Milica
+|p4=Crownshot
+|p5=Labrov
+
+|t2p1=Comp |t2pos1=adc
+
+|t3p1=Duke |t3p1link=Duke (French coach) |t3pos1=Head Coach
+|t3p2=Mephisto |t3pos2=Assistant Coach
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LEC/2021/Spring/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LEC/2021/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LEC/2021/Spring/Playoffs|Playoffs}}
+
+==Format==
+* '''Group Stage''' - ''January 22nd - March 14th, 2021''
+**Double Round Robin
+**Each team plays 18 matches
+**All matches are {{Abbr/Bo1}}
+**1st to 6th place will play the Playoffs
+***1st to 4th place are seeded into Semifinals
+***5th and 6th place are seeded into Losers' Round 1
+
+* '''Playoffs''' - ''March 26th - April 11th, 2021''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Winner qualifies for [[Mid-Season Invitational/2021|Mid-Season Invitational 2021]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lec
+|lang2=usuk |youtube2=LEC
+|lang3=de |twitch3=summonersinnlive
+|lang4=fr |twitch4=OTPLOL_
+|lang5=it |twitch5=pg_esports
+|lang6=es |twitch6=lvpes
+|lang7=cz |twitch7=hitpointcz
+|lang8=gr |twitch8=gamersloungegr
+|lang9=hu |twitch9=esport2tv
+|lang10=nl |twitch10=esportsprimelol
+|lang11=pl |twitch11=polsatgames
+|lang12=pt |twitch12=inygontv1
+|lang13=rs |twitch13=fortuna
+|lang14=ru |twitch14=riotgamesru
+|lang15=sa |twitch15=lolarabia
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Bulii
+|b2=Ashley Kang|b2flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Drakos
+|b2=Excoundrel |b2flag=uk |b2name=Ceirnan Lowe
+|b3=Medic
+|b4=Quickshot
+}}
+{{BroadcasterCard
+|position=Color Caster and Analyst
+|b1=Caedrel
+|b2=Ender
+|b3=Foxdrop |b3flag=uk |b3name=Dan Wyatt
+|b4=Vedius
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Group Stage Guest Analyst 
+|b1=Deficio
+|b2=Kobe
+|b3=LS
+|b4=Sheepy
+}}
+{{BroadcasterCard
+|position=Playoffs Guest Analyst 
+|b1=Bwipo
+|b2=Crownshot
+|b3=Dylan Falco
+|b4=Kaiser
+|b5=Treatz
+|b6=Zanzarah
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="1" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-11-1-notes/ 11.1]
+| colspan="2" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-11-2-notes/ 11.2]
+| colspan="2" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-11-3-notes/ 11.3]
+| colspan="2" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-11-4-notes/ 11.4]
+| colspan="1" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-11-5-notes/ 11.5]
+| colspan="1" | [https://eune.leagueoflegends.com/en-pl/news/game-updates/patch-11-6-notes/ 11.6]
+|-
+| Disabled
+| colspan="1" |
+| colspan="8" |{{ChampionIcon|Viego|30px}}
+|}
+
+===Pentakills===
+{|class="wikitable"
+!Date||Stage||Team||Vs.||Champion||Player||KDA|| VOD
+|-
+|2021-03-12||[[LEC/2021/Spring/Group_Stage|Group Stage]]||{{TeamIcon|astralis}}|| {{TeamIcon|team vitality}} ||[[File:Champion icon Renekton.png|25x25px]] [[Renekton]] ||{{player|WhiteKnight|pos=top|flag=fi}} ||10/0/6||[https://youtu.be/6BzX6LA3P-c?t=1975 VOD]
+|-
+|2021-03-27||[[LEC/2021/Spring/Playoffs|Playoffs]]||{{TeamIcon|fc schalke 04}}|| {{TeamIcon|g2 esports}} ||[[File:Champion icon Darius.png|25x25px]] [[Darius]] ||{{player|BrokenBlade|pos=top|flag=de}} ||8/2/2||[https://youtu.be/ans7TwJLh1E?t=2520 VOD]
+|}
+
+===Statistics===
+{{#lst:LEC/2021/Spring/Statistics|Champion Stats}}
+
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LEC/2021/Spring|edate=2021-05-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

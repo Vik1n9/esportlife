@@ -1,0 +1,298 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2017%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:17:50.303Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2017 Spring }}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-27
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2017 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2017 Spring 
+|shortname=2017 Spring 
+|tickername=EU LCS 2017 Spring
+|image=2017 EU LCS.png
+|series=EU LCS
+|icon=2017 EU LCS.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|patch=7.1
+|epatch=7.6
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Germany
+|city=Berlin
+|city2=Hamburg
+|venue=EU LCS Studio
+|venue2=Barclaycard Arena
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=
+|localcurrency=eur
+|prizepool=200,000
+|sdate=2017-01-19
+|edate=2017-04-23
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|twitch=eulcs1
+|twitch2=eulcs2
+|team_number=10
+|previous=LCS/Europe/Summer/2016{{!}}2016 Summer 
+|next=LCS/Europe/Summer/2017{{!}}2017 Summer 
+|previous2=LCS/Europe/2016/Spring/Promotion{{!}}Spring Promotion
+|next2=LCS/Europe/2017/Summer/Promotion{{!}}Summer Promotion
+}}
+The '''EU LCS 2017 Spring Split''' was the first split of the 2017 [[League Championship Series]] season in Europe, organized by Riot Games and held from January 19 to April 23, 2017. The season featured ten teams — eight returning from the [[LCS/Europe/2016/Summer|2016 Summer Split]] and two promoted from the [[LCS/Europe/2017/Spring/Promotion|2017 Spring Promotion]], [[Misfits Gaming]] and [[Origen]]. The split introduced a new group-based format, dividing the league into two groups of five. Matches were played in a Best-of-Three format during the Group Stage, followed by a Single Elimination Best-of-Five Playoffs to determine the European champion and the region’s representative at the [[Mid-Season Invitational/2017|2017 Mid-Season Invitational]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|points=eulcs2017|localcurrency=eur|cutafter=10
+|qualifies1=Mid-Season Invitational/2017|qualifies1name=MSI
+|qualifies2=LCS/Europe/2017/Summer |qualifies2name=Summer
+|qualifies3=LCS/Europe/2017/Summer/Promotion|qualifies3name=Promotion
+|tournament1=LCS/Europe/2017/Spring/Group Stage
+|tournament2=LCS/Europe/2017/Spring/Playoffs
+|groupElimStatuses=down,staydown,stay
+|{{Slot |place=1 |points=90 |qualified1=yes|qualified2=yes |localprize=80,000}}
+|{{Slot |place=2 |qualified2=yes|points=70 |localprize=50,000}}
+|{{Slot |place=3 |qualified2=yes|points=50 |localprize=30,000}}
+|{{Slot |place=4 |qualified2=yes|points=30 |localprize=20,000}}
+|{{Slot |place=5-6|qualified2=yes |points=10 |localprize=10,000}}
+|{{Slot |place=7-8|qualified2=yes}}
+|{{Slot |place=9-10|qualified3=yes}}
+}}
+
+{{box|break|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=8|margin=false}}
+{{prize pool slot award|award=MVP |Vizicsacsi |flag1=hu |team1=uol |date=2017-04-23}}
+{{prize pool slot award|award=Rookie of the Split |Xerxe |flag1=ro |team1=uol |date=2017-04-14}}
+{{prize pool slot award|award=Coach of the Split |pr0lly |flag1=us |team1=h2k |date=2017-04-14}}
+{{prize pool slot award|award=1st All-Pro Team |date=2017-04-07
+|Vizicsacsi |flag1=hu |team1=uol
+|Trick |flag2=kr |team2=g2
+|Perkz |flag3=hr |team3=g2
+|Zven |flag4=dk |team4=g2
+|IgNar |flag5=kr |team5=misfits
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2017-04-07
+|Odoamne |flag1=ro |team1=h2k
+|Jankos |flag2=pl |team2=h2k
+|Febiven |flag3=nl |team3=h2k
+|Rekkles |flag4=se |team4=fnc
+|mithy |flag5=es |team5=g2
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2017-04-07
+|Expect |flag1=kr |team1=g2
+|KaKAO |flag2=kr |team2=misfits
+|Exileh |flag3=de |team3=uol
+|Hans sama |flag4=fr |team4=misfits
+|Hylissang |flag5=bg |team5=uol
+}}
+{{Prize pool end noprize}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ|p1flag=fr|pos1=Top
+|p2=Broxah
+|p3=Caps
+|p4=Rekkles
+|p5=Jesiz
+
+|t2p1=Amazing|t2p1flag=de|t2p1pos=jg|t2p1link=Amazing (German player)
+
+|t3p1=NicoThePico|t3p1flag=no|t3p1pos=head coach
+|t3p2=Quaye|t3p2flag=uk|t3p2pos=coach
+|qualifier=[[LCS/Europe/Summer/2016|Summer ]]
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Expect|p1flag=kr|pos1=Top
+|p2=Trick|p2flag=kr|pos2=Jungler
+|p3=Perkz|p3flag=hr|pos3=Middle
+|p4=Zven|p4flag=dk|pos4=Bottom
+|p5=mithy|p5flag=es|pos5=Support
+|t2p1=YoungBuck|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016|Summer]]
+}}
+{{TeamCard
+|team=Giants Gaming
+|p1=Flaxxish|p1flag=se
+|p2=Memento|p2flag=se
+|p3=NighT|p3flag=kr
+|p4=HeaQ|p4flag=ee
+|p5=Hustlin|p5flag=se
+|t2p1=Lozark|t2p1flag=es|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016|Summer]]
+}}
+{{TeamCard
+|team=H2K
+|p1=Odoamne|p1flag=ro
+|p2=Jankos|p2flag=pl
+|p3=Febiven|p3flag=nl
+|p4=Nuclear|p4flag=kr
+|p5=Chei|p5flag=kr
+
+|t2p1=pr0lly|t2p1flag=us|t2pos1=head coach
+|t2p1=Stardust|t2p1flag=kr|t2pos1=coach|t2p2link=Stardust (Korean player)
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016|Summer]]
+}}
+{{TeamCard
+|team=Splyce
+|p1=Wunder|p1flag=dk
+|p2=Trashy|p2flag=dk
+|p3=Sencux|p3flag=dk
+|p4=Kobbe|p4flag=dk
+|p5=Mikyx|p5flag=si
+|t2p1=YamatoCannon|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016|Summer]]
+}}
+{{TeamCard
+|team=Team Vitality
+|p1=Cabochard|p1flag=fr
+|p2=Djoko|p2flag=fr
+|p3=Nukeduck|p3flag=no
+|p4=Steeelback
+|p5=Hachani|p5flag=kr
+
+|t2p1=AoD|t2p1flag=ro|t2p1pos=support
+
+|t3p1=Irean|t3p1flag=kr|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Summer/2016|Summer]]
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|p1=Vizicsacsi|p1flag=hu
+|p2=Xerxe|p2flag=ro
+|p3=Exileh|p3flag=de
+|p4=Samux|p4flag=es
+|p5=Hylissang|p5flag=bg
+|t2p1=Sheepy|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2016|Summer]]
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=Alphari|p1flag=uk
+|p2=KaKAO|p2flag=kr
+|p3=PowerOfEvil|p3flag=de
+|p4=Hans sama|p4flag=fr
+|p5=IgNar|p5flag=kr
+|t2p1=Daku|t2pos1=head coach|t2p1link=Daku (Emirati coach)|t2p1flag=ae
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Origen
+|p1=Satorius|p1flag=de
+|p2=Wisdom|p2flag=kr
+|p3=NaeHyun
+|p4=Tabzz
+|p5=Hiiva
+
+|t2p1=Cinkrof|t2p1flag=pl|t2p1pos=jg
+|t2p2=xPeke|t2p2flag=es|t2p2pos=support
+
+|t3p1=LeDuck|t3p1flag=de|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Spring/2017/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|p1=Phaxi|p1flag=si
+|p2=Maxlore|p2flag=uk
+|p3=Betsy|p3flag=se
+|p4=Hjärnan|p4flag=se
+|p5=Wadid|p5flag=kr
+|t2p1=GrabbZ|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2017/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/Spring/2017/Group_Stage|Regular Season}}
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/Spring/2017/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LCS/Europe/Spring/2017/Playoffs|Playoffs}}
+
+==Format==
+* Group Stage
+**Two groups of five teams each
+***Top two teams with the highest Championship Points in 2016 are placed in separate groups
+***Remaining 8 teams are distributed to the groups via snake draft
+**Each team plays 13 matches.
+***Double Round Robin within own group
+***Single Round Robin against other group
+**All matches are {{Abbr/Bo3}}
+**Top 3 from each group qualifies to the [[LCS/Europe/Spring/2017/Playoffs|Spring Playoffs]]
+**Group winners receive playoff byes into the semifinals
+**Fifth-place teams play in the [[LCS/Europe/Summer/2017/Promotion|Summer Promotion tournament]]
+*Playoffs
+**Top 6 from [[LCS/Europe/Spring/2017|Spring Season]]
+** Single Elimination {{Abbr/Bo5}} 
+* Winner Qualifies for [[Mid_Season_Invitational/2017|Mid-Season Invitational 2017]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1
+|lang2=usuk |youtube2=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang3=de |twitch3=summonersinnlive
+|lang4=es |twitch4=lvpes
+|lang5=fr |twitch5=ogaminglol
+|lang6=fr |twitch6=eclypsiatvlol
+|lang7=hu |twitch7=magyarloltv
+|lang8=pl |twitch8=nervarien
+|lang9=pl |twitch9=teamfrenzygg
+}}
+
+===Talent===
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Commentator and Analyst
+|b1=Krepo|b1name=Mitch Voorspoels|b1flag=be
+|b2=PiraTechnics|b2name=Devin Younge|b2flag=us
+|b3=Quickshot|b3name=Trevor Henry|b3flag=za
+|b4=Drakos|b4name=Daniel Drakos|b4flag=us
+|b5=Stress|b5name=James O'Leary|b5flag=uk
+|b6=Deficio|b6name=Martin Lynge|b6flag=dk
+|b7=Vedius|b7name=Andrew Day|b7flag=gb
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2017/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LEC|tiers=1|limit=10|playerspage=LCS/Europe/2017/Spring|edate=2017-05-01}}
+:''See [[LEC/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

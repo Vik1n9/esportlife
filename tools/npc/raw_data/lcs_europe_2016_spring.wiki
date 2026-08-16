@@ -1,0 +1,423 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2FEurope%2F2016%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:17:42.283Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:EU LCS 2016 Spring }}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-27
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-10-27
+}}
+{{EU LCS Navbox}}
+{{EU LCS 2016 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=EU LCS 2016 Spring 
+|shortname=2016 Spring 
+|tickername=EU LCS 2016 Spring
+|image=EU LCS 2015.png
+|series=EU LCS
+|icon=EU LCS 2015.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=
+|patch=6.1
+|epatch=6.6
+|server=Europe
+|type=offline
+|country=Germany
+|country2=Netherlands
+|city=Berlin
+|city2=Rotterdam
+|venue=EU LCS Studio
+|venue2=Rotterdam Ahoy
+|format=Group Stage ({{Abbr/Bo1}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=100,000
+|sdate=2016-01-14
+|edate=2016-04-17
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|stream=
+|twitch=eulcs1
+|twitch2=eulcs2
+|team_number=10
+|previous=LCS/Europe/Summer/2015{{!}}2015 Summer 
+|next=LCS/Europe/Summer/2016{{!}}2016 Summer 
+|previous2=LCS/Europe/2016/Spring/Promotion{{!}}Spring Promotion
+|next2=LCS/Europe/2016/Summer/Promotion{{!}}Summer Promotion
+}}
+The '''EU LCS 2016 Spring''' Split was the seventh split of the [[European League of Legends Championship Series]], organized by Riot Games. The season took place from January 14 to April 17, 2016, with the regular season hosted in Berlin, Germany, and the Playoffs held in Rotterdam, Netherlands. Ten teams competed in a Double Round Robin Best-of-One format, followed by a Single Elimination Best-of-Five Playoff. The top six teams advanced to the Playoffs, while the bottom three were sent to the [[LCS/Europe/2016/Summer/Promotion|Summer Promotion Tournament]]. The split featured a €100,000 EUR prize pool, and the winner earned qualification for the [[Mid-Season Invitational/2016|2016 Mid-Season Invitational]].
+
+Ahead of the season, several major changes occurred. [[Gambit Gaming]] sold their spot to [[Team Vitality]]. Promoted squads [[G2 Esports]] (formerly [[Gamers2]]) and [[Splyce]] (acquired the spot of [[Team Dignitas EU]]) joined the league, replacing [[SK Gaming]] and [[Copenhagen Wolves]]. [[Fnatic]] and [[Origen]] entered the split with rebuilt rosters following strong 2015 campaigns, while [[H2k-Gaming]] and [[Unicorns of Love]] returned with revamped lineups.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+{{TeamPrizePool|points=eulcs2016|cutafter=10
+|qualifies1=Mid-Season Invitational/2016 |qualifies1name=MSI
+|qualifies2=LCS/Europe/2016/Summer/Promotion|qualifies2name=Promotion
+|tournament1=LCS/Europe/2016/Spring/Group Stage |groupElimStatuses=down,stay
+|tournament2=LCS/Europe/2016/Spring/Playoffs
+|{{Slot |place=1 |points=90 |qualified1=yes |usdprize=50,000}}
+|{{Slot |place=2 |points=70 |usdprize=25,000}}
+|{{Slot |place=3 |points=50 |usdprize=15,000}}
+|{{Slot |place=4 |points=30 |usdprize=10,000}}
+|{{Slot |place=5-6 |points=10}}
+|{{Slot |place=7}}
+|{{Slot |place=8 |qualified2=yes}}
+|{{Slot |place=9 |qualified2=yes}}
+|{{Slot |place=10 |qualified2=yes}}
+}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false}}
+{{prize pool slot award|award=MVP |Trick |flag1=kr |team1=g2 |date=2016-03-25}}
+{{prize pool slot award|award=Rookie of the Split |Perkz |flag1=hr |team1=g2 |date=2016-03-25}}
+{{prize pool slot award|award=Coach of the Split |YoungBuck |flag1=nl |team1=g2 |date=2016-03-25}}
+{{prize pool slot award|award=1st All-Pro Team |date=2016-03-25
+|Cabochard |flag1=fr |team1=vit
+|Trick |flag2=kr |team2=g2
+|Perkz |flag3=hr |team3=g2
+|Steeelback |flag4=fr |team4=uol
+|kaSing |flag5=uk |team5=vit
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2016-03-25
+|Odoamne |flag1=ro |team1=h2k
+|Jankos |flag2=pl |team2=h2k
+|Nukeduck |flag3=no |team3=vit
+|FORG1VEN |flag4=gr |team4=h2k
+|Hybrid |flag5=nl |team5=g2
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2016-03-25
+|Vizicsacsi |flag1=hu |team1=uol
+|Shook |flag2=nl |team2=vit
+|Fox |flag3=se |team3=uol
+|Emperor |flag4=kr |team4=g2
+|VandeR |flag5=pl |team5=h2k
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=6|margin=false|tier=weekly|opentext=Weeks 2 to 9 - MVPs and OP 5}}
+{{prize pool slot award|award=MVP - Week 1 |date=2016-01-15
+|Trick |flag1=kr |team1=g2
+}}
+{{prize pool slot award|award=OP 5 - Week 1 |date=2016-01-15
+|Ryu |flag1=kr |team1=h2k
+|FORG1VEN |flag2=gr |team2=h2k
+|Febiven |flag3=nl |team3=fnc
+|Diamondprox |flag4=ru |team4=uol
+|Vizicsacsi |flag5=hu |team5=uol
+}}
+{{prize pool slot award|award=MVP - Week 2 |date=2016-01-22
+|MrRalleZ |flag1=dk |team1=elements
+}}
+{{prize pool slot award|award=OP 5 - Week 2 |date=2016-01-22
+|Cabochard |flag1=fr |team1=vitality
+|Steeelback |flag2=fr |team2=uol
+|sprattel |flag3=se |team3=elements
+|Zven |flag4=dk |team4=origen
+|FORG1VEN |flag5=gr |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 3 |date=2016-01-29
+|Perkz |flag1=hr |team1=g2
+}}
+{{prize pool slot award|award=OP 5 - Week 3 |date=2016-01-29
+|Zven |flag1=dk |team1=origen
+|Sencux |flag2=dk |team2=splyce
+|Hybrid |flag3=nl |team3=g2
+|Vizicsacsi |flag4=hu |team4=uol
+|Odoamne |flag5=ro |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 4 |date=2016-02-05
+|Steeelback |flag1=fr |team1=uol
+}}
+{{prize pool slot award|award=OP 5 - Week 4  |date=2016-02-05
+|Emperor |flag1=kr |team1=g2
+|Hybrid |flag2=nl |team2=g2
+|Odoamne |flag3=ro |team3=h2k
+|Vizicsacsi |flag4=hu |team4=uol
+|Airwaks |flag5=ch |team5=roccat
+}}
+{{prize pool slot award|award=MVP - Week 5 |date=2016-02-12
+|Cabochard |flag1=fr |team1=vitality
+}}
+{{prize pool slot award|award=OP 5 - Week 5 |date=2016-02-12
+|Nukeduck |flag1=no |team1=vitality
+|Fox |flag2=se |team2=uol
+|Kikis |flag3=pl |team3=g2
+|Emperor |flag4=kr |team4=g2
+|Rekkles |flag5=se |team5=fnc
+}}
+{{prize pool slot award|award=MVP - Week 6 |date=2016-02-19
+|kaSing |flag1=uk |team1=vitality
+}}
+{{prize pool slot award|award=OP 5 - Week 6 |date=2016-02-19
+|Jankos |flag1=pl |team1=h2k
+|Nukeduck |flag2=no |team2=vitality
+|xPePii |flag3=es |team3=giants
+|Wunderwear |flag4=dk |team4=splyce
+|Cabochard |flag5=fr |team5=vitality
+}}
+{{prize pool slot award|award=MVP - Week 7 |date=2016-02-26
+|Emperor |flag1=kr |team1=g2
+}}
+{{prize pool slot award|award=OP 5 - Week 7 |date=2016-02-26
+|Hylissang |flag1=bg |team1=uol
+|Febiven |flag2=nl |team2=fnc
+|Spirit |flag3=kr |team3=fnc
+|Betsy |flag4=se |team4=roccat
+|kaSing |flag5=uk |team5=vitality
+}}
+{{prize pool slot award|award=MVP - Week 8 |date=2016-03-11
+|Trick |flag1=kr |team1=g2
+}}
+{{prize pool slot award|award=OP 5 - Week 8 |date=2016-03-11
+|VandeR |flag1=pl |team1=h2k
+|xPeke |flag2=es |team2=origen
+|Spirit |flag3=kr |team3=fnc
+|MrRalleZ |flag4=dk |team4=elements
+|Odoamne |flag5=ro |team5=h2k
+}}
+{{prize pool slot award|award=MVP - Week 9 |date=2016-03-18
+|mithy |flag1=es |team1=origen
+}}
+{{prize pool slot award|award=OP 5 - Week 9 |date=2016-03-18
+|Nukeduck |flag1=no |team1=vitality
+|Hybrid |flag2=nl |team2=g2
+|Zven |flag3=dk |team3=origen
+|Steeelback |flag4=fr |team4=uol
+|VandeR |flag5=pl |team5=h2k
+}}
+{{Prize pool end noprize}}
+
+{{box|end|padding=2em}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Elements
+|image=Elements_Logo.png
+|p1=Steve|p1flag=fr|p1link=Steve (French player)
+|p2=Gilius|p2flag=de
+|p3=Eika|p3flag=fr
+|p4=MrRalleZ|p4flag=dk
+|p5=sprattel|p5flag=se
+
+|t2p1=Nyph|t2p1flag=de|t2p1pos=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=Gamsu|p1flag=kr
+|p2=Spirit|p2flag=kr
+|p3=Febiven|p3flag=nl
+|p4=Rekkles|p4flag=se
+|p5=Klaj|p5flag=se
+|t2p1=NoXiAK|t2p1flag=de|t2p1pos=support
+
+|t3p1=Deloir|t3p1flag=es|t3p1pos=head coach
+
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=Giants Gaming
+|image=Giants Gaming 2017.png
+|p1=Atom|p1flag=dk|p1link=Atom (Danish player)
+|p2=k0u|p2flag=no|pos2=Jungle
+|p3=xPePii|p3flag=es
+|p4=Adryh|p4flag=es
+|p5=G0DFRED|p5flag=se
+
+|t2p1=Smittyj|t2p1flag=de|t2pos1=top
+|t2p2=betongJocke|t2p2flag=se|t2pos2=jungle
+|t2p3=Wisdom|t2p3flag=kr|t2pos3=jungle
+|t2p4=S0NSTAR|t2p4flag=kr|t2pos4=adc
+|t2p5=Hustlin|t2p5flag=se|t2pos5=supp
+
+|t3p1=Lozark|t3p1flag=es|t3pos1=head coach
+
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=H2K
+|image=H2k Gaming.png
+|p1=Odoamne|p1flag=ro
+|p2=Jankos|p2flag=pl
+|p3=Selfie
+|p4=FORG1VEN
+|p5=VandeR
+
+|t2p1=Ryu|t2p1flag=kr|t2p1pos=mid
+
+|t3p1=pr0lly|t3p1flag=us|t3p1pos=head coach
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=Origen
+|p1=sOAZ|p1flag=
+|p2=Amazing|p2flag=|p2link=Amazing (German player)
+|p3=PowerOfEvil|p3flag=de
+|p4=Zven
+|p5=mithy
+
+|t2p1=xPeke|t2p1flag=es|t2p1pos=mid
+
+|t3p1=Hazel|t3p1flag=dk|t3p1pos=head coach
+|t3p2=Bali|t3p2flag=es|t3p2pos=coach
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=Team ROCCAT
+|p1=fredy122|p1flag=uk
+|p2=Airwaks|p2flag=ch
+|p3=Betsy|p3flag=
+|p4=Safir|p4flag=af
+|p5=Edward|p5flag=am
+
+|t2p1=Tabzz|t2p1flag=nl|t2pos1=adc
+|t2p2=extinkt|t2p2flag=lt|t2pos2=support
+|t2p3=NoXiAK|t2p3flag=de|t2pos3=support
+
+|t3p1=ImSoFresh|t3p1flag=be|t3pos1=head coach
+|t3p2=GrabbZ|t3p2flag=de|t3pos2=coach
+
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=Unicorns Of Love
+|p1=Vizicsacsi|p1flag=hu
+|p2=Diamondprox|p2flag=ru
+|p3=Fox|p3flag=se
+|p4=Steeelback|p4flag=fr
+|p5=Hylissang|p5flag=bg
+
+|t2p1=Djoko|t2p1flag=fr|t2pos1=jungle
+|t2p2=Rudy|t2p2flag=se|t2pos2=jungle
+|t2p3=loulex|t2p3flag=fr|t2pos3=jungle
+
+|t3p1=Sheepy|t3p1flag=de|t3pos1=head coach
+
+|qualifier=[[LCS/Europe/Summer/2015|Summer]]
+}}
+{{TeamCard
+|team=Splyce
+|p1=Wunderwear|p1flag=dk
+|p2=Trashy|p2flag=dk
+|p3=Sencux|p3flag=dk
+|p4=Kobbe|p4flag=dk
+|p5=Nisbeth|p5flag=dk
+
+|t2p1=YamatoCannon|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[CS/Europe/Summer/2015|Challenger Series]]
+|inotes={{NoteBig
+|n1={{Team|splyce}} acquired the spot of {{Team|team dignitas eu}}
+}}
+}}
+{{TeamCard
+|team=G2 Esports |notes=1
+|image=
+|p1=Kikis|p1flag=pl
+|p2=Trick|p2flag=kr
+|p3=Perkz|p3flag=
+|p4=Emperor|p4flag=kr
+|p5=Hybrid|p5flag=nl
+
+|t2p1=YoungBuck|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2016/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1={{Team|gamers2 orig}} rebrands to {{Team|G2 esports 2015}}.
+}}
+}}
+{{TeamCard
+|team=Team Vitality |notes=2
+|image=
+|p1=Cabochard|p1flag=fr
+|p2=Shook|p2flag=nl
+|p3=Nukeduck|p3flag=no
+|p4=Hjärnan|p4flag=se
+|p5=kaSing|p5flag=uk
+
+|t2p1=Shaunz|t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LCS/Europe/Spring/2016/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1={{Team|team vitality}} acquired the spot of {{Team|gambit gaming}}
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/Europe/2016/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/Europe/2016/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{box|start|padding=12px}}
+{{ShowBracket|id=8gQuSQIouw}}
+{{box|break}}
+{{ShowBracket|id=lqexLIYKt0}}
+{{box|end}}
+
+==Format==
+* Group Stage
+** Double Round Robin
+**All matches are {{Abbr/Bo1}}
+**Top 6 advance to playoffs
+**Top 2 receive playoffs byes into the semifinals
+*Playoffs
+** Single Elimination {{Abbr/Bo5}} 
+* Winner Qualifies for [[Mid Season Invitational/2016|Mid-Season Invitational 2016]]
+
+==Braodcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=eulcs1
+|lang2=usuk |twitch2=eulcs2
+|lang3=usuk |youtube3=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang4=de |twitch4=summonersinnlive
+|lang5=es |twitch5=lvpes
+|lang6=fr |twitch6=ogaminglol
+|lang7=fr |twitch7=eclypsiatvlol
+|lang8=hu |twitch8=magyarloltv
+|lang9=pl |twitch9=nervarien
+|lang10=pl |twitch10=teamfrenzygg
+}}
+===Talent===
+{{BroadcasterCard
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=
+|b2=
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=
+|b2=
+}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/Europe/2016/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
