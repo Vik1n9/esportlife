@@ -95,18 +95,18 @@ node tests/run.mjs kernel  # 只跑某一區（kernel／phases／history／regre
 ## 文件
 
 - 架構說明：`ARCHITECTURE.md`
-- 完整設計規格：`ESPORT-DESIGN-V4.md`（v4.5.3，V4 重建定案版；舊版 `ESPORT-DESIGN.md` 已標記為被取代）
+- 完整設計規格：`ESPORT-DESIGN-V4.md`（v4.5.3，V4 重建定案版，與軟體版號同一套；舊版 `ESPORT-DESIGN.md` 已標記為被取代）
 - 攻略：`WIKI.md`
 - 更新記錄：`CHANGELOG.md`
 - 開發日誌：`WORKLOG.md`
-- v4 重建工作說明書（53 站全部完成）：`docs/v4/README.md`
+- v4 重建工作說明書（全表 53 站，主線 S01–S22 共 39 站完成，庚辛兩組 14 站未開工）：`docs/v4/README.md`
 - 內容編輯器（事件卡／任務卡／特質／配方，開發者用）：`tools/README.md`
 - v4 賽制設計稿：`docs/superpowers/specs/2026-08-11-lol-competition-format-design.md`
 - v2 時期的改造計劃書（存查）：`docs/archive/改造計劃書-v2.1.md`
 
 ## 開發路線
 
-V4 重建（2026-08-11～08-16，53 站）已全部完成：月回合制、設施制訓練、十二技能、隱藏心理六維、教練評價、生命週期曲線、體力系統、事件卡 86＋訓練卡 60＋任務卡 25、特質編輯器、三層退役、生涯傳記與 DEMO 組裝（三年期程）都已上線。
+V4 重建主線（2026-08-11～08-16，S01–S22 共 39 站）已全部完成：月回合制、設施制訓練、十二技能、隱藏心理六維、教練評價、生命週期曲線、體力系統、事件卡 86＋訓練卡 60＋任務卡 25、特質編輯器、三層退役、生涯傳記與 DEMO 組裝（三年期程）都已上線。
 
 後續兩個大方向已定案在規格書：
 
