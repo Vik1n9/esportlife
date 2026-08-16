@@ -36,7 +36,7 @@ export function renderBoard(state, month) {
   byId('bd-sal').textContent = formatMoney(state.salary);
 
   const now = typeof month === 'number' ? month : (state.month || 1);
-  fillYearLabel(state, now);
+  fillYearLabel(state);
   qsa('#lamps .lamp').forEach((lamp, i) => {
     lamp.classList.toggle('on', i + 1 === now);
     // 已經走過的月份留一個淡標記：一年剩幾個回合是玩家排訓練時真的會算的東西
@@ -48,11 +48,16 @@ export function renderBoard(state, month) {
  * 年份格的標籤。DEMO 路線（§19，S21b）把它換成期程進度「DEMO 14/36」——
  * 三年是有限期程，剩幾個月會直接影響玩家要不要為第三年鋪路（合約、任務期限），
  * 看不到就不成決策。完整生涯沒有上限，維持「年份」。
+ *
+ * ⚠ 期程進度讀 `state.month`，不讀燈號那個 `month`：燈號要的是「beat 帶來的月份」
+ * （進場時 `main.js` 傳 0＝一盞都不亮，年界時 runner 還握著上一年的 12），拿它算
+ * 期程會印出「DEMO 0/36」或年初倒退回上一年的月份。`state.month` 是引擎的當下值，
+ * 年界跨完就是新一年的 1。
  */
-function fillYearLabel(state, month) {
+function fillYearLabel(state) {
   const label = byId('bd-year-name');
   if (!label) return;
-  label.textContent = isDemo(state) ? `DEMO ${demoMonth(state, month)}/${DEMO_MONTHS}` : '年份';
+  label.textContent = isDemo(state) ? `DEMO ${demoMonth(state)}/${DEMO_MONTHS}` : '年份';
 }
 
 function fillCoreSkillCell(state) {

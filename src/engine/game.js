@@ -89,8 +89,11 @@ export function* careerFlow(g) {
     yield* runYears(g);
     if (!state.done && state.demoEnded) { yield* demoFinish(g); break; }
     if (yield* retirement(g)) break;
+    // 最後一搏：生涯續跑。退役訊號是從 12 月的 TRANSFER 拋上來的，年界那一段被
+    // 例外跳過了，這裡補跑——不補就會重跑同一年（見 closeYear 的說明）
     state.done = false;
     state.retireReason = '';
+    closeYear(state);
   }
   yield { type: 'end' };
 }
@@ -185,14 +188,26 @@ function* runYear(g) {
   }
 
   driftMental(state);
+  closeYear(state);
+}
 
-  /*
-   * DEMO 期程的終點在第 36 個月的月底（§19.2，S21b）：跑到這裡就**不跨年**。
-   * 結算畫面停在玩家真的打過的第三季（2017 年 · 21 歲），而不是一場都還沒打的
-   * 2018 年——退役是在哪一年退就結算在哪一年，DEMO 期滿照同一個規矩。
-   */
+/**
+ * 年界：一年的最後一道手續。
+ *
+ * 從 `runYear` 尾端獨立出來，因為**退役訊號會跳過它**——`retire()` 的呼叫點全部
+ * 在 12 月的 TRANSFER 階段（`phases/transfer.js`），例外一拋，年界就沒跑完。
+ * 生涯確定結束時無所謂，但「最後一搏」（§18.2 第二層）是要續跑的：不補跑年界，
+ * 續跑的那一年會是**同一個年份重跑一次**——賽段、季後賽、世界賽再打一遍，
+ * `seasonLog` 出現兩筆同年，`proYears` 多算一季（S21b OCR review 抓到）。
+ *
+ * 冪等由呼叫端保證：`runYear` 尾端跑一次，最後一搏續跑前補一次，兩者互斥。
+ *
+ * DEMO 期程（§19.2）的終點也在這裡：第 36 個月的月底就收，**不跨年**——結算畫面
+ * 停在玩家真的打過的第三季（2017 年 · 21 歲），而不是一場都還沒打的 2018 年。
+ * 退役是在哪一年退就結算在哪一年，DEMO 期滿照同一個規矩。
+ */
+function closeYear(state) {
   if (demoExpiring(state)) { state.demoEnded = true; return; }
-
   state.age += 1;
   state.year += 1;
   state.stageYear += 1;
