@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "node tests/run.mjs",
-    "serve": "python3 -m http.server 8080"
+    "serve": "python3 -m http.server 8080",
+    "sim:demo": "node tools/demo-sim.mjs",
+    "sim:demo:update": "node tools/demo-sim.mjs --update"
   }
 }

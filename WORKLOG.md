@@ -1,5 +1,37 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-16 — DEMO 模擬腳本：調數值要有可重現的對照基線，不能每次人肉跑
+- **方向**：後續平衡調數值時，改一組常數就要人工跑 `npm test` 看分布、再憑印象
+  記前一版數字。解法：用現行的 DEMO 路線（PRO 起點、三年 36 個月）做一支可重現
+  量測腳本——固定種子跑批量生涯、印指標、與落地的快照印 diff，before/after 一眼
+  讀得出來。**機制或資料更動時，腳本與快照要一併改**，這是同步義務不是建議。
+- **實作**：
+  - 新檔 `tools/demo-sim.mjs`：`simulate(opts)` 純量測匯出＋CLI（`--runs`／
+    `--seed-prefix`／`--roles`／`--style`／`--update`）。駕駛匯入
+    `tests/lib/harness.mjs` 的 `playMatrix`（`stage: 'PRO'`），與 `demo.mjs`
+    同一顆自動駕駛玩家；期程常數（`DEMO_YEARS`／`DEMO_END_YEAR`／`DEMO_MONTHS`）
+    全匯入不手抄（單一來源規則）。指標：第一年存活、期滿 vs 提早、退役原因直方圖、
+    月份 min/max/mean、起始／巔峰評價 mean/p10/p90、榮譽平均。
+  - 新檔 `snapshots/demo.json`（commit 進 repo）：種子固定、指標完全重現。
+    ⚠ **是 before/after 對照基線，不是斷言**——一般執行只印 diff 不硬紅
+    （調數值本來就是要動這些數），硬紅的職責留在 `npm test`。
+  - 新檔 `tests/regression/tools-sim.mjs` 守門：端到端跑 10 段（1 種子 × 5 位置
+    × 2 打法）完整 DEMO——跑不動、月數超 36、收束不自洽（期滿段不恰 36、早退段
+    無原因）當場紅。分布斷言（期滿 ≥ 60/100）留在 `demo.mjs` 不重複。
+  - `package.json` 加 `sim:demo`／`sim:demo:update` 兩條入口。
+  - 文件：`tools/README.md` 檔頭改「開發工具（tools/）」並補「DEMO 模擬腳本」節；
+    `ESPORT-DESIGN-V4.md` 新增 §19.5 與附錄決策紀錄 #67——⚠ **附加工具說明、
+    不改規則，版號不動**（使用者拍板），`src/version.js`／`package.json` 版號
+    維持 v4.5.3。
+- **實測結論**：首顆快照（100 段、seedPrefix `demo`）與 S21b 校準基線逐項吻合：
+  第一年存活 98/100、期滿 87/100、起始評價 58.7（p10 55／p90 64）、巔峰 66.4、
+  月份 12–36。改數值後跑 `npm run sim:demo` 即得 diff；數字位移要落地新基線就
+  `npm run sim:demo:update`，與程式同一個 commit。
+- **狀態**：完成。`npm test` **19928 項全綠**（19919 ＋ 端到端 9 項）。SAVE_VERSION
+  23 未動、遊戲碼零變更（新增檔全在 `tools/`、`tests/`、`snapshots/`）。非主線站，
+  `docs/v4/README.md` 狀態表與 `next-station.mjs` 未動；OCR 審查閘門按站收尾流程
+  跑不了（無站號），改由 `npm test` 新守門 suite 承擔同步義務的強制力。
+
 ## 2026-08-16 — 00b 穩定點快照重寫：V4 重建把「現在」換掉了，重新釘一次
 - **方向**：00b 是 v4 現況快照，講的卻是**重建前**的基準（v4.0.0／SAVE_VERSION 9／
   8939 項）。主線 39 站走完，四根柱子全換，那些數字全部過期。檔頭自述與 S22 交接筆記

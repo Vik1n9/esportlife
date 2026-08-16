@@ -1,7 +1,8 @@
-# 內容編輯器（tools/）
+# 開發工具（tools/）
 
-開發者工具，**不是遊戲的一部分**。寫事件卡／特質卡／生涯任務卡／合成配方／天生特質
-用。遊戲不從任何地方連到這裡，`index.html` 沒動。
+開發者工具，**不是遊戲的一部分**。目前有兩樣：內容編輯器（網頁，寫事件卡／特質卡／
+生涯任務卡／合成配方／天生特質）與 DEMO 模擬腳本（Node CLI，見檔尾「DEMO 模擬腳本」
+節）。遊戲不從任何地方連到這裡，`index.html` 沒動。
 
 ## 開法
 
@@ -119,3 +120,39 @@ N=4→20%、**N=5→16%（現況，貼線警告）**、N=6→13.3%（破 §14.2 
 
 完成定義第 4 項：「產出一張事件卡＋一個特質，貼進資料檔，`npm test` 全綠，然後
 移除」——那是人工驗證步驟，工具本身不寫檔（無 File System Access API、無後端）。
+
+---
+
+# DEMO 模擬腳本（tools/demo-sim.mjs）
+
+調數值用的可重現量測工具（規格書 §19.5），**不是遊戲機制**。跑一批 DEMO 路線
+（PRO 起點、三年 36 個月）生涯，印平衡指標；改數值前後對照用。
+
+## 開法
+
+```bash
+npm run sim:demo                 # 跑 100 段、印指標、與快照印 diff
+npm run sim:demo:update          # 跑完把指標寫回 snapshots/demo.json
+node tools/demo-sim.mjs --runs 200 --style focus   # 加樣本／換打法
+```
+
+參數：`--runs`（目標段數，實跑＝種子數 × 5 位置 × 2 打法，就近取整）、
+`--seed-prefix`、`--roles`、`--style`。
+
+## 快照的語意
+
+`snapshots/demo.json`（commit 進 repo）是 **before/after 對照基線，不是斷言**：
+
+- 種子固定，同一份碼跑出來的指標完全重現——改數值前後的差異由 diff 行直接讀。
+- 一般執行只**印 diff 不硬紅**：調數值本來就是要動這些數，硬紅的職責在
+  `npm test`。
+- 基線不同（runs／seedPrefix 不一致）只警告。
+
+## ⚠ 同步義務（機制／資料更動時）
+
+- 腳本駕駛與斷言用的常數（`DEMO_YEARS`／`DEMO_END_YEAR`／`DEMO_MONTHS`）全從
+  `src/` 匯入、不手抄——資料檔改了腳本自動跟。
+- **機制改了、快照過期，是人為步驟**：跑 `npm run sim:demo:update` 落地新基線，
+  與程式同一個 commit。
+- `npm test` 的 `tests/regression/tools-sim.mjs` 會端到端跑 10 段完整 DEMO：
+  腳本跑不動、收束不自洽，當場紅——改機制沒同步改腳本就過不了收尾閘門。

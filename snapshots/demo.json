@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "tool": "demo-sim",
+    "date": "2026-08-16",
+    "runs": 100,
+    "seedPrefix": "demo",
+    "roles": "TOP,JG,MID,ADC,SUP",
+    "styles": "focus,spread",
+    "demoYears": 3,
+    "demoEndYear": 2017
+  },
+  "metrics": {
+    "runs": 100,
+    "doneCount": 100,
+    "firstYearSurvived": 98,
+    "expired": 87,
+    "early": 13,
+    "monthsMin": 12,
+    "monthsMax": 36,
+    "monthsMean": 34.6,
+    "startOvrMean": 58.7,
+    "startOvrP10": 55,
+    "startOvrP90": 64,
+    "peakOvrMean": 66.4,
+    "peakOvrP10": 61,
+    "peakOvrP90": 71,
+    "honorsMean": 0.5,
+    "reasons": {
+      "FA 市場乏人問津，2017 年黯然退役。": 3,
+      "FA 市場乏人問津，2016 年黯然退役。": 8,
+      "隊伍解散後無人接手，2015 年黯然退役。": 2
+    }
+  }
+}
