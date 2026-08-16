@@ -23,7 +23,7 @@ import { calendarFor, nextStageIn } from '../engine/calendar.js';
 import { DEMO_MONTHS, demoMonth, isDemo } from '../engine/demo.js';
 import { currentLeagueKey, leagueLabel } from '../engine/roster.js';
 import { BAND_FRESH, STAMINA_MAX, bandOf, staminaOf } from '../engine/stamina.js';
-import { questRows } from './panel.js';
+import { questRows } from './panel/index.js';
 import { byId, escapeHtml, qsa } from './dom.js';
 
 /** 階段 kind 的顯示名。SPLIT 用賽段自己的名字（春季賽／夏季賽…），不寫死在這裡 */

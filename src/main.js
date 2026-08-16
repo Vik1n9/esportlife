@@ -13,7 +13,7 @@ import { createState } from './engine/state.js';
 import { renderBoard } from './ui/board.js';
 import { byId, qsa } from './ui/dom.js';
 import { initLog } from './ui/log.js';
-import { initPanel, setPanelState } from './ui/panel.js';
+import { initPanel, setPanelState } from './ui/panel/index.js';
 import { runCareer } from './ui/runner.js';
 import { clearSave, loadGame } from './ui/storage.js';
 import { APP_VERSION } from './version.js';

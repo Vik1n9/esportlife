@@ -1,5 +1,34 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S40 選手面板四分頁：11 section 長捲拆成賽程／生涯／隊伍／選手四 tab
+- **方向**：§22.3 定了四個 tab，現行只有一個 11 section 的長捲抽屜。賽程 tab
+  的內容（年曆、冠軍積分、時代）與生涯 tab 的五欄位（milestones／teamHistory／
+  awards／intlRecord／disbandCrises）完全沒有出口；玩家看不到生涯軌跡數字，
+  route 任務卡的條件就湊不成（§12.3「看不到就不成決策」）。本站把 panel.js 拆成
+  `panel/` 目錄五檔，每個 tab 一個渲染模組。
+- **架構**：`panel/index.js` 管分頁狀態（`activeTab` 模組變數）與事件委派
+  （`[data-tab]` 切 tab、`[data-action]` 處理重開），匯出 `initPanel`／
+  `setPanelState`／`togglePanel`／`refreshPanel`／`questRows` 五個 API
+  對外部不變。board.js 的 `questRows` import 路徑改指 `panel/index.js`。
+- **賽程 tab**：`calendarFor` 展開 12 個月格，標記當下月份；賽事月依類型上色
+  （季後賽／MSI／世界賽）。戰績讀 `state.stats`（BUCKET_NAMES 顯示分區名）。
+  冠軍登記表讀 `state.titleHistory`。時代讀 `eraOf`。
+- **生涯 tab**：生涯軌跡五欄位全公開（§22.4），`distinctTeams`／
+  `intlWinRate`／`longestTenure` 直接從 `ledger.js` 匯出顯示，讓 route 任務
+  卡的條件式可對照。里程碑反序限制 20 筆。
+- **隊伍 tab**：隊友／教練（`coachBonus` 是隊伍加成，非 §10.2 教練評價）／合約
+  （剩餘年數 ×係數、目前年薪、生涯總薪資）／下放狀態（`benchedStreak`）。
+- **選手 tab**：基本資料／體力／六屬性（可展開說明）／十二技能（核心 4 標註，
+  全部唯讀 `.abrow.static`）／英雄池／版本落差／聲量分級／特質列表／任務／
+  重開。S38 從狀態帶移除的版本落差 title 提示在此落地。
+- **§22.4 自查**：四個 tab 均不顯示隱藏心理六維與教練評價；聲量有分級標籤；
+  特質配方不揭露；技能全部唯讀。
+- **CSS**：分頁列沿用 `.seg` 語彙加 `.seg-4` modifier（四等分），`.panel-tabs`
+  負 margin 撐到面板邊緣。年曆用 `.cal-grid`（4×3 grid），`.cal-m.now` 標記
+  當下月、`.msi`／`.worlds` 上色。
+- **狀態**：完成。`npm test` 22754 項全綠（引擎測試不碰 DOM，數字不變）。
+  SAVE_VERSION 未動（純 UI 重組）。
+
 ## 2026-08-17 — S39 決策槽與卡牌覆寫：choice 帶 slot 由發射端分流，事件卡選項就地出在卡下緣
 - **方向**：§22.2 卡牌覆寫整條未實作（S37 盤點）——所有 choice beat 一律送底部決策槽，
   事件卡的選項離敘事太遠；決策槽還會依選項數抽長縮短（每月重新找按鈕，違反 §0.5

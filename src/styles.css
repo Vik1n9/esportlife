@@ -422,6 +422,11 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 #panel-close{background:var(--raise);border:none;color:var(--dim);
   border-radius:var(--r-sm);padding:5px 10px;cursor:pointer;font-size:13px}
 #panel-close:hover{color:var(--text);background:var(--raise-h)}
+
+/* 面板分頁列（S40，§22.3）：沿用 .seg 語彙，四等分 */
+.seg-4{grid-template-columns:repeat(4,1fr)}
+.panel-tabs{margin:0 -16px;padding:0 16px;border-bottom:var(--hair) solid var(--edge)}
+.panel-tabs button{padding:9px 4px;font-size:13px}
 #panel-body section{padding:14px 0;border-bottom:var(--hair) solid var(--edge)}
 #panel-body section:last-child{border-bottom:none}
 #panel-body h5{font-size:12px;color:var(--dim);font-weight:600;margin-bottom:8px}
@@ -432,6 +437,20 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .heroes .hero{font-size:12px;padding:2px 8px;border-radius:var(--r-sm);background:var(--raise);color:var(--ghost)}
 .heroes .hero.owned{color:var(--gold-ink);box-shadow:inset 0 0 0 1px var(--gold)}
 .heroes .hero b{font-family:var(--mono);font-size:10px;margin-left:4px;color:var(--good)}
+
+/* 年曆格（S40，§22.3 賽程 tab） */
+.cal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:6px}
+.cal-m{background:var(--raise);border-radius:var(--r-sm);padding:6px 4px;text-align:center;font-size:11px;line-height:1.4}
+.cal-m b{display:block;font-size:14px;font-family:var(--mono)}
+.cal-m span{color:var(--dim);font-size:10px}
+.cal-m.now{background:var(--action);color:#fff}
+.cal-m.now span{color:rgba(255,255,255,.7)}
+.cal-m.offseason{opacity:.5}
+.cal-m.playoff{background:var(--raise-h)}
+.cal-m.msi{background:var(--rare-bg);color:var(--rare)}
+.cal-m.msi span{color:var(--rare)}
+.cal-m.worlds{background:var(--legendary-bg);color:var(--legendary)}
+.cal-m.worlds span{color:var(--legendary)}
 
 /* 分享圖 */
 .share-img{width:100%;border-radius:var(--r-sm);margin-top:8px;display:block;border:var(--hair) solid var(--edge)}

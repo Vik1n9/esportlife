@@ -8,7 +8,7 @@ import { renderAttrBar } from './attrbar.js';
 import { renderBoard } from './board.js';
 import { askAllocation, askChoice, askInline, clearActions } from './actions.js';
 import { renderCard, renderDivider } from './log.js';
-import { refreshPanel } from './panel.js';
+import { refreshPanel } from './panel/index.js';
 import { clearSave, saveGame } from './storage.js';
 import { renderSummary } from './summary.js';
 import { byId } from './dom.js';
