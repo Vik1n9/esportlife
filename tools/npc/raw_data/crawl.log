@@ -471,3 +471,6 @@
 2026-08-16T19:09:15.698Z 退避重試 HTTP 429（45s 後）
 2026-08-16T19:10:06.422Z FAIL LCK/2021/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LCK%2F2021%2FSpring&prop=wikitext&redirects=1，略過續下頁）
 2026-08-16T19:10:14.157Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:10:32.624Z 退避重試 HTTP 429（5s 後）
+2026-08-16T19:10:42.963Z 退避重試 HTTP 429（15s 後）
+2026-08-16T19:11:51.693Z 進度 25/109

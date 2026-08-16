@@ -1,0 +1,455 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2F2020%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:11:51.693Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCS 2020 Summer}}
+{{NA LCS Navbox}}
+{{LCS 2020 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCS 2020 Summer 
+|shortname=2020 Summer 
+|tickername=LCS 2020 Summer 
+|image=LCS Logo 2020.png
+|series=LCS
+|icon=LCS Logo 2020.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|sponsor=[https://www.statefarm.com/ State Farm] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|patch=
+|epatch=
+|server=North America
+|type=Online/Offline
+|country=United States
+|city=Los Angeles
+|venue=LCS Studio
+|prizepoolusd=200,000
+|format=Group Stage ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|sdate=2020-06-13
+|edate=2020-09-06
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=
+|twitch=RiotGames
+|facebook=lolesports
+|twitter=lcsofficial
+|youtube=lolesports
+|instagram=lcsofficial
+|team_number=10
+|previous=LCS/2020/Spring{{!}}2020 Spring 
+|next=LCS/2021/Spring{{!}}2021 Spring 
+}}
+The '''LCS 2020 Summer Split''' was the second split of the third year of franchised play in the [[League of Legends Championship Series]] (LCS), organized by Riot Games. It took place from June 13 to September 6, 2020, with both the Regular Season and Playoffs held in Los Angeles, United States. Ten partner teams competed in a Double Round Robin {{Abbr/Bo1}} Regular Season, followed by a Double Elimination {{Abbr/Bo5}} Playoff bracket. The total prize pool was $200,000 USD, and the top three teams from the Playoffs qualified for the [[World Championship/2020|2020 World Championship]].
+
+The split featured roster adjustments across multiple organizations, including [[TSM]]’s acquisition of [[Doublelift]] from [[Team Liquid]]. Due to the ongoing COVID-19 pandemic, the competition was primarily played online, with the Finals concluding remotely.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10 |groupElimStatuses=down,staydown,stay
+|tournament1=LCS/2020/Summer/Group Stage
+|tournament2=LCS/2020/Summer/Playoffs
+|qualifies1=World Championship/2020
+|{{Slot |place=1 |qualified1=yes|usdprize=100,000}}
+|{{Slot |place=2 |qualified1=yes|usdprize=50,000}}
+|{{Slot |place=3 |qualified1=yes|usdprize=30,000}}
+|{{Slot |place=4 |usdprize=20,000}}
+}}
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/2020/Summer/Group Stage
+}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LCS/2020/Summer/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |CoreJJ |flag1=kr|team1=tl|date=2020-09-04}}
+{{prize pool slot award|award=Coach of the Split |Jatt |flag1=ca|team1=tl|date=2020-08-18}}
+{{prize pool slot award|award=1st All-Pro Team |date=2020-08-14
+|Licorice |flag1=ca|team1=cloud9
+|Blaber |flag2=us|team2=cloud9
+|Bjergsen |flag3=dk|team3=tsm
+|Zven |flag4=dk|team4=cloud9
+|CoreJJ |flag5=kr|team5=tl
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2020-08-14
+|Ssumday |flag1=kr|team1=100t
+|Santorin |flag2=dk|team2=FlyQuest
+|Jensen |flag3=dk|team3=tl
+|Tactical |flag4=us|team4=tl
+|Vulcan|flag5=ca|team5=c9
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2020-08-14
+|Impact |flag1=kr|team1=Team Liquid
+|Closer |flag2=tr|team2=Golden Guardians
+|Nisqy |flag3=be|team3=c9
+|PowerOfEvil |flag4=de|team4=FlyQuest
+|FBI |flag5=au|team5=Golden Guardians
+|IgNar |flag6=kr|team6=FlyQuest
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=5|margin=false|tier=weekly|opentext=Weeks 6 to 9 - Player of the Week}}
+{{prize pool slot award|award=Player of the Week 1|date=2020-06-14
+|Jiizuke|flag1=it|team1=Evil Geniuses
+}}
+{{prize pool slot award|award=Player of the Week 2 |date=2020-06-21
+|Santorin|flag1=dk|team1=FlyQuest
+}}
+{{prize pool slot award|award=Player of the Week 3 |date=2020-06-28
+|Blaber|flag1=us|team1=Cloud9
+}}
+{{prize pool slot award|award=Player of the Week 4 |date=2020-07-05
+|Bjergsen|flag1=dk|team1=Team SoloMid
+}}
+{{prize pool slot award|award=Player of the Week 5 |date=2020-07-12
+|Contractz|flag1=us|team1=100 Thieves
+}}
+{{prize pool slot award|award=Player of the Week 6 |date=2020-07-19
+|CoreJJ|flag1=kr|team1=Team Liquid
+}}
+{{prize pool slot award|award=Player of the Week 7 |date=2020-07-26
+|Santorin|flag1=dk|team1=FlyQuest
+}}
+{{prize pool slot award|award=Player of the Week 8 |date=2020-08-02
+|Bjergsen|flag1=dk|team1=Team SoloMid
+}}
+{{prize pool slot award|award=Player of the Week 9 |date=
+|Jensen|flag1=dk|team1=Team Liquid
+}}
+{{Prize pool end}}
+
+{{box|end|padding=2em}}
+
+==Participants==
+
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Meteos
+|p3=Ryoma
+|p4=Cody Sun
+|p5=Stunt|p5leave=true
+|p6=poome|p6flag=|pos6=sup
+
+|t2p1=FakeGod|t2p1flag=|t2p1dnp=true|t2pos1=Top
+|t2p2=Tenacity|t2p2flag=|t2p2dnp=true|t2pos2=Top
+|t2p3=Contractz|t2p3flag=|t2pos3=Jungle
+|t2p4=Kenvi|t2p4flag=|t2p4dnp=true|t2pos4=Jungle
+|t2p5=Soligo|t2p5flag=|t2p5dnp=true|t2pos5=Mid
+|t2p6=Prismal|t2p6flag=|t2p6dnp=true|t2pos6=ADC
+|t2p7=breezyyy|t2p7flag=|t2p7dnp=true|t2pos7=Support
+
+|t3p1=Zikz|t3pos1=Head coach
+|t3p2=Kaimera|t3p2flag=us|t3pos2=analyst
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Licorice|p1flag=
+|p2=Blaber|p2flag=
+|p3=Nisqy|p3flag=
+|p4=Zven
+|p5=Vulcan
+
+|t2p1=Fudge |t2p1flag=au|t2p1dnp=true
+|t2p2=Inori|t2p2flag=|t2p2dnp=true
+|t2p3=Palafox|t2p3flag=us|t2p3dnp=true
+|t2p4=Tomo|t2p4flag=us|t2p4dnp=true
+|t2p5=Diamond|t2p5flag=ca|t2p5dnp=true|t2p5link=Diamond (Canadian player)
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Reapered|t3pos1=Head coach
+|t3p2=Westrice|t3p2flag=us|t3pos2=Coach
+|t3p3=Reignover|t3p3flag=coach|t3pos3=Coach
+|t3p4=RapidStar|t3p4flag=coach|t3pos4=Coach
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Ruin|pos1=top
+|p2=Wiggily|pos2=jng
+|p3=Pobelter|pos3=mid
+|p4=Stixxay|pos4=adc
+|p5=Smoothie|pos5=sup
+
+|t2p1=Deus|t2p1flag=ca
+|t2p2=Fragas|t2p2flag=|t2p2dnp=true
+|t2p3=Tuesday|t2p3link=Tuesday (Canadian player)|t2p3flag=|t2p3dnp=true
+|t2p4=Wind|t2p4flag=kr|t2p4dnp=true
+|t2p5=Fill|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=SSONG|t3p1flag=kr|t3pos1=head coach
+|t3p2=Weldon|t3p2flag=us|t3pos2=coach
+|t3p3=xSojin|t3p3flag=|t3pos3=coach
+|t3p4=Prymari|t3p4flag=us|t3pos4=analyst
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Dignitas
+|p1=Viper|p1flag=|p1link=Viper (Canadian player)
+|p2=Akaadian|p2flag=
+|p3=Froggen|p3flag=
+|p4=Johnsun|p4flag=
+|p5=aphromoo|p5flag=
+
+|t2p1=Lourlo|t2p1flag=se
+|t2p2=Dardoch|t2p2flag=
+|t2p3=Fenix|t2p3flag=
+|t2p4=Asta|t2p4flag=|t2p4dnp=true
+|t2p5=JayJ|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Thinkcard|t3p1flag=us|t3pos1=Head Coach
+|t3p2=Invert|t3p2flag=ca|t3pos2=Assistant Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Kumo|p1flag=
+|p2=Svenskeren|p2flag=
+|p3=Jiizuke|p3flag=
+|p4=Goldenglue|pos4=mid
+|p5=Bang|pos5=adc
+|p6=Zeyzal|pos6=sup
+
+|t2p1=Huni|t2p1flag=
+|t2p2=AnDa|t2p2flag=|t2p2dnp=true
+|t2p3=Giyuu|t2p3flag=|t2p3dnp=true
+|t2p4=Deftly|t2p4flag=|t2p4dnp=true
+|t2p5=Matt|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Irean|t3p1flag=kr|t3pos1=Head Coach
+|t3p2=Artemis|t3p2link=Artemis (American player)|t3p2flag=us|t3pos2=Assistant Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Solo|pos1=top
+|p2=Santorin|p2flag=|pos2=jng
+|p3=PowerOfEvil|p3flag=|pos3=mid
+|p4=WildTurtle|p4flag=|pos4=adc
+|p5=IgNar|p5flag=|pos5=sup
+
+|t2p1=Revenge|t2p1flag=us|t2p1dnp=true
+|t2p2=Fanatiik|t2p2flag=ca|t2p2dnp=true
+|t2p3=Triple|t2p3flag=|t2p3dnp=true
+|t2p4=MasH|t2p4flag=ca
+|t2p5=Big|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Curry|t3p1flag=us|t3pos1=head coach
+|t3p2=Loyota|t3p2flag=us|t3pos2=analyst
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Hauntzer|p1flag=
+|p2=Closer|p2flag=
+|p3=Damonte|p3flag=us
+|p4=FBI|p4flag=
+|p5=huhi|p5flag=
+
+|t2p1=Darshan|t2p1flag=|t2pos1=top|t2p1dnp=true
+|t2p2=Hard|t2p2flag=|t2pos2=jng|t2p2dnp=true
+|t2p3=Ablazeolive|t2p3flag=|t2pos3=mid|t2p3dnp=true
+|t2p4=Goldenglue|t2p4flag=|t2pos4=mid|t2p4dnp=true|t2p4leave=true
+|t2p5=Gorica|t2p5flag=ca|t2pos5=adc|t2p5dnp=true
+|t2p6=Keith|t2p6flag=|t2pos6=adc|t2p6dnp=true
+|t2p7=Chime|t2p7flag=ca|t2pos7=sup|t2p7dnp=true
+
+|t3p1=Inero|t3p1flag=us|t3pos1=Head Coach
+|t3p2=Jimmy|t3p2flag=us|t3pos2=coach
+|t3p3=Olleh|t3p3flag=kr|t3pos3=coach|t3p3leave=true
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Immortals
+|p1=Allorim|p1flag=us
+|p2=Xmithie|p2flag=
+|p3=Insanity|p3flag=us
+|p4=Apollo|p4flag=us
+|p5=Hakuho|p5flag=
+
+|t2p1=sOAZ|t2p1flag=
+|t2p2=Potluck|t2p2flag=ca
+|t2p3=Eika|t2p3flag=
+|t2p4=Altec|t2p4flag=
+|t2p5=Gate|t2p5flag=cn
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Zaboutine|t3pos1=Head coach|t3p1leave=true
+|t3p2=GoToOne|t3p2flag=fr|t3pos2=Assistant Coach
+|t3p3=Malaclypse|t3p3flag=us|t3pos3=Assistant Coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact|p1flag=
+|p2=Broxah|p2flag=
+|p3=Jensen|p3flag=
+|p4=Tactical|p4flag=
+|p5=CoreJJ|p5flag=
+
+|t2p1=Jenkins|t2p1flag=|t2p1dnp=true
+|t2p2=Grig|t2p2flag=|t2p2dnp=true
+|t2p3=Yusui|t2p3flag=|t2p3dnp=true
+|t2p4=Rikara|t2p4flag=|t2p4dnp=true
+|t2p5=Yama |t2p5flag=us |t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Jatt|t3p1flag=ca|t3pos1=Head Coach
+|t3p2=Dodo|t3p2flag=kr|t3pos2=Assistant Coach
+|t3p3=Croissant|t3p3flag=us|t3pos3=Assistant Coach
+|t3p4=Cain|t3p4flag=kr|t3pos4=Strategic Coach
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=TSM
+|p1=Broken Blade
+|p2=Spica
+|p3=Bjergsen
+|p4=Doublelift
+|p5=Biofrost
+
+|t2p1=Dhokla|t2p1flag=|t2p1dnp=true
+|t2p2=Winston|t2p2flag=ca|t2p2dnp=true
+|t2p3=Evolved|t2p3flag=ca|t2p3dnp=true
+|t2p4=Lost|t2p4flag=|t2p4dnp=true
+|t2p5=Treatz|t2p5flag=
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Parth|t3p1flag=us|t3pos1=Head Coach
+|t3p2=Haitham|t3p2flag=iraq|t3pos2=Assistant Coach
+|t3p3=Lustboy|t3p3flag=kr|t3pos3=Strategic Coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard columns end}}
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/2020/Summer/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/2020/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{#lst:LCS/2020/Summer/Playoffs|Playoffs}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:LCS/2020/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Format==
+* '''Group Stage'''
+**Double Round Robin
+**Each team plays 18 matches.
+**All matches are {{Abbr/Bo1}}
+**Top 8 qualifies to the Summer Playoffs
+*** Top 6 teams are seeded into Winner Bracket
+*** Remaining 2 teams are seeded into Loser Bracket
+*** 1st and 2nd place teams from Group Stage will receive a bye. 
+* '''Playoffs'''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Top 3 qualify for [[World_Championship/2020|Worlds 2020]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=RiotGames
+|lang2=usuk |youtube2=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang3=fr |twitch3=ogaminglol
+|lang4=pl |twitch4=esl_lol_pl
+|lang5=de |twitch5=summonersinnlive
+|lang6=it |twitch6=pg_esports
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash|b1name=James Patterson|b1flag=us
+|b2=LeTigress|b2name=Gabriella Devia-Allen|b2flag=us
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=MarkZ|b1name=Mark Zimmerman|b1flag=us
+|b2=pr0lly|b2name=Neil Hammad|b2flag=us
+|b3=Crumbz|b3name=Alberto Rengifo|b3flag=us
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=CaptainFlowers|b1name=Clayton Raines|b1flag=ca
+|b2=Phreak|b2name=David Turley|b2flag=us
+|b3=Rivington|b3name=Rivington Bruce Bisland III|b3flag=us
+|b4=Pastrytime|b4name=Julian Carr|b4flag=au
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Azael|b1name=Isaac Cummings Bentley|b1flag=ca
+|b2=Kobe|b2name=Sam Hartman-Kenzler|b2flag=us
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/2020/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/2020/Summer|edate=2020-12-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

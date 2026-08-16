@@ -1,0 +1,464 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2023%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:11:12.086Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2023 Spring}}
+{{LCK Navbox}}
+{{LCK 2023 Tabs}}
+{{Tabs static
+|name1=Overview			|link1=LCK/2023/Spring
+|name2=Regular Season	|link2=LCK/2023/Spring/Regular Season
+|name3=Playoffs			|link3=LCK/2023/Spring/Playoffs
+|name4=Champion Stats	|link4=LCK/2023/Spring/Statistics
+|name5=Player Stats		|link5=LCK/2023/Spring/Player Stats
+|This=1}}
+{{Infobox league
+|name=LCK 2023 Spring 
+|shortname=2023 Spring 
+|tickername=LCK 2023 Spring 
+|image=LCK 2021 full lightmode.png
+|imagedark=LCK 2021 full_darkmode.png
+|series=LCK 
+|icon=LCK 2021 lightmode.png
+|icondark=LCK 2021 darkmode.png
+|organizer=Riot Games
+|organizer-link=https://www.riotgames.com/
+|sponsor=
+|patch=13.1
+|epatch=13.5
+|type=Offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|venue2=Jamsil Arena |venue2desc=Lower and Grand Final
+|format='''Regular Season:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepool=375,000,000
+|localcurrency=krw
+|prizepoolusd=
+|sdate=2023-01-18
+|edate=2023-04-09
+|liquipediatier=1
+|highlighted=|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/5f0aa689ca6387b07658e62fbf0689b49f5ac434.pdf
+|website=http://www.lolesports.com/en_US/lck
+|afreeca=aflol
+|twitch=lck
+|twitter=lck
+|facebook=officiallck
+|instagram=lckofficial
+|youtube=LCKglobal
+|team_number=10
+|previous=LCK/2022/Summer{{!}}2022 Summer
+|next=LCK/2023/Summer{{!}}2023 Summer
+|previous2=LCK/2023/Season Kickoff{{!}}Season Kickoff
+}}
+The '''LCK 2023 Spring''' Split was the first split of the 2023 season of the [[League of Legends Champions Korea]], organized by Riot Games. The competition ran from January 18 to April 9, with the Group Stage held offline at LoL Park in Seoul and the Lower Bracket Final and Grand Final played at Jamsil Arena. Ten teams competed in a Double Round Robin Group Stage using best-of-three matches, with the top six advancing to a Double Elimination Playoffs played as best-of-five. The winner and runner-up qualified for the [[Mid-Season Invitational/2023|Mid-Season Invitational]]. The split was played across patches 13.1 through 13.5, with [[Aurelion Sol]], [[Yuumi]], and [[Viego]] disabled at various points for competitive reasons.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10|points=lck2023|qualifies1=Mid-Season Invitational/2023|qualifies1name=MSI|localcurrency=krw
+|tournament1=LCK/2023/Spring/Playoffs |importLimit=4
+|{{Slot|points=90 |qualified1=yes |localprize=200,000,000}}
+|{{Slot|points=70 |qualified1=yes |localprize=100,000,000}}
+|{{Slot|points=50 |localprize=50,000,000}}
+|{{Slot|points=30 |localprize=20,000,000}}
+|{{Slot|points=20|{{Opponent|dk |lastvs=hle |lastvsscore=1-3 |date=2023-03-23}}}}
+|{{Slot|points=10|{{Opponent|lsb |lastvs=kt |lastvsscore=1-3 |date=2023-03-22}}}}
+|{{Slot|points=0|{{Opponent|kdf |wdl=6/12 |date=2023-03-19}}}}
+|{{Slot|points=0|{{Opponent|bro |wdl=4/14 |date=2023-03-19}}}}
+|{{Slot|points=0|{{Opponent|drx |wdl=3/15 |date=2023-03-19}}}}
+|{{Slot|points=0|{{Opponent|ns |wdl=2/16 |date=2023-03-19}}}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{AwardPrizePool|cutafter=8|margin=false|localcurrency=krw
+|{{Slot|localprize=2000000|award=Player of the Split |{{Opponent|Keria |flag=kr |team=t1 |date=2023-03-22}}}}
+|{{Slot|localprize=5000000|award=Regular Season MVP |{{Opponent|Keria |flag=kr |team=t1 |date=2023-03-22}}}}
+|{{Slot|localprize=5000000|award=Finals MVP |{{Opponent|Peyz |flag=kr |team=gen |date=2023-04-09}}}}
+|{{Slot|localprize=2000000|award=All-LCK First Team |date=2023-03-22
+|{{Opponent|Zeus |flag=kr |team=t1}}
+|{{Opponent|Oner |flag=kr |team=t1}}
+|{{Opponent|Faker |flag=kr |team=t1}}
+|{{Opponent|Gumayusi |flag=kr |team=t1}}
+|{{Opponent|Keria |flag=kr |team=t1}}
+}}
+|{{Slot|award=All-LCK Second Team |date=2023-03-22
+|{{Opponent|Kiin |flag=kr |team=kt}}
+|{{Opponent|Peanut |flag=kr |team=gen}}
+|{{Opponent|Chovy |flag=kr |team=gen}}
+|{{Opponent|Deft |flag=kr |team=dk}}
+|{{Opponent|Kellin |flag=kr |team=dk}}
+}}
+|{{Slot|award=All-LCK Third Team |date=2023-03-22
+|{{Opponent|Doran |flag=kr |team=gen}}
+|{{Opponent|Canyon |flag=kr |team=dk}}
+|{{Opponent|Bdd |flag=kr |team=kt}}
+|{{Opponent|Peyz |flag=kr |team=gen}}
+|{{Opponent|Lehends |flag=kr |team=kt}}
+}}
+}}
+
+{{box|break|padding=2em}}
+{{MVPTable|points=true|cutafter=5|margin=false
+|title=Regular Season Player of the Game
+|tournament=LCK/2023/Spring/Regular Season
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|points=true|cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=LCK/2023/Spring/Playoffs
+}}
+{{box|end}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2022-08-28
+|team=afreeca freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=BRION
+|p1=Morgan
+|p2=UmTi
+|p3=Karis
+|p4=Hena
+|p5=Effort
+
+|t2p1=Raptor |t2pos1=jg |t2p1dnp=true
+|t2title=Substitutes
+
+|t3p1=Edgar|t3pos1=head coach
+|t3p2=Drinker |t3pos2=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Dplus
+|p1=Canna
+|p2=Canyon
+|p3=ShowMaker
+|p4=Deft
+|p5=Kellin
+
+|t2p1=Acorn |t2pos1=head coach
+|t2p2=GorillA |t2pos2=coach
+|t2p3=Jay|t2p3link=Jay (Lee Jang-hee) |t2p3flag=kr |t2pos3=analyst
+|t2p4= |t2p4flag= |t2pos4=
+|t2p5= |t2p5flag= |t2pos5=
+|t2title=Staff
+|inotes={{NoteBig
+|n1='''DAMWON Gaming''' rebranded to [[Dplus]] ahead of the 2023 season. <ref name="DWG rebrand">{{cite web |url=https://twitter.com/korizonesports/status/1612346685510004739 |title=Official DWG KIA rebrands to Dplus KIA. |date=2023-01-09 |author=[[Korizon]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+}}
+}}
+{{TeamCard
+|team=DRX
+|p1=Rascal
+|p2=Croco
+|p3=FATE |p3link=FATE (Korean player)
+|p4=deokdam
+|p5=BeryL
+
+|t2p1=Juhan |t2pos1=jg
+|t2p2=Pleata |t2pos2=ad
+|t2title=Substitutes
+
+|t3p1=Micro |t3pos1=head coach
+|t3p2=Shine |t3p2link=Shine (Shin Dong-wook) |t3pos2=coach
+|t3p3=Gizmo |t3p3flag=kr |t3pos3=coach
+|t3p4=Dasom |t3p4flag=kr |t3pos4=analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=Freecs
+|p1=DuDu
+|p2=Youngjae
+|p3=BuLLDoG
+|p4=Taeyoon
+|p5=Jun
+
+|t2p1=Moham |t2pos1=sup
+|t2title=Substitutes
+
+|t3p1=cvMax |t3pos1=head coach
+|t3p2=Alvingo |t3pos2=coach
+|t3p3=Millimas |t3pos3=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Gen.G
+|p1=Doran
+|p2=Peanut
+|p3=Chovy
+|p4=Peyz
+|p5=Delight
+
+|t2p1=Score  |t2p1flag=kr |t2pos1=head coach
+|t2p2=Mafa |t2pos2=coach
+|t2p3=Museong |t2pos3=coach
+|t2title=Staff
+}}
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=Kingen
+|p2=Clid
+|p3=Zeka
+|p4=Viper|p4link=Viper (Korean player)
+|p5=Life
+
+|t2p1=DanDy|t2pos1=head coach
+|t2p2=Mowgli|t2pos2=coach
+|t2p3=Bibra |t2p3flag=kr |t2pos3=analyst
+|t2p4=Polt |t2p4flag=kr |t2pos4=analyst
+|t2p5=Kezman |t2p5flag=kr |t2pos5=general manager
+|t2title=Staff
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Kiin
+|p2=Cuzz
+|p3=Bdd
+|p4=Aiming
+|p5=Lehends
+
+|t2p1=PerfecT |t2pos1=top |t2p1dnp=true
+|t2title=Substitutes
+
+|t3p1=Hirai  |t3pos1=head coach
+|t3p2=supreme |t3pos2=coach
+|t3p3=RapidStar |t3pos3=coach
+|t3p4=Heetul |t3p4flag=kr |t3pos4=analyst
+|t3p5= |t3p5flag= |t3pos5=
+|t3title=Staff
+}}
+{{TeamCard
+|team=Nongshim RedForce
+|p1=DnDn
+|p2=Sylvie
+|p3=FIESTA
+|p4=vital
+|p5=Peter |p5link=Peter (Korean player)
+
+|t2p1=callme |t2pos1=mid
+|t2title=Substitutes
+
+|t3p1=Irean |t3pos1=head coach
+|t3p2=CoCo |t3pos2=coach
+|t3p3=Chelly |t3pos3=coach |t3p3link=Chelly (Park Seung-jin)
+|t3p4=Noblesse |t3pos4=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=SANDBOX Gaming
+|p1=Burdol
+|p2=Willer
+|p3=Clozer
+|p4=Envyy
+|p5=Kael
+
+|t2p1=Ryu |t2pos1=head coach
+|t2p2=Lyn |t2pos2=assistant coach
+|t2p3=Seobi |t2p3flag=kr |t2pos3=assistant coach
+|t2p4=Yvon |t2p4flag=kr |t2pos4=analyst
+|t2p5= |t2p5flag= |t2pos5=
+|t2title=Staff
+}}
+{{TeamCard
+|team=T1
+|p1=Zeus
+|p2=Oner
+|p3=Faker
+|p4=Gumayusi
+|p5=Keria
+
+|t2p1=Bengi |t2pos1=head coach
+|t2p2=Sky |t2pos2=coach|t2p2link=Sky_(Kim_Ha-neul)
+|t2p3=Roach |t2pos3=Coach 
+|t2p4=Tom |t2pos4=Coach 
+|t2p5=Gisepa |t2pos5=analyst
+|t2title=Staff
+}}
+{{TeamCard columns end}}
+
+==Results==
+
+
+===Group Stage===
+{{LPDB storage|false}}
+{{#lst:LCK/2023/Spring/Regular Season|Regular Season}}
+{{LPDB storage|true}}
+<span style="line-height:24px">&nbsp;''[[LCK/2023/Spring/Regular Season|Click here for detailed results of the '''Regular Season''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCK23SprPO}}
+
+==Format==
+*'''Group Stage''' - ''January 18<sup>th</sup> - March 19<sup>th</sup>, 2023''
+**Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|seedup|''1st and 2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd till 6th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''6th till 10th place''}} are eliminated from this split.
+*'''Playoffs''' - ''March 22<sup>nd</sup> - April 9<sup>th</sup>, 2023''
+** Double Elimination
+** All matches are {{Abbr/Bo5}} 
+** Winner and the runner-up qualify for [[Mid-Season Invitational/2023|Mid-Season Invitational 2023]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lck |youtube1=LCKglobal
+|lang2=kr |afreeca2=aflol
+|lang3=cn |huya3=lck
+|lang4=vn |youtube4=LCKTiếngViệt
+|lang5=de |twitch5=mori09tv
+|lang6=fr |twitch6=otplol_
+|lang7=de |twitch7=eisohnewaffel
+}}
+===Talent===
+{{box|start|padding=2em}}
+====Korean Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Youn Soo-bin |b1flag=kr
+|b2=Bae Hye-ji |b2flag=kr
+|b3=Ham Ye-jin |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=Park Jee-sun
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Helios |b1link=Helios (Korean player)
+|b2=Cpt Jack
+|b3=Huni
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=Ggoggo |b2name=Go Su-jin |b2flag=kr
+|b3=MyLittlePony|b3name=Im Ju-wan |b3flag=kr   
+|b4=NoFe  
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JonnaStrong
+}}
+{{box|end}}
+{{box|break|padding=2em}}
+
+====English Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Atlus
+|b2=Valdes
+}}
+{{BroadcasterCard
+|position=Color Commentator 
+|b1=Chronicler
+|b2=Wolf|b2link=Wolf (American caster)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Special Appearence
+|b1=Bulii
+}}
+{{BroadcasterCard
+|position=Guest Commentator
+|b1=Aux
+}}
+{{BroadcasterCard
+|position=Analyst Desk Guest
+|b1=Huni
+}}
+{{box|end}}
+
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="3" | [[Patch 13.1|13.1]]
+| colspan="1" | [[Patch 13.1|13.1B]]
+| colspan="2" | [[Patch 13.3|13.3]]
+| colspan="2" | [[Patch 13.4|13.4]]
+| colspan="2" | [[Patch 13.5|13.5]]
+|-
+| Disabled 
+| colspan="4" |
+| colspan="2" | {{ChampionIcon|aurelionsol|30px}}
+| colspan="2" | 
+| colspan="2" | {{ChampionIcon|yuumi|30px}}{{ChampionIcon|viego|30px}}<sup>1</sup>
+|}
+{{Note|1|[[Viego]] was temporarily banned between Week 9 Day 5 and PO Round 2.}}
+
+===Champion Statistics===
+{{ChampionStats
+|tournament=LCK/2023/Spring/Regular Season
+|tournament2=LCK/2023/Spring/Playoffs
+|statspage={{FULLPAGENAME}}/Statistics
+}}
+
+===Player Statistics Leaders===
+{{TournamentStatsLeader
+|tournament1=LCK/2023/Spring/Regular Season
+|tournament2=LCK/2023/Spring/Playoffs
+|statspage={{FULLPAGENAME}}/Player Stats
+}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=LCK23SprW3|matchid=5|gameNum=1|player=Taeyoon|vod=https://www.youtube.com/live/X_jRU590f5k?t=4233}}
+|{{Json|id=LCK23SprW4|matchid=2|gameNum=2|player=Gumayusi|vod=https://www.youtube.com/live/A8TNdPNx7JI?t=21176}}
+}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2023/Spring|edate=2023-05-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+
+{{2023 Season International Cycle Navbox}}

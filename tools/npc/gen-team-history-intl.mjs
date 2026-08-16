@@ -91,7 +91,10 @@ const ABBREVIATIONS = {
   'Samsung Blue': 'SSB', 'Samsung White': 'SSW', 'Samsung Ozone': 'SSO',
   'KT Rolster': 'KT', 'DRX': 'DRX', 'DragonX': 'DRX', 'KING-ZONE DragonX': 'KZ', 'Longzhu Gaming': 'LZ',
   'Hanwha Life Esports': 'HLE', 'DAMWON Gaming': 'DK', 'Dplus': 'DK', 'DWG KIA': 'DK',
-  'Kwangdong Freecs': 'KDF', 'Freecs': 'KDF', 'Afreeca Freecs': 'AF', 'BRION': 'BRO',
+  // Freecs 實測（2023/2025 頁）與 BRION 同頁共存，不是同隊——Freecs 是
+  // Afreeca Freecs 贊助改名後的簡稱（併同一 team_id=AF），BRION 是另一支
+  // LCK 隊，兩者無驗證關係，不連 predecessors/successors。
+  'Kwangdong Freecs': 'AF', 'Freecs': 'AF', 'Afreeca Freecs': 'AF', 'BRION': 'BRION',
   'Nongshim RedForce': 'NS', 'Liiv SANDBOX': 'LSB', 'SANDBOX Gaming': 'LSB', 'KOO Tigers': 'KOO', 'ROX Tigers': 'ROX',
   'NaJin Black Sword': 'NJB', 'NaJin Sword': 'NJS', 'NaJin White Shield': 'NJW',
   'Jin Air Green Wings': 'JAG', 'MVP': 'MVP', 'Griffin': 'GRF',
@@ -132,8 +135,6 @@ const RENAMES = {
   // 靠合併 active_years 表示），不是變成 Hanwha Life Esports——HLE 是另一條
   // 血緣（MVP／Rebels Anarchy 系），本表不確定其鏈路，故留空不猜。
   'KING-ZONE DragonX': { predecessors: ['LZ'], successors: ['DRX'] },
-  'Afreeca Freecs': { successors: ['BRO'] },
-  'BRION': { predecessors: ['AF'] },
   'Royal Club': { successors: ['RNG'] },
   'Royal Never Give Up': { predecessors: ['RC'] },
 };

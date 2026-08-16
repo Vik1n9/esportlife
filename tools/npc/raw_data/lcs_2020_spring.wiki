@@ -1,0 +1,428 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCS%2F2020%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:11:45.118Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCS 2020 Spring}}
+{{NA LCS Navbox}}
+{{LCS 2020 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCS 2020 Spring 
+|shortname=2020 Spring 
+|tickername=LCS 2020 Spring 
+|image=LCS Logo 2020.png
+|series=LCS
+|icon=LCS Logo 2020.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|sponsor=[https://www.statefarm.com/ State Farm] <br> [https://www.dell.com/en-us/gaming/alienware Alienware] <br> [https://secretlab.co/ Secretlab]
+|patch=
+|epatch=
+|server=North America
+|type=Online/Offline
+|country=United States
+|city=Los Angeles 
+|venue=LCS Studio
+|format=Group Stage ({{Abbr/Bo1}}) <br> Double Elimination ({{Abbr/Bo5}})
+|prizepoolusd=200,000
+|sdate=2020-01-25
+|edate=2020-04-19
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/
+|rulebook=
+|twitch=RiotGames
+|facebook=lolesports
+|twitter=lcsofficial
+|youtube=lolesports
+|instagram=lcsofficial
+|team_number=10
+|previous=LCS/2019/Summer{{!}}2019 Summer 
+|next=LCS/2020/Summer{{!}}2020 Summer 
+}}
+The '''LCS 2020 Spring Split''' was the first split of the third year of franchised play in the [[League of Legends Championship Series]] (LCS), organized by Riot Games. It took place from January 25 to April 19, 2020, with both the Regular Season and Playoffs held in Los Angeles, United States. Ten partner teams competed in a Double Round Robin {{Abbr/Bo1}} Regular Season, followed by a Double Elimination {{Abbr/Bo5}} Playoff bracket. The total prize pool was $200,000 USD, and the split champion qualified for the [[Mid-Season Invitational/2020|2020 Mid-Season Invitational]].
+
+This split marked the return of [[Immortals]] to the LCS after acquiring [[OpTic Gaming]]’s franchise slot, the debut of [[Evil Geniuses]] following their acquisition of [[Echo Fox]]’s spot, and the rebranding of [[Clutch Gaming]] into [[Dignitas]]. The event was played on Patch 10.6, with some matches transitioning to an online format due to the COVID-19 pandemic.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=10 |groupElimStatuses=down,staydown,stay
+|tournament1=LCS/2020/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2020
+|{{Slot |place=1 |qualified1=yes|usdprize=100,000}}
+|{{Slot |place=2 |usdprize=50,000}}
+|{{Slot |place=3 |usdprize=30,000}}
+|{{Slot |place=4 |usdprize=20,000}}
+|{{Slot |place=5-6}}
+|{{Slot |place=7|{{Opponent|dig|wdl=8/10}}}}
+|{{Slot |place=8|{{Opponent|immortals|wdl=8/10}}}}
+|{{Slot |place=9|{{Opponent|tl|wdl=7/11}}}}
+|{{Slot |place=10|{{Opponent|clg|wdl=3/15}}}}
+}}
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{prize pool start award|noprize=true|cutafter=7|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=MVP |Blaber|flag1=us|team1=cloud9|date=2020-04-17}}
+{{prize pool slot award|award=Coach of the Split |Reapered|flag1=kr|team1=cloud9|date=2020-04-10}}
+{{prize pool slot award|award=1st All-Pro Team |date=2020-04-04
+|Licorice|flag1=ca|team1=cloud9
+|Blaber|flag2=us|team2=cloud9
+|Nisqy|flag3=be|team3=cloud9
+|Zven|flag4=dk|team4=cloud9
+|Vulcan|flag5=ca|team5=cloud9
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2020-04-04
+|Ssumday|flag1=kr|team1=100 Thieves
+|Closer|flag2=tr|team2=Golden Guardians
+|Jiizuke|flag3=it|team3=Evil Geniuses
+|Bang|flag4=kr|team4=Evil Geniuses
+|IgNar|flag5=kr|team5=Flyquest
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2020-04-04
+|Broken Blade|flag1=de|team1=TSM
+|Santorin|flag2=dk|team2=Flyquest
+|PowerOfEvil|flag3=de|team3=Flyquest
+|Cody Sun|flag4=ca|team4=100 Thieves
+|Biofrost|flag5=ca|team5=TSM
+}}
+{{Prize pool end noprize}}
+
+{{box|break|padding=2em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Group Stage MVP
+|tournament=LCS/2020/Spring/Group Stage
+}}
+
+{{box|break|padding=4em}}
+
+{{MVPTable|useSmw=true|margin=false|cutafter=5
+|title=Playoffs MVP
+|tournament=LCS/2020/Spring/Playoffs
+}}
+{{box|end}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=100 Thieves
+|p1=Ssumday
+|p2=Meteos
+|p3=Ryoma|p3flag=
+|p4=Cody Sun|p4flag=
+|p5=Stunt|p5flag=
+
+|t2p1=FakeGod|t2p1flag=|t2p1dnp=true
+|t2p2=Contractz|t2p2flag=|t2p2dnp=true
+|t2p3=Soligo|t2p3flag=|t2p3dnp=true
+|t2p4=Prismal|t2p4flag=|t2p4dnp=true
+|t2p5=breezyyy|t2p5flag=us|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Zikz|t3pos1=Head coach
+|t3p2=Kaimera|t3p2flag=us|t3pos2=analyst
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Licorice|p1flag=
+|p2=Blaber|p2flag=
+|p3=Nisqy|p3flag=
+|p4=Zven
+|p5=Vulcan
+
+|t2p1=Fudge |t2p1flag=au|t2p1dnp=true
+|t2p2=Inori|t2p2flag=|t2p2dnp=true
+|t2p3=Palafox|t2p3flag=us|t2p3dnp=true
+|t2p4=k1ng|t2p4flag=|t2p4dnp=true
+|t2p5=Diamond|t2p5flag=ca|t2p5dnp=true|t2p5link=Diamond (Canadian player)
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Reapered|t3pos1=Head Coach
+|t3p2=Westrice|t3p2flag=us|t3pos2=
+|t3p3=Reignover|t3p3flag=coach|t3pos3=Coach
+|t3p4=RapidStar|t3p4flag=coach|t3pos4=Assistant Coach
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Ruin|pos1=top
+|p2=Wiggily|pos2=jng
+|p3=Crown|p3leave=true
+|p4=Pobelter|pos4=mid
+|p5=Stixxay|pos5=adc
+|p6=Smoothie|pos6=sup
+
+|t2p1=FallenBandit|t2p1flag=ca|t2p1dnp=true
+|t2p2=Moon|t2p2link=Moon (American player)|t2p2flag=|t2p2dnp=true
+|t2p3=Tuesday|t2p3link=Tuesday (Canadian player)|t2p3flag=|t2p3dnp=true
+|t2p4=Wind|t2p4link=Wind (Korean player)|t2p4flag=kr|t2p4dnp=
+|t2p5=Fill|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=SSONG|t3p1flag=kr|t3pos1=head coach
+|t3p2=Weldon|t3p2flag=us|t3pos2=coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Dignitas
+|p1=Huni|p1flag=
+|p2=Grig|p2flag=
+|p3=Froggen|p3flag=
+|p4=Johnsun|p4flag=ca
+|p5=aphromoo|p5flag=
+
+|t2p1=Lourlo|t2p1flag=|t2p1dnp=true
+|t2p2=Akaadian|t2p2flag=|t2p2dnp=false
+|t2p3=Damonte|t2p3flag=|t2p3dnp=true
+|t2p4=Fenix|t2p4flag=|t2p4dnp=true
+|t2p5=Olleh|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Thinkcard|t3p1flag=us|t3pos1=Head Coach
+|t3p2=Invert|t3p2flag=ca|t3pos2=Assistant Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+
+|inotes={{NoteBig
+|n1='''[[Dignitas]]''' merged with '''[[Clutch Gaming]]''' and acquired their [[LCS]] spot.<ref>{{cite web |url=https://esportsobserver.com/clutch-gaming-dignitas/ |title=Dignitas Returns to League Championship Series With Clutch Gaming Merger |date=2019-06-06 |author=The Esports Observer |publisher=The Esports Observer |lang={{Flag|us}}}}</ref>
+}}
+}}
+{{TeamCard
+|team=Evil Geniuses
+|p1=Kumo|p1flag=
+|p2=Svenskeren|p2flag=
+|p3=Jiizuke|p3flag=
+|p4=Bang|p4flag=
+|p5=Zeyzal|p5flag=us
+
+|t2p1=Brandini|t2p1flag=|t2p1dnp=true
+|t2p2=AnDa|t2p2flag=|t2p2dnp=true
+|t2p3=Korean kid|t2p3flag=|t2p3dnp=true
+|t2p4=Deftly|t2p4flag=|t2p4dnp=true
+|t2p5=Matt|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Irean|t3p1flag=kr|t3pos1=Head Coach
+|t3p2=Artemis|t3p2link=Artemis (American player)|t3p2flag=us|t3pos2=Assistant Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+|inotes={{NoteBig
+|n1='''[[Echo Fox]]''' was forced to sell their [[LCS]] spot. '''[[Evil Geniuses]]''' acquired the franchise spot.<ref>{{cite web |url=https://www.espn.com/esports/story/_/id/27708703/evil-geniuses-confirm-acquisition-echo-fox-lcs-spot |title=Evil Geniuses confirm acquisition of Echo Fox's LCS spot |date=2019-09-26 |author=ESPN |publisher=ESPN |lang={{Flag|us}}}}</ref>
+}}
+}}
+{{TeamCard
+|team=FlyQuest
+|p1=Viper|p1flag=|p1link=Viper (Canadian player)|pos1=top
+|p2=Solo|pos2=top
+|p3=Santorin|p3flag=|pos3=jng
+|p4=PowerOfEvil|p4flag=|pos4=mid
+|p5=WildTurtle|p5flag=|pos5=adc
+|p6=IgNar|p6flag=|pos6=sup
+
+|t2p1=Revenge|t2p1flag=us|t2p1dnp=true
+|t2p2=Fanatiik|t2p2flag=ca|t2p2dnp=true
+|t2p3=Triple|t2p3flag=|t2p3dnp=true
+|t2p4=Mash|t2p4flag=ca|t2p4dnp=true
+|t2p5=JayJ|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Curry|t3p1flag=us|t3pos1=head coach
+|t3p2=Loyota|t3p2flag=us|t3pos2=analyst
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Golden Guardians
+|p1=Hauntzer|p1flag=
+|p2=Closer|p2flag=tr
+|p3=Goldenglue
+|p4=FBI|p4flag=
+|p5=Keith|p5flag=
+
+|t2p1=Darshan|t2p1flag=|t2p1dnp=true
+|t2p2=Hard|t2p2flag=|t2p2dnp=true
+|t2p3=Ablazeolive|t2p3flag=|t2p3dnp=true
+|t2p4=Gorica|t2p4flag=ca|t2p4dnp=true
+|t2p5=Huhi|t2p5flag=|t2p5dnp=
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Inero|t3p1flag=us|t3pos1=coach
+|t3p2=Jimmy|t3p2flag=us|t3pos2=coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=Immortals
+|p1=sOAZ|p1flag=
+|p2=Xmithie|p2flag=
+|p3=Eika|p3flag=
+|p4=Altec|p4flag=
+|p5=Hakuho|p5flag=
+
+|t2p1=Allorim|t2p1flag=us|t2p1dnp=true
+|t2p2=Potluck|t2p2flag=ca|t2p2dnp=true
+|t2p3=Insanity|t2p3flag=us|t2p3dnp=true
+|t2p4=Apollo|t2p4flag=us|t2p4dnp=false
+|t2p5=Gate|t2p5flag=cn|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Zaboutine|t3pos1=Head coach
+|t3p2=GoToOne|t3p2flag=fr|t3pos2=Assistant Coach
+|t3p3=Malaclypse|t3p3flag=us|t3pos3=Assistant Coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+
+|inotes={{NoteBig
+|n1='''[[Immortals]]''' returned to the [[LCS]] after '''IGC''' bought out '''[[OpTic Gaming]]'''.<ref>{{cite web |url=https://www.polygon.com/2019/6/12/18663066/immortals-gaming-buys-infinite-esports-optic-gaming-houston-outlaws-la-valiant-overwatch-league |title=Immortals Gaming acquires Infinite Esports |date=2019-06-12 |author=Polygon |publisher=Polygon |lang={{Flag|us}}}}</ref>
+}}
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact|p1flag=
+|p2=Broxah|p2flag=dk
+|p3=Jensen|p3flag=
+|p4=Doublelift|p4flag=
+|p5=CoreJJ|p5flag=
+
+|t2p1=Jenkins|t2p1flag=us|t2p1dnp=true
+|t2p2=Shernfire|t2p2flag=au
+|t2p3=Yusui|t2p3flag=|t2p3dnp=true
+|t2p4=Tactical|t2p4flag=|t2p4dnp=false
+|t2p5=Cao|t2p5flag=us|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Cain|t3p1flag=kr|t3pos1=Head Coach
+|t3p2=Dodo|t3p2flag=kr|t3pos2=Assistant Coach
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard
+|team=TSM
+|p1=Broken Blade|p1flag=
+|p2=Dardoch|p2flag=
+|p3=Bjergsen
+|p4=Kobbe|p4flag=
+|p5=Biofrost
+
+|t2p1=Dhokla|t2p1flag=|t2p1dnp=true
+|t2p2=Spica|t2p2flag=cn|t2p2dnp=true
+|t2p3=Evolved|t2p3flag=ca|t2p3dnp=true
+|t2p4=Lost|t2p4flag=|t2p4dnp=true
+|t2p5=Treatz|t2p5flag=|t2p5dnp=true
+|t2pos1=top|t2pos2=jg|t2pos3=mid|t2pos4=bot|t2pos5=sup
+
+|t3p1=Peter Zhang|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Haitham|t3p2flag=iraq|t3pos2=Assistant Coach
+|t3p3=Lustboy|t3p3flag=kr|t3pos3=Strategic Coach
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+|t2title=Academy
+}}
+{{TeamCard columns end}}
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LCS/2020/Spring/Group_Stage|Group Stage}}<br>
+<span style="line-height:24px">&nbsp;''[[LCS/2020/Spring/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{#lst:LCS/2020/Spring/Playoffs|Playoffs}}
+
+
+==Format==
+* '''Group Stage'''
+**Double Round Robin
+**Each team plays 18 matches.
+**All matches are {{Abbr/Bo1}}
+**Top 6 qualifies to the Summer Playoffs
+*** {{bgcolortext|seedup|''1st till 4th place''}} advance to the Upper-bracket of Playoffs.
+*** {{bgcolortext|up|''5th and 6th place''}} advance to the Lower-bracket of Playoffs.
+* '''Playoffs'''
+** Double Elimination
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2020|Mid-Season Invitational 2020]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=RiotGames
+|lang2=usuk |youtube2=channel/UCvqRdlKsE5Q8mf8YXbdIJLw
+|lang3=fr |twitch3=ogaminglol
+|lang4=kr |afreeca4=leclcs/
+|lang5=pl |twitch5=esl_lol_pl
+|lang6=it |twitch6=pg_esports
+}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Dash|b1name=James Patterson|b1flag=us
+|b2=LeTigress|b2name=Gabriella Devia-Allen|b2flag=us
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Ovilee |b1name=Ovilee May|b1flag=us
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=MarkZ|b1name=Mark Zimmerman|b1flag=us
+|b2=pr0lly|b2name=Neil Hammad|b2flag=us
+|b3=Crumbz|b3name=Alberto Rengifo|b3flag=us
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=CaptainFlowers|b1name=Clayton Raines|b1flag=ca
+|b2=Phreak|b2name=David Turley|b2flag=us
+|b3=Rivington|b3name=Rivington Bruce Bisland III|b3flag=us
+|b4=Pastrytime|b4name=Julian Carr|b4flag=au
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Azael|b1name=Isaac Cummings Bentley|b1flag=ca
+|b2=Kobe|b2name=Sam Hartman-Kenzler|b2flag=us
+|b3=Jatt|b3name=Joshua Leesman|b3flag=ca
+}}
+{{box|end|padding=2em}}
+
+
+==Additional Data==
+===Statistics===
+{{#lst:LCS/2020/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LCS|series2=NA LCS|tiers=1|limit=10|playerspage=LCS/2020/Spring|edate=2020-05-01}}
+:''See [[LCS/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
