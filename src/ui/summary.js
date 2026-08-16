@@ -6,6 +6,7 @@
  * 結算分數本來就要有個單一尺度，但玩家看到的是「評分與等第」而不是評價本身。
  */
 import { ATTR_CAP, ATTR_NAMES, ATTRS } from '../data/attributes.js';
+import { AWARDS, awardCount } from '../data/awards.js';
 import { DEMO_YEARS } from '../data/eras.js';
 import { ROLE_NAMES } from '../data/skills.js';
 import { FAN_QUOTES } from '../data/events.js';
@@ -122,9 +123,11 @@ function copyReplayLink(btn, seed) {
  * 結算圖（轉播選手卡）。版面由上而下：
  *
  *   橘金頂線／作品名／選手名（大字橘金）／位置 · 等第 · 退役年（歲）
- *   ┌ 六維屬性雷達圖 ┐ ┌ 生涯數據表 ┐   ← 兩張等高並排面板
+ *   ┌ 六維屬性雷達圖 ┐ ┌ 生涯數據表                        ┐  ← 兩張等高並排面板
+ *   │                │ │ 各賽區出賽／K-D-A／KDA，末列合計   │
+ *   │                │ │ 世界賽冠軍 N  MSI 冠軍 N  賽段冠軍 N│
+ *   └                ┘ └ 例行賽 MVP N 次   單場 MVP N 次    ┘
  *   個人特質（依五階配色，被合成者灰字劃線）
- *   世界賽冠軍 N   MSI 冠軍 N   賽段冠軍 N   單場 MVP N 次
  *   生涯總薪資 N 億台幣
  *   生涯傳記（buildBiography 五段，逐行換行，最多 BIO_MAX_LINES 行）
  *   seed: xxxx                                              vX.Y.Z
@@ -152,6 +155,9 @@ const COL_STAGE = R_X + 20; const COL_G = COL_STAGE + 148;
 const COL_KDA = COL_STAGE + 278; const COL_RATIO = R_X2 - 20;
 const ROW_H = 34;                     // 數據表列距：一行一個賽區，拉開才讀得順
 const SUM_GAP = 12;                   // 分隔線與「合計」列之間額外讓開的一段
+const HONOR_GAP = 22;                 // 「合計」列與榮譽計數之間的留白
+const HONOR_ROW_H = 30;               // 榮譽計數列距（一行放不下就折行）
+const PANEL_INSET = 20;               // 面板內縮：內容與框線之間的留白
 
 const UI = "'Inter','Noto Sans TC',sans-serif";
 const F_SECTION = `600 13px ${UI}`;   // 段落標題（金）
@@ -234,7 +240,8 @@ export function paintCard(c, { state, tier, seed, appVersion }, H) {
   for (const [, s] of buckets) for (const k of ['G', 'K', 'D', 'A']) total[k] += s[k];
 
   const traitLines = layoutTokens(c, traitTokens(state), F_TRAIT, FULL_W);
-  const honorLines = layoutHonors(c, honorCells(state, buckets), FULL_W);
+  // 榮譽計數住在右面板裡（冠軍與 MVP 都是生涯數據的一部分），寬度吃面板內寬
+  const honorLines = layoutHonors(c, honorCells(state, buckets), R_X2 - R_X - PANEL_INSET * 2);
   const bioLines = buildBiography(state)
     .flatMap((p) => wrapLines(c, p, F_BIO, FULL_W))
     .slice(0, BIO_MAX_LINES);
@@ -255,23 +262,20 @@ export function paintCard(c, { state, tier, seed, appVersion }, H) {
   /* ---- 中段：左雷達、右數據表，兩張等高面板 ---- */
   const panelTop = 178;
   const panelH = Math.max(
-    RADAR_R * 2 + 126,                                     // 標題＋上下軸標籤＋圖
-    56 + (buckets.length + 1) * ROW_H + SUM_GAP + 18,      // 標題＋表頭＋各列＋合計
+    RADAR_R * 2 + 126,                              // 標題＋上下軸標籤＋圖
+    statTableH(buckets.length, honorLines.length),  // 標題＋表頭＋各列＋合計＋榮譽計數
   );
   panel(c, L_X, panelTop, L_X2 - L_X, panelH);
   panel(c, R_X, panelTop, R_X2 - R_X, panelH);
-  text(c, '六維屬性', L_X + 20, panelTop + 24, F_SECTION, C_GOLD);
+  text(c, '六維屬性', L_X + PANEL_INSET, panelTop + 24, F_SECTION, C_GOLD);
   text(c, '生涯數據', COL_STAGE, panelTop + 24, F_SECTION, C_GOLD);
   drawRadar(c, RADAR_CX, panelTop + RADAR_R + 78, RADAR_R, state);
-  drawStatTable(c, panelTop, buckets, total);
+  drawStatTable(c, panelTop, buckets, total, honorLines);
 
   /* ---- 個人特質 ---- */
   let y = panelTop + panelH + 34;
   text(c, '個人特質', PAD, y, F_SECTION, C_GOLD);
   for (const line of traitLines) { y += 26; drawTokenLine(c, line, PAD, y, F_TRAIT); }
-
-  /* ---- 榮譽計數列 ---- */
-  for (const line of honorLines) { y += 36; drawHonorLine(c, line, PAD, y); }
 
   /* ---- 生涯總薪資 ---- */
   y += 38;
@@ -350,15 +354,21 @@ function drawTokenLine(c, line, x0, y, font) {
 
 /**
  * 榮譽計數列：只列有拿到的，零的那一格整格不出現。
- * MVP 走 `stat.MVP`（每場計次，見 season.js），所以叫單場 MVP 而不是賽季 MVP。
+ *
+ * 兩種 MVP 是兩回事，所以兩格都列：
+ *   - **例行賽 MVP**：一個聯賽一年只有一個人拿得到的年度獎（`phases/seasonEnd.js`）。
+ *     依名目計數走 `awardCount`（milestones 帳本），不去 `honors` 做子字串比對。
+ *   - **單場 MVP**：每場結算累加的 `stat.MVP`（`engine/season.js`），是次數不是獎項。
  */
 function honorCells(state, buckets) {
-  const mvp = buckets.reduce((n, [, s]) => n + s.MVP, 0);
+  const gameMvp = buckets.reduce((n, [, s]) => n + s.MVP, 0);
+  const seasonMvp = awardCount(state, AWARDS.REGULAR_MVP);
   return [
     { label: '世界賽冠軍', n: state.worldsWins, value: `${state.worldsWins}` },
     { label: 'MSI 冠軍', n: state.msiWins, value: `${state.msiWins}` },
     { label: '賽段冠軍', n: state.splitTitles, value: `${state.splitTitles}` },
-    { label: '單場 MVP', n: mvp, value: `${mvp} 次` },
+    { label: AWARDS.REGULAR_MVP, n: seasonMvp, value: `${seasonMvp} 次` },
+    { label: '單場 MVP', n: gameMvp, value: `${gameMvp} 次` },
   ].filter((cell) => cell.n > 0);
 }
 
@@ -435,8 +445,21 @@ function drawRadar(c, cx, cy, r, state) {
   });
 }
 
-/** 右面板數據表：階段／出賽／K-D-A／KDA 比值，末列為生涯合計 */
-function drawStatTable(c, panelTop, buckets, total) {
+/**
+ * 右面板要多高：標題＋表頭＋各賽區列＋合計，再加榮譽計數列（沒有就不佔位）。
+ * 與 `drawStatTable` 的落點同一份算式，改列距只要改 ROW_H／HONOR_* 這幾個常數。
+ */
+function statTableH(rows, honorRows) {
+  return 56 + (rows + 1) * ROW_H + SUM_GAP
+    + (honorRows ? HONOR_GAP + honorRows * HONOR_ROW_H : 0)
+    + PANEL_INSET;
+}
+
+/**
+ * 右面板數據表：階段／出賽／K-D-A／KDA 比值，末列為生涯合計，
+ * 合計之下接榮譽計數（冠軍與 MVP 也是生涯數據的一部分，不另開段落）。
+ */
+function drawStatTable(c, panelTop, buckets, total, honorLines = []) {
   const headY = panelTop + 56;
   const head = `600 12px ${UI}`;
   text(c, '階段', COL_STAGE, headY, head, C_GHOST);
@@ -469,4 +492,11 @@ function drawStatTable(c, panelTop, buckets, total) {
   text(c, `${total.G}`, COL_G, y, sum, C_GOLD, 'center');
   text(c, `${total.K}/${total.D}/${total.A}`, COL_KDA, y, sum, C_GOLD, 'center');
   text(c, `${kdaOf(total)}`, COL_RATIO, y, sum, C_GOLD, 'right');
+
+  // 冠軍與 MVP 接在合計之下——它們也是生涯數據，不必為此另開一個段落
+  y += HONOR_GAP;
+  for (const line of honorLines) {
+    y += HONOR_ROW_H;
+    drawHonorLine(c, line, COL_STAGE, y);
+  }
 }

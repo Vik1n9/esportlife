@@ -13,12 +13,16 @@
  *      （高度是兩趟渲染量出來的，量測回合與正式回合必須畫出同一份版面）
  *   3. 兩趟渲染的末行基線逐字相同——量測與繪製不得漂移
  *   4. 該進圖的關鍵字（選手名、段落標題、合計列、seed、版號）都真的落過筆
+ *   5. 榮譽計數住在生涯數據面板內（合計之下、個人特質之上，對齊表格欄位起點），
+ *      且兩種 MVP 各讀各的來源：例行賽 MVP 數 milestones 名目、單場 MVP 加總
+ *      各賽區 `stat.MVP`——這兩個數字混在一起是最容易發生的錯
  *
  * ⚠ 這裡用假的 2D context：Node 沒有 Canvas，但 `paintCard` 只透過 context
  *    介面落字，錄下每一筆 `fillText` 的 x/y/對齊/字寬就足以驗版面。字寬用
  *    「全形 13px、半形 7px」近似——真實字體量出來的寬度不同，但版面是否越界
  *    差在數十 px 的量級，這個近似抓得住。
  */
+import { AWARDS } from '../../src/data/awards.js';
 import { createState } from '../../src/engine/state.js';
 import { paintCard } from '../../src/ui/summary.js';
 
@@ -63,6 +67,13 @@ function retiredState() {
   s.msiWins = 1;
   s.splitTitles = 5;
   s.honors = ['2032 世界賽冠軍', '2033 MSI 冠軍'];
+  // 例行賽 MVP 依名目計數走 milestones 帳本（見 data/awards.js 的 awardCount）
+  s.milestones = [
+    { year: 2031, kind: 'award', text: AWARDS.REGULAR_MVP },
+    { year: 2033, kind: 'award', text: AWARDS.REGULAR_MVP },
+    { year: 2029, kind: 'award', text: AWARDS.ROOKIE },
+  ];
+  s.awards = s.milestones.length;
   s.fusedAway = ['鏡頭感', '人氣選手'];
   s.retireReason = '狀態下滑，2036 年掛靴。';
   const bucket = (over) => ({
@@ -112,18 +123,41 @@ export async function run({ check, log }) {
 
   const drawn = real.calls.map((k) => k.text);
   for (const want of [state.name, '六維屬性', '生涯數據', '個人特質', '生涯傳記', '合計',
-    '世界賽冠軍', 'MSI 冠軍', '賽段冠軍', `seed: ${data.seed}`, data.appVersion]) {
+    '世界賽冠軍', 'MSI 冠軍', '賽段冠軍', AWARDS.REGULAR_MVP, '單場 MVP',
+    `seed: ${data.seed}`, data.appVersion]) {
     check(`結算圖印出「${want}」`, drawn.includes(want));
   }
 
-  // 榮譽計數列只列有拿到的：獨有特質那一格沒拿到就整格不出現
+  // 兩種 MVP 是兩回事：例行賽 MVP 數 milestones 的名目，單場 MVP 加總 stat.MVP
+  const mvpValue = (label) => {
+    const cell = real.calls.findIndex((k) => k.text === label);
+    return cell < 0 ? null : real.calls[cell + 1]?.text;
+  };
+  check('例行賽 MVP 讀 milestones 帳本的座數', mvpValue(AWARDS.REGULAR_MVP) === '2 次',
+    `讀到 ${mvpValue(AWARDS.REGULAR_MVP)}`);
+  check('單場 MVP 加總各賽區 stat.MVP', mvpValue('單場 MVP') === '56 次',
+    `讀到 ${mvpValue('單場 MVP')}`);
+
+  // 榮譽計數住在生涯數據面板裡：它落在「合計」那列之後、個人特質之前
+  const at = (t) => real.calls.find((k) => k.text === t)?.y;
+  check('榮譽計數排在「合計」列之下', at('世界賽冠軍') > at('合計'),
+    `合計 y=${at('合計')}／世界賽冠軍 y=${at('世界賽冠軍')}`);
+  check('榮譽計數仍在個人特質段之上', at('世界賽冠軍') < at('個人特質'),
+    `世界賽冠軍 y=${at('世界賽冠軍')}／個人特質 y=${at('個人特質')}`);
+  check('榮譽計數落在右面板的欄位起點', at('世界賽冠軍') && real.calls
+    .find((k) => k.text === '世界賽冠軍').x === real.calls.find((k) => k.text === '階段').x);
+
+  // 榮譽計數列只列有拿到的，零的那一格整格不出現
   const noTitle = retiredState();
   noTitle.worldsWins = 0; noTitle.msiWins = 0; noTitle.splitTitles = 0;
+  noTitle.milestones = [];
   for (const s of Object.values(noTitle.stats)) s.MVP = 0;
   const bare = fakeContext();
   paintCard(bare, { ...data, state: noTitle }, 0);
   const bareText = bare.calls.map((k) => k.text);
-  check('沒拿過冠軍就不印榮譽計數列', !bareText.includes('世界賽冠軍') && !bareText.includes('賽段冠軍'));
+  check('沒拿過冠軍就不印榮譽計數列',
+    !bareText.includes('世界賽冠軍') && !bareText.includes('賽段冠軍')
+    && !bareText.includes(AWARDS.REGULAR_MVP) && !bareText.includes('單場 MVP'));
   check('沒拿過冠軍仍然印得出生涯傳記', bareText.includes('生涯傳記'));
 
   log(`結算圖 ${W}×${H}｜落字 ${real.calls.length} 筆｜末行基線 ${baseline}`);

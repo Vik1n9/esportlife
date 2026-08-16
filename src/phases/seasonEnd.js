@@ -4,6 +4,7 @@
  * 這是「所有賽段都打完之後、國際賽開打之前」的結算點。種子序在這裡定案，世界賽
  * 才有門票可談。
  */
+import { AWARDS } from '../data/awards.js';
 import { LEAGUES } from '../data/leagues.js';
 import { STAT_BASELINE } from '../data/skills.js';
 import { coachRating, effectiveCoachRating, patchPenalty, roleSkills, skillValue } from '../engine/attributes.js';
@@ -123,7 +124,7 @@ function* awards(g, stat) {
   // 例行賽 MVP：一個聯賽一年只有一個人拿得到
   // 0–100 重校：delta 門檻是水準量 ×1.25（3 → 3.75），機率的 per-point 係數 ÷1.25（3 → 2.4）
   if (stat.delta >= 3.75 && stat.MVP >= Math.max(4, Math.round(stat.G * 0.09)) && rng.chance(30 + stat.delta * 2.4)) {
-    award(state, `${state.year} 例行賽 MVP`);
+    award(state, `${state.year} ${AWARDS.REGULAR_MVP}`);
     yield card('gold', '例行賽 MVP', `以 ${stat.MVP} 次單場 MVP 拿下<b class="hl">${state.year} ${home} 例行賽 MVP</b>！`);
   }
 
@@ -134,7 +135,7 @@ function* awards(g, stat) {
    * 年齡門檻一併移除：`proYears ≤ 1` 已定義菜鳥，再卡年齡只砍人。
    */
   if (stat.delta >= -1.5 && state.proYears <= 1) {
-    award(state, `${state.year} 最佳新人`);
+    award(state, `${state.year} ${AWARDS.ROOKIE}`);
     yield card('gold', '最佳新人', `新秀賽季即站穩先發，榮膺 <b class="hl">${state.year} ${home} 最佳新人</b>。`);
   }
 
@@ -143,7 +144,7 @@ function* awards(g, stat) {
   // 一項對線特質即可觸及，仍是稀有獎。
   const soloBaseline = STAT_BASELINE[state.role].SOLO;
   if (o >= par + 2.5 && stat.SOLO >= stat.G * soloBaseline * 1.4 && rng.chance(45)) {
-    award(state, `${state.year} 單殺王`);
+    award(state, `${state.year} ${AWARDS.SOLO_KING}`);
     yield card('gold', '單殺王', `季內累積 <b class="hl">${stat.SOLO}</b> 次單殺，冠絕 ${home}！`);
     if (state.age < 26 && unlockTrait(state, 'laneking')) {
       yield card('gold', '隱藏素質解鎖：單殺王', '對線壓制是你的本能，SOLO 產出提升。');
@@ -152,7 +153,7 @@ function* awards(g, stat) {
   }
 
   if (stat.delta >= 1.25 && rng.chance(22 + stat.delta * 3.2)) {
-    award(state, `${state.year} 全明星`);
+    award(state, `${state.year} ${AWARDS.ALL_STAR}`);
     state.stats[LEAGUES[currentLeagueKey(state)].bucket].AS += 1;
     yield card('info', '全明星入選', `入選 ${state.year} ${home} 全明星。`);
   }
