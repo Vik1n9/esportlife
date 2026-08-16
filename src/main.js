@@ -34,7 +34,7 @@ let seed = new URLSearchParams(location.search).get('seed') || randomSeed();
 
 function bindStartScreen() {
   byId('seed-input').value = seed;
-  byId('ver-badge').textContent = APP_VERSION;
+  byId('ver-badge').textContent = `${MODE === 'alpha' ? 'ALPHA ' : 'DEMO '}${APP_VERSION}`;
 
   byId('seed-reroll').addEventListener('click', (e) => {
     e.preventDefault();
