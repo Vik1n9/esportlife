@@ -1,5 +1,36 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S45 alpha 內測完整版組裝：demo 保留、AMATEUR 完整生涯接成獨立入口
+
+- **方向**：DEMO 驗證完（S21／S21b），照 §19.4「補業餘期、拿掉期程上限」把引擎既有
+  的 AMATEUR 起點（16 歲 2012 網咖盃 → 職業 → 市場淘汰退役、無年份上限）接成可分享
+  的 alpha 內測入口，與 demo 並存。這不是重建——業餘期與完整生涯本來就是 160 段測試
+  的基線（`createState` 的 `stage:'AMATEUR'`），缺的只有瀏覽器入口＋開場文案＋存檔
+  隔離。引擎一行未改、SAVE_VERSION 不動。
+
+- **入口與文案**：新增 `alpha/index.html`（複製根目錄 index.html，路徑改 `../src/*`、
+  開場文案改 2012 業餘期＋ALPHA 內測標記，檔頭標 `window.__ESPORTLIFE_MODE__='alpha'`）。
+  `main.js` 讀 `MODE`（預設 demo）→ `createState` 傳 `stage`。demo 根目錄一字不動。
+
+- **存檔隔離**：`storage.js` key 加 namespace（`esportlife.save.v4.alpha` vs `…v4.demo`），
+  `setSaveNamespace(ns)` 由 main.js 摸存檔前呼叫一次。⚠ 不隔離的話 alpha 頁「繼續上次
+  的生涯」會讀到 demo 的 PRO 存檔（起點語意不同）。重開按鈕走 `location.pathname`，
+  alpha 會正確回 `/alpha/`，不需改。
+
+- **實測結論**：`npm test` 22763 項全綠（零引擎改動、測試數不變）。playwright 逐項：
+  alpha 開局 `16 歲 · 2012.1 · 網咖盃賽`、開場卡「選手誕生」2012 分支無 DEMO 字眼；
+  demo 不變（`19 歲 · 2015.1 · LMS`、DEMO 1/36、開場卡帶三年期程）；同瀏覽器兩頁
+  各存一份，localStorage 出現 alpha 與 demo 兩把 key 互不覆蓋。
+
+- **狀態**：完成。`npm test` 22763 項全綠。版號 v4.6.5 → v4.6.6（package.json／
+  APP_VERSION／規格書檔頭／CHANGELOG 四處同號）。SAVE_VERSION 不變（23）；無常數變動。
+  `next-station.mjs` 解析 49/63，下一站仍 S24c（不受影響）。
+
+- **未一起處理**：S42b／S43／S44 仍不在狀態表（既有漂移，非本站造成）——三站是壬組
+  後線性 UI 打磨、無後續站依賴，本站只在 README 現況塊註記不補表格列（無說明書檔，
+  補了會讓 next-station 解析到空連結）。alpha 部署靠 GitHub Pages main 根目錄自動
+  生效，push 後即上線，無需設定。
+
 ## 2026-08-17 — S44 技能下拉說明＋結算圖轉播卡重設計
 
 - **方向**：兩件 UI 打磨。①選手 tab 技能欄只有數值沒有說明，玩家看不懂「視野」在

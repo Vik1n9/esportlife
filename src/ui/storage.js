@@ -9,11 +9,19 @@
  */
 import { SAVE_VERSION } from '../engine/state.js';
 
-const KEY = 'esportlife.save.v4';
+/*
+ * 存檔 namespace（S45，alpha 內測）：demo 與 alpha 是兩個語意不同的起點
+ * （PRO 三年期程 vs AMATEUR 完整生涯），若共用同一把 key，在 alpha 頁開
+ * 「繼續上次的生涯」會讀到 demo 的存檔、反之亦然。namespace 由進入點
+ * （main.js）在摸任何存檔前設定一次。
+ */
+let NS = 'demo';
+export function setSaveNamespace(ns) { NS = ns || 'demo'; }
+const key = () => `esportlife.save.v4.${NS}`;
 
 export function saveGame(state, rng) {
   try {
-    localStorage.setItem(KEY, JSON.stringify({
+    localStorage.setItem(key(), JSON.stringify({
       saveVersion: SAVE_VERSION,
       savedAt: Date.now(),
       lifeSeed: rng.seedString,
@@ -26,7 +34,7 @@ export function saveGame(state, rng) {
 
 export function loadGame() {
   try {
-    const raw = localStorage.getItem(KEY);
+    const raw = localStorage.getItem(key());
     if (!raw) return null;
     const data = JSON.parse(raw);
     if (!data || data.saveVersion !== SAVE_VERSION || !data.state) return null;
@@ -35,6 +43,6 @@ export function loadGame() {
 }
 
 export function clearSave() {
-  try { localStorage.removeItem(KEY); } catch { /* 無痕模式等情況，忽略 */ }
+  try { localStorage.removeItem(key()); } catch { /* 無痕模式等情況，忽略 */ }
 }
 

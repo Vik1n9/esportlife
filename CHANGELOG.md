@@ -1,3 +1,21 @@
+## [v4.6.6] - 2026-08-17
+
+### S45：alpha 內測完整版組裝（§19.4）
+
+在既有 demo（PRO 起點三年期程）之外，組裝 alpha 完整版：AMATEUR 起點（16 歲
+2012 網咖盃）一路打到退役，無年份上限。引擎零改動、SAVE_VERSION 不動——業餘期
+與完整生涯本來就是 160 段測試的基線，這一站只補「瀏覽器入口 + 文案 + 存檔隔離」。
+
+- **獨立目錄 `alpha/`**：`alpha/index.html` 複製自根目錄 `index.html`，改開場文案
+  （2012 業餘期、完整生涯、ALPHA 內測標記），路徑指到 `../src/*`，檔頭標
+  `window.__ESPORTLIFE_MODE__ = 'alpha'`。demo 根目錄入口不動。
+- **`src/main.js` 讀模式**：`MODE`（預設 demo）→ `createState` 傳
+  `stage: 'AMATEUR'`；存檔 namespace 跟著模式走。
+- **存檔隔離**：`src/ui/storage.js` 的 key 加 namespace（`…v4.alpha` vs `…v4.demo`），
+  兩邊不再互讀到對方存檔（起點語意不同）。
+- **升版**：package.json／APP_VERSION／規格書檔頭／CHANGELOG 四處同號
+  v4.6.5 → v4.6.6。
+
 ## [v4.6.5] - 2026-08-17
 
 ### S44：技能下拉說明＋結算圖轉播卡重設計（§22.3、§19.4）
