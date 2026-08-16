@@ -61,11 +61,21 @@ function parseTeamCards(wiki) {
   return cards;
 }
 
-// Tournament Awards 找 Finals MVP／Grand Final MVP 的 team= 當冠軍判定。
-function findChampionTeam(wiki) {
-  const awardRe = /\{\{Slot\|award=(Finals MVP|Grand Final MVP)[^}]*?\{\{Opponent\|[^}]*?\bteam=([a-zA-Z0-9._-]+)/;
-  const m = wiki.match(awardRe);
-  return m ? m[2] : null;
+// Tournament Awards 找「決賽 MVP」判定冠軍隊：優先讀 Opponent 的 team=（多數年份有），
+// 缺 team= 時（如 LCK 2025 改季賽制後 {{Opponent|Ruler}} 沒帶隊伍）改用 MVP 選手名
+// 反查哪張 TeamCard 有這個人，比對出冠軍隊。
+const FINALS_MVP_RE = /\{\{Slot\|award=(?:[^|]*\bFinal[^|]*MVP|Grand Final MVP)[^}]*\{\{Opponent\|([^|}]+)(?:\|[^}]*)?\}\}/i;
+
+function findChampionCard(wiki, cards) {
+  const m = wiki.match(FINALS_MVP_RE);
+  if (!m) return null;
+  const teamMatch = m[0].match(/\bteam=([a-zA-Z0-9._-]+)/);
+  if (teamMatch) {
+    const byTeamCode = cards.find((c) => slugify(c.team) === slugify(teamMatch[1]));
+    if (byTeamCode) return byTeamCode;
+  }
+  const mvpPlayer = m[1].trim();
+  return cards.find((c) => c.players.some((p) => slugify(p) === slugify(mvpPlayer))) ?? null;
 }
 
 const args = process.argv.slice(2);
@@ -92,7 +102,7 @@ function addPlayer(playerId, region, priority) {
 // Worlds／MSI：全部參賽隊全部隊員
 let worldsMsiList = [];
 try {
-  worldsMsiList = readFileSync(join(ROOT, worldsMsiListFile), 'utf8').split('\n').map((s) => s.trim()).filter(Boolean);
+  worldsMsiList = readFileSync(worldsMsiListFile, 'utf8').split('\n').map((s) => s.trim()).filter(Boolean);
 } catch {
   console.error(`警告: ${worldsMsiListFile} 不存在，跳過 Worlds/MSI 段`);
 }
@@ -115,7 +125,7 @@ for (const title of worldsMsiList) {
 // LCK/LPL/LEC/LCS：只算冠軍隊
 let championList = [];
 try {
-  championList = readFileSync(join(ROOT, championListFile), 'utf8').split('\n').map((s) => s.trim()).filter(Boolean);
+  championList = readFileSync(championListFile, 'utf8').split('\n').map((s) => s.trim()).filter(Boolean);
 } catch {
   console.error(`警告: ${championListFile} 不存在，跳過賽段冠軍段`);
 }
@@ -126,16 +136,10 @@ for (const title of championList) {
     console.error(`警告: ${title} 無 raw（先跑 crawl.mjs crawl）`);
     continue;
   }
-  const championTeam = findChampionTeam(wiki);
-  if (!championTeam) {
-    unresolvedChampions.push(title);
-    continue;
-  }
   const cards = parseTeamCards(wiki);
-  const card = cards.find((c) => c.team.toLowerCase() === championTeam.toLowerCase())
-    ?? cards.find((c) => slugify(c.team) === slugify(championTeam));
+  const card = findChampionCard(wiki, cards);
   if (!card) {
-    unresolvedChampions.push(`${title}（冠軍隊代碼 ${championTeam} 對不上 TeamCard team=）`);
+    unresolvedChampions.push(title);
     continue;
   }
   teamsSeen.add(card.team);
