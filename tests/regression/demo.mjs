@@ -22,7 +22,9 @@ import { buildBiography } from '../../src/engine/biography.js';
 import { DEMO_MONTHS, demoExpiring, demoMonth, demoStartYear, isDemo } from '../../src/engine/demo.js';
 import { DEMO_END_YEAR, DEMO_YEARS, START_YEAR } from '../../src/data/eras.js';
 import { MONTHS_PER_YEAR } from '../../src/engine/calendar.js';
-import { playCareer, playMatrix } from '../lib/harness.mjs';
+import { allocate, monthAction, playCareer, playMatrix, tacticsAction } from '../lib/harness.mjs';
+import { careerFlow } from '../../src/engine/game.js';
+import { Rng } from '../../src/core/rng.js';
 import { ROLES } from '../../src/data/skills.js';
 
 const mean = (a) => (a.length ? a.reduce((t, v) => t + v, 0) / a.length : 0);
@@ -96,6 +98,54 @@ export async function run({ check, log }) {
     startMean.toFixed(1));
 
   demoSpan({ check, log }, runs);
+  demoLastStand({ check, log });
+}
+
+/**
+ * 最後一搏之後不得重跑同一年（§18.2 第二層 ＋ §19.2 期程，S21b OCR review）。
+ *
+ * `retire()` 的呼叫點全部在 12 月的 TRANSFER 階段，例外一拋，`runYear` 尾端的年界
+ * 就沒跑到。生涯確定結束時無所謂；但「最後一搏」是要續跑的——不補跑年界，續跑的
+ * 那一年會是**同一年重打一次**（賽段、季後賽、世界賽再來一遍、`seasonLog` 兩筆同年、
+ * `proYears` 多一季），DEMO 也就跑得出 36 個月以上。
+ *
+ * 自動駕駛的策略一律回答「宣布退役」（`harness.decide`，刻意的——否則 160 段矩陣的
+ * 生涯長度整批位移），所以這條路徑只能在這裡專門開一段來驗：FA 選單選「功成身退」
+ * → 退役選項選「最後一搏」，每次都選，逼出連續續命。
+ */
+function demoLastStand({ check, log }) {
+  const state = createState({ name: 'DEMO-LS', role: 'MID', seed: 'demo-laststand', stage: 'PRO' });
+  const rng = new Rng('demo-laststand:life');
+  const flow = careerFlow({ state, rng });
+  const cursor = { i: 0 };
+  let input;
+  let months = 0;
+  let stands = 0;
+  for (let beats = 0; beats < 20000; beats++) {
+    const { value, done } = flow.next(input);
+    input = undefined;
+    if (done) break;
+    if (value.type === 'month') months += 1;
+    if (value.type === 'alloc') { allocate(state, value, 'focus', cursor); continue; }
+    if (value.type !== 'choice') continue;
+    if (value.kind === 'month') { input = monthAction(state, value, 'focus', cursor); continue; }
+    if (value.kind === 'tactics') { input = tacticsAction(state, value); continue; }
+    const ids = value.options.map((o) => o.id);
+    // 「功成身退」把自己推進退役流程，再用「最後一搏」反悔——這就是重跑年份的路徑
+    if (ids.includes('lastHustle')) { stands += 1; input = 'lastHustle'; continue; }
+    input = ids.includes('quit') ? 'quit' : value.options[0].id;
+  }
+
+  const years = state.seasonLog.map((e) => e.year);
+  const dupes = years.filter((y, i) => years.indexOf(y) !== i);
+  check('DEMO：最後一搏至少發生過一次（這段測試才有意義）', stands >= 1, `${stands} 次`);
+  check('DEMO：最後一搏之後不重跑同一年——seasonLog 一年只有一筆',
+    dupes.length === 0, `重複年份 ${[...new Set(dupes)].join(',') || '無'}｜${years.join(',')}`);
+  check('DEMO：最後一搏也跑不出 36 個月', months <= DEMO_MONTHS, `${months} 個月`);
+  check('DEMO：最後一搏也跑不進第四年',
+    state.year <= DEMO_END_YEAR && state.proYears <= DEMO_YEARS,
+    `${state.year} 年／${state.proYears} 季`);
+  log(`DEMO 最後一搏：${stands} 次續命、${months} 個月、賽季 ${years.join(',')}`);
 }
 
 /**
@@ -111,8 +161,10 @@ export async function run({ check, log }) {
  *     `demoEnd` 模板（現役），否則玩家會把期滿讀成「21 歲掛靴」。
  *   - **業餘路線沒被截斷**：同一顆引擎跑 AMATEUR 起點要能越過 2017。
  *
- * ⚠ 這裡不設「期滿比例」的門檻。期滿與提早結局的比例是**平衡量**（吃自由市場
- * 門檻與新秀成長曲線），不是不變式；實測值記在 21b 交接筆記，由校準站負責。
+ * ⚠ 期滿比例是**平衡量**，這裡只守一條寬鬆的可玩性下界（≥ 60/100）。DEMO 改成三年
+ * 的理由就是「三年要玩得到」：初版量到 27/100（67 段死在第 24 個月的自由市場斷崖），
+ * 校準後 87/100。設下界不是要釘住數字，是要讓斷崖一旦回來就當場被抓到——精確的
+ * 實測值記在 21b 交接筆記，門檻本身由校準站負責。
  */
 function demoSpan({ check, log }, runs) {
   const expired = runs.filter((r) => r.state.demoEnded);
@@ -138,12 +190,14 @@ function demoSpan({ check, log }, runs) {
   check('DEMO：期滿段出過「DEMO 結束」卡，且排在結算之前',
     expired.every((r) => r.cards.some((c) => c.title === 'DEMO 結束')),
     `${expired.filter((r) => r.cards.some((c) => c.title === 'DEMO 結束')).length}/${expired.length}`);
+  // detail 要延後求值：`buildBiography` 吃的是完整 state，沒有期滿段時傳空物件會
+  // 直接拋 TypeError，整個 suite 掛掉——斷言明明只是要落回「無期滿段」
   check('DEMO：期滿段的傳記結局段講「現役」而不是「退役」（§15.5）',
     expired.every((r) => {
       const ending = buildBiography(r.state)[3];
       return ending.includes('現役') && !ending.includes('退役');
     }),
-    buildBiography(expired[0]?.state ?? {})[3] || '無期滿段');
+    expired.length ? buildBiography(expired[0].state)[3] : '無期滿段');
 
   check('DEMO：提早結局的段有退役原因，且沒有被標成期滿（§18.2 優先於期程）',
     early.every((r) => !!r.state.retireReason && !r.state.demoEnded),
@@ -157,6 +211,9 @@ function demoSpan({ check, log }, runs) {
   check('完整生涯（業餘起點）不被 DEMO 上限截斷',
     full.state.year > DEMO_END_YEAR && !full.state.demoEnded,
     `${full.state.year}／demoEnded=${full.state.demoEnded}`);
+
+  check('DEMO：三年真的玩得到——期滿收束 ≥ 60/100（可玩性下界，§19.1）',
+    expired.length >= 60, `${expired.length}/${runs.length}`);
 
   const months = runs.map((r) => r.beatTypes.month || 0);
   log(`DEMO 期程：期滿 ${expired.length}/100、提早結局 ${early.length}/100；`

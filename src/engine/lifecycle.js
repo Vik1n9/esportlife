@@ -65,12 +65,29 @@ export function growthRateWindow(state) {
 /**
  * 衰退跟隨量（§7.2）：`(current − effective_potential) × decline_pull`。
  *
- * 只在 current 高過有效天花板時非零——上升期（current 追著天花板跑）不會被這個函式
- * 誤傷。回傳的是**期望量**（帶小數），落地取整在 `applyLifecycleDecline`。
+ * 只在 current 高過有效天花板時非零。回傳的是**期望量**（帶小數），落地取整在
+ * `applyLifecycleDecline`。
+ *
+ * ⚠ **峰前拉回的參考線是固定潛力，不是當下的曲線值**（S21b 校準）：§7.2 與
+ * `game.js` 的年初敘事都把這件事定義成「曲線**過峰後**，屬性值被往下拉」——峰前
+ * 曲線還在上升，值高過當下曲線只代表天花板還沒追上來，那不是衰退。
+ *
+ * 舊寫法峰前峰後都拿曲線值當參考線，於是 DEMO 的職業起點（19 歲，屬性照 §7.3 由
+ * 固定潛力 ×0.80／0.70 給定，比值 0.69–0.71 高過 19 歲的曲線值 0.63–0.64）開局第一
+ * 張卡就是「歲月：體能已過巔峰」（實測 −6 點），而且往後兩年一直被回拉——新秀三年
+ * 練不動，第二年約到期就被市場淘汰（實測 67/100 死在第 24 個月）。
+ *
+ * 換成固定潛力之後，**潛力仍然是硬上限**：練過頭一樣被拉回來（低潛力的人靠猛練
+ * 也翻不了身），只是年齡曲線不再在成長期倒過來壓人。業餘起點的成長期本來就在
+ * 曲線底下追，兩種參考線都給 0（S21 實測「AMATEUR 16 歲起點 annualPull 全 0」）。
  */
 export function annualPull(state, attr) {
-  const over = state.attr[attr] - effectivePotential(state, attr);
-  return over > 0 ? over * effectiveParams(state, attr).decline_pull : 0;
+  const params = effectiveParams(state, attr);
+  const ceiling = state.age < params.peak_age
+    ? (state.potential?.[attr] ?? 0)
+    : effectivePotential(state, attr);
+  const over = state.attr[attr] - ceiling;
+  return over > 0 ? over * params.decline_pull : 0;
 }
 
 /**

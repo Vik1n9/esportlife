@@ -57,21 +57,33 @@ export function disbandNoteFor(state, year = state.year) {
  * 位置需求門檻（V4 §18.2 草案）：教練評價低於門檻則無報價。
  *
  * 這是市場淘汰制的「軟地板」——比 `phases/transfer.js` 的 `FLOOR_RATING`（38）高，
- * 讓衰退中的老將在還不到「青訓最低標」之前就收不到報價、只剩退役。三項調整量都是
- * 草案值，待試跑校準（§21.2）：
+ * 讓衰退中的老將在還不到「青訓最低標」之前就收不到報價、只剩退役。四項調整量：
  *   - 年齡越老，隊伍越不想簽（現實的 LoL 選人偏好）：30 歲後每年 +5
+ *   - **年紀還輕，隊伍願意等**：23 歲以前每年 −2（S21b 校準，見下）
  *   - 位置不缺人（草案以「最近被下放過」近似）：+4
  *   - 先發合約剩餘 ≥ 2 年（位子還很穩，市場不缺人）：+6
  *
  * ⚠ 年齡項是必需的，不是加料：意識型位置（JG／SUP 的 awr/syn/dec 權重合計 97%）衰退
  * 得極慢（「老將靠意識吃飯」），光靠衰退曲線要 50 歲才跌破門檻。年齡項把「隊伍偏愛
  * 年輕選手」的現實寫進門檻，才有合理的退役年齡。
+ *
+ * ⚠ **年輕項是同一條偏好的另一半**（S21b）：這個機制的目的寫在上一段——淘汰**衰退中
+ * 的老將**。但門檻不分年齡地釘在主場賽區 min（62），於是新秀的第一份兩年約一到期就
+ * 撞上它：實測出道兩年後的教練評價平均 61.9，門檻 62.6，48 段裡 30 段低於門檻 →
+ * 續約與報價同時為空 → §18.1「無報價只剩退役」，21 歲被迫退休（實測 67/100 死在
+ * 第 24 個月）。現實裡「還年輕、值得等」正是隊伍留人的理由，所以年齡偏好要對稱：
+ * 30 歲以後每年變嚴，23 歲以前每年變寬。放寬後低於主場線的年輕人會落到青訓次級
+ * （`candidateLeagues` 的 AM2 退路），是「被下放」而不是「被淘汰」——市場淘汰制
+ * （§18.1）沒有被繞過，只是不再把新秀跟老將當同一種人。
  */
-const POSITION_DEMAND = { base: LEAGUES.HOME.min, ageFrom: 30, ageStep: 5, benched: 4, starterContract: 6 };
+const POSITION_DEMAND = {
+  base: LEAGUES.HOME.min, ageFrom: 30, ageStep: 5, youngUntil: 22, youngStep: 2, benched: 4, starterContract: 6,
+};
 
 export function positionDemandThreshold(state) {
   let t = POSITION_DEMAND.base;
   if (state.age > POSITION_DEMAND.ageFrom) t += (state.age - POSITION_DEMAND.ageFrom) * POSITION_DEMAND.ageStep;
+  if (state.age < POSITION_DEMAND.youngUntil) t -= (POSITION_DEMAND.youngUntil - state.age) * POSITION_DEMAND.youngStep;
   if (state.benchedStreak >= 1) t += POSITION_DEMAND.benched;
   if (state.contract && state.contract.years >= 2) t += POSITION_DEMAND.starterContract;
   return t;

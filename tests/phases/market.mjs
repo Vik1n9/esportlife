@@ -1,7 +1,8 @@
 /** 自由市場：報價層級、挖角門檻、休息室與輿論的後果。 */
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
-import { generateOffers, clubVerdict, scoutInterest, SCOUT_BAR } from '../../src/engine/market.js';
+import { generateOffers, clubVerdict, positionDemandThreshold, scoutInterest, SCOUT_BAR } from '../../src/engine/market.js';
+import { LEAGUES } from '../../src/data/leagues.js';
 import { effectiveCoachRating } from '../../src/engine/attributes.js';
 import { LIFECYCLE_BASE } from '../../src/data/lifecycle.js';
 import { driveUntil, isSigningOffer } from '../lib/harness.mjs';
@@ -122,5 +123,37 @@ export async function run({ check }) {
 
     // 而護盾特質擋得住——傳奇偶像／話題製造機那一類
     check('護盾特質擋得住切割', count(make(52, {}, { icon: true }), 'fired') === 0);
+  }
+
+  /* ---- §18.2 位置需求門檻：年齡偏好對稱（S21b 校準） ---- */
+  {
+    /*
+     * 這個門檻的用途寫在 `market.js` 的說明裡——淘汰**衰退中的老將**。舊值不分年齡
+     * 一律釘在主場賽區 min，於是新秀的第一份兩年約一到期就撞上它（實測 21 歲平均
+     * 評價 61.9 對門檻 62.6，67/100 的 DEMO 段死在第 24 個月）。現在兩端對稱：
+     * 30 歲以後每年變嚴，22 歲以前每年變寬，22–30 歲是同一條線。
+     *
+     * 守的是**形狀**（單調、對稱、中段持平、仍在硬地板 FLOOR_RATING 38 之上），
+     * 不是那幾個數字本身——調校準時數字會動，形狀不該動。
+     */
+    const at = (age, patch = {}) => {
+      const s = createState({ name: 'T', role: 'MID', seed: 'demand-threshold' });
+      s.stage = 'PRO'; s.league = 'HOME'; s.age = age; s.contract = null;
+      Object.assign(s, patch);
+      return positionDemandThreshold(s);
+    };
+    const base = LEAGUES.HOME.min;
+
+    check('門檻中段＝主場賽區 min（22–30 歲同一條線）',
+      at(22) === base && at(26) === base && at(30) === base, `${at(22)}／${at(26)}／${at(30)}`);
+    check('新秀三年逐年放寬（19 < 20 < 21 < 22）',
+      at(19) < at(20) && at(20) < at(21) && at(21) < at(22), `${at(19)}／${at(20)}／${at(21)}／${at(22)}`);
+    check('老將逐年收緊（30 < 31 < 33）', at(30) < at(31) && at(31) < at(33), `${at(31)}／${at(33)}`);
+    check('放寬幅度有限——最寬的一年仍高過硬地板 FLOOR_RATING 38',
+      at(19) > 38 && base - at(19) <= 8, `19 歲門檻 ${at(19)}（base ${base}）`);
+    check('被下放與長約仍然加碼（放寬不吃掉既有兩項）',
+      at(21, { benchedStreak: 2 }) > at(21)
+      && at(21, { contract: { years: 3, mult: 1 } }) > at(21),
+      `${at(21)}／下放 ${at(21, { benchedStreak: 2 })}／長約 ${at(21, { contract: { years: 3, mult: 1 } })}`);
   }
 }
