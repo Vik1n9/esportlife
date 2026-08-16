@@ -24,6 +24,27 @@ export function assistsPerGame(state) {
   return G > 0 ? Math.round((A / G) * 10) / 10 : 0;
 }
 
+/**
+ * 單一筆戰績的 KDA 比值（(K+A)÷D，取一位小數）。轉播數據表的尺度。
+ *
+ * ⚠ D=0 不炸：零死亡時回 K+A（傳統播法），不會出現 Infinity 印上結算圖。
+ */
+export function kdaOf(stat) {
+  if (!stat.D) return stat.K + stat.A;
+  return Math.round(((stat.K + stat.A) / stat.D) * 10) / 10;
+}
+
+/** 生涯總 KDA：所有分區的 KDA 加總後再除一次（不是各分區比值的平均） */
+export function careerKda(state) {
+  const sum = { K: 0, D: 0, A: 0 };
+  for (const s of Object.values(state.stats)) {
+    sum.K += s.K;
+    sum.D += s.D;
+    sum.A += s.A;
+  }
+  return kdaOf(sum);
+}
+
 /** 生涯效力過幾支不同戰隊（§14.3「流浪傭兵」：≥ 4 支） */
 export function distinctTeams(state) {
   return new Set(state.teamHistory.map((e) => e.team)).size;

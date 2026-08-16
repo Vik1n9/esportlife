@@ -5,8 +5,8 @@
 import { createState } from '../../src/engine/state.js';
 import { playCareer } from '../lib/harness.mjs';
 import {
-  assistsPerGame, distinctTeams, intlWinRate, lastFinish, longestTenure, msiBest,
-  reigningChampion, worldsBest,
+  assistsPerGame, careerKda, distinctTeams, intlWinRate, kdaOf, lastFinish,
+  longestTenure, msiBest, reigningChampion, worldsBest,
 } from '../../src/engine/ledger.js';
 import { recordIntlFinish } from '../../src/phases/shared.js';
 import { FINISH_ORDER, finishOrder, NO_FINISH } from '../../src/data/formats/finishes.js';
@@ -39,6 +39,18 @@ export async function run({ check }) {
 
     s.stats = { home: { G: 40, A: 100 }, abroad: { G: 10, A: 20 } };
     check('assistsPerGame 跨分區合計（120/50 = 2.4）', assistsPerGame(s) === 2.4, `${assistsPerGame(s)}`);
+
+    check('kdaOf＝(K+A)/D 取一位小數', kdaOf({ K: 10, D: 6, A: 5 }) === 2.5,
+      `${kdaOf({ K: 10, D: 6, A: 5 })}`);
+    check('kdaOf D=0 不炸：回 K+A', kdaOf({ K: 3, D: 0, A: 5 }) === 8,
+      `${kdaOf({ K: 3, D: 0, A: 5 })}`);
+    s.stats = {
+      HOME: { G: 10, K: 10, D: 5, A: 10 },
+      OVERSEAS: { G: 10, K: 8, D: 0, A: 2 },
+    };
+    check('careerKda 跨分區合計後再除（(18+12)/5 = 6）', careerKda(s) === 6, `${careerKda(s)}`);
+    s.stats = {};
+    check('careerKda 沒打過不炸', careerKda(s) === 0, `${careerKda(s)}`);
 
     s.teamHistory = [
       { team: 'AAA', fromYear: 2014, toYear: 2016 },

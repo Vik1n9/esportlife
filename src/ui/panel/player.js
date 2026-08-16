@@ -2,7 +2,8 @@
  * 選手 tab：個人資料全列（§22.3）。
  *
  * 玩家能知道的一切都在這裡：基本／薪資／六屬性＋潛力／十二技能（核心 4 ＋次要 2
- * 標註）／英雄池與專精／版本落差／聲量分級／個人特質列表／目前任務／存檔・重開。
+ * 標註，下拉可看說明與來源屬性）／英雄池與專精／版本落差／聲量分級／個人特質列表／
+ * 目前任務／存檔・重開。
  *
  * §22.4 自查：
  * - 隱藏心理六維：不顯示 ✓（reputeSummary 只回 fame）
@@ -13,7 +14,7 @@
  * - 配方不揭露 ✓（不提合成）
  */
 import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS, POTENTIAL_BANDS } from '../../data/attributes.js';
-import { ROLE_NAMES, SKILL_NAMES } from '../../data/skills.js';
+import { ROLE_NAMES, SKILL_DESC, SKILL_LINKS, SKILL_NAMES } from '../../data/skills.js';
 import { HEROES_BY_ROLE } from '../../data/heroes.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../../data/epics.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../../data/traits.js';
@@ -110,17 +111,27 @@ function skillSection(state) {
   const top = keys.slice(0, 4);
   const rows = keys.map((key) => {
     const value = skillValue(state, key);
-    return `<div class="abrow static">
-      <div class="nm">${SKILL_NAMES[key]}</div>
-      <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%"><i></i></div>
-      <div class="val"><b>${value}</b><span class="cost">${top.includes(key) ? '本位置核心' : ''}</span></div>
-    </div>`;
+    const link = SKILL_LINKS[key];
+    const attrsTxt = link.attrs.map((a) => ATTR_NAMES[a]).join('、');
+    const relatedTxt = link.related.length ? link.related.map((k) => SKILL_NAMES[k]).join('、') : '（無）';
+    const rolesTxt = link.roles.map((r) => `${ROLE_NAMES[r]}${link.coreRoles.includes(r) ? '核心' : ''}`).join('、');
+    return `<details class="skill-item">
+      <summary>
+        <span class="trait-arrow">▸</span><div class="abrow static">
+          <div class="nm">${SKILL_NAMES[key]}</div>
+          <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%"><i></i></div>
+          <div class="val"><b>${value}</b><span class="cost">${top.includes(key) ? '本位置核心' : ''}</span></div>
+        </div>
+      </summary>
+      <div class="trait-desc">${escapeHtml(SKILL_DESC[key])}<br>
+        相關屬性：${attrsTxt} 相關技能：${relatedTxt} 位置意義：${rolesTxt}</div>
+    </details>`;
   }).join('');
 
   return `<section>
     <h5>技能（${ROLE_NAMES[state.role]}）</h5>
     ${rows}
-    <p class="muted small">技能由六大屬性換算而來，不能直接加點；由上到下＝對本位置戰力的影響由重到輕。<br>沒有單一總評數字——這一路要強，看的是這六項。</p>
+    <p class="muted small">▸ 點開查看各技能的作用與來源；技能由六大屬性換算而來，不能直接加點；由上到下＝對本位置戰力的影響由重到輕。<br>沒有單一總評數字——這一路要強，看的是這六項。</p>
   </section>`;
 }
 

@@ -1,6 +1,44 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S44 技能下拉說明＋結算圖轉播卡重設計
+
+- **方向**：兩件 UI 打磨。①選手 tab 技能欄只有數值沒有說明，玩家看不懂「視野」在
+  峽谷裡長什麼樣；②結算圖只有幾行字，不像 LoL 轉播的選手卡。解法：技能比照屬性
+  加下拉（一句說明＋來源屬性＋相關技能，**不顯示權重**）；結算圖改成轉播卡——左欄
+  六維雷達、右欄各賽區 KDA 表、下方特質＋榮譽＋薪資＋傳記。純 UI，不動引擎機制。
+
+- **技能下拉**：`data/skills.js` 新增 `SKILL_DESC`（十二句覆盤語彙）與 `SKILL_LINKS`
+  （attrs／related／roles／coreRoles 四組關係）。`player.js` 的 `skillSection` 從純
+  `abrow` 改成 `<details class="skill-item">`＋`▸` 箭頭，`styles.css` 補 `.skill-item`
+  規則並把箭頭旋轉選擇器擴到 `.skill-item[open]`。
+
+- **⚠ SKILL_LINKS 全部派生，不手抄**（單一來源規則）：attrs 讀 `SKILL_WEIGHTS` 鍵、
+  related＝共用 ≥2 屬性的其他技能、roles 讀 `OVR_WEIGHTS`、coreRoles 讀 `ROLE_SKILLS`
+  前四。手抄一份預期值就是把 bug 抄第二遍，所以新測試 `tests/kernel/skillLinks.mjs`
+  的斷言**重算源表**而非寫死。
+
+- **KDA 比值進帳本**：`ledger.js` 新增 `kdaOf`（(K+A)÷D 取一位小數、D=0 回 K+A）與
+  `careerKda`（各分區加總後再除一次，不是各比值平均）。結算圖與未來 UI 讀帳本，
+  不直接除 raw 欄位——D=0 的 Infinity 會直接印上圖。
+
+- **結算圖重寫**：`summary.js` 的 `drawShareImage` 全換，維持先量後畫（scratch context
+  做中文換行、高度由內容累加）。雷達圖 `drawRadar` 手繪四圈網格＋六軸＋數值多邊形，
+  頂點固定走 `ATTRS` 順序；數據表 `drawStatTable` 列「階段／出賽／K-D-A／KDA」＋合計。
+  零依賴，照專案鐵則不引圖表庫。
+
+- **實測結論**：`npm test` 22901 項全綠（新增 ~144 項：skillLinks 關係派生＋對稱、
+  kdaOf 單元）。結算圖四種情境（AMATEUR 完整生涯／PRO 三年期程／SUP 空表／fusedAway
+  有值）以 stub DOM/canvas 煙霧＋playwright 真實渲染各跑一遍不炸，產圖 1800×1700。
+
+- **狀態**：完成。`npm test` 22901 項全綠。版號 v4.6.4 → v4.6.5（package.json／
+  APP_VERSION／規格書檔頭／CHANGELOG 四處同號）。SAVE_VERSION 不變（不動存檔結構）。
+
+- **未一起處理**：結算圖特質未按五階配色（圖上統一白字，fusedAway 灰字）——階色是
+  CSS 變數，canvas 需另建色票，留 TODO 待視覺定稿；網頁內「生涯數據」表未加 KDA
+  比值列（本次範圍只改分享圖）。
+
 ## 2026-08-17 — S43 固定框架與單一決策槽：決策槽真的固定、卡牌選項收回槽內
+
 
 - **回報**：「最下方訓練選項欄位固定，不因事件文本導致滑動；事件選項出現時，
   自動代替下方訓練選項。」兩件事其實是同一件——先有固定的槽，選項才有理由收成一處。

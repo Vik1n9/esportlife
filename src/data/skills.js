@@ -111,6 +111,37 @@ export const ROLE_START_EDGE = Object.fromEntries(ROLES.map((role) => {
   return [role, [...ATTRS].sort((a, b) => w[b] - w[a]).slice(0, 2)];
 }));
 
+/** 面板技能下拉裡給玩家的一句話說明。寫覆盤語彙，不是權重清單 */
+export const SKILL_DESC = {
+  lane: '站穩線上的功夫。補刀不落後、換血不吃虧、被抓時第一時間有反應。',
+  op: '純手上功夫。極限補刀、閃現躲技能、會戰中連招打滿。',
+  vis: '放眼位與讀對方動向。眼位做得出來，隊友才敢動。',
+  jg: '刷野路線與節奏。先刷哪營、什麼時間點入侵、往哪一路施壓。',
+  gank: '轉支援的時機與路線。隊友被抓時來不來得及，就看這個。',
+  obj: '小龍與巴龍的判斷。團隊要搶還是放，全在這一拍。',
+  tf: '5v5 的輸出、站位與目標選擇。會戰贏面與翻盤都看這。',
+  eng: '什麼時候開、怎麼繞。開團是一拍決斷。',
+  peel: '貼身拆掉衝進來的敵人。要比隊友更早看到威脅。',
+  split: '邊線的推進與拉扯，帶完線回團的時間點。',
+  rotate: '對線期結束後的換線時機與兵線分配。',
+  pos: '會戰裡站在安全又輸出得到的位置。射手的生死線。',
+};
+
+/**
+ * 技能之間的關係——全部由上面兩張權重表**派生**，不手抄：
+ * - `attrs`：來源屬性鍵（面板只顯示名字，不顯示權重）；
+ * - `related`：與本技能共用兩個以上屬性的其他技能；
+ * - `roles`／`coreRoles`：OVR 吃這技能的位置／它排進核心四項的位置。
+ */
+export const SKILL_LINKS = Object.fromEntries(Object.keys(SKILL_WEIGHTS).map((key) => {
+  const attrs = Object.keys(SKILL_WEIGHTS[key]);
+  const related = Object.keys(SKILL_WEIGHTS).filter((other) => other !== key
+    && attrs.filter((a) => SKILL_WEIGHTS[other][a]).length >= 2);
+  const roles = ROLES.filter((r) => key in OVR_WEIGHTS[r]);
+  const coreRoles = ROLES.filter((r) => ROLE_SKILLS[r].slice(0, 4).includes(key));
+  return [key, { attrs, related, roles, coreRoles }];
+}));
+
 /** 各路數據基線（每場平均） */
 export const STAT_BASELINE = {
   TOP: { K: 0.8, D: 1.4, A: 1.6, CS: 7.2, VIS: 1.2, DMG: 22, SOLO: 1.2 },

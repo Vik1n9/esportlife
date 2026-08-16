@@ -229,7 +229,8 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .trait-arrow{flex:none;width:10px;text-align:center;color:var(--dim);font-size:10px;
   transition:transform .15s ease}
 .trait-item[open] .trait-arrow,
-.attr-item[open] .trait-arrow{transform:rotate(90deg)}
+.attr-item[open] .trait-arrow,
+.skill-item[open] .trait-arrow{transform:rotate(90deg)}
 .trait-desc{margin:2px 8px 8px 25px;font-size:12px;color:var(--dim);line-height:1.5}
 
 /* 屬性列（六屬性面板內，小箭頭展開峽谷作用） */
@@ -239,6 +240,14 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .attr-item summary::marker{content:''}
 .attr-item summary .abrow{margin-top:0;flex:1;cursor:pointer}
 .attr-item .trait-desc{margin:4px 0 6px 22px}
+
+/* 技能列（技能＝屬性同一套下拉互動，v4.6.5） */
+.skill-item{margin-top:6px}
+.skill-item summary{list-style:none;display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.skill-item summary::-webkit-details-marker{display:none}
+.skill-item summary::marker{content:''}
+.skill-item summary .abrow{margin-top:0;flex:1;cursor:pointer}
+.skill-item .trait-desc{margin:4px 0 6px 22px}
 
 /* 鍵值對（結算明細） */
 .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:4px 12px;margin-top:4px}
