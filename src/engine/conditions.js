@@ -35,6 +35,8 @@ import { eraOf } from '../data/eras.js';
 import { LEAGUES } from '../data/leagues.js';
 import { MENTAL_KEYS } from '../data/mental.js';
 import { ATTRS } from '../data/attributes.js';
+import { ROLE_ATTR_WEIGHTS } from '../data/skills.js';
+import { effectiveParams } from './lifecycle.js';
 
 /**
  * 條件式的階名 → state 的存放處。**直接讀 `TIER_STORES`**，不再自己抄一份
@@ -83,6 +85,20 @@ export const QUERIES = {
   era: (s) => eraOf(s.year).key,
   region: (s) => LEAGUES[s.league]?.region ?? 'amateur',
   role: (s) => s.role,
+  // S20e：退役三層的結局條件（§18.2）。除 stage 外都是純查詢——
+  // marketQuiet 是 FA 期「無報價」的事實（transfer.js 設），peakRating 是生涯最高
+  // 教練評價，atPeak 是「位置加權的天花板峰值年還沒過」（生命週期語意）
+  stage: (s) => s.stage,
+  wonWorldsThisYear: (s) => (s.wonWorldsThisYear ? 1 : 0),
+  benchedStreak: (s) => s.benchedStreak ?? 0,
+  peakRating: (s) => s.peakRating ?? 0,
+  intlAppearances: (s) => s.intlAppearances ?? 0,
+  marketQuiet: (s) => (s.marketQuiet ? 1 : 0),
+  atPeak: (s) => {
+    const w = ROLE_ATTR_WEIGHTS[s.role] || {};
+    const peak = ATTRS.reduce((t, k) => t + (w[k] || 0) * effectiveParams(s, k).peak_age, 0);
+    return s.age <= peak ? 1 : 0;
+  },
   ...Object.fromEntries(MENTAL_KEYS.map((k) => [k, (s) => s.mental?.[k] ?? 50])),
   // 六大屬性（S20g 遷移補上：舊 `whenHits` 的 `attr` 範圍條件）。缺欄位回 0，
   // 與心理六維同一套「缺欄位不炸」的寫法——舊存檔缺 attr 鍵時條件式照樣可求值

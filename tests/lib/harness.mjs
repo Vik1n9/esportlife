@@ -153,6 +153,11 @@ export function decide(beat, strategy, rng, state, style = 'focus', cursor) {
   if (beat.kind === 'month' && state) return monthAction(state, beat, style, cursor);
   if (beat.kind === 'tactics' && state) return tacticsAction(state, beat);
   const options = beat.options;
+  // 退役選擇（S20e，§18.2）：自動駕駛的玩家在「職業生涯的最後一頁」一律選「宣布
+  // 退役」。最後一搏／轉身離開是個人抉擇，策略不替「測試的玩家」做這個決定——
+  // 否則 last／random 策略會選「最後一搏」無限續命，160 段矩陣的生涯長度與分布
+  // 整批位移
+  if (options.some((o) => o.id === 'announce')) return 'announce';
   if (strategy === 'first') return options[0].id;
   if (strategy === 'last') {
     const safe = options.filter((o) => !o.warn);

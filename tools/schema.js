@@ -148,6 +148,8 @@ export const PREDICATES = [
   'longestTenure', 'distinctTeams', 'worldsBest', 'msiBest', 'intlSemis',
   'careerGames', 'awardsThisYear', 'lastWorlds', 'lastMsi', 'isReigningChampion',
   'fameLevel', 'era', 'region', 'role',
+  'stage', 'wonWorldsThisYear', 'benchedStreak', 'peakRating',
+  'intlAppearances', 'marketQuiet', 'atPeak',
   ...MENTAL_KEYS,
   ...ATTRS,
 ];

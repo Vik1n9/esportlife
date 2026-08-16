@@ -400,7 +400,10 @@ function* freeAgency(g, { forced }) {
   // 一張報價都沒有：被釋出的直接退休，約滿的也只能退休——§18.1 市場淘汰制第 3 條：
   // 「無報價時玩家只剩退役選項」。這取代了舊的「減薪留下」無限迴圈（舊版讓衰退中的
   // 老將可以年年減薪賴在聯盟裡，awr/dec 衰退慢的人會一路賴到五十幾歲）。
+  // `marketQuiet` 記下「無報價」這個事實（S20e，§18.2 的「無聲告別」與「最後一搏」
+  // 讀它）——退休判定在 careerFlow 的 catch 之後，不記下來就查不到了
   if (!options.length) {
+    state.marketQuiet = true;
     if (forced) {
       state.forcedRetire = true;
       yield card('bad', '自由市場無人問津', '解散後，各隊名單已滿，電話再也沒有響過。');

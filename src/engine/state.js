@@ -36,7 +36,10 @@ import { teamsOf } from './roster.js';
 // v21：冠軍登記表（S20g，V4 §16.2）。新增 titleHistory（每年世界賽的冠軍，
 // 玩家與 NPC 同一張表）——衛冕者身分與 `torch_bearer` 授予靠它；舊存檔缺這欄
 // 會讓 `reigningChampion` 回「第一年、無衛冕者」，故作廢
-export const SAVE_VERSION = 21;
+// v22：三層退役事件（S20e，V4 §18.2）。新增 marketQuiet（最近一次自由市場有無
+// 報價——「無聲告別」與「最後一搏」的判準）；舊存檔缺這欄會讓兩個結局條件失效，
+// 故作廢
+export const SAVE_VERSION = 22;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -220,6 +223,7 @@ export function createState({ name, role, seed, stage = 'PRO' }) {
     disbandThreat: false,
     forcedFA: false,
     forcedRetire: false,
+    marketQuiet: false,        // 最近一次自由市場有無報價（§18.2 無聲告別／最後一搏的判準）
 
     lastDelta: 0,
     lastStat: null,

@@ -29,17 +29,18 @@
 import { ATTR_NAMES } from '../data/attributes.js';
 import { MONTHS_PER_YEAR, calendarFor } from './calendar.js';
 import { careerTier, tierName } from './career.js';
-import { disbandNoteFor } from './market.js';
+import { disbandNoteFor, renewalTerms, signContract } from './market.js';
 import { driftMental } from './mental.js';
 import { applyLifecycleDecline } from './lifecycle.js';
 import { lookupTrait } from '../kernel/modifiers.js';
 import { maintenanceLoss } from './progression.js';
-import { RetireSignal } from './retire.js';
+import { pickEnding, retireOptions, RetireSignal } from './retire.js';
 import { currentLeagueKey, stageLabel } from './roster.js';
 import { monthlyDrift } from './stamina.js';
 import { tickActiveEffects } from './training.js';
 import { PHASES } from '../phases/index.js';
-import { card, questBeats } from '../phases/shared.js';
+import { card, cardText, cardVars, questBeats } from '../phases/shared.js';
+import { ENDING_N } from '../data/retireCards.js';
 
 // 舊入口：UI 與測試都從這裡拿階段顯示名
 export { stageLabel };
@@ -81,10 +82,31 @@ export function* careerFlow(g) {
     state.retireReason = err.reason;
   }
 
-  // 生涯結束：進行中的任務先算一次達成（目標已滿足的照發），其餘以退役收束——
-  // 生涯結束等於所有期限都到了，不該留下永遠掛著的卡（§12.3 期限語意）
-  yield* questBeats(g, { forced: true });
-  yield* retirement(g);
+  /*
+   * 三層退役（§18.2，S20e）：第一層特殊結局命中即退役；未命中進第二層選項，
+   * 其中「最後一搏」簽一年短約繼續生涯（retirement 回 false），其餘確定退役。
+   *
+   * ⚠ 生涯任務的強制收束（questBeats forced）移到 retirement() 內部、確定退役
+   * 之後才跑——最後一搏的人任務照掛（§12.3「生涯結束等於所有期限都到了」只對
+   * 真的落幕的人成立）。原先把收束排在退役卡之前，最後一搏一進來就會誤收。
+   */
+  let leaving = false;
+  while (!leaving) {
+    leaving = yield* retirement(g);
+    if (leaving) break;
+    state.done = false;
+    state.retireReason = '';
+    try {
+      while (!state.done) {
+        yield { type: 'checkpoint' };
+        yield* runYear(g);
+      }
+    } catch (err) {
+      if (!(err instanceof RetireSignal)) throw err;
+      state.done = true;
+      state.retireReason = err.reason;
+    }
+  }
   yield { type: 'end' };
 }
 
@@ -212,9 +234,55 @@ function* yearOpen(g) {
 
 /* ================= 生涯結算 ================= */
 
-function* retirement(g) {
+/**
+ * 三層退役流程（V4 §18.2，S20e）。
+ *
+ * 判定與資料分家：`pickEnding`／`retireOptions`（engine/retire.js）只回答「哪個
+ * 結局、哪些選項」，卡片與條件式住在 data/retireCards.js，這裡只做「yield 卡、
+ * yield 選擇、跑第三層結算」。
+ *
+ * @returns {boolean} true = 確定退役；false = 最後一搏，生涯續跑
+ */
+export function* retirement(g) {
+  const { state, rng } = g;
+
+  // 第一層：特殊結局。命中即定，不給選項（§18.2 優先）
+  const ending = pickEnding(state);
+  if (ending) {
+    const vars = { ...cardVars(state), n: ENDING_N[ending.id]?.(state) };
+    yield card(ending.tone, ending.name, cardText(ending, vars));
+    yield* questBeats(g, { forced: true });
+    yield* finale(g);
+    return true;
+  }
+
+  // 第二層：退役選項。宣布退役永遠在場（§18.2 明文），其餘依條件式過濾
+  const options = retireOptions(state);
+  const picked = yield {
+    type: 'choice',
+    title: '職業生涯的最後一頁',
+    options: options.map((o) => ({ id: o.id, label: o.label, note: o.note, main: o.id === 'announce' })),
+  };
+  const chosen = options.find((o) => o.id === picked) || options[0];
+
+  // 最後一搏：不退役。留在原隊簽一年短約（係數走既有的短約公式，不另立價格），
+  // careerFlow 清掉 done 後續跑下一季
+  if (chosen.kind === 'continue') {
+    const { short } = renewalTerms(state);
+    signContract(state, rng, { team: state.team, league: state.league, years: 1, mult: short.mult });
+    yield card(chosen.tone, chosen.label, cardText(chosen, cardVars(state)));
+    return false;
+  }
+
+  yield card(chosen.tone, chosen.label, cardText(chosen, cardVars(state)));
+  yield* questBeats(g, { forced: true });
+  yield* finale(g);
+  return true;
+}
+
+/** 第三層：結局結算——被迫退役補卡、最後能力點、榮譽殿堂／生涯總結、summary beat */
+function* finale(g) {
   const { state } = g;
-  yield card('bad', '職業生涯結束', state.retireReason);
   if (state.forcedRetire) yield card('bad', '被迫退役', '功勳老將在解散後無人接手，黯然退役。');
 
   if (state.pendingPoints > 0) {
