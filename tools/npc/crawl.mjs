@@ -141,13 +141,21 @@ async function cmdCrawl(listFile, { force }) {
   let fetched = 0;
   let skipped = 0;
   let missing = 0;
+  let failed = 0;
   for (const title of titles) {
     const slug = slugify(title);
     if (!force && existsSync(join(RAW_DIR, `${slug}.wiki`)) && manifest.has(title)) {
       skipped++;
       continue;
     }
-    const r = await fetchPage(title);
+    const r = await fetchPage(title).catch((err) => {
+      log(`FAIL ${title}（${err.message}，略過續下頁）`);
+      return null;
+    });
+    if (!r) {
+      failed++;
+      continue;
+    }
     if (!r.ok) {
       missing++;
       log(`MISS ${title}（${r.error}）`);
@@ -169,10 +177,12 @@ async function cmdCrawl(listFile, { force }) {
     fetched++;
     if (fetched % 25 === 0) log(`進度 ${fetched}/${titles.length}`);
   }
-  log(`抓取完成: 抓 ${fetched}、跳過 ${skipped}、缺頁 ${missing}`);
+  log(`抓取完成: 抓 ${fetched}、跳過 ${skipped}、缺頁 ${missing}、失敗 ${failed}（失敗的頁重跑會再試）`);
 }
 
 async function cmdEnumCat(categories, outFile) {
+  // log() 要寫 LOG 檔，先確保 raw_data/ 存在（大分類分頁續傳才會觸發 log）
+  mkdirSync(RAW_DIR, { recursive: true });
   const titles = new Set();
   for (const raw of categories) {
     const name = raw.startsWith('Category:') ? raw : `Category:${raw}`;
