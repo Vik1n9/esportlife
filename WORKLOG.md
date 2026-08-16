@@ -1,5 +1,39 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S42 寬螢幕版面：兩個斷點、#panel 兩態、年度目錄左欄
+
+- **方向**：現行版面固定單欄置中，寬螢幕兩側大量留白，選手資料被關在底部抽屜。
+  §22.6 新增漸進增強層：寬螢幕把原本要開抽屜才看得到的東西攤開，不重排決策動線。
+  解法：新增 `#layout` 包裹層 + CSS Grid 兩個斷點（720px 兩欄、1024px 三欄），
+  `#panel` 改兩態（窄螢幕抽屜／寬螢幕常駐右欄），年度目錄升級為左欄常駐。
+
+- **DOM 重組**：新增 `<div id="layout">` 包裹 `#board`／`#year-dir`／`#app`／`#panel`。
+  `#board` 移出 `#app`（原 max-width:600px 約束），由 `#layout` 包裹才能橫跨整寬。
+  `#panel` 也移入 `#layout`，≥720px 成為 grid 第二欄。移除假導覽列 `.site-nav`。
+
+- **⚠ #panel 可見性守衛**：原 `refreshPanel` 只讀 `.open`，寬螢幕 `.open` 永遠
+  false 會導致面板不更新。解法：模組頂層建 `matchMedia('(min-width:720px)')`，
+  `isPanelVisible()` 同時判斷 `.open` 與斷點查詢；斷點跨越由 `change` 事件
+  觸發重繪。`togglePanel` 在寬螢幕直接 return（CSS 接管）。
+
+- **年度目錄左欄**：新檔 `src/ui/yearDir.js`，`log.js` 新增 `getYearEntries()`
+  與 `onYearsUpdated(cb)` 兩個 API。yearDir 註冊 callback，每次 `renderDivider`
+  觸發重繪——不複製 DOM，只讀 `yearEntries` 陣列建按鈕。
+
+- **分享圖**：移除從未載入的 `Cinzel`／`Rajdhani`，改讀 `--ui` 字體堆疊。
+  底色 `#0A1428` → `--night`、標題金 → `--accent`。favicon 同步對齊。
+
+- **實測結論**：`npm test` 22757 項全綠（本站不動引擎）。手動走查（playwright-cli）
+  四個寬度（375／720／1024／1440px）全項確認；斷點來回拖曳三次 panel 不卡死不空白；
+  console 0 錯誤。三條不變式驗證：決策動線不變（#act 在 #log 正下方）、
+  文本行長不拉寬（#app 維持 600px）、寬螢幕無額外資訊。
+
+- **狀態**：完成。`npm test` 22757 項全綠。版號 v4.6.2 → v4.6.3。SAVE_VERSION 不變。
+  壬組 S37–S42 全部完工。
+
+- **未一起處理**：左欄「賽程摘要」（§22.6 線框有但非必須）；年度目錄文字精簡
+  （目前顯示完整分隔文字，240px 欄寬會截斷）。
+
 ## 2026-08-17 — S41 事件日誌閱讀：卡片分類篩選、五拍成組、年度跳轉
 
 - **方向**：事件文本區是無界捲軸，沒有篩選也沒有跳轉；賽事五拍散成五張同級卡，

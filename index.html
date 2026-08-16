@@ -10,7 +10,7 @@
 <meta property="og:title" content="電競人生：LoL 職業選手生涯模擬">
 <meta property="og:description" content="2015 年職業出道，三個賽季的電競生涯 DEMO：訓練、賽段、MSI、世界賽與特質合成。">
 <meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='16,2 29,9 29,23 16,30 3,23 3,9' fill='%230d202b' stroke='%23b89d27' stroke-width='2'/%3E%3Cpolygon points='16,8 24,12 24,20 16,24 8,20 8,12' fill='%23C89B3C'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='4' width='24' height='24' rx='4' fill='%23d47559'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -27,10 +27,6 @@
         <span class="brand-name">電競人生</span>
       </div>
     </header>
-
-    <nav class="site-nav" aria-hidden="true">
-      <span>訓練</span><span>賽季</span><span>休賽</span>
-    </nav>
 
     <div class="hero">
       <h1><span class="hero-en">SUMMONER</span><em>職業選手生涯模擬</em></h1>
@@ -70,8 +66,9 @@
   <div id="ver-badge"></div>
 </div>
 
-<div id="app">
+<div id="layout">
   <!-- 五列狀態帶（§22.1，S38）。格內數值由 ui/board.js 填；骨架與標籤住這裡 -->
+  <!-- S42：#board 移出 #app，由 #layout 包裹，才能橫跨整寬（§22.6） -->
   <header id="board" hidden>
     <!-- 列1：選手ID·位置·年齡 ｜ 年.月·階段 ｜ 距下階段倒數 ｜ ☰ ↺ -->
     <div id="bd-top">
@@ -115,32 +112,37 @@
     </div>
   </header>
 
-  <div id="log-bar">
-    <nav id="log-chips" aria-label="日誌篩選"></nav>
-    <select id="log-year-select" aria-label="年度跳轉"><option value="">年度</option></select>
+  <div id="year-dir" hidden aria-label="年度目錄"></div>
+
+  <div id="app">
+    <div id="log-bar">
+      <nav id="log-chips" aria-label="日誌篩選"></nav>
+      <select id="log-year-select" aria-label="年度跳轉"><option value="">年度</option></select>
+    </div>
+
+    <main id="log"></main>
+
+    <button id="act-toggle" style="display:none">⌄ 收合選項</button>
+    <!-- 常駐屬性條：緊貼行動列上方，中間不得插入其他區塊（§22.1，S38） -->
+    <div id="attrbar" hidden aria-label="六屬性"></div>
+    <footer id="act" hidden></footer>
   </div>
 
-  <main id="log"></main>
-
-  <button id="act-toggle" style="display:none">⌄ 收合選項</button>
-  <!-- 常駐屬性條：緊貼行動列上方，中間不得插入其他區塊（§22.1，S38） -->
-  <div id="attrbar" hidden aria-label="六屬性"></div>
-  <footer id="act" hidden></footer>
-</div>
-
-<div id="panel">
-  <div class="panel-sheet">
-    <div class="panel-head">
-      <h3>選手資料</h3>
-      <button id="panel-close" aria-label="關閉">✕</button>
+  <!-- S42：#panel 移入 #layout 內，寬螢幕時成為 grid 右欄（§22.6） -->
+  <div id="panel">
+    <div class="panel-sheet">
+      <div class="panel-head">
+        <h3>選手資料</h3>
+        <button id="panel-close" aria-label="關閉">✕</button>
+      </div>
+      <div class="seg seg-4 panel-tabs" role="tablist" aria-label="面板分頁">
+        <button data-tab="schedule" role="tab">賽程</button>
+        <button data-tab="career" role="tab">生涯</button>
+        <button data-tab="team" role="tab">隊伍</button>
+        <button data-tab="player" role="tab" class="on">選手</button>
+      </div>
+      <div id="panel-body"></div>
     </div>
-    <div class="seg seg-4 panel-tabs" role="tablist" aria-label="面板分頁">
-      <button data-tab="schedule" role="tab">賽程</button>
-      <button data-tab="career" role="tab">生涯</button>
-      <button data-tab="team" role="tab">隊伍</button>
-      <button data-tab="player" role="tab" class="on">選手</button>
-    </div>
-    <div id="panel-body"></div>
   </div>
 </div>
 

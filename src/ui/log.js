@@ -23,6 +23,7 @@ let lastCardNode = null;
 let lastSeriesBlock = null;
 // 年度目錄：S42 寬螢幕左欄直接取用這個結構
 let yearEntries = [];
+let onYearChange = null;
 
 export function initLog() {
   logRoot = byId('log');
@@ -34,7 +35,11 @@ export function initLog() {
   lastSeriesBlock = null;
   yearEntries = [];
   initFilterChips();
+  if (onYearChange) onYearChange(yearEntries);
 }
+
+export function getYearEntries() { return yearEntries; }
+export function onYearsUpdated(cb) { onYearChange = cb; }
 
 function target() { return currentYearBody || logRoot; }
 
@@ -97,6 +102,7 @@ export function renderDivider(text) {
   lastSeriesBlock = null;
   yearEntries.push({ text, node: block });
   updateYearDropdown();
+  if (onYearChange) onYearChange(yearEntries);
   scrollToBottom();
 }
 

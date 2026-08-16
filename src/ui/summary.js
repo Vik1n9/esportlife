@@ -143,23 +143,24 @@ function drawShareImage(out, { state, tier, seed, appVersion }) {
   const c = canvas.getContext('2d');
   c.scale(SCALE, SCALE);
 
-  c.fillStyle = '#0A1428'; c.fillRect(0, 0, W, H);
-  c.fillStyle = '#C89B3C'; c.fillRect(0, 0, W, 4);
+  c.fillStyle = '#0d202b'; c.fillRect(0, 0, W, H);
+  c.fillStyle = '#d47559'; c.fillRect(0, 0, W, 4);
 
+  const UI = "'Inter','Noto Sans TC',sans-serif";
   c.textAlign = 'left';
-  c.fillStyle = '#A09B8C'; c.font = '700 14px Rajdhani, sans-serif';
+  c.fillStyle = '#7c8f92'; c.font = `600 13px ${UI}`;
   c.fillText('電競人生 · LoL 職業選手生涯模擬', PAD, 50);
 
   let y = 100;
   for (const [kind, text] of lines) {
     if (kind === 'gap') { y += 12; continue; }
-    if (kind === 'big') { c.fillStyle = '#C89B3C'; c.font = '900 40px Cinzel, sans-serif'; c.fillText(text, PAD, y); y += 44; continue; }
-    if (kind === 'sub') { c.fillStyle = '#F0E6D2'; c.font = '600 17px Rajdhani, sans-serif'; c.fillText(text, PAD, y); y += 34; continue; }
-    if (kind === 'gold') { c.fillStyle = '#C89B3C'; c.font = '800 20px Rajdhani, sans-serif'; c.fillText(text, PAD, y); y += 34; continue; }
-    c.fillStyle = '#F0E6D2'; c.font = '500 16px Rajdhani, sans-serif'; c.fillText(text, PAD, y); y += 30;
+    if (kind === 'big') { c.fillStyle = '#d47559'; c.font = `700 36px ${UI}`; c.fillText(text, PAD, y); y += 44; continue; }
+    if (kind === 'sub') { c.fillStyle = 'rgba(255,255,255,.92)'; c.font = `600 16px ${UI}`; c.fillText(text, PAD, y); y += 34; continue; }
+    if (kind === 'gold') { c.fillStyle = '#d9c05a'; c.font = `700 18px ${UI}`; c.fillText(text, PAD, y); y += 34; continue; }
+    c.fillStyle = 'rgba(255,255,255,.92)'; c.font = `400 15px ${UI}`; c.fillText(text, PAD, y); y += 30;
   }
 
-  c.fillStyle = '#A09B8C'; c.font = '12px monospace';
+  c.fillStyle = '#7c8f92'; c.font = '12px monospace';
   c.fillText(`seed: ${seed}`, PAD, H - 26);
   c.textAlign = 'right';
   c.fillText(appVersion, W - PAD, H - 26);

@@ -16,6 +16,7 @@ import { initLog } from './ui/log.js';
 import { initPanel, setPanelState } from './ui/panel/index.js';
 import { runCareer } from './ui/runner.js';
 import { clearSave, loadGame } from './ui/storage.js';
+import { initYearDir } from './ui/yearDir.js';
 import { APP_VERSION } from './version.js';
 
 export { APP_VERSION };
@@ -87,6 +88,7 @@ function enterGame(state, rng) {
   byId('act').hidden = false;
 
   initLog();
+  initYearDir();
   initPanel(state);
   setPanelState(state);
   renderBoard(state, 0);

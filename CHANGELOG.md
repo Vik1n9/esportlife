@@ -1,3 +1,25 @@
+## [v4.6.3] - 2026-08-17
+
+### S42：寬螢幕版面（§22.6）
+
+壬組完工站。新增兩個斷點（≥720px 兩欄、≥1024px 三欄），手機豎屏版面完全不受影響。
+
+- **DOM 重組**：新增 `#layout` 包裹 `#board`／`#app`／`#panel`，`#board` 移出 `#app`
+  成為 `#layout` 直接子元素以橫跨整寬；移除假導覽列 `.site-nav`。
+- **#panel 兩態**：窄螢幕（<720px）底部抽屜（`.open` 控制顯隱）；寬螢幕（≥720px）
+  常駐右欄 340px（`position:static`，`display:block`，`.open` 不參與顯隱）。
+  `refreshPanel`／`togglePanel` 改讀 `isPanelVisible()`（含 `matchMedia` 查詢），
+  斷點跨越時由 `change` 事件觸發重繪。
+- **年度目錄左欄**：新檔 `src/ui/yearDir.js`，≥1024px 時在 240px 左欄常駐顯示年度
+  目錄（資料取用 `ui/log.js` 的 `yearEntries`，不重建一份）。
+- **開場畫面**：≥720px 建角表單改雙欄（左說明／右表單）；favicon 對齊現行
+  terracotta 品牌色。
+- **分享圖**：移除從未載入的 `Cinzel`／`Rajdhani` 字型，改讀 `--ui`（Inter＋Noto Sans TC）；
+  底色與標題色對齊現行色票。
+- **鐵則註解**：`src/styles.css` 檔頭鐵則改寫為「窄螢幕抽屜／寬螢幕常駐」兩態。
+- **三條不變式**：決策動線不變（#act 仍錨定在 #log 正下方）、文本行長不隨螢幕拉寬
+  （#app 維持 max-width 600px）、寬螢幕不出現豎屏看不到的資訊。
+
 ## [v4.6.2] - 2026-08-17
 
 ### S41：事件日誌閱讀（分類／年度跳轉／五拍成組）
