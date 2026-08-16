@@ -141,11 +141,22 @@ function turnParagraph(state, season) {
   return fill(T.turn.calmAmateur, { name: state.name });
 }
 
-/** 結局：退役年、歲數、季數、隊伍數、出賽數。沒打過職業就退化 */
+/**
+ * 結局：退役年、歲數、季數、隊伍數、出賽數。沒打過職業就退化。
+ *
+ * DEMO 期滿（§19，S21b）走另一個模板：那不是退役，是紀錄到此為止——同一批事實，
+ * 換一種措辭，其餘四段照舊（巔峰／轉折／歷史定位講的都是已經發生的事）。
+ */
 function endingParagraph(state) {
   const games = Object.values(state.stats).reduce((t, s) => t + s.G, 0);
   if (!state.teamHistory.length) {
     return fill(T.ending.amateurOnly, { name: state.name, year: state.year, age: state.age });
+  }
+  if (state.demoEnded) {
+    return fill(T.ending.demoEnd, {
+      name: state.name, year: state.year, age: state.age,
+      n: state.proYears, m: distinctTeams(state), g: games,
+    });
   }
   return fill(T.ending.standard, {
     name: state.name, year: state.year, age: state.age,

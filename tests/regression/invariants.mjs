@@ -853,6 +853,10 @@ function eventExclusion({ check, gate }) {
  * §19.3 六項驗證的 DEMO 版。160 段基線量在 AMATEUR 起點（S20d 定案），DEMO 是另一條
  * 路線：PRO 起點，2015 年職業第一年——玩家第一個玩到的就是這一年，必須整個跑得通。
  *
+ * ⚠ DEMO 的期程是三年（36 個月，§19.2／S21b），這個 topic 只守**第一年**的月循環與
+ * 賽事序列；三年期程本身（上限、期滿收束、措辭）由 `regression/demo.mjs` 的
+ * 「三年期程」區塊守，兩邊不重疊。
+ *
  * 這裡用 4 種子 × 5 路 = 20 段「只跑第一年」的樣本，`forceIntl` 把 MSI／世界賽序列
  * 拉進可驗範圍（§19.2「可強制出線供測試」）。開關掛 `careerFlow` 的 `opts`，不進
  * state——放 state 會被 storage.js 整包序列化，測試旗標會漏進玩家存檔。

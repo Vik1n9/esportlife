@@ -15,6 +15,7 @@
  */
 import { ROLE_NAMES, SKILL_NAMES } from '../data/skills.js';
 import { patchPenalty, roleSkills, skillValue } from '../engine/attributes.js';
+import { DEMO_MONTHS, demoMonth, isDemo } from '../engine/demo.js';
 import { stageLabel } from '../engine/game.js';
 import { formatMoney } from '../engine/market.js';
 import { byId, escapeHtml, qsa } from './dom.js';
@@ -35,11 +36,23 @@ export function renderBoard(state, month) {
   byId('bd-sal').textContent = formatMoney(state.salary);
 
   const now = typeof month === 'number' ? month : (state.month || 1);
+  fillYearLabel(state, now);
   qsa('#lamps .lamp').forEach((lamp, i) => {
     lamp.classList.toggle('on', i + 1 === now);
     // 已經走過的月份留一個淡標記：一年剩幾個回合是玩家排訓練時真的會算的東西
     lamp.classList.toggle('done', i + 1 < now);
   });
+}
+
+/**
+ * 年份格的標籤。DEMO 路線（§19，S21b）把它換成期程進度「DEMO 14/36」——
+ * 三年是有限期程，剩幾個月會直接影響玩家要不要為第三年鋪路（合約、任務期限），
+ * 看不到就不成決策。完整生涯沒有上限，維持「年份」。
+ */
+function fillYearLabel(state, month) {
+  const label = byId('bd-year-name');
+  if (!label) return;
+  label.textContent = isDemo(state) ? `DEMO ${demoMonth(state, month)}/${DEMO_MONTHS}` : '年份';
 }
 
 function fillCoreSkillCell(state) {
