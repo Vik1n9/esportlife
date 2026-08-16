@@ -1,5 +1,27 @@
 ## [v4.6.3] - 2026-08-17
 
+### S42b：寬螢幕版面修正（§22.6，接續 S42）
+
+S42 的三欄斷點只把 `#app` 推到第 2 欄、`#panel` 留在原地，兩者落在同一個 grid 格
+互相疊字，右邊 340px 欄空著。本次修掉這條與另外三處版面偏差，規格未動。
+
+- **三欄重疊**：`≥1024px` 補 `#panel{grid-column:3}`。原本 `#app` 與 `#panel` 同格
+  疊放，選手資料蓋在敘事流上、事件文本左緣被截。
+- **側欄 sticky 落點**：狀態帶實高約 165px（五列），CSS 卻硬寫 `top:56px`，左右欄
+  一捲就滑進狀態帶底下。改由 `ui/board.js` 的 `initBoardMetrics()` 以
+  `ResizeObserver` 量測 `#board` 實高寫回 `--board-h`，`#year-dir` 與 `.panel-sheet`
+  的 `top`／高度都吃這個變數。
+- **右欄不再跟著捲走**：`#panel` 補 `align-self:stretch`——`.panel-sheet` 的包含塊
+  是 `#panel`，`#panel` 只有內容高時 sticky 沒有可走距離。
+- **超寬螢幕欄距**：`#layout` 補 `max-width`（兩欄 940px／三欄 1180px），整個 grid
+  置中。原本中欄在無限寬的 `1fr` 裡置中，2560px 下與側欄裂出 690px 空白。
+- **中欄高度**：`#app` 補 `min-height:calc(100dvh - var(--board-h))`，讓決策槽回到
+  欄底（豎屏靠 `#layout` 的 `min-height` 達成，grid 的 `align-items:start` 會失效）。
+- **蓄力讀數**：選手 tab 的屬性列直接印浮點（`·蓄0.1376267417605339`）把整列擠成
+  兩行，補上 `attrbar.js` 同一套 `num()` 格式化。
+
+三條不變式重新驗證：決策動線不變、`#app` 維持 600px 行長上限、寬螢幕無額外資訊。
+
 ### S42：寬螢幕版面（§22.6）
 
 壬組完工站。新增兩個斷點（≥720px 兩欄、≥1024px 三欄），手機豎屏版面完全不受影響。

@@ -28,6 +28,9 @@ import { questRows } from './index.js';
 
 const DEFAULT_POTENTIAL = Math.round((POTENTIAL_BANDS[3][0] + POTENTIAL_BANDS[3][1]) / 2);
 
+/** 蓄力是小數，原樣印會把 0.1376267417605339 塞進屬性列把整列擠成兩行（與 attrbar 同一套） */
+const num = (v) => (Number.isInteger(v) ? String(v) : v.toFixed(1));
+
 export function renderPlayer(state) {
   const league = state.league;
   const penalty = patchPenalty(state);
@@ -88,7 +91,7 @@ function attrSection(state) {
         <span class="trait-arrow">▸</span><div class="abrow static">
           <div class="nm">${ATTR_NAMES[key]}</div>
           <div class="bar" style="--fill:${Math.min(100, (value / ATTR_CAP) * 100)}%;--pot:${Math.min(100, (potential / ATTR_CAP) * 100)}%"><i></i><em></em></div>
-          <div class="val"><b>${value}</b><span class="cost">${ATTR_ABBR[key]} ·上限 ${potential}${carry ? ` ·蓄${carry}` : ''}</span></div>
+          <div class="val"><b>${value}</b><span class="cost">${ATTR_ABBR[key]} ·上限 ${potential}${carry ? ` ·蓄${num(carry)}` : ''}</span></div>
         </div>
       </summary>
       <div class="trait-desc">${escapeHtml(ATTR_DESC[key])}</div>

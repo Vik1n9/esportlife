@@ -19,7 +19,9 @@
    #attrbar 常駐、DOM 上緊貼 #act 上方，中間不得插入其他區塊（§22.1）；
    #act 的高度是決策槽的載重規則（§22.2.1）：位置與高度固定，內容超出改槽內捲動——
    不得隨當月選項數量抽長縮短；生涯結束由 JS 切 [hidden] 整槽收掉。
-   #board 由 #layout 包裹（非 #app 子元素），橫跨整寬（§22.6）。
+   #board 由 #layout 包裹（非 #app 子元素），橫跨整寬（§22.6）；
+   寬螢幕三欄＝#year-dir｜#app｜#panel 各佔一欄，任兩者不得落在同一格（S42b）；
+   側欄 sticky 一律吃 --board-h（ui/board.js 量測），不寫死狀態帶高度。
    ============================================================ */
 
 :root{
@@ -52,6 +54,11 @@
 
   /* 幾何：控制項 3px，容器 4px，髮絲線 1px */
   --r-sm:3px; --r-md:4px; --hair:1px;
+
+  /* 狀態帶實高（S42b）。#board 是 sticky 且列數會變（列4 任務有無、標籤換行），
+     高度不是常數；由 ui/board.js 量測寫回。寬螢幕側欄的 sticky 落點與可視高度
+     都吃這個值，硬寫 56px 會讓側欄滑到狀態帶底下 */
+  --board-h:56px;
 }
 
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -529,16 +536,25 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 
 /* ---------- ≥720px 兩欄：敘事流 ｜ 選手資料常駐 340px ---------- */
 @media (min-width:720px){
-  #layout{max-width:none;display:grid;
+  /* 上限＝中欄 600 ＋ 右欄 340。中欄有 600px 行長上限（不變式 2），1fr 若吃滿整個
+     視窗，超寬螢幕上敘事流會被推到畫面中央、與側欄之間裂出幾百 px 空白——線框畫的
+     是三欄相鄰，所以是整個 grid 置中，不是中欄在無限寬的 1fr 裡置中 */
+  #layout{max-width:940px;display:grid;
     grid-template-columns:1fr 340px;grid-template-rows:auto 1fr;
     align-items:start}
   #board{grid-column:1/-1;grid-row:1;position:sticky;top:0;z-index:20;
     border-bottom:var(--hair) solid var(--edge);background:var(--night)}
   #year-dir{display:none}
-  #app{grid-column:1;grid-row:2;max-width:600px;width:100%;margin:0 auto}
-  #panel{position:static;grid-column:2;grid-row:2;display:block;
+  /* 中欄自己撐滿狀態帶以下的視窗高度——豎屏靠 #layout 的 min-height 做到這件事，
+     grid 的 align-items:start 會讓它縮回內容高，決策槽就從欄底浮到半空（§22.2.1） */
+  #app{grid-column:1;grid-row:2;max-width:600px;width:100%;margin:0 auto;
+    min-height:calc(100dvh - var(--board-h))}
+  /* align-self:stretch 是 .panel-sheet 能 sticky 的前提——sheet 的包含塊是 #panel，
+     #panel 若只有內容高，sticky 沒有可走的距離，長日誌一捲右欄就跟著滑掉 */
+  #panel{position:static;grid-column:2;grid-row:2;display:block;align-self:stretch;
     background:none;inset:auto;z-index:auto;align-items:initial;justify-content:initial}
-  #panel .panel-sheet{position:sticky;top:56px;max-width:340px;max-height:calc(100dvh - 56px);
+  #panel .panel-sheet{position:sticky;top:var(--board-h);max-width:340px;
+    height:calc(100dvh - var(--board-h));max-height:none;
     border-radius:0;border-right:none;border-top:none;animation:none}
   #panel-close{display:none}
   #btn-panel{display:none}
@@ -554,11 +570,15 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 
 /* ---------- ≥1024px 三欄：年度目錄 240px ｜ 敘事流 ｜ 選手資料 340px ---------- */
 @media (min-width:1024px){
-  #layout{grid-template-columns:240px 1fr 340px}
-  #year-dir{display:block;grid-column:1;grid-row:2;position:sticky;top:56px;
-    max-height:calc(100dvh - 56px);overflow-y:auto;padding:14px 12px;
+  #layout{grid-template-columns:240px 1fr 340px;max-width:1180px}
+  /* 固定高（非 max-height）：左欄的髮絲線是三欄的分隔線，跟著條目數長短會斷成一截 */
+  #year-dir{display:block;grid-column:1;grid-row:2;position:sticky;top:var(--board-h);
+    height:calc(100dvh - var(--board-h));overflow-y:auto;padding:14px 12px;
     border-right:var(--hair) solid var(--edge);font-size:13px}
   #app{grid-column:2}
+  /* ⚠ 三欄時 #panel 必須跟著推到第 3 欄。只改 #app 會讓兩者同格重疊，
+     選手資料就蓋在敘事流上、右邊 340px 空著（S42b 修） */
+  #panel{grid-column:3}
 }
 
 /* ---------- 開場畫面寬螢幕（≥720px） ---------- */

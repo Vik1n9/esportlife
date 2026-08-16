@@ -80,6 +80,23 @@ export function renderBoard(state, month) {
   });
 }
 
+/**
+ * 狀態帶實高 → `--board-h`（S42b，§22.6）。
+ *
+ * 寬螢幕的左右兩欄是 sticky，落點得貼在狀態帶下緣；但狀態帶是五列且列4（任務）
+ * 會整列折疊、標籤也會換行，高度不是常數。原本 CSS 寫死 56px，實際約 160px，
+ * 側欄因此滑進狀態帶底下。這裡量一次真值寫回 CSS 變數，尺寸一變就重量。
+ */
+export function initBoardMetrics() {
+  const board = byId('board');
+  const layout = byId('layout');
+  if (!board || !layout) return;
+  const sync = () => layout.style.setProperty('--board-h', `${Math.round(board.offsetHeight)}px`);
+  sync();
+  if (typeof ResizeObserver === 'function') new ResizeObserver(sync).observe(board);
+  else window.addEventListener('resize', sync);
+}
+
 /** 距下階段倒數。當年已無下一階段（12 月）時清空 */
 function fillNextStage(state, cal) {
   const el = byId('bd-next');
