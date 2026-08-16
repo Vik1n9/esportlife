@@ -14,6 +14,7 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 ├── index.html               # 只剩畫面骨架 + <script type="module">
 ├── src/
 │   ├── main.js              # 進入點：開場、種子、續玩存檔
+│   ├── version.js           # ★ APP_VERSION 單一來源（徽章＋分享圖；測試比對 package.json）
 │   ├── styles.css           # 全站樣式（index.html 唯一外部樣式表）
 │   ├── core/rng.js          # 種子化亂數（xorshift32＋FNV-1a 種子 hash）
 │   │
@@ -358,6 +359,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `kernel/strength.js` | A → B | 667ec4c 搬自 engine/team.js（a71ee13）；S11 依 §11.1 重寫權重、加明星效應與對手支援換算 | ✅ 完成（S11 重寫） |
 | `kernel/text.js` | B | S20h 新建，文本變數填值 | ✅ 沿用 |
 | `main.js` | A | a71ee13 建立 | ✅ S03 淨室重寫 |
+| `version.js` | B | S22 返工三新建，`APP_VERSION` 從 `main.js` 搬出（Node 測試 import 得到） | ✅ 沿用 |
 | `phases/index.js` | B | 6ec9575 新建註冊表（kind → 模組） | ✅ 沿用 |
 | `phases/media.js` | A | 6ec9575 搬自 game.js（媒體採訪路口） | ✅ S04 重寫（承袭段落） |
 | `phases/month.js` | B | S14 新建（§4 的七步養成回合）。`phases/alloc.js`（A 批）已刪除 | ✅ 沿用（S16 換成設施制選單） |
