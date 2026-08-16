@@ -928,3 +928,26 @@
 2026-08-16T22:51:50.722Z FAIL LEC/2025/Winter（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LEC%2F2025%2FWinter&prop=wikitext&redirects=1，略過續下頁）
 2026-08-16T22:51:59.789Z 退避重試 HTTP 429（5s 後）
 2026-08-16T22:52:10.208Z 退避重試 HTTP 429（15s 後）
+2026-08-16T22:52:30.685Z 退避重試 HTTP 429（45s 後）
+2026-08-16T22:53:21.060Z FAIL LPL/2016/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2016%2FSpring&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T22:53:29.628Z 退避重試 HTTP 429（5s 後）
+2026-08-16T22:53:40.104Z 退避重試 HTTP 429（15s 後）
+2026-08-16T22:54:00.449Z 退避重試 HTTP 429（45s 後）
+2026-08-16T22:54:51.068Z FAIL LPL/2016/Summer（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2016%2FSummer&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T22:54:58.832Z 退避重試 HTTP 429（5s 後）
+2026-08-16T22:55:09.164Z 退避重試 HTTP 429（15s 後）
+2026-08-16T22:55:29.510Z 退避重試 HTTP 429（45s 後）
+2026-08-16T22:56:19.973Z FAIL LPL/2017/Spring（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2017%2FSpring&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T22:56:28.417Z 退避重試 HTTP 429（5s 後）
+2026-08-16T22:56:38.750Z 退避重試 HTTP 429（15s 後）
+2026-08-16T22:56:59.247Z 退避重試 HTTP 429（45s 後）
+2026-08-16T22:57:49.620Z FAIL LPL/2025/Split 1（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2025%2FSplit+1&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T22:57:57.454Z 退避重試 HTTP 429（5s 後）
+2026-08-16T22:58:08.272Z 退避重試 HTTP 429（15s 後）
+2026-08-16T22:58:28.617Z 退避重試 HTTP 429（45s 後）
+2026-08-16T22:59:19.175Z FAIL LPL/2025/Split 2（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2025%2FSplit+2&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T22:59:27.826Z 退避重試 HTTP 429（5s 後）
+2026-08-16T22:59:38.357Z 退避重試 HTTP 429（15s 後）
+2026-08-16T22:59:58.710Z 退避重試 HTTP 429（45s 後）
+2026-08-16T23:00:49.398Z FAIL LPL/2025/Split 3（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2025%2FSplit+3&prop=wikitext&redirects=1，略過續下頁）
+2026-08-16T23:00:49.399Z 抓取完成: 抓 0、跳過 83、缺頁 0、失敗 26（失敗的頁重跑會再試）
