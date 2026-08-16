@@ -274,7 +274,14 @@ export function* retirement(g) {
     return false;
   }
 
-  yield card(chosen.tone, chosen.label, cardText(chosen, cardVars(state)));
+  let body = cardText(chosen, cardVars(state));
+  // announce 補上退役原因：強制退役的 reason 只活在 state（FLOOR 釋出／試訓落榜／
+  // FA 乏人問津都是 throw 帶過來的），不記下來就查不到了——舊「職業生涯結束」卡
+  // 有 reason，三層化後掉了（S20e 審查修正）
+  if (chosen.id === 'announce' && state.retireReason) {
+    body += `<br><span class="muted">${state.retireReason}</span>`;
+  }
+  yield card(chosen.tone, chosen.label, body);
   yield* questBeats(g, { forced: true });
   yield* finale(g);
   return true;

@@ -379,6 +379,10 @@ function offerOptions(state, offers) {
 
 function* freeAgency(g, { forced }) {
   const { state, rng } = g;
+  // 「最近一次自由市場」的重置：上一季的靜默不該黏到這一季——最後一搏續跑的
+  // 第二年若有人開價，marketQuiet 必須是 false，否則「最後一搏」被誤擋、
+  // 「無聲告別」被誤命中（S20e 審查修正）
+  state.marketQuiet = false;
   const offers = generateOffers(state, rng, { excludeCurrentTeam: forced });
   const options = [];
 

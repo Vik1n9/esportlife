@@ -12,10 +12,11 @@
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
 import { careerFlow, retirement } from '../../src/engine/game.js';
-import { pickEnding, retireOptions } from '../../src/engine/retire.js';
+import { pickEnding, retireOptions, RetireSignal } from '../../src/engine/retire.js';
 import { evalCond } from '../../src/engine/conditions.js';
 import { RETIRE_ENDINGS, RETIRE_OPTIONS } from '../../src/data/retireCards.js';
 import { cardText, cardVars } from '../../src/phases/shared.js';
+import { run as transferRun } from '../../src/phases/transfer.js';
 import { monthAction, tacticsAction } from '../lib/harness.mjs';
 
 export const name = '三層退役事件（S20e）';
@@ -176,6 +177,35 @@ export async function run({ check }) {
       && beats.some((b) => b.type === 'alloc')
       && beats.some((b) => b.type === 'summary'));
     check('宣布退役：任務收束在退役後（無 choice 殘留）', beats.at(-1)?.type === 'summary', JSON.stringify(beats.at(-1)));
+  }
+  {
+    const s = fresh({ proYears: 6, retireReason: '能力已跌破青訓最低水準，遭釋出，被迫退役。' });
+    const { beats } = driveRetire(s, () => 'announce');
+    const card = beats.find((b) => b.type === 'card' && b.title === '宣布退役');
+    check('宣布退役：敘事卡保留退役原因（強制退役的 reason 不能被三層吃掉）',
+      card?.body?.includes('能力已跌破青訓最低水準'), card?.body);
+    check('宣布退役：原因附加無佔位符', !MARKER.test(card?.body ?? ''), card?.body);
+  }
+
+  /* ---- marketQuiet：自由市場每次重開都要重置（最後一搏續跑後第二年有報價） ---- */
+  {
+    const driveFA = (s) => {
+      const flow = transferRun({ state: s, rng: new Rng('retire:market') }, { kind: 'TRANSFER' });
+      let input;
+      for (;;) {
+        let out;
+        try { out = flow.next(input); } catch (err) { if (err instanceof RetireSignal) return; throw err; }
+        input = undefined;
+        if (out.done) return;
+        if (out.value.type === 'choice') input = out.value.options[0].id;
+      }
+    };
+    const s = fresh({ age: 19, attr: highAttr(52), contract: null });
+    driveFA(s);
+    check('marketQuiet：低評價 FA 無報價記下靜默', s.marketQuiet === true, String(s.marketQuiet));
+    s.attr = highAttr(85);
+    driveFA(s);
+    check('marketQuiet：第二次 FA 有報價時重置回 false（「最近一次」語意）', s.marketQuiet === false, String(s.marketQuiet));
   }
 
   /* ---- 敘事衛生：五結局＋四選項文案全數無佔位符 ---- */
