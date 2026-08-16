@@ -1,0 +1,145 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Machi%20Esports&redirects=1
+<!-- 抓取: 2026-08-16T14:22:36.938Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{team-stub}}
+{{Liquipedia links|overwatch=Machi Esports}}
+{{Tabs static
+|name1={{Team|machi esports}}
+|name2={{Team|machix}}
+|name3={{Team|machi crew}}
+|name4={{Team|machi 17}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Machi Esports
+|location=Taiwan
+|location2=
+|region=Southeast Asia
+|league=
+|sponsor= [http://tw.gashpoint.com GASH]<br/> [http://www.gigabyte.tw Gigabyte]<br/> [http://www.aorus.com AORUS]<br/> [http://www.kimlan.com/ Kimlan Soy Sauce]<br/> [http://17.media/ 17 Media]<br/> [http://www.511tactical.com 5.11 Tactical]
+|website=http://machiesports.com/
+|twitch=machiplay
+|youtube=channel/UCRfRdcODVD6rr5BM91G-Law
+|facebook=MachiPlay
+|weibo=
+|twitter=MachiEsports
+|created={{League of Legends}}: 2014-01-13
+|disbanded=2021-12-??
+}}
+
+'''Machi Esports''' is a [[:Category:Taiwan|Taiwanese]] multigaming organization.
+
+==History==
+===Timeline===
+{{tabs dynamic
+|name1=2014
+|name2=2015
+|name3=2016
+|name4=2017
+|name5=2018
+|name6=2020
+|name7=2021
+|This=7
+}}
+{{tabs dynamic/tab|1}}
+{{tabs dynamic/tab|2}}
+{{tabs dynamic/tab|3}}
+{{tabs dynamic/tab|4}}
+{{tabs dynamic/tab|5}}
+{{tabs dynamic/tab|6}}
+* February 18 - '''Machi Esports''' has announced their roster and acquired the spot in [[PCS 2020]] with the players from [[G-Rex]] which has disbanded. {{player|Hong|pos=top}}, {{player|Likai|pos=top}}, {{player|PK|pos=top}}, {{player|Gemini|pos=jg}}, {{player|M1ssion|pos=mid}}, {{player|Bruce|pos=bot}} and {{player|Koala|link=Koala (Taiwanese player)|pos=sup}} joined the team. <ref name="Machi Esports 2020">{{cite web|url=http://fb.com/1297927463726071|title=我們回來了！|author=[[Machi Esports]] |date=2020-02-18|publisher=Facebook|language={{Flag|cn}} Chinese}}</ref>
+* February 2nd - {{player|Dee|pos=coach}} and [[FoxYa]] rejoin. <ref name="Dee and FoxYa rejoin">{{cite web |url=https://www.facebook.com/MachiPlay/photos/a.222005571318271/1307489876103163|title=不用懷疑，Dreamer、Dee、FoxYa 來啦~目前Dreamer及Dee擔任教練職位、FoxYa擔任戰隊經理，|author='''Machi Esports''' |date=2020-02-16|publishers=Facebook|language={{Flag|cn}}}}</ref>
+* June 16th - {{player|JimieN|pos=mid}} is joining as substitute. <ref name="JimieN joins">{{cite web |url=http://fb.com/408470975909516/posts/3006784266078161|title=【HKA《英雄聯盟》戰隊人事異動】
+ |author=[[Hong Kong Attitude]] |date=2020-09-16|publishers=Facebook|language={{Flag|cn}}}}</ref>
+* September 16th - {{player|Dee|pos=coach}} is loaned to [[PSG Talon]]. <ref name="Dee loaned">{{cite web |url=http://twitter.com/PSG_Talon/status/1306186725215985666|title=Official Club Statement regarding #Worlds2020 roster. |author=[[PSG Talon]] |date=2020-09-16|publishers=Twitter|language={{Flag|usuk}} English}}</ref>
+* September 26th - {{player|Dee|pos=coach}} returns from loan to [[PSG Talon]]. <ref name="Dee ends">{{cite web |url=http://twitter.com/lolesportspcs/status/1309868791631806466|title=Despite the loss today, we would like to thank Dee for helping out @PSG_Talon when they needed a player to tide through the first 2 days of #Worlds2020! |author=[[PCS]] |date=2020-09-26|publishers=Twitter|language={{Flag|usuk}} English}}</ref>
+* November 6th - {{player|Hong|pos=top}}, {{player|PK|pos=top}}, {{player|M1ssion|pos=mid}}, {{player|Bruce|pos=bot}}, [[Mountain]], and [[SoCool]] leave.<ref name="Nov Transfers">{{cite web |url=http://fb.com/1515190688666413|title=【Machi Esports人事異動公告】|author=[[Machi Esports]] |date=2020-11-06|publishers=Twitter|language={{Flag|cn}} Chinese}}</ref>
+* December 18th - '''Machi Esports''' announces its team for the 2021 season. {{player|Atlen|pos=bot}} joins. {{player|Likai|pos=top}} and {{player|JimieN|pos=mid}} move to starting roster. {{player|Likai|pos=top}} renames to '''Likai'''. {{player|Gengar|pos=assistant coach}} joins as ''Coach''. {{player|Dreamer|pos=head coach}} becomes ''Head Coach''. {{player|Dee|pos=coach}} and {{player|Leo|pos=coach}} leave. <ref name="2021 season">{{cite web |url=https://www.facebook.com/MachiPlay/posts/1550094941842654|title=【Machi Esports 2021 PCS春季賽 陣容名單公布】|date=2020-12-18|publisher=Facebook|author='''Machi Esports'''|language={{Flag|cn}} Chinese}}</ref>
+
+{{tabs dynamic/tab|7}}
+* March 30th - {{player|Likai|pos=top}} leaves. {{player|PK|pos=top}} joins. <ref name="Likai leaves and PK joins">{{cite web|url=https://www.facebook.com/MachiPlay/posts/128451455952554|publisher=Facebook|title=【Machi Esports人事異動公告】|author='''Machi Esports'''|date=2021-03-30|language={{Flag|cn}} Chinese}}</ref>
+* July 4th - {{player|Likai|pos=top}} and {{Player|Dee|pos=bot}} join the team, {{player|PK|pos=top}} leaves. <ref name="Summer 2021">{{Cite web |date=2021-07-04 |url=https://www.facebook.com/MachiPlay/posts/191625206301845 |title=Dee is back on the field, and this time he's a player. |language={{Flag|china}} Chinese |author=Machi Esports |publisher=Facebook}}</ref>
+* November 22nd - {{player|Gemini|pos=jg}}, {{player|Atlen|pos=bot}} and {{player|Koala|link=Koala (Taiwanese player)|pos=sup}} leave the team. <ref name="Gemini leaves">{{cite web |url=https://www.facebook.com/permalink.php?id=100002394369794&story_fbid=4610859905670443 |title=If you're interested in me, call me on Twitter or send me a message. |date=2021-11-22 |author=[[Gemini]] |publisher=Facebook |language={{Flag|cn}} Chinese}}</ref><ref name="Atlen leaves">{{cite web |url=https://www.facebook.com/permalink.php?id=100000918038908&story_fbid=6741832789190589 |title=Atlen's contract expires. |date=2021-11-22 |author=[[Atlen]] |publisher=Facebook |language={{Flag|cn}} Chinese}}</ref><ref name="Koala leaves">{{cite web |url=https://www.facebook.com/a087558189tw/posts/5008336355852769 |title=I have resigned from MCX Esport Team since Nov. 22th and looking for any team/country. |date=2021-11-22 |author=[[Koala (Taiwanese player)|Koala]] |publisher=Facebook |language={{Flag|cn}} Chinese}}</ref>
+* November 24th - {{player|JimieN|pos=mid}} leaves to join [[100 Thieves Academy]]. <ref name="JimieN leaves">{{cite web |url=https://twitter.com/100T_Esports/status/1463613397870661635 |title=Introducing your 2022 LCS Academy roster. |date=2021-11-24 |author=[[100 Thieves]] |publisher=Twitter |language={{Flag|usuk}} English}}</ref>
+* December 9th - {{player|Likai|pos=top}} leaves to join [[Beyond Gaming]]. <ref name="Likai leaves">{{cite web |url=https://www.facebook.com/106040958163234/posts/274091791358149/ |title=【Mega Bank Beyond Gaming《英雄聯盟》團隊公告】 |date=2021-12-09 |author=[[Beyond Gaming]] |publisher=Facebook |language={{Flag|cn}} Chinese}}</ref>
+* December - '''Machi Esports''' disband, {{player|Dee|pos=bot}} leaves.
+{{tabs dynamic/end}}
+
+==Player Roster==
+===Former===
+{{tabs dynamic
+|name1=2014
+|name2=2015
+|name3=2016
+|name4=2017
+|name5=2018
+|name6=2020
+|name7=2021
+|This=7
+}}
+{{tabs dynamic/tab|1}}
+{{tabs dynamic/tab|2}}
+{{tabs dynamic/tab|3}}
+{{tabs dynamic/tab|4}}
+{{tabs dynamic/tab|5}}
+{{Squad|status=former|title=Former Players
+|{{Person|flag=tw|id=Taizan|name=Lin Ching-Chia<!-- (林敬家)-->|position=Jungle|joindate=2015-11-??|leavedate=2018-05-28|newteam=ahq e-Sports Club}}
+|{{Person|flag=kr|id=Move|name=	Kang Min-su<!-- (강민수)-->|position=Jungle|joindate=2017-12-17|leavedate=2018-05-08|newteam=1907 Fenerbahçe Esports}}
+|{{Person|flag=tw|id=CorGi|name=Cheng Pin-Lun<!-- (程品倫)-->|position=Bot|joindate=2017-05-25|leavedate=2018-01-03|newteam=Machi Esports}}
+|{{Person|flag=tw|id=Dee|name=Chen Chun-Dee<!-- (陳駿迪)-->|position=Bot|joindate=2014-01-13|leavedate=2018-01-03|newteam=}}
+}}
+{{tabs dynamic/tab|6}}
+{{Squad|status=former|title=Former Players
+|{{Person|flag=tw|id=Hong|name=Ke Wen-Hong<!-- (柯文泓)-->|position=Top|joindate=2020-02-18 <ref name="Machi Esports 2020"/>|leavedate=2020-11-06 <ref name="Nov Transfers"/>|newteam=}}
+|{{Person|flag=tw|id=PK|name=Hsieh Yu-Ting<!-- (謝宇庭)-->|position=Top|joindate=2020-02-18 <ref name="Machi Esports 2020"/>|leavedate=2020-11-06 <ref name="Nov Transfers"/>|newteam=beyond gaming}}
+|{{Person|flag=tw|id=M1ssion|name=Chen Hsiao-Hsien<!-- (陳孝銜)-->|position=Mid|joindate=2020-02-18 <ref name="Machi Esports 2020"/>|leavedate=2020-11-06 <ref name="Nov Transfers"/>|newteam=j team}}
+|{{Person|flag=tw|id=Bruce|name=Chiu Chih-Chun<!-- (邱致鈞)-->|position=Bot|joindate=2020-02-18 <ref name="Machi Esports 2020"/>|leavedate=2020-11-06 <ref name="Nov Transfers"/>|newteamrole=retired}}
+}}
+{{tabs dynamic/tab|7}}
+{{Squad|status=former|title=Former Players
+|{{Person|flag=tw|id=Dee|name=Chen Chun-Dee<!-- (陳駿迪)-->|position=Bot|joindate=2021-07-04 <ref name="Summer 2021"/> |leavedate=2021-12-?? |newteam= }}
+|{{Person|flag=tw|id=Likai|name=Liao Li-Kai<!-- (廖俐凱)-->|position=Top|joindate=2021-07-04|leavedate=2021-12-09 <ref name="Likai leaves"/>|newteam=beyond gaming}}
+|{{Person|flag=tw|id=JimieN|name=Tseng Hao-Chun<!-- (曾浩鈞)-->|position=Mid|joindate=2020-06-16 <ref name="JimieN joins"/> |leavedate=2021-11-24 <ref name="JimieN leaves"/> |newteam=100a}}
+|{{Person|flag=tw|id=Gemini|name=Huang Chu-Xuan<!-- (黃楚軒)-->|position=Jungle|joindate=2020-02-18 <ref name="Machi Esports 2020"/> |leavedate=2021-11-22 <ref name="Gemini leaves"/> |newteam=ctbc flying oyster }}
+|{{Person|flag=tw|id=Atlen|name=Sung Ya-Lun<!-- (宋亞倫)-->|position=Bot|joindate=2020-12-18 <ref name="2021 season"/> |leavedate=2021-11-22 <ref name="Atlen leaves"/> |newteam=ctbc flying oyster }}
+|{{Person|flag=tw|id=Koala|link=Koala (Taiwanese player)|name=Lin Chih-Chiang<!-- (林志強)-->|position=Support|joindate=2020-02-18 <ref name="Machi Esports 2020"/> |leavedate=2021-11-22 <ref name="Koala leaves"/> |newteam=ctbc flying oyster }}
+|{{Person|flag=tw|id=PK|name=Hsieh Yu-Ting<!-- (謝宇庭)-->|position=Top|joindate=2021-03-30 <ref name="Likai leaves and PK joins"/> |leavedate=2021-07-04 <ref name="Summer 2021"/> |newteam=beyond gaming}}
+|{{Person|flag=tw|id=Likai|name=Liao Li-Kai<!-- (廖俐凱)-->|position=Top|joindate=2020-02-18 <ref name="Machi Esports 2020"/>|leavedate=2021-03-30 <ref name="Likai leaves and PK joins"/>|newteam=beyond gaming}}
+}}
+{{tabs dynamic/end}}
+
+==Organization==
+===Active===
+{{Squad|type=staff|status=active
+|{{Person |id=SivHD|flag=nl|name=Robbert van Eijndhoven|role=Owner|joindate=}}
+|{{Person |id=BigBrother|flag=tw|name=Jeffrey Huang<!-- (黃立成)-->|role=Owner|joindate=}}
+|{{Person |id=FoxYa|flag=tw|name=Wang Tsung-Ching<!-- (王宗慶)-->|role=Team Manager|manager=true|joindate=2020-02-02 <ref name="Dee and FoxYa rejoin"/>}}
+|{{Person |id=Dreamer|flag=tw|name=Tseng Chien-Hung<!-- (曾建泓)-->|role=Head Coach|coach=true|joindate=2020-12-18 <ref name="2021 season"/>}}
+|{{Person |id=Gengar|flag=tw|name=Li Chung-Chieh<!-- (李仲傑)-->|role=Assistant Coach|coach=true|joindate=2020-12-18 <ref name="2021 season"/>}}
+}}
+
+===Former===
+{{Squad|type=staff|status=former|former=true
+|{{Person |id=Leo|flag=tw|name=Shu Kuan-Chih<!-- (舒冠智)-->|role=Coach|joindate=2020-02-18|leavedate=2020-12-18 <ref name="2021 season"/>|newteam=}}
+|{{Person |id=Dee|flag=tw|name=Chen Chun-Dee<!-- (陳駿迪)-->|role=Coach|joindate=2020-02-02 <ref name="Dee and FoxYa rejoin"/>|leavedate=2020-12-18 <ref name="2021 season"/>|newteam=}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Machi Esports}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Machi Esports}}
+}}
+
+==Awards==
+{{Team awards table|team=Machi Esports}}
+
+==Gallery==
+<gallery mode="packed" heights="250px">
+Machi Esports.png|Original logo prior to 2018
+Machi Esports 2018 logo.png|Logo prior to 2019
+</gallery>
+
+==References==
+{{Reflist}}
+<br>
+{{Team roster}}

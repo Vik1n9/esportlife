@@ -1,0 +1,77 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=J%20Team&redirects=1
+<!-- 抓取: 2026-08-16T14:22:26.900Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/J Team}}
+{{Tabs static
+|name1={{Team|j team}}
+|name2={{Team|j team 2}}
+|name3={{Team|tb}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=J Team
+|image=J Team full lightmode.png
+|imagedark=J Team full darkmode.png
+|location=Taiwan
+|region=Taiwan
+|league=PCS
+|city=Taipei
+|website=http://www.jy-ents.com/index.html#index/1
+|twitter=jteam_club
+|facebook=JTeam.club
+|instagram=jteam.club
+|youtube=UCS9kyJ4VynB2dIaMAoYHOBg
+|weibo=5947274841
+|twitch=jteam
+|created={{League of Legends}}: 2015-11-28
+|disbanded=2024-11-01
+}}
+
+'''J Team''' is a [[:Category:Taiwan|Taiwanese]] professional gaming organization owned by '''[[wikipedia:Jay_Chou|Jay Chou]]'''.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Active===
+{{ActiveSquadAuto
+}}
+
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Fawn |link=Fawn (Taiwanese player) |name=Tzu Chi Huang |joindate=2022-01-27 }}
+|{{SquadAutoRow|id=Fawn |link=Fawn (Taiwanese player) |name=Tzu Chi Huang |joindate=2021-12-06 }}
+|{{SquadAutoRow|id=Lauva |name=Huang Hsin-Yu |joindate=2021-02-18 }}
+|{{SquadAutoRow|id=Keorb |name=Liao Ming-Yu |joindate=2020-04-02 }}
+|{{SquadAutoRow|id=Lauva |name=Yuang Hsin-Yu |joindate=2019-12-16 }}
+|{{SquadAutoRow|id=Jcain |name=Huang Po-Chun |joindate=2016-12-07 }}
+}}
+
+==Organization==
+===Active===
+{{ActiveOrganizationAuto
+|{{SquadAutoRow|flag=tw|id=Jay Chou|name=Chou Chieh-Lun |role=Owner|joindate=2015-11-28}}
+|{{SquadAutoRow|flag=tw|id=Dus|name=Tu Yu-Sheng |role={{abbr|COO|Chief Operating Officer}}|joindate=2015-11-28}}
+|{{SquadAutoRow|flag=tw|id=Zeno|name=Lin Hsin-Yu|role=Product Director|joindate=2015-11-28}}
+|{{SquadAutoRow|flag=tw|id=Crowley|name=Lin I-Tsung|role=General Manager|joindate=2015-11-28}}
+}}
+
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|flag=tw|id=AnAn|name=Hu Yao-Chih|joindate=2023-01-25}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=J Team}}
+|name2=Recent Matches |content2={{Team recent matches table|team=J Team}}
+}}
+
+==Awards==
+{{Team awards table|team=J Team}}
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

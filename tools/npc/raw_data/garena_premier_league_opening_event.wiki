@@ -1,0 +1,183 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Garena%20Premier%20League%2FOpening%20Event&redirects=1
+<!-- 抓取: 2026-08-16T14:22:01.812Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Garena Premier League Opening Event}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-12-13
+}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-12-13
+}}
+{{Garena Premier League Navbox}}
+{{GPL 2012 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=Garena Premier League Opening Event
+|tickername=GPL Opening Event
+|shortname=Opening Event
+|series=GPL
+|image=Old GPL Logo.png
+|icon=Old GPL Logo.png
+|organizer=Garena
+|sponsor=
+|patch=
+|epatch=
+|type=Offline
+|country=Taiwan
+|city=
+|format='''Group Stage'''<br>Single Round Robin {{Abbr/Bo1}}<br>'''Playoffs'''<br> Single Elimination {{Abbr/Bo1}}
+|prizepoolusd=5,000
+|date=2012-05-05
+|liquipediatier=2
+|website=http://2015.lms.garena.tw/
+|team_number=6
+|next=GPL/Season 1{{!}}Season 1
+}}
+The '''Garena Premier League Opening Event''' was the opening event of the [[Garena Premier League]] ('''GPL'''), held on May 5, 2012, offline in Taiwan. Six teams from Southeast Asia competed, with the Group Stage conducted as a Single Round Robin, best-of-one, and the top two teams from each group advancing to a Single Elimination, best-of-one Playoffs. The bottom team in each group was eliminated. The tournament offered a total prize pool of 5,000 {{Abbr/USD}}, with [[Taipei Assassins]] claiming first place. Other participants included [[Singapore Sentinels]], [[Saigon Jokers]], [[Bangkok Titans]], [[Manila Eagles]], and [[Kuala Lumpur Hunters]]. 
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|cutafter=|import=true
+|tournament1=Garena Premier League/Opening Event/Group Stage
+|tournament2=Garena Premier League/Opening Event/Playoffs
+|{{Slot|place=1|usdprize=3,000}}
+|{{Slot|place=2|usdprize=2,000}}
+|{{Slot|place=3|usdprize=1,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Taipei Assassins
+|flag=tw
+|p1=Stanley
+|p2=Lilballz
+|p3=Toyz
+|p4=BeBe
+|p5=MiSTakE
+|t2p1=NeXAbc|t2p1flag=tw|t2pos1=mid
+}}
+{{TeamCard
+|team=Singapore Sentinels
+|flag=sg
+|p1=ToFu|p1flag=sg
+|p2=HarLeLuYar
+|p3=d4rkness
+|p4=Ly4ly4ly4
+|p5=EquivocaL|p5flag=sg
+
+}}
+{{TeamCard
+|team=Saigon Jokers
+|flag=vn
+|p1=Izumin|p1flag=vn
+|p2=Egg|p2flag=vn
+|p3=Archie|p3link=Archie (Vietnamese player)
+|p4=Violet
+|p5=Melody|p5flag=vn
+}}
+{{TeamCard
+|team=Bangkok Titans
+|flag=th
+|p1=leah|p1flag=th
+|p2=M1nG|p2flag=th
+|p3=THA|p3flag=th
+|p4=LMN|p4flag=th
+|p5=MeDMeD|p5flag=th
+}}
+{{TeamCard
+|team=Manila Aguilas
+|flag=ph
+|p1=Dynasty|p1flag=ph|p1link=Dynasty (Filipino player)
+|p2=Misery|p2flag=ph
+|p3=Kaigu|p3flag=ph
+|p4=VYY|p4flag=ph
+|p5=Rebengga|p5flag=ph
+
+}}
+{{TeamCard
+|team=Kuala Lumpur Hunters
+|flag=my
+|p1=MoNk3yz|p1flag=my
+|p2=Epyonz|p2flag=my
+|p3=GoldeN|p3flag=my
+|p4=Hagane|p4flag=my
+|p5=donmuri|p5flag=my
+
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:Garena Premier League/Opening Event/Group Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Garena Premier League/Opening Event/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=NnqUNq2gDs}}
+
+==Format==
+*'''Group Stage'''
+** Two (2) groups of three (3) teams.
+**Single Round Robin, {{Abbr/Bo1}}
+*** {{bgcolortext|up|''1st and 2nd place of each group''}} advance to the Playoffs.
+*** {{bgcolortext|down|''3rd place of each group''}} is eliminated
+*'''Playoffs'''
+**Single Elimination bracket, {{Abbr/Bo1}}.
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=
+|lang2=tw |youtube2=
+|lang3=vn |youtube3=
+|lang4=th |youtube4=
+|lang5=my |youtube5=
+|lang6=ph |youtube6=
+|lang7=sg |youtube7=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+==Additional Data==
+===Statistics===
+{{#lst:Garena Premier League/Opening Event/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=Garena Premier League|limit=10|playerspage=Garena_Premier_League/Opening_Event|edate=2012-05-10}}
+:''See [[Garena Premier League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

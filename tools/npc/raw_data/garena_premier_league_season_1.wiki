@@ -1,0 +1,212 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Garena%20Premier%20League%2FSeason%201&redirects=1
+<!-- 抓取: 2026-08-16T14:21:58.548Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Garena Premier League Season 1}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-12-13
+}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-12-13
+}}
+{{Garena Premier League Navbox}}
+{{GPL 2012 Tabs}}
+{{Tournament Tabs 2}}
+{{Infobox league
+|name=Garena Premier League Season 1
+|tickername=GPL Season 1
+|shortname=Season 1
+|series=GPL
+|image=Old GPL Logo.png
+|icon=Old GPL Logo.png
+|organizer=Garena
+|sponsor=
+|patch=
+|epatch=
+|type=Online/Offline
+|country=Singapore
+|city=Singapore
+|venue=Garena Stadium
+|format='''Group Stage'''<br>Octuple Round Robin {{Abbr/Bo1}}<br>'''Playoffs'''<br> King of the Hill {{Abbr/Bo3}} (''Semifinals'')/{{Abbr/Bo5}} (''Finals'')
+|prizepoolusd=63,500
+|sdate=2012-05-18
+|edate=2012-11-17
+|liquipediatier=2
+|highlighted=|rulebook=
+|website=http://2015.lms.garena.tw/
+|team_number=6
+|previous=Garena Premier League/Opening Event{{!}}Opening Event
+|next=Garena Premier League/2013/Spring{{!}}2013 Spring
+}}
+The '''Garena Premier League Season 1''' was the first full season of the [[Garena Premier League]] ('''GPL'''), held from May 18 to November 17, 2012. The competition was hosted in Singapore, with offline matches played at the Garena Stadium, and featured six teams from across Southeast Asia. The Group Stage was played as an Octuple Round Robin with best-of-one matches. The top three teams advanced to the Playoffs, which used a King of the Hill format: the second and third seeds met in the Semifinals in best-of-three, while the first seed received a direct bye to the Grand Finals, played as a best-of-five. The tournament featured a total prize pool of $63,500 {{Abbr/USD}}.
+==Prize Pool==
+{{TeamPrizePool|cutafter=6|import=true
+|tournament1=Garena_Premier_League/Season_1/Regular_Season
+|tournament2=Garena Premier League/Season_1/Playoffs
+|{{Slot|place=1|usdprize=20,000}}
+|{{Slot|place=2|usdprize=14,000}}
+|{{Slot|place=3|usdprize=13,000}}
+|{{Slot|place=4|usdprize=6,000}}
+|{{Slot|place=5|usdprize=5,500}}
+|{{Slot|place=6|usdprize=5,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Taipei Assassins
+|flag=tw
+|p1=Stanley
+|p2=Lilballz
+|p3=Toyz
+|p4=BeBe
+|p5=MiSTakE
+
+|t2p1=Zonda|t2pos1=top
+|t2p2=NeXAbc|t2pos2=mid
+|t2p3=GoDJJ|t2pos3=adc
+|t2p4=Colalin|t2pos4=sup|t2p4flag=tw
+}}
+{{TeamCard
+|team=Singapore Sentinels
+|flag=sg
+|p1=EquivocaL|p1flag=sg
+|p2=d4rkness
+|p3=Chawy
+|p4=Ly4ly4ly4
+|p5=HarLeLuYaR
+
+|t2p1=ToFu|t2p1flag=sg|t2pos1=top
+|t2p2=Kailing|t2pos2=top
+}}
+{{TeamCard
+|team=Saigon Jokers
+|flag=vn
+|p1=QTV|p1flag=vn
+|p2=Violet
+|p3=NIXWATER
+|p4=Archie|p4link=Archie (Vietnamese player)
+|p5=Junie|p5flag=vn
+
+|t2p1=Izumin|t2p1flag=vn|t2pos1=top
+|t2p2=Egg|t2p2flag=vn|t2pos2=jg
+|t2p3=MiHee|t2pos3=adc|t2p3flag=vn
+|t2p4=Melody|t2pos4=sup|t2p4flag=vn
+|t2p5=YangSieu|t2pos5=sup|t2p5flag=vn
+|t2p6=Uzi|t2p6link=Uzi (Vietnamese player)|t2p6flag=vn|t2pos6=sup
+|t2p7=zerg|t2pos7=sup|t2p7flag=vn
+}}
+{{TeamCard
+|team=Bangkok Titans
+|flag=th
+|p1=SKLz|p1flag=th
+|p2=NdD|p2flag=th
+|p3=leah|p3flag=th
+|p4=NVM|p4flag=th
+|p5=Xeres|p5flag=th
+
+|t2p1=Porsch|t2p1flag=th|t2pos1=top
+|t2p2=Roron|t2p2flag=th|t2pos2=top
+|t2p3=jeno|t2p3flag=th|t2pos3=top
+|t2p4=MED|t2p4flag=th|t2pos4=adc
+|t2p5=suuuuu|t2p5flag=th|t2pos5=adc
+|t2p6=Rotee|t2p6flag=th|t2pos6=sup
+
+}}
+{{TeamCard
+|team=Manila Eagles
+|flag=ph
+|p1=Snoy|p1flag=ph
+|p2=Misery|p2flag=ph
+|p3=Kaigu|p3flag=ph
+|p4=VYY|p4flag=ph
+|p5=Noelly|p5flag=ph
+
+|t2p1=Rebengga|t2pos1=top|t2p1flag=ph
+|t2p2=IzE|t2pos2=top|t2p2flag=ph
+|t2p3=Morpheus|t2pos3=adc|t2p3flag=ph
+|t2p4=Solyndro|t2pos4=sup|t2p4flag=ph
+|t2p5=Ghost|t2p5link=Ghost (Filipino player)|t2p5flag=ph|t2pos5=sup
+}}
+{{TeamCard
+|team=Kuala Lumpur Hunters
+|flag=my
+|p1=MoNk3yz|p1flag=my
+|p2=donmuri|p2flag=my
+|p3=GoldeN|p3flag=my
+|p4=JaeYoong|p4flag=my
+|p5=Hagane|p5flag=my
+
+|t2p1=Epyonz|t2p1flag=my|t2pos1=jg
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#section:GPL/Season_1/Regular_Season|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[GPL/Season_1/Regular_Season|Click here for detailed results of the '''Regular Season''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=aKS5d6j5LS}}
+
+
+==Format==
+* '''Group Stage'''
+** Octuple Round Robin {{Abbr/Bo1}}
+*** {{bgcolortext|seedup|''1st place''}} advance to the Finals of the Playoffs.
+*** {{bgcolortext|up|''2nd and 3rd place''}} advance to the Semifinals of the Playoffs.
+* '''Playoffs'''
+** King of the Hill bracket
+*** Semifinals is {{Abbr/Bo3}}
+*** Grand Finals are {{Abbr/Bo5}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=
+|lang2=tw |youtube2=
+|lang3=vn |youtube3=
+|lang4=th |youtube4=
+|lang5=my |youtube5=
+|lang6=ph |youtube6=
+|lang7=sg |youtube7=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Caster
+|b1=
+|b2=
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=
+|b2=
+}}
+{{box|end|padding=2em}}
+==Additional Data==
+===Statistics===
+{{#lst:Garena Premier League/Season 1/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=Garena Premier League|limit=10|playerspage=Garena_Premier_League/Season_1|edate=2012-11-20}}
+:''See [[Garena Premier League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

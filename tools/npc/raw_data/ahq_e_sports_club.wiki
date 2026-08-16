@@ -1,0 +1,85 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Ahq%20e-Sports%20Club&redirects=1
+<!-- 抓取: 2026-08-16T14:22:49.948Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/ahq}}
+{{Tabs static
+|name1={{Team|ahq e-sports club}}
+|name2={{Team|ahq e-sports club korea}}
+|name3={{Team|ahq fighter}}
+|name4={{Team|ahq snipers}}
+|name5={{Team|logitech g snipers}}
+|name6={{Team|ahq girls}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=ahq e-Sports Club
+|location=Taiwan
+|region=Southeast Asia
+|website=http://www.ahq.com.tw/
+|instagram=ahq_esportsclub
+|weibo=ahqclub
+|youtube=user/ahqeSportsClub
+|twitter=ahq_eSportsClub
+|facebook=AhqESportsClub
+|created={{League of Legends}}: 2012-09-21
+|disbanded=2021-01-06
+}}
+
+'''ahq e-Sports Club''' is a [[:Category:Taiwan|Taiwanese]] multigaming organization. Their League of Legends team competes in the [[PCS]], the highest level in the South East Asia region.
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=UDJ|name=Yang Shu-wei|joindate=2012-09-21}}
+|{{SquadAutoRow|id=Prydz|name=Chen Kuang-feng|joindate=2018-01-26}}
+|{{SquadAutoRow|id=GarnetDevil|name=Lai Yi-meng|joindate=2012-12-24}}
+|{{SquadAutoRow|id=Lantyr|name=Zhang Huai-cang|joindate=2013-03-01}}
+|{{SquadAutoRow|id=ArTie|name=Chang Che-ming|joindate=2012-09-21}}
+|{{SquadAutoRow|id=ArTie|name=Chang Che-ming|joindate=2013-03-01}}
+|{{SquadAutoRow|id=GarnetDevil|name=Lai Yi-meng|joindate=2013-03-01}}
+|{{SquadAutoRow|id=GarnetDevil|name=Lai Yi-meng|joindate=2013-10-??}}
+|{{SquadAutoRow|id=Naz|name=Chen Tien-chih|joindate=2013-09-01}}
+|{{SquadAutoRow|id=Prydz|name=Chen Kuang-feng|joindate=2012-12-24}}
+|{{SquadAutoRow|id=Tuna|name=Hsiao Yu-wei|joindate=2015-11-10}}
+|{{SquadAutoRow|id=Tuna|name=Hsiao Yu-wei|joindate=2017-11-26}}
+|{{SquadAutoRow|id=LBB|name=Liu Ping-hsin|joindate=2017-05-08}}
+|{{SquadAutoRow|id=Taizan|name=Lin Ching-chia|joindate=2018-05-28}}
+|{{SquadAutoRow|id=Crank|name=Zheng Dacheng|joindate=2019-03-19}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Prydz|name=Chen Kuang-feng|joindate=2014-10-07}}
+|{{SquadAutoRow|id=Backstairs|name=Chen Yan-fu|joindate=2012-09-21}}
+|{{SquadAutoRow|id=NeXAbc|name=Chiu Po-chieh|joindate=2016-11-01}}
+|{{SquadAutoRow|id=NeXAbc|name=Chiu Po-chieh|joindate=2018-12-26}}
+|{{SquadAutoRow|id=Domo|name=Kung Yu-te|joindate=2017-11-23}}
+|{{SquadAutoRow|id=VaGo|name=Fang|joindate=2020-06-10}}
+|{{SquadAutoRow|id=Luke|name=Huang Pin-hao|joindate=2018-12-26}}
+|{{SquadAutoRow|id=Polo|link=Polo (Taiwanese staff)|name=Wu Ching-chen|joindate=2018-12-26}}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=ahq e-Sports Club}}
+|name2=Recent Matches |content2={{Team recent matches table|team=ahq e-Sports Club}}
+}}
+
+==Awards==
+{{Team awards table|team=ahq e-Sports Club}}
+
+==Gallery==
+===Logos===
+<gallery mode="packed" heights="250px">
+Ahq eSports Club.png|Original logo prior 2018
+</gallery>
+
+==References==
+{{Reflist|2}}
+<br>
+{{Team roster}}

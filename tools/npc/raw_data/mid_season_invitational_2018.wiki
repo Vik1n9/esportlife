@@ -1,0 +1,462 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Mid-Season%20Invitational%2F2018&redirects=1
+<!-- 抓取: 2026-08-16T14:22:16.463Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2018 Mid-Season Invitational}}
+{{Mid Season Invitational Navbox}}<br>
+{{Tabs static
+|name1=Overview
+|link1=Mid-Season_Invitational/2018
+|name2=Qualification
+|link2=Mid-Season_Invitational/2018/Qualification
+|name3=Play-In
+|link3=Mid-Season_Invitational/2018/Play-In
+|name4=Group Stage
+|link4=Mid-Season_Invitational/2018/Group_Stage
+|name5=Knockout Stage
+|link5=Mid-Season_Invitational/2018/Knockout_Stage
+|name6=Statistics 
+|link6=Mid-Season_Invitational/2018/Statistics 
+|name7=Additional Content
+|link7=Mid-Season_Invitational/2018/Additional_Content
+|This=1}}
+{{Infobox league
+|name=2018 Mid-Season Invitational
+|shortname=MSI 2018
+|image=Mid Season Invitational 2018.png
+|series=MSI
+|icon=Msilogo_small.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=8.8
+|sponsor=[https://www.statefarm.com/ State Farm]
+|sponsor2=[https://www.acer.com/predator Acer Predator]
+|server=Europe
+|type=offline
+|country=Germany
+|country2=France
+|city=Berlin
+|city2=Paris
+|venue=EU LCS Studio
+|venue2=Zénith Paris La Villette
+|format=
+|prizepoolusd=1,370,520 
+|sdate=2018-05-03
+|edate=2018-05-20
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/en_US/
+|rulebook=http://esports-assets.s3.amazonaws.com/production/files/rules/MSI-Ruleset-2018-25APR.pdf
+|twitch=riotgames
+|team_number=14
+|previous=Mid-Season Invitational/2017{{!}}2017
+|next=Mid-Season Invitational/2019{{!}}2019
+}}
+
+==Format==
+* '''Play-In'''
+** Groups
+*** Two groups of 4 teams randomly seeded.
+*** Double Round Robin {{Abbr/Bo1}}.
+*** Winner of each group advances to Play-In Knockout.
+** Knockout
+*** Two teams from Play-In Group Stage randomly paired against two seeded teams from Taiwan (LMS) and Vietnam (VCS).
+*** All matches are {{Abbr/Bo5}}
+*** Winners qualify for Group Stage.
+* '''Group Stage'''
+** Two teams from Play In and four seeded teams from Korea (LCK), China (LPL), North America (NA LCS) and Europe (EU LCS).
+** Double Round Robin {{Abbr/Bo1}}.
+** Top four teams advance to Knockout Stage
+* '''Knockout Stage'''
+** Four teams Single Elimination
+** 1st place team from Group Stage selects either the 3rd place or 4th place team as their opponent.
+** All matches are {{Abbr/Bo5}}
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English
+|name2=Korean
+|name3=French
+|name4=Thai
+|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+|b2=Dash|b2name=James Patterson|b2flag=us
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Play-by-play Commentator
+|b1=Medic|b1name=Aaron Chamberlain|b1flag=uk
+|b2=CaptainFlowers|b2name=Clayton Raines|b2flag=ca
+|b3=Drakos|b3name=Daniel Drakos|b3flag=us
+|b4=Phreak|b4name=David Turley|b4flag=us
+|b5=Spawn|b5name=Jake Tiberi|b5flag=au
+|b6=Pastrytime|b6name=Julian Carr|b6flag=au
+|b7=Quickshot|b7name=Trevor Henry|b7flag=za
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Color Commentator and Analyst
+|b1=Zirene|b1name=Aidan Moon|b1flag=us
+|b2=Vedius|b2name=Andy Day|b2flag=gb
+|b3=Raz|b3name=Barento Mohammed|b3flag=ca
+|b4=PapaSmithy|b4name=Chris Smith|b4flag=au
+|b5=Froskurinn|b5name=Indiana Black|b5flag=us
+|b6=Azael|b6name=Isaac Cummings-Bentley|b6flag=ca
+|b7=Jatt|b7name=Joshua Leesman|b7flag=ca
+|b8=Deficio|b8name=Martin Lynge|b8flag=dk
+|b9=Kobe|b9name=Sam Hartman-Kenzler|b9flag=us
+|b10=Rusty|b10name=Zack Pye|b10flag=au
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Korean Translator
+|b1=Hajinsun|b1name=|b1flag=kr
+}}
+{{box|end|padding=2em}}
+
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Caster
+|b1=Caster Jun
+|b2=Dankun
+}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Commentator
+|b1=Kim Dong-joon
+|b2=CloudTemplar|b2name=Lee Hyun-woo|b2flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Guest Color Commentator
+|b1=MadLife|b1name=Hong Min-gi|b1flag=kr
+|b2=Huni|b2flag=kr
+|b3=Sangyoon|b3name=Gwon Sang-yun|b3flag=kr
+|b4=UmTi|b4name=Eom Seong-hyeon|b4flag=kr
+|b5=Flame|b5flag=kr
+|b6=CoreJJ|b6flag=kr
+|b7=CuVee|b7flag=kr
+|b8=RapidStar|b8name=Jung Min-sung|b8flag=kr
+|b9=IgNar|b9flag=kr
+}}<!--
+{{BroadcasterCard|lang=kr|studio=ogn
+|position=Translator
+|b1=채동희|b1name=Chae Dong-hee|b1flag=kr
+}}
+-->
+{{box|end}}
+
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=fr
+|position=Caster
+|b1=Chips|b1name=Fabien Culié|b1flag=fr
+|b2=Noi|b2name=Charles Lapassat|b2flag=fr
+|b3=Bulii|b3name=Laure Valée|b3flag=fr
+|b4=Zaboutine|b4name=Thomas Si-Hassen|b4flag=fr
+|b5=Tweekz|b5name=Kévin Remy|b5flag=fr
+|b6=Shaunz|b6name=Kévin Ghanbarzadeh|b6flag=fr
+|b7=Nono|b7name=Rim-Raimon Amanieu|b7flag=fr
+|b8=Duke |b8link=Duke (French coach)||b8name=Hadrien Forestier|b8flag=fr
+}}
+{{box|end}}
+
+{{Tabs dynamic/tab|4}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=th|studio=Garena
+|position=Caster
+|b1=SunWaltz|b1name=Dolpraphob Tiendam|b1flag=th
+|b2=Rezalett|b2name=Isara Puangchompoo|b2flag=th
+|b3=Winzy|b3name=Vipolpat Moonsapa|b3flag=th
+|b4=Nohimitsu|b4name=Chatchai Chaichalermphot|b4flag=th
+|b5=Zylfelia|b5name=Thanapong Srisawat|b5flag=th
+|b6=Moonfalling|b6name=Chatri Rojkanwong|b6flag=th
+}}
+{{box|end}}
+
+
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+The base prize pool of the tournament was $250,000 {{Abbr/USD}}.
+<br /> 25% of the total sales from the Conqueror Varus and the 2018 Conqueror ward skin will contribute to the MSI prize pool from April 26-May 20.
+<br /> Guaranteed to be at least $750,000 from the Conqueror Varus and 2018 Conqueror ward skin, for a total prize pool of at least $1,000,000.
+
+The current total prize pool (as of 20 May 2018) is $1,370,520 {{Abbr/USD}}.<ref>{{cite web|url=https://twitter.com/lolesports/status/998140068517875712|title=Total MSI prize pool - 20 May, 2018 |author=@lolesports |date=2018-05-11 |language={{Flag|usuk}}}}</ref><!--<ref>{{cite web|url=https://twitter.com/lolesports/status/994917721585389568|title=Total MSI prize pool - 11 May, 2018 |author=@lolesports |date=2018-05-11 |language={{Flag|usuk}}}}</ref><ref>{{cite web|url=https://twitter.com/lolesports/status/993067667123834880 |title=Total MSI prize pool - 6 May, 2018 |author=@lolesports |date=2018-05-06 |language={{Flag|usuk}}}}</ref>-->
+{{TeamPrizePool|prizesummary=no|cutafter=6|percentage1=1
+|tournament1=Mid-Season Invitational/2018/Play-In#Play-In Knockout Stage
+|tournament2=Mid-Season Invitational/2018/Group Stage|tournament3=Mid-Season Invitational/2018/Knockout Stage
+|{{Slot|percentage1=38.5}}
+|{{Slot|percentage1=19.5}}
+|{{Slot|count=2|percentage1=9.75}}
+|{{Slot|percentage1=5}}
+|{{Slot|percentage1=5}}
+|{{Slot|count=2|percentage1=2.5%}}
+|{{Slot|count=2|percentage1=1.5%
+|{{Opponent|rainbow7 |wdl=3/3 |date=2018-05-05}}
+|{{Opponent|kabum |wdl=4/2 |date=2018-05-06}}
+}}
+|{{Slot|percentage1=1.25%
+|{{Opponent|dire wolves |wdl=2/4 |date=2018-05-06}}
+}}
+|{{Slot|count=2|percentage1=1.125%
+|{{Opponent|ascension gaming |wdl=2/4 |date=2018-05-05}}
+|{{Opponent|kaos latin gamers |wdl=2/4 |date=2018-05-05}}
+}}
+|{{Slot|percentage1=1%
+|{{Opponent|pentagram|wdl=1/5 |date=2018-05-06}}
+}}
+|adjacentContent={{AwardPrizePool|noprize=true|margin=false
+|{{Slot|award=Finals MVP |{{Opponent|Uzi |link=Uzi (Chinese player)}}}}
+}}
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Fnatic
+|p1=Bwipo
+|p2=Broxah
+|p3=Caps
+|p4=Rekkles
+|p5=Hylissang
+
+|t2p1=sOAZ |t2pos1=top 
+
+|t3p1=Dylan Falco |t3p1flag=ca |t3pos1=Head Coach
+|qualifier=[[LCS/Europe/2018/Spring|EU LCS Spring]]
+
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2015|date=2015-05-10}} '''(2015)'''
+}}
+{{TeamCard
+|team=KING-ZONE DragonX
+|p1=Khan
+|p2=Peanut |p2wins=1
+|p3=Bdd
+|p4=PraY
+|p5=GorillA
+
+|t2p1=Cuzz |t2pos1=jng
+
+|t3p1=ActScene |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LCK/2018/Spring|LCK Spring]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Letme
+|p2=Karsa
+|p3=Xiaohu
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Ming
+
+|t2p1=Mlxg |t2pos1=jng
+
+|t3p1=Heart |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Kezman |t3p2flag=kr |t3pos2=Coach
+|t3p3=Xiaoxuan |t3p3flag=kr |t3pos3=Analyst
+|qualifier=[[LPL/2018/Spring|LPL Spring]]
+
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2016|date=2016-05-15}} '''(2016)'''
+}}
+{{TeamCard
+|team=Team Liquid
+|p1=Impact
+|p2=Xmithie
+|p3=Pobelter
+|p4=Doublelift
+|p5=Olleh
+
+|t2p1=Joey |t2pos1=sup
+
+|t3p1=Cain |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LCS/North_America/2018/Spring|NA LCS Spring]]
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start|cols=5}}
+{{TeamCard
+|team=Ascension Gaming
+|p1=Rockky
+|p2=Intreso
+|p3=G4
+|p4=Lloyd
+|p5=Rich |p5link=Rich (Thai player)
+
+|t2p1=Arale |t2p1flag=th |t2pos1=fill |t2p1dnp=true
+
+|t3p1=Cabbage |t3p1flag=th |t3pos1=Head Coach
+|qualifier=[[GPL/2018/Spring|GPL Spring]]
+}}
+{{TeamCard
+|team=Dire Wolves
+|p1=Chippys
+|p2=Shernfire
+|p3=Triple
+|p4=k1ng
+|p5=Cupcake 
+
+|t2p1=Getback |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Sharp |t3p1flag=au |t3p1link=Sharp (Australian player) |t3pos1=Head Coach
+|qualifier=[[OPL/2018/Split_1|OPL Split 1]]
+
+|placement=10-11
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2017)'''
+}}
+{{TeamCard
+|team=EVOS Esports
+|p1=Stark |p1link=Stark (Vietnamese player)
+|p2=YiJin
+|p3=Warzone
+|p4=Slay
+|p5=RonOP
+
+|t2p1=Beyond |t2p1link=Beyond (Vietnamese player) |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Violet |t3p1flag=vn |t3pos1=Head Coach
+|qualifier=[[VCS/2018/Spring|VCS Spring]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=Hanabi 
+|p2=Moojin
+|p3=Maple |p3link=Maple (Taiwanese player)
+|p4=Betty
+|p5=SwordArt
+
+|t2p1=Morning |t2pos1=jng |t2p1dnp=true
+
+|t3p1=WarHorse |t3p1flag=tw |t3pos1=Head Coach
+|qualifier=[[LMS/2018/Spring|LMS Spring]]
+
+|placement=3-4
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2017)'''
+}}
+{{TeamCard
+|team=Gambit Esports
+|p1=PvPStejos
+|p2=Diamondprox
+|p3=Kira
+|p4=Lodik
+|p5=Edward
+
+|t2p1=Seigimitsu |t2pos1=jng |t2p1dnp=true
+
+|t3p1=ATRemains |t3p1flag=la |t3pos1=Head Coach
+|qualifier=[[LCL/2018/Spring|LCL Spring]]
+}}
+{{TeamCard
+|team=KaBuM! e-Sports
+|p1=Zantins 
+|p2=Ranger 
+|p3=dyNquedo 
+|p4=Titan
+|p5=Riyev
+
+|t2p1=Atlanta |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Nuddle |t3p1flag=ca |t3pos1=Head Coach
+|qualifier=[[CBLOL/2018/Summer|CBLOL Summer]]
+}}
+{{TeamCard
+|team=Kaos Latin Gamers
+|p1=Nate
+|p2=Tierwulf
+|p3=Plugo
+|p4=Fix
+|p5=Slow
+
+|t2p1=Zealot |t2pos1=adc |t2p1dnp=true
+
+|t3p1=Pierre |t3p1flag=ar |t3pos1=Head Coach
+|qualifier=[[CLS/2018/Opening|CLS Opening]]
+}}
+{{TeamCard
+|team=PENTAGRAM
+|p1=Paz
+|p2=Once
+|p3=Ramune
+|p4=YutoriMoyasi
+|p5=Gaeng
+
+|t2p1=hAFu |t2p1flag=jp |t2pos1=mid |t2p1dnp=true
+
+|t3p1=34 |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[LJL/2018/Spring|LJL Spring]]
+
+|placement=12-13
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2017|date=2017-05-21}} '''(2017)'''
+}}
+{{TeamCard
+|team=Rainbow7
+|p1=Jirall 
+|p2=Oddie 
+|p3=Seiya
+|p4=WhiteLotus
+|p5=Genthix
+
+|t2p1=Manu |t2pos1=adc |t2p1dnp=true
+
+|t3p1=Yeti |t3p1flag=me |t3pos1=Head Coach
+|qualifier=[[LLN/2018/Opening|LLN Opening]]
+}}
+{{TeamCard
+|team=SuperMassive eSports
+|p1=fabFabulous
+|p2=Stomaged
+|p3=GBM
+|p4=Zeitnot
+|p5=SnowFlower
+
+|t2p1=Secaf Reis |t2pos1=jng |t2p1dnp=true
+
+|t3p1=Irean |t3p1flag=kr |t3pos1=Head Coach
+|qualifier=[[TCL/2018/Winter|TCL Winter]]
+
+|placement=6
+|placementicon={{LeagueIconSmall/msi|Mid-Season_Invitational/2016|date=2016-05-15}} '''(2016)'''
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Play-In Group Stage===
+{{box|start}}
+{{box|start|padding=2em}}
+{{#section:Mid-Season_Invitational/2018/Play-In|Play-In_Group_A}}
+<br/>
+{{box|break|padding=2em}}
+{{#section:Mid-Season_Invitational/2018/Play-In|Play-In_Group_B}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Mid-Season_Invitational/2018/Play-In|Click here for more information about the '''''Play-In Group Stage''''' matches.]]''</span>
+
+===Play-In Knockout===
+{{ShowBracket|id=ZB3PA8OP9Q}}
+
+===Group Stage===
+{{#lst:Mid_Season_Invitational/2018/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[Mid Season Invitational/2018/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Knockout Stage===
+{{ShowBracket|id=TBQIKOLXBA}}
+
+==Additional Data==
+
+
+===Statistics===
+{{#lst:Mid-Season Invitational/2018/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==References==
+{{Reflist}}

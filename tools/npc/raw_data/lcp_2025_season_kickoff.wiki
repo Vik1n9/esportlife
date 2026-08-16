@@ -1,0 +1,324 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCP%2F2025%2FSeason%20Kickoff&redirects=1
+<!-- 抓取: 2026-08-16T14:22:55.539Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCP 2025 Season Kickoff}}
+{{LoL_Championship_Pacific_Navbox}}
+{{Tabs LCP 2025}}
+{{Tabs static
+|name1=Overview
+|link1=LCP/2025/Season Kickoff
+|name2=Regular Season
+|link2=LCP/2025/Season Kickoff/Regular_Season
+|name3=Playoffs
+|link3=LCP/2025/Season Kickoff/Playoffs
+|name4=Champion Stats
+|link4=LCP/2025/Season Kickoff/Statistics
+|name5=Player Stats
+|link5=LCP/2025/Season Kickoff/Player Stats
+}}
+{{Infobox league
+|name=LCP 2025 Season Kickoff
+|shortname=2025 Season Kickoff
+|tickername=LCP 2025 Season Kickoff
+|image=League of Legends Championship Pacific allmode.png
+|icon=League of Legends Championship Pacific icon allmode.png
+|series=LoL Championship Pacific
+|organizer=Riot Games
+|sponsor=
+|patch=25.S1.1
+|epatch=25.S1.3
+|type=Offline
+|country=Taiwan
+|city=Taipei
+|venue=
+|format='''Regular Season:'''<br>Single Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepoolusd=80,000
+|sdate=2025-01-17
+|edate=2025-02-23
+|liquipediatier=1
+|website=https://lolesports.com/tournament/113476402439116806
+|rulebook=https://cdn.sanity.io/files/dsfx7636/news/c6869119c40ab103a8ff26ef7bae10e02ec51ae8.pdf
+|rulebook2=https://cdn.sanity.io/files/dsfx7636/news/b91911cdc191846ff1a2f5e44c878f894f959492.pdf
+|facebook=LoLPacificEN
+|instagram=LoLPacificEN
+|twitter=LoLPacificEN
+|twitch=lolpacificen
+|youtube=@lolpacificen
+|team_number=8
+|previous=
+|next=LCP/2025/Mid Season{{!}}Mid Season 2025
+}}
+
+
+'''League of Legends Championship Pacific 2025 Season Kickoff''' is the first Pacific League of Legends split under the LCP banner, with eight Pacific teams compete for the LCP title.
+
+==Format==
+* '''Regular Season'''
+**Single Round Robin
+**Each team plays 7 matches
+**All matches are {{Abbr/Bo3}}
+**Top 6 teams advance to the playoffs
+* '''Playoffs'''
+** All matches before Bracket Finals are {{Abbr/Bo3}} 
+** All remaining matches are {{Abbr/Bo5}} 
+** Champion qualifies for [[First Stand Tournament/2025|First Stand]]
+* All matches are played under {{Abbr|Fearless Draft|No champion can be played more than once during the entire series.}} rules
+
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=10
+|qualifies1=First_Stand_Tournament/2025 |qualifies1name=FST
+|tournament1=LCP/2025/Season_Kickoff/Regular_Season
+|tournament2=LCP/2025/Season_Kickoff/Playoffs
+|groupElimStatuses=stay
+|{{Slot|qualified1=yes|usdprize=26400}}
+|{{Slot|usdprize=16000}}
+|{{Slot|usdprize=11200}}
+|{{Slot|usdprize=8000}}
+|{{Slot|count=2|usdprize=5600}}
+|{{Slot|usdprize=4000}}
+|{{Slot|usdprize=3200}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5
+|title=Regular Season MVP
+|tournament=LCP/2025/Season_Kickoff/Regular_Season
+}}
+{{box|break|padding=2em}}
+{{MVPTable|cutafter=5
+|title=Playoffs MVP
+|tournament=LCP/2025/Season_Kickoff/Playoffs
+}}
+{{box|end}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=185}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CTBC Flying Oyster
+|p1=Rest
+|p2=JunJia
+|p3=HongQ
+|p4=Doggo
+|p5=Kaiwing
+
+|t2p1=Driver |t2pos1=top
+|t2p2= |t2pos2=
+|t2p3= |t2pos3=
+
+|t3p1=Chawy |t3pos1=head coach
+|t3p2=Wulala |t3pos2=coach
+|qualifier=Partner
+}}
+{{TeamCard
+|team=Fukuoka SoftBank HAWKS
+|p1=Evi
+|p2=Courage
+|p3=FATE|p3link=FATE_(Korean_player)
+|p4=Marble
+|p5=Gaeng
+|s1=YellowYoshi|s1pos=top|s1dnp=true
+|t3p1=moment |t3pos1= coach
+|t3p2=Gamin |t3pos2= coach
+|t3title=Staff
+|qualifier=Partner
+}}
+{{TeamCard
+|team=GAM Esports
+|p1=Kiaya
+|p2=Levi
+|p3=Emo
+|p4=EasyLove
+|p5=Elio
+
+|t2p1=Aress |t2pos1=mid
+|t2p2=Artemis |t2pos2=adc
+
+|t3p1=Archie|t3pos1=head coach|t3p1link=Archie_(Vietnamese_player)
+|t3p2=Hype|t3pos2=analyst|t3p2link=Hype (Vietnamese player)|t3p3flag=vn
+|qualifier=Partner
+}}
+{{TeamCard
+|team=TALON 
+|p1=Azhi
+|p2=Karsa
+|p3=FoFo
+|p4=Betty
+|p5=Woody
+
+|t2p1=CorGi |t2pos1=head coach
+|t2p2=Hua |t2pos2=coach
+|t2p3= |t2pos3=
+|t2title=Staff
+|qualifier=Partner
+}}
+{{TeamCard
+|team=Chiefs Esports Club
+|p1=BioPanther
+|p2=Mir
+|p3=JimieN
+|p4=Leemas 
+|p5=Luon
+
+|t2p1=Poltron |t2pos1=head coach
+|t2p2=Jellal |t2pos2=assistant coach
+|t2title=Staff
+|qualifier=Guest Slot
+}}
+{{TeamCard
+|team=DetonatioN FocusMe
+|p1=RayFarky
+|p2=Guwon
+|p3=Aria
+|p4=Kakkun
+|p5=Harp
+
+|t2p1=Milan |t2pos1=bot
+
+|t3p1=Ares |t3pos1= coach
+|t3p2=Paz |t3pos2=coach
+|t3p3=Gismo |t3pos3=analyst
+|t3title=Staff
+|qualifier=Guest Slot
+|inotes={{NoteBig
+|n1=February 6th - '''DetonatioN FocusMe''' announces that {{player|Milan|flag=jp}} is temporarily suspending his player activities due to a worsening hernia.<ref>{{cite web|url=https://x.com/team_detonation/status/1887426062357045324|title=部門情報｜LoL部門 Milan選手 活動一時休止のお知らせ|trans_title=LoL Division | Milan Players Notice of Temporary Suspension of Activities|author='''[[DetonatioN FocusMe]]'''|date=2025-02-06|language={{flag|jp}} Japanese}}</ref>
+}}
+}}
+{{TeamCard
+|team=Secret Whales
+|p1=Hiro02
+|p2=Hizto
+|p3=Dire
+|p4=Eddie
+|p5=Taki |p5link=Taki (Vietnamese player)
+
+|t2p1=Steller |t2pos1=top
+|t2p2=Jcom |t2pos2=jg |t2p2dnp=true
+
+|t3p1=Naul |t3pos1=head coach
+|t3p2=Ciel |t3p2link=Ciel (Vietnamese player) |t3pos2=coach
+|qualifier=Guest Slot
+}}
+{{TeamCard
+|team=Vikings Esports
+|p1=Kratos
+|p2=Gury
+|p3=Kati
+|p4=Shogun|p4link=Shogun (Vietnamese player)
+|p5=SwordArt
+
+|t2p1=SanSan |t2pos1=jg
+|t2p2=Chika |t2pos2=mid
+|t2p3=Sty1e |t2pos3=bot
+|t2p4=SiuLoong |t2pos4=sup
+
+|t3p1=SofM|t3pos1=head coach
+|t3p2=Hankay|t3pos2=coach
+|qualifier=Guest Slot
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Regular Season===
+{{LPDB storage|false}}
+{{#lst:LCP/2025/Split 1/Regular_Season|Regular Season}}
+{{LPDB storage|true}}
+<span style="line-height:24px">&nbsp;''[[LCP/2025/Split 1/Regular_Season|Click here for detailed results of the '''Regular Season''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LCP25S1POB}}
+
+==Broadcasts==
+===Streams===
+{{Streams 
+|lang1=usuk |twitch1=lolpacificen |youtube1=@lolpacificen
+|lang2=vn |youtube2=@lolesports_vn |tiktok2=@lolesports_vn/live
+|lang3=jp |twitch3=riotgamesjp |youtube3=@lolesportsjp
+|lang4=tw |twitch4=lolesportstw |youtube4=@lolesportstw
+}}
+
+===Talent===
+{{Tabs dynamic
+|name1=Vietnamese Broadcast
+|name2=English Broadcasts
+|name3=TWM Broadcasts
+|name4=Japanese Broadcasts
+|This=1
+}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard 
+|position=MC
+|b1=Minh Nghi 
+}}
+{{BroadcasterCard
+|position=Vietnamese Commentator |lang=Vietnamese
+|b1=Hoàng Luân 
+|b2=Văn Tùng
+|b3=Đức Mạnh
+|b4=Đức Lợi
+|b5=Hữu Trung
+|b6=Tùng Lâm 
+|b7=Khải Nguyễn
+|b8=Ngọc Thiên
+|b9=Hải Dương
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard
+|position=English Commentator |lang=English
+|b1=Vestion|b1name=Ben Meek|b1flag=nz
+|b2=Tally
+|b3=Bluepanda|b3name=Billy Brereton|b3flag=nz
+|b4=
+|b5=
+|b6=
+|b7= 
+}}
+{{Tabs dynamic/tab|3}}
+{{BroadcasterCard
+|position=TWM Commentator |lang=Chinese
+|b1=
+}}
+{{Tabs dynamic/tab|4}}
+{{BroadcasterCard
+|position=Japanese Commentator |lang=Japanese
+|b1=Nemoh|b1flag=jp
+|b2=Recruit|b2flag=jp
+|b3=Revol|b3flag=jp
+|b4=Jaeger|b4flag=jp|b4link=Jaeger (Japanese caster)
+|b5=katsudion|b5flag=jp
+|b6=syouryu|b6flag=jp
+}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1 & Week 2 Day 1
+! width="90"| Week 2 Day 2 & 3
+! width="90"| Week 3
+! width="140"| Playoffs
+|-
+! Patch
+| [[Patch 25.S1.1|25.S1.1]]
+| colspan="2" | [[Patch 25.S1.2|25.S1.2]]
+| [[Patch 25.S1.3|25.S1.3]]
+|-
+! Disabled
+|
+| colspan="2" | {{ChampionIcon|mel}}
+|
+|}
+
+===Statistics===
+{{#lst:LCP/2025/Split 1/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional Content==
+
+==References==
+{{Reflist}}
+
+{{2025 Season International Cycle Navbox}}

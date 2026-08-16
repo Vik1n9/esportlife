@@ -1,0 +1,289 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2012&redirects=1
+<!-- 抓取: 2026-08-16T14:22:07.344Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Season 2 World Championship}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World_Championship/2012
+|name2=Circuit Points
+|link2=World_Championship/2012/Circuit_Points
+|name3=Regional Finals
+|link3=World_Championship/2012/Regional_Finals
+|name4=Group Stage
+|link4=World_Championship/2012/Group_Stage
+|name5=Playoffs
+|link5=World_Championship/2012/Playoffs
+|name6=Statistics
+|link6=World_Championship/2012/Statistics
+|name7=Player Stats
+|link7=World_Championship/2012/Player_Stats
+|This=1
+}}
+{{Infobox league
+|name=Season 2 World Championship
+|image=LoLS2.jpg
+|series=World Championships
+|icon=Lolworldslogo_small.png
+|shortname=Worlds 2012
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=1.0.0.147
+|sponsor=[http://alienware.com/ Alienware]
+|sponsor2=[https://www.logitechg.com/ Logitch G]
+|server=
+|type=offline
+|country=United States
+|city=Los Angeles
+|venue=Galen Center
+|format=Group Stage <br> Single Elimination
+|prizepoolusd=2,000,000
+|date=
+|sdate=2012-10-04
+|edate=2012-10-13
+|liquipediatier=1
+|highlighted=true
+|web=
+|stream=
+|twitch=
+|team_number=12
+|previous=World_Championship/2011{{!}}Season 1
+|next=World_Championship/2013{{!}}Season 3
+}}
+
+==Format==
+*'''Qualifiers''' - ''July 26th - September 21st, 2012''
+**Six Regional Qualifiers
+***The winners of each Qualifier will advance to the World Championship.
+***The runners-up of the China, Europe, and North America Qualifiers will advance to the World Championship.
+***The third place team of the Europe and North America Qualifiers will advance to the World Championship.
+*'''Group Stage''' - ''October 4th, 2012''
+**Eight teams are divided into two groups where they play in a Round Robin format.
+***All matches are played in a {{Abbr/Bo1}}.
+***The top two teams in each group advance to the Quarterfinals of the Playoffs.
+***The remaining teams are eliminated.
+*'''Playoffs''' - ''October 5th - October 13th, 2012''
+**Eight teams play in a single-elimination format over 4 days.
+***Four teams from Group Stage are matched against four teams with direct entry from China, North America, TW/HK/MO, and Europe.
+***Four teams from the Group Stage join four teams in the Quarterfinals.
+***Finals are {{Abbr/Bo5}}, all other rounds are {{Abbr/Bo3}}.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=djWHEAT|b1name=Marcus Graham |b1flag=us
+|b2=Seltzer|b2name=Rachel Quirico|b2flag=us|b2link=rainbowsix:Seltzer
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Deman|b1name=Leigh Smith|b1flag=uk
+|b2=Phreak|b2name=David Turley|b2flag=us
+|b3=Jatt|b3name=Joshua Leesman|b3flag=ca
+|b4=Rivington Bisland III|b4name=|b4flag=us
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Casters
+|b1=Caster Jun|b1name=Jeon Yong-jun
+}}
+{{BroadcasterCard
+|position=Korean Commentators
+|b1=Kim Dong-joon|b1flag=kr
+|b2=Nal_rA|b2link=starcraft:Nal_rA|b2name=Kang Min |b2flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8
+|tournament1=World Championship/2012/Group Stage
+|tournament2=World Championship/2012/Playoffs
+|{{Slot |place=1 |usdprize=1,000,000}}
+|{{Slot |place=2 |usdprize=250,000}}
+|{{Slot |place=3-4 |usdprize=150,000}}
+|{{Slot |place=5-8 |usdprize=75,000}}
+|{{Slot |place=9-10 |usdprize=50,000}}
+|{{Slot |place=11-12 |usdprize=25,000}}
+}}
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+
+===Playoffs Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Moscow Five
+|p1=Darien |p1flag=ru
+|p2=Diamondprox |p2flag=ru
+|p3=Alex Ich |p3flag=ru
+|p4=Genja |p4flag=ru
+|p5=GoSu Pepper |p5flag=am
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/Europe|EU Regional Finals]]
+}}
+{{TeamCard
+|team=Taipei Assassins
+|image=Taipei Assassins Logo.png
+|p1=Stanley |p1flag=tw
+|p2=Lilballz |p2flag=tw
+|p3=Toyz |p3flag=hk
+|p4=BeBe |p4flag=tw
+|p5=MiSTakE |p5flag=tw
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/Taiwan|Taiwan Regional Finals]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Dyrus |p1flag=us
+|p2=TheOddOne |p2flag=ca
+|p3=Reginald |p3flag=us
+|p4=Chaox |p4flag=ca
+|p5=Xpecial |p5flag=us
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/North_America|NA Regional Finals]]
+|placement=3
+|placementicon={{LeagueIconSmall/worlds|World Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=Team WE
+|p1=CaoMei |p1flag=cn
+|p2=ClearLove |p2flag=cn
+|p3=Misaya |p3flag=cn
+|p4=Weixiao |p4flag=cn
+|p5=FZZF|p5flag=cn
+|c=
+|qualifier=[[World Championship/2012/Circuit Points/China|China Circuit Points]]
+}}
+{{TeamCard columns end}}
+
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=SK Gaming
+|p1=Kev1n |p1flag=de
+|p2=Araneae |p2flag=es
+|p3=ocelote |p3flag=es
+|p4=YellOwStaR |p4flag=fr
+|p5=Nyph |p5flag=de
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/Europe|EU Regional Finals]]
+}}
+{{TeamCard
+|team=Counter Logic Gaming EU
+|image=CLG EU Logo.png
+|p1=Wickd |p1flag=dk
+|p2=Snoopeh |p2flag=uk
+|p3=Froggen |p3flag=dk
+|p4=yellowpete |p4flag=de
+|p5=Krepo |p5flag=be
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/Europe|EU Regional Finals]]
+}}
+{{TeamCard
+|team=Team Dignitas
+|p1=Crumbzz |p1flag=ve
+|p2=IWillDominate |p2flag=us
+|p3=scarra |p3flag=us
+|p4=imaqtpie |p4flag=us
+|p5=Patoy |p5flag=us
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/North_America|NA Regional Finals]]
+}}
+{{TeamCard
+|team=Counter Logic Gaming
+|p1=Voyboy |p1flag=us
+|p2=HotshotGG |p2flag=ca
+|p3=Bigfatlp |p3flag=ca
+|p4=Doublelift |p4flag=us
+|p5=Chauster |p5flag=us
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/North_America|NA Regional Finals]]
+|placement=5
+|placementicon={{LeagueIconSmall/worlds|World Championship/2011}} '''(2011)'''
+}}
+{{TeamCard
+|team=Azubu Frost
+|image=Azubu_Frost_Logo.png
+|p1=Shy |p1flag=kr
+|p2=CloudTemplar |p2flag=kr
+|p3=RapidStar |p3flag=kr
+|p4=Woong |p4link=Woong (Jang Gun-woong)
+|p5=MadLife |p5flag=kr
+|c=
+|qualifier=[[World_Championship/2012/Circuit_Points/South_Korea|Korea Circuit Points]]
+}}
+{{TeamCard
+|team=NaJin Sword
+|image=Najinswordlogo.png
+|p1=MaKNooN |p1flag=kr
+|p2=Watch |p2flag=kr
+|p3=SSONG |p3flag=kr
+|p4=PraY |p4flag=kr
+|p5=Cain |p5flag=kr
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/South_Korea|Korea Regional Finals]]
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=PDD |p1flag=cn
+|p2=illuSioN |p2flag=cn
+|p3=Zz1tai |p3flag=cn
+|p4=Kid |p4flag=cn
+|p5=XiaoXiao |p5flag=cn
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/China|China Regional Finals]]
+}}
+{{TeamCard
+|team=Saigon Jokers
+|image=OLD SAJ Logo.png
+|p1=QTV |p1flag=vn
+|p2=Violet |p2link=Violet (Vietnamese player)
+|p3=NIXWATER |p3flag=vn
+|p4=Archie |p4flag=vn|p4link=Archie (Vietnamese player)
+|p5=Junie |p5flag=vn
+|c=
+|qualifier=[[World Championship/2012/Regional Finals/Southeast_Asia|SEA Regional Finals]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=2em}}
+{{#section:World Championship/2012/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=2em}} 
+{{#section:World Championship/2012/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2012/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=YC9EPC9939}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:World Championship/2012/Statistics|Champion Stats}}
+===Player Statistics Leaders===
+{{TournamentStatsLeader
+|tournament1=World_Championship/2012/Group_Stage
+|tournament2=World_Championship/2012/Playoffs
+|statspage={{FULLPAGENAME}}/Player Stats
+}}
+
+===Country Representation===
+{{Country representation}}
+
+==References==

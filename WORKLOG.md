@@ -1,5 +1,45 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-16 — S24a 探勘與管線：Liquipedia 主源實測過關，單頁就完成「賽事→隊→隊員」
+- **方向**：S24 拆站後第一站。兩件事：探勘（23.7 要求的實測覆蓋表＋國際枚舉路徑
+  驗證，回答「Liquipedia 主源可不可行」）＋管線（`crawl.mjs` 基建，讓 S24b–d 只做
+  「加枚舉器＋跑抓取＋驗證」）。23.1 第 3 條「GPL 早期覆蓋需先探勘驗證」是本站
+  存在的理由——不探勘就動工，稀薄處會到 S25 清洗時才爆。
+- **探勘實測**（Liquipedia API，全走 API 合規）：
+  - 逐年覆蓋：GPL 2012 只有 `Season 1`／`Opening Event` 兩頁但**結構完整**（六隊
+    名單＋名次＋獎金）；2013–2014 各年 Spring／Summer（另有 Championship／Winter）；
+    LMS 2015–2019 全；**2019 無 PCS**（LMS 末代）；PCS 2020–2024 全；LCP 2025 三段
+    （Season Kickoff／Mid Season／Season Finals）。預估最薄處（2012–2013）實測
+    **比預期好**——缺的是次要內容（轉播名單、統計頁，`{{Want_to_Help}}` 標記），
+    名單與名次都在。
+  - 國際路徑：Worlds 2012／2017、MSI 2018 實抓——`{{TeamCard}}` 模板把參賽隊＋
+    五位置隊員＋flag＋消歧義 link＋替補＋教練＋qualifier 全內嵌在賽事頁，
+    **「賽事→隊→隊員」單頁可達**，S24c 不必逐隊頁展開。
+  - 隊頁更名：Infobox **無** predecessors 欄位——前身線索在 History 散文
+    （FW「founded as yoe IRONMEN」、G-Rex／Machi「接手席位」）＋子隊 tab；
+    `FormerSquadAuto` 帶真實姓名 `name=`（清洗忽略）。
+  - 分類枚舉：TW 選手 143、HK 54、Macau 4、TW 隊 42、PCS 13、LCP 9。
+  - ⚠ **名次欄不可靠**：TeamCard `placement=` 手寫缺漏（2017 TSM 標錯），可靠來源
+    是 PrizePool Slot＋Playoffs 子頁——交接筆記已警告 S24c／S25。
+  - **備援零動用**（23.7 三觸發條件樣本內無一成立），Leaguepedia 備援腳本沒建。
+- **crawl.mjs**（`tools/npc/`，零相依 Node 18+）：gzip（內建 fetch 自動）＋固定
+  識別 UA（政策禁輪替）＋2–5s 隨機延遲＋429／5xx 退避（尊重 Retry-After）；子命令
+  `enum-cat`（分類枚舉）／`check`（50 頁題/req 批次存在性）／`crawl`（抓取冪等＋
+  中斷續傳，已抓跳過）／`probe`／`search`。raw 落 `raw_data/<slug>.wiki` 整頁
+  Wikitext 零解析，檔頭 CC BY-SA 註記；manifest.jsonl 記成功（續傳依據）。
+  實測：13 頁 1 分鐘內抓完，重跑全跳過。
+- **踩過的坑**：UA 標頭含中文會炸 fetch（ByteString 錯誤）——標頭限 ASCII，
+  UA 改全英文。頁題首字母大小寫敏感（`Ahq` 才對）、消歧義 link 空格／底線混用、
+  賽事頁題名跨年格式不一（`LMS/Summer/2017` vs `LMS/2018/Spring`）——全記進
+  README 與交接筆記。
+- **實測結論**：`npm test` 19928 項全綠（純工具站，程式與測試未動）；探勘抽樣 13
+  頁已落 raw_data/（S24b／S24d 全量時自動跳過）；00b 快照測試項數 19919→19928
+  順手刷（S23 交接留的）。
+- **未一起處理**：覆蓋表「內容品質」只驗樣本頁（全量由 S24b／d 核）；隊頁散文
+  更名 parse 規則留 S25；Leaguepedia 備援腳本沒建（無缺口）。
+- **狀態**：完成。`next-station.mjs` 回報 **S24b** 為下一站（41／56）。SAVE_VERSION
+  未動（沒碰存檔結構）。
+
 ## 2026-08-16 — S24 拆四站：切割點是工作性質，不是執行時間（工作細則，不升版號）
 - **方向**：S24 資料目錄與爬取原為一站，範圍過載——探勘（決定可行性）＋管線＋
   台港澳全量＋國際全量全塞一站，國際抓取 4–10 小時單 session 做不完。一站硬塞違反

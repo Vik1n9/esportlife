@@ -1,0 +1,754 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=World%20Championship%2F2017&redirects=1
+<!-- 抓取: 2026-08-16T14:22:10.722Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:2017 World Championship}}
+{{World Championship}}<br>
+{{Tabs static
+|name1=Overview
+|link1=World_Championship/2017
+|name2=Qualification
+|link2=World_Championship/2017/Qualification
+|name3=Championship Points
+|link3=World_Championship/2017/Championship_Points
+|name4=Regional Finals
+|link4=World_Championship/2017/Regional_Finals
+|name5=Play-In
+|link5=World_Championship/2017/Play-In
+|name6=Group Stage
+|link6=World_Championship/2017/Group_Stage
+|name7=Playoffs
+|link7=World_Championship/2017/Playoffs
+|name8=Statistics
+|link8=World_Championship/2017/Statistics
+|name9=Additional Content
+|link9=World_Championship/2017/Additional_Content
+|This=1}}
+{{Infobox league
+|name=2017 World Championship
+|shortname=Worlds 2017
+|image=Lol worlds 2017 logo.png
+|series=World Championships
+|icon=Worlds crest.png
+|organizer=Riot Games |organizer-link=http://www.riotgames.com/
+|organizer2=
+|patch=7.18
+|sponsor=[https://www.t-mobile.com/ T-Mobile]
+|sponsor2=[https://www.acer.com/predator Acer Predator]
+|server=
+|type=offline
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|city=Wuhan
+|city2=Guangzhou
+|city3=Shanghai
+|city4=Beijing
+|venue=Wuhan Gymnasium
+|venue2=Guangzhou Gymnasium
+|venue3=Shanghai Oriental Sports Center
+|venue4=National Stadium (Bird's Nest)
+|format=
+|prizepoolusd=4,946,970
+|date=
+|sdate=2017-09-23
+|edate=2017-11-04
+|liquipediatier=1
+|highlighted=true
+|website=http://www.lolesports.com/en_US
+|rulebook=https://esports-assets.s3.amazonaws.com/production/files/rules/2017-World-Championship-Rules-v-17-3.pdf
+|stream=
+|twitch=riotgames
+|team_number=24
+|previous=World_Championship/2016{{!}}2016
+|next=World_Championship/2018{{!}}2018
+}}
+
+==Format==
+* '''Qualifiers''' - ''August 26th - September 10th, 2017''
+** Five Regional Finals
+*** The winner of the Korea Regional Final will advance to the Group Stage.
+*** The winners of the China, Europe, TW/HK/MO, and North America Regional Finals will advance to the Play-In Stage.
+* '''Play-In Stage 1''' - ''September 23rd - September 26th, 2017 in {{Flag|cn}} Wuhan''
+** Twelve teams are divided into four groups where they play a Double Round Robin format.
+*** All Matches are played in a {{Abbr/Bo1}}.
+*** The top two teams in each group advance to Play-in Stage 2.
+*** The remaining teams are eliminated.
+* '''Play-In Stage 2''' - ''September 28th - September 29th, 2017 in {{Flag|cn}} Wuhan''
+** Eight teams from Play-In Stage 1 are randomly paired for a {{Abbr/Bo5}}.
+*** The winner of each match advances to the Group Stage.
+*** The loser of each match is eliminated.
+* '''Group Stage''' - ''October 5th - October 15th, 2017 in {{Flag|cn}} Wuhan''
+** Four teams from Play-In Stage 2 join twelve teams with direct entry from Korea, China, Europe, TW/HK/MO, North America, and Southeast Asia.
+** All sixteen teams are divided into four groups where they play a Double Round Robin format.
+*** All Matches are played in a {{Abbr/Bo1}}.
+*** The {{Bgcolortext|up|top two teams}} in each group advance to the Knockout Stage.
+*** The {{Bgcolortext|down|remaining teams}} are eliminated.
+* '''Knockout Stage''' - ''October 19th - November 4th, 2017 in {{Flag|cn}} Guangzhou, {{Flag|cn}} Shanghai, and {{Flag|cn}} Beijing''
+** Eight teams play-in a single elimination bracket over seven days.
+*** All matches are {{Abbr/Bo5}}.
+
+==Broadcast Talent==
+{{Tabs dynamic
+|name1=English Broadcast
+|name2=Asian Broadcast
+|This=1
+}}
+{{tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=en
+|position=Host
+|b1=Sjokz|b1name=Eefje Depoortere|b1flag=be
+|b2=Dash|b2name=James Patterson|b2flag=us
+|b3=Drakos|b3name=Daniel Drakos|b3flag=us
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Medic|b1name=Aaron Chamberlain|b1flag=uk
+|b2=CaptainFlowers |b2name=Clayton Raines|b2flag=ca
+|b3=Riv|b3name=Rivington Bisland III|b3flag=us
+|b4=Phreak|b4name=David Turley|b4flag=us
+|b5=PiraTechnics|b5name=Devin Younge|b5flag=us
+|b6=Pastrytime|b6name=Julian Carr|b6flag=au
+|b7=Fish|b7name=Matthew Stewart|b7flag=sg
+|b8=Atlus|b8name=Max Anderson|b8flag=au
+|b9=Quickshot|b9name=Trevor Henry|b9flag=za
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Crumbz|b1name=Alberto Rengifo|b1flag=ve
+|b2=Zirene|b2name=Aiden Moon|b2flag=us
+|b3=Vedius|b3name=Andrew Day|b3flag=uk
+|b4=PapaSmithy|b4name=Chris Smith|b4flag=au
+|b5=Froskurinn|b5name=Indiana Black|b5flag=us
+|b6=Azael|b6name=Isaac Cummings Bentley|b6flag=ca
+|b7=Jatt|b7name=Joshua Leesman|b7flag=ca
+|b8=Deficio|b8name=Martin Lynge|b8flag=dk
+|b9=Kobe|b9name=Sam Hartman-Kenzler|b9flag=us
+|b10=Rusty|b10name=Zack Pye|b10flag=au
+}}
+{{box|end}}
+{{tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard|lang=kr
+|position=Korean Caster
+|b1=Caster Jun|b1name=Jeon Yong-jun
+|b2=SEONG K
+|b3=Dankun|b3flag=kr
+|b4=Lee Ki-min|b4flag=kr
+}}
+{{BroadcasterCard|lang=kr
+|position=Korean Commentator
+|b1=CloudTemplar
+|b2=Kim Dong-joon |b2flag=kr
+|b3=KangQui
+|b4=Bitdory |b4name=Ha Gwang-seok |b4flag=kr
+|b5=Helios |b5link=Helios (Korean player)
+|b6=Canata |b6name=Ko In-kyu|b6flag=kr|b6link=starcraft:Canata
+}}
+{{BroadcasterCard
+|position=Korean Translator
+|b1=Park Jee-sun |b1flag=kr
+|b2=Andy Chae |b2name=Chae Dong-hee |b2flag=kr
+}}
+{{box|end}}
+{{Tabs dynamic/end}}
+
+==Prize Pool==
+The initial prize pool of the tournament was $2,250,000 {{abbr/USD}}.<br />
+An additional 25% of all Championship Ashe & Championship Ward skins are added to the total prize pool. <br />
+The total prize pool is $4,946,970 {{Abbr/USD}} ($2,696,970 {{abbr/USD}} added).<ref>{{cite web|url=http://www.lolesports.com/en_US/articles/update-fan-contribution-worlds-2017-prize-pool-0 |title=Update: Fan Contribution to Worlds 2017 Prize Pool |author=[[Riot Games]]|date=2017-11-03 |accessdate=2017-11-03}}</ref>
+<ref>{{cite web|url=http://www.lolesports.com/en_US/articles/update-fan-contribution-worlds-2017-prize-poolol |title=Update: Fan Contribution to Worlds 2017 Prize Pool |author=[[Riot Games]]|date=2017-10-18 |accessdate=2017-10-18}}</ref><ref>{{cite web|url=http://www.lolesports.com/en_US/articles/2017-events-by-the-numbers|archiveurl=https://web.archive.org/web/20171223022952/http://www.lolesports.com/en_US/articles/2017-events-by-the-numbers |title=2017 Events by the Numbers |author=[[Riot Games]] |archivedate=2017-12-23}}</ref>
+
+{{TeamPrizePool|prizesummary=no|cutafter=8|percentage1=1
+|tournament1=World Championship/2017/Playoffs
+|{{Slot|percentage1=37.5%}}
+|{{Slot|percentage1=13.5%}}
+|{{Slot|place=3-4 |percentage1=7%}}
+|{{Slot|place=5-8 |percentage1=4%}}
+|{{Slot|place=9-11 |percentage1=2.25%
+|{{Opponent|gam |wdl=2/4 |date=2017-10-12}}
+|{{Opponent|g2 |wdl=3/3 |date=2017-10-13}}
+|{{Opponent|tsm |wdl=3/3 |date=2017-10-14}}
+}}
+|{{Slot|place=12-13 |percentage1=1.75%
+|{{Opponent|ahq |wdl=2/4 |date=2017-10-15}}
+|{{Opponent|edg |wdl=2/4 |date=2017-10-15}}
+}}
+|{{Slot|place=14-16 |percentage1=1.25%
+|{{Opponent|imt |wdl=2/4 |date=2017-10-12}}
+|{{Opponent|fb |wdl=0/6 |date=2017-10-13}}
+|{{Opponent|fw |wdl=1/5 |date=2017-10-14}}
+}}
+|{{Slot|place=17-20 |percentage1=0.75%
+|{{Opponent|lyn |lastvs=c9 |lastvsscore=0-3 |date=2017-09-28}}
+|{{Opponent|hka |lastvs=fnc |lastvsscore=0-3 |date=2017-09-28}}
+|{{Opponent|one |lastvs=fb |lastvsscore=1-3 |date=2017-09-29}}
+|{{Opponent|yg |lastvs=we |lastvsscore=0-3 |date=2017-09-29}}
+}}
+|{{Slot|place=21-24 |percentage1=0.5%
+|{{Opponent|gmb |wdl=0/4 |date=2017-09-24}}
+|{{Opponent|dw |wdl=1/3 |date=2017-09-24}}
+|{{Opponent|klg |wdl=1/3 |date=2017-09-26}}
+|{{Opponent|rpg |wdl=0/4 |date=2017-09-26}}
+}}
+|adjacentContent=
+{{AwardPrizePool|noprize=true
+|{{Slot|award=Finals MVP |{{Opponent|Ruler |flag=kr |team=ssg }}}}
+}}
+}}
+:<nowiki>*</nowiki> <small>[[ahq e-Sports Club]] and [[EDward Gaming]] tied for 3rd place in Group A.</small>
+
+==Participating Teams==
+{{TeamParticipantsControls|showplayerinfo=true}}
+===Group Stage Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Longzhu Gaming
+|p1=Khan |pos1=top
+|p2=Rascal |p2flag=kr |pos2=top 
+|p3=Cuzz |pos3=jg
+|p4=Bdd  |pos4=mid
+|p5=PraY |pos5=ad
+|p6=GorillA |pos6=sup
+|t2title=Staff
+|t2p1=Hirai |t2p1flag=kr |t2pos1=head coach
+|t2p2=Kim Jung-su |t2p2flag=kr |t2pos2=coach
+|qualifier=[[LCK/Summer/2017|LCK Summer]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Huni
+|p2=Peanut
+|p3=Blank|pos3=Jungle |p3wins=1
+|p4=Faker|pos4=Middle |p4wins=3
+|p5=Bang|pos5=Bottom |p5wins=2
+|p6=Wolf|p6link=Wolf (Korean player)|pos6=Support |p6wins=2
+
+|t2p1=cCarter|t2p1flag=kr |t2pos1=head coach |t2p2winsc=3
+|t2p2=kkOma |t2pos2=coach |t2p1winsc=3
+|t2p3=RapidStar|t2p3flag=kr |t2pos3=coach
+|t2title=Staff
+|qualifier=[[LCK/Championship_Points/2017|LCK Championship Points]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-29}} '''(2013, 2015, 2016)'''
+}}
+{{TeamCard
+|team=Samsung Galaxy
+|p1=CuVee
+|p2=Ambition
+|p3=Haru|pos3=jg
+|p4=Crown|pos4=mid
+|p5=Ruler|pos5=ad
+|p6=CoreJJ|pos6=sup
+|t2title=Staff
+|t2p1=Edgar|t2p1flag=kr|t2pos1=head coach
+|t2p2=oDin|t2p2flag=kr|t2pos2=coach
+|t2p3=TrAce|t2p3flag=kr|t2pos3=coach
+|qualifier=[[LCK/Regional_Finals/2017|LCK Regional Finals]]
+|placement=2
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-29}} '''(2016)'''
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Mouse
+|p2=Audi|pos2=top|p2dnp=true
+|p3=Clearlove7|pos3=jg
+|p4=Scout|pos4=mid
+|p5=iBoy|pos5=ad
+|p6=Meiko|pos6=sup
+|t2title=Staff
+|t2p1=NoFe |t2pos1=head coach
+|qualifier=[[LPL/Summer/2017|LPL Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-15}} '''(2016)'''
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Letme
+|p2=Mlxg
+|p3=Y1HAN|p3flag=cn|pos3=jg|p3dnp=true
+|p4=Xiaohu|pos4=mid
+|p5=Uzi|p5link=Uzi (Chinese player)|pos5=ad
+|p6=Ming|p6link=Ming (Shi_Sen-Ming)|pos6=sup
+|t2title=Staff
+|t2p1=FireFox|t2p1flag=tw |t2pos1=head coach
+|qualifier=[[LPL/Championship_Points/2017|LPL Championship Points]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-14}} '''(2016)'''
+}}
+{{TeamCard
+|team=GIGABYTE Marines
+|p1=Archie |pos=1=top|p1link=Archie (Vietnamese player)
+|p2=Levi|pos2=jg
+|p3=Optimus|pos3=mid
+|p4=Noway|pos4=ad
+|p5=Sya|pos5=sup
+|p6=Nevan|p6flag=vn|pos6=sup
+|t2title=Staff
+|t2p1=Tinikun |t2pos1=head coach
+|qualifier=[[GPL/Summer/2017|GPL Summer]]
+}}
+{{TeamCard
+|team=G2 Esports
+|p1=Expect
+|p2=Trick
+|p3=Perkz
+|p4=Zven
+|p5=mithy
+|p6=Hoang|p6flag=dk|pos6=sup|p6dnp=true
+|t2title=Staff
+|t2p1=YoungBuck |t2pos1=head coach
+|qualifier=[[LCS/Europe/Summer/2017|EU LCS Summer]]
+|placement=13-16
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-07}} '''(2016)'''
+}}
+{{TeamCard
+|team=Misfits Gaming
+|p1=Alphari
+|p2=Maxlore
+|p3=PowerOfEvil
+|p4=Hans Sama
+|p5=IgNar
+|p6=Hiiva|pos6=sup|p6dnp=true
+|t2title=Staff
+|t2p1=Daku |t2p1link=Daku (Emirati coach) |t2p1flag=ae |t2pos1=head coach
+|qualifier=[[LCS/Europe/Championship_Points/2017|EU Championship Points]]
+}}
+{{TeamCard
+|team=Team SoloMid
+|p1=Hauntzer
+|p2=Svenskeren
+|p3=Bjergsen
+|p4=Doublelift
+|p5=MrRallez|p5flag=dk|pos5=ad|p5dnp=true
+|p6=Biofrost|pos6=sup
+|t2title=Staff
+|t2p1=Parth|t2p1flag=us |t2pos1=head coach
+|qualifier=[[LCS/North_America/Summer/2017|NA LCS Summer]]
+|placement=3
+|placementicon={{LeagueIconSmall/worlds|World Championship/2011|date=2011-06-20}} '''(2011)'''
+}}
+{{TeamCard
+|team=Immortals
+|p1=Flame
+|p2=Xmithie|pos2=jg
+|p3=AnDa|pos3=jg|p3dnp=true
+|p4=Pobelter|pos4=mid
+|p5=Cody Sun|pos5=ad
+|p6=Olleh|pos6=sup
+|t2title=Staff
+|t2p1=SSONG |t2pos1=head coach
+|qualifier=[[LCS/North_America/Championship_Points/2017|NA Championship Points]]
+}}
+{{TeamCard
+|team=Flash Wolves
+|p1=MMD
+|p2=Cyo|p2flag=tw|pos2=top|p2dnp=true
+|p3=Karsa|pos3=jg
+|p4=Maple|p4link=Maple (Taiwanese player)|pos4=mid
+|p5=Betty|pos5=ad
+|p6=SwordArT|pos6=sup
+|t2title=Staff
+|t2p1=Steak |t2pos1=head coach
+|qualifier=[[LMS/Summer/2017|LMS Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2015|date=2015-10-15}} '''(2015)'''
+}}
+{{TeamCard
+|team=ahq e-Sports Club
+|p1=Ziv|p1link=Ziv (Taiwanese player)
+|p2=Mountain
+|p3=Chawy
+|p4=westdoor|pos4=Mid
+|p5=AN|pos5=Bottom
+|p6=Albis|pos6=Support
+|t2title=Staff
+|t2p1=GreenTea |t2pos1=head coach
+|qualifier=[[LMS/Championship_Points/2017|LMS Championship Points]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2015|date=2015-10-16}} '''(2015)'''
+}}
+{{TeamCard columns end}}
+
+===Play-In Teams===
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=1907 Fenerbahçe Esports
+|notes=1
+|p1=Thaldrin
+|p2=Crash|p2flag=kr
+|p3=Frozen
+|p4=WaenA|p4flag=tr|pos4=mid|p4dnp=true
+|p5=Padden|pos5=ad
+|p6=Japone|p6flag=tr|pos6=sup
+|t2title=Staff
+|t2p1=Pades|t2p1flag=tr |t2pos1=head coach
+|qualifier=[[TCL/Summer/2017|TCL Summer]]
+}}
+{{TeamCard
+|team=Cloud9
+|p1=Impact |p1wins=1
+|p2=Ray|pos2=top|p2dnp=true
+|p3=Contractz|pos3=jg
+|p4=Jensen|pos4=mid
+|p5=Sneaky|pos5=ad
+|p6=Smoothie|pos6=sup
+|t2title=Staff
+|t2p1=Reapered |t2pos1=head coach
+|qualifier=[[LCS/North_America/Regional_Finals/2017|NA LCS Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2016|date=2016-10-13}} '''(2016)'''
+}}
+{{TeamCard
+|team=Dire Wolves
+|p1=Chippys
+|p2=Shernfire
+|p3=Rippii|pos3=jg|p3dnp=true
+|p4=Phantiks|pos4=mid
+|p5=k1ng|pos5=ad
+|p6=Destiny|p6link=Destiny (Australian player)|pos6=sup
+|t2title=Staff
+|t2p1=Sharp|t2p1link=Sharp (Australian player) |t2pos1=head coach
+|qualifier=[[OPL/Split_2/2017|OPL Split 2]]
+}}
+{{TeamCard
+|team=Fnatic
+|p1=sOAZ
+|p2=Broxah
+|p3=Caps
+|p4=Special|pos4=mid|p4dnp=true
+|p5=Rekkles|pos5=ad
+|p6=Jesiz|pos6=sup
+|t2title=Staff
+|t2p1=Dylan |t2pos1=head coach
+|qualifier=[[LCS/Europe/Regional_Finals/2017|EU LCS Regional Finals]]
+|placement=1
+|placementicon={{LeagueIconSmall/worlds|World Championship/2011|date=2011-06-20}} '''(2011)'''
+}}
+{{TeamCard
+|team=Gambit Esports
+|p1=PvPStejos
+|p2=Diamondprox
+|p3=Kira
+|p4=Blasting
+|p5=Tauren|p5flag=ru|pos5=ad|p5dnp=true
+|p6=EDward|pos6=sup
+|t2title=Staff
+|t2p1=Invi|t2p1flag=ru |t2pos1=head coach
+|qualifier=[[LCL/Summer/2017|LCL Summer]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2013|date=2013-09-23}} '''(2013)'''
+}}
+{{TeamCard
+|team=Hong Kong Attitude
+|link=Hong Kong Esports/Hong Kong Attitude
+|p1=Riris|p1flag=kr
+|p2=Godkwai|p2flag=hk
+|p3=Gemini|p3flag=tw|pos3=jg
+|p4=M1ssion|p4flag=tw|pos4=mid
+|p5=Unified|pos5=bot
+|p6=Kaiwing|p6flag=hk|pos6=sup
+|t2title=Staff
+|t2p1=Tabe|t2p1flag=hk |t2pos1=head coach
+|qualifier=[[LMS/Regional_Finals/2017|LMS Regional Finals]]
+}}
+{{TeamCard
+|team=Kaos Latin Gamers
+|p1= MANTARRAYA
+|p2=Tierwulf
+|p3=Plugo
+|p4=Fix
+|p5=Focho|p5flag=cl|pos5=ad|p5dnp=true
+|p6=Slow|pos6=sup
+|t2title=Staff
+|t2p1=Pierre |t2pos1=head coach
+|qualifier=[[CLS/Closing/2017|CLS Closing]]
+}}
+{{TeamCard
+|team=Lyon Gaming
+|image=Lyon Gaming allmode.png
+|p1=Jirall
+|p2=Oddie
+|p3=Seiya
+|p4=WhiteLotus
+|p5=MarioMe|p5flag=mx|pos5=ad|p5dnp=true
+|p6=Genthix|pos6=sup
+|t2title=Staff
+|t2p1=Yeti |t2pos1=head coach
+|qualifier=[[LLN/Closing/2017|LLN Closing]]
+}}
+{{TeamCard
+|team=Rampage
+|p1=Evi
+|p2=Tussle
+|p3=TETE|p3flag=jp|pos3=jg|p3dnp=true
+|p4=Ramune|pos4=mid
+|p5=YutoriMoyasi|pos5=ad
+|p6=Dara|pos6=sup
+|t2title=Staff
+|t2p1=34|t2p1flag=kr |t2pos1=head coach
+|qualifier=[[LJL/Summer/2017|LJL Summer]]
+}}
+{{TeamCard
+|team=Team oNe eSports
+|p1=VVvert|p1flag=br
+|p2=4LaN|p2flag=br
+|p3=Brucer|p3flag=br
+|p4=Marf|p4flag=br|pos4=mid
+|p5=Absolut|p5flag=br|pos5=adc
+|p6=RedBert|p6flag=br|pos6=sup
+|t2title=Staff
+|t2p1=Neki|t2p1flag=br |t2pos1=head coach
+|qualifier=[[CBLOL/Winter/2017|CBLOL Winter]]
+}}
+{{TeamCard
+|team=Team WE
+|p1=957
+|p2=Condi
+|p3=xiye
+|p4=Mystic
+|p5=Ben|p5flag=kr
+|p6=Zero|p6flag=kr|pos6=sup|p6link=Zero (Korean player)
+|t2title=Staff
+|t2p1=Homme |t2pos1=head coach
+|qualifier=[[LPL/Regional_Finals/2017|LPL Regional Finals]]
+|placement=5-8
+|placementicon={{LeagueIconSmall/worlds|World Championship/2012|date=2012-10-06}} '''(2012)'''
+}}
+{{TeamCard
+|team=Young Generation
+|p1=Ren
+|p2=NhocTy|p2flag=vn|pos2=top|p2link=yT
+|p3=Venus|pos3=jg
+|p4=Naul|pos4=mid
+|p5=BigKoro|pos5=bot
+|p6=Palette|pos6=sup
+|t2title=Staff
+|t2p1=Koo|t2p1flag=vn |t2pos1=head coach
+|qualifier=[[GPL/Summer/2017|GPL Summer]]
+}}
+{{TeamCard columns end}}
+
+*<sup>1</sup> <small> September 23rd - {{player|Move|flag=kr}} Could not attend due to visa problems. {{player|Crash|flag=kr}} will replace him for the tournament.<ref name="Crash will replace Move">{{cite web |url=https://twitter.com/FBespor/status/911456339376922624|title=Crash will replace Move|author= |date=2017-09-23|publisher=[[1907 Fenerbahçe Esports]] |language={{Flag|tr}}}}</ref></small>
+
+===Substitutes===
+{{Substitute table|
+{{Substitute table/row|team=1907 fenerbahçe esports|id=Crash|flag=kr|forid=Move|forflag=kr|description=Due to visa problems}}
+}}
+
+==Results==
+{{LPDB storage|false}}
+===Play-In: Round 1===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2017/Play_In|PlayInA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2017/Play_In|PlayInB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2017/Play_In|PlayInC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2017/Play_In|PlayInD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2017/Play_In|Click here for more information about the Play-In matches.]]''</span>
+
+===Play-In: Round 2===
+{{ShowBracket|id=2STUXJ6Z4M}}
+<br/>
+<span style="line-height:24px">&nbsp;''[[World Championship/2017/Play_In|Click here for more information about the Play-In matches.]]''</span>
+
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2017/Group_Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2017/Group_Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:World Championship/2017/Group_Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:World Championship/2017/Group_Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+{{Toggle group end}}
+<span style="line-height:24px">&nbsp;''[[World Championship/2017/Group_Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=Worlds17PO}}
+
+==Additional Data==
+
+===Statistics===
+{{#lst:World Championship/2017/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+==Additional content==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=riotgames |youtube1=user/LoLChampSeries
+}}
+
+===Top 20 Players Before Tournament===
+{|- class="wikitable sortable" class="table table-bordered prizepooltable collapsed" style="text-align:center;" data-cutafter="5"
+|-
+! colspan=1| # !! Player !! Position !! Team
+|-
+|1
+|style="text-align:left" | {{Flag|kr}} [[Faker]]
+|Mid
+|{{TeamIcon|skt}}
+|-
+|2
+|style="text-align:left" | {{Flag|kr}} [[PraY]]
+|AD Carry
+|{{TeamIcon|lz}}
+|-
+|3
+|style="text-align:left" | {{Flag|kr}} [[GorillA]]
+|Support
+|{{TeamIcon|lz}}
+|-
+|4
+|style="text-align:left" | {{Flag|kr}} [[Khan]]
+|Top
+|{{TeamIcon|lz}}
+|-
+|5
+|style="text-align:left" | {{Flag|cn}} [[Xiaohu]]
+|Mid
+|{{TeamIcon|rng}}
+|-
+|6
+|style="text-align:left" | {{Flag|kr}} [[Bdd]]
+|Mid
+|{{TeamIcon|lz}}
+|-
+|7
+|style="text-align:left" | {{Flag|kr}} [[Wolf (Korean player){{!}}Wolf]]
+|Support
+|{{TeamIcon|skt}}
+|-
+|8
+|style="text-align:left" | {{Flag|kr}} [[CuVee]]
+|Top
+|{{TeamIcon|ssg}}
+|-
+|9
+|style="text-align:left" | {{Flag|cn}} [[Meiko]]
+|Support
+|{{TeamIcon|edg}}
+|-
+|10
+|style="text-align:left" | {{Flag|dk}} [[Bjergsen]]
+|Mid
+|{{TeamIcon|tsm}}
+|-
+|11
+|style="text-align:left" | {{Flag|kr}} [[Mystic]]
+|AD Carry
+|{{TeamIcon|we}}
+|-
+|12
+|style="text-align:left" | {{Flag|kr}} [[Bang]]
+|AD Carry
+|{{TeamIcon|skt}}
+|-
+|13
+|style="text-align:left" | {{Flag|kr}} [[Crown]]
+|Mid
+|{{TeamIcon|ssg}}
+|-
+|14
+|style="text-align:left" | {{Flag|cn}} [[Uzi (Chinese player){{!}}Uzi]]
+|AD Carry
+|{{TeamIcon|rng}}
+|-
+|15
+|style="text-align:left" | {{Flag|kr}} [[Ambition]]
+|Jungle
+|{{TeamIcon|ssg}}
+|-
+|16
+|style="text-align:left" | {{Flag|dk}} [[Zven]]
+|AD Carry
+|{{TeamIcon|g2}}
+|-
+|17
+|style="text-align:left" | {{Flag|tw}} [[SwordArT]]
+|Support
+|{{TeamIcon|fw}}
+|-
+|18
+|style="text-align:left" | {{Flag|cn}} [[Condi]]
+|Jungle
+|{{TeamIcon|we}}
+|-
+|19
+|style="text-align:left" | {{Flag|kr}} [[Scout]]
+|Mid
+|{{TeamIcon|edg}}
+|-
+|20
+|style="text-align:left" | {{Flag|us}} [[Doublelift]]
+|AD Carry
+|{{TeamIcon|tsm}}
+|-
+|}
+
+===Announcements===
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2017-09-06
+|link=http://www.lolesports.com/en_US/articles/2017-world-championship-news-and-updates
+|title=The 2017 World Championship news and updates
+|by=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2017-09-06
+|link=http://www.lolesports.com/en_US/articles/worlds-2017-draw-show-primer
+|title=Worlds 2017: Draw Show Primer
+|by=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2017-09-06
+|link=http://www.lolesports.com/en_US/articles/worlds-2017-procedural-guide-group-draw
+|title=Worlds 2017: A Procedural Guide to the Group Draw
+|by=riot games
+|language=usuk
+}}
+*{{ExternalMediaLink
+|mediatype=announcement
+|date=2017-10-18
+|link=http://www.lolesports.com/en_US/articles/update-fan-contribution-worlds-2017-prize-pool
+|title=Update: Fan Contribution to Worlds 2017 Prize Pool
+|by=riot games
+|language=usuk
+}}
+
+===Official Song===
+{{#ev:youtube|r6zIGXun57U|600}}
+
+===More Additional Content===
+*<span style="line-height:24px">&nbsp;''[[World Championship/2017/Additional_Content#Interviews|Click here for a general overview of all the Interviews, Articles, Videos and Match Highlights]]''</span>
+
+==References==
+{{Reflist}}

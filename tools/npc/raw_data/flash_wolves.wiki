@@ -1,0 +1,76 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Flash%20Wolves&redirects=1
+<!-- 抓取: 2026-08-16T14:22:21.684Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/yoe Flash Wolves}}
+{{Tabs static
+|name1={{Team|flash wolves}}
+|name2={{Team|flash husky}}
+|name3={{Team|flash wolves girls}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Flash Wolves
+|image=Flash wolves logo.png
+|location=Taiwan
+|region=taiwan
+|website=http://www.flashwolves.com/
+|twitter=flashwolves2013
+|facebook=FlashWolves
+|instagram=flashwolves2013
+|youtube=FlashWolves
+|created=2013-04-15
+|disbanded=2019-12-13
+}}
+'''Flash Wolves''' is a professional esports based in [[:Category:Taiwan|Taiwan]]. 
+
+==History==
+'''Flash Wolves''' was founded as '''yoe IRONMEN''' in April 2013 before rebranding to '''Flash Wolves''' in August 2013, since then, it has been the top team in the Taiwanese LoL championship for many years, winning a total of 6 LMS championships as well as IEM Taipei. In December 2019, it was announced that '''Flash Wolves''' will not participate in the new merged league of Taiwan and South East Asia, PCS, marking an end for the team after being active in League of Legends for 6 years.
+
+===Timeline===
+{{TimelineSquadAuto|team=flash wolves}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Cyo |name=Lin Hsin-Yu |joindate=2017-03-01 }}
+|{{SquadAutoRow|id=Rins |name=Shen Po-Ju |joindate=2016-11-07 }}
+|{{SquadAutoRow|id=Nobo |name=Liu Ann-Jou |joindate=2014-03-27 }}
+|{{SquadAutoRow|id=WuYan |name=Fang Ke-Wei |joindate=2013-04-15 }}
+|{{SquadAutoRow|id=Momo |link=Momo_(Taiwanese_player) |name=Kuo Yi-Chiun |joindate=2014-07-06 }}
+|{{SquadAutoRow|id=Dee |name=Chen Chun-Dee |joindate=2013-10-21 }}
+|{{SquadAutoRow|id=Chopper |name=Lai Chi-Wei |joindate=2013-04-15 }}
+|{{SquadAutoRow|id=AsSen |name=Huang Mao-Sen |joindate=2013-04-15 }}
+|{{SquadAutoRow|id=REAL1RON |name=Liu Chun-Yi |joindate=2013-04-15 }}
+|{{SquadAutoRow|id=BonBon |name=Tsai Li-Jung |joindate=2013-04-15 }}
+|{{SquadAutoRow|id=Clurinus |name=Shih Yueh-Ting |joindate=2013-04-15 }}
+|{{SquadAutoRow|id=Jackson |name=Wu Hsin-Chi |joindate=2013-05-29 }}
+|{{SquadAutoRow|id=President |name=Chang Yin |joindate=2013-05-29 }}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=MadWolf |name=Chung Yen-Chen |joindate=2017-12-01 }}
+|{{SquadAutoRow|id=Sweet |name=Chun Jung-hee |joindate=2018-12-14 }}
+|{{SquadAutoRow|id=Cyo |name=Lin Hsin-Yu |joindate=2016-12-07 }}
+|{{SquadAutoRow|id=AsSen |name=Huang Mao-Sen |joindate=2013-05-01 }}
+}}
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Flash Wolves}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Flash Wolves}}
+}}
+
+==Awards==
+{{Team awards table|team=Flash Wolves}}
+
+==Gallery==
+<gallery mode="packed-hover" heights="250px">
+yoe Ironmen.png|yoe Ironmen's logo from August 2012 till August 2013. 
+</gallery>
+
+==References==
+{{Reflist|3}}
+<br>
+{{Team roster}}

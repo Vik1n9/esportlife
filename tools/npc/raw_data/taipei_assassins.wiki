@@ -1,0 +1,58 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Taipei%20Assassins&redirects=1
+<!-- 抓取: 2026-08-16T14:22:42.364Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Tabs static
+|name1={{Team|taipei assassins}}
+|name2={{Team|taipei snipers}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=Taipei Assassins
+|image=Taipei Assassins Logo.png
+|location=Taiwan
+|region=Southeast Asia
+|city=Taipei
+|captain=
+|sponsor=
+|website=
+|twitter=
+|weibo=
+|tencent=
+|facebook=
+|youtube=
+|created=2012-03-09
+|disbanded=2016-04-19
+|trades=
+|footnotes=
+|no-cat=
+}}
+'''Taipei Assassins''' was a [[:Category:Taiwan|Taiwanese]] team that notably won the [[World Championship/2012|Season 2 World Championship]].
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Domo |name=Kung Yu-te |joindate=2015-05-15}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Domo |name=Kung Yu-te |joindate=2015-06-19}}
+}}
+
+
+==Results==
+{{Tabs dynamic|hide-showall=true
+|name1=Achievements |content1={{Team achievements table|team=Taipei Assassins}}
+|name2=Recent Matches |content2={{Team recent matches table|team=Taipei Assassins}}
+}}
+
+==Awards==
+{{Team awards table|team=Taipei Assassins}}
+
+==References==
+{{Reflist}}

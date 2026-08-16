@@ -1,0 +1,60 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=G-Rex&redirects=1
+<!-- 抓取: 2026-08-16T14:22:32.021Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{Liquipedia links/G-Rex}}
+{{Tabs static
+|name1={{Team|g-rex}}
+|name2={{Team|g-rex infinite}}
+|This=1
+}}
+{{Team Tabs}}
+{{Infobox team
+|name=G-Rex
+|location=Hong Kong
+|location2=Taiwan
+|region=taiwan
+|image=G-Rex.png
+|website=https://ees.zone/
+|twitter=EESstars
+|facebook=GRexLOL
+|youtube=UChA0tid4Ow8YDgMHC5ZbZOw?view_as=subscriber
+|vk=
+|twitch=
+|fanclub=
+|sponsor=[http://eeg.zone/ Emperor Entertainment Group]
+|created=2017-09-15
+|disbanded=2020-02-13
+|trades= 
+}}
+
+'''G-Rex''' was a [[:Category:Taiwan|Taiwanese]] esports organization. They intially entered the [[LMS/Spring/2018|LMS]] on September 15th, 2017 with acquisation of the spot of [[Raise Gaming]]. <ref name="【LMS 職業聯賽】聯盟公告：英皇電競動力接手 RG 2018 春季賽經營權">{{cite web|url=http://lms.garena.tw/news/content/3132|date=2017-09-15|title=【LMS 職業聯賽】聯盟公告：英皇電競動力接手 RG 2018 春季賽經營權|publisher=Garena.tw|language={{Flag|tw}} }}</ref>
+On February 13th, 2020 '''G-Rex's''' parent company '''Emperor Esports''' announces the disbandment of '''G-Rex'''. <ref name="G-Rex DISBAND">{{cite web |url=https://www.facebook.com/eesstars/posts/483173635705407|title=G-Rex Gaming自2017年成立起，獵人們走過高峰亦跌進過低谷，曾經在戰場上打敗不同的敵人。這陣子G-Rex遇上了更兇險的挑戰，突如其來不明朗的經濟環境所帶來的嚴峻壓力及影響，讓我們不得不重新思考部署。|date=2020-02-13 |author=[[G-Rex]]|language={{Flag|cn}}}}</ref> 
+
+==History==
+===Timeline===
+{{TimelineSquadAuto}}
+
+==Player Roster==
+===Former===
+{{FormerSquadAuto
+|{{SquadAutoRow|id=Eason|name=Yin Yi-shen|joindate=2018-12-27}}
+}}
+
+==Organization==
+===Former===
+{{FormerOrganizationAuto
+|{{SquadAutoRow|id=Domo|name=Kung Yu-te|joindate=2017-09-16}}
+}}
+
+==Achievements==
+{{Team achievements table|team=G-Rex}}
+
+==Awards==
+{{Team awards table|team=G-Rex}}
+
+==Recent Matches==
+{{Team recent matches table|team=G-Rex}}
+
+==References==
+{{Reflist|1}}
+<br>
+{{Team roster}}
