@@ -1,6 +1,6 @@
 {
   "name": "esportlife",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "電競人生：LoL 職業選手生涯模擬（純前端、零建置 ESM）",
   "private": true,
   "type": "module",
