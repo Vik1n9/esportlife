@@ -75,10 +75,14 @@ export function* run(g) {
   }
 
   const rule = worldsRuleOf(state.year);
-  const seed = seedOf(state, rule);
+  // DEMO 測試開關（S21，§19.2「可強制出線供測試」）：直接發第一種子，讓世界賽
+  // 序列在 DEMO 一年內驗得到。與 msi.js 同一個 `g.opts.forceIntl`，同樣不進 state
+  const seed = g.opts?.forceIntl ? 1 : seedOf(state, rule);
   state.seedRank = seed;
-  // MSI 冠軍為賽區多掙的那張門票（2023 起的真實制度）
-  const slots = worldsSlotsOf(state.year, league.region) + (state.worldsSlotBonus || 0);
+  // MSI 冠軍為賽區多掙的那張門票（2023 起的真實制度）；force 時席位至少一張，
+  // 否則第一種子也會被 `seed > slots` 擋在門外，開關就白做了
+  const baseSlots = worldsSlotsOf(state.year, league.region) + (state.worldsSlotBonus || 0);
+  const slots = g.opts?.forceIntl ? Math.max(1, baseSlots) : baseSlots;
 
   if (!seed || seed > slots) {
     if (seed) {

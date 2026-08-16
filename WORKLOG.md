@@ -1,4 +1,34 @@
 # WORKLOG — 電競人生（esportlife）
+## 2026-08-16 — S21 DEMO 組裝：第一年跑得通、force 出線、labels 有人看了
+- **方向**：§19 的 DEMO 是「PRO 起點第一年」——但引擎沒有「強制出線」開關，第一年
+  打不進季後賽就永遠驗不到 MSI／世界賽序列（實測 20 段 0 出線）；§12.3 的生涯標籤
+  全 `src/` 沒有讀者（實測 60 段 77 個標籤 0 個給玩家看到）；開場文案還停在
+  S2/2012 網咖時代。解法：force 開關拉進可驗範圍、labels 接上結算畫面、文案換成
+  2015 出道、§19.3 六項寫成 DEMO 版測試。
+- **force 出線開關**：`msi.js`／`worlds.js` 讀 `g.opts?.forceIntl`——msi 合成
+  `finish: rule.accepts[0]` 的 qualifier；worlds `seed=1`＋`slots=max(1,·)`（不加
+  max 的話第一種子被 `seed > slots` 擋住，開關白做）。⚠ 開關掛 `g.opts` 不進
+  state——放 state 會被 storage 整包序列化，測試旗標漏進玩家存檔。
+- **labels 接線**：`summary.js` 生涯檔案卡特質 tags 下加第二層標籤 tags
+  （escapeHtml、非空才渲染）。quests.js 的 failLabel／result.label 終於有讀者。
+- **demoYear topic（invariants.mjs）**：4 種子 × 5 路 force 段跑滿第一年，守
+  §19.3——月份循環（12 個月、7 養成回合＝2015 兩賽段年）、事件觸發（每月 ≥1 張
+  ＋30% 第二張，實測 11–17）、賽事序列（intlAppearances=2、splitLog=2）、年末結算
+  （薪資 210–235、合約 2→1 或 FA）。任務卡跨回合用**手工開卡**驗：塞
+  `legend-record-breaker`＋素材（⚠ common 階的 store 是 `state.traits` 本體，不是
+  `traits.common`）→ 開卡隔年 active → 第三年開季 `deadline` 收束 → 降階標籤。
+- ⚠ **19 歲衰退錯位（未一起處理）**：PRO 起點 attr/potential ≈ 0.69–0.71，19 歲
+  ceilingCurve ≈ 0.63–0.64——起點就高過天花板，第一年開局顯示「歲月：體能已過
+  巔峰」（實測 −6 點）；AMATEUR 16 歲起點無此現象。根因：§7.3 起始值 0.80×潛力
+  是對業餘起點定的。S21 不動（動窗口＝動平衡），交接筆記指名下一站評估。
+- **實測結論**：npm test 19295 項全綠（基線 19282＋DEMO 13 項）；瀏覽器實測逐項
+  過（訓練成功率隨體力 85→49%、任務面板「紀錄粉碎機｜剩 1 賽季」、結算含傳記與
+  標籤、存讀檔三種狀態）；決策點 PRO 路線 ≈20/年（十年 ≈200），20b C2「215/十年
+  超標」不需調整。
+- **未一起處理**：19 歲衰退錯位、傳記「出身業餘賽事」用語（PRO 起點也寫業餘出身，
+  屬 S21a 傳記站）；TODO(S21a) 不老傳奇決定**暫不放回**（DEMO 一年無不老語境）。
+- **狀態**：完成。`npm test` 19295 項全綠。SAVE_VERSION 不動（22）；無常數變動。
+  狀態表已更新，`next-station.mjs` 下一站 S22 文件同步（前置 S21 已滿足）。
 ## 2026-08-16 — S20f 事件卡條件補：真池的條件路徑從恆空轉到 85.5% 命中
 - **方向**：§12.1 的核心設計「事件變成對玩家狀態的回應」在真內容裡不存在——86 張卡
   `when`／`priority` 全空，`eventTrigger.js` 四步演算法的第 1–2 步（條件命中→最高

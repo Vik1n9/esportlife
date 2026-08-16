@@ -45,7 +45,9 @@
  * 這裡會自動生效，不必回頭補。
  */
 import { readFileSync, readdirSync } from 'node:fs';
+import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
+import { careerFlow } from '../../src/engine/game.js';
 import {
   RATING_MENTAL_SPAN, attrCap, coachRating, investAttr, positionPower, skills,
 } from '../../src/engine/attributes.js';
@@ -62,7 +64,8 @@ import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
 import { LEAGUES } from '../../src/data/leagues.js';
 import { FUSIONS } from '../../src/data/epics.js';
 import { OVR_WEIGHTS, ROLES, ROLE_ATTR_WEIGHTS, SKILL_WEIGHTS } from '../../src/data/skills.js';
-import { bestActivity, growthRoom, playMatrix } from '../lib/harness.mjs';
+import { START_AGE, START_YEAR } from '../../src/data/eras.js';
+import { bestActivity, growthRoom, MAX_BEATS, monthAction, playMatrix, tacticsAction } from '../lib/harness.mjs';
 
 export const name = '平衡不變式（測試網）';
 export const order = 2;   // 排在冒煙測試之後，直接吃它跑好的 160 段樣本
@@ -114,6 +117,7 @@ export async function run({ check, log, shared }) {
   mistakeVisibility({ check, log, runs });
   staminaRhythm({ check, gate, log, runs });
   eventExclusion({ check, gate });
+  demoYear({ check, log });
 
   gate.report();
 }
@@ -841,4 +845,143 @@ function eventExclusion({ check, gate }) {
         check('事件互斥：每張卡都標了互斥群組', !!(ev.group || ev.excl), `${ev.id} 沒有群組`);
       }
     });
+}
+
+/* ---------------- DEMO 單年端到端（V4 §19.3，S21） ---------------- */
+
+/**
+ * §19.3 六項驗證的 DEMO 版。160 段基線量在 AMATEUR 起點（S20d 定案），DEMO 是另一條
+ * 路線：PRO 起點，2015 年職業第一年——玩家第一個玩到的就是這一年，必須整個跑得通。
+ *
+ * 這裡用 4 種子 × 5 路 = 20 段「只跑第一年」的樣本，`forceIntl` 把 MSI／世界賽序列
+ * 拉進可驗範圍（§19.2「可強制出線供測試」）。開關掛 `careerFlow` 的 `opts`，不進
+ * state——放 state 會被 storage.js 整包序列化，測試旗標會漏進玩家存檔。
+ *
+ * 守什麼（S21 實測量到的範圍）：
+ *   - 月份循環：一年 12 個月、7 個養成回合（2015 兩賽段年）；年／齡遞增
+ *   - 事件觸發：每月至少 1 張、第二張 30% 機率 → 全年 11–17 次
+ *   - 賽事序列：force 後 MSI 與世界賽都打得到（intlAppearances = 2）、兩賽段
+ *     都結算了季後賽判定（splitLog = 2）
+ *   - 年末結算：薪資發放（210–235）、合約 years 遞減（2 → 1；被釋出的段為 null）
+ *   - 任務卡跨回合：DEMO 一年裡沒有卡會自然開（legend 要國際賽四強、route 要賽段
+ *     冠軍，新秀都拿不到）——手工開一張 record_breaker（deadline=2）驗「開卡 →
+ *     跨年存活 → 期限收束」在真迴圈裡成立
+ *
+ * ⚠ 體力節奏（§19.3-2）與成長（§19.3-3）不在這裡設 DEMO 門檻：一年樣本太小，
+ * 且 160 段基線的 staminaRhythm／potentialDecay 已經在守同兩件事。
+ */
+function demoYear({ check, log }) {
+  const seeds = ['demo-a', 'demo-b', 'demo-c', 'demo-d'];
+  const demos = [];
+  for (const seed of seeds) {
+    for (const role of ROLES) {
+      demos.push(demoYearDrive({ seed, role, forceIntl: true }));
+    }
+  }
+
+  check('DEMO：第一年跑滿 12 個月（§19.3-1 月份循環）',
+    demos.every((d) => d.sample.months === 12),
+    demos.map((d) => d.sample.months).join(','));
+  check('DEMO：2015 兩賽段年有 7 個養成回合（§19.3-1）',
+    demos.every((d) => d.sample.devMonths === 7),
+    demos.map((d) => d.sample.devMonths).join(','));
+  check('DEMO：第一年推進一歲——活過年底的段 2015 → 2016、19 → 20 歲',
+    demos.every((d) => d.state.year === START_YEAR + 1 || (d.state.year === START_YEAR && d.state.done)),
+    demos.filter((d) => d.state.year === START_YEAR).map((d) => `${d.seed}/${d.role}`).join(',') || '全數推進');
+  check('DEMO：提早退役的段在 2015 年內收束（§18.2 三層退役接得上）',
+    demos.every((d) => d.sample.months === 12 || !!d.state.retireReason),
+    demos.filter((d) => d.sample.months < 12).map((d) => `${d.seed}/${d.role}`).join(',') || '無');
+  check('DEMO：事件卡每月至少一張（§19.3-4）',
+    demos.every((d) => d.sample.events >= d.sample.devMonths),
+    demos.map((d) => d.sample.events).join(','));
+  check('DEMO：事件卡第二張 30% 機率——全年最多 20 次（§19.3-4）',
+    demos.every((d) => d.sample.events <= 20),
+    demos.map((d) => d.sample.events).join(','));
+  check('DEMO：強制出線後 MSI 與世界賽都打得到（§19.3-5）',
+    demos.every((d) => d.state.intlAppearances === 2),
+    demos.map((d) => d.state.intlAppearances).join(','));
+  check('DEMO：兩賽段都結算了季後賽判定（§19.3-5）',
+    demos.every((d) => d.state.splitLog.length === 2),
+    demos.map((d) => d.state.splitLog.length).join(','));
+  check('DEMO：年末結算發薪（§19.3-6）',
+    demos.every((d) => d.state.salary > 0),
+    `薪資 ${Math.min(...demos.map((d) => d.state.salary))}–${Math.max(...demos.map((d) => d.state.salary))}`);
+  check('DEMO：合約年限遞減——兩年約走完第一年剩一年或已進 FA（§19.3-6）',
+    demos.every((d) => !d.state.contract || d.state.contract.years <= 1),
+    demos.map((d) => d.state.contract?.years ?? 'FA').join(','));
+  log(`DEMO：20 段第一年——月份 ${demos[0].sample.months}、養成回合 ${demos[0].sample.devMonths}、`
+    + `事件卡 ${Math.min(...demos.map((d) => d.sample.events))}–${Math.max(...demos.map((d) => d.sample.events))}、`
+    + `MSI／世界賽全出線、薪資 ${Math.min(...demos.map((d) => d.state.salary))}–${Math.max(...demos.map((d) => d.state.salary))}、`
+    + `休息 ${demos.map((d) => (d.state.restLog || []).length).join(',')} 次`);
+
+  /* ---- 任務卡跨回合（§12.3）：手工開卡 → 跨年存活 → 期限收束 ---- */
+  const qstate = createState({ name: 'DEMO-Q', role: 'MID', seed: 'demo-quest2', stage: 'PRO' });
+  qstate.quests = {
+    active: [{ id: 'legend-record-breaker', openedYear: START_YEAR, openedMonth: 5, deadlineYear: START_YEAR + 1 }],
+    done: [], log: [],
+  };
+  // 開卡的素材在身，期限收束才不會被 v4.2 的「素材失效即失敗」搶先收掉
+  qstate.traits.genius = true;
+  qstate.traits.disc = true;
+  const qrng = new Rng('demo-quest2:life');
+  const qflow = careerFlow({ state: qstate, rng: qrng });
+  const qcursor = { i: 0 };
+  let qinput;
+  let aliveNextYear = false;
+  let qend = null;
+  for (let beats = 0; beats < MAX_BEATS; beats++) {
+    const { value, done } = qflow.next(qinput);
+    qinput = undefined;
+    if (done) break;
+    if (value.type === 'choice') {
+      if (value.kind === 'month') qinput = monthAction(qstate, value, 'focus', qcursor);
+      else if (value.kind === 'tactics') qinput = tacticsAction(qstate, value);
+      else qinput = value.options[0].id;
+    }
+    if (!aliveNextYear && qstate.year === START_YEAR + 1 && qstate.month === 1) {
+      aliveNextYear = qstate.quests.active.some((a) => a.id === 'legend-record-breaker');
+    }
+    if (!qend && qstate.quests.done.some((d) => d.id === 'legend-record-breaker')) {
+      qend = qstate.quests.done.find((d) => d.id === 'legend-record-breaker');
+    }
+    if (aliveNextYear && qend) break;
+  }
+  check('DEMO：任務卡跨回合存活——開卡隔年仍在進行（§12.3）',
+    aliveNextYear, `2016 年 1 月 active=${aliveNextYear}`);
+  check('DEMO：任務卡期限收束——deadline 年過後以 deadline 失敗（§12.3）',
+    qend?.result === 'failed' && qend.reason?.kind === 'deadline',
+    qend ? `${qend.result}@${qend.year}（${qend.reason?.kind}）` : '未收束');
+  check('DEMO：任務卡失敗降階為生涯標籤（§12.3）',
+    qstate.labels.includes('停擺的紀錄'), JSON.stringify(qstate.labels));
+}
+
+/**
+ * 驅動 PRO 起點的一段生涯（DEMO 路線）。`forceIntl` 時 MSI／世界賽保證出線；
+ * `stop` 不給時跑滿第一年（2016 年 1 月收）。回傳 state、月迴圈樣本與 seed/role
+ * （後兩者給失敗訊息署名）。
+ *
+ * ⚠ 停點後要續跑請用回傳的 state 另建 flow——careerFlow 是無狀態重入的，
+ * 重建只會從 state 現在的年份開始（月迴圈內部階段不會重跑）。
+ */
+function demoYearDrive({ seed, role, forceIntl = false, stop }) {
+  const state = createState({ name: 'DEMO', role, seed, stage: 'PRO' });
+  const rng = new Rng(`${seed}:life`);
+  const flow = careerFlow({ state, rng, opts: forceIntl ? { forceIntl: true } : {} });
+  const cursor = { i: 0 };
+  let input;
+  const sample = { months: 0, devMonths: 0, events: 0 };
+  const halted = stop || ((s) => s.year >= START_YEAR + 1 && s.month === 1);
+  for (;;) {
+    const { value, done } = flow.next(input);
+    input = undefined;
+    if (done) break;
+    if (value.type === 'month') sample.months += 1;
+    if (value.type === 'choice') {
+      if (value.kind === 'month') { sample.devMonths += 1; input = monthAction(state, value, 'focus', cursor); }
+      else if (value.kind === 'tactics') input = tacticsAction(state, value);
+      else { sample.events += 1; input = value.options[0].id; }
+    }
+    if (halted(state)) break;
+  }
+  return { state, sample, seed, role };
 }

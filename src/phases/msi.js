@@ -45,7 +45,15 @@ export function* run(g, phase) {
   if (!LEAGUES[state.league]?.region) return;
 
   // 門票發給戰隊：看剛結束那個賽段的季後賽名次。是第幾段由年曆帶進來
-  const qualifier = state.splitLog[phase.msiAfter - 1];
+  let qualifier = state.splitLog[phase.msiAfter - 1];
+  // DEMO 測試開關（S21，§19.2「可強制出線供測試」）：沒打進季後賽就合成一個
+  // 冠軍名次，讓 MSI 序列在 DEMO 一年內驗得到。掛 `g.opts` 不進 state——放 state
+  // 會被 storage.js 整包序列化，測試旗標會漏進玩家存檔
+  if (g.opts?.forceIntl) {
+    qualifier = qualifier
+      ? { ...qualifier, finish: rule.accepts[0] }
+      : { name: '春季', stat: null, finish: rule.accepts[0] };
+  }
   if (!qualifier || !rule.accepts.includes(qualifier.finish)) return;
 
   const via = qualifier.finish === 'champion'
