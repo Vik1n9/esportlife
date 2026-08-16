@@ -36,6 +36,8 @@ const SOURCES = [
 ];
 
 const args = process.argv.slice(2);
+// --out 與 crawl.mjs 同規則：直接當路徑用（相對 cwd），不用 join(ROOT, …) 拼——
+// 拼 ROOT 會把絕對路徑也接到腳本目錄後面，行為不符直覺。
 const outFile = (args.indexOf('--out') >= 0 ? args[args.indexOf('--out') + 1] : null) ?? 'target_players.csv';
 
 const rows = [];
@@ -75,6 +77,6 @@ const csv = [
   ...rows.map((r) => `${r.wiki_url},${r.player_id},${r.region},${r.fetch_priority}`),
 ].join('\n') + '\n';
 
-writeFileSync(join(ROOT, outFile), csv);
+writeFileSync(outFile, csv);
 console.error(`已寫出 ${outFile}：${rows.length} 筆（priority 全 1）`);
 if (dropped.length) console.error(`已扣除亂入條目 ${dropped.length} 筆: ${dropped.join('、')}`);

@@ -129,7 +129,7 @@ function firstYear(value) {
   return m ? Number(m[1]) : null;
 }
 
-function regionOf(box, title) {
+function regionOf(box) {
   const region = (box.region ?? '').toLowerCase();
   const location = (box.location ?? '').toLowerCase();
   if (region.includes('taiwan') || region === 'tw') return 'TW';
@@ -147,6 +147,8 @@ function regionOf(box, title) {
 const REGION_OVERRIDES = { 'Hong Kong Attitude': 'HK' };
 
 const args = process.argv.slice(2);
+// --all：連外賽區隊（region 為 null 的 LCP/PCS 混入隊）一起輸出——S24c 裁決
+// 國際段時可參考；預設只產台港澳段。
 const allMode = args.includes('--all');
 
 const teamsFile = join(ROOT, 'teams_all.txt');
@@ -192,7 +194,7 @@ const out = {
   region: '台港澳段（S24b）',
   // 外賽區隊（LCP/PCS 分類混入的日越澳菲隊）不入本段——S24c 國際段決定去留。
   // 偵測到的外隊：ACK/DFM/SHG/GAM/GZ/GZA/MVK/SWPE/TSW（region 全 null，被過濾）。
-  teams: entries.filter((e) => e.region),
+  teams: allMode ? entries : entries.filter((e) => e.region),
 };
 writeFileSync(join(ROOT, 'team_history.json'), JSON.stringify(out, null, 2) + '\n');
 console.error(`已寫出 team_history.json：${entries.length} 隊（台港澳 ${entries.length - unclassified.length}、待分類 ${unclassified.length}）`);
