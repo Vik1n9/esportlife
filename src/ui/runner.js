@@ -4,6 +4,7 @@
  * 引擎不知道 DOM 存在，這個檔案不知道遊戲規則存在——兩邊只靠 beat 協定溝通。
  */
 import { careerFlow } from '../engine/game.js';
+import { renderAttrBar } from './attrbar.js';
 import { renderBoard } from './board.js';
 import { askAllocation, askChoice, clearActions } from './actions.js';
 import { renderCard, renderDivider } from './log.js';
@@ -18,7 +19,7 @@ export async function runCareer({ state, rng, seed, appVersion }) {
   let month = state.month || 1;
   let input;
 
-  const sync = () => { renderBoard(state, month); refreshPanel(); };
+  const sync = () => { renderBoard(state, month); renderAttrBar(state); refreshPanel(); };
 
   for (;;) {
     const { value: beat, done } = flow.next(input);

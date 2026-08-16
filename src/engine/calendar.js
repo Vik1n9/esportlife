@@ -153,3 +153,29 @@ export function calendarFor(state, leagueKey) {
 
   return out.sort((a, b) => a.order - b.order);
 }
+
+/**
+ * 算進「距下階段倒數」的階段 kinds（§22.1 標題列倒數，S38）。
+ *
+ * 季後賽／MSI／世界賽與賽段開幕是玩家要預先規劃體力節奏的節點；12 月的
+ * MEDIA／SALARY／TRANSFER 不算——它們是休賽期流程，不是「下一個階段」。
+ */
+export const STAGE_KINDS = new Set(['SPLIT', 'PLAYOFF', 'MSI', 'WORLDS']);
+
+/**
+ * 當年下一個階段在哪裡。
+ *
+ * 倒數放在引擎不放 UI：它是「還要熬幾個月」的規劃資訊，要進測試
+ * （`monthLayout` 的 msiMonth 分支換了，倒數就要跟著錯得看得見）。
+ *
+ * 純函式、DOM-free——業餘／青訓期 `state.league` 是 undefined，
+ * `calendarFor` 會退回單一「賽季」形狀，不會炸。
+ *
+ * @returns {{kind:string, month:number, monthsAway:number}|null} 當年已無下一階段時回 null
+ */
+export function nextStageIn(state) {
+  const now = state.month || 1;
+  const next = calendarFor(state, state.league).find((p) => STAGE_KINDS.has(p.kind) && p.month >= now);
+  if (!next) return null;
+  return { kind: next.kind, month: next.month, monthsAway: next.month - now };
+}

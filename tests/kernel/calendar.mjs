@@ -8,9 +8,10 @@
  * ⚠ 月份是**算出來的**，不是照 §3.3 那張表抄的：那張表畫的是兩賽段賽區的樣子，而
  * 賽區各年的賽段數是 1~3。所以這裡逐賽區逐年掃，驗的是規則而不是某一年的答案。
  */
-import { MONTHS_PER_YEAR, SPLIT_WINDOW, WORLDS_WINDOW, calendarFor, monthLayout } from '../../src/engine/calendar.js';
+import { MONTHS_PER_YEAR, SPLIT_WINDOW, STAGE_KINDS, WORLDS_WINDOW, calendarFor, monthLayout, nextStageIn } from '../../src/engine/calendar.js';
 import { splitsOf } from '../../src/data/regions/index.js';
 import { LEAGUE_OF_REGION } from '../../src/data/regions/index.js';
+import { msiRuleOf } from '../../src/data/formats/msi.js';
 
 export const name = '月序年曆與賽段月份';
 
@@ -88,6 +89,58 @@ export async function run({ check, log }) {
       }
     }
   }
+
+  /* 七、nextStageIn：狀態帶的「距下階段倒數」讀這裡（§22.1 標題列倒數） */
+  for (const region of REGIONS) {
+    const league = LEAGUE_OF_REGION[region];
+    for (let year = 2012; year <= 2031; year++) {
+      const tag = `${year} ${region}`;
+      const cal = calendarFor({ year }, league);
+      const stages = cal.filter((p) => STAGE_KINDS.has(p.kind));
+
+      for (let month = 1; month <= MONTHS_PER_YEAR; month++) {
+        const r = nextStageIn({ year, month, league });
+        const due = stages.find((p) => p.month >= month);
+        if (!due) {
+          check('nextStageIn：當年已無下一階段時回 null（12 月必為 null）',
+            r === null, `${tag} ${month} 月 回了 ${JSON.stringify(r)}`);
+        } else {
+          check('nextStageIn：回的是年曆上最近的一個階段',
+            r && r.kind === due.kind && r.month === due.month,
+            `${tag} ${month} 月 期 ${due.kind}@${due.month} 得 ${JSON.stringify(r)}`);
+          check('nextStageIn：monthsAway 就是月份差',
+            r && r.monthsAway === due.month - month, `${tag} ${month} 月 差 ${due.month - month}`);
+        }
+      }
+
+      /* 季後賽當月：倒數歸零（S38 完成定義第 5 項） */
+      const layout = monthLayout(year, region);
+      for (const span of layout.spans) {
+        const r = nextStageIn({ year, month: span.playoff, league });
+        check('nextStageIn：季後賽當月回 PLAYOFF 且倒數為 0',
+          r && r.kind === 'PLAYOFF' && r.month === span.playoff && r.monthsAway === 0,
+          `${tag} ${span.playoff} 月 ${JSON.stringify(r)}`);
+      }
+
+      /* MSI 年與非 MSI 年（monthLayout 的 msiMonth 分支）：
+         MSI 年，春季季後賽隔月就是 MSI；非 MSI 年同一位置直接看到夏季季後賽 */
+      const hasMsi = !!msiRuleOf(year) && layout.msiMonth != null;
+      if (!hasMsi) continue;
+      const spring = layout.spans[layout.msiAfter - 1];
+      check('nextStageIn：MSI 年，春季季後賽隔月的下一階段是 MSI',
+        nextStageIn({ year, month: spring.playoff + 1, league })?.kind === 'MSI', tag);
+      check('nextStageIn：MSI 年，MSI 當月倒數為 0',
+        nextStageIn({ year, month: layout.msiMonth, league })?.monthsAway === 0, tag);
+      const afterMsi = nextStageIn({ year, month: layout.msiMonth + 1, league });
+      check('nextStageIn：MSI 年，MSI 隔月的下一階段是下一段開幕',
+        afterMsi?.kind === 'SPLIT' && afterMsi.month > layout.msiMonth, tag);
+    }
+  }
+  const noMsi2020 = monthLayout(2020, 'HOME');
+  const spring2020 = noMsi2020.spans[0];
+  const r2020 = nextStageIn({ year: 2020, month: spring2020.playoff + 1, league: LEAGUE_OF_REGION.HOME });
+  check('nextStageIn：非 MSI 年（2020 停辦），春季季後賽隔月直接是夏季開幕（MSI 年同位置會是 MSI）',
+    r2020?.kind === 'SPLIT', `2020 HOME ${JSON.stringify(r2020)}`);
 
   log(`月序年曆：掃過 ${years} 個賽區年，養成回合數分布 ${
     Object.entries(devCount).sort().map(([n, c]) => `${n} 個×${c}`).join('、')}`);

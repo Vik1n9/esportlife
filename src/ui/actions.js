@@ -14,6 +14,15 @@ function actRoot() { return byId('act'); }
 export function clearActions() { clear(actRoot()); }
 
 /**
+ * 是否有正在等待玩家輸入的 beat（選項／加點）。
+ *
+ * S38 的屬性條〔+N〕入口要在空窗期直接開加點流程——`askChoice` 掛著時覆寫 #act
+ * 會讓那個 promise 永遠不 resolve、引擎卡死，所以點擊前先問這裡。
+ */
+let awaitingInput = false;
+export const isAwaitingInput = () => awaitingInput;
+
+/**
  * 顯示一組選項，回傳玩家選中的 id。
  *
  * 設施制訓練（S16）之後，養成回合的「活動選單」也走這裡——每個選項的 `note` 已由
@@ -22,6 +31,7 @@ export function clearActions() { clear(actRoot()); }
  * @returns {Promise<string>}
  */
 export function askChoice({ title, options }) {
+  awaitingInput = true;
   return new Promise((resolve) => {
     const act = actRoot();
     act.classList.remove('collapsed');
@@ -31,7 +41,7 @@ export function askChoice({ title, options }) {
     for (const opt of options) {
       const btn = el('button', {
         class: 'btn',
-        onclick: () => { clear(act); resolve(opt.id); },
+        onclick: () => { clear(act); awaitingInput = false; resolve(opt.id); },
       });
       btn.appendChild(el('span', { text: opt.label }));
       if (opt.note) btn.appendChild(el('small', { text: opt.note }));
@@ -54,6 +64,7 @@ export function askChoice({ title, options }) {
  * @param {() => void} onChange 每次加點後通知外層更新 board / 面板
  */
 export function askAllocation(state, spec, onChange) {
+  awaitingInput = true;
   return new Promise((resolve) => {
     const act = actRoot();
     act.classList.remove('collapsed');
@@ -178,7 +189,7 @@ export function askAllocation(state, spec, onChange) {
         bottom.appendChild(el('button', {
           class: 'btn main',
           text: pool > 0 && allCapped ? '屬性已達上限，捨棄剩餘 ▸' : '確認 ▸',
-          onclick: () => { clear(act); resolve(); },
+          onclick: () => { clear(act); awaitingInput = false; resolve(); },
         }));
       }
     }

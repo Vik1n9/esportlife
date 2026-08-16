@@ -12,7 +12,9 @@
 
    鐵則（動不得，JS 與 HTML 靠它們維持可見性）：
    [hidden] 與 #act.collapsed 必須 display:none!important；
-   #panel 預設隱藏、.open 才顯示；.yr-block.collapsed 收年度。
+   #panel 預設隱藏、.open 才顯示；.yr-block.collapsed 收年度；
+   #bd-quests 無任務時由 JS 切 [hidden] 整列折疊（§22.5）；
+   #attrbar 常駐、DOM 上緊貼 #act 上方，中間不得插入其他區塊（§22.1）。
    ============================================================ */
 
 :root{
@@ -79,17 +81,17 @@ button{font-family:var(--ui)}
   border-bottom:var(--hair) solid var(--edge);padding:10px 14px 0;
 }
 
-/* 第一列：名字／隊伍／兩個動作鈕 */
-#bd-top{display:flex;align-items:baseline;gap:8px;padding-bottom:9px}
+/* 列1：選手ID·位置·年齡 ｜ 年.月·階段 ｜ 距下階段倒數 ｜ ☰ ↺（§22.1，S38） */
+#bd-top{display:flex;align-items:center;gap:8px;padding-bottom:8px}
 #bd-name{
-  font-weight:600;font-size:16px;letter-spacing:.015em;white-space:nowrap;
-  overflow:hidden;text-overflow:ellipsis;flex:none;max-width:45%;
+  font-weight:600;font-size:15px;letter-spacing:.015em;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;flex:none;max-width:42%;
 }
 #bd-name small{color:var(--dim);font-weight:400;font-size:11px;margin-left:6px}
-#bd-team{
-  color:var(--glow);font-size:12.5px;font-weight:600;flex:1;text-align:right;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-}
+#bd-when{flex:1;display:flex;flex-direction:column;line-height:1.3;min-width:0}
+#bd-ym{font-family:var(--mono);font-size:13px;font-weight:700}
+#bd-stage{font-size:10.5px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#bd-next{font-family:var(--mono);font-size:11px;color:var(--gold-ink);white-space:nowrap;flex:none}
 #bd-top button{
   background:var(--raise);border:none;color:var(--dim);border-radius:var(--r-sm);
   font-size:14px;line-height:1;padding:6px 9px;cursor:pointer;flex:none;
@@ -97,13 +99,27 @@ button{font-family:var(--ui)}
 }
 #bd-top button:hover{background:var(--raise-h);color:var(--text)}
 
-/* 第二列：四個數字格 */
-#bd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
-.bd-cell{background:var(--raise);border-radius:var(--r-sm);padding:5px 6px 4px;text-align:center}
-.bd-cell b{display:block;font-family:var(--mono);font-size:20px;font-weight:700;line-height:1.2}
-.bd-cell span{font-size:10.5px;color:var(--dim)}
-/* 版本落差標在格子的標籤上而不是數字上：扣的是戰力與估價，不是技能值本身 */
-.bd-cell.penalised span{color:var(--bad)}
+/* 列2：體力條＋區間標籤＋短期效果／受傷。體力必須常駐可見（§6／§22.5） */
+#bd-stamina{display:flex;align-items:center;gap:6px;padding-bottom:6px}
+#bd-stamina .abrow.mini{flex:1}
+#bd-stam-tags{display:flex;gap:4px;flex:none}
+.tag.inj{color:var(--bad);background:#2a1a20}
+
+/* 列3：賽區 ｜ 隊伍名 ｜ 排名（排名資料待接，§21.3） */
+#bd-line{display:flex;align-items:center;gap:8px;font-size:12.5px;padding-bottom:7px}
+#bd-league{flex:none}
+#bd-team{
+  color:var(--glow);font-weight:600;flex:1;text-align:center;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+#bd-line .muted b{color:var(--dim);font-family:var(--mono)}
+
+/* 列4：生涯任務指示。無任務時整列折疊（JS 切 [hidden]） */
+#bd-quests{padding-bottom:6px;display:flex;flex-direction:column;gap:4px}
+#bd-quests .abrow{margin-top:0;padding:5px 8px}
+#bd-quests .abrow .nm{width:auto;max-width:40%;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#bd-quests .abrow .val{width:auto;flex:1;text-align:right}
+#bd-quests .abrow .val b{display:inline;font-size:13px}
 
 /* 月份燈：一年十二個回合，亮的是當下的月份（V4 §3.2） */
 #lamps{display:flex;gap:0;justify-content:space-between;margin:8px -14px 0;padding:0 8px;
@@ -273,6 +289,27 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .abrow .val .cost{display:block;font-size:11px;color:var(--dim)}
 .abrow .val .need{display:block;font-size:10.5px;color:var(--gold-ink);white-space:nowrap}
 .abrow .val .thr{display:block;font-size:9.5px;color:var(--ghost);white-space:nowrap}
+
+/* 屬性條縮小變體（S38，§22.1）：三欄×兩列常駐。一律掛 .static——唯讀回饋，
+   不是可按的控制項（DESIGN.md 原則 6）。軌道三道刻度：填充 i／潛力 em／蓄力 u */
+.abrow.mini{padding:4px 8px;margin-top:0;gap:6px}
+.abrow.mini .nm{width:auto;min-width:30px;font-size:12px}
+.abrow.mini .bar{height:6px}
+.abrow.mini .bar u{position:absolute;top:-2px;bottom:-2px;left:var(--carry);width:2px;
+  background:var(--gold-ink);border-radius:1px;text-decoration:none}
+.abrow.mini .val{width:auto;min-width:36px;text-align:right}
+.abrow.mini .val b{display:inline;font-size:14px}
+.abrow.mini .val .cost{display:block;font-size:9.5px;color:var(--dim);white-space:nowrap}
+.abrow.mini.hl{border-color:var(--gold)}
+
+/* 常駐屬性條：緊貼行動列上方（§22.1 拇指區，中間不得插入其他區塊）。
+   貼合手段：#app 是 flex column、#log flex:1 把這塊壓到底，不必 sticky */
+#attrbar{border-top:var(--hair) solid var(--edge);padding:6px 14px 4px;background:var(--night)}
+#attrbar .attr-head{display:flex;justify-content:flex-end;padding:0 0 4px}
+#attrbar .attr-plus{background:none;border:none;color:var(--gold-ink);font-size:12px;
+  font-weight:700;cursor:pointer;padding:0 2px;font-family:var(--ui)}
+#attrbar .attr-plus:hover{color:var(--legendary)}
+#attrbar .attr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 6px}
 
 /* 加點／減點按鈕 */
 .step{width:44px;height:44px;border-radius:var(--r-sm);flex:none;display:flex;align-items:center;justify-content:center;

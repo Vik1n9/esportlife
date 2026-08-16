@@ -121,8 +121,12 @@ function traitDescByName(name) {
   return '';
 }
 
-/** 進行中的生涯任務（S17b，§12.3「進度與期限可見」的最小呈現：卡名＋目標＋剩餘賽季數） */
-function questRows(state) {
+/**
+ * 進行中的生涯任務（S17b，§12.3「進度與期限可見」的最小呈現：卡名＋目標＋剩餘賽季數）。
+ *
+ * S38 起匯出給狀態帶第四列共用——任務呈現只准這一份，抄第二份就會出現兩邊不同步。
+ */
+export function questRows(state) {
   const active = state.quests?.active ?? [];
   if (!active.length) return '<span class="muted">尚無進行中的任務</span>';
   const byId = new Map(QUEST_CARDS.map((c) => [c.id, c]));

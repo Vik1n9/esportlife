@@ -71,20 +71,34 @@
 </div>
 
 <div id="app">
+  <!-- 五列狀態帶（§22.1，S38）。格內數值由 ui/board.js 填；骨架與標籤住這裡 -->
   <header id="board" hidden>
+    <!-- 列1：選手ID·位置·年齡 ｜ 年.月·階段 ｜ 距下階段倒數 ｜ ☰ ↺ -->
     <div id="bd-top">
       <div id="bd-name"></div>
-      <div id="bd-team"></div>
+      <div id="bd-when"><b id="bd-ym"></b><span id="bd-stage"></span></div>
+      <div id="bd-next"></div>
       <button id="btn-panel" title="選手資料">☰</button>
       <button id="btn-restart" title="重新開始">↺</button>
     </div>
-    <div id="bd-grid">
-      <div class="bd-cell"><b id="bd-age">19</b><span>歲</span></div>
-      <div class="bd-cell"><b id="bd-year">2015</b><span id="bd-year-name">年份</span></div>
-      <div class="bd-cell"><b id="bd-core">0</b><span id="bd-core-name">核心技能</span></div>
-      <div class="bd-cell"><b id="bd-sal">0</b><span>生涯薪資</span></div>
+    <!-- 列2：體力條＋區間標籤＋短期效果／受傷（體力必須常駐可見，§6／§22.5） -->
+    <div id="bd-stamina">
+      <div class="abrow mini static">
+        <div class="nm">體力</div>
+        <div class="bar" id="bd-stam-bar"><i></i><em></em></div>
+        <div class="val"><b id="bd-stam-num"></b><span class="cost" id="bd-stam-band"></span></div>
+      </div>
+      <span id="bd-stam-tags"></span>
     </div>
-    <!-- 一年十二個回合（V4 §3.2）。亮的是當下的月份，暗的是已經走過的 -->
+    <!-- 列3：賽區 ｜ 隊伍名 ｜ 排名（排名資料待接，§21.3／Phase 1 積分榜產出後填） -->
+    <div id="bd-line">
+      <span id="bd-league" class="muted"></span>
+      <span id="bd-team"></span>
+      <span class="muted">排名 <b id="bd-rank">—</b></span>
+    </div>
+    <!-- 列4：生涯任務指示。無任務時整列折疊（§22.5），由 board.js 切 hidden -->
+    <div id="bd-quests" hidden></div>
+    <!-- 列5：一年十二個回合（V4 §3.2）。亮的是當下的月份，暗的是已經走過的 -->
     <div id="lamps" aria-label="年度進度">
       <span class="lamp"><i></i>1</span>
       <span class="lamp"><i></i>2</span>
@@ -104,6 +118,8 @@
   <main id="log"></main>
 
   <button id="act-toggle" style="display:none">⌄ 收合選項</button>
+  <!-- 常駐屬性條：緊貼行動列上方，中間不得插入其他區塊（§22.1，S38） -->
+  <div id="attrbar" hidden aria-label="六屬性"></div>
   <footer id="act" hidden></footer>
 </div>
 
