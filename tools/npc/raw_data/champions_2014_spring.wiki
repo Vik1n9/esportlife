@@ -1,0 +1,364 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Champions%2F2014%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:05:46.848Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Champions 2014 Spring}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-31
+}}
+{{LCK Navbox}}
+{{Champions 2014 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=Champions 2014 Spring 
+|shortname=2014 Spring 
+|image=LCK full lightmode.png
+|imagedark=LCK full darkmode.png
+|icon=LCK lightmode.png
+|icondark=LCK darkmode.png
+|series=Champions Korea
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|sponsor=HOT6iX
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=
+|format=Group Stage<br/>Single Elimination ({{Abbr/Bo5}})
+|prizepool=270,000,000
+|localcurrency=krw
+|prizepoolusd=
+|sdate=2014-03-12
+|edate=2014-05-24
+|liquipediatier=1
+|highlighted=|website=
+|stream=
+|twitch=
+|twitch2=
+|youtube=
+|team_number=16
+|previous=Champions/2013-2014/Winter{{!}}2014 Winter 
+|next=Champions/2014/Summer{{!}}2014 Summer 
+}}
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=champions2014|localcurrency=krw|cutafter=8
+|tournament1=Champions/2014/Spring/Group Stage |tournament2=Champions/2014/Spring/Playoffs
+|qualifies1=NLB/2014/Spring |qualifies1name=NLB Spring
+|qualifies2=Champions/2014/Summer |qualifies2name=Summer
+|{{Slot |points=400 |qualified2=true|localprize=80,000,000}}
+|{{Slot |points=225 |qualified2=true|localprize=40,000,000}}
+|{{Slot |points=150 |qualified2=true|localprize=24,000,000}}
+|{{Slot |points=100 |qualified2=true|localprize=18,000,000}}
+|{{Slot |place=5-8 |qualified2=true|qualified1=true |localprize=10,000,000}}
+|{{Slot |place=9-12 |qualified1=true |localprize=6,000,000}}
+|{{Slot |place=13-16 |qualified1=true |localprize=6,000,000}}
+}}
+
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=6
+|{{Slot|award=Season MVP |localprize=10,000,000|{{Opponent|dade|flag=kr|team=samsung blue}}}}
+|{{Slot|award=Top Lane KDA |localprize=2,000,000|{{Opponent|Acorn|flag=kr|team=samsung blue}}}}
+|{{Slot|award=Jungle KDA |localprize=2,000,000|{{Opponent|Spirit|flag=kr|team=samsung blue}}}}
+|{{Slot|award=Mid Lane KDA |localprize=2,000,000|{{Opponent|PawN|flag=kr|team=samsung ozone}}}}
+|{{Slot|award=AD Carry KDA |localprize=2,000,000|{{Opponent|Deft|flag=kr|team=samsung blue}}}}
+|{{Slot|award=Support KDA |localprize=2,000,000|{{Opponent|Heart|flag=kr|team=samsung blue}}}}
+}}
+<!--
+{{box|break|padding=2em}}
+{{MVPTable |points=true
+|title=Group Stage MVP
+|tournament=Champions/2014/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable |points=true
+|title=Playoffs MVP
+|tournament=Champions/2014/Summer/Playoffs
+}}
+-->
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CJ Entus Blaze
+|image=CJ Entus Blaze Logo.png
+|p1=Flame |p1flag=kr 	
+|p2=Daydream |p2flag=kr 
+|p3=Ambition |p3flag=kr 
+|p4=Emperor |p4flag=kr
+|p5=Lustboy |p5flag=kr
+|c=Kezman |cflag=kr
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=CJ Entus Frost
+|image=CJ Entus Frost Logo.png
+|p1=Shy |p1flag=kr 
+|p2=Swift |p2flag=kr 
+|p3=CoCo |p3flag=kr 
+|p4=Space |p4flag=kr 
+|p5=MadLife |p5flag=kr 
+|c=Onair |cflag=kr
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=KT Rolster Bullets
+|image=kt Rolster Bullets lightmode.png|imagedark=kt Rolster Bullets darkmode.png
+|p1=Leopard |p1flag=kr 
+|p2=inSec |p2flag=kr 
+|p3=Ryu |p3flag=kr 
+|p4=Score |p4flag=kr 
+|p5=Mafa |p5flag=kr 
+|p6=Zero |p6flag=kr |pos6=sup|p6link=Zero (Korean player)
+|c= |cflag=
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=NaJin White Shield
+|image=NJWS logo.png
+|p1=Save |p1flag=kr 
+|p2=Watch |p2flag=kr 
+|p3=Ggoong |p3flag=kr 
+|p4=Zefa |p4flag=kr 
+|p5=GuGer |p5flag=kr |pos5=ad
+|p6=GorillA |p6flag=kr |pos6=sup
+|p7=Pure |p7flag=kr  |pos7=sup
+|c=Sim |cflag=kr 
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=Samsung Blue
+|image=Samsung Blue Logo.png
+|p1=Acorn |p1flag=kr 
+|p2=Vision |p2flag=kr |pos2=top
+|p3=Spirit |p3flag=kr |pos3=jg
+|p4=dade |p4flag=kr |pos4=mid
+|p5=Deft |p5flag=kr  |pos5=ad
+|p6=Heart |p6flag=kr |pos6=sup
+|p7=Bust |p7flag=kr |pos7=sup
+|c= |cflag=
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=Samsung Ozone
+|image=Samsung Galaxy Ozone.png
+|p1=Looper |p1flag=kr
+|p2=DanDy |p2flag=kr 
+|p3=PawN |p3flag=kr 
+|p4=Hawk |p4flag=kr |pos4=mid |p4link=Hawk (Korean player)
+|p5=imp |p5flag=kr |pos5=ad
+|p6=Mata |p6flag=kr |pos6=sup
+|p7=Gun |p7link=Gun (Korean player) |p7flag=kr |pos7=sup
+|c=Homme |cflag=kr
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=SK Telecom T1 K
+|image=SK Telecom K Logo.png
+|p1=Impact |p1flag=kr 
+|p2=Bengi |p2flag=kr 
+|p3=Faker |p3flag=kr 
+|p4=Piglet |p4flag=kr 
+|p5=Casper |p5flag=kr 
+|p6=PoohManDu |p6flag=kr |pos6=sup 
+
+|t2title=Staff
+|t2p1=cCarter|t2p1flag=kr|t2pos1=head coach
+|t2p2=kkOma |t2p2flag=kr |t2pos2=coach
+|qualifier=[[Champions/2013-2014/Winter|Winter Season]]
+}}
+{{TeamCard
+|team=Incredible Miracle 1
+|image=Incredible Miracle 1 Logo.png
+|p1=Smeb |p1flag=kr 
+|p2=Lilac |p2flag=kr 
+|p3=MidKing |p3flag=kr 
+|p4=Violet |p4link=Violet (Korean player) |p4flag=kr 
+|p5=BBuing |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Incredible Miracle 2
+|image=Incredible Miracle 2 Logo.png.png
+|p1=Apple |p1flag=kr 
+|p2=Reign over |p2flag=kr 
+|p3=Kuro |p3flag=kr 
+|p4=BetKyo |p4flag=kr 
+|p5=Paragon |p5flag=kr |pos5=ad
+|p6=Lasha |p6flag=kr |pos6=sup
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings Falcons
+|image=Jin Air Green Wings Falcons Logo.png
+|p1=Miso |p1flag=kr 
+|p2=RealFoxy |p2flag=kr 
+|p3=Ganked By Mom |p3flag=kr |pos3=jg
+|p4=BoRoona |p4flag=kr |pos4=mid
+|p5=Mystic |p5flag=kr |pos5=ad
+|p6=Kish |p6flag=kr |pos6=sup
+|c=Han Sang-yong |cflag=kr
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=KT Rolster Arrows
+|image=kt Rolster Arrows lightmode.png|imagedark=kt Rolster Arrows darkmode.png
+|p1=Ssumday |p1flag=kr 
+|p2=KaKAO |p2flag=kr 
+|p3=RooKie |p3flag=kr 
+|p4=Arrow |p4flag=kr 
+|p5=Hachani |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Midas FIO
+|image=Midas FIO Logo.png
+|p1=Expect |p1flag=kr 
+|p2=SuNiN |p2flag=kr 
+|p3=Nexus |p3link=Nexus (Korean player) |p3flag=kr 
+|p4=Lactea |p4flag=kr 
+|p5=ANNA |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=NaJin Black Sword
+|image=Najin Black Sword Logo.png
+|p1=Limit |p1flag=kr 
+|p2=Helios |p2flag=kr |p2link=Helios (Korean player)
+|p3=ActScene |p3flag=kr |pos3=jg
+|p4=Nagne |p4flag=kr |pos4=mid
+|p5=Ohq |p5flag=kr |pos5=ad
+|p6=Cain |p6flag=kr |pos6=sup
+|p7=SSONG |p7flag=kr |pos7=sup
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=SK Telecom T1 S
+|image=SK Telecom S Logo.png
+|p1=MaRin |p1flag=kr 
+|p2=H0R0 |p2flag=kr 
+|p3=Easyhoon |p3flag=kr 
+|p4=Bang |p4flag=kr 
+|p5=Wolf |p5flag=kr |p5link=Wolf (Korean player)
+
+|t2title=Staff
+|t2p1=cCarter|t2p1flag=kr|t2pos1=head coach
+|t2p2=kkOma |t2p2flag=kr |t2pos2=coach
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Prime Optimus
+|image=Primelogo.png
+|p1=Hanlabong |p1flag=kr 
+|p2=Old B |p2flag=kr 
+|p3=Ninja |p3flag=kr 
+|p4=ZetNjin |p4flag=kr 
+|p5=Kkyul |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Xenics Storm
+|image=Xenics Storm Logo.png
+|p1=Ren |p1link=Ren (Korean player) |p1flag=kr 
+|p2=Vin |p2flag=kr 
+|p3=Alvingo |p3flag=kr 
+|p4=Ohq |p4flag=kr 
+|p5=Ink |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2014/Spring/Qualifier|Qualifier]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:Champions/2014/Spring/Group Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:Champions/2014/Spring/Group Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:Champions/2014/Spring/Group Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:Champions/2014/Spring/Group Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Champions/2014/Spring/Group Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=HWZPC6TB9O}}
+
+==Format==
+* '''Group Stage'''
+** Two groups of four
+** Single Round Robin
+** All matches are {{Abbr/Bo2}}
+** {{bgcolortext|up|Top two}} from each group qualify for Playoffs
+** {{bgcolortext|down|Bottom two}} from each group are seeded into [[NLB/2014/Spring|NLB Spring]]
+* '''Playoffs'''
+** Single elimination bracket
+** All matches are {{Abbr/Bo5}}
+** If a series reaches Game 5, said game will be played in ''Blind Pick'' mode
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=uk |twitch1=ongamenet
+|lang2=kr |twitch2=ogn_lol
+}}
+===Talent===
+====Korean Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=Kim Dong-joon |b2flag=kr
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Caster
+|b1=DoA
+|b2=MonteCristo
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:Champions/2014/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|tiers=1|limit=10|playerspage=Champions/2014/Spring|edate=2014-05-27}}
+:''See [[Champions/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

@@ -1,0 +1,339 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=Champions%2F2013%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:05:42.815Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:Champions 2013 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-10-31
+}}
+{{LCK Navbox}}
+{{Champions 2013 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=Champions 2013 Summer
+|tickername=Champions 2013 Summer
+|shortname=2013 Summer 
+|image=LCK full lightmode.png
+|imagedark=LCK full darkmode.png
+|icon=LCK lightmode.png
+|icondark=LCK darkmode.png
+|series=Champions Korea
+|organizer=Riot Games
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|sponsor=HOT6ix
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=
+|format=Group Stage<br/>Single Elimination ({{Abbr/Bo5}})
+|prizepool=270,000,000
+|localcurrency=krw
+|sdate=2013-07-03
+|edate=2013-08-31
+|liquipediatier=1
+|team_number=16
+|previous=Champions/2013/Spring{{!}}2013 Spring 
+|next=Champions/2013-2014/Winter{{!}}2013-2014 Winter 
+}}
+
+
+==Prize Pool==
+{{TeamPrizePool|points=champions2013|localcurrency=krw|cutafter=8
+|tournament1=Champions/2013/Summer/Group Stage|tournament2=Champions/2013/Summer/Playoffs
+|qualifies1=Champions/2013-2014/Winter |qualifies1name= Winter
+|qualifies2=NLB/2013/Summer |qualifies2name=NLB Summer
+|{{Slot |points=400 |qualified1=true|localprize=80,000,000}}
+|{{Slot |points=225 |qualified1=true|localprize=40,000,000}}
+|{{Slot |points=150 |qualified1=true|localprize=24,000,000}}
+|{{Slot |points=100 |qualified1=true|localprize=18,000,000}}
+|{{Slot |place=5-8 |qualified1=true|qualified2=true|localprize=10,000,000}}
+|{{Slot |place=9-12 |qualified2=true|localprize=6,000,000}}
+|{{Slot |place=13-16|qualified2=true |localprize=6,000,000}}
+}}
+
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=6
+|{{Slot|award=Season MVP |localprize=10,000,000|{{Opponent|Faker |flag=kr|team=skt 2}}}}
+|{{Slot|award=Top Lane KDA |localprize=2,000,000|{{Opponent|inSec |flag=kr|team=kt b}}}}
+|{{Slot|award=Jungle KDA |localprize=2,000,000|{{Opponent|Bengi |flag=kr|team=skt 2}}}}
+|{{Slot|award=Mid Lane KDA |localprize=2,000,000|{{Opponent|Faker |flag=kr|team=skt 2}}}}
+|{{Slot|award=AD Carry KDA |localprize=2,000,000|{{Opponent|Piglet |flag=kr|team=skt 2}}}}
+|{{Slot|award=Support KDA |localprize=2,000,000|{{Opponent|PoohManDu |flag=kr|team=skt 2}}}}
+}}
+<!--
+{{box|break|padding=2em}}
+{{MVPTable |points=true
+|title=Group Stage MVP
+|tournament=Champions/2014/Summer/Group Stage
+}}
+{{box|break|padding=2em}}
+{{MVPTable |points=true
+|title=Playoffs MVP
+|tournament=Champions/2014/Summer/Playoffs
+}}
+-->
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=CJ Entus Blaze
+|image=CJ Entus Blaze Logo.png
+|p1=Flame |p1flag=kr 	
+|p2=Helios |p2flag=kr |p2link=Helios (Korean player)
+|p3=Ambition |p3flag=kr 
+|p4=Hermes |p4flag=kr |pos4=ad
+|p5=Cpt Jack |p5flag=kr |pos5=ad
+|p6=Lustboy |p6flag=kr |pos6=sup
+|c=Kezman |cflag=kr
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=CJ Entus Frost
+|image=CJ Entus Frost Logo.png
+|p1=Shy |p1flag=kr 
+|p2=CloudTemplar |p2flag=kr 
+|p3=Ganked By Mom |p3flag=kr |pos3=mid
+|p4=RapidSTAR |p4flag=kr |pos4=mid
+|p5=Space |p5flag=kr |pos5=ad
+|p6=MadLife |p6flag=kr |pos6=sup
+|c=Onair |cflag=kr
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=KT Rolster B
+|image=kt Rolster Bullets lightmode.png|imagedark=kt Rolster Bullets darkmode.png
+|p1=Ssumday |p1flag=kr 
+|p2=inSec |p2flag=kr |pos2=top
+|p3=KaKAO |p3flag=kr |pos3=jg
+|p4=Ryu |p4flag=kr  |pos4=mid
+|p5=Score |p5flag=kr |pos5=ad
+|p6=Mafa |p6flag=kr |pos6=sup
+|c= |cflag=
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=MVP Ozone
+|image=MVPlogo.png
+|p1=Homme |p1flag=kr 
+|p2=DanDy |p2flag=kr 
+|p3=dade |p3flag=kr 
+|p4=imp |p4flag=kr 
+|p5=Mata |p5flag=kr 
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=NaJin Black Sword
+|image=Najin Black Sword Logo.png
+|p1=Expession |p1flag=kr 
+|p2=Watch |p2flag=kr 
+|p3=SSONG |p3flag=kr |pos3=mid
+|p4=PraY |p4flag=kr |pos4=ad
+|p5=Cain |p5flag=kr |pos5=sup
+|c= |cflag=
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=NaJin White Shield
+|image=NJWS logo.png
+|p1=Save |p1flag=kr 
+|p2=NoFe |p2flag=kr |pos2=jg
+|p3=Ggoong |p3flag=kr  |pos3=mid
+|p4=Zefa |p4flag=kr |pos4=ad
+|p5=Locodoco |p5flag=kr |pos5=ad
+|p6=GorillA |p6flag=kr |pos6=sup
+|c= |cflag=
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings Falcons
+|image=Jin Air Green Wings Falcons Logo.png
+|p1=Miso |p1flag=kr 
+|p2=Reapered |p2flag=kr
+|p3=Raven |p3flag=kr|p3link=Raven (Korean player)
+|p4=Roar |p4flag=kr
+|p5=StarLast |p5flag=kr 
+|c=Han Sang-yong |cflag=kr
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=SK Telecom T1 2
+|image=SKT_T1_Logo.png
+|p1=Impact |p1flag=kr 
+|p2=Bengi |p2flag=kr 
+|p3=Faker |p3flag=kr 
+|p4=Piglet |p4flag=kr 
+|p5=PoohManDu |p5flag=kr
+
+|t2p1=cCarter |t2p1flag=kr |t2pos1=Head Coach
+|t2p2=kkOma |t2pos2=Coach
+|t2title=Staff
+|qualifier=[[Champions/2013/Spring|Spring Season]]
+}}
+{{TeamCard
+|team=Chunnam Techno University
+|image=
+|p1=NonameD |p1flag=kr 
+|p2=Raccoon |p2flag=kr
+|p3=Mima |p3flag=kr 
+|p4=Riris |p4flag=kr 
+|p5=Wolf |p5flag=kr |p5link=Wolf (Korean player)
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Incredible Miracle 1
+|image=Incredible Miracle.png
+|p1=Smeb |p1flag=kr 
+|p2=Reign over |p2flag=kr 
+|p3=MidKing |p3flag=kr 
+|p4=Paragon |p4flag=kr 
+|p5=GGyuAng |p5flag=kr
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Incredible Miracle 2
+|image=Incredible Miracle.png
+|p1=Sylph |p1flag=kr 
+|p2=PLL |p2flag=kr |pos2=top
+|p3=Lilac |p3flag=kr |pos3=jg
+|p4=kurO |p4flag=kr |pos4=mid
+|p5=Scarlet |p5flag=kr |pos5=ad |p5link=Scarlet (Jeong Jae-ho)
+|p6=BBuing |p6flag=kr |pos6=sup
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings Stealths
+|image=Jin Air Green Wings Stealths Logo.png
+|p1=TrAce |p1flag=kr 
+|p2=ActScene |p2flag=kr 
+|p3=HooN |p3flag=kr 
+|p4=LOAD |p4flag=kr 
+|p5=IceBear |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=MiG Blitz
+|image=
+|p1=Apple |p1flag=kr 
+|p2=Prime |p2flag=kr |pos2=jg |p2link=Prime (player)
+|p3=WonSEok |p3flag=kr |pos3=mid
+|p4=Ggoggo |p4flag=kr  |pos4=ad
+|p5=Ryuna |p5flag=kr |pos5=sup
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=MVP Blue
+|image=MVPlogo.png
+|p1=Cheonju |p1flag=kr 
+|p2=CNyang |p2flag=kr 
+|p3=Spirit |p3flag=kr 
+|p4=easyhoon |p4flag=kr 
+|p5=Deft |p5flag=kr 
+|p6=FLahm |p6flag=kr |pos6=sup
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Xenics Blast
+|image=Xenics Blast Logo.png
+|p1=Stark |p1flag=kr 
+|p2=Quality |p2flag=kr 
+|p3=ManyReason |p3flag=kr 
+|p4=Bang |p4flag=kr 
+|p5=Boink |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard
+|team=Xenics Storm
+|image=Xenics Storm Logo.png
+|p1=Ragan |p1flag=kr 
+|p2=DayDream |p2flag=kr 
+|p3=CoCo |p3flag=kr 
+|p4=Arrow |p4flag=kr 
+|p5=comet |p5flag=kr 
+|c= |cflag=
+|qualifier=[[Champions/2013/Summer/Qualifier|Qualifier]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{box|start}}
+{{box|start|padding=4em}}
+{{#section:Champions/2013/Summer/Group Stage|GroupA}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:Champions/2013/Summer/Group Stage|GroupB}}
+<br/>
+{{box|end}}
+{{box|break}}
+{{box|start|padding=4em}}
+{{#section:Champions/2013/Summer/Group Stage|GroupC}}
+<br/>
+{{box|break|padding=4em}} 
+{{#section:Champions/2013/Summer/Group Stage|GroupD}}
+<br/>
+{{box|end}}
+{{box|end}}
+<span style="line-height:24px">&nbsp;''[[Champions/2013/Summer/Group Stage|Click here for more information about the Group Stage matches.]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=8KA8E8MV2G}}
+
+==Format==
+*'''Group Stage''':
+** Four groups of four teams
+** Single Round Robin, All matches are played in a {{Abbr/Bo2}}: 
+*** Winning 2-0 grants 3 points
+*** Drawing 1-1 grants 1 point
+*** Losing 0-2 grants 0 points
+*'''Playoffs''':
+** Single Elimination
+** All matches are played in a {{Abbr/Bo5}}
+
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=uk |twitch1=ongamenet
+|lang2=kr |twitch2=ogn_lol
+}}
+===Talent===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K|b2flag=kr
+|b3=Jung So-rim <!--|b3link=overwatch:Jung So-rim --> |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Nal_rA <!-- |b1link=starcraft:Nal_rA --> |b1name=Kang Min|b1flag=kr
+|b2=Kim Dong-joon |b2flag=kr
+}}
+{{box|end}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:Champions/2013/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|tiers=1|limit=10|playerspage=Champions/2013/Summer|edate=2013-09-01}}
+:''See [[Champions/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

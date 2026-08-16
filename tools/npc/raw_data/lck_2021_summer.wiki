@@ -1,0 +1,518 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2021%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:10:22.544Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2021 Summer}}
+{{LCK Navbox}}
+{{LCK 2021 Tabs}}
+{{Tabs static
+|name1=Overview
+|link1=LCK/2021/Summer
+|name2=Regular Season
+|link2=LCK/2021/Summer/Regular Season
+|name3=Playoffs
+|link3=LCK/2021/Summer/Playoffs
+|name4=Champion Stats
+|link4=LCK/2021/Summer/Statistics
+<!--
+|name5=Player Stats
+|link5=LCK/2021/Summer/Player Stats
+-->
+}}
+{{Infobox league
+|name=LCK 2021 Summer 
+|shortname=2021 Summer 
+|tickername=LCK 2021 Summer 
+|image=LCK 2021 full lightmode.png
+|imagedark=LCK 2021 full_darkmode.png
+|series=LCK 
+|icon=LCK 2021 lightmode.png
+|icondark=LCK 2021 darkmode.png
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|sponsor=[http://www.wooribank.com/ Woori Bank]
+|sponsor2=[https://www.omen.com/ OMEN]
+|sponsor3=[https://www.mcdonalds.com/us/en-us.html McDonald's]
+|sponsor4=[http://www.logitech.com/ Logitech]
+|sponsor5=[https://secretlab.co/collections Secret Lab]
+|patch=11.11
+|epatch=11.16
+|type=Offline
+|country=Korea
+|city=Seoul |venue=LoL Park
+|country2=Korea
+|city2=Goyang
+|venue2=Ilsan CJ E&M Studio |venue2desc=Finals
+|format='''Regular Season:'''<br>Double Round-Robin <br>'''Playoffs:'''<br>Double Elimination
+|prizepool=375,000,000
+|localcurrency=krw
+|sdate=2021-06-09
+|edate=2021-08-28
+|liquipediatier=1
+|rulebook=https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/0f9b417f6e463994a59d15b0dba07c452608946c.pdf
+|website=http://www.lolesports.com/en_US/lck
+|twitch=lck
+|twitter=lck
+|facebook=officiallck
+|instagram=lckofficial
+|youtube=LCKglobal
+|team_number=10
+|previous=LCK/2021/Spring{{!}}2021 Spring 
+|next=LCK/2022/Spring{{!}}2022 Spring
+|next2=LCK/2021/Regional Finals{{!}}Regional Finals
+}}
+The '''LCK 2021 Summer''' Split was the second split of the 2021 season of the [[League of Legends Champions Korea]], organized by Riot Games. The competition ran from June 9 to August 28, 2021, with the regular season played offline at LoL Park in Seoul. The Playoffs were held at the same venue, with the Finals staged at the CJ ENM Studio Center in Ilsan. Ten teams competed in a Double Round Robin regular season with best-of-three matches, and the top six advanced to a single-elimination Playoffs played as best-of-five. The winner qualified for the [[World Championship/2021|2021 World Championship]]. The split was played on patches 11.11 through 11.16.
+
+==Prize Pool==
+{{TeamPrizePool|points=lck2021|localcurrency=krw|cutafter=10
+|qualifies1=World Championship/2021|qualifies1name=Worlds
+|{{Slot |place=1 |qualified1=yes |localprize=200,000,000 |{{Opponent|dk |lastvs=t1 |lastvsscore=3-1}}}}
+|{{Slot |place=2 |points=100 |localprize=100,000,000 |{{Opponent|t1 |lastvs=dk |lastvsscore=1-3}}}}
+|{{Slot |place=3 |points=80 |localprize=50,000,000 |{{Opponent|gen |lastvs=t1 |lastvsscore=1-3 |date=2021-08-22}}}}
+|{{Slot |place=4 |points=50 |localprize=25,000,000 |{{Opponent|ns |lastvs=dwg |lastvsscore=0-3 |date=2021-08-21}}}}
+|{{Slot |place=5 |points=30 |{{Opponent|sbg |lastvs=t1 |lastvsscore=0-3 |date=2021-08-19}}}}
+|{{Slot |place=6 |points=10 |{{Opponent|afs |lastvs=ns |lastvsscore=1-3 |date=2021-08-18}}}}
+|{{Slot |place=7 |{{Opponent|kt |wdl=7/11 |date=2021-08-15}}}}
+|{{Slot |place=8 |{{Opponent|hle |wdl=7/11 |date=2021-08-15}}}}
+|{{Slot |place=9 |{{Opponent|bro |wdl=5/13 |date=2021-08-15}}}}
+|{{Slot |place=10 |{{Opponent|drx |wdl=2/16 |date=2021-08-15}}}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=1em}}
+{{prize pool start award|localcurrency=krw|cutafter=10|margin=false}}
+{{prize pool slot award|award=Player of the Split |Gori |localprize=2000000 |flag1=kr |team1=ns |date1=2021-08-17}}
+{{prize pool slot award|award=Regular Season MVP |Peanut |localprize=5000000 |flag1=kr |team1=ns |date1=2021-08-17}}
+{{prize pool slot award|award=Final MVP |ShowMaker |localprize=5000000 |flag1=kr |team1=dk}}
+{{prize pool slot award|award=Best Coach |kkOma |localprize=3000000 |flag1=kr |team1=dk |date1=2021-08-17}}
+{{prize pool slot award|award=Rookie of the Year |Croco |localprize=3000000 |flag1=kr |team1=sbg |date1=2021-08-17}}
+{{prize pool slot award|award=All-LCK First Team |localprize=2000000 |date=2021-08-17
+|Kiin |flag1=kr |team1=afs
+|Peanut |flag2=kr |team2=ns
+|ShowMaker |flag3=kr |team3=dwg
+|deokdam |flag4=kr |team4=ns
+|Keria |flag5=kr |team5=t1
+}}
+{{prize pool slot award|award=All-LCK Second Team |date=2021-08-17
+|Khan |flag1=kr |team1=dwg
+|Canyon |flag2=kr |team2=dwg
+|Bdd |flag3=kr |team3=gen
+|Ruler |flag4=kr |team4=gen
+|Kellin |flag5=kr |team5=ns
+}}
+{{prize pool slot award|award=All-LCK Third Team |date=2021-08-17
+|Summit |flag1=kr |team1=sbg
+|Croco |flag2=kr |team2=sbg
+|Chovy |flag3=kr |team3=hle
+|Prince |flag4=kr |team4=sbg
+|Effort |flag5=kr |team5=sbg
+}}
+{{Prize pool end noprize}}
+{{box|break|padding=1em}}
+{{MVPTable|useSmw=true |points=true |cutafter=5|margin=false
+|title=Regular Season MVP
+|tournament=LCK/2021/Summer/Regular Season
+}}
+{{box|break|padding=1em}} 
+{{MVPTable|useSmw=true |points=true |cutafter=5|margin=false
+|title=Playoffs MVP
+|tournament=LCK/2021/Summer/Playoffs
+}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2021-04-09
+|edate=2021-06-09
+|team=afreeca freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}
+{{Transfer List
+|title=Roster moves during the season
+|sdate=2021-06-09
+|edate=2021-10-01
+|team=afreeca freecs
+|team2=brion esports
+|team3=damwon gaming
+|team4=drx
+|team5=gen.g
+|team6=hanwha life esports
+|team7=kt rolster
+|team8=nongshim redforce
+|team9=sandbox gaming
+|team10=t1
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Afreeca Freecs
+|p1=Kiin
+|p2=Dread |p2link=Dread_(Korean_player)
+|p3=Fly |p3link=Fly_(Song_Yong-jun)
+|p4=Leo |p4link=Leo_(Han_Gyeo-re)
+|p5=Lehends
+
+|t2p1=Bang |t2p1flag=kr |t2pos1=bot |t2p1dnp=true
+|t2p2=MapSSi |t2p2flag=kr |t2pos2=sup |t2p2dnp=true
+|t2title=Subs
+
+|t3p1=Cain |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Rigby |t3p2flag=kr |t3pos2=Coach
+|t3p3=Spirit |t3p3flag=kr |t3pos3=Coach
+|t3p4=LirA |t3p4flag=kr |t3pos4=Coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Brion Esports
+|p1=Hoya
+|p2=UmTi
+|p3=Lava
+|p4=Hena
+|p5=Delight
+
+|t2p1=Chieftain |t2p1flag=kr |t2pos1=jg
+|t2p2=Yaharong |t2p2flag=kr |t2pos2=mid
+|t2p3= |t2p3flag=kr |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Edgar |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Drinker |t3p2flag=kr |t3pos2=Coach
+|t3p3= |t3p3flag=kr |t3pos3=Coach
+|t3p4= |t3p4flag=kr |t3pos4=Coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=DAMWON Gaming
+|p1=Khan
+|p2=Canyon
+|p3=Malrang  |pos3=jg
+|p4=ShowMaker |pos4=mid
+|p5=Ghost |pos5=bot |p5link=Ghost_(Korean_player)
+|p6=BeryL |pos6=sup
+
+|t2p1=Rahel |t2p1flag=kr |t2pos1=bot |t2p1dnp=true
+|t2p2= |t2p2flag=kr |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag=kr |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=kkOma |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=PoohManDu |t3p2flag=kr |t3pos2=Coach
+|t3p3=Ares |t3p3flag=kr |t3pos3=Coach
+|t3p4=Daeny |t3p4flag=kr |t3pos4=analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=DRX
+|p1=Kingen
+|p2=Pyosik
+|p3=SOLCA
+|p4=Jett |pos4=mid
+|p5=Taeyoon |pos5=bot
+|p6=Jun |pos6=sup
+
+|t2p1=Destroy |t2p1flag=kr |t2pos1=top
+|t2p2=BAO |t2p2flag=kr |t2pos2=bot
+|t2p3=Becca |t2p3flag=kr |t2pos3=sup
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=cvMax |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=SSONG |t3p2flag=kr |t3pos2=Coach
+|t3p3=Museong |t3p3flag=kr |t3pos3=Coach
+|t3p4=dongHo |t3p4flag=kr |t3pos4=Coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Gen.G
+|p1=Rascal
+|p2=Clid
+|p3=Bdd
+|p4=Ruler
+|p5=Life
+
+|t2p1=Burdol |t2p1flag=kr |t2pos1=top
+|t2p2=Flawless |t2p2flag=kr |t2pos2=jg |t2p2dnp=true
+|t2p3=YoungJae |t2p3flag=kr |t2pos3=jg
+|t2p4=Karis  |t2p4flag=kr |t2pos4=mid
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=oDin |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Lyn |t3p2flag=kr |t3pos2=Coach
+|t3p3=Ggoong |t3p3flag=kr |t3pos3=Coach
+|t3p4= |t3p4flag=kr |t3pos4=Coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Hanwha Life Esports
+|p1=Morgan
+|p2=Arthur |p2link=Arthur_(Park_Mi-reu)
+|p3=Chovy
+|p4=Deft
+|p5=Vsta
+
+|t2p1=DuDu |t2p1flag=kr |t2pos1=top
+|t2p2=yoHan |t2p2flag=kr |t2pos2=jg
+|t2p3=Willer |t2p3flag=kr |t2pos3=jg
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Kezman |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=suDal |t3p2flag=kr |t3pos2=Coach
+|t3p3=Heart |t3p3flag=kr |t3pos3=Coach
+|t3p4=Bibra |t3p4flag=kr |t3pos4=Analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Doran
+|p2=Blank
+|p3=Ucal
+|p4=5Kid |pos4=bot
+|p5=Noah |pos5=bot
+|p6=Harp |pos6=sup
+
+|t2p1=GIDEON |t2p1flag=kr |t2pos1=jg
+|t2p2=Dove |t2p2flag=kr |t2pos2=mid
+|t2p3=Zzus |t2p3flag=kr |t2pos3=sup
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Hirai |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=supreme |t3p2flag=kr |t3pos2=Coach
+|t3p3=Acorn |t3p3flag=kr |t3pos3=Coach
+|t3p4=Gisepa|t3p4flag=kr|t3pos4=Analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=Nongshim RedForce
+|p1=Rich |p1link=Rich_(Korean_player)
+|p2=Peanut
+|p3=Gori
+|p4=deokdam
+|p5=Kellin
+
+|t2p1=Juhan |t2p1flag=kr |t2pos1=jg |t2p1dnp=true
+|t2p2=Bay |t2p2flag=kr |t2pos2=mid |t2p2dnp=true
+|t2p3=Wayne |t2p3flag=kr |t2pos3=bot |t2p3dnp=true |t2p3link=Wayne_(Hwang_Seo-hyeon)
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=sBs |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Comet|t3p2flag=kr |t3pos2=coach
+|t3p3=Noblesse|t3p3flag=kr |t3pos3=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=SANDBOX Gaming
+|p1=Summit
+|p2=Croco 
+|p3=FATE |p3link=Fate_(Korean_player)
+|p4=Prince
+|p5=Effort
+
+|t2p1=Howling |t2p1flag=kr |t2pos1=top |t2p1dnp=true
+|t2p2=OnFleek |t2p2flag=kr |t2pos2=jg |t2p2dnp=true
+|t2p3=KingKong |t2p3flag=kr |t2pos3=bot |t2p3dnp=true
+|t2p4= |t2p4flag=kr |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag=kr |t2pos5= |t2p5dnp=true
+|t2title=Subs
+
+|t3p1=Micro |t3p1flag=kr |t3pos1=Head Coach
+|t3p2=Joker |t3p2flag=kr |t3pos2=Coach |t3p2link=Joker (Cho Jae-eup)
+|t3p3=Travel |t3p3flag=kr |t3pos3=Coach
+|t3p4=Hipo|t3p4flag=kr|t3pos4=analyst
+|t3title=Staff
+}}
+{{TeamCard
+|team=T1
+|p1=Canna
+|p2=Oner
+|p3=Faker
+|p4=Teddy
+|p5=Keria
+
+|t2p1=Zeus |t2p1flag=kr |t2pos1=top |t2p1dnp=true
+|t2p2=Cuzz |t2p2flag=kr |t2pos2=jg
+|t2p3=Ellim |t2p3flag=kr |t2pos3=jg |t2p3dnp=true
+|t2p4=Clozer |t2p4flag=kr |t2pos4=mid |t2p4dnp=true
+|t2p5=Gumayusi |t2p5flag=kr |t2pos5=bot 
+|t2title=Subs
+
+|t3p1=Daeny |t3p1flag=kr |t3pos1=Head Coach |t3p1leave=true
+|t3p2=Zefa |t3p2flag=kr |t3pos2=Coach |t3p2leave=true
+|t3p3=Stardust |t3p3link=Stardust (Korean player) |t3p3flag=kr |t3pos3=Coach
+|t3p4=Moment |t3p4flag=kr |t3pos4=Coach
+|t3title=Staff
+}}
+{{TeamCard columns end}}
+==Results==
+===Regular Season===
+{{LPDB storage|false}}<!--
+-->{{#lst:LCK/2021/Summer/Regular Season|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/2021/Summer/Regular Season|Click here for detailed results of the '''Regular Season''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=C4DEH2VF2Q}}
+
+==Format==
+*'''Regular Season''' - ''June 9th - August 15th, 2021''
+**Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|seedup|''1st and 2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd till 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 10th place''}} are eliminated from this split.
+*'''Playoffs''' - ''August 18th - August 28th, 2021''
+** Single Elimination
+** 1st placed team from group stage can choose the opponent from first round
+** All matches are {{Abbr/Bo5}} 
+** Winner qualifies for [[World Championship/2021|World Championship 2021]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lck
+|lang2=kr |twitch2=lck_korea
+|lang3=cn |huya3=lck
+|lang4=de |twitch4=summonersinnlive
+|lang5=fr |twitch5=otplol_
+|lang6=it |twitch6=pg_esports
+}}
+===Talent===
+====Korean Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Lee Jeong-hyun |b1flag=kr
+|b2=Youn Soo-bin |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Translator
+|b1=Park Jee-sun
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Bitdory |b1name=Ha Guang-seok |b1flag=kr    
+|b2=GorillA
+|b3=Kuro
+|b4=Nuclear
+}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=KangQui |b2name=Kang Seung-hyeon |b2flag=kr
+|b3=Kim Dong-joon
+|b4=NoFe    
+|b5=GorillA  
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JonnaStrong
+}}
+{{box|end}}
+====English Broadcast====
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Atlus
+|b2=Valdes |b2name=Brendan Valdes |b2flag=us |b2link=starcraft2:Valdes
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator 
+|b1=Chronicler
+|b2=Wolf|b2link=Wolf (American caster)
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="2" |[[Patch 11.11]]
+| colspan="2" |[[Patch 11.12]]
+| colspan="2" |[[Patch 11.13]]
+| colspan="2" |[[Patch 11.14]]
+| colspan="2" |[[Patch 11.15]]
+| colspan="1" |[[Patch 11.16]]
+|-
+| colspan="2" |
+| colspan="2" | {{ChampionIcon|Dr. Mundo|30px}}
+| colspan="1" | {{ChampionIcon|Tahm Kench|30px}}
+| colspan="3" |
+| colspan="2" | {{ChampionIcon|Akshan|30px}}
+| colspan="1" | {{ChampionIcon|Akshan|30px}} [[File:Item Frozen Heart.png |30px]] 
+|}
+
+===Statistics===
+{{#lst:LCK/2021/Summer/Statistics|Champion Stats}}
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2021-07-08
+  |content2={{Player|Chovy|flag=kr}}
+  |content3={{TeamIcon|hle|date=2021-07-08}}
+  |content4={{TeamIcon|kt|date=2021-07-08}}
+  |content5={{ChampionIcon|size=25px|akali|date=2021-07-08|addTextLink=true}}
+  |content6={{PositionIcon/mid}} Mid
+  |content7={{Vodlink|vod=https://youtu.be/94Lj2ApLfZE?t=11063|gamenum=}}
+}}
+{{ResponsiveTableRow
+  |content1=2021-06-09
+  |content2={{Player|Lava|flag=kr}}
+  |content3={{TeamIcon|BRION|date=2021-06-09}}
+  |content4={{TeamIcon|sandbox gaming|date=2021-06-09}}
+  |content5={{ChampionIcon|size=25px|akali|date=2021-06-09|addTextLink=true}}
+  |content6={{PositionIcon/mid}} Mid
+  |content7={{Vodlink|vod=https://youtu.be/rFE21sDpHjs?t=8164|gamenum=}}
+}}
+{{ResponsiveTableEnd}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2021/Summer|edate=2021-12-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}
+
+
+{{2021 Season International Cycle Navbox}}

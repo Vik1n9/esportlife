@@ -1,0 +1,385 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2017%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:06:21.714Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2017 Summer}}
+{{LCK Navbox}}
+{{LCK 2017 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCK 2017 Summer 
+|shortname=2017 Summer 
+|tickername=LCK 2017 Summer 
+|image=LCK full lightmode.png
+|imagedark=LCK full darkmode.png
+|icon=LCK lightmode.png
+|icondark=LCK darkmode.png
+|series=LCK
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|organizer3=SPOTV|organizer3-link=http://www.spotv.net/
+|patch=7.10
+|epatch=7.15
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|format=Single Elimination ({{Abbr/Bo5}})
+|prizepool=275,000,000
+|localcurrency=krw
+|sdate=2017-05-30
+|edate=2017-08-26
+|liquipediatier=1
+|highlighted=|website=http://www.lolesports.com/en_US/lck
+|stream=
+|twitch=lck1
+|twitch2=ogn_lol
+|youtube=user/LoLChampSeries
+|team_number=10
+|previous=LCK/2017/Spring{{!}}2017 Spring 
+|next=LCK/2018/Spring{{!}}2018 Spring 
+|previous2=LCK/2017/Summer/Promotion{{!}}Summer Promotion 
+|next2=LCK/2018/Spring/Promotion{{!}}Spring Promotion 
+|next3=LCK/2017/Regional Finals{{!}}Regional Finals
+}}
+The '''LCK 2017 Summer''' was the second split of the 2017 [[League of Legends Champions Korea]] season, organized by Riot Games in partnership with OnGameNet and SPOTV GAMES. The competition took place in Seoul, South Korea, from May 30 to August 26, 2017, featuring ten teams. The regular season was played in a Double Round Robin format with Best-of-Three matches, while the Playoffs used a Single Elimination King of the Hill format with Best-of-Five series from Round 1 onwards. The tournament featured a ₩275,000,000 KRW prize pool, with the split champion qualifying for the [[World Championship/2017|2017 World Championship]]. [[Jin Air Green Wings]] and [[Ever8 Winners]] joined the league through the [[LCK/2017/Summer/Promotion|2017 Summer Promotion Tournament]]. Matches were played primarily on Patches 7.10 through 7.15.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=krw|cutafter=10|points=lck2017
+|qualifies1=World_Championship/2017|qualifies1name=Worlds
+|qualifies2=LCK/2018/Spring/Promotion|qualifies2name=Promotion
+|qualifies3=LCK/2018/Spring|qualifies3name=Spring
+|tournament1=LCK/2017/Summer/Group Stage
+|tournament2=LCK/2017/Summer/Playoffs
+|groupElimStatuses=stay, down
+|{{Slot|qualified1=yes|qualified3=yes |localprize=100,000,000}}
+|{{Slot|points=90|qualified3=yes |localprize=60,000,000}}
+|{{Slot|points=70|qualified3=yes |localprize=30,000,000}}
+|{{Slot|points=40|qualified3=yes |localprize=20,000,000}}
+|{{Slot|points=20|qualified3=yes |localprize=15,000,000}}
+|{{Slot|qualified3=yes|localprize=10,000,000}}
+|{{Slot|qualified3=yes|localprize=10,000,000}}
+|{{Slot|qualified3=yes|localprize=10,000,000}}
+|{{Slot|qualified2=yes|localprize=10,000,000}}
+|{{Slot|qualified2=yes|localprize=10,000,000}}
+}}
+
+===Tournament Awards===
+{{box|start|padding=2em}}
+{{AwardPrizePool|localcurrency=krw|margin=false|cutafter=8
+|{{Slot|award=Group Stage MVP |localprize=2,500,000
+|{{Opponent|Bdd |flag=kr |team=longzhu gaming}}
+|{{Opponent|Kuro |flag=kr |team=afreeca freecs}}
+}}
+|{{Slot|award=Playoffs MVP |localprize=5,000,000|{{Opponent|Khan|flag=kr|team=lz}}}}
+|{{Slot|award=Top Lane KDA |localprize=2,000,000|{{Opponent|Smeb|flag=kr|team=kt}}}}
+|{{Slot|award=Jungle KDA |localprize=2,000,000|{{Opponent|Score|flag=kr|team=kt}}}}
+|{{Slot|award=Mid Lane KDA |localprize=2,000,000|{{Opponent|Bdd|flag=kr|team=lz}}}}
+|{{Slot|award=AD Carry KDA |localprize=2,000,000|{{Opponent|Deft|flag=kr|team=kt}}}}
+|{{Slot|award=Support KDA |localprize=2,000,000|{{Opponent|Mata|flag=kr|team=kt}}}}
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true |points=true |cutafter=5 |margin=false
+|title=Group Stage MVP
+|tournament=LCK/2017/Summer/Group Stage
+}}
+{{box|break|padding=2em}} 
+{{MVPTable|useSmw=true |points=true |cutafter=5 |margin=false
+|title=Playoffs MVP
+|tournament=LCK/2017/Summer/Playoffs
+}}
+{{box|end}}
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Afreeca Freecs
+|p1=MaRin |p1flag=kr
+|p2=Spirit|p2flag=kr
+|p3=Kuro|p3flag=kr
+|p4=Kramer|p4flag=kr
+|p5=TusiN|p5flag=kr
+
+|t2p1=Mowgli|t2pos1=jg
+
+|t3p1=iloveoov |t3p1flag=kr|t3pos1=head coach
+|t3p2=Jo Gye-hyun |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=bbq Olivers
+|p1=Crazy |p1flag=kr
+|p2=Bless |p2link=Bless (Korean player) |p2flag=kr
+|p3=Tempt |p3flag=kr
+|p4=Ghost |p4flag=kr|p4link=Ghost (Korean player)
+|p5=Totoro |p5flag=kr
+
+|t2p1=Part|t2pos1=top
+
+|t3p1=Kim Ga-ram |t3p1flag=kr|t3pos1=head coach
+|t3p2=Ares |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Smeb |p1flag=kr
+|p2=Score |p2flag=kr
+|p3=PawN |p3flag=kr
+|p4=Deft |p4flag=kr
+|p5=Mata |p5flag=kr
+
+|t2p1=SSUN |t2p1flag=kr |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Lee Ji-hun|t3p1link=FIFAHUN|t3p1flag=kr|t3pos1=head coach
+|t3p2=ZanDarc|t3p2flag=kr|t3pos2=coach
+|t3p3=Jeong Je-seung|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=Longzhu Gaming
+|p1=Khan|p1flag=kr
+|p2=Cuzz
+|p3=Bdd
+|p4=PraY
+|p5=GorillA
+
+|t2p1=Rascal|t2pos1=top
+
+|t3p1=Kim Jung-su |t3p1flag=kr|t3pos1=head coach
+|t3p2=Supreme |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=MVP
+|p1=ADD|p1flag=kr
+|p2=Beyond|p2flag=kr|p2link=Beyond (Korean player)
+|p3=Ian|p3flag=kr
+|p4=MaHa|p4flag=kr
+|p5=Max|p5flag=kr|p5link=Max (Korean player)
+
+|t2title=Staff
+|t2p1=Hell|t2p1flag=kr|t2pos1=head coach
+|t2p2=Saroo|t2p2flag=kr|t2pos2=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=ROX Tigers
+|p1=Lindarang |p1flag=kr |pos1=Top
+|p2=Mightybear
+|p3= Mickey
+|p4=Mightybear |p4flag=kr|pos4=jg
+|p5=Sangyoon
+|p6=Key
+
+|t2p1=Shy	|t2pos1=top
+|t2p2=SeongHwan	|t2pos2=jg
+|t2p3=Lava	|t2pos3=mid
+|t2p4=Crow	|t2pos4=mid|t2p4link=Crow (Korean player)
+
+
+|t3p1=OnAir |t3p1flag=kr|t3pos1=head coach
+|t3p2=Xero  |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=Samsung Galaxy
+|p1=CuVee|p1flag=kr
+|p2=Ambition|p2flag=kr
+|p3=Crown
+|p4=Ruler
+|p5=CoreJJ
+
+|t2p1=Haru	|t2pos1=jg
+|t2p1=Stitch	|t2pos2=adc
+
+|t3p1=Edgar|t3p1flag=kr|t3pos1=head coach
+|t3p2=TrAce|t3p2flag=kr|t3pos2=coach
+|t3p3=oDin|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Huni|p1flag=kr
+|p2=Peanut
+|p3=Faker
+|p4=Bang
+|p5=Wolf|p5link=Wolf (Korean player)
+
+|t2p1=Untara	|t2pos1=top
+|t2p1=Blank	|t2pos2=jg
+
+|t3p1=cCarter|t3p1flag=kr|t3pos1=head coach
+|t3p2=kkOma|t3p2flag=kr|t3pos2=coach
+|t3p3=RapidStar|t3p3flag=kr|t3pos3=coach
+|qualifier=[[LCK/Spring/2017|Spring ]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings
+|p1=ikssu|p1flag=kr|pos1=Top
+|p2=UmTi
+|p3=Kuzan
+|p4=Teddy
+|p5=SnowFlower
+
+|t2p1=SoHwan	|t2pos1=top
+|t2p1=Raise	|t2pos2=jg
+
+|t3p1=Han Sang-yong |t3p1flag=kr|t3pos1=head coach
+|t3p2=Ccomet |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Summer/2017/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Ever8 Winners
+|p1=Helper |p1flag=kr|p1link=Helper (Korean player)
+|p2=Malrang
+|p3=Cepted
+|p4=DeuL
+|p5=Ella |p5flag=kr 
+
+|t2p1=Kiin	|t2pos1=top
+|t2p1=Comeback	|t2pos2=support|t2p2link=Comeback (Korean player)
+
+|t3p1=SpawN |t3p1flag=kr|t3pos1=head coach
+|t3p2=Alvingo |t3p2flag=kr|t3pos2=coach
+|qualifier=[[LCK/Summer/2017/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{#lst:{{FULLPAGENAME}}/Group_Stage|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/Summer/2017/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=5WJQNI0X3P}}
+
+==Format==
+* '''Group Stage'''
+** Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st place''}} advance to the Finals of the Playoffs.
+*** {{bgcolortext|seedup|''2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|stayup|''4th and 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 8th place''}} qualify for [[LCK/2018/Spring|Spring split]].
+*** {{bgcolortext|down|''9th and 10th place''}} will have to play in the [[LCK/2018/Spring/Promotion|Spring Promotion Tournament]].
+*'''Playoffs'''
+** Single Elimination King of the Hill.
+*** Wild Card match is {{Abbr/Bo3}}.
+*** Round 1 onwards is {{Abbr/Bo5}}.
+* Winner qualifies for [[World Championship/2017|World Championship 2017]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=uk |twitch1=lck1
+|lang2=kr |twitch2=ogn_lol|afreeca2=|azuba2=
+|lang3=tw|stream3=https://garena.live/358220
+|lang4=vn|youtube4=GarenaVietnam
+|lang5=id|youtube5=channel/UCLnIWRRC5VLR6d7hvP-GjBQ
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+====Korean Talent====
+{{BroadcasterCard
+|position=Color Caster |lang=kr
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+|b3=Dankun |b3name=Kim Yee-joong |b3flag=kr
+|b4=Lee Ki-min |b4flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play Caster |lang=kr
+|b1=CloudTemplar
+|b2=Kim Dong-joon |b2flag=kr
+|b3=KangQui
+|b4=Bitdory |b4name=Ha Gwang-seok |b4flag=kr
+|b5=Helios |b5link=Helios (Korean player)
+}}
+{{box|break|padding=2em}}
+====English Talent====
+{{BroadcasterCard
+|position=Color Caster |lang=en
+|b1=PapaSmithy|b1name=Chris Smith|b1flag=au
+|b2=Crumbz|b2name=Alberto Rengifo|b2flag=ve
+}}
+{{BroadcasterCard
+|position=Play-by-play Caster |lang=en
+|b1=Achilios|b1name=Seth King|b1flag=us
+|b2=Valdes|b2name=Brendan Valdes|b2flag=us
+}}
+{{box|end}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="2" |[[Patch 7.10]]
+| colspan="2" |[[Patch 7.11]]
+| colspan="1" |[[Patch 7.12]]
+| colspan="2" |[[Patch 7.13]]
+| colspan="2" |[[Patch 7.14]]
+| colspan="1" |[[Patch 7.15]]
+|-
+| Disabled
+| colspan="14" |
+|}
+
+===Statistics===
+{{#lst:LCK/2017/Summer/Statistics|Champion Stats}}
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2017-06-25
+  |content2={{Player|ikssu|flag=kr}}
+  |content3={{TeamIcon|jin air green wings|2017-06-25}}
+  |content4={{TeamIcon|ssg|2017-06-25}}
+  |content5={{ChampionIcon|size=25px|akali|date=2017-06-25|addTextLink=true}}
+  |content6={{PositionIcon/top}} Top
+  |content7=[http://www.youtube.com/watch?v=gxQHt7v4LNI#t=7m05s VOD]
+}}
+{{ResponsiveTableRow
+  |content1=2017-07-27
+  |content2={{Player|Crown|flag=kr}}
+  |content3={{TeamIcon|ssg|2017-07-27}}
+  |content4={{TeamIcon|afreeca freecs|2017-07-27}}
+  |content5={{ChampionIcon|size=25px|cassiopeia|date=2017-07-27|addTextLink=true}}
+  |content6={{PositionIcon/mid}} Mid
+  |content7=[https://www.youtube.com/watch?v=xf6ok3DZxVo VOD]
+}}
+{{ResponsiveTableEnd}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2017/Summer|edate=2017-12-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}

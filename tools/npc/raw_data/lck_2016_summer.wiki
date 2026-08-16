@@ -1,0 +1,361 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LCK%2F2016%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:06:13.869Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LCK 2016 Summer}}
+{{LCK Navbox}}
+{{LCK 2016 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LCK 2016 Summer 
+|shortname=2016 Summer 
+|tickername=LCK 2016 Summer 
+|image=LCK full lightmode.png
+|imagedark=LCK full darkmode.png
+|icon=LCK lightmode.png
+|icondark=LCK darkmode.png
+|series=LCK
+|organizer=Riot Games|organizer-link=http://www.riotgames.com/
+|organizer2=OnGameNet|organizer2-link=http://ogn.tving.com/ogn
+|organizer3=SPOTV GAMES|organizer3-link=http://www.spotv.net/
+|patch=6.10
+|epatch=6.15
+|server=Korea
+|type=offline
+|country=Korea
+|city=Seoul 
+|venue=LoL Park
+|format=Single Elimination ({{Abbr/Bo5}})
+|prizepool=275,000,000
+|localcurrency=krw
+|sdate=2016-05-25
+|edate=2016-08-20
+|liquipediatier=1
+|rulebook=http://static.leagueoflegends.co.kr/esports/files/2016_Champions_Korea_Official_Regulations.pdf
+|highlighted=|website=http://www.lolesports.com/en_US/lck
+|twitch=lck1
+|twitch2=ogn_lol
+|youtube=user/LoLChampSeries
+|team_number=10
+|previous=LCK/2016/Spring{{!}}2016 Spring 
+|next=LCK/2017/Spring{{!}}2017 Spring 
+|previous2=LCK/2016/Summer/Promotion{{!}}Summer Promotion 
+|next2=LCK/2017/Spring/Promotion{{!}}Spring Promotion 
+|next3=LCK/2016/Regional Finals{{!}}Regional Finals
+}}
+The '''LCK 2016 Summer''' was the second split of the 2016 [[League of Legends Champions Korea]] season, organized by Riot Games in partnership with OnGameNet and SPOTV GAMES. Officially titled the '''Coca-Cola Zero LCK 2016 Summer''' for sponsorship reasons, the competition took place in Seoul, South Korea, from May 25 to August 20, 2016, featuring ten teams.
+
+The regular season was played in a Double Round Robin format with Best-of-Three matches, while the Playoffs followed a Single Elimination King of the Hill format with Best-of-Five series. Teams competed for a ₩275,000,000 KRW prize pool, with the split champion qualifying for the [[World Championship/2016|2016 World Championship]]. [[ESC Ever]] and [[MVP]] joined the league through the [[LCK/2016/Summer/Promotion|2016 Summer Promotion Tournament]]. Matches were played primarily on Patches 6.10 through 6.15.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|localcurrency=krw|cutafter=10|points=lck2016
+|qualifies1=World_Championship/2016|qualifies1name=Worlds
+|qualifies2=LCK/2017/Spring/Promotion|qualifies2name=Promotion
+|qualifies3=LCK/2017/Spring|qualifies3name=Spring
+|tournament1=LCK/2016/Summer/Group Stage
+|tournament2=LCK/2016/Summer/Playoffs
+|groupElimStatuses=stay, down
+|{{Slot|qualified1=true|qualified3=true  |localprize=100,000,000}}
+|{{Slot|points=90|qualified3=true  |localprize=60,000,000}}
+|{{Slot|points=70|qualified3=true  |localprize=30,000,000}}
+|{{Slot|points=40|qualified3=true  |localprize=20,000,000}}
+|{{Slot|points=20|qualified3=true  |localprize=15,000,000}}
+|{{Slot|points=20|qualified3=true |localprize=10,000,000}}
+|{{Slot|qualified3=true |localprize=10,000,000}}
+|{{Slot|qualified3=true |localprize=10,000,000}}
+|{{Slot|qualified2=true |localprize=10,000,000}}
+|{{Slot|qualified2=true |localprize=10,000,000}}
+}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{AwardPrizePool|localcurrency=krw|cutafter=7
+|{{Slot|award=Group Stage MVP |localprize=5,000,000|{{Opponent|Smeb|flag=kr|team=rox tigers}}}}
+|{{Slot|award=Playoffs MVP |localprize=5,000,000|{{Opponent|KurO|flag=kr|team=rox tigers}}}}
+|{{Slot|award=Top Lane KDA |localprize=2,000,000|{{Opponent|Smeb|flag=kr|team=rox tigers}}}}
+|{{Slot|award=Jungle KDA |localprize=2,000,000|{{Opponent|Score|flag=kr|team=kt}}}}
+|{{Slot|award=Mid Lane KDA |localprize=2,000,000|{{Opponent|KurO|flag=kr|team=rox tigers}}}}
+|{{Slot|award=AD Carry KDA |localprize=2,000,000|{{Opponent|Bang|flag=kr|team=skt}}}}
+|{{Slot|award=Support KDA |localprize=2,000,000|{{Opponent|link=Wolf (Korean player)|Wolf|flag=kr|team=skt}}}}
+}}
+{{box|end}}
+
+==Participating Teams==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Afreeca Freecs
+|p1=ikssu
+|p2=LirA
+|p3=Mickey
+|p4=Sangyoon
+|p5=SnowFlower
+
+|t2p1=Lindarang|t2pos1=top
+|t2p2=SeongHwan|t2pos2=jg
+
+|t3p1=Kang Hyun-jong |t3pos1=head coach
+|t3p2=Jung Je-seung |t3p2flag=kr |t3pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=CJ Entus
+|p1=Untara
+|p2=Haru
+|p3=Bdd
+|p4=Kramer
+|p5=MadLife
+
+|t2p1=Shy|t2pos1=top
+|t2p2=Bubbling|t2pos2=jg
+|t2p3=Sky|t2pos3=mid|t2p3link=Sky (Kim Ha-neul)
+|t2p4=Ghost|t2pos4=adc|t2p4link=Ghost (Korean player)
+
+|t3p1=Reach |t3p1flag=kr |t3pos1=head coach
+|t3p2=Cain |t3pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Jin Air Green Wings
+|p1=TrAce
+|p2=Winged
+|p3=Blanc
+|p4=Pilot
+|p5=Chei
+
+|t2p1=SoHwan|t2pos1=top
+|t2p2=Kuzan|t2pos2=mid
+|t2p3=Sweet|t2pos3=support|t2p3flag=kr
+
+|t3p1=H-Dragon |t3pos1=head coach
+|t3p2=Sweet |t3p2flag=kr |t3pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=KT Rolster
+|p1=Ssumday
+|p2=Score
+|p3=Fly |p3link=Fly (Song Yong-jun)
+|p4=Arrow
+|p5=Comeback |p5link=Hachani
+
+|t2title=Staff
+|t2p1=Lee Ji-hun |t2p1link=FIFAHUN |t2pos1=head coach
+|t2p2=ZanDarc |t2p2flag=kr |t2pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Longzhu Gaming
+|p1=Expession
+|p2=Chaser|pos2=jg
+|p3=Coco
+|p4=Fury|p4link=Fury (Korean player)
+|p5=Pure
+
+|t2p1=Crash|t2pos1=jg
+|t2p2=Frozen|t2pos2=mid
+|t2p3=Emperor|t2pos3=adc
+
+|t3p1=Hirai|t3pos1=head coach
+|t3p2=Lustboy|t3pos2=coach
+|t3p3=Supreme|t3pos3=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=ROX Tigers
+|image=ROX Tigers logo old.png
+|p1=Smeb|pos1=Top
+|p2=Peanut|pos2=Jg
+|p3=Kuro|pos3=Mid
+|p4=PraY
+|p5=GorillA
+
+|t2p1=Cry|t2p1flag=kr|t2pos1=mid
+
+|t3p1=NoFe|t3pos1=head coach
+|t3p2=SSONG|t3pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=Samsung Galaxy
+|p1=CuVee
+|p2=Ambition
+|p3=Crown
+|p4=Ruler
+|p5=Wraith
+
+|t2p1=Helper|t2pos1=top|t2p1link=Helper (Korean player)
+|t2p2=Stitch|t2pos2=adc
+|t2p3=CoreJJ|t2pos3=support
+
+|t3p1=Edgar|t3pos1=head coach
+|t3p2=Kim Jung-su|t3pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=SK Telecom T1
+|p1=Duke
+|p2=Bengi
+|p3=Blank|pos3=Jungle
+|p4=Faker|pos4=Mid
+|p5=Bang|pos5=Bottom
+|p6=Wolf|p6link=Wolf (Korean player)|pos6=Support
+
+|t2title=Staff
+|t2p1=cCarter|t2pos1=head coach
+|t2p2=kkOma|t2pos2=coach
+|qualifier=[[LCK/Spring/2016|Spring Season]]
+}}
+{{TeamCard
+|team=ESC Ever
+|p1=Crazy
+|p2=Bless |p2link=Bless (Korean player)
+|p3=Tempt
+|p4=LokeN
+|p5=Key
+
+|t2p1=Firetrap|t2pos1=top
+|t2p2=Totoro|t2pos2=support
+
+|t3p1=Kim Ga-ram |t3pos1=head coach
+|t3p2=Cho Gye-hyeon|t3p2flag=kr |t3pos2=coach
+|qualifier=[[LCK/2016/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=MVP
+|p1=ADD
+|p2=Beyond|p2link=Beyond (Korean player)
+|p3=Ian
+|p4=MaHa
+|p5=Max|p5link=Max (Korean player)
+|c=Hell
+|qualifier=[[LCK/2016/Summer/Promotion|Promotion]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}<!--
+-->{{#lst:{{FULLPAGENAME}}/Group_Stage|Regular Season}}<!--
+-->{{LPDB storage|true}}<!--
+--><span style="line-height:24px">&nbsp;''[[LCK/Summer/2016/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=9ZY50TTPXU}}
+
+==Format==
+* '''Group Stage'''
+** Double Round Robin {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st place''}} advance to the Finals of the Playoffs.
+*** {{bgcolortext|seedup|''2nd place''}} advance to the Semifinals of the Playoffs.
+*** {{bgcolortext|up|''3rd place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|stayup|''4th and 6th place''}} advance to the Wild Card Round of the Playoffs.
+*** {{bgcolortext|stay|''6th till 8th place''}} qualify for [[LCK/Spring/Spring|Spring split]].
+*** {{bgcolortext|down|''9th and 10th place''}} will have to play in the [[LCK/2017/Spring/Promotion|Spring Promotion Tournament]].
+*'''Playoffs'''
+** Single Elimination King of the Hill.
+*** Wild Card match is {{Abbr/Bo3}}.
+*** Round 1 onwards is {{Abbr/Bo5}}.
+* Winner qualifies for [[World Championship/2016|World Championship 2016]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=uk |twitch1=riotgames
+|lang2=kr |twitch2=ogn_lol|afreeca2=|azuba2=
+}}
+===Talent===
+{{box|start|padding=2em}}
+====Korean Broadcast====
+{{BroadcasterCard
+|position=Host
+|b1=Lee Hyun-kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Caster Jun |b1name=Jeon Yong-jun |b1flag=kr
+|b2=SEONG K |b2name=Seong Seung-heon |b2flag=kr
+|b3=Dankun |b3name=Kim Yee-joong |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=CloudTemplar
+|b2=Kim Dong-joon |b2flag=kr
+|b3=Cpt Jack
+|b4=Helios |b4link=Helios (Korean player)
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Caster
+|b1=DoA
+|b2=MonteCristo
+|b3=PapaSmithy
+|b4=Achilios 
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="90"| Week 11
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="3" |[[Patch 6.10]]
+| colspan="2" |[[Patch 6.11]]
+| colspan="2" |[[Patch 6.12]]
+| colspan="2" |[[Patch 6.13]]
+| colspan="2" |[[Patch 6.14]]
+| colspan="1" |[[Patch 6.15]]
+|-
+| Disabled
+| colspan="2" |
+| colspan="1" | {{ChampionIcon|Braum|35px|date=2016-06-01}}Braum (Only on Day 6)
+| colspan="9" |
+|}
+
+===Statistics===
+{{#lst:LCK/2016/Summer/Statistics|Champion Stats}}
+
+===Pentakills===
+{{ResponsiveTableStart|col1=Date|col2=Player|col3=Team|col4=Vs.|col5=Champion|col6=Position|col7=VOD}}
+{{ResponsiveTableRow
+  |content1=2016-06-29
+  |content2={{Player|Sangyoon|flag=kr}}
+  |content3={{TeamIcon|afreeca freecs|2016-06-29}}
+  |content4={{TeamIcon|mvp|2016-06-29}}
+  |content5={{ChampionIcon|size=25px|sivir|date=2016-06-29|addTextLink=true}}
+  |content6={{PositionIcon/adc}} ADC
+  |content7=[https://youtu.be/0gYG2PoZVUs?t=122 VOD]
+}}
+{{ResponsiveTableEnd}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Champions Korea|series2=Champions Korea|tiers=1|limit=10|playerspage=LCK/2016/Summer|edate=2016-10-01}}
+:''See [[LoL Champions Korea/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+==References==
+{{Reflist|2}}
