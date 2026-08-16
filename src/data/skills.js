@@ -127,21 +127,6 @@ export const SKILL_DESC = {
   pos: '會戰裡站在安全又輸出得到的位置。射手的生死線。',
 };
 
-/**
- * 技能之間的關係——全部由上面兩張權重表**派生**，不手抄：
- * - `attrs`：來源屬性鍵（面板只顯示名字，不顯示權重）；
- * - `related`：與本技能共用兩個以上屬性的其他技能；
- * - `roles`／`coreRoles`：OVR 吃這技能的位置／它排進核心四項的位置。
- */
-export const SKILL_LINKS = Object.fromEntries(Object.keys(SKILL_WEIGHTS).map((key) => {
-  const attrs = Object.keys(SKILL_WEIGHTS[key]);
-  const related = Object.keys(SKILL_WEIGHTS).filter((other) => other !== key
-    && attrs.filter((a) => SKILL_WEIGHTS[other][a]).length >= 2);
-  const roles = ROLES.filter((r) => key in OVR_WEIGHTS[r]);
-  const coreRoles = ROLES.filter((r) => ROLE_SKILLS[r].slice(0, 4).includes(key));
-  return [key, { attrs, related, roles, coreRoles }];
-}));
-
 /** 各路數據基線（每場平均） */
 export const STAT_BASELINE = {
   TOP: { K: 0.8, D: 1.4, A: 1.6, CS: 7.2, VIS: 1.2, DMG: 22, SOLO: 1.2 },

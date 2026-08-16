@@ -4,10 +4,9 @@
 
 純 UI 改版，不動任何遊戲機制與校準常數。
 
-- **技能下拉**：選手 tab 技能欄比照屬性加 `▸` 下拉箭頭，展開顯示一句說明、
-  相關屬性、相關技能與位置意義；**不顯示權重數字**。說明文字 `SKILL_DESC`
-  與關係 `SKILL_LINKS` 收於 `data/skills.js`，關係全部由 `SKILL_WEIGHTS`／
-  `OVR_WEIGHTS` 派生不手抄（單一來源規則）。
+- **技能下拉**：選手 tab 技能欄比照屬性加 `▸` 下拉箭頭，展開顯示一句說明＋
+  來源屬性；**不顯示權重數字**。說明文字 `SKILL_DESC` 收於 `data/skills.js`，
+  來源屬性直接讀 `SKILL_WEIGHTS` 鍵不另存（單一來源規則）。
 - **結算圖重設計**：轉播選手卡風格——左欄六維屬性雷達圖（Canvas 手繪，
   零依賴）、右欄各賽區生涯數據（出賽／K-D-A／KDA 比值＋生涯合計），
   下方依序放個人特質、頂級榮譽、生涯總薪資與生涯傳記（§15.5）。
@@ -15,8 +14,8 @@
   D=0 回 K+A 不炸；結算圖與 UI 讀帳本不直接除 raw 欄位。
 - **升版**：package.json／APP_VERSION／規格書檔頭／CHANGELOG 四處同號
   v4.6.4 → v4.6.5（`tests/kernel/version.mjs` 守門）。
-- **新增測試**：`tests/kernel/skillLinks.mjs`（說明覆蓋＋關係派生一致＋
-  對稱性）、`kdaOf`／`careerKda` 單元進 `tests/kernel/ledger.mjs`。
+- **新增測試**：`tests/kernel/skillDescs.mjs`（說明覆蓋十二技能）、`kdaOf`／
+  `careerKda` 單元進 `tests/kernel/ledger.mjs`。
 
 ## [v4.6.4] - 2026-08-17
 

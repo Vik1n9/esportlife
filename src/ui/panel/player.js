@@ -14,7 +14,7 @@
  * - 配方不揭露 ✓（不提合成）
  */
 import { ATTR_ABBR, ATTR_CAP, ATTR_DESC, ATTR_NAMES, ATTRS, POTENTIAL_BANDS } from '../../data/attributes.js';
-import { ROLE_NAMES, SKILL_DESC, SKILL_LINKS, SKILL_NAMES } from '../../data/skills.js';
+import { ROLE_NAMES, SKILL_DESC, SKILL_NAMES, SKILL_WEIGHTS } from '../../data/skills.js';
 import { HEROES_BY_ROLE } from '../../data/heroes.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS } from '../../data/epics.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../../data/traits.js';
@@ -111,10 +111,7 @@ function skillSection(state) {
   const top = keys.slice(0, 4);
   const rows = keys.map((key) => {
     const value = skillValue(state, key);
-    const link = SKILL_LINKS[key];
-    const attrsTxt = link.attrs.map((a) => ATTR_NAMES[a]).join('、');
-    const relatedTxt = link.related.length ? link.related.map((k) => SKILL_NAMES[k]).join('、') : '（無）';
-    const rolesTxt = link.roles.map((r) => `${ROLE_NAMES[r]}${link.coreRoles.includes(r) ? '核心' : ''}`).join('、');
+    const attrsTxt = Object.keys(SKILL_WEIGHTS[key]).map((a) => ATTR_NAMES[a]).join('、');
     return `<details class="skill-item">
       <summary>
         <span class="trait-arrow">▸</span><div class="abrow static">
@@ -123,8 +120,7 @@ function skillSection(state) {
           <div class="val"><b>${value}</b><span class="cost">${top.includes(key) ? '本位置核心' : ''}</span></div>
         </div>
       </summary>
-      <div class="trait-desc">${escapeHtml(SKILL_DESC[key])}<br>
-        相關屬性：${attrsTxt} 相關技能：${relatedTxt} 位置意義：${rolesTxt}</div>
+      <div class="trait-desc">${escapeHtml(SKILL_DESC[key])}<br>相關屬性：${attrsTxt}。</div>
     </details>`;
   }).join('');
 
