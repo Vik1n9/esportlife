@@ -1,0 +1,216 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2014%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:39:53.937Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2014 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-11-19
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-11-19
+}}
+{{Tencent Games Navbox}}
+{{LPL 2014 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2014 Summer 
+|shortname=2014 Summer 
+|tickername=LPL 2014 Summer
+|image=Old_LPL_Logo.png
+|series=LPL
+|icon=Old LPL Logo.png
+|organizer-link=http://game.qq.com/index.shtml |organizer=Tencent Games
+|organizer2=Riot Games|organizer2-link=https://www.riotgames.com/en
+|sponsor=
+|patch=
+|epatch=
+|server=China
+|type=Offline
+|country=China
+|city=Shanghai 
+|venue=
+|format=Group Stage ({{Abbr/Bo2}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepoolusd=
+|localcurrency=cny
+|prizepool=1,450,000
+|sdate=2014-06-14
+|edate=2014-08-24
+|liquipediatier=1
+|team_number=8
+|previous=LPL/2014/Spring{{!}}2014 Spring 
+|next=LPL/2015/Spring{{!}}2015 Spring 
+|next2=LPL/2015/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''LPL 2014 Summer''' was the second split of the 2014 [[LoL Pro League]] (''LPL'') season, organized by Tencent Games and Riot Games from 14 June to 24 August 2014 in Shanghai. Eight teams competed in a Double Round Robin {{Abbr/Bo2}} Group Stage, with the top four advancing to a Single Elimination {{Abbr/Bo5}} Playoffs bracket. Six teams entered through the [[LPL/2014/Spring|Spring]] split, while two—[[Team WE Academy]] and [[Young Glory]]—qualified from the [[LSPL/2014/Spring|LSPL Spring]] season. Notable offseason changes included the formation of [[Star Horn Royal Club]] following the acquisition of Royal Club’s roster and brand by SHRC. The top four teams secured places in the 2015 China Regional Finals, while the bottom two were sent to the [[LPL/2015/Spring/Promotion|Spring Promotion]] tournament.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+
+==Prize Pool==
+{{TeamPrizePool|cutafter=8|noprize=1|localcurrency=cny|groupElimStatuses=down,stay
+|tournament1=LPL/2014/Summer/Group_Stage
+|tournament2=LPL/2014/Summer/Playoffs
+|qualifies1=LPL/2015/Spring|qualifies1name=Spring
+|qualifies2=LPL/2015/Regional_Finals|qualifies2name=Regional Finals
+|qualifies3=LPL/2015/Spring/Promotion|qualifies3name=Promotion
+|{{Slot |qualified1=true|qualified2=true|localprize=500,000}}
+|{{Slot |qualified1=true|qualified2=true|localprize=300,000}}
+|{{Slot |qualified1=true|qualified2=true|localprize=200,000}}
+|{{Slot |qualified1=true|qualified2=true|localprize=150,000}}
+|{{Slot |qualified1=true|localprize=100,000}}
+|{{Slot |qualified1=true|localprize=100,000}}
+|{{Slot |qualified3=true|localprize=50,000}}
+|{{Slot |qualified3=true|localprize=50,000}}
+}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Koro1 |p1flag=cn
+|p2=Clearlove |p2flag=cn
+|p3=U |p3flag=cn
+|p4=NaMei |p4flag=cn
+|p5=Fzzf |p5flag=cn
+|qualifier=[[LPL/2014/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=Yongsoo |p1flag=kr
+|p2=illuSioN |p2flag=cn
+|p3=Zz1tai |p3flag=cn
+|p4=Kid |p4flag=cn
+|p5=Kitties |p5flag=cn
+
+|t2p1=Do |t2p1flag=cn |t2pos1=top
+|qualifier=[[LPL/2014/Spring|Spring ]]
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=17 |p1flag=cn
+|p2=Quan |p2flag=cn
+|p3=We1less |p3flag=cn
+|p4=XQ |p4flag=cn
+|p5=Pyl |p5flag=cn
+
+|t2p1=Star |t2p1flag=cn |t2pos1=top|t2p1link=Star (Chinese player)
+|qualifier=[[LPL/2014/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=GGoing |p1flag=cn
+|p2=drug |p2flag=cn
+|p3=Cool |p3flag=cn
+|p4=San |p4flag=cn
+|p5=Cloud |p5flag=cn
+
+|t2p1=DaDa77 |t2p1flag=cn |t2pos1=support
+|t2p2=pomelo |t2p2flag=cn |t2pos2=support
+|qualifier=[[LPL/2014/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Star Horn Royal Club
+|image=Star Horn Royal Club logo.png
+|p1=Cola |p1flag=cn
+|p2=inSec |p2flag=kr
+|p3=corn |p3link=Corn (Chinese player) |p3flag=cn
+|p4=Uzi |p4link=Uzi (Chinese player) |p4flag=cn
+|p5=Zero |p5link=Zero (Korean player) |p5flag=kr
+
+|t2p1=VicaL |t2p1flag=kr |t2pos1=Head Coach
+|t2title=Staff
+|qualifier=[[LPL/2014/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Team WE
+|p1=CaoMei |p1flag=cn
+|p2=Sin |p2flag=kr
+|p3=Ninja |p3flag=kr
+|p4=Wx |p4flag=cn
+|p5=Conan |p5flag=cn
+|qualifier=[[LPL/2014/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Team WE Academy
+|image=Team WE Academy.png
+|p1=Khan |p1flag=kr
+|p2=Soist |p2flag=cn
+|p3=Mickey |p3flag=kr
+|p4=Smlz |p4flag=cn
+|p5=YuZhe |p5flag=cn
+
+|t2p1=xr |t2p1flag=cn |t2pos1=top
+|t2p2=xiye |t2p2flag=cn |t2pos2=mid
+|qualifier=[[LSPL/2014/Spring|LSPL]]
+}}
+{{TeamCard
+|team=Young Glory
+|image=Young Glory.png
+|p1=Number1 |p1flag=cn
+|p2=YinFu |p2flag=cn
+|p3=Otto |p3flag=cn
+|p4=ZhenLong |p4flag=cn
+|p5=YanSir |p5flag=cn
+|qualifier=[[LSPL/2014/Spring|LSPL]]
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LPL/2014/Summer/Group_Stage|Regular Season}}
+<span style="line-height:24px">&nbsp;''[[LPL/2014/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+
+===Playoffs===
+{{#lst:LPL/2014/Summer/Playoffs|Playoffs}}
+
+==Format==
+*'''Group Stage'''
+** Double Round Robin {{Abbr/Bo2}}
+*** {{bgcolortext|up|''1st till 4th place''}} advance to the Playoffs.
+*** {{bgcolortext|stay|''5th and 6th place''}} qualify for [[LPL/2015/Spring|Spring season]].
+*** {{bgcolortext|down|''7th and 8th place''}} will have to play in the [[LPL/2015/Spring/Promotion|LSPL]].
+*'''Playoffs'''
+** Single elimination
+** All matches are {{Abbr/Bo5}}
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=
+}}
+
+===Talent===
+{{BroadcasterCard
+|position=Caster 
+|b1=|b1flag=cn
+|b2=|b2flag=cn
+|b3=|b3flag=cn
+}}
+
+
+==Additional Data==
+===Statistics===
+{{#lst:LPL/2014/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2014/Summer|edate=2014-12-01}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

@@ -1,0 +1,340 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2015%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:40:02.216Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2015 Summer}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-11-23
+}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for English stream or different languages
+|date=2025-11-23
+}}
+{{Tencent Games Navbox}}
+{{LPL 2015 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2015 Summer 
+|shortname=2015 Summer 
+|tickername=LPL 2015 Summer
+|series=LPL
+|image=Old_LPL_Logo.png
+|icon=Old LPL Logo.png
+|organizer-link=http://game.qq.com/index.shtml |organizer=Tencent Games
+|organizer2=Riot Games|organizer2-link=https://www.riotgames.com/en
+|sponsor=
+|patch=
+|epatch=
+|server=China
+|type=Offline
+|country=China
+|city=Shanghai 
+|venue=Shanghai E-Sports Arena
+|venuelink=https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E9%A3%8E%E4%BA%91%E7%94%B5%E7%AB%9E%E9%A6%86/9620740
+|format=Group Stage ({{Abbr/Bo2}}) <br> Gauntlet/Single Elimination ({{Abbr/Bo5}})
+|prizepool=2,350,000
+|localcurrency=cny
+|sdate=2015-05-22
+|edate=2015-08-23
+|liquipediatier=1
+|highlighted=|website=
+|twitch=
+|team_number=12
+|previous=LPL/2015/Spring{{!}}2015 Spring 
+|next=LPL/2016/Spring{{!}}2016 Spring 
+|previous2=LPL/2015/Summer/Promotion{{!}}Summer Promotion
+|next2=LPL/2016/Spring/Promotion{{!}}Spring Promotion
+}}
+The '''LPL 2015 Summer''' split was the second split of the [[LoL Pro League]] (''LPL'') season, organized by Tencent Games and Riot Games from 22 May to 23 August 2015 at the Shanghai E-Sports Arena. Twelve teams competed in a Double Round Robin {{Abbr/Bo2}} Group Stage followed by a Gauntlet and Single Elimination {{Abbr/Bo5}} Playoffs. Two teams entered through the [[LPL/2015/Summer/Promotion|Summer Promotion]]—[[Masters 3]] and [[Unlimited Potential]]—the latter formed when [[Vici Potential Gaming]] acquired [[Gamtee]]'s slot. From the LSPL pathway, [[Qiao Gu Reapers]] and [[Royal Never Give Up]] qualified by winning their brackets, with RNG formed after [[Royal Club]] acquired [[Vici Potential Gaming]]'s slot. Championship Points determined the first Chinese seed for the [[World_Championship/2015|2015 World Championship]], with the next four teams advancing to the [[LPL/2015/Regional_Finals|Regional Finals]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+$2,350,000 {{Abbr/CNY}} are spread among the teams as seen below:
+{{prize pool start|points=lpl2015|localcurrency=cny|cutafter=12}}
+{{prize pool slot|place=1 |points=450|localprize=800,000|usdprize= |lgd |lastvs1=qg reapers |lastscore1=3 |lastvsscore1=2 |date1=2015-08-23 }}
+{{prize pool slot|place=2 |points=300|localprize=400,000|usdprize= |qiao gu reapers |lastvs1=lgd |lastscore1=2 |lastvsscore1=3 |date1=2015-08-23 }}
+{{prize pool slot|place=3 |points=150|localprize=250,000|usdprize= |ig |lastvs1=edg |lastscore1=3 |lastvsscore1=1 |date1=2015-08-17 }}
+{{prize pool slot|place=4 |points=100|localprize=200,000|usdprize= |edg |lastvs1=ig |lastscore1=1 |lastvsscore1=3 |date1=2015-08-17 }}
+{{prize pool slot|place=5-6 |points=60|localprize=100,000|usdprize=
+|snake |lastvs1=lgd |lastscore1=1 |lastvsscore1=3 |date1=2015-08-15
+|vg |lastvs2=ig |lastscore2=2 |lastvsscore2=3 |date2=2015-08-15
+}}
+{{prize pool slot|place=7 |points=60|localprize=100,000|usdprize= |omg |lastvs1=vg |lastscore1=1 |lastvsscore1=3 |date1=2015-08-12 }}
+{{prize pool slot|place=8 |points=60|localprize=100,000|usdprize= |masters 3 |lastvs1=omg |lastscore1=0 |lastvsscore1=3 |date1=2015-08-11 }}
+{{prize pool slot |place=9|points=0|localprize=50,000|usdprize=|rng|wdl1=3/12/7|date1=2015-08-07}}
+{{prize pool slot |place=10-11 |points=0|localprize=50,000|usdprize=
+|unlimited potential|wdl2=3/11/8|date2=2015-08-09
+|we|wdl3=3/11/8|date3=2015-08-09
+}}
+{{prize pool slot |place=12 |points=0|localprize=50,000|usdprize=|team king|wdl4=1/14/7|date4=2015-08-08}}
+{{Prize pool end}}
+
+==Participants==
+{{TeamCardToggleButton}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Koro1
+|p2=Clearlove
+|p3=PawN
+|p4=Deft
+|p5=Meiko
+
+|t2p1=AmazingJ |t2pos1=top
+|t2p2=Ray |t2pos2=top
+|t2p3=BaeMe |t2p3flag=kr |t2pos3=mid
+|t2p4=Jinjiao |t2pos4=bot
+
+|t3p1=Aaron |t3p1link=Aaron (Chinese coach) |t3p1flag=cn |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring]]
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=Zzitai |p1flag=cn
+|p2=KaKAO |p2flag=kr
+|p3=Rookie |p3flag=kr
+|p4=Kid |p4flag=cn
+|p5=Kitties |p6flag=cn
+
+|t2p1=Time |t2p1link=Time (Chinese player) |t2pos1=bot
+
+|t3p1=Mafa |t3p1flag=kr |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Acorn
+|p2=TBQ
+|p3=GODV
+|p4=Imp
+|p5=Pyl
+
+|t2p1=Flame |t2pos1=top
+|t2p2=xiaoxi |t2p2flag=cn |t2pos2=jg
+|t2p3=Fan |t2p3flag=cn |t2pos3=sup
+
+
+|t3p1=Chris |t3p1link=Chris (Hong Kong player) |t3p1flag=hk |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=xiyang
+|p2=LoveLing
+|p3=Cool
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Amazing |p5link=Amazing (Chinese player)
+
+|t2p1=Gogoing |t2p1flag=cn |t2pos1=top
+|t2p2=Juejue |t2p2flag=cn |t2pos2=jg
+|t2p3=North |t2p3flag=cn |t2pos3=bot
+|t2p4=san |t2p4flag= |t2pos4=sup
+
+|t3p1=Park Jae-seok |t3p1flag=kr |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Snake Esports
+|p1=Flandre
+|p2=Zzr |p2flag=cn
+|p3=U
+|p4=kRYST4L
+|p5=Ella |p5flag=kr
+
+|t2p1=Beast |t2p1link=Beast (Korean player) |t2p1flag=kr |t2pos1=jg
+|t2p2=Martin |t2p2link=Martin (Chinese player) |t2pos2=bot
+
+|t3p1=Jun |t3p1link=Jun (Chinese player) |t3p1flag=cn |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Team King
+|image=Team_King.png
+|p1=InSec
+|p2=hu1 |p2flag=cn
+|p3=Corn |p3link=Corn (Chinese player)
+|p4=NaMei
+|p5=Zero |p5link=Zero (Korean player)
+
+|t2p1=Cola |t2p1flag=cn |t2pos1=top
+|t2p2=Ao |t2p2flag=cn |t2pos2=bot
+|t2p3=SinkDream |t2p3flag=cn |t2pos3=sup
+
+|t3p1=NoName |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Vici Gaming
+|p1=DanDy
+|p2=World6
+|p3=Xuan |p3link=Xuan (Pi Xiao-Xuan)
+|p4=Endless |p4flag=cn
+|p5=Mata
+
+|t2p1=Carry |t2p1link=Carry (Chinese player) |t2p1flag=cn |t2pos1=top
+|t2p2=Hetong |t2p2flag=cn |t2pos2=mid
+|t2p3=Peng |t2p3link=Peng (Peng Yi-Bo) |t2p3flag=cn |t2pos3=mid
+
+|t3p1=Homme |t3pos1=head coach
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Team WE
+|p1=Aluka |p1flag=cn
+|p2=Spirit |p2flag=kr
+|p3=xiye |p3flag=cn
+|p4=Mystic |p4flag=kr
+|p5=Conan |p5flag=cn
+
+|t2p1=HooN |t2p1flag=kr |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LPL/2015/Spring|Spring ]]
+}}
+{{TeamCard
+|team=Masters 3
+|image=Masters_3_Logo.png
+|p1=Looper
+|p2=Condi
+|p3=Dade
+|p4=Smlz
+|p5=Lovecd |p5flag=cn
+
+|t2p1=Ruo |t2p1flag=cn |t2pos1=sup
+
+|t3p1=Sin |t3pos1=head coach
+|qualifier=[[LPL/2015/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Unlimited Potential
+|image=Unlimited Potential.png
+|p1=Loong |p1flag=cn
+|p2=Eimy
+|p3=Punished |p3flag=cn
+|p4=Skatch
+|p5=Heart
+
+|t2p1=Jiaoyang |t2p1flag=cn |t2pos1=mid
+
+|t3p1=Rui |t3p1flag=cn |t3pos1=head coach
+|qualifier=[[LPL/2015/Summer/Promotion|Promotion]]
+|inotes={{NoteBig
+|n1=[[Vici Potential Gaming]] acquires [[Gamtee]]'s slot and forms [[Unlimited Potential]].
+}}
+}}
+{{TeamCard
+|team=Qiao Gu Reapers
+|p1=V|p1flag=cn
+|p2=Swift
+|p3=Doinb
+|p4=TnT|p4flag=cn
+|p5=TcT
+
+|t2p1=Hiro |t2pos1=head coach
+|t2title=Staff
+|qualifier=[[LSPL/2015/Spring|LSPL ]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=LetMe
+|p2=Mlxg
+|p3=Xiaohu
+|p4=wuxx
+|p5=LeY
+
+|t2p1=Skye |t2p1flag=cn |t2pos1=top|t2p1link=Skye (Chinese player)
+|t2p2=GodLike |t2pos2=top
+
+|t3p1=VicaL |t3pos1=head coach
+|qualifier=[[LSPL/2015/Spring|LSPL ]]
+|inotes={{NoteBig
+|n1=[[Royal Club]] acquires [[Vici Potential Gaming]]'s slot and forms [[Royal Never Give Up]].
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LPL/2015/Summer/Group_Stage|Group Stage}}
+<span style="line-height:24px">&nbsp;''[[LPL/2015/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{#lst:LPL/2015/Summer/Playoffs|Playoffs}}
+
+==Format==
+* '''Group Stage'''
+** Double Round Robin {{Abbr/Bo2}}
+*** A 2-0 victory gives the winning team 3 points
+*** A 1-1 tie gives both teams 1 point
+*** {{bgcolortext|byeup|''1st and 2nd place''}} advance to the Semfinals of the Playoffs.
+*** {{bgcolortext|seedup|''3rd till 5th place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|up|''6th place''}} advance to the Gauntlet second round.
+*** {{bgcolortext|stayup|''7th and 8th place''}} advance to the Gauntlet first round.
+*** {{bgcolortext|down|''9th till 12th place''}} will have to play in the [[LPL/2015/Summer/Promotion|Promotion Tournament]].
+* '''Playoffs'''
+** All matches are {{Abbr/Bo5}}
+** Stage 1 is a 4-team King of the Hill bracket
+*** 7th and 8th place face off in the first round
+*** Winner faces 6th place team
+*** Winner qualifies for quarterfinals and faces 5th place team in a reseeding match
+** Stage 2 is single elimination
+*** 3rd and 4th place face Gauntlet finalists based on who won the reseeding match
+*** Winners move on to Semifinals to face 1st and 2nd place
+*** Losers move to the 3rd place match, winners play in the finals
+*** The team with the most Championship points qualifies for the [[World_Championship/2015|World Championship]] as China's 1st seed
+*** Next 4 teams in the points ranking qualify for the [[LPL/2015/Regional_Finals|Regional Finals]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=
+|lang2=usuk |twitch2=riotgames |youtube2=
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+====Chinese Broadcast====
+{{BroadcasterCard
+|position=Caster 
+|b1=|b1flag=cn
+|b2=|b2flag=cn
+|b3=|b3flag=cn
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Atlus |b1name=Max Anderson |b1flag=au
+|b2=Dom |b2name=Dominic Roemer |b2flag=ca
+|b3=Pastrytime |b3name=Julian Carr |b3flag=au
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=Froskurinn |b1name=Indiana Juniper Black |b1flag=us
+|b2=Rusty |b2name=Zack Pye |b2flag=au
+|b3=Spawn |b3name=Jake Tiberi |b3flag=au
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Statistics===
+{{#lst:LPL/2015/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2015/Summer|edate=2015-12-01}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}
