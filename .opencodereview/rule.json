@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "path": "src/engine/eventTrigger.js",
+      "rule": "whenHits 是待退役的歷史遺留（只認 stage／minAge／maxAge／attr／trait／mental，trait 只讀 common 階）。不要建議為 whenHits 加欄位或新能力；新條件判斷一律走 src/engine/conditions.js 的 evalCond s-expression。",
+      "merge_system_rule": true
+    },
+    {
+      "path": "src/engine/conditions.js",
+      "rule": "新增謂詞必須同時檢查 tools/schema.js 的 PREDICATES 是否同步更新（兩張註冊表脫節是本專案已知缺陷來源）。謂詞必須是純函式、回傳純量、讀 src/engine/ledger.js 查詢層而非 raw state 欄位。",
+      "merge_system_rule": true
+    },
+    {
+      "path": "tools/schema.js",
+      "rule": "PREDICATES 必須與 src/engine/conditions.js 的 QUERIES 保持一致；發現兩邊不同步要標為缺陷。",
+      "merge_system_rule": true
+    },
+    {
+      "path": "src/data/**",
+      "rule": "資料單一來源規則：名次表、階名、旗標名、里程碑文字只准有一份手抄本；必須存機器可讀的鍵，顯示字串由鍵導出。發現跨檔重複定義或解析顯示字串的代码，標為缺陷。",
+      "merge_system_rule": true
+    },
+    {
+      "path": "**/*.{js,mjs}",
+      "rule": "本專案是純前端 ESM、零建置、無 npm 依賴，測試走 node tests/run.mjs。不要建議引入建置工具、打包器、TypeScript 編譯、新的 npm 套件；原生 ESM import 與 Node 內建模組是仅有的選擇。",
+      "merge_system_rule": true
+    },
+    {
+      "path": "tests/**",
+      "rule": "跨檔字串比對測試必須過寫入端的實際運算式，不得手抄預期字串；新測試先紅過才算守得住。",
+      "merge_system_rule": true
+    }
+  ]
+}

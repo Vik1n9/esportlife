@@ -69,8 +69,29 @@
 
 ## 收尾流程
 
-跑測試 → 回填該站交接筆記 → 更新狀態表 → 更新 `WORKLOG.md` → commit。
-一個 session 只做一站。
+跑測試 → 回填該站交接筆記 → 更新狀態表 → 更新 `WORKLOG.md` → OCR 審查閘門
+（見下節）→ commit → push。一個 session 只做一站。
+
+## 審查收尾規則
+
+> 2026-08-16 定案。每站工作完成、收尾文件寫好後，push 前必過 OCR
+> （open-code-review）審查閘門。
+
+1. 跑 `node scripts/station-review.mjs --station <站號>`：先跑 `npm test`
+   閘門，再 `ocr review` 全工作區變更（自動排除 `*.md`、帶入
+   `.opencodereview/rule.json` 倉庫規則與專案背景）。
+2. **exit 2 = 有 critical／high**：逐條修正 → 重跑 `npm test` → 重跑本腳本
+   複審，直到 exit 0。修正只聚焦 high／critical；不要順手重構。
+3. medium／low 自行斟酌：修掉，或記進該站交接筆記（照「補記」往例），
+   不得無聲忽略。
+4. commit 拆法（與既往歷史一致）：
+   - 站工作：`feat: S<id> <主題>——<一句話總結>`（一站一個）
+   - 審查修正：`fix: S<id> OCR review 修正——<改了什麼>`
+   - 只記不改：`docs: S<id> OCR review 補記——<N 條記入交接筆記>`
+5. `git push`。
+6. `.opencodereview/rule.json`（倉庫審查規則）與本檔規則同源：
+   條件語言、單一來源等規則變動時，兩處同一個 commit 一起改。
+7. 已 commit 後才要補審，用 `ocr review --audience agent -c HEAD`。
 
 **動工規則**：說「動工」（或開工／接續下一站）即套用 `donggong` skill——跑
 `docs/v4/next-station.mjs` 抓下一站續做，不要每次重跑搜尋理解進度。
