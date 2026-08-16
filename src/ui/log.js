@@ -15,9 +15,9 @@ const KIND_LABEL = { all: '全部', match: '賽事', train: '訓練', event: '�
 
 let logRoot = null;
 let currentYearBody = null;
-// 卡牌覆寫（§22.2，S39）：inline 選項要接在「剛才那張卡」下緣，得記住最後一張卡
-// 的節點。engine 掛保證 inline choice 的前一個 beat 必是 card（tests/phases/choiceSlot.mjs），
-// 所以讀到的一定是錨點卡本身
+// 卡牌問答（§22.2，S43）：`slot:'inline'` 的選項出在底部決策槽，但「是哪張卡在問」
+// 要標得出來——等待時掛提示條、選定後留下定格文字，所以得記住最後一張卡的節點。
+// engine 掛保證 inline choice 的前一個 beat 必是 card（tests/phases/choiceSlot.mjs）
 let lastCardNode = null;
 // 五拍分組：記住最後一個 series block，同系列的下一張卡直接追加
 let lastSeriesBlock = null;
@@ -43,7 +43,7 @@ export function onYearsUpdated(cb) { onYearChange = cb; }
 
 function target() { return currentYearBody || logRoot; }
 
-/** 最後一張卡（inline 選項的錨點）；分隔線與 loose 節點會切斷它 */
+/** 最後一張卡（卡牌問答的錨點）；分隔線與 loose 節點會切斷它 */
 export const lastCard = () => lastCardNode;
 
 export function renderCard({ tone, title, body, kind, series }) {

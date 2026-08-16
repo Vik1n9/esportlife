@@ -10,7 +10,7 @@
 import { Rng, randomSeed } from './core/rng.js';
 import { ROLES, ROLE_NAMES } from './data/skills.js';
 import { createState } from './engine/state.js';
-import { initBoardMetrics, renderBoard } from './ui/board.js';
+import { renderBoard } from './ui/board.js';
 import { byId, qsa } from './ui/dom.js';
 import { initLog } from './ui/log.js';
 import { initPanel, setPanelState } from './ui/panel/index.js';
@@ -92,7 +92,6 @@ function enterGame(state, rng) {
   initPanel(state);
   setPanelState(state);
   renderBoard(state, 0);
-  initBoardMetrics();
 
   // 重開：放棄當下生涯，清存檔後回到開場（換 URL 讓狀態乾淨重來）
   byId('btn-restart').addEventListener('click', () => {
