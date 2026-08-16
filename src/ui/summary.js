@@ -119,132 +119,77 @@ function copyReplayLink(btn, seed) {
 }
 
 /**
- * 結算圖（v4.6.5 重設計：轉播選手卡風格）。
+ * 結算圖（轉播選手卡）。版面由上而下：
  *
- * 左欄六維屬性雷達圖＋右欄各賽區生涯數據（出賽／K/D/A／KDA 比值），
- * 下方依序放個人特質、頂級榮譽、生涯總薪資與生涯傳記。零依賴 Canvas 2D，
- * 維持老規矩：先量後畫——換行與高度都量過才設畫布。
+ *   橘金頂線／作品名／選手名（大字橘金）／位置 · 等第 · 退役年（歲）
+ *   ┌ 六維屬性雷達圖 ┐ ┌ 生涯數據表 ┐   ← 兩張等高並排面板
+ *   個人特質（依五階配色，被合成者灰字劃線）
+ *   世界賽冠軍 N   MSI 冠軍 N   賽段冠軍 N   單場 MVP N 次
+ *   生涯總薪資 N 億台幣
+ *   生涯傳記（buildBiography 五段，逐行換行，最多 BIO_MAX_LINES 行）
+ *   seed: xxxx                                              vX.Y.Z
+ *
+ * ⚠ 所有落字一律走 `text()`，由它逐次設定 font／fillStyle／textAlign。
+ *    v4.6.6 的版面跑掉就是裸 `fillText` 吃到別人留下的狀態：`drawStatTable`
+ *    畫完「合計」的 KDA 後 textAlign 停在 'right'，下半張卡的每一段都被右對齊
+ *    到 x=PAD，整片字畫到畫布左邊界之外。不要再用裸的 fillText。
+ *
+ * ⚠ 高度用兩趟渲染求得（先在暫存 context 跑一次同一份 `paintCard` 拿到末行基線，
+ *    再開實際畫布畫第二次），不再手抄一份高度算式——手抄本遲早跟繪製漂移。
  *
  * ⚠ KDA 比值走 `ledger.kdaOf`（D=0 回 K+A），結算圖不直接除 raw 欄位。
  */
-// 數據表欄位 x 座標（drawShareImage 與 drawStatTable 共用，單一來源避免漂移）
-const COL_STAGE = 424; const COL_G = COL_STAGE + 148; const COL_KDA = COL_STAGE + 278; const COL_RATIO = 860;
+const W = 900; const PAD = 40; const SCALE = 2;
+const FULL_W = W - PAD * 2;
+const FOOT_H = 52;                    // 末行基線到畫布底緣：頁尾就落在這段留白裡
+const BIO_MAX_LINES = 8;
+
+// 面板與表格的 x 座標（單一來源，避免各處手抄漂移）
+const L_X = PAD; const L_X2 = 392;    // 左面板：六維雷達
+const R_X = 404; const R_X2 = W - PAD; // 右面板：生涯數據
+const RADAR_R = 104; const RADAR_CX = (L_X + L_X2) / 2;
+const COL_STAGE = R_X + 20; const COL_G = COL_STAGE + 148;
+const COL_KDA = COL_STAGE + 278; const COL_RATIO = R_X2 - 20;
+const ROW_H = 34;                     // 數據表列距：一行一個賽區，拉開才讀得順
+const SUM_GAP = 12;                   // 分隔線與「合計」列之間額外讓開的一段
+
 const UI = "'Inter','Noto Sans TC',sans-serif";
+const F_SECTION = `600 13px ${UI}`;   // 段落標題（金）
+const F_TRAIT = `600 15px ${UI}`;
+const F_HONOR_LABEL = `400 13px ${UI}`;
+const F_HONOR_VALUE = `700 17px ${UI}`;
+const F_BIO = `400 13px ${UI}`;
+
+const C_BG = '#0d202b';
+const C_ACCENT = '#d47559';
+const C_GOLD = '#d9c05a';
+const C_GHOST = '#7c8f92';
+const C_INK = 'rgba(255,255,255,.92)';
+const C_DIM = 'rgba(255,255,255,.82)';
+const C_LINE = 'rgba(255,255,255,.14)';
+
+// 特質五階配色，對齊 styles.css 的 --legendary/--unique/--epic/--rare
+const TRAIT_COLORS = {
+  legendary: '#ffd166', unique: '#e08a63', epic: '#c45dd6', rare: '#7cc4ff', common: C_INK,
+};
+
+/** 唯一的落字入口：font／色／對齊每次都設滿，不繼承前一筆留下的 context 狀態 */
+function text(c, s, x, y, font, color, align = 'left') {
+  c.font = font; c.fillStyle = color; c.textAlign = align;
+  c.fillText(s, x, y);
+}
 
 function drawShareImage(out, { state, tier, seed, appVersion }) {
-  const W = 900; const PAD = 40; const SCALE = 2;
-  const RADAR_R = 108; const RADAR_CX = PAD + 176;
+  const data = { state, tier, seed, appVersion };
 
-  /* ---- 內容組裝 ---- */
-  const buckets = Object.entries(state.stats).filter(([, s]) => s.G > 0);
-  const total = { G: 0, K: 0, D: 0, A: 0 };
-  for (const [, s] of buckets) for (const k of ['G', 'K', 'D', 'A']) total[k] += s[k];
-
-  const held = activeTraitNames(state);
-  const traitNames = TIER_DISPLAY_ORDER.flatMap((t) => held[t] || []);
-  const honorRows = state.honors.filter((h) => /世界賽冠軍|MSI 冠軍|改寫歷史/.test(h)).slice(0, 4);
-
-  /* ---- 先量：scratch context 做中文換行，高度全由內容累加 ---- */
-  const scratch = el('canvas').getContext('2d');
-  const FULL_W = W - PAD * 2;
-  const wrapLines = (text, font) => {
-    scratch.font = font;
-    const lines = [];
-    let line = '';
-    for (const ch of text) {
-      if (scratch.measureText(line + ch).width > FULL_W) { lines.push(line); line = ch; } else line += ch;
-    }
-    lines.push(line);
-    return lines;
-  };
-
-  const traitLines = traitNames.length
-    ? wrapLines(traitNames.map((n) => `【${n}】`).join(' '), `600 15px ${UI}`)
-    : ['（無）'];
-  const fusedLines = state.fusedAway.length
-    ? wrapLines(`合成離隊：${state.fusedAway.join(' ')}`, `400 13px ${UI}`)
-    : [];
-  const honorLines = honorRows.flatMap((h) => wrapLines(`· ${h}`, `400 15px ${UI}`));
-  const bioLines = buildBiography(state).flatMap((p) => wrapLines(p, `400 13px ${UI}`));
-
-  const radarH = 46 + RADAR_R * 2 + 52;                              // 標題＋圖＋上下標籤
-  const tableH = 46 + buckets.length * 28 + 54;                      // 標題＋表頭＋列＋總計
-  const middleH = Math.max(radarH, tableH) + 12;
-
-  // 與下面繪製同順的帳面高度：先量後畫，畫布不留空白
-  const H = 100 + 44 + 38 + middleH
-    + 36 + traitLines.length * 24 + (fusedLines.length ? 6 + fusedLines.length * 20 : 0)
-    + (honorLines.length ? 44 + honorLines.length * 22 : 6)
-    + 34
-    + 38 + bioLines.length * 21
-    + 52;
+  // 第一趟：暫存 context 只為量出末行基線（畫超出 300×150 的部分自然被丟棄）
+  const H = Math.ceil(paintCard(el('canvas').getContext('2d'), data, 0)) + FOOT_H;
 
   const canvas = el('canvas');
   canvas.width = W * SCALE; canvas.height = H * SCALE;
   const c = canvas.getContext('2d');
   c.scale(SCALE, SCALE);
-
-  /* ---- 背景與標頭 ---- */
-  c.fillStyle = '#0d202b'; c.fillRect(0, 0, W, H);
-  c.fillStyle = '#d47559'; c.fillRect(0, 0, W, 4);
-  c.textAlign = 'left';
-  c.fillStyle = '#7c8f92'; c.font = `600 13px ${UI}`;
-  c.fillText('電競人生 · LoL 職業選手生涯模擬', PAD, 50);
-
-  let y = 100;
-  c.fillStyle = '#d47559'; c.font = `700 36px ${UI}`;
-  c.fillText(`${state.name}`, PAD, y); y += 44;
-  c.fillStyle = 'rgba(255,255,255,.92)'; c.font = `600 16px ${UI}`;
-  c.fillText(`${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${state.year} 年`
-    + `${state.demoEnded ? ` DEMO 結算（${state.age} 歲，${DEMO_YEARS} 個賽季）` : `退役（${state.age} 歲）`}`, PAD, y);
-  y += 38;
-
-  /* ---- 中段：左雷達圖、右數據表 ---- */
-  const yMid = y;
-  c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
-  c.fillText('六維屬性', PAD, yMid + 18);
-  c.fillText('生涯數據', COL_STAGE, yMid + 18);
-
-  drawRadar(c, RADAR_CX, yMid + 46 + RADAR_R, RADAR_R, state);
-  drawStatTable(c, yMid, buckets, total);
-  y = yMid + middleH;
-
-  /* ---- 特質 ---- */
-  c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
-  c.fillText('個人特質', PAD, y + 14); y += 36;
-  c.font = `600 15px ${UI}`; c.fillStyle = 'rgba(255,255,255,.92)';
-  for (const line of traitLines) { c.fillText(line, PAD, y); y += 24; }
-  if (fusedLines.length) {
-    y += 6;
-    c.font = `400 13px ${UI}`; c.fillStyle = '#7c8f92';
-    for (const line of fusedLines) { c.fillText(line, PAD, y); y += 20; }
-  }
-
-  /* ---- 頂級榮譽＋生涯總薪資 ---- */
-  if (honorLines.length) {
-    c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
-    c.fillText('頂級榮譽', PAD, y + 16); y += 38;
-    c.font = `400 15px ${UI}`; c.fillStyle = 'rgba(255,255,255,.92)';
-    for (const line of honorLines) { c.fillText(line, PAD, y); y += 22; }
-    y += 6;
-  } else {
-    y += 6;
-  }
-  c.font = `700 18px ${UI}`; c.fillStyle = '#d9c05a';
-  c.fillText(`生涯總薪資 ${formatMoney(state.salary)} 台幣`, PAD, y); y += 34;
-
-  /* ---- 生涯傳記 ---- */
-  c.font = `600 13px ${UI}`; c.fillStyle = '#d9c05a';
-  c.fillText('生涯傳記', PAD, y + 16); y += 38;
-  c.font = `400 13px ${UI}`; c.fillStyle = 'rgba(255,255,255,.82)';
-  for (const line of bioLines) { c.fillText(line, PAD, y); y += 21; }
-
-  /* ---- 頁尾 ---- */
-  c.fillStyle = '#7c8f92'; c.font = '12px monospace';
-  c.textAlign = 'left';
-  c.fillText(`seed: ${seed}`, PAD, H - 26);
-  c.textAlign = 'right';
-  c.fillText(appVersion, W - PAD, H - 26);
+  paintCard(c, data, H);
 
   const url = canvas.toDataURL('image/png');
   const fileName = `電競人生_${state.name}.png`;
@@ -272,6 +217,170 @@ function drawShareImage(out, { state, tier, seed, appVersion }) {
     }
     download();
   });
+}
+
+/**
+ * 把整張卡畫進 `c`，回傳最後一行的基線 y。
+ *
+ * `H` 為 0 表示這是量測回合：底色與頁尾要靠畫布高度定位，該回合先跳過，
+ * 其餘一律照畫——量測與正式回合共用同一段程式，版面就不可能對不上。
+ *
+ * 對外只為 `tests/kernel/shareCard.mjs`：它拿假的 2D context 錄下每一筆落字，
+ * 驗每個字都還在畫布裡（版面跑掉就是有字被畫到界外，那條測試守的就是這件事）。
+ */
+export function paintCard(c, { state, tier, seed, appVersion }, H) {
+  const buckets = Object.entries(state.stats).filter(([, s]) => s.G > 0);
+  const total = { G: 0, K: 0, D: 0, A: 0 };
+  for (const [, s] of buckets) for (const k of ['G', 'K', 'D', 'A']) total[k] += s[k];
+
+  const traitLines = layoutTokens(c, traitTokens(state), F_TRAIT, FULL_W);
+  const honorLines = layoutHonors(c, honorCells(state, buckets), FULL_W);
+  const bioLines = buildBiography(state)
+    .flatMap((p) => wrapLines(c, p, F_BIO, FULL_W))
+    .slice(0, BIO_MAX_LINES);
+
+  /* ---- 背景與橘金頂線 ---- */
+  c.fillStyle = C_BG; c.fillRect(0, 0, W, H);
+  c.fillStyle = C_ACCENT; c.fillRect(0, 0, W, 4);
+
+  /* ---- 標頭 ---- */
+  text(c, '電競人生 · LoL 職業選手生涯模擬', PAD, 50, F_SECTION, C_GHOST);
+  text(c, state.name, PAD, 100, `700 36px ${UI}`, C_ACCENT);
+  // DEMO 期滿（§19，S21b）不是退役——同一張卡只換這一行的說法
+  const ending = state.demoEnded
+    ? `${state.year} 年 DEMO 結算（${state.age} 歲 · ${DEMO_YEARS} 個賽季）`
+    : `${state.year} 年退役（${state.age} 歲）`;
+  text(c, `${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${ending}`, PAD, 144, `600 16px ${UI}`, C_INK);
+
+  /* ---- 中段：左雷達、右數據表，兩張等高面板 ---- */
+  const panelTop = 178;
+  const panelH = Math.max(
+    RADAR_R * 2 + 126,                                     // 標題＋上下軸標籤＋圖
+    56 + (buckets.length + 1) * ROW_H + SUM_GAP + 18,      // 標題＋表頭＋各列＋合計
+  );
+  panel(c, L_X, panelTop, L_X2 - L_X, panelH);
+  panel(c, R_X, panelTop, R_X2 - R_X, panelH);
+  text(c, '六維屬性', L_X + 20, panelTop + 24, F_SECTION, C_GOLD);
+  text(c, '生涯數據', COL_STAGE, panelTop + 24, F_SECTION, C_GOLD);
+  drawRadar(c, RADAR_CX, panelTop + RADAR_R + 78, RADAR_R, state);
+  drawStatTable(c, panelTop, buckets, total);
+
+  /* ---- 個人特質 ---- */
+  let y = panelTop + panelH + 34;
+  text(c, '個人特質', PAD, y, F_SECTION, C_GOLD);
+  for (const line of traitLines) { y += 26; drawTokenLine(c, line, PAD, y, F_TRAIT); }
+
+  /* ---- 榮譽計數列 ---- */
+  for (const line of honorLines) { y += 36; drawHonorLine(c, line, PAD, y); }
+
+  /* ---- 生涯總薪資 ---- */
+  y += 38;
+  text(c, `生涯總薪資 ${formatMoney(state.salary)} 台幣`, PAD, y, `700 18px ${UI}`, C_GOLD);
+
+  /* ---- 生涯傳記 ---- */
+  y += 44;
+  text(c, '生涯傳記', PAD, y, F_SECTION, C_GOLD);
+  for (const line of bioLines) { y += 21; text(c, line, PAD, y, F_BIO, C_DIM); }
+
+  /* ---- 頁尾（量測回合沒有畫布高度可定位，略過） ---- */
+  if (H) {
+    text(c, `seed: ${seed}`, PAD, H - 26, '12px monospace', C_GHOST);
+    text(c, appVersion, W - PAD, H - 26, '12px monospace', C_GHOST, 'right');
+  }
+  return y;
+}
+
+/** 面板外框：極淡底色＋一條髮絲邊，圓角在沒有 roundRect 的環境退回直角 */
+function panel(c, x, y, w, h) {
+  c.beginPath();
+  if (c.roundRect) c.roundRect(x, y, w, h, 10); else c.rect(x, y, w, h);
+  c.fillStyle = 'rgba(255,255,255,.03)'; c.fill();
+  c.strokeStyle = C_LINE; c.lineWidth = 1; c.stroke();
+}
+
+/** 中文沒有詞邊界，換行逐字量寬 */
+function wrapLines(c, s, font, maxW) {
+  c.font = font;
+  const lines = [];
+  let line = '';
+  for (const ch of s) {
+    if (line && c.measureText(line + ch).width > maxW) { lines.push(line); line = ch; } else line += ch;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
+/** 特質標籤：依五階配色，被合成掉的排在最後、灰字待劃線 */
+function traitTokens(state) {
+  const held = activeTraitNames(state);
+  const tokens = [
+    ...TIER_DISPLAY_ORDER.flatMap((t) => (held[t] || [])
+      .map((n) => ({ label: `〔${n}〕`, color: TRAIT_COLORS[t] || C_INK, gone: false }))),
+    ...state.fusedAway.map((n) => ({ label: `〔${n}〕`, color: C_GHOST, gone: true })),
+  ];
+  return tokens.length ? tokens : [{ label: '（無）', color: C_INK, gone: false }];
+}
+
+/** 逐顆標籤排進行內，超寬就換行；回傳每行的 {label,color,gone,dx,w} */
+function layoutTokens(c, tokens, font, maxW) {
+  c.font = font;
+  const lines = [];
+  let line = []; let x = 0;
+  for (const t of tokens) {
+    const w = c.measureText(t.label).width;
+    if (line.length && x + w > maxW) { lines.push(line); line = []; x = 0; }
+    line.push({ ...t, dx: x, w });
+    x += w + 4;
+  }
+  if (line.length) lines.push(line);
+  return lines;
+}
+
+function drawTokenLine(c, line, x0, y, font) {
+  for (const t of line) {
+    text(c, t.label, x0 + t.dx, y, font, t.color);
+    if (!t.gone) continue;
+    c.strokeStyle = t.color; c.lineWidth = 1;
+    c.beginPath();
+    c.moveTo(x0 + t.dx + 2, y - 5);
+    c.lineTo(x0 + t.dx + t.w - 2, y - 5);
+    c.stroke();
+  }
+}
+
+/**
+ * 榮譽計數列：只列有拿到的，零的那一格整格不出現。
+ * MVP 走 `stat.MVP`（每場計次，見 season.js），所以叫單場 MVP 而不是賽季 MVP。
+ */
+function honorCells(state, buckets) {
+  const mvp = buckets.reduce((n, [, s]) => n + s.MVP, 0);
+  return [
+    { label: '世界賽冠軍', n: state.worldsWins, value: `${state.worldsWins}` },
+    { label: 'MSI 冠軍', n: state.msiWins, value: `${state.msiWins}` },
+    { label: '賽段冠軍', n: state.splitTitles, value: `${state.splitTitles}` },
+    { label: '單場 MVP', n: mvp, value: `${mvp} 次` },
+  ].filter((cell) => cell.n > 0);
+}
+
+function layoutHonors(c, cells, maxW) {
+  const lines = [];
+  let line = []; let x = 0;
+  for (const cell of cells) {
+    c.font = F_HONOR_LABEL; const wl = c.measureText(cell.label).width;
+    c.font = F_HONOR_VALUE; const w = wl + 8 + c.measureText(cell.value).width;
+    if (line.length && x + w > maxW) { lines.push(line); line = []; x = 0; }
+    line.push({ ...cell, dx: x, wl });
+    x += w + 26;
+  }
+  if (line.length) lines.push(line);
+  return lines;
+}
+
+function drawHonorLine(c, line, x0, y) {
+  for (const cell of line) {
+    text(c, cell.label, x0 + cell.dx, y, F_HONOR_LABEL, C_GHOST);
+    text(c, cell.value, x0 + cell.dx + cell.wl + 8, y, F_HONOR_VALUE, C_GOLD);
+  }
 }
 
 /** 六維屬性雷達圖：四圈網格＋六軸＋數值多邊形，頂點由 ATTRS 順序固定 */
@@ -321,55 +430,43 @@ function drawRadar(c, cx, cy, r, state) {
   ATTRS.forEach((key, i) => {
     const a = ((i * 360) / N - 90) * (Math.PI / 180);
     const [lx, ly] = pt(i, r + 26);
-    c.font = `600 12.5px ${UI}`;
-    c.textAlign = Math.abs(Math.cos(a)) < 0.35 ? 'center' : (Math.cos(a) > 0 ? 'left' : 'right');
-    c.fillStyle = 'rgba(255,255,255,.78)';
-    c.fillText(`${ATTR_NAMES[key]} ${state.attr[key]}`, lx, ly + 4);
+    const align = Math.abs(Math.cos(a)) < 0.35 ? 'center' : (Math.cos(a) > 0 ? 'left' : 'right');
+    text(c, `${ATTR_NAMES[key]} ${state.attr[key]}`, lx, ly + 4, `600 12.5px ${UI}`, 'rgba(255,255,255,.78)', align);
   });
 }
 
-/** 右欄數據表：階段／出賽／K-D-A／KDA 比值，末列為生涯合計 */
-function drawStatTable(c, yMid, buckets, total) {
-  const headY = yMid + 44;
+/** 右面板數據表：階段／出賽／K-D-A／KDA 比值，末列為生涯合計 */
+function drawStatTable(c, panelTop, buckets, total) {
+  const headY = panelTop + 56;
+  const head = `600 12px ${UI}`;
+  text(c, '階段', COL_STAGE, headY, head, C_GHOST);
+  text(c, '出賽', COL_G, headY, head, C_GHOST, 'center');
+  text(c, 'K / D / A', COL_KDA, headY, head, C_GHOST, 'center');
+  text(c, 'KDA', COL_RATIO, headY, head, C_GHOST, 'right');
 
-  c.font = `600 12px ${UI}`;
-  c.fillStyle = '#7c8f92';
-  c.textAlign = 'left';
-  c.fillText('階段', COL_STAGE, headY);
-  c.textAlign = 'center';
-  c.fillText('出賽', COL_G, headY);
-  c.fillText('K / D / A', COL_KDA, headY);
-  c.textAlign = 'right';
-  c.fillText('KDA', COL_RATIO, headY);
-
-  let y = headY + 28;
-  c.font = `400 12.5px ${UI}`;
+  let y = headY + ROW_H;
+  const row = `400 12.5px ${UI}`;
   for (const [b, s] of buckets) {
-    c.textAlign = 'left';
-    c.fillStyle = 'rgba(255,255,255,.92)';
-    c.fillText(BUCKET_NAMES[b] || b, COL_STAGE, y);
-    c.textAlign = 'center';
-    c.fillText(`${s.G}`, COL_G, y);
-    c.fillText(`${s.K}/${s.D}/${s.A}`, COL_KDA, y);
-    c.textAlign = 'right';
-    c.fillText(`${kdaOf(s)}`, COL_RATIO, y);
-    y += 28;
+    text(c, BUCKET_NAMES[b] || b, COL_STAGE, y, row, C_INK);
+    text(c, `${s.G}`, COL_G, y, row, C_INK, 'center');
+    text(c, `${s.K}/${s.D}/${s.A}`, COL_KDA, y, row, C_INK, 'center');
+    text(c, `${kdaOf(s)}`, COL_RATIO, y, row, C_INK, 'right');
+    y += ROW_H;
   }
 
-  c.strokeStyle = 'rgba(255,255,255,.14)';
+  // 分隔線貼著最後一列的下緣，「合計」再往下讓開 SUM_GAP——線壓著字讀起來很擠
+  const ruleY = y - ROW_H + 14;
+  c.strokeStyle = C_LINE;
   c.lineWidth = 1;
   c.beginPath();
-  c.moveTo(COL_STAGE, y - 10);
-  c.lineTo(COL_RATIO, y - 10);
+  c.moveTo(COL_STAGE, ruleY);
+  c.lineTo(COL_RATIO, ruleY);
   c.stroke();
 
-  c.font = `600 13px ${UI}`;
-  c.textAlign = 'left';
-  c.fillStyle = '#d9c05a';
-  c.fillText('合計', COL_STAGE, y);
-  c.textAlign = 'center';
-  c.fillText(`${total.G}`, COL_G, y);
-  c.fillText(`${total.K}/${total.D}/${total.A}`, COL_KDA, y);
-  c.textAlign = 'right';
-  c.fillText(`${kdaOf(total)}`, COL_RATIO, y);
+  y += SUM_GAP;
+  const sum = `600 13px ${UI}`;
+  text(c, '合計', COL_STAGE, y, sum, C_GOLD);
+  text(c, `${total.G}`, COL_G, y, sum, C_GOLD, 'center');
+  text(c, `${total.K}/${total.D}/${total.A}`, COL_KDA, y, sum, C_GOLD, 'center');
+  text(c, `${kdaOf(total)}`, COL_RATIO, y, sum, C_GOLD, 'right');
 }
