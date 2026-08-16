@@ -142,11 +142,14 @@ of」三句式為關鍵字。
 
 ### 疑慮與裁決（寫給 S25／S24c）
 
-- **Liquipedia region 欄與 location 欄互相矛盾**，已實測三種案例：G-Rex
+- **Liquipedia region 欄與 location 欄互相矛盾**，已實測四種案例：G-Rex
   （location=Hong Kong、region=taiwan → TW）、HKA（location=Hong Kong、
   region=Taiwan → HK，人工例外表裁決）、Machi/TPA（region=Southeast Asia、
-  location=Taiwan → TW）。**S25 清洗選手頁時別信單一欄位**；選手頁的 country 欄
-  也有同樣風險，實體對齊時以分類＋頁題消歧義為主。
+  location=Taiwan → TW）、**F-Soul（location=Hong Kong、region=tw → HK，同型
+  誤標：reg=tw 是 LMS 聯賽區域標記，對香港隊不可信）**。⚠ 教訓：region=tw／
+  taiwan 對香港隊都不準（HKA/F-Soul 兩例），判定以 location 為主、例外表兜底。
+  **S25 清洗選手頁時別信單一欄位**；選手頁的 country 欄也有同樣風險，實體對齊時
+  以分類＋頁題消歧義為主。
 - **active_years 有三隊 null**：Fireball、G-Rex Infinite、Taiwan（代表隊）——Infobox
   created/disbanded 全空，散文無年份。留 null，S25 從 TimelineSquadAuto 補或記缺失。
 - **8 頁有 `{{Want_to_Help}}` 缺漏標記**：全在 GPL 2012–2014 賽事頁（Season 1、

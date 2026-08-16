@@ -143,8 +143,11 @@ function regionOf(box) {
 
 // 人工例外：Liquipedia 兩欄互相矛盾時的裁決（2026-08-16）。
 // HKA：location=Hong Kong、region=Taiwan——隊名與 location 一致，region 是誤標。
-// G-Rex 反向（location=Hong Kong、region=taiwan）靠 region 優先規則已拿對。
-const REGION_OVERRIDES = { 'Hong Kong Attitude': 'HK' };
+// F-Soul：location=Hong Kong、region=tw——香港隊（隊員全 HK）打 LMS，reg=tw 是
+//   聯賽區域標記（LMS 是台灣聯賽），與 HKA 同型誤標。
+// G-Rex／G-Rex Infinite 反向（location=Hong Kong、region=taiwan）靠 region 優先
+// 規則已拿對（TW，與 G-Rex 姊妹隊一致）。⚠ region=tw 對香港隊不可信。
+const REGION_OVERRIDES = { 'Hong Kong Attitude': 'HK', 'F-Soul Esports': 'HK' };
 
 const args = process.argv.slice(2);
 // --all：連外賽區隊（region 為 null 的 LCP/PCS 混入隊）一起輸出——S24c 裁決
