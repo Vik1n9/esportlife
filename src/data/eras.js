@@ -15,6 +15,20 @@ export const START_AGE = 19;
 export const AMATEUR_START_YEAR = 2012;
 export const AMATEUR_START_AGE = 16;
 
+/*
+ * DEMO 期程（§19，S21b）：從 START_YEAR 起算 **三個賽季 ＝ 36 個月**。
+ *
+ * 一年（12 個月）試不出多樣系統——生命週期衰退、合約遞減、轉會、生涯任務的期限、
+ * 三層退役事件都要跨年才看得到第二個狀態。三年是「跨得過所有跨年機制、又短到
+ * 一次坐得完」的長度：合約 2 年在第三年到期、任務卡 deadline 2 年內收束、
+ * 衰退曲線在 19 → 21 歲之間量得出斜率。
+ *
+ * 期滿沒觸發任何結局就以「DEMO 結束」收束，比照退役跑第三層結算（§18.2 finale）。
+ * 上限只掛在 DEMO 路線（PRO 起點）；業餘起點是完整生涯基線，永不到期。
+ */
+export const DEMO_YEARS = 3;
+export const DEMO_END_YEAR = START_YEAR + DEMO_YEARS - 1;
+
 /**
  * 時代時間軸。`[from, to]` 閉區間，`eraOf` 依年份查表，不再用一串 if。
  *

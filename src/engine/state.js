@@ -12,7 +12,7 @@ import { FAME_START } from '../data/reputation.js';
 import { STAMINA_MAX } from './stamina.js';
 import { HEROES_BY_ROLE } from '../data/heroes.js';
 import { TEAMS_AMATEUR } from '../data/teams.js';
-import { AMATEUR_START_AGE, AMATEUR_START_YEAR, START_AGE, START_YEAR } from '../data/eras.js';
+import { AMATEUR_START_AGE, AMATEUR_START_YEAR, DEMO_END_YEAR, START_AGE, START_YEAR } from '../data/eras.js';
 import { ceilingCurve, drawLifecycle } from './lifecycle.js';
 import { INNATE_POOL } from '../data/innate.js';
 import { signContract } from './market.js';
@@ -39,7 +39,10 @@ import { teamsOf } from './roster.js';
 // v22：三層退役事件（S20e，V4 §18.2）。新增 marketQuiet（最近一次自由市場有無
 // 報價——「無聲告別」與「最後一搏」的判準）；舊存檔缺這欄會讓兩個結局條件失效，
 // 故作廢
-export const SAVE_VERSION = 22;
+// v23：DEMO 三年期程（S21b，V4 §19）。新增 demoEndYear（DEMO 的最後一年；業餘起點
+// 為 null ＝ 不設上限）與 demoEnded（36 個月跑完、沒觸發任何結局的收束旗標）——舊存檔
+// 缺 demoEndYear 會被當成完整生涯永遠跑下去，DEMO 的收束畫面永遠等不到，故作廢
+export const SAVE_VERSION = 23;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -56,8 +59,8 @@ export function blankSeasonStat() {
  *
  * `stage`（S20d）：兩種起點共用同一條出生流——
  *
- *   'PRO'（預設，DEMO／完成定義起點）：19 歲、2015 年、直接從職業第一年開始
- *     （§19）。起始屬性讀**固定潛力**——出道新人已經打完業餘期，§7.3 的 k_i
+ *   'PRO'（預設，DEMO／完成定義起點）：19 歲、2015 年、直接從職業第一年開始，
+ *     跑三個賽季＝ 36 個月（§19，S21b）。起始屬性讀**固定潛力**——出道新人已經打完業餘期，§7.3 的 k_i
  *     比例照原樣兌現。出道隊由 `${seed}:debut` 亂數流簽下，與人生流／出生流
  *     分開命名空間。
  *   'AMATEUR'：16 歲、2012 年、從網咖盃賽爬起。起始屬性讀 effective_potential(16)，
@@ -148,6 +151,16 @@ export function createState({ name, role, seed, stage = 'PRO' }) {
     // 當下的月份（V4 §3.3）。存檔點固定在年初，所以它讀出來一定是 1；它存在是為了
     // 讓狀態列與面板有一個「現在走到哪」的來源，而不是靠 UI 自己數 beat
     month: 1,
+
+    /*
+     * DEMO 期程（§19，S21b）：DEMO 路線＝ PRO 起點，從 START_YEAR 起算三年
+     * （36 個月）；跑滿沒觸發任何結局就以「DEMO 結束」比照退役結算。
+     *
+     * 業餘起點是完整生涯基線（13 站校準量在它身上），`demoEndYear` 為 null ＝
+     * 不設上限——DEMO 是把生涯截短，不是把後面的系統砍掉（§19.4）。
+     */
+    demoEndYear: stage === 'PRO' ? DEMO_END_YEAR : null,
+    demoEnded: false,        // 期滿收束（非退役）。結算畫面與傳記靠它分辨措辭
 
     // 生涯階段：AMATEUR（網咖盃賽）→ AM2（青訓次級）→ PRO
     stage,

@@ -157,6 +157,35 @@ export async function run({ check, log }) {
     check('衰退跟隨：上升期（16 歲）沒有衰退', annualPull(d, k) <= 0, `${k} pull=${annualPull(d, k).toFixed(3)}`);
   }
 
+  /*
+   * 峰前的參考線是**固定潛力**，不是當下的曲線值（S21b 校準）。
+   *
+   * 這條分兩半守，缺一邊就會退回被修掉的那兩種錯：
+   *   ① 峰前、低於潛力但高於曲線 → pull 必須是 0。這正是 DEMO 職業起點的樣子
+   *     （19 歲、屬性 = 固定潛力 × 0.80／0.70），舊寫法在這裡每年回拉，開局第一張
+   *     卡就是「體能已過巔峰」，新秀三年練不動。
+   *   ② 峰前、超過潛力 → pull 必須 > 0。潛力仍是硬上限，低潛力的人猛練也翻不了身
+   *     （`tests/phases/amateur.mjs` 的「沒達標就沒有星探」直接靠這條）。
+   */
+  {
+    // 19 歲＝ DEMO 的職業起點：六屬性的峰值都在 20 歲之後（agi 最早 20–24），
+    // 曲線值落在 0.60–0.75，所以「潛力 × 0.9」必定高過曲線、又沒超過潛力
+    const rookie = createState({ name: 'R', role: 'MID', seed: 'prepeak-probe', stage: 'PRO' });
+    rookie.age = 19;
+    for (const k of ATTRS) {
+      check('峰值都在 19 歲之後（這段探針的前提）', effectiveParams(rookie, k).peak_age > rookie.age,
+        `${k} peak=${effectiveParams(rookie, k).peak_age}`);
+      rookie.attr[k] = Math.max(1, Math.round(rookie.potential[k] * 0.9));
+      check('衰退跟隨：峰前、低於潛力 → 不回拉（曲線還沒追上來不算衰退）',
+        annualPull(rookie, k) === 0 && rookie.attr[k] > effectivePotential(rookie, k),
+        `${k} attr=${rookie.attr[k]} 曲線=${effectivePotential(rookie, k).toFixed(1)} pull=${annualPull(rookie, k).toFixed(3)}`);
+
+      rookie.attr[k] = Math.min(100, rookie.potential[k] + 8);
+      check('衰退跟隨：峰前、超過潛力 → 照樣回拉（潛力仍是硬上限）',
+        annualPull(rookie, k) > 0, `${k} attr=${rookie.attr[k]} 潛力=${rookie.potential[k]}`);
+    }
+  }
+
   // 衰退期：把屬性故意推高到超過有效天花板，驗證每年的衰退量只是缺口的一小部分
   d.age = 40;
   for (const k of ATTRS) {

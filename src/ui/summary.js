@@ -5,6 +5,7 @@
  * `engine/career.js` 的生涯評分仍然吃 `state.peakRating`——那是 §10.3 明文允許的，
  * 結算分數本來就要有個單一尺度，但玩家看到的是「評分與等第」而不是評價本身。
  */
+import { DEMO_YEARS } from '../data/eras.js';
 import { ROLE_NAMES } from '../data/skills.js';
 import { FAN_QUOTES } from '../data/events.js';
 import { BUCKET_NAMES } from '../data/leagues.js';
@@ -26,10 +27,12 @@ export function renderSummary({ state, rng, tier, seed, appVersion }) {
     ...state.fusedAway.map((n) => `<span class="tag gone">${n}</span>`),
   ].join('') || '（無）';
 
-  renderLoose(card('', '生涯檔案', `
+  // DEMO 期滿（§19，S21b）不是退役——同一張檔案卡，只換這一格的標籤，
+  // 免得玩家把「DEMO 到此為止」讀成「選手 21 歲掛靴」
+  renderLoose(card('', state.demoEnded ? `生涯檔案（DEMO ${DEMO_YEARS} 季）` : '生涯檔案', `
     <div class="kv">
       <div><span>位置</span><b>${ROLE_NAMES[state.role]}</b></div>
-      <div><span>退役</span><b>${state.year} 年 · ${state.age} 歲</b></div>
+      <div><span>${state.demoEnded ? 'DEMO 終點' : '退役'}</span><b>${state.year} 年 · ${state.age} 歲</b></div>
       <div><span>職業年資</span><b>${state.proYears} 季</b></div>
       <div><span>賽段冠軍</span><b>${state.splitTitles}</b></div>
       <div><span>世界賽冠軍</span><b>${state.worldsWins}</b></div>
@@ -121,7 +124,8 @@ function drawShareImage(out, { state, tier, seed, appVersion }) {
   const W = 900; const PAD = 40; const SCALE = 2;
   const lines = [
     ['big', `${state.name}`],
-    ['sub', `${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${state.year} 年退役（${state.age} 歲）`],
+    ['sub', `${ROLE_NAMES[state.role]} · ${tierName(tier)} · ${state.year} 年`
+      + `${state.demoEnded ? ` DEMO 結算（${state.age} 歲，${DEMO_YEARS} 個賽季）` : `退役（${state.age} 歲）`}`],
     ['gap', ''],
     ['row', `世界賽冠軍 ${state.worldsWins}　MSI 冠軍 ${state.msiWins}　職業年資 ${state.proYears} 季`],
     ['row', `賽段冠軍 ${state.splitTitles}　例行賽 MVP ${state.honors.filter((h) => h.includes('例行賽 MVP')).length} 次`],

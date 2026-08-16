@@ -342,7 +342,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .seedline input:focus{outline:none;box-shadow:0 0 0 2px var(--action)}
 .seedline a{color:var(--link);text-decoration:none}
 .seedline a:hover{text-decoration:underline}
-.seedline .seed-hint{color:var(--ghost);font-size:11px}
+.seedline .seed-hint,#start .sub .seed-hint{color:var(--ghost);font-size:11px}
 #ver-badge{position:fixed;top:6px;right:8px;font-size:10px;letter-spacing:.08em;color:var(--ghost);
   opacity:.7;font-family:var(--mono);z-index:60;pointer-events:none}
 

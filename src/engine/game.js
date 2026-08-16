@@ -28,6 +28,7 @@
  */
 import { ATTR_NAMES } from '../data/attributes.js';
 import { MONTHS_PER_YEAR, calendarFor } from './calendar.js';
+import { DEMO_MONTHS, demoExpiring, demoStartYear, isDemo } from './demo.js';
 import { careerTier, tierName } from './career.js';
 import { disbandNoteFor, renewalTerms, signContract } from './market.js';
 import { driftMental } from './mental.js';
@@ -67,12 +68,47 @@ export function* careerFlow(g) {
     } else if (state.stage === 'PRO') {
       yield card('info', '選手誕生',
         `${state.year} 年，<b class="hl">${state.name}</b> 被 <b class="hl">${state.team}</b> 簽下——` +
-        `${state.age} 歲，職業第一年。賽段冠軍、MSI 門票、世界賽，從今年開始都跟你有關了。`);
+        `${state.age} 歲，職業第一年。賽段冠軍、MSI 門票、世界賽，從今年開始都跟你有關了。` +
+        (isDemo(state)
+          ? `<br><span class="muted">DEMO 版本走 ${demoStartYear(state)}–${state.demoEndYear} 三個賽季`
+            + `（${DEMO_MONTHS} 個月）；期間沒有走到任何結局的話，第三季打完就結算生涯。</span>`
+          : ''));
     }
   }
 
+  /*
+   * 生涯主迴圈。出口有兩個：
+   *
+   *   退役（§18.2 三層）——訊號從流程深處拋上來，`runYears` 接住。第二層的
+   *     「最後一搏」不算出口（retirement 回 false），清掉 done 之後回來續跑。
+   *   DEMO 期滿（§19，S21b）——36 個月跑完、沒有任何結局觸發，以「DEMO 結束」
+   *     收束並比照退役結算。它排在退役判定**之前**：期滿當下若同時有退役訊號
+   *     （state.done 已被設起來），那是真的結局，走退役那條，不會被 DEMO 蓋掉。
+   */
+  for (;;) {
+    yield* runYears(g);
+    if (!state.done && state.demoEnded) { yield* demoFinish(g); break; }
+    if (yield* retirement(g)) break;
+    // 最後一搏：生涯續跑。退役訊號是從 12 月的 TRANSFER 拋上來的，年界那一段被
+    // 例外跳過了，這裡補跑——不補就會重跑同一年（見 closeYear 的說明）
+    state.done = false;
+    state.retireReason = '';
+    closeYear(state);
+  }
+  yield { type: 'end' };
+}
+
+/**
+ * 一年接一年地跑，直到生涯結束（退役訊號）或 DEMO 期滿。
+ *
+ * ⚠ 生涯任務的強制收束（questBeats forced）不在這裡，在 `retirement()` 內部、
+ * 確定退役之後才跑——最後一搏的人任務照掛（§12.3「生涯結束等於所有期限都到了」
+ * 只對真的落幕的人成立）。
+ */
+function* runYears(g) {
+  const { state } = g;
   try {
-    while (!state.done) {
+    while (!state.done && !state.demoEnded) {
       yield { type: 'checkpoint' };
       yield* runYear(g);
     }
@@ -81,33 +117,24 @@ export function* careerFlow(g) {
     state.done = true;
     state.retireReason = err.reason;
   }
+}
 
-  /*
-   * 三層退役（§18.2，S20e）：第一層特殊結局命中即退役；未命中進第二層選項，
-   * 其中「最後一搏」簽一年短約繼續生涯（retirement 回 false），其餘確定退役。
-   *
-   * ⚠ 生涯任務的強制收束（questBeats forced）移到 retirement() 內部、確定退役
-   * 之後才跑——最後一搏的人任務照掛（§12.3「生涯結束等於所有期限都到了」只對
-   * 真的落幕的人成立）。原先把收束排在退役卡之前，最後一搏一進來就會誤收。
-   */
-  let leaving = false;
-  while (!leaving) {
-    leaving = yield* retirement(g);
-    if (leaving) break;
-    state.done = false;
-    state.retireReason = '';
-    try {
-      while (!state.done) {
-        yield { type: 'checkpoint' };
-        yield* runYear(g);
-      }
-    } catch (err) {
-      if (!(err instanceof RetireSignal)) throw err;
-      state.done = true;
-      state.retireReason = err.reason;
-    }
-  }
-  yield { type: 'end' };
+/**
+ * DEMO 期滿收束（§19.2，S21b）。
+ *
+ * 這裡沒有人退役——是 DEMO 到此為止，所以卡片要把這件事講明白，不能讓玩家以為
+ * 自己的選手 21 歲就掛靴。其餘一律比照退役：任務強制收束（否則進行中的任務會
+ * 靜默消失，§12.3 不允許）→ 第三層結算 → 生涯傳記與結算畫面。
+ */
+function* demoFinish(g) {
+  const { state } = g;
+  state.done = true;
+  yield card('gold', 'DEMO 結束',
+    `${demoStartYear(state)} 到 ${state.year}——<b class="hl">${DEMO_MONTHS} 個月</b>跑完了。`
+    + `<b class="hl">${state.name}</b> 的職業生涯還在繼續，但 DEMO 的紀錄到這裡為止。`
+    + `<br><span class="muted">以下比照退役，替這三個賽季結算一次生涯。</span>`);
+  yield* questBeats(g, { forced: true });
+  yield* finale(g);
 }
 
 /**
@@ -161,6 +188,26 @@ function* runYear(g) {
   }
 
   driftMental(state);
+  closeYear(state);
+}
+
+/**
+ * 年界：一年的最後一道手續。
+ *
+ * 從 `runYear` 尾端獨立出來，因為**退役訊號會跳過它**——`retire()` 的呼叫點全部
+ * 在 12 月的 TRANSFER 階段（`phases/transfer.js`），例外一拋，年界就沒跑完。
+ * 生涯確定結束時無所謂，但「最後一搏」（§18.2 第二層）是要續跑的：不補跑年界，
+ * 續跑的那一年會是**同一個年份重跑一次**——賽段、季後賽、世界賽再打一遍，
+ * `seasonLog` 出現兩筆同年，`proYears` 多算一季（S21b OCR review 抓到）。
+ *
+ * 冪等由呼叫端保證：`runYear` 尾端跑一次，最後一搏續跑前補一次，兩者互斥。
+ *
+ * DEMO 期程（§19.2）的終點也在這裡：第 36 個月的月底就收，**不跨年**——結算畫面
+ * 停在玩家真的打過的第三季（2017 年 · 21 歲），而不是一場都還沒打的 2018 年。
+ * 退役是在哪一年退就結算在哪一年，DEMO 期滿照同一個規矩。
+ */
+function closeYear(state) {
+  if (demoExpiring(state)) { state.demoEnded = true; return; }
   state.age += 1;
   state.year += 1;
   state.stageYear += 1;

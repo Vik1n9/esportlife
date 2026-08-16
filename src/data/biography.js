@@ -40,6 +40,9 @@ export const BIO_TEMPLATES = {
   ending: {
     standard: '{name} 於 {year} 年退役，時年 {age} 歲，職業生涯共 {n} 季、效力過 {m} 支戰隊、累計 {g} 場出賽。',
     amateurOnly: '{name} 於 {year} 年離開電競圈，時年 {age} 歲，未曾以職業選手身分登板。',
+    // DEMO 期滿（§19，S21b）：沒有人退役，是紀錄停在這裡——措辭不能寫成「退役」，
+    // 否則玩家會以為自己的選手 21 歲就掛靴
+    demoEnd: '截至 {year} 年，{name} 時年 {age} 歲，仍是現役選手；這份紀錄涵蓋他職業生涯的前 {n} 季、效力過 {m} 支戰隊、累計 {g} 場出賽。',
   },
   legacy: {
     route: '他的生涯被後人記作{list}。',
