@@ -1,0 +1,471 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2017%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:46:02.751Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2017 Summer}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for Chinese stream or different languages
+|date=2025-11-25
+}}
+{{Want_to_Help
+|issue=Missing Statistics page
+|fix=Add the Statistics page
+|date=2025-11-25
+}}
+{{Tencent Games Navbox}}
+{{LPL 2017 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2017 Summer 
+|shortname=2017 Summer 
+|tickername=LPL 2017 Summer
+|series=LPL
+|image=LPL_Logo.png
+|icon=LPL_Logo.png
+|organizer-link=http://game.qq.com/index.shtml |organizer=Tencent Games
+|organizer2=
+|sponsor=
+|patch=7.10
+|epatch=7.16
+|server=China
+|type=offline
+|country=China
+|city=Shanghai 
+|venue=Shanghai Hongqiao Performing Arts Center
+|format=Group Stage ({{Abbr/Bo3}}) <br> Single Elimination ({{Abbr/Bo5}})
+|prizepool=3,500,000
+|localcurrency=cny
+|sdate=2017-06-08
+|edate=2017-09-01
+|liquipediatier=1
+|highlighted=|website=http://lpl.qq.com/es/lpl/
+|stream=
+|twitch=lpl1
+|twitch2=lpl2
+|team_number=12
+|previous=LPL/2017/Spring{{!}}2017 Spring
+|next=LPL/2018/Spring{{!}}2018 Spring 
+|previous2=LPL/2017/Summer/Promotion{{!}}Summer Promotion
+|next2=
+}}
+The '''LPL 2017 Summer''' split was the second split of the [[LoL Pro League]] (''LPL'') season, held in Shanghai and organized by Tencent Games and Riot Games from 8 June to 1 September 2017. Twelve teams competed in a Double Round Robin {{Abbr/Bo3}} Group Stage followed by a Single Elimination Playoffs bracket. [[JD Gaming]] entered the league after acquiring the slot of [[Qiao Gu Reapers]], while the remaining teams either continued from Spring or qualified through the [[LPL/2017/Summer/Promotion|2017 Spring Promotion]]. Championship Points awarded during the split contributed toward qualification for the 2017 Regional Finals and the [[World Championship/2017|2017 World Championship]].
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=lpl2017|localcurrency=cny|cutafter=12
+|tournament1=LPL/2017/Summer/Group Stage |groupElimStatuses=down,staydown,stay
+|tournament2=LPL/2017/Summer/Playoffs
+|qualifies1=World Championship/2017|qualifies1name=Worlds
+|qualifies2=LPL/2018/Spring|qualifies2name=Spring
+|{{Slot |place=1 |qualified1=yes|qualified2=yes |localprize=1,500,000}}
+|{{Slot |place=2 |points=90|qualified2=yes  |localprize=800,000}}
+|{{Slot |place=3 |points=70|qualified2=yes  |localprize=500,000}}
+|{{Slot |place=4 |points=40|qualified2=yes  |localprize=300,000}}
+|{{Slot |place=5-6 |points=20|qualified2=yes  |localprize=200,000}}
+|{{Slot |place=7-8|qualified2=yes }}
+|{{Slot |place=9-10|qualified2=yes }}
+|{{Slot |place=11-12|qualified2=yes }}
+}}
+
+{{box|start|padding=2em}}
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=5|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Weeks 2 to 10}}
+{{prize pool slot award|award=Best of the Rift - Week 1 |date=2017-06-11
+|Xiyang|flag1=cn|team1=omg
+|Condi|flag2=cn|team2=team we
+|Rookie|flag3=kr|team3=ig
+|Smlz|flag4=cn|team4=oh my god
+|Ben|flag5=kr|team5=team we
+}}
+{{prize pool slot award|award=Best of the Rift - Week 2 |date=2017-06-18
+|Mouse |flag1=cn |team1=edg
+|Clearlove7 |flag2=cn |team2=edg
+|Scout |flag3=kr |team3=edg
+|Qiuqiu |flag4=cn |team4=dan gaming
+|Cat |flag5=cn |team5=dan gaming
+}}
+{{prize pool slot award|award=Best of the Rift - Week 3 |date=2017-06-25
+|957 |flag1=cn |team1=team we
+|Eimy |flag2=cn |team2=lgd
+|Xiaohu |flag3=cn |team3=rng
+|Mystic |flag4=cn |team4=team we
+|Pyl |flag5=cn |team5=lgd
+}}
+{{prize pool slot award|award=Best of the Rift - Week 4 |date=2017-07-02
+|Letme |flag1=cn |team1=rng
+|Swift |flag2=kr |team2=newbee
+|Rookie |flag3=kr |team3=ig
+|Vasilli |flag4=cn |team4=newbee
+|Five |flag5=cn |team5=omg
+}}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2017-07-16
+|Mouse |flag1=cn |team1=edg
+|Eimy |flag2=cn |team2=lgd
+|Scout |flag3=kr |team3=edg
+|Mystic |flag4=kr |team4=team we
+|Pyl |flag5=cn |team5=lgd
+}}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2017-07-23
+|Flandre |flag1=cn |team1=snake
+|Swift |flag2=kr |team2=newbee
+|Scout |flag3=kr |team3=edg
+|Fury (Korean player){{!}}Fury |flag4=kr |team4=suning gaming
+|Ben |flag5=cn |team5=team we
+}}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2017-07-30
+|Xiyang |flag1=cn |team1=omg
+|Mlxg |flag2=cn |team2=rng
+|Xiaohu |flag3=cn |team3=rng
+|Lwx |flag4=cn |team4=newbee
+|Meiko |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=Best of the Rift - Week 8 |date=2017-08-06
+|Flandre |flag1=cn |team1=snake
+|Mlxg |flag2=cn |team2=rng
+|Scout |flag3=kr |team3=edg
+|Imp |flag4=kr |team4=lgd
+|Meiki |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=Best of the Rift - Week 9 |date=2017-08-13
+|Duke |flag1=kr |team1=ig
+|Swift |flag2=kr |team2=newbee
+|Doinb |flag3=kr |team3=jd gaming
+|Mystic |flag4=kr |team4=team we
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Best of the Rift - Week 10 |date=2017-08-20
+|Flandre |flag1=cn |team1=snake
+|Ning |flag2=cn |team2=ig
+|Xiaohu |flag3=cn |team3=rng
+|Fury (Korean player){{!}}Fury |flag4=kr |team4=suning gaming
+|Road |flag5=kr |team5=i may
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=5|margin=false|tier=tournament}}
+{{prize pool slot award|award=Group Stage MVP |Xiaohu |flag1=cn |team1=rng }}
+{{prize pool slot award|award=Playoffs MVP |Scout |flag1=kr |team1=edg }}
+{{prize pool end}}
+{{box|end}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=220}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Mouse
+|p2=Clearlove7
+|p3=Scout
+|p4=iBoy
+|p5=Meiko
+
+|t2p1=Audi |t2pos1=top
+|t2p2=Fireloli |t2pos2=jg
+|t2p3=Zet |t2p3flag=kr |t2pos3=bot
+
+|t3p1=NoFe |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL]]
+}}
+{{TeamCard
+|team=I May
+|p1=AmazingJ
+|p2=Sks
+|p3=Athena
+|p4=Jinjiao
+|p5=Road
+
+|t2p1=Flawless |t2pos1=jg
+|t2p2=Ben4 |t2pos2=jg
+|t2p3=Starlight |t2p3flag=cn |t2pos3=sup
+
+|t3p1=Kezman |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL]]
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=TheShy
+|p2=Ning
+|p3=Rookie
+|p4=West
+|p5=Megan
+
+|t2p1=Duke |t2pos1=top
+|t2p2=Kid |t2pos2=jg
+
+|t3p1=Mafa |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL]]
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Kabe
+|p2=Xinyi
+|p3=Doinb
+|p4=LokeN
+|p5=LvMao
+
+|t2p1=Clid |t2pos1=jg
+|t2p2=Barrett |t2p2flag=cn |t2pos2=bot
+|t2p3=Cloud |t2pos3=sup
+
+|t3p1=BanBazi |t3p1flag=kr |t3pos1=head coach
+|t3p2=UDJ |t3pos2=coach
+|qualifier=[[LPL/2017/Spring|LPL]]
+|inotes={{NoteBig
+|n1={{Team|jdg}} acquires {{Team|QG Reapers}}'s slot.
+}}
+}}
+{{TeamCard
+|team=Newbee
+|p1=Skye |p1flag=cn|p1link=Skye (Chinese player)
+|p2=Swift
+|p3=Coco
+|p4=Lwx
+|p5=Crisp
+
+|t2p1=V |t2p1flag=cn |t2pos1=top
+|t2p2=Quan |t2p2flag=cn |t2pos2=jg
+|t2p3=HanXuan |t2p3flag=cn |t2pos3=jg
+|t2p4=Corn |t2p4flag=cn |t2pos4=mid
+|t2p5=Vasilii |t2pos5=bot
+|t2p6=Happy |t2pos6=bot
+|t2p7=Mor |t2pos7=sup
+
+|t3p1=Hiro |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Xiyang
+|p2=World6
+|p3=Icon
+|p4=Smlz
+|p5=Five
+
+|t2p1=Jiekou |t2pos1=jg
+
+|t3p1=MingZhe |t3p1flag=cn |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Letme
+|p2=Mlxg
+|p3=Xiaohu
+|p4=Uzi |p4link=Uzi (Chinese player)
+|p5=Ming
+
+|t2p1=Korol |t2pos1=top
+|t2p2=Y1HAN |t2pos2=jg
+|t2p3=Wuxx |t2pos3=bot
+|t2p4=y4 |t2pos4=bot
+
+|t3p1=FireFox |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL ]]
+}}
+{{TeamCard
+|team=Team WE
+|p1=957
+|p2=Condi
+|p3=Xiye
+|p4=Mystic
+|p5=Ben
+
+|t2p1=Zero |t2p1link=Zero (Korean player) |t2pos1=sup
+
+|t3p1=Homme |t3pos1=head coach
+|qualifier=[[LPL/2017/Spring|LPL ]]
+}}
+{{TeamCard
+|team=DAN Gaming
+|p1=Lies |p1link=Lies (Chinese player)
+|p2=Karin |p2flag=kr
+|p3=Ggoong
+|p4=QiuQiu
+|p5=Cat |p5link=Cat (Chinese player)
+
+|t2p1=Moyu |t2pos1=top
+|t2p2=Fishball |t2pos2=jg
+|t2p3=qi |t2p3flag=cn |t2pos3=mid
+|t2p4=Natz |t2p4flag=kr |t2pos4=bot
+|t2p5=Fage |t2p5flag=cn |t2pos5=sup
+
+|t3p1=BSYY |t3pos1=head coach
+|qualifier=[[LPL/2017/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Jinoo
+|p2=Eimy
+|p3=Cool
+|p4=Imp
+|p5=Pyl
+
+|t2p1=Banana |t2p1flag=cn |t2pos1=top
+
+|t3p1=Dgc |t3p1flag=cn |t3pos1=head coach
+|qualifier=[[LPL/2017/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Snake Esports
+|p1=Flandre
+|p2=SofM
+|p3=Zz1tai
+|p4=kRYST4L
+|p5=Hudie
+
+|t2p1=Guoguo |t2p1flag=cn |t2pos1=mid
+|t2p2=Ohq |t2pos2=bot
+
+|t3p1=Zhu Kai |t3pos1=head coach
+|t3p2=Chief |t3p2flag=kr |t3pos2=coach
+|t3p3=Xiong Mao |t3p3flag=cn |t3pos3=coach
+|qualifier=[[LPL/2017/Summer/Promotion|Promotion]]
+}}
+{{TeamCard
+|team=Suning Gaming
+|image=Suning Gaming.png
+|p1=XiaoAL
+|p2=H4cker
+|p3=fenfen
+|p4=Fury |p4link=Fury (Korean player)
+|p5=Yoon
+
+|t2p1=Lz |t2p1flag=cn |t2pos1=top
+|t2p2=Avoidless |t2pos2=jg
+|t2p3=dian |t2p3flag=cn |t2pos3=mid
+|t2p4=Bananafish |t2p4flag=cn |t2pos4=bot
+|t2p5=Brain |t2p5flag=cn |t2pos5=sup
+
+|t3p1=Sim |t3pos1=head coach
+|qualifier=[[LSPL/2017/Spring|LSPL]]
+}}
+{{TeamCard columns end}}
+{{box|break|padding=2em}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LPL/2017/Summer/Group_Stage|Regular Season}}
+<span style="line-height:24px">&nbsp;''[[LPL/2017/Summer/Group_Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span>
+===Playoffs===
+{{ShowBracket|id=XZH7XF5XEJ}}
+
+==Format==
+* '''Group Stage'''
+** 2 groups of 6 teams each.
+** Each team plays 16 matches.
+*** Double Round Robin within own group
+*** Single Round Robin against other group
+** All matches are {{Abbr/Bo3}}.
+** {{bgcolortext|byeup|''1st place of each group''}} advance to the Semfinals of the Playoffs.
+** {{bgcolortext|seedup|''2nd place of each group''}} advance to the Quarterfinals of the Playoffs.
+** {{bgcolortext|up|''3rd place of each group''}} advance to Round 1 of the Playoffs, and will start the series with a 1-game advantage.
+** {{bgcolortext|stayup|''4th place of each group''}} advance to Round 1 of the Playoffs.
+** {{bgcolortext|stay|''5th and 6th place of each group''}} qualify for [[LPL/2018/Spring|Spring split]]
+* '''Playoffs'''
+** Single Elimination {{Abbr/Bo5}}
+* Winner qualifies for [[Mid-Season Invitational/2017|Mid-Season Invitational 2017]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=|stream1=|douyu1=lpl|zhanqi1=lpl|panda1=lpl
+|lang2=usuk |twitch2=lpl1 |youtube2=
+|lang3=vn |twitch3=lpl1 |youtube3=|garena3=vetv2
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+====Chinese Broadcast====
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=cn
+|b2=|b2name=|b2flag=cn
+}}
+{{BroadcasterCard
+|position=Commentator
+|b1=|b1name=|b1flag=
+|b2=|b2name=|b2flag=
+|b3=|b3name=|b3flag=
+|b4=|b4name=|b4flag=
+|b5=|b5name=|b5flag=
+|b6=|b6name=|b6flag=
+|b7=|b7name=|b7flag=
+|b8=|b8name=|b8flag=
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Dom|b1name=Dominic Roemer|b1flag=ca
+|b2=Pulse|b2name=Richard Kam|b2flag=au
+}}
+{{BroadcasterCard
+|position=Color Commentator and Analyst
+|b1=Froskurinn |b1name=Indiana Juniper Black |b1flag=us
+|b2=Raz|b2name=Barento Mohammed|b2flag=ca
+|b3=Rusty |b3name=Zack Pye |b3flag=au
+}}
+{{box|break|padding=2em}}
+====Vietnamese Broadcast====
+{{BroadcasterCard
+|position=Caster
+|b1=|b1name=|b1flag=vn
+|b2=|b2name=|b2flag=vn
+}}
+{{box|end}}
+
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="1" |[[Patch 7.10]]
+| colspan="1" |[[Patch 7.11]]
+| colspan="2" |[[Patch 7.12]]
+| colspan="2" |[[Patch 7.13]]
+| colspan="2" |[[Patch 7.14]]
+| colspan="2" |[[Patch 7.15]]
+| colspan="1" |[[Patch 7.16]]
+|-
+| colspan="1"| Disabled
+| colspan="11" |
+|}
+
+===Statistics===
+{{#lst:LPL/2017/Summer/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2017/Summer|edate=2017-12-01}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

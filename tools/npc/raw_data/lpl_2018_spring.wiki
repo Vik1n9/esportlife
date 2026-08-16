@@ -1,0 +1,567 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2018%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:46:08.684Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2018 Spring}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent, for Chinese stream or different languages
+|date=2025-11-25
+}}
+{{Tencent Games Navbox}}
+{{LPL 2018 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2018 Spring 
+|shortname=2018 Spring 
+|tickername=LPL 2018 Spring
+|series=LPL
+|image=LPL_Logo.png
+|icon=LPL_Logo.png
+|organizer-link=http://game.qq.com/index.shtml |organizer=Tencent Games
+|organizer2=
+|sponsor=
+|patch=8.1
+|epatch=8.6
+|server=China
+|type=offline
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|city=Shanghai 
+|city2=Hangzhou
+|city3=Chongqing
+|city4=Chengdu
+|city5=Chengdu
+|venue=Super Brand Mall|venuedesc=Group Stage<br>Round 1 & Quarterfinals
+|venue2=LGD Gaming C & E Center|venue2desc=LGD Homeground<br>Semifinals
+|venue3=Chongqing Expo|venue3desc=Snake Esports Homeground<br>3rd Place
+|venue4=Chengdu Magic Cube|venue4desc=Finals
+|venue5=Eastern Suburb Memory|venue5desc=Oh My God homeground
+|format=
+|prizepool=3,500,000
+|localcurrency=cny
+|sdate=2018-01-15
+|edate=2018-04-28
+|liquipediatier=1
+|highlighted=|rulebook=https://weibo.com/ttarticle/p/show?id=2309404186990689056037
+|rulebook2=https://weibo.com/ttarticle/p/show?id=2309404187375956843951
+|website=http://lpl.qq.com/es/lpl/
+|twitch=lpl1
+|twitch2=lpl2
+|team_number=14
+|previous=LPL/2017/Summer{{!}}2017 Summer 
+|next=LPL/2018/Summer{{!}}2018 Summer 
+}}
+The '''2018 LPL Spring''' split was the first split of the year in China’s franchised '''LoL Pro League''' (''LPL''), organized by Tencent Games. Fourteen teams competed from 15 January to 28 April across venues in Shanghai, Hangzhou, Chongqing, and Chengdu. The league featured a two-conference Regular Season followed by a Single Elimination Playoffs bracket, with the champion qualifying for the [[Mid-Season Invitational/2018|MSI 2018]] and the top four teams advancing to [[Rift Rivals/LCK-LMS-LPL/2018|Rift Rivals 2018]]. Matches were played offline on patches ranging from 8.1 to 8.6.
+
+This split included several roster and slot adjustments. [[Bilibili Gaming]] entered after acquiring the slot of [[I May]], while [[Topsports Gaming]] joined through the acquisition of [[Dan Gaming]]’s place. Originally, one new league slot was planned, but two additional teams, [[FunPlus Phoenix]] and [[Rogue Warriors]], were invited due to the removal of [[Newbee]] from the league.
+
+Several teams had designated homegrounds for specific stages: [[LGD Gaming]] hosted matches at the LGD Gaming C & E Center in Hangzhou, [[Snake Esports]] played at the Chongqing Expo in Chongqing, [[Oh My God]] held games at the Eastern Suburb Memory in Chengdu, and the Finals took place at Chengdu Magic Cube.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{TeamPrizePool|points=lpl2018|localcurrency=cny|cutafter=14
+|tournament1=LPL/2018/Spring/Group Stage/Week 1-5 |groupElimStatuses=down,staydown,stay
+|tournament2=LPL/2018/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2018|qualifies1name=MSI
+|qualifies2=Rift Rivals/LCK-LPL-LMS/2018|qualifies2name=Rift Rivals 2018
+|{{Slot |place=1 |points=90 |qualified1=yes |qualified2=yes |localprize=1,500,000}}
+|{{Slot |place=2 |points=70 |qualified2=yes |localprize=800,000}}
+|{{Slot |place=3 |points=50 |qualified2=yes |localprize=500,000}}
+|{{Slot |place=4 |points=30 |qualified2=yes |localprize=300,000}}
+|{{Slot |place=5-6 |points=10 |localprize=200,000}}
+}}
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Group Stage MVP |Rookie |flag1=kr |team1=ig |date=2018-04-12}}
+{{prize pool slot award|award=Playoffs MVP |Uzi (Chinese player){{!}}Uzi |flag1=cn |team1=royal never give up |date=2018-04-28}}
+{{prize pool slot award|award=1st All-Pro Team |date=2018-04-11
+|TheShy |flag1=kr |team1=ig
+|Ning |flag2=cn |team2=ig
+|Rookie |flag3=kr |team3=ig
+|Uzi (Chinese player){{!}}Uzi |flag4=cn |team4=rng
+|Meiko |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2018-04-11
+|Flandre |flag1=cn |team1=snake
+|SofM |flag2=vn |team2=snake
+|xiye |flag3=cn |team3=we
+|JackeyLove |flag4=cn |team4=ig
+|Baolan |flag5=cn |team5=ig
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2018-04-11
+|AmazingJ |flag1=hk |team1=bilibili gaming
+|Karsa |flag2=tw |team2=rng
+|Scout |flag3=kr |team3=edg
+|Smlz |flag4=cn |team4=rogue warriors
+|Road |flag5=kr |team5=bilibili gaming
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=5|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Weeks 2 to 10}}
+{{prize pool slot award|award=Best of the Rift - Week 1 |date=2018-01-21
+|AmazingJ|flag1=hk|team1=bilibili gaming
+|Mlxg|flag2=cn|team2=rng
+|Athena|flag3=kr|team3=bilibili gaming
+|kRYST4L|flag4=cn|team4=snake
+|Ming|flag5=cn|team5=rng
+}}
+{{prize pool slot award|award=Best of the Rift - Week 2 |date=2018-01-28
+|Flandre |flag1=cn |team1=snake
+|SofM |flag2=vn |team2=snake
+|Guoguo |flag3=cn |team3=snake
+|iBoy |flag4=cn |team4=edg
+|Baolan |flag5=cn |team5=ig
+}}
+{{prize pool slot award|award=Best of the Rift - Week 3 |date=2018-02-04
+|Flandre |flag1=cn |team1=snake
+|Ning |flag2=cn |team2=ig
+|Rookie |flag3=kr |team3=ig
+|iBoy |flag4=cn |team4=edg
+|Meiko |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=Best of the Rift - Week 4 |date=2018-02-26
+|MaRin |flag1=kr |team1=topsports gaming
+|Karsa |flag2=tw |team2=royal never give up
+|Rookie |flag3=kr |team3=ig
+|Smlz |flag4=cn |team4=rogue warriors
+|Baolan |flag5=cn |team5=ig
+}}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2018-03-04
+|TheShy |flag1=kr |team1=ig
+|Pepper |flag2=cn |team2=funplusx
+|xiye |flag3=cn |team3=we
+|Smlz |flag4=cn |team4=rogue warriors
+|Crisp |flag5=cn |team5=funplusx
+}}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2018-03-11
+|Flandre |flag1=cn |team1=snake
+|Magic |flag2=cn |team2=we
+|Doinb |flag3=kr |team3=rogue warriors
+|Uzi (Chinese player){{!}}Uzi |flag4=cn |team4=rng
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2018-03-18
+|XiaoAL |flag1=cn |team1=suning gaming
+|Karsa |flag2=tw |team2=rng
+|Rookie |flag3=kr |team3=ig
+|Smlz |flag4=cn |team4=rogue warriors
+|Killua |flag5=cn |team5=rogue warriors
+}}
+{{prize pool slot award|award=Best of the Rift - Week 8 |date=2018-03-26
+|Flandre |flag1=cn |team1=snake
+|Ning |flag2=cn |team2=ig
+|Scout |flag3=kr |team3=edg
+|JackeyLove |flag4=cn |team4=ig
+|Baolan |flag5=cn |team5=ig
+}}
+{{prize pool slot award|award=Best of the Rift - Week 9 |date=2018-04-01
+|AmazingJ |flag1=hk |team1=bilibili gaming
+|Pepper |flag2=cn |team2=funplus phoenix
+|Rookie |flag3=kr |team3=ig
+|LokeN |flag4=kr |team4=jd gaming
+|Road |flag5=kr |team5=bilibili gaming
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===MVP Awards===
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false |title=Group Stage MVPs
+|tournament=LPL/2018/Spring/Group_Stage/Week_1-5
+|tournament2=LPL/2018/Spring/Group_Stage/Week_6-10
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false |title=Playoffs MVPs
+|tournament=LPL/2018/Spring/Playoffs
+}}
+{{box|end}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|title=Roster moves during the season
+|sdate={{#var:sdate}}
+|edate={{#var:edate}}
+|page={{PAGENAME}}
+}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=AmazingJ
+|p2=Chieftain
+|p3=Mole
+|p4=Jinjiao
+|p5=Road
+
+|t2p1=Freecss |t2pos1=top
+|t2p2=Sks|t2pos2=jg
+|t2p3=Athena|t2pos3=mid
+
+|t3p1=Maokai|t3p1link=Maokai (Chinese coach)|t3pos1=head coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+|inotes={{NoteBig
+|n1={{Team|blg}} acquires {{Team|i may}}'s slot.
+}}
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Ray
+|p2=Haro
+|p3=Scout
+|p4=iBoy
+|p5=Meiko
+
+|t2p1=Clearlove|t2pos1=jg
+|t2p2=Hope|t2pos2=bot|t2p2link=Hope (Chinese player)
+
+|t3p1=NoFe|t3pos1=head coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=Duke
+|p2=Ning
+|p3=Rookie
+|p4=JackeyLove
+|p5=Baolan
+
+|t2p1=TheShy|t2pos1=top
+|t2p2=Kid|t2pos2=jungle
+|t2p3=West|t2pos3=adc
+
+|t3p1=Xiao Qiang|t3p1flag=cn|t3pos1=head coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Zoom
+|p2=Clid
+|p3=YaGao
+|p4=LokeN
+|p5=LvMao
+
+|t2p1=xiaohan|t2p1flag=cn|t2pos1=jungle
+|t2p2=RD|t2p2flag=tw|t2pos2=adc
+
+|t3p1=BanBazi|t3p1flag=kr|t3pos1=head coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Jinoo
+|p2=1ntruder|p2flag=cn
+|p3=Yuuki
+|p4=Fdy|p4flag=cn
+|p5=Pyl
+
+|t2p1=Banana |t2p1link=Banana (Chinese player) |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+|t2p2=Eimy|t2pos2=jungle
+|t2p3=Nanzhu|t2p3flag=cn|t2pos3=mid
+|t2p4=Imp|t2p4flag=kr|t2pos4=adc
+
+|t3p1=Acorn|t3pos1=head coach
+|t3p2=DP|t3p2flag=cn|t3pos2=coach
+|context=Hangzhou
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Xiyang
+|p2=World6
+|p3=Icon
+|p4=Chelly
+|p5=Five
+
+|t2p1=Casual|t2pos1=top
+|t2p2=Fireloli|t2pos2=jungle
+|t2p3=Jiekou|t2pos3=jungle
+|t2p4=Maestro|t2pos4=support
+
+|t3p1=MingZhe|t3p1flag=cn|t3pos1=head coach
+|t3p2=Maidong|t3p2flag=cn|t3pos2=coach
+|context=Chengdu
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Letme
+|p2=Mlxg
+|p3=Xiaohu
+|p4=Uzi|p4link=Uzi (Chinese player)
+|p5=Ming
+
+|t2p1=tianCi|t2p1flag=cn|t2pos1=top|t2p1dnp=true
+|t2p2=Zz1tai|t2pos2=mid
+|t2p3=Karsa|t2pos3=jungle
+|t2p4=Able|t2pos4=adc
+|t2p5=PiPiXuAn|t2pos5=adc
+|t2p6=y4|t2pos6=adc
+
+|t3p1=Kezman|t3pos1=head coach
+|t3p2=Heart|t3pos2=coach
+|t3p3=Dog8|t3pos3=coach
+|t3p4=Xiaoxuan|t3pos4=coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Snake Esports
+|p1=Flandre
+|p2=SofM
+|p3=Guoguo
+|p4=kRYST4L
+|p5=Hudie
+
+|t2p1=Zzr|t2p1flag=cn|t2pos1=jg|t2p1dnp=true
+|t2p2=Light|t2p2link=Light (Wang Guang-Yu)|t2pos2=bot
+
+|t3p1=KenZhu|t3pos1=head coach
+|context=Zhejiang
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Suning Gaming
+|p1=XiaoAL
+|p2=H4cker
+|p3=Knight
+|p4=Fury|p4link=Fury (Korean player)
+|p5=Yoon
+
+|t2p1=Tian|t2pos1=jungle
+|t2p2=Fenfen|t2pos2=mid
+|t2p3=Brian|t2p3flag=cn|t2pos3=support
+
+|t3p1=Sim|t3pos1=head coach
+|t3p2=Lilac|t3pos2=coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Team WE
+|p1=957
+|p2=Magic
+|p3=xiye
+|p4=Mystic
+|p5=Ben
+
+|t2p1=Condi|t2p1flag=cn|t2pos1=jungle
+|t2p2=Melon|t2p2flag=cn|t2pos2=jungle|t2p2link=Melon (Chinese player)
+|t2p3=Celestial|t2p3flag=cn|t2pos3=support
+|t2p4=Zero|t2p4link=Zero (Korean player)|t2pos4=sup
+
+|t3p1=viNylCat|t3pos1=head coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+}}
+{{TeamCard
+|team=Topsports Gaming
+|p1=MaRin
+|p2=Karin|p2flag=kr
+|p3=Corn|p3link=Corn (Chinese player)
+|p4=QiuQiu
+|p5=Cat|p5link=Cat (Chinese player)
+
+|t2p1=Lies|t2p1link=Lies (Chinese player)|t2pos1=top
+|t2p2=Moyu|t2pos2=top
+|t2p3=Xx|t2pos3=jungle
+|t2p4=Ggoong|t2pos4=mid
+|t2p5=qi|t2p5flag=cn|t2pos5=mid|t2p5dnp=true
+|t2p6=Fage|t2p6flag=cn|t2pos6=support
+
+|t3p1=Slythe|t3pos1=head coach
+|t3p2=VicaL|t3pos2=coach
+|qualifier=[[LPL/2017/Summer|Summer]]
+|inotes={{NoteBig
+|n1={{Team|topsports gaming}} acquires {{Team|dan gaming}}'s slot.
+}}
+}}
+{{TeamCard
+|team=Vici Gaming
+|p1=Meow|p1flag=cn
+|p2=Swift
+|p3=Easyhoon
+|p4=Martin
+|p5=Caveman
+
+|t2p1=Loong|t2pos1=top
+|t2p2=Crash|t2pos2=jg
+|t2p3=FireRain|t2pos3=mid
+|t2p4=Snow|t2p4link=Snow (Chinese player)|t2pos4=bot
+
+|t3p1=HooN|t3pos1=head coach
+|t3p2=xty|t3p2flag=cn|t3pos2=coach
+|t3p3=CR|t3p3flag=cn|t3pos3=coach
+|qualifier=[[LSPL/2017/Summer|LSPL]]
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=GimGoon
+|p2=Pepper
+|p3=Cool
+|p4=Lwx
+|p5=Crisp
+
+|t2p1=Bing |t2p1link=Bing (Chinese player) |t2p1flag=cn |t2pos1=mid
+|t2p2=Disappear|t2p2flag=cn|t2pos2=sup
+
+|t3p1=BSYY|t3pos1=head coach
+|qualifier=Invited
+|inotes={{NoteBig
+|n1=Originally one new league slot would be available. However, due to {{Team|newbee}}'s removal from the league a second slot was added.
+}}
+}}
+{{TeamCard
+|team=Rogue Warriors
+|p1=Mouse|p1flag=cn
+|p2=Flawless|p2flag=cn
+|p3=doinb|p3flag=kr
+|p4=Smlz|p4flag=cn
+|p5=Killua|p5flag=cn
+
+|t2p1=Steak |t2pos1=head coach
+|t2title=Staff
+|qualifier=Invited
+|inotes={{NoteBig
+|n1=Originally one new league slot would be available. However, due to {{Team|newbee}}'s removal from the league a second slot was added.
+}}
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+===Group Stage===
+{{#lst:LPL/2018/Spring/Group_Stage|Regular Season}}
+<span style="line-height:24px">&nbsp;''[[LPL/Spring/2018/Group Stage/Week 1-5|Click here for detailed results of the '''Group Stage''' matches (Week 1-5)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/Spring/2018/Group Stage/Week 6-10|Click here for detailed results of the '''Group Stage''' matches (Week 6-10)]]''</span>
+===Playoffs===
+{{#lst:LPL/2018/Spring/Playoffs|Playoffs}}
+
+==Format==
+* '''Group Stage'''
+** 2 groups of 6 teams each.
+** Each team plays 16 matches.
+*** Double Round Robin within own group
+*** Single Round Robin against other group
+** All matches are {{Abbr/Bo3}}.
+** {{bgcolortext|byeup|''1st place of each group''}} advance to the Semfinals of the Playoffs.
+** {{bgcolortext|seedup|''2nd place of each group''}} advance to the Quarterfinals of the Playoffs.
+** {{bgcolortext|up|''3rd place of each group''}} advance to Round 1 of the Playoffs, and will start the series with a 1-game advantage.
+** {{bgcolortext|stayup|''4th place of each group''}} advance to Round 1 of the Playoffs.
+** {{bgcolortext|stay|''5th till 7th place of each group''}} qualify for [[LPL/2018/Summer|Summer split]]
+* '''Playoffs'''
+** Single elimination
+** All matches are {{Abbr/Bo5}}
+** Top 4 qualifies for [[Rift Rivals/LCK-LMS-LPL/2018|Rival Rivals 2018 - LCK vs LMS vs LPL]]
+** Winner qualifies for [[Mid-Season Invitational/2018|MSI 2018]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=|stream1=|douyu1=lpl|zhanqi1=lpl|panda1=lpl
+|lang2=usuk |twitch2=lpl1 |youtube2=
+|lang3=vn |twitch3= |youtube3=|garena3=vetv2
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+====Chinese Broadcast====
+{{BroadcasterCard
+|position=Host
+|b1=|b1name=|b1flag=cn
+|b2=|b2name=|b2flag=cn
+}}
+{{BroadcasterCard
+|position=Commentator
+|b1=|b1name=|b1flag=
+|b2=|b2name=|b2flag=
+|b3=|b3name=|b3flag=
+|b4=|b4name=|b4flag=
+|b5=|b5name=|b5flag=
+|b6=|b6name=|b6flag=
+|b7=|b7name=|b7flag=
+|b8=|b8name=|b8flag=
+}}
+{{box|break|padding=2em}}
+====English Broadcast====
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Fish|b1name=Matthew Stewart|b1flag=au|p1link=Fish (Australian caster)
+|b2=Dom|b2name=Dominic Roemer|b2flag=ca
+|b3=Pulse|b3name=Richard Kam|b3flag=au
+}}
+{{BroadcasterCard
+|position=Colour Commentator and Analyst
+|b1=Clement Chu|b1name=Clement Chu|b1flag=tw
+|b2=Raz|b2name=Barento Mohammed|b2flag=ca
+|b3=Rusty|b3name=Zack Pye|b3flag=au
+|b4=Froskurinn|b4name=Indiana Black|b4flag=us
+}}
+{{box|break|padding=2em}}
+====Vietnamese Broadcast====
+{{BroadcasterCard
+|position=Caster
+|b1=|b1name=|b1flag=vn
+|b2=|b2name=|b2flag=vn
+}}
+{{box|end|padding=2em}}
+
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="3" |[[Patch 8.1]]
+| colspan="1" |[[Patch 8.1]]/[[Patch 8.2]]
+| colspan="1" |[[Patch 8.2]]
+| colspan="1" |[[Patch 8.2]]/[[Patch 8.4]]
+| colspan="1" |[[Patch 8.4]]
+| colspan="1" |[[Patch 8.4]]/[[Patch 8.5]]
+| colspan="2" |[[Patch 8.5]]
+| colspan="1" |[[Patch 8.6]]
+|-
+| colspan="1"| Disabled
+| colspan="11" |
+|}
+
+===Statistics===
+{{#lst:LPL/2018/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2018/Spring|edate=2018-05-01}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

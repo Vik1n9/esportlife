@@ -1,0 +1,758 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2023%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:47:36.074Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2023 Spring}}
+{{Tencent Games Navbox}}
+{{LPL 2023 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2023 Spring 
+|shortname=2023 Spring 
+|tickername=LPL 2023 Spring
+|series=LPL
+|image=LPL 2020 Logo.png
+|icon=LPL 2020 icon.png
+|organizer-link=https://www.tjsports.com/|organizer=TJ Sports
+|organizer2=
+|sponsor=[https://www.mercedes-benz.com/ Mercedes-Benz]<br>[https://www.nike.com/cn/zh_cn/ Nike]<br>[http://www.mosilian.cn/ Momchilovtsi]<br>[https://www.harbin-beer.com.cn/ Harbin Beer]<br>[https://www.lenovo.com/ph/en Lenovo]<br>[http://en.wahaha.com.cn/ Wahaha]<br>[http://www.kfc.com.cn/kfccda/index.aspx KFC]<br>[http://www.warhorsechina.com.cn// War Horse]<br>[https://www.oppo.com/en/ OPPO]<br>[http://www.suning.com/ Suning.com]<br>[https://www.52tt.com/ ThunderTalk]<br>[https://www.liepin.com/ Liepin]<br>[https://www.razer.com/ Razer]<br>[https://autofull.com/ AutoFull]<br>[https://www.intel.com/content/www/us/en/gaming/serious-gaming.html Intel-Gaming]
+|patch=13.1
+|epatch=13.5
+|server=China
+|type=Offline/Online
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|country5=China
+|country6=China
+|city=Shanghai 
+|city3=Xi'an
+|city2=Suzhou
+|city4=Shenzhen
+|city5=Beijing
+|venue=Hongqiao World IE Hub|venuedesc=Group Stage
+|venue2=Yangcheng International Esports Center|venue2desc=LNG Homeground
+|venue4=Shenzhen Media Group Longgang Production Center|venue4desc=NiP Homeground
+|venue3=Guangdian Grand Theatre|venue3desc=Team WE Homeground
+|venue5=Legion JDG Esports Center|venue5desc=JD Gaming Homeground
+|format='''Group Stage'''<br>Single Round-Robin<br>'''Playoffs'''<br>King-of-the-Hill & Double Elimination
+|localcurrency=CNY
+|prizepool=4,200,000
+|sdate=2023-01-14
+|edate=2023-04-15
+|liquipediatier=1
+|highlighted=|website=https://lpl.qq.com/es/
+|rulebook=https://lol.qq.com/news/detail.shtml?type=1&docid=6368730620304233468
+|youtube=LPLOfficial
+|weibo=lolesports
+|twitter=lplenglish
+|douyu=288016
+|huya=lpl
+|bilibili=50329118
+|twitch=lpl
+|team_number=17
+|previous=LPL/2022/Summer{{!}}2022 Summer
+|next=LPL/2023/Summer{{!}}2023 Summer
+}}
+The '''LPL 2023 Spring''' was the first split of the 2023 [[LoL Pro League]] ('''LPL''') season, organized by TJ Sports, running from January 14 to April 15, 2023. The regular season used a single round-robin, best-of-three format, with the top ten of seventeen teams advancing to the playoffs. Playoffs were conducted in two phases: a King-of-the-Hill stage followed by a double-elimination bracket, with all matches in best-of-five format. The tournament had a total prize pool of CNY 4,200,000, with the champion and runner-up qualifying for the 2023 [[Mid-Season_Invitational|MSI]]. Matches were played on patches 13.1 through 13.5, with Aurelion Sol and Yuumi disabled during parts of the season. Group stage games were hosted in Shanghai, while select team home venues included Suzhou, Xi’an, Shenzhen, and Beijing.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=10|points=lpl2022|localcurrency=cny|groupElimStatuses=down,stay
+|tournament1=LPL/2023/Spring/Group_Stage
+|tournament2=LPL/2023/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2023|qualifies1name=MSI
+|{{Slot |qualified1=true|points=90|localprize=2,000,000}}
+|{{Slot |points=70|qualified2=true|localprize=1,000,000}}
+|{{Slot |points=50|qualified2=true|localprize=500,000}}
+|{{Slot |points=40|qualified2=true|localprize=300,000}}
+|{{Slot |points=20|count=2|localprize=200,000}}
+|{{Slot |points=10|count=2}}
+}}
+{{box|break|padding=1em}}
+
+{{MVPTable|cutafter=5|margin=false|title=Group Stage MVPs
+|tournament=LPL/2023/Spring/Group Stage/Week 1-4
+|tournament2=LPL/2023/Spring/Group Stage/Week 5-7
+|tournament3=LPL/2023/Spring/Group Stage/Week 8-10
+}}
+{{box|break|padding=0em}}
+{{MVPTable|cutafter=5|margin=false|title=Playoffs MVPs
+|tournament=LPL/2023/Spring/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=8|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Group Stage MVP |Scout|flag1=kr |team1=lng |date1=2023-03-31 }}
+{{prize pool slot award|award=Finals MVP |Ruler |flag1=kr |team1=jdg |date1=2023-04-15  }}
+{{prize pool slot award|award=Outstanding Rookie |Leave |flag1=cn |team1=edg |date1=2023-03-31  }}
+{{prize pool slot award|award=1st All-Pro Team |date=2023-03-31 
+|369 |flag1=cn |team1=jdg
+|Jiejie |flag2=cn |team2=edg
+|Scout |flag3=kr |team3=lng
+|Ruler |flag4=kr |team4=jdg
+|Meiko |flag5=cn |team5=edg
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2023-03-31 
+|Ale |flag1=cn |team1=edg
+|Kanavi |flag2=kr |team2=jdg
+|Knight |flag3=cn |team3=jdg
+|Elk |flag4=cn |team4=blg
+|Missing |flag5=cn |team5=jdg
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2023-03-31 
+|shanji |flag1=cn |team1=omg
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|FoFo |flag3=tw |team3=edg
+|Leave |flag4=cn |team4=edg
+|Hang |flag5=cn |team5=lng
+}}
+{{Prize pool end noprize}}
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Other Weeks}}
+{{prize pool slot award|award=Player of Week 10 |Scout |flag1=kr |team1=lng |date1=2023-03-27 }}
+{{prize pool slot award|award=Rookie of Week 10 |Leave |flag1=cn |team1=edg |date1=2023-03-27 }}
+{{prize pool slot award|award=Best of the Rift - Week 10 |date=2023-03-27
+|shanji |flag1=cn |team1=omg
+|Kanavi |flag2=kr |team2=jdg
+|Scout |flag3=kr |team3=lng
+|Ruler |flag4=kr |team4=jdg
+|Missing |flag5=cn |team5=jdg
+}}
+{{prize pool slot award|award=Player of Week 9 |Elk |flag1=cn |team1=blg |date1=2023-03-20 }}
+{{prize pool slot award|award=Rookie of Week 9 |Heng |flag1=cn |team1=we |date1=2023-03-20 }}
+{{prize pool slot award|award=Best of the Rift - Week 9 |date=2023-03-20
+|TheShy |flag1=kr |team1=wbg
+|Karsa |flag2=tw |team2=wbg
+|Scout |flag3=kr |team3=lng
+|Elk |flag4=cn |team4=blg
+|ON |flag5=cn |team5=blg
+}}
+{{prize pool slot award|award=Player of Week 8 |Jiejie |flag1=cn |team1=edg |date1=2023-03-13 }}
+{{prize pool slot award|award=Rookie of Week 8 |Xiaoxu |flag1=cn |team1=lgd |date1=2023-03-13 }}
+{{prize pool slot award|award=Best of the Rift - Week 8 |date=2023-03-13
+|Ale |flag1=cn |team1=edg
+|Jiejie |flag2=cn |team2=edg
+|Scout |flag3=kr |team3=lng
+|Hope |flag4=cn |team4=we
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 7 |Rookie |flag1=kr |team1=tes |date1=2023-03-06 }}
+{{prize pool slot award|award=Rookie of Week 7 |Leave |flag1=cn |team1=edg |date1=2023-03-06 }}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2023-03-06
+|TheShy |flag1=kr |team1=wbg
+|Tian |flag2=cn |team2=tes
+|Rookie |flag3=kr |team3=tes
+|Able |flag4=cn |team4=omg
+|Wink |flag5=cn |team5=ig
+}}
+{{prize pool slot award|award=Player of Week 6 |Scout |flag1=kr |team1=lng |date1=2023-02-27 }}
+{{prize pool slot award|award=Rookie of Week 6 |Heng |flag1=cn |team1=we |date1=2023-02-27 }}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2023-02-27
+|369 |flag1=cn |team1=jdg
+|Kanavi |flag2=kr |team2=jdg
+|Scout |flag3=kr |team3=lng
+|GALA |flag4=cn |team4=rng
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 5 |Scout |flag1=kr |team1=lng |date1=2023-02-20 }}
+{{prize pool slot award|award=Rookie of Week 5 |Leave |flag1=cn |team1=edg |date1=2023-02-20 }}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2023-02-20
+|Qingtian |flag1=cn |team1=tes
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|Scout |flag3=kr |team3=lng
+|JackeyLove |flag4=cn |team4=tes
+|Hang |flag5=cn |team5=lng
+}}
+{{prize pool slot award|award=Player of Week 4 |Xiaohu |flag1=cn |team1=wbg |date1=2023-02-13 }}
+{{prize pool slot award|award=Rookie of Week 4 |YSKM |flag1=hk |team1=ig |date1=2023-02-13 }}
+{{prize pool slot award|award=Best of the Rift - Week 4 |date=2023-02-13
+|369 |flag1=cn |team1=jdg
+|Karsa |flag2=tw |team2=wbg
+|Xiaohu |flag3=cn |team3=wbg
+|Ahn |flag4=cn |team4=ig
+|Crisp |flag5=cn |team5=wbg
+}}
+{{prize pool slot award|award=Player of Week 3 |Scout |flag1=kr |team1=lng |date1=2023-02-06 }}
+{{prize pool slot award|award=Rookie of Week 3 |YSKM |flag1=hk |team1=ig |date1=2023-02-06 }}
+{{prize pool slot award|award=Best of the Rift - Week 3 |date=2023-02-06
+|Qingtian |flag1=cn |team1=tes
+|XUN |flag2=cn |team2=blg
+|Scout |flag3=kr |team3=lng
+|Ruler |flag4=kr |team4=jdg
+|Wink |flag5=cn |team5=ig
+}}
+{{prize pool slot award|award=Player of Week 1&2 |YSKM |flag1=hk |team1=ig |date1=2023-01-19 }}
+{{prize pool slot award|award=Rookie of Week 1&2 |YSKM |flag1=hk |team1=ig |date1=2023-01-19 }}
+{{prize pool slot award|award=Best of the Rift - Week 1&2 |date=2023-01-19
+|YSKM |flag1=hk |team1=ig
+|Karsa |flag2=tw |team2=wbg
+|Rookie |flag3=kr |team3=tes
+|Ruler |flag4=kr |team4=jdg
+|Wink |flag5=cn |team5=ig
+}}
+{{Prize pool end noprize}}
+{{box|end|padding=2em}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2022-09-02
+|edate=2023-01-16
+|team=blg
+|team2=edg
+|team3=fpx
+|team4=ig
+|team5=jdg
+|team6=lgd
+|team7=lng
+|team8=omg
+|team9=ra
+|team10=al
+|team11=rng
+|team12=wbg
+|team13=we
+|team14=tes
+|team15=tt
+|team16=up
+|team17=nip
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Anyone's Legend
+|p1=Zdz 
+|p2=Xiaohao 
+|p3=pinz
+|p4=Betty 
+|p5=SwordArT
+
+|t2p1=Harder |t2pos1=mid
+
+|t3p1=MingZhe |t3p1flag=cn |t3pos1=head coach
+|t3p2=ZYB |t3p2flag=cn |t3pos2=coach
+|t3title=Staff
+}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Bin 
+|p2=XUN
+|p3=Yagao  
+|p4=Elk 
+|p5=ON
+
+|t2p1=Can |t2pos1=jg |t2p1dnp=true
+|t2p2=Jwei |t2pos2=sup |t2p2dnp=true
+|t2p3=LvMao |t2pos3=sup |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Tabe |t3pos1=head coach
+|t3p2=BigWei |t3p2flag=tw |t3pos2=coach
+|t3p3=Xiasu |t3pos3=coach
+|t3p4=Duan |t3pos4=coach
+|t3p5=Zizheng|t3pos5=analyst
+|t3p6=Dian|t3p6flag=cn|t3pos6=head coach|t3p6leave=true
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Ale
+|p2=Jiejie
+|p3=FoFo
+|p4=Fisher|p4pos=mid |p4dnp=true
+|p5=Leave|p5pos=adc
+|p6=Meiko|p6pos=sup
+
+|t2p1=Maokai|t2p1link=Maokai (Chinese coach) |t2p1flag=cn |t2pos1=head coach
+|t2p2=KenZhu |t2p2flag=cn |t2pos2=coach
+|t2p3=Mni |t2p3flag=cn |t2pos3=coach
+|t2title=Staff
+|context=Shanghai
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=xiaolaohu 
+|p2=H4cker
+|p3=Care 
+|p4=Lwx
+|p5=Qiuqiu
+
+|t2p1=fearness |t2pos1=top |t2p1dnp=
+|t2p2=haoye |t2pos2=jng |t2p2dnp=
+|t2p3=Xingye |t2pos3=adc |t2p3dnp=true|t2p3flag=cn
+|t2p4=Lele |t2pos4=sup |t2p4dnp=
+|t2p5= |t2pos5= |t2p5dnp=
+
+|t3p1= |t3p1flag= |t3pos1=
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=YSKM
+|p2=GIDEON
+|p3=Dove
+|p4=Ahn |p4flag=cn
+|p5=Wink
+
+|t2p1=neny |t2pos1=top
+|t2p2=Tianzhen |t2pos2=jg |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Joker |t3pos1=head coach|t3p1link=Joker_(Cho_Jae-eup)
+|t3p2=Jykim |t3pos2=assistant coach
+|t3p3=Renzhe |t3p3flag=cn |t3pos3=coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=369
+|p2=Kanavi 
+|p3=knight
+|p4=Ruler 
+|p5=Missing
+
+|t2p1=Lzq|t2p1flag=cn|t2pos1=mid|t2p1dnp=true
+|t2p2= |t2pos2= |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Homme |t3pos1=head coach
+|t3p2=Viod |t3pos2=coach
+|t3p3=Vus5o |t3pos3=analyst
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Beijing
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Xiaoxu|p1flag=cn  
+|p2=Meteor
+|p3=Haichao |p3flag=cn
+|p4=Lpc|p4flag=cn
+|p5=Jinjiao
+
+|t2p1=xqw |t2pos1=mid |t2p1flag=cn
+|t2p2= |t2pos2= |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=1874 |t3p1flag=cn |t3pos1=coach
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=LNG Esports
+|p1=Zika
+|p2=Tarzan |p2link=Tarzan (Korean player)
+|p3=Scout 
+|p4=LP|p4flag=cn
+|p5=Hang
+
+|t2p1=Xin |t2p1link=Xin (Li Yu-Dong) |t2pos1=support |t2p1dnp=true |t2p1flag=cn
+|t2p2=Yuekai |t2pos2= mid|t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Poppy|t3p1link=Poppy (Chang Po-Hao)|t3p1flag=tw |t3pos1=head coach
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Suzhou
+}}
+{{TeamCard
+|team=Ninjas in Pyjamas
+|p1=invincible|p1link=invincible (Chinese player)
+|p2=Shadow|p2link=Shad0w_(Italian_player)
+|p3=Dream|p3link=Dream (Chinese player) 
+|p4=Photic 
+|p5=Zhuo
+|context=Shenzhen
+
+|t2p1= Rich|t2pos1=top|t2p1flag=kr|t2p1link=Rich_(Korean_player)|t2p1leave=true
+|t2p2=XLB |t2pos2=jg
+|t2p3=Pout |t2pos3=mid
+|t2p4=|t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Duke |t3pos1=head coach
+|t3p2=Zero |t3p2link=Zero_(Korean_player) |t3pos2=coach
+|t3p3=Cluo |t3p3flag=kr |t3pos3=analyst
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|inotes={{NoteBig
+|n1=According to the [https://lpl.qq.com/es/team_detail.shtml?tid=587 QQ Team page], '''Ninjas in Pyjamas''' will compete in the LPL, replacing [[Victory Five]].
+
+|context=Shenzhen
+}}
+}}
+{{TeamCard
+|team=Oh My God
+|p1=shanji
+|p2=AKi 
+|p3=Creme 
+|p4=Able 
+|p5=ppgod|p5flag=cn
+
+|t2p1=Munian |t2pos1=top |t2p1dnp=true |t2p1flag=cn
+|t2p2=Jerry |t2pos2=Sup |t2p2flag=cn 
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Despa1r|t3pos1=head coach
+|t3p2=River |t3p2flag=cn |t3pos2=Coach|t3p2link=River (Chinese coach)
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=Rare Atom
+|p1=Cube 
+|p2=Leyan 
+|p3=Strive 
+|p4=Assum 
+|p5=Southwind 
+
+|t2p1=bkr |t2pos1=support |t2p1flag=cn
+|t2p2= |t2pos2= |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Loong |t3p1flag=cn |t3pos1=head coach
+|t3p2=Endless |t3p2flag=cn |t3pos2=Assistant Coach
+|t3p3=Water |t3p3flag=cn |t3pos3=Assistant Coach|t3p3link=Water (Chinese player)
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Breathe
+|p2=Wei 
+|p3=Angel|p3flag=cn|p3link=Angel (Chinese player)
+|p4=GALA
+|p5=Bunny|p5leave=true
+|p6=Ming|pos6=support
+
+|t2p1=Tangyuan  |t2p1flag=cn |t2pos1=mid |t2p1link=Tangyuan (Chinese player)
+|t2p2=ziyou |t2p2flag=cn |t2pos2=sup |t2p2dnp=true|t2p2leave=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Sin |t3p1link=Sin_(Korean_player) |t3pos1=head coach
+|t3p2=Xiaobai |t3p2flag=cn |t3pos2=analyst
+
+}}
+{{TeamCard
+|team=Team WE
+|p1=Biubiu 
+|p2=Heng|p2flag=cn
+|p3=Shanks
+|p4=Hope|p4link=Hope (Chinese player) 
+|p5=Iwandy
+
+|t2p1=Demon |t2pos1=top|t2p1link=Demon (Wu Yuewei)|t2p1dnp=true|t2p1flag=cn
+|t2p2= |t2pos2= |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=WarHorse |t3pos1=head coach
+|t3p2=Changan |t3p2flag=cn |t3pos2=Coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Xi'an
+}}
+{{TeamCard
+|team=ThunderTalk Gaming
+|p1=Hoya
+|p2=Beichuan
+|p3=Ucal
+|p4=huanfeng 
+|p5=yaoyao
+
+|t2p1=XinLiu |t2pos1=sup |t2p1flag=cn
+|t2p2=IBoy |t2pos2=bot |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=NoName |t3p1flag=cn |t3pos1=coach
+|t3p2=Along |t3p2flag=cn |t3pos2=coach|t3p2link=Along (Long Hongzhou)
+|t3p3=SEOK |t3p3link=Bigfafa |t3pos3=general manager
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=Top Esports
+|p1=Qingtian 
+|p2=Tian 
+|p3=Rookie 
+|p4=JackeyLove 
+|p5=Mark|p5link=Mark (Chinese player)
+
+|t2p1=Wayward |t2pos1=top 
+
+|t3p1= |t3p1flag= |t3pos1=
+|t3p2= |t3p2flag= |t3pos2=
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=Ultra Prime
+|p1=Hery
+|p2=Ning
+|p3=Forge 
+|p4=Doggo
+|p5=Baolan
+
+|t2p1=zs |t2pos1=top 
+|t2p2=Qing |t2pos2=mid |t2p2flag=cn |t2p2dnp=
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Ratis |t3p1flag=tw |t3pos1=head coach
+|t3p2=Fishball |t3p2flag=cn |t3pos2=assistant coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard
+|team=Weibo Gaming
+|p1=TheShy
+|p2=Karsa
+|p3=Xiaohu  
+|p4=Light |p4link=Light (Wang_Guang-Yu)
+|p5=Crisp
+
+|t2p1=KennyChan |t2pos1=jg |t2p1dnp=true|t2p1flag=hk
+|t2p2= |t2pos2= |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Easyhoon  |t3pos1=head coach
+|t3p2=Rui  |t3p2flag=cn |t3pos2=coach
+|t3p3=Tselin |t3p3flag=cn |t3pos3=coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+}}
+{{TeamCard columns end}}
+
+==Results==
+===Group Stage===
+{{LPDB storage|false}}
+{{#lst:LPL/2023/Spring/Group_Stage/Week 1-4|Regular Season}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2023/Spring/Group_Stage/Week_1-4|Click here for detailed results of the '''Group Stage''' matches (Week 1-4)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/2023/Spring/Group_Stage/Week_5-7|Click here for detailed results of the '''Group Stage''' matches (Week 5-7)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/2023/Spring/Group Stage/Week_8-10|Click here for detailed results of the '''Group Stage''' matches (Week 8-10)]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=FzRC178jef}}
+
+
+==Format==
+* '''Group Stage''' 
+** Single round robin
+** All matches are {{Abbr/Bo3}}
+** Top 10 advanced to [[LPL/2023/Summer/Playoffs|Playoffs]]
+*** {{bgcolortext|byeup|''1st and 2nd place''}} advance to the Semfinals of the Playoffs.
+*** {{bgcolortext|seedup|''3rd and 4th place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|up|''5th and 6th place''}} advance to Round 2 of the Playoffs.
+*** {{bgcolortext|stayup|''7th till 10th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''11th till 17th place''}} are eliminated from this split.
+** Tiebreakers
+*** If two or more teams have won the same number of matches, the tie will be broken by the order:
+***# Games differential
+***# Head-to-head results
+
+* '''Group Stage Side Selection Procedure'''
+** The first listed team will pick sides for Game 1, the second listed will pick sides for Game 2.
+** If the {{Abbr/Bo3}} series goes to Game 3, the team who won the game in the shorter time will pick the side for Game 3.
+
+* '''Playoffs''' 
+** '''''Phase One: King-of-the-Hill'''''
+*** 3rd - 10th seeded teams from Group Stage are divided into two brackets to play a King-of-the-Hill format
+**** 3rd, 6th, 7th and 10th seed are in one bracket (the first bracket), the other 4 seeds are in the other
+**** The winners advance to Phase Two
+**** The winner of the first bracket faces 2nd seed team in the Double-Elimination Stage, the other faces the 1st seed
+** '''''Phase Two: Double-Elimination'''''
+*** Four teams play in a Double-Elimination format to compete for the championship
+** All matches are {{Abbr/Bo5}}
+
+* '''Free Side Selection Privilege'''
+** Before the start of the series, the higher seed team can choose which '''''three''''' games of the {{Abbr/Bo5}} series to pick the side.
+** This is only for the first round of the Playoffs ''Phase One''.
+
+* '''Standard Side Selection Procedure'''
+** For the upper bracket Finals and lower bracket matches in Playoffs ''Phase Two'', the Side seleciton Privilege will be determined by coin toss. Besides that, the higher seeded teams (in Grand Finals, the upper bracket winner) will have the side selection for game 1 of the series.
+** Subsequently, the loser of the previous game will have side selection privilege.
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lpl |youtube1=LPLOfficial
+|lang2=cn |bilibili2=6 |huya2=660000 |douyu2=288016
+|lang3=cn |bilibili3=616 |huya3=660137 |douyu3=424559
+}}
+===Talent===
+{{Tabs dynamic|name1=Chinese Broadcast|name2=English Broadcasts|name3=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Candice
+|b2=Liu Hang|b2name=Liu Hang|b2flag=cn
+|b3=Xiaoyu|b3link=Hilda|b3name=Zhu Yu|b3flag=cn
+|b4=Xiran|b4name=Feng Xi|b4flag=cn
+|b5=Chen Yu|b5name=Zhou Chenyu|b5flag=cn
+|b6=Wendy
+|b7=Christina
+|b8=Luo Xin|b8name=Luo Xin|b8flag=cn
+|b9=BaoBao|b9name=Fu Ruozhen|b9flag=cn
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Duoduo|b1name=Wang Qianyuan|b1flag=cn
+|b2=Mile|b2name=Qian Chen|b2flag=cn
+|b3=Zeyuan|b3name=Guan Zeyuan|b3flag=cn
+|b4=wAwa|b4name=Yan Zijing|b4flag=cn
+|b5=957
+|b6=Tongxi|b6name=Zhang He|b6flag=cn
+|b7=Maomao|b7name=Yuan Weiyi|b7flag=cn
+|b8=pyl|b8name=Chen Bo|b8flag=cn
+|b9=san
+|b10=Zhao Zhiming|b10name=Zhao Zhiming|b10flag=cn
+|b11=GuGu|b11name=Chen Jieyan|b11flag=cn
+|b12=Rita|b12name=Feng Yu|b12flag=cn
+|b13=MacT|b13name=Tan PingTao|b13flag=cn
+|b14=Junri|b14name=Zhao Junri|b14flag=cn
+|b15=Pengpeng|b15name= Peng ShengYao|b15flag=tw
+|b16=Yutong
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Guest Commentators
+|b1=Baolan
+|b2=Ning
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Host
+|b1=Christina|b1flag=cn |b1name=Zhao Songqi
+|b2=Wendy|b2flag=cn
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Hysterics
+|b2=Mazel
+|b3=Munchables
+|b4=Oisín |b4link=Oisín (Irish Commentator)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Jamada
+|b2=Nymaera
+|b3=Lyric
+|b4=Kitty|b4name=Athena Jiang|b4flag=au|b4link=Kitty (Chinese caster)
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|3}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Park Sang-hyun |b1name= |b1flag=kr
+|b2=Chaester |b2name=Chae Min-joon |b2flag=kr
+|b3=Dankun |b3flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Bitdory
+|b2=Kim Dong-joon|b2flag=kr
+|b3=JYP |b3name=Park Jin-young |b3flag=kr
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="20"| 6 (till 21st Feb)
+! width="20"| 6 (from 22nd Feb)
+! width="20"| 7 (till 1st Mar)
+! width="20"| 7 (from 2nd Mar)
+! width="40"| 8
+! width="40"| 9 (till 14th Mar)
+! width="40"| 9 (from 15th Mar)
+! width="40"| 10
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="6" | [https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-1-notes/ 13.1]
+| colspan="2" | [https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-3-notes/ 13.3]
+| colspan="3" | [https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-4-notes/ 13.4]
+| colspan="3" | [https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-5-notes/ 13.5]
+|-
+| Disabled
+| colspan="6" | 
+| colspan="2" | {{ChampionIcon|Aurelion Sol|30px}}
+| colspan="3" | 
+| colspan="3" | {{ChampionIcon|Yuumi|30px}}
+|}
+
+===Statistics===
+{{#lst:LPL/2023/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2023/Spring|edate=2023-05-05}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+==Additional content==
+{{Event media}}
+==References==
+{{Reflist}}
+
+{{2023 Season International Cycle Navbox}}

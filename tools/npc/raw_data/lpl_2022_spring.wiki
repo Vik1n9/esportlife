@@ -1,0 +1,766 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2022%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:47:18.259Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2022 Spring}}
+{{Want_to_Help
+|issue=Missing Complete Broadcast Talent
+|fix=Add the missing Broadcast Talent for the Chinese stream, or different languages
+|date=2025-11-27
+}}
+{{Tencent Games Navbox}}
+{{LPL 2022 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2022 Spring 
+|shortname=2022 Spring 
+|tickername=LPL 2022 Spring
+|series=LPL
+|image=LPL 2020 Logo.png
+|icon=LPL 2020 icon.png
+|organizer-link=https://www.tjsports.com/ |organizer=TJ Sports
+|organizer2=
+|sponsor=[https://www.mercedes-benz.com/ Mercedes-Benz]<br>[https://www.nike.com/cn/zh_cn/ Nike]<br>[http://www.mosilian.cn/ Momchilovtsi]<br>[https://www.harbin-beer.com.cn/ Harbin Beer]<br>[https://www.lenovo.com/ph/en Lenovo]<br>[http://en.wahaha.com.cn/ Wahaha]<br>[http://www.kfc.com.cn/kfccda/index.aspx KFC]<br>[http://www.warhorsechina.com.cn// War Horse]<br>[https://www.oppo.com/en/ OPPO]<br>[http://www.suning.com/ Suning.com]<br>[https://www.52tt.com/ ThunderTalk]<br>[https://www.liepin.com/ Liepin]<br>[https://www.razer.com/ Razer]<br>[https://autofull.com/ AutoFull]<br>[https://www.intel.com/content/www/us/en/gaming/serious-gaming.html Intel-Gaming]
+|patch=12.1
+|epatch=12.5
+|server=China
+|type=Offline/Online
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|country5=China
+|country6=China
+|city=Shanghai 
+|city2=Hangzhou
+|city3=Suzhou
+|city4=Shenzhen
+<!--|city6=Xi'an-->
+|city5=Beijing
+|venue=Hongqiao World IE Hub|venuedesc=Group Stage
+|venue2=LGD Allied Esports Stadium|venue2desc=LGD Homeground
+|venue3=Yangcheng International Esports Center|venue3desc=LNG Homeground
+|venue4=Shenzhen Media Group Longgang Production Center|venue4desc=Victory Five Homeground
+<!--|venue6=Guangdian Grand Theatre|venue6desc=Team WE Homeground-->
+|venue5=Legion JDG Esports Center|venue5desc=JD Gaming Homeground
+|format='''Group Stage'''<br>Single Round-Robin<br>'''Playoffs'''<br>King-of-the-Hill & Double Elimination
+|localcurrency=CNY
+|prizepool=4,200,000
+|sdate=2022-01-10
+|edate=2022-04-23
+|liquipediatier=1
+|highlighted=|website=https://lpl.qq.com/es/lpl/2021/
+|rulebook= https://lol.qq.com/news/detail_m.html?docid=3445160776010661269
+|youtube=LPLOfficial
+|weibo=lolesports
+|twitter=lplenglish
+|douyu=lpl
+|huya=lpl
+|twitch=lpl
+|team_number=17
+|previous=LPL/2021/Summer{{!}}2021 Summer 
+|next=LPL/2022/Summer{{!}}2022 Summer 
+}}
+The '''LPL 2022 Spring''' was the first split from the 2022 [[LoL Pro League]] ('''LPL''') season, organized by TJ Sport, from January 10 to April 23, 2022. The regular season used a single round-robin, best-of-three format, with the top ten teams advancing to the playoffs. Playoffs consisted of a King-of-the-Hill phase followed by a double-elimination bracket, with all matches best-of-five. The tournament had a total prize pool of CNY 4,200,000, and the winner qualified for the 2022 [[Mid-Season Invitational/2022|Mid‑Season Invitational 2022]]. Matches were played on patches 12.1 through 12.5, with Zeri disabled for part of the season. Games were held across multiple cities, including Shanghai, Hangzhou, Suzhou, Shenzhen, and Beijing, with both offline and home-ground venues utilized.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|cutafter=10|points=lpl2022|localcurrency=cny|groupElimStatuses=down,stay
+|tournament1=LPL/2022/Spring/Group_Stage
+|tournament2=LPL/2022/Spring/Playoffs
+|qualifies1=Mid-Season Invitational/2022|qualifies1name=MSI
+|{{Slot |qualified1=true|points=90|localprize=2,000,000}}
+|{{Slot |points=70|qualified2=true|localprize=1,000,000}}
+|{{Slot |points=50|qualified2=true|localprize=500,000}}
+|{{Slot |points=40|qualified2=true|localprize=300,000}}
+|{{Slot |points=20|count=2|localprize=200,000}}
+|{{Slot |points=10|count=2}}
+}}
+{{box|break|padding=1em}}
+
+{{MVPTable|useSmw=true|cutafter=7|margin=false|title=Group Stage MVPs
+|tournament=LPL/2022/Spring/Group Stage/Week 1-5
+|tournament2=LPL/2022/Spring/Group Stage/Week 6-9
+}}
+{{box|break|padding=0em}}
+{{MVPTable|useSmw=true|cutafter=7|margin=false|title=Playoffs MVPs
+|tournament=LPL/2022/Spring/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=1em}}
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Group Stage MVP |Rookie |flag1=kr |team1=v5 |date1=2022-03-28}}
+{{prize pool slot award|award=Outstanding Rookie |Wayward |flag1=cn |team1=tes |date1=2022-03-28}}
+{{prize pool slot award|award=1st All-Pro Team |date=2022-03-28
+|Rich |playerlink1=Rich (Korean player) |flag1=kr |team1=v5
+|Kanavi |flag2=kr |team2=jdg
+|Rookie |flag3=kr |team3=v5
+|Photic |flag4=cn |team4=v5
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2022-03-28
+|TheShy |flag1=kr |team1=wbg
+|Karsa |flag2=tw |team2=v5
+|Xiaohu |flag3=cn |team3=rng
+|Light_(Wang_Guang-Yu){{!}}Light |flag4=cn |team4=lng
+|Crisp |flag5=cn |team5=blg
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2022-03-28
+|Wayward |flag1=cn |team1=tes
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|Scout |flag3=kr |team3=edg
+|Viper (Korean player){{!}}Viper |flag4=kr |team4=edg
+|Missing |flag5=cn |team5=jdg
+}}
+{{Prize pool end noprize}}
+{{box|break|padding=1em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Other Weeks}}
+{{prize pool slot award|award=Player of Week 9 |Kanavi |flag1=kr |team1=jdg |date1=2022-03-21}}
+{{prize pool slot award|award=Rookie of Week 9 |Wayward |flag1=cn |team1=tes |date1=2022-03-21}}
+{{prize pool slot award|award=Best of the Rift - Week 9 |date=2022-03-21
+|369 |flag1=cn |team1=jdg
+|Kanavi |flag2=kr |team2=jdg
+|Rookie |flag3=kr |team3=v5
+|Light_(Wang_Guang-Yu){{!}}Light |flag4=cn |team4=lng
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 8 |Cube |flag1=cn|team1=ra |date1=2022-03-14}}
+{{prize pool slot award|award=Rookie of Week 8 |Wayward |flag1=cn |team1=tes|date1=2022-03-14}}
+{{prize pool slot award|award=Best of the Rift - Week 8 |date=2022-03-13
+|Cube |flag1=cn |team1=ra
+|Kanavi |flag2=kr |team2=jdg
+|xiye |flag3=cn |team3=we
+|Viper_(Korean_player){{!}}Viper |flag4=kr |team4=edg
+|Missing |flag5=cn |team5=jdg
+}}
+{{prize pool slot award|award=Player of Week 7 |Xiaohu |flag1=cn |team1=rng |date1=2022-03-07}}
+{{prize pool slot award|award=Rookie of Week 7 |Strive |flag1=cn |team1=ra |date1=2022-03-07}}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2022-03-07
+|Bin |flag1=cn |team1=rng
+|Kanavi |flag2=kr |team2=jdg
+|Xiaohu |flag3=cn |team3=rng
+|JackeyLove |flag4=cn |team4=tes
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 6 |Photic |flag1=cn |team1=v5 |date1=2022-02-28}}
+{{prize pool slot award|award=Rookie of Week 6 |Wayward |flag1=cn |team1=top |date1=2022-02-28}}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2022-02-28
+|TheShy |flag1=kr |team1=wbg
+|Karsa |flag2=tw |team2=v5
+|Rookie |flag3=kr |team3=v5
+|Photic |flag4=cn |team4=v5
+|Crisp |flag5=cn |team5=blg
+}}
+{{prize pool slot award|award=Player of Week 5 |TheShy |flag1=kr |team1=wbg |date1=2022-02-21}}
+{{prize pool slot award|award=Rookie of Week 5 |Wayward |flag1=cn |team1=top |date1=2022-02-21}}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2022-02-21
+|TheShy |flag1=kr |team1=wbg
+|Kanavi |flag2=kr |team2=jdg
+|Scout |flag3=kr |team3=edg
+|Huanfeng |flag4=cn |team4=wbg
+|ON |flag5=cn |team5=wbg
+}}
+{{prize pool slot award|award=Player of Week 3&4 |Xiaohu |flag1=cn |team1=rng |date1=2022-02-14}}
+{{prize pool slot award|award=Rookie of Week 3&4 |Zika |flag1=cn |team1=ig |date1=2022-02-14}}
+{{prize pool slot award|award=Best of the Rift - Week 3&4 |date=2022-02-14
+|Bin |flag1=cn |team1=rng
+|Weiwei |flag2=cn |team2=blg
+|Xiaohu |flag3=cn |team3=rng
+|Light (Wang_Guang-Yu){{!}}Light |flag4=cn |team4=lng
+|ON |flag5=cn |team5=wbg
+}}
+{{prize pool slot award|award=Player of Week 2 |Xiaohu |flag1=cn |team1=rng |date1=2022-01-24}}
+{{prize pool slot award|award=Rookie of Week 2 |Doggo |flag1=tw |team1=blg |date1=2022-01-24}}
+{{prize pool slot award|award=Best of the Rift - Week 2 |date=2022-01-24
+|Ale |flag1=cn |team1=lng
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|Xiaohu |flag3=cn |team3=rng
+|Viper (Korean player){{!}}Viper |flag4=kr |team4=edg
+|Ming |flag5=cn |team5=rng
+}}
+{{prize pool slot award|award=Player of Week 1 |shanji |flag1=cn |team1=omg |date1=2022-01-17}}
+{{prize pool slot award|award=Rookie of Week 1 |shanji |flag1=cn |team1=omg |date1=2022-01-17}}
+{{prize pool slot award|award=Best of the Rift - Week 1 |date=2022-01-17
+|shanji |flag1=cn |team1=omg
+|Tarzan (Korean player){{!}}Tarzan |flag2=kr |team2=lng
+|Creme |flag3=cn |team3=omg
+|Viper (Korean player){{!}}Viper |flag4=kr |team4=edg
+|Meiko |flag5=cn |team5=edg
+}}
+{{Prize pool end noprize}}
+{{box|end}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2021-09-02
+|edate=2022-01-09
+|team=blg
+|team2=edg
+|team3=fpx
+|team4=ig
+|team5=jdg
+|team6=lgd
+|team7=lng
+|team8=omg
+|team9=ra
+|team10=rw
+|team11=rng
+|team12=sn
+|team13=we
+|team14=tes
+|team15=tt
+|team16=up
+|team17=v5
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Anyone's Legend
+|p1=Zdz
+|p2=Xiaohao
+|p3=Maple
+|p4=Betty
+|p5=QiuQiu
+
+|t2p1=Harder |t2p1flag=cn |t2pos1=mid |t2p1dnp=true
+|t2p2=Forge |t2p2flag=cn |t2pos2=mid |t2p2dnp=
+|t2p3=ZWuJi |t2p3flag=cn |t2pos3=bot |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Rui |t3p1flag=cn |t3pos1=head coach
+|t3p2=Water |t3p2flag=cn |t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|inotes={{NoteBig
+|n1=December 2nd - '''Rogue Warriors''' rebrand to [[Anyone's Legend]]. <ref>{{cite web |url=https://weibo.com/6198774314/L4afwyVDP?pagetype=viewer |title=RW League of Legends Rename Announcement |date=2021-12-02 |author=[[Anyone's Legend]] |publisher=Weibo |language={{Flag|cn}} Chinese}}</ref>
+}}
+}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Breathe
+|p2=Weiwei
+|p3=FoFo
+|p4=Doggo
+|p5=Crisp
+
+|t2p1=Uzi|t2p1flag=cn|t2p1link=Uzi (Chinese player) |t2p1dnp= |t2pos1=bot
+
+|t3p1=Dian |t3p1flag=cn |t3pos1=head coach
+|t3p2=Jzz |t3p2flag=cn |t3pos2=analyst
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Flandre
+|p2=Jiejie
+|p3=Scout
+|p4=Viper |p4link=Viper (Korean player)
+|p5=Meiko
+
+|t2p1=Xiaoxiang |t2p1flag=cn |t2pos1=top
+
+|t3p1=Maokai |t3p1flag=cn |t3pos1=head coach
+|t3p2=Hua |t3p2flag=cn |t3pos2=analyst
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=xiaolaohu
+|p2=beichuan
+|p3=Gori
+|p4=Lwx
+|p5=Hang
+
+|t2p1=jiang |t2p1flag=cn |t2pos1=bot |t2p1dnp=true
+|t2p2=Clid |t2p2flag=kr |t2pos2=jg |t2p2dnp=
+|t2p3=Care |t2p3flag=cn |t2pos3=mid |t2p3dnp=
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Steak |t3p1flag=tw |t3pos1=head coach
+|t3p2=REFRA1N |t3p2flag=tw |t3pos2=coach
+|t3p3=Lyn |t3p3flag=kr |t3pos3=coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=neny |p1flag=
+|p2=XUN |p2flag=
+|p3=Yuekai |p3flag=
+|p4=xiaoyueji |p4flag=
+|p5=Lucas |p5flag=
+
+|t2p1=Zika |t2p1flag=cn |t2pos1=top |t2p1dnp=
+|t2p2=Mole |t2p2flag=cn |t2pos2=mid
+|t2p3=Ahn |t2p3flag=cn |t2pos3=bot |t2p3dnp=
+|t2p4=Ke |t2p4flag=cn |t2pos4=sup |t2p4dnp=true
+|t2p5=Wink |t2p5flag=cn |t2pos5=bot |t2p5dnp=
+
+|t3p1=Loong |t3p1flag=cn |t3pos1=head coach
+|t3p2=Liet |t3p2flag=cn |t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=369
+|p2=Kanavi
+|p3=Yagao
+|p4=Hope |p4link=Hope (Chinese player)
+|p5=Missing
+
+|t2p1=Yimeng |t2p1flag=cn |t2pos1=mid |t2p1dnp=true
+|t2p2=Lpc |t2p2flag=cn |t2pos2=bot |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Homme |t3p1flag=kr |t3pos1=head coach
+|t3p2=Xiasu |t3p2flag=cn |t3pos2=coach
+|t3p3=Vus5o |t3p3flag=cn |t3pos3=analyst
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Beijing
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Fearness
+|p2=Shad0w |p2link=Shad0w (Italian player)
+|p3=YeG |p3flag=cn
+|p4=Eric
+|p5=Jinjiao
+
+|t2p1=Garvey |t2p1flag=cn |t2pos1=top |t2p1dnp=
+|t2p2=Kui |t2p2flag=cn |t2pos2=jg |t2p2dnp=true
+|t2p3=Jay |t2p3link=Jay (Chinese player) |t2p3flag=cn |t2pos3=mid |t2p3dnp=true
+|t2p4=Chance |t2p4link=Chance (Chinese player) |t2p4flag=cn |t2pos4=sup |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=X1ri |t3p1flag=cn |t3pos1=head coach
+|t3p2=Kabe |t3p2flag=hk |t3pos2=assistant coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Hangzhou
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=LNG Esports
+|p1=Ale 
+|p2=Tarzan  |p2link=Tarzan (Korean player)
+|p3=Doinb 
+|p4=Light  |p4link=Light_(Wang_Guang-Yu)
+|p5=Iwandy
+
+|t2p1=LvMao |t2p1flag= |t2pos1=sup
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Poppy |t3p1flag= |t3pos1=coach |t3p1link=Poppy (Chang Po-Hao)
+|t3p2=U |t3p2flag= |t3pos2=coach
+|t3p3=Rather |t3p3flag= |t3pos3=coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Suzhou
+
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Oh My God
+|p1=shanji |p1flag=cn
+|p2=AKi |p2flag=
+|p3=Creme |p3flag=
+|p4=Able |p4flag=
+|p5=cold |p5flag=
+
+|t2p1=M1kuya |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=NoName |t3p1flag=cn |t3pos1=Head Coach
+|t3p2=BoBo |t3p2link=BoBo (He Wen-bo) |t3p2flag=cn |t3pos2=Coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Rare Atom
+|p1=Cube 
+|p2=Leyan
+|p3=Strive |p3flag=cn
+|p4=iBoy
+|p5=Zorah |p5flag=cn
+
+|t2p1=JunJia |t2p1flag=cn |t2pos1=jg |t2p1dnp=true
+|t2p2=Fy |t2p2flag=cn |t2pos2=jg |t2p2dnp=true
+|t2p3=yuyanjia |t2p3flag=cn |t2pos3=sup |t2p3dnp=
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Chris |t3p1flag=hk |t3pos1=head coach |t3p1link=Chris (Siu Keung)
+|t3p2=doG8 |t3p2flag=tw |t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Bin |p1flag=
+|p2=Wei |p2flag=
+|p3=Xiaohu |p3flag=
+|p4=gala |p4flag=
+|p5=Ming |p5flag=
+
+|t2p1=Bunny |t2p1flag=cn |t2pos1=sup |t2p1dnp=true
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=KenZhu |t3p1flag=cn |t3pos1=head coach
+|t3p2=Tabe |t3p2flag=hk |t3pos2=coach
+|t3p3=Xiaobai |t3p3flag=cn |t3pos3=Assistant coach
+|t3p4=Sin |t3p4flag=kr |t3pos4=Analyst
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Team WE
+|p1=Biubiu |p1flag=
+|p2=View |p2flag=
+|p3=xiye |p3flag=
+|p4=Stay |p4flag=cn
+|p5=Kedaya |p5flag=cn
+
+|t2p1=beishang |t2p1flag=cn |t2pos1=jg |t2p1dnp=true
+|t2p2=xiye |t2p2flag=cn |t2pos2=mid |t2p2dnp=true
+|t2p3=Xing |t2p3flag=cn |t2pos3=bot |t2p3dnp=
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Assassin |t3p1flag=cn |t3pos1=head coach
+|t3p2=Viod |t3p2flag=cn |t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Xi'an
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=ThunderTalk Gaming
+|p1=New |p1flag=
+|p2=Frigid |p2flag=cn
+|p3=Captain |p3flag=
+|p4=puff |p4flag=
+|p5=southwind |p5flag=
+
+|t2p1=Chelizi |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+|t2p2=Chieftain |t2p2flag=kr |t2pos2=jg 
+|t2p3=Ucal |t2p3flag=kr |t2pos3=mid 
+|t2p4=Pudding |t2p4flag=cn |t2pos4=sup |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Heart |t3p1flag=kr |t3pos1=head coach
+|t3p2=AFei |t3p2flag=tw |t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Top Esports
+|p1=Zoom |p1flag=
+|p2=Tian |p2flag=
+|p3=knight |p3flag=
+|p4=Jackeylove |p4flag=
+|p5=zhuo |p5flag=
+
+|t2p1=Qingtian |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+|t2p2=Wayward |t2p2flag=cn |t2pos2=top |t2p2dnp=
+|t2p3=Xiaopeng |t2p3flag=cn |t2pos3=jg |t2p3dnp=
+|t2p4=Mark |t2p4link=Mark (Chinese player) |t2p4flag=cn |t2pos4=sup |t2p4dnp=
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Crescent |t3p1flag=cn |t3pos1=head coach
+|t3p2=byg97 |t3p2flag=cn |t3pos2=coach
+|t3p3= |t3p3flag= |t3pos3=
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Ultra Prime
+|p1=zs |p1flag=
+|p2=H4cker |p2flag=
+|p3=Cryin |p3flag=
+|p4=Elk |p4flag=
+|p5=ShiauC |p5flag=
+
+|t2p1=Aliez |t2p1flag=cn |t2pos1=top |t2p1dnp=true
+|t2p2=kelin |t2p2flag=cn |t2pos2=bot |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Nick |t3p1flag=cn |t3pos1=head coach |t3p1link=JMZ
+|t3p2=Panda |t3p2flag=cn |t3pos2=coach
+|t3p3=ZYB |t3p3flag=cn |t3pos3=coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+<!--
+|inotes={{NoteBig
+}}
+-->
+}}
+{{TeamCard
+|team=Victory Five
+|p1=Rich |p1link=Rich (Korean player) |p1flag=kr
+|p2=Karsa |p2flag=tw
+|p3=Rookie |p3flag=kr
+|p4=Photic |p4flag=cn
+|p5=ppgod |p5flag=cn
+
+|t2p1=Invincible  |t2p1flag=cn |t2pos1=top |t2p1link=Invincible (Chinese player)
+|t2p2=XLB |t2p2flag=cn |t2pos2=jg |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=NoFe |t3p1flag=kr |t3pos1=head coach
+|t3p2=Zero |t3p2flag=kr |t3pos2=coach |t3p2link=Zero (Korean player)
+|t3p3=TTS |t3p3flag=cn |t3pos3=coach
+|t3p4=Cluo |t3p4flag=kr |t3pos4=Analyst
+|t3p5= |t3p5flag= |t3pos5=
+
+|context=Shenzhen
+|inotes={{NoteBig
+|n1=August 10th - [[Ninjas in Pyjamas]] acquire [[Victory Five]]' '''[[LPL]]''' slot, they will compete in the league starting Summer 2022. <ref name="LPL 2022">{{cite web |url=https://nip.gl/pages/nip-group-a-new-era|title=LEAGUE OF LEGENDS IS ABOUT TO BE FILLED WITH NINJAS, AGAIN.|author='''Ninjas in Pyjamas''' |date=2021-08-10}}</ref>
+}}
+}}
+{{TeamCard
+|team=Weibo Gaming
+|p1=TheShy |p1flag=
+|p2=SofM |p2flag=
+|p3=Angel |p3link=Angel (Chinese player) |p3flag=
+|p4=huanfeng |p4flag=
+|p5=ON |p5flag=
+
+|t2p1=SwordArT |t2p1flag=tw |t2pos1=support
+|t2p2= |t2p2flag= |t2pos2= |t2p2dnp=true
+|t2p3= |t2p3flag= |t2pos3= |t2p3dnp=true
+|t2p4= |t2p4flag= |t2pos4= |t2p4dnp=true
+|t2p5= |t2p5flag= |t2pos5= |t2p5dnp=true
+
+|t3p1=Maizijian |t3p1flag=cn |t3pos1=head coach
+|t3p2=Eimy |t3p2flag=cn |t3pos2=coach
+|t3p3=Easyhoon |t3p3flag=kr |t3pos3=coach
+|t3p4= |t3p4flag= |t3pos4=
+|t3p5= |t3p5flag= |t3pos5=
+|inotes={{NoteBig
+|n1='''Suning''' rebrands to [[Weibo Gaming]] following the acquisition by ''Weibo''. <ref>{{cite web |url=https://weibo.com/5937903233/L2Do26c9F |title=Suning E-Sports Club Rename Announcement |date=2021-11-22 |author=[[Weibo Gaming]] |publisher=Weibo |language={{Flag|cn}} Chinese}}</ref>
+}}
+}}
+{{TeamCard columns end}}
+==Results==
+===Group Stage===
+{{LPDB storage|false}}
+{{#lst:LPL/2022/Spring/Group_Stage/Week 1-5|Regular Season}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2022/Spring/Group_Stage/Week_1-5|Click here for detailed results of the '''Group Stage''' matches (Week 1-5)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/2022/Spring/Group Stage/Week_6-9|Click here for detailed results of the '''Group Stage''' matches (Week 6-9)]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=LPL22SprPO}}
+
+==Format==
+*'''Group Stage''' - ''January 10th - March 25th, 2022''
+** Single round robin
+** All matches are {{Abbr/Bo3}}
+** Top 10 advanced to [[LPL/2022/Spring/Playoffs|Playoffs]]
+*** {{bgcolortext|byeup|''1st and 2nd place''}} advance to the Semfinals of the Playoffs.
+*** {{bgcolortext|seedup|''3rd and 4th place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|up|''5th and 6th place''}} advance to Round 2 of the Playoffs.
+*** {{bgcolortext|stayup|''7th till 10th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''11th till 17th place''}} are eliminated from this split.
+** Tiebreakers
+*** If two or more teams have won the same number of matches, the tie will be broken by the order:
+***# Games differential
+***# Head-to-head results
+
+*'''Playoffs''' - ''March 26th - April 23rd, 2022''
+** '''''Phase One: King-of-the-Hill'''''
+*** 3rd - 10th seeded teams from Group Stage are divided into two brackets to play a King-of-the-Hill format
+**** 3rd, 6th, 7th and 10th seed are in one bracket (the first bracket), the other 4 seeds are in the other
+**** The winners advance to Phase Two
+**** The winner of the first bracket faces 2nd seed team in the Double-Elimination Stage, the other faces the 1st seed
+** '''''Phase Two: Double-Elimination'''''
+*** Four teams play in a Double-Elimination format to compete for the championship
+** All matches are {{Abbr/Bo5}}
+** Winner qualifies for [[Mid-Season Invitational/2022|Mid-Season Invitational 2022]]
+
+*'''Free Side Selection Privilege'''
+** The teams have Free Side Selection Privilege can choose which '''''three''''' games of the {{Abbr/Bo5}} series to pick the side
+** At the last match of Playoffs ''Phase One'' and the lower bracket matches of Playoffs ''Phase Two'', the Free Side Selection Privilege will be determined by coin toss. Besides that, the higher seeded teams (in Grand Finals, the upper bracket winner) will have the Free Side Selection Privilege.
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=usuk |twitch1=lpl |youtube1=channel/UCaFMdq6QrAAEx5k2cLlZNPA |huya1=riotgame2
+|lang2=cn |douyu2=lpl |huya2=lpl |bilibili2=6
+|lang3=fr |twitch3=ogaminglol
+|lang4=kr
+}}
+===Talent===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcasts|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator
+|b1=Hysterics
+|b2=Mazel
+|b3=Munchables
+|b4=Oisín |b4link=Oisín (Irish Commentator)
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Color Commentator
+|b1=Aux
+|b2=Dagda
+|b3=Lyric
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Caster
+|b1=Dankun |b1name= |b1flag=kr
+|b2=Chaester |b2name=Chae Min-joon |b2flag=kr
+}}
+{{BroadcasterCard
+|position=Color Caster
+|b1=Bitdory
+|b2=Pony|b2flag=kr |b2link=MyLittlePony
+|b3=JYP |b3name=Park Jin-young |b3flag=kr
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="50"| Week
+! width="40"| 1 
+! width="40"| 2
+! width="40"| 3
+! width="40"| 4
+! width="40"| 5
+! width="40"| 6
+! width="40"| 7
+! width="40"| 8
+! width="40"| 9
+! width="50"| Playoffs
+|-
+| Patch
+| colspan="3" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-12-1-notes/ 12.1]
+| colspan="3" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-12-2-notes/ 12.2]
+| colspan="3" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-12-4-notes/ 12.4]
+| colspan="1" | [https://na.leagueoflegends.com/en-pl/news/game-updates/patch-12-5-notes/ 12.5]
+|-
+| Disabled
+| colspan="3" | 
+| colspan="2" | {{ChampionIcon|zeri|30px}}
+| colspan="6" |
+|}
+
+===Statistics===
+{{#lst:LPL/2022/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2022/Spring|edate=2022-05-05}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+==Additional content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+
+{{2022 Season International Cycle Navbox}}

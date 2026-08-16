@@ -1,0 +1,634 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2019%2FSpring&redirects=1
+<!-- 抓取: 2026-08-16T19:46:34.455Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+{{DISPLAYTITLE:LPL 2019 Spring}}
+{{Tencent Games Navbox}}
+{{LPL 2019 Tabs}}
+{{Tournament Tabs}}
+{{Infobox league
+|name=LPL 2019 Spring 
+|shortname=2019 Spring 
+|tickername=LPL 2019 Spring
+|series=LPL
+|image=LPL_Logo.png
+|icon=LPL_Logo.png
+|organizer-link=https://www.tjsports.com/ |organizer=TJ Sports
+|organizer2=
+|sponsor=[http://english.cmbchina.com/ China Merchants Bank]<br>[https://www.dxracer.com/ DXRacer]<br>[https://www.mercedes-benz.com/ Mercedes-Benz]<br>[https://www.redbull.com/ RB War Horse]<br>[https://www.intel.com/ Intel]<br>[http://www.dareu.com/ DEREU]<br>[https://www.nike.com/cn/zh_cn/ Nike]
+|patch=9.1
+|epatch=9.6
+|server=China
+|type=offline
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|country5=China
+|country6=China
+|country7=China
+|city=Shanghai 
+|city2=Hangzhou
+|city3=Chongqing
+|city4=Chengdu
+|city5=Xi'an
+|city6=Beijing
+|city7=Foshan
+|venue=Hongqiao World IE Hub|venuedesc=Group Stage
+|venue2=LGD Allied Esports Stadium|venue2desc=LGD Homeground<br>Playoffs
+|venue3=Snake Esports Center|venue3desc=Snake Esports Homeground
+|venue4=DOUBLE-G Stadium|venue4desc=Oh My God Homeground
+|venue5=Guangdian Grand Theatre|venue5desc=Team WE Homeground
+|venue6=Huaxi Live RNG Esports Center|venue6desc=RNG Homeground
+|venue7=Legion JDG Esports Center|venue7desc=JD Gaming Homeground
+|venue8=Foshan International Sports Performing Arts Center|venue8desc=Finals
+|format=Single Round Robin Group Stage<br>Single Elimination Playoffs
+|prizepool=3,500,000
+|localcurrency=cny
+|sdate=2019-01-14
+|edate=2019-04-21
+|liquipediatier=1
+|highlighted=|rulebook=https://weibo.com/ttarticle/p/show?id=2309404186990689056037
+|rulebook2=https://weibo.com/ttarticle/p/show?id=2309404187375956843951
+|website=https://lpl.qq.com/es/lpl/2019/
+|weibo=lolesports
+|twitter=lplenglish
+|douyu=lpl
+|twitch=lpl
+|team_number=16
+|previous=LPL/2018/Summer{{!}}2018 Summer 
+|next=LPL/2019/Summer{{!}}2019 Summer 
+}}
+The '''LPL 2019 Spring''' split was organized by TJ Sports and held from January 14 to April 21 across seven home-and-away venues throughout China. The season adopted a full league structure<ref name="2019 spring schedule">{{cite web|url=https://www.weibo.com/5720474518/HafAHwUJW?refer_flag=1001030103_&type=comment#_rnd1546509364794|title=【LPL春季赛赛程公布 1月7日开启售票】|date=2019-01-03|author=英雄联盟|publisher=Weibo}}</ref>, removing the previous group system in favor of a Single Round Robin involving 16 teams. Playoffs followed a single-elimination bracket culminating in the finals at the Foshan International Sports Performing Arts Center. The tournament was played on patches 9.1 to 9.6.
+
+The split awarded championship points and determined the region’s representative for the [[Mid-Season Invitational/2019|Mid-Season Invitational 2019]], while also contributing to seeding for [[Rift Rivals/LCK-LPL-LMS-VCS/2019|Rift Rivals 2019]]. SinoDragon Club joined the league after their application was approved, and Victory Five entered the league.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+The prize pool of the tournament is ¥ 3,500,000 {{Abbr/CNY}}.
+{{prize pool start|points=lpl2019|localcurrency=cny|points2=seed|cutafter=8}}
+{{prize pool slot |place=1 |points=90|points2=[[Mid-Season Invitational/2019|MSI]]<br>[[Rift Rivals/LCK-LPL-LMS-VCS/2019|Rift Rivals 2019]]|usdprize=0|localprize=1,500,000|ig|lastvs1=jdg|lastscore1=3|lastvsscore1=1}}
+{{prize pool slot |place=2 |points=70|points2=[[Rift Rivals/LCK-LPL-LMS-VCS/2019|Rift Rivals 2019]]|usdprize=0|localprize=800,000|jdg|lastvs1=ig|lastscore1=1|lastvsscore1=3}}
+{{prize pool slot |place=3 |points=50|points2=[[Rift Rivals/LCK-LPL-LMS-VCS/2019|Rift Rivals 2019]]|usdprize=0|localprize=500,000|fpx|lastvs1=top|lastscore1=3|lastvsscore1=1|date1=2019-04-17}}
+{{prize pool slot |place=4 |points=30|points2=[[Rift Rivals/LCK-LPL-LMS-VCS/2019|Rift Rivals 2019]]|usdprize=0|localprize=300,000|top|lastvs1=fpx|lastscore1=1|lastvsscore1=3|date1=2019-04-17}}
+{{prize pool slot |place=5-6 |points=10|usdprize=0|localprize=200,000
+|rng|lastvs1=jdg|lastscore1=2|lastvsscore1=3|date1=2019-04-06
+|sdg|lastvs2=top|lastscore2=0 |lastvsscore2=3|date2=2019-04-07
+}}
+{{prize pool slot |place=7-8 |points=0|usdprize=0|localprize=0
+|we|lastvs1=jdg|lastscore1=1|lastvsscore1=3|date1=2019-04-04
+|edg|lastvs2=sdg|lastscore2=0|lastvsscore2=3|date2=2019-04-05
+}}
+{{prize pool slot |place=9|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|blg|wdl1=8/7
+}}
+{{prize pool slot |place=10|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|sn|wdl1=6/9
+}}
+{{prize pool slot |place=11|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|lgd|wdl1=5/10
+}}
+{{prize pool slot |place=12|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|ss|wdl1=5/10
+}}
+{{prize pool slot |place=13|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|v5|wdl1=4/11
+}}
+{{prize pool slot |place=14|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|omg|wdl1=4/11
+}}
+{{prize pool slot |place=15|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|rw|wdl1=4/11
+}}
+{{prize pool slot |place=16|date=2019-03-31
+|points=0|usdprize=0|localprize=0
+|vg|wdl1=2/13
+}}
+{{Prize pool end}}
+{{box|start|padding=2em}}
+
+===Tournament Awards===
+{{prize pool start award|noprize=true|cutafter=7|margin=false|opentext=2nd and 3rd All-Pro Teams}}
+{{prize pool slot award|award=Group Stage MVP |Doinb |flag1=kr |team1=fpx|date=2019-04-11}}
+{{prize pool slot award|award=Playoffs MVP |TheShy |flag1=kr |team1=ig |date=2019-04-21}}
+{{prize pool slot award|award=1st All-Pro Team |date=2019-04-13
+|TheShy|flag1=kr|team1=ig
+|Tian|flag2=cn|team2=fpx
+|Doinb|flag3=kr|team3=fpx
+|Mystic|flag4=kr|team4=we
+|Ming|flag5=cn|team5=rng
+}}
+{{prize pool slot award|award=2nd All-Pro Team |date=2019-04-13
+|369|flag1=cn|team1=top
+|Karsa|flag2=tw|team2=rng
+|Knight9|flag3=cn|team3=top
+|iBoy|flag4=cn|team4=edg
+|Meiko|flag5=cn|team5=edg
+}}
+{{prize pool slot award|award=3rd All-Pro Team |date=2019-04-13
+|Ray|flag1=kr|team1=edg
+|Ning|flag2=cn|team2=ig
+|Rookie|flag3=kr|team3=ig
+|Uzi (Chinese player){{!}}Uzi|flag4=cn|team4=rng
+|Crisp|flag5=cn|team5=fpx
+}}
+{{Prize pool end}}
+
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{prize pool start award|noprize=true|cutafter=5|margin=false|tier=weekly|opentext=Weekly Best of the Rift - Weeks 2 to 9}}
+{{prize pool slot award|award=Best of the Rift - Week 1 |date=2019-01-20
+|Duke|flag1=kr|team1=ig
+|Ning|flag2=cn|team2=ig
+|Yagao|flag3=cn|team3=jdg
+|Smlz|flag4=cn|team4=sn
+|SwordArt|flag5=tw|team5=sn
+}}
+{{prize pool slot award|award=Best of the Rift - Week 2 |date=2019-01-27
+|GimGoon|flag1=kr|team1=fpx
+|H4cker|flag2=cn|team2=sn
+|Knight9|flag3=cn|team3=top
+|Smlz|flag4=cn|team4=sn
+|Crisp|flag5=cn|team5=fpx
+}}
+{{prize pool slot award|award=Best of the Rift - Week 3-4 |date=2019-02-18
+|Zoom|flag1=cn|team1=jdg
+|Karsa|flag2=tw|team2=rng
+|Doinb|flag3=kr|team3=fpx
+|Gala|flag4=cn|team4=sdg
+|Ming|flag5=cn|team5=rng
+}}
+{{prize pool slot award|award=Best of the Rift - Week 5 |date=2019-02-25
+|Ray|flag1=kr|team1=edg
+|Xx|flag2=cn|team2=top
+|Knight9|flag3=cn|team3=top
+|iBoy|flag4=cn|team4=edg
+|Missing|flag5=cn|team5=we
+}}
+{{prize pool slot award|award=Best of the Rift - Week 6 |date=2019-03-04
+|Ray|flag1=kr|team1=edg
+|Tian|flag2=cn|team2=fpx
+|Doinb|flag3=kr|team3=fpx
+|Uzi (Chinese player){{!}}Uzi|flag4=cn|team4=rng
+|Ming|flag5=cn|team5=rng
+}}
+{{prize pool slot award|award=Best of the Rift - Week 7 |date=2019-03-11
+|TheShy|flag1=kr|team1=ig
+|Meteor|flag2=cn|team2=blg
+|Xiaohu|flag3=cn|team3=rng
+|Jinjiao|flag4=cn|team4=blg
+|LvMao|flag5=cn|team5=jdg
+}}
+{{prize pool slot award|award=Best of the Rift - Week 8 |date=2019-03-18
+|369|flag1=cn|team1=top
+|Karsa|flag2=tw|team2=rng
+|Doinb|flag3=kr|team3=fpx
+|Mystic|flag4=kr|team4=we
+|Missing|flag5=cn|team5=we
+}}
+{{prize pool slot award|award=Best of the Rift - Week 9 |date=2019-03-25
+|TheShy|flag1=kr|team1=ig
+|Xiaopeng|flag2=cn|team2=sdg
+|xiye|flag3=cn|team3=we
+|iBoy|flag4=cn|team4=edg
+|Meiko|flag5=cn|team5=edg
+}}
+{{Prize pool end}}
+{{box|break|padding=2em}}
+
+===MVP Table===
+{{box|start|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false|title=Group Stage MVPs
+|tournament=LPL/2019/Spring/Group Stage/Week_1-5
+|tournament2=LPL/2019/Spring/Group Stage/Week_6-10
+}}
+{{box|break|padding=2em}}
+{{MVPTable|useSmw=true|cutafter=5|margin=false|title=Playoffs MVPs
+|tournament=LPL/2019/Spring/Playoffs
+}}
+{{box|end}}
+{{box|end}}
+
+==Roster moves==
+{{Transfer List
+|sdate=2018-09-15
+|edate=2019-01-14
+|team=bilibili gaming
+|team2=edg
+|team3=funplus phoenix
+|team4=ig
+|team5=jd gaming
+|team6=lgd
+|team7=omg
+|team8=rogue warriors
+|team9=royal never give up
+|team10=snake esports
+|team11=suning gaming
+|team12=team we
+|team13=topsports gaming 
+|team14=vici gaming
+|team15=sinodragon club
+|team16=victory five
+}}
+{{Transfer List
+|sdate=2019-01-14
+|edate=2019-04-21
+|team=bilibili gaming
+|team2=edg
+|team3=funplus phoenix
+|team4=ig
+|team5=jd gaming
+|team6=lgd
+|team7=omg
+|team8=rogue warriors
+|team9=royal never give up
+|team10=snake esports
+|team11=suning gaming
+|team12=team we
+|team13=topsports gaming 
+|team14=vici gaming
+|team15=sinodragon club
+|team16=victory five
+|title=Roster moves during the season
+}}
+
+==Participants==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=ADD|p1flag=kr
+|p2=Meteor|p2flag=cn
+|p3=Kuro|p3flag=
+|p4=Jinjiao|p4flag=
+|p5=Mni|p5flag=cn
+
+|t2p1=Chieftain|t2p1flag=kr|t2pos1=jg
+|t2p2=Jackairay|t2p2flag=cn|t2p2dnp=true
+|t2p3=Kine|t2p3flag=cn|t2pos3=support
+
+|t3p1=Sim|t3p1flag=kr|t3pos1=head coach
+|t3p2=Jay |t3p2link=Jay (Taiwanese player)|t3p2flag=tw|t3pos2=coach
+|t3p3=Jykim|t3p3flag=kr|t3pos3=analyst
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Ray
+|p2=Clearlove
+|p3=Scout
+|p4=iBoy
+|p5=Meiko
+
+|t2p1=Haro|t2pos1=jg
+|t2p2=Hope|t2p2link=Hope_(Chinese_player)|t2pos2=adc
+
+|t3p1=Heart|t3pos1=coach
+|t3p2=Bibra|t3p2flag=kr|t3pos2=analyst
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=GimGoon
+|p2=Tian
+|p3=Doinb
+|p4=Lwx
+|p5=Crisp
+
+|t2p1=Mingjing|t2pos1=jungle|t2p1dnp=true
+|t2p2=Xinyi|t2pos2=jungle|t2p2dnp=true
+
+|t3p1=WarHorse|t3p1flag=|t3pos1=Coach
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=TheShy
+|p2=Ning
+|p3=Rookie
+|p4=JackeyLove
+|p5=Baolan
+
+|t2p1=Duke
+|t2p2=August|t2p2flag=cn|t2p2dnp=true
+|t2p3=West|t2pos3=adc
+
+|t3p1=Karam|t3p1flag=kr|t3pos1=coach
+|t3p2=Mafa|t3p2flag=kr|t3pos2=coach
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Zoom
+|p2=Flawless
+|p3=YaGao
+|p4=imp
+|p5=LvMao
+
+|t2p1=xiaohan|t2p1flag=cn|t2p1dnp=true|t2pos1=jg
+|t2p2=Levi|t2pos2=jgl
+|t2p3=Bvoy|t2pos3=adc
+|t2p4=Teeen|t2p4flag=cn|t2pos4=sup
+
+|t3p1=Homme|t3p1flag=|t3pos1=Head Coach
+|context=Beijing
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Lies|p1link= Lies (Chinese_player)
+|p2=Condi
+|p3=Ian
+|p4=Kramer
+|p5=Pyl
+
+|t2p1=Aris|t2p1flag=cn
+|t2p2=Eimy
+|t2p3=Yuuki
+|t2p4=RD|t2pos4=support
+
+|t3p1=UDJ|t3p1flag=tw|t3pos1=Head Coach
+|context=Hangzhou
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Ale
+|p2=Mountain
+|p3=icon
+|p4=Chelly
+|p5=Five
+
+|t2p1=Xiyang
+|t2p2=Penguin
+|t2p3=Bright
+|t2p4=Xuan|t2p4flag=cn|t2p4dnp=true|t2p4link=Xuan (Wu Zheng-Hang)|t2pos4=support
+
+|t3p1=Tsukasa|t3p1flag=cn|t3pos1=
+|t3p2=Sereno|t3p2link=Shine (Shin Dong-wook)|t3p2flag=kr|t3pos2=analyst
+|context=Chengdu
+}}
+{{TeamCard
+|team=Rogue Warriors
+|p1=Jiangqiao
+|p2=Xuzhu
+|p3=HuaTian
+|p4=ZWuJi
+|p5=Killua
+
+|t2p1=Zhaoyun|t2p1flag=cn
+|t2p2=XiaoYao|t2p2flag=cn
+|t2p3=KongMing
+|t2p4=Jingtian|t2p4flag=cn|t2pos4=mid|t2p4dnp=true
+|t2p5=Huanggai|t2p5flag=cn
+
+|t3p1=Maokai|t3p1link=Maokai (Yang Ji-Song)|t3p1flag=cn|t3pos1=Head Coach
+|t3p2=Steak|t3p2flag=cn|t3pos2=Head Coach
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=AmazingJ
+|p2=Karsa
+|p3=Xiaohu
+|p4=Uzi|p4flag=|p4link=Uzi (Chinese player)
+|p5=Ming
+
+|t2p1=Zz1tai|t2p1flag=cn
+|t2p2=S1xu|t2p2flag=cn|t2p2dnp=true
+|t2p3=Cryin|t2p3flag=cn|t2p3dnp=true
+|t2p4=Wink|t2p4flag=cn|t2pos4=adc
+
+|t3p1=Kezman|t3p1flag=kr|t3pos1=Head Coach
+|t3p2=DanDy|t3p2flag=|t3pos2=Coach
+|t3p3=GreenTea|t3p3flag=|t3pos3=Coach
+|context=Beijing
+}}
+{{TeamCard
+|team=SinoDragon Club
+|p1=Changhong|p1flag=cn
+|p2=Xiaopeng|p2flag=cn
+|p3=Twila|p3flag=cn
+|p4=Gala|p4flag=cn
+|p5=Mark|p5flag=cn|p5link=Mark (Chinese player)
+
+|t2p1=Mitsuki|t2p1flag=cn|t2p1dnp=true|t2pos1=support
+
+|t3p1=Iceman|t3p1flag=tw|t3pos1=Head Coach
+|inotes={{NoteBig
+|n1={{Team|SinoDragon Club}}'s LPL application is accepted
+}}
+}}
+{{TeamCard
+|team=Snake Esports
+|p1=Flandre
+|p2=SofM
+|p3=Mala|p3flag=kr
+|p4=Asura|p4flag=cn
+|p5=Maestro
+
+|t2p1=Andy|t2p1flag=cn|t2pos1=mid|t2p1link=Andy (Chinese player)
+
+|t3p1=KenZhu|t3p1flag=cn|t3pos1=Head Coach
+|context=Chongqing
+}}
+{{TeamCard
+|team=Suning
+|p1=XiaoAL
+|p2=H4cker
+|p3=Maple|p3link=Maple (Taiwanese player)
+|p4=Smlz
+|p5=SwordArt
+
+|t2p1=Biubiu|t2p1flag=cn|t2p1dnp=true
+|t2p2=Weiwei|t2p2flag=cn
+|t2p3=Angel |t2p3link=Angel (Chinese player) |t2p3flag=cn
+
+|t3p1=Comet|t3p1flag=|t3pos1=head coach
+|t3p2=Easyhoon|t3p2flag=|t3pos2=coach
+}}
+{{TeamCard
+|team=Team WE
+|p1=Poss
+|p2=beishang
+|p3=xiye
+|p4=Mystic
+|p5=Missing
+
+|t2p1=957|t2p1dnp=true
+|t2p2=Magic
+|t2p3=chen9
+|t2p4=GENTLE|t2p4flag=cn|t2p4dnp=true
+|t2p5=Sun|t2p5flag=cn|t2p5dnp=true
+
+|t3p1=WeiXiao|t3p1flag=|t3pos1=Head Coach
+|t3p2=JinJin|t3p2flag=cn|t3pos2=coach
+|context=Xi'an
+}}
+{{TeamCard
+|team=Topsports Gaming
+|p1=369
+|p2=Xx
+|p3=Knight9
+|p4=LokeN
+|p5=Ben
+
+|t2p1=Moyu|t2p1flag=cn|t2p1dnp=true
+|t2p4=QiuQiu|t2p4flag=cn|t2p4dnp=true
+|t2p5=Cat|t2p5flag=cn|t2p5dnp=true|t2p5link=Cat (Chinese player)
+
+|t3p1=BSYY|t3p1flag=cn|t3pos1=coach
+}}
+{{TeamCard
+|team=Vici Gaming
+|p1=Chelizi|p1flag=cn
+|p2=Aix|p2flag=cn
+|p3=Jay|p3link=Jay (Chinese player)
+|p4=Puff|p4flag=cn
+|p5=Southwind
+
+|t2p1=Aodi|t2p1dnp=true
+|t2p2=Zdz|t2p2flag=cn|t2pos2=top
+|t2p3=Youdang|t2p3dnp=true|t2pos3=jg
+|t2p4=FireRain|t2p4dnp=true|t2pos4=mid
+|t2p5=Snow|t2p5link=Snow (Chinese player)|t2p5dnp=true|t2pos5=adc
+|t2p6=Caveman|t2p6dnp=true|t2pos6=support
+
+|t3p1=|t3p1flag=|t3pos1=
+|t3p2=|t3p2flag=|t3pos2=
+|t3p3=|t3p3flag=|t3pos3=
+|t3p4=|t3p4flag=|t3pos4=
+|t3p5=|t3p5flag=|t3pos5=
+}}
+{{TeamCard
+|team=Victory Five
+|notes=1
+|p1=Jinoo
+|p2=Ben4
+|p3=Corn|p3link=Corn (Chinese player)
+|p4=y4
+|p5=LeY
+
+|t2p1=Pepper|t2pos1=jg
+|t2p2=Road|t2pos2=support
+
+|t3p1=DOG8|t3p1flag=tw|t3pos1=coach
+|qualifier=
+|inotes={{NoteBig
+|n1=|n1=[[Victory Five]] acquires a spot in the '''LPL'''.<ref name="Dragon Gate Team & Alpha Esports">{{cite web|url=https://twitter.com/ran_lpl/status/1068460287802494976|title=Lpl announces two additional teams for next year|date=2018-11-30|author=@ran_lpl|publisher=Twitter}}</ref>
+}}
+}}
+{{TeamCard columns end}}
+===Results===
+{{LPDB storage|false}}
+
+===Group Stage===
+{{#lst:LPL/2019/Spring/Group_Stage/Week 1-5|Regular Season}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2019/Spring/Group_Stage/Week_1-5|Click here for detailed results of the '''Group Stage''' matches (Week 1-5)]]''</span><br>
+<span style="line-height:24px">&nbsp;''[[LPL/2019/Spring/Group Stage/Week_6-10|Click here for detailed results of the '''Group Stage''' matches (Week 6-10)]]''</span>
+
+===Playoffs===
+{{ShowBracket|id=F2GTWLKM3K}}
+
+
+==Format==
+*'''Group Stage''' - ''January 14th - March 31st, 2019''
+** Single round robin, {{Abbr/Bo3}}
+*** {{bgcolortext|byeup|''1st and 2nd place''}} advance to the Semfinals of the Playoffs.
+*** {{bgcolortext|seedup|''3rd and 4th place''}} advance to the Quarterfinals of the Playoffs.
+*** {{bgcolortext|up|''5th till 8th place''}} advance to Round 1 of the Playoffs.
+*** {{bgcolortext|stay|''9th till 16th place''}} are eliminated from this split.
+*'''Playoffs''' - ''April 4th - April 21st, 2019''
+** Single Elimination, {{Abbr/Bo5}}
+** Top 4 qualifies for [[Rift Rivals/2019/LCK-LMS-LPL|Rift Rivals 2019 - LCK vs LMS vs LPL]]
+** Winner qualifies for [[Mid-Season Invitational/2019|Mid-Season Invitational 2019]]
+
+==Broadcast==
+===Streams===
+{{Streams
+|lang1=cn |twitch1= |youtube1=|stream1=|douyu1=lpl|zhanqi1=lpl|panda1=lpl
+|lang2=usuk |twitch2=lpl1 |youtube2=LoLChampSeries|douyu2=LPL2019|huya2=riotgame2
+}}
+
+===Talent===
+{{box|start|padding=2em}}
+====Chinese Broadcast====
+{{BroadcasterCard
+|position=Host
+|b1=Ren Dong|b1flag=cn
+|b2=Candice|b2name=Duan Yushuang|b2flag=cn
+}}
+{{BroadcasterCard
+|position=Commentator
+|b1=wAwa|b1name=Yan Zijing|b1flag=cn
+|b2=Kris|b2name=|b2flag=cn
+|b3=MacT|b3name=|b3flag=cn
+|b4=Naidi|b4name=|b4flag=cn
+|b5=Rita|b5name=|b5flag=cn
+|b6=Jack|b6name=|b6flag=cn
+}}
+{{box|break|padding=2em}}
+
+====English Broadcast====
+{{BroadcasterCard
+|position=Colour Commentator and Analyst
+|b1=Clement Chu|b1name=Clement Chu|b1flag=tw
+|b2=Raz|b2name=Barento Mohammed|b2flag=ca
+|b3=Hysterics|b3link=rocketleague:Hysterics|b3name=Jake Osypenko|b3flag=au
+|b4=Nibiria|b4name=Matt Clendaniel|b4flag=
+}}
+{{box|end|padding=2em}}
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! width="60"| Stages
+! width="90"| Week 1
+! width="90"| Week 2
+! width="90"| Week 3
+! width="90"| Week 4
+! width="90"| Week 5
+! width="90"| Week 6
+! width="90"| Week 7
+! width="90"| Week 8
+! width="90"| Week 9
+! width="90"| Week 10
+! width="140"| Playoffs
+|-
+| Patch
+| colspan="3" |[[Patch 9.1]]
+| colspan="3" |[[Patch 9.2]]
+| colspan="1" |[[Patch 9.2]]/[[Patch 9.4]]
+| colspan="1" |[[Patch 9.4]]
+| colspan="1" |[[Patch 9.4]]/[[Patch 9.5]]
+| colspan="1" |[[Patch 9.5]]
+| colspan="1" |[[Patch 9.6]]
+|-
+| colspan="1"| Disabled
+| colspan="4" |
+| colspan="1" |{{ChampionIcon|Sylas|30px}} <small>(Last day)</small>
+| colspan="4" |{{ChampionIcon|Sylas|30px}} 
+| colspan="2" |
+|}
+
+===Statistics===
+{{#lst:LPL/2019/Spring/Statistics|Champion Stats}}
+
+===Country Representation===
+{{Country representation}}
+
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2019/Spring|edate=2019-05-01}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+
+==Additional Content==
+{{Event media}}
+
+==References==
+{{Reflist}}

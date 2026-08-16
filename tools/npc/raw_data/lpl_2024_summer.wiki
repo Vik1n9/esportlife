@@ -1,0 +1,818 @@
+<!-- 來源: https://liquipedia.net/leagueoflegends/api.php?action=parse&page=LPL%2F2024%2FSummer&redirects=1
+<!-- 抓取: 2026-08-16T19:48:12.003Z (crawl.mjs) · CC BY-SA 3.0（Liquipedia） -->
+<metadesc>The LPL Summer 2024 is the second split of the League of Legends Pro League season. Stay up to date with match results, schedules, and broadcasts here!</metadesc>
+{{DISPLAYTITLE:LPL 2024 Summer}}
+{{Tencent Games Navbox}}
+{{LPL 2024 Tabs}}
+{{Tabs static
+|name1=Overview
+|link1=LPL/2024/Summer
+|name2=Group Stage
+|link2=LPL/2024/Summer/Group Stage
+|name3=Rumble Stage
+|link3=LPL/2024/Summer/Rumble Stage
+|name4=Playoffs
+|link4=LPL/2024/Summer/Playoffs
+|name5=Champion Stats
+|link5=LPL/2024/Summer/Statistics
+|name6=Player Stats
+|link6=LPL/2024/Summer/Player Stats
+}}
+{{Infobox league
+|name=LPL 2024 Summer 
+|shortname=2024 Summer 
+|tickername=LPL 2024 Summer
+|image=LPL 2020 Logo.png
+|series=LPL
+|icon=LPL 2020 allmode.png
+|organizer=TJ Sports |organizer-link=https://www.tjsports.com/
+|sponsor1=[https://www.mercedes-benz.com/ Mercedes-Benz]
+|sponsor2=[https://www.lining.com/ Li-Ning]
+|sponsor3=[https://www.jd.com/ JD.com]
+|sponsor4=[http://www.mosilian.cn/ Momchilovtsi]
+|sponsor5=[https://www.durex.com.cn/ Durex]
+|sponsor6=[https://www.mobil.com.cn/zh-cn Mobil]
+|sponsor7=[https://www.lenovo.com.cn/ Lenovo Legion]
+|sponsor8=[https://www.oppo.com/en/ OPPO]
+|sponsor9=[http://www.tcl.cn/ TCL]
+|sponsor10=[http://www.warhorsechina.com.cn/ War Horse]
+|sponsor11=[https://weibo.com/u/2874416860 Stride Gum]
+|sponsor12=[https://www.intel.com/content/www/us/en/gaming/serious-gaming.html Intel-Gaming]
+|sponsor13=[https://www.tgif-official.com/ TGIF]
+|patch=14.10
+|epatch=14.15
+|server=China
+|type=Offline
+|country=China
+|country2=China
+|country3=China
+|country4=China
+|country5=China
+|country6=China
+|city=Shanghai 
+|city2=Suzhou
+|city3=Shenzhen
+|city4=Xi'an
+|city5=Beijing
+|city6=Nanjing
+|venue=Shanghai League Arena|venuedesc=Group Stage
+|venue2=Suzhou Yangcheng International Esports Center|venue2desc=LNG Homeground
+|venue3=Shenzhen Media Group LongGang Production Center|venue3desc=NIP Homeground
+|venue4=Xi'an Qujiang Esports Center|venue4desc=Team WE Homeground
+|venue5=Beijing JD Intel Esports Center|venue5desc=JD Gaming Homeground & Playoffs
+|venue6=Nanjing Youth Olympic Sports Park Arena|venbue6desc=Finals
+|format='''Group Stage''':<br>Double Round-Robin<br><small>({{Abbr/Bo3}} with Fearless Draft)</small><br><br>'''Rumble Stage''':<br>Single Round-Robin ({{Abbr/Bo3}})<br><br>'''Playoffs'''<br>King-of-the-Hill & Double Elimination {{Abbr/Bo5}}
+|localcurrency=CNY
+|prizepool=4,200,000
+|sdate=2024-06-01
+|edate=2024-08-30
+|liquipediatier=1
+|highlighted=|website=https://lpl.qq.com/
+|rulebook=<!--https://lol.qq.com/news/detail.shtml?type=1&docid=2493457569264777519--> https://lol.qq.com/news/detail.shtml?type=1&docid=8580896101065755461
+|youtube=LPLOfficial
+|weibo=lolesports
+|twitter=lplenglish
+|douyu=288016
+|huya=lpl
+|bilibili=50329118
+|twitch=lpl
+|team_number=17
+|previous=LPL/2024/Spring{{!}}2024 Spring 
+|next=LPL/2025/Split_1{{!}}2025 Split 1
+|next2=LPL/2024/Regional Finals{{!}}Regional Finals
+}}
+The '''LPL 2024 Summer''' split is the second split of the 2024 [[LPL]] season, held from June 1 to August 30, 2024. Seventeen teams competed across multiple Chinese cities, including Shanghai, Suzhou, Shenzhen, Xi'an, Beijing, and Nanjing. [[Bilibili Gaming]] entered as the defending champion and secured their second consecutive split victory with a 3–0 win over [[Weibo Gaming]] in the Grand Finals in Nanjing, marking [[knight]]'s fourth consecutive LPL title.
+
+The split featured a new format<ref name="LPL Summer 24 format">{{cite web|url=https://weibo.com/5756404150/Obcbgb37z|title=2024LPL夏季赛常规赛全新赛制介绍|trans_title=2024 LPL Summer Split Regular Season New Format Introduction|author=Tencent Esports|date=2024-04-24|language={{Flag|cn}} Chinese}}</ref>, comprising a [[/Group Stage|Group Stage]] with Fearless Draft and a [[/Rumble Stage|Rumble Stage]], followed by playoffs including the ''Knights Rivals'' play-in stage, King-of-the-Hill, and Double-Elimination Finals. The total prize pool was ¥4,200,000 CNY, with the top teams qualifying for the [[World Championship/2024|2024 World Championship]]. Matches were played on patch 14.10–14.15, with [[Aurora]] disabled for competitive integrity.
+{{SectionLinks
+|teamsHeader=Participating Teams
+|resultsHeader=Results
+<!--|newsHeader=Additional Content-->
+|broadcastHeader=Broadcasts
+|formatHeader=Format
+<!--|activeStageHeader=Knockout Stage-->
+}}
+==Prize Pool==
+{{box|start|padding=2em}}
+{{TeamPrizePool|points=lpl2024|qualifies1=World Championship/2024|qualifies1name=Worlds|localcurrency=cny|cutafter=10
+|tournament1=LPL/2024/Summer/Playoffs#Playoffs
+|groupElimStatuses=down
+|{{Slot|qualified1=yes|localprize=2,000,000}}
+|{{Slot|points=110|localprize=1,000,000}}
+|{{Slot|points=80|localprize=500,000}}
+|{{Slot|points=60|localprize=300,000}}
+|{{Slot|count=2|points=40|localprize=200,000}}
+|{{Slot|count=2|points=10}}
+|{{Slot|count=2}}
+|{{Slot|{{Opponent|omg|lastvs=tt|lastvsscore=0-3|date=2024-08-05}}}} <!--Knights Rivals Ranks Manually insertted-->
+|{{Slot|{{Opponent|ra|lastvs=nip|lastvsscore=0-3|date=2024-08-04}}}} <!--Knights Rivals Ranks Manually insertted-->
+|{{Slot|{{Opponent|ig|lastvs=lgd|lastvsscore=2-3|date=2024-08-03}}}} <!--Knights Rivals Ranks Manually insertted-->
+|{{Slot|{{Opponent|edg|wdl=3/4|date=2024-07-31}}}} <!--Group Nirvana Ranks Manually insertted-->
+|{{Slot|{{Opponent|up|wdl=2/5|date=2024-07-31}}}} <!--Group Nirvana Ranks Manually insertted-->
+|{{Slot|{{Opponent|we|wdl=2/5|date=2024-07-31}}}} <!--Group Nirvana Ranks Manually insertted-->
+|{{Slot|{{Opponent|rng|wdl=1/6|date=2024-07-31}}}} <!--Group Nirvana Ranks Manually insertted-->
+}}
+{{box|break|padding=1em}}
+{{MVPTable|cutafter=5|margin=false|title=Group Stage MVPs
+|tournament=LPL/2024/Summer/Group Stage
+}}
+{{box|break}}
+{{MVPTable|cutafter=5|margin=false|title=Rumble Stage MVPs
+|tournament=LPL/2024/Summer/Rumble Stage
+}}
+{{box|break|padding=1em}}
+{{MVPTable|cutafter=5|margin=false|title=Knights Rivals & Playoffs MVPs
+|tournament=LPL/2024/Summer/Knights Rivals
+|tournament2=LPL/2024/Summer/Playoffs
+}}
+{{box|end}}
+
+{{box|start|padding=2em}}
+===Tournament Awards===
+{{AwardPrizePool|noprize=y|hideafter=4
+|{{Slot|award=Regular Season MVP|{{Opponent|Tian|flag=cn|team=tes|date=2024-08-09}}}}
+|{{Slot|award=Finals MVP|{{Opponent|knight|flag=cn|team=blg|date=2024-08-30}}}}
+|{{Slot|award=Outstanding Rookie|{{Opponent|Milkyway|flag=cn|team=fpx|date=2024-08-09}}}}
+|{{Slot|award=1st All-Pro Team|date=2024-08-09
+  |{{Opponent|Bin|flag=cn|team=blg}}
+  |{{Opponent|Tian|flag=cn|team=tes}}
+  |{{Opponent|knight|flag=cn|team=blg}}
+  |{{Opponent|GALA|flag=cn|team=lng}}
+  |{{Opponent|Meiko|flag=cn|team=tes}}
+}}
+|{{Slot|award=2nd All-Pro Team|date=2024-08-09
+  |{{Opponent|Zika|flag=cn|team=lng}}
+  |{{Opponent|Tarzan|flag=kr|team=wbg}}
+  |{{Opponent|Scout|flag=kr|team=lng}}
+  |{{Opponent|JackeyLove|flag=cn|team=tes}}
+  |{{Opponent|ON|flag=cn|team=blg}}
+}}
+|{{Slot|award=3rd All-Pro Team|date=2024-08-09
+  |{{Opponent|369|flag=cn|team=tes}}
+  |{{Opponent|Kanavi|flag=kr|team=jdg}}
+  |{{Opponent|Creme|flag=cn|team=tes}}
+  |{{Opponent|Ruler|flag=kr|team=jdg}}
+  |{{Opponent|Hang|flag=cn|team=lng}}
+}}
+}}
+{{box|break|padding=2em}}
+
+===Weekly Awards===
+{{AwardPrizePool|noprize=y|hideafter=3
+|{{Slot|award=Best Player of RS Week 4 & 5|{{Opponent|Tian|flag=cn|team=tes|date=2024-08-01}}}}
+|{{Slot|award=Best Rookie of RS Week 4 & 5|{{Opponent|glfs|flag=cn|team=ig|date=2024-08-01}}}}
+|{{Slot|award=Best of RS Week 4 & 5|date=2024-08-01
+  |{{Opponent|369|flag=cn|team=tes}}
+  |{{Opponent|Tian|flag=cn|team=tes}}
+  |{{Opponent|knight|flag=cn|team=blg}}
+  |{{Opponent|GALA|flag=cn|team=lng}}
+  |{{Opponent|ON|flag=cn|team=blg}}
+}}
+|{{Slot|award=Best Player of RS Week 3|{{Opponent|JackeyLove|flag=cn|team=tes|date=2024-07-22}}}}
+|{{Slot|award=Best Rookie of RS Week 3|{{Opponent|milkyway|flag=cn|team=fpx|date=2024-07-22}}}}
+|{{Slot|award=Best of RS Week 3|date=2024-07-22
+  |{{Opponent|Qingtian|flag=cn|team=up}}
+  |{{Opponent|milkyway|flag=cn|team=fpx}}
+  |{{Opponent|Angel|flag=cn|team=omg}}
+  |{{Opponent|JackeyLove|flag=cn|team=tes}}
+  |{{Opponent|Meiko|flag=cn|team=tes}}
+}}
+|{{Slot|award=Best Player of RS Week 1 & 2|{{Opponent|Tarzan|flag=kr|team=wbg|date=2024-07-15}}}}
+|{{Slot|award=Best Rookie of RS Week 1 & 2|{{Opponent|Yanxiang|flag=cn|team=we|date=2024-07-15}}}}
+|{{Slot|award=Best of RS Week 1 & 2|date=2024-07-15
+  |{{Opponent|Ale|flag=cn|team=al}}
+  |{{Opponent|Tarzan|flag=kr|team=wbg}}
+  |{{Opponent|knight|flag=cn|team=blg}}
+  |{{Opponent|GALA|flag=cn|team=lng}}
+  |{{Opponent|Kael|flag=kr|team=al}}
+}}
+|{{Slot|award=Best Player of GS Week 4|{{Opponent|Ruler|flag=kr|team=jdg|date=2024-06-30}}}}
+|{{Slot|award=Best Rookie of GS Week 4|{{Opponent|milkyway|flag=cn|team=fpx|date=2024-06-30}}}}
+|{{Slot|award=Best of GS Week 4|date=2024-06-30
+  |{{Opponent|shanji|flag=cn|team=nip}}
+  |{{Opponent|Meteor|flag=cn|team=lgd}}
+  |{{Opponent|Yagao|flag=cn|team=jdg}}
+  |{{Opponent|Ruler|flag=kr|team=jdg}}
+  |{{Opponent|Hang|flag=cn|team=lng}}
+}}
+|{{Slot|award=Best Player of GS Week 3|{{Opponent|Rookie|flag=kr|team=nip|date=2024-06-24}}}}
+|{{Slot|award=Best Rookie of GS Week 3|{{Opponent|Niket|flag=cn|team=up|date=2024-06-24}}}}
+|{{Slot|award=Best of GS Week 3|date=2024-06-24
+  |{{Opponent|Bin|flag=cn|team=blg}}
+  |{{Opponent|Meteor|flag=cn|team=lgd}}
+  |{{Opponent|Rookie|flag=kr|team=nip}}
+  |{{Opponent|Hope|link=Hope (Chinese player)|flag=cn|team=al}}
+  |{{Opponent|Meiko|flag=cn|team=tes}}
+}}
+|{{Slot|award=Best Player of GS Week 2|{{Opponent|Tian|flag=cn|team=tes|date=2024-06-17}}}}
+|{{Slot|award=Best Rookie of GS Week 2|{{Opponent|Solokill|flag=hk|team=edg|date=2024-06-17}}}}
+|{{Slot|award=Best of GS Week 2|date=2024-06-17
+  |{{Opponent|Solokill|flag=hk|team=edg}}
+  |{{Opponent|Tian|flag=cn|team=tes}}
+  |{{Opponent|knight|flag=cn|team=blg}}
+  |{{Opponent|Ruler|flag=kr|team=jdg}}
+  |{{Opponent|Wink|flag=cn|team=edg}}
+}}
+|{{Slot|award=Best Player of GS Week 1|{{Opponent|FoFo|flag=tw|team=we|date=2024-06-09}}}}
+|{{Slot|award=Best Rookie of GS Week 1|{{Opponent|Niket|flag=cn|team=up|date=2024-06-09}}}}
+|{{Slot|award=Best of GS Week 1|date=2024-06-09
+  |{{Opponent|Ale|flag=cn|team=al}}
+  |{{Opponent|Kanavi|flag=kr|team=jdg}}
+  |{{Opponent|FoFo|flag=tw|team=we}}
+  |{{Opponent|Ruler|flag=kr|team=jdg}}
+  |{{Opponent|Meiko|flag=cn|team=tes}}
+}}
+}}
+{{Note|1|GS Week 2 awards include June 16 games in its consideration.}}
+{{box|end|padding=2em}}
+
+==Roster Moves==
+{{Transfer List
+|sdate=2024-04-10
+|edate=2024-05-28
+|team=blg
+|team2=edg
+|team3=fpx
+|team4=ig
+|team5=jdg
+|team6=lgd
+|team7=lng
+|team8=omg
+|team9=ra
+|team10=al
+|team11=rng
+|team12=wbg
+|team13=we
+|team14=tes
+|team15=tt
+|team16=up
+|team17=nip
+}}
+
+==Participating Teams==
+{{TeamCardToggleButton|tcht=215}}
+{{TeamCard columns start|cols=4}}
+{{TeamCard
+|team=Anyone's Legend
+|p1=Ale
+|p2=Croco
+|p3=Shanks
+|p4=Hope |p4link=Hope (Chinese player)
+|p5=Kael
+
+|t2p1=Relife |t2pos1=jgl |t2p1flag=cn |t2p1dnp=true
+
+|t3p1=Tabe |t3pos1=head coach
+|t3p2=QingSi |t3p2flag=cn |t3pos2=assistant coach
+|t3p3=Pewpew |t3p3flag=cn |t3pos3=coach
+}}
+{{TeamCard
+|team=Bilibili Gaming
+|p1=Bin
+|p2=Wei
+|p3=knight
+|p4=Elk
+|p5=ON
+
+|t2p1=LvMao |t2pos1=sup |t2p1dnp=true
+|t2p2=Xun |t2pos2=jgl |t2p2dnp=
+
+|t3p1=BigWei |t3pos1=head coach
+|t3p2=Xiasu |t3p2flag=cn |t3pos2=assistant coach
+|t3p3=zyb |t3p3flag=cn |t3pos3=analyst
+|t3p4=Easyhoon |t3pos4=coach
+}}
+{{TeamCard
+|team=EDward Gaming
+|p1=Solokill
+|p2=Jiejie
+|p3=Cryin
+|p4=Leave
+|p5=Wink
+
+|t2p1=Thesnake |t2pos1=adc |t2p1dnp=true
+
+|t3p1=Clearlove |t3p1flag=cn |t3pos1=head coach
+|t3p2=Poppy |t3p2flag=cn |t3pos2=assistant coach
+|t3p3=Mni |t3p3flag=cn |t3pos3=assistant coach
+|context=Shanghai
+}}
+{{TeamCard
+|team=FunPlus Phoenix
+|p1=Zdz
+|p2=Milkyway
+|p3=Care 
+|p4=deokdam
+|p5=Life
+
+|t2p1=xiaolaohu |t2pos1=top
+|t2p2=Xingye |t2pos2=adc |t2p2dnp=true
+|t2p3=TheNiu |t2pos3=top |t2p3leave=true
+
+|t3p1=Sin |t3pos1=head coach
+|t3p2=Mouse |t3pos2=assistant coach
+|t3p3=ikRyong |t3pos3=analyst
+}}
+{{TeamCard
+|team=Invictus Gaming
+|p1=YSKM
+|p2=glfs
+|p3=neny
+|p4=Ahn
+|p5=Vampire
+
+|t2p1=ZUIAN |t2pos1=top |t2p1dnp=
+|t2p2=Tianzhen |t2pos2=jgl |t2p2dnp=true |t2p2leave=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=Rashomon |t3p1flag=cn |t3pos1=head coach
+|t3p2=Guokui |t3p2flag=cn |t3pos2=director
+}}
+{{TeamCard
+|team=JD Gaming
+|p1=Flandre
+|p2=Kanavi
+|p3=Yagao
+|p4=Ruler
+|p5=MISSING
+
+|t2p1=sheer |t2pos1=top 
+
+|t3p1=Warhorse |t3pos1=head coach
+|t3p2=Viod |t3pos2=assistant coach
+|t3p3=Vus5o |t3pos3=analyst
+|t3p4=Lyn |t3pos4=analyst
+|t3p5=Karma |t3p5link=Karma (Huang Yihong) |t3p5flag=cn |t3pos5=analyst
+
+|context=Beijing
+}}
+{{TeamCard
+|team=LGD Gaming
+|p1=Burdol
+|p2=Meteor
+|p3=haichao
+|p4=Shaoye
+|p5=Jinjiao
+
+|t2p1=Kepler |t2pos1=adc
+
+|t3p1=1874 |t3p1flag=cn |t3pos1=head coach
+|t3p2=Chelizi |t3p2flag=cn |t3pos2=assistant coach
+}}
+{{TeamCard
+|team=LNG Esports
+|p1=Zika
+|p2=Weiwei
+|p3=Scout
+|p4=GALA
+|p5=Hang
+
+|t2p1=xiaoyu |t2p1link=Alley |t2pos1=top |t2p1dnp=true
+|t2p2=Shad0w |t2p2link=Shad0w (Italian player) |t2pos2=jgl |t2p2dnp=true
+
+|t3p1=U |t3p1flag=cn |t3pos1=head coach
+|t3p2=DynAmlte |t3p2flag=cn |t3pos2=assistant coach
+
+|context=Suzhou
+}}
+{{TeamCard
+|team=Ninjas in Pyjamas
+|p1=shanji
+|p2=Leyan
+|p3=Rookie
+|p4=Photic
+|p5=Zhuo
+
+|t2p1=AKi |t2pos1=jgl |t2p1dnp=
+|t2p2=Zero |t2pos2=sup |t2p2link=Zero (Korean player) |t2p2dnp=true
+
+|t3p1=Maizijian |t3pos1=head coach
+|t3p2=Cluo |t3p2flag=kr |t3pos2=analyst
+|t3p3=byg97 |t3pos3=head coach |t3p3leave=true
+|context=Shenzhen
+}}
+{{TeamCard
+|team=Oh My God
+|p1=Hery
+|p2=Tianzhen
+|p3=Angel |p3link=Angel (Chinese player) 
+|p4=Starry
+|p5=ppgod
+
+|t2p1=Linfeng |t2pos1=mid |t2p1dnp=
+|t2p2=Xiaofang |t2pos2=jgl |t2p2dnp=
+|t2p3=Cube |t2pos3=top |t2p3leave=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=NoName |t3p1flag=cn |t3pos1=head coach
+|t3p2=Geitang |t3p2flag=cn |t3pos2=assistant coach
+}}
+{{TeamCard
+|team=Rare Atom
+|p1=Xiaoxu
+|p2=Xiaohao
+|p3=VicLa
+|p4=Assum
+|p5=Jwei
+
+|t2p1=Yu |t2pos1=top |t2p1dnp=true
+
+|t3p1=Deceit |t3pos1=head coach
+|t3p2=JMZ |t3p2flag=cn |t3pos2=assistant coach
+}}
+{{TeamCard
+|team=Royal Never Give Up
+|p1=Juice
+|p2=Geju
+|p3=Xzz
+|p4=huanfeng	
+|p5=Tangyuan
+
+|t2p1=Zdz |t2pos1=top |t2p1dnp= |t2p1leave=true
+|t2p2=Wei |t2pos2=jgl |t2p2dnp= |t2p2leave=true
+|t2p3=XBY |t2pos3=jgl 
+|t2p4=Iwandy |t2pos4=sup 
+|t2p5=Ming |t2pos5=sup 
+
+|t3p1=Teacherma |t3pos1=head coach
+|t3p2=KenZhu |t3pos2=director
+|t3p3=May |t3pos3=analyst
+|t3p4=Xiaopeng |t3pos4=coach |t3p4leave=true
+}}
+{{TeamCard
+|team=Team WE
+|p1=Wayward
+|p2=Yanxiang |p2flag=cn
+|p3=FoFo
+|p4=Able
+|p5=Mark |p5link=Mark (Chinese player)
+
+|t2p1=LP |t2pos1=adc 
+|t2p2=Heng |t2pos2=jgl 
+|t2p3=Stay |t2pos3=adc |t2p3dnp=true |t2p3leave=true
+
+|t3p1=chengz |t3p1flag=cn |t3pos1=head coach
+|t3p2=Zoom |t3pos2=assistant coach
+|t3p3=Condi |t3p3flag=cn |t3pos3=assistant coach
+|t3p4=zhaozhao |t3p4flag=cn |t3pos4=analyst
+
+|context=Xi'an
+}}
+{{TeamCard
+|team=ThunderTalk Gaming
+|p1=Hoya
+|p2=Beichuan
+|p3=ucal
+|p4=1xn
+|p5=Feather
+
+|t2p1=QiuQiu |t2pos1=sup |t2p1dnp=
+|t2p2= |t2pos2= |t2p2dnp=true
+|t2p3= |t2pos3= |t2p3dnp=true
+|t2p4= |t2pos4= |t2p4dnp=true
+|t2p5= |t2pos5= |t2p5dnp=true
+
+|t3p1=AFei |t3p1flag=cn |t3pos1=head coach
+|t3p2=Vlone |t3p2flag=cn |t3pos2=analyst
+}}
+{{TeamCard
+|team=Top Esports
+|p1=369
+|p2=Tian
+|p3=Creme
+|p4=JackeyLove
+|p5=Meiko
+
+|t2p1=xiye |t2pos1=mid |t2p1dnp=true
+
+|t3p1=Maokai |t3p1link=Maokai (Chinese coach) |t3p1flag=cn |t3pos1=head coach
+|t3p2=Despa1r |t3p2flag=cn |t3pos2=assistant coach
+|t3p3=Shuijing |t3p3flag=cn |t3pos3=analyst
+}}
+{{TeamCard
+|team=Ultra Prime
+|p1=Qingtian
+|p2=H4cker
+|p3=Yuekai
+|p4=Doggo
+|p5=Niket |p5flag=cn
+
+|t2p1=Decade |t2pos1=top |t2p1dnp=true
+|t2p2=xiaoyueji |t2pos2=adc |t2p2dnp=true
+
+|t3p1=Xiaobai |t3pos1=head coach
+|t3p2=Yuzhang |t3pos2=assistant coach
+}}
+{{TeamCard
+|team=Weibo Gaming
+|p1=Breathe
+|p2=Tarzan
+|p3=Xiaohu
+|p4=Light |p4link=Light (Wang Guang-Yu)
+|p5=Crisp 
+
+|t2p1=Youdang |t2pos1=jgl |t2p1dnp=true
+|t2p2=XBear |t2pos2=sup 
+
+|t3p1=Daeny |t3pos1=head coach
+|t3p2=Tselin |t3pos2=assistant coach
+|t3p3=Rui |t3p3flag=cn |t3pos3=assistant coach
+|t3p4=Medusa |t3p4flag=cn |t3pos4=Analyst
+|t3p5=Fly |t3p5link=Fly_(Kim_Sang-chul) |t3pos5=assistant coach
+}}
+{{TeamCard columns end}}
+
+==Results==
+{{LPDB storage|false}}
+==={{Stage|Group Stage}}===
+{{box|start|padding=2em}}
+{{#section:LPL/2024/Summer/Group_Stage|Group A}}
+{{box|break|padding=2em}}
+{{#section:LPL/2024/Summer/Group_Stage|Group B}}
+{{box|end|padding=2em}}
+<br>
+{{box|start|padding=2em}}
+{{#section:LPL/2024/Summer/Group_Stage|Group C}}
+{{box|break|padding=2em}}
+{{#section:LPL/2024/Summer/Group_Stage|Group D}}
+{{box|end}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2024/Summer/Group Stage|Click here for detailed results of the '''Group Stage''' matches]]''</span><br>
+
+==={{Stage|Rumble Stage}}===
+{{box|start|padding=2em}}
+{{#section:LPL/2024/Summer/Rumble_Stage|High Group}}
+{{box|break|padding=2em}}
+{{#section:LPL/2024/Summer/Rumble_Stage|Low Group}}
+{{box|end}}<br>
+<span style="line-height:24px">&nbsp;''[[LPL/2024/Summer/Rumble_Stage|Click here for detailed results of the '''Rumble Stage''' matches]]''</span><br>
+
+===Knights Rivals (Playoff Play-in Stage)===
+{{ShowBracket|id=LPL24SumKR}}
+
+===Playoffs===
+{{ShowBracket|id=LPL24SumPO}}
+{{LPDB storage|true}}
+
+==Format==
+* '''Group Stage''' - ''June 1 - 29, 2024''
+** Teams are split into 4 pots based on results from [[LPL/2024/Spring|Spring Season]].
+*** The 4 groups will have a '''double round robin''' with {{Abbr/Bo3}} using {{Abbr|Fearless Draft|A team can only pick any champion once during the entire series.}}.
+**** Every team can only pick any champion once during the entire series.
+*** <span class="bg-staydown">Bottom 2 teams of each group</span> will advance to the Low Group,
+*** <span class="bg-stayup">Top 2 teams (or 3 for the group with 5 teams) of each group</span> will advance to the High Group.
+*** The Seeding Stage Draw Show was held on {{countdown|date=May 21, 2024 20:00 {{Abbr/CST}}|rawdatetime=true|finished=true}}. <ref name="LPL Summer 2024 Seeding Stage Draw Show">{{cite web|url=https://weibo.com/5756404150/5036438611562068|title=2024LPL夏季赛常规赛6月1日正式开启|author=Tencent Esports|date=2024-05-21|language={{Flag|cn}} Chinese}}</ref>
+*** <span class="mw-customtoggle-Seeding-Pots" style="border-bottom:1px dotted;">''Click here for detailed information about Seeding Stage Pots''</span>
+<div class="toccolours mw-collapsible mw-collapsed" id="mw-customcollapsible-Seeding-Pots" style="margin-top:10px;">
+* Teams are splited into 4 seed pools to ensure quality groups.
+** 17 teams are splited into 4 pools
+*** '''Pool 1''' will consist of the top 4 teams, namely: ''BLG'', ''TES'', ''JDG'', ''NIP'';
+*** '''Pool 2''' will consist of the 5th to 8th teams, namely: ''FPX'', ''WBG'', ''WE'', ''LNG'';
+*** '''Pool 3''' will consist of the 9th to 13th teams, namely: ''OMG'', ''IG'', ''AL'', ''LGD'', ''TT'';
+*** '''Pool 4''' will consist of the bottom 4 teams, namely: ''RNG'', ''RA'', ''EDG'', ''UP''.
+* One team from Pool 1, 2 and 4 will be seeded to each group.
+* One group will comprise of two Pool 3 teams, while the 3 other groups will have one Pool 3 teams.
+* In particular, the 4 teams with home stadiums (''JDG'', ''NIP'', ''WE'' and ''LNG'') will be in separate groups.
+</div>
+
+* '''Rumble Stage''' - ''July 5 - 31, 2024''
+** Single round robin within each group
+** All matches are {{Abbr/Bo3}} using Standard Draft.
+** For the Group "Ascend" (High Group):
+*** <span class="bg-byeup">Top 2</span> teams get seeded into the semifinals
+*** <span class="bg-seedup">3rd and 4th place</span> teams get seeded into the third round of playoffs
+*** <span class="bg-up">5th and 6th place</span> teams get seeded into the second round of playoffs
+*** <span class="bg-stayup">7th place</span> team get seeded into the first round of playoffs
+*** <span class="bg-stay">8th and 9th place</span> teams get seeded into the Play-in Round of playoffs (''Phase One'')
+** For the Group "Nirvana" (Low Group):
+*** <span class="bg-stay">1st - 4th place</span> teams get seeded into the Play-in Round of playoffs (''Phase One'')
+*** <span class="bg-down">Bottom 4 teams</span> are eliminated from playoffs.
+** Tiebreakers
+*** If two or more teams have won the same number of matches, the tie will be broken by the order:
+***# Games differential
+***# Head-to-head results
+
+* '''Group Stage & Rumble Stage Side Selection Procedure'''
+** The first listed team ("home" team) will pick sides for Game 1 & 3, the second listed team ("away" team) will pick sides for Game 2.
+** For the Group Stage, the "home-and-away" order in the Round 2 (2nd leg) is reversed from that in the Round 1 (1st leg).
+** For the Rumble Stage, the order is reversed from when the teams play each other in [[LPL/2024/Spring|Spring]].
+
+* '''Playoffs'''
+** '''''Phase One: Play-in Stage (Knights Rivals)''''' - ''August 3 - 5, 2024''
+*** The bottom 2 teams from Group "Ascend", and top 4 teams from Group "Nirvana", will start in this stage.
+*** The Matchups are as follows:
+**** 8th of Group "Ascend" versus 4th of Group "Nirvana";
+**** 9th of Group "Ascend" versus 3rd of Group "Nirvana";
+**** 1st of Group "Nirvana" versus 2nd of Group "Nirvana".
+*** The winners of the matchups will be seeded 8th to 10th for playoffs based on their rankings in the Rumble Stage, where Group "Ascend" is ranked ahead of Group "Nirvana".
+*** The losers of the matchups will be ranked 11th to 13th based on their rankings in the Rumble Stage, where Group "Ascend" is ranked ahead of Group "Nirvana".
+** '''''Phase Two: King-of-the-Hill''''' - ''August 10 - 16, 2024''
+*** 3rd - 7th seeded teams from Group Stage, and 3 teams from Phase One are divided into two brackets to play a King-of-the-Hill format
+**** 3rd, 6th, 7th and 10th seed are in one bracket (the first bracket), the other 4 seeds are in the other
+**** The winners advance to Phase Three
+**** The winner of the first bracket faces 2nd seed team in the Double-Elimination Stage, the other faces the 1st seed
+** '''''Phase Three: Double-Elimination'''''  - ''August 17 - 24 & August 30, 2024''
+*** Four teams play in a Double-Elimination format to compete for the championship
+** All matches are {{Abbr/Bo5}} using Standard Draft
+
+* '''Free Side Selection Privilege'''
+** The higher seed team can choose to pick sides in '''''three''''' games of the {{Abbr/Bo5}} series. When the higher seed team does not exercise the rights, the other team will pick sides instead.
+*** Decision on whether to pick sides for the next game should be done prior to end of the previous game.
+** This is only for the Round 1 series in Playoffs ''Phase Two'' between the 7th seed, {{team|FPX}}, and their opponent coming from the ''Knights Rivals''.
+
+* '''Standard Side Selection Procedure'''
+** For the upper bracket Finals, lower bracket series in Playoffs ''Phase Two'', the Side selection Privilege will be determined by coin toss. Besides that, the higher seeded teams (in Grand Finals, the upper bracket winner) will have the side selection for game 1 of the series.
+** Subsequently, the loser of the previous game will have side selection privilege.
+
+==Broadcasts==
+===Streams===
+<strong>Note: English streams will only be available between Thursday and Sunday.</strong>
+{{Streams
+|lang1=usuk |twitch1=lpl |youtube1=LPLOfficial
+|lang2=cn |bilibili2=6 |huya2=660000 |douyu2=288016 |stream2=https://lpl.qq.com/
+|lang3=cn |bilibili3=616 |huya3=660137 |douyu3=424559
+|lang4=kr |afreeca4=aflpl
+}}
+
+===Talent===
+{{Tabs dynamic|name1=Chinese Broadcast|name2=English Broadcasts|name3=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=In-studio Host|lang=cn
+|b1=Christina
+|b2=YangYang|b2name=|b2flag=cn
+|b3=Shiyue|b3name=Huang Liyao|b3flag=cn
+|b4=小悠|b4name=|b4flag=cn
+|b5=WeiWei|b5link=Weiwei (Chinese caster)|b5name=Zhang Wei|b5flag=cn
+|b6=Chen Yu|b6name=Zhou Chenyu|b6flag=cn
+|b7=BaoBao|b7name=Fu Ruozhen|b7flag=cn
+|b8=Afu|b8name=|b8flag=cn
+|b9=Wendy
+|b10=Shen Yunyi|b10name=Shen Yunyi|b10flag=cn
+|b11=Zhou Gangan|b11name=|b11flag=cn
+}}
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Interviewers|lang=cn
+|b1=Xiran
+|b2=Wendy
+|b3=Hilda
+|b4=Luo Xin|b4name=Luo Yuting|b4flag=cn
+|b5=Chen Yu|b5name=Zhou Chenyu|b5flag=cn
+|b6=Liu Hang
+|b7=Candice
+|b8=Christina
+|b9=BaoBao|b9name=Fu Ruozhen|b9flag=cn
+|b10=小悠|b10name=|b10flag=cn
+}}
+{{BroadcasterCard
+|position=Guest Commentator|lang=cn
+|b1=Crescent
+|b2=Wayward
+|b3=Milkyway
+}}
+{{BroadcasterCard
+|position=Guest Analyst|lang=cn
+|b1=Zdz
+|b2=Wayward
+}}
+
+{{box|break|padding=1em}}
+{{BroadcasterCard
+|position=Commentator|lang=cn
+|b1=Remember
+|b2=Mile
+|b3=Rita|b3name=Feng Yu|b3flag=cn
+|b4=Duoduo
+|b5=pyl
+|b6=Maomao
+|b7=GuGu|b7name=Chen Jieyan|b7flag=cn
+|b8=Cat|b8link=Cat (Chinese player)
+|b9=ShuoShuo
+|b10=MacT
+|b11=Wang Song
+|b12=Zeyuan
+|b13=fireloli|b13name=Zhao Zhiming|b13flag=cn
+|b14=乘风儿|b14name=Zhong Yingjie|b14flag=cn
+|b15=957
+|b16=Tongxi
+|b17=Pengpeng|b17name=Feng Sheng-Yao|b17flag=tw
+|b18=Zonic|b18name=Zhang Shiyu|b18flag=cn
+|b19=san
+|b20=TianShu|b20name=Yao Tianshu|b20flag=cn
+|b21=Mage|b21name=Zhong Kexin|b21flag=cn
+|b22=YuFan|b22name=Wu Yufan|b22flag=cn
+<!--
+|b6=Junri|b6name=Zhao Junri|b6flag=cn
+|b12=Kris|b12name=Tang Xintong|b12flag=cn
+|b14=Suki|b14name=Sun Qi|b14flag=cn-->
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Play-by-play Commentator|lang=en
+|b1=Mazel
+|b2=Munchables
+|b3=Hiprain
+}}
+{{BroadcasterCard
+|position=Color Commentator|lang=en
+|b1=Nymaera
+|b2=Troubleinc
+|b3=Jamada
+|b4=Lyric
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Analyst Desk Host|lang=en
+|b1=Lara Lunardi|b1flag=it
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/tab|2}}
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Caster|lang=kr
+|b1=Kim Kyu-hwan |b1flag=kr
+|b2=Park Sang-hyun
+|b3=Park Han-eol
+}}
+{{box|break|padding=2em}}
+{{BroadcasterCard
+|position=Commentator|lang=kr
+|b1=Lindarang
+|b2=Kim Dong-joon
+|b3=JYP |b3name=Park Jin-young |b3flag=kr
+|b4=Bitdory
+}}
+{{box|end|padding=2em}}
+{{Tabs dynamic/end}}
+
+
+==Additional Data==
+===Patch Information===
+{| class="wikitable" style="text-align:center;"
+|-
+! colspan="1"| Stage
+! colspan="4"| Group Stage
+! colspan="6"| Rumble Stage
+! colspan="1" rowspan="2" width="70"| Knights' Rivals
+! colspan="1" rowspan="2"| Playoffs
+! colspan="1" rowspan="2"| Playoffs<br>(from 16/8)
+|-
+! width="50"| Week
+! width="30"| 1 
+! width="30"| 2
+! width="30"| 3
+! width="30"| 4
+! width="30"| 1
+! width="30"| 2
+! width="30"| 3
+! width="80"| 4<br/>(22/7-23/7)
+! width="80"| 4<br/>(from 24/7)
+! width="30"| 5
+|-
+| Patch
+| colspan="2" | [[Patch 14.10|14.10]]
+| colspan="2" | [[Patch 14.11|14.11]]
+| colspan="4" | [[Patch 14.13|14.13]]
+| colspan="3" | [[Patch 14.14|14.14]]
+| colspan="2" | [[Patch 14.15|14.15]]
+|-
+| Disabled 
+| colspan="12" |
+| colspan="1"  | {{ChampionIcon|Aurora|24px}}
+|}
+{{Note|1|Aurora was globally banned due to her presence interfering with Chronobreak.<ref>{{cite web|url=https://www.youtube.com/watch?v=oO0KFDBNocU|title=Playoffs - TES vs AL LPL SUMMER SPLIT (2024)|author='''LPL'''|date=2024-08-16}}</ref><ref>{{cite web|url=https://x.com/RiotMAXtheX/status/1824302742547910928|title=Aurora is going to be disabled for both @LEC & @EMEAmasters due to her presence in a game interfering with Chronobreak.|author=Maximilian Peter Schmidt|date=2024-08-16}}</ref>}}
+
+===Statistics===
+{{ChampionStats
+|statspage=LPL/2024/Summer/Statistics
+|tournament=LPL/2024/Summer/Seeding Stage
+|tournament2=LPL/2024/Summer/Group Stage
+|tournament3=LPL/2024/Summer/Playoffs
+|minlength=25
+}}
+
+===Pentakills===
+{{PentakillTable
+|{{Json|id=LPL24SuRW2|matchid=6|gameNum=1|player=GALA|vod=https://www.bilibili.com/video/BV15M4m127cp?p=1}}
+|{{Json|id=LPL24SuRW5|matchid=5|gameNum=2|player=knight|vod=}}
+|{{Json|id=LPL24SumPO|matchid=R6M1|gameNum=3|player=Elk|vod=}}
+}}
+
+===Country Representation===
+{{Country representation}}
+===Appearances===
+{{Player tournament appearances|series=LoL Pro League|tiers=1|limit=10|playerspage=LPL/2024/Summer|edate=2024-12-05}}
+:''See [[LoL Pro League/Player appearances|here]] for the complete list.''
+==Additional content==
+{{Event media}}
+
+==References==
+{{Reflist}}
+
+{{2024 Season International Cycle Navbox}}
