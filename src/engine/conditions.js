@@ -12,6 +12,7 @@
  *   ['has', 階, 鍵]        ['hasCount', 階, n]
  *   ['stat', 查詢函式名, 比較子, 值]
  *   ['eventFlag', 旗標鍵]  ['eventCount', 計數鍵, 比較子, 值]
+ *   ['percentile', 指標名, 比較子, 百分位]   ← S26：讀歷史母體靜態門檻
  *
  * 比較子：lt | lte | eq | gte | gt | ne。`hasCount` 的語意是「持有數 ≥ n」。
  *
@@ -31,8 +32,9 @@
  */
 import { TIER_STORES } from '../kernel/modifiers.js';
 import {
-  assistsPerGame, awardsThisYear, careerGames, distinctTeams, eventCountOf, eventFlagOn,
-  intlSemis, intlWinRate, lastFinish, longestTenure, msiBest, reigningChampion, worldsBest,
+  assistsPerGame, assistP90, awardsThisYear, careerGames, distinctTeams, eventCountOf, eventFlagOn,
+  intlSemis, intlWinRate, lastFinish, longestTenure, msiBest, peakRatingP50, reigningChampion,
+  worldsBest,
 } from './ledger.js';
 import { finishOrder } from '../data/formats/finishes.js';
 import { careerScore } from './career.js';
@@ -43,6 +45,7 @@ import { LEAGUES } from '../data/leagues.js';
 import { MENTAL_KEYS } from '../data/mental.js';
 import { ATTRS } from '../data/attributes.js';
 import { ROLE_ATTR_WEIGHTS } from '../data/skills.js';
+import { PERCENTILE_METRICS } from '../data/npc/percentiles.js';
 import { effectiveParams } from './lifecycle.js';
 import { staminaOf } from './stamina.js';
 
@@ -125,7 +128,7 @@ export const QUERIES = {
  * 條件、或畫不出引擎認得的條件。`tests/kernel/conditions.mjs` 逐項求值後比對，
  * 不手抄預期字串。
  */
-export const COND_KINDS = ['and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount'];
+export const COND_KINDS = ['and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount', 'percentile'];
 
 const OPS = {
   lt: (a, b) => a < b,
@@ -170,6 +173,20 @@ export function evalCond(state, node) {
       const op = OPS[node[2]];
       if (!op) throw new Error(`條件式未知的比較子：${node[2]}`);
       return op(eventCountOf(state, node[1]), node[3]);
+    }
+    // 百分位門檻（S26，§14.3 兩條 route 路線）：玩家某指標 op 歷史母體門檻。
+    // `['percentile', 'assist', 'gte', 90]`＝生涯場均助攻 ≥ 同位置 P90；
+    // `['percentile', 'peakRating', 'lte', 50]`＝peakRating ≤ 歷史中位數。
+    // 門檻常數住在 `data/npc/percentiles.js`（生成器產出），這裡只讀查詢層——
+    // 遊戲執行時零百分位運算（§23.5）。fallback（母體 < 100 留絕對門檻）對
+    // 消費端透明：查詢層直接回 p90 就好。
+    case 'percentile': {
+      if (!PERCENTILE_METRICS.includes(node[1])) throw new Error(`條件式未知的百分位指標：${node[1]}`);
+      const op = OPS[node[2]];
+      if (!op) throw new Error(`條件式未知的比較子：${node[2]}`);
+      if (node[1] === 'assist') return op(assistsPerGame(state), assistP90(state));
+      if (node[1] === 'peakRating') return op(state.peakRating ?? 0, peakRatingP50());
+      return false;
     }
     default: throw new Error(`條件式未知的節點：${node[0]}`);
   }

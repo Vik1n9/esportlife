@@ -20,6 +20,7 @@ import { EVENT_CARDS } from '../src/data/events.js';
 import { TRAINING_CARDS } from '../src/data/trainingCards.js';
 import { QUEST_CARDS } from '../src/data/quests.js';
 import { INNATE_POOL } from '../src/data/innate.js';
+import { PERCENTILE_METRICS } from '../src/data/npc/percentiles.js';
 import { LIFECYCLE_WINDOWS } from '../src/kernel/modifiers.js';
 
 /* ================= 共用可選值 ================= */
@@ -130,7 +131,7 @@ export const COND_TIER_LABELS = {
 };
 
 /** 條件式節點型別（積木模式的下拉；與 validateCond 認得的節點同源） */
-export const COND_NODES = ['and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount'];
+export const COND_NODES = ['and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount', 'percentile'];
 
 export const COND_NODE_LABELS = {
   and: 'AND 全部成立', or: 'OR 任一成立', not: 'NOT 反轉',
@@ -493,6 +494,16 @@ export function validateCond(node, errors, path) {
         if (!EVENT_COUNT_KEYS.includes(args[0])) {
           errors.push(`${path}.eventCount：⚠ 計數鍵「${args[0]}」既不是卡 id、也沒有卡宣告 counters——這個計數永遠是 0`);
         }
+      }
+      break;
+    // 百分位門檻節點（S26，§14.3）：['percentile', 指標名, 比較子, 百分位]
+    case 'percentile':
+      if (args.length !== 3) {
+        errors.push(`${path}.percentile：格式 ['percentile', 指標名, 比較子, 百分位]`);
+      } else {
+        if (!PERCENTILE_METRICS.includes(args[0])) errors.push(`${path}.percentile：未知的指標「${args[0]}」（可選 ${PERCENTILE_METRICS.join('／')}）`);
+        if (!COND_OPS.includes(args[1])) errors.push(`${path}.percentile：未知的比較子「${args[1]}」`);
+        if (typeof args[2] !== 'number') errors.push(`${path}.percentile：百分位必須是數字`);
       }
       break;
     default:

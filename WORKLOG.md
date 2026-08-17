@@ -1,3 +1,41 @@
+## 2026-08-18 — S26 母體百分位：兩條 route 路線改回百分位，但「route 覆蓋率 ≥60%」這條線從 S19c 起就從未真正量過
+
+- **方向**：§14.3 的究極綠葉與網紅選手因為「引擎沒有全聯盟逐選手數據母體」用絕對
+  門檻暫代（附錄 #32），S25 的 `cleaned_players.json` 就是那個母體。本站照 §23.5
+  定案產靜態百分位表、把兩張卡改回百分位定義，關閉 #32。
+
+- **實作**：
+  - `tools/npc/gen-percentiles.mjs`（生成器）→ `src/data/npc/percentiles.js`（靜態
+    表）。助攻母體樣本 0（cleaned 無助攻欄位）→ 全位置 fallback 保留絕對門檻 2.5；
+    peakRating 母體 679 人，P50 = 68。
+  - 新節點型別 `['percentile', 指標, 比較子, 百分位]`：進 `conditions.js` 的
+    `COND_KINDS`／evalCond 與 `tools/schema.js` 的 `COND_NODES`／validateCond 兩張
+    註冊表；門檻由 `ledger.js` 查詢層讀（`assistP90`／`peakRatingP50`），引擎零
+    runtime 百分位運算。`PERCENTILE_METRICS` 單一來源。
+  - `route-green-leaf` 與 `route-influencer` 的 trigger／goal 兩端都改，`careerScore
+    < 1200` 條件退役。
+  - 版本 v4.7.0 → v4.7.1（對既有章節的補充）。
+
+- **⚠ 這站真正的發現不是百分位，是「route 覆蓋率驗收線從未落地」**：
+  - S19c 交接筆記宣稱在 `invariants.mjs` 新增「後段局 route 覆蓋率 ≥60%」測試，
+    **實際從未存在**。用 worktree 重跑 S19c 當代碼，後段局覆蓋只有 5.0%（交接筆記
+    的 63.7% 與實際不符）。
+  - 現況 160 段後段局 route 覆蓋率 6.3%，遠低於驗收線 60%。不是某一站改崩的——
+    route 卡目標是「平庸局替代終點」，但達成條件（splitTitles≥2、distinctTeams≥5、
+    longestTenure≥10、proYears≥7）本身就要求長生涯／成就，後段局達不到。**設計意圖
+    與條件自相矛盾**。
+  - 網紅改百分位後 160 段達成 0（暫代 13）：`fameLevel=4` 與 `peakRating ≤ 中位數`
+    結構性互斥——fame 高的人 peakRating 通常也高。
+  - 兩條路線改動後覆蓋率從 7.5% 略降到 6.3%，**不是本站兩條路線能救的**。
+  - 使用者拍板：S26 照做、route 覆蓋率異常交接 S30 校準站。
+
+- **實測結論**：母體 peakRating p10=64、p50=68、p90=72；網紅達成 0/160（暫代 13）、
+  究極綠葉 4/160（暫代 5）；後段局 route 覆蓋率 6.3%（驗收線 60%）。
+
+- **狀態**：完成。`npm test` 22721 項全綠（排除並行任務帶的 disband seed 26 紅燈，
+  那是連續事件站自己的 squat_challenge bug，與本站無關）；SAVE_VERSION 不動；
+  版本 v4.7.1。route 覆蓋率修復、網紅與 fame 互斥、驗收線測試補落地 → S30。
+
 ## 2026-08-17 — 連續事件：事件之間缺的不是連鎖欄位，是「發生過」與「發生過幾次」
 
 - **方向**：使用者指出事件規則做不出連續事件。查證屬實——事件之間唯一的接口是

@@ -153,11 +153,39 @@ export async function run({ check }) {
       stat: ['stat', 'age', 'gte', 0],
       eventFlag: ['eventFlag', 'anything'],
       eventCount: ['eventCount', 'anything', 'gte', 0],
+      percentile: ['percentile', 'assist', 'gte', 90],
     };
     const unevaluable = COND_KINDS.filter((k) => {
       try { evalCond(s, SAMPLE[k]); return false; } catch { return true; }
     });
     check('宣告的每一種節點都求值得動', unevaluable.length === 0, unevaluable.join('／'));
+  }
+
+  /* ---- percentile 節點（S26，§14.3 百分位回歸） ----
+   *
+   * 門檻值讀生成器產出的 `data/npc/percentiles.js`（單一來源）——手抄一份數字
+   * 只是把生成器的輸出抄第二遍。這裡驗的是「節點把玩家值拿來跟門檻比」的語意，
+   * 不是門檻本身是多少。
+   */
+  {
+    const { ASSIST_P90, PEAK_RATING_P50 } = await import('../../src/data/npc/percentiles.js');
+    const s = fresh({ role: 'MID', peakRating: 70 });
+    const midP90 = ASSIST_P90.MID.p90;
+    s.stats = { HOME: { G: 100, A: Math.ceil(midP90 * 100) } };  // 略高於該位置 P90
+    check('助攻 ≥ 同位置 P90（assistsPerGame 過門檻）',
+      evalCond(s, ['percentile', 'assist', 'gte', 90]));
+    s.stats = { HOME: { G: 100, A: 0 } };
+    check('助攻未達 P90 不過',
+      !evalCond(s, ['percentile', 'assist', 'gte', 90]));
+    check('peakRating 高於歷史中位數不過',
+      !evalCond(s, ['percentile', 'peakRating', 'lte', 50]));
+    s.peakRating = PEAK_RATING_P50.p50;
+    check('peakRating 恰為中位數通過',
+      evalCond(s, ['percentile', 'peakRating', 'lte', 50]));
+    // 未知指標要爆
+    let threw = false;
+    try { evalCond(s, ['percentile', 'bogus', 'gte', 90]); } catch { threw = true; }
+    check('未知百分位指標丟錯（不靜默）', threw);
   }
 
   /* ---- 上屆同賽事名次與衛冕者謂詞（S20g） ---- */

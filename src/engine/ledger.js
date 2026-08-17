@@ -3,8 +3,13 @@
  *
  * S17b（生涯任務引擎）與 S21a（生涯傳記）都讀這裡——條件判斷不准直接翻
  * `state` 的原始欄位，改一次欄位要改三個地方。全部純函式，吃 state 回數字。
+ *
+ * S26 追加百分位門檻查詢（§23.5）：門檻常數住在 `data/npc/percentiles.js`
+ * （生成器產出），這裡只負責「依玩家身分查表」——條件語言讀查詢層，不直接
+ * 翻資料檔。
  */
 import { finishOrder, NO_FINISH } from '../data/formats/finishes.js';
+import { ASSIST_P90, PEAK_RATING_P50 } from '../data/npc/percentiles.js';
 
 /** 國際賽勝率（%）：`intlRecord` 的 W ÷ (W+L)，沒打過國際賽回 0（§14.3「賽區統治者」） */
 export function intlWinRate(state) {
@@ -193,4 +198,22 @@ export function reigningChampion(state, event) {
     if (!best || e.year > best.year) best = e;
   }
   return best;
+}
+
+/* ---------------- 百分位門檻（S26，§14.3 兩條 route 路線） ---------------- */
+
+/**
+ * 生涯場均助攻的 P90 門檻（玩家該位置的歷史母體，讀靜態表）。
+ *
+ * ⚠ fallback 語意：`percentiles.js` 的 `ASSIST_P90` 在母體樣本 < 100 時
+ * `fallback: true`、p90 = 現行絕對門檻 2.5。這裡不用知道 fallback 的存在——
+ * 直接讀 p90 就好，切換百分位的決定權在生成器（S30 視樣本狀況更新表）。
+ */
+export function assistP90(state) {
+  return ASSIST_P90[state.role]?.p90 ?? 2.5;
+}
+
+/** 歷史母體 peakRating 中位數（不分位置的靜態門檻，§23.5） */
+export function peakRatingP50() {
+  return PEAK_RATING_P50.p50;
 }

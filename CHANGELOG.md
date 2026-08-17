@@ -1,3 +1,29 @@
+## [v4.7.1] - 2026-08-18
+
+### §14.3 兩條 route 路線改回百分位（S26）
+
+究極綠葉與網紅選手原本用絕對門檻暫代（§14.3 附註 #32），因為引擎沒有逐選手
+數據母體。S25 的 `cleaned_players.json` 就是那個母體，本站產靜態百分位表並把
+兩張卡改回百分位定義。
+
+- **新節點型別 `['percentile', 指標, 比較子, 百分位]`**：玩家某指標與歷史母體
+  門檻比。`['percentile', 'assist', 'gte', 90]`＝生涯場均助攻 ≥ 同位置 P90；
+  `['percentile', 'peakRating', 'lte', 50]`＝peakRating ≤ 歷史中位數。節點進
+  `conditions.js` 的 `COND_KINDS`／evalCond 與 `tools/schema.js` 的
+  `COND_NODES`／validateCond（兩張註冊表同步，`tests/kernel/conditions.mjs` 守）。
+- **靜態門檻表 `src/data/npc/percentiles.js`**：`gen-percentiles.mjs` 產出（單一
+  來源，`tests/kernel/percentiles.mjs` 過生成器實際運算式重算比對）。門檻常數由
+  `ledger.js` 查詢層讀（`assistP90`／`peakRatingP50`），遊戲執行時零百分位運算。
+- **母體與回歸**：助攻母體樣本 0（cleaned 目前無助攻欄位）→ 全位置 fallback 保留
+  絕對門檻 2.5（§23.5 最小樣本規則）；peakRating 母體 679 人（>100）→ 非 fallback，
+  P50 = 68。名次 → peakRating 回歸錨點（世界賽冠軍 ≈ LCK par 76）由 S26 定案，
+  S27 照寫生成 NPC 時用。
+- **實測落差（交接 S30）**：網紅選手改百分位後 160 段達成 0 段（暫代 13）——fame
+  最高級與低 peakRating 結構性互斥；後段局 route 覆蓋率 6.3% 遠低於 §14.2 驗收線
+  60%（此線在 S19c 交接筆記宣稱已新增測試、實際從未落地）。兩者都由 S30 重校。
+- **升版**：package.json／APP_VERSION／規格書檔頭／CHANGELOG 四處同號
+  v4.7.0 → v4.7.1（對既有章節的補充，§14.3 兩張卡＋§23.5 落地註記）。
+
 ## [v4.7.0] - 2026-08-17
 
 ### 連續事件：事件卡多了觸發旗標與觸發計數
