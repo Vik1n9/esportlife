@@ -369,12 +369,17 @@ export const QUEST_CARDS = [
     type: 'route',
     name: '網紅選手',
     text: '你的對線成績普普通通，但你的高光剪輯播放量是全聯盟第一。贊助商指名要你，俱樂部把你當流量密碼——你說自己只是「順便打職業」。',
-    trigger: ['and', ['stat', 'fameLevel', 'gte', 3], ['percentile', 'peakRating', 'lte', 50]],
-    goal: ['and', ['stat', 'fameLevel', 'eq', 4], ['stat', 'awards', 'lte', 2], ['percentile', 'peakRating', 'lte', 50]],
+    // S30 重校：原「peakRating ≤ 歷史母體中位數（68）」與 fame≥3 結構性互斥——
+    // 160／320 段量測 fame≥3 的 peakRating 下限 71，高於母體 P90（72），百分位
+    // 定義不可達（S26 交接筆記點名，§23.5 授權 S30 依樣本狀況重校）。改走 §23.5
+    // 最小樣本規則的 fallback：絕對門檻 76 ≈ fame≥3 分布的中段（量測 47 段裡
+    // ≤76 有 10 段），語意仍是「有名但巔峰不突出」，不再對歷史母體。
+    trigger: ['and', ['stat', 'fameLevel', 'gte', 3], ['stat', 'peakRating', 'lte', 76]],
+    goal: ['and', ['stat', 'fameLevel', 'eq', 4], ['stat', 'awards', 'lte', 2], ['stat', 'peakRating', 'lte', 76]],
     deadline: null,
     result: { tier: 'epic', key: 'showman', label: '網紅選手' },
     failLabel: '過氣網紅',
-    goalText: '達成目標：知名度達「全民認識」，且生涯獎項 ≤ 2、生涯顛峰評價低於歷史中位數',
+    goalText: '達成目標：知名度達「全民認識」，且生涯獎項 ≤ 2、生涯巔峰評價 ≤ 76',
     materialText: null,
   },
 ];

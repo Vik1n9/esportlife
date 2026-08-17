@@ -53,7 +53,7 @@ import {
 } from '../../src/engine/attributes.js';
 import { PERFORM_FLOOR, PERFORM_SPAN, PRESSURE, SKILL_MENTAL, mistakeFactor, performCoef, stability } from '../../src/engine/psych.js';
 import { checkFusions, unlockTrait } from '../../src/engine/progression.js';
-import { careerTier } from '../../src/engine/career.js';
+import { careerTier, careerScore } from '../../src/engine/career.js';
 import { TRAINING_ACTIVITIES, TRAIN_YIELD } from '../../src/engine/training.js';
 import { gameChance } from '../../src/kernel/series.js';
 import { opponentStrength, starEffect, teamStrength } from '../../src/kernel/strength.js';
@@ -61,6 +61,7 @@ import { TIER_STORES, traitName } from '../../src/kernel/modifiers.js';
 import { ATTRS, ATTR_CAP } from '../../src/data/attributes.js';
 import { MENTAL_BASE, MENTAL_KEYS, MENTAL_NAMES, MENTAL_RANGE } from '../../src/data/mental.js';
 import { EVENT_CARDS, TIER_NAMES } from '../../src/data/events.js';
+import { QUEST_CARDS } from '../../src/data/quests.js';
 import { LEAGUES } from '../../src/data/leagues.js';
 import { FUSIONS } from '../../src/data/epics.js';
 import { OVR_WEIGHTS, ROLES, ROLE_ATTR_WEIGHTS, SKILL_WEIGHTS } from '../../src/data/skills.js';
@@ -118,6 +119,7 @@ export async function run({ check, log, shared }) {
   staminaRhythm({ check, gate, log, runs });
   eventExclusion({ check, gate });
   opponentMaterialization({ check, log, runs });
+  routeCoverage({ log, runs });
   demoYear({ check, log });
 
   gate.report();
@@ -144,6 +146,30 @@ function opponentMaterialization({ log, runs }) {
     const rate = agg[k].draws ? (agg[k].materialized / agg[k].draws * 100).toFixed(1) : '—';
     log(`對手實體化率 ${k} ${rate}%（${agg[k].materialized}/${agg[k].draws}，門檻 ${k === 'intl' ? 90 : 80}%，量測不硬紅）`);
   }
+}
+
+/* ---------------- route 覆蓋率（§14.2 驗收線，S30 量測落地） ---------------- */
+
+/**
+ * 後 50%（生涯評分）的局有多少拿得到 ≥1 個 route 達成標籤。
+ *
+ * ⚠ **量測打日誌不硬紅**——與實體化率同一個理由，但根因不同：§14.2 的 60% 驗收線
+ * 是 S19c 交接筆記的 **63.7% 幽靈量測**（S26 用 S19c 當代碼重跑只有 5.0%，該測試
+ * 從未落地）。五張 route 卡的目標全部要求強生涯成就（賽段冠軍／5 隊／10 年同隊／
+ * 歷史前 10% 助攻／ fame 滿級），與「後 50% 的平庸局」結構性錯身——不是某條常數
+ * 校歪了，是路線內容對不上驗收線。S30 把量測落地（再不量就永遠沒人看見這條缺口），
+ * 硬紅與修復（補平庸局路線或重訂驗收線）歸內容站，不在庚組校準範圍。
+ */
+function routeCoverage({ log, runs }) {
+  const routeIds = QUEST_CARDS.filter((c) => c.type === 'route').map((c) => c.id);
+  const byScore = [...runs].sort((a, b) => careerScore(a.state) - careerScore(b.state));
+  const bottom = byScore.slice(0, Math.floor(runs.length / 2));
+  const covered = bottom.filter((r) => (r.state.quests?.done || [])
+    .some((d) => d.result === 'achieved' && routeIds.includes(d.id))).length;
+  const perCard = routeIds.map((id) => runs.filter((r) => (r.state.quests?.done || [])
+    .some((d) => d.id === id && d.result === 'achieved')).length);
+  log(`route 覆蓋率：後 50% 局 ${(covered / bottom.length * 100).toFixed(1)}%（${covered}/${bottom.length}，驗收線 60%——幽靈基準，量測不硬紅）`);
+  log(`route 逐卡達成：${routeIds.map((id, i) => `${id.replace('route-', '')} ${perCard[i]}`).join('、')}（共 ${runs.length} 段）`);
 }
 
 /* ---------------- 巔峰上界（V4 §7.1 §10.2） ---------------- */

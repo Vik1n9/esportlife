@@ -175,8 +175,10 @@ export function evalCond(state, node) {
       return op(eventCountOf(state, node[1]), node[3]);
     }
     // 百分位門檻（S26，§14.3 兩條 route 路線）：玩家某指標 op 歷史母體門檻。
-    // `['percentile', 'assist', 'gte', 90]`＝生涯場均助攻 ≥ 同位置 P90；
-    // `['percentile', 'peakRating', 'lte', 50]`＝peakRating ≤ 歷史中位數。
+    // `['percentile', 'assist', 'gte', 90]`＝生涯場均助攻 ≥ 同位置 P90。
+    // ⚠ peakRating 百分位 S30 起沒有消費卡：網紅選手改走絕對門檻 fallback
+    // （fame≥3 的 peakRating 下限高於母體 P90，百分位定義不可達，見 quests.js）；
+    // 節點與門檻保留，等 S31 當季模擬母體接管（§24.1）。
     // 門檻常數住在 `data/npc/percentiles.js`（生成器產出），這裡只讀查詢層——
     // 遊戲執行時零百分位運算（§23.5）。fallback（母體 < 100 留絕對門檻）對
     // 消費端透明：查詢層直接回 p90 就好。
