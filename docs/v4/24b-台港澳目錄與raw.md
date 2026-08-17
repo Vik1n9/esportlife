@@ -39,14 +39,17 @@ node docs/v4/next-station.mjs
 - 枚舉入口（24a 探勘前置知識）：`Category:Taiwanese Players`＋`Hong Kong Players`＋
   `Macau Players` 三分類合併、去重、扣掉「Error」類的亂入條目。
 - 欄位：`wiki_url`、`player_id`（Liquipedia 頁題，含消歧義後綴處理——REDIRECT
-  展開到實際頁）、`region`（TW／HK／MO）、`fetch_priority`（台港澳全 1）。
+  展開到實際頁）、`region`（TW／HK／MO，**抓取優先級分群，非國籍語意**）、
+  `fetch_priority`（台港澳全 1）。
 
 **2. 台港澳 `team_history.json` 段**
 
 - 依 S23 schema：`team_id`（縮寫）、`display_name`、`region`、`active_years`、
   `predecessors`、`successors`。
+- `region` 存**生涯主力賽區**（GPL／LMS／PCS／LCP，2026-08-17 去除國籍定案後由
+  `gen-team-history.mjs` 的 `LEAGUE_REGION` 人工表判定，非 Infobox region 國籍）。
 - 來源：`Category:Taiwanese Teams`＋`PCS Teams`＋`LCP Teams`，讀 Infobox team
-  （region／created／disbanded）＋History 段（更名前身，如 yoe IRONMEN → Flash
+  （created／disbanded）＋History 段（更名前身，如 yoe IRONMEN → Flash
   Wolves）＋頁面重定向。
 - 更名／合併比對有疑慮就寫交接筆記，不「順便修正史實」。
 
@@ -107,6 +110,8 @@ node docs/v4/next-station.mjs
 - **`team_history.json`**：台港澳段 **42 隊**（含外賽區 9 隊被過濾出段，留給 S24c
   裁決）。`gen-team-history.mjs` 生成，縮寫表（`ABBREVIATIONS`）與更名表
   （`RENAMES`）是人工維護的單一來源，重跑改表不改產出檔。
+  ⚠ 2026-08-17 返工後台港澳段為 **41 隊**，`region` 改存**生涯主力賽區**
+  （GPL/LMS/PCS），見下「返工」。
 - **raw_data/**：**283/283 全抓齊**（選手 200＋隊 52＋賽事 31），重跑全跳過
   （抓 0／跳過 283／缺頁 0／失敗 0），零 MISS、零空頁。1.6 MB。
 
@@ -142,23 +147,23 @@ of」三句式為關鍵字。
 
 ### 疑慮與裁決（寫給 S25／S24c）
 
-- **Liquipedia region 欄與 location 欄互相矛盾**，已實測四種案例：G-Rex
-  （location=Hong Kong、region=taiwan → TW）、HKA（location=Hong Kong、
-  region=Taiwan → HK，人工例外表裁決）、Machi/TPA（region=Southeast Asia、
-  location=Taiwan → TW）、**F-Soul（location=Hong Kong、region=tw → HK，同型
-  誤標：reg=tw 是 LMS 聯賽區域標記，對香港隊不可信）**。⚠ 教訓：region=tw／
-  taiwan 對香港隊都不準（HKA/F-Soul 兩例），判定以 location 為主、例外表兜底。
+- **Liquipedia region 欄與 location 欄互相矛盾**（2026-08-16 實測，已由返工取代——
+  見下「返工」：region 改由 `LEAGUE_REGION` 人工表判定，不再讀 Infobox 兩欄）。
+  實測四例仍留作 Infobox 品質警告：G-Rex（location=Hong Kong、region=taiwan）、
+  HKA（location=Hong Kong、region=Taiwan）、Machi/TPA（region=Southeast Asia、
+  location=Taiwan）、F-Soul（location=Hong Kong、region=tw）。⚠ 教訓：
   **S25 清洗選手頁時別信單一欄位**；選手頁的 country 欄也有同樣風險，實體對齊時
   以分類＋頁題消歧義為主。
-- **active_years 有三隊 null**：Fireball、G-Rex Infinite、Taiwan（代表隊）——Infobox
-  created/disbanded 全空，散文無年份。留 null，S25 從 TimelineSquadAuto 補或記缺失。
+- **active_years 有兩隊 null**：Fireball、G-Rex Infinite——Infobox created/disbanded
+  全空，散文無年份。留 null，S25 從 TimelineSquadAuto 補或記缺失。（Taiwan 代表隊
+  原為第三隊，返工後移出台港澳段。）
 - **8 頁有 `{{Want_to_Help}}` 缺漏標記**：全在 GPL 2012–2014 賽事頁（Season 1、
   Opening Event、2013 S/S/C、2014 S/S/W）——與 24a 探勘「GPL 早期頁面有缺漏」
   一致。S25 遇到時核對名次欄（TeamPrizePool Slot 是可靠來源）。
 - **SillySilly Gaming active_years [2026,null]**：created=2026-04-08，現役 PCS 隊，
   不是資料錯誤。
-- **LCP 2025 外賽區隊**（DFM/SHG/GAM/MVK/TSW/GZ/GZA/ACK/SWPE，共 9 隊）被過濾
-  出台港澳段，隊頁 raw 已抓（零浪費）——S24c 決定國際段是否收（LCP 區域隊不是
+- **LCP 2025 外賽區隊**（DFM/SHG/GAM/MVK/TSW/GZ/GZA/ACK/SEM9/SEM9 WPE，共 10 隊）
+  被過濾出台港澳段，隊頁 raw 已抓（零浪費）——S24c 決定國際段是否收（LCP 區域隊不是
   Worlds/MSI 隊，但 LCP 賽事頁顯示需要它們的縮寫）。
 
 ### 未一起處理
@@ -167,4 +172,28 @@ of」三句式為關鍵字。
 - `probe`/`search` 未動用（頁題陷阱靠 24a 交接筆記避開，實測零 MISS）。
 - 選手頁的 Infobox `name`（真實姓名）照 §23.1 忽略——S25 清洗層處理。
 
-**狀態**：完成。`node docs/v4/next-station.mjs` 回報 **S24c** 為下一站。
+### 返工（2026-08-17，去除國籍只留賽區）
+
+**方向**：`team_history.json` 台港澳段 region 原本存 Infobox 的國籍（TW 37／HK 5），
+與國際段（賽區代碼）同一欄位兩種語義，違反 2026-08-17「去除國籍只留賽區」定案
+（見 `docs/v4/rule-去除國籍只留賽區.md`）。返工把 region 改存**生涯主力賽區**
+（GPL/LMS/PCS），判定標準由使用者拍板＝**主力年代**（非最後賽區）。
+
+**實作**：`gen-team-history.mjs` 刪掉 `regionOf`（讀 Infobox region/location 兩欄
+互補的那套，含 HKA/F-Soul 例外表）與 `LOCATION_TO_REGION`，換成人工表
+`LEAGUE_REGION`（display_name → 賽區）。產出 41 隊：LMS 20／PCS 18／GPL 3。
+
+- **Taiwan（國家代表隊）移出台港澳段**：其 region 本為國籍 TW，代表隊無聯賽賽區，
+  改 null 後被過濾（42→41）。`TWN` 未被任何清洗/別名引用，零下游影響。
+- **判定基準**：主力年代佔比；GPL→LMS 交界隊以 LMS 為主（TPA 等 2015 起主聯賽）；
+  純 GPL 隊（TPS／GB）與早期 TeSL/GPL 身分隊（Wayi Spider）留 GPL；PCS 2020+ 隊
+  留 PCS（CFO/DCG/PSG 現役 LCP 但主力 PCS，使用者例 PSG→PCS 為準）。
+- **順手修的連鎖**：重跑 `gen-team-history-intl.mjs` 會重建 S25 已併的 `Taipei J
+  Team`（TJ）——已在 `NAME_ALIASES` 加 `taipei j team → j team` 封掉（S25 交接
+  筆記「建議加排除」落地）。`crawl-lp.mjs` 的 `RESIDENCY`／`REGION_KEYWORDS` 已涵
+  LMS/PCS/GPL，無需改；LCP 刻意不列（LCP 跨台日越澳，無法映射單一 residency）。
+- 台港澳段 `target_players.csv` 的 TW/HK/MO **不動**——那是抓取優先級分群，非實體
+  語意，規則不衝突。
+
+**狀態**：完成。`npm test` 項數不變（純工具站，`src/`／`tests/` 未動）。
+`node docs/v4/next-station.mjs` 仍回報 **S24c**（返工不改狀態表）。

@@ -197,6 +197,9 @@ const NAME_ALIASES = {
   'incredible miracle 2': 'incredible miracle',
   'energy pacemaker.all': 'energy pacemaker',
   'ninjas in pyjamas.cn': 'ninjas in pyjamas',
+  // Taipei J Team＝J Team（JT）同隊（S25 已併，team_alias.json 亦收）——不加這條
+  // 重跑會重建獨立隊 TJ，覆蓋 S25 的合併。
+  'taipei j team': 'j team',
 };
 
 const GENERIC_SUFFIXES = /\b(e-?sports|esports|gaming|team|club)\b/gi;
@@ -355,7 +358,7 @@ for (const name of teamNames) {
 }
 
 existing.teams.push(...entries);
-existing.region = '台港澳段（S24b）＋國際段（S24c，region 為 Liquipedia 賽區代碼、非 ISO 國碼；active_years 為已抓資料的年份窗近似值、非 Infobox 創隊/解散年）';
+existing.region = '台港澳段（S24b，region 為生涯主力賽區：GPL/LMS/PCS）＋國際段（S24c，region 為 Liquipedia 賽區代碼、非 ISO 國碼；active_years 為已抓資料的年份窗近似值、非 Infobox 創隊/解散年）';
 writeFileSync(join(ROOT, 'team_history.json'), JSON.stringify(existing, null, 2) + '\n');
 
 console.error(`已寫出 team_history.json：新增國際段 ${entries.length} 隊（台港澳段 ${existing.teams.length - entries.length} 隊不動）`);

@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-16",
-  "region": "台港澳段（S24b）＋國際段（S24c，region 為 Liquipedia 賽區代碼、非 ISO 國碼；active_years 為已抓資料的年份窗近似值、非 Infobox 創隊/解散年）",
+  "generated": "2026-08-17",
+  "region": "台港澳段（S24b，region 為生涯主力賽區：GPL/LMS/PCS）＋國際段（S24c，region 為 Liquipedia 賽區代碼、非 ISO 國碼；active_years 為已抓資料的年份窗近似值、非 Infobox 創隊/解散年）",
   "teams": [
     {
       "team_id": "ahq",
       "display_name": "Ahq e-Sports Club",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2012,
         2021
@@ -18,7 +18,7 @@
     {
       "team_id": "ALP",
       "display_name": "Alpha Esports",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2018,
         2022
@@ -31,7 +31,7 @@
     {
       "team_id": "BUFF",
       "display_name": "BUFF",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2018,
         2018
@@ -42,7 +42,7 @@
     {
       "team_id": "BYG",
       "display_name": "Beyond Gaming",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2021,
         2024
@@ -55,7 +55,7 @@
     {
       "team_id": "BYGA",
       "display_name": "Beyond Gaming Academy",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         null
@@ -66,7 +66,7 @@
     {
       "team_id": "CFO",
       "display_name": "CTBC Flying Oyster",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         null
@@ -77,7 +77,7 @@
     {
       "team_id": "CFOA",
       "display_name": "CTBC Flying Oyster Academy",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2023,
         null
@@ -88,7 +88,7 @@
     {
       "team_id": "DCG",
       "display_name": "Deep Cross Gaming",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         null
@@ -99,7 +99,7 @@
     {
       "team_id": "DCGA",
       "display_name": "Deep Cross Gaming Academy",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2023,
         null
@@ -110,7 +110,7 @@
     {
       "team_id": "DWT",
       "display_name": "Dewish Team",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         null
@@ -123,7 +123,7 @@
     {
       "team_id": "DG",
       "display_name": "Dragon Gate Team",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2018,
         2019
@@ -134,7 +134,7 @@
     {
       "team_id": "FS",
       "display_name": "F-Soul Esports",
-      "region": "HK",
+      "region": "LMS",
       "active_years": [
         2019,
         2019
@@ -145,7 +145,7 @@
     {
       "team_id": "FRANK",
       "display_name": "FRANK Esports",
-      "region": "HK",
+      "region": "PCS",
       "active_years": [
         2022,
         null
@@ -156,7 +156,7 @@
     {
       "team_id": "FB",
       "display_name": "Fireball",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         null,
         null
@@ -167,7 +167,7 @@
     {
       "team_id": "FDT",
       "display_name": "Fish Dive Team",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2019,
         2019
@@ -178,7 +178,7 @@
     {
       "team_id": "FW",
       "display_name": "Flash Wolves",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2013,
         2019
@@ -189,7 +189,7 @@
     {
       "team_id": "GRX",
       "display_name": "G-Rex",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2017,
         2020
@@ -204,7 +204,7 @@
     {
       "team_id": "GRXI",
       "display_name": "G-Rex Infinite",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         null,
         null
@@ -215,7 +215,7 @@
     {
       "team_id": "GB",
       "display_name": "Gamania Bears",
-      "region": "TW",
+      "region": "GPL",
       "active_years": [
         2013,
         2015
@@ -226,7 +226,7 @@
     {
       "team_id": "HP",
       "display_name": "HELL PIGS",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         null
@@ -239,7 +239,7 @@
     {
       "team_id": "HKA",
       "display_name": "Hong Kong Attitude",
-      "region": "HK",
+      "region": "LMS",
       "active_years": [
         2013,
         2021
@@ -250,7 +250,7 @@
     {
       "team_id": "HKF",
       "display_name": "HungKuang Falcon",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2016,
         null
@@ -261,7 +261,7 @@
     {
       "team_id": "HG",
       "display_name": "Hurricane Gaming",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         2022
@@ -276,7 +276,7 @@
     {
       "team_id": "JT",
       "display_name": "J Team",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2015,
         2024
@@ -287,7 +287,7 @@
     {
       "team_id": "MAD",
       "display_name": "MAD Team",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2017,
         2019
@@ -298,7 +298,7 @@
     {
       "team_id": "MCX",
       "display_name": "Machi Esports",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2014,
         2021
@@ -311,7 +311,7 @@
     {
       "team_id": "MX",
       "display_name": "MachiX",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2017,
         2020
@@ -322,7 +322,7 @@
     {
       "team_id": "MFT",
       "display_name": "Meta Falcon Team",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2022,
         2023
@@ -335,7 +335,7 @@
     {
       "team_id": "MSE",
       "display_name": "Midnight Sun Esports",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2014,
         2016
@@ -346,7 +346,7 @@
     {
       "team_id": "NT",
       "display_name": "Nate.A",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2023,
         null
@@ -357,7 +357,7 @@
     {
       "team_id": "N27",
       "display_name": "Nate9527",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2023,
         null
@@ -368,7 +368,7 @@
     {
       "team_id": "PSG",
       "display_name": "PSG Talon",
-      "region": "HK",
+      "region": "PCS",
       "active_years": [
         2017,
         2025
@@ -379,7 +379,7 @@
     {
       "team_id": "PSGA",
       "display_name": "PSG Talon Academy",
-      "region": "HK",
+      "region": "PCS",
       "active_years": [
         2016,
         2025
@@ -390,7 +390,7 @@
     {
       "team_id": "RG",
       "display_name": "Raise Gaming",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2016,
         2017
@@ -403,7 +403,7 @@
     {
       "team_id": "SS",
       "display_name": "SillySilly Gaming",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2026,
         null
@@ -414,7 +414,7 @@
     {
       "team_id": "TPA",
       "display_name": "Taipei Assassins",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2012,
         2016
@@ -425,7 +425,7 @@
     {
       "team_id": "TPB",
       "display_name": "Taipei Bravo",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2023,
         null
@@ -436,7 +436,7 @@
     {
       "team_id": "TPS",
       "display_name": "Taipei Snipers",
-      "region": "TW",
+      "region": "GPL",
       "active_years": [
         2013,
         2014
@@ -445,20 +445,9 @@
       "successors": []
     },
     {
-      "team_id": "TWN",
-      "display_name": "Taiwan",
-      "region": "TW",
-      "active_years": [
-        null,
-        null
-      ],
-      "predecessors": [],
-      "successors": []
-    },
-    {
       "team_id": "TA",
       "display_name": "Team Afro",
-      "region": "TW",
+      "region": "LMS",
       "active_years": [
         2017,
         2018
@@ -469,7 +458,7 @@
     {
       "team_id": "WT",
       "display_name": "Wangting",
-      "region": "TW",
+      "region": "PCS",
       "active_years": [
         2025,
         null
@@ -480,7 +469,7 @@
     {
       "team_id": "WS",
       "display_name": "Wayi Spider",
-      "region": "TW",
+      "region": "GPL",
       "active_years": [
         2008,
         2017

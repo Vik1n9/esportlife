@@ -80,8 +80,8 @@ node crawl.mjs search "關鍵字"      # 全文搜尋找正確頁題（題名猜
 
 ## S24b 產物與重跑流程
 
-`target_players.csv`（200 筆）與 `team_history.json`（42 隊）由 gen-*.mjs 從
-枚舉清單＋raw 隊頁生成，全部可重現：
+`target_players.csv`（200 筆）與 `team_history.json`（台港澳段 41 隊）由 gen-*.mjs
+從枚舉清單＋raw 隊頁生成，全部可重現：
 
 ```bash
 # 1. 重新枚舉分類（清單檔再生）
@@ -101,9 +101,11 @@ node crawl.mjs crawl teams_all.txt  # 隊頁 raw（gen-team-history 的原料）
 node gen-team-history.mjs --all   # → team_history.json（人工表 ABBREVIATIONS/RENAMES 已內建）
 ```
 
-⚠ `gen-team-history.mjs` 的 `ABBREVIATIONS`（縮寫）與 `RENAMES`（更名/繼承）是
-**人工維護的單一來源**（電競圈通用縮寫＋隊頁散文明示的繼承關係，2026-08-16 定案）。
-重跑會用表內值覆寫輸出，不要改產出檔、要改表。`--all` 只影響警告輸出。
+⚠ `gen-team-history.mjs` 的 `LEAGUE_REGION`（台港澳段賽區：GPL/LMS/PCS）、
+`ABBREVIATIONS`（縮寫）與 `RENAMES`（更名/繼承）是**人工維護的單一來源**
+（電競圈通用縮寫＋隊頁散文明示的繼承關係，2026-08-16 定案；賽區 2026-08-17
+去除國籍返工時改人工表）。重跑會用表內值覆寫輸出，不要改產出檔、要改表。
+`--all` 只影響警告輸出。台港澳段 region 是**生涯主力賽區**（非國籍、非最後賽區）。
 賽事頁清單（`events_twhkmo.txt`，31 頁）手寫維護：GPL 2012–2014 9 頁、
 LMS 2015–2019 10 頁、PCS 2020–2024 10 頁、LCP 2025 3 頁（格式跨年不一，見
 24a 頁題陷阱第 4 點）。

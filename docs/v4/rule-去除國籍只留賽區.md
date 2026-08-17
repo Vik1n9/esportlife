@@ -46,11 +46,22 @@
 
 - `cleaned_players.json`：選手層無 country 欄（parse 時讀過、組裝丟棄）✅
 - `tools/npc/gen-clean.mjs`：career 事件只帶 team_id＋finishes，無國籍 ✅
-- 台港澳 21 隊 region=null（gen-team-history.mjs 標 UNCLASSIFIED 人工補的殘留）：
-  規則不衝突，但賽區缺值——修訂時可一併補（如 BT→GPL、BJK→TCL）。
+- 國際段 21 隊 region=null（`gen-team-history-intl.mjs` 標 UNCLASSIFIED，皆 Worlds/MSI
+  外卡隊，qualifier 訊號不足）：規則不衝突，但賽區缺值——屬 S24c 國際段範疇，本
+  返工不動（例 BT→GPL、BJK→TCL 可另案補）。
 
-## 待使用者拍板
+## 修訂完成（2026-08-17，S24b 返工）
 
-1. 台港澳 42 隊的「主要賽區」判定標準（最後賽區？生涯主力賽區？）
-2. 賽區值清單：LMS（2015-2019）／PCS（2020-2024）／LCP（2025）／GPL（2013-2014）
-   在 team_history 是否併用，或統一以 split 名冊為準（cleaned 層）。
+上面三處「不相合」已修（見 24b 交接筆記「返工」節）：
+
+1. `gen-team-history.mjs` 的 `LEAGUE_REGION` 人工表產出賽區，`team_history.json`
+   台港澳段 42→41 隊（Taiwan 代表隊無聯賽賽區，移出）、region 改 GPL/LMS/PCS。
+2. 24a 説明書 64 行補「country 僅供消歧義，清洗不保留」。
+3. 24d 説明書補「country 解析只供消歧義評分，不進 cleaned_players.json」。
+
+## 已拍板（2026-08-17）
+
+1. 台港澳隊「主要賽區」判定標準＝**生涯主力賽區**（主力年代佔比；非最後賽區——
+   例 CFO/DCG/PSG 現役 LCP 但主力 PCS，標 PCS）。
+2. 賽區值清單＝**併用 LMS（2015-2019）／PCS（2020-2024）／GPL（2013-2014）**，
+   與國際段同一套賽區代碼語義；逐年精確賽區以 split 名冊（cleaned 層）為準。

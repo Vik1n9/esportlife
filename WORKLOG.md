@@ -1,3 +1,46 @@
+## 2026-08-17 — S24b 返工：region 去國籍只留賽區，台港澳 42 隊由 TW/HK 改主力賽區
+
+- **方向**：S25 交接筆記留了「S24b region（TW/HK 國籍欄）待返工」——`team_history.json`
+  台港澳段 region 存的是 Infobox 國籍（TW 37／HK 5），與國際段（賽區代碼）同一欄位
+  兩種語義，違反 2026-08-17「去除國籍只留賽區」定案（`docs/v4/rule-去除國籍只留賽區.md`）。
+  返工把台港澳段 region 改存**生涯主力賽區**，判定標準由使用者拍板＝**主力年代**
+  （非最後賽區），值清單併用 GPL/LMS/PCS（與國際段同語義）。
+
+- **實作**（`tools/npc/gen-team-history.mjs`）：刪掉 `regionOf`（讀 Infobox
+  region/location 兩欄互補那套＋HKA/F-Soul 例外表）與 `LOCATION_TO_REGION`，換成
+  人工表 `LEAGUE_REGION`（display_name → 賽區，41 隊：LMS 20／PCS 18／GPL 3）。
+  `gen-team-history-intl.mjs` 重跑後疊回國際段（257 隊不動），`team_history.json`
+  299→**298 隊**。
+
+- **⚠ Taiwan（國家代表隊）移出台港澳段**：其 region 本為國籍 TW，代表隊無聯賽賽區，
+  改 null 被過濾（42→41）。`TWN` 未被任何清洗/別名引用，零下游影響。active_years
+  null 由三隊（Fireball／G-Rex Infinite／Taiwan）減為兩隊。
+
+- **⚠ 順手封掉的連鎖**：重跑 `gen-team-history-intl.mjs` 會重建 S25 已併的 `Taipei
+  J Team`（TJ）——在 `NAME_ALIASES` 加 `taipei j team → j team` 封掉（S25 交接筆記
+  「建議加排除」落地，否則返工就把 S25 的合併沖掉）。
+
+- **判定基準（寫進表頭註解）**：主力年代佔比；GPL→LMS 交界隊以 LMS 為主（TPA 等
+  2015 起主聯賽）；純 GPL 隊（TPS／GB）與早期 TeSL/GPL 身分隊（Wayi Spider）留 GPL；
+  PCS 2020+ 隊留 PCS（CFO/DCG/PSG 現役 LCP 但主力 PCS，使用者例 PSG→PCS 為準）。
+  判定存疑的兩隊（Alpha Esports→LMS、Wayi Spider→GPL）已註記，表是人工可審。
+
+- **文件同步**：24b 交接筆記加「返工」節、24a/24d 補「country 僅供消歧義、清洗不
+  保留」、rule 檔待拍板→已拍板、README 補 LEAGUE_REGION 單一來源。`crawl-lp.mjs` 的
+  `RESIDENCY`／`REGION_KEYWORDS` 已涵 LMS/PCS/GPL 不需改；LCP 刻意不列（跨台日越澳，
+  無法映射單一 residency）。
+
+- **實測結論**：`team_history.json` 台港澳段 41 隊 region 全為賽區代碼，diff 只動
+  41 筆 region＋刪 Taiwan 1 隊（國際段 byte-identical）。重跑 `gen-clean.mjs`：
+  cleaned **2650 筆不變**（byte-identical）——TeamResolver 只用 team_id／display_name
+  不吃 region，證實「region 不影響 career」。`npm test` **22792 項全綠**（純工具站，
+  `src/`／`tests/` 未動，項數不變）。
+
+- **未一起處理**：國際段 21 隊 region=null（Worlds/MSI 外卡隊，qualifier 訊號不足）
+  屬 S24c 範疇未動；OCR 審查閘門本環境無 `ocr` LLM，比照既往記入交接筆記下次補審。
+
+- **狀態**：完成。版號不動；SAVE_VERSION 不變；無常數變動。
+
 ## 2026-08-17 — S25 資料清洗完成：巢狀模板的 `}}` 提早終止，每張名冊卡只吃到第一名選手
 
 - **方向**：S24c 返工補齊 118 隊後，S25 續做收尾。抽樣核對 Crownie（BDS 2023）時發現

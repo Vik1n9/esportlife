@@ -155,6 +155,10 @@ S24c 交接筆記把 26 頁抓不到判斷為「持續性限流」，本站確�
 `tools/npc/unresolved_disambig_lp.tsv`（每行：目標＋所有候選頁題）交 **S25 實體
 對齊**——材料備齊，判斷留給有清洗後欄位的那一站。
 
+⚠ 這裡的 `country=…` 解析**只供消歧義評分**，不進 `cleaned_players.json`——
+2026-08-17 去除國籍定案：頁題國籍後綴（`Chinese player`）是 Liquipedia 頁題
+標識（抓取消歧義用），與「資料不存國籍」不衝突。
+
 另有 **1 筆型別不符**：`Rogue (Australian player)` 剝掉後綴撞上同名歐洲戰隊
 （Leaguepedia `Rogue` 重定向到戰隊頁），抓回來是 `Infobox Team`。已查證修正為
 `Rogue (Jake Sharwood)`（country=Australia、residency=PCS、role=Support，

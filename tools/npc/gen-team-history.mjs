@@ -5,12 +5,12 @@
  * S24b 的隊目錄邏輯：吃分類枚舉清單（crawl.mjs enum-cat 產出）＋ raw_data 隊頁，
  * 解析 {{Infobox team}} 產出 team_history.json 的台港澳段 draft。
  *
- * 解析規則（2026-08-16 實測隊頁後定）：
- * - region 判定兩欄互補：先看 region 欄（taiwan/tw/jp/pacific/…），再看 location
- *   欄。單看任一欄都會誤判——實測 Taipei Assassins／Machi Esports 標
- *   region=Southeast Asia 但 location=Taiwan（PCS 合併聯賽時代殘留標法）；
- *   G-Rex 標 location=Hong Kong（英皇娛樂總部）但 region=taiwan。兩欄都含糊
- *   的隊落 UNCLASSIFIED，人工補。
+ * 解析規則（2026-08-16 實測隊頁後定；2026-08-17 region 改賽區）：
+ * - region 依 LEAGUE_REGION 人工表（display_name → 生涯主力賽區）：
+ *   GPL（2012–2014）／LMS（2015–2019）／PCS（2020–2024）／LCP（2025–）。
+ *   2026-08-17「去除國籍只留賽區」定案後，不再讀 Infobox 的 region／location
+ *   兩欄（那是國籍/地區，實測互相矛盾不可信——見 24b 交接筆記）。不在表內的隊
+ *   落 null（Taiwan 國家代表隊無聯賽賽區；日韓越澳馬外賽區隊歸 S24c 國際段）。
  * - display_name 用頁題，不用 Infobox name——實測 BUFF 頁的 Infobox name=Afro
  *   Beast（前名），顯示名跟 Infobox 會跟身份（頁題）脫鉤。頁題才是消歧義
  *   穩定主鍵。Infobox name 與頁題不符時警告（更名候選，人工核對）。
@@ -106,11 +106,57 @@ const RENAMES = {
   'Beyond Gaming': { predecessors: ['ahq'], successors: [] },
 };
 
-const LOCATION_TO_REGION = new Map([
-  ['taiwan', 'TW'],
-  ['hong kong', 'HK'],
-  ['macau', 'MO'],
-]);
+// 台港澳段賽區對照表（人工維護的單一來源；2026-08-17「去除國籍只留賽區」定案）。
+// 值＝生涯主力賽區（該隊生涯主要時期所在聯賽，非最後賽區），跨代取主力年代：
+//   GPL 2012–2014／LMS 2015–2019／PCS 2020–2024／LCP 2025–。
+// 判定基準（2026-08-17 使用者拍板）：主力年代佔比；GPL→LMS 交界隊以 LMS 為主
+// （TPA 等 2015 起主聯賽）；純 GPL 隊（TPS／GB，生涯止於 LMS 前後）與早期
+// TeSL/GPL 身分隊（Wayi Spider）留 GPL。⚠ Taiwan（國家代表隊）無聯賽賽區，
+// 不入本表（region=null，移出台港澳段）。不在表內的隊一律 null（外賽區隊歸
+// S24c 國際段裁決）。
+const LEAGUE_REGION = {
+  'Ahq e-Sports Club': 'LMS',
+  'Alpha Esports': 'LMS',
+  'BUFF': 'LMS',
+  'Beyond Gaming': 'PCS',
+  'Beyond Gaming Academy': 'PCS',
+  'CTBC Flying Oyster': 'PCS',
+  'CTBC Flying Oyster Academy': 'PCS',
+  'Deep Cross Gaming': 'PCS',
+  'Deep Cross Gaming Academy': 'PCS',
+  'Dewish Team': 'PCS',
+  'Dragon Gate Team': 'LMS',
+  'F-Soul Esports': 'LMS',
+  'FRANK Esports': 'PCS',
+  'Fireball': 'LMS',
+  'Fish Dive Team': 'LMS',
+  'Flash Wolves': 'LMS',
+  'G-Rex': 'LMS',
+  'G-Rex Infinite': 'LMS',
+  'Gamania Bears': 'GPL',
+  'HELL PIGS': 'PCS',
+  'Hong Kong Attitude': 'LMS',
+  'HungKuang Falcon': 'LMS',
+  'Hurricane Gaming': 'PCS',
+  'J Team': 'LMS',
+  'MAD Team': 'LMS',
+  'Machi Esports': 'LMS',
+  'MachiX': 'LMS',
+  'Meta Falcon Team': 'PCS',
+  'Midnight Sun Esports': 'LMS',
+  'Nate.A': 'PCS',
+  'Nate9527': 'PCS',
+  'PSG Talon': 'PCS',
+  'PSG Talon Academy': 'PCS',
+  'Raise Gaming': 'LMS',
+  'SillySilly Gaming': 'PCS',
+  'Taipei Assassins': 'LMS',
+  'Taipei Bravo': 'PCS',
+  'Taipei Snipers': 'GPL',
+  'Team Afro': 'LMS',
+  'Wangting': 'PCS',
+  'Wayi Spider': 'GPL',
+};
 
 function parseInfobox(wikitext) {
   const m = wikitext.match(/\{\{Infobox team\n([\s\S]*?)\n\}\}/);
@@ -128,26 +174,6 @@ function firstYear(value) {
   const m = value.match(/(\d{4})/);
   return m ? Number(m[1]) : null;
 }
-
-function regionOf(box) {
-  const region = (box.region ?? '').toLowerCase();
-  const location = (box.location ?? '').toLowerCase();
-  if (region.includes('taiwan') || region === 'tw') return 'TW';
-  if (region.includes('hong kong') || region === 'hk') return 'HK';
-  if (region.includes('macau') || region === 'mo') return 'MO';
-  if (location.includes('taiwan')) return 'TW';
-  if (location.includes('hong kong')) return 'HK';
-  if (location.includes('macau')) return 'MO';
-  return null;
-}
-
-// 人工例外：Liquipedia 兩欄互相矛盾時的裁決（2026-08-16）。
-// HKA：location=Hong Kong、region=Taiwan——隊名與 location 一致，region 是誤標。
-// F-Soul：location=Hong Kong、region=tw——香港隊（隊員全 HK）打 LMS，reg=tw 是
-//   聯賽區域標記（LMS 是台灣聯賽），與 HKA 同型誤標。
-// G-Rex／G-Rex Infinite 反向（location=Hong Kong、region=taiwan）靠 region 優先
-// 規則已拿對（TW，與 G-Rex 姊妹隊一致）。⚠ region=tw 對香港隊不可信。
-const REGION_OVERRIDES = { 'Hong Kong Attitude': 'HK', 'F-Soul Esports': 'HK' };
 
 const args = process.argv.slice(2);
 // --all：連外賽區隊（region 為 null 的 LCP/PCS 混入隊）一起輸出——S24c 裁決
@@ -173,7 +199,7 @@ for (const title of teams) {
     console.error(`警告: ${title} 無 {{Infobox team}} 段落`);
     continue;
   }
-  const region = REGION_OVERRIDES[title] ?? regionOf(box, title);
+  const region = LEAGUE_REGION[title] ?? null;
   const entry = {
     team_id: box.abbreviation ?? ABBREVIATIONS[title] ?? null,
     display_name: title,
@@ -187,16 +213,16 @@ for (const title of teams) {
   }
   if (!region) {
     unclassified.push({ title, entry });
-    console.error(`UNCLASSIFIED: ${title}（region=${box.region ?? '(無)'}／location=${box.location ?? '(無)'}）`);
+    console.error(`UNCLASSIFIED: ${title}（不在 LEAGUE_REGION 表）`);
   }
   entries.push(entry);
 }
 
 const out = {
   generated: new Date().toISOString().slice(0, 10),
-  region: '台港澳段（S24b）',
-  // 外賽區隊（LCP/PCS 分類混入的日越澳菲隊）不入本段——S24c 國際段決定去留。
-  // 偵測到的外隊：ACK/DFM/SHG/GAM/GZ/GZA/MVK/SWPE/TSW（region 全 null，被過濾）。
+  region: '台港澳段（S24b，region 為生涯主力賽區：GPL/LMS/PCS/LCP）',
+  // 外賽區隊（LCP/PCS 分類混入的日韓越澳馬隊）不入本段——S24c 國際段決定去留。
+  // 偵測到的外隊：ACK/DFM/SHG/GAM/GZ/GZA/MVK/SEM9/SEM9 WPE/TSW（不在表內，被過濾）。
   teams: allMode ? entries : entries.filter((e) => e.region),
 };
 writeFileSync(join(ROOT, 'team_history.json'), JSON.stringify(out, null, 2) + '\n');
