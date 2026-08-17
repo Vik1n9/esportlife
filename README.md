@@ -2,7 +2,15 @@
 
 純文字的 LoL 電競選手生涯養成遊戲。從 2015 年網咖出道，一路打進職業的完整生涯模擬，退役時生成專屬生涯傳記。
 
-👉 **[點我直接遊玩Demo版](https://vik1n9.github.io/esportlife/)**
+👉 **[點我直接遊玩 Demo 版](https://vik1n9.github.io/esportlife/)** ·
+**[Alpha 內測版](https://vik1n9.github.io/esportlife/alpha/)** ·
+**[內容編輯器](https://vik1n9.github.io/esportlife/tools/)**
+
+| 版本 | 連結 | 說明 |
+| --- | --- | --- |
+| Demo | [vik1n9.github.io/esportlife](https://vik1n9.github.io/esportlife/) | PRO 起點、三年期程（36 個月）。期滿未觸發結局即以「DEMO 結束」收束，適合快速體驗核心玩法 |
+| Alpha 內測 | [vik1n9.github.io/esportlife/alpha](https://vik1n9.github.io/esportlife/alpha/) | AMATEUR 起點、完整生涯（2012 網咖盃→業餘→職業→退役，無年份上限）。框架已架好，內容持續扩充中 |
+| 內容編輯器 | [vik1n9.github.io/esportlife/tools](https://vik1n9.github.io/esportlife/tools/) | 事件卡／特質卡／任務卡／配方／天生特質的網頁編輯器。填表後可下載 `.js` 片段，靠 PR 推回主倉 |
 
 > 本專案**靈感來自** [YaKyuLife（棒球生涯模擬器）](https://github.com/LeoGGcat/yakyulife)，
 > 但不含原作者程式碼，詳見「[授權與出處](#授權與出處)」。
