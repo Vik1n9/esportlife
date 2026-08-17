@@ -46,7 +46,10 @@ import { teamsOf } from './roster.js';
 // `when` 讀得到的連續事件記憶）與 eventCounts（逐卡出場次數＋卡片宣告的具名計數，
 // 「觸發 N 次後開新事件／授予特質」的門檻讀它）——舊存檔缺這兩欄會讓所有連鎖條件
 // 恆偽（連鎖卡永遠不來）、計數從中途重新起算，故作廢
-export const SAVE_VERSION = 24;
+// v25：隊友接 NPC 池（S28，§23.6）。`state.mates` 每項從 `{ name, rating }` 擴充為
+// `{ npcId|null, name, position, rating }`——職業期隊友存 NPC 引用（`npcId` 為
+// player_id），業餘期與合成隊友為 null。舊存檔缺 npcId／position 欄位，故作廢
+export const SAVE_VERSION = 25;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };

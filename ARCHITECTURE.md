@@ -37,7 +37,12 @@ esportlife/               # repo 根目錄，GitHub Pages 直接服務這一層
 │   │   ├── events.js quests.js trainingCards.js roleplay.js
 │   │   │                   # 事件卡 / 生涯任務卡 / 訓練事件卡 / 扮演卡
 │   │   ├── biography.js     # 生涯傳記模板（§15.5，拼接非生成）
-│   │   └── eras.js leagues.js teams.js coaches.js heroes.js disband.js
+│   │   ├── eras.js leagues.js teams.js coaches.js heroes.js disband.js
+│   │   ├── mateNames.js     # 虛構隊友名池（S23.6：業餘期／合成隊友取名）
+│   │   └── npc/             # ★ 史實 NPC 資料（S27＋，生成器產、勿手改）
+│   │       ├── roster.js      #   NPC 名冊（隊友／對手消費，938 筆）
+│   │       ├── percentiles.js #   §14.3 母體百分位靜態表（S26）
+│   │       └── teamHistory.js #   戰隊縮寫→賽區（S28，隊友抽選與縮寫顯示）
 │   │
 │   ├── kernel/              # ★ 被多個階段共用，改動最少
 │   │   ├── series.js        #   BO 系列賽 + 種子序換算
@@ -382,7 +387,7 @@ S02 血緣審計的產出。原作者未回覆授權申請，以「未獲正式�
 | `ui/storage.js` | A | a71ee13 建立 | ✅ V4 UI 階段重寫（S16） |
 | `ui/summary.js` | A | a71ee13 建立 | ✅ V4 UI 階段重寫（S16；S21 接生涯標籤） |
 
-統計：`src/` 下 82 個 `.js`（12240 行）＋ 1 個 `.css`。`data/world.js` 已於 e07427c 拆成
+統計：`src/` 下 94 個 `.js`（15293 行）＋ 1 個 `.css`。`data/world.js` 已於 e07427c 拆成
 `regions/*` 與 `formats/*`、`data/abilities.js` 已於 876c76b 拆成 `attributes.js`／
 `skills.js`、`engine/abilities.js` 於 876c76b 更名 `attributes.js`、`engine/team.js`
 於 667ec4c／6ec9575 更名 `roster.js`、`engine/international.js` 於 3af552d 併入

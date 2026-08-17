@@ -2,7 +2,10 @@
  * 賽區以外的隊名與人名。純資料。
  *
  * 各賽區的職業隊名住在 `data/regions/*`——那是賽區的屬性。這裡放的是不屬於任何
- * 賽區的東西：業餘起點的場景（網咖隊與自辦盃賽）與隨機隊友的 ID。
+ * 賽區的東西：業餘起點的場景（網咖隊與自辦盃賽）。
+ *
+ * 隊友名池已退役（S23.6）：`MATE_NAMES` 那十二個真實選手 ID 進 NPC 池當
+ * `player_id`，業餘期與合成隊友改用 `data/mateNames.js` 的虛構名池。
  *
  * 業餘的兩張表（隊伍＋賽事名）合併成同一個場景物件：戰報與簽約都是從「這個業餘
  * 世界」取素材，拆成兩個檔沒有意義。對外仍以 `TEAMS_AMATEUR`／`AMATEUR_CUPS`
@@ -38,5 +41,3 @@ const AMATEUR_SCENE = {
 
 export const TEAMS_AMATEUR = AMATEUR_SCENE.teams;
 export const AMATEUR_CUPS = AMATEUR_SCENE.cups;
-
-export const MATE_NAMES = ['Maple', 'Betty', 'Hanabi', 'Kaiwing', 'River', 'Doggo', 'Unified', 'Ziv', 'Westdoor', 'Mountain', 'Rest', 'Kongyue'];

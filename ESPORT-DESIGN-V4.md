@@ -1,4 +1,4 @@
-# 電競人生：LoL 職業選手生涯模擬 — 規格企劃書 v4.7.2（Rogue-like 重構版）
+# 電競人生：LoL 職業選手生涯模擬 — 規格企劃書 v4.7.3（Rogue-like 重構版）
 
 > 本文件為完全重構後的設計規格，**取代 v3.0（ESPORT-DESIGN.md）**。
 > v3 源自棒球生涯模擬的未授權架構，已整體捨棄；本版本從零建立，不帶任何舊架構殘留。
@@ -2782,6 +2782,16 @@ P_npc(年)   = peak.rating × lifecycleFactor(年齡) × psychStability(psych)
   **`SAVE_VERSION` 由 S28 bump**（存檔結構的第一個動手點）。
 - **校準護欄**（S30 量測）：隊友 rating 分布與 par±7 窗口的偏移量寫進交接筆記；
   歷史母體若偏，在 S27 的映射層調，**不動 `matesAverage`**。
+
+> **S28 落地**（v4.7.3）：`state.mates` 已擴 `{ npcId|null, name, position, rating }`，
+> SAVE_VERSION 25；職業期隊友自 `src/data/npc/roster.js` 抽（年代×位置×賽區＋
+> par±7→±14 窗口），賽區判準吃 `src/data/npc/teamHistory.js`（`teamRegionOf`，
+> 生成器 `gen-team-history-esm.mjs`）；業餘期與合成隊友取名自 `src/data/mateNames.js`
+> 虛構名池，`MATE_NAMES` 已退役。⚠ **160 段基線偏移**（隊友 rating 來源換了）：
+> 平均巔峰 72.84→**74.16**、頂端落差 0.162→**0.172**（餘裕 0.092）、世界賽冠軍人均
+> 0.035→**0.056**、平均職業年資 12.4→**11.4**、傳說持有 23.1%→**20.6%**——交 S30
+> 重校，本站不推常數。`data/regions/*` 有對應戰隊的顯示維持在地名（regions 名不是
+> `team_id`），縮寫顯示的落點是隊友卡（`npcId` → 隊縮寫）與無 regions 對應的隊。
 
 ### 23.7 資料缺口備援規則定案（v4.6.0，S24 吃）
 

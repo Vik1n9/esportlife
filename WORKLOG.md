@@ -1,3 +1,42 @@
+## 2026-08-18 — S28 隊友接 NPC 池：MATE_NAMES 退役、虛構名池上線、SAVE_VERSION 25
+
+- **方向**：隊友還是 12 個 ID 隨機抽 4 人（`MATE_NAMES`）＋ rating 隨機配。S27 的
+  `npc_roster.json` 讓「隊友是有賽區有年代的真實選手」成立——S23.6 定案的隊友池
+  規則在這裡落地：職業期從 NPC 池抽（年代×位置×賽區三道過濾、`par±7` 窗口漸寬
+  不空手），業餘期保留 `par±7` 但名字改吃虛構名池（`MATE_NAMES` 十二名全是真實
+  選手 ID，進 NPC 池當 `player_id`，不能再兼業餘虛構名）。抽不到真實 NPC 的洞
+  （海外池薄、缺口年份）落合成隊友——與舊分布同構、基線不因此位移。
+
+- **實作**：
+  - `src/engine/roster.js`：`rollRoster` 依 stage 分流。PRO 走 `pickProMates`——
+    玩家外四位置各一；`active_years` 覆蓋當季年份×`teamRegionOf` 同賽區×
+    `peak/birth_year` 非缺；rating＝`npcRatingInYear`（`peak.rating × ceiling_curve`
+    包絡，§23.3，峰年=1.0）取 `par±7`，空則 ±10 → ±14，全空落合成（虛構名、
+    `rng.int(par−7, par+7)`）。業餘走 `rng.sample(MATE_FICTIONAL, 4)`＋`par±7`。
+    信任重置／教練／mateMorale 原樣（S23.6 明令不動）。
+  - `src/data/mateNames.js`（新）：24 個非史實綽號。`src/data/teams.js`：`MATE_NAMES`
+    退役。`src/data/npc/teamHistory.js`（新，生成器 `gen-team-history-esm.mjs`）：
+    戰隊縮寫→賽區，`teamRegionOf`／`teamDisplayName`。選手面板隊友卡顯示
+    「名字（隊縮寫）·位置 rating」，§22.4 對 NPC 同適用（心理與教練評價不顯示）。
+  - `SAVE_VERSION` 24 → 25（S23 定案歸本站 bump）；版本 v4.7.2 → **v4.7.3**（Z 級）。
+
+- **⚠ 基線偏移是真的、不是 bug**：隊友 rating 來源從均勻 `par±7` 換成「窗口內篩選的
+  NPC 當年強度」——平均巔峰 72.84→74.16、世界賽冠軍人均 0.035→0.056（隊友變強 →
+  國際賽兌現率升）、職業年資 12.4→11.4。頂端落差 0.162→0.172，餘裕 0.092，不變式
+  全綠。S23.6 校準護欄：偏移在 S27 映射層調、不動 `matesAverage`——**S30 拿這張
+  表當對照，S28 不推常數**。
+
+- **實測結論**：160 段基線見上表（交接筆記）。PRO 起點（DEMO）2015 台港澳能抽到
+  真實選手（Morning/Achie/BeBe/Albis），LCK 2020 全真實（Doran/Spirit/Teddy/
+  Effort）；HOME 2036 缺口年份全合成（虛構名）——三種路徑都實測過。`npm test`
+  **22817 項全綠**（+27 新檢查）。
+
+- **未一起處理**：出生流重排（§1.4 對齊）刻意不做——S28 隊友抽選不碰出生流，重排
+  只會位移全部既有種子、攪亂 S30 對照，TODO 留在 `state.js:110`；戰報卡維持中文隊名
+  （縮寫落點是隊友卡與 S29 對手顯示）；OCR 閘門環境無 LLM 未跑，記入交接筆記補審。
+
+- **狀態**：完成。`node docs/v4/next-station.mjs` 回報 S29 為下一站（55／63）。
+
 ## 2026-08-18 — S27 參數生成：史實轉 NPC 名冊，LLM 語意環境沒 API、改用規則＋執行者覆寫
 
 - **方向**：`cleaned_players.json`（S25）是史實紀錄，還不是遊戲參數。本站把 938 筆

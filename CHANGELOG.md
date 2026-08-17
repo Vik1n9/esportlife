@@ -1,3 +1,23 @@
+## [v4.7.3] - 2026-08-18
+
+### 隊友接 NPC 池（S28，§23.6）
+
+隊友抽選從「12 個 ID 隨機抽 4 人」換成史實母體：職業期從 `src/data/npc/roster.js`
+抽（年代×位置×賽區三道過濾，rating 讀 NPC 當年強度 `P_npc`，par±7 窗口放寬到
+±14 不空手）；業餘期保留 par±7、名字改吃虛構名池；`MATE_NAMES` 退役。存檔結構
+變動（`state.mates` 擴 `npcId/position`），SAVE_VERSION 24 → 25。
+
+- **`src/engine/roster.js`**：`rollRoster` 依 stage 分流——PRO 走 `pickProMates`
+  （NPC 池＋窗口＋合成兜底）、業餘走虛構名池；新增 `npcRatingInYear`（§23.3
+  `peak.rating × ceiling_curve` 包絡）。
+- **`src/data/npc/teamHistory.js`**（新，生成器 `gen-team-history-esm.mjs`）：戰隊
+  縮寫→賽區的遊戲側單一來源，隊友抽選的賽區過濾與縮寫顯示讀它。
+- **`src/data/mateNames.js`**（新）：虛構隊友名池（業餘期＋合成隊友取名）。
+- **選手面板隊友卡**：職業期隊友顯示「名字（隊縮寫）·位置 rating」；心理六維與
+  教練評價不顯示（§22.4 對 NPC 同適用）。
+- **基線偏移**（交 S30）：平均巔峰 72.84→74.16、頂端落差 0.162→0.172（餘裕
+  0.092）、世界賽冠軍人均 0.035→0.056、職業年資 12.4→11.4、傳說持有 23.1%→20.6%。
+
 ## [v4.7.2] - 2026-08-18
 
 ### NPC 名冊生成（S27）
