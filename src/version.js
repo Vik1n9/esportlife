@@ -10,4 +10,4 @@
  * 共用同一套 `X.Y.Z`）。零建置專案的瀏覽器讀不到 `package.json`，所以這裡只能是
  * 字面值——守住一致性的是 `tests/kernel/version.mjs`，不是程式結構。
  */
-export const APP_VERSION = 'v4.6.8';
+export const APP_VERSION = 'v4.6.9';

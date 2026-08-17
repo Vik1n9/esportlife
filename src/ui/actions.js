@@ -13,18 +13,44 @@ const num = (v) => (Number.isInteger(v) ? String(v) : v.toFixed(1));
 
 function actRoot() { return byId('act'); }
 
-export function clearActions() { clear(actRoot()); }
+export function clearActions() {
+  clear(actRoot());
+  setEventFocus(false);
+}
+
+/**
+ * 事件聚焦（手機）：卡牌問答期間把狀態帶下半（賽區隊伍列／生涯任務列／月度燈）收掉，
+ * 把最大幅度的高度讓給事件文本區。體力條與第一列（年月／☰／↺）不收——體力必須
+ * 常駐可見（§6／§22.5），第一列是選手資料與重開的唯一入口。
+ *
+ * 收哪幾列由 CSS 決定（只在 <720px 生效），這裡只負責掛旗標。
+ */
+function setEventFocus(on) {
+  document.body.classList.toggle('event-focus', on);
+}
+
+/**
+ * 收合／展開拇指區。屬性條與決策槽**同進退**：兩者同屬拇指操作區（§22.1），
+ * 只收決策槽的話讓出來的高度不到一半，收了等於白收。
+ *
+ * ⚠ 屬性條走 class 不走 `hidden` 屬性——`ui/attrbar.js` 的 `renderAttrBar()` 每次
+ * sync 都寫 `bar.hidden=false`，用 `hidden` 表示收合會被下一個 beat 衝掉。
+ *
+ * 這是唯一入口：`main.js` 的切換按鈕與下方 `expandAct()` 都呼叫它，按鈕字樣才不會
+ * 與實際狀態脫節（按鈕寫著「展開選項」但槽已經是開的）。
+ */
+export function setSlotCollapsed(collapsed) {
+  actRoot().classList.toggle('collapsed', collapsed);
+  byId('attrbar')?.classList.toggle('collapsed', collapsed);
+  const toggle = byId('act-toggle');
+  if (toggle) toggle.textContent = collapsed ? '⌃ 展開選項' : '⌄ 收合選項';
+}
 
 /**
  * 新一輪選項一律把槽展開。固定框架（S43）之後玩家會常用「收合選項」把文本區讓大
- * 來讀長文，收著的槽等於答不了題——展開時連按鈕字樣一起歸位，否則按鈕寫著
- * 「展開選項」但槽已經是開的。
+ * 來讀長文，收著的槽等於答不了題。
  */
-function expandAct() {
-  actRoot().classList.remove('collapsed');
-  const toggle = byId('act-toggle');
-  if (toggle) toggle.textContent = '⌄ 收合選項';
-}
+function expandAct() { setSlotCollapsed(false); }
 
 /**
  * 是否有正在等待玩家輸入的 beat（選項／加點）。
@@ -70,15 +96,19 @@ function promptOptions({ title, options }, anchor) {
     clear(act);
     if (title) act.appendChild(el('div', { class: 'act-title', text: title }));
 
-    // 提問的卡片與決策槽建立視覺連線：卡片標記等待中，並在卡尾指向下方
+    // 提問的卡片與決策槽建立視覺連線：卡片標記等待中，並在卡尾指向下方。
+    // 有 anchor＝卡牌問答（事件卡／扮演卡），這時進入事件聚焦；規劃型決策（訓練菜單、
+    // 備賽戰術）不聚焦——那些回合的月度燈與賽區資訊正是決策要讀的東西
     if (anchor) {
       anchor.classList.add('awaiting');
       anchor.appendChild(el('div', { class: 'card-ask', text: title || '你的選擇' }));
     }
+    setEventFocus(!!anchor);
 
     const pick = (opt) => {
       highlightAttrs(null);
       clear(act);
+      setEventFocus(false);
       awaitingInput = false;
       if (anchor) {
         anchor.classList.remove('awaiting');
@@ -155,6 +185,7 @@ export function askAllocation(state, spec, onChange) {
   return new Promise((resolve) => {
     const act = actRoot();
     expandAct();
+    setEventFocus(false);
     clear(act);
 
     let pool = spec.points || 0;

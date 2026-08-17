@@ -11,12 +11,15 @@
    --edge   髮絲線（只畫容器與分隔，不畫控制項）
 
    鐵則（動不得，JS 與 HTML 靠它們維持可見性）：
-   [hidden] 與 #act.collapsed 必須 display:none!important；
+   [hidden] 與 #act.collapsed／#attrbar.collapsed 必須 display:none!important；
    #panel 窄螢幕（<720px）預設隱藏、.open 才顯示為底部抽屜；
    寬螢幕（≥720px）#panel 常駐為右欄，.open 不参与顯隱——由 CSS 斷點控制；
    .yr-block.collapsed 收年度；
    #bd-quests 無任務時由 JS 切 [hidden] 整列折疊（§22.5）；
-   #attrbar 常駐、DOM 上緊貼 #act 上方，中間不得插入其他區塊（§22.1）；
+   #attrbar 常駐、DOM 上緊貼 #act 上方，中間不得插入其他區塊（§22.1）——
+   唯一例外是玩家自己按「收合選項」，此時與 #act 同進退（.collapsed，v4.6.9）；
+   body.event-focus（卡牌問答期間，<720px）收 #bd-line／#bd-quests／#lamps，
+   體力條與第一列不得收（§6／§22.5 體力常駐可見）；
    #act 的高度是決策槽的載重規則（§22.2.1）：位置與高度固定，內容超出改槽內捲動——
    不得隨當月選項數量抽長縮短；生涯結束由 JS 切 [hidden] 整槽收掉。
    #board 由 #layout 包裹（非 #app 子元素），橫跨整寬（§22.6）；
@@ -107,14 +110,14 @@ button{font-family:var(--ui)}
 /* 列1：選手ID·位置·年齡 ｜ 年.月·階段 ｜ 距下階段倒數 ｜ ☰ ↺（§22.1，S38） */
 #bd-top{display:flex;align-items:center;gap:8px;padding-bottom:8px}
 #bd-name{
-  font-weight:600;font-size:15px;letter-spacing:.015em;white-space:nowrap;
+  font-weight:600;font-size:16px;letter-spacing:.015em;white-space:nowrap;
   overflow:hidden;text-overflow:ellipsis;flex:none;max-width:42%;
 }
-#bd-name small{color:var(--dim);font-weight:400;font-size:11px;margin-left:6px}
+#bd-name small{color:var(--dim);font-weight:400;font-size:12px;margin-left:6px}
 #bd-when{flex:1;display:flex;flex-direction:column;line-height:1.3;min-width:0}
-#bd-ym{font-family:var(--mono);font-size:13px;font-weight:700}
-#bd-stage{font-size:10.5px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-#bd-next{font-family:var(--mono);font-size:11px;color:var(--gold-ink);white-space:nowrap;flex:none}
+#bd-ym{font-family:var(--mono);font-size:14px;font-weight:700}
+#bd-stage{font-size:11.5px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#bd-next{font-family:var(--mono);font-size:12px;color:var(--gold-ink);white-space:nowrap;flex:none}
 #bd-top button{
   background:var(--raise);border:none;color:var(--dim);border-radius:var(--r-sm);
   font-size:14px;line-height:1;padding:6px 9px;cursor:pointer;flex:none;
@@ -129,7 +132,7 @@ button{font-family:var(--ui)}
 .tag.inj{color:var(--bad);background:#2a1a20}
 
 /* 列3：賽區 ｜ 隊伍名 ｜ 排名（排名資料待接，§21.3） */
-#bd-line{display:flex;align-items:center;gap:8px;font-size:12.5px;padding-bottom:7px}
+#bd-line{display:flex;align-items:center;gap:8px;font-size:13.5px;padding-bottom:7px}
 #bd-league{flex:none}
 #bd-team{
   color:var(--glow);font-weight:600;flex:1;text-align:center;
@@ -148,7 +151,7 @@ button{font-family:var(--ui)}
 #lamps{display:flex;gap:0;justify-content:space-between;margin:8px -14px 0;padding:0 8px;
   background:var(--panel);border-top:var(--hair) solid var(--edge)}
 .lamp{position:relative;flex:1;display:flex;justify-content:center;align-items:center;
-  color:var(--ghost);font-family:var(--mono);font-size:11px;padding:8px 0 7px}
+  color:var(--ghost);font-family:var(--mono);font-size:12px;padding:8px 0 7px}
 .lamp i{display:none}
 .lamp.done{color:var(--dim)}
 .lamp.on{color:#fff;font-weight:700}
@@ -168,7 +171,7 @@ button{font-family:var(--ui)}
 }
 @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .card h4{
-  font-size:12px;letter-spacing:.02em;color:var(--dim);font-weight:600;margin-bottom:6px;
+  font-size:13px;letter-spacing:.02em;color:var(--dim);font-weight:600;margin-bottom:6px;
   display:flex;align-items:center;gap:7px;
 }
 .card h4::before{content:'';width:7px;height:7px;background:var(--ghost);border-radius:50%;flex:none}
@@ -177,20 +180,20 @@ button{font-family:var(--ui)}
 .card.good h4{color:var(--good)}       .card.good h4::before{background:var(--good)}
 .card.info h4{color:var(--link)}       .card.info h4::before{background:var(--action)}
 .card.legendary h4{color:var(--legendary)} .card.legendary h4::before{background:var(--legendary)}
-.card-body{font-size:14.5px;font-weight:400}
+.card-body{font-size:16px;font-weight:400}
 
 /* 卡牌問答（§22.2，S43 改單一決策槽）：選項一律出在底部決策槽，卡片這邊只留兩個
    狀態——等待時的提示條，與選定後的定格文字。兩者都不可按，不與決策槽搶操作點 */
 .card.awaiting{border-color:var(--action)}
 .card.awaiting .card-ask{margin-top:10px;padding-top:8px;border-top:var(--hair) solid var(--edge);
-  font-size:12.5px;color:var(--link);font-weight:600;display:flex;align-items:center;gap:6px}
+  font-size:13.5px;color:var(--link);font-weight:600;display:flex;align-items:center;gap:6px}
 .card-ask::after{content:'↓';font-size:14px;animation:nudge 1.4s ease-in-out infinite}
 @keyframes nudge{0%,100%{transform:none}50%{transform:translateY(3px)}}
 .inline-picked{margin-top:10px;padding-top:8px;border-top:var(--hair) solid var(--edge);
-  color:var(--dim);font-size:12.5px}
+  color:var(--dim);font-size:13.5px}
 
 /* 等寬字的統計行（比數、結算） */
-.statline{font-family:var(--mono);font-size:12.5px;background:var(--night);
+.statline{font-family:var(--mono);font-size:13.5px;background:var(--night);
   border-radius:var(--r-sm);padding:6px 8px;margin-top:6px;line-height:1.7;color:var(--dim)}
 
 .table-wrap{overflow-x:auto;margin-top:6px}
@@ -258,56 +261,15 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 /* 賽事五拍成組（S41，§22.1）：同系列賽的五張卡收在同一個容器，標頭顯示賽事標題 */
 .series-block{background:var(--night);border:var(--hair) solid var(--edge);border-radius:var(--r-md);
   padding:8px 10px;display:flex;flex-direction:column;gap:8px}
-.series-head{font-size:11.5px;color:var(--link);font-weight:600;letter-spacing:.04em;padding-bottom:4px;
+.series-head{font-size:12.5px;color:var(--link);font-weight:600;letter-spacing:.04em;padding-bottom:4px;
   border-bottom:var(--hair) solid var(--edge)}
 .series-block .card{border:none;padding:8px 10px}
 
-/* 日誌檢視控制（S41，§22.1）：分類篩選 chips 與年度跳轉 */
-#log-bar{display:flex;align-items:center;gap:6px;padding:4px 14px;
-  background:var(--night);border-bottom:var(--hair) solid var(--edge)}
-/* 固定框架下每一列都在跟事件文本區搶高度：chips 換行會白吃 30px，改成單列橫捲 */
-#log-chips{display:flex;gap:4px;flex:1;flex-wrap:nowrap;overflow-x:auto;
-  scrollbar-width:none;padding-bottom:1px;
-  /* 右緣淡出：窄螢幕六個 chip 排不下，讓「還有東西可以捲」看得出來，不像被截斷 */
-  mask-image:linear-gradient(to right,#000 calc(100% - 14px),transparent)}
-#log-chips::-webkit-scrollbar{display:none}
-.chip{flex:none;background:var(--raise);border:var(--hair) solid var(--edge);color:var(--dim);
-  font-size:12px;padding:3px 10px;border-radius:12px;cursor:pointer;font-family:var(--ui);
-  transition:background .15s,color .15s,border-color .15s}
-.chip:hover{background:var(--raise-h);color:var(--text)}
-.chip.on{background:var(--action);border-color:var(--action);color:#fff}
-#log-year-select{background:var(--raise);border:var(--hair) solid var(--edge);color:var(--dim);
-  font-size:12px;padding:3px 6px;border-radius:var(--r-sm);font-family:var(--ui);flex:none;cursor:pointer;
-  max-width:80px}
-#log-year-select:hover{background:var(--raise-h);color:var(--text)}
-
-/* 分類篩選（S41，§22.1）：純 CSS 屬性選擇器，不重繪、不重跑 generator。
-   沒有 data-kind 的卡（生命週期：出生／退役／結局）在任何篩選下都保持可見。
-   series-block 的 data-kind 掛在 block 層，整組一起隱藏，不會留空標頭。 */
-.log-filters[data-filter="train"] [data-kind="match"],
-.log-filters[data-filter="train"] [data-kind="event"],
-.log-filters[data-filter="train"] [data-kind="market"],
-.log-filters[data-filter="train"] [data-kind="season"],
-.log-filters[data-filter="match"] [data-kind="train"],
-.log-filters[data-filter="match"] [data-kind="event"],
-.log-filters[data-filter="match"] [data-kind="market"],
-.log-filters[data-filter="match"] [data-kind="season"],
-.log-filters[data-filter="event"] [data-kind="train"],
-.log-filters[data-filter="event"] [data-kind="match"],
-.log-filters[data-filter="event"] [data-kind="market"],
-.log-filters[data-filter="event"] [data-kind="season"],
-.log-filters[data-filter="market"] [data-kind="train"],
-.log-filters[data-filter="market"] [data-kind="match"],
-.log-filters[data-filter="market"] [data-kind="event"],
-.log-filters[data-filter="market"] [data-kind="season"],
-.log-filters[data-filter="season"] [data-kind="train"],
-.log-filters[data-filter="season"] [data-kind="match"],
-.log-filters[data-filter="season"] [data-kind="event"],
-.log-filters[data-filter="season"] [data-kind="market"]{display:none}
-
-/* 年度折疊區塊 */
+/* 年度折疊區塊。分類篩選 chips 與年度下拉（原 #log-bar）整列退場（v4.6.9）：
+   固定框架下那一列白吃一整列高度，跟事件文本區搶的正是最缺的東西。年度跳轉改由
+   本區塊的折疊與寬螢幕左欄目錄（#year-dir）承接 */
 .yr-block{display:flex;flex-direction:column;gap:10px}
-.yr-head{text-align:center;color:var(--dim);font-size:11.5px;font-weight:600;letter-spacing:.12em;
+.yr-head{text-align:center;color:var(--dim);font-size:12.5px;font-weight:600;letter-spacing:.12em;
   padding:6px 0;cursor:pointer;user-select:none}
 .yr-head::after{content:' ▾'}
 .yr-head:hover{color:var(--text)}
@@ -327,18 +289,24 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
      一個 flex 子項，事件文本再長也只讓 #log 內部捲動，推不動它 */
   height:var(--act-h);overflow-y:auto;
 }
-#act.collapsed{display:none!important}
+/* 拇指區收合（v4.6.9）：屬性條與決策槽同進退。只收決策槽讓出的高度不到一半，
+   收了等於白收；兩者本來就同屬拇指操作區（§22.1）。⚠ #attrbar 走 class 不走
+   [hidden]——renderAttrBar() 每次 sync 都寫 hidden=false，會把收合狀態衝掉 */
+#act.collapsed,#attrbar.collapsed{display:none!important}
 #act-toggle{display:block;margin:0 auto -4px;background:var(--night);border:var(--hair) solid var(--edge);
-  border-bottom:none;color:var(--dim);font-size:11px;padding:3px 14px;border-radius:var(--r-md) var(--r-md) 0 0;cursor:pointer}
+  border-bottom:none;color:var(--dim);font-size:12px;padding:3px 14px;border-radius:var(--r-md) var(--r-md) 0 0;cursor:pointer}
 #act-toggle:hover{color:var(--text)}
-.act-title{display:inline-block;font-size:13px;font-weight:600;margin-bottom:8px;
+/* 收合後這顆按鈕是唯一的復原入口，也變成框底最後一個元素——安全區留白改由它扛，
+   否則 iPhone 手勢條會壓在按鈕上 */
+#app:has(#act.collapsed) #act-toggle{margin-bottom:calc(4px + env(safe-area-inset-bottom))}
+.act-title{display:inline-block;font-size:14px;font-weight:600;margin-bottom:8px;
   border-bottom:2px solid var(--action);padding-bottom:4px}
 
 /* 訓練菜單雙欄格（§22.2.1 三項並列，S39）：八項活動壓成四行，決策槽高度才收得住 */
 .act-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .act-grid .btn{margin-top:0;padding:8px 10px}
-.btn .t-name{display:block;font-size:14px;font-weight:600}
-.btn .t-meta{display:flex;flex-wrap:wrap;gap:1px 8px;margin-top:3px;font-size:11.5px;color:var(--dim)}
+.btn .t-name{display:block;font-size:15px;font-weight:600}
+.btn .t-meta{display:flex;flex-wrap:wrap;gap:1px 8px;margin-top:3px;font-size:12.5px;color:var(--dim)}
 .btn .t-meta i{font-style:normal;white-space:nowrap}
 .btn .t-meta .up{font-weight:600}
 
@@ -346,13 +314,13 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .btn{
   position:relative;display:block;width:100%;background:transparent;
   border:var(--hair) solid var(--edge);color:var(--text);
-  font-size:14.5px;font-weight:400;border-radius:var(--r-sm);
+  font-size:15.5px;font-weight:400;border-radius:var(--r-sm);
   padding:11px 14px;margin-top:8px;cursor:pointer;text-align:left;
   transition:background .15s,border-color .15s;
 }
 .btn:hover:not(:disabled){background:var(--raise)}
 .btn:disabled{opacity:.4;cursor:default}
-.btn small{display:block;font-weight:400;font-size:12px;color:var(--dim);margin-top:2px}
+.btn small{display:block;font-weight:400;font-size:13px;color:var(--dim);margin-top:2px}
 .btn.main{background:var(--action-hi);border-color:var(--action-hi);color:#fff;text-align:center;
   font-weight:600;letter-spacing:.08em}
 .btn.main:hover:not(:disabled){background:var(--action);border-color:var(--action)}
@@ -387,7 +355,7 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 .abrow.capped{opacity:.45;cursor:default}
 .abrow.flash{border-color:var(--gold)}
 .abrow .nm{width:66px;font-size:15px;font-weight:600;flex:none}
-.abrow .bar{flex:1;height:8px;background:var(--night);border-radius:2px;position:relative}
+.abrow .bar{flex:1;min-width:0;height:8px;background:var(--night);border-radius:2px;position:relative}
 .abrow .bar i{position:absolute;inset:0 auto 0 0;width:var(--fill);background:var(--gold);border-radius:2px;transition:width .2s}
 .abrow .bar em{position:absolute;top:-3px;bottom:-3px;left:var(--pot);width:2px;background:var(--text);border-radius:1px}
 .abrow .val{font-family:var(--mono);width:116px;text-align:right;flex:none;line-height:1.25}
@@ -399,23 +367,30 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
 /* 屬性條縮小變體（S38，§22.1）：三欄×兩列常駐。一律掛 .static——唯讀回饋，
    不是可按的控制項（DESIGN.md 原則 6）。軌道三道刻度：填充 i／潛力 em／蓄力 u */
 .abrow.mini{padding:4px 8px;margin-top:0;gap:6px}
-.abrow.mini .nm{width:auto;min-width:30px;font-size:12px}
+.abrow.mini .nm{width:auto;min-width:30px;font-size:13px}
 .abrow.mini .bar{height:6px}
 .abrow.mini .bar u{position:absolute;top:-2px;bottom:-2px;left:var(--carry);width:2px;
   background:var(--gold-ink);border-radius:1px;text-decoration:none}
-.abrow.mini .val{width:auto;min-width:36px;text-align:right}
-.abrow.mini .val b{display:inline;font-size:14px}
-.abrow.mini .val .cost{display:block;font-size:9.5px;color:var(--dim);white-space:nowrap}
+.abrow.mini .val{width:auto;min-width:46px;text-align:right}
+.abrow.mini .val b{display:inline;font-size:15.5px}
+.abrow.mini .val .cost{display:block;font-size:10.5px;color:var(--dim);white-space:nowrap}
 .abrow.mini.hl{border-color:var(--gold)}
 
 /* 常駐屬性條：緊貼行動列上方（§22.1 拇指區，中間不得插入其他區塊）。
    貼合手段：#app 是 flex column、#log flex:1 把這塊壓到底，不必 sticky */
-#attrbar{border-top:var(--hair) solid var(--edge);padding:6px 14px 4px;background:var(--night)}
+#attrbar{border-top:var(--hair) solid var(--edge);padding:4px 14px 3px;background:var(--night)}
 #attrbar .attr-head{display:flex;justify-content:flex-end;padding:0 0 4px}
 #attrbar .attr-plus{background:none;border:none;color:var(--gold-ink);font-size:12px;
   font-weight:700;cursor:pointer;padding:0 2px;font-family:var(--ui)}
 #attrbar .attr-plus:hover{color:var(--legendary)}
-#attrbar .attr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 6px}
+#attrbar .attr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px 6px}
+/* 字級放大（v4.6.9）後三欄格的內距與數值欄一起吃掉軌道寬度：390px 下軌道從 21px
+   掉到 11px、有蓄力的格更直接壓成 0。欄數與格子尺寸不動，改用兩手收回寬度：
+   格內留白收緊，加上潛力／蓄力各佔一行（見 ui/attrbar.js）。
+   ⚠ 蓄力那行沒蓄力時是空字串但仍佔位——格高不隨蓄力有無跳動 */
+#attrbar .abrow.mini{padding:3px 5px;gap:5px}
+#attrbar .abrow.mini .val .carry{display:block;font-size:10px;line-height:1.2;
+  color:var(--gold-ink);white-space:nowrap;min-height:1.2em}
 
 /* 加點／減點按鈕 */
 .step{width:44px;height:44px;border-radius:var(--r-sm);flex:none;display:flex;align-items:center;justify-content:center;
@@ -552,7 +527,26 @@ table.fin td:first-child,table.fin th:first-child{text-align:left}
   .seg button{font-size:12.5px;padding:10px 2px}
   .seg{column-gap:6px}
   #lamps{padding:0 2px}
-  .lamp{font-size:10px}
+  .lamp{font-size:11px}
+  /* 三欄格在 320–400px 只剩約 93–110px 寬：名稱與註記各讓 1px 字級、留白再收一格，
+     軌道才留得住（320px 下原本連 0px 都不到——改版前就是這樣，這裡順手修掉） */
+  #attrbar .abrow.mini{padding:3px 4px;gap:4px}
+  #attrbar .abrow.mini .nm{font-size:12px;min-width:26px}
+  #attrbar .abrow.mini .val{min-width:40px}
+  #attrbar .abrow.mini .val .cost,
+  #attrbar .abrow.mini .val .carry{font-size:9.5px}
+}
+
+/* 事件聚焦（v4.6.9，手機）：卡牌問答期間狀態帶下半整段收掉，把最大幅度的高度讓給
+   事件文本區。body.event-focus 由 ui/actions.js 在有錨點卡片的問答時掛上、選定後移除。
+   收：賽區隊伍列、生涯任務列、月度燈。
+   不收：第一列（年月／☰／↺，選手資料與重開的唯一入口）與體力條（§6／§22.5 常駐可見）；
+   屬性條與決策槽也不收——事件的選項就在決策槽裡。
+   ⚠ 只在窄螢幕生效：寬螢幕空間本來就夠，且 §22.6 不允許寬螢幕比豎屏少資訊 */
+@media (max-width:719px){
+  body.event-focus #bd-line,
+  body.event-focus #bd-quests,
+  body.event-focus #lamps{display:none}
 }
 
 /* ============================================================

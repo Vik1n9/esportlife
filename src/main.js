@@ -10,6 +10,7 @@
 import { Rng, randomSeed } from './core/rng.js';
 import { ROLES, ROLE_NAMES } from './data/skills.js';
 import { createState } from './engine/state.js';
+import { setSlotCollapsed } from './ui/actions.js';
 import { renderBoard } from './ui/board.js';
 import { byId, qsa } from './ui/dom.js';
 import { initLog } from './ui/log.js';
@@ -106,11 +107,9 @@ function enterGame(state, rng) {
     location.href = location.pathname;
   });
 
-  // 行動列折疊：長選項清單時捲動看得到，不需要時收起來
+  // 拇指區折疊：屬性條與決策槽一起收，把高度整段讓給事件文本區（狀態由 actions.js 管）
   byId('act-toggle').addEventListener('click', () => {
-    const act = byId('act');
-    act.classList.toggle('collapsed');
-    byId('act-toggle').textContent = act.classList.contains('collapsed') ? '⌃ 展開選項' : '⌄ 收合選項';
+    setSlotCollapsed(!byId('act').classList.contains('collapsed'));
   });
 
   runCareer({ state, rng, seed, appVersion: APP_VERSION });

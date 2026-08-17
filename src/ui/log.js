@@ -1,17 +1,18 @@
 /**
- * 敘事卡片流。可依年度折疊、分類篩選、年度跳轉（S41，§22.1）。
+ * 敘事卡片流。可依年度折疊、年度跳轉（S41，§22.1）。
  *
- * 篩選是純檢視操作——不改引擎狀態、不重繪、不重跑 generator。卡片帶 `data-kind`
- * 屬性，篩選靠 CSS 屬性選擇器，切 class 就好。沒有 `kind` 的卡（`engine/game.js`
- * 的出生／退役／結局等生命週期卡）在任何篩選下都保持可見。
+ * 分類篩選 chips 與年度下拉（原 `#log-bar`）已整列退場：固定框架（S43）下那一列
+ * 白吃一整列高度，跟事件文本區搶的正是最缺的東西。年度跳轉改由年度分隔線折疊
+ * （`.yr-block`）與寬螢幕左欄目錄（`ui/yearDir.js`）承接。
+ *
+ * 卡片仍帶 `data-kind`（`phases/shared.js` 的 `kinded()` 照舊發）——那是敘事流的
+ * 機器可讀分類，與是否有篩選 UI 無關。
  *
  * 五拍分組：同一場系列賽的五張卡（帶相同 `series` 值）收進同一個 `.series-block`，
  * 標頭顯示賽事標題。分組判斷跨過中間的 `choice`（第 2 拍備賽戰術走 `'act'` 槽，
  * 渲染在 `#act` 而非文本區，不影響分組連續性）。
  */
 import { byId, el, scrollToBottom } from './dom.js';
-
-const KIND_LABEL = { all: '全部', match: '賽事', train: '訓練', event: '事件', market: '市場', season: '結算' };
 
 let logRoot = null;
 let currentYearBody = null;
@@ -28,13 +29,10 @@ let onYearChange = null;
 export function initLog() {
   logRoot = byId('log');
   logRoot.innerHTML = '';
-  logRoot.setAttribute('data-filter', 'all');
-  logRoot.classList.add('log-filters');
   currentYearBody = null;
   lastCardNode = null;
   lastSeriesBlock = null;
   yearEntries = [];
-  initFilterChips();
   if (onYearChange) onYearChange(yearEntries);
 }
 
@@ -101,7 +99,6 @@ export function renderDivider(text) {
   lastCardNode = null;
   lastSeriesBlock = null;
   yearEntries.push({ text, node: block });
-  updateYearDropdown();
   if (onYearChange) onYearChange(yearEntries);
   scrollToBottom();
 }
@@ -113,42 +110,4 @@ export function renderLoose(node) {
   lastSeriesBlock = null;
   logRoot.appendChild(node);
   scrollToBottom();
-}
-
-/* ---------------- 分類篩選（純 CSS，S41 §22.1） ---------------- */
-
-function initFilterChips() {
-  const bar = byId('log-chips');
-  if (!bar) return;
-  bar.innerHTML = '';
-  for (const [key, label] of Object.entries(KIND_LABEL)) {
-    const btn = el('button', {
-      class: `chip${key === 'all' ? ' on' : ''}`,
-      text: label,
-      'data-kind': key,
-    });
-    btn.addEventListener('click', () => setFilter(key));
-    bar.appendChild(btn);
-  }
-}
-
-function setFilter(kind) {
-  logRoot.setAttribute('data-filter', kind);
-  const bar = byId('log-chips');
-  if (bar) bar.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.getAttribute('data-kind') === kind));
-}
-
-/* ---------------- 年度目錄（S42 取用） ---------------- */
-
-function updateYearDropdown() {
-  const select = byId('log-year-select');
-  if (!select) return;
-  select.innerHTML = '<option value="">年度</option>';
-  for (const entry of yearEntries) {
-    select.appendChild(el('option', { text: entry.text, value: entry.text }));
-  }
-  select.onchange = () => {
-    const entry = yearEntries.find((e) => e.text === select.value);
-    if (entry?.node) entry.node.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
 }
