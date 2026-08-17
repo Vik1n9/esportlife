@@ -12,9 +12,6 @@
  * 「判準 → 量測 → 結論」的對照。
  */
 import { fileURLToPath } from 'node:url';
-import { Rng } from '../src/core/rng.js';
-import { createState } from '../src/engine/state.js';
-import { careerFlow } from '../src/engine/game.js';
 import { careerScore, careerTier } from '../src/engine/career.js';
 import { OPPONENT_SUPPORT } from '../src/kernel/strength.js';
 // S29 前的快照站沒有 RESIDUAL（對手全走匿名路）——量測舊基線時缺欄位給 null
@@ -23,32 +20,12 @@ const OPPONENT_SUPPORT_RESIDUAL = strengthNS.OPPONENT_SUPPORT_RESIDUAL ?? null;
 import { ROLES } from '../src/data/skills.js';
 import { TIER_NAMES } from '../src/data/events.js';
 import { QUERIES } from '../src/engine/conditions.js';
-import { decide, allocate, MAX_BEATS } from '../tests/lib/harness.mjs';
+import { playCareer } from '../tests/lib/harness.mjs';
 
 const mean = (a) => (a.length ? a.reduce((t, v) => t + v, 0) / a.length : 0);
 const pct = (v) => `${(v * 100).toFixed(1)}%`;
 
 const ROUTE_IDS = ['route-region-ruler', 'route-mercenary', 'route-team-soul', 'route-green-leaf', 'route-influencer'];
-
-/** 與 harness `playCareer` 同一顆驅動（AMATEUR 基線路線） */
-function playCareerSampled({ seed, role, strategy, style }) {
-  const state = createState({ name: 'CAL', role, seed, stage: 'AMATEUR' });
-  const rng = new Rng(`${seed}:life`);
-  const decisionRng = new Rng(`${seed}:decisions`);
-  const flow = careerFlow({ state, rng });
-  const cursor = { i: 0 };
-  let input;
-  let beats = 0;
-  for (;;) {
-    const { value, done } = flow.next(input);
-    input = undefined;
-    if (done) break;
-    if (++beats > MAX_BEATS) throw new Error(`beat 數超過 ${MAX_BEATS}（seed=${seed} role=${role}）`);
-    if (value.type === 'choice') input = decide(value, strategy, decisionRng, state, style, cursor);
-    else if (value.type === 'alloc') allocate(state, value, style, cursor);
-  }
-  return { state };
-}
 
 export function simulate({ seedPrefix = 'seed', seedCount = 16, roles = ROLES, styles = ['focus', 'spread'] } = {}) {
   const seeds = Array.from({ length: seedCount }, (_, i) => `${seedPrefix}-${i}`);
@@ -57,7 +34,7 @@ export function simulate({ seedPrefix = 'seed', seedCount = 16, roles = ROLES, s
     for (const role of roles) {
       for (const style of styles) {
         const strategy = ['first', 'last', 'random'][seed.length % 3];
-        runs.push({ seed, role, style, ...playCareerSampled({ seed, role, strategy, style }) });
+        runs.push({ seed, role, style, ...playCareer({ seed, role, strategy, style }) });
       }
     }
   }
@@ -207,7 +184,7 @@ if (isMain) {
   const runs = simulate({ seedCount });
   const m = collectMetrics(runs);
   for (const line of formatReport(m)) console.log(line);
-  console.log(`（${((Date.now() - t0) / 1000).toFixed(1)}s）`);
+  if (!process.argv.includes('--quiet')) console.log(`（${((Date.now() - t0) / 1000).toFixed(1)}s）`);
   if (process.argv.includes('--influencer')) {
     console.log('');
     for (const line of influencerDiagnosis(runs)) console.log(line);
