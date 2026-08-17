@@ -1303,6 +1303,187 @@ function renderRelations() {
   document.body.append(overlay);
 }
 
+/* ================= 教學頁籤 ================= */
+
+function renderTutorial() {
+  const wrap = el('div', 'tutorial');
+
+  const h = (level, text) => el(`h${level}`, 'tut-h', text);
+  const p = (text) => { const n = el('p', 'tut-p'); n.innerHTML = text; return n; };
+  const step = (num, title) => el('h3', 'tut-step', `步驟 ${num}：${title}`);
+  const note = (text) => el('div', 'tut-note', text);
+  const code = (text) => { const n = el('pre', 'tut-code'); n.textContent = text; return n; };
+  const field = (name, desc) => {
+    const row = el('div', 'tut-field');
+    row.append(el('strong', '', name), el('span', '', ` — ${desc}`));
+    return row;
+  };
+  const warn = (text) => el('div', 'tut-warn', `⚠ ${text}`);
+
+  /* ---- 前言 ---- */
+  wrap.append(h(2, '新手教學：從零開始建立一個事件和特質'));
+
+  wrap.append(p('這個編輯器是「電競人生」遊戲的內容製作工具。你不需要會寫程式——只要照著表單填資料，就能設計出遊戲中的事件和特質。'));
+
+  wrap.append(h(3, '先搞懂幾個基本概念'));
+  wrap.append(p('<strong>事件卡</strong>：遊戲中玩家會遇到的「小事件」。每個月遊戲會隨機抽出一個事件，顯示一段故事文字和幾個選項，玩家選完後根據結果改變角色能力。'));
+  wrap.append(p('<strong>特質卡</strong>：角色的隱藏被動能力。比如「抗壓強」會讓比賽更不容易翻車。特質不會主動出現，而是被事件觸發或合成後永久持有。'));
+  wrap.append(p('<strong>屬性</strong>：角色的六項基礎能力——體能（vit）、靈巧（agi）、意識（awr）、技巧（tec）、默契（syn）、決斷（dec）。事件的結果可以直接改變屬性值。'));
+  wrap.append(p('<strong>旗標（Flag）</strong>：一種標記，打在事件結果上。當事件成功完成並打上旗標，遊戲就會自動給玩家解鎖對應的特質。你可以把旗標想成一個「成就達成」的開關。'));
+  wrap.append(p('<strong>效果鍵</strong>：寫在特質上的加成規則。不是直接改屬性，而是改變遊戲中的機制——比如降低受傷機率、增加心理抗壓值等。'));
+
+  wrap.append(h(3, '我們要做的東西'));
+  wrap.append(p('<strong>事件卡</strong>「鍛鍊體能」：去健身房遇到一位叫「館長」的教練，他要求你做深蹲。你選擇接受或婉拒。成功了體能（vit）和決斷（dec）上升，失敗了動機和體能下降。'));
+  wrap.append(p('<strong>特質卡</strong>「深蹲救台灣」：事件成功觸發旗標後自動解鎖。效果是降低受傷風險，但作為代價會降低紀律（暗示太沉迷深蹲忽略了遊戲練習）。'));
+  wrap.append(note('目前遊戲引擎沒有「觸發 N 次後才解鎖特質」的次數計算功能。特質解鎖是透過旗標一次觸發的。如果你想做類似「集滿七次才解鎖」的效果，需要改動遊戲引擎程式——這超出編輯器能做的事。'));
+
+  /* ---- 步驟 1 ---- */
+  wrap.append(step(1, '新增事件卡'));
+  wrap.append(p('1. 點最上面一排的「事件卡」分頁'));
+  wrap.append(p('2. 在「一般事件卡」區域右上角按「+ 新增」'));
+  wrap.append(p('3. 左邊列表會多出一個叫 <code>new_event</code> 的按鈕，點它開始編輯'));
+
+  wrap.append(h(4, '填基本資料'));
+
+  wrap.append(field('id', '這張事件卡的英文代號，不能跟已有的重複。改成 <code>squat_challenge</code>。只能用小寫英文、數字和底線。'));
+  wrap.append(field('名稱', '玩家在遊戲中看到的事件名字。填「鍛鍊體能」。'));
+  wrap.append(field('種類', '這個事件屬於哪一類。選「一般」——因為這是一個日常訓練互動，不是享樂誘惑或戀愛劇情。'));
+  wrap.append(field('分類池', '這個事件被抽到時會歸在哪組。你可以理解為「事件的類型分類」。勾選 <strong>persona</strong>（人格類），代表這是跟角色性格和日常互動相關的事件。'));
+  wrap.append(field('子標籤', '更細的主題分類。選「生活」。'));
+  wrap.append(field('時段標籤', '哪些生涯階段可以遇到這個事件。勾選「常規賽期間」——只有正式賽季中才可能出現。'));
+  wrap.append(field('互斥群組', '填 <code>solo_squat_challenge</code>。這個欄位確保同類型事件不會同時出現兩張。<code>solo_</code> 開頭表示它只跟自己互斥。'));
+  wrap.append(warn('互斥群組一定要填！不填會導致遊戲出錯。'));
+
+  /* ---- 步驟 2 ---- */
+  wrap.append(step(2, '寫故事文字'));
+  wrap.append(p('在「敘事文本」欄位填入玩家看到的事件描述。'));
+  wrap.append(p('填入：'));
+  wrap.append(code('你去健身房遇到館長，他指著深蹲架說：「來，做五組，每組 10 下，重量我決定。」\n你要接受挑戰嗎？'));
+
+  /* ---- 步驟 3 ---- */
+  wrap.append(step(3, '設定選項'));
+  wrap.append(p('事件至少要有 2 個選項，最多 4 個。每個選項包含：成功率、成功倍率、失敗倍率。'));
+  wrap.append(p('「成功基準%」是一個起始機率。實際成功率會被體力和心理抗壓等因素影響——抗壓高的玩家實際成功率會比標示的高。'));
+  wrap.append(p('「倍率」控制結果的強弱。設 1 就是正常效果，設 0 就是沒有效果。'));
+
+  wrap.append(h(4, '選項 A：接受挑戰'));
+  wrap.append(p('點「+ 加選項」或直接編輯已有的選項。'));
+  wrap.append(field('id', '填 <code>a</code>'));
+  wrap.append(field('選項文字', '「接受館長的挑戰」'));
+  wrap.append(field('成功基準 %', '填 55，代表大約一半多一點的機會成功。'));
+  wrap.append(field('成功倍率', '填 1。'));
+  wrap.append(field('失敗倍率', '填 1。'));
+  wrap.append(field('主推選項', '打勾。遊戲介面會把這個選項顯示得更突出。'));
+  wrap.append(field('碰隱藏素質', '打勾。代表這個選項有可能觸發旗標，讓玩家解鎖隱藏特質。'));
+
+  wrap.append(h(4, '選項 B：婉拒挑戰'));
+  wrap.append(field('id', '填 <code>b</code>'));
+  wrap.append(field('選項文字', '「謝謝館長，我今天做別的」'));
+  wrap.append(field('成功基準 %', '填 100。婉拒不會有失敗的風險。'));
+  wrap.append(field('成功倍率', '填 0——婉拒不會改變任何屬性。'));
+  wrap.append(field('失敗倍率', '填 0。'));
+
+  /* ---- 步驟 4 ---- */
+  wrap.append(step(4, '設定成功和失敗的結果'));
+  wrap.append(p('每個事件都有兩個結局：好結果（成功時顯示）和壞結果（失敗時顯示）。每個結果包含一段文字、屬性增減、以及可選的旗標。'));
+
+  wrap.append(h(4, '好結果（成功）'));
+  wrap.append(p('在「好結果」區域點「+ 編輯結果」。'));
+  wrap.append(field('結果敘事', '「你完成了五組深蹲，館長點頭說不錯。」'));
+  wrap.append(p('屬性增減——成功時角色的能力會這樣變化：'));
+  wrap.append(field('體能（vit）', '在屬性下拉選「體能」，數值填 +2'));
+  wrap.append(field('決斷（dec）', '在屬性下拉選「決斷」，數值填 +1'));
+  wrap.append(p('旗標——勾選 <strong>grinder（肝帝）</strong>。這個旗標會讓玩家解鎖「肝帝」特質（步驟 6 會詳細說明）。'));
+
+  wrap.append(h(4, '壞結果（失敗）'));
+  wrap.append(field('結果敘事', '「第三組就沒力了，館長搖頭走開。」'));
+  wrap.append(field('體能（vit）', '在屬性下拉選「體能」，數值填 −1（體力反而因為勉強做重訓而受傷）'));
+  wrap.append(p('注意：六屬性只有 vit（體能）、agi（靈巧）、awr（意識）、tec（技巧）、syn（默契）、dec（決斷）。心理維度（動機、自信等）不在這裡改，而是用旗標或特質效果。'));
+
+  wrap.append(step(5, '建立特質卡'));
+  wrap.append(p('現在來建立「深蹲救台灣」特質。點最上面一排的「特質卡」分頁，按「+ 新增」。'));
+
+  wrap.append(field('特質鍵', '英文代號，填 <code>squat_savior</code>。不能跟已有特質重複。'));
+  wrap.append(field('名稱', '填「深蹲救台灣」。這是玩家在特質清單中看到的名字。'));
+  wrap.append(field('種類', '選「common 通用」。通用是最基礎的特質等級，可以直接從事件解鎖。更高的等級（稀有、史詩、傳說）需要透過合成取得。'));
+  wrap.append(field('池歸屬', '選 <strong>persona</strong>。池代表這個特質在合成系統中的定位——persona 池的特質可以作為合成稀有特質的材料。'));
+  wrap.append(field('益處＋副作用文本', '描述特質效果的遊戲內文字。填：'));
+  wrap.append(code('深蹲練出的底盤讓你站得更穩，受傷機率降低。\n但滿腦子都是深蹲，訓練紀律散了。'));
+
+  wrap.append(h(4, '益處（加什麼好處）'));
+  wrap.append(p('點「+ 加一個效果」：'));
+  wrap.append(field('injuryRate（受傷率封頂）', '下拉選「injuryRate」，寫法選「封頂」，數值填 <code>0.7</code>。意思是：受傷機率最高不會超過原本的 70%，等於直接降低了受傷風險。'));
+  wrap.append(p('再加一個：'));
+  wrap.append(field('mental_comp（心理·抗壓）', '下拉選「mental_comp」，寫法選「加法」，數值填 <code>3</code>。意思是：抗壓值永久 +3。'));
+
+  wrap.append(h(4, '副作用（加什麼壞處）'));
+  wrap.append(note('特質的好處和壞處必須並存——這是這款遊戲的設計原則。沒有壞處的特質不存在。'));
+  wrap.append(p('點「+ 加一個效果」：'));
+  wrap.append(field('mental_disc（心理·紀律）', '下拉選「mental_disc」，寫法選「加法」，數值填 <code>-3</code>。意思是：紀律值永久 −3。暗示太專注體能訓練，反而忽略了遊戲練習的自律。'));
+  wrap.append(field('副作用分級', '選「輕度」——表示這個副作用只是小數值扣減。'));
+
+  /* ---- 步驟 6 ---- */
+  wrap.append(step(6, '了解旗標如何解鎖特質'));
+  wrap.append(p('還記得步驟 4 中你在好結果勾選了 <strong>grinder</strong> 旗標嗎？'));
+  wrap.append(p('旗標的運作方式是這樣的：'));
+  wrap.append(p('1. 玩家選了「接受挑戰」→ 判定成功 → 遊戲套用「好結果」'));
+  wrap.append(p('2. 好結果上有 grinder 旗標 → 遊戲查詢旗標對應表'));
+  wrap.append(p('3. grinder 旗標在遊戲代碼中對應 grinder 特質 → 玩家獲得「肝帝」特質'));
+  wrap.append(note('旗標→特質的對應關係寫在遊戲程式 src/engine/eventTrigger.js 的 FLAG_TRAIT 表中。編輯器只能勾選已定義的旗標。如果你想要一個全新的旗標對應到你自訂的特質（例如 squat_savior），需要修改那個程式檔案，加入新的旗標定義。'));
+
+  wrap.append(p('如果你不想改程式，有一種替代做法：'));
+  wrap.append(p('1. 在好結果勾選一個已有的旗標（例如 grinder）'));
+  wrap.append(p('2. 讓玩家先解鎖該旗標對應的特質'));
+  wrap.append(p('3. 在「配方」分頁建立合成配方，讓該特質和其他特质合成你的自訂特質「深蹲救台灣」'));
+  wrap.append(p('這樣就能透過合成路徑間接取得自訂特質，不需要改程式。'));
+
+  /* ---- 步驟 7 ---- */
+  wrap.append(step(7, '輸出與貼回遊戲'));
+  wrap.append(p('填完所有欄位後，編輯器右下方會自動產生一段程式碼。'));
+  wrap.append(p('1. 點「複製片段」按鈕'));
+  wrap.append(p('2. 打開遊戲資料檔 <code>src/data/events.js</code>，把事件卡代碼貼在 EVENT_CARDS 陣列的最後一個項目之後'));
+  wrap.append(p('3. 同理，特質卡代碼貼到 <code>src/data/traits.js</code> 的 BASE_TRAITS 物件中'));
+  wrap.append(p('4. 儲存後跑 <code>npm test</code>，確認沒有錯誤'));
+  wrap.append(note('如果右下方顯示紅色錯誤訊息，代表某個欄位填錯了——回去檢查那個欄位再回來。'));
+
+  /* ---- 速查表 ---- */
+  wrap.append(h(3, '欄位速查表'));
+
+  wrap.append(p('<strong>六屬性（事件的結果可以改變它們）</strong>'));
+  wrap.append(code(`vit   體能    agi   靈巧    awr   意識
+tec   技巧    syn   默契    dec   決斷`));
+
+  wrap.append(p('<strong>六心理維度（透過特質效果修改）</strong>'));
+  wrap.append(code(`comp 抗壓    conf 自信    drive 動機
+disc 紀律    trust 信任   resl 韌性`));
+
+  wrap.append(p('<strong>特質階級</strong>'));
+  wrap.append(code(`common 通用 → rare 稀有 → epic 史詩 → legend 傳說
+事件直接解鎖只能得到通用。更高階需要合成。`));
+
+  wrap.append(p('<strong>事件的結果能做什麼</strong>'));
+  wrap.append(code(`好結果／壞結果 各自包含：
+  text    結果敘事文字
+  attr    屬性增減（例如 vit +2）
+  flags   旗標（觸發特質解鎖）`));
+
+  wrap.append(p('<strong>特質的效果鍵能做什麼</strong>'));
+  wrap.append(code(`injuryRate       受傷機率（封頂值越低越不容易受傷）
+injuryImmune     完全免疫受傷
+mental_comp      心理抗壓值
+mental_drive     心理動機值
+mental_disc      心理紀律值
+mental_conf      心理自信值
+mental_trust     心理信任值
+mental_resl      心理韌性值
+peak_age_shift   巔峰期延後幾年
+growth_rate_mul  成長速度倍率`));
+
+  wrap.append(warn('注意：特質效果鍵只能改遊戲機制（機率、倍率、心理值），不能直接改六屬性。屬性的增減只能透過事件卡的好壞結果來做。'));
+
+  return wrap;
+}
+
 /* ================= 主程式：分頁、列表、表單 ================= */
 
 const TABS = [
@@ -1311,6 +1492,7 @@ const TABS = [
   ['quest', '任務卡', ['quest']],
   ['fusion', '配方', ['fusion']],
   ['innate', '天生特質', ['innate']],
+  ['tutorial', '教學', []],
 ];
 
 let currentTab = 'event';
@@ -1350,6 +1532,10 @@ function main() {
 
   function render() {
     main.textContent = '';
+    if (currentTab === 'tutorial') {
+      main.append(renderTutorial());
+      return;
+    }
     const [primary, ...rest] = TABS.find(([t]) => t === currentTab)[2];
     const schemas = rest.length ? [SCHEMAS[primary], SCHEMAS[rest[0]]] : [SCHEMAS[primary]];
     const intro = el('p', 'intro', SCHEMAS[primary].intro);
@@ -1374,7 +1560,9 @@ function main() {
       const items = el('div', 'items');
       for (const entry of entries) {
         const key = schema.keyOf(entry);
-        const item = el('button', 'item', String(key));
+        const display = entry.name || entry.text || String(key);
+        const item = el('button', 'item', display);
+        item.title = String(key);
         if (key === editingKey) item.classList.add('active');
         item.addEventListener('click', () => {
           editingKey = key;
