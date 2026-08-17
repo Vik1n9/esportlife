@@ -11,8 +11,15 @@
  *   ['and', ...]  ['or', ...]  ['not', x]
  *   ['has', 階, 鍵]        ['hasCount', 階, n]
  *   ['stat', 查詢函式名, 比較子, 值]
+ *   ['eventFlag', 旗標鍵]  ['eventCount', 計數鍵, 比較子, 值]
  *
  * 比較子：lt | lte | eq | gte | gt | ne。`hasCount` 的語意是「持有數 ≥ n」。
+ *
+ * `eventFlag`／`eventCount` 是連續事件的兩個節點（§12.2 增訂）：事件一點亮旗標、
+ * 事件二的 `when` 讀旗標，這才做得出「事件 1 觸發後，滿足條件才觸發事件 2」；計數
+ * 回答「這件事發生過幾次」，讓「觸發 N 次後開新事件／授予特質」寫得出來。兩者
+ * **不寫成 `stat` 謂詞**是因為它們要帶鍵——`QUERIES` 的謂詞是無參數的純量查詢，
+ * 為每個旗標各加一行謂詞等於把資料寫進程式碼。
  *
  * 每一格 `stat` 謂詞都轉呼叫 S17a 的 `engine/ledger.js`（或既有的查詢函式），不直接
  * 翻 `state` 的原始欄位——加新謂詞就是加一行 QUERIES，不動求值器。v4.3 起隱藏心理
@@ -24,8 +31,8 @@
  */
 import { TIER_STORES } from '../kernel/modifiers.js';
 import {
-  assistsPerGame, awardsThisYear, careerGames, distinctTeams, intlSemis, intlWinRate,
-  lastFinish, longestTenure, msiBest, reigningChampion, worldsBest,
+  assistsPerGame, awardsThisYear, careerGames, distinctTeams, eventCountOf, eventFlagOn,
+  intlSemis, intlWinRate, lastFinish, longestTenure, msiBest, reigningChampion, worldsBest,
 } from './ledger.js';
 import { finishOrder } from '../data/formats/finishes.js';
 import { careerScore } from './career.js';
@@ -112,6 +119,14 @@ export const QUERIES = {
   injuryWeeks: (s) => s.injuryWeeks ?? 0,
 };
 
+/**
+ * 求值器認得的節點全集。**與 `tools/schema.js` 的 `COND_NODES` 是兩張註冊表**
+ * （同 `QUERIES`／`PREDICATES` 的規矩）：少一邊，編輯器就答應得出引擎不認得的
+ * 條件、或畫不出引擎認得的條件。`tests/kernel/conditions.mjs` 逐項求值後比對，
+ * 不手抄預期字串。
+ */
+export const COND_KINDS = ['and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount'];
+
 const OPS = {
   lt: (a, b) => a < b,
   lte: (a, b) => a <= b,
@@ -146,6 +161,15 @@ export function evalCond(state, node) {
       const op = OPS[node[2]];
       if (!op) throw new Error(`條件式未知的比較子：${node[2]}`);
       return op(fn(state), node[3]);
+    }
+    // 事件觸發旗標與計數（§12.2 增訂）。鍵是**自由字串**——旗標名由寫卡的人取，
+    // 引擎不維護白名單；「條件讀的旗標沒有任何卡點得亮」（死卡）由工具與測試擋，
+    // 不在求值器擋，否則新卡要先改引擎才寫得出來
+    case 'eventFlag': return eventFlagOn(state, node[1]);
+    case 'eventCount': {
+      const op = OPS[node[2]];
+      if (!op) throw new Error(`條件式未知的比較子：${node[2]}`);
+      return op(eventCountOf(state, node[1]), node[3]);
     }
     default: throw new Error(`條件式未知的節點：${node[0]}`);
   }

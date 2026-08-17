@@ -1,3 +1,64 @@
+## 2026-08-17 — 連續事件：事件之間缺的不是連鎖欄位，是「發生過」與「發生過幾次」
+
+- **方向**：使用者指出事件規則做不出連續事件。查證屬實——事件之間唯一的接口是
+  `phases/shared.js` 的 `chain`（同一個 beat 內立刻接演下一張卡），那是三聯幅：
+  隔幾個月才來的第二段、以及「這件事你已經幹過三次」都表達不出來，因為狀態裡
+  **沒有任何地方記得事件發生過**。§12.1 的四步演算法本身不缺東西（第 1 步就是
+  「條件命中的卡」），缺的是它讀得到的軌跡。所以這一站不動演算法，補兩種記錄。
+
+- **實作**（寫在 `engine/eventTrigger.js`、讀在 `engine/ledger.js`、求值在
+  `engine/conditions.js`）：
+  - `state.eventFlags`：`setEventFlags`／`clearEventFlags`，條件式節點
+    `['eventFlag', 鍵]`。事件卡的結果與選項用 `setFlags`／`clearFlags` 宣告。
+  - `state.eventCounts`：`recordEventTrigger`（每張卡出場自動 +1，鍵＝卡 id）與
+    `bumpEventCounters`（卡片宣告的具名 `counters`，跨卡累加），條件式節點
+    `['eventCount', 鍵, 比較子, 值]`。兩種來源共用同一個命名空間，所以條件式
+    只有一種計數節點。
+  - `applyEventMarks` 順序寫死**先熄後亮**：收尾卡常常同時關上一段、開下一段。
+  - ⚠ **讀寫分兩個檔是為了不成環**：`conditions.js` 被 `eventTrigger.js` import，
+    讀取端放進寫入端會循環，所以查詢函式落在 `ledger.js`（本來就是查詢層）。
+  - ⚠ 呼叫點在 `drawEvent`（呈現端）不是 `eventTrigger`（抽卡端）：`chain` 接演的
+    卡不經過抽卡，記在抽卡端會漏數。
+
+- **⚠ 連鎖不收束就會霸佔事件一**：條件卡不受防重機制擋（§12.1 明文「該來就來」），
+  旗標亮著的期間讀它的卡**月月都是事件一**。收束有兩種寫法（多段連鎖後段熄前段、
+  一次性門檻寫成 `計數 ≥ N 且 not 已出過`），並由三層守：編輯器 `validateEventCard`
+  擋「正向讀了沒人熄得掉的旗標」、`validateCond` 擋「讀了沒人點得亮的旗標／永遠是 0
+  的計數」、`tests/kernel/eventChain.mjs` 對整副牌驗四條不變式（有人點亮／有人熄／
+  有人讀／具名計數不與卡 id 撞名）。
+
+- **內容 3 張（機制不空轉）**：挖角三部曲——`transfer_rumor` 的「探風」與
+  `buyout_offer` 的「接下支票」點亮 `tampering_contact`（並推進具名計數
+  `poach_talk`）→ `tampering_meeting`（密會，priority 5）簽了意向書點亮
+  `tampering_deal` → `tampering_leak`（密約曝光，priority 6）條件是
+  `旗標 ＋ poach_talk ≥ 2`，收尾全熄。另一張 `soloq_legend`（排位傳說）是計數門檻卡：
+  `solo_queue` 出過 5 次才來、出過一次就上閂，好結果給「肝帝」——這就是使用者要的
+  「觸發特定次數後獲得特質」的最短路徑（獨有特質走 §14.1 的 `grantWhen`，同一套
+  條件式，不另開發放口）。
+
+- **編輯器同步**（`tools/schema.js`／`tools/editor.js`）：`COND_NODES` 多兩種節點與
+  積木 UI；結果與選項多三欄（點亮／熄滅／計數 +1）。旗標鍵是**自由字串**不是下拉——
+  只給下拉就寫不出新連鎖；已用過的鍵從卡庫導出掛 datalist 當提示，打錯字由驗證接住。
+  `EVENT_FLAG_KEYS`／`EVENT_COUNT_KEYS` 一律從 `EVENT_CARDS` 導出，不手抄白名單。
+
+- **實測結論**：`npm test` **22578 項全綠**（新增 suite `kernel/eventChain.mjs` 59 項、
+  `kernel/conditions` 的節點註冊表比對 3 項）。
+  ⚠ 總項數比改前的 22792 少：`kernel/ledger`（1534 → 1263）與 `regression` 的斷言數
+  **與生成的生涯內容成正比**（逐筆 teamHistory、逐則 milestone 各一條），新增 4 張卡
+  改變了人生流的取數，40 段生涯就長得不一樣——不是掉了測試，是同一批斷言跑在不同的
+  樣本上。240 個月的連鎖冒煙：出 62 種卡，三張連鎖卡各自 ≤10% 月份，逐卡計數與實際
+  出場次數逐項相符。真池條件卡 13 → 16 張。
+
+- **未一起處理**：冒煙量到**既有特質條件卡會霸佔事件一**——`clip_meme`（`when:
+  持有 meme`）在 240 個月裡出了 144 次，`enemy_taunt`／`stream_meltdown` 同構：特質
+  是永久持有，條件永遠命中，而條件卡不受防重擋。這是 S20f 就存在的行為、與本站的
+  旗標機制無關，修法是給它們上閂（本站的一次性門檻寫法）或給條件卡加冷卻——冷卻要
+  動 §12.1 的演算法，屬設計決策，留給使用者拍板。冒煙斷言因此只管連鎖卡，並在測試
+  註釋裡記下這個數字。OCR 審查閘門本環境無 `ocr`，比照既往下次補審。
+
+- **狀態**：完成。版號 v4.6.9 → **v4.7.0**（新增概念，§12.1／§12.2／§12.3 三節變動）；
+  **SAVE_VERSION 23 → 24**（舊存檔缺兩欄會讓連鎖條件恆偽、計數從中途起算）。
+
 ## 2026-08-17 — S24b 返工：region 去國籍只留賽區，台港澳 42 隊由 TW/HK 改主力賽區
 
 - **方向**：S25 交接筆記留了「S24b region（TW/HK 國籍欄）待返工」——`team_history.json`

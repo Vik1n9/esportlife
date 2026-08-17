@@ -49,6 +49,28 @@
  *           不受防重機制擋，所以**不要把所有卡都寫上條件**——隨機池會被抽乾。
  * - `priority`  條件卡優先度（§12.1 步驟 2：取最高優先度為事件一；沒寫算 0）。
  *           多張條件同時命中時，優先度決定誰先出。
+ *
+ * 連續事件的三個欄位（§12.2 增訂，引擎在 `engine/eventTrigger.js` 下半）。寫在
+ * **結果**（`good`／`bad`／選項的 `on.good`／`on.bad`）或**選項**上——寫在結果上表示
+ * 「走到這個結局才記」，寫在選項上表示「選了就記，不論成敗」：
+ *
+ * - `setFlags`   點亮事件旗標（字串陣列）。下一段事件的 `when` 用
+ *                `['eventFlag', 鍵]` 讀得到，跨月、跨賽季都記得。
+ * - `clearFlags` 熄滅旗標。⚠ **一段連鎖的收尾卡一定要熄**：條件卡不受防重機制擋，
+ *                旗標亮著的期間那張卡每個月都命中，會霸佔往後所有月份的事件一。
+ * - `counters`   具名計數 +1（字串陣列），跨卡累加。逐卡的出場次數不必宣告——
+ *                引擎自動以卡 id 為鍵記（`['eventCount', 卡 id, 'gte', N]` 就讀得到）。
+ *
+ * 兩個現成的寫法範例：
+ *   一次性的門檻卡（觸發 N 次後才出、出過就不再出）
+ *     `when: ['and', ['eventCount', 'solo_queue', 'gte', 5], ['not', ['eventFlag', '…_done']]]`
+ *     ＋每個選項 `setFlags: ['…_done']`（見 `soloq_legend`）
+ *   多段連鎖（挖角三部曲 `transfer_rumor` → `tampering_meeting` → `tampering_leak`）
+ *     前一段點亮旗標，後一段命中後熄掉它、再點亮下一段的旗標
+ *
+ * ⚠ `setFlags` 與 `flags` 是兩回事：`flags` 是引擎解讀的副作用（特質解鎖、版本落差、
+ * 業外收入……），會被安全牌（`traits: false`）過濾；`setFlags` 只是「這件事發生過」
+ * 的記號，沒有數值效果，也不被安全牌過濾——安全牌擋的是極端，不是劇情。
  */
 export const EVENT_CARDS = [
   { id: 'solo_queue', name: '排位衝分', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_solo_queue',
@@ -64,6 +86,23 @@ export const EVENT_CARDS = [
     ],
     good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕刷爆「666」', attr: { tec: 2 } },
     bad:  { text: '排位連敗掉分，隊友 0/10/0 開送，越打越上頭', attr: { tec: -1, dec: -1 } } },
+
+  /* 觸發次數門檻卡（§12.2 連續事件）：`solo_queue` 出過 5 次才來，出過一次就熄火——
+   * 一次性門檻的標準寫法是「計數門檻 ＋ not 自己的完成旗標」，每個選項都點亮那個
+   * 旗標。少了 not 那一半，條件卡不受防重擋，這張卡會從第 5 次起月月霸佔事件一。 */
+  { id: 'soloq_legend', name: '排位傳說', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_soloq_legend', when: ['and', ['eventCount', 'solo_queue', 'gte', 5], ['not', ['eventFlag', 'soloq_legend_done']]], priority: 3,
+    prompt: '你的分數掛在伺服器榜單前段已經好幾個月，論壇開了一串專門討論你的對線細節。有人問：這人到底一天打幾把？',
+    options: [
+      { id: 'record', label: '把每一把都錄下來，做成教學片', odds: 46, gain: 2.2, loss: 1.3, setFlags: ['soloq_legend_done'] },
+      { id: 'keep', label: '不理論壇，照原本的節奏繼續爬', odds: 58, gain: 1, loss: 1, main: true, setFlags: ['soloq_legend_done'] },
+      { id: 'quit', label: '榜單沒有意義，回去練隊伍配合', odds: 76, gain: 0.5, loss: 0.5, traits: false, setFlags: ['soloq_legend_done'],
+        on: {
+          good: { text: '你把排位放下，團隊練習的節奏立刻好起來，教練終於不再唸你', attr: { syn: 2 } },
+          bad: { text: '你放掉排位，手感跟著掉，榜單上的名字很快被別人蓋過去', attr: { tec: -1 } },
+        } },
+    ],
+    good: { text: '整個伺服器都認得你的 ID，肝出來的分數成了你最硬的名片', attr: { tec: 2, vit: -1 }, flags: { grinder: true } },
+    bad:  { text: '為了守住排名連著幾週睡不滿，上台的時候手是抖的', attr: { vit: -2 }, mental: { comp: -2 } } },
 
   { id: 'scrim', name: '訓練賽加練', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'training',
     prompt: '團練結束，幾個隊友還想再開一輪對線練習。時間已經很晚了。',
@@ -548,7 +587,10 @@ export const EVENT_CARDS = [
   { id: 'transfer_rumor', name: '轉會風聲', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_transfer_rumor',
     prompt: '轉會窗開啟，網上開始傳你要被交易的消息，經紀人說「有隊伍開價了」。',
     options: [
-      { id: 'leave', label: '看看外面的價碼，順便探探風', odds: 48, gain: 2, loss: 1.3 },
+      // 挖角三部曲的第一步（§12.2 連續事件）：探風＝跟外面接觸過了，不論談得好不好，
+      // 對方都拿到了你的號碼——旗標寫在選項上（選了就記，與成敗無關）
+      { id: 'leave', label: '看看外面的價碼，順便探探風', odds: 48, gain: 2, loss: 1.3,
+        setFlags: ['tampering_contact'], counters: ['poach_talk'] },
       { id: 'stay', label: '專心打好現在，談約交給經紀人', odds: 62, gain: 1, loss: 1, main: true },
       { id: 'ignore', label: '耳邊風，隊裡需要我就在', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
@@ -765,12 +807,52 @@ export const EVENT_CARDS = [
   { id: 'buyout_offer', name: '買斷報價', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_buyout_offer',
     prompt: '經紀人深夜來電：海外賽區開了一張買斷你的支票，價碼是你現薪的兩倍。但你今年狀態正好。',
     options: [
-      { id: 'accept', label: '接下支票，去新聯賽證明自己', odds: 42, gain: 2.2, loss: 1.3 },
-      { id: 'consult', label: '跟教練坦白，問他的建議', odds: 62, gain: 1, loss: 1, main: true },
+      { id: 'accept', label: '接下支票，去新聯賽證明自己', odds: 42, gain: 2.2, loss: 1.3,
+        setFlags: ['tampering_contact'], counters: ['poach_talk'] },
+      { id: 'consult', label: '跟教練坦白，問他的建議', odds: 62, gain: 1, loss: 1, main: true,
+        counters: ['poach_talk'] },
       { id: 'refuse', label: '婉拒，留在熟悉的環境', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
     good: { text: '你留下來打出身價，新的報價反而更高了', attr: { dec: 2 }, mental: { drive: 2 } },
     bad:  { text: '你動搖了軍心，管理層開始懷疑你的忠誠', attr: { syn: -2 }, mental: { trust: -2 } } },
+
+  /* 挖角三部曲（§12.2 連續事件）：探風（`transfer_rumor` 的 leave／`buyout_offer` 的
+   * accept）點亮 `tampering_contact` → 這張密會卡命中 → 簽了密約點亮 `tampering_deal`
+   * → 談過兩次以上（具名計數 `poach_talk`）才會走到曝光那張。
+   * ⚠ 每個選項都熄掉上一段的旗標：條件卡不受防重擋，不熄就會月月霸佔事件一。 */
+  { id: 'tampering_meeting', name: '密會', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_tampering_meeting', when: ['eventFlag', 'tampering_contact'], priority: 5,
+    prompt: '對方領隊約在城郊的咖啡廳，桌上壓著一張已經填好數字的意向書。你現在的合約還有效。',
+    options: [
+      { id: 'sign', label: '簽了意向書，先卡住這個位子', odds: 40, gain: 2.2, loss: 1.4,
+        clearFlags: ['tampering_contact'], setFlags: ['tampering_deal'], counters: ['poach_talk'] },
+      { id: 'listen', label: '只聽條件，什麼都不簽', odds: 60, gain: 1, loss: 1, main: true,
+        clearFlags: ['tampering_contact'], counters: ['poach_talk'] },
+      { id: 'refuse', label: '當場回絕，這事到此為止', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        clearFlags: ['tampering_contact'],
+        on: {
+          good: { text: '你把意向書推回去就走人，隔天照常進訓練室，什麼都沒發生過', attr: { syn: 1 }, mental: { trust: 2 } },
+          bad: { text: '你回絕得太硬，對方領隊反手把消息餵給記者，說你「開價不成」', attr: { dec: -1 }, mental: { comp: -2 } },
+        } },
+    ],
+    good: { text: '你把節奏握在自己手裡，條件愈談愈好，經紀人說這是他見過最漂亮的一手', attr: { dec: 2 }, mental: { conf: 2 } },
+    bad:  { text: '咖啡廳的角落有人舉起手機。你不知道那張照片會在什麼時候出現', attr: { dec: -1 }, mental: { comp: -2 } } },
+
+  { id: 'tampering_leak', name: '密約曝光', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_tampering_leak', when: ['and', ['eventFlag', 'tampering_deal'], ['eventCount', 'poach_talk', 'gte', 2]], priority: 6,
+    prompt: '那張意向書的照片上了論壇首頁，時間戳記在賽季中。記者堵在基地門口，隊友的訊息一則接一則跳出來。',
+    options: [
+      { id: 'admit', label: '開直播全部說清楚，包括為什麼想走', odds: 44, gain: 2.2, loss: 1.4,
+        clearFlags: ['tampering_deal'], counters: ['poach_talk'] },
+      { id: 'team', label: '先關起門跟隊友講，對外交給隊裡處理', odds: 60, gain: 1, loss: 1, main: true,
+        clearFlags: ['tampering_deal'] },
+      { id: 'silent', label: '一句話都不回，把手機關掉', odds: 74, gain: 0.5, loss: 0.5, traits: false,
+        clearFlags: ['tampering_deal'],
+        on: {
+          good: { text: '你整整一週不發一言，風頭過去了，只是休息室裡從此少了幾句閒聊', attr: { vit: 1 }, mental: { trust: -1 } },
+          bad: { text: '沉默被讀成默認，論壇的版本愈傳愈難聽，你連解釋的時機都錯過了', attr: { dec: -2 }, mental: { comp: -2 } },
+        } },
+    ],
+    good: { text: '你把話講在明處，粉絲反而敬你一句敢做敢當，隊友也接受了這個解釋', attr: { syn: 1 }, mental: { conf: 2 }, flags: { popular: true } },
+    bad:  { text: '密約成了休息室的裂縫，接下來的每一場輸球都會被翻出這件事', attr: { syn: -2 }, mental: { trust: -3 } } },
 
   { id: 'captain_offer', name: '隊長任命', kind: 'normal', pool: ['career'], sub: 'team', slot: ['regular'], excl: 'team',
     prompt: '教練私下找你：想讓你接下隊長袖標，隊裡有些老將不服。接下來兩年，你要在場上喊話、場下背鍋。',

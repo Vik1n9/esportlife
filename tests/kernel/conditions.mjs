@@ -8,9 +8,9 @@
 import { createState } from '../../src/engine/state.js';
 import { recordIntlFinish } from '../../src/phases/shared.js';
 import {
-  collectMaterials, consumeMaterial, evalCond, materialHeld, QUERIES,
+  COND_KINDS, collectMaterials, consumeMaterial, evalCond, materialHeld, QUERIES,
 } from '../../src/engine/conditions.js';
-import { PREDICATES } from '../../tools/schema.js';
+import { COND_NODES, PREDICATES } from '../../tools/schema.js';
 
 export const name = '條件式求值器（S17b）';
 
@@ -132,6 +132,32 @@ export async function run({ check }) {
     const onlyInPredicates = p.filter((k) => !q.includes(k));
     check('QUERIES 每一鍵都在 PREDICATES 內', onlyInQueries.length === 0, onlyInQueries.join('／'));
     check('PREDICATES 每一鍵都在 QUERIES 內', onlyInPredicates.length === 0, onlyInPredicates.join('／'));
+  }
+
+  /* ---- 節點型別也是兩張註冊表（§12.2 連續事件加了兩種節點） ----
+   *
+   * `COND_KINDS`（引擎）與 `tools/schema.js` 的 `COND_NODES`（編輯器積木的下拉）
+   * 少一邊就脫節：編輯器畫得出引擎不認得的條件，或引擎認得的條件編輯器畫不出來。
+   * 宣告的每一種節點還要真的求值得動——手抄一份清單只是把 bug 抄第二遍。
+   */
+  {
+    const engineOnly = COND_KINDS.filter((k) => !COND_NODES.includes(k));
+    const toolOnly = COND_NODES.filter((k) => !COND_KINDS.includes(k));
+    check('COND_KINDS 每一種節點編輯器都畫得出來', engineOnly.length === 0, engineOnly.join('／'));
+    check('編輯器的 COND_NODES 引擎都認得', toolOnly.length === 0, toolOnly.join('／'));
+
+    const s = fresh();
+    const SAMPLE = {
+      and: ['and', true], or: ['or', true], not: ['not', false],
+      has: ['has', 'common', 'grinder'], hasCount: ['hasCount', 'rare', 0],
+      stat: ['stat', 'age', 'gte', 0],
+      eventFlag: ['eventFlag', 'anything'],
+      eventCount: ['eventCount', 'anything', 'gte', 0],
+    };
+    const unevaluable = COND_KINDS.filter((k) => {
+      try { evalCond(s, SAMPLE[k]); return false; } catch { return true; }
+    });
+    check('宣告的每一種節點都求值得動', unevaluable.length === 0, unevaluable.join('／'));
   }
 
   /* ---- 上屆同賽事名次與衛冕者謂詞（S20g） ---- */

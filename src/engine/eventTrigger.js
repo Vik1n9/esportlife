@@ -17,6 +17,15 @@
  *      隨機池；須與事件一做互斥檢查
  *   4. 候選為空：隨機池抽事件一，再擲第二張
  *
+ * **連續事件**（§12.2 增訂）走的是同一個第 1 步：事件一的結果點亮旗標
+ * （`setFlags`）或推進計數（`counters`），事件二的 `when` 用 `['eventFlag', 鍵]`／
+ * `['eventCount', 鍵, 比較子, 值]` 讀它，於是「事件一觸發過、而且現在條件也滿足」
+ * 才輪到事件二。旗標與計數的寫入函式在本檔下半（讀取端在 `engine/ledger.js`）。
+ *
+ * ⚠ 條件卡不受防重機制擋，所以**旗標亮著的期間那張卡每個月都會命中**——一段連鎖
+ * 的收尾卡必須把旗標熄掉（`clearFlags`），否則它會霸佔往後每一個月的事件一。
+ * `tests/kernel/eventChain.mjs` 有斷言在守「每個被讀的旗標都熄得掉」。
+ *
  * 這個檔是純規則（可測），呈現留在 `phases/shared.js` 的 `drawEvent`——觸發回答
  * 「這個月出哪張卡」，呈現回答「出了之後玩家怎麼應對、結果長什麼樣」。分開之後
  * 觸發邏輯可以寫純函式測試，不必跑完整生涯。
@@ -227,6 +236,78 @@ export function eventTrigger(state, phase, pool, rng) {
   if (second) markRecent(state, second);
 
   return second ? [first, second] : [first];
+}
+
+/* ================= 觸發旗標與計數（§12.2 增訂） ================= */
+
+/**
+ * 連續事件的兩個記憶體：**旗標**（發生過沒有）與**計數**（發生過幾次）。
+ *
+ * 沒有它們，事件之間就只有 `chain`（`phases/shared.js`：同一個 beat 內立刻接演
+ * 下一張卡）這一條路——那是「一口氣演完的三聯幅」，做不出「這個月被挖角接觸，
+ * 兩個月後對方才拿合約來」這種真正的連續事件，也答不出「這件事你已經幹過三次」。
+ *
+ * 三個寫入點都在事件卡的**結果**上（`good`／`bad`／選項的 `on`）與**選項**上：
+ *
+ *   `setFlags: ['poached']`    點亮旗標（下一段事件的 `when` 讀它）
+ *   `clearFlags: ['poached']`  熄滅旗標（一段連鎖走完要熄，否則條件卡每月都命中）
+ *   `counters: ['gamble']`     具名計數 +1（跨卡累加的軌跡）
+ *
+ * 逐卡計數不必宣告：每張卡出場一次由 `recordEventTrigger` 自動 +1，鍵就是卡 id。
+ *
+ * ⚠ **旗標不是特質旗標**（`flags` 欄位那一組）。`flags` 交給引擎解讀成屬性、體力、
+ * 特質解鎖；這裡的旗標只是「這件事發生過」的記號，沒有數值效果，也**不受安全牌
+ * （`traits: false`）過濾**——安全牌擋的是「被推向極端」，不是劇情的推進。
+ *
+ * ⚠ 讀取端在 `engine/ledger.js`（`eventFlagOn`／`eventCountOf`），條件式經它讀。
+ * 寫在這裡、讀在那裡是為了不成環：`conditions.js` 被本檔 import。
+ */
+
+/** 點亮旗標。已亮的再點一次是 no-op（旗標是布林，不累加） */
+export function setEventFlags(state, keys) {
+  if (!keys || !keys.length) return;
+  if (!state.eventFlags) state.eventFlags = {};
+  for (const k of keys) state.eventFlags[k] = true;
+}
+
+/** 熄滅旗標。刪鍵而不是寫 false——存檔不留一堆死鍵，條件式讀缺鍵本來就是 false */
+export function clearEventFlags(state, keys) {
+  if (!keys || !keys.length || !state.eventFlags) return;
+  for (const k of keys) delete state.eventFlags[k];
+}
+
+/** 具名計數 +1（同一張卡宣告兩次同鍵就 +2，寫卡的人自己負責） */
+export function bumpEventCounters(state, keys) {
+  if (!keys || !keys.length) return;
+  if (!state.eventCounts) state.eventCounts = {};
+  for (const k of keys) state.eventCounts[k] = (state.eventCounts[k] ?? 0) + 1;
+}
+
+/**
+ * 記一次「這張卡出場了」：逐卡計數 +1，鍵就是卡 id。
+ *
+ * 呼叫點在 `drawEvent`（呈現的入口）而不是 `eventTrigger`（抽卡）——連鎖接演的卡
+ * 不經過抽卡，記在抽卡端會漏掉它們，而玩家的認知是「這張卡出過幾次」。
+ */
+export function recordEventTrigger(state, ev) {
+  bumpEventCounters(state, [ev.id]);
+}
+
+/**
+ * 把一張卡的結果與選項寫的旗標／計數一次結算掉。
+ *
+ * 順序寫死**先熄後亮**：同一批裡兩邊都寫到同一個鍵時，以「亮」為準——一段連鎖的
+ * 收尾卡常常是「熄掉上一段的旗標、亮起下一段的」，反過來會把剛點的旗標熄掉。
+ *
+ * @param {object} state
+ * @param {...{setFlags?:string[], clearFlags?:string[], counters?:string[]}} sources
+ *   結果與選項（順序不影響：三個欄位分別串接後一次套用）
+ */
+export function applyEventMarks(state, ...sources) {
+  const pull = (key) => sources.flatMap((s) => (s && s[key]) || []);
+  clearEventFlags(state, pull('clearFlags'));
+  setEventFlags(state, pull('setFlags'));
+  bumpEventCounters(state, pull('counters'));
 }
 
 /* ================= 成功判定（§12.2） ================= */

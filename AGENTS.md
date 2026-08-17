@@ -37,6 +37,11 @@
 - **加謂詞＝加一行，但要同時加進兩張註冊表**：`conditions.js` 的 `QUERIES`
   與 `tools/schema.js` 的 `PREDICATES`。少一邊，編輯器與引擎就脫節
   （`unique` 階已經這樣脫節過一次：工具認得、引擎不認得）。
+- **加節點也是兩張註冊表**（2026-08-17，§12.2 連續事件加了 `eventFlag`／
+  `eventCount`）：`conditions.js` 的 `COND_KINDS` ＋ `evalCond` 的 switch，與
+  `tools/schema.js` 的 `COND_NODES` ＋ `validateCond`。帶鍵的判斷（旗標名、
+  計數鍵）寫成**節點**不是謂詞——謂詞無參數，為每個旗標各加一行等於把資料寫進
+  程式碼。`tests/kernel/conditions.mjs` 逐項求值後比對兩張表。
 - 謂詞一律**讀查詢層**（`src/engine/ledger.js`）而不是 raw state 欄位。
   理由寫在 `ledger.js` 檔頭：改一個欄位要改三個地方。
 - 謂詞必須是**純函式**且回傳純量。

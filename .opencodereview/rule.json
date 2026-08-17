@@ -2,17 +2,17 @@
   "rules": [
     {
       "path": "src/engine/eventTrigger.js",
-      "rule": "whenHits 是待退役的歷史遺留（只認 stage／minAge／maxAge／attr／trait／mental，trait 只讀 common 階）。不要建議為 whenHits 加欄位或新能力；新條件判斷一律走 src/engine/conditions.js 的 evalCond s-expression。",
+      "rule": "whenHits 是待退役的歷史遺留（只認 stage／minAge／maxAge／attr／trait／mental，trait 只讀 common 階）。不要建議為 whenHits 加欄位或新能力；新條件判斷一律走 src/engine/conditions.js 的 evalCond s-expression。 連續事件的旗標與計數：寫入端在本檔、讀取端在 engine/ledger.js（放同一檔會與 conditions.js 成環）。正向讀旗標的條件卡必須有卡熄得掉那個旗標——條件卡不受防重擋，旗標亮著就月月霸佔事件一。",
       "merge_system_rule": true
     },
     {
       "path": "src/engine/conditions.js",
-      "rule": "新增謂詞必須同時檢查 tools/schema.js 的 PREDICATES 是否同步更新（兩張註冊表脫節是本專案已知缺陷來源）。謂詞必須是純函式、回傳純量、讀 src/engine/ledger.js 查詢層而非 raw state 欄位。",
+      "rule": "新增謂詞必須同時檢查 tools/schema.js 的 PREDICATES 是否同步更新（兩張註冊表脫節是本專案已知缺陷來源）。謂詞必須是純函式、回傳純量、讀 src/engine/ledger.js 查詢層而非 raw state 欄位。 帶鍵的判斷（事件旗標、觸發計數）寫成條件式節點而非謂詞，新增節點必須同時更新 COND_KINDS、evalCond 的 switch 與 tools/schema.js 的 COND_NODES／validateCond。",
       "merge_system_rule": true
     },
     {
       "path": "tools/schema.js",
-      "rule": "PREDICATES 必須與 src/engine/conditions.js 的 QUERIES 保持一致；發現兩邊不同步要標為缺陷。",
+      "rule": "PREDICATES 必須與 src/engine/conditions.js 的 QUERIES 保持一致；發現兩邊不同步要標為缺陷。 COND_NODES 必須與 conditions.js 的 COND_KINDS 一致；事件旗標與計數鍵的清單一律從 EVENT_CARDS 導出，不得手抄白名單。",
       "merge_system_rule": true
     },
     {
