@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lowkey%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lowkey Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name=Lowkey Esports
+|orgcountry=
+|country=United States
+|region=North America
+|sponsor=[https://www.lowkeycommunity.com/ Lowkey Community]
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= 
+|youtube= 
+|facebook= 
+|twitter=LowkeyEsportsNA
+|discord= 
+|snapchat= 
+<!-- History -->
+|created=2019-01-02
+|disbanded=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis=pubg
+}}{{TOCRWI}}
+
+'''Lowkey Esports''' is a North American team. This page details the history of the organization's NA rosters; for their Vietnamese team, see [[Lowkey Esports.Vietnam]].
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+<!--===Active===
+{{listplayer/Current/Start|res=yes|dates=yes}}
+
+{{listplayer/Current/End|}}
+-->
+===Former===
+{{TeamMembersFormer}}
+
+===Temporary Subs===
+{|class="sortable wikitable"
+!
+!
+!ID
+!Name
+!Role
+!Replacing
+!Tournament
+|-
+{{listplayer|res=NA|Firetheft|us|Nathan Harris|Top}}
+|'''{{player|Copari|flag=us}}'''
+|[[Player One Elite Series/Season 2|P1 Elite Series Season 2 - Round 3]]
+{{Listplayer/EndTemp}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Dawn|||'''Manager'''|newteam=none}}
+{{listplayersp|Shiba|us|River Vassallo|'''Head Coach'''|newteam=none}}
+{{listplayersp|Taysak|us||'''Analyst'''|newteam=none}}
+{{listplayersp|Tracker|||'''Staff'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+== Videos ==
+
+== Highlight Videos ==
+{{TDRight
+|name1=2019
+|content1=
+* January 14, [https://www.youtube.com/watch?v=jPV7pgJPNFc Lowkey invades League of Legends]
+}}
+
+==External Links==
+
+==References==
+<references />

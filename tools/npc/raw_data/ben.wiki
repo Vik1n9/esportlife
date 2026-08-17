@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ben&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.138Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ben」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Ben
+|name=Nam Dong-hyun
+|nativename=남동현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=April
+|birth_date_day=24
+|favchamp=Bard
+|favchamp2=Thresh
+|favchamp3=Rakan
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/dongs1111
+|facebook=https://www.facebook.com/profile.php?id=100003182543426
+|instagram=namstar_s2
+|deeplol=https://www.deeplol.gg/pro/Ben
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+===2016 Season===
+Ben joined [[Invictus Gaming]] in July of 2016. Because the team was very unstable, he didn't get to play consistently enough to showcase his talent. Invictus Gaming barely managed to make it into the [[LPL/2016_Season/Summer_Playoffs|2016 LPL Summer Playoffs]] but lost 0-3 to [[I May]] in the first round. Ben left the team in December of 2016 and joined [[Team WE]]
+===2017 Season===
+
+The 2017 Season was much more successful for Team WE after [[Zero (Yoon Kyung-sup)|Zero]] became more of a substitute and Ben was promoted to the main support for the team. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] in 2nd place with a 10-6 record. In the [[LPL/2017_Season/Spring_Playoffs|2017 LPL Spring Playoffs]] Team WE was able win their first LPL title after taking down RNG 3-0 in the finals. They attended the [[2017 Mid-Season Invitational]] and made it through the group stage after they finished 2nd with a 7-3 record. In the Semifinals they were eliminated after a 1-3 loss to [[G2 Esports]]. Summer wasn't as successful for WE domestically. They were unable to defend their LPL title after they finished 2nd in their regular season group and lost 2-3 to Invictus Gaming in the third place match of the playoffs. They got their revenge against Invictus Gaming later on after they defeated them 3-2 in the [[2017 Season China Regional Finals]]. Their run at the [[2017 Season World Championship]] was quite impressive. Despite starting off in the [[2017_Season_World_Championship/Play-In|Play-In stage]], they advanced to the main groups with a 3-0 win over [[Young Generation]]. They also finished 1st in their main stage group with a 5-1 record. After they took down [[Cloud9]] 3-2 in the Quarterfinals, they faced off against eventual tournament winners [[Samsung Galaxy]] and lost 1-3.
+
+== Trivia ==
+* His blood type is O.
+* His favorite color is sky blue.
+* Is married to and has a child with a Chinese woman. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

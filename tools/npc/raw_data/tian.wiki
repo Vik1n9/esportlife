@@ -1,0 +1,122 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tian&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.784Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tian」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Tian
+|name=Gao Tian-Liang
+|nativename=高天亮
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=July
+|birth_date_day=24
+|favchamp=Lee Sin
+|favchamp2=Viego
+|favchamp3=Vi
+|favchamp4=Xin Zhao
+|checkbox1=Yes
+|favchamp6=Poppy
+|checkboxComp=No
+|ids='''CN:''' Tian9999<br>xinnian09<br>'''KR:''' diming<br>'''EUW:''' G2SejuaniJankos<br>EU funny game<br>S11Tian
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/594877
+|twitter=Gao_Tian_Liang
+|instagram=gao_tian_liang
+|youtube=https://www.youtube.com/c/小天Tian
+|weibo=https://www.weibo.com/n/TTTianII
+|lolpros=https://lolpros.gg/player/tian/
+|deeplol=https://www.deeplol.gg/pro/Tian
+|dpmlol=https://dpm.lol/pro/Tian
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===Before Becoming a Pro===
+Tian was clearly a genius in League of Legends; at age of 13, he had already achieved Diamond 1 in Chinese super server. After witnessing [[Clearlove]], his idol winning [[2015 Mid-Season Invitational]], he decided to become a pro. Noticed by [[PDD]], the boss of [[Young Miracles]], Tian received his first offer of joining [[Young Miracles]] as a young prospect. 
+
+===2017 Season===
+in 2017, Tian joined [[Young Miracles]], known as the "West Point" of LPL, as the substitute of [[Ning]]. After Ning left the team for [[Invictus Gaming]], Tian eventually got his chance to play in the [[LDL]] games. That year, [[Young Miracles]] did not get promoted to [[LPL]].
+
+===2018 Season===
+With the help of his boss, [[PDD]], Tian and his teammate, [[Knight (Zhuo Ding)]] were both introduced to [[Suning]]. Nonetheless, while Knight soon won himself a place in the team, Tian struggled to compete with the other jungler in [[Suning]], [[H4cker]]. In the end of the season, Tian left the team for [[FunPlus Phoenix]].
+
+===2019 Season===
+Tian joined [[FunPlus Phoenix]] in 2019, a year that Tian finally grew and shined. Influenced and tutored by FPX's mid laner, [[Doinb]], Tian soon formed great chemistry with the team and won [[LPL 2019 Summer Playoffs]]. Then, [[FunPlus Phoenix]] participated in [[2019 World Championship]] as the first seed of [[LPL]]. Though struggled in group stage, Tian and his team dominated in the knockout stage, where they successfully defeated [[Fnatic]] and [[Invictus Gaming]]. In the final against [[G2 Esports]], [[FunPlus Phoenix]] crashed their component with 3:0, with Tian's stellar performance in jungling. Tian was later chosen as the MVP of the final.
+
+== Trivia ==
+* Known for his {{ci|Qiyana}} and {{ci|Lee Sin}}.
+* His ID '''Tian''' is based on his given name (Tian-Liang).
+* Was the MVP of the [[2019 Season World Championship|Worlds 2019]] Finals.
+* Is a huge anime fan.
+* Featured in "Take Over" - Worlds 2020 promotional music video as a side character.
+* In early 2021, he had to take a break from the competitive scene due to overwhelming stress.
+* Is nicknamed tortoise with garlic (蒜头王八), which is also a nickname for the pokemon Bulbasaur.
+
+=== Statistics ===
+* Reached 1000 kills in the LPL on July 02, 2022.
+** The 33rd player and 4th jungler (after [[Clearlove]], [[SofM]], and [[Karsa]]) to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on June 23, 2024.
+** The 23rd player and 2nd jungler (after [[Kanavi]]) to reach 1500 kills in the LPL.
+* Reached 2000 kills in the LPL on August 27, 2025.
+** The 18th player and 2nd jungler after Kanavi to reach 2000 kills in the LPL.
+* Reached 3000 assists in the LPL on February 28, 2023.
+** Was the 19th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on April 20, 2024.
+** The 14th player to reach 4000 assists in the LPL, after [[meiko]], [[Pyl (Chen Bo)|Pyl]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], [[cold]], [[Doinb]], [[Crisp]], [[LvMao]], [[Missing]], [[Scout]], [[Flandre]], and [[Yagao]].
+* Reached 5000 assists in the LPL on July 20, 2025.
+** The 9th player to reach 5000 assists in the LPL after [[meiko]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Crisp]], [[Rookie]], [[Missing]], [[Scout]], and [[Doinb]].
+* Reached 300 wins in the LPL on June 30, 2023.
+** Was the 16th player to reach 300 wins in the LPL.
+* Reached 400 wins in the LPL on April 07, 2025.
+** Was the 12th player to reach 400 wins in the LPL.
+* Reached 500 games in the LPL on February 26, 2024
+** The 22nd player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on March 22, 2025
+** The 15th player to reach 600 games in the LPL.
+* Reached 700 games in the LPL on August 28, 2025
+** The 10th player to reach 700 games in the LPL after meiko, xiaohu, Rookie, Scout, Flandre, Crisp, JackeyLove, Doinb, and knight.
+
+=== Individual Awards ===
+* Worlds Finals MVP (2019)
+* LPL MVP x2(Summer 2022, Summer 2024) 
+* LPL 1st All Pro Team x4 (Spring 2019, Summer 2019, Summer 2022, Summer 2024)
+* LPL 2nd All Pro Team (Spring 2020) 
+* LPL 3rd All Pro Team (Summer 2021)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

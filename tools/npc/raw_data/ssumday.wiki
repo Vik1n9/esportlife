@@ -1,0 +1,118 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ssumday&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.625Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ssumday」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ssumday
+|name=Kim Chan-ho
+|nativename=김찬호
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1996
+|birth_date_month=July
+|birth_date_day=3
+|favchamp=Shen
+|favchamp2=Renekton
+|favchamp3=Elise
+|checkbox1=No
+|compID1=SunDay
+|checkboxComp=No
+|ids='''NA''': Ssumdayday<br>'''KR:''' 썸썸데이<br>썸데이머함<br>'''EUW:''' 2021Worlds0001<br>nangman topsolo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ssumday
+|twitter=ssumday
+|instagram=ssumday
+|reddit=ssumdayday
+|youtube=https://www.youtube.com/ssumday
+|lolpros=https://lolpros.gg/player/ssumday/
+|deeplol=https://www.deeplol.gg/pro/Ssumday
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''SunDay'''.
+|checkbox-res=Yes
+|residency-prev1=Korea
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+===Season 3===
+Ssumday was picked up by [[KT Rolster B]] on February 27, 2013 to be their starting top laner. His first tournament was [[OLYMPUS Champions Spring 2013]] where KT B lost in the quarterfinals 3-1 to [[MVP Ozone]]. After the tournament, KT B changed their name to the KT Bullets and ssumday was benched in favor of [[InSec]], who was moved top to make room for [[KaKAO]] to rejoin the team. He remained on the Bullets as a sub until he was moved to the [[KT Rolster Arrows]] as their new starting top laner on October 7, 2013.
+
+===2014 Season===
+
+The Arrows qualified for [[HOT6iX Champions Spring 2014]] where they upset [[SK Telecom T1 K]] to place first in their group. Unfortunately, they lost in the quarterfinals 3-1 to [[CJ Entus Blaze]]. The Arrows then attended [[HOT6iX Champions Summer 2014]] where they beat the favorites, [[Samsung Blue]], 3-2 to win the tournament. Next, they attended the [[2014 Season Korea Regional Finals]] where they were swept in the second round by [[NaJin White Shield]], narrowly missing [[2014 Season World Championship|Worlds]].
+
+===2015 Season===
+
+With the changes to the OGN rules, the Arrows and the Bullets merged to create [[KT Rolster]] and ssumday was made the starting top laner. KT participated in [[SBENU Champions Spring 2015]] and placed 5th, narrowly missing playoffs. KT placed second overall during the regular season of [[SBENU Champions Summer 2015]]. They made it to the finals of the playoffs but lost 3-0 to [[SK Telecom T1]]. KT earned enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] where they beat the [[Jin Air Green Wings]] 3-1 in the finals to qualify for the [[2015 Season World Championship]]. KT was drawn into a group with [[LGD Gaming]], [[Team SoloMid]], and [[Origen]]. They ended with a 5-1 record and went on to play the [[KOO Tigers]] in the quarterfinals. Unfortunately, they lost 3-1 and were knocked out of the tournament. 
+
+===2016 Preseason===
+
+KT played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the semifinals to [[CJ Entus]].
+
+===2016 Season===
+
+During the [[LCK/2016 Season/Spring Season|LCK 2016 Spring Season]], KT Rolster finished second place in the regular season with a 13-5 match record. Ssumday was second place in MVP voting with 1100 points behind [[Smeb]]. Their regular season placement earned them a bye into the semi-finals of the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], where they faced [[SK Telecom T1]]. Unfortunately, they were swept 3-0, ending their spring split with a third place finish.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], KT Rolster claimed third place in the regular season with a 13-5 series record, losing to [[SK Telecom T1]] based on game score. This seeded them into the 2nd round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], where they met [[Samsung Galaxy]]. KT had yet to drop a game to Samsung since the start of Season 5's LCK era, and this trend continued as they swept them 3-0. In the semifinals, they met [[SK Telecom T1]] in the Telecom Wars, and this time they managed to reverse sweep them 3-2 to move onto the finals. In an epic set against the [[ROX Tigers]], KT Rolster barely lost 3-2, losing out on Korea's first seed at Worlds, but giving them the highest seed for the [[Korea Regional Finals 2016]]. In a rematch against [[Samsung Galaxy]] where KT were heavily favored to make it out, Samsung managed to break a 19 game losing streak against KT to win the set 3-2 and take Korea's third seed, ending KT Rolster's season early. Ssumday left KT in November and in the next month he moved over to North America and joined [[Team Dignitas]].
+
+===2017 Season===
+
+The [[League_Championship_Series/North_America/2017_Season/Spring_Season|2017 NA LCS Spring Season]] started off poorly for [[Dignitas]] in the first three weeks as they picked up one series win. However, they managed to end the season on a high note and finished the split in 6th place with a 9-9 record. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] they lost 0-3 in the Quarterfinals to [[Phoenix1]]. The [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] was much better for the team and they finished 5th place after a very good first half to the season. In the [[League_Championship_Series/North_America/2017_Season/Summer_Playoffs|playoffs]] Team Dignitas defeated [[Cloud9]] 3-1 in the Quarterfinals. Their playoff run was however put to a halt when they lost 1-3 to [[Team SoloMid]] in the Semifinals and 0-3 to [[Counter Logic Gaming]] in the third place match. In the [[2017 Season North America Regional Finals]] Team Dignitas were swiftly eliminated after an 0-3 loss to [[FlyQuest]]. In November of 2017 Ssumday left the team after they were not accepted in the NA LCS franchising and joined [[100 Thieves]].
+
+===2018 Season===
+
+In November of 2017, freshman organization [[100 Thieves]] announced Ssumday as one of their first three signings for the upcoming split, along with jungler [[Meteos]] and mid laner [[Ryu]].<ref>[https://www.riftherald.com/2017/11/23/16693674/100-thieves-ryu-meteos-ssumday-roster-lol-na-lcs 100 Thieves announces starting line up featuring Ryu, Ssumday and Meteos] ''riftherald.com''</ref> Ssumday had previously played with [[Ryu]] during their time on the [[KT Rolster Bullets]] in the 2013 Season. Bottom laner [[Cody Sun]] and support [[Aphromoo]] would be signed later on to round out the roster. 100 Thieves would go on to impress in their inaugural split, winning a tie-breaker with [[Echo Fox]] to earn first place for the regular season and falling to [[Team Liquid]] in five games in the playoff finals to earn second place. Ssumday and 100 Thieves started the [[NA LCS 2018 Summer|Summer Split]] out hot, winning five games in a row after an 0-2 start. The team stayed in 2nd place until Week 9, when they fell to 3rd behind [[Cloud9]], placing them in a four-way tiebreaker bracket with [[Echo Fox]], [[Team SoloMid]], and [[FlyQuest]]. 100 Thieves won both tiebreaker games, due in part to Ssumday's excellent performances, and thus attained the 3rd seed in the [[NA LCS 2018 Summer Playoffs|playoffs]], where they fell to Team Liquid in the semifinals. 100 Thieves qualified for the [[2018 Season World Championship]] by virtue of their accumulated Championship Points. Drawn into a group with eventual finalists [[Fnatic]] and [[Invictus Gaming]] as well as LMS team [[G-Rex]], 100 Thieves performed to community expectations and finished third in their group, with their only two wins coming over G-Rex.
+
+===2019 Season===
+
+After signing [[SK Telecom T1|SKT T1]] botlaner [[Bang]] and [[Counter Logic Gaming]] midlaner [[Huhi]] in the 2018 offseason, 100 Thieves looked to continue their winning ways. They had a decent start to the [[LCS 2019 Spring|2019 Spring Split]], winning three consecutive games after going 0-3 in their first three. The team's performance nosedived, however, as they struggled to properly allocate resources to both Ssumday and Bang. 100 Thieves won only one more game in Spring, finishing in last place with four wins and fourteen losses. Summer brought about more roster changes for the Thieves, as they brought in European jungler [[Amazing (Maurice_Stückenschneider)|Amazing]] and promoted their Academy midlaner, [[Soligo]], who replaced [[AnDa]] and [[Huhi]], respectively. After two winless weeks to start the [[LCS 2019 Summer|Summer Split]], 100 Thieves benched Ssumday and Soligo and promoted Academy players [[FakeGod]] and [[Ryu]] to the main team. Ssumday spent the rest of the Summer Split playing for the [[100 Thieves Academy|Thieves' Academy team]], racking up 11 wins in 13 games with the squad and helping them clinch the third seed. 100 Thieves Academy won the [[NA Academy 2019 Summer Playoffs|Summer Playoffs]], with Ssumday playing exclusively carry champions.
+
+== Trivia ==
+* Known for playing tanks and bruisers such as {{ci|Renekton}} and {{ci|Shen}}.
+* Regular Season MVP of [[SBENU Champions Summer 2015]] with 1400 MVP points.
+
+=== Individual Awards ===
+* LCK MVP (2015 Summer)
+* LCS 1st All-Pro Team x3 (2017 Summer, 2018 Summer, 2022 Summer)
+* LCS 2nd All-Pro Team x3 (2020 Spring, 2020 Summer, 2022 Spring)
+* LCS 3rd All-Pro Team x2 (2018 Spring, 2023 Spring)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

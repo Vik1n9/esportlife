@@ -1,0 +1,105 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ShowMaker&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.917Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ShowMaker」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=ShowMaker
+|name=Heo Su
+|nativename=허수
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=July
+|birth_date_day=22
+|favchamp=Katarina
+|favchamp2=Kassadin
+|favchamp3=Syndra
+|favchamp4=LeBlanc
+|checkbox1=Yes
+|favchamp5=Zoe
+|favchamp6=Twisted Fate
+|favchamp7=Sylas
+|favchamp8=Locke
+|checkboxComp=No
+|ids='''KR:''' DK ShowMaker, ShowMaker, DWG KIA<br>'''EUW:''' Syndra<br>'''CN:''' wanshanghaowanan <br> '''NA:''' WWVWVVWVWVWVWVWW
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/showmakerr
+|instagram=showmake_r
+|lolpros=https://lolpros.gg/player/showmaker/
+|deeplol=https://www.deeplol.gg/pro/ShowMaker
+|dpmlol=https://dpm.lol/pro/ShowMaker
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Among his celebrity fans is K-Pop idol [[wikipedia:en:Sunmi|Sunmi]] (Lee Sun-mi) of [[wikipedia:en:Wonder Girls|Wonder Girls]], who made a viral Instagram post of herself modeling his jersey like a dress.<ref>[https://twitter.com/DamwonGaming/status/1284862965175345153 DWG go with Sunmi: "I'm the ShowMaker"] Damwon Gaming on Twitter</ref>
+* He decided on his summoner name, ShowMaker, because he wanted to put on a great show.<ref>[https://www.facebook.com/lolesports/videos/2000748180089690 How ShowMaker found his Summoner Name] ''facebook.com''</ref>
+* Reached 1000 kills in the LCK on August 28th, 2021
+** The 17th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)| Ghost]], [[Peanut]], [[Chovy]] and [[Fly (Song Yong-jun)|Fly]]
+** Is the fastest (days since debut) player in the LCK to achieve 1000 kills.
+** His 1000th kill in the LCK was on [[T1]]'s Jungler [[Oner]] in the [[LCK 2021 Summer Playoffs|LCK 2021 Summer Playoffs Finals]] with {{ci|LeBlanc}}
+* Reached 1500 kills in the LCK on July 7, 2023.
+** The 13th player to reach 1500 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], [[Peanut]], and [[Aiming]].
+* Reached 2000 kills in the LCK on April 25th, 2025.
+** The 8th player to reach 2000 kills in the LCK after [[Faker]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], and [[Aiming]].
+** His 2000th in the LCK was on [[T1]]'s top laner [[Doran (Choi Hyeon-joon)|Doran]] in [[LCK/2025 Season/Rounds 1-2|Round 1]] with {{ci|Sylas}}.
+** Was the fourth mid laner (after [[Faker]], [[Bdd]] and [[Chovy]]) to reach 2000 LCK kills.
+* Reached 300 wins in [[LCK]] on July 21, 2023, becoming the 10th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], [[Ruler]], [[Peanut]], [[Bdd]], and [[Chovy]].
+* Reached 400 wins in [[LCK]] on August 14, 2025, becoming the 10th player to do so after [[Faker]], [[Deft]], [[Peanut]], Bdd, Chovy, Lehends, Kiin, Canyon, and Ruler.
+* Reached 500 games in the LCK on February 29, 2024, becoming the 14th player to do so.
+* Reached 600 games in the LCK on April 20, 2025, becoming the 10th player to do so, after Faker, Deft, Bdd, Peanut, Kiin, Teddy, Chovy, [[Lehends]], and Ruler.
+* Reached 3000 assists in the LCK on June 15, 2024.
+** Was the 17th player to reach 3000 assists in the LCK.
+* Reached 4000 assists in the LCK on September 18, 2025.
+** Was the 14th player to reach 4000 assists in the LCK.
+* He is known for his reaction "Wow! League of Legends" when he realises that [[K'Sante]] is so OP<ref>[https://www.youtube.com/watch?v=Y2YVLbQSdRA Showmaker already has ENOUGH of this Season] ''youtube.com''</ref> and a clip of when he died to him listing all of his stats and abilities.<ref>[https://www.youtube.com/watch?v=fW69GYmiHBM Showmaker loses his mind over K'Sante] ''youtube.com''</ref>
+* Is ISFJ on the MBTI scale.<ref>[https://youtu.be/qYHWSzXWst4?t=954 LCK LANEMATES - MID EP.2 | 2024 LCK Spring Split] ''youtube.com''</ref>
+* He is a big fan of European football players, as he has celebrated LCK victories by striking famous poses from players like [[wikipedia:en:Mbappé|Mbappé]] and [[wikipedia:en:Viktor Gyökeres|Gyökeres]].<ref>[https://x.com/lolesports/status/1890716935672766609 LoL Esports' X Post] ''x.com''</ref><ref>[https://x.com/lolesports/status/1923320788838408370 LoL Esports' X Post] ''x.com''</ref>
+
+=== Individual Awards ===
+* LCK MVP x1 (Summer 2020)
+* LCK Player of the Split x1 (Spring 2021)
+* LCK Final MVP x1 (Summer 2021)
+* LCK 1st All-Pro Team x3 (Summer 2020, Spring 2021, Summer 2021)
+* LCK 3rd All-Pro Team x1 (Spring 2022)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

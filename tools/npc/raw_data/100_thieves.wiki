@@ -1,0 +1,174 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=100%20Thieves&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.877Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「100 Thieves」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= 100 Thieves
+|organization=100 Thieves (Organization)
+|orgcountry= United States
+|country=
+|region=Americas
+|sponsor= [https://www.lexus.com Lexus] <br> [https://www.att.com AT&T] <br> [https://www.heineken.com Heineken] <br> [https://www.oakley.com/en-us Oakley] <br> [https://www.crocs.com Crocs] <br> [https://scufgaming.com/int SCUF] <br> [https://neurogum.com NeuroGum] <br> [https://www.adidas.com/us Adidas]
+<!-- Staff -->
+|owner= 
+<!-- Social Media -->
+|website= https://www.100thieves.com
+|youtube= https://www.youtube.com/channel/UCnrX2_FoKieobtw19PiphDw
+|facebook= https://www.facebook.com/100Thieves
+|twitter= 100T_LoL
+|instagram= 100thieves
+|subreddit= 100thieves
+|discord= https://discord.com/invite/100thieves
+|snapchat= 
+|twitch-team= https://www.twitch.tv/team/100thieves
+|tiktok= 100thieves
+|bluesky= 100thieves.bsky.social
+|linkedin=https://www.linkedin.com/company/100thieves/
+|irc= 
+<!-- History -->
+|created= 2017-11-20
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= apex,cod,fortnite,valorant
+}}{{TOCRWI}}
+
+'''100 Thieves''' is an American esports organization affiliated with the NBA team '''Cleveland Cavaliers'''.
+
+== History ==
+'''100 Thieves''' was founded by former ''Call of Duty'' professional player Matthew "Nadeshot" Haag. It was first formed in April 2016 but disbanded in July of the same year. In November 2017, the organization rejoined esports when they joined the NA LCS for the [[League Championship Series/North America/2018 Season/Spring Season|2018 season]]. Cleveland Cavaliers owner Dan Gilbert gave 100 Thieves a multi-million dollar investment for their re-entry into esports.
+===2018 Season===
+====Spring Split====
+For their inaugural split, 100 Thieves acquired [[League_Championship_Series/North_America/2017_Season/Summer_Season|2017 NALCS Summer All-Pro]] top laner [[Ssumday]], veteran jungler [[Meteos]], former [[Phoenix1]] mid laner [[Ryu]], former [[Immortals]] AD carry [[Cody Sun]], and veteran [[CLG]] support [[Aphromoo]]. While this team did not lack experience and pedigree, with Meteos and Aphromoo having won two NALCS Championships apiece, opinions were mixed as to the ability of the players to perform at a high level. Meteos had not been a starter in the NALCS since the [[League_Championship_Series/North_America/2017_Season/Summer_Season|2016 Summer Split]], Ryu had taken part of the previous split off due to burnout, and there were questions about Aphromoo's playing ability despite his reputation as a team leader. 
+
+100 Thieves charged out of the gate to begin [[League_Championship_Series/North_America/2018_Season/Spring_Season|the split]] with a 3-1 record over the first two weeks. However, many of their games were exceedingly long, and the team failed to look unbeatable in any of them. These struggles began to show in their record, as the team slumped over the next two weeks to finish the first half of the season at 4-5. However, 100 Thieves embarked on a powerful second half surge, going 8-1 as frontrunners [[Echo Fox]] and [[Cloud9]] stagnated. Cody Sun posted some of the best AD carry statistics in the league, and Aphromoo popped off on several different playmaking supports. The Thieves managed to beat Echo Fox in their final game of the season, then beat them again in the first-place tiebreaker to secure the 1st seed in their first split as an organization. For their stellar play, both Cody Sun and Aphromoo were named to the All-Pro Team, and Aphromoo also became the first support to be named NALCS MVP. 
+
+Their playoff bye meant that 100 Thieves entered [[League_Championship_Series/North_America/2018_Season/Spring_Playoffs|the playoffs]] in the semifinals, where they faced 6th seeded [[Clutch Gaming]], who were fresh off of an upset victory over [[TSM]] the previous week. 100 Thieves were heavily favored but were unable to dominate as expected; despite taking 1-0 and 2-1 leads in the series, Clutch came back with a win both times to force game 5. Clutch took an early lead in the final game, but the Thieves were able to stall it into a tense 74-minute game reminiscent of their early season wins, which they managed to win to send themselves to the finals. However, their semifinal struggles would prove prescient, as in the finals 100 Thieves were swept in a quick three games by an equally veteran [[Team Liquid]] lineup, finishing the playoffs with 70 Championship points and a slot in the [[Rift Rivals 2018|2018 NA-EU Rift Rivals]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Nadeshot|us|Matthew Haag|'''Founder & Chief Executive Officer'''}}
+{{listplayersp|notnosaj||Jason Ton|'''Chief Financial Officer & Chief Business Officer'''}}
+{{listplayersp|||Julie Van|'''Chief Operating Officer'''}}
+{{listplayersp|Maelk|dk|Jacob Toft-Andersen|'''President'''}}
+{{listplayersp||us|Dan Gilbert|'''Co-Owner'''}}
+{{listplayersp|Drake|ca|Aubrey Drake Graham|'''Co-Owner'''}}
+{{listplayersp|Scooter Braun|us|Scott Samuel Braun|'''Co-Owner'''}}
+{{listplayersp|Valkyrae|us|Rachell Hofstetter|'''Co-Owner & Content Creator'''}}
+{{listplayer|CouRage (Jack Dunlop)|us|Jack Dunlop|'''Co-Owner & Content Creator'''}}
+{{listplayersp||us|John Robinson|'''Advisor'''}}
+{{listplayersp|GabeJRuiz|us|Gabriel Ruiz|'''Director Of Brand Marketing'''}}
+{{listplayersp|Wex||Alex Wechsler|'''Head of Studios'''}}
+{{listplayersp||us|Kelsey Schultz|'''Director, Head of Sales Operations and Activations'''}}
+{{listplayersp|||Katie Chan|'''Senior Finance Manager'''}}
+{{listplayersp|Nemyxx|us|Alex Renault|'''Graphic Designer'''}}
+{{listplayersp||us|Alex Poehlman|'''Head of Social Media'''}}
+{{listplayersp|rmarti33|us|Ryan Martineau|'''Senior Manager, Facilities & Esports Operations'''}}
+{{listplayer|JungleJuice|us|Joseph Jang|'''General Manager'''}}
+{{listplayer|Yassuo|us|Mohammad "Moe" Abdalrhman|'''Streamer & Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Goldenglue|us|Greyson Gilmer|'''Head Coach'''|newteam=Sentinels}}
+{{listplayer|Spookz|au|Samuel Broadley|'''Strategic Coach'''|newteam=TL}}
+{{listplayersp|Kaimera|us|Nathan McAdams|'''Head Analyst'''|newteam=none}}
+{{listplayersp|Snipetality|us|Logan Dodson|'''Director of Post Production'''|newteam=none}}
+{{listplayer|Dhokla|us|Niship Doshi|'''Coach'''|newteam=100T|comment=Top}}
+{{listplayersp||us|Chad Steiner|'''Head of Partnership Marketing'''|newteam=retired|comment=Digital Media Agent}}<!--Aug 2024-->
+{{listplayer|Ssumday|kr|Kim Chan-ho (김찬호)|'''Content Creator'''|newteam=HANJIN BRION Challengers}}
+{{listplayersp||us|Chris Lamb|'''Head of Partnership Development'''|newteam=retired|comment=Oak View Group}}<!--Mar 2024-->
+{{listplayer|Tenacity|ca|Milan Oleksij|'''Content Creator'''|newteam=Disguised}}
+{{listplayer|Cain|kr|Jang Nu-ri (장누리)|'''Head Coach'''|newteam=none}}
+{{listplayer|Nukeduck|no|Erlend Våtevik Holm|'''Assistant Coach'''|newteam=FLY}}
+{{listplayersp|cewiiina||Celina Wang|'''Senior Esports Operations Manager'''|newteam=retired|comment=Amazing Seasun Games}}
+{{listplayersp|||Andrew White|'''Esports Content Lead'''|newteam=none}}
+{{listplayersp|SesoHQ|us|Gregory Ortiz|'''Graphic Designer'''|newteam=NRG}}
+{{listplayersp||ca|Tim Sevenhuysen|'''Director of Esports Analytics'''|newteam=Retired|comment=Datalisk Esports Services}}<!--Jul 2023-->
+{{listplayer|Dan Dan|nl|Danny Le Comte|'''Assistant Coach'''|newteam=Solary}}
+{{listplayer|Kaas|be|Christophe van Oudheusden|'''Head Coach'''|newteam=XL}}
+{{listplayersp|||Julia Wu|'''Director of Marketing'''|newteam=Disguised}}<!--Mar 2023-->
+{{listplayersp||us|Alexandra Salamunovich|'''Director of Production Ops'''|newteam=Retired}}<!--Jan 2023-->
+{{listplayersp||us|Hillary Gilmore|'''Head of Partnerships'''|newteam=Retired}}<!--Jan 2023-->
+{{listplayersp||us|Matty Lee|'''Chief Revenue Officer'''|newteam=Retired}}<!--Jan 2023, https://www.linkedin.com/pulse/thank-you-matty-lee/-->
+{{listplayersp|kinro415|us|Allison Ornik|'''Associate Director'''|newteam=Retired|comment=Long Haul Management Inc}}<!--Jan 2023-->
+{{listplayersp|MulliganTM|us|Tim Mulligan|'''Senior Director & Head of Strategic Accounts'''|newteam=C9}}
+{{listplayer|Lustboy|kr|Ham Jang-sik (함장식)|'''Role Coach'''|newteam=Retired}}
+{{listplayer|Mithy|es|Alfonso Aguirre Rodríguez|'''Assistant Coach'''|newteam=C9}}
+{{listplayer|Freeze|cz|Aleš Kněžínek|'''Assistant Coach'''|newteam=EG}}
+{{listplayer|Reapered|kr|Bok Han-gyu (복한규)|'''Head Coach'''|newteam=sgg}}
+{{listplayer|PapaSmithy|au|Christopher Smith|'''General Manager'''|newteam=FLY}}
+{{listplayersp|Blackbeard|us|Jonathan Schmid|'''Social Media Manager'''|newteam=Retired|comment=Activision}}<!--Jul 2022-->
+{{listplayersp||us|Mike Aransky|'''Executive Producer & Head of Content'''|newteam=Retired}}<!--Jul 2022-->
+{{listplayersp||us|Rickey Mizuno|'''Director of Production'''|newteam=Retired}}<!--Jul 2022-->
+{{listplayersp||us|Olivia Gastaldo|'''Senior Producer & Cinematographer'''|newteam=Retired}}<!--Jul 2022-->
+{{listplayersp||us|Jeremy Azevedo|'''VP of Content'''|newteam=Retired}}<!--Jun 2022-->
+{{listplayersp||us|Emmie Romanovich|'''Social Video Producer'''|newteam=Retired}}<!--May 2022-->
+{{listplayersp||us|Damian Estrada|'''Director of Product Marketing'''|newteam=Retired}}<!--Apr 2022-->
+{{listplayersp|||Ibrahim Eljeilat|'''BD & Talent Consultant'''|newteam=Retired|comment=Night}}<!--Feb 2022-->
+{{listplayersp|MindBodyEsports|us|Edward Cleland|'''Performance Specialist'''|newteam=EG.NA}}
+{{listplayersp|Whiskey6Studios|us|Stefan Wisnoski|'''Cinematographer'''|newteam=Retired}}
+{{listplayersp||us|Mark Rasoul|'''VP of Marketing'''|newteam=Retired|comment=MARK THE FUTURE}}
+{{listplayersp||us|Alexander Punch|'''Production Manager'''|newteam=Retired|comment=Offbeat}}
+{{listplayersp|Anna Molly||Anna Hongo|'''Marketing Coordinator'''|newteam=Retired}}
+{{listplayersp|Ricky||Ricky Lam|'''Production Coordinator'''|newteam=Retired}}
+{{listplayer|Zikz|us|Tony Gray|'''Head Coach'''|newteam=NRG|comment=VALORANT}}
+{{listplayersp|jess.|us|Jessica Cheu|'''Operations and Facilities Manager'''|newteam=Retired|comment=John Paul Mitchell Systems}}
+{{listplayersp||us|Terence Deutsch|'''Senior Manager, Live Streaming and Technology Operations'''|newteam=Retired|comment=Blue Wire Podcasts}}
+{{listplayersp|||Doug Barber|'''VP of Brand and Apparel'''|newteam=Retired}}
+{{listplayer|Kelsey|us|Kelsey Moser|'''Academy Director'''|newteam=Evil Geniuses.NA}}
+{{listplayersp|Wieds|us|Lauren Wiedmeier|'''Human Resources Director'''|newteam=Evil Geniuses.NA}}
+{{listplayersp||us|Jackson Dahl|'''VP of Talent and Entertainment'''|newteam=Retired|comment=Paradigm}}<!--Nov 2021-->
+{{listplayersp||us|Alexandra Keenan|'''Account Manager, Partnerships'''|newteam=Retired|comment=Red Bull Media House}}<!--Sep 2021-->
+{{listplayersp||us|Ben Cobleigh|'''Partnerships Coordinator'''|newteam=Retired|comment=Passion Tree LLC}}
+{{listplayersp||us|Brian Farmer|'''Brand Strategist'''|newteam=Retired
+}}<!--May 2021-->
+{{listplayersp||us|Sean Finnegan|'''Senior Producer, Branded Content'''|newteam=Dignitas}}
+{{listplayersp|JDempe|us|Jeremy Dempe|'''Producer & Cinematographer'''|newteam=Dignitas}}
+{{listplayer|Phantiks|au|Richard Su|'''Assistant Coach'''|newteam=FQA}}
+{{listplayer|pr0lly|us|Neil Hammad|'''Head Coach'''|newteam=Retired}}
+{{listplayersp|SAB|us|Sabrina Wong|'''Team Manager'''|newteam=EG.NA}}
+{{listplayersp||za|Travis Anderson|'''Senior Management Consultant - Apparel'''|newteam=Team Liquid}}
+{{listplayersp|Muddawg|us|Eric Sanders|'''Head of Esports Operations'''|newteam=OpTic|comment=OpTic Gaming Los Angeles}}
+{{listplayer|Ryu|kr|Ryu Sang-wook (류상욱)|'''Assistant Coach'''|newteam=100A}}
+{{listplayer|Stardust|link=Stardust (Son Seok-hee)|kr|Son Seok-hee (손석희)|'''Assistant Coach'''|newteam=AK}}
+{{listplayersp|Reinfcmnt|us|Matthew Edwards|'''Performance Coach'''|newteam=Retired|comment=Overwatch}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+100 ThievesAlternatelogo square.png|Alternate Logo
+</gallery>
+
+===Rosters===
+<gallery>
+100 Thieves Roster 2018 Spring.png|100 Thieves' 2018 LCS Spring Roster
+100 Thieves 2019 LCS Spring Roster.jpg|100 Thieves' 2019 LCS Spring Roster
+2020 100 Spring.png|100 Thieves' 2020 LCS Spring Roster
+100 Thieves 2025 Split 1.jpeg|100 Thieves 2025 LTA North Split 1
+</gallery>
+
+==References==
+<references />

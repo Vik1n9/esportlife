@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Longzhu%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Longzhu Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=Kingzone DragonX
+|name= Longzhu Gaming
+|orgcountry=China
+|country=South Korea
+|region=KR
+|image=LongZhu Gaminglogo square.png
+|coaches= 
+|manager= 
+|captain= 
+|website=http://longzhugaming.com/
+|youtube=
+|instagram= longzhugaming
+|facebook=https://www.facebook.com/IMteam
+|twitter=Longzhu_
+|irc=
+|rosterphoto=Longzhu Gaming 2017 LCK SPRING.png
+|sponsor= [http://longzhu.com/ Longzhu] <br/> [http://www.asrock.com/ ASRock] <br/> [http://www.cocacola.co.kr/ Coca-Cola] <br/> [http://www.corsair.com/ Corsair] <br/> [http://www.dxracer.com/ DXRacer] <br/> [http://joon-system.co.kr/ JOON SYSTEM]
+|created= 2016-01-03
+}}{{TOCRWI}}
+
+'''Longzhu Gaming''' was a professional gaming team based in South Korea.
+
+==History==
+'''Longzhu Gaming'''  was formed in January 2016 when [[Incredible Miracle]] rebranded and took the name of their previous title sponsor, LongZhu.<ref name="formation">[http://sports.news.naver.com/esports/news/read.nhn?oid=109&aid=0003234061 '아듀 IM'...롱주-IM, 롱주로 팀명과 엠블렘 변경 (Korean)] ''naver.com''</ref>
+
+===2016 Season===
+Longzhu Gaming approached the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]] with a 10 man roster, signing many high-profile free agents during the offseason, such as [[LGD Gaming]]'s [[Flame]], [[Jin Air Green Wings]]'s [[Chaser]], [[CJ Entus]]'s [[CoCo]], and [[Samsung Galaxy]]'s [[Fury (Lee Jin-yong)|Fury]]. However, they still finished the spring split in seventh place with an 8-10 set record, missing out on a spot in the playoffs. The summer season wasn't much better. Having signed [[Emperor (Kim Jin-hyun)|Emperor]] from a first place finish in Europe with [[G2 Esports]], the team performed disastrously. Only after they started using [[Fury (Lee Jin-yong)|Fury]] as their ADC again did Longzhu's fortunes rise, ending the season 7-11 in sets. This gave them eighth place in the season, allowing them to escape relegations.
+
+===2017 Season===
+Longzhu Gaming formed a new roster, consisting of top laner [[Expession]], jungler [[Crash]], former [[KT Rolster]] mid laner [[Fly (Song Yong-jun)|Fly]], and the former [[ROX Tigers]] bot lane, [[PraY]] and [[GorillA]]. The team competed in the [[LCK/2017 Season/Spring Season|Spring Split]] but they ended in 7th place with a record of 8-10, only enough to escape relegations again. Longzhu then retooled the roster, with only PraY and GorillA remaining from the spring team. They added former [[CJ Entus]] mid laner [[Bdd]] and little-known top laner [[Khan]], as well as promoting jungler [[Cuzz]] to a starting position. In the [[LCK/2017 Season/Summer Season|2017 Summer Split]], Longzhu performed excellently, claiming 1st place with a record of 14-4, and giving them the number one seed in the playoffs. There, they shocked the world by defeating three-time World Champions [[SK Telecom T1]] 3-1 in the finals, due Longzhu's incredible plays and Khan's ability to carry. This guaranteed them a spot in the [[2017 World Championship]] as Korea's second seed and as heavy favorites to win the tournament. Longzhu Gaming was placed in Group B along with [[Fnatic]], [[Immortals]] and [[GIGABYTE Marines]], where they placed 6-0 in the group stage. However, despite their efforts, Longzhu was swept 3-0 by eventual tournament winners Samsung Galaxy in the quarterfinals, ending their run. After the World Championship, Longzhu upgraded the team again when former SK Telecom T1 Jungler [[Peanut]] joined the team as their starting jungler. They competed in the [[2017 LoL KeSPA Cup|2017 Kespa Cup]] where they defeated [[Jin Air Green Wings]] in the quarterfinals and swept SK Telecom T1 2-0 in the semi-finals. They then advanced to the finals where they met [[KT Rolster|KT Rolster]]. In an exciting five game series, it seemed that Longzhu was going to win but KT, having not won anything in 2017, turned the tables in their favor and defeated them 3-2, and Longzhu ended in second place in the tournament. Nevertheless, Longzhu was hailed as a powerful team in Korea.
+
+=== 2018 Season ===
+On January 7, 2018, Longzhu's acquisition by Chinese company '''Kingzone''' was announced, but at the time no new name for the team was given.<ref name="kingzonejan8">[http://chhopsky.tv/longzhu-sold-to-chinese-company-kingzone/ Longzhu sold to Chinese company Kingzone] ''chhopsky.tv''</ref>
+
+==Timeline==
+{{TeamNews}}
+
+==Player Roster==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||cn|Chen Qi-Dong (陈琦栋)|'''Owner'''|newteam=Kingzone DragonX}}
+{{listplayer|Hirai|kr|Kang Dong-hoon (강동훈)|'''Head Coach & General Manager'''|newteam=Kingzone DragonX}}
+{{listplayer|Spark|link=Spark (Kang Byung-ryul)|kr|Kang Byung-ryul (강병률)|'''Manager'''|newteam=kz}}
+{{listplayer|Supreme|kr|Choi Seung-min (최승민)|'''Coach'''|newteam=Kingzone DragonX}}
+{{listplayer|ActScene|kr|Yeon Hyeong-mo (연형모)|'''Coach'''|newteam=Kingzone DragonX}}
+{{listplayer|Kim|link=Kim (Kim Jeong-soo)|kr|Kim Jeong-soo (김정수)|'''Coach'''|newteam=ig}}
+{{listplayer|Cuzz|kr|Moon Woo-chan (문우찬)|'''Streamer'''|newteam=LZ|comment=[[File:Junglerole icon.png|19px|link=]] Jungle}}
+{{listplayer|SSONG|kr|Kim Sang-soo (김상수)|'''Coach'''|newteam=IMT}}
+{{listplayer|Supreme|kr|Choi Seung-min (최승민)|'''Coach'''|newteam=Longzhu Gaming|comment=Coach}}
+{{listplayer|Lustboy|kr|Ham Jang-sik (함장식) |'''Strategic Coach'''|newteam=CNB}}
+{{listplayer|July (Park Seong-joon)|kr|Park Seong-joon (박성준)|'''Coach'''|newteam=none}}
+{{listplayer|Spark|link=Spark (Kang Byung-ryul)|kr|Kang Byung-ryul (강병률)|'''Coach'''|newteam=Longzhu|comment=Manager}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+
+==References==
+<references />

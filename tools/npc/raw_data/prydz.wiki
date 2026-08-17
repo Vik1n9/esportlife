@@ -1,0 +1,137 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Prydz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.159Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Prydz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Prydz
+|name=Chen Kuang-Feng
+|nativename=陳廣峰
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|birth_date_year=1988
+|birth_date_month=February
+|birth_date_day=29
+|favchamp=Elise
+|favchamp2=Irelia
+|favchamp3=Kennen
+|checkbox1=No
+|checkboxComp=No
+|ids=ahq Prydz (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|checkboxIsSub=No
+|teamhist1=Corsair
+|teamdate1=May 2012 - Sep 2012
+|teamrole1=Top
+|issub1=No
+|istrainee1=No
+|teamhist2=ahq e-Sports Club
+|teamdate2=Sep 2012 - Feb 2015
+|teamrole2=Top
+|issub2=No
+|istrainee2=No
+|teamhist3=DetonatioN FocusMe
+|teamdate3=Jul 2015 - Sep 2015
+|teamrole3=Coach
+|issub3=No
+|istrainee3=No
+|teamhist4=Gamania Bears
+|teamdate4=Oct 2015 - Dec 2015
+|teamrole4=Manager
+|issub4=No
+|istrainee4=No
+|teamhist5=GashBears
+|teamdate5=Dec 2015 - Jun 2016
+|teamrole5=Manager
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=J Team
+|teamdate6=Aug 2016 - Nov 2016
+|teamrole6=Analyst
+|issub6=No
+|istrainee6=No
+|teamhist7=J Team
+|teamdate7=Nov 2016 - Nov 2018
+|teamrole7=Coach
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/prydz_z
+|facebook=https://www.facebook.com/PrydzLoL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=Yes
+|prev1=Analyst
+|prev2=Manager
+|prev3=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=小峰
+}}
+==Biography==
+Before the release of League of Legends, Prydz was interested in DotA game as he was fascinated in Dynasty Warriors, which is a fan-made DotA map on Warcraft 3. After the release of League of Legends, Prydz became one of the top players in Taiwan. Moreover, China's e-sport team, [[Invictus Gaming]] invited him and [[UDJ]] to join their League of Legends division, but they were unsuccessful to join [[Invictus Gaming]] due to the internal dissension of [[Invictus Gaming]]. In April 2012, [[UDJ]] invited Prydz to join 小樂OP as a substitute and began Prydz's competitive gaming. On 21st September, 212, Corsair and SSWIE were merged and renamed to [[ahq e-Sports Club]] as well as Prydz became the jungler from substitute position. On 24th December, 2012, [[UDJ]] retired from competitive gaming and Prydz replaced his position from jungle position.
+
+== Trivia ==
+* After the failure of joining [[Invictus Gaming]], Prydz worked in a Pet Shop.<ref>[http://lol.garena.tw/competitive/news/news_info.php?nid=1003 【專訪】勇敢追夢的男孩！ahq Prydz 專訪！] ''lol.garena.tw''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

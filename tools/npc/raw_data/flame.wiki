@@ -1,0 +1,124 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Flame&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.079Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Flame」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Flame
+|name=Lee Ho-jong
+|nativename=이호종
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1992
+|birth_date_month=August
+|birth_date_day=13
+|favchamp=Irelia
+|favchamp2=Kennen
+|favchamp3=Nidalee
+|favchamp4=Jayce
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 묵연수행<br>Goldtec<br>indddd<br>롤드컵무패웃음탑<br>세상엔나쁜탑없다<br>DDW 노잼아저씨<br>쌈바호종
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/flamekr
+|twitter=Flame_KR
+|instagram=lolflamekr
+|youtube=https://www.youtube.com/channel/UCI6Ro_MOr36re4Bhb7nCY7g
+|deeplol=https://www.deeplol.gg/pro/Flame
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=In his prime, he was considered one of the best top laners in Korea. He became a part of the general ''League of Legends'' lexicon with "[[Flame Horizon]]" being used describe a player gaining a 100 CS advantage over their lane opponent.
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+== Biography ==
+Lee "'''Flame'''" Ho-jong was born in Busan, South Korea, and later moved to Ilsan. He has trained in progaming since he was young and enjoys it, having played League of Legends since October 2012, primarily playing toplane. 
+
+===Season 2===
+Flame entered the pro scene after being scouted from soloqueue and passing a test in Seoul to start playing with [[Azubu Blaze]] as their top laner, originally under the name '''Goldtec'''. He played his first tournament with Blaze during [[IGN ProLeague Season 5]]. Blaze placed third in their group and were forced to play in the loser's finals. They made it all the way to the third round but lost 2-1 to [[Moscow 5]].
+
+===Season 3===
+Blaze qualified for the [[IEM Season VII - Global Challenge Katowice|IEM Katowice]] where they placed second after losing 2-0 to [[Gambit Gaming]]. Blaze finally got to play in a OGN together during [[OLYMPUS Champions Winter 2012-2013]]. They lost two best of 5s in the semifinals to [[Azubu Frost]], 3-2 both times. They then had to play against [[KT Rolster B]] in the third place match but lost 3-0. Blaze left the Azubu organization in February and joined CJ Entus to create [[CJ Entus Blaze]]. Blaze was invited to the [[IEM Season VII - World Championship|IEM World Championship]], this time making it to the finals and beating their sister team, [[CJ Entus Frost]], 3-1. Blaze came back to Korea for [[OLYMPUS Champions Spring 2013]] and they managed to win 13 games in a row but were upset 3-0 by [[MVP Ozone]], marking the biggest upset in League of Legends history at the time. Blaze had a much less successful [[HOT6iX Champions Summer 2013]], losing 3-2 in the quarterfinals to the KT Rolster Bullets. Blaze qualified for the [[Season 3 Korea Regional Finals]] but lost 3-0 in the first round to the Bullets again. The team managed to qualify for the [[2013 World Cyber Games/Main Tournament|2013 World Cyber Games]] and swept the whole tournament, ending with a 2-0 finals against [[OMG]].
+
+===2014 Season===
+Blaze started the new season at [[PANDORA.TV Champions Winter 2013-2014]] but lost again to the KT Bullets 3-1 in the quarterfinals. Blaze impressed again at [[HOT6iX Champions Spring 2014]] but lost a very close 3-2 series to [[NaJin White Shield]] in the semifinals. Blaze lost in the third place match 3-2 to [[Samsung Ozone]] to end in fourth place. [[HOT6iX Champions Summer 2014]] marked the worst season in Blaze's history, where they failed to make it out of the group stage for the first time ever. Though Flame was initially thought to be remaining on CJ Entus after the organization consolidated its two teams into a single roster, on December 1 the organization announced that Flame had left the team.<ref>[http://www.facebook.com/entus.progaming/photos/669760313121892 CJ Entus's Facebook post] ''facebook.com''</ref>
+
+===2015 Season===
+Flame and LGD played in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] but lost in the quarterfinals 3-0 to [[Invictus Gaming]]. They only placed sixth in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] but in the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]] they made it all the way to the finals, eventually losing 3-2 to [[EDward Gaming]]. They had the same result as the last Demacia Cup in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]], losing 3-0 to OMG in the quarterfinals. LGD placed fifth in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] but managed to win the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] with a 3-2 victory over the [[Qiao Gu Reapers]]. This victory clinched LGD the top Chinese seed for the [[2015 Season World Championship]]. LGD was placed in a group alongside [[Team SoloMid]], [[Origen]], and [[KT Rolster]]. Unfortunately, they ended with a 2-4 record and were knocked out of the tournament.
+
+===2016 Preseason===
+LGD were the fan-voted team to attend [[IEM Season X - San Jose|IEM San Jose]]. They were knocked out in the first round, losing 2-0 to Team SoloMid, with Flame and Acorn each playing one game. Flame left LGD after IEM, and in late December he returned to Korea, joining [[Incredible Miracle]].<ref>[http://www.facebook.com/IMteam/posts/970197939729690 Incredible Miracle's Facebook post] ''facebook.com''</ref> Incredible Miracle rebranded to [[Longzhu]] on January 3, 2016.
+
+===2016 Season===
+
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Longzhu played with a 10-man roster, liberally using substitute players. Flame shared play time with fellow top laner [[Expession]]. Longzhu finished the spring split in seventh place with an 8-10 set record, missing out on a spot in the playoffs. For the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], Longzhu announced Flame had been taking out of the starting roster to join the practice team. However, he was reinstated into the starting roster for the second round robin. Longzhu fared poorly in the summer split, going 7-11 in sets and netting them eighth place, letting them escape relegations. In November of 2016 Flame left Longzhu and in the next month joined [[Immortals]] over in the NA LCS.
+
+===2017 Season===
+
+In the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]] Immortals was for the most part a middle of the pack team. Although they showed promise they could never break into the Top 3. The team finished in 7th place, barely missing out on the playoffs. In the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Split]] after bringing in [[SSONG]] as their new coach, Immortals' performance turned around completely and they stayed in the Top 3 throughout the whole regular split. The team finished the regular season in 2nd place with a 14-4 record. Their performance in the [[League_Championship_Series/North_America/2017_Season/Summer_Playoffs|Summer Playoffs]] was also excellent as they took down [[Counter Logic Gaming]] 3-0 in the semifinals and became the first team in NA LCS history since 2013 outside of CLG, TSM and C9 to reach the finals. Despite their accomplishment, they were defeated 1-3 by TSM in the finals and finished in 2nd place but still managed to qualify for the [[2017 Season World Championship]] via championship points. At Worlds, Immortals was seeded in Group B along with [[Longzhu Gaming]], [[Fnatic]] and [[GIGABYTE Marines]]. Despite a good 2-1 start in Week 1 they couldn't follow up on it in Week 2 and went 0-3. Having to play a tiebreaker in order to advance forward, Immortals faced Fnatic and lost which knocked them out of Worlds. Flame left Immortals in November of 2017 after the team was not accepted in the newly franchised NA LCS.
+
+===2018 Season===
+====Spring Split====
+Flame joined [[FlyQuest]] for the 2018 season as part of a roster that retained only [[WildTurtle]] from the 2017 team. Despite mid laner [[Fly (Song Yong-jun)|Fly's]] visa issues, FlyQuest started the [[NA_LCS/2018_Season/Spring_Season|spring season]] a respectable 2-2. However, the team declined after that, finishing 6-12 and in eighth place. Despite his team's struggles, Flame was named the top laner of the week for Week 4, the only FlyQuest player to do so during that split. 
+
+====Summer Split====
+Flame stayed with [[FlyQuest]] for [[NA LCS/2018 Season/Summer Season|the summer season]]. FlyQuest started the split 1-3 but established themselves as a solid middle-of-the-pack team after making a change at the support position, finishing the season 10-8, in a three-way tie for third place. However, they lost to [[100 Thieves]] and [[TSM]] in the tiebreaker matches, dropping them into sixth place, and were immediately swept by 100 Thieves in the [[NA LCS/2018 Season/Summer Playoffs|playoff quarterfinals]], ending their season without enough Championship Points to play in the gauntlet. Flame left the team in November. 
+
+===2019 Season===
+====Spring Split====
+Flame didn't sign with another team until February when he returned to Korea and joined the newly promoted [[DAMWON Gaming]] for Week 5 of [[LCK/2019 Season/Spring Season|the spring split]]. Flame returned triumphantly, subbing in for [[Nuguri]] in game 2 of a series against [[SKT T1]] with Damwon down 1-0 and helping the team to an upset victory. He played all three games of another victory over [[Afreeca Freecs]] the following week, but  Flame's effectiveness waned after that and the team only won a single additional game with him in the lineup. Damwon made [[LCK/2019 Season/Spring Playoffs|the playoffs]] as the fifth seed and defeated [[Sandbox Gaming]] in the first round before falling in a sweep to [[Kingzone DragonX]], but Flame did not play in any playoff games. 
+
+====Summer Split====
+Flame was moved to substitute in May. He did play two games in the [[LCK/2019 Season/Summer Season|LCK 2019 Summer Season]], but Damwon lost both, and Flame recorded a weak 0.44 KDA for the split. Damwon again qualified for [[LCK/2019 Season/Summer Playoffs|the playoffs]] and eventually for [[Worlds 2019]], but Flame saw no additional action. 
+
+====2020 Season and Retirement====
+Flame remained with Damwon for the entire 2020 season as a substitute but did not play any games as Damwon won both the [[LCK]] and [[Worlds]]. In December, he announced his retirement. 
+
+== Trivia ==
+* Prior to joining Blaze he was known as Goldtec.
+* His favorite champions were {{ci|Irelia}} and {{ci|Kennen}} along many others.
+* In Season 2, he played 3286 games. 706 games with Kennen, 574 games with Irelia, 433 games with Nidalee, and 403 games with Vladimir. He didn't play any other Top lane champions.
+* English OGN casters DoA and Montecristo coined the term 'The Flame Angle' for his ability to seamlessly dive on to the opponent's priority targets even if they are protected by a strong front line.
+* Has a lot of female fans in Korea LoL community because of his handsome face as well as his dominant performance in top lane.
+* Credited his motivation to be a pro lol player with the success he had after moving to Seoul and enjoying his time there. 
+* Thinks that the rest of the world has fallen behind Korea competitively as a result of foreign players not treating it as professionally as Korean players do.
+* In his spare time he enjoys exercising and playing physical sports.
+* Is called the "Pilot" because he can carry his team hard to victory.
+* Awarded Best Top Laner at 2013 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?news=103849 Result of 2013 Korean e-Sports Awards]''inven.com.kr''</ref>
+* Considered by [[Thorin]] the best player in Korea to not win an OGN tournament.
+** At the end of his career, Flame was a substitute on the [[DAMWON Gaming]] roster that won [[LCK/2020 Season/Summer Playoffs|LCK 2020 Summer]] and [[Worlds 2020]]. However, he didn't play a single game that year. 
+* His "Reflections" interview with [[Thorin]] for onGamers is considered one of the best interviews of LoL eSport's history.<ref>[http://www.ongamers.com/articles/reflections-with-flame/1100-1983/ 'Reflections' with Flame]</ref>
+* Learned to play the piano at a very young age and enjoys both music and working out.
+* Speaks Korean, Chinese, and English.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

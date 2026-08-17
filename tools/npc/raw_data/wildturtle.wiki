@@ -1,0 +1,125 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=WildTurtle&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.261Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「WildTurtle」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=WildTurtle
+|name=Jason Tran
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=Americas
+|birth_date_year=1995
+|birth_date_month=February
+|birth_date_day=09
+|favchamp=Lee Sin
+|favchamp2=Vayne
+|favchamp3=Twisted Fate
+|favchamp4=Ezreal
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' WildTurtle<br>FZ3R0<br>alien ling<br>'''KR:''' American IMP<br>YuNg TuRtLe<br>'''BR:''' te amo coxinha<br>'''CN:''' turtle
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/wildturtle
+|facebook=https://www.facebook.com/WILDTURTLEX
+|twitter=WildTurtle
+|instagram=wildturtlex
+|reddit=WILDTURTLE
+|deeplol=https://www.deeplol.gg/pro/WildTurtle
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Top
+}}
+==Biography==
+WildTurtle hails from Toronto, Ontario in Canada.
+===Early Career===
+WildTurtle played as the top laner for [[Monomaniac Dominatus|Monomaniac]] in early 2012 and substituted for [[Team Legion]] at [[IPL Face Off: San Francisco Showdown|IPL Face Off]] as their AP carry. He also played for [[Kill Steal Gaming]], [[Orbit Gaming]], and [[Quantic Gaming]] (later [[Cloud9]]) in 2012.
+
+===Season 3===
+WildTurtle left Cloud9 in March 2013, after week 5 of the [[Riot League Championship Series/North America/Season 3/Spring Round Robin|NA LCS Spring Split]], to replace [[Chaox]], who had been benched and departed the team. In his very first game on TSM, WildTurtle scored a [[List of Pentakills|pentakill]] on [[Caitlyn]] against [[compLexity Gaming]]. TSM finished the spring round robin with a 75% winrate and in first place, and in the [[Riot League Championship Series/North America/Season 3/Spring Playoffs|playoffs]] they defeated [[Good Game University]] 3-2. The [[Riot League Championship Series/North America/Season 3/Summer Round Robin|following split]], they found themselves lower in the standings, winning only half of their games in the round robin.
+
+In the [[Riot League Championship Series/North America/Season 3/Summer Playoffs|playoffs]], they defeated [[Counter Logic Gaming|CLG]] and then [[Vulcun]] to make it to the finals before losing to WildTurtle's former team Cloud9, who had just been promoted into the LCS that split. TSM and Cloud9 would become rivals for the top position in the North American standings. At the  [[Season 3 World Championship|World Championship]], TSM were unable to advance past the group stage, placing fourth - behind [[Lemondogs]] and ahead of the wildcard team [[GamingGear.eu]].
+===2014 Preseason===
+At the [[Battle of the Atlantic 2013|Battle of the Atlantic]], TSM played against Lemondogs, using new mid laner [[Bjergsen]] in place of [[Reginald]] for the first time. They won their series 2-0, and North America beat Europe in combined score.
+===2014 Season===
+TSM's [[Riot League Championship Series/North America/2014 Season/Spring Season|spring split]] went better than their season 3 summer split had, and they ended the round robin with a 22-6 record - just two games behind Cloud9. However, once again they found themselves lacking in the finals of the [[Riot League Championship Series/North America/2014 Season/Spring Playoffs|playoffs]], losing to Cloud9 in another 3-0 series. With [[TheOddOne]] retiring and [[Xpecial]] replaced by [[Gleeb]] going into the [[Riot League Championship Series/North America/2014 Season/Summer Season|summer split]], TSM struggled early on but started to rebound with the addition of Korean import [[Lustboy]] replacing Gleeb. They accomplished what they hadn't been able to since Cloud9's entry to the LCS, and won the [[Riot League Championship Series/North America/2014 Season/Summer Playoffs|playoffs]] with a 3-2 victory over their rivals.
+
+TSM once again received North America's top seed to the [[2014 Season World Championship|World Championship]], and they placed second in their group, behind [[Star Horn Royal Club]] and ahead of [[SK Gaming]] and [[Taipei Assassins]]. It was the first time that TSM with Dyrus had advanced past their initial seeding location at a World Championship, though they lost in the quarterfinals to eventual tournament winners [[Samsung White]].
+
+===2015 Preseason===
+TSM were the North American team invited to [[IEM Season IX - San Jose|IEM San Jose]], the first event that they played with the roster [[Dyrus]], [[Santorin]], [[Bjergsen]], [[WildTurtle]], and [[Lustboy]]. They were seeded directly into the semifinals, where they lost 0-2 to [[Unicorns of Love]].
+===2015 Season===
+TSM began the [[Riot_League_Championship_Series/North_America/2015_Season/Spring_Season|2015 Spring Split]] with an 8-2 record after five weeks, holding first place during every week after the first. By virtue of their standing after the fifth week of the split, TSM was invited to the [[IEM Season IX - World Championship|IEM Season IX World Championship]]. There, they defeated [[Team WE]], [[CJ Entus]] (marking their first tournament win over a Korean team), and the [[yoe Flash Wolves]] to advance to the finals of the event, where they swept [[Team WE]] 3-0 to win the title. Though TSM themselves did not play against the [[GE Tigers]] at all (then undefeated in the [[SBENU Champions Spring 2015|LCK]]), or against any Korean team in a multi-game series, they still made history by being the first North American team to win an international event with Korean teams present since [[Chicks Dig Elo|Chicks Dig ELO]] (which included Dyrus and Reginald) at the [[2011 World Cyber Games]] and the first Western team to do so since [[Gambit Gaming]] at [[IEM_Season_VII_-_Global_Challenge_Katowice|IEM Katowice]] in 2013.
+
+TSM finished the spring season with a 13-5 record, giving them the top seed into the [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoffs]]. After defeating [[Team Impulse]] and then Cloud9, TSM won their third North American championship, tying Cloud9's record of most North American LCS championships won to date. Their victory also gave them the North American seed to the [[2015 Mid-Season Invitational]], where they looked to replicate their IEM success. However, the team underperformed in the group stage, winning only their match against wild card [[Beşiktaş e-Sports Club|Beşiktaş]] and not qualifying for playoffs.
+
+In the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]] of LCS, TSM started relatively strong, sitting at a 8-2 record at the end of week 5. However, they fell to fifth place by week 9, their [[LCS Teams Timeline|lowest regular-season placement to date]]. Partway through the split, TSM tried out [[Keith]], former substitute AD carry of [[Team Liquid]], as a potential replacement for WildTurtle; however, he only started in [[Riot_League_Championship_Series/North_America/2015_Season/Summer_Season/Team_Rosters|one game]], and TSM later announced they would be sticking with WildTurtle.<ref>[http://www.youtube.com/watch?v=OXqsZ9w7rFE TSM Starting ADC Announcement] ''youtube.com''</ref> In the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]], TSM beat [[Gravity Gaming]] and Team Liquid in the first two rounds, winning both series 3-1. In the finals, held at Madison Square Garden in New York City, they faced off against long-time rivals CLG and lost in a convincing 3-0 series. TSM had already qualified for [[2015 Season World Championship|Worlds]] after their semifinal win due to their [[2015 Season/Championship Points|Championship Points]] from the spring split, and they ended up with the second seed from North America.
+
+TSM were drawn into Group D, which instantly became known as the "Group of Death" or the "Group of TSM's Death" due to [[LGD Gaming]] and [[KT Rolster]] being favorites to win it; [[Origen]] was the last team drawn in. LGD massively underperformed expectations, however, and TSM took a game off them in the first round robin. However, at the same time Origen overperformed, and ultimately KT Rolster and Origen made it out of groups; TSM lost their second game against LGD and ended up in last place with a 1-5 record.
+
+After Worlds, along with the retirement of [[Dyrus]], [[Lustboy]], and release of [[Santorin]], [[WildTurtle]] was replaced by former CLG AD carry [[Doublelift]] for the starting role. He stayed with the team as a substitute until December 7.<ref>[http://www.youtube.com/watch?v=TWUMrZUYGBM&feature=youtu.be Farewell Wildturtle] ''youtube.com''</ref>
+=== 2016 Season ===
+In December 2015, WildTurtle joined the new team [[Immortals]], along with former [[Fnatic]] members [[Huni]] and [[Reignover]], CLG mid laner [[Pobelter]], and Team Impulse support [[Adrian (Adrian Ma)|Adrian]]. Expected to be a top team in the [[League Championship Series/North America/2016 Season/Spring Season|LCS]], Immortals initially exceeded all expectations as they went undefeated for the first six weeks of the season before losing one game to reigning champions [[Counter Logic Gaming]] in week 7. They won the rest of their regular season games, but as the season progressed further they looked weaker and weaker as a team, and even seemed to falter against the last-place [[Team Dignitas]], needing to come back against them to pull out a win. With a top seed clinched into the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]], Immortals were guaranteed to face the lowest-seed team that won in the quarterfinals. That team ended up being [[Team Solomid]], who were on a strong upswing after a sixth-place regular season finish. With questionable drafts including a [[Lucian]] top for Huni in game 1, [[Urgot]] mid for Pobelter in game 2, and three games of [[Karma]] support for Adrian as well as not a single contest of the strongly-in-meta [[Ekko]], Immortals lost 3-0 to TSM. They came back the next week to beat [[Team Liquid]] and finish in third place overall.
+
+Expectations for Immortals going into the [[League Championship Series/North America/2016 Season/Summer Season|Summer Season]] were again high, after they were one of only three NA teams not to change any players in the [[2016 Midseason Roster Swaps/North America/Current Rosters|mid-season break]], and while they nearly repeated their spring split record - this time dropping only two series in the new best of 3 format as opposed to 1 best of 1 - they were indisputably the second-best team in the league. TSM with new rookie star support [[Biofrost]] went 17-1 in series, and they bested Immortals in both of their head-to-head series. Immortals still had a [[League Championship Series/North America/2016 Season/Summer Playoffs|playoff]] bye, and so they were able to avoid TSM in the semis, instead facing the third-place [[Cloud9]]. In a back-and-forth five-game series, Immortals were upset and faced CLG in the third-place match, which they came back from a disastrous game 1 to win 3-2. Unfortunately, despite their combined 33-3 regular season record, Immortals only had 120 [[2016 Season/Championship Points|Championship Points]] compared to CLG's 130, and so it was CLG who won the automatic second-place [[2016 Season World Championship]] seed from North America. And even though Immortals had the top seed in the [[2016 Season North America Regional Finals|Regional Finals]], they were upset once again by Cloud9, and their season ended short of Worlds.
+=== 2017 Preseason ===
+After substituting for TSM at [[IEM Season 11 - Oakland|IEM Oakland]], WildTurtle rejoined TSM in December.<ref>[http://twitter.com/TeamSoloMid/status/806613437589504000 Team SoloMid's Tweet] ''twitter.com''</ref> In the [[League Championship Series/North America/2017 Season/Spring Season|spring split]] despite looking shaky at different stages of the regular split, TSM finished 1st with a 15-3 record. In the playoffs TSM defeated Cloud9 3-2 in the finals in a very close series to capture yet another LCS title. This also qualified them for the [[2017 Mid-Season Invitational]]. Despite fan expectations being decent, TSM failed to live up to expectations and finished in 5th place with a 4-6 record. In the tiebreaker game against [[Flash Wolves]] the team lost and were knocked out of MSI. In May of 2017 WildTurtle left TSM and joined [[FlyQuest]]. The [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] was very rough for FlyQuest as the competition within the region increased. They finished 7th in the regular season and barely retained their Championship Points. This would let them participate in the [[2017 Season North America Regional Finals]] and although they defeated [[Team Dignitas]] 3-0 in the first round, they lost 1-3 to CLG in the second round which ended their season.
+
+== Trivia ==
+* He subbed for [[Team Legion]] at [[IPL Face Off: San Francisco Showdown]] and became known for his successful {{ci|Ryze}} and {{ci|Gragas}} plays as AP Mid.
+* At [[2012 MLG Pro Circuit/Summer/Championship|MLG Raleigh]], he again subbed as AP mid. This time for [[CLG Black]], adding {{ci|Twisted Fate}} to his Mid roster. He hinted that he might permanently join Black but eventually joined [[Orbit Gaming]] as their AD Carry.
+* He subbed for Team SoloMid in Week 6 of the 2013 spring LCS as AD carry and scored a Pentakill, the first scored in the North American LCS,  with {{ci|Caitlyn}} against [[compLexity Gaming]]. He was also named MVP of the week for the NA LCS.
+* He has been known for his {{ci|Caitlyn}} full damage build and his {{ci|Draven}} during Season 3.
+* Wore cat ears during some of the LCS matches.
+* Had the highest GPM in the NA LCS Spring Season at 414.
+* Despite his team losing in groups in 2013 Championship countless people were impressed that he was able to play on the same level if not better than the Korean adcs.
+* Reached 1st, 2nd, and 3rd on the NA ladder.
+* Got his name from seeing two turtles fight.
+* Has beat every member of TSM in the top or mid lane.
+* Has a tendency to go "wild" when he gets bored like flashing into the enemy base for 1 kill during the LCS with no way out.
+* During tournament matches he gets focused by the enemy more than any other member of TSM due to his ability to dominate from the smallest lead.
+* Almost burnt the TSM house down just like his teammate Dyrus.
+* Well known for his big, cheerful smiles.
+* Hates the animated hit-show "My Little Pony: Friendship is Magic".
+* Had 4 accounts in Challenger, all within the top 15 and his main account rank 1 during Season 3
+* His main(original) account is 'Turtle the Cat' and his smurf is 'WildTurtle'.  'Turtle the Cat' used to be named 'WildTurtle' until he joined Quantic and added that to his name.  When he left Quantic, 'Wildturtle' was taken so he used 'Turtle the Cat'
+* Achieved 500 career LCS kills in week 4 of the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 Spring LCS season]] in a game against [[Gravity (North American Team)|Gravity]] while playing {{ci|Sivir}}.<ref>[http://twitter.com/LoLEsportspedia/status/566762150379933697/photo/1 LoL Esportspedia's Tweet] ''twitter.com''</ref>
+* Reached 1000 Kills in the LCS on February 12, 2017
+** The 2nd player to reach 1000 Kills in the LCS, after [[Doublelift]].
+** His 1000th kill was on [[Echo Fox]]'s Support [[Gate]] in the [[NA LCS 2017 Spring|NA LCS 2017 Spring Season]] with {{ci|Varus}}.
+* Known to be a good fill player in solo queue despite having been a bot laner for most of his pro career. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

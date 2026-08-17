@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Creme&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.027Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Creme」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Creme
+|name=Lin Jian
+|nativename=林坚
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2003
+|birth_date_month=December
+|birth_date_day=14
+|favchamp=Akali
+|favchamp2=Ahri
+|favchamp3=Qiyana
+|favchamp4=Sylas
+|checkbox1=Yes
+|favchamp5=Yone
+|favchamp6=Hwei
+|favchamp7=Aurora
+|compID1=Crime
+|checkboxComp=No
+|ids='''KR:''' livinli#KR1 <br> '''EUW:''' 我就是天
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://www.weibo.com/n/%E6%BB%94%E6%90%8Fcreme
+|lolpros=https://lolpros.gg/player/creme
+|deeplol=https://www.deeplol.gg/pro/Creme
+|dpmlol=https://dpm.lol/pro/Creme
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Crime'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Known for his melee champions such as {{ci|Akali}}, {{ci|Sylas}}, and {{ci|Yone}}.
+* Outstanding Rookie of the [[LPL 2021 Summer|LPL 2021 Summer Split]].
+=== Statistics ===
+* Reached 1000 kills in the LPL on July 20, 2024.
+** The 51st player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on July 31, 2025.
+** The 30th player to reach 1500 kills in the LPL.
+
+=== Individual Awards ===
+* LPL Outstanding Rookie (Summer 2021)
+* LPL 3rd All Pro Team x2 (Summer 2024, Split 3 2025)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

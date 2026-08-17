@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Haru&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.251Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Haru」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Haru
+|name=Kang Min-seung
+|nativename=강민승
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=June
+|birth_date_day=03
+|favchamp=Rengar
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 98 Haru, shirushi<br>'''EUW:''' MIN SEUNG<br>'''NA:''' Haru0304
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/6091936
+|facebook=https://www.facebook.com/alstmd
+|twitter=Haru
+|lolpros=https://lolpros.gg/player/haru
+|deeplol=https://www.deeplol.gg/pro/Haru
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===2016 Season===
+Haru joined [[CJ Entus]] in May 2016, during the mid-season break before the [[LCK/2016 Season/Summer Season|LCK Summer Split]].<ref>[https://www.facebook.com/entus.progaming/posts/920826181348636 CJ Entus' Facebook Post] ''facebook.com''</ref> He joined the team after a disappointing [[LCK/2016 Season/Spring Season|Spring Split]] with rookie jungler [[Bubbling]] starting for the entire season.
+
+CJ Entus had a very poor showing in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 3-15 total in set score. Haru's role as the new starting jungler seemed to make no difference in their abysmal results. Locked into tenth place in the LCK season, CJ Entus participated in the [[LCK/2017 Season/Spring Promotion|2017 LCK Spring Promotion]]. In the first round they were swept 2-0 by [[Kongdoo Monster]], bringing them down to the loser's bracket. There, they beat [[SBENU Korea]] 2-0 before falling to [[ESC Ever]] in a 3-0 sweep to become relegated from the LCK. This marked the first time an original Kespa team was relegated from the LCK.
+
+== Trivia ==
+* Is a huge anime fan.<ref>[https://www.youtube.com/watch?v=24HLjUmbR4g Haru: Anime is my life (feat. Love Live!) [KSV LOL]] ''youtube.com''</ref>
+** First anime he watched was ''[[wikipedia:en:Sword_Art_Online|Sword Art Online]]''.
+** Favorite anime character is '''Hanamaru Kunikida''' from ''[[wikipedia:en:Love_Live!_Sunshine!!|Love Live! Sunshine!!]]''.
+** Listens to anime songs before matches to calm down.
+** Received 3 Hanamaru Kunikida figurines from SPOTV and puts them next to his computer.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

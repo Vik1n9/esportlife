@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Linak&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.159Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Linak」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Linak
+|name=Damien Lorthios
+|image=Linak1.jpg
+|checkboxAutoImage=No
+|country=France
+|residency=Europe
+|favchamp=Udyr
+|checkbox1=No
+|checkboxComp=No
+|ids=aAa Linak, Akbardz, Peregrin Touque,  TBot JM la vie
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/icalimero
+|facebook=https://www.facebook.com/AkbarLinak
+|twitter=LinakLoL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+On January 21, 2013, all of Linak's accounts were permanently banned from League of Legends due to toxic behavior. He was subsequently suspended from the [[Riot Season 3 Championship Series/Europe/Qualifiers/Main Event|Riot Season 3 EU Live Qualifier]] as well as from the [[Riot League Championship Series/Europe/Season 3|Riot Championship Series]] for one year.<ref>[http://euw.leagueoflegends.com/board/showthread.php?p=10143141#10143141 eSports Competition Rulings: Suspensions of mouz enVision and aAa linak] ''euw.leagueoflegends.com''</ref> His ban was extended by one year on November 7, 2013, due to not improving his toxic behavior during his period of ineligibility.<ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=42839000#42839000 eSports Competition Rulings: Suspensions of Linak and Rayt3ch] ''na.leagueoflegends.com''</ref>
+
+== Trivia ==
+* 
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2010
+|name2=2011
+|name3=2012}}
+{{TDRight|tab}}<!--2012-->
+* March 15 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/1038/Interview-with-aAas-jungler-Linak/ Interview with aAa's jungler, Linak] ''with Team Dignitas''
+* March 16 - [http://www.sk-gaming.com/content/50474-FACE2FACE_with_aAa_Linak FACE2FACE with *aAa* Linak] ''with SK Gaming''
+* April 10 - [http://www.youtube.com/watch?v=p1RgjmiNOcE Interview spéciale IPL4 : aAa.Linak - League Of Legends Replay (French video)] ''with ChipsEtNoi
+{{TDRight|tab}}<!--2011-->
+* June 13 - [http://www.millenium.org/lol/accueil/actualites/lol-interview-linak-joueur-top-elo-46489 LoL : Interview Linak, joueur top elo (French)] ''with Millenium''
+{{TDRight|tab}}<!--2010-->
+* November 9 - [http://leagueoflegends.jeuxonline.info/article/8918/interview-linak Interview de Linak (French)] ''with Fureur''
+{{TDRight/end}}
+
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

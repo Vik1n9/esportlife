@@ -1,0 +1,200 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nyph&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.795Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nyph」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Nyph
+|name=Patrick Funke
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1990
+|birth_date_month=March
+|birth_date_day=11
+|favchamp=Sona
+|favchamp2=Zyra
+|favchamp3=Thresh
+|favchamp4=Janna
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/Nyph
+|facebook=https://www.facebook.com/nyph.LoL
+|twitter=NyphLoL
+|askfm=nyphlol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=Yes
+|prev1=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Nyph is a League of Legends player coming from Kirchheim unter Teck (not too far from Stuttgart), Germany. The first game he ever played was The Legend of Zelda (the first installment of the Zelda franchise). He would go on to play games such as FIFA World Cup 1998, Anno 1604, The Elder Scrolls (Morrowind, Oblivion and Skyrim later on), Warcraft III (mostly the custom maps), World of Warcraft and Dawn of War.
+
+He would play Dark Age of Camelot and Counter-Strike: Source semi-competitively. One of the friends he made in Dark Age of Camelot, enticed him to try League of Legends. At first, he was reluctant - even skipping the opportunity to play during the beta. Eventually he started playing the game when Nidalee was released (end of 2009/early January 2010). He reached level 30, along with hitting the Top 500 milestone, before Ranked games were installed.
+
+===Season 1===
+At the start of Season 1, Nyph ascended through the Ranked solo-queue ladder by playing mostly supports - which led him to specialize in the role. Nyph took his first step into the competitive LoL-scene by joining the German squad from [[Gamed!de]], which today he considers ''"one of the best European teams"'' at that time.<ref>[http://www.sk-gaming.com/content/52449-Getting_to_know_SKNyph Getting to know SK|Nyph] ''sk-gaming.com''</ref> They placed 6th at the [[Riot Season 1 Championship]]. One of the highlights of his career was beating then-SK Gaming during the qualifiers, leading to that event.
+
+Nyph eventually left the team and formed SK Gaming's new bot lane together with his close friend [[Candy Panda]] in June 2011.<ref>[http://www.sk-gaming.com/content/33672-SKLoL_announce_new_lineup SK.LoL announce new line-up] ''sk-gaming.com''</ref> 
+
+===Season 2===
+Nyph originally worked as an electronics engineer, while simultaneously playing League of Legends professionally. He made the decision to play full-time in League of Legends in 2012.
+
+With SK Gaming, he would experience the other highlight of his career: beating [[Counter Logic Gaming Europe]] during the [[Season_Two/Regional_Finals_-_Cologne|Season 2 European Regionals]], despite losing to [[Moscow Five]] in the final of the tournament, the win over CLG guaranteed the team's place as a Top 2 European seed in the [[Season 2 World Championship]]. The World Championship was not a success itself, with SK finishing at the bottom of their group.
+
+===Season 3===
+Nyph stuck with SK Gaming for the next season, and participated with the team in the [[Riot League Championship Series/Europe/Season 3/Spring Round Robin|Spring Split]]. SK placed 3rd overall behind [[Fnatic]] and [[Gambit Gaming]], clinching themselves a place in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Spring Playoffs]]. Nyph and SK ended up coming in 4th in the playoffs, after losing to Gambit in the semifinals and [[Evil Geniuses.EU|Evil Geniuses]] in the third-place match.
+
+This sealed Nyph's participation with SK in the [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|Summer Split]]. The split was extremely tight, and saw Nyph show off his impressive {{ci|Zyra}}. SK ended up finishing 7th, despite winning only 2 less games than 2nd placed Fnatic. They were tied in joint 6th with [[Team Alternate]], but lost the tiebreaker match played between the two teams. This meant that the team would have to play in the [[Riot League Championship Series/Europe/2014 Season/Spring Promotion|Spring Promotion]] in order to qualify for the next split.
+
+In preparation for this, SK solidified the team by adding 3 new players to the roster: [[fredy122]], [[Svenskeren]] and [[Jesiz]]. The organization also decided to make Nyph the captain of the team. The changes improved the team's performances, and Nyph's captaincy helped SK win [[DreamHack Winter 2013]], beating [[Kiedys Mialem Team]] in the final.
+
+Nyph helped SK to a win in the Promotion Tournament against [[SUPA HOT CREW]] before leaving the team to join newly formed [[Alliance]].
+
+=== 2014 Season ===
+The start of the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Season 4 Spring Split]] was disappointing for the team, as they found themselves consistently ranked in the bottom 3 teams, until the 8th week. From here on-wards, Alliance managed to dominate the split. Nyph's performances along with that of [[Froggen]] in particular, propelled them up to 1st place in the penultimate week. Nyph himself picked up the weekly MVP award for Week 10. Unfortunately, an unsuccessful superweek saw the team lose the top spot, and Alliance finished in 3rd place behind [[SK Gaming]] and [[Fnatic]].
+
+The team's performance in their first split resulted in their qualification for the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. The playoffs saw the team lose to Fnatic in the semifinal, and following this, they lost to [[ROCCAT]] in the third-place match.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] saw Alliance emulate their form from the end of the Spring Split. Nyph impressed on a range of champions, including {{ci|Thresh}}, {{ci|Morgana}} and {{ci|Nami}}. Alliance finished in 1st place, staying at the peak of the rankings table for the entire split.
+
+Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for Nyph to qualify for the [[2014 Season World Championship|World Championship]] in Alliance's first season together. Alliance placed 1st in the playoffs, beating Fnatic in the final, and secured themselves a place at the World Championship.
+
+The World Championship saw Alliance placed in Group D along with [[NaJin White Shield]], [[Cloud9]] and [[KaBuM! e-Sports]]. Alliance beat each team once and lost to each team once, resulting in a 3rd place finish in the group, meaning they would not go any further in the tournament.
+
+===2015 Season===
+Alliance were the European team invited to [[IEM Season IX - San Jose|IEM San Jose]]. Seeded directly into the semifinals, Nyph and the team lost their matchup to [[Cloud9]] and tied for third place with [[Team SoloMid]]. 
+
+In order to comply with new LCS regulations, [[Alliance]] would have to change their name for the upcoming season, and they rebranded as [[Elements]].<ref>[http://www.facebook.com/Elementsgg/posts/662967857147816 Elements Facebook Post] ''facebook.com''</ref> The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was not a success for the team, and involved a number of roster changes. These roster changes included Nyph moving to coach and being replaced in the support position by [[Krepo]]. A 7th place finish meant that the team would not go to playoffs, but would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]].
+
+Nyph stayed on with [[Elements]] as coach for the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Summer Split]], and was called upon before Week 5 to replace [[promisQ]] as the team's starting support. In the team's first week with Nyph back on the roster, they experienced their first 2-0 week of the split. Despite this, the split was still disappointing for the team, again finishing in 7th place, though this meant that they would still have a place in next season's [[Riot League Championship Series/Europe/2016 Season/Spring Season|Spring Split]].
+
+===2016 Season===
+In the offseason, all Elements members but Nyph joined new teams for 2016. For the [[League Championship Series/Europe/2016 Season/Spring Season|Spring Split]], Nyph decided to stay with Elements, once again stepping back from his support position to work as head coach.
+
+== Trivia ==
+* During his World of Warcraft days, he would start the names of his characters with "Ny". One of his characters was named Nyphen. That nickname would eventually be shortened to '''Nyph'''. His Counter-Strike handle was "Nyt".
+* Used to play a lot of {{ci|Twisted Fate}}, {{ci|Annie}}, {{ci|Evelynn}} and {{ci|Taric}} (the latter as part of a Taric/Pantheon botlane) before the start of Season 1.
+* Nyph's first main champion was {{ci|Janna}}.
+* His fondness for champions that are focused on healing, buffing and protecting fellow team-mates stems from his background as an avid ''[[wikipedia:en:Dark Age of Camelot|Dark Age of Camelot]]'' and ''[[wikipedia:en:Dota|DotA]]'' player.
+* Achieved rank 1 on the EUW Solo Q ladder in June 2013.
+* Used to play basketball competitively at a high level until the age of 19.
+* Likes to eat lasagna and [[wikipedia:en:spätzle|spätzle]]. Likes drinking radler after an exhausting day.
+* Likes fantasy adventure books (such as ''[[wikipedia:en:A Song of Ice and Fire|Game of Thrones]]'' and ''[[wikipedia:en:Lord of the Rings|Lord of the Rings]]'').
+* Likes to watch comedy shows (such as ''[[wikipedia:en:How I Met Your Mother|How I Met Your Mother]]''). Used to watch the basketball drama show ''[[wikipedia:en:One Tree Hill (TV series)|One Tree Hill]]''. 
+* Watches ''[[wikipedia:en:Naruto|Naruto]]'' and used to watch the ''[[wikipedia:en:Death Note|Death Note]]'' anime.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2011
+|name2=2012
+|name3=2013
+|name4=2014
+|name5=2016}}
+{{TDRight|tab}}<!--2016-->
+* January 22, [http://video.sport1.de/esports/video/nyph-ich-weiss-wie-man-spielen-muss__0_farixaei Nyph: "I know how to play."] ''with SPORT1''
+* May 23, [http://video.sport1.de/esports/video/patrick-nyph-funke-fox-war-die-richtige-entscheidung-fuer-das-team__0_icc50l8k Patrick "Nyph" Funke: "Fox was the right decision for the team"] ''with Sport1''
+* June 3, [http://video.sport1.de/esports/video/esports-nyph-wir-sind-auf-dem-weg-nach-oben__0_umq1rve1 eSports - Nyph: "We are on the way up"] ''with Sport1''
+* June 3, [http://video.sport1.de/esports/video/esports-nyph-es-hat-geholfen-dass-wir-schalke-vertreten__0_id955w8d  eSports - Nyph: "It helped that we represent Schalke"] ''with Sport1''
+* July 30, [http://www.youtube.com/watch?v=Fwc2cLOGiRc Nyph on S04's split and fighting with VIT for seventh: 'We expected to make playoffs this season'] ''with theScore''
+{{TDRight|tab}}<!--2014-->
+* February 19, [http://www.youtube.com/watch?v=NmzyKAf0l84 Frenemies: Sjokz Interviews CandyPanda and Nyph (video)] ''with LoL eSports''
+* May 16, [http://www.youtube.com/watch?v=-9Sy4JJjiIM LoL: Nyph erklärt die Welt, Ein Challenger im Ranked (German video)] ''with LetsReadSmallBooks''
+* August 12, [http://www.inven.co.kr/webzine/news/?news=116158&site=lol 유럽 LoL 팀 얼라이언스, 그들과의 유쾌한 수다 (Korean)] [http://www.reddit.com/r/leagueoflegends/comments/2dbu70/team_alliance_inven_interview_translated/ (English)] ''with Inven''
+* September 25, [http://www.youtube.com/watch?v=HpsEdbmLeHw Alliance Nyph on their game vs Cloud 9 and moving forward (video)] ''with onGamers''
+* December 6, [http://www.youtube.com/watch?v=Kfm7VZFi6Q8 Alliance's Nyph Interview, "Feels good to have Rekkles back" (video)] ''with ESL''
+{{TDRight|tab}}<!--2013-->
+* June 11, [http://www.youtube.com/watch?v=BAxeWc_fPV8 Ask Me Anything #1, Patrick 'SK.Nyph' Funke, SK Gaming (video)] ''with SK Gaming''
+* June 13, [http://www.oceloteworld.net/2013/06/13/thursday-talk-sk-nyph/ Thursday Talk – SK Nyph] ''with oceloteworld''
+* August 23, [http://www.aceresport.com/uk/content/353.htm Nyph talks from Gamescom (video)] ''with Team Acer''
+* September 19, [http://www.youtube.com/watch?v=Fcqhlrmh7KY Patrick ‘Nyph’ Funke talks about SK Gaming’s future.]
+* October 8, [http://www.youtube.com/watch?v=zUgnM4Witcw Nyph 'Grilled' "I learned a lot from mithy" (Episode #76)(video)] ''withTeam Acer''
+* December 14, [http://www.ongamers.com/videos/nyph-on-sk-s-fight-to-stay-in-the-lcs/2300-177/ Nyph on SK's fight to stay in the LCS (video)] ''with OnGamers''
+* December 30, [http://www.youtube.com/watch?v=SPhTDPNEzv0 Nyph talking his past in SK and the departure (video)] ''with SK Gaming'' 
+{{TDRight|tab}}<!--2012-->
+* March 7, [http://www.sk-gaming.com/content/37000-nyph_and_Candy_Pandy_talk_30_up nyph and Candy Pandy talk 3-0 up] ''with SK Gaming''
+* March 22, [http://www.sk-gaming.com/content/52449-Getting_to_know_SKNyph Getting to know SK|Nyph] ''with SK Gaming''
+* July 10, [http://www.in2lol.com/en/interviews/3593-in2lol-interviews-sk-nyph in2LOL Interviews SK Nyph] ''with in2LOL''
+* October 6, [http://www.youtube.com/watch?v=-KcDTIld-_8 S2 finals Kev1n and Nyph talk play-offs and the future of SK (video)] ''with SK Gaming''
+{{TDRight|tab}}<!--2011-->
+* October, [http://www.absolutelegends.net/news/330/Interview-with-SK-Nyph Interview with 'SK Nyph'] ''with Absolute Legends''
+* October 15, [http://www.youtube.com/watch?v=IRV0JGnptOQ SK Gaming's League of Legends team at Intel Extreme Masters NYC (video)] ''with CyberSportsNetwork''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

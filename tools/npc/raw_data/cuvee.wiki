@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=CuVee&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.030Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「CuVee」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=CuVee
+|name=Lee Seong-jin
+|nativename=이성진
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=27
+|favchamp=Irelia
+|favchamp2=Camille
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 삼성갤럭시 CuVee<br>Gen G cuvee<br>취준생 큐베<br>직장인 큐베
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/26ae7850ad5b6b09ca864d482dc7fa50
+|videoarchive=https://www.twitch.tv/lol_cuvee
+|youtube=https://youtube.com/channel/UCoreuQ0uHZ4-dAb1hIIzu8Q
+|deeplol=https://www.deeplol.gg/pro/CuVee
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Top
+}}
+==Biography==
+===2015 Season===
+Lee "'''CuVee'''" Seong-jin joined [[Samsung Galaxy]] as their starting toplaner along with teammates [[Eve]], [[BlisS]], [[Fury (Lee Jin-yong)|Fury]], and [[Wraith]] when the team formed a new roster following the change to one team per organization in Korea. At the time he was also on one of the top Challenger ranked 5s teams on the Korean server, 꿍이라니. Samsung played in [[SBENU Champions Spring 2015]] but placed last and were forced to play in the [[Champions Summer 2015/Promotion|2015 Champions Summer Promotion]]. Samsung qualified for [[SBENU Champions Summer 2015]] when they placed first in their group by beating [[Prime Clan]] and [[Xenics]]. Samsung placed seventh during the regular season and missed playoffs but they qualified for the next season of LCK.
+
+===2016 Preseason===
+Samsung competed in the [[2015 LoL KeSPA Cup]] where they were placed against [[ESC Ever|Ever]] in the first round. To the surprise of many, Samsung was quickly dispatched 2-0.
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Samsung Galaxy went 10-8 in sets overall. After looking like they could clinch the fifth and final seed for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], Samsung Galaxy were unfortunately denied by the surging [[Afreeca Freecs]], who beat them by the game score tiebreaker, giving Samsung sixth place for the split. 
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], Samsung stayed a top four team throughout the split, notably taking a 2-0 series win against the [[ROX Tigers]], one of two teams to do so. However consistent they were against the teams below them, Samsung rarely won against the three teams above them - [[ROX Tigers]], [[SK Telecom T1]], and [[KT Rolster]]. They managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]].
+
+== Trivia ==
+* His ID '''CuVee''' comes from the character Kyubey from [https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica Puella Magi Madoka Magica].
+* Introduced to League of Legends by his friends from high school.
+* After winning the [[2017 Season World Championship]], he wanted his champion skin to be sold a lot - that's why he chose {{ci|Gnar}}.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

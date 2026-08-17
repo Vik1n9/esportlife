@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Vulcan%20(Philippe%20Laflamme)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.545Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Vulcan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Vulcan
+|name=Philippe Laflamme
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=April
+|birth_date_day=20
+|favchamp=Thresh
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA''': VULCAN<br>'''EUW''': LAFLAMME 01<br>pabl0 picass0<br>euw tourist<br>'''KR:''' C9 Heung Min Son
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=Yes
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/vulcan_lol
+|twitter=Vulcanlol
+|instagram=vulcan.lol
+|lolpros=https://lolpros.gg/player/vulcan-1/
+|deeplol=https://www.deeplol.gg/pro/VULCAN-Philippe_Laflamme
+|dpmlol=https://dpm.lol/pro/VULCAN
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Vulcan was born in Laval, Quebec.<ref>[https://twitter.com/LCSOfficial/status/1556396688235175936 LCS' Tweet] ''twitter.com''</ref> He first played professionally in the [[HTC Ascension]] tournament with [[DatZit Gaming Fire]]. He stuck with the team for much of the next year, competing in qualifier tournaments for the North American Challenger Series. After failing to reach the challenger scene, Vulcan joined [[CLG Black]] as a substitute and remained with the team after they renamed to [[CLG Academy]]. Eventually, without having played a professional game with them, he left the team. In the [[2017 NA Scouting Grounds]], he competed on [[Team Ocean Drake (NASG Team)|Team Ocean Drake]] and was later drafted by [[Clutch Gaming]] to play on [[Clutch Gaming Academy]], where Vulcan played support alongside former world champion [[Piglet]]. While the team had middling performances in the academy scene, Vulcan and Piglet were briefly called up to play for the LCS team in Summer. They lost both games.
+
+=== 2019 Season ===
+At the beginning of the 2019 season, Vulcan was promoted to become Clutch Gaming's starting support. Despite middling-to-poor performances throughout the regular season and playoffs, Clutch went on a miracle run in the [[LCS/2019 Season/Regional Finals|LCS 2019 Regional Finals]] and managed to qualify for [[Worlds 2019]] as North America's third seed. Although Clutch went 2-2 in the Play-In group stage, they won their tiebreaker and defeated [[Royal Youth]] 3-0 to qualify for the main event. Their miracle run ended there as they were drafted into a difficult group and finished the group stage without a single win. During the run, however, Vulcan established himself as a top North American player in his role.
+
+=== 2020 Season ===
+When Clutch rebranded to [[Dignitas]], Vulcan remained on contract. However, [[Cloud9]] had grown interested in the support and offered an unprecedented $1.5 million to buy him out, a transfer that would have significant ramifications for the rest of the offseason.<ref>[https://www.espn.com/esports/story/_/id/28614276/vulcan-cloud9-trade-defined-2019-lcs-offseason Vulcan to Cloud9 -- Inside the trade that defined the 2019 LCS offseason] ''espn.com''</ref> With Vulcan as starting support, Cloud9 had a dominant spring, dropping only two games across the entire split (including playoffs). Due to the COVID-19 pandemic, though, MSI was cancelled and the team was unable to compete internationally. Cloud9 continued strong at the beginning of the summer split, but floundered in the back half, relying on ineffective champion picks like [[Ezreal]] that led to them being eliminated in playoffs without qualifying for Worlds.
+
+=== 2021 Season ===
+With the new additions of [[Fudge]] and [[Perkz]], Cloud9 was revitalized, and again won the spring split. [[LS]] believed the team was the strongest team North America had ever sent to an international competition, but the team struggled during [[MSI 2021]], dropping multiple games to wildcard teams including [[Pentanet.GG]] and being eliminated in the rumble stage of the event. In summer, Cloud9 did not perform as well, but did manage to qualify for [[Worlds 2021]] as North America's third seed. In the Play-In stage, Cloud9 would once again drop games to wildcard teams, but managed to qualify for the main event. Cloud9 was not expected to perform well, but due to an underperformance by [[FunPlus Phoenix]], the team was able to scrape out of groups with a 2-4 record before being eliminated in the first round of playoffs.
+
+=== 2022 Season ===
+Seeking a change, Vulcan left Cloud9 and joined [[Evil Geniuses]] to play alongside touted rookie prospects like [[jojopyun]] and [[Danny (Kyle Sakamaki)|Danny]]. After a mediocre regular season, Evil Geniuses went on a run in spring playoffs and wound up winning, marking Vulcan's third consecutive spring split championship. The team performed to expectations at [[MSI 2022]], beating wildcard teams consistently while losing to major region teams consistently. Ultimately, the team was eliminated in the top 4, one of North America's best international showings in years. Although Evil Geniuses dominated the summer split regular season, they struggled in playoffs. Danny benched himself due to mental health reasons and Vulcan would finish the year playing alongside academy substitution [[Kaori]]. The team managed to qualify for [[Worlds 2022]] as North America's third seed. A strong Play-In showing ended with the team defeating [[MAD Lions]] 3-0, North America's first ever best of five win over a European team at a major international tournament. The team was seeded into a difficult group and won only one game in group stages.
+
+== Trivia ==
+* His ID '''Vulcan''' is named after the [[wikipedia:en:Vulcan_(mythology)|Roman god of fire]]. He chose this name because his surname, Laflamme, means "The Flame" in French.
+* First Québécois (French Canadian) player in the LCS and the first Québécois to win an LCS Title.
+* Known as "The King of Spring" after winning the spring split three times in a row (2020 through 2022).
+* His hobbies include reading books, taking walks, and soccer.  
+* Was famous streamer and ex-pro Overwatch player [https://liquipedia.net/overwatch/XQc xQc's] duo back in early seasons. [https://i.redd.it/rs5lq6s4cs481.jpg Vulcan mentioned specifically Ashe/Thresh].
+
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team x3 (2020 Spring, 2022 Summer, 2023 Spring)
+* LCS 2nd All-Pro Team x3 (2020 Summer, 2021 Spring, 2024 Summer)
+* LCS 3rd All-Pro Team x3 (2021 Summer, 2022 Spring, 2024 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

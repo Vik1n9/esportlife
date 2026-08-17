@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Adam%20(Adam%20Maanane)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.380Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Adam」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Adam
+|name=Adam Maanane
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France
+|residency=EMEA
+|birth_date_year=2001
+|birth_date_month=December
+|birth_date_day=30
+|favchamp=Garen
+|favchamp2=Olaf
+|favchamp3=Darius
+|favchamp4=Sett
+|checkbox1=No
+|compID1=Ricadam
+|checkboxComp=No
+|ids='''EUW:''' Nothing much <br> '''KR:''' EUBEST
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ricadam_lol
+|twitter=Ricadam_lol
+|instagram=ricadam_lol
+|youtube=https://www.youtube.com/channel/UCDyuCvMB7IFjU-qNVjRHqYg
+|tiktok=ricadamlol
+|lolpros=https://lolpros.gg/player/adam/
+|deeplol=https://www.deeplol.gg/pro/Adam-Adam_Maanane
+|dpmlol=https://dpm.lol/pro/Adam
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Ricadam'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Used to be very well known under his previous account username "Adam 16 Ans TerS" in the French scene.
+* Known for his aggressive playstyle
+* He is good friends with [[Akabane]] and [[NUCLEARINT]] (previously teammates in [[Kameto Corp]]).
+* In 2019, he submitted a clip to Fnatic for their Guess My ELO series.<ref>https://youtu.be/e7i7nun5oP8?t=560</ref> It was a clip of [[TF Blade]]'s {{ci|Irelia}} getting outplayed by his {{ci|Darius}}.
+** The players who reviewed his clip, [[Bwipo]] and [[Hylissang]], became his teammates in Fnatic in May 2021.
+* Plays without in-game sounds and with a custom music soundtrack allowed by referees due to having tinnitus.
+* During Worlds 2023, fans jokingly referred to the Worlds song "GODS" when describing his champion pool. It is also an acronym for "'''G'''aren - '''O'''laf - '''D'''arius - '''S'''ett".<ref>[https://twitter.com/lolesports/status/1713483277435338815 LoL Esports' Tweet] ''twitter.com''</ref>
+* French casters call him "Le Petit Prince".<ref>[https://twitter.com/OTP_LoL/status/1403442459401654277 OTP's Tweet] ''twitter.com''</ref>
+=== Individual Awards ===
+* EU 2nd All-Pro Team x2 (Summer 2021, Spring 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cotopaco&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.332Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cotopaco」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Cotopaco
+|name=Sergio Silva Sánchez
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Colombia
+|residency=North America|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=18
+|favchamp=Syndra
+|favchamp2=Azir
+|favchamp3=Katarina
+|favchamp4=Ekko
+|checkbox1=Yes
+|favchamp5=Viktor
+|checkboxComp=No
+|ids='''NA:''' Cotopaco, Cotopaco Parce, Dragarrin
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/cotopaco
+|facebook=https://www.facebook.com/cotopacolol
+|twitter=cotopaco
+|instagram=cotopaco
+|youtube=https://www.youtube.com/user/cotopaco1203
+|discord=https://discord.gg/SX4QGrXape
+|tiktok=cotopaco
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxPrev=No
+}}
+==Biography==
+Sergio Silva was born in Neiva, Colombia.
+
+== Trivia ==
+* Known for his good skills as mid laner.
+* Won many amateur tournaments with teams created by him and his friends.
+* His IGN comes from a teacher of him who was scolding him and wrote "Cotopaco" on the blackboard.
+
+=== Individual Awards ===
+* LLA Most Weekly MVPs in his role in the split (Opening 2019)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

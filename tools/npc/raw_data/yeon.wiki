@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yeon%20(Sean%20Sung)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.546Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yeon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Yeon
+|name=Sean Sung
+|nativename=성연호
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=2001
+|birth_date_month=January
+|birth_date_day=07
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' TL Yeon#7lol <br> Autumn Tree #蘇沐秋 <br> '''KR:''' TL Honda Yeon#Rin <br> '''EUW:''' IHATEYOU#TL7 <br> '''BR:''' Rin Itoshi#CH273
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/yeon7lol
+|twitter=Yeon7lol
+|instagram=yeon7lol
+|lolpros=https://lolpros.gg/player/yeon
+|deeplol=https://www.deeplol.gg/pro/Yeon-Sean_Sung
+|dpmlol=https://dpm.lol/pro/Yeon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+Yeon was born in Los Angeles, California. He began playing ''League of Legends'' in 2014, when he was 13. In the middle of 2020, he joined [[100 Thieves Next]] to replace [[Auto]], who was role swapping to support. Alongside star prospects like [[Tenacity]] and [[Kenvi]], Yeon dominated the North American amateur circuit and earned a spot at [[NASG 2020]], where he was drafted onto [[Team Ocean Drake (NASG Team)|Team Ocean Drake]]. His team won the event. Afterward, Yeon joined [[Team Liquid Academy]]. He would remain on the team for the next two years, winning LCS Proving Grounds twice in 2022.
+
+=== 2023 Season ===
+After dominating the academy scene for the past year, Yeon was promoted to be the starting bot laner for [[Team Liquid]] as part of a fully Korean-speaking roster.
+
+== Trivia ==
+* His ID '''Yeon''' is based on his Korean name Sung Yeon-ho.
+* Was extensively mentored by [[CoreJJ]] while on [[Team Liquid Academy]] before being promoted to the LCS roster.
+* Speaks English and Korean.
+* His favorite pro players are [[Viper (Park Do-hyeon)|Viper]] and [[Ruler]].
+* Likes anime and manga, also likes '''[[wikipedia:en:The King's Avatar (2017 web series)|The King's Avatar]],''' which is the origin of his previous ID '''Aki no Ki'''
+
+=== Individual Awards ===
+* LCS Rookie of the Year (2023)
+* LCS First All-Pro Team (2024 Summer)
+* LTA Finals MVP (2025 Split 1)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NaMei&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.371Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「NaMei」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=NaMei
+|name=Zhu Jia-Wen
+|nativename=朱佳文
+|namealphabet=Hanzi
+|image=RNG NaMei 2016 Summer.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|birth_date_year=1993
+|birth_date_month=May
+|birth_date_day=4
+|favchamp=Lucian
+|favchamp2=Twitch
+|favchamp3=Ezreal
+|checkbox1=No
+|compID1=Devil
+|checkboxComp=No
+|ids=EDG丶NaMei, ChinaPE丶NaMei, Msilence
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|fanpage=http://t.qq.com/a122656267
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Devil'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|nicknames=娜美
+}}
+==Biography==
+On January 4, 2015, [[EDward Gaming]] announced the departure of NaMei.<ref>[http://t.qq.com/p/t/445914017527396 Edward Gaming's Tencent Weibo Post (Chinese)] ''t.qq.com''</ref> He joined [[SHRC]], but was not allowed to play in the LPL until his contract with EDG would have expired naturally, since the transfer was not made during the allowed period.
+
+== Trivia ==
+* His ID '''NaMei''' is short for his Chinese ID "'''那逼很美'''" (Na Bi Hen Mei).
+* Reached 1000 Kills in the LPL in April, 2016.
+** The 4th player to reach 1000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Cool]], and [[Kid]].
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+EDG_Namei_Summer2014.jpg|EDG NaMei
+NaMei.jpg|PE NaMei
+EDG_NaMei_2014_WCS.png|EDG NaMei [[2014 Season World Championship|2014 WC]]
+KNG-NaMei-2015lpl.jpg|KNG NaMei 2015 Summer
+RNG_NaMei_2016_Spring.png|RNG NaMei 2016 Spring
+</gallery>
+
+{{PlayerPageEnd}}

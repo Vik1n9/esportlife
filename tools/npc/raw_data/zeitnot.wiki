@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zeitnot&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.590Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zeitnot」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Zeitnot
+|name=Berkay Aşıkuzun
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|nationality=Turkish
+|residency=EMEA
+|birth_date_year=1995
+|birth_date_month=January
+|birth_date_day=02
+|favchamp=Ezreal
+|favchamp2=Lucian
+|favchamp3=Jinx
+|favchamp4=Kai'Sa
+|checkbox1=Yes
+|favchamp5=Jhin
+|favchamp6=Kog'Maw
+|favchamp7=Yunara
+|compID1=Dantrag
+|checkboxComp=No
+|ids='''EUW:''' zeitnot#7149
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://kick.com/zeitnot
+|facebook=https://www.facebook.com/zeitnotlol
+|instagram=zeitnotx
+|youtube=https://www.youtube.com/channel/UCJZsm8VALCGmQqJbHbSiT9w
+|discord=https://discord.gg/GkZ7Umsc
+|lolpros=https://lolpros.gg/player/zeitnot
+|deeplol=https://www.deeplol.gg/pro/Zeitnot
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Dantrag'''.
+}}
+==Biography==
+
+== Trivia ==
+* Known for his aggressive {{ci|Lucian}}.
+* Is often affectionately referred to as ZeitGOD.
+* Doesn't smile often.
+* Is considered one of Turkey's best AD carries of all time.
+* Nicknamed ''Baba'' (Father) by fans.
+* He is a [https://www.chess.com/member/tarumaredici chess player].
+* His ID '''Zeitnot''' is [https://en.wiktionary.org/wiki/zeitnot a chess term], meaning a situation in which the player has little time to complete their moves. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Zeitnot 3.jpg|DP Zeitnot 2016 Winter
+SUP Zeitnot 2017 Spring.png|SUP Zeitnot 2017 Winter
+SUP Zeitnot 2017 MSI.png|SUP Zeitnot 2017 MSI
+SUP Zeitnot 2018 Winter.png|SUP Zeitnot 2018 Winter
+SUP Zeitnot 2018 MSI.png|SUP Zeitnot 2018 MSI
+SUP_Zeitnot_2018_Split_2.png|SUP Zeitnot 2018 Summer
+SUP Zeitnot 2019 Split 1.png|SUP Zeitnot 2019 Winter
+SUP Zeitnot 2019 Split 2.png|SUP Zeitnot 2019 Summer
+SUP Zeitnot 2020 Split 1.png|SUP Zeitnot 2020 Spring
+</gallery>
+
+{{PlayerPageEnd}}

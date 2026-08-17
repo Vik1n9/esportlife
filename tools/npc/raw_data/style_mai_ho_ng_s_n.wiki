@@ -1,0 +1,64 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Style%20(Mai%20Ho%C3%A0ng%20S%C6%A1n)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.816Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Style (Mai Hoàng Sơn)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Sty1e
+|name=Mai Hoàng Sơn
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|nationality=Vietnam
+|residency=PCS
+|birth_date_year=2002
+|birth_date_month=January
+|birth_date_day=11
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' GAM AD20, '''VN:'''Sty1eee
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/style.1101
+|fanpage=https://www.facebook.com/sonsty1e
+|deeplol=https://www.deeplol.gg/pro/Sty1e
+|dpmlol=https://dpm.lol/pro/Sty1e
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as Style.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+*He was awarded the title of National Sports Master by the Ministry of Sports, Culture and Tourism of Vietnam after winning the Gold Medal with the [[Vietnam (National Team)|Vietnam National Team]] at the [[Sea Games 31|31st SEA Games]] at the end of 2022.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+===Images===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

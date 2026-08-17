@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tarzan%20(Lee%20Seung-yong)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.545Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tarzan (Korean player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Tarzan
+|name=Lee Seung-yong
+|nativename=이승용
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=23
+|favchamp=Lee Sin
+|favchamp2=Camille
+|favchamp3=Graves
+|favchamp4=Taliyah
+|checkbox1=Yes
+|favchamp5=Gragas
+|favchamp6=Trundle
+|favchamp7=Nocturne
+|checkboxComp=No
+|ids='''KR:''' 타 잔#KR1 <br>'''EUW:''' fortuna#9817 <br> '''NA:''' Mai Paura#2025
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tarzan0823
+|facebook=https://www.facebook.com/profile.php?id=100006624603048
+|twitter=Tarzan_0823
+|instagram=tarzan_0823
+|weibo=https://weibo.com/n/Tarzan%E6%9D%8E%E6%89%BF%E5%8B%87
+|lolpros=https://lolpros.gg/player/tarzan/
+|deeplol=https://www.deeplol.gg/pro/Tarzan-Lee_Seung-yong
+|dpmlol=https://dpm.lol/pro/Tarzan
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Widely praised for his knowledge and understanding of the game, and considered one of the best Junglers in Korea.
+* Reached rank 1 in the Korean soloqueue in Season 8.
+* After [[Griffin (Korean Team)|Griffin]]'s loss against [[Gen.G]] in the [[LCK/2018 Season/Regional Finals|2018 Korea Regional Finals]], Tarzan changed his name to "만족하지않을거야" which translates to "I will not be satisfied."
+* Was known for 100 percent win-rate {{ci|Trundle}} in Season 8.
+* Was known for reaching very high elo in Korean solo queue playing off role.
+=== Statistics ===
+* Reached 1000 kills in the LPL on March 28, 2025.
+** The 52nd player to reach 1000 kills in the LPL.
+* Reached 3000 assists in the LPL on April 05, 2025.
+** Was the 34th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on September 20, 2025.
+** The 23rd player to reach 4000 assists in the LPL.
+* Reached 500 games in the LPL on September 14, 2025.
+** The 39th player to reach 500 games in the LPL.=
+=== Individual Awards ===
+* LCK KDA Leader Jungle x2 (Spring 2019, Summer 2019)
+* LPL 1st All Pro Team x2 (Summer 2021, Split 1 2025)
+* LPL 2nd All Pro Team x3 (Summer 2024, Split 2 2025, Split 3 2025) 
+* LPL 3rd All Pro Team x2 (Spring 2022, Spring 2023)
+* LPL Playoffs FMVP x1 (Split 2 2025)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

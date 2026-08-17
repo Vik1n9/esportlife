@@ -1,0 +1,135 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Infinity%20(Petter%20Freyschuss)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.806Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity (Petter Freyschuss)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Hjarnan
+|name=Petter Freyschuss
+|checkboxAutoImage=Yes
+|country=Sweden
+|residency=EMEA
+|birth_date_year=1993
+|birth_date_month=November
+|birth_date_day=18
+|favchamp=Heimerdinger
+|favchamp2=Ezreal
+|favchamp3=Caitlyn
+|favchamp4=Jinx
+|checkbox1=No
+|compID1=Infinity
+|compID2=Hjärnan
+|checkboxComp=No
+|ids=C9 Hjärnan, H2k Hjärnan IV20, Infínítyy, G2 HjarnanIV20,<br>G2 야난 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/hjarnanlol
+|facebook=https://www.facebook.com/Hjarnan
+|twitter=Hjarnanx
+|instagram=hjarnanlol
+|lolpros=https://lolpros.gg/player/hjarnan
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''Hjärnan'''. He was formerly known as '''Infinity'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Hjärnan joined his first competitive team, [[Team Property]], under the alias '''"Infinity"''', towards the end of the season. His only notable tournament with the team was at [[DreamHack Winter 2013]], though they did not make it out of the group stage. At the end of the season, Hjärnan left the team.
+
+===2014 Season===
+Hjärnan joined newly formed [[Cloud 9 Eclipse]] at the start of the season, and this saw him playing in a roster that included [[Febiven]] and [[Voidle]]. The team's first tournament was the [[SCAN EUW Winter Invitational]]. The roster managed to impress from the very start, finishing 1st after beating [[Gamers2]] in the final of the tournament. Hjärnan and the team continued in the same form, winning [[2014 EU Challenger Series/Spring Series|Challenger Spring #1]]. An uncharacteristic dip in the team's play lead to [[Cloud 9 Eclipse]] being knocked out of [[2014 EU Challenger Series/Spring Series/Series 2|Challenger Spring #2]], losing to [[Departed]] in the quarterfinals.
+
+Despite this, Hjärnan and the team went on to win a number of tournaments on the run. The first of these was Week 20 of the [[EUW Challenger Series]], where they took revenge by beating [[Departed]] in the final. Next up was the [[2014 Black Monster Cup Europe Spring|2014 Black Monster Cup Europe - Spring]], where C9E took further revenge, beating [[Denial eSports.Europe]] in the final, after the organization picked up the roster of [[Departed]]. The team also won [[International Invitational Tournament 3]], beating [[Dark Passage]] in the final.
+
+Soon after, [[Cloud 9 Eclipse]] competed at the [[Copenhagen Games 2014]] with [[Santorin]] subbing in the jungle - the team managed a 2nd place finish, behind [[Ninjas in Pyjamas]]. Hjärnan and C9E then returned to the Challenger Series with the [[2014 EU Challenger Series/Spring Series/Playoffs|Spring Playoffs]]. The team won the tournament, again taking revenge by beating [[Ninjas in Pyjamas]] in the final. This would mean that C9E would have a chance to qualify for the LCS in the [[Riot League Championship Series/Europe/2014 Season/Summer Promotion|Summer Promotion]]. Unfortunately for Hjärnan and the team, they lost their promotion match-up against [[SUPA HOT CREW]]. Hjärnan and [[Cloud 9 Eclipse]]'s last tournament would be the [[LoL Pro League/Season I|LoL Pro League - Season I]], which they managed to win. After this, the team's roster was released. Hjärnan and the majority of the former C9E roster then decided to join [[H2k-Gaming]].
+
+Hjärnan's first tournament with H2k was the [[2014 EU Challenger Series/Summer Series|Challenger Summer #1]], which the team won, beating [[Ninjas in Pyjamas]] in the final. Next up for Hjärnan was the [[Dailymotion Challenger Cup]], where the team finished 3rd after losing to [[SK Gaming Prime]] in the 4th round of the winner's bracket and surrendering their 4th round loser's bracket match to [[Unicorns of Love]]. H2k also competed at [[FACEIT Challenger Invitational 3]], but did not make it out of the group stages. Hjärnan and the team returned to the Challenger Series with [[2014 EU Challenger Series/Summer Series/Series 2|Challenger Summer #2]], but the series was not a success, with [[H2k-Gaming]] finishing in 4th place after surrendering their third-place match against [[Gamers2]].
+
+Soon after, Hjärnan and the team returned to winning form with the [[2014 EU Challenger Series/Summer Series/Playoffs|Summer Playoffs]], beating [[SK Gaming Prime]] in the final. They followed this up with a win over [[Ninjas in Pyjamas]] in the final of the [[FACEIT Gamescom Challenge]]. Due to their performance in the playoffs, [[H2k-Gaming]] had secured themselves a place in the [[Riot League Championship Series/Europe/2015 Season/Spring Promotion|Spring Promotion]]. Despite a considerable amount of hype surrounding the team, they were beaten by [[Copenhagen Wolves]] in their promotion match-up. After this disappointment, H2k were quick to recover; going on to beat [[n!faculty]] in the final of [[Challenger FaceOff 3]]. They also managed to win the [[2014 Black Monster Cup Europe Winter|2014 Black Monster Cup Europe - Winter]], beating [[SK Gaming Prime]] in the final.
+ 
+With [[H2k-Gaming]], Hjärnan competed in the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Expansion|Spring Expansion Tournament]], and qualified for the Offline Stage after beating [[Meloncats]]. In the Offline Stage, H2k won their first match-up against [[n!faculty]], meaning that they were one win away from qualifying for the LCS. The team went on to beat [[GIANTS! Gaming]] in the Winner's Bracket Final, ensuring that they would be playing in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]].
+
+===2015 Season===
+The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was relatively successful for Hjärnan (now stylizing his name as '''Hjarnan''') and [[H2k-Gaming]]. After a shaky start, results began to pick up for the team, partly thanks to the introduction of [[kaSing]] to the roster. Hjarnan's impressive individual performances throughout the rest of the split, particularly on {{ci|Sivir}}, helped the team to a 3rd place finish in the regular season. In the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], Hjarnan and the team beat [[Copenhagen Wolves]] in the quarterfinals, but were beaten in the semifinals in a close-fought series by eventual champions [[Fnatic]]. [[H2k-Gaming]] went on to pull off a shock victory over [[SK Gaming]] in the third-place match, securing themselves 50 [[2015 Season/Championship Points|Championship Points]].
+
+Hjarnan and the team began to impress from the very start of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. [[H2k-Gaming]] jostled for 2nd position with [[Origen]] throughout the regular season, with [[Fnatic]] way out in 1st place throughout. Impressive performances from Hjarnan on a number of champions ultimately helped the team to yet another 3rd place regular season finish. The [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]] also went well for Hjarnan and the team, beating [[Giants Gaming]] in the quarterfinals of the tournament. The were beaten in the semifinals by [[Origen]], but went on to beat [[Unicorns Of Love]] in the third-place match, securing the team 70 [[2015 Season/Championship Points|Championship Points]], which meant that the team had qualified for the [[2015 World Championship]] as Europe's #2 seed.
+
+At the [[2015 World Championship]], [[H2k-Gaming]] were seeded into Group C along with [[SK Telecom T1]], [[EDward Gaming]], and [[Bangkok Titans]]. They picked up 2 wins in the group, both coming against [[Bangkok Titans|BKT]]. Hjärnan and the team finished the group in 3rd place, meaning they would not advance to the knockout stage of the tournament.
+=== 2016 Season ===
+Hjarnan joined [[Team Vitality]] for the 2016 season. With himself, [[Cabochard]], [[Shook]], [[Nukeduck]], and [[kaSing]] comprising the roster, the team was considered one of the top lineups in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], and they finished the split in third place, behind the surprise first-place [[G2 Esports]] and second-place [[H2k]]. In the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]], however, they were upset by the sixth-place [[Fnatic]] and eliminated in the quarterfinals.
+
+== Trivia ==
+* His ID "Hjarnan" means "the brain" in Swedish.
+* During his time in [[H2k-Gaming]], he would always jokingly say that [[kaSing]] is his key to performing well.
+* Known for his {{ci|Heimerdinger}}.
+** In 2018, he played Heimerdinger in 10 professional games and held a 100 percent win rate with 89.0 KDA.
+** During his bootcamp in Korea for 2018 Worlds, he has a 83 percent winrate with Heimerdinger in solo queue.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,206 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Immortals&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.976Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Immortals」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Immortals
+|orgcountry= United States
+|country= 
+|region= North America
+|partner= [https://igc.gg/ Immortals Gaming Club] <br> [https://www.stjude.org/get-involved/other-ways/partner-with-st-jude/corporate-partners/immortals.html St. Jude Children's Research Hospital] <br> [https://www.gamefuel.com/ GAME FUEL] <br> [https://www.razer.com/team Team Razer] <br> [https://kswiss.com/pages/immortals K-SWISS] <br> [https://www.buyatoyota.com/socal/ Southern California Toyota Dealers Association]
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= https://www.immortals.gg
+|twitter= Immortals
+|youtube= https://www.youtube.com/channel/UCHD3WOEBQkbfXvgPgmldT4g
+|instagram= immortals_gg
+|facebook= https://www.facebook.com/Immortalsgg
+|subreddit= immortals
+|snapchat= IMMORTALS_GG
+|discord= https://discordapp.com/invite/immortals
+|twitch-team= https://www.twitch.tv/team/immortals
+|irc= 
+<!-- History -->
+|created= 2015-10-07
+|disbanded= 2017-11-20
+|created2= 2019-10-09
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= apex,cod,siege,vg,valorant
+}}{{TOCRWI}}
+
+'''Immortals''' is a North American team.
+
+== History ==
+'''Immortals''' was announced on October 7, 2015 as a new esports franchise and also the new brand of [[Team 8]], with that roster being their first of multiple planned esports teams.<ref>[http://www.twitlonger.com/show/n_1snjvcv Gaming, Tech, Media & Sports Executives Launch eSports Franchise “Immortals”] ''twitlonger.com''</ref> Soon after the team's creation, support player [[Dodo8]] became the team's player manager, retiring from competitive play.<ref name="Dodo8manager">[http://www.dailydot.com/esports/dodo8-immortals-retire/ Dodo8 ends his playing career, moves on to player management] ''dailydot.com''</ref><ref name="dodo8manager2">[http://twitter.com/IMTgg/status/654349100666744832 Immortals's Tweet] ''twitter.com''</ref> Immortals ended up with an entirely different roster from the Team 8 players that they started with: on December 8, they announced [[Huni]], [[Reignover]], [[Pobelter]], [[WildTurtle]], and [[Adrian (Adrian Ma)|Adrian]] as their roster for the 2016 season.<ref name="2016roster">[http://www.dailydot.com/esports/immortals-huhi-pobelter-roster/ Huni, Pobelter, WildTurtle headline star-studded Immortals roster] ''dailydot.com''</ref>
+
+===2016 Season===
+====2016 NA LCS Spring Split====
+Expected to be a top team in the [[League Championship Series/North America/2016 Season/Spring Season|LCS]], Immortals initially exceeded all expectations as they went undefeated for the first six weeks of the season before losing one game to reigning champions [[Counter Logic Gaming]] in week 7. They won the rest of their regular season games, but as the season progressed further they looked weaker and weaker as a team, and even seemed to falter against the last-place [[Team Dignitas]], needing to come back against them to pull out a win. With a top seed clinched into the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]], Immortals were guaranteed to face the lowest-seed team that won in the quarterfinals. That team ended up being [[Team Solomid]], who were on a strong upswing after a sixth-place regular season finish. With questionable drafts including a [[Lucian]] top for Huni in game 1, [[Urgot]] mid for Pobelter in game 2, and three games of [[Karma]] support for Adrian as well as not a single contest of the strongly-in-meta [[Ekko]], Immortals lost 3-0 to TSM. They came back the next week to beat [[Team Liquid]] and finish in third place overall.
+
+====2016 NA LCS Summer Split====
+Expectations for Immortals going into the [[League Championship Series/North America/2016 Season/Summer Season|Summer Season]] were again high, after they were one of only three NA teams not to change any players in the [[Roster Swaps/2016 Midseason/North America/Current Rosters|mid-season break]], and while they nearly repeated their spring split record - this time dropping only two of eighteen series in the new best of 3 format as opposed to 1 best of 1 - they were indisputably the second-best team in the league. TSM with new rookie star support [[Biofrost]] went 17-1 in series, and they bested Immortals in both of their head-to-head series. Immortals still had a [[League Championship Series/North America/2016 Season/Summer Playoffs|playoff]] bye, and so they were able to avoid TSM in the semis, instead facing the third-place [[Cloud9]]. In a back-and-forth five-game series, Immortals were upset and faced CLG in the third-place match, which they came back from a disastrous game 1 to win 3-2. Unfortunately, despite their combined 33-3 regular season record, Immortals only had 120 [[2016 Season/Championship Points|Championship Points]] compared to CLG's 130, and so it was CLG who won the automatic second-place [[2016 Season World Championship]] seed from North America. And even though Immortals had the top seed in the [[2016 Season North America Regional Finals|Regional Finals]], they were upset once again by Cloud9, and their season ended short of Worlds.
+
+===2017 Season===
+====2017 Preseason====
+Immortals's one-year player contracts lapsed in November 2016, and four of their five players departed the team. Jungler [[Reignover]] first left for [[Team Liquid]],<ref name="reignoverleave">[http://immortals.gg/news/2016/11/23/goodbye-and-good-luck-reignover/ Goodbye and good luck, Reignover!] ''immortals.gg''</ref><ref>[http://www.espn.com/esports/story/_/id/18121501/league-legends-immortals-reignover-join-team-liquid-sources-say Reignover set to join Team Liquid, sources say] ''espn.com''</ref> while top laner [[Huni]] joined three-time World Champions [[SK Telecom T1]],<ref>[http://immortals.gg/news/2016/12/02/farewell-huni/ Farewell, Huni!] ''immortals.gg''</ref><ref name="huniskt">[http://twitter.com/sktelecom_t1/status/804515392706134016 SK Telecom T1's Tweet] ''twitter.com''</ref> splitting up the iconic duo of two years. Veteran support [[Adrian (Adrian Ma)|Adrian]] moved on to [[Phoenix1]],<ref>[http://immortals.gg/news/2016/11/29/goodbye-adrian-thanks-for-all-the-support/ Goodbye Adrian, Thanks for All the Support!] ''immortals.gg''</ref> and AD carry [[WildTurtle]] rejoined his former team, [[Team SoloMid]].<ref>[http://immortals.gg/news/2016/12/05/goodbye-wildturtle-flashing-into-a-bright-future/ Goodbye WildTurtle: Flashing Into a Bright Future] ''immortals.gg''</ref><ref>[http://www.riftherald.com/na-lcs/2016/12/7/13794402/tsm-wildturtle-lol-returns-2017-roster TSM Brings Back WildTurtle] ''riftherald.com''</ref> Immortals's head coach [[Dylan Falco]] left for [[Team EnVyUs]],<ref>[http://www.thescoreesports.com/lol/news/12674-dylan-falco-to-coach-envyus Dylan Falco to Coach EnVyUs] ''thescoreesports.com''</ref> leaving only [[Pobelter]], who signed a new two-year contract,<ref>[http://immortals.gg/news/2016/12/06/pobelter-signs-2-year-contract/ Pobelter Signs Two Year Contract] ''immortals.gg''</ref> on the Immortals roster from 2016. 
+
+The new roster featured a blend of veteran LCS talent and international expertise, as Immortals signed on Team Liquid's former starting jungler [[Dardoch]],<ref name="dardochjoins">[http://immortals.gg/news/2016/12/07/welcome-to-the-team-dardoch/ Welcome to the Team Dardoch] ''immortals.gg''</ref> [[LCK]] veteran [[Flame]] in the top lane,<ref name="flamejoins">[http://immortals.gg/news/2016/12/09/the-future-is-bright-welcome-flame-to-the-team/ The Future is Bright: Welcome Flame to the Team!] ''immortals.gg''</ref> [[Hong Kong Esports]] support [[Olleh]],<ref name="ollehjoins">[http://immortals.gg/news/2016/12/13/introducing-olleh-as-the-immortals-support/ Introducing Olleh as the Immortals Support!] ''immortals.gg''</ref> and finally [[Dream Team]] AD carry [[Cody Sun]] (formerly '''Massacre''').<ref name="codysunjoins">[http://immortals.gg/news/2016/12/08/welcome-cody-sun-as-the-new-imt-adc/ Welcome Cody Sun as the new IMT ADC!] ''immortals.gg''</ref>
+
+Immortals's new roster faced its first professional competition at [[IEM_Season_11_-_Gyeonggi|IEM Gyeonggi]] in December 2016. [[Cloud9]] had initially qualified as the second-best North American team, but then received an automatic invitation to the [[IEM_Season_11_-_World_Championship|IEM World Championship]], leaving the Gyeonggi berth to Immortals. At the South Korean tournament, Immortals bested the LMS' [[J Team]] in both best-of-one and best-of-three, despite a loss to [[Samsung Galaxy]], and qualified for the tournament semifinals. There, Immortals lost a series to [[Kongdoo Monster]] and were eliminated. 
+
+====2017 Season====
+These five players would start the entire [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]] for Immortals, accompanied by strategic coach [[Hermes (David Tu)|Hermes]], who was promoted to head coach. They established themselves as a middling team, never ending a week lower than 2-4 or higher than 5-5. Immortals entered the final week in a three way competition for the final two playoff spots with [[FlyQuest]] and [[Team Dignitas]], sitting tied with FlyQuest for sixth, one game behind Dignitas. Immortals won their first series, which accompanied by a Dignitas loss, tied the two teams heading into their final game against one another. This meant that Immortals could guarantee a playoff berth simply by beating Dignitas. Unfortunately, they proceeded to get swept, stamping Dignitas' playoff ticket instead. FlyQuest then only needed to win a single game against bottom tier [[Team Liquid]] to move on, and they did so, ending Immortals' season.
+
+Immortals made one of the biggest moves of the 2017 midseason, swapping Dardoch to [[Counter Logic Gaming]] in exchange for veteran jungler [[Xmithie]], who'd had a disappointing Spring Split, leading all junglers in deaths. They also made a coaching change, adding former [[Longzhu]] coach [[SSONG]]. This change seemed to be just what Immortals needed, as they started the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Split]] 7-1 and spent most of it in a three way race for first with CLG and [[TSM]]. Particularly key in their success was Olleh's development into one of the best playmaking supports in the league, especially when roaming in concert with Xmithie. The only hiccup on the way was a 0-2 week 5 in which they lost to last place [[Phoenix1]], but Immortals rebounded after that to go 7-1 over the final four weeks to finish second, tied with TSM in match record but with a worse game score. Both Xmithie and Olleh were voted to the NALCS First Team, and SSONG was rewarded with Coach of the Split as well.
+
+Their second place finish gave Immortals a bye to the semifinals, where they faced and easily swept a slumping CLG, who had barely made it out of the quarterfinals and were struggling to integrate rookie jungler [[OmarGod]]. This sent Immortals to the finals, in not just the first finals appearance for the organization but also the first finals appearance for a team other than TSM, CLG, or [[Cloud9]] since [[Good Game University]] in the [[Riot_League_Championship_Series/North_America/Season_3/Spring_Season|2013 Spring Split]]. Immortals dropped the first game decisively, then struck back just as decisively in the second to grab a win, before losing the third despite opening up a sizable gold lead. In the fourth game, Immortals took a 10k gold lead in the early game, only to let it slip away later, letting TSM take the series 3-1. Despite their loss, Immortals' 90 Championship Points would still be enough to qualify them for their organization's first [[2017 World Championship|Worlds]] as NA's 2nd seed.
+
+At Worlds, they were sorted into Group B with [[LCK]] Summer champions [[Longzhu]], [[GPL]] Summer champions [[GIGABYTE Marines]], and Europe's [[Fnatic]], who had qualified through the new Play-In stage. The first week of play went well for Immortals, as they went 2-1 with their only loss coming to Longzhu, who many favored to win worlds. However, things took a turn for the worse in Week 2. With Immortals needing only to beat Gigabyte Marines to effectively clinch second seed, they lost. Immortals then faced Fnatic, who had failed to win a single game in the group stage up to that point. Taking a sizable lead, Immortals looked poised to win. However, when the team was sieging a bot lane turret with Baron buff on them, Flame overextended into the turret, getting himself killed and setting up an ace for Fnatic. Fnatic then raced to the other side of the map and despite the respawning Immortals killing four Fnatic members, ended the game. While this did not technically end Immortals' world run, in spirit it did, as they lost again to Longzhu before losing the tiebreaker to Fnatic, failing to make it out of groups.
+
+Immortals were not selected to be a part of the [[League Championship Series/North America/2018 Season/Spring Season|NA LCS 2018 Season]], and the team disbanded in November 2017.
+
+====2019 Season====
+On June 12, it was announced that Immortals' parent company '''Immortals Gaming Club''' had acquired '''Infinite Esports & Entertainment''', the parent company of [[OpTic Gaming]]. The LCS team was set to rebrand in 2020, marking Immortals return to the league.<ref>[https://igc.gg/press-61219 IMMORTALS GAMING CLUB ACQUIRES INFINITE ESPORTS & ENTERTAINMENT, PARENT OF OPTIC GAMING] ''igc.gg''</ref><ref>[https://www.immortals.gg/post/immortals-gaming-club-acquires-infinite-esports-entertainment-parent-of-optic-gaming IMMORTALS GAMING CLUB ACQUIRES INFINITE ESPORTS & ENTERTAINMENT, PARENT OF OPTIC GAMING] ''immortals.gg''</ref>
+
+====2020 Season====
+The new Immortals roster would be led by a familiar face: [[Xmithie]], who had previously led the team to the [[2017 World Championship]] and was coming off a streak of four consecutive titles with [[Team Liquid]]. He was joined by veteran French top laner [[SOAZ]], mid laner [[Eika]], veteran bot laner [[Altec]], and support [[Hakuho]]. Immortals started the [[LCS/2020 Season/Spring Season|spring split]] looking shaky, but managed to pick up multiple wins anyway, ending Weeks 3 and 4 tied for second place behind the dominant [[Cloud9]]. They declined after that, somewhat expectedly, but remained competitive for one of the final playoff spots, even as [[Altec]] was subbed out for [[Apollo (Apollo Price)|Apollo]]. Going into Week 9, Immortals needed only a single win to clinch playoffs but faltered just before the finish line as [[Dignitas]] and [[Golden Guardians]] surged, forcing them into a three-way tiebreaker for the final playoff spot. Placed into the first round against Dignitas, Immortals were unable to reverse their slide and lost, ending their season. 
+
+== Trivia ==
+* In their second game of the [[League Championship Series/North America/2016 Season/Spring Season|NA LCS 2016 Spring Split]], Immortals both set the record for the fastest game to date in NA LCS history and also achieved the second perfect game ever in NA LCS history.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+=== Current ===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Peter Y. Levin|'''Chairman of the Board of Directors'''}}
+{{listplayersp||us|Meg Whitman|'''Board of Directors'''}}
+{{listplayersp||us|Neil Leibman|'''Board of Directors'''}}
+{{listplayersp||us|Steve Kaplan|'''Board of Directors'''}}
+{{listplayersp|Carly Beall|us|Caroline Beall|'''VP, Business Operations'''}}
+{{listplayersp||us|Scott Harbert|'''Partnership Sales Coordinator'''}}
+{{listplayer|Vince (Vincent Descaves)|us|Vincent Junior Jr.|'''Director of Operations'''}}
+{{listplayersp|Loyota|us|Brendan Schilling|'''Analyst'''}}
+{{listplayersp|Yougelly|us|Sally|'''Streamer & Content Creator'''}}
+{{listplayer|Parth|us|Parth Naidu|'''Consultant'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Tonington|us|James Kandel|'''General Manager'''|newteam=Near Airport}}
+{{listplayer|Inero|us|Nicholas Smith|'''Head Coach'''|newteam=C9}}
+{{listplayer|Robert Yip|ie|Robert Yip|'''Head of Performance'''|newteam=none}}
+{{listplayer|Joey|us|Joseph Haslemann|'''Assistant Coach'''|newteam=University of California, Irvine}}
+{{listplayersp|Charlie|us|Charlie Siers|'''Content Lead'''|newteam=none}}
+{{listplayer|Sharkz|by|Alexey Taranda|'''Head Coach'''|newteam=none}}
+{{listplayer|Stxrm|mt|Jake Camilleri|'''Consultant'''|newteam=MA}}
+{{listplayer|Mabrey|us|Joshua Mabrey|'''Head Coach'''|newteam=DIG}}
+{{listplayer|Joey|us|Joseph Haslemann|'''Assistant Coach'''|newteam=IMT}}
+{{listplayer|Xmithie|ph|Jake Puchero|'''Strategic Coach'''|newteam=none}}
+{{listplayer|Dayos|ca|Mervin-Angelo Lachica|'''Systems Coach'''|newteam=MIRD}}
+{{listplayer|Draxyr|us|Richard Yuan|'''Positional Coach'''|newteam=MIRD}}
+{{listplayersp||us|Noah Whinston|'''Co-Founder'''|newteam=Retired}}
+{{listplayersp|ClintFoy|us|Clinton Foy|'''Co-Founder & Co-Owner'''|newteam=Retired}}
+{{listplayersp||us|Ari Segal|'''Chief Executive Officer'''|newteam=Retired}}
+{{listplayersp||us|Jordan Sherman|'''Chief Commercial Officer & President'''|newteam=Retired}}
+{{listplayersp|Tomi|fi|Tomi Kovanen|'''Chief Operating Officer'''|newteam=Retired}}
+{{listplayersp||us|William Anthony|'''General Counsel'''|newteam=Retired}}
+{{listplayersp|||Karen Hennessy-Coles|'''VP, People and Culture'''|newteam=Retired}}
+{{listplayersp||us|Royce Wilson|'''VP, Corporate Partnerships and Media Sales'''|newteam=Retired}}
+{{listplayersp||us|John Tripp|'''VP, Corporate Partnerships'''|newteam=Retired}}
+{{listplayersp||us|Max Bass|'''VP, Marketing'''|newteam=Retired}}
+{{listplayersp||us|Brad Peters|'''Director of Brand'''|newteam=Retired}}
+{{listplayersp||us|Chun Lim|'''Design Lead & Motion Graphics Designer'''|newteam=Retired}}
+{{listplayersp|||George Stafford|'''Senior Designer'''|newteam=Retired}}
+{{listplayersp|||Raegan Mansfield|'''Social Media Coordinator'''|newteam=Retired}}
+{{listplayersp||us|Stephanie Hawkins|'''Corporate Partnerships Manager'''|newteam=Retired}}
+{{listplayersp|||Peter Lee|'''Data Scientist'''|newteam=Retired}}
+{{listplayer|||John Alvarado|'''Content Manager'''|newteam=Retired}}
+{{listplayersp||us|Meghan Anderson|'''Partnerships Coordinator'''|newteam=Retired}}
+{{listplayersp|Ptero|us|Sheila|'''Content Creator'''|newteam=Retired}}
+{{listplayersp|Ariasaki|us|Angela Don|'''Content Creator'''|newteam=Retired}}
+{{listplayer|Nightshare|cz|Tomáš Kněžínek|'''Head Coach'''|newteam=FNC}}
+{{listplayer|Invert|ca|Gabriel Zoltan-Johan|'''Assistant Coach'''|newteam=Retired}}
+{{listplayer|Dardoch|us|Joshua Hartnett|'''Assistant Coach'''|newteam=Immortals Academy}}
+{{listplayersp|Ryuke|us|Jake Pedro|'''Operations Coordinator'''|newteam=OG Esports}}
+{{listplayer|Guilhoto|pt|André Pereira Guilhoto|'''Head Coach'''|newteam=TL}}
+{{listplayersp|Mike Schwartz|us|Michael Schwartz|'''Interim General Manager / Director of Competitive Esports'''|newteam=Retired}}
+{{listplayer|Dardoch|us|Joshua Hartnett|'''Assistant Coach'''|newteam=Immortals|comment=Assistant Coach}}
+{{listplayersp|KappaEquiscu|es|Jordi Plana|'''Data Analyst & Scouting'''|newteam=retired}}
+{{listplayer|Malaclypse|us|Paul Decsi|'''Assistant Coach'''|newteam=Retired}}
+{{listplayersp|||Jeff Kuprycz|'''VP, Events'''|newteam=Retired|comment=ConvertKit}}
+{{listplayersp||us|Jon Tuck|'''Chief Commercial Officer'''|newteam=Retired|comment=Professional Fighters League}}
+{{listplayersp|||Tal Shachar|'''Chief Digital Officer'''|newteam=Retired}}
+{{listplayer|GotoOne|fr|Adrien Picard|'''Assistant Coach'''|newteam=GameWard}}
+{{listplayer|Keaton|us|Keaton Cryer|'''General Manager'''|newteam=Retired|comment=Pipeline}}
+{{listplayer|Zaboutine|fr|Thomas Si-Hassen|'''Head Coach'''|newteam=BDS}}
+{{listplayersp|||Jen Neale|'''Public Relations and Communications Manager & Executive Assistant to CEO'''|newteam=Riot}}
+{{listplayersp||us|Kodiak Shroyer|'''VP, Competitive Operations'''|newteam=eg.na}}
+{{listplayersp||us|Joe McMahon|'''Corporate Partnerships'''|newteam=eg.na}}
+{{listplayersp||us|Josh Cook|'''VP, Content'''|newteam=Retired}}
+{{listplayersp||us|Brian Millman|'''VP, Corporate Partnerships'''|newteam=eg.na}}
+{{listplayersp|||Sean Kim|'''Facilities and IT Manager'''|newteam=Retired}}
+{{listplayersp|Steve|us|Steve Forton|'''Social Media and Community Manager'''|newteam=FLY}}
+{{listplayersp|SAB|us|Sabrina Wong|'''Community Outreach Coordinator'''|newteam=100 Thieves}}
+{{listplayersp|||J.M.R. Luna|'''VP of Content and Production'''|newteam=Retired}}
+{{listplayersp|JDempe|us|Jeremy Dempe|'''Content Creative Director'''|newteam=100 Thieves}}
+{{listplayersp|Janook|us|Jonathan Stein|'''VP of Product'''|newteam=IMT|comment=Overwatch}}
+{{listplayersp|NurseBaemax||Bianca Danielle|'''Social Media Coordinator'''|newteam=Team Dignitas}}
+{{listplayersp|megumixbear||Tricia Sugita|'''Head of Partnerships'''|newteam=FLY}}
+{{listplayersp|Tricky||Tricky Gonzalez|'''Senior Video Producer'''|newteam=FLY}}
+{{listplayersp|Swaguhsaurus|us|Nick Phan|'''General Manager'''|newteam=FLY}}
+{{listplayer|Dodo|kr|Kang Jun-hyeok (강준혁)|'''Team Manager'''|newteam=TL}}
+{{listplayer|SSONG|kr|Kim Sang-soo (김상수)|'''Head Coach'''|newteam=TSM}}
+{{listplayer|Robert Yip|ie|Robert Yip|'''Sport Psychology and Performance Coach'''|newteam=FLY}}
+{{listplayersp|Portilho|br|Mateus Gravatá Portilho|'''Social Media Manager & Community Coordinator'''|newteam=C9}}
+{{listplayersp|Loyota|us|Brendan Schilling|'''Head Analyst'''|newteam=Team Liquid}}
+{{listplayersp|Lufty|us|Nicholas Luft|'''Analyst'''|newteam=FLY}}
+{{listplayersp|Azotal|us|Ryan Friedman|'''Financial and Data Analyst'''|newteam=Clutch}}
+{{listplayersp|RachQuit|us|Rachael Barisich|'''Content and Operations Manager'''|newteam=Misfits Gaming}}
+{{listplayer|Hermes|link=Hermes (David Tu)|us|David Tu|'''Strategic Coach'''|newteam=FlyQuest}}
+{{listplayersp|Jish|au|Josh Carr-Hummerston|'''Assistant Head Coach'''|newteam=Retired}}
+{{listplayer|Leonyx|us|Rob Lee|'''Creative Director'''|newteam=Retired}}
+{{listplayer|Jesiz|dk|Jesse Le|'''Assistant Coach'''|newteam=Fnatic}}
+{{listplayer|Dylan Falco|ca|Dylan Falco|'''Head Coach'''|newteam=Team EnVyUs}}
+{{listplayer|TheAkiri|us|Tyler Perron|'''Analyst'''|newteam=Team Sky}}
+{{listplayer|HISTORY TEACHER|us|Chad Smeltz|'''Head Coach'''|newteam=NRG}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+ImmortalsOldlogo square.png|Previous Logo<br>(Oct 2015 - Dec 2015)
+Immortalslogo square (2016 - 2019).png|Previous Logo<br>(2016 - 2019)
+Immortalslogo square (2019 - 2021).png|Previous Logo<br>(2019 - 2021)
+</gallery>
+
+===Rosters===
+<gallery>
+Immortals Roster LCS 2016 Spring.jpg|LCS 2016 Spring
+Imt.png|LCS 2016 Summer
+IMT 2017 Spring.png|LCS 2017 Spring
+</gallery>
+
+== References ==
+<references />

@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dara&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.719Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dara」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Dara
+|name=Jeon Jeong-hoon
+|nativename=전정훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=May
+|birth_date_day=25
+|favchamp=Brand
+|checkbox1=No
+|compID1=D4ra
+|checkboxComp=No
+|ids=Sup Dara, RPG Dara (JP)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/skykafe
+|twitter=LoLDara
+|deeplol=https://www.deeplol.gg/pro/Dara
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''D4ra'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Voted to the LJL Team for [[International Wildcard All-Star Melbourne 2015]] and [[International Wildcard All-Star Barcelona 2016]].
+* His residency card issues with [[Rampage]] led to his sudden retirement in May 2018.
+* Received the title of "Honorary Advisor" from [[Burning Core]] upon his retirement.<ref>[http://burning-core.com/news/981 Dara選手、引退。 (Japanese)] ''burning-core.com''</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

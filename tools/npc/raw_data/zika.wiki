@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zika&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.591Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zika」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Zika
+|name=Tang Hua-Yu
+|nativename=唐华钰
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2003
+|birth_date_month=July
+|birth_date_day=07
+|favchamp=Camille
+|favchamp2=Jax
+|favchamp3=Renekton
+|favchamp4=Rumble
+|checkbox1=No
+|compID1=zaza
+|checkboxComp=No
+|ids='''KR:''' zcxsdasdas <br> '''EUW:''' zcxsdasdas
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://weibo.com/n/Zika707
+|lolpros=https://lolpros.gg/player/zika
+|deeplol=https://www.deeplol.gg/pro/Zika
+|dpmlol=https://dpm.lol/pro/Zika
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''zaza''' and '''Danile'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+
+=== Individual Awards === 
+* LPL 2nd All Pro Team x1 (Summer 2024)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

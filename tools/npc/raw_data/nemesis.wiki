@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nemesis&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.042Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nemesis」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Nemesis
+|name=Tim Lipovšek
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Slovenia
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=26
+|favchamp=Azir
+|favchamp2=Kassadin
+|favchamp3=Kayle
+|favchamp4=Twisted Fate
+|checkbox1=Yes
+|favchamp5=Aurelion Sol
+|favchamp6=Tryndamere
+|checkboxComp=No
+|ids='''KR''': small champ pool<br>Gengarnold<br>Life Like Chovy<br>Leminem<br>Arnold Hur<br>'''EUW:''' DzuUwU<br>the inescapable<br>clearlove fanboi<br>tehgeokiller
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lol_nemesis
+|twitter=nemesis_lol
+|instagram=lol_nemesis
+|youtube=https://youtube.com/nemesis_lol
+|discord=https://discord.com/invite/lolnemesis
+|tiktok=lolnemesis
+|lolpros=https://lolpros.gg/player/nemesis/
+|deeplol=https://www.deeplol.gg/pro/Nemesis
+|dpmlol=https://dpm.lol/pro/Nemesis
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+==Biography==
+
+== Trivia ==
+* Is the younger brother of [[Hyper (Gaj Lipovšek)|Hyper]].
+* Often shows off his exaggerated love for his OnePlus phone due to the brand sponsoring [[FNATIC]].
+* Is known for showing very little emotions.
+* Good friends with [[LS]], they often do content together such as co-streams or coaching.
+** In early 2021 Nemesis went to Korea to do content with him.
+* Won both [[European Masters/2018 Season/Summer/Main Event|European Masters in 2018]] (with [[MAD Lions E.C.]]) and then 7 years later [[EMEA Masters/2025 Season/Winter|EMEA Masters in 2025]] (with [[Los Ratones]]) together with [[Crownie]].
+=== Individual Awards ===
+* LEC 2nd All-Pro Team (Spring 2020)
+* LEC 3rd All-Pro Team (Summer 2019)
+* EMEA Masters Finals MVP (Spring 2025)
+* 2x NLC 1st All-Pro Team (Spring 2025, Summer 2025)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

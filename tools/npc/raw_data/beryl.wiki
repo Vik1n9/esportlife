@@ -1,0 +1,91 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=BeryL&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.138Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「BeryL」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=BeryL
+|name=Cho Geon-hee
+|nativename=조건희
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=April
+|birth_date_day=01
+|favchamp=Ashe
+|favchamp2=Leona
+|favchamp3=Alistar
+|favchamp4=Pantheon
+|checkbox1=Yes
+|favchamp5=Tahm Kench
+|favchamp6=Heimerdinger
+|checkboxComp=No
+|ids='''KR:''' DWG BeryL<br>'''CN:''' Landsol<br>'''EUW:''' PekoPek0<br>QJNVJuywetsf
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/dab6c354212f9c54b1ed805d7d832ae6
+|lolpros=https://lolpros.gg/player/beryl/
+|deeplol=https://www.deeplol.gg/pro/BeryL
+|dpmlol=https://dpm.lol/pro/BeryL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+* Known for his {{ci|Pyke}} due to a famous [https://www.youtube.com/watch?v=Q3UiIqHJxoI Dong Huap video] detailing the pick.
+* After winning Worlds in 2020, spent around $7000 on the game ''[[wikipedia:en:Genshin Impact|Genshin Impact]]''.<ref>[https://www.oneesports.gg/lol/damwons-beryl-blew-nearly-us7k-on-genshin-impact-loot-boxes-after-winning-worlds/] ''oneesports.gg''</ref>
+* Asked Riot to design his Worlds 2020 Leona skin after his "wife", Saren Sasaki from ''[[wikipedia:en:Princess Connect! Re:Dive|Princess Connect! Re:Dive]]''.<ref>[https://twitter.com/AshleyKang/status/1326873279030652928 Ashley Kang's Tweet] ''twitter.com''</ref>
+* Often watches [[G2 Esports]] and takes inspiration from them.
+
+=== Statistics ===
+* The fourth player to have 3 consecutive appearances in Worlds Final, after [[Faker]], [[Bang]], and [[Wolf (Lee Jae-wan)|Wolf]].
+* The second player after [[Duke (Lee Ho-seong)|Duke]] to win two Worlds titles in different teams, and the first and only one to do so without playing for [[SK Telecom T1]].
+* Known for knocking out [[Keria]] in Worlds in 3 consecutive years (2020-2022), in 3 different stages of brackets (quarterfinal, semifinal, final, respectively).
+* The first player to lift both versions of Summoner's Cup.
+* Reached 3000 assists in the LCK on June 29, 2023.
+** Was the 12th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], [[Peanut]], [[Lehends]], [[Bdd]], [[Keria]], and [[Life]].
+* Reached 4000 assists in the LCK on August 14, 2024.
+** Was the 8th player to reach 4000 assists in the LCK after GorillA, Faker, Lehends, Peanut, Keria, Deft, and Bdd
+* Reached 5000 assists in the LCK on September 17, 2025
+** Was the 5th player to reach 5000 assists in the LCK after [[Faker]], [[Lehends]], [[Peanut]], and Keria.
+* Reached 500 games in the LCK on July 21, 2024, becoming the 17th player to do so.
+* Reached 600 games in the LCK on August 30, 2025, becoming the 16th player to do so.
+* Reached 300 wins in [[LCK]] on April 09, 2025, becoming the 18th player to do so.
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* LCK 1st All-Pro Team x1 (Summer 2020)
+* LCK 2nd All-Pro Team x2 (Spring 2021, Spring 2022)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

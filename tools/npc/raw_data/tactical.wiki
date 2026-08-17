@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tactical&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.343Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tactical」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Tactical
+|name=Edward Ra
+|nativename=나문용
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=2000
+|birth_date_month=August
+|birth_date_day=18
+|favchamp=Jhin
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Tactical0#NA1<br>'''EUW:''' UnstoppableForce<br>'''CN:''' avatar1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tactical
+|twitter=Tactical
+|instagram=loltactical
+|discord=https://discord.gg/A84XneZ
+|deeplol=https://www.deeplol.gg/pro/Tactical
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+Tactical started playing ''League of Legends'' in Season 3 and first reached challenger in 2017. He began his competitive career by competing for various amateur organizations between 2016 and 2017. In 2018, Tactical joined [[Super Nova]] and helped lead it to several 1st- and 2nd-place finishes in amateur tournaments. He also performed well in solo queue and received an invitation to the [[2018 NA Scouting Grounds]], where he was drafted onto [[Team Infernal Drake (NASG Team)|Team Infernal Drake]]. His team placed 2nd at the tournament and Tactical was awarded a trophy for being one of the Top 5 Prospects.
+
+At the beginning of the 2019 season, Tactical joined [[TSM Academy]]. Although the team had not performed well in the 2018 season, with Tactical and new support [[Treatz]] the team finished 2nd in the [[NA Academy 2019 Spring|regular season]] and 1st in [[NA Academy 2019 Spring Playoffs|playoffs]]. In [[NA Academy 2019 Summer|Summer]], Tactical split play time with trainee bot laner [[Johnsun]], who replaced Tactical in four regular season games. The team struggled to replicate its Spring success and finished the regular season in 4th place. In [[NA Academy 2019 Summer Playoffs|playoffs]], the team underwent more roster changes as top laner [[Brandini]] was benched for disciplinary reasons and [[Grig]] swapped roles to replace him. The team was eliminated in the semifinals.
+
+===2020 Season===
+Tactical moved to [[Team Liquid Academy]] at the beginning of the 2020 season. However, the main team's jungler problems again caused instability in the academy roster, as [[Team Liquid]] jungler [[Broxah]] could not play for the first three weeks of the season due to visa issues and academy jungler [[Shernfire]] was moved to the main roster to replace him. The academy roster played with last-minute substitution [[MikeYeung]] and started with a 5-game losing streak. Once Shernfire returned to the team in the fourth week, the team went on to win six of their next seven games. In Week 6, the main roster's bot laner [[Doublelift]] was unable to play due to sickness and Tactical was moved to the main roster to replace him.
+
+In his [[LCS 2020 Spring|LCS]] debut, Tactical won both of his games and even put up an exceptional performance against [[100 Thieves]] where he went 5/0/1, gained 72 more CS than his lane opponent [[Cody Sun]], and won player of the game. After the impressive debut, and due to Doublelift's previous poor performance and motivation issues, Tactical was permanently moved to the main roster to split time with Doublelift on a week-by-week basis. TL dominated the summer split, posting a 15-3 record, and Tactical was voted the Rookie of the Year. In playoffs, Tactical singlehandedly turned around a game against [[FlyQuest]] when he achieved a 3v5 quadrakill on [[Kalista]],<ref>[https://www.youtube.com/watch?v=ksBqYkz1pwQ Tactical Kalista Saves TL from the elimination] ''youtube.com''</ref> but TL lost the series and was eliminated by [[TSM]] to finish 3rd. At [[Worlds 2020]], TL topped their Play-In group to qualify for the main event, where they were seeded into Group A alongside [[Suning]] and [[G2 Esports]]. The team finished 3-3 and was eliminated in groups.
+
+===2021 Season===
+Tactical remained on TL for the 2021 season. Although on a star-studded roster that included [[Alphari]] and [[Santorin]], disciplinary and health issues led to roster instability over the course of the year. This instability translated into underwhelming domestic results relative to expectations, with consecutive 2nd place finishes in the playoffs of both splits. Near the end of the season, Tactical's support [[CoreJJ]] would roam frequently to assist Alphari; Tactical had the lowest support proximity of any bot laner in the LCS. He thrived in this situation on unorthodox picks such as [[Ziggs]], which allowed him to farm safely while isolated. At [[Worlds 2021]], TL again went 3-3 and was eliminated in groups.
+
+===2022 Season===
+Despite some impressive individual statistics, Tactical was replaced on TL by [[Hans sama]] and went to [[TSM]] for the 2022 season. TSM was wracked by roster instability and internal problems, with coach [[Peter Zhang]] being involved in a major financial scandal and support [[Shenyi]] badmouthing Tactical in a leaked message. The team finished 9th in spring; after a poor start to summer, Tactical was sent down to academy and replaced by [[Instinct (Tony Ng)|Instinct]]. In the summer playoffs, Tactical was surprisingly substituted back onto the main roster in the middle of a series against [[FlyQuest]]. After helping lead TSM to an upset victory over the higher-seeded team, he maintained his starting spot in the next series against [[Evil Geniuses]]. Although EG was heavily favored, the series went to five games. TSM ultimately lost, being eliminated 5-6th.
+
+===2023 Season===
+At the beginning of the 2023 season, Tactical moved to [[Immortals]].
+
+== Trivia ==
+* Has reached Rank 1 on NA.
+
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (2020 Summer)
+* LCS 3rd All-Pro Team (2021 Summer)
+* LCS Rookie of the Year (2020)
+* 2x NACL 1st All Pro Team (2025 Split 1, Split 2 2025)
+* 2X NACL 3rd Most Valuable Prospect (2025 Split 1, 2025 Split 2)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Aodi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.406Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Audi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Aodi
+|name=Zhao Ao-Di
+|nativename=赵奥迪
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=May
+|birth_date_day=28
+|favchamp=Kennen
+|checkbox1=No
+|compID1=Audi
+|compID2=Freecss
+|checkboxComp=No
+|ids='''KR:''' eren헌터<br>95180214del<br>로또당첨되면닉변
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|deeplol=https://www.deeplol.gg/pro/Aodi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Freecss''' and '''Audi'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+===2017 Season===
+'''Aodi''' started as a player on the [[EDward Gaming]] training squad [[EDG.Revengers]], which qualified for the LSPL and renamed to [[Team Hurricane]]. Instead of playing in the LSPL, Aodi was added to the EDG starting roster to split playtime with [[Mouse]]. He also changed his name to '''Audi'''. During the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]], Audi played only a handful of games, and most of them were losses, including two losses at [[Rift Rivals 2017/LCK-LPL-LMS|Rift Rivals]] to LMS teams. By the time the split was halfway over, Audi was barely seeing any playtime, and did not compete during playoffs or [[2017_Season_World_Championship/Main_Event|2017 Worlds]]. At the end of the season, he left the team, changed his name to '''Freecss''', and joined [[Bilibili Gaming]], the new organization of [[I May]].
+
+== Trivia ==
+* His former ID '''Freecss''' is named after the character Gon Freecss from the manga [[wikipedia:en:Hunter_%C3%97_Hunter|''Hunter x Hunter'']].
+* His ID '''Aodi''' was his given name (Ao-Di). He once changed this ID to '''Audi''' due to its similarity to the [[wikipedia:en:Audi|German automobile manufacturer]].
+* After his poor performance in [[Rift Rivals 2017]], fans went to the official weibo of Audi (the German automobile manufacturer) and left comments that flamed the player.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

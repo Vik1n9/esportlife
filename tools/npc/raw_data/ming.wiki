@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ming%20(Shi%20Sen-Ming)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.765Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Ming
+|name=Shi Sen-Ming
+|nativename=史森明
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=22
+|favchamp=Thresh
+|favchamp2=Bard
+|favchamp3=Gragas
+|favchamp4=Leona
+|checkbox1=Yes
+|favchamp5=Sett
+|checkboxComp=No
+|ids='''CN:''' karsacool<br>'''KR:''' freeze5<br>조용하고착한도구<br>yjzbaba<br>'''EUW:''' niudefuwuqi<br>2021Worlds0173
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/991222
+|weibo=https://weibo.com/n/ssenming
+|lolpros=https://lolpros.gg/player/ming/
+|deeplol=https://www.deeplol.gg/pro/Ming-Shi_Sen-Ming
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|nicknames=明神
+}}
+==Biography==
+
+===2016 Season===
+Ming joined [[Young Miracles]] in January of 2016 and hoped to qualify for the LPL. In the [[LSPL/2016_Season/Spring_Season|2016 LSPL Spring Season]], Young Miracles was one of the more consistent teams and finished 2nd in the regular season. However in the [[LSPL/2016_Season/Spring_Playoffs|2016 LSPL Spring Playoffs]], the team was unable to qualify for the LPL and finished 2nd behind [[EDward Esports]]. After they decided to make a second attempt at qualifying, Young Miracles faced a similar fate and finished 2nd in the regular season of the summer split. Despite having another close 5 game series with [[Newbee Young]], the team failed to qualify, lost 2-3 and finished in 2nd place once again. Ming would then go on to join [[Royal Never Give Up]] as their new support player after [[Mata]]'s departure.
+
+===2017 Season===
+[[Uzi (Jian Zi-Hao)|Uzi]] mentored Ming in the young player's first few splits. The team finished 1st place in Group A of the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] with a 12-4 regular season record. In the [[LPL/2017_Season/Spring_Playoffs|playoffs]] although they made it to the finals, they lost 0-3 in dominating fashion to Team WE. The [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] was very similar as RNG finished again in 1st place with the same 12-4 regular season record, only this time in Group B. The [[LPL/2017_Season/Summer_Playoffs|playoffs]] went similarly to the spring playoffs for the team. They made it all the way to the finals again but lost 2-3 to EDward Gaming in a reverse sweep this time. 
+
+At the [[2017 Season World Championship]] RNG was placed into Group C along with eventual tournament winners [[Samsung Galaxy]], as well as [[G2 Esports]] and [[1907 Fenerbahçe Esports]]. The team performed incredibly well in their group and went 5-1. They only dropped one game to G2 Esports. In the Quarterfinals their opponent was Fnatic and they defeated them 3-1 in convincing fashion. RNG's Worlds run ended in the Semifinals after a 2-3 loss to SK Telecom T1 in a very close series.
+
+== Trivia ==
+* His ID '''Ming''' is based on his real given name (Sen-Ming).
+* Is a fan of ''[[wikipedia:en:Im_Yoon-ah|SNSD Yoona]]''
+=== Statistics ===
+* Reached 3000 assists in the LPL on April 23rd, 2020.
+** Was the 7th player to reach 3000 assists in the LPL after [[Clearlove]], [[Pyl (Chen Bo)|Pyl]], [[meiko]], [[xiaohu]], [[Rookie]], and [[COLD]].
+* Reached 4000 assists in the LPL on June 30, 2021.
+** The 3rd player to reach 4000 assists in the LPL, after [[meiko]] and [[Pyl (Chen Bo)|Pyl]].
+* Reached 5000 assists in the LPL on July 20, 2022.
+** The 2nd player to reach 5000 assists in the [[LPL]] after [[meiko]].
+* Reached 300 wins in the LPL on January 14th, 2022.
+** Was the 9th player to reach 300 wins in the LPL after [[Clearlove]], [[meiko]], [[Uzi (Jian Zi-Hao)|Uzi]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], and [[Flandre]].
+* Reached 500 games in the LPL on February 20, 2022
+** The 11th player to reach 500 games in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[meiko]], [[Rookie]], [[xiaohu]], [[Xiye]], [[Flandre]], [[Smlz]], [[Doinb]], [[Scout]], and [[cold]].
+* Reached 600 games in the LPL on March 6, 2023
+** The 7th player to reach 600 games in the LPL after [[Rookie]], [[meiko]], [[xiaohu]], [[Flandre]], [[Doinb]], and [[Scout]].
+* Reached 1000 international assists during [[2022 Mid-Season Invitational|MSI 2022]] on May 27, 2022 in Semifinals against [[EG.NA|Evil Geniuses]], becoming the 1st player to achieve this milestone.
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* LPL All-Pro 1st Team x7 (Summer 2018, Spring 2019, Summer 2019, Spring 2021, Summer 2021, Spring 2022, Summer 2022)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

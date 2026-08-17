@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PENTAGRAM&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.798Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「PENTAGRAM」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isdisbanded=true
+|name= PENTAGRAM
+|orgcountry= Japan
+|country=
+|region= JP
+|sponsor= [http://www.g-tune.jp/ G-Tune]<br>[http://www.tekwind.co.jp/products/AKR/category.php AKRacing]<br>[http://www.bagmania.jp/ THE BAGMANIA]<br>[http://www.yamani.co.jp/ YAMANI]<br>[https://www.fujizakurameisui.jp/ ふじざくら命水]<br>[http://batterydrink.jp/ BATTERY]
+<!-- Staff -->
+|headcoach= Nobushiro "'''hAFu'''" Kodama
+|owner= Hiroki "'''MizuRussian'''" Nakamura
+<!-- Social Media -->
+|website= https://pentagram.tokyo/
+|youtube= 
+|facebook= 
+|twitter= PGM_tokyo
+|discord= 
+|snapchat= 
+<!-- History -->
+|created= 2018-01-10
+|disbanded= 2018-11-29
+|rosterphoto=PENTAGRAM Roster 2018 Spring.png
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''PENTAGRAM''' is a Japanese team.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||jp|Kayoko Hayashi (林 佳代子)|'''Owner'''|newteam=none}}
+{{listplayer|Aotaka|jp|Takuya Fujita (藤田 拓也)|'''Manager'''|newteam=none}}
+{{listplayersp|hAFu|jp|Nobushiro Kodama (児玉 信城)|'''Head Coach'''|newteam=none}}
+{{listplayersp|JapaneseKoreanUG|jp||'''Streamer'''|newteam=none}}
+{{listplayersp|ZouSenpai|jp||'''Streamer'''|newteam=none}}
+{{listplayersp|Jackpot Teemo|jp||'''Streamer'''|newteam=none}}
+{{listplayersp|Kabeo|jp||'''Streamer'''|newteam=none}}
+{{listplayersp|MizuRussian|jp|Hiroki Nakamura (中村 洋樹)|'''General Manager'''|newteam=none}}
+{{listplayer|34|kr|Kim Dong-hun (김동훈)|'''Coach'''|newteam=Burning Core}}
+{{listplayersp|Ninja of Ninjas|jp||'''Streamer'''|newteam=none}}
+{{listplayersp|SonicLogic|jp||'''Streamer'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

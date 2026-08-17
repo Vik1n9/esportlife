@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pabu&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.798Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Pabu」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Pabu
+|name=Jackson Pavone
+|pronoun=He
+|image=Pabu-2021.webp
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=PCS
+|birth_date_year=1999
+|birth_date_month=December
+|birth_date_day=12
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' BIG Pabu
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Pabu22
+|twitter=Pabu22
+|instagram=jackson.pavone
+|lolpros=https://lolpros.gg/player/pabu
+|deeplol=https://www.deeplol.gg/pro/Pabu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Top
+}}
+==Biography==
+
+== Trivia ==
+* Began playing ''League of Legends'' during late Season 2.
+* Favorite games are ''Super Smash Bros'' and ''Titanfall''.
+* Defeated multiple high-profile opponents in the [[All-Star Las Vegas 2018]] 1v1 tournament:
+** [[Doublelift]] as {{ci|Olaf}} against Doublelift's {{ci|Olaf}} in the round of 16.
+** [[Faker]] as {{ci|Darius}} against Faker's {{ci|Cassiopeia}} in the quarterfinals.
+** [[Rookie]] 2-1 in the semifinals.
+** He was ultimately defeated in the finals 2-1 by [[Caps]].
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

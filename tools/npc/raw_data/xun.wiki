@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Xun&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.922Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Xun」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Xun
+|name=Peng Li-Xun
+|nativename=彭立勋
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2002
+|birth_date_month=February
+|birth_date_day=05
+|favchamp=Kindred
+|favchamp2=Nidalee
+|favchamp3=Vi
+|favchamp4=Wukong
+|checkbox1=Yes
+|favchamp5=Jarvan IV
+|favchamp6=Lee Sin
+|checkboxComp=No
+|ids='''KR:''' Xun#OOK<br>'''BR:''' eewqoeowqeqwoo#2223
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|instagram=jdg_xun
+|weibo=https://weibo.com/n/彭立勋
+|deeplol=https://www.deeplol.gg/pro/Xun
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''XUN'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Reached 1000 kills in the LPL on February 24, 2024.
+** The 46th player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on June 05, 2025.
+** The 29th player to reach 1500 kills in the LPL.
+* Reached 2000 kills in the LPL on June 06, 2026.
+** The 21th player to reach 2000 kills in the LPL.
+* Reached 3000 assists in the LPL on July 26, 2025.
+** Was the 39th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on May 30, 2026.
+** Was the 28th player to reach 4000 assists in the LPL.
+
+===Individual Awards===
+* LPL 1st All-Pro Team x1 (Split 2 2026)
+* LPL 2nd All-Pro Team x3 (Summer 2023, Spring 2024, Split 1 2026)
+* LPL 3rd All-Pro Team x1 (Split 2 2025)
+* LPL Jungler of the Year (2024)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

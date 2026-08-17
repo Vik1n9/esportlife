@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Palafox&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.499Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Palafox」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Palafox
+|name=Cristian Palafox
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=08
+|favchamp=Orianna
+|favchamp2=Sylas
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Palafoxy <br> '''KR:''' Palafox <br> Dont stop <br> Ryusei
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/palafox
+|twitter=palafoxlol
+|deeplol=https://www.deeplol.gg/pro/Palafox
+|dpmlol=https://dpm.lol/pro/Palafox
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Palafox is from Redwood City, California. He played for [[Team Ocean Drake (NASG Team)|Team Ocean Drake]] in the [[2017 NA Scouting Grounds]], where he worked with [[OpTic Gaming]] coach [[Zaboutine]]. Despite Palafox having little competitive experience compared to many other players at the event, Zaboutine signed him to [[OpTic Gaming Academy]]. However, Palafox and the rest of OpTic Academy played from a team house in Texas with limited access to computers, which hampered practice and performance. After an unsuccessful year, Palafox moved to [[Golden Guardians Academy]]. His new team, which contained many ex-LCS players, faced issues with team cohesion; according to Palafox, "There was a lot of egos on that team."<ref>[https://upcomer.com/lcs-palafox-if-i-think-a-play-is-good-ill-go-for-it-no-matter-what The Palafox Story: ‘If I think a play is good, I’ll go for it no matter what’] ''upcomer.com''</ref>
+
+After his third straight split finishing near the bottom of the academy standings, Palafox did not look like a top prospect. The mid-season additions of [[Darshan]], [[FBI]], [[huhi]], and coach [[Inero]] turned the struggling academy team around and gave Palafox the opportunity to showcase his talents on a skilled team. After finishing 2nd in both the summer regular split and playoffs, Palafox was signed to the successful [[Cloud9 Academy]] for the 2020 season. C9 Academy was dominant that year and Palafox turned heads as a top North American prospect.
+
+=== 2021 Season ===
+For the 2021 season, Palafox was signed to [[FlyQuest]] as an LCS starter. Alongside players such as [[Licorice]], [[Josedeodo]], and [[Johnsun]], FlyQuest was projected to be a dark horse team with a shot at contesting the top organizations.<ref>[https://blogoflegends.com/2021/01/14/lcs-2021-fans-excited-flyquest/ LCS 2021: Why Fans Should Be Excited for FlyQuest] ''blogoflegends.com''</ref> However, FlyQuest struggled the entire year, finishing the season with a record of 14-31. Near the end of summer, Palafox was even dropped back down to academy and replaced by [[Triple]], although he did return to the main roster for its final three games.
+
+=== 2022 Season ===
+Palafox received another chance as an LCS starter, this time for [[CLG]]. CLG's roster consisted of many North American players who had once been considered top prospects but who had struggled recently, such as [[Contractz]], [[Poome]], and Palafox himself. In spring, the team finished 8th, close to expectations. However, with the addition of [[Dhokla]], the summer split ended with a 4th place regular season finish and a record of 11-7. Palafox in particular stood out as an impressive performer. Although the team was eliminated in playoffs by [[Team Liquid]] in a close 3-2 series, the improvement CLG and its players showed over the course of the year left many optimistic about the team's future prospects.
+
+== Trivia ==
+* Although he was born in California, he spent the first few years of his life in Mexico.
+* Reached Rank 1 on the North American server in 2020.
+* His favorite pro player is [[Rookie]].
+* Is from the same city as [[Contractz]]; they went to rival high schools.
+* Nicknamed "Palafaker" by fans when playing well.
+* Is part of the copypasta "I have met him in a scrimmage, and my opponent, midfielder Palafox, is powerful and seems like a genius," which originates from a poorly translated quote by [[Xiaohu]].
+* Began his pro career favoring control mages, but later branched out to become proficient on melee assassins like {{ci|Akali}}.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,127 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LNG%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.760Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LNG Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= LNG Esports
+|orgcountry=China
+|country= 
+|region= CN
+|sponsor= 
+<!-- Staff -->
+|headcoach= 
+|owner= Li Qi-Lin
+<!-- Social Media -->
+|website= 
+|youtube= https://www.youtube.com/@LNG_Esports
+|facebook= 
+|twitter= LNG_Esports
+|weibo= http://www.weibo.com/SnakeClub
+|discord= 
+|snapchat= 
+|instagram= lngesports
+|rosterphoto=LNG Esports 2025 Split 2 Roster 3.png
+<!-- History -->
+|created= 2019-05-21
+|disbanded=
+}}{{TOCRWI}}
+
+'''LNG Esports''' is a Chinese team.
+
+== History ==
+In May 2019, [[Snake Esports]] rebranded to '''LNG Esports''', LNG standing for '''Li-Ning Gaming'''. Li-Ning is a Chinese athletic apparel company.<ref>[https://en.wikipedia.org/wiki/Li-Ning Li-Ning on Wikipedia]</ref> LNG inherited both the [[LPL/2019 Season/Summer Season|LPL 2019 Summer]] seed and roster that belonged to Snake.
+
+== Trivia ==
+* '''LNG''' stands for '''Li-Ning Gaming'''.
+* The team is owned by Li Qi-Lin (李麒麟), nephew of Olympic gold medalist [[wikipedia:en:Li Ning|Li Ning]] (李宁).
+* The mascot in the team's logo is a [[wikipedia:qilin|Qi-Lin]] (麒麟), a mysterious beast in Chinese mythology, which may also be a reference to the team owner's name.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||cn|Li Qi-Lin (李麒麟)|'''Owner'''}}
+{{listplayersp||cn|Shuang Quan (爽全)|'''Founder & Chief Executive Officer'''}}
+{{listplayersp|kaka|cn|Lin Tao (林涛)|'''Leader'''}}
+{{listplayersp|Jasper|cn|Wan Lei (万磊)|'''Manager'''}}
+{{listplayersp|333|cn|Huang Yi-Hong (黄一弘)|'''Analyst'''}}
+{{listplayersp|Jelly|cn|Liu Rui-Tan (刘瑞坦)|'''Rehabilitation Teacher'''}}
+{{listplayer|LvMao|cn|Zuo Ming-Hao (左名豪)|'''Head Coach'''}}
+{{listplayer|Xiasu|cn|Chen Long (陈龙)|'''Coach'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|newteam=yes}}
+{{listplayersp|Lucius|cn|Zhao Zheng-Yu (赵正禹)|'''Translator'''|newteam=EDG}}
+{{listplayer|Viod (Lu Fan)|cn|Lu Fan (陆凡)|'''Coach'''|newteam=none}}
+{{listplayer|Edgar|kr|Choi Woo-beom (최우범)|'''Head Coach'''|newteam=none}}
+{{listplayersp|ahuo|cn|Hua Jun-Yang (华俊阳)|'''Manager'''|newteam=none}}
+{{listplayer|Maizijian|cn|Zeng Xin-Yi (曾信益)|'''Head Coach'''|newteam=Ninjas in Pyjamas.CN}}
+{{listplayer|U|cn|Zeng Long (曾龙)|'''Coach'''|newteam=none}}
+{{listplayer|xiaopeng|cn|Wang Peng (王鹏)|'''Coach'''|newteam=none}}
+{{listplayer|DynAmIte|cn|Mao Ze-Tong (毛泽通)|'''Coach'''|newteam=none}}
+{{listplayersp|Stan|cn|Wang Miao (王淼)|'''Manager'''|newteam=none}}
+{{listplayersp||cn|Zuo Wu-Jun (左雾君)|'''Manager'''|newteam=none}}
+{{listplayersp||cn|Liu Jie-Jie (刘洁洁)|'''Psychologist'''|newteam=none}}
+{{listplayer|doG8|tw|Tsai Hsueh-Yu (蔡学裕)|'''Analyst'''|newteam=none}}
+{{listplayer|Crescent (Luo Sheng)|cn|Luo Sheng (罗盛)|'''Head Coach'''|newteam=none}}
+{{listplayer|Wly|cn|Wang Liang-Yi (王良毅)|'''Supervisor'''|newteam=tes}}
+{{listplayer|Poppy (Chang Po-Hao)|tw|Chang Po-Hao (張博皓)|'''Coach'''|newteam=EDG}}
+{{listplayer|Yuzhang|cn|Fan Chen-Hui (樊晨辉)|'''Analyst'''|newteam=lng academy}}
+{{listplayer|Rather|kr|Shin Hyeong-seop (신형섭)|'''Coach'''|newteam=T1 Esports Academy}}
+{{listplayer|Hammer (Zhang Ji)|cn|Zhang Ji (张佶)|'''Analyst'''|newteam=anyone's legend}}
+{{listplayer|Wuyan (Zhang Yan-Wu)|cn|Zhang Yan-Wu (张言武)|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Martin (Tan Qi)|cn|Tan Qi (谭琦)|'''Coach'''|newteam=ROYAL}}
+{{listplayer|Nelson|sg|Sng Yi-Wei (孙翊维)|'''Assistant Coach'''|newteam=G2}}
+{{listplayer|Steak|tw|Chou Lu-Hsi (周律希)|'''Head Coach'''|newteam=FPX}}
+{{listplayer|KenZhu|cn|Zhu Kai (朱开)|'''Head Coach'''|newteam=EDG}}
+{{listplayersp||cn|Liao Jia-Ming (廖嘉铭)|'''Analyst'''|newteam=none}}
+{{listplayer|Cyo|tw|Lin Hsin-Yu (林昕宥)|'''Head Coach'''|newteam=none}}
+{{listplayer|GuYueXin|cn|Hu Xin (胡鑫)|'''Positional Coach'''|newteam=none}}
+{{listplayer|KenZhu|cn|Zhu Kai (朱开)|'''Head Coach'''|newteam=lng|comment=Head Coach}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+== Images ==
+=== Logo ===
+<gallery>
+LNG Esports Old Logo.png|1st Logo (- May 2024)
+</gallery>
+
+=== Roster ===
+<gallery>2019 SS Spring.jpg|LNG's 2019 LPL Spring Roster
+LNG 2020.jpg|LNG's 2020 LPL Spring Roster
+LNG 2020 Summer.jpeg|LNG's 2020 LPL Summer Roster
+LNG 2021 Spring.jpg|LNG's 2021 LPL Spring Roster
+LNG 2021 Summer.jpeg|LNG's 2021 LPL Summer Roster
+LNG 2022 Spring.jpg|LNG's 2022 LPL Spring Roster
+LNG 2023 Spring.jpg|LNG's 2023 LPL Spring Roster
+LNG_2025_Split_1.jpg|LNG's 2025 LPL Split 1 Roster
+LNG Esports 2025 Split 2.png|LNG's 2025 Split 2
+LNG Esports 2025 Split 2 Roster 2.png|LNG's 2025 Split 2 with [[5t5]] & [[LP]]
+LNG Esports 2025 Split 2 Roster 3.png|LNG's 2025 Split 2 with [[xiaofang]]
+</gallery>
+
+== Videos ==
+
+== Highlight Videos ==
+
+==External Links==
+
+==References==
+<references />

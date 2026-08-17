@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shogun%20(Nguy%E1%BB%85n%20V%C4%83n%20Huy)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.766Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shogun (Vietnamese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Shogun
+|name=Nguyễn Văn Huy
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=2004
+|birth_date_month=March
+|birth_date_day=31
+|favchamp=Draven
+|favchamp2=Vayne
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' zxcasdqwe
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/shogun3103
+|instagram=shoogun02
+|youtube=https://www.youtube.com/@vkeshogun
+|lolpros=https://lolpros.gg/player/shogun-1
+|deeplol=https://www.deeplol.gg/pro/Shogun-Nguyễn_Văn_Huy
+|dpmlol=https://dpm.lol/pro/Shogun
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

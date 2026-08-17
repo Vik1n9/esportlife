@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Huni&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.254Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Huni」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Huni
+|name=Heo Seung-hoon
+|nativename=허승훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=December
+|birth_date_day=25
+|favchamp=Rumble
+|favchamp2=Riven
+|favchamp3=Ryze
+|favchamp4=Gangplank
+|checkbox1=Yes
+|favchamp5=Cassiopeia
+|checkboxComp=No
+|ids='''NA:''' TSM Heo<br>'''KR:''' SKT T1 Huni<br>뚱후니
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Analyst
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/huni
+|facebook=https://www.facebook.com/Huni46
+|twitter=Huni
+|instagram=hunilol
+|youtube=https://www.youtube.com/c/Hunilolpro
+|lolpros=https://lolpros.gg/player/huni/
+|deeplol=https://www.deeplol.gg/pro/Huni
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Korea
+|checkboxPrev=No
+}}
+==Biography==
+Heo "'''Huni'''" Seung-hoon started his League of Legends career as a part of the [[Samsung]] organization as a practice partner for the team, though he was never officially a substitute for the team. 
+
+===2015 Season===
+The first team Huni officially joined was [[Fnatic]] in January 2015. Huni and the team's new roster had a successful [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]], finishing 2nd in the regular season with a 13-5 record, partly thanks to Huni's impressive performances on {{ci|Lissandra}} and {{ci|Rumble}} among other champions. This secured them a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]]. Fnatic beat [[H2k-Gaming]] in their semifinal matchup, and went on to secure 1st place after taking a 3-2 win over [[Unicorns Of Love]] in the playoff final. This meant that Huni and the team would pick up 90 [[2015 Season/Championship Points|Championship Points]] towards qualification for the [[2015 Season World Championship]].
+
+This also meant that [[Fnatic]] would represent Europe at the [[2015 Mid-Season Invitational]]. Huni and the team had a relatively successful tournament, which they opened with a decisive win over [[Team SoloMid]]. The team also had a notably close group stage game with [[SK Telecom T1]], but went on to lose the game. [[Fnatic]] finished the group stage in 4th place, meaning they would advance to the bracket stage. They faced [[SK Telecom T1]] in the semifinals, this time playing out a close series, but ultimately losing 3-2.
+
+Now with [[Rekkles]] on the roster instead of [[Steeelback]], Huni and the team went into the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Season]] with confidence running high after their performance on the international stage. [[Fnatic]] finished the regular season with a perfect, unbeaten 18-0 record - and became the first team to achieve this in [[League Championship Series]] history. This meant a 1st place regular season finish for the team and a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]]. [[Fnatic]] went on to win the playoffs, beating [[Origen]] 3-2 in a tight final. This qualified the team for the [[2015 World Championship]], where they would compete as Europe's #1 seed.
+
+At the [[2015 World Championship]], [[Fnatic]] were seeded into Group B along with [[ahq e-Sports Club]], [[Invictus Gaming]], and [[Cloud9]]. They picked up 4 wins in the group, going unbeaten in the 2nd week of group stage games, meaning they would advance to the knockout stage of the tournament. In the quarterfinals, [[Fnatic]] beat [[EDward Gaming]] 3-0 before suffering a 3-0 loss to [[KOO Tigers]] in the semifinals, putting an end to their campaign.
+
+===2016 Season===
+Huni and [[Reignover]] left Fnatic in November to join [[Immortals]] in December 2015 together. With a lineup including the two ex-Fnatic players, [[Pobelter]], [[WildTurtle]], and [[Adrian (Adrian Ma)|Adrian]], Immortals were expected to be one of the top teams in the [[League Championship Series/North America/2016 Season/Spring Season|LCS]] based on their roster, and for the first six weeks of the split they lived up to - and even surpassed - those expectations. Huni and Reignover together extended their regular-season LCS winstreak from 18 games in Europe to 32 games overall as the team didn't drop a single game prior to week 7. However, in week 7 that streak was snapped as the team lost one game to reigning champions [[Counter Logic Gaming]] in week 7. They won the rest of their regular season games, but as the season progressed further they looked weaker and weaker as a team, and even seemed to falter against the last-place [[Team Dignitas]], needing to come back against them to pull out a win.
+
+With a top seed clinched into the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]], Immortals were guaranteed to face the lowest-seed team that won in the quarterfinals. That team ended up being [[Team Solomid]], who were on a strong upswing after a sixth-place regular season finish. Despite their seeding advantage, Immortals lost 3-0 to TSM, with both their play and also their drafts called into question. Huni's champion pool limitations were highlighted as he picked [[Lucian]] top in game 1, followed by [[Graves]] and [[Gangplank]], ignoring the meta-favored tanks of [[Ekko]] and [[Maokai]] on patch [[v6.6|6.6]]. They came back the next week to beat [[Team Liquid]] and finish in third place overall, with Huni playing the much more conventional [[Gragas]] and [[Poppy]].
+
+Expectations for Immortals going into the [[League Championship Series/North America/2016 Season/Summer Season|Summer Season]] were again high, after they were one of only three NA teams not to change any players in the [[2016 Midseason Roster Swaps/North America/Current Rosters|mid-season break]], and while they nearly repeated their spring split record - this time dropping only two series in the new best of 3 format as opposed to 1 best of 1 - they were indisputably the second-best team in the league. TSM with new rookie star support [[Biofrost]] went 17-1 in series, and they bested Immortals in both of their head-to-head series. Immortals still had a [[League Championship Series/North America/2016 Season/Summer Playoffs|playoff]] bye, and so they were able to avoid TSM in the semis, instead facing the third-place [[Cloud9]]. In a back-and-forth five-game series, Immortals were upset and faced CLG in the third-place match, which they came back from a disastrous game 1 to win 3-2. Unfortunately, despite their combined 33-3 regular season record, Immortals only had 120 [[2016 Season/Championship Points|Championship Points]] compared to CLG's 130, and so it was CLG who won the automatic second-place [[2016 Season World Championship]] seed from North America. And even though Immortals had the top seed in the [[2016 Season North America Regional Finals|Regional Finals]], they were upset once again by Cloud9, and their season ended short of Worlds. Huni left Immortals in December and joined [[SK Telecom T1]].
+
+===2017 Season===
+
+SKT's [[LCK/2017_Season/Spring_Season|Spring Season]] was very dominant as the team finished 1st with a 16-2 record. In the [[LCK/2017_Season/Spring_Playoffs|playoffs]] they defeated [[KT Rolster]] 3-0 in the finals to capture yet another LCK title and qualify for the [[2017 Mid-Season Invitational]]. At MSI the team was once again very dominant, going 8-2 in the group stage. In the knockout phase they defeated [[Flash Wolves]] 3-0 in the semifinals and [[G2 Esports]] 3-1 in the finals to capture their second MSI title in a row. The [[LCK/2017_Season/Summer_Season|Summer Season]] was the beginning of a huge slump for SKT. They finished 4th in the regular season and just did not look as dominant as they previously did. Huni was struggling to perform well and he taken out as the primary top laner for a lot of the split. In the [[LCK/2017_Season/Summer_Playoffs|playoffs]] SKT lost 1-3 to [[Longzhu Gaming]] in the finals, however Huni only got to play in two of the games. Despite this, SKT qualifed for the [[2017 Season World Championship]] as South Korea's 2nd seed. Huni was chosen as SKT's main top laner for the event.
+
+At Worlds they were placed in Group A along with [[Cloud9]], [[EDward Gaming]], and [[ahq e-Sports Club]]. Despite looking vulnerable in a lot of matches, SKT finished 1st in the group. In the Quarterfinals they were matched up against Misfits. Although they were expected to win easily, the series went to 5 game with SKT barely winning 3-2. In the Semifinals it was a similar story as they faced off against [[Royal Never Give Up]] and won 3-2 in yet another nail biting series. In the finals SKT was dethroned after an 0-3 loss to [[Samsung Galaxy]], marking the first time SKT lost a Best of Five series at a World Championship. In November Huni left SKT and in the next month he joined [[Echo Fox]] and moved back to North America.
+
+== Trivia ==
+* Outstanding Rookie of the [[Riot League Championship Series/Europe/2015 Season/Spring Season|2015 Season EU LCS Spring Split]].<ref>[http://na.lolesports.com/articles/lcs-spring-split-awards-presented-ptl-and-lcs-finals LCS Spring Split Awards presented on PTL and LCS Finals] ''lolesports.com''</ref>
+* Along with teammate [[Reignover]], had a 32-game-long regular season win streak starting on [[Fnatic]] with the last two games of the [[Riot League Championship Series/Europe/2015 Season/Spring Season|EU LCS 2015 Spring Split]], continuing through the entirety of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|EU LCS Summer Split]], and concluding after 12 games on [[Immortals]] in the [[League Championship Series/North America/2016 Season/Spring Season|NA LCS 2016 Spring Split]] with a week 7 loss to [[Counter Logic Gaming]].
+* Known for his boisterous, self-confident personality, especially when interviewed. 
+* Known for his deep champion pool and aggressive, lane-dominant playstyle. 
+** Is willing to pick extreme carry top laners that are outside the meta, such as {{ci|Lucian}}  and {{ci|Cassiopeia}}.
+* In 2019, became the first player to attend the [[World Championship]] for three different regions: Europe, Korea, and North America. 
+* In China he is known as "胡不传" meaning "he who doesn't teleport" due to his unorthodox picks and spells such as Top Lucian with Ignite.<ref>[https://youtu.be/o7JxsPe0x3o Chinese nicknames for Western LOL pro players] ''youtube.com''</ref>
+* Known for his {{ci|Rumble}}.
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team (2016 Spring, 2018 Spring)
+* LCS 2nd All-Pro Team (2016 Summer)
+* LCS 3rd All-Pro Team (2021 Spring, 2021 Summer)
+* LEC 1st All-Pro Team (2015 Summer)
+* LEC Rookie of the Split (2015 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

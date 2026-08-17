@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=BOSS%20(Vladislav%20Fomin)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.382Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「BOSS (Russian player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=BOSS
+|name=Vladislav Fomin
+|nativename=Владислав Фомин
+|namealphabet=Cyrillic
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=July
+|birth_date_day=03
+|favchamp=Shen
+|favchamp2=Nautilus
+|favchamp3=Fiora
+|favchamp4=Camille
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' NUB0REZ, zxzxzxzcxz
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=BOSStopa1
+|vk=https://vk.com/id278172501
+|lolpros=https://lolpros.gg/player/boss
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Just A BOSS.png|BOSS Team Just Alpha 2017
+BOSS Dragon Army Spring 2018.png|DA BOSS Spring 2018
+DA BOSS 2018 Split 2.png|DA BOSS 2018 Summer
+VEG BOSS 2019 Split 1.png|VEG BOSS 2019 Spring
+UOL_BOSS_2019_Split_2.png|UOL BOSS 2019 Summer
+UOL_BOSS_2020_Split_2.png|UOL BOSS 2020 Summer
+</gallery>
+
+{{PlayerPageEnd}}

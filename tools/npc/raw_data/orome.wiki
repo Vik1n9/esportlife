@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Orome&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.797Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Orome」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Orome
+|name=Andrei Popa
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Romania
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=January
+|birth_date_day=16
+|favchamp=Fiora
+|favchamp2=Camille
+|favchamp3=Aatrox
+|favchamp4=Vladimir
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Peipinator, MAD Oromë<br>'''CN:''' Korbenn
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/oromelol
+|twitter=OromeLoL
+|lolpros=https://lolpros.gg/player/orome
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

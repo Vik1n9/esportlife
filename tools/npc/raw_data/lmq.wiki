@@ -1,0 +1,105 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LMQ&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.759Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LMQ」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isrenamed=Team Impulse
+|name= LMQ
+|orgcountry=China
+|country=United States
+|coaches= 
+|manager= 
+|captain= 
+|region=NA
+|website= http://www.teamlmq.com/
+|youtube=
+|facebook= https://www.facebook.com/LMQiBUYPOWER
+|twitter= LMQiBUYPOWER
+|subreddit=teamlmq
+|irc=
+|sponsor=
+|created= 2013-07-05
+|disbanded= 2014-12-26
+|trades=
+}}{{TOCRWI}}
+
+'''LMQ ''' was a Chinese competitive League of Legends team, previously a sister teams to [[Royal Club]]. The team moved to North America on December 15, 2013 and competed in the North American scene.<ref name="movetoNA"> [http://www.ongamers.com/articles/chinese-professional-lol-team-lmq-tian-ci-moves-to-na-with-new-title-sponsor-ibuypower/1100-395/ Chinese professional LoL team LMQ Tian Ci moves to NA with new title sponsor iBUYPOWER] ''ongamers.com''</ref> The team previously competed under the name '''LMQ iBUYPOWER''' in representation of their former sponsor iBUYPOWER.<ref name="movetoNA" /> On December 26, the team rebranded to '''[[Team Impulse]]'''.
+== History==
+LMQ was formed in July 2013 after merging portions of the rosters of Team Livemore and Royal Club Tian Ci: Dreams, F1sh, andWayoff from the former; Mor, NoName, TS, XiaoWeiXiao, and PandaB from the latter. LMQ competed in the summer split of the 2013 LPL; despite taking a game off the Season 3 runner-up Royal Club, LMQ finished with a disappointing 8-13 record in sixth place.
+
+In November 2013, after the Season 3 World Championship, F1sh and PandaB moved to LMQ's sister team, Royal Club. At that month's National Electronic Sports Tournament, LMQ went 2-1 in the tournament's group stage after downing CC Club and Team WE Academy while falling to the parent Team WE. In the bracket stage, LMQ lost 1-2 to the tournament favorite and eventual winner OMG, but rebounded in a 2-0 victory against Royal Club in the third place match.
+
+On December 15, 2013, LMQ left its parent organization Tian Ci and obtained a new sponsor in iBUYPOWER. With the assistance of its new sponsor, LMQ moved to North America to take advantage of the superior esports infrastructure. At this point, Dreams and Wayoff left the team, to be replaced by Royal Club top laner GoDlike, who renamed to ackerman.
+
+In January 2014, LMQ made their way atop the North American 5v5 Challenger tier and earned an invite to the official Riot-sponsored Challenger Series, also known as the Coke League. In their North American debut, LMQ went 8-0 and beat compLexity.Black 2-0 in the finals. By finishing first, LMQ received 9 Challenger Series Points and earned a berth in the second series. There, in March, LMQ went 4-1 on their way to a 2-0 win in the finals against Cloud 9 Tempest, thus clinching the top overall seed in the Challenger Series playoffs to be held later in the season.
+
+While competing in the second Challenger Series, LMQ was also offered an invite to the North American Challenger League (NACL) Season 2 Qualifiers, where they went undefeated and secured a spot in the league. During the league's regular season, LMQ went 18-4 without a losing record against any team. During the March playoffs, LMQ defeated Cloud 9 Tempest 2-1 in the semifinals and moved on to face Team 8 in the tournament's grand finals. LMQ won the final series 3-1 and became NACL champions.
+
+After having secured a spot in the semi-finals of the Challenger Series playoffs due to their tremendous amount of points accumulated from both Challenger Series, LMQ went on to defeatCurse Academy in a 2-0 victory sending them to the finals against the tough Cloud 9 Tempest. After an initial loss in the best of five series, LMQ came back winning two in a row to make the series 2-1. Cloud 9 Tempest however, bounced back in game four to tie up the series 2-2. After a very low-kill game game five, Cloud 9 Tempest attempt to make a pick, but instead gets nearly aced and losing the game to LMQ. LMQ left the Challenger Series playoffs with a 5-2 record and went home with the grand prize of $16,000.
+
+In April 2014, LMQ secured a spot for the 2014 NA LCS Summer Split after beating XDG Gaming 3-0 in the 2014 Season Summer Promotion Tournament.
+===2015 Preseason===
+On November 24, 2014 Alex Gu announced that LMQ's 2015 would include [[XiaoWeiXiao]] once again and that [[Popstar Adrian]] had signed with the team as their new support player.<ref>[https://twitter.com/LMQ_Alex/status/536970018034966528 Alex Gu's tweet] ''twitter.com''</ref>
+
+On December 26, LMQ announced a rebranding as [[Team Impulse]]. See the team's following history there.
+
+== Trivia ==
+* Rumor has it that "LMQ" means "Lan Mei Qi", which is the name of the mistress of LMQ's founder, entrepreneur Tian Ci.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:LMQ 2014.jpg|thumb|no-link=true|400px|right|LMQ's [[2014 Season World Championship]] Roster<br> Left to Right: NoName, ackerman, XiaoWeiXiao, Mor, Vasilii]]
+[[File:2014 LCS Summer LMQ.jpg|thumb|no-link=true|400px|right|LMQ 2014 Season LCS Summer Primary Roster<br> Left to Right: XiaoWeiXiao, NoName, Vasilii, ackerman, Mor]]
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Superrrman|cn|Xiang 'Alex' Gu|'''General Manager'''|newteam=tip}}
+{{listplayersp|[[Fly (Kim Sang-cheol)|Fly]]|kr|Kim Sang-cheol (김상철)|'''Head Coach'''|newteam=tip}}
+{{listplayersp|eNO|cn|Li Yande|'''Chief Executive Officer'''|newteam=Det FM}}
+{{listplayersp|impulsive_st|usa|Derrick Truong|'''Marketing Manager'''|newteam=none}}
+{{listplayersp|ZhuangPeng|cn|Zhuang Peng (庄鹏)|'''Manager'''|newteam=none}}
+{{listplayer|PtotheD|cn|Zhang Yi (張藝)|'''Head Coach'''|newteam=crs}}
+{{listplayersp|Sharon|cn|Xiaowei Li|'''Team Manager'''|newteam=none}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+
+==Interviews==
+{{TDRight
+|name1=2013
+|name2=2014}}
+{{TDRight|tab}}<!--2014-->
+* April 29 - [http://lol.duowan.com/1404/262722912768.html LMQ辟谣：不存在财政问题 欲引进Uzi (Chinese)] [http://www.reddit.com/r/leagueoflegends/comments/24bipv/lmq_managers_detailed_interview_in_chinese/ (English)] ''with duowan''
+* May 25 - [http://www.ongamers.com/videos/sharon-li-lmq-manager-talks-about-lmq-s-transition/2300-590/ Sharon Li, LMQ Manager, talks about LMQ's transition to the NA scene (video)] ''with onGamers''
+* May 25 - [http://www.ongamers.com/articles/interview-with-ceo-of-lmq-and-royal-i-would-like-to-bring-two-more-chinese-pros-to-lmq/1100-1526/ Interview with CEO of LMQ and Royal: "I would like to bring two more Chinese pros to LMQ"] ''with onGamers''
+{{TDRight|tab}}<!--2013-->
+* December 23 - [http://www.reddit.com/r/leagueoflegends/comments/1tjreo/we_are_team_lmq_ibuypower_ama/ We are team LMQ iBUYPOWER AMA!] ''with Reddit''
+{{TDRight/end}}
+
+==Articles==
+{{TDRight
+|name1=2014}}
+{{TDRight|tab}}<!--2014-->
+* September 12 - [http://na.lolesports.com/articles/breaking-down-group-c Breaking down Group C] - ''from [http://lolesports.com LoL Esports]''
+* September 13 - [http://cloth5.com/world-championship-preview-lmq-the-american-dream/ World Championship Preview: LMQ – The American Dream (Group C)] - ''from [http://cloth5.com Cloth5]''
+* September 23 - [http://content.azubu.tv/moba/league-of-legends/league-legends-world-championship-preview-group-c/ League of Legends World Championship Preview – Group C] - ''from [http://content.azubu.tv Azubu]''
+* October 2 - [http://cloth5.com/worlds-group-c-statistics-numbers-behind-group-death/ Worlds Group C Statistics: The Numbers Behind the Group of Death] - ''from [http://cloth5.com Cloth5]''
+{{TDRight/end}}
+
+==External Links==
+* [http://www.youtube.com/watch?v=xoRgizX0rBM LMQ House Tour]
+
+==References==
+<references />
+
+<br>

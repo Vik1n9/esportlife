@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nuclear&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.044Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nuclear」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Nuclear
+|name=Shin Jeong-hyeon
+|nativename=신정현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=May
+|birth_date_day=19
+|checkbox1=No
+|compID1=JH Joker
+|checkboxComp=No
+|ids='''KR:''' 야식은 먹지말자, DWG Nuclear, 굿 팀<br>'''EUW:''' Whats up EU<br>'''CN:''' sanghi
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Broadcast Talent
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/beatrice220
+|facebook=https://facebook.com/profile.php?id=100004144747829&_rdr
+|twitter=nuclear220
+|instagram=nuclear220
+|videoarchive=https://www.twitch.tv/nuclear220
+|youtube=https://www.youtube.com/channel/UCk0SDD5Jad7cE_XqixyiOOA
+|lolpros=https://lolpros.gg/player/nuclear/
+|deeplol=https://www.deeplol.gg/pro/Nuclear
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===2015 Season===
+Sin "'''Nuclear'''" Jeong-hyeon played for [[Quvic E-Sports]] during the [[Champions Spring 2015/Qualifiers|Champions Spring 2015 Qualifiers]] but they lost 2-1 to [[Xenics]] in the group stage. The team disbanded on February 14, 2015. He joined [[Prime Clan]] in March 2015 as their ad carry. They qualified for [[SBENU Champions Summer 2015]] after going 1-1 in their group against [[Samsung Galaxy]] and Xenics during [[Champions Summer 2015/Promotion|Champions Summer 2015 Promotion]]. Afterwards, Prime was sponsored by SBENU and renamed themselves to [[SBENU Sonicboom]]. Nuclear shares the starting ad carry position with [[Dan (Kim Seung-hoo)|Dan]]. SBENU placed last in Champions Summer and were forced to play in the [[LCK/2016 Season/Spring Promotion|LCK 2016 Season Spring Promotion]]. SBENU played [[ESC Ever|Ever]] and managed to win 3-1 to requalify for the LCK.
+
+===2016 Preseason===
+SBENU played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the quarterfinals to [[SK Telecom T1]].
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], SBENU Sonicboom went 2-16 in sets, finishing in ninth place, forcing them to play relegations matches for their spot in the summer split. SBENU chose [[ESC Ever]] as their relegations opponent, but were defeated 3-0, relegating them to [[Challengers Korea/2016 Season/Summer Season|Challengers Korea 2016 Summer]].
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Casting History ==
+{{CastingHistory}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

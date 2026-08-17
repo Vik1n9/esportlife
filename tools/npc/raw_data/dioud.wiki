@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dioud&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.405Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dioud」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Dioud
+|name=Hugo Padioleau
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France
+|residency=EMEA
+|birth_date_year=1990
+|birth_date_month=November
+|birth_date_day=3
+|favchamp=Thresh
+|favchamp2=Janna
+|favchamp3=Blitzcrank
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Broadcast Talent
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.fb.gg/Dioudy
+|facebook=https://www.facebook.com/Dioudy
+|twitter=Dioudlol
+|instagram=dioudlol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Dioud hails from Barbechat, Nantes, France. He has played on several League of Legends teams, notably playing on [[GSU Gaming]] with [[ShLaYa]], [[Nono]], and [[ViRtU4l]] at [[ASUS_Republic_of_Gamers_-_Paris_Games_Week_2012|Paris Games Week 2012]] early in his career. In April 2013, Dioud replaced [[Karalius]] as the support player for [[against All authority]]. However, after one month on the team he left due to personal issues. He went on to play for [[Millenium]] and then [[Gamers2]].
+
+===2015 Preseason===
+Dioud joined [[Ninjas in Pyjamas]] briefly in September 2014 but left the same month. In October, he joined [[Meloncats]] and qualified for the [[Riot League Championship Series/Europe/2015 Season/Spring Expansion|Spring Expansion Tournament]] with them via the [[Riot League Championship Series/Europe/2015 Season/Expansion/Challenger Ladder|Challenger Ladder]]. Meloncats won their first-round series but forfeited their second round against [[H2k-Gaming]]. Dioud left the team when they disbanded in December.
+
+===2015 Season===
+In January 2015, [[paiN Gaming]] had to release their Korean bot lane [[Lactea]] and [[Olleh]] due to visa problems, and Dioud moved from Europe to Brazil to fill their support position, while [[brTT]] rejoined the team as AD carry. The team didn't click at first, placing fourth in the first split's [[CBLOL/2015 Season/Split 1|regular season]] and then third in the [[CBLOL/2015 Season/Split 1 Playoffs|playoffs]]. After they released [[Leko]] for [[Mylon]], however, everyone had high hopes for the team, and despite a shaky start, they won the [[CBLOL/2015 Season/Split 2|second split]]'s [[CBLOL/2015 Season/Split 2 Playoffs|playoffs]], defeating [[INTZ Red]], Keyd Stars and [[INTZ e-Sports|INTZ Team]], with Kami in particular standing out as a carry of the team. They qualified for the [[2015 International Wildcard Tournament/Chile|IWCT Qualifier]], and without dropping a single game the entire tournament qualified for the [[2015 Season World Championship]].
+
+At Worlds, paiN were seeded into Group A along with [[Flash Wolves]], [[KOO Tigers]], and [[Counter Logic Gaming]]. They picked up two wins in the group, against eventual group winners Flash Wolves in the first week and then against CLG in the second week, and their 2-4 overall record and 1-1 head-to-head with CLG left them tied for third place, not advancing from groups. Despite their immediate elimination, paiN's group stage run was seen as a major success: they were the first Wildcard team to win more than one game at a World Championship and also the first Wildcard team to finish higher than sole possession of last place in their group. Additionally, they looked good in some of their losses: their second game against Flash Wolves lasted 52 minutes and could have gone either way at multiple points.
+
+== Trivia ==
+* Played rugby for seven years.
+* Was one of the first foreign LoL players to have a "pro eSports player" work visa in Brazil.<ref>[https://www.facebook.com/Dioudy/photos/a.494445293953498.114089.343652195699476/970032026394820/ Dioud's Facebook Post] ''facebook.com''</ref>
+* Portrayed as {{ci|Blitzcrank}} in the CBLoL 2015 official wallpaper.
+* Speaks fluent French, English, and Portuguese.
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2012
+|name2=2013
+|name3=2015}}
+{{TDRight|tab}}<!--2015-->
+* October 7, [http://www.youtube.com/watch?v=Q3jo0fc8BW0 paiN's Dioud on Group A: 'everyone can beat everyone, and we showed that Sunday'] ''with theScore''
+{{TDRight|tab}}<!--2013-->
+* September 15, [http://www.dailymotion.com/video/x14qnd2_dreamhack-bucharest-2013-interview-de-dioud_videogames Dreamhack Bucharest 2013 : Interview de Dioud (French video)] ''with Millenium''
+{{TDRight|tab}}<!--2012-->
+* April 8, [http://www.dailymotion.com/video/xpzktu_gamers-assembly-2012-interview-de-dioud-des-ldlc_videogames#.UVrQ7ZOePHE Gamers Assembly 2012 : Interview de Dioud des LDLC (French)] ''with EsportsFrance''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

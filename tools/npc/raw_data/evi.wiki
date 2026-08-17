@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Evi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.116Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Evi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Evi
+|name=Shunsuke Murase
+|nativename=村瀬 俊介
+|namealphabet=Kanji
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Japan
+|residency=PCS
+|birth_date_year=1995
+|birth_date_month=November
+|birth_date_day=15
+|favchamp=Camille
+|favchamp2=Tahm Kench
+|favchamp3=Pantheon
+|favchamp4=Shyvana
+|checkbox1=Yes
+|favchamp5=Wukong
+|favchamp6=K'Sante
+|compID1=ebihurya
+|checkboxComp=No
+|ids='''JP:''' エビルリフト, ホトトギス<br>'''KR:''' KR chicken eater<br>'''NA:''' IMT 7h Evi1<br>'''EUW:''' i am Shrimp
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/evinmotv
+|twitter=ebihuryahurya
+|askfm=ebihurya
+|youtube=https://www.youtube.com/channel/UCqWIpAZsfdtfh6qNDs1XQNA
+|discord=https://discord.gg/kzUvfdacBV
+|site=http://blog.livedoor.jp/ebihuryahurya/
+|lolpros=https://lolpros.gg/player/evi
+|deeplol=https://www.deeplol.gg/pro/Evi
+|dpmlol=https://dpm.lol/pro/Evi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''ebihurya'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Shunsuke "'''Evi'''" Murase started League of Legends in May, 2013 and quickly climbed the ladder to Diamond I in in December, 2013.
+
+== Trivia ==
+* Interested in cooking - his specialty is fried eggs.
+* Gives the camera a thumbs-up whenever he notices it pointed at him during a game.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Casting History ==
+{{CastingHistory}}
+
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

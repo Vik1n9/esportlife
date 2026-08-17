@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lehends&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lehends」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Lehends
+|name=Son Si-woo
+|nativename=손시우
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=24
+|favchamp=Singed
+|favchamp2=Elise
+|favchamp3=Shen
+|favchamp4=Leona
+|checkbox1=Yes
+|favchamp5=Yuumi
+|favchamp6=Alistar
+|favchamp7=Nautilus
+|checkboxComp=No
+|ids='''KR:''' Lehends, Always be crying<br>'''EUW:''' Lehends
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/9adba4145af3cc748ea371ccd318de16
+|facebook=https://www.facebook.com/profile.php?id=100005228236013
+|twitter=lehends_lol
+|instagram=lol_lehends
+|videoarchive=https://bj.afreecatv.com/tldn031
+|discord=https://discord.gg/s4wwa84uve
+|lolpros=https://lolpros.gg/player/lehends/
+|deeplol=https://www.deeplol.gg/pro/Lehends
+|dpmlol=https://dpm.lol/pro/Lehends
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+}}
+==Biography==
+
+== Trivia ==
+* Used to be a trainee for [[SKT T1]].
+* One of his parents is a dentist.
+* Reached Rank 1 in Season 6 maining {{ci|Elise}} support.
+* Mained and popularized Doran's Ring start and 3-4x Dark Seal on {{ci|Singed}} in Season 7.
+* Popularized Unsealed Spellbook Ignite {{ci|Singed}} pre-Season 8.
+* Reached Rank 1 in Season 8 maining {{ci|Singed}} top and {{ci|Shen}} support.
+* First player in the LCK to play {{ci|Singed}} support.
+** He played it on game 3 in a series against [[DWG KIA]] on January 17, 2022. 
+* Reached 3000 assists in the LCK on August 10th, 2022.
+** Was the 8th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], and [[Peanut]].
+* Reached 4000 assists in the LCK on August 10th, 2023.
+** Was the 3rd player to reach 4000 assists in the LCK after [[GorillA]] and [[Faker]].
+* Reached 5000 assists in the LCK on August 28th, 2024.
+** Was the 2nd player to reach 5000 assists in the LCK after Faker.
+* Reached 500 games in the LCK on July 22, 2023, becoming the 11th player to do so, after [[Score]], [[Faker]], [[Ruler]], [[Deft]], [[Bdd]], [[Teddy]], [[Peanut]], [[Ghost (Jang Yong-jun)|Ghost]], [[Kiin]], and [[Chovy]].
+* Reached 600 games in the LCK on August 01, 2024, becoming the 8th player to do so, after Faker, Deft, Bdd, Peanut, Kiin, Teddy, and Chovy.
+* Reached 700 games in the LCK on September 03, 2025, becoming the 8th player to do so, after Faker, Deft, Bdd, Peanut, Kiin, Chovy, and Teddy.
+* Reached 300 wins in [[LCK]] on July 29, 2023, becoming the 11th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], [[Ruler]], [[Peanut]], [[Bdd]], [[Chovy]], and [[ShowMaker]].
+** Hit this milestone in the same game as his KT teammate Kiin
+* Reached 400 wins in [[LCK]] on April 05, 2025, becoming the 6th player to do so after [[Faker]], [[Deft]], [[Peanut]], Bdd, and Chovy.
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

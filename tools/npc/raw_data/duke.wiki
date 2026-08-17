@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Duke%20(Lee%20Ho-seong)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.102Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Duke」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Duke
+|name=Lee Ho-seong
+|nativename=이호성
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=December
+|birth_date_day=19
+|favchamp=Renekton
+|favchamp2=Shen
+|favchamp3=Jax
+|checkbox1=No
+|compID1=Leopard
+|checkboxComp=No
+|ids='''KR:''' 2021310
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.panda.tv/821203
+|facebook=https://www.facebook.com/profile.php?id=100007936560817
+|instagram=ho_seng2
+|weibo=https://weibo.com/u/6158362118
+|lolpros=https://lolpros.gg/player/duke-1/
+|deeplol=https://www.deeplol.gg/pro/Duke-Lee_Ho-seong
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Leopard'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=Klaus
+}}
+==Biography==
+===2014 Season===
+Lee "'''Duke'''" Ho-Seong joined the [[KT Rolster Bullets]] sometime in Season 3 under the name "'''Leopard'''" but didn't play with them until the [[IEM Season VIII - World Championship|IEM Season VIII World Championship]], when he became the starting top laner. The Bullets swept the whole tournament and beat [[Fnatic]] 3-0 in the final. They came back to Korea to participate in [[HOT6iX Champions Spring 2014]] where they made it to the quarterfinals but lost 3-2 to [[NaJin White Shield]]. Shortly after, Leopard changed his name to Duke and joined [[NaJin Black Sword]] as their new top laner. He played his first tournament with the team at [[HOT6iX Champions Summer 2014]]. Sword made it to the quarterfinals but lost 3-2 to [[SK Telecom T1 S]].
+
+===2015 Season===
+Due to the changes to the OGN rules, Sword and Shield were forced to merge, forming [[NaJin e-mFire]]. Shield's top laner, [[Save]], departed from the organization, giving Duke sole possession of the starting position. The team was invited to [[SBENU Champions Spring 2015]] where they placed 6th in the regular season and missed the playoffs. Despite his team's mediocre performance, Duke earned the MVP award for the season. NaJin placed fifth in the regular season of [[SBENU Champions Summer 2015]] and qualified for the playoffs but they lost in the first round 2-1 to the [[KOO Tigers]]. They earned enough circuit points to make it to the [[2015 Season Korea Regional Finals]] but lost 3-0 in the first round to the [[Jin Air Green Wings]]. 
+
+===2016 Season===
+
+NaJin played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 to [[Rebels Anarchy]] in the first round. Duke left NaJin in December and joined [[SK Telecom]]. In March, SK Telecom attended [[IEM Season X - World Championship|IEM Katowice]] despite being only the sixth-place [[LCK/2016 Season/Spring Season|LCK]] team at the time. They brought substitute jungler [[Blank (Kang Sun-gu)|Blank]] in place of [[bengi]] and swept through the tournament, winning the title after only seven games. After their international success, they returned to Korea and placed third in the regular season, earning themselves a spot in the [[LCK/2016 Season/Spring Season|playoffs]]. SKT won the playoffs, winning their third championship in a row and for the first time a seed to the [[2016 Mid-Season Invitational]].
+
+Their first place finish in the [[LCK/2016 Season/Spring Season|spring season]] earned them a spot in the [[2016 Mid-Season Invitational]]. Notably, SK Telecom T1 were the only team to return to 2016 MSI from [[2015 Mid-Season Invitational|2015 MSI]]. As the reigning domestic champions of Korea, SK Telecom T1 came into the tournament as massive favorites to win. However, their group stage performances were very lackluster as they dropped games to China's [[Royal Never Give Up]], NA's [[Counter Logic Gaming]], and two games to the LMS [[Flash Wolves]]. They ended their group stage with a 6-4 record, seeding them into the bracket stage at fourth place. Matched up against [[Royal Never Give Up]] in the semifinals, SK Telecom started to regain their form, beating them 3-1. They then proceeded to beat [[Counter Logic Gaming]] 3-0 to win the event and give them the trophy that barely escaped them last year.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], SK Telecom started the season strong with a 5-0 score in series and 10-0 game score. However, they started dropping sets to lower ranked teams, notably the [[Afreeca Freecs]], who they failed to win even a single game against the entire season. With a 13-5 scoreline in series, SKT placed second in the round robin, beating [[KT Rolster]] via game score tiebreaker. However, during the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], they met [[KT Rolster]] in the semifinals, where they were reverse swept 3-2 after going up 2-0 in the first two games. This gave them third place for the summer split. Combined with their first place spring finish, as well as the victory of the [[ROX Tigers]] over [[KT Rolster]], SKT qualified to the [[2016 Season World Championship]] on points as Korea's second seed.
+
+At the [[2016 Season World Championship]], SK Telecom T1 were placed into Group B, along with LMS's [[Flash Wolves]], NA's [[Cloud 9]], and China's [[I May]]. The team finished 1st in their grouped and won the tournament with a 3-2 victory over [[Samsung Galaxy]] in the finals. Duke left SKT after Worlds and joined [[Invictus Gaming]] in December of 2016.
+
+===2017 Season===
+
+Invictus Gaming finished 3rd in Group A of the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] with an 8-8 record. They would then drop out in the first round of the [[LPL/2017_Season/Spring_Playoffs|playoffs]] with a 1-3 loss to [[Newbee]]. IG participated in the [[Demacia Cup/2017 Season|2017 Demacia Cup]] and finished 3rd after a 1-3 loss to I May in the semifinals. Their [[LPL/2017_Season/Summer_Season|summer season]] was similar to their spring season and they finished 3rd with a 10-6 record. Duke would split play time with [[TheShy]] throughout the summer. IG did much better in the [[LPL/2017_Season/Summer_Playoffs|playoffs]] and finished 3rd with a victory over Team WE in the third place match. IG then participated in the [[2017 Season China Regional Finals]] but failed to make it to Worlds after Team WE got their revenge against them and beat them 3-2.
+
+=== 2018 Season === 
+Duke and iG kick-started their season with a 3rd place finish in the [[Demacia Championship/2017 Season|Demacia Championship]], losing 2-1 to [[Snake Esports]] in the loser's semifinal. Just two weeks later saw the start of the [[LPL/2018 Season/Spring Season|LPL Spring Season]]. Despite a regular season series record of 18-1, with their only loss being against [[Royal Never Give Up]], this did not translate into success in the [[LPL/2018 Season/Spring Playoffs|Spring Playoffs]]. Invictus Gaming were defeated 3-2 by RNG in the semifinals, this being followed by a 3-1 loss at the hands of [[Rogue Warriors]] in the third-place match. Although their performance could be considered a disappointment, their placement secured them a spot at [[Rift Rivals 2018/LCK-LPL-LMS|Rift Rivals 2018]].
+
+A 3rd place finish in the [[Demacia Cup/2018 Summer|Demacia Cup]], this time losing to [[Bilibili Gaming]] in the loser's semifinal, was followed by a successful showing at Rift Rivals. Duke and the team won both of their group stage games, helping the LPL to an eventual triumph over the LCK in the final. Invictus Gaming once again achieved an 18-1 regular season record in the [[LPL/2018 Season/Summer Season|LPL Summer Season]], their sole loss again to RNG. Despite the similarity of the year's regular season performances, a successful showing in the [[LPL/2018 Season/Summer Playoffs|Summer Playoffs]], finishing runner-up to Royal Never Give Up after a tight 3-2 series, resulted in the team's qualification to the [[2018 Season World Championship]] on [[2018 Season/Championship Points/China|points]].
+
+Invictus Gaming was placed in Group D for Worlds 2018, alongside [[Fnatic]], [[100 Thieves]], and [[G-Rex]]. The group stage round robin concluded with iG and Fnatic tied for 1st place at 5-1. The tiebreaker went in the favor of Fnatic, resulting in Duke and the team being drawn against [[KT Rolster]] in the quarterfinals. A tense affair saw iG emerge victorious 3-2 and progress to the semifinals where they met [[G2 Esports]]. A more straightforward 3-0 series secured them a place in the finals. Awaiting their challenge were Group D counterparts, Fnatic. Invictus Gaming's convincing performance in the finals resulted in a 3-0 victory, and made them the first Chinese team to win a World Championship.
+
+== Trivia ==
+* Regular Season MVP of [[SBENU Champions Spring 2015]] with 1000 MVP points.
+* First player to win the World Championship with two different organizations, in Korea with [[SK Telecom T1]] in [[Worlds 2016|2016]] and in China with [[Invictus Gaming]] in [[Worlds 2018|2018]], the only other being [[BeryL]].
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+===External Links===
+* [http://wiki.teamliquid.net/starcraft/Klaus Liquipedia StarCraft Wiki]
+
+{{PlayerPageEnd}}

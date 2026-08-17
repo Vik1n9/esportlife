@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mojito&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.566Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mojito」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Mojito
+|name=Berk Kocaman
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=January
+|birth_date_day=12
+|favchamp=Elise
+|favchamp2=Graves
+|favchamp3=Lee Sin
+|checkbox1=No
+|compID1=Mohayto
+|compID2=ehe
+|checkboxComp=No
+|ids='''EUW:''' qladfqwe<br>ReaI MAN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/mojito
+|facebook=https://www.facebook.com/LoLMojito
+|twitter=LoL_Mojito
+|instagram=mojito_bk
+|lolpros=https://lolpros.gg/player/mojito
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''ehe'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

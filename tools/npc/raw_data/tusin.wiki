@@ -1,0 +1,125 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=TusiN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.786Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「TusiN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=TusiN
+|name=Park Jong-ik
+|nativename=박종익
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|checkbox-res=No
+|birth_date_year=1995
+|birth_date_month=November
+|birth_date_day=12
+|favchamp=Blitzcrank
+|favchamp2=Thresh
+|checkbox1=No
+|checkboxComp=No
+|ids=IM TusiN, 투신박
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://bj.afreecatv.com/subins2002
+|facebook=https://www.facebook.com/profile.php?id=100006039734190
+|twitter=LOLTUSIN
+|instagram=lol_tusin
+|youtube=https://www.youtube.com/channel/UCmN9rpqqxd5WAYAZzeV-RIQ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+}}
+==Biography==
+Park "'''TusiN'''" Jong-ik was born in Waegwan, South Korea in 1995. Prior to playing League of Legends, he played other games, including Sudden Attack and Dungeon Fighter; however, when he grew bored of other titles, he switched to League of Legends and immediately loved the game. Recognizing his skill at the game, he decided to try to go pro so that he could earn money doing something he was good at. TusiN played on an amateur team called [[F1]], along with [[Duke (Lee Ho-seong)|Duke]] and [[Frozen (Kim Tae-il)|Frozen]], and in May 2014 he joined the Incredible Miracle organization.
+
+===2014 Season===
+TusiN joined [[Incredible Miracle 2]] on November 17, 2014 as their new support. The team only played in one OGN together at [[HOT6iX Champions Summer 2014]] but the team failed to make it to the playoffs and dropped out in the group stage.
+
+===2015 Season===
+Changes to the OGN rules forced [[Incredible Miracle 1]] and Incredible Miracle 2 to merge to form [[Incredible Miracle]]. None of the players from IM1 stayed with the team so TusiN was given the starting support position. They participated in [[SBENU Champions Spring 2015]] but placed 7th and were forced to play in the [[Champions Summer 2015/Promotion|Champions Summer Promotion Tournament]]. TusiN switched from support to jungle prior to the tournament and they ended up qualifying for [[SBENU Champions Summer 2015]] after going 2-0 against [[Winners]] and [[Anarchy]].<ref>[http://sports.news.naver.com/sports/index.nhn?category=e_sports&ctg=news&mod=read&office_id=109&article_id=0003065702  정글로 간 '투신', 천상계 서포터 '이그나' 가세...롱주 IM, 전면 재정비 롤챔스 '정조준'] ''sports.news.naver.com''</ref> [[Spooky (Moon Ji-won)|Spooky]] joined Incredible Miracle to share the starting jungle position with TusiN. IM placed ninth in the regular season of Champions Summer and were forced to play in the [[LCK/2016 Season/Spring Promotion|LCK 2016 Season Spring Promotion]]. Incredible Miracle played the [[Dark Wolves]] in the promotion tournament and managed to beat them 3-1 to requalify for the LCK.
+
+===2016 Preseason===
+IM competed in the [[2015 LoL KeSPA Cup]] where they lost 2-1 against the [[Jin Air Green Wings]] in the first round.
+
+== Trivia ==
+* Enjoyed studying music in school.
+* Enjoys gardening and often helps his grandmother at her flower farm.
+* His first champion was {{ci|Veigar}}, which he thinks is cute.
+* Chose support because even with 0 CS he could still land skillshots to carry a game.
+* Considered to be one of the best {{ci|Rakan}} players.
+* Referred to by [[Wadid]] as "Korean [[Hylissang]]" for his aggressive play that sometimes pays off and sometimes doesn't. 
+* Reached 3000 assists in the LCK on July 26th, 2020.
+** Was the 5th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], and [[Faker]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

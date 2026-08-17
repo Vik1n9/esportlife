@@ -1,0 +1,124 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hylissang&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.975Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hylissang」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Hylissang
+|name=Zdravets Iliev Galabov
+|nativename=Здравец Илиев Гълъбов
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Bulgaria
+|residency=EMEA
+|birth_date_year=1995
+|birth_date_month=April
+|birth_date_day=30
+|favchamp=Thresh
+|favchamp2=Leona
+|favchamp3=Pyke
+|favchamp4=Rakan
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW''': Peshon#EUW<br>'''KR''': Svveeney Todd<br>'''CN:''' Dancewithme
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/hylissanglol
+|facebook=https://www.facebook.com/Hylissang
+|twitter=Hylissang_lol
+|instagram=fnatic.hylissang
+|lolpros=https://lolpros.gg/player/hylissang
+|dpmlol=https://dpm.lol/pro/Hylissang
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Born in Sofia, Hylissang has been playing video games since 2004. In 2006, he started playing Heroes of Might and Magic III, then in 2008 he started playing World of Warcraft: The Burning Crusade. In 2011, he moved onto League of Legends.
+
+===2014 Season===
+Hylissang started playing competitively when [[Sheepy]] asked him to join the team [[Unicorns Of Love]].
+
+With the team, he won several [[Go4LoL]] tournaments in early 2014 on the EU West server. As the year progressed, they started to play in more prominent challenger events and do well, taking third place in the [[2014_Black_Monster_Cup_Europe_Summer|Summer Black Monster Cup]]. Unicorns of Love participated in the first [[2014_EU_Challenger_Series/Spring_Series|Spring Series #1]] play-in but were eliminated by [[EYES ON U]] in the second round.
+
+Soon after, Hylissang and the team qualified for the [[2014_EU_Challenger_Series/Summer_Series|Summer Series #1]] of the EUCS, but lost to [[Ninjas in Pyjamas]] 2-0 in the quarterfinals.
+
+Another quarterfinal finish in [[2014_EU_Challenger_Series/Summer_Series/Series_2|Summer Series #2]] qualified UoL for the [[2014_EU_Challenger_Series/Summer_Series/Playoffs|Summer Playoffs]]. 
+
+The playoffs went particularly well, despite the Unicorns of Love losing to [[H2k-Gaming]] in the semifinal. The team went on to beat [[Ninjas in Pyjamas]] in the third-place match, securing themselves a spot at the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Promotion|Spring Promotion Tournament]].
+
+With the Promotion Tournament came a chance for the Hylissang and the Unicorns of Love to qualify for the 2015 LCS [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|Spring Split]]. The Promotion Tournament was a huge success, with the team beating [[Millenium]] 3-2 in their promotion matchup. This meant that Hylissang and the team would be playing in the LCS the following season. 
+
+===2015 Season===
+Unicorns of Love were the European team fan-voted to [[IEM_Season_IX_-_San_Jose|IEM San Jose]].<ref>[http://en.intelextrememasters.com/news/cloud9-and-unicorns-of-love-confirmed-get-your-tickets-now/ Cloud9 and Unicorns of Love confirmed, get your tickets now!] ''en.intelextrememasters.com''</ref> With a roster of [[Vizicsacsi]], [[Kikis]], [[PowerOfEvil]], [[Vardags]], and [[Hylissang]] at the tournament, they surprised audiences by making it to the semifinals after defeating [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] 2-0 and then [[Team SoloMid]] 2-0. They placed second at the tournament, losing to [[Cloud9]] in the finals.
+
+The [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|EU LCS Spring Season]] was a huge success for Hylissang and [[Unicorns Of Love]], finishing the regular season in 5th place, partly thanks to Hylissang's impressive performances on {{ci|Annie}} and {{ci|Leona}}. This meant that team would participate in the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], where they would face and beat [[Gambit Gaming]] in the quarterfinals. Hylissang and the team managed to make LCS history when they became the first team to knock out a 1st place regular season finisher in the playoff semifinals, taking down [[SK Gaming]] convincingly. They went on to lose the playoff final to [[Fnatic]] in a close-fought series, finishing 2nd in their first LCS split, and picking up 70 [[2015 Season/Championship Points|Championship Points]] in the process.
+
+The [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|Summer Season]] was equally as successful for [[Unicorns Of Love]], finishing the regular season in 4th place, this time partly thanks to Hylissang's {{ci|Alistar}} and {{ci|Annie}} performances. This ensured the team's participation in the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]], where they overcame [[Team ROCCAT]] in the quarterfinals but were taken out themselves in the semifinals by a dominant [[Fnatic]]. 40 [[2015 Season/Championship Points|Championship Points]] gained here secured [[Unicorns Of Love]] a spot in the  [[2015 Season Europe Regional Finals]]. Despite their high seeding, they were beaten by [[Origen]] in the final of the gauntlet.
+
+===2016 Season===
+After Fnatic withdrew from [[IEM Season X - San Jose|IEM San Jose]] due to medical problems, Unicorns of Love took their spot, fielding Hylissang and [[Vizicsacsi]] from their 2015 roster along with new members [[Gilius]], [[Fox (Hampus Myhre)|Fox]], and [[Steeelback]]. Hylissang and the team were eliminated in the quarterfinals of the tournament by [[Counter Logic Gaming]]. UOL finished in fifth place in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], after being forced to replace [[Diamondprox]] in the jungle due to visa issues. They were eliminated in the [[League Championship Series/Europe/2016 Season/Spring Playoffs|quarterfinals]] by Origen.
+
+== Trivia ==
+* Got married on December 2, 2023.<ref>[https://twitter.com/Hylissang_lol/status/1759992558111883595 Hylissang's Tweet] ''twitter.com''</ref>
+* Affectionately referred to as "Hilly" by casters. 
+* Has a [[Uby|twin brother]] named Aleksandar who was a sub for [[Unicorns Of Love]] when he was with the team. 
+* Before he joined [[Unicorns of Love]], he was a mid laner, but the team needed a support so he swapped. 
+* Back when he was a mid laner he played {{ci|Orianna}} a lot.
+* Has lived in Sofia, Bulgaria, his whole life.
+* When he was playing WoW he wanted his nickname to look like a Chinese one so people would respect him. He respected their prowess in video games.
+* Always selects {{ci|Draven}} and {{ci|Orianna}} first in the champion select, because his girlfriend is named Dóri.
+* Nicknamed "The Professor" by the Korean League community. 
+* Known for his unique and extremely aggressive playstyle which has resulted in him being considered a 'coinflip' player: one that can singlehandedly win or lose games through his engages. 
+* Reached 2,500 assists in the LEC on August 9, 2019.
+** The 1st player to reach 2,500 assists in the LEC.
+** His 2,500th assist was for [[Broxah]]'s kill on [[Excel]]'s jungler [[Caedrel]] in the [[LEC/2019 Season/Summer Season|LEC 2019 Summer Split]] with {{ci|Pyke}}.
+* Reached 4,000 assists in the LEC on June 25, 2022.
+** The 1st player to reach 4,000 assists in the LEC.
+** His 4,000th assist was for [[Wunder]]'s kill on [[MAD Lions]]' jungler [[Elyoya]] in the [[LEC/2022 Season/Summer Season|LEC 2022 Summer Split]] with {{ci|Nami}}.
+* Reached 5,000 assists in the LEC on September 09, 2023.
+** The 1st player to reach 5,000 assists in the LEC.
+* Reached 500 games in the LEC on September 4, 2022 in game 4 of the [[LEC/2022 Season/Summer Playoffs|LEC 2022 Summer Playoffs Round 3]] series against [[MAD Lions]].
+** The 2nd player to reach 500 games in the LEC after [[Jankos]].
+* Reached 600 games in the LEC on February 4, 2024 in Round 1 of [[LEC/2024 Season/Winter Playoffs|LEC 2024 Winter Playoffs]] against [[SK Gaming]].
+** The 2nd player to reach 600 games in the LEC after [[Jankos]].
+* Reached 300 wins in the LEC on February 04, 2023.
+** The 3rd player to reach 300 wins in the LEC after [[Jankos]] and [[Rekkles]].
+** His 300th win was against Fnatic in Week 3 of [[LEC/2023 Season/Winter Season|LEC 2023 Winter]].
+
+=== Individual Awards ===
+* 3x EU 1st All Pro Team (Spring 2018, Summer 2018, Spring 2022)
+* 6x EU 2nd All Pro Team (Spring 2019, Summer 2019, Spring 2020, Spring 2021, Summer 2021, Winter 2023)
+* 1x EU 3rd All Pro Team (Spring 2017)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

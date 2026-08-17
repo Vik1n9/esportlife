@@ -1,0 +1,320 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2024%20Season%2FSummer%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.757Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2024/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2024}}
+{{Infobox Tournament
+|name=LEC 2024 Summer Season
+|image= LEC 2023.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|country=Germany
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2024-06-08
+|edate=2024-06-30
+|rulebook=Archive:Official_Rulebooks/Riot/LEC/2024
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EMEA
+|split=Summer
+|split_number=3
+|CM_StandardName=LEC 2024 Summer
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2024
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://eu.lolesports.com/en
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ
+|closest_timezone=CET
+}}
+{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2024 Summer Season''' is the third split of the second year of the newly merged EMEA's rebranded professional League of Legends league. It is the sixth year of the LEC and the second season following the changed format. In Stage 1, ten teams compete in a single round robin group stage, with the top eight advancing to Playoffs, a double elimination bracket.}}
+==Overview==
+=== Format ===
+* Regular Season (Stage 1):
+** 10 teams participate
+** Single Round Robin
+** Matches are best of one
+** Top eight teams advance to [[LEC/2024 Season/Summer Playoffs|Playoffs]]
+
+=== Prize Pool ===
+{{TournamentResults
+|points=yes
+|pointstitle=[[LEC/2024 Season/Championship Points|Champ. Points]]
+|qual=yes
+|qualwidth=180
+|{{TournamentResults/Line|place=1|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=SK|groupstage=8 - 1}}
+|{{TournamentResults/Line|place=2|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=BDS|groupstage=8 - 1}}
+|{{TournamentResults/Line|place=3|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=G2|groupstage=7 - 2}}
+|{{TournamentResults/Line|place=4|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=FNC|groupstage=6 - 3}}
+|{{TournamentResults/Line|place=5|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=KCORP|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=6|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=HTICS|groupstage=3 - 6}}
+|{{TournamentResults/Line|place=7|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=GIANTX|groupstage=3 - 6}}
+|{{TournamentResults/Line|place=8|qual=Playoffs|quallink=LEC/2024 Season/Summer Playoffs|team=MAD KOI|groupstage=2 - 7}}
+|{{TournamentResults/Line|place=9|points=0|team=VIT|groupstage=2 - 7}}
+|{{TournamentResults/Line|place=10|points=0|team=RGE|groupstage=2 - 7}}
+|conversiondate=|conversionsource=xe}}
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2024 Midseason/EMEA
+}}
+{{Box|start}}
+{{TeamRoster|team=FNC
+|{{TeamRoster/Line|player=Oscarinin |flag=es|role=t}}
+|{{TeamRoster/Line|player=Razork |flag=es|role=j}}
+|{{TeamRoster/Line|player=Humanoid |flag=cz|role=m}}
+|{{TeamRoster/Line|player=Noah (Oh Hyeon-taek) |flag=kr|role=a}}
+|{{TeamRoster/Line|player=Jun (Yoon Se-jun) |flag=kr|role=s}}
+|{{TeamRoster/Line|player=Nightshare |flag=cz|role=c}}
+|{{TeamRoster/Line|player=Gaax |flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=G2
+|{{TeamRoster/Line|player=BrokenBlade |flag=de|role=t}}
+|{{TeamRoster/Line|player=Yike |flag=se|role=j}}
+|{{TeamRoster/Line|player=Caps |flag=dk|role=m}}
+|{{TeamRoster/Line|player=Hans Sama |flag=fr|role=a}}
+|{{TeamRoster/Line|player=Mikyx |flag=si|role=s}}
+|{{TeamRoster/Line|player=Dylan Falco |flag=ca|role=c}}
+|{{TeamRoster/Line|player=Rodrigo |flag=portugal|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=GIANTX
+|{{TeamRoster/Line|player=Th3Antonio |flag=es |role=t}}
+|{{TeamRoster/Line|player=Juhan|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Jackies|flag=cz|role=m}}
+|{{TeamRoster/Line|player=Patrik|flag=cz|role=a}}
+|{{TeamRoster/Line|player=IgNar|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kaas|flag=be|role=c}}
+|{{TeamRoster/Line|player=Nico (Nicolas Perez)|flag=fr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=KCORP
+|{{TeamRoster/Line|player=Canna |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Closer (Can Çelik) |flag=tr |role=j}}
+|{{TeamRoster/Line|player=Vladi |flag=gr |role=m}}
+|{{TeamRoster/Line|player=Upset |flag=de |role=a}}
+|{{TeamRoster/Line|player=Targamas |flag=be |role=s}}
+|{{TeamRoster/Line|player=Reha |flag=fr |role=c}}
+|{{TeamRoster/Line|player=Apples |flag=si |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MADL KOI
+|{{TeamRoster/Line|player=Myrwn |flag=es|role=t}}
+|{{TeamRoster/Line|player=Elyoya |flag=es|role=j}}
+|{{TeamRoster/Line|player=Fresskowy |flag=pl|role=m}}
+|{{TeamRoster/Line|player=Supa |flag=es|role=a}}
+|{{TeamRoster/Line|player=Alvaro (Álvaro Fernández) |flag=es|role=s}}
+|{{TeamRoster/Line|player=Melzhet |flag=es|role=c}}
+|{{TeamRoster/Line|player=Zeph |flag=fr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=RGE
+|{{TeamRoster/Line|player=Finn|flag=se|role=t}}
+|{{TeamRoster/Line|player=Markoon|flag=nl|role=j}}
+|{{TeamRoster/Line|player=Larssen|flag=se|role=m}}
+|{{TeamRoster/Line|player=Comp|flag=gr|role=a}}
+|{{TeamRoster/Line|player=Zoelys|flag=fr|role=s}}
+|{{TeamRoster/Line|player=fredy122|flag=uk|role=c}}
+|{{TeamRoster/Line|player=nRated |flag=de|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK
+|{{TeamRoster/Line|player=Irrelevant |flag=de|role=t}}
+|{{TeamRoster/Line|player=ISMA |flag=fr|role=j}}
+|{{TeamRoster/Line|player=Nisqy |flag=be|role=m}}
+|{{TeamRoster/Line|player=Rahel |flag=kr |role=a}}
+|{{TeamRoster/Line|player=Luon |flag=kr|role=s}}
+|{{TeamRoster/Line|player=Swiffer |flag=au|role=c}}
+|{{TeamRoster/Line|player=OWN3R (David Rodriguez de la Torre) |flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|{{TeamRoster/Line|player=Adam (Adam Maanane) |flag=fr|role=t}}
+|{{TeamRoster/Line|player=Sheo |flag=fr|role=j}}
+|{{TeamRoster/Line|player=nuc |flag=fr|role=m}}
+|{{TeamRoster/Line|player=Ice (Yoon Sang-hoon) |flag=kr|role=a}}
+|{{TeamRoster/Line|player=Labrov |flag=gr|role=s}}
+|{{TeamRoster/Line|player=Striker (Yanis Kella) |flag=fr|role=c}}
+|{{TeamRoster/Line|player=MenQ |flag=pl|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=HTICS
+|{{TeamRoster/Line|player=Wunder |flag=dk|role=t}}
+|{{TeamRoster/Line|player=Jankos |flag=pl|role=j}}
+|{{TeamRoster/Line|player=Zwyroo |flag=pl|role=m}}
+|{{TeamRoster/Line|player=Flakked |flag=es|role=a}}
+|{{TeamRoster/Line|player=Trymbi |flag=pl|role=s}}
+|{{TeamRoster/Line|player=Machuki|flag=es|role=c}}
+|{{TeamRoster/Line|player=Naruterador|flag=es|role=c}}
+|{{TeamRoster/Line|player=Lopon |flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=VIT
+|{{TeamRoster/Line|player=Photon|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Lyncas|flag=lt|role=j}}
+|{{TeamRoster/Line|player=Vetheo|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Carzzy|flag=cz|role=a}}
+|{{TeamRoster/Line|player=Hylissang|flag=bg|role=s}}
+|{{TeamRoster/Line|player=Mac |flag=uk|role=c}}
+|{{TeamRoster/Line|player=Carter |flag=uk|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo1|teamlist=FNC,G2,GIANTX,KCORP,MADL KOI,RGE,SK,BDS,HTICS,VIT
+|places=up,up,up,up,up,up,up,up,stay,stay
+|finalorder=SK,BDS,G2,FNC,KCORP,HRTS,GIANTX,MAD KOI,VIT,RGE
+|row1=up
+|row2=up
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=up
+|row8=up
+|row9=stay
+|row10=stay
+|legend=true
+|up= [[LEC/2024 Season/Summer Playoffs|Playoffs]] Seed
+|stay= Not Qualified for Playoffs
+|isover=yes
+|useasresults=no
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO1
+}}
+{{Box|end}}
+{{Bracket|3KOTH|cargo=Yes
+|R1_title=Tiebreakers Round 1
+|R2_title=Tiebreakers Round 2
+|R1M1_cargomatch=Tiebreakers_1
+|R2M1_cargomatch=Tiebreakers_2
+}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with
+|gamefields=Blue,Red,VODs,MVP
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w4bg1=up
+|w4bg2=up
+|w4bg3=up
+|w4bg4=up
+|w4bg5=up
+|w4bg6=up
+|w4bg7=up
+|w4bg8=up
+|w4bg9=stay
+|w4bg10=stay
+|w3bg1=up
+|w3bg2=up
+|w3bg3=up
+|w3bg4=up
+|w2bg1=up
+|orderby=record
+|places=up,up,up,up,up,up,up,up,stay,stay
+|finalorder=SK,BDS,G2,FNC,KCORP,HRTS,GIANTX,MAD KOI,VIT,RGE
+}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=game|displaytext=Player of the Game Standings
+|columns=Times
+}}
+
+== Media ==
+=== Streams ===
+{{Box|start}}
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/polsatgames|lang=pl}}
+* {{stream|url=https://www.twitch.tv/litofficial|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.twitch.tv/hitpointcz|lang=cz}}
+* {{stream|url=https://www.twitch.tv/gamersloungegr|lang=gr}}
+* {{stream|url=https://www.twitch.tv/riotgamesturkish|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCrPE9FDBnSMX6W5K0-r7K-g|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCjocsYZyDCFfU-KAfM44APg|lang=rs}}
+* {{stream|url=https://www.youtube.com/@GamersLoungeGr|lang=gr}}
+* {{stream|url=https://www.youtube.com/@Lolespor|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://trovo.live/s/LEC/|lang=usuk|display=Trovo}}
+* {{stream|url=https://trovo.live/s/GamersLoungeGr|display=Trovo|lang=gr}}
+* {{stream|url=http://play.afreecatv.com/leclcs|lang=kr|display=AfreecaTV}}
+{{Box|end}}
+
+=== Co-streams ===
+* {{stream|url=https://www.twitch.tv/caedrel|lang=en|display=Caedrel}}
+* {{stream|url=https://www.twitch.tv/ibai|lang=es|display=Ibai}}
+* {{stream|url=https://www.twitch.tv/kamet0|lang=fr|display=Kameto}}
+* {{stream|url=https://www.twitch.tv/lynxcerezlol|lang=tr|display=LynxCerez}}
+* {{stream|url=https://www.twitch.tv/naru|lang=tr|display=Naru}}
+* {{stream|url=https://www.twitch.tv/tolkin|lang=de|display=Tolkin}}
+* {{stream|url=https://www.twitch.tv/zod0416|lang=tw|display=Zod}}
+<!--* {{stream|url=https://www.twitch.tv/teamheretics|lang=es|display=Heretics Twitch}}-->
+
+=== Broadcast Talent ===
+==== Broadcast Talent ====
+*{{player|Sjokz|flag=be|name=Eefje Depoortere}} - Host
+*{{player|Laure|flag=fr|name=Laure Valée}} - Interviewer
+*{{player|Broxah|flag=dk|name=Mads Brock-Pedersen}} - Analyst
+*{{player|Guldborg|flag=DK|name=Mikkel Guldborg Nielsen}} - Analyst
+==== Casters ====
+*{{player|Medic|link=Medic (Aaron Chamberlain)|flag=uk|name=Aaron Chamberlain}} - Play-by-Play Caster
+*{{player|Drakos|flag=us|name=Daniel Drakos}} - Play-by-Play Caster
+*{{player|Hysterics|flag=au|name=Jake Osypenko}} - Play-by-Play Caster
+*{{player|Vedius|flag=uk|name=Andrew Day}} - Color Caster
+*{{player|Dagda|flag=IE|name=Robert Price}} - Color Caster
+==== Guest Casters ====
+*{{player|Odoamne|flag=ro|name=Andrei Pascu}} - Color Caster
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|de}} Berlin, Germany
+|-
+|Riot Games Arena Berlin
+|-
+|''Capacity'' - 210
+|-
+|[[File:Riot Games Arena Berlin.jpg|320px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|}
+
+=== Announcements ===
+* December 6, [https://lolesports.com/article/2024-lec-season-changes-all-you-need-to-know/bltff6a59c97937f0fa 2024 LEC Season Changes: All you need to know]
+
+=== Viewership Statistics ===
+* ''See [[LEC/2024_Season/Summer_Playoffs#Viewership_Statistics|Playoffs Viewership Statistics]].''
+
+=== Additional Content ===
+{{TournamentMedia
+|dates=*,2024-05-01,2024-06-01,2024-07-01
+|names=,May,June,July
+}}
+
+== References ==
+<references/>

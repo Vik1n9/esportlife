@@ -1,0 +1,69 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Patoy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Patoy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Patoy
+|name=Jordan Blackburn
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1993
+|birth_date_month=March
+|birth_date_day=4
+|checkbox1=No
+|checkboxComp=No
+|ids=mMe Patoy, d Patoytoy
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/patoytoy
+|twitter=Patoylol
+|reddit=Patoytoy
+|linkedin=https://www.linkedin.com/in/jordanblackburn123/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+Patoy hails from San Diego, California in the USA. He started playing competitive games at a young age starting with Counter-Strike. He moved onto games such as World of Warcraft and Starcraft and eventually picked up League of Legends. Patoy has always strived to be the best at what he does, granted he admits at times that he is a slow learner but with persistence and determination he always ends up on top.
+
+== Trivia ==
+* Was at a low elo for a long time until he met with [[DontMashMe]], who motivated him to play more ranked games.
+* Always plays the game without shoes on, even at live events.
+* His old standby champions include {{ci|Janna}}, {{ci|Blitzcrank}}, and {{ci|Nunu}}.
+* His new favorite champions are {{ci|Zyra}} {{ci|Alistar}}, and {{ci|Lulu}}.
+* Listens to electro, house, rap, DnB, and pop music.<ref>[http://www.team-dignitas.org/articles/news/League-of-Legends/3508/Interview-with-Patoy-Having-a-small-champion-pool-can-be-extremely-bad-unless-its-the-holy-trinity-of-supports-Lulu-Sona-and-Thresh/ Interview with Patoy: "Having a small champion pool can be extremely bad, unless it's the holy trinity of supports, Lulu, Sona and Thresh"] ''team-dignitas.org''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

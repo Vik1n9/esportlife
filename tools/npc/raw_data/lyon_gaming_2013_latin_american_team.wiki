@@ -1,0 +1,112 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lyon%20Gaming%20(2013%20Latin%20American%20Team)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.813Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lyon Gaming (2013 Latin American Team)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Rainbow7
+|name= Lyon Gaming
+|orgcountry= Mexico 
+|country= Mexico
+|region= LAN
+|image= Lyon Gaminglogo profile.png
+|owner=
+|created= Organization 2013-04-02
+|disbanded= Organization 2017-12-05
+|rosterphoto= MSI2017 LYN.png
+}}{{TOCRWI|2}}
+
+'''Lyon Gaming''' is a professional League of Legends team from Latin America. In November 2017 it was determined that the organization did not own the rights to its branding or logo, and the team rebranded to [[Rainbow7]] for the [[LLN/2018 Season/Opening Season|2018 Season]].
+
+== History ==
+Lyon was founded by [[Karzek]], [[FraGio]], and [[Nikez]] in the early 2013 with the sole purpose of creating a highly competitive team for its region. Even though the squad did not make any early major appearance, they were considered to be one of the top contenders from Latin America since the start due to their player’s individual skill and achievements. 
+
+In late April, [[Porky (Gerardo Cuamea)|Porky]] joined as their first Sub while [[Seiya]] replaced their former AD Carry, [[Cpt Cahdez]].
+
+On May 14, [[Carreira]] decided to leave the team to pursue his own personal goals. [[NerzhuL]] joined briefly after to fulfill the Support role.
+
+=== 2015 Preseason ===
+Lyon Gaming [[IEM Season IX - San Jose/Qualifiers|qualified]] for [[IEM Season IX - San Jose|IEM San Jose]] with a roster consisting of [[Porky (Gerardo Cuamea)|Porky]], [[Thyak]], [[Seiya]], [[NerzhuL]], and [[Arce]]. However, NerzhuL and Arce were unable to attend the event due to visa issues, and so [[Maplestreet]] and [[Dodo8]], the bot lane of [[Team 8]] substituted for the team. They were eliminated in the quarterfinals, losing 0-2 to [[Unicorns of Love]] and tied for fifth place with [[paiN Gaming]].
+
+=== 2016 Season ===
+In 2016, Lyon Gaming started the year as the top team in Latin America North and qualified for the [[2016 International Wildcard Invitational|IWCI 2016]], their first chance to compete internationally. However, their performance at the IWCI fell short of expectations, as they struggled against teams from other regions and failed to advance far in the tournament. This disappointing result fueled their determination to improve and led them to refine their strategies and teamwork.
+
+Later that year, Lyon returned to the international stage at the [[2016 International Wildcard Qualifier|IWCQ 2016]] with renewed focus and skill. They had a strong showing throughout the tournament, culminating in an intense, five-game series against Russia’s [[Albus NoX Luna]], where they narrowly missed out on a spot at [[2016 Season World Championship|Worlds]]. Although they ultimately fell in the fifth game, Lyon’s performance at the IWCQ redeemed their earlier loss and solidified their reputation as a leading team in Latin America.
+
+=== 2017 Season ===
+In 2017, Lyon Gaming cemented its reputation as the top team in Latin America North with an undefeated year, winning both the [[LLN/2017 Season/Opening Playoffs|Opening]] and [[LLN/2017 Season/Closing Playoffs|Closing]] Season championships. This dominance earned them slots at major international tournaments: the [[2017 Mid-Season Invitational]] and the [[2017 World Championship]]. Lyon Gaming showcased their exceptional talent, led by players like [[Seiya]], [[Oddie]], [[WhiteLotus]], [[Jirall]], and [[Genthix]], and represented Latin America on the global stage, even as they faced tough opponents from more established regions.
+
+Despite their success, 2017 also brought an unexpected challenge for the organization. The "Lyon Gaming" brand was legally owned by former player [[Thyak]], who retained the trademark rights even after leaving the team. Attempts to negotiate ownership of the brand were unsuccessful, forcing the organization to rebrand. In November 2017, Lyon Gaming officially became [[Rainbow7]]. While the rebrand marked the end of the Lyon Gaming name, it also signaled a new chapter for the team. [[Rainbow7]] carried forward Lyon’s legacy, remaining a dominant force in Latin America.
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+===Temporary Subs===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Role
+!Replacing
+!Tournament
+{{listplayer|Choisix|cr|Steven Cordero|Support}}
+|{{none}}
+|rowspan=1|[[IEM Season 11 - Challenger]]
+|-
+{{listplayer|maplestreet|ca|Ainslie Wyllie|AD}}
+|'''{{player|NerzhuL|flag=mx}}'''
+|rowspan=2|[[IEM Season IX - San Jose]]
+|-
+{{listplayer|Dodo8|kr|Jun Kang (강준혁)|Support}}
+|'''{{player|Arce|flag=pe}}'''
+|-
+{{listplayer|FraGio|pe|Giovanne Huamán|Jungle}}
+|'''{{player|Thyak|flag=mx}}'''
+|rowspan=1|[[HTC Ascension]] - Week 1 Day 1
+{{Listplayer/EndTemp}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Biblos|mx|Carlos Gibran|'''Owner & Chief Executive Officer'''|newteam=R7}}
+{{listplayersp|Zanxter|mx|Patricio Villareal|'''Team Manager'''|newteam=R7}}
+{{listplayer|Yeti (Rodrigo del Castillo)|mx|Rodrigo del Castillo|'''Head Coach'''|newteam=R7}}
+{{listplayersp|Cynoh|mx|Alan Corona|'''Chef'''|newteam=R7}}
+{{listplayersp|Maura55|mx|Maura García Rivas|'''Streamer'''|newteam=R7}}
+{{listplayer|Skin|mx|Eduardo Saldaña|'''Head Analyst'''|newteam=INF CR}}
+{{listplayer|Revehaza|mx|Luis López|'''Head Analyst'''|newteam=TSM}}
+{{listplayersp|Cohenn|mx|Santiago Ruiz de Aguirre|'''Head Analyst'''|newteam=JTHvK}}
+{{listplayer|Mozart|mx|Bismarck Sáenz|'''Team Manager'''|newteam=ANH}}
+{{listplayersp|Lindsan|cr|Diego Saborío|'''Streamer'''|newteam=FG}}
+{{listplayer|Losan|es|Alejandro López|'''Head Coach'''|newteam=Valencia}}
+{{listplayer|AndresX|mx|Andres Jamit|'''Manager'''|newteam=JTHvK}}
+{{listplayer|Minibestia|ar|Jesús Coll|'''Head Analyst'''|newteam=RMU}}
+{{listplayersp||mx|Toni D’Agostino|'''Team Manager'''|newteam=retired}}
+{{listplayersp|Karzek|cl|Matías Flores|'''Team Manager'''|newteam=LK}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+=== Images ===
+<gallery>
+2017 LYN.png|Lyon Gaming 2017 LLN Opening Season Roster
+2016Lyon roster.png|Lyon Gaming 2016 CLN Closing Season Roster
+Lyon New Roster 2015.jpg|Lyon Gaming 2016 CLN Opening Season Roster
+2013Lyon_Roster.png|Lyon Gaming 2013 LAT Regional Finals Season 3 Champions
+lyon gaming.png|Lyon Gaming Old Logo
+</gallery>
+
+=== Highlight Videos ===
+{{TDRight
+|name1=2016
+|content1=
+* April 8, [https://www.youtube.com/watch?v=GRe-lQPj5-Y <nowiki>[LoL] Copa Latinoamérica Norte Apertura - Final Havoks VS Lyon</nowiki>] (03h45m09s) (Spanish)
+* March 28, [https://www.youtube.com/watch?v=R02BofIjQMk <nowiki> [LoL] Copa Latinoamérica Norte Apertura - Semifinal 1 Lyon vs Revenge</nowiki>] (04h54m04s) (Spanish)
+}}
+
+== References ==
+<references />

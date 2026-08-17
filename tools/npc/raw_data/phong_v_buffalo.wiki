@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Phong%20V%C5%A9%20Buffalo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Phong Vũ Buffalo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Dashing Buffalo
+|name= Phong Vũ Buffalo
+|country= Vietnam
+|region= VN
+|image= Phong Vũ Buffalologo square.png
+|sponsor=[https://phongvu.vn/ PhongVu]<br>[https://www.nimo.tv/ NIMO TV]
+<!-- Staff -->
+|headcoach= 
+|manager= 
+<!-- Social Media -->
+|website= https://www.saigonbuffalo.com/
+|youtube= https://www.youtube.com/PVBuffalo
+|facebook= https://www.facebook.com/PhongVuBuffaloLoL
+|twitter= MrBuffalo7
+|discord= 
+|snapchat= 
+<!-- History -->
+|created= 2018-05-18
+|disbanded= 2019-05-31
+|rosterphoto= Phong Vũ Buffalo Roster 2018 Worlds.png
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''Phong Vũ Buffalo (PVB)''' was a Vietnamese League of Legends team. They were previously known as [[Young Generation]].
+
+== History ==
+=== 2016 Season ===
+In November 2016, '''Saigon Jokers''' disbanded, [[Nevan]], [[yT]], [[Venus]], [[Hafa]] (Naul), [[BigKoro|AD]] (BigKoro), and [[Suicunee]] (Palette) who were '''Saigon Jokers''' trainees decided to form '''Young Generation''' and start all over again from [[VCS A/2017 Season/Spring Promotion|VCS A 2017 Spring Promotion]]
+
+=== 2017 Season ===
+The team ended the VCS A Spring Promotion group stage at 1st place, with a 5-1 record. Advancing to 2nd and 3rd round, '''Young Generation''' swept Hue Audora and '''Cherry Esports''' with the 2-0 record, officially qualified for [[VCS A/2017 Season/Spring Season|VCS A 2017 Spring]]. In the team early days, they didn't have any sponsor, gaming house or even fan, the players had to use their own money to maintain the team; however, none of them came from a well-to-do family. Luckily, [[QTV]] who was '''Friends Forever Gaming''' owner helped the team with training facilities and allowed them to sleep over at his PC Bang.
+
+In their first split playing professionally, '''Young Generation''' played extremely well and finished 2nd place in [[VCS A/2017 Season/Spring Season|VCS A 2017 Spring]], the only team that they could not defeated is '''Marines Esports''', YG was swept 0-3 in the Final.
+After [[NIXWATER]] and [[Nevan]] left, [[Ren]] joined and became the team leader. Thanks to '''Marines Esports''' miracle run at [[2017 Mid-Season Invitational]], GPL got the second slot at Worlds and Vietnam got 2 slots at [[GPL/2017 Season/Summer|GPL 2017 Summer]] as well. They finished 2nd in [[VCS A/2017 Season/Summer Season|VCS A 2017 Summer]] and was only lost to '''Marines Esports''' again.
+
+YG ended [[GPL/2017 Season/Summer|GPL 2017 Summer]] group stage with a 7-1 record, advancing to 2nd round facing '''Ascension Gaming''' as they lost 2-3 and fell to loser bracket. The teams met again at the loser bracket final in order to gain their slot for Worlds 2017, losing the first 2 games of the series but they made a reverse swept, ending the match at 3-2.
+
+Finished [[Worlds 2017 Play-In]] group stage with a 2-2 record, placed 2nd. Losing to the 2nd round to [[Team WE]] (0-3), YG came back to Vietnam with cheer while GAM was blamed for their disappointed performance. Thanks to this record, '''Young Generation''' won at WeChoice Award with 53297 votes.
+=== 2018 Season ===
+Without changing anything, YG came up short at [[VCS 2018 Spring]] with the 4th place.
+
+Coming to summer, YG decided to release [[yT]] and [[Venus]] and [[Ren]] moved to head coach, [[Zeros]], [[Meliodas (Hoàng Tiến Nhật)|Meliodas]] and [[Xuhao]] joined. The team rebranded to [[Phong Vũ Buffalo]] after they received a huge sponsorship from Phong Vũ Computer. They then won [[VCS 2018 Summer]] with ease and represented Vietnam as an independent region at [[Worlds 2018 Main Event]]. Although the team failed to make it out of group, they still managed to bring [[Flash Wolves]] home with them, 'Thank Mr Buffalo'.
+
+=== 2019 Season ===
+'''Phong Vũ Buffalo''' retained their roster from the previous season. They proved their strength by winning [[VCS 2019 Spring]], thereby representing Vietnam coming to [[2019 Mid-Season Invitational]].
+
+The Buffalo started the group stage with three wins before [[Bombers]] and [[1907 Fenerbahçe]] took games off of them in the second round of the round robin. Fenerbahçe also finished 4-2 to force a tiebreaker game, which Phong Vũ won to advance to the knockout stage.
+
+[[Team Liquid]] swept Phong Vũ to send the Buffalo to face off against Vega Squadron for the final MSI Main Stage spot. The Buffalo jumped out to a 2-0 series lead before Vega took games three and four to tie the series. The fifth game was a back and forth affair before Phong Vũ aced Vega with the help of a triple kill by [[Naul]] to give the team the lead it needed to get the ball rolling and win the game.
+
+Phong Vũ was unsuccessful in the main stage of MSI until it faced [[G2]] on day three where the Vietnamese squad won its first game of the round robin. Phong Vũ won again versus G2 on day five, but could pick up no other wins and left the tournament after a sixth place finish in the group stage.
+
+Before the summer split, Phong Vũ renamed to [[Dashing Buffalo]] to match their new sponsor.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Nellie|vn|Vũ Hồng Nhật|'''Manager'''|newteam=Dashing Buffalo}}
+{{listplayer|Ren|vn|Nguyễn Văn Trọng|'''Head Coach'''|newteam=Dashing Buffalo}}
+{{listplayer|Ling |link=Ling (Nguyễn Mạnh Linh)|vn|Nguyễn Mạnh Linh|'''Analyst'''|newteam=Dashing Buffalo}}
+{{listplayer|H.Phong|link=JackieWind|vn|Phan Huy Phong|'''Coach'''|newteam=Matrix Esport Gaming}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Interviews ==
+
+== Videos ==
+
+== Highlight Videos ==
+
+==External Links==
+
+== Images ==
+<gallery>
+Phong Vũ Buffalo Roster 2018 Split 2.jpg|Summer 2018 Roster
+</gallery>
+
+==References==
+<references />

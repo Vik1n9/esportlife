@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=An&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「AN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=An
+|name=Chou Chun-An
+|nativename=周俊諳
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1994
+|birth_date_month=October
+|birth_date_day=20
+|favchamp=Lee Sin
+|favchamp2=Jinx
+|favchamp3=Elise
+|favchamp4=Sivir
+|checkbox1=No
+|compID1=OhReaL
+|compID2=AN
+|compID3=Anex
+|checkboxComp=No
+|ids=TPS OhReaL, ahq AN, 아라미 예뻐, 7pTW2r4aUr2T (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|teamrole1=Jungl
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/An_lol
+|facebook=https://www.facebook.com/ohrealLoL
+|instagram=_an_lol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''OhReaL''', '''AN''', and '''Anex'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+=== 2015 Season ===
+Placed directly into the finals of the gauntlet-style [[LMS/2015 Season/Summer Playoffs|playoffs]], they once again won the season, this time beating Hong Kong Esports 3-0 and automatically qualifying for the [[2015 Season World Championship]].
+
+At Worlds, ahq were seeded into Group B, along with [[Fnatic]], [[Invictus Gaming]], and [[Cloud9]] and went 3-3, advancing to the playoffs after a tiebreaker victory over Cloud9 (giving the North American team their fourth loss in a row that day). Their World Championship run ended in the quarterfinals, where they were drawn against tournament favorites [[SK Telecom]], earning a top 8 finish.
+
+=== 2019 Season ===
+On September 18, 2019, it was announced that An would retire by the end of September.<ref>[https://www.ahq.com.tw/news/11129.html 謝謝你帶來的精彩！An將於9/30正式退役 (Chinese)] ''ahq.com.tw''</ref><ref>[https://www.facebook.com/Ohreallol/posts/2316411428467407 An's Facebook Post (Chinese)] ''facebook.com''</ref>
+
+On September 30, 2019, An officially retired.<ref>[https://www.facebook.com/ahqeSportsClub/posts/1983580798411246 ahq e-Sports Club's Facebook Post (Chinese)] ''facebook.com''</ref>
+
+=== 2021 Season ===
+After not playing competitively for the entirety of 2020, AN came out of retirement to join [[Alpha Esports]] for [[PCS/2021 Season/Spring Season|PCS 2021 Spring]].
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

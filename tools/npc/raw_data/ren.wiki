@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ren&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.822Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ren」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ren
+|name=Nguyễn Văn Trọng
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1995
+|birth_date_month=April
+|birth_date_day=04
+|favchamp=Rumble
+|favchamp2=Maokai
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://booyah.live/studio/71672399
+|facebook=https://www.facebook.com/CoachingOnlineRen
+|instagram=ngai_ren
+|youtube=https://www.youtube.com/channel/UCVqM00Cw8WdWnb3q2asq3sQ
+|tiktok=ngairen
+|fanpage=https://www.facebook.com/HLVRensama
+|deeplol=https://www.deeplol.gg/pro/Ren
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|prev2=Mid
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Known as "Lord Ren" in Vietnam.
+* He is also jokingly referred to as "FNC Ren" by Vietnamese fans due to his lackluster performance with his {{ci|Gragas}} against [[Fnatic]] in a [[Worlds 2017 Play-In]] Groups match.
+* He is known for his catchphrase "Người Việt Nam không có dở" which means "Vietnamese players are not weak".
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

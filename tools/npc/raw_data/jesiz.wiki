@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jesiz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.665Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jesiz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Jesiz
+|name=Jesse Le
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=June
+|birth_date_day=17
+|favchamp=Nidalee
+|favchamp2=Ahri
+|favchamp3=Orianna
+|favchamp4=Zyra
+|checkbox1=No
+|compID1=Jesse
+|checkboxComp=No
+|ids=hipsterJesiz, Tricked Jesiz, tRICKED Jesiz, SK Jesse, hipsterhippo (KR), SK Jesiz (KR), small hippo (NA), Jesse Le
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/jesiz
+|facebook=https://www.facebook.com/LoLJesiz
+|twitter=Jesizlol
+|lolpros=https://lolpros.gg/player/jesiz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Jesse'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2015 Preseason===
+On October 23, '''Jesiz''' announced his departure from [[SK Gaming]] and free agency,<ref>[http://twitter.com/Jesizlol/status/525344525917900801 Jesiz's Twitter] ''twitter.com''</ref> and on October 27, it was announced that he would be replacing [[LOD]] as the midlaner for [[Team Coast]]. At the same time, [[Impaler]] from [[Supa Hot Crew]] joined Coast replacing [[Santorin]] in the jungle.
+
+Coast had given up their Expansion Tournament qualification due to losing three members of the team that had played in the [[Riot League Championship Series/North America/2015 Season/Spring Promotion|Promotion Tournament]]. However, they qualified via the [[Riot League Championship Series/North America/2015 Season/Expansion/Challenger Ladder|Challenger ladder]] with the top seed, ahead of [[Enemy eSports]]. Coast easily went through the online stage of the tournament, defeating [[Call Gaming]] and [[Team LoLPro|LoLPro]] both 2-0. Matched against [[Curse Academy]] in the live tournament, they lost in the first round 3-1 but then beat [[Final 5]] 3-1 and [[Team Fusion]] 3-2 and qualified for the [[Riot League Championship Series/North America/2015 Season/Spring Season|Spring 2015 LCS]]. Their starting roster going into the 2015 season included [[Cris]], [[Impaler]], Jesiz, [[DontMashMe|Mash]], and [[Sheep (Jamie Gallagher)|Sheep]].
+
+===2015 Season===
+At a 1-7 record after the fourth week of play, Coast replaced Jesiz with [[mancloud]]. However, they lost all of their remaining games and ended the split with a 1-17 record, automatically relegated to the [[2015 NA Challenger Series/Summer Season|NACS]].
+He later joined [[Team Dignitas]] as an analyst.
+
+===2016 Preseason===
+Jesiz substituted for [[Team Dignitas]]'s support [[KiWiKiD]] at [[IEM Season X - Cologne|IEM Cologne]] in November 2015. Seeded against [[Qiao Gu Reapers]] in the first round, the team lost 1-2 and were eliminated.
+
+===2016 Season===
+In May, Jesiz joined [[Immortals]] as assistant coach.<ref name="JesizAssistantCoach">[http://www.facebook.com/gg.Immortals/posts/1565509023743614:0 Jesiz joins as Assistant Coach] ''facebook.com''</ref>
+
+== Trivia ==
+
+=== Individual Awards ===
+* 1x EU 3rd All Pro Team (Summer 2017)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

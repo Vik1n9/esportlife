@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Contractz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.332Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Contractz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Contractz
+|name=Juan&nbsp;Arturo Garcia
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=25
+|favchamp=Nidalee
+|favchamp2=Rek'Sai
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' contractz <br> '''KR:''' LUFFY GEAR 5 <br> 정글 가이
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/contractz
+|twitter=Contractz
+|instagram=contractzlol
+|askfm=contractz
+|youtube=https://www.youtube.com/channel/UCo_pQfywk2w7R9KQv6j2aVw
+|deeplol=https://www.deeplol.gg/pro/Contractz
+|dpmlol=https://dpm.lol/pro/Contractz
+|bluesky=contractz.bsky.social
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+Contractz is from Redwood City, California. He started playing ''League of Legends'' in early season 2. In late 2015, Contractz joined [[Ember]] and competed in the North American Challenger Series. However, he was too young to compete in the promotion tournament and was replaced by [[Santorin]]. The team failed to promote and disbanded shortly afterward. Contractz then joined [[Cloud9 Challenger]], where he competed alongside ex-LCS stars like [[Balls]], [[Hai]], and [[LemonNation]]. The team defeated [[NRG Esports]] to qualify for the LCS. [[Cloud9]] sold the team and all of its players with the exception of Contractz, who they promoted to the C9 LCS squad.
+
+===2017 Season===
+Only 17 years old, Contractz was nonetheless an extremely hyped rookie prospect going into the 2017 season. The team proved dominant during the spring split regular season, but lost a few games near the end to finish 2nd to [[TSM]]. Contractz was awarded the Rookie of the Split award for his consistently strong individual performance. C9 lost the finals of playoffs to TSM in a close five-game series. In summer, C9 struggled more; they finished 4th in the regular season and were eliminated in the quarterfinals of playoffs by [[Dignitas]]. However, Contractz remained a strong performer and was voted 2nd All-Pro Team. In regional finals, C9 defeated [[CLG]] to qualify to Worlds as North America's third seed. C9 dominated their Play-In group and qualified to the main event without dropping a single game. Placed in Group A with [[SK Telecom T1]], [[EDward Gaming]], and [[ahq e-Sports Club]], C9 managed a 3-3 record and finished in 2nd place. In quarterfinals, they played against [[Team WE]], losing in a close five-game series that ended their season.
+
+===2018 Season===
+Over the past year, Contractz had established himself as one of the most exciting young players in North America. It came as a surprise to many when Contractz left C9 at the end of the year and joined [[Golden Guardians]] for the 2018 season. The Golden Guardians roster included several older players who had finished near the bottom of the standings the previous season, such as [[Lourlo]], [[Hai]], and [[Matt (Matthew Elento)|Matt]]. Few analysts predicted they would do well; the team ultimately finished in last place both splits, winning only 9 games across the entire season. It was a precipitous fall for Contractz, only one year removed from a top 8 finish at Worlds, to end up on a 10th place LCS team.
+
+===2019 Season===
+Contractz remained on Golden Guardians for the 2019 season and this time was surrounded by a more competitive roster that included [[Hauntzer]] and [[Froggen]]. While the team placed higher than it had the previous season and even reached playoffs in spring, Contractz's individual play weakened. In summer, the team failed to reach playoffs yet again, and at the end of the season, Contractz left Golden Guardians.
+
+===2020 Season===
+Once seen as the next North American star, Contractz failed to find an LCS starting spot at the beginning of the 2020 season and wound up playing for [[100 Thieves Academy]]. After a mediocre showing in the spring academy league, Contractz was promoted to the struggling [[100 Thieves]] LCS team mid-summer split to replace [[Meteos]]. Alongside other new addition [[Poome]], 100 Thieves managed to snap its losing streak and qualify for playoffs, but the team made an early playoffs exit.
+
+===2021 Season===
+Contractz returned to academy for the 2021 season, this time playing for [[Evil Geniuses Academy]]. In summer, he began substituting for the [[Evil Geniuses]] LCS team as a sixth man, replacing [[Svenskeren]] in certain games to shake up the team's jungle strategy. His first game was against a top-ranked TSM roster; Contractz led EG to an upset victory. On the analyst desk after the match, while reflecting on his rocky career over the past few years, he became visibly emotional. He would go on to win all four of the games in which he substituted and became known as the "secret weapon" of Evil Geniuses. In the [[LCS 2021 Championship]], Contractz became the starting jungler for the team, but failed to find the same success he had in the regular season. The team underperformed expectations and was eliminated by Cloud9 for a 5-6th finish.
+
+===2022 Season===
+After two years of academy struggles and mid-season substitutions, Contractz finally received a stable LCS starting position when he joined [[CLG]] at the beginning of the 2022 season. The CLG roster contained many players who had once been hyped prospects but who had struggled recently, including [[Palafox]], Poome, and Contractz himself. Contractz was expected to be the team's leader and star player, but was one of its weakest individual performers in spring; many fans wondered if he would be replaced by [[CLG Academy]] jungler [[RoseThorn]]. However, Contractz kept his spot for the summer split, and with the addition of top laner [[Dhokla]], CLG improved massively. The team finished the regular season in 4th place, the organization's best finish in three years. Contractz himself played a vital role in the team's success and was voted the year's Most Improved Player. CLG lost in playoffs to [[Team Liquid]] after a close five game series, but the year was still considered a success for the organization and the players given how low expectations had been for them at the start of the season.
+
+== Trivia ==
+* Created the ID '''Contractz''' when he was 11 and saw someone with the name "_Contracts_" on a ''Minecraft'' server.
+* Loves the game ''Town of Salem''.
+* Is from the same city as [[Palafox]]; they went to rival high schools.
+* Idolized [[Bjergsen]] and [[Doublelift]] when he was young.
+
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (2017 Summer)
+* LCS Rookie of the Split (2017 Spring)
+* LCS Most Improved Player (2022)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

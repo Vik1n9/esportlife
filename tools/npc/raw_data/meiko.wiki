@@ -1,0 +1,144 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Meiko&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Meiko」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Meiko
+|name=Tian Ye
+|nativename=田野
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1998
+|birth_date_month=June
+|birth_date_day=6
+|favchamp=Nami
+|favchamp2=Thresh
+|favchamp3=Yuumi
+|favchamp4=Alistar
+|checkbox1=Yes
+|favchamp5=Tahm Kench
+|favchamp6=Nautilus
+|compID1=Mad
+|compID2=Azure
+|checkboxComp=No
+|ids='''KR:''' qweasdqweasdb#1372 <br> '''EUW:''' cinema <br> '''NA:''' iv0ry tower
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/913001
+|weibo=https://www.weibo.com/n/Meiko田野
+|lolpros=https://lolpros.gg/player/meiko
+|deeplol=https://www.deeplol.gg/pro/Meiko
+|dpmlol=https://dpm.lol/pro/Meiko
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Mad''' and '''Azure'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+===2014 Season===
+Meiko played for a team called [[Rayunion]] starting mid 2014. The team was most noted for their support and jungler, [[hui (Lei Hui-Guo)|hui]]. The team's greatest accomplishment was beating [[Star Horn Royal Club]] in the qualifier for [[National Electronic Sports Tournament 2014]]. The team disbanded after disappointing results in [[Tencent Games Arena Grand Prix/Winter 2014|TGA Grand Prix Winter 2014]].
+
+===2015 Season===
+Meiko joined EDward Gaming as a substitute support player. At the time, EDG expected to run [[Mouse]] as their starting support. Mouse did not deliver the results EDG expected, going 0-2 to Snake in Week 2. In part because Mouse was transitioning from the mid lane, he had to catch up. His synergy with starting AD carry [[Deft]] also did not seem very high. In Week 3 of [[2015 LPL Spring]], Meiko played his first match with the team as starting support player against [[Invictus Gaming]]. EDG would 3-0 the week, picking up six map wins in total. Meiko's heavy roaming style suited the team, and they continued to improve. He received attention for his Annie and Thresh play in particular, following in the footsteps of [[Fzzf]], EDG's previous support, noted for his engagements. EDG placed first in the regular spring season, only losing 4 games with Meiko in total. His most impactful supports were Annie, Janna, and Thresh for the split.
+
+EDG placed first in the LPL Spring regular season and qualified for the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]]. They won the whole tournament with a close 3-2 win over [[LGD Gaming]]. They went to the [[2015 Mid-Season Invitational]] and won by upsetting [[SK Telecom T1]] in a 3-2 series. EDG played in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] and won the entire tournament with a crushing 3-0 victory over [[OMG]]. EDG placed first overall in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and entered the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] as the top seed. However, they ended in fourth after losing 3-0 to LGD Gaming and 3-1 to Invictus Gaming. They still qualified for the [[2015 Season China Regional Finals]] where they managed to qualify for the [[2015 Season World Championship]] as the second seed from China with a 3-1 victory over IG. At MSI, EDG pushed their way to the finals and upset the heavily favored [[SK Telecom T1]] by baiting Faker into picking LeBlanc and picking a comp to counter it. EDG won the series 3-2 and took home the title of best team in the World. EDG participated in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where they won again by taking a 3-0 set against OMG. They ended in first place once again in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] but in the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] they faltered, dropping a 3-0 set to LGD and a 3-1 set to IG to end in fourth place overall. They still qualified for the [[2015 Season China Regional Finals]] and managed to take the second seed from China to the [[2015 Season World Championship]] with a 3-1 victory over IG. EDG were placed in a group with SK Telecom, [[H2k Gaming]], and the [[Bangkok Titans]]. They came out of the group in second place and were drawn to play [[Fnatic]] in the quarterfinals but lost to them 3-0.
+===2016 Season===
+
+In Summer of 2016, EDG was placed in Group A of the [[LPL/2016_Season/Summer_Playoffs|2016 LPL Summer Split]]. This split was the start to EDG's resurgence as the team finished with an undefeated 16-0 regular season record. In the [[LPL/2016_Season/Summer_Playoffs|2016 LPL Summer Playoffs]] EDG defeated [[Team WE]] 3-2 in the semifinals which set them up for a rematch against [[Royal Never Give Up]]. In clean fashion, EDG defeated RNG in a 3-0 sweep and reclaimed the LPL championship. This also qualified them for the [[2016 Season World Championship]] as China's #1 seed.
+
+At Worlds, EDG was drawn in Group C along with [[H2k-Gaming]], [[ahq e-Sports Club]] and [[INTZ e-Sports]]. Despite being a favorite in the group, they dropped a game to H2K and INTZ which forced a tiebreaker between them an H2K for 1st and 2nd place. They lost the tiebreaker and ended up in 2nd place. EDG's worlds run ended after the team lost 1-3 to the [[ROX Tigers]] in the quarterfinals.
+
+===2017 Season===
+
+EDG failed to defend their LPL title in the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] and lost 1-3 to RNG in the [[LPL/2017_Season/Spring_Playoffs|2017 Spring Playoffs]] semifinals. They placed 3rd after taking down [[OMG]] 3-2 in the third place match. Summer was much better for EDG and they reclaimed their throne as LPL champions after taking down RNG 3-2 in the finals of the playoffs. Their [[2017 Season World Championship]] participation wasn't so stellar and ultimately EDG was knocked out of Worlds in the group stage. They finished tied for 3rd place with [[ahq e-Sports Club]].
+
+== Trivia ==
+* Was the team captain and main shotcaller for [[EDward Gaming]].
+* Is one of the four players to appear in the [[Worlds 2022]] [https://www.youtube.com/watch?v=HYsz1hP0BFo anthem].
+* Has decent Korean skills, thanks to his time with [[PawN]] and [[Deft]].<ref>[https://www.fomos.kr/esports/news_view?entry_id=57145 <nowiki>[창간 특집] EDG '메이코' 티안예, 4년간의 여정과 EDG의 미래를 말하다</nowiki>] ''fomos.kr.''</ref>
+* Part of a select group of players called "[[Royal roader]]", earned after winning their rookie split in a major region ([[LPL 2015 Spring]]).
+
+=== Statistics ===
+* Reached 1000 international assists during [[2024 Mid-Season Invitational|MSI 2024]] on May 11, 2024 in Upper Bracket Round 2 against [[GEN]], becoming the 4th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], Faker, and [[xiaohu]].
+* Reached 3000 assists in the LPL on August 19, 2017.
+** Was the 3rd player to reach 3000 assists in the [[LPL]] after [[Clearlove]] and [[Pyl (Chen Bo) | Pyl]].
+* Reached 4000 assists in the LPL on January 18, 2019.
+** The 1st player to reach 4000 assists in the LPL and within a single region worldwide.
+* Reached 5000 assists in the LPL on April 15, 2020.
+** The 1st player to reach 5000 assists in the LPL and within a single region worldwide.
+* Reached 6000 assists in the LPL on June 10, 2021.
+** The 1st player to reach 6000 assists in the LPL and within a single region worldwide.
+* Reached 7000 assists in the LPL on July 21, 2022.
+** The 1st player to reach 7000 assists in the LPL and within a single region worldwide.
+* Reached 8000 assists in the LPL on June 25, 2023.
+** The 1st player to reach 8000 assists in the LPL and within a single region worldwide.
+* Reached 9000 assists in the LPL on June 26, 2024.
+** The 1st player to reach 9000 assists in the LPL and within a single region worldwide.
+* Reached 10000 assists in the LPL on May 13, 2025.
+** The 1st player to reach 10000 assists in the LPL and within a single region worldwide.
+* Reached 300 wins in the LPL on July 14, 2019.
+** Was the 2nd player to reach 300 wins in the LPL after [[Clearlove]].
+* Reached 400 wins in the LPL on June 12, 2021.
+** Was the 1st player to reach 400 wins in the LPL.
+* Reached 500 wins in the LPL on February 5, 2023.
+** Was the 1st player to reach 500 wins in the LPL.
+* Reached 600 wins in the LPL on June 13, 2024.
+** Was the 1st player to reach 600 wins in the LPL.
+* Reached 500 games in the LPL on April 5, 2020
+** The 2nd player to reach 500 games in the LPL after [[Uzi (Jian Zi-Hao)|Uzi]].
+* Reached 600 games in the LPL on April 11, 2021
+** The 2nd player to reach 600 games in the LPL after [[Rookie]].
+* Reached 700 games in the LPL on March 27, 2022
+** Was the 1st player to reach 700 games in the LPL.
+* Reached 800 games in the LPL on March 19, 2023
+** Was the 1st player to reach 800 games in the LPL.
+* Reached 900 games in the LPL on March 22, 2024
+** Was the 1st player to reach 900 games in the LPL.
+* Reached 1000 games in the LPL on April 12, 2025
+** Was the 1st player to reach 1000 games in the LPL.
+* Reached 1100 games in the LPL on September 14, 2025
+** Was the 1st player to reach 1100 games in the LPL and within a single region worldwide.
+{{PlayerStatsTrivia}}
+
+===Individual Awards===
+* LPL 1st All-Pro Team x4 (Spring 2017, Spring 2018, Spring 2023, Summer 2024)
+* LPL 2nd All-Pro Team x5 (Summer 2018, Spring 2019, Summer 2021, Spring 2024, Split 3 2025)
+* LPL 3rd All-Pro Team x2 (Summer 2019, Spring 2021)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

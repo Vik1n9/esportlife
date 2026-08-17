@@ -1,0 +1,112 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Sencux&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.244Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Sencux」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Sencux
+|name=Chres Laursen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=September
+|birth_date_day=17
+|favchamp=Ahri
+|favchamp2=Zed
+|favchamp3=Xerath
+|checkbox1=No
+|compID1=Chres
+|checkboxComp=No
+|ids=Séncux (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/sencux1
+|facebook=https://www.facebook.com/sencux
+|twitter=SencuxLoL
+|instagram=sencuxlol
+|lolpros=https://lolpros.gg/player/chres
+|deeplol=https://www.deeplol.gg/pro/Sencux
+|dpmlol=https://dpm.lol/pro/Sencux
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was briefly known as '''Chres'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Chres "'''Sencux'''" Laursen was born in Glostrup and grew up in Brøndby, Denmark. He started playing video games from a young age, his first being Soldier Front, but he spent more time playing football. Sencux started playing League of Legends when he was 15.
+
+===2014 Season===
+At the start of the season, Sencux joined [[Reason Gaming]]. His first tournament with the team was the [[2014 EU Challenger Series/Spring Series/Series 2|EU Challenger Spring #2]], where they managed a 3rd place finish, securing themselves a place in the [[2014 EU Challenger Series/Spring Series/Playoffs|EU Challenger Spring Playoffs]]. Sencux and the team finished 4th after losing to [[Denial eSports.Europe]] in the third-place match. Subsequently, the team finished fourth again in the [[Copenhagen Games 2014]], losing to [[Counter Counter Clockwise]] in the third-place match. Sencux left [[Reason Gaming]] shortly after.
+
+He then moved on to join [[4everzenzyg]]'s fully Danish roster. Sencux and the team competed in the [[2014 EU Challenger Series/Summer Series/Series 2|EU Challenger Summer #2]], but lost to [[SK Gaming Prime]] in the quarterfinals. They also participated in [[Island of Legends 2014]] and were eliminated in the semifinals. Sencux then left the team.
+
+===2015 Season===
+Sencux joined [[SK Gaming Prime]] at the start of the season, and competed in the [[International Invitational Tournament 4]]. The team beat [[Big Plays Incorporated]] in the third-place match, finishing third.  was up next for [[SK Gaming Prime]]. Sencux and the team managed to qualify for the [[2015 EU Challenger Series/Spring Season|EU Challenger Spring Split]] through the [[2015 EU Challenger Series/Spring Qualifier|EU Challenger Spring Qualifier]], beating [[ThunderBot SPARTA]] in their group final.
+
+Soon after their qualification, [[Dignitas]] acquired the team's roster to form [[Team Dignitas EU]]. Sencux competed in the [[2015 EU Challenger Series/Spring Season|EU Challenger Spring Split]] with the team, finishing in fourth place. Since Sencux and [[Wunderwear]] were underage, the team could not play with the current roster and team turned down the opportunity to play with subs and gave up their spot in the [[2015 EU Challenger Series/Spring Playoffs|Spring Playoffs]], which then went to 5th place [[Reason Gaming]].
+
+During the off-season, [[Brokenshard]] transitioned from jungler to head coach and was replaced by [[Obvious]], and support [[Voidle]] was replaced by [[Nisbeth]], forming an all-Danish roster. In the [[2015 EU Challenger Series/Summer Season|summer split]] of the Challenger Series, the team finished in second place with an 8-2 record, behind only [[Gamers2]]. In the [[EUCS 2015 Summer Playoffs|playoffs]], Dignitas EU defeated [[Denial eSports EU]] 2-1 and [[Mousesports]] 3-2, finishing first and earning a spot in the [[League Championship Series/Europe/2016 Season/Spring Season|2016 Spring Season]] of the European LCS.
+
+===2016 Season===
+After Dignitas EU qualified for the EU LCS, Dignitas, forced to sell one of its two LCS teams, chose to sell their European team. With only one roster change ([[Obvious]] being replaced by [[Trashy]]), the roster moved to the new organization '''Follow eSports''', later [[Splyce]].<ref>[http://www.followesports.com/topics/post/103  Follow eSports Acquires Dignitas EU LCS Team] ''followesports.com''</ref><ref name="splycerename">[http://www.dailydot.com/esports/follow-esports-becomes-splyce/  New LCS franchise Follow eSports rebrands to Splyce, picks up Call of Duty team] ''dailydot.com''</ref> Splyce remained in seventh place or eighth place for most of the spring split, finishing in 8th place ahead of [[Team ROCCAT]] and behind [[Elements]]. With a favorable [[League Championship Series/Europe/2016 Season/Summer Promotion|promotion tournament]] seed, Splyce defeated [[Giants Gaming]] 3-2, requalifying for the LCS for the [[League Championship Series/Europe/2016 Season/Summer Season|summer split]].
+
+== Trivia ==
+* Wanted to be called 'Sencu', but the name was already taken.
+* Used to spend most of his time playing football.
+* Has known [[Wunder]] since 2011.<ref>[https://youtu.be/S3ljcBCnac4?t=204 A Misfit Story Episode 3: Sencux | The Danish Mindset] ''youtube.com''</ref>
+
+=== Individual Awards ===
+* 1x EU 3rd All Pro Team (Summer 2016)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Sencux.png|Sencux
+DEU-Sencux-2015eucs.png|DEU Sencux 2015 Summer
+SPY_Sencux_2016_Spring.png|SPY Sencux 2016 Spring
+SPY_Sencux_2016_Summer.png|SPY Sencux 2016 Summer
+SPY_Sencux_2017_Spring.png|SPY Sencux 2017 Spring
+SPY Sencux 2017 Summer.png|SPY Sencux 2017 Summer
+Sencux EU LCS 2018 Valentine.jpg|Sencux 2018 Valentine
+MSF Sencux 2018 Spring.png|MSF Sencux 2018 Spring
+MSF Sencux 2018 Split 2.png|MSF Sencux 2018 Summer
+RGE Sencux 2019 Split 1.png|RGE Sencus 2019 Spring
+RGO Chres, Ultraliga Season 5.png|RGO Chres, Ultraliga Season 5
+</gallery>
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

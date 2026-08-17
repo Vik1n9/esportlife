@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dimitry&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.404Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dimitry」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Dimitry
+|name=Juan&nbsp;Dimitry Hernández González
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Dominican Republic
+|residency=North America|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=2002
+|birth_date_month=June
+|birth_date_day=11
+|favchamp=Lee Sin
+|favchamp2=Kindred
+|favchamp3=Diana
+|favchamp4=Ekko
+|checkbox1=Yes
+|favchamp5=Kha'Zix
+|compID1=Shy Jungler
+|compID2=Quantum
+|compID3=Dimitry
+|compID4=Sly
+|checkboxComp=No
+|ids='''NA:''' XTEN Dimitry Šhy Jungler, 06112002, Little Rookie, overcome urself, overcome myself, how improve, Dimitrylol
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/dimitrylol
+|twitter=Dimitrylol02
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Shy''', '''Shy Jungler''', '''Quantum''', and '''Sly'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Juan Dimitry Hernández González started playing League at the end of Season 5.
+
+== Trivia == 
+* Reached Challenger in NA server at Season 11.
+* First player from the Dominican Republic to play and become champion of the [[LLA]].
+
+=== Individual Awards ===
+* LLA Outstanding Rookie (Closing 2021)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

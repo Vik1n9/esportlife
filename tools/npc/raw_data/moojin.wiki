@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MooJin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.566Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Moojin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=MooJin
+|name=Kim Moo-jin
+|nativename=김무진
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=April
+|birth_date_day=9
+|checkbox1=No
+|compID1=SIryun
+|compID2=Moojin
+|checkboxComp=No
+|ids='''KR:''' MooJin777 하리보 다 내꺼야
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/moojinlol
+|facebook=https://www.facebook.com/profile.php?id=100007765900445
+|twitter=MooJinLoL
+|instagram=moojinlol
+|deeplol=https://www.deeplol.gg/pro/MooJin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''SIryun'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

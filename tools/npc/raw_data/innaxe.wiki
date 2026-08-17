@@ -1,0 +1,167 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Innaxe&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.977Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Innaxe」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Innaxe
+|name=Nihat Aliev
+|nativename=Нихат Алиев
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Bulgaria
+|nationality=Bulgaria, United Kingdom
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=March
+|birth_date_day=23
+|favchamp=Tristana
+|favchamp2=Vayne
+|favchamp3=Caitlyn
+|checkbox1=No
+|compID1=Innaxe the God
+|checkboxComp=No
+|ids='''EUW:''' Uzi Trainee, man like Innaxe, RNG Innaxe
+|checkboxAutoTeams=Yes
+|team=FC Schalke 04 Evolution
+|checkbox2=No
+|role=Bot
+|teamhist1=Newcastle Jaguars
+|teamdate1=Jan 2016 - Apr 2016
+|teamrole1=AD
+|issub1=No
+|istrainee1=No
+|teamhist2=Simiarex
+|teamdate2=Aug 2016 - Sep 2016
+|teamrole2=AD
+|issub2=No
+|istrainee2=No
+|teamhist3=Sensei UK
+|teamdate3=Sep 2016 - Nov 2016
+|teamrole3=AD
+|issub3=No
+|istrainee3=No
+|teamhist4=XENEX
+|teamdate4=Jan 2017 - Apr 2017
+|teamrole4=AD
+|issub4=No
+|istrainee4=No
+|teamhist5=exceL
+|teamdate5=Jun 2017 - Nov 2017
+|teamrole5=AD
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=Rift Esports
+|teamdate6=Nov 2017 - Jan 2018
+|teamrole6=AD
+|issub6=No
+|istrainee6=No
+|teamhist7=Splyce
+|teamdate7=Jan 2018 - May 2018
+|teamrole7=AD
+|issub7=Yes
+|istrainee7=No
+|teamhist8=KIYF eSports Club
+|teamdate8=Jan 2018 - May 2018
+|teamrole8=AD
+|issub8=No
+|istrainee8=No
+|teamhist9=HWA Gaming
+|teamdate9=May 2018 - Sep 2018
+|teamrole9=AD
+|issub9=No
+|istrainee9=No
+|teamhist10=exceL Esports
+|teamdate10=Dec 2018 - May 2019
+|teamrole10=Bot
+|issub10=No
+|istrainee10=No
+|teamhist11=exceL UK
+|teamdate11=Dec 2018 - May 2019
+|teamrole11=Bot
+|issub11=No
+|istrainee11=No
+|teamhist12=Unicorns Of Love.CIS
+|teamdate12=May 2019 - Nov 2019
+|teamrole12=Bot
+|issub12=No
+|istrainee12=No
+|teamhist13=FC Schalke 04 Evolution
+|teamdate13=Dec 2019 - ''Present''
+|teamrole13=Bot
+|issub13=No
+|istrainee13=No
+|teamhist14=FC Schalke 04 Esports
+|teamdate14=Feb 2020 - Jun 2020
+|teamrole14=Bot
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/innaxe
+|facebook=https://www.facebook.com/Innaxelol
+|twitter=Innaxe
+|instagram=innaxelol
+|youtube=https://www.youtube.com/channel/UCmSIL06uwA_JXVOAR3Xu7vA
+|vk=https://vk.com/innaxelol
+|lolpros=https://lolpros.gg/player/innaxe
+|deeplol=https://www.deeplol.gg/pro/Innaxe
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Nihat "'''Innaxe'''" Aliev was born in Borino, Bulgaria, and lives in London, United Kingdom. He started playing ''League of Legends'' in Season 1, returning to the game to climb the ranked ladder in Season 3 after two years away from the game playing ''World of Warcraft''.
+
+===League of Legends Career===
+Innaxe's first team was [[Newcastle Jaguars]], and has since played for a number of teams in the UK scene - [[Sensei UK]], [[Team XENEX]], and [[exceL eSports]]. In January 2018 he was named as a substitute for [[Splyce]] and on the starting roster of [[KIYF eSports Club]].
+
+== Trivia ==
+* His ID comes from Romanian singer ''[[wikipedia:en:Inna|Inna]]'' plus "axe" - a name he first used while playing ''WoW''.
+* Enjoys producing his own music in his free time, and was offered related work in Istanbul, Turkey.
+* Is a huge fan of EDM, wants to go ''[[wikipedia:en:Tomorrowland (festival)|Tomorrowland]]'' and ''[[wikipedia:en:Ultra Music Festival|Ultra]]'' in the future.
+* Is one of only three Bulgarians to attend [[Worlds]], alongside [[BloodWater]] and [[Hylissang]].
+* Had a 100 percent winrate on {{ci|Heimerdinger}} at [[Worlds 2019]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

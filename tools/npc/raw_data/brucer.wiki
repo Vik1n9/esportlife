@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Brucer&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Brucer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Brucer
+|name=Bruno Pereira de Souza
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=March
+|birth_date_day=07
+|favchamp=Rumble
+|favchamp2=LeBlanc
+|favchamp3=Malzahar
+|favchamp4=Morgana
+|checkbox1=Yes
+|favchamp5=Orianna
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/brucerlol
+|facebook=https://www.facebook.com/brucerlol
+|twitter=brucerlol
+|instagram=brucerlol
+|deeplol=https://www.deeplol.gg/pro/Brucer
+|kick=brucer
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Portrayed as {{ci|LeBlanc}} in the CBLoL 2015 official wallpaper.
+* His favorite skin is [[Ravenborn LeBlanc]].
+* Famous for his straw hat, a common apparel in the Brazilian ''Festa Junina''.<ref>[https://twitter.com/brucerlol/status/1673103103682281472 Brucer's Tweet] ''twitter.com''</ref>
+* After he said he was a "professional gamer" during an interview about a totally unrelated subject for a local YouTube channel, and the footage became viral in Brazil, the community started calling him "the Neymar of Games".<ref>[https://www.youtube.com/watch?v=UfsF34mbjtw É O NEYMAR DOS GAMES] ''youtube.com''</ref>
+* Infamously known for his {{ci|Lucian}} performance against [[Jensen]]'s {{ci|Leblanc}} in his debut game in [[Worlds 2017]].
+* He often refers to his gameplay as a "Weakside Midlaner".
+* Is considered the idol of [[Los Grandes]] by one of its owners, '''Terron''', despite never having played directly for the team, but for the team involved in the merge who created the team, [[Team oNe eSports]].<ref>[https://twitter.com/ilhadaslendas/status/1771372729251291639 Ilha das Lendas' Tweet] ''twitter.com''</ref>
+* Is a big friend of [[dyNquedo]], who he jokingly says is his "boyfriend".<ref>[https://x.com/CBOLAOgg/status/1731356415451648016 CBOLÃO's X Post] ''x.com''</ref>
+* Nicknamed "Oreia" by [[Ilha das Lendas]] and the brazilian community, which can be roughly translated to "Big Ear".
+* His '''Kings Lendas''' team name comes from his nickname "Oreia".
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

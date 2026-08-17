@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Chiefs%20Esports%20Club&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.570Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Chiefs Esports Club」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= Chiefs Esports Club
+|orgcountry= Australia 
+|country= 
+|region= APAC
+|image=
+|headcoach= 
+|owner= 
+|website= http://chiefsesc.com
+|youtube= https://www.youtube.com/user/ChiefsESC
+|facebook= https://www.facebook.com/chiefsesc
+|twitter= ChiefsESC
+|irc= 
+|instagram= chiefsesc
+|tiktok= chiefsesc
+|threads= chiefsesc
+|stream= https://www.twitch.tv/team/chiefsesports
+|linkedin= https://au.linkedin.com/company/chiefsesc
+|sponsor= [http://gaming.logitech.com/en-au/home Logitech G] <br> [http://www.nvidia.com/content/global/global.php NVIDIA] <br> [http://www.dxracer.com.au/ DXRacer] <br> [http://www.redbull.com/au/en Red Bull] <br> [http://www.gigabyte.com.au/ Gigabyte] <br> [http://zowie.benq.com/ ZOWIE] <br> [https://www.paysafecard.com/en-au/ paysafecard]
+|created= Organization 2014-08-13 <br> LoL Division 2014-08-13
+|rosterphoto= The Chiefs LCP Roster 2025.jpg
+|disbanded= 
+|trades= 
+|otherwikis=cod,fortnite,halo,pubg,rl
+}}{{TOCRWI}}
+
+'''Chiefs Esports Club''' is an Oceanic team that is based in Australia.
+
+== History ==
+In August 2014, the roster of [[Team Immunity]] left their organization and formed '''Exodus Gaming''', later rebranded as The Chiefs eSports Club. Their initial roster included [[Swip3rR]], [[Spookz]], [[Swiffer]], [[Raydere]], and [[Rosey]], and that five-man lineup became the longest-standing active roster without any substitutions or changes in history, unbroken for 608 days. In May 2015, that streak was broken when Rosey left the team to join [[Sin Gaming]] and was replaced by [[EGym]]. Despite their roster change, the Chief's lineup remained at the top of their region for the duration of the 2015 season, with OPL victories all four periods of the OPL: [[OPL/2015 Season/Split 1|split 1]], [[OPL/2015 Season/Split 1 Playoffs|split 1 playoffs]], [[OPL/2015 Season/Split 2|split 2]], and [[OPL/2015 Season/Split 2 Playoffs|split 2 playoffs]]. Internationally, they fared less well, placing fifth at the [[2015 International Wildcard Invitational|International Wildcard Invitational]] in April and second at the [[2015 International Wildcard Tournament/Turkey|International Wildcard Qualifier]] for [[2015 Season World Championship|Worlds]].
+
+In 2016, the Chiefs placed second for the first time domestically in the [[OPL/2016 Season/Split 1|first OPL split]] but still upset the first-place [[Legacy eSports]] in the [[OPL/2016 Season/Split 1 Playoffs|playoffs]], to return to the [[2016 International Wildcard Invitational|IWCI]] once again. They then qualified at IEM Challenger for [[IEM Season 11 - Oakland]] – their first competition against teams from major regions – but lost 2-0 against [[Longzhu Gaming]] despite standout performances from Swiffer as Orianna.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==<!--
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayer/End}}
+-->
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Ceres|au|Evan Mascarenhas|'''Head Coach'''|newteam=none}}
+{{listplayer|Jellal|au|Kevin Yu|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|hashmashpotato||Hashem Hijazi|'''Analyst'''|newteam=none}}
+{{listplayer|Hankay|vn|Huỳnh Tấn Đạt|'''Analyst'''|newteam=Saigon Warriors}}
+{{listplayer|Poltron|au|Kim Nicholls|'''Head Coach'''|newteam=none}}
+{{listplayer|Babip|au|Leo Romer|'''Coach'''|newteam=none}}
+{{listplayer|Jellal||Kevin Yu|'''Coach'''|newteam=Bliss}}
+{{listplayer|Mirin|au|Mike Le|'''Coach'''|newteam=none}}
+{{listplayer|Babip|au|Leo Romer|'''Head Coach'''|newteam=CHF|comment=Jungler}}
+{{listplayer|Cuden|au|Mike Le|'''Coach'''|newteam=CHF}}
+{{listplayer|Caleb|au|Caleb Tagliaferri|'''Coach'''|newteam=none}}
+{{listplayer|Pado (Albert Cho)|nz|Albert Cho|'''Assistant Coach'''|newteam=none}}
+{{listplayer|SeeEl|Kr|Christopher Lee|'''Coach'''|newteam=GGA}}
+{{listplayer|Kai (Ben Stewart)|au|Ben Stewart|'''Coach'''|newteam=none}}
+{{listplayersp|Sangy|au|Frank Li|'''Founder/Owner'''|newteam=none}}
+{{listplayersp|JdudeTV|au|Josh Litherland|'''Content Manager'''|newteam=MMM}}
+{{listplayer|Cupcake|nz|Andy van der Vyver|'''Coach'''|newteam=DW}}
+{{listplayer|Volt|au|Tim Clay|'''Head Coach'''|newteam=none}}
+{{listplayer|Doruk|us|Doruk Hacioglu|'''Head Coach'''|newteam=Columbia College}}
+{{listplayer|Phantiks|au|Richard Su|'''Head Coach'''|newteam=ITN}}
+{{listplayer|Saiclone|nz|Jonny Weatherly|'''Assistant Coach'''|newteam=Tainted Minds}}
+{{listplayer|Volt|au|Tim Clay|'''Head Coach'''|newteam=Dire Cubs}}
+{{listplayersp|Jish|au|Josh Carr-Hummerston|'''Head Coach'''|newteam=IMT}}
+{{listplayersp|SandMan|au|Benjamin Green|'''General Manager'''|newteam=none}}
+{{listplayersp|FatCat|au|Eddy Sellers|'''Team Manager'''|newteam=none}}
+{{listplayersp|Ottoke|au|Luke Knapp|'''Analyst/Coach'''|newteam=none}}
+{{listplayersp|Elbion|us|Josh Tuffs|'''Analyst/Coach'''|newteam=Retired|comment=Overwatch}}
+{{listplayersp|Sigils|my|Amy Lau|'''Manager'''|newteam=Dire Wolves}}
+{{listplayer|Razleplasm|ca|Barento Mohammed|'''Coach'''|newteam=d EU}}
+{{listplayersp|ScREAM|au|Dean Giles|'''Manager'''|newteam=Team Exile5}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+=== Logos ===
+<gallery>
+Chiefs Esports ClubLogo 2014.png|First logo (- 2014)
+The Chiefs eSports Clublogo old.png|Previous logo (- 2022)
+Chiefs eSports Club oldlogo square.png|Previous logo (- 2024)
+</gallery>
+
+=== Rosters ===
+<gallery>
+CHF_Summer2016.png|The Chiefs eSports Club's OPL 2016 Summer Roster
+CHIEFS 2017 Spring.png|CHIEFS 2017 Spring
+Chiefs Roster 2018 Spring.png|Spring 2018 Roster
+</gallery>
+
+==External Links==
+
+==References==
+<references />

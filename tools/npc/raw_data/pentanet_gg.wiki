@@ -1,0 +1,69 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pentanet.GG&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Pentanet.GG」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=Yes
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Pentanet.GG
+|orgcountry=Australia
+|country= 
+|region= PCS
+|sponsor= 
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= https://www.pentanet.gg/
+|youtube= 
+|facebook= https://www.facebook.com/PentanetGG
+|twitter= PentanetGG
+|discord= 
+|snapchat= 
+|instagram= pentanetgg
+|stream= https://www.twitch.tv/pentanetgg
+<!-- History -->
+|created= Organization 2019-12-01
+|disbanded= LoL Division 2023-11-24
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''Pentanet.GG''' was an Australian team owned by '''Pentanet''', a Perth-based internet provider.
+
+== History ==
+
+== Trivia ==
+* They were the first and only team from Oceania to make it out of groups in a Riot-sanctioned international tournament.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||au|Stephen Cornish|'''Founder & Managing Director'''|newteam=none}}
+{{listplayersp||au|Zac Montague|'''Executive Associate'''|newteam=none}}
+{{listplayersp||au|Alison Balch|'''Head of Marketing & Media'''|newteam=none}}
+{{listplayersp|WINGUARDIAN|au|Winston Tjahjadi|'''Content Creator'''|newteam=none}}
+{{listplayer|Westonway|uk|Scott Farmer|'''Head Coach'''|newteam=FURIA}}
+{{listplayer|Udysof|au|Toby Horne|'''Coach'''|newteam=none}}
+{{listplayer|Chippys|nz|Ryan Short|'''Head Coach'''|newteam=PGG|comment=Top}}
+{{listplayer|Charlie (Charlie Wraith)|au|Charlie Wraith|'''Head Coach'''|newteam=retired}}
+{{listplayersp||au|Pete Curulli|'''General Manager'''|newteam=none}}
+{{listplayer|Udysof|au|Toby Horne|'''Coach'''|newteam=PGG|comment=Coach}}
+{{listplayer|Westonway|uk|Scott Farmer|'''Head Coach'''|newteam=IZI}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

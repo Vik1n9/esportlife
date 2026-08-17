@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Solid%20(Diego%20Vallejo)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.921Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「SolidSnake」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Solid
+|name=Diego Vallejo Trujillo
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Peru
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1998
+|birth_date_month=August
+|birth_date_day=10
+|favchamp=Zac
+|favchamp2=Sejuani
+|favchamp3=Lee Sin
+|checkbox1=No
+|compID1=SolidSnake
+|checkboxComp=No
+|ids='''LAN''': RyL SolidSnake<br>'''NA:''' SolidSnakexP, ZTG SolidSnake, INF SolidSnake<br>'''KR''': oftwofn04<br>'''EUW:''' maleco,GAMARIQQ, reset my blue
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/solidsnakelol
+|facebook=https://www.facebook.com/zsolidsnake
+|twitter=SolidSnakeLoL
+|instagram=solidsnakelol
+|lolpros=https://lolpros.gg/player/solidsnake
+|deeplol=https://www.deeplol.gg/pro/Solid-Diego_Vallejo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''SolidSnake'''.
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Diego Vallejo was born in Lima, Peru.
+
+== Trivia ==
+* His favorite champion is {{ci|Zac}}.
+* Considered one of the best junglers in Latin America.
+* His IGN comes from one of the primary protagonists of the '''[[wikipedia:en:Metal Gear|Metal Gear]]''' video game series.
+* Was praised by several casters and analysts from all around the globe for his performance during [[Worlds 2018]].
+* He doesn't like jelly.
+
+=== Individual Awards ===
+* LLA All Pro Team (Closing 2021)
+* LLA Most Weekly MVPs in his role in the split (Opening 2019)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=AnDa&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.630Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「AnDa」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=AnDa
+|name=Andy Hoang
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1995
+|birth_date_month=August
+|birth_date_day=3
+|favchamp=Nidalee
+|favchamp2=Jayce
+|favchamp3=Lulu
+|checkbox1=No
+|compID1=Chorong
+|checkboxComp=No
+|ids='''NA:''' C9 Mudkip, Naeun, mulgokizary, AnDa<br>'''KR:''' chorongie2
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/AnDa
+|facebook=https://www.facebook.com/AnDa0803
+|twitter=AnDa
+|instagram=anda
+|discord=https://discordapp.com/invite/sQ6gWsq
+|deeplol=https://www.deeplol.gg/pro/AnDa
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Chorong'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Top
+}}
+==Biography==
+
+===2016 Season===
+'''Chorong''' joined NA Challenger team [[Astral Authority]] for the [[NA Challenger Series/2016 Season/Spring Qualifiers/Open Qualifier|NACS Open Qualifier]]. The team made it to the [[NA Challenger Series/2016 Season/Spring Qualifiers|final qualifier round]], renaming to [[Samadder Gaming]]. After qualifying, the team renamed to [[Dream Team]]. Dream Team finished the season in fifth place, losing an automatic tiebreaker with [[Team Liquid Academy]] due to head-to-head record. They missed out on the [[NA Challenger Series/2016 Season/Spring Playoffs|playoffs]] but received higher seeding for the [[NA Challenger Series/2016 Season/Summer Qualifiers|summer qualifier]] due to finishing ahead of [[Enemy]].
+
+== Trivia ==
+* His ID '''AnDa''' is a reference to ''StarCraft'' player NaDa and his own name (Andy).
+* His previous ID '''Chorong''' comes from [[wikipedia:en:Apink|Apink]] member Park Cho-rong.
+* Is the cousin of [[Balls]].
+* Achieved Global Elite rank in ''CS:GO''.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

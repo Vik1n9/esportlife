@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Moss%20(Sorawat%20Boonphrom)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.765Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Moss」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Moss
+|name=Sorawat Boonphrom
+|nativename=สรวัชร์ บุญพรม
+|namealphabet=Thai
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Thailand
+|residency=Southeast Asia
+|checkbox-res=No
+|checkbox1=No
+|compID1=LastMonday
+|compID2=Oppa
+|compID3=Wowwww
+|compID4=Key
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Oppa''' and '''LastMonday'''.
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+Sorawat "'''LastMonday'''" Boonphrom joined [[Friday Night]] as the starting AD carry. The team played in the [[2013 LCS Pro League Thailand/Regular Season/June|2013 LCS Pro League Thailand June season]], but the team did not perform well and disbanded shortly afterward. LastMonday then played briefly for [[I'll Carry U]] in the [[2013 LCS Pro League Thailand/Regular Season/July|2013 LCS Pro League Thailand July season]].
+
+===2014 Season===
+LastMonday changed his name to '''Oppa''' and joined [[Team Infinite]] as a substitute AD carry for the Winter season of the [[2014 GPL Winter|2014 Garena Premier League]] (GPL).<ref>[https://www.facebook.com/ifinesport/posts/481656448600064 Infinite Esport Facebook Post October 14, 2013 (Thai)] ''facebook.com''</ref> While on the team as a substitute, he also played on the starting roster of [[Judgement]] during the Winter season of the [[2014 Thailand Pro League/Winter|2014 Thailand Pro League]] (TPL). Both Judgement and Team Infinite fared poorly in their respective tournaments, with neither team escaping Group Stage. Judgement disbanded and Oppa moved to the starting AD carry position for Team Infinite to compete in the [[2014 Thailand Pro League/Summer|2014 TPL Summer]]. The team failed to make it to the Final Bracket, but qualified for the [[Thailand Grand Championship 2014]]. They placed 2nd at the tournament, qualifying for next year's GPL.
+
+===2015 Season===
+In the [[2015 GPL Spring]], Team Infinite again struggled. They ultimately went 0-12 in groups and were eliminated from the tournament. The team also had a disappointing finish in the [[2015 Thailand Pro League/Spring|2015 TPL Spring]], failing to reach the final bracket even against local competition. Oppa left the team, changed his name to '''Moss''', and joined [[Bangkok Titans]], Team Infinite's domestic rival. Bangkok Titans had recently struggled to fill its support position, so Moss switched roles to support alongside AD carry [[Lloyd]]. His first appearance on the team was at the [[2015 International Wildcard Invitational]], where the team went undefeated in the Round Robin stage. In the playoffs, however, they were eliminated 0-3 by the eventual winners, [[Beşiktaş e-Sports Club]].
+
+Bangkok Titans played in the [[2015 GPL Summer]], where they achieved a 1st place finish and qualified for the [[2015 International Wildcard Tournament/Turkey|2015 International Wildcard Tournament]] in Turkey. They defeated Oceania's [[The Chiefs eSports Club]] in the finals to qualify for the [[2015 Season World Championship]]. They were placed in group C, along with [[SK Telecom T1]], [[EDward Gaming]], and [[H2k-Gaming]]. Unfortunately, they failed to win a single game and were knocked out of the tournament in last place. Moss was later voted as the support to represent Southeast Asia during the [[International Wildcard All-Star Melbourne 2015]].
+
+===2016 Season===
+Moss remained with Bangkok Titans for the [[Thailand Pro League/2016 Season/Spring Season|2016 TPL Spring]],<ref>[https://www.facebook.com/BangkokTitans/posts/968795203190916:0 Bangkok Titans Facebook Post January 7, 2016 (Thai)] ''facebook.com''</ref> where they went undefeated over 25 games for a 1st place finish. At the [[GPL/2016 Season/Spring|2016 GPL Spring]], the team finished in 2nd place, losing 3-1 to [[Saigon Jokers]] in the finals. Although Bangkok Titans qualified for the [[GPL/2016 Season/Summer Season|2016 GPL Summer]], Moss did not attend. His position on the team was filled by [[Whatthejes]], who was on loan from [[Underdog]]. After the tournament, Moss left the team.<ref>[https://www.facebook.com/BangkokTitans/photos/a.297060900364353.64349.289291861141257/1151458388257929/?type=3 Bangkok Titans Facebook Post September 8, 2016 (Thai)] ''facebook.com''</ref>
+
+== Trivia ==
+* He was the captain of Team Infinite.
+* Known for unusual support picks, such as {{ci|Kennen}} and {{ci|Gragas}} during the 2015 International Wildcard Invitational.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

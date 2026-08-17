@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shad0w&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.245Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shad0w (Italian player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Shad0w
+|name=Zhao Zhi-Qiang
+|nativename=赵志强
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Italy
+|nationality=Italy
+|residency=China
+|birth_date_year=2001
+|birth_date_month=February
+|birth_date_day=25
+|favchamp=Lee Sin
+|favchamp2=Gragas
+|favchamp3=Kha'Zix
+|checkbox1=No
+|compID1=Shadow
+|checkboxComp=No
+|ids='''EUW''': The Qiaang#The<br>'''CN:''' 在线中翻 <br> '''KR:''' JZADfans#KR1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/opshadow
+|twitter=shadowlol
+|instagram=zhiqiang1162
+|weibo=https://weibo.com/n/Shad0wo
+|lolpros=https://lolpros.gg/player/shad0w
+|deeplol=https://www.deeplol.gg/pro/shad0w
+|dpmlol=https://dpm.lol/pro/Shad0w
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''Shadow'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|noteamhist=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Was born in Milan, Italy to a family of Chinese origin.
+* Started playing in Season 3.
+* Reached Challenger in Season 7, hitting EU West rank 1 in April 2018.
+* Dropped out of high school at age 16 to become a pro player. 
+* Plays mid and bot in addition to jungle. 
+* Was offered a spot on [[EDward Gaming]] in 2019, but declined due to disliking how hands-on the team was with their players.
+* Is often remembered for his accidental {{ci|evelynn}} R into [[micaO]]'s {{ci|ashe}} R during [[MAD Lions]] vs [[INTZ]] in [[Worlds 2020]].<ref>[https://x.com/riotgames/status/1981466003096949127 Riot Games' X Post] ''x.com''</ref>
+* Is the younger brother of Chinese streamer [https://liquipedia.net/overwatch/Zhao_Yichen pigff].
+* Matched the kill record for [[LPL]] junglers standing at 17, set by [[Karsa]] on {{ci|Viego}} in [[LPL 2022 Spring Playoffs]] vs [[JD Gaming]], with a 17/0/10 {{ci|Naafiri}} game in [[LPL 2025 Split 2 Placements]] vs [[Ninjas in Pyjamas.CN|Ninjas in Pyjamas]]
+* First and only European player to win the LPL.
+
+=== Individual Awards ===
+* 1x EU 1st All Pro Team (Summer 2020)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

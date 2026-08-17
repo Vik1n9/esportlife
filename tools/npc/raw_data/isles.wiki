@@ -1,0 +1,62 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Isles&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.979Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Isles」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Isles
+|name=Jonah Rosario
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=North America
+|birth_date_year=2001
+|birth_date_month=March
+|birth_date_day=07
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Isles1#NA1, Isles2#NA1, Isles3#NA1<br>'''BR:''' sojourner#LYON
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/islesworld
+|twitter=islesworld1
+|deeplol=https://www.deeplol.gg/pro/Isles
+|dpmlol=https://dpm.lol/pro/Isles
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

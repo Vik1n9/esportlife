@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Blank%20(Kang%20Sun-gu)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.382Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Blank」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Blank
+|name=Kang Sun-gu
+|nativename=강선구
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=April
+|birth_date_day=30
+|favchamp=Rek'Sai
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR''': Blank<br>wqrdsfko<br>thxthxman
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/9848384
+|facebook=https://www.facebook.com/profile.php?id=100007329066866
+|twitter=Blanklol98
+|instagram=blanklol98
+|youtube=https://youtube.com/channel/UC_ykZmL7_QW6x4AbTDkG34A
+|deeplol=https://www.deeplol.gg/pro/Blank-Kang_Sun-gu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=His name was previously stylized '''B1ank'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|nicknames=LL, Black
+}}
+==Biography==
+===2015 Season===
+Kang "'''Blank'''" Sun-gu joined [[Energy Pacemaker.Carries]] in December of 2014. EPC played in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup/Spring Season]] where they placed 17th-28th after losing 3-0 to [[Team King]]. They then participated in the [[2015 LoL Secondary Pro League/Spring Season|2015 LSPL Spring Season]] but only placed third in their group and were forced to play in the [[2015 LoL Secondary Pro League/Summer/Relegation|2015 LSPL Summer Relegation Tournament]]. Here, EPC managed to requalify for the LSPL with 2-0 victories over [[Team DK]] and [[Stand Point Gaming]]. Blank left EPC to join [[Star Horn Royal Club]] as a jungler in May of 2015. His first professional games were as a sub for [[inSec]] during his injury in the LPL Spring Season. Royal ended in tenth place and were eventually relegated. His only other games were in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where Royal lost 3-0 to [[Snake eSports]] in the second round.
+
+===2016 Season===
+Blank left SHRC in December to join [[SK Telecom T1]] as a jungler. In the [[LCK/2016 Season/Spring Season|LCK]] first round robin, SKT ran [[bengi]] as their starting jungler, and Blank played only four games with a 1-3 record. He made his international debut at [[IEM Season X - World Championship|IEM Katowice]] in March, when the team brought him instead of [[bengi]] to compete. SK Telecom swept the event, winning in only seven games. Blank's performance improved in the second round robin where he became the team's starting jungler, helping SKT achieve third place in the regular season. During the [[LCK/2016 Season/Spring Playoffs|playoffs]], SKT placed first, winning their third championship in a row and giving them a seed to the [[2016 Mid-Season Invitational]].
+
+== Trivia ==
+* His ID '''Blank''' comes from the song "Blank Space" from [https://en.wikipedia.org/wiki/Taylor_Swift Taylor Swift].
+* He was infamously once called "Agent 612" because of a total damage dealt to opponents.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

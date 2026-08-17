@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Road%20(Yun%20Han-gil)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.766Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Road」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Road
+|name=Yun Han-gil
+|nativename=윤한길
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=September
+|birth_date_day=30
+|favchamp=Bard
+|favchamp2=Karma
+|checkbox1=No
+|compID1=Lime
+|compID2=TaRo
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/yhk0930
+|facebook=https://www.facebook.com/yhk0930
+|instagram=yhk0930
+|weibo=https://weibo.com/u/5966742210
+|deeplol=https://www.deeplol.gg/pro/Road-Yun_Han-gil
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Lime''' and '''TaRo'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+===2016 Season===
+
+Road joined EDG's new LSPL team [[EDward Esports]] in December 25 of 2015 when they were formed to compete in the LSPL. Despite a rocky start to the [[LPL/2016_Season/Spring_Season|2016 LSPL Spring Season]], EDward Esports proved to be the most consistent team and finished 1st in the regular season with a 25-5 record. In the [[LPL/2016_Season/Spring_Playoffs|2016 LSPL Spring Playoffs]], the team was automatically placed in the final due to their regular season performance. Their opponent was [[Young Miracles]] and despite a close series, EDward Esports won 3-2 and qualified for the [[LPL/2017_Season/Summer_Season|2016 LPL Summer Season]]. EDward Esports was then sold to [[I May]] due to LPL rules.
+
+In the 2016 LPL Summer Split, I May finished 3rd in the playoffs and lost to [[Royal Never Give Up]]. They did however win the third-place match against [[Team WE]]. I May qualified as China's #3 seed for the [[2016 Season World Championship]] with a win over [[Team WE]] 3-2 in the [[2016 Season China Regional Finals]]. With low expectations, I May had a decent showing and finished 3rd in their group with a 2-4 record. Post-worlds, I May attended the finals of the [[Demacia Cup/2016 Season|2016 Demacia Cup]] and finished 2nd, losing 0-3 to [[EDward Gaming]].
+
+===2017 Season===
+
+2017 wasn't that great for I May. Although they achieved a 2nd place finish at [[Demacia Cup/2017 Season|2017 Demacia Cup]] after a 1-3 loss to RNG in the finals, their domestic LPL results were poor. They finished their regular spring season in 4th place with an 8-8 record. In the playoffs they defeated [[Qiao Gu Reapers]] 3-2, however they dropped out in the Quarterfinals with a 2-3 loss to OMG. In the summer split they finished 5th place with a 5-11 record and didn't earn enough Championship Points which meant they missed their chance to attend Worlds again.
+
+== Trivia ==
+* Received a 1-game suspension at [[2016 Season World Championship|Worlds 2016]] for his behaviour on the Korean server.<ref>[http://www.lolesports.com/en_US/articles/competitive-ruling-hankil-road-yoon Competitive Ruling: Hankil “Road” Yoon] ''lolesports.com''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

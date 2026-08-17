@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Aegis%20(Gabriel%20Lemos)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.380Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Aegis」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Aegis
+|name=Gabriel&nbsp;Vinicius Saes de Lemos
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brasil
+|residency=Brazil
+|birth_date_year=1999
+|birth_date_month=September
+|birth_date_day=09
+|favchamp=Lee Sin
+|favchamp2=Kindred
+|favchamp3=Karthus
+|favchamp4=Evelynn
+|checkbox1=Yes
+|favchamp5=Lillia
+|checkboxComp=No
+|ids='''BR''': Aegis#ijji<br>'''EUW:''' JoJo fangirlQAQ
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/aegislol1
+|twitter=aegislol1
+|instagram=gabriel.aegis1
+|lolpros=https://br.lolpros.gg/player/aegis
+|deeplol=https://www.deeplol.gg/pro/Aegis-Gabriel_Lemos
+|dpmlol=https://dpm.lol/pro/Aegis
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+He is from [[wikipedia:en:São Paulo|São Paulo]], Brazil. 
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Is a fan of [[Xun]].
+* Well known for being good mechanically with most champions, especially {{ci|Lee Sin}}.
+* Nicknamed "'''Marechal'''" (marshal) by his supporters.
+* He said in a podcast he fell in love with {{ci|Karthus}} and {{ci|Evelynn}} after spending his vacation playing both champions.<ref>[https://youtube.com/clip/UgkxAS6JFj9O5JaUhuZgy7DmEMPHX1cgAA5N?si=Mh3RnzHCBdlkKx0v Aegis talks about Karthus and Evelynn in MD3 Podcast] ''youtube.com''</ref>
+* Got famous in the chinese social network '''[[wikipedia:en:Weibo|Weibo]]''' after his elimination in [[MSI 2022]].<ref>[https://ge.globo.com/esports/lol/noticia/2022/05/14/msi-2022-brasileiro-viraliza-na-china-apos-eliminacao-bonitao.ghtml MSI 2022: brasileiro viraliza na China após eliminação: "Bonitão"] ''ge.globo.com''</ref>
+* After winning [[2023_Season_Kickoff/Brazil|Season Kickoff Brazil 2023]], he decided on creating a {{ci|Aphelios}} emote who resembles his face after being eliminated in [[MSI 2022]].<ref>[https://www.reddit.com/r/ApheliosMains/comments/11nx1u9/aphelios_emote_on_pbe/ Aphelios Emote on PBE]''reddit.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Is a big fan of the band '''[[wikipedia:en:One Ok Rock|ONE OK ROCK]]'''.
+* Nicknamed '''[[wikipedia:en:Kevin Durant|Kevin Durant]]''' by the Brazilian community after engaging in a discussion with the retired LoL proplayer [[Drop (Matheus Herdy)|Drop]] and comparing himself to the NBA player with that name.<ref>[https://x.com/Aegislol1/status/1757796728718176403 Aegis' X Post] ''x.com''</ref>
+* He met [[Grevthar]] through a friend while he was at [[RED Academy]], played with him a couple duo games, invited him to join the team and became his duo ever since. 
+** When [[Grevthar]] was promoted to the main team, he discovered that he was in the team's Gaming House doing a duo with [[Revolta]] on livestream.
+* Revealed during a podcast that while he was in [[RED Academy]], he and his team hated everyone in the main team except [[TitaN]], which had [[Revolta]] and [[YoDa (Felipe Noronha)|YoDa]].<ref>[https://youtu.be/2yEdx_f7Uiw?si=f9erTYuuu0KDR2Ih A JORNADA dos ACADEMY e o PLOT TWIST do GREVTHAR] ''youtube.com''</ref>
+* Because of his haircut, he is often called a "emo", even though he doesn't consider himself one.
+* There is a running joke that he always gets stuck in the bathroom of the team's Gaming Office.<ref>[https://x.com/REDCanids/status/1881882134996275297 RED Canids' X Post] ''x.com''</ref>
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* Currently holds the record for the longest-serving active player in a single organization in the '''CBLOL''', playing for [[RED Canids]] from 2018 to 2025.<ref>[https://twitter.com/RedKingOfBrega/status/1742233308748984746 RedKingOfBrega's Tweet] ''twitter.com''</ref>
+* His 2v2 ending play with [[fNb]] was featured in a '''LoL Esports Top 5 Plays of the Week''' as '''Top 5'''.<ref>[https://x.com/lolesports/status/1829202352353468790 LoL Esports' X Post] ''x.com''</ref>
+|-|
+Awards=
+=== Individual Awards ===
+* 1x CBLOL Player of the Year (2021)<ref>[https://ge.globo.com/esports/lol/noticia/premio-cblol-aegis-leva-tres-trofeus-e-red-canids-domina.ghtml Prêmio CBLOL: Aegis leva três troféus, e RED Canids domina"] ''ge.globo.com''</ref>
+* 1X CBLOL Rookie of the Year (2021)
+* 1x CBLOL Jungler of the Year (2021)
+* 2x CBLOL Finals MVP (Summer 2021, Spring 2022)
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

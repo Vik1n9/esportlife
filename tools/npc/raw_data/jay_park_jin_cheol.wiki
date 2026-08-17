@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jay%20(Park%20Jin-cheol)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.808Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jay (Park Jin-cheol)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Jisu
+|name=Park Jin-cheol
+|nativename=박진철
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=May
+|birth_date_day=10
+|favchamp=Ezreal
+|checkbox1=No
+|compID1=smile
+|compID2=Jay
+|checkboxComp=No
+|ids=FLA Jisu (BR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/jisu_lol
+|facebook=https://www.facebook.com/profile.php?id=100005113951474
+|twitter=lol_Jisu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Jay'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Jisu''' is named after the character Tomoyo Daidouji (whose localized Korean name is Sin Ji-su) from [https://en.wikipedia.org/wiki/Cardcaptor_Sakura Cardcaptor Sakura].
+
+=== Individual Awards ===
+* LLA Best Import Player (Closing 2020)
+* LLA All Pro Team x2 (Opening 2020, Closing 2020)
+* LLA Most Weekly MVPs in his role in the split x2 (Opening 2020, Closing 2020)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

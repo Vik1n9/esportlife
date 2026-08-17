@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Life&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.442Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Life」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Life
+|name=Kim Jeong-min
+|nativename=김정민
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=July
+|birth_date_day=07
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR''': Rascal <br>'''EUW:''' acaweamsdacqwqwe
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/wjdals363912
+|facebook=https://www.facebook.com/ksvLife
+|twitter=LifeGenG
+|instagram=lifeksv
+|weibo=https://weibo.com/n/FPXLife
+|deeplol=https://www.deeplol.gg/pro/Life
+|dpmlol=https://dpm.lol/pro/Life
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Life''' was recommended by team coach [[oDin (Ju Yeong-dal)|oDin]].
+* Reached 3000 assists in the LCK on April 2nd, 2023.
+** Was the 11th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], [[Peanut]], [[Lehends]], [[Bdd]], and [[Keria]].
+* Reached 500 games in the LCK on May 21, 2025, becoming the 20th player to do so.
+=== Individual Awards ===
+* LCK 3rd All-Pro Team x1 (Summer 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=QTV&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「QTV」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=QTV
+|name=Nguyễn Trần Tường Vũ
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1988
+|birth_date_month=March
+|birth_date_day=07
+|favchamp=Azir
+|favchamp2=Ahri
+|favchamp3=Yasuo
+|favchamp4=Zed
+|checkbox1=No
+|checkboxComp=No
+|ids=QG Kha Long (VN)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.streamcraft.com/user/QTV
+|facebook=https://www.facebook.com/QTVVV
+|youtube=https://youtube.com/channel/UCI7joJkRN0d2qAeo1RDCG8g
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+|prev2=Mid
+|prev3=Streamer
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Quách Thành Vũ, Trần Văn Rựa
+}}
+==Biography==
+
+== Trivia ==
+* Prior to playing League of Legends, he played on the Vietnamese DOTA team Masta.
+* Favorite champion is {{ci|Azir}}.
+* QTV stands for "Quách Thành Vũ", a nickname derived from his first name that he was given in the past.
+* He is the champions of [[2015 Vietnam All-stars Challenger]].
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

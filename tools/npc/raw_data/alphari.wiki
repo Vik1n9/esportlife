@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Alphari&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.629Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Alphari」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Alphari
+|name=Barney Morris
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United Kingdom
+|nationality=United Kingdom,Wales
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=October
+|birth_date_day=20
+|favchamp=Camille
+|favchamp2=Jayce
+|favchamp3=Gnar
+|favchamp4=Jarvan IV
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' irespectmyjgler<br>'''EUW''': masked gamer XD<br>Alphari<br>Klnashox<br>'''KR''': XxDaku6969, Captain Alphari, meatheadmuggshot
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/alpharilol
+|facebook=https://www.facebook.com/AlphariLoL
+|twitter=Alphari
+|instagram=alpharilol
+|lolpros=https://lolpros.gg/player/alphari/
+|deeplol=https://www.deeplol.gg/pro/Alphari
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Enjoyed playing [[wikipedia:Dishonored|Dishonored]].
+* Is the first Welsh player to have played a game at the [[World Championship]], reaching the quarterfinals of [[Worlds 2017]] with [[Misfits (European Team)|Misfits]].
+
+=== Individual Awards ===
+* EU 1st All Pro Team x2 (2020 Summer, 2020 Spring)
+* EU 2nd All Pro Team x1 (2019 Summer)
+* EU 3rd All Pro Team x1 (2019 Spring)
+* NA 1st All Pro Team x1 (2021 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

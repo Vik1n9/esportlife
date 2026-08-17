@@ -1,0 +1,121 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Inspirro&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.978Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Inspirro」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Inspirro
+|name=Mykolas Morkūnas
+|image=S3 Inspirro.jpg
+|checkboxAutoImage=No
+|country=Lithuania
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1991
+|birth_date_month=December
+|birth_date_day=16
+|favchamp=Thresh
+|favchamp2=Zyra
+|favchamp3=Vladimir
+|checkbox1=No
+|checkboxComp=No
+|ids=GG Inspirro (RU & EUNE & NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/Inspirro
+|facebook=https://www.facebook.com/Inspirro
+|twitter=Inspirro
+|reddit=inspirro
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Mykolas is from Klaipeda, Lithuania. He is a versatile player, playing as an AD Carry and AP Midlaner until Season 3.
+
+== Trivia ==
+* Has trained a lot of sports, including Football and Parkour for 2 years each, and Basketball and Skateboarding for 5 years each.
+* His nickname is derived from the word Inspirational.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2013}}
+{{TDRight|tab}}<!--2013-->
+* August 23 - [http://www.youtube.com/watch?v=PH87VUSo2Ls gamescom 2013: Interview with Inspirro and Nbs (video)] ''with Fragster''
+{{TDRight/end}}
+=== Images ===
+<gallery>
+File:Inspirro.jpg|GG.eu Inspirro
+</gallery>
+
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

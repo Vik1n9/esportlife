@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kreox&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.054Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kreox」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kreox
+|name=Ilya Grom
+|nativename=Илья Гром
+|namealphabet=Cyrillic
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=03
+|favchamp=Rek'Sai
+|favchamp2=Gragas
+|favchamp3=Graves
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kreoxlol
+|twitter=Kreoxlol
+|instagram=kreouo
+|vk=https://vk.com/kreoxlol
+|lolpros=https://lolpros.gg/player/kreox
+|deeplol=https://www.deeplol.gg/pro/Kreox
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+<!-- This is where a biography goes. Be sure to keep it concise and factual. No opinions! -->
+=== 2015 Season ===
+[[Night Inside]] became Ilya's first team. A few months before Kreox leaves, the team won [[LoL Battle Arena Season One]] in addition to 2nd place in [[2015 SLTV ProSeries Summer Playoffs]], this latter point gave them advancing to [[SLTV StarSeries/2016 Season/Spring Promotion|2016 SLTV StarSeries Spring Promotion]]. [[Night Inside]] beats [[Team Dragon]] 2-0 in the relegation series, having received a spot for StarSeries, which then turned into [[LCL/2016 Season/Spring Season|2016 LCL Spring Season]] spot.
+
+In November [[Night Inside]]'s roster was purchased by [[Vaevictis eSports]]. In late December Riot announced replacing StarSeries by LCL. Because of that, Kreox moves to coach position since he couldn't longer playing professionaly due to new competition have an age limit unlike StarSeries.
+=== 2016 Season ===
+Under Kreox' leadership Vaevictis missed the [[LCL/2016_Season/Spring_Playoffs|Spring Playoffs]] after the defeat to [[Team Just]] 0-1 in first round of additional tiebreakers of the [[LCL/2016 Season/Spring Season|very first regular season of LCL]], but they guaranteeing them a place in the [[LCL/2016_Season/Summer_Season|Summer Season]], finishing sixth with 7-7 game record in spring split after all. Vaevictis placing fifth in the [[LCL/2016 Season/Summer Season|LCL Summer Season]] with 7-7 game record.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

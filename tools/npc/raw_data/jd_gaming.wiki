@@ -1,0 +1,150 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=JD%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.664Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「JD Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= JD Gaming
+|orgcountry= China 
+|country=
+|region=CN
+|headcoach= 
+|analysts=
+|manager= Shao "'''Aixiao'''" Xiao-Hang
+|captain= 
+|website= 
+|youtube=https://www.youtube.com/channel/UCcYyECve-4HYAnY9ZP-sT9g
+|facebook=
+|twitter= JDGaming
+|weibo=http://www.weibo.com/jdgaming
+|instagram=jdg.esports
+|discord=https://discord.gg/GmBqeU8Q4K
+|irc=
+|sponsor=[http://JD.com/ JD.com, Inc.]<br>[https://intel.com Intel]<br>[https://Douyu.com Douyu]<br>[https://rog.asus.com/ ASUS ROG]<br>[https://www.msi.com/index.php MSI]<br>[https://www.mi.com/global/ Redmi]<br>[https://www.samsung.com/ Samsung] 
+|created= 2017-05-20
+|trades=
+|rosterphoto=2026_JDG_roster.jpg
+}}{{TOCRWI}}
+
+'''JD Gaming''' (''Chinese:'' 京东电子竞技俱乐部) is a Chinese esports organization. They are also known as '''Jingdong Gaming''' and '''JDG Intel Esports Club''' for sponsorship reasons. 
+
+== History ==
+===2017 Season===
+
+JD Gaming formed in May of 2017 when they acquired the roster and LPL spot of [[QG Reapers]]. The team's first showing was at the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] but it wasn't particularly good as they placed 9th-12th after an 0-2 loss to [[LGD Gaming]]. In the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] JD Gaming finished 5th in Group B with 6 wins and 11 losses which eliminated them from playoff contention. They also placed 2nd at the [[National Electronic Sports Tournament 2017]].
+
+===2018 Season===
+
+The team signed [[Zoom]] and [[Yagao]] ahead of the [[LPL/2018_Season/Spring_Season|2018 LPL Spring Season]], aswell as [[Xiaohan (Pan Han) | Xiaohan]] and [[RD]] as substitues. JDG were considered a middle of the pack team and ended the regular season in 4th place, barely ahead of [[Suning]] who had more points, but one series win less. The playoffs didn't last long, as the team lost 3-0 to [[Bilibili Gaming]] in Round 1. Come [[LPL/2018_Season/Summer_Season|2018 LPL Summer Season]], [[Homme]] stepped in as the new head coach, and it showed in results. JingDong finished 3rd in the regular season and defeated both [[FunPlus Phoenix]] and [[EDward Gaming]] 3-1 in playoffs before facing [[Invictus Gaming]]. The series was close, but ultimately, iG won 3-2. However, JDG secured the podium with a 3-0 win over [[Rogue Warriors]] in the 3rd place match. This allowed the team to fight for a ticket to Worlds in the [[China Regional Finals 2018 | Regional Finals]], but they crumbled in the first round 3-2 against EDG.
+
+===2019 Season===
+
+2019 saw the departure of [[Clid]] and [[LokeN]], who were replaced by [[Flawless]] and [[Imp]] - they also acquired [[Levi]] and [[Bvoy]]. The team itself was again performing averagely during the [[LPL/2019_Season/Spring_Season|Spring]], but managed to sneak into playoffs by placing 8th. There, they blew up the expectations, defeating [[Team WE]] 3-1 and upseting both [[Royal Never Give Up| RNG]] and FPX 3-2 before setting for a revenge versus Invictus Gaming in the final. However, this series was not close as the last time they met, and despite JGD securing an early lead in game 3, iG got early gold on [[JackeyLove| JackeyLove's]] {{ci|Draven}}, and [[TheShy]] proved to be menacing on {{ci|Vladimir}}.
+
+JDG loaned [[Kanavi]] from [[Griffin (Korean Team)|Griffin]] midway through the season as a part of what would later become the biggest scandal in the game's esports history. However, the team dropped in [[LPL/2019_Season/Summer_Season|Summer]], placing 10th with the revese score from the last split. Fortunately, due to their 2nd place in Spring Finals, they secured the last spot at the [[LPL 2019 Regional Finals| Regional Qualifier]], but they again lost 2-3, this time to iG.
+
+===2020 Season===
+
+After resolving the issue with Kanavi's illegal contract, the Korean jungler joined the team by signing a new contract - Loken also returned from [[Top Esports]]. Sadly, due to the [[2019–20 Coronavirus Pandemic| global pandemic]], Zoom was replaced by [[705]] for the majority of the split. The team did well with their sub top laner, but once their starting player came back out of the quarantine, JDG skyrocketed in performance, dropping no games for the remainder of the [[LPL 2020 Spring|Spring Season]] and finishing 2nd. In playoffs, they would finally avenge their losses they suffered by iG, defeating them 3-1 before facing TOP, who actually subbed in [[QiuQiu (Zhang Ming)|QiuQiu]] for the series. In a five game thriller, JDG clutched it out, thanks to [[LvMao]] impressing on {{ci|Bard}} - the team won their first LPL title in the process. While they weren't able to attend [[MSI 2020| MSI]] due to covid-19 causing the event to be cancelled, they were able to play in the [[Mid-Season Cup 2020|Mid-Season Cup]]. The team got slotted in group B with [[Gen.G]], [[DRX]] and Invictus Gaming. JDG secured playoffs by defeating DRX in the tiebreaker but lost 3-1 to FPX.
+
+Summer was more of the same, as they finished 2nd, only behind TOP, who had the same amount of points, but lost one game less. In playoffs, JingDong dispatched the surging [[LGD Gaming]] 3-1 to move on to face TOP again. The series again went to five games, but this time, it was TOP who secured the title. Still, they secured China's 2nd seed through Championship Points.
+
+JD Gaming was placed in group B alongside [[Rogue (European Team)|Rogue]], [[PSG Talon]] and the eventual winners [[DAMWON Gaming]], they were also considered one of the main contenders to lift the trophy. The team placed 2nd with a 4-2 record, notably taking the game off DAMWON. However, they lost in Quarterfinals to [[Suning]] 3-1. This ended their run, but also shut down the possibility of an "LPL Civil War" with TOP.
+
+== Trivia ==
+* Won the '''Best Team''' title in [[Chinese Yearly Award#China LoL of the Year Awards 2022|China LoL of the Year Awards 2022]].
+** Nominated the '''Best Team''' in [[Chinese Yearly Award#China LoL of the Year Awards 2020|China LoL of the Year Awards 2020]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+=== Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Choice|cn|Shao Xiao-Hang (邵晓航)|'''Chief Executive Officer'''}}
+{{listplayersp|LLH|cn|Lan Bai-Qing (蓝柏清)|'''Esports Director'''}}
+{{listplayersp|Fei|cn|Pan Fei (潘飞)|'''General Manager'''}}
+{{listplayer|Seek|cn|Cui Hu (崔虎)|'''Leader'''}}
+{{listplayer|Vus5o|cn|Wu Shuo (吴硕)|'''Manager'''}}
+{{listplayer|Tabe|hk|Wong Pak Kan (王柏勤)|'''Head Coach'''}}
+{{listplayer|Xiaobai|cn|Yang Zhong-He (杨忠贺)|'''Coach'''}}
+{{listplayer|Zoom|cn|Zhang Xing-Ran (张星冉)|'''Coach'''}}
+{{listplayersp|Zizheng|cn|Jia Zi-Zheng (家子正)|'''Analyst'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Xiasu|cn|Chen Long (陈龙)|'''Coach'''|newteam=LNG}}
+{{listplayersp|Jin|cn|Jin Shi-Zhe (金世哲)|'''Translator'''|newteam=none}}
+{{listplayer|Sin (Yeon Hyeong-mo)|kr|Yeon Hyeong-mo (연형모)|'''Coach'''|newteam=HLE}}
+{{listplayersp|Jasper|cn|Wan Lei (万磊)|'''Manager'''|newteam=LNG}}
+{{listplayer|BoBo (He Wen-Bo)|cn|He Wen-Bo (何文博)|'''Coach'''|newteam=TES}}
+{{listplayer|Clearlove|cn|Ming Kai (明凯)|'''Head Coach'''|newteam=EDG}}
+{{listplayer|cvMax|kr|Kim Dae-ho (김대호)|'''Head Coach'''|newteam=Dplus KIA}}
+{{listplayer|Sin (Yeon Hyeong-mo)|kr|Yeon Hyeong-mo (연형모)|'''Coach'''|newteam=JDG|comment=Head Coach}}
+{{listplayersp|Karma|cn|Huang Yi-Hong (黄一弘)|'''Analyst'''|newteam=LNG}}
+{{listplayer|HunnyPark|kr|Park Gwang-hoon (박광훈)|'''Translator'''|newteam=blg}}
+{{listplayer|Viod (Lu Fan)|cn|Lu Fan (陆凡)|'''Coach'''|newteam=LNG}}
+{{listplayer|Lyn|kr|Kim Da-bin (김다빈)|'''Analyst'''|newteam=Gen.G}}
+{{listplayer|WarHorse|tw|Chen Ju-Chih (陳如治)|'''Head Coach'''|newteam=Team Secret Whales}}
+{{listplayer|Mafa|kr|Won Sang-yeon (원상연)|'''Head Coach'''|newteam=IG}}
+{{listplayer|Homme|kr|Yoon Sung-young (윤성영)|'''Head Coach'''|newteam=tes}}
+{{listplayer|Xiasu|cn|Chen Long (陈龙)|'''Assistant Coach'''|newteam=BLG}}
+{{listplayersp|Momo|cn|Mo Jin (莫晋)|'''Leader'''|newteam=lng academy}}
+{{listplayer|renzhe|cn|Li Ren-Zhe (李仁哲)|'''Coach'''|newteam=ig}}
+{{listplayersp|Daxiong|cn|Xiong Zu-Bin (熊祖彬)|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Chashao|tw|Shih Yi-Hao (史益豪)|'''Head Coach'''|newteam=BLG}}
+{{listplayer|Homme|kr|Yoon Sung-young (윤성영)|'''Head Coach'''|newteam=JDG|comment=Head Coach}}
+{{listplayersp|Phong|cn|Huang Chun-Feng (黄春峰)|'''Leader'''|newteam=jdm}}
+{{listplayer|BusyMoon|kr|Kim Moon-hyeok (김문혁)|'''Translator'''|newteam=VG}}
+{{listplayersp|DY|cn|Dong Yu (董宇)|'''Team Assistant'''|newteam=none}}
+{{listplayer|UDJ|tw|Yang Shu-Wei (楊書瑋)|'''Coach'''|newteam=LGD}}
+{{listplayer|Soso (Liu Lin)|cn|Liu Lin (刘麟)|'''Leader/Translator'''|newteam=Rogue Warriors}}
+{{listplayersp|Momo|cn|Mo Jin (莫晋)|'''Manager'''|newteam=JDG|comment=Leader}}
+{{listplayer|BanBazi|kr|Choi Myeong-won (최명원)|'''Head Coach'''|newteam=OP Gaming}}
+{{listplayer|Cammly|kr|Choi Won-ho (최원호)|'''Tactical Coach'''|newteam=JDM}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+=== Logos ===
+<gallery>
+JD Gaminglogo square (2017-2018).png|JD Gaming Logo<br>(2017 - 2018)
+JD Gaminglogo square (2018-2019 Spring).png|JD Gaming Logo<br>(2018 - 2019)
+JD Gaminglogo Old (2019-2021).png|JD Gaming Logo<br>(2019 - 2021)
+</gallery>
+
+===Rosters===
+<gallery>
+JDG 2020.jpg|JD Gaming's LPL 2020 Spring Roster
+JDG 2020 Summer.jpeg|JD Gaming's LPL 2020 Summer Roster
+JDG_Worlds_2020.png|JD Gaming's 2020 World Championship Roster
+JDG 2021 Spring.jpg|JD Gaming's 2021 Spring Roster
+JDG 2021 Summer.jpeg|JD Gaming's 2021 Summer Roster
+JDG 2021 Spring.jpg|JD Gaming's 2022 Spring Roster
+JDG 2022 Summer.jpg|JD Gaming's 2022 Summer Roster
+JDG 2023 Spring.jpg|JD Gaming's 2023 Spring Roster
+JDG 2024 Summer.jpeg|JD Gaming's 2024 Summer Roster
+JDG_2025_Split_1.jpg|JD Gaming's 2025 Split 1 Roster
+JDG 2025 Split 2.png|JD Gaming's 2025 Split 2
+JDG 2025 Split 2 Roster 2.png|JD Gaming's 2025 Split 2 with [[Sin (Yeon Hyeong-mo)|Sin]]
+2026_JDG_roster.jpg|JD Gaming's 2026 Split 1 Roster
+</gallery>
+
+=== Posters ===
+[[/Posters|Click here]] to see LPL posters.
+
+==Media==
+{{TeamMedia}}
+
+==References==
+<references />

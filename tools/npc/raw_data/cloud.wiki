@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=CL0UD&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.383Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cloud」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=CL0UD
+|name=Hu Zhen-Wei
+|nativename=胡振威
+|namealphabet=Hanzi
+|image=JDG Cloud 2017 Summer.png
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1994
+|birth_date_month=July
+|birth_date_day=29
+|favchamp=Thresh
+|favchamp2=Sona
+|favchamp3=Leona
+|favchamp4=Blitzcrank
+|checkbox1=No
+|checkboxComp=No
+|ids=OMGdouyuTVCloud, Kan3ki K3n
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=Yes
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=诺夏
+}}
+==Biography==
+
+===2014 Season===
+
+Cloud joined [[OMG]] in June of 2014. The team finished the Summer Playoffs in 2nd place after an 0-3 loss to [[EDward Gaming]]. OMG achieved a 3rd-4th place finish at the [[2014 World Championship]] and lost 2-3 to [[Star Horn Royal Club]] in the Semifinal. They were able to get a 4th place finish at the NVIDIA Game Festival 2014 and a few semifinal finishes at the 2014 GALAXY eSports Carnival and the [[Demacia Cup/Season 2|Demacia Cup - Season 2]].
+
+===2015 Season===
+
+After they acquired [[Uzi (Jian Zi-Hao)|Uzi]] in one of the biggest transfers ever, OMG was unable to work together due to having too many star players in all roles. Despite a solid 3rd place finish in the regular season of the Spring Split, [[LGD Gaming]] defeated OMG 3-0 in the Quarterfinals. After a 7th place finish in the regular season, OMG was able to defeat [[Master3]] in the first round of playoffs but got knocked out by [[Vici Gaming]] after they lost to them 1-3. OMG was however able to have decent showings in the 2015 Demacia Cup - Summer Season. They finished 2nd after an 0-3 loss to [[EDward Gaming]]. Cloud left OMG in September of 2015. 
+
+===2017 Season===
+
+After being temporarily retired throughout 2016, Cloud joined [[QG Reapers]] in December. QG placed 3rd in their group in the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] however in the playoffs they lost 2-3 to [[I May]] in the first round. [[JD Gaming]] acquired the roster and LPL spot of QG in May of 2017 with Cloud also joining the newly formed squad. Their first showing was at the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] but it wasn't particularly good as they placed 9th-12th after an 0-2 loss to [[LGD Gaming]]. In the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] JD Gaming finished 5th in Group B with 6 wins and 11 losses which eliminated them from playoff contention. They also placed 2nd at the [[National Electronic Sports Tournament 2017]].
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+===2014===
+* June 26 - [http://www.gamesinasia.com/who-is-omgs-cloud-an-interview-with-the-teams-mysterious-starting-support/ Who is OMG’s Cloud? An interview with the team’s mysterious starting support] ''with Games in Asia''
+* October 6 - [http://www.youtube.com/watch?v=-BqIWlIMspc LoL 2014 World Championship Interview - Cloud(OMG Support)] with ''Global Ongamenet''
+=== Images ===
+<gallery>
+OMG_Cloud2014Summer.png|OMG Cloud 2014 Summer
+OMG Cloud 2014 WCS.jpg|OMG Cloud [[2014 World Championship|2014 WC]]
+OMG_Cloud_2015_Summer.png|OMG Cloud 2015 Summer
+QG Cloud 2017 Spring.png|QG Cloud 2017 Spring
+</gallery>
+
+{{PlayerPageEnd}}

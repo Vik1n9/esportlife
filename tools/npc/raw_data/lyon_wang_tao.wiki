@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lyon%20(Wang%20Tao)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.813Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lyon (Wang Tao)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Akaman
+|name=Wang Tao
+|nativename=王涛
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=16
+|checkbox1=No
+|compID1=dianjing
+|compID2=Moon
+|compID3=Lyon
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''dianjing''', '''Moon''', and '''Lyon'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''dianjing''' (电竞) means "electronic sports." [[LanXiang Gaming]] asks all of their players to use the name of a course from [https://en.wikipedia.org/wiki/Shandong_Lanxiang_Vocational_School LanXiang College] as their ID.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

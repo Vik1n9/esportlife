@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shushei&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.918Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shushei」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Shushei
+|name=Maciej Ratuszniak
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Poland
+|residency=Europe
+|birth_date_year=1989
+|birth_date_month=March
+|birth_date_day=16
+|favchamp=Gragas
+|favchamp2=Lux
+|favchamp3=Alistar
+|favchamp4=Evelynn
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/greywolfshu
+|facebook=https://www.facebook.com/shushei.net
+|twitter=Shushei1
+|reddit=shushei
+|youtube=https://www.youtube.com/channel/UCyxmCkuM6Zk1Gi-8Y2d6zzA
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He passed away on April 28, 2025.<ref>[https://boop.pl/league-of-legends/shushei-nie-zyje-polski-gracz-league-of-legends-mistrz-swiata Shushei nie żyje. Polski gracz League of Legends, mistrz świata (Polish)] ''boop.pl''</ref>
+|checkbox-res=No
+|died=2025-04-28
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|diamondleague=I (EUW)
+}}
+==Biography==
+Shushei was a high-elo player who has also played as the top and mid laner for various professional teams, e.g. [[FnaticRC]].
+
+== Trivia ==
+* Known for his {{ci|Gragas}} and {{ci|Alistar}} play early in his Career, popularizing the use of those champions as AP Carries.
+* Played over 2,000 ranked games during Season 1.
+* Partly responsible for the Season 2 double-AP meta.
+* Formerly a HoN player with high ranking.
+* Used to play World of Warcraft as a Death Knight. In the Wrath of the Lich King days, he was rewarded with a legendary axe by his guild.
+* Among the first players to use {{ci|Vi}} in competitive play as well as AP {{ci|Evelynn}}.
+* Won the MVP award for the Season One World Championship while on Fnatic.
+* Founded DragonBorns with longtime friend [[HosaN]] after their departure from [[EloHell]].
+* After a win in the LCS Warsaw qualifiers he chest-bumped his teammate Hosan causing him to fall.
+* Inducted to Fnatic's Hall of Fame.<ref>[http://www.fnatic.com/content/95620/shushei-joins-the-fnatic-hall-of-fame Shushei joins the Fnatic Hall of Fame]''fnatic.com''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}
+[[Category:Deceased Players]]

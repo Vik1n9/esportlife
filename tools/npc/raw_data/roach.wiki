@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Roach&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.823Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Roach」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Roach
+|name=Kim Kang-hee
+|nativename=김강희
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=January
+|birth_date_day=31
+|checkbox1=No
+|compID1=ROACH
+|checkboxComp=No
+|ids='''KR:''' T1 Roach<br>Roach
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/t1_roach
+|facebook=https://www.facebook.com/1999kkhee
+|twitter=RoachLoL
+|instagram=t1_roach
+|deeplol=https://www.deeplol.gg/pro/Roach
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+}}
+==Biography==
+===2016 Preseason===
+Kim "'''Roach'''" Kang-hee joined [[NaJin e-mFire]] as a sub on December 24, 2015. The team renamed to [[e-mFire]] while they searched for a new organization. In February, that organization was found, and they renamed once again to [[Kongdoo Monster]].
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Kongdoo Monster went 1-17 in sets, ending in last place. This forced them to play a relegation match against challenger team [[MVP]], who defeated them 3-1 and relegating them to [[Challengers Korea/2016 Season/Summer Season|Challengers Korea 2016 Summer]].
+
+== Trivia ==
+* His ID '''Roach''' comes from the Roach unit from [https://en.wikipedia.org/wiki/StarCraft_II:_Wings_of_Liberty StarCraft II].<ref>[https://t1.gg/teams/league-of-legends League of Legends] ''t1.gg''</ref>
+* Went to the same middle school as [[Cuzz]].<ref>[https://youtu.be/cTaxZmJEXYg?t=343 Wolf: Effort, I love you! | T1 WIN CAM Moments EP.1 <nowiki>[</nowiki>Translated<nowiki>]</nowiki>] ''youtube.com''</ref>
+* He did the dance cover of Wild Eyes along with his former [[Kongdoo Monster]] teammates.<ref>[https://youtu.be/PNL4dik9bEU 콩두몬스터 신화 "Wild Eyes" 연습 영상 (Dance Practice Video) (댄스학원 댄스조아) <nowiki>[</nowiki>Translated<nowiki>]</nowiki>] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

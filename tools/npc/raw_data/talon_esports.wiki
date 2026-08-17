@@ -1,0 +1,115 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PSG%20Talon&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.344Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Talon Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= PSG Talon
+|orgcountry= Hong Kong
+|country=Taiwan
+|region= PCS
+|partner= [https://www.logitech.com Logitech] <br> [http://hcubedllc.com/ H Cubed Investments] <br> [https://www.noblechairs.com/ Noblechairs] <br> [https://www.twitch.tv/ Twitch] <br> [http://www.inner-edge.com/ Inner Edge]
+<!-- Staff -->
+|headcoach= 
+|owner= 
+|auto_teams=Yes
+<!-- Social Media -->
+|website= https://talon.gg
+|youtube= https://www.youtube.com/channel/UCBKJJ9xFYf5cahFjRaLyM9A
+|facebook= https://www.facebook.com/psgtalonlol
+|twitter= psgtalonlol
+|discord= https://discord.com/invite/HywKEYaxGP
+|threads= psgtalonlol
+|snapchat= 
+|instagram= psgtalonlol
+|tiktok=psgtalonlol
+|linkedin= https://www.linkedin.com/company/talon-esports
+|stream= https://www.twitch.tv/talonesports
+|weibo=https://www.weibo.com/n/TALON英雄联盟
+|rosterphoto=TALON LCP 2025 Split 1.jpg
+<!-- History -->
+|created= 2019-12-19
+|disbanded= 
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= pubg
+}}{{TOCRWI}}
+
+'''TALON''' is an esports organization based in Hong Kong. For the most of their time in ''League of Legends'', the organization has been partnered with French football club [[wikipedia:Paris Saint-Germain F.C.|Paris Saint-Germain]] to compete as '''PSG Talon'''.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Sean Zhang|au|Zhang Xiao-Yi (張曉一)|'''Co-Founder & Chief Executive Officer'''}}
+{{listplayersp|evilslug|hk|Jarrold Tham|'''Co-Founder & Chief Financial Officer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Glen|tw|Yang Po-Jen (楊博任)|'''Performance Director & General Manager'''|newteam=None}}
+{{listplayer|CorGi|tw|Cheng Pin-Lun (程品倫)|'''Head Coach'''|newteam=Fukuoka SoftBank HAWKS gaming}}
+{{listplayer|Maru (Lee Sang-hun)|kr|Lee Sang-hun (이상훈)|'''Assistant Coach'''|newteam=Fukuoka SoftBank HAWKS gaming}}
+{{listplayer|Zero (Chung Chen-Hua)|tw|Chung Chen-Hua (鍾震華)|'''Assistant Coach'''}|newteam=None}}
+{{listplayer|GreenTea|tw|Tsai Shang-Ching (蔡尚精)|'''Streamer'''|newteam=None}}
+{{listplayer|Ziv (Chen Yi)|tw|Chen Yi (陳奕)|'''Streamer'''|newteam=None}}
+{{listplayer|Zod|tw|Chang Po-Cheng (張博誠)|'''Streamer'''|newteam=Caster}}
+{{listplayersp|Mina|tw|Wu Tasi-Mi (吳綵冞)|'''Co-Streamer'''|newteam=None}}
+{{listplayer|Hei Hei|hk|Pang Wing Hei (彭泳熙)|'''Streamer'''|newteam=None}}
+{{listplayer|Coldicee|tw|Yu Min-Hsiang (游閔翔)|'''Manager'''|newteam=None}}
+{{listplayersp|Amber|tw|Hsieh Chia-Hsin (謝嘉欣)|'''General Manager'''|newteam=None}}
+{{listplayersp|Dohoon|kr|Kim Do-hoon (김도훈)|'''General Manager'''|newteam=None}}<!--Departure time unknown-->
+{{listplayersp|Firefly|tw|Chi Pei-Ying (紀佩瑩)|'''Streamer'''|newteam=None}}<!--Departure time unknown-->
+{{listplayer|Yuwan|tw|Hsu Chi-Chun (徐麒鈞)|'''Analyst'''|newteam=None}}
+{{listplayer|Gear|hk|Lam Kwok Wa (林國華)|'''Streamer'''|newteam=None}}
+{{listplayer|Tom (Im Jae-hyeon)|kr|Im Jae-hyeon (임재현)|'''Assistant Coach'''|newteam=T1}}
+{{listplayer|Glen|tw|Yang Po-Jen (楊博任)|'''Team Manager'''|newteam=TSM}}
+{{listplayer|Winged|kr|Park Tae-jin (박태진)|'''Coach'''|newteam=KDF.C}}
+{{listplayer|Helper (Kwon Yeong-jae)|kr|Kwon Yeong-jae (권영재)|'''Head Coach'''|newteam=GEN}}
+{{listplayer|Bigfafa|kr|Seo Min-seok (서민석)|'''Head Coach'''|newteam=TT Gaming}}
+{{listplayer|Saroo|kr|Lee Jong-won (이종원)|'''Assistant Coach'''|newteam=All Knights}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As TALON (Hong Kong Team)===
+{{TeamResults|TALON (Hong Kong Team)|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Talon EsportsOldlogo square.png|TALON Previous Logo
+PSG Talon 2020 logo.png|PSG Talon First Logo<br>(Jun 2020 - Aug 2024)
+PSG Talon 2024 logo.png|PSG Talon Second Logo<br>(Aug 2024 - Jan 2025)
+PSG Talonlogo square.png|PSG Talon Current Logo<br>(Jul 2025 - ''Present'')
+</gallery>
+===Rosters===
+<gallery>
+TLN 2020 Spring.jpg|PCS 2020 Spring Roster
+PSG 2020 Summer.png|PSG Talon's 2020 PCS Summer Roster
+PSG Worlds 2020.png|PSG Talon's Worlds 2020
+PSG Spring 2021.png|PSG Talon's 2021 PCS Spring Roster
+PSG Summer 2021.png|PSG Talon's 2021 PCS Summer Roster
+PSG Spring 2022.png|PSG Talon's 2022 PCS Spring Roster
+2024 PCS Summer PSG Talon.jpg|PSG Talon's 2024 PCS Summer Roster
+</gallery>
+
+== References ==
+<references />

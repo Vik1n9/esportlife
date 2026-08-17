@@ -1,0 +1,89 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Breathe&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.841Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Breathe」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Breathe
+|name=Chen Chen
+|nativename=陈晨
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=February
+|birth_date_day=19
+|favchamp=Renekton
+|favchamp2=Gnar
+|favchamp3=Gwen
+|favchamp4=Fiora
+|checkbox1=Yes
+|favchamp5=Jax
+|compID1=Curse
+|checkboxComp=No
+|ids='''KR:''' aierlanxiaozhu, cold skin <br> '''EUW:''' Guten Morgen <br> '''NA:''' buenos dias
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/390001
+|weibo=https://weibo.com/n/breathe_ccc
+|lolpros=https://lolpros.gg/player/breathe
+|deeplol=https://www.deeplol.gg/pro/Breathe
+|dpmlol=https://dpm.lol/pro/Breathe
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Curse'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Reached 1000 kills in the LPL on February 12, 2023.
+** The 37th player and 4th toplaner (after [[Flandre]], [[TheShy]] and [[369]]) to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on April 12, 2025.
+** The 27th player and 4th toplaner to reach 1500 kills in the LPL.
+* Reached 500 games in the LPL on January 15, 2025
+** The 26th player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on August 15, 2025
+** The 19th player to reach 600 games in the LPL.
+* Reached 300 wins in the LPL on September 01, 2025.
+** Was the 27th player to reach 300 wins in the LPL.
+* Reached 3000 assists in the LPL on September 13, 2025.
+** Was the 44th player to reach 3000 assists in the LPL.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

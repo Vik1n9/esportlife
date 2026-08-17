@@ -1,0 +1,118 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Letme&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.442Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Letme」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Letme
+|name=Yan Jun-Ze
+|nativename=严君泽
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1996
+|birth_date_month=May
+|birth_date_day=18
+|favchamp=Ornn
+|favchamp2=Camille
+|checkbox1=No
+|checkboxComp=No
+|ids=togo334 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.huya.com/518518
+|weibo=https://www.weibo.com/u/5267105255
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''LetMe'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+===2015 Season===
+Letme (also stylized '''LetMe''') joined [[Gamtee]] in June of 2014. They were able to place 2nd at 2014 WGT, losing 1-2 to [[LGD Gaming]] in the finals. He also played for them in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Season]] but the team finished 11th with 1 win, 12 draws and 9 losses. They re-qualified for the Summer Split but the roster was acquired by [[Royal Never Give Up]] and Letme joined RNG. During the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Season]] RNG had a tough time and finished 9th with 3 wins, 12 draws and 7 losses. This forced RNG to play in the [[LPL/2016_Season/Spring_Promotion|2016 LPL Spring Promotion Tournament]] where they re-qualified for the LPL after wins against [[Young Glory]] and [[2144 Danmu Gaming]]. RNG also won [[2015 NESO]] in November with a win against [[Snake Esports]] 2-1 in the finals.
+
+===2016 Season===
+Letme only played in one of RNG's matches in the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] against [[Energy Pacemaker.All]] and they were able to win the series with 2 wins. Letme wouldn't play any other matches for RNG but they were able to win the LPL Playoffs and defeated [[EDward Gaming]] 3-1 in the finals. In Summer Letme joined [[Star Horn Royal Club]] in the LSPL and the team managed a 3rd place finish in the playoffs which qualified them for the [[LPL/2017_Season/Spring_Promotion|2017 LPL Spring Promotion]]. SHRC however wasn't able to qualify for the LPL in 2017 after losing 0-3 to [[Newbee]]. Letme then got promoted to [[Royal Never Give Up]].
+
+===2017 Season===
+
+After Mata and Looper's departures, Royal Never Give Up picked up Letme for the top lane and Ming as their new support. They would finish 1st place in Group A of the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] with a 12-4 regular season record. In the [[LPL/2017_Season/Spring_Playoffs|playoffs]] although they made it to the finals, they lost 0-3 in dominating fashion to Team WE. The [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] was very similar as RNG finished again in 1st place with the same 12-4 regular season record, only this time in Group B. The [[LPL/2017_Season/Summer_Playoffs|playoffs]] went similarly to the spring playoffs for the team. They made it all the way to the finals again but lost 2-3 to EDward Gaming in a reverse sweep this time. 
+
+At the [[2017 Season World Championship]] RNG was placed into Group C along with eventual tournament winners [[Samsung Galaxy]], as well as [[G2 Esports]] and [[1907 Fenerbahçe Esports]]. The team performed incredibly well in their group and went 5-1. They only dropped one game to G2 Esports. In the Quarterfinals their opponent was Fnatic and they defeated them 3-1 in convincing fashion. RNG's Worlds run ended in the Semifinals after a 2-3 loss to SK Telecom T1 in a very close series.
+
+== Trivia ==
+* Nicknamed '''让帝''' (Let Emperor), or sometimes "The Rang" in China, for his ability to turn most top lane match-ups into an even match, in both winning and losing match-ups.
+** Hence becoming the meme '''让帝众生平等''' (All living beings be equal in front of the Let Emperor).
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

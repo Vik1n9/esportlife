@@ -1,0 +1,125 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kitties&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.052Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kitties」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Kitties
+|name=Liu Hong-Jun
+|nativename=刘洪均
+|namealphabet=Hanzi
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|checkbox-res=No
+|birth_date_year=1992
+|birth_date_month=September
+|birth_date_day=03
+|checkbox1=No
+|compID1=Cocoa
+|compID2=Dd
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|fanpage=http://t.qq.com/q327942879
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Cocoa''' and '''Dd'''.
+|nicknames=射可可
+}}
+==Biography==
+
+Liu "'''Kitties'''" Hong-Jun played for [[All Gamers]] and [[RisingStars Gaming]] in Season 2 and 3 under the name "'''Cocoa'''". He joined [[Invictus Gaming]] in the 2014 Season as a replacement for [[XiaoXiao]].
+
+===2014 Season===
+
+Kitties played his first real tournament with IG at [[Demacia Cup/Season 1|Demacia Cup Season 1]]. They made it to the finals and placed first after beating WE 3-2. A few months later, they attended the [[IEM Season VIII - World Championship]] but failed to make it past groups after losing to the [[KT Rolster Bullets]] and [[Fnatic]]. The [[2014 LPL Spring/Regular Season|2014 LPL Spring Regular Season]] ended shortly afterwards with IG in fourth place. IG qualified for the [[2014 LPL Spring/Playoffs|2014 LPL Spring Playoffs]] and even made it to the finals but they lost 3-0 to [[EDward Gaming]]. They later lost 2-0 in [[Demacia Cup/Season 2|Demacia Cup Season 2]] in the round of 16 to [[Star Horn Royal Club]]. IG faired very poorly in the [[2014 LPL Summer/Regular Season|2014 LPL Summer Regular Season]], finishing in sixth place. They still qualified for the [[2014 Season China Regional Finals]] but they finished in last after losing 2-0 to [[OMG]] and 2-1 to [[LGD Gaming]].
+
+===2015 Season===
+
+IG played in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they managed to make it to the finals but they lost 3-0 to EDG. A few weeks later, they finished in fifth place in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] and qualified for the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]]. Here, IG ended in third place after losing 3-0 to EDG in the semifinals but beating [[Snake eSports]] 3-1 in the third place match. IG participated in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] and ended in fourth after losing 3-1 to EDG and 3-2 to Snake. Back in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]], IG ended in third place to qualify for the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]]. Here, IG finished in third place again after losing 3-2 to the [[Qiao Gu Reapers]] but beating EDG 3-1. IG qualified for the [[2015 Season China Regional Finals]] and managed to qualify for the [[2015 Season World Championship]] by beating Qiao Gu 3-0. IG was placed in a group alongside [[Cloud9]], Fnatic, and [[AHQ e-Sports Club]]. Unfortunately, they ended with a 2-4 record and were knocked out of the tournament in last place.
+
+===2016 Season===
+
+The 2016 season was fairly straightforward for IG. The team placed 4th in the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] with an 8-8 record. They were quickly knocked out of playoffs in the first round after getting swept 0-3 by Snake Esports. The [[LPL/2016_Season/Summer_Season|summer season]] was identical to the spring one for IG since they finished in 4th again with a 5-11 record. The [[LPL/2016_Season/Summer_Playoffs|summer playoffs]] also had the same result and IG were knocked out in the first round again by getting swept by [[I May]]. Kitties left Invictus Gaming in December of 2016.
+
+===2017 Season===
+
+In April of 2017 Kitties briefly joined [[Young Glory]]. The team finished 2nd at [[Tencent_Games_Arena_Hero_of_Cities/Season_12|TGA Hero of Cities Season 12]] after an 0-2 loss to [[EDG.Revengers]] in the finals. In May Kitties retired from professional play.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+* February 6 - [http://www.liquidlegends.net/forum/lol-general/477578-interview-lpl-ig-vs-lgd-kitties Interview LPL iG vs. LGD - Kitties] ''translated by TeamLiquid''
+
+=== Images ===
+<gallery>
+IG Kitties 2015 Spring.jpg|IG Kitties 2015 Spring
+IG Kitties 2015 Summer Old.png|IG Kitties 2015 Summer (1)
+IG Kitties 2015 Summer.jpg|IG Kitties 2015 Summer (2)
+IG Kitties 2016 Spring.png|IG Kitties 2016 Spring
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,134 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LoveLing&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Loveling」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=LoveLing
+|name=Yin Le
+|nativename=尹乐
+|namealphabet=Hanzi
+|image=OMG_LoveLing_2015_Summer.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|checkbox-res=No
+|birth_date_year=1993
+|birth_date_month=May
+|birth_date_day=01
+|favchamp=Lee Sin
+|favchamp2=Elise
+|favchamp3=Annie
+|favchamp4=Jarvan IV
+|checkbox1=No
+|compID1=Drug
+|compID2=Lin
+|compID3=LoveLin
+|compID4=Allen
+|checkboxComp=No
+|ids=OMGdouyuTVdrug, OMGdouyuTVAllen, OMGLoveLin, 무궁화 물망초 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|fanpage=http://t.qq.com/N-huiyi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Drug''' and '''Allen'''.
+|nicknames=灵药, 药导
+}}
+==Biography==
+
+== Trivia ==
+* Nicknamed the "军师", which means "military adviser" or "tactician" in Chinese, as it is said that he comes up with the multiple effective strategies that [[OMG]] uses.
+* Was previously engaged to a girl named "Lin" hence his name "LoveLin" and subsequent name change after the breakup
+* Formerly played support in the team, and was known as one of the 2 "god supports" in China along with [[Team WE]]'s [[FZZF]].
+* Was called "China's answer to [[Madlife]]" by Riot Games during the Season 3 World Championships.
+* Moved to jungle position, swapping with [[bigpomelo]].
+* Known for his {{ci|Lee Sin}} and {{ci|Aatrox}}.
+* Known for an extremely unique jungle style, blending early game hyper aggression while simultaneously supporting the team with vision control with early Oracles Elixirs and global pressure.
+* Considered one of the best junglers and supports of China.
+* Known for being a pioneer in the Chinese scene for emerging junglers such as {{ci|Aatrox}}, while also using unconventional junglers such as {{ci|Yorick}} to great effectiveness, to the point of it being banned against him consistently.
+* CEO of his company '''ESI创投基金'''<ref>[http://lol.shandian.biz/344.html OMG灵药退役后成立ESI创投基金坐当CEO，老婆徐可成合伙人无状态拒绝出席] lol.shandian.biz</ref>.
+* Hold rank 1 in ''League of Legends: Wild Rift'' for most of season 1 in China.<ref>[https://weibo.com/yinle007?is_all=1#_rnd1609262364253 LoveLing's Weibo Post] weibo.com</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===2013===
+* September 21 - [http://www.gamespot.com/league-of-legends/videos/omgs-lovelin-on-volibear-and-more-at-worlds-6414814/ OMG's LoveLin on Volibear and more at Worlds (video)] ''with GameSpot''
+* September 21 - [https://www.youtube.com/watch?v=GlmAp6RW7To S3 WC Day 5 Interview OMG LoveLin "Except Royal, <nowiki>[I]</nowiki> want to meet all of them (Quarterfinal Teams)" (video)] ''with Leaguepedia''
+===2014===
+* April 29 - [http://www.gosugamers.net/lol/features/3840-omg-pre-all-stars-interview-the-domination-of-omg-future-predictions-and-lane-swapping OMG Pre All-Stars Interview: The domination of OMG, future predictions, and lane swapping] ''with GosuGamers''
+=== Images ===
+<gallery>
+OMG Lovelin.jpg|OMG LoveLin, LPL 2013 Spring
+OMG LoveLin 2013 WCS.png|OMG LoveLin, Worlds 2013
+OMG LoveLing 2014 WCS.jpg|OMG LoveLing, Worlds 2014
+</gallery>
+
+==External Links==
+* [http://wangyou.pcgames.com.cn/zhuanti/lol/gsjj/elise/ 太平洋高手进阶第二十一期：OMG辅助-尹乐 蜘蛛女皇教学 (Chinese)]
+*  http://na.lolesports.com/articles/9-loveling
+
+{{PlayerPageEnd}}

@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Knight%20(Kim%20Hong-ju)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.817Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Knight (Kim Hong-ju)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Remind
+|name=Kim Hong-ju
+|nativename=김홍주
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|checkbox1=No
+|compID1=Knight
+|checkboxComp=No
+|ids='''KR:''' SuSooo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/d9b66bdc1b6199eba1b2176c2177c96b
+|videoarchive=https://www.twitch.tv/rlaghdwn12
+|youtube=https://www.youtube.com/channel/UCfL7Vob_QbS2c_QrP-KAjdw
+|deeplol=https://www.deeplol.gg/pro/Remind
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''REMIND'''. He was previously known as '''Knight'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|prev2=Jungler
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

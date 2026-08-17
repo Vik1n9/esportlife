@@ -1,0 +1,159 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=All%20Knights&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「All Knights」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= All Knights
+|orgcountry= Chile
+|country= Mexico
+|region= LAT
+|partner= 
+|sponsor= 
+|owner= Felipe Rossi <br> Javier Corral
+|headcoach= 
+|website= https://allknights.gg
+|youtube= https://www.youtube.com/@AllKnightsla
+|facebook= https://www.facebook.com/allknightsla
+|stream= https://www.twitch.tv/allknightsla
+|discord= https://discord.com/invite/xZMtectWJk
+|twitter= allknightsla
+|instagram= allknightsla
+|tiktok= allknightsla
+|created= Organization 2018-10-12 <br> LoL Division 2018-10-12
+|rosterphoto= 
+|disbanded= LoL Division 2024-04-30
+|otherwikis= apex, cod, valorant
+}}{{TOCRWI}}
+
+'''All Knights''' is a Latin American esports organization founded in October 2018 by Felipe Rossi and Javier Corral with the intention of improving the level of Latin America.
+
+== History ==
+The team was founded to compete in the [[Liga Latinoamérica]], the new unified Latin American league started in 2019, being the only squad selected without previously being part of neither the [[Liga Latinoamérica Norte|CLN]] nor the [[Copa Latinoamérica Sur|CLS]].
+
+During their competitive history, they were crowned once as Latin American champions.<ref>[https://lolesports.com/article/medallero-hist-rico-en-latinoam-rica/blt92678f1a0ecf8cf6 Medallero histórico en Latinoamérica (Spanish)] ''lolesports.com''</ref>
+
+==Trivia==
+* Known for being the first Latin American team to bring Korean players to [[LLA]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Pipe|cl|Felipe Rossi Heller|'''Co-Founder, Co-Owner, President, & Chief Executive Officer'''|newteam=retired}}
+{{listplayersp|Corri|cl|Javier Andre Corral Svoren|'''Co-Founder, Co-Owner, & Chief Operating Officer'''|newteam=retired}}
+{{listplayersp||cl|[[wikipedia:Cristian Garín|Cristian Garín]]|'''Investor & Business Partner'''|newteam=retired}}
+{{listplayersp||cl|Jorge Villanueva|'''Investor & Business Partner'''|newteam=retired}}
+{{listplayersp||cl|Jose Villanueva|'''Investor & Business Partner'''|newteam=retired}}
+{{listplayersp|Pao|cl|Paola Olivares|'''General Manager'''|newteam=retired}}
+{{listplayersp|Jaban|ar|Lautaro Pozzo|'''Social Media Manager'''|newteam=retired}}
+{{listplayersp|RulzB|cl|Raúl Bustamante|'''Streamer, Content Creator & Chief Marketing Officer'''|newteam=retired}}
+{{listplayersp|Luchiano|cl|Luciano Martelli|'''Content Creator'''|newteam=retired}}
+{{listplayersp|Conejiwi|cl|Gabriela Leal|'''Streamer & Content Creator'''|newteam=retired}}
+{{listplayersp|fffrancita|cl|Francesca Cortés|'''Streamer & Content Creator'''|newteam=retired}}
+{{listplayersp|Karpy|cl|Carol Riquelme|'''Streamer & Content Creator'''|newteam=retired}}
+{{listplayer|Eraveck|mx|Frida Olvera|'''Streamer, Content Creator & Illustrator'''|newteam=retired}}
+{{listplayersp|Shrupture|cl|Sebastian Hidalgo|'''Graphic Designer'''|newteam=retired}}
+{{listplayersp|Aleen|cl|Nicolás Barrios|'''Content Assistant'''|newteam=retired}}
+{{listplayersp|Jotape|cl|John Paul Howard|'''Sales Manager'''|newteam=retired}}
+{{listplayersp|Kadan|ar|Martin Pozzo|'''Video Editor'''|newteam=retired}}
+{{listplayer|Gazoo|cl|Benjamín Ovalle|'''Chief Marketing Officer'''|newteam=retired}}
+{{listplayersp|LLA Brasil|br|<!--Asked not to include their name-->|'''Content Creator'''|newteam=retired}}
+{{listplayer|MatuteWolf|ar|Matias Chilano|'''Streamer & Content Creator'''|newteam=Liga ACE}}
+{{listplayersp|Pozzo|ar|Facundo Pozzo|'''Content Manager'''|newteam=LEV}}
+{{listplayer|Manny (José Garcia)|mx|José Garcia|'''Team Manager'''|newteam=PEEK}}
+{{listplayer|Adniel|ar|Agustin Di Lalla|'''Head Coach'''|newteam=PÊEK Gaming}}
+{{listplayer|ETHALEXAN|ar|Alejandro Helmbold|'''Analyst'''|newteam=retired}}
+{{listplayersp|Zlatar|cl|Vicente Zlatar|'''Streamer & Content Creator'''|newteam=retired}}
+{{listplayer|gafone|br|Pedro Ramos|'''Coach'''|newteam=KBM.A}}
+{{listplayersp|Manu|ar|Emanuel Olivera|'''Team Manager'''|newteam=retired}}
+{{listplayer|Adniel|ar|Agustin Di Lalla|'''Assistant Coach'''|newteam=AK}}
+{{listplayer|Mozart|mx|Bismarck Sáenz|'''Coach'''|newteam=LEV}}
+{{listplayer|sSephix|cl|Francisco Fernández|'''Head Coach'''|newteam=2mr}}
+{{listplayersp||es|Ignacio García Pérez|'''Senior Content Manager'''|newteam=retired}}
+{{listplayersp|Josegtx|es|José Cruz|'''Content Creator'''|newteam=retired}}
+{{listplayersp|AmorEnLol|do|Óscar Reyes|'''Content Creator'''|newteam=retired}}
+{{listplayersp|Gonza|mx|Gonzalo Venegas|'''House Manager'''|newteam=retired}}
+{{listplayer|Karam|kr|Kim Ga-ram (김가람)|'''Head Coach'''|newteam=none}}
+{{listplayer|Pirean|kr|Choi Jun-sik (최준식)|'''Coach'''|newteam=FUT Esports}}
+{{listplayersp|Igor|br|Igor Ribeiro|'''Consultant'''|newteam=Retired}}
+{{listplayersp||cl|Cristian Olguín Letelier|'''Chief Commercial Officer & Country Manager'''|newteam=retired}}
+{{listplayer|Plugo|cl|Joaquín Pérez|'''Content Creator'''|newteam=Lechuga Gaming}}
+{{listplayer|Chunilda|cl|Camila Benavides|'''Content Creator'''|newteam=none}}
+{{listplayer|Kalipso|ar|Paula Oliveto|'''Content Creator'''|newteam=MR7}}
+{{listplayersp|Paindro|pe|Pedro Valdivia|'''Team Manager'''|newteam=ISG}}
+{{listplayer|Snok|sv|Roberto Coello|'''Head Coach'''|newteam=EST}}
+{{listplayer|Piroxz|br|Luis Chavez|'''Positional Coach'''|newteam=Retired}}
+{{listplayersp|Junny|kr|Yang Jun-Hyeok (양준혁)|'''Head of Content & Community Manager'''|newteam=retired}}
+{{listplayersp|Ashevi|mx|Manuel Nuñez|'''Assistant Community Manager'''|newteam=AZE}}
+{{listplayer|Erry|kr|Park "Terry" Sang-joon (박상준)|'''Strategic Coach'''|newteam=Retired}}
+{{listplayersp||cl|Pedro Anastassiou|'''Business Associate'''|newteam=retired}}
+{{listplayersp||cl|Nicolás Vásquez|'''Business Partner'''|newteam=retired}}
+{{listplayersp|Adrián|ar|Adrián Vidal|'''Life Coach'''|newteam=retired}}
+{{listplayersp||cl|Daniela Matamala|'''Kinesiologist'''|newteam=retired}}
+{{listplayersp|Arrowhead|es|Samuel Moreno|'''Data & Scout Analyst'''|newteam=retired}}
+{{listplayer|Beto|es|José Contreras|'''Head Coach'''|newteam=Retired}}
+{{listplayer|Shyro (Tomás Fabré)|ar|Tomás Fabré Lannutti|'''Community Manager'''|newteam=Retired}}
+{{listplayer|Saroo|kr|Lee Jong-won (이종원)|'''Head Coach'''|newteam=Game Coach Academy}}
+{{listplayer|Scorro (Jung Jae-hun)|kr|Jung Jae-hun (정재훈)|'''Assistant Coach'''|newteam=Seoul Neon}}
+{{listplayer|Halier|br|Gabriel Garcia|'''Assistant Coach'''|newteam=FLA}}
+{{listplayersp|Igor|br|Igor Ribeiro|'''Team Manager & Director of Esports'''|newteam=ISG}}
+{{listplayer|Mora|uk|Jake Hammond|'''Head Coach'''|newteam=RA'AD}}
+{{listplayersp|Mockingbird|cl|Massy Vilches|'''Community Manager'''|newteam=FLY}}
+{{listplayersp|Katherinn|cl||'''Streamer'''|newteam=retired}}
+{{listplayer|SoulStrikes|kr|Luchio Park (박희근)|'''Coach'''|newteam=UOL.SE}}
+{{listplayer|Lilynn|mx|Lizbeth Quiroz|'''Content Creator'''|newteam=ESTORM}}
+{{listplayer|VicaL|kr|Kim Sun-mook (김선묵)|'''Head Coach'''|newteam=Rascal Jester}}
+{{listplayersp|Galaxias|cl|Stefany LC|'''Streamer'''|newteam=retired}}
+{{listplayer|Chunilda|cl|Camila Benavides|'''Streamer'''|newteam=LVP}}
+{{listplayer|Nunu (Nuno Rema)|pt|Nuno Rema|'''Head Analyst & Assistant Coach'''|newteam=Rensga}}
+{{listplayer|Stardust|link=Stardust (Son Seok-hee)|kr|Son Seok-hee (손석희)|'''Head Coach'''|newteam=FLA}}
+{{listplayersp||cl|Juan Pablo Zuñiga|'''Sports Psychologist'''|newteam=retired}}
+{{listplayersp|Natipls|cl|Natalia Fridericksen|'''Ambassador'''|newteam=retired}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+=== Images ===
+==== Logos ====
+<gallery>
+All Knights oldlogo square.png|Previous Logo<br>(Nov 2018 - <!--20--> Nov 2020)
+</gallery>
+
+==== Rosters ====
+<gallery>
+All Knights Roster 2019 Opening.png|AK 2019 LLA Opening
+All Knights 2019 Opening.png|AK 2019 LLA Opening with [[Unforgiven (Maximiliano Utrero)|Unforgiven]]
+All Knights Roster 2019 Closing.png|AK 2019 LLA Closing
+All Knights 2019 Closing.png|AK 2019 LLA Closing with [[Unforgiven (Maximiliano Utrero)|Unforgiven]]
+All Knights 2019 Closing 2.png|AK 2019 LLA Closing with [[Pancake (Manuel Scala)|Pancake]]
+All Knights Roster 2020 Opening.png|AK 2020 LLA Opening
+All Knights 2020 Closing.png|AK 2020 LLA Closing
+AK Roster 2020 LLA Closing.png|AK 2020 LLA Closing with [[Pancake (Manuel Scala)|Pancake]]
+All Knights 2021 Opening.png|AK 2021 LLA Opening with [[Zothve]]
+All Knights 2021 Opening 2.png|AK 2021 LLA Opening
+2021 AK Opening.png|AK 2021 LLA Closing
+All Knights 2021 Closing.png|AK 2021 LLA Closing with [[Zothve]], [[Samkz]] & [[Bola]]
+All Knights 2021 Closing 2.png|AK 2021 LLA Closing with [[Kksh]] & [[BetaTwinz]]
+All Knights 2022 Opening.png|AK 2022 LLA Opening
+All Knights 2022 Opening 2.png|AK 2022 LLA Opening with [[Skeeto]] & [[CaD]]
+AK 2022 Closing.png|AK 2022 LLA Closing
+AK_LLA_2023_Opening.PNG|AK 2023 LLA Opening
+All Knights 2023 Closing.png|AK 2023 LLA Closing
+All Knights 2024 Opening.png|AK 2024 LLA Opening
+All Knights 2024 Opening 2.png|AK 2024 LLA Opening with [[Lac]]
+</gallery>
+
+== References ==
+<references />

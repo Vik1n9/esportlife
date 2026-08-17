@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=C7N&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.797Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Optimus」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=C7N
+|name=Trần Văn Cường
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|nationality=Vietnamese
+|residency=PCS
+|birth_date_year=1996
+|birth_date_month=December
+|birth_date_day=15
+|favchamp=Jayce
+|favchamp2=Kayle
+|favchamp3=Orianna
+|favchamp4=Yasuo
+|checkbox1=Yes
+|favchamp5=Kassadin
+|compID1=aninhsitinh
+|compID2=Optimus
+|checkboxComp=No
+|ids=SF5 Optimus, SF5 Optimussss, BM Optimus, SGD Optimus, TK anninhsiting (KR), FL Captain, Cường 7Núi
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/optimusvn96
+|youtube=https://www.youtube.com/@Optimus96
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Optimus'''.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Coach
+|prev3=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Nicknamed "OP-timus" for his explosive play with {{ci|Kassadin}} against [[ahq e-Sports Club]] in [[GPL|GPL Summer 2014]].
+*He is also known as "Cường 7 Núi" - loosely translated to "Cường of the Seven Mountains" - after not playing professionally and turning to being a streamer. This can be considered his "for fun" streaming persona where he frequently and jokingly claims "GAM cần anh" (GAM ([[GAM Esports]]) needs me) following his "great plays" on streams.
+*He is also known as the Pentakill thief saint for deliberatingly denies his teammates' Pentakills. 
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

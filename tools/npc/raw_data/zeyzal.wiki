@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zeyzal&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.591Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zeyzal」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Zeyzal
+|name=Tristan Stidam
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=07
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' ώώώώ <br> Cosboat <br> '''KR:''' FeralTortoise
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/zeyzal
+|twitter=Zeyzal
+|youtube=https://www.youtube.com/c/Zeyzal
+|lolpros=https://lolpros.gg/player/zeyzal/
+|deeplol=https://www.deeplol.gg/pro/Zeyzal
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+Zeyzal was signed and played for [[Cloud9 Academy]] for [[NA Academy 2018 Spring]]. C9A placed second in the regular season and third/fourth in the [[NA Academy 2018 Spring Playoffs]].
+
+C9 started the [[League_Championship_Series/North_America/2018_Season/Summer_Season|2018 Summer Season]] by promoting [[Goldenglue]], [[Keith]], and [[Zeyzal]] to the LCS roster. By Week 5 C9 were in tenth place. After bringing back [[Jensen]] and [[Sneaky]] to the main roster as well as subbing in [[Blaber]] for the rest of the summer season, Cloud9 surged and made it to second place and secured a playoff bye by the end of the regular season. In the [[NA LCS/2018 Season/Summer Playoffs|playoffs]], Cloud9 defeated [[Team SoloMid]] 3-2 in the Semifinals and lost 0-3 to Team Liquid in the Finals. They moved onto the [[NA LCS/2018 Season/Regional Finals|Regional Qualifier]] and won 3-0 over TSM to make worlds.
+
+At the [[Worlds 2018|2018 World Championship]], Cloud9 once again had to make it through the [[2018_Season_World_Championship/Play-In|Play-In]] stage. They went 4-0 in the Play-In group stage, and beat [[Gambit Esports]] 3-2 to advance to the [[2018_Season_World_Championship/Main_Event|Main Event]]. Cloud 9 were seeded into Group B, dubbed the "Group of Death", with [[Team Vitality]], [[Royal Never Give Up]], and [[Gen.G]]. Cloud9 defied expectations and made it out of the group in second place with a 4-3 record after losing the first place tiebreaker to RNG. 
+
+In the Quarterfinals, C9 made history and defeated [[Afreeca Freecs]] 3-0, making it the first time since the [[World Championship Season 1|Season One World Championship]] that a North American team had made semifinals. In the Semifinals, C9 lost 0-3 to [[Fnatic]].
+== Trivia ==
+* Well-known for his massive, unruly beard once he became the starter for [[Cloud9]], which was frequently cut to on broadcast during champion select. After [[Bjergsen]] began to sport a beard in 2019, the two were often compared.
+** This earned him the nickname "胡子辅助" in China, which translates to "Beard Support"<ref>[https://youtu.be/o7JxsPe0x3o Chinese nicknames for Western LOL pro players] ''youtube.com''</ref>
+* Considered a good shotcaller and in-game strategist.
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* 2x NACL 1st All Pro Team (2025 Split 1, Split 2 2025)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

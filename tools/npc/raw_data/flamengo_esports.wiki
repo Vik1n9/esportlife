@@ -1,0 +1,126 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Flamengo%20MDL&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.080Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Flamengo eSports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name=Flamengo MDL
+|orgcountry=Brazil
+|country=
+|region=Brazil
+|headcoach=
+|owner=
+|manager= 
+|captain= 
+|website= https://flaesports.gg
+|youtube= https://www.youtube.com/channel/UCqN_gtT3fqdn4KXdLLSqaHQ
+|facebook=https://facebook.com/flaesportsoficial
+|twitter=flaesports
+|instagram=flaesports
+|dpmlol=https://dpm.lol/esport/soloq/teams/FLA
+|lolpros=https://lolpros.gg/team/flamengo-esports
+|sponsor=[http://www.adidas.com adidas] <br> [http://twitch.tv/ Twitch] <br> [http://redragon.com.br/ Redragon Brasil] <br> [https://pixbet.com/sports/ PixBet]
+|created=2017-10-06
+|disbanded=
+<!-- Current Roster Photo -->
+|rosterphoto=
+}}{{TOCRWI}}
+
+'''Flamengo MDL''' is a Brazilian team, the esports division of traditional sports team '''CR Flamengo'''. They are currently known as '''Flamengo Redragon''' for sponsorship reasons.
+
+They initially competed in CBLOL under the management of [[Simplicity Esports]]. Following the partial CBLOL's spot franchise acquisition by '''Los Grandes''' in 2022 they had to rename to [[Flamengo Los Grandes]] due to Riot rules and aftermost with the full acquisition to [[Los Grandes]].
+
+'''Flamengo Esports''' returned to the scene in late 2023 with a new management company, '''Medellin''', which also manages other rosters in the team, including Free Fire and CS2.
+
+== History ==
+'''Flamengo Esports''' team was created on late 2017 as a branch of the traditional football club '''CR Flamengo'''. Initial roster included [[Jisu]], [[SirT]], [[Evrot]], [[BrTT]] and [[EsA]], and made its first appearance on [[BRCC 2018 Split 1]]. As runner-ups, they classified for the [[CBLOL/2018 Season/Split 2 Promotion and Access|Access Series]] and made it to brazil's first division by winning over [[Team oNe eSports]]. The Esports team inherited lots of supporters from its football club, and its initial investment was frequently recognized by [[CBLOL]]'s casters as a big step up for Esports in Brazil.
+
+During 2020 and until the merge with [[Los Grandes]], '''Flamengo Esports''' operations were managed by [[Simplicity Esports]].
+
+Flamengo Esports returned to the competitive League scene in October 2023 to play the Multiplatform eSports Games (MEG) League Championship after a rebranding and a new management company managing the team's operations, Medellin, with a roster of old players from the Brazilian scene and from the [[CBLOL/2019 Season/Split 2|CBLOL 2019 2nd Split]] winning team, including [[Goku]] and [[Absolut]]. <ref>https://twitter.com/flaesports/status/1716231744272163267 Flamengo Esports Tweet</ref>
+
+Flamengo players and supporters often refer to themselves as "nação rubro-negra" (red-and-black nation).
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Sparta|br|Alef Pires|'''President'''|newteam=Ei Nerd Esports}}
+{{listplayer|Patron|br|Leone Patron|'''Head Coach'''|newteam=Stellae Gaming}}
+{{listplayer|Luuukz|br|Lucas Higashi|'''Strategic Coach'''|newteam=FURIA}}
+{{listplayersp|Patron|br|Rafael Mendes|'''CEO'''|newteam=Retired}}
+{{listplayer|ti0ben|br|André Martinez|'''Strategic Coach'''|newteam=Vivo Keyd Stars Academy}}
+{{listplayer|Strix (Douglas Assis)|br|Douglas Assis|'''Head Coach'''|newteam=e-Champ Gaming}}
+{{listplayer|Aoshi|br|Franklin Coutinho|'''Technical Consultant'''|newteam=Fluxo W7M}}
+{{listplayer|Luskka|br|Lucas Felipe Rentechen|'''Head Coach'''|newteam=Retired}}
+{{listplayer|Beifong|br|Guilherme Dantas|'''Manager'''|newteam=Geração Estrutura}}
+{{listplayer|Cabral|br|Gabriel Cabral|'''Head Coach'''|newteam=Geração Estrutura}}
+{{listplayersp|Gidd|us|Gidd Sasser|'''General Manager'''|newteam=Flamengo Los Grandes}}
+{{listplayersp|Davisito|br|Davi Marques|'''Team Manager'''|newteam=Flamengo Los Grandes}}
+{{listplayersp|Teabubbles|us|Debbie Chun|'''KR Manager'''|newteam=Flamengo Los Grandes}}
+{{listplayer|Snowlz|br|Guilherme Neves|'''Head Coach'''|newteam=Flamengo Los Grandes}}
+{{listplayer|jUc|br|César Barbosa|'''Assistant Coach'''|newteam=Flamengo Los Grandes}}
+{{listplayer|Riyev|br|Marcelo Carrara|'''Positional Coach'''|newteam=Flamengo Los Grandes}}
+{{listplayersp|Crazylegs|us|Tyler Oelling|'''Draft Coach'''|newteam=Flamengo Los Grandes}}
+{{listplayer|esA|br|Eidi Yanagimachi|'''Content Creator'''|newteam=Flamengo Los Grandes}}
+{{listplayer|WizardKira|br|Robert Berberte de Oliveira|'''Analyst'''|newteam=Flamengo Los Grandes}}
+{{listplayer|Lord Semi|br|Aldair Lima|'''Streamer'''|newteam=Abstract (Brazilian Team)}}
+{{listplayer|Halier|br|Gabriel Garcia Negreiros|'''Coach'''|newteam=RBT}}
+{{listplayer|Pades|tr|Serdar Padeş|'''Head Coach'''|newteam=BK ROG}}
+{{listplayer|Absolut|br|Luis Felipe Carvalho|'''Positional Coach'''|newteam=Retired}}
+{{listplayersp|Khorn|br|Lucas Teixeira|'''Data Analyst'''|newteam=Flamengo Academy}}
+{{listplayer|Abaxial|us|Alexander Haibel|'''Coach'''|newteam=INTZ}}
+{{listplayer|Abaxial|us|Alexander Haibel|'''Coach'''|newteam=Flamengo Academy}}
+{{listplayer|Buero|br|Daniel Nunes|'''Streamer'''|newteam=silencio e trabalho}}
+{{listplayer|Reven (Seong Sang-hyeon)|kr|Seong Sang-hyeon (성상현)|'''Strategic Coach'''|newteam=EST}}
+{{listplayer|Kake|br|Guilherme Henrique Braga Morais|'''Coach'''|newteam=Flamengo Academy}}
+{{listplayer|Nuddle|ca|Jean-François Caron|'''Head Coach'''|newteam=KBM}}
+{{listplayer|Djokovic|br|Thiago Maia|'''General Manager'''|newteam=CNB e-Sports Club}}
+{{listplayersp|FelipeRAG|br|Felipe Gonçalves|'''Social Media Manager'''|newteam=Team Liquid}}
+{{listplayersp|Nikih|br|Nicolas Seydi|'''Graphic Designer and Streamer'''|newteam=Retired}}
+{{listplayersp|sheviii2k|br|Sérvulo Júnior|'''Streamer'''|newteam=Retired}}
+{{listplayersp|Cabritoz|br|Iury Cabral|'''Streamer'''|newteam=Retired}}
+{{listplayer|Reven (Seong Sang-hyeon)|kr|Seong Sang-hyeon (성상현)|'''Analyst'''|newteam=Flamengo}}
+{{listplayer|Stardust (Son Seok-hee)|kr|Son Seok-hee (손석희)|'''Strategic Coach'''|newteam=T1}}
+{{listplayersp|Gakim0|kr|Ga Kim|'''Translator'''|newteam=Retired}}
+{{listplayer|Grey|us|Jordan Corby|'''Head Coach'''|newteam=Riot Games Inc.}}
+{{listplayer|Von (Gabriel Barbosa)|br|Gabriel Barbosa|'''Coach'''|newteam=RDP}}
+{{listplayer|Reven (Seong Sang-hyeon)|kr|Seong Sang-hyeon (성상현)|'''Analyst'''|newteam=XYZ (Korean Team)}} 
+{{listplayer|MiT|br|Gabriel Souza|'''Head Coach'''|newteam=Pain Academy}}
+{{listplayer|manajj|br|André Rocha|'''Streamer'''|newteam=Retired}}
+{{listplayer|Dinep|pt|Rafael Nunes|'''Coach'''|newteam=KIYF}}
+{{listplayer/End}}
+
+== Tournaments ==
+===As Flamengo MDL===
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As Flamengo Esports===
+{{TeamResults|show=overviewpage|Flamengo Esports}}
+
+== Media ==
+{{TeamMedia}}
+== Videos ==
+
+== Highlight Videos ==
+
+== Images ==
+<gallery>
+Flamengo eSportslogo square (Oct 2017 - Apr 2018).png|Flamengo eSports Logo<br>(Oct 2017 - Jan 2018)
+fla_2018-1.png|Flamengo eSports Logo<br>(Jan 2018 - May 2018)
+Flamengo eSports Logo (2018-2020).png|Flamengo eSports Logo<br>(May 2018 - May 2020)
+Flaesports_logo_2020.png|Flamengo eSports Logo<br>(May 2020 - Jan 2021)
+Flamengo_esports_2021.png|Flamengo eSports Logo<br>(Jan 2021 - May 2021)
+2021 CBLoL Flamengo Esports Split 2.png|Flamengo eSports Logo<br>(Jun 2021 - Oct 2021)
+</gallery>
+
+== External Links ==
+
+==References==
+<references />

@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jun%20(Yoon%20Se-jun)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.104Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jun」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Jun
+|name=Yoon Se-jun
+|nativename=윤세준
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=August
+|birth_date_day=02
+|favchamp=Ashe
+|favchamp2=Heimerdinger
+|favchamp3=Rell
+|checkbox1=No
+|compID1=HP1
+|compID2=Arthur
+|checkboxComp=No
+|ids='''KR:''' 경로당홍삼캔디훔쳐먹는김건, 독기품기 <br> '''EUW:''' europe, qrds
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/dbstpwns0
+|twitter=JunLoL2024
+|videoarchive=https://www.twitch.tv/fnc_jun
+|lolpros=https://lolpros.gg/player/jun
+|deeplol=https://www.deeplol.gg/pro/Jun-Yoon_Se-jun
+|dpmlol=https://dpm.lol/pro/Jun
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''HP1''' and '''Arthur'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+
+=== Individual Awards ===
+* LCK CL MVP (2022 Spring)
+* LCK CL Best Support (2022 Spring) 
+* LEC All-Pro Team (2024 Spring) 
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

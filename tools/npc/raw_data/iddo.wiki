@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Astarte%20(Judge%20Cruz)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.015Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「iddo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Astarte
+|name=Judge&nbsp;Gideon Cruz
+|checkboxAutoImage=Yes
+|country=Philippines
+|residency=Southeast Asia
+|favchamp=Blitzcrank
+|checkbox1=No
+|checkboxComp=No
+|ids=Iddo, Solyndra, Dynasty,<br>MLE Astarte (TW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/mleastarte
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+He started playing League of Legends in 2011.
+
+== Trivia ==
+* Favorite champion and mostly played champion is {{ci|Blitzcrank}}.<ref>[http://gpl.garena.com/team.php?team_id=1 Manila Eagles Team Page] "gpl.garena.com"</ref>
+* Became well known for his exceptional hooks with {{ci|Blitzcrank}} during the [[2013 GPL Spring]].
+* First summoner name was Rebirth.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===2013===
+* March 30 - [http://www.youtube.com/watch?v=0P72dJhz0aw Ask Me Anything Sessions with MLE Astarte Episode 3] with Garena Philippines Youtube
+
+==Videos==
+*[http://www.youtube.com/watch?v=5D0wGTGdj0k MLE Highlights Rough]
+
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

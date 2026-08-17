@@ -1,0 +1,255 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20Liquid&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.058Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Liquid」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name=Team Liquid
+|organization=Team Liquid (Organization)
+|orgcountry=Netherlands
+|country=United States
+|region=North America
+|partner=[https://www.alienware.com Alienware] <br> [https://www.coinbase.com Coinbase] <br> [https://sui.io Sui] <br> [https://www.monsterenergy.com Monster Energy] <br> [https://www.imc.com/us IMC] <br> [https://sap.com SAP] <br> [https://secretlab.co Secretlab] <br> [https://www.visa.com VISA]
+<!-- Staff -->
+|headcoach= Jake "{{bl|Spawn (Jake Tiberi)|Spawn}}" Tiberi
+|owner= Victor "'''Nazgul'''" Goossens<br>Steve "'''[[LiQuiD112]]'''" Arhancet
+<!-- Social Media -->
+|website=http://teamliquidpro.com
+|youtube=https://youtube.com/c/teamliquid
+|facebook=https://fb.com/teamliquid
+|subreddit=teamliquid
+|twitter=teamliquidlol
+|discord=https://discord.gg/teamliquid
+|snapchat=liquidgg
+|instagram=teamliquid
+|twitch-team=http://twitch.tv/team/teamliquid
+|tiktok= teamliquid
+|weibo=http://weibo.com/teamliquid
+|vk=https://vk.com/teamliquid
+|lolpros=http://lolpros.gg/team/team-liquid
+|bluesky= teamliquid.bsky.social
+|linkedin=https://www.linkedin.com/company/teamliquid-enterprises-llc/
+|irc= 
+<!-- History -->
+|created= 2000<br>LoL Division 2015-01-06
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= artifact,cod,fortnite,halo,pubg,siege,apex,tft
+}}{{TOCRWI}}
+
+'''Team Liquid'''—currently competing under '''Team Liquid Alienware''' for the League of Legends division for sponsorship reasons—is a multi-gaming team organization that was founded in the Netherlands in 2000 as a ''StarCraft: Brood War'' team. In January 2015, they merged with [[Team Curse]] (not the '''Curse Gaming''' organization). This page contains information about their primary League of Legends team, formerly known as Team Curse.
+
+The organization also runs the most-visted ''StarCraft''-related website in the world, [http://tl.net tl.net], which has given to a rise ''League'' sub-site, [http://liquidlegends.net Liquid Legends] since Liquid acquired Curse and joined the LCS.
+
+== History ==
+===2015 Preseason===
+Team Liquid acquired their League of Legends roster in January 2015 upon merging with [[Team Curse]] (not to be confused with the team's former title sponsor '''Curse Gaming'''). They inherited Team Curse's spot in the [[Riot League Championship Series/North America/2015 Season/Spring Season|LCS]], and their starting roster going into the 2015 season included [[Quas]], [[IWillDominate]], [[FeniX]], [[Piglet]], and [[Xpecial]]. At the same time as this merger was announced, Team Liquid launched the site ''liquidlegends.net'', a hub for all of their League of Legends content.<ref>[http://www.liquidlegends.net/forum/lol-general/474679-team-liquid-and-former-curse-become-one Team Liquid and Former Curse Become One] ''liquidlegends.net''</ref>
+
+===2015 Season===
+At the start of the season, Piglet was unable to play in the NA LCS Spring Split due to visa issues, and so [[Team Liquid Academy]] AD carry {{bl|KEITHMCBRIEF}} started in his place for the first week. The team went 2-0. Piglet then returned for weeks 2, 3, and 4, but after poor performances and a 1-5 record, KEITHMCBRIEF (now '''Keith''') was returned to the starting lineup.<ref name="keithplaysweek5">[http://www.teamliquidpro.com/news/2015/02/16/lcs-news-keith-moved-to-starting-roster-for-week-5 Keith replaced Piglet for Week 5 of NA LCS Spring Season] ''teamliquidpro.com''</ref> During this time, to accommodate Keith's high-school schedule, Liquid scrimmed with Piglet in the mornings and then with Keith in the afternoons. The team went 3-1 in weeks 5 and 6, and Piglet was returned for week 7; he stayed on the starting roster through the rest of the split.<ref name="piglet7">[http://www.teamliquidpro.com/news/2015/03/04/lcs-news-piglet-moved-to-starting-roster-for-week-7 LCS News: Piglet moved to starting roster for Week 7] ''teamliquidpro.com''</ref> The team qualified for [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoffs]] with the sixth seed after defeating [[Team 8]] in a tiebreaker game. There, they beat [[Counter Logic Gaming|CLG]] 3-0 in the quarterfinals before falling to [[Cloud9]] 3-2 in the semifinals; in the third-place match, Liquid finally broke the "fourth-place curse" that stopped them from placing higher than fourth place in any event that had persisted since they were Team Curse and took down [[Team Impulse]] 3-2.
+
+Team Liquid stuck with the same five-man roster for the entirety of the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]], and they finished the round robin in first place after winning a tiebreaker match over Counter Logic Gaming - [[LCS Teams Timeline|the first team]] other than TSM or Cloud9 to place first in an NA LCS round robin. However, in the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]], they lost immediately in the semifinals to TSM, making them also the first team to finish first in an NA LCS round robin but not make the playoff finals. A CLG victory over TSM in the playoff finals sent Team Liquid to the [[2015 Season North America Regional Finals|regional finals]] instead of giving them a direct seed to [[2015 Season World Championship|Worlds]] via [[2015 Season/Championship Points|Championship Points]], and in the gauntlet they lost to underdogs Cloud9, ending their post-season abruptly.
+
+===2016 Preseason===
+Following a rumor that Piglet was to leave the team published in late September 2015, Team Liquid announced that they were actually extending his contract.<ref>[http://www.dailydot.com/esports/piglet-leaves-team-liquid/ Piglet and Team Liquid part ways] ''dailydot.com''</ref><ref name="pigletcontract">[http://twitter.com/TeamLiquidLoL/status/648579761195864064 Team Liquid's Tweet] ''twitter.com''</ref> The next day, Xpecial revealed that it was he who was leaving the team, not Piglet, and in October the team announced [[Smoothie]] as their new starting support player.<ref name="xpecialleavevlog">[http://www.youtube.com/watch?v=OPZ7FKyJ3A8 TL Update - Xpecial On His Future] ''youtube.com''</ref><ref name="smoothiejoin">[http://www.youtube.com/watch?v=bEoc3ZD2nSw Team Liquid Smoothie Challenge] ''youtube.com''</ref> Soon after, Xpecial's departure was officially announced as well.<ref name="xpecialleavetl">[http://www.youtube.com/watch?v=nJrKim_IYL8 Xpecial - Free Agency, C9 Challenger, Future] ''youtube.com''</ref>
+
+===2016 Season===
+In late December, Team Liquid announced their plans for a 10-man-roster and heavily revamped their coaching staff with [[Locodoco]] as new head coach and new support staff. In January, Liquid announced the addition of [[Lourlo]] to fill the gap left by [[Quas]] and added [[zig]], [[Dardoch]], [[Youngbin]], [[fabbbyyy]] and [[Matt (Matthew Elento)|Matt]] as active subs from their Challenger team [[Team Liquid Academy]]. What "active subs" turned out to mean was a permanent roster shuffle, in which Dardoch and Matt joined the LCS team [[League Championship Series/North America/2016 Season/Spring Season/Team Rosters|after the first game]] of the [[League Championship Series/North America/2016 Season/Spring Season|split]]. IWDominate retired, and Smoothie moved to the Academy team.
+
+Liquid's spring split started out rocky, with an 0-2 first week and cumulative winrates of 50% or worse after each of the first eight weeks. Eventually, their new roster started to solidify, and they climbed into a fourth-place regular-season finish, behind the newly-formed and almost-undefeated [[Immortals]], CLG, and Cloud9. A lot of their success was attributed to Dardoch's jungling, and he was named Rookie of the Split. Team Liquid's [[League Championship Series/North America/2016 Season/Spring Playoffs|quarterfinal]] series was an easy 3-0 over [[NRG Esports]], but in the semifinals, they lost a narrow five-game series to CLG (the eventual champions). In the fifth game, Piglet was caught out in mid lane by a double-teleport from both [[Darshan]] and [[Huhi]] at the same time to the same ward and died. While Liquid were already behind in that game, it was this play that sealed the win for their opponents. In the third-place series against the tournament-favorite Immortals who had been knocked down in an upset by TSM, Liquid lost once again, this time 0-3, to finish the playoffs in fourth place overall and continuing their "fourth-place curse."
+
+Despite Dardoch's stellar spring split performance, on May 27, he was suspended by the team for "behavioral problems and team dynamics issues" ahead of the [[League Championship Series/North America/2016 Season/Summer Season|Summer Split]].<ref name="dardochsuspend">[http://www.teamliquidpro.com/news/2016/05/27/dardoch-suspension Dardoch Suspension] ''teamliquidpro.com''</ref> Liquid Academy jungler [[Moon (Galen Holgate)|Moon]] was used for the team's first series instead, which they lost, and by the end of the week Dardoch was starting again, where he remained through the end of the [[League Championship Series/North America/2016 Season/Summer Playoffs|Playoffs]]. Soon after Dardoch's return, fabbbyyy was also traded to the main Team Liquid roster, this time in exchange for Piglet. This roster of Lourlo, Dardoch, FeniX, fabbbyyy, and Matt stabilized, and the team finished in fifth place with a 9-9 series record. In the playoffs, they shook up their roster once again, substituting in [[Jynthe]] for their third game against CLG after two losses. Jynthe won his first game, but Team Liquid ultimately lost the series 3-1 and then also lost in the first round of the [[2016 Season North America Regional Finals|Regional Finals]] to [[Team EnVyUs]], this time with both Jynthe at AD carry and former substitute mid laner [[Arcsecond]] jungling.
+
+===2017 Season===
+In the offseason, Liquid made a big splash by signing former [[Immortals]] star jungler [[Reignover]] to replace Dardoch. The team also sold their [[NA_Challenger_Series/2017_Season/Summer_Season|Challenger Series]] slot to [[eUnited]], and added former Liquid Academy players [[Goldenglue]] and [[Piglet]] to the starting roster, joining Reignover and Summer holdovers [[Lourlo]] and [[Matt (Matthew Elento)|Matt]]. After a middling 2-4 start to the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]], Liquid nosedived in weeks 3 and 4, losing all four series to fall into a tie for last place. With the organization seeing Goldenglue as a weak point on the team, tryouts were announced for a new mid laner during the break week. However, the team eventually elected to move ADC Piglet to mid and to add former sub [[Youngbin]] as their new ADC. After a 1-1 week 5, the team made yet another move, acquiring former TSM star ADC [[Doublelift]], who had been taking a split off, on loan from TSM, as well as veteran support [[Adrian (Adrian Ma)|Adrian]]. While Adrian would only play a few games, Doublelift would start the remainder of the season for Liquid. The team even added a new head coach for the final week, picking up former [[NaJin Black Sword]] player [[Cain]]. However, these moves failed to deliver the radical results hoped for and Liquid went 2-4 over the last three weeks to finish 9th, sending them to the [[League_Championship_Series/North_America/2017_Season/Summer Promotion|promotion tournament]].
+
+In the promotion tournament, Liquid beat eUnited 3-1 after dropping the first game, moving them into the winner's bracket. There, they faced NACS champions [[Gold Coin United]]. Liquid went up 2-0 in the series, only to drop the next two games to GCU. However, Liquid defeated GCU in a dominant 5th game, retaining their LCS spot.
+
+In the midseason, Doublelift returned to TSM. The team then announced that Piglet would swap back to ADC and that Goldenglue would return from bootcamping in Korea to start in mid lane. This meant that the team would start the same five that they had to begin the spring, despite the underwhelming results. However, this lineup would not last long, as after a losing to CLG to open the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Summer Split]], Goldenglue was subbed out for former [[Phoenix1]] mid laner [[Slooshi]]. Liquid lost that series as well, and Goldenglue returned and held the starting position until week 4, in which he was once again subbed out for Slooshi and veteran support [[KonKwon]] was subbed in for Matt. The team also began to sub in [[Inori]], acquired from [[Phoenix1]], for Reignover. None of these changes led to any lasting sucess, and Liquid finished the first 7 weeks with a 4-10 record. Before week 8, the team announced that [[Dardoch]], who had left CLG due to conflicts with his teammates, would return to the team he had started with, and that they had also acquired [[ROX Tigers]] mid laner [[Mickey (Son Young-min)|Mickey]]. Despite the high profile acquisitions, Liquid proceeded to lose all four of their final games, sending them to the [[League_Championship_Series/North_America/2018_Season/Spring Promotion|promotion tournament]] for the second time in 2017, the worst year in the history of the Liquid organization.
+
+With both Mickey and Dardoch starting, Liquid requalified for the LCS with a 3-0 stomp of eUnited, followed by coming back after falling to a 2-0 deficit against Phoenix1 to take the series.
+
+===2018 Preseason===
+After they were accepted into the LCS's new franchising system in 2018, Team Liquid announced that they were releasing all of their players and coaching staff. The new starting roster consisted of former [[Immortals]] players [[Xmithie]], [[Pobelter]], and [[Olleh]], shortly followed by [[Cloud9]]'s [[Impact]] and the return of Doublelift. Cain remained as head coach for Liquid, and the team also acquired former Immortals coach [[Dodo]] as assistant coach. Expectations were high, as the new Team Liquid roster looked incredibly strong with five high-profile veterans joining forces.
+
+===2018 Season===
+Liquid had a strong start to the 2018 Spring Split, finishing Week 2 with a record of 4-0 including resounding victories over rivals TSM and [[100 Thieves]]. However, the team started to falter after losses in Week 3 to the underperforming [[FlyQuest]] and last-place [[Golden Guardians]]. The team would continue to play inconsistently throughout most of the split, with criticism directed to the apparent lack of synergy between Doublelift and Olleh. The team finally displayed a resurgence of strength with a 2-0 record in Week 9. The victories entered Team Liquid into a tiebreaker between four teams to determine playoff seeding, in which Liquid acquired the fourth seed. The fourth-place curse was finally broken as the team looked completely dominant in playoffs. Liquid defeated Cloud9 in the quarterfinals, [[Echo Fox]] in the semifinals, and the first-place 100 Thieves in the grand final. This would give Liquid their first LCS title, and allow them to be North America's representative at the [[2018 Mid-Season Invitational]].
+
+At MSI, Liquid was seeded directly into the [[2018_Mid-Season_Invitational/Main_Event|Group Stage]]. They began the event in uninspiring fashion, losing their first four games, the only team to fail to record a win in the first two days. [[Olleh]] also removed himself in favor of substitute support [[Joey]] after day 1, citing a lack of confidence in his own play, though he would return for the second game on Day 2 and play out the rest of the event. However, Liquid finally managed to break their slump with a Day 3 win over eventual tournament winners [[Royal Never Give Up]], then won three of their five final matches, which coupled with a slump by Europe's [[Fnatic]], put the two Western teams in a tie for the final playoff spot at the conclusion of the group stage. Liquid's luck would fail them there though, as they lost, continuing North America's record of futility in international tournament tierbreakers.
+
+Team Liquid was placed in Group C for the [[2018 Season World Championship/Main Event|Worlds 2018 Main Event]], along with Korea's [[KT Rolster]], Taiwan's [[MAD Team]], and China's [[EDward Gaming]]. In the tournament, Liquid performed poorly, winning only against MAD in the first round robin. Though Liquid displayed improvement in the second round robin, beating EDG, they finished with a 3-3 record, which was not enough to secure the team a place in the knockout stage.
+
+===2019 Preseason===
+Following their Worlds performance, the team looked to revamp some positions within the team in the hopes that they would achieve international success. The team replaced [[Pobelter]] with [[Cloud9]]'s Jensen, and Olleh with former World Champion and former [[GenG]] support [[CoreJJ]].
+
+===2019 Season===
+TL dominated the first half of the 2019 spring split with help from strong performances by the bot lane of [[Doublelift]] and CoreJJ and lost just one game, against TSM, in the first six weeks. TL struggled in the final three weeks and went 3-3 with losses to Flyquest, Echo Fox and Team SoloMid to finish 14-4. Cloud9 also finished the season with a 14-4 record but lost both regular-season games against Liquid to give TL the regular-season title. 
+
+Liquid avenged its loss to Flyquest by sweeping them in the spring playoff semifinals while SoloMid advanced in a close 3-2 series against Cloud9. Team SoloMid picked up where it left off in the regular season and won the first two games of the finals. TL fought back and reverse swept TSM to win its third straight LCS championship and a berth to the [[2019 Mid-Season Invitational]].
+
+At the MSI Play-in round, TL swept the Phong Vũ Buffalo to advance to the main event where Liquid had a strong start to the tournament with a 2-0 record. Liquid then dropped five of its next six games to fall to 3-5 and sat in fourth place just one game ahead of the Flash Wolves. One win on the final day would secure TL at least a tiebreaker with the Wolves and two would have guaranteed a spot in the playoffs. Both teams lost their first games of the day, which put their fates in Team Liquid's hands. TL defeated G2 to secure the fourth spot in the playoffs and send the Wolves home.
+
+Invictus Gaming won the group stage with a 9-1 record and elected to play Team Liquid in the first round of the playoffs. It was the first time that Doublelift had made it out of the group stage of an international tournament in the LCS era. TL won the first two games of the series despite falling behind in both matches before iG took the third game to prevent a sweep. In the fourth game of the series, Liquid took a commanding lead early and did not let go of control as the North American champions upset the LPL favorites 3-1 to advance to the finals. CoreJJ and Xmithie provided strong initiation and team fighting throughout the series and the former won series MVP. In the finals of the 2019 Mid-Season Invitational, Team Liquid was matched up against [[G2 Esports]]. Most people predicted a close final, but G2 had other ideas. Team Liquid fell to G2 Esports 3-0 in the fastest international best-of-five series in ''League of Legends'' history, finishing as runners up.
+
+In the 2019 Summer Split, the team was burnt out from their run at MSI and started off at the end of Week 2 of the LCS with a tie for 4th Place at a 2-2 record. However, Team Liquid later picked up their game, becoming sole possessor of 1st place by the end of week 4. 
+
+At Rift Rivals, Liquid proved themselves to be the strongest NA team out of a pool of TL, TSM, and C9 against the LEC teams that comprised of Origen, G2 Esports and Fnatic. Although losing to Fnatic, they were able to beat Origen and take their revenge against G2 Esports, beating them in both encounters during the tournament and although Europe proved that they were the better overall region, Liquid proved themselves as the strongest NA team and showed themselves as a force to be reckoned with. With their return to the LCS Regular Season, they cemented themselves far and beyond any other NA team, making LCS Summer Playoffs by the end of Week 7 and receiving the first-place playoff bye with a 14-4 record, beating Cloud9's record of 12-6 which secured them the second-place bye. 
+
+The Playoffs proved tougher for Team Liquid, with Clutch Gaming presenting themselves as a contender in NA, however, it was not enough to take down the NA powerhouse of TL as Clutch Gaming suffered a loss of 3-2 in the semifinals, while Cloud9 had an easier series, winning 3-1 against Counter Logic Gaming. With these semifinal results, both Team Liquid and Cloud9 secured their spots at Worlds, with the final to determine which team receives the 1st and 2nd seed. The finals match was another very close series, with Liquid winning their 1st match, however, Cloud9 fought back valiantly and took the next 2 games against TL. With TL at risk of losing the 4-peat, they managed to pull it back and take games 4 and 5, ending the very close series 3-2, with Liquid taking over TSM as the greatest ever team that North America has ever seen, winning 4 LCS titles in a row and taking the 1st seed for North America at [[Worlds 2019]].
+
+===2020 Preseason===
+After their short 3-3 group stage run at worlds in 2019, Team Liquid decided to part ways with long-time NA Jungler, Xmithie. They then signed the former Jungler from Fnatic, "Broxah" (Mads Brock-Pedersen). Alongside Broxah, they brought back Pobelter, this time as a topside positional coach.
+
+== Trivia ==
+==='4th' Meme===
+* The meme stems from the fact that [[Team Curse]] regularly placed '''4th''', and were unable to place any higher than this, in NA LCS playoffs.
+** Despite this curse being broken in Team Liquid's [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|first NA LCS split]], finishing 3rd, the meme persists in a more general sense, and now applies to the team being '''fourth''' in almost any respect.
+* Team Liquid were the '''fourth''' team to be crowned NA LCS champions in the [[League Championship Series/North America/2018 Season/Spring Playoffs|NA LCS 2018 Spring Playoffs]].
+* Team Liquid were also the '''fourth''' team to win the NA LCS title back-to-back in the [[League Championship Series/North America/2018 Season/Summer Playoffs|NA LCS 2018 Summer Playoffs]].
+* In 2018, Team Liquid became the '''fourth''' NA 1st seed in a row to be eliminated in the group stage of [[2018 Season World Championship|Worlds]].
+* In the [[2019 Mid-Season Invitational/Main Event|MSI 2019 Main Event]], Team Liquid beat [[Invictus Gaming]] in '''4''' games in the semifinals.
+* In the [[LCS 2019 Summer Playoffs|2019 LCS Summer Finals]], Team Liquid won '''4''' trophies in a row, breaking [[TSM]]'s former record of 3 in a row.
+* In the [[LCS 2021 Championship|2021 LCS Championship]], Team Liquid beat [[TSM]] in '''4''' games, securing their '''4th''' appearance at the World Championship.  
+* Four times in a row finished 3rd at Worlds' Group Stage with the record of 3-3 (from 2018 to 2021)
+* Failed to qualify for [[Worlds 2022]] after winning '''4''' LCS titles and being to Worlds '''4''' times.
+* Team Liquid have also finished '''fourth''' in a number of tournaments:
+** [[League Championship Series/North America/2016 Season/Spring Season|NA LCS 2016 Spring]] - '''4th''' Place
+** [[League Championship Series/North America/2016 Season/Spring Playoffs|NA LCS 2016 Spring Playoffs]] - '''4th''' Place
+** [[2016 Season North America Regional Finals|NA Regional Finals 2016]] - '''4th''' Place
+** [[League Championship Series/North America/2018 Season/Spring Season|NA LCS 2018 Spring]] - '''4th''' Place
+** [[2019 Mid-Season Invitational/Main Event|MSI 2019 Main Event]] - '''4th''' Place Group Stage
+** [[LCS 2022 Championship]] - '''4th''' Place
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+{{SeeOrgPage|Team Liquid (Organization)}}
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Nazgul|nl|Victor Goossens|'''Founder, Co-Owner, & Co-CEO'''}}
+{{listplayer|LiQuiD112|us|Steve Arhancet|'''Co-Owner & Co-CEO'''}}
+{{listplayer|Dodo|kr|Kang Jun-hyeok (강준혁)|'''General Manager & Assistant Coach'''}}
+{{listplayersp|MindBodyEsports|us|Edward Cleland|'''Performance Manager'''}}<!--Nov 2023-->
+{{listplayer|Spawn (Jake Tiberi)|au|Jake Tiberi|'''Head Coach '''}}
+{{listplayer|Spookz|au|Samuel Broadley|'''Assistant & Strategic Coach'''}}
+{{listplayer|Annibal|it|Sergio Leoni|'''Business Analyst'''}}
+{{listplayersp|Haitham|iraq|Haitham Algbory|'''Head Analyst'''}}
+{{listplayersp|TeeKhay|us|Kevin Bracken|'''Remote Analyst'''}}
+{{listplayersp|Sahil||Sahil Jhangiani|'''Data Engineer'''}}
+{{listplayersp||nl|Ruben de Ronde|'''Brand Ambassador'''}}
+{{listplayersp|porti|br|Mateus Gravatá Portilho|'''Social Media Manager'''}}
+{{listplayer|Broxah|dk|Mads Brock-Pedersen|'''Streamer'''}}
+{{listplayer|Midbeast|au|Drew Timbs|'''Streamer & Content Creator'''}}
+{{listplayer|SirhcEz|ph|Christopher Enteria|'''Streamer'''}}
+{{listplayer|Mayumi|br|Júlia Nakamura|'''Streamer'''}}
+{{listplayer|Bobqin|ca|Boyuan Qin|'''Content Creator'''}}
+{{listplayer|Lourlo|us|Samson Jackson|'''Content Creator'''}}
+{{listplayer|Pobelter|us|Eugene Park|'''Content Creator'''}}
+{{listplayer|Revolta|br|Gabriel Henud|'''Content Creator'''}}
+{{listplayer|Doublelift|us|Yiliang "Peter" Peng|'''Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Reignover|kr|Kim Yeu-jin (김의진)|'''Strategic Coach'''|newteam=LYON24}}
+{{listplayer|Swiffer|au|Simon Papamarkos|'''Assistant Coach'''|newteam=DIG}}
+{{listplayer|Rakin|br|Rafael Knittel|'''Streamer & Ambassador'''|newteam=none}}
+{{listplayer|RapidStar|kr|Jung Min-sung (정민성)|'''Positional Coach'''|newteam=kdf}}
+{{listplayer|Bwipo|be|Gabriël Rau|'''Content Creator'''|newteam=FLY}}
+{{listplayer|MaRin|kr|Jang Gyeong-hwan (장경환)|'''Head Coach'''|newteam=riot}}
+{{listplayersp|FelipeRAG|br|Felipe Gonçalves|'''Portuguese Social Media Manager'''|newteam=Mais Esports}}
+{{listplayer|Nata (Nata Hiron)|ca|Nata Hiron|'''Analyst'''|newteam=TLF}}
+{{listplayer|Kold|dk|Jonas Andersen|'''Assistant Coach'''|newteam=Retired}}
+{{listplayer|H4xDefender|us|Albert Ong|'''Assistant Coach'''|newteam=EG}}
+{{listplayer|Guilhoto|pt|André Pereira Guilhoto|'''Head Coach'''|newteam=Giants ES}}
+{{listplayer|Yaltz|br|Evandro de Cerqueira|'''Head Analyst'''|newteam=Retired}}
+{{listplayer|Jatt|ca|Joshua Leesman|'''Head Coach'''|newteam=Caster}}
+{{listplayersp|Fasffy|au||'''Team Manager'''|newteam=Retired}}
+{{listplayer|Cain|kr|Jang Nu-ri (장누리)|'''Strategic Coach'''|newteam=AFs}}
+{{listplayer|TF Blade|ir|Ashkan Homayouni|'''Streamer'''|newteam=Near Airport}}
+{{listplayer|Croissant|us|Chris Sun|'''Assistant Coach'''|newteam=GGS Academy}}
+{{listplayer|Tyler|us|Tyler Perron|'''Head Analyst'''|newteam=Harrisburg University}}
+{{listplayersp|Zercei|us|Jeff Prasad|'''Analyst'''|newteam=Riot Games}}
+{{listplayer|IWDominate|us|Christian Rivera|'''Streamer'''|newteam=C9}}
+{{listplayersp|KappaEquiscu|es|Jordi Plana|'''Athletics Back-End Developer'''|newteam=XL}}
+{{listplayer|Pobelter|us|Eugene Park|'''Positional Coach'''|newteam=CLG}}
+{{listplayer|Kayys|us|Jack Kayser|'''Head of Scouting and Analytics '''|newteam=Origen}}
+{{listplayersp|Loyota|us|Brendan Schilling|'''Mid Lane Positional Coach & Analyst'''|newteam=FlyQuest Academy}}
+{{listplayer|Jarge|uk|Joshua Smith|'''Head Analyst'''|newteam=Riot Games}}
+{{listplayer|Malaclypse|us|Paul Decsi|'''Top Lane Positional Coach'''|newteam=NiP}}
+{{listplayersp|Snipetality|us|Logan Dodson|'''Jr. Video Editor'''|newteam=FaZe Clan}}
+{{listplayer|InternetHulk|de|Dennis Hawelka|'''Head Coach'''|newteam=Retired|comment=Deceased}}
+{{listplayer|Real (Sam Joy)|us|Sam Joy|'''Position Coach'''|newteam=Golden Guardians}}
+{{listplayer|Yaltz|br|Evandro de Cerqueira|'''Position Coach'''|newteam=PaiN Gaming}}
+{{listplayer|Varsix|ca|David Lim|'''<!--Head -->Coach'''|newteam=Clutch}}
+{{listplayer|Saintvicious|us|Brandon DiMarco|'''Strategic Coach'''|newteam=Dignitas}}
+{{listplayersp|Swaguhsaurus|us|Nick Phan|'''General Manager'''|newteam=IMT}}
+{{listplayersp|Kharjo|au|Louis Rowe|'''Position Coach'''|newteam=ORDER Academy}}
+{{listplayer|Caelan|fr|Romain Albesa|'''Jungle Coach'''|newteam=Eclypsia}}
+{{listplayersp|SnowSpots|us|Keith Torres|'''Analyst'''|newteam=GCU}}
+{{listplayer|MarkZ|us|Mark Zimmerman|'''Content Creator'''|newteam=Delta Fox}}
+{{listplayersp|Warlock|ca|Michael Al-Agha|'''Scout / Planner'''|newteam=Retired}}
+{{listplayer|Locodoco|kr|Choi Yoon-sub (최윤섭)|'''Head Coach'''|newteam=Gold Coin United}}
+{{listplayer|link=Moon (Galen Holgate)|Moon|us|Galen Holgate|'''Analyst'''|newteam=FlyQuest}}
+{{listplayersp||us|Tyler Hahe|'''Social Media Manager'''|newteam=TSM}}
+{{listplayer|Exorant|ro|Daniel Hume|'''Analyst'''|newteam=Last Kings}}
+{{listplayer|Peter|link=Peter (Peter Zhang)|cn|Peter Zhang (張藝)|'''Head Coach'''|newteam=Team Liquid Academy}}
+{{listplayersp|Shakarez|pt|Renato Perdigão|'''Analyst'''|newteam=kStars}}
+{{listplayersp|jokasteve|us|Steve Perino|'''General Manager'''|newteam=Team Liquid|comment=CS:GO}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<!-- https://www.teamliquid.com/news/2019/07/22/the-history-of-the-team-liquid-logo -->
+<gallery>
+Team Liquidlogo square Dark.png|Team Liquid Logo (Dark)
+Team Liquidlogo square Light.png|Team Liquid Logo (Light)
+Team LiquidOldlogo square.png|Team Liquid's previous logo, until mid-2017
+</gallery>
+
+===Rosters===
+<gallery>
+TeamLiquid2015.png|Team Liquid 2015 LCS Roster<br> Left to Right: IWillDominate, Quas, FeniX, Piglet, Xpecial
+Team Liquid Roster LCS 2016 Spring.jpg|Team Liquid 2016 LCS Spring Roster with IWDominate and Smoothie
+TL_2016Spring3.jpg|Team Liquid 2016 LCS Spring Roster with Dardoch and Matt
+tl_summer2016.jpg|Team Liquid 2016 LCS Summer Roster with Moon and Piglet
+TL Summer2016 2.png|Team Liquid 2016 LCS Summer Roster with Dardoch and Fabbbyyy
+TL 2017 Spring.png|Team Liquid 2017 LCS Spring Roster with Goldenglue and Piglet as AD
+TL 2017 Spring 2.png|Team Liquid 2017 LCS Spring Roster with Youngbin
+TL 2017 Spring 3.png|Team Liquid 2017 LCS Spring Roster with Varsix as Coach
+TL 2017 Spring 4.png|Team Liquid 2017 LCS Spring Roster with Piglet as midlaner and Doublelift as AD
+Team Liquid Roster 2019 Spring.jpg|Team Liquid's 2019 LCS Spring Roster
+TL Worlds 2019.png|Team Liquid's 2019 LCS Summer & Worlds Roster
+TL 2020 Spring.png|Team Liquid's 2020 LCS Spring Roster
+TL Worlds 2020.png|Team Liquid's 2020 LCS Summer & Worlds Roster
+Team Liquid 2025 Split 1.jpeg|Team Liquid 2025 LTA North Split 1
+Team Liquid 2025 FST.jpeg|TL 2025 FST
+</gallery>
+
+==External Links==
+* [http://liquidlegends.net Liquid Legends website]
+* [http://guilded.gg/teamliquid Team Liquid on Guilded]
+
+==See Also==
+* [[Team Curse]]
+
+==References==
+<references />

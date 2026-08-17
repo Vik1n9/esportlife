@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jockster&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.666Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jockster」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Jockster
+|name=Luan Cardoso
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=February
+|birth_date_day=18
+|favchamp=Veigar
+|favchamp2=Leona
+|favchamp3=Janna
+|checkbox1=No
+|checkboxComp=No
+|ids=jocksterisacat
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/jocksterx3
+|facebook=https://www.facebook.com/jocksterlol
+|twitter=Jocksterlol
+|instagram=jocksterlol
+|lolpros=https://br.lolpros.gg/player/jockster
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+During season 3 Jockster was a jungler for many amateur teams like [[Lemon Gaming]]  and [[Animaniacs]], starting his Pro career on [[RMA e-Sports]] but the team was quickly disbanded and picked up by the [[Acezone]] organization in order to participate in the BGL tournaments. After a couple months in the [[Acezone]] organization the roster was picked by the [[PeesPlay Gaming]] organization but did not find success in the [[Riot Season 3 Brazilian Championship]] and also disbanded.
+After spending some time in mid lane for the [[Action Team]] Jockster was hired as the jungler for the [[Cyber Gamer E-Sports]]  team, but the team was unable to win tournaments and the organization lost many players, which led into the team disband.
+
+===2014 Season===
+Jockster was invited to join [[Team United]] where he played alongside his friend [[MicaO]] in the [[Riot Brazilian Champion League 2014]] but  the team was only able to achieve the 6th place. After the end of the tournament, he and the rest of the team left the [[Team United]] organization in order to form the team [[Out of Position]], where Jockster was placed as a support after [[Djokovic]] stepped up as the new jungler. Briefly after the roster change the team was signed by [[INTZ e-Sports]].
+[[INTZ]] quickly  became one of the best Brazillian teams and won major tournaments  like [[Circuito Game7]] without losing a single game, with the bot lane made of [[MicaO]] and [[Jockster]] growing into a bot lane that was very respected on the scene.
+===2015 Season=== 
+In the [[INTZ]] dominance over the [[CBLOL/2015 Season/Split 1|CBLOL 2015 Split 1 Split]], he became one of the best supports in the Brazillian scene, pulling out bans against his {{ci|Veigar}} and providing vital peel for [[MicaO]].
+After [[Revolta]] left the team to join [[Keyd Stars]], Jockster moved back to jungler, while [[Alocs]] joined the team. After getting second place in [[CBLOL/2015 Season/Split 2 Playoffs|CBLOL Split 2 2015]], INTZ announced Revolta's return, and the acquisition of [[Loop (Caio Almeida)|Loop]] to the support role. Instead of leaving INTZ for a starting position in other teams, Jockster decided to stay with INTZ as a substitute.<ref>[https://www.facebook.com/INTZeSports/photos/a.306179849545974.1073741828.298133647017261/492331024264188/ INTZ's Facebook Post (Portuguese)] ''facebook.com''</ref>
+===2016 Season===
+In 2016 he was part of the lineup that is often referred as the Exodia of CBLOL: [[Yang (Felipe Zhao)|Yang]], [[Revolta]], [[tockers]], [[micaO]] and [[Jockster]], led by [[Peter Dun]] and [[Abaxial]]. The team managed to never lose a series that they played on Brazilian soil. They played at [[CBLOL 2016 Split 1]] and consequently won [[CBLOL 2016 Split 1 Playoffs]] after beating [[Keyd Stars]] for 3x0 in the Grand Finals. With the win, they classified [[INTZ]] to the [[2016 International Wildcard Invitational]], where they managed to achieve 3rd place among other Wildcards regions.
+In the [[CBLOL 2016 Split 2|second split]], they found theyselves in a rivalry against [[CNB e-Sports Club]] until they beated them by 3-1 in the [[CBLOL 2016 Split 2 Playoffs|finals]]. In the [[IWCQ 2016]], they managed to classify to [[Worlds 2016]], where they made history by being the only Brazilian team to defeat an Asian team from a Major league by defeating [[EDward Gaming]], despite not qualifying for the main stage of the tournament.<ref>[https://www.espn.com.br/esports/artigo/_/id/5732003/adeus-exodia-o-fim-e-o-legado-do-quinteto-mais-vitorioso-do-cblol Adeus, Exodia: o fim e o legado do quinteto mais vitorioso do CBLoL]''espn.com.br''</ref>
+
+== Trivia ==
+* Spends a lot of time playing and streaming with [[MicaO]].
+* His smurf is named “Jocksterisacat” while his longtime friend and lane partner [[MicaO]] have a smurf named “Micaoisadog”.
+* Was very sad due to the {{ci|Veigar}} changes on Patch 5.4.
+* After playing competitively as jungler and support, joined [[INTZ Red]] as top laner.
+* Portrayed as {{ci|Rek'Sai}} in the CBLoL 2015 official wallpaper.
+* He is known for his aggressive playstyle and getting lots of kills as a support.
+* In his prime, he was known by his {{ci|alistar}}.
+* There's a running gag about '''Jockster''' frequently stealing pentakills from his AD carry. When interviewed about it, he said "as long as I'm alive, no one in my team is getting a pentakill".
+* He says his favorite role in the game is jungler, but that he's more skilled as a support.
+* During one of the games he played for [[Vivo Keyd]] in the [[CBLOL 2018 Split 1 Playoffs]] against [[RED Canids]], a voice comms video revealed he screamed "Os dois coreanos não sabem jogar" (The two koreans don't know how to play) at the opposing team, refering to [[Winged]] and [[Sky (Kim Ha-neul)|Sky]], after he got them both killed in a gank in the midlane. The audio afterwards became a meme in the community, often used to refer when korean players in Brazil play badly or below expectancy.<ref>[https://youtu.be/CwTkluxpZ6A?si=nMFP0x8sDqf9bpRZ Jockster - os dois coreanos não sabe jogar velho] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

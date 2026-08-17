@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Vas1lii&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.549Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Vasilii」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Vas1lii
+|name=Li Wei-Jun
+|nativename=李威俊
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1994
+|birth_date_month=October
+|birth_date_day=27
+|favchamp=Lucian
+|favchamp2=Ezreal
+|favchamp3=Caitlyn
+|checkbox1=No
+|checkboxComp=No
+|ids=LMQ Tc Vasilii (NA), LMQ TC丶Wayne, LMQ Tc LOMO V, LMQ Tc SWXG, LMQ Tc SWXGGGG, TwitchTV Vasilii (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lmqtcvasilii
+|twitter=LMQtcVasilii
+|weibo=https://www.weibo.com/iamvasilii
+|fanpage=http://t.qq.com/a401789222
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|nicknames=死亡宣告
+}}
+==Biography==
+===2015 Preseason===
+On October 21, 2014 it was announced that Vasilii had decided to leave LMQ along with ackerman and NoName, and that negotiations were ongoing with Mor.<ref>[http://www.ongamers.com/articles/lmq-announces-departure-of-vasilii-ackerman-noname/1100-2279/ LMQ announces departure of Vasilii, ackerman, NoName; negotiations ongoing with Mor] ''ongamers.com''</ref> Vasilii revealed that his decision to leave was based on the financial needs of his family.<ref>[http://www.reddit.com/r/leagueoflegends/comments/2k0b92/lmq_vasilii_quit_for_family_problems/ Reddit Post] ''reddit.com''</ref>
+
+On December 3, Vasilii joined [[Vici Gaming]].<ref>[http://p.t.qq.com/longweibo/index.php?lid=2413605127269594324 VG's Weibo post (Chinese)] ''p.t.qq.com'' ([http://www.reddit.com/r/leagueoflegends/comments/2o56nn/vici_gaming_vg_signs_fomer_lmqs_adc_vasilii/ English] ''reddit.com'')</ref>
+
+== Trivia ==
+* His Chinese ID "死亡宣告" is  the Chinese name of {{ci|Thresh}}'s Death Sentence.
+* His English ID "Vasilii" is after [https://en.wikipedia.org/wiki/Vasily_Zaitsev_(sniper) Vasily Zaytsev], a famous Soviet Sniper during WWII. Who sniped 225 enemy soldiers in one month during Battle of Stalingrad. He wants to be a good marksman just like this sniper.
+* He is friends with [[Doublelift]] and [[Imaqtpie]].
+* Known for his {{ci|Tristana}} pocket pick.
+* Known for his muscles. 
+* Popularized the term LOMO. The origin of LOMO is that Vasilii kept using LOMO as Lmao for unknown reason in NA solo queue games, soon it became a meme in the community.
+* He is approximately 192cm (6'4") tall.
+* Received a 20 competitive month ban (until the start of split 1 in January 2020) for extreme misconduct.<ref>[https://www.lolesports.com/en_US/articles/competitive-ruling-li-vasilii-wei-jun Competitive Ruling: Li "Vasilii" Wei Jun] ''lolesports.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

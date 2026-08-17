@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cain&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.843Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cain」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Cain
+|name=Jang Nu-ri
+|nativename=장누리
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1987
+|birth_date_month=February
+|birth_date_day=06
+|favchamp=Thresh
+|checkbox1=No
+|checkboxComp=No
+|ids=wvwvvwvwwvwvvvwv (NA), 나진 카인, Nurinim, 나진 카인, TL Cain (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=liquidcain
+|deeplol=https://www.deeplol.gg/pro/Cain
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+|prev2=Bot
+}}
+==Biography==
+===Season 2===
+Jang "'''Cain'''" Nu-ri began his competitive career on May 30, 2012 when he joined the newly formed [[NaJin Sword]] roster as the starting support. The team played in their very first OGN together at [[Azubu The Champions Summer 2012]] where they lost 3-1 to [[Counter Logic Gaming Europe]] in the semifinals but beat [[Azubu Blaze]] 2-0 to finish 3rd overall. They earned enough circuit points to qualify for the [[Season 2/Regional Finals - Seoul|Season 2 Korea Regional Finals]] as the 4th seed. They fought through the whole gauntlet, beating Blaze 3-2 in the finals to qualify for the [[Season 2 World Championship]] as the second Korean seed. They made it out of their group at Worlds but lost 2-0 to the [[Taipei Assassins]] in the quarterfinals. At the end of the season, Sword attended the [[2012 MLG Pro Circuit/Fall/Championship|2012 MLG Fall Championship]] in North America. Sword came in 2nd, losing 2-1 and 2-0 in two straight sets to Blaze in the finals. 
+
+===Season 3===
+The new season started off for Cain and Sword at [[OLYMPUS Champions Winter 2012-2013]] where they beat [[Azubu Frost]] 3-0 in the finals to win their first ever OGN. They then flew to China to participate in [[GIGABYTE StarsWar League/Season 2|GIGABYTE StarsWar League Season 2]]. Sword lost 3-0 to [[Invictus Gaming]] in the loser's finals to place 3rd. Sword returned to Korea for [[OLYMPUS Champions Spring 2013]] where they made the quarterfinals but lost 3-1 to [[CJ Entus Frost]]. After the tournament was over, Sword and their sister team, [[NaJin Shield]], renamed to NaJin Black Sword and NaJin White Shield, respectively. Their final OGN of the season was [[HOT6iX Champions Summer 2013]] where they posted their poorest performance yet, failing to make it past the group stages. However, their OGN victory coupled with victories at both NLB tournaments granted them the number 1 seed in Korea and an automatic berth in the quarterfinals of the [[Season 3 World Championships]]. Black Sword made it to the quarterfinals and took eventual champions, [[SK Telecom T1]], to game 5 but they ultimately lost 3-2. 
+
+===2014 Season===
+Sword's first tournament after Worlds was [[PANDORA.TV Champions Winter 2013-2014]] where they couldn't make it out of groups again. This trend continued at [[HOT6iX Champions Spring 2014]] where they dropped out after the group stages for a third straight time. Change came when long time AD carry, [[PraY]], was released, leaving Cain with his first new AD, [[Ohq]]. Sword performed much better at [[HOT6iX Champions Summer 2014]], making it to the quarterfinals but losing 3-2 to [[SK Telecom T1 S]].
+
+===2015 Season===
+Due to changes to the OGN rules, Sword and Shield were forced to merge to form [[NaJin e-mFire]]. During [[SBENU Champions Spring 2015]], Cain shared the starting support position with [[Pure]], a former sub of Shield. NaJin's poor performance during Champions ended when they placed 6th overall and missed the playoffs. NaJin placed fifth in the regular season of [[SBENU Champions Summer 2015]] and qualified for the playoffs but they lost in the first round 2-1 to the [[KOO Tigers]]. They earned enough circuit points to make it to the [[2015 Season Korea Regional Finals]] but lost 3-0 in the first round to the [[Jin Air Green Wings]]. However, Cain did not play in the playoffs or the regionals. 
+
+===2016 Preseason===
+Despite NaJin's participation in the [[2015 LoL KeSPA Cup]], Cain did not play, and he left NaJin in November 2015. He moved to [[CJ Entus]], transitioning into coaching.<ref>[https://www.facebook.com/entus.progaming/photos/834511303313458 CJ ENTUS's Facebook Post] ''facebook.com''</ref>
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

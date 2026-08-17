@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Steak&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.626Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Steak」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Steak
+|name=Chou Lu-Hsi
+|nativename=周律希
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|birth_date_year=1992
+|birth_date_month=August
+|birth_date_day=15
+|favchamp=Shen
+|favchamp2=Jayce
+|checkbox1=No
+|checkboxComp=No
+|ids=PinkUnicorn1 (NA), Gamania Steak, yoeFW Steak
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Analyst
+|prev2=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/sswie_steak
+|facebook=https://www.facebook.com/Steaklolz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|nicknames=牛排
+}}
+==Biography==
+===2015 Season===
+Due to their 1st place finish at [[IEM_Season_IX_-_Taipei|IEM Taipei]], [[yoe Flash Wolves]] were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 loss against [[SK Gaming]], Steak and the team went on to beat [[Cloud9]] in Round 1 of the losers bracket. Round 2 of the losers bracket saw the team's 2nd meeting of the tournament with [[SK Gaming]]. A win against the European team secured the [[yoe Flash Wolves]] a place in the bracket stage. They were eventually knocked out of the tournament in the semifinals after losing to [[Team SoloMid]]. 
+
+With a second and third place LMS finish under their belt, the Flash Wolves had obtained a tie for the most LMS Championship Points behind AHQ, and were invited to the [[2015_Season_Taiwan_Regional_Finals|2015 Taiwan Regional Finals]]. There, FW avenged their playoff loss by defeating Hong Kong Esports 3-2 and acquiring a spot in the [[2015 Season World Championship]].
+
+At the World Championship, the FW were expected by many analysts to have one of the weakest showings of any team in attendance. However, after a 4-2 group stage with wins over favorites [[KOO Tigers]] and [[Counter Logic Gaming]], the Flash Wolves emerged first from groups, becoming the first team in two years to finish ahead of a Korean team in groups at Worlds. In the tournament quarterfinals, FW lost 1-3 to [[Origen]], earning a top eight finish.
+
+== Trivia ==
+* Says the origin of his name comes from the fact that he wanted a short name and that steak is his favorite food.<ref>[https://www.youtube.com/watch?v=PC7k0R5-eHk Closer Look: How they got their names] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

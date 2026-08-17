@@ -1,0 +1,493 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LPL%2F2025%20Season%2FSplit%201&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.440Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LPL/2025/Split 1」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LPL 2025}}
+{{Infobox Tournament
+|name=LPL 2025 Split 1
+|image=LPL 2020.png
+|organizer=[http://tjsports.com/ TJ Sports]
+|sponsor=
+|server= 
+|type= Offline
+|country= China
+|prizepool=
+|format=
+|sdate=2025-01-12
+|edate=2025-02-16
+|rulebook=
+|streams={{stream|url=https://lpl.qq.com/es/live.shtml|lang=cn|display=Tencent}}
+|linkstreams=yes
+|region=China
+|split=Split 1
+|split_number=1
+|CM_StandardName=LPL 2025 Split 1
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2025
+|CM_StandardLeague=LPL
+|CM_LeagueIconKey=LPL2020
+|website=https://lpl.qq.com/
+|twitter=lplenglish
+|instagram=lplenglish
+|weibo=https://www.weibo.com/u/5756404150
+|closest_timezone=KST
+}}[[Category:Premier Events]]{{TournamentPageStart|twitchid=lpl|toclimit=2|text=The '''2025 League of Legends Pro League''' (LPL) is the first split of the thirteenth year of China's professional League of Legends league.}}
+
+==Overview==
+=== Format ===
+* 16 teams are divided into 4 seeding pools based on their average final place in 2024 Spring and Summer (if tied, higher place in Summer grants a higher pool)
+* 4 groups of 4 teams
+* Single round robin within groups
+* Matches are best of five
+** Matches use "Hard Fearless Draft", champions can only be picked once by either team during the series
+** Side selection for game 1 is decided by a 1v1 match
+*** A player can't play two 1v1 match consecutively.
+* Top 2 teams of each group advance to [[LPL/2025 Season/Split 1 Playoffs|Playoffs]]
+* {{TiebreakerRules|
+:* If two teams have the same number of series won, ties will be broken by:
+::# Game Differential
+::# Head to Head record}}
+
+==Participants==
+{{RostersStart|pools=yes
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2025 Preseason/China
+}}
+{{PoolStart|text=Pool 1}}
+{{Box|start}}
+{{TeamRoster|team=Bilibili Gaming
+|{{TeamRoster/Line|player=Bin (Chen Ze-Bin) |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Wei (Yan Yang-Wei) |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Knight (Zhuo Ding) |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Elk |flag=cn |role=a}}
+|{{TeamRoster/Line|player=ON |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Maokai (Yang Ji-Song) |flag=cn |role=c}}
+|{{TeamRoster/Line|player=Easyhoon |flag=kr |role=c}}
+<!--|{{TeamRoster/Line|player=LvMao |flag=cn |role=c}}-->
+}}
+{{Box|break}}
+{{TeamRoster|team=Top Esports
+|{{TeamRoster/Line|player=369 |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Kanavi |flag=kr |role=j}}
+|{{TeamRoster/Line|player=Creme |flag=cn |role=m}}
+|{{TeamRoster/Line|player=JackeyLove |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Crisp |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Homme |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Ggoong |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Ben |flag=kr |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Weibo Gaming
+|{{TeamRoster/Line|player=Breathe |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Tian |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Xiaohu |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Light (Wang Guang-Yu) |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Hang |flag=cn |role=s}}
+|{{TeamRoster/Line|player=NoFe |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Tselin |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Ninjas in Pyjamas.CN
+|{{TeamRoster/Line|player=shanji |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Aki (Mao An) |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Doinb |flag=kr |role=m}}
+<!--|{{TeamRoster/Line|player=neny |flag=cn |role=m}}-->
+|{{TeamRoster/Line|player=Leave |flag=cn |role=a}}
+|{{TeamRoster/Line|player=ppgod |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Rashomon |flag=cn |role=c}}
+}}
+{{Box|end}}
+{{PoolEnd}}
+{{PoolStart|text=Pool 2}}
+{{Box|start}}
+{{TeamRoster|team=JD Gaming
+|{{TeamRoster/Line|player=Ale |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Xun |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Scout |flag=kr |role=m}}
+|{{TeamRoster/Line|player=Peyz |flag=kr |role=a}}
+|{{TeamRoster/Line|player=MISSING |flag=cn |role=s}}
+|{{TeamRoster/Line|player=cvMax |flag=kr |role=c}}
+<!--|{{TeamRoster/Line|player=Sin (Yeon Hyeong-mo) |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Xiasu |flag=cn |role=c}}-->
+|{{TeamRoster/Line|player=BoBo (He Wen-Bo) |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=LNG Esports
+|{{TeamRoster/Line|player=Zika |flag=cn |role=t}}
+<!--|{{TeamRoster/Line|player=Alley |flag=cn |role=t}}-->
+|{{TeamRoster/Line|player=Weiwei |flag=cn |role=j}}
+|{{TeamRoster/Line|player=haichao |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Photic |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Zhuo |flag=cn |role=s}}
+|{{TeamRoster/Line|player=U |flag=cn |role=c}}
+|{{TeamRoster/Line|player=Viod (Lu Fan) |flag=cn |role=c}}
+<!--|{{TeamRoster/Line|player=Xiaopeng |flag=cn |role=c}}-->
+}}
+{{Box|break}}
+{{TeamRoster|team=FunPlus Phoenix
+|{{TeamRoster/Line|player=sheer |flag=cn |role=t}}
+|{{TeamRoster/Line|player=sorrow (Li De-Ming) |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Shad0w |flag=it |role=j}}
+|{{TeamRoster/Line|player=Care |flag=cn |role=m}}
+|{{TeamRoster/Line|player=bat (Gao Jun) |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Jwei |flag=cn |role=s}}
+|{{TeamRoster/Line|player=QingSi |flag=cn |role=c}}
+|{{TeamRoster/Line|player=Yondaime |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Anyone's Legend
+|{{TeamRoster/Line|player=Flandre |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Tarzan (Lee Seung-yong) |flag=kr |role=j}}
+|{{TeamRoster/Line|player=Shanks |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Hope (Wang Jie) |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Kael (Kim Jin-hong) |flag=kr |role=s}}
+|{{TeamRoster/Line|player=Tabe |flag=hk |role=c}}
+|{{TeamRoster/Line|player=Xiaobai |flag=cn |role=c}}
+}}
+{{Box|end}}
+{{PoolEnd}}
+{{PoolStart|text=Pool 3}}
+{{Box|start}}
+{{TeamRoster|team=Oh My God
+|{{TeamRoster/Line|player=Hery |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Heng |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Linfeng |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Starry |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Moham |flag=kr |role=s}}
+|{{TeamRoster/Line|player=NONAME (Zhou Qi-Lin) |flag=cn |role=c}}
+|{{TeamRoster/Line|player=Geitang |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=LGD Gaming
+|{{TeamRoster/Line|player=sasi (Yan Rui) |flag=cn |role=t}}
+|{{TeamRoster/Line|player=climber |flag=cn |role=j}}
+<!--|{{TeamRoster/Line|player=Meteor |flag=cn |role=j}}-->
+|{{TeamRoster/Line|player=xqw |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Shaoye |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Ycx |flag=cn |role=s}}
+|{{TeamRoster/Line|player=1874 |flag=cn |role=c}}
+|{{TeamRoster/Line|player=Chelizi |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=ThunderTalk Gaming
+|{{TeamRoster/Line|player=HOYA |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Beichuan |flag=cn |role=j}}
+|{{TeamRoster/Line|player=SeTab |flag=kr |role=m}}
+|{{TeamRoster/Line|player=1xn |flag=hk |role=a}}
+|{{TeamRoster/Line|player=Feather |flag=cn |role=s}}
+|{{TeamRoster/Line|player=AFei |flag=tw |role=c}}
+|{{TeamRoster/Line|player= |flag= |role=c}}
+|{{TeamRoster/Line|player= |flag= |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Invictus Gaming
+|{{TeamRoster/Line|player=TheShy |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Jiejie |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Rookie |flag=kr |role=m}}
+|{{TeamRoster/Line|player=GALA |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Meiko |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Daeny |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Mafa |flag=kr |role=c}}
+}}
+{{Box|end}}
+{{PoolEnd}}
+{{PoolStart|text=Pool 4}}
+{{Box|start}}
+{{TeamRoster|team=Team WE
+|{{TeamRoster/Line|player=Cube (Dai Yi) |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Tianzhen |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Monki |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Karis |flag=kr |role=m}}
+|{{TeamRoster/Line|player=Taeyoon (Kim Tae-yoon) |flag=kr |role=a}}
+|{{TeamRoster/Line|player=Vampire |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Teacherma |flag=cn |role=c}}
+|{{TeamRoster/Line|player=JinJin (Jin Guang-Hua) |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=EDward Gaming
+|{{TeamRoster/Line|player=Zdz |flag=cn |role=t}}
+|{{TeamRoster/Line|player=Xiaohao |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Angel (Xiang Tao) |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Assum |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Wink |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Mni |flag=cn |role=c}}
+|{{TeamRoster/Line|player=Mingzai |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=RNG
+|{{TeamRoster/Line|player=Xiaoxu |flag=cn |role=t}}
+|{{TeamRoster/Line|player=milkyway |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Tangyuan |flag=cn |role=m}}
+|{{TeamRoster/Line|player=JiaQi |flag=cn |role=a}}
+|{{TeamRoster/Line|player=Lele (Dang Bo-Lin) |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Niket |flag=cn |role=s}}
+<!--|{{TeamRoster/Line|player=Heart |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Comet |flag=kr |role=c}}-->
+|{{TeamRoster/Line|player=X1ri |flag=cn |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Ultra Prime
+|{{TeamRoster/Line|player=1Jiang |flag=tw |role=t}}
+|{{TeamRoster/Line|player=Junhao |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Saber (Song Dai-Lin) |flag=cn |role=m}}
+|{{TeamRoster/Line|player=Wako |flag=tw |role=a}}
+|{{TeamRoster/Line|player=Rosielove |flag=cn |role=s}}
+|{{TeamRoster/Line|player=Benny (Lien Hsiu-Chi) |flag=tw |role=c}}
+|{{TeamRoster/Line|player=Ratis |flag=tw |role=c}}
+}}
+{{Box|end}}
+{{PoolEnd}}
+{{RostersEnd}}
+:''Note: [[Rare Atom]] disbanded.''<ref>[https://www.weibo.com/5756404150/P0S0zgGQa LPL's Weibo Post (Chinese)] ''weibo.com''</ref>''
+
+==Results==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|display=Group A|onlygroup=Group A|phase=Group A
+|places=upwithbye,up,stay,stay
+|row1=upwithbye
+|row2=up
+|row3=stay
+|row4=stay
+|legend=true
+|upwithbye=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Upper Bracket Seed
+|up=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Lower Bracket Seed
+|stay=Not qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3|onlygroup=Group A
+}}
+{{Box|end}}
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|display=Group B|onlygroup=Group B|phase=Group B
+|places=upwithbye,up,stay,stay
+|finalorder=JDG,WBG,OMG,UP CN
+|row1=upwithbye
+|row2=up
+|row3=stay
+|row4=stay
+|legend=true
+|upwithbye=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Upper Bracket Seed
+|up=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Lower Bracket Seed
+|stay=Not qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3|onlygroup=Group B
+}}
+{{Box|end}}
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|display=Group C|onlygroup=Group C|phase=Group C
+|places=upwithbye,up,stay,stay
+|finalorder=TT CN,BLG,EDG,LNG
+|row1=upwithbye
+|row2=up
+|row3=stay
+|row4=stay
+|legend=true
+|upwithbye=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Upper Bracket Seed
+|up=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Lower Bracket Seed
+|stay=Not qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3|onlygroup=Group C
+}}
+{{Box|end}}
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|display=Group D|onlygroup=Group D|phase=Group D
+|places=upwithbye,up,stay,stay
+|finalorder=NIP CN,IG,RNG,FPX
+|row1=upwithbye
+|row2=up
+|row3=stay
+|row4=stay
+|legend=true
+|upwithbye=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Upper Bracket Seed
+|up=[[LPL/2025 Season/Split 1 Playoffs|Playoffs]] Lower Bracket Seed
+|stay=Not qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3|onlygroup=Group D
+}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,with,Reddit,hl
+|gamefields=Blue,Red,ssel,VODs,MVP,mh
+}}
+
+== Individual Awards ==
+==="Man of the Match" Standings ===
+{{MVPStandings|queryfrom=game|columns=Times}}
+
+===Weekly Award===
+{| class="wikitable"
+!  style="text-align:center;width:20px;" | Week
+!  style="text-align:center;width:120px;" | Top
+!  style="text-align:center;width:120px;" | Jungle
+!  style="text-align:center;width:120px;" | Mid
+!  style="text-align:center;width:120px;" | ADC
+!  style="text-align:center;width:120px;" | Support
+!  style="text-align:center;width:120px;" | Best Player
+!  style="text-align:center;width:120px;" | Best Rookie
+|-
+| style="text-align:center;" | '''1 & 2'''
+| [[File:Anyone's Legendlogo std.png|38px|link=AL CN]] [[Flandre]]
+| [[File:Top Esportslogo std.png|38px|link=TES]] [[Kanavi]]
+| [[File:Weibo Gaminglogo std.png|38px|link=WBG]] [[Xiaohu]]
+| [[File:ThunderTalk Gaminglogo std.png|38px|link=TT CN]] [[1xn]]
+| [[File:Ninjas in Pyjamas.CNlogo std.png|38px|link=NIP.CN]] [[ppgod]]
+| [[File:Ninjas in Pyjamas.CNlogo std.png|38px|link=NIP.CN]] [[ppgod]]
+| [[File:Royal Never Give Uplogo std.png|38px|link=RNG]] [[JiaQi]]
+|-
+| style="text-align:center;" | '''3'''
+| [[File:JD Gaminglogo std.png|38px|link=JDG]] [[Ale]]
+| [[File:Anyone's Legendlogo std.png|38px|link=AL CN]] [[Tarzan (Lee Seung-yong)|Tarzan]]
+| [[File:Bilibili Gaminglogo std.png|38px|link=BLG]] [[Knight (Zhuo Ding)|Knight]]
+| [[File:JD Gaminglogo std.png|38px|link=JDG]] [[Peyz]]
+| [[File:LGD Gaminglogo std.png|38px|link=LGD]] [[Ycx]]
+| [[File:Anyone's Legendlogo std.png|38px|link=AL CN]] [[Tarzan (Lee Seung-yong)|Tarzan]]
+| [[File:LGD Gaminglogo std.png|38px|link=LGD]] [[Ycx]]
+|-
+| style="text-align:center;" | '''4&5'''
+| [[File:Invictus Gaminglogo std.png|38px|link=JDG]] [[TheShy]]
+| [[File:ThunderTalk Gaminglogo std.png|38px|link=TT CN]] [[Beichuan]]
+| [[File:Ninjas in Pyjamas.CNlogo std.png|38px|link=NIP.CN]] [[Doinb]]
+| [[File:Ninjas in Pyjamas.CNlogo std.png|38px|link=NIP.CN]] [[Leave]]
+| [[File:Ninjas in Pyjamas.CNlogo std.png|38px|link=NIP.CN]] [[ppgod]]
+| [[File:Ninjas in Pyjamas.CNlogo std.png|38px|link=NIP.CN]] [[Doinb]]
+| [[File:Ultra Primelogo std.png|38px|link=LGD]] [[Junhao]]
+|}
+
+=== Season Awards ===
+{{SeasonAwardStart}}
+{{SeasonAward|mvp|team=NIP CN|player=Doinb}}
+{{SeasonAward|rookie|team=RNG|player=JiaQi}}
+{{SeasonAward|proteam|players=Flandre,Tarzan (Lee Seung-yong),Doinb,Leave,Kael (Kim Jin-hong)|teams=AL CN,AL CN,NIP CN,NIP CN,AL CN}}
+{{SeasonAward|custom|award=2nd All Pro Team|players=Ale,Beichuan,Scout,1xn,ppgod|teams=JDG,TT CN,JDG,TT CN,NIP CN}}
+{{SeasonAward|custom|award=3rd All Pro Team|players=TheShy,Kanavi,Knight (Zhuo Ding),Peyz,Feather|teams=iG,TES,BLG,JDG,TT CN}}
+{{SeasonAwardEnd}}
+
+== Media ==
+=== Streams ===
+*{{stream|url=https://lpl.qq.com/web202301/live.html|lang=cn|display=Tencent}}
+*{{stream|url=http://www.huya.com/lpl|lang=cn|display=Huya}}
+*{{stream|url=https://www.huya.com/660137|lang=cn|display=Huya2}}
+*{{stream|url=https://live.bilibili.com/6|lang=cn|display=Bilibili}}
+*{{stream|url=https://live.bilibili.com/616|lang=cn|display=Bilibili2}}
+*{{stream|url=https://www.douyu.com/288016|lang=cn|display=Douyu}}
+*{{stream|url=https://www.douyu.com/424559|lang=cn|display=Douyu2}}
+*{{stream|url=http://play.afreecatv.com/aflpl|lang=kr|display=Afreecatv}}
+
+=== Broadcast Talent ===
+=====Stage / Studio Hosts=====
+*{{player|Afu|flag=cn|name=Liu Qin-ru (刘沁茹)}}
+*{{player|BaoBao|flag=cn|name=Fu Ruo-Zhen (傅若真)}}
+*{{player|Candice|flag=cn|name=Duan Yu-Shuang (段余霜)}}
+*{{player|Chenyu|flag=cn|name=Zhou Chen-Yu (周宸宇)}}
+*{{player|Christina|flag=cn|name=Zhao Song-Qi (赵松琪)}}
+*{{player|Liuhang|flag=cn|name=Liu Hang (刘航)}}
+*{{player|hilda|flag=cn|name=Zhu Yu (诸钰)}}
+*{{player|Iris (Feng Xi)|flag=cn|name=Feng Xi (冯爔)}}
+*{{player|Shiyue|flag=cn|name=Huang Li-Yao (黄栎瑶)}}
+*{{player|Weiwei (Zhang Wei)|flag=cn|name=Zhang Wei (张薇)}}
+*{{player|Wendy (Shi Wen-Di)|flag=cn|name=Shi Wen-Di (史文迪)}}
+*{{player|Xiaoyou (Gao Shan)|flag=cn|name=Gao Shan (高珊)}}
+*{{player|Yangyang|flag=cn|name=Wang Hui-hua (王蕙华)}}
+*{{player|Zhou Gangan|flag=cn|name=Zhou Si-Yu (周思渝)}}
+<!--*{{player|Luoxin|flag=cn|name=Luo Yu-Ting (骆雨婷)}}
+*{{player|Shen Yunyi|flag=cn|name=Shen Yun-yi (沈云怡)}}-->
+
+===== Casters =====
+*{{player|957|flag=cn|name=Ke Chang-Yu (柯昌宇)}}
+*{{player|Cat (Wu Yao)|flag=cn|name=Wu Yao (吴尧)}}
+*{{player|Chengfenger|flag=cn|name=Zhong Ying-Jie (钟英杰)}}
+*{{player|Gugu|flag=cn|name=Chen Jie-Yan (陈洁妍)}}
+*{{player|Huainan|flag=cn|name=Feng Zhuo-Cheng (冯卓成)}}
+*{{player|MacT|flag=cn|name=Tan Ping-Tao (谭平涛)}}
+*{{player|Maomao (Yuan Wei-Yi)|flag=cn|name=Yuan Wei-Yi (袁唯译)}}
+*{{player|Mille|flag=cn|name=Qian Chen (钱晨)}}
+*{{player|Pyl (Chen Bo)|flag=cn|name=Chen Bo (陈博)}}
+*{{player|Remember|flag=tw|name=Wang Chi-Te (王繼德)}}
+*{{player|Rita|flag=cn|name=Feng Yu (冯雨)}}
+*{{player|San (Guo Jun-Liang)|flag=cn|name=Guo Jun-Liang (郭俊良)}}
+*{{player|Shuoshuo|flag=cn|name=Zhang Shuo (张硕)}}
+*{{player|Tianshu|flag=cn|name=Yao Tian-Shu (姚天舒)}}
+*{{player|Tongxi|flag=cn|name=Zhang He (张鹤)}}
+*{{player|Wang Duoduo|flag=cn|name=Wang Qian-Yuan (王乾元)}}
+*{{player|Wangsong|flag=cn|name=Wang Song (王淞)}}
+*{{player|Zeyuan|flag=cn|name=Guan Ze-Yuan (管泽元)}}
+<!--*{{player|Yufan|flag=cn|name=Wu Yu-Fan (吴雨凡)}} – trainee-->
+
+===== Guest Casters =====
+*{{player|Chieh|flag=tw|name=Li Chieh (李杰)}}
+
+=== Co-streams ===
+*{{stream|url=https://www.twitch.tv/lplrevival|lang=usuk|display=LPL English Revival}}
+*{{stream|url=https://www.twitch.tv/lplenglish|lang=usuk|display=LPL English}}
+*{{stream|url=https://www.twitch.tv/yamatocannon|lang=usuk|display=YamatoCannon}}
+*{{stream|url=https://www.twitch.tv/iwdominate|lang=usuk|display=IWDominate}}
+*{{stream|url=https://www.twitch.tv/kiittwy|lang=au|display=Kitty}}
+*{{stream|url=https://www.twitch.tv/nymaera_|lang=usuk|display=Nymaera}}
+*{{stream|url=https://www.twitch.tv/nervarien|lang=pl|display=Nervarien}}
+*{{stream|url=https://www.twitch.tv/teshrak|lang=es|display=Teshrak}}
+*{{stream|url=https://www.twitch.tv/toadamarillo|lang=es|display=ToadAmarillo}}
+*{{stream|url=https://www.twitch.tv/chinagap|lang=es|display=ChinaGAP}}
+
+=== Additional Content ===
+* See [[LPL/2025 Season/Winter Season/Media|Media]].
+
+=== Viewership Statistics ===
+
+===Home Venues===
+{| class="wikitable" style="text-align:center;"
+!style="width:280px;"|[[File:JD Gaminglogo std.png|link=JD Gaming]] [[JD Gaming]]
+!style="width:280px;"|[[File:LNG Esportslogo std.png|link=LNG Esports]] [[LNG Esports]]
+!style="width:280px;"|[[File:Team WElogo std.png|link=Team WE]] [[Team WE]]
+!style="width:280px;"|Other Teams
+|-
+|[[Image:Beijing·Jingdong Intel Esports Center.jpg|250px]]
+|[[Image:Yangcheng International Esports Center.jpg|250px]]
+|[[Image:Xi'an Qujiang Esports Center.jpg|250px]]
+|[[Image:Hongqiao_World_IE_Hub.jpg|250px]]
+|-
+![[File:Cn.png]] Beijing
+![[File:Cn.png]] Suzhou, Jiangsu
+![[File:Cn.png]] Xi'an, Shaanxi
+![[File:Cn.png]] Shanghai
+|-
+|''Capacity'' - 2000
+|''Capacity'' - 2000
+|''Capacity'' - 1500
+|''Capacity'' - 2500
+|-
+|Beijing·Jingdong Intel Esports Center<br>(北京·京东英特尔电子竞技中心)
+|Yangcheng International Esports Center<br>(苏州阳澄国际电竞馆)
+|Xi'an Qujiang Esports Center<br>(西安曲江电竞中心)
+|*League Arena<br>(Originally named Hongqiao World IE Hub)<br>(联盟竞技场，原名为虹桥天地演艺中心)
+|}
+
+* Teams that do not yet have a home venue will use Shanghai's LPL Stadium (League Arena) by default.
+* "League Arena" is the new name of Hongqiao World IE Hub since.
+* For Split 1, the Shenzhen home venue will be undergoing renovations, as such, [[Ninjas in Pyjamas.CN|Ninjas in Pyjamas]] will be playing their games from the Shanghai League Arena.<ref>[https://weibo.com/7441697087/P8iLXpMuo 2025LPL深圳NIP主场延期开放公告 ( (Chinese)] ''weibo.com''</ref>
+
+=== Announcements ===
+* December 13, [https://www.weibo.com/5756404150/P4Nyt95it LPL's Weibo Post (Chinese)]
+
+== References ==
+<references/>

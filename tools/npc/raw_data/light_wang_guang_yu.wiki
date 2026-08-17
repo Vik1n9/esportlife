@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Light%20(Wang%20Guang-Yu)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.159Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Light (Wang Guang-Yu)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Light
+|name=Wang Guang-Yu
+|nativename=王光宇
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=February
+|birth_date_day=21
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' wwwwaaac <br> '''EUW:''' iceL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://weibo.com/n/WBG_Light
+|lolpros=https://lolpros.gg/player/light
+|deeplol=https://www.deeplol.gg/pro/Light-Wang_Guang-Yu
+|dpmlol=https://dpm.lol/pro/Light
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Reached 1000 kills in the LPL on August 17, 2022.
+** The 35th player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on January 28, 2024.
+** The 20th player to reach 1500 kills in the LPL.
+* Reached 2000 kills in the LPL on February 23, 2025.
+** The 14th player to reach 2000 kills in the LPL.
+* Reached 2500 kills in the LPL on September 10, 2025.
+** The 11th player to reach 2500 kills in the LPL.
+* Reached 500 games in the LPL on February 23, 2025
+** The 30th player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on August 27, 2025.
+** The 22nd player to reach 600 games in the LPL.
+* Reached 300 wins in the LPL on September 01, 2025.
+** Was the 26th player to reach 300 wins in the LPL.
+* Reached 3000 assists in the LPL on September 13, 2025.
+** Was the 43rd player to reach 3000 assists in the LPL.
+
+=== Awards ===
+* LPL 2nd All Pro Team (Spring 2021)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

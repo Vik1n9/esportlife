@@ -1,0 +1,98 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ceos&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ceos」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ceos
+|name=Denilson Oliveira Gonçalves
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=August
+|birth_date_day=08
+|favchamp=Rakan
+|favchamp2=Thresh
+|favchamp3=Bard
+|favchamp4=Brand
+|checkbox1=Yes
+|favchamp5=Zyra
+|compID1=Denola
+|compID2=Céos
+|checkboxComp=No
+|ids='''BR''': Ceos#9035 <br>'''KR:''' fogao 4 boca <br> '''NA:''' Ceos#SRE <br> '''EUW:''' Krastyel
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/ceoslol
+|facebook=https://www.facebook.com/Ceoslol
+|twitter=ceoslol01
+|instagram=ceoslol
+|lolpros=https://br.lolpros.gg/player/ceos
+|deeplol=https://www.deeplol.gg/pro/Ceos
+|dpmlol=https://dpm.lol/pro/Ceos
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''Ceos''' is from Tatuí, São Paulo state, Brazil.
+
+== Trivia ==
+* Started playing League in 2013.
+* Favorite champions are {{ci|Rakan}} and {{ci|Thresh}}.
+* Often considered one of the greatests supports in [[CBLOL]]'s history.
+* Is the first Brazilian player to play in a tier 1 League outside of Brazil after joining [[Shopify Rebellion]] for the [[LTA North 2025 Split 1|LTA North]].
+** He had visa issues in the first split and was replaced by [[Zeyzal]] as an emergency substitute, debuting only in [[LTA North 2025 Split 2|Split 2]].
+* His IGN comes from the Greek Titan "Ceos". The inspiration came from his interest in the [[wikipedia:en:Percy Jackson & the Olympians|Percy Jackson book series]].
+* His favorite music artist is [[wikipedia:en:Matuê|Matuê]].
+* Likes computers and learned programming in school.
+* Played lots of sports, including basketball, volleyball, and soccer.
+* Watches F1 since he was a kid; his all-time favorite driver is the Brazilian [[wikipedia:en:Gabriel Bortoleto|Gabriel Bortoleto]].
+** Stopped watching when he started playing League, started again with the release of [[wikipedia:en:Formula 1: Drive to Survive|Drive to Survive]].
+* His KR ID refers to a 4-burner stove, as do the [[Robo]] and [[Tinowns]] IDs in Korea refer to other home appliances.
+* [[Croc]]'s old ID in Brazilian soloqueue, '''"ceos chan"''', references him.
+* Known for playing {{ci|Xerath}} often in solo queue.
+{{PlayerStatsTrivia}}
+
+==Individuals Awards==
+* 1x Craque da Galera Heineken 0.0 (Prêmio CBLOL 2023) <ref>[https://ge.globo.com/esports/lol/noticia/2023/11/22/premio-cblol-2023-consagra-ceos-e-loud-veja-vencedores.ghtml Prêmio CBLOL 2023 consagra Ceos e LOUD; veja vencedores] ''ge.globo.com''</ref> 
+* 1x CBLOL Best Support (Prêmio CBLOL 2023)
+* 1x CBLOL Best Player (Prêmio CBLOL 2023)
+* 1x Best League of Legends Athlete (Prêmio eSports Brasil 2023) <ref>[https://ge.globo.com/esports/premio-esports-brasil/noticia/2023/12/14/premio-esports-brasil-2023-melhor-atleta-lol-ceos.ghtml PeB 2023: Ceos é eleito o melhor jogador de LoL] ''ge.globo.com''</ref> 
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

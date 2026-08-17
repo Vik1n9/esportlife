@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zantins&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.590Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zantins」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Zantins
+|name=Luccas Martins Zanqueta Silva
+|image=KBM Zantins 2019 Split 1.png
+|checkboxAutoImage=No
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1993
+|birth_date_month=March
+|birth_date_day=05
+|favchamp=Fizz
+|favchamp2=Jayce
+|favchamp3=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids=7w Zantins Zotac, CG Zantins, kW Zantins
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/zantins
+|facebook=https://www.facebook.com/zantinslol
+|twitter=Zantins
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''Zantins''' first appeared in the Brazilian competitive scene playing for '''[[Seven Wars e-Sports]]''', impressing the scene at the [[IEM Season VIII - Sao Paulo|Intel Extreme Masters - São Paulo]] in the beginning of 2014.
+
+After some time playing for [[Cyber Gamer e-Sports|Cyber Gamer]] and [[Frequency Gaming]], and after being banned for one year by Riot Games due to elo-boosting, Zantins reappeared during the [[Brazilian Challenger Circuit/2015 Season/Split 1|2015 Brazilian Challenger Circuit Split 1]] playing for '''[[Keyd Warriors]]''', qualifying to the [[CBLOL/2015 Season/Split 2 Promotion|Split 2 Promotion Series]] and getting the [[CBLOL/2015 Season/Split 2|2015 CBLOL Split 2]] spot with the team, which later became '''[[g3nerationX]]'''.
+
+In January 2021, Zantins announced his retirement, while also joining Globo's sports website '''ge''' as their CBLOL analyst.<ref>[https://twitter.com/Zantins/status/1351608696707706880 Zantins's Tweet (Portuguese)] ''twitter.com''</ref>
+
+== Trivia ==
+* Former professional DotA player, played with [[brTT]]. 
+* One year banned for Elojob cases.<ref>http://selecter.com.br/League-of-Legends/noticia/Riot-Games-divulga-lista-de-jogadores-banidos/ Selecter Cup</ref>
+* Portrayed as {{ci|Yasuo}} in the CBLoL 2015 official wallpaper
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+KBM Zantins 2017 Winter.png|KBM Zantins at [[BRCC 2017 Split 2]]
+KBM Zantins 2016 Winter.jpg|KBM Zantins at [[CBLOL 2016 Split 2]]
+G3x Zantins 2016 Summer.png|g3x Zantins at [[CBLOL 2016 Split 1]]
+g3x Zantins CBLOL2015.jpg|g3x Zantins at [[CBLOL 2015 Split 2]]
+G3x Zantins.jpg|g3x Zantins
+Zants.png|Zantins
+KBM Zantins 2018 Spring.png|KBM Zantins 2018 Split 2
+KBM Zantins 2018 MSI.png|KBM Zantins 2018 MSI
+</gallery>
+
+{{PlayerPageEnd}}

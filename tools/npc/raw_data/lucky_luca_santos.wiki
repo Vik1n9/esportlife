@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lucky%20(Luca%20Santos)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.813Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lucky (Luca Santos)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Lucky
+|name=Luca Santos Fontinha
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Switzerland
+|nationality=Switzerland, Portugal
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=April
+|birth_date_day=27
+|checkbox1=No
+|compID1=keiahnig
+|compID2=Luna
+|compID3=go sky high
+|compID4=Unlucky
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lucky_euw
+|twitter=LuckyEUW
+|lolpros=https://lolpros.gg/player/lucky-1
+|deeplol=https://www.deeplol.gg/pro/Lucky-Luca_Santos
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''keiahnig''', '''Luna''', and '''Unlucky'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* First and only player from Switzerland to win a title in the [[Prime League 1st Division]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MounTain%20(Patrick%20Dasberg)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.814Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MounTain (Patrick Dasberg)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=MounTain
+|name=Patrick Dasberg
+|image=MOU-Mountain-2015eucs.png
+|checkboxAutoImage=No
+|country=Germany
+|residency=Europe
+|birth_date_year=1992
+|birth_date_month=October
+|birth_date_day=08
+|favchamp=Sona
+|favchamp2=Thresh
+|favchamp3=Lulu
+|checkbox1=No
+|compID1=TheMountain
+|checkboxComp=No
+|ids=SNO MounTain, 3DMAX MounTain, EVOPLAY Mountain, n MounTain
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/DaMounTain
+|facebook=https://www.facebook.com/DaMounTain
+|twitter=M0ounTain
+|youtube=https://youtube.com/user/Dam0untain
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''TheMountain'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+With [[n!faculty]], MounTain competed in the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Expansion|Spring Expansion Tournament]], and qualified for the Offline Stage of the tournament after beating both [[Tricked eSports]] and [[Gamers2]]. In the Offline Stage, they lost their first matchup against [[H2k-Gaming]] and then their second to [[Reason Gaming]] in the Loser's Bracket, sending them to the [[2015 EU Challenger Series/Spring Season|Challenger Spring Season]].
+
+===2015 Season===
+Prior to the start of the [[2015 EU Challenger Series/Spring Season|Challenger Spring Season]], the roster of [[n!faculty]] was acquired by [[mousesports]]. The team went 0-8 in the first four weeks of the tournament before beating [[Gamers2]] in both games of the fifth week. However, this was not enough to move them up in the standings, and they finished in the sixth-and-last-place slot, behind [[Reason Gaming]].
+
+== Trivia ==
+* Played together with [[Sedrion]] on n!faculty and mousesports for almost two years.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+<!-- List any interviews with the player. Make sure the list follows the order of oldest interviews at the top, newest at the bottom. Use an asterisk (*) in front of each link to create a bulleted list. -->
+=== Images ===
+<gallery>
+TheMountain.jpg|SNO MounTain
+</gallery>
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

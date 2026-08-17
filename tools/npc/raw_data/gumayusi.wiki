@@ -1,0 +1,123 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gumayusi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.577Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Gumayusi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Gumayusi
+|name=Lee Min-hyeong
+|nativename=이민형
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2002
+|birth_date_month=February
+|birth_date_day=06
+|favchamp=Aphelios
+|favchamp2=Caitlyn
+|favchamp3=Draven
+|favchamp4=Varus
+|checkbox1=Yes
+|favchamp5=Jinx
+|favchamp6=Jhin
+|favchamp7=Miss Fortune
+|compID1=Finale
+|compID2=Catan
+|checkboxComp=No
+|ids='''KR:''' T1 Gumayusi#KR1 <br>구르시#녹서스<br>'''EUW:''' taco genius#8848<br>'''NA:''' Beaver Tails#4444
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/7c802d1b0c9c2872952fe1b8ba4268bd
+|facebook=https://www.facebook.com/rkalalsgud
+|twitter=gumayusi_min
+|instagram=gumayusi
+|videoarchive=https://www.sooplive.co.kr/station/rkalalsgud
+|youtube=https://www.youtube.com/channel/UCWR9bScKbu_47e0uRSJV9cA
+|weibo=https://weibo.com/u/7755998463
+|lolpros=https://lolpros.gg/player/gumayusi
+|deeplol=https://www.deeplol.gg/pro/Gumayusi
+|dpmlol=https://dpm.lol/pro/Gumayusi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Finale''', '''Catan''', and '''Gumayushi'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|istrainee26=No
+|issub27=No
+|istrainee27=No
+|issub28=No
+|istrainee28=No
+|issub29=No
+|istrainee29=No
+|issub30=No
+|istrainee30=No
+}}
+== Biography ==
+===2018 Season===
+Gumayusi first came to prominence as a member of the [[Seoul|Seoul amateur team]] that won the [[2018 KeG Championship]]. This qualified them for the [[2018 LoL KeSPA Cup|2018 KeSPA Cup]], where they upset LCK team [[Hanwha Life Esports]] in the elimination round, before falling to [[DAMWON Gaming]] in the qualification round. After the KeSPA Cup ended, Gumayusi renamed to Catan and joined [[SK Telecom T1]] as a trainee. 
+===2020 Season===
+After having been a trainee and substitute on [[T1]] for most of 2019 and 2020, Gumayusi made his unexpected professional debut for T1 in the [[LCK/2020 Season/Regional Finals|2020 Regional Finals]]. T1 was seeded into the second round due to their regular season performance, where they defeated [[Afreeca Freecs]] 3-1 before falling to [[Gen.G]] 3-0 in the final round, missing out on Worlds. 
+== Trivia ==
+* Achieved the first-ever three-peat in Worlds championship alongside his teammates [[Oner]], [[Faker]], and [[Keria]].
+* Is the younger brother of one of the greatest StarCraft II players of all time, [https://liquipedia.net/starcraft2/INnoVation INnoVation].
+* Started playing LoL in Season 2, he would watch his third brother play and take his turn playing top lane with champions like [[Darius]], [[Gnar]] and [[Cho'Gath]].<ref>[https://www.youtube.com/watch?v=Ct36mme8eHQ&t=300s 구마유시가 걸어온 길 | CARVED:PROVE] ''youtube.com''</ref>
+** He eventually plays {{ci|cho'gath}} in a game in [[LCK/2023 Season/Spring Season|LCK Spring 2023]].
+* He is the sixth of seven siblings.
+* He has a Pomeranian named Doongi.
+* His role model in League of Legends is [[Uzi (Jian Zi-Hao)|Uzi]].
+* Reached Rank 1 on KR in 2021.
+* Is the distant nephew of [[Faker]], making him the 40th generation descendant from the Gyeongju Lee clan.<ref>[https://twitter.com/skt_save/status/1490769501121826816?s=20&t=i5PA7CvAfCWE_ajFzNzXtw Faker and Gumayusi revelation] ''twitter.com''</ref> <ref>[https://rvgamepc.com/gumayusi-was-shocked-when-he-discovered-that-the-demon-king-was-his-cousin/ Gumayusi was shocked when he discovered that the Demon King was… his cousin] ''rvgamepc.com''</ref>
+* With 219 kills in [[LCK 2022 Spring]], he is the player with the most kills in one LCK's split, beating the previous record of 209 kills set by [[Ruler]] in [[LCK 2020 Summer]].<ref>[https://gamingnews.cyou/lol-gumayusi-and-keria-break-records-in-the-lck/ LoL: Gumayusi and Keria break records in the LCK] ''gamingnews.cyou''</ref>
+** This record would be surpassed by [[Aiming]] and [[Peyz]] in [[LCK/2023 Season/Summer Season|LCK 2023 Summer]]
+* Reached 1000 LCK kills on August 2nd, 2023
+** Was the 25th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], [[Aiming]], [[Rascal]], [[deokdam]], [[Canyon]], [[Cuzz]] and [[Viper (Park Do-hyeon)|Viper]].
+* Reached 1500 LCK kills on September 1st, 2024.
+** Was the 16th player reach 1500 kills, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], [[Peanut]], [[Aiming]], [[ShowMaker]], [[Kiin]], and [[Viper (Park Do-hyeon)|Viper]].
+* Reached 500 international kills during [[Worlds 2024 Main Event|Worlds 2024]] on October 19th, 2024 in Quarterfinals, becoming the 7th player to achieve this milestone after [[Faker]], [[Perkz]], [[xiaohu]], [[Caps]], [[Maple (Huang Yi-Tang) | Maple]], and [[GALA]].
+* Reached 100 international wins during [[2025 Mid-Season Invitational|MSI 2025]] on July 10th, 2025 against [[GEN]] in Upper Bracket Finals, becoming the 5/6th player (with Oner) to achieve this milestone after [[Faker]], [[xiaohu]], [[Caps]], and [[Keria]].
+* He is the second player in Worlds history to go deathless in the Final, after [[Lwx]].
+* In ninth grade, his father said that if he wanted to become a pro player, he would have to be Challenger in a month or he would have to give up League of Legends. He made it near the end of the month he was given.<ref>[https://www.theplayerstribune.com/posts/gumayusi-t1-league-of-legends-esports/ My Way by Gumayusi] ''theplayerstribune.com''</ref>
+* Was featured in a video published by '''T1''' on ''Instagram'' where he dances with 2 other Korean influencers, which later on went viral on other social medias. The video was also used by LoL Esports to make memes.<ref>[https://www.instagram.com/p/C8tpuSRPQPY/ T1 LoL's Instagram Post] ''instagram.com''</ref><ref>[https://x.com/lolesports/status/1806279136484176243 LoL Esports' X Post] ''x.com''</ref>
+* Received a giant-sized croissant from French fans after defeating [[GenG]] and qualifying to the [[Worlds 2024|Worlds 2024 Grand Finals]]. His reaction afterwards got viral on Reddit.<ref>[https://www.reddit.com/r/LivestreamFail/comments/1gdfbgr/gumayusi_receives_normalsized_french_croissant/ Gumayusi receives normalsized french croissant] ''reddit.com''</ref>
+* Sometimes dubbed as the "Unkillable Demon Prince".<ref>[https://x.com/lolesports/status/1851587218755686886/ LoL Esports' X Post] ''x.com''</ref>
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* Worlds Finals MVP x1 (2025)
+* LCK Bottom of the Year x3 (2023, 2024, 2025)
+* LCK 1st All-Pro Team x2 (Spring 2022, Spring 2023)
+* LCK 3rd All-Pro Team x2 (Spring 2024, LCK 2025)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

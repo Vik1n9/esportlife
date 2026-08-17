@@ -1,0 +1,11 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jay&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.665Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jay (Taiwanese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Jay (Li Chieh)
+|player2=Jay (Park Jin-cheol)
+|player3=Jay (Chen Bo)
+|player4=Jay (Jasmin Ajanovic)
+|player5=Jay (Luo Zi-Jie)
+|player6=Jay (Lee Jang-hee)
+|plater7=Jay (Luís Gustavo)
+}}

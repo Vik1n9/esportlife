@@ -1,0 +1,135 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=TitaN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.784Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Titan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=TitaN
+|name=Alexandre Lima dos Santos
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=2000
+|birth_date_month=July
+|birth_date_day=09
+|favchamp=Lucian
+|favchamp2=Ezreal
+|favchamp3=Xayah
+|favchamp4=Tristana
+|checkbox1=Yes
+|favchamp5=Jhin
+|favchamp6=Vel'Koz
+|checkboxComp=No
+|ids='''BR''': GGhost#r10 <br> '''EUW''': PNG XSQDL#XSQDL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/titanlol1
+|facebook=https://www.facebook.com/titanlol
+|twitter=titanlolOficial
+|instagram=titanlol1
+|youtube=https://www.youtube.com/c/TitaNLoL
+|lolpros=https://br.lolpros.gg/player/titan
+|deeplol=https://www.deeplol.gg/pro/TitaN
+|dpmlol=https://dpm.lol/pro/TitaN
+|kick=titanlol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''TitaN''' is from [[wikipedia:en:Manaus|Manaus]], Brazil. He got known in the Brazilian scene as part of the temporary lineup that played for [[Ilha da Macacada Gaming]] (later [[KaBuM! IDM Gaming]]) at the [[XLG SuperCup 2016]]. He stayed in the team officially as a sub for the CBLOL, and after the partnership between KaBuM! and Ilha da Macacada was dropped he, along with the KaBuM! IDM lineup, joined [[KaBuM! e-Sports]]. He played as substitute midlaner in his first split in the team, but the team would soon be relegated to [[BRCC 2017 Split 2]] after being defeated by [[ProGaming Esports]]. 
+===2017 and 2018 in [[KaBuM! Esports]]===
+After some changes to the team roster in the [[BRCC 2017 Split 2]], '''TitaN''' roleswapped to the botlane, where he managed to win his first title and the team was promoted back to the [[CBLOL 2017 Split 1|CBLOL]]. In 2017, his career was a success: he won both splits in the same year with his new teammates, who included [[dyNquedo]] and [[Ranger]], won the [[Rift Rivals 2018 LLN-CLS-CBLOL|Rift Rivals]] in the same year and played in the [[MSI 2018|MSI]] and [[Worlds 2018|Worlds]].
+===2019 and joining [[RED Canids]]===
+In 2019, the [[CBLOL 2019 Split 1|CBLOL]] format changed, which ended up punishing [[KaBuM! Esports|KaBuM!]], and the team didn't qualify to playoffs. In the second split, he joined [[RED Canids]], a team that was playing in the [[BRCC 2019 Split 2|BRCC]], where he achieved good results despite finishing 3rd in playoffs after being defeated by [[ProGaming Esports]].
+===2020 and Promotion to the CBLOL===
+In 2020, [[RED Canids]] started using a korean midlaner, [[Sky (Kim Ha-neul)|Sky]], and had a few difficulties in the [[BRCC 2020 Split 1]]. Having to play in the promotion series to still be able to qualify to [[BRCC 2020 Split 2]], they managed to qualify back to the BRCC and won their first BRCC title, qualifying to CBLOL, unknown that their team would be chosen for the new franchise model anyway.
+===2021 and 2022 splits===
+In the [[CBLOL 2021 Split 1|CBLOL]], they had a ok run after finishing 3rd in regular season and fourth in [[CBLOL 2021 Split 1 Playoffs|Playoffs]]. After changes in the playoffs of the second split that added [[Grevthar]], a rookie academy player, to substitute [[Avenger (Adriano Perassoli)|Avenger]], they managed to win the [[CBLOL 2021 Split 1 Playoffs|second split]] and qualify for [[Worlds 2021]], where they got to play against [[Tarzan (Lee Seung-yong)|Tarzan]] and [[icon]]'s [[LNG Esports|LNG]] and [[Chovy]] and [[Deft]]'s [[Hanwha Life Esports|Hanwha Life]].
+In the [[CBLOL 2022 Split 1|first split of 2022]], his team managed to win another split, qualifying for the [[MSI 2022]]. They faced [[GALA]]'s [[Royal Never Give Up|RNG]] twice due to their first game being remade because of ping issues, and [[GALA]] got a pentakill in both games.
+===2023 and joining [[paiN Gaming]]===
+After two good years, the year of 2023 was a relatively bad one considering the team's players: they finished their run in both split's playoffs quickly after being defeated by [[FURIA]]. Despite that, '''TitaN''' was needing a change of pace after all those years with the same player base and internal issues with some players. After much talk with RED Canids' owner, JP, '''TitaN''' left [[RED Canids]], a team that he still considers until today the closest he had to a family in esports. He joined [[paiN Gaming]] in the end of the same year along with [[Kuri]], who he had played some time before in '''RED'''. 
+===2024 season===
+In 2024, they had a good start in the regular season, but due to the current state of teams in the tournament, [[paiN Gaming]] still had some difficulties defeating their newly emerged rival in CBLOL, [[LOUD]], who had won 3 consecutive splits. They eventually reached finals and took [[LOUD]] to a 5th game, but ended losing to the green team. The second split was a victorius, but weird one: with meta changes, the team relearned how they could beat [[LOUD]] in a BO5, but [[LOUD]] eventually was beaten first by the meta. They eventually won against '''LOUD''' in the [[CBLOL 2024 Split 2 Playoffs|playoffs]], and TitaN's old team, [[RED Canids]], finally put the greens to rest. The finals ended up being against the newly revamped [[Vivo Keyd Stars]], led by the prestigious coach [[SeeEl]], but TitaN's team had the upper hand, and defeated them in a 3-1 and qualifying to [[Worlds 2024]]. In Worlds, they reached a new milestone by finally making it out of Play In's and playing in the Swiss Stage. They ended up facing and losing to [[G2 Esports|G2]], [[T1]], in which '''TitaN''' and [[Kuri]] at least managed to get the first blood against [[Gumayusi]], and [[Team Liquid]], which eliminated [[paiN Gaming]] from the tournament.
+===2025 Season===
+In the first split of 2025, with the merger of [[LCS]] and [[CBLOL]] into the [[LTA]], [[TitaN]] remained in the core with the same roster that made it into Worlds Swiss in the previous year. Despite that, the team fell short after losing to [[LOUD]] in the [[LTA South 2025 Split 1|short Split 1]], making the team believe they needed a change. For [[LTA South 2025 Split 2|the second split]], the team brought in [[Roamer]] as the former midlaner [[dyNquedo]] retired to focus on other ideas. They managed to finish first in the regular season after beating [[FURIA]] by 2-1, but fell by 3-0 by the same team in the [[LTA South 2025 Split 2 Playoffs|Playoffs Finals]]. In [[LTA South 2025 Split 3|Split 3]], they finished 3rd, not even making into finals, after being beat 3-0 by [[RED Canids]] in the Playoffs stage. They still were qualified to [[LTA 2025 Championship]], but were defeated 3-0 by [[100T]].
+=== 2026 Harassment case ===
+:''More info: [[2026 TitaN Incident]]''
+On January 12, 2026, despite being confirmed to remain with the team for the return of the [[CBLOL]], he was temporarily suspended from [[paiN Gaming]] after several accusations on X (formerly Twitter) were made by several women just a few days before the start of the CBLOL, including his ex-girlfriend with whom he had recently broken up, accusing him of infidelity and possible sexual interactions with minors. He was fully dismissed from the organization on March 10th after a police report was filed with the Federal Police in São Paulo, in which he was accused of ''rape of a vulnerable person, dissemination of pornography and sexual harassment''. On August 12th he made a post talking about the accusations made against him and stating that "there was no lawsuit whatsoever in his name to that effect."<ref>[https://x.com/titanlolOficial/status/2087677734952525971 TitaN's X Post] ''x.com''</ref> He also stated that he had evidence that witnesses had been bought off and that he would resolve the case in court.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Started his career as a midlaner but soon moved to the adcarry position.
+* Known as one of the best players from the Northern region of Brazil.
+* Known for his {{ci|lucian}} and his {{ci|ezreal}}.
+* Was known early in his career for playing {{ci|vel'koz}} in the botlane.
+* He is considered one of the biggest idols of [[RED Canids]] and he addressed his love for the organization in an open letter. <ref>[https://maisesports.com.br/especiais/matilha-ontem-e-sempre-titan-lol/ Matilha, ontem e sempre] ''maisesports.com.br''</ref>
+* Known for shouting a lot on stage. His trademark is the catchphrase "Titanzada Xesquedele", which uses a slang coined by another player, [[Jovirone]]. <ref>[https://www.youtube.com/watch?v=4vY3hB7Mfvo TITANZADA XESQUEDELE PELO AMOR DE DEUS MLK (Portuguese)] ''youtube.com''</ref>
+* He was publicly thanked by [[Marvin]] for his help in preparing for the [[CBLOL Academy 2024 Split 1 Playoffs|CBLOL Academy Finals]], which resulted in '''Marvin''''s first title.<ref>[https://x.com/ilhadaslendas/status/1784671230039040087 Ilha das Lendas' X Post] ''x.com''</ref> This happened again in [[Ignis Cup 2024 Split 1|Ignis Cup]], where he was thanked by [[Nallari]] and [[Rahkys]] for his contributions to the team.<ref>[https://x.com/CBLOL/status/1794851001725272571 CBLOL' X Post] ''x.com''</ref>
+* There is a running gag about his {{ci|sivir}} gameplay due to his low winrate with the champion.
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* He said in a interview during [[CBLOL 2024 Split 1 Playoffs]] that he inherited his nickname '''TitaN''' from his father, whose name is also Alexandre.
+* Since [[BrTT]] is nicknamed "Pai" (Father), he is often nicknamed the "Filho" (Son).
+* He has a son named Thomas. <ref>[https://twitter.com/emizadaX/status/1751338552284086332 Tici's Tweet] ''twitter.com''</ref>
+* Is known for being an extremely competitive player and capable of playing several games at a high level, such as Counter Strike and Valorant. During the offseason between 2024 and 2025, he ended up not playing LoL for 3 months because he was dedicated to playing Counter Strike 2.<ref>[https://x.com/titanlolOficial/status/1883254255060234706 TitaN's X Post] ''x.com''</ref>
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* Is often compared to [[brTT]], who he considers an idol.<ref>[https://maisesports.com.br/lol-titan-manda-recado-carinhoso-brtt-maior-idolo/ LoL: TitaN manda recado carinhoso para brTT: “Meu maior ídolo”] ''maisesports.com.br''</ref>
+* Known for his {{ci|Jhin}} on international stage.
+* Was praised by [[Scout]], who called him "PNG god", after winning a game in the European Champions Queue during [[Worlds 2024]] against him, [[GALA]] and [[Weiwei]].<ref>[https://bsky.app/profile/ilhadaslendas.com/post/3l5iijos6c22t Ilha das Lendas' Bluesky Post] ''bsky.app''</ref>
+|-|
+Statistics=
+=== Statistics ===
+* Reached 300 games on CBLOL in June 30th, 2024.
+* Reached 100 games played with [[Kuri]] in April 21st, 2025.<ref>[https://x.com/LTASul/status/1914363215687110747 LTA Sul's X Post] ''x.com''</ref>
+|-|
+Awards=
+===Individual Awards===
+* 1x CBLOL 1st All-Pro Team (2024 Split 1)
+* 1x Best League of Legends Athlete (Prêmio eSports Brazil 2024)
+* 1x LTA South 2nd All-Pro Team x1 (2025 Split 3)
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

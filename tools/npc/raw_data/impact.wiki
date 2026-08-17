@@ -1,0 +1,123 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Impact&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.976Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Impact」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Impact
+|name=Jeong Eon-young
+|nativename=정언영
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1995
+|birth_date_month=March
+|birth_date_day=07
+|favchamp=Jayce
+|favchamp2=Shen
+|favchamp3=Jax
+|favchamp4=Rumble
+|checkbox1=No
+|compID1=Coke
+|checkboxComp=No
+|ids='''NA:''' TL IMPACT#XDDD<br>'''KR:''' 19950307#old<br>'''EUW:''' TL APA<br>'''BR:''' impacto#VAMOS
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/flyqimpact
+|twitter=Impact
+|instagram=impact_lol
+|snapchat=eonyoung
+|lolpros=https://lolpros.gg/player/impact/
+|deeplol=https://www.deeplol.gg/pro/Impact
+|dpmlol=https://dpm.lol/pro/Impact
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Coke'''.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Korea
+|checkboxPrev=Yes
+|prev1=Support
+}}
+==Biography==
+===Season 2===
+Jeong "'''Impact'''" Eon-young started his career as a support for [[Xenics Storm]]. The roster qualified for the first OGN season, [[Azubu The Champions Spring 2012]] and even made it to the semifinals. They ended in third place after losing 3-2 to [[MiG Frost]] but they beat [[Team OP]] 2-1 in the third place match. The team's top 4 placing secured them a round of 16 spot in [[Azubu The Champions Summer 2012]]. Xenics made it to the round of 8 again but dropped 2-0 to [[Azubu Blaze]] this time. Xenics was seeded into the second round of the [[Season 2/Regional Finals - Seoul|Season 2 Korea Regional Finals]] but they lost 3-0 to [[NaJin Sword]]. Impact left the team in October of 2012 to join [[Tempest]] but rejoined after that team was picked up by the Xenics organization.
+
+===Season 3===
+Impact left the Xenics team in February of 2013 to join the brand new roster of [[SK Telecom T1 2]] that featured [[bengi]], [[Faker]], [[Piglet]], and [[PoohManDu]]. The team's first tournament together was [[OLYMPUS Champions Spring 2013]] where the team found immediate success. They placed third after losing 3-1 to [[MVP Ozone]] but they beat [[CJ Entus Frost]] 3-0 in the third place match. SKT1 2's sister team, [[SK Telecom T1 1]] was dropped from the organization so Impact's team was renamed to just '''SK Telecom T1'''. Next, they attended [[HOT6iX Champions Summer 2013]], this time managing to qualify for the finals. They were pitted against the [[KT Rolster Bullets]] and even went down 2-0 initially in the set but they managed to bring it back and win the tournament with a 3-2 victory. This win earned them enough circuit points to qualify for the [[Season 3 Korea Regional Finals]]. They were automatically seeded into the finals where they faced the Bullets once again, this time taking them down 3-1 to qualify for the [[Season 3 World Championship]] as the third seed from Korea. SKT went 7-1 in their group, only dropping a game to [[OMG]] and was put against the [[Gamania Bears]] in the quarterfinals. They quickly dispatched the bears 2-0 and then went onto play a close set against NaJin Black Sword that they eventually won 3-2. The finals saw SKT playing against the Chinese [[Royal Club]]. Royal was no match for SKT and the set ended with a quick 3-0 and the crowning of SK Telecom as the Season 3 World Champions. A month later, the team was renamed to '''SK Telecom T1 K'''.
+
+===2014 Season===
+SK Telecom continued their streak of domination at [[PANDORA.TV Champions Winter 2013-2014]]. In an unprecedented show of strength, SKT managed to sweep the entirety of the tournament, culminating in a 3-0 victory over [[Samsung Galaxy Ozone]]. This is widely considered to be the most impressive feat achieved by any team as OGN is thought to have the highest level of competition in League of Legends. However, [[HOT6iX Champions Spring 2014]] began the steady decline of SKT K as a team. They were upset in the group stages by the [[KT Rolster Arrows]] and barely scraped through to playoffs. They then met Samsung Ozone in the quarterfinals and were swiftly beaten 3-1. Due to having the most circuit points in Korea, they were invited to participate in [[All-Star Paris 2014]]. After winning 6 games in a row, they 3-0'd OMG to take the tournament without dropping a game. They came back to Korea for [[HOT6iX Champions Summer 2014]] but fell in the quarterfinals again with a 3-1 loss to Samsung White. SKT was forced to play a tiebreaker against Samsung White to determine who would go to the [[2014 Season World Championship]] as the second seed from Korea. White was too strong for SKT, quickly sweeping them 3-0. SKT was knocked into the finals of the gauntlet where they faced a red hot [[NaJin White Shield]] that took out the former World Champions 3-1.
+
+===2015 Season===
+Changes to the OGN rules forced SKT K and SKT S to merge to form [[SK Telecom T1]] in early December of 2014. Two weeks later, Impact left the team to join [[Team Impulse]] as their top laner. After using [[Rhux]] as a substitute for Impact in the first week, Team Impulse finished the round robin with an 11-7 record, in fourth place. In the [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoffs]], they defeated [[Gravity (North American Team)|Gravity]] before losing to [[Team SoloMid]] and then [[Team Liquid]], placing fourth overall. In the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer season]], Team Impulse started shakily, placing no higher than sixth through the end of the fifth week. Starting in the sixth week, the team went on a massive winning streak, which was almost able to continue through two roster changes: first, Adrian sat out one game and was replaced by [[Gate]]; and second, [[XiaoWeiXiao]] was suspended pending an investigation into Elo boosting prior to the ninth week, prompting Adrian to return and Gate to move back to his primary role of mid lane to replace XiaoWeiXiao. This temporary suspension was eventually lengthened to a [[List of Competitive Rulings|competitive ban]] until February 2016. Regardless, Team Impulse finished the last week tied for third place with Gravity and then won their tiebreaker game.
+
+In the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|summer playoffs]], the team beat [[Team Dignitas|Dignitas]] 3-0 before losing to both [[Counter Logic Gaming]] and Team Liquid to finish fourth, leaving them with the second-place spot in the [[2015 Season North America Regional Finals|Regional Final]] due to [[2015 Season/Championship Points|Championship Points]]. There, they became the second team in a row to fall to underdogs [[Cloud9]] in a reverse sweep and so fell short of the [[2015 Season World Championship|World Championship]].
+
+===2016 Season===
+Impact left Team Impulse in November to join the new LCS team [[NRG eSports]], as their top laner. NRG started the [[League Championship Series/North America/2016 Season/Spring Season|LCS]] strong, tied for either first or second place through the first four weeks, but after the fifth week they fell down to fifth place and remained there for the rest of the season. They were eliminated in the first round of the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]]. After the conclusion of the split, Impact left NRG and joined [[Cloud9]].<ref>[http://twitter.com/Cloud9/status/729884433285668864 Cloud9's Tweet] ''twitter.com''</ref>
+
+In the [[League Championship Series/North America/2016 Season/Summer Season|Regular Season]], Cloud9 achieved a 12-6 series record and a third-place finish, with Impact primarily playing top lane tanks including [[Trundle]], [[Shen]], and [[Maokai]]. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|Playoffs]], Cloud9 defeated [[Team EnVyUs]] and [[Immortals]] before falling to TSM 3-1 in the finals; their second-place result was their best placement since Spring 2015. In the [[2016_Season_North_America_Regional_Finals|Regional Finals]], or the gauntlet, Cloud9 faced and defeated both EnVyUs and Immortals to qualify for the [[2016_Season_World_Championship|World Championship]] for the fourth consecutive year; their success in both the playoffs and gauntlet was attributed in large part to Impact's play, especially on [[Gnar]].
+
+At Worlds, C9 was put in Group along with [[SK Telecom T1]], [[I May]] and [[Flash Wolves]]. Despite not being expected by many to make it out of the group, C9 finished 2nd in the group. Their Worlds run was cut short though after they lost 0-3 to [[Samsung Galaxy]] in the Quarterfinals.
+
+===2017 Season===
+The [[League_Championship_Series/North_America/2017_Season/Spring_Season|2017 Spring Season]] of the NA LCS started off hot for C9. The team was dominant and in 1st place throughout most of the split. However their performance took a dip later on and they finished 2nd with a 14-4 record right behind TSM. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] it was a similar story as Cloud9 made it to the finals but lost 2-3 to [[Team SoloMid]] in a very close series. In the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] with increased competition, Cloud9 struggled more than before and finished the regular split in 4th place. Their performance in the [[League_Championship_Series/North_America/2017_Season/Summer_Playoffs|playoffs]] was very lackluster and their run was cut short with a 1-3 loss to [[Team Dignitas]] in the Quarterfinals. Going into the [[2017 Season North America Regional Finals|Regional Qualifiers]], the team managed to qualify for the [[2017 Season World Championship]] with a 3-1 win over CLG.
+
+At Worlds C9 finished first in their [[2017_Season_World_Championship/Play-In|Play-In]] group with a 4-0 record and then defeated [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] 3-0 to advance to the [[2017_Season_World_Championship/Main_Event|Main Event]]. Put in Group A along with [[SK Telecom T1]], [[EDward Gaming]] and [[ahq e-Sports Club]], C9 managed a 3-3 record and made it out of the group in second place. Their Worlds run was put to a halt however after they lost 2-3 to [[Team WE]] in a very close match. Impact left C9 in November of 2017 and joined [[Team Liquid]].
+
+=== Career Highlights ===
+* World Champion x1 (2013)
+* LCS Champion x6 (2018 Spring, 2018 Summer, 2019 Spring, 2019 Summer, 2022 Spring, 2024 Spring)
+* LCK Champion x2 (2013 Summer, 2014 Winter)
+
+== Trivia ==
+* His favorite champions are {{ci|Alistar}}, {{ci|Sona}}, {{ci|Janna}}, {{ci|Lee Sin}}, and {{ci|Gangplank}}.
+* Famous for trolling HotshotGG using jungle AP Master Yi on NA server when Korean server was not yet released.
+* Received North American residency on November 19, 2018.
+* Rumored to be the highest paid LCS player upon joining [[Team Liquid]].
+* Considered an excellent tank player and team fighter.
+
+=== Individual Awards ===
+* LCS MVP (2024 Summer)
+* LCS 1st All-Pro Team x3 (2015 Summer, 2019 Summer, 2024 Summer)
+* LCS 2nd All-Pro Team x7 (2017 Spring, 2019 Spring, 2021 Spring, 2021 Summer, 2022 Summer, 2023 Spring, 2024 Spring)
+* LCS 3rd All-Pro Team x3 (2016 Summer, 2018 Summer, 2020 Summer)
+* LCK All-Star (2014)
+* LCS All-Star (2016)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+==External Links==
+* [http://www.stormlol.com/profile.php?idx=4 Xenics Storm Profile Page]
+* [http://www.sksports.net/T1/T1Players/lolplayers/T1LOLPlayersView.asp?idx=15 SK Telecom T1 Profile Page]
+
+{{PlayerPageEnd}}

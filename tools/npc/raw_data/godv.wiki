@@ -1,0 +1,148 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=GodV%20(Wei%20Zhen)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.103Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GODV」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=GodV
+|name=Wei Zhen
+|nativename=韦朕
+|namealphabet=Hanzi
+|image=LGD GodV 2017 Summer.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|checkbox-res=No
+|birth_date_year=1997
+|birth_date_month=July
+|birth_date_day=16
+|favchamp=Orianna
+|favchamp2=Lissandra
+|favchamp3=Diana
+|favchamp4=Zed
+|checkbox1=No
+|compID1=LuciFer
+|compID2=PAinEvil
+|compID3=We1less
+|checkboxComp=No
+|ids=LGD1006TVLuciFer, TheUnDeadWe1less, ImLightUrShadow (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.douyu.com/We1less
+|fanpage=http://t.qq.com/a506931121
+|checkboxSuppressOrgNavbox=No
+|otherwikis=pubg
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''LuciFer''', '''PAinEvil''', and '''We1less'''.
+}}
+==Biography==
+
+===2014 Season===
+
+Wei "'''GodV'''" Zhen (sometimes stylized '''GODV''') joined [[LGD Gaming]] in May of 2014 as their new mid laner under the name "'''We1less'''", after leaving [[Vici Gaming]], his team since September 2012. LGD were knocked out extremely early in the [[Demacia Cup/Season 2|Demacia Cup Season 2]], losing 2-1 to [[Team RM]] in the first round. They placed fourth in the [[2014 LPL Summer/Regular Season|2014 LPL Summer Regular Season]] qualifying for the [[2014 LPL Summer/Playoffs|2014 LPL Summer Playoffs]], but failed to win a single game, losing 3-0 to both [[EDward Gaming]] and [[Star Horn Royal Club]]. LGD also qualified for the [[2014 Season China Regional Finals]], but were eliminated in the second round with a 2-1 loss to [[OMG]]. 
+
+===2015 Season===
+
+LGD made the quarterfinals of the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]], but lost 3-0 to [[Invictus Gaming]]. Later, they finished sixth in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]]. LGD upset both OMG and [[Snake eSports]] 3-0 in the [[2015 LPL/Spring/Playoffs|Playoffs]] to reach the finals, ultimately losing 3-2 to [[EDward Gaming]].
+
+In the offseason, We1less changed his name to "'''GodV'''". LGD, now feared in China, were upset 3-0 by OMG in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]]. The team placed fifth in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] to qualify for the Seeding Match of the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]]. They fought their way to the finals, upsetting EDG 3-0 along the way. The team beat the [[Qiao Gu Reapers]] 3-2 in the finals to qualify for the [[2015 Season World Championship]] as China's top seed. LGD was placed in a group alongside [[Team SoloMid]], [[Origen]], and [[KT Rolster]], but failed to meet expectations and were eliminated in the group stage with with a 2-4 record, losing their first three games.
+
+===2016 Preseason===
+
+Going into [[IEM Season X - San Jose|IEM San Jose]], GodV renamed to '''PAinEvil'''. LGD were knocked out in the first round, losing 0-2 to Team SoloMid. On December 29, PAinEvil renamed back to '''We1less'''.<ref>[http://lol.qq.com/webplat/info/news_version3/152/4579/4584/m3106/201512/418597.shtml 2016 LPL Spring rosters]''qq.com''</ref>
+
+===2016 Season===
+
+LGD entered the 2016 Season with a new top laner and jungler, replacing [[Flame]] and [[TBQ]] with [[MaRin]] and [[Eimy]]. The team hoped to bounce back from their rough recent performances and entered the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] with high hopes. Placed in Group A, LGD struggled in the first several weeks of play, with problems with team synergy and communication evident. In the second half of the season, they performed better and finished 4th in their group with an 8-8 record. They faced off against [[Vici Gaming]] in Round 1 of the [[LPL/2016_Season/Spring_Playoffs|Playoffs]], but lost 1-3. In summer, the team finished 5th place in their group and were required to play in the [[LPL/2017 Season/Spring Promotion|2017 LPL Spring Promotion]], where they re-qualified for the next LPL split with a 3-1 win over [[Newbee]].
+
+===2017 Season===
+
+Despite having a promising roster, LGD continued to struggle and finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] in last place in their group. Although they had to once again attend the [[LPL/2017_Season/Summer_Promotion|Summer Promotion]] tournament, they re-qualified for the LPL with a 3-0 win over [[Young Miracles]]. In the [[LPL/2017_Season/Summer_Season|summer season]] GODV stepped back after the team acquired Cool as their primary mid laner, and he left the team in October, retiring from professional League of Legends to play PlayerUnknown's Battlegrounds professionally.
+
+== Trivia ==
+* His ID '''GodV''' and '''We1less''' are both based on his real famliy name  (Wei).
+** He is called "韦神" (Wei Shen) in China, which means God Wei. This also bears resemblance to his real name, Wei Zhen (韦朕).
+** His IDs were heavily memed by the western community after his performances in international tournaments, people online would often call him '''GoldV''', '''Winless''', and '''PlatEvil'''.
+** He is also called "V DOG" in China, which means Dog Wei.
+* Reached Challenger after playing the game for 2 weeks.
+* Became a PUBG professional player after retiring from LOL, in the same PUBG team as [[Aluka]].
+* Known for his {{ci|Diana}}, {{ci|Orianna}}, {{ci|Lissandra}} and {{ci|Yasuo}}.
+** Also known for his {{ci|Varus}} infamously. <ref>[https://www.youtube.com/watch?v=zgIGqKYu3Eo Worlds2015 - GODV Varus]youtube.com</ref>
+* Reached 1000 Kills in the LPL in March, 2017.
+** The 8th player to reach 1000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Cool]], [[Kid]], [[NaMei]], [[Zz1tai]], [[Clearlove]], and [[Deft]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+LGD We1less.jpg|LGD We1less
+LGD We1less 2015.jpg|LGD We1Less 2015 Spring
+LGD-godv-2015lpl.jpg|LGD We1less 2015 Summer
+LGD_We1less_2016_Spring.png|LGD We1less 2016 Spring
+LGD GodV 2017 Spring.png|LGD GodV 2017 Spring
+</gallery>
+
+{{PlayerPageEnd}}

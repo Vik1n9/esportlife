@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MiSTakE&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.563Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MiSTakE」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=MiSTakE
+|name=Chen Hui-Chung
+|nativename=陳彙中
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1989
+|birth_date_month=May
+|birth_date_day=13
+|favchamp=Blitzcrank
+|favchamp2=Janna
+|favchamp3=Sona
+|favchamp4=Lulu
+|checkbox1=No
+|checkboxComp=No
+|ids=憤怒雞肉飯 (TW), TPS MiSTakE,SupMe CarryU (KR), MiSTakElolz (NA), TPA_MiSTakE, TPA MiSTakElolz (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/mistakelolz
+|facebook=https://www.facebook.com/mistakeLoL
+|youtube=https://www.youtube.com/@mistakelolz/videos
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He is currently one of the owners of G Entertainment, a streaming company. He is also a caster for [[Garena]], and is well known for being the support, shot caller, and captain for the [[Season 2 World Championship]]-winning [[Taipei Assassins]].
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Support
+|prev2=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Captain Taiwan
+|checkboxprev=Yes
+}}
+==Biography==
+MiSTakE's first game was Lineage, at age five. When he was older he moved on to play other online games like DoTA and World of Warcraft. His first pro gaming experience was as a professional WoW player.His WoW toon was also named Mistake - as inspired by the song "Beautiful Mistake".<ref>[http://www.ttfun.com.tw/DOC/news_page?type=1&id=1627&tb=1 《TPA台北暗殺星》最厲害的指揮官　Mistake隊長專訪　全心為電競付出的熱血男人！ (Taiwanese)] ''www.ttfun.com.tw'' </ref>
+
+== Trivia ==
+* Played World of Warcraft on GAMing and Face the music
+* Blood Type A
+* Favorite Champion is {{ci|Janna}}
+* Represented Taiwan at the [[Riot World Invitational]] held in Las Vegas.<ref>[http://ggchronicle.com/riot-world-invitational-liveblog/ Riot World Invitational Summary] ''ggchronicle.com''</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+===External Links===
+* [http://leagueanalysis.blogspot.tw/2012/11/support-lessons-with-tpamistake.html Support Lessons with TPA_MiSTakE] ''translation by Bummer2000''
+
+{{PlayerPageEnd}}

@@ -1,0 +1,137 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LaMiaZeaLoT&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LaMiaZealot」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=LaMiaZeaLoT
+|name=Manuel Mildenberger
+|image=Ozone Lamia.jpg
+|checkboxAutoImage=No
+|country=Germany
+|residency=Europe
+|birth_date_year=1989
+|birth_date_month=December
+|birth_date_day=27
+|favchamp=Ezreal
+|favchamp2=Sivir
+|favchamp3=Ashe
+|checkbox1=No
+|checkboxComp=No
+|ids=Ozone_Lamia (TW), LoserWin (TW), Fnatic LaMia
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|facebook=https://www.facebook.com/FnaticLamia
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+He is from Tübingen, Germany. On September 16, 2012 he retired from competitive gaming.<ref>[http://fnatic.com/news/10073/lamia-retires-from-gaming.html LaMia retires from gaming] ''fnatic.com''</ref> In March 2013, he joined Team Ozone Gaming and started to compete with other Taiwan LoL e-Sports teams.<ref>[http://www.facebook.com/photo.php?fbid=568002579877159&set=a.507787002565384.117361.503701182973966 Team Ozone's Facebook Post (Taiwanese)] ''facebook.com''</ref>
+
+== Trivia ==
+* Played DotA before League of Legends. 
+* He studied German, math and English to become a teacher.<ref>[http://fnatic.com/users/LaMiaZeaLoT/ Fnatic Player Profile] ''fnatic.com''</ref>
+* Achieved a Pentakill at IEM World Championship with {{ci|Ashe}}.<ref>[http://www.youtube.com/watch?v=_t54FlzXfvw/ IEM World Championship Ashe Pentakill! - Fnatic vs. Millenium 2012 (video)] ''youtube.com''</ref>
+* Retired to move to Taiwan and learn about the Chinese language and culture.
+* Introduced to [http://www.fnatic.com/content/95692/lamia-enters-the-fnatic-hall-of-fame Fnatic's Hall of Fame] on September 3, 2013.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+==Articles==
+{{TDRight
+|name1=2015}}
+{{TDRight|tab}}<!--2015-->
+* September 16 - [http://www.esportsheaven.com/articles/view/5612/no-country-for-old-marksmen-remembering-five-retired-ad-carries No Country for old Marksman - Remembering five retired AD carries.] ''from Esports Heaven''
+{{TDRight/end}}
+
+==Interviews==
+{{TDRight
+|name1=2011
+|name2=2012
+|name3=2013}}
+{{TDRight|tab}}<!--2013-->
+* March 4 - [https://www.facebook.com/ozonegamingtw/posts/568160926527991 Ozone Gaming Taiwan Facebook Post (English)][http://www.facebook.com/photo.php?fbid=568160506528033&set=a.507787002565384.117361.503701182973966&type=1 (Taiwanese)] ''with Ozone Gaming Taiwan''
+{{TDRight|tab}}<!--2012-->
+* January 4 - [http://www.youtube.com/watch?v=moLzOAkcoV0 專訪歐洲頂尖選手 Fnatic - Lamia (Taiwanese Video)] ''with League of Legends Taiwan''
+* April 15 - [http://www.youtube.com/watch?v=2yOpdqBrCWU Interview with LaMia and Mellisan from FnaticRC LoL (video)] ''with Fnatic''
+* June 8 - [http://www.youtube.com/watch?v=tcOeIMPuK2w MLG Anaheim: Interview with FnaticRC.Lamia (video)] ''with Fnatic''
+* June 9 - [http://www.youtube.com/watch?v=-3Uuz8Yf40w MLG Anaheim: LaMia, Cyanide, Pheilox after TSM Evo game (video)] ''with Fnatic''
+{{TDRight|tab}}<!--2011-->
+* June 24 - [http://www.sk-gaming.com/content/33682-Interview_with_Lamia_from_FnaticLoL Interview with Lamia from Fnatic.LoL] ''with SK Gaming''
+* August 19 - [http://www.youtube.com/watch?v=T4WrAWGdBmU Interview with Lamia (video)] ''with Team SoloMid''
+* Octobe 25th - [http://www.itsgosu.com/game/lol/articles/it-s-gosu-interviews-lamia_331 It's Gosu interviews Lamia] ''with It's Gosu''
+{{TDRight/end}}
+=== Images ===
+<gallery>
+File:Lamiazealot.jpg|Fnatic LaMia
+</gallery>
+
+{{PlayerPageEnd}}

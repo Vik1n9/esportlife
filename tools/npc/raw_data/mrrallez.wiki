@@ -1,0 +1,131 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MrRallez&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.370Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MrRallez」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=MrRallez
+|name=Rasmus Skinneholm
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1996
+|birth_date_month=October
+|birth_date_day=13
+|favchamp=Caitlyn
+|favchamp2=Lucian
+|favchamp3=Jinx
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=Yes
+|istrainee15=No
+|issub16=Yes
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/mrrallez
+|facebook=https://www.facebook.com/MrRalleZ
+|twitter=MrRallez
+|youtube=https://youtube.com/user/MrRalleZ
+|lolpros=https://lolpros.gg/player/mrrallez
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=No
+|peakelo_euw=639 LP
+}}
+==Biography==
+===Season 2===
+MrRalleZ joined his first competitive team, [[Gamehoppers.eu]] mid-way through the season. The team won Cups #2, #3, and #4 of [[4Players.de Play4Fame 2012 May]], but were knocked out in the quarterfinals of the monthly finals. They also finished 2nd in the [[SK Trophy June]], [[Absolute Arena Cup 2]], and the [[Absolute Arena Invitational]], losing to [[Moscow Five]] in the final of each tournament. The team disbanded a few months later, with MrRalleZ going on to join [[Monomaniac eSports]] at the end of the season.
+
+===Season 3===
+After the disbanding of the team early on in the season, both MrRalleZ and Zorozero went on to join [[Uncle Ruckus' Revenge]]. The team finished in 3rd place in the [[Solomid EU Tournament Circuit/Invitational 2|SoloMid EU Invitational 2]] and won multiple cups in [[ESL Go4LoL 2013 March]] before finishing 2nd in the monthly finals. During this time, the team changed their name to '''Sinners Never Sleep'''. Due to their performance in the [[ESL Go4LoL 2013 March#EU West Server|Go4LoL EU West Cup #135]] in particular, the team qualified for the [[Riot League Championship Series/Europe/Season 3/Summer Promotion/Go4LoL Qualifiers|LCS Season 3 Go4LoL Summer Promotion Qualifier]]. They finished 1st, granting them a place in the [[Riot League Championship Series/Europe/Season 3/Summer Promotion|EU LCS Summer Promotion]]. However, MrRalleZ was then replaced by [[Tabzz]], and moved to a substitute position.
+
+After the team qualified for the [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|EU LCS Summer Season]], the team's entire roster joined [[Lemondogs]]. MrRalleZ joined [[against All authority]] soon after, remaining as a sub on the roster of the LCS team. A few months later, he left both teams to join [[Ninjas in Pyjamas]] as a substitute. He left at the end of the season to join [[SUPA HOT CREW]]. 
+
+After winning the [[EUW Challenger Series/Week 16 Cup|EUW Challenger Series - Week 16 Cup]], MrRalleZ and his new team went on to participate in the [[Riot League Championship Series/Europe/2014 Season/Spring Promotion|LCS Spring Promotion]]. SUPA HOT CREW finished 2nd in the challenger stage, and progressed on to the promotion stage. MrRalleZ and the team thought that their LCS hopes were over after losing to [[SK Gaming]] in their promotion match-up, but after [[Lemondogs]] were removed from the [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]], the SUPA HOT CREW played a deciding match against [[MeetYourMakers]] to determine who would take their spot. MrRalleZ and the team won the game, and the slot to play in the [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]].
+
+===2014 Season===
+The [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]] was not a success for MrRalleZ and the team, placing 7th overall. Their performance in the split meant that they would have to play in the [[Riot League Championship Series/Europe/2014 Season/Summer Promotion|Summer Promotion Tournament]] and fight for their spot in the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]]. MrRalleZ and the rest of the SUPA HOT CREW beat [[Cloud 9 Eclipse]] in their promotion match, securing their place in the next split.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] was a huge improvement on the previous split, with SUPA HOT CREW fininshing 3rd, behind [[Alliance]] and [[Fnatic]]. The whole team performed extremely well over the split, with MrRalleZ excelling on {{ci|Lucian}} and {{ci|Kog'Maw}} in particular. The team's performance landed them a place in the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]]. MrRalleZ and SHC lost to [[Team ROCCAT]] in the quarterfinals, but winning their 5th place match against [[Millenium]] meant that they would be sure of their place in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|2015 Spring Split]].
+
+===2015 Season===
+After securing themselves a place in the next split of the LCS, MrRalleZ and the rest of the remaining [[SUPA HOT CREW]] roster was acquired by [[MeetYourMakers]]. The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] was largely unsuccessful for MrRalleZ and the team, though they were refreshed by the additions of [[Jwaow]] and [[NoXiAK]]. Despite a great improvement in performances for the team towards the end of the split, they finished in 10th place after a tiebreaker loss to [[Giants Gaming]], and were relegated.
+
+Soon after, MrRalleZ left to join [[Team Gravy]], where he played alongside [[Wickd]] and [[CozQ]] amongst others. The team competed in the [[2015 EU Challenger Series/Summer Qualifier|EUCS Summer Qualifier]], and were acquired by [[Denial eSports.Europe]] after progressing to the semifinals of the tournament. The team went unbeaten throughout, qualifying for the [[2015 EU Challenger Series/Summer Season|EUCS Summer Split]] after beating [[Ex Nihilo]] in their bracket final.
+
+A few weeks later, MrRalleZ left the team to join [[Team ROCCAT]], replacing [[Woolite]], to compete in the [[Riot League Championship Series/Europe/2015 Season/Summer Season|LCS Summer Season]]. The split was relatively successful for MrRalleZ and the team, finishing the regular season in 5th place partly thanks to MrRalleZ's impressive performances on {{ci|Kalista}} in particular. This meant they would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]], where the team were beaten in the quarterfinals by [[Unicorns Of Love]], meaning that they would pick up 20 [[2015 Season/Championship Points|Championship Points]] and go on to play in the [[2015 Season Europe Regional Finals]]. Team ROCCAT went on to lose to eventual qualifiers [[Origen]] in Round 2 of the gauntlet.
+
+===2016 Preseason===
+In December 2015, [[Team ROCCAT]] announced they would loan MrRalleZ and [[Steve (Etienne Michels)|Steve]] to an unnamed Challenger team for the [[League Championship Series/Europe/2016 Season/Spring Season|2016 spring season]];<ref>[http://www.facebook.com/TEAMROCCAT/photos/413374255524267 Team ROCCAT's Facebook Post] ''facebook.com''</ref> however, the two instead joined LCS team [[Elements]]. Elements's roster for the 2016 season seemed weak to fans, and many expected them to be relegated; however, they were able to hang on to seventh place for the majority of the split to automatically requalify for the [[League Championship Series/Europe/2016 Season/Summer Season|summer split]] without seeing any post-season play.
+
+== Trivia ==
+* Is 198 centimeters (6 feet 6 inches) tall.
+{{PlayerPentakills}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

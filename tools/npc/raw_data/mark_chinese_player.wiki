@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mark%20(Ling%20Xu)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.764Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mark (Chinese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Mark
+|name=Ling Xu
+|nativename=凌旭
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1999
+|birth_date_month=May
+|birth_date_day=20
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:''' lifeenjoy<br>'''KR:''' DuDu11<br>TES 77
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/6895898
+|weibo=https://weibo.com/n/markOvO
+|deeplol=https://www.deeplol.gg/pro/Mark-Ling_Xu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Reached 3000 assists in the LPL on March 2nd, 2023.
+** Was the 20th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on July 17, 2024.
+** Was the 15th player to reach 4000 assists in the LPL.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

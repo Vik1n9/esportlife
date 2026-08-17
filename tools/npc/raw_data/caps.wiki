@@ -1,0 +1,148 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Caps&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.324Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「caPs」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Caps
+|name=Rasmus Borregaard Winther
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=November
+|birth_date_day=17
+|favchamp=Ryze
+|favchamp2=Yasuo
+|favchamp3=Zoe
+|favchamp4=Aurelion Sol
+|checkbox1=Yes
+|favchamp5=LeBlanc
+|compID1=caPs
+|checkboxComp=No
+|ids='''EUW:''' G2 Caps#1323 <br>'''CN:''' g2caps1 <br> '''NA:''' G2 Caps#LOL1<br>'''BR:''' G2G2G2#G2G2
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/caps
+|twitter=G2Caps
+|instagram=g2.caps_
+|youtube=https://www.youtube.com/channel/UCH3kbIp12IiqaPbfRvtUiMg
+|discord=https://discordapp.com/invite/kuuTVXb
+|lolpros=https://lolpros.gg/player/caps
+|deeplol=https://www.deeplol.gg/pro/Caps
+|dpmlol=https://dpm.lol/pro/Caps
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was briefly stylized '''caPs'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Is the younger brother of DotA 2 player [https://liquipedia.net/dota2/Ryze Ryze].
+* Nicknamed ''Baby [[Faker]]'' by fans.
+** Fans also call him '''Craps''' when he plays badly, and '''Claps''' when he plays especially well.
+** In China he is called 帽皇 meaning ''King of Hats'' (aka King of Caps).<ref>[https://youtu.be/o7JxsPe0x3o Chinese nicknames for Western LOL pro players] ''youtube.com''</ref>
+** In Vietnam, he is called Soobin Hoàng Caps, due to his similar appearance to a popular singer <ref>[https://www.oneesports.vn/lmht/nhung-nguoi-con-xa-xu-g2-esports-duoc-cong-dong-game-thu-viet-tung-ho-sau-tran-thang-lich-su/] ''oneesports.vn''</ref>
+* His father frequently attends his games, including traveling to Vietnam and Taiwan to see his son win the [[2019 Mid-Season Invitational]]. 
+* As of July 2021, became famous for his shaved head.
+* Frequently says Champion quotes out loud when picking or banning a Champion.
+|-|
+Notable achievements and statistics=
+===Notable achievements and statistics===
+* He and [[Uzi (Jian Zi-Hao)|Uzi]] are the only two non-Korean players to have appeared in consecutive [[Worlds]] finals.
+* Reached 1000 kills in the LEC on June 12, 2020.
+** The 5th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], and [[nukeduck]].
+** His 1000th kill was on [[MAD Lions]] in [[LEC/2020 Season/Summer Season|LEC 2020 Summer]] with {{ci|Zoe}}.
+* Reached 1500 kills in the LEC on April 3, 2022.
+** The 3rd player to reach 1500 kills in the LEC after [[Rekkles]] and [[Jankos]].
+** His 1500th kill was on [[Misfits Gaming|Misfits']] jungler [[Shlatan]] in the [[LEC/2022 Season/Spring Playoffs|LEC 2022 Spring Playoffs]] with {{ci|Cassio}}.
+* Reached 2000 kills in the LEC on January 29, 2024.
+** The 2nd player to reach 2000 kills in the LEC after [[Rekkles]].
+** His 2000th kill was on [[Fnatic|Fnatic']] top laner [[Oscarinin]] in the [[LEC/2024 Season/Winter Season|LEC 2024 Winter Season]] with {{ci|Akali}}.}.
+* Reached 2500 kills in the LEC on May 10, 2025.
+** The 1st player to reach 2500 kills in the LEC.
+* Reached 2500 assists in the LEC on April 21, 2023.
+** The 7th player to reach 2500 assists in the LEC after [[Hylissang]], [[Jankos]], [[VandeR]], [[Mikyx]], [[Rekkles]], and [[Odoamne]].
+* Became the 3rd player to reach both 1000 kills and 2500 assists in the LEC on April 21, 2023 after [[Jankos]] and [[Rekkles]].
+* Reached 300 wins in the LEC on July 30, 2023.
+** The 4th player to reach 300 wins in the LEC after [[Jankos]], [[Rekkles]], and [[Hylissang]].
+* Reached 400 wins in the LEC on May 10, 2025.
+** The 1st player to reach 400 wins in the LEC.
+* Reached 500 games in the LEC on June 22, 2024.
+** The 6th player to reach 500 games in the LEC after [[Jankos]], [[Hylissang]], [[Rekkles]], [[Odoamne]], and [[Mikyx]].
+* Reached 600 games in the LEC on August 18, 2025.
+** The 4th player to reach 600 games in the LEC after [[Jankos]], [[Hylissang]], and [[Mikyx]].
+* Reached 500 international kills during [[2023 Mid-Season Invitational|MSI 2023]] on May 4, 2023 on Day 3 of Play-In, becoming the 4th player to achieve this milestone after [[Faker]], [[Perkz]], and [[xiaohu]].
+* Reached 1000 international assists during [[2025 Mid-Season Invitational|MSI 2025]] on June 27, 2025 in Play In Round 1 against [[FURIA]], becoming the 6th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], Faker, [[xiaohu]], [[meiko]], and [[Keria]].
+* Reached 100 international wins during [[2025 Mid-Season Invitational|MSI 2025]] on June 30, 2025 against [[GAM Esports]] in Play-In Lower Bracket, becoming the 3rd player to achieve this milestone after [[Faker]] and [[xiaohu]].
+* Reached 200 international games during [[Worlds 2025 Main Event|Worlds 2025]] on October 30, 2025 in G2's first game against [[Top Esports]] in Quarterfinals, becoming the 2nd player to achieve this milestone after Faker.
+* Holds the most LEC Finals MVPs (x7).
+* Holds the most LEC titles (x17), after winning [[LEC/2023 Season/Summer Season|LEC 2023 Summer]] and surpassing previous holder [[Perkz]] (x8).
+* Holds the most domestic championships won in any competitive region, with 18 as of 2026 (LEC x17, TCL x1).
+|-|
+Equipment =
+=== Equipment ===
+* Screen: AOC AG251FZ
+* Mouse: Logitech G G403
+* Keyboard: Logitech G Pro X
+* Mousepad: Logitech G G640
+* Chair: Secret Lab
+* Webcam: Logitech Streamcam
+|-|
+Individual Awards=
+===Individual Awards===
+* x1 MSI MVP (2019)
+* x3 LEC Split MVP (Summer 2018, Spring 2019, Summer 2020)
+* x1 LEC Season MVP (2024)
+* x7 LEC Finals MVP (Summer 2020, Spring 2022, Winter 2023, Season Finals 2023, Spring 2024, Summer 2024, Versus 2026)
+* x11 LEC All-Pro 1st Team (Spring 2018, Summer 2018, Spring 2019, Summer 2019, Summer 2020, Spring 2021, Summer 2021, Winter 2023, Summer 2023, Winter 2024, Spring 2024)
+* x4 LEC All-Pro 2nd Team (Summer 2017, Summer 2022, Spring 2023, Spring 2026)
+* x2 LEC All-Pro 3rd Team (Spring 2020, Spring 2025)
+* x1 TCL Finals MVP (Summer 2016)
+</tabber>
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

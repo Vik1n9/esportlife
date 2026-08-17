@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zothve&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.319Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zothve」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Zothve
+|name=Cristóbal Arróspide
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil
+|birth_date_year=2003
+|birth_date_month=February
+|birth_date_day=18
+|favchamp=Irelia
+|favchamp2=Camille
+|favchamp3=Jax
+|favchamp4=Akali
+|checkbox1=Yes
+|favchamp5=Jayce
+|checkboxComp=No
+|ids='''LAS:''' zzzothve<br> '''BR:''' lilpeep7<br> '''NA:''' desire machine
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/zothve
+|twitter=zzzothve
+|instagram=zzzothve
+|discord=https://discord.com/invite/z5HHT6E
+|deeplol=https://www.deeplol.gg/pro/Zothve
+|dpmlol=https://dpm.lol/pro/Zothve
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+Cristóbal Arróspide is from Santiago, Chile.
+
+== Trivia ==
+* Mostly known for being one of the best {{ci|Irelia}}, in the soloqueue of multiple regions.
+* Started to play back in Season 2, influenced by his brother.
+* Reached Challenger for the first time in Season 6.
+* Reached Challenger in the NA server at Season 11.
+* He likes anime.
+* Nicknamed "'''Mewing Carry'''" by [[cody]].<ref>[https://x.com/LTASul/status/1882171380617130376 LTA Sul's X Post] ''x.com''</ref>
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

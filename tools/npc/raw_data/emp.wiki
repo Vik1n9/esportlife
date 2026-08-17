@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Emp&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.115Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Emp」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Emp
+|name=Benjamín&nbsp;Esteban Ramírez Mercado
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=17
+|favchamp=Ekko
+|favchamp2=LeBlanc
+|favchamp3=Vayne
+|favchamp4=Azir
+|checkbox1=No
+|checkboxComp=No
+|ids='''LAS''': nbAL, LGL nbAL, nbALANCED, nice try though <br> '''KR''': wexwexwex (KR), emp1 (KR) <br> '''BR''': wexwexwex
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Empl0l
+|facebook=https://www.facebook.com/Empl0l
+|twitter=Empl0l
+|instagram=empl0l
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He passed away on December 16th, 2025.<ref>[https://x.com/teamisurus/status/2000917401643176265 Isurus' X Post] ''x.com''</ref>
+|died=2025-12-16
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+Benjamín Esteban Ramírez Mercado is from Copiapó, Chile.
+
+=== 2014 Season===
+His debut was in [[Team LGL]] as AD Carry participating in the [[Circuit of Legends 2014 April]] where the team reached the final facing [[eXeAt eSports Club]] losing 1-2. In the [[Circuit of Legends 2014 May]] the team was fourth in the tournament losing against [[Furious Gaming]] 0-2, at the end of the tournament he leaves the team.
+
+=== 2015 Season===
+At the beginning of the year he joins [[Dark Horse]] as AD Carry participating in the [[Circuito de Leyendas Sur/2015 Season/Opening Season|CDLS 2015 Opening Season]] where the team was first in the tournament with [[Isurus]], qualifying to the next phase. Already in the [[LAS 2015 Closing Cup Promotion]] the team faced [[ChiLeanFivE]] winning 3-0, ascending to the LAS Cup.
+
+At mid-year [[Isurus]] buys [[Dark Horse]] so [[emp]] joins as AD Carry participating in the [[LAS 2015 Closing Cup]] where the team was penultimate in the tournament, having to play relegation. In the [[LAS 2016 Opening Cup Promotion]] [[emp]] rotate to Mid Laner where the team faced [[Freedom Dive]] winning 3-1, saving their place.
+
+=== 2016 Season===
+At the beginning of the year [[Emp]] remains in the team as Mid Laner participating in the [[LAS 2016 Opening Cup]] where the team was fourth in the tournament, qualifying to the next phase. In the [[LAS 2016 Opening Cup Playoffs]] the team reaches the final facing [[Last Kings]] winning 3-0, being champion for the first time, qualifying for an international tournament for the first time. In the [[IWCI 2016]] the team was penultimate in the tournament. At mid-year [[Emp]] he remains in the team participating in the [[LAS 2016 Closing Cup]] where the team was first in the tournament, qualifying to the next phase. In the [[LAS 2016 Closing Cup Playoffs]] the team reaches the final facing [[Kaos Latin Gamers|KLG]] losing 2-3.
+
+=== 2017 Season===
+At the beginning of the year [[Emp]] they remain in the team participating in the [[CLS 2017 Opening]] where the team was first in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Opening Playoffs]] the team reaches the final facing [[Furious Gaming]] winning 3-0, qualifying the MSI. In the MSI, the team played in group B facing [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]], [[Virtus.pro]] and [[GIGABYTE Marines]] where the team was the last in the group stage. At mid-year [[Emp]] he remains in the team participating in the [[CLS 2017 Closing]] where the team was second in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Closing Playoffs]] the team reaches the final facing [[Kaos Latin Gamers]] losing 1-3.
+
+=== 2018 Season===
+At the beginning of the year [[Emp]] remains in the team participating in the [[CLS 2018 Opening]] where the team was third in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Opening Playoffs]] the team was third in the tournament losing against [[Kaos Latin Gamers|KLG]] 0-3. At mid-year [[Emp]] he remains in the team participating in the [[CLS 2018 Closing]] where the team was third in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Closing Playoffs]] the team was fourth in the tournament losing against [[Rebirth eSports]] 0-3.
+
+=== 2019 Season===
+At the beginning of the year [[Emp]] he remains in the team but as a substitute without being able to play the [[LLA 2019 Opening]], [[LLA 2019 Opening Playoffs]] and MSI, at mid-year he leaves the team.
+
+At midyear he joins [[Furious Gaming]] as Mid Laner participating in the [[LLA 2019 Closing]] where the team was third in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Closing Playoffs]] the team was fifth in the tournament losing against [[XTEN Esports]] 2-3.
+
+== Trivia ==
+[[File:Emp 2016 2.png|thumb|right|'''Emp''' talking about his life in a '''Riot''' section called "Retadores de la Copa".]]
+* His IGN comes from "Electromagnetic Pulse".
+* Playing to show that he is better than others is considered as an "Antihero".<ref name="riot inteview to Emp 2016">[https://www.facebook.com/lolesportsla/videos/1236689299677731 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* Played the role of AD Carry from Season 2 to Season 5.
+* His style is to play aggressive, he likes to harass his opponent.<ref name="riot inteview to Emp 2016">[https://www.facebook.com/lolesportsla/videos/1236689299677731 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* He is known as "'''Larry'''".
+* He likes to read autographic novels and thriller books.<ref name="riot inteview to Emp 2016">[https://www.facebook.com/lolesportsla/videos/1236689299677731 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* Reached Master tier in the Korean server.
+* Considered the best mid laner in Latin America South.<ref name="riot inteview to Emp 2016">[https://www.facebook.com/lolesportsla/videos/1236689299677731 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}
+[[Category:Deceased Players]]

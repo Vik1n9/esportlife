@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Trymbi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.785Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Trymbi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Trymbi
+|name=Adrian Trybus
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Spain
+|nationality=Poland
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=October
+|birth_date_day=20
+|favchamp=Rakan
+|favchamp2=Thresh
+|favchamp3=Morgana
+|favchamp4=Pyke
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' RGE Trymbi, wqrwiony, AdiTheGoodGuy, trymbol <br> '''BR:''' VKS Trymbi#LTAS<br>'''NA:''' TRYMBOLONA#KoxPL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/trymbilol
+|facebook=https://www.facebook.com/trymbilol
+|twitter=Trymbilol
+|instagram=trymbilol
+|lolpros=https://lolpros.gg/player/trymbi
+|deeplol=https://www.deeplol.gg/pro/Trymbi
+|dpmlol=https://dpm.lol/pro/Trymbi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Was born in Spain.<ref>[https://twitter.com/ROGUE/status/1381214101507018758 Rogue's Tweet] ''twitter.com''</ref>
+* Reached Challenger in solo queue for the first time during high school while playing on a laptop with 20 FPS.<ref>[https://youtube.com/clip/Ugz6Tfcmmr6KkUNK5LB4AaABCQ] ''youtube.com''</ref>
+* The first pro player he met in solo queue was [[Gilius]].<ref>[https://youtube.com/clip/UgwKVVZD3KzUPz2QYet4AaABCQ] ''youtube.com''</ref>
+* Was an ADC main in Season 5, playing [[Vayne]] and [[Jinx]].<ref>[https://youtube.com/clip/UgyiVzRmgl_qd14q-5d4AaABCQ] ''youtube.com''</ref>
+* Nicknamed "'''Senhor Incrível'''" (Mr. Incredible) by [[Vivo Keyd Stars|VKS]] supporters due to his resemblance to the character with the same name from [[wikipedia:en:The Incredibles|The Incredibles]] movie.<ref>[https://x.com/VivoKeyd/status/1916179315277865465 Vivo Keyd Stars' X Post] ''x.com''</ref>
+** Also nicknamed "Trymbiqueiro" as a pun with his IGN and the word "trambiqueiro" (swindler) by '''VKS''' supporters.
+* The first European player to win a title in LEC ([[LEC 2022 Summer Playoffs|2022 Summer]]) and LTA South ([[LTA South 2025 Split 3|2025 Split 3]]).
+** Coincidentally, both times were with [[SeeEl]] on the coaching staff.
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* 1x EU 3rd All Pro Team (Winter 2023)
+* 1x LTA South 1st All-Pro Team x1 (2025 Split 3)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

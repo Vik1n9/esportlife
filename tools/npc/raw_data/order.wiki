@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ORDER&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.795Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ORDER」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= ORDER
+|orgcountry= Australia
+|country=
+|region= OCE
+|sponsor= 
+|headcoach= 
+|owner= Gerard Murphy
+|website= https://ordergaming.gg
+|youtube= https://www.youtube.com/c/ORDERARMY
+|facebook= https://www.facebook.com/ordergaming.gg
+|twitter= ordergaming_gg
+|discord= 
+|snapchat= 
+|instagram= ordergaming_gg
+|stream=https://www.twitch.tv/ordergaming_gg
+|created= 2017-12-14
+|disbanded= 
+|otherwikis=fifa
+}}{{TOCRWI}}
+
+'''ORDER''' is an Oceanic team.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||au|Gerard Murphy|'''Owner'''}}
+{{listplayersp|Swifty|au|Josh Swift|'''Chief Communication Officer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Ceres|au|Evan Mascarenhas|'''Coach'''|newteam=Nigma Galaxy Male}}
+{{listplayer|Loki (Laughlin Norney)|au|Laughlin Norney|'''Coach/Analyst'''|newteam=none}}
+{{listplayer|Calvin|hk|Calvin Lee|'''Coach'''|newteam=Kanga}}
+{{listplayer|OMO|sg|Leonard Loh|'''Coach'''|newteam=none}}
+{{listplayer|Spawn (Jake Tiberi)|au|Jake Tiberi|'''Head Coach/General Manager'''|newteam=TLA}}
+{{listplayer|Charlie (Charlie Wraith)|au|Charlie Wraith|'''Coach'''|newteam=PGG}}
+{{listplayer|ChuChuZ|au|Aaron Bland|'''Head Coach'''|newteam=GGA}}
+{{listplayersp|Mentels|au|Joseph Allman|'''Assistant Coach'''|newteam=UQU}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+===2019===
+* January 31, [https://dotesports.com/business/news/alienware-partners-with-australian-esports-team-order Alienware partners with Australian esports team ORDER] ''by Aiden "Ayekay" Hiko on Dot Esports''
+
+== Images ==
+===Logos===
+<gallery>
+ORDER Old Logo.png|Previous Logo<br>(- Jan 2022)
+</gallery>
+
+==References==
+<references />

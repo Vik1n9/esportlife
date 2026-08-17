@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=369&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「369」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=369
+|name=Bai Jia-Hao
+|nativename=白家浩
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=July
+|birth_date_day=12
+|favchamp=Aatrox
+|favchamp2=K'Sante
+|favchamp3=Renekton
+|favchamp4=Ornn
+|checkbox1=Yes
+|favchamp5=Gragas
+|checkboxComp=No
+|ids='''CN:''' haohaohao<br>'''KR:''' qsxmiocmio#KR1 <br> '''EUW:''' JZDKVFYPNO#EUW <br> '''NA:''' MM9 ghost#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/bjh369
+|weibo=https://weibo.com/u/6541759077
+|lolpros=https://lolpros.gg/player/369
+|deeplol=https://www.deeplol.gg/pro/369
+|dpmlol=https://dpm.lol/pro/369
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Chinese fans often joke about his performance being related to the numbers in his ID. For example, fans would spam 3 when he plays badly, and spam 9 when he plays especially well.
+** Therefore, nicknamed "The Dice Man."
+* As of Spring 2024, he is known to have never missed Playoffs since he started playing in the LPL.
+* Considered to be the best {{ci|Vladimir}} in China.
+=== Statistics ===
+* Reached 1000 kills in the LPL on February 02, 2023.
+** The 36th player and 3rd toplaner (after [[Flandre]] and [[TheShy]]) to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on January 18, 2025.
+** The 25th player and 2nd toplaner after [[Flandre]] to reach 1500 kills in the LPL.
+* Reached 300 wins in the LPL on August 05, 2023.
+** Was the 19th player to reach 300 wins in the LPL.
+* Reached 400 wins in the LPL on March 29, 2025.
+** Was the 11th player to reach 400 wins in the LPL.
+* Reached 500 games in the LPL on June 23, 2024
+** The 24th player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on May 3, 2025
+** The 16th player to reach 600 games in the LPL.
+* Reached 3000 assists in the LPL on June 26, 2024.
+** Was the 31st player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on August 26, 2025.
+** The 22nd player to reach 4000 assists in the LPL.
+
+=== Individual Awards ===
+* LPL 1st All-Pro Team x3 (Summer 2022, Spring 2023, Split 2 2025)
+* LPL 2nd All-Pro Team x4 (Spring 2019, Summer 2023, Spring 2024, Split 3 2025)
+* LPL 3rd All-Pro Team x4 (Spring 2020, Summer 2020, Spring 2021. Summer 2024)
+* LPL MVP of the year (2022)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=AHaHaCiK&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「AHaHaCiK」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=AHaHaCiK
+|name=Kirill Skvortsov
+|nativename=Кирилл Скворцов
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=April
+|birth_date_day=01
+|checkbox1=No
+|compID1=Nissha
+|checkboxComp=No
+|ids='''EUW:''' AHaHaCíK<br>ayayacik
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ahahacikkk
+|twitter=ahahaciklol
+|vk=https://vk.com/nissha
+|lolpros=https://lolpros.gg/player/ahahacik
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Nissha'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''AHaHaCiK''' (''Cyrillic:'' АНаНаСиК) comes from the Russian word for "pineapple."<ref>[https://youtu.be/T62GY0bCQSk?t=244 MSI 2019 Play-In Group Stage Day 3 Interviews] ''youtube.com''</ref> More specifically, Russian word "ананáс" means pineapple (ananas), and "ик" (transliterated to Latin as "ik") is a diminutive suffix in Russian, carrying a meaning of either object's small size or adorable appearance. So his ID "ананáсик" means "a small and cute pineapple".
+** This was frequently commented upon by English language casters during [[MSI 2019]] and the [[2019 World Championship]]. 
+* He practiced kickboxing for 7 years.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tally&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.343Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tally」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Tally
+|name=James Shute
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|nationality=Australia, South Africa
+|residency=PCS
+|birth_date_year=1997
+|birth_date_month=August
+|birth_date_day=21
+|favchamp=Twisted Fate
+|favchamp2=Galio
+|favchamp3=Viktor
+|favchamp4=Ahri
+|checkbox1=No
+|compID1=Tallywhacka
+|checkboxComp=No
+|ids='''EUW:''' Bomb Devil
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/Tallywhacka
+|twitter=Tallywhacka
+|discord=https://discord.com/invite/FRnDKUQ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Bot
+}}
+==Biography==
+=== 2015 Season ===
+In October 2014, Tallywhacka was originally brought onto the Legacy roster as a top laner, replacing the struggling [[Minkywhale]].<ref>[https://www.facebook.com/LegacyEsportsLoL/posts/363472777161412 Legacy eSports' Facebook Post] ''facebook.com''</ref>. Prior to [[OPL/2015 Season/Split 1|OPL 2015 Split 1]], Tallywhacka swapped roles with teammate [[Cardrid]], returning to his comfort role. Minkywhale would later return to the starting lineup as a top laner, replacing Cardrid. Legacy placed third in the [[OPL/2015 Season/Split 1 Playoffs|Split 1 playoffs]] and then second in the [[OPL/2015 Season/Split 2 Playoffs|Split 2 Playoffs]].
+=== 2016 Season ===
+In December 2015, Tallywhacka shortened his name to '''Tally''' and switched back to top lane, as [[k1ng]] joined the roster and replaced him as AD carry.<ref>[http://legacyesports.com.au/2015/12/28/changes-foundations-2016/ Legacy eSports'site update] ''legacyesports.com.au''</ref>.
+
+== Trivia ==
+* Known for his {{ci|Riven}} at PAX Australia 2014, and his {{ci|Kalista}} since the inception of the Oceanic Pro League (OPL).
+* Dropped out of high school to pursue a full-time gaming career.
+* Enjoys playing osu! in queue and World of Warcraft in his free time
+* Used to duo queue with North American support player [[Matlife]] prior to transferring to the Oceania server.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

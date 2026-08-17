@@ -1,0 +1,126 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Heart&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.251Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Heart」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Heart
+|name=Yi Gwan-hyung
+|nativename=이관형
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1988
+|birth_date_month=December
+|birth_date_day=13
+|favchamp=Annie
+|favchamp2=Thresh
+|favchamp3=Zyra
+|checkbox1=No
+|compID1=Nyang
+|compID2=Solo
+|compID3=ChuNyang
+|compID4=CNyang
+|checkboxComp=Yes
+|compID5=Sense
+|ids=서폿유저이하트, 삼성갤럭시 Heart, MVP Sense, Solo, Nyang, Yel1owstar
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/heart1233
+|instagram=kwanhyungyi
+|weibo=https://weibo.com/upyiheart
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Nyang''', '''Solo''', '''ChuNyang''', '''CNyang''', and '''Sense'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Support
+|prev2=Jungler
+}}
+==Biography==
+===Season 2===
+Yi "'''Heart'''" Gwan-hyung began his career under the name "'''Nyang'''" as the jungler for [[RoMG]]. They qualified for [[Azubu The Champions Summer 2012]] and managed to take a game off of [[Azubu Frost]] but they still couldn't make it through groups.
+
+===Season 3===
+Before the start of [[OLYMPUS Champions Winter 2012-2013]], Nyang renamed to "'''Solo'''" and RoMG renamed to GSG. They placed last in their group, only managing to win two games. GSG disbanded but Solo, [[CheonJu]], and [[Easyhoon]] joined [[MVP Blue]]. For [[OLYMPUS Champions Spring 2013]], Solo renamed himself to "'''ChuNyang'''". Once again, Blue placed last in their group and were knocked out of the tournament. Prior to [[HOT6iX Champions Summer 2013]], ChuNyang shortened his name to just "'''CNyang'''" and role swapped to support. It didn't change much, as Blue only placed third in their group and missed the playoffs. Blue and their sister team, [[MVP Ozone]], were picked up by the Samsung organization to form [[Samsung Galaxy Blue]] and [[Samsung Galaxy Ozone]], respectively. During this time, CNyang went by the name "'''Sense'''".
+
+===2014 Season===
+At the beginning of the season, Sense changed his name to "'''Heart'''". Some success finally came for Heart and Blue during [[PANDORA.TV Champions Winter 2013-2014]] where they managed to make it out of their group but were swept 3-0 by [[SK Telecom T1 K]]. However, [[HOT6iX Champions Spring 2014]] was Blue's true breakout season, where they actually won the whole tournament by beating [[NaJin White Shield]] 3-1, even beating Ozone along the way. Blue continued their success in [[HOT6iX Champions Summer 2014]] by making the finals, this time losing a close 3-2 set to the [[KT Rolster Arrows]]. They still earned enough circuit points to qualify for the [[2014 Season World Championship]] as the top seed from Korea. They made the semifinals at worlds but met their sister team, White, and lost 3-0 to them. On November 17, 2014, it was officially announced, that all remaining members of [[Samsung White]] and [[Samsung Blue]] left their teams.<ref>[http://www.inven.co.kr/webzine/news/?news=121982&iskin=esports&game=13682014년 지배한 삼성 화이트-블루, 10명 모두 떠났다. (Korean)] ''inven.co.kr''</ref> On November 27, 2014, [[DanDy]], [[Skatch]], Heart and [[Mata]] all together joined [[Vici Stand Gaming]].<ref>[http://p.t.qq.com/longweibo/index.php?id=429380132770020 Vici Gaming's Tencent Weibo Post (Chinese)] ''t.qq.com''</ref>
+
+===2015 Season===
+In January, Skatch and Heart were moved to [[Vici Potential Gaming]]. VPG played in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] but were knocked out after losing 3-0 in the round of 16 to [[LGD Gaming]]. They placed second in the [[2015 LoL Secondary Pro League/Spring Playoffs|2015 LSPL Spring Playoffs]] after losing 3-1 to [[Qiao Gu]] in the finals but they still managed to automatically qualify for the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]]. A month later, the team rebranded to [[Unlimited Potential]]. They played in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] and made it to the quarterfinals but lost 3-1 to [[Snake eSports]]. UP ended in tenth in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and were forced to play in the [[LPL/2016 Season/Spring Promotion|2016 LPL Spring Promotion]]. UP made it to the second round but lost 3-0 to [[Team WE]] and were relegated.
+
+===2016 Preseason===
+Heart left UP to join LGD Gaming as a coach. He stayed with LGD until January 2017.<ref name="heartleaveslgd">[http://lol.esportsmatrix.com/en-US/News/Detail?id=3823] ''esportsmatrix.com''</ref>
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

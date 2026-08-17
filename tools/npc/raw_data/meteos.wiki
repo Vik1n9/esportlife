@@ -1,0 +1,150 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Meteos&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.563Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Meteos」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Meteos
+|name=William Hartman
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1993
+|birth_date_month=June
+|birth_date_day=13
+|favchamp=Elise
+|favchamp2=Nocturne
+|favchamp3=Nasus
+|favchamp4=Zac
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Meteos, Magma Golem<br>'''KR:''' ice cold water
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/meteos
+|facebook=https://www.facebook.com/meteoslol
+|twitter=MeteosLoL
+|instagram=meteoslol
+|reddit=meteos25
+|lolpros=https://lolpros.gg/player/meteos/
+|deeplol=https://www.deeplol.gg/pro/Meteos
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+Although born in Massachusetts, Meteos' hometown is actually Fairfax, Virginia. He started playing games around the age of 5 with his mother's Game Boy. Before League of Legends, he was a sophomore at Christopher Newport University working towards a degree in Computer Science. When the beta for LoL came out, Meteos and his friends only played normal games. When the ranked ladder came out in Season 1, the group was reluctant to climbing the ladder since they didn't consider themselves to be "try-hards"; Meteos liked the no-stress environment with his friends and would especially get ladder anxiety when trying to learn things about the game.
+
+Meteos played normal games for such a long time that the amount of wins accumulated caused his normal queues to last up to 30 minutes. At that point, he and his friends decided to play ranked solo queue to avoid the long queue times, eventually breaking into the top 20 on the ladder. It was at this point that other highly ranked players started to notice and be familiar with the notorious {{ci|Skarner}} one-trick pony.
+
+===Season 2===
+Meteos got one of his first tastes in competitive LoL as a sub for [[CLG Black]] during a [[ROCCAT_King_Of_The_Hill|King of the Hill]] tournament. [[Link]], CLG Black's midlaner at the time, highly praised Meteos for his jungling talent and foresaw a bright future in him. At some point, Meteos and his friends decided to make a team called [[Team Normal Stars]] to compete in Go4LoL tournaments. Although they started to consistently win them after a few months, they disbanded before the first [[NA LCS]] qualifiers because their Top laner was too young. [[WildTurtle]], whom Meteos met in solo queue, asked him to sub for [[Cloud 9]] for a few tournament. [[TrickZ]], the jungler for Cloud 9 at the time, continued to be unavailable. This gave Meteos more and more opportunities to spend time and play for Cloud 9 in tournaments such as [[Rising_Stars_Invitational|MLG Rising Stars Invitational]] and [[IGN_ProLeague_Season_6/Qualifiers/IPL_Qualifier_1|IPL 6 qualifiers]]. As Cloud 9 continued to succeed with Meteos in the jungle, the team decided to keep him on their starting roster.
+
+===Season 3===
+In February of 2013, Meteos was placed on [[Complexity]] as a substitute jungler. On March 19, 2013, Meteos was part of a group of LCS players penalized by Riot for Elo-boosting. His accounts were suspended for 2 weeks and had all Season 2 rewards revoked.
+
+On April 1, 2013, the [[Cloud9]] roster consisting of [[Balls]], Meteos, [[Hai]], [[SnEaKyCaStRoO]], and [[LemonNation]] was acquired by [[Quantic Gaming]]. The team's activity under the Quantic brand was short-lived as the team was reacquired by a newly managed Cloud9 prior to their LCS debut against [[Team Dignitas]]. In his first LCS game, Meteos went 1/0/7 on {{ci|Nasus}}. This would mark the beginning of his phenomenal KDA scores for the [[Riot_League_Championship_Series/North_America/Season_3/Summer_Round_Robin|Season 3 Summer Split]], where he finished with a record high 12.7 ratio.
+
+Meteos and the rest of Cloud 9 went on to become the first non-founding LCS team to become champions in their inaugural split - a feat that is still yet to be replicated. They went on to become quarterfinalists in the [[2013 World Championship]] having a received a first round bye for winning the Summer Split. In the quarterfinals, Cloud9 lost to [[EU LCS]] champions [[Fnatic]] 2-1.
+
+===2014 Pre-Season===
+At their first international pre-season tournament, [[IEM Season VIII - Cologne]] in November 2013, Cloud9 received a bye into the second round and competed against [[Gambit Gaming]] from Russia. Here, Meteos' {{ci|Nocturne}} proved to be ineffective against [[Diamondprox]] and his squad. Gambit swept Cloud9 2-0, marking their second immediate exit from an international tournament.
+
+In December, Cloud9 joined four other North American LCS teams at [[Battle of the Atlantic 2013]], facing European champions Fnatic for the second time. With dominating performances by teammate Hai, Cloud9 took the series 2-0, resulting in an overall North American win at the tournament and $10,000 USD for the team.
+
+===2014 Season===
+Cloud 9 maintained their dominance in the NA region by winning their second consecutive LCS split, qualifying them for [[All-Star Paris 2014]]. Unfortunately, Hai's lung collapsed prior to the event, hospitalizing him and requiring the team  to play with a substitute midlaner. Cloud 9 acquired Link from [[Counter Logic Gaming]] for the duration of the all-star event. The team went 3-1 in the group stage, losing only to [[SK Telecom T1 K]]. In the bracket stage were eliminated in the first round by [[OMG]], losing 2-0.
+
+In the [[Riot_League_Championship_Series/North_America/2014_Season/Summer_Playoffs|summer playoffs]], despite placing first in the regular season, they took second place overall, losing to [[Team SoloMid]] in the finals 2-3. The second-place finish qualified them for the [[2014 Season World Championship]], where they were drawn into Group D along with [[NaJin White Shield]], [[Alliance]], and [[KaBuM! e-Sports]]. Cloud 9 went 4-2 in the group, drawing with NaJin Shield for first place but losing the tiebreaker game. They were eliminated from the tournament in the quarterfinals, falling 3-1 to [[Samsung Blue]].
+
+===2015 Preseason===
+Cloud 9 was the North American team fan-voted to [[IEM_Season_IX_-_San_Jose|IEM San Jose]].<ref>[http://en.intelextrememasters.com/news/cloud9-and-unicorns-of-love-confirmed-get-your-tickets-now/ Cloud9 and Unicorns of Love confirmed, get your tickets now!] ''en.intelextrememasters.com''</ref> They defeated [[paiN Gaming]] 2-0, [[Alliance]] 2-1, and then [[Unicorns of Love]] 3-0 to win the tournament.
+
+===2015 Season===
+Due to their IEM San Jose victory, Cloud9 qualified for [[IEM Season IX - World Championship|IEM Katowice]] in March. They lost their only two games, first to [[GE Tigers]] and then to [[yoe Flash Wolves]], and finished in 7th/8th place. Domestically, they underperformed at the start of the season, and were in 8th place at the end of the second week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|spring LCS split]]. However, they improved over the course of the season, ending with a second-place finish behind [[Team SoloMid]] and a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye; after beating [[Team Liquid]] 3-2, Cloud9 lost to TSM 1-3 in the finals and finished the split overall in second place.
+
+Due to mid laner Hai's retirement, Cloud9's [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]] did not go as well as their spring split had. After the 5th week of the split, the team was at a 3-6 cumulative record and part of a 3-way tie for 7th place with [[Enemy]] and [[Team 8]]. Looking to bring back their former shot caller, the team replaced Meteos with Hai, who switched positions to jungle, for the rest of the season.
+
+After the end of the regular season, Cloud9 announced their intent to build a [[Cloud9 Challenger|Challenger team]] around Meteos.<ref>[http://cloud9.gg/news/meteos-tryouts Cloud9 to Hold Open Tryouts for Challenger Roster] ''cloud9.gg''</ref> However, the team disbanded prior to playing any games, and when it reformed in April 2016, Meteos was not on the roster.
+
+=== 2016 Season ===
+
+Instead of playing on Cloud9 Challenger in the 2016 Summer Season, Meteos rejoined the main roster, while [[Rush]] moved to [[NA Challenger Series/2016 Season/Summer Season|Challenger]]. Favoring [[Rek'Sai]] and [[Gragas]], Meteos re-acclimated to competitive play and helped Cloud9 to a 12-6 series record and a third-place finish for the [[League Championship Series/North America/2016 Season/Summer Season|Regular Season]]. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|Playoffs]], Cloud9 defeated [[Team EnVyUs]] and [[Immortals]] before falling to TSM 3-1 in the finals; their second-place result was their best placement since Spring 2015. In the [[2016_Season_North_America_Regional_Finals|Regional Finals]], or the gauntlet, Cloud9 faced and defeated both EnVyUs and Immortals to qualify for the [[2016_Season_World_Championship|World Championship]] for the fourth consecutive year. At Worlds Cloud9 made it out of groups in 2nd place with a 3-3 record but got knocked out in the Quarterfinals after an 0-3 loss to [[Samsung Galaxy]].
+
+=== 2017 Season ===
+In the off-season, Meteos was moved to substitute by Cloud9. He left the team and joined [[Phoenix1]] before Week 5 of the [[League_Championship_Series/North_America/2017_Season/Spring_Season|spring split]], after [[Inori]] took a leave of absence from the team. Meteos played in all but three of their remaining games, and Phoenix1 went 7-2 in series with him starting, finishing in third with an 11-7 record. However, Inori returned to the starting position for the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] and Meteos only played one playoff game, a loss in the semifinals against his former team Cloud9. P1 was knocked out in the semifinals after that game but managed to win the third-place match 3-2 against [[FlyQuest]].
+
+Meteos stayed with the team for the [[League_Championship_Series/North_America/2017_Season/Summer_Season|summer split,]] but Inori was once again named the starter. After the team lost their first two series of the season and the first game of a Week 2 series against Cloud9, Meteos was subbed back in, but P1 lost all three games he played in. After Week 2, Meteos was replaced by rookie [[MikeYeung]]. Although he stayed with Phoenix1, he didn't play another game. 
+
+===2018 Season===
+P1 was not accepted in the newly franchised LCS for 2018. Meteos left the team in November of 2017 and joined the newly formed [[100 Thieves]]. 100 Thieves started the [[NA_LCS/2018_Season/Spring_Season|spring split]] a mediocre 4-5, but surged with an 8-1 second half, beating [[Echo Fox]] in the final game of the season and again in the first-place tiebreaker to secure the first seed in their first split as an organization.
+
+Their regular-season placement meant that 100 Thieves entered [[League_Championship_Series/North_America/2018_Season/Spring_Playoffs|the playoffs]] in the semifinals, where they faced 6th seeded [[Clutch Gaming]], who were fresh off of an upset victory over [[TSM]] the previous week. Clutch took 100 Thieves to five games, but they triumphed a tense 74-minute game 5, sending them to the finals against [[Team Liquid]]. However, 100 Thieves were quickly swept by TL in the finals, leaving them in second place. 
+
+In the [[NA_LCS/2018_Season/Summer_Season|summer split]], 100 Thieves went 4-2 over the first three weeks. However, immediately after Week 3 ended, Meteos was controversially traded to [[FlyQuest]] for their academy jungler [[AnDa]]. With FlyQuest preferring to start Santorin, Meteos was assigned to [[FlyQuest Academy]]. Although he initially stated that he had no interest in playing in academy, Meteos played the rest of the [[NA_Academy_League/2018_Season/Summer_Season|academy split]] for FlyQuest Academy, and helped them to a 10-8 record, good enough for fifth place. In the [[NA_Academy_League/2018_Season/Summer_Playoffs|academy playoffs]], the team defeated [[Clutch Gaming Academy]] 3-2 in the quarterfinals, but lost 3-1 to eventual champions [[Cloud9 Academy]] in the semifinals. 
+
+===2019 Season===
+Meteos left the FlyQuest organization in November 2020 and joined [[OpTic Gaming]]. However, he and support [[Big]] were benched until Week 3 of the [[LCS/2019 Season/Spring Season|spring split]] for unspecified disciplinary reasons. With a substitute roster, OpTic managed to push through a 2-2 record through the first two weeks but the team immediately nosedived with four straight losses when the intended starters returned. Meteos was also subbed out twice more for academy jungler [[Dardoch]] over the course of the split. Although they did recover and remained in the playoff picture until the final day of Week 9, OpTic never seriously challenged the top of the league and ended up in eighth with a 7-11 record.
+
+Meteos played every game of the [[LCS/2019_Season/Summer_Season|summer split]] and OpTic came out of the gate hot, posting a 4-0 record over the first two weeks, albeit against weak opponents. Losses against frontrunners [[Team Liquid]] and [[Cloud9]] in Week 3 brought OpTic back to earth, and they slowly drifted lower and lower in the standings, only managing four additional wins over the rest of the split. However, unlike the previous summer, OpTic's 8-10 record was good enough to force a three-way tiebreaker for the final playoff spot with [[Golden Guardians]] and [[100 Thieves]]. OpTic rose to the challenge, beating both teams, and securing their first playoff spot as a franchise. OpTic's best season came to an end quickly after that as they were dispatched 3-0 by [[CLG]] in the [[LCS/2019 Season/Summer Playoffs|playoff quarterfinals]], ending up without enough championship points to play in the [[LCS/2019 Season/Regional Finals|Regional Finals]].
+
+===2020 Season===
+Meteos rejoined [[100 Thieves]] for the 2020 season, where he would play alongside his 2018 teammates [[Ssumday]] and [[Cody Sun]]. In a [[LCS/2020_Season/Spring_Season|spring season]] dominated by first-place [[Cloud9]], 100 Thieves were part of a cluster of teams hovering around the .500 mark and the playoff picture for most of the split, until a 2-0 final week brought them into a three-way tie for second place. 100 Thieves defeated [[FlyQuest]] in the first round of tiebreakers but lost to [[Evil Geniuses.NA|Evil Geniuses]] in the second round, leaving them in third place. 
+
+In the [[LCS/2020_Season/Spring_Playoffs|playoffs]], 100 Thieves were chosen by Cloud9 in the first round and quickly swept. This sent them to the losers' bracket against fifth-place [[TSM]]. The series went to five games, but 100 Thieves lost in the decider, ending their season.
+
+Meteos remained with 100 Thieves for the [[LCS/2020_Season/Summer_Season|summer season]], but after a 1-5 start, the team announced that academy jungler [[Contractz]] would be joining the LCS roster for Week 4, exactly the same timing as the end of Meteos's first stint with the team in 2018. Unlike in 2018, Meteos joined [[100 Thieves Academy]] and played with them for three weeks, but the team only went 2-4 with him. After 100 Thieves decided to promote [[Kenvi]] from their amateur team [[100 Thieves Next]] to the academy roster, Meteos left the team. 
+
+== Trivia ==
+* His ID '''Meteos''' is named after the [[wikipedia:en:Meteos|Nintendo DS game of the same name]]. He chose the name because the game was on his desk when he created his ''World of Warcraft'' account.
+** His original ID was '''Long Dong''', but Riot requested he change it.
+* His first main was {{ci|Singed}}.
+* Played mostly ADC in Season 2, but switched to jungler in April 2012.
+* Is known for frequently eating Chipotle.
+** Gained such a reputation as a Chipotle eater that three bags worth of Chipotle food were placed next to him when Cloud 9 posed for ''Playboy'' in 2014.
+* Known for his {{ci|Skarner}}, {{ci|Elise}}, {{ci|Zac}}, and {{ci|Nasus}} during Season 3
+** This statistic was frequently mentioned by the now-inactive twitter account [http://www.twitter.com/c9meteosego @c9meteosego], which parodies Meteos as being extremely self-centered and overly proud of that KDA. 
+*** Meteos has stated that he is aware of the account and found it annoying at first, but now thinks it's funny. 
+* Played the bassoon in high school and knows how to ride a unicycle.<ref>[http://na.lolesports.com/players/meteos Player Bio] ''lolesports.com''</ref>
+* Played the trombone while in high school and had an old trombone warmup video go viral after HyperX and other NA LCS pros brought it up.<ref>[http://www.youtube.com/watch?v=Aan3cfoYxJo The Trombonas Brothers (including Meteos)' Trombone Warmup] The Trombonas Brothers on YouTube]</ref>
+* Known for being sarcastic on his stream, as well as blaming lag for his deaths and responding to things with "that's so troll."
+* Known for playing uncommon junglers in solo queue including, but not limited to, {{ci|Brand}}, {{ci|Soraka}}, and {{ci|Morgana}}.
+* Known for his efficient, high farm jungling method as opposed to low economy, high pressure styles.
+* Has a character in ''World of Warcraft'' character named [[wow:William_(Stormsong_Valley)|William]] after him, as well as another named after his dog [[wow:Charlie_(dog)|Charlie]].<ref>[https://twitter.com/juliebeeSD/status/1378825900536434689 Julie Palu's tweet] ''twitter.com''</ref>
+* Barring one of them returning to pro play, he is the last of the five original Cloud9 members to play in a competitive game.
+=== Statistics ===
+* In the Season 3 NA LCS Summer Split, he played Zac 8 times with a 100 percent win rate and a KDA of 39.3.
+* Had a 12.7 KDA in Season 3 LCS Summer Split, highest in LCS.
+* Accumulated nearly 3,500 normal wins before switching to ranked games.
+* On June 12, 2016, became the sixth player in NA LCS history to reach 1,000 career assists.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

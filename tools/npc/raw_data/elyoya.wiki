@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Elyoya&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.115Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Elyoya」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Elyoya
+|name=Javier Prades Batalla
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=March
+|birth_date_day=13
+|favchamp=Qiyana
+|favchamp2=Kha'Zix
+|favchamp3=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' komanche uchiha#elite <br> Andrew Laedis#EUW <br> '''NA:''' Dani Flow#myrwn
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/elyoyalol
+|twitter=Elyoya_LoL
+|instagram=elyoyalol
+|youtube=https://www.youtube.com/channel/UCmcBZPvWyXBKw0d6XE5XDOQ
+|discord=https://discord.gg/Aq6BGMgAbd
+|tiktok=elyoyalol
+|lolpros=https://lolpros.gg/player/elyoya/
+|deeplol=https://www.deeplol.gg/pro/Elyoya
+|dpmlol=https://dpm.lol/pro/Elyoya
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Nicknamed '''Elpoya''' by the Spanish community. Also call him '''Elyayo''' when he plays especially bad.
+* Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region ([[LEC/2021 Season/Spring Playoffs|LEC Spring 2021]]).
+
+=== Individual Awards ===
+* LEC Finals MVP (Spring 2025)
+* 3x LEC 1st All-Pro Team (Summer 2022, Winter 2023, Spring 2023)
+* 3x LEC 3rd All-Pro Team (Spring 2021, Spring 2022, Spring 2025)
+* LEC Rookie of the Split (Spring 2021)
+* Superliga Finals MVP (Summer 2020)
+* Superliga MVP (Summer 2020)
+* Superliga Rookie of the Split (Spring 2020)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

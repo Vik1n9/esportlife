@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Oddie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.796Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Oddie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Oddie
+|name=Sebastián Alonso Niño Zavaleta
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Peru
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=August
+|birth_date_day=28
+|favchamp=Blitzcrank
+|favchamp2=Rengar
+|favchamp3=Shaco
+|favchamp4=Zac
+|checkbox1=Yes
+|favchamp5=Lee Sin
+|compID1=Oddielan
+|compID2=TheOddOneBlack
+|checkboxComp=No
+|ids='''NA:''' Oddi3lan <br> Oddielan <br>'''LAS:''' Lyon Oddie <br> ISG Oddiee<br>'''BR:''' Oddiee <br> Lyon Oddie<br>'''EUW:''' Cacoxo <br> '''KR:''' Peruano
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/OddieLAN
+|facebook=https://www.facebook.com/OddieLan
+|twitter=OddieLAN
+|instagram=oddielan
+|askfm=OddieLAN
+|tiktok=oddielan
+|lolpros=https://lolpros.gg/player/oddie
+|deeplol=https://www.deeplol.gg/pro/Oddie
+|dpmlol=https://dpm.lol/pro/Oddielan
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+Sebastian Alonso Niño Zavaleta was born in Lima, Peru, but spent part of his childhood in the province of Piura. He has been interested in MOBA games since he was a child. He played DotA first and then decided to try League of Legends in 2010. When he was fifteen years old, in Season 2, he reached Diamond I on the North American server.
+
+For many, he is still considered the best jungle in Latin America thanks to his adaptation to the different changes of the metagame, either with tank / initiation or counter-jungle selection.
+
+== Trivia ==
+* Previous IGN was '''TheOddOneBlack''' because he was a fan of [[TheOddOne]].
+* At the age of 15 he was a well known player from the high Elo NA ranked ladder.
+* Received congratulations from [[TheOddOne]], [[Xpecial]], and [[WildTurtle]] when he turned 16 years old.
+* Reached rank 1 on the solo queue ladder in season 4 and 5 on the LAN server.
+* Reached rank 3 on the solo queue ladder in season 6 on the NA server.
+* Reached rank 1 on the solo queue ladder in season 7 on the NA server.
+
+=== Individual Awards ===
+* LLA player with the most MVPs in the split (Closing 2022)
+* LLA Most Weekly MVPs in his role in the split x2 (Opening 2020, Closing 2020)
+* LLA Most Player of the Week awards in the split (Closing 2020)
+
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

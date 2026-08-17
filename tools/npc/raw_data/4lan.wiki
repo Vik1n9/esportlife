@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=4LaN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「4LaN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=4LaN
+|name=Alanderson Meireles
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=October
+|birth_date_day=22
+|checkbox1=No
+|checkboxComp=No
+|ids=4LâN, EXP 4LaN, OVL 4LaN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/4lanlol
+|facebook=https://www.facebook.com/4LaNlol
+|twitter=4lanlol1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+=== 2019 Harassment case ===
+:''More info: [[2019 4LaN Harassment Incident]]''
+In October 2019, '''4LaN''' left [[Team oNe eSports]] under bad circumstances, after having allegedly been confronted by [[Rakin]] at a party for harassing two women. He was officially reported and considered guilty by Brazilian justice in 2022, and he was convicted of 1 year in prison and the sentence was converted to community services.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+<gallery>
+OVL 4LaN.jpg|OVL 4LaN
+oNe 4LaN 2017 Winter.png|ONE 4LaN 2017 Split 2
+ONE 4LaN 2017 Worlds.png|ONE 4LaN 2017 Worlds
+ONE 4LaN 2018 Spring.png|ONE 4LaN 2018 Split 1
+</gallery>
+
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

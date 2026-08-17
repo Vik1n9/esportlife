@@ -1,0 +1,69 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Infinity%20(Claudio%20Scuderi)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.806Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity (Claudio Scuderi)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Haruhiro
+|name=Claudio Scuderi
+|image=InfinityCla.jpeg
+|checkboxAutoImage=No
+|country=Italy
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=January
+|birth_date_day=21
+|checkbox1=No
+|compID1=InfinityCla
+|compID2=Infinity
+|checkboxComp=No
+|ids=CGG Haruhiro (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/haruhirololl
+|facebook=https://www.facebook.com/InfinityLoL1
+|twitter=HaruhiroLoL
+|lolpros=https://lolpros.gg/player/haruhiro
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Infinity'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* He is originally from Catania, Sicilia, Italy.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

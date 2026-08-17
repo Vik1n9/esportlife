@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Spica&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.625Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Spica」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Spica
+|name=Mingyi Lu
+|nativename=卢明义
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|nationality=China
+|residency=North America
+|birth_date_year=2001
+|birth_date_month=February
+|birth_date_day=17
+|favchamp=Graves
+|favchamp2=Camille
+|favchamp3=Nidalee
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA''': TSM Spica, ASTROBOY99, Spica1, ONETRICKPOLICE<br>'''CN''': 河道肾, Beabadoobee
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/spicalol
+|twitter=Spicalol
+|deeplol=https://www.deeplol.gg/pro/Spica
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+=== 2018 Season ===
+Spica debuted at the [[2017 NA Scouting Grounds]] as a relatively unknown solo queue prodigy. Playing for [[Team Infernal Drake (NASG Team)|Team Infernal Drake]], he impressed enough to be drafted second, by [[Echo Fox]]. Due to still being in high school, Spica would not play for the organization until after the school year ended, joining [[Echo Fox Academy]] in July to play in the final three weeks of [[NA Academy 2018 Summer]]. Echo Fox Academy already had a poor record when Spica joined and the team did not improve much afterward, winning only two of the six games he played. While on the team, Spica and teammates [[Cake (Tristan Côté-Lalumière)|Cake]] and [[Mabrey]] received a competitive ruling for griefing in solo queue by target banning their own teammates.<ref>[https://nexus.leagueoflegends.com/en-us/2018/08/competitive-ruling-mingyi-spica-lu-trist/ Competitive Ruling: Mingyi "Spica" Lu, Tristan "Cake" Côté-Lalumière, and Joshua "Mabrey" Mabrey] ''nexus.leagueoflegends.com''</ref> Spica was issued a warning, while Cake and Mabrey were fined for additional instances of toxicity surrounding the incident.
+
+=== 2019 Season ===
+Although Spica remained with Echo Fox Academy during [[NA Academy 2019 Spring]], he became inactive to continue high school and did not play during the tournament. In April, Spica moved to [[TSM Academy]] where he competed for [[NA Academy 2019 Summer]] and achieved a fourth place finish in the regular split. In August, Spica was unexpectedly called up to the main [[TSM]] roster due to dysfunction with its two junglers [[Grig]] and [[Akaadian]]. Spica played for TSM during the final week of [[LCS 2019 Summer]] and continued as the starter during playoffs and regional finals, where TSM failed to qualify for [[Worlds 2019]] after being reverse swept by [[Clutch Gaming]]. Although Spica managed to steal some critical objectives, the team failed to perform up to expectations while he was on the roster.
+
+=== 2020 Season ===
+Although veteran TSM mid laner [[Bjergsen]] wanted Spica to continue as the team's starting jungler for the 2020 season, TSM management did not believe Spica was ready for the LCS. He returned to TSM Academy while the main team replaced him with [[Dardoch]]. After a decent [[NA Academy 2020 Spring]], as well as continued disappointing performances from the main squad and Dardoch in particular, Spica was once more called up to the main TSM roster for [[LCS 2020 Summer]]. By this time, the jungler position on TSM had become highly volatile, with changes made to the position every split since 2018. Many fans had low expectations for Spica, especially after TSM's poor performance at the end of 2019. These low expectations were not helped when, during the first game of the split, Spica played [[Kayn]] (a jungler considered highly off-meta) and performed extremely poorly during a blowout loss to [[Team Liquid]]. TSM struggled for the first half of the split, with Spica's performance being inconsistent and often criticized by fans. However, TSM started to improve and ultimately finished the split with a respectable 12-6 record.
+
+During playoffs, TSM was upset in the first round by [[Golden Guardians]] and dropped to the Loser's Bracket. After easily defeating the struggling [[Dignitas]] 3-0, TSM faced a rematch with Golden Guardians, which the team barely managed to reverse sweep with a close Game 5. Spica slowly started to make a name for himself during this playoff run, first with strong [[Nidalee]] play, then after picking the off-meta jungle [[Shen]] in two games against [[Team Liquid]], where he performed some crucial engages to help win the series. After defeating [[FlyQuest]] in the finals, TSM completed the "miracle" Loser's Bracket run and won its first LCS split since 2017.
+
+While hype for the team was high going into [[Worlds 2020]], TSM heavily disappointed after finishing 0-6 in the group stage and being eliminated from the tournament. Although the team performed poorly, Spica was praised for his individual play.
+
+=== 2021 Season ===
+After the retirement of superstars Bjergsen and [[Doublelift]], TSM replaced almost its entire roster, keeping only Spica from the 2020 championship squad. The new roster struggled during the [[LCS 2021 Lock In]] tournament and the first few weeks of [[LCS 2021 Spring]], leaving many fans unimpressed with the roster decisions and calling for substitutions from TSM's Academy squad. The team improved, but Spica had a relatively quiet split after the hype he had garnered the previous year, winning only two Player of the Game awards and not appearing on any All Pro team. TSM finished third in playoffs, losing to Team Liquid even after the emergency substitution of [[Armao]] to replace [[Santorin]].
+
+In [[LCS 2021 Summer|Summer]], TSM got off to a stronger start than the previous split, with Spica distinguishing himself as a top performer. During the split, commentators such as [[LS]] described Spica as both the best player on TSM and the best jungler in the LCS, with praise given to his mechanical ability and smart pathing. The LCS broadcast team frequently compared Spica to [[Blaber]], the previous split's MVP jungler who also started his competitive career at the 2017 NA Scouting Grounds. Spica's performance helped lead TSM to a first place regular season finish, the first time TSM had accomplished that since 2017.
+
+== Trivia ==
+* Is a Chinese citizen, despite living in the United States.<ref>[https://m.twitch.tv/clip/MistyEndearingDoveKAPOW Spica's Twitch Clip] ''twitchstats.net''</ref>
+** Fluent in English and Mandarin.
+* Stole Baron in his LCS debut against [[FlyQuest]] in the [[LCS/2019 Season/Summer Season|LCS 2019 Summer]], then again in his playoff debut against [[Clutch Gaming]] in the [[LCS/2019 Season/Summer Playoffs|Summer Playoffs]].
+** Has since become known for winning Smite fights over neutral objections and stealing Barons.
+* Jokingly known for his {{ci|Sejuani}} due to a low career win rate on the champion.
+* Known for performing a "9 man sleep" at [[Worlds 2020]] after ulting all five enemy champions as {{ci|Lillia}} but receiving no follow-up from his team.<ref>[https://www.youtube.com/watch?v=-r7tKkSoPXQ TSM's Legendary 9-men Sleep at Worlds 2020] ''youtube.com''</ref>
+* Described by [[Bjergsen]] as the best {{ci|Nidalee}} player in North America.
+* Known for his taste in designer shoes and clothes.
+* When he was invited to play in the [[CBOLÃO Season 6]] along other LCS players, his NA team went by '''Near Airport'''. Funnily enough, he also participated in [[Doublelift]]'s NACL team that went by [[Near Airport|the same name]].
+
+=== Individual Awards ===
+* LCS Most Valuable Player (2021 Summer)
+* LCS 1st All-Pro Team (2021 Summer)
+* LCS 2nd All-Pro Team (2023 Spring)
+* NACL 1st All Pro Team (2025 Split 1)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

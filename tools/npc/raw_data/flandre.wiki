@@ -1,0 +1,139 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Flandre&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.080Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Flandre」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Flandre
+|name=Li Xuan-Jun
+|nativename=李炫君
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1998
+|birth_date_month=August
+|birth_date_day=28
+|favchamp=Fizz
+|favchamp2=Yasuo
+|favchamp3=Gnar
+|favchamp4=Graves
+|checkbox1=Yes
+|favchamp5=Vladimir
+|favchamp6=Aurora
+|checkboxComp=No
+|ids='''KR:''' aierlanlaozhu#KR1 <br> '''EUW:''' YQSH <br> '''NA:''' kryst4l#051
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/913004
+|weibo=https://weibo.com/n/Neverlandre
+|deeplol=https://www.deeplol.gg/pro/Flandre
+|dpmlol=https://dpm.lol/pro/Flandre
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Lee "'''Flandre'''" Xuan-Jun hails from Xinhui, Jiangmen, Guangdong Province, China.
+===2013 Season===
+
+Snake Esports was formed on September 11 in 2013 initially with one team and Flandre was part of the original roster.
+
+===2014 Season===
+
+In April of 2014 Snake's two teams, Snake.Q and Snake.S merged into one team. The line-up consisted of Flandre, Reborn, [[Copy (Lu Fan)|Copy]] (now '''BAKA'''), [[F4n2Fan]] (now '''kRYST4L''') and [[CoLiN]]. The team got 2nd place at the [[International Esports Tournament 2014]] and after a good performance finished 2nd in the [[2014 LPL Summer/Regular_Season|2014 LSPL Summer Season]]. Despite a great LSPL performance, Snake got knocked out in Group Stage #1 of the [[X Championship/Season I|X Championship 1]] and placed 5th-8th in 4 consecutive tournaments.
+
+===2015 Season===
+
+Because of their LSPL placement, Snake qualified for the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Split]]. The team immediately impacted the Chinese league and was consistent throughout the entire regular split. They finished 2nd with 10 wins, 10 draws and 2 losses. In the [[2015 LPL/Spring/Playoffs|Playoffs]] Snake narrowly defeated [[Team King]] 3-2 in the Quarterfinals but lost to [[LGD Gaming]] in an 0-3 sweep during the Semifinals and then lost the third-place match 1-3 against [[Invictus Gaming]]. The [[2015 LPL/Summer/Regular Season|2015 LPL Summer Split]] wasn't much better for Snake as the team finished 4th during the regular season with 7 wins, 10 draws and 5 losses. Despite their worse regular season finish, Snake did qualify for the [[2015 LPL/Summer/Playoffs|Playoffs]] but got knocked out in the 4th round after a 1-3 loss to [[LGD Gaming]]. Earning enough points to attend the [[China Regional Finals 2015]], Snake tried to qualify for Worlds there but couldn't win a single game and lost 0-2 to [[EDward Gaming]] in Round 1 of the Winner's Bracket and 0-3 to [[Qiao Gu Reapers]] in Round 1 of the Loser's Bracket. This ended Snake's 2015 season.</div>
+
+===2016 Season===
+
+In the 2016 Season with a a slightly different roster, Snake entered the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Split]] with decent expectations. The team had a solid regular season and finished 3rd with 10 wins and 6 losses. This would place them in Round 1 of Bracket A against Invictus Gaming. Despite their poor results vs IG in 2015, Snake managed to sweep them 3-0 and moved on to face [[EDward Gaming]] in the Quarterfinals. They however got swept themselves 0-3 which ended their playoffs run and put them in 5th-6th place. In the regular season of the Summer Split, Snake finished 2nd in their group. Qualifying for the playoffs, they finished 5th-6th after a 1-3 loss to [[I May]]. Earning the right to attend the [[China Regional Finals 2016]] for China, Snake would play two brutal five game Bo5s in one day. Despite their 3-2 win over [[Vici Gaming]], they fell 2-3 to [[Team WE]] and could not qualify for Worlds. During the off-season they also earned a 3rd-4th place finish at the finals of the [[Demacia Cup/2016 Season|2016 Demacia Cup]]. They lost 2-3 to I May in the semifinals. They also finished 3rd at [[NEST 2016]] after a 1-2 loss to [[LGD Gaming]].
+
+===2017 Season===
+
+Snake's 2017 Season was even worse than the previous year. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] 5th place in their group and had to attend the Promotion Tournament. They defeated [[Vici Gaming]] 3-0 to keep their LPL spot. Their [[Demacia Cup/2017 Season|2017 Demacia Cup]] performance wasn't very good as well and they finished 13th-20th after a 1-2 loss to [[Red Wolf Gaming]]. In the [[LPL/2017_Season/Summer_Season|Summer Season]] Snake finished 4th in their group and barely made the playoffs. They however lost 0-3 to [[Newbee]] in the first round and were quickly eliminated which ended their 2017 season.
+
+== Trivia ==
+* His ID '''Flandre''' is named after the character '''Flandre Scarlet''' from the video game series ''[[wikipedia:en:Touhou_Project|Touhou Project]]''.
+* Nicknamed "Saint Gun Bro" (hanzi:圣枪哥) for his proficiency on {{ci|Lucian}} before his transition to a top laner.
+* Famous for his large champion pool and oddball picks.
+* Flandre was the leader and shot-caller in [[Snake Esports]].
+* Played every game for Snake Esports as their top laner since the team was established. He continued this streak after they rebranded to [[LNG Esports]] until he was subbed out for [[chenlun17]] in the [[LPL/2020 Season/Spring Season|LPL 2020 Spring]].
+* Popularized the {{ii|Unending Despair}} {{ii|Winter's Approach}} tank build for {{ci|jayce}} during 2025 after building it during the [[Demacia Cup 2024]] finals.<ref>[https://www.esports.net/news/lol/jayce-tank-top-build/ Jayce tank top? A new build has emerged among pros] ''esports.net''</ref>
+* Was the first to play {{ci|naafiri}} top in the [[LPL]]'s history.<ref>[https://x.com/LPLinsider_/status/2019061973720109122 LPL Insider's X Post] ''x.com''</ref>
+* Known as a fan of ''[[wikipedia:en:(G)I-dle|(G)I-dle]]'', a female K-Pop group.
+* Became the first non-Korean solo laner that won a world championship since [[Stanley]] and [[Toyz]] in 2012.
+
+=== Statistics ===
+* Reached 1000 kills in the LPL on March 22, 2019.
+** The 17th player to reach 1000 kills in the LPL.
+* Reached 1500 Kills in the LPL on August 29, 2021.
+** Was the 14th player to reach 1500 Kills in the LPL.
+* Reached 2000 Kills in the LPL on March 28, 2025.
+** Was the 15th player to reach 2000 Kills in the LPL.
+* Reached 500 games in the LPL on July 28, 2020
+** The 6th player to reach 500 games in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[meiko]], [[Rookie]], [[xiaohu]], and [[Xiye]].
+* Reached 600 games in the LPL on August 29, 2021
+** The 4th player to reach 600 games in the LPL after [[Rookie]], [[meiko]], and [[xiaohu]].
+* Reached 700 games in the LPL on January 31, 2024
+** The 5th player to reach 700 games in the LPL after [[meiko]], [[xiaohu]], [[Rookie]] and [[Scout]].
+* Reached 800 games in the LPL on April 27, 2025
+** The 5th player to reach 800 games in the LPL after [[meiko]], [[xiaohu]], [[Rookie]] and [[Scout]].
+* Reached 900 games in the LPL on January 20, 2026
+** The 5th player to reach 900 games in the LPL after [[meiko]], [[xiaohu]], [[Rookie]] and [[Scout]].
+* Reached 3000 assists in the LPL on March 1st, 2021.
+** Was the 10th player to reach 3000 assists in the LPL after [[Clearlove]], [[Pyl (Chen Bo)|Pyl]], [[meiko]], [[xiaohu]], [[Rookie]], [[COLD]], [[Ming (Shi Sen-Ming)|Ming]], [[Baolan]], and [[Doinb]].
+* Reached 4000 assists in the LPL on February 24th, 2024.
+** The 12th player to reach 4000 assists in the LPL, after [[meiko]], [[Pyl (Chen Bo)|Pyl]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], [[cold]], [[Doinb]], [[Crisp]], [[LvMao]], [[Missing]], and [[Scout]].
+* Reached 5000 assists in the LPL on August 2nd, 2025.
+** The 10th player to reach 5000 assists in the LPL.
+* Reached 300 wins in the LPL on July 30th, 2021.
+** Was the 8th player to reach 300 wins in the LPL after [[Clearlove]], [[meiko]], [[Uzi (Jian Zi-Hao)|Uzi]], [[xiaohu]], [[Rookie]], [[Doinb]], and [[Scout]].
+* Reached 400 wins in the LPL on June 24, 2024.
+** Was the 9th player to reach 400 wins in the LPL after [[meiko]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], [[JackeyLove]], [[Yagao]], and [[Knight (Zhuo Ding) | knight]].
+* Reached 500 wins in the LPL on January 20, 2026.
+** Was the 7th player to reach 500 wins in the LPL after [[meiko]], [[xiaohu]], [[Rookie]], [[Scout]], [[JackeyLove]] and [[Knight (Zhuo Ding) | knight]].
+
+=== Individual Awards ===
+* LPL 1st All Pro Team x2 (Split 1 2025, Split 1 2026)
+* LPL 2nd All Pro Team x3 (Spring 2018, Split 2 2025, Split 2 2026)
+* LPL 3rd All Pro Team x1 (Split 3 2025)
+
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

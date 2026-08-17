@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Stark%20(Phan%20C%C3%B4ng%20Minh)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.767Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Stark (Vietnamese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Stark
+|name=Phan Công Minh
+|image=TF Stark Coach VCS Spring 2025.png
+|checkboxAutoImage=No
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1997
+|birth_date_month=December
+|birth_date_day=25
+|favchamp=Rumble
+|favchamp2=Renekton
+|favchamp3=Camille
+|checkbox1=No
+|checkboxComp=No
+|ids='''VN:''' Stark is Dead<br>'''KR:''' D II XCI I IO <br>'''EUW:''' Armor Men
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.nimo.tv/evsstark
+|facebook=https://www.facebook.com/PCMSTARK
+|youtube=https://www.youtube.com/channel/UCpxTjVGW1It-6m9DHkJjA-g
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* He was the top ranked Challenger player in Vietnam when recruited by [[Marines Esports]].
+* Stark decided to retire from League career to continue his education at Da Nang University, but he later joined [[EVOS Esports]] in June 2017.
+* Nicknamed "Emperor Stark" by fans.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Thump-gam-starkfor logo.jpg|GAM Stark
+MSI2017_Stark.png|GAM Stark 2017 MSI
+EVS Stark 2018 Spring.png|EVS Stark 2018 Spring
+File:EVS Stark 2018 MSI.png|EVS Stark 2018 MSI
+FL Stark.png|FL Stark 2020 VCS Spring
+FL Stark 2020 Split 2.png|FL Stark 2020 VCS Summer
+FL Stark 2021 Split 1.png|FL Stark 2021 VCS Spring
+TF Stark 2022 Split 1.png|TF Stark 2022 VCS Spring
+TF Stark 2023 Split 1.png|TF Stark 2023 VCS Spring
+TF Stark Coach VCS Spring 2025.png|TF Stark ON Live VCS 2025 Spring
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Apex%20(Hsieh%20Chia-Wei)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.801Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Apex (Hsieh Chia-Wei)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Apex
+|name=Hsieh Chia-Wei
+|nativename=謝家維
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1996
+|birth_date_month=January
+|birth_date_day=19
+|favchamp=Karthus
+|favchamp2=Ezreal
+|favchamp3=Cassiopeia
+|checkbox1=No
+|compID1=Apex
+|checkboxComp=No
+|ids='''EUW:''' c4au042esrsd
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/apexlolz
+|facebook=https://www.facebook.com/profile.php?id=100000443527924
+|instagram=apex0119
+|lolpros=https://lolpros.gg/player/apex/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''APEX'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

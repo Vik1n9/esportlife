@@ -1,0 +1,142 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Balls&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Balls」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=BalIs
+|name=An Van Le
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=June
+|birth_date_day=22
+|favchamp=Vladimir
+|favchamp2=Rumble
+|favchamp3=Diana
+|favchamp4=Ezreal
+|checkbox1=No
+|checkboxComp=No
+|ids=C9 Squirtle, The KidRobot, C9 Balls, EunjiSuzy (KR), BlG HUEVOS, d2piayer
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/ballslol
+|facebook=https://www.facebook.com/C9Balls
+|twitter=ballslol_
+|instagram=flyballs_
+|reddit=ManBalls
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+An "'''Balls'''" Van Le started playing League of Legends during the beta along with his friends and cousin, Dang Le, known ingame as Professor Rice. Prior to playing League of Legends, he had played Runescape, Maplestory, and other casual online games, but once Season 1 began, he started playing ranked games and quickly climbed the Elo ladder. He achieved an Elo of 2252 during that season playing mainly {{ci|Ezreal}} and {{ci|Corki}}. Eventually, Balls started playing weekly [[ESL_Go4LoL|Go4LoL]] tournaments and got a taste of the competitive scene.
+
+===League of Legends Career===
+After a few unsuccessful tournaments, Balls was introduced to [[mandatorycloud]], [[Atlanta (James Moreland)|Atlanta]], [[LemonGoD]], and [[wallstop]], and they formed the team [[APictureOfAGoose]], where Balls switched between AD Carry and toplane. The team qualified for [[IEM_Season_VI_-_Global_Challenge_Kiev|IEM Kiev]] but were unable to attend due to external commitments<ref>[http://www.reddit.com/r/leagueoflegends/comments/nyu89/goose_not_going_to_kiev_due_to_complications_in/ Goose not going to kiev due to complications in travel and priorities] ''reddit.com''</ref>. The roster was later picked up by [[mTw.NA]] and soon transferred once again to [[Monomaniac Ferus]]. When AD player [[Aphromoo]] joined mTw.NA in August 2012, Balls switched to top lane.
+
+In October 2012 Balls left mMe Ferus to focus on school, but in December of the same year he was picked up for the AD carry position of [[Meat Playground]] just before the [[Riot_League_Championship_Series/North_America/Season_3/Spring_Qualifiers|NA LCS Season 3 qualifiers]]. When the team failed to qualify, they disbanded, leaving Balls a free agent. He was picked up by [[Quantic Gaming]] as their toplaner in April, and on May 2013, they qualified for the [[Riot_League_Championship_Series/North_America/Season_3/Summer_Round_Robin|summer split]]. After qualifying, the current Quantic roster reformed as Cloud 9. Balls has played for Cloud 9 since, winning two splits of the NA [[LCS]], taking second place in the [[Riot League Championship Series/North America/2014 Season/Summer Playoffs|2014 Summer Split]], and qualifying for and playing in two World Championships.
+
+Balls is widely recognized as one of the best toplaners in North America and is known in particular for his {{ci|Rumble}} play.
+===2015 Preseason===
+Cloud 9 was the North American team fan-voted to [[IEM_Season_IX_-_San_Jose|IEM San Jose]].<ref>[http://en.intelextrememasters.com/news/cloud9-and-unicorns-of-love-confirmed-get-your-tickets-now/ Cloud9 and Unicorns of Love confirmed, get your tickets now!] ''en.intelextrememasters.com''</ref> They defeated [[paiN Gaming]] 2-0, [[Alliance]] 2-1, and then [[Unicorns of Love]] 3-0 to win the tournament.
+===2015 Season===
+Due to their IEM San Jose victory, Cloud9 qualified for [[IEM Season IX - World Championship|IEM Katowice]] in March. They lost their only two games, first to [[GE Tigers]] and then to [[yoe Flash Wolves]], and finished in 7th/8th place. Domestically, they underperformed at the start of the season, and were in 8th place at the end of the second week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|spring LCS split]]. However, they improved over the course of the season, ending with a second-place finish behind [[Team SoloMid]] and a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye; after beating [[Team Liquid]] 3-2, Cloud9 lost to TSM 1-3 in the finals and finished the split overall in second place.
+
+Cloud9 replaced mid laner Hai with [[Incarnati0n]] at the start of the [[Riot League Championship Series/North America/2015 Season/Summer Season|Summer Split]] due to Hai's retirement. They performed poorly for the first five weeks of the split and replaced Meteos with Hai going into the sixth week. With Hai back on the team, Cloud9's record improved from 3-7 to 6-12 by the end of the split, and they finished in 7th place after a tie-breaker victory against [[Team 8]], narrowly avoiding [[Riot League Championship Series/North America/2016 Season/Spring Promotion|relegations]] and retaining their [[2015 Season/Championship Points|Championship Points]], though they did not qualify for [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]]. In the [[Riot_League_Championship_Series/North_America/2015_Season/Regional_Finals|Regional Finals Gauntlet]], Cloud9 reverse-swept both [[Gravity Gaming]] and [[Team Impulse]] before beating [[Team Liquid]] 3-1 in the finals. Their fourteen games played over the course of three days gave them North America's third seed to the [[2015 Season World Championship]], Cloud9's third-consecutive Worlds.
+
+Considered an underdog at Worlds, Cloud9 were placed into Group B along with Fnatic, [[ahq e-Sports Club|ahq]], and [[Invictus Gaming]] and expected to place last. Balls's soloqueue performance in Korea was especially called into question, as he was demoted from Diamond I to Diamond II multiple times during the team's bootcamp in Korea. Instead, Cloud9 surprised with an undefeated 3-0 first week, with Balls suddenly picking up [[Darius]]. In the second week, Cloud9 needed only one win to advance to the quarterfinals but were unable to find it, losing four games in a row including a tiebreaker loss to ahq. They placed third in their group, ahead of only Invictus Gaming.
+=== 2016 Season ===
+For the 2016 season, Cloud9 added two new players - [[Rush]] and [[Bunny FuFuu]] - and moved Hai to support, with the intention of splitting time with Bunny. However, after two losses with Bunny and two wins with Hai in the [[League Championship Series/North America/2016 Season/Spring Season|spring split]], they committed to starting Hai fulltime and rose to a 67% winrate, with a third-place seed in the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]]. However, despite a seeding advantage, the team lost to TSM in the first round and were eliminated.
+
+Before the summer season began, Balls moved to the newly-formed [[Cloud9 Challenger]], joining his former teammates Hai and [[LemonNation]]. The team, which had acquired [[Enemy|Enemy's]] [[NA_Challenger_Series/2016_Season/Summer_Qualifiers|NACS Qualifiers]] slot, easily qualified for the [[NA_Challenger_Series/2016_Season/Summer_Season|NACS 2016 Summer]] and then dominated the circuit, losing only two games throughout the season. In [[NA_Challenger_Series/2016_Season/Summer_Playoffs|the playoffs]], they swept [[Dream Team]], then beat [[Team Liquid Academy]] in the finals to secure the best possible seed heading into the [[NA_LCS/2017_Season/Spring_Promotion|promotion tournament]]. There, they swept 9th place LCS team [[NRG Esports]] to qualify for the 2017 NA LCS. 
+
+=== 2017 Season===
+Due to rules preventing one organization from owning multiple LCS teams, Cloud9 Challenger was bought and rebranded to [[FlyQuest]]. Balls joined the new team, along with [[Moon (Galen Holgate)|Moon]] and his C9C teammates Hai, [[Altec]], and LemonNation. FlyQuest started the spring split with a surprisingly strong 6-2 record but went 1-7 over the next four weeks. However, a 2-0 final week let them squeak into the playoffs as the fifth seed. 
+
+In the quarterfinals, FlyQuest faced off against fourth seed [[Counter Logic Gaming]], who were favored due to FlyQuest's weak late-season performance. After going to 0-2 in the series, FlyQuest roared back to win the next two games and eventually reverse sweep CLG off the back of some questionable aggressive calls in game seven.  Unfortunately, the Cinderella story ended there, as they were quickly swept by eventual champions [[TSM]] in the semifinals, and fell to [[Phoenix1]] in the third-place match despite taking a 2-1 series lead. 
+
+Unfortunately, despite their playoff performance, the struggles that had begun for FlyQuest in the spring split continued in the [[NA LCS/2017 Season/Summer Season|summer]]. FlyQuest never managed to climb higher than seventh place or reach a .500 record and only avoided relegation by winning their final two games. Although the team didn't make playoffs, due to having 30 championship points from the Spring Season, they were eligible to play in the [[2017_Season_North_America_Regional_Finals|2017 Regional Finals]]. With little expected of them, FlyQuest managed to shockingly sweep [[Team Dignitas]] in the first gauntlet match and take the first game of the second series off of [[CLG]] before eventually falling in a close 3-1 series, ending their [[2017 World Championship|Worlds]] hopes.
+
+Balls left FlyQuest in November. He never officially announced his retirement but didn't join another competitive team.
+
+== Trivia ==
+* His favorite champion was at one point {{ci|Ezreal}}.
+* His cousin, known as Professor Rice on the NA server, was a diamond player in season 1.
+* He is also related to [[Shiphtur]] and [[AnDa]].
+* Used to play tennis and was a cross-country runner. As such, he spends a lot of time exercising.
+* Benches 155/160 lbs (8 reps) with a max of 200 lbs.
+* Being the first ever toplaner to achieve a pentakill at World Championship all-time.
+* Known for his {{ci|Rumble}}. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

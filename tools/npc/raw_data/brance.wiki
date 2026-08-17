@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Brance&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.841Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Brance」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Brance
+|name=Diego Amaral
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=2004
+|birth_date_month=February
+|birth_date_day=25
+|favchamp=Zeri
+|favchamp2=Ashe
+|favchamp3=Lucian
+|favchamp4=Aphelios
+|checkbox1=Yes
+|favchamp5=Xayah
+|checkboxComp=No
+|ids='''BR:''' Brance#Branc
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/diegobrance
+|twitter=brancelol01
+|instagram=brance_oficial
+|lolpros=https://br.lolpros.gg/player/brance
+|deeplol=https://www.deeplol.gg/pro/Brance
+|dpmlol=https://dpm.lol/pro/Brance
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+He was born in Curitiba - PR.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Known for his {{ci|lucian}}, {{ci|zeri}} and {{ci|ashe}}.
+* Portraited as {{ci|zeri}} in the [[Worlds 2024]] [https://www.youtube.com/watch?v=5FrhtahQiRc anthem], with references to his '''"Bot Gap"''' moment against [[Fnatic]] during [[Worlds 2022]].<ref>[https://maisesports.com.br/worlds-2024-riot-colocou-um-easter-egg-especial-para-brance-em-heavy-is-the-crown/ Worlds 2024: Riot colocou um easter egg especial para Brance em “Heavy is the Crown”] ''maisesports.com.br''</ref>
+** He had a winrate of 88.9% with the champion in 2024.
+* [[Liiv SANDBOX]]'s CEO considered offering Brance a test in '''LCK CL''' during his bootcamp in Korea in 2023 and during the trials they started to call him "'''Samba Bomber'''".<ref>[https://twitter.com/inmochung/status/1727005160684265542 Inmochung's Tweet] ''twitter.com''</ref>
+* Got the first pentakill of the [[League of Legends Championship of The Americas|LTA]] as {{ci|Zeri}}.<ref>[https://x.com/LTASul/status/1883615520496419096 LTA Sul's X Post] ''x.com''</ref>
+* Despite having played a lot with {{ci|ashe}} and having over 1 million mastery points in his account, he said in a stream that he doesn't like playing the champion, and that it only helped him climb from Gold to Master before he was a professional player.<ref>[https://www.youtube.com/watch?v=vSDhnuVdYiE Brance DESABAFA sobre CARREIRA e INICIO na LOUD] ''youtube.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* He's nicknamed "Tigrinho" (Little Tiger) due to his cousin using the nickname "Leãozinho" (Little Lion) when playing soloqueue and he decided to use the nickname "Tigrinho C4" to play. <ref>[https://www.youtube.com/watch?v=YKgKofuLdRI&t=90 MC Brance - A Promessa (part. Pedro Qualy) | CBLOL 2022 - 2ª Etapa (Portuguese)] ''youtube.com''</ref> 
+* He likes rap a lot and he participated in a street rap battle, which became a meme in the community. <ref>[https://www.youtube.com/watch?v=YKgKofuLdRI&t=363 MC Brance - A Promessa (part. Pedro Qualy) | CBLOL 2022 - 2ª Etapa (Portuguese)] ''youtube.com''</ref> 
+** Due to that, he was invited and participated in a rap song with brazilian rapper '''Pedro Qualy'''. <ref>[https://www.youtube.com/watch?v=YKgKofuLdRI MC Brance - A Promessa (part. Pedro Qualy) | CBLOL 2022 - 2ª Etapa] ''youtube.com''</ref>
+* He revealed that following the [[wikipedia:en:Haikyu!!|Haikyu!!]] effect while playing for [[RED Canids]] in [[CBLOL 2024 Split 2]] the team chose the game [[wikipedia:en:Valheim|Valheim]] for the group activity of the split.<ref>[https://x.com/ilhadaslendas/status/1883922391098937816 Ilha das Lendas' X Post] ''x.com''</ref>
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* He got known internationally after winning a 2v2 against [[Fnatic]]'s botlane at [[Worlds 2022]] and showing "Bot Gap" written on his arm. He afterwards won the game.<ref>[https://ge.globo.com/esports/lol/noticia/2023/02/23/cblol-2023-brance-fala-de-bot-gap-viralizado-e-boa-fase-do-fluxo.ghtml CBLOL 2023: Brance fala de "bot gap" viralizado e boa fase do Fluxo (Portuguese)] ''twitter.com''</ref>
+|-|
+Statistics=
+=== Statistics ===
+* Reached 100 kills in the LTA in May 3rd, 2025.<ref>[https://x.com/LTASul/status/1918732398725910602 LTA Sul's X Post] ''x.com''</ref>
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

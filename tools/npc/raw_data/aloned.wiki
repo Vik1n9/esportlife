@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Aloned&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.629Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Aloned」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Aloned
+|name=Tomás&nbsp;Antonio Díaz Valiente
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil
+|birth_date_year=1999
+|birth_date_month=November
+|birth_date_day=06
+|favchamp=Taliyah
+|favchamp2=Talon
+|favchamp3=Cassiopeia
+|checkbox1=No
+|checkboxComp=No
+|ids='''LAS''': Ñandú #snsc<br> '''BR''': Aloned <br>'''NA''': Aloned1<br> '''CN:''' Aloned1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/aloned3
+|twitter=Alonedlol
+|instagram=alonedlol
+|lolpros=https://br.lolpros.gg/player/aloned
+|deeplol=https://www.deeplol.gg/pro/Aloned
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Top
+}}
+==Biography==
+Tomás Díaz Valiente is from Santiago, Chile.
+
+=== 2017 Season===
+His debut was in [[Furious Gaming Red|FG Red]] as a Mid Laner, participating in three tournaments:  [[Go4LoL/LAS/2017/June/Qualifier 2|Go4LoL LAS 2017 June Qualifiers #2]], where the team finished fifth in the tournament, losing against [[Zoltak Legion]] by 1-0, [[Go4LoL/LAS/2017/June/Qualifier 3|Go4LoL LAS 2017 June Qualifiers #3]], reaching finals by beating [[Dark Horse]] by 1-0, and [[Go4LoL/LAS/2017/June/Qualifier 4|Go4LoL LAS 2017 June Qualifiers #4]], where the team finished fourth in the tournament, losing against [[Aldeanos En Pijamas|Aldeanos]] by 1-0. At the end of the tournament he left the team.
+
+=== 2018 Season===
+At the beginning of the year he joined [[Infamous Gaming]] as a Mid Laner participating in [[Circuito Nacional Chile/2018 Season/Opening Season|2018 CNC Opening Season]] where the team reached finals facing [[Evilvice Esports]] and losing 3-0. He left the team after the tournament.
+
+In the second half of the year, he joined [[Furious Gaming]] as a Mid Laner participating in the [[CLS 2018 Closing]], where the team finished fourth place in the tournament and qualified to the next phase. They ended up finishing [[CLS 2018 Closing Playoffs]] in fourth place, losing against [[Kaos Latin Gamers|KLG]] by 3-0.
+
+=== 2019 Season===
+He remained in the team, but changed his role to Top Laner, participating in the [[LLA 2019 Opening]] and finishing seventh place in the tournament. Still in the team, he played in the [[LLA 2019 Closing]] and finished third in the tournament, qualifying to the next phase. In the [[LLA 2019 Closing Playoffs]], they finished fifth place, losing against [[XTEN Esports]] by 3-2. At the end of the tournament he left the team.
+
+At the end of the year he joined the Brazilian team [[Prodigy Esports]] as Mid Laner, participating in [[Superliga ABCDE 2019]], reaching finals against [[paiN Gaming]] but losing by 3-2.
+
+== Trivia ==
+* He was the first Latin American player to reach Rank 1 in Brazilian SoloQ.
+* On March 11, 2026, he married [[Careta]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

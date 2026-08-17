@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Royal%20Youth&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.541Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Royal Youth」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=NASR eSports Turkey
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Royal Youth
+|organization=Royal Youth (Organization)
+|orgcountry= Turkey
+|country= 
+|region= TR
+|sponsor= 
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= https://www.rbesports.com
+|youtube=https://www.youtube.com/channel/UChQFP4y9TP34taksUdeoXjw
+|facebook=https://www.facebook.com/rylbandits
+|twitter= RoyalYouthGG
+|discord=https://discord.gg/fcAdpKN 
+|twitch-team=https://www.twitch.tv/rylbandits
+|lolpros=https://lolpros.gg/team/royal-youth
+<!-- History -->
+|created= 2018-11-15
+|disbanded= 
+|otherwikis=apex
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''Royal Youth''' was a Turkish team.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==<!--
+===Active===-->
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Uberq|tr|Berk Uyguner|'''Chief Gaming Officer'''|newteam=NASR Turkey}}
+{{listplayer|Copy Catt|tr|Olgun Peker|'''Head Coach'''|newteam=DP.A}}
+{{listplayer|Rogu|tr|Burak Eyol|'''Streamer'''|newteam=none}}
+{{listplayer|Stansfield|tr|Mert Tezgür|'''Streamer'''|newteam=none}}
+{{listplayer|Elwind|tr|Kaan Atıcı|'''Streamer'''|newteam=none}}
+{{listplayer|Enatron|gr|Ilias Theodorou|'''Head Coach'''|newteam=1907}}
+{{listplayer|Enatron|gr|Ilias Theodorou|'''Head Coach'''|newteam=RY}}
+{{listplayer|Xihultas|tr|Mert Tanrıverdi|'''General Manager'''|newteam=S04}}
+{{listplayer|Dragon|link=Dragon (Noah High)|ca|Noah High|'''Analyst'''|newteam=Nordavind}}
+{{listplayer|Phoma|it|Thomas Kifle|'''Assistant Analyst'''|newteam=QLASH Forge}}
+{{listplayer|Sister|ru|Tatyana Chubova|'''Analyst'''|newteam=FPBlue}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+== Team Videos ==
+* February 26, [https://www.youtube.com/watch?v=RZzAGPXn1sM RYL - VFŞL 2019 Kış 6. Hafta En İyi Anlar]
+* February 21, [https://www.youtube.com/watch?v=xnjKn7EaeAE VFŞL 2019 Kış 5. Hafta En İyi Anlar - Royal Youth]
+* February 16, [https://www.youtube.com/watch?v=jYPzbhTbMUw RYL - VFŞL 2019 Kış 4. Hafta En İyi Anlar Armut, Closer, GBM, Pilot, Dumbledoge]
+
+== Highlight Videos ==
+
+==External Links==
+
+==References==
+<references />

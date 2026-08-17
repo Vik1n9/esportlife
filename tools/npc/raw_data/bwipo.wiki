@@ -1,0 +1,91 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bwipo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bwipo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Bwipo
+|name=Gabriël Rau
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Belgium
+|nationality=Belgium, Brazil
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=24
+|favchamp=Gangplank
+|favchamp2=Jayce
+|favchamp3=Aatrox
+|favchamp4=Swain
+|checkbox1=Yes
+|favchamp5=Rengar
+|checkboxComp=No
+|ids='''EUW''': Varian Wrynn#1810<br>'''KR''': red little bird#1810<br>'''CN''': Iwilltrade<br>'''NA''': I will trade#NA1<br>'''BR''': Still Beating#1810
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/bwipolol
+|twitter=Bwipo
+|instagram=bwipolol
+|youtube=https://www.youtube.com/@bwipo/
+|discord=https://discord.com/invite/PwsDpX53PB
+|lolpros=https://lolpros.gg/player/bwipo
+|deeplol=https://www.deeplol.gg/pro/Bwipo
+|dpmlol=https://dpm.lol/pro/Bwipo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+==Biography==
+
+== Trivia ==
+* He was born in Bruges and he is half-Brazilian, as his mother and part of his family are from [[wikipedia:en:Belo Horizonte|Belo Horizonte]], in Brazil.<ref>[https://youtu.be/u-PfzLUmd64?t=2281 League News BR: May 16, 2018 (Portuguese/Video)] ''youtube.com''</ref>
+* He loves videogames since he was a kid, as was told by his brother in a interview. They always played games together, and his brother introduced him to League of Legends.<ref>[https://x.com/ilhadaslendas/status/1893438867476230454 Ilha das Lendas' X Post] ''x.com''</ref>
+* His summoner name originates from his cat, who was named Pipo. As a kid he was playing a game with friends and kept trying different variations of Pipo until something wasn’t taken, and that was Bwipo.
+* He achieved Challenger when he was about 13-14 years old.
+* Known for the [https://www.youtube.com/watch?v=-0HS2S8Facc Wide Bwipo meme] which originated from his [[Fnatic]] days.
+* He was awarded the prize of "''Esports PC Rookie of the Year''" at the Esports Awards in 2018.<ref>[https://twitter.com/esportsawards/status/1062094105075945474 Esports Awards' Tweet] ''twitter.com''</ref>
+* Switched to bot lane briefly in the [[EU LCS/2018 Season/Summer Season|EU LCS 2018 Summer]] as [[Fnatic]] had two top laners and [[Rekkles]] was unwilling to play the then-meta bot lane bruisers and mages. 
+* Often rumored to have a rivalry with [[sOAZ]] when they were teammates.
+* Known for his talkative personality. 
+* Has often appeared on LEC broadcasts as a guest commentator and many fans tout him as a future LEC caster.
+* Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region (EU LCS Spring 2018)
+* He revealed in an interview that he received $1.5 million for his 3-year contract in [[Fnatic]].
+* After the end of the first week of [[LTA/2025 Season/Split 1 Playoffs|LTA Playoffs]] in Brazil, where all [[LTA South]] teams were eliminated, he offered to help local players with individual coaching, such as [[Brance]].<ref>[https://x.com/Bwipo/status/1891339088483037637 Bwipo's X Post] ''x.com''</ref><ref>[https://x.com/brancelol01/status/1891535361102225464 Brance's X Post] ''x.com''</ref>
+=== Individual Awards ===
+* LCS 1st All-Pro Team x1 (2024 Spring)
+* LCS 3rd All-Pro Team x3 (2022 Spring, 2022 Summer, 2024 Summer)
+* LEC 2nd All-Pro Team x2 (2018 Summer, 2020 Spring)
+* LEC 3rd All-Pro Team x3 (2019 Summer, 2021 Spring, 2021 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

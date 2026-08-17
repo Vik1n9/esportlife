@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Snaker&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.919Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Snaker」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Snaker
+|name=Brian&nbsp;Alejo Distefano
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=2002
+|birth_date_month=March
+|birth_date_day=28
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR:''' Banana Bush#9124 <br> '''KR:''' Luka Dončic 77 <br> Dennis Rodman#KR91
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/snaker7
+|twitter=Snakerlol
+|instagram=snaker_lol
+|deeplol=https://www.deeplol.gg/pro/Snaker
+|dpmlol=https://dpm.lol/pro/Snaker
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+== Biography ==
+Brian Alejo Distefano is from Caseros, Buenos Aires, Argentina.
+
+== Trivia ==
+* Achieved two pentakills as {{ci|Smolder}} in the same game playing for [[Estral Esports]] against [[All Knights]] in the [[LLA 2024 Opening|week 7 of the LLA 2024 Opening]].
+* Was nicknamed "Luskkão" by [[Ilha das Lendas]] during the [[LTA South 2025 Split 1|LTA]] due to his physical similarity to [[Luskka|a retired Brazilian player who runs by that nickname]].
+=== Individual Awards ===
+* LLA player with the most MVPs in the split x2 (Opening 2024, Closing 2024)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

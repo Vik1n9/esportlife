@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=River%20(Kim%20Dong-woo)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.766Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「River (Korean player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=River
+|name=Kim Dong-woo
+|nativename=김동우
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=23
+|favchamp=Elise
+|favchamp2=Graves
+|checkbox1=No
+|compID1=Baby
+|checkboxComp=No
+|ids='''KR:''' qwerzxcasdg <br> '''NA:''' No1 NA Skarner <br> '''EUW:''' QQQQQQQQ <br> ROIXYWTDII
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lolriver9
+|facebook=https://www.facebook.com/PSGTLN.River
+|twitter=lolRiver
+|instagram=river9b
+|lolpros=https://lolpros.gg/player/river
+|deeplol=https://www.deeplol.gg/pro/River-Kim_Dong-woo
+|dpmlol=https://dpm.lol/pro/River
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Baby'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+=== Individual Awards ===
+* PCS All-Pro Team x1 (2021 Summer) 
+* LCS 1st All-Pro Team x1 (2024 Spring)
+* LCS 2nd All-Pro Team x1 (2023 Summer)
+
+== Trivia ==
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (Summer 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nuc&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.725Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「nuc」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=nuc
+|name=Ilias Bizriken
+|checkboxAutoImage=Yes
+|country=Morocco
+|nationality=France,Morocco
+|residency=EMEA
+|birth_date_year=2002
+|birth_date_month=October
+|birth_date_day=17
+|favchamp=Cassiopeia
+|favchamp2=Sylas
+|favchamp3=Azir
+|checkbox1=No
+|compID1=NUCLEARINT
+|checkboxComp=No
+|ids='''EUW''': knight9z<br>bds goblin<br>'''KR''': PENGUIN TERROR
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/nuc_loi
+|twitter=nuclear_int
+|instagram=nuclearint
+|tiktok=bdsnuc
+|lolpros=https://lolpros.gg/player/nuc
+|deeplol=https://www.deeplol.gg/pro/Nuc
+|dpmlol=https://dpm.lol/pro/nuc
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''NUCLEARINT'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Born in Témara, Morocco. He then moved to France when he was 10 years old.
+* He is good friends with [[Adam (Adam Maanane)|Adam]] and [[Sheo]].
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* EU 3rd All-Pro Team x1 (Spring 2023)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

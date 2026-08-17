@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Oner&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.796Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Oner」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Oner
+|name=Mun Hyeon-jun
+|nativename=문현준
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2002
+|birth_date_month=December
+|birth_date_day=24
+|favchamp=Nidalee
+|favchamp2=Ekko
+|favchamp3=Viego
+|favchamp4=Lee Sin
+|checkbox1=Yes
+|favchamp5=Nocturne
+|favchamp6=Xin Zhao
+|favchamp7=Vi
+|favchamp8=Jarvan IV
+|checkboxComp=No
+|ids='''KR:''' 오 너#111<br>'''EUW:''' BONG BONG U#123 <br>'''NA:''' hi hello#12341
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/ansguswns519
+|twitter=0nerren0
+|instagram=t1_oner
+|youtube=https://youtube.com/@comehere_oner
+|weibo=https://weibo.com/u/7757160027
+|lolpros=https://lolpros.gg/player/oner
+|deeplol=https://www.deeplol.gg/pro/Oner
+|dpmlol=https://dpm.lol/pro/Oner
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Amongst the first to achieve a three-peat (2023, 2024, 2025) in Worlds alongside his teammates [[Faker]], [[Gumayusi]], and [[Keria]].
+* He has an older sister
+* He revealed on one of the stream highlights that [[Clozer]] recommended him to join [[T1 Academy]] before getting called to be a part of the main roster.<ref>[https://youtu.be/XBudwWGtyNY?t=165 <nowiki></nowiki>(Eng Sub) Faker's Skin??!!!!!<nowiki></nowiki>] ''youtube.com''</ref>
+* Has a black belt in Taekwondo.<ref>[https://youtu.be/lqiaUaYKumw?t=558 <nowiki></nowiki>T1 at MSI EP.2 | LoL Legends get-together<nowiki></nowiki>] ''youtube.com''</ref>
+* Reached rank 1 on the North America server during [[Worlds 2022]].
+* Went viral online after picking {{ci|Dr.Mundo}} for the first time in his career in game 5 of [[2025 Season World Championship|Worlds 2025]]'s quarterfinals. In addition, it appeared that he didn't know the skill set of the current version of Dr.Mundo as fan found out that his most recent game playing him was on July 11th, 2018, three years before this champion's rework. For that, he had to ask his coaches and teammates how to play, which were the correct items build and suitable runes for Dr.Mundo.
+** Fan has joked that this is an another "Bengi's moment" but instead of popping off, he went 0/5/6. However, T1 still won that game.
+* Reached 1000 kills in the LCK on August 14, 2024.
+** Was the 29th player to reach 1000 kills in the LCK.
+** The sixth jungler to reach 1000 kills after [[Score]], [[Ambition]], [[Peanut]], [[Canyon]], and [[Cuzz]].
+* Reached 1000 international assists during [[2025 Mid-Season Invitational|MSI 2025]] on July 06, 2025 in Upper Bracket Round 2 against [[Bilibili Gaming]], becoming the 8th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], Faker, [[xiaohu]], [[meiko]], [[Keria]], [[Caps]], and [[Canyon]]. [[ON]] reached it in the same game.
+* Reached 100 international wins during [[2025 Mid-Season Invitational|MSI 2025]] on July 10, 2025 against [[GEN]] in Upper Bracket Finals, becoming the 5/6th (with Guma) player to achieve this milestone after [[Faker]], [[xiaohu]], [[Caps]], and [[Keria]].
+* Reached 3000 assists in the LCK on August 22, 2025.
+** Was the 21st player to reach 3000 assists in the LCK.
+* Reached 500 international kills during [[Worlds 2025 Main Event|Worlds 2025]] on October 25, 2025 in Round 5 of Swiss Stage, becoming the 11th player to achieve this milestone after [[Faker]], [[Perkz]], [[xiaohu]], [[Caps]], [[Maple (Huang Yi-Tang) | Maple]], [[GALA]], [[Gumayusi]], [[Bin (Chen Ze-Bin)|Bin]], [[Ruler]], and [[Elk]].
+
+=== Individual Awards ===
+* LCK Finals MVP x1 (Spring 2022)
+* LCK Jungle of the Year x4 (2022, 2023, 2024, 2025)
+* LCK 1st All-Pro Team x1 (Spring 2023)
+* LCK 2nd All-Pro Team x4 (Spring 2022, Summer 2022, Spring 2024, LCK 2025)
+* LCK 3rd All-Pro Team x1 (Summer 2024)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

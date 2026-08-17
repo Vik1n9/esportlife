@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jinjiao&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.666Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jinjiao」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Jinjiao
+|name=Xie Jin-Shan
+|nativename=谢金山
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1998
+|birth_date_month=April
+|birth_date_day=15
+|checkbox1=No
+|compID1=Dnn
+|compID2=金角
+|checkboxComp=No
+|ids='''KR:''' wohennangu0, jiozz
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://www.weibo.com/n/LGDJinjiao
+|deeplol=https://www.deeplol.gg/pro/Jinjiao
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Dnn''' and '''金角'''.
+|checkboxIsSub=No
+}}
+==Biography==
+===2014 Season===
+Jinjiao, under the name '''Dnn''', started playing competitively for [[AcFun e-Sports Club]] in the LSPL. After the team failed to qualify to the LPL and rebranded, Dnn left the team, changed his name to '''Jinjiao''', and joined [[AD Gaming]], a sister team of [[EDward Gaming]]. However, AD Gaming also failed to qualify to the LPL.
+
+===2015 Season===
+Jinjiao became a substitute AD player for [[EDward Gaming]]. Although he remained on the team the entire season, he saw very little play time, only starting for two games. In December, Jinjiao was moved to EDG's new sister team in the LSPL, [[EDward Esports]].
+
+===2016 Season===
+Despite a rocky start to the [[LPL/2016_Season/Spring_Season|2016 LSPL Spring Season]], EDward Esports proved to be the most consistent team and finished 1st in the regular season with a 25-5 record. In [[LPL/2016_Season/Spring_Playoffs|playoffs]], the team was automatically seeded in the final due to their regular season performance. Their opponent was [[Young Miracles]]. Despite a close series, EDward Esports won 3-2 and qualified for the [[LPL/2017_Season/Summer_Season|2016 LPL Summer Season]]. EDward Esports was sold to [[I May]] due to LPL rules stipulating that no organization can own two teams in the LPL.
+
+In the 2016 LPL Summer Split, I May finished 3rd in playoffs, beating [[Team WE]]. I May qualified as China's third seed for the [[2016 Season World Championship]] with another win over [[Team WE]] in the [[2016 Season China Regional Finals]]. Despite low expectations and having to field a substitute for one of their games, I May had a decent showing and finished 3rd in their group with a 2-4 record. After Worlds, I May attended the finals of the [[Demacia Cup/2016 Season|2016 Demacia Cup]] and finished 2nd, losing 0-3 to [[EDward Gaming]].
+
+===2017 Season===
+2017 wasn't that great for Jinjiao, who remained on I May the entire season. Although the team achieved a 2nd place finish at [[Demacia Cup/2017 Season|2017 Demacia Cup]] after a 1-3 loss to [[Royal Never Give Up]] in the finals, their domestic LPL results were poor. They finished their regular Spring Season in 4th place with an 8-8 record. In the playoffs, they defeated [[Qiao Gu Reapers]] 3-2, but lost in the next round to [[OMG]]. In the Summer Split, they finished 5th place with a 5-11 record and missed their chance to attend Worlds again. At the end of the season, I May's LPL spot was purchased by [[Bilibili Gaming]]. Jinjiao, along with most of his I May teammates, joined the new team.
+
+== Trivia ==
+* His ID '''Jinjiao''' (金角, meaning "Golden Horn") is based on the Golden Horned King (金角大王) in the 16th-century Chinese novel [[wikipedia:en:Journey_to_the_West|''Journey to the West'']].
+* Reached 1000 kills in the LPL on June 24, 2019.
+** The 19th player to reach 1000 kills in the LPL.
+* Reached 500 games in the LPL on June 11, 2023
+** The 19th player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on August 03, 2024
+** The 13th player to reach 600 games in the LPL.
+* Reached 3000 assists in the LPL on January 30, 2024.
+** Was the 26th player to reach 3000 assists in the LPL.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Paranoia&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.499Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Paranoia」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Paranoia
+|name=Ivan Tipuhov
+|nativename=Іван Тіпухов
+|namealphabet=Cyrillic
+|image=DA Paranoia 2019 Split 1.png
+|checkboxAutoImage=No
+|country=Ukraine
+|residency=CIS
+|birth_date_year=1995
+|birth_date_month=July
+|birth_date_day=03
+|favchamp=Taliyah
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/paranoia2
+|facebook=https://www.facebook.com/fearparanoia
+|twitter=Paranoia_fear
+|lolpros=https://lolpros.gg/player/paranoia
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is professional League of Legens player since Season 3. Before that, he has been playing Dota  for nine years.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+=== Season 3 ===
+[[TECHLABS CUP KZ 2013|2013 Kazakh Techlabs Cup]] was first lan-tournament for Paranoia. He, along with [[Nike3]], [[Conjke]], [[Neon (Vladislav Zelinskiy)|Neon]] and [[LEKCyCC]] participated in qualifiers for 2013 Techlabs Cup KZ under the name [[TortFM]], but they couldn't win the finals spot's game. Due to problem with VISA from the team [[Avalanche Russian Rangers]], Techlabs have decided replaced them with TortFM. TortFM's roster was acquired by [[Team Empire]] organization one week before the tournament. Lossing 0-2 to [[TITANS ESPORTS]], Team Empire finished second in the Kazakh stage of the 2013 Techlabs Cup.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2017
+|content1=
+* April 8, [https://esports.mail.ru/progames/feat/virtus_pro_paranoia_dlja_menja_ochen_mnogoe_znachila_pobeda_nad_m19/ Virtus.pro Paranoia: «Победа над М19 значила для меня очень многое»] ''with eSports.mail.ru'' (Russian)
+* April 28, [https://virtus.pro/ru/articles/paranoia-vsegda-est-nad-chem-rabotat Paranoia: «Всегда есть над чем работать»] ''with Virtus.pro'' (Russian)
+}}
+=== Images ===
+<gallery>
+VP Paranoia 2017 MSI.png|Paranoia Virtus Pro 2017 MSI
+Paranoia Vega Squadron Spring 2018.png|VS Paranoia 2018 Spring
+TJ_Paranoia_2018_Split_2.png|TJ Paranoia 2018 Summer
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,115 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hybrid%20(Glenn%20Doornenbal)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.104Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hybrid」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Hybrid
+|name=Glenn Doornenbal
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Netherlands
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1994
+|birth_date_month=August
+|birth_date_day=05
+|checkbox1=No
+|compID1=zzneB
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/LoLHybrid
+|twitter=HybridLoL
+|lolpros=https://lolpros.gg/player/hybrid
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===2014 Season===
+Towards the end of the season, Hybrid joined [[LowLandLions.White]].
+
+===2015 Season===
+With [[LowLandLions.White|LLL.White]], Hybrid qualified for the [[2015 EU Challenger Series/Spring Season|EUCS Spring Season]] via the [[2015 EU Challenger Series/Spring Qualifier|EUCS Spring Qualifier]] after the team beat [[Different Dimension]] in their bracket final. The [[2015 EU Challenger Series/Spring Season|Spring Season]] was successful for the team, finishing  in 2nd place. At this point, the team left the LowLandLions organization. In the [[2015 EU Challenger Series/Spring Playoffs|Spring Playoffs]], they beat [[Gamers2]] before joining [[Copenhagen Wolves]] to form [[Copenhagen Wolves Academy]]. They went on to lose the final to [[Origen]], meaning they would play in the [[Riot League Championship Series/Europe/2015 Season/Summer Promotion|EU LCS Summer Promotion]]. In the [[Riot League Championship Series/Europe/2015 Season/Summer Promotion|Summer Promotion]], Hybrid and the team were beaten by [[Team ROCCAT]]. Soon after, [[Copenhagen Wolves Academy]] disbanded.
+
+Hybrid joined [[Gamers2]] in July, and played the majority of the [[2015 EU Challenger Series/Summer Season|EUCS Season]] with them, helping them place third in the [[2015 EU Challenger Series/Summer Playoffs|playoffs]] and then defeat [[SK Gaming]] in the [[League Championship Series/Europe/2016 Season/Spring Promotion|LCS Promotion Tournament]]. They also participated in [[PGL Legends of the Rift Season 1]]. Partway through the Legends of the Rift tournament, Gamers2 rebranded to [[G2 Esports]] and ultimately placed third.
+=== 2016 Season ===
+G2 Esports quickly rose to prominence and recognition in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], consistently tied for first place after each week, sometimes with [[H2k-Gaming|H2k]] and sometimes also with [[Vitality]], until the end of the split when they held first place with sole possession. With a quarterfinal bye, the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]] also saw them strong, as they defeated both [[Fnatic]] and [[Origen]] 3-1 to win the season and secure an invitation to the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Going into MSI, G2 Esports were seen as a favorite not to win, but to come in second place to the Korean representatives [[SK Telecom T1]].<ref>[http://espn.go.com/esports/story/_/id/15446300/the-mid-season-invitational-power-rankings The Mid-Season Invitational Power Rankings] ''espn.go.com''</ref><ref>[http://www.lolesports.com/en_US/articles/msi-2016-power-rankings MSI 2016 Power Rankings] ''lolesports.com''</ref> However, the team lost their first four games of the round robin and ultimately finished in fifth place, ahead of only [[SuperMassive eSports]], and out of playoff contention - importantly, this placement meant that Europe would forfeit their [[2016 Season World Championship/Seeding|Pool 1 seed]] at [[2016 Season World Championship|Worlds]]. In a statement published partway through the second day of play, G2 stated that their players had taken vacation time after a "rigorous Spring Split."<ref>[http://www.g2esports.com/statement-from-g2-esports-about-msi-2016/ Club statement about MSI 2016] ''g2esports.com''</ref> AD carry [[Emperor (Kim Jin-hyun)|Emperor]] later stated that there had been an internal conflict within the team one day prior to the start of the event.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4i5fls/g2_emperor_post_on_facebook/ G2 Emperor Post on Facebook !!] ''reddit.com''</ref>
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

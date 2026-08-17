@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Larssen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Larssen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Larssen
+|name=Emil Larsson
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Sweden
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=March
+|birth_date_day=30
+|favchamp=Fizz
+|favchamp2=Zed
+|favchamp3=Azir
+|favchamp4=Ryze
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW''': PeacefulWαrrior, IIlIlIlllIII, George Kittle <br>'''CN:''' Lovestory321
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/larssen00
+|twitter=Larssen00
+|lolpros=https://lolpros.gg/player/larssen
+|deeplol=https://www.deeplol.gg/pro/Larssen
+|dpmlol=https://dpm.lol/pro/Larssen
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+}}
+==Biography==
+Emil "'''Larssen'''" Larsson has been gaming since his youth, when he played Call of Duty and Pokémon.
+
+'''2019''' 
+
+In late 2018, he took the decision to finish school rather than compete in the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Season]]<ref>[http://www.twitlonger.com/show/n_1sqnsci Larssen's TwitLonger] ''twitlonger.com''</ref> despite Rogue offering him the starting spot from the Beginning.<ref> [https://www.youtube.com/watch?v=NmG7b-cVjrw&t=2063s Thorin's Reflections with Larssen] </ref> After finishing School in early 2019, Larssen then joined the LEC Main Squad for Rogue, together with [[Inspired]], [[Woolite]], [[Vander]] and [[Profit]], who would later in the season and for the Play-offs be replaced by [[Finn]]. They finished 6th in the Regular Season, beating out [[Origen]] for the last Play-offs spot and tying them in a 7-11 score. During the Play-offs, Rogue finished 4th overall, winning in Round 1 against [[Splyce]] by beating them 3-0, and in the second Round losing to [[FC Schalke 04 Esports]] 3-1.
+The match against Schalke also brought on a very famous meme for Larssen, the so-called Larssen Corki Package<ref> [https://www.youtube.com/watch?v=MyefJa7EBdM Jankos Reacts to Larssen Corki Package] </ref>.
+
+'''2020 '''
+
+In 2020, Larssen remained on the team, together with [[Inspired]] , [[Finn]] and [[Vander]]. Only [[Woolite]] was replaced by [[Hans Sama]]. 
+
+The [[LEC/2020 Season/Spring Season|LEC 2020 Spring Season]] saw Rogue finish the Regular Season with an even score of 9-9, despite going on a four games losing streak as soon as the format switched to Online; they finished the last offline Week with a 2-0. Their slow, methodical gameplay had earned Rogue a reputation of being a boring team, and despite that, they beat out [[Misfits Gaming]] heading into Play-Offs, with a 3-1 score. In the next round, they lost to [[Origen]] with, once again, a 3-1.
+
+== Trivia ==
+* Favorite football team is Manchester United.
+* Favorite meal is tacos.
+* Is a big fan of Madison Beer <ref>[[https://x.com/Larssen00/status/1569412147712507908?s=20 Larssen's Tweet]] </ref>.
+* Used to look up to [[Perkz]] as a player.
+* Is the younger brother of [[Lannister]].
+* Is from Välingetorp in Sweden and grew up on a farm <ref>[[https://www.tiktok.com/@lec/video/7200413447983598854?lang=de-DE LEC Tiktok]] </ref>.
+* Reached 1000 kills in the LEC on July 3, 2023.
+** The 11th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]], [[Kobbe]], [[Hans sama]], [[Odoamne]], and [[Upset]].
+
+=== Individual Awards ===
+* 2x EU 2nd All Pro Team (Summer 2020, Spring 2021)
+* 2x EU 3rd All Pro Team (Spring 2022, Winter 2023)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

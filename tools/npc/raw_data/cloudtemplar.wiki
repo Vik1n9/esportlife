@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=CloudTemplar&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.330Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「CloudTemplar」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=CloudTemplar
+|name=Lee Hyun-woo
+|nativename=이현우
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1988
+|birth_date_month=November
+|birth_date_day=09
+|favchamp=Shen
+|favchamp2=Skarner
+|favchamp3=Amumu
+|favchamp4=Rammus
+|checkbox1=No
+|checkboxComp=No
+|ids=CJ Entus 템플러, Azubu F Relax, Azubu Templar, Azubu 클템, Azubu 침착해, 일단침착하게, 오늘은조진날
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Caster
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.afreecatv.com/killgusdnk
+|facebook=https://www.facebook.com/cloudtemplar1109
+|twitter=Sheldon1109
+|instagram=killgusdn
+|youtube=https://youtube.com/channel/UCvrxJgD0T_TFvgsO2nA-fDQ
+|deeplol=https://www.deeplol.gg/pro/CloudTemplar
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=No
+|checkboxTOCR=No
+|text=[[Category:Casters]]
+Lee "'''CloudTemplar'''" Hyun-woo (''Hangul:'' 이현우) is a retired ''League of Legends'' esports player, currently working as a caster for Riot Korea.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|nicknames=클템 클템프시롤 복서 전자두뇌
+}}
+==Biography==
+When CloudTemplar was young he played Go, a board game known in Korea as Baduk. He was so good at it that we was offered a profession position, but turned it down because of his love for the game Dark Saver that he found at the age of 13. He fell in love with RPGs and started playing Starcraft at the age of 14, this is when he started playing any game he could get and ended up moving to MMORPGs. After a while he realized that MMORPGs were taking up too much of his time that he couldn't play any other games, so he switched to MOBAs starting with Chaos, but soon after he had to serve time in the army. After the army he tried to go back to school but realized he didn't have any academic goals, this is when an army buddy of his introduced him to League of Legends. He started by playing {{ci|Rammus}}.<ref>[http://lol.teamazubu.com/team-info/ Azubu's Player Info] ''teamazubu.com''</ref> CloudTemplar now has a wide champion pool of junglers and a precise jungling style. He gained popularity on NA and KR servers as a master of {{ci|Rammus}} and {{ci|Skarner}}. His impressive performance as {{ci|Skarner}} often forces the enemy team to choose {{ci|Skarner}} as one of their bans.
+
+== Trivia ==
+* Favorite champions are: {{ci|Rammus}} and {{ci|Jarvan IV}}.<ref>[http://www.thisisgame.com/board/view.php?id=1117376&board=0&category=13735&subcategory=&page=6&best=&searchmode=title&search=&orderby=&token= MiG Frost Team Interview] ''thisisgame.com''</ref>
+* Has a passive style and prefers teamfighting over ganking.
+* Jokingly said he is brothers with [[Saintvicious]] because they are both the same age and have both served in the military.<ref>[http://www.youtube.com/watch?v=GQdpD_qlM_c Random Vlog behind Stage IEM Katowice] ''youtube.com''</ref>
+* Nicknamed the 'Herbivore' as he is known for farming a lot in the jungle.
+* One of the few Korean pro players that can speak English.
+* Prefers junglers who have good initiation, like {{ci|Skarner}}, {{ci|Shen}}, and {{ci|Maokai}}.
+* Was offered a professional career as a Baduk player.
+* Cosplayed as {{ci|Lee Sin}}.<ref>[http://www.youtube.com/watch?feature=player_embedded&v=FPWxVfC7EZY 클템의 포킹 리신 코스프레] ''youtube.com''</ref>
+* Joined the caster's desk for [[PANDORA.TV Champions Winter 2013-2014|OGN Korean Champions Winter 2013-2014]].<ref>[http://www.gosugamers.net/lol/news/25724-cloudtemplar-joins-the-caster-s-desk-for-winter-champions CloudTemplar joins the caster's desk for Winter Champions]''gosugamer.net''</ref>
+* Respected in the E-sports scene for picking traditional junglers such as {{ci|Rammus}} and {{ci|Nautilus}} over meta-appropriate champions.
+* Gives credit for [[SK Telecom T1 K]] for being so good and one of the reasons for CloudTemplar's retirement.
+* Awarded Best Jungler at 2012 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?site=lol&news=80305 Result of 2012 Korean e-Sports Awards]''inven.com.kr''</ref>
+* Awarded Popularity Award at 2013 Korean e-Sports Awards as being a commentator for [[PANDORA.TV Champions Winter 2013-2014]]. <ref>[http://www.inven.co.kr/webzine/news/?news=103849 Result of 2013 Korean e-Sports Awards]''inven.com.kr''</ref>
+* Married during the month of June in 2014
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,136 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gogoing&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.575Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Gogoing」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Gogoing
+|name=Gao Di-Ping
+|nativename=高地平
+|namealphabet=Hanzi
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1991
+|birth_date_month=October
+|birth_date_day=02
+|favchamp=Renekton
+|favchamp2=Shyvana
+|favchamp3=Dr. Mundo
+|favchamp4=Ryze
+|checkbox1=Yes
+|favchamp5=Irelia
+|favchamp6=Rumble
+|checkboxComp=No
+|ids=OMGdouyuTVGGoing, ohyeOHYE (NA). OMGogoing, WVVVVWVVWVVW (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|weibo=https://www.weibo.com/gaodiping
+|fanpage=http://t.qq.com/gaodiping
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Top
+|nicknames=大哥
+}}
+==Biography==
+
+== Trivia ==
+* Nicknamed "Big Bro" in China.
+* His real name '''高地平''' can mean "Base cleared" in ''League of Legends''.
+* His favorite champion is {{ci|Rumble}}.
+* Considered to be the best {{ci|Renekton}} player in China. In his LPL career life, he had picked Renekton 20 times and won 19 games with a KDA of 11.55. He is the player has the highest win rate of one champion in LPL  (stats provided in April 2017).
+* Was featured in Riot's 2014 Worlds promotion video 'Road to Worlds'.<ref>[https://www.youtube.com/watch?v=Q8AnjrGRmAQ Road to Worlds: The Next Level]www.youtube.com</ref>
+* Introduced to the LPL Hall of Fame in December 2022.
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{PlayerMedia}}
+{{TDRight
+|name1=2013
+|name2=2014
+|name3=2015}}
+{{TDRight|tab}}<!--2015-->
+* January 30 - [http://www.liquidlegends.net/forum/lol-general/476940-interview-lpl-omg-vs-snake-winner-gogoing OMG vs. Snake Winner: Gogoing] ''translated by TeamLiquid''
+{{TDRight|tab}}<!--2014-->
+* September 26 - [http://www.youtube.com/watch?v=DHK0jdL1onw LoL 2014 World Championship Interivew - Gogoing (OMG Top Lane) (Video)] ''with OGN Global''
+{{TDRight|tab}}<!--2013-->
+* April 24, [http://lol.duowan.com/1304/230915209404_2.html 明星面对面第七期 OMG霸气大哥Gogoing (Chinese)] ''lol.duowan.com''
+{{TDRight/end}}
+
+==Other Content==
+{{TDRight
+|name1=2015}}
+{{TDRight|tab}}<!--2015-->
+* January 26 - [http://www.youtube.com/watch?v=L9N9dhS_DYw League of Legends: "Fighting!" - Gogoing & Uzi vs. Dandy & Vasilii]
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+==External Links==
+* [http://eune.lolesports.com/articles/17-gogoing #17 - Gogoing]
+
+{{PlayerPageEnd}}

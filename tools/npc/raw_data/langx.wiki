@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Langx&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Langx」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Langx
+|name=Xie Zhen-Ying
+|nativename=谢镇营
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1997
+|birth_date_month=September
+|birth_date_day=19
+|checkbox1=No
+|compID1=XMn
+|compID2=XiaoAL
+|compID3=LANGX
+|checkboxComp=No
+|ids='''CN:''' qwerasdf77777<br>'''KR:''' The clock tick, ohoohooho, 72110202, ikusikus<br>'''EUW:''' yqgcqdsd
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://live.bilibili.com/24022841
+|weibo=https://www.weibo.com/u/5086309338
+|lolpros=https://lolpros.gg/player/langx/
+|deeplol=https://www.deeplol.gg/pro/Langx
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''LANGX'''. He was previously known as '''XMn''' and '''XiaoAL'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+===2017 Season===
+
+Suning Gaming was formed in December of 2016 to participate in the LSPL and XiaoAL joined the team. In the [[LSPL/2017_Season/Spring_Season|2017 LSPL Spring Season]] Suning Gaming finished the regular split 2nd with 17 wins and 5 losses. They won the playoffs with a 3-0 sweep over [[Young Miracles]]. Suning also participated in the [[Demacia Cup/2017 Season|2017 Demacia Cup]] but didn't go far and finished 9th-12th with a 1-2 loss to [[I May]]. After they qualified for the LPL, Suning Gaming finished the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] 4th in their group with a 7-9 record. Their playoffs run was short lived as they got swept 0-3 in the first round by [[Invictus Gaming]]. With this loss Suning Gaming's season ended.
+
+== Trivia ==
+* Nicknamed "狼行" ("Wolf Walking"), which is short for his ID '''狼行天下''' ("Wolf Walking Around World") on the Chinese server.
+** His ID '''Langx''' is short for "Lang Xing" (狼行).
+* His former ID '''XiaoAL''' stands for "Xiao A-Li" (小阿黎), which comes from the family name of his former girlfriend.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

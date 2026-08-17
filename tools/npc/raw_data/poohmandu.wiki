@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PoohManDu&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.502Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「PoohManDu」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=PoohManDu
+|name=Lee Jeong-hyeon
+|nativename=이정현
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1991
+|birth_date_month=January
+|birth_date_day=29
+|favchamp=LeBlanc
+|favchamp2=Fiddlesticks
+|favchamp3=Blitzcrank
+|checkbox1=No
+|checkboxComp=No
+|ids=IlIIlllIIlIlllIl (NA), SKT T1 PoohManDu,  김정균, 너와나의이름
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/freemind7037
+|twitter=pmdlol
+|lolpros=https://lolpros.gg/player/poohmandu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+}}
+==Biography==
+===Season 3===
+Lee "'''PoohManDu'''" Jeong-hyeon joined [[GSG]] in December of 2012 as their support under the name '''ManDu'''. The team played in [[OLYMPUS Champions Winter 2012-2013]] but failed to make it through groups. ManDu left the team in February to join the new [[SK Telecom T1 2]] roster that featured [[Piglet]], [[Impact]], [[bengi]], and [[Faker]]. It was at this time that he changed his name to PoohManDu to match his lane partner, Piglet. The team's first tournament together was [[OLYMPUS Champions Spring 2013]] where the team found immediate success. They placed third after losing 3-1 to [[MVP Ozone]] but they beat [[CJ Entus Frost]] 3-0 in the third place match. SKT1 2's sister team, [[SK Telecom T1 1]] was dropped from the organization so Impact's team was renamed to just '''SK Telecom T1'''. Next, they attended [[HOT6iX Champions Summer 2013]], this time managing to qualify for the finals. They were pitted against the [[KT Rolster Bullets]] and even went down 2-0 initially in the set but they managed to bring it back and win the tournament with a 3-2 victory. This win earned them enough circuit points to qualify for the [[Season 3 Korea Regional Finals]]. They were automatically seeded into the finals where they faced the Bullets once again, this time taking them down 3-1 to qualify for the [[Season 3 World Championship]] as the third seed from Korea. SKT went 7-1 in their group, only dropping a game to [[OMG]] and was put against the [[Gamania Bears]] in the quarterfinals. They quickly dispatched the bears 2-0 and then went onto play a close set against NaJin Black Sword that they eventually won 3-2. The finals saw SKT playing against the Chinese [[Royal Club]]. Royal was no match for SKT and the set ended with a quick 3-0 and the crowning of SK Telecom as the Season 3 World Champions. A month later, the team was renamed to '''SK Telecom T1 K'''.
+
+===2014 Season===
+SK Telecom continued their streak of domination at [[PANDORA.TV Champions Winter 2013-2014]]. In an unprecedented show of strength, SKT managed to sweep the entirety of the tournament, culminating in a 3-0 victory over [[Samsung Galaxy Ozone]]. This is widely considered to be the most impressive feat achieved by any team as OGN is thought to have the highest level of competition in League of Legends. However, [[HOT6iX Champions Spring 2014]] began the steady decline of SKT K as a team. ManDu stepped down from the starting roster for health reasons and SKT brought in [[Casper (Kwon Ji-min)|Casper]] to replace him. SKT were upset in the group stages by the [[KT Rolster Arrows]] and barely scraped through to playoffs. They then met Samsung Ozone in the quarterfinals and were swiftly beaten 3-1. ManDu was given his starting position back because of the overall poor play of the team. Due to having the most circuit points in Korea, they were invited to participate in [[All-Star Paris 2014]]. After winning 6 games in a row, they 3-0'd OMG to take the tournament without dropping a game. They came back to Korea for [[HOT6iX Champions Summer 2014]] but fell in the quarterfinals again with a 3-1 loss to Samsung White. SKT was forced to play a tiebreaker against Samsung White to determine who would go to the [[2014 Season World Championship]] as the second seed from Korea. White was too strong for SKT, quickly sweeping them 3-0. SKT was knocked into the finals of the gauntlet where they faced a red hot [[NaJin White Shield]] that took out the former World Champions 3-1. ManDu left the team in September and joined [[Invictus Gaming]] as a coach in December alongside [[Mafa]].
+
+===2015 Season===
+ManDu's first tournament with the team was the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they made the finals but lost 3-0 to [[EDward Gaming]]. IG placed fifth in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] but placed third in the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]] after losing 3-0 to EDG in the semifinals but beating [[Snake eSports]] 3-1 in the third place match. In May of 2015 he moved to the LSPL to coach IG's second team [[Young Glory]]. YG played in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] but lost 3-1 to [[Vici Gaming]] in the round of 16. YG topped their group in the [[2015 LoL Secondary Pro League/Summer Season|2015 LSPL Summer Season]] to make the playoffs of the [[2015 LoL Secondary Pro League/Summer Playoffs|2015 LSPL Summer Playoffs]]. They dropped out in the second round after 2-0 losses to [[Hyper Youth Gaming]] and [[2144 Danmu Gaming]]. They made it to the [[LPL/2016 Season/Spring Promotion|2016 LPL Spring Season Promotion Tournament]] but they lost in the first round 3-2 to [[Royal Never Give Up]].
+
+===2016 Preseason===
+On December 30, ManDu rejoined SKT as a coach.
+
+== Trivia ==
+* His name was originally ManDu (a Korean dumpling) but changed his name to PoohManDu to match his AD carry's name Piglet. Together they are dubbed the "Hundred Acre Lane" by [[MonteCristo]] and [[DoA]]. 
+* Described as "bloodthirsty" by the OGN casters for his hyper-aggressive laning. 
+* Known for his unconventional support picks such as {{ci|LeBlanc}} with summoner teleport, {{ci|Mordekaiser}} and {{ci|Fiddlesticks}}
+* Rapidly becoming known for his support {{ci|Nami}} play, going 10-1 with her in Champions Summer
+* Their coach [[KkOma]] joked PoohManDu was a former basketball player because of his height and Faker believed it.
+* His name partly comes from his sister calling him ManDu at a young age and he liked the sound of it so he kept using it.<ref> [http://na.lolesports.com/articles/how-they-got-their-names-worlds-edition HOW THEY GOT THEIR NAMES: WORLDS EDITION]</ref>
+* Innovated {{ci|Fiddlesticks}} as a standard support pick.
+* Once played Jungle {{ci|Heimerdinger}} in the NLB Winter 2012-2013 Finals and took the Inhibitor down in 9:33.<ref>[http://www.youtube.com/watch?v=nRAoZJolrYI GSG Awesome play in NLB Winter Final]</ref>
+* Has a chest injury due to being electrocuted at a young age and is the reason why he became a substitute for the OGN Spring 2014 season
+* Awarded Best Support at 2013 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?news=103849 Result of 2013 Korean e-Sports Awards]''inven.com.kr''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+==External Links==
+* [http://www.sksports.net/T1/T1Players/lolplayers/T1LOLPlayersView.asp?idx=12 SK Telecom T1 Profile Page]
+
+{{PlayerPageEnd}}

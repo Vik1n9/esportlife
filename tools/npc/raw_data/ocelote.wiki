@@ -1,0 +1,178 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ocelote&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.725Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ocelote」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=ocelote
+|name=Carlos Rodríguez Santiago
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=Europe
+|birth_date_year=1990
+|birth_date_month=June
+|birth_date_day=15
+|favchamp=Kassadin
+|favchamp2=Ahri
+|favchamp3=Orianna
+|checkbox1=No
+|checkboxComp=No
+|ids=G2 oce
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ocelote
+|facebook=https://www.facebook.com/oceloteworld
+|twitter=Carlos_ROcelote
+|reddit=G2ocelote
+|youtube=https://youtube.com/user/oceloteWorld
+|sponsor=[http://www.digibet.com/ocelote/ Digibet] <br> [http://www.g2a.com/?reflink=sales_page1 G2A] <br> [http://ozonegaming.com/ Ozone Gaming]
+|linkedin=https://www.linkedin.com/in/carlos-ocelote-rodriguez-6a0a4738
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+|irc=[http://webchat.quakenet.org/?channels=oceloteWorld #oceloteWorld]
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|peaklp_euw=43
+}}
+==Biography==
+ocelote was born in Madrid, Spain on June 15, 1990. Prior to picking up League of Legends, ocelote was a notable World of Warcraft player, reaching the Blizzcon 2009 3on3 Finals. He started playing League of Legends during the beta stages, but took a break until October of 2010 to finish his studies at school. He played for the Dimegio clan before moving to SK Gaming. On December 31, 2013 he left SK Gaming's starting roster and competed in the [[SCAN EUW Winter Invitational]] for Team [[lololol]], where they lost against [[C9 EU]] in the finals.
+
+ocelote participated in the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Expansion|Expansion Tournament]] with [[Gamers2]], who managed to beat [[Reason Gaming]] in the seeding game and [[Team Strix]] in Round 1. Gamers2 were knocked out in Round 2 after being beaten by [[n!faculty]].
+
+===Departure from G2===
+On the 17th of September 2022, ocelote posted a video on his personal Twitter account showing him partying with controversial former professional kickboxer and internet personality [[wikipedia:en:Andrew Tate|Andrew Tate]]. This immediately ignited a firestorm on social media, with many on Twitter condemning his actions while ocelote and others defended his choice to be seen with Tate. The next day, G2 released a statement stating that ocelote and the organization had agreed to place him on unpaid leave for eight weeks. However, on September 23rd, he announced that he would be stepping down as CEO of G2 amidst reports that Riot Games had denied G2 a franchising slot in the new Valorant league due to his actions. 
+
+== Trivia ==
+* Admitted he has been toxic in the past, after a ban from Riot he has taken steps to be more positive in games.
+* Along with his former teammate [[Araneae]], he is known to be a very vocal player in live events, often times shouting loud enough to be heard on the live stream.
+* During his toxic period, ocelote has been banned twice. Jeffrey Lin (Lead Social Systems Designer) said that ocelote's past behavior has been "the worst we've ever seen in Tribunal cases."<ref>[http://www.youtube.com/watch?v=B5wx_tOtFos ocelote Controlling The Beast]</ref>
+* He does not capitalize the "o" in "ocelote" because he believes every letter has the same importance in his name.<ref>[http://www.reddit.com/r/leagueoflegends/comments/xg0zl/ocelote_ama/c5m0mbg ocelote AMA] ''reddit.com''</ref>
+* He is known primarily for his {{ci|Cassiopeia}}.
+* Owns ~50 scarves.
+* Previously played World of Warcraft at a professional level.
+* Rune and mastery pages all begin with a variation of "Will Smith".
+* Was part of the [[Season 3 World Championship]] Analyst desk.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2011
+|name2=2012
+|name3=2013
+|name4=2014
+|name5=2015
+|name6=2016
+|name7=2017
+|name8=2018
+|name9=2019}}
+{{TDRight|tab}}<!--2019-->
+* January 17, [https://www.invenglobal.com/articles/7297/g2-ocelote-when-youre-no-longer-a-professional-player%C2%A0-you-savor-your-victories-in-hindsight-far-more-than-you-did-in-the-moment G2 Ocelote: "When you're no longer a professional player,  you savor your victories in hindsight far more than you did in the moment."] ''with Nick Geracie on Inven Global''
+* January 25, [https://www.youtube.com/watch?v=5aawvObSbJ0 Ocelote on the synergy in the new G2 lineup, their comms, and upcoming merch] ''with Darius Matuschak on The Shotcaller''
+* January 28, [https://www.youtube.com/watch?v=fT-Q5xUOHLU Ocelote celebrates G2's 4-0 start and Fnatic's 0-5 start to LEC] ''with Travis Gafford on YouTube''
+* April 18, [https://www.invenglobal.com/articles/8048/g2s-ocelote-we-all-have-a-responsibility-as-lec-to-make-league-of-legends-the-most-watched-game G2's ocelote: "We all have a responsibility as LEC to make League of Legends the most-watched game."] ''with Tom Matthiesen on Inven Global''
+* April 24, [https://www.youtube.com/watch?v=YIQQHH9WZ2g Ocelote reflects on the 1st Split with the NEW G2 roster, MSI, and Mikyx' injury] ''with Darius Matuschak on The Shotcaller''
+
+{{TDRight|tab}}<!--2018-->
+* May 23, [https://www.youtube.com/watch?v=fxa6O0lK8Oo Extensive interview with G2 Ocelote about EU LCS franchising, the state of his org, and more] ''with Travis Gafford''
+* April 18, [https://blitzesports.com/lol/article/3336/ocelote-talks-eu-franchising-salaries-g2-total-16-years-co Ocelote talks EU franchising and salaries: "G2 has a total of 16 years of contract duration with their players. That's bigger than any other western team."] ''with Renato "Shakarez" Perdigão on Blitz Esports''
+* September 5, [https://eu.lolesports.com/en/articles/summer-split-interview-ocelote-g2-esports Ocelote: The Position We Are In Now Wasn't Handed to Us] ''with Kristine "Vaalia" Hutter on LoL Esports''
+*December 11, [https://www.youtube.com/watch?v=m_RtrXhfVW8 G2 owner Carlos on why he picked up Caps, responds to poaching allegations] ''with Travis Gafford on YouTube''
+
+{{TDRight|tab}}<!--2017-->
+* February 16, [http://video.sport1.de/esports/video/ocelote-es-ist-mein-traum-real-madrid-zu-kaufen__0_fr66nogo Ocelote: "It's my dream to buy Real Madrid"] ''with Sport1''
+* April 2, [https://www.youtube.com/watch?v=EQ242aCzDPE Talk to Thorin: ocelote on G2's CS History and the French Super-Team] ''with Thorin''
+* April 6, [https://www.youtube.com/watch?v=3njXYpFNDDM Ocelote on G2's brand: "You don't create a legacy by winning 2-0, [but rather through] epic moments"] ''with Blitz Esports''
+
+{{TDRight|tab}}<!--2016-->
+* April 20, [http://video.sport1.de/esports/video/esports-ocelote-ueber-g2-esports__0_x3b9cxa9 eSports: Ocelote über G2 Esports] ''with Sport1''
+* August 28, [http://video.sport1.de/esports/video/esports-ich-moechte-mit-g2-die-worlds-gewinnen__0_195ifmh2 "I want to win with G2 the Worlds"] ''with Sport1''
+* August 29, [http://www.youtube.com/watch?v=b3Qi692Cb70 Ocelote: 'When I sell players to Fnatic...I take their balls and kind of twist them'] ''with theScore''
+* September 19, [http://fragbite.se/lol/article/10817/ocelote-mitt-mal-ar-att-g2-skall-bli-det-mest-alskade-mest-hatade-och-mest-inflytelserika-varumarket-inom-esport Ocelote: "My goal is to G2 to become the most loved, most hated and most influential brand in esports"] ''with Fragbite''
+
+{{TDRight|tab}}<!--2015-->
+* February 23, [http://www.eslgaming.com/interview/i-test-myself-interview-carlos-ocelote-rodriguez-santiago "I like to test myself": an interview with Carlos "ocelote" Rodriguez Santiago] ''with ESL''
+* February 16, [http://www.youtube.com/watch?v=iy_-UOTtfIk 'Reflections' with ocelote] ''with Thorin''
+* March 14, [http://www.youtube.com/watch?v=DFUO1VvzgfY Ocelote: "I can do much more for the industry than I could before" (video)] ''with Viagame''
+* March 14, [http://www.youtube.com/watch?v=AaHqBMTVm-E Ocelote: ”The love I have for this game <nowiki>[Counter Strike]</nowiki> is crazy" (video)] ''with fragbite''
+{{TDRight|tab}}<!--2014-->
+* January 30, [http://www.youtube.com/watch?v=zNGu_sRAxvk ocelote: I chose to start from zero (video)] ''with ESL TV''
+* February 26, [http://www.reddit.com/r/leagueoflegends/comments/1z0q83/ocelote_ama_scarface/ ocelote AMA SCARFACE] ''with Reddit''
+
+{{TDRight|tab}}<!--2013-->
+* January 21, [http://vods.leaguepedia.com/rakaka-interviews-ocelote-iem-katowice/ RAKAKA Interviews Ocelote – IEM Katowice (video)] ''with RAKAKA.se''
+* January 28, [http://www.youtube.com/watch?v=DxJZy_9AGZg SK.Ocelote on IEM Katowice (video)] ''with Machinima''
+* February 9, [http://www.youtube.com/watch?v=q_gjRj_PneI LCS Europe Interview with SK Ocelote: "I don't give a tiny bit of fuck" (video)] ''with escene''
+* February 10, [http://www.youtube.com/watch?v=vTlaIj71nNw LCS EU Day 2: SK Ocelote (video)] ''with SK Gaming''
+* February 14, [http://www.reddit.com/r/leagueoflegends/comments/18j96u/ocelote_ama/ ocelote AMA] ''with Reddit''
+* March 8, [http://www.youtube.com/watch?v=4QT9fY44-QA IEM WC: Ocelote Interview (video)] ''with Cadred''
+* March 9, [http://www.youtube.com/watch?v=w5VS6eAcvnQ Interview with SK.Ocelote at IEM CeBIT (video)] ''with GosuGamers''
+* March 17,[http://www.efever.de/news,660,iem-world-championship-2013---ocelote-im-interiew.html IEM World Championship 2013 - Interiew with ocelote] ''with eFever''
+* March 20, [http://www.aceresport.com/uk/content/287.htm ocelote 'Grilled' (video)] ''with Team Acer''
+* April 20, [http://www.youtube.com/watch?v=XdOFBiJSBvE FRAGlider interviews SK.ocelote @ LCS in Cologne (video)] ''with FRAGlider''
+* May 15, [http://www.youtube.com/watch?v=4i-dv-ceZ38 LCS Europe Interview with SK Ocelote (video)] ''with eScene''
+* June 26, [http://www.youtube.com/watch?v=G2d5fspfYvg LCS Moscow 2013: Harryduck`s interview with SK Ocelote (video)] ''with Harryduck''
+* July 22, [http://www.coliseoweb.com/league-of-legends/2013/07/entrevista-al-invocador-ocelote-mid-de-sk-gaming/ Entrevista al Invocador — Ocelote (Mid de SK Gaming)(Spanish)] ''with Coliseweb''
+* August 23, [http://www.gamespot.com/6413608 Love all of you (video)] ''with GameSpot''
+* September 27, [http://www.azubu.tv/channel/detail.do?cn_id=2258602895001&vod_id=2702865260001 CSN Worlds Ocelote Interview (video)] ''with Cyber Sports Network''
+* October 9, [http://www.youtube.com/watch?v=6RPpwrcSkWQ LCS World Championship 2013: Interview with ocelote (video)] ''with Fragster''
+
+{{TDRight|tab}}<!--2012-->
+* January 17, [http://www.sk-gaming.com/content/36325-Ocelote_League_of_Legends_has_nothing_to_fear Ocelote: "League of Legends has nothing to fear!"] ''with SK Gaming''
+* March 7, [http://www.youtube.com/watch?v=KC97LVwx3fM ocelote: "Without you we are absolutely nothing" (video)] ''with Intel Extreme Masters''
+* March 12, [http://www.sk-gaming.com/video/462600-ocelote_IEM_VI_WC_wrapup_interview IEM 6 WC: ocelote wrapup interview (video)] ''with SK Gaming''
+* June 10, [http://www.youtube.com/watch?v=qWbxpEn1yeY SK ocelote - MLG Anaheim Day Two (video)] ''with State of the League''
+* July 29, [http://www.youtube.com/watch?v=WSLGP-nXnWM SK|ocelote: "I never fearing a team" (video)] ''with Fragster''
+* July 31, [http://www.reddit.com/r/leagueoflegends/comments/xg0zl/ocelote_ama ocelote Ask Me Anything] ''on Reddit''
+* August 3, [http://www.youtube.com/watch?v=4xspsCIc6jw ECC: Poland - ECC: Poland - Interview with Carlos "ocelote" Rodriguez] ''with ESLtvPL''
+* August 14, [http://www.youtube.com/watch?v=eeh0k_7AvSs SK.ocelote - IEM Pre-Gamescom Interview (video)] ''with Intel Extreme Masters''
+* September 28, face2face with ocelote [http://www.youtube.com/watch?v=NhxV4sun3JU Part 1] [http://www.youtube.com/watch?v=xTwSXGa8fzw Part 2] [http://www.youtube.com/watch?v=Jydokkm7Fgg Part 3] ''with Intel Extreme Masters''
+* October 3, [http://www.youtube.com/watch?v=alkRYeeXFsk Europe's Rising Star: ocelote (video)] ''with Riot Games''
+* October 4, [http://www.youtube.com/watch?v=F8NALb273l4 League of Legends World Championships - Pluto Interviews SK Ocelote (video)] ''with Reign of Gaming''
+* October 5, [http://www.youtube.com/watch?v=i8SzOsLDmiA Ocelote Discusses SK's Loss at S2 Worlds - IPL Interview (video)] ''with IGN ProLeague''
+* October 5, [http://www.youtube.com/watch?v=NLg4uT83i3w S2 finals SK Ocelote after getting knocked out of the tournament (video)] ''with SK Gaming''
+* October 6, [http://www.youtube.com/watch?v=ACv2_8pGn-A ocelote at LoL Season 2 Finals (video)] ''with ESFI World''
+* November 16, [http://www.reddit.com/r/leagueoflegends/comments/13auhm/ocelote_ama_ask_me_anything/ ocelote AMA Ask Me Anything] ''with Reddit''
+* December 22, [http://www.absolutelegends.net/news/2766/Interview-with-ocelote-of-SK-Gaming Interview with ocelote of SK Gaming] ''with Absolute Legends''
+
+{{TDRight|tab}}<!--2011-->
+* June 3, [http://www.sk-gaming.com/content/33448-Interview_with_Ocelote_from_SKLoL Interview with ocelote form SK.LoL] ''with SK Gaming''
+* June 3, [http://www.competo-sports.org/news,1534.html SK.oce1ote: 'LoL is the most entertaining game ever'] ''with Competo Sports''
+* June 23, [http://www.youtube.com/watch?v=eAtioUa4ol0 ocelote Interview - SK Gaming Part 1] [http://www.youtube.com/watch?v=622K5RKasG4 Part 2 (video)] ''with Moba-Champions.com''
+* August 20, [http://www.youtube.com/watch?v=2SWO-SLiios ocelote interview (Gamescom 2011 thursday)] ''with Absolute Legends''
+* November 12, [http://taketv.net/news/interview-with-ocelote-12-11-11-11638 Interview with Carls 'ocelote' Santiago] ''with TakeTV''
+{{TDRight|end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

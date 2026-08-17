@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=StarScreen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.626Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「StarScreen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=StarScreen
+|name=Soner Kaya
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=2001
+|birth_date_month=January
+|birth_date_day=20
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' MSI DUTY
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/starscreenlol
+|twitter=StarScreenLoL
+|instagram=sonerscreen
+|tiktok=sonerscreen
+|lolpros=https://lolpros.gg/player/starscreen
+|deeplol=https://www.deeplol.gg/pro/StarScreen
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Won the "Most Improved Player" award in [[TCL 2019 Summer]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

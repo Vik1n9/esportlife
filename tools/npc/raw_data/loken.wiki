@@ -1,0 +1,89 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LokeN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LokeN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=LokeN
+|name=Lee Dong-wook
+|nativename=이동욱
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=February
+|birth_date_day=14
+|favchamp=Kalista
+|favchamp2=Tristana
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:'''  我是左名豪<br>'''KR:''' 아이러니<br>NekoL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/1de3e9d4595f71ab6c20dbd94d9e2f39
+|facebook=https://www.facebook.com/profile.php?id=100010881135007
+|twitter=LokeN0214
+|instagram=Loken0214
+|videoarchive=https://www.twitch.tv/lol_loken
+|youtube=https://www.youtube.com/channel/UCIihrDUwH6g2_CHND5MTQDA
+|deeplol=https://www.deeplol.gg/pro/LokeN
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2015 Preseason===
+Prior to the [[2015 LoL KeSPA Cup]], Ever brought in former [[KT Rolster]] jungler [[Ares (Kim Min-kwon)|Ares]] (additionally, support TML renamed to [[Key]]). They upset [[Samsung Galaxy]] and [[Rebels Anarchy]] in the first two rounds. Expected to fall 2-0 to recent World Champions [[SK Telecom]], who tried out substitute [[Scout]] onstage for the first time in game 1, Ever shocked audiences by not only winning that first game but sweeping the team 2-0, even with [[Faker]] playing the second game. Against [[CJ Entus]] in the finals, Ever once again swept the series, this time 3-0, and qualified for [[IEM Season X - Cologne|IEM Cologne]] as Korea's only seed to the event. Ever continued their strong performance at IEM, defeating [[H2k]] 2-1 and then [[Qiao Gu]] 3-2 to win the tournament. Their victory marked the first time since the inception of the League Championship Series in 2013 that a team unable to qualify for their national premier league won a major international event. LokeN delivered stunning performances throughout the tournament, especially on [[Tristana]], and he and Key gained recognition as a world-class botlane. However, after the tournament, mid laner [[Athena]] departed the team, and so their IEM Championship lineup was unable to play together again.
+
+=== 2016 Season ===
+At the time of competing at [[IEM Season X - World Championship|IEM Katowice]] (which they had an invitation to due to winning IEM Cologne), Ever were in second place in [[Challengers Korea/2016 Season/Spring Season|Challengers]], after losing a series 0-2 to [[MVP]]. Despite a round-one surprise upset win over [[Team SoloMid]], Ever lost to [[Royal Never Give Up]] and then a rematch series against TSM to be eliminated before the playoff bracket.
+
+After coming back to Korea, ESC Ever continued to perform well in the [[Challengers Korea/2016 Season/Spring Season|Challengers Korea 2016 Spring Season]], finishing second place in the regular season with 27 pts. After beating [[Ever8 Winners]] 3-1, they beat [[MVP]] 3-2 to win the season and earn a spot in the [[LCK/2016 Season/Summer Promotion|2016 LCK Summer Promotion]]. Then, they beat [[SBENU Sonicboom]] 3-0 to earn a spot in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]].
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], ESC Ever went 5-13 in total sets, with one notable upset victory over [[SK Telecom T1]]. However, they still finished the split in ninth place, leading them to participate in the [[LCK/2017 Season/Spring Promotion|2017 LCK Spring Promotion]] tournament. In the first round, they beat [[SBENU Korea]] 2-1 before falling to [[Kongdoo Monster]] 3-1. In the deciding loser's match, ESC Ever swept [[CJ Entus]] to earn their spot back in the LCK.
+===2017 Season===
+
+Loken left ESC Ever and joined [[QG Reapers]] in December of 2016. QG placed 3rd in their group in the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] however in the playoffs they lost 2-3 to [[I May]] in the first round. [[JD Gaming]] acquired the roster and LPL spot of QG in May of 2017 with Loken also joining the newly formed squad. Their first showing was at the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] but it wasn't particularly good as they placed 9th-12th after an 0-2 loss to [[LGD Gaming]]. In the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] JD Gaming finished 5th in Group B with 6 wins and 11 losses which eliminated them from playoff contention. They also placed 2nd at the [[National Electronic Sports Tournament 2017]].
+
+==Career Highlights and Awards==
+
+* LPL Champion (2020 Spring)
+
+== Trivia ==
+* Is the older brother of [[TaNa]].<ref>[https://twitter.com/lol_loken/status/1067254109055549440 LokeN's Tweet (Korean)] ''twitter.com''</ref>
+* Infamously was never named MVP during [[LPL 2019 Summer]] despite his team, [[Top Esports]], winning 25 games.
+* Reached 1000 Kills in LPL on 6th, July 2020. <ref>[https://twitter.com/JDGaming/status/1280140509969670145?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1280140509969670145%7Ctwgr%5E&ref_url=https%3A%2F%2Fwww.fmkorea.com%2F2977746566 JD Gaming's tweet]''twitter.com''</ref>
+** The 21st player to reach 1000 kills in the LPL.
+* Shares his name with famous Korean actor [[wikipedia:Lee Dong-wook|Lee Dong-wook]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

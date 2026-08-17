@@ -1,0 +1,106 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20BDS&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.056Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team BDS」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Shifters
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Team BDS
+|orgcountry=Switzerland
+|country= France
+|region= EMEA
+|sponsor= [https://www.kappa.com Kappa]
+<!-- Staff -->
+|headcoach= Yanis "{{bl|Striker (Yanis Kella)|Striker}}" Kella
+|owner= 
+<!-- Social Media -->
+|website= https://www.bdsesport.com
+|youtube= https://www.youtube.com/@TeamBDS_
+|facebook= https://www.facebook.com/BdsEsportsTeam
+|twitter= TeamBDS
+|discord= https://discord.gg/bds
+|snapchat= 
+|instagram= bds_esports
+|stream= https://www.twitch.tv/bdsesport
+|lolpros= https://lolpros.gg/team/team-bds
+|linkedin=https://www.linkedin.com/company/teambds/
+<!-- History -->
+|created= 2020-05-13
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,fifa,fortnite
+}}{{TOCRWI}}
+
+'''Team BDS''' was a Swiss esports organization, based in Geneva. The team used to compete in the [[LFL]] but bought a spot in the [[LEC/2022 Season/Spring Season|LEC]] in June 2021.
+
+Following a series of major strategic developments announced in June 2025<ref>[https://x.com/TeamBDS/status/1939685363728949592 Team BDS' X Post]</ref>, the organization officially rebranded as [[Shifters]] in December 2025.<ref>[https://x.com/ShiftersGG/status/2000644103629844506 Shifters' X Post]</ref>''
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||ch|[[wikipedia:Jocelyn_Roux|Jocelyn Roux]]|'''Managing Director & Head of Legal'''|newteam=Shifters}}
+{{listplayersp|Shiro|de|Alexander Sinn|'''Head of Content'''|newteam=Shifters}}
+{{listplayer|ShouldBthat|fr|Julien Pintat|'''Video Editor'''|newteam=Shifters}}
+{{listplayersp|fubuki|fr|Arthur Ducrois|'''Social Media Producer'''|newteam=Shifters}}
+{{listplayer|Striker (Yanis Kella)|fr|Yanis Kella|'''Head Coach'''|newteam=Shifters}}
+{{listplayer|Jujutw0|fr|Julien Izzo|'''Assistant Coach'''|newteam=Shifters}}
+{{listplayer|MenQ|pl|Marek Dziemian|'''Assistant Coach'''|newteam=Shifters}}
+{{listplayer|Mephisto|fr|Louis-Victor Legendre|'''Assistant Coach'''|newteam=Shifters}}
+{{listplayersp|Bernie|nl|Bernadette Ramaker|'''Performance Coach'''|newteam=none}}
+{{listplayer|Arces|pl|Damian Osuch|'''Analyst'''|newteam=Shifters}}
+{{listplayer|Zaboutine|fr|Thomas Si-Hassen|'''Co-Streamer'''|newteam=Shifters}}
+{{listplayersp|Atomium|be|Nicolas Farnir|'''Managing Director'''|newteam=none}}
+{{listplayersp|Lars|de|Lars van der Pütten|'''Video Producer'''|newteam=none}}
+{{listplayersp|Chapau Pointu|||'''Social Media Manager'''|newteam=none}}
+{{listplayersp||fr|[[wikipedia:Pascal Dupraz|Pascal Dupraz]]|'''Official Ambassador'''|newteam=none}}
+{{listplayer|Medic (Aaron Chamberlain)|uk|Aaron Chamberlain|'''Ambassador'''|newteam=none}}
+{{listplayer|Ruuxi|us|Rahul Nanda|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|La Tour|be|Patrice Bailo de Spoelberch|'''Founder'''|newteam=none}}
+{{listplayer|Clément (Clément Thillier)|fr|Clément Thillier|'''Performance Coach'''|newteam=KCorp}}
+{{listplayer|GotoOne|fr|Adrien Picard|'''Head Coach'''|newteam=Gentle Mates}}
+{{listplayersp|AngelArcher|ro|Luciana Nadrag|'''Scout Analyst'''|newteam=none}}
+{{listplayer|GrabbZ|de|Fabian Lohmann|'''Head Coach'''|newteam=FNC}}
+{{listplayer|Duffman|uk|Christopher Duff|'''Head Analyst'''|newteam=C9}}
+{{listplayer|Mert|tr|Mert Tanrıverdi|'''General Manager'''|newteam=XL}}
+{{listplayer|Dinep|pt|Rafael Nunes|'''Head Coach'''|newteam=none}}
+{{listplayer|Shac Nicholson|fr|Adrien Lay-Dieulefit|'''Analyst'''|newteam=Atletec}}
+{{listplayersp|Mew|fr|Théo Ponzoni|'''Performance Coach'''|newteam=BDS.A}}
+{{listplayersp|Lyrith|fr|Ludovic Robert|'''Manager'''|newteam=Lille}}
+{{listplayer|Supernova (Paul Piquée-Audrain)|fr|Paul Piquée-Audrain|'''Coach'''|newteam=Solary Academy}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+====Logos====
+<gallery>
+Team BDSlogo square old.png|First Logo<br>(- 17 Dec 2021)
+Team BDS logotype.png|Team BDS Logotype
+</gallery>
+
+===Rosters===
+<gallery>
+Team BDS 2025 Winter.jpeg|Team BDS 2025 LEC Winter
+</gallery>
+
+=== References ===
+<references />

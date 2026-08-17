@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Samsung%20White&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.242Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Samsung White」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isdisbanded=yes
+|name= Samsung White
+|organization=Samsung (Organization)
+|orgcountry= South Korea 
+|country=
+|region= KR
+|manager= 
+|captain=
+|website= 
+|youtube=
+|facebook=https://www.facebook.com/SamsungGalaxyOzone
+|twitter=SamsungGOzone
+|irc= 
+|sponsor=[http://www.samsung.co.kr/ Samsung]<br>[http://www.ozonegaming.com Ozone]<br>[http://www.lottechilsung.co.kr/main/main.jsp HOT6]
+|created= LoL Division 2013-09-07
+|disbanded=2014-11-28 
+|trades=
+}}{{TOCRWI}}
+'''Samsung White''' was a Korean League of Legends team sponsored by Samsung Electronics. It was formerly known as [[MVP Ozone]].
+
+== History ==
+===Acquisition of MVP Ozone===
+In September 2013, the major electronics corporation Samsung announced they would acquire the [[OLYMPUS Champions Spring 2013]] champion team of [[MVP Ozone]] to sponsor in League of Legends. The team had already qualified for the [[Season 3 World Championship]] as well.
+
+===Season 3 World Championship===
+Despite a roster swap moving Homme to the sub position and starting Looper right before the tournament, Samsung Ozone were expected to perform well at the World Championship, with the attention that the Korean scene was getting globally. They were placed in group B along with [[Fnatic]], [[Gambit Gaming]], [[Team Vulcun]], and [[Mineski]]. Both they and Gambit finished the group stage with a 5-3 record, and they were tied 1-1 in the head-to-head matchup, but Ozone lost the tiebreaker match and were eliminated from the tournament; Fnatic and Gambit moved on to the quarterfinals.
+
+===2014 Season===
+After their poor performance at Worlds, Ozone went on to perform very well in OGN, placing second in the [[PANDORA.TV_Champions_Winter_2013-2014|winter season]] behind [[SK Telecom T1 K]] (who went undefeated the entire season). Then between the winter season and [[HOT6iX_Champions_Spring_2014|spring season]], the organization swapped the midlaners of its two teams: [[PawN]] joined Ozone from [[Samsung Blue]], and dade left Ozone for Blue. The roster swap proved favorable for both teams, and in both the spring and [[HOT6iX_Champions_Summer_2014|summer]] seasons, Ozone and Blue both advanced to the semifinals; both times Blue defeated Ozone; and both times Ozone won the third-place match.
+
+On June 11, Samsung Ozone renamed to '''Samsung White'''.
+
+The Samsung organization also won the [[SK_Telecom_LTE-A_LoL_Masters_2014|LoL Masters 2014]] tournament, defeating [[SK Telecom]] in the finals.
+
+With 525 [[2014_Season/Circuit_Points_Korea|circuit points]] at the end of the summer season of OGN, Samsung White and SK Telecom T1 K were tied for the second slot from Korea going into [[2014_Season_World_Championship|Worlds]]. At the [[2014_Season_Korea_Regional_Finals|Korean Regional Finals]], they played a tiebreaker, which Ozone won 3-0.
+
+Going into the 2014 Season World Championship, White and Blue were the two favorites to win the tournament. White went undefeated in their group, beating [[EDward Gaming]], [[ahq e-Sports Club]], and [[Dark Passage]] all 2-0 in the double round-robin. In the bracket stage, they beat [[Team Solomid]] 3-1 in the quarterfinals, then their sister team Samsung Blue 3-0 in the semifinals, and then won the finals 3-1 against [[Star Horn Royal Club]]. Only dropping two games the entire tournament, White were crowned World Champions and won the $1,000,000 prize.
+
+===2015 Preseason===
+On October 25 2014, Mata announced his retirement from the team.<ref>[https://www.facebook.com/sehyoung.cho.3/posts/650298621750999 Mata's Facebook Post (Korean)] ''facebook.com'' </ref>
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:SSW 2014.jpg|thumb|no-link=true|400px|right|Samsung White's [[2014 Season World Championship]] Roster<br> Left to Right: imp, DanDy, Mata, PawN, Looper]]
+[[File:SG White 2014 OGN Summer.jpg|thumb|no-link=true|400px|right|Samsung White OGN Summer 2014 Lineup<br> Left to Right: PawN, imp, Skatch, Mata, Homme, DanDy, Looper]]
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+!Next Team
+{{listplayersp|Choi|kr|Choi Yoon-sang (최윤상)|'''Head Coach'''|newteam=2144 Gaming}}
+{{listplayer|Homme|kr|Yoon Sung-young (윤성영)|'''Coach'''|newteam=VG}}
+{{listplayer|DoGGi|kr|Choi Woo-beom (최우범)|'''Coach'''|newteam=samsung galaxy}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As Samsung Ozone===
+{{TeamResults|Samsung Ozone|show=overviewpage}}
+
+== Highlight Videos ==
+* [https://www.youtube.com/watch?v=yPhSkMm__w4 Meet a Team: Samsung Galaxy Ozone]
+
+==Media==
+{{TeamMedia}}
+
+== Images ==
+=== Logos ===
+<gallery>
+Samsung Galaxy Ozone Logo.png|Samsung Galaxy Ozone Logo
+</gallery>
+=== Rosters ===
+<gallery>
+File:S3 Samsung Galaxy Ozone.jpg|Samsung Ozone Season 3 World Championship Lineup
+File:SG Ozone OGN Spring 2014.jpg|Samsung Ozone OGN Spring 2014.jpg
+</gallery>
+
+==Links==
+
+==References==
+<references />
+
+<br>
+{{World Championship Champions Navbox|2014 Season}}

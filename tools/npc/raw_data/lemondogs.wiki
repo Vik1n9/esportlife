@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lemondogs&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.442Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lemondogs」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Lemondogs
+|orgcountry= Sweden  
+|country=
+|region=EU
+|coaches= 
+|manager= 
+|captain= 
+|website= http://www.lemondogs.se/
+|youtube=https://www.youtube.com/user/Lemondogspani
+|facebook=https://www.facebook.com/lemondogscom
+|twitter=Lemondogs
+|irc=#lemondogs (Quakenet)
+|sponsor= [http://steelseries.com/home SteelSeries]<br>[http://www.sverok.se/ Sverok]<br>[http://www.infernoonline.com/ Inferno Online Stockholm]<br>[https://www.ckras.com/de/index.php CKRAS]
+|created=2004 - Foundation<br>2009 - Official launch of the organization<br>2013-06-12 LoL Division
+|disbanded= 
+|trades= 
+}}{{TOCRWI}}
+
+'''Lemondogs''', commonly abbreviated '''LD''', is a Swedish e-Sports organization which is very well-known for its storied presence in the Counter-Strike competitive scene. Its presence stretches to Counter-Strike: Global Offensive, Shootmania, Call of Duty, StarCraft II, FIFA and League of Legends.
+
+== History ==
+Lemondogs was founded in 2004 with the goal to gather gamers all over Sweden. In 2009 they won their first major tournament in competitive E-Sports. Their Counter-Strike team was victorious against [[SK Gaming]] at the Dreamhack Finals. 
+
+===Season 3===
+In 2013 they took a major step in their growth by acquiring a professional League of Legends team.
+
+=====Summer EU LCS=====
+The team achieved tremendous success in their first season of the League of Legends Championship Series. They were able to finish first in the EU Summer Split and placed second in the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Summer Playoffs]]. With their second place finish after losing to [[Fnatic]] 1-3, Lemondogs qualified to represent Europe alongside [[Fnatic]] and [[Gambit Gaming]] in the [[Season 3 World Championship]] in Los Angeles to compete for the $2,000,000 US Dollar prize pool.
+
+=====Season 3 World Championship=====
+LD was placed into a group with the OGN Summer winners, [[SK Telecom T1 2]]; 2nd seed from China, [[OMG]]; popular NA team [[Team SoloMid]]; and fellow European Wildcard winners [[GamingGear.eu]]. The group proved quite tough for the Lemondogs, ending third in their group with a record of 3-5 with two wins against GG.eu and one against TSM. After a tough fight they were not able to place in the top two teams in their group to advance to the quarterfinals, and ended their season playing on the world stage against the best, placing ninth in the tournament.
+
+===Pre-Season 4===
+After their early success in the EU LCS and making it to the S3 Championships, the roster of Lemondogs had major changes in the pre-season. In the months following the championship, the entire lineup left the organiation, leaving for other opportunities. On December 10 2013, LD's new roster was revealed consisting of [[Myw]], [[ImSoFresh]], [[ShLaYa]], [[Crazycaps]], and [[Zeriouz]]. Their fresh team's first test as a unit would be the exhibition between the LCS leagues, the [[Battle of the Atlantic 2013]]. There, the Lemondogs were defeated by [[Team SoloMid]] 2-0. 
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:LemonDogsS3Worlds.jpg|thumb|no-link=true|400px|right|Lemondogs Season 3 World Championship Roster<br> Left to Right: Tabzz, Mithy, Nukeduck, Dexter, Zorozero]]
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+!Next Team
+{{listplayersp|pani|se|Daniel Aicardi|'''Chief Executive Officer'''|newteam=Retired|comment=Esportal Group}}
+{{listplayersp|Praec|de|Marvin Stratmann|'''Staff'''|newteam=E-corp Gaming}}
+{{listplayersp|ImUnleasheD|de|Chris Schanze|'''Staff'''|newteam=none}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Videos ==
+=== Highlights ===
+* [http://www.youtube.com/watch?v=WJ1IM0BOhbo LemonDogs LCS Week 4 Highlights]
+
+===Interviews===
+<!-- Interviews with the team. Use asterisk (*) to create a  bulleted list of links. -->
+
+==External Links==
+* [http://www.youtube.com/watch?v=SYeMb43U9_E Lemondogs: The Beginning]
+
+==References==
+<references />
+
+<br>

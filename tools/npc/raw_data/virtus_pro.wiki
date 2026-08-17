@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Virtus.pro&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.550Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Virtus.pro」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Virtus.pro
+|orgcountry= Russia 
+|country=
+|region=CIS
+|image= Virtus.pro.png
+|coaches= Dmitry "'''Moo'''" Sukhanov
+|manager= Roman Dvoryankin <br> Mikhail Artemyev
+|analysts= Bogdan Ivasik
+|captain= 
+|website= https://virtus.pro/
+|youtube= https://www.youtube.com/user/TeamVirtuspro
+|facebook= https://www.facebook.com/www.virtus.pro
+|vk= https://vk.com/virtuspro
+|twitter= TeamVirtuspro
+|irc= 
+|sponsor= [http://benq.ru/ BenQ] <br> [http://www.g2a.com/ G2A] <br> [http://moskva.beeline.ru/customers/products/ Beeline]
+|created= Organization 2003-11-03 <br> LoL Division 2014-06-28
+|disbanded= 
+|trades= 
+|otherwikis=fortnite
+}}{{TOCRWI|2}}
+
+'''Virtus.pro''' is an Russian multigaming eSports organization formed in 2003. They currently sponsor players and teams in Counter-Strike: Global Offensive, Dota 2, Heroes of the Storm, and League of Legends.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersFormer}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Sneg|ru|Anton Cherepennikov|'''Chief Executive Officer'''}}
+{{listplayersp||ru|Roman Dvoryankin|'''General Manager'''}}
+{{Listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Moo|link=Moo (Dmitry Sukhanov)|ru|Dmitry Sukhanov|'''Head Coach'''|newteam=M19}}
+{{listplayersp||ru|Anton Boyko|'''Manager'''|newteam=GMB.CIS}}
+{{listplayersp|NK|ru|Nikita Kulakov|'''Manager'''|newteam=none}}
+{{Listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+
+==Interviews==
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />
+
+<br>

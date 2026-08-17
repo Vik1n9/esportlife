@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Warangelus&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.259Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Warangelus」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Warangelus
+|name=Fabián&nbsp;Esteban Llanos Bernal
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=April
+|birth_date_day=09
+|favchamp=Lee Sin
+|favchamp2=Ezreal
+|checkbox1=No
+|compID1=Wara
+|checkboxComp=No
+|ids='''LAS:''' ISG Wara <br> '''BR:''' warangelus o7 #1234 <br> '''NA:''' Warangelus, hola quién soy, Lonefíre Blossom, The Daily Life<br>'''EUW:''' imreallybad69,ISG WARANGELUS,SK SpawNN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/warangelus
+|facebook=https://www.facebook.com/lolwaranga
+|twitter=WarangeIus
+|instagram=warangelus
+|lolpros=https://lolpros.gg/player/warangelus
+|deeplol=https://www.deeplol.gg/pro/WARANGELUS
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|prev2=Mid
+}}
+==Biography==
+Fabián Esteban Llanos Bernal is from Santiago, Chile.
+
+=== 2016 Season===
+His debut was in [[Hafnet eSports]] as Mid Laner participating in the [[LAS 2016 Opening Cup]] where the team was fifth in the tournament. At mid-year [[Warangelus]] he remains in the team but as AD Carry participating in the [[LAS 2016 Closing Cup]] where the team was fourth in the tournament, qualifying to the next phase. Already in the [[LAS 2016 Closing Cup Playoffs]] the team was fourth in the tournament losing against [[Isurus]] 1-3, at the end of the tournament he leaves the team.
+
+=== 2017 Season===
+At the beginning of the year he joins [[Just Toys Havoks]] as AD Carry participating in the [[LLN 2017 Opening]] where the team was second in the tournament, qualifying to the next phase. Already in the [[LLN 2017 Opening Playoffs]] the team reached the final facing [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] losing 0-3, at the end of the tournament he leaves the team due to visa problems.
+
+=== 2018 Season===
+At the beginning of the year he joins [[Rebirth eSports]] as AD Carry participating in the [[CLS 2018 Opening]] where the team was first in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Opening Playoffs]] the team reached the final facing [[Kaos Latin Gamers|KLG]] losing 2-3. At mid-year [[Warangelus]] he remains in the team participating in the [[CLS 2018 Closing]] where the team was second in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Closing Playoffs]] the team reached the final again facing [[Kaos Latin Gamers|KLG]] losing 1-3, at the end of the tournament he leaves the team.
+
+=== 2019 Season===
+At the beginning of the year he joins [[Isurus]] as AD Carry participating in the [[LLA 2019 Opening]] where the team was fourth in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Opening Playoffs]] the team reaches the final facing [[Rainbow7]] winning 3-1, qualifying for the first time to an international tournament. Already in the MSI the team was in group A facing [[Phong Vũ Buffalo]] from Vietnam, [[1907 Fenerbahçe]] from Turkey and [[Bombers]] from Oceania, the team was last in the group stage together with [[Bombers]]. At mid-year [[Warangelus]] he remains in the team participating in the [[LLA 2019 Closing]] where the team was first in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Closing Playoffs]] the team reached the final facing [[All Knights]] winning 3-0, qualifying for the World Cup. Already in the World Cup the team was in group B facing [[DetonatioN FocusMe]] from Japan and [[Splyce]] from Europe, where the team was second in the group phase, qualifying to the next phase. Already in the playoffs the team faces [[Hong Kong Attitude]] losing 1-3.
+
+== Trivia ==
+* His favorite champions are {{ci|Lee Sin}} and {{ci|Ezreal}}.
+* Reached Challenger in all American servers (LAS, BR, LAN, and NA).
+* Has played bot, jungle, and mid competitively.
+* He would love to play against [[Deft]].
+
+=== Individual Awards ===
+* LLA player with the most MVPs in the split x2 (Opening 2020, Closing 2021)
+
+{{PlayerStatsTrivia}}
+
+== Notable Events as Broadcast Talent ==
+* [[LLA/2022 Season/Opening Playoffs|LLA 2022 Opening Playoffs]] - Invited
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

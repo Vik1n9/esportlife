@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Stanley&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.625Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Stanley」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Stanley
+|name=Wang June-Tsan
+|nativename=王榮燦
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1991
+|birth_date_month=May
+|birth_date_day=06
+|favchamp=Nidalee
+|favchamp2=Jayce
+|favchamp3=Shen
+|favchamp4=Olaf
+|checkbox1=No
+|checkboxComp=No
+|ids=HKES Stanley, relaxing, AZB TPA Stanley, Stanley0506 (NA), TPA_Stanley, Stan the Man
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/relaxing234
+|facebook=https://www.facebook.com/stanleysLoL
+|instagram=stanley.wang.234
+|youtube=https://www.youtube.com/channel/UCXOBLGJdYA1mfhOrDwQESTg
+|deeplol=https://www.deeplol.gg/pro/Stanley
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Coach
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=上路帝王, 上路地瓜, 那個胖子
+}}
+==Biography==
+Stanley has played League of Legends since the beta of the game, giving him expansive knowledge of the game. He settled on the top lane role when joining the team FTW. On June 30, 2013, Stanley was released from Taipei Assassins.
+
+Stanley is often noted for his exotic champion picks, playing 20 different champions in the span of 40 games in the GPL<ref name="test">[http://www.example.org GPL Player Statistics]</ref>. [[MiSTakE]] has given him free reign to chose whatever he sees fit. [[Zonda]] has described him as having a steady play-style with an emphasis on winning the lane. He is one of the most accessible players in the League of Legends competitive scene, and as such frequently shares his experiments and thoughts on Facebook.
+
+On August 27, 2013, Stanley was employed by Hong Kong Esports Limited to be the coach.<ref>[https://www.facebook.com/stanleysLoL/posts/458156154282618 Stanley's facebook post]''facebook.com''</ref>
+
+===Season 1===
+Stanley began his career with amateur League of Legends team known as [[For The Win]]. MiSTakE would bring him together with this team that featured [[NeXAbc]], [[A8000]], and [[lilballz]]. The team would win out a 150 team tournament, G1 Garena Esports Competition, receiving a berth to the [[2011 World Cyber Games]]. Team For The Win would go 2-2 in the group stage, unable to progress forward, but was a notable performance. Garena officially sponsored the team, seeing their strong performance, renaming the team to the [[Taipei Assassins]].
+
+===Season 2===
+Stanley would dominate in the top lane over the course of season 2, as the Taipei Assassins had no problem with domestic competition. They would also secure victories over Chinese favorite Team WE at [[StarsWar 7]] and[[Go4LoL Pro Asia Season 1]]. The team would easily secure a berth to the [[Season 2 World Championship]] as the best team at the [[Season Two/Regional Finals - Taipei|Season Two Regionals in Taipei]]. Stanley and the Taipei Assassins would be crowned the winners of the Season 2 World Championship after defeating [[Azubu Frost]] in Grand Finals 3-1. Stanley put forward a memorable performance during the tournament, pioneering the spirit visage/chalice build on bruiser [[Nidalee]].
+
+===Preseason 3===
+Stanley would close out the [[2012 GPL Season 1]] season with the Assassins with a 38-2 record, taking first place in the split overall by. Stanley would be noted for his diverse champion pool, while playing twenty different champions over the course of the season. The Assassins would attend [[IGN ProLeague Season 5]] towards the end of 2012 in Las Vegas, NV. TPA performed rather well, placing third in the tournament after failing to defeat [[Fnatic]] in the losers bracket 0-2. 
+
+===Season 3===
+The Taipei Assassins would continue to face little to no competition in their region as they trounced the majority of teams, ending with a 27-1 record. Stanley would be elected to represent [[Garena]] at [[All-Star Shanghai 2013]], with his team having a relatively poor performance losing out to the LPL All-Star team 0-2. The team would struggle domestically after the All-Star break, with Stanley and [[Toyz]] beginning to be brought back to Earth. As a result, Stanley would eventually be released from the team and replaced with [[Achie]], while Toyz would also retire from competitive gaming. [[Hong Kong Esports]] would hire Stanley in August to coach the HK Attitude teams.
+
+===2015 Preseason===
+HKEsports announced that Stanley would be on Toyz' newfound team including ex TPA/TPS players: [[DinTer]], [[GoDJJ]], and [[Awei]] with the goal of qualifying for the LMS (League of Legends Masters Series). The team would fail to qualify for [[IEM Season IX - Taipei]], but would qualify for the LMS.
+
+== Trivia ==
+* Blood Type B
+* His favorite champion is {{ci|Nidalee}}, which he was considered to be one of the best in the world.
+* Pioneered the build of stacking 4 {{ii|Hextech Revolver}}s on {{ci|Vladimir}}, which resulted in the item passive to be reclassified as unique.
+* Famous for his theory-crafting
+* Folds a piece of tissue paper on his mouse to protect it from sweaty hands.
+* Popularized the {{ii|Spirit Visage}}, {{ii|Chalice of Harmony}} and {{ii|Trinity Force}} Nidalee build
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

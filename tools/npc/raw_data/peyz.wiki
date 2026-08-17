@@ -1,0 +1,99 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Peyz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Peyz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Peyz
+|name=Kim Su-hwan
+|nativename=김수환
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2005
+|birth_date_month=December
+|birth_date_day=05
+|favchamp=Kai'Sa
+|favchamp2=Aphelios
+|favchamp3=Kalista
+|favchamp4=Zeri
+|checkbox1=Yes
+|favchamp5=Ezreal
+|favchamp6=Xayah
+|favchamp7=Varus
+|checkboxComp=No
+|ids='''KR:''' Peyz #KR11 <br> '''EUW:''' qwewqrsad2w #11111
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/rlantnghks
+|twitter=_T1Peyz
+|instagram=lol_peyz
+|weibo=https://www.weibo.com/n/T1_Peyz
+|lolpros=https://lolpros.gg/player/peyz
+|deeplol=https://www.deeplol.gg/pro/Peyz
+|dpmlol=https://dpm.lol/pro/Peyz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Became the youngest botlaner to win a [[LCK/2023 Season/Spring Playoffs|LCK title]] at the age of 17
+* Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region (LCK Spring 2023)
+* With 234 kills in [[LCK 2023 Summer]], he was the player with the most kills in one LCK's split, beating the previous record of 219 kills set by [[Gumayusi]] in [[LCK 2022 Spring]] before [[Aiming]] claimed that record a year later
+* Currently holds the record for highest number of kills in a single match at an international LoL event after achieving 28 kills in [[MSI 2024|MSI 2024 Finals Game 2]], the same game in which he got a pentakill as {{ci|Kalista}}.<ref>[https://www.strafe.com/news/read/peyz-sets-a-new-28-kill-record-at-msi/ Peyz Sets a New 28 Kill Record at MSI Grand Finals] ''strafe.com''</ref>
+* He is the player with the most recorded number of pentakills in professional play (16) and also the player with the most used champions for pentakills (10).
+
+=== Statistics ===
+* Reached 1000 kills in the LCK on August 3rd, 2024.
+** Was the 27th player to reach 1000 kills in the LCK.
+** Was the first LCK player ([[Faker]] was fastest before with 207 games) and the first major league player since Deft in LPL 2016 to reach this milestone in less than 200 games.
+
+=== Individual Awards ===
+* LCK Finals MVP x1 (Spring 2023)
+* LCK Player of the Split x1 (Summer 2024)
+* LCK Rookie of the Year x1 (2023)
+* LCK 1st All-Pro Team x2 (Spring 2024, Summer 2024)
+* LCK 2nd All-Pro Team x1 (Summer 2023)
+* LCK 3rd All-Pro Team x1 (Spring 2023)
+* LPL 2nd All-Pro Team x1 (Split 2 2025)
+* LPL 3rd All-Pro Team x1 (Split 1 2025)
+* KeSPA Cup Finals MVP (2025)
+* LCK CL Best ADC (Summer 2022)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

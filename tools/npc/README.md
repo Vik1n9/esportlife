@@ -10,6 +10,8 @@ tools/npc/
 ├── gen-team-history.mjs  team_history.json 台港澳段生成器（S24b）
 ├── gen-target-intl.mjs   target_players.csv 國際段生成器（S24c，冪等疊加）
 ├── gen-team-history-intl.mjs  team_history.json 國際段生成器（S24c，冪等疊加）
+├── crawl-lp.mjs       Leaguepedia 備援抓取工具（S24d，§23.7 第二級）
+├── gen-crawl-list-intl.mjs  國際抓取清單生成器（S24d）→ crawl_intl_all.txt
 ├── README.md          本檔
 ├── target_players.csv 選手清單（台港澳 S24b priority 1 ＋ 國際 S24c priority 2）
 ├── team_history.json  戰隊演變樹（台港澳 S24b ＋ 國際 S24c，同一份檔）
@@ -152,6 +154,34 @@ Infobox 的權威欄位——精確值留給 S25 需要時另外抓。
   清洗時忽略（去姓名規則）。
 - **備援**：探勘樣本 Liquipedia 全覆蓋，**未動用 Leaguepedia**（23.7 三觸發條件
   樣本內無一成立）；全量覆蓋表由 S24b／S24d 交接筆記補實測數字。
+  ⚠ **S24d 實測推翻了「主源夠用」這個前提**：Liquipedia 封鎖本環境 IP 之後，
+  國際段 898 頁全走 Leaguepedia（見下節）。
+
+## S24d 國際 raw 與 Leaguepedia 備援
+
+⚠ **Liquipedia 目前對本專案的執行環境是 IP 級封鎖**（`HTTP 429` ＋ CAPTCHA 解鎖頁，
+不是速率抖動，退避重試救不回來）。照 §23.7 第二級改由 Leaguepedia 取得國際段，
+`crawl.mjs` 一行未動；每筆 raw 的檔頭與 manifest 標 `data_source=leaguepedia`。
+
+```bash
+node gen-crawl-list-intl.mjs                # → crawl_intl_all.txt（1021 頁：選手 738＋隊 148＋賽事 135）
+node crawl.mjs crawl crawl_intl_all.txt     # 先試主源（本環境全 429，log 留證）
+node crawl-lp.mjs map crawl_intl_all.txt --out map_intl_lp.tsv     # 頁題對照（命中 1021/1021）
+node crawl-lp.mjs crawl map_intl_lp.tsv                            # 冪等，已抓的跳過
+node crawl-lp.mjs resolve map_intl_lp.tsv --out map_intl_lp_disambig_all.tsv
+node crawl-lp.mjs crawl map_intl_lp_disambig_all.tsv --force       # 覆蓋消歧義目錄頁
+```
+
+- **先 map 再 crawl**：兩站頁題規則不同（`World Championship/2017` vs
+  `2017 Season World Championship`、`Uzi (Chinese player)` vs `Uzi (Jian Zi-Hao)`），
+  規則與人工表 `MANUAL_TITLES` 都在 `crawl-lp.mjs` 檔內，**改表不改產出檔**。
+- **`resolve` 解消歧義**：Leaguepedia 對同名 ID 給 `{{DisambigPage}}` 目錄頁，
+  用國籍後綴／TeamCard `pNflag=`／`posN=`／`team_history.json` 賽區四個既有訊號
+  評分解回單一候選（94 頁解掉 81）。解不掉的把每個候選頁另外落檔，清單寫
+  `unresolved_disambig_lp.tsv` 交 S25 實體對齊——**不猜**。
+- **`TYPE-MISMATCH`**：剝掉消歧義後綴後撞上同名戰隊（`Rogue`）時 `resolve` 會報，
+  補進 `MANUAL_TITLES` 即可。
+- 落檔名一律用 **Liquipedia 頁題**的 slug，下游不必分辨來源就能查。
 
 ## 頁題陷阱（S24b／S24c 枚舉時注意）
 

@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nagne&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.371Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nagne」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Nagne
+|name=Kim Sang-moon
+|nativename=김상문
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=September
+|birth_date_day=04
+|favchamp=Ahri
+|favchamp2=Nidalee
+|favchamp3=Gragas
+|checkbox1=No
+|checkboxComp=No
+|ids=나진 나그네, kkkkkkkkkkkkkH (NA), KT Nagne
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.azubu.tv/Nagne
+|facebook=https://www.facebook.com/tkdans19
+|twitter=Nagneee
+|instagram=nagne_k
+|deeplol=https://www.deeplol.gg/pro/Nagne
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+}}
+==Biography==
+===Season 3===
+Kim "'''Nagne'''" Sang-moon joined [[NaJin Black Sword]] as a sub in June 2013. His first professional games took place at the [[Season 3 World Championship]] where he played all 8 of Sword's games instead of mid laner [[SSONG]]. Nagne's play surprised many and Sword ended up losing 3-2 in a close set to eventual champions [[SK Telecom T1 K|SK Telecom T1]].
+
+===2014 Season===
+Nagne's inaugural games in OGN were at [[PANDORA.TV Champions Winter 2013-2014]] against [[Incredible Miracle 2]] but he only played two games and Sword were knocked out in the group stage after a mediocre showing. He then played in all six games in the group stages at [[HOT6iX Champions Spring 2014]] but once again Sword was knocked out early. Nagne left the team between seasons and joined the [[KT Rolster Bullets]]. He participated in [[HOT6iX Champions Summer 2014]] with his new team but they failed to make the quarterfinals. The KT Bullets gained enough circuit points to go to the [[2014 Season Korea Regional Finals]] but were swept in the first round by [[NaJin White Shield]].
+
+===2015 Season===
+Once the OGN rules were changed, the Bullets merged with their sister team, the [[KT Rolster Arrows|Arrows]], to create [[KT Rolster]]. With [[Rookie]]'s departure from the organization, Nagne filled in the starting mid lane role. KT participated in [[SBENU Champions Spring 2015]] and placed fifth, narrowly missing playoffs. [[Edge]] was called up to the starting roster prior to the start of [[SBENU Champions Summer 2015]] to share the starting mid lane position with Nagne. KT placed second overall during the regular season of Champions Summer. They made it to the finals of the playoffs but lost 3-0 to SK Telecom T1. KT earned enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] where they beat the [[Jin Air Green Wings]] 3-1 in the finals to qualify for the [[2015 Season World Championship]]. KT was drawn into a group with [[LGD Gaming]], [[Team SoloMid]], and [[Origen]]. They ended with a 5-1 record and went on to play the [[KOO Tigers]] in the quarterfinals. Unfortunately, they lost 3-1 and were knocked out of the tournament. 
+
+===2016 Preseason===
+KT played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the semifinals to [[CJ Entus]]. Nagne left KT on December 1.
+
+===2016 Season===
+Nagne joined the Chinese team [[Wan Yoo]] in May 2016. Before the [[LSPL/2016 Season/Summer Season|LSPL 2016 Summer Season]] began, the team acquired the LSPL slot and roster of [[MF Gaming]] and rebranded to [[WYDream]]. Nagne and jungler [[KaKAO]] were the only Wan Yoo players to join the new team. WYDream struggled to begin the split and sat at 5-10 at the end of Week 6, but improved enough to go 7-4 the rest of the way, eventually finishing tenth. They still had to play in [[LSPL/2016 Season/Summer Relegation|relegations]], but with favorable seeding due to their regular-season finish, easily swept [[Revenger (Chinese Team)|Revenger]] to requalify for the LSPL. In December, [[DS Gaming]] acquired the team, and Nagne left. 
+
+===2017 Season===
+Nagne's next competitive experience came in May 2017, when he joined European team [[Ninjas in Pajamas]], who had returned to the EU LCS by acquiring [[Fnatic Academy|Fnatic Academy's]] [[EU LCS/2017 Season/Summer Season|EU LCS 2017 Summer]] seed. Ninjas in Pyjamas were selected to be in Group A alongside [[Fnatic]], [[G2 Esports]], [[Misfits Gaming]] and [[Team ROCCAT]]. Nagne and NiP's season got off to a terrible start, as they failed to win a single game in the best-of-three EU LCS until Week 5 when they managed to take a single game off of [[Unicorns of Love]]. They finally won a series in Week 8 against [[Team ROCCAT]] and upset top-seeded [[Fnatic]] in Week 10, but the team was already far out of contention and finished last, sending them to the [[EU LCS/2018 Season/Spring Promotion|Promotion Tournament]]. NiP lost their first series against [[Giants Gaming]] 1-3 and moved on to the lower bracket, where they swept fellow LCS squad [[Mysterious Monkeys]] 3-0. After they were destroyed 3-0 the deciding match against [[FC Schalke 04 Esports]], Ninjas in Pajamas were relegated from EU LCS. They released all of their players in October. 
+
+===2019 Season===
+Nagne didn't play at all in 2018 before being picked up by Turkish team [[Beşiktaş Esports]] for the [[TCL/2019_Season/Winter_Season|TCL 2019 Winter Season]]. However, after a 2-0 start, Beşiktaş were never more than a .500 team for the rest of the split. With the team sitting at 7-9 after Week 8 but still in contention for one of the final playoff spots, Nagne was benched in favor of academy player [[Umut]] and didn't appear for the team again as they missed playoffs. He left the team in March and eventually returned to Korea to serve his mandatory military service. 
+
+
+== Trivia ==
+* His {{ci|Nidalee}} play during the quarter-finals of [[Season 3 World Championship]] vs [[Gambit Gaming]] led to a resurgence of the champion towards the end of Season 3.
+* He is 190cm tall.
+* Was considered one of the best Gragas player in the world before his rework.
+* Achieved rank 1 in Korean solo queue at the end of season 4.
+* Is known for blinking his eyes a lot when under pressure.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

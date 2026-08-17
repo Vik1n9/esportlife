@@ -1,0 +1,127 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Papara%20SuperMassive&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.341Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「SuperMassive eSports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Papara SuperMassive
+|organization=SuperMassive eSports (Organization)
+|orgcountry= Turkey 
+|country=
+|region=EMEA
+|owner=Hakan "'''Big Boss'''" Baş <br> Kaan "'''Godfather'''" Karamancı <br> İbrahim Onur "'''[[Lethilion]]'''" Aksu <br> Bora "'''CARPELUX'''"	Koçyiğit
+|analysts= 
+|headcoach= 
+|manager= Ulaş "'''USCG'''" Gülkirpik <br> Sercan "'''Secaf Reis'''" Çevikoğlu
+|captain= 
+|youtube= https://www.youtube.com/@supmassgg
+|instagram= supmassgg
+|website=https://www.supmass.gg
+|twitter= supmassgg
+|discord= https://discord.gg/supmassgg
+|lolpros=https://lolpros.gg/team/papara-supermassive
+|sponsor= [https://www.papara.com/ Papara] <br> [https://www.kappa.com Kappa] <br> [https://www.yemeksepeti.com Yemeksepeti] <br> [http://www.logitechg.com/tr-tr Logitech G] <br> [https://www.hawkchair.com Hawk]
+|created= 2016-01-06
+|otherwikis=
+|rosterphoto=
+}}{{TOCRWI}}
+
+'''Papara SuperMassive''' is a Turkish team. Between May 2021 and December 2022 the team was known as '''[[SuperMassive Blaze]]'''.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|CARPELUX|tr|Bora Koçyiğit|'''Co-Owner & Chief Executive Officer'''}}
+{{listplayersp|Big Boss|tr|Hakan Baş|'''Co-Owner'''}}
+{{listplayersp|Godfather|tr|Kaan Karamancı|'''Co-Owner'''}}
+{{listplayer|Lethilion|tr|İbrahim Onur Aksu|'''Co-Owner'''}}
+{{listplayersp|Big Poppa|tr|Berk Ata Yavuz|'''Head of Esports'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Basei|tr|Ömer Onay|'''Head Coach'''|newteam=SU Esports}}
+{{listplayersp|chaosDAD|hr|Josip Sokolić|'''Analyst'''|newteam=none}}
+{{listplayer|Naru (Koray Bıçak)|tr|Koray Bıçak|'''Streamer'''|newteam=BBL DP}}
+{{listplayer|Sanchi|pl|Maciej Bieńkowski|'''Analyst''' |newteam=SK}}
+{{listplayersp|Muller|tr|Emre Can Terzi|'''Head of Marketing'''|newteam=Eternal Fire}}
+{{listplayer|bezum|pl|Jakub Iwanicki|'''Strategic & Positional Coach''' |newteam=Forsaken (Polish Team)}}
+{{listplayer|click4x|ru|Vsevolod Tikhomirov|'''Strategic Coach'''|newteam=none}}
+{{listplayer|Arkhe|tr|Emre Akpınarlı|'''Head Coach''' |newteam=One More Esports}}
+{{listplayersp|tonbaliklimakarna|tr|Christopher Leo Willekens|'''Chief Operating Officer'''|newteam=none}}
+{{listplayer|Secaf|tr|Sercan Çevikoğlu|'''Head of Esports'''|newteam=none}}
+{{listplayersp|CinO|tr|Onur Keser|'''Interim CEO'''|newteam=none}}
+{{listplayer|Heart|kr|Yi Gwan-hyung (이관형)|'''Coach'''|newteam=RNG}}
+{{listplayer|Rider|tr|Yusuf Kaan Hacıbaltalı|'''Coach'''|newteam=none}}
+{{listplayer|Halpern|tr|Aral Norman|'''Advisory Coach'''|newteam=Gen.G}}
+{{listplayer|HolyPhoenix|tr|Anıl Işık|'''Coach'''|newteam=Phoenix Esports (Turkish Team)|comment=[[File:AD Carryrole icon.png|19px|link=]] Bot Laner}}
+{{listplayersp|KapiZiom|pl|Kacper Moskalczyk|'''Analyst'''|newteam=Retired}}
+{{listplayer|Tacocat|tr|Can Gormezano|'''Head Coach'''|newteam=DP}}
+{{listplayersp|USCG|tr|Ulaş Gülkirpik|'''General Manager'''|newteam=none}}
+{{listplayersp|Tunç Demirçelik|tr|Tunç Demirçelik|'''Content Manager'''|newteam=Retired|comment=Prodigy Agency}}
+{{listplayersp|Big Boss|tr|Hakan Baş|'''Co-Owner'''|newteam=SuperMassive Blaze}}
+{{listplayersp|Godfather|tr|Kaan Karamancı|'''Co-Owner'''|newteam=SuperMassive Blaze}}
+{{listplayer|Lethilion|tr|İbrahim Onur Aksu|'''Co-Owner'''|newteam=SuperMassive Blaze}}
+{{listplayersp|USCG|tr|Ulaş Gülkirpik|'''General Manager'''|newteam=SuperMassive Blaze}}
+{{listplayer|Secaf|tr|Sercan Çevikoğlu|'''Team Manager & Admin'''|newteam=SuperMassive Blaze}}
+{{listplayersp|Tunç Demirçelik|tr|Tunç Demirçelik|'''Content Manager'''|newteam=SuperMassive Blaze}}
+{{listplayer|CristoL|tr|Şükrü Aykut Yeşilkaya|'''Head Coach'''|newteam=SuperMassive Blaze}}
+{{listplayer|MightySultan|tr|Berkalp Yılmazoğlu|'''Team Manager'''|newteam=GS}}
+{{listplayer|Pades|tr|Serdar Padeş|'''Coach'''|newteam=FLA}}
+{{listplayer|GBM|kr|Lee Chang-seok (이창석)|'''Coach'''|newteam=T1}}
+{{listplayer|Tacocat|tr|Can Gormezano|'''Intern Coach'''|newteam=SUP.A}}
+{{listplayer|CristoL|tr|Aykut Yeşilkaya|'''Coach'''|newteam=GAL}}
+{{listplayersp|BunDem|tr|Alperen Güngör|'''Assistant Manager'''|newteam=none}}
+{{listplayer|Thaldrin|tr|Berke Demir|'''Consultant'''|newteam=none}}
+{{listplayer|VicaL|kr|Kim Sun-mook (김선묵)|'''Head Coach'''|newteam=AK}}
+{{listplayer|Doctor|tr|İbrahim Karaaslan|'''Assistant Coach'''|newteam=ISWC}}
+{{listplayersp|qLuon|tr|Erol Batuhan Tamcı|'''Analyst'''|newteam=SAGL}}
+{{listplayer|Irean|kr|Heo Yeong-cheol (허영철)|'''Head Coach'''|newteam=CLG}}
+{{listplayer|Simon|link=Simon (Simão Oliveira)|pt|Simão Oliveira|'''Assistant Coach'''|newteam=K1ck PT}}
+{{listplayer|Exorant|ro|Daniel Hume|'''Head Coach'''|newteam=Royal Bandits}}
+{{listplayersp|Hazel|dk|Nicolai Larsen|'''Life Coach'''|newteam=Team Kinguin}}
+{{listplayer|Pades|tr|Serdar Padeş|'''Analyst'''|newteam=1907 Fenerbahçe Esports}}
+{{listplayer|Gevous|nl|Fayan Pertijs|'''Micro Coach'''|newteam=REDC}}
+{{listplayer|hatchý|pl|Adrian Widera|'''Head Coach'''|newteam=Team Kinguin}}
+{{listplayersp|BunDem|tr|Alperen Güngör|'''Manager'''|newteam=SUP TNG}}
+{{listplayersp|Greyness|tr|Alp Oflas|'''Assistant Manager'''|newteam=none}}
+{{listplayer|fabFabulous|tr|Asım Cihat Karakaya|'''Coach'''|newteam=SUP|comment=[[File:TopLanePick.png|19px|link=]] Top Laner}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As SuperMassive Esports===
+{{TeamResults|SuperMassive eSports|show=overviewpage}}
+
+==Media==
+{{TeamMedia}}
+
+== Images ==
+<gallery>
+SuperMassive eSportsOldlogo square.png|Old Logo
+SuperMassive eSportsBAUlogo square.png|Old Logo
+SuperMassive eSportsBahçeşehirlogo square.png|Old Logo
+PaparaSuperMassiveLogoBlack.png|Alternative Logo (Black)
+Papara SuperMassive Logo White (1).png|Alternative Logo (White)
+</gallery>
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />

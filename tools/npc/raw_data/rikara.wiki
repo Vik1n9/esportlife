@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Rikara&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.822Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Rikara」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Rikara
+|name=Richard&nbsp;Samuel Oh
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|checkbox-res=No
+|birth_date_year=1997
+|birth_date_month=December
+|birth_date_day=08
+|favchamp=Kalista
+|favchamp2=Ezreal
+|favchamp3=Twitch
+|checkbox1=No
+|compID1=Moonway
+|checkboxComp=No
+|ids=나왜이케못하지 (KR),<br>lalahaha (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/rikaralol
+|facebook=https://www.facebook.com/rikaralol
+|twitter=Rikara
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Moonway'''.
+}}
+==Biography==
+===2016 Season===
+In June, Rikara became the starting AD carry for [[Nova eSports (North American Team)|Nova eSports]], a new team that purchased [[Ember]]'s [[NA Challenger Series/2016 Season/Summer Season|NACS Summer Season]] seed.
+
+===2018 Season===
+
+After a failed attempt at reaching the LCS with [[Gold_Coin_United|Gold Coin United]] in the 2017 season, Rikara joined [[100_Thieves_Academy|100 Thieves Academy]] just before the end of the year. Having just imported [[Levi]] from the GPL, this Academy team was met with high expectations. However, visa issues plagued the team and they would ultimately finish the Spring Split with a 7-11 record, just outside of playoffs at 8th place.
+
+Summer Split was the sign of new beginnings for Rikara and the rest of the team. [[Brandini]] was imported from [[TSM_Academy|TSM Academy]] as well as [[Stunt]], who was coming off the back of a questionable Spring Split performance on [[FlyQuest]]'s LCS team. Nevertheless, the team found their stride and much more success, finishing with a 10-8 record, just barely making it into playoff contention. They were ultimately defeated 2-3 by eventual runner-ups [[CLG_Academy|CLG Academy]] in the quarterfinals.
+
+After the LCS roster's successful 3-0 sweep of FlyQuest in the quarterfinals of playoffs, 100 Thieves surprisingly announced that Rikara would be starting over [[Cody_Sun|Cody Sun]] in their semi-final match against [[Team_Liquid|Team Liquid]], which they would ultimately lose 1-3. Rikara would also start in the first game of their third-place match against [[Team_SoloMid|Team SoloMid]], but was subbed out for the remainder of the set afterwards, despite winning. 100 Thieves would go on to lose 2-3, but qualify for the [[2018_Season_World_Championship|2018 Season World Championship]] as North America's 2nd seed based off of circuit points after Team Liquid's successful finals sweep.
+
+100 Thieves were drawn into group D at Worlds, alongside [[Fnatic]], [[Invictus Gaming]], and [[G-Rex]]. In what became one of the most controversial decisions of the 2018 season worldwide, Rikara started over Cody Sun for all 6 group stage games. 100 Thieves finished 3rd in their group with a 2-4 record, eliminated from the tournament.
+
+Both Rikara and Cody Sun left the organization on November 28th, 2018, amidst the signing of former SK Telecom T1 player [[Bang]] to the roster.
+
+== Trivia ==
+* Although he played for [[100 Thieves]] in both the [[NA LCS/2018 Season/Summer Playoffs|NA LCS Summer Playoffs]] and the [[2018 Season World Championship/Main Event|2018 World Championship]], as of 2019, he has yet to play a regular season game at the LCS level for any team.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Targamas&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.344Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Targamas」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Targamas
+|name=Raphaël Crabbé
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Belgium
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=June
+|birth_date_day=30
+|favchamp=Senna
+|favchamp2=Pyke
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Targamas#5555 <br> '''KR:''' Grizzly Hills#123 <br> '''NA:''' EVOLVE5555#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/targamas1
+|twitter=Targamas
+|instagram=targamaslol
+|lolpros=https://lolpros.gg/player/targamas
+|deeplol=https://www.deeplol.gg/pro/Targamas
+|dpmlol=https://dpm.lol/pro/Targamas
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* He is good friends with [[Saken]].
+* He and [[Sheriff]] were the first players born in the 2000s to play in the EU LCS.
+* Frequently hovers champions during draft as a tribute for his friends, such as {{ci|Shaco}} for [[Marex (Alexis Girat)|Marex]], {{ci|Aurelion Sol}} for [[Saken]] or {{ci|Vel'koz}} for [[Rhobalas]] 
+* After his win of the LEC ([[LEC/2025 Season/Winter Playoffs|LEC 2025 Winter]]) with [[Karmine Corp]], he became the third player alongside [[Yike]] to win the LEC in two different teams, after [[Caps]] and [[Hylissang]]<ref>https://x.com/Sheep_Esports/status/1896368788301631590</ref>
+=== Individual Awards ===
+* EU 3rd All-Pro Team x1 (Spring 2022)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Triple&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.785Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Triple」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Triple
+|name=Stephen Li
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=February
+|birth_date_day=26
+|favchamp=Azir
+|favchamp2=Viktor
+|checkbox1=No
+|checkboxComp=No
+|ids='''OCE:''' TripleCheese, QQ64291058023451<br>'''EUW:''' xd hello 4u<br>'''NA:''' twtv TripleOCE
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tripleoce
+|twitter=TripleOCE
+|lolpros=https://lolpros.gg/player/triple/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Triple is from Sydney, Australia. He started playing League of Legends in late season 2. After reaching Challenger in season 4, he was asked to join his first team, and since then he has played for multiple teams including [[Avant Academy]] and [[Legacy Genesis]]. In January 2016, Triple joined [[Avant Garde]] to play in the [[OPL/2016 Season/Split 1|OPL]]. Triple spent the next two years on the middling Avant Garde team until he was picked up by the domestically dominant [[Dire Wolves]] to replace the retiring [[Phantiks]]. With Triple on the roster, Dire Wolves continued its domestic success, won both splits, and attended both [[MSI 2018]] and [[Worlds 2018]], although the team was eliminated in the Play-In stage in both tournaments. Afterward, Triple left the team and joined [[MAMMOTH]] for the 2019 season. After a mediocre spring, the team improved in summer after the addition of [[Fudge]] and wound up winning the split. At [[Worlds 2019]], the team was eliminated in the Play-In stage.
+
+After Worlds 2019, Triple spent a month at the [[Royal Never Give Up]] facility and almost signed with their secondary team, [[Royal Club]], before deciding to sign with [[FlyQuest Academy]] due to the organization's atmosphere. The team had a quiet year, placing 8th in [[NA Academy 2021 Spring]] and 9th in [[NA Academy 2021 Spring|Summer]]. Despite the team's poor performance, Triple put up strong statistics, with high CSD at 15, high kill participation, and a decent KDA. Favoring a control mage playstyle, he also had a high gold share and high damage per minute.<ref>[https://www.youtube.com/watch?v=ljcSmbbx2Qw Majoring in the Minors: FlyQuest Academy (NA Academy)] ''youtube.com''</ref>
+
+=== 2021 Season ===
+Triple was the only player on the Academy or LCS roster to remain with the [[FlyQuest]] organization going into 2021. FlyQuest Academy continued its mediocre performance, finishing 6th in [[NA Academy 2021 Spring]] and 7th-8th at [[LCS Proving Grounds 2021 Spring]]. However, the team's performance improved considerably during [[NA Academy 2021 Summer|Summer]], contesting the 1st-place position midway into the split. Due to poor performances from the LCS roster, FlyQuest announced that the entire Academy roster would be promoted to the LCS prior to Week 6. Against expectations, the team went 3-0 in their first week, with Triple earning two Player of the Game awards. However, the team struggled to find success in the next few weeks, and Triple was returned to the Academy roster prior to Week 9.
+
+=== 2022 Season ===
+Triple moved to [[CLG Academy]] at the beginning of the 2022 season. The team was dominant in the spring regular season, finishing 1st, but was eliminated 7-8th in Proving Grounds. After some mid-season roster changes, the team performed less well in summer, and finished Proving Grounds 7-8th again.
+
+At the beginning of the 2023 season, Triple moved to another academy roster, that being [[TSM Academy]]. However, before the season began, his ex-girlfriend made a public post revealing that he had dealt with serious substance abuse and anger management issues over the previous year, culminating in threats of violence against others.<ref>[https://twitter.com/makrysNA/status/1608302946583969792?t=fKGmCvTzl3HKLVOzQhW2TQ&s=19 Long's Tweet] ''twitter.com''</ref> In response to the post, TSM dropped him from the roster before he played a single game.
+
+== Trivia ==
+* His ID '''Triple''' is based on a McDonald's burger.
+* Known for his play on control mages, with {{ci|Azir}}, {{ci|Viktor}}, {{ci|Orianna}}, and {{ci|Syndra}} all among his most played champions.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

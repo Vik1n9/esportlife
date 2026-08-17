@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Apex%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.802Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Apex Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=Team Dignitas
+|region=NA
+|name= Apex Gaming
+|orgcountry= North America 
+|country= United States
+|image= Apexsquare.png
+|coaches= 
+|manager= 
+|captain= 
+|website= https://www.apxgaming.com/
+|youtube= https://www.youtube.com/channel/UCNGj8pHJfRm54xSsB1Ffhvw
+|facebook= https://www.facebook.com/apxgg
+|twitter= apxgg
+|sponsor= 
+|created= 2016-01-20
+|disbanded= 
+|trades= 
+|rosterphoto=
+}}{{TOCRWI|2}}
+
+'''Apex Gaming''' was previously a North American team. In September 2016, they merged with {{bl|Team Dignitas}}. For the Apex Legends esports wiki, '''[[apex:Main Page|click here]]'''.
+
+== History ==
+=== 2016 Season ===
+'''Apex Gaming''' was announced to have acquired [[Team Imagine]]'s [[NA Challenger Series/2016 Season/Spring Season|NACS 2016 Spring Season]] seed in a LoL Esports article on January 8, 2016.<ref>[http://www.lolesports.com/en_US/articles/2016-na-cs-qualifier-finals-primer 2016 NA CS Qualifier Finals primer] ''lolesports.com''</ref> Their roster wasn't revealed until almost two weeks later and included three former LCS players - [[Cris]], [[Keane]], and [[Xpecial]] - and two Korean players: [[Eve]] from [[Samsung]] and [[Police (Park Hyeong-gi)|Police]] from [[ESC Ever|Ever]], with [[Shrimp]] as a substitute. They were coached by former [[Team Coast]] coach [[Saintvicious]] and former Samsung mid laner [[BlisS]].<ref name="formation">[http://www.twitlonger.com/show/n_1so78if Saintvicious's Twitlonger] ''twitlonger.com''</ref>
+
+Apex won both the regular season of NACS and the [[NA Challenger Series/2016 Season/Spring Playoffs|playoffs]], using both Eve and Shrimp actively in the jungle. In the [[League Championship Series/North America/2016 Season/Summer Promotion|promotion tournament]], they were seeded first against the ninth-place [[Team Impulse]], to whom they lost, and then against second place Challenger team [[Team Dragon Knights]], a rematch of the Challenger Series finals. This time, they didn't even drop one game against TDK and qualified successfully for the [[League Championship Series/North America/2016 Season/Summer Season|LCS summer split]].
+
+On May 2, during the midseason break, Apex announced the indefinite suspension of Eve for "disciplinary reasons."<ref name="evesuspend">[http://twitter.com/apxgg/status/727061105529511937 Apex's Tweet] ''twitter.com''</ref> Soon after the suspension, ESPN reported that the reason for the ban was due to Eve's Korean account being banned by Riot Korea for use of scripts.<ref>[http://espn.go.com/espn/now?nowId=21-0519272063513401574-4 Jacob Wolf's ESPN Now post] ''espn.go.com''</ref> Additionally, the team added [[Ray]] and [[Apollo (Apollo Price)|Apollo]] to their starting roster, replacing Cris and Police, respectively. The starting lineup of Ray, Shrimp, Keane, Apollo, and Xpecial was used for all of their summer split games.
+
+Apex's season started out strong, with a 2-0 first week including a 2-1 upset of reigning NA LCS champions and [[2016 Mid-Season Invitational|MSI]] alums [[Counter Logic Gaming|CLG]]. Their success, however, was short-lived, and by week 5 they were in 7th place, where they remained for the rest of the season, out of reach of the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]] but also safe from [[League Championship Series/North America/2017 Season/Spring Promotion|relegations]] for the [[League Championship Series/North America/2017 Season/Spring Season|2017 Spring Season]].
+
+In September, Apex Gaming was acquired by the '''Philadelphia 76ers''' along with Team Dignitas, and the two organizations merged, under the Dignitas brand.<ref name="76acquire">[http://team-dignitas.net/articles/news/Team-Dignitas/10251/philadelphia-76ers-acquire-merge-and-manage-leading-esports-teams-dignitas-and-apex Philadelphia 76ers acquire, merge and manage leading esports teams Dignitas and Apex] ''team-dignitas.net''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+=== Former ===
+{{TeamMembersFormer}}
+
+== Organization ==
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||us|David Slan|'''Owner'''|newteam=none}}
+{{listplayersp||us|Michael Slan|'''Owner'''|newteam=Dignitas}}
+{{listplayersp|Shark|us|Charlene Hamm|'''General Manager'''|newteam=Dignitas}}
+{{listplayer|Saintvicious|us|Brandon DiMarco|'''Head Coach'''|newteam=Dignitas}}
+{{listplayer|Cop|us|David Roberson |'''Coach'''|newteam=Dignitas}}
+{{listplayer|BlisS|kr|Park Jong-won (박종원)|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Crumbz|ve|Alberto Rengifo|'''Assistant Coach'''|newteam=caster}}
+{{listplayer/End}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== See Also ==
+
+== External Links ==
+
+== Images ==
+<gallery>
+Apex_2016SummerPromotion.jpg|Apex's 2016 LCS Summer Promotion Roster
+File:Apex GamingOldlogo square.png|Previous Logo
+</gallery>
+
+== References ==
+<references />

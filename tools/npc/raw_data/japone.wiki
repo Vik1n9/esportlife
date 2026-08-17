@@ -1,0 +1,72 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Japone&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.665Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Japone」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Japone
+|name=Bahadır Çolak
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=December
+|birth_date_day=23
+|favchamp=Thresh
+|favchamp2=Rakan
+|favchamp3=Karma
+|checkbox1=No
+|compID1=clayoffensive
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/japone
+|facebook=https://www.facebook.com/JaponeQQ
+|twitter=JaponeLoL
+|instagram=japonelol
+|youtube=https://www.youtube.com/channel/UCqNuqox6IL15SPOxUOvIJtA
+|discord=https://discordapp.com/invite/Wcgqm8a
+|lolpros=https://lolpros.gg/player/japone
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''clayoffensive'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

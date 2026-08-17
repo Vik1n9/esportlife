@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Archie%20(Tr%E1%BA%A7n%20Minh%20Nh%E1%BB%B1t)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.381Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Archie (Vietnamese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Archie
+|name=Trần Minh Nhựt
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1992
+|birth_date_month=July
+|birth_date_day=26
+|favchamp=Ezreal
+|favchamp2=Jinx
+|checkbox1=No
+|checkboxComp=No
+|ids=SAJ Archie, BM Archie (SEA),<br>Lên Bố Giết 2 (SEA),<br>Gout man 27t (VN)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.youtube.com/channel/UCE8lr4Yv-lZBrY_mQSH3fgA
+|facebook=https://www.facebook.com/muoimap210
+|instagram=archie210000
+|youtube=https://www.youtube.com/channel/UCE8lr4Yv-lZBrY_mQSH3fgA
+|deeplol=https://www.deeplol.gg/pro/Archie-Tr%E1%BA%A7n_Minh_Nh%E1%BB%B1t
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=When he was an AD carry, he was known as one of the best {{ci|Ezreal}} players in the world.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Prior to playing League of Legends, Archie played ''DOTA'' for the team StarsBoba.
+
+== Trivia ==
+* When he played ''DOTA'', he played in a support role.
+* His favorite champion is {{ci|Ezreal}}.
+* He has an intelligent style and can lead his team to success.
+* Throughout his competitive career, he has played every role except Jungle.
+* He is also known as "Muội Mập".
+{{PlayerStatsTrivia}}
+
+==Achievements==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}
+
+==External Links==
+[http://www.youtube.com/watch?v=c0F7VdOsSVw Archie Picks Ezreal]
+
+{{PlayerPageEnd}}

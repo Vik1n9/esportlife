@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=InSec&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.015Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「inSec」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=inSec
+|name=Choi In-seok
+|nativename=최인석
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=June
+|birth_date_day=29
+|favchamp=Lee Sin
+|favchamp2=Zed
+|favchamp3=Olaf
+|favchamp4=Renekton
+|checkbox1=Yes
+|favchamp5=Shaco
+|checkboxComp=No
+|ids='''KR:''' Choi inSec, 2022Y 2M 28D
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/47c49bff55111a6cfd30bb299e9d2e5d
+|twitter=inSec93
+|videoarchive=https://www.twitch.tv/insec13
+|youtube=https://www.youtube.com/channel/UCJya4-GyYqW4B6uXwB3ryMw
+|deeplol=https://www.deeplol.gg/pro/inSec
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Top
+|nicknames=因妈
+}}
+==Biography==
+===Season 2===
+Choi "'''inSec'''" In-seok played in his first competitive tournament during [[NLB Spring 2012]] as a part of [[Team Bubble]]. The team won the finals 3-0 against [[Light (光)]] for a chance to qualify for [[Azubu The Champions Summer 2012]]. However, inSec left the team and joined [[CJ Entus]] in August. CJ managed to qualify for the [[Season 2/Regional Finals - Seoul|Season 2 Korea Regional Finals]] but they lost in the fifth place tie breaker match 3-1 to [[Incredible Miracle]] and failed to make it to the main event.
+
+===Season 3===
+CJ Entus were invited to compete at [[IEM Season VII - Global Challenge Cologne|IEM Cologne]] and they managed to make it to the semifinals but they lost 2-1 to [[Fnatic]]. CJ also got to compete at [[OLYMPUS Champions Winter 2012-2013]] where they made it to the quarterfinals and played a close set against [[Azubu Frost]] but in the end they lost 3-2. The CJ organization picked up two new teams, [[CJ Entus Frost]] and [[CJ Entus Blaze]], so the original CJ team disbanded and inSec joined [[KT Rolster B]] as their jungler. His first real tournament with the team was [[OLYMPUS Champions Spring 2013]] and it was here that inSec began to make his name as an all time great jungler. Unfortunately, KTB lost in the quarterfinals 3-1 to the eventual champions, [[MVP Ozone]]. But inSec became a fan favorite and was voted to represent Korea as a jungler at [[All-Star Shanghai 2013]]. [[Korea Champions|Korea's all star team]] won the finals 2-0 against [[China LPL|China's team]] and earned Korea an extra seed in the [[Season 3 World Championship]]. Soon afterwards, KTB renamed to the KT Rolster Bullets and [[Kakao]] rejoined the team as a jungler. To make room, inSec became a top laner for the first time in his career. The swap paid off when at the next OGN, [[HOT6iX Champions Summer 2013]], the Bullets made it all the way to the finals and played a best of five against [[SK Telecom T1 K|SK Telecom T1]] that is considered to be the greatest series of League of Legends ever played. Unfortunately for the Bullets, SKT narrowly came out on top 3-2. The Bullets still qualified for the [[Season 3 Korea Regional Finals]] and made it to the finals, but once again lost to SKT, this time in a 3-1 series.
+
+===2014 Season===
+The new season began for inSec and the Bullets at [[PANDORA.TV Champions Winter 2013-2014]] where they were swept by SKT K in the semifinals but managed to place third by beating [[NaJin White Shield]]. The Bullets were then invited to play in the [[IEM Season VIII - World Championship]] in Katowice and managed to sweep the finals against Fnatic to win the whole tournament without dropping a game even though they were not considered to be a strong team at the time. They flew back to Korea for [[HOT6iX Champions Spring 2014]] and made the playoffs but lost a close 3-2 series against NaJin White Shield. InSec decided to move to China to join [[Star Horn Royal Club]] with his teammate [[Zero (Yoon Kyung-sup)|Zero]]. He became a jungler once again on Royal and played his first season with the team during the [[2014 LPL Summer/Regular Season|2014 LPL Summer Regular Season]]. They placed third and qualified for the [[2014 LPL Summer/Playoffs|2014 LPL Summer Playoffs]]. Here Royal placed third again, losing 3-2 to [[OMG]] in the loser's bracket. Royal still managed to qualify for the [[2014 Season China Regional Finals]] where they swept through the tournament to qualify for the [[2014 Season World Championship]] as the second seed from China. A few days later they were knocked out of the semifinals of [[X Championship/Season I|X Championship Season I]] 2-0 by [[Team King]]. Royal managed to fight their way to the finals of Worlds but lost a convincing 3-1 to [[Samsung White]]. Royal competed in [[Demacia Cup/Season 2]] but were knocked out in the semifinals by [[EDward Gaming]] 2-0.
+
+===2015 Season===
+Soon afterwards, there was another Demacia Cup, [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]]. Royal made it to the quarterfinals but lost 3-0 to [[Team WE]]. A few weeks later, the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] ended in tenth place. They were forced to play in the [[2015 LPL/Summer/Promotion|2015 LPL Summer Promotion]] where they failed to qualify when they lost 3-0 to [[Gamtee]] in the semifinals. The roster was bought by the Team King organization and replaced the entirety of the old team. In June, inSec moved back to top lane to replace the old top laner, [[Cola (Jiang Nan)|Cola]]. King competed in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] but lost 3-1 to [[Unlimited Potential]] in the round of 16. About a month later, the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] ended with King in dead last, 12th. They had to play in the [[LPL/2016 Season/Spring Promotion|2016 LPL Spring Promotion]] where they got relegated again after losing 3-1 to [[2144 Danmu Gaming]] in the first round.
+
+== Trivia ==
+* His ID '''inSec''' is based on his given name (In-seok).
+* Known for his {{ci|Lee Sin}}. He popularized the "inSec kick," a move that uses Lee Sin's mobility and Dragon's Rage ability to kick an enemy into the Lee Sin's team.
+* Popularized {{ci|Zed}} jungle in the competitive scene and even drew Zed bans.
+* He played {{ci|Shaco}} in the finals of the [[Asian Indoor-Martial Arts Games 2013]], in which he transitioned from 3 early Doran's Blades into a Youmuu's Ghostblade. According to [[OnGameNet]]'s caster, it was the first time a jungle {{ci|Shaco}} had won in the competitive scene televised by OGN.
+* Moved into the top lane as he wanted to initiate with more items and he felt limited when he was in the jungle position.
+* Popularized Top Lane {{ci|Zac}}.
+* Was introduced to ''League of Legends'' from a friend while playing ''Mabinogi Heroes'' (also known as ''Vindictus'' in the United States).
+* Broke his leg during rehearsals of the [[2015 Demacia Cup/Spring Season|Demacia Cup 2015 Spring]] semifinals.<ref>[https://www.thescoreesports.com/lol/news/930-insec-hospitalized-after-breaking-his-leg inSec hospitalized after breaking his leg] ''www.thescoreesports.com''</ref>
+* Came up with 3 goals when he left CJ Entus (he accomplished the first two): 
+** Win against CJ Entus;
+** Make it to Worlds;
+** Win the LCK.
+* His father passed away when he was participating in the EU Masters 2018 and he felt guilty for not staying in Korea with his father.
+* Was invited to [[Return of the Legends 2018]] in Hong Kong which inspired inSec to return to pro play.
+* Decided to retire because he had to join the South Korean army anytime.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

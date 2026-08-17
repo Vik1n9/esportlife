@@ -1,0 +1,109 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ambition&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.630Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ambition」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Ambition
+|name=Kang Chan-yong
+|nativename=강찬용
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1992
+|birth_date_month=October
+|birth_date_day=27
+|favchamp=Kha'Zix
+|favchamp2=Lee Sin
+|favchamp3=Sejuani
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' CJ Entus 엠비션<br>Azubu B Ambition<br>MiG Ambition<br>midkingking<br>Arnbition<br>CJ Ambition<br>I am not magnet<br>강찬밥<br>maengsdog<br>꿈꾸지오오<br>강찬밥
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/8a59b34b46271960c1bf172bb0fac758
+|facebook=https://www.facebook.com/chandragon2
+|twitter=lol_ambition
+|instagram=ambition921027
+|youtube=https://www.youtube.com/channel/UCHYMpkGhNIr8A0m2H3lIjUA
+|deeplol=https://www.deeplol.gg/pro/Ambition
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|prev2=Mid
+}}
+==Biography==
+Kang "'''Ambition'''" Chan-yong was born in Seoul and currently lives in Ilsan. He was 9 years old when he started gaming, and he played StarCraft for a decade. When he started to hear that League of Legends might overtake Starcraft in popularity, he switched over and started playing seriously around the time of Nocturne's release. At first he played primarily AD Carry, focusing on {{ci|Vayne}}, but he switched to mid lane when he joined his first competitive team.
+
+===Season 2===
+Ambition's professional career began when he joined [[MiG Blaze]] in November of 2011. In the first season of [[Azubu The Champions Spring 2012|Champions]], Blaze upset their sister team, [[Azubu Frost|Frost]], in a clean 3-0 sweep. In June 2012, both teams were sponsored by Azubu and were renamed to Azubu Blaze and Azubu Frost. Blaze then attended their first international tournament, [[2012 MLG Pro Circuit/Summer/Arena|MLG Summer Arena]], where they dominated the competition, sweeping fan favorites [[Team SoloMid]] 3-0 in the finals. Blaze would soon attend [[ Azubu The Champions Summer 2012]] where they were beaten in the semifinals by Frost 3-2 and would subsequently lose the third-place match to [[NaJin Sword]] 2-0. Blaze qualified for the [[Season 2/Regional Finals - Seoul|Season 2 Korea Regional Finals]] but they lost to Sword again in the finals 3-2. A month later they would attend the [[2012 MLG Pro Circuit/Fall/Championship|2012 MLG Fall Championship]] with [[Shy]] as their top lane sub. They dropped 2-0 to Sword in the 4th round but came back in the loser's bracket to beat Sword in two straight sets, taking it 4-1. Their next tournament was [[IPL 5]] where they came in as favorites. Blaze was seeded into the loser's bracket after a poor group stage and then they lost in the 3rd round 2-1 to [[Moscow 5]]. At the start of 2013, Blaze went to [[IEM Season VII - Global Challenge Katowice|IEM Katowice]] where they would drop to [[Gambit Gaming]] 2-0 in the finals. 
+
+===Season 3===
+At the start of the season, Blaze played in [[OLYMPUS Champions Winter 2012-2013]] where they placed 4th again after losing two 3-2 sets to Frost and then being swept 3-0 by [[KT Rolster B]]. A week later both Blaze and Frost would depart Azubu to join [[CJ Entus]] and rename themselves [[CJ Entus Blaze]] and [[CJ Entus Frost]] respectively. Blaze was invited to [[IEM Season VII - World Championship]] where they took the whole tournament 3-1 against Frost. Ambition was voted in as the mid laner for Korea at [[All-Star Shanghai 2013]] and they beat the Chinese team 2-0 to win Korea another spot at the [[Season 3 World Championship]]. Blaze went back to Korea to finish the [[OLYMPUS Champions Spring 2013]] playoffs where they lost 3-0 to [[MVP Ozone]] in one of the biggest upsets in League of Legends history. Blaze's next tournament was [[HOT6iX Champions Summer 2013]] where they had their worst result yet, dropping out in the quarterfinals 3-2 to the KT Rolster Bullets. They still qualified for the [[Season 3 Korea Regional Finals]] but they were swept 3-0 in the first round by the Bullets. Before the next season started, they qualified for [[2013 World Cyber Games/Main Tournament|WCG 2013]] where they beat [[OMG]] 2-0 in the finals, winning the tournament and not dropping a single game. 
+
+===2014 Season===
+At the beginning of the 2014 season, Blaze attended [[PANDORA.TV Champions Winter 2013-2014]] where they once again dropped out of the quarters, losing 3-1 to the Bullets. They performed better at [[HOT6iX Champions Spring 2014]], where they placed fourth after losing 3-2 to [[NaJin White Shield]] and then 3-2 to [[Samsung Ozone]]. In the final OGN of the season, HOT6iX Champions Summer 2014, Blaze didn't even make it to the group stage, their worst result yet.
+
+===2015 Season===
+Due to changes to the OGN rules, Blaze and Frost were forced to merge, creating CJ Entus. Ambition was replaced in the mid lane by [[CoCo]] but he roleswapped to the jungle and became the starting jungler for the team. They were invited to [[IEM Season IX - World Championship|IEM Katowice]] in March 2015. They finished in 5th/6th place, after defeating Gambit Gaming but then losing to Team SoloMid and [[Team WE]]. CJ participated in [[SBENU Champions Spring 2015]] where they lost in the semifinals 3-2 to [[SK Telecom T1]]. [[Trick]] was called up to the starting roster prior to the start of [[SBENU Champions Summer 2015]] to share the starting jungle position with Ambition. CJ placed third in the regular season of Champions Summer but lost 3-0 to the [[KOO Tigers]] in the second round of the playoffs. CJ had enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] but they lost 3-2 to the [[Jin Air Green Wings]]. 
+
+===2016 Preseason===
+CJ played in the [[2015 LoL KeSPA Cup]] where they lost 3-0 in the finals to [[ESC Ever|Ever]]. Ambition left CJ Entus in November to join [[Samsung Galaxy]] as their new jungler.
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Samsung Galaxy went 10-8 in sets overall. After looking like they could clinch the fifth and final seed for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], Samsung Galaxy were unfortunately denied by the surging [[Afreeca Freecs]], who beat them by the game score tiebreaker, giving Samsung sixth place for the split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], Samsung stayed a top four team throughout the split, notably taking a 2-0 series win against the [[ROX Tigers]], one of two teams to do so. However consistent they were against the teams below them, Samsung rarely won against the three teams above them - [[ROX Tigers]], [[SK Telecom T1]], and [[KT Rolster]]. They managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]].They made it into the play off and by defeating [[Albus_NoX_Luna|Albus NoX]] and [https://en.wikipedia.org/wiki/H2k-Gaming H2K] they managed to make it finals, where they faced their biggest enemy yet [https://en.wikipedia.org/wiki/T1_(esports) SK Telecom T1] and lost 3-2, giving SKT there third Worlds win and second consecutive win (2015-2016) at the  [https://en.wikipedia.org/wiki/Staples_Center Staples Center] in [https://en.wikipedia.org/wiki/Los_Angeles Los Angeles].
+
+== Trivia ==
+* As a result of his consistent performance, he was selected as the mid-laner for the Korean team at [[All-Star Shanghai 2013]] which his team won.
+* Considered the most consistent Mid-laner in all of Korea.
+* In March 2012, his favorite champions were {{ci|Soraka}} and {{ci|Cassiopeia}}.<ref>[http://www.thisisgame.com/board/view.php?id=1124185&category=13735 ''"MiG Blaze Team Interview"'']</ref>
+* Famous for his brusque face and scary-looking smile, which made him a distorted character of "swinging the bat toward his team mates when he feels anger." This is also due to his resemblance to Korean murderer Lee Ho-sung (이호성), who was once a famous baseball player.
+* He thinks the performance of Mid-laners in Korea are still underestimated, compared to that of other regions.<ref>http://www.thisisgame.com/board/view.php?id=1519266&board=0&category=13737&subcategory=&page=1&best=&searchmode=title&search=%EA%B0%95%EC%B0%AC%EC%9A%A9&orderby=&token=</ref>
+* Was once ranked second on NA solo queue.
+* After the finals of OGN Spring 2013 he fell into a slump during the Summer season but the recent Winter season in 2013 - 2014 is regarded as his break through season.
+* Was a part of MiG Blaze when they won the first ever OGN season.
+* Reached 1000 Kills in the LCK on July 26, 2018.<ref>[https://korizon.net/ambition-the-living-legend-of-lck-is-the-7th-player-to-record-1000-kills-in-lck/ ''"Korizon article"'']</ref>
+** The 7th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], and [[Smeb]].
+** His 1000th kill was on [[Griffin (Korean Team)|Griffin]]'s jungler [[Tarzan (Lee Seung-yong)|Tarzan]] in the [[LCK 2018 Summer|LCK 2018 Summer Season]] with {{ci|Sejuani}}.
+** Had 500 kills playing as a mid laner and the other 500 playing as a jungler.
+*In his SSG skin, Jarvan IV, he dedicated his return to base first to his favorite sport (baseball) and second to wife by first taking out a baseball bat and then turning it into a bouquet of flowers delivered between wedding bells.
+* He was featured in "RISE" - Worlds 2018 promotional music video as a main character.
+* He is married to Maeng Sol-ji since 2017.<ref>[https://www.invenglobal.com/articles/1691/ssg-ambition-to-be-married-on-may-13th/ ''"SSG Ambition to be married on May 13th"'']</ref>
+* He had a son in 2022 and he named him after the champion {{ci|Jarvan IV}}.<ref>[https://www.oneesports.gg/league-of-legends/ambition-names-son-jarvan Worlds 2017 winner Ambition names son after a League of Legends champion] ''oneesports.gg''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

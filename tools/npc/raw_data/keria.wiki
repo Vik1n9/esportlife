@@ -1,0 +1,117 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Keria&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.367Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Keria」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Keria
+|name=Ryu Min-seok
+|nativename=류민석
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2002
+|birth_date_month=October
+|birth_date_day=14
+|favchamp=Pyke
+|favchamp2=Thresh
+|favchamp3=Lux
+|favchamp4=Renata Glasc
+|checkbox1=Yes
+|favchamp5=Tahm Kench
+|favchamp6=Bard
+|favchamp7=Ashe
+|checkboxComp=No
+|ids='''KR:''' 역천괴#ker3 <br>'''CN:''' PurpleKeria<br>'''EUW:''' Ai Aqua Ruby#66298<br>'''NA:''' durcjsrhl#1014
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/fbalstjr1234
+|facebook=https://www.facebook.com/profile.php?id=100027891712635
+|twitter=T1Keria
+|instagram=keria_minseok
+|youtube=https://www.youtube.com/channel/UCYDg0_mq6Ik8V2nF72mfDPw
+|weibo=https://weibo.com/u/7754526040
+|lolpros=https://lolpros.gg/player/keria
+|deeplol=https://www.deeplol.gg/pro/Keria
+|dpmlol=https://dpm.lol/pro/Keria
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+== Biography ==
+
+== Trivia ==
+*Achieved the first ever three-peat in Worlds with his teammates [[Oner]], [[Faker]], and [[Gumayusi]].
+* His consistent efficiency in 2021 marked Keria as the best support in the world.   
+* His 2020 previous team member [[Deft]] "lauded him as one of the best support players in South Korea before he had even debuted in pro play. [[Deft]] was right -- Keria is one of the best supports in South Korea."<ref>[https://www.espn.com/esports/story/_/id/29916126/top-five-supports-league-legends-world-championship Top five supports league legends world championship] ''espn.com''</ref>      
+* His favorite music genre is Rap.
+* His favorite Kpop group is NewJeans.
+* His role models are [[Mata]] and [[CoreJJ]].
+* With 462 assists, he is the player with the most assists in one LCK split, achieved during [[LCK 2022 Spring]].
+** [[Wolf (Lee Jae-wan)|Wolf]] previously was the player with the most assists in one LCK's split (445 assists in [[LCK 2015 Summer]]).
+* He is the first support to win LCK's Regular Season MVP award.
+* He is the first to play {{ci|Caitlyn}}, {{ci|Kalista}} and {{ci|Varus}} support in the LCK.
+* Reached 3000 assists in the LCK on March 11th, 2023.
+** Was the 10th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], [[Peanut]], [[Lehends]], and [[Bdd]].
+* Reached 4000 assists in the LCK on March 7th, 2024
+** Was the 5th player to reach 4000 assists in the LCK after [[GorillA]], [[Faker]], [[Lehends]] and [[Peanut]]
+* Reached 5000 assists in the LCK on May 8th, 2025
+** Was the 4th player to reach 5000 assists in the LCK after [[Faker]], [[Lehends]] and [[Peanut]]
+*Reached 6000 assists in the LCK on May 13th, 2026
+** Was the 3rd player to reach 6000 assists in the LCK after [[Faker]] and [[Lehends]]
+*Reached 500 kills in the LCK on August 9th, 2025
+** The first support to reach 500 kills in the LCK
+** His 500th kill was on [[Nongshim RedForce]]'s mid laner [[Calix (Syun Hyun-bin)|Calix]] with {{ci|Alistar}}
+* Reached 300 wins in [[LCK]] on February 24, 2024, becoming the 15th player to do so.
+* Reached 400 wins in [[LCK]] on September 10, 2025, becoming the 11th player to do so.
+* Reached 500 games in the LCK on June 21, 2024, becoming the 16th player to do so.
+* Reached 600 games in the LCK on August 02, 2025, becoming the 13th player to do so.
+* Reached 1000 international assists during [[2024 Mid-Season Invitational|MSI 2024]] on May 15, 2024 in Lower Bracket Round 2 against [[Team Liquid]], becoming the 5th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], Faker, [[xiaohu]], and [[meiko]].
+* Reached 100 international wins during [[2025 Mid-Season Invitational|MSI 2025]] on July 05, 2025 against [[CTBC Flying Oyster]] in Round 1, becoming the 4th player to achieve this milestone after [[Faker]], [[xiaohu]], and [[Caps]].
+* Dubbed the "Legendary Genius Monster" due to his performance during the 2021 season.
+
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* LCK MVP x2 (Spring 2022, Spring 2023)
+* LCK Player of the Split (Spring 2023)
+* LCK Supporter of the Year x5 (2021, 2022, 2023, 2024, 2025)
+* LCK 1st All-Pro Team x6 (Spring 2020, Spring 2021, Summer 2021, Spring 2022, Spring 2023, Spring 2024)
+* LCK 2nd All-Pro Team x3 (Summer 2020, Summer 2022, LCK 2025)
+* LCK 3rd All-Pro Team x1 (Summer 2024)
+* LCK Young Player Award – (Spring 2020)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

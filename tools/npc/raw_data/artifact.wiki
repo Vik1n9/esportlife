@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Artifact&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.405Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Artifact」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Artifact
+|name=Nguyễn Văn Hậu
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=2000
+|birth_date_month=June
+|birth_date_day=23
+|checkbox1=No
+|compID1=Empty
+|checkboxComp=No
+|ids='''KR:''' badtripvldo3
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.streamcraft.com/user/NW07582
+|facebook=https://www.facebook.com/20Sections.Artifact
+|youtube=https://www.youtube.com/channel/UCP8Xtrq5q-ib_WK_izL57NA
+|deeplol=https://www.deeplol.gg/pro/Artifact
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Empty'''.
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* His favorite skin is [[High Noon Yasuo]]
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

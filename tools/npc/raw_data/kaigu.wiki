@@ -1,0 +1,117 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kaigu&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.365Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kaigu」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=Yes
+|low_content=No
+|id=Kaigu
+|name=Jon Lance Hernandez
+|image=LYB Kaigu 2019.jpg
+|checkboxAutoImage=No
+|country=Philippines
+|residency=PCS
+|birth_date_month=January
+|birth_date_day=10
+|favchamp=Vayne
+|favchamp2=Udyr
+|favchamp3=Zed
+|checkbox1=No
+|checkboxComp=No
+|ids=Effyyy, LoveHateHero
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/kaigu7
+|facebook=https://www.facebook.com/LYBKaigu
+|twitter=xKaigu
+|instagram=xkaigu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|prev2=Support
+|prev3=Jungler
+|prev4=Mid
+}}
+==Biography==
+After departing from Manila Eagles, he was acquired by [[Mineski]] along with former Manila Eagles member [[Snoy]]. He played in the Riot Season 3 World Finals with [[Mineski]]. On October 10, 2013, he left [[Mineski]]. 
+
+== Trivia ==
+* Represented Philippines in WCG 2011
+* First summoner name was Ezreal
+* He was the number 1 solo queue rank player during Season 1
+* Kaigu is known to eat donuts before, during, and after every game.
+* Speaks English fluently
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+File:Kaigu.png|Kaigu
+File:Gsm_Kaigu.jpg‎
+MSK Kaigu 2013 WCS.png|MSK Kaigu, Worlds 2013
+</gallery>
+
+{{PlayerPageEnd}}

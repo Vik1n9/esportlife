@@ -1,0 +1,61 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Froggy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.082Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Froggy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Froggy
+|name=Bùi Văn Minh Hải
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=2002
+|birth_date_month=December
+|birth_date_day=08
+|checkbox1=No
+|checkboxComp=No
+|ids=uouououououou (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/minhhai.buivan
+|deeplol=https://www.deeplol.gg/pro/Froggy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+== Biography ==
+
+== Trivia ==
+* Has a wide champion pool and plays unusual mid-laners such as {{ci|Rammus}} and {{ci|Shyvana}}.
+* Won a competitive game with summoner spells Ghost and Heal as {{ci|Galio}} against [[CERBERUS Esports (Vietnamese Team)|CERBERUS Esports]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

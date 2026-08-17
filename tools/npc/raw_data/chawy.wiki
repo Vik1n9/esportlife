@@ -1,0 +1,143 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Chawy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.570Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Chawy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Chawy
+|name=Wong Xing Lei
+|nativename=黃心磊
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Singapore
+|nationality=Singapore
+|residency=PCS
+|birth_date_year=1991
+|birth_date_month=November
+|birth_date_day=28
+|favchamp=Katarina
+|favchamp2=Karma
+|favchamp3=Ezreal
+|favchamp4=Varus
+|checkbox1=No
+|checkboxComp=No
+|ids=AHQ CHAWY (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/chawyy
+|facebook=https://www.facebook.com/ChawyXL
+|twitter=ChawyWong
+|instagram=chawy_xinglei
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|residency-prev2=Southeast Asia
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Chawy started playing video games at age 12- his first game was Neopets. From ages 13-17 he played competitive table tennis. He was on his school table tennis team, and during this time won the West Zone Champion. He quit playing competitive table tennis to focus on competitive gaming. His first experience as a professional gamer was with DoTA on Team Scythe. His parents were initially neutral about his decision to do professional gaming, but they allowed him to travel overseas to represent Singapore in Southeast Asian tournaments. After he started showing good results in the tournaments, they became actively supportive of his career decision. Chawy won third place in The International DoTA2 Championship (with a prize of $150,000 USD) before switching to LoL to try something new. <ref> [http://lol.garena.com/news/community/360-meet-the-stars-sg-dota-pros-join-lol SG DoTA Pros Join LoL] ''lol.garena.com''</ref> His a advice for DoTA players looking to switch to LoL is to "play with your brain, not just your hands". <ref> [http://lol.garena.com/news/community/360-meet-the-stars-sg-dota-pros-join-lol SG DoTA Pros Join LoL] ''lol.garena.com''</ref> He first tried League of Legends at the 2010 [[World Cyber Games]]. <ref> [http://lol.esport.garena.tw/news/news_info.php?nid=730&category=3 Chawy interview] ''lol.esport.garena.tw'' </ref> Other than DoTA and LoL, Chawy also enjoys playing MMORPGs, like Perfect World. However, he prefers to concentrate his efforts and attention on his competitive gaming career. He is currently in Singapore's National Service and balances his time between training with SGS and his full-time Service work schedule. He looks forward to the completion of his Service so that he has no travel restrictions and can dedicate all of his time to gaming. Chawy has played both AP and AD Carry for SGS. He enjoys AP Carry the most because he likes to make plays and control the map. He brings his AP playstyle into his AD Carry role: he is very aggressive, spams spells, and aims to snowball his lane. Chawy believes this playstyle will help him to achieve his goal to be the best AD and AP Carry in the world.
+
+== Trivia ==
+* Is known for his {{ci|Karma}} (pre-remake).
+* Very physically fit and encourages others to be physically fit as well. <ref> [http://lol.garena.com/news/news/1466-garena-all-stars-head-to-shanghai All-Stars article] ''lol.garena.com'' </ref>
+* Has alternated between AD and AP carry for SGS.
+* Picked Heimerdinger in a Garena Premier League match which was the first {{ci|Heimerdinger}} pick since [[2012 MLG Pro Circuit/Spring]] played by [[Team MRN]].
+* His favorite champion is {{ci|Lux}}.
+* When he first started to play LoL, Chawy favored {{ci|Blitzcrank}}.
+* His favorite food is Nasi Lemak. <ref>[http://www.sentinels.com.sg/tn2.html SGS Team Page] ''www.sentinels.com''</ref>
+* He is fluent in English and Mandarin.
+* His favorite hobby is working out.
+* His favorite pro-player is [[Froggen]].
+* Known for his {{ci|Varus}} play in Season 3.
+* Taiwanese fans give him a nickname called "Big General", because famous Taiwanese streamer [[Godtone]] would yell "Big General! Please!" while playing with Chawy.
+* Famous in Taiwan and Southeast Asia.
+* First SEA professional player active outside SEA.
+* Taiwanese fans usually jokingly make fun of his muscles comparing him to [[Vasilii]] and [[Balls]].
+* Used to be a DOTA 2 professional player at Scythe Gaming.
+* Featured in Riot's Legends Rising Season 2, along with [[Rekkles]], [[ClearLove]], [[WildTurtle]], [[Smeb]], and [[Revolta]].
+* Is the first professional player to play at both The International (2011) and World Championship (2014, 2016, 2017).
+* Has been married since January 2020. <ref>[https://www.facebook.com/photo?fbid=10206544985020224&set=pcb.10206544975819994 Chawy's certificate of marriage] ''www.facebook.com''</ref>
+* Was banned for 3 years (from September 2019 to September 2021) from entering Taiwan due to the carelessness of [[ahq e-Sports Club]] having not applied for his working visa. <ref>[https://news.ltn.com.tw/news/life/breakingnews/2919353 Liberty Times News (Traditional Chinese)] ''news.ltn.com.tw''</ref>
+** His entry ban was withdrawn on January 2021, permiting him entering and working in Taiwan again.
+* In a podcast in early 2025 hosted by [[CFO]] he talked about his time in Brazil coaching [[Falkol]] and said that he really loved the passion in Brazil, and that it made him love esports even more.<ref>[https://www.youtube.com/watch?v=boeldKksMHw&t=1703s 牡蠣脫殼秀 第三季 EP.01｜大將執掌兵符 LCP元年 CFO的最強(壯)統帥｜（上） ft. Chawy] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Casting History ==
+{{CastingHistory}}
+
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}
+[[Category:Casters]]

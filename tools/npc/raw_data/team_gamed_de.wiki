@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20gamed!de&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.060Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team gamed!de」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Team gamed!de
+|orgcountry= Germany  
+|country=
+|region=EU
+|image=Gamed!de_logo.jpg
+|manager= 
+|captain= 
+|website= https://team.gamed.de/index2.php
+|youtube=https://www.youtube.com/user/TeamGAMEDde
+|facebook=https://www.facebook.com/teamGAMEDde
+|twitter= teamgamed
+|irc= [http://webchat.quakenet.org/?channels=team.gamed/ #team.gamed]
+|sponsor= [http://gameserver.gamed.de/ gamed!de Gameservers] <br> [http://razerzone.com Razer] <br> [http://thermaltake.com/ Thermaltake] <br> [http://tex.motex-gmbh.de/ gamerdress.de] <br> [http://www.webtropia.com/ webtropia]
+|created= 2007-MM-DD
+}}{{TOCRWI}}
+
+'''Team gamed!de''' is a german multigaming eSports team, founded in 2007.
+
+== History ==
+{{TDRight
+|name1=2011
+|name2=2012
+|name3=2013}}
+{{TDRight|tab}}<!--2013-->
+* January 21, [[Sebastian (Sebastian Grune)|Sebastian]], [[gazek]], [[dX]], [[Platin]], [[Buddha]] and [[Bambino]] leave. <ref>[http://tera-gaming.de/index/news/view/id/13 Ziel S3 Quali - Tera mit gamed!de LoL Lineup (German)] ''tera-gaming.de''</ref>
+* January 29, '''Team gamed!de''' reforms with '''[[Snow (Mirco Janke)|Snow]]''', '''[[Gnom Be Spy]]''', '''[[llnightmare]]''', '''[[Nicodd]]''', '''[[SunnyXX]]''' and '''[[bonaparte313]]'''.<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=1113 Wir begrüßen neues EPS LoL-Team (German)] ''team.gamed.de''</ref>
+* ???, Roster disbands.
+{{TDRight|tab}}<!--2012-->
+* January 29, '''[[Arroganz]]''', '''[[Entenzwerg]]''', '''[[Gruhlum]]''', '''[[nyph0mane]]''', '''[[Shimmy]]''' and '''[[Vroggy]]''' replace [[ASiss]], [[visoleki]], [[Axyeri]], [[SANDMAENNCHEN]], [[nesrilaS]] and [[Sense]].<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=981 LoL: Neues Team stellt sich vor (German)] ''team.gamed.de''</ref>
+* June 3, '''[[affe19]]''', '''[[gazek]]''', '''[[dX]]''', '''[[Pancakenik]]''', '''[[maxell]]''' and '''[[Kxng]]''' replace [[Vroggy]], [[Gruhlum]], [[Entenzwerg]], [[Shimmy]] and [[Arroganz]].<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=1052 Das neue Lineup steht! (German)] ''team.gamed.de''</ref>
+* October 4, '''[[Platin]]''', '''[[Buddha]]''', '''[[Luetti]]''' and '''[[Bambino]]''' replace [[Glukoza]], [[affe19]], [[Pancakenik]], [[maxell]] and [[Kxng]].<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=1073 Nun wird es ernst (German)] ''team.gamed.de''</ref>
+{{TDRight|tab}}<!--2011-->
+* February 18, team is formed with '''[[reyk]]''', '''[[CandyPanda]]''', '''[[kev1n]]''', '''[[koenig]]''', '''[[Nyph]]''', '''[[Osaft22]]''', '''[[Malya]]''' and '''[[talol]]''' join.<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=778 Frischfleisch: LoL EPS und CoD4 ! (German)] ''team.gamed.de''</ref>
+* June 23, [[Candy Panda]] and [[Nyph]] leave.<ref>[http://www.sk-gaming.com/content/33672-SKLoL_announce_new_lineup SK.LoL announce new line-up] ''sk-gaming.com''</ref>
+* June 25, gamed!de disbands their League of Legends roster.<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=870 Es heißt Abschied nehmen (German)] ''team.gamed.de''</ref>
+* July 3, gamed!de picks up new roster including: '''[[Glukoza]]''', '''[[ASiss]]''', '''[[visoleki]]''', '''[[Axyeri]]''', '''[[SANDMAENNCHEN]]''' and '''[[nesrilaS]]'''.<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=873 LoL-Team wieder komplett (German)] ''team.gamed.de''</ref>
+* August 2, '''[[Sense]]''' joins.<ref>[http://team.gamed.de/index2.php?include=inc/news.php&id=894 Zuwachs im Team (German)] ''team.gamed.de''</ref>
+{{TDRight/end}}
+
+== Player Roster ==
+=== Former ===
+{{listplayer/Start|newteam=yes|dates=yes|res=yes}}
+{{listplayer|Nicodd|dk|Nicolai Bæklund|Top|res=eu|newteam=Playing Ducks|joined=2013-01-29|left=2013-??-??}}
+{{listplayer|llnightmare|gr|Georgius Skarafigkas|Jungle|res=eu|newteam=Playing Ducks|joined=2013-01-29|left=2013-??-??}}
+{{listplayer|link=Snow (Mirco Janke)|Snow|de|Mirco Janke|Mid|res=eu|newteam=Playing Ducks|joined=2013-01-29|left=2013-??-??}}
+{{listplayer|SunnyXX|at|Josef Schusteritsch|AD|res=eu|newteam=Playing Ducks|joined=2013-01-29|left=2013-??-??}}
+{{listplayer|Gnom Be Spy|fi|Olli Pyyny|Support|res=eu|newteam=Playing Ducks|joined=2013-01-29|left=2013-??-??}}
+{{listplayer|bonaparte313|de|Maximilian Lamme|Sub|res=eu|newteam=Playing Ducks|joined=2013-01-29|left=2013-??-??}}
+{{listplayer|link=Sebastian (Sebastian Grune)|Sebastian|de|Sebastian Grune|Support|res=eu|newteam=tera|joined=2012-01-29|left=2013-01-21}}
+{{listplayer|gazek|de|Jan-Malte Martens|Jungle|res=eu|newteam=tera|joined=2012-06-03|left=2013-01-21}}
+{{listplayer|dX|mk|Andrea Vasik|Top|res=eu|newteam=tera|joined=2012-06-03|left=2013-01-21}}
+{{listplayer|Platin|de|Pasqual Gehring|Mid|res=eu|newteam=tera|joined=2012-10-04|left=2013-01-21}}
+{{listplayer|Buddha|de|Kai Sinnhoffer|AD|res=eu|newteam=tera|joined=2012-10-04|left=2013-01-21}}
+{{listplayer|Luetti|de|Lars Lüttgens|Sub|res=eu|newteam=none|joined=2012-10-04}}
+{{listplayer|Bambino|de|Kevin Bormann|Sub|res=eu|newteam=tera|joined=2012-10-04|left=2013-01-21}}
+{{listplayer|maxell|de|Florian Able|||res=eu|newteam=tera|joined=2012-06-03|left=2012-10-04}}
+{{listplayer|koenig|de|Raoul Seyfert||res=eu|newteam=none}}
+{{listplayer|Kxng|de|Lothar Schadrin|Sub|res=eu|newteam=ESC|joined=2012-06-03|left=2012-10-04}}
+{{listplayer|Glukoza|de|David Hunsmann|Sub|res=eu|newteam=myRevenge|joined=2011-07-03|left=2012-10-04}}
+{{listplayer|Pancakenik|de|Yannick Crosta|AD|res=eu|newteam=none|joined=2012-06-03|left=2012-10-04}}
+{{listplayer|affe19|de|Niklas Bleil|Mid|res=eu|newteam=none|joined=2012-06-03|left=2012-10-04}}
+{{listplayer|Gruhlum|de|Patrick Hellwig|Mid|res=eu|newteam=n!faculty|joined=2012-01-29|left=2012-06-03}}
+{{listplayer|Entenzwerg|de|Janis Thomas Krzok|AD|res=eu|newteam=millenium|joined=2012-01-29|left=2012-06-03}}
+{{listplayer|Vroggy|at|Marco Navroschi|Jungle|res=eu|newteam=none|joined=2012-01-29|left=2012-06-03}}
+{{listplayer|Arroganz|de|André Märtens|Top|res=eu|newteam=none|joined=2012-01-29|left=2012-06-03}}
+{{listplayer|Shimmy|de|Billy Grömmer|Top|res=eu|newteam=none|joined=2012-01-29|left=2012-06-03}}
+{{listplayer|ASiss|de|Alexander Sambale|Mid|res=eu|newteam=none|joined=2011-07-03|left=2012-01-29}}
+{{listplayer|visoleki|kr|Kim Song-min|Jungle|res=???|newteam=none|joined=2011-07-03|left=2012-01-29}}
+{{listplayer|Axyeri|nl|Marvin Muelheims|AD|res=eu|newteam=none|joined=2011-07-03|left=2012-01-29}}
+{{listplayer|SAND (Philipp Bennek)|de|Phillip Bennek|Support|res=eu|newteam=navi|joined=2011-07-03|left=2012-01-29}}
+{{listplayer|nesrilaS|dk|Rasmas Pedersen|Top|res=eu|newteam=navi|joined=2011-07-03|left=2012-01-29}}
+{{listplayer|Sense|de|Frank Händel|AD|res=eu|newteam=none|joined=2011-08-02|left=2012-01-29}}
+{{listplayer|Zylor|de|Christian Dietze|Jungle|res=eu|newteam=aaa}}
+{{listplayer|Kev1n|de|Kevin Rubiszewski|Top|res=eu|newteam=aaa|joined=2011-02-18|left=2011-06-25}}
+{{listplayer|Reyk|de|Wai Noch Shum|Mid|res=eu|newteam=Reason Gaming|joined=2011-02-18|left=2011-06-25}}
+{{listplayer|Osaft22|ch|Shawn Bourquin|Support/AD|res=eu|newteam=aaa|joined=2011-02-18|left=2011-06-25}}
+{{listplayer|koenig|de|Raoul Seyfert|Sub|res=eu|newteam=Team Dignitas|joined=2011-02-18|left=2011-06-25}}
+{{listplayer|Malya|de|Tom|Sub|res=eu|newteam=none|joined=2011-02-18|left=2011-06-25}}
+{{listplayer|talol|kw|Talal Alsadi|Sub|res=eu|newteam=Team Derpers|joined=2011-02-18|left=2011-06-25}}
+{{listplayer|CandyPanda|de|Adrian Wübbelmann|AD|res=eu|newteam=sk|joined=2011-02-18|left=2011-06-23}}
+{{listplayer|Nyph|de|Patrick Funke|Support|res=eu|newteam=sk|joined=2011-02-18|left=2011-06-23}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+
+==Interviews==
+
+==Links==
+
+==References==
+<references />
+
+<br>

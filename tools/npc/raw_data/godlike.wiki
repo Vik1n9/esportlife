@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=GodLike&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.574Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GoDlike」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=GodLike
+|name=Xiao Wang
+|nativename=肖旺
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|checkbox-res=No
+|birth_date_year=1993
+|birth_date_month=May
+|birth_date_day=12
+|favchamp=Renekton
+|checkbox1=No
+|compID1=ackerman
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|twitter=GoDlikeTTV
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''ackerman'''.
+|checkboxPrev=No
+|nicknames=神超
+}}
+==Biography==
+===League of Legends Career===
+On October 21, 2014 it was announced that ackerman had decided to leave LMQ along with Vasilii and NoName, and that negotiations were ongoing with Mor.<ref>http://www.ongamers.com/articles/lmq-announces-departure-of-vasilii-ackerman-noname/1100-2279/</ref> Ackerman renamed to '''GodLike''' and rejoined his old team [[Star Horn Royal Club]].<ref>[http://t.qq.com/p/t/460084052817978 SH皇族電子競技俱樂部隊員公告 (Chinese)] ''t.qq.com''</ref> On May 16, 2015 it was announced that GodLike joined [[Royal Never Give Up]].<ref>[http://www.weibo.com/p/1001603843034738517261 SHR's Weibo Post (Chinese)] ''t.qq.com''</ref> On July 28, 2015, GodLike retired.<ref>[http://p.t.qq.com/longweibo/index.php?lid=18426173070598657488 Godlike's Tencent Weibo Post (Chinese)] ''qq.com''</ref>
+
+== Trivia ==
+* His ID '''GodLike''' was given to him from a friend because he needed to have a English in game name for the competitive sever and he didn't know English at that time.<ref>[http://www.acfun.tv/v/ac2058838 AcFun弹幕视频网] ''acfun.tv''</ref>
+* Became known by the Chinese community for defeating [[PDD]] 3 times individually on {{ci|Renekton}} in a solo queue game. 
+* Climbed up to Rank 1 in Chinese solo queue ladder playing almost exclusively {{ci|Renekton}}.
+* Also known as "King of {{ci|Renekton}}" in China.
+* Used to only play full damage {{ci|Renekton}} before [[PDD]] countered it with 13 armor Quint {{ci|Ryze}}.
+* Was invited to join [[Royal Club Tian Ci]] from [[Wh1t3zZ]] after reaching Rank 1.
+* Looks up to [[PDD]] and [[GoGoing]] as idols.
+* Has huge respect for western Junglers [[Diamondprox]] and [[Meteos]] as he had no idea how to play against them during Season 3.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

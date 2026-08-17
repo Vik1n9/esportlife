@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Acorn&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.881Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Acorn」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Acorn
+|name=Choi Cheon-ju
+|nativename=최천주
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1990
+|birth_date_month=July
+|birth_date_day=13
+|favchamp=Rumble
+|favchamp2=Kennen
+|checkbox1=No
+|compID1=ChuChu
+|compID2=Cheonju
+|compID3=CheonJu
+|checkboxComp=No
+|ids=삼성갤럭시 Acorn, MVP Cheonju, ChuChu, Cheonju, 포로단팥빵, 탑미드유저도토리
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ccjzzang
+|facebook=https://www.facebook.com/cheonju.choi
+|twitter=cjswm0713
+|instagram=cheonju0713
+|weibo=https://weibo.com/n/崔千柱丶Acorn
+|deeplol=https://www.deeplol.gg/pro/Acorn
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''ChuChu''' and '''Cheonju'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Top
+|prev2=Analyst
+}}
+==Biography==
+===Season 2===
+Choi "'''ChuChu'''" Cheon-ju was a part of the original roster of [[RoMg]] as their top laner in early 2012. The team qualified for [[Azubu The Champions Summer 2012]] where they took a game off of [[Azubu Frost]], the eventual champions; however, even with their win, they still failed to advance from groups. 
+
+===Season 3===
+ChuChu changes his name to "'''Cheonju''' at the start of the new season and the team renamed themselves "'''GSG'''". They qualified for [[OLYMPUS Champions Winter 2012-2013]] but GSG still struggled and placed last in their group, missing playoffs again. After a few people left the team, the remaining players, Cheonju, [[Heart|Solo]], and [[Easyhoon|Easy]] joined [[MVP Blue]]. This new MVP team continued to struggle, not making it past the group stage during [[OLYMPUS Champions Spring 2013]] and [[HOT6iX Champions Summer 2013]]. In September, Blue and their sister team, [[MVP Ozone]], were both picked up by the Samsung organization to form [[Samsung Galaxy Blue]] and [[Samsung Galaxy Ozone]].
+
+===2014 Season===
+Cheonju changed his name again at the beginning of the new season, this time to "'''Acorn'''". Success finally came for Blue in the 2014 Season, when they finally made it out of groups at [[PANDORA.TV Champions Winter 2013-2014]]. Unfortunately, they ran into the undefeated [[SK Telecom T1 K]] and were knocked out of the tournament 3-0 by them. However, Blue truly made their mark when they defeated [[NaJin White Shield]] 3-1 in the finals of [[HOT6iX Champions Spring 2014]] to bring Samsung its first OGN victory. Blue's hot streak continued at [[HOT6iX Champions Summer 2014]] but this time falling in the finals 3-2 to the [[KT Rolster Arrows]]. The team's strong season granted them the top Korean seed to the [[2014 Season World Championship]]. Blue was one of the favorites coming into Worlds but their sister team, Samsung White, knocked them out 3-0 in the semifinals of the tournament. On November 17, 2014, it was officially announced, that all remaining members of Samsung White and Samsung Blue left their teams.<ref>[http://www.inven.co.kr/webzine/news/?news=121982&iskin=esports&game=13682014년 지배한 삼성 화이트-블루, 10명 모두 떠났다. (Korean)] ''inven.co.kr''</ref>
+
+===2015 Season===
+Acorn joined [[LGD Gaming]] in December of 2014 with two other Koreans, [[imp]] and [[Flame]]. Flame and Acorn were both given the top lane position but with Acorn as the starter and Flame as the sub.  LGD's first full tournament as a team was the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they made the quarterfinals but lost 3-0 to [[Invictus Gaming]]. Shortly afterwards, they finished the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] in 6th place and advanced to the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]]. LGD upset both [[OMG]] and [[Snake eSports]] 3-0 to face [[EDward Gaming]] in the finals. The series went the distance to a full five games but LGD ultimately lost the series 3-2 to EDG. LGD became feared in China but they were upset 3-0 by OMG in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]]. LGD placed fifth in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and qualified for the Seeding Match of the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]]. They fought their way to the finals, even upsetting EDG 3-0 along the way. LGD beat the [[Qiao Gu Reapers]] 3-2 in the finals to qualify for the [[2015 Season World Championship]] as the top seed from China. LGD was placed in a group alongside [[Team SoloMid]], [[Origen]], and [[KT Rolster]]. Unfortunately, they ended with a 2-4 record and were knocked out of the tournament.
+
+===2016 Preseason===
+LGD were the fan-voted team to attend [[IEM Season X - San Jose|IEM San Jose]]. They were knocked out in the first round, losing 2-0 to [[Team SoloMid]], with Acorn and [[Flame]] each playing one game.
+
+== Trivia ==
+* His previous ID '''Cheonju''' is based on his given name (Cheon-ju).
+* Considered one of the best {{ci|Rumble}} players in Korea.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+===Images===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

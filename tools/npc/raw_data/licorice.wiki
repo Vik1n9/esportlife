@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Licorice&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.442Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Licorice」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Licorice
+|name=Eric Ritchie
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=September
+|birth_date_day=30
+|favchamp=Fiora
+|favchamp2=Poppy
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA''': Licorice<br>'''KR''': Canadiense<br>'''EUW''': bwipobwipobwipo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=Yes
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/licoricelol
+|twitter=Licorice
+|instagram=licoricelol
+|reddit=LicoriceLoL
+|lolpros=https://lolpros.gg/player/licorice/
+|deeplol=https://www.deeplol.gg/pro/Licorice
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+}}
+==Biography==
+
+Licorice spent some time on a few different teams in the Challenger Series of North America. He was a substitute on [[Cloud9 Challenger]] for a while. He wouldn't find major success until he joined [[eUnited]] in December of 2016. The team dominated the NA Challenger Series in 2016. In both the [[NA_Challenger_Series/2017_Season/Spring_Season|Spring Season]] and [[NA_Challenger_Series/2017_Season/Summer_Season|Summer Season]] the team would finish in 1st place, barely dropping any matches. However in each of their playoffs runs, they would finish second place after 1-3 losses to [[Gold Coin United]]. Although they had a chance to qualify for the LCS in the [[League_Championship_Series/North_America/2017_Season/Summer_Promotion|2017 Summer Promotion]], they would lose 1-3 to [[Team EnVyUs]] and failed to do so. Their second chance came in the [[League_Championship_Series/North_America/2018_Season/Spring_Promotion|2018 Spring Promotion]] but they were again unable to do so after an 0-3 loss to [[Phoenix1]]. In November of 2017 Licorice left eUnited and joined [[Cloud9]] as their new Top Laner.
+
+===2018 Season===
+
+For the 2018 Season, Cloud9 added [[Licorice]] and [[Svenskeren]] to their LCS Roster. Things went well in the beginning of [[League_Championship_Series/North_America/2018_Season/Spring_Season|2018 Spring Season]] for C9. They were in second place for most of the season, however, on the final day of LCS, C9 fell to fifth place. They played [[Team Liquid]] in the [[NA LCS/2018 Season/Spring Playoffs|Spring Quarterfinals]] and lost 0-3. 
+
+C9 started [[League_Championship_Series/North_America/2018_Season/Summer_Season|2018 Summer Season]] by promoting [[Goldenglue]], [[Keith]], and [[Zeyzal]] to the LCS roster. By Week 5 C9 were in tenth place. After bringing back Jensen and [[Sneaky]] to the main roster as well as subbing in [[Blaber]] for the rest of the summer season, Cloud9 surged and made it to second place and secured a playoff bye by the end of the regular season. In the [[NA LCS/2018 Season/Summer Playoffs|playoffs]], Cloud9 defeated [[Team SoloMid]] 3-2 in the Semifinals and lost 0-3 to Team Liquid in the Finals. They moved onto the [[NA LCS/2018 Season/Regional Finals|Regional Qualifier]] and won 3-0 over TSM to make worlds.
+
+At the [[Worlds 2018|2018 World Championship]], Cloud9 once again had to make it through the [[2018_Season_World_Championship/Play-In|Play-In]] stage. They went 4-0 in the Play-In group stage, and beat [[Gambit Esports]] 3-2 to advance to the [[2018_Season_World_Championship/Main_Event|Main Event]]. Cloud 9 were seeded into Group B, dubbed the "Group of Death", with [[Team Vitality]], [[Royal Never Give Up]], and [[Gen.G]]. Cloud9 defied expectations and made it out of the group in second place with a 4-3 record after losing the first place tiebreaker to RNG. 
+
+In the Quarterfinals, C9 made history and defeated [[Afreeca Freecs]] 3-0, making it the first time since the [[World Championship Season 1|Season One World Championship]] that a North American team had made semifinals. In the Semifinals, C9 lost 0-3 to [[Fnatic]].
+
+== Trivia ==
+* Originally from Calgary, Alberta.
+* Licorice was the runner up to the prize of "''Esports PC Rookie of the Year''" at the Esports Awards in 2018, losing to [[Bwipo]].<ref>[https://twitter.com/esportsawards/status/1062099390419165184 Esports Awards' Tweet] ''twitter.com''</ref>
+* Missed weeks 5 and 6 of the [[LCS/2019_Season/Summer_Season|LCS 2019 Summer]] after injuring his wrist while rock climbing. 
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team (2023 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Viper%20(Park%20Do-hyeon)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.545Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Viper (Korean player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Viper
+|name=Park Do-hyeon
+|nativename=박도현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=October
+|birth_date_day=19
+|favchamp=Aphelios
+|favchamp2=Kai'Sa
+|favchamp3=Ezreal
+|favchamp4=Zeri
+|checkbox1=Yes
+|favchamp5=Lucian
+|favchamp6=Xayah
+|checkboxComp=No
+|ids='''KR:''' Blue#KR33 <br>'''EUW:''' Happy#A33 <br> '''NA:''' 1697865
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/live/f59a5b026c2e9ad339f9eca423a6af98
+|twitter=HLEviper
+|instagram=viper3lol
+|youtube=https://www.youtube.com/@official.viper03
+|weibo=https://weibo.com/u/7754636819
+|lolpros=https://lolpros.gg/player/viper-1/
+|deeplol=https://www.deeplol.gg/pro/Viper-Park_Do-hyeon
+|dpmlol=https://dpm.lol/pro/Viper
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* His signature picks are {{ci|Aphelios}}, {{ci|Kai'Sa}} and {{ci|Vladimir}}.
+* During his time on [[Griffin (Korean Team)|Griffin]], he was known for playing unusual mage picks such as {{ci|Viktor}} and {{ci|Taliyah}}, which he famously played in the [[LCK 2019 Spring Playoffs]].
+** He also played {{ci|Teemo}} twice and won with it, making him one of the few players to win with that pick on the professional stage.
+* Second player after [[imp]] to score a pentakill both in LCK and Worlds.
+* Fluent in Mandarin to the extent that he communicated with his teammates in [[EDward Gaming]] in Mandarin in-game after only one season after entering the LPL and gave interviews in Mandarin alone without an interpreter.
+* Speaks English well despite never playing in an English-speaking team, altough not as fluently as Mandarin
+* Chinese Valorant pro-gamer [https://liquipedia.net/valorant/ZmjjKK ZmjjKK] is a big fan of him.
+
+=== Statistics ===
+* Reached 1000 kills in the LCK on July 9th, 2023.
+** Was the 24th player to reach 1000 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], [[Aiming]], [[Rascal]], [[deokdam]], [[Canyon]], and [[Cuzz]].
+* Reached 1500 kills in the LCK on July 27th, 2024.
+** Was the 15th player to reach 1500 kills after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], [[Peanut]], [[Aiming]], [[ShowMaker]], and [[Kiin]].
+* Reached 2000 kills in the LCK on August 29th, 2025.
+** Was the 10th player to reach 2000 kills in the LCK after [[Faker]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], [[Aiming]], [[ShowMaker]], and [[Peanut]].
+* Reached 300 wins in the LCK on August 29th, 2025, becoming the 20th player to do so.
+* Reached 500 games in the LCK on August 15th, 2025, becoming the 22nd player to do so.
+
+=== Individual Awards ===
+* LPL MVP x1 (Spring 2021)
+* LPL Outstanding Rookie x1 (Spring 2021)
+* LPL 1st All-Pro Team x3 (Spring 2021, Summer 2021, Split 2 2026)
+* LPL 2nd All-Pro Team x3 (Spring 2022, Summer 2022, Split 1 2026)
+* LCK 2nd All-Pro Team x3 (Spring 2024, Summer 2024, LCK 2025)
+* LCK 3rd All-Pro Team x1 (Summer 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

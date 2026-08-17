@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=UmTi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.547Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「UmTi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=UmTi
+|name=Um Sung-hyeon
+|nativename=엄성현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=June
+|birth_date_day=02
+|favchamp=Lee Sin
+|favchamp2=Rengar
+|favchamp3=Kha'Zix
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' UmTi#602  <br> '''NA:''' TL UmTi#0602 <br> '''EUW:''' Mute ALL <br> '''BR:''' 무지개보물#321
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Broadcast Talent
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/ush777
+|facebook=https://www.facebook.com/profile.php?id=100015766711193
+|twitter=UmTi0602
+|instagram=umti_o_o
+|youtube=https://youtube.com/channel/UCe3ivo-DMASEJoSS4KZ-row
+|lolpros=https://lolpros.gg/player/umti
+|deeplol=https://www.deeplol.gg/pro/UmTi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+}}
+==Biography==
+
+== Trivia ==
+* Started playing League in 2013 when he was 14.
+* His ID '''UmTi''' comes from a [https://en.wikipedia.org/wiki/MapleStory MapleStory] monster.<ref>[https://www.youtube.com/watch?v=pPZSGACf1ls JAG UmTi on Lee Sin in Pro play, Patch 8.4, and the meaning behind "UmTi" | LCK 2018] ''youtube.com''</ref>
+* Looks up to [[Score]].
+* Outside of League, he likes to watch vtubers and play Genshin Impact, TFT, and Hearthstone
+* Can speak English very well.
+** He joined the LCK Global analyst desk for the finals match between [[DWG KIA]] and [[Gen.G]] in the [[LCK/2021 Season/Spring Playoffs|LCK 2021 Spring Playoffs]].
+=== Individual Awards ===
+* LCS 3rd All-Pro Team (2024 Summer)
+* CK 1st All-Pro Team (2020 Summer)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

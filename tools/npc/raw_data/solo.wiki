@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Solo%20(Colin%20Earnest)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.767Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Solo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Solo
+|name=Colin Earnest
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1993
+|birth_date_month=May
+|birth_date_day=26
+|favchamp=Ryze
+|favchamp2=Shyvana
+|favchamp3=Rumble
+|checkbox1=No
+|compID1=TheSoloKing
+|checkboxComp=No
+|ids='''NA:''' who dat who dat#NA1<br>'''CN:''' Viking先生
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/thesolokinglol
+|twitter=SoloLCS
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''TheSoloKing'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+}}
+==Biography==
+===2015 Season===
+Solo joined [[Cloud9]]'s new Challenger roster [[Cloud9 G2A]] along with [[Hard]], [[Yusui]], [[LOD]], and [[Stixxay]] in January 2015. Under the name '''C9 Charlies Angels''', they placed fifth in the [[2015 NA Challenger Series/Challenger Ladder|ranked 5's ladder]] leading up to the [[2015 NA Challenger Series/Spring Qualifier|NACS Spring 2015 qualifier]]. Following Stixxay's move to [[CLG.Black]], [[Fade (Ritchie Ngo)|Fade]] joined the team, replacing Stixxay as starting support. The team defeated [[Roar (Chinese Team)|Roar]] and then [[Team Confound]] to qualify for the [[2015 NA Challenger Series/Spring Season|season]]. However, prior to the start of the season, it was revealed that the team had used a ringer in their matches against Team Confound. As a result, Cloud9 Tempest were disqualified from participating in the NACS, and Team Confound took their place. Additionally, Solo and his teammates were all suspended from all Riot-sponsored League of Legends competition until the 2015 Summer Split.<ref>[http://na.lolesports.com/articles/competitive-ruling-cloud9-tempest Competitive Ruling: Cloud9 Tempest] ''lolesports.com''</ref> This ban was lifted at the end of March, allowing Solo and his Cloud9 Tempest teammates to play competitively starting on May 11.<ref>[http://na.lolesports.com/articles/2015-mid-year-long-term-suspension-reviews 2015 Mid-Year Long-Term Suspension Reviews] ''lolesports.com''</ref>
+
+Now unbanned, Cloud9 Tempest participated in the [[2015 NA Challenger Series/Summer Qualifier|NACS Summer Qualifier]], with nearly the same roster as they had competed with in the spring qualifier, except that LOD moved to AD carry, and [[Sheep (Jamie Gallagher)|Sheep]] joined. After their first two rounds, Yusui was [[List of Competitive Rulings|temporarily banned for four weeks]] for purchasing botted accounts, and [[Jintae]] was used as a substitute for the finals against [[CLG Black]], which the team won, successfully qualifying for the [[2015 NA Challenger Series/Summer Season|Summer Season]].
+
+The team finished with a 5-5 record and in fourth place. In the [[2015 NA Challenger Series/Summer Playoffs|playoffs]], they also finished fourth, after losses to [[Renegades]] and [[Team Imagine]]. They missed out on the [[League Championship Series/North America/2016 Season/Spring Promotion|Summer Promotion Tournament]] but retained an automatic seed into the [[2016 NA Challenger Series/Spring Season|NACS Spring 2016 Season]].
+
+After the conclusion of their 2015 season run, Cloud9 announced open tryouts for a new Challenger team, which would be built around [[Meteos]].<ref>[http://cloud9.gg/news/meteos-tryouts Cloud9 to Hold Open Tryouts for Challenger Roster] ''cloud9.gg''</ref>
+
+=== 2016 Season ===
+
+Solo left Cloud9 and joined new Challenger team [[Ember]] for the 2016 season, when Ember acquired Cloud9's NACS seed. Ember finished second in the regular season, with a 3-1-1 record. Additionally, Solo substituted for [[Echo Fox]] in the [[League Championship Series/North America/2016 Season/Spring Season|LCS]] for multiple games when starting top laner [[kfo]] was unable to play due to visa problems. Due to jungler [[Contractz]]'s ineligibility to play in the [[League Championship Series/North America/2016 Season/Summer Promotion|promotion tournament]], Ember signed [[Santorin]] as a substitute starting with the [[NA Challenger Series/2016 Season/Spring Playoffs|NACS playoffs]]. They lost in the first round to Team Dragon Knights. After their failure to qualify for the LCS, Ember released all of their players except for Contractz, and Solo left the team.<ref>[https://medium.com/@jonpan/ember-roster-and-staff-changes-march-2016-3c2797645786#.lnv0rbc0i Ember Roster and Staff Changes  —  March 2016] ''medium.com''</ref>
+
+Solo joined [[Team Liquid Academy]] in May.<ref>[http://espn.go.com/esports/story/_/id/15469001/team-liquid-academy-brings-goldenglue-solo-stunt-moon Team Liquid Academy brings on Goldenglue, Solo, Stunt, and Moon] ''espn.go.com''</ref> Although the team had decent performances in the NA CS, they lost 2-3 to [[Cloud9 Challenger]] in the [[NA_Challenger_Series/2016_Season/Summer_Playoffs|2016 NA CS Summer Playoffs]]. They failed to qualify for the NA LCS after a 2-3 loss to [[Echo Fox]] in the [[League_Championship_Series/North_America/2017_Season/Spring_Promotion|2017 Spring Promotion Tournament]]. Solo left the team in November and in December joined [[Gold Coin United]].
+
+===2017 Season===
+
+In both the [[NA_Challenger_Series/2017_Season/Spring_Season|Spring Season]] and [[NA_Challenger_Series/2017_Season/Summer_Season|Summer Season]], Gold Coin United would finish in 2nd place right behind [[eUnited]]. However in each of their playoffs runs, they would finish in first place after 3-1 victories over eUnited. Although they had a chance to qualify for the LCS in the [[League_Championship_Series/North_America/2017_Season/Summer_Promotion|2017 Summer Promotion]], they would lose 2-3 to [[Team EnVyUs]] and failed to do so. Their second chance came in the [[League_Championship_Series/North_America/2018_Season/Spring_Promotion|2018 Spring Promotion]] but they were again unable to do so after an 0-3 loss to [[eUnited]] in the Loser's Bracket. In October of 2017 Solo left Gold Coin United and joined the newly formed [[Clutch Gaming]] in December.
+
+== Trivia ==
+* Notable for being older than other pro players, joining his first semi-pro team at age 21 and being 23 when he first became a starter in the LCS. 
+{{PlayerStatsTrivia}}
+
+==Achievements==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

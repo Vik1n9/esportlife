@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lloyd&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lloyd」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Lloyd
+|name=Juckkirsts Kongubon
+|nativename=จักรกฤษณ์ คงอุบล
+|namealphabet=Thai
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Thailand
+|residency=Southeast Asia
+|birth_date_year=1995
+|birth_date_month=August
+|birth_date_day=07
+|favchamp=Ezreal
+|favchamp2=Lucian
+|favchamp3=Vayne
+|favchamp4=Rammus
+|checkbox1=No
+|checkboxComp=No
+|ids=Spoon Fork (KR), L Open Mid L (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lloydkub
+|facebook=https://www.facebook.com/Lloydstylelol
+|youtube=https://www.youtube.com/LloydStyle/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Boss''' and '''Bossblurry'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+|prev2=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+Juckkirsts "'''Bossblurry'''" Kongubon joined [[Flashdive]] as the starting AD Carry. The team finished 1st in the [[2013 LCS Pro League Thailand/Regular Season/June|2013 LCS Pro League Thailand June Season]]. Afterward, Made in Thailand Esports (MiTH) sponsored the team and it renamed to [[MiTH Flashdive]], while Bossblurry renamed to '''Boss'''. The team again finished 1st in the [[2013 LCS Pro League Thailand/Regular Season/July|2013 LCS Pro League Thailand July Season]], but lost in the playoffs to [[Bangkok Titans]] in a close 3-2 series. In December, Boss left the team, renamed to '''Lloyd''', and joined Bangkok Titans.
+
+===2014 Season===
+Although consistently the top team in the local [[2014 Thailand Pro League]] (TPL), Bangkok Titans struggled for most of the [[2014 GPL|2014 Garena Premier League]] (GPL). Lloyd did not play in the GPL until the [[2014 GPL Spring|Spring Split]]. While the team performed better with him than it had in the previous split, it still was unable to leave Group Stage with a 2-8 record. In the [[2014 GPL Summer|Summer Split]], however, the team managed to make it to the Bracket Stage, but were eliminated in the first round by [[ahq e-Sports Club]].
+
+===2015 Season===
+Bangkok Titans continued to find success in the [[2015 GPL]], which had been changed to exclude the historically-dominant Taiwanese teams. In [[2015 GPL Spring|Spring]], the team managed a 2nd place finish and subsequently qualified for the [[2015 International Wildcard Invitational]] when the 1st place team, [[Saigon Fantastic Five]], was unable to attend. At IWCI, the team performed well, going undefeated in the Round Robin stage. In the playoffs, however, they were eliminated 0-3 by the eventual winners, [[Beşiktaş e-Sports Club]].
+
+The team returned for [[2015 GPL Summer]], where they achieved a 1st place finish and qualified for the [[2015 International Wildcard Tournament/Turkey|International Wildcard Tournament]] in Turkey. They defeated Oceania's [[The Chiefs eSports Club]] in the finals to qualify for the [[2015 Season World Championship]]. They were placed in group C, along with [[SK Telecom T1]], [[EDward Gaming]], and [[H2k-Gaming]]. Unfortunately, they failed to win a single game and were knocked out of the tournament in last place.
+
+===2016 Season===
+Lloyd remained with Bangkok Titans for the [[Thailand Pro League/2016 Season/Spring Season|2016 TPL Spring]],<ref>[https://www.facebook.com/BangkokTitans/posts/968795203190916:0 Bangkok Titans Facebook Post January 7, 2016 (Thai)] ''facebook.com''</ref> where they went undefeated over 25 games for a 1st place finish. At the [[GPL/2016 Season/Spring|2016 GPL Spring]], the team finished in 2nd place, losing 3-1 to [[Saigon Jokers]] in the finals. After the defeat, Lloyd swapped roles to top lane, while [[InTreso]] took his spot as AD. For the [[GPL/2016 Season/Summer Season|2016 GPL Summer]], he swapped back to AD. The team finished in 2nd place. After the tournament, Lloyd left the team.<ref>[https://www.facebook.com/BangkokTitans/photos/a.297060900364353.64349.289291861141257/1151458388257929/?type=3 Bangkok Titans Facebook Post September 8, 2016 (Thai)] ''facebook.com''</ref>
+
+== Trivia ==
+*  His favorite champions are {{ci|Vayne}}, {{ci|Ezreal}}, and {{ci|Lucian}}.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,133 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Peanut&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Peanut」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Peanut
+|name=Han Wang-ho
+|nativename=한왕호
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=February
+|birth_date_day=03
+|favchamp=Elise
+|favchamp2=Lee Sin
+|favchamp3=Nidalee
+|favchamp4=Sejuani
+|checkbox1=Yes
+|favchamp5=Poppy
+|favchamp6=Olaf
+|favchamp7=Vi
+|checkboxComp=No
+|ids='''KR''': Peanut#kr11<br>'''CN:''' SakurajimaMa1<br>'''NA:''' I WANT TO GO NA<br>'''EUW:''' Peanut<br>'''BR:''' Ver você de novo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/kiss281004
+|facebook=https://www.facebook.com/profile.php?id=100010332576278
+|twitter=lolPeanut98
+|instagram=wanghohan98
+|videoarchive=https://chzzk.naver.com/live/6af9b9d8a98e627294a1a9fca8b0cead
+|youtube=https://www.youtube.com/channel/UCSRkC3h5WHvDFjE7uJ2zjIg
+|weibo=https://www.weibo.com/n/小花生Peanut98
+|lolpros=https://lolpros.gg/player/peanut
+|deeplol=https://www.deeplol.gg/pro/Peanut
+|dpmlol=https://dpm.lol/pro/Peanut
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2015 Season===
+Han "'''Peanut'''" Wang-ho joined the Najin organization in late 2014 but was only announced as an official sub for [[NaJin e-mFire]] later in December. He finally turned 17 in February and played in his first competitive match at [[SBENU Champions Spring 2015]] against [[SK Telecom T1]] later that month. He shared the starting jungle position with [[Watch]] for the rest of the tournament, where NaJin finished 6th overall. NaJin placed fifth in the regular season of [[SBENU Champions Summer 2015]] and qualified for the playoffs but they lost in the first round 2-1 to the [[KOO Tigers]]. However, Peanut did not play in any of these games. They earned enough circuit points to make it to the [[2015 Season Korea Regional Finals]] but lost 3-0 in the first round to the [[Jin Air Green Wings]].
+
+===2016 Preseason===
+NaJin played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 to [[Rebels Anarchy]] in the first round. Peanut left NaJin in December and joined [[ROX Tigers]] in January.
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Split]], the ROX Tigers dominated domestically in similar fashion to 2015. They finished the regular season with a 16-2 match record, losing only to [[KT Rolster]] and [[Samsung Galaxy]]. Earning first place in the regular season gave them a bye to the finals of the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], where they faced [[SK Telecom T1]]. ROX entered as the favorites this time, but still lost 3-1, earning themselves second place for the spring split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], the Tigers once again placed first in the regular season with an impressive 15-3 scoreline in Bo3s, with two losses to [[SK Telecom T1]] and one loss to [[Samsung Galaxy]]. This seeded them in the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]] directly into their third domestic finals, where they eventually met [[KT Rolster]]. In an epic series, the ROX Tigers won the set 3-2, claiming 1st place in the Summer Split and giving them Korea's first seed into the [[2016 Season World Championship]].
+
+At the [[2016 Season World Championship]], the ROX Tigers were placed into Group A, along with [[G2 Esports]], [[Counter Logic Gaming]], and [[Albus NoX Luna]].
+
+== Trivia ==
+* Changed his legal name from Yoon Wang-ho (윤왕호) to Han Wang-ho (한왕호) in April 2016.
+* Originally known for his {{ci|Olaf}}, {{ci|Nidalee}}, and {{ci|Elise}}.
+** He went 11/0/6 on {{ci|Olaf}} during a match against [[SK Telecom T1]] during the [[LCK/2018 Season/Spring Season|LCK 2018 Spring Season]].
+* His mother owns a restaurant in the Chang-dong neighborhood of Seoul which is decorated with posters and other memorabilia of him. 
+
+=== Statistics ===
+* Reached 1000 kills in the LCK on June 24, 2021.
+** Was the 14th player to reach 1000 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], and [[Ghost (Jang Yong-jun) | Ghost]].
+** His 1000th kill was on [[T1]]'s Support [[Keria]] in the [[LCK 2021 Summer|LCK 2021 Summer Season]] with {{ci|Diana}}.
+** Was the 3rd Jungler to reach 1000 kills after [[Score]] and [[Ambition]].
+* Reached 1500 kills in the LCK on April 9th, 2023.
+** Was the 11th player to reach 1500 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], and [[Chovy]].
+** His 1500th kill was on [[T1]]'s Top-Laner [[Zeus]] in the [[LCK 2023 Spring Playoffs|LCK 2023 Spring Playoffs]] with {{ci|Wukong}}.
+** Was the 2nd Jungler to reach 1500 kills after [[Score]].
+* Reached 2000 kills in the LCK on July 26th, 2025.
+** Was the 9th player to reach 2000 kills in the LCK after [[Faker]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], [[Aiming]], and [[ShowMaker]].
+** His 2000th kill was on [[KT Rolster]]'s Bot-Laner [[deokdam]] in the [[LCK 2025 Rounds 3-5|LCK 2025 Rounds 3-5]] with {{ci|Wukong}}.
+** Was the 1st Jungler to reach 2000 kills.
+* Reached 3000 assists in the LCK on July 22nd, 2022.
+** Was the 7th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], and [[Deft]].
+* Reached 4000 assists in the LCK on August 20th, 2023.
+** Was the 4th player to reach 4000 assists in the LCK after [[GorillA]], [[Faker]], and [[Lehends]].
+* Reached 5000 assists in the LCK on April 9th, 2025.
+** Was the 3rd player to reach 5000 assists in the LCK after [[Faker]] and [[Lehends]].
+* Reached 300 wins in LCK on June 24th, 2022, becoming the 7th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], and [[Ruler]].
+* Reached 400 wins in LCK on July 26th, 2023, becoming the 3rd player to do so after [[Faker]] and [[Deft]].
+* Reached 500 wins in LCK on April 17th, 2025, becoming the 2nd player to do so after [[Faker]].
+* Reached 500 games in the LCK on July 24th, 2022, becoming the 7th player to do so, after [[Score]], [[Faker]], [[Ruler]], [[Deft]], [[Bdd]], and [[Teddy]].
+* Reached 600 games in the LCK on July 2nd, 2023, becoming the 4th player to do so, after [[Faker]], [[Deft]], and [[Bdd]].
+* Reached 700 games in the LCK on June 29th, 2024, becoming the 4th player to do so, after [[Faker]], [[Deft]], and [[Bdd]].
+* Reached 800 games in the LCK on August 17th, 2025, becoming the 4th player to do so, after [[Faker]], [[Deft]], and [[Bdd]].
+* Reached 1000 international assists during [[Worlds 2025 Main Event|Worlds 2025]] on October 18, 2025 in Round 3 of Swiss Stage against [[100 Thieves]], becoming the 10th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], [[Faker]], [[xiaohu]], [[meiko]], [[Keria]], [[Caps]], [[Canyon]], [[Oner]], and [[ON]].
+
+=== Individual Awards ===
+* LCK MVP x1 (Summer 2021)
+* LCK Finals MVP x2 (Spring 2017, Summer 2022)
+* LCK 1st All-Pro Team x2 (Summer 2021, Summer 2022)
+* LCK 2nd All-Pro Team x3 (Spring 2023, Summer 2023, Summer 2024)
+* LCK 3rd All-Pro Team x3 (Spring 2022, Spring 2024, LCK 2025)
+* LPL 3rd All-Pro Team x1 (Spring 2020)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,163 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=RED%20Canids&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「RED Canids」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= RED Canids
+|orgcountry= Brazil 
+|country=
+|region=Brazil
+|headcoach= Gabriel "[[tockers]]" Claumann
+|manager= Alexandre "'''Alezito'''" Lima
+|owner= Felippe "[[Fekz]]" Corradini <br> João Paulo "'''JP'''" Garcia
+|captain= 
+|website= https://redcanids.com.br
+|youtube= https://www.youtube.com/RedCanidsBR
+|facebook=https://www.facebook.com/REDCanids
+|instagram=redcanids
+|twitter= REDCanids
+|snapchat=redcanidsbr
+|stream= https://www.twitch.tv/redcanids
+|tiktok= redcanids
+|lolpros= https://br.lolpros.gg/team/red-canids
+|bluesky= redcanids.gg
+|linkedin=https://www.linkedin.com/company/redcanids/
+|irc=
+|sponsor= [https://www.kalunga.com.br/ Kalunga] <br>[https://www.redragon.com.br/ Redragon]<br> [https://www.logitech.com/pt-br/ Logitech] <br> [https://www.kaspersky.com.br Kaspersky] <br> [https://www.freebrands.com.br/catalogo/freeco FreeCô] <br> [https://www.matrixfitness.com/br/ptb Matrix Fitness] <br> [https://www.kingston.com/br/memory/gaming Kingston Fury] <br> [https://www.multilaser.com.br Multi] <br> [https://www.3m.com.br/ 3M] <br> [https://noping.com/pt NoPing] <br> [https://ggpokernews.com GGPoker]
+|created= 2015-12-17
+|disbanded=
+|rosterphoto=
+|otherwikis=smite,vg,fn
+}}{{TOCRWI}}
+
+'''RED Canids''' is a Brazilian team, created with the acquisition of [[INTZ Red]]. During the first split of 2018, the team competed under the name '''Red Canids Corinthians''', as a result of a partnership with sports club [[Corinthians Esports|SC Corinthians Paulista]]. Currently the team competes as '''RED Canids Kalunga''', as part of a title sponsorship deal with Brazilian stationery store [https://www.kalunga.com.br/ Kalunga].
+
+== History ==
+=== 2015/2016 ===
+In December 2015, it was announced that [[INTZ Red|INTZ RED]] was acquired by a "group of investors", and renamed to '''RED Canids'''. After some news revealed that the team's owners were still related to INTZ, Riot ordered the INTZ organization to sell/transfer one of the teams, or it would lose its {{bl|CBLOL 2016 Split 1}} spot. Finally, before the start of the tournament, INTZ sold RED Canids to '''Brasil Mega Arena''' owner {{bl|Fekz|Felippe Corradini}}. The team finished the [[CBLOL 2016 Split 1|regular season]] in sixth place, with a score of 8 points, 2 wins, 2 ties and 3⁠ losses. In [[CBLOL 2016 Split 1|playoffs]], after losing to [[Operation Kino e-Sports]] and defeating [[paiN Gaming]], they ended up in 5th place. 
+For the [[CBLOL 2016 Split 2|second split]], they decided to bring in [[Eryon]], who would compete for the starting toplaner position with [[Ayel]]. Despite the change, they ended up in seventh place, barely making it to the playoffs. For the [[CBLOL 2016 Split 2 Playoffs|playoffs]], they brought in Estonian toplaner [[beansu]]. The team ended up taking seventh place in the playoffs after winning the '''Relegation''' match against [[Big Gods]], who was demoted to the [[BRCC 2017 Split 1]].
+
+=== 2017 ===
+For [[CBLOL 2017 Split 1|2017]], RED Canids brought the lineup known as the "renegades": bringing [[Robo]], [[Nappon]], [[tockers]], [[brTT]], players who ended up leaving their teams after being replaced, and keeping [[Dioud]], a player who remained from the previous lineup. They finished the first split in second place, only behind [[INTZ]], with 16 points, 5 wins, 1 tie and 1 loss. With the return of [[YoDa (Felipe Noronha)|YoDa]] as a alternating midlaner with [[tockers]] and [[Sacy]] as a substitute for [[brTT]], they won their first title in 2017 after beating [[Keyd Stars]] in the finals by 3-0 and participated in [[MSI 2017]], which was held in Brazil. With the help of [[Brokenshard]] as a temporary coach, they ended up second place in group stage, with a record of 4 wins and 2 loses, but not qualifying for the main stage.
+In [[CBLOL 2017 Split 2|2017's second split]], they brough the Portuguese [[Rhuckz]] as a substitute support for [[Dioud]] and [[Galfi]] as the new head coach for the team, finishing second place in regular season, but losing to [[Team oNe eSports]] by 3-2 in the [[CBLOL 2017 Split 2 Playoffs|playoffs]].
+
+=== 2018 ===
+At the end of 2017, the team announced the departure of several players, such as [[Rhuckz]], [[tockers]], [[Robo]] and [[brTT]]. The surprise came with the announcement that two Korean players were joining the team, the jungler [[Winged]] and the midlaner [[Sky (Kim Ha-neul)|Sky]], in addition to the remaining of the jungler [[Nappon]] and botlaner [[Sacy]], the joining of support [[Cabu]] and their new coach [[Icarus (Lee In-cheol)|Icarus]]. They finished second in [[CBLOL 2018 Split 1|regular season]], but they ended up losing to [[Keyd Stars]] by 3-2 and finishing third place in the [[CBLOL 2018 Split 1 Playoffs|playoffs]].
+The [[CBLOL 2018 Split 2|second split of 2018]] is often regarded as the lowest point in the team's history after [[Dioud]] and [[Nappon]] left and they hired the korean jungler [[Chaser]] to replace [[Winged]]. The team also rehired the coach [[Abaxial]], who was part of the team two years before, and hired [[Coelho]], a coach considered a newcomer to the scene. They ended up eight place, which ended up demoting the team to the [[Brazilian Challenger Circuit/2019 Season/Split 1|Challenged Circuit]].
+
+=== 2019 ===
+With their demotion to the [[Brazilian Challenger Circuit/2019 Season/Split 1|Challenger Circuit]], the team decided to bet on new and old players, bringing in rookies [[Guigo]] and [[Avenger (Adriano Perassoli)|Avenger]], their old acquaintance [[YoDa (Felipe Noronha)|YoDa]] and the veteran [[Revolta]], which were led by the Canadian coach [[Nuddle]] after [[Coelho]] was moved to their [[RED Academy|academy team]]. They finished first place in the regular season, but finished third place after losing to [[Team oNe eSports]] by 3-1 in the [[Brazilian Challenger Circuit/2019 Season/Split 1 Playoffs|playoffs]], who was also demoted in the previous year.
+For the [[Brazilian Challenger Circuit/2019 Season/Split 2|second split]], the team welcomed [[TitaN]], the botlaner from [[KaBuM! Esports]] who had already won 2 CBLOL titles and 1 BRCC with the orange team. Despite the player's entry, the team finished second in the regular phase and third in the [[Brazilian Challenger Circuit/2019 Season/Split 2 Playoffs|playoffs]], losing 3-0 to [[ProGaming Esports]].
+
+=== 2020 ===
+For [[Brazilian Challenger Circuit/2020 Season/Split 1|2020]], the team decided to aim higher, bringing in former teammate [[Ayel]], as well as rookies [[Aegis (Gabriel Lemos)|Aegis]], [[Grevthar]] and [[Woodboy]]. The gamble was a risky one, and by finishing fifth, they almost lost their spot in the Challenger Circuit. The second split of [[Brazilian Challenger Circuit/2020 Season/Split 2|2020]] would be seen as one of the most importants of the team. With the toplaner [[Guigo]] and the support [[Cabu]] moving into the starting lineup, they finished first place in the regular season and won the [[Brazilian Challenger Circuit/2020 Season/Split 2 Playoffs|playoffs]] by defeating [[Team oNe eSports]] by 3-1, promoting them to the [[CBLOL 2021 Split 1]], unknown to them that their would be chosen for the new franchise format of [[CBLOL]] anyway. The team also participated in late 2020 in the only edition of the [[Liga Loading de Esports 2020|LLE 2020]], promoted by a television channel, in which they won R$ 50.000 after defeating [[Vorax]] in the grand finals by 3-0.
+
+=== 2021 ===
+The first split of the new [[CBLOL 2021 Split 1|CBLOL]] had good results with the entrance of the new support, [[JoJo (Gabriel Dzelme)|JoJo]], and the team finished third place in the regular season. Despite a good start in the [[CBLOL 2021 Split 1 Playoffs|playoffs]] with a win by 3-1 against [[KaBuM! Esports]], the team lost to [[Vorax]] by 3-1 and finished fourth place. The [[CBLOL 2021 Split 2|second split]] had worst results, finishing in sixth place and almost not qualifying for [[CBLOL 2021 Split 2 Playoffs|playoffs]]. With the entrance of [[Grevthar]], who was moved to the academy team in the previous split, the team made a miracle run and won the title, qualifying for [[Worlds 2021]]. 
+In [[Worlds 2021]], the team started the '''Play-in Stage''' in group A facing and defeating the Costa Rican [[INFINITY]]. They afterwards faced the asian teams [[LNG Esports]] and [[Hanwha Life Esports]], losing to both of them. They also faced the Australian team [[PEACE (Oceanic Team)|PEACE]], who eventually defeated them both in the groups stage and in the tierbreakers, eliminating the team.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Active===
+{{listplayer/Start|staff=yes}}
+{{listplayer|Fekz|br|Felippe Corradini|'''Co-Owner'''}}
+{{listplayersp|JP|br|João Paulo Garcia|'''Co-Owner'''}}
+{{listplayersp|Steph|br|Stéphanie Schürmann|'''Head of Marketing'''}}
+{{listplayer|WenAmazing|br|Wender Roberto de Lima|'''Chief of Operations'''}}
+{{listplayersp|Alezito|br|Alexandre Lima|'''Team Manager'''}}
+{{listplayersp|Roxane|br|Roxane Pirro|'''Psychologist'''}}
+{{listplayer|tockers|br|Gabriel Claumann|'''Head Coach'''}}
+{{listplayer|Vinicin|br|Vinicius Garcia|'''Assistant Coach'''}}
+{{listplayer|BeellzY|br|Lucas Spínola|'''Positional Coach'''}}
+{{listplayersp|FelipeRAG|br|Felipe Gonçalves|'''Social Media & Community Manager'''}}
+{{listplayer|YoDa (Felipe Noronha)|br|Felipe Noronha|'''Ambassador'''}}
+{{listplayersp|Iasserzin|br|Iasser Correia|'''Streamer & Content Creator'''}} 
+{{listplayersp|Ammyzitta|br|Ammy Roviller|'''Streamer & Content Creator'''}}
+{{listplayersp|João Dias|br|João Dias|'''Streamer & Content Creator'''}}
+{{listplayersp|Dyen|br|Dyenffny Souza|'''Streamer & Content Creator'''}}
+{{listplayersp|Isac|br|Isac Lemus|'''Streamer & Content Creator'''}}
+{{listplayersp|Aninha|br|Ana Clara|'''Streamer & Content Creator'''}}
+{{listplayersp|JMdeck|br|Jorge Medina|'''Streamer & Content Creator'''}}
+{{listplayersp|Myn|br|Yasmin Luna|'''Streamer & Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Peuzinho|br|Pedro Luiz Sobolewski|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Medu|br|Maria Eduarda Gomes|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Ionian|br|Caio Deslandes Santos|'''Streamer & Content Creator'''|newteam=none}} 
+{{listplayersp|Dersin2k|br|Anderson Nascimento|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Strazzi|br|Allan Strazzi|'''Analyst'''|newteam=Retired}}
+{{listplayer|aXt (Bruno Habitzreuter)|br|Bruno Habitzreuter|'''Ambassador'''|newteam=none}}
+{{listplayersp|Ismalakoi|br|Ismael Batista|'''Streamer & Content Creator'''|newteam=Ei Nerd Esports}}
+{{listplayersp|Cremosa|br|Caroline Moreira Pereira|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Coelho|br|Calisto Rabaiolli|'''Head Coach'''|newteam=Retired}}
+{{listplayer|WenAmazing|br|Wender Roberto de Lima|'''Talents Manager'''|newteam=RED Canids|comment=Chief of Operations}}
+{{listplayersp|Burger|br|Álvaro Burger|'''Psychologist'''|newteam=LOUD|comment=R6 Siege}}
+{{listplayer|lanterninho|br|Caio Felippe|'''Assistant Coach & Data Analyst'''|newteam=Corinthians Esports}}
+{{listplayersp|Que Aula|br|Túlio Vinícius Alves|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Cardoso|br|Felipe Cardoso|'''Community Manager & Copywriter'''|newteam=none}}
+{{listplayersp|Drawyu|br|Oscar Vieira|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Steph|br|Stephanie Vieira|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Vezito|br|Victor Alves Miranda|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Nid|br|Ingrid Fraporti|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Nelson|sg|Sng Yi-Wei (孙翊维)|'''Head Coach'''|newteam=none}}
+{{listplayer|Kalec|br|Rodrigo Rodrigues|'''Head Coach'''|newteam=Stellae Gaming}}
+{{listplayersp|Vitão|br|Vitor Bruno|'''Community Manager & Copywriter'''|newteam=none}}
+{{listplayer|Nelson|sg|Sng Yi-Wei (孙翊维)|'''Head Coach'''|newteam=RED Canids|comment=Head Coach}}
+{{listplayer|Guiven|br|Guilherme Antônio|'''Streamer'''|newteam=Vasco E-Sports}}
+{{listplayer|Kennzy|br|Marcos Vinicius|'''Streamer'''|newteam=none}}
+{{listplayersp|Bosco|br|Pedro Bosco|'''Social Media'''|newteam=Ilha das Lendas}}
+{{listplayer|k0ga|br|Lucas Godoy|'''Assistant Coach'''|newteam=Liberty Academy}}
+{{listplayer|Warl0ck|th|Pawat Ampaporn|'''Head Coach'''|newteam=none}}
+{{listplayer|Phaxi|si|Ambrož Hren|'''Coach'''|joined=2021-06-16|left=2021-07-19|newteam=Iron Wolves}}
+{{listplayersp||br|Vicenzzo Mandetta|'''eSports Manager'''|newteam=Soberano Team|joined=2017-11-??|left=2020-05-19}}
+{{listplayer|YoDa (Felipe Noronha)|br|Felipe Noronha|'''Ambassador'''|newteam=Retired|joined=2018-08-19|left=2020-04-03|rejoined=yes}}
+{{listplayer|Nuddle|ca|Jean-François Caron|'''Head Coach'''|newteam=Flamengo|joined=2018-09-06|left=2020-03-31}}
+{{listplayer|Galfi|br|Hugo Augusto|'''Coach'''|newteam=Vorax.A|joined=2019-05-28|left=2019-11-25|rejoined=yes}}
+{{listplayer|Coelho|br|Calisto Rabaiolli|'''Coach'''|newteam=RED Academy|joined=2018-05-??|left=2019-05-??}}
+{{listplayer|Espeon|br|Martin Gonçalves|'''Streamer'''|newteam=FURIA Uppercut|joined=2018-12-22|left=2019-??-??}}
+{{listplayersp|Gakim0|kr|Ga Kim|'''Translator'''|newteam=FLA|joined=2018-02-??|left=2018-08-22}}
+{{listplayer|Abaxial|us|Alexander Haibel|'''Head Coach'''|newteam=INTZ|joined=2018-05-19|left=2018-07-21}}
+{{listplayer|Galfi|br|Hugo Augusto|'''Head Coach'''|newteam=VK|joined=2017-05-31|left=2018-05-18}}
+{{listplayer|Icarus|link=Icarus (Lee In-cheol)|kr|Lee In-cheol (이인철)|'''Head Coach'''|newteam=WNS|joined=2017-12-11|left=2018-02-06}}
+{{listplayer|Brokenshard|il|Ram Djemal|'''Strategic Coach'''|newteam=KIYF|joined=2017-12-11|left=2018-02-06|rejoined=yes}}
+{{listplayer|Brokenshard|il|Ram Djemal|'''Head Coach'''|newteam=REDC|joined=2017-05-01|left=2017-08-27}}
+{{listplayer|Gevous|nl|Fayan Pertijs|'''Head Coach'''|newteam=Splyce|joined=2016-12-05|left=2017-05-01}}
+{{listplayersp|Koifish|dk|Christoffer Christensen|'''Analyst'''|newteam=BrawL|joined=???|left=???}}
+{{listplayer|Neki|br|Vinícius Ghilardi|'''Head Coach'''|newteam=IDM|joined=2015-12-17|left=2016-09-22}}
+{{listplayersp|sNk|br|Luan Almeida|'''Owner'''|newteam=INTZ|joined=2015-12-17|left=2016-01-14}}
+{{listplayersp||br|Caique Henriques|'''e-Sports Director'''|newteam=INTZ|joined=2015-12-17|left=2016-01-14}}
+{{listplayer/End}}
+
+===Temporary Staff===
+{{listplayer/Start|staff=yes}} || Period
+{{listplayer|Brokenshard|il|Ram Djemal|'''Head Coach'''}} || [[2017 Mid-Season Invitational]]
+{{listplayer|Abaxial|us|Alexander Haibel|'''Head Coach'''}} || Oct 2016 - Dec 2016
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As INTZ RED===
+{{TeamResults|INTZ RED|show=overviewpage}}
+
+==Media==
+{{TeamMedia}}
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />

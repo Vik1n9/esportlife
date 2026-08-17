@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gori&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.576Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Gori」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Gori
+|name=Kim Tae-woo
+|nativename=김태우
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=August
+|birth_date_day=09
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR''': GGGori<br>NS GGori<br>IIrrooGG
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/gori
+|facebook=https://www.facebook.com/profile.php?id=100006395867593
+|twitter=lol_Gori
+|instagram=lolgori089
+|deeplol=https://www.deeplol.gg/pro/Gori
+|dpmlol=https://dpm.lol/pro/Gori
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|istrainee26=No
+|istrainee27=No
+|istrainee28=No
+|istrainee29=No
+|istrainee30=No
+}}
+==Biography==
+
+== Trivia ==
+* Won Player of the Split with 1100 POG points in [[LCK/2021 Season/Summer Season|LCK 2021 Summer]], his debut split in LCK.
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team (Spring 2023)
+* LCS 2nd All-Pro Team (Summer 2023)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

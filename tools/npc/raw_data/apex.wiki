@@ -1,0 +1,11 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Apex&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.630Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Apex」 · CC BY-SA 3.0（Leaguepedia） -->
+For the '''Apex Legends esports wiki''', [[apex:Apex Legends Esports Wiki|click here]].
+
+{{DisambigPage
+|player1=Apex (Hsieh Chia-Wei)
+|player2=Apex (Francesco Massara)
+|team1=Apex Gaming
+|team2=ApeX R Gaming
+|other1=[[apex:Main Page|Apex Legends]], a Battle Royale title that launched in 2019 and has a [[apex:Apex Legends Esports Wiki|separate wiki]]
+}}

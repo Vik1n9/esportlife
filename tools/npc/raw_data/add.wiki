@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ADD&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ADD」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=ADD
+|name=Kang Geon-mo
+|nativename=강건모
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=October
+|birth_date_day=17
+|favchamp=Sion
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' ADD on win<br>'''NA:''' ADD ON WIN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/nakbbt
+|facebook=https://www.facebook.com/profile.php?id=100008086088850
+|twitter=LoLADD12
+|videoarchive=https://www.twitch.tv/lol_add
+|deeplol=https://www.deeplol.gg/pro/ADD
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2016 Season===
+Kang "'''ADD'''" Geon-mo joined [[MVP]] in December 2015 as their top laner. During the [[Challengers Korea/2016 Season/Spring Season|Challengers Korea 2016 Spring Season]], MVP performed admirably during the regular season with an 85% winrate, giving them first place with 34 pts. This seeded them directly into the finals of the [[Challengers Korea/2016 Season/Spring Playoffs|Challengers Korea 2016 Spring Playoffs]], where they were upset 3-2 by ESC Ever. However, they still earned a spot in the [[LCK/2016 Season/Summer Promotion|2016 LCK Summer Promotion]], where they beat [[Kongdoo Monster]] 3-1 to earn a spot in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]].
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], MVP managed to go 7-11 in series, netting them sixth place overall. Unfortunately, this made them barely miss the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]] for the season. Their lack of circuit points from the spring season of the [[LCK/2016 Season/Spring Season|2016 LCK Spring Split]] made them unable to qualify for the [[2016 Season Korea Regional Finals]] as well.
+
+== Trivia ==
+* Known for his {{ci|Sion}} and {{ci|Poppy}}.
+* Known for a big champion pool. In 2017 Spring, 2017 Summer, and 2018 Spring, he is the player who picked the most different Champions in LCK.
+* Often remembered for his {{ci|teemo}} pick against [[Royal Never Give Up|RNG]] during [[Worlds 2022]] while playing for [[Isurus]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

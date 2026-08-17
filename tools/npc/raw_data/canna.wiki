@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Canna&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.567Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Canna」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Canna
+|name=Kim Chang-dong
+|nativename=김창동
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=February
+|birth_date_day=11
+|favchamp=Jayce
+|favchamp2=Kennen
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 칸 나#0211<br>'''EUW:''' K C#kcwin
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/canna
+|facebook=https://facebook.com/profile.php?id=100057158147281
+|twitter=CannaXDXD
+|instagram=canna_00
+|deeplol=https://www.deeplol.gg/pro/Canna
+|dpmlol=https://dpm.lol/pro/Canna
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|istrainee26=No
+|issub27=No
+|istrainee27=No
+|issub28=No
+|istrainee28=No
+|issub29=No
+|istrainee29=No
+|issub30=No
+|istrainee30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Canna''' is based on the character Kanna Kamui from the anime [[wikipedia:en:Miss_Kobayashi's_Dragon_Maid|''Miss Kobayashi's Dragon Maid'']].<ref>[https://youtu.be/ZFtrI9VF_rI T1 Canna on being compared to Impact and Duke, which anime his IGN is based in | Ashley Kang] ''youtube.com''</ref>
+* His role model is [[Khan]].
+*  Following his 3-0 victory over [[Gen.G]] in the [[LCK/2020 Season/Spring Season|LCK 2020 Spring Playoffs]] finals became a ''Royal Roader'', an unofficial achievement earned in Korea after winning a final in a major league as a rookie. 
+* Was Diamond I in middle school.<ref>[https://www.youtube.com/watch?v=cTaxZmJEXYg&t=387 Wolf: Effort, I love you! | T1 WIN CAM Moments EP.1 <nowiki>[</nowiki>Translated<nowiki>]</nowiki>] ''youtube.com''</ref>
+* Known as "The Pride of Andong", Andong being the city in Korea that Canna is from.<ref>[https://youtu.be/cTaxZmJEXYg?t=121 Wolf: Effort, I love you! | T1 WIN CAM Moments EP.1 <nowiki>[</nowiki>Translated<nowiki>]</nowiki>] ''youtube.com''</ref>
+** A banner for Canna was put up in Andong during LCK Spring 2020. <ref>[http://www.inven.co.kr/board/lol/4625/2617539]</ref>
+* Dubbed by Twitch chat as "GODNA" when performing well, and as "CAN NA" when performing badly.
+* Also has the moniker of "Solo Killing Machine" by Korean viewers, and "Solo Kill King" by English viewers for his high number of solo kills in the LCK.
+** He was actually close to surpassing [[MaRin | MaRin's]] record in LCK Summer 2020.
+* Although the T1 KLEVV ad<ref>[https://www.youtube.com/watch?v=KUeq__RmAjE T1 X KLEVV 만들어 봐, 네 본체의 빛]''youtube.com''</ref> that has been touted by some as cringe that transcends space and time, a really good picture of Canna came out of it.<ref>[https://www.facebook.com/T1LoL/photos/pcb.2725852250982256/2725849390982542]''facebook''</ref>
+* He revealed [[Ellim]] recommended him to join the academy prior to get called for the [[T1]] main roster. <ref>[https://youtu.be/KPg0K7H_lyQ?t=221 Canna shares his story on how he became a pro League of Legends player <nowiki>[</nowiki>T1 Stream Highlight<nowiki>]</nowiki>] ''youtube.com''</ref>
+* The second player to win both a title in the LCK ([[LCK/2020 Season/Spring Playoffs|LCK 2020 Spring]]) and in the LEC ([[LEC/2025 Season/Winter Playoffs|LEC 2025 Winter]]) after [[Huni]].<ref>[https://x.com/Sheep_Esports/status/1896375277108011359] ''x.com''</ref>
+=== Awards ===
+* LCK 2nd All-Pro Team x1 (Summer 2020)
+* LEC 1st All-Pro Team x1 (Spring 2025)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

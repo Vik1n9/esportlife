@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yaharong&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.924Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yaharong」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Yaharong
+|name=Lee Chan-ju
+|nativename=이찬주
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=June
+|birth_date_day=12
+|checkbox1=No
+|compID1=Lion
+|compID2=Grace
+|checkboxComp=No
+|ids='''KR:''' BRO Yaharong, XXXTENTACION<br>'''NA:''' yaharoooooooong
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/highigh0612
+|facebook=https://www.facebook.com/profile.php?id=100010166110755
+|twitter=lolyaharong
+|deeplol=https://www.deeplol.gg/pro/Yaharong
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Lion''' and '''Grace'''.
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+*Was exempted from South Korea's mandatory military service due to bipolar disorder type 1.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

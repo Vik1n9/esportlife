@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mikyx&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.563Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mikyx」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Mikyx
+|name=Mihael Mehle
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Slovenia
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=November
+|birth_date_day=02
+|favchamp=Gragas
+|favchamp2=Rakan
+|favchamp3=Bard
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' FNC Mikyx#1998<br>Billy Butcher#Mikyx<br>'''KR:''' MSF Kacchan<br>MikyXL<br>G2 Smoker<br>'''CN:''' G2Kuroko
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/m1kyx
+|twitter=mikyx
+|instagram=g2mikyx
+|lolpros=https://lolpros.gg/player/mikyx
+|deeplol=https://www.deeplol.gg/pro/Mikyx
+|dpmlol=https://dpm.lol/pro/Mikyx
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Mikyx has been gaming since he was 10 years old. He played a lot of Warcraft II and III, Wizard 101, Etherlords, and Empire Earth.
+
+He began his professional gaming career when he got an offer from [[Splyce]], after being a substitute for [[Fnatic]].
+
+== Trivia ==
+* Favorite football player is [[wikipedia:en:Michael Ballack|Michael Ballack]].
+* Favorite TV show is ''[[wikipedia:en:Game of Thrones|Game of Thrones]]''.
+* Favorite animes are ''[[wikipedia:en:Code Geass|Code Geass: Lelouch of the Rebellion]]'' and ''[[wikipedia:en:Hunter x Hunter|Hunter x Hunter]]''.
+* Sometimes makes appearances on [[LS]]' streams.
+
+=== Statistics ===
+* Reached 2500 Assists in the LEC on August 22, 2020.
+** The 4th player to reach 2500 assists in the LEC after [[Hylissang]], [[Jankos]] and [[VandeR]].
+* Reached 4000 Assists in the LEC on June 17, 2023.
+** The 3rd player to reach 4000 assists in the LEC after [[Hylissang]] and [[Jankos]].
+* Reached 5000 Assists in the LEC on June 30, 2024.
+** The 2nd player to reach 5000 assists in the LEC after Hylissang.
+* Reached 6000 Assists in the LEC on June 02, 2025.
+** The 1st player to reach 6000 assists in the LEC.
+* Reached 1000 deaths in the LEC on July 30, 2021.
+** His 1000th death was done by [[MAD Lions|MAD Lions]]'s [[Carzzy]] in the [[LEC/2021 Season/Summer Season|LEC 2021 Summer Split]] with {{ci|Varus}}
+* Reached 300 wins in the LEC on February 11, 2024.
+** The 6th player to reach 300 wins in the LEC after [[Jankos]], [[Rekkles]], [[Hylissang]], [[Caps]], and [[Odoamne]].
+* Reached 500 games in the LEC on June 15, 2024.
+** The 5th player to reach 500 games in the LEC after [[Jankos]], [[Hylissang]], [[Rekkles]], and [[Odoamne]].
+* Reached 600 games in the LEC on August 02, 2025.
+** The 3rd player to reach 600 games in the LEC after [[Jankos]] and [[Hylissang]].
+
+=== Equipment ===
+* Screen: AOC AG251FZ
+* Mouse: Logitech G G403
+* Keyboards: Logitech G G513 & Logitech G Pro X
+* Mousepad: Logitech G G640
+* Chair: Secret Lab
+* Webcam: Logitech Streamcam
+
+=== Individual Awards ===
+* x1 LEC MVP of the Year (2023)
+* x7 LEC 1st All Pro Team (Spring 2019, Summer 2019, Spring 2020, Spring 2021, Summer 2021, Winter 2023, Winter 2024)
+* x1 LEC 2nd All Pro Team (Summer 2016)
+* x3 LEC 3rd All Pro Team (Spring 2018, Summer 2018, Summer 2020)
+
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

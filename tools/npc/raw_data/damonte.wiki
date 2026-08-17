@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Damonte&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.717Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Damonte」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Damonte
+|name=Tanner Damonte
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=December
+|birth_date_day=02
+|favchamp=Zed
+|favchamp2=Twisted Fate
+|favchamp3=LeBlanc
+|favchamp4=Syndra
+|checkbox1=Yes
+|favchamp5=Qiyana
+|checkboxComp=No
+|ids='''NA:''' 100 Tanners<br>'''EUW:''' rare breed
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/damonte
+|twitter=Damonte
+|instagram=t.damonte
+|youtube=https://youtube.com/channel/UCx7lH9kM1tEYnJaFFCXicEw
+|lolpros=https://lolpros.gg/player/damonte/
+|deeplol=https://www.deeplol.gg/pro/Damonte
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2015 Season===
+Tanner "'''Damonte'''" Damonte began playing ''League of Legends'' competitively in early 2015, with the nicknames '''Mini''' and '''Mini Me'''. In January, he played with [[Infinity Esports (2015 North American Team)|Infinity Esports]] in the [[2015 NA Challenger Series/Spring Qualifier|NACS Spring Qualifier]], but was eliminated in round 1 by [[Team Liquid Academy]]. Throughout the course of the year, he played on multiple other teams, including [[Cerberus eSports]] and [[Noble eSports]], with whom he participated in the [[AlphaDraft Challenger League]]. 
+
+===2016 Season===
+In October 2015, Damonte joined [[Serpentis eSports]]. The team played in the [[HTC Ascension]] Cup but later disbanded after an unsuccessful [[NA Challenger Series/2016 Season/Spring Qualifiers/Open Qualifier|NACS Spring Qualifier]] run in January 2016. Damonte then joined [[the monkeys]] (which would later rename to [[Destined For Glory]]) for the [[NA Challenger Series/2016 Season/Summer Qualifiers/Open Qualifier|Summer Open Qualifier]]. This time, his team made the [[NA Challenger Series/2016 Season/Summer Qualifiers|Main Qualifier]] but fell to [[Cloud9 Challenger]]. In June, Damonte joined [[Nova eSports (North American Team)|Nova eSports]], a new team that had purchased [[Ember]]'s [[NA Challenger Series/2016 Season/Summer Season|NACS Summer Season]] seed.
+
+== Trivia ==
+* At the same time as making Challenger the first time, he was also playing baseball and American football at his high school.
+* Became known for his {{ci|Qiyana}} after being the first LCS player to play and win with it after its release.
+* Known for his catchphrase, "Tanner Time."
+* One of his coaches in amateur once trolled Leaguepedia staff by telling them he was born in Luxembourg.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,148 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Rogue%20(European%20Team)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.540Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Rogue」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=Natus Vincere
+|name= Rogue
+|orgcountry= United States
+|country= Europe
+|region= EMEA
+|partner= [https://theinfinitereality.com/ Infinite Reality]<br>[https://rektglobal.com/ ReKTGlobal]<br>[http://www.steveaoki.com/ Steve Aoki]<br>[https://www.kia.com/us/en/ KIA]
+|headcoach= Simon "{{bl|fredy122}}" Payne
+|owner= Franklin "'''Frank'''" Villareal <br> Carson Knuth <br> Derek Nelson
+|website= 
+|instagram= roguegg
+|youtube= https://www.youtube.com/RogueGG 
+|facebook= 
+|twitter= RoguexOfficial
+|discord= 
+|snapchat= 
+|lolpros=https://lolpros.gg/team/rogue
+|linkedin=https://www.linkedin.com/company/roguegg/
+|created= 2016-05-03 (Organization)
+|disbanded= 
+|rosterphoto=Rouge (European Team) LEC Roster 2025.jpg
+|otherwikis=
+}}{{TOCRWI}}
+{{TeamPageStart}}
+== History ==
+'''Rogue''' is an American organization best known for their ''Counter-Strike: Global Offensive'' and ''Rainbow Six Siege'' teams. In 2018, the organization was rumored to be joining the [[League Championship Series/Europe/2019 Season/Spring Season|EU LCS]] as part of the 2019 European franchise program.<ref>[http://www.espn.com/esports/story/_/id/25166600/riot-games-accepts-final-applications-european-league-championship-series-teams Sources: Riot accepts final EU LCS applications] ''espn.com''</ref> On November 20, Riot Games confirmed Rogue as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref>
+
+=== 2019 Season ===
+Rogue signed a roster containing of experienced players in [[Profit]], [[Kikis]], [[Sencux]], [[HeaQ]], and [[Wadid]]. After a 0-8 start to the [[LEC/2019 Season/Spring Season|Spring Split]] they brought in rookie top laner [[Finn]] and veteran support [[VandeR]] from their [[Rogue Esports Club|academy team]] and picked up 2 wins in the next 3 weeks. Due to being out of playoff contention already Rogue gave up on the split and changed back to their original roster to have a more competitive roster on the academy squad for the rest of their split.
+
+Going into [[LEC/2019 Season/Summer Season|Summer Split]] Rogue’s coaching staff showed trust in their academy team and promoted [[Inspired]] who finally got old enough and [[Larssen]] to the first team. They stayed in lower midfield for the first weeks of the season but after going 0-2 in week 6 the coaching staff decided to bench Profit and once again sub in young top laner Finn. In the last three weeks they also only went 3-3 but while the losses came against the top 3 they managed to beat the other three teams and ended up in 5th from a 4-way-tie due to Head-To-Head records. They were chosen by Splyce as their opponents as they were seen as more predictable but made them regret that decision ingame the next week as they came in well prepared and dominated Splyce in a fast 3-0 sweep. In Round 2 against Schalke they fought well but after a big throw at the end of game 3 the series turned around and they were beaten 1-3 which also meant that they were out of Worlds contention.
+
+=== 2020 Season ===
+For the 2020 season Rogue upgraded their bot lane by picking up [[Hans Sama]] from Misfits and went into [[LEC/2020 Season/Spring Season|Spring Split]] looking to contest for Top 3. Despite having a good start at 3-1 they were still unable to take games off of the top teams while reliably beating the worse teams which netted them the 6th and last playoff slot at an even 9-9 record. After losing game 1 in Round 1 of the lower bracket against Misfits clearly they recovered well and dominated the rest of the series to face Origen in Round 2. This series went completely the opposite way with Rogue clearly winning game 1 but getting destroyed in games 2-4 for an unsatisfying early end to their split.
+
+== Trivia ==
+* Rogue's 7-11 finish in [[LEC/2019 Season/Summer Season|LEC 2019 Summer]] is tied (with [[Team Vitality]] in the same split) for the fewest games won by a playoff team in an 18 game season.
+**Their defeat of [[Splyce]] in the first round of the [[LEC/2019 Season/Summer Playoffs|LEC 2019 Summer Playoffs]] also made this the fewest wins for a team that won a playoff series.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Frank|us|Franklin Villareal|'''Co-Owner & Founder of Rogue'''}}
+{{listplayersp||us|Carson Knuth|'''Co-Owner & Co-Founder of Rogue'''}}
+{{listplayersp||us|Derek Nelson|'''Co-Founder of Rogue'''}}
+{{listplayersp||us|Amish Shah|'''Co-Owner & Founder of ReKTGlobal'''}}
+{{listplayersp||us|Dave Bialek|'''Co-Owner, Co-Founder, & Chief Executive Officer at ReKTGlobal'''}}
+{{listplayersp||us|Kevin Knocke|'''Chief Creative Officer at ReKTGlobal'''}}
+{{listplayersp||us|Parrish McIntyre|'''Chief Operating Officer at ReKTGlobal'''}}
+{{listplayersp||us|Brad Sive|'''Chief Revenue Officer at ReKTGlobal'''}}
+{{listplayersp||us|Hannah Reid|'''Chief People Officer at ReKTGlobal'''}}
+{{listplayersp||us|John Benyamine|'''Chief Content Officer at ReKTGlobal'''}}
+{{listplayersp|ODEE|uk|Michael O'Dell|'''Chief Gaming Officer at ReKTGlobal'''}}
+{{listplayersp|Steve Aoki|us|Steven Hiroyuki Aoki|'''Investor'''}}
+{{listplayersp|Daniel Platzman|us|Daniel James Platzman|'''Investor'''}}
+{{listplayersp|Wayne Sermon|us|Daniel Wayne Sermon|'''Investor'''}}
+{{listplayersp|Nicky Romero|nl|Nick Rotteveel van Gotum|'''Investor'''}}
+{{listplayersp|Rudy Gobert|fr|Rudy Gobert-Bourgarel|'''Investor'''}}
+{{listplayersp|Tainy|pr|Marco Masís|'''Investor'''}}
+{{listplayersp|Landon Collins|us|Landon Alexander Collins|'''Investor'''}}
+{{listplayersp|Nick Gross|us|Nicholas William Gross|'''Investor'''}}
+{{listplayersp|Taylor Fritz|us|Taylor Harry Fritz|'''Investor'''}}
+{{listplayersp||us|Griffin Johnson|'''Investor'''}}
+{{listplayersp|Josh Richards|ca|Joshua Kenneth Richards|'''Investor'''}}
+{{listplayersp||de|Anna Baumann|'''Managing Director and General Counsel of Europe / Executive Vice President, Esports at ReKTGlobal'''}}
+{{listplayersp||de|Hendrik Mokrusch|'''Executive Assistant'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|flyy|bg|Tomislav Mihailov|'''General Manager for Europe'''|newteam=none}}
+{{listplayer|fredy122|uk|Simon Payne|'''Head Coach'''|newteam=Navi}}
+{{listplayer|Trick|kr|Kim Gang-yun (김강윤)|'''Assistant Coach'''|newteam=Navi}}
+{{listplayer|Blueknight|de|Nico Jannet|'''Head of Analytics'''|newteam=Navi}}
+{{listplayer|Jankos|pl|Marcin Jankowski|'''Co-Streamer'''|newteam=NAVI}}
+{{listplayersp|Ardent|us|Jessica Tierney|'''Social Media Manager'''|newteam=none}}
+{{listplayersp|maCOP|pl|Maciej Opielski|'''Director of Sponsorship & Operations'''|newteam=Z10}}
+{{listplayer|nRated|de|Christoph Seitz|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Blumigan|se|Marcus Blom|'''Head of Player Development'''|newteam=retired}}
+{{listplayer|flyy|bg|Tomislav Mihailov|'''General Manager for Europe'''|newteam=KOI ES}}
+{{listplayersp||no|Jesper Bakker|'''Lead Graphic Designer'''|newteam=KOI ES}}
+{{listplayersp||jo|Raad Rashdan|'''Chef'''|newteam=KOI ES}}
+{{listplayersp|Foxy1|bg|Anton Mihailov|'''Chef's Assistant'''|newteam=KOI ES}}
+{{listplayersp|Plantmom|us|Chloe ten Brink|'''Social Media & Marketing Associate'''|newteam=KOI ES}}
+{{listplayersp|Hehnal|de|Alexandra Hehn|'''Team Manager'''|newteam=KOI ES}}
+{{listplayer|fredy122|uk|Simon Payne|'''Head Coach'''|newteam=KOI ES}}
+{{listplayersp|Bernie|nl|Bernadette Ramaker|'''Performance Coach'''|newteam=KOI ES}}
+{{listplayer|Blumigan|se|Marcus Blom|'''Head of Player Development'''|newteam=KOI ES}}
+{{listplayer|Blueknight|de|Nico Jannet|'''Head of Analytics'''|newteam=KOI ES}}
+{{listplayer|Arces|pl|Damian Osuch|'''Analyst'''|newteam=BDS}}
+{{listplayersp|Viir|es|Virginia Sanandrés Muñoz|'''Analyst'''|newteam=SZEST}}
+{{listplayer|SeeEl|kr|Christopher Lee (이규해)|'''Assistant Coach'''|newteam=HTICS}}
+{{listplayer|otter (Brian Thomas)|us|Brian Thomas|'''Player Development'''|newteam=none}}
+{{listplayer|Ismind|co|Ismael Pedraza|'''Performance Coach'''|newteam=VIT}}
+{{listplayer|Vannish|pt|Bruno Cunha|'''Analyst'''|newteam=Retired}}
+{{listplayersp|Tien Ho|de|Gia Tien Ho|'''Head of Marketing'''|newteam=mousesports}}
+{{listplayersp|Hadaka|us|Sean Mulryan|'''General Manager for North America'''|newteam=none}}
+{{listplayersp|Karou|de|Lisa Heinrich|'''Team Manager'''|newteam=none}}
+{{listplayersp|Avin|us|Cody Gerard|'''Head Analyst'''|newteam=INF CR}}
+{{listplayer|Edward|am|Edward Abgaryan|'''Assistant Coach'''|joined=2018-11-24|left=2019-05-06|newteam=UOL.CIS}}
+{{listplayersp|Xirreth|pl|Urszula Klimczak|'''Behavioural Analyst & Mental Coach'''|joined=2019-01-15|left=2019-01-31|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<!-- https://twitter.com/Rogue/status/1346814529624301569 -->
+<gallery>
+RogueOldlogo square.png|Previous Logo
+Rogue 2020logo square.png|Previous Logo<br>(- Jan 2021)
+Rogue 2021 Altlogo square.png|Alternative Logo
+</gallery>
+
+===Rosters===
+<gallery>
+RGE 2019 Spring.png|Rogue's 2019 LEC Spring Roster
+RGE 2020 Spring.png|Rogue's 2020 LEC Spring Roster
+RGE Worlds 2020.png|Rogue's Worlds 2020 Roster
+RGE 2021 Spring.png|Rogue's 2021 LEC Spring Roster
+RGE 2022 Spring.png|Rogue's 2022 LEC Spring Roster
+Rouge (European Team) LEC Roster 2025.jpg|Rogue's 2025 LEC Winter
+</gallery>
+
+==External Links==
+* [https://liquipedia.net/counterstrike/Rogue Rogue on the Liquipedia ''Counter-Strike'' Wiki]
+
+==References==
+<references />

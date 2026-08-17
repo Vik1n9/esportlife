@@ -1,0 +1,139 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tinowns&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.535Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「tinowns」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=tinowns
+|name=Thiago Sartori
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|nationality=Brazil
+|residency=Brazil
+|birth_date_year=1997
+|birth_date_month=May
+|birth_date_day=06
+|favchamp=Ahri
+|favchamp2=Zoe
+|favchamp3=Syndra
+|favchamp4=Taliyah
+|checkbox1=Yes
+|favchamp5=LeBlanc
+|favchamp6=Lissandra
+|favchamp7=Xerath
+|compID1=TinOwns
+|checkboxComp=No
+|ids='''BR:''' tinowns#BR2<br>'''EUW:''' MSI KDA PLAYER<br>'''KR:''' ar condicionado
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tinowns
+|facebook=https://www.facebook.com/tinowns
+|twitter=Tinowns
+|instagram=thiagotinowns
+|lolpros=https://br.lolpros.gg/player/tinowns
+|deeplol=https://www.deeplol.gg/pro/Tinowns
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''TinOwns'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''Tinowns''' is from [[wikipedia:en:Praia Grande|Praia Grande]], São Paulo. He always dreamed of becoming a professional player since he grew with his old brother, Felipe "'''UtinOwns'''" Utino, who played '''[[wikipedia:en:Age of Empires|AoE]]''' professionally. He started playing League of Legends in 2012, when the Brazilian server was released by Riot. He soon managed to climb to the higgest ladders, and joined his first professional team, [[Nex Impetus]], in July 2013, finishing 4th in the [[Riot Brazilian Champion League 2014]], the precursor of the [[CBLOL]]. Since the beginning of his career, he played alongside noteable figures in the Brazilian esports scene, such as [[Lep]] and [[bit1]].<ref name="aniversario">[https://br.millenium.gg/noticias/6294.html Tinowns' birthday: Relive important moments in the player's career (Portuguese)] ''br.millenium.gg''</ref>
+
+===2014 Season===
+One of the most iconic moments of his career came in 2014, when, playing for [[KaBuM! Esports]], he won the [[Brazil Regional Finals 2014|Brazil Regional Finals]]. This victory was considered a major upset, as '''KaBuM''' overcame the then dominant [[Keyd Stars]] in the semifinals with a 2-0 victory and defeated [[CNB]] 3-1 in the finals.<ref name="aniversario" />
+The 2014 title earned KaBuM a spot in the [[IWCT 2014]], where Tinowns and his team made history as the first Brazilian team to qualify for [[Worlds]]. At Worlds, '''KaBuM''' pulled off one of the tournament's biggest upsets by defeating the European team [[Alliance]], a result that allowed [[Cloud9]] to advance in the competition and gave rise to the famous meme "THIS IS FOR KABUM!".<ref name="aniversario" />
+
+===2018 to 2021 Season===
+In 2018, Tinowns joined [[paiN Gaming]], a team with a highly passionate fanbase. The transition was challenging, as he took over the mid-lane position previously held by [[Kami (Gabriel Bohm Santos)|Kami]], a legend in the Brazilian scene and one of paiN's biggest idols. Despite a difficult start, with the team finishing last in the first split of the CBLOL, Tinowns maintained his consistency and, in 2021, won the CBLOL with paiN Gaming, ending a seven-year title drought for the organization. His performance in the competition was standout, earning him multiple MVP awards.<ref name="aniversario" />
+Tinowns left paiN Gaming in late 2021 after a bad campaign in [[CBLOL 2021 Split 2 Playoffs]], where paiN was reverse swept by [[Rensga Esports]], and a series of controversies and miscommunications regarding tinowns and his then teammate in paiN Gaming, [[Robo]], leaving for a LEC team, which was rumoured to be [[Team Vitality]] at the time. He and '''Robo''' soon would join [[LOUD]] for the next year's CBLOL.
+
+===2022 to 2025 Season===
+During his tenure with [[LOUD]], Tinowns achieved a historic feat by winning four consecutive CBLOL titles between the 2nd Split of 2022 and the 1st Split of 2024.<ref>[https://ge.globo.com/esports/blogs/por-dentro-dos-esports/post/2024/04/22/final-do-cblol-2024-vivendo-minha-melhor-fase-diz-tinowns-apos-6o-titulo.ghtml "Living my best phase", says Tinowns after 6th title (Portuguese)] ''ge.globo.com''</ref> With the 1st Split of 2024 title, he amassed his sixth CBLOL championship, tying with [[brTT]] and trailing only with his teammate and seven-time champion [[Robo]].
+On June 14, 2025, during the LTA South broadcast before the Lower Bracket Finals match between [[FURIA]] and [[Isurus Estral]], tinowns announced an indefinite break from competitive League of Legends after nearly 12 years, citing a need to prioritize mental health and reassess his passion. He emphasized it was not a permanent retirement, expressing gratitude to fans, teammates, and LOUD.<ref>[https://x.com/Tinowns/status/1933917247552024593 Tinowns X Post] ''x.com''</ref>
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* His favorite champion is {{ci|Syndra}}.
+* Has multiple tattoos, one of them is a {{ci|Ahri}} tattoo which he made after beating [[Alliance]] in [[Worlds 2014]].<ref>[https://x.com/LOUDgg/status/1915876048161431965 LOUD's X Post] ''x.com''</ref>
+* Portrayed as {{ci|Syndra}} in the CBLoL 2015 official wallpaper.
+* Known for his {{ci|Ahri}},{{ci|Twisted Fate}},{{ci|Orianna}}, {{ci|LeBlanc}}, {{ci|Lucian}}  and {{ci|Zoe}}.
+* On July 28, 2016, TinOwns managed to put three of his accounts in the top 3 spots in Brazilian solo queue, like [[takeshi]] did three years prior.<ref>[https://www.facebook.com/tinowns/photos/a.722243201123101.1073741828.665201603493928/1403703312977083/ TinOwns' Facebook Post (Portuguese)] ''facebook.com''</ref>
+* After a good [[2021 Mid-Season Invitational|MSI 2021]], he and his teammate [[Robo]] allegedly received offers from [[LEC]] teams and its sisters teams, but negotiations didn't go through. Since then, it became a joke in the Brazilian community, with them sometimes being called "'''LEC players'''".
+* His KR ID when [[LOUD]] travelled to play in [[Worlds 2023]] refers to a air conditioner, as do the [[Robo]] and [[Ceos]] IDs refer to other home appliances.
+* His first pentakill in '''CBLOL''' as {{ci|corki}} was featured on a '''LoL Esports Plays of the Week''' as the '''Top 5'''.<ref>[https://x.com/lolesports/status/1816126191734002167 LoL Esports' X Post] ''x.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Began playing video games under the influence of his older brother, Felipe, who was a professional '''[[wikipedia:en:Age of Empires|Age of Empires]]''' player.<ref>[https://br.millenium.gg/noticias/14900.html Tinowns LoL: idade, redes sociais, time, títulos e tudo sobre o pro player] ''br.millenium.gg''</ref>
+** His nickname comes from his brother's nickname, [https://liquipedia.net/ageofempires/UtinOwns UtinOwns].
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* While in [[LOUD]], achieved the historic achievement of winning four consecutive CBLOL titles.
+* Is often compared to and remembered as a successor to [[Kami (Gabriel Bohm Santos)|Kami]] since his passage in [[paiN Gaming]] from 2017 to 2021.
+* Nicknamed the "'''Brazilian [[Faker]]'''" by chinese casters during [[MSI 2024]].<ref>[https://twitter.com/maisesportsbr/status/1786055685953683885 Mais Esports' Tweet] ''twitter.com''</ref>
+|-|
+Statistics=
+=== Statistics ===
+* Got his first kill in the CBLOL in July 19th, 2013.
+** His first kill was on [[PeesPlay Gaming]]'s AD Carry, [[micaO]], playing as {{ci|lissandra}} for [[Nex Impetus]].
+* Reached 100 kills in the CBLOL in May 18h, 2014. 
+** His 100th kill was on [[paiN Gaming]]'s Support, [[Olleh]], playing as {{ci|syndra}} for [[KaBuM! Esports]].
+* Reached 1000 kills in the CBLOL in June 9th, 2019.
+** His 1000th kill was on [[Team oNe eSports]]' toplaner, [[klowny]], playing as {{ci|sylas}} for [[paiN Gaming]].
+* Reached 1500 kills in the CBLOL in July 15th, 2023.
+** Was the first player to reach 1500 kills in the CBLOL.
+** His 1500th kill was on [[Fluxo]]'s Support, [[JoJo (Gabriel Dzelme)|JoJo]], playing as {{ci|kaisa}} for [[LOUD]].
+* Reached 2000 kills in the CBLOL in April 7th, 2024.
+** Was the first player to reach 2000 kills in the CBLOL.
+** His 2000th kill was on [[paiN Gaming]]'s AD Carry, [[TitaN]], playing as {{ci|hwei}} for [[LOUD]].
+|-|
+Awards=
+=== Individual Awards ===
+* 1x Best Midlaner (Prêmio CBLOL 2020)
+* 1x Best Player (Prêmio CBLOL 2020) 
+* 1x Fans' Favorite Player (Prêmio CBLOL 2020)
+* 1x CBLOL 1st All-Pro Team (2024 Split 1)
+* 1x CBLOL 1st Round-Robin Team (2024 Split 2)
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

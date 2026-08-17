@@ -1,0 +1,108 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bengi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.323Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「bengi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Bengi
+|name=Bae Seong-woong
+|nativename=배성웅
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=November
+|birth_date_day=21
+|favchamp=Lee Sin
+|favchamp2=Vi
+|favchamp4=Elise
+|checkbox1=Yes
+|favchamp5=Rek'Sai
+|compID1=JangTa
+|checkboxComp=No
+|ids=llIIIIllllllllll (NA), SKT T1 bengi, Bakingpowder33
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|instagram=t1_bengi
+|deeplol=https://www.deeplol.gg/pro/Bengi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''JangTa'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Jungler
+}}
+==Biography==
+===Season 3===
+Bae "'''bengi'''" Seong-woong was given the starting jungle spot for [[SK Telecom T1 2]], the new team built around [[Faker]], in February of 2013. The team immediately qualified for their first OGN, attending [[OLYMPUS Champions Spring 2013]] with high hopes. They shocked many by placing 3rd, losing 3-1 to [[MVP Ozone]] but beating [[CJ Frost]] in a clean sweep. After the tournament, their sister team, [[SK Telecom T1 1]], disbanded and 2 was renamed [[SK Telecom T1]]. They came into [[HOT6iX Champions Summer 2013]] with very high expectations and met all of them, reverse sweeping the [[KT Rolster Bullets]] 3-2 to take the crown and earn a spot at the [[Season 3 Korea Regional Finals]]. They were seeded directly into the finals, where they met the Bullets again and beat them convincingly, 3-1. They were the final Korean seed for the [[Season 3 World Championship]] but they still came in as the favorites to win the whole tournament. SK Telecom crushed the competition, ending with a record of 15-3 and clean sweeping [[Royal Club]] 3-0 in the finals and becoming the new world champions.
+
+===2014 Season===
+Before the start of the season, SK Telecom picked up a new team, eventually named [[SK Telecom T1 S]], and the original team was renamed to SK Telecom T1 K. K continued their dominance by posting the best overall team performance in an OGN at [[PANDORA.TV Champions Winter 2013-2014]] where they didn't lose a single game, culminating in a crushing 3-0 against [[Samsung Ozone]]. A few days later, the starting support, [[PoohManDu]], retired and the team picked up [[Casper (Kwon Ji-min)|Casper]]. This roster change would ultimately start the downfall of the team. A poor performance of the group stage led to a 3-1 defeat at the hands of Ozone in the quarterfinals of [[HOT6iX Champions Spring 2014]]. ManDu rejoined the roster and they were invited to [[All-Star Paris 2014]] to represent Korea. With most of the team slumping, especially Bengi, it seemed as though K would lose the event. However they swept the tournament with a clean 9-0 record and dominated [[OMG]] in the finals. Morale was back up in the team when they returned to Korea to attend [[HOT6iX Champions Summer 2014]]. Unfortunately, they met Samsung White in the quarterfinals and lost to them 3-1 again. Regardless, they accumulated enough circuit points to attend the [[2014 Season Korea Regional Finals]]. K had to play White again in a tiebreaker for the 2nd seed to worlds but were crushed 3-0 and forced to play the gauntlet. They were seeded directly into the finals but lost 3-1 to a red hot [[NaJin White Shield]] and missed [[2014 Season World Championship|Worlds]].
+
+===2015 Season===
+Changes to the OGN rules forced K and S to merge to reform SK Telecom T1. Most of the original roster from K left the organization, with only Bengi and Faker remaining. The new team was invited to participate in [[SBENU Champions Spring 2015]]. In the middle of the season, [[T0M (Im Jae-hyeon)|T0M]] was picked up by the organization to be a substitute for Bengi. They swapped throughout the season and eventually made it to the finals against [[GE Tigers]]. Bengi did not play but the team dominated anyways and took the championship 3-0. SK Telecom's victory qualified them for the [[2015 Mid-Season Invitational]] where they made it to finals but lost 3-2 to [[EDward Gaming]]. SKT placed first in the regular season of [[SBENU Champions Summer 2015]] after only dropping one set the whole season. They beat [[KT Rolster]] 3-0 in the finals of the playoffs to qualify for the [[2015 Season World Championship]] as the top seed from Korea. SKT was placed in a group at worlds alongside EDG, [[Bangkok Titans]], and [[H2k Gaming]]. They went undefeated all the way to the finals, beating [[AHQ e-Sports Club]] and [[Origen]] in the playoffs along the way. They met the KOO Tigers in the finals and beat them 3-1 to give the organization its second World Championship. 
+
+===2016 Preseason===
+SKT played in the [[2015 LoL KeSPA Cup]] where they lost 2-0 in the semifinals to [[ESC Ever|Ever]]. This series is widely considered to be one of the greatest upsets in League history.
+
+===2016 Season===
+During [[LCK/2016 Season/Spring Season|Champions Spring 2016]], SKT used Bengi as their starting jungler in the first round robin. In March, SKT entered and won [[IEM Katowice 2016]] without losing a single game. The team brought substitute jungler [[Blank (Kang Sun-gu)|Blank]] for the tournament - Bengi did not play at IEM. During the second round robin, Blank was given the starting jungler position. SKT placed third in the regular season, earning themselves a spot in the [[LCK/2016 Season/Spring Playoffs|playoffs]]. SKT then won the playoffs, winning their third championship in a row and for the first time a seed to the [[2016 Mid-Season Invitational]].
+
+Their first place finish in the [[LCK/2016 Season/Spring Season|spring season]] earned them a spot in the [[2016 Mid-Season Invitational]]. Notably, SK Telecom T1 were the only team to return to 2016 MSI from [[2015 Mid-Season Invitational|2015 MSI]]. As the reigning domestic champions of Korea, SK Telecom T1 came into the tournament as massive favorites to win. However, their group stage performances were very lackluster as they dropped games to China's [[Royal Never Give Up]], NA's [[Counter Logic Gaming]], and two games to the LMS [[Flash Wolves]]. They ended their group stage with a 6-4 record, seeding them into the bracket stage at fourth place. Matched up against [[Royal Never Give Up]] in the semifinals, SK Telecom started to regain their form, beating them 3-1. They then proceeded to beat [[Counter Logic Gaming]] 3-0 to win the event and give them the trophy that barely escaped them last year. However, Bengi did not play at this tournament, as SKT preferred to run [[Blank (Kang Sun-gu)|Blank]] as their starter.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], SK Telecom started to run Bengi in their games more frequently. Though they started the season strong, they floundered as the season progressed, leading them to start [[Blank (Kang Sun-gu)|Blank]] more often. With a 13-5 scoreline in series, SKT placed second in the round robin, beating [[KT Rolster]] via game score tiebreaker. However, during the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], they met [[KT Rolster]] in the semifinals, where they were reverse swept 3-2 after going up 2-0 in the first two games. This gave them third place for the summer split. Combined with their first place spring finish, as well as the victory of the [[ROX Tigers]] over [[KT Rolster]], SKT qualified to the [[2016 Season World Championship]] on points as Korea's second seed.
+
+At the [[2016 Season World Championship]], SK Telecom T1 were placed into Group B, along with LMS's [[Flash Wolves]], NA's [[Cloud 9]], and China's [[I May]]. Bengi was often subbed out in favor in Blank during Worlds, but when SK Telecom T1 was on the verge of being eliminated by the ROX Tigers, Bengi was brought in and he helped the team defeat the Tigers and advanced to the finals against Samsung Galaxy. In part due to his performance, the team won the World Championship for the third time. However, Bengi alongside Duke left the team to play in China  with his former teammate [[Easyhoon]] in Vici Gaming. 
+
+===2017 Season===
+Bengi played for [[Vici Gaming]] during the [[LPL 2017 Spring]], but Vici finished a disappointing 5th place in Group B. Forced to play in the [[LPL 2017 Summer Promotion]], Vici Gaming was defeated by [[DAN Gaming]] 3-1, relegating them from the LPL. As a result of this, Bengi left the team in May. Bengi then went silent until after SK Telecom T1 was defeated by Samsung in the [[2017 World Championship]], when he was contacted by [[kkOma]] and rejoined his former team as a coach along with his former teammate [[Poohmandu]].
+
+===2019 Season===
+On January 28, 2019, Bengi started his mandatory military service in Korea.<ref>[http://invenglobal.com/articles/7373/bengi-coming-to-lol-park-gave-his-farewells-before-the-army-i-think-it-will-be-a-lot-of-fun-because-i-will-probably-be-able-to-play-league-with-my-officers Inven Global] ''invenglobal.com''</ref>
+
+== Trivia ==
+* The first pro player to pick {{ci|Zac}} jungle in a competitive setting.
+* Had the highest KDA in OGN Spring 2013 for Jungle
+* Regarded by many as a saviour to SK Telecom T1 because when the team was on the verge of defeat, Bengi would help turn the tide in his team's favor. 
+* Loves to play {{ci|Jarvan IV}}, also known for {{ci|Nunu}} jungle. Has also seen a lot of success with {{ci|Vi}} in combination with [[Faker]]'s {{ci|Ahri}}.
+* His team-mates describe him as the quiet, studious type. Initially they wondered if he even wanted to play since he was so quiet in the team house.
+* Popularized the usage of {{ci|Vi}} in combination with mid lane assassins.
+* People would confuse Bengi's real name with "Jang Bengi", his smurf account IGN
+* Because of his synergy to Faker until he left in 2016, fans see Bengi as a sort of sidekick to Faker. Some even joke that they were the 'Batman and Robin' in League of Legends.
+* Awarded Best Jungler at 2013 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?news=103849 Result of 2013 Korean e-Sports Awards]''inven.com.kr''</ref>
+* One of eight players to have defended their World Championship successfully (with [[Faker]], [[Bang]], [[Wolf (Lee Jae-wan)|Wolf]], [[Zeus]], [[Oner]], [[Gumayusi]], [[Keria]])
+** Won World Championship three or more times, along with [[Faker]], [[Oner]], [[Gumayusi]], [[Keria]].
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

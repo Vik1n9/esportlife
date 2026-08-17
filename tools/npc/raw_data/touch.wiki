@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Touch&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.784Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Touch」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Touch
+|name=Omid Rosander
+|image=Touch 2021.jpg
+|checkboxAutoImage=No
+|country=Norway
+|residency=EMEA
+|favchamp=Thresh
+|checkbox1=No
+|checkboxComp=No
+|ids=Touch (EUW), VER Touch (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/touchlol
+|facebook=https://www.facebook.com/Touchlol
+|twitter=T0uchlol
+|instagram=omidrosander
+|askfm=Touchlol
+|snapchat=OmidR
+|lolpros=https://lolpros.gg/player/touch
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Touch started playing League of Legends because of his friends. They started attending LAN events in Norway and won each of them. In season 3 he met [[HolyPhoenix]] in soloqueue, they played a lot of duoqueue after that together. 
+
+In season 4, [[Dark Passage]] needed a support for the [[2014 Season International Wild Card Tournament]] and Touch went to join them and won the International Wild Card Tournement and went to [[2014_Season_World_Championship|2014 Season World Championship]]. They got in group with [[AHQ e-Sports Club]], [[EDward Gaming]] and [[Samsung White]], which they lost 0-6.
+
+== Trivia ==
+* Favorite food is pizza
+* Played at [[Worlds 2014]] for [[Dark Passage]].
+* Looks up to [[Mata]] as a player.
+* Finished as a runner-up in the Norwegian version of [[wikipedia:Love Island (franchise)|Love Island]] in 2020.<ref>[https://loveisland.fandom.com/wiki/Omid_Rosander Omid Rosander - Love Island Wiki] ''loveisland.fandom.com''</ref><ref>[https://www.tv2.no/a/11159104/ Love Island-Omid (24) er fire ganger norgesmester: – Folk tror ikke det om meg (Norwegian)] ''tv2.no''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+DP Touch 2014 WCS.jpg|DP Touch 2014 WCS
+NVD Touch 2019.png|NVD Touch 2019
+</gallery>
+
+{{PlayerPageEnd}}

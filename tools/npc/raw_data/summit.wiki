@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Summit&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Summit」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Summit
+|name=Park Woo-tae
+|nativename=박우태
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=08
+|checkbox1=No
+|compID1=WooTae
+|compID2=KimChi
+|checkboxComp=No
+|ids='''KR:''' 우 태#KR2 <br> dnxo#KR1 <br> '''NA:''' liquidtopsummit#NA1 <br> '''EUW:''' FLY Quad#R7777
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/qkrdnxozz
+|twitter=Summit_lol
+|instagram=summit98_
+|lolpros=https://lolpros.gg/player/summit
+|deeplol=https://www.deeplol.gg/pro/Summit
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''WooTae''' and '''KimChi'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Summit''' was recommended by team coach [[iloveoov]].
+* Represented South Korea at the [[IeSF 9th e-Sports World Championship]].
+* Good friends with [[TheShy]], they went to the same school.
+
+=== Individual Awards ===
+* LCS Most Valuable Player (2022 Spring)
+* LCS 1st All-Pro Team (2022 Spring)
+* LCS 2nd All-Pro Team (2023 Summer)
+* LCK 3rd All-Pro Team (2021 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

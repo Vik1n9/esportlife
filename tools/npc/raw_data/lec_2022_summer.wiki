@@ -1,0 +1,280 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2022%20Season%2FSummer%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.755Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2022/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2022}}
+{{Infobox Tournament
+|name=LEC 2022 Summer Season
+|image= LEC 2019.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|country=Germany
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2022-06-17
+|edate=2022-08-14
+|rulebook=Archive:Official Rulebooks/Riot/LEC/2022
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EU
+|split=Summer
+|split_number=2
+|CM_StandardName=LEC 2022 Summer
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2022
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://eu.lolesports.com/en
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ
+|closest_timezone=CET
+}}{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2022 Summer Season''' is the second split of the fourth year of Europe's rebranded professional League of Legends league. Ten teams compete in a round robin group stage.}}
+
+==Overview==
+=== Format ===
+* 10 teams participate
+* Double Round Robin
+* Matches are best of one
+* Top six teams qualify for [[LEC/2022 Season/Summer Playoffs|Playoffs]]
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2022 Preseason/Europe
+}}
+{{Box|start}}
+{{TeamRoster|team=Astralis
+|{{TeamRoster/Line|player=Vizicsacsi|flag=hu|role=top}}
+|{{TeamRoster/Line|player=Xerxe|flag=ro|role=jungle}}
+|{{TeamRoster/Line|player=Dajor|flag=de|role=mid}}
+|{{TeamRoster/Line|player=Kobbe|flag=dk|role=ad}}
+|{{TeamRoster/Line|player=JeongHoon|flag=kr|role=support}}
+|{{TeamRoster/Line|player=AoD|flag=ro|role=coach}}
+|{{TeamRoster/Line|player=Hansen|flag=Norway|role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=XL
+|{{TeamRoster/Line|player=Finn|flag=se|role=top}}
+|{{TeamRoster/Line|player=Markoon|flag=nl|role=jungle}}
+|{{TeamRoster/Line|player=Nukeduck|flag=no|role=mid}}
+|{{TeamRoster/Line|player=Patrik|flag=cz|role=ad}}
+|{{TeamRoster/Line|player=Mikyx|flag=Slovenia|role=support}}
+|{{TeamRoster/Line|player=YoungBuck|flag=nl|role=coach}}
+|{{TeamRoster/Line|player=Nelson|flag=singapore|role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FNC
+|{{TeamRoster/Line|player=Wunder|flag=dk|role=t}}
+|{{TeamRoster/Line|player=Razork|flag=es|role=j}}
+|{{TeamRoster/Line|player=Humanoid|flag=cz|role=m}}
+|{{TeamRoster/Line|player=Upset|flag=de|role=a}}
+|{{TeamRoster/Line|player=Hylissang|flag=bg|role=s}}
+|{{TeamRoster/Line|player=YamatoCannon|flag=se|role=c}}
+|{{TeamRoster/Line|player=Shaves|flag=uk|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=G2
+|{{TeamRoster/Line|player=BrokenBlade|flag=de|role=t}}
+|{{TeamRoster/Line|player=Jankos|flag=pl|role=j}}
+|{{TeamRoster/Line|player=caPs|flag=dk|role=m}}
+|{{TeamRoster/Line|player=Flakked|flag=es|role=a}}
+|{{TeamRoster/Line|player=Targamas|flag=be|role=s}}
+|{{TeamRoster/Line|player=Dylan Falco|flag=ca|role=c}}
+|{{TeamRoster/Line|player=Rodrigo|flag=portugal|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MADL LEC
+|{{TeamRoster/Line|player=Armut|flag=tr|role=t}}
+|{{TeamRoster/Line|player=Elyoya|flag=es|role=j}}
+|{{TeamRoster/Line|player=Nisqy|flag=be|role=m}}
+|{{TeamRoster/Line|player=UNF0RGIVEN|flag=se|role=a}}
+|{{TeamRoster/Line|player=Kaiser|flag=de|role=s}}
+|{{TeamRoster/Line|player=Mac|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Kaas|flag=be|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MSF
+|{{TeamRoster/Line|player=Irrelevant|flag=de|role=top}}
+|{{TeamRoster/Line|player=Shlatan|flag=pl|role=j}}
+|{{TeamRoster/Line|player=Zanzarah|flag=ru|role=j}}
+|{{TeamRoster/Line|player=Vetheo|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Neon (Matúš Jakubčík)|flag=sk|role=a}}
+|{{TeamRoster/Line|player=Mersa|flag=gr|role=s}}
+|{{TeamRoster/Line|player=Carter|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Hiiva|flag=Finland|role=c}}
+|{{TeamRoster/Line|player=xani|flag=Croatia|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Rogue
+|{{TeamRoster/Line|player=Odoamne|flag=ro|role=t}}
+|{{TeamRoster/Line|player=Malrang|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Larssen|flag=se|role=m}}
+|{{TeamRoster/Line|player=Comp|flag=gr|role=a}}
+|{{TeamRoster/Line|player=Trymbi|flag=pl|role=s}}
+|{{TeamRoster/Line|player=fredy122|flag=uk|role=c}}
+|{{TeamRoster/Line|player=SeeEl|flag=south korea|role=c}}
+|{{TeamRoster/Line|player=Blumigan|flag=se|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK
+|{{TeamRoster/Line|player=JNX|flag=de|role=t}}
+|{{TeamRoster/Line|player=Gilius|flag=de|role=j}}
+|{{TeamRoster/Line|player=Sertuss|flag=de|role=m}}
+|{{TeamRoster/Line|player=Jezu|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Gadget|flag=belarus|role=a}}
+|{{TeamRoster/Line|player=Treatz|flag=se|role=s}}
+|{{TeamRoster/Line|player=Swiffer|flag=au|role=c}}
+|{{TeamRoster/Line|player=|flag=|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|{{TeamRoster/Line|player=Agresivoo|flag=pl|role=top}}
+|{{TeamRoster/Line|player=Cinkrof|flag=pl|role=jungle}}
+|{{TeamRoster/Line|player=NUCLEARINT|flag=fr|role=mid}}
+|{{TeamRoster/Line|player=xMatty|flag=uk|role=ad}}
+|{{TeamRoster/Line|player=Erdote|flag=pl|role=support}}
+|{{TeamRoster/Line|player=LIMIT (Dino Tot)|flag=hr|role=support}}
+|{{TeamRoster/Line|player=GrabbZ|flag=de|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=VIT
+|{{TeamRoster/Line|player=Alphari|flag=uk|role=t}}
+|{{TeamRoster/Line|player=Haru|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Perkz|flag=hr|role=m}}
+|{{TeamRoster/Line|player=Carzzy|flag=cz|role=a}}
+|{{TeamRoster/Line|player=Labrov|flag=gr|role=s}}
+|{{TeamRoster/Line|player=Mephisto|flag=fr|role=c}}
+|{{TeamRoster/Line|player=Hjarnan|flag=se|role=c}}
+|{{TeamRoster/Line|player=Spale|flag=serbia|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo1
+|places=up,up,up,up,up,up,stay,stay,stay,stay
+|finalorder=G2,MADL LEC,RGE,MSF,FNC,XL,VIT,SK,AST,BDS
+|row1=up
+|row2=up
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=stay
+|row8=stay
+|row9=stay
+|row10=stay
+|legend=true
+|up=Playoffs Seed<br>Check [[LEC/2022 Season/Championship Points|here]] for actual seed order
+|stay=Not Qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO1
+}}
+{{Box|end}}
+
+{{Box|start}}
+{{Bracket|2SE|cargo=yes
+|R1_title=4th Place Tiebreaker
+|R1M1_cargomatch=Tiebreakers_2
+}}
+{{Box|break}}
+{{Bracket|2SE|cargo=yes
+|R1_title=6th Place Tiebreaker
+|R1M1_cargomatch=Tiebreakers_1
+}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with
+|gamefields=Blue,Red,MH,VODs,MVP,ssel
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w8bg1=up
+|w8bg2=up
+|w8bg3=up
+|w8bg4=up
+|w8bg5=up
+|w8bg6=up
+|w8bg7=stay
+|w8bg8=stay
+|w8bg9=stay
+|w8bg10=stay
+|w7bg1=up
+|w7bg10=stay
+|w6bg10=stay
+|orderby=record
+|places=up,up,up,up,up,up,stay,stay,stay,stay
+|finalorder=G2,MADL LEC,RGE,MSF,FNC,XL,VIT,SK,AST,BDS
+}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=game|displaytext=Player of the Game Standings
+|columns=Times
+}}
+=== Season Awards ===
+{{SeasonAwardStart}}
+{{SeasonAward|mvp|team=MADL LEC|player=Nisqy|note=[https://twitter.com/LEC/status/1563119076636893190]}}
+{{SeasonAward|custom|award=Coaching Staff|team=MADL LEC|player=MAD Lions|note=[https://twitter.com/LEC/status/1559918210090209280]}}
+{{SeasonAward|rookie|team=AST|player=JeongHoon|note=[https://twitter.com/LEC/status/1561714820629544961]}}
+{{SeasonAward|proteam|players=BrokenBlade, Elyoya, Nisqy, UNF0RGIVEN, Kaiser|teams=G2, MAD Lions, MAD Lions, MAD Lions, MAD Lions|note=[https://twitter.com/LEC/status/1560627879020339200]}}
+{{SeasonAward|custom|award=2nd All Pro Team|players=Alphari, Jankos, caPs, Comp, Targamas|teams=VIT, G2, G2, RGE, G2|note=[https://twitter.com/LEC/status/1560627887954284549]}}
+{{SeasonAward|custom|award=3rd All Pro Team|players=Odoamne, Markoon, Vetheo, Neon (Matúš Jakubčík), Trymbi|teams=RGE, XL, MSF, MSF, RGE|note=[https://twitter.com/LEC/status/1560627887954284549]}}
+{{SeasonAwardEnd}}
+
+== Media ==
+=== Streams ===
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=http://play.afreecatv.com/lolglobal|lang=us|display=AfreecaTV}} (WEEK 7~)
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/polsatgames|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCrPE9FDBnSMX6W5K0-r7K-g|lang=pl}}
+* {{stream|url=https://www.twitch.tv/summonersinnlive|lang=de}}
+* {{stream|url=https://www.twitch.tv/pg_esports_lol|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.youtube.com/watch?v=pZy0ZMtOhig|lang=gr}}
+
+=== Broadcast Talent ===
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|de}} Berlin, Germany
+|-
+|LEC Studio
+|-
+|''Capacity'' - 174
+|-
+|[[File:LEC Studio.jpg|250px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|}
+
+=== Announcements ===
+
+=== Viewership Statistics ===
+
+=== Additional Content ===
+* See [[LEC/2022 Season/Summer Season/Media|Media]].
+
+== References ==
+<references/>

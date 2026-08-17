@@ -1,0 +1,8 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Noway&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.044Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Noway」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Noway (Nguyễn Vũ Long)
+|player2=NoWay (Frederik Hinteregger)
+|player3=Noway (Andrey Moiseenko)
+|player4=Noway (Zhao Jie-Jie)
+}}

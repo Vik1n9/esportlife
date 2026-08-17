@@ -1,0 +1,101 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wolf%20(Lee%20Jae-wan)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.545Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wolf (Korean player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Wolf
+|name=Lee Jae-wan
+|nativename=이재완
+|namealphabet=Hangul
+|image=T1 Wolf 2020.png
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=09
+|favchamp=Alistar
+|favchamp2=Bard
+|favchamp3=Braum
+|favchamp4=Thresh
+|checkbox1=No
+|compID1=a Wolf
+|checkboxComp=No
+|ids=Bucheon (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/0b33823ac81de48d5b78a38cdbc0ab94
+|twitter=LoL_Wooolf
+|instagram=wolfstagram96
+|youtube=https://youtube.com/channel/UCYJ0Ucu9jPX5kn6SeDcNaIQ
+|lolpros=https://lolpros.gg/player/wolf
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Support
+|prev2=Jungler
+}}
+==Biography==
+===Season 3===
+Lee "'''Wolf'''" Jae-wan began his competitive career on December 21, 2012 when he joined [[NaJin Shield]] as their new support. During this time, he went by the name "'''a Wolf'''". He played in his first major tournament at [[GIGABYTE StarsWar League/Season 2|GIGABYTE StarsWar League Season 2]] where his team failed to make it out of groups. Wolf came back to Korea to participate in his first OGN, [[OLYMPUS Champions Spring 2013]]. The team successfully made it past the group stage but got crushed 3-0 in the quarterfinals by the newly formed [[SK Telecom T1 2]]. Wolf left the team shortly after to join [[Chunnam Techno University]]. The team qualified for [[HOT6iX Champions Summer 2013]] where they were swept in the quarterfinals again, this time by [[MVP Ozone]]. Wolf left CTU in October 2013 to join the newly reformed roster of [[SK Telecom T1 1]]. A few months later, the were renamed SK Telecom T1 S.
+
+===2014 Season===
+S participated in [[PANDORA.TV Champions Winter 2013-2014]] where they failed to make it out of groups. Later on at [[HOT6iX Champions Spring 2014]], the team lost in the group stages again. They had a breakthrough at [[HOT6iX Champions Summer 2014]] where they made it to the semifinals but lost 3-2 to the [[KT Rolster Arrows]] and then 3-0 to [[Samsung Ozone]].
+
+===2015 Season===
+With the changes to the OGN rules, S and their sister team [[SK Telecom T1 K]] were forced to merge to form [[SK Telecom T1]]. With [[PoohManDu]]'s departure from the team, Wolf was made the starting support. The team participated in [[SBENU Champions Spring 2015]] where they won the championship after beating the [[GE Tigers]] in the finals 3-0. SK Telecom's victory qualified them for the [[2015 Mid-Season Invitational]] where they made it to finals but lost 3-2 to [[EDward Gaming]]. SKT placed first in the regular season of [[SBENU Champions Summer 2015]] after only dropping one set the whole season. They beat [[KT Rolster]] 3-0 in the finals of the playoffs to qualify for the [[2015 Season World Championship]] as the top seed from Korea. SKT was placed in a group at worlds alongside EDG, [[Bangkok Titans]], and [[H2k Gaming]]. They went undefeated all the way to the finals, beating [[AHQ e-Sports Club]] and [[Origen]] in the playoffs along the way. They met the KOO Tigers in the finals and beat them 3-1 to give the organization its second World Championship. 
+
+===2016 Season===
+SKT played in the [[2015 LoL KeSPA Cup]] where they lost 2-0 in the semifinals to [[ESC Ever|Ever]]. This series was widely considered to be one of the greatest upsets in League history but also continued a streak of World Champions being eliminated early on in their first tournaments after Worlds. In March, SK Telecom attended [[IEM Season X - World Championship|IEM Katowice]] despite being only the sixth-place [[LCK/2016 Season/Spring Season|LCK]] team at the time. They brought substitute jungler [[Blank (Kang Sun-gu)|Blank]] in place of bengi and swept through the tournament, winning the title after only seven games. After their international success, they returned to Korea and placed third in the regular season, earning themselves a spot in the [[LCK/2016 Season/Spring Playoffs|playoffs]]. SKT won the playoffs, winning their third championship in a row and giving them a seed to the [[2016 Mid-Season Invitational]].
+
+Their first place finish in the [[LCK/2016 Season/Spring Season|spring season]] earned them a spot in the [[2016 Mid-Season Invitational]]. Notably, SK Telecom T1 were the only team to return to 2016 MSI from [[2015 Mid-Season Invitational|2015 MSI]]. As the reigning domestic champions of Korea, SK Telecom T1 came into the tournament as massive favorites to win. However, their group stage performances were very lackluster as they dropped games to China's [[Royal Never Give Up]], NA's [[Counter Logic Gaming]], and two games to the LMS [[Flash Wolves]]. They ended their group stage with a 6-4 record, seeding them into the bracket stage at fourth place. Matched up against [[Royal Never Give Up]] in the semifinals, SK Telecom started to regain their form, beating them 3-1. They then proceeded to beat [[Counter Logic Gaming]] 3-0 to win the event and give them the trophy that barely escaped them last year.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], SK Telecom started the season strong with a 5-0 score in series and 10-0 game score. However, they started dropping sets to lower ranked teams, notably the [[Afreeca Freecs]], who they failed to win even a single game against the entire season. With a 13-5 scoreline in series, SKT placed second in the round robin, beating [[KT Rolster]] via game score tiebreaker. However, during the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], they met [[KT Rolster]] in the semifinals, where they were reverse swept 3-2 after going up 2-0 in the first two games. This gave them third place for the summer split. Combined with their first place spring finish, as well as the victory of the [[ROX Tigers]] over [[KT Rolster]], SKT qualified to the [[2016 Season World Championship]] on points as Korea's second seed.
+
+At the [[2016 Season World Championship]], SK Telecom T1 were placed into Group B, along with LMS's [[Flash Wolves]], NA's [[Cloud 9]], and China's [[I May]].
+
+===2019 Season===
+On November 30, Wolf announced his retirement from professional play.<ref>[https://twitter.com/lol_wooolf/status/1200450259626758145?s=21 Wolf’s Tweet (Korean)] ‘’twitter.com’’</ref>
+
+== Trivia ==
+* His ID in [[HOT6iX Champions Summer 2013]] was "a Wolf" but was later changed to simply "Wolf". Fans have speculated this was because of the innuendo "[[Bang]] [[a Wolf]]".
+* After winning [[2016 Mid-Season Invitational|MSI 2016]], asked interviewer [[Sjokz]] if he could take a selfie with her in his post-game interview. She said yes.
+* After the [[2016 Season World Championship]] was one of four players to have defended their World Championship successfully.
+* Had very long fingernails while he was playing, which he thought gave him an advantage. 
+* Revealed afterward that he retired due to multiple mental health issues. 
+* Faker does not watch Wolf's streams, saying that he "does not watch such Anti-Faker streaming".<ref>[https://youtu.be/cTaxZmJEXYg?t=84 T1 WIN CAM Moments EP.1]</ref>
+* Was the player with the most assists in one LCK split, 445 assists in [[LCK 2015 Summer]], before [[Keria]] surpassed him in [[LCK 2022 Spring]] with 462 assists
+* Reached 3000 assists in the LCK on March 4th, 2018.
+** Was the 2nd player to reach 3000 assists in the LCK after [[GorillA]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

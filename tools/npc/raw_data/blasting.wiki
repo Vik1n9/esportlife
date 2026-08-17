@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Blasting&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.840Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Blasting」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Blasting
+|name=Daniel Kudrin
+|image=M19 Blasting 2019 Split 1.png
+|checkboxAutoImage=No
+|country=Latvia
+|residency=CIS
+|birth_date_year=1996
+|birth_date_month=December
+|birth_date_day=05
+|favchamp=Lucian
+|favchamp2=Corki
+|favchamp3=Jinx
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=Blastinglol
+|lolpros=https://lolpros.gg/player/blasting/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+BLASTING_ava_red.jpg|Blasting
+VP Blasting 2017 MSI.png|VP Blasting 2017 MSI
+Blasting Gambit Spring 2018.png|GMB Blasting 2018 Spring
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,177 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=INTZ&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.975Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「INTZ eSports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= INTZ
+|orgcountry= Brazil
+|country=
+|region=Brazil
+|image= 
+|owner= Lucas Catharino	
+|headcoach= Leone "{{bl|Patron}}" Patron
+|website= http://www.intz.com.br
+|facebook= https://www.facebook.com/INTZeSports
+|twitter= intz
+|discord= https://discord.com/invite/dJw3WzBqHh
+|instagram= intzesports
+|youtube= https://www.youtube.com/user/INTZeSports
+|sponsor= [[Stellae Gaming]]<br>[https://www.melgeek.com Melgeek]
+|created= Organization 2014 <br> LoL Division 2014-06-20
+|disbanded= 
+|rosterphoto=
+|otherwikis= siege,smite
+|lolpros= https://br.lolpros.gg/team/intz
+}}{{TOCRWI}}
+
+'''INTZ''' is a Brazilian multi-gaming organization founded in June 2014. They previously competed in the Brazilian CBLOL League. They were previously known as '''INTZ e-Sports'''. They returned to the League of Legends ecosystem following the acquisition of the organization by the management group '''Hivescale Holding''' in January 2026, which was also behind [[Stellae Gaming]], a team that had a spot in the [[Circuito Desafiante/2026 Season/Split 1|CD in 2026]].
+
+== History ==
+
+After the buyout of the [[Out of Position]] roster, the first iteration of INTZ debuted in the [[2014 Season Brazil Regional Finals]], where they were eliminated by [[PaiN Gaming]] in a 0-2 Quarterfinals sweep. 
+
+=== 2015 Season ===
+
+After a disappointing debut, the team went into the [[CBLOL/2015 Season/Split 1|2015 CBLOL Split 1]] with jungle sensation [[Revolta]] as their new starting jungler. They kept the lead of the League through the whole split and qualified for the [[CBLOL/2015 Season/Split 1 Playoffs|Playoffs Semifinals]], where they once again met PaiN Gaming; this time, however, they swept their rivals 3-0 and advanced to the Finals. Their contender for the first CBLOL title was [[Keyd Stars]]: it was INTZ that came out on top, winning 3-0 and qualifying for the [[2015 International Wildcard Invitational]] in Instanbul, Turkey. Their international adventure was however short-lived; the Brasilian team managed to place third in the Round Robin stage but ultimately lost 1-3 in the Qualifiers' Finals against hometown team [[Beşiktaş e-Sports Club]].
+
+Between the IWC Tournament and the beginning of the [[CBLOL/2015 Season/Split 2|Split 2]] [[Revolta]] left the team and joined KeyD Stars: as a response, [[Jockster]] switched to jungler and former [[INTZ Red]] support player [[Alocs]] moved to the main team. Even with their superstar player gone, they proceeded to end the season in first place, only dropping the first series of the split and winning the rest, thus qualifying for the [[CBLOL/2015 Season/Split 2 Playoffs|Playoffs Semifinals]]. They then advanced to the Finals after defeating [[G3nerationX]] 3-1: waiting for them was their historic rival PaiN Gaming, which had been going through an impressive surge in performance in their Playoffs run. This time it was PaiN's time to shine, as they took the Finals 0-3.
+
+=== 2016 Season ===
+
+The 2016 Season began in a less than ideal fashion for INTZ, as the organization failed to present the official roster for Week 1 of the [[CBLOL/2016 Season/Split 1|2016 Split 1]], thus suffering a 4 point penalty to start off the League.<ref>[https://gamurs.com/articles/road-to-worlds-intz-esports Road to Worlds: INTZ e-Sports, by Adam Newell] ''gamurs.com''</ref> The team, featuring once again Revolta as the starting jungler, swiftly recovered from this initial disadvantage, ending the Split in second place and qualifying for the [[CBLOL/2016 Season/Split 1 Playoffs|Playoffs Semifinals]]; they then became the first back-to-back CBLOL Champions in a repeat of 2015 Split 1 Playoffs Finals against [[Keyd Stars]]. 
+
+The Split 1 Split victory granted INTZ a spot at the [[2016 International Wildcard Invitational]], with the chance of participating in the [[2016 Mid-Season Invitational]] as the Wildcard representative; the Brazilian squad missed this second shot at qualifying to a major international event as well, as they placed third after the deciding tiebreaker against CIS team [[Hard Random]] (now [[Albus NoX Luna]]).
+
+A new rival emerged in the [[CBLOL/2016 Season/Split 2 Playoffs|Split 2 Split]], as [[CNB e-Sports Club]] reinforced their roster with the top, jungle and mid players from [[KaBuM! e-Sports]] and took the first place in the Regular Season, with INTZ closing the split in second place and thus facing third seed [[PaiN Gaming]] in the [[CBLOL/2016 Season/Split 2 Playoffs|Playoffs]]. The reigning Brasilian champions advanced to the Finals after a thrilling 3-2 series against their historic rivals, where they met CNB for a final showdown to decide who would join the [[2016 International Wildcard Qualifier]]. INTZ confirmed themselves as CBLOL kings, closing out their Split 1 Split with a 3-1 victory.
+
+The Brazilian powerhouse won 5 games out of 7 and ended the Group Stage in second place, thus advancing to a decisive Qualifier match against Turkey's [[Dark Passage]]. As the saying goes, third time's the charm, as INTZ managed to win 3-2 in extremely close fashion and secured a spot at the [[2016 Season World Championship]]. They were drafted in Group C alongside LPL champions [[EDward Gaming]], Taiwan's second seed [[Ahq e-Sports Club]] and Europe's second seed [[H2k-Gaming]], starting their Worlds experience with an unexpected upset win against EDG, who previously went undefeated in best-of series during the [[LPL/2016 Season/Summer Season|LPL Summer Split and Playoffs]]. This would however turn out to be their only victory in the tournament, as they concluded their first international experience in last place of their group.
+
+=== 2019 Season ===
+INTZ finished [[CBLOL/2019 Season/Split 1|2019 CBLOL Split 1]] at 2nd place in Group Stage. They defeated [[Redemption eSports Porto Alegre|Redemption POA]] 3-2 in the Semifinal and [[Flamengo eSports]] 3-2 in the Final, qualifying for [[2019 Mid-Season Invitational|2019 MSI]]. At the MSI, INTZ was drawn in Play-in Stage Group B with [[DetonatioN FocusMe|DetonatioN FM]] from Japan, [[MEGA]] from SEA and [[Vega Squadron]] from CIS. They had only one winning game against MEGA, finished MSI at last place with a score of 1-5.
+
+=== 2020 Season ===
+INTZ finished [[CBLOL/2020 Season/Split 2|2020 CBLOL Split 2]] at 2nd place in Group Stage. They defeated [[KaBuM! e-Sports]] 3-2 in the Semifinal and [[paiN Gaming]] 3-1 in the Final, qualifying for [[2020 Season World Championship|Worlds 2020]]. At the Worlds, INTZ was drawn in Play-in Stage Group A with North America's third seed [[Team Liquid]], Europe's fourth seed [[MAD Lions]], [[Legacy Esports]] from OCE and [[SuperMassive Blaze|⁠SuperMassive Esports]] from Turkey. They had only one winning game against Team Liquid, going to a 4th Place Tiebreaker against Mad Lions, they lose the match and finished Worlds in last place with a score of 1-4.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp| |br|Lucas Catharino|'''Chief Executive Officer'''}}
+{{listplayersp|Thi|br|Thiago Campos|'''Chief Operating Officer'''}}
+{{listplayersp|Bauth|br|Lucas Bauth|'''Journalist & Editor'''}}
+{{listplayersp| |br|Camilla Lisboa|'''Psychologist'''}}
+{{listplayersp| |br|Victor Gabriel|'''Creative Director'''}}
+{{listplayersp|mitotv|br| |'''Head of League of Legends & Streamer'''}}
+{{listplayersp|Kroos|br| |'''General Manager'''}}
+{{listplayer|Patron|br|Leone Patron|'''Head Coach'''}}
+{{listplayer|Trigo (Matheus Trigo)|br|Matheus Trigo|'''Assistant Coach'''}}
+{{listplayer|micaO|br|Micael Rodrigues|'''Ambassador'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Mitohara|br|Kenzo Uehara|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Formiga|br|Rogério Almeida|'''Co-Owner & Chief Operating Officer'''|newteam=Retired}}
+{{listplayer|Jockster|br|Luan Cardoso|'''Positional Coach'''|newteam=none}}
+{{listplayersp|HeyAfro|br|Willian Sergio|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|VanieBunny|br|Vanessa Lucia|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Mortal (Vinícius Dutra)|br|Vinícius Dutra|'''Head of Esports'''|newteam=Retired}}
+{{listplayersp|D'Anjo|br|Aline D'Anjo|'''Finance Coordinator'''|newteam=Retired}}
+{{listplayersp||br|Eduardo Almeida|'''E-commerce Assistant'''|newteam=Retired}}
+{{listplayersp|raic|br|Rycardo Antunes|'''Social Media'''|newteam=paiN Gaming}}
+{{listplayersp|Joja|br|Isabela Di Giorgio|'''Community Head'''|newteam=Retired}}
+{{listplayersp||br|Julia Martins|'''Content Manager'''|newteam=MIBR}}
+{{listplayersp||br|Heloisa Nogueira|'''Social Media Assistant'''|newteam=Retired}}
+{{listplayersp||br|Ellen Nogueira|'''Designer'''|newteam=Retired}}
+{{listplayersp||br|Simone Freitas|'''Housekeeper'''|newteam=Retired}}
+{{listplayersp|Pescuma|br|Arturo Pescuma|'''Talent Manager'''|newteam=Retired}}
+{{listplayersp|Luan|br|Luan Rodrigo Almeida|'''Talent Manager'''|newteam=Retired}}
+{{listplayersp|Ryota|br|Igor Ben-hur|'''Data Analyst'''|newteam=none}}
+{{listplayersp|[https://mtg.fandom.com/wiki/Willy_Edel Willy Edel]|br|William Edel|'''CEO'''|newteam=Retired}}
+{{listplayer|Strazzi|br|Allan Strazzi|'''Coach'''|newteam=RED Academy}}
+{{listplayer|Aoshi|br|Franklin Coutinho|'''Head Coach'''|newteam=LOUD}}
+{{listplayersp|Ciccio|br|Marcelo Ciccio|'''CMO'''|newteam=Retired}}
+{{listplayersp|Simon|br|Lucas Almeida|'''Founder & Co-Owner'''|newteam=Retired}}
+{{listplayer|Shini|br|Diogo Rogê|'''Streamer & Content Creator'''|newteam=Fluxo}}
+{{listplayersp|Chico|br|Chico Tattini|'''Head of Partnerships'''|newteam=Retired}}
+{{listplayersp|CyBorg|br|João Borges|'''Head of Innovation & Mobile Esports'''|newteam=Retired}}
+{{listplayersp|Fabiana|br|Fabiana Bacelar|'''Finance Manager'''|newteam=Retired}}
+{{listplayersp|Jay|br|Jullian Braga|'''Creative Director'''|newteam=Retired}}
+{{listplayersp|Bruno|br|Bruno Fred|'''Physiotherapist'''|newteam=Retired}}
+{{listplayersp|Bio|br|Rodrigo Bio|'''Social Media'''|newteam=Retired}}
+{{listplayersp|Dehvinhas|br|Andre Vinhas|'''Planner & Customer Success'''|newteam=Retired}}
+{{listplayersp|Cath|br|Catharina Lury|'''Designer'''|newteam=Ilha das Lendas}}
+{{listplayersp|Bruno|br|Bruno Freschi|'''Esports Psychologist'''|newteam=Retired}}
+{{listplayer|Strazzi|br|Allan Strazzi|'''Coach'''|newteam=INTZ}}
+{{listplayer|Mills|br|Guilherme Conti|'''Coach'''|newteam=Retired}}
+{{listplayer|Abaxial|us|Alexander Haibel|'''Head Coach'''|newteam=Ilha das Lendas}}
+{{listplayer|ONMETA|br|Luis Junior|'''Head Analyst'''|newteam=FURIA Esports}}
+{{listplayer|Maestro|link=Maestro (Lucas Pierre)|br|Lucas Pierre|'''Head Coach'''|newteam=FURIA Esports}}
+{{listplayer|Kennzy|br|Marcos Vinicius|'''Streamer'''|newteam=REDC}}
+{{listplayer|WenAmazing|br|Wender Roberto de Lima|'''Partnerships Manager'''|newteam=RED Canids}}
+{{listplayersp|Maia|br|Bruno Maia|'''Graphic Designer/VFX Artist'''|newteam=Retired}}
+{{listplayer|Jockster|br|Luan Cardoso|'''Strategic Coach'''|newteam=FURIA Esports}}
+{{listplayer|jUc|br|César Barbosa|'''Positional Coach'''|newteam=FURIA Esports}}
+{{listplayersp|Zakalski|br|Natália Zakalski|'''Psychologist'''|newteam=Retired}}
+{{listplayer|Exorant|ro|Daniel Hume|'''Technical Coordinator'''|newteam=5R}}
+{{listplayersp|Paulinha|br|Paula Medeiros|'''Press Manager'''|newteam=Retired}}
+{{listplayer|sNk (Luan Almeida)|br|Luan Almeida|'''Manager'''|newteam=INTZ|comment=Mobile Games Manager}}
+{{listplayersp|Godoi|br|Claudio Godoi|'''Mind Coach'''|newteam=Retired}}
+{{listplayer|Daniels|br|Daniel Marcon|'''Streamer'''|newteam=Vivo Keyd Stars}}
+{{listplayer|Bieldomaul|br|Gabriel Guia|'''Streamer'''|newteam=VK}}
+{{listplayer|Tchubs|br|Arthur Figueira|'''Analyst'''|newteam=Retired|comment=Rainbow Six: Siege}}
+{{listplayersp|Cake1|br|Caique Henriques|'''Manager'''|newteam=kStars}}
+{{listplayer|Peter Dun|uk|Peter Dun|'''Head Coach'''|newteam=Splyce}}
+{{listplayer|Abaxial|us|Alexander Haibel|'''Coach'''|newteam=REDC}}
+{{listplayersp|Shakarez|pt|Renato Perdigão|'''Assistant Coach/Analyst'''|newteam=Retired}}
+{{listplayer|Professor|br|Matheus Leirião|'''Coach'''|newteam=Keyd Warriors}}
+{{listplayer/End}}
+
+===Temporary Staff===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+!Tournament
+{{listplayer|Brokenshard|il|Ram Djemal|'''Analyst'''}}
+|[[2016 Season World Championship]]
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+INTZ old logo square.png|Previous Logo<br>2014 - 2026
+INTZlogo square.png|Previous Logo<br>2026 - ''Present''
+</gallery>
+===Rosters===
+<gallery>
+INTZ-CBLOL2015.jpg|INTZ e-Sports's [[CBLOL/2015 Season/Split 1|CBLOL 2015 Split 1]] Roster<br>Left to Right: Jockster, Yang, tockers, micaO, Revolta
+INTZ CBLOL2015Winter.png|INTZ e-Sports's [[CBLOL/2015 Season/Split 2|CBLOL 2015 Split 2]] Roster<br>Left to Right: Jockster, Yang, Alocs, micaO, tockers
+INTZ Roster 2016 Winter.jpg|INTZ e-Sports's [[CBLOL/2016 Season/Split 2|CBLOL 2016 Split 2]] Roster<br>Left to Right: tockers, Jockster, Revolta, micaO, Yang
+INTZworlds.png|INTZ e-Sports's [[2016 Season World Championship]] Roster
+2021 INTZ Split 1.jpeg|INTZ's [[CBLOL 2021 Split 1]] Roster
+INTZ CBLOL 2024 Split 2.png|INTZ [[CBLOL/2024 Season/Split 2|CBLOL 2024 Split 2]] Roster
+</gallery>
+
+==Links==
+
+==References==
+<references />

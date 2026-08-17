@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Vega%20Squadron&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.549Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Vega Squadron」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=Yes
+|name= Vega Squadron
+|orgcountry= Russia 
+|country=
+|region= CIS
+|image=Vega Squadronlogo square.png
+|owner= Alexey "'''Vega'''" Kondakov
+|headcoach= Viktor "'''VTorNic'''" Koloda
+|website= http://vega-squadron.com
+|youtube= https://www.youtube.com/channel/UC4JgHLXuvAEssNwXXNQbZeA
+|facebook= https://facebook.com/VegaSquadronESports
+|twitter= VegaSquadron
+|vk= https://vk.com/vega_squadron
+|instagram= vegasquadron
+|lolpros=https://lolpros.gg/team/vega-squadron
+|irc=
+|sponsor= [http://www.vega-fish.com/ Vega LLC] <br />[http://www.esportclothing.com/ Esportclothing] <br /> [https://nitrogensports.eu/ Nitrogen Sports]
+|created= Organization 2012 <br> LoL Division 2015-12-15
+|disbanded=LoL Division 2017-08-15
+|trades=
+}}{{TOCRWI}}
+
+'''Vega Squadron''' is a Russian esports organization with teams in ''League of Legends'', ''Dota 2'', and ''Hearthstone'', formed in 2012. The organization entered ''League of Legends'' by acquiring the CIS team [[Carpe Diem]] on December 2015.<ref name="Vega Squadron announces League of Legends roster">[http://en.vega-squadron.com/news/vega-squadron-announces-league-legends-roster Vega Squadron announces League of Legends roster] ''vega-squadron.com''</ref>
+
+==History==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Vega|ru|Alexey Kondakov|'''Chief Executive Officer'''}}
+{{listplayersp|HighArT|hr|Vanja Šimunec|'''General Manager'''}}
+{{listplayersp|VTorNic||Viktor Koloda|'''Head Coach, Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|JamesPeke|ru|Kirill Katashov|'''Head Coach'''|newteam=none}}
+{{listplayersp|Thainum||Sergey Korendyasev|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Ospreay||Vladimir Gonchar|'''Assistant Coach'''|new team=none}}
+{{listplayer|JamesPeke|ru|Kirill Katashov|'''Head Coach/Manager'''|newteam=VEGA}}
+{{listplayer|f0lloVVmE|ru|Nickita Davlitsarov|'''Assistant Coach/Analyst'''|newteam=CWC}}
+{{listplayer|JamesPeke|ru|Kirill Katashov|'''Manager'''|newteam=VEGA}}
+{{listplayer|Moo|link=Moo (Dmitry Sukhanov)|ru|Dmitry Sukhanov|'''Head Coach'''|newteam=CGG}}
+{{listplayer|Oneself|ru|Ivan Platonov|'''Analyst'''|newteam=Project X}}
+{{listplayersp|Tunes|ru|Anton Boyko|'''Manager'''|newteam=UOL.CIS}}
+{{listplayersp|Razly|ru|Valerii Shishkin|'''Analyst'''|newteam=Bursaspor Esports}}
+{{listplayer|Invi|ru|Dmitrii Protasov|'''Head Coach'''|rejoined=yes|newteam=UOL.CIS}}
+{{listplayersp|Revita|ru|Anna Ruslanova|'''Team Manager'''|newteam=none}}
+{{listplayersp|Kayos|ru|Vladimir Ivanov|'''Head Coach'''|newteam=Dragon Army}}
+{{listplayer|Moo|link=Moo (Dmitry Sukhanov)|ru|Dmitry Sukhanov|'''Analyst'''|newteam=Virtus.pro}}
+{{listplayer|SharkZ|by|Alexey Taranda|'''Head Coach'''|newteam=Gambit Esports}}
+{{listplayer|Invi|ru|Dimitry Protasov|'''Assistant Coach'''|newteam=GMB.CIS}}
+{{listplayersp|Arrowhead|es|Samuel Moreno|'''Analyst'''|newteam=Arctic Gaming}}
+{{listplayersp|Nodriza|es|David Espinar|'''Analyst'''|newteam=ASUS ROG Army}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+<gallery>
+Vega SquadronOldlogo square.png|Previous Logo<br>(Until September 2016)
+</gallery>
+
+==Media==
+{{TeamMedia}}
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />

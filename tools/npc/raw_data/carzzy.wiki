@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Carzzy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Carzzy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Carzzy
+|name=Matyáš Orság
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Czech Republic
+|residency=EMEA
+|birth_date_year=2002
+|birth_date_month=January
+|birth_date_day=31
+|favchamp=Jhin
+|favchamp2=Zoe
+|favchamp3=Yasuo
+|checkbox1=No
+|compID1=MadeOfSwag
+|checkboxComp=No
+|ids='''EUW''': bob kong<br>mommys milk yum<br>G2 Humanoid<br>'''CN:''' turbosnail
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/carzzy
+|facebook=https://www.facebook.com/Carzzycek
+|twitter=Carzzylol
+|instagram=carzzycek
+|youtube=https://www.youtube.com/channel/UC8II8TQfL9RzUL3wdvBAq5Q
+|discord=https://discord.gg/GMNAR5j2
+|lolpros=https://lolpros.gg/player/carzzy
+|deeplol=https://www.deeplol.gg/pro/Carzzy
+|dpmlol=https://dpm.lol/pro/Carzzy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* First reached Challenger on EUW at the age of 14
+* His ID was created accidentally when he tried to type "Crazy"
+* Started playing League of Legends during Season 2
+* Had reached Rank 1 on EUNE
+* His favorite professional AD carry players are [[Uzi (Jian Zi-Hao)|Uzi]], [[Deft]], and [[Rekkles]]
+* Used to be {{ci|Riven}} one-trick pony
+* Started playing AD carry after his team benched their AD and nobody wanted to play the role
+* First Player with [[Humanoid]] from the Czech Republic to win the LEC title.
+* Reached 1000 kills in the LEC on September 09, 2023.
+** The 12th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]], [[Kobbe]], [[Hans sama]], [[Odoamne]], [[Upset]], and [[Larssen]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

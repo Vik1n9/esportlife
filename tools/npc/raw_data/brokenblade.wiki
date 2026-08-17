@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=BrokenBlade&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「BrokenBlade」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=BrokenBlade
+|name=Sergen Çelik
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|nationality=Germany, Turkey
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=January
+|birth_date_day=19
+|favchamp=Riven
+|favchamp2=Irelia
+|favchamp3=Camille
+|checkbox1=No
+|compID1=Broken Blade
+|checkboxComp=No
+|ids='''EUW:''' G2 BrokenBlade#1918<br>'''NA:''' G2 BrokenBlade#1819<br>'''KR:''' 1a2b3c4d5f6, str8 beefy mode<br>'''CN:''' asdovjstsmapibb, YassuoSanchovies<br>'''BR:''' G2 Fogo de Chão#1918
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/brokenblade
+|facebook=https://www.facebook.com/BrokenBladelol
+|twitter=BrokenBlade
+|instagram=brokenbladee_
+|youtube=https://www.youtube.com/channel/UCg2cHUYsI47YA3iqICuivRg
+|discord=https://discord.gg/CW9Sxge
+|tiktok=brokenbladeee
+|lolpros=https://lolpros.gg/player/brokenblade-1
+|deeplol=https://www.deeplol.gg/pro/BrokenBlade
+|dpmlol=https://dpm.lol/pro/BrokenBlade
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=His name was previously stylized '''Broken Blade'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Has been a fan of Turkish football club [[wikipedia:en:Galatasaray_S.K._(football)|Galatasaray]] since his childhood.
+* Was banned in [[TCL 2017 Winter]] for 2 games after he played music that insulted his opponents from [[Fenerbahçe Esports]]. <ref>[https://www.instagram.com/reel/DA5-0InIpfK/ Offline Tonight] 'youtube.com'</ref>
+* Is a dual citizen of Germany and Turkey.
+* First Turkish resident to play in the LCS. 
+* Was the subject of good-natured memes by his teammates after joining [[TSM]] regarding his short stature. 
+* His ID is a reference to the weapon of the champion {{ci|Riven}}.
+* Is the 3rd player to win a title in both [[LEC]] and [[LCS]] after [[Zven]] and [[Perkz]].
+* Nicknamed "The Topfather" by fans. He plays into this nickname by imitating Vito Corleone in [[G2]] content. <ref>[https://www.youtube.com/watch?v=v5a9yjQ1acs The Topfather] ''youtube.com''</ref>
+* Reached 1000 kills in the LEC on May 24, 2025.
+** The 16th player to reach 1000 kills in the LEC.
+
+ 
+=== Individual Awards ===
+* x1 LEC Finals MVP (Winter 2024)
+* x4 LEC 1st All-Pro Team (Summer 2022, Summer 2023, Winter 2024, Spring 2024)
+* x2 LEC 2nd All-Pro Team (Spring 2022, Winter 2023)
+* x2 LCS 3rd All-Pro Team (Spring 2019, Spring 2020)
+
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

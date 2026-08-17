@@ -1,0 +1,98 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mata&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mata」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Mata
+|name=Cho Se-hyeong
+|nativename=조세형
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=February
+|birth_date_day=27
+|favchamp=Zyra
+|favchamp2=Blitzcrank
+|favchamp3=Thresh
+|favchamp4=Fiddlesticks
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Mata<br> '''NA:''' Not Bread Bro<br> '''CN:''' VG Sup perman
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/dnjfdur2
+|facebook=https://www.facebook.com/matasehyoung
+|instagram=mata_sehyoung
+|videoarchive=https://www.twitch.tv/mata
+|lolpros=https://lolpros.gg/player/mata/
+|deeplol=https://www.deeplol.gg/pro/Mata
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+}}
+==Biography==
+===Season 3===
+Cho "'''Mata'''" Se-hyeong joined [[MVP Ozone]] as a support in February of 2013. In his first season as a professional player, Ozone won the [[OLYMPUS Champions Spring 2013]] finals 3-0 against [[CJ Entus Blaze]] in one of the biggest upsets in League of Legends history. The team did fairly well in [[HOT6iX Champions Summer 2013]], placing third after losing 3-1 to [[SK Telecom T1 K|SK Telecom T1]] but beating [[CJ Entus Frost]] 3-2 in the third place match. Ozone earned enough circuit points to qualify automatically to the [[Season 3 World Championship]] as the second seed from Korea. A week later, both Ozone and their sister team, [[MVP Blue]], were bought by the Samsung organization, forming [[Samsung Galaxy Ozone]] and [[Samsung Galaxy Blue]]. Ozone disappointed at worlds, dropping out in groups after losing a tiebreaker to [[Gambit Gaming]].
+
+===2014 Season===
+Ozone began the new year with [[PANDORA.TV Champions Winter 2013-2014]] where they made it to the finals but were swept by the undefeated SKT K to end in second place overall. They placed similarly at [[HOT6iX Champions Spring 2014]], losing 3-1 to Blue in the semis but beating Blaze 3-2 in the third place match to finish in third. A month later, Ozone changed their name to Samsung White. [[HOT6iX Champions Summer 2014]] was not much different for the team. They lost 3-1 again to Blue in the semis but they swept [[SK Telecom T1 S]] in the third place match. They were forced to play a tiebreaker against SKT K for the second Korean seed at the [[2014 Season World Championship]] and they swept them 3-0 for the spot. White came into worlds as the heavy favorites and impressed, only dropping two games the whole tournament. They played a fairly one-sided final against [[Star Horn Royal Club]] and took the title with a 3-1 victory with Mata managing to earn himself the the MVP title for the tournament. On October 25, 2014, Mata announced that he was leaving the Samsung organization and was considering his options.<ref>[http://www.facebook.com/sehyoung.cho.3/posts/650298621750999 Mata's Facebook Post (Korean)] ''facebook.com''</ref><ref>[http://www.ongamers.com/articles/mata-departs-samsung-white/1100-2297/ Mata departs Samsung White] ''onGamers.com''</ref> On November 27, 2014, [[DanDy]], [[Skatch]], [[Heart]] and Mata all together joined [[Vici Stand Gaming]].<ref>[http://p.t.qq.com/longweibo/index.php?id=429380132770020 Vici Gaming's Tencent Weibo Post (Chinese)] ''t.qq.com''</ref>
+
+===2015 Season===
+At the beginning of the year, Mata and DanDy were moved to the main [[Vici Gaming]] roster to compete in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]]. They competed in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] first and fell in the round of 16 with a 3-0 loss to [[Invictus Gaming]]. They ended in fourth in the LPL regular season but lost in the first round of the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]], dropping 3-1 to IG. Vici played in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]], making it to the quarterfinals but forfeiting their series against IG. During the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]], they ended in sixth in the LPL and made it to the quarterfinals of the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] but Vici lost 3-2 here to IG.
+
+===2016 Season===
+Despite multiple rumors that Mata would return to Korea, likely to play on [[Incredible Miracle]], Mata stayed in China for the 2016 season, moving to [[Royal Never Give Up]].<ref>[http://www.fomos.kr/esports/news_view?lurl=%2Fesports%2Fnews_list%3Fnews_cate_id%3D1&entry_id=17908 VG '마타' 조세형, RNG로 전격 이적  (Korean)] ''fomos.kr''</ref> Royal Never Give Up were invited to [[IEM Season X - World Championship|IEM Katowice]] in March 2016 where they finished first in their group beating both [[Origen]] and [[ESC Ever|Ever]]. However, they were defeated 1 - 2 by [[Fnatic]] in the playoffs bracket, placing third along with [[Team Solo Mid]].
+
+== Trivia ==
+* His ID '''Mata''' is named after the soccer player [https://en.wikipedia.org/wiki/Juan_Mata ''Juan Mata''].
+* Sit cross-legged sometimes when competing. 
+*Became known for being so incredibly talented on {{ci|Thresh}} that fans started comparing him to [[MadLife]]. It is said by the fans of OGN that "If MadLife is God then Mata is Buddha".
+*[[MonteCristo]] often regarded Mata as the rookie of the year during [[OLYMPUS Champions Spring 2013]] due to his relatively new career as a pro gamer, having started professional LoL during February of 2013.
+*Has multiple accounts that are in Korean Challenger and each play a different role.
+* He is the only support player awarded MVP at the [[World Championship]].
+* Considered by many League commentators and analysts as one of the greatest supports of all time.
+* He is the first person to win the World Championship as a player (2014 with [[Samsung White]]) and as a coach (2025 with [[T1]]).
+* Part of a select group of players called "[[Royal roader]]", earned after winning their rookie split in a major region ([[Champions 2013 Spring]]).
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+=== External Links ===
+* [http://www.dailydot.com/esports/mata-fined-vici-gaming/ Mata fined $8,000 for troll pick]
+
+{{PlayerPageEnd}}

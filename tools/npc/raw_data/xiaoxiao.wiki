@@ -1,0 +1,116 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=XiaoXiao&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.923Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「XiaoXiao」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=XiaoXiao
+|name=Sun Ya-Long
+|nativename=孙亚龙
+|namealphabet=Hanzi
+|image=igxiaoxiao.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|checkbox-res=No
+|birth_date_year=1988
+|birth_date_month=March
+|birth_date_day=24
+|favchamp=Sona
+|favchamp2=Janna
+|favchamp3=Elise
+|favchamp4=Lulu
+|checkbox1=No
+|checkboxComp=No
+|ids=iG XiaoXiao, <br>香独秀(CN), 昂翼天使
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://egame.qq.com/497383565
+|weibo=https://www.weibo.com/u/5586965954
+|fanpage=http://t.qq.com/sunyalongsyl Tencent Weibo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|peakelo_na=2287
+|peakelo_kr=2169
+}}
+==Biography==
+XiaoXiao was a famous player for DNF（던전앤파이터，アラド戦記，Dungeon & Fighter）.
+
+== Trivia ==
+* His favorite champion is {{ci|Alistar}}.
+* He used to be a [[wikipedia:en:Dungeon & Fighter|Dungeon & Fighter]] (DNF) player and won the 1st place in WCG 2010 China National Final.<ref>[http://dnf.duowan.com/1007/144178845424.html WCG2010DNF团队赛结束 孙亚龙笑到最后 (Chinese)]
+ ''dnf.duowan.com''</ref>
+* Known for missing ultimates such as {{ci|Sona}}'s Crescendo and {{ci|Thresh}}'s The Box. His fans nicknamed him "空大狂魔", which means "Missing Ultimate Devil" in English.<ref>[http://i3.photobucket.com/albums/y77/kevinpo7576/xiaoxiaosonaultmiss_zpse9d049d8.png]</ref><ref>[http://i3.photobucket.com/albums/y77/kevinpo7576/xiaoxiaothreshultmiss_zps5e37b6d7.png]</ref>
+* His first name "Ya Long" is the word for drake in Chinese. So after 2016 mid season when the elemental drakes are online, people make jokes about his first name because it exactly means drake.
+* Good friends with [[Sicca]] and [[Kid]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+=== Images ===
+<gallery>
+File:XiaoXiao.jpg|iG  XiaoXiao
+File:ig.xiaoxiao1.jpg|iG  XiaoXiao
+File:ig.xiaoxiao2.jpg|iG  XiaoXiao
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Leza&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.442Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Leza」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Leza
+|name=Francisco&nbsp;Rubén Jara Barragán
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Mexico
+|residency=North America|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1998
+|birth_date_month=September
+|birth_date_day=28
+|favchamp=Azir
+|favchamp2=Gangplank
+|favchamp3=Viktor
+|favchamp4=Zed
+|checkbox1=No
+|compID1=Lezaford
+|checkboxComp=No
+|ids='''NA:''' chaewonfan#NA11 <br>'''CN:''' Aloned, upupandaway <br> '''KR:''' 레사퍼루#FLEX
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Leza_lol
+|facebook=https://www.facebook.com/lezalol
+|twitter=leza_lol
+|instagram=leza__lol
+|deeplol=https://www.deeplol.gg/pro/Leza
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Lezaford'''.
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+}}
+==Biography==
+
+== Trivia ==
+
+=== Individual Awards ===
+* LLA player with the most MVPs during the year x2 (2019, 2020)
+* LLA player with the most MVPs in the split (Opening 2020)
+* LLA Most Weekly MVPs in his role in the split (Opening 2020)
+* LLA Most Valuable Player of the split (Opening 2019)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

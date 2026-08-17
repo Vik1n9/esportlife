@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Berserker%20(Kim%20Min-cheol)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.382Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Berserker (Korean player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Berserker
+|name=Kim Min-cheol
+|nativename=김민철
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=2003
+|birth_date_month=May
+|birth_date_day=25
+|favchamp=Zeri
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' LYON#09012, qaxu#KR1<br>'''BR:''' 040444#444
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/kkmc0000
+|twitter=Ber5erker_lol
+|instagram=lol_berserker4
+|videoarchive=https://www.twitch.tv/c9berserker
+|deeplol=https://www.deeplol.gg/pro/Berserker-Kim_Min-cheol
+|dpmlol=https://dpm.lol/pro/Berserker
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+Berserker began playing ''League of Legends'' in 2014, when he was 11 years old. In 2020, he was recruited by [[T1]] to their development system. He spent the next year and a half playing for various T1 academy teams, becoming a highly touted prospect.
+
+=== 2022 Season ===
+Thanks to the connections [[Cloud9]] head coach [[LS]] had with the T1 organization, he was able to recruit Berserker to the Cloud9 LCS team for the 2022 season. Although LS would be kicked from Cloud9 shortly into the season, Berserker remained with the team for the entire year. Despite being a rookie, Berserker quickly proved himself as one of the best bot laners in the region. He earned the 2nd All Pro Team title in both splits and was runner-up for Rookie of the Year, losing to [[jojopyun]]. As the meta shifted to become more bot lane focused in playoffs, Berserker was able to lead Cloud9 to its first LCS Summer championship since 2013. At [[Worlds 2022]], Cloud9 would win only one game in groups before being eliminated.
+
+=== 2023 Season ===
+Berserker remained with Cloud9 for the 2023 season. Although fans speculated that Cloud9 would replace its support [[Zven]], he remained with the team at Berserker's request.<ref>[https://clips.twitch.tv/OilyBloodyFennelImGlitch-8-RjpCd2t4xT_vwY MonteCristo's Twitch Clip] ''twitch.tv''</ref>
+
+== Trivia ==
+* His ID '''Berserker''' is intended to describe his playstyle.
+
+=== Individual Awards ===
+* LCS Most Valuable Player (Spring 2023)
+* LCS Championship Finals MVP (Summer 2022)
+* LCS 1st All-Pro Team 2x (Spring 2023, Summer 2023)
+* LCS 2nd All-Pro Team 4x (Spring 2022, Summer 2022, Spring 2024, Summer 2024)
+* LCK CL Best AD (Spring 2021)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

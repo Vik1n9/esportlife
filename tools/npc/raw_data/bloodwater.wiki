@@ -1,0 +1,145 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=BloodWater&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.841Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「BloodWater」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=BloodWater
+|name=Lyubomir Spasov
+|nativename=Любомир Спасов
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Bulgaria
+|nationality=Bulgaria, United States
+|residency=North America
+|checkbox-res=No
+|birth_date_month=July
+|birth_date_day=06
+|favchamp=Lulu
+|favchamp2=Leona
+|favchamp3=Zyra
+|favchamp4=Sona
+|checkbox1=Yes
+|favchamp5=Thresh
+|compID1=Bloodwater
+|checkboxComp=No
+|ids=BIoodWater, 4Not BloodWater, V BloodWater, XDG BloodWater
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/bioodwater
+|twitter=BloodWaterx
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|nicknames=GodWater
+}}
+==Biography==
+===Season 1===
+BloodWater's competitive League of Legends career began with [[Team 4Not.NA|Team 4Not]], with whom he played in a number of tournaments. The [[League of Legends 2011 Winter Brawl]] was the first of which, where the team finished in 1st place. 
+
+===Season 2===
+After this came the [[Leaguecraft ggClassic Presented by Gaming.StackExchange]], where 4Not came 2nd, losing to [[Team SoloMid]] in the final. The roster also enjoyed success in Go4LoL tournaments, winning cups #49 and #51 of [[ESL Go4LoL 2012 February]] and going on to win the monthly cup, beating [[Ordinance Gaming]] in the final. 
+
+After finishing 3rd at [[CSN playLEGENDS Finals]] and winning cup #63 of [[ESL Go4LoL 2012 May]], BloodWater left the team to join [[CLG Black]], where he played alongside [[Zuna]] and [[Link]].
+
+Bloodwater and his teammates won their first tournament, [[National ESL Premier League/Season III|National ESL Premier League Season III]], before finishing 2nd at [[GIGABYTE Esports LAN]], behind [[Team SoloMid]] and ahead of [[CLG Prime]]. CLG Black then finished 2nd at the [[Leaguecraft ggClassic Presented by Arqade]]. The roster enjoyed success in the [[ROCCAT King Of The Hill]], winning the first 3 weeks of the tournament. 
+
+Supporting their sub AD Carry, [[WildTurtle]], BloodWater and the team were knocked out in round 4 of the [[2012 MLG Pro Circuit/Summer/Championship|2012 MLG Pro Circuit Summer Championship]], however after the disqualification of [[Team Curse]] and [[Team Dignitas]], CLG Black were awarded the prize money for 3rd-4th place, with the prize money for 1st through 4th place being awarded to 3rd through 6th. 
+
+The roster's last tournament before disbanding was the [[National ESL Pro Series/Season IV|National ESL Pro Series Season IV]], where the team came 3rd after being knocked out in the semifinals by [[CLG Prime]]. BloodWater went on to join [[Azure Gaming]]. 
+
+===Season 3===
+BloodWater and his new team participated in the [[Riot League Championship Series/North America/Season 3/Spring Qualifiers|NA LCS Spring Qualifiers]], but did not manage to qualify. The organization changed name to '''Azure Cats''' before finishing 2nd in the [[CLG Premier Series]]. After this, BloodWater left the team.
+
+He then joined [[Counter Logic Gaming]] as a sub before leaving the team soon after to join [[Good Game University]], where he played in weeks 2 - 7 of the [[Riot League Championship Series/North America/Season 3/Spring Round Robin|NA LCS Spring Split]]. He joined [[Team Vulcun]] soon after, playing the last 3 weeks of the split with the team. With Vulcun finishing 2nd, they had qualified for the [[Riot League Championship Series/North America/Season 3/Spring Playoffs|Spring Playoffs]]. The team finished in 3rd place, beating [[Team Curse]] in the third-place match.
+
+BloodWater went on to compete in the [[Riot League Championship Series/North America/Season 3/Summer Round Robin|Summer Split]] with Vulcun. Impressive performances on {{ci|Sona}} and {{ci|Thresh}} in particular helped the team to a 2nd place finish, securing them a place in the [[Riot League Championship Series/North America/Season 3/Summer Playoffs|Summer Playoffs]]. BloodWater and the team finished in 3rd place in the playoffs, being [[Team Dignitas]] in the third-place match. This meant that they had secured themselves a spot in the [[Season 3 World Championship]].
+
+BloodWater participated in the World Championship with [[Team Vulcun]], alongside [[Sycho Sid]], [[Xmithie]], [[mancloud]], and [[Zuna]]. The team finished 4th in their group, going 3-5, meaning they would not progress to the bracket stage of the tournament.
+
+After the World Championship, BloodWater stayed with the team when Vulcun disbanded to rename as [[XDG Gaming]].
+
+===2014 Season===
+BloodWater participated with XDG in the [[Riot League Championship Series/North America/2014 Season/Spring Season|Spring Split]] of the LCS. However, disappointing performances from the team saw BloodWater released after week 5 of the split, with XDG sitting bottom of the standings table.
+
+At this point, BloodWater took a break from the competitive scene, but has since been a substitute for [[Team Coast]].
+
+===2015 Season===
+In May 2015, BloodWater returned to competitive gaming, joining [[Maelstrom Gaming]] to play in the [[2015 NA Challenger Series/Summer Qualifier|NACS Summmer Qualifier]]. However, after a loss to [[CLG Black]] in the second round of their bracket, the team disbanded.
+
+== Trivia ==
+* Had a tryout with [[Counter Logic Gaming]] for the open support role after [[Locodoco]]'s departure, but the position was eventually filled by [[Aphromoo]].
+* Was born in Bulgaria and knows Bulgarian.<ref>[http://twitter.com/CLG_BloodWater/status/217763663254265856 Bloodwater's twitter] ''twitter.com''</ref>
+* In 2013 played with Azure Gaming in the North American Qualifier.
+* Stole Baron with a level 1 Janna tornado playing against Cloud 9 in NA LCS.
+* Joined Vulcun during the Spring Split after the departure of former Support, Muffinqt.<ref>[http://na.lolesports.com/season3/split2/players/bloodwater Lyubomir "BloodWater" Spasov Player Profile] ''na.lolesports.com''</ref>
+* Balanced school and ''League of Legends'' at the same time.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

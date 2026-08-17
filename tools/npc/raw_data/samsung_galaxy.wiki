@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Samsung%20Galaxy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.242Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Samsung Galaxy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=KSV eSports
+|name=Samsung Galaxy
+|organization=Samsung (Organization)
+|orgcountry=South Korea 
+|country=
+|region= KR
+|coaches= Choi "'''Edgar'''" Woo-beom <br> Ju "'''oDin'''" Yeong-dal <br> Yeo "'''TrAce'''" Chang-dong
+|manager=
+|captain= Kang "'''Ambition'''" Chan-yong
+|sponsor=[http://www.samsung.co.kr/ Samsung]<br>[http://www.lottechilsung.co.kr/main/main.jsp HOT6]
+|facebook=https://www.facebook.com/ssgalaxyteam
+|instagram= samsunggalaxygameteam
+|created=2013-09-07
+|disbanded=2017-11-30
+|rosterphoto=Samsung Galaxy 2017 LCK SPRING.png
+}}{{TOCRWI}}
+
+'''Samsung Galaxy''' was a Korean a professional gaming team based in South Korea, part of KeSPA. The organization previously sponsored two sister teams, [[Samsung White]] and [[Samsung Blue]]. Founded in 2005, its ''StarCraft'' division, Samsung KHAN, counts ex-[[Team WE]] coach Lee Seong-eun (firebathero) among the stars that have been on its roster.
+
+==History==
+===Season 3===
+Samsung initially acquired the rosters of [[MVP Ozone]] and [[MVP Blue]] in September 2013, forming [[Samsung Ozone]] and [[Samsung Blue]], respectively. Ozone consisted of [[Homme]], [[DanDy]], [[dade]], [[imp]], [[Mata]], and [[Looper]] and Blue consisted of [[Cheonju]], [[Spirit]], [[easyhoon]], [[Deft]], [[Sense]], [[FLahm]], and [[SuNo]]. Ozone had already qualified for the the [[Season 3 World Championship]] at the time of the signing but they failed to make it out of groups, being upset by [[Fnatic]] and [[Gambit Gaming]]. 
+
+===2014 Season===
+The organization competed in the [[SK Telecom LTE-A LoL Masters 2014]] tournament, finishing second in the round robin and then beating [[CJ Entus]] 2-0 and [[SK Telecom T1]] 3-0 to win the tournament. Samsung Blue won [[HOT6iX Champions Spring 2014]] 3-1 against [[NaJin White Shield]], marking the organization's first OGN victory. Shortly afterwards, Ozone renamed itself to '''Samsung White'''.  With the OGN victory and both [[Samsung White]] and [[Samsung Blue]] placing well in multiple seasons of Champions, Blue and White both qualified for the [[2014 Season World Championship]]. White and Blue played each other in the semifinals but White came out on top 3-0, paving the way for a 3-1 victory in the finals against [[Star Horn Royal Club]].
+
+===2015 Season===
+When KeSPA announced their new format for OGN and the prohibition against one organization holding multiple rosters, Samsung released all of its players on both rosters. The team was invited to compete in [[Champions Spring 2015]]. On December 2, 2014 a preliminary roster for that tournament was announced, including [[cuvee]], [[Eve]], [[BlisS]], [[Fury (Lee Jin-yong)|Fury]], and [[Wraith]].<ref>[http://www.inven.co.kr/webzine/news/?news=123037&iskin=esports [별들의 전쟁 시작! LoL 챔피언스 코리아 프리시즌 로스터 공개] ''inven.co.kr''</ref> Samsung finished in last place in the round robin, with a 2-12 set record and a 2-26 game record, forcing them to play in the [[Champions Summer 2015/Promotion|Champions Summer 2015 Promotion Tournament]]. They were placed in a group with [[Prime Clan]] and [[Xenics]] and won both of their sets, qualifying for the [[SBENU Champions Summer 2015]]. Prior to the start of the summer season, they added substitute players [[Crown]] and [[Luna (Jang Kyung-ho)|Luna]], expanding their roster to 9 players. Samsung ended in seventh place at the end of the season, missing playoffs but qualifying for the next season of LCK.
+
+===2016 Preseason===
+Samsung competed in the [[2015 LoL KeSPA Cup]] where they were placed against [[ESC Ever|Ever]] in the first round. To the surprise of many, Samsung was quickly dispatched 2-0. Afterwards, Samsung saw  jungler [[Eve]], midlaners [[Ace (Kim Ji-hoon)|Ace]] and [[Bliss]], ADC [[Fury (Lee Jin-yong)|Fury]], and support [[Luna (Jang Kyung-ho)|Luna]] all leave the team. In turn, [[Ambition]], [[Helper (Kwon Yeong-jae)|Helper]], [[CoreJJ]], and [[Stitch]] joined the lineup.
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Samsung Galaxy went 10-8 in sets overall. After looking like they could clinch the fifth and final seed for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], Samsung Galaxy were unfortunately denied by the surging [[Afreeca Freecs]], who beat them by the game score tiebreaker, giving Samsung sixth place for the split. In the midseason, Samsung Galaxy picked up Bung (renamed [[Ruler]]), while ADC [[CoreJJ]] moved to support.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], Samsung stayed a top four team throughout the split, notably taking a 2-0 series win against the [[ROX Tigers]], one of two teams to do so. However consistent they were against the teams below them, Samsung rarely won against the three teams above them - [[ROX Tigers]], [[SK Telecom T1]], and [[KT Rolster]]. They managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung lost the first game before swapping out veteran support [[Wraith]] for new ADC-turned-support [[CoreJJ]]. With this swap, Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. With CoreJJ, Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]]. What followed was considered by many the most impressive team performance of the first two Weeks, as they won five of their six matches in what was arguably the hardest group at Worlds in convincing fashion. The team advanced to the Bracket Stage and was drawn against [[Cloud9]], which they handily won 3-0 and moved on to the Semifinals, where they once again swept a Western team, this time the European [[H2k-Gaming]]. Their opponent in the Grand Finals were non other than [[SK Telecom T1]]: after losing the first two games, the Samsung squad went on to almost pull off a reverse sweep by winning Games 3 and 4. In the end, however, it was SKT that brought home the Summoner's Cup, closing out the last game of the series in 49 minutes.
+
+===2017 Season===
+During the 2017 Spring Season, Samsung went 14-4 in sets overall. As they are favorites to win, Samsung was swept by [[KT Rolster]] 3-0 in the semifinals, ending their Spring Season. In the Summer Split, Samsung went 13-5 in the Group Stages, securing them a playoff spot. Unfortunately, they were swept by SK Telecom T1, 3-0 in the quarterfinals. They later competed in their final bid to enter Worlds 2017 in the [[Korea Regional Finals 2017|2017 Korea Regional Finals]] where they swept the heavy favorites KT Rolster 3-0. earning them the third seed to Worlds again. The team was placed in Group C along with [[Royal Never Give Up]], [[G2 Esports]], and [[1907 Fenerbahçe Esports]] where they finished 4-2 in groups, both losses from RNG and advanced in the quarterfinals, There they shocked the world by sweeping heavy tournament favorites [[Longzhu Gaming]] 3-0, showing that nothing will stand in their way to get their revenge. In the semifinals, Samsung met a strong challenge from [[Team WE]], which the Chinese team defeated them at the first game before Samsung retaliated by winning the next three matches, allowing them to advance in the finals, meeting their nemesis SK Telecom T1. Samsung surprisingly defeated SKT in the first two matches before the defending champions fought fiercely in Game 3, as if there was a possibility of a Game 4. That didn't happen. however, due to the mistakes of SKT's botlane, the tide began to turn in Samsung's favor and the deathblow to the SKT dynasty was done by AD carry Ruler who flashed R with his {{ci|Varus}} to [[Faker]], winning the organization its second Worlds title. Later however, Samsung announced that they would no longer sponsor anymore teams in professional play and the team was then obtained by the Chinese Company KSV, thus forming [[KSV eSports]].
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|January|kr|Kim Ka-eul (김가을)|'''Director'''|newteam=grf}}
+{{listplayer|Edgar|kr|Choi Woo-beom (최우범)|'''Head Coach'''|newteam=KSV}}
+{{listplayer|oDin|link=oDin (Ju Yeong-dal)|kr|Ju Yeong-dal (주영달)|'''Coach'''|newteam=KSV}}
+{{listplayer|TrAce|kr|Yeo Chang-dong (여창동)|'''Coach'''|newteam=KSV}}
+{{listplayer|Kim|link=Kim (Kim Jeong-soo)|kr|Kim Jeong-soo (김정수)|'''Coach'''|newteam=dignitas}}
+{{listplayer|Horang2|kr|Lee Kyeong-min (이경민)|'''Coach'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+==References==
+<references />
+
+<br>
+{{World Championship Champions Navbox|2014 Season|2017 Season}}

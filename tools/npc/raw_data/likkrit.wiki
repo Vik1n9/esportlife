@@ -1,0 +1,123 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Likkrit&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.159Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Likkrit」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Likkrit
+|name=Kirill Malofeyev
+|nativename=Кирилл Малофеев
+|namealphabet=Cyrillic
+|image=Likkrit_2016Worlds.png
+|checkboxAutoImage=No
+|country=Russia
+|residency=CIS
+|checkbox-res=No
+|birth_date_year=1995
+|birth_date_month=October
+|birth_date_day=03
+|favchamp=Brand
+|favchamp2=Bard
+|checkbox1=No
+|checkboxComp=No
+|ids=RemoveDinamicQ, Ozumandis II (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/likkrit
+|vk=https://vk.com/likkritstream
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxPrev=Yes
+|prev1=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Likkrit competed on several high-level teams in the CIS region before the establishment of the official regional top-level league in the [[LCL/2016_Season/Spring_Season|2016 Spring LCL]]. After joining [[Hard Random]] (later [[Albus NoX Luna]]) in late 2015, he participated in two dominating splits, achieving two first-place finishes in [[LCL/2016_Season/Spring_Playoffs|Spring]] and [[LCL/2016_Season/Summer_Playoffs|Summer]]. By finishing in the top two in the [[2016_International_Wildcard_Qualifier|2016 Wildcard Qualifier]], Likkrit and Albus NoX Luna moved on to compete in the [[2016 Season World Championship]]. 
+
+At the world championship, Likkrit gained international attention by playing an extremely aggressive Brand and Tahm Kench support in massive upsets against some of the best teams of the year, including LCK First seed [[ROX Tigers]]. Likkrit became the public face of ANX after giving a slew of interviews to eSports journalists. 
+
+After finishing second place in their group at Worlds, Likkrit and ANX were defeated in the quarterfinals by [[H2k Gaming]].
+
+On December 16, 2017, Likkrit retired from competitive League of Legends after he was suspended for six months.<ref name="LikkritRetires">[https://vk.com/wall-73341310_36592 Likkrit's Post (Russian)] ''vk.com''</ref><ref name="LikkritSuspended">[http://ru.lolesports.com/articles/931 Дисциплинарное решение: Кирилл «Likkrit» Малофеев (Russian)] ''lolesports.com''</ref>
+
+== Trivia ==
+* Achieved rank 1 on the EU West server in the 2015 Season.
+* Known for his {{ci|Brand}}. 
+* Reached Play-off at Worlds 2016 with ANX
+*Got married on [https://www.instagram.com/p/CRlzO5GLUei/?utm_medium=copy_link July 21, 2021]
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+File:ANX Likkrit.png|ANX Likkrit Summer 2016
+File:Likkrit.jpg|HR Likkrit
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,126 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hanwha%20Life%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.251Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hanwha Life Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= Hanwha Life Esports
+|orgcountry= South Korea
+|country=
+|region= Korea
+|sponsor=[https://www.hanwhalife.com/ Hanwha Life]<br>[https://www.monsterenergy.com/ MONSTERENERGY]<br>[https://wb-play.co.kr/ WILLBE PLAY]<br>[https://www.razer.com/ Team Razer]<br>[https://www.brooksbrothers.com/ Brooks Brothers]<br>[https://www.rockport.com/ Rockport]
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= https://hle.kr/en
+|youtube= https://www.youtube.com/channel/UCrfB1-zWijAYkgfZW7Ehc8Q
+|facebook= https://www.facebook.com/HLE.lol
+|twitter=HLEofficial
+|instagram= hle.official
+|discord= 
+|snapchat= 
+|tiktok= hle.official
+<!-- History -->
+|created= 2018-04-15
+|disbanded= 
+|rosterphoto= 
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''Hanwha Life Esports''' is a Korean team owned by '''Hanwha Life Insurance Co., Ltd.'''.
+
+== History ==
+On 15th April 2018, Hanwha Life Esports acquired the roster and LCK slot from [[ROX Tigers]]. 
+
+=== 2018 Season ===
+Hanwha's [[LCK/2018_Season/Summer_Season|Summer Split]] went about as it could be expected from the roster that finished with an even record in 6th place during Spring Split but they once again barely missed out on playoff participation because they had a worse game score than [[Afreeca Freecs]] and due to also missing the championship points for [[LCK/2018_Season/Regional_Finals|Regional Finals]] their season ended early.
+
+For the [[2018 LoL KeSPA Cup]] they already used their new roster and were placed in the first round where they faced the amateur team [[Seoul]] and surprisingly lost the series 1-2.
+
+=== 2019 Season ===
+Going into the 2019 Season HLE replaced [[Lindarang]] and [[SeongHwan]] with [[Thal]] from [[SK Telecom T1]] and [[Bono (Kim Gi-beom)|Bono]] from relegated [[bbq Olivers]]. They also picked up [[Tempt]] from bbq and [[Moojin]] from [[Flash Wolves]] as substitutes for midlane and jungle, respectively. After another consistent [[LCK/2019_Season/Spring_Season|Spring Split]] they ended up losing out on playoff participation by losing 4 of their 5 last series which were all against the top teams of the league.
+
+HLE continued with the same 7-man roster for [[LCK/2019 Season/Summer Season|Summer Split]] but due to the resurgence of Afreeca and Gen.G they fell to the bottom of the standings alongside SKT and Jin Air. After five weeks of play the coaching staff decided to sub in Tempt in the mid lane and to mostly stick with SoHwan and bonO in top and jungle. This brought them some quick success and after two surprising upsets against SKT and Damwon, it looked like they had managed to avoid dropping into the promotion tournament. This was until on the last week KT upset KZ before HLE lost their match against Sandbox 1-2 which meant 9th place in the regular season and fighting for the spot. In the promotion tournament, they lost 1-2 against [[APK Prince]] in Round 1 but secured themselves a chance at remaining in LCK by beating [[Team Dynamics]] 3-1 in Elimination Match. In the second Qualifying Match they faced Jin Air to determine which team stays in LCK and like in regular season HLE showed that they are a superior team and clean swept the series which relegated Jin Air to Challenger Scene.
+
+Following the worst split they rebuilt their roster around mid laners Tempt and Lava. After they first announced head coach [[Kezman]] and coach [[NoFe]] they followed this up a few weeks later with the signings of [[CuVee]] from Gen.G, SKT substitute jungler [[Haru]], former KT bot laner [[Zenit]] and support players [[Lehends]] from Griffin and [[Vsta]] from Brion Blade.
+
+=== 2020 Season ===
+For [[2019 LoL KeSPA Cup]] they played with Lava as bot laner and managed to reach quarterfinals by sweeping challenger team [[ESports Connected]] and KT Rolster. There were beaten 1-2 in a series with very one-sided games.
+
+Going into LCK [[LCK/2020 Season/Spring Season|Spring Split]] Vsta had swapped from support to bot laner and they had a good first match in which they managed to beat T1 but lost to Afreeca after that. Following another two 1-1 weeks with losses to the top teams they dropped off losing series they should be able to win and ended the first half at 3-6 in 7th place. Following a break due to the [[2019–20 Coronavirus Pandemic]] they managed to upset both [[DragonX]] and Gen.G but lost most of their matches against their direct competition and only barely avoided having to play another relegation tournament.
+
+Following this split Tempt left the team.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||kr|Yeo Seung-joo (여승주)|'''Chief Executive Officer'''}}
+{{listplayersp||kr|Kim Seong-hoon (김성훈)|'''General Manager'''}}
+{{listplayersp||kr|Kim Sang-ho (김상호)|'''Director'''}}
+{{listplayersp||kr|Kang Tae-woo (강태우)|'''Manager'''}}
+{{listplayersp|hAK|kr|Moon Hyun-hak (문현학)|'''Manager'''}}
+{{listplayer|Homme|kr|Yoon Sung-young (윤성영)|'''Head Coach'''}}
+{{listplayer|Mowgli|kr|Lee Jae-ha (이재하)|'''Coach'''}}
+{{listplayer|Sin (Yeon Hyeong-mo)|kr|Yeon Hyeong-mo (연형모)|'''Coach'''}}
+{{listplayer|Smeb|kr|Song Kyung-ho (송경호)|'''Streamer'''}}
+{{listplayersp|Vcha|kr|Kim Ju-won (김주원)|'''Streamer'''}}
+{{listplayersp||kr| Lee Chae-young (이채영)|'''Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|sayho|kr|Park Se-ho (박세호)|'''Scout'''|newteam=none}}
+{{listplayer|DanDy|kr|Choi In-kyu (최인규)|'''Head Coach'''|newteam=Nongshim RedForce}}
+{{listplayer|Shine (Shin Dong-wook)|kr|Shin Dong-wook (신동욱)|'''Coach'''|newteam=Weibo Gaming}}
+{{listplayer|Bibra|kr|Kim Hyun-sik (김현식)|'''Analyst'''|newteam=none}}
+{{listplayer|Polt|kr|Choi Seong-hun (최성훈)|'''Leader of Analysis Unit'''|newteam=none}}
+{{listplayer|Kezman|kr|Son Dae-young (손대영)|'''General Manager'''|newteam=IG}}
+{{listplayer|Key|kr|Kim Han-gi (김한기)|'''Coach'''|newteam=hle.c}}
+{{listplayer|SuDal|kr|Kim Sung-jin (김성진)|'''Coach'''|newteam=Fukuoka SoftBank HAWKS gaming}}
+{{listplayer|Shy|kr|Park Sang-myeon (박상면)|'''Streamer'''|newteam=Riot Games Inc.}}
+{{listplayer|Bibra|kr|Kim Hyun-sik (김현식)|'''Analyst'''|newteam=hle|comment=Coach}}
+{{listplayer|Heart|kr|Yi Gwan-hyung (이관형)|'''Coach'''|newteam=ThunderTalk Gaming}}
+{{listplayer|MadLife|kr|Hong Min-gi (홍민기)|'''Streamer'''|newteam=Riot Games Inc.}}
+{{listplayer|Max (Jeong Jong-bin)|kr|Jeong Jong-bin (정종빈)|'''Coach'''|newteam=Hanwha Life Esports Challengers}}
+{{listplayer|NoFe|kr|Jeong No-chul (정노철)|'''Coach'''|newteam=Riot|comment=Caster}}
+{{listplayersp||kr|Park Chan-hyeok (박찬혁)|'''General Manager'''|newteam=none}}
+{{listplayer|Sake (Lee Jung-hyeok)|kr|Lee Jung-hyeok (이중혁)|'''Coach'''|newteam=none}}
+{{listplayersp||kr|Jeong Hae-seung (정해승)|'''General Manager'''|newteam=none}}
+{{listplayer|LinLan|kr|Ho Jin-seok (호진석)|'''Coach'''|newteam=Spear Gaming}}
+{{listplayer|OnAir|kr|Kang Hyun-jong (강현종)|'''Head Coach'''|newteam=DetonatioN FocusMe}}
+{{listplayer|Woong (Jang Gun-woong)|kr|Jang Gun-woong (장건웅)|'''Coach'''|newteam=none}}
+{{listplayer|Emperor (Kim Jin-hyun)|kr|Kim Jin-hyun (김진현)|'''Coach'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+===Images===
+<gallery>
+Hanwha_2019Spring.jpg|LCK 2019 Spring Roster
+2020 HLE Spring.jpg|LCK 2020 Spring Roster
+2020 HLE Summer.png|LCK 2020 Summer Roster
+2021 HLE Spring.jpg|LCK 2021 Spring Roster
+2022 HLE Spring.png|LCK 2022 Spring Roster
+2024 HLE Spring.jpg|LCK 2024 Spring Roster
+2025 HLE Cup.jpg|LCK 2025 Roster
+Hanwha Life 2025 FST.jpeg|HLE 2025 FST
+</gallery>
+
+=== References ===
+<references />

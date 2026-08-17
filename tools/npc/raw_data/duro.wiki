@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Duro&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.406Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Duro」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Duro
+|name=Joo Min-kyu
+|nativename=주민규
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2002
+|birth_date_month=February
+|birth_date_day=04
+|favchamp=Alistar
+|favchamp2=Leona
+|favchamp3=Nautilus
+|favchamp4=Rakan
+|checkbox1=Yes
+|favchamp5=Bard
+|favchamp6=Neeko
+|favchamp7=Rell
+|favchamp8=Braum
+|compID1=Utility
+|checkboxComp=No
+|ids='''KR:''' Duro#Gen <br> '''NA:''' 안녕 캐나다#캐나다<br>'''BR:''' Rio de Janeiro#브라질
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/jmg3495
+|twitter=Duro0204
+|instagram=kr_duro
+|deeplol=https://www.deeplol.gg/pro/Duro
+|dpmlol=https://dpm.lol/pro/Duro
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Utility'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* LCK 1st All-Pro Team x1 (LCK 2025)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

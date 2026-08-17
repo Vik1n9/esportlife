@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Promisq&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.726Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「promisq」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=promisq
+|name=Hampus&nbsp;Mikael Abrahamsson
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Sweden
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=March
+|birth_date_day=4
+|favchamp=Morgana
+|favchamp2=Janna
+|favchamp3=Nami
+|favchamp4=Leona
+|checkbox1=Yes
+|favchamp5=Lulu
+|favchamp6=Zilean
+|compID1=sprattel
+|checkboxComp=No
+|ids='''EUW:''' AST promiscuous, Eddie Vedder Jr<br>'''KR:''' King Abrahamsson
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/promisqxd
+|facebook=https://www.facebook.com/sprattel.LOL
+|twitter=promisqxd
+|lolpros=https://lolpros.gg/player/promisq
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''sprattel'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Hampus "'''Promisq'''" Abrahamsson is from Stockholm, Sweden. He spent some time in Oslo, Norway, before moving to Berlin, Germany. Prior to League of Legends, he played CS 1.6, Heroes of Newerth, World of Warcraft, and CS:GO. Prior to playing League of Legends professionally, he played on a Challenger team called '''Inferno Esports'''.
+
+===2015 Season===
+Promisq joined [[Elements]] in May 2015, prior to the start of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. He was announced as part of a new line-up for the team including [[Jwaow]], [[dexter]], [[Froggen]], and [[Tabzz]] - only Froggen remained from their [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]]'s roster.<ref> [http://www.facebook.com/Elementsgg/posts/726955550749046 Elements's Facebook Post] ''facebook.com''</ref> The [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]] was disappointing for the team, with Promisq being replaced by the team's coach and former support, [[Nyph]], after just four weeks of the split.
+
+===2016 Season===
+Promisq renamed to '''sprattel''' and stayed with Elements for the [[League Championship Series/Europe/2016 Season/Spring Season|2016 spring season]], moving back to being their starting support while Nyph became the team's head coach. Elements's roster for the 2016 season seemed weak to fans, and many expected them to be relegated; however, they were able to hang on to seventh place for the majority of the split to automatically requalify for the [[League Championship Series/Europe/2016 Season/Summer Season|summer split]] without seeing any post-season play.
+
+== Trivia ==
+* Played NHL/FIFA before moving to computer games.
+* Enjoys playing ice hockey.
+* Memed while a substitute on [[G2]] for having "won" two LEC titles and [[MSI 2019]] despite only playing in two regular season games, after photos of him lifting the trophy began to circulate. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

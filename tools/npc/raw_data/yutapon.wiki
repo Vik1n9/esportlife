@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yutapon&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.590Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yutapon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Yutapon
+|name=Yuta Sugiura
+|nativename=杉浦 悠太
+|namealphabet=Kanji
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Japan
+|residency=PCS
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=10
+|checkbox1=No
+|checkboxComp=No
+|ids='''JP:''' yutaZz<br>'''KR:''' QQ5361451<br>용서해줘때리지마<br>Two Tlme<br>Imaokai<br>'''EUW:''' 4g1v3ngr3<br>exec cosmoflips<br>2021Worlds0100<br>CLG Chauster
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/yutapongo
+|twitter=yutapongo
+|askfm=yutapongo
+|youtube=https://www.youtube.com/@yutapongo
+|lolpros=https://lolpros.gg/player/yutapon
+|deeplol=https://www.deeplol.gg/pro/Yutapon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* He and his longtime teammate [[Ceros]] have the distinction of being tied for the second-longest continuous tenure of any player with a single organization, behind only [[Faker]], who joined [[SK Telecom T1 2]] a month and a day before the two of them joined DetonatioN FocusMe.
+* He has an excellent sense of gaming. Specifically, he has reached Radiant in valorant, Global Elite in CSGO, and the top of the Japanese leaderboard in Overwatch.
+* He is well-known for his unique posture while playing, resulting in his face often being very close to the camera.
+* He has won the most domestic championships of any player in Asia, with 16 as of 2026.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

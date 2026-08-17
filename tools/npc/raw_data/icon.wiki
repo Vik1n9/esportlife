@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ICON&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.015Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「icon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=ICON
+|name=Xie Tian-Yu
+|nativename=谢天宇
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1996
+|birth_date_month=May
+|birth_date_day=22
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' glockinmylap<br>'''EUW:''' Goldguns88
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/8682569
+|weibo=https://weibo.com/n/%E5%B3%A1%E8%B0%B7%E5%A4%A9%E5%A4%A9
+|deeplol=https://www.deeplol.gg/pro/icon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+Icon joined OMG in December of 2015. He didn't play in 2016 however. In 2017 after Cool left OMG, Icon became the primary mid laner for the team. In the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]], OMG finished 2nd with a 9-7 record. They went into the [[LPL/2017_Season/Spring_Playoffs|playoffs]] with a lot of momentum and achieved a respectable 4th place finish after a 2-3 loss to EDG in the third place match. This performance did carry over initially in the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] as OMG once again finished 2nd in their group with a 10-6 record. Their [[LPL/2017_Season/Summer_Playoffs|playoffs]] performance however wasn't so stellar. The team lost 1-3 to Invictus Gaming in their first match and was quickly knocked out of playoffs. The [[2017 Season China Regional Finals]] gave OMG one final chance to qualify for Worlds but the team got swept 0-3 in the first round by Invictus Gaming. This ended their 2017 season.
+
+== Trivia ==
+* Known to be the best {{ci|Ahri}} player in Chinese server in 2015.
+* Known to be from a rich family.
+** Established a clothes brand after retirement.
+* Understands English, which is rare for Chinese players.
+* Reached 1000 kills in the LPL on March 24, 2019.
+** The 18th player to reach 1000 kills in the LPL.
+* Reached 1500 Kills in the LPL on June 15, 2021.
+** The 12th player to reach 1500 Kills in the LPL.
+* Reached 500 games in the LPL on August 08, 2022
+** The 15th player to reach 500 games in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[meiko]], [[Rookie]], [[xiaohu]], [[Xiye]], [[Flandre]], [[Smlz]], [[Doinb]], [[Scout]], [[cold]], [[Ming (Shi Sen-Ming)|Ming]], [[Sofm]], [[Lwx]], and [[Crisp]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bay&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.137Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bay」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Bay
+|name=Park Jun-byeong
+|nativename=박준병
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2002
+|birth_date_month=February
+|birth_date_day=19
+|checkbox1=No
+|compID1=jjun
+|compID2=zzun
+|checkboxComp=No
+|ids='''KR:''' 쭌 베, 에스카노르 킹
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/zunebay
+|instagram=lol_bay02
+|youtube=https://www.youtube.com/channel/UCO8ToDSM2Gvt3EZdOdosxTw
+|deeplol=https://www.deeplol.gg/pro/Bay
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''jjun''' and '''zzun'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

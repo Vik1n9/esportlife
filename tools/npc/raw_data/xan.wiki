@@ -1,0 +1,54 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Xan&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.922Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Xan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Xan
+|orgcountry=
+|country= Singapore
+|region= Southeast Asia
+|sponsor= 
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= 
+|youtube= 
+|facebook= 
+|twitter= 
+|discord= 
+|snapchat= 
+|instagram= 
+<!-- History -->
+|created= 
+|disbanded= 
+}}{{TOCRWI}}
+
+'''Xan''' was a Singaporean team. It is best known for competing in [[Worlds Season 1]]. The team was named after the infant son of the team's support, [[iNtrigueD]].
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+<!--===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|InGameName|us|RealName|'''Manager'''}}
+{{listplayersp|InGameName|us|RealName|'''Head Coach'''}}
+{{listplayersp|InGameName|us|RealName|'''Coach'''}}
+{{listplayer/End}}
+-->
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

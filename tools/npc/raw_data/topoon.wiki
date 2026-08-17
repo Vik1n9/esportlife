@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Topoon&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.784Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Topoon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Topoon
+|name=Kim Ji-hoon
+|nativename=김지훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Korea
+|residency=Korea
+|birth_date_month=January
+|birth_date_day=26
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Babo Beongsin JH<br>'''EUW:''' Richard Su
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/topoon5
+|twitter=Topoon5
+|lolpros=https://lolpros.gg/player/topoon/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Has the same real name as [[KING (Kim Ji-hoon)|KING]] and [[Ace (Kim Ji-hoon)|Ace]].
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

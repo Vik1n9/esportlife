@@ -1,0 +1,64 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=DeuL&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.720Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「DeuL」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=DeuL
+|name=Kim Deul
+|nativename=김들
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=September
+|birth_date_day=25
+|checkbox1=No
+|compID1=Sleek
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/flowtwins
+|facebook=https://www.facebook.com/flowtwins
+|deeplol=https://www.deeplol.gg/pro/DeuL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Sleek'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+|prev2=Bot
+|prev3=Mid
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

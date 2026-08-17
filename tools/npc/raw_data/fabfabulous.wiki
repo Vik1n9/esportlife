@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FabFabulous&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.014Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「fabFabulous」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=fabFabulous
+|name=Asım&nbsp;Cihat Karakaya
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=February
+|birth_date_day=15
+|favchamp=Gangplank
+|favchamp2=Aatrox
+|favchamp3=Kennen
+|favchamp4=Kha'Zix
+|checkbox1=No
+|checkboxComp=No
+|ids=FABFABFAB (EUW),<br>noskillonlyluck (EUW),<br>ehehehehe (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/fabulousn
+|facebook=https://www.facebook.com/fabulous.lol
+|twitter=fabFabulousN
+|instagram=asimcihat
+|youtube=https://www.youtube.com/channel/UC6I354D5k4Lzrwcreoh7Blg
+|discord=https://discord.com/invite/zsGJZfgaPG
+|lolpros=https://lolpros.gg/player/fabfabulous/
+|deeplol=https://www.deeplol.gg/pro/fabFabulous
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Coach
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* His favorite anime is ''[[wikipedia:en:Hunter_%C3%97_Hunter|Hunter × Hunter]]''.
+* Is one of the most successful players in Turkey, having won 10 domestic championships.
+* Nicknamed '''fabfab''' by his fans.
+* Scored a pentakill with {{ci|Kha'Zix}} during a game against [[paiN Gaming]] in the [[Gamescom 2013/International Wildcard Tournament|Riot Season 3 International Wildcard Tournament]].
+* His favourite animals are cats.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

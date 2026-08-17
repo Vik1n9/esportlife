@@ -1,0 +1,184 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Darien&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.719Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Darien」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Darien
+|name=Evgeny Mazaev
+|nativename=Евгений Мазаев
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1991
+|birth_date_month=March
+|birth_date_day=22
+|favchamp=Shen
+|favchamp2=Jax
+|favchamp3=Aatrox
+|favchamp4=Shyvana
+|checkbox1=Yes
+|favchamp5=Renekton
+|favchamp6=Xin Zhao
+|favchamp7=Warwick
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/darienlol
+|lolpros=https://lolpros.gg/player/darien
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=No
+}}
+==Biography==
+Darien hails from Voronezh, Russia. He started in the competitive scene after brief stints playing with MTG, where he met future teammates [[Alex Ich]] and [[Genja]]. 
+
+==== Pre Season 2 ====
+He started making headway though in the scene when joining [[Team Empire]] as their Top Laner in late 2011, who made a large splash at [[IEM Season VI - Global Challenge Kiev/Qualifiers|IEM Season VI Qualifiers]], winning it to be invited to play at [[IEM Season VI - Global Challenge Kiev]] but also due to making a now famed highlight vs [[SK Gaming]], which gave birth to the meme and saying of players shouting "EMPIRE!". <ref> [http://www.youtube.com/watch?v=e89llah-u3s League of Legends ~ #03 - Empire's Epic Combo Vs. SK Gaming] ''youtube.com'' </ref>
+
+==== Season 2 ====
+Darien with the rest of Team Empire were recruited by organization [[Moscow Five]] in December 2011. Their first major appearance would be at the [[IEM Season VI - Global Challenge Kiev]] on January 19, 2012. It would be here that Moscow 5 would make a name for themselves internationally, as they had little fame prior to IEM Kiev. At the event, Moscow 5 would show a dominant performance, going undefeated in group stage against [[Dignitas]], [[against All authority]], and [[Sypher]]. <ref> [http://www.esl-world.net/masters/season6/kiev/lol_groupstage/ IEM Kiev 2012 Group Stage Results] ''esl-world.net''</ref> Taking first by going 3-0 in the group stage, Darien and team would advance to the playoffs where they would take the series 2-0 against [[SK Gaming]]. Moving to the finals, Moscow 5 would defeat North American powerhouse [[Team SoloMid]] 2-1, dropping their only game of the tournament against Team SoloMid. <ref> [http://www.esl-world.net/masters/season6/kiev/lol/playoffs/rankings/ IEM Kiev 2012 Playoff Results] ''esl-world.net''</ref>
+
+On January 31, 2012, Darien with company would compete in the online [[Kings of Europe]] tournament. Once again showing their strength, they would go undefeated in the group stage, defeating [[SK Gaming]], [[exGBT]], and [[Team Mistral]]. <ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html#page-1 Kings of Europe 2012 Group A Results] ''fnatic.com''</ref> Advancing to the playoffs, they would go on to defeat French team [[Sypher]] 2-1 in the semifinals. In doing so, Moscow 5 would face off against European favorite [[Counter Logic Gaming EU]] in the finals, where they would fall 1-2. <ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html Kings of Europe 2012 Playoff Results] ''fnatic.com''</ref>
+
+On March 10, 2012, M5 would attend the [[IEM Season VI - World Championship]] in Hanover. Reproducing their results from Kiev, Moscow 5 once again went undefeated in group stage 5-0, defeating [[SK Gaming]], [[Team Curse]], [[Team SoloMid]], [[Team Sypher]], and [[EHome]]. <ref> [http://www.esl-world.net/masters/season6/hanover/lol_groupstage/ IEM Hannover 2012 Group Results] ''esl-world.net''</ref> Darien would play a crucial role in the top lane to assist his team and continue their win streak in the playoff bracket, beating [[Counter Logic Gaming Prime]] 2-0 in the semifinals and defeating [[Dignitas]] 2-0 in the finals to take home first place. <ref> [http://www.esl-world.net/masters/season6/hanover/lol/playoffs/rankings/ IEM Hannover 2012 Playoff Results] ''esl-world.net''</ref> This tournament would mark a high point in Moscow 5's history, as they were able to come out of the tournament not only victorious, but were able to do so while not dropping a single game throughout the entire competition.  
+
+His team's next high placing at a major tournament would be at the online [[Corsair Vengeance Cup]]. Coming out of the group stage of the tournament 2-1, Moscow 5 had a strong run in the playoffs, defeating Hauteur 8, Intent Gaming, Team Redbyte Italia, and [[Meet Your Makers]] in the first four rounds of the playoff bracket, before falling to against [[aAa]] 0-2 in the second phase of the winner's bracket, knocking the Russian team down to the loser's bracket. Moscow 5 would face off against Team SoloMid in their first match of the loser's bracket, in which the Russian team would come out victorious 2-1. They then faced and defeated SK Gaming 2-0 in the next round of the loser's bracket, which put them up to face against aAa once again. This time the team would come out victorious, defeating aAa 2-0, which put the team up against Counter Logic Gaming EU in the grand finals of the Corsair Vengeance Cup. Unfortunately, Moscow 5 would fall short to CLG.EU 0-2, losing to the team once again in a finals setting, taking home second place. <ref> [http://vengeance-cup.corsair.com/?page=tournament&action=view&tournament_id=1654 Corsair Vengeance Cup 2012 Playoff Results] ''vengeance-cup.corsair.com''</ref>
+
+On June 16, Darien and comrades would attend [[DreamHack Summer 2012]] after taking second at the online qualifiers. Moscow 5 would take second in group stage going 2-1, defeating [[Absolute Legends]] and Mebdi's Minions, but losing to Counter Logic Gaming EU. Advancing to the semifinals, Moscow 5 would face off against [[Team Curse Europe]], where the Russian team was able to come out ahead 2-0, advancing them to the grand finals of DreamHack Summer 2012. At the finals, Moscow 5 would play against familiar opponent, Counter Logic Gaming EU, where they would fall 0-2. <ref> [http://tournaments.leagueoflegends.com/dreamhack-2012#tournament-bracket Dreamhack 2012 Results] ''tournaments.leaugeoflegends.com''</ref>
+
+Darien and Moscow 5 attended [[European Challenger Circuit: Poland]] after qualifying online with a 2-0 victory over CLG.EU sending them to the loser's bracket. This would mean that the teams shall meet again in the group stage, where Moscow 5 took second place going 2-1, defeating [[EloHell]] and Ocelote World ([[x6tence]]) while losing a game to CLG.EU. In the semifinals, Moscow 5 had a strong showing defeating Curse EU 2-0, going with a perfect 15-0 score in the second game. At the finals, Moscow 5 would meet their rivals CLG.EU once again. After having a 0-4 record against them in lan events, Darien with his team were able to claim their revenge with a commanding 2-0 victory making them the ECC Poland champions. <ref> [http://tournaments.leagueoflegends.com/ecc-poland#tournament-bracket ECC:Poland 2012 Results] ''tournaments.leagueoflegends.com''</ref>
+
+As one of the eight European invitees for the [[Season Two/Regional Finals - Cologne|Season Two Regional Finals - Cologne]], Moscow Five would fly out to Germany for a chance to qualify for the [[Season 2 World Championship]]. Matched up against the recently formed Polish team [[EloHell]], Moscow Five would take a 2-0 victory to advance to the second round of the playoffs. There, Moscow Five was able to come out victorious against [[Fnatic]] in a close 2-1, qualifying for the Season 2 World Championship in Los Angeles and advancing to the grand finals of the tournament. Continuing their dominant performance, Darien would help win the finals 2-0 against SK Gaming. <ref> [http://us.esl.tv/iem/ IEM Gamescom 2012 Results] ''esl.tv''</ref>
+
+At the [[Season 2 World Championship]] in October, Darien with his teammates were considered by many analysts and professionals to be the favorites coming into the event. <ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref> They were was given a bye through the group stage and were selected to face [[Invictus Gaming]] in their quarterfinal match. Although iG consistently pressured M5's early game and won the laning phase, the Russian squad was able to overcome their deficits in the midgame and take the series 2-0. Advancing to face the [[Taipei Assassins]] in the semifinals, M5 continued their dominant form in the first game of the match and quickly secured game one. However, TPA matched M5's aggression in the next two games and successfully turned the series around. The Taiwanese team took the set 2-1, and Moscow Five was forced to settle for 3rd-4th place and $ 150,000.
+
+==== Pre-Season 3 ====
+After the Season 2 Championships, Darien's team would attend the European tournament [[Tales of the Lane]] from October 27 through November 11, 2012. They would emerge as first in their group stage 3-1, with wins against [[Curse EU]], [[Eclypsia]] and [[MYM]], but losing to the hungry [[IWantCookie]]. They were granted seeding directly into the semi-finals due to their placing in the group stages. On November 11 M5 would travel to Paris to compete in the offline portions of the tournament. There they would face an upset from Curse EU, knocking them into the third-place match losing 0-2. They would finish the tournament with a sweep of [[SK Gaming]], taking 3rd and €5,000 in winnings.
+
+On November 22, 2012, Moscow 5 had the great opportunity to fly to Shanghai to attend the [[Tencent Games Arena Grand Prix/Winter 2012| TGA Winter 2012]] event. While not contestants of the tournament itself, the team would look to boost their popularity with the Chinese tour, doing photo ops, fan signings and Mandarin greeting videos<ref name="M5 in China">[http://moscowfive.ru/en/news/m5-benq-s-world-tour M5.BenQ's World Tour]</ref><ref name="M5 and Chinese fans">[http://lol.uuu9.com/201211/426206.shtml M5中国表演赛前训练视频：用中文向大家问好]</ref>. M5 also played two show matches against [[WE]] and [[iG]], winning against both. They would leave China on November 27, flying directly to Las Vegas to attend [[IPL 5]].
+
+On Day 1 of the IPL event, Darien and M5 would advance through the group stages by defeating [[Team Curse]] twice and dropping a game to world champions, [[Taipei Assassins]]. They would then face [[Team WE|World Elite]] which they scrimmed against heavily in Shanghai. However, WE would rout the Russian team 2-0, dropping them to the losers bracket. M5 would then defeat the tournament favorites, Korean powerhouse [[Azubu Blaze]] in a close 3 game series. M5 would get a chance to revenge their loss in the [[Season 2 World Championship]] against in TPA in round 5. Despite [[Alex Ich]] amassing an amazing 538 creep score and leading in gold to the very end of the game, M5 would still fall to the Taiwanese team in game 1, and lose again to [[Stanley]] on [[Nidalee]] in game 2, making it five consecutive loses to TPA. M5 would finish the tournament at 4th place and earn $3,000 in winnings.
+
+On January 10, 2013, resultant of the arrest of Moscow Five's CEO in July of the previous year leaving the organization with a lack of funding, the League of Legends roster was released from the eSports organization as it went defunct.<ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref>
+
+==== Formation of Gambit Gaming ====
+Four days later, on January 14, it was announced that [[Gambit Gaming]] had acquired Darien and the rest of the former M5 roster.
+
+==== Pre-Season 3 ====
+Marking their first appearance in an offline event as [[Gambit Gaming]], in late January of 2013, the Russian team would compete in [[IEM Season VII - Global Challenge Katowice]] as one of the eight qualified teams. Gambit Gaming would go 1-2 in the group stage, winning against [[MYM]], while losing to [[Team Curse Europe]] as well as [[Azubu Blaze]]. Because of this, the round robin had a tie of MYM, Gambit, and Crs, who all went 1-2. A time coefficient was used to break the tie though, giving Gambit Gaming a spot in the semi-finals. Darien would help to defeat [[Azubu Frost]] as the underdogs 2-0, then go on to take first place by knocking out Frost's brother team, [[Azubu Blaze]] who they had lost to in the group stage. Gambit Gaming takes home $15,000 USD (~11,609 Euros) as well as a direct seed into  IEM World Championship.
+
+=== Season 3 ===
+===== Spring EU LCS =====
+Having qualified as [[Moscow Five]], Darien and company would compete in the Riot's new professional league for Season 3, the [[Riot League Championship Series/Europe/Season 3|European Season 3 League of Legends Championship Series]]. Gambit would be a highly respected threat throughout the 10 week Spring league, being one of the most feared to play. They would complete the European Spring LCS Split 2nd place, with a record of 21-7. This ensured their LCS spot for the summer split portion of the league. They would then take second place in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Season 3 EU Spring Playoffs]], losing 2-3 to [[Fnatic]].
+
+===== IEM World Championship =====
+Gambit with Darien attended the [[IEM Season VII - World Championship]] in Hannover, Germany held in March. The team dominated their group, going an undefeated 5-0, placing them in the semi-finals. They then faced [[CJ Entus Frost]] and lost the set 2-1, knocking Gambit out of the tournament and ending the team in 3rd. 
+
+===== MLG Winter Championship =====
+The Russian players were then invited to play in an international exhibition at [[2013 MLG Pro Circuit/Winter/Championship|2013 MLG Winter Championship]], playing first against American [[Team Dignitas]], and won 2-0, constantly pressuring the opponent. Gambit faced Korean top contender [[KT Rolster B]] in the exhibition finals but were unable to secure 1st place, losing 2-1.
+
+===== Summer EU LCS =====
+Darien qualified to the [[Season 3 World Championship]] with his team [[Gambit Gaming]], finishing 3rd in the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Summer Playoffs]].
+
+== Trivia ==
+* Despite living in Russia, he was never a CIS resident officially because by the time residency rules were introduced he declared European residency.
+* Known for his {{ci|Gangplank}} and {{ci|Shyvana}} play in Top Lane.
+* Known for pioneering new champions in Top Lane such as {{ci|Fiora}} and {{ci|Shyvana}}.
+* His favorite champion was {{ci|Kayle}} before her remake.
+* Considers {{ci|Xin Zhao}} to be his best champion. <ref name="test">[http://www.youtube.com/watch?v=4R1LsLXS1Sc#t=01m19s TotL Interview with M5].</ref>
+* Popularized {{ci|Renekton}} into competitive play after [[IEM Season VII - Global Challenge Katowice]], and now is his favorite champion.
+* One of the first players introducing {{ci|Malphite}} in the competitive scene back in season 2.
+* Used to have a Tier list in a blog. <ref>[http://leagueguide.blogspot.com/2011/01/darien-tier-list.html Darien Tier List 1.0.0.111 Ranked 5x5 (remake)]</ref>
+* Is good friends with everyone in his team, especially Alex and Genja.
+* Has popularized {{ci|Lissandra}} top.
+* Has been nicknamed "The Snakeman" by his team due to his facial expressions in-game.<ref>[http://www.youtube.com/watch?v=pxEqi_TwGxw&feature=youtu.be Darien, the Snakeman] video - YouTube</ref>
+* He is also known for strange builds that work very well in competitive matches.
+* Brought {{ci|Warwick}} back into the competitive scene when the champion was considered bad, ending with a great results.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2012
+|name2=2013
+|name3=2014}}
+{{TDRight|tab}}<!--2014-->
+* February 5 - [http://na.lolesports.com/articles/darien-forecasting-top-laner Darien - The forecasting top laner] ''with LoL eSports''
+{{TDRight|tab}}<!--2013-->
+* March 7 - [http://www.youtube.com/watch?v=qp7xTpNMKnw Gambit.Darien: "It's your personal play and team play which makes the difference" (@IEM CeBIT 2013) (video)] ''with GosuGamers''
+* August 30 - [http://www.youtube.com/watch?v=0glkIVhljxs Interview with Gambit Darien @ Gamescom 2013 (EN subs) (video)] ''with Gambit Gaming''
+{{TDRight|tab}}<!--2012-->
+* January 20 - [http://www.youtube.com/watch?v=mLQ8AMZcFzM IEM Kiev 2012: Интервью с M5-Darien (Russian Video)] ''with place2play.ru''
+* July 23 - [http://league-of-legends.place2play.ru/material?id=10163 "Я люблю войну" (Russian)] [http://www.reddit.com/r/leagueoflegends/comments/x0ym2/interview_with_m5_darien/ (English Translation)]''with place2play.ru''
+* August 19 - [http://www.youtube.com/watch?v=2QdDlNozHbI Gamescom 2012: Darien after the final (en subs 20.-21.08) (Russian Video)] [http://www.reddit.com/r/leagueoflegends/comments/yhs6g/m5_darien_gamescom_postfinal_interview/ (English Translation)] ''with Moscow Five''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

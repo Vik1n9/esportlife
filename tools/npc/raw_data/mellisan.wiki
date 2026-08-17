@@ -1,0 +1,125 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mellisan&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.563Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mellisan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Mellisan
+|name=Peter Meisrimel
+|image=Mellisan.jpg
+|checkboxAutoImage=No
+|country=Germany
+|residency=Europe
+|birth_date_year=1989
+|birth_date_month=June
+|birth_date_day=07
+|favchamp=Janna
+|checkbox1=No
+|checkboxComp=No
+|ids=Melissan (EUW) <br/> Fnatic Mellisan (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|reddit=MoonieXT
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|peakelo_euw=2225
+}}
+==Biography==
+Peter '''"Mellisan"''' Meisrimel is from Kassel, Germany. He started playing League of Legends in December of 2009.
+
+== Trivia ==
+* Renowned for his Janna play.
+* Was a professional player in Guild Wars before League of Legends. 
+* Retired to focus on university, studying Mathematics.
+* Introduced to [http://www.fnatic.com/content/95800 Fnatic's Hall of Fame] on November 12, 2013.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2011
+|name2=2012}}
+{{TDRight|tab}}<!--2012-->
+* February 27 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/958/Interview-with-Fnatics-support-Mellisan/ Interview with Fnatic's support, Mellisan] ''with Team Dignitas''
+* April 15 - [http://www.youtube.com/watch?v=2yOpdqBrCWU Interview with LaMia and Mellisan from FnaticRC LoL] ''with FnaticRC''
+* April 16 - [http://www.reddit.com/r/leagueoflegends/comments/sc9la/fnaticrcmellisan_in_korea_ama/ FnaticRC.Mellisan in Korea - AMA!] ''with Reddit''
+{{TDRight|tab}}<!--2011-->
+* May 26 - [http://eune.leagueoflegends.com/board/showthread.php?t=209666 <nowiki>[Dreamhack]</nowiki> Interviews] ''with BigBoss Cat''
+* August 11 - [http://www.fragster.de/de/esport/league-of-legends/artikel/11/08/lol-fnatic-mellisan-interview-uk.html Mellisan: "The IEM is more important than the WCG!"] ''with Fragster''
+* October 21 - [http://www.fragster.de/de/esport/league-of-legends/artikel/11/09/lol-mellisan-fnatic-interview.html Mellisan: "Es lief eigentlich alles wie geplant" (German)] ''with Fragster.de''
+** [http://www.absolutelegends.net/news/333/fnaticMSI-Mellisan--Interview English Translation via Absolute Legends]
+{{TDRight/end}}
+
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

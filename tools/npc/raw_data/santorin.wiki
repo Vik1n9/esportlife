@@ -1,0 +1,132 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Santorin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.242Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Santorin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Santorin
+|name=Lucas Tao Kilmer Larsen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=May
+|birth_date_day=6
+|favchamp=Lee Sin
+|favchamp2=Kha'Zix
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/santorin
+|facebook=https://www.facebook.com/SantorinLoL
+|twitter=Santorin
+|instagram=officialsantorin
+|youtube=https://www.youtube.com/channel/UCmAB8nAI6BbuwBiGkYIc5Xw
+|discord=https://discord.gg/V3axpdCYcV
+|lolpros=https://lolpros.gg/player/santorin
+|deeplol=https://www.deeplol.gg/pro/Santorin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Europe
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Santorin started playing video games when he was 4-5 years old. Before he went to League of Legends, he was a football player and a very good Counter Strike player. His League of Legends career started when he was searching for something new, after he got tired of Counter Strike, this was part way through season 2.
+
+===Season 3===
+Santorin joined [[Intellectual Playground]] halfway through the season, but chose to join [[Vengeance eSports]] soon after. Towards the end of the season, Santorin returned to Intellectual Playground, and got the chance to play in his first major tournament, [[DreamHack Winter 2013]] where he and the team came in 3rd, losing to [[SK Gaming]] in the semifinals. Santorin and the team also played in the [[WePlay LoL Invitational]], coming in 2nd behind the same SK Gaming lineup.
+
+===2014 Season===
+Santorin left [[Intellectual Playground]] at the start of the season in order to join [[The Fox Sound]]. With the team he competed in only minor tournaments, and managed to win the [[EUW Challenger Series/Week 17 Cup|Week 17 EUW Challenger Series Cup]]. After a few months, the team's roster departed from the organization to join [[TNP Gaming EU]], though Santorin and the team left soon after.
+
+After leaving TNP, Santorin went through a period where he subbed for [[Cloud 9 Eclipse]]. It was during this time that he was first noticed within the competitive scene. He competed with the team first at the [[Copenhagen Games 2014]], where they placed 2nd. He was then invited to play with the team in the [[Riot League Championship Series/Europe/2014 Season/Summer Promotion|LCS Summer Promotion]], though Santorin and the team lost to [[SUPA HOT CREW]] in their promotion match-up.
+
+Just a month later, Santorin joined NA-based [[Team Coast]]. His first test with the team was the [[2014 NA Challenger Series/Summer Series|Challenger Summer Series #1]], where they placed 1st, beating [[Team LoLPro]] in the final. Soon after this, Santorin and the team won [[2014 NA Challenger Series/Summer Series/Series 2|Challenger Summer Series #2]], this time beating [[Curse Academy]] in the final. Their performance in this tournament resulted in the team's qualification for the [[2014 NA Challenger Series/Summer Series/Playoffs|Challenger Summer Playoffs]]. Coast came in 3rd in the playoffs after beating [[Team LoLPro]] in the third-place match, meaning they had secured themselves a spot in the [[Riot League Championship Series/North America/2015 Season/Spring Promotion|LCS Spring Promotion]].
+
+Unfortunately for Santorin, Team Coast lost their promotion match-up against [[Evil Geniuses.NA]], though the team would still have another shot at qualifying for the LCS in the [[Riot League Championship Series/North America/2015 Season/Spring Expansion|Spring Expansion]]. Santorin also won [[National ESL Pro Series/Season X|Season X]] of the National ESL Pro Series during his time with Team Coast.
+
+On October 27, 2014, Santorin left Team Coast along with [[LOD]]; they were replaced by [[Impaler]] and [[Jesiz]]. On November 27, after an extended trial and rumors circulating that he was to join the team, [[Team SoloMid]] officially announced that Santorin would be their new starting jungler, replacing [[Amazing (Maurice Stückenschneider){{!}}Amazing]] after his departure from the team and his return to Europe in October.<ref>[http://www.newsoflegends.com/index.php/tsm-welcomes-santorin-30610/ TSM Welcomes Santorin] ''newsoflegends.com''</ref>
+
+===2015 Preseason===
+TSM were the North American team invited to [[IEM Season IX - San Jose|IEM San Jose]], the first event that Santorin played with the team. They were seeded directly into the semifinals, but unexpectedly lost 0-2 to [[Unicorns of Love]], who had just qualified for the [[Riot League Championship Series/Europe/2015 Season/Spring Season|European LCS]].
+
+===2015 Season===
+TSM began the [[Riot_League_Championship_Series/North_America/2015_Season/Spring_Season|2015 Spring Split]] with an 8-2 record after five weeks, holding first place during every week after the first. By virtue of their standing after the fifth week of the split, TSM was invited to the [[IEM Season IX - World Championship|IEM Season IX World Championship]]. There, they defeated [[Team WE]], [[CJ Entus]] (marking their first tournament win over a Korean team), and the [[yoe Flash Wolves]] to advance to the finals of the event, where they swept [[Team WE]] 3-0 to win the title. Though TSM themselves did not play against the [[GE Tigers]] at all (then undefeated in the [[SBENU Champions Spring 2015|LCK]]), or against any Korean team in a multi-game series, they still made history by being the first North American team to win an international event with Korean teams present since [[Chicks Dig Elo|Chicks Dig ELO]] at the [[2011 World Cyber Games]] and the first Western team to do so since [[Gambit Gaming]] at [[IEM_Season_VII_-_Global_Challenge_Katowice|IEM Katowice]] in 2013.
+
+TSM finished the spring season with a 13-5 record, giving them the top seed into the [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoffs]]. After defeating [[Team Impulse]] and then Cloud9, TSM won their third North American championship, tying Cloud9's record of most North American LCS championships won to date. Their victory also gave them the North American seed to the [[2015 Mid-Season Invitational]], where they looked to replicate their IEM success. However, the team underperformed in the group stage, winning only their match against wild card [[Beşiktaş e-Sports Club|Beşiktaş]] and not qualifying for playoffs.
+
+In the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]] of LCS, TSM started relatively strong, sitting at a 8-2 record at the end of week 5. However, they fell to fifth place by week 9, their [[LCS Teams Timeline|lowest regular-season placement to date]]. In the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]], TSM beat [[Gravity Gaming]] and Team Liquid in the first two rounds, winning both series 3-1. In the finals, held at Madison Square Garden in New York City, they faced off against long-time rivals CLG and lost in a convincing 3-0 series. TSM had already qualified for [[2015 Season World Championship|Worlds]] after their semifinal win due to their [[2015 Season/Championship Points|Championship Points]] from the spring split, and they ended up with the second seed from North America.
+
+TSM were drawn into Group D, which instantly became known as the "Group of Death" or the "Group of TSM's Death" due to [[LGD Gaming]] and [[KT Rolster]] being favorites to win it; [[Origen]] was the last team drawn in. LGD massively underperformed expectations, however, and TSM took a game off them in the first round robin. However, at the same time Origen overperformed, and ultimately KT Rolster and Origen made it out of groups; TSM lost their second game against LGD and ended up in last place with a 1-5 record.
+===2016 Season===
+Santorin left TSM after the 2015 World Championship, stating that would "most likely not be playing competitive League of Legends anymore" in his statement accompanying the announcement.<ref>[http://www.tsm.gg/index.php/news/tsm-roster-changes/ TSM Roster Changes] ''tsm.gg''</ref> Despite that announcement, he joined European Challenger team [[Huma]] in December, along with [[Werlyb]], [[Godbro]], [[HolyPhoenix]], and [[je suis kaas]]. After an [[EU Challenger Series/2016 Season/Spring Qualifiers/Open Qualifier|open qualifier]] second-place finish and [[EU Challenger Series/2016 Season/Spring Qualifiers|main qualifier]] bracket win, Huma qualified to the [[EU Challenger Series/2016 Season/Spring Season|EUCS]], where they finished the season with a 3-1-1 win-tie-loss record and in second place.
+
+Santorin did not remain with the team for the [[EU Challenger Series/2016 Season/Spring Playoffs|playoffs]], opting instead to return to North America to play for NA Challenger team [[Ember]] due to their starting jungler [[Contractz]] being underage.<ref>[http://medium.com/ember-news/santorin-catches-fire-e50a275c292a#.eqvy6vayl Santorin Catches Fire] ''medium.com''</ref><ref>[http://www.twitlonger.com/show/n_1sociec The past and the future - Thanks for supporting me guys, it means a lot! <3] ''twitlonger.com''</ref> Even though Ember had the option to play with Contractz for the [[NA Challenger Series/2016 Season/Spring Playoffs|playoffs]] and use Santorin only for the [[League Championship Series/North America/2016 Season/Summer Promotion|summer promotion tournament]], should they qualify, they opted to start Santorin immediately. However, they lost 3-1 to [[Team Dragon Knights]] in the semifinals and did not advance. After their failure to qualify for the LCS, Ember released all of their players except for Contractz, and Santorin left the team.<ref>[http://medium.com/@jonpan/ember-roster-and-staff-changes-march-2016-3c2797645786#.lnv0rbc0i Ember Roster and Staff Changes  —  March 2016] ''medium.com''</ref>
+
+After Ember, Santorin joined [[NRG eSports]] in April, as part of a rebuilt roster including himself, [[Quas]], [[KiWiKiD]], and [[Ohq]] along with [[GBM]] from the team's [[League Championship Series/North America/2016 Season/Spring Season|spring split]] run. The roster proved unsuccessful, and NRG were consistently in eighth place week after week in the [[League Championship Series/North America/2016 Season/Summer Season|summer split]] until they fell to ninth in week 9. In the [[League Championship Series/North America/2017 Season/Spring Promotion|promotion tournament]], they lost first to [[Cloud9 Challenger]] and then to [[Echo Fox]] in back-to-back 3-0 sweeps and were relegated to the [[NA Challenger Series/2017 Season/Spring Season|NACS]]. After relegation, Santorin announced his free agency.<ref>[http://twitter.com/SantorinLoL/status/763506822120701952 Lucas Larsen's Tweet] ''twitter.com''</ref>
+===2017 Season===
+Santorin ended up joining [[Gold Coin United]], who had purchased NRG's [[NA Challenger Series/2017 Season/Spring Season|NACS slot]], along with former [[Team Liquid Academy]] top laner [[Solo (Colin Earnest)|Solo]], former [[Team Liquid|Liquid]] mid laner [[Fenix]], former [[Nova eSports (North American Team)|Nova eSports]] bot laner [[Rikara]], and legendary Korean support [[Madlife]]. Veteran bot laner [[Mash]] also joined the team in January, and split time with Rikara for the first three weeks of the [[NA Challenger Series/2017 Season/Spring Season|Spring Season]] before becoming the starter. After a slow start, the team surged with Mash, and ended up tied with [[Tempo Storm]] for second place with a 7-3 game record. They beat Tempo Storm in the ensuing tiebreaker, then swept them in [[NA Challenger Series/2017 Season/Spring Playoffs|the playoff semifinals]], followed by a 3-1 defeat of [[EUnited]] in the playoff finals. This qualified them for the [[NA LCS/2017 Season/Summer Promotion|NA LCS 2017 Summer Promotion]] with the best possible seed. The promotion tournament started well with a 3-1 defeat of [[Team EnVyUs]], putting GCU just a single series win away from the NA LCS. However, they proceeded to lose heartbreaking back-to-back 3-2 series against [[Team Liquid]] and EnVyUs, sending the team back to the Challenger Series.
+
+Santorin remained with GCU for the [[NA Challenger Series/2017 Season/Summer Season|the summer season]]. The team again finished second in the regular season, before defeating Tempo Storm and eUnited in [[NA Challenger Series/2017 Season/Summer Playoffs|the playoffs]], giving them a second try at [[NA LCS/2018 Season/Spring Promotion|promotion]]. However, their previous experience didn't seem to help, as GCU lost the first series 3-2 to [[Phoenix1]], despite nearly pulling off a reverse sweep, then were swept by [[EUnited]] in the loser's bracket. With the NA LCS franchising for the 2018 season, the team then disbanded.
+
+===2018 Season===
+Santorin joined [[H2k Gaming]] for the [[EU LCS/2018 Season/Spring Season|EU LCS 2018 Spring]], along with [[SmittyJ]], [[Caedrel]], [[Sheriff]], and [[PromisQ]], in what was his first-ever stint in the top league of his birth region. However, after a 1-5 start over the first three weeks, the team announced that mid laner Caedrel would be role swapping to jungle to make room for the newly acquired [[Selfie]], and Santorin left the team. 
+
+Santorin's next action would come in the summer, when he returned to North America and joined [[FlyQuest]] along with support [[Kwon]] and mid laner [[Keane]]. These moves seemed ineffective to start, and the team began the [[NA LCS/2018 Season/Summer Season|summer season]] 1-3, so Kwon was demoted to academy and [[JayJ]] was promoted to take his place. FlyQuest established themselves as a solid middle of the pack team after that, finishing the season 10-8, in a three-way tie for third place. However, they lost to [[100 Thieves]] and [[TSM]] in the tiebreaker matches, dropping them into sixth place, and were immediately swept by 100 Thieves in the [[NA LCS/2018 Season/Summer Playoffs|playoff quarterfinals]], ending their season without enough Championship Points to play in the worlds gauntlet.
+
+===2019 Season===
+Along with bot laner [[Wildturtle]] and JayJ, Santorin remained with FlyQuest for 2019. They were joined by rookie top lane and former {{ci|Riven}} one-trick [[V1per]] and veteran three-time LCS champion mid laner [[Pobelter]]. Expectations for this new roster were not particularly high, but they got off to a 3-1 start in the [[LCS/2019 Season/Spring Season|LCS 2019 Spring]]. The team cooled off after that, but remained in the top six. In Week 8, they clinched a playoff seed with an upset of first place [[Team Liquid]], then beat [[Golden Guardians]] in a Week 9 tiebreaker to take the fourth seed. Santorin, in particular, was praised for his aggressive play and was the only player not on one of the top three regular-season finishers to make an All-Pro Team. Their tiebreaker victory gave FlyQuest side selection in a rematch against the Guardians in the [[LCS/2019 Season/Spring Playoffs|quarterfinals]], where FlyQuest initially dropped to a 2-1 deficit but came back to take the series in five games on the back of strong play by Pobelter and V1per. Showing how much the victory meant to him, a visibly emotional Santorin was brought to tears during the post-game interview at what was his first playoff victory at the LCS level since he had left [[TSM]]. Unfortunately, the fun ended there, as they were subsequently swept by eventual champions Team Liquid, finishing fourth due to having a lower regular-season finish than [[Cloud9]].
+
+Despite FlyQuest's strong spring performance, they got off to a 1-5 start in the LCS 2019 Summer, prompting JayJ to be replaced by the newly acquired [[Wadid]]. Although the team would register a 2-0 Week 5, they would never be in serious playoff contention and finished the season in ninth place with a 5-13 record. Santorin especially seemed to have regressed from his strong play in spring towards a more passive style. Their spring performance did still give FlyQuest a slot in the [[LCS/2019 Season/Regional Finals|Regional Finals]], but they lost 3-1 to Clutch Gaming, ending their season. 
+== Trivia ==
+* His main champion is {{ci|Lee Sin}}.
+* Never uses the ingame sound.
+* The meaning of his name is nothing special - his Swedish friend just came up with it
+* In the second week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 NA LCS Spring Split]] with [[TSM]], Santorin's combined KDA was 0/0/24; he assisted in 24 of TSM's 26 total kills.
+* Outstanding Rookie of the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 Season NA LCS Spring Split]].<ref>[http://na.lolesports.com/articles/lcs-spring-split-awards-presented-ptl-and-lcs-finals LCS Spring Split Awards presented on PTL and LCS Finals] ''lolesports.com''</ref>
+* Criticized occasionally for being an excessively passive jungler, with some referring to him derogatorily as a "living ward". 
+* Is in a relationship with Twitch streamer '''KayPea'''.
+* Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region (NA LCS Spring 2015)
+
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (2020 Summer, 2021 Spring, 2022 Spring)
+* LCS 3rd All-Pro Team (2018 Summer, 2019 Spring, 2020 Spring, 2022 Summer)
+* LCS Rookie of the Split (2015 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+==External Links==
+* [http://www.lolking.net/guides/80430 Lee sin, The Only Blind Monk In The Kindergarten (Guide)]
+* [http://www.lolking.net/guides/121941 Volibear, The One And Only Pedobear (Guide)]
+* [http://www.lolking.net/guides/219839 Nocturne, Fear The Meta (Guide)]
+
+{{PlayerPageEnd}}

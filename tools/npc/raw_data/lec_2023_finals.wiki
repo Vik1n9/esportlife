@@ -1,0 +1,233 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2023%20Season%2FSeason%20Finals&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.756Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2023/Finals」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2023}}
+{{Infobox Tournament
+|name=LEC 2023 Season Finals
+|image= LEC 2023.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|address={{flag|de}} Germany<br>{{flag|fr}} France
+|prizepool= € 160,000
+|format=
+|sdate=2023-08-19
+|edate=2023-09-10
+|rulebook=Archive:Official_Rulebooks/Riot/LEC/2023
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EMEA
+|split=Finals
+|split_number=4
+|CM_StandardName=LEC 2023 Season Finals
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=Yes
+|CM_IsOfficial=Yes
+|CM_Year=2023
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://eu.lolesports.com/en
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ
+|closest_timezone=CET
+}}{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2023 Season Finals''' is the culmination of the LEC 2023 season. It is the first season finals following the changed format. The top 6 teams from across the season will fight for the championship in a double elimination bracket and qualification to [[2023 Season World Championship|Worlds 2023]]. }}
+
+==Overview==
+=== Format ===
+* 6 teams participate
+** [[LEC/2023 Season/Winter Playoffs|Winter]], [[LEC/2023 Season/Spring Playoffs|Spring]], and [[LEC/2023 Season/Summer Playoffs|Summer]] Season champions
+** Top three non-qualified teams in [[LEC/2023 Season/Championship Points|Championship Points]]
+* Double elimination bracket
+** Seeding is determined by Championship Points
+** The 1st seed chooses between the 3rd and the 4th seed as their Round 1 opponent
+** The 5th seed will play against the lower seed from the upper bracket Round 1 losers, the 6th seed against the higher seed
+* Matches are best of five
+* Top 3 teams qualify for the [[2023 Season World Championship]]
+* Fourth-placed team qualifies for the [[2023 Worlds Qualifying Series]]
+
+=== Prize Pool ===
+{{TournamentResults
+|prize=yes
+|qual=yes
+|prizeunit=EUR
+|totalprize=160,000
+|usdrate=
+|qualwidth=180
+|{{TournamentResults/Line|place=1|prize=65,000|qual=Worlds 2023|quallink=2023 Season World Championship|team=G2|lastresult=3 : 1|lastopponent=FNC|lastoutcome=w}}
+|{{TournamentResults/Line|place=2|prize=40,000|qual=Worlds 2023|quallink=2023 Season World Championship|team=FNC|lastresult=1 : 3|lastopponent=G2|lastoutcome=l}}
+|{{TournamentResults/Line|place=3|prize=25,000|qual=Worlds 2023|quallink=2023 Season World Championship|team=MAD|lastresult=2 : 3|lastopponent=FNC|lastoutcome=l|date=2023-09-09}}
+|{{TournamentResults/Line|place=4|prize=15,000|qual=Worlds Qualifying Series '23|quallink=2023 Worlds Qualifying Series|team=BDS|lastresult=2 : 3|lastopponent=FNC|lastoutcome=l|date=2023-09-02}}
+|{{TournamentResults/Line|place=5|prize=7,500|team=XL|lastresult=2 : 3|lastopponent=FNC|lastoutcome=l|date=2023-08-27}}
+|{{TournamentResults/Line|place=6|prize=7,500|team=SK|lastresult=0 : 3|lastopponent=BDS|lastoutcome=l|date=2023-08-26}}
+|conversiondate=|conversionsource=xe}}
+
+==Participants==
+{{RostersStart|maxteams=3
+|showrosterpage=yes
+}}
+{{Box|start}}
+{{TeamRoster|team=G2
+|seed=[[LEC/2023 Season/Winter Playoffs|Winter #1]]<br>[[LEC/2023 Season/Summer Playoffs|Summer #1]]<br>[[LEC/2023 Season/Championship Points|Champ. Points #1]]
+|{{TeamRoster/Line|player=BrokenBlade|flag=de|role=t}}
+|{{TeamRoster/Line|player=Yike|flag=se|role=j}}
+|{{TeamRoster/Line|player=Caps|flag=dk|role=m}}
+|{{TeamRoster/Line|player=Hans Sama|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Mikyx|flag=si|role=s}}
+|{{TeamRoster/Line|player=Dylan Falco|flag=ca|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MAD Lions
+|seed=<br>[[LEC/2023 Season/Spring Playoffs|Spring #1]]<br>[[LEC/2023 Season/Championship Points|Champ. Points #2]]
+|{{TeamRoster/Line|player=Chasy|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Elyoya|flag=es|role=j}}
+|{{TeamRoster/Line|player=Nisqy|flag=be|role=m}}
+|{{TeamRoster/Line|player=Carzzy|flag=cz|role=a}}
+|{{TeamRoster/Line|player=Hylissang|flag=bg|role=s}}
+|{{TeamRoster/Line|player=Mac|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Pad|flag=dk|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|seed=<br><br>[[LEC/2023 Season/Championship Points|Champ. Points #3]]
+|{{TeamRoster/Line|player=Adam (Adam Maanane)|flag=fr|role=t}}
+|{{TeamRoster/Line|player=Sheo|flag=fr|role=j}}
+|{{TeamRoster/Line|player=nuc|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Crownie|flag=si|role=a}}
+|{{TeamRoster/Line|player=Labrov|flag=gr|role=s}}
+|{{TeamRoster/Line|player=GotoOne|flag=fr|role=c}}
+|{{TeamRoster/Line|player=Striker (Yanis Kella)|flag=fr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=XL
+|seed=[[LEC/2023 Season/Championship Points|Champ. Points #4]]
+|{{TeamRoster/Line|player=Odoamne|flag=ro|role=t}}
+|{{TeamRoster/Line|player=Peach |flag=kr |role=j}}
+|{{TeamRoster/Line|player=Abbedagge|flag=de|role=m}}
+|{{TeamRoster/Line|player=Patrik|flag=cz|role=a}}
+|{{TeamRoster/Line|player=LIMIT (Dino Tot)|flag=hr|role=s}}
+|{{TeamRoster/Line|player=Hidon|flag=dk|role=c}}
+|{{TeamRoster/Line|player=Kaas|flag=be|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FNC
+|seed=[[LEC/2023 Season/Championship Points|Champ. Points #5]]
+|{{TeamRoster/Line|player=Oscarinin|flag=es|role=t}}
+|{{TeamRoster/Line|player=Wunder|flag=dk|role=t}}
+|{{TeamRoster/Line|player=Razork|flag=es|role=j}}
+|{{TeamRoster/Line|player=Humanoid|flag=cz|role=m}}
+|{{TeamRoster/Line|player=Noah (Oh Hyeon-taek)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Trymbi|flag=pl|role=s}}
+|{{TeamRoster/Line|player=Nightshare|flag=cz|role=c}}
+|{{TeamRoster/Line|player=Hiiva|flag=fi|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK
+|seed=[[LEC/2023 Season/Championship Points|Champ. Points #6]]
+|{{TeamRoster/Line|player=Irrelevant|flag=de|role=t}}
+|{{TeamRoster/Line|player=Markoon|flag=nl|role=j}}
+|{{TeamRoster/Line|player=Sertuss|flag=de|role=m}}
+|{{TeamRoster/Line|player=Exakick|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Doss|flag=dk|role=s}}
+|{{TeamRoster/Line|player=Swiffer|flag=au|role=c}}
+|{{TeamRoster/Line|player=OWN3R (David Rodriguez de la Torre)|flag=es|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+== Results ==
+{{Bracket|6DE|cargo=yes|show_bestof=yes
+|R4_title=Finals
+|R1M1_cargomatch=Round 1_2
+|R1M2_cargomatch=Round 1_1
+|R1M3_cargomatch=Round 1_4
+|R1M4_cargomatch=Round 1_3
+|R2M3_cargomatch=Round 2_1
+}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with,MVP,HL
+|gamefields=Blue,Red,MH,VODs,ssel
+}}
+
+== Individual Awards ==
+=== "Player of the Series" Standings ===
+{{MVPStandings|queryfrom=series|displaytext=Player of the Series Standings
+|columns=Times
+}}
+
+=== Season Awards ===
+{{SeasonAwardStart}}
+{{SeasonAward|mvp|team=G2|player=Mikyx}}
+{{SeasonAward|custom|award=Coaching Staff|team=G2|player=G2 Esports}}
+{{SeasonAward|rookie|team=G2|player=Yike}}
+{{SeasonAwardEnd}}
+
+== Media ==
+=== Streams ===
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=https://trovo.live/riot-lec|lang=usuk|display=Trovo}}
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/polsatgames|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCrPE9FDBnSMX6W5K0-r7K-g|lang=pl}}
+* {{stream|url=https://www.twitch.tv/summonersinnlive|lang=de}}
+* {{stream|url=https://www.twitch.tv/pg_esports|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.twitch.tv/riotgamesru|lang=ru}}
+* {{stream|url=https://play.afreecatv.com/lolglobal|lang=usuk}}
+* {{stream|url=https://play.afreecatv.com/leclcs|lang=kr}}
+* {{stream|url=https://play.afreecatv.com/akasaaaaan|lang=jp}} unofficial
+
+=== Broadcast Talent ===
+*{{player|Sjokz|flag=be|name=Eefje Depoortere}}
+*{{player|Laure|flag=fr|name=Laure Valée}}
+*{{player|YamatoCannon|flag=se|name=Jakob Mebdi}}
+*{{player|Ender (Christy Frierson)|flag=us|name=Christy Frierson}}
+*{{player|Guldborg|flag=dk|name=Mikkel Guldborg Nielsen}}
+*{{player|Jamada|flag=uk|name=Adrian Wharlton-Thorne}}
+*{{player|Quickshot|flag=za|name=Trevor Henry}}
+*{{player|Drakos|flag=us|name=Daniel Drakos}}
+*{{player|Medic (Aaron Chamberlain)|flag=uk|name=Aaron Chamberlain}}
+*{{player|Vedius|flag=uk|name=Andrew Day}}
+*{{player|Caedrel|flag=gb|name=Marc Lamont}}
+*{{player|Troubleinc|flag=GR|name=Georgia Paras}}
+*{{player|Dagda|flag=IE|name=Robert Price}}
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!Round 1-2 / Winners' Bracket Semifinal
+!Losers' Bracket Semifinal / Finals
+|-
+!{{flag|de}} Berlin, Germany
+!{{flag|fr}} Montpellier, France
+|-
+|LEC Studio
+|Sud de France Arena
+|-
+|''Capacity'' - 174
+|''Capacity'' - 14,800
+|-
+|[[File:LEC Studio.jpg|250px]]
+|[[File:Sud de France Arena.jpg|250px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|Rue de la Foire<br>34470 Pérols
+|}
+
+=== Announcements ===
+
+=== Viewership Statistics ===
+
+=== Additional Content ===
+* See [[LEC/2023 Season/Winter Playoffs/Media|Media]].
+
+== References ==
+<references/>

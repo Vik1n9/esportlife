@@ -1,0 +1,7 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Archer&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.404Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Archer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Archer (Lee Keun-hee)
+|player2=Archer (Andrés Duran)
+|player3=Archer (Danh Thanh Huy)
+}}

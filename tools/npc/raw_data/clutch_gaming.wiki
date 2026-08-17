@@ -1,0 +1,118 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Clutch%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.330Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Clutch Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Dignitas
+|name= Clutch Gaming
+|orgcountry= United States
+|country= 
+|region= North America
+|image= Clutch Gaminglogo square.png
+|sponsor= [http://www.corsair.com/us/en/gaming CORSAIR]
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= https://www.clutchlcs.com
+|youtube= 
+|facebook= https://www.facebook.com/Clutch.Gaming
+|twitter= ClutchGaming
+|instagram= ClutchGaming
+|subreddit= clutchgaming
+|lolpros=https://lolpros.gg/team/clutch-gaming
+|discord= https://discordapp.com/invite/DnqU2x6
+|snapchat= 
+|twitch-team= https://www.twitch.tv/clutchgaming
+|irc= 
+<!-- History -->
+|created= 2017-11-20
+|disbanded= 2019-10-28
+<!-- Current Roster Photo -->
+|rosterphoto= Clutch Gaming 2019 LCS Summer Roster.jpg<!--already in gallery-->
+<!-- Other Teams Wikis -->
+|otherwikis= 
+}}{{TOCRWI}}
+
+'''Clutch Gaming''' is an American esports organization owned by the NBA team '''Houston Rockets'''.
+
+==History==
+===2018 Season===
+====Spring Split====
+Clutch Gaming was one of four new organizations awarded a slot in the newly franchised LCS. Their first roster was made up of jungler [[LirA]], AD carry [[Apollo (Apollo Price)|Apollo]] and support [[Hakuho]] from the disbanded [[Team EnVyUs]], as well as former EULCS MVP mid laner [[Febiven]] and former Challenger series top laner [[Solo (Colin Earnest)|Solo]]. Clutch was considered one of the better newly formed teams, but not strong enough to challenge for a top spot. All of the former EnVy players were considered solid but not spectacular, and Febiven's strength in the mid lane was thought to be balanced by Solo's inexperience, especially given the presence of many Korean import top laners. 
+
+Once the [[League_Championship_Series/North_America/2018_Season/Spring_Season|Spring Split]] began, Clutch quickly acquired a reputation for beating every team below them and losing to every team above them, only managing three wins against teams that would later make the playoffs, two of which were early season wins against a slumping [[TSM]]. However, in a very volatile split, they were also one of the most consistent teams, only ever falling out of the top six once and posting only a single 0-2 week. This consistency led to them clinching a playoff spot by Week 7 with a 9-5 record. However, Clutch stagnated over the final two weeks, only managing to go 2-2 as teams like [[100 Thieves]] and [[Team Liquid]] surged, causing them to fall into a historical four-way tie for third that necessitated a tiebreaker series. Their struggles to beat other strong teams continued in that series, as they lost both tiebreakers to fall into sixth place. 
+
+In the [[League_Championship_Series/North_America/2018_Season/Spring_Playoffs|playoff quarterfinals]], Clutch faced third seed TSM, who were the overwhelming favorites due to their veteran lineup and having gone 5-1 over the final three weeks of the season. TSM easily dispatched Clutch in game 1 by focusing LirA early, but Clutch struck back with a comeback victory in game 2. However, with TSM failing to ban Hakuho's [[Thresh]] in either of the two final games, Clutch stomped a faltering TSM in a historic upset, becoming the first team in the history of the NALCS to defeat them in quarterfinals, and keeping TSM out of the finals for the first time. Clutch then moved on to face the 1st seeded 100 Thieves in the semifinals. Similar to the TSM series, Clutch were heavy underdogs, but managed to keep pace with 100 Thieves to take the series to five games. Clutch took an early lead in game 5, but the game extended into an excruciating, tense 74 minute siege in which Clutch took 100 Thieves down the wire but finally lost the game off a teamfight in their base. This sent Clutch to the third-place match against 2nd seed [[Echo Fox]]. Despite expectations of a close series, Echo Fox stomped Clutch in three quick games, meaning that their only playoff reward would be 30 Championship Points.
+
+====Summer Split====
+Clutch made no roster changes going into the [[NA LCS/2018 Season/Summer Season|summer]]. The summer split started similarly to the spring, with Clutch going 1-1 each week over the first four weeks. Unlike the spring, they were unable to keep this pace up over the entire season and only managed two wins over the final five weeks, eventually falling all the way into ninth place, ahead of only [[Golden Guardians]]. Although they did not make the playoffs, their spring finish meant that Clutch still had a slot in the [[NA LCS/2018 Season/Regional Finals|Regional Finals]], but they were swept by Echo Fox in the first round, ending their season. 
+
+===2019 Season===
+Clutch shook up their roster going into the 2019 season, retaining only Lira. Solo, Apollo, and Hakuho went to Echo Fox, with Echo Fox players [[Huni]] and [[Damonte]] joining Clutch, and the [[Clutch Gaming Academy]] bot lane of [[Piglet]] and [[Vulcan (Philippe Laflamme)|Vulcan]] were promoted to the main team. Clutch started the [[LCS/2019 Season/Spring Season|spring split]] of the newly-rebranded LCS strong with a 2-0 first week, but immediately went on a lengthy losing streak and did not win another game until Week 5. They eventually finished 5-13 and in ninth place for the second straight split. 
+
+Several months after it had first been reported by ESPN, [[Dignitas]] announced that they would be buying Clutch and rebranding the team for the 2020 season. For the summer split, the team replaced Piglet with [[Cody Sun]], who had played for their academy team in the spring after a controversial 2019 with [[100 Thieves]]. This iteration of Clutch was more consistent than the spring version, and they spent most of the [[LCS/2019 Season/Summer Season|summer]] hovering just below the .500 mark and in contention for the final few playoff spots. In the final week, Clutch went 2-0 and leapfrogged over the other prospective playoff teams to claim fifth place. 
+
+In the [[LCS/2019 Season/Summer Playoffs|playoffs]], Clutch was matched up against fourth-place [[TSM]], who were starting rookie jungler [[Spica]] after a rocky summer split. Echoing their 2018 Spring run, Clutch upset TSM 3-1, then took eventual champions [[Team Liquid]] to five games before falling. This sent them to a third-place match against [[CLG]] for seeding in the [[LCS/2019 Season/Regional Finals|Regional Finals]], where Clutch took a 2-0 lead before being heartbreakingly reverse swept. 
+
+This loss put Clutch at the bottom of the regional finals gauntlet, but they beat [[FlyQuest]] 3-1 in the first round and then avenged their playoff defeat against [[CLG]] in the second, sending them to a final round rematch against [[TSM]] with [[2019 Season World Championship|Worlds]] on the line. Clutch lost their first two games but at the brink of defeat managed to do to TSM what CLG had done to them, reverse sweeping the historic franchise and reaching Worlds for the first time. 
+
+Clutch was seeded into the [[2019 Season World Championship/Play-In|Play-In]] at Worlds, where they struggled against [[Unicorns of Love.CIS|Unicorns of Love]] of the CIS and [[MAMMOTH]] of the OPL. The three teams ended up tied in the standings, forcing them to play a three-way tiebreaker to see who would advance, which Clutch came out on top of. This sent them to the Knockout Stage against [[Royal Youth]] of the TCL, who they swept to reach the [[2019_Season_World_Championship/Main_Event|main event]]. There, they were seeded into Group C with [[Fnatic]], [[Royal Never Give Up]], and [[SK Telecom T1]]. Despite the presence of two of Huni's former teams (Fnatic and SKT) in this group, Clutch failed to exact revenge for their top laner on any of them, and went 0-6, becoming the first North American team to fail to win a single game in the Worlds group stage. After Worlds ended, the expected rebranding of Clutch occurred, and the roster was transferred to Dignitas. 
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Tilman Fertitta|'''Owner'''}}
+{{listplayersp||us|Sebastian Park|'''VP of Esports'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||us|Andrew Barton|'''Assistant General Manager & Esports Development Analyst'''|newteam=D}}
+{{listplayersp|TheAzotal|us|Ryan Friedman|'''Assistant General Manager & Esports Operations Analyst'''|newteam=D}}
+{{listplayersp|Empyre|kw|Naser Al-Naqi|'''Head of Scouting and Analysis'''|newteam=D}}
+{{listplayersp|Pyrex|kr|Toby Kwon (권용현)|'''Manager & Team Operations Coordinator'''|newteam=D}}
+{{listplayer|Thinkcard|us|Thomas Slotkin|'''Head Coach'''|newteam=D}}
+{{listplayer|Artemis|link=Artemis (Connor Doyle)|us|Connor Doyle|'''Assistant Coach'''|newteam=D}}
+{{listplayer|Rigby|kr|Han Earl (한얼)|'''Assistant Coach'''|rejoined=yes|newteam=D}}
+{{listplayersp|Whanderlust|tw|Sandra Chen|'''Social Media Coordinator'''|newteam=Team Liquid}}
+{{listplayer|mcscrag|us|Brendan McGee|'''Head Coach'''|newteam=none}}
+{{listplayer|Rigby|kr|Han Earl (한얼)|'''Assistant Coach'''|newteam=Clutch Gaming}}
+{{listplayersp||us|Kevin Wood|'''Head of Esports Brand Management'''|newteam=none}}
+{{listplayer|Baby Zeus|us|Alec Warren|'''Assistant Coach'''|newteam=Excel}}
+{{listplayer|Curry|us|Anand Agarwal|'''Interim Head Coach'''|newteam=FQA}}
+{{listplayersp||us|Karen Morey|'''Social Media Manager'''|newteam=none}}
+{{listplayer|DLim|ca|David Lim|'''Head Coach'''|newteam=S04}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|Clutch|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Clutch Gaming logo (Nov 2017 - Sep 2019).png|Clutch Gaming Logo<br>(Nov 2017 - Sep 2019)
+</gallery>
+
+===Rosters===
+<gallery>
+Clutch Gaming Roster 2018 Spring.png|LCS 2018 Spring
+Clutch Gaming 2019 LCS Spring Roster.jpg|LCS 2019 Spring
+Clutch Gaming 2019 LCS Summer Roster.jpg|LCS 2019 Summer
+</gallery>
+
+==External Links==
+
+==References==
+<references />

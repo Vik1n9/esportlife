@@ -1,0 +1,158 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Stitch&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.626Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Stitch」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Stitch
+|name=Lee Seung-ju
+|nativename=이승주
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=November
+|birth_date_day=02
+|checkbox1=No
+|compID1=Woody
+|compID2=GodSeung
+|compID3=LuNar
+|checkboxComp=No
+|ids=삼성갤럭시Stitch
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|teamhist1=Mook Secret
+|teamdate1=Mar 2014 - Aug 2014
+|teamrole1=AD
+|issub1=No
+|istrainee1=No
+|teamhist2=Xenics
+|teamdate2=Jan 2015 - May 2015
+|teamrole2=AD
+|issub2=No
+|istrainee2=No
+|teamhist3=Incredible Miracle
+|teamdate3=May 2015 - Jun 2015
+|teamrole3=AD
+|issub3=Yes
+|istrainee3=No
+|teamhist4=Midnight Sun Esports
+|teamdate4=Jun 2015 - Dec 2015
+|teamrole4=AD
+|issub4=No
+|istrainee4=No
+|teamhist5=Samsung Galaxy
+|teamdate5=Dec 2015 - Apr 2016
+|teamrole5=AD
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=Samsung Galaxy
+|teamdate6=Apr 2016 - Jan 2017
+|teamrole6=AD
+|issub6=Yes
+|istrainee6=No
+|teamhist7=Samsung Galaxy
+|teamdate7=Jan 2017 - Apr 2017
+|teamrole7=AD
+|issub7=No
+|istrainee7=No
+|teamhist8=Samsung Galaxy
+|teamdate8=Apr 2017 - Nov 2017
+|teamrole8=AD
+|issub8=Yes
+|istrainee8=No
+|teamhist9=G-Rex
+|teamdate9=Nov 2017 - Nov 2018
+|teamrole9=AD
+|issub9=No
+|istrainee9=No
+|teamhist10=Jin Air Green Wings
+|teamdate10=Nov 2018 - Jun 2019
+|teamrole10=AD
+|issub10=No
+|istrainee10=No
+|teamhist11=Jin Air Green Wings
+|teamdate11=Jun 2019 - Oct 2019
+|teamrole11=Inactive
+|issub11=No
+|istrainee11=No
+|teamhist12=WhereAreyouFrom
+|teamdate12=May 2020 - May 2020
+|teamrole12=AD
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/lol_stitch
+|facebook=https://www.facebook.com/qkrdjwlsqkqh
+|instagram=Seung_stitch
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Woody''', '''GodSeung''', and '''LuNar'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===2015 Season===
+Lee "'''Stitch'''" Seung-ju joined [[Xenics]] in January of 2015 under the name "'''LuNar'''" and played with them in Korean Challenger. Their first tournament was [[Challengers Korea Spring 2015/Series 1|Challengers Korea Spring 2015 Series 1]] where they lost in the first round 2-1 to [[OverWM]]. They fared much better in [[Challengers Korea Spring 2015/Series 2|Challengers Korea Spring 2015 Series 2]] where they made it to the finals but lost 3-0 to [[Winners]]. Xenics qualified for the [[SBENU Champions Summer 2015/Promotion|SBENU Champions Summer 2015 Promotion Tournament]] but they went 0-2 in their group with [[Samsung Galaxy]] and [[Prime Clan]]. Stitch left the team immediately after to join [[Incredible Miracle]] as a sub under a new name, "'''Stitch'''". He only stayed with the team for a month before leaving in June to join [[Midnight Sun Esports]] in Taiwan. His first tournament with the team was the [[LMS/2015 Season/Summer Season|LMS 2015 Season Summer Season]] where they placed fourth and qualified for the [[LMS/2015 Season/Summer Playoffs|LMS 2015 Season Summer Playoffs]]. However, they lost 3-1 in the first round to [[Hong Kong Esports]]. They still earned enough circuit points to qualify for the [[2015 Season Taiwan Regional Finals]] but they lost 3-0 in the first round to the [[Flash Wolves]]. 
+
+===2016 Preseason===
+A few months later, most of the team was banned for poaching and so Stitch decided to leave in December to join [[Samsung Galaxy]] as an AD carry alongside [[Core JJ]].
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Samsung Galaxy went 10-8 in sets overall. Stitch split time with [[CoreJJ]] for the starter ADC position. After looking like they could clinch the fifth and final seed for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], Samsung Galaxy were unfortunately denied by the surging [[Afreeca Freecs]], who beat them by the game score tiebreaker, giving Samsung sixth place for the split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], rookie ADC [[Ruler]] impressed with his performance, and the team decided to give him the starting spot over Stitch, who ended up not playing a single game during the regular season. They managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Stitch only played one game in a loss to KT. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]]
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

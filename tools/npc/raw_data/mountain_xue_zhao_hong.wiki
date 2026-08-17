@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mountain%20(Xue%20Zhao-Hong)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.814Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mountain (Xue Zhao-Hong)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Mountain
+|name=Xue Zhao-Hong
+|nativename=薛兆鴻
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1995
+|birth_date_month=February
+|birth_date_day=22
+|favchamp=Elise
+|favchamp2=Vi
+|favchamp3=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids=銅學門喝奶囉, GG jungle open (KR), Ahq Mountain 12 (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Caster
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/mountain_lol
+|facebook=https://www.facebook.com/mountainlol
+|instagram=mounta1nlol
+|youtube=https://www.youtube.com/@mountain2272
+|discord=https://discord.gg/PNVg9fEquu
+|deeplol=https://www.deeplol.gg/pro/Mountain
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=座山客
+}}
+==Biography==
+===2014 Season===
+Mountain debuted with the Flash Wolves during GPL Spring 2014. He was the former [[Gamania Bears]] roster's direct replacement for Winds, who had transferred over to Taipei Snipers after 2013. The team qualified for the playoffs, but were quickly dispatched by their former teammate as the Snipers knocked them out 3-0.
+
+The Flash Wolves failed to retain their seat in the GPL the summer after, and played through the LoL Nova League instead. They placed second behind the Taipei Snipers. 
+
+Mountain temporarily replaced Winds again on the Taipei Snipers during the [[2014 Season Garena Regional Finals]], losing 2-3 to Saigon Fantastic Five.
+
+===2015 Season===
+Placed directly into the finals of the gauntlet-style [[LMS/2015 Season/Summer Playoffs|playoffs]], they once again won the season, this time beating Hong Kong Esports 3-0 and automatically qualifying for the [[2015 Season World Championship]].
+
+At Worlds, ahq were seeded into Group B, along with [[Fnatic]], [[Invictus Gaming]], and [[Cloud9]] and went 3-3, advancing to the playoffs after a tiebreaker victory over Cloud9 (giving the North American team their fourth loss in a row that day). Their World Championship run ended in the quarterfinals, where they were drawn against tournament favorites [[SK Telecom]], earning a top 8 finish.
+
+== Trivia ==
+* Known as the '''老山''' (Old Mountain) in the LMS region.
+* Nicknamed '''LMS山賊''' (The LMS Brigand) after his Baron steal against [[Flash Wolves]] in [[LMS 2017 Summer]].<ref>[https://www.youtube.com/watch?v=vkKxuayyHj8 《League of Legends》2017 LMS Summer ahq vs FlashWolves。Mountain Plunder Baron Mic Check。Reddit HOT] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}
+[[Category:Casters]]

@@ -1,0 +1,103 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Weibo%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.260Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Weibo Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= Weibo Gaming
+|orgcountry=China
+|country= China
+|region= China
+|sponsor= [https://weibo.com/ Weibo]<br>[https://www.taptap.cn/ TapTap]
+<!-- Staff -->
+|headcoach=
+|owner= 
+<!-- Social Media -->
+|website= https://weibo.com/
+|youtube= 
+|facebook= 
+|twitter=WeiboGamingLoL
+|discord= 
+|snapchat= 
+|instagram= 
+|weibo= http://weibo.com/tbgclub
+<!-- History -->
+|rosterphoto=WBG_2025_Split_1.jpg
+|created= 2021-11-21
+|disbanded= 
+}}{{TOCRWI}}<!-- To add a logo, see Help:Setting Up Teams. -->
+
+'''Weibo Gaming''' is a Chinese team owned by '''Sina Corporation'''. They are currently known as '''Weibo''' '''Gaming TapTap''' for sponsorship reasons. 
+
+== History ==
+
+== Trivia ==
+* WBG's 2023 Spring Roster is the 2nd All Pro Team of [[LPL 2022 Spring#Season Awards|2022 Spring]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||cn|Hu Biao (胡彪)|'''Vice President'''}}
+{{listplayersp|Cy|cn|Chen Yu (陈钰)|'''Manager'''}}
+{{listplayersp|Abu|cn|Zhang Zong-Qiang (张宗强)|'''Leader'''}}
+{{listplayersp|HuangXin|cn|Huang Xin (黄昕)|'''Supervisor'''}}
+{{listplayer|Clearlove|cn|Ming Kai (明凯)|'''Head Coach'''}}
+{{listplayer|Shine (Shin Dong-wook)|kr|Shin Dong-wook (신동욱)|'''Coach'''}}
+{{listplayer|Tselin|cn|Zhao Ze-Lin (赵泽霖)|'''Coach'''}}
+{{listplayer|Medusa (Feng Jun-Da)|cn|Feng Jun-Da (冯俊达)|'''Analyst'''}}
+{{listplayersp|Yuni|kr|Kim Tae-yoon (김태윤)|'''Translator'''}}
+{{listplayersp|Li|cn|Li Shi-Long (李世龙)|'''Rehabilitation Teacher'''}}
+{{listplayer|sask|cn|Zhou Yi-Xiang (周翼翔)|'''Streamer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|KIM (Kim Jeong-soo)|kr|Kim Jeong-soo (김정수)|'''Supervisor'''|newteam=none}}
+{{listplayer|Despa1r|cn|Zhou Li-Peng (周李鹏)|'''Head Coach'''|newteam=AL CN}}
+{{listplayer|fly (Kim Sang-cheol)|kr|Kim Sang-cheol (김상철)|'''Coach'''|newteam=none}}
+{{listplayer|NoFe|kr|Jeong No-chul (정노철)|'''Head Coach'''|newteam=none}}
+{{listplayer|Rui (Lyu Rui)|cn|Lyu Rui (吕瑞)|'''Coach'''|newteam=none}}
+{{listplayer|Daeny|kr|Yang Dae-in (양대인)|'''Head Coach'''|newteam=IG}}
+{{listplayersp|Ahuo|cn|Hua Jun-Yang (华俊阳)|'''Leader'''|newteam=lng}}
+{{listplayer|Juni (Lee Jun)|kr|Lee Jun (이준)|'''Translator'''|newteam=none}}
+{{listplayer|fly (Kim Sang-cheol)|kr|Kim Sang-cheol (김상철)|'''Coach'''|newteam=wbg|comment=Assistant Coach}}
+{{listplayer|fly (Kim Sang-cheol)|kr|Kim Sang-cheol (김상철)|'''Assistant Coach'''|newteam=wbg|comment=Coach}}
+{{listplayersp|Godm|kr|Shin Dong-min (신동민)|'''Translator'''|newteam=none}}
+{{listplayer|Juni (Lee Jun)|kr|Lee Jun (이준)|'''Translator'''|newteam=Weibo Gaming|comment=Assistant Coach}}
+{{listplayer|Easyhoon|kr|Lee Ji-hoon (이지훈)|'''Head Coach'''|newteam=riot}}
+{{listplayersp|SuFan|cn|Su Fan (苏凡)|'''Manager'''|newteam=none}}
+{{listplayersp|Syuan|cn|Jia Song-Yuan (贾宋源)|'''Leader'''|newteam=none}}
+{{listplayer|Maizijian|cn|Zeng Tao (曾韬)|'''Head Coach'''|newteam=Ninjas in Pyjamas.CN}}
+{{listplayer|Eimy|cn|Xie Dan (谢丹)|'''Coach'''|newteam=Rare Atom Period}}
+{{listplayersp|JZZ|cn|Jia Zi-Zheng (家子正)|'''Analyst'''|newteam=BLG}}
+{{listplayer|Dian|cn|Li Guo-Peng (李国鹏)|'''Head Coach'''|newteam=BLG}}
+{{listplayer|Fury (Lee Jin-yong)|kr|Lee Jin-yong (이진용)|'''Coach'''|newteam=BLG}}
+{{listplayer|Fenfen|cn|Huang Chen (黄琛)|'''Coach'''|newteam=none}}
+{{listplayer|Spark (Kang Byung-ryul)|kr|Kang Byung-ryul (강병률)|'''Supervisor'''|newteam=KT Rolster Challengers}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+== Images ==
+=== Rosters ===
+<gallery>
+WBG 2022 Spring.jpg|Weibo Gaming's 2022 LPL Spring Roster
+WBG 2023 Spring.jpg|Weibo Gaming's 2023 LPL Spring Roster
+WBG_2025_Split_1.jpg|Weibo Gaming's 2025 LPL Split 1 Roster
+</gallery>
+=== References ===
+<references />

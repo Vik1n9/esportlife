@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bugi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bugi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Bugi
+|name=Lee Seong-yeop
+|nativename=이성엽
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=May
+|birth_date_day=21
+|favchamp=Evelynn
+|checkbox1=No
+|compID1=Ivy
+|compID2=IVY
+|checkboxComp=No
+|ids='''KR:''' 버기해적단 버기, 엽북이<br>'''NA:''' My Dream LCS, FG Bugi, FG Bugi1, From Rank1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/yeopbugi
+|facebook=https://www.facebook.com/profile.php?id=100007870478182
+|twitter=yeopbugi
+|instagram=yeopbugi
+|deeplol=https://www.deeplol.gg/pro/Bugi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Ivy'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Was known in Korean solo queue as an {{ci|Evelynn}} one-trick before playing competitively.
+* He reached Rank 1 on season 11 on the NA server.
+
+=== Individual Awards ===
+* LLA player with the most MVPs in the split (Closing 2022)
+* LLA Most Weekly MVPs in his role in the split (Closing 2022)
+* LLA All Pro Team (Opening 2021)
+* LLA Most Valuable Player (Opening 2021)
+* LLA Best Import Player (Opening 2021)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

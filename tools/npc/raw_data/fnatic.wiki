@@ -1,0 +1,455 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Fnatic&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.081Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Fnatic」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Fnatic
+|orgcountry= United Kingdom
+|country= 
+|region= EMEA
+|partner= [https://www.sony.co.uk/electronics/inzone-gaming-gear INZONE] <br> [https://en.jacklinks.eu Jack Link's] <br> [https://www.redbull.com Red Bull] <br> [https://betify.com/en Betify] <br> [https://www.sony.co.uk Sony] <br> [https://goglobal.com/ GoGlobal]
+<!-- Staff -->
+|owner= Samuel Mathews <br> Anne Mathews
+|headcoach= Fabian "{{bl|GrabbZ}}" Lohmann
+<!-- Social Media -->
+|website= https://fnatic.com
+|youtube= https://www.youtube.com/user/fnaticTV
+|facebook= https://www.facebook.com/FnaticLoL
+|instagram= fnatic.lol
+|twitter= FNATIC
+|subreddit= fnatic
+|snapchat= fnaticsnaps
+|discord = https://discord.gg/fnatic
+|weibo= https://weibo.com/officialfnatic
+|tiktok= fnatic
+|lolpros=https://lolpros.gg/team/fnatic
+|linkedin=https://www.linkedin.com/company/fnatic/
+|irc= 
+<!-- History -->
+|created= {{date of creation|y=2011|m=03|d=14}}
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,fifa,fortnite,halo,paladins,rl,siege,smite,vg,valorant
+}}{{TOCRWI}}
+
+'''Fnatic''' is a professional esports organization consisting of players from around the world across a variety of games. On March 14, 2011, Fnatic entered the League of Legends scene with the acquisition of [[myRevenge]]. Fnatic is one of the strongest European teams since the early days of competitive League of Legends, having been the champion of the [[Riot Season 1 Championship]].
+
+== History ==
+=== Acquisition of myRevenge ===
+Fnatic’s first venture into the League of Legends scene began on March 14, 2011, when they acquired the roster from myRevenge consisting of [[WetDreaM]], [[xPeke]], [[LaMiaZeaLoT]], [[Shushei]], [[CyanideFI]], [[Mellisan]], and [[MagicFingers]].
+
+In May of 2011, WetDreaM left Fnatic to form AbsoluteLegends.
+
+=== Season 1 ===
+Fnatic were one of the eight teams to qualify for the [[Riot Season 1 Championship]], which was held from June 18 to June 20 of 2011, as the third and final European seed from the [[Season_1_World_Championship/Qualifiers|Regional Qualifier]]. Fnatic placed third in the Group Stage by going 1-2, narrowly escaping elimination by defeating Team Pacific, while losing to [[against All authority]] and [[Epik Gamer]]. Fnatic would see more success in the playoffs largely due to [[xPeke]], who had finally arrived after missing the first day due to a delayed flight. They would power through and defeat [[Counter Logic Gaming]] 2-0 in the relegation round, Epik Gamer 2-0 in the semi-finals, and won versus [[against All authority]] in the finals of the winner’s bracket, propelling Fnatic to the grand finals. Fnatic faced aAa again in an all-European final, pulling out a 2-1 victory to be crowned the ''League of Legends'' Season 1 champions. Riot later created and released Fnatic-themed skins, a custom for World Championship winners, and chose each player's most-played champions during the Season 1 Worlds: {{ci|Jarvan IV}} (Cyanide), {{ci|Karthus}} (xPeke), {{ci|Gragas}} (Shushei), {{ci|Corki}} (LamiaZealot) and {{ci|Janna}} (Mellisan).
+
+===== Pre-Season 2 =====
+Two months later, Fnatic placed third at the [[IEM Season VI - Global Challenge Cologne]]. Fnatic placed second in the tournament's group stage with a 2-1 record, defeating [[SK Gaming]] and [[Frag Executors]], while falling to Counter Logic Gaming.  However, Fnatic would fall to Team Solomid 2-1 in the semifinals, relegating Fnatic to play against [[Millenium]] for third place, where Fnatic was able to come out on top with a 2-1 victory.
+
+The next event that Fnatic would participate in was the [[IEM Season VI - Global Challenge New York]].  Here, Fnatic displayed a dominant performance, going 3-0 and taking first in the group stage by defeating Counter Logic Gaming, [[Dignitas]], and Team Solomid. In the playoffs, Fnatic swept [[Sypher]] 2-0 in the semi finals and SK Gaming 2-0 in the grand finals, taking home first from the event.
+
+=== Season 2 ===
+On January 19, 2012, MagicFingers left Fnatic due to the dissatisfaction with only being a substitute player.<ref name=mf-leaves>[http://fnatic.com/news/9468/MagicFingers-departs-from-FnaticRaidCall-LoL.html MagicFingers departs from FnaticRaidCall.LoL] ''fnatic.com''</ref>
+
+The next major event Fnatic competed in would be the [[IEM Season VI - World Championship]] in March. Unfortunately, Fnatic couldn't emulate their success at previous IEM events, and placed fifth, being eliminated in the group stage. Fnatic took wins against Millenium and Dignitas, while falling to [[Team ALTERNATE]], against All authority, and Counter Logic Gaming Prime.
+
+Two weeks later, Fnatic placed second at the [[SK Trophy March]]. They started strong by defeating [[LowLandLions]] 1-0 in the round of 16, [[TCM Gaming]] 2-0 in the quarterfinals, and Millenium 2-0, advancing them to the finals. Fnatic lost to [[Natus Vincere]] 2-0 in the grand finals, taking second place.
+
+From March 21 to May 19, Fnatic was invited to compete in Korea at [[Azubu The Champions Spring 2012]]. They were placed in the so-called "Group of Death," Group D. Fnatic's first game was against [[StarTale]] where the Korean playstyle caught Fnatic completely off-guard. They were dominated after a relatively calm first 25 minutes of the game. Two days later, Fnatic saw themselves competing to stay in the tournament's double-elimination bracket. Fnatic took a match and lost a match to make it 1-1, and they needed a win to advance. [[StarTale]], who had lost to [[MiG Blaze]], would once again be in their way. Lauri "[[Cyanide]]" Happonen secured Fnatic an early game advantage, helping them to prevail over the Korean powerhouse. This earned them a spot in the quarter finals, where they played against [[Team OP]]. Despite their motivation, Fnatic was not able to win a single game against them and got knocked out of the tournament after losing 0-2.
+
+Fnatic then participated in the [[RaidCall PLAY Cup 1]] on April 3, 2012. They took second at the event, falling to [[Counter Logic Gaming EU]] in the grand finals. Fnatic most notably defeated SK Gaming and Absolute Legends in the tournament.
+
+On May 23, 2012, [[Pheilox]] joined Fnatic as their sixth player, replacing Mellisan at offline and online events while Mellisan finished his studies.<ref>[http://fnatic.com/news/9831/fnaticrc-lol-announce-sixth-player.html FnaticRC.LoL announce sixth playe] ''fnatic.com''</ref>
+
+With Pheilox, Fnatic placed second at the [[RaidCall PLAY Cup 2]]. Fnatic defeated TCM Gaming in the semifinals to advance to the finals, where they fell to [[Team Acer.PL]].
+
+On June 4 and 5th Fnatic's roster would undergo some notable changes, with long time top laner Shushei being evicted from the team due to his inability to perform up to standards.<ref>[http://fnatic.com/news/9865/fnatic-releases-shushei.html Fnatic releases Shushei] ''fnatic.com''</ref> A day after the announcement of Shushei's departure, Fnatic announced Shushei's replacement, former aAa top laner [[sOAZ]].<ref>[http://fnatic.com/news/9866/fnatic-welcomes-soaz.html Fnatic welcomes sOAZ] ''fnatic.com''</ref> A month after the the roster change, long time support player Mellisan departed Fnatic due to his educational commitments.<ref>[http://fnatic.com/news/9941/mellisan-departs-fnatic.html Mellisan departs Fnatic] ''fnatic.com''</ref>
+
+Having [[Pheilox]] and [[sOAZ]] as their new support and top laner, Fnatic would head to [[2012 MLG Pro Circuit/Spring]] from June 8 to the 10th. Fnatic advanced to Round 2 after a BYE in the first round, where they easily stomped [[Team 4Not.NA|4Not]] 2-0. In the next round they faced [[Epik Gamer]] (known at the time as TSM EVO) and won 2-1. Fnatic then squared off against [[Team SoloMid]]. They could not withstand TSM's aggressive play-style, dropping 0-2 and falling to the loser's bracket. They then played against [[Team Dynamic]] (the future [[Good Game University]]). Despite taking game 1 very easily, Fnatic dropped the next 2 games, losing 1-2 and getting knocked out of the tournament. Fnatic placed 5th/6th.
+
+With MLG Spring over, Fnatic turned their focus to [[DreamHack Summer 2012]], which took place between June 16 and the 19th. Assigned to Group A, Fnatic defeated [[PAH]] and [[Millenium]] while losing to [[Curse Gaming EU]], achieving the second spot of the group with a 2-1 overall score. Moving to the semi-finals, Fnatic battled against the famous [[Counter Logic Gaming EU]]. They were forced to settle for a third-place match after falling 0-2. Fnatic once again played against [[Curse Gaming EU]], but ended up taking 4th place after going 1-2.
+
+Fnatic's next big event was the [[Season Two/Regional Finals - Cologne|Season Two European Regional Finals]], the goal being to get a spot in the top three to qualify for the [[Season 2 World Championship]]. With the eight best teams in Europe in the competition, Fnatic would first go against [[Curse Gaming EU]] in the quarter finals. Though recent events predicted a win for [[Curse Gaming EU]], Fnatic proved to be a strong team by winning the match 2-0. They faced [[Moscow 5]] in the semi-finals for the first time in an offline event. [[Moscow 5]] won game 1 after some intense play. Fnatic battled back and won game 2 very convincingly to become one of the few teams to take a game from [[Moscow 5]] in the tournament. Unfortunately, Fnatic couldn't replicate their game 2 success and were sent to the third-place match. With their trip to the World Championship at stake, Fnatic gave it their all against [[Counter Logic Gaming EU]]. The CLG team commanded by Henrik "[[Froggen]]" Hansen would prove to be too much. With their AD Carry Peter "[[Yellowpete]]" Wüppen carrying CLG, Fnatic was defeated 0-2 and failed to qualify for the Season 2 World Championship.
+
+Fnatic continued to train and attend events. [[Campus Gaming Party: Berlin]] was their next stop, spanning August 21 through 25th. With no big teams on the tournament, Fnatic went 3-0 (6-0 overall) in their group by defeating [[Eclypsia.Luna]], [[SK Gaming]] (who were attending with some subs), and [[Tt Dragons]], taking all matches with 2-0 scores. In the semi-finals, they played against [[mousesports]], winning 2-0. [[Meet Your Makers]] was no match for Fnatic in the finals, as they took the BO5 with a 3-0 score and achieved 1st place.
+
+It was after this that AD Carry Manuel "[[LaMiaZeaLoT]]" Mildenberger would announce his retirement from eSports to pursue his studies and life in Taiwan.<ref>[http://www.fnatic.com/news/10073/lamia-retires-from-gaming.html LaMia retires from gaming] ''fnatic.com''</ref>
+
+===== Pre-Season 3 =====
+From November 1 until the 4th, Fnatic attended [[ASUS Republic of Gamers - Paris Games Week 2012]]. One of the requirements to participate was to have 3 French players.  Fnatic sent a team consisting of [[sOAZ]], [[hyrqBot]], [[xPeke]], [[YellOwStaR]] and [[nRated]] after [[LaMiaZeaLoT]] retired and [[CyanideFI]] left to deal with his highschool studies. Fnatic went 2-1 in the group stages, losing to [[Eclypsia]] by forfeit for arriving late. However, they went undefeated by beating [[GSU Gaming]] 2-0 in the winner's bracket semi-final, 2-0 against [[Eclypsia]] in the winner bracket's final, and 2-0 against [[GSU Gaming]] in the tournament's grand final.
+
+On November 22, Fnatic participated in [[DreamHack Winter 2012]]. They progressed quickly through the group stage, going 3-0 over [[Copenhagen Wolves]], [[Curse Gaming EU]], and [[The Mighty Midgets]]. After taking a decisive 2-0 against Sju Sjösjuka Sjömän in the semifinals, Fnatic advanced to face [[CLG EU]] in the finals. Despite dropping the first game, the team was able to pull out the match two games to one and take home first place.
+
+On November 25, Fnatic announced that they would be participating [[IGN ProLeague Season 5]] because [[Team Alternate]] and [[Eclypsia]] would be unable to attend the event.
+
+On November 30 to December 2, Fnatic participated in [[IGN ProLeague Season 5]]. They placed second in their group, defeating [[Team Dynamic]] and [[Azubu Blaze]], dropping a game only to [[Team WE]]. This would ensure that they advanced to the winners bracket, where they would face Season 2 World Champions [[Taipei Assassins]] and emerge victorious with a 2-0 victory. Fnatic went on to face [[CLG Prime]] in the winner bracket semifinals in a 2-1 comeback series. They then lost  1-2 to [[Team WE]], dropping them into the loser bracket finals against their previous opponents, the [[Taipei Assassins]]. History would repeat itself as Fnatic beat the Taipei Assassins 2-0 to advance to the Grand Finals one game down, coming from the losers bracket. They lost the best of five series 1-3 to [[Team WE]], taking home second place.
+
+Starting December 8 and ending the next day, Fnatic participated in [[THOR Open 2012]] in Stockholm, Sweden. A single group with 5 teams was formed (given that 3 teams cancelled their participation) and Fnatic would sweep the group stage 4 - 0. Going to the semi-finals, they would prevail over [[mousesports]] 2 - 0. Moving on to the final, they would go 2-0 against [[Copenhagen Wolves]] and take 1st place, going completely undefeated.
+
+From December 14 to December 16, Fnatic took a shot at qualifying for IEM World Championship during [[IEM Season VII - Global Challenge Cologne]]. Facing the newly formed Korean team [[SK Telecom T1]], [[Millenium]] and [[mousesports]] in Group A, Fnatic went 3-0 in group stage. They faced [[CJ Entus]] in the semi-finals, losing the first game but winning the next two to move on. In the finals, Fnatic once again faced [[SK Telecom T1]] in a group stage rematch. Their series would be decided by a third match after both teams took a win. In the end, SK Telecom T1 won the third game, with Fnatic placing second overall.
+
+Throughout late 2012, the Swedish player Martin "[[Rekkles]]" Larsson played for Fnatic as their AD Carry. However, on December 24 it was announced that he would not be able to play with Fnatic during Riot's Season 3 Qualifiers and Championship Series due to being underage. Fnatic stated that he would start a second Fnatic team, Fnatic Academy.<ref>[http://www.fnatic.com/news/10371/rekkles-joins-fnatic-academy.html Rekkles joins Fnatic Academy] ''fnatic.com''</ref>
+
+On January 14, Fnatic announced that their AD Carry would now be ex-SK Gaming [[Yellowstar]]. This would also be a reunion for [[sOAZ]] and [[nRated]] with their former [[Against All Authority]] teammate. 
+
+On January 18, [[IEM Season VII - Global Challenge Katowice]] kicked off where Fnatic was placed in group B along with [[Azubu Frost]], [[SK Gaming]] and [[Absolute Legends]]. Fnatic advanced through the group, going 2-1 with victories over both [[SK Gaming]] and [[Absolute Legends]], but losing their match against [[Azubu Frost]]. In the semifinals Fnatic took on the other Korean team in attendance, [[Azubu Blaze]]. Although Blaze won the first game, Fnatic was able to take the best of three series to a third game, with a win in game two. Despite their best efforts though, Fnatic was unable to win the third game and finished in a shared 3rd-4th place for the event.
+
+=== Season 3 ===
+On January 25, Fnatic played in the [[Riot Season 3 Championship Series/Europe/Qualifiers/Main Event|Season 3 Offline Qualifiers]]. In Group A, they would have to face off against [[Anexis eSports]], [[GIANTS! Gaming]], and [[Team ALTERNATE]]. After winning their first match against Anexis, Fnatic advanced to the group's Winners Match where they would lose against GIANTS! Gaming. With a 1-1 score, Fnatic faced elimination and would play in the final game of the group against Team ALTERNATE. After a victory over ALTERNATE, Fnatic advanced to the bracket stage of the offline qualifiers where they played against [[Meet Your Makers]]. Fnatic took a 2-0 victory over the Polish team and qualified for the [[Riot_League_Championship_Series/Europe/Season_3|Season 3 Championship Series]].
+
+====EU LCS Spring Split====
+On February 9, the [[Riot_League_Championship_Series/Europe/Season_3|Championship Series]] kicked off with Fnatic playing matches against both [[SK Gaming]] and [[GIANTS! Gaming]]. Fnatic won both of their day one matches, putting them in first place with a 2-0 record. Fnatic would be a dominant team throughout the rest of the season, eventually taking first place in the Spring Split of the European LCS, with a record of 22-6. This regular season mark was an EU LCS record that would stand until Fnatic themselves broke it, two seasons later. Fnatic then took first place in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Season 3 EU LCS Spring Playoffs]], going 3-2 against [[Gambit Gaming]]. The team retained their spot into the summer split of the LCS season. 
+
+The team qualified to play in the [[IEM Season VII - World Championship]], however did not make it past the group stage, winning only one game going 1-4 and placing ninth in the tournament. 
+
+In April, Fnatic top laner Paul "[[sOAZ]]" Boyer was publicly voted onto the [[Europe LCS]] All Star team to compete at [[All-Star Shanghai 2013]] to play against the world's best All Star teams chosen in the same fashion. The EU LCS first faced off against heavy favorites [[Korea Champions|Korean OGN Champions]]. Despite good early gameplay from Europe, the Korean team overtook them in a 2-0 set. Their next opponent was their sibling league, the [[North America LCS]]. Both teams played an explosive two games of up and down fighting; however, the NA LCS ended up being the victor, knocking the EU LCS out of the tournament. sOAZ was able to win the individual skill exhibition for the tournament as well.
+
+====EU LCS Summer Split====
+On August 17, Fnatic managed to take 2nd place on the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Round_Robin|Summer Split]] after winning the tie breaker against [[Evil Geniuses.EU|Evil Geniuses]], [[Gambit Gaming]] and [[Ninjas in Pyjamas]], granting Fnatic a place in the Semifinals, for the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Summer Playoffs]].
+
+On August 24, Fnatic secured a spot at the [[Season 3 World Championship]] after beating [[Evil Geniuses.EU|Evil Geniuses]] 2-0 in the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Season 3 Summer Playoffs]]. On the following day Fnatic would beat [[Lemondogs]] 3-1 and finish first at the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|LCS Europe Season 3 Summer Playoffs]].
+
+====Season 3 World Championship====
+The Fnatic team would be placed into Group B at the Championships in Los Angeles, and play against European rivals [[Gambit Gaming]], Korean OGN intimidating team [[Samsung Galaxy Ozone]], NA 3rd place seed [[Team Vulcun]] and Filipino champions [[Mineski]]. They would lose their first game against Vulcun but would bounce back in a strong way, with that being the only game they would lose, coming out on top of their group with a record of 7-1 and advancing to the quarterfinals.
+
+In quarters, they would face the much hyped top NA team [[Cloud 9]] and despite some close back and forth games, Fnatic would eliminate the last NA team in a 2-1 set to reach the semifinals. They next went up against the top Chinese seed, [[Royal Club Huang Zu]] who had eliminated their strong Chinese counterpart and who swept their groups, [[OMG]]. The match proved to be an exciting best of 5, showcasing intense team-fighting, however, in the end Fnatic would be the last European team eliminated from the tournament, losing 3-1 and taking home a respectable 3rd place.
+
+===2014 Season===
+Fnatic started off their season at the [[IEM Season VIII - World Championship]]. The team came in 2nd, losing to [[KT Rolster Bullets]] in the Grand Final.
+
+====EU LCS Spring Split====
+The [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Spring Split]] went relatively well for the team. A tight split saw Fnatic finish in 2nd place behind [[SK Gaming]], securing themselves a place in the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Playoffs|Spring Playoffs]]. The whole team raised their game for the playoffs, which saw them emerge victorious after a win against [[Alliance]] in their semifinal match-up, and another against SK Gaming in the Grand Final.
+
+Due to Fnatic's performance in the Spring Playoffs, they had qualified to compete at [[All-Star Paris 2014]], along with other regional winners from around the world. The team made it to the semifinals of the tournament, only losing to the world champions at the time, [[SK Telecom T1 K]].
+
+====EU LCS Summer Split====
+The start of the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] was shaky for the team. Fnatic could not break in to the top 2 until Week 7 of the split, at which point their main rivals [[Alliance]] were already a considerable distance ahead of them in the race for 1st place. [[YellOwStaR]] managed to pick up the MVP award for the entire split, but Fnatic could only manage a 2nd place finish. The team aimed to put the split behind them and focus on the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]]. A close fought win over [[ROCCAT]] in the semifinal meant that the team would face [[Froggen]] and Alliance in the final. The match ended in defeat for Fnatic, but the playoffs saw the team seal their qualification for the [[2014 Season World Championship]].
+
+====2014 World Championship====
+The World Championship saw Fnatic placed in Group C with [[Samsung Blue]], [[OMG]], and [[LMQ]]. The team were only able to win two of six matches in their group, meaning that they would go no further in the tournament.
+
+===2015 Season===
+After being invited to the tournament, the departures of [[Rekkles]], [[xPeke]] and [[Cyanide]] meant that Fnatic would not be able compete at [[IEM Season IX - Cologne|IEM Cologne]]. 
+
+====EU LCS Spring Split====
+Fnatic's new roster, including Korean imports [[Huni]] and [[Reignover]] alongside [[Steeelback]], [[Febiven]], and [[YellOwStaR]], had a successful [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]], finishing 2nd in the regular season with a 13-5 record. This secured them a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]]. Fnatic beat [[H2k-Gaming]] in their semifinal matchup, and went on to secure 1st place after taking a 3-2 win over [[Unicorns Of Love]] in the playoff final. This meant that the team would pick up 90 [[2015 Season/Championship Points|Championship Points]] towards qualification for the [[2015 Season World Championship]].
+
+====2015 Mid-Season Invitational====
+This also meant that Fnatic would represent Europe at the [[2015 Mid-Season Invitational]]. The team had a relatively successful tournament, which they opened with a decisive win over [[Team SoloMid]]. They also had a notably close group stage game with [[SK Telecom T1]], but went on to lose the game. Fnatic finished the group stage in 4th place, meaning they would advance to the bracket stage. They faced [[SK Telecom T1]] in the semifinals, this time playing out a close series, but ultimately losing 3-2.
+
+====EU LCS Summer Split====
+Now with [[Rekkles]] on the roster instead of Steeelback, the team went into the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Season]] with confidence running high after their performance on the international stage. Fnatic managed to finish the regular season with a perfect, unbeaten 18-0 record - and became the first team to achieve this in [[League Championship Series]] history. This meant a 1st place regular season finish for the team and a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]]. Fnatic went on to win the playoffs, beating [[Origen]] 3-2 in a tight final. This qualified the team for the [[2015 World Championship]], where they would compete as Europe's #1 seed.
+
+====2015 World Championship====
+At the [[2015 World Championship]], Fnatic were seeded into Group B along with [[ahq e-Sports Club]], [[Invictus Gaming]], and [[Cloud9]]. They picked up four wins in the group, going unbeaten in the second week of group stage games, meaning they would advance to the knockout stage of the tournament. In the quarterfinals, Fnatic beat [[EDward Gaming]] 3-0 before suffering a 3-0 loss to [[KOO Tigers]] in the semifinals, putting an end to their campaign.
+
+=== 2016 Season ===
+
+====EU LCS Spring Split====
+In the preseason, Fnatic had sustained multiple roster changes, with YellOwStaR, Huni, and Reignover all leaving the team for North American teams. They were replaced by [[Noxiak]], [[Spirit]], and [[Gamsu]], though after an unsuccessful [[IEM Season X - Cologne|IEM Cologne]] and four weeks of the [[League Championship Series/Europe/2016 Season/Spring Season|EU LCS split]], Noxiak was replaced by rookie [[Klaj]]. Despite being only in fifth place in the EU LCS at the time of the tournament, Fnatic were invited to [[IEM Season X - World Championship|IEM Katowice]] due to their previous season's success. There, they had a surprisingly strong run, finishing in second place behind SK Telecom T1 after finding success with Rekkles on [[Jhin]]. Back home, Fnatic qualified for the [[League Championship Series/Europe/2016 Season/Spring Playoffs|EU LCS playoffs]] in sixth place, with a 9-9 record on the season.
+
+In the playoffs, Fnatic upset [[Team Vitality]] 3-1 before losing to eventual champions [[G2 Esports]] 3-1 in the semifinals. They rebounded to finish on a high note after defeating [[H2k Gaming]] in the third place match 3-2. The following month, Klaj moved to Fnatic Academy as Fnatic reformed their Challenger squad, and on May 11, YellOwStaR rejoined Fnatic from TSM.<ref name="yellowstarmay2016">[http://www.youtube.com/watch?v=dCHjC2hzSiA California Dreamin'] ''youtube.com''</ref>
+
+====EU LCS Summer Split====
+With the veteran YellOwStaR back at the helm, Fnatic improved marginally upon their previous split's regular season success. In the EU LCS's revamped best-of-two format, Fnatic began the season admirably, going 5-2-1 in four weeks and holding sole possession of first place. After struggling to repeat this success, and with inconsistent top lane play, Fnatic replaced [[Gamsu]] with former [[G2 Esports]] top laner [[Kikis]], bringing in [[Giants Gaming]] top laner [[Werlyb]] as a substitute.<ref>[http://fnatic.com/content/96710 Fnatic Website Post] ''fnatic.com''</ref> The new top laners combined for a 2-4-2 record, as Fnatic slid to fifth place at 7-6-5 with a tiebreaker loss to [[H2k Gaming]]. 
+
+Defaulting to [[Kikis]] in the top lane for the [[League_Championship_Series/Europe/2016_Season/Summer_Playoffs|playoffs]], Fnatic faced [[H2k]] in the quarterfinals, but lost 0-3 to the eventual World Championship semifinalists. Fnatic next competed in the [[2016_Season_Europe_Regional_Finals|Regional Finals]], where they were dispatched 0-3 by a red-hot [[Unicorns of Love]]. 
+
+===2017 Season===
+In an offseason vividly reminiscent of 2015, Fnatic again suffered roster losses to four fifths of its positions. With the retirement of long-time support player YellOwStaR, along with the departures of [[Spirit]] and [[Febiven]] to the [[Afreeca Freecs]] and [[H2k Gaming]], respectively, and [[Kikis]] stepping down to a substitute role, Fnatic searched for a roster to reinvigorate its middling position among the EU LCS. Fnatic first turned to former top lane legend [[sOAZ]] and veteran jungler [[Amazing (Maurice Stückenschneider)|Amazing]] as they departed a similarly emptying [[Origen]], and picked up LCS rookie [[Caps]] and [[Immortals]] coach [[Jesiz]] as support.
+
+====EU LCS Spring Split====
+The EU LCS changed format once more for the [[League_Championship_Series/Europe/2017_Season/Spring_Season|Spring Split]], and Fnatic were placed in Group A alongside [[G2 Esports]], [[Misfits (European Team)|Misfits]], [[Team ROCCAT]], and [[Giants Gaming]]. During the split [[Amazing (Maurice Stückenschneider)|Amazing]] left and [[Broxah]] took his place as starting jungler. Their performances were mediocre with both jungler though and they placed 3rd in Group A with a record of 6 won series and 7 lost ones. In Round 1 of [[League_Championship_Series/Europe/2017_Season/Spring_Playoffs|playoffs]] they clean swept 2nd place of Group B H2k to face favorite G2 in semifinals. There they put up a good fight but lost the series 1-3 before stomping Misfits in third-place match to qualify for [[Rift_Rivals_2017/NA-EU|Rift Rivals]].
+
+====EU LCS Summer Split====
+Fnatic were placed in a familiar Group A alongside G2 Esports, Misfits, Team ROCCAT, and [[Ninjas in Pyjamas]]. With the help of the new coach [[Dylan Falco]] [[League_Championship_Series/Europe/2017_Season/Summer_Season|Summer Split]] started great and they went into Rift Rivals as first place in their group with a 6-1 record. After nerfs to their favoured strategy with ADC Kennen they only managed to beat [[Phoenix1]] at Rift Rivals but lost their games against both Cloud 9 and [[TSM]] as well as Europe the finals of the tournament. Their domestic opponents could not exploit this weakness though and Fnatic held on to first place in their group. Despite the dominant regular season they got clearly beaten in semifinals by 3rd seed from their group Misfits and only managed to get 3rd place by beating H2k-Gaming in a snowbally series 3-2. Fnatic went into [[2017_Season_Europe_Regional_Finals|Regional Finals]] as first seed and faced again H2k in the finals where they clean swept them this time to qualify for the [[2017_Season_World_Championship/Main Event|World Championship]] as Europe's third seed.
+
+====2017 World Championship====
+They won their Group C in Play-In against [[Young Generation]] and [[Kaos Latin Gamers]] and also swept past [[Hong Kong Attitude]] in round 2 to qualify for the Main Event. There they were placed in group B with LCK first seed [[Longzhu Gaming]], VCS representative [[GIGABYTE Marines]] and NA LCS 2nd seed [[Immortals]]. After week 1 Fnatic was last in group B losing all 3 games. After losing their opening game of the group deciding day against LZ all hope seemed lost but they managed to win their rematches against IMT and GAM and got lucky that the other games played out for a 3-way-tie for 2nd place of the group. They won both tiebreaker games to reach quarterfinals as the first team to get out of groups despite starting 0-3. In quarterfinals they were beaten by [[Royal Never Give Up]] after 4 slow games 1-3.
+
+===2018 Season===
+During preseason [[Hylissang]] replaced [[Jesiz]] as support. [[Bwipo]] joined too as sub-toplaner.
+
+====EU LCS Spring Split====
+EU LCS format changed again, going back to 2016 Spring Season's format. After a mediocre 3-3 start to [[EU LCS/2018_Season/Spring_Season|Spring Split]] Fnatic won 11 of their remaining 12 series including two in which they gave Bwipo a chance and found themselves in first place after regular season. In [[League_Championship_Series/Europe/2018_Season/Spring_Playoffs|playoffs]] Fnatic was forced to play with Bwipo because sOAZ injured his hand. Bwipo as well as the rest of the team showed good performances in a decisive 3-1 semifinal series against Vitality as well as a clean sweep in the final against G2 to reclaimed the EU LCS title after a 2 year and 4 LCS Splits drought.
+
+====2018 Mid-Season Invitational====
+At the [[2018_Mid-Season_Invitational/Main_Event|Mid-Season Invitational]] they faced RNG, FW, [[Kingzone DragonX]], [[Team Liquid]], and [[EVOS Esports]]. Fnatic were in a good position after 7 games with a 4-3 record and games against TL and EVOS left to play. Due to losing their remaining 3 group stage games they dropped down to a tiebreaker against TL which they convincingly won. In semifinals they put up a decent fight against RNG but were clean swept.
+
+====EU LCS Summer Split====
+With [[sOAZ]] regaining his form Fnatic intended to share game time between their toplaners. [[EU LCS/2018_Season/Summer_Season|Summer Split]] came with patch 8.11 which changed the meta in a way that caused some issues for marksmen as botlane carries. Due to that [[Rekkles]] benched himself after week 1 and [[Bwipo]] moved to starting bot-laner. After 3 patches and 6 weeks of inactivity Fnatic slowly began to reintegrate [[Rekkles]] into the starting roster. Overall the team had a good split and ended up in first place after regular season with a 13-5 record. They went into playoffs as slight favorite and proved these expectation to be right as they won semifinals against Misfits and finals against [[FC Schalke 04]] with decisive 3-1's for their 7th EU LCS title and qualifying as first seed for Europe at the [[2018_Season_World_Championship/Main Event|2018 World Championship]].
+
+====2018 World Championship====
+Fnatic was drafted in group D, alongside NA LCS 2nd seed [[100 Thieves]], LPL 2nd seed [[Invictus Gaming]], and LMS third seed [[G-Rex]]. They got first place in the group, with a record of 5-1 due to beating iG in a tiebreaker match. They advanced to the quarterfinals where they faced [[EDward Gaming]], and while dropping the first game, they managed to come back and win the series 3-1. In the semifinals they faced [[Cloud9]] where Fnatic showed great strength, ultimately sweeping the last remaining NA representative 3-0. Despite justified hopes to beat iG again, they ultimately failed to do so, falling 3-0 to China's second seed.
+
+===2019 Season===
+On November 20, Riot Games announced Fnatic as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref> Fnatic had to suffer the loss of Caps who decided to join G2 during the offseason whilst also having to choose which one of their toplaners they want to move forward with. They decided to trust Bwipo and signed [[Nemesis]] from LVP team [[MAD Lions E.C.]] as new midlaner while Soaz joined Misfits. After struggling during the first half of [[LEC/2019 Season/Spring Season|Spring Split]] the roster came back from a 3-7 record 5 weeks into the split and went on a 8 game winstreak to go into playoffs as 3rd seed. In playoffs they chose Vitality as Round 1 opponents and clean swept them before beating Splyce in Round 2 in convincing 3-1 fashion. In semifinals they faced Origen and partially due to a poor read of the new development in the botlane meta they clearly lost 1-3.
+
+Fnatic went into [[LEC/2019 Season/Summer Season|Summer Split]] with the determination to challenge G2 and started off really well. They went into [[Rift Rivals 2019/NA-EU | Rift Rivals]] as 1st with a 6-0 record including a dominant victory over G2. Along with G2 and Origen they continued their dominant start against NA representatives TL, TSM and C9 and won the tournament for LEC 3-1. After Rift Rivals the team lost to Splyce and had another three 1-1 weeks right after whilst experimenting with drafts and roster including upsets by Rogue and Misfits. Under pressure by Splyce they regained their composure before the end of the split and got 2nd seed which meant a direct ticket to Athens by winning their last 4 matches including the rematch against Splyce.
+In Round 2 against G2 they had a great start by matching G2’s willingness to fight with lots of mobility and snowballed to a quick 2-0 lead. Despite G2 adapting their draft Fnatic also found themselves in the lead in game 3 but after some questionable baron calls G2 managed to turn the game and series around. Games 4 and 5 went heavily in G2 favour as well with the last game being pretty much decided within the first 5 minutes by coming out ahead of every gank and skirmish and Fnatic barely avoided conceding the fastest loss in EU history. This meant that Fnatic would have to win once again 2 Bo5’s in 2 days to win the split at the finals weekend in Athens. Opposed to Spring Split they came into the semifinal as clear favorite and despite a few hiccups they outclassed Schalke 04 in a 3-0 sweep to qualify for [[2019 Season World Championship/Main Event|Worlds]] and seeked revenge against G2 in the finals on Sunday. The finals started off absolutely crazy with 7 kills within the first 3.5 minutes during which Fnatic came out ahead and by punishing a few mistakes from G2 well they convincingly showed that they had recovered from the reverse sweep a week before. This trend continued throughout the series as the team that held an gold lead after the early game would extend it slowly further and close it out pretty cleanly. In the deciding game 5 Fnatic had a horrible start and found themselves down 2k gold before even 6 minutes were played. By punishing a few overreaches from G2 they managed to stay in the game though and managed to show the concept of their teamfight composition a few times in the mid game. After a fumbled baron attempt and a few players getting picked off they could not stop G2 from destroying their base anymore and lost once again 2-3.
+
+At Worlds Fnatic was drawn into group C, alongside NA LCS 3rd seed [[Clutch Gaming]], LPL 2nd seed RNG, and LCK 1st seed SKT into the "group of death". After a rough first week where they got clearly beaten by SKT and RNG they reconsidered their drafts for the deciding day of groups going back to marksmen in bot lane. After a nailbiter win against Clutch they found themselves once again down 2k gold early vs SKT but managed to turn the game around by outplaying a SKT towerdive to snowball the game to a clean victory. Advancement of the group still came down to the rematch against their nemesis RNG in the last game of the day. This time however they managed to overcome RNG in a clear victory increasing their deciding group day record to 13-1. In quarterfinals they were drawn against LPL 1st seed [[FunPlus Phoenix]] where they were shown their limits and lost in a dominant 1-3.
+
+===2020 Season===
+For the 2020 season Fnatic had to replace Youngbuck and chose to put their trust into former Origen support [[mithy]]. They also replaced Broxah with SK jungler [[Selfmade]] while keeping the rest of the roster together. After losing their opening match of [[LEC/2020 Season/Spring Season|Spring Split]] they picked up 4 must-win-games before being destroyed by G2. Unfazed by this they only allowed a single upset to happen until last week of Regular Season and ended up in second place with a 13-5 record. In Round 1 of playoffs they had a great counter to Origen's slow playstyle and absolutely dominated the first two games. They managed to stall out game 3 very long but could not turn it around but managed to snowball a positional mistake by their opponents in the midgame of game 4. In semifinals they faced [[MAD Lions]] but came very well prepared and completely dominated the series to wait for their opponent in finals. This turned out to be G2 and despite predicting which type of compositions they wanted to play they did not manage to find a counter and were therefore outdrafted and additionally also outplayed for the entirety of the series. The match ended with a score of 3-0 for [[G2 Esports]].
+
+In the summer split, the regular phase was quite tough for [[Fnatic]]. They finished it with a score of 9-9, which barely gave them a place in the top four and thus the start of the play-offs in the semi-finals of the upper bracket. There they faced the [[Rogue (European Team)|Rogue]] team, beating them convincingly 3-0. In their next game they faced [[G2 Esports]]. The match was very even and exciting. In the end, Fnatic won 3-2 and secured their place in the grand final. Despite being placed as favourites, Fnatic lost 0-3 in the grand final to [[G2 Esports]], who thus avenged their earlier defeat.
+
+Fnatic went to the [[2020 Season World Championship|World Championship 2020]] as the 2nd seed from Europe. They played in a group with teams : [[TSM]], [[LGD Gaming]] and [[Gen.G]]. With a score of 4-2, they emerged from the group in second place. In the quarter-finals they faced [[Top Esports]]. It was an exciting match, at one point Fnatic were leading 2-0 despite not being favourites, but then [[Top Esports]] surprisingly started to play much better and made their first reverse sweep in World Championship history, winning 3-2. Fnatic thus ended the tournament in the quarter-finals.
+
+===2021 Season===
+During the offseason, Fnatic made four line-up changes. In the middle lane [[Nemesis]] was replaced by [[Nisqy]]. In the top lane, [[Adam (Adam Maanane)|Adam]] stepped in to replace [[Bwipo]]. Meanwhile, [[Bwipo]] did a role swap and performed in the jungle replacing [[Selfmade]]. The team's biggest star, [[Rekkles]], also left after his contract expired. In his place, [[Upset]] stepped into the ADC position.
+
+The regular phase of the [[LEC 2021 Spring]] split went poorly for Fnatic. With a score of 9-9 they finished 5th in the table making the play-offs start from the lower bracket. In their first match of the play-offs they played against [[SK Gaming]], whom they defeated 3-1 after a rather tough match. However, in their next game they lost 0-3 to [[Schalke 04]] after a poor game and thus finished the spring split in 5th place.
+
+In the [[LEC 2021 Summer]] split, [[Fnatic]] played much better. In the regular phase, the situation in the table was very even. Fnatic finished in 5th place with a score of 11-7, and just like in the spring they started the play-offs in the lower bracket. In the first two matches they won by the same score of 3-2 against [[Vitality]] and [[Misfits Gaming]], respectively. In their third match they faced [[G2 Esports]], which decided who would go to the [[2021 Season World Championship|World championship 2021]]. After a thrilling encounter, Fnatic won 3-2. The next match to enter the grand finals was not difficult for Fnatic, they won 3-0 in dominant style against [[Rogue (European Team)|Rogue]]. However, in the final, [[MAD Lions]] proved too strong for Fnatic. The match ended with a score of 3-1 for [[MAD Lions]].
+
+Fnatic went to the [[2021 Season World Championship|World Championship 2021]] as the 2nd seed from Europe. Unfortunately, [[Upset]] could not perform at them due to personal reasons. He was replaced by [[Bean (Louis Schmitz)|Bean]] from Fnatic's academy. 
+In the group stage they played against teams : [[Royal Never Give Up]], [[Hanwha Life Esports]] and [[PSG Talon]]. They finished the competition in last place with a score of 1-5.
+
+===2022 Season===
+In the off-season, [[Fnatic]] made three changes after the failed [[2021 World Championship]]. In the top lane, [[Adam (Adam Maanane)|Adam]] left, replaced by multiple LEC champion [[Wunder]]. In the jungle, [[Razork]] replaced [[Bwipo]]. In the mid lane [[Humanoid]] changed [[Nisqy]].
+
+In the [[LEC 2022 Spring]] Split, [[Fnatic]] looked good from the start. They finished the group phase in second place with a score of 13-5 behind [[Rogue (European Team)|Rogue]], who only had one more win. They started the play-offs in the semifinals of the upper bracket, where they won in good style 3-1 against [[G2 Esports]]. In the small final they played against [[Rogue (European Team)|Rogue]]. They led 2-0, unfortunately they lost the next three maps and the match ended 3-2 for [[Rogue (European Team)|Rogue]]. Fnatic dropped to the lower bracket, where they met again with [[G2 Esports]], who then looked great and had a series of three matches won, each 3-0. This one also ended with a score of 3-0 for [[G2 Esports]] and Fnatic finished the spring split in 3rd place.
+
+In the [[LEC 2022 Summer]] Split, [[Fnatic]] did not play well in the regular season. Until the last week it was not known whether they would enter the play-offs, finally with a score of 10-8 they managed to advance. They started the play-offs with a match against [[Excel]] in the bottom ladder. After a tough encounter they won 3-2 and advanced further. In the next two matches they defeated [[Misfits Gaming]] 3-0 and [[MAD Lions]] 3-1. In the match to enter the finals, they played against [[Rogue (European Team)|Rogue]], lost to them 1-3 and, just like in last year's split, finished the competition in 3rd place.
+
+[[Fnatic]] went to the [[2022 Season World Championship|World Championship 2022]] as the 3rd seed from Europe, and they started with the play-ins. In the play-in group they took first place with a score of 4-1 and advanced directly to the group stage.
+In the group they played against [[T1]], [[Edward Gaming]] and [[Cloud9]]. Despite a surprisingly good start and winning the first two matches, they lost the remaining four. With a score of 2-4 they took 3rd place and did not advance to the next phase of the competition.
+
+===2023 Season===
+Fnatic has made important changes for the 2023 LEC season. Head coach [[YamatoCannon]] left the team. After 5 years, support [[Hylissang]] also left the team, and ADC [[Upset]] was benched. In their places, [[Crusher]] joined from the academy as head coach and support [[rhuckz]]. [[Hiiva]] also joined the club as an assistant coach. Meanwhile, the legendary [[Rekkles]], who had been with Fnatic for almost 8 years in the past, returned to the ADC position.
+
+The [[LEC Winter 2023]] split was a bad one for Fnatic. In the regular season they scored only 2 wins (against [[KOI (Spanish Team)|KOI]] and [[Excel Esports]]), and as many as 7 defeats. Despite the many defeats, it was in the last game against [[SK Gaming]] that they still had a chance to fight their way into the play-offs. Unfortunately, they lost and with a score of 2-7 finished the split in 9th place, thus not entering the play-offs for the first time in the organisation's history.
+This prompted Fnatic to make changes to the line-up for the next spring split. [[Wunder]] was benched, while [[rhuckz]] moved to the Fnatic academy. In their places from the academy came young 19-year-old toplaner [[Oscarinin]] and Dutch support [[Advienne]]. Meanwhile, [[Nightshare]] became the new Fnatic coach, replacing [[Crusher]].
+
+[[LEC 2023 Spring Season|Spring]] saw a little improvement for the black and orange. With a notable upset against Winter winners [[G2 Esports]], they ended the regular season in 6th place, with a 4-5 record. However they then went on to lose two close best-of-three series against [[Astralis]] and [[MAD Lions]], finishing last in their group.
+During the following offseason, [[Rekkles]] surprised everyone by officially announcing his role swap to support. The very next day, Fnatic announced that the former AD carry would not be part of their summer lineup; instead they recruited a young korean player, [[Noah (Oh_Hyeon-taek)|Noah]]. They also traded supports with [[KOI (Spanish Team)|KOI]], adding [[Trymbi]] to their lineup. These changes were much more effective, as Fnatic ended the [[LEC 2023 Summer Season|summer season]] in second place, with a 7-2 record. In their first group stage match, they lost 0-2 to [[SK Gaming]].
+
+== Trivia ==
+* '''Fnatic''' finished in third place of the "''Esports Organisation of the Year''" prize at the Esports Awards in 2018, losing to '''FaZe Clan''' and [[Cloud9]].<ref>[https://twitter.com/esportsawards/status/1062119408578056192 Esports Awards' Tweet] ''twitter.com''</ref>
+* On July 22, 2023, '''Fnatic''' was the first organization to secure 10,000 total kills in EU LCS & LEC history.<ref>[https://twitter.com/LEC/status/1682808518003380238 LEC's Tweet] ''twitter.com''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+{{EUAcademyRosterNotice}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||uk|Anne Mathews|'''Director'''}}
+{{listplayersp|Nick Fry|uk|Nicholas Richard Fry|'''Advisor'''}}
+{{listplayersp||uk|Samuel Mathews|'''Co-Founder & Chief Executive Officer'''}}
+{{listplayersp|cArn|se|Patrik Sättermon|'''Co-Founder & Chief Gaming Officer'''}}<!--Jan 2006-->
+{{listplayersp|||Patrick Foster|'''Chief Financial Officer'''}}<!--Nov 2020-->
+{{listplayersp||uk|Flora Mayo-Jennings|'''Executive Assistant to CEO and Founder'''}}
+{{listplayersp||nz|Brad Richards|'''VP Operations'''}}<!--Aug 2018-->
+{{listplayersp||fr|Chloé Marinier|'''Head of Special Projects and Strategy'''}}<!--Nay 2017-->
+{{listplayersp||uk|Georgina Macauley|'''Marketing Director'''}}<!--Nov 2020-->
+{{listplayersp||uk|Kevin Xu|'''Product Lead (Gear)'''}}
+{{listplayersp||uk|Kate Skelton|'''Design Lead - Apparel'''}}
+{{listplayersp|Kirbers12|uk|Hannah Kirby|'''People Operations Manager'''}}
+{{listplayersp|McMuffinx33||Thanh-Ngoc Le|'''Community and Streaming Manager'''}}
+{{listplayersp|Davard|uk|David Edwards|'''Senior Social Media Manager'''}}
+{{listplayersp|Geomancy|uk|Anisah Munim|'''Esports Operation Manager'''}}
+{{listplayer|GrabbZ|de|Fabian Lohmann|'''Head Coach'''}}
+{{listplayer|Gaax|es|Pablo Vegas Pérez|'''Coach'''}}
+{{listplayer|Odoamne|ro|Andrei Pascu|'''Assistant Coach'''}}
+{{listplayersp|Immanuelity|de|Richard Wolter|'''Performance Coach'''}}
+{{listplayersp|BaLoRi|||'''Content Creator'''}}
+{{listplayersp|PilotCeeBee|de|Lea Heiermann|'''Content Creator'''}}
+{{listplayersp|JordiLMK|es||'''Co-Streamer'''}}
+{{listplayer|Obsess|de|Patrick Engelmann|'''Co-Streamer'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Stendwol|uk|Metin Ari|'''Video Editor'''|newteam=NIP}}<!--Nov 2022 - Jan 2026-->
+{{listplayersp|Esportmaníacos|es||'''Co-Streamer'''|newteam=none}}
+{{listplayer|Duffman|uk|Christopher Duff|'''Assistant Coach'''|newteam=SK}}
+{{listplayersp||za|Edward Gregory|'''Marketing Lead'''|newteam=retired|comment=Barclays}}<!--Oct 2019 - Aug 2025-->
+{{listplayersp||uk|Ian Dunbar|'''Logistics and SCM Lead'''|newteam=none}}<!--Sep 2014 - Jun 2025-->
+{{listplayersp|Swallaspaa|au|Peter Nguyen|'''LoL Content Manager'''|newteam=none}}
+{{listplayer|Hidon|dk|Jonas Vraa|'''Coach'''|newteam=HRTS}}
+{{listplayer|Dardo|es|Javier Zafra de Jáudenes|'''Team Director'''|newteam=none}}
+{{listplayer|Caedrel|uk|Marc Robert Lamont|'''Content Creator'''|newteam=Los Ratones}}
+{{listplayer|Nightshare|cz|Tomáš Kněžínek|'''Head Coach'''|newteam=Retired}}
+{{listplayer|Jovirone|br|João Victor Rodrigues|'''Content Creator'''|newteam=Laranja Mecânica}}
+{{listplayer|Hiiva|fi|Aleksi Kaikkonen|'''Strategic Coach'''|newteam=Arctic Pandas}}
+{{listplayersp|just.r0ss|de|Chris Österreicher|'''Team Manager'''|newteam=none}}
+{{listplayer|Shaves|uk|Kevin Edward Tolman|'''Strategic Coach'''|newteam=KCorp}}
+{{listplayer|Rhobalas|fr|Valentin Ancelin|'''Content Creator'''|newteam=none}}
+{{listplayersp|Golders|uk|Harry Goldman|'''Partnerships Executive'''|newteam=retired|comment=McLaren Racing}}<!--Sep 2023-->
+{{listplayer|Crusher|pt|Gonçalo Brandão|'''Head Coach'''|newteam=KOI Academy}}
+{{listplayersp||nz|Neil Walker|'''Senior Partnerships Manager'''|newteam=retired|comment=McLaren Racing}}<!--Mar 2023-->
+{{listplayer|Sens (Jaime Callejas de la Pinta)|es|Jaime Callejas de la Pinta|'''Performance Coach'''|newteam=Retired|comment=Counter Strike 2}}
+{{listplayer|YamatoCannon|se|Jakob Mebdi|'''Head Coach'''|newteam=LSB}}
+{{listplayersp|MindBodyEsports|us|Edward Cleland|'''Health and Performance Consultant'''|newteam=Golden Guardians}}<!--Aug 2022 - Nov 2022-->
+{{listplayersp|Fab|de|Fabian Ottawa|'''Performance Coach'''|newteam=none}}
+{{listplayersp|Tony|uk|James Forster|'''Partnerships Manager'''|newteam=retired|comment=ESL FACEIT Group}}<!--Nov 2022-->
+{{listplayersp||fr|Lucien Boyer|'''Chairman'''|newteam=retired|comment=Global Sports Week}}<!--Sep 2020 - Sep 2022-->
+{{listplayersp||uk|Jonathan Briggs|'''Head of Direct-to-Consumer'''|newteam=retired|comment=Science in Sport Group}}<!--Nov 2020 - Sep 2022-->
+{{listplayersp||fr|Julien Dupont|'''Partner Development Director'''|newteam=retired|comment=RnK}}<!--Sep 2022-->
+{{listplayersp||se|Arvid Pålsson|'''Program Lead'''|newteam=retired|comment=Cooler Master}}<!--Sep 2022-->
+{{listplayersp|Shaolan|fr|Vincent Dalagi|'''Senior Technical Recruiter'''|newteam=Ici Japon Corp. Esport}}<!--Jun 2021 - Aug 2022-->
+{{listplayersp||uk|Oliver Royce|'''Head of Apparel'''|newteam=retired|comment=VEYND}}<!--Aug 2022-->
+{{listplayersp||uk|Vincent Bodelin|'''Senior Technical Recruiter'''|newteam=Mirage Elyandra}}<!--Aug 2022-->
+{{listplayersp|Revoluti8n|uk|Matt Duff|'''Event Manager'''|newteam=retired|comment=Esports Engine}}<!--Jul 2022-->
+{{listplayersp||uk|Rebecca Grant|'''People Advisor'''|newteam=retired|comment=eduMe}}<!--Jul 2022-->
+{{listplayersp||uk|Michael Isteed|'''Head of Finance'''|newteam=retired|comment=Easol}}<!--May 2022-->
+{{listplayer|ELO SANTA|lt|Erikas Alševskij|'''Streamer'''|newteam=none}}
+{{listplayer|Tolki|fr|Gary Mialaret|'''Analyst'''|newteam=Retired|comment=Tachikoma AI}}
+{{listplayer|Veteran|uk|Michael Archer|'''Streamer'''|newteam=Caster}}
+{{listplayersp|Fuzzmonkey|uk|Phillip|'''Streamer'''|newteam=none}}
+{{listplayersp|Ninetta|hu|Nina|'''Streamer'''|newteam=none}}
+{{listplayersp|||Andrew Cooke|'''General Counsel'''|newteam=retired|comment=TravelPerk}}<!--Jan 2022-->
+{{listplayersp||uk|Soraya Selinger|'''Head of Creators'''|newteam=retired|comment=Fender Musical Instruments}}<!--Nov 2021-->
+{{listplayersp|timotijewb|rs|Djordje Timotijevic|'''Creative Production Lead'''|newteam=G2}}<!--Nov 2021-->
+{{listplayersp||uk|Heru Prasetyo|'''Video Content Lead'''|newteam=retired|comment=Nothing}}<!--Nov 2021-->
+{{listplayersp||se|Victor Bengtsson|'''Creator Manager'''|newteam=retired|comment=Arcade Media}}<!--Sep 2021-->
+{{listplayersp||uk|Connor Wilson|'''Creator Talent Manager'''|newteam=retired|comment=Cube Esports}}<!--Jul 2021-->
+{{listplayersp||uk|Mark Pretty|'''Apparel Consultant (Buying and Merchandising)'''|newteam=retired|comment=Asprey}}<!--Jun 2019 - Jul 2021-->
+{{listplayersp||uk|Clement Murphy|'''Editorial Lead'''|newteam=retired|comment=The Premier League}}<!--Jul 2021-->
+{{listplayersp|||Maisie Ashrafi|'''Marketing Executive'''|newteam=GIANTX}}<!--Jun 2021-->
+{{listplayersp||pl|Oskar Sisi|'''Product Creative Director'''|newteam=GIANTX}}<!--Jun 2021-->
+{{listplayersp||uk|Raphael Rau|'''Business Development Executive'''|newteam=retired|comment=AS Monaco}}<!--Jun 2021-->
+{{listplayersp||uk|Glen Calvert|'''Chief Operating Officer'''|newteam=retired|comment=Bidstack Group PLC}}<!--May 2021-->
+{{listplayer|styllEE|dk|Snorkil Kristensen|'''Streamer'''|newteam=Hillerød eSport}}
+{{listplayersp|Kamillala|no|Kamilla|'''Streamer'''|newteam=none}}
+{{listplayersp|Lathyrus|dk||'''Streamer'''|newteam=none}}
+{{listplayersp||se|Erik Londré|'''Head of Events'''|newteam=Retired|comment=Karta}}
+{{listplayersp||uk|Craig Santicchia|'''Partner Development Director'''|newteam=Retired|comment=Karta}}
+{{listplayersp|||Simon Brown|'''Product Director'''|newteam=Retired|comment=MoonPay}}
+{{listplayersp|BKJELL|uk|Brendan Husebø|'''Social Media Manager'''|newteam=Retired|comment=Nothing}}
+{{listplayer|Mithy|es|Alfonso Aguirre Rodríguez|'''Head Coach'''|newteam=C9}}
+{{listplayersp||ar|Matías Blanco|'''Team Head Chef'''|newteam=Retired|comment=DALUMA}}
+{{listplayersp|LocoEX|de|Alexander Hugo|'''Team Manager'''|newteam=none}}
+{{listplayer|Shaves|uk|Kevin Edward Tolman|'''Strategic Coach'''|newteam=FNC|comment=Strategic Coach}}
+{{listplayer|Aagie|es|Carlos Cuenca|'''Analyst'''|newteam=MAD Lions}}
+{{listplayersp||ee|Paula Viidu|'''Branded Content Lead'''|newteam=Retired|comment=UNLEASH}}
+{{listplayersp||rs|Darko Ikonic|'''Supply Chain Manager'''|newteam=Misfits Gaming}}
+{{listplayersp|Alex Hobern|uk|Alexander Hobern|'''Creative Director & Head of Content'''|newteam=XL}}
+{{listplayersp|CharleyGC|uk|Charley Grafton-Callaghan|'''Global Communications Lead'''|newteam=Retired|comment=Green Man Gaming}}
+{{listplayersp|QuotidianJoe|uk|Joe Graham|'''Social Media Manager'''|newteam=Retired|comment=Creative Assembly}}
+{{listplayer|Veigar v2|no|Marius Aune|'''Strategic Coach'''|newteam=Dusty}}
+{{listplayersp||rs|Ivan Bogdanovic|'''Senior Graphic Artist'''|newteam=Misfits Gaming}}
+{{listplayersp|Careion|de|Jan Hoffmann|'''Team Operations'''|newteam=none}}
+{{listplayersp|Melon|de|Carlos Miguel Malzahn|'''Team Manager'''|newteam=Retired|comment=Bezirksamt Pankow}}
+{{listplayersp||de|Jeremias Knehr|'''Assistant Team Manager'''|newteam=none}}
+{{listplayersp||be|Kris Perquy|'''Sport Psychologist'''|newteam=none}}
+{{listplayersp||fr|Benoit Pagotto|'''Brand Director & Head of Marketing'''|newteam=Retired|comment=RTFKT studios}}
+{{listplayer|Mephisto|fr|Louis-Victor Legendre|'''Assistant Coach'''|newteam=VIT}}
+{{listplayersp||uk|Jessica Sturkey|'''Head of Finance'''|newteam=none}}
+{{listplayer|Mapache|es|Alejandro<!--Alex--> Parejo Martinez|'''Head Analyst'''|newteam=XL}}
+{{listplayer|YoungBuck|nl|Joey Steltenpool|'''Head Coach'''|newteam=XL}}
+{{listplayersp|||Gary Kennedy|'''Group Finance Director'''|newteam=Retired|comment=Echo}}
+{{listplayersp||rs|Jelena Markovic|'''Head of Apparel and Merchandise'''|newteam=VIT}}
+{{listplayersp||rs|Sonja Jovicic|'''Graphic Designer'''|newteam=Misfits Gaming}}
+{{listplayersp|Gegemont|uk|Samir Mamedau|'''Head Analyst'''|newteam=none}}
+{{listplayersp|Garki|de|Michael Bolze|'''Team Manager'''|newteam=FNC.R}}
+{{listplayersp||ie|Róisín O'Shea|'''Head of Partnerships'''|newteam=Retired|comment=Twitter}}
+{{listplayersp||nl|Wouter Sleijffers|'''Chief Executive Officer'''|newteam=XL}}
+{{listplayersp||us|Felix Guerra|'''Head of R&D and Engineering'''|newteam=Retired|comment=Astro Gaming, Inc.}}
+{{listplayersp|KappaEquiscu|es|Jordi Plana|'''Data Analyst'''|newteam=Team Liquid}}
+{{listplayer|Dylan Falco|ca|Dylan Falco|'''Head Coach'''|newteam=S04}}
+{{listplayer|Kayys|us|Jack Kayser|'''Head Analyst'''|newteam=Team Liquid}}
+{{listplayersp|Xirreth|pl|Urszula Klimczak|'''Behavioural Analyst & Mental Coach'''|newteam=Rogue}}
+{{listplayersp|StreeT|rs|Danijel Remus|'''Head of Production, Project, & Streaming'''|newteam=Misfits Gaming}}
+{{listplayersp|jakazolo|uk|Matthew McCauley|'''Social Media Manager'''|newteam=Misfits Gaming}}
+{{listplayer|Quaye|uk|Finlay Stewart|'''Director of LoL Team Operations'''|newteam=GOG}}
+{{listplayersp||us|Ella Pravetz|'''Content Creator'''|newteam=Misfits Gaming}}
+{{listplayersp|Wolle|de|Wolfgang Landes|'''Analyst'''|newteam=Retired|comment=ITONICS}}
+{{listplayersp||se|Jens Hofer|'''Mental Coach'''|newteam=NiP}}
+{{listplayer|Kubz|ca|Kublai Barlas|'''Assistant Coach'''|newteam=Giants Gaming}}
+{{listplayer|Blumigan|se|Marcus Blom|'''Analyst'''|newteam=DP}}
+{{listplayer|NicoThePico|no|Nicholas Korsgaard|'''Head Coach'''|newteam=NiP}}
+{{listplayersp||uk|Robert Wylie|'''Social Media Manager & Managing Editor'''|newteam=G2 Esports}}
+{{listplayersp|DRUNKKZ3|fr|Florian Le Bihan|'''Team Operations Manager'''|newteam=Retired|comment=EA Digital Illusions}}
+{{listplayersp||uk|Darren Newnham|'''Head of Business Development'''|newteam=Retired|comment=Ginx TV Ltd.}}
+{{listplayersp||uk|Daniel Lopez|'''Head of Creative Services'''|newteam=Retired|comment=The Hook Group}}
+{{listplayersp|GuySake|fr|Fabien Ungerer|'''Analyst'''|newteam=Splyce}}<!--http://twitter.com/GuySake/status/763333661085302785-->
+{{listplayer|Deilor|es|Luis Sevilla Petit|'''Head Coach'''|newteam=Movistar Riders}}
+{{listplayersp|IzpAH|hu|Oliver Steer|'''Team Manager'''|newteam=H2k}}
+{{listplayer|Jarge|uk|Joshua Smith|'''Head Analyst'''|newteam=TSM}}
+{{listplayer|JoyLuck|kr|Yun Deok-jin (윤덕진)|'''Analyst'''|newteam=E8W}}
+{{listplayer|Araneae|es|Alvar Martín Aleñar|'''Coach'''|newteam=INTZ}}
+{{listplayer|Toyz|hk|Wai Kin "Kurtis" Lau (劉偉健)|'''Coach'''|newteam=hkes}}
+{{listplayer|Rico (Sami Harbi)|fr|Sami Harbi|'''Team Manager'''|newteam=M}}
+{{listplayersp|hxd|uk|Harry Wiggett|'''Team Manager'''|newteam=Retired|comment=Goodgame Studios}}
+{{listplayer/End}}
+
+===Temporary Staff===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+!Replacing
+!Tournament
+{{listplayersp|Garki|de|Michael Bolze|'''Team Manager'''}}
+|'''{{playersp|Quaye|flag=uk}}'''
+|rowspan=1|[[League Championship Series/Europe/2017 Season/Spring Season|EU LCS 2017 Spring Season - Week 9 & 10]]
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===<!--
+https://fnatic.com/articles/the-future-of-fnatic--><!--
+https://twitter.com/sammathews/status/1220741979035795457-->
+<gallery>
+Fnatic original logo.png|First Logo<br>(- 17 Nov 2015)
+Fnatic Second logo.png|Second Logo<br>(- 24 Jan 2020)
+</gallery>
+
+===Rosters===
+<gallery>
+S1fnatic.png|Fnatic's Season 1 Roster
+Fnatic s2 lineup.png|Fnatic's Season 2 Roster
+Fnatic S3 LCS Spring.jpg|Fnatic's Season 3 LCS Spring Roster
+FnaticS3Worlds.jpg|Fnatic's Season 3 World Championship Roster
+Fnatic S4 LCS Spring.jpg|Fnatic's 2014 LCS Spring Roster
+FNC 2014.jpg|Fnatic's 2014 World Championship Roster
+Fnatic Spring 2015.png|Fnatic's 2015 LCS Spring Roster
+Fnatic2015.jpg|Fnatic's 2015 LCS Summer Roster
+FnaticIEMXCologne.jpg|Fnatic's pre-season Roster
+FNC 2016Spring.jpg|Fnatic's 2016 LCS Spring Roster with NoXiAK
+FNC 2016Spring2.jpg|Fnatic's 2016 LCS Spring Roster with Klaj
+Fnc summer2016.jpg|Fnatic's 2016 LCS Summer Roster with Gamsu
+FNC Summer2016 2.png|Fnatic's 2016 LCS Summer Roster with Kikis
+FNC 2017 Spring.png|Fnatic's 2017 LCS Spring Roster with Amazingx
+FNC 2017 Spring 2.png|Fnatic's 2017 LCS Spring Roster with Broxah
+Fnatic Roster 2018 Spring 1.png|Fnatic's 2018 LCS Spring Roster with Bwipo
+Fnatic Roster 2018 Spring.png|Fnatic's 2018 LCS Spring Roster
+FNC 2019 Spring.png|Fnatic's 2019 LEC Spring Roster
+FNC Worlds 2019.png|Fnatic's 2019 LEC Summer & Worlds 2019 Roster
+FNC 2020 Spring.png|Fnatic's 2020 LEC Spring Roster
+FNC 2020 Summer.png|Fnatic's 2020 LEC Summer Roster
+FNC Worlds 2020.png|Fnatic's Worlds 2020 Roster
+FNC 2021 Spring.png|Fnatic's 2021 LEC Spring Roster
+FNC 2022 Spring.png|Fnatic's 2022 LEC Spring Roster
+FNC 2023 Winter.png|Fnatic's 2023 LEC Winter Roster
+FNC 2023 Spring.png|Fnatic's 2023 LEC Spring Roster
+FNC 2023 Summer.png|Fnatic's 2023 LEC Summer Roster
+WIN24FNC.jpg||Fnatic's 2024 LEC Winter Roster
+</gallery>
+
+==References==
+<references />
+{{World Championship Champions Navbox|Season 1}}

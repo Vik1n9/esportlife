@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Robo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.539Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Robo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Robo
+|name=Leonardo Souza
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=April
+|birth_date_day=22
+|favchamp=Tristana
+|favchamp2=Renekton
+|favchamp3=Jax
+|favchamp4=Gnar
+|checkbox1=Yes
+|favchamp5=Darius
+|favchamp6=Camille
+|checkboxComp=No
+|ids='''BR:''' Robo#ROBS <br>'''EUW:''' É O ROBS<br>ROBOOOOO <br>'''KR:''' Micro Ondas
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/robolol1
+|facebook=https://www.facebook.com/robolol1
+|twitter=robolol1
+|instagram=robolol1
+|youtube=https://www.youtube.com/@robolol1
+|lolpros=https://br.lolpros.gg/player/robo
+|deeplol=https://www.deeplol.gg/pro/Robo
+|dpmlol=https://dpm.lol/pro/Robo
+|kick=robolol1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+'''Robo''' played for [[INTZ Red]] during some tournaments of the [[Brazilian Challenger Circuit/2015 Season/Split 1|2015 Brazilian Challenger Circuit Split 1]] (often changing places with {{bl|Caos (Jonas Vriesman)|Caos}}) and the [[CBLOL/2015 Season/Split 2 Promotion|2015 CBLOL Split 2 Promotion]]. Due to his studies, Robo couldn't completely focus on CBLOL, so the team chose Caos as the starting top laner for the [[CBLOL/2015 Season/Split 2|2015 CBLOL Split 2]] and allowed Robo to play for a Challenger Circuit team. In June he joined [[JAYOB e-Sports]] as AD carry, playing at the [[Brasil Mega Arena/Rio 2015|BRMA Rio 2015]] and the [[Brazilian Challenger Circuit/2015 Season/Split 2/Go4LoL May|Go4LoL Monthly Final - May 2015]]. He was called back by INTZ Red to play at Week 5 of CBLOL Split 2, becoming ineligible to play for a Challenger Circuit team and leaving JAYOB in the process.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Originally a top laner, joined [[JAYOB e-Sports]] as AD carry.
+* Portrayed as {{ci|Ekko}} in the CBLoL 2015 official wallpaper.
+* His favourite Champions are {{ci|Tristana}}, {{ci|Darius}} and {{ci|Camille}}.
+* Became famous during MSI 2021 for a campaign in Brazil with the hashtag "RobsDay" that became a worldwide trending topic on Twitter being reproduced by several people including a famous priest in Brazil.<ref>[https://maisesports.com.br/lol-robsday-viraliza-e-ate-padre-fabio-de-melo-entra-na-brincadeira LoL: “RobsDay” viraliza e até Padre Fábio de Melo entra na brincadeira] ''maisesports.com.br''</ref>
+* After a good [[2021 Mid-Season Invitational|MSI 2021]], he and his teammate [[tinowns]] allegedly received offers from [[LEC]] teams and its sisters teams, but negotiations didn't go through. Since then, it became a joke in the Brazilian community, with them sometimes being called "'''LEC players'''".
+* Got featured with his "É o Robs" photo in a graffiti in the [[Worlds 2021]] theme music video, '''Burn it All Down'''. <ref>[https://maisesports.com.br/worlds-2021-brtt-fnb-gruntar-schaeppi-sao-homenageados-em-clipe-da-musica-tema/ Worlds 2021: brTT, Robo, FNB, Gruntar e Schaeppi ganham referências no clipe da música tema]''maisesports.com.br''</ref>
+* His KR ID refers to a microwave, as do the [[Ceos]] and [[Tinowns]] IDs refer to other home appliances.
+* He once spoke in [[Baiano]]'s [[Ilha das Lendas|Depois do Crime]] that during his time in LOUD he had won every Finals against [[Wizer]] because he knew how to read every move he makes and uses that to predict [[Cariok]]'s moves.<ref>[https://www.youtube.com/watch?v=7eqPDo4T6Ng O ROBO É O PAI DO WIZER NO CBLOL (Portuguese)] ''youtube.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Known in Brazil for the phrase "É o Robs! IRIRIRIRI!". He say it when he makes a good play or for celebrating a victory. The word "Robs" makes refearance to his nickname, Robo. This turned to a Brazilian gag.
+* He said in a interview that the fact that [[paiN Gaming]] won a game despite losing the series against [[LOUD]] by 3-1 in the [[CBLOL 2023 Split 2 Playoffs|CBLOL 2023 Split 2 Playoffs Finals]] was due to him being unfocused with the fact there would be a show of the Brazilian rapper [https://en.wikipedia.org/wiki/Matuê Matuê] after the series.<ref>[https://twitter.com/CBLOL/status/1775991735329439874 CBLOL's Tweet]</ref>
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* Since the start of his career in the [[CBLOL 2015 Split 2|CBLOL 2015]], he almost always qualify for playoffs (with the sole exception being the [[CBLOL/2022 Season/Split 1|first split of 2022]] when he did not qualify for playoffs), with a total of 16 playoffs and 9 finals played.
+* He is the player with the most titles in CBLOL history, surpassing even [[brTT]] with seven domestic titles as of [[CBLOL 2024 Split 1 Playoffs|CBLOL 2024 Split 1]].
+|-|
+Statistics=
+=== Statistics ===
+* Reached 1500 kills in the CBLOL on June 28th, 2024.
+** The 3rd player to reach 1500 kills in the CBLOL, after [[micaO]] and [[Tinowns]].
+** His 1500th kill was on [[Fluxo]]'s jungler, [[Shini]].
+|-|
+Awards=
+=== Individual Awards ===
+* 1x CBLOL Awards Best Toplaner (2018, 2022, 2023)
+* 1x CBLOL Awards Best Play (2023)
+* 1x Best League of Legends Athlete (Premio eSports Brasil 2023)
+* 1x CBLOL 1st All-Pro Team (2024 Split 1)
+* 1x LTA South 3rd All-Pro Team x1 (2025 Split 3)
+* 1x CBLOL Finals MVP (Spring 2024)
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

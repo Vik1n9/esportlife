@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Albus%20NoX%20Luna&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Albus NoX Luna」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=M19
+|name=Albus NoX Luna
+|orgcountry=Russia  
+|country=
+|region= CIS
+|image=Albus NoXlogo square.png
+|coaches= 
+|analysts=
+|manager= 
+|captain=
+|website= https://vk.com/albusnoxlol
+|youtube= 
+|facebook= https://www.facebook.com/albusnox
+|twitter= albusnoxteam
+|sponsor= [http://www.schneider-electric.ru/ru/ Schneider Electric] <br> [http://www.schneider-electric.com/b2b/en/campaign/life-is-on/life-is-on.jsp Life Is On] <br> [http://www.apc.ru/ APC]
+|created= 2016-05-23
+|rosterphoto=ANXworlds.png
+|disbanded=2017-01-09
+|trades=
+}}{{TOCRWI}}
+
+'''Albus NoX''' is a Russian esports organization formed in May 2016. Their ''League of Legends'' roster were formerly known as [[Hard Random]].
+
+== History ==
+
+=== Season 6 ===
+
+'''Albus NoX Luna''' was announced on May 24, 2016, as the new name of [[Hard Random]].<ref name="formation">[http://hardrandom.com/ru/posts/251 Hard Random объединяет силы с Albus NoX! (Russian)] ''hardrandom.com''</ref> They inherited Hard Random's [[LCL/2016 Season/Summer Season|LCL Summer Season]] seed. The change happened between the Spring and Summer Split, after the team's loss against [[SuperMassive eSports]] in the Finals series of the [[2016 International Wildcard Invitational]].
+
+The team kept up their two-year long record of domestic dominance, handily placing first in the Regular Season with an almost perfect 13-1 best-of-one record. They then chose to face third place team [[RoX (2014 CIS Team)|RoX]] in the [[LCL/2016 Season/Summer Playoffs|Playoffs Semifinals]], advancing to the Finals with a 3-0 victory. There they faced [[Vega Squadron]] and reestablished themselves as the CIS region champions in a hard fought 3-2 reverse sweep. For the fourth time in the organization's history, the first as Albus NoX, they joined an International Wildcard event as representatives of the region.
+
+The team went on to place third in the Round Robin stage of the [[2016 International Wildcard Qualifier]] and accessed the Bracket Stage, where they faced the Tournament's favorite [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]]. The LAN team had previously defeated all other teams in the Group Stage and was considered by many the most mechanically gifted roster at the event, but the CIS squad won the series 3-2 and qualified for their first ever major international event, the [[2016 Season World Championship]].
+
+Albus NoX was drafted into Group A, together with Korean first seed [[ROX Tigers]], European first seed [[G2 Esports]] and North American second seed [[Counter Logic Gaming]]. Despite being widely predicted to be one of the worst of the sixteen teams at the World Championship, Albus NoX finished groups with a 4-2 record and the most wins ever earned by a wildcard at Worlds. Although they lost a tiebreaker against ROX for first in the group, the CIS team also became the first wildcard team to ever qualify for the quarterfinals at Worlds. In the process, they also qualified for the [[IEM Season 11 - World Championship|IEM World Championship]] in Katowice and became the first team with a roster entirely from the Commonwealth of Independent States since [[Gambit Gaming]] in 2013 to place in the Top 8 at Worlds. Their first international adventure came to an end at their first Best-of-Five series, as they suffered a 0-3 loss against [[H2k-Gaming]]; however, their inspiring performances and words brought them fans and recognition both in the CIS and international scene.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Ansva|ru|Konstantin Chanchikov (Константин Чанчиков)|'''Head Coach'''|newteam=M19}}
+{{listplayersp|Tunes|ru|Anton Boyko (Антон Бойко)|'''Analyst'''|newteam=Virtus.pro}}
+{{listplayer|Madneps|ru|Alexey Kholin (Алексей Холин)|'''Manager'''|newteam=Vaevictis}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Trivia == 
+* The phrase ''"Albus nox luna"'' in Latin translates to ''"White moon night"'' in English.
+
+== Highlight Videos ==
+
+==Media==
+{{TeamMedia}}
+
+==See Also==
+== Images ==
+<gallery>
+ANX Summer2016.jpg|[[LCL/2016 Season/Summer Season|LCL Summer 2016]]
+</gallery>
+
+==External Links==
+
+==References==
+<references />

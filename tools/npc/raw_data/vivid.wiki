@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ViviD&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.536Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「viviD」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=viviD
+|name=Han Gi-hun
+|nativename=한기훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=PCS
+|birth_date_year=1993
+|birth_date_month=February
+|birth_date_day=08
+|checkbox1=No
+|compID1=Zest
+|compID2=Eternal
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/live/2c3d8a6e44078196ada54fbd96bc6cc4
+|facebook=https://www.facebook.com/gksrlgns
+|twitter=gosuEternal
+|videoarchive=https://www.twitch.tv/gosueternal
+|deeplol=https://www.deeplol.gg/pro/viviD
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Zest''' and '''Eternal'''.
+|checkbox-res=Yes
+|residency-prev1=Korea
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Mid
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+<!--important historical ref https://twitter.com/gosuEternal/status/1246860125043748865-->
+===2015 Season===
+Han "'''viviD'''" Gi-hun played for [[Quvic E-Sports]] during the [[Champions Spring 2015/Qualifiers|Champions Spring 2015 Qualifiers]] but they lost 2-1 to [[Xenics]] in the group stage. The team disbanded on February 14, 2015. He joined [[Prime Clan]] in March of 2015 as their support. They qualified for [[SBENU Champions Summer 2015]] after going 1-1 in their group against [[Samsung Galaxy]] and Xenics during [[Champions Summer 2015/Promotion|Champions Summer 2015 Promotion]]. Afterwards, Prime was sponsored by SBENU and renamed themselves to [[SBENU Sonicboom]]. ViviD shares the starting support position with [[Secret (Park Ki-sun)|Secret]]. SBENU placed last in Champions Summer and were forced to play in the [[LCK/2016 Season/Spring Promotion|LCK 2016 Season Spring Promotion]]. SBENU played [[ESC Ever|Ever]] and managed to win 3-1 to requalify for the LCK, however viviD didn't play in these games.
+
+===2016 Season===
+In December 2015, viviD left SBENU. Soon after, he moved to Japan along with [[Catch (Yun Sang-ho)|Catch]] and joined [[DetonatioN Gaming]]. He also renamed from viviD to '''Eternal''' but reverted the change in May 2016.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

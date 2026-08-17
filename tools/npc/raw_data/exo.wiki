@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Exosen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.103Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Exo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Exosen
+|name=Eric Allen Gubatan
+|checkboxAutoImage=Yes
+|country=Philippines
+|residency=PCS
+|favchamp=Vayne
+|favchamp2=Ezreal
+|favchamp3=Tristana
+|checkbox1=No
+|compID1=Exo
+|checkboxComp=No
+|ids=Exosen, Mineski Xoxo (NA), Exo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/exosen
+|facebook=https://www.facebook.com/Exoseny
+|twitter=exosenlol
+|instagram=exosenlol
+|discord=https://discord.com/invite/KxEacYAt
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Exo'''.
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|prev2=Mid
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+MSK Exo 2013 WCS.png|MSK Exo, Worlds 2013
+Esx.jpg|Exosen
+MSGP Exo.png|MSGP Exo
+LYB Exosen 2019.jpg|LYB Exosen 2019
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,137 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Araneae&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.630Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Araneae」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Araneae
+|name=Alvar Martín Aleñar
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=EMEA
+|checkbox-res=No
+|birth_date_year=1989
+|birth_date_month=May
+|birth_date_day=19
+|favchamp=Lee Sin
+|favchamp2=Ezreal
+|favchamp3=Elise
+|checkbox1=No
+|checkboxComp=No
+|ids=SK Araneae, NaVi Araneae, flyingpoop2 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/araneaelol
+|facebook=https://www.facebook.com/alvar.araneae
+|twitter=AraneaeLoL
+|reddit=araneaelol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=Yes
+|prev1=Jungler
+|prev2=Manager
+|prev3=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Alvar "'''Araneae'''" Martín Aleñar is a League of Legends player from Mallorca, Spain. His first overall gaming experience was Street Fighter (on the SNES platform). DOOM was the first PC game he played. From there he moved on to play Counter-Strike, Smash Bros Brawl and Defense of the Ancients (DotA); he started to play League of Legends when one of his friends saw him playing a DotA tournament.
+
+Aleñar's competitive League of Legends career began in May 2010, when he joined the team [[Dimegio Club]], where he played with future star players [[nRated]], [[Wickd]], and [[ocelote]]. He stayed with the roster through their acquisition by [[SK Gaming]], but then left in March 2011 to join [[Team Dignitas EU]]; however, the team disbanded the next month. Aleñar played for several teams over the next few years, including [[Wizards e-Sports Club]], [[MeetYourMakers]], [[Natus Vincere]], and [[SK Gaming]].
+
+In January 2013 Aleñar joined [[Team ALTERNATE]], where he played in the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Round_Robin|summer split]] of the Season 3 European LCS. A year later, he left ALTERNATE to join [[Millenium]], where he played in the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|spring split]] of the 2014 European LCS. After the spring split, he left the team and became the coach of [[Fnatic]]. On October 10, Aleñar left Fnatic.
+
+Araneae joined Spanish team [[Baskonia eSports]] in January 2016 as their head coach.
+
+He then went on to join [[Origen]] in July 2016 as their head coach.<ref>[http://origen.gg/2016/07/changes-to-our-coaching-staff-2/ Changes to our coaching staff] ''origen.gg''</ref>
+
+== Trivia ==
+* Used to play Brood Mother on DotA. His username, "'''Araneae'''", is a tribute to her, it means "spiders" in Latin.
+** He was one of the first players to play {{ci|Elise}} extensively, long before she became popular.
+* Played {{ci|Cho'Gath}} and {{ci|Alistar}} early in his career; gained notoriety for the latter both in solo queue and in competitive play.
+* Likes snowboarding and wakeboarding.
+* Along with his ex-teammate [[ocelote]], he is known to be a very excitable player in live events, often times shouting loud enough to be heard on the live stream.
+* Loves his cat Ara so much that he made a [https://www.facebook.com/pages/Ara/174521102642089 Facebook page] for it.
+* [[Diamondprox]] jokingly considers Araneae to be a  Spanish InSec because of his amazing {{ci|Lee Sin}} play.
+* Doesn't necessarily have a favorite meal, but no cook can rival his mother.
+* Favorite drink is strawberry milkshake.
+* Favorite book is ''[[wikipedia:en:The Hobbit|The Hobbit]]''. It is the only book he read more than twice.
+* Favorite movie is the ''[[wikipedia:en:The Dark Knight (movie)|2nd movie of The Dark Knight saga]]''.
+* His favorite animated movie is ''[[wikipedia:en:Princess Mononoke|Princess Mononoke]]''. As far as anime, he likes ''[[wikipedia:en:Fullmetal Alchemist|Fullmetal Alchemist]]''.
+* His father is his role model.
+* Was attending a University as he competed in the LCS (Engineering Major).<ref>[http://www.reddit.com/r/leagueoflegends/comments/1wteiu/millenium_aua_ask_us_anything/cf56t9n Millenium AUA (Ask Us Anything!)] ''reddit.com''</ref>
+* His perfect Spanish Olympic Dream team is [[xPeke|Peke]] top lane, [[xPeke|Peke]] mid lane, [[xPeke|Peke]] AD, [[xPeke|Peke]] support and him in the jungle.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

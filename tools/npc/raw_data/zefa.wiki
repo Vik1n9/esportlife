@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zefa&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.590Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zefa」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Zefa
+|name=Lee Jae-min
+|nativename=이재민
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1988
+|birth_date_month=February
+|birth_date_day=04
+|favchamp=Caitlyn
+|checkbox1=No
+|checkboxComp=No
+|ids=나진 제파<br>Zerofire
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/redzone0007
+|deeplol=https://www.deeplol.gg/pro/Zefa
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+===Season 3===
+Lee "'''Zefa'''" Jae-min began his competitive career on June 21, 2013 when he joined [[NaJin White Shield]] as their new starting AD carry. He played in his very first OGN during [[HOT6iX Champions Summer 2013]], where he and his team made the quarterfinals but lost 3-0 to [[CJ Entus Frost]].
+
+===2014 Season===
+Shield's next tournament was [[PANDORA.TV Champions Winter 2013-2014]] where they lost 3-1 to [[Samsung Ozone]] in the semifinals and then lost 3-1 to the [[KT Rolster Bullets]] to place 4th overall. Next, they attended [[HOT6iX Champions Spring 2014]] and made it all the way to the finals but ultimately lost 3-1 to [[Samsung Blue]]. Their final OGN of the year was [[HOT6iX Champions Summer 2014]] where they lost 3-2 in the quarterfinals to the eventual champions, the [[KT Rolster Arrows]]. Shield earned enough circuit points to qualify for the [[2014 Season Korea Regional Finals]] and miraculously ran the whole gauntlet, culminating in a 3-1 victory over [[SK Telecom T1 K]]. This key win earned them a spot at the [[2014 Season World Championship]] where they came out of their group in first place but were swept in the quarterfinals 3-0 by [[OMG]].
+
+===2015 Season===
+Due to changes to the OGN rules, Shield and their sister team, [[NaJin Black Sword]], were forced to merge to form [[NaJin e-mFire]]. During [[SBENU Champions Spring 2015]], Zefa shared the starting position with the former AD carry from Sword, [[Ohq]]. NaJin's poor performance in Champions ended when they placed sixth overall and failed to make the playoffs. NaJin placed fifth in the regular season of [[SBENU Champions Summer 2015]] and qualified for the playoffs but they lost in the first round 2-1 to the [[KOO Tigers]]. They earned enough circuit points to make it to the [[2015 Season Korea Regional Finals]] but lost 3-0 in the first round to the [[Jin Air Green Wings]]. However, Zefa did not play in playoffs or the regionals. Zefa left NaJin in November.
+
+== Trivia ==
+* Born in 1988, Zefa was one of the oldest pro players when active.
+* Is a cancer survivor.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=RedBert&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.821Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「RedBert」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=RedBert
+|name=Ygor Freitas
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=August
+|birth_date_day=26
+|favchamp=Bard
+|favchamp2=Thresh
+|favchamp3=Rakan
+|favchamp4=Alistar
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR''': RedBert#BR1<br>'''CN:''' BR05<br>'''KR:''' BYGAO#LOUD
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/redberto
+|facebook=https://www.facebook.com/RedBertlol
+|twitter=redbertt
+|instagram=redbertt
+|lolpros=https://br.lolpros.gg/player/redbert
+|deeplol=https://www.deeplol.gg/pro/RedBert
+|dpmlol=https://dpm.lol/pro/RedBert
+|kick=redberto
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''RedBert''' became known as part of [[Seven Wars e-Sports]], the team that surprised the Brazilian e-sports community by qualifying to [[IEM Season VIII - Sao Paulo|IEM Sao Paulo]] in early 2014. However, due to his age, he couldn't play at the tournament. Shortly after, all five members were caught in the Elo Boosting/Drophacking/Scripting ban wave, and the team was disbanded. He then played for [[RMA e-Sports]] for three months, and stayed away from the competitive spotlight until May 2015, when he joined [[Big Gods]] to play in the [[Brazilian Challenger Circuit/2015 Season/Split 2|Brazilian Challenger Circuit Split 2 2015]]. Despite being part of the campaign that qualified the team in second place, by Riot rules, he couldn't play in the [[CBLOL/2016 Season/Split 1 Promotion|CBLOL Promotion Series]] due to his age, becoming eligible to play only at the start of the 2016 season. Due to that, he became a substitute. In the end of August, he was announced as the support for [[g3nerationX]], to play in the [[Brasil Mega Arena/Sao Paulo 2015|BRMA São Paulo 2015]] as a temporary stand-in, with the possibility of joining permanently later.
+
+== Trivia ==
+* Missed some official Riot and ESL tournaments in 2014 and 2015 due to his age, being officially eligible to play at the 2016 season.
+* Was a well known {{ci|Thresh}} OTP before becoming a pro player.
+* His nickname comes from the '''[[wikipedia:en:M&M's|m&m's]]''' red toy named "Redbert Einstein".
+** Began to be nicknaned "'''GreenBert'''" after joining [[LOUD]].<ref>[https://x.com/ilhadaslendas/status/1749168315094700260 Ilha das Lendas' X Post] ''x.com''</ref>
+* Is sometimes nicknamed '''"Bygor"''', which is a mix between his first name and his IGN.
+* Often remembered for his {{ci|tahm kench}} outplay in a 3v2 dive playing for [[INTZ]] against [[paiN Gaming]] in the [[CBLOL 2020 Split 2 Playoffs|2020 finals]].<ref>[https://twitter.com/imagensdocblol/status/1436048778671312902 Imagens Do CBLOL Antes De Dar Merda's Tweet]''twitter.com''</ref>
+* He has a {{ci|Braum}} tattoo which he made after winning his first '''CBLOL''' title.<ref>[https://x.com/LOUDgg/status/1915876048161431965 LOUD's X Post] ''x.com''</ref>
+* He was the first player to win 3 titles against [[paiN Gaming|paiN]] on 3 different teams: [[Team oNe eSports]], [[INTZ]] and [[LOUD]].
+* He was the first Brazilian support to win 5 titles with 5 different ADCS: [[Absolut]], [[Mills]], [[MicaO]], [[Route]] and [[Bull]].
+* His {{ci|rell}} engage against [[FURIA]] got featured in '''LoL Esports Top 5 Plays of the Week''' as '''Top 5'''.<ref>[https://x.com/lolesports/status/1826273061907190060 LoL Esports' X Post] ''x.com''</ref>
+* He revealed in a interview that he was diagnosed with ''ADHD'' during his time at [[FURIA]] after his girlfriend constantly reported that he had symptoms of the disorder.<ref>[https://youtu.be/J7AwGoc7ttE?si=juvK0QzG7QT7qNeS&t=468 Como os jogadores lidam com a pressão em um momento decisivo - CBLOL 2024 - 2ª Etapa] ''youtube.com''</ref>
+
+===Individual Awards===
+* 1x LTA South 3rd All-Pro Team (2025 Split 3)
+
+===Equipment===
+* Mouse: Logitech G Pro X Superlight
+* Keyboard: Pulsar eS HE 70
+* Mousepad: Artisan FX Hien
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

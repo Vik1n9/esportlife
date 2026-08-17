@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Saigon%20Jokers&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.544Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Saigon Jokers」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= Saigon Jokers
+|isdisbanded=yes
+|orgcountry= Vietnam 
+|country=
+|region= SEA
+|image=SAJ logo.png
+|analysts= Heo "'''Irean'''" Yeong-cheol <br> Mai "'''Nixwater'''" Nhật Tân
+|coaches= Lee "'''icaruse'''" In-cheol
+|manager= 
+|captain= 
+|website= https://www.saj.vn/
+|youtube=
+|facebook= https://www.facebook.com/SaigonJokers
+|twitter= 
+|irc= 
+|sponsor= [http://www.vietnamesports.vn/ Vietnam Esports]<br>[http://steelseries.com/home SteelSeries]
+|created= 2012-04-21
+|disbanded=2016-11-29
+|trades=
+|rosterphoto=SAJVCSSummer.jpg
+}}{{TOCRWI}}
+
+'''Saigon Jokers''' is a League of Legends team based in Vietnam. They were first formed to compete in [[2012 GPL Season 1]]. The Saigon Jokers were the first Vietnamese League of Legends team to form.
+
+== History ==
+=== Season 2 ===
+Saigon Jokers was originally formed in April of 2012 to play in the [[2012 GPL Season 1]]. SAJ started with 10 members chosen from more than 2000 candidates across Vietnam. Through out the league, they generally maintained third place overall. At the beginning of the season in the [[2012 GPL Season 1/Opening Event|2012 GPL Season 1 Opening Event]] they placed third, defeating Kuala Lumpur Hunters 1-0.
+
+On September 9, 2012, the Saigon Jokers competed in the [[Season_Two/Regional_Finals_-_Da_Nang|Season Two South East Asian Regional Finals]] for the South East Asian slot at the [[Season 2 World Championship]]. After losing to the [[Singapore Sentinels]] in the second round they played through the Loser's Bracket, defeating the [[Kuala Lumpur Hunters]] and TNC GG.PH to eventually face the [[Singapore Sentinels]] once again in the finals. They defeated their rivals 2-1 despite starting with a one game disadvantage, securing the upset and earning themselves a place at the championship. <ref>[http://lol.garena.com/news/community/1070-day-4-a-recap-of-the-finals SEA Regionals Recap] "lol.garena.com"</ref>
+
+On October 4, 2012, the Jokers traveled to Los Angeles to participate in the [[Season 2 World Championship]]. They were widely regarded as the clear underdogs for the event based on rankings from several writers and professionals. <ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref> In their first match of the group stage, they built a small early lead against [[NaJin Sword]] but were unable to convert it into a win. Their next game was played against [[Team Dignitas]]; the Jokers pulled off a huge upset, maintaining a significant gold lead throughout the game and taking the win. This set up a final match against [[CLG EU]] to decide the second team to advance from Group B. However, the Jokers failed to match the relentless farming and objective pushing of their European opponents. They finished in 9th-10th place, taking home $ 50,000.
+=== Season 3 ===
+Although their sister team [[Saigon Fantastic Five]] was founded with former players of [[Saigon Jokers]] (special their former Jungler [[Violet (Ngô Mạnh Quyền)|Violet]] ), they still was the most powerful team in Vietnam.
+After their victory at [[Glorious Arena/Season 3/Regular Season|Glorious Arena Season 3]], they participated in [[Road to Legends]] with a big confidence but they was defeated by [[Saigon Fantastic Five]] and [[Full Louis]].
+As the champions of [[Glorious Arena/Season 3/Regular Season|Glorious Arena Season 3]], [[Saigon Jokers]] and another Saigon's team, [[Xgame]], participated in [[Season 3 Southeast Asia Regional Finals]] but they was defeated by the tournament's champions, [[Mineski]].
+
+=== Season 4 ===
+Their season started when they were defeated by [[Full Louis]] in [[Glorious Arena/Season 4|Glorious Arena Season 4]]. They won all matches against other teams in that tournament but with second defeated match against [[Full Louis]], Saigon Jokers finished [[Glorious Arena/Season 4|Glorious Arena Season 4]] at 2nd place.
+In [[2014 GPL Winter]], they changed their roster when [[Optimus]] became the starting mid laner while [[Nixwater]] became a sub. With [[Optimus]] appearance, they were the only Vietnamese team can reach to semi-finals before they were defeated by the defending cup team [[Taipei Assassins]].
+In [[2014 GPL Spring]], [[Saigon Jokers]] was the only team won a game against [[ahq e-Sports Club]] in Group Stage. At Quaterfinal matches, they defeated their sister team [[Saigon Fantastic Five]] 3-1. They finished this tournament at 3rd - 4th place after defeated by [[ahq e-Sports Club]] and [[Taipei Snipers]].
+In [[All-stars 2014 Paris]], [[QTV]] and [[Archie (Trần Minh Nhựt){{!}}Archie]] represented Southeast Asia to participate the tournament.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{Listplayer/Start|newteam=yes}}
+{{listplayer|icaruse|kr|Lee In-cheol (이인철)|'''Team Manager'''|newteam=Royal}}
+{{listplayer|NIXWATER|vn|Mai Nhật Tân|'''Analyst'''|newteam=Young Generation}}
+{{listplayer|Irean|kr|Heo Yeong-cheol (허영철)|'''Coach'''|newteam=Vitality}}
+{{listplayersp|Bu|vn|Nguyễn Đắc Bá Nhật|'''Coach'''|newteam=none}}
+{{listplayer|Egg (Lê Hoàng Ngà)|vn|Lê Hoàng Ngà|'''Analyst'''|newteam=none}}
+{{listplayersp|Boilu|vn|Nguyễn Thế Hưng|'''Manager'''|newteam=none}}
+{{listplayer|Tinikun|vn|Dương Nguyễn Duy Thanh|'''Coach'''|newteam=bkt}}
+{{Listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+* [http://www.youtube.com/watch?v=cZKJ-FKUuTU <nowiki>[LMHT]</nowiki> Triệu Con Tim, Một Sắc Cờ]
+
+==Interviews==
+===2012===
+* August 29 - [http://garena.vn/lol/lol-tin-tuc/7641-phong-van-doi-vo-dich-giai-dau-di-tim-huyen-thoai-saigon-jokers-niem-hi-vong-cua-viet-nam Phỏng vấn đội vô địch giải đấu "Đi Tìm Huyền Thoại": Saigon Jokers - Niềm hi vọng của Việt Nam (Vietnamese)] ''with Garena''
+
+==Links==
+* [http://ggchronicle.com/saigon-jokers-preview-season-2-world-finals/ Saigon Jokers Preview: Season Two World Finals] ''by ggChronicle''
+
+== Images ==
+<gallery>
+File:Jokerslogo.png|SAJ old logo
+File:SS2WCSAJ.jpg|Saigon Jokers's Season 2 World Championship Roster<br> Left to Right: QTV, Violet, Junie, NixWater, Archie
+File:SAJ GPL 2014.jpg|Saigon Jokers's 2014 GPL Winter Roster. Left to Right: Junie, NIXWATER, MinaS, Archie, Safety, Optimus, QTV
+File:SAJ_2014_GPL_Spring.jpg|Saigon Jokers's 2014 GPL Spring Roster. Left to Right: Archie, Safety, Lovida, Junie, Optimus, Egg, QTV
+File:SAJ2015.png|Saigon Jokers's 2015 Season Roster<br> Left to Right: Carrot, Prince, Lovida, Nixwater, Tsu, Safety
+</gallery>
+
+==References==
+<references />

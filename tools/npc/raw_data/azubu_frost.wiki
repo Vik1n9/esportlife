@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Azubu%20Frost&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Azubu Frost」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=CJ Entus Frost
+|name= Azubu Frost
+|orgcountry= South Korea  
+|country=
+|region= KR
+|image=
+|manager= 
+|coaches= 
+|captain= 
+|website= https://lol.teamazubu.com/
+|sponsor= [http://razerzone.com/ Razer]<br> [http://www.azubu.com/ Azubu]
+|created= 2012
+|disbanded= 2013-02-04
+}}{{TOCRWI|2}}
+
+'''Azubu Frost''' was a Korea based competitive League of Legends team that was officially sponsored by the German media group Azubu. The team was originally known as Maximum Impact Gaming. Shortly before the [[OnGameNet LoL Invitational]], a second squad was added to Maximum Impact Gaming called [[MiG Blaze]]. The original MiG lineup would be changed to MiG Frost as a result. During [[Azubu The Champions Summer 2012]], the two teams became sponsored by Azubu and changed their team names to Azubu Frost and [[Azubu Blaze]]. <ref> [http://www.azubu.com/archives/5178 Azubu sponsor LoL Team] ''azubu.com''</ref>
+
+On February 1, 2013, it was reported that Frost, along with sister-team Blaze, will not renew their contracts with the Azubu organization after their contracts' expiration on February 4.<ref name="invenazubuparting">[http://www.inven.co.kr/webzine/news/?news=52953&iskin=lol 아주부 코리아, 소속 LOL팀 프로스트, 블레이즈 계약 만료 “다음을 기약하며”] (in Korean) ''inven.co.kr''</ref> Soon after their departure from the Azubu organization, Frost and Blaze were signed by CJ Entus, becoming [[CJ Entus Frost]] and [[CJ Entus Blaze]].
+
+== History ==
+=== Season 2 ===
+From February 24 to May 19, MiG Frost would compete in the [[Azubu The Champions Spring 2012]]. MiG Frost would go undefeated in group stage, taking out [[Little Hippo]] in their first match and [[MKZ]] in the second match, taking first in their group with a record of 2-0. The strong performance of MiG Frost would continue onto the playoffs, where they were able to secure a 2-1 victory over [[NaJin e-mFire]] in the quarterfinals and a 3-2 victory over [[Xenics Storm]] in the semifinals, qualifying to compete for first place in the grand finals. There, MiG Frost would fight against their sibling team [[MiG Blaze]], to whom they would unfortunately fall 0-3, taking home second place at the event.
+
+=== Roster Changes and Sponsorship by Azubu ===
+Shortly after the disappointing loss at the grand finals of the Azubu The Champions Spring 2012 tournament, popular AD Carry [[Locodoco]] would announce his departure from MiG Frost officially on May 25, later joining [[StarTale]] for a short time as their new AD Carry. Around one month after the loss of Locodoco, MiG Frost would pick up [[Shy]] to play in the top lane. To compensate for the departure of Locodoco, team captain [[Woong (Jang Gun-woong)|Woong]] would switch from top laner to the AD Carry position.
+
+Three days after the stabilization of their roster, MiG Frost would be acquired and officially sponsored by the German media group Azubu, changing the team name to Azubu Frost.
+
+Azubu Frost would compete in the [[Azubu The Champions Summer 2012]] around one month after their new sponsorship. Placed into Group B in the group stage, Azubu Frost would take first place going 2-1 by defeating [[NaJin Sword]] and [[Team Dignitas]] while falling to [[RoMg]]. In the quarterfinals, Azubu Frost would eliminate  [[Counter Logic Gaming Prime]], taking a 2-0 victory over the North American team. Unfortunately, Azubu Frost would be forced to play their sibling team [[Azubu Blaze]] in the semifinals, where Frost was able to secure an extremely close 3-2 win. Advancing to the grand finals, Azubu Frost would be pit against European powerhouse [[Counter Logic Gaming EU]] in a highly anticipated Best of 5 set. Counter Logic Gaming EU would have a dominant start, taking the first two games of the set to secure a 2-0 lead over Azubu Frost. However, Frost was able to comeback from the 0-2 deficit to take three games in a row to secure a 3-2 victory over CLG EU, take first place at the event, and land themselves a ticket to the [[Season 2 World Championship]].
+
+=== Season 2 World Championship ===
+In early October of 2012, Azubu Frost traveled to Los Angeles to participate in the Season 2 World Championship. Out of the five regional winners, Frost had the shortest straw, losing out in a random drawing to determine group stage byes. However, the group stage failed to stop the Korean champions as they showcased their dominance, beating [[Invictus Gaming]], [[SK Gaming]], and CLG Prime to advance as the top team from Group A. Drawn to face [[Team SoloMid]] in the quarterfinals, Frost once again looked unbeatable, sweeping the series to set up a semifinal match with CLG EU. The European team ended Frost's undefeated streak by taking the first game in the series; however, AZF came back to win the next two games and secure a spot in the grand finals. Unfortunately for the Korean squad, their reign of dominance would end there as the [[Taipei Assassins]] brought home the championship with a 3-1 victory. Azubu Frost settled for second place and a $250,000 dollar prize.
+
+Azubu Frost was involved in a controversy involving cheating during their match against Team SoloMid. During the match, the game was paused to deal with audio issues on Azubu Frost's headsets. During the pause, TSM's [[Chaox]] reported that he had witnessed a member of Azubu Frost, later determined to be Woong, looking at the minimap screens during the game. TSM's [[Dyrus]] also looked up at the screens during the pause. The match was restarted and the referees directed both teams to look forward at all times during the match. In an investigation conducted afterwards by Riot Games, officials concluded using video evidence that Dyrus's conduct was excusable and a warning was issued. However, Woong's incident was determined to have a direct affect on the game and therefore warranted appropriate consequences. Azubu Frost was fined $ 30,000 for their behavior.
+
+===Departure From Azubu===
+On February 1, 2013, it was reported that Blaze, along with sister-team Frost, would not renew their contracts with the Azubu organization after the contracts' expiration on February 4.<ref name="invenazubuparting"/>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Onair|kr|Kang Hyun-jong (강현종)|'''Head Coach'''|newteam=CJ}}
+{{listplayer|Kezman|kr|Son Dae-young (손대영)|'''Coach'''|newteam=CJ}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As MiG Frost===
+{{TeamResults|mig frost|show=overviewpage}}
+===As Maximum impact Gaming===
+{{TeamResults|Maximum impact Gaming|show=overviewpage}}
+===As Maximum impact Gaming iCE===
+{{TeamResults|Maximum impact Gaming iCE|show=overviewpage}}
+
+==Interviews==
+* March 28, 2012 - [http://www.ognlol.com/board_view/vod/board_id/10000000000117/series/15/re_url/main MiG Frost Interview] ''with Azubu''
+* September 3, 2012 - [http://www.youtube.com/watch?v=1_6BR7ClF4o Azubu Exclusive Interview: AZUBU Frost (video)] ''with Azubu''
+* September 28, 2012 - [http://www.youtube.com/watch?v=UXAcAlDv7RU Azubu Exclusive Interview: Azubu Frost (video)] ''with Azubu''
+* October 4, 2012 - [http://www.youtube.com/watch?v=hxgHu7pA0PU Azubu Frost After Groups Panel interview - IPL League of Legends (video)] ''with IGN ProLeague''
+* October 6, 2012 - [http://www.youtube.com/watch?v=Ckec0CYuKIAAzubu Frost Interview with Chobra - Season Two World Championship Day Two (Subtitled)] ''with ggChronicle''
+* October 13, 2012 - [http://www.inven.co.kr/board/powerbbs.php?come_idx=2744&l=712 전세계 2위! 롤드컵 준우승한 프로스트팀 인터뷰 (Korean)] [http://www.team-dignitas.net/articles/blogs/League-of-Legends/2360/interview-with-Azubu-Frost-after-the-Season-2-Championship/ (English Translation)] ''with Inven''
+* December 12, 2012 - [http://www.youtube.com/watch?v=uOAzcSs-Fsc Azubu Exclusive Interview: Azubu Frost (video)] ''with Azubu''
+
+==Links==
+* [http://ggchronicle.com/azubu-frost-preview/ Azubu Frost Preview: Season Two World Finals] ''by ggChronicle''
+
+== Images ==
+<gallery>
+File:MiGlogo.jpeg|MiG logo
+</gallery>
+
+==References==
+<references />

@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Trick&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.785Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Trick」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Trick
+|name=Kim Gang-yun
+|nativename=김강윤
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=July
+|birth_date_day=11
+|favchamp=Lee Sin
+|favchamp2=Nidalee
+|checkbox1=No
+|compID1=Snowfall
+|compID2=Snow
+|checkboxComp=No
+|ids='''EUW:''' SKT Rick, Super Moon, NiceLife XD, Scaphism, ImNotYourBrother, DrinkWater247<br>'''KR:''' CherryStone1, Pepper Japchae, MakeEuGreatAgain<br>'''BR:''' Muito prazer
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/trick_lol
+|facebook=https://www.facebook.com/profile.php?id=100008483142206
+|twitter=Tricklol12
+|instagram=kim_kangyun711
+|snapchat=trick_lol
+|lolpros=https://lolpros.gg/player/trick/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He's most well known for winning four consecutive EU LCS titles with [[G2 Esports]] from 2016-2017.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+===2015 Season===
+Kim "'''Trick'''" Gang-yun joined [[CJ Entus]] as a jungle substitute in December of 2014. He played his first game in July of 2015 against [[SBENU Sonicboom]] during [[SBENU Champions Summer 2015]]. He was a substitute for [[Ambition]]. CJ Entus placed third in the regular season but lost 3-0 to the [[KOO Tigers]] in the second round of playoffs. CJ had enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] but they lost 3-2 to the [[Jin Air Green Wings]]. Trick did not play in playoffs or the regionals. Trick left the team in November.
+
+===2016 Season===
+In late December, Trick moved to Europe to join [[G2 Esports]] as their new starting jungler.<ref>[http://www.g2esports.com/g2-agrees-terms-with-emperor-and-trick/ G2 agrees terms with Emperor & Trick] ''g2esports.com''</ref> The team quickly rose to prominence and recognition in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], consistently tied for first place after each week, sometimes with [[H2k-Gaming|H2k]] and sometimes also with [[Vitality]], until the end of the split when they held first place with sole possession. With a quarterfinal bye, the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]] also saw them strong, as they defeated both [[Fnatic]] and [[Origen]] 3-1 to win the season and secure an invitation to the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Going into MSI, G2 Esports were seen as a favorite not to win, but to come in second place to the Korean representatives [[SK Telecom T1]].<ref>[http://espn.go.com/esports/story/_/id/15446300/the-mid-season-invitational-power-rankings The Mid-Season Invitational Power Rankings] ''espn.go.com''</ref><ref>[http://www.lolesports.com/en_US/articles/msi-2016-power-rankings MSI 2016 Power Rankings] ''lolesports.com''</ref> However, the team lost their first four games of the round robin and ultimately finished in fifth place, ahead of only [[SuperMassive eSports]], and out of playoff contention - importantly, this placement meant that Europe would forfeit their [[2016 Season World Championship/Seeding|Pool 1 seed]] at [[2016 Season World Championship|Worlds]]. In a statement published partway through the second day of play, G2 stated that their players had taken vacation time after a "rigorous Spring Split."<ref>[http://www.g2esports.com/statement-from-g2-esports-about-msi-2016/ Club statement about MSI 2016] ''g2esports.com''</ref> AD carry [[Emperor (Kim Jin-hyun)|Emperor]] later stated that there had been an internal conflict within the team one day prior to the start of the event.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4i5fls/g2_emperor_post_on_facebook/ G2 Emperor Post on Facebook !!] ''reddit.com''</ref>
+
+== Trivia ==
+
+=== Individual Awards ===
+* 2x EU MVP (Spring 2016, Summer 2016)
+* 3x EU 1st All Pro Team (Spring 2016, Summer 2016, Spring 2017)
+* 1x EU 3rd All Pro Team (Summer 2017)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zero%20(Yoon%20Kyung-sup)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.546Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zero (Korean player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=zero
+|name=Yoon Kyung-sup
+|nativename=윤경섭
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=July
+|birth_date_day=16
+|favchamp=Ahri
+|favchamp2=Cassiopeia
+|checkbox1=No
+|checkboxComp=No
+|ids=KT Zero, 로얄 Zero
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|deeplol=https://www.deeplol.gg/pro/Zero-Yoon_Kyung-sup
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev3=Support
+}}
+==Biography==
+===Season 3===
+Yoon "'''Zero'''" Kyung-sup originally joined [[KT Rolster A]] as a mid laner in October of 2013. The team's first season of OGN together was [[OLYMPUS Champions Winter 2012-2013]] where they made it to the quarterfinals but lost 3-1 in the quarterfinals to their sister team, [[KT Rolster B]]. They then played in [[OLYMPUS Champions Spring 2013]] but this time they failed to make it past the group stage. Zero stayed on the team but they didn't play in any major tournaments for the rest of the season.
+
+===2014 Season===
+In February of 2014, Zero was moved to the KT Rolster Bullets to play either jungle or support as a substitute. He played a few games for the team in [[HOT6iX Champions Spring 2014]] where the Bullets made it to the quarterfinals but lost 3-2 to [[NaJin White Shield]]. Zero left the team in May to join [[Star Horn Royal Club]] as their support alongside his teammate, [[inSec]]. The team played in [[2014 LPL Summer]] and managed to place third. They qualified for the [[2014 LPL Summer/Playoffs|2014 LPL Summer Playoffs]] and placed third again after losing 3-2 to [[OMG]] in the loser's bracket. Royal earned enough circuit points to qualify for the [[2014 Season China Regional Finals]] where they won four games straight to qualify for the [[2014 Season World Championship]] as China's second seed. A week later they were knocked out of the [[X Championship/Season I|X Championship Season I]] 2-0 by [[Team King]]. At Worlds, they managed to fight their way all the way to the finals but fell 3-1 right at the end to [[Samsung White]]. They ended the season at [[Demacia Cup/Season 2|Demacia Cup Season 2]] where they lost 2-0 in the semifinals to [[EDward Gaming]].
+
+===2015 Season===
+Royal started the new season off with the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they lost 3-0 to [[Team WE]] in the quarterfinals. The [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] ended shortly afterwards with Royal being in tenth place and missing playoffs. Royal was forced to play in the [[2015 LPL/Summer/Promotion|2015 LPL Summer Promotion]] and they actually ended up being relegated when they lost 3-0 to [[Gamtee]] in the semifinals. The Team King organization bought the whole roster to replace their own so the team still got to play in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] and the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]]. In Demacia Cup, King lost in the round of 16 to [[Unlimited Potential]] 3-1 and in the LPL they ended in twelfth place, forcing them to play in relegations once again. King failed in the [[LPL/2016 Season/Spring Promotion|2016 LPL Spring Promotion]] when they lost 3-1 in the first round to [[2144 Danmu Gaming]]. Zero left the team shortly afterwards. In December of 2015 Zero joined [[Team WE]].
+
+===2016 Season===
+
+In the 2016 Season after they re-vamped their entire roster, Team WE entered the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] as underdogs but proved to be contenders for the title and finished 2nd with a 10-6 regular season record. Going into the Playoffs, the team defeated [[Vici Gaming]] 3-1 and despite losing to [[Royal Never Give Up]] 2-3 in the Semifinals the team finished in 3rd after they took down [[Qiao Gu Reapers]] in the third-place match. Summer was slightly more successful for Team WE as the team finished 2nd in their group. In the playoffs they finished 4th after a 1-3 loss to [[I May]]. Ultimately it was I May that ended up being Team WE's downfall. They lost an incredibly close series 2-3 to I May in the Regional Qualifiers. This unfortunately meant that they didn't qualify for Worlds.
+
+===2017 Season===
+
+In 2017 Zero became more of a substitute and [[Ben]] was promoted to the main support for the team. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] in 2nd place with a 10-6 record. In the [[LPL/2017_Season/Spring_Playoffs|2017 LPL Spring Playoffs]] Team WE was able win their first LPL title after taking down RNG 3-0 in the finals. They attended the [[2017 Mid-Season Invitational]] and made it through the group stage after they finished 2nd with a 7-3 record. In the Semifinals they were eliminated after a 1-3 loss to [[G2 Esports]]. Summer wasn't as successful for WE domestically. They were unable to defend their LPL title after they finished 2nd in their regular season group and lost 2-3 to Invictus Gaming in the third place match of the playoffs. They got their revenge against Invictus Gaming later on after they defeated them 3-2 in the [[2017 Season China Regional Finals]]. Their run at the [[2017 Season World Championship]] was quite impressive. Despite starting off in the [[2017_Season_World_Championship/Play-In|Play-In stage]], they advanced to the main groups with a 3-0 win over [[Young Generation]]. They also finished 1st in their main stage group with a 5-1 record. After they took down [[Cloud9]] 3-2 in the Quarterfinals, they faced off against eventual tournament winners [[Samsung Galaxy]] and lost 1-3.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

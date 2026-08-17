@@ -1,0 +1,118 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dans&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.013Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「dans」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=dans
+|name=Daniel Dias
+|pronoun=He
+|image=KBM dans 2016 Summer.png
+|checkboxAutoImage=No
+|country=Brazil
+|residency=Brazil
+|favchamp=Sona
+|favchamp2=Thresh
+|favchamp3=Zyra
+|checkbox1=No
+|checkboxComp=No
+|ids=KaBuM dans EVGA, neXi dans
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/dans1lol
+|facebook=https://www.facebook.com/dans1lol
+|twitter=dans1lol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+|prev2=Support
+|prev3=Jungler
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Reached Top 3 in Challenger.
+* Doesn't play support in solo queue.
+*''"With '''[[Digolera|Jesus]]''' in the team, I'm safe"'', he said in an interview before winning the [[2013 World Cyber Games/Qualifiers/Brazil|WCG 2013 Brazilian Qualifiers]] .
+* Portrayed as {{ci|Jinx}} in the CBLoL 2015 official wallpaper.
+* Was trolled by [[Mylon]] after a '''"Pro vs. Pro"''' session in 2015 to answer a "non-existing question" about having to travel for about 3 hours in the early morning from Limeira (SP) to the Riot studio in the capital at that time.<ref>[https://www.youtube.com/watch?v=qy_LUpyaBts MYLON TIRA DANS DO SÉRIO - PRO VS PRO (CBLOL 2015)] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===2014===
+* October 25 - [http://www.paravine.com/2014/10/interview-kabum-e-sports/ Interview with KaBuM! e-Sports (English)] [http://www.paravine.com/2014/10/entrevista-ao-kabum-e-sports/ (Portuguese)] ''with Paravine''
+=== Images ===
+<gallery>
+File:KBO dans CBLOL2015.jpg|KBO dans at [[CBLOL 2015 Split 2]]
+File:KBM dans 2014 WCS.jpg|KBM dans at [[Worlds 2014]]
+File:KaBuM dans.png|KaBuM dans
+File:KabumDans.png|KaBuM dans
+</gallery>
+
+{{PlayerPageEnd}}

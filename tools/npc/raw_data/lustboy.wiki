@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lustboy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lustboy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Lustboy
+|name=Ham Jang-sik
+|nativename=함장식
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=February
+|birth_date_day=18
+|favchamp=Lulu
+|favchamp2=Nami
+|checkbox1=No
+|checkboxComp=No
+|ids=CJ Entus 장식, Azubu B Lustboy, MiG Lustboy, TSM Lustboy (NA), GET OUTTA MY BOT, The Old Rat, AKA The Reason (KR), Night Jasmine (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lustkr
+|facebook=https://www.facebook.com/TSMLustboy
+|twitter=LustLoL
+|instagram=lustboyo7
+|youtube=https://www.youtube.com/channel/UC78mJW6l9n5pnExwa696WDQ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is best known for being the support of [[MiG Blaze]]/[[Azubu Blaze]]/[[CJ Entus Blaze]] and later [[Team SoloMid]].
+|checkbox-res=Yes
+|residency-prev1=North America
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+|prev2=Analyst
+|nickname=Lust Cena, The Carrier
+}}
+==Biography==
+Ham "'''Lustboy'''" Jang-sik started to play video games at the age of 5 with ''StarCraft: Brood War''. He wanted to be unpredictable, never wanting to do the same thing twice. This is one of the reasons he stopped playing ''StarCraft'' until ''StarCraft II: Wings of Liberty'' came out in 2010. He eventually began playing League of Legends in 2011, and while playing, he met [[Cpt Jack]] and [[Helios (Shin Dong-jin)|Helios]]. All three were eventually recruited into [[MiG Blaze]].
+
+===Season 2===
+Lustboy joined MiG Blaze when the team was formed in November of 2011. They won the inaugural season of OGN, [[Azubu The Champions Spring 2012]] by upsetting their sister team, [[MiG Frost]], 3-0. Shortly afterwards, Blaze and Frost were bought by the Azubu organization to form Azubu Blaze and Azubu Frost. Blaze attended [[Azubu The Champions Summer 2012]], this time ending in fourth after losing 3-2 to Frost in the semifinals and losing 2-0 to [[NaJin Sword]] in the third place match. Blaze qualified for the [[Season 2/Regional Finals - Seoul|Season 2 Korea Regional Finals]] but they lost in the finals 3-2 to Sword. Blaze were invited to the [[2012 MLG Pro Circuit/Fall/Championship|2012 MLG Fall Championship]] with [[Shy]] as a sub for their top lane. Blaze won the tournament anyways with a 4-1 victory over Sword. A few months later they attended [[IGN ProLeague Season 5|IPL 5]] but placed third in their group and were seeded into the loser's bracket. They made it to the third round but lost 2-1 to [[Moscow 5]].
+
+===Season 3===
+Blaze's first tournament of Season 3 was [[IEM Season VII - Global Challenge Katowice|IEM Katowice]] but they lost 2-0 to [[Gambit Gaming]] in the finals. [[OLYMPUS Champions Winter 2012-2013]] only ended a few days later and Blaze placed fourth after losing two 3-2 sets to Frost and a 3-0 set to [[KT Rolster B]]. Soon after, Blaze and Frost joined the CJ Entus organization to form [[CJ Entus Blaze]] and [[CJ Entus Frost]]. Blaze went to the [[IEM Season VII - World Championship|IEM World Championship]] and actually won the whole thing by beating Frost 3-1 in the finals. During [[OLYMPUS Champions Spring 2013]], Blaze had a 13 game win streak going into the finals but were upset 3-0 by [[MVP Ozone]] in what was considered the biggest upset in League of Legends history at the time. Blaze didn't fare as well in [[HOT6iX Champions Summer 2013]], making it to the quarterfinals but losing 3-2 to the KT Bullets. They still qualified for the [[Season 3 Korea Regional Finals]] but they lost 3-0 to the Bullets in the first round. Blaze qualified for the [[2013 World Cyber Games/Main Tournament|2013 World Cyber Games]] and swept the whole tournament, ending with a 2-0 victory over [[OMG]].
+
+===2014 Season===
+The first OGN of the new season for Blaze was at [[PANDORA.TV Champions Winter 2013-2014]] and once again Blaze met the Bullets in the quarterfinals, this time losing 3-1. Blaze had a slightly more successful [[HOT6iX Champions Spring 2014]], placing fourth again after losing two close 3-2 sets to [[NaJin White Shield]] and [[Samsung Ozone]]. Lustboy left Blaze soon after the tournament ended.
+
+During the [[Riot League Championship Series/North America/2014 Season/Summer Season|2014 LCS Summer Split]], [[Team SoloMid]] signed Lustboy from Blaze as their new support after [[Gleeb]] was benched, and Lustboy moved from Korea to North America. After Lustboy joined the team, TSM won the summer split with a 3-0 victory over [[Cloud9]], qualifying them directly for the [[2014 Season World Championship]] with the top seed from North America. TSM made it out of their group before being eliminated in the quarterfinals 3-1 by Samsung White.
+
+===2015 Season===
+TSM were the North American team invited to [[IEM Season IX - San Jose|IEM San Jose]]. They were seeded directly into the semifinals, but unexpectedly lost 0-2 to [[Unicorns of Love]], who had just qualified for the [[Riot League Championship Series/Europe/2015 Season/Spring Season|European LCS]].
+
+TSM began the [[Riot_League_Championship_Series/North_America/2015_Season/Spring_Season|2015 Spring Split]] with an 8-2 record after five weeks, holding first place during every week after the first. By virtue of their standing after the fifth week of the split, TSM was invited to the [[IEM Season IX - World Championship|IEM Season IX World Championship]]. There, they defeated [[Team WE]], [[CJ Entus]] (marking their first tournament win over a Korean team), and the [[yoe Flash Wolves]] to advance to the finals of the event, where they swept Team WE 3-0 to win the title. Though TSM themselves did not play against the [[GE Tigers]] at all (then undefeated in the [[SBENU Champions Spring 2015|LCK]]), or against any Korean team in a multi-game series, they still made history by being the first North American team to win an international event with Korean teams present since [[Chicks Dig Elo]] (which included Dyrus and Reginald) at the [[2011 World Cyber Games]] and the first Western team to do so since Gambit Gaming at IEM Katowice in 2013. Lustboy's play on Lulu and Annie at the tournament was especially praised, and he also became the first player to win two IEM World Championship titles.
+
+TSM finished the spring season with a 13-5 record, giving them the top seed into the [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|Playoffs]]. After defeating [[Team Impulse]] and then Cloud9, TSM won their third North American championship. Their victory also gave them the North American seed to the [[2015 Mid-Season Invitational]], where they looked to replicate their IEM success. However, the team underperformed in the group stage, winning only their match against wild card [[Beşiktaş e-Sports Club]] and not qualifying for playoffs.
+
+In the [[Riot League Championship Series/North America/2015 Season/Summer Season|LCS Summer Split]], TSM started relatively strong, sitting at a 8-2 record at the end of week 5. However, they fell to fifth place by week 9, their [[LCS Teams Timeline|lowest regular-season placement to date]]. In the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|Playoffs]], TSM beat [[Gravity Gaming]] and [[Team Liquid]] in the first two rounds, winning both series 3-1. In the finals, held at Madison Square Garden in New York City, they faced off against long-time rivals, [[Counter Logic Gaming]], and lost in a convincing 3-0 series. TSM qualified for the [[2015 Season World Championship]] after their semifinal win due to their [[2015 Season/Championship Points|Championship Points]] as the second seed from North America.
+
+TSM were drawn into Group D, which instantly became known as the "Group of Death" or the "Group of TSM's Death" due to [[LGD Gaming]] and [[KT Rolster]] being favorites to win it; [[Origen]] was the last team drawn in. LGD massively underperformed expectations, however, and TSM took a game off them in the first round robin. However, at the same time Origen overperformed, and ultimately KT Rolster and Origen made it out of groups; TSM lost their second game against LGD and ended up in last place with a 1-5 record.
+
+===2016 Preseason===
+Lustboy retired from competitive play following the 2015 World Championship and became an analyst for TSM, in part helping them to scout their new roster for the 2016 season, as [[Dyrus]]'s and [[Santorin]]'s departures were announced concurrently with his own.<ref>[http://www.tsm.gg/index.php/news/tsm-roster-changes/ TSM Roster Changes] ''solomid.net''</ref> At first he became an analyst for TSM, but in December 2015 he returned to a Korean team, coaching [[Incredible Miracle]]. Incredible Miracle rebranded to [[Longzhu]] on January 3, 2016.
+
+== Trivia ==
+* When making his name, wanted to use "Rust" but was already taken. then tried 'Lust' but was taken as well. So he changed it to "Lustboy" as a dedication for 'Rust' who was his Warcraft 3 Teacher.
+* He remains a Platinum League Terran who occasionally streams ''Brood War'' and ''Heart of the Swarm''.
+** Before he began his ''League'' career, he was signed to [[Prime Clan|Prime]]'s ''StarCraft'' team but left after failing to overcome stiff competition in the GSL.
+* His favorite champions are {{ci|Sona}} and {{ci|Orianna}}.<ref>[http://www.thisisgame.com/board/view.php?id=1124185&category=13735 MiG Blaze Team Interview (Korean)] ''thisisgame.com''</ref>
+* His favorite players are [[Ambition]], [[Locodoco]] and [[Emperor (Kim Jin-hyun)|Emperor]].
+* Wants to make Support {{ci|Orianna}} viable for competitions.
+* Said to be the best {{ci|Lulu}} ever by Scarra. <ref>[http://twitter.com/dscarra/status/264779731868717056 Scarra's Tweet] ''twitter.com''</ref>
+* Was once ranked first on KR solo queue ladder.
+* He is called the "Carrier".
+* Known for adapting and being able to pick up champions that fit well in the meta.
+* Was part of [[MiG Blaze]] when they won the first ever OGN season.
+* In March 2015, became the first player to win two [[IEM]] World Championships: [[IEM_Season_VII_-_World_Championship|Season VII]] with [[CJ Entus Blaze]] and [[IEM_Season_IX_-_World_Championship|Season IX]] with [[Team SoloMid]].
+* Gained the nickname "Lust Cena" after he used legendary WWE wrestler [[wikipedia:en:John Cena|John Cena]]'s trademark "You Can't See Me" taunt after TSM's victory over [[Cloud 9]] in the opening week of the [[NA LCS 2015 Spring|2015 NA LCS spring split]]. He repeated it at [[IEM Season 9 World Championship|IEM Katowice]] and the URFitational Grand Final and has also used some of Cena's catchphrases on social media.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

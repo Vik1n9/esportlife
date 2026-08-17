@@ -1,0 +1,110 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kiin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.051Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kiin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Kiin
+|name=Kim Gi-in
+|nativename=김기인
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=May
+|birth_date_day=28
+|favchamp=Ryze
+|favchamp2=Renekton
+|favchamp3=Gangplank
+|favchamp4=Rumble
+|checkbox1=Yes
+|favchamp5=K'Sante
+|favchamp6=Lucian
+|favchamp7=Jayce
+|checkboxComp=No
+|ids='''KR:''' kiin#KR1 <br> '''EUW:''' kiin #구독좋아요 <br> '''NA:''' addddsas#1234<br>'''BR:''' 123412314#1234
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/rldls5656
+|facebook=https://www.facebook.com/profile.php?id=100025557195727
+|twitter=kiin_99
+|instagram=lol_kiin
+|youtube=https://www.youtube.com/@Kiin0528
+|lolpros=https://lolpros.gg/player/kiin
+|deeplol=https://www.deeplol.gg/pro/Kiin
+|dpmlol=https://dpm.lol/pro/Kiin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Kiin''' is based on his given name, which can either be romanized as Gi-in or Ki-in.
+* Has flash on his F key.
+* His blood type is A.
+* His hobby is watching YouTube videos.
+* Has the nickname '''Kiinsante''' for his high winrate on {{ci|K'Sante}}.
+
+=== Statistics ===
+* Reached 1000 kills in the LCK on March 5, 2022.
+** Is the 18th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]] and [[ShowMaker]]
+** Is the second top laner to reach 1000 kills in the LCK, after [[Smeb]]
+** His 1000th kill was on [[Gen.G]]'s ADC [[Ophelia]] in [[LCK/2022 Season/Spring Season|LCK 2022 Spring]] with {{ci|Gwen}}
+* Reached 1500 kills in the LCK on March 20, 2024.
+** The 14th player and 1st top laner to reach 1500 kills in the LCK.
+* Reached 2000 kills in the LCK on April 18, 2026.
+** Was the 11th player to reach 2000 kills in the LCK after [[Faker]], [[Deft]], [[Ruler]], [[Teddy]], [[Bdd]], [[Chovy]], [[Aiming]], [[ShowMaker]], [[Peanut]], and [[Viper (Park Do-hyeon)|Viper]]
+** Is the first top laner to reach 2000 kills in the LCK
+** His 2000th kill was on [[Hanwha Life Esports|HLE]]'s Jungler [[Kanavi]] in [[LCK/2026 Season/Rounds 1-2|LCK Rounds 1-2]] with {{ci|Ambessa}}
+* Reached 500 games in the LCK on January 22, 2023, becoming the 9th player to do so, after [[Score]], [[Faker]], [[Ruler]], [[Deft]], [[Bdd]], [[Teddy]], [[Peanut]] and [[Ghost (Jang Yong-jun)|Ghost]].
+* Reached 600 games in the LCK on August 10, 2023, becoming the 5th player to do so, after [[Faker]], [[Deft]], [[Bdd]], and [[Peanut]].
+* Reached 700 games in the LCK on August 28, 2024, becoming the 5th player to do so, after Faker, Deft, Bdd, and Peanut.
+* Reached 300 wins in [[LCK]] on July 29, 2023, becoming the 11th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], [[Ruler]], [[Peanut]], [[Bdd]], [[Chovy]], and [[ShowMaker]].
+** Hit this milestone in the same game as his KT teammate [[Lehends]]
+* Reached 400 wins in [[LCK]] on April 06, 2025, becoming the 7th player to do so after [[Faker]], [[Deft]], [[Peanut]], Bdd, Chovy, and Lehends.
+* Reached 3000 assists in the LCK on June 23, 2024.
+** Was the 18th player to reach 3000 assists in the LCK.
+* The first player in the LCK to finish a split with all ten results.
+
+=== Individual Awards ===
+* Esports World Cup MVP (2025)
+* LCK Top-Laner of the Year (2025)
+* LCK 1st All-Pro Team x5 (Summer 2021, Summer 2023, Spring 2024, Summer 2024, LCK 2025)
+* LCK 2nd All-Pro Team x1 (Spring 2023)
+* LCK 3rd All-Pro Team x1 (Spring 2022)
+* LCK Finals MVP (Spring 2024)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

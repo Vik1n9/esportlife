@@ -1,0 +1,118 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Vander&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.549Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Vander」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Vander
+|name=Oskar&nbsp;Mateusz Bogdan
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Poland
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=April
+|birth_date_day=18
+|favchamp=Sona
+|favchamp2=Thresh
+|favchamp3=Fiddlesticks
+|checkbox1=No
+|compID1=VandeR
+|compID2=VandeRnoob
+|checkboxComp=No
+|ids='''EUW:''' vandiii<br>boomerbutzoomer<br>'''CN:''' uzifan1, oski2115
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lolvander
+|facebook=https://www.facebook.com/Vander.lol
+|twitter=Vanderlol
+|instagram=vander.lol
+|askfm=LoLVander
+|snapchat=oskarbog
+|reddit=KMTVander
+|lolpros=https://lolpros.gg/player/vander/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''VandeR'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 2===
+After spending time at [[DELTAeSPORTS]] during Season 1, VandeR was picked up by [[EloHell]] late on in Season 2 as the team's AD carry. His first tournament with EloHell was the [[Season 2/Regional Finals - Cologne|Season 2 Regional Finals]], but the team was knocked out by [[Moscow Five]] in the quarterfinals. 
+
+Soon after, the roster disbanded and VandeR went on to join [[The Mighty Midgets]]. VandeR and his new team competed at [[DreamHack Winter 2012]], but they could not make it out of their group. Just 2 weeks later, the team's roster was acquired by [[mousesports]], but left the organization soon after.
+
+===Season 3===
+After a short break from the competitive scene, VandeR joined [[Millenium]] as a the team's support for trial period. Unfortunately, Millenium disbanded just a few weeks later, leaving VandeR without a team.
+
+VandeR then went on to join [[Eternity Gaming]]. They came in 2nd at the [[SCAN & NVIDIA EUW Invitational]]. After this tournament, VandeR decided to fully switch to the support role. His first tournament as a support was [[DreamHack Summer 2013]], which was relatively successful for the team; Eternity made it to the semifinals before being knocked out by [[Dark Passage]]. The Eternity roster then left the organization, with VandeR moving on to [[Kiedyś Miałem Team]], where he met [[Overpow]].
+
+Soon after joining, the KMT roster left for [[H2k-Gaming]], in time to win [[DreamHack Bucharest 2013]], beating the Copenhagen Wolves in the final. With H2k, the team also managed to qualify for the [[Riot League Championship Series/Europe/2014 Season/Spring Promotion|Spring Promotion]] via the [[Europe Season 4 Promotion Tournament Qualifier 1|1st WellPlayed Qualifier]]. The roster was then picked up by [[GF-Gaming]], but was released just a week later. The team decided to reform again as KMT, and went on to finish 2nd at [[DreamHack Winter 2013]]. VandeR and the team participated in the Spring Promotion using the spot they had earned with H2k. The team came in 3rd in their group, and went on to win their promotion match-up against [[Ninjas in Pyjamas]].
+
+===2014 Season===
+Now with a spot in the upcoming [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]], VandeR and the rest of the roster were signed by [[Team ROCCAT]].
+
+The team's first split in the LCS was a huge success. Impressive early split performances (in particular his games on {{ci|Thresh}} against [[Millenium]] and [[Fnatic]]) earned him the weekly MVP award for Week 4. Over the split, he also proved himself on {{ci|Morgana}}. ROCCAT spent 3 weeks at the top of the standings table mid-split, but results tailed off slightly towards the end of the split. The team ended up finishing 4th behind [[Alliance]], securing themselves a spot in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]].
+
+ROCCAT performed well in the Spring Playoffs, but lost to [[SK Gaming]] in the semifinals. The team went on to finish in 3rd place after beating Alliance in the third-place match.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] was a struggle for ROCCAT, despite VandeR still being extremely effective on {{ci|Morgana}}. The team did not once make it out of the bottom 3 of the standings table. A frustrating few weeks at the start of the split were followed by an overall improvement in the team's performances. Despite their struggles, ROCCAT placed 6th overall, clinching a place at the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]].
+
+The playoffs saw the team raise their game considerably. A quarterfinal win over [[SUPA HOT CREW]] resulted in a semifinal matchup against [[Fnatic]]. The series was unexpectedly tight, with ROCCAT coming close but eventually losing 3-2 and missing out on qualification for the [[2014 Season World Championship|World Championship]]. A third-place match loss against SK Gaming meant that ROCCAT finished 4th overall.
+
+===2015 Season===
+Due to [[Fnatic]] being unable to attend [[IEM Season IX - Cologne|IEM Cologne]], VandeR (now stylizing his name as '''Vander''') and [[ROCCAT]] took their place at the tournament. The team were knocked out in the semifinals, losing to [[Counter Logic Gaming]].
+
+Vander and the team had an unsuccessful [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|LCS Spring Split]], finishing the regular season in 8th place, which meant that they would play in the [[Riot League Championship Series/Europe/2015 Season/Summer Promotion|Summer Promotion]]. Here, the team faced [[Copenhagen Wolves Academy]] and came out victorious, securing their spot in the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]].
+
+The [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]] itself was far more successful for Vander and the team, finishing the regular season in 5th place partly thanks to VandeR's impressive performances on a range of champions. This meant they would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]], where the team were beaten in the quarterfinals by [[Unicorns Of Love]], meaning that they would pick up 20 [[2015 Season/Championship Points|Championship Points]] and go on to play in the [[2015 Season Europe Regional Finals]]. Team ROCCAT went on to lose to eventual qualifiers [[Origen]] in Round 2 of the gauntlet.
+
+===2016 Season===
+At the start of the season, Vander joined [[H2k-Gaming]] after the team were voted to play at [[IEM Season X - Cologne]]. They fielded a roster including [[Odoamne]] and [[Ryu]] from their 2015 roster along with new members [[Jankos]], [[FORG1VEN]], and VandeR. The team beat [[Cloud9]] in the quarterfinals but were then beaten themselves by eventual winners [[ESC Ever|Ever]] in the semifinals of the tournament.
+
+== Trivia ==
+* His favorite champions are {{ci|Corki}} and {{ci|Ezreal}}.
+* Played AD and support competitively.
+* Reached 2500 Assists in the LEC on August 9, 2020.
+** The 3rd player to reach 2500 assists in the LEC after [[Hylissang]] and [[Jankos]].
+
+=== Individual Awards ===
+* 1x EU 2nd All Pro Team (Summer 2020)
+* 2x EU 3rd All Pro Team (Spring 2016, Summer 2016)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

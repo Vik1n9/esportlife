@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Envy%20(Bruno%20Farias)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.804Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Envy (Bruno Farias)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Envy
+|name=Bruno Farias
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=August
+|birth_date_day=12
+|favchamp=Sylas
+|favchamp2=Ahri
+|favchamp3=Vex
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR:''' potato the cat#envy <br>'''CN:''' BR03
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/envyl0l
+|facebook=https://www.facebook.com/Envyylol
+|twitter=envylool
+|instagram=envylol1
+|lolpros=https://br.lolpros.gg/player/envy
+|deeplol=https://www.deeplol.gg/pro/Envy-Bruno_Farias
+|dpmlol=https://dpm.lol/pro/Envy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Usually known for popping off and surprising fans during most of the playoffs stage he participates, which led to people calling him '''"Envy dos Playoffs"'''.<ref>[https://twitter.com/ilhadaslendas/status/1695870216666791974 Ilha das Lendas' Tweet] ''twitter.com''</ref>
+* His TP in his own base in the end of the game between [[Los Grandes]] and [[Liberty]] during [[CBLOL 2024 Split 2]] was mocked by the whole Brazilian community, comparing it to [[Tay|Tay's]] {{ci|urgot}} TP during [[Worlds 2020]] and [[LEP|LEP's]] {{ci|lulu}} TP during [[Worlds 2014]].<ref>[https://www.youtube.com/watch?v=giAn4c75AaU INACREDITÁVEL! Streamers reagem ao TP do Envy e DERROTA da Los] ''youtube.com''</ref>
+* Infamously known for his {{ci|taliyah}}, which he holds a 15% winrate.
+* He is one of the only players in the world to achieve only pentakills in games that ended in defeat.
+
+===Equipment===
+* Mouse: Razer Viper V3
+* Keyboard: Logitech G915 X TKL
+* Mousepad: Artisan FX Hien
+
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

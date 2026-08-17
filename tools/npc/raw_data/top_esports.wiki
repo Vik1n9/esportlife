@@ -1,0 +1,112 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Top%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.784Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Top Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name=Top Esports
+|organization=Topsports Gaming (Organization)
+|orgcountry= China 
+|country=
+|region=CN
+|headcoach=
+|coaches= 
+|analysts=
+|manager= 
+|captain= 
+|website=
+|youtube= https://www.youtube.com/channel/UCsJq_nJLN3Ss3i9lucBy2_Q
+|instagram=topesports_official
+|facebook=
+|twitter=TOP_esports_
+|weibo=https://weibo.com/2144gaming
+|irc=
+|sponsor=[https://www.audi.cn Audi]<br>[https://www.audichina.cn/cn/web/en.html FAW Audi]<br>[http://www.topsports.com.cn/ Topsports]<br>[https://www.logitechg.com.cn/zh-cn Logitech G]<br>[https://www.fossofficial.com FOSS]<br>[https://shop.m.jd.com/shop/home?shopId=1000423413 TGIF]<br>[https://ufh.com.cn/en/ United Family Healthcare]
+|created= 2017-12-21
+|trades=
+|rosterphoto=
+}}{{TOCRWI}}
+'''Top Esports''' is a Chinese team owned by '''Topsports'''. They were previously known as [[Topsports Gaming]].
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayer|Hao (Guo Hao)|cn|Guo Hao (郭皓)|'''Chief Executive Officer'''}}
+{{listplayer|wly|cn|Wang Liang-Yi (王良毅)|'''Leader'''}}
+{{listplayersp|Lazi (辣子)|cn|Deng Bao-Xing (邓宝兴)|'''Manager'''}}
+{{listplayer|Poppy (Chang Po-Hao)|tw|Chang Po-Hao (張博皓)|'''Head Coach'''}}
+{{listplayer|BoBo (He Wen-Bo)|cn|He Wen-Bo (何文博)|'''Coach'''}}
+{{listplayer|Leo (Li Yu-Ming)|cn|Li Yu-Ming (李聿洺)|'''Coach'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|John|cn|Li Guang-Yao (李光耀)|'''Translator'''|newteam=none}}
+{{listplayer|Homme|kr|Yoon Sung-young (윤성영)|'''Head Coach'''|newteam=Hanwha Life Esports}}
+{{listplayer|Ben|kr|Nam Dong-hyun (남동현)|'''Coach'''|newteam=BLG}}
+{{listplayer|Ggoong|kr|Yu Byeong-jun (유병준)|'''Analyst'''|newteam=DN Freecs}}
+{{listplayersp|Jigwang|cn|Cui Zhi-Guang (崔智广)|'''Leader'''|newteam=none}}
+{{listplayer|Shuijing|cn|Luo Xiang (罗翔)|'''Analyst'''|newteam=none}}
+{{listplayer|Maokai (Yang Ji-Song)|cn|Yang Ji-Song (杨济松)|'''Head Coach'''|newteam=BLG}}
+{{listplayer|Despa1r|cn|Zhou Li-Peng (周李鹏)|'''Coach'''|newteam=WBG}}
+{{listplayersp|Momo|cn|Xu Jing (许竞)|'''Manager'''|newteam=None}}
+{{listplayer|River (Wang Yang)|cn|Wang Yang (汪洋)|'''Assistant Coach'''|newteam=None}}
+{{listplayer|Java (Wei Yi-Fan)|cn|Wei Yi-Fan (魏一帆)|'''Analyst'''|newteam=Ninjas in Pyjamas.CN}}
+{{listplayersp|Momo|cn|Xu Jing (许竞)|'''Manager'''|newteam=None}}
+{{listplayer|Dian|cn|Li Guo-Peng (李国鹏)|'''Head Coach'''|newteam=None}}
+{{listplayer|Chieh|tw|Li Chieh (李杰)|'''Coach'''|newteam=Beyond Gaming}}
+{{listplayer|DynAmIte|cn|Mao Ze-Tong (毛泽通)|'''Analyst'''|newteam=lng}}
+{{listplayersp|Jun|cn|Lui Jun (刘俊)|'''Leader'''|newteam=None}}
+{{listplayer|Crescent (Luo Sheng)|cn|Luo Sheng (罗盛)|'''Head Coach'''|newteam=LNG}}
+{{listplayer|byg97|cn|Zhou Tai-Jie (周泰杰)|'''Coach'''|newteam=Ninjas in Pyjamas.CN}}
+{{listplayersp|BZ|cn|Zhao Ye-Tong (赵烨通)|'''Analyst'''|newteam=None}}
+{{listplayersp|Buz|cn|Cui Qing (崔清)|'''Leader'''|newteam=TESC}}
+{{listplayer|Tselin|cn|Zhao Ze-Lin (赵泽霖)|'''Assistant Coach'''|newteam=tt cn}}
+{{listplayer|WarHorse|tw|Chen Ju-Chih (陳如治)|'''Head Coach'''|newteam=WE}}
+{{listplayer|Crescent (Luo Sheng)|cn|Luo Sheng (罗盛)|'''Supervisor'''|newteam=tes|comment=Head Coach}}
+{{listplayer|Crescent (Luo Sheng)|cn|Luo Sheng (罗盛)|'''Head Coach'''|newteam=tes|comment=Supervisor}}
+{{listplayer|Ggoong|kr|Yu Byeong-jun (유병준)|'''Assistant Coach'''|newteam=Gen.G}}
+{{listplayer|BYG|cn|Zhou Tai-Jie (周泰杰)|'''Assistant Coach'''|newteam=tesc}}
+{{listplayer|VicaL|kr|Kim Sun-mook (김선묵)|'''Head Coach'''|newteam=KDM}}
+{{listplayer|Slythe|cn|Zhao Ze-Lin (赵泽霖)|'''Coach'''|newteam=tes}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As Topsports Gaming===
+{{TeamResults|Topsports Gaming|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+== Images ==
+===Rosters===
+<gallery>
+TES 2020.jpg|Top Esports' 2020 LPL Spring Roster
+TES 2020 Summer.jpg|Top Esports' 2020 LPL Summer Roster
+TES Worlds 2020.png|Top Esports' 2020 World Championship Roster
+TES 2021 Spring.jpg|Top Esports' 2021 LPL Spring Roster
+TES 2021 Summer.jpeg|Top Esports' 2021 LPL Summer Roster
+TES 2022 Spring.jpg|Top Esports' 2022 LPL Spring Roster
+TES 2022 Summmer.jpg|Top Esports' 2022 LPL Summer Roster
+TES 2023 Spring.jpg|Top Esports' 2023 LPL Spring Roster
+TES 2024 Spring.jpg|Top Esports' 2024 LPL Spring Roster
+TES 2024 Summer.jpeg|Top Esports' 2024 LPL Summer Roster
+TES_2025_Split_1.jpg|Top Esports' 2025 LPL Split 1 Roster
+Top Esports 2025 FST.jpeg|TES 2025 FST
+</gallery>
+
+== References ==
+<references />

@@ -1,0 +1,122 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Odoamne&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.796Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Odoamne」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Odoamne
+|name=Andrei Pascu
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Romania
+|residency=EMEA
+|birth_date_year=1995
+|birth_date_month=January
+|birth_date_day=18
+|favchamp=Maokai
+|favchamp2=Rumble
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Odoamne
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/odoamne
+|facebook=https://www.facebook.com/OdoamneLoL
+|twitter=Odoamne
+|instagram=odoamnelol
+|askfm=OdoamneLoL
+|reddit=Odoamne
+|youtube=https://www.youtube.com/channel/UCJlNT_Qx6f46-zst6jydBdg
+|discord=https://discord.gg/pHVaabfg
+|tiktok=realodoamne
+|lolpros=https://lolpros.gg/player/odoamne
+|deeplol=https://www.deeplol.gg/pro/Odoamne
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+Odoamne started his competitive career with [[Absolute Legends]], but left for [[AirWalk Gaming]] after a few months with the team. At the end of the season, Odoamne joined [[No Remorse eSports]], before leaving less than a month later.
+
+===2014 Season===
+Odoamne joined newly formed [[Cloud 9 Eclipse]] at the start of the season, and this saw him playing in a roster that included [[Febiven]] and [[Voidle]]. The team's first tournament was the [[SCAN EUW Winter Invitational]]. The roster managed to impress from the very start, finishing 1st after beating [[Gamers2]] in the final of the tournament. Odoamne and the team continued in the same form, winning [[2014 EU Challenger Series/Spring Series|Challenger Spring #1]]. An uncharacteristic dip in the team's play lead to [[Cloud 9 Eclipse]] being knocked out of [[2014 EU Challenger Series/Spring Series/Series 2|Challenger Spring #2]], losing to [[Departed]] in the quarterfinals.
+
+Despite this, Odoamne and the team went on to win a number of tournaments on the run. The first of these was Week 20 of the [[EUW Challenger Series]], where they took revenge by beating [[Departed]] in the final. Next up was the [[2014 Black Monster Cup Europe Spring|2014 Black Monster Cup Europe - Spring]], where C9E took further revenge, beating [[Denial eSports.Europe]] in the final after the organization picked up the roster of [[Departed]]. The team also won [[International Invitational Tournament 3]], beating [[Dark Passage]] in the final.
+
+Soon after, [[Cloud 9 Eclipse]] competed at the [[Copenhagen Games 2014]] with [[Santorin]] subbing in the jungle - the team managed a 2nd place finish, behind [[Ninjas in Pyjamas]]. Odoamne and C9E then returned to the Challenger Series with the [[2014 EU Challenger Series/Spring Series/Playoffs|Spring Playoffs]]. The team won the tournament, again taking revenge by beating [[Ninjas in Pyjamas]] in the final. This would mean that C9E would have a chance to qualify for the LCS in the [[Riot League Championship Series/Europe/2014 Season/Summer Promotion|Summer Promotion]]. Unfortunately for Odoamne and the team, they lost their promotion match-up against [[SUPA HOT CREW]]. Odoamne and [[Cloud 9 Eclipse]]'s last tournament would be the [[LoL Pro League/Season I|LoL Pro League - Season I]], which they managed to win. After this, the team's roster was released. Odoamne and the majority of the former C9E roster then decided to join [[H2k-Gaming]].
+
+Odoamne's first tournament with H2k was the [[2014 EU Challenger Series/Summer Series|Challenger Summer #1]], which the team won, beating [[Ninjas in Pyjamas]] in the final. Next up for Odoamne was the [[Dailymotion Challenger Cup]], where the team finished 3rd, after losing to [[SK Gaming Prime]] in the 4th round of the winner's bracket and surrendering their 4th round loser's bracket match to [[Unicorns of Love]]. H2k also competed at [[FACEIT Challenger Invitational 3]], but did not make it out of the group stages. Odoamne and the team returned to the Challenger Series with [[2014 EU Challenger Series/Summer Series/Series 2|Challenger Summer #2]], but the series was not a success, with [[H2k-Gaming]] finishing in 4th place after surrendering their third-place match against [[Gamers2]].
+
+Soon after, Odoamne and the team returned to winning form with the [[2014 EU Challenger Series/Summer Series/Playoffs|Summer Playoffs]], beating [[SK Gaming Prime]] in the final. They followed this up with a win over [[Ninjas in Pyjamas]] in the final of the [[FACEIT Gamescom Challenge]]. Due to their performance in the playoffs, [[H2k-Gaming]] had secured themselves a place in the [[Riot League Championship Series/Europe/2015 Season/Spring Promotion|Spring Promotion]]. Despite a considerable amount of hype surrounding the team, they were beaten by [[Copenhagen Wolves]] in their promotion matchup. After this disappointment, H2k were quick to recover; going on to beat [[n!faculty]] in the final of [[Challenger FaceOff 3]]. They also managed to win the [[2014 Black Monster Cup Europe Winter|2014 Black Monster Cup Europe - Winter]], beating [[SK Gaming Prime]] in the final.
+ 
+With [[H2k-Gaming]], Odoamne competed in the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Expansion|Spring Expansion Tournament]], and qualified for the Offline Stage after beating [[Meloncats]]. In the Offline Stage, H2k won their first match-up against [[n!faculty]], placing themselves one win away from qualifying for the LCS. The team went on to beat [[GIANTS! Gaming]] in the Winner's Bracket Final, meaning that they would be playing in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]].
+
+===2015 Season===
+The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was relatively successful for Odoamne and [[H2k-Gaming]]. After a shaky start, results began to pick up for the team, partly thanks to the introduction of [[kaSing]] to the roster. Odoamne's impressive individual performances throughout the rest of the split, particularly on {{ci|Maokai}} and {{ci|Gnar}}, helped the team to a 3rd place finish in the regular season. In the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], Odoamne and the team beat [[Copenhagen Wolves]] in the quarterfinals, but were beaten in the semifinals in a close-fought series by eventual champions [[Fnatic]]. [[H2k-Gaming]] went on to pull off a shock victory over [[SK Gaming]] in the third-place match, securing themselves 50 [[2015 Season/Championship Points|Championship Points]].
+
+Odoamne and the team began to impress from the very start of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. [[H2k-Gaming]] jostled for 2nd position with [[Origen]] throughout the regular season, with [[Fnatic]] way out in 1st place throughout. Impressive performances from Odoamne on both {{ci|Gnar}} and {{ci|Rumble}} ultimately helped the team to yet another 3rd place regular season finish. The [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]] also went well for Odoamne and the team, beating [[Giants Gaming]] in the quarterfinals of the tournament. The were beaten in the semifinals by [[Origen]], but went on to beat [[Unicorns Of Love]] in the third-place match, securing the team 70 [[2015 Season/Championship Points|Championship Points]], which meant that the team had qualified for the [[2015 World Championship]] as Europe's #2 seed.
+
+At the [[2015 World Championship]], [[H2k-Gaming]] were seeded into Group C along with [[SK Telecom T1]], [[EDward Gaming]], and [[Bangkok Titans]]. They picked up 2 wins in the group, both coming against [[Bangkok Titans|BKT]]. Odoamne and the team finished the group in 3rd place, meaning they would not advance to the knockout stage of the tournament.
+
+===2016 Season===
+At the start of the season, [[H2k-Gaming]] were voted to play at [[IEM Season X - Cologne]]. They fielded a roster including Odoamne and [[Ryu]] from their 2015 roster along with new members [[Jankos]], [[FORG1VEN]], and [[VandeR]]. The team beat [[Cloud9]] in the quarterfinals but were then beaten themselves by eventual winners [[ESC Ever|Ever]] in the semifinals of the tournament.
+
+== Trivia ==
+* His ID '''Odoamne''' is based on the Romanian phrase "O, Doamne!" ("Oh my God!").
+* While playing the Challenger Series, some people mistook him for [[TheOddOne]], writing things in Twitch Chat like "Oddone in EU?"
+* He is an ex-swimmer
+* Reached 1000 kills in the LEC on January 21st, 2022.
+** The 9th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]], [[Kobbe]] and [[Hans sama]]
+* Reached 2500 Assists in the LEC on February 18, 2022.
+** The 6th player to reach 2500 assists in the LEC after [[Hylissang]], [[Jankos]], [[VandeR]], [[Mikyx]] and [[Rekkles]].
+* Became the third player to reach both 1000 kills and 2500 assists in the LEC on February 18, 2022 after [[Jankos]] and [[Rekkles]].
+* Reached 500 games in the LEC on June 24, 2023 in week 1 of the [[LEC/2023 Season/Summer Season|LEC 2023 Summer Split]] against Team Heretics.
+** The 4th player to reach 500 games in the LEC after [[Jankos]], [[Hylissang]], and [[Rekkles]].
+* Reached 300 wins in the LEC on August 27, 2023.
+** The 5th player to reach 300 wins in the LEC after [[Jankos]], [[Rekkles]], [[Hylissang]], and [[Caps]].
+
+=== Individual Awards ===
+* EU All-Pro 1st team x2 (Summer 2021, Spring 2022)
+* EU All-Pro 2nd Team x4 (Spring 2016, Spring 2017, Summer 2017, Spring 2021)
+* EU All-Pro 3rd Team x1 (Spring 2018)
+
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

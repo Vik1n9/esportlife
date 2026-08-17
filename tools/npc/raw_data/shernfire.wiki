@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shernfire&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.246Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shernfire」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Shernfire
+|name=Shern Cherng Tai
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Malaysia
+|nationality=Australia
+|residency=PCS
+|birth_date_year=1998
+|birth_date_month=May
+|birth_date_day=04
+|checkbox1=No
+|checkboxComp=No
+|ids=DW shernfire ROC, sans pareil
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/shernfire
+|facebook=https://www.facebook.com/shernfire
+|twitter=shernfire
+|lolpros=https://lolpros.gg/player/shernfire
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Born in Malaysia, Shernfire grew up in Australia. He got into video games at an early age due to the influence of the people around him and the fun he could have. He remembers Halo as his first gaming experience, calling it one of his favorite house party games, though his cousin was the person who got him into PC gaming. 
+
+Despite not remembering his first League of Legends game fondly, Shernfire persisted and eventually managed to climb the soloqueue ladder.
+
+===2014 Season===
+In October 2014, Shernfire joined [[Dire Wolves]] as a substitute.
+
+===2015 Season===
+After leaving Dire Wolves mid-season, Shernfire joined [[Vortex (North American Team)|Vortex]] as a jungler for the [[2015 NA Challenger Series/Summer Season|NACS Summer Season]]. However, soon after he arrived in the United States, he was [[List of Competitive Rulings|banned from competitive play]] for the remainder of the 2015 season for Elo boosting.<ref>[http://oce.lolesports.com/articles/competitive-ruling-shernfire Competitive Ruling: Shernfire] ''oce.lolesports.com''</ref>
+
+===2016 Season===
+After Shernfire's ban expired, he joined NA Challenger team [[Astral Authority]] for the [[NA Challenger Series/2016 Season/Spring Qualifiers/Open Qualifier|NACS Open Qualifier]]. The team made it to the [[NA Challenger Series/2016 Season/Spring Qualifiers|final qualifier round]], renaming to [[Samadder Gaming]] temporarily before returning to the name Astral Authority. Upon qualifying for the [[NA Challenger Series/2016 Season/Spring Season|spring season]], the roster was acquired by the organization [[Dream Team]]. Dream Team finished the season in fifth place, losing an automatic tiebreaker with [[Team Liquid Academy]] due to head-to-head record. They missed out on the [[NA Challenger Series/2016 Season/Spring Playoffs|playoffs]] but received higher seeding for the [[NA Challenger Series/2016 Season/Summer Qualifiers|summer qualifier]] due to finishing ahead of [[Enemy]].
+
+== Trivia ==
+* When he first started playing ''League of Legends'', he played only {{ci|Master Yi}}.
+* He is known for his {{ci|Rengar}}, {{ci|Lee Sin}}, and {{ci|Kha'Zix}}.
+* He originally wanted to become a soccer player.
+* He is a vegetarian.
+* Was frequently suspended throughout his professional career for a variety of offenses. 
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

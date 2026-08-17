@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zoom&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.591Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zoom」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Zoom
+|name=Zhang Xing-Ran
+|nativename=张星冉
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1997
+|birth_date_month=July
+|birth_date_day=27
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:''' 可惜了兄弟们<br>'''KR:''' xiao ke tang<br>xiao dun shou
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/592541
+|weibo=https://www.weibo.com/n/美梦星-Zoom
+|deeplol=https://www.deeplol.gg/pro/Zoom
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+}}
+==Biography==
+
+== Trivia ==<!--
+* He gave his girlfriend 310,000 yuan and was squandered by his girlfriend.
+** His irony of his ex "You have also experienced the fashionable society." earned him the nickname "Upper-class top".-->
+* Famous for his {{ci|Gangplank}}.
+* Drinks water from a goblet while streaming.
+=== Individual Awards ===
+* LPL All-Pro 1st Team (2018 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

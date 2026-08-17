@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Smurf%20(Dmitri%20Ivanov)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.767Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Smurf (Russian player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Smurf
+|name=Dmitri Ivanov
+|nativename=Дмитрий Иванов
+|namealphabet=Cyrillic
+|pronoun=He
+|image=M19 Smurf 2019 Split 1.png
+|checkboxAutoImage=No
+|country=Russia
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=June
+|birth_date_day=22
+|favchamp=Poppy
+|favchamp2=Darius
+|favchamp3=Gangplank
+|favchamp4=Renekton
+|checkbox1=Yes
+|favchamp5=Jayce
+|favchamp6=Gragas
+|checkboxComp=No
+|ids='''EUW''': Smurf<br>'''EUW''': DIMA IZ AYAYANII<br>
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/smurf_tv
+|twitter=lol_smurf_tv
+|videoarchive=https://www.youtube.com/channel/UCjEK7Ir_wNKDkLYUdPulmZA
+|youtube=https://www.youtube.com/channel/UCZEuXSduqZUv6NFloLmpnRg
+|discord=https://discord.gg/RffWQkztu6
+|vk=https://vk.com/smurflol
+|lolpros=https://lolpros.gg/player/smurf
+|deeplol=https://www.deeplol.gg/strm/Smurf
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=For the Korean player, see [[Smurph]].
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Dmitriy "'''Smurf'''" Ivanov was born in Kaliningrad.
+===2015 Season===
+Smurf joined [[Hard Random]] in January 2015. He was part of the roster that won the [[SLTV StarSeries/Spring Split 2015|Spring 2015 SLTV StarSeries]] and then qualified for the [[2015 International Wild Card Invitational|International Wild Card Invitational]].
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NaJin%20White%20Shield&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.371Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「NaJin White Shield」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= NaJin White Shield
+|orgcountry= South Korea 
+|country=
+|region=KR
+|image= Najin_white_shield_new.png
+|coaches= Park "'''Reach'''" Jung-suk <br> Kim "'''MOKUZA'''" Dae-woong <br> Chae "'''ViNylCat'''" Woo-cheul <br> Kim "'''SSONG'''" Sang-soo 
+|manager= 
+|captain=
+|website= 
+|youtube=
+|facebook=
+|twitter= 
+|irc= 
+|sponsor= [http://e-world.co.kr/ NaJin Industries]<br>[http://razerzone.com/ Razer]<br>[http://www.gigabyte.kr/?f=g GIGABYTE]<br>[http://www.pocarisweat.com.ph/ Pocari Sweat]<br>[http://undefeated.com/ Undefeated]
+|created= 2012-02-14
+|disbanded= 
+|trades= 
+|isdisbanded=yes
+}}{{TOCRWI}}
+
+Formerly known as Extreme Dive Gaming, '''NaJin White Shield''' is a professional gaming team based in Korea. Along with [[Team OP]] they are one of the oldest teams in korea. Many of the former players are very popular players, some being known by non-Koreans for their time spent playing on the North American server. NaJin e-mFire also sponsors a second League of Legends team, [[NaJin Black Sword]] and a Tekken team.
+
+==History==
+
+==Timeline==
+{{TeamNews}}
+
+==Player Roster==
+[[File:NWS 2014.jpg|thumb|no-link=true|400px|right|NaJin White Shield's [[2014 Season World Championship]] Roster<br> Left to Right: Pure, watch, Gorilla, Save, Zefa, Ggoong]]
+[[File:NJWS_2014_Korea_Finals.jpg|thumb|no-link=true|400px|right|NaJin White Shield 2014 Season Korea Finals Lineup <br> From left to right: Save, Pure, watch, GorillA, Ggoong and Zefa.]]
+{{TeamMembersCurrent}}
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{{Listplayer/Start|newteam=yes|staff=yes}}
+{{listplayer|Reach|link=Reach (Park Jung-suk)|kr|Park Jung-suk (박정석)|'''Head Coach'''|newteam=nje}}
+{{listplayer|viNylCat|kr|Chae Woo-cheul (채우철)|'''Coach'''|newteam=nje}}
+{{listplayer|MOKUZA|kr|Kim Dae-woong (김대웅)|'''Coach'''|newteam=nje}}
+{{listplayer|Sim|kr|Sim Sung-soo (심성수)|'''Coach'''|newteam=NaJIn Sword}}
+{{Listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===as NaJin Shield===
+{{TeamResults|njsh|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Articles ==
+{{TabsDynamic
+|name1=2015
+|name2=2014
+|This=1}}
+{{TabsDynamic|tab}}<!--2015-->
+* September 2 - [http://www.esportsheaven.com/articles/view/5582/remembering-the-past-najin-white-shield-s-2014-gauntlet-run-part-1-setting-the-stage REMEMBERING THE PAST: NAJIN WHITE SHIELD'S 2014 GAUNTLET RUN -- PART 1: SETTING THE STAGE] - ''by Esports Heaven''
+{{TabsDynamic|tab}}<!--2014-->
+* September 9 - [http://lolesports.com/articles/breaking-down-group-d Breaking down Group D] - ''from [http://lolesports.com LoL Esports]''
+* September 13 - [http://cloth5.com/najin-white-shield-korean-dark-horse/ World Championship Preview: NaJin White Shield – The Korean Dark Horse (Group D)] - ''from [http://cloth5.com Cloth5]''
+* September 23 - [http://content.azubu.tv/moba/league-of-legends/league-legends-world-championship-preview-group-d/ League of Legends World Championship Preview – Group D] - ''from [http://content.azubu.tv Azubu]''
+* September 24 - [http://ggchronicle.com/season-four-world-championship-preview-najin-white-shield Season Four World Championship Preview: NaJin White Shield] - ''from [http://ggchronicle.com/ ggChronicle]''
+* October 4 - [http://content.azubu.tv/moba/league-of-legends/pick-side-najin-white-shield-vs-omg/ Pick a Side – NaJin White Shield vs OMG] - ''from [http://content.azubu.tv Azubu]''
+* October 4 - [http://www.ongamers.com/articles/hyenas-or-lemmings-china-vs-najin-white-shield/1100-2254/ Hyenas or Lemmings: China vs NaJin White Shield ] - ''from [http://www.ongamers.com onGamers]''
+* October 6 - [http://www.esportsheaven.com/articles/view/5326 The power of picks and bans: Featuring OMG vs Najin White Shield, Game 3 ] - ''from [http://www.esportsheaven.com/ Esports Heaven]
+{{TabsDynamic|end}}
+
+== Images ==
+<gallery>
+File:NJWS OGN Spring 2014.jpg|NaJin White Shield OGN Spring 2014 Lineup
+File:NaJin_e-mFire_Shield.jpg|Najin Shield logo
+</gallery>
+
+== See Also ==
+* [[NaJin Black Sword]]
+
+==References==
+<references/>

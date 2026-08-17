@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hiiva&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.251Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hiiva」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Hiiva
+|name=Aleksi Kaikkonen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Finland
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=August
+|birth_date_day=31
+|checkbox1=No
+|compID1=H1IVA
+|checkboxComp=No
+|ids=Swaglord Hiiva, nevo H1iva, G2 H1iva, Swaglord H1iva
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/hiivalol
+|facebook=https://www.facebook.com/Hiivalol
+|twitter=HiivaLoL
+|lolpros=https://lolpros.gg/player/hiiva
+|deeplol=https://www.deeplol.gg/pro/Hiiva
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''H1IVA'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Hiiva''' translates to "yeast" from Finnish. 
+** It originiated from a friend, in exchange for a ''League of Legends'' beta key, if Hiiva would use the word as his summoner name.<ref>[https://youtu.be/6zuc1mI8OSg?t=98 Euro League - Vitality crumble. MVP? Playoff draft gaps. feat. Hiiva & Troubleinc ] ''youtube.com''</ref>
+* Subbed for [[Gambit Gaming]] for Week 5 of the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|EU LCS 2014 Summer Split]].
+* Before making a surprising return with [[Misfits Gaming]] in [[LEC/2019 Season/Summer Season|LEC 2019 Summer]], he had previously played 14 games in the EU LCS, all of them losses. 
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,161 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hans%20Sama&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.250Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hans sama」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Hans Sama
+|name=Steven Liv
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=September
+|birth_date_day=02
+|favchamp=Draven
+|favchamp2=Xayah
+|favchamp3=Kalista
+|favchamp4=Lucian
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' G2 Hans Sama#12838<br> '''KR:''' TrackingTheWeebs, MSF GoHan<br>G2 Zoro<br>'''NA:''' G2 12838712#1234<br>'''BR:''' G2G2G2#32235
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/hanssama
+|facebook=https://www.facebook.com/hanssamalol
+|twitter=Hanssama
+|instagram=hanssamalol
+|snapchat=Hanssama
+|youtube=https://youtube.com/channel/UCG8yF_KHSQj2jGOoLb4gRHA
+|discord=https://discord.gg/NwRzUYu6rS
+|weibo=https://www.weibo.com/hanssamalol/
+|site=http://hanssama.com/
+|lolpros=https://lolpros.gg/player/hans-sama
+|deeplol=https://www.deeplol.gg/pro/Hans_Sama
+|dpmlol=https://dpm.lol/pro/Hans%20Sama
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=Hans
+}}
+==Biography==
+Steven "'''Hans Sama'''" Liv was born in Paris, France on September 2, 1999. He started playing ''League of Legends'' when he was eleven years old, and he reached Challenger ranking three seasons later<ref>[http://www.lequipe.fr/Esport/Actualites/Esport-sur-league-of-legends-steven-hans-sama-liv-poursuit-son-ascension/791325 eSport : sur League of Legends, Steven «Hans sama» Liv poursuit son ascension] ''lequipe.fr''</ref>. In Season 2, while climbing the ladder with his brother, Andy, he started to meet professional players such as [[ocelote]], [[Nyph]], [[Krepo]], [[ElOjeteNinja]], [[YoungBuck]], [[HawkDon]], [[Haydal]], [[Djoko]], [[Yuuki60]], and [[Rekkles]] in ranked games. He became known as a high-Elo player in the French scene under the ID "'''Hans von Melzer'''", and eventually joined The Gentle Team, a French amateur team. The same roster joined [[E-corp Gaming]] shortly after.
+
+=== 2016 Season ===
+Hans Sama's professional career started when he joined [[Millenium]] along with [[Pretty]] in November 2015 for the [[EU Challenger Series/2016 Season/Spring Season|2016 EU Challenger Series Spring Split]]. They replaced twin brothers [[Myw]] and [[Bloos]], and joined [[Kaze (Quentin Gourbeix)|Kaze]], [[Djoko]] and [[Masterwork]] to complete the roster<ref>[http://www.millenium.org/lol/accueil/actualites/nouvelle-line-up-millenium-lol-league-of-legends-lol-roster-changements-bloos-myw-djoko-kaze-masterwork-137188 Nouvelle line-up Millenium LoL] ''millenium.org''</ref>. They won multiple French tournaments including [[Challenge France/2016 Season/Spring|Challenge France 2016 Spring]]. During the [[EU Challenger Series/2016 Season/Spring Qualifiers/Open Qualifier|EUCS Open Qualifier]] semifinals and final, Hans sama went deathless with {{ci|Miss Fortune}} and {{ci|Kalista}} picks against [[K1ck Black]] and [[Huma]] and achieved a 54 KDA (24/0/30) over four games. Millenium lost only one series during the [[EU Challenger Series/2016 Season/Spring Season|EUCS Regular Season]], to [[Inspire eSports]], but that record didn't translate to the [[EU Challenger Series/2016 Season/Spring Playoffs|playoffs]], and they lost 0-3 to [[Copenhagen Wolves]] in semifinals, missing out on the [[League Championship Series/Europe/2016 Season/Summer Promotion|Promotion Tournament]]<ref>[http://dotesports.com/league-of-legends/the-2016-copenhagen-wolves-lcsbound-7311 The 2016 Copenhagen Wolves: LCS-bound?] ''dotesports.com''</ref>.
+
+After being replaced by [[Tabzz]] on Millenium's botlane, Hans Sama joined the new European team [[Misfits (European Team)|Misfits]] in June 2016 to compete in the [[EU Challenger Series/2016 Season/Summer Season|EUCS Summer Season]], replacing [[Yuuki60]]<ref>[http://www.team-aaa.com/news-38471-0-1-millenium_officialise_son_nouvel_adc.html Millenium officialise son nouvel ADC] ''team-aaa.com''</ref>. Using strong {{ci|Caitlyn}}, {{ci|Lucian}} and {{ci|Ezreal}} picks on Hans sama, they dominate everyone during the regular season by only losing one single game against [[Team Forge]] (1-1). In [[EU Challenger Series/2016 Season/Summer Playoffs|Playoffs]], they beat 3-0 [[Epsilon eSports]] in semifinals and 3-0 [[Millenium]] in final. They manage to qualify for the [[League Championship Series/Europe/2017 Season/Spring Season|League Championship Series 2017]] by beating 3-1 [[FC Schalke 04]] during the last best-of-five of the [[League Championship Series/Europe/2017 Season/Spring Promotion|2016 Up & Down Summer Split Tournament]] after a though match versus [[Origen]] lost 2-3. Meanwhile, Misfits re-signed Hans sama as the team's starting AD carry for two complete seasons<ref>[http://www.espn.com/esports/story/_/id/17480510/misfits-renew-contracts-alphari-hans-sama Misfits renew contracts with Alphari and Hans sama] ''espn.com''</ref>.
+
+=== 2017 Season ===
+In January, after the departure of [[Wisdom]] and [[Selfie]], Hans Sama makes his debut in the [[League Championship Series/Europe/2017 Season/Spring Season|LCS Spring Split 2017]], along with his teammates [[Alphari]], [[KaKAO]], [[PowerOfEvil]] and [[IgNar]]. They started this split with good results in six weeks with seven victories and one defeat against [[G2 Esports]]. Usually picking {{ci|Jhin}}, a champion on which he obtains his best results, Hans sama becomes the first player and the only one in Europe to play {{ci|Draven}} throughout this split, winning against [[Splyce]] in Week 4 and against [[Team Vitality]] in Week 5. Then from Week 7 to Week 10, Misfits lost its regularity by being dominated by [[H2k-Gaming]] (Week 7), [[G2 Esports]] (Week 8), [[Team ROCCAT]] (Week 9) and [[Fnatic]] (Week 10). They only took the win over [[Giants Gaming]] in Week 10. To justify these defeats, many observed that Team Misfits wasn't as pro-active as it was in the beginning of the split.
+
+Despite this decrease of performance, Hans Sama qualifies with his team for the [[League Championship Series/Europe/2017 Season/Spring Playoffs|Playoffs]] by ending second of Group A with a 8-5 record, behind G2 Esports and over [[Fnatic]]. In quarter-finals, Misfits faces Splyce and successfully takes the best-of-five after making an unexpected reverse sweep thanks to Hans Sama on his {{ci|Kalista}} and [[PowerOfEvil]] on his {{ci|Leblanc}}<ref>[http://www.espn.com.au/esports/story/_/id/19112250/european-league-legends-championship-series-spring-split-quarterfinals-misfits-go-distance-splyce Misfits complete reverse-sweep of Splyce] ''espn.com''</ref>. In semi-finals, Misfits plays versus the [[Unicorns Of Love]] and loses 1-3<ref>[http://www.espn.com/esports/story/_/id/19172282/unicorns-love-drop-misfits-head-eu-lcs-final Unicorns of Love drop Misfits to head to the EU LCS final] ''espn.com''</ref>. During their last match of Spring Split for the third place, Hans sama and his teammates are dominated (0-3) by Fnatic, led by an excellent [[Rekkles]]. Eventually, Misfits ends up taking the fourth place of the [[League Championship Series/Europe/2017 Season/Spring Playoffs|League Championship Series 2017]] along with 30 Championship Points and 20,000 Euros<ref>[http://www.espn.in/esports/story/_/id/19219355/league-legends-fnatic-cruises-third-eu-league-championship-series-spring-playoffs Fnatic cruises to third in EU LCS spring playoffs] ''espn.com''</ref>.
+
+== Trivia ==
+* His dream is to win a [[World Championship]].
+* Reached 1000 kills in the LEC on August 13th, 2021.
+** The 8th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]] and [[Kobbe]].
+* Reached 1500 kills in the LEC on February 5th, 2024.
+** The 5th player to reach 1500 kills in the LEC after [[Rekkles]], [[Jankos]], [[Caps]] and [[Perkz]].
+* Reached 2000 kills in the LEC on April 26th, 2025.
+** The 3rd player to reach 2000 kills in the LEC after [[Rekkles]] and Caps.
+* Reached 300 wins in the LEC on May 24, 2025.
+** The 7th player to reach 300 wins in the LEC after [[Jankos]], [[Rekkles]], [[Hylissang]], [[Caps]], [[Odoamne]], and [[Mikyx]].
+* Reached 500 games in the LEC on August 09, 2025.
+** The 7th player to reach 500 games in the LEC after [[Jankos]], [[Hylissang]], [[Rekkles]], [[Odoamne]], [[Mikyx]], and Caps.
+=== Playstyle ===
+* Has played ''League of Legends'' since Season 1 (March 2011).
+* His first main champion was {{ci|Tryndamere}}, played with Heal and Teleport.
+* Moved from 900 elo (Bronze tier) to 1520 elo (Gold tier), ending Silver in the end of Season 1.
+* Was a great jungler (main {{ci|Nocturne}} and {{ci|Lee Sin}}) and toplaner (main {{ci|Jax}} and {{ci|Mordekaiser}}) before moving to botlane as AD carry (main {{ci|Vayne}} and {{ci|Graves}}).
+* Used to duo queue with his brother, who was a one trick {{ci|Taric}}.
+* Hates supporting because he easily gets bored. Favorite support champions are {{ci|Alistar}} and {{ci|Karma}}.
+* Started to one-trick {{ci|Draven}} after watching [[Rekkles]] playing it.
+* Considered as one of the best {{ci|Draven}} players on EUW server, with [[Freeze]] and [[Pornstar Zilean]].
+* Reached Challenger for the first time at 14 years old (Season 4)<ref>[http://www.millenium.org/lol/accueil/actualites/millenium-interview-hans-league-of-legends-asus-rog-lan-itw-carry-ad-esport-arena-lol-138423 Millenium, interview Hans sama] ''millenium.org''</ref>.
+* Faced [[Soaz]]'s {{ci|Zed}} as {{ci|Draven}} in a 1v1 middlelane duel near Disneyland Paris (Auchan Val d'Europe) in May 2014. The duel was really close but Soaz won it<ref>[http://twitter.com/sOAZIZGOOD/status/469495238030262273 Paris viens me défier !] ''twitter.com''</ref>.
+* Enjoyed playing {{ci|Rengar}} in Season 5 ranked games because of his capability to one-shot enemy AD carries.
+* Favorite ADC players are [[Bang]], [[Deft]], [[PraY]], [[Rekkles]] and [[Zven]].
+* Played duo queue ranked games with support players such as [[Edward]], [[Masterwork]], [[Moopz]], [[je suis kaas]], [[Hiiva]], [[Mikyx]], [[YellOwStaR]], [[Krepo]], [[kaSing]], [[Jesiz]] and [[IgNar]] but still prefers solo queue.
+* Had a total of five Challenger accounts simultaneously in April 2016 (M Hans sama, Holydai, M MasterHans, Hans von Melzer and Hans S0L0)<ref>[http://twitter.com/HanssamaLoL/status/720721514614665220 Five accounts in Challenger by Hans sama] ''twitter.com''</ref>.
+* Reached Challenger rank 1 for the first time in May 2016 (Season 6)<ref>[http://twitter.com/HanssamaLoL/status/730479752356761600 Hans sama, first time Challenger rank 1] ''twitter.com''</ref>.
+* Entered in the Challenger top 40 in Korea while boot-camping with his team Misfits (pre-season 7).
+
+=== Personal Trivia ===
+* Is 1m78 tall<ref>[http://www.youtube.com/watch?v=31H3svtl1kY Steven 'Hans sama' Liv - VLOG #1 - Last question] ''youtube.com''</ref>.
+* Only speaks French and English.
+* Has Cambodian and Chinese roots.
+* Favorite dishes are cheese & beef Yakitori skewer, Spaghetti bolognese, McDonald's food, Bún bò, Bò lúc lắc rice and Sake Maki.
+* Dislikes seafood, spicy food, chili pepper and kimchi.
+* Enjoyed playing ''[[wikipedia:en:Star Wars Jedi Knight II: Jedi Outcast|Star Wars: Jedi Outcast II]]'', ''[[wikipedia:en:Warcraft III: Reign of Chaos|Warcraft III]]'', ''[[wikipedia:en:Tactical Ops: Assault on Terror|Tactical Ops: Assault on Terror]]'', ''[[wikipedia:en:Titan Quest|Titan Quest]]'', ''4Story'', ''[[wikipedia:en:StarCraft II|StarCraft II]]'', ''[[wikipedia:en:Counter-Strike: Global Offensive|CS:GO]]'', ''[[wikipedia:en:osu!|osu!]]'', ''[[wikipedia:en:Warframe|Warframe]]'', ''[[wikipedia:en:Left 4 Dead 2|Left 4 Dead 2]]'', ''[[wikipedia:en:Black Desert Online|Black Desert Online]]'' and ''Attack on Titan: Wings of Freedom''.
+* Is very interested in Japanese and Korean cultures.
+* Enjoys reading manga, watching anime, and Sci-Fi/Fantasy movies.
+* Favorite anime are ''[[wikipedia:en:Steins;Gate (TV series)|Steins;Gate]]'', ''[[wikipedia:en:Your Name|Your Name]]'', ''[[wikipedia:en:Sword Art Online|Sword Art Online]]'', ''[[wikipedia:en:Fullmetal Alchemist|Fullmetal Alchemist]]'', ''[[wikipedia:en:Attack on Titan|Attack on Titan]]'', ''[[wikipedia:en:Gurren Lagann|Tengen Toppa Gurren Lagann]]'' and ''[[wikipedia:en:Akame ga Kill!|Akame ga Kill!]]''.
+* Uses a Wacom Cintiq 22HD to draw digital art manga.
+* Shows off his drawing skills while streaming.
+* Is not very talkative while streaming.
+* Aimed to become a professional tennis player before discovering ''League of Legends''. His idols were [[wikipedia:en:Rafael Nadal|Rafael Nadal]] and [[wikipedia:en:Roger Federer|Roger Federer]].
+* Stopped both tennis and school at early age of 16 to dedicate his time to ''League of Legends''.
+* Wants to be a manga artist after retiring from ''League of Legends''.
+
+=== Equipment ===
+* His first gaming mouse was a ''Razer Imperator 2012''.
+* Currently playing with a ''Logitech G402'' mouse and a ''Logitech G910'' keyboard.
+* Mouse DPI : 1500
+* Mouse sensibility : 60
+* Uses a ''Razer Kraken'' headset.
+
+=== Other ===
+* '''Hans sama''' is the final name he picked after playing few years as "'''Hans von Melzer'''", which came from his brother who likes Austrian tennis player [[wikipedia:en:Jürgen Melzer|Jürgen Melzer]]. He just kept "Hans" and added "sama" because of his passion for Japanese animation.
+* Has chosen ''Bang Bang Management'' in 2016 as personal management agency which works with talents such as [[YellOwStaR]] and [[Nisqy]]<ref>[http://www.millenium.org/lol/accueil/actualites/hans-rejoint-bang-bang-management-league-of-legends-joueur-pro-hans-sama-bbm-agent-players-teams-contrat-144853 Hans joins Bang Bang Management] ''millenium.org''</ref>.
+* Won the ''Coca-Cola Gaming Awards 2016'' during the Paris Games Week in the category "Esport Revelation of the Year"<ref>[http://www.youtube.com/watch?v=2We0XrB-86w Révélation E-sport #CCGA2016] ''youtube.com''</ref>.
+* Has made an emblematic appearance in a video advertising from 2016 to promote a famous Japanese watch brand named ''G-SHOCK''<ref>[http://www.youtube.com/watch?v=jpYRUAXrtzw G-SHOCK x Hans Sama : NEVER GIVE UP] ''youtube.com''</ref>.
+
+=== Individual Awards ===
+* x1 LCS 1st All-Pro Team (2022 Spring)
+* x3 LEC 1st All-Pro Team (2023 Winter, 2023 Summer, 2024 Winter)
+* x3 LEC 2nd All-Pro Team (2020 Summer, 2021 Spring, 2021 Summer)
+* x4 LEC 3rd All-Pro Team (2017 Spring, 2018 Spring, 2018 Summer, 2023 Spring)
+* x1 LEC Finals MVP (2024 Season Finals)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+==External Links==
+* [http://plays.tv/u/hanssama ''Hans sama on plays.tv'']
+* [http://hanssamaa.deviantart.com ''Hans sama on deviantart.com'']
+* [http://myanimelist.net/profile/Hans-Sama ''Hans sama on myanimelist.net'']
+* [http://www.esportsearnings.com/players/24312-hans-sama-steven-liv ''Hans sama on esportsearnings.com'']
+
+{{PlayerPageEnd}}

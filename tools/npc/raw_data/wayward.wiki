@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wayward&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.259Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wayward」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Wayward
+|name=Huang Ren-Xing
+|nativename=黄任行
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=June
+|birth_date_day=23
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR''': cainiao2hao<br>buhaowan
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=Yes
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://douyu.com/1069478
+|deeplol=https://www.deeplol.gg/pro/Wayward
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+}}
+== Biography ==
+
+===2019 Season===
+Wayward joined [[King of Future]] and served as a substitute jungler for the team. When the team was rebranded as TES Challenger later in the year, Warward was selected as starting jungler for a few games but got substituted again in August.
+
+===2020 Season===
+Wayward roleswapped from jungle to top lane. 
+
+===2021 Season===
+Warward returned to the starting roster as a top laner this season. In December, Wayward was promoted to [[Top Esports]] and LPL, serving as a substitute for [[Zoom]] and [[Qingtian]]. 
+
+===2022 Season===
+While Top Esports won [[Demacia Cup 2021]] before the start of 2022 season, Wayward played in the BO5 against [[RNG]]. He would later replace [[Zoom]] for the starting role as top laner for the team, securing a 5th place for Top Esports at the end of spring regular season. For his outstanding performance, Wayward was selected as the outstanding rookie of the LPL 2022 Spring Split and member of LPL 2022 Spring All-Pro 3rd Team.
+
+== Trivia ==
+* Outstanding Rookie of the [[LPL 2022 Spring|LPL 2022 Spring Split]].
+* Known for using crying Amumu in-game emotes during the top laning phase. 
+* During LPL Spring Split, Chinese fans joked that Wayward only plays three champions well: {{ci|Gwen}}, {{ci|Graves}}, and {{ci|Tryndamere}}. He was given the nickname, "三板斧" (three axe strokes, a Chinese idiom describing someone with limited repertoire of skills), for that reason. 
+
+===Individual Awards===
+* LPL 3rd All-Pro Team x2 (Spring 2022, Spring 2024)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

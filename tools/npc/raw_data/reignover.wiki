@@ -1,0 +1,109 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Reignover&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.821Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Reignover」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Reignover
+|name=Kim Yeu-jin
+|nativename=김의진
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1995
+|birth_date_month=July
+|birth_date_day=04
+|favchamp=Rek'Sai
+|favchamp2=Gragas
+|favchamp3=Elise
+|favchamp4=Nidalee
+|checkbox1=No
+|checkboxComp=No
+|ids=IM Reign over,<br>Fnatic Reign0ver (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/reignover95
+|facebook=https://www.facebook.com/profile.php?id=100007272663803
+|twitter=Reignover95
+|instagram=reignover1995
+|deeplol=https://www.deeplol.gg/pro/Reignover
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Kim "'''Reignover'''" Yeu-jin first entered competitive League of Legends play as part of the first roster of [[Incredible Miracle 2]] in March 2013, along with teammates [[PLL]], [[SoFantasy]], [[kurO]], and [[BBuing]]. He didn't play any major tournaments with the team before being moved over to the [[Incredible Miracle 1]] roster. IM1 played in [[HOT6iX Champions Summer 2013]] but they placed last in their group and missed the playoffs.
+
+===2014 Season===
+Sometime before [[PANDORA.TV Champions Winter 2013-2014]], Reign over rejoined IM2 as their jungler. Unfortunately, the team still failed to make it past the group stage. IM2 didn't put up any better results at [[HOT6iX Champions Spring 2014]], falling out of the tournaments before the playoffs again. Reign over left the team shortly afterwards.
+
+===2015 Season===
+Reignover trialed for [[SK Telecom T1]]'s jungle position prior to the start of the [[Champions_Spring_2015/Preseason|OGN Spring 2015 Preseason]] along with [[bengi]] and [[Rush]], but the spot was given to bengi and ReignOver chose not to be a substitute player for them.
+
+In January 2015, Reignover joined [[Fnatic]]. Reignover and the team's new roster had a successful [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]], finishing 2nd in the regular season with a 13-5 record, partly thanks to Reignover's impressive performances on {{ci|Rengar}} and {{ci|Rek'Sai}} among other champions. This secured them a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]]. Fnatic beat [[H2k-Gaming]] in their semifinal matchup, and went on to secure 1st place after taking a 3-2 win over [[Unicorns Of Love]] in the playoff final. This meant that Reignover and the team would pick up 90 [[2015 Season/Championship Points|Championship Points]] towards qualification for the [[2015 Season World Championship]].
+
+This also meant that [[Fnatic]] would represent Europe at the [[2015 Mid-Season Invitational]]. Reignover and the team had a relatively successful tournament, which they opened with a decisive win over [[Team SoloMid]]. The team also had a notably close group stage game with SK Telecom T1, but went on to lose the game. Fnatic finished the group stage in 4th place, meaning they would advance to the bracket stage. They faced SK Telecom T1 in the semifinals, this time playing out a close series, but ultimately losing 3-2.
+
+Now with [[Rekkles]] on the roster instead of [[Steeelback]], Reignover and the team went into the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Season]] with confidence running high after their performance on the international stage. Fnatic managed to finish the regular season with a perfect, unbeaten 18-0 record - and became the first team to achieve this in [[League Championship Series]] history. This meant a 1st place regular season finish for the team and a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]]. Fnatic went on to win the playoffs, beating [[Origen]] 3-2 in a tight final. This qualified the team for the 2015 World Championship, where they would compete as Europe's #1 seed.
+
+At the [[2015 World Championship]], [[Fnatic]] were seeded into Group B along with [[ahq e-Sports Club]], [[Invictus Gaming]], and [[Cloud9]]. They picked up 4 wins in the group, going unbeaten in the 2nd week of group stage games, meaning they would advance to the knockout stage of the tournament. In the quarterfinals, [[Fnatic]] beat [[EDward Gaming]] 3-0 before suffering a 3-0 loss to [[KOO Tigers]] in the semifinals, putting an end to their campaign.
+
+===2016 Season===
+Reignover and [[Huni]] left Fnatic in November to join [[Immortals]] in December 2015 together. With a lineup including the two ex-Fnatic players, [[Pobelter]], [[WildTurtle]], and [[Adrian (Adrian Ma)|Adrian]], Immortals were expected to be one of the top teams in the [[League Championship Series/North America/2016 Season/Spring Season|LCS]] based on their roster, and for the first six weeks of the split they lived up to - and even surpassed - those expectations. Reignover and Huni together extended their regular-season LCS winstreak from 18 games in Europe to 32 games overall as the team didn't drop a single game prior to week 7. However, in week 7 that streak was snapped as the team lost one game to reigning champions [[Counter Logic Gaming]] in week 7. They won the rest of their regular season games, but as the season progressed further they looked weaker and weaker as a team, and even seemed to falter against the last-place [[Team Dignitas]], needing to come back against them to pull out a win.
+
+With a top seed clinched into the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]], Immortals were guaranteed to face the lowest-seed team that won in the quarterfinals. That team ended up being [[Team Solomid]], who were on a strong upswing after a sixth-place regular season finish. Despite their seeding advantage, Immortals lost 3-0 to TSM, with both their play and also their drafts called into question, with picks including [[Lucian]] top, [[Urgot]] mid, and three games of [[Karma]] support. Despite their loss, the team came back to win a convincing 3-0 over [[Team Liquid]] in the third-place match.
+
+Expectations for Immortals going into the [[League Championship Series/North America/2016 Season/Summer Season|Summer Season]] were again high, after they were one of only three NA teams not to change any players in the [[2016 Midseason Roster Swaps/North America/Current Rosters|mid-season break]], and while they nearly repeated their spring split record - this time dropping only two series in the new best of 3 format as opposed to 1 best of 1 - they were indisputably the second-best team in the league. TSM with new rookie star support [[Biofrost]] went 17-1 in series, and they bested Immortals in both of their head-to-head series. Immortals still had a [[League Championship Series/North America/2016 Season/Summer Playoffs|playoff]] bye, and so they were able to avoid TSM in the semis, instead facing the third-place [[Cloud9]]. In a back-and-forth five-game series, Immortals were upset and faced CLG in the third-place match, which they came back from a disastrous game 1 to win 3-2. Unfortunately, despite their combined 33-3 regular season record, Immortals only had 120 [[2016 Season/Championship Points|Championship Points]] compared to CLG's 130, and so it was CLG who won the automatic second-place [[2016 Season World Championship]] seed from North America. And even though Immortals had the top seed in the [[2016 Season North America Regional Finals|Regional Finals]], they were upset once again by Cloud9, and their season ended short of Worlds. Reignover joined CLG for their Korean bootcamp to "[contribute] his in-game knowledge."<ref>[http://www.facebook.com/CLGLoL/photos/1376290915734735 CLG League of Legends's Facebook Post] ''facebook.com''</ref> In November of 2017 Reignover left Immortals and within the next month, he joined [[Team Liquid]]. The team participated at [[IEM_Season_11_-_Gyeonggi|IEM Season XI - Gyeonggi]] but were knocked out after an 0-2 loss to [[Samsung Galaxy]] and finished 3rd-4th.
+===2017 Season===
+The 2017 Season wasn't a good one for Reignover. Team Liquid went into the [[League_Championship_Series/North_America/2017_Season/Spring_Season|2017 NA LCS Spring Season]] with a lot of hype but failed to live up to their expectations. They finished the regular season in 9th place with 5 wins and 13 losses. They would have to attend the [[League_Championship_Series/North_America/2017_Season/Summer_Promotion|2017 NA LCS Summer Promotion]] and re-qualified for the LCS with a 3-2 victory over [[Gold Coin United]]. Their [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] in the LCS was a similar story. After another 9th place finish 4 wins and 14 losses, they attended the [[League_Championship_Series/North_America/2018_Season/Spring_Promotion|2018 NA LCS Spring Promotion]] and retained their LCS spot with a 3-2 victory over [[Phoenix1]]. After a disappointing season, Reignover left TL in November and joined [[Counter Logic Gaming]] in December.
+
+===2018 Season===
+After a disappointing season, Reignover left TL in November and joined [[Counter Logic Gaming]] in December. Despite his subpar 2017 season, both his acquisition and the 2018 CLG team were heavily hyped by the community. CLG went 3-3 over the first three weeks, but then completely collapsed, losing six consecutive games and falling into a tie for last place. The team perked up after that and managed to stay mathematically in playoff contention until Week 9, but needing a miracle, the team lost their final two games and finished seventh, the first time CLG had missed playoffs in their franchise history.
+
+Reignover stayed with CLG for the [[NA_LCS/2018_Season/Summer_Season|summer season]] in spite of their spring difficulties. CLG looked much better to start the split, and finished Week 4 tied for first with a 5-3 record, only to come crashing back down with a devastating eight-game loss streak. With the team mathematically out of playoffs, Reignover was replaced by academy jungler [[Wiggily]] for the final week, but they still only managed to finish eighth. 
+
+===2019 Season===
+Reignover left CLG in December, and didn't join another team for 2019 as a player. In May, he was signed by [[Cloud9]] as a coach, and appeared on stage with the team alongside [[Reapered]] during the [[LCS/2019_Season/Summer_Playoffs|2019 Summer Playoffs]]. 
+
+===2020 Season===
+Cloud9 named Reignover head coach of [[Cloud9 Academy]] for the 2020 season. 2020 was wildly successful for Reignover and his new team, as they finished first in the regular season and the playoffs in both the [[NA_Academy_League/2020_Season/Spring_Season|spring]] and [[NA_Academy_League/2020_Season/Summer_Season|summer]] splits. 
+== Trivia ==
+* Speaks fluent English and helps translate between [[Huni]] and the rest of [[Fnatic]].<ref>[http://www.youtube.com/watch?v=3o8k_p5eR4I Interview with Winner of Elements vs Fnatic | Week 1 Day 1 S5 EU LCS Spring 2015] ''youtube.com''</ref>
+* Along with teammate [[Huni]], had a 32-game-long regular season win streak starting on [[Fnatic]] with the last two games of the [[Riot League Championship Series/Europe/2015 Season/Spring Season|EU LCS 2015 Spring Split]], continuing through the entirety of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|EU LCS Summer Split]], and concluding after 12 games on [[Immortals]] in the [[League Championship Series/North America/2016 Season/Spring Season|NA LCS 2016 Spring Split]] with a week 7 loss to [[Counter Logic Gaming]].
+* Doesn't enjoy playing champions that don't have a dash, as he feels limited in the plays he can make.
+* Uses a CM Storm gaming keyboard and SteelSeries Sensei mouse.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

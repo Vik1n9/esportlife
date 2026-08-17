@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Josedeodo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.667Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Josedeodo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Josedeodo
+|name=Brandon&nbsp;Joel Villegas
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=North America
+|birth_date_year=2000
+|birth_date_month=May
+|birth_date_day=22
+|favchamp=Lee Sin
+|favchamp2=Kha'Zix
+|favchamp3=Rengar
+|favchamp4=Graves
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Josedeodo#0000 <br> '''NA:''' Jose #1129 <br>'''BR:''' Josedeodo2#BR1, Josedeodo#NA12 <br> '''CN:''' Josedeodo<br>'''KR:''' Josedeodo#2929
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/josedeodo
+|twitter=Josedeodo
+|instagram=josedeodo
+|youtube=https://www.youtube.com/channel/UC2eN658_WN0a0pkRVW-U8eg
+|deeplol=https://www.deeplol.gg/pro/Josedeodo
+|dpmlol=https://dpm.lol/pro/Josedeodo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+}}
+==Biography==
+Brandon Joel Villegas is from Hurlingham, Buenos Aires, Argentina.
+
+== Trivia ==
+* His ID comes from his brother since he came up with the name "José" randomly.
+* He started playing when he was 12 years old on the recommendation of his best friend. At first he didn't like the game but then he started playing for fun.
+* He's known by his friends and fans as "only Lee Sin".
+* At first he played as Mid because he liked to play 1vs1 using champions like {{ci|Lee Sin}}, {{ci|Jayce}}, and {{ci|Kha'Zix}}. He started playing in the Jungle so he could Play {{ci|Lee Sin}} since the champion always got banned when he played mid.
+* One of the "players to watch" in 2018.
+* After [[Oddie]]'s first retirement, analysts and some esports personalities considered him the best jungler in the LATAM scene.
+* Became the first Latin American player to be imported to a major region league, after joining [[FlyQuest]] in the [[LCS]].
+* He likes to play basketball and soccer.
+* His favorite musical genres are Electronic and Rock.
+* He likes to watch the [[LoL Pro League|LPL]].
+* Has reached Rank 1 on NA, BR and LAS.
+* Ended Season 7 as Top 1 Challenger on the BR server.
+* Reached Top 2 Challenger on NA Server in Season 10.
+* Reached Challenger on China's Super Server before Worlds 2020 Play-In stage began.
+* Reached Top 1 Challenger on NA Server in Season 11.
+* Reached Challenger on KR Server during the Season 12 preseason.
+
+=== Individual Awards ===
+* LLA Most Improved Player (Closing 2020)
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yijin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.589Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「YiJin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Yijin
+|name=Nguyễn Lê Hải Đăng
+|image=SE Yijin 2021 Split 1.png
+|checkboxAutoImage=No
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=2000
+|birth_date_month=October
+|birth_date_day=28
+|checkbox1=No
+|checkboxComp=No
+|ids='''VN:''' FL JG<br>'''KR:''' Yijinn<br>'''EUW:''' deronai
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.nimo.tv/live/910556
+|facebook=https://www.facebook.com/Yijin2000
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Known for his pocket {{ci|Nidalee}} pick, which he often brings out in the VCS.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+EVS YiJin 2018 Spring.png|EVS YiJin 2018 Spring
+File:EVS YiJin 2018 MSI.png|EVS YiJin 2018 MSI
+EVS YiJin 2018 Summer.png|EVS YiJin 2018 Summer
+FL Yijin.png|FL Yijin 2020 VCS Spring
+FL Yijin 2020 Split 2.png|FL Yijin 2020 VCS Summer
+SE Yijin 2021 Split 1.png|SE Yijin 2021 VCS Spring
+</gallery>
+
+{{PlayerPageEnd}}

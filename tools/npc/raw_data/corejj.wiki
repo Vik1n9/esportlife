@@ -1,0 +1,99 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=CoreJJ&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.332Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「CoreJJ」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=CoreJJ
+|name=Jo Yong-in
+|nativename=조용인
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=June
+|birth_date_day=22
+|favchamp=Zyra
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 리퀴드 코어장전#KR1<br>'''NA:''' From Iron#1123<br>'''EUW:''' TL Honda CoreJJ#EUEU <br>'''CN:''' avatar2 <br>'''BR:''' TL Honda CoreJJ#LTAN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/corejj
+|twitter=TLCoreJJ
+|instagram=corejangjeon
+|youtube=https://www.youtube.com/channel/UCVDepsrgho0zQxMvkik7KUw
+|lolpros=https://lolpros.gg/player/corejj/
+|deeplol=https://www.deeplol.gg/pro/CoreJJ
+|dpmlol=https://dpm.lol/pro/CoreJJ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+===2014 Season===
+Jo "'''CoreJJ'''" Yong-in joined [[Bigfile Miracle]] in February of 2014 as an AD carry under the name "'''Core'''". They competed in [[HOT6iX Champions Summer 2014]] but they lost all six of their games and placed last in their group. The roster was released in September of that year to join [[Quvic E-Sports]].
+
+===2015 Season===
+Core left Quvic to join [[Team Dignitas]] along with [[Gamsu]] in December 2014.<ref>[http://wdc.com/ventito/gaming/shift/wd-ventito-exclusive-team-dignitas-introduces-new-players-to-line-up WD Ventito Exclusive: Team Dignitas Introduces New Players to Line-Up] ''wdc.com''</ref> It was here that he changed his name to "'''Core JJ'''". The first event that they attended with the team was [[IEM Season IX - Cologne]], which Dignitas was invited to after [[Team Curse]] declined their invitation.<ref>[http://en.intelextrememasters.com/news/dignitas-to-join-the-intel-extreme-masters-cologne-lineup/ Team Dignitas on their way to Cologne to prove their mettle this December] ''intelextrememasters.com''</ref> They lost 2-0 in the second round to [[Gambit Gaming]]. Dignitas ended the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 NA LCS Spring Season]] with a 6-12 record in 9th place. They were forced to play against [[Team Fusion]] in the [[Riot_League_Championship_Series/North_America/2015_Season/Summer_Promotion|2015 NA LCS Summer Promotion Tournament]]. Dignitas reverse swept Fusion on their way to requalifying for the [[Riot League Championship Series/North America/2015 Season/Summer Season|2015 NA LCS Summer Season]]. Despite being tied for first with a 7-2 record halfway through the summer season, the team struggled throughout the last half and finished sixth at 10-8. Dignitas was swept 3-0 by [[Team Impulse]] in the first round of the [[Riot_League_Championship_Series/North_America/2015_Season/Summer_Playoffs|2015 NA LCS Summer Playoffs]].
+ 
+===2016 Preseason===
+CoreJJ left Dignitas in November to join [[Samsung Galaxy]] in December as their new AD carry.<ref>[http://team-dignitas.net/articles/news/League-of-Legends/8363/announcing-the-team-dignitas-lol-roster Announcing The Team Dignitas LoL Roster] ''team-dignitas.net''</ref><ref>[http://m.fomos.kr/esports/news_view?entry_id=17631 ‘앰비션’ 강찬용, CJ 떠나 삼성행 (Korean)] ''m.fomos.kr''</ref>
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Samsung Galaxy went 10-8 in sets overall. CoreJJ split time with [[Stitch]] for the starter ADC position. After looking like they could clinch the fifth and final seed for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], Samsung Galaxy were unfortunately denied by the surging [[Afreeca Freecs]], who beat them by the game score tiebreaker, giving Samsung sixth place for the split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], CoreJJ moved to support to make room for rookie ADC [[Ruler]]. As a support, he only played in three games during the regular season - all losses. Nonetheless, they managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung lost the first game before swapping out veteran support [[Wraith]] for CoreJJ. With this swap, Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. With CoreJJ, Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]].
+
+=== Career Highlights ===
+* World Champion (2017)
+* LCS Champion 3x (2019 Spring, 2019 Summer, 2024 Spring)
+* LCS Lock-In Champion 2x (2021, 2022)
+
+== Trivia ==
+* His ID '''CoreJJ''' is a romanized and abbreviated version of his original ID '''코어장전''' (Core Jangjeon). This phrase comes from a character's dialogue<!--(듀로프 I think? not sure)--> in Avalon Online.
+* Got married on November 7, 2020.<ref>[https://twitter.com/TLCoreJJ/status/1325056314196680705 CoreJJ's Tweet] ''twitter.com''</ref>
+* Is one of the four players to appear in the [[Worlds 2022]] [https://www.youtube.com/watch?v=HYsz1hP0BFo anthem].
+
+=== Individual Awards ===
+* LCS Most Valuable Player 2x (2019 Spring, 2020 Summer)
+* LCS 1st All-Pro Team 7x (2019 Spring, 2019 Summer, 2020 Summer, 2021 Spring, 2021 Summer, 2022 Spring, 2024 Summer)
+* LCS 2nd All-Pro Team (2022 Summer)
+* LCS 3rd All-Pro Team (2023 Summer)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

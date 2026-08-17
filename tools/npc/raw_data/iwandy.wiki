@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Iwandy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.664Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Iwandy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Iwandy
+|name=Liao Ding-Yang
+|nativename=廖顶洋
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=August
+|birth_date_day=27
+|favchamp=Janna
+|checkbox1=No
+|compID1=lwandy
+|checkboxComp=No
+|ids='''KR:''' danjuan rose<br>'''EUW:''' GNLGNL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://www.weibo.com/u/6373111955
+|deeplol=https://www.deeplol.gg/pro/Iwandy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Lwandy'''.
+|checkboxIsSub=No
+}}
+== Biography ==
+
+== Trivia ==
+* Was known in Chinese solo queue as a {{ci|Janna}} one-trick before playing competitively.
+* His ID was '''Lwandy''', but he renamed to his ID '''Iwandy''' when he moved to LNG.
+* Reached Rank 1 in the Korean Solo Queue with 1807 LP on March 18, 2022.
+** This set the new record for the highest points in the Korean Solo Queue, which was later supassed by [[Canyon]] in June 2022 with 1809 LP.
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

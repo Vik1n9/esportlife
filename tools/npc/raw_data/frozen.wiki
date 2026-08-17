@@ -1,0 +1,91 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Frozen%20(Kim%20Tae-il)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.103Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Frozen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Frozen
+|name=Kim Tae-il
+|nativename=김태일
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=November
+|birth_date_day=04
+|favchamp=Ryze
+|favchamp2=Syndra
+|favchamp3=Taliyah
+|favchamp4=Zoe
+|checkbox1=No
+|compID1=aPA
+|compID2=Shadow
+|checkboxComp=No
+|ids=IM Frozen, Ffrozen, Frooooooozen,<br>FB Frozen (EUW), Dont have time (EUW), Frozen ON(KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/frozen2065
+|facebook=https://www.facebook.com/frozen2065
+|twitter=frozen2065
+|instagram=frozentaeil
+|youtube=https://www.youtube.com/channel/UCJWtgd68uYJ4JMtI-zFjHXg
+|lolpros=https://lolpros.gg/player/frozen-2
+|deeplol=https://www.deeplol.gg/pro/Frozen-Kim_Tae-il
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=As a player, he is most well-known for reaching the [[2017_Season_World_Championship/Main_Event|Worlds 2017 Group Stage]] with the Turkish team [[1907 Fenerbahçe Esports]].
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+}}
+==Biography==
+Kim Tae-il was born in Gyonggi, South Korea and now lives in Namyangju. He started playing video games in the fourth grade and began to play League of Legends in August 2012. His dream to play professionally began when he laned against [[Rapidstar]] in ranked play. In October 2013, he joined [[Alienware Arena]], and then in May 2014 he was added to the roster of [[Incredible Miracle 2]], where he was the mid laner.
+
+===2014 Season===
+Frozen joined [[Alienware Arena]] in October of 2013 but he never played any professional games for them. He left in May of 2014 to join [[Incredible Miracle 2]] as their mid laner. The team only played in one OGN together at [[HOT6iX Champions Summer 2014]] but the team failed to make it to the playoffs and dropped out in the group stage.
+
+===2015 Season===
+Changes to the OGN rules forced [[Incredible Miracle 1]] and Incredible Miracle 2 to merge to form [[Incredible Miracle]]. None of the players from IM1 stayed with the team so Frozen was given the starting mid lane position. They participated in [[SBENU Champions Spring 2015]] but placed 7th and were forced to play in the [[Champions Summer 2015/Promotion|Champions Summer Promotion Tournament]] and IM ended up qualifying for [[SBENU Champions Summer 2015]] after going 2-0 against [[Winners]] and [[Anarchy]]. IM placed ninth in the regular season of Champions Summer and were forced to play in the [[LCK/2016 Season/Spring Promotion|LCK 2016 Season Spring Promotion]]. Incredible Miracle played the [[Dark Wolves]] in the promotion tournament and managed to beat them 3-1 to requalify for the LCK. 
+
+===2016 Preseason===
+IM competed in the [[2015 LoL KeSPA Cup]] where they lost 2-1 against the [[Jin Air Green Wings]] in the first round. Incredible Miracle rebranded to [[Longzhu]] on January 3, 2016.
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Longzhu played with a 10-man roster, liberally using substitute players. Frozen shared play time with fellow mid laner [[CoCo]]. Longzhu finished the spring split in seventh place with an 8-10 set record, missing out on a spot in the playoffs. For the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], Longzhu announced Frozen had been taking out of the starting roster to join the practice team. However, he was reinstated into the starting roster for the second round robin. Longzhu fared poorly in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 7-11 in sets and netting them eighth place, letting them escape relegations.
+
+== Trivia ==
+* Focused on learning math and English in high school because, he says, if you know math and English you are considered well-educated.
+* Enjoys working out and singing.
+* First champions were {{ci|Teemo}} and {{ci|Master Yi}}, and before he started playing professionally he played mid champions including {{ci|Lux}} and {{ci|Ahri}}.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

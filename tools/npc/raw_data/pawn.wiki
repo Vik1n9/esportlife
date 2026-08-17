@@ -1,0 +1,128 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PawN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「PawN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=PawN
+|name=Heo Won-seok
+|nativename=허원석
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=January
+|birth_date_day=26
+|favchamp=Fizz
+|favchamp2=Nidalee
+|favchamp3=Jayce
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 삼성갤럭시 PawN, MiG WonSuck, Kn2ght, PawN God, 똥좀싸겟다, PawN1, TESTID1204<br>'''CN:''' Movemovemovemove
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/sutjr1006
+|facebook=https://www.facebook.com/sksdnjstjr
+|twitter=PawNGod
+|instagram=pawnwonseok
+|youtube=https://www.youtube.com/channel/UCGC-BWJIbzG-mIwcfTKTq9g
+|deeplol=https://www.deeplol.gg/pro/PawN
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+==Biography==
+===Season 3===
+Heo "'''WonSeok'''" Won-seok originally played for [[MiG Blitz]] under the name '''Wonseok''' as a mid laner during [[HOT6iX Champions Summer 2013]]. The team had a decent showing but failed to make it past the group stage. He left the team in October to join [[Samsung Blue]] as a mid laner when he changed his name to "'''PawN'''". PawN made a name for himself in the [[2013 World Cyber Games/Qualifiers/Korea|2013 WCG Qualifiers]] when he managed to solokill [[Faker]] in lane.
+
+===2014 Season===
+PawN played his first OGN with his team at [[PANDORA.TV Champions Winter 2013-2014]] where they managed to make it to the quarterfinals but were swept 3-0 by the eventual champions, [[SK Telecom T1 K]]. Later, PawN became the mid laner for [[Samsung Ozone]] or '''Samsung White''', switching teams with [[Dade]]. At [[HOT6iX Champions Spring 2014]], PawN and his new team would run into Blue in the semifinals and fall to them 3-1 but they would beat [[CJ Entus Blaze]] 3-2 to end in third place. Once again, at [[HOT6iX Champions Summer 2014]] White would face blue in the semifinals and again they would lose 3-1. White would go on to sweep [[SK Telecom T1 S]] to place third for the second time in a row. White was forced to play a tiebreaker against SKT T1 K for the second seed in the [[2014 Season World Championship]]. White dominated SKT, sweeping the series and taking their spot at Worlds.  PawN and crew rolled through the [[2014 Season World Championship]], only dropping two games and ending it on a dominating 3-1 victory against [[Star Horn Royal Club]] to seal the Championship. For much of his time on SSW, he would play a more passive style while the rest of the team carried. Later on during his tenure on the team, he would begin playing a more lane dominant style with champions like Jayce and Talon. He became known to some as Faker's kryptonite, or the "God slayer" for solo killing him in lane.
+
+===2015 Season===
+On October 31, 2014, PawN announced his departure from Samsung White.<ref>[http://twitter.com/insideKLoL/status/528221573937778689 PawN's Twitter Post (Korean)] ''facebook.com''</ref> On December 2, he joined [[EDward Gaming]].<ref>[http://t.qq.com/p/t/442927108841379 EDG's weibo (Chinese)]</ref> PawN and the rest of the team 3-0'd EDG's biggest offseason rivals, [[Team King]] at the [[G-League 2014]] final when he made his first appearance as the squad's mid laner.
+
+Edward Gaming placed first in the [[2015 LPL Spring]] regular season with PawN as the starting mid laner. In 44 regular season games, PawN played 42 due to illness. PawN also played for the team during the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring]] where they went undefeated from the round-of-sixteen until the finals which ended in a crushing 3-0 victory against [[Invictus Gaming]]. During this period, PawN specialized in a wide range of champions from Veigar to the more conventional Kassadin and Leblanc. He played 18 different champions in 42 regular season games. His playstyle morphed into a more lane focused, jungle attention seeking role. At times, it seemed he chose immobile champions to make himself an easy target for the jungler. At the start of the [[2015 LPL/Spring/Playoffs|2015 Spring LPL Playoffs]], PawN fell ill. Pain in his back prevented him from attending the quarterfinals against [[Team WE]], and he was sent to the hospital. EDG went up two games before losing the next two. After the first loss EDG experienced, PawN reportedly asked to be taken to the LPL stadium. He played for the team in Game 5 for a victory, allowing them to advance to the semifinals.<ref>[http://www.thescoreesports.com/news/1216 Doctors estimate two months recovery time for pawN's injury] ''the Score eSports''</ref> He continued to play for the team through the finals, where EDG won 3-2 against [[LGD Gaming]] and won their spot at the [[Mid-Season Invitational]]. 
+
+At MSI, EDG pushed their way to the finals and upset the heavily favored [[SK Telecom T1]] by baiting Faker into picking LeBlanc and picking a comp to counter it. EDG won the series 3-2 and took home the title of best team in the World. EDG participated in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where they won again by taking a 3-0 set against [[OMG]]. They ended in first place once again in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] but in the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] they faltered, dropping a 3-0 set to LGD and a 3-1 set to IG to end in fourth place overall. They still qualified for the [[2015 Season China Regional Finals]] and managed to take the second seed from China to the [[2015 Season World Championship]] with a 3-1 victory over IG. EDG were placed in a group with SK Telecom, [[H2k Gaming]], and the [[Bangkok Titans]]. They came out of the group in second place and were drawn to play [[Fnatic]] in the quarterfinals but lost to them 3-0.
+
+After a rocky start to the 2016 season, EDG returned to form and received second place in their group. PawN had been slipping in and out of the starting roster, with [[Athena]] taking his place when his injury didn't allow him to play. However, toward the end of the season, PawN played most of the games and until the playoffs. In the semifinals, the [[Qiao Gu Reapers]] forfeited their match, and they were to play [[Royal Never Give Up]] in the finals. EDG lost 1-3 to RNG, and received second in the Spring Season.
+
+During the offseason, PawN stepped down from the starting roster, and [[Scout]] was set to replace him as the starting midlaner.<ref>[http://www.thescoreesports.com/news/7831 The Score's Article] ''thescoreesports.com''</ref>
+
+===2016 Season===
+
+EDG had a rough start to the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] and played several games without [[ClearLove]]. They were however able to bounce back and finished 2nd in Group B, slightly behind [[Royal Never Give Up]]. In the playoffs, EDG was able to sweep [[Snake Esports]] 3-0 and then won automatically against [[Qiao Gu Reapers]] due to QG forfeiting the match. In the finals, EDG faced off against [[Royal Never Give Up]] and despite EDG being the favorites going into the match, they lost 1-3 and finished in 2nd place, failing to qualify for the [[2016 Mid-Season Invitational]]. Once summer came, EDG was placed in Group A of the [[LPL/2016_Season/Summer_Season|2016 LPL Summer Season]]. This split would be the start to EDG's resurgence as the team finished with an undefeated 16-0 regular season. In the [[LPL/2016_Season/Summer_Playoffs|2016 LPL Summer Playoffs]] EDG would defeat [[Team WE]] 3-2 in the semifinals which set them up for a rematch against [[Royal Never Give Up]]. In clean fashion, EDG was able to defeat RNG in a 3-0 sweep and reclaim the LPL championship while also qualifying for the [[2016 Season World Championship]] as China's #1 seed.
+
+At Worlds, PawN and EDG were grouped against [[H2k-Gaming]], [[ahq e-Sports Club]] and [[INTZ e-Sports]] and finished as the 2nd seed after they lost the tiebreaker match against H2k. They were then seeded against [[ROX Tigers]] in the bracket stage and lost the series 1-3. After Worlds, EDG made an announcement that PawN will be leaving the team after the [[Demacia Cup/2016 Season|2016 Demacia Cup]], which they won after a win against [[I May]] in the Finals. In November, [[KT Rolster]] announced that PawN would be the team's new mid laner in the upcoming season.
+
+===2017 Season===
+
+In the [[LCK/2017_Season/Spring_Season|2017 LCK Spring Season]] KT performed well and finished third in the standings. They faced MVP in the second round and won 2-0. They advanced to face [[Samsung Galaxy]] in the semifinals sweeping them 3-0 in the process. However in the [[LCK/2017 Season/Spring Playoffs]] KT fell short and lost 0-3 to [[SK Telecom T1]] in the finals. Although their regular season run in [[LCK/2017_Season/Summer_Season|summer]] was  more successful finishing second with a match score of 14-4, their [[LCK/2017_Season/Summer_Playoffs|playoff]] run was worse and they fell 2-3 to SKT again but in the semifinals this time. In the [[2017 Season Korea Regional Finals]] KT was taken down 0-3 by [[Samsung Galaxy]] and failed to qualify for the [[2017 Season World Championship]]. They finished their season by winning the [[2017 LoL KeSPA Cup]]. In the quarterfinals they faced E8W which they beat 2-0, followed by winning 2-1 against Samsung. They capped off their run by beating Longzhu Gaming 3-2 in the finals.
+
+===2019 Season===
+
+Pawn joined [[Kingzone DragonX]] for the 2019 season along with his longtime teammate [[Deft]]. Kingzone finished a strong third in the [[LCK/2019 Season/Spring Season|Spring Season]] with a 13-5 record, but were immediately swept by [[SKT]] in [[LCK/2019 Season/Spring Playoffs|the playoffs]]. 
+
+In May, Kingzone announced that Pawn would become inactive due to health issues. He remained inactive for the rest of the 2019 season before announcing his retirement in September. In December, Pawn revealed in an interview with InvenGlobal that he had retired due to developing obsessive-compulsive disorder (OCD). However, he stated that he still wanted to play professionally, and did not rule out a return if his issues improved. 
+
+In May 2020, Pawn wrote a post on Afreeca stating that he might come back from retirement. Later that year, it was announced that he would be joining the [[LCK 2020 Summer]] analyst desk.
+
+== Trivia ==
+* Played the most games in ranked soloqueue in Korea in season 3, with over 3800 games.
+* His Chinese nickname, 小胖, literally means "little fat". It was given to him because 胖 is pronounced "pang," sounding similar to his name.
+* Nicknamed "[[wikipedia:en:Gautama_Buddha|Buddha]]" by Chinese fans. Due to his emotionless face.
+* Used to be known as a one trick pony {{ci|Fizz}} player for playing an overwhelming amount of games on the champion
+* Was given the general's jacket by [[Dade]] after Samsung White beat Samsung Blue at Worlds 2014. The jacket is represented in his World Championship winner's skin.
+* First Player to won both MSI and Worlds Title.
+* Was the only non-SKT player to have won both an MSI and Worlds title before [[Meiko]] won the 2021 Worlds.  
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+==Highlight Videos==
+===2014===
+* August 27 - [http://www.youtube.com/watch?v=0KidnnJujBQ <nowiki>[ KR.Regional'14 ] Faker vs Pawn | SKT T1 K vs Samsung White | Tiebreaker</nowiki>] (3m1s)
+* October 22 - [http://www.youtube.com/watch?v=eODic00uCOE Pawn, Best Mid World Highlights - S4 World Championship] (8m17s)
+=== Images ===
+<gallery>
+SSW PawN 2014 WCS.png|SSW PawN at [[2014 Season World Championship]]
+SG White PawN.jpg|SSW PawN
+pawn.jpg|SSB PawN
+EDG PawN 2015.jpg|EDG PawN Spring 2015
+EDG-Pawn-2015lpl.jpg|EDG PawN Summer 2015
+EDG-PawN-Spring-2016.png|EDG Pawn Spring 2016
+EDG-PawN-spring-2016.png|EDG Pawn Spring 2016
+KT Pawn 2017 Spring.png|KT Pawn 2017 Spring
+KT PawN 2017 Summer.png|KT PawN 2017 Summer
+KT PawN 2018 Spring.png|KT PawN 2018 Spring
+</gallery>
+
+{{PlayerPageEnd}}

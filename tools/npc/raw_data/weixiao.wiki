@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wx&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.260Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Weixiao」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=wx
+|name=Gao Xue-Cheng
+|nativename=高学成
+|namealphabet=Hanzi
+|image=OB Wx Legend Cup Season 2.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|birth_date_year=1992
+|birth_date_month=June
+|birth_date_day=18
+|favchamp=Ezreal
+|favchamp2=Corki
+|favchamp3=Lucian
+|favchamp4=Vayne
+|checkbox1=Yes
+|favchamp5=Graves
+|favchamp6=Kalista
+|compID1=WeiXiao
+|checkboxComp=No
+|ids=跳跳是个小可爱, MissBear丶, 摇了摇头, 我活在梦里, Neverhadream (KR), We01 (KR), 叫我jiNx啦, WananBristl, neverhadream, LdgsrR, WrdYg, 你微笑时好美丶, 微笑丶, WEGIGABYTEWx
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/16101
+|videoarchive=http://i.youku.com/u/UMTkxMDkxMDg4NA
+|weibo=http://www.weibo.com/u/2495158142
+|fanpage=http://t.qq.com/gaocheng3064900
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is also known as '''WeiXiao'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+|nicknames=Wx
+}}
+==Biography==
+
+== Trivia ==
+* Switched roles with [[Caomei]] from top lane to AD Carry.<ref>[http://ggchronicle.com/world-elite-preview-season-two-world-finals World Elite Team Summary] ''ggchronicle.com''</ref>
+* His name means "smile" in Chinese.
+* Considered by many to be the best AD carry in the world.
+* He claims to be good at any AD carry with the sole exception of {{ci|Draven}}, because catching the axes would require too much effort.
+* He secured Solo Queue rank 1 during Season 3 on KR servers.<ref>[http://t.qq.com/p/t/218347045582213 Weixiao WeiBo Post] ''t.qq.com''</ref>
+* His favorite champions are {{ci|Ezreal}} and {{ci|Vayne}}.<ref>[http://clgaming.net/news/42-interview-with-furrystyle-of-we Interview with Weixiao (Formerly Furrystyle) of WE] ''clgaming.net''</ref>
+* His ex-girlfriend Su Xiao-yan (苏小妍) is a famous League of Legends caster in China.
+* He became rank 1 Challenger in China on the 5th April 2014 with a W/L of 94/50.<ref>[http://i.imgur.com/izODdBE.png Weixiao #1 Challenger]</ref>
+* He is regarded as one of the best AD carries in the history of League of Legends.
+* Introduced to LPL Hall of Fame in December 2020.<ref>[http://twitter.com/lplenglish/status/1334138408361357314 LPL's Tweet]</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+File:Wx.jpg|WE Wx
+File:Weixiao.jpg|WE WeiXiao
+File:WEWeiXiao.jpg|WE WeiXiao
+WE_Weixiao.jpg|WE WeiXiao
+LPL AS WeiXiao 2019.png|WeiXiao, LPL All-Star 2019
+2020 WeiXiao.png
+OP wx Legend Cup 2024.png|Legend Cup Season 1
+WER wx 2024 LCC.png|LCC 2024
+OB wx Legend Cup Season 2.png|Legend Cup Season 2
+</gallery>
+
+{{PlayerPageEnd}}

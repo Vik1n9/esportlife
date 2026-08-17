@@ -1,0 +1,256 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=G2%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.082Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「G2 Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= G2 Esports
+|orgcountry= Germany
+|foundedcountry= Spain
+|region= EMEA
+|partner= [http://aoc.com AOC] <br> [https://www.logitechg.com Logitech G] <br> [https://www.redbull.com Red Bull] <br> [https://www.mastercard.com Mastercard] <br> [https://www.philips.com/welcome PHILIPS] <br> [https://eugaming.hermanmiller.com/products Herman Miller] <br> [https://www.oakley.com/en-us OAKLEY] <br> [https://www.ralphlauren.com Ralph Lauren] <br> [https://www.faceit.com/en/inv/CiLr8UW ESL Faceit Group] <br> [https://skinrave.gg/en/r/G2 SkinRave]
+<!-- Staff -->
+|headcoach= Luka "{{bl|Perkz}}" Perković
+|owner= Jens Hilgers
+<!-- Social Media -->
+|website= https://www.g2esports.com
+|youtube= https://www.youtube.com/FollowGamers2
+|instagram= g2esports
+|facebook= https://www.facebook.com/G2esports
+|twitter= G2League
+|subreddit= G2eSports
+|snapchat= g2-esports
+|discord= https://discordapp.com/invite/g2esports
+|twitch-team= https://www.twitch.tv/team/g2esports
+|tiktok= g2esports
+|weibo= https://www.weibo.com/g2esports
+|lolpros= https://lolpros.gg/team/g2-esports
+|linkedin=https://www.linkedin.com/company/g2esports/
+|irc= 
+<!-- History -->
+|created= 2015-10-15
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= apex,cod,fortnite,halo,paladins,pubg,rl,siege,vg,valorant
+}}{{TOCRWI}}
+
+'''G2 Esports''' is a European team. They were previously known as [[Gamers2]].
+
+== History ==
+=== 2016 Season ===
+==== Spring Split ====
+'''G2 Esports''' rebranded from the name [[Gamers2]] in October 2015, after [[EU LCS/2016 Season/Spring Promotion|qualifying]] for the [[EU LCS/2016 Season/Spring Season|EU LCS]]. In addition to rebranding, the team changed several positions in their roster: from [[Smittyj]], [[Kikis]], [[PerkZ]], [[Jesse]], and [[Hybrid (Glenn Doornenbal)|Hybrid]] as their qualifying roster, G2 Esports moved Kikis to top lane and added Korean players [[Trick]] and [[Emperor (Kim Jin-hyun)|Emperor]]. Their roster quickly rose to prominence and recognition in the LCS, consistently tied for first place after each week, sometimes with [[H2k-Gaming|H2k]] and sometimes also with [[Vitality]], until the end of the split when they held sole possession of first place with a 15-3 record. With a quarterfinal bye, the [[EU LCS/2016 Season/Spring Playoffs|playoffs]] also saw them perform well, as they defeated both [[Fnatic]] and [[Origen]] 3-1 to win the season and secure an invitation to the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+==== 2016 Mid-Season Invitational ====
+Going into MSI, G2 Esports were seen as a favorite not to win, but to come in second place to the Korean representatives [[SK Telecom T1]].<ref>[http://espn.go.com/esports/story/_/id/15446300/the-mid-season-invitational-power-rankings The Mid-Season Invitational Power Rankings] ''espn.go.com''</ref><ref>[http://www.lolesports.com/en_US/articles/msi-2016-power-rankings MSI 2016 Power Rankings] ''lolesports.com''</ref> However, the team lost their first four games of the round robin and ultimately finished in fifth place, ahead of only [[SuperMassive eSports]], and out of playoff contention - importantly, this placement meant that Europe would miss out on a [[2016 Season World Championship/Seeding|Pool 1 Seed]] at [[2016 Season World Championship|Worlds]]. In a statement published partway through the second day of play, G2 stated that their players had taken vacation time after a "rigorous Spring Split."<ref>[http://www.g2esports.com/statement-from-g2-esports-about-msi-2016/ Club statement about MSI 2016] ''g2esports.com''</ref> Emperor later stated that there had been an internal conflict within the team one day prior to the start of the event.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4i5fls/g2_emperor_post_on_facebook/ G2 Emperor Post on Facebook !!] ''reddit.com''</ref>
+
+These several factors - their performance compared to expectations, the far-reaching impact of their result harming the European region as a whole for Worlds seeding, and their statement seeming like a poor excuse - resulted in the organization receiving significant backlash from the community and sparked a debate with varied opinions on the matter from different people.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4hzsep/soaz_regarding_reddit_criticism_on_g2/ Soaz regarding reddit criticism on G2] ''reddit.com''</ref><ref>[http://www.youtube.com/watch?v=aRgcU4SXD2A PerkZ on G2's lack of MSI prep: 'We decided...taking that vacation would be maybe better for us'] ''youtube.com''</ref><ref>[http://www.youtube.com/watch?v=1ULF-LZneIE MonteCristo on G2's statement about MSI 2016] ''youtube.com''</ref><ref>[http://www.youtube.com/watch?v=MxLiJcazk8M Thorin's Thoughts - G2 and the Practice Problem (LoL)] ''youtube.com''</ref>
+
+==== Summer Split ====
+Looking ahead to the [[EU LCS/2016 Season/Summer Season|Summer Split]], G2 announced the acquisition of the former [[Origen]] botlane, [[Zven]] and [[Mithy]],<ref>[http://www.youtube.com/watch?v=wjFr_4cyjdo Vacation is over.] ''youtube.com'' </ref> and Korean toplaner [[Expect]]. With a newfound strength in the bot lane, coupled with [[Trick]]'s MVP-worthy performance, G2 went on to re-establish themselves as the best team in Europe, placing first in the Regular Season with a match record of 10-8-0 in spite of [[Kikis]] leaving the lineup between Weeks 6 and 7.<ref>[http://www.g2esports.com/g2-agrees-terms-fnatic-kikis G2 agrees to terms with Fnatic for Kikis] ''g2esports.com''</ref> They then defeated [[Splyce]] 3-1 in the [[EU LCS/2016 Season/Summer Playoffs|Summer Playoffs Finals]], securing their spot in the [[2016 Season World Championship|2016 World Championship]].
+
+==== 2016 World Championship ==== 
+Due to their poor MSI performance, G2 ended up joining Worlds as a Pool Two team, thus having to potentially face tougher opponents in the Group Stage. They were drafted in Group A along with LCK champions [[ROX Tigers]], NA LCS second seed [[Counter Logic Gaming]] and International Wild Card Tournament winner from the CIS region [[Albus NoX Luna]]. G2 exited the tournament early in last place in their group, going 1-5 with their only win coming in their final game against Albus NoX.
+
+=== 2017 Season === 
+==== Spring Split ====
+During the 2016-17 offseason, G2 was one of only two teams along with [[Splyce]] to make no roster changes aside from bringing in [[MindGamesWeldon]] as assistant coach going into the [[EU LCS/2017_Season/Spring_Season|Spring Split]]. They were placed into Group A alongside [[Misfits (European Team)|Misfits]], [[Fnatic]], [[Team ROCCAT]], and [[Giants Gaming]].<ref>[http://www.g2esports.com/weldon-joins-g2-assistant-coach/ Weldon joins G2 as Assistant Coach] ''g2esports.com''</ref> After dominating the first half of the domestic split with a perfect 7-0 match record, G2 was invited to [[IEM_Season_11_-_World_Championship|IEM Katowice]] to replace [[Cloud9]], who had forfeited their spot. G2 defeated [[ROX Tigers]] and [[Kongdoo Monster]] of the LCK, along with European rivals [[Unicorns of Love]], to make it to the tournament finals, where they lost 0-2 against the back-to-back LMS champion [[Flash Wolves]].
+
+In domestic competition, G2 held a commanding lead throughout the season, dropping only eight games and remaining undefeated in series until their very last match, losing to the surging [[Team ROCCAT]]. G2 finished in first overall with a 12-1 record, earning their third consecutive first-place regular season finish. They continued this in playoffs as well beating both Fnatic and Unicorns of Love 3-1 in the [[League_Championship_Series/Europe/2017_Season/Spring_Playoffs|playoffs]] winning their third domestic title in a row and securing a place at Rift Rivals as well as another invitation to the [[2017 Mid-Season Invitational|Mid-Season Invitational]].
+
+==== 2017 Mid-Season Invitational ====
+G2 Esports finished the group stage of the [[2017 Mid-Season Invitational/Main Event|Main Event]] with a 4-6 record in a 3-way-tie for third with [[Flash Wolves]] and [[Team SoloMid]] in which they came out as 3rd seed going into playoffs by being 3-1 in H2H against these teams. After upsetting [[Team WE]], to which they lost both games in groups 3-1 in semifinals, they faced [[SK Telecom T1]] in the finals and lost 1-3.
+
+==== Summer Split ====
+After giving their players a short vacation after MSI, G2 had a slow start to the [[EU LCS/2017_Season/Summer_Season|Summer Split]] and ended the first round in their group 2-3. One of their wins was in week 1 while playing with 3 subs.<ref>[http://www.g2esports.com/g2-eulcs-roster-summer-week1 G2 Esports roster for EU LCS Week 1] ''g2esports.com''</ref><ref>[http://www.g2esports.com/perkz-eulcs-week1-blanc PerkZ last minute replacement in EU LCS Week 1] ''g2esports.com''</ref> Between weeks 5 and 6, G2 played with Fnatic and Unicorns of Love at the newly created [[Rift Rivals 2017/NA-EU|Rift Rivals]] against the North American representatives [[Cloud 9]], TSM, and [[Phoenix1]]. It was disappointing for both G2 and the EU LCS as G2 went 1-5 in groups and UoL lost the finals 0-3.
+They picked up the pace domestically during intergroup matches and went on a 6 match winstreak, dropping only 2 games before their run was suddenly stopped when [[Team ROCCAT]] upset them in the last week of Regular Season, followed by a 0-2 loss against Fnatic and a hard fought victory in quarterfinals against Splyce. With regained confidence from this win they went on to cleanly sweep [[H2k-Gaming|H2k]] in semifinals and Misfits in finals for their 4th consecutive EU LCS title, thus qualifying for the [[2017 Season World Championship|2017 World Championship]] as Europe's first seed.
+
+==== 2017 World Championship ==== 
+Due to their MSI performance, G2 went into the draw as a first seed but ended up with a very tough draw anyway. They were placed into Group C alongside LCK third seed [[Samsung Galaxy]], LPL second seed [[Royal Never Give Up]] and TCL representative [[1907 Fenerbahçe]]. G2 ended the group in third place, taking one game off group winner RNG but losing both games against Samsung.
+
+=== 2018 Season ===
+==== Spring Split ====
+Due to the departure of their botlane duo [[Zven]] and [[mithy]], G2 rebuilt their roster around midlaner [[Perkz]].<ref>[http://tsm.gg/news/welcome-zven-and-mithy Welcome Zven and Mithy] ''tsm.gg''</ref> They signed [[Wunder]] from [[Splyce]], [[Jankos]] from [[H2k-Gaming|H2k]] and [[Team ROCCAT]]'s botlane [[Hjarnan]] / [[Wadid]] and coach [[GrabbZ]], who replaced YoungBuck after his decision to look for a new challenge.<ref>[http://www.g2esports.com/g2-league-of-legends-2018-roster/ G2 Esports League of Legends EU LCS Line-up for 2018] ''g2esports.com''</ref><ref>[https://twitter.com/g2esports/status/941701776113307648 G2 Esports's Tweet] ''twitter.com''</ref><ref>[http://www.g2esports.com/joey-youngbuck-steltenpool-open-new-opportunities/ Joey 'YoungBuck' Steltenpool open to new opportunities] ''g2esports.com''</ref> After an inconsistent [[EU LCS/2018_Season/Spring_Season|Spring Split]] Regular Season, where they finished with an 11-7 record, they beat Splyce in a tiebreaker for 2nd seed and 3-1 in semifinals a few weeks later. In finals, they went up against [[Fnatic]] and their former coach [[YoungBuck]] for what could be their 5th title in a row, but they were cleanly swept, and lost 0-3.
+
+==== Summer Split ====
+G2 managed to deal with the new meta and started off strong in [[EU LCS/2018 Season/Summer Season|Summer Split]] going into [[Rift Rivals 2018/NA-EU|Rift Rivals]] as first place, with a perfect record after 3 weeks of play. At Rift Rivals they won all of their group stage games against [[Team Liquid]], [[100 Thieves]], and [[Echo Fox]] and, despite losing the first game of finals, Europe ended up winning the event. However, they could not keep their advantage in the EU LCS and lost tiebreaker games, dropping them from 2nd place to 4th place going into playoffs. They lost decisively 0-3 to Misfits. This meant that they did not reach EU LCS finals for the first time in organisation history, but still went into the [[EU LCS/2018 Season/Regional Finals|Regional Finals]] as 2nd seed. They faced Splyce in Round 2 of the gauntlet and secured a 3-2 victory to face Summer Split runner-up [[FC Schalke 04]] in the final. Despite going into the match as underdogs, they won 3-1, which secured them the third seed of Europe at the [[2018 Season World Championship|2018 World Championship]].
+
+==== 2018 World Championship ==== 
+At the World Championship they went through [[2018 Season World Championship/Play-In|Play-In]] Round 1 in Group B with [[SuperMassive eSports]] and [[Ascension Gaming]], and beat [[INFINITY|Infinity Esports]] in Round 2. In the [[2018 Season World Championship/Main Event|Main Event]] they were drawn into Group A with LCK second seed [[Afreeca Freecs]], LMS first seed [[Flash Wolves]] and VCS representative [[Phong Vũ Buffalo]]. After going 2-1 in week 1, they went 1-2 on the deciding day. They ended 1-1 against every team in the group and went on to beat Flash Wolves in a tiebreaker. Going into quarterfinals as clear underdogs vs LPL's [[Royal Never Give Up]], they won the series 3-2. They lost to LPL second-seed [[Invictus Gaming]] in the semifinals.
+
+===2019 Season===
+On November 20, Riot Games announced G2 Esports as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref>
+
+==== Spring Split ====
+Coming into the 2019 Season, G2 released their botlane duo and signed support [[Mikyx]] from Misfits and star midlaner [[Caps]] from their rivals Fnatic as replacements while Perkz switched roles from midlane to AD carry.<ref>[https://www.g2esports.com/kings-unite/ Kings Unite] ''g2esports.com''</ref><ref>[https://twitter.com/G2esports/status/1070376136016912384 G2 Esports' Tweet] ''twitter.com''</ref> They started the [[LEC/2019 Season/Spring Season|Spring Split]] above their competition, winning their first 9 games and quickly securing a place at the offline finals of playoffs. They later dropped games towards the end of the split and ended in first place with a record of 13-5. In Round 2 of the new playoff format, G2 faced [[Origen]] and, after 2 close games, G2 dominated game 3 for a clean sweep. Because Origen won the semifinal against Fnatic, G2 had a rematch against them. This time, G2 destroyed them in 74 minutes and 31 seconds, which was the fastest playoff series in LEC history. Their 5th title also meant that they qualified for both [[2019 Mid-Season Invitational|Mid-Season Invitational]] and [[Rift Rivals 2019/NA-EU|Rift Rivals]].
+
+==== Mid Season Invitational ====
+Coming into MSI, there were worries concerning a wrist injury [[Mikyx]] had.  However, it was announced that Mikyx would play at MSI. G2 finished the group stage with a 5-5 record, advancing to the semifinals as the third place team. In the semifinals, G2 faced off against [[SK Telecom T1]]. In a close five games series, G2 managed to edge out the victory over SKT and advanced to the Grand Final, where they swept [[Team Liquid]] 3-0 in the fastest international best-of-five series in League of Legends history, earning the title of [[2019 Mid-Season Invitational|Mid-Season Invitational 2019]] Champions.
+
+==== Summer Split ====
+G2 carried their momentum from MSI forward into [[LEC/2019 Season/Summer Season|Summer Split]] despite taking a break, due to which they went into week 1 with barely any practice on the new patch. After three weeks, they were 2nd with a 5-1 record and decided to experiment with role swaps and unexpected strategies at [[Rift Rivals 2019/NA-EU | Rift Rivals]] against TL, C9 and TSM. Despite LEC's loss in finals, Europe managed to win the tournament 3-1. G2 somewhat continued this success in LEC and still won most games. G2 still comfortably secured 1st seed for playoffs with a 15-3 record. In Round 2 of playoffs, G2 found themselves down 0-2 to Fnatic’s global compositions and were at a deficit in game 3 as well. They managed to turn that game and the series around as they dismantled Fnatic in a 19-minute game 5 to advance to the finals. There, they had a rematch against Fnatic, who won the semifinals the day before and were even better prepared than last time. In a crazy start to the series, Fnatic snowballed an early lead to a dominant victory. The next 3 games similarly snowballed, and G2 equalized the series twice before breaking the pattern and getting a strong early lead in game 5. Unlike the series a week prior, Fnatic did not crumble this time but instead held on and found good engages with their teamfight composition, but before they could turn the game fully around, G2 found deciding picks and ended the game and series to go to [[2019 Season World Championship/Main Event|Worlds]] as Europe's 1st seed, and one of the favorites to win it.
+
+==== World Championship ====
+
+G2 Esports were drawn in Group A of the World Championship main stage, alongside [[Griffin (Korean Team)|Griffin]], [[Cloud9]] and [[Hong Kong Attitude]]. G2 won all 3 games in the first round robin. In the second round robin, G2 went on to win their first two games against C9 and HKA; however, they dropped their final game to Griffin in the second round robin. This forced a tiebreaker for first place, in which Griffin beat G2 Esports, meaning G2 would take the second place in Group A. G2 were drawn against [[DAMWON Gaming]] in the quarterfinals. In a more straight forward series, G2 managed to beat DAMWON and advance to the semifinals, where they met [[SK Telecom T1]]. G2 took the first game in the series against SKT, after which SKT took game 2. G2 managed to win Game 3 and 4 and close out the series in a 3-1 victory, meaning they advanced to the Grand Final of the World Championships. There they met [[FunPlus Phoenix]], the first seed from China, to whom they lost 0-3 afterwards, ending Worlds as the runner-up.
+
+=== 2020 Season ===
+Going into [[LEC/2020 Season/Spring Season|Spring Split]], Perkz and Caps switched positions, with Perkz returning to mid-lane and Caps becoming the team's ADC. Despite the role swap, G2 still dominated at the beginning of the split and found themselves at 6-0 after week 3. Following a two-week slump, during which they went 1-3, G2 picked it back up and won all their remaining matches of the Regular Season to secure first seed in playoffs with a 15-3 record. For Round 1 of playoffs, they chose to face [[MAD Lions]]. Although in an exciting series they managed to equalize the score twice and were close to winning game 3, they were upset and dropped down into Loser's Bracket. There they faced Origen in Round 3 and, after a great first game, G2 managed to come back in game 2 with two great teamfights in the late game. Following a slow dominant game 3 by Origen, G2 came back and won game 4 convincingly, securing a rematch against MAD Lions. With an improved read of the meta and better individual performances, G2 managed to take a 3-1 win this around to face Fnatic in the finals. Unlike the last split, G2 destroyed Fnatic in the draft and in gameplay for a quick 3-0 clean sweep. With this win, G2 equaled Fnatic's 7 LEC titles.
+
+Shortly after Spring Split, Perkz and Caps announced that they would switch positions back for [[LEC/2020 Season/Summer Season|Summer Split]].
+== Trivia ==
+* With 19 regional titles obtained, they are the most decorated team at a domestic level within ''League of Legends'' esports.
+* Associated with the meme "Four Horsemen of the Apocalypse" as they participate in 4 best plays of the entire [[Worlds]]' history as victim ([[Smeb]]'s {{ci|Kennen}} in 2016, [[TheShy]]'s {{ci|Aatrox}} in 2018, [[Tian]]'s {{ci|LeeSin}} in 2019 and [[Bin (Chen Ze-Bin)|Bin]]'s {{ci|Gangplank}} in 2020)
+* Ever since the first time the organization join the European's highest competitive level of League of Legends in 2016, G2 had never missed any [[Worlds]] before they missed [[Worlds]] for the first time in 2021.
+* Had a 24-0 game win streak over [[LEC/2022 Season/Spring Playoffs|LEC 2022 Spring Playoffs]] and [[MSI 2022]], before eventually losing to [[PSG Talon]] in the Rumble Stage.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+{{EUAcademyRosterNotice}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||de|Jens Hilgers|'''Co-Owner & Chairman'''}}
+{{listplayersp|Stilgar|fr|Alban Dechelotte|'''Chief Executive Officer'''}}
+{{listplayersp||de|Sabrina Ratih|'''Chief Operating Officer'''}}<!--Jan 2023-->
+{{listplayersp||fr|Jean de Brem|'''Head of People & Culture'''}}<!--Aug 2019-->
+{{listplayersp|Mayne|fi|Julius Ylänne|'''Director of Esports'''}}<!--May 2020-->
+{{listplayersp||uk|Daniel Chan|'''Innovation Lead'''}}<!--Apr 2020-->
+{{listplayersp|Oravan|fr|Thomas Navaro|'''Design Team Lead'''}}<!--Jun 2016-->
+{{listplayersp|Yaniko|de|Yannick Purser|'''Global Media Lead'''}}<!--Aug 2019-->
+{{listplayersp|FirmeX||João Firmo|'''Interim Events and Community Lead'''}}<!--May 2023-->
+{{listplayersp|Eric|es|Eric Alvarez Fernandez|'''Graphic Designer'''}}
+{{listplayer|Romain|fr|Romain Bigeard|'''General Manager'''}}
+{{listplayer|Perkz|hr|Luka Perković|'''Head Coach'''}}
+{{listplayer|Dylan Falco|ca|Dylan Falco|'''Head Coach (Inactive)'''}}
+{{listplayer|Memento|se|Jonas Elmarghichi|'''Assistant Coach'''}}
+{{listplayer|Isma (Ismael Pedraza)|co|Ismael Pedraza|'''Performance Coach'''}}
+{{listplayer|Rodrigo|pt|Rodrigo Oliveira|'''Head Analyst'''}}
+{{listplayersp|Lothar|pl|Jakub Szygulski|'''Streamer'''}}
+{{listplayer|Jankos|pl|Marcin Jankowski|'''Content Creator'''}}
+{{listplayer|Kesha|se|Charlie Eriksson|'''Content Creator'''}}
+{{listplayer|Caltys|se|Maya Henckel|'''Content Creator'''}}
+{{listplayer|Brizz|it|Luca Brizzante|'''Co-Streamer'''}}
+{{listplayer|Kitty (Athena Jiang)|au|Athena Jiang|'''Co-Streamer'''}}
+{{listplayer|Send0o|es|Rosendo Fuentes Bóveda|'''Co-Streamer'''}}
+{{listplayer|Skyyart|fr|Willy Dias|'''Co-Streamer'''}}
+{{listplayer|Sola|de|Nico Linke|'''Co-Streamer'''}}
+{{listplayer|Trayton|fr|Jean Medzadourian|'''Co-Streamer'''}}
+{{listplayer|Wadid|kr|Kim Bae-in (김배인)|'''Co-Streamer'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||uk|Jack McQuone|'''Videographer'''|newteam=none}}<!--Nov 2020 - Jun 2026 -->
+{{listplayersp|Wirtz|es|Jacobo Ramos González|'''Head of Infrastructure & Global Expansion'''|newteam=none}}<!--Jan 2014 - Nov 2025-->
+{{listplayersp|BLDHRN|pt|Pedro Palma|'''Head of Events & Creators'''|newteam=none}}<!--Feb 2020 - Jun 2025-->
+{{listplayersp||es|José Vidal|'''Technical Lead'''|newteam=none}}<!--Jan 2022 - Dec 2024-->
+{{listplayersp||hr|Ivana Breček|'''Head Of Digital and Innovation'''|newteam=none}}<!--Feb 2020 - Dec 2024-->
+{{listplayer|Duffman|uk|Christopher Duff|'''Assistant Coach'''|newteam=FNC}}
+{{listplayer|Click (Vsevolod Tikhomirov)|ru|Vsevolod Tikhomirov|'''Research Analyst'''|newteam=none}}
+{{listplayersp||de|Niklas Krüger|'''Office & Event Manager'''|newteam=retired|comment=PORTICA GmbH Marketing Support}}<!--Oct 2020 - Oct 2024-->
+{{listplayersp||nl|Adeline Vos|'''E-Commerce & Retail Lead'''|newteam=none}}<!--Aug 2019 - Oct 2024-->
+{{listplayersp|Jujubez||Austin Redfern|'''Content Producer'''|newteam=vit}}<!--Jun 2024-->
+{{listplayersp|Brit|us|Britanni Johnson|'''Head of Creators'''|newteam=retired|comment=Dexerto}}<!--Dec 2019 - Dec 2023-->
+{{listplayersp|G2 obscurially|de|Jean-Paul Barke|'''Accountant'''|newteam=retired|comment=m+m Gebäudetechnik GmbH}}<!--Oct 2023-->
+{{listplayersp|Raf|fr|Raphael Klausmann|'''Team Manager'''|newteam=G2|comment=CSGO}}
+{{listplayer|Yuli|ru|Yulia Morozova|'''Content Creator'''|newteam=none}}
+{{listplayersp|Charles|uk|Charles Dalton|'''Lead Videographer'''|newteam=none}}
+{{listplayer|ocelote|es|Carlos Rodríguez Santiago|'''Founder, Co-Owner, & Chief Executive Officer'''|newteam=Suspended}}
+{{listplayer|KNOK1|lt|Žygimantas Kriščiūnas|'''Esports Manager'''|newteam=G2 Hel}}
+{{listplayer|Nelson|sg|Sng Yi-Wei (孙翊维)|'''Strategic Coach'''|newteam=XL}}
+{{listplayersp||de|Peter Mucha|'''Chief Operating Officer'''|newteam=none}}<!--xxx 2022-->
+{{listplayersp|cmstudioro|ro|Mihai Cojocaru|'''Senior Graphic Designer'''|newteam=none}}<!--Dec 2022-->
+{{listplayersp|riacuro|ie|Chris Sloane|'''Head of Social & Programming'''|newteam=Retired|comment=VERITAS Entertainment}}
+{{listplayersp|AngelArcher|ro|Luciana Nadrag|'''Scout Analyst'''|newteam=BDS}}
+{{listplayersp|ziminaite|lt|Karina Ziminaite|'''Head of Content'''|newteam=retired|comment=INSTINCT3}}<!--Feb 2022-->
+{{listplayersp|fl3sch|de|Caroline Flesch|'''Executive Assistant'''|newteam=retired|comment=The Cubinauts UG}}<!--Jan 2022-->
+{{listplayersp|krisJaro|es|Krystian Jaroszynski|'''Head of Partnerships'''|newteam=Tencent}}<!--Jan 2022-->
+{{listplayer|Noodlez|it|Dimitri Zografos|'''Data Analyst'''|newteam=VIT}}
+{{listplayer|GrabbZ|de|Fabian Lohmann|'''Head Coach'''|newteam=BDS}}
+{{listplayersp|Petter|no|Petter Kaspersen|'''Software Developer'''|newteam=retired|comment=Statespace}}<!--2021-->
+{{listplayersp||us|Jordan Bellar|'''Business Development Manager'''|newteam=retired|comment=Tribe Gaming}}<!--Dec 2021-->
+{{listplayersp|||Mei Ling Rider|'''Marketing Director'''|newteam=retired|comment=BMC Switzerland}}<!--Nov 2021-->
+{{listplayer|Duffman|uk|Christopher Duff|'''Head Analyst'''|rejoined=yes|newteam=BDS}}
+{{listplayersp|HuskY|de|Danny Engels|'''Head of Esports'''|newteam= Evil Geniuses.NA}}<!--Jul 2021-->
+{{listplayersp|Ca1zy|uk|Callum Newland|'''Online Events Manager'''|newteam=retired|comment=BLAST}}<!--Jul 2021-->
+{{listplayersp|lukezolynia|pl|Lukasz Zolynia|'''Strategy and Business Development Manager'''|newteam=retired|comment=Logitech}}<!--Jul 2021-->
+{{listplayersp||de|Dominic Kamin|'''Creator Marketing Manager'''|newteam=retired|comment=Freaks 4U Gaming}}<!--Mar 2021-->
+{{listplayersp|Taco Storm||Jonathan Singh|'''General Manager'''|newteam=Retired|comment=Virtex}}
+{{listplayersp|z1n0|dk|Jamie Henneberg Bach|'''Head of Creator Marketing'''|newteam=none}}
+{{listplayersp||af|Roman Koudous|'''Head of Legal / Attorney-at-law / General Counsel'''|newteam=Retired|comment=CROSSBIE}}
+{{listplayersp|Brausebaerle|de|Anne Banschbach|'''Executive Assistant & League Operations'''|newteam=Team Vitality}}
+{{listplayersp|Shasha|de|Sascha Kaliga|'''Video Production Manager'''|newteam=Retired|comment=Axel Springer Corporate Solutions}}
+{{listplayersp|||Lindsey Eckhouse|'''Commercial Director'''|newteam=Retired|comment=McLaren Racing}}
+{{listplayersp||de|Michael Gohlke|'''Head of Events'''|newteam=Retired|comment=VERITAS Entertainment}}
+{{listplayer|andeR|es|Ander Cortés|'''Content Creator'''|newteam=KOI (Spanish Team)}}
+{{listplayer|BarbeQ|es|Ernesto Folch Casanoves|'''Content Creator'''|newteam=KOI (Spanish Team)}}
+{{listplayer|Ibai|es|Ibai Llanos|'''Content Creator'''|newteam=KOI (Spanish Team)}}
+{{listplayer|Reven|link=Reven (Antonio Pino)|es|Antonio Pino|'''Content Creator'''|newteam=none}}
+{{listplayersp|Greenish|at|Melina Follath|'''Esports Operations Manager'''|newteam=Retired|comment=Freaks 4U Gaming GmbH}}
+{{listplayersp|IzpAH|hu|Oliver Steer|'''General Manager'''|newteam=none}}
+{{listplayersp||de|Holger Jakob|'''Head of Legal'''|newteam=Retired|comment=MELCHERS Rechtsanwälte}}
+{{listplayer|Boris|be|Mitch Voorspoels|'''General Manager'''|newteam=VIT}}
+{{listplayersp||uk|Robert Wylie|'''Social Media Manager'''|newteam=Retired|comment=Scuf Gaming}}
+{{listplayer|Mapache|es|Alex Parejo Martinez|'''Analyst'''|newteam=xL}}
+{{listplayersp||us|Nathan McAdams|'''Analyst'''|newteam=Harrisburg University}}
+{{listplayersp|Lego|es|Jesús García|'''Project Manager'''|newteam=g2 vodafone}}
+{{listplayer|Duffman|uk|Christopher Duff|'''Team Manager & Head Analyst'''|newteam=TSM}}
+{{listplayer|YoungBuck|nl|Joey Steltenpool|'''Head Coach'''|newteam=Fnatic}}
+{{listplayer|MindGamesWeldon|us|Weldon Green|'''Assistant Coach'''|newteam=TSM}}
+{{listplayersp||pt|Luis Mira|'''Content Manager'''|newteam=none}}
+{{listplayersp||dk|Sarah Youssef|'''Sales and Business Development Assistant'''|newteam=Retired|comment=Elgiganten A/S}}
+{{listplayer|SharkZ|by|Alexey Taranda|'''Assistant Coach'''|newteam=Vega Squadron}}
+{{listplayersp|Canoodle|dk|Nanna Bøgedal|'''Social Media & Community Manager'''|newteam=North (2018 European Team)}}
+{{listplayersp|kedzr|pt|Daniel Silva|'''Video Editor'''|newteam=none}}
+{{listplayersp|Bull|es|Luis Rivera|'''Manager'''|newteam=eMonkeyz}}
+{{listplayersp|JammeH|uk|Jamie Morgado|'''Operations Manager'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+G2 Esports oldlogo square.png|Previous Silver Logo<br>(- Jan 2019)
+G2 Esports logo red.png|Previous Red Logo
+</gallery>
+
+===Rosters===
+<gallery>
+G2 2016Spring.jpg|G2 Esports EU LCS 2016 Spring Roster
+G2 summer2016.jpg|G2 Esports EU LCS 2016 Summer Roster<br>w/ Kikis as Top Laner
+G2worlds.png|G2 Esports<br>Worlds 2016 Roster
+G2 2017 Spring.png|G2 Esports EU LCS 2017 Spring Roster
+G2 Esports Roster 2018 Spring.png|G2 Esports' 2018 EU LCS Spring Roster
+G2 Esports Worlds 2018 Roster.jpg|G2 Esports' Worlds 2018 Roster
+G2 2019 Spring.png|G2 Esports' 2019 LEC Spring Roster
+G2 Worlds 2019.png|G2 Esports' 2019 LEC Summer/Worlds 2019 Roster
+G2 2020 Spring.png|G2 Esports' 2020 LEC Spring Roster
+G2 2020 Summer.png|G2 Esports' 2020 LEC Summer Roster
+G2 Worlds 2020.png|G2 Esports' Worlds 2020 Roster
+G2 2021 Spring.png|G2 Esports' 2021 LEC Spring Roster
+G2 2022 Spring.png|G2 Esports' 2022 LEC Spring Roster
+G2 2023 SPRING.png|G2 Esports' 2023 LEC Spring Roster
+G2 Esports 2025 Winter.jpeg|G2 Esports' 2025 LEC Winter
+</gallery>
+
+==References==
+<references />

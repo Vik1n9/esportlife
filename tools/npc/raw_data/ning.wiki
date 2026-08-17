@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ning&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.043Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ning」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ning
+|name=Gao Zhen-Ning
+|nativename=高振宁
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1998
+|birth_date_month=March
+|birth_date_day=12
+|favchamp=Kayn
+|favchamp2=Camille
+|favchamp3=Zac
+|favchamp4=Lee Sin
+|checkbox1=Yes
+|checkboxComp=No
+|ids='''CN''': xxxqqqqzzz<br>'''KR:''' 좀 재미 있어 요<br>'''EUW:''' EhUeLOhmcNaJqu7l
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/980312
+|weibo=https://weibo.com/n/高振宁_Ning
+|lolpros=https://lolpros.gg/player/ning/
+|deeplol=https://www.deeplol.gg/pro/Ning
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|nicknames=宁神
+}}
+==Biography==
+
+Ning joined [[Young Miracles]] in January of 2016 initially as an ADC before later transitioning into a jungler. He would finish 2nd in the LSPL three splits in a row with the team. In May of 2017 he moved to [[Invictus Gaming]] as their new jungler. The team's [[LPL/2017_Season/Summer_Season|summer season]] was similar to their spring season and they finished 3rd with a 10-6 record. They did much better in the [[LPL/2017_Season/Summer_Playoffs|playoffs]] and finished 3rd with a victory over Team WE in the third place match. IG then participated in the [[2017 Season China Regional Finals]] but failed to make it to Worlds after Team WE got their revenge against them and beat them 3-2.
+
+=== 2018 Season === 
+Ning and iG kick-started their season with a 3rd place finish in the [[Demacia Championship/2017 Season|Demacia Championship]], losing 2-1 to [[Snake Esports]] in the loser's semifinal. Just two weeks later saw the start of the [[LPL/2018 Season/Spring Season|LPL Spring Season]]. Despite a regular season series record of 18-1, with their only loss being against [[Royal Never Give Up]], this did not translate into success in the [[LPL/2018 Season/Spring Playoffs|Spring Playoffs]]. Invictus Gaming were defeated 3-2 by RNG in the semifinals, this being followed by a 3-1 loss at the hands of [[Rogue Warriors]] in the third-place match. Although their performance could be considered a disappointment, their placement secured them a spot at [[Rift Rivals 2018/LCK-LPL-LMS|Rift Rivals 2018]].
+
+A 3rd place finish in the [[Demacia Cup/2018 Summer|Demacia Cup]], this time losing to [[Bilibili Gaming]] in the loser's semifinal, was followed by a successful showing at Rift Rivals. Ning and the team won both of their group stage games, helping the LPL to an eventual triumph over the LCK in the final. Invictus Gaming once again achieved an 18-1 regular season record in the [[LPL/2018 Season/Summer Season|LPL Summer Season]], their sole loss again to RNG. Despite the similarity of the year's regular season performances, a successful showing in the [[LPL/2018 Season/Summer Playoffs|Summer Playoffs]], finishing runner-up to Royal Never Give Up after a tight 3-2 series, resulted in the team's qualification to the [[2018 Season World Championship]] on [[2018 Season/Championship Points/China|points]].
+
+Invictus Gaming was placed in Group D for Worlds 2018, alongside [[Fnatic]], [[100 Thieves]], and [[G-Rex]]. The group stage round robin concluded with iG and Fnatic tied for 1st place at 5-1. The tiebreaker went in the favor of Fnatic, resulting in Ning and the team being drawn against [[KT Rolster]] in the quarterfinals. A tense affair saw iG emerge victorious 3-2 and progress to the semifinals where they met [[G2 Esports]]. A more straightforward 3-0 series secured them a place in the finals. Awaiting their challenge were Group D counterparts, Fnatic. Invictus Gaming's convincing performance in the finals resulted in a 3-0 victory, and made them the first Chinese team to win a World Championship. Ning is named the 2018 World Championship Finals MVP.
+
+=== 2019 Season ===
+Ning and iG started the season with a strong showing in the LPL, placing 2nd in the [[LPL/2019 Season/Spring Season|LPL Spring Season]] en route to their first domestic win in the organization's history. Ning and iG win 3-0 against [[JD Gaming]] in the finals, qualifying iG for the [[2019 Mid-Season Invitational]].
+
+== Trivia ==
+* His ID '''Ning''' is based on his real given name (Zhen-Ning).
+* Known for his {{ci|Kayn}} .
+** The first player to pick {{ci|Kayn}} in the LPL.
+* Known for his stellar performance with {{ci|Camille}} during [[2018 Season World Championship]].
+* Was the Finals MVP of the [[2018 Season World Championship/Main Event|2018 World Championship]].
+* Reached 1000 kills in the LPL on June 12, 2023.
+** The 40th player and 6th jungler (after [[Clearlove]], [[SofM]], [[Karsa]], [[Tian]], and [[Kanavi]]) to reach 1000 kills in the LPL.
+* Known for his hobby of collecting sneakers.
+** Sometimes his fans asked him for advice on buying sneakers during his stream.
+** Often memed by his fans that he has a wider sneaker pool than champion pool.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

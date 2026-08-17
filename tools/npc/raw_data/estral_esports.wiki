@@ -1,0 +1,183 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Estral%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.116Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Estral Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= Estral Esports
+|orgcountry= Mexico
+|country= Brazil
+|region=Brazil
+|sponsor= [https://loftytcg.com Lofty TCG]
+|image= Estral Esportslogo profile.png
+|partner= [https://www.estral.com.mx ESTRAL]
+|owner= Arturo "'''Tucky'''" Gonzalez
+|headcoach= Roberto "{{bl|Snok}}" Coello
+|website= https://www.estral.gg
+|youtube= https://www.youtube.com/@Estral_Esports
+|facebook= https://www.facebook.com/EstralEsports
+|twitter= EstralEsports__
+|instagram= estralesports
+|stream= 
+|discord= https://discord.com/invite/HjAfv5zUZW
+|tiktok= estralesports
+|created= Organization 2019-05-15 <br> LoL Division 2019-05-19
+|disbanded= 
+|rosterphoto=
+|otherwikis= Valorant, Gears of War
+}}{{TOCRWI}}
+
+'''Estral Esports''' is a Latin American team founded in March 2019 by warehouse management system company [https://www.estral.com.mx/ ESTRAL].
+
+== History ==
+
+=== Early Years and LLA Ascension (2019–2023) ===
+Estral Esports began its journey in May 2019 by acquiring the spot of the first champions from the [[Circuito Nacional México/2019 Season/Opening Season|Circuito Nacional México]], LanTV, after they got their promotion to the [[División de Honor]]. After achieving a "three-peat" as national champions and winning the [[Regional Norte 2020]], the organization joined the [[LLA|Liga Latinoamérica]] in 2021 by acquiring the spot of [[Pixel Esports Club]].<ref>[https://www.youtube.com/watch?v=tf-sSX6i8ms Detalles de la llegada de Estral a nuestra LLA (Spanish)] ''youtube.com''</ref> 
+
+During their first three years in the LLA, Estral established itself as a premier contender, consistently reaching grand finals in the [[LLA/2021 Season/Closing Season|2021 Closing]], [[LLA/2022 Season/Opening Season|2022 Opening]], and [[LLA/2023 Season/Closing Season|2023 Closing]] splits. Despite multiple runner-up finishes, they fostered one of the largest fanbases in the region.
+
+=== The Isurus Partnership and LTA Era (2024–2025) ===
+After several years of contention, Estral finally claimed their first regional title during the [[LLA/2024 Season/Opening Season|2024 Opening Season]], defeating [[Movistar R7]] and representing Latin America at [[MSI 2024]].<ref>[https://lolesports.com/article/medallero-hist-rico-en-latinoam-rica/blt92678f1a0ecf8cf6 Medallero histórico en Latinoamérica (Spanish)] ''lolesports.com''</ref>
+
+In late 2024, following the restructuring of the American competitive scene into the [[LTA|League of the Americas]], Estral Esports announced a strategic merger with the legendary Argentine organization, [[Isurus]]. Competing as '''[[Isurus Estral]]''' during the 2025 season, the partnership combined the historical legacy of both clubs. However, in June 2025, the organizations announced a mutual agreement to end the partnership. Isurus retained the slot in the [[LTA South]], while Estral Esports began looking toward a new international chapter.<ref>[https://x.com/EstralEsports__/status/1855036259036549609 Isurus and Estral Esports Partnership Announcement.] ''x.com''</ref>
+
+=== Migration to Brazil and Tier 3 Run (2026–Present) ===
+Following the split from Isurus, Estral Esports shifted its focus toward the Brazilian region. For the 2026 season, the organization actively sought a franchise spot in the newly independent [[CBLOL/2026 Season|CBLOL 2026]]. After failing to secure a direct slot in the top flight, the management decided to build a path from the ground up by entering the Brazilian Tier 3 scene.
+
+Operating with a high-performance facility in Brazil, Estral competed in the [[Circuito Desafiante/2026 Season/Split 1 Qualifier|2026 Circuito Desafiante Open Qualifier]]. The team achieved a perfect run, winning every single match of the tournament without a loss. This undefeated performance secured their promotion to the [[Circuito Desafiante/2026 Season/Split 1|CD 2026]], where they currently compete with the goal of reaching the CBLOL through the promotion/relegation system.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Tucky|mx|Arturo Gonzalez|'''Co-Founder, Owner, & CEO'''}}
+{{Listplayer|Jerry (Gerardo Gonzalez)|mx|Gerardo Gonzalez|'''Co-Founder, Co-Owner, & CEO'''}}
+{{listplayer|Eduardo|mx|José Eduardo Morales Cisneros|'''Esports Director'''}}
+{{listplayersp|Java|mx|Javier Villareal|'''General Manager'''}}
+{{listplayersp|Shinokami Kuro|mx||'''Community Manager'''}} 
+{{listplayersp|Adonys|ec|Adonys Briones|'''Social Media Manager'''}} 
+{{listplayer|Snok|sv|Roberto Coello|'''Head Coach'''}}
+{{listplayersp|Sterlinking|mx|Victor Nuñez|'''Head Analyst'''}}
+{{listplayersp|Uma|mx|Uma Fournier|'''Assistant Analyst'''}}
+{{listplayer|Shintalx|mx|Alejandro Quintanilla|'''Content Creator'''}}
+{{listplayersp|JimRising|mx|Jaime Durán|'''Content Creator'''}}
+{{listplayersp|Macdemac|ar|Rocío Barcia|'''Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Relámpago del Fandub|mx|Esequiel Ortiz|'''Illustrator'''|newteam=none}}
+{{listplayersp|AlexaDiamond|mx|Alexa Rivas|'''Illustrator'''|newteam=none}}
+{{listplayersp|Byako|colombia|Jonathan Adrian|'''Graphic Designer'''|newteam=none}}
+{{listplayersp||mx|Elizabeth Ramirez|'''Production Assistant'''|newteam=none}}
+{{listplayersp||mx|Ivan Guzmán|'''Business Development Manager'''|newteam=none}}
+{{listplayer|Yang (Yang Gwang-pyo)|kr|Yang Gwang-pyo (양광표)|'''Analyst'''|newteam=none}}
+{{listplayer|Snok|sv|Roberto Coello|'''Head Coach'''|newteam=pain gaming}}
+{{listplayer|Eduardo|mx|José Eduardo Morales Cisneros|'''Esports Director'''|newteam=c9}}
+{{Listplayer|Jerry (Gerardo Gonzalez)|mx|Gerardo Gonzalez|'''Co-Founder, Co-Owner, & CEO'''|newteam=EST}}
+{{listplayersp|Tuki|ar||'''Video Editor'''|newteam=ISG}}
+{{listplayersp|Ploms|mx|Jorge Nuñez|'''Stylist'''|newteam=none}}
+{{listplayersp|Parcamex|mx|Marcos Briseño|'''Filmmaker'''|newteam=none}}
+{{listplayersp|Gomz|mx|Carlos Gómez|'''Video Editor'''|newteam=none}}
+{{listplayer|Jonte|kr|Cho Hyeon-tae (조현태)|'''Player Manager'''|newteam=none}}
+{{listplayer|Legion (Jorge Valencia)|mx|Jorge Valencia|'''Chief Operating Officer'''|newteam=LYON (2024 American Team)}}
+{{listplayer|Shintalx|mx|Alejandro Quintanilla|'''Streamer & Content Creator'''|newteam=IE}}
+{{listplayersp|JimRising|mx|Jaime Durán|'''Streamer & Content Creator'''|newteam=IE}}
+{{listplayersp|JulyJinku|mx|Julia Salinas|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Skinny|co|Valentina Duarte|'''Streamer & Content Creator'''|newteam=IE}}
+{{listplayersp|Macdemac|ar|Rocío Barcia|'''Streamer & Content Creator'''|newteam=IE}}
+{{listplayer|Kiara (Kiara Nailea)|ar|Kiara Nailea|'''Streamer & Content Creator'''|newteam=ODD Wara}}
+{{listplayer|Snok|sv|Roberto Coello|'''Head Coach'''|newteam=Leviatan}}
+{{listplayer|Leon (Kevinn León)|mx|Kevinn Leon|'''Strategic Coach'''|newteam=FUE}}
+{{listplayer|sBs|kr|Bae Ji-hun (배지훈)|'''Positional Coach'''|newteam=none}}
+{{listplayer|Eduardo|mx|Jose Eduardo Morales|'''Coach'''|newteam=IE}}
+{{listplayer|Gankkkk|ar|Andrés Castro|'''Coach'''|newteam=Leviatan}}
+{{listplayersp|Sterlinking|mx|Victor Nuñez|'''Analyst'''|newteam=IE}}
+{{listplayersp||mx|Zurisadai Colin|'''Photography Director'''|newteam=none}}
+{{listplayersp|Feryfer|mx|Fernanda Conde|'''Streamer & Content Creator'''|newteam=R7}}
+{{listplayersp|SRAXOLOTL|mx|Guillermo Fernando|'''Ilustrator & Assistant Designer'''|newteam=none}}
+{{listplayersp||mx|Juan Francisco Anaya|'''Designer'''|newteam=none}}
+{{listplayersp|Vickytory|mx|Victoria Jean|'''Illustrator'''|newteam=none}}
+{{listplayersp|Emma|ar|Emanuel Alexander|'''Illustrator'''|newteam=none}}
+{{listplayersp|Coca|ar|Lucas Saravia|'''Streamer & Content Creator'''|newteam=retired}}
+{{listplayer|Gaeng|kr|Yang Gwang-woo (양광우)|'''Positional Coach'''|newteam=Sengoku Gaming}}
+{{listplayer|Yang (Yang Gwang-pyo)|kr|Yang Gwang-pyo (양광표)|'''Head Coach'''|newteam=Sengoku Gaming}}
+{{listplayersp|PsyGabi|es|Gabriel Soto|'''Psychologyst'''|newteam=none}}
+{{listplayersp|Bailanubes|mx|Samantha Nicole|'''Head Designer'''|newteam=Riot}}
+{{listplayer|imOdraude|mx|Jose Eduardo Morales|'''Assistant Coach'''|newteam=EST}}
+{{listplayer|LJ|kr|Kang Dae-hee (강대희)|'''Positional Coach'''|newteam=Z10}}
+{{listplayersp|Sterlinking|mx|Victor Nuñez|'''Head Analyst'''|newteam=EST}}
+{{listplayer|Autoboost|mx|Fausto Orlando Coronado|'''Positional Coach'''|newteam=AZE}}
+{{listplayer|Legion (Jorge Valencia)|mx|Jorge Valencia|'''Chief Operating Officer'''|newteam=EST}}
+{{listplayer|PR1D3|mx|Kevinn León|'''Strategic Coach'''|newteam=2MR}}
+{{listplayersp|Kendos|mx|Oscar Adrian|'''Executive Assistant'''|newteam=Retired}}
+{{listplayersp|Dave|mx|David Arturo|'''Filmmaker'''|newteam=Retired}}
+{{listplayersp|Defroster|mx|Antonio Diaz|'''Marketing Manager'''|newteam=Atheris}}
+{{listplayer|Reven (Seong Sang-hyeon)|kr|Seong Sang-hyeon (성상현)|'''Head Coach'''|newteam=C9}}
+{{listplayer|ScrappyDoo|es|Alberto Yañez|'''Head Coach'''|newteam=UCAM EC}}
+{{listplayersp|PitDeBaron|mx|Román Esaú|'''Graphic Designer'''|newteam=retired}}
+{{listplayersp|Shailen|es|José Galoz|'''Coach'''|newteam=retired}}
+{{listplayersp|Ganems|mx|Roberto Ganem|'''Sports Director & General Manager'''|newteam=Globant}}
+{{listplayersp|Nickysos|mx|Alexa Sosa|'''Marketing Manager'''|newteam=retired}}
+{{listplayersp|David|mx|David Lopez|'''Content Manager'''|newteam=retired}}
+{{listplayer|ukFallen|mx|Carlos Calderón|'''Head Coach'''|newteam=AZE}}
+{{listplayer|Soren (Carlos Ibarra)|mx|Carlos Ibarra|'''Head Coach'''|newteam=The Kings}}
+{{listplayersp|Estus|mx|Jonathan Nar|'''Marketing Manager'''|newteam=retired}}
+{{listplayer|Rohclem|mx|Luis Melchor|'''Head Coach'''|newteam=INF.A}}
+{{listplayersp|KDB|mx|Bernardo Cordova Fernandez|'''Head Analyst'''|newteam=retired}}
+{{listplayer|Alonchito|pe|Alonso García Soto|'''Head Coach'''|newteam=retired}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+=== Logos ===
+<gallery>
+Estral Esports Old Logo.png|Previous Logo (May 2019-May 2020)
+</gallery>
+
+=== Jerseys ===
+<gallery>
+Estral Esports 2023 Jersey.png|EST 2023 Jersey
+</gallery>
+
+=== Rosters ===
+<gallery>
+Estral Esports 2019 Closing.jpg|EST 2019 DDH Closing
+Estral Esports 2020 Opening.png|EST 2020 DDH Opening
+Estral Esports 2020 Closing.png|EST 2020 DDH Closing
+Estral Esports 2020 Closing 2.png|EST 2020 Regional Norte
+2021 EST Opening.png|EST 2021 LLA Opening
+Estral Esports 2021 Closing.png|EST 2021 LLA Closing
+Estral Esports 2021 Closing 2.png|EST 2021 LLA Closing with [[Froststrike|FS]]
+2021 EST Closing.png|EST 2021 LLA Closing with [[Grell]]
+Estral Esports 2022 Opening.png|EST 2022 LLA Opening
+Estral Esports 2022 Opening 2.png|EST 2022 LLA Opening with [[Lyg]]
+EST 2022 Closing.png|EST 2022 LLA Closing
+Estral Esports 2022 Closing.png|EST 2022 LLA Closing with [[Kindless]]
+EST_LLA_2023_Opening.png|EST 2023 LLA Opening
+Estral Esports 2023 Opening.png|EST 2023 LLA Opening with [[Poss]]
+Estral Esports 2023 Closing.png|EST 2023 LLA Closing
+Estral Esports 2023 Closing 2.png|EST 2023 LLA Closing with [[Gaeng]]
+Estral Esports 2024 Opening.png|EST 2024 LLA Opening
+Estral Esports 2024 MSI.png|EST 2024 MSI
+Estral Esports 2024 Closing.png|EST 2024 LLA Closing
+Estral Esports LRN 2025 Split 2.jpg|EST 2025 LRN Split 2
+Estral CD 2026 Split 1.png|EST 2026 CD Split 1
+</gallery>
+
+==References==
+<references />

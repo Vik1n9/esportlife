@@ -1,0 +1,120 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=DNK&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.034Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「DNK」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=DNK
+|name=Đỗ Ngọc Khải
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=2001
+|birth_date_month=March
+|birth_date_day=04
+|checkbox1=No
+|checkboxComp=No
+|ids=ˆNDKˆ (VN), DNK01 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.nimo.tv/sbtcdnk
+|facebook=https://www.facebook.com/SecretDNKK
+|youtube=https://www.youtube.com/channel/UCfvxruVJcjATbP8Obh9FpuA
+|fanpage=https://www.facebook.com/SecretDNK1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+=== 2018 Season ===
+Đỗ "'''DNK'''" Ngọc Khải joined [[Friends Forever Gaming]] as a jungler, late in the [[VCS/2018 Season/Spring Season|VCS Spring Season]], only playing two games before the end of the split. 
+
+Despite only playing two games in Spring [[DNK]] became the main jungler in the [[VCS/2018 Season/Summer Season|VCS Summer Season]] sharing the role with [[Venus]] and [[Kriss]], bringing the team to a 2nd place finish with a 10-4 series score, DNK finished the split with a 18-9 game score.
+
+DNK started in the first three games of a 3-1 loss to [[Cube Adonis]] in the [[VCS/2018 Season/Summer Playoffs| VCS 2018 Summer Playoffs]].
+
+=== 2019 Season ===
+In the [[VCS/2019 Season/Spring Season|VCS Spring Season]] DNK took full control of the jungle roles playing all 35 games of the teams 4th place finish.
+
+In the [[VCS/2019 Season/Spring Playoffs| VCS 2019 Spring Playoffs]] [[EVOS Esports]] defeated [[Friends Forever Gaming|FFQ]] in 5 games.
+
+With the introduction of [[Kaiz]] to the newly formed [[Lowkey Esports.Vietnam|Lowkey Esports]] it was thought that [[DNK]] would split time, however [[Kaiz]] would play just one of the teams 32 games from the [[VCS/2019 Season/Summer Season|VCS Summer Season]] where Lowkey would place 3rd with a 9-5 record.
+
+In the [[VCS/2019 Season/Summer Playoffs|VCS 2019 Summer Playoffs]] Lowkey were chosen by [[GAM Esports]] and swept 3-0, in the Losers bracket Lowkey first faced [[Dashing Buffalo]] who they beat 3-0 and then [[Team Flash.Vietnam|Team Flash]] where they won 3-1 to qualify for the [[2019 Season World Championship/Play-In|2019 World Championship Play-In]].
+
+== Trivia ==
+* Known for his ability to smite steal barons in [[VCS 2020 Spring]] and gained the nickname "The VCS's Prince of Thief "
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

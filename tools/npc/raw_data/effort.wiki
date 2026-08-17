@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Effort&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Effort」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Effort
+|name=Lee Sang-ho
+|nativename=이상호
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=November
+|birth_date_day=23
+|favchamp=Rakan
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Liiv Effort<br>'''EUW:''' Spread Wings
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/dltkdgh2000
+|facebook=https://www.facebook.com/dltkdgh00
+|twitter=LSH_Effort
+|instagram=effort_sangho
+|lolpros=https://lolpros.gg/player/effort/
+|deeplol=https://www.deeplol.gg/pro/Effort
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Effort's favorite champion to play is {{ci|Rakan}}. <ref>[https://t1.gg/teams/league-of-legends] ''t1.gg''</ref> 
+* His favorite colour is blue.
+* Is a big fan of the Korean boy band BTS. He is even a member of their fan club, so he has a light stick.
+* Looks up to [[Wolf (Lee Jae-wan)|Wolf]].
+* Is a very calm and quiet player on stream, in contrast to most of his teammates. 
+* Due to his calm and quiet demeanor, it has been often joked about that Effort is actually secretly a robot.
+* The usually blank-faced Effort's smile is said to melt the heart of many fans.
+* Likes Marvel movies. <ref>[https://youtu.be/mS6LGot35mM?t=150 Random Stuff T1 Players Say during Streams <nowiki>[</nowiki>T1 Stream Highlight<nowiki>]</nowiki>] ''youtube.com''</ref> 
+* Promised to dye his hair blue like V from BTS whom he looks up to if T1 won LCK Spring Split in 2020. He fulfilled this promise.<ref>[https://www.youtube.com/watch?v=7pBpUdVvovs&t=17s Effort dyes his hair, T1 Closer slays, and Teddy duos with Lehends] ''youtube.com''</ref> 
+* Watching SKT T1 is the reason Effort dreamed of becoming a pro player, inspired by the SKT Golden Age.<ref>[https://youtu.be/a5J623q0hx8 Effort says he'll dye his hair blue if T1 wins the LCK | Ashley Kang] ''youtube.com''</ref> 
+* Started playing League of Legends in 2013. <ref>[https://youtu.be/a5J623q0hx8 Effort says he'll dye his hair blue if T1 wins the LCK | Ashley Kang] ''youtube.com''</ref>
+* Mutes all emotes (including his teammates') as he thinks they disturb his concentration. <ref>[https://youtu.be/3BGNPWujnB0?t=433 T1 WIN CAM Moments EP.2]</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

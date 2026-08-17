@@ -1,0 +1,61 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cyeol&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.032Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cyeol」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=cyeol
+|name=Yu Chung-yeol
+|nativename=유충열
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|favchamp=Azir
+|checkbox1=No
+|compID1=ch1rchr1
+|compID2=chirchri
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/profile.php?id=100004786116689
+|twitter=RylCyeol
+|lolpros=https://lolpros.gg/player/cyeol/
+|deeplol=https://www.deeplol.gg/pro/cyeol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''ch1rchr1''' and '''chirchri'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

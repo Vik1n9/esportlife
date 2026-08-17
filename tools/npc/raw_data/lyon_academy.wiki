@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LYON%20Academy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.814Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LYON Academy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= LYON Academy
+|orgcountry= mx
+|region=North America
+|sponsor= [https://cinemex.com Cinemex] <br> [https://www.movistar.com Movistar] <br> [https://justtoysintl.com Just Toys] <br> [https://www.logitechg.com Logitech G]
+|partner= [[Movistar R7]] <br> [[Six Karma]]
+<!-- Staff -->
+|headcoach= Antony "{{bl|Razel}}" Mota
+|owner= Carlos "'''Biblos'''" Gibran <br> Ricardo Larrea
+<!-- Social Media -->
+|website=
+|youtube=https://www.youtube.com/channel/UCRWkBnO_Lh_XL2RfDG0BbMQ
+|facebook=https://www.facebook.com/LyonLATAM
+|twitter= LyonLATAM
+|discord=
+|tiktok=lyonlatam
+|instagram=rainbow7lol
+|lolpros=
+|stream= https://www.twitch.tv/lyonlatam
+<!-- History -->
+|created= 2024-11-26
+|disbanded= 
+}}{{TOCRWI}}<!-- To add a logo, see Help:Setting Up Teams. -->
+
+'''LYON Academy''' is the academy team of [[LYON (2024 American Team)|LYON]].
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Biblos|mx|Carlos Gibran|'''Co-Founder, Co-Owner, & Chief Operating Officer'''}}
+{{listplayersp||mx|Ricardo Larrea|'''Co-Founder & Co-Owner'''}}
+{{listplayersp|Reptile|mx|Emanuel Neyra|'''LATAM Operations Manager'''}}
+{{listplayersp|Botty|mx||'''Team Manager'''}}
+{{listplayer|Razel|ve|Antony Mota|'''Head Coach'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|BetaTwinz|mx|Dario Betancourt|'''Strategic Coach'''|newteam=none}}
+{{listplayer|Ktrox|co|Kevin Rivera|'''Head Coach'''|newteam=Tu Papá Esports}}
+{{listplayer|Retzu|co|Ronald Velez|'''Assistant Coach'''|newteam=CORE 128}}
+{{listplayersp|ArkScyther|ve|Eduardo Del Alamo|'''Strategic Coach'''|newteam=none}}
+{{listplayer|Machuc|co|Sebastian Pardo|'''Head Coach'''|newteam=3v Team}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

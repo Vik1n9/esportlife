@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Expession&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.116Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Expession」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Expession
+|name=Koo Bon-taek
+|nativename=구본택
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1992
+|birth_date_month=September
+|birth_date_day=16
+|favchamp=Nidalee
+|favchamp2=Vladimir
+|favchamp3=Irelia
+|favchamp4=Jax
+|checkbox1=No
+|checkboxComp=No
+|ids=vwvwvwwwvvvvwwvw (NA), 나진 엑스페션
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/expessionc
+|facebook=https://www.facebook.com/profile.php?id=100002205071301
+|deeplol=https://www.deeplol.gg/pro/Expession
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Top
+}}
+==Biography==
+===Season 2===
+Koo "'''Expession'''" Bon-taek originally played on [[Team Hunters]] as their top laner during [[Azubu The Champions Spring 2012]]. The team lost both of the games they played and were knocked out in last place. Expession left the team in May of 2012 to join [[NaJin Shield]] as their new top laner. His first tournament with the team was [[Azubu The Champions Summer 2012]] where they placed 3rd in their group and failed to make to to playoffs.
+
+===Season 3===
+The first OGN of the season for Shield was [[OLYMPUS Champions Winter 2012-2013]] and they placed fifth in their group, missing playoffs once again. Shield participated in the [[GIGABYTE StarsWar League/Season 2|GIGABYTE StarsWar League Season 2]] but couldn't make it through the group stage to the bracket stage. They came back to Korea for [[OLYMPUS Champions Spring 2013]], this time making it to playoffs but losing 3-0 to [[SK Telecom T1 2]]. Expession left the team in June of 2013 to join the newly named [[NaJin Black Sword]]. Expession's first tournament with the team was [[HOT6iX Champions Summer 2013]] where they only placed 3rd in their group and could not make it to the bracket stage. Regardless, the team had garnered enough circuit points to qualify directly to the [[Season 3 World Championship]] as the top seed from Korea due to circuit points. They played [[Gambit Gaming]] in the quarterfinals and beat them but they lost in the semifinals 3-2 to the eventual champions [[SK Telecom T1]].
+
+===2014 Season===
+The new season began for Sword at [[PANDORA.TV Champions Winter 2013-2014]], where they placed last in their group and did not make it to the bracket stage. Expession left shortly afterwards due to health reasons.
+
+===2015 Season===
+Expession joined [[Incredible Miracle]] in June of 2015 as one of their top laners alongside [[Apple]] and [[Lilac (Jeon Ho-jin)|Lilac]]. IM placed ninth in the regular season of [[SBENU Champions Summer 2015]] and were forced to play in the [[LCK/2016 Season/Spring Promotion|LCK 2016 Season Spring Promotion]]. Incredible Miracle played the [[Dark Wolves]] in the promotion tournament and managed to beat them 3-1 to requalify for the LCK. 
+
+===2016 Preseason===
+IM competed in the [[2015 LoL KeSPA Cup]] where they lost 2-1 against the [[Jin Air Green Wings]] in the first round. Incredible Miracle rebranded to [[Longzhu]] on January 3, 2016.
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Longzhu played with a 10-man roster, liberally using substitute players. Expession shared play time with fellow top laner [[Flame]]. Longzhu finished the spring split in seventh place with an 8-10 set record, missing out on a spot in the playoffs. Longzhu fared poorly in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 7-11 in sets and netting them eighth place, letting them escape relegations.
+
+===2017 Season===
+On September 17 2017, Expession announced his retirement from pro play on his Facebook page <ref> [https://www.facebook.com/permalink.php?story_fbid=1456184667798355&id=100002205071301&pnref=story] ''www.facebook.com'' </ref>. In his post, Expression stated that, despite a lack of big highlights in his career, he still enjoyed being a pro gamer and had a fantastic time. He thanked everyone on his team that helped him along the when he was still playing. Although he experienced some difficulties when he refused to play League for months, he still appreciated everything that his fans gave to him.
+
+== Trivia ==
+* His favorite champion is {{ci|Irelia}}.<ref>[http://www.thisisgame.com/board/view.php?id=1130632&board=0&category=13735&subcategory=&page=3&best=&searchmode=title&search=&orderby=&token= ''"Team Hunters Interview"'']</ref>
+* Originally wanted his name to be Expression but left off the r and kept it<ref> [https://www.youtube.com/watch?v=PC7k0R5-eHk Closer Look: How they got their names] ''www.youtube.com'' </ref>.
+* Hyped by [[Maknoon]] as being one of the best Top Laners in the world.
+* One of the best {{ci|Jax}} player in the world and got 3 banned by [[Gambit Gaming]] in quarterfinals of S3 World Championship
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

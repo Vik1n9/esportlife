@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kingen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.052Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kingen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kingen
+|name=Hwang Seong-hoon
+|nativename=황성훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=March
+|birth_date_day=11
+|favchamp=Aatrox
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Kingen, 갯벌타워 <br> '''EUW:''' babo123
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/fc5a0a137f6127fe8dacd97cd473b625
+|facebook=https://www.facebook.com/profile.php?id=100028530670694
+|twitter=Kingen0311
+|instagram=sseonghunnnnn
+|videoarchive=https://twitch.tv/hwang6595
+|weibo=https://www.weibo.com/n/DRX_Kingen
+|lolpros=https://lolpros.gg/player/kingen
+|deeplol=https://www.deeplol.gg/pro/Kingen
+|dpmlol=https://dpm.lol/pro/Kingen
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His role model is [[Nuguri]].
+* He is good friends with [[Zeka (Kim Geon-woo)|Zeka]].<ref>[https://youtu.be/3m8Dk2nerfc?si=sQorxsMAjGR9fBnX&t=328] ''youtube.com''</ref>
+* The first player to get his own prestige skin.
+* His name Kingen comes from the japanese word 謹厳 meaning 'stern'.
+* His MBTI is ESTJ.<ref>[https://youtu.be/byLHbKv489U?t=27 킹겐의 50문 50답] ''youtube.com''</ref>
+* He is a fan of Korean-American K-Hip Hop artist and producer TOIL.<ref>[https://youtu.be/byLHbKv489U?t=42 킹겐의 50문 50답] ''youtube.com''</ref>
+* Reached 1000 kills in the LCK on May 23, 2025.
+** The 33rd player to reach 1000 kills in the LCK.
+* Reached 500 games in the LCK on August 09, 2025, becoming the 21st player to do so.
+
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* LCK 3rd All-Pro Team x2 (Spring 2021, Summer 2024)
+* Worlds Finals MVP x1 (2022)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

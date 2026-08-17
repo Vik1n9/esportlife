@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cody&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.324Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「cody」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=cody
+|name=Cristian&nbsp;Sebastián Quispe Yampara
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil
+|birth_date_year=2001
+|birth_date_month=October
+|birth_date_day=23
+|favchamp=Azir
+|favchamp2=Cassiopeia
+|favchamp3=Orianna
+|favchamp4=Syndra
+|checkbox1=Yes
+|favchamp5=Zoe
+|compID1=SandeR
+|checkboxComp=No
+|ids='''LAS''': Rakyzz<br>CodyStark<br>LEV guonejo<br>'''NA''': codystar<br>'''EUW''': RPJIQTRD, kníght zz <br> '''KR''': askel#asd<br> '''BR''': sebaqwerty#asd
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/1c0dy
+|twitter=Codyei3
+|instagram=onecodyy
+|lolpros=https://lolpros.gg/player/cody
+|deeplol=https://www.deeplol.gg/pro/cody
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''SandeR'''.
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Cristian Sebastian Quispe Yampara is from Arica, Chile.
+
+=== 2016 Season===
+His debut was in [[Eternals Gaming]] as a substitute Mid participating in minor tournaments, the march of that year leaves the team.
+
+In March he joins [[Berserk e-Sports]] as Mid Laner participating in minor tournaments, in November of that year he leaves the team.
+
+=== 2017 Season===
+At the end of the year he joined [[Novus Tempus]] as Mid Laner participating in minor tournaments, leaving the team in November of that year.
+
+=== 2018 Season===
+At the beginning of the year he joins [[No Tenemos Nada]] as Mid Laner participating in the [[Circuito Nacional Argentina/2018 Season/Opening Season|2018 CNA Opening Season]] where the team was first in the tournament qualifying to the next phase. At the end of the tournament [[No Tenemos Nada]] is bought by [[Valorous]]. Already in the Playoffs the team was fourth in the tournament losing against [[Undead Gaming]] 2,0 , at the end of the tournament leaves the team.
+
+In the middle of the year he joins [[Andes Esports]] as Mid Laner participating in [[Circuito Nacional Chile/2018 Season/Closing Season|2018 CNC Closing Season]] where the team was first in the tournament, qualifying to the next phase. Already in the Playoffs the team was third in the tournament losing against [[Universidad Católica Esports|UC Esports]] 2-3. At the end of the tournament he leaves the team.
+
+=== 2019 Season===
+At the beginning of the year he returns to [[Valorous]] as Mid Laner participating in the [[LHE 2019 Opening]] where the team was sixth in the tournament, qualifying to the next phase. Already in the [[LHE 2019 Opening Playoffs]] the team was third in the tournament losing against [[Azules Esports]] 0-1, at the end of the tournament he leaves the team due to problems with the organization.
+
+In the middle of the year he joins [[Azules Esports]] as Mid Laner participating in the [[LHE 2019 Closing]] where the team was first in the tournament, qualifying to the next phase. Already in the [[LHE 2019 Closing Playoffs]] the team reaches the final facing [[Rebirth eSports]] winning 3-1, being for the first time champion, qualifying to the next phase. Already in the [[Regional Sur 2019]] the team reaches the final facing [[9z Team]] winning 3-1, qualifying to the next phase. Already in [[LLA 2020 Opening Promotion]] the team faces [[Kaos Latin Gamers]] winning 3-2, ascending to the LLA.
+
+== Trivia ==
+* Started to play the game by the end of Season 4.
+* Reached Challenger Rank 1 in LAS server with just 15 years old.
+* Was one of the best players in the [[Circuito Nacional Argentina/2018 Season/Opening Season|Circuito Nacional Argentina]]. Casters and fans loved him because of his skills.
+** He also [http://clips.twitch.tv/PreciousBrainyPterodactylTooSpicy got a pentakill] with {{ci|Azir}} against [[Coscu Army]] in game 2 of the [[Circuito Nacional Argentina/2018 Season/Opening Season/Tournament 3|CNA Tournament 3]] finals.
+* Reached Challenger Rank 1 in NA server at Season 10.
+* Was nicknamed "La Farsa" by [[Absolut]] as a pun with [[Faker]]'s IGN in Spanish.<ref>[https://x.com/Absoluttlol/status/1883245934416625731 Absolut's X Post] ''x.com''</ref>
+
+=== Individual Awards ===
+* LLA All Pro Team (Closing 2021)
+* LLA Most Valuable Player (Closing 2021)
+* LLA Most Improved Player (Closing 2021)
+* LLA player with the most MVPs in the split (Closing 2020)
+* LLA Most Weekly MVPs in his role in the split (Closing 2020)
+* LLA Outstanding Rookie (Opening 2020)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

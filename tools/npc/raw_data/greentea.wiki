@@ -1,0 +1,136 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=GreenTea&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.576Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GreenTea」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=GreenTea
+|name=Tsai Shang-Ching
+|nativename=蔡尚精
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1991
+|birth_date_month=April
+|birth_date_day=24
+|favchamp=Thresh
+|favchamp2=Sona
+|checkbox1=No
+|checkboxComp=No
+|ids=ahq_GreenTea, EpicGear, 輔助CARRY的世界 (TW), ahq GreenTea (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|teamhist1=SteelSeries WIE
+|teamdate1=May 2012 - Sep 2012
+|teamrole1=Support
+|issub1=No
+|istrainee1=No
+|teamhist2=ahq e-Sports Club
+|teamdate2=Sep 2012 - Apr 2015
+|teamrole2=Support
+|issub2=No
+|istrainee2=No
+|teamhist3=ahq e-Sports Club
+|teamdate3=Apr 2015 - Jan 2016
+|teamrole3=Support
+|issub3=Yes
+|istrainee3=No
+|teamhist4=ahq e-Sports Club
+|teamdate4=Jan 2016 - Nov 2017
+|teamrole4=Analyst
+|issub4=No
+|istrainee4=No
+|teamhist5=MAD Team
+|teamdate5=Nov 2017 - Dec 2018
+|teamrole5=Coach
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=RNG
+|teamdate6=Dec 2018 - Dec 2019
+|teamrole6=Coach
+|issub6=No
+|istrainee6=No
+|teamhist7=ahq eSports Club
+|teamdate7=Dec 2019 - Oct 2020
+|teamrole7=Coach
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/greentea
+|facebook=https://www.facebook.com/GreenTeaLOL
+|sponsor=[http://www.epicgear.com/‎ EpicGear]
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''Greentea''' and '''Green Tea'''.
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Analyst
+|prev2=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=廣播, 綠茶
+}}
+==Biography==
+
+== Trivia ==
+* Was a well known {{ci|Thresh}} and {{ci|Blitzcrank}} player during his time with [[ahq e-Sports Club]].
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,99 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Samsung%20Blue&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.242Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Samsung Blue」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isdisbanded=yes
+|name= Samsung Blue
+|organization=Samsung (Organization)
+|orgcountry= South Korea  
+|country=
+|region= KR
+|coaches=
+|manager= 
+|captain= 
+|website=
+|youtube=
+|facebook=
+|twitter=
+|irc=
+|sponsor=[http://www.samsung.co.kr/ Samsung]<br> [http://www.ozonegaming.com Ozone]<br>[http://www.lottechilsung.co.kr/main/main.jsp HOT6]
+|created= LoL Division 2013-09-07
+|disbanded=2014-11-28
+|trades=
+}}{{TOCRWI}}
+
+'''Samsung Blue''' is a Korean League of Legends team sponsored by Samsung Electronics. It was formerly known as [[MVP Blue]].
+
+== History ==
+===Season 3===
+In September of 2013, [[MVP Blue]] was picked up by the Samsung Organization to form '''Samsung Blue'''. The roster consisted of [[Cheonju]], [[Spirit]], [[easyhoon]], [[Deft]], [[Sense]], [[FLahm]], and [[SuNo]]
+
+===2014 Season===
+Samsung Blue first gained recognition when they defeated [[SK Telecom T1 K|SK Telecom T1]] 2-0 in the semifinals of the [[2013 World Cyber Games/Qualifiers/Korea|2013 WCG Qualifiers]]. However they lost in the finals 2-1 to [[CJ Entus Blaze]]. Blue continued their success in the 2014 when they made it out of groups at [[PANDORA.TV Champions Winter 2013-2014]]. They then ran into the undefeated SK Telecom T1 K and were knocked out of the tournament 3-0 by them. However, Blue truly made their mark when they defeated [[NaJin White Shield]] 3-1 in the finals of [[HOT6iX Champions Spring 2014]] to bring Samsung its first OGN victory. Blue's hot streak continued at [[HOT6iX Champions Summer 2014]] but this time falling in the finals 3-2 to the [[KT Rolster Arrows]]. The team's strong season granted them the top Korean seed to the [[2014 Season World Championship]]. Blue was one of the favorites coming into Worlds but their sister team, [[Samsung White]], knocked them out 3-0 in the semifinals of the tournament. Due to changes in the OGN rules, White and Blue merged to form [[Samsung]] but none of the former players returned.
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:SSB 2014.jpg|thumb|no-link=true|400px|right|Samsung Blue's [[2014 Season World Championship]] Roster<br> Left to Right: Gamsu, Spirit, Deft, dade, Acorn, Heart]]
+[[File:SG Blue 2014 OGN Summer.jpg|thumb|no-link=true|401px|right|Samsung Blue OGN Summer 2014 Lineup]]
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+!Next Team
+{{listplayersp|Choi|kr|Choi Yoon-sang (최윤상)|'''Head Coach'''|newteam=2144 Gaming}}
+{{listplayer|BanBazi|kr|Choi Myeong-won (최명원)|'''Coach'''|newteam=Qiao Gu Reapers}}
+{{listplayer|DoGGi|kr|Choi Woo-beom (최우범)|'''Coach'''|newteam=samsung galaxy}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+== Images ==
+<gallery>
+SG Blue OGN Spring 2014.jpg|Samsung Blue OGN Spring 2014 Lineup
+</gallery>
+
+==Interviews==
+===2014===
+* May 24 - [http://www.inven.co.kr/webzine/news/?news=110638&site=lol "다음 목표는 롤드컵!" 삼성 블루 감독-선수단 인터뷰 (Korean)] [http://www.paravine.com/ogn-spring-2014-winners-interview/ (English)] ''with Inven''
+* September 19 - [https://www.youtube.com/watch?v=3BjlqujZXBE LoL 2014 World Championship Interview - Yoon Sang Choi (SAMSUNG Head coach) (video)] ''with OGN Global''
+
+==Articles==
+===2014===
+* September 12 - [http://na.lolesports.com/articles/breaking-down-group-c Breaking down Group C] - ''from [http://lolesports.com LoL Esports]''
+* September 12 - [http://cloth5.com/samsung-blue-all-aboard-hype-train/ World Championship Preview: Samsung Blue – All Aboard the Hype-Train (Group C)] - ''from [http://cloth5.com Cloth5]''
+* September 23 - [http://content.azubu.tv/moba/league-of-legends/league-legends-world-championship-preview-group-c/ League of Legends World Championship Preview – Group C] - ''from [http://content.azubu.tv Azubu]''
+* September 23 - [http://ggchronicle.com/season-four-world-championship-preview-samsung-blue/ Season Four World Championship Preview: Samsung Blue] - ''from [http://ggchronicle.com/ ggChronicle]''
+* October 2 - [http://cloth5.com/worlds-group-c-statistics-numbers-behind-group-death/ Worlds Group C Statistics: The Numbers Behind the Group of Death] - ''from [http://cloth5.com Cloth5]''
+* October 2 - [http://content.azubu.tv/moba/league-of-legends/pick-side-samsung-blue-vs-cloud9/ Pick a Side – Samsung Blue vs Cloud9] - ''from [http://content.azubu.tv Azubu]''
+* October 4 - [http://www.dailydot.com/esports/riot-world-championships-cloud9-samsung-blue/ Samsung Galaxy Blue survive scrappy Cloud9 to reach semifinals at Worlds]  - ''from [http://dailydot.com The Daily Dot]''
+* October 9 - [http://content.azubu.tv/moba/league-of-legends/samsung-blue-vs-samsung-white/ Pick a Side: Semi-Finals – Samsung Blue vs Samsung White] - ''from [http://content.azubu.tv Azubu]''
+* October 10 - [http://na.lolesports.com/articles/hype-vs-trophies-battle-samsungs Hype vs. Trophies: The Battle of Samsungs] - ''from [http://lolesports.com LoL eSports]''
+* October 11 - [http://na.lolesports.com/articles/samsung-white-routs-samsung-blue-semifinal Samsung White routs Samsung Blue in the Semifinal] - ''from [http://lolesports.com LoL eSports]''
+* October 25 - [http://www.paravine.com/2014/10/samsung-galaxy-brotherhood/ Samsung Galaxy Brotherhood: A Celebration of the Two-Team System] - ''from [http://www.paravine.com Paravine]''
+
+==Videos==
+===2014===
+* October 10 - [http://content.azubu.tv/moba/league-of-legends/2014-world-championships-look-back-samsung-blue/ 2014 World Championships: A Look Back at Samsung Blue] - ''with [http://content.azubu.tv Azubu]''
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />
+
+<br>

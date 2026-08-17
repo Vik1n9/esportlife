@@ -1,0 +1,64 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Chippys&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.570Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Chippys」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Chippys
+|name=Ryan Short
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=New Zealand
+|residency=PCS
+|birth_date_month=December
+|birth_date_day=20
+|favchamp=Irelia
+|favchamp2=Lucian
+|checkbox1=No
+|checkboxComp=No
+|ids='''OCE:''' Chippys Fighto<br>'''NA:''' Chippys, MASSGAINER44
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=chippysOCE
+|youtube=https://www.youtube.com/@CoachChippys
+|deeplol=https://www.deeplol.gg/pro/Chippys
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=Fighto
+}}
+==Biography==
+
+== Trivia ==
+* Enjoys anime.
+* Has a pet lamb.
+* Favorite colour is orange.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

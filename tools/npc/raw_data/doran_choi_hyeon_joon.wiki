@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Doran%20(Choi%20Hyeon-joon)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.405Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Doran (Choi Hyeon-joon)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Doran
+|name=Choi Hyeon-joon
+|nativename=최현준
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=July
+|birth_date_day=22
+|favchamp=Kled
+|favchamp2=Aatrox
+|favchamp3=Gnar
+|favchamp4=K'Sante
+|checkbox1=Yes
+|favchamp5=Jax
+|favchamp6=Renekton
+|favchamp7=Gwen
+|checkboxComp=No
+|ids='''KR:''' 어리고싶다#KR1<br>'''CN:''' DoranPyosikDUO<br>'''EUW:''' HLE TOP#1234 <br> '''NA:''' TOPTOPTOP#1234
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/choi15778
+|twitter=doran_choi
+|instagram=choi_doran
+|weibo=https://weibo.com/u/7730332499
+|lolpros=https://lolpros.gg/player/doran/
+|deeplol=https://www.deeplol.gg/pro/Doran-Choi_Hyeon-joon
+|dpmlol=https://dpm.lol/pro/Doran
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|favchamp8=Yorick
+|favchamp9=Ambessa
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+== Biography ==
+
+== Trivia ==
+* Nicknamed "The Krug Lord" by the viewers after dying to Krugs against KT in LCK 2025 Road to MSI.
+* Received a pet Krug during MSI 2025.
+* His ID '''Doran''' comes from his solo queue ID (돌잔치때도란잡음).
+* Reached 1000 LCK kills on August 3rd, 2023
+** Was the 26th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], [[Aiming]], [[Rascal]], [[deokdam]], [[Canyon]], [[Cuzz]], [[Viper (Park Do-hyeon)|Viper]] and [[Gumayusi]]
+** The fourth top laner (after [[Smeb]], [[Kiin]] and [[Rascal]]) to reach 1000 kills in the LCK
+* Reached 1500 LCK kills on August 7th, 2025
+** Was the 18th player to reach 1500 kills in the LCK.
+** The second top laner after [[Kiin]] to reach 1500 kills in the LCK.
+* Reached 300 wins in [[LCK]] on March 21st, 2024, becoming the 17th player to do so.
+* Reached 400 wins in [[LCK]] on September 18, 2025, becoming the 12th player to do so.
+* Reached 500 games in [[LCK]] on July 25, 2024, becoming the 18th player to do so.
+**  Was the third top laner to reach 500 games in the LCK.
+* Reached 600 games in [[LCK]] on August 27, 2025, becoming the 15th player to do so.
+* Reached 3000 assists in the LCK on May 02, 2025.
+** Was the 20th player to reach 3000 assists in the LCK.
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* LCK 2nd All-Pro Team x4 (Summer 2022, Summer 2023, Summer 2024, LCK 2025)
+* LCK 3rd All-Pro Team x3 (Spring 2020, Spring 2023, Spring 2024)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

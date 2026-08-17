@@ -1,0 +1,138 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MAD%20Lions%20KOI&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.876Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MAD Lions」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team |isrenamed=Movistar KOI
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= MAD Lions KOI
+|orgcountry= Spain
+|country= 
+|foundedcountry= 
+|region= EMEA
+|partner= [https://www.overactivemedia.com OverActive Media]
+|image=MAD Lionslogo profile.png
+<!-- Staff -->
+|headcoach=
+|owner= [[Ibai|Ibai Llanos]]<br>[[wikipedia:Gerard Piqué|Gerard Piqué]] <br> Fernando "'''Piquer'''" Piquer 
+<!-- Social Media -->
+|website= https://madlions.com
+|youtube= https://www.youtube.com/channel/UC30f1UTFNXfcGcrsojwOpSw
+|facebook= 
+|twitter= MADLionsKOI_en
+|discord= https://discord.gg/madlions
+|snapchat= 
+|instagram= madlions_en
+|tiktok= madlions
+|irc= 
+|lolpros= https://lolpros.gg/team/mad-lions-koi
+<!-- History -->
+|created= LEC Team 2019-11-29
+|disbanded= 
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,fifa
+}}{{TOCRWI}}
+
+'''MAD Lions KOI''' is a Spanish team. They were previously known as '''MAD Lions''' and [[Splyce]]. For the [[LVP SLO]] team that went by the same name, later known as [[MAD Lions Madrid]], see [[MAD Lions E.C.|here]].
+
+The organization has teams in ''League of Legends'', ''Clash Royale'', ''CS:GO'', and ''FIFA''.
+
+== History ==
+Parent company OverActive Media rebranded [[Splyce]] as '''MAD Lions''' in November 2019, with an official announcement on the 29th.<ref>[https://twitter.com/MADLions_LoLEN/status/1200483587730149376 MAD Lions' Tweet] ''twitter.com''</ref> Their initial roster for the [[LEC 2020 Spring|LEC 2020 Season]] included four rookie players - [[Orome]], [[Shadow (Zhao Zhi-Qiang)|Shadow]], [[Carzzy]], and [[Gistick]] - along with  mid laner [[Humanoid]], the only carry-over from Splyce.
+
+=== 2020 Season ===
+MAD had a good start to [[LEC/2020 Season/Spring Season|Spring Split]] as they went 5-3 in the first four weeks which meant that they were in a 3-way-tie for 4th just one win behind first place. They, however, continued to show varying performances throughout the rest of the split but due to beating their opponents [[Misfits Gaming]] and [[Origen]] in the last two weeks, they secured 4th place with an 11-7 record which meant a place in the upper bracket of playoffs. For Round 1 they were chosen by [[G2 Esports]] and managed to put up a great fight that ended in saving their nexus one hit before defeat to close out the game and therefore the series 3-2. In Round 2 they faced [[Fnatic]] and were completely outclassed by them which meant that they needed to beat G2 again in the lower finals to get a rematch against Fnatic in the finals. This time their opponent came better prepared and dominated the series 3-1 to end MAD's first split under their new name. MAD got off to a fairly strong start in the summer split and held the top spot for most of the season only to lose it to [[Rogue (European Team)|Rogue]] right at the end. They qualified for [[LEC 2020 Summer Playoffs]] in the bottom part of the Winners bracket because of how the special system worked for 2020. They lost outright in the first round against [[G2 Esports]] and were relegated to the losers bracket, where they managed to beat [[FC Schalke 04]] and then lost to [[Rogue (European Team)|Rogue]], clinching them the 4th LEC Worlds spot. They disappointed in the [[Worlds 2020 Play-In]] where they barely made knockouts and were eliminated by [[SuperMassive Esports]].
+
+=== 2021 Season ===
+Heading into the [[LEC/2021 Season/Spring Season|Spring Split]] MAD made some changes to the roster where they added toplaner [[Armut]] and rookie jungler [[Elyoya]]. They finished the regular season with a record of 10-8 and secured 3rd place behind [[G2 Esports]] and [[Rogue (European Team)|Rogue]] meaning they were going to be in the upper bracket of [[LEC/2021 Season/Spring Playoffs|Spring Playoffs]]. The regular split performance of [[Elyoya]] earned him the Rookie of the Split award. For Round 1 of playoffs, [[G2 Esports]] selected [[FC Schalke 04 Esports|Schalke 04 Esports]] which meant MAD facing [[Rogue (European Team)|Rogue]]. Despite losing the first game, MAD managed to win the next three games and got their place in Semifinals beating [[Rogue (European Team)|Rogue]] 3-1. The Semifinals where they faced [[G2 Esports]] resulted in the same way where they beat G2 3-1 while sending them into the lower bracket. In the lower bracket Semifinals, [[Rogue (European Team)|Rogue]] upset [[G2 Esports]] 3-1 and got their place in the Finals. The Finals was the first finals without [[Fnatic]] or [[G2 Esports]] being in the final since the start of the [[LoL European Championship]] in 2013. In the finals, MAD were down 0-2 but managed to reverse sweep [[Rogue (European Team)|Rogue]] and became the 4th team ever to win an [[LEC]] title beating Rogue 3-2. This meant MAD was the team to represent Europe in the [[2021 Mid-Season Invitational]].
+
+== Trivia ==
+* The seven stars in the logo come from the flag of Madrid, the capital of Spain.
+* The name "MAD Lions" is actually a play on words; while the name makes sense when explicitly read, MAD does not refer to the English adjective, but is an abbreviation of Madrid. The name is also a reference to the lions in the Cibeles Fountain, an important monument in Madrid.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+{{EUAcademyRosterNotice}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||ca|Sheldon Pollack|'''Chairman of The Board at OverActive Media'''}}
+{{listplayersp||ca|Christopher Overholt|'''President & Chief Executive Officer at OverActive Media'''}}
+{{listplayersp|Grazen|ca|Adam Adamou|'''Chief Strategy Officer at OverActive Media'''}}
+{{listplayersp||ca|Alyson Walker|'''Chief Commercial Officer at OverActive Media'''}}
+{{listplayersp|Eguillor|es|Marcos Eguillor|'''Co-Founder'''}}
+{{listplayersp|Vegetta777|es|Samuel de Luque Batuecas|'''Co-Owner'''}}
+{{listplayersp|Willyrex|es|Guillermo Díaz Íbañez|'''Co-Owner'''}}
+{{listplayersp||ca|Brandon Pollack|'''Partnerships Manager'''}}
+{{listplayersp||es|Sergio Miña Manso|'''Filmmaker, Photographer, & Videographer'''}}<!--Jan 2021-->
+{{listplayersp|Arwineüg|co|David Pazos|'''Filmmaker, Photographer, & Videographer'''}}
+{{listplayersp||co|Mateo Walschburger|'''Filmmaker, Photographer, & Videographer'''}}
+{{listplayersp|Viking||Jake Ainsworth|'''Performance Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Cardonetti|es|Luis Cardona Recio|'''Performance Manager'''|newteam=Movistar KOI}}
+{{listplayer|ToniOP|es|Antonio Castillo|'''Team Manager'''|newteam=Movistar KOI}}
+{{listplayer|Melzhet|es|Tomás Campelos|'''Head Coach'''|newteam=Movistar KOI}}
+{{listplayer|Zeph|fr|Quentin Viguié|'''Assistant Coach'''|newteam=Movistar KOI}}
+{{listplayer|Aagie|es|Carlos Cuenca|'''Data Analyst'''|newteam=Movistar KOI}}
+{{listplayer|Achuu|dk|Nicolaj Ellesgaard|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Feiron|de|Till Werdermann|'''Director of Team Operations'''|newteam=VIT}}
+{{listplayer|Mac|uk|James MacCormack|'''Head Coach'''|newteam=VIT}}
+{{listplayer|Pad|dk|Patrick Suckow-Breum|'''Interim Head Coach'''|newteam=VIT}}
+{{listplayer|Orome|ro|Andrei Popa|'''Coach'''|newteam=none}}
+{{listplayersp||es|Alejandra Ramos Cabera|'''Creative Director'''|newteam=retired|comment=Tacter}}<!--Mar 2023-->
+{{listplayersp||hr|Martina Čubrić|'''Sports Psychologist'''|newteam=Retired|comment=OverActive Media}}
+{{listplayersp|Danes Loher|es|David López Herraiz|'''Social Media Manager'''|newteam=Retired|comment=GRUP MEDIAPRO}}
+{{listplayersp|4rcane|es|Jorge López|'''Graphic Designer'''|newteam=G2}}
+{{listplayersp||es|Álvaro Luzón|'''Director of Marketing'''|newteam=retired|comment=Tacter}}<!--Dec 2022-->
+{{listplayer|Reignover|kr|Kim Yeu-jin (김의진)|'''Positional Coach'''|newteam=TL}}
+{{listplayer|Kaas|be|Christophe van Oudheusden|'''Strategic Coach'''|newteam=100}}
+{{listplayersp||es|Pedro Belaunzarán|'''Director of Partnerships'''|newteam=retired|comment=SPORTFIVE}}<!--Aug 2022-->
+{{listplayersp|Schunurious|es|Jorge Schnura Becerro|'''Co-Founder & Chief Executive Officer'''|newteam=retired|comment=Calea Tokenomics}}<!--Jul 2022-->
+{{listplayer|Stuii|de|Alexander Spelda|'''Team Manager'''|newteam=Team Vitality}}
+{{listplayer|Vizicsacsi|hu|Kiss Tamás|'''Positional Coach'''|newteam=PEACE (Oceanic Team)}}
+{{listplayer||es|Juan Carlos Muñoz Pérez|'''Account Manager'''|newteam=none}}
+{{listplayer|Stress|uk|James O'Leary|'''Community Manager'''|newteam=none}}
+{{listplayer|Jido|us|Jonathan Do|'''Analyst'''|newteam=SolaFide Esports}}
+{{listplayer|Peter Dun|uk|Peter Dun|'''Head Coach of MAD Lions'''|newteam=EG}}
+{{listplayersp|LazerChicken|us|Marty Strenczewilk|'''SVP, Performance and Team Operations at OverActive Media'''|newteam=none}}
+{{listplayersp|deicide|be|Gauthier de Meirsman|'''Head of Design'''|newteam=Retired|comment=Northnet}}
+{{listplayersp|escip10n|es|Ricardo Gómez-Acebo Botín|'''Chief Operations Officer'''|newteam=Retired|comment=OverActive Media}}<!--May 2019-->
+{{listplayersp||es|Almudena Marchena Asín|'''Content and Marketing Director'''|newteam=Retired|comment=Black Iron Sports}}
+{{listplayer/End}}
+
+== Tournaments ==
+===As MAD Lions KOI===
+{{TeamResults|MAD Lions KOI|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As MAD Lions===
+{{TeamResults|MADL LEC|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+=== Logos ===
+<gallery>
+MAD Lions Global Sub Texture.png|MAD Lions Global Sub Texture
+MAD Lions Global Wordmark Texture.png|MAD Lions Global Wordmark Texture
+MAD Lions Old Logo.png|Previous logo (- Jan 2023)
+MAD Lions Old Logo 2.png|Previous logo (Jan 2023 - May 2023)
+</gallery>
+
+=== Roster ===
+{{TeamProfileGallery}}
+
+== References ==
+<references />

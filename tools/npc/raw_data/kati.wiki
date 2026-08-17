@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kati&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.367Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kati」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kati
+|name=Đặng Thanh Phê
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1999
+|birth_date_month=November
+|birth_date_day=05
+|checkbox1=No
+|compID1=Khanh
+|compID2=PuppyK
+|checkboxComp=No
+|ids='''VN:''' ˆKati, T 4 1 2 9 7 <br> '''KR:''' dsakdmxzc <br> '''NA:''' G A M Kati <br> '''EUW:''' Kati
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/hi.mat.94695
+|instagram=katiphe1
+|youtube=https://www.youtube.com/channel/UCokr-I4sOBvmuhhYQTWtQXg
+|fanpage=https://www.facebook.com/kati.lolmid
+|lolpros=https://lolpros.gg/player/kati
+|deeplol=https://www.deeplol.gg/pro/Kati
+|dpmlol=https://dpm.lol/pro/Kati
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Khanh''' and '''PuppyK'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+Đặng '''"Kati"''' Thanh Phê started his career at [[New Power Esports]] in the VCSB before joining the VCS. Being a substitute behind [[Optimus]], he would finally make his professional debut in the VCS on [[Sky Gaming]]. Kati is praised for his calm and collective playstyle with a variety of champions in his arsenal.
+
+===2020 Season===
+
+'''Kati''' would end up as starting mid laner for [[Team Flash.Vietnam||Team Flash]] after Optimus retired from professional play. In his rookie split, he would win the [[VCS/2020 Season/Spring Playoffs|Spring Playoffs]] 3-2 against [[GAM Esports]]. After a tremendous split, he won the rookie of the split award. Continuing on in the [[VCS/2020 Season/Summer Season|Summer]], his team would finish 2nd in the regular season and win the [[VCS/2020 Season/Summer Playoffs|Summer Playoffs]] 3-2 against [[GAM Esports]] once again.
+
+Despite having qualified for [[2020 Season World Championship]], Kati could not attend with his team due to COVID-19 regulations as Vietnamese teams were not allowed to travel. 
+
+===2021 Season===
+
+After the 2020 Season, '''Kati''' has signed for [[GAM Esports]] as their new mid laner.
+
+== Trivia ==
+*He was awarded the title of National Sports Master by the Ministry of Sports, Culture and Tourism of Vietnam after winning the Gold Medal with the [[Vietnam (National Team)|Vietnam National Team]] at the [[Sea Games 31|31st SEA Games]] at the end of 2022.
+*He was awarded the title of National Esports Grandmaster by VIRESA (Vietnam Esports Federation) after achieving good results with [[GAM Esports]] at [[2023_Season_World_Championship|Worlds 2023]] and with [[Vietnam (National Team)|Vietnam National Team]] at [[2022 Asian Games]]  on January 21, 2024.
+*Nicknamed "Phê cơ", from his given name "Phê" and "Faker". 
+{{PlayerStatsTrivia}}
+
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

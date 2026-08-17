@@ -1,0 +1,387 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LCK%2F2020%20Season%2FSummer%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.054Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LCK/2020/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LCK 2020}}
+{{Infobox Tournament
+|name=LCK 2020 Summer Season
+|image= LCK 2018 logo.png
+|organizer=[http://www.leagueoflegends.co.kr/?m=esports&mod=esports/ Riot Games]
+|organizer2=[http://www.e-sports.or.kr/ KeSPA]
+|sponsor=[https://spot.wooribank.com/pot/Dream?withyou=en Woori Bank] <br> [http://www.lotteconf.co.kr/eng/ LOTTE Confectionery] <br> [https://www.sktelecom.com/index.html SK Telecom] <br> [http://www.sidiz.com/ Sidiz] <br> [https://www.logitechg.com/ Logitech G] <br> [https://www.tiktok.com/en/ TikTok] <br> [https://www.mcdonalds.com/ McDonalds]
+|server=
+|type= Offline/Online
+|country= South Korea
+|prizepool= 
+|format= 
+|sdate= 2020-06-17
+|edate= 2020-08-23
+|rulebook=http://static.leagueoflegends.co.kr/esports/files/%EB%A6%AC%EA%B7%B8%20%EC%98%A4%EB%B8%8C%20%EB%A0%88%EC%A0%84%EB%93%9C%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4%20%EC%BD%94%EB%A6%AC%EC%95%84%202020_%EA%B3%B5%EC%8B%9D%20%EA%B7%9C%EC%A0%95%EC%A7%91.pdf
+|streams={{stream|url=https://www.twitch.tv/lck|lang=usuk}} <br> {{stream|url=http://www.twitch.tv/lck_korea|lang=kr}}
+|linkstreams=yes
+|first=
+|second=
+|third=
+|fourth=
+|region=KR
+|split=Summer
+|split_number=2
+|CM_StandardName=LCK 2020 Summer
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2020
+|CM_StandardLeague=LoL Champions Korea
+|CM_LeagueIconKey=LoL Champions Korea
+|website=http://www.leagueoflegends.co.kr/?m=esports&mod=esports
+|facebook=https://www.facebook.com/officiallck
+|instagram=lckofficial
+|tiktok=lck_official
+|twitter=lck_global
+|youtube=https://www.youtube.com/channel/UCKVlixycWmapnGQ_wht4cHQ
+|closest_timezone=KST
+}}{{TournamentPageStart|twitchid=lck|toclimit=2|text=The '''LCK 2020 Summer Season''' is the second split of the 2020 Season of '''League Champions Korea'''. Ten teams compete in the Summer double round-robin group stage. The top five teams qualify for the 2020 Summer Playoffs.}}
+
+== Overview ==
+=== Format ===
+* Double Round Robin
+* Matches are best of three
+* Top 5 teams qualify for [[LCK/2020 Season/Summer Playoffs|Playoffs]]
+:* Regular Season winner receives a bye to the finals
+:* Second and third place teams receive byes to Round 3 and Round 2 respectively
+* {{TiebreakerRules|
+:* If two teams have the same record, ties will be broken by:
+::* Game record (teams get +1 point for a won game, -1 point for a lost game, the team with more points wins the tie)
+::* If points are tied, ties are broken by head to head <!--(game) must actually be series-->record
+::* If still tied, teams will play a tiebreaker match.}}
+
+===Prize Pool===
+{{TournamentResults
+|points=no
+|pointstitle=
+|qual=yes
+|prize=yes
+|prizeunit=KRW
+|totalprize=300,000,000
+|prizewidth=100
+|{{TournamentResults/Line|place=1|qual=Playoffs|quallink=LCK/2020 Season/Summer Playoffs|team=DWG|groupstage=16 - 2}}
+|{{TournamentResults/Line|place=2|qual=Playoffs|quallink=LCK/2020 Season/Summer Playoffs|team=DRX|groupstage=15 - 3}}
+|{{TournamentResults/Line|place=3|qual=Playoffs|quallink=LCK/2020 Season/Summer Playoffs|team=GEN|groupstage=14 - 4}}
+|{{TournamentResults/Line|place=4|qual=Playoffs|quallink=LCK/2020 Season/Summer Playoffs|team=T1|groupstage=13 - 5}}
+|{{TournamentResults/Line|place=5|qual=Playoffs|quallink=LCK/2020 Season/Summer Playoffs|team=AF|groupstage=10 - 8}}
+|{{TournamentResults/Line|place=6|prize=10,000,000|quallink=LCK/2020 Season/Spring Season|team=KT|groupstage=7 - 11}}
+|{{TournamentResults/Line|place=7|prize=10,000,000|quallink=LCK/2020 Season/Spring Season|team=SB|groupstage=7 - 11}}
+|{{TournamentResults/Line|place=8|prize=10,000,000|quallink=LCK/2020 Season/Spring Season|team=Dynamics|groupstage=5 - 13}}
+|{{TournamentResults/Line|place=9|prize=10,000,000|quallink=LCK/2020 Season/Spring Promotion|team=HLE|groupstage=2 - 16}}
+|{{TournamentResults/Line|place=10|prize=10,000,000|quallink=LCK/2020 Season/Spring Promotion|team=SHO|groupstage=1 - 17}}
+}}
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+}}
+{{Box|start}}
+{{TeamRoster|team=AF
+|{{TeamRoster/Line|player=Kiin|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Spirit|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Dread (Lee Jin-hyeok)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Fly (Song Yong-jun)|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Mystic|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Ben|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Jelly (Son Ho-gyeong)|flag=kr|role=s}}
+|{{TeamRoster/Line|player=viNylCat|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Rigby|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=DWG
+|{{TeamRoster/Line|player=Nuguri|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Canyon|flag=kr|role=j}}
+|{{TeamRoster/Line|player=ShowMaker|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Ghost (Jang Yong-jun)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=BeryL|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Zefa|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Daeny|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=DRX|footnoteteamn=1
+|{{TeamRoster/Line|player=Doran (Choi Hyeon-joon)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Pyosik|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Chovy|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Deft|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Keria|flag=kr|role=s}}
+|{{TeamRoster/Line|player=cvMax|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Museong|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Gen.G
+|{{TeamRoster/Line|player=Rascal|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Clid|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Bdd|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Ruler|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Life|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kellin|flag=kr|role=s}}
+|{{TeamRoster/Line|player=oDin (Ju Yeong-dal)|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Tom (Im Jae-hyeon)|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=HLE
+|{{TeamRoster/Line|player=CuVee|flag=kr|role=t}}
+|{{TeamRoster/Line|player=DuDu (Lee Dong-ju)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Haru|flag=kr|role=j}}
+|{{TeamRoster/Line|player=CaD|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Yeongjae (Ko Yeong-jae)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Lava|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Mireu|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Viper (Park Do-hyeon)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Lehends|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kezman|flag=kr|role=c}}
+|{{TeamRoster/Line|player=NoFe|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Max (Jeong Jong-bin)|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=KT
+|{{TeamRoster/Line|player=SoHwan|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Smeb|flag=kr|role=t,s}}
+|{{TeamRoster/Line|player=bonO (Kim Gi-beom)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Malrang|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Ucal|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Kuro|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Aiming|flag=kr|role=a}}
+|{{TeamRoster/Line|player=TusiN|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Hirai|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Acorn|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SB
+|{{TeamRoster/Line|player=Summit|flag=kr|role=t}}
+|{{TeamRoster/Line|player=OnFleek|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Dove|flag=kr|role=m}}
+|{{TeamRoster/Line|player=FATE (Yoo Su-hyeok)|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Route|flag=kr|role=a}}
+|{{TeamRoster/Line|player=GorillA|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kabbie|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Joker (Cho Jae-eup)|flag=kr|role=c}}
+|{{TeamRoster/Line|player=YamatoCannon|flag=sweden|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SHO|footnoteteamn=2
+|{{TeamRoster/Line|player=ikssu|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Flawless|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Kuma (Park Hyeon-gyu)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Mickey (Son Young-min)|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Keine|flag=kr|role=m}}
+|{{TeamRoster/Line|player=HyBriD (Lee Woo-jin)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Trigger (Kim Eui-joo)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Secret (Park Ki-sun)|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Mia|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Sickness|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Winged|flag=kr|role=c}}
+|{{TeamRoster/Line|player=CooN|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=T1
+|{{TeamRoster/Line|player=Canna|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Cuzz|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Ellim|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Faker|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Clozer|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Teddy|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Effort|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kuri|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kim (Kim Jeong-soo)|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Comet|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Dynamics
+|{{TeamRoster/Line|player=Rich (Lee Jae-won)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Beyond (Kim Kyu-seok)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Kuzan|flag=kr|role=m}}
+|{{TeamRoster/Line|player=deokdam|flag=kr|role=a}}
+|{{TeamRoster/Line|player=GuGer|flag=kr|role=s}}
+|{{TeamRoster/Line|player=sBs|flag=kr|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+:''<sup>1</sup> [[DragonX]] renames to [[DRX]].''
+:''<sup>2</sup> [[APK Prince]] renames to [[SeolHaeOne Prince]].''
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff
+|teamlist=AF,SHO,DWG,DRX,GEN,HLE,KT,SB,T1,Dynamics
+|places=upwith3bye,upwith2bye,upwithbye,up,up,stay,stay,stay,stay,stay
+|row1=upwith3bye
+|row2=upwith2bye
+|row3=upwithbye
+|row4=up
+|row5=up
+|row6=stay
+|row7=stay
+|row8=stay
+|row9=stay
+|row10=stay
+|legend=true
+|upwith3bye=Automatic Finals Seed
+|upwith2bye=Automatic Round 3 Seed
+|upwithbye=Automatic Round 2 Seed
+|up=Playoffs Seed
+|stay=Not Qualified for Playoffs
+|isover=no
+|useasresults=no
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with,hl
+|gamefields=Blue,Red,MH,VODs,MVP
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w10bg1=upwith3bye
+|w10bg2=upwith2bye
+|w10bg3=upwithbye
+|w10bg4=up
+|w10bg5=up
+|w10bg6=stay
+|w10bg7=stay
+|w10bg8=stay
+|w10bg9=stay
+|w10bg10=stay
+|w9bg1=upwith2bye
+|w9bg2=upwith2bye
+|w9bg3=up
+|w9bg4=up
+|w9bg7=stay
+|w9bg8=stay
+|w9bg9=stay
+|w9bg10=stay
+|w8bg1=up
+|w8bg2=up
+|w8bg3=up
+|w8bg4=up
+|w8bg8=stay
+|w8bg9=stay
+|w8bg10=stay
+|w7bg1=up
+|w7bg2=up
+|w7bg9=stay
+|w7bg10=stay
+|orderby=recordwithpoints
+|places=upwith3bye, upwith2bye, upwithbye, up, up, stay, stay, stay, stay, stay}}
+
+== Individual Awards ==
+=== Season Player of the Game Standings ===
+{{MVPStandings|queryfrom=Game|columns=Points}}
+
+=== Season Awards ===
+[https://lolesports.com/article/2020--lck--lck-awards-/blt1b44b80e80ffb7c6 Source]
+{{SeasonAwardStart}}
+{{SeasonAward|mvp|team=DWG|player=ShowMaker|note=₩ 5,000,000}}
+{{SeasonAward|custom|award=Player of the Split|team=GEN|player=Bdd|note=₩ 2,000,000}}
+{{SeasonAward|coach|team=DWG|player=Zefa|note=₩ 1,500,000}}
+{{SeasonAward|custom|award=Young Player|team=DWG|player=ShowMaker|note=₩ 1,500,000}}
+{{SeasonAward|proteam|players=Nuguri,Canyon,ShowMaker,Ruler,BeryL|teams=DWG,DWG,DWG,GEN,DWG|note=₩ 2,000,000 Each}}
+{{SeasonAward|custom|award=2nd All Pro Team|players=Canna,Clid,Chovy,Ghost (Jang Yong-jun),Keria|teams=T1,GEN,DRX,DWG,DRX}}
+{{SeasonAward|custom|award=3rd All Pro Team|players=Rascal,Cuzz,Bdd,Deft,Life|teams=GEN,T1,GEN,DRX,GEN}}
+{{SeasonAwardEnd}}
+:''Note: Player of the Split is given to the player with the most Player of the Game points at the end of the regular season. The Young Player award is for players who are 19 or younger at the time of roster submission.''
+
+==Media==
+===Streams===
+{{Box|start}}
+* {{flag|usuk}} [http://www.twitch.tv/lck Twitch]
+* {{stream|url=https://www.youtube.com/channel/UCKVlixycWmapnGQ_wht4cHQ/live|lang=usuk}}
+* {{stream|url=https://www.twitch.tv/lck_korea|lang=kr}}
+* {{stream|url=https://www.youtube.com/channel/UCw1DsweY9b2AKGjV4kGJP1A/live|lang=kr}}
+* {{stream|url=http://play.afreecatv.com/aflol|lang=kr|display=AfreecaTV}}
+* {{stream|url=https://sports.news.naver.com/main/scoreboard.nhn|lang=kr|display=NaverTV}}
+* {{stream|url=https://www.wavve.com/player/live?channelid=C9232|lang=kr|display=wavve}}
+* {{stream|url=http://www.uplus.co.kr/ent/fiveg/Retrieve5GAddSvcDetailInfo.hpi?catgCd=51467&prodCdKey=Z200006993|lang=kr|display=U+ game live}}
+{{Box|break}}
+* {{flag|tw}} [http://garena.live/358220 Garena Live]
+* {{flag|cn}} [https://www.huya.com/lck Huya]
+* {{flag|fr}} [http://www.twitch.tv/ogaminglol Twitch]
+* {{flag|jp}} [https://www.twitch.tv/lck_japan Twitch]
+* {{stream|url=https://www.twitch.tv/vivilatvia|lang=ru|display=Twitch (Unofficial)}}
+* {{stream|url=https://www.twitch.tv/shortygeorge_lol|lang=ru|display=Twitch (Unofficial)}} 
+{{Box|end}}
+
+=== Broadcast Talent ===
+* Korean
+** {{player|Caster Jun|flag=KR|name= Chun Yong-jun}} – Play-by-Play Caster
+** {{player|SEONG K|flag=KR|name= Seong Seung-heon}} – Play-by-Play Caster
+** {{player|CloudTemplar|flag=KR|name= Lee Hyun-woo}} – Color Caster
+** {{player|Kim Dong-joon|flag=KR|name= Kim Dong-joon}} – Color Caster
+** {{player|KangQui|flag=KR|name= Kang Seung-hyeon}} – Color Caster
+** {{player|Wadid|flag=KR|name= Kim Bae-in}} – Color Caster
+** {{playersp|Kim Mina|flag=KR|name= Kim Min-ah}} – Analysis Host
+** {{playersp|Youn Soobin|flag=KR|name= Youn Soo-bin}} – Analysis Host
+** {{playersp|Lee Jeonghyun|flag=KR|name= Lee Jeong-hyun}} – Analysis Host
+** {{player|Bitdol|flag=KR|name= Ha Gwang-seok}} – Analyst
+** {{player|Lira|flag=KR|name= Nam Tae-yoo}} – Analyst
+** {{player|PawN|flag=KR|name= Heo Won-seok}} – Analyst
+
+* English
+** {{player|Atlus|flag=AU|name= Max Anderson}} – Play-by-Play Caster
+** {{player|Valdes|flag=US|name= Brendan Valdes}} – Play-by-Play Caster
+** {{player|LS|flag=US|name= Nick De Cesare}} – Color Caster
+** {{player|Wadid|flag=KR|name= Kim Bae-in}} – Color Caster
+
+===Announcements===
+* June 3, [https://kr.leagueoflegends.com/ko-kr/news/esports/2020-lck-summer-information 2020 우리은행 LCK 서머 개막 및 일정 안내.(Korean)]
+* June 9, [https://www.facebook.com/lckkorea/posts/1118805585171120 New faces of LCK.(English, Korean)]
+* August 19, [https://www.facebook.com/officiallck/posts/1173404559711222 2020 LCK 서머 잔여 경기 온라인 전환 안내 (Korean)]
+
+=== Additional Content ===
+*See [[LCK/2020 Season/Summer Season/Media|Media]].
+
+=== Viewership Statistics ===
+Data sourced from [https://escharts.com/tournaments/lol/lck-summer-2020 Esports Charts]. Excliuding Chinese platforms statistics.
+{|class="wikitable"
+! colspan=2 | Peak Viewership
+|-
+! Total
+| 823 597
+|-
+! Korean Streams
+| 592 042
+|-
+! Twitch.tv Streams
+| 316 256
+|-
+! colspan=2 | Other
+|-
+! Total Time Watched
+| 63 293 954 Hours
+|-
+! Avg Concurrent Viewers
+| 218 821
+|}
+
+== Venue ==
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|kr}} Seoul
+|-
+|LoL PARK - LCK Arena
+|-
+|''Capacity'' - 450
+|-
+|[[File:LoL PARK.jpg|330px]] [[File:2021 LCK Arena.png|330px]] 
+|-
+|33 Jong-ro, Cheongjin-dong, Jongno-gu, Seoul, South Korea
+|}
+===Announcements===
+
+=== Additional Content ===
+*See [[LCK/2020 Season/Summer Season/Media|Media]].
+
+== References ==
+<references />

@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Blaber&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.141Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Blaber」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Blaber
+|name=Robert Huang
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=2000
+|birth_date_month=January
+|birth_date_day=04
+|favchamp=Kindred
+|favchamp2=Lee Sin
+|favchamp3=Nidalee
+|favchamp4=Elise
+|checkbox1=No
+|compID1=blaberfish2
+|checkboxComp=No
+|ids='''NA:''' blaberfish2<br>'''KR''': blaberfish2<br>'''EUW''': C9 Blaberfish<br>ni hui ji zhu wo<br>jgchai2
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/blaber
+|twitter=blaber
+|instagram=c9blaber
+|discord=https://discord.gg/fUctZWQ
+|lolpros=https://lolpros.gg/player/blaber/
+|deeplol=https://www.deeplol.gg/pro/Blaber
+|dpmlol=https://dpm.lol/pro/Blaber
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''blaberfish2'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Blaber was born in Maryland.<ref>[https://twitter.com/LCSOfficial/status/1558578720717164544 LCS' Tweet] ''twitter.com''</ref> After competing on [[Team Ocean Drake (NASG Team)|Team Ocean Drake]] during the [[2017 NA Scouting Grounds]], he was drafted by [[Cloud9]] and placed on [[Cloud9 Academy]] as a substitute.
+
+===2018 Season===
+Blaber played in [[NA Academy 2018 Summer]] for the first four weeks of the summer split.
+
+C9 started the [[League_Championship_Series/North_America/2018_Season/Summer_Season|2018 Summer Season]] by promoting [[Goldenglue]], [[Keith]], and [[Zeyzal]] to the LCS roster. By Week 5 C9 were in tenth place. After bringing back Jensen and [[Sneaky]] to the main roster as well as subbing in [[Blaber]] for the rest of the summer season, Cloud9 surged and made it to second place and secured a playoff bye by the end of the regular season. In the [[NA LCS/2018 Season/Summer Playoffs|playoffs]], Cloud9 defeated [[Team SoloMid]] 3-2 in the Semifinals and lost 0-3 to Team Liquid in the Finals. They moved onto the [[NA LCS/2018 Season/Regional Finals|Regional Qualifier]] and won 3-0 over TSM to make worlds.
+
+At the [[Worlds 2018|2018 World Championship]], Cloud9 once again had to make it through the [[2018_Season_World_Championship/Play-In|Play-In]] stage. They went 4-0 in the Play-In group stage, and beat [[Gambit Esports]] 3-2 to advance to the [[2018_Season_World_Championship/Main_Event|Main Event]]. Cloud 9 were seeded into Group B, dubbed the "Group of Death", with [[Team Vitality]], [[Royal Never Give Up]], and [[Gen.G]]. Cloud9 defied expectations and made it out of the group in second place with a 4-3 record after losing the first place tiebreaker to RNG. In the Quarterfinals, C9 made history and defeated [[Afreeca Freecs]] 3-0, making it the first time since the [[World Championship Season 1|Season One World Championship]] that a North American team had made semifinals. In the Semifinals, C9 lost 0-3 to [[Fnatic]].
+
+== Trivia ==
+* Has the record for highest win percentage of any LCS player with more than 1 game played.
+* Was memed for greeding for scuttle crabs leading to his death during [[MSI 2021]].
+** Because of this, fans and casters sometimes nickname him "Craber."
+* He played badminton competitively for over a decade before starting his LoL career.<ref>[https://x.com/LTASul/status/1889746754813194247 LTA Sul's X Post] ''x.com''</ref>
+
+=== Individual Awards ===
+* LCS Most Valuable Player x2 (2020 Spring, 2021 Spring)
+* LCS 1st All-Pro Team x7 (2020 Spring, 2020 Summer, 2021 Spring, 2022 Spring, 2023 Spring, 2023 Summer, 2024 Summer)
+* LCS 3rd All-Pro Team x2 (2021 Summer, 2024 Spring)
+* LCS Rookie of the Split (2018 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

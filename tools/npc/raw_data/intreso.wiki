@@ -1,0 +1,122 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=InTreso&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.978Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Intreso」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=InTreso
+|name=Sanpett Marat
+|nativename=สันเพชร มารัตน์
+|namealphabet=Thai
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Thailand
+|residency=Southeast Asia
+|birth_date_year=1994
+|birth_date_month=April
+|birth_date_day=17
+|checkbox1=No
+|compID1=Sanpett
+|compID2=TAP
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/intreso1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Sanpett''' and '''TAP'''.
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Top
+|prev3=Bot
+|prev4=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+'''InTreso''' joined [[Bangkok Titans]] in June 2013. The team's frequent roster changes caused him to play a variety of positions for the team, including top lane during the Summer season of [[2013 GPL Summer|2013 Garena Premier League]] (GPL) and mid lane (as well as AD carry) during the [[Thailand Grand Championship 2013]].
+
+===2014 Season===
+InTreso continued to demonstrate his flexibility when he became the starting mid laner for Bangkok Titans during the [[2014 GPL Winter]], but the team won only a single game and was eliminated from the tournament in the Group Stage. After a similar performance in the [[2014 GPL Spring]], InTreso switched roles to support, while [[G4]] replaced him in the mid lane. The revamped Bangkok Titans improved its performance and made it to the Bracket Stage, although it was eliminated in the quarterfinals by [[ahq e-Sports Club]]. At the end of the year, InTreso left the Bangkok Titans starting roster, replaced by [[Valen]].
+
+===2015 Season===
+In early 2015, InTreso changed his name to '''Sanpett''' and joined [[3 Piglet]], a new team with many former Bangkok Titans players on the roster. Sanpett primarily played mid lane while on the team. 3 Piglet qualified for the Summer season [[2015 Thailand Pro League/Summer|2015 Thailand Pro League]] (TPL) and achieved moderate success with a 3rd place finish.
+
+===2016 Season===
+In January, 3 Piglet disbanded.<ref>[https://www.facebook.com/permalink.php?story_fbid=864955806951086&id=696991110414224 3 Piglet Facebook Post January 19, 2016 (Thai)] ''facebook.com''</ref> Sanpett changed his name back to '''InTreso''' and rejoined Bangkok Titans as a substitute.<ref>[https://www.facebook.com/BangkokTitans/posts/968795203190916:0 Bangkok Titans Facebook Post January 7, 2016 (Thai)] ''facebook.com''</ref> When the team's longtime top laner [[WarL0cK]] left the team at the end of the [[Thailand Pro League/2016 Season/Spring Season|2016 TPL Spring]], InTreso returned to the starting roster to fill the vacancy. He and fellow substitute [[Sek]] split time in the top lane during the [[GPL/2016 Season/Spring|2016 GPL Spring]], although InTreso played only two games. After the team finished in 2nd place, it rearranged its roster yet again. [[Lloyd]] moved to the top lane while InTreso became the team's starting AD carry. For the [[GPL/2016 Season/Summer Season|2016 GPL Summer]], InTreso switched roles back to top lane. The team finished in 2nd place.
+
+== Trivia ==
+* He has played all five roles at a competitive level.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

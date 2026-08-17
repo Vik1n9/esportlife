@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Smoothie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.919Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Smoothie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Smoothie
+|name=Andy Ta
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=February
+|birth_date_day=10
+|favchamp=Annie
+|favchamp2=Sona
+|favchamp3=Thresh
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Smoothie<br>llllIIIllIl
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/smoothie_lol
+|twitter=Smoothie
+|instagram=smoothie.lol
+|youtube=https://youtube.com/channel/UCJDTyaN2zx-qOWDin3AFhbA
+|deeplol=https://www.deeplol.gg/pro/Smoothie
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Andy "'''Smoothie'''" Ta is from Edmonton, Alberta, Canada.
+
+===2015 Season===
+Smoothie joined [[Team Dragon Knights]] in February 2015, replacing former support player [[KonKwon]] on the team just before the start of the [[2015 NA Challenger Series/Spring Season|NACS Spring Season]]. The team finished second in the regular season with a 7-3 record.  In the [[2015 NA Challenger Series/Spring Playoffs|playoffs]], they beat [[Team Fusion]] 2-1 before losing to Enemy 1-3, sending them to the [[Riot League Championship Series/North America/2015 Season/Summer Promotion|Summer Promotion Tournament]]. Despite the fact that they had placed higher than Fusion, [[Winterfox]] chose to play against them. TDK used substitute mid laner [[Alex Ich]] in their promotional matches and won 3-1, successfully qualifying for the [[Riot League Championship Series/North America/2015 Season/Summer Season|NA LCS Summer Split]].
+
+Due to visa issues, Team Dragon Knights were unable to use their full roster for the first four weeks of the summer split, as [[Emperor (Kim Jin-hyun)|Emperor]] and [[Ninja]] were unable to travel to the United States to play with the team; Smoothie was also substituted out for the first three games, with [[Baby (Terry Chuong)|Baby]] playing in his place. The substitute rosters went a combined 0-9, but when Emperor and Ninja finally joined the team for the second day of the fifth week, the team defeated first-place [[Team Dignitas]]. Despite that initial success, Team Dragon Knights were only able to secure two more victories over the next four weeks, and they finished in last place with a 3-15 record, one game behind [[Enemy]]. As a result, they were automatically relegated to the [[2016 NA Challenger Series/Spring Season|2016 NA Challenger Series Spring Season]].
+
+===2016 Season===
+In September 2015, Team Dragon Knights renamed to [[Team Arena Online]], and Smoothie and Emperor left.<ref>[http://www.dailydot.com/esports/team-dragon-knights-team-arena-online/ Team Dragon Knights is now Team Arena Online, retains Seraph, Kez, and Ninja] ''dailydot.com''</ref> On October 16, Smoothie was announced as [[Team Liquid]]'s new support, replacing [[Xpecial]].<ref>[http://www.youtube.com/watch?v=bEoc3ZD2nSw Team Liquid Smoothie Challenge] ''youtube.com''</ref> However, after only one game in the [[League Championship Series/North America/2016 Season/Spring Season|LCS]], Smoothie was swapped to the organization's Challenger team [[Team Liquid Academy]], to play in the [[NA Challenger Series/2016 Season/Spring Season|NACS]], as the first of several roster changes on the Academy team. The total of the roster changes proved detrimental to Team Liquid Academy, and despite initially being favorites to do well in the NACS, they only barely made [[NA Challenger Series/2016 Season/Spring Playoffs|playoffs]], winning a fourth-place tiebreaker with [[Dream Team]] due to having 2-0'd them while [[IWDominate]] was temporarily substituting in the first week. They were eliminated in the semifinals by [[Apex Gaming]]. After the split ended, Team Liquid Academy rebuilt their roster, and Smoothie left.
+
+Smoothie joined [[Cloud9]] for the [[League Championship Series/North America/2016 Season/Summer Season|Summer Season]]. Originally alternating turns starting with [[Bunny FuFuu]], after the seventh week Smoothie became the team's full-time starter.<ref>[http://www.twitlonger.com/show/n_1sotfd3 Update on moving forward ]''twitlonger.com''</ref> Cloud9 equaled its spring record with a 12-6 finish, again securing the third seed into the [[League_Championship_Series/North_America/2016_Season/Summer_Playoffs|playoffs]]. There, the team defeated [[Team EnVyUs]] and [[Immortals]] before falling to TSM 3-1 in the finals; their second-place result was their best placement since Spring 2015. In the [[2016_Season_North_America_Regional_Finals|Regional Finals]], or the gauntlet, Cloud9 faced and defeated both EnVyUs and Immortals to qualify for the [[2016_Season_World_Championship|World Championship]] for the fourth consecutive year.
+
+At Worlds, C9 was put in Group along with [[SK Telecom T1]], [[I May]] and [[Flash Wolves]]. Despite not being expected by many to make it out of the group, C9 finished 2nd in the group. Their Worlds run was cut short though after they lost 0-3 to [[Samsung Galaxy]] in the Quarterfinals.
+
+===2017 Season===
+
+The [[League_Championship_Series/North_America/2017_Season/Spring_Season|2017 Spring Season]] of the NA LCS started off hot for C9. The team was dominant and in 1st place throughout most of the split. However their performance took a dip later on and they finished 2nd with a 14-4 record right behind TSM. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] it was a similar story as Cloud9 made it to the finals but lost 2-3 to [[Team SoloMid]] in a very close series. In the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] with increased competition, Cloud9 struggled more than before and finished the regular split in 4th place. Their performance in the [[League_Championship_Series/North_America/2017_Season/Summer_Playoffs|playoffs]] was very lackluster and their run was cut short with a 1-3 loss to [[Team Dignitas]] in the Quarterfinals. Going into the [[2017 Season North America Regional Finals|Regional Qualifiers]], the team managed to qualify for the [[2017 Season World Championship]] with a 3-1 win over CLG.
+
+At Worlds C9 finished first in their [[2017_Season_World_Championship/Play-In|Play-In]] group with a 4-0 record and then defeated [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] 3-0 to advance to the [[2017_Season_World_Championship/Main_Event|Main Event]]. Put in Group A along with [[SK Telecom T1]], [[EDward Gaming]] and [[ahq e-Sports Club]], C9 managed a 3-3 record and made it out of the group in second place. Their Worlds run was put to a halt however after they lost 2-3 to [[Team WE]] in a very close match.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,117 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Voyboy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.258Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Voyboy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Voyboy
+|name=Joedat Esfahani
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|nationality=United States,Iran
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=December
+|birth_date_day=15
+|favchamp=Elise
+|favchamp2=Renekton
+|favchamp3=Akali
+|favchamp4=Lee Sin
+|checkbox1=Yes
+|favchamp5=Kassadin
+|checkboxComp=No
+|ids=Voyboy (NA), Vooby (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/voyboy
+|facebook=https://www.facebook.com/Voyboy
+|twitter=Voyboy
+|instagram=voyboy
+|snapchat=voyboy
+|reddit=Voyboy
+|youtube=https://www.youtube.com/channel/UCBJLvzKYBCQJc1buauA3msw
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is best known for his time on [[Team Dignitas]] and [[Team Curse]].
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Mid
+|prev2=Top
+|prev3=Owner
+|nicknames=Voyman
+}}
+==Biography==
+Voyboy is from Berkeley, California in the USA. He originally became well known through his top-tier {{ci|Ezreal}} play and his role in popularizing [[Wriggle's Lantern]] outside of the jungle. 
+
+===League of Legends Career===
+Voyboy first played toplane for [[Rock Solid]], a team formed in 2010 with [[Naryt]], [[rambo]], [[scarra]], [[Araragi]], [[samtheham]], and [[Th3RaT]]. While at first the team was unremarkable, a new iteration of the lineup including Voyboy, [[Jatt]], scarra, [[imaqtpie]], and [[L0cust]] suddenly came out of nowhere and started to take tournament results from major teams [[Team SoloMid]] and [[Counter Logic Gaming]]. On September 22, the Rock Solid lineup was acquired by [[Team Dignitas]].
+
+===Season 2===
+With Dignitas, Voyboy became known as one of the strongest toplaners in North America, famous in particular for his {{ci|Akali}} play. Dignitas placed third at [[IEM_Season_VI_-_Global_Challenge_Kiev|IEM Kiev]], second at [[IEM_Season_VI_-_World_Championship|IEM Hanover]], and third at [[IGN_Proleague_Season_4_-_Las_Vegas|IPL 4]], in addition to several top finishes in online tournaments.
+
+On May 19, 2012 Voyboy was part of an infamous three-way roster swap of players between top North American teams: he himself moved from Dignitas to CLG, while [[HotshotGG]] switched roles from toplane to jungle and [[Saintvicious]] left the team. Saintvicious joined [[Team Curse]], replacing [[Crumbzz]], while Crumbzz switched roles from jungle to toplane and replaced Voyboy on Dignitas.
+
+With CLG, Voyboy was invited to play in [[Azubu_The_Champions_Summer_2012|Champions Summer 2012]], and he traveled with the team to Korea. Despite an early elimination from the tournament, the team stayed in a gaming house to prepare for the [[Season_2/Regional_Finals_-_Seattle|Season 2 Regional Finals]]. At the regional finals, the team qualified for the [[Season 2 World Championship]] in third place, but at Worlds they were unable to win a single game, being eliminated in the group stage and ending the tournament with a 11th/12th place.
+
+===Preseason 3===
+On October 22, 2012 Voyboy left CLG as the team underwent a major roster change. On November 1, he joined [[Team Curse]] as their new toplaner, replacing [[Salce]].<ref>[http://www.reignofgaming.net/blogs/tuck-esports-inquirer/22196-voyboy-joins-curse-gaming Voyboy joins Curse Gaming]</ref> With teammates [[saintvicious]], [[Nyjacky]], [[Cop]], and [[Elementz]], Voyboy [[Riot_Season_3_Championship_Series/North_America/Qualifiers/Main_Event|qualified]] for the [[Riot_Season_3_Championship_Series/North_America|LCS]].
+
+===Season 3===
+Voyboy played in both the [[Riot_League_Championship_Series/North_America/Season_3/Spring_Round_Robin|spring split]] and the [[Riot_League_Championship_Series/North_America/Season_3/Summer_Round_Robin|summer split]] with Curse. He was a part of the Analyst Desk at the [[Season 3 World Championship]].<ref>[http://na.lolesports.com/articles/casters-and-analysts-announced-worlds Casters and analysts announced for Worlds] ''lolesports.com''</ref>
+
+===2014 Preseason===
+On October 14, 2013 [[Quas]] joined Team Curse from [[Gold Gaming LA]], taking over Voyboy's toplane position; Voyboy stayed on the roster, moving to midlane. Voyboy was the subject of [[Thorin]]'s 84th [[Grilled]] interview.<ref>[http://www.aceresport.com/en/voyboy_grilled.htm Voyboy 'Grilled'] ''aceresport.com''</ref>
+
+===2014 Season===
+Once again, Voyboy played in both LCS splits with Team Curse, this time as their midlaner. He became particularly known for his {{ci|Syndra}} play.
+
+===2015 Preseason===
+On November 11, 2014, Voyboy announced his departure from [[Team Curse]].<ref>[https://www.facebook.com/Voyboy/posts/754103881292912 Voyboy's Facebook Post] ''facebook.com''</ref> Though he did not plan to retire from competitive esports, he wanted to take some time off from playing in the LCS.
+
+== Trivia ==
+* Won 1st place at his first LAN event as a substitute for [[Counter Logic Gaming]].
+* Technically qualified for the Season 3 Championship Series twice, once with [[Counter Logic Gaming]] and once with [[Curse Gaming]]
+* Was ranked #1 on the Solo (5v5) Ladder on the North American Server in Season One.<ref>[http://competitive.na.leagueoflegends.com/ladders/na/archived/1/rankedsolo5x5 Season One North America 5X5 Solo Ladder] ''competitive.na.leagueoflegends.com''</ref>
+* Known for his hyper-aggressive top lane play.
+* Known for his {{ci|Renekton}}, {{ci|Akali}}, and {{ci|Lee Sin}} early in his career, and later, as the top laner for Curse, known for his {{ci|Elise}}.
+* MVP at [[IEM Season VI - World Championship]] <ref>[http://www.esl-world.net/masters/season6/hanover/news/187880/ Vote for LoL MVP] ''ESL World''</ref>
+* During Season 2, Voyboy was the first player in NA to reach 2000 ELO<ref>[http://competitive.na.leagueoflegends.com/article/interview-voyboy An Interview with Voyboy] ''competitive.na.leagueoflegends.com''</ref>
+* Scored 2300 on the SAT
+* Completed the International Baccalaureate (IB) Program while playing professionally. <ref>[http://www.reddit.com/r/leagueoflegends/comments/x1x52/my_close_friend_called_in_his_family_and_his/c5iih34 Voyboy Reddit Comment] ''reddit.com''</ref>
+* Because of his outstanding achievements and academic excellence, Voyboy was admitted to some of the most competitive universities, colleges, and scholarship programs in the United States. He's deferred enrollment to play competitive League of Legends, with the approval of his college.
+* Popularized playing {{ci|Katarina}} as a top lane bruiser.
+* Sees top lane as a live action game of chess in his head versus his opponent.
+* Known for saying "Cya nerds" after making a good play.
+* His family has ethnic roots in Iran.<ref name="Iran">[http://www.reddit.com/r/leagueoflegends/comments/1l8uwh/iran_banned_all_females_champions_except_annie_in/cbww7f0 Iran banned all females champions except Annie in their WCG regional] ''reddit.com''</ref>
+* Was part of the [[Season 3 World Championship]] Analyst desk.<ref> [http://na.lolesports.com/articles/casters-and-analysts-announced-worlds lolesports article] ''lolesports.com''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

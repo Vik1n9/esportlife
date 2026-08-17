@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Easylove&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「EasyLove」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Easylove
+|name=Hứa Thành An
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1999
+|birth_date_month=November
+|birth_date_day=26
+|favchamp=Ashe
+|favchamp2=Jhin
+|favchamp3=Kai'Sa
+|checkbox1=No
+|checkboxComp=No
+|ids='''VN:''' GAM Easylove <br>'''KR:''' ezl#1808 <br> '''EUW:''' thienlyoiii#A99 <br> '''NA:''' quyhyvongchamcom#GAM
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.youtube.com/@easylove1
+|facebook=https://www.facebook.com/easylovene
+|instagram=easylovene
+|youtube=https://www.youtube.com/@easylove1
+|lolpros=https://lolpros.gg/player/easylove
+|deeplol=https://www.deeplol.gg/pro/EasyLove
+|dpmlol=https://dpm.lol/pro/Easylove
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+Hứa '''"EasyLove"''' Thành An started his career as bot laner on the newly promoted [[LG Red]] in the [[VCS A/2017 Season/Summer Season |VCS 2017 Summer Season]].
+
+===2018 Season===
+
+After being relegated with LG Red, '''Easylove''' would join [[GAM Esports]] as trainee. It would be not long as he would join [[Hall of Fame]] in the middle of the split. The Hall of Fame squad would end up finishing last place with a 1-13 record. Easylove and his team would bounce back and not relegate, winning the [[VCS/2018 Season/Summer Promotion |VCS Summer Promotion]] round. 
+
+In the [[VCS/2018 Season/Summer Season |VCS Summer Season]], '''Easylove''' would be the pinnacle of success. He would start all of the games at [[Cube Adonis]] and finish 3rd in the regular split with a 9-5 record. They would reach the finals in the [[VCS/2018 Season/Summer Playoffs |VCS Summer Playoffs]] and lose against [[Phong Vũ Buffalo]] 1-3, missing out on the [[2018 Season World Championship]].
+
+===2019 Season===
+
+'''Easylove''' would remain on [[CERBERUS Esports (Vietnamese Team)|CERBERUS Esports]] (which rebranded from Cube Adonis), finishing 6th place in [[VCS/2019 Season/Spring Season|Spring]] (5-9) and 8th place in [[VCS/2019 Season/Summer Season|Summer]] (3-11). He would end up getting released from CERBERUS Esports after the Summer split had ended.
+
+===2020 Season===
+
+After being released from CERBERUS Esports, '''Easylove''' would return to [[GAM Esports]] as substitute bot laner behind [[Blazes]] and [[Hieu3]].
+
+Blazes and Hieu3 would end up released before the [[VCS/2020 Season/Summer Season]] started, which meant that Easylove would start for GAM Esports. Mainly playing utility champions such as {{ci|Ashe}} and {{ci|Jhin}}, the team found a lot of success with '''Easylove'''. The team with Easylove would end up finishing first place in the regular season and losing the [[VCS/2020 Season/Summer Playoffs |VCS Summer Finals]] 2-3 against [[Team Flash.Vietnam|Team Flash]].
+
+Despite having qualified for [[2020 Season World Championship]], Easylove could not attend with his team due to COVID-19 regulations as Vietnamese teams were not allowed to travel. 
+
+===2021 Season===
+
+'''Easylove''' would remain on [[GAM Esports]], alongside [[Style (Mai Hoàng Sơn)|Style]] to battle for a place in the bot lane position for the [[VCS/2021 Season/Spring Season|Spring Season]].
+
+== Trivia ==
+* Known as "The people's ADC" by many Vietnamese fans.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

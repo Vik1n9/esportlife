@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kaiser&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.366Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kaiser」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kaiser
+|name=Norman Kaiser
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=November
+|birth_date_day=19
+|favchamp=Rakan
+|checkbox1=No
+|compID1=Gistick
+|checkboxComp=No
+|ids='''EUW''': livelyfish5<br>PQPAANLS<br>my adc cringe<br>'''CN:''' EU26
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kaiserlol6
+|twitter=KaiserLoL
+|instagram=kaiserlol1
+|lolpros=https://lolpros.gg/player/kaiser
+|deeplol=https://www.deeplol.gg/pro/Kaiser
+|dpmlol=https://dpm.lol/pro/Kaiser
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Gistick'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+
+=== Individual Awards ===
+* 1x EU 1st All Pro Team (Summer 2020)
+* 3x EU 3rd All Pro Team (Spring 2020, Spring 2021, Summer 2021)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

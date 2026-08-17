@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Alive&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Alive」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Alive
+|name=Noh Jin-wook
+|nativename=노진욱
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=February
+|birth_date_day=27
+|favchamp=Xayah
+|favchamp2=Jinx
+|favchamp3=Lucian
+|favchamp4=Ezreal
+|checkbox1=No
+|compID1=Laftel
+|checkboxComp=No
+|ids='''EUW:''' smilee mama
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/profile.php?id=100004801984900
+|twitter=Alivelol2
+|instagram=alive_lol
+|lolpros=https://lolpros.gg/player/alive/
+|deeplol=https://www.deeplol.gg/pro/Alive
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Laftel'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+
+=== Individual Awards ===
+* LLA All Pro Team x2 (Opening 2020, Closing 2020)
+* LLA Most Weekly MVPs in his role in the split (Closing 2020)
+* LLA Best Import Player (Opening 2020)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

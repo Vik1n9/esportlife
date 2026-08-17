@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Morgan&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.369Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Morgan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Morgan
+|name=Park Ru-han
+|nativename=박루한
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2001
+|birth_date_month=September
+|birth_date_day=26
+|favchamp=Renekton
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Morgan5358<br>보라별사탕<br>HLE Morgan1<br>5358<br>'''EUW:''' Star is coming
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/pjh13551
+|instagram=ru_han_p
+|weibo=https://www.weibo.com/u/7310915692
+|deeplol=https://www.deeplol.gg/pro/Morgan
+|dpmlol=https://dpm.lol/pro/Morgan
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His name was previously Park Gi-tae (박기태).
+* Dubbed by Twitch chat as "Lord Morgan" when performing well.
+* He has a large fan base in Vietnam (on par with the top LCK players). People often call him "Ngài" (Lord or Sir) and spam the crocodile (🐊) icon every time he picks Renekton.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

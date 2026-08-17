@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ale&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ale」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Ale
+|name=Hu Jia-Le
+|nativename=胡嘉乐
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=July
+|birth_date_day=23
+|checkbox1=No
+|compID1=Natural
+|checkboxComp=No
+|ids='''KR:''' huntiandi1<br>'''EUW:''' LNGLNGLNG
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/913003
+|weibo=https://www.weibo.com/n/Ale-胡嘉乐
+|deeplol=https://www.deeplol.gg/pro/Ale
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Natural'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+*Nicknamed "50 Yuan top" by Chinese fans. Prior to the 2021 season, [[Royal Never Give Up|RNG]] invited Ale to try out for the team. But after Ale arrived at RNG's base, RNG told him that they had already decided to switch [[Xiaohu]] to top. Assistant Coach [[Poppy (Chang Po-Hao)|Poppy]] gave Ale 50 CNY (about 7.7 USD) for compensating him to take a taxi home and keep the change to buy some drinks.<ref>[https://lujuba.cc/en/524811.html Article via lujuba ]''lujaba.cc''</ref>
+* Reached 1000 kills in the LPL on July 22, 2023.
+** The 44th player and 6th toplaner to reach 1000 kills in the LPL.
+** Achieved it in the same series as [[Able]]'s 1000 kills milestone.
+* Reached 500 games in the LPL on May 21, 2025.
+** The 33rd player to reach 500 games in the LPL.
+*Was famous within China and Korea for reaching and hovering between rank 1 and 2 in the Korean server under the name "Huntiand1"
+**Got caught up in a scandal when [[Doran (Choi Hyeon-joon)|Doran]] got banned from competitive play for 1 game for "trolling" after playing a game of solo queue against him and dying 15 times in 2019.
+
+=== Individual Awards ===
+* LPL 2nd All Pro Team x1 (Split 1 2025) 
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

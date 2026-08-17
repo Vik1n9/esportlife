@@ -1,0 +1,72 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Chazz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.570Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Chazz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Chazz
+|name=Jesse Mahoney
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=PCS
+|birth_date_year=1998
+|birth_date_month=October
+|birth_date_day=06
+|favchamp=Zed
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' infinity361
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/SanctumChazz
+|twitter=SanctumChazz
+|instagram=SanctumChazz
+|lolpros=https://lolpros.gg/player/chazz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Chazz''' is a reference to the character '''Chazz Princeton''' from the Japanese anime series  [[wikipedia:en:Yu-Gi-Oh!_GX|''Yu-Gi-Oh! GX'']].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pyosik&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Pyosik」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Pyosik
+|name=Hong Chang-hyeon
+|nativename=홍창현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=March
+|birth_date_day=12
+|favchamp=Kindred
+|favchamp2=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' DRX 홍창현<br>'''CN:''' washingchingDDao<br>'''NA:''' jg is weakkkk
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/tkfkqlrh22
+|facebook=https://www.facebook.com/profile.php?id=100007709440416
+|twitter=Pyosik_lol
+|instagram=pyosik_0312
+|youtube=https://www.youtube.com/channel/UCxZHYuFIjZmAlWGNCQ7-KtA
+|deeplol=https://www.deeplol.gg/pro/Pyosik
+|dpmlol=https://dpm.lol/pro/Pyosik
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Considered the best {{ci|Kindred}} player in Korean server.
+* His ID '''Pyosik''' (표식) means "mark" in Korean. The name is a reference to the marks that {{ci|Kindred}} collects.
+* First Jungler in LCS to achieve a pentakill.
+* Reached 1000 kills in the LCK on April 20, 2025.
+** The 32nd player to reach 1000 kills in the LCK.
+
+=== Individual Awards ===
+* Player of the Split x1 (2021 Spring) 
+* LCK 2nd All-Pro Team x1 (2021 Spring) 
+* LCS 3rd All-Pro Team x1 (2023 Summer) 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

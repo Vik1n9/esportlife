@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Fudge&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.082Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Fudge」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Fudge
+|name=Ibrahim Allami
+|nativename=إبراهيم اللامي
+|namealphabet=Arabic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=North America
+|birth_date_year=2002
+|birth_date_month=May
+|birth_date_day=23
+|favchamp=Akali
+|favchamp2=Aatrox
+|favchamp3=Jayce
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' HOPIUMCOPIUM <br> Fudgecakey<br>'''EUW:''' Oswald Yuki <br> '''KR:''' PUDJI <br> C9 David
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/fudgeylol
+|twitter=Fudgecakey
+|instagram=fudgecakey4
+|lolpros=https://lolpros.gg/player/fudge/
+|deeplol=https://www.deeplol.gg/pro/Fudge
+|dpmlol=https://dpm.lol/pro/Fudge
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+Fudge was born in Brisbane, Australia. He began playing ''League of Legends'' in Season 3, when he was 11 years old. He began playing in the [[Oceanic Challenger Series]] in 2018.
+
+=== 2019 Season ===
+In the middle of the 2019 season, Fudge joined [[MAMMOTH]], replacing [[Topoon]]. Fudge was the team's only mid-season replacement, but he helped lead the team from a mediocre finish in split 1 to a 1st place finish in the [[OPL 2019 Split 2 Playoffs|split 2 playoffs]]. At [[Worlds 2019]], MAMMOTH went 2-2 in Play-In groups, but was eliminated in tiebreakers.
+
+=== 2021 Season ===
+Fudge was one of many Oceanic players to move to North America, joining [[Cloud9 Academy]] in 2020. Fudge established himself as one of the top prospects in the academy league, with his team winning regular season and playoffs in both splits. Following new Oceanic residency rules, Fudge no longer counted as an import in North America and was soon promoted to the [[Cloud9]] LCS roster, replacing star player [[Licorice]]. Fans and analysts questioned the move, especially since [[Jack (Jack Etienne)|Jack]] had claimed C9 would not make roster changes during the offseason. C9 performed well in spring, and although Fudge's individual performance was sometimes criticized, the team managed to win the split. At [[MSI 2021]], C9 struggled, dropping games to multiple wildcard teams, but Fudge showcased much stronger individual play. He continued his dominant form in summer, where he was voted both 1st All-Pro Team and Most Improved Player. However, the team could not replicate its spring championship run and finished 3rd in playoffs. At [[Worlds 2021]], C9 took advantage of [[FunPlus Phoenix]]'s underperformance to narrowly escape groups with a 2-4 record, before being eliminated 3-0 by [[Gen.G]] in quarterfinals.
+
+=== 2022 Season ===
+The beginning of the 2022 season came with the surprising announcement that Fudge would role swap to mid lane. Despite the unorthodox change, Fudge performed well on supportive mid laners and even managed to land of the 3rd All-Pro Team for his performance. However, C9 collapsed in playoffs, and many criticized Fudge's inability to perform as a carry when his top laner [[Summit]] was target banned. Summit left the team after the disappointing spring finish and Fudge returned to top lane. In summer, C9 struggled during the regular season, but came alive in playoffs, led by rookie bot laner [[Berserker (Kim Min-cheol)|Berserker]] to ultimately win the championship, marking Fudge's second championship in two years. At [[Worlds 2022]], Fudge was criticized for continually locking in carry top laners like [[Fiora]] without managing to gain significant advantages. C9 won only a single game at Worlds and was eliminated at groups with a 1-5 record.
+
+== Trivia ==
+* Makes frequent appearances on [[LS]]'s stream.
+* Known for his trash talk.
+* His favorite musician is Kendrick Lamar.
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team x2 (2021 Summer, 2023 Spring)
+* LCS 3rd All-Pro Team x2 (2022 Spring, 2023 Summer)
+* LCS Most Improved Player (2021 Summer)
+* LCS Spring Finals MVP (2023 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

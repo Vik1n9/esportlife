@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Reginald&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.821Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Reginald」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=ReginaId
+|name=Andy Dinh
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1992
+|birth_date_month=April
+|birth_date_day=19
+|favchamp=Karthus
+|favchamp2=LeBlanc
+|favchamp3=Diana
+|checkbox1=No
+|checkboxComp=No
+|ids=Reginald, ReginaId, TSM TheDumbDeer (EUW),
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tsm_reginald
+|facebook=https://www.facebook.com/TSMReginald
+|twitter=TSMReginald
+|instagram=andydinh8
+|snapchat=tsmreginald
+|reddit=reginaldBRO
+|youtube=https://youtube.com/user/SolomidDOTNet
+|linkedin=https://www.linkedin.com/in/andydinhtsm
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=No
+|checkboxTOCR=Yes
+|text=Andy "'''Reginald'''" Dinh is the co-owner of [[Team SoloMid]]. He was previously the team's mid laner.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Coach
+|prev2=Mid
+|nicknames=Regi, Regimaid, Regibro, Rageinald.
+}}
+==Biography==
+Reginald originally came from San Jose, California, USA. On September 2009, Reginald created the [[SoloMid.Net]] website. At this time he was part of team '''All or Nothing'''. 
+
+After the team disbanded due to conflict between Reginald and [[Dan Dinh]] on what the team needed, as well as differences in play-style between the brothers, he moved onto [[Team SoloMid]] in 2011 and became the mid laner for the team.<ref>[http://www.youtube.com/watch?v=mOohZzDGgVQ Dan Dinh Interview - Family DINHasty - IPL League of Legends] ''youtube.com''</ref> He has competed at LAN events such as [[MLG]], IEM, and IPL. Currently his main champions are {{ci|Ahri}}, {{ci|Cassiopeia}}, {{ci|Morgana}}, {{ci|Kennen}}, {{ci|Karthus}}, {{ci|Gragas}}, {{ci|Galio}}, {{ci|Twisted Fate}}, {{ci|Ryze}} and in rare cases {{ci|Ziggs}}. After the [[Season 2 World Championship]], Reginald announced his retirement from professional League of Legends and said he would become a manager for Team SoloMid, but later announced that he would instead remain as the team's Mid Laner; he has since stepped down from Mid Lane and has become the team's Coach/Analyst.
+
+On August 14, 2014, it was announced that Reginald violated the LCS rules by refusing to apply the instructions or decisions of LCS officials by announcing [[Lustboy]] as new player of TSM without Riot's final approval. He was fined $ 2,000.<ref>[http://na.lolesports.com/articles/na-lcs-competitive-ruling-andy-%E2%80%9Creginald%E2%80%9D-dinh NA LCS Competitive Ruling - Andy “Reginald” Dinh] ''na.lolesports.com''</ref>
+
+==Playstyle==
+Reginald is known for having a very aggressive playstyle in the mid lane, roaming a lot and attempting for kills in lane. He later on switched to a more balanced playstyle, knowing when to go aggressive and when not to.
+
+== Trivia ==
+* Founder, owner, and formerly the captain and shot caller of [[Team SoloMid]].
+* Known for his strategic abilities.
+* Known for his BAY LIFE Empire.
+* Known for his aggressive play-style, especially in Season 1.
+* Known for his {{ci|Shaco}} and {{ci|Kayle}} in his early LoL career.
+* Known for his {{ci|Karthus}},{{ci|Cassiopeia}}, and {{ci|Gragas}} in Season 2.
+* Nicknamed 'Rageinald' for his temper.
+* Brother of [[Dan Dinh]] and Jonas Dinh.<ref>[http://ggchronicle.com/team-solomid-acquires-new-coach/ Team SoloMid Acquires New Coach] ''ggchronicle.com''</ref>
+* Some of his teammates have called him the "sponge" of TSM as he absorbs all of the hate, for example when [[Chaox]] was removed from the team he claimed it was his decision and his alone.
+* Got a penta kill in the [[Sound Blaster Nations Championship]] with {{ci|Gragas}} which is considered one of the first penta kills in competitive League of Legends.
+* The origin of the name Reginald came from Andy trying to think of the most annoying, hated name he could, hence Reginald.<ref>[http://www.youtube.com/watch?v=WNpK76KUZkM/ How a pro player gets his name] ''youtube.com''</ref>
+* One of five players to have qualified for the first three World Championships, along with [[Dyrus]], [[TheOddOne]], [[Xpecial]], and [[YellOwStaR]].
+* Infamously memed for accidentally pulling out Blue Card as {{ci|Twisted Fate}} in multiple games.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

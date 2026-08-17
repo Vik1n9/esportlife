@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Marfz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Marf」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Marfz
+|name=João&nbsp;Luis Piola
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=March
+|birth_date_day=14
+|favchamp=Cassiopeia
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/marfz1
+|facebook=https://www.facebook.com/marflol
+|twitter=marfyzz
+|instagram=marfz1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Created [https://twitter.com/nexusacademylol Nexus Academy], a platform for players of all elos who want to learn about the game, climb elos and become progamers.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

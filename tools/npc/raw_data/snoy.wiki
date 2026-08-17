@@ -1,0 +1,63 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Snoy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.920Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Snoy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Snoy
+|name=Elijah Joshua Guerrero
+|image=MSK Snoy 2013 WCS.png
+|checkboxAutoImage=No
+|country=Philippines
+|residency=Southeast Asia
+|favchamp=Zed
+|checkbox1=No
+|checkboxComp=No
+|ids=Admiral Snoy, Moonless Sky, Mineski Snowy (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/SnoyMLE
+|twitter=Snoylax
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+mski snoy.png|Mineski Snoy
+</gallery>
+
+{{PlayerPageEnd}}

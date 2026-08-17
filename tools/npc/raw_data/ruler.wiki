@@ -1,0 +1,121 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ruler&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.541Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ruler」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ruler
+|name=Park Jae-hyuk
+|nativename=박재혁
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=29
+|favchamp=Ezreal
+|favchamp2=Zeri
+|favchamp3=Lucian
+|favchamp4=Xayah
+|checkbox1=Yes
+|favchamp5=Ashe
+|favchamp6=Aphelios
+|favchamp7=Kalista
+|compID1=Bung
+|checkboxComp=No
+|ids='''KR:''' 귀찮게하지마#KR3<br>'''CN:''' glaemfekglaemfdj<br>'''EUW:''' Gen G Ru1er#EUW<br>'''NA:''' Ruler#145<br>'''BR:''' Time#125
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/pwh9811
+|facebook=https://www.facebook.com/RulerKsv
+|twitter=RulereluR
+|instagram=lol_ruler98
+|videoarchive=https://www.huya.com/285749
+|weibo=https://www.weibo.com/ruler1229
+|lolpros=https://lolpros.gg/player/ruler
+|deeplol=https://www.deeplol.gg/pro/Ruler
+|dpmlol=https://dpm.lol/pro/Ruler
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Bung'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Park "'''Ruler'''" Jae-hyuk played as '''Bung''' for [[Stardust (Korean Team)|Stardust]] in [[Challengers Korea/2016 Season/Spring Season|Challengers Korea 2016 Spring]]. They finished third in the regular season, ahead of [[Ever8 Winners]] and behind [[ESC Ever|Ever]]. In the [[Challengers Korea/2016 Season/Spring Playoffs|Spring Playoffs]], they were eliminated in the first round. During the midseason break, Ruler left Stardust and joined [[Samsung]].<ref>[http://www.facebook.com/ssgalaxyteam/photos/567142393458774 삼성 갤럭시 프로게임단's Facebook Post (Korean)] ''facebook.com''</ref> To make room for his entry, former ADC [[CoreJJ]] moved to support.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], Ruler managed to impress with his performance, leading the English OGN casters to dub him as the unofficial rookie of the split. This earned him the starting ADC spot over [[Stitch]]. They managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]].
+
+== Trivia ==
+* His ID '''Ruler''' was recommended by team coach [[Edgar]].
+* Was awarded MVP for the [[2017 Season World Championship]].
+* Reached 1000 kills in the LCK on April 01, 2020
+** Was the 11th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]] and [[Teddy]].
+** His 1000th kill was on [[T1]]'s Jungler [[Cuzz]] in the [[LCK 2020 Spring|LCK 2020 Spring Season]] with {{ci|Aphelios}}.
+* Reached 1500 kills in the LCK on April 10, 2021.
+** The 7th player to reach 1500 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], and [[Deft]].
+* Reached 2000 kills in the LCK on July 22, 2022
+** Was the 3rd player to reach 2000 kills in the LCK, after [[Faker]] and [[Deft]]
+** His 2000th kill was on [[Liiv SANDBOX]]'s Support [[Kael (Kim Jin-hong)|Kael]] in the [[LCK 2022 Summer|LCK 2022 Summer Season]] with {{ci|Jinx}}.
+* Reached 2500 kills in the LCK on August 14, 2025.
+** The 5th player to reach 2500 kills in the LCK after [[Faker]], [[Deft]], [[Bdd]], and [[Aiming]].
+* Reached 500 games played in the [[LCK]] on August 15th, 2021, becoming the 4th player to do so after [[Faker]], [[Score]] and [[Deft]].
+** His 500th game was a victory in the first game of the series against [[Nongshim RedForce]] in the [[LCK 2021 Summer]].
+* Reached 600 games in the LCK on April 06, 2025, becoming the 9th player to do so, after Faker, Deft, Bdd, Peanut, Kiin, Teddy, Chovy, and [[Lehends]].
+* Was the player with the most kills in one split, 209 kills in [[LCK 2020 Summer]], before [[Gumayusi]] surpassed him with 219 kills in [[LCK 2022 Spring]] 
+* Reached 300 wins in [[LCK]] on January 14, 2022, becoming the 6th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]] and [[Deft]].
+** His 300th win was in the second game of the series against [[DRX]] in [[LCK 2022 Spring]]. 
+* Reached 400 wins in [[LCK]] on May 23, 2025, becoming the 9th player to do so after [[Faker]], [[Deft]], [[Peanut]], Bdd, Chovy, Lehends, Kiin, and Canyon.
+* Reached 500 international kills during [[2025 Mid-Season Invitational|MSI 2025]] on July 13, 2025 in Grand Finals, becoming the 9th player to achieve this milestone after [[Faker]], [[Perkz]], [[xiaohu]], [[Caps]], [[Maple (Huang Yi-Tang) | Maple]], [[GALA]], [[Gumayusi]], and [[Bin (Chen Ze-Bin)|Bin]].
+* Reached 3000 assists in the LCK on September 21, 2025.
+** Was the 23rd player to reach 3000 assists in the LCK.
+* By winning [[MSI 2023]] with JD Gaming, Ruler became the second player after [[Deft]] to win [[Worlds]] ([[2017 Season World Championship|2017]] with Samsung Galaxy), [[MSI]] ([[MSI 2023|2023]] with JD Gaming), [[LCK]] ([[LCK/2022 Season/Summer Playoffs|2022 Summer]] with Gen.G) and [[LPL]] ([[LPL/2023 Season/Spring Playoffs|2023 Spring]] with JD Gaming).
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* Worlds MVP x1 (2017)
+* LCK Finals MVP x1 (LCK 2025)
+* LCK MVP x1 (Summer 2022)
+* LCK Player of the Split x1 (Summer 2022)
+* LCK 1st All-Pro Team x4 (Summer 2020, Spring 2021, Summer 2022, LCK 2025)
+* LCK 2nd All-Pro Team x2 (Summer 2021, Spring 2022)
+* LPL 1st All-Pro Team x2 (Spring 2023, Summer 2023)
+* LPL 2nd All-Pro Team x1 (Spring 2024)
+* LPL 3rd All Pro Team x1 (Summer 2024)
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

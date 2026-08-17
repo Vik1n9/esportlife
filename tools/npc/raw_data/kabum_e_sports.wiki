@@ -1,0 +1,165 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=KaBuM!%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.365Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「KaBuM! e-Sports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=KaBuM! Ilha das Lendas
+|name= KaBuM! Esports
+|orgcountry= Brazil
+|country=
+|region=Americas
+|analysts= 
+|headcoach=
+|manager= 
+|owner=Julio Cesar '''"Trajano"''' Trajano
+|captain= 
+|website= http://e-sports.kabum.com.br
+|youtube= https://www.youtube.com/kabumesports
+|twitter= KaBuMESports
+|tiktok= kabum.esports
+|instagram= kabumesports
+|facebook= https://www.facebook.com/KaBuM.eSports
+|lolpros= https://br.lolpros.gg/team/kabum-esports
+|sponsor= [https://www.obvious.com.br Obvious Fibra]<br>[https://www.lg.com/br/monitores/monitores-ultragear/ LG UltraGear]<br>[https://www.magazineluiza.com.br Magalu]<br>[http://www.kabum.com.br KaBuM!]<br>[https://www.netshoes.com.br Netshoes]
+|created= LoL Division 2013-09-01
+|rosterphoto=Kabum CBLOL 2024.png
+}}{{TOCRWI}}
+
+'''KaBuM! Esports''' is a Brazilian esports organization, founded by the e-commerce shop KaBuM. 
+
+== History ==
+In 2013, KaBuM!, the biggest e-commerce platform in Latin America, announced the creation of a project dedicated to electronic esports with their own League of Legends team through the acquisition of the [[Nex Impetus]]'s roster.
+Players and supporters often refer to themselves as ninjas, a reference to the team's parent company's mascot.
+
+=== 2014 Season ===
+After participating in several small tournaments, in 2014 KaBuM! qualified for the [[Brazilian Champions Series 2014]] where it conquered the first place marking the first time a team from Brazil would represent the country in an international tournament, the [[Worlds 2014]].
+By the end of the year, the team would go through a series of restructuring even rebranding the team as '''KaBuM! Orange''' and creating a sister team [[KaBuM! Black]].
+
+=== 2017 Season ===
+The last couple of years saw KaBuM! constantly stalled at the seventh place, not able to move forward to the playoffs and having to compete in the promotions to keep their spot in the league. In 2017 they ended the first split in seventh place once again, this time not being able to win the promotion, they ended up losing their spot at [[CBLOL 2017 Split 2]] and played at [[BRCC 2017 Split 2]] instead. There, they managed to win in first place, securing their spot at [[CBLOL 2018 Split 1]].
+
+=== 2018 Season ===
+2018 was a historic year for the organization. In the first split the ninjas got their second national title, followed by their participation in [[MSI 2018]] and the first place in [[Rift Rivals 2018 LLN-CLS-CBLOL|Rift Rivals 2018]], then considered to be the biggest rivalry in Latin American League of Legends.
+After all those acomplishements, the team went ahead to conquer their third national title, by winning the [[CBLOL/2018 Season/Split 2|CBLOL 2018 Split 2]], which garanteed their spot at [[Worlds 2018]], marking the first time the same team would represent Brazil twice in Worlds.
+That year also saw the team receiving five prizes in the league: [[TitaN]] for best AD Carry, [[DyNquedo]] for best mid laner and player of the year, [[Riyev]] best support and [[Hiro (Lee Woo-suk)|Hiro]] for best coach.
+
+=== 2019 Season ===
+After [[Hiro (Lee Woo-suk)|Hiro]] decided to go back home to Korea, KaBuM! hired [[Tabe]] as the new head coach. This wasn't a smooth transition though. The [[CBLOL/2019 Season/Split 1|CBLOL 2019 Split 1]] saw KaBuM! placing in the lower half of the table, barely avoiding the promotions series.
+[[Hiro (Lee Woo-suk)|Hiro]] was hired back in the middle of the first split to a clear difference in game performance after a couple of games.
+At the end of the first split, [[Tabe]] was no longer working with KaBuM! and left criticizing the conditions with which he had to live in while staying with the team. However, the organization has denined those criticisms saying they are just not true with players also reporting mistreatment from [[Tabe]].
+Most players left after the first split with the few that were left leaving after the second.
+At the second split, the team saw the addition of [[DudsTheBoy]] and [[Ceos]] which after a great show during the regular split, ended up losing the semifinals for [[INTZ]], therefore conquering the third place.
+
+=== 2020 Season ===
+In 2020 KaBuM!, had a bad start, losing most of their games in the first split. Then [[CBLOL/2020 Season/Split 1|CBLOL 2020 Split 1]] had to be paused due to heavy rains that flooded the studio. They came back a few weeks later just to pause once again, this time due to a surge in Covid-19 cases in São Paulo where the games were taking place.
+This time off really helped the team focus, which lead to them winning in first place once the tournament had returned in an online only mode, conquering their fourth national title. This win led to the team qualifying for [[MSI 2020]] which got canceled due to the pandemic.
+At the second split, the team saw a few more changes to its roster, on the top lane, which lead to them ending the split in fourth place. The team did, however, get selected to participate in [[CBLOL/2021 Season/Split 1|CBLOL 2021 Split 1]] which now holds a new format and created a new academy team, [[KaBuM! Academy]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Liz (Elizabeth Sousa)|br|Elizabeth Sousa|'''Streamer'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayer|Filipoppy|br|Filipe Pinto|'''Streamer'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayer|Daniels|br|Daniel Marcon|'''Ambassador'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayersp|Danilo|br|Danilo Moura Geraldi|'''Esports Director'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayersp|Freizer|br|Mike Paiva|'''Manager'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayersp||br|Gabriella Machado|'''Psychologist'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayersp||br|Bruno Fredi|'''Physiotherapist'''|newteam=KaBuM! Ilha das Lendas}}
+{{listplayer|Paclo|br|Jhun Hyun-uk (전현욱)|'''Translator'''|newteam=LOUD}}
+{{listplayersp|Chelsia|br|Júlia Carolina|'''Ambassador'''|newteam=none}}
+{{listplayersp|Emilly|br|Emilly|'''Ambassador'''|newteam=none}}
+{{listplayer|Ares (Kim Min-kwon)|kr|Kim Min-kwon (김민권)|'''Head Coach'''|newteam=DFM}}
+{{listplayer|ti0ben|br|André Martinez|'''Assistant Coach'''|newteam=Flamengo MDL}}
+{{listplayer|Von (Gabriel Barbosa)|br|Gabriel Barbosa|'''Strategic Coach'''|newteam=Leviatan}}
+{{listplayer|Disave|br|Danilo Chaves|'''Coach'''|newteam=Riot Games}}
+{{listplayer|Sickness|kr|Kim San-ha (김산하)|'''Head Coach'''|newteam=none}}
+{{listplayer|SrVenancio|br|Victor Venâncio|'''Analyst'''|newteam=Bandits}}
+{{listplayer|Nuddle|ca|Jean-François Caron|'''Head Coach'''|newteam=Retired}}
+{{listplayer|Professor|br|Matheus Leirião|'''Coach'''|newteam=Riot Games Inc.}}
+{{listplayer|Nishikino|br|Rafael Albuquerque|'''Coach'''|newteam=Retired}}
+{{listplayer|Abaxial|us|Alexander Haibel|'''Head Coach'''|newteam=FLA}}
+{{listplayer|Thurizao|br|Célio Oliveira|'''Manager'''|newteam=Retired}}
+{{listplayer|Kake|br|Guilherme Braga|'''Head Coach'''|newteam=FLA}}
+{{listplayer|Hiro|link=Hiro (Lee Woo-suk)|kr|Lee Woo-suk (이우석)|'''Head Coach'''|rejoined=yes|newteam=Retired}}
+{{listplayer|Halier|br|Gabriel Garcia|'''Assistant Coach'''|newteam=Havan}}
+{{listplayer|Tabe|hk|Wong Pak Kan (王柏勤)|'''Coach'''|newteam=RNG}}
+{{listplayer|link=Hiro (Lee Woo-suk)|Hiro|kr|Lee Woo-suk (이우석)|'''Head Coach'''|newteam=KaBuM}}
+{{listplayersp|Arddhu|br|Gabriel Gastaldo|'''Manager'''|newteam=Team Reapers}}
+{{listplayersp||br|Guilherme Fonte|'''Esports Director'''|newteam=Retired}}
+{{listplayer|Nuddle|ca|Jean-François Caron|'''Head Coach'''|newteam=UOL}}
+{{listplayersp|FeeFoo|br|Sylvio Junior|'''Coach'''|newteam=SUB}}
+{{listplayer|Neki|br|Vinícius Ghilardi|'''Coach'''|newteam=oNe}}
+{{listplayer|Galfi|br|Hugo Augusto|'''Assistant Coach/Analyst'''|newteam=CNB}}
+{{listplayer|Peter (Peter Zhang)|cn|Peter Zhang (張藝)|'''Head Coach'''|newteam=EFX}}
+{{listplayer|dans|br|Daniel Dias|'''Coach'''|newteam=Kabum O}}
+{{listplayer|Piroxz|br|Luis Chavez|'''Analyst'''|newteam=B Gods}}
+{{listplayer|Ziriguidun|br|Pedro Vilarinho|'''Coach'''|newteam=Kabum O}}
+{{listplayer|esA|jp|Eidi Yanagimachi|'''Coach'''|newteam=Keyd Stars}}
+{{listplayer|bit1|br|Bruno Lima|'''Manager'''|newteam=Retired}}
+{{listplayer|Philip (Renan Nishiyama)|br|Renan Nishiyama|'''Coach'''|newteam=Keyd Team}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+=== As KaBuM! Orange ===
+{{TeamResults|Kabum Orange|show=overviewpage}}
+
+=== As KaBuM! Black===
+{{TeamResults|Kabum Black|show=overviewpage}}
+
+==Interviews==
+{{TDRight
+|name1=2014}}
+{{TDRight|tab}}<!--2014-->
+* September 13 - [http://www.reddit.com/r/leagueoflegends/comments/2gbwki/hi_we_are_kabum_esports_from_brazil_ama_time/ Hi! We are KaBuM e-sports from Brazil, AMA time!] ''with Reddit''
+* October 25 - [http://www.paravine.com/2014/10/interview-kabum-e-sports/ Interview with KaBuM! e-Sports (English)] [http://www.paravine.com/2014/10/entrevista-ao-kabum-e-sports/ (Portuguese)] ''with Paravine''
+{{TDRight/end}}
+
+==Articles==
+{{TDRight
+|name1=2014
+|name2=2015
+|name3=2018}}
+{{TDRight|tab}}<!--2018-->
+* April 23, [https://www.invenglobal.com/lol/articles/4877/how-an-upset-unfold-a-legacy-the-kabum-esports-timeline How an upset unfold a Legacy - The Kabum Esports timeline] ''by Alexandre "DrPuppet" Weber on Inven Global''
+* May 4, [https://dotesports.com/league-of-legends/news/kabum-esports-cinderella-story-international-stage-msi-23326 KaBuM! are the Cinderella story that Brazil needs on the international stage] ''by Aaron Mickunas on Dot Esports''
+{{TDRight|tab}}<!--2015-->
+* January 12, [http://www.paravine.com/2015/01/cblol-2015-preview-kabum-orange-new-black/ CBLoL 2015 Preview: KaBuM! Orange and the New Black] ''by Paravine''
+* September 20, [http://followesports.com/topics/post/57 Revisiting Alliance VS. Kabum! E-Sports One year later] ''from Follow eSports''
+{{TDRight|tab}}<!--2014-->
+* September 9, [http://lolesports.com/articles/breaking-down-group-d Breaking down Group D] - ''from [http://lolesports.com LoL Esports]''
+* September 16, [http://cloth5.com/world-championship-preview-kabum-esports/ World Championship Preview: KaBuM eSports – Brazilian Hope (Group D)] - ''from [http://cloth5.com Cloth5]''
+* September 23, [http://content.azubu.tv/moba/league-of-legends/league-legends-world-championship-preview-group-d/ League of Legends World Championship Preview – Group D] - ''from [http://content.azubu.tv Azubu]''
+* September 23, [http://ggchronicle.com/season-four-world-championship-preview-kabum-e-sports/ Season Four World Championship Preview: KaBuM! e-Sports] - ''from [http://ggchronicle.com/ ggChronicle]''
+* September 30, [http://www.esportsheaven.com/articles/view/5319 The Power of Picks and bans: Featuring Alliance vs KaBuM! eSports] - ''from [http://www.esportsheaven.com/ Esports Heaven]''
+* October 2, [http://ggchronicle.com/the-evolution-of-an-underdog-and-what-kabum-e-sports-victory-means-for-brazil/ The Evolution of an Underdog and What KaBuM! e-Sports’ Victory Means for Brazil] - ''from [http://ggchronicle.com/ ggChronicle]''
+{{TDRight/end}}
+
+==Videos==
+{{TDRight
+|name1=2014}}
+{{TDRight|tab}}<!--2014-->
+* September 24 - [http://na.lolesports.com/articles/exploding-scene-kabum-e-sports Exploding onto the Scene: KaBuM! e-Sports] - from ''[http://na.lolesports.com LoL Esports]
+{{TDRight/end}}
+==Links==
+* [http://www.youtube.com/watch?v=JjrbpLfRWps Tudo Random especial - Apresentação da equipe da Kabum e-Sports de League of Legends]
+
+== Images ==
+{{TeamProfileGallery}}
+=== Logos ===
+<gallery>
+KaBuM! e-Sports Old Logo.png|KaBuM! e-Sports Logo (2013-2018)
+KaBuM! e-Sportslogo square old.png|KaBuM! e-Sports Logo (2018-2022)
+</gallery>
+
+==References==
+<references />

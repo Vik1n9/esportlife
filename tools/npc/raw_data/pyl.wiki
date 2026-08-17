@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pyl%20(Chen%20Bo)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.766Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Pyl」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=pyl
+|name=Chen Bo
+|nativename=陈博
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1994
+|birth_date_month=November
+|birth_date_day=06
+|favchamp=Alistar
+|favchamp2=Thresh
+|favchamp3=Sona
+|checkbox1=No
+|compID1=TOFU
+|compID2=Aya
+|checkboxComp=No
+|ids=LGD.TaoBaoPYL (CN), LGD1006TVPyl (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Caster
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://live.bilibili.com/22439496
+|weibo=https://weibo.com/u/1641933033
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''TOFU''' and '''Aya'''. 
+[[Category:Casters]]
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|nicknames=平野绫 (Hirano Aya)
+}}
+==Biography==
+Chen "'''Pyl'''" Bo joined [[LGD Gaming]] as a support in September of 2012 after playing for [[Canis Lupus Campestris]] and [[HanGong Clan]].
+
+===2014 Season===
+
+Pyl and LGD finally qualified for the LPL by going 3-0 in the [[2014 LPL Spring/Promotion|2014 LPL Spring Promotion]]. LGD played in [[Demacia Cup/Season 1|Demacia Cup Season 1]] but they lost in the first round 2-0 to [[OMG]]. They performed decently during the [[2014 LPL Spring/Regular Season|2014 LPL Spring Season]], placing fifth and missing playoffs but re-earning their spot in the [[2014 LPL Summer/Regular Season|2014 LPL Summer Season]]. They were knocked out extremely early in [[Demacia Cup/Season 2|Demacia Cup Season 2]], losing 2-1 to [[Team RM]] in the very first round. LGD placed fourth in LPL summer and managed to qualify for the [[2014 LPL Summer/Playoffs|2014 LPL Summer Playoffs]]. Unfortunately, they failed to win a single game, losing 3-0 to both [[EDward Gaming]] and [[Star Horn Royal Club]]. LGD managed to make it to the [[2014 Season China Regional Finals]] but were knocked out in the second round with a 2-1 loss to OMG.
+
+===2015 Season===
+
+LGD's first full tournament of the year was the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they made the quarterfinals but lost 3-0 to [[Invictus Gaming]]. Shortly afterwards, they finished the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] in sixth place and advanced to the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]]. LGD upset both OMG and [[Snake eSports]] 3-0 to face EDward Gaming in the finals. The series went the distance to a full five games but LGD ultimately lost the series 3-2 to EDG. 
+
+LGD became feared in China but they were upset 3-0 by OMG in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]]. LGD placed fifth in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and qualified for the Seeding Match of the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]]. They fought their way to the finals, even upsetting EDG 3-0 along the way. LGD beat the [[Qiao Gu Reapers]] 3-2 in the finals to qualify for the [[2015 Season World Championship]] as the top seed from China. LGD was placed in a group alongside [[Team SoloMid]], [[Origen]], and [[KT Rolster]]. Unfortunately, they ended with a 2-4 record and were knocked out of the tournament. LGD were the fan-voted team to attend [[IEM Season X - San Jose|IEM San Jose]]. They were knocked out in the first round, losing 2-0 to Team SoloMid.
+
+===2016 Season===
+
+LGD hoped to bounce back from their rough Worlds and post-Worlds performances and went into the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] with high hopes. Being placed in Group A, LGD struggled in the first several weeks of play. Although they had good players in every position, they struggled to play as a team. In the second half of the season however, they started to play better and bounced back. They finished 4th in their group with an 8-8 record. They faced off against [[Vici Gaming]] in Round 1 of the [[LPL/2016_Season/Spring_Playoffs|2016 LPL Spring Playoffs]] but they lost 1-3 and finished the Spring Split in 7th-8th. Summer was a rough split for LGD as the team finished 5th place in their group. As a result of this, they would attend the 2017 LPL Spring Promotion but were able to re-qualify for the LPL after defeating [[Newbee]] 3-1.
+
+===2017 Season===
+
+The [[LPL/2017_Season/Spring_Season|Spring]] and [[LPL/2017_Season/Summer_Season|Summer]] seasons were very similar for LGD in 2017. They finished at the bottom of the standings first with 6 wins and 10 losses in Spring and then with 4 wins and 12 losses in summer. The team was able to retain its LPL spot in the promotion tournaments throughout the year.
+
+== Trivia ==
+* His ID '''Pyl''' is named after Japanese voice actress and singer ''[[wikipedia:en:Aya_Hirano|Aya Hirano]]'', whose name in Chinese is '''平野綾''' (Píng Yě Líng).
+** His former ID '''Aya''' was named after the same person.
+* Known as China's [[YellOwStaR]].
+* Nicknamed "死神" by Chinese fans, translating to "God of Death" due to has highest death/game and most deaths stats in Chinese LoL history.
+* Has an awkward real name, his real name '''陈博''' (Chen Bo) reads the same as '''晨勃''' (Chen Bo, meaning morning wood).
+* Reached 3000 assists in the LPL on August 10th, 2017.
+** Was the 2nd player to reach 3000 assists in the LPL after [[Clearlove]].
+* Reached 4000 assists in the LPL on August 13, 2019.
+** The 2nd player to reach 4000 assists in the LPL, after [[meiko]].
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

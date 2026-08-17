@@ -1,0 +1,108 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FIX&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.079Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Fix」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=FIX
+|name=Nicolás&nbsp;Raúl Sayago
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=March
+|birth_date_day=28
+|favchamp=Vayne
+|favchamp2=Tristana
+|favchamp3=Caitlyn
+|checkbox1=No
+|compID1=Yaimen
+|compID2=Fix You
+|checkboxComp=No
+|ids='''LAS:''' FIX10#0098 <br> '''BR:''' FIX1#BR1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/fixlol1
+|facebook=https://www.facebook.com/fixlol1
+|twitter=fixlol1
+|instagram=fixlol1
+|youtube=https://www.youtube.com/fixlol1
+|tiktok=fixlol01
+|lolpros=https://br.lolpros.gg/player/fix
+|deeplol=https://www.deeplol.gg/pro/Fix
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Yaimen'''.
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+|prev2=Manager
+|prev3=Support
+}}
+==Biography==
+Nicolás Raúl Sayago was born in Buenos Aires, Argentina.
+
+=== 2014 Season===
+His debut was in [[Coliseo Dragons]] as Support where he participated in [[Argentina National League 2014/Season 1|ANL 2014 Season 1]] being one of the four classifiers. Already in the [[Riot Latin America Cup 2014/Chile Qualifiers|LAC 2014 Chile Qualifiers]] they were not able to classify the group stage. I participate in [[Argentina National League 2014/Season 2|ANL 2014 Season 2]] where the team was one of the 6 classified. Already in the [[Riot Latin America Cup 2014/Argentina Qualifiers|LAC 2014 Argentina Qualifiers]] they were not able to classify the group stage. I participate in [[Argentina National League 2014/Season 3|ANL 2014 Season 3]] being one of the four classifiers. Already in the [[Riot Latin America Cup 2014/Colombia Qualifiers|LAC 2014 Colombia Qualifiers]] they were not able to classify the group stage. At the end of these tournaments [[Fix]] remains on the team.
+
+=== 2015 Season===
+I participate in the [[Circuito de Leyendas Sur/2015 Season/Opening Season|CDLS 2015 Opening Season]] where the team was third in the tournament. At the end of this tournament he leaves the team.
+
+=== 2017 Season===
+I enter the [[Bencheados]] team as AD Carry participating in the [[CDLS 2017 Opening]] where the team came second in the tournament, qualifying to the next phase. Already in the [[CDLS 2017 Opening Playoffs]] the team was third in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Closing Promotion]] they faced [[Hafnet eSports]] where they lost 3-0, unable to qualify. At the end of this tournament, fix leaves the team.
+
+In the middle of the year he enters [[Kaos Latin Gamers]] as AD Carry participating in the [[CLS 2017 Closing]] where the team is first in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Closing Playoffs]] the team faces [[Isurus Gaming]] where they win 3-1, qualifying for the first time to the World Cup. Already in the World Cup, he faced two teams [[Young Generation]] and [[Fnatic]] where they could only beat the Vietnamese.
+
+=== 2018 Season===
+Already in the [[CLS 2018 Opening]] where the team is second in the tournament, qualifying for the next phase. Already in the [[CLS 2018 Opening Playoffs]] where the team reaches the final facing [[Rebirth eSports]] where they win 3-2, qualifying for the first time to the MSI. In the MSI they were in group A facing [[Gambit Esports]], [[Lyon Gaming (2017 Latin America North Team)|Lyon Gaming]] and [[Ascension Gaming]] where they had very close games, but could not qualify for the next phase. Already in the [[CLS 2018 Closing]] the team was first in the tournament, qualifying to the next phase. Already in [[CLS 2018 Closing Playoffs]] the team reaches the final again facing [[Rebirth eSports]] winning 3-1, qualifying for the second time to the World Cup. Already in the World Cup he was in group D with [[Gambit Esports]], [[Dire Wolves]] and [[G-Rex]] losing all the games.
+
+=== 2019 Season===
+This year [[Kaos Latin Gamers]] is left alone with [[Nate]] and [[Fix]] renewing their other roles participating in the [[LLA 2019 Opening]] where the team was last in the tournament. At the end of this tournament, Fix says goodbye to the team where I stand out.
+
+In the middle of the year he enters [[XTEN Esports]] as AD Carry participating in the [[LLA 2019 Closing]] where the team was sixth in the tournament, qualifying to the next phase and leaving the team.
+
+At the end of the year, fix with his girlfriend [[Paulaeal]] founded their new team [[Humanoids5]] participating in the [[Circuito Nacional Chile/2019 Season/Closing Season|CNC 2019 Closing Season]] where the team came third in the general tournament, qualifying to the next phase. Already in the [[LHE 2020 Opening Promotion]] the team reaches the final facing [[FroztFire Team]] where they win 3-0, qualifying the [[LHE 2020 Opening]]. At the end of this tournament, fix retires as a player and stays as manager.
+
+== Trivia ==
+* His favorite champions are {{ci|Vayne}} and {{ci|Caitlyn}}.
+* Reached Challenger on the Korean server.
+* They call him "the Humble."
+* He is the founder of [[Humanoids5]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hasmed&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.251Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hasmed」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Hasmed
+|name=Lâm Huỳnh Gia Huy
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=2002
+|birth_date_month=March
+|birth_date_day=25
+|checkbox1=No
+|compID1=Raizo
+|checkboxComp=No
+|ids=Hasmed (VN)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/Wibu2002
+|youtube=https://www.youtube.com/c/Hasmedz
+|deeplol=https://www.deeplol.gg/pro/Hasmed
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Raizo'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+== Biography ==
+
+== Trivia ==
+* Often dyes his hair different colours.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

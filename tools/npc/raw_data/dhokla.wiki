@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dhokla&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.721Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dhokla」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Dhokla
+|name=Niship Doshi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=India
+|nationality=United States
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=July
+|birth_date_day=17
+|favchamp=Yone
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Dhokla#NA1<br>'''BR:''' INDIAN SUPERSTAR#LYON
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/dhoklalol
+|twitter=dhoklalol
+|deeplol=https://www.deeplol.gg/pro/Dhokla
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Dhokla was born in Ahmedabad, India.<ref>[https://twitter.com/LCSOfficial/status/1561473216182333440/ LCS' Tweet] ''twitter.com''</ref> When he was 5, he moved to Massachusetts.<ref>[https://provinggrounds.tv/optic-gamings-dhokla-didnt-really-feel-nervous/ OpTic Gaming’s Dhokla: “I didn’t really feel nervous at all.”] ''provinggrounds.tv''</ref> He began playing ''League of Legends'' in Season 3, when he was 15.
+
+===2017 Season===
+After getting his start playing for several teams in the NACS Open Qualifiers, Dhokla joined Australian team [[Sin Gaming]] for [[OPL/2017 Season/Split 2|OPL 2017 Split 2]], replacing fellow American top laner [[Flaresz]]. Sin was sorted into Group B, and finished second in their group, but only fourth in the overall standings. In [[OPL/2017 Season/Split 2 Playoffs|the playoffs]], they defeated [[Avant Gaming]] 3-2 in the first round, but were swept by [[Chiefs Esports Club]] in the second round, ending their season. Dhokla left the team in October. At the end of the year, he competed in the [[Tyler1 Championship Series 2017|Tyler1 Championship Series]], where he distinguished himself as a strong player in front of a large audience.
+
+===2018 Season===
+For 2018, Dhokla was picked up by the newly formed [[OpTic Gaming]] to play for [[OpTic Gaming Academy]]. The academy team got off to a middling 4-6 start in the [[NA Academy League/2018 Season/Spring Season|spring split]], but with the main team struggling, Dhokla was moved to the LCS roster in Week 6 of the [[NA LCS/2018 Season/Spring Season|LCS split]], replacing [[zig]]. This failed to create any lasting change, and the main team finished 5-13, in 9th place, with the academy team also ending up in ninth with a 6-12 record. Over the first four weeks of summer, he split time with [[Allorim]]; the team started 2-6, which left them tied for last place. Afterward, Dhokla began starting every game, and OpTic went on a four-game winning streak. Ultimately, the team ended with a 9-9 record. Unfortunately, four other teams posted 10-8 records, so OpTic was left in seventh place, missing out on playoffs once again.
+
+===2019 Season===
+Dhokla remained with OpTic for 2019. However, he was benched for the first week of the [[LCS/2019 Season/Spring Season|spring split]] along with his teammates [[Meteos]] and [[Big]] for unspecified disciplinary reasons. Dhokla returned for Week 2, while Meteos, Big, and bot laner [[Arrow]] rejoined in Week 3. The team immediately nosedived with four straight losses. Although they did recover and remained in the playoff picture until the final day of Week 9, OpTic never seriously challenged the top of the league and ended in eighth with a 7-11 record. 
+
+OpTic made no roster changes during the midseason break and came out of the gate hot in the summer split, posting a 4-0 record over the first two weeks, albeit against weak opponents. Losses against frontrunners [[Team Liquid]] and [[Cloud9]] in Week 3 brought OpTic back to earth, and they slowly drifted lower and lower in the standings, only managing four additional wins over the rest of the split. However, unlike the previous summer, OpTic's 8-10 record was good enough to force a three-way tiebreaker for the final playoff spot with [[Golden Guardians]] and [[100 Thieves]]. OpTic rose to the challenge, beating both teams, and securing their first playoff spot as a franchise. OpTic's best season came to an end quickly after that as they were dispatched 3-0 by CLG in the playoff quarterfinals, ending up without enough championship points to play in the Regional Finals. 
+
+In the offseason, OpTic rebranded to [[Immortals]]. Dhokla left the team, joined [[TSM Academy]], and had a solid showing in the academy league. However, this showing wasn't enough to secure him an LCS promotion or even a starting academy position, and by the 2021 season, he was demoted to play in amateur. He joined an amateur powerhouse roster on [[SolaFide Esports]], but the team disbanded after financial malfeasance from the owner. Soon after, he was signed to [[Team Liquid Academy]] to replace [[Jenkins]], who had been promoted to the LCS roster. Dhokla once again posted a strong academy performance, finishing 2nd in Proving Grounds.
+
+===2022 Season===
+Dhokla moved to [[CLG Academy]] and finished 1st in the academy spring regular season. He and the rest of the academy team were even given the chance to play for the LCS team in an end-of-season game with no playoffs ramifications. Dhokla's individual performance in academy was highly praised, and he was voted the split's Most Valuable Prospect.<ref>[https://upcomer.com/clg-dhokla-wins-na-academy-2022-spring-mvp CLG Dhokla wins NA Academy 2022 Spring MVP] ''upcomer.com''</ref> He also made a name for himself in [[Champions Queue/2022 Season/Spring Season/Split 2|Champions Queue]], finishing in first place for the second split. These accomplishments led to his promotion to the LCS roster, replacing Jenkins. The addition of Dhokla immediately turned the team around; CLG went from an 8th place finish in spring to a 4th place regular season finish in summer, with Dhokla being the only roster swap. Although the team was eliminated by [[Team Liquid]] in playoffs, Dhokla and the rest of CLG had shown marked improvement over the course of the season.
+
+== Trivia ==
+* His ID '''Dhokla''' comes from the ''[[wikipedia:en:Dhokla|Indian dish]]'', a native savoury sponge cake.
+* Nicknamed "Big Dhokes" by fans, especially when he plays well.
+* His favorite pro player is [[Zeus]].
+* His favorite musician is ''[[wikipedia:en:Alesso|Alesso]]''.
+* Gained massive popularity in China for his daily vlog series during [[Worlds 2025]], with each video starting with "Nihao Dhokla here".
+
+=== Individual Awards ===
+* NA Academy Most Valuable Prospect (2022 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

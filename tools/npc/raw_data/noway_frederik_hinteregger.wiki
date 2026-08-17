@@ -1,0 +1,105 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NoWay%20(Frederik%20Hinteregger)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.815Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「NoWay (Frederik Hinteregger)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=NoWay
+|name=Frederik Hinteregger
+|pronoun=He
+|image=NNO_NoWay_2022.png
+|checkboxAutoImage=No
+|country=Germany
+|nationality=German
+|residency=EMEA
+|birth_date_year=1992
+|birth_date_month=August
+|birth_date_day=15
+|favchamp=Viktor
+|favchamp2=Azir
+|favchamp3=Gangplank
+|favchamp4=Cassiopeia
+|checkbox1=Yes
+|favchamp5=Gragas
+|favchamp6=Xerath
+|favchamp7=Akshan
+|compID1=noway4u
+|compID2=Noway
+|checkboxComp=No
+|ids=Don Noway, WashedUp4USir, Potato4u, ESG Mid, ESG Noway4u, noway2u, noGF4uSir, German Overlord (NA), NoWay4u(KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/noway4u_sir
+|twitter=noway4u_sir
+|instagram=sir_noway4u
+|youtube=https://youtube.com/channel/UCKbbjKo0BSaNB99FcY9bSPQ
+|discord=https://discord.com/invite/noway4u
+|sponsor=ALDI Gaming
+|tiktok=noway4u
+|lolpros=https://lolpros.gg/player/noway
+|deeplol=https://www.deeplol.gg/strm/NoWay
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''noway4u'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Streamer
+|prev2=Top
+|prev3=Jungler
+|prev4=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Noway4u is well known for his {{ci|Xerath}}, often being called the "German Aimbot" due to his spell hitting accuracy.
+* Germany's biggest League of Legends streamer.
+* Known for his calm, measured personality.
+* Lives in Munich, Germany.
+* Had three Top-30-Accounts in EUW-Challenger and one in the NA-Region by the end of May 2019.
+* Plays League of Legends since Season 1.
+* One of his many nicknames is the "Fertigsteller" which roughly translates to "The Finisher".
+* His favourite dish is "Flammkuchen", a pizza-like tarte from the Alsace region with sour creme, bacon and onions.
+* Travelled to Korea with several other German streamers and content creators in May 2022 and in the summer of 2023. 
+** Has peaked challenger in Korean solo queue.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Casting History ==
+{{CastingHistory}}
+
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+noway4u.jpg|noway4u
+ESG NoWay.jpeg|ESG NoWay
+EU NoWay 2018 AS.png|EU NoWay 2018 AS
+</gallery>
+
+{{PlayerPageEnd}}

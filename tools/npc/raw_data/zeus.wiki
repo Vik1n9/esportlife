@@ -1,0 +1,105 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zeus&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.591Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zeus」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Zeus
+|name=Choi Woo-je
+|nativename=최우제
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2004
+|birth_date_month=January
+|birth_date_day=31
+|favchamp=Jayce
+|favchamp2=Kennen
+|favchamp3=Yone
+|favchamp4=Aatrox
+|checkbox1=Yes
+|favchamp5=Gnar
+|favchamp6=Camille
+|favchamp7=Gwen
+|compID1=Wooje
+|checkboxComp=No
+|ids='''KR:''' Spring#bomm <br>'''NA:''' T1 Haaland#NA1 <br> '''EUW:''' Pom Michutda#EUW
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/434479f33f8afd5bb5089ce4b61babe4
+|facebook=https://www.facebook.com/profile.php?id=100051810739004
+|instagram=godthunderzeus
+|videoarchive=https://www.sooplive.co.kr/station/kcphy0909rk
+|youtube=https://www.youtube.com/channel/UCc-0Ac3wcr3HUtYHGGpYZ9A
+|weibo=https://weibo.com/u/7757163117
+|lolpros=https://lolpros.gg/player/zeus
+|deeplol=https://www.deeplol.gg/pro/Zeus
+|dpmlol=https://dpm.lol/pro/Zeus
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Wooje'''.
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+== Biography ==
+
+== Trivia ==
+* His mother recommended him the nickname "Zeus", because the transcription of his nickname is similar to his name.
+* His favourite champions are {{ci|Kennen}} and {{ci|Jayce}}.
+* His role model is [[Nuguri]].
+* Is a fan of [[Zika]]'s IGN because they both use the latin alphabet 'Z' as the first letter of their name.
+* Had 3 Challenger accounts at the age of 15.
+* In the start of his career, considered [[Kuri]] his older brother.
+* Is the only toplaner to be in worlds finals 3 times.
+* Is the first toplaner to win a back-to-back world championship. 
+* Famously hit himself on the head while lifting the Summoner's Cup after winning [[2024 Season World Championship|Worlds 2024]].
+* Reached 1000 kills in the LCK on April 4th, 2025.
+** The 31st player and 5th toplaner to reach 1000 kills in the LCK.
+** His 1000th kill was on [[KT Rolster]]'s toplaner [[PerfecT (Lee Seung-min)|PerfecT]] in the [[LCK/2025 Season/Rounds 1-2|LCK 2025 Rounds 1-2]] with {{ci|Jax}}.
+* Reached 100 international wins during [[Worlds 2025 Main Event|Worlds 2025]] on October 22, 2025 against [[CTBC Flying Oyster]] in Round 4 of Swiss Stage, becoming the 8th player to achieve this milestone after [[Faker]], [[xiaohu]], [[Caps]], [[Keria]], [[Oner]]/[[Gumayusi]], and [[Canyon]].
+* He has won every possible trophy at Tier 1 level (Worlds, MSI, First Stand, LCK, LCK Cup, EWC and Asian Games).
+
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* Worlds Finals MVP x1 (2023)
+* MSI Finals MVP x1 (2026)
+* LCK Top-Laner of the Year x3 (2022, 2023, 2024)
+* LCK Cup Finals MVP x1 (2025)
+* LCK 1st All-Pro Team x3 (Spring 2022, Summer 2022, Spring 2023)
+* LCK 2nd All-Pro Team x1 (Spring 2024)
+* LCK 3rd All-Pro Team x2 (Summer 2023, LCK 2025)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

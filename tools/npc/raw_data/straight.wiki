@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Stray%20(Roberto%20Guallichico)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.627Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Straight」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Stray
+|name=Roberto Guallichico
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Ecuador
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=October
+|birth_date_day=14
+|favchamp=Lissandra
+|favchamp2=Gangplank
+|checkbox1=No
+|compID1=Straight
+|checkboxComp=No
+|ids='''NA:''' Strai#STR
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/elstraight
+|facebook=https://www.facebook.com/Straightlol
+|twitter=Straightlol_
+|instagram=straiiiiii
+|deeplol=https://www.deeplol.gg/pro/Stray
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Straight'''.
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* First and only Ecuadorian player to win the [[Liga Latinoamérica]].
+=== Individual Awards ===
+* LLA player with the most MVPs in the split (Opening 2020)
+* LLA Most Weekly MVPs in his role in the split (Opening 2020)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

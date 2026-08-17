@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Crash&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.026Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Crash」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Crash
+|name=Lee Dong-woo
+|nativename=이동우
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=January
+|birth_date_day=05
+|checkbox1=No
+|compID1=goeat
+|checkboxComp=No
+|ids=Howling Bigshow (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/skskdjf2
+|facebook=https://www.facebook.com/profile.php?id=100006001418166
+|twitter=Crash_lol1
+|lolpros=https://lolpros.gg/player/crash/
+|deeplol=https://www.deeplol.gg/pro/Crash
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''goeat'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|nicknames=goeat
+}}
+==Biography==
+===2015 Season===
+Lee "'''goeat'''" Dong-woo joined [[ShowTime]] as their jungler in April of 2015. He played with them for the [[International Esports Tournament 2015]] where they placed fourth after a 2-1 loss to [[Invictus Gaming]] in the semifinals and a 2-0 loss to [[Snake eSports]] in the third place match. He left them in May to join [[T.Bear Gaming]]. He played with TBG in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where they lost in the first round 3-1 to [[Hyper Youth Gaming]]. TBG competed in the [[2015 LoL Secondary Pro League/Summer Season|2015 LSPL Summer Season]] but they failed to make playoffs after placing third in their group with a 1-3-2 record. They were forced to compete in the [[LSPL/2015 Season/Summer Relegation|2015 LSPL Summer Relegation Tournament]] where they lost 2-1 to ShowTime and 2-0 to [[AD Gaming]], thereby failing to requalify for the LSPL.
+
+===2016 Season===
+Goeat left TBG in January of 2016 to join [[Longzhu Gaming]] under the name "'''Crash'''". During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Longzhu played with a 10-man roster, liberally using substitute players. Crash shared play time with fellow jungler [[Chaser]]. Longzhu finished the spring split in seventh place with an 8-10 set record, missing out on a spot in the playoffs. Longzhu fared poorly in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 7-11 in sets and netting them eighth place, letting them escape relegations.
+
+===2017 Season===
+Crash struggled hard in 2017 spring season despite the high expectation on him. He is blamed for one of the main reason in many of the Longzhu losses.
+
+On 19 May 2017, Crash left Longzhu and joined [[Vici Gaming]] after a very disappointing spring season.
+
+== Trivia ==
+* Rank #1 in Korean solo queue ladder for a large period in season 6
+* Has outfarmed the opponent jungler by 100cs in couples of games in S6 Spring and Summer
+* Has an incredible 324 and 273 gold differential at 10 minutes in S6 Spring and Summer season respectively
+* Regarded as one of the most promising talent in LCK at the end of S6, but never seemed to live up to his potential in the LCK or LPL. 
+* Played at the [[2017 World Championship]] as an emergency sub for [[1907 Fenerbahçe Esports]] of the [[TCL]], after their original jungler [[Move]] had visa issues that prevented him from playing.
+* Has had his ID misprinted as "Crush" during one game in the LMS.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

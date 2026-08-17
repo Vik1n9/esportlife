@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yume%20(Danyll%20Jann%20Balisi)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.546Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yume (Filipino player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Yume
+|name=Danyll Jann Balisi
+|image=MSGP Yume.png
+|checkboxAutoImage=No
+|country=Philippines
+|residency=Southeast Asia
+|favchamp=Twisted Fate
+|favchamp2=Diana
+|favchamp3=Ryze
+|checkbox1=No
+|checkboxComp=No
+|ids=430, Mineski Yumeee (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|facebook=https://www.facebook.com/mskiyume
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* He was the first player to hit Challenger tier in the Philippines
+* He was the number 1 solo queue rank player during Season 2
+* Yume tends to change his name a lot, copying pros from the LoL and DotA scene because he claims that he looks up to them as his inspiration.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+=== Images ===
+<gallery>
+MSK Yume 2013 WCS.png|MSK Yume, Worlds 2013
+Yume.jpg|Mineski Yume
+Mski430-2.jpg|430
+</gallery>
+
+{{PlayerPageEnd}}

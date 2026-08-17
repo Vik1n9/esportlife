@@ -1,0 +1,130 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FORG1VEN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.116Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「FORG1VEN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=FORG1VEN
+|name=Konstantinos-Napoleon Tzortziou
+|nativename=Κωνσταντίνος-Ναπολέων Τζωρτζίου
+|namealphabet=Greek
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Greece
+|residency=EMEA
+|birth_date_year=1992
+|birth_date_month=July
+|birth_date_day=23
+|favchamp=Sivir
+|favchamp2=Kai'Sa
+|favchamp3=Tristana
+|favchamp4=Xayah
+|checkbox1=Yes
+|favchamp5=Lucian
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/forg1venapm
+|facebook=https://www.facebook.com/forg1ven247
+|twitter=FORG1VENGRE
+|instagram=forg1ven247
+|askfm=FORG1VENLoL
+|reddit=FORG1VENx247
+|lolpros=https://lolpros.gg/player/forg1ven/
+|deeplol=https://www.deeplol.gg/pro/FORG1VEN
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Konstantinos was raised in the cities of Prosotsani and Kavala in Greece. He started playing online video games at the age of 13, investing heavily into Counter-Strike 1.6. He played CS for the next four years, becoming well known in the Greek scene, eventually becoming a professional and travelling to LANs. After his interest waned through the years, he found League of Legends and enjoyed the MOBA aspect of it, having previously played DoTA. Upon reaching level 30, he found himself focusing on AD in solo queue, rising through the ranks in Season 2. He reached 2200 elo maining {{ci|Ashe}} and {{ci|Tristana}}.
+
+===Season 2===
+
+In the middle of the season, FORG1VEN joined [[WannaBeez]], though only stayed with the team for a month before moving on to [[Pentakill.gr]]. With the team, he enjoyed success in minor tournaments, including the EUNE [[ESL Go4LoL 2012 August]]. He also competed in the qualifiers for the later cancelled [[IEM Season VII - Global Challenge Guangzhou]] with the team. Soon after, FORG1VEN left the team, joining [[Test Your Limits]], a team playing mainly within the Greek competitive LoL scene. During his time with the team he also competed in the [[Riot Season 3 Championship Series/Europe/Qualifiers/ESL Qualifier|LCS ESL Qualifiers]]. At the end of the season, he went on to rejoin [[WannaBeez]].
+
+===Season 3===
+
+Staying almost exclusively in the Greek scene, FORG1VEN continued playing with the team for a few months before joining [[Mad Gods Gaming]]. With his new team, he competed in the [[Riot League Championship Series/Europe/Season 3/Summer Promotion/Ranked 5s Qualifiers|LCS Summer Ranked 5s Qualifiers]]. He stayed with the team until late on in the year before joining [[Copenhagen Wolves]], replacing [[Rekkles]].<ref>[http://www.facebook.com/Youngbuck.lol/posts/553269788079109 Youngbuck Facebook Announcement] ''facebook.com''</ref> FORG1VEN's first tournament with the team was the [[International Invitational Tournament 2]], which they managed to win, beating [[Team Dignitas UK]] in the final. FORG1VEN and CW then followed this up with another win, this time at [[ASUS Republic of Gamers - Paris Games Week 2013|ASUS RoG Paris Games Week 2013]]. With the team's roster on a hot streak, they went on to win the [[EUW Challenger Series/Week 14 Cup|EUW Challenger Series Week 14 Cup]] and the amateur tournament at [[IEM Season VIII - Cologne]], beating [[Ninjas in Pyjamas]] in the final.
+
+===2014 Season===
+FORG1VEN and the team carried their form into the next season, winning every game in the group stage in the [[Riot League Championship Series/Europe/2014 Season/Spring Promotion|LCS Spring Promotion]], and going on to beat [[MeetYourMakers]] in their promotion matchup. This meant that the team would be playing in the [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]]. The split was not a huge success for the team, however a 6th place finish meant that the team had a spot in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. 
+
+On April 12, 2014, it was announced that FORG1VEN violated the LCS ruleset by engaging poor behavior. This behavior included, but was not limited to, in game harassment, verbal abuse, and general in game toxicity. He was fined $ 1,000.<ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=46412441#46412441 Esports Competition Ruling - FORG1VEN] ''forums.na.leagueoflegends.com''</ref>
+
+The playoffs were not successful for FORG1VEN and the [[Copenhagen Wolves]], going out in the quarterfinals to [[Alliance]]. This meant that they would have to fight for their LCS status in the [[Riot League Championship Series/Europe/2014 Season/Summer Promotion|Summer Promotion]]. FORG1VEN helped CW to a win in their promotion matchup against [[Denial eSports.Europe]], but this would be his last tournament with the team. As he was replaced as a starter by [[Woolite]], he went on to join [[Different Dimension]], though he was still officially on the roster of [[Copenhagen Wolves]] as a substitute.
+
+During his time on the [[Different Dimension]] roster, FORG1VEN competed in the [[ESL Euro Series/Spring 2014|ESL Spring 2014]], finishing 3rd after [[Denial eSports.Europe]] forfeited their third-place matchup. He and the team also participated in and won [[Riot Greek Legends 2014]], beating [[Void Gaming]] in the final of the tournament.
+
+===2015 Season===
+FORG1VEN appeared on the 28th episode of [[Summoning Insight]], and part of the discussion included the rumor that he would be joining [[SK Gaming]].<ref>[http://www.youtube.com/watch?v=B8NqQ04kWAA 'Summoning Insight' Episode 28, with special guest FORG1VEN] ''youtube.com''</ref> In the episode, FORG1VEN said he only wanted to play for a team that was contending to be the best in its region. The rumor was confirmed on November 24, when SK announced that FORG1VEN and [[Fox (Hampus Myhre)|Fox]] were joining the team.<ref>[http://www.sk-gaming.com/content/1792669-Introducing_SK_Gamings_LCS_Roster_for_2015 Introducing SK Gaming's LCS Roster for 2015] ''skgaming.com''</ref> At the start of the [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]], FORG1VEN renamed to '''FORG1VENGRE'''.
+
+Due to SK being in 1st place in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]] at the end of week 5, the team were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 win against the [[yoe Flash Wolves]], [[SK Gaming]] lost to [[GE Tigers]] in Round 2 of the winners bracket, putting them into Round 2 of the losers bracket. FORG1VEN and [[SK Gaming]] were then knocked out by [[yoe Flash Wolves]] after losing to the Taiwanese team in their 2nd meeting at the tournament.
+
+SK continued to hold the first-place LCS slot through the end of the spring split and qualified for [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|playoffs]] with the top seed. FORG1VENGRE himself was awarded the MVP of the split title. However, for the first time in LCS history, a top seed was eliminated in the semifinals, when SK lost to [[Unicorns of Love]] 3-2. After the split, FORG1VEN left SK to join [[Gambit Gaming]].<ref>[http://gambit-gaming.com/news/official-statements/forg1ven-joins-gambit FORG1VEN joins Gambit] ''http://gambit-gaming.com/''</ref>
+
+FORG1VEN and the team had an unsuccessful [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. After a rocky early start to the season and a combined 0-4 record in the first two weeks, Gambit improved to fifth place after 8 weeks, with the potential of finishing as high as fourth. However, going into the last week of the split, FORG1VEN received a four-game-long penalty from Riot as the result of toxic behavior in soloqueue.<ref>[http://na.lolesports.com/articles/competitive-ruling-konstantinos-%E2%80%98forg1ven%E2%80%99-tzortziou Competitive ruling: Konstantinos ‘FORG1VEN’ Tzortziou] ''lolesports.com''</ref> The team eventually finishing the regular season in 8th place with [[Moopz]] subbing in FORG1VEN's position, meaning that [[Gambit Gaming]] would be playing in the [[Riot League Championship Series/Europe/2016 Season/Spring Promotion|2016 Spring Promotion]]. Now with [[P1noy]] in FORG1VEN's place, the team faced [[mousesports]], winning the series and securing their place in the [[League Championship Series/Europe/2016 Season/Spring Season|2016 Spring Season]].
+
+It was later announced that FORG1VEN  had been moved to substitute position and was available for transfer.<ref>[http://gambit-gaming.com/news/official-statements/forg1ven-loses-a-spot-in-our-starting-line-up FORG1VEN loses a spot in our starting line-up] ''gambit-gaming.com''</ref>
+===2016 Season===
+At the start of the season, FORG1VEN joined [[H2k-Gaming]] after the team were voted to play at [[IEM Season X - Cologne]]. They fielded a roster including [[Odoamne]] and [[Ryu]] from their 2015 roster along with new members [[Jankos]], FORG1VEN, and [[VandeR]]. The team beat [[Cloud9]] in the quarterfinals but were then beaten themselves by eventual winners [[ESC Ever|Ever]] in the semifinals of the tournament.
+
+On February 25, after a win over Fnatic, FORG1VEN announced in a post-game interview that he had been called to serve in the Greek army for nine months and that the current week (week 7) would be his last.<ref>[http://www.youtube.com/watch?v=r17AV5T0Rp0&feature=youtu.be Forg1ven emotional Interview] ''youtube.com''</ref> A week later, however, H2k announced that he had been granted a temporary deferment of service.<ref>[http://twitter.com/H2KGG/status/705428135345573888 H2k's Tweet] ''twitter.com''</ref>
+
+===2019 Season===
+On April 1st 2019, during the 2019 Midseason, Forg1ven announced that he had officially completed his military service and was open to offers as a player from all regions.<ref>[https://twitter.com/FORG1VENGRE/status/1112727056952053763 FORG1VEN's Tweet] ''twitter.com''</ref> However, despite various rumors, he did not join any team and remained unsigned through the remainder of the 2019 season. 
+
+===2020 Season===
+Forg1ven was signed by [[FC Schalke 04 Esports]] for the 2020 season, making his much-hyped return to the LEC after four years away. However, his new team lost their first six games of the [[LEC/2020 Season/Spring Season|spring split]], and Forg1ven's individual play did little to belie that result. Just before Week 4 began, Schalke announced that [[FC Schalke 04 Evolution|Schalke Evolution]] bot laner [[Innaxe]] would be subbing into the LEC team. Forg1ven then tweeted a much-derided statement, saying that he would be stepping down due to Schalke being "unable/unwilling" to field a competitive roster.<ref>[https://twitter.com/FORG1VENGRE/status/1227990374381215745 FORG1VEN's Tweet] ''twitter.com''</ref> He remained listed on Schalke's roster for the remainder for the Spring Split, but saw no further action. 
+== Trivia ==
+* Reached Rank 1 Challenger on both EUW & EUNE.
+* Enjoyed playing {{ci|Jarvan IV}} in solo lanes.
+* Favorite champions are {{ci|Graves}} and {{ci|Vayne}}.
+* Favorite TV show is Suits.
+* Recorded Highest Creeps Slain with 652 in 2014 Season 4 Spring Split.
+* Thinks that {{ci|Aphelios}} is the worst designed champion.
+* Famously known for his cocky demeanor and some unsportsmanlike conduct. 
+
+=== Individual Awards ===
+* 1x EU MVP (Spring 2015)
+* 1x EU 2nd All Pro Team (Summer 2016)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

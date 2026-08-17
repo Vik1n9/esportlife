@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ruin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.541Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ruin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Ruin
+|name=Kim Hyeong-min
+|nativename=김형민
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=November
+|birth_date_day=16
+|favchamp=Singed
+|favchamp2=Teemo
+|favchamp3=Nasus
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' fndls7<br> '''NA:''' wuxejinjao
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ruinlol7
+|facebook=https://www.facebook.com/profile.php?id=100006296354343
+|twitter=ruin_lol
+|instagram=ruinlol
+|lolpros=https://lolpros.gg/player/ruin
+|deeplol=https://www.deeplol.gg/pro/Ruin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Became a pro player due to [[SuNo]], who recruited him to join [[SK Gaming]]. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

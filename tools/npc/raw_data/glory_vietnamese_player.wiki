@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gloryy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.103Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Glory (Vietnamese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Gloryy
+|name=Lê Ngọc Vinh
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=2002
+|birth_date_month=January
+|birth_date_day=12
+|favchamp=Yasuo
+|checkbox1=No
+|compID1=Glory
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/PerGloryy
+|instagram=vinhle5555
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Glory'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Support
+}}
+== Biography ==
+=== 2019 Season ===
+Lê '''Glory''' Ngọc Vinh joined Maximal as a Support player, despite after a disappointing 2-0 lost in the first series of [[VCS B/2019 Season/Spring Round II|VCS B Round II]] Glory performed well enough to earn a move to the struggling [[Cherry Esports]] as a mid laner for the [[VCS/2019 Season/Summer Promotion]], despite carrying game 3 and 4 '''Glory''' could not complete the reverse sweep as [[FTV Esports]] won 3-2, due to this defeat '''Glory''' returned to [[Maximal]]. 
+
+However '''Glory''' joined [[Percent Esports]] before the [[VCS B/2019 Season/Winter Round I|VCB Winter]]. This time as a jungler until the third round, where he returned to mid lane to face his former team [[Maximal]] where the team would lose 2-0 in the quarterfinal.
+
+=== 2020 Spring ===
+'''Glory''' almost lost his chance to qualify during the [[VCS_B/2020_Season/Summer_Season|VCS B]] group stages after losing to [[Leonard (Vietnamese Team)|Leonard]], the team bottom of their group. However his team rallied to qualify 1st from Group A before defeating [[QTV Gaming]] 2-1 and [[Puppies Esports]] (the academy team of [[CERBERUS Esports (Vietnamese Team)|CERBERUS Esports]]) 2-1. 
+
+In the [[VCS B/2020 Season|VCS B]] after being defeated 3-1 by [[OverPower Esports]] '''Percent Esports''' defeated [[QTV Gaming]] 3-0 and [[FTV Esports]] 3-2 to secure a place in the [[VCS/2020 Season/Summer Season|VCS 2020 Summer Season]].
+
+In the [[2020 Pulsefire Cup]] [[Percent Esports]] were overwhelmed by VCS teams, however at an individual level '''Glory''' showed talent despite losing all three games with an average KDA of 5.66/3/3.
+
+== Trivia ==
+* Is a big fan of K-Pop group ''BLACKPINK'', together with [[Shine (Tôn Nguyễn Phi Long)|Shine]] and [[Lisa (Phạm Thạch Nhân Băng)|Lisa]].<ref>[https://vcsenglish.wordpress.com/2020/05/22/meet-percent-esports/ Meet Percent Esports, the newest member of VCS!] ''vcsenglish.wordpress.com''</ref>
+*He was awarded the title of National Esports Grandmaster by VIRESA (Vietnam Esports Federation) after achieving good results with [[Team Whales]] at [[2023_Season_World_Championship|Worlds 2023]] and with [[Vietnam (National Team)|Vietnam National Team]] at [[2022 Asian Games]] on January 21, 2024.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}
