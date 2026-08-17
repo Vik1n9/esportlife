@@ -2938,17 +2938,6 @@
       "successors": []
     },
     {
-      "team_id": "TJ",
-      "display_name": "Taipei J Team",
-      "region": "PCS",
-      "active_years": [
-        2020,
-        2021
-      ],
-      "predecessors": [],
-      "successors": []
-    },
-    {
       "team_id": "TALO2",
       "display_name": "TALON",
       "region": "LCP",

@@ -1,3 +1,37 @@
+## 2026-08-17 — S25 資料清洗完成：巢狀模板的 `}}` 提早終止，每張名冊卡只吃到第一名選手
+
+- **方向**：S24c 返工補齊 118 隊後，S25 續做收尾。抽樣核對 Crownie（BDS 2023）時發現
+  career 缺名次、且每張 LEC 名冊卡只解析出第一名選手——根因是 `gen-clean.mjs`
+  用非貪婪 regex 抓 `{{TeamRoster}}`／`{{TeamCard}}`，內層 `{{TeamRoster/Line}}`
+  的 `}}` 讓匹配提早終止。另有 S24c 誤建重複隊 TJ（Taipei J Team＝JT）把 6 名
+  選手生涯拆兩段。
+
+- **實作**（`tools/npc/gen-clean.mjs`＋`tools/npc/clean/parse.mjs`）：
+  (1) 卡模板改用 `findTemplates`（深度感知 `matchTemplate`），修復後名冊選手
+  1911→2208（+297）、cleaned 2334→2650；
+  (2) ⚠ `findTemplates` 的 `startsWith(名+'/')` 會把 `TeamRoster/Line` 也當整卡
+  解析（teamName=undefined→假 note）——gen-clean 過濾 `name==='TeamRoster'`；
+  (3) `classifyEvent` 補 Season N 年份（`Season\s+(\d)`→seasonMap
+  {1:2011,2:2012,3:2013,4:2014}，`/OPENING EVENT/`→2012）——GPL Season 1／
+  Opening Event＝2012（實測 2012-05-05）、EU LCS 2013 Spring 走 Leaguepedia 備援
+  頁題無 4 位年；
+  (4) TJ 併入 JT：team_history 刪 TJ 條目＋別名 Taipei J Team→JT；
+  (5) 別名補 EG.EU→EG2（2013 EU LCS 名冊縮寫）等，`team_alias.json` 現 54 筆。
+
+- **實測結論**：cleaned **2650 筆**、CSV 覆蓋 938/938、有名冊/生涯 2271、隊名殘餘
+  **22 筆全部真缺**（HTICS/KCORP/NAVI/Dynamics/SHO/Shopify Rebellion/db＋2012-13
+  老隊，受影響 CSV 選手 28 名 37 人次，清單見 `tools/npc/clean/missing_teams.md`）；
+  抽樣人工核對 10 筆全過（含發現 Crownie「LEC champion」＝例行賽第一的 finish 鍵
+  語義，非奪冠）；p1 無生涯 60 筆＝名冊真無；壞 team_id 0、player_id 唯一 true。
+  未解消歧義 13 筆全部判讀完成。MSI 2015 名次全缺（Liquipedia 靜態缺漏）不硬解。
+
+- **未一起處理**：S24b region（TW/HK 國籍欄）待使用者返工，S25 收尾不阻塞但
+  S24b 返工後需重跑一次；殘餘 22 缺隊待 S24c 再補（已寫入缺隊清單與交接筆記）；
+  OCR 審查閘門未跑（本環境 `ocr` LLM 未設定，比照 S22 返工三往例，下次有環境補審）。
+
+- **狀態**：完成。`npm test` 22792 項全綠（純工具站，src/tests 未動）；版號不動、
+  SAVE_VERSION 不變。
+
 # WORKLOG — 電競人生（esportlife）
 
 ## 2026-08-17 — S24c 返工：split 頁名冊涵蓋全參賽隊，收隊規則只收冠軍隊就是漏

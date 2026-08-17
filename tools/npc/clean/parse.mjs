@@ -316,7 +316,6 @@ export function placeToFinish(place, event) {
  *  → { event: 賽區代碼（首段大寫），year } */
 export function classifyEvent(pageTitle) {
   const year = parseYear(pageTitle);
-  if (!year) return null;
   const upper = pageTitle.toUpperCase();
   if (upper.includes('WORLD CHAMPIONSHIP')) return { event: 'worlds', year };
   if (upper.includes('MID-SEASON INVITATIONAL')) return { event: 'msi', year };
@@ -326,5 +325,10 @@ export function classifyEvent(pageTitle) {
     'CHAMPIONS': 'KR', 'PANDORA.TV': 'KR', 'SBENU': 'KR',
   };
   const region = regionMap[first] ?? first;
-  return { event: region, year };
+  if (year) return { event: region, year };
+  const seasonMap = { 1: 2011, 2: 2012, 3: 2013, 4: 2014 };
+  const sm = pageTitle.match(/Season\s+(\d)/i);
+  if (sm) return { event: region, year: seasonMap[sm[1]] };
+  if (upper.includes('/OPENING EVENT')) return { event: region, year: 2012 };
+  return null;
 }

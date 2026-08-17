@@ -4,7 +4,7 @@
 > `team_history.json` 缺失，262 名 CSV 選手、431 人次受影響。
 > **已處理**：S24c 返工完成（2026-08-17），team_history.json 174→300 隊，
 > 本清單 121 隊實體全部收齊（`node gen-clean.mjs` 重跑後 pending 159→38，
-> 殘餘 38 隊為頁題縮寫變體或早期頁隊，見下「S25 續做」）。
+> 殘餘 38 隊經判讀解 16 隊，剩 22 隊真缺，見下「S25 續做」）。
 
 ## 返工範圍（缺隊影響的站點）
 
@@ -186,21 +186,29 @@ LPL 年份全部丟失，`career` 為空。
 
 ## S25 續做（2026-08-17 S24c 返工後）
 
-- 重跑後殘餘 38 隊（`pending_team_alias.json`）：
-  - **頁題縮寫變體**（實體隊已進 team_history，補 `team_alias.json` 別名）：
-    AL CN→Anyone's Legend（AL）、TT CN→ThunderTalk Gaming（TT）、
-    UP CN→Ultra Prime（UP）、NIP CN→Ninjas in Pyjamas（NIP）、
-    KCORP→Karmine Corp（KC）、HTICS→Team Heretics（TH）、NAVI→Natus
-    Vincere（NAVI）、XL→Excel Esports（XL）、SB→SANDBOX Gaming（SB）、
-    LSB→Liiv SANDBOX（LSB）、NS RF→Nongshim RedForce（NS）、
-    Ninjas in Pyjamas.CN→Ninjas in Pyjamas（NIP）、QG Reapers→Qiao Gu
-    Reapers（QG）、Brion Esports→BRION（BRO）、Jin Air Falcons／Jin Air
-    Green Wings Falcons／Jin Air Stealths／Jin Air Green Wings
-    Stealths→Jin Air Green Wings（JAG）、Incredible Miracle 1／2→
-    Incredible Miracle（IM）、Energy Pacemaker.All→Energy Pacemaker（EP）、
-    MiG Blaze→Azubu Blaze、MiG Frost→Azubu Frost、Azubu Blaze→Azubu
-    Blaze、Counter Logic Gaming Prime→Counter Logic Gaming（CLG）。
-  - **早期頁隊**（2012 Champions 等頁面隊名，`team_history` 有無皆可再議，
-    優先補 priority 1/2 選手生涯所需的）：DDoL、Dynamics、Fredit、GJR、
-    Hyper Youth Gaming、Little Hippo、NEB、NeL、RoMg、SHO、Saint Club、
-    Shopify Rebellion、StarTale、SuperStar、Team OP、Team XD。
+- 重跑後殘餘 38 隊 → 已由 S25 執行者判讀別名解 **16 隊**（`team_alias.json`
+  現 54 筆）：AL CN→AL、TT CN→TT、UP CN→UP、NIP CN→NIP、Ninjas in
+  Pyjamas.CN→NIP、KCORP 等頁題縮寫、NS RF→NS、Brion Esports→BRO、
+  Fredit→BRO、Incredible Miracle 1／2→IM2、Jin Air Falcons／Green Wings
+  Falcons／Stealths→JAG、Energy Pacemaker.All→EP、LSB→SB、QG
+  Reapers→QG、EG.EU→EG2（Evil Geniuses）、Taipei J Team→JT。
+- **重複隊修復**：S24c 把 Taipei J Team 誤建為獨立隊 `TJ`（與 `JT` 同隊），
+  6 名選手（Hana／Lilv／Mission／Nestea／Rest／Woody）生涯被拆兩段——
+  S25 直接併入 JT（`team_history.json` 刪 TJ 條目＋別名）。⚠ 若
+  `gen-team-history-intl.mjs` 重跑會重建 TJ，建議 S24c 加排除規則。
+- **殘餘 22 隊全部是真缺**（`pending_team_alias.json`，無別名可解，
+  需 S24c 補進 team_history）：
+  - LEC／LCK／LCS 近代名冊縮寫：HTICS（Team Heretics）、KCORP（Karmine
+    Corp）、NAVI（Natus Vincere）、Dynamics（LCK 2020）、SHO（Seorabeol
+    LCK 2020）、Shopify Rebellion（LCS 2023-25）、db（DragonBorns，2013
+    EU LCS）
+  - 2012-13 老隊：Azubu Blaze、MiG Blaze、MiG Frost、StarTale、
+    SuperStar、Team OP、Team XD、Saint Club、RoMg、DDoL、GJR、Little
+    Hippo、NEB、NeL、Hyper Youth Gaming
+  - **受影響 CSV 選手 28 名、37 人次**（全部 priority 1／2）：Adam、
+    Ambition、Bugi、Cabochard、Canna、Closer、CloudTemplar、deokdam、
+    dexter1、Evi、Flakked、Jankos、Kaiser、Larssen、Lustboy、MadLife、
+    Malrang、Perkz、RapidStar、Ryu、Sheo、Shushei、Targamas、Trymbi、
+    Upset、WildTurtle、Woong、Wunder、Yike、Zeyzal。
+- 補法與 `gen-team-history-intl.mjs` 的既有人工表同構：`ABBREVIATIONS_INTL`
+  或 `NAME_ALIASES` 加隊（HTICS→Team Heretics 等）後重跑，冪等。

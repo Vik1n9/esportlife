@@ -31,7 +31,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import {
   parsePlayerInfobox, parseTeamCard, parsePrizePool, parseTeamRoster,
-  parseTournamentResults, parseTeamSquad, classifyEvent, placeToFinish,
+  parseTournamentResults, parseTeamSquad, classifyEvent, placeToFinish, findTemplates,
 } from './clean/parse.mjs';
 import {
   readJson, readTsv, pageTitleFromHeader, buildPlayerMap, toLiquipediaId, TeamResolver,
@@ -145,8 +145,8 @@ function main() {
     const cards = [];
     const isLeaguepedia = r.text.includes('TeamRoster') || r.text.includes('TournamentResults/Line');
     if (isLeaguepedia) {
-      for (const t of r.text.matchAll(/\{\{\s*TeamRoster\s*\|([\s\S]*?)\}\}/g)) {
-        const parsed = parseTeamRoster(`{{TeamRoster\n|${t[1]}}}`);
+      for (const t of findTemplates(r.text, ['TeamRoster']).filter((x) => x.name === 'TeamRoster')) {
+        const parsed = parseTeamRoster(t.block);
         cards.push(parsed);
         if (parsed.teamName) teamNames.add(parsed.teamName);
       }
@@ -169,8 +169,8 @@ function main() {
       }
     } else {
       // Liquipedia：TeamCard＋TeamPrizePool
-      for (const t of r.text.matchAll(/\{\{\s*TeamCard\s*\|([\s\S]*?)\}\}/g)) {
-        const parsed = parseTeamCard(`{{TeamCard\n|${t[1]}}}`);
+      for (const t of findTemplates(r.text, ['TeamCard'])) {
+        const parsed = parseTeamCard(t.block);
         cards.push(parsed);
         if (parsed.teamName) teamNames.add(parsed.teamName);
       }
