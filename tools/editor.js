@@ -21,6 +21,7 @@ import {
   checkMaterialConflicts, checkDeadRecipes, checkTriggerBreakage,
   checkEffectConsumption, checkPoolAssignment, checkInnatePoolSize, sourceOf,
   COND_TIERS, COND_TIER_LABELS, COND_OP_LABELS, COND_NODES, COND_NODE_LABELS,
+  EVENT_FLAG_KEYS, EVENT_COUNT_KEYS,
 } from './schema.js';
 import { BASE_TRAITS, RARE_TRAITS } from '../src/data/traits.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS, FUSIONS } from '../src/data/epics.js';
@@ -89,6 +90,10 @@ function defaultNode(kind, prev) {
     case 'not': return ['not', defaultNode('stat')];
     case 'has': return ['has', COND_TIERS[0], ALL_TRAIT_KEYS[0]];
     case 'hasCount': return ['hasCount', COND_TIERS[0], 1];
+    // 連續事件（§12.2）：預設值取卡庫裡現有的鍵，換型別當下就是可求值的條件，
+    // 不會先丟一個空字串鍵讓驗證紅一輪
+    case 'eventFlag': return ['eventFlag', EVENT_FLAG_KEYS[0] ?? ''];
+    case 'eventCount': return ['eventCount', EVENT_COUNT_KEYS[0] ?? '', 'gte', 1];
     default: return ['stat', PREDICATES[0], 'gte', 0];
   }
 }
@@ -119,6 +124,37 @@ function inline(nodes) {
   const row = el('div', 'cond-leaf');
   for (const n of nodes) row.append(n);
   return row;
+}
+
+/**
+ * 自由字串鍵的輸入框（連續事件的旗標／計數鍵）。
+ *
+ * 刻意**不是下拉**：旗標名由寫卡的人取，新的一段連鎖第一次寫的時候，那個鍵在卡庫
+ * 裡還不存在——只給下拉就寫不出新連鎖。已有的鍵掛在 datalist 上當提示，打錯字由
+ * `validateCond` 的「沒有卡點得亮」警告接住。
+ */
+let keyListSeq = 0;
+function keyInput(current, suggestions, onSet, placeholder = '旗標鍵') {
+  const wrap = el('span', 'cond-key');
+  const input = el('input', 'cond-text');
+  input.value = current ?? '';
+  input.placeholder = placeholder;
+  if (suggestions?.length) {
+    const listId = `keys-${++keyListSeq}`;
+    const dl = el('datalist');
+    dl.id = listId;
+    for (const s of suggestions) {
+      const op = el('option');
+      op.value = s;
+      dl.append(op);
+    }
+    input.setAttribute('list', listId);
+    wrap.append(dl);
+  }
+  // change 而非 input：積木每次變動都重畫，用 input 會每打一個字就失焦
+  input.addEventListener('change', () => onSet(input.value.trim()));
+  wrap.append(input);
+  return wrap;
 }
 
 /* ================= 表單渲染（由 schema 驅動） ================= */
@@ -234,6 +270,34 @@ function renderField(f, value, ctx, errs, onChange) {
       }
       return { node: wrap, onErrors: () => {} };
     }
+    case 'keys': {
+      // 自由字串鍵的陣列（連續事件的旗標與具名計數）。空陣列一律收成 undefined
+      // ——資料檔不留 `setFlags: []` 這種空欄位
+      const wrap = el('div', 'chips');
+      const render = () => {
+        wrap.textContent = '';
+        const list = Array.isArray(value[f.key]) ? value[f.key] : [];
+        for (const k of list) {
+          const chip = el('span', 'chip');
+          chip.append(el('span', '', k));
+          const rm = el('button', 'btn-mini del', '✕');
+          rm.addEventListener('click', () => {
+            const next = list.filter((x) => x !== k);
+            set(next.length ? next : undefined);
+            render();
+          });
+          chip.append(rm);
+          wrap.append(chip);
+        }
+        wrap.append(keyInput('', f.suggest || [], (x) => {
+          if (!x || list.includes(x)) return;
+          set([...list, x]);
+          render();
+        }, '＋ 鍵'));
+      };
+      render();
+      return { node: wrap, onErrors: () => {} };
+    }
     case 'cond': {
       // 兩種模式共用同一份 value[f.key]：積木只產生合法結構，原始模式維持
       // 既有的 JSON textarea（25 張任務卡都是那樣寫的，不能斷）。
@@ -318,6 +382,18 @@ function renderField(f, value, ctx, errs, onChange) {
           box.append(inline([
             pick(COND_TIERS, tier, COND_TIER_LABELS, (x) => replace(['hasCount', x, n])),
             numInput(n, (x) => replace(['hasCount', tier, x])),
+          ]));
+        } else if (kind === 'eventFlag') {
+          const [, key] = node;
+          box.append(inline([
+            keyInput(key, EVENT_FLAG_KEYS, (x) => replace(['eventFlag', x])),
+          ]));
+        } else if (kind === 'eventCount') {
+          const [, key, op, n] = node;
+          box.append(inline([
+            keyInput(key, EVENT_COUNT_KEYS, (x) => replace(['eventCount', x, op, n]), '卡 id 或計數鍵'),
+            pick(COND_OPS, op, COND_OP_LABELS, (x) => replace(['eventCount', key, x, n])),
+            numInput(n, (x) => replace(['eventCount', key, op, x])),
           ]));
         } else {
           box.append(el('div', 'hint', '無法辨識的節點——切到原始模式檢視'));
@@ -734,6 +810,37 @@ function renderField(f, value, ctx, errs, onChange) {
           rm.addEventListener('click', () => { delete o.flags[k]; if (!Object.keys(o.flags).length) delete o.flags; onChange(); });
           r.append(rm);
           wrap.append(r);
+        }
+        // 連續事件（§12.2）：走到這個結局才記的旗標與計數。三欄同一種形狀
+        // （自由字串陣列），所以一個迴圈渲染完，不逐欄複製貼上
+        const CHAIN_FIELDS = [
+          { key: 'setFlags', label: '點亮旗標', suggest: EVENT_FLAG_KEYS },
+          { key: 'clearFlags', label: '熄滅旗標', suggest: EVENT_FLAG_KEYS },
+          { key: 'counters', label: '計數 +1', suggest: EVENT_COUNT_KEYS },
+        ];
+        for (const cf of CHAIN_FIELDS) {
+          const row = el('div', 'eff-row');
+          row.append(el('span', 'dim', cf.label));
+          for (const k of o[cf.key] || []) {
+            const chip = el('span', 'chip');
+            chip.append(el('span', '', k));
+            const rm = el('button', 'btn-mini del', '✕');
+            rm.addEventListener('click', () => {
+              o[cf.key] = (o[cf.key] || []).filter((x) => x !== k);
+              if (!o[cf.key].length) delete o[cf.key];
+              onChange();
+              render();
+            });
+            chip.append(rm);
+            row.append(chip);
+          }
+          row.append(keyInput('', cf.suggest, (x) => {
+            if (!x || (o[cf.key] || []).includes(x)) return;
+            o[cf.key] = [...(o[cf.key] || []), x];
+            onChange();
+            render();
+          }, '＋ 鍵'));
+          wrap.append(row);
         }
       };
       render();

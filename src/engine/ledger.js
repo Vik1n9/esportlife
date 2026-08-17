@@ -122,6 +122,38 @@ export function awardsThisYear(state) {
   return state.milestones.filter((m) => m.kind === 'award' && m.year === state.year).length;
 }
 
+/* ---------------- 事件觸發旗標與計數（V4 §12.2 增訂） ---------------- */
+
+/**
+ * 一個事件旗標點亮了沒有。
+ *
+ * 旗標是**連續事件的記憶**：事件一結算時點亮，事件二的 `when` 讀它，跨月、跨賽季
+ * 都記得。與 `phases/shared.js` 的 `chain`（同一個 beat 內立刻接演下一張卡）分工
+ * 明確——chain 是「當場接著演」，旗標是「以後條件滿足了才來」。
+ *
+ * ⚠ 讀在這一層、寫在 `engine/eventTrigger.js`：條件式不准直接翻 `state` 的原始
+ * 欄位（`AGENTS.md` 條件語言規則），而 `conditions.js` 反過來被 `eventTrigger.js`
+ * import，讀取端放進寫入端會成環。缺欄位（v23 以前的存檔）一律回 false。
+ */
+export function eventFlagOn(state, key) {
+  return !!(state.eventFlags || {})[key];
+}
+
+/**
+ * 一個事件觸發計數現在是多少。
+ *
+ * 鍵有兩種來源，共用同一個命名空間（所以條件式只要一種節點就讀得到兩者）：
+ *   - **卡 id**：每張卡出場一次自動 +1（`recordEventTrigger`），寫卡的人不用宣告。
+ *   - **具名計數**：卡片結果的 `counters` 欄位宣告，跨卡累加（「賭了幾次」這種
+ *     不屬於單一張卡的軌跡）。
+ *
+ * 兩者共用命名空間表示具名計數不得與任何卡 id 撞名——`tests/kernel/eventChain.mjs`
+ * 有斷言在守（撞名會讓兩條軌跡互相灌水，而且靜默）。缺欄位回 0。
+ */
+export function eventCountOf(state, key) {
+  return (state.eventCounts || {})[key] ?? 0;
+}
+
 /* ---------------- 衛冕者與上屆名次（S20g，V4 §16.2） ---------------- */
 
 /**

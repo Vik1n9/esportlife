@@ -17,7 +17,9 @@ import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progressio
 import { settleQuests } from '../engine/quests.js';
 import { STAMINA_MAX } from '../engine/stamina.js';
 import { lastFinish } from '../engine/ledger.js';
-import { eventOdds, FLAG_TRAIT, TRAIT_FLAGS } from '../engine/eventTrigger.js';
+import {
+  applyEventMarks, eventOdds, FLAG_TRAIT, recordEventTrigger, TRAIT_FLAGS,
+} from '../engine/eventTrigger.js';
 import { flag, lookupTrait, traitTier } from '../kernel/modifiers.js';
 import { escapeHtml, fill, templateVars } from '../kernel/text.js';
 
@@ -116,6 +118,10 @@ function optionNote(state, opt) {
 export function* drawEvent(g, ev, { fromChain = false } = {}) {
   const { state, rng } = g;
 
+  // 逐卡觸發計數（§12.2 增訂）：記在呈現端而不是抽卡端，連鎖接演的卡才數得到。
+  // 記在結算之前——「這張卡出過幾次」與玩家怎麼選、成不成功無關
+  recordEventTrigger(state, ev);
+
   yield card('', ev.name, cardText(ev, cardVars(state)));
 
   // `'inline'`（§22.2 卡牌覆寫，S39）：事件卡是卡牌內的即時反應，選項就地出在
@@ -152,6 +158,11 @@ export function* drawEvent(g, ev, { fromChain = false } = {}) {
     notes.push(`體力 <span class="${applied >= 0 ? 'up' : 'dn'}">${applied >= 0 ? '+' : ''}${applied}</span>`);
   }
   if (outcome.mental) notes.push(...applyMental(state, outcome.mental));
+
+  // 連續事件的記憶（§12.2 增訂）：旗標與具名計數。⚠ 不吃 `allowTraits`——安全牌
+  // 擋的是「被推向極端」（特質旗標），劇情走到哪一段跟那件事無關；也不吃選項倍率，
+  // 「發生過」沒有幅度
+  applyEventMarks(state, outcome, opt);
 
   const unlocked = [];
   const flags = { ...(outcome.flags || {}), ...(opt.flags || {}) };

@@ -49,6 +49,30 @@
  *           不受防重機制擋，所以**不要把所有卡都寫上條件**——隨機池會被抽乾。
  * - `priority`  條件卡優先度（§12.1 步驟 2：取最高優先度為事件一；沒寫算 0）。
  *           多張條件同時命中時，優先度決定誰先出。
+ *
+ * 連續事件的三個欄位（§12.2 增訂，引擎在 `engine/eventTrigger.js` 下半）。寫在
+ * **結果**（`good`／`bad`／選項的 `on.good`／`on.bad`）或**選項**上——寫在結果上表示
+ * 「走到這個結局才記」，寫在選項上表示「選了就記，不論成敗」：
+ *
+ * - `setFlags`   點亮事件旗標（字串陣列）。下一段事件的 `when` 用
+ *                `['eventFlag', 鍵]` 讀得到，跨月、跨賽季都記得。
+ * - `clearFlags` 熄滅旗標。⚠ **一段連鎖的收尾卡一定要熄**：條件卡不受防重機制擋，
+ *                旗標亮著的期間那張卡每個月都命中，會霸佔往後所有月份的事件一。
+ * - `counters`   具名計數 +1（字串陣列），跨卡累加。逐卡的出場次數不必宣告——
+ *                引擎自動以卡 id 為鍵記（`['eventCount', 卡 id, 'gte', N]` 就讀得到）。
+ *
+ * 兩個現成的寫法範例：
+ *   一次性的門檻卡（觸發 N 次後才出、出過就不再出）
+ *     `when: ['and', ['eventCount', 'solo_queue', 'gte', 5], ['not', ['eventFlag', '…_done']]]`
+ *     ＋每個選項 `setFlags: ['…_done']`（見 `soloq_legend`）。
+ *     旗標鍵帶 `annual_` 前綴就是**年度閂**——年初由 `rearmAnnualEventFlags` 清掉，
+ *     下一年重新上膛（見 `slump`／`clip_meme`：一年來一次，不是一輩子一次）
+ *   多段連鎖（挖角三部曲 `transfer_rumor` → `tampering_meeting` → `tampering_leak`）
+ *     前一段點亮旗標，後一段命中後熄掉它、再點亮下一段的旗標
+ *
+ * ⚠ `setFlags` 與 `flags` 是兩回事：`flags` 是引擎解讀的副作用（特質解鎖、版本落差、
+ * 業外收入……），會被安全牌（`traits: false`）過濾；`setFlags` 只是「這件事發生過」
+ * 的記號，沒有數值效果，也不被安全牌過濾——安全牌擋的是極端，不是劇情。
  */
 export const EVENT_CARDS = [
   { id: 'solo_queue', name: '排位衝分', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_solo_queue',
@@ -64,6 +88,23 @@ export const EVENT_CARDS = [
     ],
     good: { text: '手感發燙，RK 一波連勝直衝宗師，彈幕刷爆「666」', attr: { tec: 2 } },
     bad:  { text: '排位連敗掉分，隊友 0/10/0 開送，越打越上頭', attr: { tec: -1, dec: -1 } } },
+
+  /* 觸發次數門檻卡（§12.2 連續事件）：`solo_queue` 出過 5 次才來，出過一次就熄火——
+   * 一次性門檻的標準寫法是「計數門檻 ＋ not 自己的完成旗標」，每個選項都點亮那個
+   * 旗標。少了 not 那一半，條件卡不受防重擋，這張卡會從第 5 次起月月霸佔事件一。 */
+  { id: 'soloq_legend', name: '排位傳說', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'solo_soloq_legend', when: ['and', ['eventCount', 'solo_queue', 'gte', 5], ['not', ['eventFlag', 'soloq_legend_done']]], priority: 3,
+    prompt: '你的分數掛在伺服器榜單前段已經好幾個月，論壇開了一串專門討論你的對線細節。有人問：這人到底一天打幾把？',
+    options: [
+      { id: 'record', label: '把每一把都錄下來，做成教學片', odds: 46, gain: 2.2, loss: 1.3, setFlags: ['soloq_legend_done'] },
+      { id: 'keep', label: '不理論壇，照原本的節奏繼續爬', odds: 58, gain: 1, loss: 1, main: true, setFlags: ['soloq_legend_done'] },
+      { id: 'quit', label: '榜單沒有意義，回去練隊伍配合', odds: 76, gain: 0.5, loss: 0.5, traits: false, setFlags: ['soloq_legend_done'],
+        on: {
+          good: { text: '你把排位放下，團隊練習的節奏立刻好起來，教練終於不再唸你', attr: { syn: 2 } },
+          bad: { text: '你放掉排位，手感跟著掉，榜單上的名字很快被別人蓋過去', attr: { tec: -1 } },
+        } },
+    ],
+    good: { text: '整個伺服器都認得你的 ID，肝出來的分數成了你最硬的名片', attr: { tec: 2, vit: -1 }, flags: { grinder: true } },
+    bad:  { text: '為了守住排名連著幾週睡不滿，上台的時候手是抖的', attr: { vit: -2 }, mental: { comp: -2 } } },
 
   { id: 'scrim', name: '訓練賽加練', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'training',
     prompt: '團練結束，幾個隊友還想再開一輪對線練習。時間已經很晚了。',
@@ -187,12 +228,16 @@ export const EVENT_CARDS = [
     good: { text: '代言商演安排得宜，名氣跟收入一起起飛', attr: { vit: 1 }, flags: { popular: true, bonusSalary: 120 } },
     bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', attr: { tec: -2, vit: -1 } } },
 
-  { id: 'slump', name: '季中低潮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['amateur', 'am2', 'regular'], excl: 'solo_slump', when: ['stat', 'comp', 'lte', 40], priority: 4,
+  /* ⚠ 上閂的理由與特質條件卡同一個（§12.2）：抗壓（comp）掉下去之後很少自己回來，
+   * `comp ≤ 40` 因此是**實質永久**的條件——上閂前實測 129/240 個月都是這張卡。
+   * 閂是**年度**的（鍵的 `annual_` 前綴＝年初重新上膛）：低潮該是每個賽季都可能發生
+   * 的事，但同一年裡月月重播就成了背景音——一年一次是這兩件事之間的那條線。 */
+  { id: 'slump', name: '季中低潮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['amateur', 'am2', 'regular'], excl: 'solo_slump', when: ['and', ['stat', 'comp', 'lte', 40], ['not', ['eventFlag', 'annual_slump_done']]], priority: 4,
     prompt: '連續幾週怎麼打都不對，鏡頭掃到你的臉，論壇已經在喊換人了。',
     options: [
-      { id: 'fight', label: '硬扛，加練到打回來為止', odds: 44, gain: 2.2, loss: 1.3 },
-      { id: 'reset', label: '請幾天假，把腦袋清空', odds: 58, gain: 1, loss: 1, main: true },
-      { id: 'bench', label: '主動要求輪替，先坐板凳', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'fight', label: '硬扛，加練到打回來為止', odds: 44, gain: 2.2, loss: 1.3, setFlags: ['annual_slump_done'] },
+      { id: 'reset', label: '請幾天假，把腦袋清空', odds: 58, gain: 1, loss: 1, main: true, setFlags: ['annual_slump_done'] },
+      { id: 'bench', label: '主動要求輪替，先坐板凳', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['annual_slump_done'] },
     ],
     good: { text: '靠自己把低潮挺過去，心態反而更穩了', attr: { dec: 1, vit: 1 }, flags: { composure: true } },
     bad:  { text: '季中低潮拖了一個月，狀態一路探底', attr: { tec: -2, agi: -1, vit: -1 }, flags: { tiltRisk: true } } },
@@ -245,12 +290,18 @@ export const EVENT_CARDS = [
     good: { text: '整夜泡在自訂房，版本細節摸得透透的，被喊「人形外掛」', attr: { tec: 2 }, flags: { grinder: true } },
     bad:  { text: '練到靈魂出竅，隔天團練反應全沒，教練唸到爆', attr: { agi: -2, vit: -1 } } },
 
-  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['amateur', 'am2', 'regular'], excl: 'media', when: ['has', 'common', 'meme'], priority: 4,
+  /* ⚠ 特質條件卡要上閂（§12.2 連續事件）：`持有 meme` 一旦成立就**永遠**成立
+   * （特質不會失去），而條件卡不受防重機制擋——沒有閂的話，玩家拿到梗王的那個月起
+   * 這張卡月月都是事件一（實測 240 個月出 144 次）。閂＝`not 自己的完成旗標`＋
+   * 每個選項點亮它。鍵帶 `annual_` 前綴＝**年度閂**，年初重新上膛
+   * （`engine/eventTrigger.js` 的 `rearmAnnualEventFlags`）——梗圖爆紅一年來一次
+   * 剛好，鎖成一次生涯一次是把內容浪費掉。 */
+  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['amateur', 'am2', 'regular'], excl: 'media', when: ['and', ['has', 'common', 'meme'], ['not', ['eventFlag', 'annual_clip_meme_done']]], priority: 4,
     prompt: '你昨天那波「開秀」被剪成短片，梗圖跟「○○傳奇」的標題刷滿全網。流量來了，斷章取義也來了。',
     options: [
-      { id: 'ride', label: '順勢玩梗，流量全吃', odds: 42, gain: 2.2, loss: 1.3 },
-      { id: 'calm', label: '回應得體，不跟著起舞', odds: 58, gain: 1, loss: 1, main: true },
-      { id: 'lie', label: '低調不回應，讓它自己退燒', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'ride', label: '順勢玩梗，流量全吃', odds: 42, gain: 2.2, loss: 1.3, setFlags: ['annual_clip_meme_done'] },
+      { id: 'calm', label: '回應得體，不跟著起舞', odds: 58, gain: 1, loss: 1, main: true, setFlags: ['annual_clip_meme_done'] },
+      { id: 'lie', label: '低調不回應，讓它自己退燒', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['annual_clip_meme_done'] },
     ],
     good: { text: '你帶頭玩自己的梗，全網跟風，人氣一波起飛', attr: { syn: 1 }, flags: { meme: true, popular: true } },
     bad:  { text: '梗越玩越歪，被解讀成自大，風向回頭咬你', attr: { dec: -1, vit: -1 } } },
@@ -295,12 +346,13 @@ export const EVENT_CARDS = [
     good: { text: '你閃現進場秒懲戒搶下巴龍，全場暴動，賽評喊破喉嚨', attr: { dec: 1, agi: 1 }, flags: { clutch: true } },
     bad:  { text: '搶龍失敗全隊陪葬，賽後被「打野差距」刷屏', attr: { dec: -2 } } },
 
-  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular'], excl: 'media', when: ['has', 'common', 'trashtalk'], priority: 5,
+  // 年度閂同 `clip_meme`：`持有 trashtalk` 是永久條件，沒有閂就月月霸佔事件一
+  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular'], excl: 'media', when: ['and', ['has', 'common', 'trashtalk'], ['not', ['eventFlag', 'annual_enemy_taunt_done']]], priority: 5,
     prompt: '對手在採訪裡放話「今年會把你們打回原形」，底下留言一片揶揄。鏡頭轉到你，等你接招。',
     options: [
-      { id: 'clap', label: '火力全開回嗆', odds: 42, gain: 2.2, loss: 1.3 },
-      { id: 'polite', label: '官腔帶過，不上鉤', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'mute', label: '沉默是金，不回應', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'clap', label: '火力全開回嗆', odds: 42, gain: 2.2, loss: 1.3, setFlags: ['annual_enemy_taunt_done'] },
+      { id: 'polite', label: '官腔帶過，不上鉤', odds: 60, gain: 1, loss: 1, main: true, setFlags: ['annual_enemy_taunt_done'] },
+      { id: 'mute', label: '沉默是金，不回應', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['annual_enemy_taunt_done'] },
     ],
     good: { text: '你一句「打過才知道」直接圈粉，賽前氣勢拉滿', attr: { syn: 1, dec: 1 }, flags: { trashtalk: true } },
     bad:  { text: '回嗆被剪成音檔，比賽又輸了，反噬比話還快', attr: { dec: -2, vit: -1 } } },
@@ -499,12 +551,13 @@ export const EVENT_CARDS = [
     good: { text: '你們聊了一晚，你重新想起打職業的初衷，隔天訓練特別有勁', attr: { syn: 1 }, mental: { conf: 2, drive: 1 } },
     bad:  { text: '你被私訊內容觸動，開始患得患失，怕讓粉絲失望，壓力變大', attr: { vit: -1 }, mental: { comp: -2 } } },
 
-  { id: 'stream_meltdown', name: '直播翻車', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media', when: ['has', 'common', 'tilt'], priority: 4,
+  // 年度閂同 `clip_meme`：`持有 tilt` 是永久條件，沒有閂就月月霸佔事件一
+  { id: 'stream_meltdown', name: '直播翻車', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media', when: ['and', ['has', 'common', 'tilt'], ['not', ['eventFlag', 'annual_stream_meltdown_done']]], priority: 4,
     prompt: '直播時遊戲崩潰，你把鍵盤砸了，畫面全程沒關——三百萬人看你失控。',
     options: [
-      { id: 'apologize', label: '開誠布公道歉，好好解釋', odds: 56, gain: 1.5, loss: 1 },
-      { id: 'joke', label: '自嘲帶過，說這只是效果', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'silent', label: '不回應，讓風波自己過去', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'apologize', label: '開誠布公道歉，好好解釋', odds: 56, gain: 1.5, loss: 1, setFlags: ['annual_stream_meltdown_done'] },
+      { id: 'joke', label: '自嘲帶過，說這只是效果', odds: 60, gain: 1, loss: 1, main: true, setFlags: ['annual_stream_meltdown_done'] },
+      { id: 'silent', label: '不回應，讓風波自己過去', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['annual_stream_meltdown_done'] },
     ],
     good: { text: '你坦率承認情緒管理不好，粉絲反而更挺你，說你夠真實', attr: { syn: 2 }, mental: { resl: 2 }, flags: { composure: true } },
     bad:  { text: '「脾氣差」的標籤貼上了，俱樂部下達直播禁令，贊助商也來關切', attr: { syn: -2, vit: -1 }, mental: { comp: -2 } } },
@@ -548,7 +601,10 @@ export const EVENT_CARDS = [
   { id: 'transfer_rumor', name: '轉會風聲', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_transfer_rumor',
     prompt: '轉會窗開啟，網上開始傳你要被交易的消息，經紀人說「有隊伍開價了」。',
     options: [
-      { id: 'leave', label: '看看外面的價碼，順便探探風', odds: 48, gain: 2, loss: 1.3 },
+      // 挖角三部曲的第一步（§12.2 連續事件）：探風＝跟外面接觸過了，不論談得好不好，
+      // 對方都拿到了你的號碼——旗標寫在選項上（選了就記，與成敗無關）
+      { id: 'leave', label: '看看外面的價碼，順便探探風', odds: 48, gain: 2, loss: 1.3,
+        setFlags: ['tampering_contact'], counters: ['poach_talk'] },
       { id: 'stay', label: '專心打好現在，談約交給經紀人', odds: 62, gain: 1, loss: 1, main: true },
       { id: 'ignore', label: '耳邊風，隊裡需要我就在', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
@@ -765,12 +821,52 @@ export const EVENT_CARDS = [
   { id: 'buyout_offer', name: '買斷報價', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_buyout_offer',
     prompt: '經紀人深夜來電：海外賽區開了一張買斷你的支票，價碼是你現薪的兩倍。但你今年狀態正好。',
     options: [
-      { id: 'accept', label: '接下支票，去新聯賽證明自己', odds: 42, gain: 2.2, loss: 1.3 },
-      { id: 'consult', label: '跟教練坦白，問他的建議', odds: 62, gain: 1, loss: 1, main: true },
+      { id: 'accept', label: '接下支票，去新聯賽證明自己', odds: 42, gain: 2.2, loss: 1.3,
+        setFlags: ['tampering_contact'], counters: ['poach_talk'] },
+      { id: 'consult', label: '跟教練坦白，問他的建議', odds: 62, gain: 1, loss: 1, main: true,
+        counters: ['poach_talk'] },
       { id: 'refuse', label: '婉拒，留在熟悉的環境', odds: 78, gain: 0.5, loss: 0.5, traits: false },
     ],
     good: { text: '你留下來打出身價，新的報價反而更高了', attr: { dec: 2 }, mental: { drive: 2 } },
     bad:  { text: '你動搖了軍心，管理層開始懷疑你的忠誠', attr: { syn: -2 }, mental: { trust: -2 } } },
+
+  /* 挖角三部曲（§12.2 連續事件）：探風（`transfer_rumor` 的 leave／`buyout_offer` 的
+   * accept）點亮 `tampering_contact` → 這張密會卡命中 → 簽了密約點亮 `tampering_deal`
+   * → 談過兩次以上（具名計數 `poach_talk`）才會走到曝光那張。
+   * ⚠ 每個選項都熄掉上一段的旗標：條件卡不受防重擋，不熄就會月月霸佔事件一。 */
+  { id: 'tampering_meeting', name: '密會', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_tampering_meeting', when: ['eventFlag', 'tampering_contact'], priority: 5,
+    prompt: '對方領隊約在城郊的咖啡廳，桌上壓著一張已經填好數字的意向書。你現在的合約還有效。',
+    options: [
+      { id: 'sign', label: '簽了意向書，先卡住這個位子', odds: 40, gain: 2.2, loss: 1.4,
+        clearFlags: ['tampering_contact'], setFlags: ['tampering_deal'], counters: ['poach_talk'] },
+      { id: 'listen', label: '只聽條件，什麼都不簽', odds: 60, gain: 1, loss: 1, main: true,
+        clearFlags: ['tampering_contact'], counters: ['poach_talk'] },
+      { id: 'refuse', label: '當場回絕，這事到此為止', odds: 78, gain: 0.5, loss: 0.5, traits: false,
+        clearFlags: ['tampering_contact'],
+        on: {
+          good: { text: '你把意向書推回去就走人，隔天照常進訓練室，什麼都沒發生過', attr: { syn: 1 }, mental: { trust: 2 } },
+          bad: { text: '你回絕得太硬，對方領隊反手把消息餵給記者，說你「開價不成」', attr: { dec: -1 }, mental: { comp: -2 } },
+        } },
+    ],
+    good: { text: '你把節奏握在自己手裡，條件愈談愈好，經紀人說這是他見過最漂亮的一手', attr: { dec: 2 }, mental: { conf: 2 } },
+    bad:  { text: '咖啡廳的角落有人舉起手機。你不知道那張照片會在什麼時候出現', attr: { dec: -1 }, mental: { comp: -2 } } },
+
+  { id: 'tampering_leak', name: '密約曝光', kind: 'normal', pool: ['career'], sub: 'transfer', slot: ['transfer', 'regular'], excl: 'solo_tampering_leak', when: ['and', ['eventFlag', 'tampering_deal'], ['eventCount', 'poach_talk', 'gte', 2]], priority: 6,
+    prompt: '那張意向書的照片上了論壇首頁，時間戳記在賽季中。記者堵在基地門口，隊友的訊息一則接一則跳出來。',
+    options: [
+      { id: 'admit', label: '開直播全部說清楚，包括為什麼想走', odds: 44, gain: 2.2, loss: 1.4,
+        clearFlags: ['tampering_deal'], counters: ['poach_talk'] },
+      { id: 'team', label: '先關起門跟隊友講，對外交給隊裡處理', odds: 60, gain: 1, loss: 1, main: true,
+        clearFlags: ['tampering_deal'] },
+      { id: 'silent', label: '一句話都不回，把手機關掉', odds: 74, gain: 0.5, loss: 0.5, traits: false,
+        clearFlags: ['tampering_deal'],
+        on: {
+          good: { text: '你整整一週不發一言，風頭過去了，只是休息室裡從此少了幾句閒聊', attr: { vit: 1 }, mental: { trust: -1 } },
+          bad: { text: '沉默被讀成默認，論壇的版本愈傳愈難聽，你連解釋的時機都錯過了', attr: { dec: -2 }, mental: { comp: -2 } },
+        } },
+    ],
+    good: { text: '你把話講在明處，粉絲反而敬你一句敢做敢當，隊友也接受了這個解釋', attr: { syn: 1 }, mental: { conf: 2 }, flags: { popular: true } },
+    bad:  { text: '密約成了休息室的裂縫，接下來的每一場輸球都會被翻出這件事', attr: { syn: -2 }, mental: { trust: -3 } } },
 
   { id: 'captain_offer', name: '隊長任命', kind: 'normal', pool: ['career'], sub: 'team', slot: ['regular'], excl: 'team',
     prompt: '教練私下找你：想讓你接下隊長袖標，隊裡有些老將不服。接下來兩年，你要在場上喊話、場下背鍋。',

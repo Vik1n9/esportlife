@@ -42,7 +42,11 @@ import { teamsOf } from './roster.js';
 // v23：DEMO 三年期程（S21b，V4 §19）。新增 demoEndYear（DEMO 的最後一年；業餘起點
 // 為 null ＝ 不設上限）與 demoEnded（36 個月跑完、沒觸發任何結局的收束旗標）——舊存檔
 // 缺 demoEndYear 會被當成完整生涯永遠跑下去，DEMO 的收束畫面永遠等不到，故作廢
-export const SAVE_VERSION = 23;
+// v24：事件觸發旗標與計數（§12.2 增訂）。新增 eventFlags（事件一點亮、事件二的
+// `when` 讀得到的連續事件記憶）與 eventCounts（逐卡出場次數＋卡片宣告的具名計數，
+// 「觸發 N 次後開新事件／授予特質」的門檻讀它）——舊存檔缺這兩欄會讓所有連鎖條件
+// 恆偽（連鎖卡永遠不來）、計數從中途重新起算，故作廢
+export const SAVE_VERSION = 24;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -213,6 +217,21 @@ export function createState({ name, role, seed, stage = 'PRO' }) {
     unique: {},          // 獨有特質（§14.1）：不可合成、不當素材，只由生涯條件授予
     fusedAway: [],       // 被合成消耗掉的特質名稱（結算時劃線顯示）
     recentEvents: [],    // 最近出過的事件卡 id（反覆抽不重複的暫存）
+
+    /*
+     * 連續事件的記憶（V4 §12.2 增訂）。兩者都是「軌跡」不是「效果」——沒有數值
+     * 作用，只被條件式讀（`['eventFlag', 鍵]`／`['eventCount', 鍵, 比較子, 值]`）：
+     *
+     *   eventFlags   事件一點亮 → 事件二的 when 讀得到（跨月、跨賽季都記得）。
+     *                一段連鎖走完由收尾卡熄掉，不留長期亮著的旗標
+     *   eventCounts  卡 id → 出場次數（引擎自動記）＋卡片宣告的具名計數，
+     *                同一個命名空間（具名計數不得與卡 id 撞名，測試在守）
+     *
+     * 與 `recentEvents` 的差別：那是抽卡的防重暫存（只留最近 6 張），這兩格是
+     * 生涯級的事實，永遠不滾動。
+     */
+    eventFlags: {},
+    eventCounts: {},
 
     heroPool,
     mastery: {},

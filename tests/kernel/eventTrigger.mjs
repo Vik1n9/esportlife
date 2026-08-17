@@ -278,8 +278,11 @@ export async function run({ check, log }) {
    * 命中該來就來（§12.1 的「事件變成對玩家狀態的回應」）。
    */
   {
+    // 13 張是 S20f 的狀態條件卡；§12.2 連續事件再加 3 張（挖角三部曲的第二、
+    // 三段與計數門檻卡 soloq_legend），它們的條件讀旗標與計數，斷言在
+    // `tests/kernel/eventChain.mjs`
     check('真池有條件卡（機制活了，不是假卡）',
-      EVENT_CARDS.filter((c) => c.when).length === 13,
+      EVENT_CARDS.filter((c) => c.when).length === 16,
       EVENT_CARDS.filter((c) => c.when).length);
     const condHit = (s) => EVENT_CARDS.filter((ev) => ev.when && evalCond(s, ev.when));
     const cases = [

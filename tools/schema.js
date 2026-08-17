@@ -130,12 +130,37 @@ export const COND_TIER_LABELS = {
 };
 
 /** 條件式節點型別（積木模式的下拉；與 validateCond 認得的節點同源） */
-export const COND_NODES = ['and', 'or', 'not', 'stat', 'has', 'hasCount'];
+export const COND_NODES = ['and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount'];
 
 export const COND_NODE_LABELS = {
   and: 'AND 全部成立', or: 'OR 任一成立', not: 'NOT 反轉',
   stat: '數值條件（謂詞 比較子 值）', has: '持有特質', hasCount: '持有數量',
+  eventFlag: '事件旗標已點亮', eventCount: '事件觸發次數（鍵 比較子 值）',
 };
+
+/**
+ * 事件卡點得亮的旗標鍵與數得到的計數鍵（§12.2 連續事件）。
+ *
+ * **從卡庫導出，不手抄**：旗標名由寫卡的人自由命名，白名單一旦手抄就是下一個
+ * 「工具答應得出來、引擎兌現不了」的脫節點（時段標籤與 `unique` 階都這樣脫節過）。
+ * 計數鍵有兩種來源共用命名空間——卡 id（引擎自動記）與卡片宣告的具名計數。
+ */
+const eventMarkKeys = (field) => {
+  const keys = new Set();
+  for (const c of EVENT_CARDS) {
+    const collect = (o) => { for (const k of (o && o[field]) || []) keys.add(k); };
+    collect(c.good); collect(c.bad);
+    for (const o of c.options || []) {
+      collect(o);
+      if (o.on) { collect(o.on.good); collect(o.on.bad); }
+    }
+  }
+  return [...keys];
+};
+
+export const EVENT_FLAG_KEYS = [...new Set([...eventMarkKeys('setFlags'), ...eventMarkKeys('clearFlags')])];
+
+export const EVENT_COUNT_KEYS = [...new Set([...EVENT_CARDS.map((c) => c.id), ...eventMarkKeys('counters')])];
 
 /**
  * 條件式可用的謂詞名（engine/conditions.js 的 QUERIES）。
@@ -226,10 +251,11 @@ export const EFFECT_OP_LABELS = {
  *   list（子陣列，min/max 控選項數 2~4）
  *   range（閉區間 [lo, hi]：訓練卡體力條件）
  *   attrMap（屬性 → 數值的映射：訓練卡效果 attr）
+ *   keys（自由字串鍵陣列：連續事件的旗標與具名計數）
  */
 export const FIELD_TYPES = [
   'text', 'textarea', 'number', 'bool', 'enum', 'multienum', 'id',
-  'cond', 'effect', 'when', 'outcome', 'option', 'list', 'range', 'attrMap',
+  'cond', 'effect', 'when', 'outcome', 'option', 'list', 'range', 'attrMap', 'keys',
 ];
 
 /* ================= 特質鍵清單（五階共用命名空間） =================
@@ -297,6 +323,13 @@ export const SCHEMAS = {
             { key: 'main', label: '主推選項', type: 'bool' },
             { key: 'traits', label: '碰隱藏素質', type: 'bool', hint: 'false＝這條路不碰隱藏素質' },
             { key: 'flags', label: '旗標', type: 'multienum', options: FLAG_KEYS, labels: FLAG_LABELS, optional: true },
+            // 連續事件（§12.2）：選了就記，不論成敗。寫在結果上才是「走到那個結局才記」
+            { key: 'setFlags', label: '點亮事件旗標', type: 'keys', optional: true, suggest: EVENT_FLAG_KEYS,
+              hint: '下一段卡的 when 用 [eventFlag, 鍵] 讀得到，跨月保留；鍵帶 annual_ 前綴＝年度閂（年初重新上膛）' },
+            { key: 'clearFlags', label: '熄滅事件旗標', type: 'keys', optional: true, suggest: EVENT_FLAG_KEYS,
+              hint: '一段連鎖走完一定要熄——條件卡不受防重擋，亮著就月月霸佔事件一' },
+            { key: 'counters', label: '具名計數 +1', type: 'keys', optional: true, suggest: EVENT_COUNT_KEYS,
+              hint: '跨卡累加的軌跡；逐卡出場次數不用宣告（引擎自動以卡 id 記）' },
             { key: 'on', label: '自訂結果', type: 'outcome', optional: true },
           ],
         } },
@@ -441,6 +474,27 @@ export function validateCond(node, errors, path) {
         if (typeof args[2] !== 'number') errors.push(`${path}.stat：比較值必須是數字`);
       }
       break;
+    // 連續事件的兩個節點（§12.2）。鍵是自由字串，所以只驗形狀＋「有沒有卡寫得出
+    // 這個鍵」——讀一個沒有任何卡點得亮的旗標＝永遠不會來的死卡（編輯中的新旗標
+    // 還沒貼回資料檔，所以是警告不是硬錯）
+    case 'eventFlag':
+      if (args.length !== 1 || typeof args[0] !== 'string' || !args[0]) {
+        errors.push(`${path}.eventFlag：格式 ['eventFlag', 旗標鍵]`);
+      } else if (!EVENT_FLAG_KEYS.includes(args[0])) {
+        errors.push(`${path}.eventFlag：⚠ 旗標「${args[0]}」目前沒有任何卡點得亮——沒有卡寫 setFlags 就是永遠不會來的死卡`);
+      }
+      break;
+    case 'eventCount':
+      if (args.length !== 3 || typeof args[0] !== 'string' || !args[0]) {
+        errors.push(`${path}.eventCount：格式 ['eventCount', 計數鍵, 比較子, 值]`);
+      } else {
+        if (!COND_OPS.includes(args[1])) errors.push(`${path}.eventCount：未知的比較子「${args[1]}」`);
+        if (typeof args[2] !== 'number') errors.push(`${path}.eventCount：比較值必須是數字`);
+        if (!EVENT_COUNT_KEYS.includes(args[0])) {
+          errors.push(`${path}.eventCount：⚠ 計數鍵「${args[0]}」既不是卡 id、也沒有卡宣告 counters——這個計數永遠是 0`);
+        }
+      }
+      break;
     default:
       errors.push(`${path}：未知的條件式節點「${String(op)}」`);
   }
@@ -496,6 +550,29 @@ export function validateEffects(effects, errors, path) {
 }
 
 /** 事件卡選項數與互斥驗證（單筆級） */
+/**
+ * 條件式讀到的事件旗標，依**極性**分開（§12.2 連續事件）。
+ *
+ * 極性決定寫卡的人欠什麼：
+ *   正向（`['eventFlag', k]`）  「亮著才來」——必須有卡熄得掉它，否則條件卡不受
+ *                              防重擋，亮著的期間月月命中，霸佔往後每一個月的事件一。
+ *   反向（`['not', ['eventFlag', k]]`）「還沒亮才來」——一次性門檻的閂，只需要有卡點得亮。
+ *
+ * `not` 逐層翻轉（雙重否定回正向）。回傳兩個鍵陣列。
+ */
+export function condFlagReads(node, negated = false) {
+  const out = { positive: [], negative: [] };
+  if (!Array.isArray(node)) return out;
+  const merge = (r) => { out.positive.push(...r.positive); out.negative.push(...r.negative); };
+  if (node[0] === 'eventFlag') {
+    (negated ? out.negative : out.positive).push(node[1]);
+    return out;
+  }
+  if (node[0] === 'not') return condFlagReads(node[1], !negated);
+  for (const child of node.slice(1)) merge(condFlagReads(child, negated));
+  return out;
+}
+
 export function validateEventCard(card, errors, allCards) {
   if (card.options && (card.options.length < 2 || card.options.length > 4)) {
     errors.push(`選項數必須 2~4 個（現在 ${card.options?.length ?? 0}）`);
@@ -511,6 +588,27 @@ export function validateEventCard(card, errors, allCards) {
     const mates = allCards.filter((c) => c !== card && c.excl === card.excl);
     if (mates.length === 0) {
       errors.push(`互斥群組「${card.excl}」沒有其他同組卡——獨佔群組應寫成 solo_<id>`);
+    }
+  }
+
+  /* 連續事件的收束（§12.2）：正向讀旗標的條件卡，必須有卡熄得掉那個旗標——
+   * 不熄的話這張卡從旗標點亮那個月起，月月都是事件一（條件卡不受防重擋）。
+   * 熄的人通常是它自己（每個選項寫 clearFlags），但由別張卡收尾也算數。 */
+  const marksOf = (c, field) => {
+    const keys = [];
+    const collect = (o) => { for (const k of (o && o[field]) || []) keys.push(k); };
+    collect(c.good); collect(c.bad);
+    for (const o of c.options || []) {
+      collect(o);
+      if (o.on) { collect(o.on.good); collect(o.on.bad); }
+    }
+    return keys;
+  };
+  const cleared = new Set((allCards || [card]).flatMap((c) => marksOf(c, 'clearFlags')));
+  for (const key of condFlagReads(card.when).positive) {
+    if (!cleared.has(key)) {
+      errors.push(`旗標「${key}」沒有任何卡熄得掉（clearFlags）——條件卡不受防重擋，`
+        + '旗標亮著的期間這張卡每個月都會是事件一。一次性門檻請改寫成 not eventFlag ＋ 選項 setFlags');
     }
   }
 }
