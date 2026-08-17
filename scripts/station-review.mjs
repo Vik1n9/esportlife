@@ -1,10 +1,13 @@
 #!/usr/bin/env node
-// 每站收尾的 OCR 審查閘門：npm test → ocr review → 回報。
-// 用法：node scripts/station-review.mjs --station S21 [--note "補充背景"] [--skip-test]
+// 每站收尾的 OCR 審查閘門（委託模式，全程不呼叫 LLM、不需 API key）：
+//   出包：  node scripts/station-review.mjs --station S21 [--note "補充背景"] [--skip-test]
+//   閘門：  node scripts/station-review.mjs --station S21 --comments /tmp/review.json [--skip-test]
+// 委託模式：OCR 只做確定性工程（檔案篩選、規則解析），審查由 host agent 親自執行，
+// 意見依委託模式格式寫成 JSON，再進閘門。
 // exit 0 = 可 commit；exit 2 = 有 critical／high 待修（禁 commit）；exit 1 = 流程錯誤。
 
 import { execFileSync, spawnSync } from 'node:child_process';
-import { mkdtempSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -17,17 +20,15 @@ const has = (name) => args.includes(`--${name}`);
 
 const station = flag('station') ?? '';
 const note = flag('note') ?? '';
+const commentsFile = flag('comments') ?? '';
 const skipTest = has('skip-test');
 
-const sh = (cmd, argv, opts = {}) => {
-  const r = spawnSync(cmd, argv, { encoding: 'utf8', ...opts });
-  return r;
-};
+const sh = (cmd, argv, opts = {}) => spawnSync(cmd, argv, { encoding: 'utf8', ...opts });
 
 // ── Phase 0：工作區必須有變更 ─────────────────────────────
 const dirty = execFileSync('git', ['status', '--porcelain'], { encoding: 'utf8' }).trim();
 if (!dirty) {
-  console.log('工作區乾淨，沒有待審的變更。若站工作已 commit，改用：ocr review --audience agent -c HEAD');
+  console.log('工作區乾淨，沒有待審的變更。若站工作已 commit，改用：ocr delegate preview -c HEAD');
   process.exit(0);
 }
 
@@ -41,58 +42,104 @@ if (!skipTest) {
     console.error('測試未過，不進審查。修完重跑本腳本。');
     process.exit(1);
   }
-  const ok = (t.stdout.match(/通過|passed|ok/gi) ?? []).length;
-  console.log(`測試通過。`);
+  console.log('測試通過。');
 }
 
-// ── Phase 2：OCR 環境檢查 ─────────────────────────────────
-const llm = sh('ocr', ['llm', 'test']);
-if (llm.status !== 0) {
-  console.error('ocr LLM 未設定：' + (llm.stderr ?? llm.stdout ?? '').trim());
-  console.error(`設定方式（擇一）：
-  環境變數：export OCR_LLM_URL=... OCR_LLM_TOKEN=... OCR_LLM_MODEL=...（Anthropic 加 OCR_USE_ANTHROPIC=true）
-  永久設定：ocr config set llm.url ... / llm.auth_token ... / llm.model ... / llm.use_anthropic true`);
+// ── Phase 2a：出審查包（委託模式）─────────────────────────
+if (!commentsFile) {
+  const background = [
+    `電競人生 V4 重建${station ? `：站 ${station} 收尾審查` : ''}。`,
+    '純前端 ESM、零建置、Node 原生測試（npm test）。禁建議引入建置工具、打包器、新 npm 依賴。',
+    '條件判斷一律走 src/engine/conditions.js 的 evalCond；eventTrigger.js 的 whenHits 是待退役遺留，不得為其加能力。',
+    '新謂詞要同時加進 conditions.js 的 QUERIES 與 tools/schema.js 的 PREDICATES。',
+    '資料採單一來源：名次表／階名／旗標名只准一份；存機器鍵不存顯示字串。',
+    note,
+  ].filter(Boolean).join(' ');
+
+  console.log('── Phase 2: ocr delegate（委託模式，不呼叫 LLM）──');
+  const pv = sh('ocr', [
+    'delegate', 'preview',
+    '-f', 'json',
+    '-b', background,
+    '--exclude', '**/*.md',
+  ], { maxBuffer: 64 * 1024 * 1024 });
+  if (pv.status !== 0) {
+    console.error('ocr delegate preview 失敗：');
+    console.error(pv.stderr?.slice(-3000) ?? '');
+    console.error(pv.stdout?.slice(-1000) ?? '');
+    process.exit(1);
+  }
+  let preview;
+  try {
+    preview = JSON.parse(pv.stdout);
+  } catch {
+    console.error('ocr delegate preview 輸出不是 JSON：');
+    console.error(pv.stdout.slice(-3000));
+    process.exit(1);
+  }
+
+  const files = Array.isArray(preview.reviewable_files) ? preview.reviewable_files : [];
+  if (!files.length) {
+    console.log('沒有待審檔案（僅 *.md 變更？）。審查閘門視為通過。');
+    process.exit(0);
+  }
+
+  const paths = files.map((f) => f.path);
+  const rl = sh('ocr', ['delegate', 'rule', '-f', 'json', ...paths], { maxBuffer: 64 * 1024 * 1024 });
+  let groups = [];
+  if (rl.status === 0) {
+    try {
+      groups = JSON.parse(rl.stdout).groups ?? [];
+    } catch {
+      console.error('ocr delegate rule 輸出不是 JSON，規則段落改以未解析文字放入審查包。');
+      groups = [{ group_id: 0, source: 'unparsed', pattern: '**', files: paths, rule: rl.stdout.slice(0, 30000) }];
+    }
+  } else {
+    console.error('ocr delegate rule 失敗（' + (rl.stderr ?? '').trim() + '），繼續出包但不帶規則。');
+  }
+
+  const statusMap = new Map(dirty.split('\n').map((l) => [l.slice(3), l.slice(0, 2)]));
+  const pkg = {
+    schema_version: 1,
+    station,
+    background,
+    mode: preview.mode,
+    files: [],
+    rules: groups,
+  };
+  for (const f of files) {
+    const st = statusMap.get(f.path) ?? '';
+    if (st.includes('?')) {
+      pkg.files.push({ ...f, status: st, full_content: readFileSync(f.path, 'utf8') });
+    } else {
+      const d = sh('git', ['diff', 'HEAD', '--', f.path], { maxBuffer: 64 * 1024 * 1024 });
+      pkg.files.push({ ...f, status: st, diff: d.stdout });
+    }
+  }
+
+  const dir = mkdtempSync(join(tmpdir(), 'ocr-delegate-'));
+  const pkgFile = join(dir, 'review-package.json');
+  writeFileSync(pkgFile, JSON.stringify(pkg, null, 2));
+  console.log(`審查包：${files.length} 個檔案（+${preview.total_insertions ?? '?'}／−${preview.total_deletions ?? '?'}）、規則 ${groups.length} 組`);
+  console.log(`完整審查包：${pkgFile}`);
+  console.log('下一步：host agent 逐檔審查（委託模式意見格式：path／content／severity／category…），');
+  console.log('意見寫成 JSON，再跑本腳本：node scripts/station-review.mjs --comments <意見檔> 進閘門。');
+  process.exit(0);
+}
+
+// ── Phase 2b：意見 JSON 閘門 ──────────────────────────────
+console.log('── Phase 2: 意見 JSON 閘門 ──');
+if (!existsSync(commentsFile)) {
+  console.error(`意見檔不存在：${commentsFile}`);
   process.exit(1);
 }
-
-// ── Phase 3：跑審查 ───────────────────────────────────────
-const background = [
-  `電競人生 V4 重建${station ? `：站 ${station} 收尾審查` : ''}。`,
-  '純前端 ESM、零建置、Node 原生測試（npm test）。禁建議引入建置工具、打包器、新 npm 依賴。',
-  '條件判斷一律走 src/engine/conditions.js 的 evalCond；eventTrigger.js 的 whenHits 是待退役遺留，不得為其加能力。',
-  '新謂詞要同時加進 conditions.js 的 QUERIES 與 tools/schema.js 的 PREDICATES。',
-  '資料採單一來源：名次表／階名／旗標名只准一份；存機器鍵不存顯示字串。',
-  note,
-].filter(Boolean).join(' ');
-
-console.log('── Phase 2: ocr review ──');
-const outFile = join(mkdtempSync(join(tmpdir(), 'ocr-')), 'review.json');
-const rv = sh('ocr', [
-  'review',
-  '--audience', 'agent',
-  '-f', 'json',
-  '-b', background,
-  '--exclude', '**/*.md',
-], { maxBuffer: 64 * 1024 * 1024 });
-
-if (rv.status !== 0) {
-  console.error('ocr review 失敗：');
-  console.error(rv.stderr?.slice(-3000) ?? '');
-  console.error(rv.stdout?.slice(-1000) ?? '');
-  process.exit(1);
-}
-writeFileSync(outFile, rv.stdout);
-
-// ── Phase 4：解析與回報 ───────────────────────────────────
 let data;
 try {
-  data = JSON.parse(rv.stdout);
+  data = JSON.parse(readFileSync(commentsFile, 'utf8'));
 } catch {
-  console.error('ocr 輸出不是 JSON，原始結果存於：' + outFile);
-  console.error(rv.stdout.slice(-3000));
+  console.error(`意見檔不是 JSON：${commentsFile}`);
   process.exit(1);
 }
-
 const comments = Array.isArray(data.comments) ? data.comments
   : Array.isArray(data.issues) ? data.issues
   : [];
@@ -105,9 +152,8 @@ for (const c of comments) {
 }
 
 console.log('');
-console.log(`審查完畢：${data.files_reviewed ?? '?'} 個檔案、${comments.length} 條意見`);
+console.log(`審查完畢：${comments.length} 條意見`);
 console.log(`  critical ${buckets.critical.length}｜high ${buckets.high.length}｜medium ${buckets.medium.length}｜low ${buckets.low.length}`);
-console.log(`  完整 JSON：${outFile}`);
 
 for (const sev of ['critical', 'high', 'medium', 'low']) {
   if (!buckets[sev].length) continue;

@@ -74,24 +74,33 @@
 
 ## 審查收尾規則
 
-> 2026-08-16 定案。每站工作完成、收尾文件寫好後，push 前必過 OCR
-> （open-code-review）審查閘門。
+> 2026-08-16 定案；2026-08-17 修訂為委託模式。每站工作完成、收尾文件寫好後，
+> push 前必過 OCR（open-code-review）審查閘門。**審查一律走委託模式**
+> （`ocr delegate`）：OCR 只做確定性工程（檔案篩選、規則解析），全程不呼叫
+> LLM、**不需 API key**；審查由 host agent 親自執行。
 
-1. 跑 `node scripts/station-review.mjs --station <站號>`：先跑 `npm test`
-   閘門，再 `ocr review` 全工作區變更（自動排除 `*.md`、帶入
-   `.opencodereview/rule.json` 倉庫規則與專案背景）。
-2. **exit 2 = 有 critical／high**：逐條修正 → 重跑 `npm test` → 重跑本腳本
+1. 跑 `node scripts/station-review.mjs --station <站號>`：先跑 `npm test` 閘門，
+   再出審查包——`ocr delegate preview` 篩出待審檔（自動排除 `*.md`）、
+   `ocr delegate rule` 帶入 `.opencodereview/rule.json` 倉庫規則與專案背景，
+   並附各檔 diff（未追蹤檔附全文）。
+2. host agent 逐檔審查（用自己的智慧與工具，不用 OCR 的 LLM 端點），意見依
+   委託模式格式（`path`／`content`／`start_line`／`end_line`／`category`／
+   `severity`）寫成 JSON，再跑
+   `node scripts/station-review.mjs --station <站號> --comments <意見檔>`
+   進閘門。
+3. **exit 2 = 有 critical／high**：逐條修正 → 重跑 `npm test` → 重跑本腳本
    複審，直到 exit 0。修正只聚焦 high／critical；不要順手重構。
-3. medium／low 自行斟酌：修掉，或記進該站交接筆記（照「補記」往例），
+4. medium／low 自行斟酌：修掉，或記進該站交接筆記（照「補記」往例），
    不得無聲忽略。
-4. commit 拆法（與既往歷史一致）：
+5. commit 拆法（與既往歷史一致）：
    - 站工作：`feat: S<id> <主題>——<一句話總結>`（一站一個）
    - 審查修正：`fix: S<id> OCR review 修正——<改了什麼>`
    - 只記不改：`docs: S<id> OCR review 補記——<N 條記入交接筆記>`
-5. `git push`。
-6. `.opencodereview/rule.json`（倉庫審查規則）與本檔規則同源：
+6. `git push`。
+7. `.opencodereview/rule.json`（倉庫審查規則）與本檔規則同源：
    條件語言、單一來源等規則變動時，兩處同一個 commit 一起改。
-7. 已 commit 後才要補審，用 `ocr review --audience agent -c HEAD`。
+8. 已 commit 後才要補審，用 `ocr delegate preview -c HEAD`（委託模式，
+   同樣不呼叫 LLM、不需 API key）。
 
 **動工規則**：說「動工」（或開工／接續下一站）即套用 `donggong` skill——跑
 `docs/v4/next-station.mjs` 抓下一站續做，不要每次重跑搜尋理解進度。
