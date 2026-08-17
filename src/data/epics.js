@@ -324,6 +324,14 @@ export const UNIQUE_TRAITS = {
     // 不是這張卡
     grantWhen: null,
   },
+  squat_savior: {
+    name: '深蹲救台灣', tier: 'unique', pool: 'career',
+    desc: '受傷率上限 ×0.7、抗壓 +3；底盤穩了，但太專注深蹲忘了看小地圖（紀律 −3）',
+    effects: { injuryRate: { cap: 0.7 }, mental_comp: 3 },
+    sideEffects: { mental_disc: -3 }, sideEffectLevel: 'light',
+    grant: '鍛鍊體能事件觸發 7 次——館長的深蹲課從不缺席',
+    grantWhen: ['eventCount', 'squat_challenge', 'gte', 7],
+  },
 };
 
 /**

@@ -106,6 +106,19 @@ export const EVENT_CARDS = [
     good: { text: '整個伺服器都認得你的 ID，肝出來的分數成了你最硬的名片', attr: { tec: 2, vit: -1 }, flags: { grinder: true } },
     bad:  { text: '為了守住排名連著幾週睡不滿，上台的時候手是抖的', attr: { vit: -2 }, mental: { comp: -2 } } },
 
+  /* 教學示範事件（§12.2）：可重複觸發的體能訓練事件。成功加體能和決斷、失敗扣動機
+   * 和體能。出場次數由引擎自動計算（以卡 id 為鍵），unique 特質「深蹲救台灣」的
+   * grantWhen 讀 ['eventCount', 'squat_challenge', 'gte', 7]——累計觸發 7 次後
+   * 年度結算自動授予。 */
+  { id: 'squat_challenge', name: '鍛鍊體能', kind: 'normal', pool: ['persona'], sub: 'life', slot: ['regular'], excl: 'solo_squat_challenge',
+    prompt: '你去健身房遇到館長，他指著深蹲架說：「來，做五組，每組 10 下，重量我決定。」你要接受挑戰嗎？',
+    options: [
+      { id: 'accept', label: '接受館長的挑戰', odds: 55, gain: 1, loss: 1, main: true },
+      { id: 'decline', label: '謝謝館長，我今天做別的', odds: 100, gain: 0, loss: 0 },
+    ],
+    good: { text: '你完成了五組深蹲，館長點頭說不錯。', attr: { vit: 2, dec: 1 } },
+    bad: { text: '第三組就沒力了，館長搖頭走開。', attr: { vit: -1 }, mental: { drive: -2 } } },
+
   { id: 'scrim', name: '訓練賽加練', kind: 'normal', pool: ['performance'], sub: 'training', slot: ['amateur', 'am2', 'regular', 'offseason'], excl: 'training',
     prompt: '團練結束，幾個隊友還想再開一輪對線練習。時間已經很晚了。',
     options: [
