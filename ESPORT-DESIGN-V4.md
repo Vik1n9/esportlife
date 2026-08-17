@@ -1,4 +1,4 @@
-# 電競人生：LoL 職業選手生涯模擬 — 規格企劃書 v4.7.1（Rogue-like 重構版）
+# 電競人生：LoL 職業選手生涯模擬 — 規格企劃書 v4.7.2（Rogue-like 重構版）
 
 > 本文件為完全重構後的設計規格，**取代 v3.0（ESPORT-DESIGN.md）**。
 > v3 源自棒球生涯模擬的未授權架構，已整體捨棄；本版本從零建立，不帶任何舊架構殘留。
@@ -2639,6 +2639,33 @@ fetch_priority 1 = HOME 全量；2 = Global_Boss 國際賽精選；3 = 其他
   Global_Boss 的取材範圍。
 - **`team_id` 與顯示**：一律用縮寫；中文隊名由 `team_history` 導出（單一來源），
   `data/regions/*` 沒有對應戰隊時直接顯示縮寫。
+
+#### S27 落地回寫（v4.7.2，補 §23.3 三處「範圍見下表」缺表）
+
+S23 定案時逐欄定義寫了「範圍見下表」但表未落，`gen-roster.mjs`（S27）照下列定案
+落地，S28／S29 依此消費：
+
+1. **lifecycle 三參數範圍**（選手層級、單一組、不逐屬性）：`peak_age` 整數
+   `[20, 28]`，優先用史實巔峰年（最佳名次年 − 出生年，`bestFinishOf`），缺資料走
+   基準 24 ± hash jitter；`rise_k` `[1.4, 2.2]`（基準 1.8）；`fall_k` `[0.02, 0.06]`
+   （基準 0.04）。`fall_accel` 固定 1.5（§7.2 tec 基準）——schema 只存三參數，它
+   是生成器內的常數。
+2. **attributes 位置原型反映射**：`prototype[attr] = 55 + 40 × (w[attr] / w_max)`，
+   `w = ROLE_ATTR_WEIGHTS[role]`、`w_max` 為該位置最大權重（權重 0 的屬性落在 55，
+   即位置無關的屬性仍有基線，不歸零）；再縮放使 `Σ(attr × w) = peak.rating`
+   （round 後誤差 < 0.5，實測 maxErr 0.29）。位置 null 走五路平均權重原型。
+   無名次（peak 為 null）者 attributes 亦為 null——強度骨幹缺位不拍數字。
+3. **tags 詞彙表**（定案）：`birth_estimated`（缺出生年，debut − 17 估算）、
+   `no_finish`（無名次、peak null）、`short_peak`（資料紀錄跨度單年）、
+   `journeyman`（轉會 ≥ 4 隊）、`intl_season`（打過 Worlds／MSI）、
+   `worlds_champion`（世界賽冠軍）。psych 六維與 traits 由確定性規則產出＋執行者
+   覆寫快取（`tools/npc/npc_overrides.json`，§23.1 第 4 條的 LLM 職責由執行者承擔）。
+
+⚠ **資料限制**（S27 量測）：`cleaned` 的 `active_years` 反映「資料涵蓋範圍」而非
+真實生涯長度——`short_peak` 因此偏高（單年資料 ≠ 曇花一現，S27 樣本 305/938）；
+`veteran`／`journeyman` 可靠（資料稀薄只會低估它們，不會高估）。S29 敘事用 tags
+時應理解這層。position ／名次的缺漏（如 TPA 2012 冠軍隊員不在 p1、Westdoor 誤標
+JGL）是 S24／S25 資料上游問題，S27 只照單全收，記交接筆記不回頭改。
 
 ### 23.4 逐選手對手模型定案（v4.6.0，S29 吃，S30 重校）
 

@@ -59,8 +59,8 @@ const FINISH_OFFSET = {
 /** 事件強度序位（生涯最佳名次取「最高層級＋最好名次」） */
 const EVENT_RANK = { worlds: 1, msi: 2, LCK: 3, LPL: 3, KR: 3, LEC: 4, LCS: 4, PCS: 5 };
 
-/** 由生涯 finishes 回歸該選手 peakRating（生涯最佳名次） */
-export function peakRatingOf(player) {
+/** 生涯最佳名次（單一來源：peak 的 rating 與 year 都過這份排序，不分開各算一份） */
+export function bestFinishOf(player) {
   let best = null;
   for (const c of player.career || []) {
     for (const f of c.finishes || []) {
@@ -69,10 +69,16 @@ export function peakRatingOf(player) {
       if (off === undefined) continue;
       const score = er * 100 + (off + 100);
       if (!best || score < best.score) {
-        best = { score, event: f.event, finish: f.finish };
+        best = { score, event: f.event, finish: f.finish, year: f.year };
       }
     }
   }
+  return best;
+}
+
+/** 由生涯 finishes 回歸該選手 peakRating（生涯最佳名次） */
+export function peakRatingOf(player) {
+  const best = bestFinishOf(player);
   if (!best) return null;
   const base = RATING_BY_EVENT[best.event];
   if (base === undefined) return null;

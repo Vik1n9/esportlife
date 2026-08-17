@@ -1,0 +1,9 @@
+{
+  "Maple (Taiwanese player)": { "traits": ["intlghost", "franchise"], "psych": { "conf": 62, "comp": 62 } },
+  "Westdoor": { "traits": ["laneking", "clutch"] },
+  "Karsa": { "traits": ["intlghost", "veteran"] },
+  "SwordArT": { "traits": ["leader", "veteran"] },
+  "BeBe": { "traits": ["clutch", "veteran"], "tags": ["intl_season", "worlds_champion"] },
+  "Ziv (Taiwanese player)": { "traits": ["veteran"] },
+  "Albis": { "traits": ["veteran"] }
+}

@@ -1,3 +1,41 @@
+## 2026-08-18 — S27 參數生成：史實轉 NPC 名冊，LLM 語意環境沒 API、改用規則＋執行者覆寫
+
+- **方向**：`cleaned_players.json`（S25）是史實紀錄，還不是遊戲參數。本站把 938 筆
+  史實（p1 台港澳全量 200 ＋ p2 國際賽精選 738）轉成 V4 的 NPC 結構，產出
+  `src/data/npc/roster.js`——S28（隊友）／S29（逐選手對手）的輸入。p3（1712 筆）
+  不生成（使用者拍板：非 Global_Boss 取材範圍）。
+
+- **實作**：
+  - `tools/npc/gen-roster.mjs`（生成器）→ `src/data/npc/roster.js`。`peak.rating`
+    復用 S26 `peakRatingOf`（import，單一來源；gen-percentiles 加 `bestFinishOf`
+    暴露 year，純重構）。`attributes` 位置原型反映射（`55 + 40 × (w/w_max)` 再縮放
+    使加權平均 = rating）。`lifecycle` 三參數範圍、tags 詞彙表補定 §23.3 三處
+    「範圍見下表」缺表（S23 定案時表沒落，回寫規格）。
+  - psych／traits／tags 用確定性規則產出（生涯數據映射＋`hash01` 可重現 jitter），
+    執行者對 7 筆知名台港澳選手做語意覆寫（`npc_overrides.json` 快取）。
+  - 版本 v4.7.1 → v4.7.2（對既有章節補充）。
+
+- **⚠ 環境無 LLM API 的第二次落地**：S25 已實測 anthropic／openai／ollama 皆無、
+  無 key。§23.1 定案是「LLM 只做語意轉換逐選手單呼叫」，本站照 S25 先例把判斷力
+  換成「確定性規則產出全部預設＋執行者對 p1 精修」，快取結構照 §23.1（重跑冪等、
+  命中不重判）。未來有 API 時重跑覆寫即可，機制不用改。
+
+- **⚠ 資料限制不是 S27 的鍋**：cleaned 的 `active_years` 是「資料涵蓋範圍」不是
+  真實生涯長度——`short_peak` 因此 305/938（單年資料被當曇花）；`veteran`／
+  `journeyman` 可靠（資料稀薄只會低估）。Westdoor 誤標 JGL（實際 MID）、TPA 2012
+  冠軍隊員（Toyz／Stanley／Lilballz）不在 p1、BeBe 的 2012 世界冠軍名次缺——都是
+  S24／S25 上游，S27 照單全收記交接筆記，不回改。
+
+- **實測結論**：938 筆中 528 有 peak.rating（min 60／p50 68／max 76，P50 與 S26
+  母體對齊）、663 有 position、410 無名次（peak null）。attributes 反映射 maxErr
+  0.29。抽樣 Faker（76／clutch+veteran）、Deft、Maple、Karsa、Westdoor 等知名選手
+  規則產出與史實吻合。
+
+- **狀態**：完成。`npm test` 22703 項，唯一紅燈是既有並行任務 disband seed 26
+  （S26 記錄的 squat_challenge bug，與本站無關）；S27 未動 src/ 引擎、SAVE_VERSION
+  不動；版本 v4.7.2。roster.js 未進 npm test（S28/S29 消費時才需守 schema）；OCR
+  審查閘門環境無 LLM 未跑，比照 S25/S26 往例記入交接筆記。
+
 ## 2026-08-18 — S26 母體百分位：兩條 route 路線改回百分位，但「route 覆蓋率 ≥60%」這條線從 S19c 起就從未真正量過
 
 - **方向**：§14.3 的究極綠葉與網紅選手因為「引擎沒有全聯盟逐選手數據母體」用絕對

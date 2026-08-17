@@ -1,3 +1,25 @@
+## [v4.7.2] - 2026-08-18
+
+### NPC 名冊生成（S27）
+
+庚組資料線的最後一站：把 `cleaned_players.json`（S25）的史實轉成 V4 的 NPC
+結構，產出 `src/data/npc/roster.js`——S28（隊友）與 S29（逐選手對手）的輸入。
+
+- **生成器 `tools/npc/gen-roster.mjs`**：確定性數學照 S23／S26 定案——`peak.rating`
+  復用 S26 `peakRatingOf` 回歸（單一來源）；`attributes` 位置原型反映射
+  （`55 + 40 × (w/w_max)` 再縮放使加權平均 = rating）；`lifecycle` 三參數範圍與
+  `tags` 詞彙表補定 §23.3 三處「範圍見下表」缺表（回寫規格）。
+- **生成範圍**：priority 1（台港澳全量 200）＋ priority 2（Worlds／MSI 參賽隊員＋
+  四大賽區賽段冠軍隊員 738）＝ 938 筆；priority 3 不生成（S27 拍板）。
+- **LLM 語意**：環境無 LLM API，比照 S25 先例——psych／traits／tags 由確定性規則
+  產出，執行者對 7 筆知名台港澳選手做語意覆寫（`tools/npc/npc_overrides.json`
+  快取）。重跑冪等（同輸入同輸出，shasum 不變）。
+- **量測**：938 筆中 528 有 peak.rating（P50=68 與 S26 母體對齊）、663 有 position、
+  410 無名次（peak null）。attributes 反映射 maxErr 0.29。`short_peak` 305 筆反映
+  cleaned 資料涵蓋範圍短（資料限制，非真實曇花），記交接筆記。
+- **升版**：package.json／APP_VERSION／規格書檔頭／CHANGELOG 四處同號
+  v4.7.1 → v4.7.2（對既有章節的補充，§23.3 補缺表）。
+
 ## [v4.7.1] - 2026-08-18
 
 ### §14.3 兩條 route 路線改回百分位（S26）
