@@ -951,3 +951,519 @@
 2026-08-16T22:59:58.710Z 退避重試 HTTP 429（45s 後）
 2026-08-16T23:00:49.398Z FAIL LPL/2025/Split 3（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=LPL%2F2025%2FSplit+3&prop=wikitext&redirects=1，略過續下頁）
 2026-08-16T23:00:49.399Z 抓取完成: 抓 0、跳過 83、缺頁 0、失敗 26（失敗的頁重跑會再試）
+2026-08-17T05:17:51.937Z 退避重試 HTTP 429（5s 後）
+2026-08-17T05:18:02.548Z 退避重試 HTTP 429（15s 後）
+2026-08-17T05:18:23.242Z 退避重試 HTTP 429（45s 後）
+2026-08-17T05:23:03.411Z 退避重試 HTTP 429（5s 後）
+2026-08-17T05:23:13.871Z 退避重試 HTTP 429（15s 後）
+2026-08-17T05:23:34.233Z 退避重試 HTTP 429（45s 後）
+2026-08-17T05:24:25.187Z FAIL 007x（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=007x&prop=wikitext&redirects=1，略過續下頁）
+2026-08-17T05:24:34.670Z 退避重試 HTTP 429（5s 後）
+2026-08-17T05:24:45.061Z 退避重試 HTTP 429（15s 後）
+2026-08-17T05:25:05.303Z [lp] 對照進度 50/1057
+2026-08-17T05:25:05.786Z 退避重試 HTTP 429（45s 後）
+2026-08-17T05:25:06.944Z [lp] 對照進度 100/1057
+2026-08-17T05:25:08.621Z [lp] 對照進度 150/1057
+2026-08-17T05:25:10.280Z [lp] 對照進度 200/1057
+2026-08-17T05:25:11.947Z [lp] 對照進度 250/1057
+2026-08-17T05:25:13.656Z [lp] 對照進度 300/1057
+2026-08-17T05:25:15.317Z [lp] 對照進度 350/1057
+2026-08-17T05:25:17.013Z [lp] 對照進度 400/1057
+2026-08-17T05:25:18.648Z [lp] 對照進度 450/1057
+2026-08-17T05:25:20.337Z [lp] 對照進度 500/1057
+2026-08-17T05:25:21.974Z [lp] 對照進度 550/1057
+2026-08-17T05:25:23.678Z [lp] 對照進度 600/1057
+2026-08-17T05:25:25.330Z [lp] 對照進度 650/1057
+2026-08-17T05:25:26.988Z [lp] 對照進度 700/1057
+2026-08-17T05:25:28.727Z [lp] 對照進度 750/1057
+2026-08-17T05:25:30.367Z [lp] 對照進度 800/1057
+2026-08-17T05:25:32.155Z [lp] 對照進度 850/1057
+2026-08-17T05:25:33.787Z [lp] 對照進度 900/1057
+2026-08-17T05:25:35.451Z [lp] 對照進度 950/1057
+2026-08-17T05:25:37.073Z [lp] 對照進度 1000/1057
+2026-08-17T05:25:38.712Z [lp] 對照進度 1050/1057
+2026-08-17T05:25:40.399Z [lp] 對照進度 1057/1057
+2026-08-17T05:25:40.402Z [lp] 對照完成: 命中 878、缺頁 143（共 1021）
+2026-08-17T05:25:56.235Z FAIL 100 Thieves（HTTP 429: https://liquipedia.net/leagueoflegends/api.php?format=json&formatversion=2&action=parse&page=100+Thieves&prop=wikitext&redirects=1，略過續下頁）
+2026-08-17T05:26:05.568Z 退避重試 HTTP 429（5s 後）
+2026-08-17T05:26:15.930Z 退避重試 HTTP 429（15s 後）
+2026-08-17T05:27:19.768Z [lp] 對照進度 50/1326
+2026-08-17T05:27:21.428Z [lp] 對照進度 100/1326
+2026-08-17T05:27:23.074Z [lp] 對照進度 150/1326
+2026-08-17T05:27:24.739Z [lp] 對照進度 200/1326
+2026-08-17T05:27:26.441Z [lp] 對照進度 250/1326
+2026-08-17T05:27:28.145Z [lp] 對照進度 300/1326
+2026-08-17T05:27:29.830Z [lp] 對照進度 350/1326
+2026-08-17T05:27:31.475Z [lp] 對照進度 400/1326
+2026-08-17T05:27:33.174Z [lp] 對照進度 450/1326
+2026-08-17T05:27:34.813Z [lp] 對照進度 500/1326
+2026-08-17T05:27:36.530Z [lp] 對照進度 550/1326
+2026-08-17T05:27:38.231Z [lp] 對照進度 600/1326
+2026-08-17T05:27:39.905Z [lp] 對照進度 650/1326
+2026-08-17T05:27:41.582Z [lp] 對照進度 700/1326
+2026-08-17T05:27:43.247Z [lp] 對照進度 750/1326
+2026-08-17T05:27:44.900Z [lp] 對照進度 800/1326
+2026-08-17T05:27:46.565Z [lp] 對照進度 850/1326
+2026-08-17T05:27:48.212Z [lp] 對照進度 900/1326
+2026-08-17T05:27:49.911Z [lp] 對照進度 950/1326
+2026-08-17T05:27:51.579Z [lp] 對照進度 1000/1326
+2026-08-17T05:27:53.231Z [lp] 對照進度 1050/1326
+2026-08-17T05:27:54.889Z [lp] 對照進度 1100/1326
+2026-08-17T05:27:56.548Z [lp] 對照進度 1150/1326
+2026-08-17T05:27:58.210Z [lp] 對照進度 1200/1326
+2026-08-17T05:27:59.896Z [lp] 對照進度 1250/1326
+2026-08-17T05:28:01.650Z [lp] 對照進度 1300/1326
+2026-08-17T05:28:03.351Z [lp] 對照進度 1326/1326
+2026-08-17T05:28:03.354Z [lp] 對照完成: 命中 993、缺頁 28（共 1021）
+2026-08-17T05:28:35.350Z [lp] 對照進度 50/1328
+2026-08-17T05:28:36.978Z [lp] 對照進度 100/1328
+2026-08-17T05:28:38.647Z [lp] 對照進度 150/1328
+2026-08-17T05:28:40.284Z [lp] 對照進度 200/1328
+2026-08-17T05:28:41.973Z [lp] 對照進度 250/1328
+2026-08-17T05:28:43.632Z [lp] 對照進度 300/1328
+2026-08-17T05:28:45.397Z [lp] 對照進度 350/1328
+2026-08-17T05:28:47.100Z [lp] 對照進度 400/1328
+2026-08-17T05:28:48.754Z [lp] 對照進度 450/1328
+2026-08-17T05:28:50.401Z [lp] 對照進度 500/1328
+2026-08-17T05:28:52.040Z [lp] 對照進度 550/1328
+2026-08-17T05:28:53.747Z [lp] 對照進度 600/1328
+2026-08-17T05:28:55.444Z [lp] 對照進度 650/1328
+2026-08-17T05:28:57.111Z [lp] 對照進度 700/1328
+2026-08-17T05:28:58.873Z [lp] 對照進度 750/1328
+2026-08-17T05:29:00.505Z [lp] 對照進度 800/1328
+2026-08-17T05:29:02.174Z [lp] 對照進度 850/1328
+2026-08-17T05:29:03.831Z [lp] 對照進度 900/1328
+2026-08-17T05:29:05.474Z [lp] 對照進度 950/1328
+2026-08-17T05:29:07.106Z [lp] 對照進度 1000/1328
+2026-08-17T05:29:08.736Z [lp] 對照進度 1050/1328
+2026-08-17T05:29:10.429Z [lp] 對照進度 1100/1328
+2026-08-17T05:29:12.087Z [lp] 對照進度 1150/1328
+2026-08-17T05:29:13.729Z [lp] 對照進度 1200/1328
+2026-08-17T05:29:15.375Z [lp] 對照進度 1250/1328
+2026-08-17T05:29:17.024Z [lp] 對照進度 1300/1328
+2026-08-17T05:29:18.689Z [lp] 對照進度 1328/1328
+2026-08-17T05:29:18.695Z [lp] 對照完成: 命中 1021、缺頁 0（共 1021）
+2026-08-17T05:29:38.255Z [lp] 備援抓取開始: 待抓 898、跳過 123
+2026-08-17T05:29:38.881Z [lp] 進度 20/898
+2026-08-17T05:29:47.571Z [lp] 進度 120/898
+2026-08-17T05:29:56.117Z [lp] 進度 220/898
+2026-08-17T05:30:04.979Z [lp] 進度 320/898
+2026-08-17T05:30:13.442Z [lp] 進度 420/898
+2026-08-17T05:30:22.045Z [lp] 進度 520/898
+2026-08-17T05:30:30.544Z [lp] 進度 620/898
+2026-08-17T05:30:39.060Z [lp] 進度 720/898
+2026-08-17T05:30:47.591Z [lp] 進度 820/898
+2026-08-17T05:30:54.538Z [lp] 備援抓取完成: 抓 898、缺內容 0、跳過 123
+2026-08-17T05:34:59.466Z [lp] 消歧義待解 94 筆
+2026-08-17T05:35:32.893Z [lp] RESOLVE APA → APA (Eain Stearns)（分 2／次高 0）
+2026-08-17T05:35:32.894Z [lp] RESOLVE Ace (Japanese player) → Ace (Kotoji Mugita)（分 4／次高 -4）
+2026-08-17T05:35:32.894Z [lp] RESOLVE Ackerman (Argentinian player) → Ackerman (Gabriel Aparicio)（分 4／次高 -4）
+2026-08-17T05:35:32.894Z [lp] RESOLVE Adam → Adam (Adam Maanane)（分 2／次高 0）
+2026-08-17T05:35:32.894Z [lp] RESOLVE Aegis → Aegis (Gabriel Lemos)（分 2／次高 0）
+2026-08-17T05:35:32.894Z [lp] RESOLVE Amazing (German player) → Amazing (Maurice Stückenschneider)（分 10／次高 -4）
+2026-08-17T05:35:32.894Z [lp] RESOLVE Angel (Chinese player) → Angel (Xiang Tao)（分 4／次高 -4）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Archie (Vietnamese player) → Archie (Trần Minh Nhựt)（分 4／次高 -4）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Artemis → Artemis (Trần Quốc Hưng)（分 2／次高 0）
+2026-08-17T05:35:32.895Z [lp] RESOLVE BOSS (Russian player) → BOSS (Vladislav Fomin)（分 4／次高 -4）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Berserker (Korean player) → Berserker (Kim Min-cheol)（分 6／次高 0）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Blank → Blank (Kang Sun-gu)（分 2／次高 0）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Candy (Korean player) → Candy (Kim Seung-ju)（分 4／次高 -4）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Closer → Closer (Can Çelik)（分 6／次高 0）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Corn (Chinese player) → corn (Lei Wen)（分 8／次高 -4）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Crazy → Crazy (Kim Jae-hee)（分 2／次高 0）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Danny → Danny (Kyle Sakamaki)（分 2／次高 0）
+2026-08-17T05:35:32.895Z [lp] RESOLVE Destiny (Australian player) → Destiny (Mitchell Shaw)（分 4／次高 -4）
+2026-08-17T05:35:32.896Z [lp] RESOLVE Duke → Duke (Lee Ho-seong)（分 6／次高 0）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Emperor → Emperor (Kim Jin-hyun)（分 6／次高 0）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Exo → Exo (Eric Gubatan)（分 2／次高 0）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Frozen → Frozen (Kim Tae-il)（分 6／次高 0）
+2026-08-17T05:35:32.897Z [lp] RESOLVE GODV → GodV (Wei Zhen)（分 2／次高 0）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Ghost (Korean player) → Ghost (Jang Yong-jun)（分 10／次高 -4）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Glory (Vietnamese player) → Glory (Lê Ngọc Vinh)（分 6／次高 -4）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Hades (Swedish player) → Hades (Volkan Dinçer)（分 6／次高 -4）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Hope (Chinese player) → Hope (Wang Jie)（分 4／次高 0）
+2026-08-17T05:35:32.897Z [lp] RESOLVE Hybrid → Hybrid (Glenn Doornenbal)（分 4／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Jojo → JoJo (Gabriel Dzelme)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Kami → Kami (Gabriel Bohm Santos)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Mark (Chinese player) → Mark (Ling Xu)（分 4／次高 -4）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Meliodas (Vietnamese player) → Meliodas (Hoàng Tiến Nhật)（分 4／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Ming → Ming (Shi Sen-Ming)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Moss → Moss (Sorawat Boonphrom)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE NL → NL (Hsiung Wen-An)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE NoName → NONAME (Zhou Qi-Lin)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Noah → Noah (Oh Hyeon-taek)（分 2／次高 0）
+2026-08-17T05:35:32.898Z [lp] RESOLVE Pilot → Pilot (Na Woo-hyung)（分 2／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Pride (Chilean player) → Pride (Franco Sanzana)（分 4／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Pyl → Pyl (Chen Bo)（分 2／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Rich (Thai player) → Rich (Warich Kittiwattanawong)（分 4／次高 -4）
+2026-08-17T05:35:32.899Z [lp] RESOLVE River (Korean player) → River (Kim Dong-woo)（分 4／次高 -4）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Road → Road (Yun Han-gil)（分 2／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Shadow (Argentinian player) → Shadow (Facundo Cuello)（分 4／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Shogun (Vietnamese player) → Shogun (Nguyễn Văn Huy)（分 4／次高 -4）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Smurf (Russian player) → Smurf (Dmitri Ivanov)（分 4／次高 -4）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Solo → Solo (Colin Earnest)（分 4／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Stark (Vietnamese player) → Stark (Phan Công Minh)（分 6／次高 -4）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Sword → Sword (Choi Sung-won)（分 2／次高 0）
+2026-08-17T05:35:32.899Z [lp] RESOLVE Taki (Vietnamese player) → Taki (Đinh Anh Tài)（分 4／次高 -4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Tarzan (Korean player) → Tarzan (Lee Seung-yong)（分 6／次高 -4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Violet (Cantonese player) → Violet (Vincent Wong)（分 4／次高 -4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Violet (Vietnamese player) → Violet (Ngô Mạnh Quyền)（分 4／次高 -4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Viper (Korean player) → Viper (Park Do-hyeon)（分 8／次高 4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Vulcan → Vulcan (Philippe Laflamme)（分 6／次高 0）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Wei → Wei (Yan Yang-Wei)（分 2／次高 0）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Wolf (Korean player) → Wolf (Lee Jae-wan)（分 10／次高 -4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Yeon → Yeon (Sean Sung)（分 2／次高 0）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Yume (Filipino player) → Yume (Danyll Jann Balisi)（分 6／次高 -4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE Zero (Korean player) → Zero (Yoon Kyung-sup)（分 14／次高 4）
+2026-08-17T05:35:32.900Z [lp] RESOLVE ackerman → Ackerman (Xiao Wang)（分 2／次高 0）
+2026-08-17T05:35:32.900Z [lp] 消歧義解析: 解出 61、未解 33
+2026-08-17T05:35:32.901Z [lp] UNRESOLVED:
+  Apex（候選 4、最高分 0）
+  Archer（候選 3、最高分 0）
+  Aria（候選 2、最高分 0）
+  Bean（候選 4、最高分 0）
+  Bin（候選 2、最高分 0）
+  Bong（候選 2、最高分 0）
+  Cloud（候選 3、最高分 0）
+  Cola（候選 2、最高分 0）
+  Doran（候選 3、最高分 0）
+  Envy（候選 6、最高分 0）
+  Griffin（候選 2、最高分 0）
+  Infinity（候選 8、最高分 0）
+  Infinity Esports（候選 2、最高分 0）
+  Infinity eSports（候選 2、最高分 0）
+  Jay (Taiwanese player)（候選 6、最高分 4）
+  Jelly（候選 3、最高分 0）
+  Jun（候選 6、最高分 0）
+  Lonely（候選 2、最高分 0）
+  Lucky（候選 6、最高分 0）
+  Lyon Gaming（候選 5、最高分 0）
+  Mimic（候選 2、最高分 0）
+  Mountain（候選 2、最高分 0）
+  NAZ（候選 2、最高分 0）
+  Naru（候選 2、最高分 0）
+  Noway（候選 4、最高分 0）
+  PEACE（候選 3、最高分 0）
+  Steal（候選 2、最高分 0）
+  Style（候選 3、最高分 0）
+  Yang（候選 6、最高分 0）
+  Zeka（候選 3、最高分 0）
+  illuSioN（候選 4、最高分 0）
+  knight（候選 8、最高分 0）
+  san（候選 3、最高分 0）
+2026-08-17T05:37:52.953Z [lp] 消歧義待解 94 筆
+2026-08-17T05:38:25.789Z [lp] RESOLVE APA → APA (Eain Stearns)（分 2／次高 0）
+2026-08-17T05:38:25.789Z [lp] RESOLVE Ace (Japanese player) → Ace (Kotoji Mugita)（分 4／次高 -4）
+2026-08-17T05:38:25.789Z [lp] RESOLVE Ackerman (Argentinian player) → Ackerman (Gabriel Aparicio)（分 4／次高 -4）
+2026-08-17T05:38:25.789Z [lp] RESOLVE Adam → Adam (Adam Maanane)（分 2／次高 0）
+2026-08-17T05:38:25.790Z [lp] RESOLVE Aegis → Aegis (Gabriel Lemos)（分 2／次高 0）
+2026-08-17T05:38:25.790Z [lp] RESOLVE Amazing (German player) → Amazing (Maurice Stückenschneider)（分 10／次高 -4）
+2026-08-17T05:38:25.790Z [lp] RESOLVE Angel (Chinese player) → Angel (Xiang Tao)（分 4／次高 -4）
+2026-08-17T05:38:25.790Z [lp] UNRESOLVED Apex（候選 4、最高分 0）
+2026-08-17T05:38:25.790Z [lp] UNRESOLVED Archer（候選 3、最高分 0）
+2026-08-17T05:38:25.790Z [lp] RESOLVE Archie (Vietnamese player) → Archie (Trần Minh Nhựt)（分 4／次高 -4）
+2026-08-17T05:38:25.790Z [lp] UNRESOLVED Aria（候選 2、最高分 0）
+2026-08-17T05:38:25.790Z [lp] RESOLVE Artemis → Artemis (Trần Quốc Hưng)（分 2／次高 0）
+2026-08-17T05:38:25.791Z [lp] RESOLVE BOSS (Russian player) → BOSS (Vladislav Fomin)（分 4／次高 -4）
+2026-08-17T05:38:25.791Z [lp] UNRESOLVED Bean（候選 4、最高分 0）
+2026-08-17T05:38:25.791Z [lp] RESOLVE Berserker (Korean player) → Berserker (Kim Min-cheol)（分 6／次高 0）
+2026-08-17T05:38:25.791Z [lp] RESOLVE Bin → Bin (Chen Ze-Bin)（分 4／次高 -4）
+2026-08-17T05:38:25.791Z [lp] RESOLVE Blank → Blank (Kang Sun-gu)（分 6／次高 -4）
+2026-08-17T05:38:25.791Z [lp] RESOLVE Bong → Bong (Cho Bo-woong)（分 4／次高 0）
+2026-08-17T05:38:25.791Z [lp] RESOLVE Candy (Korean player) → Candy (Kim Seung-ju)（分 4／次高 -4）
+2026-08-17T05:38:25.791Z [lp] RESOLVE Closer → Closer (Can Çelik)（分 10／次高 -4）
+2026-08-17T05:38:25.792Z [lp] RESOLVE Cloud → Cloud (Hu Zhen-Wei)（分 4／次高 -4）
+2026-08-17T05:38:25.792Z [lp] RESOLVE Cola → Cola (Jiang Nan)（分 4／次高 -4）
+2026-08-17T05:38:25.792Z [lp] RESOLVE Corn (Chinese player) → corn (Lei Wen)（分 8／次高 -4）
+2026-08-17T05:38:25.792Z [lp] RESOLVE Crazy → Crazy (Kim Jae-hee)（分 6／次高 0）
+2026-08-17T05:38:25.792Z [lp] RESOLVE Danny → Danny (Kyle Sakamaki)（分 2／次高 0）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Destiny (Australian player) → Destiny (Mitchell Shaw)（分 4／次高 -4）
+2026-08-17T05:38:25.793Z [lp] UNRESOLVED Doran（候選 3、最高分 0）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Duke → Duke (Lee Ho-seong)（分 10／次高 -4）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Emperor → Emperor (Kim Jin-hyun)（分 10／次高 -4）
+2026-08-17T05:38:25.793Z [lp] UNRESOLVED Envy（候選 6、最高分 0）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Exo → Exo (Eric Gubatan)（分 6／次高 -4）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Frozen → Frozen (Kim Tae-il)（分 10／次高 -4）
+2026-08-17T05:38:25.793Z [lp] RESOLVE GODV → GodV (Wei Zhen)（分 2／次高 0）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Ghost (Korean player) → Ghost (Jang Yong-jun)（分 10／次高 -4）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Glory (Vietnamese player) → Glory (Lê Ngọc Vinh)（分 6／次高 -4）
+2026-08-17T05:38:25.793Z [lp] UNRESOLVED Griffin（候選 2、最高分 0）
+2026-08-17T05:38:25.793Z [lp] RESOLVE Hades (Swedish player) → Hades (Volkan Dinçer)（分 6／次高 -4）
+2026-08-17T05:38:25.794Z [lp] RESOLVE Hope (Chinese player) → Hope (Wang Jie)（分 4／次高 0）
+2026-08-17T05:38:25.794Z [lp] RESOLVE Hybrid → Hybrid (Glenn Doornenbal)（分 8／次高 -4）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Infinity（候選 8、最高分 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Infinity Esports（候選 2、最高分 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Infinity eSports（候選 2、最高分 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Jay (Taiwanese player)（候選 6、最高分 4）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Jelly（候選 3、最高分 4）
+2026-08-17T05:38:25.794Z [lp] RESOLVE Jojo → JoJo (Gabriel Dzelme)（分 2／次高 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Jun（候選 6、最高分 0）
+2026-08-17T05:38:25.794Z [lp] RESOLVE Kami → Kami (Gabriel Bohm Santos)（分 2／次高 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Lonely（候選 2、最高分 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Lucky（候選 6、最高分 4）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Lyon Gaming（候選 5、最高分 0）
+2026-08-17T05:38:25.794Z [lp] RESOLVE Mark (Chinese player) → Mark (Ling Xu)（分 4／次高 -4）
+2026-08-17T05:38:25.794Z [lp] RESOLVE Meliodas (Vietnamese player) → Meliodas (Hoàng Tiến Nhật)（分 4／次高 0）
+2026-08-17T05:38:25.794Z [lp] UNRESOLVED Mimic（候選 2、最高分 0）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Ming → Ming (Shi Sen-Ming)（分 2／次高 0）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Moss → Moss (Sorawat Boonphrom)（分 6／次高 -4）
+2026-08-17T05:38:25.795Z [lp] UNRESOLVED Mountain（候選 2、最高分 0）
+2026-08-17T05:38:25.795Z [lp] RESOLVE NAZ → Naz (Chen Tien-Chih)（分 4／次高 -4）
+2026-08-17T05:38:25.795Z [lp] RESOLVE NL → NL (Hsiung Wen-An)（分 6／次高 -4）
+2026-08-17T05:38:25.795Z [lp] UNRESOLVED Naru（候選 2、最高分 0）
+2026-08-17T05:38:25.795Z [lp] RESOLVE NoName → NONAME (Zhou Qi-Lin)（分 6／次高 -4）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Noah → Noah (Oh Hyeon-taek)（分 2／次高 0）
+2026-08-17T05:38:25.795Z [lp] UNRESOLVED Noway（候選 4、最高分 0）
+2026-08-17T05:38:25.795Z [lp] UNRESOLVED PEACE（候選 3、最高分 0）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Pilot → Pilot (Na Woo-hyung)（分 6／次高 -4）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Pride (Chilean player) → Pride (Franco Sanzana)（分 4／次高 0）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Pyl → Pyl (Chen Bo)（分 6／次高 -4）
+2026-08-17T05:38:25.795Z [lp] RESOLVE Rich (Thai player) → Rich (Warich Kittiwattanawong)（分 4／次高 -4）
+2026-08-17T05:38:25.795Z [lp] RESOLVE River (Korean player) → River (Kim Dong-woo)（分 4／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Road → Road (Yun Han-gil)（分 2／次高 0）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Shadow (Argentinian player) → Shadow (Facundo Cuello)（分 4／次高 0）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Shogun (Vietnamese player) → Shogun (Nguyễn Văn Huy)（分 4／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Smurf (Russian player) → Smurf (Dmitri Ivanov)（分 4／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Solo → Solo (Colin Earnest)（分 8／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Stark (Vietnamese player) → Stark (Phan Công Minh)（分 6／次高 -4）
+2026-08-17T05:38:25.796Z [lp] UNRESOLVED Steal（候選 2、最高分 0）
+2026-08-17T05:38:25.796Z [lp] UNRESOLVED Style（候選 3、最高分 0）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Sword → Sword (Choi Sung-won)（分 6／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Taki (Vietnamese player) → Taki (Đinh Anh Tài)（分 4／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Tarzan (Korean player) → Tarzan (Lee Seung-yong)（分 6／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Violet (Cantonese player) → Violet (Vincent Wong)（分 4／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Violet (Vietnamese player) → Violet (Ngô Mạnh Quyền)（分 4／次高 -4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Viper (Korean player) → Viper (Park Do-hyeon)（分 8／次高 4）
+2026-08-17T05:38:25.796Z [lp] RESOLVE Vulcan → Vulcan (Philippe Laflamme)（分 6／次高 0）
+2026-08-17T05:38:25.797Z [lp] RESOLVE Wei → Wei (Yan Yang-Wei)（分 2／次高 0）
+2026-08-17T05:38:25.797Z [lp] RESOLVE Wolf (Korean player) → Wolf (Lee Jae-wan)（分 10／次高 -4）
+2026-08-17T05:38:25.797Z [lp] UNRESOLVED Yang（候選 6、最高分 0）
+2026-08-17T05:38:25.797Z [lp] RESOLVE Yeon → Yeon (Sean Sung)（分 2／次高 0）
+2026-08-17T05:38:25.797Z [lp] RESOLVE Yume (Filipino player) → Yume (Danyll Jann Balisi)（分 6／次高 -4）
+2026-08-17T05:38:25.797Z [lp] UNRESOLVED Zeka（候選 3、最高分 0）
+2026-08-17T05:38:25.797Z [lp] RESOLVE Zero (Korean player) → Zero (Yoon Kyung-sup)（分 14／次高 4）
+2026-08-17T05:38:25.797Z [lp] RESOLVE ackerman → Ackerman (Xiao Wang)（分 6／次高 -4）
+2026-08-17T05:38:25.797Z [lp] RESOLVE illuSioN → illusion (Chen Xin-Lin)（分 4／次高 -4）
+2026-08-17T05:38:25.797Z [lp] UNRESOLVED knight（候選 8、最高分 0）
+2026-08-17T05:38:25.797Z [lp] RESOLVE san → san (Guo Jun-Liang)（分 4／次高 -4）
+2026-08-17T05:38:25.818Z [lp] 消歧義解析: 解出 68、未解 26（候選頁另落檔 94 個，清單 unresolved_disambig_lp.tsv）
+2026-08-17T05:39:53.553Z [lp] 消歧義待解 93 筆
+2026-08-17T05:40:26.492Z [lp] RESOLVE APA → APA (Eain Stearns)（分 5／次高 0）
+2026-08-17T05:40:26.493Z [lp] RESOLVE Ace (Japanese player) → Ace (Kotoji Mugita)（分 4／次高 -4）
+2026-08-17T05:40:26.493Z [lp] RESOLVE Ackerman (Argentinian player) → Ackerman (Gabriel Aparicio)（分 4／次高 -4）
+2026-08-17T05:40:26.493Z [lp] RESOLVE Adam → Adam (Adam Maanane)（分 5／次高 3）
+2026-08-17T05:40:26.493Z [lp] RESOLVE Aegis → Aegis (Gabriel Lemos)（分 5／次高 0）
+2026-08-17T05:40:26.494Z [lp] RESOLVE Amazing (German player) → Amazing (Maurice Stückenschneider)（分 13／次高 -4）
+2026-08-17T05:40:26.494Z [lp] RESOLVE Angel (Chinese player) → Angel (Xiang Tao)（分 7／次高 -4）
+2026-08-17T05:40:26.494Z [lp] UNRESOLVED Apex（候選 4、最高分 0）
+2026-08-17T05:40:26.494Z [lp] UNRESOLVED Archer（候選 3、最高分 0）
+2026-08-17T05:40:26.494Z [lp] RESOLVE Archie (Vietnamese player) → Archie (Trần Minh Nhựt)（分 4／次高 -4）
+2026-08-17T05:40:26.494Z [lp] UNRESOLVED Aria（候選 2、最高分 0）
+2026-08-17T05:40:26.494Z [lp] RESOLVE Artemis → Artemis (Trần Quốc Hưng)（分 2／次高 0）
+2026-08-17T05:40:26.494Z [lp] RESOLVE BOSS (Russian player) → BOSS (Vladislav Fomin)（分 7／次高 -4）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Bean → BEAN (Louis Schmitz)（分 3／次高 0）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Berserker (Korean player) → Berserker (Kim Min-cheol)（分 12／次高 0）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Bin → Bin (Chen Ze-Bin)（分 7／次高 -4）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Blank → Blank (Kang Sun-gu)（分 12／次高 -1）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Bong → Bong (Cho Bo-woong)（分 4／次高 0）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Candy (Korean player) → Candy (Kim Seung-ju)（分 4／次高 -1）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Closer → Closer (Can Çelik)（分 13／次高 -1）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Cloud → Cloud (Hu Zhen-Wei)（分 7／次高 -4）
+2026-08-17T05:40:26.495Z [lp] RESOLVE Cola → Cola (Jiang Nan)（分 7／次高 -4）
+2026-08-17T05:40:26.496Z [lp] RESOLVE Corn (Chinese player) → corn (Lei Wen)（分 11／次高 -4）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Crazy → Crazy (Kim Jae-hee)（分 6／次高 0）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Danny → Danny (Kyle Sakamaki)（分 5／次高 3）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Destiny (Australian player) → Destiny (Mitchell Shaw)（分 4／次高 -1）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Doran → Doran (Choi Hyeon-joon)（分 3／次高 0）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Duke → Duke (Lee Ho-seong)（分 13／次高 -4）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Emperor → Emperor (Kim Jin-hyun)（分 10／次高 -1）
+2026-08-17T05:40:26.497Z [lp] RESOLVE Envy → Envy (Bruno Farias)（分 3／次高 0）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Exo → Exo (Eric Gubatan)（分 6／次高 -4）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Frozen → Frozen (Kim Tae-il)（分 10／次高 -4）
+2026-08-17T05:40:26.498Z [lp] RESOLVE GODV → GodV (Wei Zhen)（分 5／次高 0）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Ghost (Korean player) → Ghost (Jang Yong-jun)（分 16／次高 -1）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Glory (Vietnamese player) → Glory (Lê Ngọc Vinh)（分 6／次高 -4）
+2026-08-17T05:40:26.498Z [lp] UNRESOLVED Griffin（候選 2、最高分 0）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Hades (Swedish player) → Hades (Volkan Dinçer)（分 6／次高 -4）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Hope (Chinese player) → Hope (Wang Jie)（分 7／次高 0）
+2026-08-17T05:40:26.498Z [lp] RESOLVE Hybrid → Hybrid (Glenn Doornenbal)（分 8／次高 -1）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Infinity Esports（候選 2、最高分 0）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Infinity eSports（候選 2、最高分 0）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Jay (Taiwanese player)（候選 6、最高分 4）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Jelly（候選 3、最高分 10）
+2026-08-17T05:40:26.499Z [lp] RESOLVE Jojo → JoJo (Gabriel Dzelme)（分 5／次高 0）
+2026-08-17T05:40:26.499Z [lp] RESOLVE Jun → Jun (Yoon Se-jun)（分 6／次高 3）
+2026-08-17T05:40:26.499Z [lp] RESOLVE Kami → Kami (Gabriel Bohm Santos)（分 5／次高 0）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Lonely（候選 2、最高分 0）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Lucky（候選 6、最高分 7）
+2026-08-17T05:40:26.499Z [lp] UNRESOLVED Lyon Gaming（候選 5、最高分 0）
+2026-08-17T05:40:26.500Z [lp] RESOLVE Mark (Chinese player) → Mark (Ling Xu)（分 7／次高 -4）
+2026-08-17T05:40:26.500Z [lp] RESOLVE Meliodas (Vietnamese player) → Meliodas (Hoàng Tiến Nhật)（分 4／次高 0）
+2026-08-17T05:40:26.500Z [lp] UNRESOLVED Mimic（候選 2、最高分 0）
+2026-08-17T05:40:26.500Z [lp] RESOLVE Ming → Ming (Shi Sen-Ming)（分 8／次高 6）
+2026-08-17T05:40:26.500Z [lp] RESOLVE Moss → Moss (Sorawat Boonphrom)（分 6／次高 -4）
+2026-08-17T05:40:26.500Z [lp] UNRESOLVED Mountain（候選 2、最高分 0）
+2026-08-17T05:40:26.500Z [lp] RESOLVE NAZ → Naz (Chen Tien-Chih)（分 4／次高 -4）
+2026-08-17T05:40:26.500Z [lp] RESOLVE NL → NL (Hsiung Wen-An)（分 9／次高 -4）
+2026-08-17T05:40:26.500Z [lp] UNRESOLVED Naru（候選 2、最高分 0）
+2026-08-17T05:40:26.500Z [lp] RESOLVE NoName → NONAME (Zhou Qi-Lin)（分 6／次高 -4）
+2026-08-17T05:40:26.500Z [lp] RESOLVE Noah → Noah (Oh Hyeon-taek)（分 8／次高 3）
+2026-08-17T05:40:26.500Z [lp] UNRESOLVED Noway（候選 4、最高分 3）
+2026-08-17T05:40:26.500Z [lp] UNRESOLVED PEACE（候選 3、最高分 0）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Pilot → Pilot (Na Woo-hyung)（分 9／次高 -4）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Pride (Chilean player) → Pride (Franco Sanzana)（分 7／次高 0）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Pyl → Pyl (Chen Bo)（分 9／次高 -4）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Rich (Thai player) → Rich (Warich Kittiwattanawong)（分 4／次高 -4）
+2026-08-17T05:40:26.501Z [lp] RESOLVE River (Korean player) → River (Kim Dong-woo)（分 7／次高 2）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Road → Road (Yun Han-gil)（分 2／次高 0）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Shadow (Argentinian player) → Shadow (Facundo Cuello)（分 4／次高 0）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Shogun (Vietnamese player) → Shogun (Nguyễn Văn Huy)（分 4／次高 -4）
+2026-08-17T05:40:26.501Z [lp] RESOLVE Smurf (Russian player) → Smurf (Dmitri Ivanov)（分 4／次高 -4）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Solo → Solo (Colin Earnest)（分 14／次高 -1）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Stark (Vietnamese player) → Stark (Phan Công Minh)（分 6／次高 -4）
+2026-08-17T05:40:26.502Z [lp] UNRESOLVED Steal（候選 2、最高分 0）
+2026-08-17T05:40:26.502Z [lp] UNRESOLVED Style（候選 3、最高分 0）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Sword → Sword (Choi Sung-won)（分 9／次高 -4）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Taki (Vietnamese player) → Taki (Đinh Anh Tài)（分 4／次高 -4）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Tarzan (Korean player) → Tarzan (Lee Seung-yong)（分 12／次高 -1）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Violet (Cantonese player) → Violet (Vincent Wong)（分 4／次高 -4）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Violet (Vietnamese player) → Violet (Ngô Mạnh Quyền)（分 4／次高 -4）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Viper (Korean player) → Viper (Park Do-hyeon)（分 14／次高 10）
+2026-08-17T05:40:26.502Z [lp] RESOLVE Vulcan → Vulcan (Philippe Laflamme)（分 9／次高 0）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Wei → Wei (Yan Yang-Wei)（分 5／次高 3）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Wolf (Korean player) → Wolf (Lee Jae-wan)（分 13／次高 -1）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Yang → Yang (Felipe Zhao)（分 3／次高 0）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Yeon → Yeon (Sean Sung)（分 5／次高 0）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Yume (Filipino player) → Yume (Danyll Jann Balisi)（分 6／次高 -4）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Zeka → Zeka (Kim Geon-woo)（分 3／次高 0）
+2026-08-17T05:40:26.503Z [lp] RESOLVE Zero (Korean player) → Zero (Yoon Kyung-sup)（分 14／次高 4）
+2026-08-17T05:40:26.503Z [lp] RESOLVE ackerman → Ackerman (Xiao Wang)（分 6／次高 -4）
+2026-08-17T05:40:26.503Z [lp] RESOLVE illuSioN → illusion (Chen Xin-Lin)（分 7／次高 -4）
+2026-08-17T05:40:26.504Z [lp] RESOLVE knight → Knight (Zhuo Ding)（分 3／次高 0）
+2026-08-17T05:40:26.504Z [lp] RESOLVE san → san (Guo Jun-Liang)（分 7／次高 -4）
+2026-08-17T05:40:26.509Z [lp] 消歧義解析: 解出 75、未解 18（候選頁另落檔 0 個，清單 unresolved_disambig_lp.tsv）
+2026-08-17T05:40:38.296Z [lp] 備援抓取開始: 待抓 75、跳過 0
+2026-08-17T05:40:38.874Z [lp] 進度 20/75
+2026-08-17T05:40:44.037Z [lp] 備援抓取完成: 抓 75、缺內容 0、跳過 0
+2026-08-17T05:42:04.675Z [lp] 消歧義待解 18 筆
+2026-08-17T05:42:08.589Z [lp] UNRESOLVED Apex（候選 4、最高分 0）
+2026-08-17T05:42:08.590Z [lp] UNRESOLVED Archer（候選 3、最高分 0）
+2026-08-17T05:42:08.590Z [lp] UNRESOLVED Aria（候選 2、最高分 0）
+2026-08-17T05:42:08.590Z [lp] RESOLVE(team) Griffin → Griffin (Korean Team)（分 5／次高 —）
+2026-08-17T05:42:08.590Z [lp] UNRESOLVED Infinity Esports（隊伍候選 2、最高分 0）
+2026-08-17T05:42:08.591Z [lp] UNRESOLVED Infinity eSports（隊伍候選 2、最高分 0）
+2026-08-17T05:42:08.591Z [lp] UNRESOLVED Jay (Taiwanese player)（候選 6、最高分 4）
+2026-08-17T05:42:08.591Z [lp] UNRESOLVED Jelly（候選 3、最高分 10）
+2026-08-17T05:42:08.591Z [lp] UNRESOLVED Lonely（候選 2、最高分 0）
+2026-08-17T05:42:08.591Z [lp] UNRESOLVED Lucky（候選 6、最高分 7）
+2026-08-17T05:42:08.592Z [lp] RESOLVE(team) Lyon Gaming → Lyon Gaming (2017 Latin America North Team)（分 14／次高 4）
+2026-08-17T05:42:08.592Z [lp] UNRESOLVED Mimic（候選 2、最高分 0）
+2026-08-17T05:42:08.592Z [lp] UNRESOLVED Mountain（候選 2、最高分 0）
+2026-08-17T05:42:08.592Z [lp] UNRESOLVED Naru（候選 2、最高分 0）
+2026-08-17T05:42:08.592Z [lp] UNRESOLVED Noway（候選 4、最高分 3）
+2026-08-17T05:42:08.592Z [lp] RESOLVE(team) PEACE → PEACE (Oceanic Team)（分 1／次高 —）
+2026-08-17T05:42:08.592Z [lp] UNRESOLVED Steal（候選 2、最高分 0）
+2026-08-17T05:42:08.592Z [lp] UNRESOLVED Style（候選 3、最高分 0）
+2026-08-17T05:42:08.596Z [lp] 消歧義解析: 解出 3、未解 15（候選頁另落檔 0 個，清單 unresolved_disambig_lp.tsv）
+2026-08-17T05:42:47.948Z [lp] 對照進度 50/1329
+2026-08-17T05:42:49.567Z [lp] 對照進度 100/1329
+2026-08-17T05:42:51.209Z [lp] 對照進度 150/1329
+2026-08-17T05:42:52.932Z [lp] 對照進度 200/1329
+2026-08-17T05:42:54.541Z [lp] 對照進度 250/1329
+2026-08-17T05:42:56.219Z [lp] 對照進度 300/1329
+2026-08-17T05:42:57.811Z [lp] 對照進度 350/1329
+2026-08-17T05:42:59.496Z [lp] 對照進度 400/1329
+2026-08-17T05:43:01.135Z [lp] 對照進度 450/1329
+2026-08-17T05:43:02.806Z [lp] 對照進度 500/1329
+2026-08-17T05:43:04.447Z [lp] 對照進度 550/1329
+2026-08-17T05:43:06.198Z [lp] 對照進度 600/1329
+2026-08-17T05:43:07.892Z [lp] 對照進度 650/1329
+2026-08-17T05:43:09.530Z [lp] 對照進度 700/1329
+2026-08-17T05:43:11.163Z [lp] 對照進度 750/1329
+2026-08-17T05:43:12.830Z [lp] 對照進度 800/1329
+2026-08-17T05:43:14.482Z [lp] 對照進度 850/1329
+2026-08-17T05:43:16.202Z [lp] 對照進度 900/1329
+2026-08-17T05:43:17.879Z [lp] 對照進度 950/1329
+2026-08-17T05:43:19.518Z [lp] 對照進度 1000/1329
+2026-08-17T05:43:21.148Z [lp] 對照進度 1050/1329
+2026-08-17T05:43:22.801Z [lp] 對照進度 1100/1329
+2026-08-17T05:43:24.436Z [lp] 對照進度 1150/1329
+2026-08-17T05:43:26.072Z [lp] 對照進度 1200/1329
+2026-08-17T05:43:27.710Z [lp] 對照進度 1250/1329
+2026-08-17T05:43:29.422Z [lp] 對照進度 1300/1329
+2026-08-17T05:43:31.053Z [lp] 對照進度 1329/1329
+2026-08-17T05:43:31.056Z [lp] 對照完成: 命中 1021、缺頁 0（共 1021）
+2026-08-17T05:43:31.129Z [lp] 備援抓取開始: 待抓 3、跳過 0
+2026-08-17T05:43:31.645Z [lp] 進度 3/3
+2026-08-17T05:43:31.645Z [lp] 備援抓取完成: 抓 3、缺內容 0、跳過 0
+2026-08-17T05:43:37.749Z [lp] 消歧義待解 16 筆
+2026-08-17T05:43:41.408Z [lp] UNRESOLVED Apex（候選 4、最高分 0）
+2026-08-17T05:43:41.408Z [lp] UNRESOLVED Archer（候選 3、最高分 0）
+2026-08-17T05:43:41.409Z [lp] UNRESOLVED Aria（候選 2、最高分 0）
+2026-08-17T05:43:41.409Z [lp] RESOLVE(team) Griffin → Griffin (Korean Team)（分 5／次高 —）
+2026-08-17T05:43:41.409Z [lp] UNRESOLVED Jay (Taiwanese player)（候選 6、最高分 4）
+2026-08-17T05:43:41.409Z [lp] UNRESOLVED Jelly（候選 3、最高分 10）
+2026-08-17T05:43:41.409Z [lp] UNRESOLVED Lonely（候選 2、最高分 0）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Lucky（候選 6、最高分 7）
+2026-08-17T05:43:41.410Z [lp] RESOLVE(team) Lyon Gaming → Lyon Gaming (2017 Latin America North Team)（分 14／次高 4）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Mimic（候選 2、最高分 0）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Mountain（候選 2、最高分 0）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Naru（候選 2、最高分 0）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Noway（候選 4、最高分 3）
+2026-08-17T05:43:41.410Z [lp] RESOLVE(team) PEACE → PEACE (Oceanic Team)（分 1／次高 —）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Steal（候選 2、最高分 0）
+2026-08-17T05:43:41.410Z [lp] UNRESOLVED Style（候選 3、最高分 0）
+2026-08-17T05:43:41.414Z [lp] 消歧義解析: 解出 3、未解 13（候選頁另落檔 0 個，清單 unresolved_disambig_lp.tsv）
+2026-08-17T05:43:51.143Z [lp] 備援抓取開始: 待抓 78、跳過 0
+2026-08-17T05:43:51.383Z [lp] 進度 20/78
+2026-08-17T05:43:56.547Z [lp] 備援抓取完成: 抓 78、缺內容 0、跳過 0
+2026-08-17T05:45:05.760Z [lp] 對照進度 50/1330
+2026-08-17T05:45:07.407Z [lp] 對照進度 100/1330
+2026-08-17T05:45:09.045Z [lp] 對照進度 150/1330
+2026-08-17T05:45:10.768Z [lp] 對照進度 200/1330
+2026-08-17T05:45:12.427Z [lp] 對照進度 250/1330
+2026-08-17T05:45:14.073Z [lp] 對照進度 300/1330
+2026-08-17T05:45:15.717Z [lp] 對照進度 350/1330
+2026-08-17T05:45:17.590Z [lp] 對照進度 400/1330
+2026-08-17T05:45:19.295Z [lp] 對照進度 450/1330
+2026-08-17T05:45:20.894Z [lp] 對照進度 500/1330
+2026-08-17T05:45:22.544Z [lp] 對照進度 550/1330
+2026-08-17T05:45:24.201Z [lp] 對照進度 600/1330
+2026-08-17T05:45:25.835Z [lp] 對照進度 650/1330
+2026-08-17T05:45:27.471Z [lp] 對照進度 700/1330
+2026-08-17T05:45:29.106Z [lp] 對照進度 750/1330
+2026-08-17T05:45:30.761Z [lp] 對照進度 800/1330
+2026-08-17T05:45:32.387Z [lp] 對照進度 850/1330
+2026-08-17T05:45:34.065Z [lp] 對照進度 900/1330
+2026-08-17T05:45:35.702Z [lp] 對照進度 950/1330
+2026-08-17T05:45:37.350Z [lp] 對照進度 1000/1330
+2026-08-17T05:45:38.986Z [lp] 對照進度 1050/1330
+2026-08-17T05:45:40.609Z [lp] 對照進度 1100/1330
+2026-08-17T05:45:42.261Z [lp] 對照進度 1150/1330
+2026-08-17T05:45:43.906Z [lp] 對照進度 1200/1330
+2026-08-17T05:45:45.547Z [lp] 對照進度 1250/1330
+2026-08-17T05:45:47.187Z [lp] 對照進度 1300/1330
+2026-08-17T05:45:48.888Z [lp] 對照進度 1330/1330
+2026-08-17T05:45:48.892Z [lp] 對照完成: 命中 1021、缺頁 0（共 1021）
+2026-08-17T05:45:48.959Z [lp] 備援抓取開始: 待抓 1、跳過 0
+2026-08-17T05:45:49.404Z [lp] 進度 1/1
+2026-08-17T05:45:49.404Z [lp] 備援抓取完成: 抓 1、缺內容 0、跳過 0
+2026-08-17T05:45:49.687Z [lp] 消歧義待解 13 筆
+2026-08-17T05:45:53.450Z [lp] UNRESOLVED Apex（候選 4、最高分 0）
+2026-08-17T05:45:53.450Z [lp] UNRESOLVED Archer（候選 3、最高分 0）
+2026-08-17T05:45:53.451Z [lp] UNRESOLVED Aria（候選 2、最高分 0）
+2026-08-17T05:45:53.451Z [lp] UNRESOLVED Jay (Taiwanese player)（候選 6、最高分 4）
+2026-08-17T05:45:53.451Z [lp] UNRESOLVED Jelly（候選 3、最高分 10）
+2026-08-17T05:45:53.452Z [lp] UNRESOLVED Lonely（候選 2、最高分 0）
+2026-08-17T05:45:53.452Z [lp] UNRESOLVED Lucky（候選 6、最高分 7）
+2026-08-17T05:45:53.452Z [lp] UNRESOLVED Mimic（候選 2、最高分 0）
+2026-08-17T05:45:53.452Z [lp] UNRESOLVED Mountain（候選 2、最高分 0）
+2026-08-17T05:45:53.452Z [lp] UNRESOLVED Naru（候選 2、最高分 0）
+2026-08-17T05:45:53.453Z [lp] UNRESOLVED Noway（候選 4、最高分 3）
+2026-08-17T05:45:53.453Z [lp] UNRESOLVED Steal（候選 2、最高分 0）
+2026-08-17T05:45:53.453Z [lp] UNRESOLVED Style（候選 3、最高分 0）
+2026-08-17T05:45:53.460Z [lp] 消歧義解析: 解出 0、未解 13（候選頁另落檔 0 個，清單 unresolved_disambig_lp.tsv）
+2026-08-17T05:46:01.717Z [lp] 備援抓取開始: 待抓 0、跳過 1021
+2026-08-17T05:46:01.724Z [lp] 備援抓取完成: 抓 0、缺內容 0、跳過 1021
+2026-08-17T05:54:15.235Z [lp] 備援抓取開始: 待抓 0、跳過 1021
+2026-08-17T05:54:15.241Z [lp] 備援抓取完成: 抓 0、缺內容 0、跳過 1021

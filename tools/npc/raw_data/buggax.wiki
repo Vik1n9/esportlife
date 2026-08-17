@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Buggax&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Buggax」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Buggax
+|name=Mateo&nbsp;Alejandro Aroztegui Zamora
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Uruguay
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1998
+|birth_date_month=June
+|birth_date_day=27
+|favchamp=Jayce
+|favchamp2=Gnar
+|favchamp3=Riven
+|favchamp4=Irelia
+|checkbox1=Yes
+|favchamp5=Fizz
+|checkboxComp=No
+|ids='''LAS:''' Buggax <br> BUGGAX1 <br> '''EUW:''' sushicat2 <br> '''NA:''' BUGGAX1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/buggax
+|facebook=https://www.facebook.com/Buggaxlol
+|twitter=Buggaxlol
+|instagram=Buggax1
+|lolpros=https://lolpros.gg/player/buggax
+|deeplol=https://www.deeplol.gg/pro/Buggax
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+His name is Mateo Alejandro Aroztegui Zamora. Was born in Colonia, Uruguay.
+
+== Trivia ==
+* He is the most winning LLA player.
+* Known for his humble attitude.
+* Known for playing {{ci|Teemo}} at important moments.
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

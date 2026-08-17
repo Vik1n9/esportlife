@@ -1,0 +1,103 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cabochard&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.843Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cabochard」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Cabochard
+|name=Lucas Simon-Meslet
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=April
+|birth_date_day=15
+|favchamp=Lee Sin
+|favchamp2=Olaf
+|favchamp3=Irelia
+|favchamp4=Sion
+|checkbox1=Yes
+|checkboxComp=No
+|ids=KC Gaulois (EUW), otwoeur11 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/cabochardlol
+|facebook=https://www.facebook.com/CabochardLol
+|twitter=CabochardLoL
+|instagram=cabochardlol
+|askfm=CabochardLoL
+|reddit=Cabochardo
+|lolpros=https://lolpros.gg/player/cabochard
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+Cabochard's first notable tournament was at [[ASUS Republic of Gamers - Paris Games Week 2013|Paris Games Week 2013]], where he competed with [[Escape the Ninja Pandas]]. The team ended up finishing in 3rd place at the tournament. Soon after this, Cabochard joined [[Heavy Botlane]].
+
+===2014 Season===
+After a short spell on [[Heavy Botlane]], Cabochard joined [[COREPLAY]] towards the start of the season. During his time on the roster, the team managed to make it to the semifinals at the [[International Invitational Tournament 3]], losing only to [[Cloud 9  Eclipse]]. After the tournament, the roster disbanded and Cabochard moved on to join [[GSI Gaming]].
+
+After only a month on the team, Cabochard left and rejoined Heavy Botlane. Another short stint on the team led to him being picked up by [[Ninjas in Pyjamas]]. His first tournament with NiP was [[2014 EU Challenger Series/Summer Series/Series 2|Summer Series #2]]. The team ended up coming in 2nd in the tournament, losing to [[SK Gaming Prime]] in the final. He also competed with the team in the [[FACEIT Challenger Invitational 3]], where the team came in 1st place. 
+
+NiP's performance in the last summer series meant that they had secured their spot in the [[2014 EU Challenger Series/Summer Series/Playoffs|Summer Playoffs]]. Cabochard and the team finished 4th, losing to [[Unicorns of Love]] in the third-place match. The team then played in the [[FACEIT Gamescom Challenge]] and finished 2nd, losing to [[H2k-Gaming]] in the final. The team also managed a 3rd place finish at [[2014 Black Monster Cup Europe Fall]].
+
+Soon after this, Ninjas in Pyjamas disbanded and Cabochard joined [[Gambit Gaming]].<ref>[http://gambit-gaming.com/en/article/412 Cabochard joins Gambit] ''gambit-gaming.com''</ref>
+
+===2015 Season===
+After being fan-voted in, Cabochard and [[Gambit Gaming]] took their place at [[IEM_Season_IX_-_Cologne|IEM Cologne]]. They managed to win the tournament after beating [[Counter Logic Gaming]] in the final.
+
+[[Gambit Gaming]] had a successful [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]], finishing 4th in the regular season, partially thanks to Cabochard's impressive performances on {{ci|Kennen}} and {{ci|Morgana}} in particular. The team's regular season performance meant that they would be playing in the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]]. They were beaten 3-1 by [[Unicorns Of Love]] in the playoff quarterfinals.
+
+Due to their 1st place finish at [[IEM_Season_IX_-_Cologne|IEM Cologne]], the team were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 loss against the [[CJ Entus]], Cabochard and [[Gambit Gaming]] were knocked out of the tournament, losing to [[Team WE]] in Round 1 of the losers bracket.
+
+Cabochard and the team had an unsuccessful [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]], eventually finishing the regular season in 8th place. This meant that [[Gambit Gaming]] would be playing in the [[Riot League Championship Series/Europe/2016 Season/Spring Promotion|2016 Spring Promotion]]. Cabochard and the team faced [[mousesports]], winning the series and securing their place in the [[League Championship Series/Europe/2016 Season/Spring Season|2016 Spring Season]].
+=== 2016 Season ===
+Cabochard joined [[Vitality]] for the 2016 season. With himself, [[Shook]], [[Nukeduck]], [[Hjärnan]], and [[kaSing]] comprising the roster, the team was considered one of the top lineups in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], and they finished the split in third place, behind the surprise first-place [[G2 Esports]] and second-place [[H2k]]. In the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]], however, they were upset by the sixth-place [[Fnatic]] and eliminated in the quarterfinals.
+
+== Trivia ==
+* His ID '''Cabochard''' is named after the song [https://www.youtube.com/watch?v=_3nNn747gss "Cabochards"] by 25G featuring Seth Gueko. "Cabochard" is French for "Stubborn" or "Pigheaded".
+* He is the younger brother of [[Istari]].
+** Also has a second older brother.
+* As of 2020, he has played in every game for [[Team Vitality]] since its formation.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

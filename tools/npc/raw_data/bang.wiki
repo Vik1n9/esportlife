@@ -1,0 +1,99 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bang&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bang」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Bang
+|name=Bae Jun-sik
+|nativename=배준식
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=May
+|birth_date_day=18
+|favchamp=Kalista
+|favchamp2=Jhin
+|favchamp3=Ezreal
+|favchamp4=Tristana
+|checkbox1=No
+|compID1=BangBang
+|compID2=BANG
+|checkboxComp=No
+|ids='''KR:''' 너브내서리풀<br>'''NA:''' EG Bae<br>SKTeIecomT1Bang<br>'''BR:'''  SK TelecomT1Bang
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/9d4f299325b38f9183bdb90b8849d912
+|twitter=Bang
+|instagram=junsik_bae_bang
+|reddit=100Thieves-bang
+|videoarchive=https://www.twitch.tv/bang
+|youtube=https://youtube.com/channel/UCnDcpS7XLQ9KFPqULb9TH8g
+|deeplol=https://www.deeplol.gg/pro/Bang
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Bae "'''Bang'''" Jun-sik joined [[NaJin Shield]] in October of 2012 as their starting AD carry. He made his competitive debut at [[GIGABYTE StarsWar League]] where Shield made it to the semifinals but lost 3-0 to [[Team WE]]. When they came back to Korea they participated in [[OLYMPUS Champions Winter 2012-2013]] where Shield failed to make it past the group stage. Bang left the team shortly after and joined [[Xenics Blast]] in June. They qualified for [[HOT6iX Champions Summer 2013]], where once again Bang's team failed to make it out of groups. He left the team a few months later.
+
+===2014 Season===
+In October of 2013, Bang joined the new roster of [[SK Telecom T1 1]] as the starting AD carry. A few months later they were renamed to SK Telecom T1 S. The team's first tournament was [[PANDORA.TV Champions Winter 2013-2014]] where they dropped out in the group stage. Again at their next tournament, [[HOT6iX Champions Spring 2014]], S failed to pass the group stage. Their breakthrough came at [[HOT6iX Champions Summer 2014]] where they made it to the semifinals and placed 4th after losing 3-2 to the [[KT Rolster Arrows]] and 3-0 to [[Samsung White]]. 
+
+===2015 Season=== 
+Due to changes to the OGN rules, S and their sister team, [[SK Telecom T1 K]] were forced to merge to form [[SK Telecom T1]]. With [[Piglet]]'s departure from the team, Bang was made the starting AD carry. The team participated in [[SBENU Champions Spring 2015]] where they won the championship after beating the [[GE Tigers]] 3-0 in the finals. SK Telecom's victory qualified them for the [[2015 Mid-Season Invitational]] where they made it to finals but lost 3-2 to [[EDward Gaming]]. SKT placed first in the regular season of [[SBENU Champions Summer 2015]] after only dropping one set the whole season. They beat [[KT Rolster]] 3-0 in the finals of the playoffs to qualify for the [[2015 Season World Championship]] as the top seed from Korea. SKT was placed in a group at worlds alongside EDG, [[Bangkok Titans]], and [[H2k Gaming]]. They went undefeated all the way to the finals, beating [[AHQ e-Sports Club]] and [[Origen]] in the playoffs along the way. They met the KOO Tigers in the finals and beat them 3-1 to give the organization its second World Championship. 
+
+===2016 Season===
+SKT played in the [[2015 LoL KeSPA Cup]] where they lost 2-0 in the semifinals to [[ESC Ever|Ever]]. This series was widely considered to be one of the greatest upsets in League history, but also continued a streak of World Champions being eliminated early on in their first tournaments after Worlds. In March, SK Telecom attended [[IEM Season X - World Championship|IEM Katowice]] despite being only the sixth-place [[LCK/2016 Season/Spring Season|LCK]] team at the time. They brought substitute jungler [[Blank (Kang Sun-gu)|Blank]] in place of bengi and swept through the tournament, winning the title after only seven games. After their international success, they returned to Korea and placed third in the regular season, earning themselves a spot in the [[LCK/2016 Season/Spring Playoffs|playoffs]]. SKT won the playoffs, winning their third championship in a row and for the first time a seed to the [[2016 Mid-Season Invitational]].
+
+Their first place finish in the [[LCK/2016 Season/Spring Season|spring season]] earned them a spot in the [[2016 Mid-Season Invitational]]. Notably, SK Telecom T1 were the only team to return to 2016 MSI from [[2015 Mid-Season Invitational|2015 MSI]]. As the reigning domestic champions of Korea, SK Telecom T1 came into the tournament as massive favorites to win. However, their group stage performances were very lackluster as they dropped games to China's [[Royal Never Give Up]], NA's [[Counter Logic Gaming]], and two games to the LMS [[Flash Wolves]]. They ended their group stage with a 6-4 record, seeding them into the bracket stage at fourth place. Matched up against [[Royal Never Give Up]] in the semifinals, SK Telecom started to regain their form, beating them 3-1. They then proceeded to beat [[Counter Logic Gaming]] 3-0 to win the event and give them the trophy that barely escaped them last year.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], SK Telecom started the season strong with a 5-0 score in series and 10-0 game score. However, they started dropping sets to lower ranked teams, notably the [[Afreeca Freecs]], who they failed to win even a single game against the entire season. With a 13-5 scoreline in series, SKT placed second in the round robin, beating [[KT Rolster]] via game score tiebreaker. However, during the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], they met [[KT Rolster]] in the semifinals, where they were reverse swept 3-2 after going up 2-0 in the first two games. This gave them third place for the summer split. Combined with their first place spring finish, as well as the victory of the [[ROX Tigers]] over [[KT Rolster]], SKT qualified to the [[2016 Season World Championship]] on points as Korea's second seed.
+
+At the [[2016 Season World Championship]], SK Telecom T1 were placed into Group B, along with LMS's [[Flash Wolves]], NA's [[Cloud 9]], and China's [[I May]].
+
+== Trivia ==
+* At the [[2015 Season World Championship]], he achieved a 73 cumulative KDA from the start of the tournament until partway through [[SK Telecom T1|SKT]]'s first game against [[ahq e-Sports Club|AHQ]] after dying only once in the group stage (71 overall group stage KDA and then 2 kills in the SKT-AHQ game). His KDA streak was broken by AHQ support [[Albis]], who killed him after interrupting a Rocket Jump with Flay.
+* One of four players to have defended their World Championship title successfully.
+* Has the same first name as [[Pirean]].
+* Reached 1000 Kills in the LCK on March 2nd, 2017.<ref>[https://www.invenglobal.com/articles/1219/skt-t1-bang-reaches-1000-kill-milestone ''"Inven Global article"'']</ref>
+** The 3rd player to reach 1000 kills in the LCK, after [[Faker]], and [[PraY]].
+** His 1000th kill was on [[KT Rolster]]'s Support [[Mata]] in the [[LCK 2017 Spring|LCK 2017 Spring Season]] with {{ci|Ezreal}}.
+* Reached 1500 kills in the LCK on July 25th, 2018.
+** The 3rd player to reach 1500 kills in the LCK after [[Faker]] and [[PraY]].
+* Is married to Riot Games Korean translator [[Jeesun]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

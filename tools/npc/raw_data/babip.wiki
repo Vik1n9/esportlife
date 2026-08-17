@@ -1,0 +1,64 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Babip&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Babip」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Babip
+|name=Leo Romer
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=PCS
+|birth_date_year=1998
+|birth_date_month=September
+|birth_date_day=04
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Canyon fans
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=babiplol
+|instagram=leoromer1629
+|lolpros=https://lolpros.gg/player/babip/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Leo 'Babip' Romer is a up and coming player that has served within the Legacy organization on both their challenger and OPL team. A native Queenslander and playing the Jungle role, he has been mentored by the main roster Jungler Tim 'Carbon' Wendel. Before the OPL 2017 Split 2 Babip was picked for the Queensland League of Origin team in the support role, paired with the Legacy Top Laner Tally, also in an off role ADC position. 
+
+Babip also known affectionately as 'Baby Bip' accompanied the OPL roster to Korea for their 2017 mid split boot camp, and has joined the main roster living at the Legacy Gaming House in Sydney.
+
+At the end of 2017 Leo 'Babip' Romer joined onto Chiefs Esports Club as their starting jungler for the 2018 season.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

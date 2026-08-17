@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mills&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.563Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mills」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Mills
+|name=Guilherme Uessler Conti
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=March
+|birth_date_day=28
+|checkbox1=No
+|compID1=cnt mills
+|checkboxComp=No
+|ids='''CN:''' BR06
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/cntmills
+|facebook=https://www.facebook.com/cntmillslol
+|twitter=millslol
+|instagram=cntmills
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Inactive
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+MGG Mills 2017 Winter.png|MGG Mills 2017 Split 2
+ITZ Mills 2019 Split 1.png|ITZ Mills 2019 Split 1
+ITZ Mills 2019 Split 2.png|ITZ Mills 2019 Split 2
+</gallery>
+
+{{PlayerPageEnd}}

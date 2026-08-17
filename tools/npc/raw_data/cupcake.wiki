@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cupcake&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.030Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cupcake」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Cupcake
+|name=Andy van der Vyver
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=New Zealand
+|residency=PCS
+|birth_date_year=1994
+|birth_date_month=December
+|birth_date_day=10
+|favchamp=Braum
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=cupcakeoce
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+}}
+==Biography==
+After Legacy's ADC was sniped by the LG Dire Wolves at the end of 2016, and the accompanying tentative support with him, Legacy turned across the tasman sea for a new bot lane. Looking for synergy with up and comer Lawrence 'Lost' Hui, Andy was chosen for his maturity, intelligence and compatibility with the planned 2017 roster.
+
+Andy previously had been in the US on a Tennis scholarship, and had stepped away from a career in eSports to challenge for a Tennis Pro career path. In 2017 though he returned to his home country of New Zealand, and was scouted by Legacy Coach Luchio 'Soulstrikes' Park to partner with Lost for a new Legacy bot lane.
+
+Cupcake retired after Dire Wolves's elimination from the [[2018 Season World Championship]]. The team had gone 1-3 in the [[2018 Season World Championship/Play-In|Play-In]].
+
+== Trivia ==
+* Was in the US on a Tennis Scholarship
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

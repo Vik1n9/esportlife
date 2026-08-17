@@ -1,0 +1,63 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lyon%20Gaming%20(2017%20Latin%20America%20North%20Team)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.814Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lyon Gaming (2017 Latin America North Team)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=Yes
+|name= Lyon Gaming
+|orgcountry= Mexico
+|country= Mexico
+|image= Lyon Gaminglogo profile.png
+|region= LAT
+|twitter= LyonGamingOf
+|facebook= https://www.facebook.com/LyonGamingOficial
+|created= Organization 2017-11-30
+|disbanded= Organization 2019-02-26
+}}{{TOCRWI|2}}
+
+'''Lyon Gaming''' is a Latin American team, refounded by [[Thyak]] after he demanded the old team for copyright. ''For the former Lyon team, go to [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]]''.
+
+==History==
+Lyon Gaming had its beginnings in 2013 when Matías '''Karzek''' Flores, founder of the brand, decided to create a competitive team with talent from the region and a single goal in mind: to become the best. One of the most curious facts is that the organization is known as Lyon in honor of the Karzek's son Leon. 
+In that year, the young team didn't take long to stand out among the most dominant contenders in Latin America, taking home all the regional titles and leaving the Latin American North name among the emerging regions known as "Wildcard".
+
+Marcelo "[[Thyak]]" Ramones joined Lyon Gaming for the WCG 2013 competition. In this event, Thyak gained popularity among the community and later, together with Carlos Gibrán, current owner of Rainbow7, took the reins of the team.
+
+After Clausura 2017 and the world championship of the same year, the 9-time champion of the North Latin American League was renamed [[Rainbow7]] and Marcelo, owner of the Lyon Gaming brand, decided to ally with Sebastián Reyna, owner of the team recently descended to CDL, [[Silver Crows]], to write a new chapter in the history of this emblematic team.
+
+They were active in various divisions of esports in Mexico. Their last achievement in League of Legends had been finishing 1st in the group stage of the CDLN 2018 Opening Season, only to fall during the playoffs in the semifinals against [[PEX Team]].
+
+On February 26, 2019, LVP México announced the departure of the team from the División de Honor 2019 Season, after serious financial problems that made the organization unsustainable, dissolving the team immediately and ending its participation as last place.
+
+==Timeline==
+{{TeamNews}}
+
+==Player Roster==
+===Former===
+{{TeamMembersFormer}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Thyak|mx|Marcelo Ramones|'''Co-Founder, Owner, & Chief Executive Officer'''|newteam=retired}}
+{{listplayer|Seboo|mx|Sebastián Reyna|'''Co-Founder, Owner, & Team Manager'''|newteam=ARC.M}}
+{{listplayersp||mx|Arturo Lara|'''Co-Founder'''|newteam=retired}}
+{{listplayersp||mx|Pablo Pérez|'''Co-Founder'''|newteam=retired}}
+{{listplayersp|Chubakon|mx|Antolín de la Garza|'''Operations Manager'''|newteam=Retired}}
+{{listplayersp|Rolez|ar|Alejandro Lombardi|'''Community Manager & Graphic Designer'''|newteam=Retired}}
+{{listplayer|Alonchito|pe|Alonso García Soto|'''Head Coach'''|newteam=EST}}
+{{listplayersp|Gragasaki|mx|Mauricio Manzur|'''Head Analyst'''|newteam=Cacatuas}}
+{{listplayer|link=Von (Gabriel Barbosa)|Von|br|Gabriel Barbosa|'''Head Coach'''|newteam=FLA}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+=== Images ===
+<gallery>
+Lyon Gaming Roster - 2019 Split 1.jpg|Lyon Gaming 2019 DDH Opening Season Roster
+</gallery>
+
+==References==
+<references />

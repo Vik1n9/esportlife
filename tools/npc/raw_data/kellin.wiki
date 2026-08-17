@@ -1,0 +1,89 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kellin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.367Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kellin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Kellin
+|name=Kim Hyeong-gyu
+|nativename=김형규
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2001
+|birth_date_month=February
+|birth_date_day=01
+|favchamp=Rumble
+|favchamp2=Heimerdinger
+|favchamp3=Yuumi
+|favchamp4=Renata Glasc
+|checkbox1=Yes
+|favchamp5=Rakan
+|favchamp6=Nami
+|checkboxComp=No
+|ids='''KR''': 댕청잇#kr123 <br> 참새크면비둘기#kr1 <br>'''CN:''' taki <br> '''NA:''' mizisu
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/gyugod531
+|facebook=https://www.facebook.com/profile.php?id=100044269237558
+|instagram=kellin12345
+|videoarchive=https://chzzk.naver.com/bd76a497a85cd894ac3179d4e1a8c48f
+|deeplol=https://www.deeplol.gg/pro/Kellin
+|dpmlol=https://dpm.lol/pro/Kellin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Reached 3000 assists in the LCK on March 31st, 2024.
+** Was the 16th player to reach 3000 assists in the LCK.
+* Reached 4000 assists in the LCK on August 8th, 2025.
+** Was the 11th player to reach 4000 assists in the LCK.
+* Reached 500 games in the LCK on August 16th, 2025, becoming the 23rd player to do so.
+{{PlayerStatsTrivia}}
+
+== Individual Awards ==
+* LCK 2nd All-Pro Team x2 (Summer 2021, Spring 2023)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,142 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hai&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.577Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hai」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Hai
+|name=Hai Du Lam
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1992
+|birth_date_month=September
+|birth_date_day=20
+|favchamp=Kha'Zix
+|favchamp2=Zed
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' BaamSouma<br>'''EUW:''' C9 HyperX Diego, C9 Hai, Cloud9 Hai<br>'''KR:''' KvotheKelsier, C9 KingKiller
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/simplyhai
+|facebook=https://www.facebook.com/SimplyHai
+|twitter=Hai
+|instagram=simplyhai
+|snapchat=cloudhai
+|reddit=Hai_L9
+|youtube=https://www.youtube.com/hailam92
+|discord=https://discordapp.com/invite/simplyhai
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Broadcast Talent
+|prev2=Mid
+|prev3=Support
+|prev4=Jungler
+|prev5=Manager
+}}
+==Biography==
+Hai Lam comes from Grandville, Michigan and graduated from Grandville Highschool. During his high school life, Hai was an active participant in the Counter Strike community, and enjoyed many Warcraft III custom games along with climbing the ladder.
+
+Hai moved to East Lansing, Michigan, after completing high school in pursuit of a degree in Media Arts and Technology at Michigan State University. He was a prominent member of the League of Legends club on campus. 
+
+With the end of the Spring 2012 semester, Hai hit 2500 elo and a top 5 position on the Solo Queue ladder. Using his new-found influence, he was able to gather a team of his own to create No Fear.
+
+===Orbit Gaming===
+On May 25, 2012, [[Orbit Gaming]] announced the acquisition of the roster form Hai's [[nFear Gaming]].
+
+Afterward, Orbit placed 7th/8th at the [[2012 MLG Pro Circuit/Spring|2012 MLG - Spring Championship]]. At the Spring Championship, Orbit defeated [[vVv Gaming]] 2-0 in the first round, but lost 1-2 to [[Counter Logic Gaming Prime]] in the second round which placed them in the loser's bracket. In the loser's bracket, Orbit defeated Redact 2-0, [[Team Legion]] 2-0, and [[Team SoloMid Evo]] 2-0. They eventually lost to [[Counter Logic Gaming EU]] 1-2 in the fifth round of the loser's bracket.
+
+On June 30, 2012, [[Orbit Gaming]] competed in the [[Leaguepedia North American Invitational]]. In the two day online tournament, they were able to finish in first place, most notably defeating [[Curse Gaming]] 2-1 in the quarterfinals and sweeping [[Team Dynamic]] 2-0 in the finals. On August 26, Orbit took fourth place at the [[2012 MLG Pro Circuit/Summer/Championship|2012 MLG Summer Championship]], losing to Dynamic 1-2 in the third place match. This led to a tie with [[Monomaniac Ferus]] for eighth place in the [[Season Two Circuit Rankings|North American Season Two Circuit Rankings]]. To decide the last spot for [[Season Two/Regional Finals - Seattle|Season Two Regional Finals Seattle]], a best of three tiebreaker match was held. Orbit lost 0-2 to mMe and was denied a spot at the North American Regionals.
+
+===Quantic Gaming===
+With the tournament being done, on November 12, 2012, Hai left [[Orbit Gaming]] and joined [[Quantic Gaming]], along with teammates '''[[Nientonsoh]]''',  '''[[LemonNation]]''', '''[[WildTurtle]]''', and '''[[Yazuki]]'''.
+
+This was short lived as [[Quantic Gaming]] disbanded due to lack of resources to support the team.
+
+Hai later rejoins [[Quantic Gaming]] on February 1, 2013. He leads the team as they qualify for the Summer Season of the NA LCS.
+
+===Cloud9===
+Competing under the name "Team NomNom" and then [[Cloud9]], [[Nientonsoh]], Hai, [[Yazuki]], [[Wild Turtle]] and [[LemonNation]] would secure a spot in the [[Riot_Season_3_Championship_Series/North_America/Qualifiers/Main_Event|Season 3 North American Offline Qualifier]] for the League of Legends Championship Series. However, Cloud9 would be knocked out of the tournament in the group stage after losing to [[Team MRN]] and [[Azure Gaming]].
+
+Initially, Nientonsoh said that Cloud9 would disband in light of the loss. The team later decided to stay together, although Nientonsoh and Yazuki would leave the team and a massive roster swap would ensue. Hai shifted from jungle to mid, and new junglers and top laners were actively being tried out in online competitions. With their final roster of [[Balls]], [[Meteos]], Hai, [[LemonNation]], and [[SnEaKyCaStRoO]] finally being set, the team set out to qualify for the NA LCS.
+
+===Next Stop: LCS===
+On February 1, 2013 [[Quantic Gaming]] reforms. Shortly after on April 6, 2013, Quantic's Roster was set with: [[Balls]], [[Meteos]], Hai, [[LemonNation]], and [[SnEaKyCaStRoO]].
+
+On May 11, 2013, Quantic qualified for the Summer Season of the NA LCS after cruising past [[Complexity]] 3-0 in the [[Riot League Championship Series/North America/Season 3/Summer Promotion|promotion tournament]] finals to earn their LCS spot. However, it would end up being the last game they played for Quantic, as Cloud9 resurfaced and re-acquired the team ahead of its LCS debut against [[Team Dignitas]]. Hai played {{ci|Zed}} in the first game and opened with a 1v1 kill on [[Scarra]]'s {{ci|Orianna}} - after Scarra had just competed at All-Star 2013 as North America's mid-laner - en route to a 3/3/3 performance in a debut win. Cloud9 went on to become the first non-founding LCS team to become champions in their rookie split - a feat that is still yet to be replicated - they went on to make the quarterfinals of the [[2013 World Championship]].
+
+===2015 Preseason===
+Cloud9 was the North American team fan-voted to [[IEM_Season_IX_-_San_Jose|IEM San Jose]].<ref>[http://en.intelextrememasters.com/news/cloud9-and-unicorns-of-love-confirmed-get-your-tickets-now/ Cloud9 and Unicorns of Love confirmed, get your tickets now!] ''en.intelextrememasters.com''</ref> They defeated [[paiN Gaming]] 2-0, [[Alliance]] 2-1, and then [[Unicorns of Love]] 3-0 to win the tournament.
+===2015 Season===
+Due to their IEM San Jose victory, Cloud9 qualified for [[IEM Season IX - World Championship|IEM Katowice]] in March. They lost their only two games, first to [[GE Tigers]] and then to [[yoe Flash Wolves]], and finished in 7th/8th place. Domestically, they underperformed at the start of the season, and were in 8th place at the end of the second week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|spring LCS split]]. However, they improved over the course of the season, ending with a second-place finish behind [[Team SoloMid]] and a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye; after beating [[Team Liquid]] 3-2, Cloud9 lost to TSM 1-3 in the finals and finished the split overall in second place.
+
+A few days later, he announced his retirement from professional ''League of Legends''. He cited his wrist injuries and the fact that his support carry playstyle was not viable anymore as reasons for his retirement. He would continue to be a part of the Cloud9 organization in an administrative position as Chief Gaming Officer.<ref>[http://cloud9.gg/news/thank-you-hai Thank you Hai] cloud9.gg</ref> However, when Cloud9's [[Riot League Championship Series/North America/2015 Season/Summer Season|Summer Split]] record was 3-7 after the first five weeks, and they were tied for 7th place with [[Team 8]] and [[Enemy]], Hai returned to competitive play, but switching from mid lane to jungle and replacing Meteos. Cloud9's record for the remainder of the split was 3-5, which was enough to place them in 7th after a tie-breaker victory over Team 8; they avoided [[Riot League Championship Series/North America/2016 Season/Spring Promotion|relegations]] and retained their [[2015 Season/Championship Points|Championship Points]], though they did not qualify for [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]]. In the [[Riot_League_Championship_Series/North_America/2015_Season/Regional_Finals|Regional Finals Gauntlet]], Cloud9 reverse-swept both [[Gravity Gaming]] and [[Team Impulse]] before beating [[Team Liquid]] 3-1 in the finals. Their fourteen games played over the course of three days gave them North America's third seed to the [[2015 Season World Championship]], Cloud9's third-consecutive Worlds.
+
+Considered an underdog at Worlds, Cloud9 were placed into Group B along with Fnatic, [[ahq e-Sports Club|ahq]], and [[Invictus Gaming]] and expected to place last. Instead, they surprised with an undefeated 3-0 first week, with Hai suddenly performing well on [[Lee Sin]]. In the second week, Cloud9 needed only one win to advance to the quarterfinals but were unable to find it, losing four games in a row including a tiebreaker loss to ahq. They placed third in their group, ahead of only Invictus Gaming.
+
+=== 2016 Season ===
+
+For the 2016 season, Cloud9 added two new players - [[Rush]] and [[Bunny FuFuu]] - and moved Hai to support, with the intention of splitting time with Bunny. However, after two losses with Bunny and two wins with Hai in the [[League Championship Series/North America/2016 Season/Spring Season|spring split]], they committed to starting Hai fulltime and rose to a 67% winrate, with a third-place seed in the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]]. However, despite a seeding advantage, the team lost to TSM in the first round and were eliminated. Hai joined [[Cloud9 Challenger]] in April of 2017. The team was very dominant in the [[NA_Challenger_Series/2016_Season/Summer_Season|2017 NA CS Summer Season]] and finished 1st in the regular split. They won the [[NA_Challenger_Series/2016_Season/Summer_Playoffs|playoffs]] with a 3-2 win over [[Team Liquid Academy]]. In the [[League_Championship_Series/North_America/2017_Season/Spring_Promotion|Summer Promotion Tournament]], C9C defeated [[NRG Esports]] 3-0 and qualified for the NA LCS.
+
+===2017 Season===
+
+In January of 2017, Cloud9 Challenger was purchased and re-branded into [[FlyQuest]]. Although the team was expected to flop, they were dominant in the early stages of the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]]. Although they fell off later on, they still finished 5th with a 9-9 record. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] they defeated [[Counter Logic Gaming]] with a 3-2 reverse sweep. In the semifinals they lost 0-3 to [[Team SoloMid]] and later on lost the third place match 2-3 too [[Phoenix1]], placing 4th overall. The [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] was much harder for FlyQuest as the competition within the region increased. They finished 7th in the regular season and barely retained their Championship Points. This would let them participate in the [[2017 Season North America Regional Finals]] and although they defeated [[Team Dignitas]] 3-0 in the first round, they lost 1-3 to CLG in the second round which ended their season. Hai left FlyQuest in November and in December he would join the newly formed [[Golden Guardians]].
+
+===2018 Season===
+Despite Hai's reputation as a leader and shotcaller, Golden Guardians were predicted to be one of the weakest teams in the [[League_Championship_Series/North_America/2018_Season/Spring_Season|Spring Split]], in part due to being the only team to have a roster solely consisting of North American players. This prediction would prove prescient, as they were the last team to record a win and finished 4-14 despite showing some late season improvement. After the season ended, Hai elected to retire after Golden Guardians announced their intention to replace him with [[Mickey (Son Young-min)|Mickey]].
+
+===Analysis and Radiance Founding===
+Hai was also a regular member of the LCS analysis desk throughout the 2019 Spring Split before he announced the founding of Radiance.
+
+== Trivia ==
+* Hai was a sub for [[Salce]] on [[Epik Gamer]] and nearly went to Dreamhack.
+* As a jungler, favored tanky/utility junglers, including {{ci|Maokai}}, {{ci|Shen}} and {{ci|Skarner}}.
+** When he returned to the jungle after coming out of retirement, he was successful playing non-meta junglers such as {{ci|Rengar}} and {{ci|Shyvana}}.
+* Hai has played in many positions for professional teams, and previously was a jungle main before switching to the midlane. His emergency call-up out of retirement to stand in for [[Meteos]] marked his return to the jungle.
+* Renowned for his shotcalling skills.
+** His move to support in the [[NA LCS/2016 Season/Spring Season|NA LCS 2016 Spring]] was in an attempt to keep these skills on C9 without dropping other players.
+** Later in his career, continued to hold a reputation for being one of the smartest players, although his mechanical skills were no longer at the same level. 
+* Prefers AD mids like {{ci|Kha'zix}} and {{ci|Zed}}
+** Is also known for playing {{ci|Teemo}} during the customary final rematch against TSM on the opening day of the 2014 Spring Split.
+* While hospitalized with the collapsed lung that forced him to miss [[All-Star Paris 2014]], he streamed from his hospital bed and was joined by [[Doublelift]]. Part of his lung was removed and he was unable to speak, but he was still able to communicate via chat.
+* His brother Bao has worked for Riot as a recruiter and was the player manager for [[Ember]]. His brother Kien is a writer for LoL Esports, known for writing a recurring "10 Thoughts" article.
+* Although a number of players have played two positions at the LCS level, he is one of the few players to have regularly played three positions at this level, excluding players who played a third position briefly due to an emergency. 
+* After his return to the LCS with [[FlyQuest]] in 2018, became known for off-meta picks by both himself and his teammates, along with spearheading aggressive and innovative strategies, such as having the bottom lane leash two camps to give the jungler a faster clear. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

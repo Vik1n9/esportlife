@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nisqy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.043Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nisqy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Nisqy
+|name=Yasin Dinçer
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Belgium
+|nationality=Belgium, Turkey
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=July
+|birth_date_day=28
+|favchamp=Orianna
+|favchamp2=Syndra
+|favchamp3=Ryze
+|favchamp4=Cassiopeia
+|checkbox1=Yes
+|favchamp5=Zoe
+|checkboxComp=No
+|ids='''EUW''': BENCHSQY <br> NISQY IS BACK <br>'''KR''': NISKING <br> '''NA''': wouhouu
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/nisqyy
+|facebook=https://www.facebook.com/XNisqy
+|twitter=Nisqy
+|instagram=nisqylol
+|youtube=https://www.youtube.com/channel/UCTmbWTdxJvq_aqcWpIN7fwQ
+|discord=https://discord.gg/my4K5GNC8f
+|tiktok=nisqylol
+|lolpros=https://lolpros.gg/player/nisqy/
+|deeplol=https://www.deeplol.gg/pro/Nisqy
+|dpmlol=https://dpm.lol/pro/Nisqy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Turkey
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Is a dual citizen of Belgium and Turkey.
+* Uses AZERTY keyboard.
+* His summoner name is his real name reversed and replaced "a" with a "q".<ref>[https://www.youtube.com/watch?v=fAZZCk92qzs&t=20s "You're going to WORLDS man!" | LEC Highlights Summer Playoffs Week 2 presented by Hisense] ''youtube.com''</ref>
+* He is a good friend of [[Kameto]] (founder and president of Karmine Corp), and casted many [[Karmine Corp]] games on Kameto's Twitch channel.
+* He is friends with [[Closer (Can Çelik)|Closer]].
+* Speaks French, Turkish and English fluently.
+* Is the 4th player to win a title in both [[LEC]] and [[LCS]] after [[Zven]], [[Perkz]], and [[BrokenBlade]].
+* Reached 1000 kills in the LEC on July 14, 2024.
+** The 15th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]], [[Kobbe]], [[Hans sama]], [[Odoamne]], [[Upset]], [[Larssen]], [[Carzzy]], [[Humanoid]], and [[Patrik]].
+
+=== Individual Awards ===
+* 1x NA 1st All Pro Team (Spring 2020)
+* 1x NA 2nd All Pro Team (Summer 2019)
+* 2x NA 3rd All Pro Team (Spring 2019, Summer 2020)
+* 1x EU MVP (Summer 2022)
+* 2x EU 1st All Pro Team (Summer 2022, Spring 2023)
+* 1x EU 2nd All Pro Team (Winter 2023)
+* 1x EU 3rd All Pro Team (Summer 2021)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

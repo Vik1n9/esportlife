@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Paz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Paz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Paz
+|name=Shirou Sasaki
+|nativename=佐々木 志郎
+|namealphabet=Kanji
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Japan
+|residency=PCS
+|birth_date_year=1996
+|birth_date_month=December
+|birth_date_day=06
+|favchamp=Fiora
+|checkbox1=No
+|checkboxComp=No
+|ids='''JP:''' Intension, Piccolina<br>'''KR:''' 내가 나쁜<br>'''EUW:''' BBQ Krazy
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/paz123
+|twitter=Pazloll
+|youtube=https://www.youtube.com/channel/UCny2CCNr33auBiS7dOg-sTA
+|deeplol=https://www.deeplol.gg/pro/Paz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Intension'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Shirou "'''Paz'''" Sasaki was born in Hokkaido, but moved to Yamaguchi, Tokushima, and Tokyo. He played baseball in junior high school, but quit because of an injury. Afterward, he began to play online games.
+
+== Trivia ==
+* His name comes from the spanish word "Paz" which means "Peace".
+* He is fluent in Japanese, Korean and English.
+* His favorite food are strawberries
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

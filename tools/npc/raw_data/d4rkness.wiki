@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zappy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.325Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「d4rkness」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Zappy
+|name=Lim Zhi Ping
+|checkboxAutoImage=Yes
+|country=Singapore
+|residency=Southeast Asia
+|birth_date_year=1993
+|birth_date_month=August
+|birth_date_day=30
+|favchamp=Nocturne
+|favchamp2=Thresh
+|favchamp3=Karma
+|checkbox1=No
+|compID1=d4rkness
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|facebook=https://www.facebook.com/SGS.d4rkness
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''d4rkness'''.
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Since the inception of the Sentinels, d4rkness has shown his ability to play multiple roles on a professional level. He first started out playing as AP mid for the Sentinels, then at [[IPL Face Off: San Francisco Showdown]] played as AD bot lane along with [[EquivocaL]] as his support, after several role swaps within the Sentinels d4rkness played as a support for [[ly4ly4ly4]] and later became the jungler for [[Singapore Sentinels]]. On September 20, 2013 SGS announced he's been released from the roster to pursue his studies full-time.<ref>[https://www.facebook.com/photo.php?fbid=385826361543921&set=a.142606159199277.27089.132986296827930&type=1 Singapore Sentinels release ToFu and d4rkness] ''facebook.com''</ref>
+
+== Trivia ==
+* Has played every role professionally.
+* Favorite food is crème brûlée.
+* Has played over 1,000 matches with {{ci|Nocturne}} in solo queue.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

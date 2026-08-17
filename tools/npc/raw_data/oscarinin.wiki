@@ -1,0 +1,69 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Oscarinin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.798Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Oscarinin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Oscarinin
+|name=Óscar Muñoz Jiménez
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=EMEA
+|birth_date_year=2003
+|birth_date_month=June
+|birth_date_day=11
+|favchamp=Camille
+|checkbox1=No
+|compID1=Oskar
+|checkboxComp=No
+|ids='''EUW''': Byron Love#1v9 <br> chopper lover #EUW
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Oscarinin
+|twitter=OscarininXD
+|instagram=oscarininlol
+|lolpros=https://lolpros.gg/player/oscarinin/
+|deeplol=https://www.deeplol.gg/pro/Oscarinin
+|dpmlol=https://dpm.lol/pro/Oscarinin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Oskar'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* 1x LVP Superliga MVP (Spring 2022)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Guigo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.576Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Guigo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Guigo
+|name=Guilherme Araújo Ruiz
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brasil
+|residency=Brazil
+|birth_date_year=2002
+|birth_date_month=January
+|birth_date_day=28
+|favchamp=Sett
+|favchamp2=Camille
+|favchamp3=Gwen
+|favchamp4=Volibear
+|checkbox1=No
+|compID1=GUIGO
+|checkboxComp=No
+|ids='''BR:''' JOJOJOJOJOESTAR#wry <br> '''EUW:''' ssibal mosquitos <br> '''NA:''' ONE Steal#vitin<br>'''KR:''' RED Avenger#aegis
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/guigolol_
+|twitter=guigolol_
+|instagram=guigolol
+|lolpros=https://br.lolpros.gg/player/guigo
+|deeplol=https://www.deeplol.gg/pro/Guigo
+|dpmlol=https://dpm.lol/pro/Guigo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Nicknamed "'''Korean Slayer'''" by the Brazilian community, for achieving high numbers of solokills against Korean toplaners.<ref>[https://twitter.com/maisesportsbr/status/1619442902203240448 Mais Esports' Tweet] ''twitter.com''</ref>
+* Has a non-official pentakill in '''[[CBOLÃO/Season 5|CBOLÃO Season 5]]''' as {{ci|Kennen}}.
+* In [[Vivo Keyd Stars]], [[SeeEl]] once referred to him as his "franchise player".
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Is the younger brother of [[Vitin]].
+* He once dated [[Mayumi]].
+** His NA soloqueue nickname after going to Canada to play in the [[MSI 2025|MSI]] is a homage to him.
+* His transfer from [[Vivo Keyd Stars|VKS]] to [[FURIA]] is rumoured to be one of the most expensive signings in Brazil.<ref>[https://x.com/coachseeel/status/1871497414546501886 SeeEl's X Post] ''x.com''</ref>
+* He is often made fun of for his short height.
+* His family is very supportive of him, especially his father.<ref>[https://ge.globo.com/esports/lol/noticia/circuito-desafiante-pai-de-guigo-emociona-em-video-de-comemoracao.ghtml Circuito Desafiante: pai de Guigo emociona em vídeo de comemoração (Portuguese)] ''ge.globo.com''</ref>
+* He once said in a interview that his biggest idol in life is [[wikipedia:en:Gordon Ramsay|Gordon Ramsay]], but in the competitive scene he is inspired by [[Zeus]]. He is also a big fan of [[BrokenBlade]].
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* Reached Finals in regional tournaments (CBLOL and LTA South) with three different teams: [[RED Canids]] (2021.2 and 2022.1), [[Vivo Keyd Stars]] (2024.2) and [[FURIA]] (2025.2).
+* Was featured in '''LoL Esports Plays of the Week''' with his {{ci|K'Sante}} outplay against [[Isurus Estral]] during the [[LTA South 2025 Split 1]] as the '''Top 5 Play'''.<ref>[https://x.com/lolesports/status/1884591988273455271 LoL Esports' X Post] ''x.com''</ref>
+|-|
+Awards=
+=== Individual Awards ===
+* 1x LTA South Finals MVP (2025.2)
+|-|
+Equipment =
+===Equipment===
+* Mouse: Logitech G Pro X Superlight 2
+* Keyboard: Logitech G Pro X TKL
+* Mousepad: Artisan Ninja FX Zero
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Grevthar&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.576Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Grevthar」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Grevthar
+|name=Daniel&nbsp;Xavier Ferreira
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=24
+|favchamp=Akali
+|favchamp2=Twisted Fate
+|favchamp3=Taliyah
+|favchamp4=Kled
+|checkbox1=Yes
+|favchamp5=Neeko
+|favchamp6=Ahri
+|favchamp7=Sion
+|checkboxComp=No
+|ids='''BR:''' Grevthar#BRA1, Jim Hawkins#BR2<br>'''EUW:''' B99 PERALTHAR
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/grevtharlol
+|facebook=https://www.facebook.com/Grevtharlol
+|twitter=Grevthar
+|instagram=grevthar
+|youtube=https://www.youtube.com/@Grevthar
+|lolpros=https://br.lolpros.gg/player/grevthar
+|deeplol=https://www.deeplol.gg/pro/Grevthar
+|dpmlol=https://dpm.lol/pro/Grevthar
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Nicknamed '''"Gravafaker"''' when he plays well and '''"Gravatar"''' when he plays badly.
+* Is most known for his career in [[RED Canids]], in which he won a CBLOL title in his rookie split.
+* He is inspired by [[Doinb]], who he is a big fan of.<ref>[https://twitter.com/RedKingOfBrega/status/1696166012205355043 RedKingOfBrega's Tweet] ''twitter.com''</ref>
+* Often criticized for prioritizing his team's collective game and not so much his individual gameplay, consequently missing on CS and staying behind in gold. This led to him being called the "'''Brazilian [[Nisqy]]'''" by [[SeeEl]].<ref>[https://youtu.be/cjoblnlp0CM?t=1980 SeeEl's Video] ''youtube.com''</ref>
+* He was very excited when he found out that he would be playing against [[Chovy]] at [[Worlds 2021]].<ref>[https://www.strafe.com/br/apostas-esports/noticias/league-of-legends/grevthar-se-destaca-em-soloq-na-europa/ Grevthar se destaca ao garantir 12 vitórias em Bootcamp!] ''www.strafe.com''</ref> This was even more evident when he smiled as he got ahead in CS against him at one point in the laning phase during the actual game.<ref>[https://x.com/REDehminhavida/status/1773730075520663558 RED Leto's X Post] ''x.com''</ref>
+* Known for several different picks in the midlane:
+** {{ci|Kled}}, which he took inspiration from [[Doinb]].<ref>[https://twitter.com/lolesports/status/1446517256981291036 LoL Esports' Tweet] ''twitter.com''</ref> 
+** {{ci|Sion}}, during [[CBLOL 2024 Split 2]], which was inspired by [[Insanity]].
+* Finished the [[7REX|7REX Inhouse]] in Rank 3.<ref>[https://x.com/7REXteam/status/1983564732062712006 7REX's X Post] ''x.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Nicknamed '''"Jake Peralta"''' by the Brazilian community, due to his resemblance to the actor '''[[wikipedia:en:Andy Samberg|Andy Samberg]]''' that played the lead character with that name in the TV series '''[[wikipedia:en:Brooklyn Nine-Nine|Brooklyn 99]]'''.<ref>[https://twitter.com/REDCanids/status/1220370982063439878 RED Canids' Tweet] ''twitter.com''</ref> 
+** This was even used by [[RED Canids]] in two different ads for the [[RED Academy|academy lineups]] in 2021, which parodied two scenes from the TV series.<ref>[https://x.com/REDCanids/status/1402003796436389893 RED Canids' X Post] ''x.com''</ref><ref>[https://x.com/REDCanids/status/1464029678486708224 RED Canids' X Post] ''x.com''</ref>
+* His favorite movie is '''[[wikipedia:en:Treasure Planet|Treasure Planet]]''', which inspired one of his soloq account names.<ref>[https://x.com/Grevthar/status/1855262476872384611 Grevthar's X Post] ''x.com''</ref> 
+* He often refers to his teammates and former teammates as "primos" (cousins).
+** For that reason, he has played in every '''CBOLÃO''' edition as the team "Os Primos".
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

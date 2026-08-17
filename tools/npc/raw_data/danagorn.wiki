@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Danagorn&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.718Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Danagorn」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=Yes
+|low_content=No
+|id=Danagorn
+|name=Daniel Drummond
+|image=TSW Danagorn 2017 Winter.png
+|checkboxAutoImage=No
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1992
+|birth_date_month=February
+|birth_date_day=20
+|favchamp=Lee Sin
+|favchamp2=Maokai
+|favchamp3=Skarner
+|favchamp4=Vi
+|checkbox1=No
+|checkboxComp=No
+|ids=CNB HyperX Dana, KaBuM Danagorn
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/danagorn
+|facebook=https://www.facebook.com/danieldanagorn
+|twitter=danagorn
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Daniel started out playing Counter Strike, Gunbound, Ragnarok Online, and World of Warcraft. He has been playing League of Legends since 2011.
+
+== Trivia ==
+* Known for his {{ci|Nautilus}}, {{ci|Elise}} and {{ci|Vi}}.
+* Known for being overly patient with his ganks which sometimes results in him sitting in the brush for minutes at a time.
+* Met [[Takeshi]] in Ragnarok back in 2010 and since then they have been playing in the same team, despite just meeting IRL for the first time in October/2012.
+* Popularized {{ci|Nautilus}} and {{ci|Sejuani}} in Brazilian Servers (Season 3).
+* Portrayed as {{ci|Rammus}} in the CBLoL 2015 official wallpaper.
+* Known for having participated in what is considered one of the CBLOL's worst campaigns, [[T Show]] 0-18, which lost every game of the split.<ref>[https://www.techtudo.com.br/noticias/2019/02/tshow-em-2017-relembre-a-pior-campanha-da-historia-do-cblol-esports.ghtml TSHOW em 2017: relembre a pior campanha da história do CBLoL (Portuguese)] ''techtudo.com.br''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+File:KBM Danagorn 2016 Winter.jpg|KBM Danagorn at [[CBLOL 2016 Split 2]]
+File:KBM Danagorn 2016 Summer.png|KBM Danagorn at [[CBLOL 2016 Split 1]]
+File:KBB Danagorn CBLOL2015.jpg|KBB Danagorn at [[CBLOL 2015 Split 2]]
+File:KBM Danagorn 2014 WCS.jpg|KBM Danagorn at [[Worlds 2014]]
+File:KaBuM Danagorn.png|KaBuM Danagorn
+File:danaga.jpg|CNB Danagorn
+File:danagorn.jpg|Danagorn
+</gallery>
+
+{{PlayerPageEnd}}

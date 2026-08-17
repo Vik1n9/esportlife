@@ -1,0 +1,133 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Chovy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.570Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Chovy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Chovy
+|name=Jeong Ji-hoon
+|nativename=정지훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2001
+|birth_date_month=March
+|birth_date_day=03
+|favchamp=Cassiopeia
+|favchamp2=Galio
+|favchamp3=Zoe
+|favchamp4=Taliyah
+|checkbox1=Yes
+|favchamp5=Azir
+|favchamp6=Ahri
+|favchamp7=Yone
+|favchamp8=Akali
+|compID1=ji hun
+|compID2=Miulchi
+|checkboxComp=No
+|ids='''KR:''' 허거덩#0303<br>'''EUW:''' Lehends#원숭이 <br> '''NA:''' KKintube#낀낀이형<br>'''BR:''' gunz#123
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/wlgnsdl0303
+|facebook=https://www.facebook.com/profile.php?id=100008808371141
+|twitter=j1hu1V_chovy
+|instagram=chovy_jihun
+|youtube=https://www.youtube.com/channel/UCG7IjFUQzAxx060OjBXOveA
+|weibo=https://www.weibo.com/n/GEN_Chovy
+|lolpros=https://lolpros.gg/player/chovy/
+|deeplol=https://www.deeplol.gg/pro/Chovy
+|dpmlol=https://dpm.lol/pro/Chovy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''ji hun'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Chovy''' is based on his nickname ''Anchovy''.
+* His former ID '''ji hun''' stands for his real name (Jeong Ji-hoon).
+* Became the first professional League of Legends player to achieve a 100 overall KDA in a professional league in January 2019, after a 2-0 victory against [[SK Telecom T1]] in [[LCK 2019 Spring]] brought his overall KDA to 44/1/60.
+* Awarded Regular Season MVP for [[LCK/2019 Season/Spring Season|LCK 2019 Spring]] and Player of the split for [[LCK/2021 Season/Spring Season|LCK 2021 Spring]] with 1300 and 1000 MVP points respectively.
+* Occasionally referred to as "Choky" by English fans when he plays poorly.
+* Sometimes referred to as "8884844" by Korean fans, alluding to his placements at Worlds from 2019 to 2025.
+* Known for his ability to gather huge minion advantages in lane.
+* Portrayed as {{ci|Orianna}} in the [[Worlds 2021]] [https://www.youtube.com/watch?v=1Z6CHioIn3s anthem].
+* Is one of the four players to appear in the [[Worlds 2022]] [https://www.youtube.com/watch?v=HYsz1hP0BFo anthem].
+* Portrayed as {{ci|Akali}} in the [[Worlds 2024]] [https://www.youtube.com/watch?v=5FrhtahQiRc anthem].
+* His fanbase is referred as the "''Church of Chovy''".
+* Naturally gifted in playing games. He reached Grandmaster on ''Overwatch'' and was praised by ''VALORANT'' pro-gamer Meteor for his skills. He also enjoys ''PUBG'' and ''Apex Legends''.
+** He will sometimes play Tetris on stream and is good at playing the game too.
+
+=== Statistics ===
+* Reached 1000 kills in the LCK on July 1st, 2021.
+**Is the 15th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun) | Ghost]], and [[Peanut]] 
+**Was the fastest player (days since debut) in the LCK to achieve 1000 kills before [[ShowMaker]] beat this record 2 months later.
+**His 1000th kill in the LCK was on [[DRX]]'s ADC [[BAO (Jeong_Hyeon-woo) | BAO]] in the [[LCK 2021 Summer|LCK 2021 Summer Season]] with {{ci|Nocturne}}
+* Reached 1500 kills in the LCK on February 16th, 2023.
+** The 10th player to reach 1500 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Deft]], [[Ruler]], [[Teddy]], and [[Bdd]].
+* Reached 2000 kills in the LCK on April 6th, 2024.
+** The 6th player to reach 2000 kills in the LCK after [[Faker]], [[Deft]], [[Ruler]], [[Teddy]], and [[Bdd]].
+** His 2000th kill was on [[Hanwha Life Esports|HLE]]'s Support [[Delight]] in the [[LCK/2024 Season/Spring Playoffs|LCK 2024 Summer Playoffs]] with {{ci|Azir}}
+** The third mid laner (after [[Faker]], and [[Bdd]]) to reach 2000 LCK kills.
+* Reached 2500 kills in the LCK on August 20th, 2025.
+** The 6th player to reach 2500 kills in the LCK after [[Faker]], [[Deft]], [[Bdd]], [[Aiming]] and [[Ruler]].
+** The third mid laner (after [[Faker]], and [[Bdd]]) to reach 2500 LCK kills.
+* Reached 3000 assists in the LCK on March 6th, 2024.
+** Was the 15th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], [[Peanut]], [[Lehends]], [[Bdd]], [[Keria]], [[Life]], [[BeryL]], [[Canyon]] and [[Cuzz]]
+* Reached 4000 assists in the LCK on August 30, 2025.
+** Was the 13th player to reach 4000 assists in the LCK.
+* Reached 300 wins in [[LCK]] on March 12th, 2023, becoming the 9th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], [[Ruler]], [[Peanut]], and [[Bdd]].
+** [[knight (Zhuo Ding)|knight]] got his LPL 300 wins on the same day.
+* Reached 400 wins in [[LCK]] on June 14th, 2024, becoming the 5th player to do so after [[Faker]], [[Deft]], [[Peanut]], and Bdd.
+* Reached 500 wins in LCK on August 30th, 2025, becoming the 3rd player to do so after [[Faker]] and Peanut.
+* Reached 500 games in the LCK on June 29, 2023, becoming the 10th player to do so, after [[Score]], [[Faker]], [[Ruler]], [[Deft]], [[Bdd]], [[Teddy]], [[Peanut]], [[Ghost (Jang Yong-jun)|Ghost]], and [[Kiin]].
+* Reached 600 games in the LCK on July 11, 2024, becoming the 7th player to do so, after  [[Faker]], [[Deft]], [[Bdd]], [[Peanut]], [[Kiin]], and Teddy.
+* Reached 700 games in the LCK on August 23, 2025, becoming the 6th player to do so, after Faker, Deft, Bdd, Peanut, and Kiin.
+* Through his first 8 LCK seasons he lost 5 times in the LCK finals and finished in 3rd place twice before finally winning [[LCK 2022 Summer]].
+* First player to win 4 LCK titles in a row ([[LCK 2022 Summer]], [[LCK 2023 Spring]], [[LCK 2023 Summer]], and [[LCK 2024 Spring]])
+
+=== Individual Awards ===
+* MSI Finals MVP x1 (2025)
+* LCK Regular Season MVP x4 (Spring 2019, Spring 2024, Summer 2024, LCK 2025)
+* LCK Player of the Split x3 (Spring 2021, Spring 2024, LCK 2025)
+* LCK Finals MVP x1 (Summer 2023)
+* LCK 1st All-Pro Team x4 (Summer 2022, Spring 2024, Summer 2024, LCK 2025)
+* LCK 2nd All-Pro Team x6 (Spring 2020, Summer 2020, Spring 2021, Spring 2022, Spring 2023, Summer 2023)
+* LCK 3rd All-Pro Team x1 (Summer 2021)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

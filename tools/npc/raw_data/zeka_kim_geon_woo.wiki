@@ -1,0 +1,101 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zeka%20(Kim%20Geon-woo)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.817Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zeka (Kim Geon-woo)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Zeka
+|name=Kim Geon-woo
+|nativename=김건우
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2002
+|birth_date_month=November
+|birth_date_day=28
+|favchamp=Akali
+|favchamp2=Sylas
+|favchamp3=Yone
+|favchamp4=Ahri
+|checkbox1=Yes
+|favchamp5=Aurora
+|compID1=Dean
+|compID2=ZEKA
+|checkboxComp=No
+|ids='''KR:''' suis#kr7; Kiruru#kr7 <br> '''EUW:''' Dkdldb#516
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/a121dab6835c0613dd5f8ef5acd1f155
+|twitter=gun8952
+|instagram=kkaze1128
+|youtube=https://www.youtube.com/@Zeka_77
+|lolpros=https://lolpros.gg/player/zeka
+|deeplol=https://www.deeplol.gg/pro/ZEKA-Kim_Geon-woo
+|dpmlol=https://dpm.lol/pro/Zeka
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Dean''' and '''ZEKA'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* He got the nickname "Supersoldier" (슈퍼솔져) from Korean fans.
+* He is known as "Game 5 Devil" for almost always winning game 5 in a BO5 match.
+* He is the first Mid-Laner to achieve the Riot Grand Slam by winning Worlds, MSI, First Stand, and his domestic league.
+* He is the only player to win all three international Riot tournaments on his first appearance at each event ([[Worlds 2022]], [[MSI 2026]], [[First Stand 2025]]).
+* He is famous for his melee champions, especially his {{ci|Akali}}, {{ci|Sylas}}, and {{ci|Yone}}.
+* He is good friends with [[Kingen]].<ref>[https://youtu.be/3m8Dk2nerfc?si=sQorxsMAjGR9fBnX&t=328] ''youtube.com''</ref>
+* Finished S2023 S2 Rank 1 in Korean Solo Queue with 1955 LP.
+* Reached 1000 kills in the LCK on August 8th, 2024.
+** Was the 28th player and 7th Mid-Laner to reach 1000 kills in the LCK.
+** His 1000th kill in the LCK was on [[OKSavingsBank BRION]]'s Jungler [[YoungJae]] with {{ci|Jayce}}.
+* Reached 1500 kills in the LCK on April 16th, 2026.
+** Was the 19th player and 6th Mid-Laner to reach 1500 kills in the LCK.
+** His 1500th kill in the LCK was on [[DN SOOPers]]'s Support [[Peter (Jeong Yoon-su)|Peter]] with {{ci|Yone}}.
+
+{{PlayerStatsTrivia}}
+=== Individual Awards ===
+* First Stand Finals MVP x1 (2025)
+* LCK Player of the Year x1 (2022)
+* LCK Mid-Laner of the Year x1 (2022)
+* LCK Finals MVP x1 (Summer 2024)
+* LCK Player of the Split x1 (Summer 2023)
+* LCK 2nd All-Pro Team x1 (Summer 2024)
+* LCK 3rd All-Pro Team x2 (Summer 2023, Spring 2024)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

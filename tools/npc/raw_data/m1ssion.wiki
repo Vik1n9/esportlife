@@ -1,0 +1,166 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mission&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.876Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「M1ssion」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Mission
+|name=Chen Hsiao-Hsien
+|nativename=陳孝銜
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1995
+|birth_date_month=September
+|birth_date_day=28
+|favchamp=Jayce
+|favchamp2=Kassadin
+|checkbox1=No
+|compID1=DonSan
+|compID2=M1ssion
+|checkboxComp=No
+|ids='''KR:''' wo 4 chicken, mide gui tou, m15510n<br>'''EUW:''' Iloveberlin
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|teamhist1=Taipei Assassins
+|teamdate1=Nov 2014 - Apr 2015
+|teamrole1=Jungle
+|issub1=No
+|istrainee1=No
+|teamhist2=Midnight Sun Esports
+|teamdate2=Apr 2015 - Nov 2016
+|teamrole2=Mid
+|issub2=No
+|istrainee2=No
+|teamhist3=Hong Kong Esports
+|teamdate3=Nov 2016 - Dec 2016
+|teamrole3=Mid
+|issub3=No
+|istrainee3=No
+|teamhist4=Fireball
+|teamdate4=Dec 2016 - May 2017
+|teamrole4=Mid
+|issub4=No
+|istrainee4=No
+|teamhist5=Hong Kong Attitude
+|teamdate5=May 2017 - Nov 2017
+|teamrole5=Mid
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=ahq e-Sports Club
+|teamdate6=Jan 2018 - Mar 2018
+|teamrole6=Top
+|issub6=No
+|istrainee6=No
+|teamhist7=ahq e-Sports Club
+|teamdate7=Mar 2018 - May 2018
+|teamrole7=Mid
+|issub7=No
+|istrainee7=No
+|teamhist8=Machi E-Sports
+|teamdate8=May 2018 - Nov 2018
+|teamrole8=Mid
+|issub8=No
+|istrainee8=No
+|teamhist9=Hong Kong Attitude
+|teamdate9=Dec 2018 - Dec 2019
+|teamrole9=Mid
+|issub9=No
+|istrainee9=No
+|teamhist10=G-Rex
+|teamdate10=Dec 2019 - Feb 2020
+|teamrole10=Mid
+|issub10=No
+|istrainee10=No
+|teamhist11=Machi Esports
+|teamdate11=Feb 2020 - Nov 2020
+|teamrole11=Mid
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|facebook=https://www.facebook.com/M1ssion
+|lolpros=https://lolpros.gg/player/m1ssion/
+|deeplol=https://www.deeplol.gg/pro/Mission
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''DonSan'''.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=東山街惡少
+}}
+==Biography==
+DonSan joined the [[Taipei Assassins]] as a substitute Jungler and Mid Laner in late 2014. But since the team's Junglers [[Winds]], [[Sarsky]], [[DinTer]] and Mid Laners [[Chawy]], [[Achie]] were performing well during that time, DonSan never played a single game on stage.
+
+=== 2015-2016 Season ===
+In mid 2015, [[Midnight Sun Esports]]' coach [[Lilballz]] invited DonSan to join his team as their starting Mid Laner as the team's previous Mid Laner [[Wish (Michael Lau)|Wish]] has just left the team. DonSan accepted his offer and renamed to M1ssion. After joining the team, they participated in the [[LMS 2015 Summer Promotion]] and won the relegation match against armature team [[Donate Me Please]] to secure themselves a spot in the [[LMS 2015 Summer|LMS 2015 Summer Split]].
+
+During the Summer split, M1ssion shared the starting Mid Laner role with Korean import [[CaNdy (Kim Seung-ju)|CaNdy]] before CaNdy was banned from competitive play for six months for accepting offers from the other teams without notifying MSE's management. 
+
+In the 2016 Season, M1ssion played for all of MSE's games but the team failed to make playoffs in both splits, placing 6th in the [[LMS 2016 Spring|2016 Spring Split]] and 5th in the [[LMS 2016 Summer|2016 Summer Split]]. After the summer split, Midnight Sun Esports' LMS spot was acquired by [[Fireball]] and M1ssion joined Fireball.
+
+=== 2017 Season ===
+M1ssion played both Top Lane and Mid Lane during his time in [[Fireball]]. However the team did not perform well and was placed 6th in the [[LMS 2017 Spring|2017 Spring Split]], once again unable to make it to playoffs. During the break between the spring and summer split, M1ssion left the team to join the newly rebuilt [[Hong Kong Attitude]] and replace their previous Mid Laner [[Gear]] due to management conflicts.
+
+Hong Kong Attitude had a mediocre performance in the [[LMS 2017 Summer|2017 Summer Split]] and ended in 6th with a 7-7 score, meaning that the team was out of playoffs. However since [[Flash Wolves]] and [[ahq e-Sports Club]] qualified for [[Worlds 2017|Worlds]], HKA was allowed to participate in the [[Taiwan Regional Finals 2017|Taiwan Regional]] for the 3rd seed at Worlds. HKA proceeded to win both games against [[J Team]] and [[Raise Gaming]] and qualified for [[Worlds 2017|Worlds]] as LMS' 3rd seed.
+
+At [[Worlds 2017|Worlds]], HKA was placed in Group D with Turkish team [[1907 Fenerbahçe Esports]] and Japanese team [[Rampage]]. HKA placed 2nd in the fist round and faced [[Fnatic]] in the second round, losing a quick 0-3 and knocked out of Worlds. 
+
+During the pre-season, Hong Kong Attitude and [[ahq e-Sports Club]] agreed to swap players and swapped M1ssion for [[Chawy]].
+
+== Trivia ==
+* Known as '''東山街惡少''' or '''東山''' before joining the competitive scene.
+* Nicknamed '''電競佣兵''' (the esports mercenary) in Taiwan for frequently changing teams.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

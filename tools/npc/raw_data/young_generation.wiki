@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Young%20Generation&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.589Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Young Generation」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Phong Vũ Buffalo
+|name= Young Generation
+|orgcountry= Vietnam 
+|country=
+|region=Vietnam
+|manager= Nguyễn "'''Boilu'''" Thế Hưng
+|captain= 
+|facebook=https://www.facebook.com/pg/YoungGenerationVN
+|sponsor= 
+|rosterphoto= Young Generation Roster 2018 Spring.png
+}}{{TOCRWI}}
+
+'''Young Generation''' was a professional League of Legends team based in Vietnam.
+
+== History ==
+
+=== 2017 Season ===
+Young Generation was founded in November 2016 by Naul, BigKoro, Palette, Venus, NhocTy - players from [[Saigon Jokers]] and [[269 Gaming]] after two teams were disbanded. Young Generation had qualified for [[VCS A/2017 Season/Spring Promotion|2017 VCSA Spring Promotion]] and finished at 2nd place in [[VCS A/2017 Season/Spring Playoffs|2017 VCSA Spring]]. After [[Gigabyte marines|Gigabyte Marines]] had finished at [[2017 Mid-Season Invitational|2017 MSI]] Group Stage and got additional spot in World Championship Play-in Stage for Southeast Asia, Vietnam was rewarded two spots for [[GPL 2017 Summer|2017 GPL Summer]]. Young Generation had won [[Friends Forever QTV Gaming|ROG Friends]] in [[VCS A/2017 Season/Summer Playoffs|2017 VCSA Summer Playoffs]] round 2 and was defeated by Gigabyte Marines in final, finished at 2nd place and qualified for [[GPL 2017 Summer|2017 GPL Summer]] Group Stage.
+
+At GPL, Young Generation scored 7-1 in Group Stage and finished at 1st place. They had faced [[Ascension Gaming]] from Thailand at Semifinal and lost 2-3. They had won [[Team Manila Eagles]] from Philippines 3-0 at Losers' Bracket round 1 and faced Ascension Gaming again at round 2. Although Ascension Gaming had won the first 2 games, Young Generation won 3 games later and qualified for [[2017 Season World Championship/Play-In|2017 World Championship Play-in Stage]].
+
+At the end of 2017 '''Young Generation''' was nominated for  [https://wechoice.vn/ WeChoice] [https://vi.wikipedia.org/wiki/WeChoice_Awards_2017 2017] in the section Inspirational Ambassador and won the Top 10 inspirational characters.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{listplayer/Start|newteam=yes|res=yes|dates=yes}}
+{{listplayer|Naul|vn|Võ Thành Luân|Mid|res=Vietnam|newteam=Phong Vũ Buffalo|joined=2016-11-??|left=2018-05-18}}
+{{listplayer|BigKoro|vn|Đặng Ngọc Tài|AD|res=Vietnam|newteam=Phong Vũ Buffalo|joined=2016-11-??|left=2018-05-18}}
+{{listplayer|Palette|vn|Nguyễn Hải Trung|Support|res=Vietnam|newteam=Phong Vũ Buffalo|joined=2016-11-??|left=2018-05-18}}
+{{listplayer|yT|vn|Bùi Thế Vinh|Top|res=Vietnam|newteam=Cube Adonis|joined=2016-03-??|left=2018-04-03}}
+{{listplayer|Venus|vn|Bùi Nguyễn Quốc Hoàng|Jungle|res=Vietnam|newteam=FFQTV|joined=2016-11-??|left=2018-04-03}}
+{{listplayer|Ren|vn|Nguyễn Văn Trọng|Top|res=Vietnam|newteam=retired|joined=2017-07-??|left=2018-04-01 }}
+{{listplayer|BlueArcher|vn|Nguyễn Trung Ngôn|Sub|res=sea|newteam=none|joined=??? |left=???}}
+{{listplayer|Nevan|vn|Phùng Thiện Nhân|Top|res=Sea|newteam=MES|joined=2016-11-??|left=2017-05-??}}
+{{listplayer|Min|link=Min (Lê Phương Thảo)|vn|Lê Phương Thảo||sub=yes|res=sea|newteam=none |joined=??? |left=???}}
+{{Listplayer/End}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Boilu|vn|Nguyễn Thế Hưng|'''Manager'''|newteam=Phong Vũ Buffalo}}
+{{listplayer|H.Phong|vn|Phan Huy Phong|'''Coach'''|newteam=Phong Vũ Buffalo}}
+{{listplayer|Koo|vn|Võ Ngọc Anh Tuấn|'''Coach'''|newteam=FTV}}
+{{listplayer|Nixwater|vn|Mai Nhật Tân|'''Manager'''|newteam=EHU}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Articles ==
+
+== Interviews ==
+* [http://gamesao.vietnamnet.vn/esport/lmht-young-generation-bon-minh-hien-tai-van-dang-su-dung-tien-22940.html Young Generation: “Bọn mình hiện tại vẫn đang sử dụng tiền túi của các thành viên trong đội”].
+
+== Videos ==
+
+== Highlight Videos ==
+
+==External Links==
+
+==References==
+<references />

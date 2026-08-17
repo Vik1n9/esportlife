@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nomanz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.044Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nomanz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Nomanz
+|name=Lev Yakshin
+|nativename=Лев Якшин
+|namealphabet=Cyrillic
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=September
+|birth_date_day=21
+|favchamp=Aurelion Sol
+|favchamp2=Azir
+|favchamp3=Kassadin
+|checkbox1=No
+|checkboxComp=No
+|ids='''RU:''' Mr Nomanz<br>'''EUW:''' Nomanz
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/nomanzzz
+|twitter=nomanzx
+|vk=https://vk.com/nomanz
+|lolpros=https://lolpros.gg/player/nomanz
+|deeplol=https://www.deeplol.gg/pro/Nomanz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Used to play soccer on semi-pro level.
+* After reaching Diamond on the Russian server by the end of Season 3, he reached Challenger in Season 4. He maintained that rank prior to his transfer on EU West, before Season 7.<ref>https://ru.op.gg/summoner/userName=mrnomanz</ref>
+* Was back-to-back playoff MVP in [[LCL]] throughout the 2020 season.
+* Made a brief appearance on ''Evening Urgant'' (a popular Russian late-night talk show) on November 6, 2020 where he taught the host how to play League of Legends.<ref>https://youtu.be/wZ5YXQ2uNeQ</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Nomanz Vega Squadron 2017.jpg|Nomanz Vega Squadron 2017
+Nomanz M19 Spring 2018.png|M19 Nomanz 2018 Spring
+M19_Nomanz_2018_Split_2.png|M19 Nomanz 2018 Summer
+VEG Nomanz 2019 Split 1.png|VEG Nomanz 2019 Spring
+UOL_Nomanz_2019_Split_2.png|UOL Nomanz 2019 Summer
+UOL_Nomanz_2020_Split_2.png|UOL Nomanz 2020 Summer
+UOL Nomanz_2021_WC.png|UOL Nomanz 2021 Worlds</gallery>
+
+{{PlayerPageEnd}}

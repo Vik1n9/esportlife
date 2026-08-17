@@ -1,0 +1,171 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NRated&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.725Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「nRated」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=nRated
+|name=Christoph Seitz
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=EMEA
+|checkbox-res=No
+|birth_date_year=1991
+|birth_date_month=July
+|birth_date_day=17
+|favchamp=Zyra
+|favchamp2=Leona
+|favchamp3=Blitzcrank
+|favchamp4=Janna
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://twitch.tv/nrated91
+|facebook=https://www.facebook.com/nrated
+|twitter=nRatedLoL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+nRated is a player hailing from Kaiserslautern, Germany. His first foray into gaming was at age 6, when he played Tiny Toons Olympics on the Super Nintendo. Since then, he has played many more games, but notables include Command and Conquer: Zero Hour and World of Warcraft. During his WoW days, he reached Gladiator status for seven seasons in a row, reaching an Arena rating of 2.6k as a Paladin.
+
+He would play League of Legends with his WoW friends while waiting for a queue (on arena), as they would have one-hour queue times. He started during the very early Beta days and has stuck with it ever since.
+
+===Season 1===
+nRated has been an avid player in League of Legends since 2009, eventually deciding to join teams and play competitively, manning the support role. His first big splash in the scene was when his lineup of '''Team Dimegio''' was picked up by famous eSports organization, [[SK Gaming]]. After a few months, the team went through a major overhaul, with nRated being one of few that left the organization. <ref> [http://www.sk-gaming.com/content/33672-SKLoL_announce_new_lineup SK Announces New Lineup] ''with sk-gaming.com''</ref>
+
+===Pre Season 2===
+In the next few months, after the departure from SK, nRated had brief stints playing for teams such as '''energy-WAVE''' and then '''Teamless'''. He was eventually picked up by [[Team Acer]] in September of 2011. The team had a good showing at the [[Samsung Euro Championship 2011]], placing 3rd in the tournament.
+
+===Season 2===
+nRated and team went to compete at [[ESL Pro Series Germany/Winter 2011|ESL Pro Series Winter 2011]], giving a strong performance in the group stage, going 5-1. They went undefeated in route to reaching the finals, beating '''DRUCKWELLE''' and [[Team gamed!de]]. Going against [[Team ALTERNATE]] in the finals, Acer was swept in the series but able to take a respectable 2nd place. In January 2012, nRated decided to leave the team and found a spot on long established European team, [[Against All Authority]]. However, after only a few months playing a couple of events with the team, [[aAa]]'s lineup decided to disband, leading nRated and his bot lane teammate, [[YellOwStaR]], to undergo a testing period with [[Millenium]]. After having been a part of many top teams in Europe, by August 2012, nRated was incorporated into the [[Fnatic]] team, after first subbing for them. 
+
+The same month he officially joined, the [[Season Two/Regional Finals - Cologne|Season 2 Regional Finals]] was held in Cologne where the top 3 placing teams would be flown to Los Angeles for the [[Season 2 World Championship]] for a chance to play for a $1,000,000 grand prize. [[Fnatic]] were unable to achieve top 3 placing, finishing 4th in the tournament, losing to [[Moscow Five]] and [[CLG Europe]].
+
+===Pre-Season 3===
+After the tough loss at regionals, nRated and his team were able to bounce back strong in preparation for Season 3, winning major tournament [[DreamHack Winter 2012]] in November 2012, and placing 2nd against the world's best at [[IGN ProLeague Season 5|IPL Season 5 Las Vegas]]. At [[IEM Season VII - Global Challenge Cologne]], the team went undefeated in their groups and bested the Korean lineup consisting of players that took 2nd at the Season 2 Championship, [[CJ Entus]]. However, they were unable to beat the other Korean team, [[SK Telecom T1]], in the finals, and ended up placing 2nd in the tournament. The team went on to next play in [[IEM Season VII - Global Challenge Katowice]], making it out of group stage but losing in the semi-finals to [[Azubu Frost]].
+
+In January 2013, his team had a chance to participate in Riot's new competitive league for upcoming Season 3 for NA and EU, the [[Riot League Championship Series/Europe/Season 3|Riot Season 3 League Championship Series]], but had to play for a spot at the [[Riot Season 3 Championship Series/Europe/Qualifiers/Main Event|Season 3 Europe Offline Qualifier]]. Fighting out of the group stage and into the quarterfinals, nRated and crew were able to best [[MeetYourMakers]] in a 2-0 set to win a spot in the league and the chance to be part of an extremely important, successful project in League of Legends.
+
+===Season 3===
+With the North American and European community extremely excited for the amped up events of '''LCS''', Season 3 began with Riot's new league of a 10 week series with the continent's best teams playing against another. [[Fnatic]] became the most consistently powerful team throughout the series, with nRated and old teammate [[YellOwStaR]] as the bot lane duo; the team ended the 10 weeks on top with a intimidating record of 22-6. They had automatically reclaimed their spot in the league for the summer split when going into the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Season 3 EU Spring Playoffs]]. Being a favorite in the playoffs, the team showed their consistently strong play-style, winning 2-1 vs [[Evil Geniuses.EU|Evil Geniuses]], placing themselves in the finals against another favorite, [[Gambit Gaming]]. In a close set of games, nRated and company were able to beat the Russians, winning 3-2 and claiming the $50,000 1st prize.
+
+However, Fnatic started the Summer Split with a 4W-6L record, and the organization elected to pave the way for [[Rekkles]]'s return in Season 4. As such, the team decided to waive nRated and slide YellOwStaR to his position. Not to be fazed, the German support's availability on the market netted him coaching positions in [[Evil Geniuses.EU|Evil Geniuses]], and [[Season 3 World Championship]] participant [[Lemondogs]]. His key role in EG's innovative {{ci|Zac}}/{{ci|Aatrox}} combination shaped picks and bans in Europe come [[Riot League Championship Series/Europe/Season 3/Summer Playoffs|Summer Playoff]] time.
+
+After his stint in Lemondogs, nRated remained a free agent and tried out with a number of challenger teams.
+
+===2014 Season===
+nRated's free agency officially ended when [[SK Gaming]] offered him the support position, as [[Nyph]] departed the organization to join [[Alliance]]. 
+
+nRated competed with SK Gaming in the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Spring Split]]. After a few shaky weeks, it was clear that the changes to the roster had served the team well. nRated's {{ci|Kayle}} and {{ci|Leona}} helped fuel SK's improvement in results, and their ascent on the rankings table began. By the penultimate week, SK had made it to 3rd place behind [[Alliance]] and [[Fnatic]], but a perfect superweek saw SK claim 1st place. SK's performance in the spring split secured them a place in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. The playoffs saw nRated and SK Gaming beat [[Team ROCCAT]] in the semifinal, but lose to [[Fnatic]] in the final, resulting in a 2nd place finish for the team.
+
+SK started the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] strong, and nRated's {{ci|Morgana}} helped the team stay within the top 3 teams until the 9th week. Poor results toward the end of the split saw SK in 5th place after the penultimate week, but a late surge resulted in the team finishing in 4th place overall, with nRated picking up the weekly MVP award for the final week. Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for nRated and the team to qualify for the [[2014 Season World Championship|World Championship]]. SK finished 3rd in the playoffs, losing to [[Alliance]] in the semifinal, but beating [[Team ROCCAT]] in the third-place match, securing themselves a place at the World Championship.
+
+The World Championship saw SK placed in Group B along with [[Star Horn Royal Club]], [[Team SoloMid]] and [[Taipei Assassins]]. SK only managed 2 wins in the group, but notably beat TSM in their last match of the group stage. SK finished in 3rd place in their group, meaning that they would not go any further in the tournament.
+
+===2015 Season===
+The [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|Spring Split]] was a huge success for nRated and [[SK Gaming]], finishing 1st in the regular season and losing only 3 games in the process, partly thanks to nRated's impressive performances on a range of champions including {{ci|Lulu}} and {{ci|Nami}}.
+
+Due to SK being in 1st place in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]] at the specified cutoff date, the team were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 win against the [[yoe Flash Wolves]], [[SK Gaming]] lost to [[GE Tigers]] in Round 2 of the winners bracket, putting them into Round 2 of the losers bracket. nRated and [[SK Gaming]] were then knocked out by [[yoe Flash Wolves]] after losing to the Taiwanese team in their 2nd meeting at the tournament.
+
+The team's regular season performance meant that [[SK Gaming]] would have a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], where they would fall to [[Unicorns Of Love]] in a tight series, and become the first regular season 1st place finishers to fall in the semifinals of playoffs in LCS history. They went on to lose the third-place match to [[H2k-Gaming]], securing themselves 30 [[2015 Season/Championship Points|Championship Points]] for the split.
+
+The [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Season]] was far less successful for nRated and the team, ultimately finishing the regular season in 9th place. This meant that [[SK Gaming]] would have to fight for their LCS status in the [[League Championship Series/Europe/2016 Season/Spring Promotion|2016 Spring Promotion]].
+
+Soon after, nRated would move to a substitute position, with [[NoXiAK]] coming in to replace him.<ref>[http://twitter.com/CandyPandalol/status/633656906347843584 CandyPanda's Twitter Post] ''twitter.com''</ref>
+
+===2019 Season===
+
+During the Summer Season of 2019, nRated was hired as the new head coach of Rogues Academy Team [[Rogue Esports Club]]. The team itself is part of the Polish national league, the Ultraliga.
+
+== Trivia ==
+* His original nickname from World of Warcraft is '''"Rated"'''. He added an n as "Rated" was taken, with n being a neutral member.
+* Was known for his {{ci|Shaco}} early in his career.
+* Started playing support with [[Against All Authority]], having no prior experience in the role.
+* Credits his WoW days for having a sense of when to apply crowd control effects in order to stack them over time (instead of having them overlap).
+* The highlight of his career was playing in the [[IGN ProLeague Season 5|IPL 5]] as part of [[Fnatic]] and being on par with teams such as [[Taipei Assassins]] and [[Team WE|Team WorldElite]].
+* Used to play a lot of football, ice hockey and hockey.
+* Used to play multiple instruments (e.g.: piano, guitar, flute) as part of his school's curriculum.
+* Started liking League of Legends so much that he would grow to dislike World of Warcraft.
+* Was in an IT internship within an administrative center in Germany prior to League of Legends.
+* In early August 2012, he served as a substitute player for [[Fnatic]] in place of [[Pheilox]] until August 12, when he officially joined. <ref>[http://fnatic.com/news/10008/fnatic-welcome-nrated.html Fnatic welcome nRated] ''fnatic.com''</ref>
+* His favorite meal is a chateaubriand with Bearnaise sauce.
+* His favorite movie is ''[[wikipedia:en:The Lord of the Rings (film series)|Lord of the Rings]]''. His favorite book trilogy is ''[[wikipedia:en:Tales of the Otori|Tales of the Otori]]''.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

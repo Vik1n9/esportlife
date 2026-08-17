@@ -1,0 +1,153 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zeros&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.590Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zeros」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Zeros
+|name=Phạm Minh Lộc
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=2000
+|birth_date_month=October
+|birth_date_day=6
+|favchamp=Jayce
+|favchamp2=Akali
+|favchamp3=Aatrox
+|favchamp4=Irelia
+|checkbox1=No
+|checkboxComp=No
+|ids='''VN:''' ma zương 2k<br>'''EUW:''' GAM Z3ros<br>'''KR''': 읏차가르츄
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|teamhist1=Aces Gaming
+|teamdate1=??? 2014 - ??? ????
+|teamrole1=Top
+|issub1=No
+|istrainee1=No
+|teamhist2=XGame
+|teamdate2=??? 2014 - ??? 2014
+|teamrole2=Top
+|issub2=No
+|istrainee2=No
+|teamhist3=Binh Thanh Gaming
+|teamdate3=??? 2016 - ??? 2017
+|teamrole3=Top
+|issub3=No
+|istrainee3=No
+|teamhist4=Adonis Esports
+|teamdate4=Jun 2017 - Sep 2017
+|teamrole4=Top
+|issub4=No
+|istrainee4=No
+|teamhist5=Team CyberOne
+|teamdate5=Oct 2017 - ??? 2017
+|teamrole5=Top
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=Hall of Fame
+|teamdate6=??? 2017 - Dec 2017
+|teamrole6=Top
+|issub6=No
+|istrainee6=No
+|teamhist7=GIGABYTE Marines
+|teamdate7=Dec 2017 - May 2018
+|teamrole7=Top
+|issub7=No
+|istrainee7=No
+|teamhist8=Phong Vũ Buffalo
+|teamdate8=May 2018 - May 2019
+|teamrole8=Top
+|issub8=No
+|istrainee8=No
+|teamhist9=GAM Esports
+|teamdate9=May 2019 - May 2020
+|teamrole9=Top
+|issub9=No
+|istrainee9=No
+|teamhist10=EVOS
+|teamdate10=May 2020 - Dec 2020
+|teamrole10=Top
+|issub10=No
+|istrainee10=No
+|teamhist11=SBTC Esports
+|teamdate11=Dec 2020 - Apr 2021
+|teamrole11=Top
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.youtube.com/channel/UC2anidH1kvmIbhMj8cpgMUQ/featured
+|facebook=https://www.facebook.com/Zeros-108550014077155
+|instagram=loc.minhh
+|youtube=https://www.youtube.com/channel/UC2anidH1kvmIbhMj8cpgMUQ/featured
+|lolpros=https://lolpros.gg/player/zeros/
+|deeplol=https://www.deeplol.gg/pro/Zeros
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was permanently banned from the [[VCS]] in April 2021.<ref>[https://www.facebook.com/vcslmht/posts/5979307878747805 VCS' Facebook Post (Vietnamese)] ''facebook.com''</ref>
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Is the younger brother of [[Minas]] and [[Vigoss]].
+* Won [[Lenovo Legion of Champions Series I]] with [[Binh Thanh Gaming]].
+* Nicknamed "Demon King Zeros" by fans.
+** In the 2019 spring final trash-talk against [[EVOS Esports]], he declared that he would 'cut his head' if his team fail to win 3-0. <ref>[https://www.youtube.com/watch?v=7yIIKRokBrk PVB vs EVS: Không ăn 3-0 "chặt đầu" Ma Vương!!!] ''youtube. com''</ref> He was nicknamed "The Headless Demon King" after the match.
+* Is believed to be in the top 3 best top laners in the world and better than [[Khan]] by his Coach [[Tinikun]] and his fans
+** This statement later got heavily memed by VCS' community after [[GAM Esports]] poor performance at [[Worlds 2019]]
+* Received a permanent global ban from Riot after making a joke about the COVID-19 pandemic. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

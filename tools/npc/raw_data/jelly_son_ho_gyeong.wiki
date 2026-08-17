@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jelly%20(Son%20Ho-gyeong)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.810Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jelly (Son Ho-gyeong)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Jelly
+|name=Son Ho-gyeong
+|nativename=손호경
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=October
+|birth_date_day=18
+|favchamp=Rakan
+|favchamp2=Ornn
+|favchamp3=Thresh
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/ghrud5813
+|facebook=https://www.facebook.com/profile.php?id=100005635898689
+|twitter=jellylol_
+|deeplol=https://www.deeplol.gg/pro/Jelly-Son_Ho-gyeong
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* His blood type is A.
+* His favorite colors are white and black.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

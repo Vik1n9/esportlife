@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Humanoid&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.253Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Humanoid」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Humanoid
+|name=Marek Brázda
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Czech Republic
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=March
+|birth_date_day=14
+|favchamp=Azir
+|favchamp2=Taliyah
+|favchamp3=Syndra
+|favchamp4=LeBlanc
+|checkbox1=Yes
+|favchamp5=Sylas
+|checkboxComp=No
+|ids='''EUW''': Marek Brazda1#DOG<br>'''CN:''' Quarantineabuser <br> '''NA''': Wesley Warren Jr#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/humanoid_lol
+|facebook=https://www.facebook.com/Humanoid-1666770723611246
+|twitter=Humanoidlol
+|instagram=humanoidlol
+|youtube=https://www.youtube.com/@Humanoid_lol5
+|lolpros=https://lolpros.gg/player/humanoid
+|deeplol=https://www.deeplol.gg/pro/Humanoid
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Started playing from Season 1
+* First Player from the Czech Republic to play at Worlds.
+* First Player with [[Carzzy]] from the Czech Republic to win the LEC title.
+* First Player in [[LEC]] to qualify to three consecutive [[World_Championship|World Championships]] from other teams than [[G2 Esports]] or [[Fnatic]].
+* Reached 1000 kills in the LEC on January 14, 2024.
+** The 13th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]], [[Kobbe]], [[Hans sama]], [[Odoamne]], [[Upset]], [[Larssen]], and [[Carzzy]].
+* Prefers to play AP Casters and Assasins.
+* During his tenure at [[FNATIC]] he built himself a reputation in the [[LEC]] for ramping up over the year while playing loose in the regular season.					
+* Got his first regular season 1st place in [[LEC 2024 Spring]] Split with a 6-3 scoreline after over 5 years of competition.
+* He is the face of the 'Absolute Cinema' meme in the LEC.
+* Is one of the four players to appear in the [[Worlds 2022]] [https://www.youtube.com/watch?v=HYsz1hP0BFo anthem].
+
+=== Individual Awards ===
+* 4x EU All-Pro 2nd Team (Summer 2019, Summer 2021, Spring 2022, Summer 2023)
+* 2x EU All-Pro 3rd Team (Summer 2020, Spring 2021)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

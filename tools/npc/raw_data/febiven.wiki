@@ -1,0 +1,121 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FEBIVEN&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.078Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Febiven」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=FEBIVEN
+|name=Fabian Diepstraten
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Netherlands
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=23
+|favchamp=LeBlanc
+|favchamp2=Zed
+|favchamp3=Azir
+|favchamp4=Ahri
+|checkbox1=Yes
+|favchamp5=Riven
+|compID1=Febiven
+|checkboxComp=No
+|ids='''EUW''': cxzczczcxzcxzcz, MSF FEB1VEN, qweasdqweasdqwqq, FNC FEBlVEN<br>'''KR''': FNC 페비벤
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/febiven
+|facebook=https://www.facebook.com/febiven
+|twitter=FEBIVEN
+|instagram=febivenlol
+|askfm=febivenn
+|reddit=FebianRiven
+|youtube=https://www.youtube.com/channel/UCYr6xpY8GKy5Aq3zFVjkdVg
+|discord=https://discord.gg/eBJacdSwWP
+|tiktok=feblven
+|lolpros=https://lolpros.gg/player/febiven/
+|deeplol=https://www.deeplol.gg/pro/Febiven
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===2014 Season===
+Febiven started his competitive career with [[Cloud 9 Eclipse]], playing in a roster including [[Voidle]] and [[Hjärnan]]. The team's first tournament was the [[SCAN EUW Winter Invitational]]. The team managed to impress from the very start, finishing 1st after beating [[Gamers2]] in the final of the tournament. Febiven and the team continued in the same strong form, winning [[2014 EU Challenger Series/Spring Series|Challenger Spring #1]]. An uncharacteristic dip in the team's play lead to [[Cloud 9 Eclipse]] being knocked out of [[2014 EU Challenger Series/Spring Series/Series 2|Challenger Spring #2]], losing to [[Departed]] in the quarterfinals.
+
+Despite this, Febiven and the team went on to win a number of tournaments on the run. The first of these was Week 20 of the [[EUW Challenger Series]], where they took revenge on the [[Departed]], beating them in the final. Next up was the [[2014 Black Monster Cup Europe Spring|2014 Black Monster Cup Europe - Spring]], where C9E took further revenge, beating [[Denial eSports.Europe]] in the final, after the organization picked up the roster of [[Departed]]. The team also won [[International Invitational Tournament 3]], beating [[Dark Passage]] in the final.
+
+Soon after, [[Cloud 9 Eclipse]] competed at the [[Copenhagen Games 2014]] with [[Santorin]] subbing in the jungle - the team managed a 2nd place finish, behind [[Ninjas in Pyjamas]]. Febiven and C9E then returned to the Challenger Series with the [[2014 EU Challenger Series/Spring Series/Playoffs|Spring Playoffs]]. The team won the tournament, again taking revenge by beating [[Ninjas in Pyjamas]] in the final. This would mean that C9E would have a chance to qualify for the LCS in the [[Riot League Championship Series/Europe/2014 Season/Summer Promotion|Summer Promotion]]. Unfortunately for Febiven and the team, they lost their promotion match-up against [[SUPA HOT CREW]]. Febiven and [[Cloud 9 Eclipse]]'s last tournament would be the [[LoL Pro League/Season I|LoL Pro League - Season I]], which they managed to win. After this, the team's roster was released. Febiven and the majority of the former C9E roster then decided to join [[H2k-Gaming]].
+
+Febiven's first tournament with H2k was the [[2014 EU Challenger Series/Summer Series|Challenger Summer #1]], which the team won, beating [[Ninjas in Pyjamas]] in the final. Next up for Febiven was the [[Dailymotion Challenger Cup]], where the team finished 3rd after losing to [[SK Gaming Prime]] in the 4th round of the winner's bracket and surrendering their 4th round loser's bracket match to [[Unicorns of Love]]. H2k also competed at [[FACEIT Challenger Invitational 3]], but did not make it out of the group stages. Febiven and the team returned to the Challenger Series with [[2014 EU Challenger Series/Summer Series/Series 2|Challenger Summer #2]], but the series was not a success, with [[H2k-Gaming]] finishing in 4th place after losing their third-place match against [[Gamers2]].
+
+Soon after, Febiven and the team returned to winning form with the [[2014 EU Challenger Series/Summer Series/Playoffs|Summer Playoffs]], beating [[SK Gaming Prime]] in the final. They followed this up with a win over [[Ninjas in Pyjamas]] in the final of the [[FACEIT Gamescom Challenge]]. Due to their performance in the playoffs, [[H2k-Gaming]] had secured themselves a place in the [[Riot League Championship Series/Europe/2015 Season/Spring Promotion|Spring Promotion]]. Despite a considerable amount of hype surrounding the team, they were beaten by [[Copenhagen Wolves]] in their promotion match-up. After this disappointment, H2k were quick to recover; going on to beat [[n!faculty]] in the final of [[Challenger FaceOff 3]]. They also managed to win the [[2014 Black Monster Cup Europe Winter|2014 Black Monster Cup Europe - Winter]], beating [[SK Gaming Prime]] in the final.
+ 
+With [[H2k-Gaming]], Febiven competed in the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Expansion|Spring Expansion Tournament]], and qualified for the Offline Stage after beating [[Meloncats]]. In the Offline Stage, H2k won their first match-up against [[n!faculty]], meaning that they were one win away from qualifying for the LCS. The team went on to beat [[GIANTS! Gaming]] in the Winner's Bracket Final, meaning that they would be playing in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]].
+
+===2015 Season===
+In January 2015, Febiven left H2k to join [[Fnatic]]. Febiven and the team's new roster had a successful [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]], finishing 2nd in the regular season with a 13-5 record, partly thanks to Febiven's impressive performances on {{ci|Xerath}} among other champions. This secured them a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]]. Fnatic beat [[H2k-Gaming]] in their semifinal matchup, and went on to secure 1st place after taking a 3-2 win over [[Unicorns Of Love]] in the playoff final. This meant that Febiven and the team would pick up 90 [[2015 Season/Championship Points|Championship Points]] towards qualification for the [[2015 Season World Championship]].
+
+This also meant that [[Fnatic]] would represent Europe at the [[2015 Mid-Season Invitational]]. Febiven and the team had a relatively successful tournament, which they opened with a decisive win over [[Team SoloMid]]. The team also had a notably close group stage game with [[SK Telecom T1]], but went on to lose the game. [[Fnatic]] finished the group stage in 4th place, meaning they would advance to the bracket stage. They faced [[SK Telecom T1]] in the semifinals, this time playing out a close series, but ultimately losing 3-2.
+
+Now with [[Rekkles]] on the roster instead of [[Steeelback]], Febiven and the team went into the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Season]] with confidence running high after their performance on the international stage. [[Fnatic]] managed to finish the regular season with a perfect, unbeaten 18-0 record - and became the first team to achieve this in [[League Championship Series]] history. This meant a 1st place regular season finish for the team and a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]]. [[Fnatic]] went on to win the playoffs, beating [[Origen]] 3-2 in a tight final. This qualified the team for the [[2015 World Championship]], where they would compete as Europe's #1 seed.
+
+At the [[2015 World Championship]], [[Fnatic]] were seeded into Group B along with [[ahq e-Sports Club]], [[Invictus Gaming]], and [[Cloud9]]. They picked up 4 wins in the group, going unbeaten in the 2nd week of group stage games, meaning they would advance to the knockout stage of the tournament. In the quarterfinals, [[Fnatic]] beat [[EDward Gaming]] 3-0 before suffering a 3-0 loss to [[KOO Tigers]] in the semifinals, putting an end to their campaign.
+
+===2016 Season===
+At the start of the season, [[Fnatic]] were voted to play at [[IEM Season X - Cologne]]. They fielded a roster including Febiven and [[Rekkles]] from their 2015 roster along with new members [[Gamsu]], [[Spirit]], and [[NoXiAK]]. The team had a bye to the semifinals, but were beaten at this stage by [[Qiao Gu Reapers]]. Despite being only in fifth place in the [[League Championship Series/Europe/2016 Season/Spring Season|EU LCS split]] at the time of the tournament, Fnatic were invited to [[IEM Season X - World Championship|IEM Katowice]] due to their previous season's success. There, they had a surprisingly strong run, finishing in second place behind [[SK Telecom]].
+
+== Trivia ==
+* Started playing League of Legends one day after him and his friends got bored of playing Call of Duty.
+* Was known for his {{ci|Riven}} in the Challenger scene.
+* Febiven's ID is a mixture of his first name, Fabian, and his favorite champion, {{ci|Riven}}.
+* Became famous after [[MSI 2015]] for solo killing [[Faker]] twice in a game.
+* Enjoys playing football.
+* Favorite TV show is ''[[wikipedia:en:Prison_Break|Prison Break]]''.
+
+=== Individual Awards ===
+* 2x EU All-Pro 1st Team (Summer 2015, Summer 2017)
+* 1x EU All-Pro 2nd Team (Spring 2017)
+* 1x EU All-Pro 3rd Team (Spring 2020)
+* 1x NA All-Pro 3rd Team (Spring 2018)
+{{PlayerStatsTrivia}}
+
+==Achievements==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+==Other Content==
+{{TDRight
+|name1=2015
+|name2=2017}}
+{{TDRight|tab}}<!--2017-->
+* March 1, [http://www.youtube.com/watch?v=tZ5cuNOvvYc Personal Growth: Febiven] ''by  LoL Esports''
+{{TDRight|tab}}<!--2015-->
+* February 1, [http://www.goldper10.com/hall-of-memories/776-3-player-cards-fnatic.html Player Cards - Fnatic] ''by Gold Per 10''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

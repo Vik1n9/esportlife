@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Abbedagge&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Abbedagge」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Abbedagge
+|name=Felix&nbsp;Alfred Braun
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=September
+|birth_date_day=10
+|favchamp=Syndra
+|favchamp2=Ryze
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' AbbedaggÆ <br> Mein Königreich <br> '''NA:''' babadagge <br> '''KR''' 아베다게
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/abbedagge
+|facebook=https://www.facebook.com/abbedaggelol
+|twitter=Abbedagge
+|instagram=abbedagge
+|youtube=https://www.youtube.com/channel/UC9RkYbMx7h5zgoqtlhWLEVA
+|tiktok=abbedagge2
+|lolpros=https://lolpros.gg/player/abbedagge
+|deeplol=https://www.deeplol.gg/pro/Abbedagge
+|dpmlol=https://dpm.lol/pro/Abbedagge
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Abbedagge was born in Baden-Baden, Germany.<ref>[https://twitter.com/lcsofficial/status/1556025027417346048?lang=en LCS' Tweet] ''twitter.com''</ref>
+
+== Trivia ==
+* His ID '''Abbedagge''' comes from a unit's sound in [https://en.wikipedia.org/wiki/Age_of_Empires Age of Empires].<ref>[https://twitter.com/S04Esports/status/1069300013040316418 FC Schalke 04 Esports' Tweet] ''twitter.com''</ref>
+* Nicknamed "Fakerdagge" by fans and casters when playing really well.
+** Nicknamed "Abbedoggy" when playing poorly.<ref>[https://twitter.com/jojopyunlol/status/1518296315742101506?lang=en Jojopyun's Tweet] ''twitter.com''</ref>
+
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (2021 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

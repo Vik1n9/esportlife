@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20Whales&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.060Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Whales」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Secret Whales
+|name= Team Whales
+|orgcountry=Vietnam
+|country= Vietnam
+|region= APAC
+|sponsor=[http://saigonfutures.com Saigon Futures]<br>[http://thehuntergroup.vn The Hunter Group]<br>[https://steelseries.com/ SteelSeries]<br>[https://hgmedia.com.vn/vi/ HG Media]<br>[https://bidv.com.vn/ BIDV]<br>[https://www.vw.com.vn/ Volkswagen]
+<!-- Staff -->
+|headcoach=Huỳnh '''[[Yuna]]''' Văn Tân
+|owner= 
+|rosterphoto= TW VCS Spring Playoffs 2024.jpg
+<!-- Social Media -->
+|website=https://teamwhales.gg/
+|youtube= https://youtube.com/c/teamwhales
+|facebook= https://facebook.com/TeamWhalesEsports
+|twitter= TeamWhalesVN
+|tiktok=teamwhales.gg
+|discord=https://discord.com/invite/teamwhales
+|instagram=teamwhales.gg
+|snapchat= 
+<!-- History -->
+|created= 
+|disbanded= 
+}}{{TOCRWI}}<!-- To add a logo, see Help:Setting Up Teams. -->
+
+'''Team Whales''' is a Vietnamese esports organization.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Tony|vn|<!--Name on Vietnamese nationality:-->Nguyễn Phúc Toại<!--Name on American nationality: Tony Nguyen-->|'''Chief Executive Officer'''}}
+{{listplayersp|Luan Igor|vn|Nguyễn Minh Luân|'''Head of Media'''}}
+{{listplayersp|CptBeemo|vn|Lưu Đức Tâm|'''Manager'''}}
+{{listplayersp|iCy|vn|Mai Trọng Nghĩa|'''Assistant Manager'''}}
+{{listplayersp|DVC8D|vn|Dương Anh Vũ|'''Editor'''}}
+{{listplayersp|Larkia|vn|Nguyễn Hoàng Thông|'''Graphic Designer'''}}
+{{listplayersp|Jenny|vn|Quách Hồng Nhung|'''Korean Translator'''}}
+{{listplayersp|Nana|vn|Đặng Tiểu Bình|'''Event & Show Host'''}}
+{{Listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Ciel (Trần Tiến Thịnh)|vn|Trần Tiến Thịnh|'''Head Coach'''|newteam=Secret Whales}}
+{{listplayer|Means|vn|Trịnh Thành Nghĩa|'''Coach'''|newteam=Saigon Dino}}
+{{listplayersp|Allain|vn|Trần Trọng Huấn|'''Chief Operations Officer'''|newteam=none}}
+{{listplayer|Ren|vn|Nguyễn Văn Trọng|'''Head of Esports'''|newteam=none}}
+{{listplayer|Yuna|vn|Huỳnh Văn Tân|'''Head Coach'''|newteam=none}}
+{{listplayersp|PDra|vn|Dương Hoàng Phi Long|'''Content Creator & Assistant Manager'''|newteam=VKE}}
+{{Listplayersp|Redamancy|vn|Đỗ Ngọc Yến Nhi|'''Content Creator'''|newteam=none}}
+{{listplayer|SofM|vn|Lê Quang Duy|'''Mentor Coach'''|newteam=Vikings Esports (2023 Vietnamese Team)}}
+{{listplayer|Raze (Nguyễn Kỳ Vương)|vn|Nguyễn Kỳ Vương|'''Head Coach'''|newteam=CES}}
+{{Listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+
+===Logos===
+<gallery>
+Team Whales 2022logo square.png|Old Logo (- Dec 2022)
+</gallery>
+
+=== References ===
+<references />

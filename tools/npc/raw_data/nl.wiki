@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NL%20(Hsiung%20Wen-An)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.765Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「NL」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=NL
+|name=Hsiung Wen-An
+|nativename=熊汶銨
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=Taiwan
+|birth_date_year=1995
+|birth_date_month=April
+|birth_date_day=02
+|favchamp=Ashe
+|checkbox1=No
+|checkboxComp=No
+|ids=I loveSiuwan (NA), Gamania NL (KR), Never_loses,
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/never_loses
+|facebook=https://www.facebook.com/NeVeRLosEs
+|instagram=nln1nl
+|youtube=https://www.youtube.com/channel/UCRdJzOsu4MwKmY04vfAIDHw
+|deeplol=https://www.deeplol.gg/pro/NL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===2015 Season===
+Due to their 1st place finish at [[IEM_Season_IX_-_Taipei|IEM Taipei]], [[yoe Flash Wolves]] were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 loss against [[SK Gaming]], NL and the team went on to beat [[Cloud9]] in Round 1 of the losers bracket. Round 2 of the losers bracket saw the team's 2nd meeting of the tournament with [[SK Gaming]]. A win against the European team secured the [[yoe Flash Wolves]] a place in the bracket stage. They were eventually knocked out of the tournament in the semifinals after losing to [[Team SoloMid]].
+
+With a second and third place LMS finish under their belt, the Flash Wolves had obtained a tie for the most LMS Championship Points behind AHQ, and were invited to the [[2015_Season_Taiwan_Regional_Finals|2015 Taiwan Regional Finals]]. There, FW avenged their playoff loss by defeating Hong Kong Esports 3-2 and acquiring a spot in the [[2015 Season World Championship]].
+
+At the World Championship, the FW were expected by many analysts to have one of the weakest showings of any team in attendance. However, after a 4-2 group stage with wins over favorites [[KOO Tigers]] and [[Counter Logic Gaming]], the Flash Wolves emerged first from groups, becoming the first team in two years to finish ahead of a Korean team in groups at Worlds. In the tournament quarterfinals, FW lost 1-3 to [[Origen]], earning a top eight finish.
+
+== Trivia ==
+* His nickname stands for "Never Loses", a reference to him almost never losing his lane.<ref>[https://www.youtube.com/watch?v=PC7k0R5-eHk Closer Look: How they got their names] ''youtube.com''</ref>
+* Enjoys watching anime in his free time.
+* Favorite song is [https://www.youtube.com/watch?v=gVuo3X3Ygpg Step Aside] by Taiwanese singer ''[[wikipedia:en:Rene_Liu|Rene Liu]]''.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

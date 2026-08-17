@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lira&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.159Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lira」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Lira
+|name=Nam Tae-yoo
+|nativename=남태유
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=January
+|birth_date_day=15
+|favchamp=Lee Sin
+|favchamp2=Jarvan IV
+|favchamp3=Elise
+|checkbox1=No
+|compID1=LirA
+|checkboxComp=No
+|ids=CTU Lila, 리라, 태유유 태무무, KT Lira, CJ Entus 리라, Lir4, o lira o, iLra, AFreeca Lira (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/wappa
+|twitter=LoL_LirA_
+|instagram=namtaeyu
+|videoarchive=https://www.twitch.tv/lira
+|youtube=https://www.youtube.com/channel/UCzASfyv8v_2vnk7CdK20-WQ
+|lolpros=https://lolpros.gg/player/lira/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Nam "'''LirA'''" Tae-yoo joined his first professional team in 2013 when he joined [[Chunnam Techno University]] as a jungler. However, he did not play any games with the team and left to join the [[KT Rolster Arrows]] in May. 
+
+===2014 Season===
+LirA couldn't qualify for OGN with the Arrows so he left the team in February of 2014 to join [[CJ Entus Frost]]. He only played 2 matches with them in the [[SK Telecom LTE-A LoL Masters 2014]] before leaving a month later. In June of that year, he went to China to play for [[Oh My God 2|OMG 2]] but they never played any competitive games together before the team disbanded later that year.
+
+===2015 Season===
+LirA joined [[Rebels Anarchy]] in May of 2015 as their new jungler. They played in the [[Champions Summer 2015/Promotion|Champions Summer 2015 Promotion]] where they qualified for [[SBENU Champions Summer 2015]] after going 1-1 against [[Incredible Miracle]] and Winners. Anarchy placed eighth during the regular season and missed playoffs but they qualified for the next season of LCK. 
+
+===2016 Preseason===
+Rebels Anarchy played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the quarterfinals to [[ESC Ever|Ever]]. On December 29, Rebels Anarchy renamed to the [[Afreeca Freecs]].
+
+===2016 Season===
+The Afreeca Freecs started the [[LCK/2016 Season/Spring Season|2016 LCK Spring Split]] as a bottom three team, losing many of their sets during the first round robin. This changed after their 2-1 upset over [[SK Telecom T1]] in Week 6, which marked the start of a streak of wins that resulted in an exceptional second round robin where they went 7-2 in sets and cliched the final, fifth playoff spot in what many labeled as a "Cinderella Story." Unfortunately, during the first round of the [[LCK/2016 Season/Spring Playoffs|2016 LCK Spring Playoffs]], they lost 2-0 to the [[Jin Air Green Wings]], giving them fifth place overall for the spring split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], the Afreeca Freecs went 8-10 in series. LirA shared starting time with fellow jungler [[SeongHwan]]. They earned fifth place in the regular season and a spot in the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. In the first round, the Freecs met [[Samsung Galaxy]], who beat them 2-0, earning the Freecs fifth place overall for the split. Their accumulated points earned them a spot in the first round of the [[2016 Season Korea Regional Finals]], where they beat the [[Jin Air Green Wings]] 3-2 before losing to [[Samsung Galaxy]] 3-1 in a rematch.
+
+===2017 Season===
+During the 2016-2017 offseason, LirA sought to move abroad, initially joining [[LoL European Championship|EU LCS']] [[Team Vitality]].[https://www.espn.com/esports/story/_/id/18188957/league-legends-team-vitality-signs-lira-offseason-roster-shuffle-sources-say] However, he parted with Vitality less than a month later, stating — among other reasons — difficulty due to lack of a designated interpreter and feeling uncomfortable in Europe.[https://www.invenglobal.com/articles/987/envy-lira-id-rather-win-through-macro-than-kills][https://www.espn.com/esports/story/_/id/18311461/league-legends-roster-shuffle-gbm-signed-jungler-team-vitality] He moved to the [[League Championship Series|NA LCS]], joining [[Team EnVyUs]]. Visa issues prevented LirA from appearing onstage until week 2 of the [[NA LCS 2017 Spring|Spring Season]], forcing the team to put midlaner [[Ninja]] in the jungle, and play substitute [[Alex Ich]] in mid. This inauspicious beginning was unfortunately a preview for the season: Team EnVyUs finished 3-15, never ending a week above tied for last place. Despite the team's weak result, LirA's play was so outstanding that he was voted as the jungler for the first-tier NA LCS All-Pro Team in the 2017 NA LCS Spring Split Award Winners, the first time a player on a last place team had received that honor. [https://nexus.leagueoflegends.com/en-us/2017/04/2017-na-lcs-spring-split-award-winners/]
+
+As NA LCS had not yet switched to a franchise model, Team EnVyUs was required to play in the [[NA LCS 2017 Summer Promotion|promotion tournament]]. EnVyUs began poorly, dropping a 3-1 set to the veteran [[Gold Coin United]] (GCU) lineup and being sent to the losers bracket along with [[eUnited]]. EnVyUs rallied, defeating eUnited 3-1 and setting up a rematch with GCU; in that rematch, EnVyUs outlasted GCU on the strength of LirA's play, winning 3-2 and keeping their LCS spot.
+
+EnVyUs had a noticeably better [[NA LCS 2017 Summer|summer season]], finishing in 6th place with 8 wins and 10 losses, despite uncertainty in the midlane: both EULCS import midlaner [[Nisqy]] and former [[Phoenix1]] mid [[Pirean]] were brought in to replace Ninja. Visa delays prevented Nisqy from playing for the first two weeks, and Pirean started the season; the two midlaners then alternated until Pirean returned to Phoenix1 in week 7. Despite the constant player rotation, EnVyUs secured the 6th [[NA LCS 2017 Summer Playoffs|playoff seed]]. Unfortunately, they were defeated 2-3 by [[Counter Logic Gaming]] in a close Quarterfinals series, ending their 2017 season: because of their poor Spring showing, EnVyUs didn't have enough championship points to attend Regional Qualifiers. The NA LCS 2017 Summer Playoff Quarterfinals was also the last time Team EnVyUs played on stage, as the team was not accepted into the franchised NA LCS. Following this, LirA left the team in November and a month later joined the newly formed [[Clutch Gaming]].
+
+===2018 Season===
+In Clutch Gaming, LirA reunited with former EnVyUs teammates [[Apollo (Apollo Price)|Apollo]] (AD carry) and [[Hakuho]] (support). Clutch quickly acquired a reputation for beating every team below them and losing to every team above them; this consistency led to Clutch completing Spring 2018 in 6th place with a 11-7 record, securing a [[NA LCS 2018 Spring Playoffs|spring playoff spot]].
+
+In the Spring 2018 playoff quarterfinals, Clutch faced third seed [[Team SoloMid|TSM]]. TSM was considered the overwhelming favorite to win due to their veteran lineup and their 5-1 record during the final three weeks of the spring split. LirA was focused heavily during game 1, leading to a quick TSM victory. In a historic upset, Clutch won the next three games, becoming the first team in NALCS history to defeat TSM in quarterfinals; this would be the first split without TSM in the finals. Clutch faced the 1st seed [[100 Thieves]] in the semifinals, losing 2-3 after a tense 74-minute siege; in the subsequent third-place match against 2nd seed [[Echo Fox]], Clutch rapidly lost 0-3.
+
+===2019 Season===
+During the offseason, LirA restylized his name to Lira.
+
+In the 2019 post season, Clutch Gaming pulled off the "miracle run", playing 27 games across the [[LCS 2019 Summer Playoffs|summer playoffs]] and [[LCS 2019 Regional Finals|regional qualifiers]] to qualify for Worlds 2019; they were only 3 games short of the 30 maximum possible postseason games. After defeating TSM 3-1 in the summer playoffs, they fell to [[Team Liquid]] 2-3. With just enough [[LCS/2019 Season/Championship Points|championship points]] to be eligible for regional qualifiers, Clutch Gaming proceeded to beat [[FlyQuest]] and [[Counter Logic Gaming]] both 3-1, meeting TSM in the finals. Lira consistently pressured TSM across the map, empowering AD carry [[Cody Sun]] and top lane carry [[Huni]], and helping [[Damonte]] negate [[Bjergsen]]'s presence in the final 3 games, resulting in a 3-2 reverse sweep victory. [https://www.dexerto.com/league-of-legends/tsm-shocking-loss-clutch-lcs-2019-worlds-qualifier-1002282]
+
+In an interview during the summer playoffs, Lira stated that the communication between Clutch Gaming players had improved significantly since the spring split and that the language barrier was not as significant as it once was. [https://www.invenglobal.com/lol/articles/8837/cg-lira-on-tsm-in-playoffs-i-personally-think-spica-is-better-than-both-grig-and-akaadian][https://www.invenglobal.com/articles/7636/clutch-gaming-lira-i-feel-that-our-skills-drop-a-level-when-we-play-on-stage]
+
+Clutch was seeded into the [[2019 Season World Championship/Play-In|Play-In]] at Worlds, where they struggled against [[Unicorns of Love.CIS|Unicorns of Love]] of the CIS and [[MAMMOTH]] of the OPL. The three teams ended up tied in the standings, forcing them to play a three-way tiebreaker to see who would advance, which Clutch came out on top of. This sent them to the Knockout Stage against [[Royal Youth]] of the TCL, who they swept to reach the [[2019_Season_World_Championship/Main_Event|main event]]. There, they were seeded into Group C with [[Fnatic]], [[Royal Never Give Up]], and [[SK Telecom T1]]. Despite the presence of two of Huni's former teams (Fnatic and SKT) in this group, Clutch failed to exact revenge for their top laner on any of them, and went 0-6, becoming the first North American team to fail to win a single game in the Worlds group stage. After Worlds ended, the expected rebranding of Clutch occurred, and the roster was transferred to Dignitas. Lira left the team after the transfer. 
+
+After leaving North America, Lira briefly joined [[Seorabeol Gaming]] to play in the [[Challengers Korea/2020 Season/Spring Promotion/Qualifiers|Challengers Korea 2020 Promotion Qualifiers]]. However, the team was unable to get out of the group stage. In 2020, Lira left Seorabeol and joined Riot Games Korea as a broadcast analyst.
+
+== Trivia ==
+* Praised by many high ranked players for his unique jungle pathing and strategies.
+* He sometimes blocks his fans if they interact with him.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

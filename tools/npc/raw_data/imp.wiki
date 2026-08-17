@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Imp&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.015Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「imp」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=imp
+|name=Gu Seung-bin
+|nativename=구승빈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=June
+|birth_date_day=07
+|favchamp=Vayne
+|favchamp2=Sivir
+|favchamp3=Twitch
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:''' Douyu丶impOUO<br>斗鱼丶impp<br>'''KR:''' MVP imp<br>4seasons<br>잊혀진계절<br>삼성갤럭시 imp<br>'''NA:''' tdyipc
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/522387
+|facebook=https://www.facebook.com/mvpimp
+|twitter=riaverd
+|instagram=seungbinnn
+|deeplol=https://www.deeplol.gg/pro/imp
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+imp (sometimes stylized '''Imp''') began playing League of Legends when the Korean server opened at the end of 2011. He played only {{ci|Ashe}} and {{ci|Sivir}} when he first began playing. He reached 2000 elo within 2 months and decided that he would take the game more seriously by learning the rest of the AD carry champions. His career peaked in the 2014 season where he lined up alongside [[Mata]], winning the 2014 World Championship with [[Samsung White]].
+
+===Season 2===
+
+imp was picked up by [[MVP White]] as an AD carry under the name '''"4Seasons"''' in May of 2012. Their first tournament together was the [[International e-Culture Festival 2012]] where they made it through the group stages but placed third after losing 2-1 to [[Invictus Gaming]] but beating [[WE.i-Rocks]] 2-0. Their next tournament was [[NLB Summer 2012]] where White won the whole tournament after beating [[Tempest]] 4-1 in the finals.
+
+===Season 3===
+
+White qualified for [[OLYMPUS Champions Winter 2012-2013]] and made it past the group stage but lost 3-0 in the quarterfinals to the eventual champions [[NaJin Sword]]. A few weeks later, the team renamed to "MVP Ozone" and attended [[GIGABYTE StarsWar League/Season 2|GIGABYTE StarsWar League Season 2]] where they placed 4th in their group and missed the playoffs. Ozone came back to Korea to compete in [[OLYMPUS Champions Spring 2013]] where they won the whole tournament after beating the heavily-favored [[CJ Entus Blaze]] 3-0. At the time, the series was considered the biggest upset in '''League of Legends''' history. Next Ozone attended [[HOT6iX Champions Summer 2013]] but they actually lost 3-1 in the semifinals to [[SK Telecom T1]] but beat [[CJ Entus Frost]] to end in third place. Ozone had the second highest amount of circuit points in Korea so they automatically qualified for the [[Season 3 World Championship]] as the second Korean seed. About a week later, both MVP Ozone and Blue were picked up by the Samsung organization and were renamed to [[Samsung Galaxy Ozone]] and [[Samsung Galaxy Blue]] respectively. Ozone was a favorite to win the whole World Championship but they were upset by [[Fnatic]] and [[Gambit Gaming]] in the group stages and ended up missing the playoffs entirely.
+
+===2014 Season===
+
+Ozone were looking to avenge their poor performance at Worlds at [[PANDORA.TV Champions Winter 2013-2014]] and they actually made the finals but [[SK Telecom T1 K]] finished their undefeated season by sweeping the finals 3-0. Ozone proved themselves to be a fearsome team once again and they went into [[HOT6iX Champions Spring 2014]] as a favorite to win it but they were upset in the semifinals 3-1 by their sister team, Samsung Blue. Ozone still managed to place third after beating Blaze in the third place match. Shortly afterwards, Ozone was renamed to Samsung Galaxy White. Once again at [[HOT6iX Champions Summer 2014]], White lost 3-1 in the semifinals to Blue but they managed to beat [[SK Telecom T1 S]] and place third. At the [[2014 Season Korea Regional Finals]], White had to play a tie-breaker game with SKT K to see who would qualify for the [[2014 Season World Championship]] as the second seed. White smashed SK Telecom 3-0 and qualified for Worlds. White rolled through Worlds, winning the finals 3-1 against [[Star Horn Royal Club]] and only dropping two games total to become the 2014 Season World Champions. On October 31, 2014, imp announced his departure from Samsung White.<ref>[http://www.inven.co.kr/board/powerbbs.php?come_idx=2778&l=31963 Imp's Facebook Post (Korean)] ''inven.com''</ref> 
+
+===2015 Season===
+
+Imp joined [[LGD Gaming]] alongside two other Koreans, Flame and Acorn, on November 27, 2014.<ref>[http://www.inven.co.kr/webzine/news/?news=122757&iskin=esports 세체원 '임프' 구승빈, 중국 LGD 입단 (Korean)] ''inven.co.kr''</ref> LGD's first full tournament as a team was the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they made the quarterfinals but lost 3-0 to [[Invictus Gaming]]. Shortly afterwards, they finished the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] in 6th place and advanced to the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]]. LGD upset both [[OMG]] and [[Snake eSports]] 3-0 to face [[EDward Gaming]] in the finals. The series went the distance to a full five games but LGD ultimately lost the series 3-2 to EDG. LGD became feared in China but they were upset 3-0 by OMG in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]]. LGD placed fifth in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and qualified for the Seeding Match of the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]]. They fought their way to the finals, even upsetting EDG 3-0 along the way. LGD beat the [[Qiao Gu Reapers]] 3-2 in the finals to qualify for the [[2015 Season World Championship]] as the top seed from China, marking Imp's third World Championship in a row. LGD was placed in a group alongside [[Team SoloMid]], [[Origen]], and [[KT Rolster]]. Unfortunately, they ended with a 2-4 record and were knocked out of the tournament. LGD were the fan-voted team to attend [[IEM Season X - San Jose|IEM San Jose]]. They were knocked out in the first round, losing 2-0 to Team SoloMid.
+
+===2016 Season===
+
+LGD hoped to bounce back from their rough Worlds and post-Worlds performances and went into the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] with high hopes. Being placed in Group A, LGD struggled in the first several weeks of play. Although they had good players in every position, they struggled to play as a team. In the second half of the season however, they started to play better and bounced back. They finished 4th in their group with an 8-8 record. They faced off against [[Vici Gaming]] in Round 1 of the [[LPL/2016_Season/Spring_Playoffs|2016 LPL Spring Playoffs]] but they lost 1-3 and finished the Spring Split in 7th-8th. Summer was a rough split for LGD as the team finished 5th place in their group. As a result of this, they would attend the 2017 LPL Spring Promotion but were able to re-qualify for the LPL after defeating [[Newbee]] 3-1.
+
+===2017 Season===
+
+The [[LPL/2017_Season/Spring_Season|Spring]] and [[LPL/2017_Season/Summer_Season|Summer]] seasons were very similar for LGD in 2017. They finished at the bottom of the standings first with 6 wins and 10 losses in Spring and then with 4 wins and 12 losses in summer. The team was able to retain its LPL spot in the promotion tournaments throughout the year.
+
+===2019 Season===
+
+On November 19, imp announced his retirement.<ref>[https://www.weibo.com/6174976862/IgXNVw3O5 JD Gaming's Weibo Post (Chinese)] ''weibo.com''</ref>
+
+== Trivia ==
+* Argues that one of the biggest weaknesses he sees in other players is too much pride. He thinks having too much pride prevents players from improving.<ref>http://www.youtube.com/watch?feature=player_embedded&v=eDC54-jvvCY#!</ref> <ref>http://www.youtube.com/watch?feature=player_embedded&v=XLgWLeoRcUs</ref>
+* Believes that the North American teams have a much weaker laning stage than Korea.<ref>http://www.youtube.com/watch?feature=player_embedded&v=eDC54-jvvCY#!</ref> <ref>http://www.youtube.com/watch?feature=player_embedded&v=XLgWLeoRcUs</ref>
+* Based on his own experience he says that players who have girlfriends usually decline in skill; as they stop being totally focused on making sure they play as well as they possibly can.<ref>http://www.youtube.com/watch?feature=player_embedded&v=xfjUbd1KdTo.</ref> 
+* Considered one of the best AD carry players in Korea.<ref>http://www.youtube.com/watch?feature=player_embedded&v=xfjUbd1KdTo.</ref>
+* Has a rivalry with [[WeiXiao]], which began when he prevented WeiXiao from playing AD carry on his Korean smurf by taking the position instead.<ref>http://www.youtube.com/watch?feature=player_embedded&v=eDC54-jvvCY#!</ref> <ref>http://www.youtube.com/watch?feature=player_embedded&v=XLgWLeoRcUs</ref> 
+* Known for his {{ci|Vayne}} mechanics that has earned him the nickname "Doubleimp" as both he and [[Doublelift]] have similar play styles. 
+* Regards [[Invictus Gaming]]'s [[PDD]] as his favorite player after becoming friends with him during season 2.<ref>http://www.youtube.com/watch?feature=player_embedded&v=eDC54-jvvCY#!</ref> <ref>http://www.youtube.com/watch?feature=player_embedded&v=XLgWLeoRcUs</ref>
+* Thinks {{ci|Varus}} is the most underrated AD carry (June 2013). 
+* View’s [[OGN]] as the strongest league in the world and the best place for professional league players to really test their skills.
+* Achieved 711 Gold Per Minute in a group stage match in [[PANDORA.TV Champions Winter 2013-2014]].
+* Reached 1000 Kills in the LPL in March, 2017.
+** The 10th player to reach 1,000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Cool]], [[Kid]], [[NaMei]], [[Zz1tai]], [[Clearlove]], [[Deft]], [[GodV (Wei Zhen)|GodV]], and [[Rookie]].
+* Reached 1500 Kills in the LPL on July 12, 2019.
+** The 8th player to reach 1500 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Rookie]], [[Cool]], [[Smlz]], [[Mystic]], [[Xiaohu]], and [[Xiye]].
+* One of only two players to score multiple pentakills in a single international event at [[Worlds 2014]], followed by [[Diable]] 12 years later at [[2026 First Stand]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

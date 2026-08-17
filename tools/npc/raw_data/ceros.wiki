@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ceros&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ceros」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Ceros
+|name=Kyohei Yoshida
+|nativename=吉田 恭平
+|namealphabet=Kanji
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Japan
+|residency=PCS
+|birth_date_year=1993
+|birth_date_month=December
+|birth_date_day=07
+|favchamp=Heimerdinger
+|favchamp2=Ziggs
+|checkbox1=No
+|checkboxComp=No
+|ids='''JP:''' セロス<br>'''KR:''' IIIllIlIllIIlIII<br>'''EUW:''' acc for ARAM<br>IIIIllIIllIlIlII<br>2021Worlds0102
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ceros127
+|twitter=trollceros
+|askfm=trollceros
+|youtube=https://www.youtube.com/@Ceros1207
+|site=https://www.openrec.tv/user/cceerrooss
+|lolpros=https://lolpros.gg/player/ceros
+|deeplol=https://www.deeplol.gg/pro/ceros
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Before Kyohei "'''Ceros'''" Yoshida played League of Legends, he played a first-person shooter called 鉄鬼. Together with [[Zerost]], he won the game's official online competition.<ref>[http://www.4gamer.net/games/025/G002511/20100823012/ Report for Sudden Attack and 鉄鬼 offline event] ''www.4gamer.net''</ref>
+
+== Trivia ==
+* His goal is to become the [[Faker]] of Japan.
+* Known for his unconventional off-meta picks such as {{ci|Ziggs}}, {{ci|Heimerdinger}}, and {{ci|Zilean}}.
+* He was chosen as the '''IWC Player of the Year''' by Team Liquid.<ref>[http://www.liquidlegends.net/forum/lol-general/501885-2015-league-of-legends-awards#iwc 2015 League of Legends Awards] ''www.liquidlegends.net''</ref>
+* He is called '''皇帝''' (Emperor) in Japan.
+* He and his longtime teammate [[Yutapon]] have the distinction of being tied for the second-longest continuous tenure of any player with a single organization, behind only [[Faker]], who joined [[SK Telecom T1 2]] a month and a day before the two of them joined DetonatioN FocusMe.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

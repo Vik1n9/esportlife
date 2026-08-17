@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Galatasaray%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.770Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Galatasaray Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name=Galatasaray Esports
+|orgcountry= Turkey 
+|country=
+|region= TR
+|headcoach= 
+|website= http://galatasaray.org
+|youtube=
+|facebook=https://www.facebook.com/GSEspor
+|twitter= GSEsports
+|instagram=gsespor
+|lolpros=https://lolpros.gg/team/galatasaray-esports
+|sponsor= 
+|created= Sports Club 1905-10-30 <br> LoL Division 2016-11-28
+|organization=
+|otherwikis= pubg
+}}{{TOCRWI}}
+
+'''Galatasaray Esports''' is a Turkish team associated with the football club '''Galatasaray'''. 
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||tr|Dorukhan Acar|'''Board Member Responsible for Esports'''}}
+{{listplayersp||tr|Kerem Şerbetçi|'''General Manager'''}}
+{{listplayersp|brkyktpe|tr|Berkay Küçüktepe|'''Community Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|MightySultan|tr|Berkalp Kaan Yılmazoğlu|'''League of Legends Team Manager'''|newteam=FUT}}
+{{listplayer|tacocat|tr|Can Gormezano|'''Head Coach'''|newteam=P SUP}}
+{{listplayer|CristoL|tr|Şükrü Aykut Yeşilkaya|'''Head Coach'''|newteam=none}}
+{{listplayer|Raiden (Barış Uzun)|tr|Barış Uzun|'''Analyst'''|newteam=IWC.A}}
+{{listplayer|Irean|kr|Heo Yeong-cheol (허영철)|'''Head Coach'''|newteam=NS}}
+{{listplayer|Basei|tr|Ömer Onay|'''Coach'''|newteam=Geekay Esports}}
+{{listplayer|Coosone|tr|Canberk Büyükyolaçan|'''Analyst'''|newteam=SMB.A}}
+{{listplayer|Lynx Cerez|tr|Furkan Arıkovan|'''Head Coach'''|newteam=DP}}
+{{listplayer||tr|Erol Özmandıracı|'''Board Member Responsible for Esports'''|newteam=none}}
+{{listplayersp|LaxLering|tr|Meriç Can Özçil|'''Digital and Social Media Manager'''|newteam=Digital Athletics}}
+{{listplayer|Major|tr|Emre Muhterem Yiğittekin|'''Academy Team Head Coach'''|newteam=ISWC}}
+{{listplayer|Mora|uk|Jake Hammond|'''Head Coach'''|newteam=Santos}}
+{{listplayer|Cognac|tr|Ömer Faruk Ünsal|'''Academy Team Head Coach'''|newteam=Galakticos}}
+{{listplayersp||tr|Ali Barutçuoğlu|'''Esports Coordinator'''|newteam=none}}
+{{listplayer|Heisn|tr|Ahmet Can Arslan|'''Head Coach'''|newteam=Bahçeşehir University}}
+{{listplayer|Xihultas|tr|Mert Tanrıverdi|'''Team Manager'''|newteam=VA}}
+{{listplayersp|Vorborg|dk|Daniel Vorborg|'''Head Coach'''|newteam=CPH F}}
+{{listplayersp|Zenith|tr|Eren Aydın|'''Analyst'''|newteam=Suspended}}
+{{listplayersp|Daisyx|nl|Ruben Korte|'''Head Coach'''|newteam=MM}}
+{{listplayersp|chillhami|tr|İlhami Onay|'''Community Manager'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+
+==Interviews==
+
+==See Also==
+
+==External Links==
+* [https://en.wikipedia.org/wiki/Galatasaray_S.K._(football) Galatasaray on Wikipedia]
+
+==References==
+<references />

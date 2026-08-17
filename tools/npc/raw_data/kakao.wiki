@@ -1,0 +1,139 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=KaKAO&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.364Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「KaKAO」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=KaKAO
+|name=Lee Byung-kwon
+|nativename=이병권
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=December
+|birth_date_day=07
+|favchamp=Elise
+|favchamp2=Lee Sin
+|favchamp3=Olaf
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' ıaöçcı, Zafer Bayram<br>'''KR:''' MSF KaKAO xXz, 케이티 KaKAO, KT KaKAO, KT KaKAO, 병권좌
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/profile.php?id=100005894851439
+|twitter=Misfits_KaKAO
+|lolpros=https://lolpros.gg/player/kakao/
+|deeplol=https://www.deeplol.gg/pro/KaKAO
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''Kakao''', '''KAKAO''', and '''KaKA0'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Lee "'''KaKAO'''" Byung-kwon joined the newly formed [[KT Rolster B]] roster alongside [[Ragan]], [[Ryu]], [[Mafa]], and [[Score]]. KaKAO and KTB played their first tournament as a team during [[OLYMPUS Champions Winter 2012-2013]]. The team actually found quite a bit of success, placing third after losing two best of 5s, 3-1 and 3-0, to [[NaJin Sword]] but beating [[Azubu Blaze]] 3-0. KaKAO was moved to KTB's sister team, [[KT Rolster A]]. KTA played in [[OLYMPUS Champions Spring 2013]] but they failed to make it past the group stage. KaKAO left the team to join the newly named KT Rolster Bullets. The Bullets made it all the way to the finals of [[HOT6iX Champions Summer 2013]] and played what's considered to be the best series of all time against [[SK Telecom T1 K|SK Telecom T1]]. Unfortunately, the Bullets lost 3-2 and placed second. KTB attended the [[Season 3 Korea Regional Finals]] and met SKT in the finals. Once again they lost, this time 3-1.
+
+===2014 Season===
+The new season began for KaKAO and his team at [[PANDORA.TV Champions Winter 2013-2014]]. The Bullets placed third after losing to SKT K 3-0 in the semifinals but beating [[NaJin White Shield]] 3-1 in the third place match. KaKAO was moved to the KT Rolster Arrows shortly afterwards as their new jungler. This new KTA team played their inaugural OGN in [[HOT6iX Champions Spring 2014]]. They managed to upset SKT K in the group stage and made it to the quarterfinals but they lost 3-1 to [[CJ Entus Blaze]]. [[HOT6iX Champions Summer 2014]] was KTA's breakthrough season, upsetting [[Samsung Blue]] 3-2 in the finals to win the OGN Championship. KTA managed to qualify for the [[2014 Season Korea Regional Finals]] but they lost 3-0 to NaJin White Shield in the second round. KaKAO left the Arrows in October to join [[Invictus Gaming]] in December alongside his teammate from KTA, [[RooKie]].
+
+===2015 Season===
+KaKAO played in his first full tournament with the team during the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they managed to make the finals but lost 3-0 to [[EDward Gaming]]. IG placed fifth in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] but placed third in the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]] after losing 3-0 to EDG in the semifinals but beating [[Snake eSports]] 3-1 in the third place match. In the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]], IG placed fourth by making it to the semifinals but losing 3-1 to EDG and then 3-2 to Snake. IG placed third in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and managed to play third in the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] by losing 3-2 to the [[Qiao Gu Reapers]] but beating EDG 3-1. IG qualified for the [[2015 Season China Regional Finals]] and placed second by beating Qiao Gu 3-0 to take the third and final Chinese seed for the [[2015 Season World Championship]]. IG was placed in a group alongside [[Cloud9]], [[Fnatic]], and [[AHQ e-Sports Club]]. Unfortunately, they ended with a 2-4 record and were knocked out of the tournament in last place.
+
+===2016 Preseason===
+KaKAO left iG in December 2015.
+
+== Trivia ==
+* Only plays in windowed mode.
+* Known for his peculiar laugh.
+* Known for his very relaxed body language on stage.
+* Known for his Leopard-print glasses.
+* Regarded as one of the best {{ci|Lee Sin}} jungler in Korea.
+* Had excellent synergy with [[Ryu]] and [[inSec]] allowing for well coordinated tower dives.
+* Known for his trademarked Kakackle.
+* MVP of [[HOT6iX Champions Summer 2014]], winning $9,766.
+* Dislikes sparkling water.
+
+=== Individual Awards ===
+* 1x EU 3rd All Pro Team (Spring 2017)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2013
+|name2=2015
+|name3=2016
+|name4=2018}}
+{{TDRight|tab}}<!--2018-->
+* January 20, [https://theshotcaller.net/dark-passage-kakao-interview-turkey/ Dark Passage KaKAO - "No matter where you go, the ultimate goal is to win the league you are in"] ''with Ashley Kang on The Shotcaller''
+{{TDRight|tab}}<!--2016-->
+* December 21, [http://esports.hollywood.com/exclusive-interview-with-kakao-the-new-league-of-legends-jungler-for-misfits-c4438dfa9ff4#.3uurhyedy Lee “KaKAO” Byung-kwon reflects on joining Misfits and transitioning to the EU LCS.] ''with Hollywood Esports''
+{{TDRight|tab}}<!--2015-->
+* January 16, [http://www.liquidlegends.net/forum/lol-general/475635-interview-lpl-ig-vs-we-winner LPL IG vs. WE Winner Interview] ''from TeamLiquid''
+* October 4, [http://www.twitch.tv/twitchkr/v/19218503?t=21m38s IG vs AHQ - Rookie and Kakao Interview] ''with Twitch''
+* October 10, [http://www.youtube.com/watch?v=B6gaJkA-MA8 Kakao: "I Think It Might Be Kind of Fun to Win 3 Games in a Row and Make It out of Groups, I'll T…] ''with Gamespot''
+* October 11, [http://www.youtube.com/watch?v=Q5OoZ3tDlRc KaKAO on iG's Worlds: "there was a little bit of hope, but it seems like we faded into darkness"] ''with theScore''
+* October 13, [http://www.youtube.com/watch?v=ED0hmiPwGfI Kakao on Why IG Won at the End, Time's Success, and Responds to Tabe Leak] ''with Gamespot''
+{{TDRight|tab}}<!--2013-->
+* August 20, [http://www.youtube.com/watch?v=sYencL700-E inSec & KaKAO: Champions of Korea] ''with MachinimaVS''
+{{TDRight/end}}
+
+===Articles===
+{{TDRight
+|name1=2015
+|name2=2017}}
+{{TDRight|tab}}<!--2017-->
+* January 14, [http://dotesports.com/league-of-legends/eu-lcs-2017-league-players-to-watch-4308 EU LCS: 5 players to watch in 2017] ''by Xing Li on Dot Esports''
+* February 14, [http://www.espn.com/esports/story/_/id/18677076/eu-lcs-there-more-freedom KaKAO: 'I think Misfits play smart. I like this playstyle'] ''by Adel Chouadria on ESPN''
+{{TDRight|tab}}<!--2015-->
+* January 14, [http://na.lolesports.com/articles/will-kakao-wow-china Will KaKAO wow China?] ''by LoL Esports''
+* September 10, [http://www.goldper10.com/article/2378-king-of-the-jungle-an-in-depth-look-at-kakao.html King of the Jungle: An In-depth look at KaKao] ''from Gold Per 10''
+* September 25, [http://followesports.com/topics/post/60 King KAKAO] ''by Follow eSports''
+{{TDRight/end}}
+
+===Other Content===
+{{TDRight
+|name1=2014
+|name2=2015
+|name3=2017}}
+{{TDRight|tab}}<!--2017-->
+* February 28, [http://www.youtube.com/watch?v=Qp6Ur0EarhE "A day with: KaKAO"] ''by Team Misfits''
+* April 10, [http://www.youtube.com/watch?v=eXBPBHcE0Hc Hans Sama talks about how he grew in his League career with support from his family and fans] ''with Blitz Esports''
+* April 12, [http://www.thescoreesports.com/lol/news/13826 Misfits' Hans sama: In season 3, I started watching anime and I really didn't want to start playing LoL again] ''theScore esports''
+{{TDRight|tab}}<!--2015-->
+* January 30 - [http://www.youtube.com/watch?v=_rAFNdm732c League of Legends: "Fighting!" - Pictionary with KaKAO, Zz1tai, Koro and Mouse!]
+{{TDRight|tab}}<!--2014-->
+* November 18 - [http://www.youtube.com/watch?v=3r6Pw7QJfuM True LoL Show EP.17 - KaKAO, Rookie] ''OGN Global''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

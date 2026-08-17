@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Rampage&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Rampage」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=PENTAGRAM
+|name=Rampage
+|orgcountry=Japan 
+|country=
+|region= JP
+|coaches= 
+|manager= Hiroki "'''MizuRussian'''" Nakamura <br> Takuya "'''Aotaka'''"Fujita
+|website= https://www.japanrampage.com/
+|twitter= JapanRampage
+|facebook= https://www.facebook.com/Rampage-Japan-587392958075079
+|sponsor= [http://www.g-tune.jp/ G-Tune]<br>[http://www.tekwind.co.jp/products/AKR/category.php AKRacing]<br>[http://msygroup.com/topics/team-grapht/ Team GRAPHT]<br>[http://www.yamani.co.jp/ YAMANI]<br>[https://www.fujizakurameisui.jp/ ふじざくら命水]<br>[http://batterydrink.jp/ BATTERY]
+|created= 2012-09
+|rosterphoto=Rampage 2017 Summer Roster.png
+}}{{TOCRWI}}
+
+'''Rampage''' was a Japanese esports team. They were in partnership with Korean private university [[Chunnam Techno University]] (CTU).
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+===Former===
+{{listplayer/Start|newteam=yes}}
+{{listplayersp|MizuRussian|jp|Hiroki Nakamura (中村 洋樹)|'''Owner'''|newteam=PENTAGRAM}}
+{{listplayer|34|kr|Kim Dong-hun (김동훈)|'''Coach'''|newteam=PENTAGRAM}}
+{{listplayer|Aotaka|jp|Takuya Fujita (藤田 拓也)|'''Manager'''|newteam=PENTAGRAM}}
+{{listplayersp|hAFu|jp|Nobushiro Kodama (児玉 信城)|'''Manager'''|newteam=PENTAGRAM}}
+{{listplayersp|JapaneseKoreanUG|jp||'''Streamer'''|newteam=PENTAGRAM}}
+{{listplayersp|ZouSenpai|jp||'''Streamer'''|newteam=PENTAGRAM}}
+{{listplayersp|Jackpot Teemo|jp||'''Streamer'''|newteam=PENTAGRAM}}
+{{listplayersp|Kabeo|jp||'''Streamer'''|newteam=PENTAGRAM}}
+{{listplayersp|Ninja of Ninjas|jp||'''Streamer'''|newteam=PENTAGRAM}}
+{{listplayersp|SonicLogic|jp||'''Streamer'''|newteam=PENTAGRAM}}
+{{listplayersp|Kgtekito|jp|Keiji Kato|'''Coach'''|newteam=Retired}}
+{{listplayer|Dragon|link=Dragon (Lee Jun-yong)|kr|Lee Jun-yong (이준용)|'''Coach'''|newteam=DetonatioN Gaming}}
+{{Listplayer/End}}
+
+===Temporary Staff===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+!Replacing
+!Tournament
+{{listplayer|34|kr|Kim Dong-hun (김동훈)|'''Head Coach'''}}
+|'''{{playersp|Kgtekito|flag=jp}}'''
+|rowspan=1|[[IEM Season 11 - Challenger]]
+{{Listplayer/EndTemp}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Tournaments ==
+=== As Rampage ===
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+=== As Ozone Rampage ===
+{{TeamResults|Ozone Rampage|show=overviewpage}}
+=== As myRevenge Rampage ===
+{{TeamResults|myRevenge Rampage|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+<gallery>
+File:Rampage logo 2012-2013.png|Rampage logo (2012-2013)
+File:Ozone Rampagelogo square.png|Ozone Rampage logo (2013-2015)
+File:Rampage logo 2015-2016.png|Rampage logo (2015-2016)
+</gallery>
+<gallery>
+Ozone RPG 2014 Summer.jpg|2014 Summer Roster
+Ozone RPG 2015 Spring.jpg|2015 Spring Roster
+Ozone RPG 2015 Summer.jpg|2015 Summer Roster
+Rampage_2016_Spring_Roster.jpg|2016 Spring Roster
+Rampage 2017 Spring Roster.png|2017 Spring Roster
+</gallery>
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />

@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=DanDy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.718Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dandy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=DanDy
+|name=Choi In-kyu
+|nativename=최인규
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=January
+|birth_date_day=3
+|favchamp=Lee Sin
+|favchamp2=Elise
+|favchamp3=Evelynn
+|checkbox1=No
+|checkboxComp=No
+|ids=Hi xPeke XD (NA), MVP DanDy, Ingoo, YaNkee, YaNgSin, 삼성갤럭시 DanDy, xPek2
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huomaotv.cn/live/884
+|twitter=_yDnaD
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''Dandy'''. He was previously known as '''YaNgSin''' and '''Ingoo'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|prev2=Top
+|prev3=Support
+}}
+==Biography==
+===Season 2===
+Choi "'''DanDy'''" In-kyu initially made his debut in [[Azubu The Champions Spring 2012]] under the name '''YaNgSin''' as the support player for [[SuperStar]]. The team managed to win a game against [[NEB]] but they still failed to make it through groups. SuperStar disbanded a short time later and YaNgSin joined [[MVP White]] as a jungler under the name '''Ingoo'''.
+
+===Season 3===
+Ingoo changed his name to '''DanDy''' prior to start of [[OLYMPUS Champions Winter 2012-2013]]. White made it to the quarterfinals but lost 3-0 to [[NaJin Sword]]. About a month later, White was renamed to MVP Ozone. They competed in the [[GIGABYTE StarsWar League/Season 2|GIGABYTE StarsWar League Season 2]] in China but failed to make it past the group stage. With the additions of [[dade]] and [[Mata]], Ozone managed to win the [[OLYMPUS Champions Spring 2013]] finals 3-0 against [[CJ Entus Blaze]] in one of the biggest upsets in League of Legends history. They did fairly well in [[HOT6iX Champions Summer 2013]], placing third after losing 3-1 to [[SK Telecom T1 K|SK Telecom T1]] but beating [[CJ Entus Frost]] 3-2 in the third place match. Ozone earned enough circuit points to qualify automatically to the [[Season 3 World Championship]] as the second seed from Korea. A week later, both Ozone and their sister team, [[MVP Blue]], were bought by the Samsung organization, forming [[Samsung Galaxy Ozone]] and [[Samsung Galaxy Blue]]. Ozone disappointed at worlds, dropping out in groups after losing a tiebreaker to [[Gambit Gaming]].
+
+===2014 Season===
+Ozone began the new year with [[PANDORA.TV Champions Winter 2013-2014]] where they managed to make it to the finals but were swept by the undefeated SKT K to end in second place overall. They placed similarly at [[HOT6iX Champions Spring 2014]], losing 3-1 to Blue in the semis but beating Blaze 3-2 in the third place match to finish in third. A month later, Ozone changed their name to Samsung White. [[HOT6iX Champions Summer 2014]] was not much different for the team. They lost 3-1 again to Blue in the semis but they managed to sweep [[SK Telecom T1 S]] in the third place match. They were forced to play a tiebreaker against SKT K for the second Korean seed at the [[2014 Season World Championship]] and they managed to sweep them 3-0 for the spot. White came into worlds as the heavy favorites and impressed, only dropping two games the whole tournament. They played a fairly one-sided final against [[Star Horn Royal Club]] and took the title with a 3-1 victory. On October 31, 2014, DanDy announced his departure from Samsung White.<ref>[http://www.facebook.com/dandyGOD/posts/705469199548470 DanDy's Facebook Post (Korean)] ''facebook.com''</ref> On November 27, 2014, DanDy, [[Skatch]], [[Heart]] and Mata all together joined [[Vici Stand Gaming]].<ref>[http://p.t.qq.com/longweibo/index.php?id=429380132770020 Vici Gaming's Tencent Weibo Post (Chinese)] ''t.qq.com''</ref>
+
+===2015 Season===
+At the beginning of the year, Mata and DanDy were moved to the main [[Vici Gaming]] roster to compete in the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]]. They competed in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] first and fell in the round of 16 with a 3-0 loss to [[Invictus Gaming]]. They ended in fourth in the LPL regular season  but they lost in the first round of the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]], dropping 3-1 to IG. During the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]], DanDy switched to top after [[Carry (Wang Zu-Jing)|Carry]] was hospitalized. He played in this new role in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where Vici made it to the quarterfinals but they forfeited their series against IG. They ended in sixth in the LPL and made it to the quarterfinals of the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] but they lost 3-2 here to IG.
+
+===2016 Season===
+DanDy switched back to jungle in November of 2015.
+
+== Trivia ==
+* Came to prominance for his {{ci|Lee Sin}} "Pentakick", where he hits the entire enemy team using Lee Sin's ultimate.<ref>[http://www.youtube.com/watch?v=KaGatoRT99E DanDy five men kick on Lee Sin] ''youtube.com''</ref>
+* Considers [[Diamondprox]], [[inSec]], and himself as the top three junglers in the world.
+* Is sure his {{ci|Rumble}} is better than [[Acorn|Cheonju]]'s, who is known for being a good rumble player.
+* Rates {{ci|Lee Sin}}, {{ci|Elise}}, and {{ci|Evelynn}} as the best junglers.
+* Is said to be able to understand English at an near fluent level according to Emkay, an translator previously for OGN.<ref>[https://www.reddit.com/r/leagueoflegends/comments/26ois4/comment/chszgau/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button Reddit thread containing comment related to dandy] "reddit.com"</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

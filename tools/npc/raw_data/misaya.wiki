@@ -1,0 +1,123 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Misaya&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.565Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Misaya」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Misaya
+|name=Yu Jing-Xi
+|nativename=禹景曦
+|namealphabet=Hanzi
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1992
+|birth_date_month=October
+|birth_date_day=19
+|favchamp=Twisted Fate
+|favchamp2=Sion
+|favchamp3=Diana
+|favchamp4=Evelynn
+|checkbox1=Yes
+|favchamp5=Ahri
+|favchamp6=Ryze
+|checkboxComp=No
+|ids='''CN:''' 请叫我中路杀神, 取经中的稳健少年, 最亮的光, 无法击败的风, 熊猫杀神若风, ImbaWind, M1dGodKiller, StayNight丶, WEGIGABYTEMisaya, WE MadWind<br>'''KR:''' GodKiller Feng, BLood Lad V, MidGodKiller, Shark Prince, Y max<br>'''EUW:''' Elocaze<br>'''NA:'''Misaya CN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.panda.tv/666666
+|videoarchive=http://i.youku.com/u/UMzQ3MTUxNTAw/
+|weibo=http://weibo.com/u/1140554177
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He retired from League of Legends in December 2013.
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+|nicknames=若风 (Wind)
+}}
+==Biography==
+
+== Trivia ==
+* Primarily known for his {{ci|Twisted Fate}}<ref>[http://ggchronicle.com/world-elite-preview-season-two-world-finals/ World Elite Team Summary] ''ggchronicle.com''</ref>, which is his favorite champion.<ref>[http://www.youtube.com/watch?v=A1n8JsBbybk League of Legends - Pro Player Pick: Misaya Picks Twisted Fate] ''youtube.com''</ref> He had never lost a match with {{ci|Twisted Fate}} in competitive play until the final of [[GIGABYTE StarsWar League/Season 2|GIGABYTE Stars War League Season 2]] vs. Invictus Gaming.
+* Represented China at the [[Riot World Invitational]] held in Las Vegas.<ref>[http://ggchronicle.com/riot-world-invitational-liveblog/ Riot World Invitational Summary] ''ggchronicle.com''</ref> 
+* Originally played DotA, then moved on to League of Legends along with a few friends, and due to his skill at the game, he caught the attention of World Elite, and thus he became a member of the team.
+* His DotA career was rather unsuccessful, marked by a broadcasted match in which he used Lion's ultimate, Finger of Death, on a creep due to a misclick. Scolded frequently by DotA fans over this, he eventually quit DotA.
+* During his high school days, he had numerous arguments with his parents due to his low grades and constant skipping of class to play video games at an internet cafe, leading him to leave home to pursue his career as a professional gamer.
+* Was one of the [[2013 World Cyber Games/Main Tournament|World Cyber Games 2013]] torch relays.<ref>[http://lol.uuu9.com/201311/458211.shtml 专访WE若风：能担任WCG火炬手让我倍感荣幸]''lol.uuu9.com''</ref>
+* Was a well regarded player during his career.
+* Is married.
+* Introduced to the LPL Hall of Fame in December 2022.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Misaya.jpg|WE Misaya
+WEMisaya.jpg|WE Misaya
+WE misaya.jpg|WE Misaya
+LPL AS Misaya 2019.png|Misaya, LPL All-Star 2019
+</gallery>
+
+{{PlayerPageEnd}}

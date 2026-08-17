@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tore&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.044Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Norskeren」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Tore
+|name=Tore Hoel Eilertsen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Norway
+|nationality=Norway,Albania
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=December
+|birth_date_day=27
+|favchamp=Thresh
+|favchamp2=Gangplank
+|favchamp3=Rakan
+|checkbox1=No
+|compID1=Norskeren
+|checkboxComp=No
+|ids='''EUW:''' el Tore, nrskrn, Renato Simunovic
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/torelol
+|twitter=Tore_lol
+|lolpros=https://lolpros.gg/player/tore
+|deeplol=https://www.deeplol.gg/pro/Tore
+|dpmlol=https://dpm.lol/pro/Tore
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Norskeren'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Tore got into League of Legends after he got banned in Heroes of Newerth, since he had to find a new game to play with his brothers. He started maining support when Thresh came out and just fell in love with the champion, therefore maining support.
+
+== Trivia ==
+* Favourite food and drinks are pizza and Cola.<ref>[https://www.youtube.com/watch?time_continue=42&v=j2IMlZF51Tg ESPORTS ROCSTARS | Episode 3: Norskeren]youtube.com</ref>
+* Favourite champion is {{ci|Thresh}}.
+* Favourite music genres are Norwegian rap and K-Pop.
+* Has 3 elder brothers.
+** Is the only ginger between his siblings.
+* Spent a lot of time playing [[wikipedia:en:Pok%C3%A9mon_(video_game_series)|Pokémon]] when he was young.
+* Was banned in [[wikipedia:en:Heroes_of_Newerth|Heroes of Newerth]] because he would always leave in the middle of ranked games to eat dinner.
+* Used to play all 5 roles in solo queue before he reached Diamond. Switched to play primarily support because he considers it easier to climb the rank ladder.
+* Started playing League in 2011.
+** First reached Challenger rank when he was 14 years old.
+** Was a huge fan of [[Froggen]], [[Hotshotgg]], [[Chaox]], and [[Doublelift]] when he just started playing League.
+* Always hovers {{ci|Volibear}} and {{ci|Warwick}} in champion select, just like [[Stixxay]]. 
+* Reached 1000 assists in the LEC on March 13, 2021.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

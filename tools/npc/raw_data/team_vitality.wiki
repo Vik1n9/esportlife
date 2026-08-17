@@ -1,0 +1,217 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20Vitality&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.059Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Vitality」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Team Vitality
+|organization=Team Vitality (Organization)
+|orgcountry= France
+|country= Germany
+|foundedcountry= 
+|region= EMEA
+|partner= [https://skin.club Skin.Club] <br> [https://www.magnumicecream.com/us/es/home.html Magnum] <br> [https://www.hummel.fr/en Hummel]
+|sponsor=  [https://tradeit.gg Tradeit.gg] <br> [https://www.credit-agricole.fr Credit Agricole] <br> [https://www.aldi.es Aldi] <br> [https://www.evnia.philips/fr-fr EVNIA]
+<!-- Staff -->
+|headcoach= James "{{bl|Mac}}" MacCormack
+|owner= Fabien "'''Neo'''" Devide <br> Nicolas "'''Nico'''" Maurer
+<!-- Social Media -->
+|website= https://vitality.gg
+|youtube= https://www.youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw
+|facebook= https://www.facebook.com/teamvitality
+|twitter= TeamVitalityLOL
+|instagram= teamvitality
+|subreddit= teamvitality
+|snapchat= team-vitality
+|twitch-team= https://www.twitch.tv/team/vitality
+|weibo= https://www.weibo.com/teamvitality
+|lolpros= https://lolpros.gg/team/team-vitality
+|discord= https://www.discord.gg/vitality
+|linkedin=https://www.linkedin.com/company/team-vitality/
+|irc= 
+<!-- History -->
+|created= 2015-12-09
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,fifa,fortnite,gears,halo,pubg,rl,siege,valorant
+}}{{TOCRWI}}
+
+'''Team Vitality''' is a French esports organization.
+
+== History ==
+'''Team Vitality''' formed its League of Legends team in December 2015 as its first expansion into PC gaming, acquiring [[Gambit Gaming]]'s [[League Championship Series/Europe/2016 Season/Spring Season|EU LCS Spring 2016]] seed. Their first player signed at the time of announcement was former [[H2k]] support [[kaSing]].<ref name="formation">[http://www.team-vitality.fr/news/vitality-acquiert-un-spot-lcs?page=0,1#vitality_acquires_lcs_spot Vitality acquiert un spot LCS] ''team-vitality.fr''</ref> 5 days later, Vitality completed their roster with former Gambit toplaner [[Cabochard]], former [[Copenhagen Wolves|CW]] jungler [[Shook]], former [[Team ROCCAT|ROCCAT]] midlaner [[Nukeduck]] and kaSing's former teammate [[Hjarnan]]. For their coaching staff, Vitality signed former Gambit coach [[Shaunz]].<ref name="fullroster">[http://www.team-vitality.fr/news/decouvrez-notre-roster-league-legends?page=0%2C1#meet-our-league-of-legends-roster Découvrez notre roster League of Legends] ''team-vitality.fr''</ref>
+
+===2016 Season===
+====Spring Split EU LCS====
+Vitality's roster was considered one of the top lineups in the LCS, and they finished the split in third place at 13-5, behind the surprise first-place [[G2 Esports]] and second-place [[H2k]]. Cabochard and kaSing were elected to the split's All Pro Team, as the most outstanding players in their positions. In the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]], however, they were upset by the sixth-place [[Fnatic]] and eliminated in the quarterfinals.
+
+====Summer Split EU LCS====
+Before the start of the split, jungler [[Shook]] and AD carry [[Hjarnan]] departed the team, the latter due to health reasons. Vitality signed [[Mightybear]], the former jungler of the LSPL team [[Newbee]], and AD carry [[Police (Park Hyeong-gi)|Police]] of NA LCS [[Apex Gaming]] and formerly [[ESC Ever]].<ref>[http://www.gosugamers.net/lol/news/35563-team-vitality-acquires-mightybear-and-police Team Vitality acquires Mightybear and Police] ''gosugamers.net''</ref>
+
+In the summer split, Vitality failed to live up to prior standards, accruing only three match wins throughout the season with a 3-9-6 series record. Shook returned after four weeks of play and became the starting jungler once again.<ref>[http://www.riftherald.com/2016/6/29/12058736/team-vitality-roster-lineup-mightybear-shook Vitality benches Mightybear, names Shook starting jungler] ''riftherald.com''</ref> After a tiebreaker against [[FC Schalke 04]], Vitality solidified seventh place and avoided playing in relegation series, although they also missed the playoffs.
+
+===2017 Season===
+Prior to the start of the competitive season, Vitality again overhauled its roster. First, Vitality hired on [[Steeelback]], the AD carry of [[Team ROCCAT]], to replace the departing Police.<ref>[https://dotesports.com/league-of-legends/steeelback-vitality-2017-3867 Steeelback joins Team Vitality for 2017 season] ''dotesports.com''</ref> Next, the team picked up [[Hachani]], the former support player of top-tier LCK team [[KT Rolster]], to replace kaSing.<ref>[http://www.espn.com/esports/story/_/id/18183335/2016-league-legends-team-vitality-drops-kasing-tries-hachani Team Vitality drops KaSing, tries out Hachani] ''espn.com''</ref> In the jungle, Vitality initially looked toward [[Afreeca Freecs]] jungler [[LirA]],<ref>[http://www.espn.com/esports/story/_/id/18188957/league-legends-team-vitality-signs-lira-offseason-roster-shuffle-sources-say Updated: Former Afreeca jungler LirA to join Team Vitality] ''espn.com''</ref> but the deal unexpectedly fell through, as LirA felt uncomfortable with the change. Vitality instead wound up signing [[GBM]], formerly of the NA LCS's [[NRG eSports]], as well as [[Djoko]] of the EU CS team [[Millenium]].<ref>[http://www.espn.com/esports/story/_/id/18311461/league-legends-roster-shuffle-gbm-signed-jungler-team-vitality Confirmed: GBM signed as jungler for Team Vitality] ''espn.com''</ref><ref>[http://wwg.com/esports/2017/01/06/team-vitality-announce-roster-djoko-to-start/ Team Vitality Announce Roster, Djoko to Start] ''wwg.com''</ref> Djoko earned the starting jungler spot while GBM became a substitute; [[Alderiate]] and [[AoD]] also signed with the team as substitutes. 
+
+====Spring Split ====
+With the reorganization of the EU LCS regular season format, Vitality was drafted into [[EU LCS/2017_Season/Spring_Season|Group B]] along with [[Origen]], [[H2k Gaming]], [[Splyce]], and [[Unicorns of Love]]. After opening the season with a paltry 1-3 record over three weeks, support player [[Hachani]] was benched.<ref name="hachanibenched">[http://www.team-vitality.fr/news/changes-our-league-legends-roster Changes to our League of Legends roster] ''team-vitality.fr''</ref> Three days later, [[GBM]] moved to the starting mid laner position, while [[Nukeduck]] took over the empty support role. Because continuous lack of success they kept shuffeling their roster around without significant improvement and ended far out of reach of playoff positions in 4th place of the group only beating Origen twice and last place of Group A [[Giants Gaming]].
+
+==== Summer Split ====
+For [[EU LCS/2017_Season/Summer_Season|Summer Split]] Vitality signed support [[VandeR]] and got picked into a nearly identical Group B with promoted [[Mysterious Monkeys]] instead of Origen. The roster change helped them improved their performance a  bit but they still only managed to place 4th in their group missing out on playoffs again and ending their season early.
+
+=== 2018 Season ===
+==== Spring Split ====
+Team Vitality rebuilt their new roster around toplaner Cabochard going into Season 8 and signed [[Gilius]] along rookies [[Jiizuké]], [[Minitroupax]], and [[Jactroll]] who had won the Spring Promotion with Giants. They had an excellent 7-1 start to the [[EU LCS/2018_Season/Spring_Season|Spring Split]] with their explosive and entertaining playstyle but as the other teams figured out how to slow them down they dropped down and finished the Regular Season in 4th place with a 10-8 record. They ended up in 4th place after playoffs as well after beating [[H2k Gaming]] 3-2 in quarterfinals and losing to Fnatic 1-3 semifinals and third-place match against Splyce 2-3 in close series.
+
+==== Summer Split ====
+Following a mediocre start to [[EU LCS/2018_Season/Summer_Season|Summer Split]] they signed [[Kikis]] after week 5 with a 5-5 record hoping that he could improve the roster. Because this roster change worked out and Vitality finished the Regular Season in 2nd place after winning tiebreaker games against [[FC Schalke 04]] and [[G2 Esports]] Gilius decided to step away from the team as they were performing better with Kikis. In semifinals they lost against a strong Schalke team but by beating [[Misfits (European Team)|Misfits]] 3-1 in third-place match they had earned the second most [[EU LCS/2018 Season/Championship Points|championship points]] to qualify for the [[2018 Season World Championship|World Championship]] as Europe's 2nd seed.
+
+==== 2018 World Championship ==== 
+At the [[2018 Season World Championship/Main Event|World Championship]] they were drawn into group B with LCK third seed [[Gen.G]], NA LCS third seed [[Cloud 9]] and LPL favorite [[Royal Never Give Up]]. After going 1-2 in week 1 they upset RNG in week 2 and ended the group with a 3-3 record which meant they exited Worlds early but earned lots of respect for showing the western regions that chinese and korean teams are not unbeatable. This wasn't really satisfying though as they unnecessarily lost both games against Cloud 9 while in the end one win would have been enough to reach quarterfinals.
+
+=== 2019 Season ===
+On November 20, Riot Games announced Team Vitality as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref>
+
+==== Spring Split ====
+For Season 9 Vitality signed promising jungler [[Mowgli]] from LCK team [[Afreeca Freecs]] and started off the Split strong yet again looking like a top 3 team before dropping off a bit and finished the Regular Season in 5th place at 10-8. In the quarterfinal series against Fnatic who got to choose which team they wanted to face they had some early leads but just as their opponents predicted they did not manage to snowball these and lost the series 0-3.
+
+==== Summer Split ====
+Vitality had a bad start in [[LEC/2019 Season/Summer Season|Summer Split]]. They lost all 4 games in the first two weeks getting heavily criticized by viewers before especially Attila turned up and carried the team for a few weeks. This did not hold on though and after losing their last 6 games of regular season they faced SK who were on an upswing in a tiebreaker for 6th place and therefore playoff participation. Going onto comfort picks they managed to beat SK and faced Schalke in Round 1 of playoffs. After game 1 went completely wrong from level 1 onwards they recovered for game 2 but ultimately lost the bloody series 1-3 and therefore their season ended early as they did not accumulate enough championship points to qualify for Regional Finals.
+
+=== 2020 Season ===
+Following this they had to find a replacement for Jiizuke who chose to go to NA. They also decided to sign [[Duke (Hadrien Forestier) | Duke]] from Splyce as new headcoach and picked up rookies [[Milica]] and [[Comp]] from ERL teams [[Vodafone Giants.Spain | Vodafone Giants]] and [[Team LDLC]] and [[Skeanz]] from their own academy team. Following this Attila left the organisation. Due to VISA issues for Milica to join the team in germany they decided to split scrim time with academy mid lander Saken once again which had a negative impact on their performance at the start of [[LEC/2020 Season/Spring Season|Spring Split]] where they started off 0-6. With playoffs starting to getting out of reach they first started to switch the roster up by promoting Steeelback from the academy team. As this did not bring the needed improvements and Milica being unable to travel due to the [[2019–20 Coronavirus Pandemic]] they decided to sign [[Selfie]] for the reminder of the split for Saken to continue developing in academy and managed to pick up a comeback victory against Fnatic on the last day which still saw them in 10th place with a 2-16 record.
+
+== Trivia ==
+* Vitality's 7-11 finish in [[LEC/2019 Season/Summer Season|LEC 2019 Summer]] is tied (with [[Rogue (European Team)|Rogue]] in the same split) for the fewest games won by a playoff team in an 18 game season.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+=== Active ===
+{{TeamMembersCurrent}}
+
+{{EUAcademyRosterNotice}}
+
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Neo|fr|Fabien Devide|'''Co-Owner & Chairman'''}}
+{{listplayersp|Nico|fr|Nicolas Maurer|'''Founder, Co-Owner, & Co-Chief Executive Officer'''}}
+{{listplayersp|HuskY|de|Danny Engels|'''Global Operations Corporative Director'''}}<!--Feb 2024-->
+{{listplayersp||fr|Amélie Canet|'''Strategy & Brand Development Director'''}}<!--Nov 2020-->
+{{listplayersp||fr|Céline Ferté|'''Legal Director'''}}<!--Aug 2020-->
+{{listplayersp||fr|Christophe Dureau|'''Head of Creation'''}}<!--Mar 2020-->
+{{listplayersp||fr|François-Xavier Roux|'''Head of Content & Activations'''}}<!--Sep 2019-->
+{{listplayersp||fr|Sang-Hi An|'''Head of Finance Operations'''}}<!--Jan 2021-->
+{{listplayersp|Jujubez||Austin Redfern|'''Head of Communication'''}}<!--Jul 2024-->
+{{listplayersp|Feiron|de|Till Werdermann|'''Head of Esports Operations'''}}<!--Oct 2025-->
+{{listplayersp||fr|Christina Fontes|'''Senior Production Manager'''}}<!--Jun 2021-->
+{{listplayersp||fr|Sarah Mitelette|'''PR & Corporate Communication Senior Manager'''}}<!--Oct 2022-->
+{{listplayersp||fr|Alison Heurtevent|'''Human Relations & Facilities Senior Manager'''}}<!--Sep 2022-->
+{{listplayersp|Fro|at|Johannes Jäger|'''Office & Administration Operations Specialist'''}}<!--Oct 2022-->
+{{listplayersp|ZakiOo|fr|Arnaud Doboeuf|'''Community Manager'''}}
+{{listplayersp|NephaleM|fr|Olivier Morizet|'''Esports Project Manager'''}}
+{{listplayer|Stuii|de|Alexander Spelda|'''League of Legends Head Manager'''}}
+{{listplayersp|Erikson||Erik Olbrich|'''Team Manager'''}}
+{{listplayer|Mac|uk|James MacCormack|'''Head of Coaching Development'''}}
+{{listplayer|Pad|dk|Patrick Suckow-Breum|'''Head Coach'''}}
+{{listplayer|Garih|es|Mauro Garih Vidal|'''Assistant Coach'''}}
+{{listplayer|Hansen|no|Bjørn-Vegar Hansen|'''Assistant Coach'''}}
+{{listplayer|Lukezy|hr|Luka Trumbić|'''Assistant Coach (Inactive)'''}}
+{{listplayer|Arvindir|de|Danusch Fischer|'''Strategic Coach'''}}
+{{listplayer|Milan (Jonas Morisot)|fr|Jonas Morisot|'''Analyst'''}}
+{{listplayer|Troubleinc|gr|Georgia Paras|'''Co-Streamer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Kaas|be|Christophe van Oudheusden|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Brausebaerle|de|Anne Banschbach|'''Director of Esports'''|newteam=retired|comment=BLAST}}<!--Nov 2021 - Aug 2025-->
+{{listplayersp||fr|Alexandre Carlier|'''Esport Activations Specialist & Influence Manager'''|newteam=retired|comment=Team Peps}}<!--Jul 2022 - Jul 2025-->
+{{listplayersp|Skyarin|be|Tobias Crokaert|'''Social Media Specialist'''|newteam=retired|comment=T22 Agency}}<!--Mar 2020 - Jan 2025-->
+{{listplayersp||fr|Thomas Zalay|'''Strategic Marketing Manager'''|newteam=retired|comment=Esports Virtual Arenas}}<!--Mar 2020 - Dec 2024-->
+{{listplayersp|Placido|fr|Marceau Lambert|'''Esports Manager'''|newteam=none}}<!--Oct 2024-->
+{{listplayer|Carter|gb|Alexander Cartwright|'''Head Coach'''|newteam=none}}
+{{listplayer|Vizicsacsi|hu|Tamás Kiss|'''Coach'''|newteam=BIG}}
+{{listplayersp||fr|Cyril Delon|'''Head of Communications'''|newteam=retired|comment=GOALS}}<!--Mar 2024-->
+{{listplayersp|Yellow|fr|Victor Buu|'''Videographer'''|newteam=none}}<!--Jan 2024-->
+{{listplayer|Hjarnan|se|Petter Freyschuss|'''Assistant Coach'''|newteam=KHK}}
+{{listplayer|Kayys|us|Jack Kayser|'''Analyst'''|newteam=none}}
+{{listplayersp|||Laura Weissgerber|'''Esport Operations Manager'''|newteam=retired|comment=Legends}}<!--Apr 2023-->
+{{listplayersp||fr|Félix Le Breton|'''Digital Revenue Manager'''|newteam=retired|comment=Lacoste}}<!--Apr 2023-->
+{{listplayer|Mephisto|fr|Louis-Victor Legendre|'''Coach'''|newteam=BDS}}
+{{listplayersp|Leggifant|de|Dennis Hennersdorf|'''Team Manager'''|newteam=Kaufland Hangry Knights}}
+{{listplayer|Ismind|co|Ismael Pedraza|'''Performance Manager'''|newteam=G2}}
+{{listplayersp|Saku|fi||'''Strategic Coach'''|newteam=none}}
+{{listplayer|Noodlez|it|Dimitri Zografos|'''Head Analyst'''|newteam=KOI (Spanish Team)}}
+{{listplayer|Spale|rs|Đorđe Spasić|'''Assistant Coach'''|newteam=VIT.B}}
+{{listplayer|Simon (Simão Oliveira)|pt|Simão Oliveira|'''Assistant Coach'''|newteam=BIG}}
+{{listplayer|Dioud|fr|Hugo Padioleau|'''Ambassador'''|newteam=Caster}}
+{{listplayer|Tasz|pl|Mateusz Borkowski|'''Head Coach'''|newteam=RBLS}}
+{{listplayer|Realistik|ro|Andrei Ruse|'''Strategic Coach'''|newteam=VIT.B}}
+{{listplayer|R4VEN|pl|Miłosz Domagalski|'''Positional Coach'''|newteam=Case Esports}}
+{{listplayer|Duke (Hadrien Forestier)|fr|Hadrien Forestier|'''Head Coach'''|newteam=Team GO}}
+{{listplayersp||fr|Julien Dupont|'''Head of Partnerships'''|newteam=Fnatic}}
+{{listplayersp|The Minimalist|hu|Gábor Fenyvesi|'''Team Director'''|newteam=Retired|comment=BBQ Baumann Bildung & Qualifizierung}}
+{{listplayersp||fr|Nathalie Cluzel|'''Human Resources Director'''|newteam=Retired|comment=Netino by Webhelp}}
+{{listplayersp||fr|Simon Bandiera|'''Partnership Assistant'''|newteam=Retired|comment=OneSide}}
+{{listplayersp|Shanky|fr|Rayane Kheroua|'''Talent Development Manager'''|newteam=Karmine Corp}}
+{{listplayersp|Howins|fr|Tom Boscher|'''IT Manager'''|newteam=Retired|comment=Kompozite}}
+{{listplayer|Boris|be|Mitch Voorspoels|'''Team Director'''|newteam=No Need Orga}}
+{{listplayersp||ru|Alena Iampolskaia|'''Key Account Manager & Events'''|newteam=Retired|comment=Paris Wine Society}}
+{{listplayersp||rs|Jelena Markovic|'''Product Development Consultant'''|newteam=XL}}
+{{listplayer|Tom (Thomas Diakun)|uk|Thomas Diakun|'''Analyst'''|newteam=SK}}
+{{listplayersp||fr|Théo Cesarini|'''Merchandising Assistant'''|newteam=Retired|comment=Prodigy Agency}}
+{{listplayer|YamatoCannon|se|Jakob Mebdi|'''Head Coach'''|newteam=SANDBOX Gaming}}
+{{listplayersp|dannerlame||Dan Ham|'''Head Analyst'''|newteam=Retired|comment=Blizzard Entertainment}}
+{{listplayersp|Jéjé|fr|Jérémy Peilleron|'''Production Director'''|newteam=none}}
+{{listplayersp|LeLfe|fr|Clément Laparra|'''Head of Scouting'''|newteam=Retired|comment=Gozulting}}
+{{listplayersp|Shoukei|fr|Dylan P.|'''Graphic Designer'''|newteam=none}}
+{{listplayersp|Garki|de|Michael Bolze|'''Team Manager'''|newteam=Fnatic}}
+{{listplayer|Shaunz|fr|Kévin Ghanbarzadeh|'''Head of Esports'''|newteam=Retired|comment=Orange}}
+{{listplayersp|Vae|fr|Romain Chanu|'''Analyst'''|newteam=NiP}}
+{{listplayersp|The Minimalist|hu|Gábor Fenyvesi|'''Team Manager'''|newteam=Red Bulls}}
+{{listplayer|Irean|kr|Heo Yeong-cheol (허영철)|'''Head Coach'''|newteam=DS Gaming}}
+{{listplayer|Hachani|kr|Ha Seung-chan (하승찬)|'''Analyst & Assistant Coach'''|newteam=Team Vitality|comment=Support}}
+{{listplayersp|Heartlock|us|Dylan Laasme|'''Analyst'''|newteam=Nova eSports (North American Team)}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Team Vitality logo (xxx - Oct 2018).png|Previous Logo<br>(- Oct 2018)
+Team Vitality 2017 Logo.png|2017 Logo
+Team Vitality Old Logo.png|Previous Logo
+Team Vitality logo (Oct 2018 - Feb 2023).png|Previous Logo<br>(Oct 2018 - Feb 2023)
+</gallery>
+
+===Rosters===
+<gallery>
+VIT 2016Spring.jpg|Team Vitality 2016 LCS Spring Roster
+Vit summer2016.jpg|Team Vitality 2016 LCS Summer Roster
+VIT 2017 Spring.png|Team Vitality 2017 LCS Spring Roster with Hachani
+VIT 2017 Spring 2.png|Team Vitality 2017 LCS Spring Roster with GBM as starting mid laner and Nukeduck as support
+VIT 2017 Spring 3.png|Team Vitality 2017 LCS Spring Roster with AoD
+Team Vitality Roster 2018 Spring.png|Team Vitality's LEC 2018 Spring Roster
+VIT 2019 Spring.png|Team Vitality's 2019 LEC Spring Roster
+VIT 2021 Spring.png|Team Vitality's 2021 LEC Spring Roster
+VIT 2022 Spring.jpg|Team Vitality's 2022 LEC Spring Roster
+Team Vitality 2025 Winter.jpeg|Team Vitality's 2022 LEC Winter
+</gallery>
+
+==References==
+<references />

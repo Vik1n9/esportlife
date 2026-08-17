@@ -1,0 +1,106 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Arrow&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.405Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Arrow」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Arrow
+|name=Noh Dong-hyeon
+|nativename=노동현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=July
+|birth_date_day=20
+|favchamp=Draven
+|favchamp2=Vayne
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' arrowioi <br> 애니킹#애로우<br>'''NA:''' The Cones <br> DA GIP <br> '''EUW:''' MIR IS MY DAD <br> DRAATATATA
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/arrowlol
+|twitter=ArrowDongTak
+|instagram=ddongtak
+|youtube=https://www.youtube.com/channel/UClQdZ8-7PksFCqrSgsPfyQA
+|deeplol=https://www.deeplol.gg/pro/Arrow
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Coach
+|namelanguage=Korean
+}}
+==Biography==
+Noh "'''Arrow'''" Dong-hyeon is an AD carry player. Known for his incredible mechanics, he is one of the few Korean AD carries to have played Draven in competitive play and also have Draven banned against him.
+
+===Season 3===
+Arrow joined [[Xenics Storm]] on June 3, 2013 as their new AD carry. He participated in his first OGN at [[HOT6iX Champions Summer 2013]] where he didn't make it past the group stage. 
+
+===2014 Season===
+Arrow then went to [[PANDORA.TV Champions Winter 2013-2014]] and fared much better, placing 5th-8th after losing 3-1 to [[NaJin White Shield]]. On February 3, 2014, Arrow left Xenics Storm and joined the [[KT Rolster Arrows]] a few days later. His inaugural OGN with the Arrows was [[HOT6iX Champions Spring 2014]]. The Arrows upset [[SK Telecom T1 K]] in the groups but fell 3-1 to [[CJ Entus Blaze]] in the quarterfinals. The Arrows then attended [[HOT6iX Champions Summer 2014]] where Arrow got his first OGN victory when the Arrows made it to the finals and upset [[Samsung Blue]] 3-2. The win clinched them the 4th seed for the [[2014 Season Korea Regional Finals]]. Unfortunately, they lost 3-0 to NaJin White Shield and barely missed worlds.
+
+===2015 Season===
+The Arrows merged with their sister team, the [[KT Rolster Bullets]], to form KT Rolster. Arrow was chosen to take the starting spot for AD and Bullets' AD, [[Score]], was moved to jungle. KT participated in [[SBENU Champions Spring 2015]] and placed fifth, narrowly missing playoffs. KT placed second overall during the regular season of [[SBENU Champions Summer 2015]]. They made it to the finals of the playoffs but lost 3-0 to [[SK Telecom T1]]. KT earned enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] where they beat the [[Jin Air Green Wings]] 3-1 in the finals to qualify for the [[2015 Season World Championship]]. KT was drawn into a group with [[LGD Gaming]], [[Team SoloMid]], and [[Origen]]. They ended with a 5-1 record and went on to play the [[KOO Tigers]] in the quarterfinals. Unfortunately, they lost 3-1 and were knocked out of the tournament. 
+
+===2016 Preseason===
+KT played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the semifinals to [[CJ Entus]].
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|Spring Split]] of LCK, KT Rolster placed second in the regular season, earning them a bye into the semi-finals of the [[LCK/2016 Season/Spring Playoffs|playoffs]]. However, they lost 3-0 to [[SK Telecom T1]], who would go on to win the season. This earned them third place in the spring split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], KT Rolster claimed third place in the regular season with a 13-5 series record, losing to [[SK Telecom T1]] based on game score. This seeded them into the 2nd round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], where they met [[Samsung Galaxy]]. KT had yet to drop a game to Samsung since the start of Season 5's LCK era, and this trend continued as they swept them 3-0. In the semifinals, they met [[SK Telecom T1]] in the Telecom Wars, and this time they managed to reverse sweep them 3-2 to move onto the finals. In an epic set against the [[ROX Tigers]], KT Rolster barely lost 3-2, losing out on Korea's first seed at Worlds, but giving them the highest seed for the [[Korea Regional Finals 2016]]. In a rematch against [[Samsung Galaxy]] where KT were heavily favored to make it out, Samsung managed to break a 19 game losing streak against KT to win the set 3-2 and take Korea's third seed, ending KT Rolster's season early. Arrow left KT Rolster in November and in December he would join North America's [[Phoenix1]].
+
+===2017 Season===
+
+P1 finished 3rd in the regular season of [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring]] with an 11-7 record. Arrow was very consistent throughout the regular season and won the Spring Split MVP award. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] P1 was knocked out in the Semifinals but managed to win the third place match 3-2 against [[FlyQuest]]. Their [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] was much worse as they finished 10th place with a 4-14 record.  Although they retained their LCS spot in the Promotion Tournament with a 3-0 victory over [[eUnited]], P1 was not accepted in the newly franchised NA LCS for 2018. 
+
+===2018 Season===
+Arrow left the team in November of 2017 and joined the newly formed [[OpTic Gaming]] in December. OpTic was predicted to be a bottom tier team, and their [[League_Championship_Series/North_America/2018_Season/Spring_Season|spring split]] performance did little to belie that, as the team never seriously contended for a playoff spot or finished a week above a tie for seventh. The team ended up finishing 5-13, in 9th place. 
+
+Arrow remained with OpTic for the [[NA LCS/2018 Season/Summer Season|summer season]]. It began disappointingly for OpTic, with the team only managed a 2-6 record over the first four weeks, which left them tied for last place. However, they completely reversed that total by going on a four-game winning streak to reach an even win/loss record and maintained that pace over the final three weeks of the season, ending up with a 9-9 record. Unfortunately, four other teams posted 10-8 records, so OpTic was left in seventh place, missing out on playoffs once again.
+
+===2019 Season===
+Arrow remained with OpTic for 2019. However, he was unable to play for the first week of the [[LCS/2019 Season/Spring Season|spring split]] due to visa issues. Using academy bot laner [[Asta (Toàn Trần)|Asta]], OpTic managed to push through a 2-2 record through the first two weeks. Arrow was cleared to play starting in Week 3, but the team immediately nosedived with four straight losses. Although they did recover and remained in the playoff picture until the final day of Week 9, OpTic never seriously challenged the top of the league and ended up in eighth with a 7-11 record. 
+
+OpTic made no roster changes during the midseason break and came out of the gate hot in the summer split, posting a 4-0 record over the first two weeks, albeit against weak opponents. Losses against frontrunners [[Team Liquid]] and [[Cloud9]] in Week 3 brought OpTic back to earth, and they slowly drifted lower and lower in the standings, only managing four additional wins over the rest of the split. However, unlike the previous summer, OpTic's 8-10 record was good enough to force a three-way tiebreaker for the final playoff spot with [[Golden Guardians]] and [[100 Thieves]]. OpTic rose to the challenge, beating both teams, and securing their first playoff spot as a franchise. OpTic's best season came to an end quickly after that as they were dispatched 3-0 by CLG in the playoff quarterfinals, ending up without enough championship points to play in the Regional Finals.
+
+In the offseason, OpTic rebranded to [[Immortals]]. Arrow remained listed on the GCD as a substitute for the new team through the rebrand but was not announced as a member of either their LCS or academy rosters for 2020. He eventually left the team in February 2020.
+
+== Trivia ==
+* His ID '''Arrow''' was recommended by team coach CiMa~RedDoG.
+* Got an unconventional haircut during the 2015 World Championship, as the right side of his hair showed the letters "KT".
+* Played the character "Bap" in the 2022 LCS mockumentary ''Players''.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

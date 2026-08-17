@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Maxlore&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Maxlore」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Maxlore
+|name=Nubar Sarafian
+|checkboxAutoImage=Yes
+|country=United Kingdom
+|nationality=United Kingdom,Armenia
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=July
+|birth_date_day=01
+|favchamp=Lee Sin
+|favchamp2=Nidalee
+|favchamp3=Rengar
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Maxlore, Moot Ishkhan
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/maxlore
+|facebook=https://www.facebook.com/Maxlorelol
+|twitter=Maxlorelol
+|instagram=maxlorelol
+|youtube=https://youtube.com/channel/UC5LUQH1rOeJmxXH612JOf6A
+|weibo=https://www.weibo.com/maxlorelol/
+|lolpros=https://lolpros.gg/player/maxlore
+|deeplol=https://www.deeplol.gg/pro/Maxlore
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Enjoys reading manga and watching anime.
+* Enjoys playing the piano.
+
+=== Individual Awards ===
+* 1x EU 3rd All Pro Team (Summer 2018)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

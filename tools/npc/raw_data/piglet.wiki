@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Piglet&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Piglet」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Piglet
+|name=Chae Gwang-jin
+|nativename=채광진
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=February
+|birth_date_day=04
+|favchamp=Ezreal
+|favchamp2=Corki
+|favchamp3=Caitlyn
+|favchamp4=Vayne
+|checkbox1=No
+|checkboxComp=No
+|ids=SKT T1 Piglet, Creative Self, Maniaque, Crs Piglet (NA), 1k2o1ko12ko12ko1 (NA), Liquid Piglet (NA), Icarrynp (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/rhkdwls0147
+|facebook=https://www.facebook.com/Pigletlol
+|twitter=FreePiglet_
+|instagram=pigggy._____
+|reddit=Pigletlol
+|youtube=https://www.youtube.com/channel/UC4DYOzgt8Emr-KNmGUH6z5A
+|deeplol=https://www.deeplol.gg/pro/Piglet
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He's best known for winning the [[Season 3 World Championship]] as a member of [[SK Telecom T1]]. After leaving SKT following the 2014 season, he also played in North America from 2015-2019, mostly for [[Team Liquid]].
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+==Biography==
+===Season 3===
+Chae "'''Piglet'''" Gwang-jin first joined [[SK Telecom T1 K|SK Telecom T1 #2]] in February 2013 as a rookie player from soloqueue. He was part of a team built around [[Faker]], with [[Impact]], [[bengi]], and [[PoohManDu]] rounding out the roster. The team's first tournament together was [[OLYMPUS Champions Spring 2013]] where the team found immediate success. They placed third after losing 3-1 to [[MVP Ozone]] but they beat [[CJ Entus Frost]] 3-0 in the third place match. SKT1 2's sister team, [[SK Telecom T1 1]] was dropped from the organization so Impact's team was renamed to just '''SK Telecom T1'''. Next, they attended [[HOT6iX Champions Summer 2013]], this time managing to qualify for the finals. They were pitted against the [[KT Rolster Bullets]] and even went down 2-0 initially in the set but they managed to bring it back and win the tournament with a 3-2 victory. This win earned them enough circuit points to qualify for the [[Season 3 Korea Regional Finals]]. They were automatically seeded into the finals where they faced the Bullets once again, this time taking them down 3-1 to qualify for the [[Season 3 World Championship]] as the third seed from Korea. SKT went 7-1 in their group, only dropping a game to [[OMG]] and was put against the [[Gamania Bears]] in the quarterfinals. They quickly dispatched the bears 2-0 and then went onto play a close set against NaJin Black Sword that they eventually won 3-2. The finals saw SKT playing against the Chinese [[Royal Club]]. Royal was no match for SKT and the set ended with a quick 3-0 and the crowning of SK Telecom as the Season 3 World Champions. A month later, the team was renamed to '''SK Telecom T1 K'''. Piglet also received the Best AD Carry title at the 2013 Korea e-Sports Awards.<ref>[http://www.inven.co.kr/webzine/news/?news=103849 Result of 2013 Korean e-Sports Awards]''inven.com.kr''</ref> Piglet became known for being a very proud player, and rivalries formed between himself and both [[imp]] and [[Deft]], the AD carries from the [[Samsung]] teams.
+
+===2014 Season===
+SK Telecom continued their streak of domination at [[PANDORA.TV Champions Winter 2013-2014]]. In an unprecedented show of strength, SKT managed to sweep the entirety of the tournament, culminating in a 3-0 victory over [[Samsung Galaxy Ozone]]. This is widely considered to be the most impressive feat achieved by any team as OGN is thought to have the highest level of competition in League of Legends. However, [[HOT6iX Champions Spring 2014]] began the steady decline of SKT K as a team. They were upset in the group stages by the [[KT Rolster Arrows]] and barely scraped through to playoffs. They then met Samsung Ozone in the quarterfinals and were swiftly beaten 3-1. Due to having the most circuit points in Korea, they were invited to participate in [[All-Star Paris 2014]]. After winning 6 games in a row, they 3-0'd OMG to take the tournament without dropping a game. They came back to Korea for [[HOT6iX Champions Summer 2014]] but fell in the quarterfinals again with a 3-1 loss to Samsung White. SKT was forced to play a tiebreaker against Samsung White to determine who would go to the [[2014 Season World Championship]] as the second seed from Korea. White was too strong for SKT, quickly sweeping them 3-0. SKT was knocked into the finals of the gauntlet where they faced a red hot [[NaJin White Shield]] that took out the former World Champions 3-1.
+
+In September 2014, both Piglet and PoohManDu were released from the [[SK Telecom]] organization. Shortly after, Piglet received an offer to join [[Team Curse]], which he accepted. He remained with the team through their transition to [[Team Liquid]].
+
+===2015 Season===
+Due to visa issues, Piglet was unable to play in the first week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|NA LCS 2015 Spring Split]], and so [[Keith]] was used as a substitute. However, the team went 2-0 with Keith and then a combined 2-4 in weeks 2, 3, and 4, and going into the fifth week Piglet was moved to be the substitute AD carry, while Keith became the team's starter. Piglet returned to the starting roster for week 7 and stayed with the team for the rest of the split.<ref name="piglet7">[http://www.teamliquidpro.com/news/2015/03/04/lcs-news-piglet-moved-to-starting-roster-for-week-7 LCS News: Piglet moved to starting roster for Week 7] ''teamliquidpro.com''</ref> The team ended with a 9-9 record and qualified for the [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|NA LCS Spring Playoffs]] with the sixth seed after defeating [[Team 8]] in a tiebreaker game. In the playoffs, Liquid beat [[Counter Logic Gaming]] 3-0 in the quarterfinals before falling to [[Cloud9]] 3-2 in the semifinals; in the third-place match, Liquid finally broke the "fourth-place curse" that stopped them from placing higher than fourth place in any event that had persisted since they were Team Curse and took down [[Team Impulse]] 3-2.
+
+Team Liquid stuck with the same five-man roster with Piglet as the starting AD carry for the entirety of the [[Riot League Championship Series/North America/2015 Season/Summer Season|NA LCS 2015 Summer Split]], and they finished the round robin in first place after winning a tiebreaker match over Counter Logic Gaming - [[LCS Teams Timeline|the first team]] other than [[Team SoloMid]] or Cloud9 to place first in an NA LCS round robin. However, in the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|NA LCS Summer Playoffs]], they lost immediately in the semifinals to TSM, making them also the first team to finish first in an NA LCS round robin but not make the playoff finals. A CLG victory over TSM in the playoff finals sent Team Liquid to the [[2015 Season North America Regional Finals]] instead of giving them a direct seed to [[2015 Season World Championship|Worlds]] via [[2015 Season/Championship Points|Championship Points]], and in the gauntlet they lost to underdogs Cloud9, ending their post-season abruptly.
+=== 2016 Season ===
+Despite a rumor that Piglet was to leave Team Liquid in the preseason, he remained with the organization, and it was his support [[Xpecial]] who departed instead.<ref>[http://www.dailydot.com/esports/piglet-leaves-team-liquid/ Piglet and Team Liquid part ways] ''dailydot.com''</ref><ref name="pigletcontract">[http://twitter.com/TeamLiquidLoL/status/648579761195864064 Team Liquid's Tweet] ''twitter.com''</ref> Xpecial was replaced first by [[Smoothie]] and later by [[Matt (Matthew Elento)|Matt]] [[League Championship Series/North America/2016 Season/Spring Season/Team Rosters|partway through]] the [[League Championship Series/North America/2016 Season/Spring Season|LCS spring split]]. 
+
+Team Liquid finished fourth in the regular season, going on to defeat [[NRG Esports]] in the [[League Championship Series/North America/2016 Season/Spring Playoffs|quarterfinals]] before losing a narrow five-game series to CLG (the eventual champions). In the fifth game, Piglet was caught out in mid lane by a double-teleport from both [[Darshan]] and [[Huhi]] at the same time to the same ward and died. While Liquid were already behind in that game, it was this play that sealed the win for their opponents. In the third-place series against the tournament-favorite [[Immortals]] who had been knocked down in an upset by TSM, Liquid lost once again, this time 0-3, to finish the playoffs in fourth place overall, continuing the team's "fourth-place curse."
+
+Piglet started the [[NA_LCS/2016_Season/Summer_Season|summer season]] with Team Liquid, but after a 1-3 start to the split, he was demoted to [[Team Liquid Academy]] and played the rest of the year for the challenger series team.  TLA had a strong [[NA_Challenger_Series/2016_Season/Summer_Season|summer split]], finishing second, a single game behind [[Cloud9 Challenger]]. In [[NA_Challenger_Series/2016_Season/Summer_Playoffs|the playoffs]], they swept [[Nova eSports (North American Team)|Nova eSports]] in the semifinals, but lost in the finals to Cloud9 Challenger in five games, after controversially being denied a remake when Piglet mistakenly locked in {{ci|Rammus}} in game five. They still qualified for the [[NA_LCS/2017_Season/Spring_Promotion|promotion tournament]], but lost another five-game series to [[Echo Fox]] in the elimination round, sending the team back to challenger.
+
+=== 2017 Season ===
+With the disbanding of Team Liquid Academy, Piglet returned to Team Liquid's starting roster for 2017. Although there was a lot of hype surrounding the team due to their acquisition of [[Reignover]], the [[NA_LCS/2017_Season/Spring_Season|spring split]] started slow for Liquid and didn't pick up afterward, and they ended Week 5 in a tie for last place. In response, the team announced that mid laner [[Goldenglue]] would take a leave of absence from the team and would be replaced by none other than Piglet himself, who would role swap to mid. Liquid did play a little bit better after this unorthodox move was made but still ended up finishing ninth, sending them to the [[NA_LCS/2017_Season/Summer_Promotion|promotion tournament]]. Although neither series was clean, Liquid defeated challenger teams [[EUnited]] and [[Gold Coin United]] in the promotion tournament and retained their LCS spot. 
+
+Piglet swapped back to bot lane to start the [[NA_LCS/2017_Season/Summer_Season|summer season]], but Liquid's spring slide only continued in summer, as they immediately fell into last and only finished a single week above ninth place. Piglet played every game as Liquid tinkered with the rest of their roster, but no combination found success, forcing them once again to play in the [[NA_LCS/2018_Season/Spring_Promotion|promotion tournament]]. However, they requalified for the LCS with relative ease, sweeping [[EUnited]] and beating LCS team [[Phoenix1]] 3-2. 
+
+=== 2018 Season ===
+For 2018, Piglet left Team Liquid after three seasons but remained in North America, joining the newly formed [[Clutch Gaming Academy]]. However, Piglet didn't appear in a game for the team until Week 5 of the [[NA_Academy_League/2018_Season/Spring_Season|spring academy season]], and the team only went 4-6 with him in the lineup, falling short of the academy playoffs. 
+
+Piglet stayed with Clutch Gaming Academy for the [[NA Academy League/2018 Season/Summer Season|summer split]]. The team started 0-4 but improved later on, ending up 10-8 and in fourth place. Piglet also played two games for [[Clutch Gaming|the LCS team]] in Week 6 of the [[NA_LCS/2018_Season/Summer_Season|summer season]] but both were losses. 
+
+Clutch Gaming Academy also played in the [[NA Academy League/2018 Season/Summer Playoffs|academy playoffs]], where they were matched up against [[FlyQuest Academy]]. CG.A took the series to all five games but eventually fell, ending their season.
+
+On November 7th, 2018, Piglet became a North American resident.
+
+=== 2019 Season ===
+For 2019, Piglet was promoted to the main Clutch Gaming roster, along with his academy support [[Vulcan (Philippe Laflamme)|Vulcan]]. Clutch Gaming started the [[LCS/2019_Season/Spring_Season|spring split]] hot, with a 2-0 first week, but collapsed after that and didn't win another game until Week 5. In Week 9, Piglet again changed positions and played mid lane for the final two games while [[Cody Sun]] played bot, but both games ended in losses, leaving Clutch with a 5-13 record and in ninth place. He left the team in June. 
+
+== Trivia ==
+* Prior to the [[HOT6iX Champions Summer 2013]] finals he had a 26-2 record on female champions in professional play, while only a 4-7 record on male champions. He still maintains a higher winning record on female champions compared to male champions. <ref>[http://www.teamliquid.net/forum/viewmessage.php?topic_id=427484 <nowiki>[OGN Summer] The Finals: SKT T1 vs. KT Bullets</nowiki>] ''teamliquid.net''</ref>
+* Known for his micro while playing {{ci|Vayne}}.
+* Almost left SKT T1 because his coach [[kkOma]] scolded him so much
+* Considered Pray as the best AD carry player as of September 2013 while he uses Cleanse because he was inspired by Cpt. Jack's incredible performances with it
+* Says his first happiest moment of his life is when he joined SKT T1, his second happiest moment of his life was when SKT T1 won OGN Summer 2013.
+* On SK Telecom T1 K, would wear Winnie the Pooh socks on game days because they help him win (due to his partnership with retired player [[PoohManDu]])
+* Sleeps for 4 - 5 hours a day and practices 15 - 16 hours a day earning himself the nickname of "Practice Worm"
+* Clashed with his family a lot before/and the starting point of his pro gaming career and eventually lied to his parents that he quit and would sneak out and practice at PC bangs(rooms/ PC Cafe) 
+* Known for his conservative playstyle and excellent positioning.
+* Didn't use masteries in his first game with [[Team Liquid]] in the NA LCS.<ref>[http://www.reddit.com/r/leagueoflegends/comments/2udg11/piglet_not_using_masteries_in_c9_vs_tl/ Piglet not using Masteries in C9 vs. TL?] ''reddit.com''</ref>
+* Acquired somewhat of a bad reputation during his time in North America, due to his relative lack of success compared to his high profile as a former World Champion.  
+* At the start of his pro gaming career, he played ''StarCraft: Brood War'' as a semipro Zerg player under the ID of Technick as part of the NEO.G clan and still occasionally streams ''Brood War''.
+* Has a twin sister who works as a hair stylist in South Korea.
+* Played bot lane {{ci|Irelia}} in three of the five wins he got in the [[LCS/2019_Season/Spring_Season|LCS 2019 Spring]] with [[Clutch Gaming]], despite being the only player picking it for that position at the time.  
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

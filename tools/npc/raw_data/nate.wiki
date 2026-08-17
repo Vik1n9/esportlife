@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nate&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.042Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nate」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Nate
+|name=Damián Rea
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Brazil
+|birth_date_year=1999
+|birth_date_month=March
+|birth_date_day=30
+|favchamp=Wukong
+|favchamp2=Camille
+|favchamp3=Annie
+|favchamp4=Gangplank
+|checkbox1=No
+|compID1=NateRUU
+|checkboxComp=No
+|ids='''LAS''': Nate#ruu <br> '''BR''': Ruu
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/nateruu
+|facebook=https://www.facebook.com/NateRüü-373363429434884
+|twitter=NateXdDe
+|instagram=natelul
+|youtube=https://www.youtube.com/channel/UCls2WNY5PG4x5LbZr6gjg5A
+|tiktok=nateruu1
+|lolpros=https://br.lolpros.gg/player/nate
+|deeplol=https://www.deeplol.gg/pro/Nate
+|kick=nateruu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+}}
+==Biography==
+Damián Rea is from Argentina.
+
+== Trivia ==
+* His favorite champions are {{ci|Camille}} and {{ci|Wukong}}. Was a Wukong one-trick-pony in his first years playing the game.
+* He likes anime a lot.
+* He really loves [[Remilia]]. He also is a fan of [[Smeb]].
+* Is a very confident player.
+* Considers himself "the best soloqueue player in LAS."
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

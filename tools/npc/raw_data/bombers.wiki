@@ -1,0 +1,63 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bombers&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.841Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bombers」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=y
+|name= Bombers
+|orgcountry= Australia
+|country=
+|region= OCE
+|image= Bomberslogo_square.png
+|sponsor= 
+<!-- Staff -->
+|owner= 
+|headcoach= 
+<!-- Social Media -->
+|website= https://www.bombers.gg
+|youtube= 
+|facebook= https://www.facebook.com/bombersgaming
+|twitter= bombers
+|discord= 
+|snapchat= 
+|instagram=bombersgaming
+<!-- History -->
+|created= Football Club 1871 <br> LoL Division 2017-12-14
+|disbanded= LoL Division 2019-12-01
+}}{{TOCRWI}}
+
+'''Bombers''' is an Australian team named after its owners, the Australian Football League's Essendon Football Club (nicknamed the Bombers).
+
+== History ==
+The '''Bombers''' were announced on December 14, 2017 when Essendon became the second AFL team to enter ''League of Legends'' after their acquisition of OPL team [[Abyss Esports]]. However, unlike with Adelaide after they acquired [[Legacy Esports]] in May 2017, Abyss updated their branding alongside the acquisition.<ref>[http://www.theage.com.au/afl/afl-news/essendon-bombers-buy-australian-esports-team-abyss-20171207-h00vmw.html  Essendon Bombers buy Australian esports team Abyss] ''theage.com.au''</ref> The club also announced plans to relocate the team from Sydney, where the OPL is played, to Melbourne, where the club is based in Tullamarine.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Euphoria|au|Nathan Mathews-Mallia|'''Head of Esports'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|SoulStrikes|kr|Luchio Park (박희근)|'''Head Coach'''|newteam=AK}}
+{{listplayer|Westonway|uk|Scott Farmer|'''Head Coach'''|newteam=XL}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+==External Links==
+* [https://en.wikipedia.org/wiki/Essendon_Bombers Essendon Football Club on Wikipedia]
+==References==
+<references />

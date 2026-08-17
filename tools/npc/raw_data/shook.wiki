@@ -1,0 +1,183 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shook&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.917Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shook」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Shook
+|name=Ilyas Hartsema
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Netherlands
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1994
+|birth_date_month=November
+|birth_date_day=05
+|favchamp=Lee Sin
+|checkbox1=No
+|compID1=enVision
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|checkboxIsSub=No
+|teamhist1=IWantCookie
+|teamdate1=Sep 2012 - Nov 2012
+|teamrole1=Jungle
+|issub1=No
+|istrainee1=No
+|teamhist2=DragonBorns
+|teamdate2=Nov 2012 - Dec 2012
+|teamrole2=Jungle
+|issub2=No
+|istrainee2=No
+|teamhist3=mousesports
+|teamdate3=Dec 2012 - Jan 2013
+|teamrole3=Jungle
+|issub3=No
+|istrainee3=No
+|teamhist4=PrideFC
+|teamdate4=May 2013 - Jun 2013
+|teamrole4=Jungle
+|issub4=No
+|istrainee4=No
+|teamhist5=Copenhagen Wolves
+|teamdate5=Jun 2013 - Oct 2013
+|teamrole5=Jungle
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|teamhist6=Alliance
+|teamdate6=Dec 2013 - Jan 2015
+|teamrole6=Jungle
+|issub6=No
+|istrainee6=No
+|teamhist7=Elements
+|teamdate7=Jan 2015 - May 2015
+|teamrole7=Jungle
+|issub7=No
+|istrainee7=No
+|teamhist8=Copenhagen Wolves
+|teamdate8=Jun 2015 - Jul 2015
+|teamrole8=Jungle
+|issub8=No
+|istrainee8=No
+|teamhist9=E-corp Gaming
+|teamdate9=Nov 2015 - Dec 2015
+|teamrole9=Jungle
+|issub9=No
+|istrainee9=No
+|teamhist10=Team Vitality
+|teamdate10=Dec 2015 - Jan 2017
+|teamrole10=Jungle
+|issub10=No
+|istrainee10=No
+|teamhist11=Ninjas in Pyjamas
+|teamdate11=May 2017 - Oct 2017
+|teamrole11=Jungle
+|issub11=No
+|istrainee11=No
+|teamhist12=H2k-Gaming
+|teamdate12=Feb 2018 - Nov 2018
+|teamrole12=Jungle
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/shooklol
+|facebook=https://www.facebook.com/Shook.LoL
+|snapchat=Shooklol
+|lolpros=https://lolpros.gg/player/shook/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''enVision'''.
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 2===
+Shook's first team was [[IWantCookie]], which he joined towards the end of the season. The team competed in the [[Tales of the Lane]], after [[Millenium]] were unable to compete. Shook and the team placed joint last, but were able to beat an extremely strong [[Moscow Five]] team in the group stage.
+
+Shortly after this, the team's roster was acquired by [[DragonBorns]]. Two weeks later, Shook left the team along with [[YoungBuck]] in order to join [[mousesports]]. At this point, Shook began using the alias '''enVision'''.
+
+===Season 3===
+On January 21, 2013, all of his accounts were banned from League of Legends, due to toxic behavior. He was subsequently suspended from the [[Riot Season 3 Championship Series/Europe/Qualifiers/Main Event|Riot Season 3 EU Live Qualifier]] as well as from the [[Riot League Championship Series/Europe/Season 3|Season 3 EU LCS]] for one year.<ref>[http://euw.leagueoflegends.com/board/showthread.php?p=10143140#10143140 eSports Competition Rulings: Suspensions of mouz enVision and aAa linak] ''euw.leagueoflegends.com''</ref> Due to this ban, Shook left the team and returned to using his original name.
+
+Unable to join a top-tier LCS team, Shook joined [[PrideFC]] along with [[Rekkles]], who was unable to play in the LCS due to his age. After a month, Shook joined [[Copenhagen Wolves]] along with the rest of the PrideFC roster, apart from Rekkles, who officially returned to [[Fnatic]] but played as a stand-in alongside Shook with CW.
+
+Shook and the team competed in [[DreamHack Summer 2013]], taking first place in their maiden tournament with a 2-1 victory over [[Dark Passage]]. In July, the Copenhagen Wolves took first place at [[Gfinity London 2013]], defeating [[Eternity Gaming]] 2-0. After failing to qualify for the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Promotion|Season 4 Spring Promotion Tournament]] via the [[Riot_League_Championship_Series/Europe/Season_3/Tenerife|Season 4 LCS Spring Promotion Qualifier]], they secured their place in the Promotion Tournament after taking 1st place at the [[Gamescom 2013/Spring Promotion Qualifier|Gamescom Qualifier]]. The team then secured 2nd place at [[DreamHack Bucharest 2013|DreamHack Bucharest]], before Shook left the team, just a month later.
+
+On November 7, 2013, Shook's LCS ban was officially lifted.<ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=42838999#42838999 eSports Competition Rulings: Suspensions of Linak and Rayt3ch] ''forums.na.leagueoflegends.com''</ref>
+
+Shook then went on to join the newly formed [[Alliance]], where he would get his first chance to play in the LCS.
+
+=== 2014 Season ===
+The start of the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Season 4 Spring Split]] was disappointing for the team, as they found themselves consistently ranked in the bottom 3 teams until the 8th week. From here onwards, Alliance managed to dominate the split. The team's overall improved performances, along with a number of successful {{ci|Lee Sin}} and {{ci|Evelynn}} games for Shook, propelled them into 1st place in the penultimate week. Unfortunately, in an unsuccessful superweek, the team lost the top spot. Alliance finished in 3rd place behind [[SK Gaming]] and [[Fnatic]].
+
+The team's performance in their first split resulted in their qualification for the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. In the playoffs, Alliance lost to Fnatic in the semifinal, and then to [[ROCCAT]] in the third-place match.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] saw Alliance emulate their form from the end of the Spring Split. Shook impressed on a range of champions, including {{ci|Lee Sin}}, {{ci|Elise}} and newly popularized jungle {{ci|Riven}}. Shook's performances in Week 2 of the split resulted in a weekly MVP award. Alliance finished in 1st place, staying at the peak of the rankings table for the entire split.
+
+Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for Shook to qualify for the [[2014 Season World Championship|World Championship]] in Alliance's first season together. Alliance placed 1st in the playoffs, beating Fnatic in the final, and secured themselves a place at the World Championship.
+
+The World Championship saw Alliance placed in Group D along with [[NaJin White Shield]], [[Cloud9]] and [[KaBuM! e-Sports]]. Alliance beat each team once and lost to each team once, resulting in a 3rd place finish in the group, meaning they would not go any further in the tournament.
+
+===2015 Season===
+Alliance were the European team invited to [[IEM Season IX - San Jose|IEM San Jose]]. Seeded directly into the semifinals, Shook and the team lost their matchup to [[Cloud9]] and tied for third place with [[Team SoloMid]]. 
+
+In order to comply with new LCS regulations, [[Alliance]] would have to change their name for the upcoming season, and they rebranded as [[Elements]].<ref>[http://www.facebook.com/Elementsgg/posts/662967857147816 Elements Facebook Post] ''facebook.com''</ref> The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was not a success for the team, finishing in 7th place after making a number of roster changes. This meant that the team would not go to playoffs, but would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. However, the team rebuilt itself after the split, and Shook left the team. 
+
+Going into the fifth week of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]], [[Airwaks]] announced that he would be stepping down from the starting roster of the [[Copenhagen Wolves]], and Shook rejoined his former team. The split was far from successful for Shook and the [[Copenhagen Wolves]]. Despite their roster changes, the team finished in 10th place, resulting in autorelegation. After the close of the split, Shook left the team.
+=== 2016 Season ===
+Shook joined [[Vitality]] for the 2016 season. With himself, [[Cabochard]], [[Nukeduck]], [[Hjärnan]], and [[kaSing]] comprising the roster, the team was considered one of the top lineups in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], and they finished the split in third place, behind the surprise first-place [[G2 Esports]] and second-place [[H2k]]. In the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]], however, they were upset by the sixth-place [[Fnatic]] and eliminated in the quarterfinals.
+
+== Trivia ==
+* Known for his {{ci|Lee Sin}}.
+
+=== Individual Awards ===
+* 1x EU 3rd All Pro Team (Spring 2016)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

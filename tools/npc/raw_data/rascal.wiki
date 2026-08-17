@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Rascal&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.819Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Rascal」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Rascal
+|name=Kim Kwang-hee
+|nativename=김광희
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=October
+|birth_date_day=16
+|checkbox1=No
+|compID1=Taki
+|checkboxComp=No
+|ids='''KR:''' Gen G Rascal, Rascal<br>'''CN:''' donghaKim<br>'''EUW:''' Hirai92<br>Firefl0wer
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/kgh8119
+|facebook=https://www.facebook.com/profile.php?id=100010925280121
+|twitter=Rascal_LOL1
+|instagram=rascal_lol
+|deeplol=https://www.deeplol.gg/pro/Rascal
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Taki'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Indefinitely suspended by [[Kingzone DragonX]] in March 2018 for making suicide-related jokes in solo queue prior to joining the team.<ref>[https://twitter.com/KINGZONEDX/status/972085912581505025 Kingzone DragonX's Tweet (Korean)] ''twitter.com''</ref>
+** The ban was lifted 4 months later.
+* Has lead the LCK in solo kills during the regular season in 5 different splits.
+** Tied for first with [[Nuguri]] in Summer of 2019 with 21, Tied for first with [[Canna]] in Summer of 2020 with 31, Tied for first with [[Chovy]] in Spring of 2021 with 24, First in Spring of 2022 with 30, and First in Summer of 2022 with 25
+* Nearly broke [[MaRin]]'s record for solo kills, coming in second place in solo kills during the 2022 Spring split.
+* Reached 1000 kills in the LCK on July 29, 2022.
+** Is the 20th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], and [[Aiming]].
+* Reached 500 games in the LCK on February 25, 2024, becoming the 13th player to do so.
+=== Individual Awards ===
+* LCK 2nd All-Pro Team x3 (Spring 2020, Spring 2021, Spring 2022)
+* LCK 3rd All-Pro Team x2 (Summer 2020, Summer 2022)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,110 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20Flash.Vietnam&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.058Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Flash」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Team Flash
+|organization=Team Flash (Organization)
+|orgcountry= Singapore
+|country= Vietnam
+|region= APAC
+|owner=Terence "'''Atticaboy'''" Ting
+|headcoach= 
+|manager=
+|captain=
+|website= http://www.teamflash.gg
+|facebook= https://www.facebook.com/profile.php?id=61573708526121
+|youtube= https://youtube.com/flashtv_gg
+|twitter= teamflash_gg
+|instagram= teamflash.vn
+|sponsor=[https://fpt.vn/ FPT Telecom]
+|created= 2018
+|disbanded= 2019-04-24
+|created2= 2019-05-31
+|rosterphoto= Team Flash 2025 VCS Spring RosterPhoto.jpg
+|otherwikis=fn
+}}{{TOCRWI}}
+'''Team Flash''' is an Singaporean organization. They acquired the roster and slot of [[Sky Gaming]] for [[VCS/2019 Season/Summer Season|VCS 2019 Summer]]. They once had a [[Team Flash.Singapore|Singaporean team]] that played in [[The Legends Circuit/Singapore/2017 Season/Spring|TLC-SG]].
+
+== History ==
+=== 2019 Summer ===
+[[Sky Gaming]]'s roster and slot were acquired by '''Team Flash''', along with players [[Stark (Phan Công Minh)|Stark]] and [[YiJin]], the team seemed destined to earn a seed for the [[2019 Season World Championship<!--/Main Event-->|2019 Season World Championship Main Event]]. However, after a 2nd place finish in the [[VCS/2019 Season/Summer Season| Summer Season]] the team would first lose to [[GAM Esports]] 3-0 in the Grand Final, before losing 3-1 to [[Lowkey Esports.Vietnam|Lowkey Esports]], failing to qualify for the [[2019 Season World Championship<!--/Main Event-->|2019 Season World Championship Main Event]], finishing 3rd.
+
+=== 2020 Spring ===
+After the disappointment of not qualifying for Worlds '''Team Flash''' acquired [[Yoshino]] from [[GAM Esports]], and both [[Artemis (Trần Quốc Hưng)|Artemis]] and [[Hinn]] left the team. '''Team Flash''' would also hire two rookie players [[Jesh]] and [[PinkA]] during the split.  
+
+[[Team Flash.Vietnam|Team Flash]] would again finish 2nd in the [[VCS 2020 Spring|Regular Season]], being the only team to win more than one map against the dominant [[GAM Esports]]. However, this time [[Team Flash.Vietnam|Team Flash]] would succeed in the Grand Final against [[GAM Esports]] winning the series 3-2.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Atticaboy|sg|Terence Ting|'''Founder & Owner'''}}
+{{listplayersp||sg|Samson Oh|'''Co-Founder'''}}
+{{listplayersp||sg|Mark Chew|'''Chief Executive Officer'''}}
+{{listplayersp||th|Joseph Yeo|'''Regional Esports Manager'''}}
+{{listplayersp||vn|Pol Trần|'''Esports Director & General Manager'''}}
+{{listplayersp||vn|Lance Huỳnh|'''Finance Director'''}}
+{{listplayersp|June|vn|Đinh Hồng Phương|'''Sales Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Yoshino|vn|Lê Trung Kiên|'''Team Manager'''|newteam=FVN|comment={{RoleIcon|Team Manager}} PUBG PC Team Manager}}
+{{listplayer|ALT (Lee Han-young)|kr|Lee Han-young (이한영)|'''Head Coach'''|newteam=none}}
+{{listplayer|Koo|vn|Võ Ngọc Anh Tuấn|'''Assistant Coach & Translator'''|newteam=none}}
+{{listplayersp|Harmony|VN|Khổng Tường Minh|'''Media'''|newteam=FVN|comment={{RoleIcon|Content Creator}} AOV Team Media}}
+{{listplayer|Stark (Phan Công Minh)|vn|Phan Công Minh|'''Head Coach'''|newteam=none}}
+{{listplayersp|Nine9|vn|Mac Quốc Đỗ|'''Manager'''|newteam=none}}
+{{listplayersp|Dzung|vn|Lê Minh Dũng|'''Manager'''|newteam=none}}
+{{listplayersp|June|vn|Đinh Hồng Phương|'''Manager'''|newteam=FVN|comment=Manager}}
+{{listplayer|RonOP|vn|Lê Thiên Hàn|'''Analyst'''|newteam=none}}
+{{listplayer|Cheon Ho Jin|vn|Hà Đức Thịnh|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Kira|VN|Bùi Nam Hải|'''Content Creator'''|newteam=none}}
+{{listplayer|Sergh|vn|Liêu Nam Lộc|'''Head Coach'''|newteam=SBTCE}}
+{{listplayersp|tienbocau|vn||'''Video Editor'''|newteam=GAM}}
+{{listplayer|Profit|kr|Kim Jun-hyung (김준형)|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Pengarrow|vn|Phạm Duy Quang|'''Content Creator'''|newteam=SBTC Esports}}
+{{listplayersp|Bii|vn|Nguyễn Minh|'''Content Creator'''|newteam=none}}
+{{listplayersp|TOP|vn|Nguyễn Đồng Phương|'''Director'''|newteam=Suspended}}
+{{listplayer|Jackie Wind|vn|Phan Huy Phong|'''Head Coach'''|newteam=Super Guy Destroys}}
+{{listplayersp||vn|Trần Nhật Tiến|'''CEO & Co-Owner'''|newteam=none}}
+{{listplayersp||vn|Trần Minh Thùy|'''Manager'''|newteam=none}}
+{{listplayer|Nevan|vn|Phùng Thiện Nhân|'''Head Coach'''|newteam=QTV Gaming}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As Saigon Team Flash===
+{{TeamResults|Saigon Team Flash|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+== Videos ==
+== Highlight Videos ==
+== Images ==
+<gallery>
+FL Roster 2019 Summer.jpg|Team Flash's 2019 VCS Summer Roster
+FL 2020 Spring.png|Team Flash's 2020 VCS Spring Roster
+TF VCS Spring 2024.png|Team Flash's 2024 VCS Spring Roster
+</gallery>
+
+==External Links==
+* [https://liquipedia.net/arenaofvalor/Team_Flash Arena of Valor Team (Liquipedia)]
+* [https://liquipedia.net/dota2/Team_Flash Dota 2 Team (Liquipedia)]
+* [https://liquipedia.net/hearthstone/Team_Flash Hearthstone Team (Liquipedia)]
+* [https://liquipedia.net/starcraft2/Flash_eSports StarCraft II Team (Liquipedia)]
+
+==References==
+<references />

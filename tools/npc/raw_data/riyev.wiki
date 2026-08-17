@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Riyev&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.823Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Riyev」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Riyev
+|name=Marcelo Carrara
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=28
+|favchamp=Karma
+|favchamp2=Nami
+|favchamp3=Janna
+|checkbox1=No
+|checkboxComp=No
+|ids=JAYOB Riyev, IDM Riyev
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/riyev
+|facebook=https://www.facebook.com/riyevlol
+|twitter=riyevlol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Marcelo '''"Riyev"''' Carrara is from Corumbá, Mato Grosso do Sul. He joined [[JAYOB e-Sports]] in the end of December 2014 to play as the team's support in [[CBLOL/2015 Season/Split 1|2015 CBLOL Split 1]]. After the announcement of his one-year ban in February 2015, he moved to the coaching staff. In May he left the team, and one month later he joined [[KaBuM! Black]] as an analyst.
+
+== Trivia ==
+* Received one-year ban in February 2015 due to Elo Boosting.<ref>[http://mycnb.uol.com.br/noticias/2341-support-do-jayob-riyev-e-banido-do-competitivo-por-elojob Support do Jayob, Riyev é banido do competitivo por elojob (Portuguese)] ''mycnb.com.br''</ref>
+* Was hostilized by the Brazilian community due to publicly criticizing [[Theusma]] when the AD carry was released by [[JAYOB e-Sports]].
+* After his retirement he moved to the countryside in Brazil to work in a farm.<ref>[https://x.com/CBLOL/status/2037182753276313976 CBLOL's X Post (Portuguese)] ''x.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

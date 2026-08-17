@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LvMao&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LvMao」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=LvMao
+|name=Zuo Ming-Hao
+|nativename=左名豪
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1996
+|birth_date_month=March
+|birth_date_day=7
+|favchamp=Bard
+|favchamp2=Fiddlesticks
+|checkbox1=No
+|compID1=Zzjm
+|checkboxComp=No
+|ids='''CN:''' niusso<br>'''KR:''' wushuo<br>화내 지 마12
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/327665
+|weibo=https://www.weibo.com/n/BLGLvMao
+|deeplol=https://www.deeplol.gg/pro/LvMao
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Zzjm'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+LvMao spent some time on LSPL teams which included [[Star Horn Royal Club]], [[ZTR Gaming]] and [[Now or Never]]. He never achieved particularly good results with any of those teams and did not qualify for the LPL. He left Now Or Never and joined the newly formed [[JD Gaming]] in May of 2017. Their first showing was at the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] but it wasn't particularly good as they placed 9th-12th after an 0-2 loss to [[LGD Gaming]]. In the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] JD Gaming finished 5th in Group B with 6 wins and 11 losses which eliminated them from playoff contention. They also placed 2nd at the [[National Electronic Sports Tournament 2017]].
+
+==Career Highlights and Awards==
+* LPL Champion (2020 Spring)
+* LPL Finals MVP (2020 Spring)
+* LPL All-Pro 2nd Team (2020 Spring)
+
+== Trivia ==
+* His surname '''Zuo''' (左) is an uncommon surname in China.
+* MVP of the [[LPL/2020 Season/Spring Playoffs|LPL 2020 Spring Finals]].
+* Married Chinese idol group member "''Xia Yue''" on September 30, 2021.
+=== Statistics ===
+* Reached 3000 assists in the LPL on March 14th, 2021.
+** Was the 12th player to reach 3000 assists in the LPL after [[Clearlove]], [[Pyl (Chen Bo)|Pyl]], [[meiko]], [[xiaohu]], [[Rookie]], [[COLD]], [[Ming (Shi Sen-Ming)|Ming]], [[Baolan]], [[Doinb]], [[Flandre]], and [[Crisp]].
+* Reached 4000 assists in the LPL on August 21st, 2022.
+** The 9th player to reach 4000 assists in the LPL, after [[meiko]], [[Pyl (Chen Bo)|Pyl]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], [[cold]], [[Doinb]], and [[Crisp]].
+* Reached 500 games in the LPL on June 25, 2023
+** The 20th player to reach 500 games in the LPL.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

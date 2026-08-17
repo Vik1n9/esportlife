@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tank&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.344Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tank」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Tank
+|name=Park Dan-won
+|nativename=박단원
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=November
+|birth_date_day=18
+|favchamp=Azir
+|favchamp2=Lissandra
+|favchamp3=Viktor
+|favchamp4=Xerath
+|checkbox1=No
+|compID1=Rain
+|compID2=TANK
+|checkboxComp=No
+|ids='''KR:''' Luo Ya Xuan, Mei Tian Kun
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/dkwkal
+|facebook=https://www.facebook.com/profile.php?id=100029803607772
+|twitter=Tank_Talon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Rain'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+===2015 Season===
+Park "'''TANK'''" Dan-won joined [[NaJin e-mFire]] in February 2015 as a mid lane substitute. He changed his name from "'''Rain'''" after realizing there were many other professional players with that name. He shared play time with [[Ggoong]] during the second half of [[SBENU Champions Spring 2015]]. NaJin performed poorly and ended sixth overall in the regular season. NaJin placed fifth in the regular season of [[SBENU Champions Summer 2015]] and qualified for the playoffs but they lost in the first round 2-1 to the [[KOO Tigers]]. However, TANK did not play in any of these games. They earned enough circuit points to make it to the [[2015 Season Korea Regional Finals]] but lost 3-0 in the first round to the [[Jin Air Green Wings]]. 
+
+===2016 Preseason===
+NaJin played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 to [[Rebels Anarchy]] in the first round. TANK left NaJin in November to join [[Snake eSports]] in December.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

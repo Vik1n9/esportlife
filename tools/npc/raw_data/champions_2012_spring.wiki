@@ -1,0 +1,318 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Champions%2F2012%20Season%2FSpring&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Champions/2012/Spring」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:OGN 2012|Spring=1}}
+{{Infobox Tournament
+|name=Azubu The Champions
+|image=OGN Champions Spring Banner.jpg
+|organizer= [http://www.tooniland.com/ongame/ognMain.tl OnGameNet]
+|country=South Korea
+|type=Offline
+|server=KR
+|sponsor=[http://www.azubu.com/ Azubu]
+|prizepool= ₩ 200,000,000
+|sdate= 2012-03-21
+|edate= 2012-05-19
+|idfirst=MiG Blaze
+|flagfirst=kr
+|idsecond=MiG Frost
+|flagsecond=kr
+|idthird=Xenics Storm
+|flagthird=kr
+|idfourth=Team OP
+|flagfourth=kr
+|team_number=
+|north_america_number=1
+|europe_number=1
+|china_number=0
+|korea_number=14
+|map1=Summoner's Rift
+|region=KR
+|split=Spring
+|split_number=1
+
+|website=http://www.ognlol.com/
+|CM_StandardName=Champions 2012 Spring
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2012
+|CM_StandardLeague=LTC
+|CM_LeagueIconKey=LTC
+|closest_timezone=KST
+}}{{TOCRWI}}
+==Overview==
+'''The Champions''' takes place in Seoul, South Korea starting in March 2012 and ending in May 2012. This is OnGameNet's first major tournament after the [[OnGameNet LoL Invitational]]. The tournament is aired on OnGameNet's Korean channel as well as an online English stream. [[Azubu The Champions Spring 2012|The Champions Spring]] along with [[Azubu The Champions Summer 2012|The Champions Summer]], [[NLB Spring 2012]], [[NLB Summer 2012]] will award Circuit Points to determine two Korean teams to participate in the [[Season 2 World Championship]].<ref>[http://www.thisisgame.com/board/view.php?id=1176993&category=102 30억짜리 LOL 세계대회, 관건은 ‘서킷 포인트’]''"thisisgame.com"''</ref>
+
+===Format===
+*Qualifiers are twelve groups of two.
+**Each match is Best of Three - Top One team from each group advance.
+*Round of 16 Group Stage is four groups of four.
+**Each match is Best of One - Top Two teams from each group advance.
+*The remaining eight teams are put into an elimination bracket.
+**The quarterfinals and the Third-Fourth place match are Best of Three, while the Semifinals and Finals are Best of Five.
+*In all Best of Threes and Best of Fives, the final game is Blind Pick while other games are Draft Pick.
+
+*Final placing determines results for seeding into the [[Azubu The Champions Summer 2012]].
+**An online tournament was played at the same time as The Champions, with the winner playing versus the Fourth Place team for seeding points
+
+===Prize Pool===
+{{TournamentResults
+|points=yes
+|pointstitle=Circuit Points
+|prize=yes
+|prizeunit=KRW
+|totalprize=200,000,000
+|usdrate=0.00085
+|eurorate=0.00066
+|{{TournamentResults/Line|place=1|prize=100,000,000|points=+400|team=mig blaze|lastresult=3 : 0|lastopponent=mig frost|lastoutcome=w}}
+|{{TournamentResults/Line|place=2|prize=40,000,000|points=+200|team=mig frost|lastresult=0 : 3|lastopponent=mig blaze|lastoutcome=l}}
+|{{TournamentResults/Line|place=3|prize=20,000,000|points=+150|team=xenics storm|lastresult=2 : 1|lastopponent=op|lastoutcome=w|date=2012-05-09}}
+|{{TournamentResults/Line|place=4|prize=10,000,000|points=+100|team=op|lastresult=1 : 2|lastopponent=xenics storm|lastoutcome=l|date=2012-05-09}}
+|{{TournamentResults/Line|sameplaces=4|place=5-8|prize=4,500,000|points=+50|team=fnc|lastresult=0 : 2|lastopponent=op|lastoutcome=l|date=2012-04-27}}
+|{{TournamentResults/Line|place=5-8|prize=4,500,000|team=clg|lastresult=0 : 2|lastopponent=mig blaze|lastoutcome=l|date=2012-04-25}}
+|{{TournamentResults/Line|place=5-8|prize=4,500,000|team=mkz|lastresult=0 : 2|lastopponent=xenics storm|lastoutcome=l|date=2012-04-20}}
+|{{TournamentResults/Line|place=5-8|prize=4,500,000|team=najin|lastresult=1 : 2|lastopponent=mig frost|lastoutcome=l|date=2012-04-18}}
+|{{TournamentResults/Line|sameplaces=8|place=9-16|prize=1,500,000|points=+25|team=Little Hippo|groupstage=1 - 2|date=2012-03-23}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=DDoL|groupstage=0 - 2|date=2012-03-23}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=nel|groupstage=1 - 2|date=2012-03-30}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=xd|groupstage=0 - 2|date=2012-03-30}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=superstar|groupstage=1 - 2|date=2012-04-06}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=neb|groupstage=0 - 2|date=2012-04-06}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=startale|groupstage=1 - 2|date=2012-04-13}}
+|{{TournamentResults/Line|place=9-16|prize=1,500,000|team=hunters|groupstage=0 - 2|date=2012-04-13}}
+|conversiondate=May 19, 2012|conversionsource=xe}}
+
+== Participants ==
+{{RostersStart
+|maxteams=4|showrosterpage=yes
+}}
+{{Box|start}}
+{{TeamRoster|team=Counter Logic Gaming
+|{{TeamRoster/Line|player=HotshotGG    |flag=ca |role=top}}
+|{{TeamRoster/Line|player=Saintvicious |flag=us |role=jungle}}
+|{{TeamRoster/Line|player=Bigfatlp     |flag=ca |role=mid}}
+|{{TeamRoster/Line|player=Doublelift   |flag=us |role=ad}}
+|{{TeamRoster/Line|player=Chauster     |flag=us |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=DDoL
+|{{TeamRoster/Line|player=Dong (Kim Hee-jae)        |flag=kr |role=top,support }}
+|{{TeamRoster/Line|player=UIMangE     |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Hwatoo      |flag=kr |role=mid,top}}
+|{{TeamRoster/Line|player=Rigroch     |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Chily moon  |flag=kr |role=ad,jungle}}
+|{{TeamRoster/Line|player=zzamTiger   |flag=kr |role=support,ad}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Fnatic
+|{{TeamRoster/Line|player=Shushei     |flag=pl |role=top}}
+|{{TeamRoster/Line|player=Cyanide     |flag=fi |role=jungle}}
+|{{TeamRoster/Line|player=xPeke       |flag=es |role=mid}}
+|{{TeamRoster/Line|player=Lamia       |flag=de |role=ad}}
+|{{TeamRoster/Line|player=Mellisan    |flag=de |role=support}}
+
+}}
+{{Box|break}}
+{{TeamRoster|team=Little Hippo
+|{{TeamRoster/Line|player=TcAL   |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Leon (Yeom Do-sun)   |flag=kr |role=jungle }}
+|{{TeamRoster/Line|player=Kevin (Lee Sang-jun)  |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=5gamdo |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=ggoni  |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MiG Blaze
+|{{TeamRoster/Line|player=FantasyStar (Bok Han-gyu) |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Helios (Shin Dong-jin)      |flag=kr |role=jungle }}
+|{{TeamRoster/Line|player=Ambition    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=CaptainJack |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Lustboy     |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MiG Frost
+|{{TeamRoster/Line|player=Woong (Jang Gun-woong)        |flag=kr |role=top}}
+|{{TeamRoster/Line|player=CloudTemplar |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=RapidStar    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Locodoco     |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=MadLife      |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MKZ
+|{{TeamRoster/Line|player=TowerFury |flag=kr |role=top}}
+|{{TeamRoster/Line|player=SunRiver  |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=MidKing   |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=losys     |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=junegi    |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NaJin e-mFire
+|{{TeamRoster/Line|player=MakNooN  |flag=kr |role=top}}
+|{{TeamRoster/Line|player=MOKUZA   |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=HooN (Kim Nam-hoon)     |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Hiro (Lee Woo-suk)     |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=viNylCat |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NEB
+|{{TeamRoster/Line|player=ŁØAÐ      |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Acttosin  |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Fascinate |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Badagaje  |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Yaong     |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NeL
+|{{TeamRoster/Line|player=Rounders  |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Garnet    |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Kady      |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=The Other |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=GodFather |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=StarTale
+|{{TeamRoster/Line|player=Vitamin |flag=kr |role=top}}
+|{{TeamRoster/Line|player=kkOma   |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Ryu     |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Joker (Go Dong-bin)   |flag=kr |role=ad }}
+|{{TeamRoster/Line|player=MaFa    |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SuperStar
+|{{TeamRoster/Line|player=Devil (Shin Yoon-ki)      |flag=kr |role=top}}
+|{{TeamRoster/Line|player=NK Adonis  |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=SunJa      |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=gDeveloper |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=YaNgSin    |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team Hunters
+|{{TeamRoster/Line|player=Expession  |flag=kr |role=top}}
+|{{TeamRoster/Line|player=MulrOc     |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=FDT        |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Rewrite (Shin Jong-myung) |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Nymp       |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team OP
+|{{TeamRoster/Line|player=a Lilac   |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Nolja     |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Cornsalad |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Paragon   |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=ashart    |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team XD
+|{{TeamRoster/Line|player=Cannot     |flag=kr |role=top}}
+|{{TeamRoster/Line|player=webtoon    |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Chicken    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Mad (Park Sang-duk)        |flag=kr |role=ad }}
+|{{TeamRoster/Line|player=SmallBrain |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Xenics Storm
+|{{TeamRoster/Line|player=May (Kang Han-wool)        |flag=kr |role=top}}
+|{{TeamRoster/Line|player=H0R0       |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=ManyReason |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=SBS        |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Impact     |flag=kr |role=support}}
+}}
+{{Box|end}}
+
+{{RostersEnd}}
+
+==Results==
+===Group Stage===
+{{Box|start|padding=1em}}
+====Group A====
+{{Bracket|4DEGroup|cargo=Yes|R1M1_cargomatch=Group A_1|R1M2_cargomatch=Group A_2|R1M3_cargomatch=Group A_4|R2M1_cargomatch=Group A_3|R2M2_cargomatch=Group A_5}}
+{{Box|break|padding=1em}}
+
+====Group B====
+{{Bracket|4DEGroup|cargo=Yes|R1M1_cargomatch=Group B_2|R1M2_cargomatch=Group B_1|R1M3_cargomatch=Group B_3|R2M1_cargomatch=Group B_4|R2M2_cargomatch=Group B_5}}
+{{Box|break|padding=1em}}
+
+====Group C====
+{{Bracket|4DEGroup|cargo=Yes|R1M1_cargomatch=Group C_1|R1M2_cargomatch=Group C_2|R1M3_cargomatch=Group C_4|R2M1_cargomatch=Group C_3|R2M2_cargomatch=Group C_5}}
+{{Box|break|padding=1em}}
+
+====Group D====
+{{Bracket|4DEGroup|cargo=Yes|R1M1_cargomatch=Group D_1|R1M2_cargomatch=Group D_2|R1M3_cargomatch=Group D_4|R2M1_cargomatch=Group D_3|R2M2_cargomatch=Group D_5}}
+{{Box|end}}
+
+===Playoffs===
+{{Bracket|8SE|cargo=Yes|third=yes|R3M2_cargomatch=Third-Place Match_1|R1_title=Quarterfinals|R2_title=Semifinals|R3_title=Finals}}
+
+{{Bracket|2SE|cargo=Yes|R1_title=Seed Challenge}}
+:Team Bubble's jungler was unable to show up to the studio, so Team OP was awarded a 2-0 walkover.
+
+== Match Schedule ==
+{{AutoMatches}}
+
+==Regional Distribution==
+=== Teams ===
+{{Distribution|regions=EU;KR;NA
+|format=region
+|rounds=Groups;Quarterfinals;Semifinals;Finals;Winner
+|Groups=1;14;1
+|Quarterfinals=1;6;1
+|Semifinals=;4;
+|Finals=;2;
+|Winner=;1;
+}}
+
+=== Players ===
+{{TabsDynamic
+|name1=Nationality
+|name2=Country of Birth
+|This=1}}
+{{TabsDynamic|tab}}<!--Nationality-->
+{{Distribution|regions=Canada;Finland;Germany;Poland;South Korea;Spain;United States
+|format=country
+|rounds=Groups;Quarterfinals;Semifinals;Finals;Winner
+|Groups=2;1;2;1;71;1;3
+|Quarterfinals=2;1;2;1;30;1;3
+|Semifinals=;;;;20;;
+|Finals=;;;;10;;
+|Winner=;;;;5;;
+}}
+{{TabsDynamic|tab}}<!--Country of Birth-->
+{{Distribution|regions=Canada;Finland;Germany;Poland;South Korea;Spain;United States
+|format=country
+|rounds=Groups;Quarterfinals;Semifinals;Finals;Winner
+|Groups=2;1;2;1;71;1;3
+|Quarterfinals=2;1;2;1;30;1;3
+|Semifinals=;;;;20;;
+|Finals=;;;;10;;
+|Winner=;;;;5;;
+}}
+{{TabsDynamic|end}}
+:''Players who played at least one game are listed here.''
+
+==View Games==
+*[http://www.twitch.tv/ognlol English Twitch.tv Stream]
+*[http://www.own3d.tv/ognlol English Own3d.tv Stream]
+*[http://www.ognlol.com/vod/main English VODs]
+*[http://www.tooniland.com/ongame/leagueVod.tl?leagueId=lolchamp&mIdx=12015 Korean VODs]
+
+== Additional Content ==
+=== Articles ===
+* [https://medium.com/@tmv23/the-very-early-days-of-competitive-korean-lol-ac7fef3ff916#.xod38a71r The very early days of competitive Korean LoL] ''by TMV23 on Medium.com''
+
+=== Interviews ===
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000273/series/15/re_url/main Interview: Spiral Cats Team]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000127/series/15/re_url/main Interview Spectator Part 1]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000173/series/15/re_url/main Interview Spectator Part 2]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000129/series/15/re_url/main Interview: Jun Yong-joon (Korean Commentator)]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000128/series/15/re_url/main Interview: Noah & Trevor (English Commentators)]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000072/series/15/re_url/main Interview: Min Joo-hee (Interviewer/Reporter)]
+=== Other Coverage ===
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000073/series/15/re_url/main The Champions Spring 2012 Mar 23, 2012]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000408/series/15/re_url/main Final Match Opening Video]
+
+==External Links==
+*[http://www.ognlol.com/index.php English Homepage]
+*[http://www.tooniland.com/lol/lolMain.tl Korean Homepage]
+
+== References ==
+<references/><!-- -->

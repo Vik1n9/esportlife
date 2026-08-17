@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=GimGoon&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.772Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GimGoon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=GimGoon
+|name=Kim Han-saem
+|nativename=김한샘
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=December
+|birth_date_day=31
+|favchamp=Tryndamere
+|favchamp2=Gangplank
+|checkbox1=No
+|compID1=GimGoon
+|checkboxComp=No
+|ids='''KR:''' 전설의용사김한샘<br>GimGoon<br>킹 갓 황 샘<br>'''EUW:''' MY cute cat lqs
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/9389523
+|facebook=https://www.facebook.com/tebesar.dan
+|youtube=https://youtube.com/channel/UCKJoEzQzXvuh6OtfaEPngPQ
+|weibo=https://weibo.com/n/FPXGimGoon
+|lolpros=https://lolpros.gg/player/gimgoon/
+|deeplol=https://www.deeplol.gg/pro/GimGoon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+}}
+==Biography==
+===2014 Season===
+Kim "'''GimGoon'''" Han-saem (also stylized '''Gimgoon''') joined [[Xenics Storm]] as their new top laner in October of 2014. The team made its debut at [[PANDORA.TV Champions Winter 2013-2014]], where they surprised many by qualifying for the playoffs. Unfortunately, they lost 3-1 in the quarterfinals to [[NaJin White Shield]]. The team disbanded shortly after the season ended. GimGoon joined [[Samsung Galaxy Blue]] as a sub but never played any games for them before he left in June of 2014. He then joined the [[KT Rolster Bullets]] as a sub and played two games for them at [[HOT6iX Champions Summer 2014]]. He left the team two weeks after the season ended.
+
+===2015 Season===
+GimGoon went to China to join the new team, [[Energy Pacemaker.All]], as their new top laner. They played in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] but lost 3-2 very early on to [[Team WE]]. EPA competed in the [[2015 LoL Secondary Pro League/Spring Season|2015 LSPL Spring Season]] but placed last in their group and missed playoffs. They were forced to play in the [[2015 LoL Secondary Pro League/Summer/Relegation|2015 LSPL Summer Relegation]] and requalified for the [[2015 LoL Secondary Pro League/Summer Season|2015 LSPL Summer Season]] with a 2-0 victory over [[Stand Point Gaming]]. EPA competed in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] but lost 3-2 in the first round to [[Team King]]. They qualified for the [[2015 LoL Secondary Pro League/Summer Playoffs|2015 LSPL Summer Playoffs]] where they took first and automatically promoted to the [[LPL/2016 Season/Spring Season|2016 LPL Spring Season]].
+
+== Trivia ==
+<!--* He wants his nickname, GimGoon, to be called JimJoon (짐준), not KimKoon (김군).-->
+* Well-known for his streaming style in China. 
+** He loves to trashtalk his [[FunPlus Phoenix]] teammates when he encounters them in ranked games during streaming time.
+** He roars a lot when he gets killed or outplayed.
+* Speaks Chinese fluently.
+** When he does trash talk, he usually use a mix of both Korean and Chinese, which sounds very funny.
+* During S9 Finals against G2, his {{ci|Gangplank}} only was killed once throughout the three games played.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

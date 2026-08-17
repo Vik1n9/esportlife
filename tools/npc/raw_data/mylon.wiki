@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mylon&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.370Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mylon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Mylon
+|name=Matheus Borges
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=November
+|birth_date_day=08
+|favchamp=Rumble
+|favchamp2=Shen
+|favchamp3=Ezreal
+|favchamp4=Gnar
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR''': dogla la dogla#BR1, nelsinho do QM#BR1, MONTEIRO BORGES#M02
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/mylonzete
+|facebook=https://www.facebook.com/mylonzete
+|twitter=mylonzete
+|instagram=mylonzete
+|snapchat=Ornitorrylon
+|youtube=https://www.youtube.com/c/mylonzete
+|discord=https://discord.gg/RuCJExHkRn
+|deeplol=https://www.deeplol.gg/pro/Mylon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Mylon is from [[wikipedia:en:Santos, São Paulo|Santos]], São Paulo. He played his first offline tournament in late 2011 when he was 14 years old. He started playing as a Jungler, but changed to Top Lane when he joined [[VTi Ignis]] in April 2012.
+
+===2012 Season===
+With vTi Ignis, Mylon won his first event, the [[Riot Season 2 Brazilian Championship]]. After a month, he left to [[Keyd Team]] (which later rebranded to Keyd Stars).
+ 
+===Season 3===
+Keyd started the season with a promising line-up, but ended up placing 5-8th at the [[Riot Season 3 Brazilian Championship]] and 7-8th at [[IEM Season VII - Global Challenge Sao Paulo|IEM Sao Paulo]]. Their only title was the [[Brasil Gaming League Arena 2]], where they beat [[CNB e-Sports Club]] in the finals.
+ 
+===2014 Season===
+Keyd Team rebranded to Keyd Stars and brought in Koreans [[SuNo]] and [[Winged]]. They won 7 tournaments in a row, including the [[Riot Brazilian Champion League 2014]]. They bootcamped in Portugal for three weeks to practice for [[2014 Season Brazil Regional Finals]], so they came as favorite to the event, but ended up losing to eventual champions [[KaBuM! e-Sports]], finishing 3-4th. After the Koreans' departure, Mylon played in the 1v1 tournament [[Red Bull Player One 2014|RedBull Player One]], beating his teammate [[takeshi]] in the finals.<ref>[http://www.redbull.com/br/pt/games/stories/1331685401133/mylon-arrebenta-na-final-alucinante-do-player-one Mylon arrebenta na final alucinante do Player One (Portuguese)] ''redbull.com''</ref>
+
+===2015 Season===
+Keyd Stars acquired [[DayDream]] and [[Emperor (Kim Jin-hyun)|Emperor]] from [[CJ Entus Blaze]]. They started the split strong, but lost in finals to [[INTZ e-Sports]]. Mylon then decided to leave to [[paiN Gaming]]. He debuted at [[XMA MEGA ARENA/Sao Paulo 2015|XMA Mega Arena 2015 – São Paulo]], where they got second place. Heading into the second split, everyone had high hopes for the team, and despite a shaky start, they won the [[CBLOL/2015 Season/Split 2|second split]]'s [[CBLOL/2015 Season/Split 2 Playoffs|playoffs]], defeating [[INTZ Red]], Keyd Stars and [[INTZ e-Sports|INTZ Team]]. They qualified for the [[2015 International Wildcard Tournament/Chile|IWC Qualifier]], and without dropping a single game the entire tournament qualified for the [[2015 Season World Championship]].
+
+At Worlds, paiN were seeded into Group A along with [[Flash Wolves]], [[KOO Tigers]], and [[Counter Logic Gaming]]. They picked up two wins in the group, against eventual group winners Flash Wolves in the first week and then against CLG in the second week, and their 2-4 overall record and 1-1 head-to-head with CLG left them tied for third place, not advancing from groups. Despite their immediate elimination, paiN's group stage run was seen as a major success: they were the first Wildcard team to win more than one game at a World Championship and also the first Wildcard team to finish higher than sole possession of last place in their group. Additionally, they looked good in some of their losses: their second game against Flash Wolves lasted 52 minutes and could have gone either way at multiple points.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Was a fan of [[Darien]]'s playstyle.
+* Known for his {{ci|Nidalee}}, {{ci|Renekton}}, {{ci|Shen}}, {{ci|Vladimir}}, and {{ci|Rumble}}.
+* Highly praised as one of the best toplaners in Brazil's history.
+* Famous for openly trashtalking other players, especially toplaners.
+* Portrayed as {{ci|Hecarim}} in the CBLoL 2015 official wallpaper.
+* Is often remembered for his {{ci|Shen}} backdoor in the third and last game of the [[CBLOL 2015 Split 2 Playoffs|CBLOL 2015 Split 2 finals]], a play that gave him the second title of his career.<ref>[https://www.youtube.com/watch?v=9NBfGzx166A paiN x INTZ - Mylon finalizando com um backdoor] ''youtube.com''</ref>
+** After the champion's rework in 2016, Mylon begged for years for the champion's Q to deal damage to towers again, until the champion finally received the buff in [[Patch 25.07]].
+* He was fined and punished with a ban per game in their next three series after showing his middle finger to the cam after solokilling [[Lactea]] while playing for [[Vivo Keyd]] in 2014.<ref>[https://maisesports.com.br/riot-se-pronuncia-e-pune-keyd-pelas-atitudes-jogador-mylon/ Riot se pronuncia e pune Keyd pelas atitudes do jogador Mylon]''maisesports.com.br''</ref> He talked about that in 2024 in a '''"Depois do Crime"''' stream, explaining that it wasn't directed to the enemy toplaner.<ref>[https://twitter.com/ilhadaslendas/status/1779913187829117068 Ilha das Lendas' Tweet] ''twitter.com''</ref>
+* When he joined [[PaiN Gaming]], most of its fans openly criticized his signing, arguing he was arrogant and, along with [[BrTT]] (whom he allegedly had problems with in [[Keyd Stars]]), had too much ego, contrasting with the friendly atmosphere paiN was famous to possess. Nonetheless, they went on to win [[CBLOL/2015 Season/Split 2 Playoffs|CBLOL 2015 Split 2 Playoffs]] and reach [[2015 Season World Championship]], managing to make the best run a Brazilian team ever had at international stage. He then became a fan favorite not only for PaiN Gaming fans, but to all the Brazilian scene.
+* Even though he was considered one of the best, if not the best {{ci|Gnar}} in Brazil, he hated playing with the champion.<ref>[https://youtu.be/D2jpdQ5O2Aw?t=516 TUDO SOBRE A PAIN 2015 (Portuguese)] ''youtube.com''</ref>
+* At one match, he didn't want to play {{ci|Maokai}} because he thought it was a bad champion, but was forced to by his coach at the time, [[MiT]]. He went to grudgingly play and die several times, to then, in the middle of the game, say "See how bad the champion is?".<ref>[https://youtu.be/D2jpdQ5O2Aw?t=525 TUDO SOBRE A PAIN 2015 (Portuguese)] ''youtube.com''</ref>
+* Accepted to dub the full rundown of {{ci|ambessa}} after being invited by Riot.<ref>[https://x.com/LeagueOfLegends/status/1854557364437110953 League of Legends' X Post] ''x.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Is known for being a very tall player, measuring 1,92m.
+* His favorite animal is the platypus.
+* A fan created the religion "Mylonism", to pray and worship their god, Mylon.
+* After he retired in 2017, he came back to his parents' house in his hometown, Santos, and got in law school.<ref>[https://youtu.be/D2jpdQ5O2Aw?t=59 TUDO SOBRE A PAIN 2015 (Portuguese)] ''youtube.com''</ref>
+* In 2020, he return to LoL-related activities and became a guest analyst in Riot Brazil's talkshow '''Depois do Nexus''', where he quickly was acclaimed for his direct and accurate analysis and banter while talking about the teams.<ref>[https://twitter.com/mylonzete/status/1219289234697265152 Mylon's tweet (Portuguese)] ''twitter.com''</ref>
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Venus&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.549Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Venus」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Venus
+|name=Bùi Nguyễn Quốc Hoàng
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=1999
+|birth_date_month=June
+|birth_date_day=6
+|favchamp=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids=9989988998 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.streamcraft.com/user/FFQVenus
+|facebook=https://www.facebook.com/everythingwanted
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* One of the few Vietnamese players to have hit Challenger on the Korean server while playing from Vietnam, achieving this feat on July 16th, 2020.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+* [http://lienminh360.vn/esports/yg-venus-lee-sin-chinh-la-chiec-chia-khoa-chien-thang-o-tran-dau-nay/ YG Venus: “Lee Sin chính là chiếc chìa khóa chiến thắng ở trận đấu này.” ]
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}
+
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

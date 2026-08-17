@@ -1,0 +1,105 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Closer%20(Can%20%C3%87elik)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.382Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Closer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Closer
+|name=Can Çelik
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=September
+|birth_date_day=29
+|favchamp=Graves
+|favchamp2=Lee Sin
+|favchamp3=Jarvan IV
+|favchamp4=Nidalee
+|checkbox1=Yes
+|favchamp5=Qiyana
+|compID1=K1ra
+|checkboxComp=No
+|ids='''NA:''' Closer100, Kral Closer, Itadori Yujî, 100T Closer, Closer 100<br>'''EUW:''' Kral returns
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/closer
+|twitter=closerlol
+|instagram=cancloser
+|youtube=https://www.youtube.com/channel/UCURDtaf4MO4f6fsIrxpUZaA
+|discord=https://discordapp.com/invite/danbF5b
+|tiktok=c1oserlol
+|lolpros=https://lolpros.gg/player/closer
+|deeplol=https://www.deeplol.gg/pro/Closer-Can_%C3%87elik
+|dpmlol=https://dpm.lol/pro/Closer
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''K1ra'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Closer began competing competitively in the 2017 season, where he played in the TPL on [[Team Vulture]] and [[Beşiktaş Esports]]. Although he failed to qualify for the TCL both splits, he established himself as a prominent Turkish prospect.
+
+=== 2018 Season ===
+In the middle of the 2018 season, Closer joined [[Royal Bandits]], where he played alongside past and future LCS and LEC stars such as [[Broken Blade]], [[Abbedagge]], and [[Freeze]]. Although the impressive roster finished first in the regular season, it fell short in playoffs, losing to [[SuperMassive Esports]] in the finals.
+
+=== 2019 Season ===
+Royal Bandits rebranded to [[Royal Youth]]. Closer and perennial Turkish star [[Dumbledoge]] were the only players who remained on the roster from the previous year after Broken Blade and Abbedagge were recruited by first division major region teams. Replacing Broken Blade was [[Armut]], another future LEC star, as well as ex-LCK players [[GBM]] and [[Pilot (Na Woo-hyung)|Pilot]]. After a mediocre winter split, GBM was replaced with [[Cyeol]] and Dumbledoge with [[Tolerant]]. The team dominated the summer split, going 16-2 in the regular season and defeating SuperMassive to earn a spot at [[Worlds 2019]]; Closer was named the split MVP. In the Worlds Play-In stage, Royal Youth was eliminated in a knockout match by [[Clutch Gaming]], ending Closer's season.
+
+=== 2020 Season ===
+Like his ex-teammate Broken Blade, Closer was recruited to join an LCS team and play in North America. He joined [[Golden Guardians]] at the beginning of the 2020 season, playing alongside a roster of of relatively unknown players like [[FBI]] and veterans [[Hauntzer]], [[Goldenglue]], and [[Keith]], the latter of whom role-swapped from bot laner to support. Many analysts projected Golden Guardians to finish near the bottom of the standings, and fans were not optimistic about the team's prospects. However, after replacing Keith with [[huhi]], the team managed a respectable 8-10 record and squeaked into the spring playoffs. Closer was generally considered the driving factor behind the team's success, even being voted 2nd All-Pro Team despite being on a sixth-place roster. With a mid-season substitution of [[Damonte]] for Goldenglue, Golden Guardians became a contender in summer. Led by Closer's aggressive jungle performances on [[Nidalee]], the team not only reached playoffs again, but upset [[TSM]] in the first round. After losing to [[Team Liquid]] in the upper bracket, Golden Guardians faced TSM again in an elimination round. Closer faced off against his ex-teammate Broken Blade, and although the series went to five games, Golden Guardians lost. TSM would go on to win the entire split, leading many commentators to believe that Golden Guardians was one of the top North American teams and Closer one of its top players.
+
+=== 2021 Season ===
+Due to financial difficulties caused by the COVID-19 pandemic, Golden Guardians sold almost its entire roster to [[100 Thieves]]. With Hauntzer replaced by 100 Thieves' star top laner [[Ssumday]], the team was projected to build on its 2020 success and contest for the LCS championship. Although the team started off strongly in spring, it started to flounder near the end of the split, and after struggles in the mid lane finished 4th in playoffs. In summer, the team imported Closer's ex-teammate Abbedagge and brought in [[Reapered]] as the coach. The substitutions shored up 100 Thieves' weaknesses and the team won the LCS championship with a convincing 3-0 over [[Team Liquid]]. This win marked the first time an organization outside of TSM, TL, [[Cloud9]], or [[CLG]] had won the championship. At [[Worlds 2021]], the team went 3-3 in groups, beating [[DetonatioN FocusMe]] twice and winning an upset match against [[EDward Gaming]] after already being eliminated.
+
+=== 2022 Season ===
+The 100 Thieves roster remained unchanged going into the 2022 season, a relatively rare occurrence even for a championship-winning team. The roster's stability gave it a consistent presence at the top of the LCS standings, with Closer as a constant standout performer. However, despite reaching finals both splits, 100 Thieves lost in quick 3-0s each time. At [[Worlds 2022]], the team won only a single game and exited the group stage quickly.
+
+== Trivia ==
+* His ID '''Closer''' comes from the TV show ''[[wikipedia:en:Suits_(American_TV_series)|Suits]]'', where "closer" is used to describe someone who is capable of settling a legal case.
+** His former ID '''K1ra''' comes from the anime ''[[wikipedia:en:Death_Note|Death Note]]''.
+* Known for his aggressive playmaking style that favors early game skirmishers like {{ci|Lee Sin}} and {{ci|Viego}}.
+* Friends with [[Broken Blade]] and [[Nisqy]].
+* His favorite pro players are [[Canyon]] and [[Kanavi]].
+* His favorite sports players are [[wikipedia:en:Kobe Bryant|Kobe Bryant]] and [[wikipedia:en:Michael Jordan|Michael Jordan]].
+* His favorite musician is [[wikipedia:en:Drake (musician)|Drake]].
+
+=== Individual Awards ===
+* LCS Finals MVP (2021 Summer)
+* LCS 2nd All-Pro Team (2020 Spring, 2021 Summer, 2022 Summer)
+* LCS 3rd All-Pro Team (2020 Summer, 2022 Spring)
+* TCL Most Valuable Player (2019 Summer)
+* TCL All-Star (2019)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

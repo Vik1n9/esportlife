@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pilot%20(Na%20Woo-hyung)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.766Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Pilot」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Pilot
+|name=Na Woo-hyung
+|nativename=나우형
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=December
+|birth_date_day=4
+|checkbox1=No
+|compID1=y0shi
+|checkboxComp=No
+|ids='''KR:''' pilotl0l
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/dff545f0a4d67bbe9485552f2b5cbb1c
+|facebook=https://www.facebook.com/nawooheng
+|twitter=Pilotl0l
+|instagram=lol.pilot
+|youtube=https://www.youtube.com/channel/UCgLMx_f_hK4uMS1U1vrfFaQ
+|tiktok=lolmentor
+|lolpros=https://lolpros.gg/player/pilot
+|deeplol=https://www.deeplol.gg/pro/Pilot-Na_Woo-hyung
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2014 Season===
+Na "'''Pilot'''" Woo-Hyung joined the [[Jin Air Green Wings Falcons]] as the starting AD on May 22, 2013. He played in his first OGN with the team during [[HOT6iX Champions Summer 2014]] but they failed to make it past the group stage.
+
+===2015 Season===
+Changes to the OGN rules forced the Falcons and their sister team, the [[Jin Air Green Wings Stealths]], to merge to create the [[Jin Air Green Wings]]. Pilot was set to share starting time with Stealths' AD, [[Cpt Jack]]. Jin Air performed extremely well for most of [[SBENU Champions Spring 2015]] and took the fourth seed going into the playoffs. However, they faltered towards the end of the season and ended up losing 3-0 to [[CJ Entus]] in the quarterfinals, taking fourth for the season. Jin Air then attended [[SBENU Champions Summer 2015]] but placed 6th overall, gaining 10 circuit points and qualifying for the next season of LCK but barely missing playoffs. Jin Air was seeded into the first round of the [[2015 Season Korea Regional Finals]] and made it all the way to the finals but they lost 3-1 to [[KT Rolster]]. 
+
+===2016 Preseason===
+Jin Air played in the [[2015 LoL KeSPA Cup]] where they lost 2-0 in the quarterfinals to CJ Entus. Jin Air also competed at [[IEM Season X - San Jose]] but they lost 2-0 to [[Counter Logic Gaming]] in the semifinals.
+
+===2016 Season===
+Jin Air started the [[LCK/2016 Season/Spring Season|2016 LCK Spring Split]] strong, notably upsetting reigning world champions [[SK Telecom T1]] on the first week. For the majority of the split, Jin Air held onto second place only behind the [[ROX Tigers]], but fell down to fourth by the end of the season. Still qualifying for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], they beat the [[Afreeca Freecs]] 2-0 before falling 3-1 to eventual winners [[SK Telecom T1]]. This gave them a fourth place finish for the split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], Jin Air went 7-11 in series score, netting them seventh place overall in the split. This made them barely miss the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]] for the season. However, their fourth place finish from last season gave them a berth into the first round of the [[2016 Season Korea Regional Finals]]. In a close set against the [[Afreeca Freecs]], Jin Air was defeated 3-2, ending their season.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Absolut&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Absolut」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Absolut
+|name=Luis&nbsp;Felipe Carvalho
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1999
+|birth_date_month=April
+|birth_date_day=26
+|favchamp=Varus
+|favchamp2=Tristana
+|favchamp3=Aphelios
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR''': Absolut#GOAT1, RESENHUDO#ABS
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://kick.com/absoluttlol
+|facebook=https://www.facebook.com/AbsolutAD
+|twitter=Absoluttlol
+|instagram=absoluttlol
+|youtube=https://www.youtube.com/@absolutlol1
+|tiktok=absoluttlol
+|lolpros=https://br.lolpros.gg/player/absolut
+|deeplol=https://www.deeplol.gg/pro/Absolut
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+* Was known in Brazilian solo queue as a full-on rager, even being called out on that by [[YoDa (Felipe Noronha)|YoDa]] during a [[CBLOL/2017 Season/Split 1 Promotion|CBLOL Promotion]] game day.<ref>[https://www.youtube.com/watch?v=Lj3PHlwqirI YoDa and Brucer trash talking Absolut (Portuguese/Video)] ''youtube.com''</ref> Months later, during an interview with caster [[Melao13]], [[Dioud]] stated that '''Absolut''' was getting a better mindset, focusing more on his game and synergy with his teammates.
+* A '''"Pro vs. Pro"''' trashtalk session on [[Brazilian Challenger Circuit/2017 Season/Split 1 Playoffs|Challenger Circuit Finals]] with him and [[Ceos]] resulted in fans nicknaming him '''"Skull Crusher"'''.<ref>[https://clips.twitch.tv/TameWealthyYakDatBoi Pro vs Pro - INTZ Genesis vs T Show - Circuito Desafiante (Portuguese/Video)] ''clips.twitch.tv''</ref>
+* Used to often play duo with [[Bulecha]], who he nicknamed '''"Bulinhas"''' due to their age difference. <ref>[https://www.youtube.com/watch?v=OPO7KTkoX94 ABSOLUT e BULECHA ENTENDENDO O SMOLDER (BONECO NOVO) (Portuguese)] ''youtube.com''</ref>
+* Became a fulltime LoL streamer in Brazil after retiring. He is often referred as "Vovô" (Grandfather) by his fanbase due to looking a lot older than he actually is.<ref>[https://youtu.be/PvMPPIU7WJE JUKES DEU COACH PRO VOVÔ ABSOLUT! ELE VIROU UM PLAYER MELHOR? ESSE CONTEÚDO FOI PREMIUM DEMAIS (Portuguese)] ''youtube.com''</ref>
+* His '''Kings Lendas''' team name comes from a pun with [[Los Grandes]] and his nickname "Vovô" (often reduced just to "Vô" just as Grandfather and Granpa in English).
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

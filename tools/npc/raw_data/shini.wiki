@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shini&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.246Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shini」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Shini
+|name=Diogo Rogê Moreira
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1997
+|birth_date_month=July
+|birth_date_day=14
+|favchamp=Gragas
+|favchamp2=Lee Sin
+|favchamp3=Rek'Sai
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR''': m2stic#1818 <br>'''CN:''' BR01
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/shinimon
+|facebook=https://www.facebook.com/Shiniboy
+|twitter=Shinimon14
+|instagram=shinimon14
+|youtube=https://www.youtube.com/user/TheMrOgoid
+|sponsor=[https://playersbank.com.br Players Bank]
+|lolpros=https://br.lolpros.gg/player/shini
+|deeplol=https://www.deeplol.gg/pro/Shini
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+On March 19, 2015, shortly after the end of [[Xtreme League/2015 Season/February|Xtreme League 2015 Season - February]], Shini was banned from competing in official Riot tournaments due to Elo boosting, after 2 years at the competitive scene. After the announcement, he stated he wouldn't play competitively anymore because he didn't like the routine of a pro player, and he would continue boosting.
+On August 29, he was announced as the top laner for [[g3nerationX]] to play at the [[Brasil Mega Arena/Sao Paulo 2015|BRMA Sao Paulo 2015]] (which is not a Riot tournament, so he is eligible to play). After the tournament, he stated that he accepted g3x's invitation because of his friendship with the team owner and players, but still wouldn't return to competitive play.
+On May of 2016, he returned to competitive play.
+
+== Trivia ==
+* Recognized for his skill on {{ci|Gragas}}; he once revealed that he asked famous Brazilian streamer and {{ci|Gragas}} one-trick [[Gragolandia]] for tips.
+* Often nicknamed '''Craque Shini''' when people refer to him.<ref>[https://x.com/ilhadaslendas/status/1778194847087906919 Ilha das Lendas' X Post] ''x.com''</ref> 
+* He is known since the start of his career for applying the full clear strategy in most of the games he plays. Even after his "retiring" in 2021 he kept on recording gameplays for Youtube explaining his process of thought when playing. <ref>[https://www.youtube.com/watch?v=tLefHOwiCKA O SEGREDO DO FULL CLEAR DO CRAQUE! (Portuguese)] ''youtube.com''</ref>
+* His nickname comes from his old nickname '''Shinigami''', which he used in RPGs that he played when he was about 12-13 years old.
+* He has a tattoo of the character '''Genos''' from [[wikipedia:en:One Punch Man|One Punch Man]] in his right arm.<ref>[https://x.com/LOUDgg/status/1915876048161431965 LOUD's X Post] ''x.com''</ref>
+* He is often nicknamed "Rato de Bigode" (Mustache Mouse) due to his large mustache by his friends and the Brazilian community.
+* He is known for often mocking [[paiN Gaming]] after they lose a game in social media with a meme originated from the [[wikipedia:en:Joker (2019 film)|Joker movie]].<ref>[https://x.com/Shinimon14/status/1888724315866055114 Shini's X Post] ''x.com''</ref>
+** This led to [[LOUD]] fans making montages of him in the LOUD jersey and praising him almost like he was part of the team.<ref>[https://x.com/sandr7n/status/1799498946668101849 Sandrin's X Post] ''x.com''</ref>
+** Ironically, he joined LOUD as jungler in March 2025.
+* His announcement as a streamer in [[INTZ]] parodied a scene also from the [[wikipedia:en:Joker (2019 film)|Joker movie]].<ref>[https://x.com/INTZ/status/1748450266767089773 INTZ's X Post] ''x.com''</ref>
+* Is a recurring guest in [[Ilha das Lendas]] LTA and CD co-streams.
+* His '''Kings Lendas''' team name comes from a pun with [[Karmine Corp]] and a meme about spit she accidently created during a IDL co-stream.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+===Images===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

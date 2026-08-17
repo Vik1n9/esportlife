@@ -1,0 +1,6 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Naru&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.042Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Naru」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Naru (Koray Bıçak)
+|player2=Naru (Agustín Sebben)
+}}

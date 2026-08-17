@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lep&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.759Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEP」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Lep
+|name=Pedro&nbsp;Luiz Marcari
+|pronoun=He
+|image=RED LEP 2018 Split 2.png
+|checkboxAutoImage=No
+|country=Brazil
+|nationality=Brazilian
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=February
+|birth_date_day=28
+|favchamp=Irelia
+|favchamp2=Jax
+|favchamp3=Fiora
+|checkbox1=No
+|compID1=Irelia
+|compID2=LEP
+|checkboxComp=No
+|ids=KaBuM LEP NVIDIA, KaBuM LEP NTC, neXi LEP, Insight Irelia, FAN DO TIERWULF,
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://fb.gg/lep1irelia
+|facebook=https://www.facebook.com/lep1irelia
+|twitter=lep139
+|instagram=lep139
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''LEP'''.
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Inactive
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Pedro Luiz '''"LEP"''' Marcari began playing online games when he was 7-8 years old, when he started playing games in the MMORPG genre. In early 2011, LEP picked up League of Legends and has been "completely hooked" on the MOBA genre ever since.
+
+== Trivia ==
+* Known for his {{ci|Irelia}},{{ci|Shen}} and {{ci|Malphite}} play.
+* Portrayed as {{ci|Irelia}} in the CBLoL 2015 official wallpaper.
+* Was considered by many as the best Brazilian Top Laner, due to his flexibility and diverse champion pool.
+* Infamously remembered for his performances in the [[2014 Season World Championship]]:
+** After a bad Teleport play against [[Cloud9]], the Brazilian community started to call any bad TP play a "'''LEP TP'''" or "'''teLEPort'''".
+** Had a 0/16/2 K/D/A after 3 games, which became a meme in the community after the broadcast showed the statline together with a single shot of Lep.<ref>[https://youtu.be/djMnEUKGKRY?t=75 KBM vs NWS - 2014 World Championship Groups C and D D3G4] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===2012===
+* September 14 - [http://www.youtube.com/watch?v=zs0dRnjCjE0 Tudo Random #14 com Insight gstv1, Insight Piru, Insight Irelia, Insight Takeshi, e Insight Danagorn (Portuguese)(video)] ''with TobocoTV''
+===2014===
+* April 10 - [http://www.gosugamers.net/lol/features/3815-interview-with-kabum-lep-the-top-laner-of-the-wcg-brazil-champions Interview with KaBuM! LEP, the Top Laner of the WCG Brazil champions] ''with GosuGamers''
+* September 26 - [http://www.youtube.com/watch?v=3NxVW9pQJPg LEP from Kabum discusses what they're learning and their experience at worlds (Video)] ''with onGamers''
+* September 27 - [http://www.youtube.com/watch?v=d1Dkf43ZiaY 2014 World Championship Interview - LEP (KaBuM Top Lane) (Video)] ''with OGN Global''
+* September 28 - [http://www.youtube.com/watch?v=_prPaD7bT0s KaBuM LEP after final match - "We really feel that international wild card is important at Worlds" (Video)] ''with onGamers''
+* October 25 - [http://www.paravine.com/2014/10/interview-kabum-e-sports/ Interview with KaBuM! e-Sports (English)] [http://www.paravine.com/2014/10/entrevista-ao-kabum-e-sports/ (Portuguese)] ''with Paravine''
+=== Images ===
+<gallery>
+irelia.jpg|LEP
+KaBuM LEP.png|KaBuM LEP
+KBM LEP 2014 WCS.jpg|KBM LEP 2014 Worlds
+KBO LEP CBLOL2015.jpg|KBO LEP 2015 Split 2
+KBM LEP 2016 Summer.png|KBM LEP 2016 Split 1
+CNB LEP 2016 Winter.jpg|CNB LEP 2016 Split 2
+CNB LEP 2017 Winter.png|CNB LEP 2017 Split 2
+RED LEP 2018 Spring.png|RED LEP 2018 Split 1
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tabe&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.343Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tabe」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Tabe
+|name=Wong Pak Kan
+|nativename=王柏勤
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Hong Kong
+|residency=China
+|birth_date_year=1991
+|birth_date_month=January
+|birth_date_day=18
+|favchamp=Annie
+|favchamp2=Morgana
+|checkbox1=No
+|checkboxComp=No
+|ids=TabeTabe (NA), CCM灬MikakoTabe, MisS熙灬,  SPG Tabe (KR)
+|checkboxAutoTeams=Yes
+|team=Royal Never Give Up
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://v.17173.com/live/17398433/2173089835
+|twitter=Tabe_Martin
+|weibo=https://weibo.com/n/Tabe解说
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Analyst
+|prev2=Support
+|prev3=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Tabe ran away from home for competitive gaming in 2010. He initially played as the AD carry for the Chinese team [[Invictus Gaming]]. In April 2012, he announced his departure from iG, but with his contract still not terminated, he was unable to join any other teams. During this period he became the first Chinese mainland player to stream on Twitch TV. In July, he joined [[Noah's Ark]] and changed his position to support. The five NA players later transferred to OMG. Later in 2012, he shifted organizations once again to join [[Royal Club]]. In March 2013, he decided to retire from competitive gaming. After two months, Tabe returned to [[Royal Club]] as support due to the demand of his friend [[Wh1t3zZ]] and the CEO of Royal Club, Tian Ci. On October 13, 2013, Tabe retired from competitive gaming once more after the [[2013 World Cyber Games/Qualifiers/China|WCG 2013 China Qualifier]].<ref>[http://t.qq.com/p/t/276758119469230 Tabe's Weibo Post]''qq.com''</ref>
+
+== Trivia ==
+* Original summoner's name was '''MikakoTabe'''.
+* Fluently speaks English.
+* His favorite player is [[Doublelift]].
+* Simultaneously achieved top ten solo queue rankings on the North American and Chinese servers.
+* Known for {{ci|Vayne}} and {{ci|Ashe}} play in his early career.
+* Stepped down from AD as he knew that his AD skill was bad and tactics being very important, he moved to support and lead his team.
+* Known for playing unconventional supports, such as {{ci|Annie}} and {{ci|Cassiopeia}}.
+* Popularized support {{ci|Annie}} play style all over the world.
+* He loves singing, as well as his friends in the team do; [[Lucky (Liu Jun-Jie)|Lucky]] and [[Uzi (Jian Zi-Hao)|Uzi]].
+* He was offered admission to The University of Hong Kong, but denied it for competitive gaming.
+* He was supported by [[Wh1t3zZ]] and [[ChrIs (Siu Keung)|ChrIs]] after running away from his home.
+* He once considered the Chinese eSports scene to be terrible, as a result he retired from it.
+* Previously owns 3 shops selling Gaming Gear, Men's Clothing, and Snacks.
+* Briefly banned by the Association of China E-sports for 3 reasons: <ref>[http://lol.duowan.com/1311/249660825868.html 屡次触犯联盟规则 “封杀”Tabe不仅只因炮轰联盟]''lol.duowan.com.com''</ref>
+** 1. Defaming League, Tournaments or Esports (referring to interview at S3 Finals);
+** 2. Leave Royal Club before end of contract and [[2014 LPL Summer Playoffs]], directly resulting in Royal Club's forfeit for unable to field a complete roster.
+** 3. According to [[CC Club]] rosters: Poaching club players in public in violation of ACE transfer rules.
+* A few months after his ban was lifted, he became the coach of [[Stand Point Gaming]].
+* During Season 3 Worlds, Tabe and his team had no money to hire a translator or manager to arrange scrims. Tabe would have to knock on other teams' doors to schedule scrims as he was the only member of the team that can speak English.<ref>[https://www.acfun.cn/v/ac2058838 鳄鱼哥神超7月28号晚直播讲述电竞生涯：没拿世界冠军很遗憾] ''acfun.tv''</ref>
+* Was previously hated by almost every netizens in China after his unprofessional behavior as a caster in [[2015 Season World Championship]].
+** In Group Stage Day 8, he intentionally spoke about [[Invictus Gaming]]'s strategy on the analyst desk, saying that [[Mafa]] told him that he plans to pick [[Hecarim]], [[Kalista]] and [[Kennen]] for [[Kakao]], [[Kid]] and [[Kitties]] respectively, as a "secret weapon". In the game with [[Fnatic]], IG picked Kalista for Kid, but Kennen was counter-picked by Fnatic, forcing IG to abandon the whole plan.
+** It is reported that [[Misaya]], in a live show, commented that "What will it be in the era of ROC if Tabe did something like this", hinting that Tabe was just like traitors of Chinese people (汉奸).
+** Tabe was teased by netizens as "Wang Jingwei in esport" because of this incident.
+* Is the first coach in the world to reach MSI with three different teams: [[RNG]], [[BLG]] and [[Anyone's Legend]].<ref>[https://x.com/HupuEsports/status/1932076163859632634 Hupu Esports' X Post] ''x.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+===External Links===
+* [http://www.youtube.com/watch?v=7spysn-1sco Tabe's Thoughts]
+{{PlayerPageEnd}}

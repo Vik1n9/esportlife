@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yagao&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.923Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yagao」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Yagao
+|name=Zeng Qi
+|nativename=曾奇
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1998
+|birth_date_month=October
+|birth_date_day=19
+|favchamp=Zoe
+|favchamp2=Twisted Fate
+|favchamp3=Taliyah
+|favchamp4=Azir
+|checkbox1=Yes
+|favchamp5=LeBlanc
+|favchamp6=Ahri
+|favchamp7=Syndra
+|compID1=YaGao
+|checkboxComp=No
+|ids='''CN:''' 左名豪<br>'''KR:''' YaGao<br>Yagao12
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/232576
+|weibo=https://www.weibo.com/u/5256896313
+|deeplol=https://www.deeplol.gg/pro/Yagao
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''YaGao'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2017 Season===
+YaGao started playing professionally for the amateur team [[Moss Seven Club]]. He and the team placed third during [[Tencent Games Arena Hero of Cities/Season 12|TGA Hero of Cities Season 12]], earning a spot in the [[LSPL/2017 Season/Summer Season|2017 LSPL Summer Season]]. The team finished the split with a 7-15 match record, ranking close to the bottom of the standings. At the end of the season, YaGao left the team and joined [[JD Gaming]] as their starting mid laner.
+
+== Trivia ==
+* His ID '''YaGao''' (牙膏) means "Toothpaste" in Chinese.
+** His original ID on the Chinese server is '''黑人牙膏''', the old Chinese name of the [[wikipedia:en:Darlie|Darlie toothpaste brand]].
+* Good friends with [[Knight (Zhuo Ding)|Knight]]. They are from the same city and met in an internet cafe before they became professional players.
+* Broke the LPL record for percent damage to champions with {{ci|Zoe}} on Jan 29, 2018. He did 57.9% of his team's total damage to champions.
+** This stats got surpassed by [[huanfeng]]'s Jinx in 2021 Spring Playoffs with a 66.2%.
+* Considered to be the best {{ci|Zoe}} and {{ci|Azir}} player in China.
+* Infamously known for his {{ci|ryze}}, holding an extremely low win-rate with this champion. Also known for a 8-game losing streak with {{ci|ryze}} in 2019 season.
+=== Statistics ===
+* Reached 1000 Kills in the LPL in February 26, 2021.
+** The 25th player to reach 1000 Kills in the LPL.
+* Reached 1500 kills in the LPL on August 07, 2022.
+** The 17th player to reach 1500 kills in the LPL.
+* Reached 2000 kills in the LPL on March 07, 2024.
+** The 11th player to reach 2000 kills in the LPL.
+* Reached 3000 assists in the LPL on February 04, 2023.
+** Was the 18th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on March 16, 2024.
+** The 13th player to reach 4000 assists in the LPL, after [[meiko]], [[Pyl (Chen Bo)|Pyl]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], [[cold]], [[Doinb]], [[Crisp]], [[LvMao]], [[Missing]], [[Scout]], and [[Flandre]].
+* Reached 500 games in the LPL on February 22, 2023
+** The 16th player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on February 4, 2024
+** The 10th player to reach 600 games in the LPL after [[Rookie]], [[meiko]], [[xiaohu]], [[Flandre]], [[Doinb]], [[Scout]], [[Ming (Shi Sen-Ming)|Ming]], [[Lwx]], and [[Crisp]].
+* Reached 300 wins in the LPL on February 27, 2023.
+** Was the 14th player to reach 300 wins in the LPL after [[Clearlove]], [[meiko]], [[Uzi (Jian Zi-Hao)|Uzi]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], [[Flandre]], [[Ming (Shi Sen-Ming)|Ming]], [[xiye]], [[Lwx]], [[JackeyLove]], and [[Crisp]].
+* Reached 400 wins in the LPL on June 07, 2024.
+** Was the 7th player to reach 400 wins in the LPL after [[meiko]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], and [[JackeyLove]].
+{{PlayerStatsTrivia}}
+
+===Individual Awards===
+* LPL Finals MVP (2022 Summer)
+* LPL 3rd All-Pro Team x1 (Summer 2023)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

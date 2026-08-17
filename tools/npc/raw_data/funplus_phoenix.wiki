@@ -1,0 +1,123 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FunPlus%20Phoenix&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.082Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「FunPlus Phoenix」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team |isdisbanded=yes
+|name=FunPlus Phoenix
+|orgcountry= China 
+|country=
+|region=CN
+|image=FunPlus Phoenixlogo_square.png
+|headcoach= 
+|analysts=Gu Xiong-Cheng
+|manager= 
+|captain= 
+|website= 
+|youtube= https://www.youtube.com/c/FunPlusPhoeniXOfficial
+|facebook= 
+|twitter= FPX_Esports
+|instagram=fpx.esports
+|weibo=https://weibo.com/funplusx
+|discord= 
+|lolpros=https://lolpros.gg/team/funplus-phoenix
+|snapchat= 
+|irc=
+|sponsor= [http://www.funplus.com/en/ FunPlus]<br>[https://www.bmw.com/en/index.html BMW]<br>[https://www.oppo.com/ OPPO]<br>[http://www.puma.com/ PUMA]<br>[https://www.huya.com/ Huya]<br>[https://weibo.com/n/TabulaRasa_白板说 Tabula Rasa]<br>[http://www.yukukaoyu.com/xwzx/1192.html Yuku Grilled Fish]<br>[https://hermanmiller.com/ Herman Miller]
+|created= 2017-12-20
+|trades=
+|rosterphoto=FunPlus Phoenix 2025 Split 2.png
+|otherwikis=cod,pubg,fortnite,valorant
+}}{{TOCRWI}}
+
+'''FunPlus Phoenix''' is a Chinese esports organization owned by '''FunPlus'''. 
+
+== History ==
+
+=== 2017 Season ===
+On 20 December 2017, FunPlus' esports division announced the creation of FunPlus Phoenix (FPX) and its acquisition of a spot in the League of Legends Pro League (LPL). FPX's inaugural roster consisted of top laner Kim "[[GimGoon]]" Han-saem, jungler Hu "[[Pepper (Hu Zhi-Wei)|Pepper]]" Zhi-Wei, mid laner Feng "[[bing (Feng Jin-Wei)|bing]]" Jin-Wei, bot laner Lin "[[Lwx]]" Wei-Xiang, and support Liu "[[Crisp]]" Qing-Song. The team's first tournament was the [[Demacia Championship 2017]], which they placed 9th–15th after losing to Team WE in the third and final round of Group E.
+
+=== 2018 Season ===
+For the [[LPL 2018 Spring|2018 LPL Spring regular season]], FPX was placed in the league's western conference. Despite adding veteran mid laner Yu "[[Cool]]" Jia-Jun, FPX finished 5th in their conference with a 9–10 record and did not qualify for [[LPL 2018 Spring Playoffs|playoffs]]. Chen "[[Alex (Chen Yu-Ming)|Alex]]" Yu-Ming replaced Pepper as the team's primary jungler for the [[LPL 2018 Summer|2018 LPL Summer regular season]]. FPX finished 4th in their conference with an 8–11 record, qualifying for [[LPL 2018 Summer Playoffs|playoffs]] as one of the bottom seeds. They were promptly defeated by [[JD Gaming]] in the first round.
+
+=== 2019 Season ===
+In preparation for the [[LPL 2019 Spring|2019 LPL Spring regular season]], FPX revamped their roster, adding jungler Gao "[[Tian]]" Tian-Liang and veteran mid laner Kim "[[Doinb]]" Tae-sang. The team massively improved, placing 1st in the regular season with a 13–2 record and getting an automatic bye to the [[LPL 2019 Spring Playoffs|semifinals]]. However in an upset result, FPX lost 2–3 to JD Gaming in the semifinals, and advanced to the third place decider match rather than the finals. FPX defeated [[Topsports Gaming]] 3–1 in the third place decider match.
+
+Despite the disappointing end to the spring split, FPX made no roster changes and picked up right where they had left off in the [[LPL 2019 Summer|2019 LPL Summer regular season]], dropping only a single series to [[Invictus Gaming]], and losing only four games throughout the entire split en route to a first place finish. The team also represented China at [[Rift_Rivals_2019/LCK-LPL-LMS-VCS|Rift Rivals 2019]], but although they went 1-1 in the group stage and won both of their knockout stage games, Korea emerged victorious over China in the finals by a 3-1 score. 
+
+Their regular season record would again give FPX a bye into the semifinals of the [[LPL/2019_Season/Summer_Playoffs|LPL 2019 Summer Playoffs]], where they would exorcise the previous split's demons with a 3-1 victory over [[Bilibili Gaming]]. This sent them to the finals against Chinese juggernaut [[Royal Never Give Up]], where they would again prevail 3-1, the first LPL championship for both the organization and all five players. 
+
+FPX's victory gave them China's #1 seed for the [[2019 Season World Championship]], where they were drawn into Group B alongside Europe's [[Splyce]], the LMS's [[J Team]] and Vietnam's [[GAM Esports]]. FPX was considered a lock to top the group and a contender for the Worlds title itself, with most analysis being focused on which team would get second. However, FPX looked shaky in the group stage, dropping a game to both Splyce and J Team and needing to win a tiebreaker over the European representative to secure the first seed. In the knockout stage, they regained their form, handily defeating [[Fnatic]] 3-1, then defeating defending World Champions [[Invictus Gaming]] in a chaotic but ultimately decisive 3-1 series. This sent them to the finals against Europe's number one seed [[G2 Esports]], who were looking to add a worlds title to their trophy case, having won both of their domestic splits and [[MSI 2019]]. Although most analysts predicted a close, G2-favored series, FPX proved their true dominance by sweeping them in a convincing style, giving China their second straight World Championship. They were also the first organization since [[SKT]] in Season 3 to win a World Championship in their first ever Worlds appearance, and the first since [[SKT]] in Season 3 to win Worlds with a roster of players all making their first Worlds appearance.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Emily|cn|Yang Yan (杨艳)|'''Chief Executive Officer'''|newteam=none}}
+{{listplayersp|Jerah|cn|Liang Chao (梁超)|'''Team Assistant'''|newteam=none}}
+{{listplayersp|Green|cn|Luo Ge-Lin (罗格霖)|'''Manager'''|newteam=none}}
+{{listplayersp|Damon|cn|Quan Zhong-He (权仲赫)|'''Leader'''|newteam=none}}
+{{listplayer|Mingzai|cn|Liu Ming (刘明)|'''Head Coach'''|newteam=none}}
+{{listplayer|Yondaime|cn|Luo Peng (罗鹏)|'''Coach'''|newteam=OMG}}
+{{listplayer|May (Bai Ren-Jie)|cn|Bai Ren-Jie (柏仁杰)|'''Coach'''|newteam=Anyone's Legend}}
+{{listplayer|chengz|cn|Ye Sheng-Liao (叶胜燎)|'''Head Coach'''|newteam=OMG}}
+{{listplayer|QingSi|cn|He Wei (贺维)|'''Head Coach'''|newteam=none}}
+{{listplayer|Sin (Yeon Hyeong-mo)|kr|Yeon Hyeong-mo (연형모)|'''Head Coach'''|newteam=jdg}}
+{{listplayer|Mouse|cn|Chen Yu-Hao (陈宇浩)|'''Assistant Coach'''|newteam=none}}
+{{listplayer|ikRyong|kr|Kim Geun-hyeong (김근형)|'''Analyst'''|newteam=none}}
+{{listplayersp|Denny|cn|Cao Feng (曹锋)|'''Manager'''|newteam=none}}
+{{listplayer|Juicy|cn|Ye Sheng-Liao (叶胜燎)|'''Head Coach'''|newteam=TT CN}}
+{{listplayer|Java (Wei Yi-Fan)|cn|Wei Yi-Fan (魏一帆)|'''Assistant Coach'''|newteam=JDM}}
+{{listplayersp|Sean|cn|Gu Xiong-Cheng (顾雄程)|'''Analyst'''|newteam=none}}
+{{listplayer|Lyn|kr|Kim Da-bin (김다빈)|'''Coach'''|newteam=lsb}}
+{{listplayer|Steak|tw|Chou Lu-Hsi (周律希)|'''Head Coach'''|newteam=KCorp}}
+{{listplayersp|Green|cn|Luo Ge-Lin (罗格霖)|'''Manager'''|newteam=FPB}}
+{{listplayer|Despa1r|cn|Zhou Li-Peng (周李鹏)|'''Assistant Coach'''|newteam=omg}}
+{{listplayersp|Crystal|tw|Pi Ling-Li (畢怜禮)|'''Manager'''|newteam=CTBC Flying Oyster}}
+{{listplayer|REFRA1N|tw|Chen Kuan-Ting (陳冠廷)|'''Coach'''|newteam=Impunity}}
+{{listplayer|River (Wang Yang)|cn|Wang Yang (汪洋)|'''Assistant Coach'''|newteam=FPB}}
+{{listplayersp|JiGwang|cn|Cui Zhi-Guang (崔智广)|'''Leader'''|newteam=FPB}}
+{{listplayer|Despa1r|cn|Zhou Li-Peng (周李鹏)|'''Coach'''|newteam=FPB}}
+{{listplayer|WarHorse|tw|Chen Ju-Chih (陳如治)|'''Head Coach'''|newteam=TES}}
+{{listplayer|Hachani|kr|Ha Seung-chan (하승찬)|'''Coach'''|newteam=Architect}}
+{{listplayer|MingZhe|cn|Zhang Yu (张宇)|'''Head Coach'''|newteam=ROG}}
+{{listplayer|BSYY|cn|Luo Sheng (罗盛)|'''Head Coach'''|newteam=TOP}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+FunPlus Phoenix Old Logo.png|Previous Logo<br>(- Sep 2019)
+FunPlus Phoenix Old Logo 2.png|Previous Logo<br>(Sep 2019 - Dec 2020)
+</gallery>
+
+===Rosters===
+<gallery>
+2019 FPX Spring1.PNG|FPX's LPL 2019 Spring Roster
+FPX 2020.jpg|FPX's LPL 2020 Spring Roster
+FPX 2020 Summer.jpg|FPX's LPL 2020 Summer Roster
+FPX 2021 Spring.jpg|FPX's LPL 2021 Spring Roster
+FPX 2021 Summer.jpg|FPX's LPL 2021 Summer Roster
+FPX 2022 Spring.jpg|FPX's LPL 2022 Spring Roster
+FPX 2023 Spring.jpg|FPX's LPL 2023 Spring Roster
+FPX_2025_Split_1.jpg|FPX's LPL 2025 Split 1 Roster
+FunPlus Phoenix 2025 Split 2.png|FPX 2025 Split 2
+</gallery>
+
+==External Links==
+
+==References==
+<references />
+{{World Championship Champions Navbox|2019 Season}}

@@ -1,0 +1,191 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Misfits%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.565Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Misfits Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Misfits Gaming
+|orgcountry= United States
+|country= Europe
+|region= Europe
+|partner= [https://www.msfio.gg Misfits Gaming Group]
+<!-- Staff -->
+|headcoach=
+|owner= 
+<!-- Social Media -->
+|website= https://misfitsgaming.gg
+|youtube= https://www.youtube.com/channel/UCNecIo8WNi4xlc0DXdijeEw
+|facebook= https://www.facebook.com/MisfitsGG
+|twitter= MisfitsggLoL
+|snapchat= MisfitsGG
+|instagram= misfitsgglol
+|subreddit= MisfitsGG
+|discord = https://discord.com/invite/misfits
+|twitch-team= https://www.twitch.tv/team/misfitsgaming
+|tiktok= misfitslol
+|lolpros=https://lolpros.gg/team/misfits-gaming
+|irc= 
+<!-- History -->
+|created= 2016-05-18
+|disbanded= 2022-12-16
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= apex,fortnite,vg
+}}{{TOCRWI}}
+
+'''Misfits Gaming''' is a European team. They were previously known as '''Misfits'''.
+
+== History ==
+'''Misfits''' was formed in May 2016 to play in the [[EU Challenger Series/2016 Season/Summer Qualifiers|EUCS Summer Qualifiers]] after their former parent organization [[Renegades]] was [[List of Competitive Rulings|banned]] from competitive play and so could no longer compete under the name [[Renegades: Banditos]]. In the qualifiers, they finished first in their group and then defeated [[EURONICS Gaming]] 3-1 in the finals to successfully qualify for the [[EU Challenger Series/2016 Season/Summer Season|Summer Season]].
+
+===2016 Season===
+Competing with an initial roster of top laner [[Alphari]], jungler [[Wisdom]], mid laner [[Selfie]], AD carry [[Hans sama]], and support [[IgNar]], the Misfits roster brought a great deal of experience to the table, most notably Wisdom's [[2015 World Championship]] runner-up finish. Little stood in the way of the team as they accumulated a 9-1 [[EU_Challenger_Series/2016_Season/Summer_Season|regular season]] record and rolled to an undefeated first place finish in the [[EU_Challenger_Series/2016_Season/Summer_Playoffs|playoffs]]. This earned a berth in the [[League_Championship_Series/Europe/2017_Season/Spring_Promotion|2017 Spring Promotion]] tournament, where Misfits defeated [[FC Schalke 04]] in the final qualifying round after an opening loss to [[Origen]]. 
+
+Prior to the start of the following LCS season, Wisdom and Selfie departed the team and were replaced by former [[KT Rolster]] star [[KaKAO]] and former [[Origen]] and [[Unicorns of Love]] mid laner [[PowerOfEvil]]. 
+
+===2017 Season===
+==== Spring Split ====
+For their first season in EU LCS Misfits were drawn into group A with the defending champions [[G2 Esports]], [[Fnatic]], [[Team ROCCAT]], and [[Giants Gaming]]. They started great into the [[EU LCS/2017_Season/Spring_Season|Spring Split]] going with a 7-1 record after 6 weeks but lost 4 of their remaining 5 matches going into playoffs. Although their strong start resulted in them still finishing their group in 2nd place they continued to struggle in playoffs, barely winning 3-2 against [[Splyce]] in the quarterfinals of playoffs. After being beaten comfortably by Group B winners [[Unicorns of Love]] in semifinals they were cleanly swept by Fnatic in third-place match.
+
+==== Summer Split ====
+In Summer Split they were in a nearly identical group A again with [[Ninjas in Pyjamas]] replacing the relegated Giants. They replaced their imported jungler [[KaKAO]] with [[Maxlore]] from [[Team ROCCAT]] but their [[EU LCS/2017_Season/Summer_Season|Summer Split]] went similar to Spring starting off 4-1 in the first 4 weeks.<ref>[http://teammisfits.gg/misfits-replace-kakao-with-maxlore/ Misfits replace KaKAO with Maxlore] ''teammisfits.gg''</ref> Despite going 2-5 in the next week they secured playoffs in week 9 where they swept past Unicorns of Love and winner of their group Fnatic 3-1 to face G2 Esports in their first EU LCS final. They could however not manage to stop G2 from winning their 4th consecutive title being convincingly beaten 0-3 but qualified for the [[2017 World Championship]] via [[2017_Season/Championship_Points/Europe|championship points]].
+
+==== 2017 World Championship ==== 
+At the World Championship they were drawn into group D with North America's first seed [[TSM]], LPL thrid seed [[Team WE]], and LMS First seed [[Flash Wolves]]. After going 2-1 in week 1 they went 1-2 on the deciding day but were lucky that TSM got upset by FW which meant that the played a tiebreaker against TSM for a place in quarterfinals. After winning the tiebreaker convincingly they drew the back-to-back champions from LCK [[SK Telecom T1]] and surprised many by giving them a good fight and picking aggressive botlane duos but lost the series 2-3.
+
+=== 2018 Season ===
+==== Spring Split ====
+During the offseason they signed [[Sencux]] and [[Mikyx]] from [[Splyce]] to replace [[PowerOfEvil]] and [[igNar]] who had left for North America and Korea, respectively.<ref>[https://twitter.com/MisfitsGG/status/933854077712248832 Misfits Gaming's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/PowerOfEvilLoL/status/933002271104921600 PowerOfEvil's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/IgNarLoL/status/932608779308249088 IgNar's Tweet] ''twitter.com''</ref> Consistently decent performances in [[EU LCS/2017_Season/Spring_Season|Spring Split]] led them to a 3-way-tie for 5th place with a 8-10 record in which they came out worst and outside of playoff position due to having the worst H2H record.
+
+==== Summer Split ====
+As the only team to stick to traditional team compositions they started off strongly in [[EU LCS/2018 Season/Summer Season|Summer Split]] beating every team in the first round. They could however not keep their advantage for the rest of the split and dropped to 5th place and a 11-7 record. Therefore it was surprising that they managed to become the first team to beat [[G2 Esports]] before the finals of playoffs by sweeping them 3-0 in quarterfinals. After getting beating 1-3 by both 1st place [[Fnatic]] in semifinals and 2nd place [[Team Vitality]] in third-place match they went into [[EU_LCS/2018_Season/Regional_Finals|Regional Finals]] as lowest seed. In Round 1 they faced [[Splyce]] and had a close series but ultimatley lost 2-3 which meant that they failed to qualify for the [[2018 Season World Championship|2018 World Championship]].
+
+=== 2019 Season ===
+On November 20, Riot Games announced Misfits Gaming as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref>
+
+==== Spring Split ====
+For the 2019 Season they decided to rebuild their roster around jungler Maxlore and AD Carry Hans Sama. They brought in veteran [[sOAZ]] who left Fnatic, [[Febiven]] returning from NA LCS team [[Clutch Gaming]] and imported star support [[GorillA]] from LCK team [[Kingzone DragonX]].<ref>[https://twitter.com/MisfitsGG/status/1064984889315991552 Misfits Gaming's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/MisfitsGG/status/1065651986819878913 Misfits Gaming's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/MisfitsGG/status/1065958250821107712 Misfits Gaming's Tweet] ''twitter.com''</ref> This roster was seen as contender for Top 3 in [[LEC]] and seemed to live up to expectations in the first 2 weeks of Spring Split. They continously dropped down the standings throughout the rest of the split though and ended up with a 8-10 record in 8th place outside of playoff contention.
+
+==== Summer Split ====
+Despite a decent start into [[LEC/2019 Season/Summer Season|Summer Split]] Misfits quickly began to stumble again and started experimenting with their roster a bit. This lead to them releasing most of their main roster after week 5 to replace them with the successful academy team of [[Dan Dan]], [[Kirei]], [[LIDER]], [[Neon (Matúš Jakubčík)|Neon]] and [[Hiiva]]. They showed inconsistent performances getting smashed in a few games but also dominating themselves sometimes. After two weeks of focusing on himself Hans Sama was subbed in again and also rookie support [[Doss]] got a chance to show himself. Even with all of these changes it was not enough to recover from the bad start so Misfits finished split and season in 9th place.
+
+=== 2020 Season ===
+After their disastrous last season Misfits went with a new head coach [[Jandro]] and a new approach into the next year and built a team around Febiven. They kept Dan Dan in top lane and picked up rookies [[Razork]] in jungle and [[denyk]] as support from spanish ERL team [[Vodafone Giants.Spain|Vodafone Giants]]. As bot laner [[Bvoy]] joined the team after a few years in LPL/LSPL before playing the last split in south america. After a bad start to [[LEC/2020 Season/Spring Season|Spring Split]] in week 1 against two admittedly good teams they managed to bounce back with two wins against weaker opponents in week 2 and went on a 7 game win streak to finish the first half tied for first. They could not keep this up though and after losing 4 of their last 5 games ended up dropping down to 5th place with a 10-8 record. This meant that they started playoffs in lower bracket without receiving a second chance but despite having a good first game against Rogue they were dominated for the rest of the series to end their split early.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+=== Active ===
+{{TeamMembersCurrent}}
+
+{{EUAcademyRosterNotice}}
+
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Ben Spoont|'''Co-Founder, Owner, & Chief Executive Officer'''}}
+{{listplayersp||us|Laurie Silvers|'''Co-Founder'''}}
+{{listplayersp||us|Mitchell Rubenstein|'''Co-Founder'''}}
+{{listplayersp||us|Hillary Matchett|'''Chief Development Officer'''}}
+{{listplayersp||us|Lagen Nash|'''Chief Revenue Officer'''}}
+{{listplayersp||us|Kai Medeiros|'''Executive Assistant to the CEO'''}}
+{{listplayer|Moose (Hussain Moosvi)|ae|Hussain Moosvi|'''President'''}}
+{{listplayersp||us|Ella Pravetz|'''President, Media & Branding'''}}
+{{listplayersp||us|Christine Seward|'''SVP, Accounting'''}}
+{{listplayersp|||Justin Stefanovic|'''SVP, Partnerships'''}}
+{{listplayersp|||Vas Roberts|'''SVP, Partnerships'''}}
+{{listplayersp||uk|Becca Henry|'''VP, Communications'''}}
+{{listplayersp||rs|Danijel Remus|'''VP, Operations'''}}
+{{listplayersp||us|Jacob Kuhn|'''VP, Activations'''}}
+{{listplayersp||rs|Darko Ikonic|'''Head of Ecommerce'''}}
+{{listplayersp|jakazolo|uk|Matthew McCauley|'''Operations'''}}
+{{listplayersp|TrustyTurkey|ca|Louis Lascelles-Palys|'''Senior Video Editor & Motion Designer'''}}
+{{listplayersp||pl|Aleksandra Łukasiak|'''Senior Graphic Designer and Artist'''}}
+{{listplayersp||rs|Sonja Jovicic|'''Graphic Designer'''}}
+{{listplayersp||rs|Ivan Bogdanovic|'''Graphic Designer'''}}
+{{listplayer|Valkrin|us|Richard Royer|'''Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Deficio|dk|Martin Lynge|'''Director of Misfits Gaming Europe'''|newteam=retired|comment=SPORTFIVE}}
+{{listplayersp|Fro||Johannes Jäger|'''EU Activation Manager'''|newteam=Team Vitality}}
+{{listplayersp|Proxyfox|no|Amalie Reisvaag|'''Streamer'''|newteam=none}}
+{{listplayersp|Garki|de|Michael Bolze|'''General Manager'''|newteam=HTICS}}
+{{listplayersp|Niklas|de|Niklas Geiß|'''Team Manager'''|newteam=HTICS}}
+{{listplayersp|ChaosDAD|hr|Josip Sokolić|'''Analyst'''|newteam=HTICS}}
+{{listplayer|xani|hr|Nikola Zrinjski|'''Assistant Coach'''|newteam=Aegis (French Team)}}
+{{listplayer|Hiiva|fi|Aleksi Kaikkonen|'''Strategic Coach'''|newteam=FNC}}
+{{listplayersp|Professor108|us|Owen Blake|'''Performance Coach'''|newteam=none}}
+{{listplayer|Hatchy|pl|Adrian Widera|'''Sports Director'''|newteam=Z10}}
+{{listplayer|Hajima|pl|Kamil Żmudzki|'''Analyst'''|newteam=WLG}}
+{{listplayer|Carter|gb|Alexander Cartwright|'''Head Coach'''|newteam=VIT}}
+{{listplayer|Amazing (Maurice Stückenschneider)|de|Maurice Stückenschneider|'''Influencer'''|newteam=MOUZ}}
+{{listplayer|F1RE|es|Jose Maria Iznardo|'''Analyst'''|newteam=Cloud9}}
+{{listplayer|Enatron|gr|Ilias Theodorou|'''Head Coach'''|newteam=NASR eSports Turkey}}
+{{listplayer|Crazycaps|nl|Andy Walda|'''Team Manager'''|newteam=none}}
+{{listplayer|Robert Yip|ie|Robert Yip|'''Performance Coach'''|newteam=IMT}}
+{{listplayer|Jandro|es|Alejandro Fernández-Valdés|'''Head Coach'''|newteam=VGIA}}
+{{listplayer|Lou|de|Louis Richter|'''Office and Administration Manager'''|newteam=GamerLegion}}
+{{listplayersp|||Malte Schütte|'''Gaming Arena Manager'''|newteam=Retired|comment=VERITAS Entertainment}}
+{{listplayersp|mightykelland|uk|Matthew Bailey|'''Senior Director of Partnerships, Sponsorship Sales, and Services'''|newteam=none}}
+{{listplayer|InnerFlame|uk|Joe Elouassi|'''Chief Gaming Officer'''|newteam=SK}}
+{{listplayersp||us|Greg Stangel|'''Chief Revenue Officer'''|newteam=Retired|comment=Osiris Media}}
+{{listplayersp|RachQuit|us|Rachael Barisich|'''Creative Executive & Head of Content'''|newteam=FlyQuest}}
+{{listplayer|Jesiz|dk|Jesse Le|'''Player Development Coach'''|newteam=IHG}}
+{{listplayer|Hajinsun|kr|Park Hyun-seon (박현선)|'''Team Translator, Team Manager, & Assistant Analyst'''|newteam=T1}}
+{{listplayer|Returned|us|Stephen Johnson|'''Analytics Tool Developer'''|newteam=Super Nova}}
+{{listplayer|Exi (Jannick Brücher)|de|Jannick Brücher|'''Remote Analyst'''|newteam=none}}
+{{listplayersp|APC|us|Albert Pariente-Cohen|'''Analyst'''|newteam=Retired|comment=American Express}}
+{{listplayer|Hermes|link=Hermes (David Tu)|us|David Tu|'''Strategic Coach'''|newteam=UCI}}
+{{listplayer|PoohManDu|kr|Lee Jeong-hyeon (이정현)|'''Assistant Coach'''|newteam=Sengoku Gaming}}
+{{listplayer|Zen|link=Zen (Timotej Štempihar)|si|Timotej Štempihar|'''Assistant Coach'''|newteam=Misfits Academy}}
+{{listplayer|Ismael Pedraza|co|[[Ismael Pedraza]]|'''Performance Coach'''|newteam=RGE}}
+{{listplayersp|Etosh||Etem Öztas|'''Social Media Manager'''|newteam=Retired|comment=Hurrah}}
+{{listplayersp|Vertigal|fi|Niko Skarp|'''Streamer'''|newteam=none}}
+{{listplayersp|Pulz|es|Andreu Luna|'''Video Editor'''|newteam=none}}
+{{listplayer|Raqo|nl|Max Temminck|'''Graphic Designer'''|newteam=none}}
+{{listplayer|Hiiva|fi|Aleksi Kaikkonen|'''Strategic Coach'''|newteam=NiP}}
+{{listplayer|Paragon|kr|Choi Hyun-il (최현일)|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Empyre|kw|Naser Al-Naqi|'''Head Analyst'''|newteam=Clutch}}
+{{listplayersp|Kat|fr||'''Photo & Video Editor'''|newteam=none}}
+{{listplayersp|Jed|se|Robin Jedhammar|'''Assistant Manager'''|newteam=NiP}}
+{{listplayersp|Northy|uk|Thomas North|'''Social Media Manager'''|newteam=none}}
+{{listplayer|Alicus|eg|Ali Saba|'''General Manager'''|newteam=OpTic Gaming}}
+{{listplayersp|FrozenDawn|uk|Will Burgess|'''Assistant Manager'''|newteam=MnM}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Misfits EUlogo square.png|Misfits Old Logo 1
+Misfits logo (2016 - 2016).png|Misfits Old Logo 2
+Misfits logo (2016 - 2019).png|Misfits Old Logo 3
+Misfits GamingOldlogo square.png|Misfits Old Logo 4
+</gallery>
+
+===Rosters===
+<gallery>
+MSF Summer2016.png|Misfits 2016 Summer Roster
+MSF 2017 Spring.png|Misfits 2017 Spring Roster
+Misfits Gaming Roster 2018 Spring.png|Misfits Gaming 2018 Spring Roster
+MSF 2019 Spring.png|Misfits Gaming's 2019 LEC Spring Roster
+MSF 2020 Spring.png|Misfits Gaming's 2020 LEC Spring Roster
+MSF 2021 Spring.png|Misfits Gaming's 2021 LEC Spring Roster
+</gallery>
+
+==References==
+<references />

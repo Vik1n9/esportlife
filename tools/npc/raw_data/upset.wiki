@@ -1,0 +1,130 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Upset&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.547Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Upset」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Upset
+|name=Elias Lipp
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=December
+|birth_date_day=16
+|favchamp=Jhin
+|favchamp2=Ezreal
+|favchamp3=Kai'Sa
+|favchamp4=Zeri
+|checkbox1=No
+|compID1=Ohq v1
+|checkboxComp=No
+|ids='''EUW''': asdfasdf #0308 <br> FNC Upset#0308 <br> '''NA''': THINKPOSITIVE03#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/upsetger
+|twitter=LoL_Upset
+|instagram=upsetger
+|youtube=https://www.youtube.com/channel/UC0I0an2R-35Yj-cTk1h6BFQ
+|lolpros=https://lolpros.gg/player/upset
+|deeplol=https://www.deeplol.gg/pro/Upset
+|dpmlol=https://dpm.lol/pro/Upset
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Ohq v1
+}}
+==Biography==
+
+== Trivia ==
+* Reached Challenger rank 1 for the first time in May 2017 (Season 7)<ref>[http://twitter.com/EliayLipp/status/859028064998707202/photo/1 Upset, first time Challenger rank 1]</ref>.
+* Top 1 of the EUW solo queue ladder achieved on May 1 2021<ref>[https://twitter.com/FNC_Upset/status/1388552597355778053/photo/1 Upset, EUW sQ rank 1]</ref>.
+* Married Chilean streamer [[Paulaeal]], the former owner of [[Humanoids5]], on August 3, 2021 <ref> [https://twitter.com/FNC_Upset/status/1422580071840296962 Upset's tweet] ''twitter.com''</ref>.
+* Reached 1000 kills in the LEC on March 6, 2022.
+** The 10th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]], [[Wunder]], [[Kobbe]], [[Hans sama]], and [[Odoamne]].
+* Reached 1500 kills in the LEC on January 26, 2025.
+** The 6th player to reach 1500 kills in the LEC after [[Rekkles]], [[Jankos]], [[Caps]], [[Perkz]], and [[Hans Sama]].
+* Dealt 1,804 DMG/M playing {{ci|Zeri}} in their week 8 win against [[Team Vitality]] during [[LEC/2022 Season/Summer Season|LEC Summer 2022]], breaking the seven year old record of [[Pepiinero]].
+
+=== Individual Awards ===
+* 1x LEC Season MVP (Spring 2025)
+* 3x LEC 1st All-Pro Team (Summer 2018, Spring 2022, Spring 2025)
+* 3x LEC 2nd All-Pro Team (Spring 2019, Summer 2019, Spring 2020)
+* 2x LEC 3rd All-Pro Team (Spring 2021, Summer 2021)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

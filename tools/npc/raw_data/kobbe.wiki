@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kobbe&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.053Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kobbe」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kobbe
+|name=Kasper Kobberup
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=21
+|favchamp=Xayah
+|favchamp2=Jhin
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW''': Kobbe<br>'''NA:''' Carsten Mølby
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kobbelol
+|facebook=https://www.facebook.com/KobbeLoL
+|twitter=Kobbe
+|instagram=kobbelol
+|askfm=KobbeLoL
+|lolpros=https://lolpros.gg/player/kobbe
+|deeplol=https://www.deeplol.gg/pro/Kobbe
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Born in Hørsholm, Denmark, Kobbe has lived there his entire life. He started playing video games at an early age due to the influence of his older brother. Before League of Legends, Kobbe enjoyed playing games such as Warcraft 3, World of Warcraft and Diablo 2; he also enjoys playing CS:GO, in which he achieved the rank of Global Elite.
+
+===2014 Season===
+Kobbe started his League of Legends career with [[Denial eSports.Europe]] partway through the season. He only spent a very short time with the team, but during this he participated with the team in the [[2014 EU Challenger Series/Summer/Series 1|EUCS Summer Series #1]], though Kobbe and the team were knocked out in the quarterfinals of the tournament.
+
+After leaving Denial, Kobbe joined [[4everzenzyg]], a full Danish roster, where he played alongside [[Sencux]] and [[Wunderwear]] among others. The team competed in [[2014 EU Challenger Series/Summer Series/Series 2|EU Challenger Summer #2]], but were beaten by [[SK Gaming Prime]] in the quarterfinals of the tournament. They also participated at [[Island of Legends 2014]], though the team could not make it further than the semifinals. The team disbanded at the end of the season.
+
+===2015 Season===
+Kobbe went on to join [[Gamers2]] at the start of the new season, with whom he participated in the [[International Invitational Tournament 4]], though the team were knocked out in the quarterfinals by [[HWA Gaming]]. They also competed in the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Expansion|LCS Expansion Tournament]]. Kobbe and the team managed to beat [[Reason Gaming]] in the seeding game and [[Team Strix]] in Round 1 of the tournament, but were knocked out in Round 2 after being beaten by [[n!faculty]]. Gamers2 also played in the [[2015 EU Challenger Series/Spring Qualifier|EUCS Spring Qualifier]], but were beaten by [[Team Nevo]] in their bracket final.
+
+After this, Kobbe moved on along with [[PerkZ]], joining [[Millenium]]. After only a short amount of time with the team, Kobbe left to join [[Team Dignitas EU]] along with [[Voidle]], together replacing [[Crazycaps]] and [[Zytan]] respectively.
+
+With the team, Kobbe participated in the [[2015_EU_Challenger_Series/Spring_Season|EUCS Spring Season]], coming in after week 2 of the tournament. The team finished in 4th place, qualifying them for the [[2015_EU_Challenger_Series/Spring_Playoffs|Spring Playoffs]], however due to [[Sencux]] and [[Wunderwear]] being underage, they could not play with the current roster. The team turned down the opportunity to play with subs and therefore gave up their spot in the playoffs, which then went to 5th place [[Reason Gaming]].<!--
+
+Kobbe has also seen success in the [[League One European Cup]] with [[Team Dignitas EU]], accompanied with 1st place finishes in the [[League of Sharks 2015]] and [[SCAN Invitational 2]].-->
+
+During the Challenger Series off-season, [[Brokenshard]] transitioned from jungler to head coach and was replaced by [[Obvious]]. In addition, support player [[Voidle]] was replaced by [[Nisbeth]], forming an all-Danish roster. In the [[2015_EU_Challenger_Series/Summer_Season|summer split]] of the Challenger Series, the team finished 8-2 in second place behind only [[Gamers2]]. While playing each series to the maximum number of games, Dignitas EU defeated [[Denial eSports EU]] and [[Mousesports]], finishing first and earning a spot in the [[League_Championship_Series/Europe/2016_Season/Spring_Season|2016 Spring Season]] of the European LCS.
+
+===2016 Season===
+After Dignitas EU qualified for the EU LCS, Dignitas was forced to sell one of its two LCS teams, and they chose to sell the European team. With only one roster change ([[Obvious]] being replaced by [[Trashy]]), the roster moved to the new organization '''Follow eSports''', later [[Splyce]].<ref>[http://www.followesports.com/topics/post/103  Follow eSports Acquires Dignitas EU LCS Team] ''followesports.com''</ref><ref name="splycerename">[http://www.dailydot.com/esports/follow-esports-becomes-splyce/  New LCS franchise Follow eSports rebrands to Splyce, picks up Call of Duty team] ''dailydot.com''</ref> Splyce stayed consistently in either seventh place or tied for eighth place in the spring split. Their final record was 5-13, in 8th place ahead of [[Team ROCCAT]] and behind [[Elements]]. With a favorable [[League Championship Series/Europe/2016 Season/Summer Promotion|promotion tournament]] seed, Splyce played against [[Giants Gaming]] and won 3-2, requalifying for the LCS for the [[League Championship Series/Europe/2016 Season/Summer Season|summer split]].
+
+== Trivia ==
+* Played football for over 10 years.
+* Enjoys hanging out with friends.
+* Reached 1000 kills in the LEC on July 23, 2021.
+** The 7th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]], [[Caps]] and [[Wunder]]
+** His 1000th kill was on [[Vitality]]'s [[Selfmade]] in the [[LEC/2021 Season/Summer Season|LEC 2021 Summer]] with {{ci|Aphelios}}. 
+
+=== Individual Awards ===
+* 1x EU 1st All Pro Team (Spring 2019)
+* 2x EU 2nd All Pro Team (Summer 2016, Spring 2018)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

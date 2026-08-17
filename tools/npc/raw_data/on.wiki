@@ -1,0 +1,98 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ON&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.795Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ON」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=ON
+|name=Luo Wen-Jun
+|nativename=骆文俊
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2003
+|birth_date_month=May
+|birth_date_day=12
+|favchamp=Rakan
+|favchamp2=Rell
+|favchamp3=Blitzcrank
+|favchamp4=Renata Glasc
+|checkbox1=Yes
+|favchamp5=Alistar
+|compID1=Owo
+|checkboxComp=No
+|ids='''CN:''' SUP08WH<br>KiZiED<br>'''KR:''' 키보드에음료쏟아서고장내는이도윤#KR1 <br> BLG 온#KR1 <br> '''EUW:''' onc#12345 <br> '''NA:''' TFTChallenger#11111
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://live.bilibili.com/26808227
+|weibo=https://weibo.com/n/BLGON
+|lolpros=https://lolpros.gg/player/on
+|deeplol=https://www.deeplol.gg/pro/ON
+|dpmlol=https://dpm.lol/pro/ON
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Owo'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+===2019 Season===
+Owo joined the [[Suning-S]] in 2019, but didn’t start until LDL summer that year. With a deep champion pool, a calm personality and composed gameplays, He helped them win the third place in [[LDL/2019 Season/Summer Playoffs|LDL 2019 Summer Playoffs]].
+
+===2020 Season===
+Owo continued to play in [[Suning-S]] throughout the shortened [[LDL/2020 Season/Spring Season|LDL 2020 Spring Season]]. He then was officially promoted to [[Suning]] at the beginning of Summer Season, but didn’t play one game for the team. Subsequently, he served as a substitute for them in the [[2020 Season World Championship]].
+
+
+== Trivia ==
+* Reached 3000 assists in the LPL on April 6, 2024.
+** Was the 29th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on March 26, 2025.
+** Was the 17th player to reach 4000 assists in the LPL.
+* Reached 5000 assists in the LPL on August 10, 2025.
+** The 11th player to reach 5000 assists in the LPL.
+* Reached 6000 assists in the LPL on April 12, 2026.
+** The 6th player to reach 6000 assists in the LPL.
+* Reached 300 wins in the LPL on May 31, 2025.
+** Was the 24th player to reach 300 wins in the LPL.
+* Reached 500 games in the LPL on August 13, 2025.
+** The 37th player to reach 500 games in the LPL.
+* Reached 1000 international assists during [[2025 Mid-Season Invitational|MSI 2025]] on July 06, 2025 in Upper Bracket Round 2 against [[T1]], becoming the 9th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], Faker, [[xiaohu]], [[meiko]], [[Keria]], [[Caps]], [[Canyon]], and [[Oner]]. Reached it in the same game as Oner.
+{{PlayerStatsTrivia}}
+===Individual Awards===
+* LPL 1st All-Pro Team x3 (Summer 2023, Spring 2024, Split 2 2026)
+* LPL 2nd All Pro Team x3 (Summer 2024, Split 2 2025, Split 1 2026)
+* LPL 3rd All Pro Team x1 (Split 3 2025)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+===Images===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

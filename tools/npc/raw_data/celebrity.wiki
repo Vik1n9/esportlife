@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Celebrity&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Celebrity」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Celebrity
+|name=Nguyễn Phước Long Hiệp
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1996
+|birth_date_month=December
+|birth_date_day=25
+|favchamp=Tristana
+|favchamp2=Jinx
+|favchamp3=Kai'Sa
+|favchamp4=Samira
+|checkbox1=Yes
+|favchamp5=Kog'Maw
+|favchamp6=Lucian
+|favchamp7=Vayne
+|checkboxComp=No
+|ids=Celebrity (VN), SE Celebrity (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.nimo.tv/sbtccelebrity
+|facebook=https://www.facebook.com/Celebrityy96
+|youtube=https://youtube.com/channel/UCbdgE6yx4YxN6b6EgjA1gtw
+|fanpage=https://www.facebook.com/SBTCCelebrity
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Known for having a lot of pentakills in the VCS
+** Up until 2024, he had more recorded pentakills than any other player, active or retired; before he was overtaken by [[HolyPhoenix]].
+* Beats down [[Pampy]] and [[Yin]] every day according to teammate [[Artifact]] in a Q&A video.<ref>[https://youtu.be/GNXILbIWIss?t=800 Team Secret League of Legends Q&A Session Pt. 2] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

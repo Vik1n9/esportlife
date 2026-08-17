@@ -1,0 +1,241 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jankos&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.665Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jankos」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Jankos
+|name=Marcin Jankowski
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Poland
+|nationality=Poland
+|residency=EMEA
+|birth_date_year=1995
+|birth_date_month=July
+|birth_date_day=23
+|favchamp=Lee Sin
+|favchamp2=Elise
+|favchamp3=Camille
+|favchamp4=Gragas
+|checkbox1=Yes
+|favchamp5=Olaf
+|favchamp6=Sejuani
+|checkboxComp=No
+|ids='''EUW''': BriarFeetSniffa, LuvFlakkedCheeks, THPizzaBox, Polish Wonderb0y, llIlllllIIllllll<br>'''EUNE''': Jankoss<br>'''NA''': H2K Jankosovich<br>'''KR''': G2 얀노인, G2 Jankos, Giang Van Cot<br>'''VN''': Giang Van Cot<br>'''CN:''' G2Senior
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/jankos
+|facebook=https://www.facebook.com/jankos.lol
+|twitter=JankosLoL
+|instagram=jankos.lol
+|snapchat=jankosv
+|reddit=jankosink
+|youtube=https://youtube.com/channel/UCuIBqCNr-kQwalr5BjsFT6Q
+|discord=https://discord.gg/TvkbMeqH
+|tiktok=jankos.lol
+|lolpros=https://lolpros.gg/player/jankos
+|deeplol=https://www.deeplol.gg/pro/Jankos
+|dpmlol=https://dpm.lol/pro/Jankos
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|league1=EU LCS 2014 Spring
+|leagueteam1=roc
+|leagueplace1=4
+|leaguegames1=28
+|leagueteamgames1=28
+|leaguecheckbox1=Yes
+|league2=EU LCS 2014 Spring Playoffs
+|leagueteam2=roc
+|leagueplace2=3
+|leaguegames2=7
+|leagueteamgames2=7
+|leaguecheckbox2=No
+|league3=EU LCS 2014 Summer
+|leagueteam3=roc
+|leagueplace3=6
+|leaguegames3=28
+|leagueteamgames3=28
+|leaguecheckbox3=Yes
+|league4=EU LCS 2014 Summer Playoffs
+|leagueteam4=roc
+|leagueplace4=4
+|leaguegames4=12
+|leagueteamgames4=12
+|leaguecheckbox4=No
+|league5=EU LCS 2015 Spring
+|leagueteam5=roc
+|leagueplace5=8
+|leaguegames5=18
+|leagueteamgames5=18
+|leaguecheckbox5=Yes
+|checkbox4=Yes
+|league6=EU LCS 2015 Summer
+|leagueteam6=roc
+|leagueplace6=5
+|leaguegames6=18
+|leagueteamgames6=18
+|leaguecheckbox6=Yes
+|league7=EU LCS 2015 Summer Playoffs
+|leagueteam7=roc
+|leagueplace7=5-6
+|leaguegames7=5
+|leagueteamgames7=5
+|leaguecheckbox7=No
+|league8=EU LCS 2016 Spring
+|leagueteam8=h2k
+|leagueplace8=2
+|leaguegames8=18
+|leagueteamgames8=18
+|leaguecheckbox8=Yes
+|league9=EU LCS 2016 Spring Playoffs
+|leagueteam9=h2k
+|leagueplace9=4
+|leaguegames9=10
+|leagueteamgames9=10
+|leaguecheckbox9=No
+|league10=EU LCS 2016 Summer
+|leagueteam10=h2k
+|leagueplace10=4
+|leaguegames10=36
+|leagueteamgames10=36
+|leaguecheckbox10=Yes
+|league11=EU LCS 2016 Summer Playoffs
+|leagueteam11=h2k
+|leagueplace11=3
+|leaguegames11=12
+|leagueteamgames11=12
+|leaguecheckbox11=No
+|league12=EU LCS 2017 Spring
+|leagueteam12=h2k
+|leagueplace12=2
+|leaguegames12=30
+|leagueteamgames12=30
+|leaguecheckbox12=Yes
+|league13=EU LCS 2017 Spring Playoffs
+|leagueteam13=h2k
+|leagueplace13=5-6
+|leaguegames13=3
+|leagueteamgames13=3
+|leaguecheckbox13=No
+|league14=EU LCS 2017 Summer
+|leagueteam14=h2k
+|leagueplace14=1
+|leaguegames14=29
+|leagueteamgames14=29
+|leaguecheckbox14=Yes
+|league15=EU LCS 2017 Summer Playoffs
+|leagueteam15=h2k
+|leagueplace15=4
+|leaguegames15=8
+|leagueteamgames15=8
+|leaguecheckbox15=No
+}}
+==Biography==
+After spending time playing Warcraft 3 and DOTA, Jankos decided to take up League of Legends in Season 1. Due to the fact that he began playing on the NA server from his native Poland, he could not play competitively for a considerable time. After praise and encouragement from [[IWillDominate]], Jankos decided to start playing on the EU server along with his friends.
+===Season 3===
+After impressing in soloqueue, Jankos soon found himself on the roster of [[Team Mistral]]. The team went on to place 3rd at the [[Riot League Championship Series/Europe/Season 3/Lille|LCS Summer Promotion Qualifier - Lille]].
+
+Soon after this, Jankos was picked up by [[GF-Gaming]] along with the rest of the Team Mistral roster. After success in a number of Go4LoL tournaments, Jankos went on to join [[H2k-Gaming]], where he met [[Overpow]] and [[VandeR]].
+
+Soon after joining H2k, Jankos and his new team won [[DreamHack Bucharest 2013]], beating the Copenhagen Wolves in the final. The team also managed to qualify for the [[Riot League Championship Series/Europe/2014 Season/Spring Promotion|Spring Promotion]] via the [[Europe Season 4 Promotion Tournament Qualifier 1|1st WellPlayed Qualifier]]. The roster was then picked up by [[GF-Gaming]], Jankos' former team, but was released just a week later. The team decided to reform as [[Kiedyś Miałem Team]], and went on to finish 2nd at [[DreamHack Winter 2013]]. Jankos and the team participated in the Spring Promotion using the spot they had earned with with H2k. The team finished 3rd in their group, and went on to win their promotion matchup against [[Ninjas in Pyjamas]].
+
+===2014 Season===
+Now with a spot in the upcoming [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]], Jankos and the rest of the roster were signed by [[Team ROCCAT]].
+
+The team's first split in the LCS was a huge success. ROCCAT spent 3 weeks at the top of the standings table mid-split, but results tailed off slightly towards the end of the split. The team ended up finishing 4th behind [[Alliance]], securing themselves a spot in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]].
+
+ROCCAT performed well in the Spring Playoffs, but lost to [[SK Gaming]] in the semifinals. The team went on to finish in 3rd place after beating Alliance in the third-place match.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] was a struggle for ROCCAT, with the team not once making it out of the bottom 3 of the standings table. A frustrating few weeks at the start of the split were followed by an overall improvement in the team's performances. Jankos managed to pick up a weekly MVP award for Week 8, specifically for his performances on {{ci|Lee Sin}} and {{ci|Vi}} against [[SK Gaming]] and [[Alliance]] respectively. Despite their struggles, ROCCAT placed 6th overall, clinching a place at the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]].
+
+The playoffs saw the team raise their game considerably. A quarterfinal win over [[SUPA HOT CREW]] resulted in a semifinal matchup against [[Fnatic]]. The series was unexpectedly tight, with ROCCAT coming close but eventually losing 3-2 and missing out on qualification for the [[2014 Season World Championship|World Championship]]. A third-place match loss against SK Gaming meant that ROCCAT finished 4th overall.
+
+===2015 Season===
+Due to [[Fnatic]] being unable to attend [[IEM Season IX - Cologne|IEM Cologne]], Jankos and [[ROCCAT]] took their place at the tournament. The team were knocked out in the semifinals, losing to [[Counter Logic Gaming]].
+
+Jankos and the team had an unsuccessful [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|LCS Spring Split]], finishing the regular season in 8th place, which meant that they would play in the [[Riot League Championship Series/Europe/2015 Season/Summer Promotion|Summer Promotion]]. Here, the team faced [[Copenhagen Wolves Academy]] and came out victorious, securing their spot in the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]].
+
+The [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]] itself was far more successful for Jankos and the team, finishing the regular season in 5th place partly thanks to Jankos' impressive performances on a number of champions. This meant they would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]], where the team were beaten in the quarterfinals by [[Unicorns Of Love]], meaning that they would pick up 20 [[2015 Season/Championship Points|Championship Points]] and go on to play in the [[2015 Season Europe Regional Finals]]. Team ROCCAT went on to lose to eventual qualifiers [[Origen]] in Round 2 of the gauntlet.
+
+===2016 Season===
+At the start of the season, Jankos joined [[H2k-Gaming]] after the team were voted to play at [[IEM Season X - Cologne]]. They fielded a roster including [[Odoamne]] and [[Ryu]] from their 2015 roster along with new members Jankos, [[FORG1VEN]], and [[VandeR]]. The team beat [[Cloud9]] in the quarterfinals but were then beaten themselves by eventual winners [[ESC Ever|Ever]] in the semifinals of the tournament.
+
+== Trivia ==
+* His ID '''Jankos''' is based on his surname (Jankowski).
+* Nicknamed Giang Văn Cốt by Vietnamese fans.
+* Wanted to be a teacher when he was younger.
+* Hates {{ci|Riven}}.
+* The three Lord of The Rings movies are his favorites.
+* Identifies Chuck Norris as his role model.
+* Nicknamed "The First Blood King" during his time on [[H2k]].
+* Often complains semi-seriously in interviews about his [[G2]] teammates forcing him to pick passive, tank junglers to support their aggressive carry play. 
+* Reached 1000 kills in the LEC on September 8, 2019.
+** The 2nd player to reach 1000 kills in the LEC after [[Rekkles]].
+** His 1000th kill was on [[Fnatic]]'s [[Hylissang]] in the [[LEC/2019 Season/Summer Playoffs|LEC 2019 Summer Finals]] with {{ci|Jarvan}}.
+* Reached 1500 kills in the LEC on April 1, 2022.
+** The 2nd player to reach 1500 kills in the LEC after [[Rekkles]].
+** His 1500th kill was on [[Vitality]]'s [[Labrov]] in the [[LEC/2022 Season/Spring Playoffs|LEC 2022 Spring Playoffs]] with {{ci|Viego}}.
+* Became the first player to reach both 1000 kills and 2500 assists in the LEC on February 14, 2020.
+* Reached 2500 Assists in the LEC on February 14, 2020.
+** The 2nd player to reach 2500 assists in the LEC after [[Hylissang]].
+** His 2500th assist was for [[Perkz]]'s kill on [[Misfits Gaming]]'s bot laner [[Bvoy]] in the [[LEC/2020 Season/Spring Season|LEC 2020 Spring Split]] with {{ci|Gragas}}.
+* Reached 4000 assists in the LEC on March 20, 2023.
+** The 2nd player to reach 4000 assists in the LEC after [[Hylissang]].
+* Reached 300 wins in the LEC on February 4, 2022.
+** The 1st player to reach 300 wins in the LEC.
+** His 300th win was against [[Team BDS]] in Week 4 of [[LEC/2022 Season/Spring Season|LEC 2022 Spring]].
+* Reached 500 games in the LEC on February 5, 2022 in week 4 of [[LEC/2022 Season/Spring Season|LEC 2022 Spring]] against [[Rogue (European Team)|Rogue]].
+** The 1st player to reach 500 games in the LEC.
+* Reached 600 games in the LEC on January 15, 2024 in week 1 of [[LEC/2024 Season/Winter Season|LEC 2024 Winter]] against [[GIANTX]].
+** The 1st player to reach 600 games in the LEC.
+* Back-to-back [[LEC]] regular season MVP across [[LEC/2019 Season/Summer Season|Summer 2019]] and [[LEC/2020 Season/Spring Season|Spring 2020]].
+* Chosen by ESPN as the best player going into [[Worlds 2019]].<ref>[https://www.espn.com/esports/story/_/id/27699981/top-20-players-league-legends-world-championship Top 20 players at the League of Legends World Championship] ''espn.com''</ref>
+* Was the 3rd player to reach 100 playoffs matches in the LEC after [[Rekkles]] & [[Hylissang]].
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* 2x LEC MVP (Summer 2019, Spring 2020)
+* 4x LEC 1st All-Pro Team (Spring 2019, Summer 2019, Spring 2020, Spring 2021)
+* 7x LEC 2nd All-Pro Team (Spring 2016, Spring 2017, Summer 2017, Spring 2018, Summer 2021, Spring 2022, Summer 2022)
+* 3x LEC 3rd All-Pro Team (Summer 2015, Summer 2016, Summer 2023)
+* All-Star appearances 3x (2016, 2017, 2019)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

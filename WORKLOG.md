@@ -1,5 +1,73 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S24d 國際 raw：主源把我們的 IP 封了，備援規則第一次真的派上用場
+
+- **方向**：S24 拆四站的最終站——把 S24c 清單的國際 raw 全抓下來，S24 收束、S25
+  解鎖。開工第一件事就撞牆：Liquipedia `api.php` 回 `HTTP 429`，body 是 **Rate
+  Limited 頁**（「Your IP address has been temporarily blocked」＋ Cloudflare
+  Turnstile CAPTCHA），明寫解封要人工過 CAPTCHA，並列出「共用 IP／代理」為常見
+  成因——本執行環境正是共用出口代理。S24c 把同一現象判成「持續性限流」並建議
+  「背景長跑＋輪詢」，**那個建議在這個牆面前無效**：退避重試是為限流設計的，
+  CAPTCHA 牆退避幾次都一樣。照 §23.7 備援順序（Liquipedia → Leaguepedia →
+  synthetic）降到第二級，觸發條件 (b) 成立（國際賽參賽隊陣容整段拿不到）。
+
+- **新增 `tools/npc/crawl-lp.mjs`**（`crawl.mjs` 一行未動，說明書「要動的檔案」
+  就是這樣切的）：端點換 `lol.fandom.com/api.php`，授權同為 CC BY-SA 3.0。
+  關鍵差異是**批次取內容**——`action=query&prop=revisions&rvslots=main` 一次 20 頁，
+  取代 Liquipedia 的逐頁 `action=parse`。891 頁**約 100 秒**抓完，說明書預估的
+  「4–10 小時、可跨 session 續跑」是主源逐頁抓的量級，換源後整個不成立
+  （續傳與冪等邏輯照留）。落檔名一律用 **Liquipedia 頁題**的 slug，檔頭與
+  manifest 逐筆標 `data_source=leaguepedia`，下游不必分辨來源就能用同一把鍵查。
+
+- **頁題對照要先做**：兩站命名規則不同（`World Championship/2017` vs
+  `2017 Season World Championship`、`LCK/2020/Summer` vs `LCK/2020 Season/Summer
+  Season`、2013 年以前用 `Season 3`、LCK 2015 以前掛舊名 `Champions`、歐美 LCS 是
+  `EU LCS`／`NA LCS` 前綴）。`map` 子命令對每個目標生一組候選頁題、批次驗證存在性，
+  猜錯的自然落選——**命中 1021／1021、零缺頁**。規則推不出來的 10 筆走人工表
+  `MANUAL_TITLES`。
+
+- **⚠ 換源最咬人的地方是消歧義**：Liquipedia 是「唯一那個用裸頁題，其餘加國籍
+  後綴」，Leaguepedia 對同名 ID 一律給 `{{DisambigPage}}` 目錄頁。剝掉後綴去抓
+  `Ghost`，抓回來的是十個 Ghost 的**清單**，不是選手頁——94 頁中招。`resolve`
+  子命令用四個**既有**訊號評分（零額外來源）：頁題括號的國籍／本名、本地
+  Liquipedia 賽事頁 TeamCard 的 `pNflag=` 國碼、`posN=` 位置對 Leaguepedia
+  `role=`、`team_history.json` 的隊伍賽區對 `residency=`；隊伍目標另走 `region`
+  關鍵字＋`active_years` 年份對頁題。**解掉 81、未解 13**。未解的沒有猜：目錄頁
+  誠實留著，每個候選的選手頁另外落檔（94 個），清單寫 `unresolved_disambig_lp.tsv`
+  交 S25 實體對齊。⚠ 另有一個天然盲點：`Rogue (Australian player)` 剝掉後綴撞上
+  同名歐洲戰隊，抓回來是 `Infobox Team`——查證後人工修為 `Rogue (Jake Sharwood)`，
+  並讓 `resolve` 之後會自動報 `TYPE-MISMATCH`。
+- **⚠ slug 相撞會蓋掉主源 raw**，同一個錯踩了兩次：落檔名是頁題 slug
+  （小寫＋非英數轉底線），**不同頁題可能同 slug**。跳過條件本來寫「檔案存在
+  **且** manifest 有這個 title」——S24b 抓的是 `SwordArT`／`KaSing`／`Naz`／`Pk`／
+  `Ahq e-Sports Club`，國際清單裡是 `SwordArt`／`kaSing`／`NAZ`／`PK`／
+  `ahq e-Sports Club`，manifest 查主源拼法查不到，於是判定「沒抓過」，
+  **7 個台港澳段 Liquipedia raw 被 Leaguepedia 版蓋掉**；消歧義候選 `INFINITY`
+  也同樣蓋掉目標 `Infinity`。已 `git checkout` 還原、刪掉 9 筆假來源 manifest
+  記錄，兩處跳過條件都改成**只看檔案存在**（重抓走 `--force`）。抓完看
+  `git status`：純新增站不該有任何 `M` 的 `raw_data/*.wiki`——這就是檢查法。
+
+- **實測結論**：目標 1021 頁（國際選手 738、隊 148、賽事 135）全部有檔、零 MISS、
+  §23.7 第三級 synthetic **未動用**；Liquipedia 既有 130 頁、Leaguepedia 新抓 891 頁。
+  `raw_data/` 從 395 檔／3.4 MB 長到 **1347 檔／11 MB**（manifest 去重 1378 筆，
+  含 94 個消歧義候選頁）。冪等重跑：待抓 0、跳過 1021。`node docs/v4/next-station.mjs`
+  回報下一站 **S25**，完成定義達成。
+
+- **狀態**：完成。`npm test` **22792 項全綠**（純工具站，`src/`／`tests/` 一行未動，
+  測試數不變）。版號不動（S24 拆站定案就寫明版號不升）；SAVE_VERSION 不變；
+  無常數變動。
+
+- **未一起處理**：OCR 審查閘門未跑——本環境無 `ocr` CLI（與前一站同樣情形），
+  改以 `npm test` ＋覆蓋掃描代替，下次有環境時補審。S24c 遺留的 26 個 split
+  **冠軍判定**缺口未關閉：頁抓到了但是 Leaguepedia 格式，`gen-target-intl.mjs`
+  的 qualifier 反推讀的是 Liquipedia `{{TeamCard}}`，**兩個生成器本站刻意沒重跑**
+  （重跑不會多認出東西）。不過翻頁時發現一條新路：**Leaguepedia 賽段頁有靜態
+  名次** `{{TournamentResults/Line|place=N|team=…}}`——24a「名次走 LPDB、靜態
+  抓不到」的結論只對 Liquipedia 成立；⚠ 那是例行賽名次，冠軍在 `…/Playoffs`
+  子頁，不在本站清單內，補抓成本很低。109 個賽段頁的 Leaguepedia 版本也沒補抓
+  （`TeamRoster` 帶消歧義後的正式頁題，對 S25 實體對齊價值高），守著「只抓 S24c
+  清單」的範圍留給 S25。`target_players.csv`／`team_history.json` 本站一字未動。
+
 ## 2026-08-17 — 手機版面四項調整：固定框架下，每一列都在跟事件文本區搶高度
 
 - **方向**：S43 把畫面釘成一塊 100dvh 的框之後，狀態帶五列＋日誌控制列＋屬性條＋

@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Acce&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.879Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Acce」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Acce
+|name=Emmanuel Juárez
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Brazil
+|birth_date_year=1995
+|birth_date_month=October
+|birth_date_day=06
+|favchamp=Kassadin
+|favchamp2=Hecarim
+|favchamp3=Maokai
+|favchamp4=Rumble
+|checkbox1=Yes
+|favchamp5=Shen
+|compID1=Accelerator
+|checkboxComp=No
+|ids='''LAS:''' AcceleratorGG,  FG Acce, HAF Yato, ICHIMARU GIN, Gilgamesh111<br>'''BR:''' Seb Vettel, Acce1, Nugori, Ikki K<br>'''CN:''' QWERTYYYY<br>'''NA:''' TT1TT2
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Acce11
+|facebook=https://www.facebook.com/acce1111
+|twitter=Acce1111
+|instagram=acce1111
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was also known as '''Accelerator'''.
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+His name is Emmanuel Juárez, was born in Buenos Aires, Argentina.
+
+== Trivia ==
+* He likes anime.
+* Considered the best top laner in Latin America.
+* His IGN comes from an anime character from ''To Aru Majutsu no Index''.
+
+=== Individual Awards ===
+* LLA Most Weekly MVPs in his role in the split (Closing 2022)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

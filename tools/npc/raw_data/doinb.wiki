@@ -1,0 +1,120 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Doinb&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.014Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「doinb」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Doinb
+|name=Kim Tae-sang
+|nativename=김태상
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=China
+|birth_date_year=1996
+|birth_date_month=December
+|birth_date_day=30
+|favchamp=Kled
+|favchamp2=Ryze
+|favchamp3=Viktor
+|favchamp4=Nautilus
+|checkbox1=Yes
+|favchamp5=Malphite
+|checkboxComp=No
+|ids='''CN:''' 外1放过我到<br>来点作用吧泰相xi<br>doker<br>'''KR:''' Heart<br>midnozoeplz<br>'''EUW:''' Mldk1ng<br>woshilqs
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/252140
+|facebook=https://www.facebook.com/profile.php?id=100001946357460
+|twitter=Doinbmid
+|youtube=https://www.youtube.com/@Doinb1996
+|weibo=https://www.weibo.com/n/doinb金咕咕
+|lolpros=https://lolpros.gg/player/doinb/
+|deeplol=https://www.deeplol.gg/pro/Doinb
+|dpmlol=https://dpm.lol/pro/Doinb
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Korea
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Doinb is a high-elo solo queue mid laner from Korea. Even praised highly by the likes of [[Faker]], he was recognized as a solo queue talent before being picked up by [[QG]] in the middle of the LSPL 2015 Spring Split debuting his skill on Katarina.
+QG were invited to [[IEM Season X - World Championship|IEM Katowice]] in March 2016 where they beat [[Fnatic]] in their first best of one but were then subsequently eliminated in the group stages following a loss to [[SK Telecom T1]] and then losing to Fnatic 1 - 2.
+
+In May 2016, [[Qiao Gu Reapers]] renamed to [[Newbee]].<ref>[http://weibo.com/5583469500/Dv4t7AIrt?ref=home&rid=0_0_202_2666483329949985026&type=comment#_rnd1462972272580 QGreapers' Weibo Post] ''weibo.com'' </ref> Doinb was quickly moved to [[Newbee Young]] after there was internal conflict within the team between him and Swift. The team eventually fought their way through the LSPL and qualified for the LPL. Per LPL rules they were re-branded into the [[QG Reapers]] in November of 2016. QG placed 3rd in their group in the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] however in the playoffs they lost 2-3 to [[I May]] in the first round. [[JD Gaming]] acquired the roster and LPL spot of QG in May of 2017 with Doinb also joining the newly formed squad. Their first showing was at the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] but it wasn't particularly good as they placed 9th-12th after an 0-2 loss to [[LGD Gaming]]. In the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] JD Gaming finished 5th in Group B with 6 wins and 11 losses which eliminated them from playoff contention. They also placed 2nd at the [[National Electronic Sports Tournament 2017]].
+
+== Trivia ==
+* Famous for his {{ci|Ryze}}, {{ci|Nautilus}}, {{ci|Viktor}}, {{ci|Kled}}, {{ci|Karma}}, {{ci|Pantheon}}, and {{ci|Vladimir}}.
+* Known for his off-meta tank and bruiser picks and having a high win rate with those champions, with his play being focused on assisting his teammates rather than dominating lane. 
+** LPL casters termed these picks "dark technology", a term that was first used internationally by [[Smeb]] at [[Rift_Rivals_2018/LCK-LPL-LMS|Rift Rivals 2018]], before the term took over after his successful Worlds run. 
+* Known as a skillful {{ci|Katarina}} player in KR server before the champion got reworked by Riot.
+* MVP of the [[LPL/2017 Season/Spring Season|LPL 2017 Spring Regular Season]]. 
+* Speaks Chinese fluently.
+* Well-known for his streaming style in China.
+** Talks a lot while streaming.
+** Dances when he receives money and presents.
+** Plays with famous LPL and LCK junglers.
+** Is known to often achieve a score of 400 creeps by 20 minutes, something that is often memed upon on YouTube and in the League community, often known as "400cs Doinb hack".
+* Gained Chinese residency in 2019, a rare feat for a foreign player as the LPL has some of the strictest residency rules. 
+* Is married to Li "'''Umi'''" You-Zi, a Chinese former caster of Dungeon Fighter Online. 
+** Proposed to her publicly in 2018 after joining [[FunPlus Phoenix]]. 
+* Reached 1000 kills in the LPL in February 2019.
+** The 16th player to reach 1000 kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Cool]], [[Kid]], [[NaMei]], [[Zz1tai]], [[Clearlove]], [[Deft]], [[GodV (Wei Zhen)|GodV]], [[Rookie]], [[imp]], [[Smlz]], [[Mystic]], [[Xiaohu]], [[Xiye]], and [[Scout]].
+* Reached 1500 Kills in the LPL on April 25, 2020.
+** The 9th player to reach 1500 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Rookie]], [[Cool]], [[Smlz]], [[Mystic]], [[Xiaohu]], [[Xiye]], and [[imp]].
+* Reached 2000 Kills in the LPL on July 31, 2021.
+** The 6th player to reach 2000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Rookie]], [[Smlz]], [[Xiaohu]] and [[Xiye]]
+* Reached 2500 kills in the LPL on April 27, 2025.
+** The 8th player to reach 2500 kills in the LPL.
+* Reached 3000 assists in the LPL on August 9th, 2020.
+** Was the 9th player to reach 3000 assists in the LPL after [[Clearlove]], [[Pyl (Chen Bo)|Pyl]], [[meiko]], [[xiaohu]], [[Rookie]], [[COLD]], [[Ming (Shi Sen-Ming)|Ming]], and [[Baolan]].
+* Reached 4000 assists in the LPL on February 27, 2022.
+** The 7th player to reach 4000 assists in the LPL, after [[meiko]], [[Pyl (Chen Bo)|Pyl]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], and [[cold]].
+* Reached 5000 assists in the LPL on May 16, 2025.
+** The 8th player to reach 5000 assists in the LPL after [[meiko]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Crisp]], [[Rookie]], [[Missing]], and [[Scout]].
+* Reached 300 wins in the LPL on March 1st, 2021.
+** Was the 6th player to reach 300 wins in the LPL after [[Clearlove]], [[meiko]], [[Uzi (Jian Zi-Hao)|Uzi]], [[xiaohu]], and [[Rookie]].
+* Reached 400 wins in the LPL on August 12th, 2022.
+** Was the 4th player to reach 400 wins in the LPL after [[meiko]], [[xiaohu]], and [[Rookie]].
+* Reached 500 games in the LPL on April 11, 2021
+** The 8th player to reach 500 games in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[meiko]], [[Rookie]], [[xiaohu]], [[Xiye]], [[Flandre]], and [[Smlz]].
+* Reached 600 games in the LPL on March 30, 2022
+** The 5th player to reach 600 games in the LPL after [[Rookie]], [[meiko]], [[xiaohu]], and [[Flandre]].
+* Reached 700 games in the LPL on April 20, 2025
+** The 8th player to reach 700 games in the LPL after meiko, xiaohu, Rookie, Scout, Flandre, Crisp, and JackeyLove.
+=== Awards ===
+* LPL MVP x4 (Spring 2017, Spring 2019, Summer 2021, Split 1 2025)
+* LPL 1st All-Pro Team x5 (Spring 2017, Spring 2019, Spring 2020, Summer 2021, Split 1 2025)
+* LPL 2nd All-Pro Team x2 (Spring 2018, Summer 2019)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

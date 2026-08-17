@@ -1,0 +1,72 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Luci&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Luci」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Luci
+|name=Han Chang-hoon
+|nativename=한창훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=July
+|birth_date_day=08
+|favchamp=Thresh
+|favchamp2=Karma
+|favchamp3=Braum
+|checkbox1=No
+|compID1=Hun1
+|compID2=Huni
+|compID3=Lucifer
+|checkboxComp=No
+|ids='''BR:''' VEVARASANA<br>'''KR:''' ililililillili<br>'''EUW:''' DK TroubleMaker
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|twitter=luciii_lol
+|instagram=lucisrysry
+|lolpros=https://lolpros.gg/player/luci/
+|deeplol=https://www.deeplol.gg/pro/Luci
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Lucifer''' and '''Huni'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Gained a lot of popularity in Brazil after joining and playing in [[Flamengo Esports]] in 2019.
+* Is often remembered for being the duo of [[brTT]] in [[Flamengo Esports|Flamengo]] and [[paiN Gaming]] between 2019 and 2021.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

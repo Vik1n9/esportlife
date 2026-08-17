@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ellam&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.103Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hades (Swedish player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ellam
+|name=Volkan Dinçer
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Sweden
+|nationality=Sweden, Turkey
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=May
+|birth_date_day=24
+|favchamp=Yasuo
+|favchamp2=Lucian
+|favchamp3=Kai'Sa
+|favchamp4=Draven
+|checkbox1=No
+|compID1=Hades
+|checkboxComp=No
+|ids='''EUW:''' LDLC Hades,<br>Feel My Presence, Fındık
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/hadeslo1
+|twitter=hadesslo1
+|discord=https://discord.gg/DJ3av4h
+|lolpros=https://lolpros.gg/player/ellam
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Hades'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+Ellam started his career streaming on Twitch, and got a lot of attention from other Turkish streamers because of his high rank and play-style. He streamed for a while before deciding to play professionally in the [[TCL]], spending his first split with [[Bursaspor Esports]] before moving on to join [[1907 Fenerbahçe Esports]].
+
+== Trivia ==
+* Is a dual citizen of Sweden and Turkey.
+* Known for his {{ci|Yasuo}}.
+* Was a streamer before he decided to go pro.
+* Has a black belt in karate.
+* Started playing League of Legends because of his older cousin.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

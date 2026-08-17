@@ -1,0 +1,306 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2023%20Season%2FWinter%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.757Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2023/Winter」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2023}}
+{{Infobox Tournament
+|name=LEC 2023 Winter Season
+|image= LEC 2023.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|country=Germany
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2023-01-21
+|edate=2023-02-06
+|rulebook=Archive:Official_Rulebooks/Riot/LEC/2023
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EMEA
+|split=Winter
+|split_number=1
+|CM_StandardName=LEC 2023 Winter Season
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2023
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://eu.lolesports.com/en
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ
+|closest_timezone=CET
+}}{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2023 Winter Season''' is the first split of the first year of the newly merged EMEA's rebranded professional League of Legends league. It is the fifth year of the LEC and the first season following the changed format. In Stage 1, ten teams compete in a single round robin group stage, with the top eight advancing to Stage 2, a double elimination group stage. From here, the top four advance to Stage 3, the double elimination playoffs.  }}
+
+==Overview==
+=== Format ===
+* Regular Season (Stage 1):
+** 10 teams participate
+** Single Round Robin
+** Matches are best of one
+** Top eight teams advance to [[LEC/2023 Season/Winter Groups|Groups]]
+
+=== Prize Pool ===
+{{TournamentResults
+|points=yes
+|pointstitle=[[LEC/2023 Season/Championship Points|Champ. Points]]
+|qual=yes
+|qualwidth=180
+|{{TournamentResults/Line|place=1|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=VIT|groupstage=7 - 2}}
+|{{TournamentResults/Line|place=2|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=MAD|groupstage=7 - 2}}
+|{{TournamentResults/Line|place=3|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=SK|groupstage=6 - 3}}
+|{{TournamentResults/Line|place=4|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=G2|groupstage=6 - 3}}
+|{{TournamentResults/Line|place=5|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=BDS|groupstage=5 - 4}}
+|{{TournamentResults/Line|place=6|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=HRTS|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=7|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=KOI|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=8|qual=Groups|quallink=LEC/2023 Season/Winter Groups|team=AST|groupstage=3 - 6}}
+|{{TournamentResults/Line|place=9|points=10|team=FNC|groupstage=2 - 7}}
+|{{TournamentResults/Line|place=10|points=5|team=XL|groupstage=1 - 8}}
+|conversiondate=|conversionsource=xe}}
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2023 Preseason/EMEA
+}}
+{{Box|start}}
+{{TeamRoster|team=Astralis
+|{{TeamRoster/Line|player=Finn|flag=se|role=t}}
+|{{TeamRoster/Line|player=113|flag=tr|role=j}}
+|{{TeamRoster/Line|player=Dajor|flag=de|role=m}}
+|{{TeamRoster/Line|player=Kobbe|flag=dk|role=a}}
+|{{TeamRoster/Line|player=JeongHoon|flag=kr|role=s}}
+|{{TeamRoster/Line|player=AoD|flag=ro|role=c}}
+|{{TeamRoster/Line|player=Vandett0|flag=dk|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=XL
+|{{TeamRoster/Line|player=Odoamne|flag=ro|role=t}}
+|{{TeamRoster/Line|player=Xerxe|flag=ro|role=j}}
+|{{TeamRoster/Line|player=Vetheo|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Patrik|flag=cz|role=a}}
+|{{TeamRoster/Line|player=Targamas|flag=be|role=s}}
+|{{TeamRoster/Line|player=YoungBuck|flag=nl|role=c}}
+|{{TeamRoster/Line|player=Nelson|flag=sg|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FNC
+|{{TeamRoster/Line|player=Wunder|flag=dk|role=t}}
+|{{TeamRoster/Line|player=Razork|flag=es|role=j}}
+|{{TeamRoster/Line|player=Humanoid|flag=cz|role=m}}
+|{{TeamRoster/Line|player=Rekkles|flag=se|role=a}}
+|{{TeamRoster/Line|player=rhuckz|flag=pt|role=s}}
+|{{TeamRoster/Line|player=Crusher|flag=pt|role=c}}
+|{{TeamRoster/Line|player=Hiiva|flag=fi|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=G2
+|{{TeamRoster/Line|player=BrokenBlade|flag=de|role=t}}
+|{{TeamRoster/Line|player=Yike|flag=se|role=j}}
+|{{TeamRoster/Line|player=Caps|flag=dk|role=m}}
+|{{TeamRoster/Line|player=Hans Sama|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Mikyx|flag=si|role=s}}
+|{{TeamRoster/Line|player=Dylan Falco|flag=ca|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=KOI (Spanish Team)|footnoteteamn=1
+|{{TeamRoster/Line|player=Szygenda|flag=dk|role=t}}
+|{{TeamRoster/Line|player=Malrang|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Larssen|flag=se|role=m}}
+|{{TeamRoster/Line|player=Comp|flag=gr|role=a}}
+|{{TeamRoster/Line|player=Trymbi|flag=pl|role=s}}
+|{{TeamRoster/Line|player=fredy122|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Arvindir|flag=de|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MADL LEC
+|{{TeamRoster/Line|player=Chasy|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Elyoya|flag=es|role=j}}
+|{{TeamRoster/Line|player=Nisqy|flag=be|role=m}}
+|{{TeamRoster/Line|player=Carzzy|flag=cz|role=a}}
+|{{TeamRoster/Line|player=Hylissang|flag=bg|role=s}}
+|{{TeamRoster/Line|player=Mac|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Pad|flag=dk|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK
+|{{TeamRoster/Line|player=Irrelevant|flag=de|role=t}}
+|{{TeamRoster/Line|player=Markoon|flag=nl|role=j}}
+|{{TeamRoster/Line|player=Sertuss|flag=de|role=m}}
+|{{TeamRoster/Line|player=Exakick|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Doss|flag=dk|role=s}}
+|{{TeamRoster/Line|player=Swiffer|flag=au|role=c}}
+|{{TeamRoster/Line|player=OWN3R (David Rodriguez de la Torre)|flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|{{TeamRoster/Line|player=Adam (Adam Maanane)|flag=fr|role=t}}
+|{{TeamRoster/Line|player=Sheo|flag=fr|role=j}}
+|{{TeamRoster/Line|player=nuc|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Crownie|flag=si|role=a}}
+|{{TeamRoster/Line|player=Labrov|flag=gr|role=s}}
+|{{TeamRoster/Line|player=GotoOne|flag=fr|role=c}}
+|{{TeamRoster/Line|player=Striker (Yanis Kella)|flag=fr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=HTICS|footnoteteamn=2
+|{{TeamRoster/Line|player=Evi|flag=jp|role=t}}
+|{{TeamRoster/Line|player=Jankos|flag=pl|role=j}}
+|{{TeamRoster/Line|player=Ruby (Lee Sol-min)|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Jackspektra|flag=no|role=a}}
+|{{TeamRoster/Line|player=Mersa|flag=gr|role=s}}
+|{{TeamRoster/Line|player=Peter Dun|flag=gb|role=c}}
+|{{TeamRoster/Line|player=SeeEl|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=VIT
+|{{TeamRoster/Line|player=Photon|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Bo|flag=cn|role=j}}
+|{{TeamRoster/Line|player=Perkz|flag=hr|role=m}}
+|{{TeamRoster/Line|player=Neon (Matúš Jakubčík)|flag=sk|role=a}}
+|{{TeamRoster/Line|player=Kaiser|flag=de|role=s}}
+|{{TeamRoster/Line|player=Carter|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Hjarnan|flag=se|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+:''<sup>1</sup> [[Rogue (European Team)|Rogue]] enters into a partnership with [[KOI (Spanish Team)|KOI]].''<ref>[https://twitter.com/Rogue/status/1578108813613625345 Rogue's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/KOI/status/1578111285010780160 KOI's Tweet (Spanish)] ''twitter.com''</ref>
+:''<sup>2</sup> [[Team Heretics]] acquired the spot of [[Misfits Gaming]].''<ref>[https://twitter.com/TeamHeretics/status/1552309996318236673 Team Heretics' Tweet (Spanish)] ''twitter.com''</ref><ref>[https://lolesports.com/article/team-heretics-acquires-misfits-gaming%E2%80%99s-lec-slot/blte81f27530c75f3a0 Team Heretics acquires Misfits Gaming’s LEC slot] ''lolesports.com''</ref>
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo1
+|places=up,up,up,up,up,up,up,up,stay,stay
+|finalorder=VIT,MAD,SK,G2,BDS,Team Heretics,KOI ES,AST,FNC,Excel
+|row1=up
+|row2=up
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=up
+|row8=up
+|row9=stay
+|row10=stay
+|legend=true
+|up= [[LEC/2023 Season/Winter Groups|Groups]] Seed
+|stay= Not Qualified for Groups
+|isover=yes
+|useasresults=no
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO1
+}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with
+|gamefields=Blue,Red,MH,VODs,MVP
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w3bg1=up
+|w3bg2=up
+|w3bg3=up
+|w3bg4=up
+|w3bg5=up
+|w3bg6=up
+|w3bg7=up
+|w3bg8=up
+|w3bg9=stay
+|w3bg10=stay
+|w2bg1=up
+|orderby=record
+|places=up,up,up,up,up,up,up,up,stay,stay
+|finalorder=VIT,MAD,SK,G2,BDS,Team Heretics,KOI ES,AST,FNC,Excel
+}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=game|displaytext=Player of the Game Standings
+|columns=Times
+}}
+
+== Media ==
+=== Streams ===
+{{Box|start}}
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/polsatgames|lang=pl}}
+* {{stream|url=https://www.twitch.tv/summonersinnlive|lang=de}}
+* {{stream|url=https://www.twitch.tv/pg_esports_lol|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.twitch.tv/hitpointcz|lang=cz}}
+* {{stream|url=https://www.twitch.tv/gamersloungegr|lang=gr}}
+* {{stream|url=https://www.twitch.tv/riotgamesturkish|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCrPE9FDBnSMX6W5K0-r7K-g|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCjocsYZyDCFfU-KAfM44APg|lang=rs}}
+* {{stream|url=https://www.youtube.com/@GamersLoungeGr|lang=gr}}
+* {{stream|url=https://www.youtube.com/@Lolespor|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://trovo.live/s/LEC/|lang=usuk|display=Trovo}}
+* {{stream|url=https://trovo.live/s/GamersLoungeGr|display=Trovo|lang=gr}}
+* {{stream|url=https://play.afreecatv.com/akasaaaaan|lang=jp}} unofficial
+{{Box|end}}
+
+=== Co-streams ===
+* {{stream|url=https://www.twitch.tv/ibai|lang=es|display=Ibai's Twitch}}
+* {{stream|url=https://www.twitch.tv/teamheretics|lang=es|display=Heretics Twitch}}
+=== Broadcast Talent ===
+==== Core ====
+*{{player|Sjokz|flag=be|name=Eefje Depoortere}} - Host
+*{{player|Laure|flag=fr|name=Laure Valée}} - Interviewer
+*{{player|Medic|link=Medic (Aaron Chamberlain)|flag=uk|name=Aaron Chamberlain}} - Play-by-Play Caster
+*{{player|Quickshot|flag=za|name=Trevor Henry}} - Play-by-Play Caster
+*{{player|Drakos|flag=us|name=Daniel Drakos}} - Play-by-Play Caster
+*{{player|Vedius|flag=uk|name=Andrew Day}} - Color Caster
+*{{player|Ender|link=Ender (Christy Frierson)|flag=us|name=Christy Frierson}} - Color Caster
+*{{player|Caedrel|flag=gb|name=Marc Lamont}} - Color Caster
+*{{player|Dagda|flag=IE|name=Robert Price}} - Color Caster
+*{{player|Guldborg|flag=DK|name=Mikkel Guldborg Nielsen}} - Color Caster
+
+==== Guests ====
+*{{player|Broxah|flag=DK|name=Mads Brock-Pedersen}}
+*{{player|Nymaera|flag=UK|name=Alexander Hapgood}}
+*{{player|Troubleinc|flag=GR|name=Georgia Paras}}
+*{{player|YamatoCannon|flag=SE|name=Jakob Mebdi}}
+*{{player|Oisín|flag=IE|name=Oisín Molloy}}
+*{{player|Jamada|flag=UK|name=Adrian Wharlton-Thorne}}
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|de}} Berlin, Germany
+|-
+|LEC Studio
+|-
+|''Capacity'' - 174
+|-
+|[[File:LEC Studio.jpg|250px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|}
+
+=== Announcements ===
+* November 18, [https://twitter.com/LEC/status/1593552095826714624 LEC's Tweet]
+
+=== Viewership Statistics ===
+
+=== Additional Content ===
+* See [[LEC/2023 Season/Winter Season/Media|Media]].
+
+== References ==
+<references/>

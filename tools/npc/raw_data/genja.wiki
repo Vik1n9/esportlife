@@ -1,0 +1,164 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Genja&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.771Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Genja」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Genja
+|name=Evgeny Andryushin
+|nativename=Евгений Андрюшин
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1988
+|birth_date_month=September
+|birth_date_day=24
+|favchamp=Corki
+|favchamp2=Kog'Maw
+|favchamp3=Ashe
+|favchamp4=Varus
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/genja
+|facebook=https://www.facebook.com/lolgenja
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=Yes
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Genja hails from Moscow, Russia. He gained notice in Season 1 of League of Legends, reaching 2.3k in the high elo ladders playing mainly {{ci|Ashe}}. He started in the competitive scene after brief stints playing with Liquicity, myRevenge Russia and MTG, where he met future teammates [[Alex Ich]] and [[Darien]]. 
+
+==== Pre Season 2 ====
+He started making headway though in the scene when joining [[Team Empire]] as their AD Carry in late 2011, who made a large splash at [[IEM Season VI - Global Challenge Kiev/Qualifiers|IEM Season VI Qualifiers]], winning it to be invited to play at [[IEM Season VI - Global Challenge Kiev]] but also due to making a now famed highlight vs [[SK Gaming]], which gave birth to the meme and saying of players shouting "EMPIRE!". <ref> [http://www.youtube.com/watch?v=e89llah-u3s League of Legends ~ #03 - Empire's Epic Combo Vs. SK Gaming] ''youtube.com'' </ref>
+
+=== Season 2 ===
+Alex and the rest of Team Empire - [[Darien]], [[Diamondprox]], [[Alex Ich]], and [[GoSuPepper]] (who would later rename to '''EDward''') - were recruited by organization [[Moscow Five]] in December 2011. Their first major appearance was at IEM Kiev, where they made an international name for them selves by undefeated in group stage against [[Dignitas]], [[against All authority]], and [[Sypher]] and then beating SK Gaming and [[Team SoloMid]] to win the tournament; the only game they dropped in their entire tournament run was to TSM.<ref>[http://www.esl-world.net/masters/season6/kiev/lol_groupstage/ IEM Kiev 2012 Group Stage Results] ''esl-world.net''</ref><ref> [http://www.esl-world.net/masters/season6/kiev/lol/playoffs/rankings/ IEM Kiev 2012 Playoff Results] ''esl-world.net''</ref>
+
+After IEM, Moscow Five competed in the online [[Kings of Europe]] tournament. Again they had an undefeated group stage, though this time they lost to [[Counter Logic Gaming EU]] in the finals after a semi-final win over [[Team Sypher]].<ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html#page-1 Kings of Europe 2012 Group A Results] ''fnatic.com''</ref><ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html Kings of Europe 2012 Playoff Results] ''fnatic.com''</ref>
+
+Moscow Five's next tournament was the [[IEM Season VI - World Championship|IEM World Championship]] in Hanover, which they also won, this time one-upping their IEM Kiev performance by going undefeated.<ref> [http://www.esl-world.net/masters/season6/hanover/lol/playoffs/rankings/ IEM Hannover 2012 Playoff Results] ''esl-world.net''</ref> Later tournament results included second-place finishes in the online [[Corsair Vengeance Cup]] and offline at [[DreamHack Summer 2012]], both of which were won by CLG.EU. They got their revenge at [[European Challenger Circuit: Poland]], which they won with a 2-0 finals victory over CLG.EU.<ref> [http://tournaments.leagueoflegends.com/ecc-poland#tournament-bracket ECC:Poland 2012 Results] ''tournaments.leagueoflegends.com''</ref> At the [[Season Two/Regional Finals - Cologne|Season Two Regional Finals]], M5 qualified for the [[Season 2 World Championship]] with the top seed from Europe after defeating [[EloHell]], [[Fnatic]], and [[SK Gaming]].<ref> [http://us.esl.tv/iem/ IEM Gamescom 2012 Results] ''esl.tv''</ref>
+
+At Worlds, Moscow Five were considered by many analysts to be the favorites to win the entire event.<ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref> Due to their regional final victory, the team had a group stage bye and then beat [[Invictus Gaming]] in the quarterfinals 2-0, with strong midgame play. However, after winning game 1 in the semifinals against [[Taipei Assassins]], M5 dropped the series 1-2 and finished the tournament in 3rd-4th; TPA went on to win the entire event.
+
+=== Pre-Season 3 ===
+
+After Worlds, Moscow Five placed fourth at the European tournament [[Tales of the Lane]] before flying to Shanghai to attend the [[Tencent Games Arena Grand Prix/Winter 2012|TGA Winter 2012]] event; they didn't participate in the tournament itself, but they played and won show matches against [[Team WE]] and [[Invictus Gaming]] and interacted with fans, hoping to boost their Chinese popularity.<ref name="M5 in China">[http://moscowfive.ru/en/news/m5-benq-s-world-tour M5.BenQ's World Tour] ''moscowfive.ru''</ref><ref name="M5 and Chinese fans">[http://lol.uuu9.com/201211/426206.shtml M5中国表演赛前训练视频：用中文向大家问好 (Chinese)] ''lol.uuu9.co''</ref> Upon leaving China, the team flew to Las Vegas to attend [[IGN ProLeague Season 5|IPL 5]], where they placed fourth, once again eliminated from a tournament by the [[Taipei Assassins]], this time in an 0-2 loss despite Alex Ich farming to a 538 creep score in the first game.
+
+In January 2013, due to Moscow Five's CEO having been arrested in July of the previous year and leaving the organization with a lack of funding, the League of Legends roster was released.<ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref> Four days later, on January 14, the team joined [[Gambit Gaming]].
+
+=== Season 3 ===
+Moscow Five's Season 2 Worlds attendance granted the roster a seed into Riot's new professional league for Season 3, the [[Riot League Championship Series/Europe/Season 3|European League of Legends Championship Series]], despite the roster's organizational switch. They dominated the 10-week regular season with a 21-7 overall record and then finished second in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|playoffs]] behind [[Fnatic]]. Partway through the season, they attended IEM Hanover, where they placed third after a semifinal loss to [[CJ Entus Frost]]. They also played at the [[2013 MLG Pro Circuit/Winter/Championship|2013 MLG Winter Championship]] exhibition tournament, where they placed second.
+
+After the end of the LCS Spring Split, Alex Ich was publicly voted to represent Europe at the [[All-Star Shanghai 2013|All-Star tournament]]. Teammates Diamondprox, Genja, and Edward were also voted in by the region, but due to a rule requiring that only up to three members of a single team could be voted into the tournament, [[Yellowpete]] from [[Evil Geniuses.EU|Evil Geniuses]] replaced Genja; [[sOAZ]] from Fnatic was the top laner. The European team placed last out of the five regions' teams in attendance.
+
+In the [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|summer season]] of the LCS, Gambit finished in fourth place with a 15-13 record in the round robin and then in third place in the [[Riot League Championship Series/Europe/Season 3/Summer Playoffs|playoffs]], which was sufficient to send them to [[Season 3 World Championship|Worlds]]. At Worlds, Gambit made it out of groups in second place with a 5-3 record after beating [[Samsung Ozone]] in a tie breaker; however, they were eliminated in the first round of the bracket by [[NaJin Black Sword]].
+
+== Trivia ==
+* Despite living in Russia, he was never a CIS resident officially because by the time residency rules were introduced he declared European residency.
+* Known for his AD {{ci|Kennen}}, {{ci|miss fortune}}, {{ci|Urgot}} (Solo Bot at [[IEM Season VI - World Championship]]) and popularizing Wriggle's Lantern on AD carries.
+* At [[IEM Season VI - Global Challenge Kiev]] he was asked what it was that M5 made so strong. He replied with: "Any team could do the same. The way to kill other heroes so fast is you see hero, you kill hero. It's not special".
+* Got 2.3k ELO after only playing {{ci|Ashe}} in Season 1, using a special [[The Brutalizer|Brutalizer]]-[[Sword of the Occult]]-[[Boots of Mobility]]-[[Infinity Edge]] build.
+* Played a lot of AD {{ci|Ahri}} at the beginning of Season 2.
+* Never plays with a skin.
+* Favors [[Mercury's Treads]] and [[Ninja Tabi]] over [[Berserker's Greaves]].
+* One of the few AD carries that stack two Bloodthirsters, especially as {{ci|Miss Fortune}} and {{ci|Ezreal}}.
+* Has been named by Diamondprox to be the "brain" of Gambit Gaming as he usually comes up with their team comps and strategies
+* Used to play CDR (blue) {{ci|Ezreal}} long before it got popular; he built [[Glacial Shroud]] and [[The Brutalizer]].
+* Also used to Max W on {{ci|Ezreal}}, which got nerfed.
+* Was the one who came up with {{ci|Xin Zhao}} jungle and {{ci|Renekton}} Top lane combination, which got popular fairly quickly.
+* One of his favorite champions is Tryndamere. He has multiple smurfs on which he played {{ci|Tryndamere}}  up to Diamond. Told Alex Ich to play {{ci|Tryndamere}} against Froggen's Anivia and beat him in cs with him.
+* Came up with the {{ci|Urgot}} 2v1 with {{ci|Alistar}} roaming strategy. He says that he came up with this strategy because he used to not like playing with Edward in lane.
+* Buys GA as a second or third item, because his team plays a specific playstyle in which he won't get protected. Gambit likes to dive a lot with Darien and Diamondprox.
+* Likes to run armor pen runes on {{ci|Ashe}} and some other AD carries.
+* One of his many smurfs is SilentSStorm, on which he only plays {{ci|Ashe}}.
+* Popularized {{ci|Corki}} , which got nerfed heavily.
+* Came up with the Zeke's Herald tactic, where he buys no lifesteal items at all and relies on his support for that.
+* Popularized the Blue {{ci|Ashe}}. Genja, was also the first player to build tear of the Goddess on {{ci|Varus}}.
+* Likes to invent and popularize many champions, builds and strategies.
+* Smurf's name comes from the game "Silent Storm", it's from 2003 and was made by a Russian company. The game itself plays in WW2, probably the reason why he has the "SS" in his smurf's name.
+* Is praised by many for his positioning.
+* Popularised Trinity Force on {{ci|Lucian}}.
+* Likes to build his AD carries without any attack speed items. He once said in an interview that he mainly wants to deal damage with his spells and then with his autoattacks. Might be the reason why he plays a ton of {{ci|Varus}}, {{ci|Ezreal}}, and {{ci|Miss Fortune}}.
+* Popularized the Trinity Force {{ci|Kog'Maw}} build at season 3 world championships.
+* Known for his triple Doran's Blade for a safer early game.
+* Got the nickname '''Genja Timelord''' for playing with unconventional builds that would later become meta.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

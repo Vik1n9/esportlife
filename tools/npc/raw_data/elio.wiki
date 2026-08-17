@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Elio&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.115Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Elio」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Elio
+|name=Phạm Thạch Nhân Băng
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=2000
+|birth_date_month=November
+|birth_date_day=07
+|favchamp=Leona
+|favchamp2=Nautilus
+|favchamp3=Rell
+|favchamp4=Rakan
+|checkbox1=No
+|compID1=Lisa
+|checkboxComp=No
+|ids='''VN:''' Elio #0711 <br> '''NA:''' bundauchammilo#GAM <br> '''EUW:''' Ariana Venti#B2K <br> '''KR:''' bang iuu#0711
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/banghatesyou
+|instagram=nhanbang_
+|tiktok=_nhanbang
+|lolpros=https://lolpros.gg/player/elio
+|deeplol=https://www.deeplol.gg/pro/Elio
+|dpmlol=https://dpm.lol/pro/Elio
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Lisa'''.
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+== Biography ==
+
+== Trivia ==
+* Is a big fan of K-Pop group ''BLACKPINK'', together with [[Shine (Tôn Nguyễn Phi Long)|Shine]] and [[Glory (Lê Ngọc Vinh)|Glory]]. He named himself after ''Lisa'', a member of ''BLACKPINK''.<ref>[https://vcsenglish.wordpress.com/2020/05/22/meet-percent-esports/ Meet Percent Esports, the newest member of VCS!] ''vcsenglish.wordpress.com''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Y1han&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.923Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Y1HAN」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Y1han
+|name=Hu Zhi-Wei
+|nativename=胡志威
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=2
+|checkbox1=No
+|compID1=Pepper
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/333344
+|weibo=https://weibo.com/n/Y1hanOvO
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized as '''Y1HAN'''. He was previously known as '''Pepper'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2017 Season===
+Pepper, then known as '''Y1HAN''', joined [[Royal Never Give Up]] in the middle of the [[LPL/2017 Season/Spring Season|2017 LPL Spring Season]] as an emergency substitute after the team's starting jungler [[Mlxg]] and two substitutes [[BayBay]] and [[Again]] all had medical emergencies during the same week. Despite the unexpected circumstances, Y1HAN performed well, and stayed on the team for the [[LPL/2017 Season/Summer Season|2017 LPL Summer Season]], seeing occasional playtime. However, Y1HAN was not fielded during either of the team's playoffs runs. Likewise, he accompanied the team to the [[2017_Season_World_Championship/Main_Event|2017 World Championship]], but did not play. At the end of the season, he left the team and joined [[FunPlus Phoenix]], a new LPL team. He also changed his name to '''Pepper'''.
+
+== Trivia ==
+* His ID '''Y1han''' (遗憾) means "Regret" in Chinese.
+** Chinese fans sometimes joke about this when RNG official blog says "hope no regret in this tournament."
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

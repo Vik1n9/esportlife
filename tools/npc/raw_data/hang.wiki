@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hang&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.577Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hang」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Hang
+|name=Fu Ming-Hang
+|nativename=付明航
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2003
+|birth_date_month=February
+|birth_date_day=05
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 라면이 맛있다 <br> '''EUW:''' cheikikingbrozzz
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://www.weibo.com/n/WBG_Hang
+|lolpros=https://lolpros.gg/player/hang
+|deeplol=https://www.deeplol.gg/pro/Hang
+|dpmlol=https://dpm.lol/pro/Hang
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Hang''' is based on his given name (Ming-Hang).
+* Reached 3000 assists in the LPL on March 2, 2024.
+** Was the 27th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on July 23, 2025.
+** The 21st player to reach 4000 assists in the LPL.
+* Reached 500 games in the LPL on September 20, 2025.
+** The 40th player to reach 500 games in the LPL.
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===  
+* LPL 1st All Pro Team x1 (Split 3 2025)
+* LPL 3rd All Pro Team x3 (Summer 2021, Spring 2023, Summer 2024)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MISSING&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.565Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Missing」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=MISSING
+|name=Lou Yun-Feng
+|nativename=娄运峰
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=May
+|birth_date_day=26
+|favchamp=Thresh
+|favchamp2=Janna
+|favchamp3=Rakan
+|favchamp4=Nautilus
+|checkbox1=Yes
+|favchamp5=Alistar
+|compID1=hunamu
+|checkboxComp=No
+|ids='''KR:''' changguiiiiiiiii<br>kgcjhADHSADN
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/190001
+|instagram=jdg.missing
+|weibo=https://www.weibo.com/n/JDG_Missing
+|deeplol=https://www.deeplol.gg/pro/Missing
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''hunamu'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Reached 3000 assists in the LPL on March 20th, 2022.
+** Was the 16th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on March 2nd, 2023.
+** The 10th player to reach 4000 assists in the LPL, after [[meiko]], [[Pyl (Chen Bo)|Pyl]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], [[cold]], [[Doinb]], [[Crisp]], and [[LvMao]].
+<!--* Reached 4500 assists in the LPL on June 18th, 2023.
+** The 8th player to reach 4500 assists in the LPL, after [[meiko]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Rookie]], [[Crisp]], [[cold]], and [[Doinb]].-->
+* Reached 5000 assists in the LPL on February 27th, 2024.
+** The 6th player to reach 5000 assists in the LPL after [[meiko]], [[Ming (Shi Sen-Ming)|Ming]], [[xiaohu]], [[Crisp]], and [[Rookie]].
+* Reached 6000 assists in the LPL on March 27, 2025.
+** The 4th player to reach 6000 assists in the [[LPL]] after [[meiko]], [[Crisp]], and [[xiaohu]].
+* Reached 300 wins in the LPL on August 05, 2023.
+** Was the 18th player to reach 300 wins in the LPL.
+* Reached 400 wins in the LPL on May 17, 2025.
+** Was the 13th player to reach 400 wins in the LPL.
+* Reached 500 games in the LPL on August 05, 2023
+** The 21st player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on January 23, 2025
+** The 14th player to reach 600 games in the LPL.
+
+=== Individual Awards ===
+* LPL 2nd All-Pro Team x3 (Summer 2022, Spring 2023, Summer 2023)
+* LPL 3rd All-Pro Team x2 (Spring 2022, Spring 2024)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults |show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

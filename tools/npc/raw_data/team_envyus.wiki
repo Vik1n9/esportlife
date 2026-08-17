@@ -1,0 +1,91 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20EnVyUs&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.806Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team EnVyUs」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Team EnVyUs
+|orgcountry= United States
+|country=
+|region= North America
+|website= https://www.teamenvyus.com/
+|youtube= https://www.youtube.com/user/TeamEnVyUs
+|facebook= https://www.facebook.com/TeamEnVyUs
+|twitter= TeamEnVyUs
+|snapchat= teamenvyus
+|sponsor= [http://hyperxgaming.com/us/ HyperX] <br> [http://www.scufgaming.com/ Scuf Gaming] <br> [http://www.monsterenergy.com/ Monster Energy] <br> [http://zowie.benq.com// Zowie] <br>[http://www.dxracer.com/us/en-us/ DXRacer] <br> [http://www.elgato.com/en/gaming Elgato Gaming] <br> [http://www.nzxt.com/ NZXT]
+|created= LoL Division 2016-05-18
+|disbanded= LoL Division 2017-11-20
+|rosterphoto= envyroster2017summer.png
+|otherwikis= cod,gears,halo,rl,smite,fortnite,valorant,pubg
+}}{{TOCRWI}}
+
+'''Team EnVyUs''' is a North American multi-gaming organization. Their ''League of Legends'' team was founded in May 2016 upon acquiring the roster and LCS seed of [[Renegades]]. They disbanded in November 2017 due to their exclusion from the newly-franchised [[League Championship Series/North America/2018 Season/Spring Season|2018 Spring Season]] of the NA LCS.
+
+== History ==
+=== 2016 Season ===
+'''Team EnVyUs''' was announced on May 18, 2016, as the new organization of [[Renegades]], inheriting three signed players in [[Seraph]], [[Ninja]], and [[Hakuho]], as well as the team's [[League Championship Series/North America/2016 Season/Summer Season|NA LCS Summer Season]] seed.<ref name="formation">[http://espn.go.com/esports/story/_/id/15593401/envyus-join-na-lcs-picks-seraph-ninja-hakuho EnVyUs to join North American LCS, picks up Seraph, Ninja, Hakuho] ''espn.go.com''</ref> The acquisition took place after Renegades was [[List of Competitive Rulings|banned]] from LCS ownership, but reportedly the two organizations were in talks prior to the ruling.<ref>[http://www.dailydot.com/esports/envyus-renegades-lcs/ EnVyUs agree to terms for Renegades, poised to enter the LCS] ''dailydot.com''</ref> Their final roster for the LCS added [[Procxin]], [[Nientonsoh]], and [[LOD]].<ref name="may232016">[http://twitter.com/TeamEnVyUs/status/734816311595958273 Team EnVyUs' Tweet] ''twitter.com''</ref>
+
+Despite having multiple substitutes on their roster, EnVyUs started Seraph, Procxin, Ninja, LOD, and Hakuho for the entirety of the split. Fueled by strong practice going into the season, EnVyUs started out 4-0 in series records after two weeks, sharing first place with [[Team SoloMid]]. However, in the weeks that followed, they slipped down the standings all the way to sixth place, where they sat from week 6 through the end of week 9. With the bottom seed into the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]], EnVyUs faced [[Cloud9]] in the quarterfinals where they pulled out a game 1 comeback win before losing the next three to be eliminated. They ended the season with 20 [[2016 Season/Championship Points|championship points]]. In the [[2016 Season North America Regional Finals|Regional Finals]], EnVyUs defeated [[Team Liquid]]'s new roster with [[Arcsecond]] jungling but then lost to [[Cloud9]], who went on to win the gauntlet.
+
+=== 2017 Season ===
+In the offseason, EnVyUs signed former [[Afreeca Freecs]] jungler [[LirA]]. They also swapped ADCs with the newly rebranded [[Team Dignitas]], acquiring veteran ADC [[Apollo (Apollo Price)|Apollo]] while sending [[LOD]] to Dignitas. However, visa issues prevented LirA from appearing until week 2 of the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Season]], forcing the team to switch [[Ninja]] to jungle and play substitute [[Alex Ich]] in mid lane. His arrival did not improve things, as EnVyUs finished 3-15 and never ended a week anywhere other than tied for last place, meaning they would have to play in the [[NA LCS 2017 Summer Promotion|promotion tournament]]. Despite their weak result, LirA's play was so outstanding that he was voted the first team NALCS jungler, the first time a player on a last place team had received that honor.
+
+EnVyUs began the promotion tournament inauspiciously, dropping a 3-1 set to the veteran [[Gold Coin United]] lineup, sending them into the losers bracket. There, they managed to defeat [[EUnited]] 3-1, setting up a rematch with [[Gold Coin United|GCU]] where they would manage to outlast them 3-2 on the strength of LirA's play, keeping their LCS spot.
+
+In the offseason, EnVyUs parted ways with [[Ninja]] and brought in former [[Phoenix1]] mid laner [[Pirean]] and former [[Fnatic Academy]] mid laner [[Nisqy]] to replace him. Neither was considered a particularly high profile pickup, [[Pirean]] had last played in the LCS when Phoenix1 was in the promotion tournament, and Nisqy had been one of the weakest mid laners statistically in the [[EU_Challenger_Series/2017_Season/Spring_Season|EUCS]], despite his team promoting into the LCS. The team also made a coaching change, bringing in viOlet to replace [[Dylan Falco]] who moved to Europe to coach [[Fnatic]].
+
+With Nisqy unable to play for the first few weeks due to visa issues, Pirean got the start and the team finished 3-1 and in a three way tie for 1st after the first two weeks, partly off of his strong [[Taliyah]] play. After that, however, the team played inconsistently, alternating the two mid laners until Pirean returned to [[Phoenix1]] in week 7 to replace [[Ryu]], leaving Nisqy as the sole starter. EnVyUs managed to finish week 7 with an 8-6 record, but faced with playing all of the top 4 teams in the final two weeks, they lost all four games to finish 8-10, though they still easily secured the 6th playoff seed due to the weakness of the teams below them.
+
+In the playoffs, EnVyUs faced off against the heavily favored 3rd seed [[CLG]], who had spend most of the season neck-in-neck with [[TSM]] and [[Immortals]] for first place. However, after getting crushed in the first game, the EnVyUs botlane managed to exploit rookie jungler [[OmarGod]], as well as a suddenly floundering [[Stixxay]] and [[Aphromoo]] to take a 2-1 lead in the series. On the brink of defeat in game 4, CLG's increased playoff experience won out, and they managed to take that game and the next, ending EnVyUs's season. EnVyUs would also not get to play in the [[2017 Season North America Regional Finals|Regional Finals]], as they only had 20 championship points compared to [[FlyQuest|FlyQuest's]] 30.
+
+With the NALCS moving to a franchised format for the [[League_Championship_Series/North_America/2018_Season/Spring_Season|2018 season]], EnVyUs was not one of the teams selected to receive a franchise, and the team disbanded soon afterward.<ref name=disband">[https://twitter.com/TeamEnVyUs/status/932777190940397569 Team EnVyUs's Tweet] ''twitter.com''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+
+== Organization ==
+=== Last Active ===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Skyler Johnson|'''Founder'''}}
+{{listplayersp|Hastr0|us|Mike Rufail|'''Owner & Managing Director'''}}
+{{listplayersp|i13nV|us|Tyler Thompson|'''Part-Owner & Co-General Manager'''}}
+{{listplayersp|Andrew|us|Andrew Tomlinson|'''Co-General Manager'''}}
+{{listplayersp|Cory|us|Cory Doggett|'''Media Director'''}}
+{{listplayersp|DrMixable|us|Logan Threlkeld|'''Video Editor'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|viOLet (Kim Dong-hwan)|kr|Kim Dong-hwan (김동환)|'''Head Coach'''|newteam=none}}
+{{listplayersp|Khymerra|us|Nathan McAdams|'''Head Analyst'''|newteam=G2}}
+{{listplayersp|Pyrex|kr|Toby Kwon (권용현)|'''Player Manager'''|newteam=Clutch}}
+{{listplayer|Real (Sam Joy)|us|Sam Joy|'''Analyst'''|newteam=TL}}
+{{listplayer|Dylan (Dylan Falco)|ca|Dylan Falco|'''Head Coach'''|newteam=FNC}}
+{{listplayer|Miracle|link=Miracle (Lee Hyeon-beom)|kr|Lee Hyeon-beom (이현범)|'''Head Coach'''|newteam=Giants Gaming}}
+{{listplayersp|Matt|us|Matthew Akhavan-Kim|'''General Manager'''|newteam=Misfits|comment=Florida Mayhem}}
+{{listplayer|Hermes|link=Hermes (David Tu)|us|David Tu|'''Head Coach'''|newteam=NRG}}
+{{listplayer/End}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+<gallery>
+envyus_summer2016.jpg|EnVyUs 2016 LCS Summer Roster
+NV 2017 Spring 2.png|EnVyUs 2017 LCS Spring Roster with Alex Ich
+</gallery>
+
+==External Links==
+
+==References==
+<references />

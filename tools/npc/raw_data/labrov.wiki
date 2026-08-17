@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Labrov&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Labrov」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Labrov
+|name=Lampros Papoutsakis
+|nativename=Λάμπρος Παπουτσάκης
+|namealphabet=Greek
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Greece
+|residency=EMEA
+|birth_date_year=2002
+|birth_date_month=February
+|birth_date_day=12
+|favchamp=Thresh
+|favchamp2=Bard
+|favchamp3=Alistar
+|favchamp4=Pyke
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' G2 Labrov#8085 <br> school phobia#EUW <br> '''NA:''' G2 Labrov#ltyol<br>'''BR:''' Alexandre Pato#67679
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/labrov55
+|twitter=Labrov12
+|instagram=_labrov
+|lolpros=https://lolpros.gg/player/labrov
+|deeplol=https://www.deeplol.gg/pro/Labrov
+|dpmlol=https://dpm.lol/pro/Labrov
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Nicknamed "Labrov James" by [[Caedrel]]
+=== Individual Awards ===
+* EU Rookie Of The Split (Summer 2020)
+* EU 3rd All-Pro Team x1 (Spring 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

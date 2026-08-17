@@ -1,0 +1,6 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lonely&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lonely」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Lonely (Liu Shi-Yu)
+|player2=Lonely (Han Gyu-joon)
+}}

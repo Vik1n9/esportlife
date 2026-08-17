@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.138Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Bie
+|name=Trần Đức Hiếu
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1999
+|birth_date_month=December
+|birth_date_day=09
+|favchamp=Nautilus
+|favchamp2=Rakan
+|favchamp3=Alistar
+|favchamp4=Braum
+|checkbox1=No
+|compID1=Papaya
+|checkboxComp=No
+|ids='''VN:''' duchjeu hue <br> '''KR:''' Royal Police <br> '''NA:'''keep go1ng  <br> '''EUW:''' VKE SUP
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/bietran1368
+|youtube=https://www.youtube.com/@bielol99
+|lolpros=https://lolpros.gg/player/bie
+|deeplol=https://www.deeplol.gg/pro/Bie
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Papaya'''.
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+*He was awarded the title of National Sports Master by the Ministry of Sports, Culture and Tourism of Vietnam after winning the Gold Medal with the [[Vietnam (National Team)|Vietnam National Team]] at the [[Sea Games 31|31st SEA Games]] at the end of 2022.
+*He was awarded the title of National Esports Grandmaster by VIRESA (Vietnam Esports Federation) after achieving good results with [[Team Whales]] at [[2023_Season_World_Championship|Worlds 2023]] and with [[Vietnam (National Team)|Vietnam National Team]] at [[2022 Asian Games]] on January 21, 2024.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

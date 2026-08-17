@@ -1,0 +1,61 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Infinity%20(Christian%20Hernando)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.806Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity (Christian Hernando)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Infinity
+|name=Christian Hernando San José
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=EMEA
+|birth_date_month=July
+|birth_date_day=14
+|favchamp=Nidalee
+|favchamp2=Rek'Sai
+|favchamp3=Gragas
+|favchamp4=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lnfinitylol989
+|twitter=Infinitylol989
+|lolpros=https://lolpros.gg/player/infinity/
+|deeplol=https://www.deeplol.gg/pro/Infinity-Christian_Hernando
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

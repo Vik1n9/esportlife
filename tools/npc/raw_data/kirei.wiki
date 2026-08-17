@@ -1,0 +1,89 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kirei&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.052Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kirei」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kirei
+|name=Thomas Yuen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Netherlands
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=February
+|birth_date_day=18
+|favchamp=Elise
+|favchamp2=Kindred
+|favchamp3=Taliyah
+|checkbox1=No
+|checkboxComp=No
+|ids=Kirei sama, Kirei smurfer
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kireilol
+|twitter=KireiLoL
+|instagram=kireilol
+|askfm=KireiLoL
+|youtube=https://www.youtube.com/@KireiLoL
+|discord=https://discord.com/invite/mCH5k2vPD6
+|tiktok=kireilol
+|lolpros=https://lolpros.gg/player/kirei
+|deeplol=https://www.deeplol.gg/pro/Kirei
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Born in Den Bosch, The Netherlands, '''Kirei''' started playing games at the age of 7, playing Counter Strike: Source, World of Warcraft, and Guild Wars 2 before moving on to League of Legends.
+
+===2014 Season===
+Towards the end of the season, Kirei joined [[LowLandLions.White]].
+
+===2015 Season===
+With [[LowLandLions.White|LLL.White]], Kirei qualified for the [[2015 EU Challenger Series/Spring Season|EUCS Spring Season]] via the [[2015 EU Challenger Series/Spring Qualifier|EUCS Spring Qualifier]] after the team beat [[Different Dimension]] in their bracket final. The [[2015 EU Challenger Series/Spring Season|Spring Season]] was successful for the team, finishing  in 2nd place. At this point, the team left the LowLandLions organization. In the [[2015 EU Challenger Series/Spring Playoffs|Spring Playoffs]], they beat [[Gamers2]] before joining [[Copenhagen Wolves]] to form [[Copenhagen Wolves Academy]]. They went on to lose the final to [[Origen]], meaning they would play in the [[Riot League Championship Series/Europe/2015 Season/Summer Promotion|EU LCS Summer Promotion]]. In the [[Riot League Championship Series/Europe/2015 Season/Summer Promotion|Summer Promotion]], Kirei and the team were beaten by [[Team ROCCAT]]. Soon after, [[Copenhagen Wolves Academy]] disbanded.
+
+Part-way through the [[2015 EU Challenger Series/Summer Season|EUCS Summer Season]], Kirei replaced [[betongJocke]] as the jungler for [[Denial eSports EU]], with his predecessor coming back to sub in for the team later on in the season when Kirei was temporarily unavailable. The [[2015 EU Challenger Series/Summer Season|Summer Season]] itself was successful for Kirei and the team, finishing in 3rd place. In the [[2015 EU Challenger Series/Summer Playoffs|Summer Playoffs]], they were beaten in the semifinals by [[Team Dignitas EU]] before losing to [[Gamers2]] in the third-place match, meaning they would not have a chance to qualify for the LCS.
+
+Kirei and the team then participated in [[PGL Legends of the Rift/Season 1|PGL Legends of the Rift - Season 1]], where they managed to top their group. [[Shook]] subbed in for Kirei during the playoffs of the tournament.
+
+===2016 Preseason===
+In November 2015, Kirei moved from Europe to North America to join [[Team Dignitas]] as part of their line-up for the [[League Championship Series/North America/2016 Season/Spring Season|NA LCS 2016 Spring Season]].<ref>[http://team-dignitas.net/articles/news/League-of-Legends/8363/announcing-the-team-dignitas-lol-roster Announcing The Team Dignitas LoL Roster] ''team-dignitas.net''</ref>
+=== 2016 Season ===
+Following two 1-1 weeks at the start of the season, top laner [[Smittyj]] was removed from the team's starting roster and replaced by [[BillyBoss]], due to "behavioural issues".<ref name="sjbb">[http://team-dignitas.net/articles/news/League-of-Legends/8795/billyboss-signs-as-starting-lcs-top-laner-smittyj-moved-to-sub BillyBoss Signs As Starting LCS Top Laner, SmittyJ Moved To Sub] ''team-dignitas.net''</ref> The team's worst-ever split unfolded following this change, as they saw only two further wins and – after playing the [[League Championship Series/North America/2016 Season/Spring Season/Scoreboards/Week 8#Echo Fox vs Team Dignitas|longest game of the split]] – finished 10th place with a 4-14 record. The same roster played in the [[League Championship Series/North America/2016 Season/Summer Promotion|Summer Promotion]] tournament, where they lost 0-3 to [[Team Dragon Knights]], resulting in their elimination from the LCS. This made Dignitas the first of the three original North American LCS invitee teams to be relegated from the competition.
+
+In May, Dignitas transferred its [[NA Challenger Series/2016 Season/Summer Season|NACS Summer Season]] seed to [[Apex Gaming]], and all players left the team.<ref name="toapex">[http://team-dignitas.net/articles/news/Team-Dignitas/9465/team-dignitas-transfer-nacs-spot-to-apex-gaming Team Dignitas transfer NACS Spot To Apex Gaming] ''team-dignitas.net''</ref> Kirei returned to Europe to play for [[Epsilon eSports]] in the [[EU Challenger Series/2016 Season/Summer Season|EUCS]].
+
+== Trivia ==
+* Enjoys sports and eating sushi.
+* Was studying IT while playing in Challenger Series.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Armut&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.404Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Armut」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Armut
+|name=İrfan&nbsp;Berk Tükek
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=13
+|favchamp=Dr. Mundo
+|favchamp2=Gnar
+|favchamp3=Wukong
+|favchamp4=Jayce
+|checkbox1=Yes
+|favchamp5=Urgot
+|compID1=Tucake
+|compID2=push2win
+|checkboxComp=No
+|ids='''EUW:''' MAD Captain<br>2021Worlds0033<br>'''CN:''' WeaksideJoe
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/armutlol
+|twitter=armutlol
+|instagram=armutlol
+|youtube=https://www.youtube.com/channel/UCezRTK08hn5Sl9Fl-eD2nGg
+|lolpros=https://lolpros.gg/player/armut/
+|deeplol=https://www.deeplol.gg/pro/Armut
+|dpmlol=https://dpm.lol/pro/Armut
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Tucake''' and '''push2win'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+<!--add this at some point http://lolespor.weebly.com/kural-304hlal304-304rfan-tucake-tuumlkek.html-->
+== Trivia ==
+* His ID '''Armut''' was given to him by [[Achuu]], meaning "pear" in Turkish.
+* Memed as ''The Most Handsome Player in the World''.
+* His father, Tufan Tükek, a PhD in the Istanbul Faculty of Medicine, congratulated his son on Twitter by saying "Aferin İrfan" and this sentence became a meme in Turkey. 
+** After Armut's [[2020 Season World Championship/Play-In|Worlds 2020 Play-In]] performance on September 26, "Aferin İrfan" was trending, with 2,000+ tweets.
+* Famous for his looks into the camera whenever he notices it pointed at him during a game.
+* Has 2 specific memes he created:
+** "It's just my normal gameplay"
+** "It's just Bao", which is shortening of the IRL name of his former teammate [[Japone]].
+* Close friends with [[Bolulu]] , [[Japone]], and [[Closer (Can Çelik)|Closer]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

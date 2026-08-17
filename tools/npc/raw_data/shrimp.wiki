@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shrimp&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.918Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shrimp」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Shrimp
+|name=Lee Byeong-hoon
+|nativename=이병훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=October
+|birth_date_day=14
+|favchamp=Lee Sin
+|favchamp2=Nidalee
+|favchamp3=Rek'Sai
+|favchamp4=Taliyah
+|checkbox1=No
+|compID1=ShrimP
+|checkboxComp=No
+|ids='''KR:''' ShrimpVicious<br>Toon Zorc<br> '''BR:''' IDL Shrimp#BRA1<br> jg nirvana<br>'''NA:''' She Limp<br>'''EUW:''' ShrimpVicious
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/IDLShrimp
+|facebook=https://www.facebook.com/CST.Shrimp
+|twitter=LOL_ShrimP
+|instagram=shrimpy_lol
+|lolpros=https://lolpros.gg/player/shrimp/
+|deeplol=https://www.deeplol.gg/pro/Shrimp
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''ShrimP'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2015 Season===
+Lee "'''Shrimp'''" Byeong-hoon joined [[Team Coast]] in June of 2015, shortly before the start of the [[2015 NA Challenger Series/Summer Season|2015 NA CS Summer Season]]. The team won the round robin, beating [[Renegades]] in a tiebreaker match. However in the [[2015 NA Challenger Series/Summer Playoffs|2015 NA CS Summer Playoffs]], they lost 3-2 to Renegades in the finals to finish in second place. They still qualified for the [[League Championship Series/North America/2016 Season/Spring Promotion|2016 NA LCS Promotion Tournament]], where they played against [[Enemy]]. Coast beat NME 3-0 and requalified for the [[League Championship Series/North America/2016 Season/Spring Season|2016 NA LCS Spring Season]].
+
+===2016 Season===
+Coast sold their LCS seed to [[NRG Esports]] during the offseason, and the new organization picked up an entirely new roster, leaving Shrimp without an LCS team. After playing the first game of the season along with Coast top laner [[Cris]] on NRG in order to meet the three-fifths roster stability rule, Shrimp's new team [[Apex Gaming]] was announced, having acquired [[Team Imagine]]'s [[NA Challenger Series/2016 Season/Spring Season|NACS]] seed. Shrimp was the team's substitute jungler, behind former [[Samsung]] jungler [[Eve]].<ref name="joinapex">[http://www.twitlonger.com/show/n_1so78if Saintvicious's Twitlonger] ''twitlonger.com''</ref> Shrimp and Eve split starting time in the jungle, and Apex won both the regular season of NACS and the [[NA Challenger Series/2016 Season/Spring Playoffs|playoffs]]. In the [[League Championship Series/North America/2016 Season/Summer Promotion|promotion tournament]], they were seeded first against the ninth-place [[Team Impulse]], to whom they lost, and then against second place Challenger team [[Team Dragon Knights]], a rematch of the Challenger Series finals. This time, they didn't even drop one game against TDK and qualified successfully for the [[League Championship Series/North America/2016 Season/Summer Season|LCS summer split]].
+
+Shrimp became the full-time starting jungler for Apex in early May, during the mid-season break, when the team suspended Eve for "disciplinary reasons," which were later reported to have been an account ban from Riot Korea for the use of scripts.<ref>[http://espn.go.com/espn/now?nowId=21-0519272063513401574-4 Jacob Wolf's ESPN Now post] ''espn.go.com''</ref>
+
+Apex's season started out strong, with a 2-0 first week including a 2-1 upset of reigning NA LCS champions and [[2016 Mid-Season Invitational|MSI]] alums [[Counter Logic Gaming|CLG]]. Their success, however, was short-lived, and by week 5 they were in 7th place, where they remained for the rest of the season, out of reach of the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]] but also safe from [[League Championship Series/North America/2017 Season/Spring Promotion|relegations]] for the [[League Championship Series/North America/2017 Season/Spring Season|2017 Spring Season]]. In September, both [[Team Dignitas]] and Apex were acquired by the '''Philadelphia 76ers''' in September 2016, to play under the Dignitas name.<ref name="76acquire">[http://team-dignitas.net/articles/news/Team-Dignitas/10251/philadelphia-76ers-acquire-merge-and-manage-leading-esports-teams-dignitas-and-apex Philadelphia 76ers acquire, merge and manage leading esports teams Dignitas and Apex] ''team-dignitas.net''</ref>
+
+== Trivia ==
+* Used to play 12 hours of solo queue a day in Korea.
+* Accumulated up to 800LP in Challenger on the Korean server.
+* '''Shrimp''' has earned the "Best Player" award at the CBLoL 2019 Awards.
+** Also won the "Best Jungler" award at the 2018 and 2019 CBLoL Awards
+* Makes frequent appearances on [[LS]]' streams.
+** Nevertheless, most of the time he's on stream, he plays a duo with him without voice.
+* Got himself a large fanbase of Brazilians fans during and after his passage in [[Flamengo Esports]].<ref>[https://ge.globo.com/esports/lol/noticia/2023/10/08/cblol-estou-sempre-pronto-diz-shrimp-sobre-retorno.ghtml "Estou sempre pronto", diz Shrimp sobre retorno ao CBLOL (Portuguese)]''ge.gloco.com''</ref> 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

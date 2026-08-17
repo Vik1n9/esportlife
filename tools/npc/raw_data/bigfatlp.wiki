@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bigfatlp&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.139Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bigfatlp」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=bigfatlp
+|name=Michael Tang
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1990
+|birth_date_month=June
+|birth_date_day=06
+|favchamp=Twisted Fate
+|favchamp2=Anivia
+|favchamp3=Orianna
+|favchamp4=Veigar
+|checkbox1=No
+|checkboxComp=No
+|ids=SandyRichard, 2hda1, Wobbleflout, Richard Tracy, bigfatjiji, CLG bigfatlpjiji (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/bigfatlp
+|facebook=https://www.facebook.com/LoLbigfatlp
+|twitter=bigfatlp
+|instagram=bigfatlpjiji
+|reddit=bigfatlpjiji
+|youtube=https://www.youtube.com/channel/UClxuW_rcXlHIjfA9zoFkHhg
+|deeplol=https://www.deeplol.gg/pro/bigfatlp
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is best known for being the mid laner and later jungler for [[Counter Logic Gaming]].
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Jungler
+|irc=[http://webchat.quakenet.org/?channels=CLGaming #CLGaming]
+|nicknames=jiji, jijimon, king jiji
+}}
+==Biography==
+bigfatlp started playing computer games at around the age of six and had played many different games and genres since then. He played in the League of Legends beta and joined [[Counter Logic Gaming]] in 2010. <ref>[http://clgaming.net/team/1-league-of-legends-north-america Teams] ''clgaming.net''</ref>
+
+On January 15, 2013, after being on the starting roster for over two and a half years for [[Counter Logic Gaming]], Bigfatlp relinquished the AP Carry position to the recently acquired [[LiNk]], citing lack of confidence in his own level of play. Shortly afterwards, he formed [[Azure Cats]] as a semi-competitive team. <ref>[http://www.facebook.com/LoLbigfatlp/posts/507862152570471 hello peepzorz,...] (in jijispeak) ''facebook.com''; [http://www.reddit.com/r/leagueoflegends/comments/16lzic/bigfatlp_is_now_a_sub_for_clg/c7x8hpn?context=1 manisier comments on Bigfatlp is now a sub for CLG] (English translation) ''reddit.com''</ref>
+
+On May 26, 2013, bigfatlp returned to [[Counter Logic Gaming]]'s main roster as jungler and [[Chauster]] moved back to support replacing [[Aphromoo]].<ref>[http://clgaming.net/news/464-clg-roster-changes CLG Roster Changes] ''clgaming.net''</ref>
+
+On October 23, 2013, bigfatlp returned to being a sub for [[Counter Logic Gaming]]. <ref>[http://www.gamespot.com/articles/counter-logic-gaming-s-support-player-chauster-retires-jungle-moves-to-bench/1100-6415746/ Chatsuter Retires from Competitive League of Legends and Bigfatlp returns to being a sub for CLG] ''gamespot.com''</ref>
+
+== Trivia ==
+* Originally used the ID bigfatjiji, but was required to change his name by Riot due to 'jiji' being Chinese for penis. "lp" is short for "lan pah" which is Hokkien for testicle.
+* Was known for his {{ci|Twisted Fate}} early in his career. 
+* Simultaneously had three different accounts in the top 10 of the solo queue ladder during Season 1 (including ranks #1 and #2).<ref>[http://na.leagueoflegends.com/board/showthread.php?t=1028205#post12092676]</ref>
+* Known for his passive methodical play-style.
+* Early in his career, he was considered one of the best players in the world.
+* Known for his winning {{ci|Ashe}} arrow at WCG 2010, dubbed by shoutcaster Phreak as the "most legit arrow of [his] life". <ref> [http://www.youtube.com/watch?v=KaN-0N6GSa4 WCG Finals - CLG Vs. Epik - Game 1 pt2] "youtube.com"</ref>
+* He has played AD Carry for CLG, and is known for his {{ci|Urgot}}, {{ci|Ashe}}, and {{ci|Kog'Maw}}.
+* He has three cats, named Gunni, Missy, and Tammi, which he often displays for his fans via webcam and pictures.
+* He was the quietest member on CLG.
+* He does not, and has never had, a favorite champion. <ref>[http://clgaming.net/forums/board3-league-of-legends/board4-general/939-bigfatjiji-chat-q-a-session/ BigFatJiji Chat Q&A Session]"clgaming.net"</ref>
+* Known for commonly typing with grammatically unpolished English, which his fans have nicknamed jijispeak.
+* He did not move into CLG Gaming House when he was the mid laner, but moved into CLG Gaming House when he returned to main roster as jungler.<ref>[http://www.facebook.com/photo.php?fbid=474455805969055&set=a.236789366402368.59029.236696726411632&type=1&theater Doublelift's facebook post]''facebook.com''</ref>
+* He uses Razer Blackwidow Ultimate at Gaming House, but uses Filco keyboard with black switches at home. <ref>[http://twitter.com/bigfatlp/status/220497648480821248 bigfatlp's twitter]''twitter.com''</ref>
+* Widely considered as the best player in the world back in season 1.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

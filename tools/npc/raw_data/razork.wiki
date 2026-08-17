@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Razork&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.820Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Razork」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Razork
+|name=Iván Martín Díaz
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=October
+|birth_date_day=07
+|favchamp=Lee Sin
+|favchamp2=Ekko
+|favchamp3=Gragas
+|favchamp4=Zed
+|checkbox1=Yes
+|favchamp5=Kayn
+|checkboxComp=No
+|ids='''EUW''': Razørk Activoo#razzz<br> Cachorro Alpha#razzz <br> '''NA''': Foquita Activaa#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=Yes
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/razorklol
+|twitter=RazorkLoL
+|instagram=razorklol
+|youtube=https://www.youtube.com/channel/UCiUWyvaMevnc37ylQsBLu8w
+|lolpros=https://lolpros.gg/player/razork
+|deeplol=https://www.deeplol.gg/pro/Razork
+|dpmlol=https://dpm.lol/pro/Razork
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* He started playing since season 1.
+* His favorite food is sushi.
+* His second favorite role after jungle is midlaner.
+* His idol is [[Faker]].
+* The Spanish community nicknames him the ''cachorro/cachorrita'' (puppy).
+* Reached 1000 kills in the LEC on August 10, 2025.
+** The 17th player to reach 1000 kills in the LEC.
+
+
+=== Individual Awards ===
+* 1x LEC 1st All-Pro Team (Spring 2024)
+* 1x LEC 2nd All-Pro Team (Spring 2025)
+* LEC Rookie of the Split (Spring 2020)
+
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

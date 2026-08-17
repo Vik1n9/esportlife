@@ -1,0 +1,122 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LOUD&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.438Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LOUD」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= LOUD
+|orgcountry=Brazil
+|country= Brazil
+|region=Brazil
+|sponsor= [https://www.h2.bet.br H2 Bet] <br> [https://www.samsung.com/br Samsung] <br> [https://www.snickers.com.br Snickers] <br> [https://www.stacked.com Stacked]<br>[https://portal.uniasselvi.com.br UNIASSELVI]<br>[https://www.aztroenergy.com AZTRO ENERGY]<br>
+|headcoach= Oh "{{bl|Raise}}" Ji-hwan
+|owner= Bruno "'''PlayHard'''" Oliveira <br> Jean "'''gods'''" Ortega
+<!-- Social Media -->
+|website= https://loud.gg/
+|youtube= https://www.youtube.com/loudgg
+|facebook= https://www.facebook.com/loud
+|twitter= LOUDgg
+|stream= https://www.twitch.tv/loud
+|tiktok= loudgg
+|discord= https://discord.gg/loud
+|snapchat= 
+|instagram= loudgg
+|lolpros= https://br.lolpros.gg/team/loud
+|linkedin=https://www.linkedin.com/company/loudgg
+|bluesky= loud.gg
+<!-- History -->
+|created= Organization 2019-02-28
+|disbanded= 
+|rosterphoto=
+<!-- Remember to create or edit a data page for sister teams if applicable! -->
+|otherwikis= fortnite
+}}{{TOCRWI}}
+
+'''LOUD''' is a Brazilian esports organization.
+
+== History ==
+Created in February 2019 by mobile games influencer [https://pt.wikipedia.org/wiki/PlayHard Bruno "PlayHard" Oliveira], '''LOUD''' started with a ''Free Fire'' team, and in 2020 the organization expanded into ''Fortnite''. In October 2020, Riot Brazil announced '''LOUD''' as one of the teams selected to participate in [[CBLOL/2021 Season/Split 1|CBLOL]] from the 2021 season onwards.
+
+Sometimes called the "Brazilian FaZe Clan" due to their heavy focus on content creation, the team has gotten one of the largest fanbases in Brazilian esports. This has created what can be called the "LOUD Effect": when a player or personality joins the organization, the person's social media follower numbers skyrocket in a very short time.
+
+As of May 2024, they were the first Brazilian organization to win four consecutive regional titles in a row.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|[[wikipedia:Bruno PlayHard|PlayHard]]|br|Bruno Oliveira|'''Chief Executive Officer & Co-Founder'''}}
+{{listplayersp|gods|br|Jean Ortega|'''Chief Operating Officer & Co-Founder'''}}
+{{listplayersp|[[wikipedia:pt:Coringa (streamer)|Coringa]]|br|Victor Costa|'''Co-Owner'''}}
+{{listplayersp|[[wikipedia:Vinícius Júnior|Vini Jr]]|br|Vinícius Júnior|'''Ambassador'''}}
+{{listplayersp|[[wikipedia:Darlan Souza|Darlan Souza]]|br|Darlan Souza|'''Ambassador'''}}
+{{listplayersp|Ale|br|Alexandre Lopes|'''Head of Esports'''}}
+{{listplayersp|Roxo|br|Rodrigo Roxo|'''Team Manager'''}}
+{{listplayer|Raise|kr|Oh Ji-hwan (오지환)|'''Head Coach'''}}
+{{listplayer|Sephis|br|Diego Alejandro|'''Strategic Coach'''}}
+{{listplayer|Paclo|kr|Jhun Hyun-uk (전현욱)|'''Translator'''}}
+{{listplayersp|Furtado|br|João Vitor|'''Psychologist'''}}
+{{listplayersp|Tanaka|br|Lucas Tanaka|'''Physiotherapist'''}}
+{{listplayersp|Leo|br|Leonardo Pegozzi|'''Videomaker'''}}
+{{listplayersp|Chuckzera|br|Lucas Nascimento|'''Content Director'''}}
+{{listplayersp|Rayanne|br|Rayanne Araújo|'''Social Media Manager'''}}
+{{listplayersp|JP|br|João Pedro Braga|'''Photographer'''}}
+{{listplayersp||br|Roberta Gomes|'''Illustrator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|SrVenancio|br|Victor Venancio|'''Assistant Coach & Analyst'''|newteam=Leviatan}}
+{{listplayer|Golfin|br|Soraia de Sousa|'''Team Manager'''|newteam=none}}
+{{listplayersp|Bia|br|Bianca Akemi|'''Team Manager'''|newteam=none}}
+{{listplayer|Sephis|br|Diego Alejandro|'''Head Coach'''|newteam=LOUD|comment=Strategic Coach}}
+{{listplayersp|Thaly|br|Thalyta Kishi|'''Filmmaker'''|newteam=Riot Games}}
+{{listplayer|SrVenancio|br|Victor Venancio|'''Analyst'''|newteam=LOUD|comment=Assistant Coach & Analyst}}
+{{listplayer|Sephis|br|Diego Alejandro|'''Strategic Coach'''|newteam=LOUD|comment=Head Coach}}
+{{listplayer|Aoshi|br|Franklin Coutinho|'''Head Coach'''|newteam=Flamengo MDL}}
+{{listplayersp|Kaisz|br|Lucas Pereira|'''General Manager'''|newteam=Leviatan}}
+{{listplayer|Stardust (Son Seok-hee)|kr|Son Seok-hee (손석희)|'''Head Coach'''|newteam=Los Grandes}}
+{{listplayer|Storm (Thalita Andrade)|br|Thalita Andrade|'''Team Manager'''|newteam=Team Solid by CNB}}
+{{listplayer|Liz (Elizabeth Sousa)|br|Elizabeth Sousa|'''Streamer'''|newteam=KaBuM! Esports}}
+{{listplayersp|Lu|br|Luciana Nunes|'''Psychologist'''|newteam=none}}
+{{listplayersp||br|Arthur Santos|'''Head of Esports'''|newteam=none}}
+{{listplayersp|Nono|br|Brunno Martinez|'''Manager'''|newteam=Ilha das Lendas}}
+{{listplayersp||br|Marta Minopoli|'''Psychologist'''|newteam=Fluxo}}
+{{listplayer|Sephis|br|Diego Alejandro de Alencar Jara|'''Assistant Coach'''|newteam=Liberty Academy}}
+{{listplayer|Mytka|br|Ana Vitória|'''Analyst'''|newteam=Liberty}}
+{{listplayer|BeellzY|br|Lucas Spínola|'''Head Coach'''|newteam=Liberty}}
+{{listplayer|Shaquinn|br|Pedro Salazar|'''Assistant Coach'''|newteam=Ilha das Lendas}}
+{{listplayersp|Thaiga|br|Bianca Lula|'''Streamer'''|newteam=none}}
+{{listplayer|Hypno|br|João Victor Fernandes|'''Analyst'''|newteam=Vivo Keyd Stars}}
+{{listplayersp|Jess|br|Jéssica Lilian|'''Manager'''|newteam=Retired}}
+{{listplayersp|God|br|Vitor Kenji|'''Physiotherapist'''|newteam=paiN Gaming}}
+{{listplayer|Maximillius|br|Sávio dos Santos|'''Data Analyst'''|newteam=Retired}}
+{{listplayer|Mvrkin|br|Marcos Vinícius de Melo|'''Head Analyst'''|newteam=Raizen E-Sports}}
+{{listplayer|Von (Gabriel Barbosa)|br|Gabriel Barbosa|'''Head Coach'''|newteam=Vivo Keyd Stars}}
+{{listplayer|RafaP|br|Rafael Pinheiro|'''Strategic Coach'''|newteam=Saprissa}}
+{{listplayer|Riyev|br|Marcelo Carrara|'''Positional Coach'''|newteam=FLA}}
+{{listplayer|jUc|br|César Barbosa|'''Positional Coach'''|newteam=FLA}}
+{{listplayersp||br|Felipe Cabral|'''Head of Esports'''|newteam=Rensga}}
+{{listplayer|Piroxz|br|Luis Chavez|'''Analyst'''|newteam=Infinity}}
+{{listplayer|Crowe|us|Luqman Abdullah|'''Head Coach'''|newteam=Retired}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|LOUD|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

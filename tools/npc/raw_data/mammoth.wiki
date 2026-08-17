@@ -1,0 +1,98 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MAMMOTH&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.876Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MAMMOTH」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name=MAMMOTH
+|orgcountry=Australia
+|country=
+|region=PCS
+|image=
+|sponsor= 
+|rosterphoto=
+<!-- Staff -->
+|headcoach=
+|owner= 
+<!-- Social Media -->
+|website=https://www.mammothesports.com.au/
+|youtube= 
+|facebook= https://www.facebook.com/MammothOCE
+|twitter= MAMMOTH_OCE
+|instagram= mammoth_oce
+|tiktok= mammothesports
+|discord= 
+|snapchat= 
+|lolpros=https://lolpros.gg/team/mammoth
+<!-- History -->
+|created=2018-04-29 
+|disbanded=2024-11-12
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''MAMMOTH''' is an Australian team. 
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Darkness||Lachlan Henderson|'''Manager'''}}
+{{listplayersp|bugjuice||Fiona|'''Team Manager'''}}
+{{Listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|BloodLine (Julian Mora)|au|Julian Mora|'''Head Coach'''|newteam=none}}
+{{listplayer|Medica|cn|Ou Bang-Ying (区邦瀛)|'''Coach'''|newteam=none}}
+{{listplayer|EDubbay|au|Lily Hyatt|'''Analyst'''|newteam=none}}
+{{listplayer|Halo|au|James Giacoumakis|'''Coach'''|newteam=none}}
+{{listplayer|Sahil|au|Sahil Amlani|'''Coach'''|newteam=Antic Esports}}
+{{listplayer|Dragku|au|Dragon Guo|'''Head Coach'''|newteam=Antic Esports}}
+{{listplayer|Cadence|hk|Hugo Chang|'''Assistant Coach'''|newteam=Antic Esports}}
+{{listplayer|Aarsh|in|Aarsh Nagpal|'''Head Coach'''|newteam=GZ}}
+{{listplayer|Rho|ng|Lachlan Kenny|'''Assistant Coach'''|newteam=Kanga}}
+{{listplayersp|Brittney|au|Brittney Lillywhite|'''Psychological Coach & Player Manager'''|newteam=Bliss}}
+{{listplayer|SeeWhyAt|au|Lucas Hyatt|'''Strategic Coach'''|newteam=MMM}}
+{{listplayersp|threshy|au|Heyu Zeng|'''Manager'''|newteam=none}}
+{{listplayer|Jellal||Kevin Yu|'''Coach'''|newteam=CHF}}
+{{listplayer|sa11y|au|Jake Everson|'''Coach'''|newteam=none}}
+{{listplayer|Caleb|au|Caleb Tagliaferri|'''Coach'''|newteam=CHF}}
+{{listplayersp|Louis|au|Ahilleas Papantos|'''Team Director'''|newteam=none}}
+{{listplayer|Cuden|au|Mike Le|'''Team Manager'''|newteam=CHF}}
+{{listplayer|Phantiks|au|Richard Su|'''Head Coach'''|newteam=100}}
+{{listplayer|Jido|us|Jonathan Do|'''Analyst'''|newteam=MAD Lions}}
+{{listplayersp|SebbieSawrr|nz||'''Team Manager'''|newteam=CFA}}
+{{listplayer|Milky (Milos Mladenovic)|rs|Milos Mladenovic|'''Analyst'''|newteam=GRV}}
+{{listplayer|Vicarius|hk|Calvin Lee|'''Head Coach'''|newteam=GRV}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+== Videos ==
+
+== Highlight Videos ==
+
+==External Links==
+
+== Images ==
+<gallery>
+Mammoth EsportsOldlogo square.png|Previous Logo<br>(May 2018 - Dec 2018)
+MAMMOTH oldlogo square.png|Previous Logo<br>(Dec 2018 - Jan 2022)
+</gallery>
+
+==References==
+<references />

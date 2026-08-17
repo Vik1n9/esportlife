@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lodik&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lodik」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Lodik
+|name=Stanislav Kornelyuk
+|nativename=Станислав Корнелюк
+|namealphabet=Cyrillic
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=CIS
+|favchamp=Caitlyn
+|favchamp2=Xayah
+|favchamp3=Ezreal
+|favchamp4=Kalista
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lodik__
+|vk=https://vk.com/glinesports
+|lolpros=https://lolpros.gg/player/lodik
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Joined [[Gambit Esports]] in the last week of regular season of the [[LCL/2018 Season/Spring Season|LCL 2018 Spring Split]], before being the starter during the [[LCL/2018 Season/Spring Playoffs|domestic playoffs]] and at the [[2018 Mid-Season Invitational/Play-In|2018 MSI Play-in Stage]].
+** The situation replicated itself in [[LCL/2021 Season/Spring Season|LCL 2021 Spring]] and at the [[2021 Mid-Season Invitational]], with [[Unicorns of Love.CIS|Unicorns Of Love]].
+* Was finishing his Bachelor's thesis while starting for [[Unicorns of Love.CIS|Unicorns Of Love]] at the [[2021 Mid-Season Invitational]].<ref>[https://www.invenglobal.com/articles/13967/uol-lodik-i-had-no-intentions-of-returning-to-competitive-play-around-this-time UOL Lodik: "I had no intentions of returning to competitive play around this time."] ''twitter.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Lodik Gambit Esport 2018 Spring.png|GMB Lodik 2018 Spring
+GMB Lodik 2018 MSI.png|GMB Lodik 2018 MSI
+GMB Lodik 2018 Split 2.png|GMB Lodik 2018 Summer
+GMB Lodik 2019 Split 1.png|GMB Lodik 2019 Spring
+GMB_Lodik_2019_Split_2.png|GMB Lodik 2019 Summer
+</gallery>
+
+{{PlayerPageEnd}}

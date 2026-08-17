@@ -1,0 +1,533 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LPL%2F2016%20Season%2FSpring%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.439Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LPL/2016/Spring」 · CC BY-SA 3.0（Leaguepedia） -->
+[[Category:Premier Events]]
+{{Tabs:2016 LPL|Spring Season=1}}
+{{Infobox Tournament
+|name=2016 Tencent LoL Pro League<br>Spring Season
+|image= LPL 2016 3D.png
+|organizer=[http://game.qq.com/index.shtml Tencent Games]
+|sponsor=
+|server= 
+|type= Offline
+|country= China
+|prizepool=
+|format=
+|sdate=2016-01-14
+|edate=2016-04-10
+|website=http://lol.qq.com/match/lpl2016/
+|region=China
+|split=Spring
+|split_number=1
+|CM_StandardName=LPL 2016 Spring
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2016
+|CM_StandardLeague=LPL
+|CM_LeagueIconKey=LPL
+|closest_timezone=KST
+}}{{TOCRWI|2}}
+
+==Overview==
+=== Format ===
+* Two groups of six teams each
+* Groups based on [[2015 LPL/Summer/Regular Season|Summer 2015]] and [[2015 Season China Regional Finals|2015 Regional Finals]] performances
+** One team from Tier 1 ([[LGD Gaming]] and [[EDward Gaming]])
+** Two teams from Tier 2 ([[Qiao Gu Reapers]], [[Invictus Gaming]], [[Snake eSports]], and [[Vici Gaming]])
+** Two teams from Tier 3 ([[Oh My God]], [[Masters 3]], [[Team WE]], and [[Royal Never Give Up]])
+** One team from Tier 4 ([[Hyper Youth Gaming]] and [[Energy Pacemaker.All]])
+* Each team plays 16 matches.
+** Double Round Robin within own group
+** Single Round Robin against other group
+* Best of 3
+* Top 4 from each group qualifies to the [[LPL/2016 Season/Spring Playoffs|playoffs]]
+* Group winners receive playoff byes into the semifinals
+* Second place teams receive playoff byes into the quarterfinals
+* Fifth and sixth-place teams play in [[LPL/2016 Season/Summer Promotion|Summer Promotion Tournament]]
+===Prize Pool===
+<!--¥ 2,350,000 {{Abbr|CNY|Chinese Yuan Renminbi}} (Approximately $ 378,350 {{Abbr|USD|US Dollar}}, € 319,600 {{Abbr|EUR|Euro}}) is spread among the teams as seen below:
+{|class="wikitable"
+!width=80px|'''Place'''
+!width=100px|'''Prize ({{Abbr|CNY|Chinese Yuan Renminbi}})'''
+!width=90px|'''≈Prize ({{Abbr|USD|US Dollar}})'''
+!width=90px|'''≈Prize ({{Abbr|EUR|Euro}}) '''
+!width=200px|'''Team'''
+|-bgcolor="#99FF99"  
+|style="text-align:center;"|{{medal|1}} '''1st'''
+|style="text-align:center;" colspan=3| '''Q''' for Semifinals (Seed 1)
+|{{team|}}
+|-bgcolor="#AAFF99"  
+|style="text-align:center;"|{{medal|2}} '''2nd'''
+|style="text-align:center;" colspan=3| '''Q''' for Semifinals (Seed 2)
+|{{team|}}
+|-bgcolor="#FFFF99"  
+|style="text-align:center;"|{{medal|3}} '''3rd'''
+|style="text-align:center;" colspan=3| '''Q''' for Quarterfinals (Seed 1)
+|{{team|}}
+|-bgcolor="#FFEE99"  
+|style="text-align:center;"|{{medal|4}} '''4th'''
+|style="text-align:center;" colspan=3| '''Q''' for Quarterfinals (Seed 2)
+|{{team|}}
+|-bgcolor="#FFCC99"  
+|style="text-align:center;" | '''5th'''
+|style="text-align:center;" colspan=3| '''Q''' for Quarterfinals via Seeding Match
+|{{team|}}
+|-bgcolor="#FFBB99"  
+|style="text-align:center;" | '''6th'''
+|style="text-align:center;" colspan=3| '''Q''' for Gauntlet (Second Round)
+|{{team|}}
+|-bgcolor="#FF9999" 
+|style="text-align:center;" | '''7th'''
+|style="text-align:center;" colspan=3| '''Q''' for Gauntlet (First Round)
+|{{team|}}
+|-bgcolor="#FF9999" 
+|style="text-align:center;" | '''8th'''
+|style="text-align:center;" colspan=3| '''Q''' for Gauntlet (First Round)
+|{{team|}}
+|-
+| rowspan="4" style="text-align:center;" | '''9th-12th'''
+| rowspan="4" style="text-align:center;" | ¥ 50,000
+| rowspan="4" style="text-align:center;" | $ 8,050
+| rowspan="4" style="text-align:center;" | € 6,800
+|{{team|}}
+|-
+|{{team|}}
+|-
+|{{team|}}
+|-
+|{{team|}}
+|}
+
+<nowiki>*</nowiki>''Converted prizes calculated on January 13, 2015 with a currency rate of 1 {{Abbr|CNY|Chinese Yuan Renminbi}} = 0.161 {{Abbr|USD|US Dollar}} = 0.136 {{Abbr|EUR|Euro}} provided by http://www.xe.com/.''
+!-->
+
+==Participants==
+{| class="wikitable mw-collapsible mw-collapsed" style="width:800px; margin-bottom:-1px;"
+!colspan=4|'''Qualified Teams'''
+|-
+!colspan=4|'''Top 8 of [[2015 LPL/Summer/Regular Season|LPL Summer 2015]] (8)'''
+|-
+|{{team|EDG}}
+|{{team|QG}}
+|{{team|iG}}
+|{{team|Snake}}
+|-
+|{{team|LGD}}
+|{{team|VG}}
+|{{team|OMG}}
+|{{team|M3}}
+|-
+!colspan=2|'''Qualified via [[2015_LoL_Secondary_Pro_League/Summer_Playoffs|LSPL Summer 2015 Playoffs]] (2)'''
+!colspan=2|'''Qualified via [[2016_LPL/Spring/Promotion|LPL 2016 Spring Promotion]] (2)'''
+|-
+|{{team|EPA}}
+|{{team|HYG}}
+|{{team|WE}}
+|{{team|RNG}}
+|}
+
+===Team Rosters===
+{{RostersStart|maxteams=6
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2016 Preseason/China
+}}
+{{Box|start}}
+{{TeamRoster|team=EDward Gaming
+|{{TeamRoster/Line|player=korol |flag= cn |role=top}}
+|{{TeamRoster/Line|player=fireloli |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=clearlove |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=athena |flag=kr  |role=mid}}
+|{{TeamRoster/Line|player=pawN |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=deft |flag=kr  |role=ad}}
+|{{TeamRoster/Line|player=meiko |flag=cn  |role=support}}
+|{{TeamRoster/Line|player=RapidStar |flag=kr |role=coach}}
+|{{TeamRoster/Line|player=Maokai (Yang Ji-Song) |flag=cn |role=coach}}
+|{{TeamRoster/Line|player= |flag= |role= }}
+}}
+{{Box|break}}
+{{TeamRoster|team=Energy Pacemaker.All
+|{{TeamRoster/Line|player=GimGoon  |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Rabbit97 |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Crisis   |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=republiC |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=romant1C |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Moon (Gu Yue-Ze-Yu)     |flag=cn |role=ad      }}
+|{{TeamRoster/Line|player=JieZou   |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Soul (Zhou Feng)     |flag=cn |role=support }}
+|{{TeamRoster/Line|player=insence  |flag=cn |role=coach}}
+}}
+{{Box|break}} 
+{{TeamRoster|team=Hyper Youth Gaming
+|{{TeamRoster/Line|player=ss17God |flag=cn |role=top}}
+|{{TeamRoster/Line|player=march |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=chimin |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=gosu |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=xQ |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=x1u |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Ronaldo (Xu Jiang-Jun) |flag=cn |role=coach}}
+|{{TeamRoster/Line|player=Veronica |flag=cn |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Invictus Gaming
+|{{TeamRoster/Line|player=Zz1tai |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Kid |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=RoOk1E |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=TIme (Tang Jing-Tai) |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Rain (An Hyeon-guk)  |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Kitties |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Chris (Siu Keung) |flag=hk |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=LGD Gaming
+|{{TeamRoster/Line|player=MaRin |flag= kr |role=top}}
+|{{TeamRoster/Line|player=Acorn |flag= kr |role=top}}
+|{{TeamRoster/Line|player=Eimy |flag= cn |role=jungle}}
+|{{TeamRoster/Line|player=xiaoxi |flag= cn |role=jungle}}
+|{{TeamRoster/Line|player=Yu (Li Xin-Nan) |flag= cn |role=jungle}}
+|{{TeamRoster/Line|player=We1less |flag= cn |role=mid}}
+|{{TeamRoster/Line|player=imp |flag= kr |role=ad}}
+|{{TeamRoster/Line|player=pyl (Chen Bo) |flag= cn |role=support}}
+|{{TeamRoster/Line|player=Heart |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Masters 3
+|{{TeamRoster/Line|player=xy      |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Lazarus |flag=kr |role=top}}
+|{{TeamRoster/Line|player=yolo (Jang Hyeon-su)    |flag=kr |role=jungle,top}}
+|{{TeamRoster/Line|player=Scenery |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Raphael (Ko Jae-hyun) |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=PentaQ  |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Savoki  |flag=cn |role=support}}
+|{{TeamRoster/Line|player=City    |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Vita    |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Oh My God
+|{{TeamRoster/Line|player=Dark (Yang Ju-Bao) |flag=cn |role=top}}
+|{{TeamRoster/Line|player=xiyang |flag=cn |role=top}}
+|{{TeamRoster/Line|player=FishBall |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Quan |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Cool |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=icon |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=S1mlz |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=bei |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=five |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Luo (Luo Ci-rui) |flag=cn |role=support }}
+|{{TeamRoster/Line|player=BSYY |flag=cn |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Qiao Gu Reapers
+|{{TeamRoster/Line|player=V |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Swift |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Doinb |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Borisal |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Mortred |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Peco (Yu Rui)  |flag= cn |role=ad}}
+|{{TeamRoster/Line|player=Uzi (Jian Zi-Hao)  |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Mor |flag=cn |role=support}}
+|{{TeamRoster/Line|player=BanBazi |flag=kr |role=coach}}
+|{{TeamRoster/Line|player= |flag=|role= }}
+}}
+{{Box|break}}
+{{TeamRoster|team=Royal Never Give Up|display=RNG
+|{{TeamRoster/Line|player=Looper |flag=kr |role=top}}
+|{{TeamRoster/Line|player=letme |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Mlxg |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=inSec |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=xiaohu |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=sask |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=wuxx |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=NaMei |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Mata |flag=kr |role=support}}
+|{{TeamRoster/Line|player=Ley |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Fly (Kim Sang-cheol) |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Snake eSports
+|{{TeamRoster/Line|player=Flandre |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Zzr     |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=TANK    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Martin (Tan Qi)  |flag=cn |role=ad     }}
+|{{TeamRoster/Line|player=kRYST4L |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Ella    |flag=kr |role=support}}
+|{{TeamRoster/Line|player=Zhu Kai |flag=cn |role=coach}}
+|{{TeamRoster/Line|player=Chief   |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team WE
+|{{TeamRoster/Line|player=957 |flag=cn |role=top}}
+|{{TeamRoster/Line|player=condi |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=xiye |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Mystic |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Zero (Yoon Kyung-sup) |flag=kr |role=support }}
+|{{TeamRoster/Line|player=HooN (Kim Nam-hoon) |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Vici Gaming
+|{{TeamRoster/Line|player=Loong |flag=cn |role=top}}
+|{{TeamRoster/Line|player=DanDy |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Easyhoon |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Endless (Xu Hao) |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=caveMan |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Homme |flag=kr |role=coach}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+==Results==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|display=Group A
+|teamlist=Qiao Gu Reapers,WE,Snake,LGD,EPA,M3
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down
+|row1=upwith3bye
+|row2=upwith2bye
+|row3=upwithbye
+|row4=up
+|row5=staydown
+|row6=down
+|legend=true
+|upwith3bye=Semifinal Seed
+|upwith2bye=Quarterfinal Seed
+|upwithbye=Playoff Seed with game advantage
+|up=Playoff Seed
+|staydown=Summer Promotion Qualifying Round
+|down=Summer Promotion Elimination Round
+|isover=yes
+|useasresults=yes
+|phase=Group A
+|finalorder=Qiao Gu Reapers,Team WE,Snake eSports,LGD Gaming,Energy Pacemaker.ALl,Masters 3
+}}
+{{Box|break}}
+{{AutoStandings|preload=bo3diff|display=Group B
+|teamlist=RNG,EDG,VG,iG,OMG,Hyper Youth Gaming
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down
+|row1=upwith3bye
+|row2=upwith2bye
+|row3=upwithbye
+|row4=up
+|row5=staydown
+|row6=down
+|legend=true
+|upwith3bye=Semifinal Seed
+|upwith2bye=Quarterfinal Seed
+|upwithbye=Playoff Seed with game advantage
+|up=Playoff Seed
+|staydown=Summer Promotion Qualifying Round
+|down=Summer Promotion Elimination Round
+|isover=yes
+|useasresults=yes
+|phase=Group B|finalorder=Royal Never Give Up,EDG,Vici Gaming,Invictus Gaming,OMG,Hyper Youth Gaming
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3|groups=Yes
+}}{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=reddit
+|gamefields=VODs
+}}
+
+==Timeline==
+===Group A===
+{{AutoTimeline|orderby=recordwithpoints
+|teamlist=Qiao Gu Reapers,WE,Snake,LGD,EPA,M3
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down|w7bg1=upwithbye
+  |w8bg1=upwithbye
+  |w8bg2=upwithbye
+  |w9bg1=upwith2bye
+  |w9bg2=upwithbye
+  |w9bg3=upwithbye
+  |w9bg4=up
+  |w9bg5=staydown
+  |w9bg6=staydown
+<!-- Week 10 -->
+  |w10bg1=upwith3bye
+  |w10bg2=upwith2bye
+  |w10bg3=upwithbye
+  |w10bg4=up
+  |w10bg5=staydown
+  |w10bg6=down
+}}
+
+===Group B===
+{{AutoTimeline|orderby=recordwithpoints
+|teamlist=RNG,EDG,VG,iG,OMG,Hyper Youth Gaming
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down|w7bg6=staydown 
+<!-- Week 8 -->
+  |w8bg1=up
+  |w8bg6=down
+<!-- Week 9 -->
+  |w9bg1=upwith2bye
+  |w9bg2=upwith2bye
+  |w9bg6=down
+<!-- Week 10 -->
+  |w10bg1=upwith3bye
+  |w10bg2=upwith2bye
+  |w10bg3=upwithbye
+  |w10bg4=up
+  |w10bg5=staydown
+  |w10bg6=down
+}}
+
+== Individual Awards ==
+=== Season MVP Standings ===
+<!-- when tied, players are organized in alphabetic order -->
+{| class="wikitable" style="width:250px;"
+! style="text-align:center;width:50px;" | Place
+! style="text-align:center;width:50px;" | Times
+! style="text-align:center;width:150px;" | Player
+|-
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 10
+| {{team|Invictus Gaming|onlyimagelinked|size=38px}}&nbsp;[[RooKie]]
+|-
+| style="text-align:center;" | '''2nd'''
+| style="text-align:center;" | 9
+| {{team|Team WE|onlyimagelinked|size=38px}}&nbsp;[[Condi]]
+|-
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 8
+| {{team|Qiao Gu Reapers|onlyimagelinked|size=38px}}&nbsp;[[Doinb]]
+|-
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 8
+| {{team|Royal Never Give Up|onlyimagelinked|size=38px}}&nbsp;[[Looper]]
+|-
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 8
+| {{team|Oh My God|onlyimagelinked|size=38px}}&nbsp;[[S1mLz]]
+|-
+|}
+
+=== KDA Leader Standings ===
+{| class="wikitable"
+! style="text-align:center;" colspan="3" | '''Top'''
+! style="text-align:center;" colspan="3" | '''Jungle'''
+! style="text-align:center;" colspan="3" | '''Mid'''
+! style="text-align:center;" colspan="3" | '''AD'''
+! style="text-align:center;" colspan="3" | '''Support'''
+|-
+| style="text-align:center;" | '''Place'''
+| style="text-align:center;" | '''KDA'''
+|  style="text-align:center;width:150px;"| '''Player'''
+| style="text-align:center;" | '''Place'''
+| style="text-align:center;" | '''KDA'''
+|  style="text-align:center;width:150px;"| '''Player'''
+| style="text-align:center;" | '''Place'''
+| style="text-align:center;" | '''KDA'''
+|  style="text-align:center;width:150px;"| '''Player'''
+| style="text-align:center;" | '''Place'''
+| style="text-align:center;" | '''KDA'''
+|  style="text-align:center;width:150px;"| '''Player'''
+| style="text-align:center;" | '''Place'''
+| style="text-align:center;" | '''KDA'''
+|  style="text-align:center;width:150px;"| '''Player'''
+|-
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 4.92
+| {{team|rng|onlyimagelinked|size=38px}}&nbsp;[[Looper]]
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 8.03
+| {{team|edg|onlyimagelinked|size=38px}}&nbsp;[[Clearlove]]
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 5.13
+| {{team|rng|onlyimagelinked|size=38px}}&nbsp;[[xiaohu]]
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 7.03
+| {{team|qg|onlyimagelinked|size=38px}}&nbsp;[[Uzi (Jian Zi-Hao)|Uzi]]
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 4.79
+| {{team|edg|onlyimagelinked|size=38px}}&nbsp;[[Meiko]]
+|-
+| style="text-align:center;" | '''2nd'''
+| style="text-align:center;" | 4.20
+| {{team|OMG|onlyimagelinked|size=38px}}&nbsp;[[xiyang]]
+| style="text-align:center;" | '''2nd'''
+| style="text-align:center;" | 5.28
+| {{team|rng|onlyimagelinked|size=38px}}&nbsp;[[Mlxg]]
+| style="text-align:center;" | '''2nd'''
+| style="text-align:center;" | 4.59
+| {{team|qg|onlyimagelinked|size=38px}}&nbsp;[[Doinb]]
+| style="text-align:center;" | '''2nd'''
+| style="text-align:center;" | 6.71
+| {{team|qg|onlyimagelinked|size=38px}}&nbsp;[[Peco (Yu Rui)|Peco]]
+| style="text-align:center;" | '''2nd'''
+| style="text-align:center;" | 4.38
+| {{team|epa|onlyimagelinked|size=38px}}&nbsp;[[Soul (Zhou Feng)|Soul]]
+|-
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 4.00
+| {{team|vg|onlyimagelinked|size=38px}}&nbsp;[[Loong]]
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 4.63
+| {{team|we|onlyimagelinked|size=38px}}&nbsp;[[Condi]]
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 4.09
+| {{team|we|onlyimagelinked|size=38px}}&nbsp;[[xiye]]
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 5.43
+| {{team|edg|onlyimagelinked|size=38px}}&nbsp;[[Deft]]
+| style="text-align:center;" | '''3rd'''
+| style="text-align:center;" | 4.01
+| {{team|rng|onlyimagelinked|size=38px}}&nbsp;[[Mata]]
+|-
+| style="text-align:center;" | '''4th'''
+| style="text-align:center;" | 3.85
+| {{team|ig|onlyimagelinked|size=38px}}&nbsp;[[Zz1tai]]
+| style="text-align:center;" | '''4th'''
+| style="text-align:center;" | 4.48
+| {{team|vg|onlyimagelinked|size=38px}}&nbsp;[[DanDy]]
+| style="text-align:center;" | '''4th'''
+| style="text-align:center;" | 4.03
+| {{team|ig|onlyimagelinked|size=38px}}&nbsp;[[RooKie]]
+| style="text-align:center;" | '''4th'''
+| style="text-align:center;" | 5.41
+| {{team|rng|onlyimagelinked|size=38px}}&nbsp;[[wuxx]]
+| style="text-align:center;" | '''4th'''
+| style="text-align:center;" | 3.98
+| {{team|vg|onlyimagelinked|size=38px}}&nbsp;[[caveMan]]
+|-
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" |  3.83
+| {{team|edg|onlyimagelinked|size=38px}}&nbsp;[[Koro1]]
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 4.45
+| {{team|qg|onlyimagelinked|size=38px}}&nbsp;[[Swift]]
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 3.67
+| {{team|edg|onlyimagelinked|size=38px}}&nbsp;[[PawN]]
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 4.67
+| {{team|rng|onlyimagelinked|size=38px}}&nbsp;[[NaMei]]
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 3.73
+| {{team|omg|onlyimagelinked|size=38px}}&nbsp;[[five]] 
+|}
+
+
+== Media ==
+===Streams===
+*{{stream|url=http://star.tga.plu.cn/lpl|lang=cn|display=TGA Stream}}
+*{{stream|url=http://star.tga.plu.cn/lol|lang=cn|display=TGA Stream 2}}
+*{{stream|url=http://v.qq.com/live/game/69.html|lang=cn|display=Tencent Stream}}
+*{{stream|url=http://www.douyutv.com/cms/zt/lpl.html|lang=cn|display=DouyuTV}}
+*{{stream|url=http://www.zhanqi.tv/lpl|lang=cn|display=ZhanqiTV}}
+*{{stream|url=http://www.panda.tv/lpl|lang=cn|display=PandaTV}}
+*{{stream|url=http://www.twitch.tv/riotgames2|lang=usuk|display=Riot Stream}}
+* {{stream|url=http://play.afreecatv.com/aflpl|lang=kr}}
+
+{{TournamentMedia
+|dates=*,2015-12-01,2016-01-01,2016-02-01,2016-03-01,2016-04-01
+|names=,December, January, February, March, April
+}}
+
+== External Links ==
+* [http://lol.qq.com/webplat/info/news_version3/152/4579/4580/m3106/201512/419430.shtml Spring Season Schedule (Chinese)]
+
+== References ==
+<references />

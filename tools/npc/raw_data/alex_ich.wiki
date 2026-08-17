@@ -1,0 +1,128 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Alex%20Ich&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Alex Ich」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Alex Ich
+|name=Alexey Ichetovkin
+|nativename=Алексей Ичетовкин
+|namealphabet=Cyrillic
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Russia
+|residency=North America
+|birth_date_year=1992
+|birth_date_month=January
+|birth_date_day=31
+|favchamp=Zed
+|favchamp2=Kha'Zix
+|favchamp3=Ryze
+|favchamp4=Zilean
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/alexich
+|facebook=https://www.facebook.com/AlexIchLoL
+|twitter=AlexIchLoL
+|reddit=Alex_ich
+|linkedin=https://www.linkedin.com/in/alexichlol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|nicknames=Kha-Zich
+}}
+== Biography ==
+Alexey "'''Alex Ich'''" Ichetovkin hails from Kamenka, Russia. He has been a part of the ''League of Legends'' scene since 2009. 
+
+=== Pre-Season 2 ===
+Alex Ich started dabbling in playing competitively in 2010, joining various teams, including [[Dimegio Club]] (who were later acquired by [[SK Gaming]]), [[Liquicity]], [[myRevenge]] after their main lineup was picked up by [[Fnatic]], and [[MTG]], where he met future teammates [[Darien]] and [[Genja]]. Alex started making headway though in the scene when he joined [[Team Empire]] as their mid player in October 2011. They won the [[IEM Season VI - Global Challenge Kiev/Qualifiers|IEM Season VI Qualifiers]] and were invited to [[IEM Season VI - Global Challenge Kiev|IEM Kiev]]; in the qualifier, in a game against [[SK Gaming]], Empire became famous for a combination of area-of-effect ultimates including {{ci|Nunu}}'s Absolute Zero.<ref> [http://www.youtube.com/watch?v=e89llah-u3s League of Legends ~ #03 - Empire's Epic Combo Vs. SK Gaming] ''youtube.com''</ref>
+
+=== Season 2 ===
+Alex and the rest of Team Empire - [[Darien]], [[Diamondprox]], [[Genja]], and [[GoSuPepper]] (who would later rename to '''EDward''') - were recruited by organization [[Moscow Five]] in December 2011. Their first major appearance was at IEM Kiev, where they made an international name for them selves by undefeated in group stage against [[Dignitas]], [[against All authority]], and [[Sypher]] and then beating SK Gaming and [[Team SoloMid]] to win the tournament; the only game they dropped in their entire tournament run was to TSM.<ref>[http://www.esl-world.net/masters/season6/kiev/lol_groupstage/ IEM Kiev 2012 Group Stage Results] ''esl-world.net''</ref><ref> [http://www.esl-world.net/masters/season6/kiev/lol/playoffs/rankings/ IEM Kiev 2012 Playoff Results] ''esl-world.net''</ref>
+
+After IEM, Moscow Five competed in the online [[Kings of Europe]] tournament. Again they had an undefeated group stage, though this time they lost to [[Counter Logic Gaming EU]] in the finals after a semi-final win over [[Team Sypher]].<ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html#page-1 Kings of Europe 2012 Group A Results] ''fnatic.com''</ref><ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html Kings of Europe 2012 Playoff Results] ''fnatic.com''</ref>
+
+Moscow Five's next tournament was the [[IEM Season VI - World Championship|IEM World Championship]] in Hanover, which they also won, this time one-upping their IEM Kiev performance by going undefeated.<ref> [http://www.esl-world.net/masters/season6/hanover/lol/playoffs/rankings/ IEM Hannover 2012 Playoff Results] ''esl-world.net''</ref> Later tournament results included second-place finishes in the online [[Corsair Vengeance Cup]] and offline at [[DreamHack Summer 2012]], both of which were won by CLG.EU. They got their revenge at [[European Challenger Circuit: Poland]], which they won with a 2-0 finals victory over CLG.EU.<ref> [http://tournaments.leagueoflegends.com/ecc-poland#tournament-bracket ECC:Poland 2012 Results] ''tournaments.leagueoflegends.com''</ref> At the [[Season Two/Regional Finals - Cologne|Season Two Regional Finals]], M5 qualified for the [[Season 2 World Championship]] with the top seed from Europe after defeating [[EloHell]], [[Fnatic]], and [[SK Gaming]].<ref> [http://us.esl.tv/iem/ IEM Gamescom 2012 Results] ''esl.tv''</ref>
+
+At Worlds, Moscow Five were considered by many analysts to be the favorites to win the entire event.<ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref> Due to their regional final victory, the team had a group stage bye and then beat [[Invictus Gaming]] in the quarterfinals 2-0, with strong midgame play. However, after winning game 1 in the semifinals against [[Taipei Assassins]], M5 dropped the series 1-2 and finished the tournament in 3rd-4th; TPA went on to win the entire event.
+
+=== Pre-Season 3 ===
+After Worlds, Moscow Five placed fourth at the European tournament [[Tales of the Lane]] before flying to Shanghai to attend the [[Tencent Games Arena Grand Prix/Winter 2012|TGA Winter 2012]] event; they didn't participate in the tournament itself, but they played and won show matches against [[Team WE]] and [[Invictus Gaming]] and interacted with fans, hoping to boost their Chinese popularity.<ref name="M5 in China">[http://moscowfive.ru/en/news/m5-benq-s-world-tour M5.BenQ's World Tour] ''moscowfive.ru''</ref><ref name="M5 and Chinese fans">[http://lol.uuu9.com/201211/426206.shtml M5中国表演赛前训练视频：用中文向大家问好 (Chinese)] ''lol.uuu9.co''</ref> Upon leaving China, the team flew to Las Vegas to attend [[IGN ProLeague Season 5|IPL 5]], where they placed fourth, once again eliminated from a tournament by the [[Taipei Assassins]], this time in an 0-2 loss despite Alex Ich farming to a 538 creep score in the first game.
+
+In January 2013, due to Moscow Five's CEO having been arrested in July of the previous year and leaving the organization with a lack of funding, the League of Legends roster was released.<ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref> Four days later, on January 14, the team joined [[Gambit Gaming]].
+
+The team's first event under the name '''Gambit Gaming''' was [[IEM Season VII - Global Challenge Katowice|IEM Katowice]], where they continued their history of strong finishes at IEM events and won, notably beating both [[Azubu Frost]] and [[Azubu Blaze]] in the bracket stage after advancing from the group stage due to a game-length-based tiebreaker. That victory also gave them a seed into the [[IEM Season VII - World Championship|Season VII World Championship]] in Hanover.
+
+=== Season 3 ===
+Moscow Five's Season 2 Worlds attendance granted the roster a seed into Riot's new professional league for Season 3, the [[Riot League Championship Series/Europe/Season 3|European League of Legends Championship Series]], despite the roster's organizational switch. They dominated the 10-week regular season with a 21-7 overall record and then finished second in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|playoffs]] behind [[Fnatic]]. Partway through the season, they attended IEM Hanover, where they placed third after a semifinal loss to [[CJ Entus Frost]]. They also played at the [[2013 MLG Pro Circuit/Winter/Championship|2013 MLG Winter Championship]] exhibition tournament, where they placed second.
+
+After the end of the LCS Spring Split, Alex Ich was publicly voted to represent Europe at the [[All-Star Shanghai 2013|All-Star tournament]]. Teammates Diamondprox, Genja, and Edward were also voted in by the region, but due to a rule requiring that only up to three members of a single team could be voted into the tournament, [[Yellowpete]] from [[Evil Geniuses.EU|Evil Geniuses]] replaced Genja; [[sOAZ]] from Fnatic was the top laner. The European team placed last out of the five regions' teams in attendance. In the 1v1 [[All-Star_Shanghai_2013#Skill_Competitions|skill competition]] for mid lane, Alex Ich beat [[scarra]]  and then lost to [[Misaya]].
+
+In the [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|summer season]] of the LCS, Gambit finished in fourth place with a 15-13 record in the round robin and then in third place in the [[Riot League Championship Series/Europe/Season 3/Summer Playoffs|playoffs]], which was sufficient to send them to [[Season 3 World Championship|Worlds]]. At Worlds, Gambit made it out of groups in second place with a 5-3 record after beating [[Samsung Ozone]] in a tie breaker; however, they were eliminated in the first round of the bracket by [[NaJin Black Sword]].
+
+=== 2014 Season ===
+Alex Ich remained with Gambit for the [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]], but after a fifth-place finish in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|playoffs]], he left, citing the need for the team to travel between Russia and Cologne on a weekly basis as being draining on his family life.
+
+=== 2015 Preseason ===	
+Alex Ich briefly joined [[RoX (2014 CIS Team)|RoX]] in November 2014, but he left shortly after.<ref>[http://www.facebook.com/AlexIchLoL/photos/a.283715098403415.63883.166577356783857/699717293469858/ Alex Ich's Facebook Post] ''facebook.com''</ref>
+
+=== 2015 Season ===
+Alex Ich joined [[Team 8]] as a substitute player in January, moving to North America. Following that, he joined [[BrawL.NA|BrawL]]'s North American roster with the rest of the then Challenger team '''We Love Shakira'''. <ref>[http://content.azubu.tv/moba/league-of-legends/alex-ich-to-brawl/ Alex Ich joins BrawL] ''content.azubu.tv''</ref> However, he didn't arrive to the United States in time for the first round of the [[2015 NA Challenger Series/Spring Qualifier|NACS 2015 Spring Qualifier]], and BrawL lost to [[Darkness (North American Team)|Darkness]] and were eliminated from the tournament.
+
+Alex Ich later formed a Challenger team called [[Misfits (North American Team)|Misfits]], along with [[crumbzz]] and [[Remilia]]. [[RF Legendary]] and [[Intense]] later joined after a tryout.<ref>[http://www.thescoreesports.com/lol/news/671 Alex Ich & Crumbzz to form Challenger team] - ' 'thescoreesports.com' '</ref> Misfits won the [[AlphaDraft Challenger League]] and then participated in was the [[2015 NA Challenger Series/Summer Qualifier|NACS Summer Qualifier]], where they dropped only one game in their three series to qualify for the [[2015 NA Challenger Series/Summer Season|Summer Season]]. After qualifying, Misfits rebranded as '''Renegades'''.
+
+Additionally, Alex Ich substituted for [[Team Dragon Knights]] on two separate occasions in the spring: first, in week 5 of the [[2015 NA Challenger Series/Spring Season|NACS Spring Season]], and later to help them qualify for the [[Riot League Championship Series/North America/2015 Season/Summer Season|LCS Summer Split]] with a 3-1 victory over [[Winterfox]] in the [[Riot League Championship Series/North America/2015 Season/Summer Promotion|summer promotion tournament]].
+
+Alex Ich returned to Renegades for the Challenger Series regular season, and they finished the round robin with an 8-2 record and in second place, after losing a tiebreaker to [[Team Coast]]. However, in the [[2015 NA Challenger Series/Summer Playoffs|playoffs]], they defeated [[Team Imagine|Imagine]] 2-1 and then Coast 3-2, sending them directly to the [[Riot League Championship Series/North America/2016 Season/Spring Season|2016 NA LCS Spring Season]].
+
+=== 2016 Season ===
+Renegades was faced with significant roster instability in the spring season, as first AD carry [[Freeze]] was unable to play for three games early on in the split, and then Remilia stepped down one game after his return. RF Legendary was also replaced by [[Flaresz]] for three games later on. In week 7, [[Team Dragon Knights]]'s top laner [[Seraph]] was loaned to Renegades as a substitute, and the team snapped their 12-game losing streak. Going into the eighth week, Renegades and TDK traded several players, with Seraph and [[Ninja]] joining Renegades as top and mid laner, respectively, while RF Legendary, [[Flaresz]], and Alex Ich departed in time for the [[NA Challenger Series/2016 Season/Spring Playoffs|NACS Spring Playoffs]].
+
+After a first-round victory over [[Ember]], TDK lost to [[Apex Gaming]] in the NACS finals, netting themselves the bottom seed into the [[League Championship Series/North America/2016 Season/Summer Promotion|Summer Promotion Tournament]]. The team first swept [[Team Dignitas]] but then lost to Alex Ich's former team Renegades and to Apex Gaming once again, falling short of the [[League Championship Series/North America/2016 Season/Summer Season|LCS]].
+
+On May 8, 2016, Riot released a [[List of Competitive Rulings|competitive ruling]] stating that they had investigated the relationship between TDK and Renegades and found an inappropriate link between the two organizations, with the March roster trade and the sources of financial compensation to the players after the trade being one of the major problems. As a result of their findings, Riot ruled that TDK would be banned permanently from Riot-sponsored league play, and Chris Shim and Sean Shim would individually be indefinitely banned from serving in official capacity to an organization involved in official Riot league play.<ref name="comprulingmay2016">[http://www.lolesports.com/en_US/articles/competitive-ruling-renegades-and-tdk Competitive Ruling: Renegades and TDK] ''lolesports.com''</ref> Alex Ich left the team and joined [[Team EnVyUs]] as a substitute mid laner for the summer split but did not start in any games for them.
+
+=== 2017 Season ===
+Alex Ich remained with EnVy as a substitute for the 2017 season and was unexpectedly pressed into service for Week 1 of the [[NA LCS/2017 Season/Spring Season|spring split]], as visa issues for starting jungler [[Lira]] had forced the team to use mid laner [[Ninja]] as a jungler for the first week. EnVy lost all four games that Alex Ich played in, and although he remained with the team for the rest of 2017, he was not called upon again. Aside from a brief stint playing in the [[NA Challenger Series/2017 Season/Summer Qualifiers/Open Qualifier|summer challenger series qualifiers,]] this was Alex Ich's last competitive experience, and he eventually announced his retirement to become a streamer. 
+
+== Trivia ==
+* His ID '''Alex Ich''' is derived from his real name (Alexey Ichetovkin).
+* Despite living in Russia, he was never a CIS resident officially because by the time residency rules were introduced he declared European residency. 
+* Known for playing champions in unconventional lanes, such as mid lane {{ci|Malphite}} or {{ci|Tryndamere}}.
+* Prefers tanky and farm-heavy mages such as {{ci|Mordekaiser}}, {{ci|Ryze}}, and {{ci|Galio}}.
+* Became a father on February 7, 2013.<ref>[http://www.facebook.com/AlexIchLoL/posts/369764953131762 Alex Ich Facebook Post] ''facebook.com''</ref> His son is named Dmitry (Not Ryze).<ref>[http://www.facebook.com/AlexIchLoL/posts/415753218532935 Alex Ich Facebook Post] ''facebook.com''</ref>
+* Was a Platinum ''Starcraft II'' player.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

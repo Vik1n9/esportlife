@@ -1,0 +1,72 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Uniboy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.547Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Uniboy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Uniboy
+|name=Chen Chang-Chu
+|nativename=陳昌駒
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=2001
+|birth_date_month=March
+|birth_date_day=03
+|checkbox1=No
+|compID1=ubao
+|checkboxComp=No
+|ids='''KR:''' BabyHong2, miut, yuzhen ido17, FLAGGED 19598478, I ONLY JG JG, MAD Uniboy
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/uniboyovo
+|facebook=https://www.facebook.com/MAD-Uniboy-183594799052686
+|deeplol=https://www.deeplol.gg/pro/Uniboy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was briefly known as '''ubao'''.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

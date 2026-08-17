@@ -1,0 +1,120 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MANTARRAYA&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.876Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MANTARRAYA」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=MANTARRAYA
+|name=Juan&nbsp;Ignacio Abdón
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Uruguay
+|residency=Latin America
+|birth_date_year=1994
+|birth_date_month=May
+|birth_date_day=06
+|favchamp=Shyvana
+|favchamp2=Gragas
+|favchamp3=Akali
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|facebook=https://www.facebook.com/mantarrayalol
+|twitter=Mantarrayalol
+|youtube=https://youtube.com/user/M4N7ARRAYA
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+Juan Ignacio Abdón was born in Montevideo, Uruguay. He is currently in college, studying to become a Computer Programmer/Engineer. He began playing League of Legends in August, 2010. The first champion he played was Gragas. When the Latin America South server launched, he decided to create a serious team to play in tournaments. He has had the full support of his family in his gaming career.
+
+== Trivia ==
+[[File:MANTARRAYA 2016.png|thumb|right|'''MANTARRAYA''' talking about his life in a '''Riot''' section called "Retadores de la Copa".]]
+* Before I was a CSGO player.<ref name="riot inteview to MANTARRAYA 2016">[https://www.facebook.com/lolesportsla/videos/1241126779233983 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* He founded [[PEX]] with [[Badmilk]] and [[Megajp]].
+* His name means "Stingray" in english. He says "Stingrays are neat".
+* Enjoys exercising and staying fit.
+* He likes to play weakside.<ref name="riot inteview to MANTARRAYA 2016">[https://www.facebook.com/lolesportsla/videos/1241126779233983 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* Got to rank #1 mostly playing {{ci|Akali}} in past seasons.
+* Hopes to see himself selling hot dogs at a hot dog stand in 10 years from now.
+* The caster [[Phreak]] asked him how his nickname was pronounced.<ref name="riot inteview to MANTARRAYA 2016">[https://www.facebook.com/lolesportsla/videos/1241126779233983 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* After his departure from [[Isurus]] he preferred to finish his studies.<ref name="riot inteview to MANTARRAYA 2016">[https://www.facebook.com/lolesportsla/videos/1241126779233983 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* He ended the season 6 in rank #1 in LAS server.
+{{PlayerStatsTrivia}}
+
+== Notable Events as Broadcast Talent ==
+* [[LLA/2020 Season/Closing Season|LLA 2020 Closing]] - Invited
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

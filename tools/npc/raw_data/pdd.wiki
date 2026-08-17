@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PDD&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.798Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「PDD」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=PDD
+|name=Liu Mou
+|nativename=刘谋
+|namealphabet=Hanzi
+|image=2021 PDD.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|birth_date_year=1991
+|birth_date_month=April
+|birth_date_day=17
+|favchamp=Jarvan IV
+|favchamp2=Vladimir
+|favchamp3=Shen
+|favchamp4=Yorick
+|checkbox1=Yes
+|favchamp5=Kha'Zix
+|favchamp6=Rumble
+|favchamp7=Zac
+|checkboxComp=No
+|ids=Ehome Pdd, iG Pdd, TrussuPdd
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|fanpage=http://t.qq.com/liumou2
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is most famous for playing top lane for [[Invictus Gaming]].
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+|prev2=Top
+|peakelo_na=2479
+|peakelo_kr=2071
+}}
+==Biography==
+He represented [[EHome]] at [[IEM Season VI - Global Challenge Guangzhou]] and [[IEM Season VI - World Championship]]. He left EHome and spent a brief period in retirement due to physical and emotional reasons before returning to join iG. He is sometimes known as the king of Chinese solo queue, having remained near the top of the ladder for almost his entire career. <ref>[http://lol.178.com/201203/125516692128.html EHOME.PDD宣布退役：总有那么一天我还会回来的]''"lol.178.com"''</ref>
+
+== Trivia ==
+* Known for his unorthodox top lane picks, including {{ci|Garen}} and {{ci|Volibear}}.
+* Known for his very strong {{ci|Rumble}} play in [[All-Star Shanghai 2013]].
+* His favorite champion is {{ci|Jarvan}}.
+* Broke his wrist prior to [[IEM Season VI - World Championship|IEM Hanover]], which may have negatively affected his play.<ref>[http://lol.178.com/201203/124574167177.html EHOME.PDD掌骨骨折：或将缺席IEM世界总决赛？]''"lol.178.com"''</ref>
+* Smokes a lot while he is practicing.<ref>[http://t1.qpic.cn/mblogpic/30349ddb2959ee821386/460]</ref>
+* Shaved a skinhead after losing to [[sOAZ]] in [[All-Star Shanghai 2013#Skill Competitions|Skill Competitions]] of [[All-Star Shanghai 2013]].
+* Became a well-known streamer after his retirement. Despite known for League of Legends, he also enjoys streaming PlayerUnknown's Battlegrounds.
+*Introduced to the LPL Hall of Fame in December 2021.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===As a Coach===
+{{TDRight
+|name1=2015
+|name2=2016}}
+{{TDRight|tab}}<!--2016-->
+{| class="sortable wikitable"
+|+ style="background: var(--table-header-background); border: 1px solid black;"|2016
+! width="80" | Date
+! width="300" | Event
+! width="450" | Result
+|-
+| 2016-08-09
+| [[LSPL/2016 Season/Summer Playoffs|2016 LSPL Summer Playoffs]]
+| {{medal|2}} {{team2|Young Miracles}} 2 : 3 {{team|newbee young}}
+|-
+| 2016-04-12
+| [[LSPL/2016 Season/Spring Playoffs|2016 LSPL Spring Playoffs]]
+| {{medal|2}} {{team2|Young Miracles}} 2 : 3 {{team|EDward Esports}}
+|-
+| 2016-04-06
+| [[LSPL/2016 Season/Spring Season|2016 LSPL Spring Season]]
+| {{medal|2}} {{team2|Young Miracles}} 23 : 7 {{team|Group Stage}}
+|}
+{{TDRight|tab}}<!--2015-->
+{| class="sortable wikitable"
+|+ style="background: var(--table-header-background); border: 1px solid black;"|2015
+! width="80" | Date
+! width="300" | Event
+! width="450" | Result
+|-
+| 2015-12-13
+| [[Tencent Games Arena Hero of Cities/Season 9|TGA Hero of Cities Season 9]]
+| {{medal|1}} {{team2|MGB}} 3 : 1 {{team|Legend Dragon Academy}}
+|}
+{{TDRight/end}}
+
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+igpdd.png|iG PDD
+Pdd.jpg|iG PDD
+</gallery>
+
+{{PlayerPageEnd}}

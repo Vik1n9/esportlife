@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dan%20Dinh&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.717Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dan Dinh」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Dan Dinh
+|name=Daniel Dinh
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Philippines
+|nationality=United States
+|residency=North America
+|favchamp=Udyr
+|favchamp2=Heimerdinger
+|favchamp3=Twitch
+|favchamp4=Evelynn
+|checkbox1=Yes
+|favchamp5=Skarner
+|favchamp6=Amumu
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/DanDinh
+|facebook=https://www.facebook.com/EpikGamer
+|twitter=TSMDan
+|instagram=itsdandinh
+|reddit=DanDinh
+|youtube=https://youtube.com/user/EpikGame
+|linkedin=https://www.linkedin.com/in/danieldinhtsm
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Coach
+|prev2=Jungler
+|irc=[http://webchat.quakenet.org/?channels=DanDinh #DanDinh]
+}}
+==Biography==
+Dan Dinh entered the League of Legends competitive scene by forming [[All or Nothing]] with his brother, Andy "[[Reginald]]" Dinh. Despite early success, he left the team after he and his brother made conflicting calls in game.<ref>[http://www.solomid.net/forums/index.php?/topic/23852-tsm-roster-history/ Solomid.net forum post by Messiah (SoloMid admin)] ''solomid.net''</ref> Dan then went on to create the team [[Epik Gamer]] in 2010, where he played as their jungler. He left the team in March 2012 and joined [[Team 4Not.NA|4Nothing]].<ref>[https://twitter.com/EpikGamer/status/180594373623431169 Stepping down from Epik Gamer] ''twitter.com/epikgamer''</ref><ref>[https://www.facebook.com/team4not/posts/277174942358614 Team 4Not Facebook] ''facebook.com'' </ref> After leaving 4Nothing in April to be replaced by [[ClakeyD]], Dan Dinh announced his retirement and temporarily became a caster for various events.<ref>[http://4not.tinyrocketserver.com/articles/news/League-of-Legends/3/League-of-Legends-Roster-Change/ League of Legends Roster Change]</ref> In December 2012, Dan reformed [[Epik Gamer]] for the January [[Riot_Season_3_Championship_Series/North_America/Qualifiers/Main_Event|Season 3 North American Qualifiers]], but disbanded after being eliminated in the group stage.<ref>[http://www.reddit.com/r/leagueoflegends/comments/157heg/epik_gamer_eg_is_streaming_rank_5s_right_now/ Epik Gamer (EG) is streaming rank 5s right now.] ''reddit.com''</ref> Later that month, Dan Dinh moved in with [[Team Solo Mid]] as a substitute jungler during Season 3, though he saw no play time at major tournaments.<ref>[http://www.youtube.com/watch?v=7er_Egvov7o Vlog 1-25-2013] ''youtube.com''</ref> Dan Dinh left his position on TSM in October 2013 and moved to Los Angeles to coach [[Cloud 9]].<ref>[http://na.lolesports.com/articles/dan-dinh-coach-cloud-9 Dan Dinh to Coach Cloud 9] ''na.lolesports.com''</ref>
+
+== Trivia ==
+* Was often known for {{ci|Twitch}} early in his career causing bans long after his nerfs because of his overall skill with the champ.
+* Known for his {{ci|Nunu}} early in his career.
+* {{ci|Udyr}} is his most used champion, and is rarely ever banned against him.
+* Is one of the only high-elo junglers who frequently plays Tiger Stance {{ci|Udyr}}.
+* Is also known for his {{ci|Heimerdinger}}.
+* Did live analysis (known as "Danalysis") at [[MLG Summer Arena]], making him the first League of Legends caster to do so. 
+* Known for his jungle Evelynn in solo queue achieving high win rates on both of his accounts.
+* Is the brother of [[Team Solomid]]'s coach and manager [[Reginald]].
+* Has been on [[Epik Gamer]] three separate times.
+* Is Vietnamese, but was born in the Philippines.
+* Known for his strange streaming hours, such as throughout the night. When the word "sleep" is said in Twitch Chat, A moderation bot (Xanbot) responds with "Sleep is for the WEAK".
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

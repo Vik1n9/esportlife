@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PvPStejos&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「PvPStejos」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=PvPStejos
+|name=Alexander Glazkov
+|nativename=Александр Глазков
+|namealphabet=Cyrillic
+|image=GMB_PvPStejos_2019_Split_2.png
+|checkboxAutoImage=No
+|country=Ukraine
+|residency=CIS
+|birth_date_year=1996
+|birth_date_month=December
+|birth_date_day=24
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/chesland
+|twitter=pvpstejos
+|youtube=https://youtube.com/channel/UCAbN2gvPOyxTWCqBvUz1QyQ
+|lolpros=https://lolpros.gg/player/pvpstejos/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''PVPStejos''' and '''pvpstejos'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|vkontakte=pvpbrogroup
+}}
+==Biography==
+Glazkov was born in Donetsk. He first played ''World of Warcraft'' and then later switched over to ''Dota''.
+
+== Trivia ==
+* Initially a top laner, PvPStejos rejoined [[Hard Random]] in September 2015 as a jungler. He then switched back to top lane upon joining [[Gambit Esports]] in June 2017 until December 2019. After taking [[LCL/2020 Season/Spring Season|2020 Spring]] off and becoming a head coach ahead of [[LCL/2020 Season/Summer Season|the following split]], he finally marks his return in the jungle for [[Gambit Esports]] in January 2021.
+* Is notable for not using any alternate skins for any of the champions he plays.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+PvPStejos.jpg|HR PvPStejos 2016 Spring
+ANX PvPStejos.png|ANX PvPStejos 2016 Summer
+PvPStejos_2016Worlds.png|Albus NoX PvPStejos 2016 Worlds
+PvPStejos Gambit Spring 2018.png|GMB PvPStejos 2018 Spring
+GMB PvPStejos 2018 MSI.png|GMB PvPStejos 2018 MSI
+GMB PvPStejos 2018 Split 2.png|GMB PvPStejos 2018 Summer
+GMB PvPStejos 2019 Split 1.png|GMB PvPStejos 2019 Spring
+</gallery>
+
+==External Links==
+* [http://vk.com/id152667895 VKontakte]
+
+{{PlayerPageEnd}}

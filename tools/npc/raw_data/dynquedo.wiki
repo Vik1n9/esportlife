@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=DyNquedo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.014Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「dyNquedo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=dyNquedo
+|name=Matheus Rossini Miranda
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1997
+|birth_date_month=October
+|birth_date_day=14
+|favchamp=Zed
+|favchamp2=Azir
+|favchamp3=Ahri
+|favchamp4=Taliyah
+|checkbox1=Yes
+|favchamp5=Yasuo
+|favchamp6=Hwei
+|favchamp7=Yone
+|compID1=dyN
+|compID2=Dynkas
+|checkboxComp=No
+|ids='''BR''': PNG dyNquedo#CBLol, dyNNKaz#1010 <br> '''EUW''': PNG dyNquedo#1010
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/dynquedo1
+|facebook=https://www.facebook.com/TvDyNN
+|twitter=dynquedo1
+|instagram=dynqued0
+|youtube=https://www.youtube.com/c/LOUDdyNquedo
+|lolpros=https://br.lolpros.gg/player/dynquedo
+|deeplol=https://www.deeplol.gg/pro/dyNquedo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* His nickname is a play on his old soloqueue id, '''dyN''', and the name of a famous Brazilian funk MC, '''MC Brinquedo'''.<ref>[https://sportv.globo.com/site/e-sportv/noticia/dynquedo-o-jovem-que-se-inspirou-no-funk-e-virou-o-melhor-jogador-do-cblol-em-2018 Dynquedo: o jovem que se inspirou no funk e virou o melhor jogador do CBLoL em 2018 (Portuguese)] ''sportv.globo.com''</ref>
+* After winning [[2023_Season_Kickoff/Brazil|Season Kickoff Brazil 2023]] he decided on creating a {{ci|sylas}} emote holding a soundbox with a [[paiN Gaming]] logo on it. It is actually inspired in a old [https://imgur.com/L71pkG9 picture] of '''dyNquedo''' with a soundbox while he was in [[Prodigy Esports]].<ref>[https://twitter.com/SkinSpotlights/status/1634258440229888026 Skin Spotlights' Tweet] ''twitter.com''</ref>
+* Is a big friend of [[Brucer]], who he jokingly says is his "boyfriend".<ref>[https://x.com/CBOLAOgg/status/1731356415451648016 CBOLÃO's X Post] ''x.com''</ref>
+* Was featured in '''LoL Esports Plays of the Week''' with his {{ci|yone}} 4-man ultimate against [[Leviatan]] during the [[LTA South 2025 Split 1]] as the '''Top 3 Play'''.<ref>[https://x.com/lolesports/status/18871533127529023511 LoL Esports' X Post] ''x.com''</ref>
+* Fans started nicknaming him "Resenhudo" after he trashtalked [[tinowns]] and [[LOUD]]'s fans after his first win against them in the [[LTA South 2025 Split 1|LTA South]].
+* He announced his retirement as a professional player in a stream a few minutes before [[paiN Gaming|paiN]]'s post, claiming that he was tired and had no motivation to continue competing.<ref>[https://x.com/dynquedo1/status/1894807903028064500 dyNquedo's X Post] ''x.com''</ref>
+=== Individual Awards ===
+* 1x CBLOL Player of the Year (CBLOL 2018 Awards)
+* 1x CBLOL Best Midlaner (CBLOL 2018 Awards)
+* 1x CBLOL Split All-Pro Team (2024 Split 2)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

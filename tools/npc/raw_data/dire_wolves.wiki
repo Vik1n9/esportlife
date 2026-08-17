@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dire%20Wolves&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.405Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dire Wolves」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Dire Wolves
+|orgcountry= Australia  
+|country=
+|region= PCS
+|headcoach= 
+|website= http://direwolves.gg
+|youtube= https://www.youtube.com/user/DireWolvesGaming
+|facebook= https://www.facebook.com/direwolvesgg
+|sponsor= [https://www.neosurf.com/ Neosurf]<br>[https://lactalis.com.au/ice-break/ ICE BREAK]<br>[https://au.msi.com/ MSI]<br>[https://rubix.com.au/ Rubix]<br>[https://twitter.com/esportshpc Esports High Performance Centre]
+|twitter= DireWolves
+|instagram= direwolvesgg
+|twitch= direwolvesgg
+|discord= https://discord.com/invite/direwolves
+|created= 2014-08-03
+|rosterphoto=
+|otherwikis= halo,smite,fifa
+}}{{TOCRWI}}
+
+'''Dire Wolves''' is a professional gaming organization based in Australia.
+
+== History ==
+The inception of Dire Wolves revolved around the creation of a League of Legends squad, founded by Nathan "Rippii" Mott.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|MordenNZ|nz|Jason Spiller|'''Owner'''}}
+{{listplayersp|||William Slingsby|'''Head of Content'''}}
+{{listplayersp|||Jordan Gardiner|'''Head of Design'''}}
+{{listplayersp|||Rich Bryan|'''Head of Production'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Mirai||Daniel Fang|'''Coach'''|newteam=none}}
+{{listplayer|Guapi|nz|Brian Yu|'''Coach'''|newteam=DW|comment=Mid Lane}}
+{{listplayer|Poltron|au|Kim Nicholls|'''Coach'''|newteam=Team Bliss}}
+{{listplayer|Valixas|au|Joseph Tselios|'''Coach'''|newteam=none}}
+{{listplayer|Poltron|au|Kim Nicholls|'''Coach'''|newteam=DW|comment=Jungle}}
+{{listplayer|Farmer (George Normore)|us|George Normore|'''Coach'''|newteam=Retired}}
+{{listplayer|Cane (Cane Neilson)|au|Cane Neilson|'''Coach'''|newteam=Retired}}
+{{listplayer|loki (Laughlin Norney)|au|Laughlin Norney|'''Analyst'''|newteam=ORD}}
+{{listplayer|BliZarD|de|Nick Varoß|'''Team Manager'''|newteam=Mirage Elyandra}}
+{{listplayer|Sleepy (Álvaro Onteniente)|es|Álvaro Onteniente|'''Head Coach'''|newteam=Wizards Club}}
+{{listplayer|SeeEl|kr|Christopher Lee|'''Head Coach'''|newteam=VIT.B}}
+{{Listplayer|Cupcake|nz|Andy van der Vyver|'''Coach'''|newteam=DW}}
+{{Listplayer|Shernfire|my|Shern Cherng Tai|'''Coach'''|newteam=C9.A}}
+{{listplayer|Kai (Ben Stewart)|au|Ben Stewart|'''Head Coach & General Manager'''|newteam=CHF}}
+{{listplayersp|Obesius||Hannah Brown|'''Team Manager'''|newteam=Retired}}
+{{listplayersp||au|Dave Harris|'''Director'''|newteam=XL}}
+{{listplayer|Rippii|au|Nathan Mott|'''Founder, CEO & General Manager'''|newteam=Retired}}
+{{listplayer|Curtis|au|Curtis Morgan|'''Head Coach'''|newteam=Mammoth Academy}}
+{{listplayer|Charlie (Charlie Wraith)|au|Charlie Wraith|'''Head Coach'''|newteam=ORD}}
+{{listplayer|Curtis|au|Curtis Morgan|'''Head of Performance'''|newteam=DW}}
+{{listplayer|Phantiks|au|Richard Su|'''Positional Coach'''|newteam=Chiefs}}
+{{listplayer|Kayys|us|Jack Kayser|'''Analyst'''|newteam=FNC}}
+{{listplayersp|Jish|au|Josh Carr-Hummerston|'''Head Coach'''|newteam=Chiefs}}
+{{listplayersp|Sigils|my|Amy Lau|'''Manager'''|newteam=Retired}}
+{{listplayersp|ShoTzz|au|Marco Mantarro|'''Manager'''|newteam=Sin Gaming}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+=== Logos ===
+<gallery>
+Dire Wolves oldlogo square.png|Previous Logo<br>(- Jul 2020)
+</gallery>
+
+=== Rosters ===
+<Gallery>
+DW 2017 Spring.png|Dire Wolves Roster 2017 Spring Season
+DW Roster 2017 Summer Season.png|Dire Wolves Roster 2017 Summer Season
+</Gallery>
+
+==External Links==
+
+==References==
+<references />

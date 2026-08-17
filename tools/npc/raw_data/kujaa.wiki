@@ -1,0 +1,116 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kujaa&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.724Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「kujaa」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Kujaa
+|name=Jérôme Negretti
+|image=Kujaa.jpg
+|checkboxAutoImage=No
+|country=France
+|residency=Europe
+|checkbox-res=No
+|favchamp=Zyra
+|favchamp2=Lulu
+|favchamp3=Nami
+|checkbox1=No
+|checkboxComp=No
+|ids=EC Kujaa, Kujaa SMURF, M Kujaa, aAa Kujaa
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/kujaa
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2011
+|name2=2012}}
+{{TDRight|tab}}<!--2012-->
+* Februar 7th - [http://www.youtube.com/watch?v=XYVLnZ7meOs Millenium.LoL player, Kujaa talks about his feeling about MSI gaming gears] ''with MSI''
+* March 9 - [http://www.youtube.com/watch?v=5iWd1P97HaU IEM6 WC: Kujaa Interview] ''with Cadred''
+* March 10 - [http://www.youtube.com/watch?v=d3h2PcR9WjU Interview League of Legends: Kujaa from Millenium[French only<nowiki>]</nowiki>] ''with eSahara''
+* May 14 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/1349/An-interview-with-former-aAa-support-Kujaa/ An interview with former aAa support Kujaa] ''with Team Dignitas''
+{{TDRight|tab}}<!--2011-->
+* June 18 - [http://www.absolutelegends.eu/news/7/Dreamhack-coverage-xPeke-Kujaa-and-ReginaId-interviews Dreamhack coverage: xPeke, Kujaa and ReginaId interviews] ''with Absolute Legends''
+* August 18 - [http://www.absolutelegends.net/news/186/Day-1-Gamescom-11-Interview-with-Kujaa-from-Millenium Day 1 Gamescom '11: Interview with Kujaa from Millenium] ''with Absolute Legends''
+* September 22 - [http://www.fragster.de/de/esport/league-of-legends/artikel/11/09/lol-kujaa-millenium-interview-englisch.html Kujaa: "I won't say who isn't coming so at least it's a suprise for the enemy team"] ''with Fragster''
+* December 12 - [http://www.youtube.com/watch?v=HIO3zF_auNo Kujaa of Team France at WCG Grand Finals 2011] ''with CyberSportsNetwork''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+
+{{PlayerPageEnd}}

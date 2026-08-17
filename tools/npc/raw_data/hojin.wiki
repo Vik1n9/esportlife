@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hojin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.253Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hojin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Hojin
+|name=Lee Ho-jin
+|nativename=이호진
+|namealphabet=Hangul
+|image=KOO_Hojin_2015_Summer.png
+|checkboxAutoImage=No
+|country=South Korea
+|residency=Korea
+|birth_date_year=1992
+|birth_date_month=January
+|birth_date_day=04
+|favchamp=Lee Sin
+|favchamp2=Jarvan IV
+|checkbox1=No
+|compID1=Lee
+|checkboxComp=No
+|ids=매력만점 호진리, LEEEEE, HUYA Lee, GE Lee
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/horidda
+|youtube=https://youtube.com/channel/UCZZEgBpbLP0ILVc4nGg39-w
+|deeplol=https://www.deeplol.gg/pro/Hojin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known  as '''Lee'''. For the champion, see {{ci|Lee Sin}}.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+===2014 Season===
+Lee "'''Lee'''" Ho-jin joined [[NaJin Black Sword]] on May 16, 2014. He went by the name "'''Hojin'''" until he joined Sword. The team attended [[HOT6iX Champions Summer 2014]] where they  advanced from their group with a number 1 seed but then were eliminated 3-2 in the quarterfinals of the tournament by [[SK Telecom T1 S]].
+
+===2015 Season===
+On October 31, 2014, it was announced that Lee had parted ways with NaJin Black Sword.<ref>[http://sports.news.naver.com/sports/index.nhn?category=e_sports&ctg=news&mod=read&office_id=442&article_id=0000007042&redirect=false '고릴라' 강범현 등 4인 탈퇴, 나진 e엠파이어 선수단 변경 (Korean)] ''sports.news.naver.com''</ref> On November 14, 2014, Lee joined the newly formed [[HUYA Tigers]] together with [[Smeb]], [[kurO]], [[PraY]], and [[GorillA]].<ref>[http://www.inven.co.kr/webzine/news/?news=121931&iskin=esports 롤챔스 선발전 '다크호스' 탄생, HUYA 타이거즈 창단 (Korean)] ''inven.co.kr''</ref><ref>[http://www.ongamers.com/articles/chinese-giant-yy-picks-up-a-korean-team/1100-2349/  Chinese giant YY picks up a Korean team.]  ''ongamers.com''</ref> The team played in the [[Champions_Spring_2015/Qualifiers|Champions Spring 2015 Qualifiers]] along with [[Incredible Miracle]], [[Prime Clan]], and [[Xenics]], where they finished 2-1 and qualified for [[Champions Spring 2015]]. The team then renamed to [[GE Tigers]]. GE started out unarguably the top team in Korea at [[SBENU Champions Spring 2015]] and earned themselves an invitation to the [[IEM Season IX - World Championship|IEM Season IX World Championship]] in March. However, after defeating [[Cloud9]] and [[SK Gaming]] to win their group, they lost 2-1 to [[Team WE]] in the semifinals. This defeat was considered by many casters and analysts to be the biggest upset to date in the entire history of League of Legends competition. They qualified for the finals of the OGN playoffs because of their first place finish in the regular season. Unfortunately, they lost 3-0 to [[SK Telecom T1]] in the finals and placed second. After the conclusion of the spring season, Lee renamed to '''Hojin'''. The team renamed to the '''KOO Tigers''' prior to the start of [[SBENU Champions Summer 2015]]. Shortly afterwards, [[Wisdom]] joined the team to share the starting jungle position with Hojin. KOO placed fourth in the regular season and qualified for the playoffs but lost 3-2 in the semifinals to [[KT Rolster]]. Because SKT won the finals, KOO still qualified for the [[2015 Season World Championship]] as the second seed due to circuit points. KOO was placed into a group at worlds with [[Counter Logic Gaming]], [[Flash Wolves]], and [[paiN Gaming]]. They placed second, ending with a 4-2 record. They beat KT Rolster 3-1 and [[Fnatic]] 3-0 to make it to the finals against SKT. However, they finally fell in the finals with a 3-1 loss. 
+
+===2016 Preseason===
+Soon after Worlds, Koo dropped the team as a sponsor and they renamed to the '''Tigers'''. The Tigers played in the [[2015 LoL KeSPA Cup]] but they were upset in the first round 2-0 by [[SBENU Sonicboom]]. Hojin retired on December 7.
+
+== Trivia ==
+* His ID "Hojin" is his given name.
+* His former ID "Lee" is after his favorite champion {{ci|Lee Sin}}.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2015
+|name2=2016}}
+{{TDRight|tab}}<!--2016-->
+* October 12, [http://slingshotesports.com/2016/10/12/hojin-rox-tigers-league-of-legends-world-championship-retirement/ Ex-ROX jungler Hojin on retirement, ROX winning LCK and Korea’s chances this year] ''with Slingshot Esports''
+{{TDRight|tab}}<!--2015-->
+* October 4, [http://www.twitch.tv/twitchkr/v/19218503?t=39m41s KOO vs CLG - Hojin Interview] ''with Twitch''
+* October 27, [http://www.youtube.com/watch?v=mh1YVoIBkUc Hojin on KOO Tigers' future: “I think we would want to stay together and play as one team"] ''with theScore''
+{{TDRight/end}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+NJBS Lee.jpg|NJBS Lee
+GE Lee.jpg|GE Lee
+</gallery>
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Fenerbah%C3%A7e%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「1907 Fenerbahçe Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name=Fenerbahçe Esports
+|orgcountry= Turkey
+|country=
+|region= TR
+|image=Fenerbahçe Esportslogo square.png
+|headcoach=
+|manager= Emre "'''nialya'''" Aksoy
+|captain=
+|website= http://1907.org
+|youtube=https://www.youtube.com/channel/UC-GXnVp7A9j3JWcEwojbe_g
+|facebook=https://www.facebook.com/fenerespor
+|twitter= FBespor
+|lolpros=https://lolpros.gg/team/fenerbahce-esports
+|twitch-team=https://www.twitch.tv/1907fenerbahceespor
+|instagram=fbespor
+|discord=https://discordapp.com/invite/kwFbEty
+|sponsor= 
+|created= Sports Club 1907-03-03 <br> LoL Division 2016-10-15
+|organization=
+|otherwikis=pubg
+}}{{TOCRWI}}
+
+'''Fenerbahçe Esports''' (''Turkish:'' Fenerbahçe Espor) is a Turkish team associated with the football club '''Fenerbahçe'''. They were previously known as '''1907 Fenerbahçe Esports'''.
+
+==History==
+==Trivia==
+* At [[2017 Season World Championship|Worlds 2017]], they became the first team from an emerging region to top their play-in group, and also the first to qualify for the group stage, since the introduction of that format.
+** They were also the only team to have ever done either of these, until [[Unicorns of Love.CIS|Unicorns of Love]] qualified for [[2020 Season World Championship|Worlds 2020]] through the play-in stage.
+* After their Worlds qualification brought them to international attention, the team's name became the subject of recurrent jokes in the English media due to its unusual length.
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Entrepreneur|tr|Sina Afra|'''President'''}}
+{{listplayersp|nialya|tr|Emre Aksoy|'''General Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Arkhe|tr|Emre Akpınarlı|'''Manager'''|newteam=Ruddy}}
+{{listplayer|Invokid|tr|Arda Başaran|'''Head Coach'''|newteam=Dignitas}}
+{{listplayer|Urien|tr|Erdinç Mutlu|'''Coach'''|newteam=Chasing Haze 07}}
+{{listplayer|Click (Vsevolod Tikhomirov)|ru|Vsevolod Tikhomirov|'''Head Analyst'''|newteam=G2}}
+{{listplayer|H2O (Hızır Hakan Öztürk)|tr|Hizir Hakan Öztürk|'''Strategic Coach'''|newteam=Chasing Haze 07}}
+{{listplayer|Coach IRL|tr|Adnan Şengül|'''Coach'''|newteam=none}}
+{{listplayer|Enatron|gr|Ilias Theodorou|'''Coach'''|newteam=MSF}}
+{{listplayer|Craft1x|tr|Ali Aklan|'''Coach'''|newteam=BJK}}
+{{listplayer|Jkor|pl|Jakub Kornecki|'''Analyst'''|newteam=none}}
+{{listplayer|theqep|tr|Melih Akgün|'''Analyst'''|newteam=IWC.A}}
+{{listplayersp|Repliee|tr|Utku Yıldırım|'''Social Media'''|newteam=none}}
+{{listplayer|Sméagol|uk|Louis Green|'''Coach'''|newteam=CZV}}
+{{listplayer|Arailla|fr|Flora Parmentier|'''Analyst'''|newteam=Origen}}
+{{listplayer|Vannish|pt|Bruno Cunha|'''Analyst'''|newteam=RGE}}
+{{listplayer|Turkinator|tr|Aykut Başkal|'''Manager & Coach'''|newteam=none}}
+{{listplayer|Zen|link=Zen (Timotej Štempihar)|si|Timotej Štempihar|'''Head Coach'''|newteam=IZI Dream}}
+{{listplayer|Crowe|us|Luqman Abdullah|'''Head Coach'''|newteam=Vivo Keyd}}
+{{listplayersp|Babafillo|tr|Anıl Şaşma|'''Assistant Manager'''|newteam=none}}
+{{listplayer|Pades|tr|Serdar Padeş|'''Head Coach'''|newteam=SUP}}
+{{listplayer|Doctor|tr|İbrahim Karaaslan|'''Coach'''|newteam=SUP}}
+{{listplayer|MoSiTing|de|Chris Würger|'''Head Coach'''|newteam=Team Kinguin}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+===Images===
+====Logos====
+<gallery>
+Fenerbahçe Esportslogo old square.png|First Logo<br>(- 1 Jan 2022)
+</gallery>
+
+==External Links==
+
+*[https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(football) Fenerbahçe on Wikipedia]
+
+==References==
+<references />

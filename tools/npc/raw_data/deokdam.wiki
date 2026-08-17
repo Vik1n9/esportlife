@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Deokdam&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.014Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「deokdam」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=deokdam
+|name=Seo Dae-gil
+|nativename=서대길
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=February
+|birth_date_day=25
+|favchamp=Aphelios
+|favchamp2=Ezreal
+|checkbox1=No
+|compID1=Feiz
+|checkboxComp=No
+|ids='''KR:''' deokdam<br>DWG KIA
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/gjsdg0225
+|instagram=_deokdam
+|videoarchive=https://chzzk.naver.com/6d7c6de76bee53cca343b96e93589f35
+|weibo=https://weibo.com/n/FPX_deokdam
+|deeplol=https://www.deeplol.gg/pro/deokdam
+|dpmlol=https://dpm.lol/pro/deokdam
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Feiz'''.
+|checkboxIsSub=No
+}}
+== Biography ==
+
+== Trivia ==
+* His nickname stands for "words of blessing" in Korean.
+* Known for his {{ci|Aphelios}}.
+* Reached 1000 kills in the LCK on March 4th, 2023.
+** Was the 21st player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], [[Aiming]] and [[Rascal]].
+=== Awards ===
+* LCK 1st All-Pro Team x1 (Summer 2021)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

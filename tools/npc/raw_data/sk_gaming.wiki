@@ -1,0 +1,236 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=SK%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.542Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「SK Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= SK Gaming
+|orgcountry= Germany 
+|organization=SK Gaming (Organization)
+|country= 
+|foundedcountry= 
+|region= EMEA
+|partner= [https://www.telekom.de Deutsche Telekom]<br>[https://www.mercedes-benz.com Mercedes-Benz]<br>[https://www.rewe.de REWE]<br>[https://www.sony.de Sony]<br>[https://www.nh-hotels.com/ Nhow Hotel]<br>[https://www.wortmann.de TERRA]<br>[https://www.recaro-gaming.com RECARO]<br>[https://www.westerndigital.com WD Black]<br>[https://www.sony.de/gaming-gear InZone]
+<!-- Staff -->
+|headcoach= David "[[OWN3R (David Rodriguez de la Torre)|OWN3R]]" Rodriguez
+|owner= Alexander "'''TheSlasH'''" Müller
+<!-- Social Media -->
+|website= https://www.sk-gaming.com
+|youtube= https://www.youtube.com/user/SKGaming
+|twitter= SKGamingLeague
+|instagram= skgaming
+|subreddit= SKGAMING
+|tiktok=SKGaming
+|discord= https://discord.gg/skgaming
+|facebook= https://www.facebook.com/SKGaming
+|twitch-team= https://www.twitch.tv/team/skgaming
+|lolpros= https://lolpros.gg/team/sk-gaming
+|linkedin=https://www.linkedin.com/company/sk-gaming/
+|irc= 
+<!-- History -->
+|created= {{date of creation|y=2010|m=09|d=16}}
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,fifa,nba2k,paladins,rl,siege,smite
+}}{{TOCRWI}}
+
+'''SK Gaming''' is a German team that has been part of the esports community since 1997, making it the oldest esports organization in the world. The organization entered the ''League of Legends'' scene in September 2010.
+
+== History ==
+=== Formation of SK Gaming ===
+
+SK Gaming's foray into League of Legends began on September 16, 2010, when SK acquired team I WEAR A CAPE IRL consisting of [[Osaft22]], [[SleazyWeazy]], [[Severus]], [[Reyk]], [[Zylor]], Pylat, and Awe kek.<ref>[http://www.sk-gaming.com/content/30647-SK_Gaming_adds_LoL_team SK Gaming adds LoL team] ''sk-gaming.com''</ref>
+
+=== Season 1 ===
+
+With this lineup, SK Gaming was able to take second place at the [[2010 World Cyber Games]]. In the group stage, SK Gaming entered a three way match, tied for first. Going 2-1 by defeating AnotherStory and [[Counter Logic Gaming Prime]], while falling to ChinaHero. In the playoffs, SK Gaming was able to defeat ChinaHero in their rematch 2-0, advancing to the finals. There, SK Gaming would fall to Counter Logic Gaming 1-2, taking home second place.<ref>[http://www.wcg.com/6th/tournament/2010/tm_match_single_2010.asp?sort=G100629100 WCG 2010 Tournament Brackets] '''wcg.com'''</ref>
+
+On December 8, 2010, SK Gaming expanded their roster by recruiting the members of Team Dimegio. With this pickup, SK acquired [[Araneae]], [[nRated]], Rashaasii, [[Wickd]], [[ALth0r]], and [[ocelote]]. <ref>[http://www.sk-gaming.com/content/31507-SK_Gaming_adds_new_League_of_Legends_team SK Gaming adds new League of Legends team] sk-gaming.com</ref>Araneae would leave SK Gaming on March 23 of the following year.<ref>[http://www.sk-gaming.com/content/32619-A_turbulent_week_for_the_SK_LoL_team A turbulent week for the SK LoL team] sk-gaming.com</ref>
+
+=== Pre-Season 2 ===
+
+The SK lineup would undergo a few more changes in the coming months. One of the biggest roster changes in SK Gaming's history occurred on June of 2011, with ALth0r, Farfain, LimeLight, nRated, Severus, and SleazyWeazy leaving, and being replaced by [[Candy Panda]], [[WetDreaM]], and [[Nyph]].<ref>[http://www.sk-gaming.com/content/33672-SKLoL_announce_new_lineup SK.LoL announce new line-up] sk-gaming.com</ref>
+
+With their new roster, SK Gaming participated in the 2011 [[IEM Season VI - Global Challenge Cologne]]. SK was unable to pass the group stage, going 1-2 after defeating [[Frag Executors]], then falling to Counter Logic Gaming Prime and [[FnaticRC]]. SK finished in 5th/6th place along with [[Team ALTERNATE]]. <ref>[http://www.esl-world.net/masters/season6/cologne/ IEM Season VI - Global Challenge Cologne] "esl-world.net"</ref>
+
+Shortly after the event, [[WetDreaM]] was replaced by [[Snoopeh]]. <ref>[http://www.sk-gaming.com/content/34534-SKLoL_with_lineup_change SK.LoL with line-up change] sk-gaming.com</ref>
+
+On October 5, 2011, SK Gaming placed third in the [[IEM Season VI - Global Challenge Guangzhou]]. With a strong performance, SK Gaming won its group by going 2-1, defeating [[CrossGaming]] and [[Invictus Gaming]] and losing to [[eHome]]. In the semifinals, SK Gaming fell to Counter Logic Gaming Prime 1-2, but then defeated eHome 2-1 in the third place match to take third at the tournament.<ref>[http://www.esl-world.net/masters/season6/guangzhou/ IEM Season VI - Global Challenge Guanghzou] "esl-world.net"</ref>
+
+A few weeks later, SK Gaming qualified for the [[IEM Season VI - Global Challenge New York]]. In the group stage, SK Gaming placed first going 3-0, defeating [[Sypher]], [[Curse Gaming]], and [[v8 eSports]]. Continuing on their success, SK Gaming defeated Counter Logic Gaming Prime 2-0 in the semi-finals. However, SK fell in the grand finals 0-2 to FnaticRC.
+
+=== Season 2 ===
+In the coming months, SK Gaming underwent several changes to their roster. On October 20, long time top laner [[Wickd]] left SK to form [[Absolute Legends]] with WetdreaM. SK picked up MoMa for a short stint to replace Wickd, but MoMa left shortly after signing. Near the end of 2011, Snoopeh departed SK Gaming to join the new [[Counter Logic Gaming EU]] and Absolute Legends merger team. To fill the void, SK signed former [[against All authority]] top laner [[Kev1n]].<ref>[http://www.sk-gaming.com/content/36276-SKLoL_confirm_their_lineup_for_IEM_Kiev SK.LoL confirm their line-up for IEM Kiev] sk-gaming.com</ref>
+
+Ten days after SK's roster changes, they earned fourth at the [[IEM Season VI - Global Challenge Kiev]]. SK Gaming placed second in the group stage, defeating [[Curse Gaming]] and White Lotus while falling to [[Team SoloMid]]. Despite this strong initial showing, SK was swept by the eventual winner [[Moscow Five]] in the semifinals 0-2, and then [[Dignitas]] 0-2 in the third place match.<ref>[http://www.esl-world.net/masters/season6/kiev/ IEM Season VI - Global Challenge Kiev] "esl-world.net"</ref>
+
+On February 12, 2012, [[Dedrayon]] joined SK Gaming as their jungler.<ref>[http://www.sk-gaming.com/content/36630-SKLoL_announce_their_new_Jungler SK.LoL announce their new Jungler] sk-gaming.com</ref> SK Gaming had a dominant performance in the group stages of [[IEM Season VI - World Championship]], going 4-1 and taking second place, defeating Curse Gaming, Team SoloMid, Sypher, and eHome, while losing their only game to Moscow Five. However, their success did not transfer over to the playoffs, as SK fell to against All authority in the quarterfinals. SK Gaming took 5th-6th place alongside Team Curse.
+
+Longtime mid laner ocelote temporarily switched roles with top laner kev1n on May 20, 2012.<ref>[http://www.sk-gaming.com/content/53694-SKLoL_with_a_Lineup_change SK.LoL with a Line-up change!?] sk-gaming.com</ref> On June 8, ocelote returned to the mid lane, while kev1n became the AD Carry and Candy Panda moved to top lane. A month after these position changes, longtime SK member CandyPanda left the team along with jungler Dedrayon. To replace CandyPanda, SK brought on former Absolute Legends top lane player [[YoungBuck]]. Eleven days later, SK Gaming underwent yet another roster change, with Svenskeren and YoungBuck leaving and Kev1n moving back to the top lane.<ref>[http://www.sk-gaming.com/content/54505-SKLoL_transforms_its_lineup SK.LoL transforms its line-up] sk-gaming.com</ref>
+
+On July 29, SK received third place at [[European Challenger Circuit: Poland]] with [[Araneae]] jungling and [[YellOwStaR]] playing the AD carry role. SK dropped its first set to CLG EU, 1-2, but was able to overcome [[Team Curse Europe]] 2-1. Two days later, ocelote announced that this roster would be permanent.
+
+Shortly before the start of the [[Season_2/Regional_Finals_-_Cologne|Season Two European Regionals]] in Cologne, SK Gaming picked up AD carry [[YellOwStaR]] and jungler [[Araneae]]. After only two weeks of training, SK Gaming competed at the regionals on August 16, 2012. In their first round, SK Gaming overcame the Polish [[Team Acer.PL]] 2-0 to advance. In a huge upset, SK swept the heavily favored Counter Logic Gaming EU 2-0 to qualify for the [[Season 2 World Championship]] and advance to the grand finals of the tournament. In the finals, SK Gaming fell to the Russian [[Moscow Five]] 0-2 and took home second place. After strong performances by YellOwStaR and Araneae, SK Gaming recruited them to officially join the main roster.
+
+On August 25, during [[Campus Gaming Party: Berlin]], [[Metalx]] of [[Western Wolves]] and [[Schabs]] of [[Team Acer]] substituted for YellOwstaR and Araneae, who were unable to attend due to personal reasons. SK took third place in group B with defeats by [[Eclypsia.Luna]] and [[Fnatic]].
+
+In early October, SK Gaming traveled to Los Angeles to play in the [[Season 2 World Championship]]. SK met an early exit, losing to [[CLG Prime]], [[Azubu Frost]], and [[Invictus Gaming]] in quick succession in the group stage. They left with an 11th-12th place result and $25,000.
+
+On November 11, SK Gaming participated in [[Tales of the Lane]]. After placing 3-1 in their group with victories over [[Tt Dragons]], [[mousesports]] and [[Team ALTERNATE]] and a sole loss to [[Fnatic]], SK received a bye into the semifinals of the bracket stage. They lost their semifinal match to [[Eclypsia]] 0-2, and lost the ensuing third place match to [[Moscow Five]] 0-2, placing them fourth in the seven overall, going home with  € 2,500.
+
+=== Pre-Season 3 ===
+The team traveled to Poland to compete at [[IEM Season VII - Global Challenge Katowice]] in January, but were knocked out in the group stage, going 1-2 and coming in 6th, winning against [[Absolute Legends]] but losing sets to [[Azubu Frost]] and [[Fnatic]]. During their match against Fnatic, Fnatic mid laner xPeke broke open an extremely close game by backdooring the SK nexus. This play was received with widespread amazement and prompted the term "xPeke'd".<ref>[http://www.youtube.com/watch?v=JZnfp0Xqnb8 <nowiki>[EPIC]</nowiki> Best Backdoor EVER full action IEM KATOWICE Fnatic vs SK] ''youtube.com''</ref>
+
+=== Season 3 ===
+By finishing in the top three at the Season 2 EU regionals, SK had qualified to participate in Riot's new professional league, [[Riot League Championship Series/Europe/Season 3|Season 3 EU League Championship Series]], playing in a 10 week competition with the continent's best teams. During the spring season of 2013, the SK team played consistently well, finishing with a respectable 17-11 and claiming third place going into playoffs. The [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Season 3 LCS Spring Playoffs]] occurred in April, where SK was able to automatically secure their spot in the next LCS season in the first round when their opponent, sixth-seeded [[against All authority]], was disqualified due to roster issues.<ref>[http://www.sk-gaming.com/content/81407-aAa_disqualified_SKs_LCS_spot_secured aAa Disqualified, SK LCS spot secured]]</ref> The team then faced [[Gambit Gaming]], falling 2-0 to the Russians. In the third place match, SK faced [[Evil Geniuses.EU|Evil Geniuses]] and, despite having early leads in both games, were unable to close them out and lost 2-0, to finish fourth in the playoffs.
+
+SK Gaming attended the [[IEM Season VII - World Championship]] in Hanover in March 2013. They were unable to make it to the bracket stage, placing 10th after winning only a single game against [[MeetYourMakers]].
+
+In the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Round_Robin|summer split of the European LCS]], SK made consistently poor showings and held eighth place for most of the split, despite going 3-1 against the eventual champions [[Fnatic]]. After a brief resurgence in the last two weeks of the season, SK finished seventh and would face relegation in the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Promotion|2014 Season Spring Promotion Tournament]].
+
+Kev1n and hyrqBot departed SK in September to join [[Ninjas in Pyjamas]]. In November, SK Gaming recruited LCS veterans [[fredy122]] (previously of against All authority), [[Svenskeren]] (previously of Ninjas in Pyjamas), and challenger player [[Jesiz]]. After nearly three years as a starter, ocelote stepped down from mid lane to be a substitute, while Nyph took his spot as Team Captain.
+
+In December 2013, SK Gaming faced [[SUPA_HOT_CREW_XD|SUPA HOT CREW XD]] in the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Promotion|Spring Promotion Tournament]]. After falling behind 0-2, SK Gaming won three games in a row to defeat SUPA HOT CREW XD and return to the LCS.
+
+In the end of December 2013 Team Captain Nyph announced that he would be leaving SK Gaming to join [[Alliance]].
+
+===2014 Season===
+After picking up new support [[nRated]], SK Gaming competed in the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Spring Split]]. After a few shaky weeks, is was clear that the changes to the roster had served the team well. As [[CandyPanda]] picked up the weekly MVP award for week three, SK's ascent of the rankings table began. By the penultimate week, SK had made it to 3rd place behind [[Alliance]] and [[Fnatic]], but a perfect superweek saw SK claim 1st place. SK's performance in the spring split secured them a place in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. The playoffs saw the team beat [[Team ROCCAT]] in the semifinal, but following this, SK lost to [[Fnatic]] in the final, resulting in a 2nd place finish for the team.
+
+SK started the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] strong, [[Svenskeren]] picked up the weekly MVP award for week three, and SK stayed within the top 3 teams until the 9th week. Poor results toward the end of the split saw SK in 5th place after the penultimate week, but a late surge resulted in the team finishing in 4th place overall, with [[nRated]] picking up the weekly MVP award for the final week. Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for the team to qualify for the [[2014 Season World Championship|World Championship]]. SK finished 3rd in the playoffs, losing to [[Alliance]] in the semifinal, but beating [[Team ROCCAT]] in the third-place match, securing themselves a place at the World Championship.
+
+The World Championship saw SK placed in Group B along with [[Star Horn Royal Club]], [[Team SoloMid]] and [[Taipei Assassins]]. SK only managed 2 wins in the group, but notably beat TSM in their last match of the group stage. SK finished in 3rd place in their group, meaning that they would not go any further in the tournament.
+
+===2015 Season===
+On November 24, 2014 SK Gaming announced that their lineup for the 2015 Season would consist of [[fredy122]], [[Svenskeren]], [[Fox (Hampus Myhre)|Fox]], [[FORG1VEN]], and [[nRated]], with Fox and FORG1VEN newly joining the lineup.<ref>[http://www.sk-gaming.com/content/1792669-Introducing_SK_Gamings_LCS_Roster_for_2015 Introducing SK Gaming's LCS Roster for 2015] ''skgaming.com''</ref>
+
+The [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|Spring Split]] was a huge success for SK Gaming, finishing 1st in the regular season and losing only 3 games in the process.
+
+Due to SK being in 1st place in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]] at the specified cutoff date, the team were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 win against the [[yoe Flash Wolves]], SK Gaming lost to [[GE Tigers]] in Round 2 of the winners bracket, putting them into Round 2 of the losers bracket. SK Gaming were then knocked out by [[yoe Flash Wolves]] after losing to the Taiwanese team in their 2nd meeting at the tournament.
+
+The team's regular season performance meant that SK Gaming would have a bye to the semifinals of the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], where they would fall to [[Unicorns Of Love]] in a tight series, and become the first regular season 1st place finishers to fall in the semifinals of playoffs in LCS history. They went on to lose the third-place match to [[H2k-Gaming]], securing themselves 30 [[2015 Season/Championship Points|Championship Points]] for the split.
+
+After [[FORG1VEN]]'s departure and [[CandyPanda]]'s arrival, the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Season]] was far less successful for the team, ultimately finishing the regular season in 9th place. This meant that they would have to fight for their LCS status in the [[League Championship Series/Europe/2016 Season/Spring Promotion|2016 Spring Promotion]], where they faced [[Gamers2]]. Now with [[NoXiAK]] in the place of [[nRated]], a well-fought series eventually saw SK Gaming, who had been a part of the European LCS since it's conception, lose their place in the LCS.
+
+===2019 Season===
+In 2018, the organization was rumored to be rejoining the [[League Championship Series/Europe/2019 Season/Spring Season|EU LCS]] as part of the 2019 European franchise program.<ref>[http://www.espn.com/esports/story/_/id/25166600/riot-games-accepts-final-applications-european-league-championship-series-teams Sources: Riot accepts final EU LCS applications] ''espn.com''</ref> On November 20, Riot Games confirmed SK Gaming as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref>
+
+They signed their core from [[MADL]]'s roster consisting of [[Werlyb]], [[Selfmade]], and [[Crownshot]] and signed with [[Pirean]] from [[SKT]] and [[Dreams (Han Min-kook)|Dreams]] 2 koreans who had played in western regions before. After beating their old rivals Fnatic in week 1 they showed inconsistent performances throughout the split and finished in 6th place after winning a tiebreaker against [[Schalke 04]]. In Round 1 of playoffs they started good against [[Splyce]] but lost the series in the end convincingly 1-3.
+
+Before [[LEC/2019 Season/Summer Season|Summer Split]] SK announced that they decided to switch the top laners of their main and academy team. This change did not seem to have a big impact on their performance at first as they started off with three 1-1 weeks before [[Rift Rivals 2019/NA-EU | Rift Rivals]]. After the break they got really exposed though so they benched underperforming mid laner Pirean and instead gave academy player and rookie [[Jenax]] a chance to show himself. Jenax used this chance well but despite making a late run up the standings this time SK did not manage to withstand the pressure of a tiebreaker against Vitality and ended split and season in 7th place.
+
+=== 2020 Season ===
+In the off-season Selfmade, Pirean and Dreams left the team. In replacement, [[Trick]], jungler for Schalke 04, and [[LIMIT (Dino Tot) | LIMIT]], support for [[Prime League|Prime League's]] [[Ad Hoc Gaming]] were both signed. [[Realistik]] had to leave the team and [[Unlimited (Petar Georgiev)|Unlimited]] was promoted to head coach of SK. After a promising first week in week 1 of [[LEC/2020 Season/Spring Season|Spring Split]], the expected loss to G2 Esports turned out to be the start of a small losing streak - until they took down the last place Schalke 04 in week 3. Unable to turn around their form, they went back on a losing streak of 10 games with the low point of losing to winless Vitality in week 5. This form continued until the last week, where they upset both [[Rogue (European Team)|Rogue]] and [[Excel Esports|Excel]]. However, these wins were too late to have an impact in the standings, and they ended the split in 9th place.
+
+In the pre-season for [[LEC/2020 Season/Summer Season|Summer Split]], SK Gaming signed Jesiz as Head Coach, moving Unlimited to Assistant Coach.<ref>[https://www.sk-gaming.com/content/1870983-sk-lec-roster-update-for-2020-summer-split SK LEC Roster Update for 2020 Summer Split ] ''sk-gaming.com''</ref> Additionally, SK Gaming's midlaner for Spring, Jenax role-swapped to Top Lane, with the team bringing in EU Masters Champion [[ZaZee]] from [[Berlin International Gaming|BIG]]. This proved to be the start of a promising roster, beating both [[Origen]] and [[Misfits Gaming]] to start 3-1 in the Summer Split.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+=== Active ===
+{{TeamMembersCurrent}}
+
+{{EUAcademyRosterNotice}}
+
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|TheSlasH|de|Alexander T. Müller-Rodic|'''Chief Executive Officer'''}}
+{{listplayersp|JPW||Jens Wundenberg|'''Chief Operating Officer'''}}
+{{listplayersp||de|Bernhard Schindlbeck|'''Chief Financial Officer'''}}
+{{listplayersp|MrQuadrat|de|Martin Marquardt|'''Chief Gaming Officer'''}}
+{{listplayersp||de|Hauke-Henning Horst|'''Head of Partnerships'''}}
+{{listplayersp|Curlychan|bg|Irena Pencheva|'''Head of Social Media'''}}
+{{listplayersp||de|Yann-Benjamin Kugel|'''Head of Performance'''}}
+{{listplayersp|Sakeios|pt|João Pedro Guerra|'''Video Producer & Editor'''}}
+{{listplayersp|ArcticMorty|es|Diego von Trier|'''Creative & GFX Designer'''}}
+{{listplayer|Krepo|be|Mitch Voorspoels|'''General Manager'''}}
+{{listplayer|OWN3R (David Rodriguez de la Torre)|es|David Rodriguez de la Torre|'''Head Coach'''}}
+{{listplayer|Baguette|fr|Simon Cordoonier|'''Assistant Coach'''}}
+{{listplayer|Duffman|uk|Christopher Duff|'''Assistant Coach'''}}
+{{listplayer|ProbablyME|fr|Léo Pironti|'''Data Analyst'''}}
+{{listplayer|Karni|de|Lukas Steininger|'''Content Creator'''}}
+{{listplayersp|RvNx Mango|de|Lukas Schändel|'''Content Creator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Troubleinc|gr|Georgia Paras|'''Content Creator'''|newteam=VIT}}
+{{listplayer|Sanchi|pl|Maciej Bieńkowski|'''Analyst'''|newteam=NAVI}}
+{{listplayersp|Ewen|uk|Ewen Bufton|'''Performance Coach'''|newteam=Heretics}}
+{{listplayer|aceum|pl|Julia Nowak|'''Analyst'''|newteam=Frites Esports Club}}
+{{listplayer|Bertho|de|Thomas Huber|'''Team Manager'''|newteam=none}}
+{{listplayer|Garih|es|Mauro Garih Vidal|'''Assistant Coach'''|newteam=VIT.B}}
+{{listplayersp|meany|de|Nina Naundorf|'''Social Media Manager'''|newteam=none}}
+{{listplayersp|Sauce|es|Carlos Maria Canut|'''Remote Analyst'''|newteam=none}}
+{{listplayer|Swiffer|au|Simon Papamarkos|'''Head Coach'''|newteam=TL}}
+{{listplayersp||br|Lara Lunardi|'''Head of Content'''|newteam=none}}
+{{listplayersp|Alejandro|es|Alejandro Flores|'''Remote Analyst'''|newteam=O2K}}
+{{listplayer|Tom (Thomas Diakun)|uk|Thomas Diakun|'''Analyst'''|newteam=none}}
+{{listplayer|Jesiz|dk|Jesse Le|'''Head Coach'''|newteam=GamersOrigin}}
+{{listplayer|InnerFlame|uk|Joe Elouassi|'''General Manager'''|newteam=retired}}
+{{listplayersp|Velafee|de|Kimberly Hess|'''Head of Content'''|newteam=none}}
+{{listplayer|Jesiz|dk|Jesse Le|'''Head Coach'''|newteam=SK|comment=Support}}
+{{listplayer|Unlimited (Petar Georgiev)|bg|Petar Georgiev|'''Assistant Coach'''|newteam=XL}}
+{{listplayer|Kanani|dz|Lamine-Lounis Khouani|'''Strategic Coach'''|newteam=FLY}}
+{{listplayersp|misterlalilu|de|René Spanier|'''General Manager'''|newteam=Retired|comment=Validatis}}
+{{listplayersp|Nini|pt|Ana da Silva Silveira|'''Head of Social Media'''|newteam=S04}}
+{{listplayer|Realistik|ro|Andrei Ruse|'''Head Coach'''|newteam=SAIM SE}}
+{{listplayer|Pyros|es|Javier Quejigo Calatayud|'''Analyst'''|newteam=Retired|comment=Unisys}}
+{{listplayer|Brokenshard|il|Ram Djemal|'''Head Coach'''|newteam=SKP}}
+{{listplayer|Sheepy|de|Fabian Mallant|''' Head Coach'''|newteam=UOL.CIS}}
+{{listplayersp|evzhuh|de|Evgeniya Waldner|'''Account Manager'''|newteam=Retired|comment=WeWork}}
+{{listplayer|Gevous|nl|Fayan Pertijs|'''Coach'''|newteam=SUP}}
+{{listplayersp|Material Boy|de|Lukas Schenke|'''Head Coach'''|newteam=none}}
+{{listplayersp|Wolle|de|Wolfgang Landes|'''Analyst'''|newteam=origen}}
+{{listplayer|Arvindir|de|Danusch Fischer|'''Analyst'''|newteam=spy}}
+{{listplayer|InnerFlame|uk|Joe Elouassi|'''Managing Coach'''|newteam=gamers2}}
+{{listplayer|Incarnati0n|dk|Nicolaj Jensen|'''Head Coach'''|newteam=c9}}
+{{listplayersp|reis|kr|Ko Min-sik (고민식)|'''Head of Team and Player Management'''|newteam=none}}
+{{listplayersp|Griff|de|Ralf Reichert|'''Co-Founder'''|newteam=none}}
+{{listplayersp|Burke|de|Tim Reichert|'''Co-Founder'''|newteam=none}}
+{{listplayersp|Kane|de|Benjamin Reichert|'''Co-Founder'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+SK Gaminglogo Since 1997.png|SK Gaming logo<br>Since 1997
+</gallery>
+
+===Rosters===
+<gallery>
+ESPORTS.TEAMPROFILE.SKG2_.jpg|SK Gaming Season 3 LCS Spring Roster
+SKGamingS3Summer.png|SK Gaming Season 3 LCS Summer Roster
+SK_Spring_2014.png|SK Gaming Season 2014 LCS Spring Roster
+SK 2014.jpg|SK Gaming's [[2014 Season World Championship]] Roster
+SK 2015 Spring.jpg|SK Gaming's 2015 LCS Spring Roster
+sk20152.jpg|SK Gaming's 2015 LCS Summer Roster
+SK_EUCS_2016_Spring.png|SK Gaming's 2016 CS Spring Roster
+SK Gaming 2018 Split 2 Roster Photo.jpg|SK Gaming's 2018 LEC Summer Roster
+SK 2019 Spring.png|SK Gaming's 2019 LEC Spring Roster
+SK 2020 Spring.png|SK Gaming's 2020 LEC Spring Roster
+SK 2020 Summer.png|SK Gaming's 2020 LEC Summer Roster
+SK 2021 Spring.png|SK Gaming's 2021 LEC Spring Roster
+SK 2022 Spring.jpg|SK Gaming's 2022 LEC Spring Roster
+SK 2023 Winter.png|SK Gaming's 2023 LEC Winter Roster
+SK Gaming 2025 Winter.jpeg|SK Gaming's 2025 LEC Winter
+</gallery>
+
+==References==
+<references />

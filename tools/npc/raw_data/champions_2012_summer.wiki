@@ -1,0 +1,411 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Champions%2F2012%20Season%2FSummer&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.569Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Champions/2012/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:OGN 2012|Summer=1}}
+{{Infobox Tournament
+|name=Azubu The Champions Summer 2012
+|image= OGN_The_Champions.jpg
+|organizer= [http://www.tooniland.com/ongame/ognMain.tl OnGameNet]
+|sponsor= [http://www.azubu.com/ Azubu]
+|server= KR
+|type= Offline
+|country= South Korea
+|prizepool=₩ 150,000,000
+|format=
+|date=
+|sdate= 2012-07-04
+|edate= 2012-09-08
+|first=Azubu Frost
+|flagfirst=kr
+|second=CLG EU
+|flagsecond=eu
+|third=NaJin Sword
+|flagthird=kr
+|fourth=Azubu Blaze
+|flagfourth=kr
+|player_number= 16
+|north_america_number= 2
+|europe_number= 2
+|china_number= 1
+|korea_number= 11
+|map1=Summoner's Rift
+|website= http://www.ognlol.com/
+|region=KR
+|split=Summer
+|split_number=2
+
+|CM_StandardName=Champions 2012 Summer
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2012
+|CM_StandardLeague=LTC
+|CM_LeagueIconKey=LTC
+|closest_timezone=KST
+}}{{TOCRWI}}
+
+==Overview==
+'''The Champions''' took place in Seoul, South Korea starting in July 2012 and ending in September 2012. This was OnGameNet's second major tournament after The Champions Spring 2012. The tournament was aired on OnGameNet's Korean channel as well as an online English stream. [[Azubu The Champions Summer 2012|The Champions Summer]], along with [[Azubu The Champions Spring 2012|The Champions Spring]], [[NLB Spring 2012]], and [[NLB Summer 2012]], awarded Circuit Points to determine two Korean teams to participate in [[Season 2 World Championship]]. <ref>[http://www.thisisgame.com/board/view.php?id=1176993&category=102 30억짜리 LOL 세계대회, 관건은 ‘서킷 포인트’]''"thisisgame.com"''</ref> The main English casters for this event were [[Torch]], [[Moletrap]], and [[Groople]], with guestcasting from [[Scarra]], [[Doublelift]] and [[HotshotGG]].
+
+=== Format ===
+*Eight teams seeded and eight teams qualifying
+**Top four teams from [[Azubu_The_Champions_Spring_2012|The Champions Spring 2012]] along with four invited North American, European, and Chinese teams.
+*Round of 16 Group Stage is four groups of four.
+**Each match is Best of One - After Round Robin, Top Two teams from each group advance.
+**If there is a three-way tie, the tiebreakers (three teams playing each other) will be played immediately on Friday.
+**If tie is still not broken after the tiebreakers, (Kill - Death) / Game Time score will determine order of play for second tiebreakers.
+***In 2-1 tie, two highest score teams will play with winner advancing as first place and loser will play the lowest score team to determine the second place.
+***In 1-2 tie, two lowest score teams will play with winner playing the highest score team to determine the second place.
+*The remaining eight teams are put into an elimination bracket.
+**The quarterfinals and the Third-Fourth place match are Best of Three, while the Semifinals and Finals are Best of Five.
+*In all Best of Threes and Best of Fives, the final game is Blind Pick while other games are Draft Pick.
+
+===Prize Pool===
+{{TournamentResults
+|points=yes
+|pointstitle=Circuit Points
+|prize=yes
+|prizeunit=KRW
+|totalprize=146,500,000
+|usdrate=0.00088
+|eurorate=0.00069
+
+|{{TournamentResults/Line|place=1|prize=50,000,000|points=+400|team=azf|lastresult=3 : 2|lastopponent=clg eu|lastoutcome=w}}
+|{{TournamentResults/Line|place=2|prize=20,000,000|points=+200|team=clg eu|lastresult=2 : 3|lastopponent=azf|lastoutcome=l}}
+|{{TournamentResults/Line|place=3|prize=12,000,000|points=+150|team=njsw|lastresult=2 : 0|lastopponent=azb|lastoutcome=w|date=2012-08-31}}
+|{{TournamentResults/Line|place=4|prize=6,500,000|points=+100|team=azb|lastresult=0 : 2|lastopponent=njsw|lastoutcome=l|date=2012-08-31}}
+|{{TournamentResults/Line|sameplaces=4|place=5-8|prize=6,500,000|points=+50|team=startale|lastresult=0 : 2|lastopponent=njsw|lastoutcome=l|date=2012-08-01}}
+|{{TournamentResults/Line|place=5-8|prize=6,500,000|team=we|lastresult=0 : 2|lastopponent=clg eu|lastoutcome=l|date=2012-08-03}}
+|{{TournamentResults/Line|place=5-8|prize=6,500,000|team=xenics storm|lastresult=0 : 2|lastopponent=azb|lastoutcome=l|date=2012-08-08}}
+|{{TournamentResults/Line|place=5-8|prize=6,500,000|team=clg prime|lastresult=0 : 2|lastopponent=azf|lastoutcome=l|date=2012-08-10}}
+|{{TournamentResults/Line|sameplaces=8|place=9-16|prize=1,500,000|points=+25|team=njsh|groupstage=1 - 2|date=2012-07-06}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=d|groupstage=1 - 2|date=2012-07-13}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=navi|groupstage=1 - 2|date=2012-07-20}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=im|groupstage=1 - 2|date=2012-07-27}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=mvp blue|groupstage=0 - 3|date=2012-07-27}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=romg|groupstage=1 - 2|date=2012-07-13}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=cj|groupstage=0 - 3|date=2012-07-20}}
+|{{TournamentResults/Line|place=9-16|prize=4,000,000|team=gjr|groupstage=0 - 3|date=2012-07-06}}
+|conversiondate=September 8, 2012|conversionsource=xe}}
+
+== Participants ==
+{{RostersStart
+|maxteams=4|showrosterpage=yes
+}}
+{{Box|start}}
+{{TeamRoster|team=Azubu Blaze
+|{{TeamRoster/Line|player=Reapered    |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Helios (Shin Dong-jin)      |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Ambition    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Cpt Jack    |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Lustboy     |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Azubu Frost
+|{{TeamRoster/Line|player=Shy          |flag=kr |role=top}}
+|{{TeamRoster/Line|player=CloudTemplar |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=RapidStar    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Woong (Jang Gun-woong)        |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=MadLife      |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=CJ Entus
+|{{TeamRoster/Line|player=Longpanda |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Eryuk     |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=emboob    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Pecko     |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=kkinsh    |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Counter Logic Gaming Europe
+|{{TeamRoster/Line|player=Wickd      |flag=dk |role=top}}
+|{{TeamRoster/Line|player=Snoopeh    |flag=gb |role=jungle}}
+|{{TeamRoster/Line|player=Froggen    |flag=dk |role=mid}}
+|{{TeamRoster/Line|player=Yellowpete |flag=de |role=ad}}
+|{{TeamRoster/Line|player=Krepo      |flag=be |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Counter Logic Gaming Prime
+|{{TeamRoster/Line|player=Voyboy     |flag=us |role=top}}
+|{{TeamRoster/Line|player=HotshotGG  |flag=ca |role=jungle}}
+|{{TeamRoster/Line|player=Bigfatlp   |flag=ca |role=mid}}
+|{{TeamRoster/Line|player=Doublelift |flag=us |role=ad}}
+|{{TeamRoster/Line|player=Chauster   |flag=us |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=GJR
+|{{TeamRoster/Line|player=Warpath     |flag=kr |role=top}}
+|{{TeamRoster/Line|player=yoshi (Lee Ki-cheol)       |flag=kr |role=jungle }}
+|{{TeamRoster/Line|player=Senaim      |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=LongDary    |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=ElecTrouble |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Incredible Miracle
+|{{TeamRoster/Line|player=Cornsalad  |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Ring Troll |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=MidKing    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Paragon    |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Lilac (Jeon Ho-jin)      |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MVP Blue
+|{{TeamRoster/Line|player=Duelist   |flag=kr |role=top}}
+|{{TeamRoster/Line|player=NoFe      |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=SunChip   |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=HanKun    |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=VeryBerry |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NaJin Shield
+|{{TeamRoster/Line|player=Expession |flag=kr |role=top}}
+|{{TeamRoster/Line|player=MOKUZA     |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=HooN (Kim Nam-hoon)       |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Hiro (Lee Woo-suk)       |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=viNylCat   |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NaJin Sword
+|{{TeamRoster/Line|player=MakNooN        |flag=kr |role=top}}
+|{{TeamRoster/Line|player=watch          |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=SSONG          |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=PraY           |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Cain           |flag=kr |role=support}}
+|{{TeamRoster/Line|player=Sim|flag=kr|role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Natus Vincere
+|{{TeamRoster/Line|player=nesrilaS     |flag=dk |role=top}}
+|{{TeamRoster/Line|player=Kottenx      |flag=se |role=jungle}}
+|{{TeamRoster/Line|player=CitizenWayne |flag=de |role=mid}}
+|{{TeamRoster/Line|player=Antogyn      |flag=fr |role=ad}}
+|{{TeamRoster/Line|player=SAND (Philipp Bennek)         |flag=de |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=RoMg
+|{{TeamRoster/Line|player=ChuChu   |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Nyang    |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Elf      |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Senryaku |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Sound    |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=StarTale
+|{{TeamRoster/Line|player=Joker (Go Dong-bin)    |flag=kr |role=top }}
+|{{TeamRoster/Line|player=Ryu      |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=5cean    |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Locodoco |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Mafa     |flag=kr |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team Dignitas
+|{{TeamRoster/Line|player=Crumbzz       |flag=ve |role=top}}
+|{{TeamRoster/Line|player=IWDominate    |flag=us |role=jungle}}
+|{{TeamRoster/Line|player=Scarra        |flag=us |role=mid}}
+|{{TeamRoster/Line|player=imaqtpie      |flag=us |role=ad}}
+|{{TeamRoster/Line|player=L0cust        |flag=us |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team WE
+|{{TeamRoster/Line|player=CaoMei  |flag=cn |role=top}}
+|{{TeamRoster/Line|player=YJTM    |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Misaya  |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=WeiXiao |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=if      |flag=cn |role=support}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Xenics Storm
+|{{TeamRoster/Line|player=May (Kang Han-wool)        |flag=kr |role=top}}
+|{{TeamRoster/Line|player=Nolja      |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=ManyReason |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=SBS        |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Impact     |flag=kr |role=support}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+'''Azubu Blaze''', '''Azubu Frost''', and '''Xenics Storm''' are seeded directly into Round of 16 due to top four finishes in OGN The Champions Spring 2012. '''Counter Logic Gaming EU''', '''Dignitas''', '''Team WE''', and '''Natus Vincere''' are seeded directly into Round of Sixteen via international invites.
+:<sup>1</sup> '''Incredible Miracle''' recieved Team OP's seed spot due to acquiring three of the players that were previously on Team OP's roster
+== Results ==
+=== Round of 16 Group Stage ===
+{{Box|start|padding=1em}}
+====Group A====
+{{AutoStandings|preload=Bo1|display=Group A Standings|onlygroup=A|onlytabs=Group A
+|finalorder=azb,we,njsh,gjr
+|places=up,up,down,down
+|row1=up
+|row2=up
+|row3=down
+|row4=down
+|isover=yes
+|useasresults=no}}
+
+{{Box|break|padding=1em}}
+
+====Group B====
+{{AutoStandings|preload=Bo1|display=Group B Standings|onlygroup=B|onlytabs=Group B
+|finalorder=azf,njsw,d,romg
+|places=up,up,down,down
+|row1=up
+|row2=up
+|row3=down
+|row4=down
+|isover=yes
+|useasresults=no}}
+
+{{Box|break|padding=1em}}
+
+====Group C====
+{{AutoStandings|preload=Bo1|display=Group C Standings|onlygroup=C|onlytabs=Group C
+|finalorder=Startale,Xenics Storm,Natus Vincere,CJ Entus
+|places=up,up,down,down
+|row1=up
+|row2=up
+|row3=down
+|row4=down
+|isover=yes
+|useasresults=no}}
+
+{{Box|break|padding=1em}}
+
+====Group D====
+{{AutoStandings|preload=Bo1|display=Group D Standings|onlygroup=D|onlytabs=Group D
+|finalorder=CLG EU,CLG Prime,IM,MVP Blue
+|places=up,up,down,down
+|row1=up
+|row2=up
+|row3=down
+|row4=down
+|isover=yes
+|useasresults=no}}
+
+{{Box|end}}
+
+<sup>1</sup> Due to schedule conflicts with [[ECC Poland]], Counter Logic Gaming EU were allowed to play all of their matches on the first day of the group.<ref>[http://www.ognlol.com/board_view/forum/board_id/10000000000607/re_url/announcement Schedule changes for round of 16 Group D matches]''"ognlol.com"''</ref>
+
+=== Playoffs ===
+{{Bracket|8SE|cargo=Yes|R1_title=Quarterfinals|R2_title=Semifinals|R3_title=Finals|R3M2_cargomatch=Third-Place Match_1|third=yes|R2M1_cargomatch=Semifinals_2|R2M2_cargomatch=Semifinals_1}}
+
+{{Bracket|2SE|R1_title=Seed Challenge|cargo=Yes}}
+
+== Match List ==
+{{AutoMatches}}
+
+== View Games ==
+*[http://www.ognlol.com/live/main Stream]
+
+== Regional Distribution ==
+=== Teams ===
+{{Distribution|regions=CN;EU;KR;NA
+|format=region
+|rounds=Groups;Quarterfinals;Semifinals;Finals;Winner
+|Groups=1;2;11;2
+|Quarterfinals=1;1;5;1
+|Semifinals=;1;3;
+|Finals=;1;1;
+|Winner=;;1;
+}}
+
+=== Players ===
+{{TabsDynamic
+|name1=Nationality
+|name2=Country of Birth
+|This=1}}
+{{TabsDynamic|tab}}<!--Nationality-->
+{{Distribution|regions=Belgium;Canada;China;Denmark;France;Germany;South Korea;Sweden;United Kingdom;United States;Venezuela
+|format=country
+|rounds=Groups;Quarterfinals;Semifinals;Finals;Winner
+|Groups=1;2;5;3;1;3;55;1;1;7;1
+|Quarterfinals=1;2;5;2;;1;25;;1;3;
+|Semifinals=1;;;2;;1;15;;1;;
+|Finals=1;;;2;;1;5;;1;;
+|Winner=;;;;;;5;;;;
+}}
+{{TabsDynamic|tab}}<!--Country of Birth-->
+{{Distribution|regions=Belgium;Canada;China;Denmark;France;Germany;South Korea;Sweden;United Kingdom;United States;Venezuela
+|format=country
+|rounds=Groups;Quarterfinals;Semifinals;Finals;Winner
+|Groups=1;2;5;3;1;3;55;1;1;7;1
+|Quarterfinals=1;2;5;2;;1;25;;1;3;
+|Semifinals=1;;;2;;1;15;;1;;
+|Finals=1;;;2;;1;5;;1;;
+|Winner=;;;;;;5;;;;
+}}
+{{TabsDynamic|end}}
+:''Players who played at least one game are listed here.''
+
+== Additional Content ==
+{{Box|start|padding=1em}}
+=== Interviews ===
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000715/series/15/re_url/main/page/3 Team CSL Interview]
+==== Round of 16 ====
+* Group A
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000477/series/15/re_url/main/page/2 Azubu Blaze after Day 1]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000482/series/15/re_url/main/page/2 Azubu Blaze after Day 2]
+
+* Group B
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000523/series/15/re_url/main/page/2 RoMg after winning against Azubu Frost]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000524/series/15/re_url/main/page/2 NaJin Sword after winning against Dignitas]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000525/series/15/re_url/main/page/2 Dignitas after winning against RoMg]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000542/series/15/re_url/main/page/2 Dignitas after Day 2]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000578/series/15/re_url/main/page/2 Azubu Frost after Day 2]
+* Group C
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000588/series/15/re_url/main/page/2 Xenics Storm after winning against CJ Entus]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000589/series/15/re_url/main/page/2 StarTale after winning against Natus Vincere]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000590/series/15/re_url/main/page/2 Natus Vincere after winning against CJ Entus]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000667/series/15/re_url/main/page/1 Natus Vincere after Day 1]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000620/series/15/re_url/main/page/2 StarTale after winning against CJ Entus]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000621/series/15/re_url/main/page/2 Xenics Storm after winning against Natus Vincere]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000636/series/15/re_url/main/page/1 StarTale after Day 2]
+* Group D
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000654/series/15/re_url/main/page/1 LG-IM after winning against MVP Blue]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000655/series/15/re_url/main/page/1 CLG EU after their Day 1 matches]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000668/series/15/re_url/main/page/1 CLG EU after Day 1]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000678/series/15/re_url/main/page/1 CLG Prime after their Day 2 matches + Ro8 Group Draw]
+** [http://www.ognlol.com/board_view/vod/board_id/10000000000689/series/15/re_url/main/page/1 CLG Prime after Day 2]
+
+==== Round of Eight ====
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000718/series/15/re_url/main/page/3 NaJin Sword Post-Game]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000697/series/15/re_url/main/page/1 NaJin Sword Quarterfinal Interview]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000723/series/19/re_url/main/page/2 CLG.EU Post-Game]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000751/series/19/re_url/main/page/2 Azubu Blaze Post-Game]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000772/series/15/re_url/main/page/2 Azubu Blaze Quarterfinal Interview]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000773/series/15/re_url/main/page/2 Azubu Blaze MLG Interview]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000766/series/19/re_url/main/page/2 Azubu Frost Post-Game]
+
+==== Semifinals ====
+* [http://www.youtube.com/watch?v=hODR6uLh1Ms Azubu Exclusive Interview: Azubu Frost]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000800/series/19/re_url/main/page/1 Azubu Frost Semifinal Interview]
+* [http://www.youtube.com/watch?v=R2pLdQSe4L0 Azubu Exclusive Interview: CLG EU]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000839/series/19/re_url/main/page/1 CLG EU Semifinal Interview]
+
+{{Box|break|padding=1em}}
+
+=== Other Coverage ===
+* [http://www.youtube.com/watch?v=dG6UJgeliUU Qualifier Groups A-D Top 5 Plays]
+* [http://www.youtube.com/watch?v=1JOAf0BCf-E Qualifier Groups E-H Top 5 Plays]
+* [http://www.proplay.ru/news/20624/ ProPlay Coverage (Russian)]
+* [http://www.ognlol.com/board_view/vod/board_id/10000000000705/series/15/re_url/main/page/1 PlayMakers: Round of Sixteen Group A Top 5 Plays]
+* [http://www.youtube.com/watch?v=Nf8M8cuFDaA PlayMakers: Round of 16 Group A]
+* [http://www.youtube.com/watch?v=FiXg_dHfMy0 PlayMakers: Round of 16 Group B]
+* [http://www.youtube.com/watch?v=Y8aLacfj4iQ PlayMakers: Round of 16 Group C]
+* [http://www.youtube.com/watch?v=2k33S_MnQJI PlayMakers: Round of 16 Group D]
+* [http://www.youtube.com/watch?v=uDC6rGDKrv0 PlayMakers: Round of 8 Groups A & B]
+* [http://www.youtube.com/watch?v=f9Og3daKRUc PlayMakers: Round of 8 Groups C & D]
+* [http://www.youtube.com/watch?v=mKGKGz4AEJ0 PlayMakers: Semi-Final of Azubu LTC 2012 Group A]
+* [http://www.youtube.com/watch?v=--3_qbv_n6A PlayMakers: Semi-Final of Azubu LTC 2012 Group B]
+* [http://www.in2lol.com/en/news/4115 in2LOL Finals Recap]
+
+
+{{Box|end}}
+
+== See Also ==
+*[[Portal:Tournaments|Tournaments Portal]]
+*[[Azubu The Champions Spring 2012]]
+
+== External Links ==
+* [http://www.youtube.com/watch?v=VHaxgg4WF_c The Champions Summer Teaser Title]
+* [http://www.youtube.com/watch?v=179ULOOzrMc The Champions Summer 2012 FINAL PROMO]
+* [http://www.youtube.com/watch?v=wwGH6t71hDc The Champions 2012 Summer Final Field Sketch]
+
+== References ==
+<references />

@@ -1,0 +1,6 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mimic&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.564Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mimic」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Mimic (Min Ju-seong)
+|player2=Mimic (Nawaf Al-Salem)
+}}

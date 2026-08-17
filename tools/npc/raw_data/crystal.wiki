@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Crystal&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.029Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Crystal」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Crystal
+|name=Atakan Aydın
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1993
+|birth_date_month=April
+|birth_date_day=20
+|favchamp=Lee Sin
+|favchamp3=Vi
+|favchamp4=Elise
+|checkbox1=No
+|compID1=HasskTR
+|compID2=Crystal Meth
+|checkboxComp=No
+|ids=Crystal Méth, DP C Meth, DP Crystal Meth, Kristal Mete (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://go.twitch.tv/crystal_lol
+|facebook=https://www.facebook.com/Meth.lol
+|twitter=crystallol_
+|instagram=atakancrystal
+|lolpros=https://lolpros.gg/player/crystal
+|deeplol=https://www.deeplol.gg/strm/Crystal
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=For the Chinese AD carry, see [[kRYST4L]].
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+He started playing video-games at an age of 10 years old. Studied Computer Programming at Kocaeli University in Turkey. He also likes watching TV and listening to music. His first champion was {{ci|Sion}} because of his brother. He played it and became better.
+
+== Trivia ==
+* Known for his ''Turkish Lee Sin'' meme.<ref>[https://www.reddit.com/r/LeagueOfMemes/comments/mc7lto/turkish_lee_sin/ Reddit Post]''reddit.com''</ref>
+{{PlayerStatsTrivia}} 
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

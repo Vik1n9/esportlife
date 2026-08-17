@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Inspired&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.978Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Inspired」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Inspired
+|name=Kacper Słoma
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Poland
+|residency=North America
+|birth_date_year=2002
+|birth_date_month=January
+|birth_date_day=24
+|favchamp=Kha'Zix
+|favchamp2=Lee Sin
+|favchamp3=Fiddlesticks
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Inspireeed#EUW <br>'''CN:''' Roguefan123 <br> '''KR:''' I will farm #FLY <br> '''NA:''' Andrew Barton#FLYGM<br>'''BR:''' gobackna#kmc
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/inspiredlol_
+|facebook=https://www.facebook.com/InspireDlol
+|twitter=Inspiredlol
+|instagram=inspired.lol
+|youtube=https://www.youtube.com/channel/UCaqSbWaoX-rxDnyUmqhg5iQ
+|tiktok=inspiredlol_
+|lolpros=https://lolpros.gg/player/inspired
+|deeplol=https://www.deeplol.gg/pro/Inspired
+|dpmlol=https://dpm.lol/pro/Inspired
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Inspired was born in Białystok, Poland. He began playing ''League of Legends'' in Season 3.
+
+== Trivia ==
+* He is known for achieving Top 50 in Challenger at 15 years old.
+* First LEC player born in 2002 (second youngest player to attend LEC as of [[LEC/2019 Season/Summer Season|LEC 2019 Summer]] is [[Jeskla]] born August 2000).
+* First LEC jungler to get a pentakill in a LEC match.
+* First Polish player to play in the LCS.
+* Only player to be LEC MVP ([[LEC/2021 Season/Summer Season|2021 Summer]]) and LEC Rookie of the Split ([[LEC/2019 Season/Summer Season|2019 Summer]])
+* Only player to be LEC MVP ([[LEC/2021 Season/Summer Season|2021 Summer]]) and LCS MVP ([[LCS/2022 Season/Summer Season|2022 Summer]])
+* Only player to be LTA MVP ([[LTA North/2025 Season/Split 2|2025 Split 2]]) and LCS MVP ([[LCS/2022 Season/Summer Season|2022 Summer]])
+* Third player to do a Pentakill in both EU LCS/LEC and NA LCS/LTA after [[Bjergsen]] and [[Zven]], if we consider EU and NA in general he's fourth behind [[UNF0RGIVEN]]
+
+=== Individual Awards ===
+* x1 LTA Player of the Year ([[LTA North/2025 Season/Split 3|2025 Split 3]])
+* x2 League Awards LCS/LTA Player of the Year ([[League Awards 2024|2024]], [[League Awards 2025|2025]])
+* x2 LCS/LTA North Most Valuable Player ([[LCS/2022 Season/Summer Season|2022 Summer]], [[LTA North/2025 Season/Split 2|2025 Split 2]])
+* x1 LCS Finals MVP ([[LCS/2024 Season/Championship|2024 Summer]])
+* x3 LCS/LTA North 1st All-Pro Team ([[LCS/2022 Season/Summer Season|2022 Summer]], [[LTA North/2025 Season/Split 2|2025 Split 2]], [[LTA North/2025 Season/Split 3|2025 Split 3]])
+* x2 LCS 2nd All-Pro Team ([[LCS/2024 Season/Spring Season|2024 Spring]], [[LCS/2024 Season/Summer Season|2024 Summer]])
+* x1 LCS 3rd All-Pro Team ([[LCS/2023 Season/Spring Season|2023 Spring]])
+* x1 LEC Most Valuable Player ([[LEC/2021 Season/Summer Season|2021 Summer]])
+* x1 LEC 1st All-Pro Team ([[LEC/2021 Season/Summer Season|2021 Summer]])
+* x2 LEC 2nd All-Pro Team ([[LEC/2020 Season/Summer Season|2020 Summer]], [[LEC/2021 Season/Spring Season|2021 Spring]])
+* LEC Rookie of the Split ([[LEC/2019 Season/Summer Season|2019 Summer]])
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lilballz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.159Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lilballz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Lilballz
+|name=Sung&nbsp;"Alex" Kuan-Po
+|nativename=宋寬柏
+|namealphabet=Hanzi
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=Taiwan
+|birth_date_year=1988
+|birth_date_month=June
+|birth_date_day=12
+|favchamp=Alistar
+|favchamp2=Dr. Mundo
+|favchamp3=Olaf
+|checkbox1=No
+|checkboxComp=No
+|ids=Lilb4Ll (NA), 隔壁老王的草尼馬 (TW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Caster
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lilballzlolz
+|facebook=https://www.facebook.com/lilballzLoL
+|youtube=https://www.youtube.com/c/Lilballz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He is best known as the jungler of the [[Season 2 World Championship]]-winning [[Taipei Assassins]].
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|nicknames=球z, 李伯茲
+}}
+==Biography==
+On October 11, 2013, it was announced by Garena Taiwan that Lilballz was found guilty of using someone else's account to play ranked queue. The following ruling was announced: Account suspension and Ineligible for competing in Garena-hosted tournaments for one year.<ref>[http://lol.esport.garena.tw/news/news_info.php?nid=1735 【LNL 台港澳聯賽】AZB TPA Lilballz 選手違反停權管理規章 懲處公告 (Taiwanese)] ''lol.esport.garena.tw''</ref>
+
+On his Facbook account, Lilballz explained that he just borrowed the account of a friend due to the long ranked queues. He announced his retirement of playing competitively, but will still be assisting in training TPA/TPS along with their current coach Fluidwind.
+
+== Trivia ==
+* Favorite champion is {{ci|Alistar}}.
+* Studied in Canada.
+* Was friends in high school with [[Bigfatjiji]]. They met in a LAN center after they both skipped school on the same day to play video games.
+* The name Lilballz is derived from the opposite meaning of Bigfatjiji.
+* Coined the term "NFGL" while playing with Bigfatjiji. <ref>[http://www.youtube.com/watch?v=fW7jSrlaidg NFGL! (video)] ''youtube.com''</ref>
+* Being described as one of the trollest player at Taiwan server since retiring from competitive gaming.<ref>[https://www.youtube.com/watch?v=5Ud1dDXGrms#t=2m56s 【Lilballz】實況精華 - 魔競啊魔競，誰是世界上最欠吉的人？ (By 光信) 2016/12/24] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

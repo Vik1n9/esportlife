@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jjun&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.666Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jjun」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Jjun
+|name=Kwon Jun-seok
+|nativename=권준석
+|namealphabet=Hangul
+|image=MG_Jjun_2019_MSI.png
+|checkboxAutoImage=No
+|country=South Korea
+|residency=Korea
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|teamhist1=Team Yetti
+|teamdate1=Jan 2017 - May 2017
+|teamrole1=Jungle
+|issub1=No
+|istrainee1=No
+|teamhist2=I Gaming Star
+|teamdate2=Jun 2017 - Nov 2017
+|teamrole2=Jungle
+|issub2=No
+|istrainee2=No
+|teamhist3=Mineski
+|teamdate3=Dec 2017 - Feb 2019
+|teamrole3=Jungle
+|issub3=No
+|istrainee3=No
+|teamhist4=MEGA
+|teamdate4=Mar 2019 - Jul 2019
+|teamrole4=Jungle
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/profile.php?id=100004137394722
+|deeplol=https://www.deeplol.gg/pro/Jjun
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Jjun CS Korea 2017.png|IGS jjun 2017 Summer
+</gallery>
+
+{{PlayerPageEnd}}

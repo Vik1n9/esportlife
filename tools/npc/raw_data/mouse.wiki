@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mouse&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.369Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mouse」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Mouse
+|name=Chen Yu-Hao
+|nativename=陈宇浩
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1996
+|birth_date_month=October
+|birth_date_day=08
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=Yes
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://weibo.com/n/Mouse陈宇浩
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Support
+}}
+==Biography==
+===Season 5===
+Mouse played some games for [[EDward Gaming]] in the 2015 LPL Spring Split as their Support but due to not having a lot of synergy with Deft, he was replaced in favor of [[Meiko]] and was moved to a substitute role.
+
+===Season 6===
+In Summer of 2016, EDG was placed in Group A of the [[LPL/2016_Season/Summer_Playoffs|2016 LPL Summer Split]]. With Koro1's decline in performance, he was replaced as the starter in favor of Mouse who moved to the Top Lane role. This split was the start to EDG's resurgence as the team finished with an undefeated 16-0 regular season record. In the [[LPL/2016_Season/Summer_Playoffs|2016 LPL Summer Playoffs]] EDG defeated [[Team WE]] 3-2 in the semifinals which set them up for a rematch against [[Royal Never Give Up]]. In clean fashion, EDG defeated RNG in a 3-0 sweep and reclaimed the LPL championship. This also qualified them for the [[2016 Season World Championship]] as China's #1 seed.
+
+At Worlds, EDG was drawn in Group C along with [[H2k-Gaming]], [[ahq e-Sports Club]] and [[INTZ e-Sports]]. Despite being a favorite in the group, they dropped a game to H2K and INTZ which forced a tiebreaker between them an H2K for 1st and 2nd place. After they lost the tiebreaker and ended 2nd, they were drawn against the tournament favorites ROX Tigers in the Quarterfinals. Mouse was unable to perform well at the event, being a huge target for teams that faced off against EDG. Sadly things didn't get better as he was forced to exit the tournament early due to a family problem that required him to travel back to China. He was replaced by [[Koro1]] and EDG's worlds run ended after the team lost 1-3 to the [[ROX Tigers]] in the quarterfinals. Mouse also attended the 2016 All-Star Event along with his teammate [[ClearLove]], winning the whole thing as a member of Team Ice.
+
+===Season 7===
+EDG failed to defend their LPL title in the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] and lost 1-3 to RNG in the [[LPL/2017_Season/Spring_Playoffs|2017 Spring Playoffs]] semifinals. They placed 3rd after taking down [[OMG]] 3-2 in the third place match. Summer was much better for EDG. Although Mouse saw less play after being subbed out on occasion for other top laners such as [[Minn]] and [[Audi]]. In the end EDG reclaimed their throne as LPL champions after taking down RNG 3-2 in the finals of the playoffs.
+
+EDG's [[2017 Season World Championship]] participation wasn't so stellar and ultimately EDG was knocked out of Worlds in the group stage. They finished tied for 3rd place with [[ahq e-Sports Club]].
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+==Other Content==
+{{TDRight
+|name1=2015}}
+{{TDRight|tab}}<!--2015-->
+* January 30, [http://www.youtube.com/watch?v=_rAFNdm732c League of Legends: "Fighting!" - Pictionary with KaKAO, Zz1tai, Koro and Mouse!]
+{{TDRight/end}}
+=== Images ===
+<gallery>
+EDG Mouse 2015 Spring.jpg|EDG Mouse 2015 Spring
+EDG Mouse 2016 Spring.png|EDG Mouse 2016 Spring
+EDG Mouse 2017 Spring.png|EDG Mouse 2017 Spring
+EDG Mouse 2017 Summer.png|EDG Mouse 2017 Summer
+RW Mouse 2018 Spring.png|RW Mouse 2018 Spring
+</gallery>
+
+{{PlayerPageEnd}}

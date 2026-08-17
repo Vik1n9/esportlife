@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tolerant&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.784Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tolerant」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Tolerant
+|name=Barış Çepnioğlu
+|checkboxAutoImage=Yes
+|country=Germany
+|nationality=Germany, Turkey
+|residency=Turkey
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=29
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' ypgcciel
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tolerantlol
+|facebook=https://www.facebook.com/tolerantlol
+|twitter=TolerantLoL
+|snapchat=baris_snapC
+|lolpros=https://lolpros.gg/player/tolerant
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Is a dual citizen of Germany and Turkey.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+SUP Tolerant TCL Summer Season.png|SUP Tolerant
+BUR_Tolerant_2018_Split_2.png|BUR Tolerant 2018 Summer
+GS Tolerant 2019 Split 1.png|GS Tolerant 2019 Winter
+RY Tolerant 2019 Split 2.png|RYL Tolerant 2019 Summer
+S04E Tolerant 2021 Split 1.png|S04E Tolerant 2021 Spring
+</gallery>
+
+{{PlayerPageEnd}}

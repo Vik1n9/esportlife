@@ -1,0 +1,101 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Cuzz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.031Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Cuzz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Cuzz
+|name=Moon Woo-chan
+|nativename=문우찬
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=October
+|birth_date_day=30
+|favchamp=Rek'Sai
+|favchamp2=Nidalee
+|favchamp3=Gragas
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' T1 Cuzz<br>Cuzzzzzzz<br>'''EUW:''' LSADSDD
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.sooplive.co.kr/station/yhk7737
+|facebook=https://www.facebook.com/profile.php?id=100024665867944
+|twitter=uchancuzz
+|instagram=munuchan
+|videoarchive=https://chzzk.naver.com/bfcf065b75c793968eb7c884495bbf45
+|weibo=http://weibo.com/longzhucuzz?is_all=1
+|deeplol=https://www.deeplol.gg/pro/Cuzz
+|dpmlol=https://dpm.lol/pro/Cuzz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Streamer
+}}
+==Biography==
+
+== Trivia ==
+* Rank #1 in Korean solo queue at the end of Season 6 and 9.
+* Known for his exceptional {{ci|Gragas}}, {{ci|Reksai}}, and {{ci|Nidalee}} plays and mechanics.<ref>[https://t1.gg/teams/league-of-legends League of Legends] ''t1.gg''</ref>
+* His favorite champions are {{ci|Reksai}}, and {{ci|Nidalee}}.<ref>[https://t1.gg/teams/league-of-legends League of Legends] ''t1.gg''</ref>
+* Went to the same middle school as [[Roach]].<ref>[https://youtu.be/cTaxZmJEXYg?t=343 Wolf: Effort, I love you! | T1 WIN CAM Moments EP.1 <nowiki>[</nowiki>Translated<nowiki>]</nowiki>] ''youtube.com''</ref>
+* Has flash on F.
+* Plays League of Legends windowed.
+* Is part of a small echelon of Korean players who are 'royal roaders': players who win the very first split they competed in. He did so by winning the [[LCK/2017_Season/Summer_Playoffs|LCK 2017 Summer]] with [[Longzhu Gaming]].
+* His {{ci|Dr Mundo}} pick during [[Worlds 2025]] took inspiration from [[SkewMond]].<ref>[https://x.com/Sheep_Esports/status/1987198660220748283 Sheep Esports' X Post] ''x.com''</ref>
+* Reached 1000 kills in the LCK on June 30, 2023.
+** Was the 23rd player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], [[Aiming]], [[Rascal]], [[deokdam]] and [[Canyon]]
+** The fifth jungler to reach 1000 kills after [[Score]], [[Ambition]], [[Peanut]] and [[Canyon]].
+* Reached 1500 LCK kills on September 13, 2025
+** Was the 19th player and 4th jungler to reach 1500 kills in the LCK.
+* Reached 3000 assists in the LCK on August 10, 2023.
+** Was the 14th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], [[Peanut]], [[Lehends]], [[Bdd]], [[Keria]], [[Life]], [[BeryL]], and [[Canyon]].
+* Reached 4000 assists in the LCK on May 29, 2025.
+** Was the 10th player to reach 4000 assists in the LCK after GorillA, Faker, Lehends, Peanut, Keria, Deft, Bdd, BeryL, and Canyon.
+* Reached 300 wins in [[LCK]] on August 19, 2023, becoming the 13th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], [[Ruler]], [[Peanut]], [[Bdd]], [[Chovy]], [[ShowMaker]], and [[Lehends]]/[[Kiin]].
+* Reached 500 games in the LCK on February 16, 2024, becoming the 12th player to do so.
+* Reached 600 games in the LCK on May 09, 2025, becoming the 11th player to do so.
+
+=== Awards ===
+* LCK Final MVP x1 (Spring 2020)
+* LCK 1st All-Pro Team x1 (Summer 2023)
+* LCK 2nd All-Pro Team x1 (Spring 2020)
+* LCK 3rd All-Pro Team x1 (Summer 2020)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

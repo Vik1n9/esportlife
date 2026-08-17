@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ryoma&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.726Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ry0ma」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ryoma
+|name=Tommy Le
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=June
+|birth_date_day=25
+|favchamp=Syndra
+|checkbox1=No
+|compID1=ry0ma
+|checkboxComp=No
+|ids='''NA:''' ryooooma22
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ryomaoce
+|twitter=Ryoma1
+|lolpros=https://lolpros.gg/player/ryoma/
+|deeplol=https://www.deeplol.gg/pro/ry0ma
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=His name was previously stylized '''ry0ma'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+=== 2020 Season ===
+ry0ma joined [[100 Thieves]] for the [[LCS 2020 Spring Season]]. At the time, there was significant community backlash against North American teams importing players, specifically while NA mid laners [[Pobelter]] and [[Damonte]] didn't have starting spots on any LCS teams. However, 100 Thieves General Manager [[PapaSmithy]] released a statement saying that ry0ma had been chosen for having a high baseline of skill, strong references, and an exceptional performance in a tryout.<ref>[https://twitter.com/PapaSmithy/status/1199494189215412224 PapaSmithy's Tweet] ''twitter.com''</ref>
+
+== Trivia ==
+* Copied his friend's username because he liked the sound of it.
+** Never watched the source anime to which his username is a reference.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

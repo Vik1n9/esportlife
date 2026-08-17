@@ -1,0 +1,108 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Crown&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.028Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Crown」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Crown
+|name=Lee Min-ho
+|nativename=이민호
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=February
+|birth_date_day=28
+|favchamp=Viktor
+|favchamp2=Taliyah
+|favchamp3=Lissandra
+|favchamp4=Varus
+|checkbox1=No
+|compID1=Shadow
+|checkboxComp=No
+|ids='''KR:''' 스으을스으을, 땅만안짚으면되지, Gen G Crown, 삼성갤럭시크라운<br>Crown1<br> '''NA:''' Eugene Leee, OpTic Crown
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/djwp0000
+|twitter=Crown
+|instagram=crown_minho_lee
+|videoarchive=https://www.twitch.tv/minho_lee____
+|youtube=https://www.youtube.com/channel/UCb9nkNJKm3K90nj4iRk-iXQ
+|deeplol=https://www.deeplol.gg/pro/Crown
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Shadow'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Lee "'''Crown'''" Min-ho is from Korea.
+
+===2014 Season===
+In June 2014, Shadow moved to Brazil to play for [[Team 58ers]] along with fellow Korean jungler [[ReSEt]]. They both stayed with the team until it disbanded in September and then moved to [[KaBuM! Black]] along with Brazilian teammate [[Rafes]]. Feeling homesick, Shadow left KaBuM! in December and returned to Korea.<ref>[http://www.facebook.com/minhoshadow/posts/1527685257479522 Shadow's Facebook post] ''facebook.com''</ref>
+
+===2015 Season===
+Shadow joined [[Samsung]] in May as a mid lane substitute prior to the start of [[Champions Summer 2015]], renaming to '''Crown'''. He shared the mid lane position with [[Ace (Kim Ji-hoon)|Ace]] and [[BlisS]]. Samsung placed seventh during the regular season and missed playoffs but they qualified for the next season of LCK.
+
+===2016 Preseason===
+Samsung competed in the [[2015 LoL KeSPA Cup]] where they were placed against [[ESC Ever|Ever]] in the first round. To the surprise of many, Samsung was quickly dispatched 2-0.
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Samsung Galaxy went 10-8 in sets overall. After looking like they could clinch the fifth and final seed for the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], Samsung Galaxy were unfortunately denied by the surging [[Afreeca Freecs]], who beat them by the game score tiebreaker, giving Samsung sixth place for the split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], Samsung stayed a top four team throughout the split, notably taking a 2-0 series win against the [[ROX Tigers]], one of two teams to do so. However consistent they were against the teams below them, Samsung rarely won against the three teams above them - [[ROX Tigers]], [[SK Telecom T1]], and [[KT Rolster]]. They managed to take fourth place with a 12-6 series record, seeding them into the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. Though they summarily defeated the [[Afreeca Freecs]] in the first round, they were matched against [[KT Rolster]], a team who they had never managed to beat post-S4 in the LCK era, and they were swept 3-0, giving them fourth place in the season. Their accumulated points gave them enough to qualify as the second seed in the [[2016 Season Korea Regional Finals]]. In a rematch against the [[Afreeca Freecs]], Samsung managed to beat the Freecs 3-1, moving up to the finals in a rematch against [[KT Rolster]]. Samsung upset the heavy favorites 3-2, breaking a 19 game losing streak and giving them the third seed to worlds.
+
+At the [[2016 Season World Championship]], Samsung were drawn into Group D along with NA's [[Team SoloMid]], China's [[Royal Never Give Up]], and Europe's [[Splyce]].
+===2019 Season===
+After a difficult 2018 in the LCK, Crown joined [[OpTic Gaming]] of the [[LCS]] for the 2019 season, replacing [[PowerOfEvil]]. The change of scenery seemed to help him, as Crown played well throughout the [[LCS/2019 Season/Spring Season|spring split]] and was widely praised by fans and analysts. However, Crown's teammates were unable to match his level of play, and although OpTic remained in the playoff picture until the final day of Week 9, they never seriously challenged the top of the league and ended up in eighth with a 7-11 record.
+
+Crown stayed with OpTic for the [[LCS/2019 Season/Spring Season|summer split]], and they came out of the gate hot, posting a 4-0 record over the first two weeks, albeit against weak opponents. However, the team cooled off significantly after that, and only managed four additional wins over the rest of the split. OpTic's 8-10 record was still good enough to force a three-way tiebreaker for the final playoff spot with [[Golden Guardians]] and [[100 Thieves]], where they rose to the challenge and beat both teams, sending them to the playoffs. There, they were swept by [[CLG]], ending Crown's season and breaking his 3-year streak of playing at the World Championship. 
+
+===2020 Season===
+OpTic overhauled their roster and rebranded to [[Immortals]] in the off-season, and Crown left. After reportedly attracting attention from multiple LCS teams, Crown elected to sign with [[CLG]], due to a desire to play under Korean coach [[SSONG]]. The [[LCS/2020 Season/Spring Season|2020 season]] started horribly for both Crown and his new team, as CLG immediately fell to the bottom of the standings, with Crown and his teammates looking uncoordinated onstage. With the team 1-7 over the first four weeks, Crown was benched in favor of veteran mid laner [[Pobelter]] and left the team a few weeks later. Back in Korea, he joined Challengers Korea team [[OZ Gaming]] for the end of the [[Challengers Korea/2020 Season/Spring Season|2020 Spring Season]], but only played in four games, going 2-2 as OZ finished in sixth place, outside of playoffs.
+
+Crown stayed with OZ for the [[Challengers Korea/2020 Season/Summer Season|2020 Summer Season]], splitting time with [[Ian]]. OZ finished with an 8-6 series record, good enough for third place. Crown did not play in a 3-1 defeat of [[RunAway]] in the first round of [[Challengers Korea/2020 Season/Summer Playoffs|the playoffs]]. He returned for the second round against [[Awesome Spear]] with his team already down 1-0 in the series, but they lost the next two games and were eliminated, ending his season. In December, Crown announced his retirement.
+
+== Trivia ==
+* Was originally a Zerg Starcraft player under the name MinHo and was drafted by [https://liquipedia.net/starcraft/STX_SouL STX SouL] in 2011.
+** However, he resigned from the team around 2012 and was eventually permanently banned from Starcraft for playing an R-rated map on stream, leading him to take up League of Legends. 
+*Supposedly played over 4,000 solo queue games in 2015. 
+*Awarded Regular season MVP in LCK 2017 Spring Season with 1300 points.
+*Known to be a sensitive and easily stressed player.
+*Known as "Macho Man" by fans for sometimes watching 'inappropriate clips' during his live streams. 
+*He chose his SSG Taliyah skin because according to him, she was his best champion at the [[2017 Season World Championship]].
+*Best known for his time as a player for [[Samsung Galaxy]], he finished runner-up in [[Worlds 2016]] and won the subsequent [[2017 Season World Championship]].
+* Often sings during his streams.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+== External Links ==
+* [https://liquipedia.net/starcraft/MinHo MinHo on the Liquipedia ''Starcraft'' Wiki]
+{{PlayerPageEnd}}

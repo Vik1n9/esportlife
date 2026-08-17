@@ -1,0 +1,115 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Plugo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.501Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Plugo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Plugo
+|name=Joaquín&nbsp;José Pérez Valdivieso
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1997
+|birth_date_month=March
+|birth_date_day=07
+|favchamp=Taliyah
+|favchamp2=Zoe
+|favchamp3=Irelia
+|favchamp4=Ryze
+|checkbox1=Yes
+|favchamp5=Ahri
+|favchamp6=Aurelion Sol
+|checkboxComp=No
+|ids='''LAS:''' triceratops, 63194<br>'''BR:''' Plugo1, veIociraptor<br>'''EUW:''' DoingItSideways<br>'''NA:''' Go Go Boc0
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Plugo
+|facebook=https://www.facebook.com/plugersen
+|twitter=Plugolol
+|youtube=https://www.youtube.com/@plugo3207
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=Yes
+|prev1=Analyst
+|nicknames=DH Plugo, Julian Midlaner, Mulian Jidlaner, Julian (BR), Pluginho (BR)
+}}
+==Biography==
+Joaquín José Pérez Valdivieso is from Santiago, Chile.
+
+=== 2015 Season===
+His debut was in [[Game Over]] as mid laner participating in the [[Circuito de Leyendas Sur/2015 Season/Closing Season|2015 CDLS Closing Season]] where the team was penultimate in the tournament, unable to qualify, at the end of the tournament leaves the team.
+
+=== 2016 Season===
+At the beginning of the year he joined [[Dark Horse]] as a substitute mid laner participating in minor tournaments, at mid-year he leaves the team.
+
+At mid-year, he joined [[Kaos Latin Gamers|KLG]] as a mid laner participating in the [[LAS 2016 Closing Cup]] where the team was third in the tournament, qualifying for the next phase. Already in the [[LAS 2016 Closing Cup Playoffs]] the team reached the final facing [[Isurus]] winning 3-2, qualifying for the first time to an international tournament. Already in [[IWCQ 2016]] the team was penultimate in the tournament achieving only one victory. In the [[IEM Season 11 Challenger]] the team loses against [[INTZ e-Sports]] 2-0 reaching a loser bracket facing [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] losing 2-0, being eliminated from their second international tournament.
+
+=== 2017 Season===
+In the [[CLS 2017 Opening]] the team was last in the tournament, having to play the relegation. Already in the [[CLS 2017 Closing Promotion]] the team faced [[Legatum]] winning 3-1, saving their place. In the middle of the year [[Plugo]] he remains in the team participating in the [[CLS 2017 Closing]] where the team was first in the lathe, qualifying to the next phase. Already in the [[CLS 2017 Closing Playoffs]] the team reaches the final facing [[Isurus]] winning 3-1, qualifying for the World Cup. In the World Cup the team played Group C facing [[Fnatic]] and [[Young Generation]] where the team was last in the group with only one victory.
+
+=== 2018 Season===
+At the beginning of the year [[Plugo]] is still in the team participating in the [[CLS 2018 Opening]] where the team was second in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Opening Playoffs]] the team reaches the final facing [[Rebirth eSports]] winning 3-2, qualifying the MSI. In the MSI the team was in group A facing [[Gambit Esports]], [[Rainbow 7]] and [[Ascension Gaming]] where the team was last in the group with the Asian team. At mid-year [[Plugo]] he remains in the team participating in the [[CLS 2018 Closing]] where the team was first in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Closing Playoffs]] the team reaches the final again facing [[Rebirth eSports]] winning 3-1, qualifying for the second time to the World Cup. In the World Cup the team remained in group d facing [[Gambit Esports]] and [[G-Rex]] where the team was last in the group without victory, at the end of the tournament leaves the team.
+
+=== 2019 Season===
+At the beginning of the year he joins [[All Knights]] as Mid Laner participating in the [[LLA 2019 Opening]] where the team was first in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Opening Playoffs]] the team was third in the tournament losing against [[Isurus]] 2-3. At mid-year [[Plugo]] he remains in the team participating in the [[LLA 2019 Closing]] where the team was second in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Closing Playoffs]] the team reaches the final facing [[Isurus]] losing 0-3.
+
+== Trivia ==
+[[File:Plugo 2016.png|thumb|right|'''Plugo''' talking about his life in a '''Riot''' section called "Retadores de la Copa".]]
+* He started playing because of a cousin.<ref name="riot inteview to Plugo 2016">[https://www.facebook.com/lolesportsla/videos/1321341394545854 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* Known for his {{ci|Orianna}} and {{ci|Karma}}.
+* One of its strengths is that it adapts to the new very easily.<ref name="riot inteview to Plugo 2016">[https://www.facebook.com/lolesportsla/videos/1321341394545854 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* Considered one of the best mid laners in Latin America.
+* He also likes to play CSGO and mmorpgs games.
+* His dream is to reach the World Cup and play against the Koreans.<ref name="riot inteview to Plugo 2016">[https://www.facebook.com/lolesportsla/videos/1321341394545854 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+* In one of his games he played [[bearJew]] where he finally gave him the manager's contact and they invited him to [[KLG]].<ref name="riot inteview to Plugo 2016">[https://www.facebook.com/lolesportsla/videos/1321341394545854 Riot LATAM's Facebook Post] ''facebook.com''</ref>
+
+=== Individual Awards ===
+* LLA player with the most MVPs in the split (Opening 2020)
+* LLA All Pro Team (Opening 2020)
+
+{{PlayerStatsTrivia}}
+
+== Notable Events as Broadcast Talent ==
+* [[LLA/2021 Season/Opening Playoffs|LLA 2021 Opening Playoffs]]
+* [[LLA/2021 Season/Opening Season|LLA 2021 Opening]]
+* [[2020 Season World Championship/Main Event|Worlds 2020 Main Event]] - Invited
+* [[2020 Season World Championship/Play-In|Worlds 2020 Play-In]] - Invited
+* [[LLA/2020 Season/Opening Playoffs|LLA 2020 Opening Playoffs]] - Invited
+* [[LLA/2020 Season/Opening Promotion|LLA 2020 Opening Promotion]] - Invited
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

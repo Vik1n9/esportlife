@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Slayder&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.919Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Slayder」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Slayder
+|name=Nguyễn Linh Vương
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=2000
+|birth_date_month=November
+|birth_date_day=22
+|favchamp=Ezreal
+|favchamp2=Kai'Sa
+|favchamp3=Xayah
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Slayder one
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/slayderlol
+|facebook=https://www.facebook.com/slayderrlol
+|twitter=slayder_lol
+|instagram=slayderrlol
+|youtube=https://www.youtube.com/channel/UCvDMe1F83ATwpVsuyXMar1Q
+|sponsor=[https://www.achieveminds.com/ Achieveminds Agency]
+|tiktok=slayderrrlol
+|lolpros=https://lolpros.gg/player/slayder
+|deeplol=https://www.deeplol.gg/pro/Slayder
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Nguyễn '''Slayder''' Linh Vương joined [[E.Hub United]] as a trainee ADC, along with [[Kiaya]], [[Ciel (Trần Tiến Thịnh)|Ciel]], and [[Victory]]. Seen as an extremely skilled ADC, highly aggressive but always manages to farm, keep position and stay alive in combats. He is considered to be the best ADC in Vietnam.
+
+=== 2018 Season ===
+Slayder joined [[FTV Esports]] on Sep, 2017. Then FTV Esports acquired the slot of E.Hub United and finished 6th at [[VCS 2018 Spring]]. Despite failing to make the playoffs, Slayder proved himself to be one of the Vietnamese best ADC.
+After spring split, he decided to join [[Sky Gaming]] in order to play under [[Optimus]], this decision has been dispraised by the fans as well as his old teammates, especially FTV Esports' owner, [[Huỳnh Phương]].
+
+=== 2019 Season ===
+Sky Gaming had finally made it to [[VCS 2019 Spring]] and then finished 3rd, losing to [[EVOS Esports]] at Playoffs Round 2. Slayder's performance earned him a spot on the Roster of the Season, finished 2nd on the MVP Ranking, just 1 games behind [[Zeros]].
+Sky Gaming rosters and slot were acquired by [[Team Flash.Vietnam|Team Flash]], playing along with [[Stark (Phan Công Minh)|Stark]], [[YiJin]], this team was considered to a dream team of VCS, aiming for a direct seed to [[2019 Season World Championship<!--/Main Event-->|2019 Season World Championship Main Event]]. However, after a 2nd place finish in in the [[VCS/2019 Season/Summer Season| Summer Season]] the team would first lose to [[GAM Esports]] 3-0 in the Grand Final, before losing 3-1 to [[Lowkey Esports.Vietnam|Lowkey Esports]], failing to qualify for the [[2019 Season World Championship<!--/Main Event-->|2019 Season World Championship Main Event]].
+
+=== 2020 Season ===
+After the disappointment of not qualifying for Worlds [[Team Flash.Vietnam|Team Flash]] acquired [[Yoshino]] from [[GAM Esports]], '''Slayder''' would be the only ADC, supported by [[CBL]] as both [[Artemis (Trần Quốc Hưng)|Artemis]] and [[Hinn]] left the Team. [[Team Flash.Vietnam|Team Flash]] would again finish 2nd in the [[VCS 2020 Spring|Regular Season]], being the only team to win more than one map against the dominant [[GAM Esports]]. However, this time [[Team Flash.Vietnam|Team Flash]] would succeed in the Grand Final against [[GAM Esports]] winning the series 3-2 largely due to the performance of '''Slayder'''.
+
+== Trivia ==
+* Reached Rank 3 on the Vietnamese soloqueue ladder when he was 15.
+*Known for his {{ci|Kai'Sa}}
+*He was awarded the title of National Esports Grandmaster by VIRESA (Vietnam Esports Federation) after achieving good results with [[GAM Esports]] at [[2023_Season_World_Championship|Worlds 2023]] on January 21, 2024.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

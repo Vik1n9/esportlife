@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Malrang&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Malrang」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Malrang
+|name=Kim Geun-seong
+|nativename=김근성
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=February
+|birth_date_day=09
+|favchamp=Jarvan IV
+|favchamp2=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Co24<br>'''EUW:''' sdfsdfsgert <br>'''BR:''' KBM Malrang#CBLol
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/malrang0209
+|facebook=https://www.facebook.com/profile.php?id=100027758384073
+|twitter=Malrang12
+|instagram=malrang_0209
+|lolpros=https://lolpros.gg/player/malrang
+|deeplol=https://www.deeplol.gg/pro/Malrang
+|dpmlol=https://dpm.lol/pro/Malrang
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Best known for being the temporarily substitute of [[Canyon]] during [[LCK 2021 Summer]].
+* After coming to the [[CBLOL 2024 Split 1|CBLOL]], he said his favorite Brazilian food was açaí.<ref>[https://gamearena.gg/esports/lol/cblol-2024-malrang-brasil-keyd-kabum CBLOL 2024: Malrang fala qual comida brasileira que conquistou seu coração (Portuguese)]''gamearena.gg''</ref>
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

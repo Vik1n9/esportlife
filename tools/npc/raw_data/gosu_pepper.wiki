@@ -1,0 +1,203 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Edward&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.575Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GoSu Pepper」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Edward
+|name=Edward Abgaryan
+|nativename=Եդւարդ Աբգարյան
+|namealphabet=Armenian
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Armenia
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=May
+|birth_date_day=01
+|favchamp=Sona
+|favchamp3=Thresh
+|checkbox1=No
+|compID1=GoSu Pepper
+|checkboxComp=No
+|ids=Edward Carry (NA), GG BenQ Edward, M5 BenQ Gozu, GoSu Pepper oOo, CursED WARD, GMB Gosu Pepper, Marusia1v9 (KR), EdwardLoL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/EdwardLoL
+|facebook=https://www.facebook.com/Edwardcarrylol
+|twitter=EdwardCarryLoL
+|askfm=EdwardCarryLoL
+|snapchat=EdwardCarryLoL
+|reddit=Gambit_Edward
+|vk=https://vk.com/edwardcarrylol
+|lolpros=https://lolpros.gg/player/edward
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''GoSu Pepper'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Edward is an Armenian League of Legends player who lives in the city of Omsk, Russia. He lives with his parents and older brother, who happens to be a League of Legends player. <ref>[http://www.in2lol.com/en/interviews/6533-in2lol-interviews-edward Edward interview] ''in2lol.com''</ref> He has been playing LoL since the NA Open Beta. He played with [[against All authority]] and various Russian teams before meeting [[Alex Ich]], who recruited Edward to his team at the time, Empire. After joining Empire, Edward recruited his friend [[Diamondprox]] to the team. He splits his time between LoL and his university studies.
+
+=== Pre Season 2 ===
+He started making headway though in the scene when he joined [[Team Empire]] in late 2011, playing Support and using the name '''GoSu Pepper'''. The team made a large splash at [[IEM Season VI - Global Challenge Kiev/Qualifiers|IEM Season VI Qualifiers]] by winning it, and thereby being invited to play at [[IEM Season VI - Global Challenge Kiev]] But just as much for making a now famed highlight vs [[SK Gaming]], which gave birth to the famous meme and the habit of players shouting "EMPIRE!". <ref> [http://www.youtube.com/watch?v=e89llah-u3s League of Legends ~ #03 - Empire's Epic Combo Vs. SK Gaming] ''youtube.com'' </ref>
+
+=== Season 2 ===
+Edward, with the rest of Team Empire, was recruited by the organization [[Moscow Five]] in December 2011. Their first major appearance would be at the [[IEM Season VI - Global Challenge Kiev]] on January 19, 2012. It would be here that Moscow 5 would make a name for themselves internationally, as they had little fame prior to IEM Kiev. At the event, Moscow 5 would show a dominant performance, going undefeated in group stage against [[Dignitas]], [[against All authority]], and [[Sypher]]. <ref> [http://www.esl-world.net/masters/season6/kiev/lol_groupstage/ IEM Kiev 2012 Group Stage Results] ''esl-world.net''</ref> Taking first by going 3-0 in the group stage, Edward and the team would advance to the playoffs where they would take the series 2-0 against [[SK Gaming]]. Moving to the finals, Moscow 5 would defeat North American powerhouse [[Team SoloMid]] 2-1, dropping their only game of the tournament against them. <ref> [http://www.esl-world.net/masters/season6/kiev/lol/playoffs/rankings/ IEM Kiev 2012 Playoff Results] ''esl-world.net''</ref>
+
+On January 31, 2012, Edward and company would compete in the online [[Kings of Europe]] tournament. Once again showing their strength, they would go undefeated in the group stage, defeating [[SK Gaming]], [[exGBT]], and Team Mistral. <ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html#page-1 Kings of Europe 2012 Group A Results] ''fnatic.com''</ref> Advancing to the playoffs, they would go on to defeat French team [[Sypher]] 2-1 in the semifinals. By doing so, Moscow 5 would face off against European favorite [[Counter Logic Gaming EU]] in the finals, where they would fall 1-2. <ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html Kings of Europe 2012 Playoff Results] ''fnatic.com''</ref>
+
+On March 10, 2012, M5 would attend the [[IEM Season VI - World Championship]] in Hanover. Reproducing their results from Kiev, Moscow 5 once again went undefeated in group stage 5-0, beating [[SK Gaming]], [[Curse Gaming]], [[Team SoloMid]], [[Sypher]], and [[EHome]]. <ref> [http://www.esl-world.net/masters/season6/hanover/lol_groupstage/ IEM Hannover 2012 Group Results] ''esl-world.net''</ref> Edward would play a crucial role as Support, assisting his team and helping continue their winnning streak in the playoff bracket, beating [[Counter Logic Gaming Prime]] 2-0 in the semifinals and defeating [[Dignitas]] 2-0 in the finals, to take home first place. <ref> [http://www.esl-world.net/masters/season6/hanover/lol/playoffs/rankings/ IEM Hannover 2012 Playoff Results] ''esl-world.net''</ref> This tournament would mark a high point in Moscow 5's history, as they were able to come out of the tournament not only victorious, but able to do so while not dropping a single game throughout the entire competition.  
+
+His team's next high placing at a major tournament would be at the online [[Corsair Vengeance Cup]]. Coming out of the group stage of the tournament 2-1, Moscow 5 had a strong run in the playoffs, defeating '''Hauteur 8''', '''Intent Gaming''', '''TeamRedbyteItalia''', and [[Meet Your Makers]] in the first four rounds of the playoff bracket, before falling to [[aAa]] 0-2 in the second phase of the winner's bracket, knocking the Russian team down to the loser's bracket. Moscow 5 would face off against Team SoloMid in their first match of the loser's bracket, in which the Russian team would come out victorious 2-1. They then faced and defeated SK Gaming 2-0 in the next round of the loser's bracket, which put them up to face off against [[aAa]] once again. This time the team would come out victorious, defeating [[aAa]] 2-0, and putting the team up against [[Counter Logic Gaming EU]] in the grand finals of the Corsair Vengeance Cup. Unfortunately, Moscow 5 would fall short to [[CLG.EU]] 0-2, losing to the team once again in a finals setting, taking home second place. <ref> [http://vengeance-cup.corsair.com/?page=tournament&action=view&tournament_id=1654 Corsair Vengeance Cup 2012 Playoff Results] ''vengeance-cup.corsair.com''</ref>
+
+On June 16, Edward and comrades would attend [[DreamHack Summer 2012]] after taking second in the online qualifiers. Moscow 5 would take second in the group stage, going 2-1, defeating [[Absolute Legends]] and '''Mebdi's Minions''', but losing to [[Counter Logic Gaming EU]]. Advancing to the semifinals, Moscow 5 would face off against [[Curse Gaming EU]], where the Russian team was able to come out ahead 2-0, advancing them to the grand finals of [[DreamHack Summer 2012]]. In the finals, Moscow 5 would play against familiar opponent, [[Counter Logic Gaming EU]], where they would fall 0-2. <ref> [http://tournaments.leagueoflegends.com/dreamhack-2012#tournament-bracket Dreamhack 2012 Results] ''tournaments.leaugeoflegends.com''</ref>
+
+Edward and Moscow 5 attended [[European Challenger Circuit: Poland]] after qualifying online with a 2-0 victory over [[CLG.EU]], sending them to the loser's bracket. This would mean that the teams would meet again in the group stage, where Moscow 5 took second place, going 2-1 by defeating [[EloHell]] and [[x6tence|Ocelote World]] while losing a game to [[CLG.EU]]. In the semifinals, Moscow 5 had a strong showing, defeating Curse EU 2-0, achieving a perfect 15-0 score in the second game. In the finals, Moscow 5 would meet their rivals [[CLG.EU]] once again. After having a 0-4 record against them in lan events, Edward and his team were able to claim their revenge with a commanding 2-0 victory making them the ECC Poland champions. <ref> [http://tournaments.leagueoflegends.com/ecc-poland#tournament-bracket ECC:Poland 2012 Results] ''tournaments.leagueoflegends.com''</ref>
+
+As one of the eight European invitees for the [[Season Two/Regional Finals - Cologne|Season Two Regional Finals - Cologne]], Moscow Five would fly to Germany for a chance to qualify for the [[Season 2 World Championship]]. Matched up against the recently formed Polish team [[EloHell]], Moscow Five would take a 2-0 victory to advance to the second round of the playoffs. There, Moscow Five was able to come out victorious against [[Fnatic]] in a close 2-1 win, qualifying for the Season 2 World Championship in Los Angeles and advancing to the grand finals of the tournament. Continuing their dominant performance, Edward would help win the finals 2-0 against SK Gaming. <ref> [http://us.esl.tv/iem/ IEM Gamescom 2012 Results] ''esl.tv''</ref>
+
+At the [[Season 2 World Championship]] in October, Edward and his teammates were considered by many analysts and professionals to be the favorites coming into the event. <ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref> They were given a bye through the group stage and were selected to face [[Invictus Gaming]] in their quarterfinal match. Although iG consistently pressured M5's early game and won the laning phase, the Russian squad was able to overcome their deficits in the midgame and take the series 2-0. Advancing to face the [[Taipei Assassins]] in the semifinals, M5 continued their dominant form in the first game of the match and quickly secured game one. However, TPA matched M5's aggression in the next two games and successfully turned the series around. The Taiwanese team took the set 2-1, and Moscow Five was forced to settle for 3rd-4th place and $150,000.
+
+=== Pre-Season 3 ===
+After the Season 2 Championships, Edward's team would attend the European tournament [[Tales of the Lane]] from October 27 through November 11, 2012. They would emerge as first in their group stage 3-1, with wins against [[Curse EU]], [[Eclypsia]] and [[MYM]], but losing to the hungry [[IWantCookie]]. They were granted seeding directly into the semi-finals due to their placing in the group stages. On November 11 M5 would travel to Paris to compete in the offline portions of the tournament. There they would face an upset from Curse EU, losing 0-2, knocking them into the third-place match. They would finish the tournament with a sweep of [[SK Gaming]], taking 3rd and €5,000 in winnings.
+
+On November 22, 2012, Moscow 5 had the great opportunity to fly to Shanghai to attend the [[Tencent Games Arena Grand Prix/Winter 2012| TGA Winter 2012]] event. While not contestants in the tournament itself, the team would look to boost their popularity with the Chinese tour, doing photo ops, fan signings and Mandarin greeting videos<ref name="M5 in China">[http://moscowfive.ru/en/news/m5-benq-s-world-tour M5.BenQ's World Tour]</ref><ref name="M5 and Chinese fans">[http://lol.uuu9.com/201211/426206.shtml M5中国表演赛前训练视频：用中文向大家问好]</ref>. M5 also played two show matches against [[WE]] and [[iG]], winning against both. They would leave China on November 27, flying directly to Las Vegas to attend [[IPL 5]].
+
+On Day 1 of the IPL event, Edward and M5 would advance through the group stages by defeating [[Curse Gaming]] twice and dropping a game to world champions, [[Taipei Assassins]]. They would then face [[Team WE|World Elite]], who they scrimmed against heavily in Shanghai. However, WE would rout the Russian team 2-0, dropping them to the losers bracket. M5 would then defeat the tournament favorites, Korean powerhouse [[Azubu Blaze]] in a close 3 game series. M5 would get a chance to avenge their loss in the [[Season 2 World Championship]] against TPA in round 5. Despite [[Alex Ich]] amassing an amazing 538 creep score and leading in gold to the very end of the game, M5 would still fall to the Taiwanese team in game 1, and lose again to [[Stanley]] on [[Nidalee]] in game 2, making it five consecutive loses to TPA. M5 would finish the tournament in 4th place and earn $3,000 in winnings.
+
+On January 10, 2013, resultant of the arrest of Moscow Five's CEO in July of the previous year, leaving, the entire roster was released from the eSports organization as it went defunct due to lack of funding.<ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref>
+
+=== Formation of Gambit ===
+Four days later, on January 14, it was announced that [[Gambit Gaming]] had acquired Edward and the rest of the former M5 roster.
+
+=== Pre-Season 3 ===
+Marking their first appearance in an offline event as [[Gambit Gaming]], in late January of 2013, the Russian team would compete in [[IEM Season VII - Global Challenge Katowice]] as one of the eight qualified teams. Gambit Gaming would go 1-2 in the group stage, winning against [[MYM]], while losing to [[Curse Gaming EU]] as well as [[Azubu Blaze]]. Because of this, the round robin had a tie of MYM, Gambit, and Curse Gaming EU, who all went 1-2. A time coefficient was used to break the tie, giving Gambit Gaming a spot in the semi-finals. Edward would help his team, the underdogs, to defeat [[Azubu Frost]] 2-0, then go on to take first place by knocking out Frost's brother team, [[Azubu Blaze]] who they had lost to in the group stage. Gambit Gaming took home $15,000 USD (~11,609 Euros) as well as a direct seed into  IEM World Championship.
+
+=== Season 3 ===
+==== Spring EU LCS ====
+Having qualified as [[Moscow Five]], Edward and company would compete in the Riot's new professional league for Season 3, the [[Riot League Championship Series/Europe/Season 3|European Season 3 League of Legends Championship Series]]. Gambit would be a highly respected threat throughout the 10 week Spring league, being one of the most feared teams to play against, with Edward making exciting plays on his notable hook champions, {{ci|Thresh}} and {{ci|Blitzcrank}}. They would complete the European Spring LCS Split in 2nd place, with a record of 21-7. This ensured their LCS spot for the summer split portion of the league. They would then take second place in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Season 3 EU Spring Playoffs]], losing 2-3 to [[Fnatic]].
+
+==== IEM World Championship ====
+Gambit with Edward attended the [[IEM Season VII - World Championship]] in Hannover, Germany held in March. The team dominated their group, going an undefeated 5-0, placing them in the semi-finals. They then faced [[CJ Entus Frost]] and lost the set 2-1, knocking Gambit out of the tournament, the team finishing in 3rd.
+
+==== MLG Winter Championship ==== 
+The Russian players were then invited to play in an international exhibition at [[2013 MLG Pro Circuit/Winter/Championship|2013 MLG Winter Championship]], playing first against American [[Team Dignitas]] who they beat 2-0, by constantly pressuring their opponent. Gambit then faced Korean top contender [[KT Rolster B]] in the exhibition finals but were unable to secure 1st place, losing 2-1.
+
+==== LCS All Stars ====
+In April, Edward, with teammates "'''[[Alex Ich]]'''","'''[[Diamondprox]]'''" and "'''[[Genja]]'''" were publicly voted to represent their respective lane positions on the [[Europe LCS]] All Star team, to compete at [[All-Star Shanghai 2013]], playing against the world's best All Star teams, chosen in the same fashion. However, due to a rule stating that only 3 members of any given team could be inducted onto the all star team, Genja was replaced as AD Carry by [[Evil Geniuses.EU|Evil Geniuses]]' [[Yellowpete]]. The team's top lane was [[sOAZ]] from [[Fnatic]]. The EU LCS first faced off against heavy favorites [[Korea Champions|Korean OGN Champions]], and despite good early gameplay from jungler [[Diamondprox]], the Korean team overtook them in a 2-0 set. Their next opponent was their sibling league, the [[North America LCS]]. Both teams played an explosive two games of up and down fighting however, NA LCS ended up being the victor, knocking the EU LCS out of the tournament.
+
+==== Summer NA LCS ====
+A few days before Summer EU LCS started, Edward would leave Gambit Gaming, stating, "First of all, the main reason for such an end, is misunderstandings between me and [[Genja]]. Despite the fact that we played together for more than one year, we didn't fit well with each other. Secondly, I don't like the current atmosphere in the team, after a few bad results in a row. Due to these factors I have decided to leave the team." <ref>[http://www.facebook.com/photo.php?fbid=485355454869345&set=a.427335237338034.97579.425847137486844&type=1 Gambit Gaming Facebook Post] ''facebook.com''</ref> Soon after, it was announced that Edward would be joining North American [[Team Curse]] in their starting lineup, to play in the NA LCS for summer, being the first player to participate in both NA and EU LCS. <ref> [http://www.teamcurse.net/news/24530-team-curse-adds-edward-to-starting-league-of Team Curse Adds Edward] ''with teamcurse.net''</ref>
+
+Despite the acquisition of Edward, Curse had a shaky Summer season, fighting hard to stay in the middle of the pack. They did end the season in a 4th place spot, going into [[Riot League Championship Series/North America/Season 3/Summer Playoffs|NA LCS Summer Playoffs]]. They first faced off against [[Team Dignitas]] and even though they won their first game in a dominating fashion, they lost the next ones, losing 1-2. They then had to play [[CLG]] for the 5th spot decider. Curse was unable to best them in the set, losing 0-2, and were sent to play for their spot in the [[Riot League Championship Series/North America/2014 Season/Spring Promotion|Season 4 Spring Promotion]], though Edward would leave before this.
+
+=== 2014 Season ===
+After his departure from [[Team Curse]], Edward planned to return to the EU LCS. <ref> [http://www.facebook.com/Edwardcarrylol/posts/670890419588977 Edward Facebook Post] ''facebook.com'' </ref> He eventually did so, by rejoining his former team [[Gambit Gaming]] on the 7th of November.<ref> [http://www.youtube.com/watch?v=sQifBQsRdw4 Interview with Gambit's new support] </ref>
+
+Edward made his comeback to Gambit at [[IEM Season VIII - Cologne|IEM Cologne]]. The team did not lose a single game at the tournament, beating [[Cloud9]] in their semifinal matchup and [[Fnatic]] in the grand final.
+
+His next tournament back with Gambit Gaming was the [[IEM Season VIII - World Championship|IEM World Championship]]. The team perfomed well, but were knocked out in the semifinals by [[KT Rolster Bullets]].
+
+The [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]] was a slight disappointment for Gambit. Despite Edward's convincing displays on {{ci|Thresh}} and {{ci|Annie}}, the team only managed a 5th place finish in the split. This was a fall from Gambit's high standards, but still meant that they had a spot in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. Edward and the team only ended up coming 5th in the tournament after losing to [[Team ROCCAT]] in the quarterfinals.
+
+[[Alex Ich]]'s departure from Gambit ultimately meant that the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] would be worse for the team than the spring split. Gambit struggled throughout, and the team finished in 7th place, meaning that they would have to fight for their LCS status in the [[Riot League Championship Series/Europe/2015 Season/Spring Promotion|Spring Promotion]]. Edward and Gambit held on to their place in the LCS, beating [[SK Gaming Prime]] in their promotion match-up.
+
+===2015 Season===
+Due to being fan-voted in, Edward and [[Gambit Gaming]] took their place at [[IEM_Season_IX_-_Cologne|IEM Cologne]]. They managed to win the tournament after beating [[Counter Logic Gaming]] in the final.
+
+[[Gambit Gaming]] had a successful [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]], finishing 4th in the regular season, partially thanks to Edward's impressive performances on {{ci|Thresh}} and {{ci|Morgana}} in particular. The team's regular season performance meant that they would be playing in the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]]. They were beaten 3-1 by [[Unicorns Of Love]] in the playoff quarterfinals.
+
+Due to their 1st place finish at [[IEM_Season_IX_-_Cologne|IEM Cologne]], the team were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 loss against the [[CJ Entus]], Edward and [[Gambit Gaming]] were knocked out of the tournament, losing to [[Team WE]] in Round 1 of the losers bracket.
+
+After changing his name back to '''GoSu Pepper''', he and the team had an unsuccessful [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]], eventually finishing the regular season in 8th place. This meant that [[Gambit Gaming]] would be playing in the [[Riot League Championship Series/Europe/2016 Season/Spring Promotion|2016 Spring Promotion]]. GoSu Pepper and the team faced [[mousesports]], winning the series and securing their place in the [[League Championship Series/Europe/2016 Season/Spring Season|2016 Spring Season]].
+===2016 Preseason===
+GoSu Pepper announced his free agency in November 2015, leaving Gambit for the second time (the first being summer 2013).
+
+== Trivia ==
+* Edward is known for making support {{ci|Nunu}} popular. [http://www.youtube.com/watch?v=OB8xj2QiPtY His Nunu ultimate against SK] and other impressive performances strongly contributed to this.
+**The clip above popularized the League term "Empire", in which a {{ci|Nunu}} ults in a bush to do an insane amount of damage to multiple enemies ([http://www.youtube.com/watch?v=-Pim16DgmbQ TheOddOne's Empire])
+* He has a very high opinion of {{ci|Sona}} and even [http://www.reddit.com/r/leagueoflegends/comments/wajwq/gosu_pepper_interview_the_perfect_support_sona/ calls her ''"perfect"''], due to the damage, ability to heal and utility that she offers.
+* Known for being bad-mannered towards his opponents, but has changed his behavior as of late.
+* His first League of Legends nickname was "'''Immortalrus'''"
+* Started playing League of Legends on the NA server.
+*{{ci|Thresh}} became his new favorite support champion when he was released, and Edward was dubbed "The Thresh Prince" for his skill with the champion.
+* Known for his aggressive playstyle and often getting more kills than his carry, earning him the name "Support Carry".
+* Trolled the community about his return to Gambit Gaming after he left Team Curse in early October <ref>[http://pp.vk.me/c314817/v314817136/2914/UhdlccTr7rU.jpg]</ref>, but then actually returned to Gambit Gaming on 7th of November.
+* Stated the first champion he ever mastered was {{ci|Janna}}.
+* Used {{ci|Amumu}} and {{ci|Kennen}} support in professional matches
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2012
+|name2=2013
+|name3=2014
+|name4=2015
+|name5=2016}}
+{{TDRight|tab}}<!--2016-->
+* January 15, [http://www.youtube.com/watch?v=KFesxXT0RZM ROCCAT's Edward: 'we were only confident in ourselves'] ''with theScore''
+* October 6, [http://www.redbull.com/de/de/esports/stories/1331822264937/edward-interview-worlds-league-legends-2016-g2-albus-nox-luna Edward: Europe as the new Wildcard] ''with Red Bull''
+{{TDRight|tab}}<!--2015-->
+* February 25 - [http://www.eslgaming.com/interview/we-are-working-hard-become-dominant-team-once-again-interview-gambit-gamings-edward "We are working hard to become a dominant team once again": an interview with Gambit Gaming's Edward Abgaryan] ''with ESL''
+{{TDRight|tab}}<!--2014-->
+* February 21 - [http://www.ongamers.com/articles/reflections-with-edward/1100-907/ 'Reflections' with Edward (video)] ''with onGamers''
+* February 22 - [http://www.youtube.com/watch?v=RgOC1wnZNqE EU LCS 2014 W6: Interview with Gambit Edward (video)] ''with SK Gaming''
+* March 25 - [http://www.ongamers.com/videos/edward-discusses-gambit-s-game-against-sk-and-inte/2300-435/ Edward discusses Gambit's game against SK and interacting with fans (video)] ''with onGamers''
+* August 6 - [http://content.azubu.tv/moba/league-of-legends/gambit-gaming-edward-interview-lcs-summer-2014/ A Fresh Start: Interview with Gambit Gaming’s Edward “EDward” Abgaryan – 2014 LCS Summer Week 11] ''with Azubu''
+* September 10 - [http://www.ongamers.com/videos/edward-on-their-match-against-skp-and-their-future/2300-920/ Edward on their match against SKP and their future (video)] ''with onGamers''
+* September 20 - [http://www.newsoflegends.com/index.php/interview-with-gambit-edward-right-now-i-think-we-will-be-in-a-better-position-than-before-26522/ Interview with Gambit Edward: “Right now I think we will be in a better position than before.”] ''with News of Legends''
+* December 19 - [http://sports.news.naver.com/sports/index.nhn?category=e_sports&ctg=news&mod=read&office_id=442&article_id=0000007910 겜빗 게이밍 '에드워드'가 말한다? 성깔있는 프리시즌 (Korean)] ''with Naver Sports'' [http://gambit-gaming.com/news/INTERVIEWS/interview-with-edward-for-naver (English)] ''with Gambit Gaming''
+* December 20 - [http://www.youtube.com/watch?v=HjHOdmfSsNI Gambit Edward: "The most team I'm kind of scared to play is Roccat" (video)] ''with Gambit Gaming''
+* December 20 - [http://content.azubu.tv/moba/league-of-legends/edward-gambit-gaming-talks-iem-team-future/ Gambit Gaming's Edward Talks IEM, Team Future] ''with Azubu''
+{{TDRight|tab}}<!--2013-->
+* January 4 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/2738/Interview-with-GoSu-Pepper-Im-not-surprised-Asian-teams-rose-to-such-a-high-level/ Interview with GoSu Pepper: "I'm not surprised Asian teams rose to such a high level"] ''with Team Dignitas''
+* February 2 - [http://www.in2lol.com/en/interviews/6533-in2lol-interviews-edward in2LOL Interviews Edward] ''with in2LOL''
+* February 25 - [http://www.reddit.com/r/leagueoflegends/comments/196r93/gambit_edward_ama/ Gambit Edward AMA] ''with Reddit''
+* April 21 - [http://www.youtube.com/watch?v=iBOEa1OXa_w Interview with Gambit Edward at IEM VII World Championship (EN subtitles)(video)] ''with Gambit Gaming''
+* May 23 - [http://www.gamespot.com/6408785 Shanghai All Stars 2013 Interview: Edward (video)] ''with GameSpot''
+* June 21 - [http://www.gamespot.com/6410600 Edward talks about Curse's Match against Dig and thoughts on Cop (video)] ''with GameSpot''
+* June 25 - [https://www.youtube.com/watch?v=XikRkPMxDrc#t=2m41s Second Week Supports & EDWard Interview - League Out Loud (video)] ''with Machinima VS''
+* June 29 - [http://www.gameskinny.com/c1d0l/league-of-legends-edward-explains-what-it-takes-to-be-a-pro-gamer-exclusive League Of Legends' EdWard Explains What It Takes To Be A Pro Gamer] ''with Gameskinny''
+* June 30 - [http://www.youtube.com/watch?v=Qq3FYG8-2n4 Curse Edward and Cop: "My Blitz is better than <nowiki>[Daydreamin's]</nowiki>." (video)] ''with Leaguepedia''
+* August 13 - [http://www.youtube.com/watch?v=tJRmFj0gyV8 Practicing Chemistry - EDward & Cop (video)] ''with MachinimaVS''
+* November 7 - [http://www.youtube.com/watch?v=sQifBQsRdw4 Interview with Gambit's new support player (Russian with English subtitles)(video)] ''with Gambit Gaming''
+* November 11 - [http://euw.lolesports.com/articles/edward-problems-used-exist-gambitare-now-gone Edward: 'The problems that used to exist in Gambit...are now gone'] ''with LoLeSports''
+* November 24 - [http://www.youtube.com/watch?v=pAj-341Ny0g Interview with Gambit Edward @ IEM Cologne (video)] ''with Gambit Gaming''
+* November 24 - [http://www.youtube.com/watch?v=BMcbge3gz18 IEM Cologne: Interview with Gambit Gaming Edward] ''with SK Gaming''
+{{TDRight|tab}}<!--2012-->
+* July 9 - [http://league-of-legends.place2play.ru/material?id=9980 "Я не такой грубый, как думают некоторые" (Russian)] [http://www.reddit.com/r/leagueoflegends/comments/wajwq/gosu_pepper_interview_the_perfect_support_sona/ (English Translation)] ''with Place2Play.ru''
+* August 15 - [http://www.youtube.com/watch?v=F6qEPyNrVJE&feature=youtu.be Gamescom 2012: GoSuPepper Interview (English Subs)] ''with Moscow Five''
+* October 30 - [http://www.reddit.com/r/leagueoflegends/comments/12bjc6/m5_edward_gosu_pepper_abgaryan_stream_link_ama/ M5 Edward "GoSu Pepper" Abgaryan Stream link + AMA :)] ''with Reddit''
+{{TDRight/end}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

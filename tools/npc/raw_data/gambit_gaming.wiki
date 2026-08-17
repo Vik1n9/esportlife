@@ -1,0 +1,207 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gambit%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.771Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Gambit Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isdisbanded=yes
+|name= Gambit Gaming
+|orgcountry= United Kingdom 
+|country=
+|region= EU
+|image= Gambit_Gaming_Logo.png
+|analysts= 
+|coaches= 
+|manager= 
+|captain= 
+|website= http://www.gambit-gaming.com/
+|youtube=https://www.youtube.com/GambitEsports
+|facebook=https://www.facebook.com/GambitEsports
+|subreddit=GambitGaming
+|twitter= GambitEsports
+|irc= 
+|sponsor= [http://www.pringles.co.uk/ Pringles]<br> [http://www.twitch.tv/ Twitch]
+|created= 2013-01-14
+|disbanded=2015-12-09
+|trades= 
+}}{{TOCRWI}}
+
+'''Gambit Gaming''' is a European esports organization that was formed in January 2013 after the acquisition of the previous roster of [[Moscow Five]].
+
+== History ==
+=== Formation of Gambit Gaming ===
+On January 10, the now-defunct e-Sports organization [[Moscow Five]] released their League of Legends roster, due the arrest of Moscow Five's CEO in July of the previous year, which left the organization with a lack of funding.<ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref> Four days later, on January 14, it was announced that Gambit Gaming had acquired the former M5 roster.<ref name=in2lolm5gg>[http://www.in2lol.com/en/changes/6165-gambit-gaming-new-home-for-alex-ich-and-co Gambit Gaming: New Home For Alex Ich & Co.] ''in2lol.com''</ref>
+
+=== Pre-Season 3 ===
+Marking their first appearance in an offline event as Gambit Gaming, in late January of 2013, the Russian team would compete in [[IEM Season VII - Global Challenge Katowice]] as one of the eight qualified teams. Gambit Gaming would go 1-2 in the group stage, winning against [[MYM]], while losing to [[Curse Gaming EU]] and [[Azubu Blaze]]. Because of this, the round robin had a tie between MYM, Gambit and Curse Gaming EU, who all went 1-2. A time coefficient was used to break the tie, giving Gambit Gaming a spot in the semi-finals. Gambit Gaming, as the underdogs, would defeat [[Azubu Frost]] 2-0, then go on to take first place by knocking out Korean powerhouse [[Azubu Blaze]], who they had lost to in the group stage. Gambit Gaming took home $15,000 USD (~11,609 Euros) as well as a direct seed into the IEM World Championship.
+
+=== Season 3 ===
+
+===== Spring EU LCS =====
+Having qualified as Moscow Five, Gambit Gaming would compete in the [[Riot League Championship Series/Europe/Season 3|European Season 3 League of Legends Championship Series]]. Gambit would be a highly respected threat throughout Spring, being one of the most feared teams to play. They would complete the European Spring LCS Split in 2nd place, with a record of 21-7. This ensured their LCS spot for the summer split portion of the league. They would then take second place in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Season 3 EU Spring Playoffs]], losing 2-3 to [[Fnatic]] in the final.
+
+=====IEM World Championship & MLG Winter Championship =====
+Gambit attended the [[IEM Season VII - World Championship]] in Hannover, Germany in March. The team dominated their group, going undefeated with a 5-0 score, placing them in the semi-finals. They then faced [[CJ Entus Frost]] and lost the set 2-1, knocking Gambit out of the tournament and  seeing them finish in 3rd overall. 
+
+The Russian team was invited to play in an international exhibition at [[2013 MLG Pro Circuit/Winter/Championship|2013 MLG Winter Championship]], playing first against Americans [[Team Dignitas]], they won 2-0, by constantly pressuring their opponent. Gambit then faced Korean top contender [[KT Rolster B]] in the exhibition finals but were unable to beat them and secure 1st place, losing the match 2-1.
+
+===== LCS All Stars =====
+In April, Gambit Gaming players Danil "'''[[Diamondprox]]'''" Reshetnikov, Aleksei "'''[[Alex Ich]]'''" Ichetovkin, Evgeny "'''[[Genja]]'''" Andryushin, and Edward "'''[[Edward]]'''" Abgaryan were publicly voted to represent their respective positions on the [[Europe LCS]] All Star team, to compete at [[All-Star Shanghai 2013]] and play against the world's best All Star teams, chosen in the same fashion. However, a rule stating that only 3 members of any team, could be inducted onto the team caused [[Genja]] to be replaced as AD Carry by [[Evil Geniuses.EU|Evil Geniuses]]' [[Yellowpete]]. The team's top lane was [[sOAZ]] from [[Fnatic]]. The EU LCS first faced off against heavy favorites [[Korea Champions|Korean OGN Champions]], and although good early game play from jungler [[Diamondprox]] looked promising for the team, the Koreans overtook them in a 2-0 set. Their next opponent was from their sibling league, the [[North America LCS]]. Both teams played an explosive two games of up and down fighting, however, NA LCS ended up being the victor, knocking the EU LCS out of the tournament.
+
+=====Summer EU LCS=====
+A few days before Summer EU LCS started, long time support player [[Edward]] would leave the team, stating "First of all, the main reason of such end is misunderstandings between me and Genja. Despite to the fact that we played together for more than one year we didn't fit to each other. Secondly, I don't like the current atmosphere in the team after few bad results in a row. Due to these factors I have decided to leave the team." <ref>[http://www.facebook.com/photo.php?fbid=485355454869345&set=a.427335237338034.97579.425847137486844&type=1 Gambit Gaming Facebook Post] ''facebook.com''</ref> 
+
+[[Edward]] was then replaced by [[Darker]] who eventually lost his spot to [[Voidle]], who was then released on November 4.
+
+On August 17, Gambit Gaming would finish the Summer Split tied up for 2nd place, at 15-13, along with Fnatic, Evil Geniuses and Ninjas in Pyjamas. However they managed to secure a 4th place finish after losing the tie breaker against Evil Geniuses, going on to defeat Ninjas in Pyjamas in the losers bracket then losing again to [[Evil Geniuses.EU|Evil Geniuses]] in the deciders match, which granted Gambit Gaming a spot on the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Summer Playoffs]].
+
+Gambit would then play against [[Ninjas in Pyjamas]] in the Summer Playoffs, defeating them 2-0 and advancing to the Semifinals where they would lose 0-2 against [[Lemondogs]], dropping the Third-Place Match to face [[Evil Geniuses.EU|Evil Geniuses]], in a match that decided the third team that would represent Europe in the [[Season 3 World Championship]]. Gambit was victorious and claimed the win over Evil Geniuses, 2-1.
+
+=====Season 3 World Championship=====
+Gambit was placed into a tough group with fellow European rivals [[Fnatic]], North American third seed [[Team Vulcun]], Korean [[OLYMPUS_Champions_Spring_2013|OGN Spring]] Winners [[Samsung Galaxy Ozone]] and Filipino champions [[Mineski]]. They earned an undefeated 3-0 their first day of the group stage, looking extremely strong as Europe's third seed. Gambit continued to play solidly throughout the groups, finishing in a tie for 2nd place with Samsung Galaxy Ozone at 5-3. In a close tiebreaker game against the Korean team, Gambit emerged victorious and advanced to the playoffs with fellow European competitor Fnatic. 
+
+Gambit faced off against the Korean first seed [[NaJin Black Sword]] in the quarterfinals. NaJin Black Sword was called a "dark horse threat" by caster [[MonteCristo]] since they had not competed in the previous two months and had recently replaced their starting mid laner, [[SSONG]], with substitute player [[Nagne]]. After winning the first game, Gambit succumbed to the Koreans 1-2 in a close match, thus being eliminated from the tournament and taking home seventh place.
+
+===2014 Season===
+Gambit's first tournament in the new season was the [[IEM Season VIII - World Championship|IEM World Championship]]. The team perfomed well, but were knocked out in the semifinals by [[KT Rolster Bullets]].
+
+====Spring EU LCS====
+The [[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|Spring Split]] was a slight disappointment for Gambit. Also, due to visa issues, [[Darien]], [[Diamondprox]], [[Alex Ich]], and [[Genja]] were unable to play in the 6th week of the Spring Season. [[Zorozero]], [[Hulberto]], [[Nukeduck]], and [[fury III]] substituted for Top, Jungle, Mid, and ADC respectively. <ref>[http://www.esportsheaven.com/news/64201/report-gambit-subs-leaked Report: Gambit Subs Leaked] ''esportsheaven.com''</ref> The team only managed a 5th place finish in the split. This was a fall from Gambit's high standards, but still meant that they had a spot in the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. The team ended up coming in 5th in the tournament, after losing to [[Team ROCCAT]] in the quarterfinals.
+
+====Summer EU LCS====
+[[Alex Ich]]'s departure from Gambit ultimately meant that the [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] would be worse for the team than the spring split. Gambit struggled throughout, with [[Darien]], [[Diamondprox]] and [[Genja]] becoming subsitutes for periods over the the split. The team finished in 7th place, meaning that they would have to fight for their LCS status in the [[Riot League Championship Series/Europe/2015 Season/Spring Promotion|Spring Promotion]]. With [[Krislund]] substituting for [[Genja]], Gambit held on to their place in the LCS, beating [[SK Gaming Prime]] in their promotion matchup.
+
+===2015 Preseason===
+On November 5 Gambit announced that Cabochard was joining the team as the new top laner,<ref>[http://gambit-gaming.com/en/article/412 Cabochard joins Gambit]</ref> dispelling rumors of a potential return to the team by Alex Ich in the toplane position. Two days later the team announced that Krislund was permanently joining the team as the starting AD carry. At the same time, he switched his ID to '''P1noy'''.<ref>[http://gambit-gaming.com/en/article/413 Krislund changes his nickname and joins Gambit]</ref> After these two additions, the starting roster going into the 2015 season was [[Cabochard]], [[Diamondprox]], [[niQ]], [[P1noy]], and [[EDward]].
+
+Gambit was one of the fan-voted teams to [[IEM_Season_IX_-_Cologne|IEM Cologne]], along with [[Team Dignitas]] and [[Counter Logic Gaming]]. They won the tournament after beating [[Counter Logic Gaming]] in the final. At the start of the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|2015 EU LCS Spring Split]], Gambit moved into a gaming house in Berlin.<ref>[http://gambit-gaming.com/news/official-statements/gambit-got-a-gaming-house-for-2015-lcs-season Gambit Got a Gaming House for 2015 LCS Season] ''gambit-gaming.com''</ref>
+
+===2015 Season===
+Due to their 1st place finish at [[IEM_Season_IX_-_Cologne|IEM Cologne]], the team were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 loss against [[CJ Entus]], Gambit Gaming were knocked out of the tournament, losing to [[Team WE]] in Round 1 of the losers bracket. Domestically, they finished fourth in the spring LCS round robin and then tied for fifth with [[Copenhagen Wolves]] in the playoffs after a quarterfinal loss to [[Unicorns Of Love]]. After the playoffs, the team released [[Leviathan (Jordan Thwaites)|Leviathan]] from his position as head coach, citing commitment issues in the latter half of the season.<ref name=leviathanleaves>[http://gambit-gaming.com/news/official-statements/leviathan-is-released-from-gambit Leviathan is released from Gambit] ''gambit-gaming.com''</ref>
+
+Gambit Gaming had an unsuccessful [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. After a rocky early start to the season and a combined 0-4 record in the first two weeks, Gambit improved to fifth place after 8 weeks, largely thanks to the coaching of [[Shaunz]]. At one point the team had the potential of finishing as high as fourth. However, going into the last week of the split, [[FORG1VEN]] received a four-game-long penalty from Riot as the result of toxic behavior in soloqueue.<ref>[http://na.lolesports.com/articles/competitive-ruling-konstantinos-%E2%80%98forg1ven%E2%80%99-tzortziou Competitive ruling: Konstantinos ‘FORG1VEN’ Tzortziou] ''lolesports.com''</ref> [[Moopz]] subbed in as the team's AD carry for the last 2 games of the split. Losing these 2 games, the team finished the regular season in 8th place, meaning that they would be playing in the [[Riot League Championship Series/Europe/2016 Season/Spring Promotion|2016 Spring Promotion]]. The team faced [[mousesports]], winning the series and securing their place in the [[League Championship Series/Europe/2016 Season/Spring Season|2016 Spring Season]].
+
+===2016 Preseason===
+On December 9, 2015, Gambit Gaming announced that [[Team Vitality]] had purchased their 2016 LCS slot and that all remaining members of the team were leaving.<ref name="disband">[http://gambit-gaming.com/news/official-statements/team-vitality-acquires-gambit-gamings-lcs-spot Team Vitality acquires Gambit Gaming's LCS spot] ''gambit-gaming.com''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+===Temporary Subs===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Role
+!Replacing
+!Tournament
+|-
+{{listplayer|Moopz|be|Amaury Minguerche|AD}}
+|'''{{player|FORG1VEN|flag=gr}}'''
+|[[Riot League Championship Series/Europe/2015 Season/Summer Season|2015 League Championship Series Europe Summer Week 9]]
+|-
+{{listplayer|Betsy|my|Felix Edling|Mid}}
+|'''{{player|niQ|flag=pl}}'''
+|[[Riot League Championship Series/Europe/2015 Season/Spring Season|2015 League Championship Series Europe Spring Week 5 & 6]]
+|-
+{{listplayer|Krislund|dk|Kristoffer Pedersen|AD}}
+|{{none}}
+|[[Riot League Championship Series/Europe/2015 Season/Spring Promotion|2015 Season EU LCS Spring Promotion]]
+|-
+{{listplayer|Kubon|pl|Jakub Turewicz|Top}}
+|{{none}}
+|[[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|2014 Season League Championship Series Europe Summer Week 8 & 9]]
+|-
+{{listplayer|loulex|fr|Jean-Victor Burgevin|Jungle}}
+|{{none}}
+|[[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|2014 Season League Championship Series Europe Summer Week 8]]
+|-
+{{listplayer|Cabochard|fr|Lucas Simon-Meslet|Top}}
+|'''{{player|Darien|flag=ru}}'''
+|rowspan=4|[[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|2014 Season League Championship Series Europe Summer Week 5]]
+|-
+{{listplayer|loulex|fr|Jean-Victor Burgevin|Jungle}}
+|'''{{player|Diamondprox|flag=ru}}'''
+|-
+{{listplayer|Fury III|de|Jakob Burke|AD}}
+|'''{{player|Genja|flag=ru}}'''
+|-
+{{listplayer|Hiiva|fi|Aleksi Kaikkonen|Support}}
+|'''{{player|Edward|flag=am}}'''
+|-
+{{listplayer|niQ|pl|Sebastian Robak|Mid}}
+|{{none}}
+|[[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|2014 Season League Championship Series Europe Summer Week 1 & 2]]
+|-
+{{listplayer|Zorozero|dk|Morten Rosenquist|Top}}
+|'''{{player|Darien|flag=ru}}'''
+|rowspan=4|[[Riot League Championship Series/Europe/2014 Season/Spring Round Robin|2014 Season League Championship Series Europe Spring Week 6]]
+|-
+{{listplayer|Hulberto|se|Johan Johansson|Jungle}}
+|'''{{player|Diamondprox|flag=ru}}'''
+|-
+{{listplayer|Nukeduck|no|Erlend Våtevik Holm|Mid}}
+|'''{{player|Alex Ich|flag=ru}}'''
+|-
+{{listplayer|Fury III|de|Jakob Burke|AD}}
+|'''{{player|Genja|flag=ru}}'''
+|-
+{{listplayer|Voidle|ee|Erih Sommermann|Support}}
+|'''{{player|Darker|flag=ru}}'''
+|[[Riot League Championship Series/Europe/Season 3/Summer Round Robin|Season 3 League Championship Series Europe Summer Week 7]]
+|-
+{{listplayer|Spontexx|fr|Eric Peugeot|Top}}
+|'''{{player|Darien|flag=ru}}'''
+|[[Riot League Championship Series/Europe/Season 3/Summer Round Robin|Season 3 League Championship Series Europe Summer Week 3]]
+|-
+{{listplayer|Darker|ru|Andrey Plechistov|Support}}
+|{{none}}
+|[[DreamHack Summer 2013]]<br> [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|Season 3 League Championship Series Europe Summer Week 1 & 2]]
+{{Listplayer/EndTemp}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|groove|ru|Konstantin Pikiner|'''General Manager'''|newteam=Gambit Esports}}
+{{listplayer|Shaunz|fr|Kévin Ghanbarzadeh|'''Head Coach'''|newteam=vit}}
+{{listplayersp|Vae|fr|Romain Chanu|'''Analyst'''|newteam=vit}}
+{{listplayersp|iVillain|us|William Hoag|'''Head Analyst'''|newteam=none}}
+{{listplayer|Leviathan|link=Leviathan (Jordan Thwaites)|ca|Jordan Thwaites|'''Head Coach'''|newteam=FFG}}
+{{listplayer|Moo|link=Moo (Dmitry Sukhanov)|ru|Dmitry Sukhanov|'''Manager'''|newteam=Samadder Gaming}}
+{{listplayer|Moo|link=Moo (Dmitry Sukhanov)|ru|Dmitry Sukhanov|'''Analyst'''|newteam=Gambit Gaming}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+<gallery>
+File:Gambit20152.jpg|Gambit Gaming 2015 LCS Summer Roster
+File:Gambit 2015 Spring.jpg|Gambit Gaming 2015 LCS Spring Roster
+File:Gambit Gaming S4 LCS Spring.jpg|Gambit Gaming 2014 Season LCS Spring Roster
+File:GambitGamingS3Worlds.jpg|Gambit Gaming Season 3 World Championship Roster
+File:Gambit Gaming S3 LCS Spring.jpg|Gambit Gaming Season 3 LCS Spring Roster
+File:Gambit Gaming Old Logo.png|Gambit Gaming old logo
+</gallery>
+
+==Media==
+{{TeamMedia}}
+
+==See Also==
+*[[Moscow Five]]
+
+==Links==
+* [http://euw.lolesports.com/season3/split2/teams/gambit-benq Gambit Gaming Team Profile] ''on lolesports.com''
+* [http://www.youtube.com/watch?v=5AsCzqPGJNg Top 5 Gambit Gaming Plays] ''from MLG Dallas 2013''
+* [http://www.aceresport.com/uk/content/334.htm End of an Era for Russian LoL Royalty - The history of the line-up of Darien, Diamondprox, Alex Ich, Edward and Genja's 19 months playing together] ''by Team Acer''
+* [http://www.youtube.com/watch?v=jiyajWcoo1w Moscow 5/Gambit Gaming History] ''by Martin Uggla''
+
+==References==
+<references />
+
+<br>

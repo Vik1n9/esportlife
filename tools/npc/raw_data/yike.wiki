@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yike&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.589Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yike」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Yike
+|name=Martin Sundelin
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Sweden
+|nationality=Sweden, Peru
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=November
+|birth_date_day=11
+|favchamp=Viego
+|favchamp2=Qiyana
+|favchamp3=Kha'Zix
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' KC Yiken#1111 <br>'''KR''': YIK#YIK
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/yikelol
+|twitter=Yikelol
+|instagram=yikelol
+|lolpros=https://lolpros.gg/player/yike/
+|deeplol=https://www.deeplol.gg/pro/Yike
+|dpmlol=https://dpm.lol/pro/Yike
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+== Biography ==
+Martin Sundelin was born in Sweden on November 11, 2000. He grew up in Sweden, holds dual Swedish and Peruvian citizenship, and has a mother who is from Peru.
+
+== Trivia ==
+* Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region (LEC Winter 2023)
+* Has a 100% winrate in LEC finals he has played.<ref>[https://x.com/Sheep_Esports/status/1896294368958644332 Sheep Esports' X Post] ''x.com''</ref>
+* After his win of the LEC ([[LEC/2025 Season/Winter Playoffs|LEC 2025 Winter]]) with [[Karmine Corp]], he became the third player alongside [[Targamas]] to win the LEC in two different teams, after [[Caps]] and [[Hylissang]]<ref>https://x.com/Sheep_Esports/status/1896368788301631590</ref>
+
+=== Individual Awards ===
+* x1 LEC Rookie of the Year (2023)
+* x3 LEC 1st All Pro Team (Summer 2023, Winter 2024, Spring 2025)
+* x1 LEC 2nd All Pro Team (Winter 2023)
+* x1 LEC 3rd All Pro Team (Spring 2023)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

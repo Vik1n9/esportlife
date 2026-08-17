@@ -1,0 +1,136 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zorozero&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.318Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zorozero」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Zorozero
+|name=Morten Rosenquist
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1995
+|birth_date_month=May
+|birth_date_day=10
+|favchamp=Zed
+|favchamp2=Irelia
+|favchamp3=Malphite
+|favchamp4=Kennen
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|facebook=https://www.facebook.com/ZorozeroLOL
+|twitter=ZorozeroLoL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''Zorozero''' is a League of Legends player hailing from Denmark. His first steps into gaming were made in the game Heroes of Might and Magic. He then turned to World of Warcraft and the Call of Duty games semi-seriously. Upon being introduced to League of Legends by friends, he asserted his position as a top-caliber player, ending in Diamond I (Season 2) and currently going in and out of Challenger.
+
+Zorozero qualified to the [[Season 3 World Championship]] with his team [[Lemondogs]], finishing 2nd in the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Summer Playoffs]].
+
+=== 2014 Season === 
+Zorozero left Lemondogs joined [[Ninjas in Pyjamas]] alonside teammates [[Mithy]] and [[Nukeduck]]. Ninjas in Pyjamas chose to face [[Kiedyś Miałem Team]] at the Spring Split Promotion Tournament in their match. Although [[NiP]] were heavy favorites, [[Kiedyś Miałem]] won in a 3-0 clean sweep, and the Ninjas in Pyjamas were denied a spot in the Season 4 Spring Split of the EU LCS.
+
+After [[Lemondogs]] were removed from Spring Split for failing to submit satisfactory paperwork in January 2014, Riot created a Play-In tournament at which the winner would claim the vacant spot in the LCS. As the three losing teams of the Promotion Tournament, Ninjas in Pyjamas would have faced off against [[MeetYourMakers]] and [[SUPA HOT CREW]]; however, after Zorozero could not update his tournament client in time, NiP was disqualified due to being unable to field an eligable roster.
+
+In May, Zorozero left Ninjas in Pyjamas and hasn't played in any other professional team since then.
+
+== Trivia ==
+* Was famous for his {{ci|Riven}} early in his career.
+* Used to play football at a high level.
+* Prefers playing assassins in solo queue.
+* The nickname [[Zorozero|"Zorozero"]] has its origins in Morten watching the movie Zoro, then a commercial ad highlighting Coca Cola Zero.
+* Has a dog called Luna.
+* Reached Challenger Division in North America in under 50 games with his account GoldPoro1, mostly playing {{ci|Akali}}.
+* According to [[Nukeduck]] in Thooorin's interview, Zorozero has joined the army. He hardly plays any games anymore and will most likely not be returning to the League scene. <ref>[https://www.youtube.com/watch?v=IOHctK2KxOY#t=15m15s 'Reflections' with nukeduck]youtube.com</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2013
+|name2=2014}}
+{{TDRight|tab}}<!--2014-->
+* May 16 - [http://www.ongamers.com/articles/reflections-with-zorozero/1100-1473/ 'Reflections' with Zorozero (video)] ''with onGamers''
+{{TDRight|tab}}<!--2013-->
+* June 30 - [http://www.youtube.com/watch?v=QFeax4vIv_Y Lemondogs interview: Morten "zorozero" Rosenquist (video)] ''with Lemondogs''
+* August 7 - [http://youtube.com/S-0Ubu9meuM?t=1m37s Interview with Lemondogs Top Laner, Zorozero - League Out Loud (video)] ''with MachinimaVS''
+* December 15 - [http://www.youtube.com/watch?v=39ihk6V0bqY Promotion Tournament: Interview with NiP ZoroZero  (video)] ''with SK Gaming''
+{{TDRight/end}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

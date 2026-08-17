@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=GamingGear.eu&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.771Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GamingGear.eu」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Team Ultra Vires
+|name= Gaminggear.EU
+|orgcountry= Lithuania 
+|country=
+|region=CIS
+|image= GamingGear.eu.jpg
+|manager= Edvinas "'''Givacius'''" Lelionis
+|captain= 
+|facebook=https://www.facebook.com/teamGamingGearEU
+|sponsor= [http://www.gaminggear.eu/ GamingGear.eu]
+|created= 2012-11-22
+|disbanded= 2013-09-22
+}}{{TOCRWI}}
+
+'''GamingGear.eu''' is a Lithuanian organization which acquired a League of Legends team in late 2012.
+
+== History ==
+Forming in November 2012, GG.EU gained headway in the competitive EU East/Nordic servers, playing in leagues such as [[ESL Major Series/Spring 2013 Nordic & East|EMS Spring 2013 Nordic & East]] and coming in 3rd. They gained more notice by winning the [[Riot_League_Championship_Series/Europe/Season_3/Moscow#Regional_CIS_Championship_4|Regional CIS Championship]] held in Russia in June 2013. This granted them a spot to play in [[Gamescom 2013]] and the [[Gamescom 2013/International Wildcard Tournament|International Wildcard Tournament]]. Playing against the other winners of international areas, they were able to battle and claim 1st place over Brazil's [[paiN Gaming]] at the wildcard, becoming one of 14 teams granted to play at the prestigious [[Season 3 World Championship]].
+
+Fighting their tough road to get to the Championship in Los Angeles had GG.eu facing off against the world's best on a big stage. Although becoming a a slight fan favorite with their positive attitudes towards their games, they would not advance to the bracket stage, coming in last in their group going 1-7, taking a game off [[Team SoloMid]] and going home in 13th place.
+
+Right after being eliminated from the Championship, the roster of GamingGear would announce they would depart from the organization to search new ventures as a team.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:S3 GamingGear.jpg|thumb|no-link=true|400px|right|GamingGear.eu Season 3 World Championship Roster<br> Left to Right: Alunir,Inspirro, Nbs, Mazzerin, DeadlyBrother]]
+<!--
+===Active===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Role
+<onlyinclude></onlyinclude>
+{{Listplayer/EndTemp}}
+-->
+
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Position
+{{listplayersp|Givacius|lt|Edvinas Lelionis|'''Manager'''}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+* [https://www.youtube.com/watch?v=V38sSOvHA-g Meet a Team: GamingGear.eu (S3 Wild Card) Overview and Analysis]
+
+==Interviews==
+
+==Links==
+
+==References==
+<references />

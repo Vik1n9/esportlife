@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bolulu&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.841Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bolulu」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Bolulu
+|name=Onur&nbsp;Can Demirol
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Sweden
+|nationality=Sweden, Turkey
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=November
+|birth_date_day=14
+|favchamp=Vel'Koz
+|favchamp2=Nautilus
+|favchamp3=Azir
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' BoluIu<br>2021Worlds0058<br>'''CN:''' spbll
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/bolululol
+|twitter=BoluluLol
+|instagram=bolululol
+|youtube=https://www.youtube.com/channel/UCEvC4EXMFu1SAUWcoEJz17w
+|discord=https://discord.com/invite/q7mpueamHx
+|tiktok=bolululol
+|lolpros=https://lolpros.gg/player/bolulu
+|deeplol=https://www.deeplol.gg/pro/Bolulu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Is a dual citizen of Sweden and Turkey.
+* He was born and raised in Sweden, but his Turkish roots are from [https://en.wikipedia.org/wiki/Bolu Bolu].
+* His ID '''Bolulu''' means "someone from Bolu."
+* He and his team got a void theme while he was playing in a tournament themed Runeterra regions in Italy. There was no void-themed character he played at that time and he decided to play [https://lol.fandom.com/wiki/Vel%27Koz Vel'Koz]. He says "that day I fell in love with Vel'Koz".
+* He loves to play [https://lol.fandom.com/wiki/Azir Azir] but thinks Azir is weak for solo queue.
+* He is close friends with [[Armut]] and [[Japone]] and they have a group called "Unraidable Raiders".
+* He plays [https://lol.fandom.com/wiki/Zoe Zoe] so well that [https://lol.fandom.com/wiki/Turkish_Championship_League TCL] has a special term for him which is "Bolulu's Zoe".
+* Has a brother who plays soccer professionaly in Turkey
+* According to a competition video posted by [https://lol.fandom.com/wiki/Closer_(Can_%C3%87elik) Closer] in September 2019: Prefers dogs to cats, uses flash on F, prefers Faker to Rookie, says he would prefer jungle if he didn't play mid lane
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

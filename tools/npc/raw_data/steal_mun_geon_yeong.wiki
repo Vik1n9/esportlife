@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Steal%20(Mun%20Geon-yeong)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.815Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Steal (Mun Geon-yeong)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Steal
+|name=Mun Geon-yeong
+|nativename=문건영
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=PCS
+|birth_date_year=1998
+|birth_date_month=December
+|birth_date_day=15
+|favchamp=Anivia
+|favchamp2=Elise
+|checkbox1=No
+|compID1=L1sure
+|checkboxComp=No
+|ids='''KR:''' L1sure<br>laets<br>'''EUW:''' qwer1234asdf<br>qqwwqqww
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/dfmsteal
+|twitter=DFM_steal
+|lolpros=https://lolpros.gg/player/steal
+|deeplol=https://www.deeplol.gg/pro/Steal-Mun_Geon-yeong
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''L1sure'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* Is fluent in Japanese.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

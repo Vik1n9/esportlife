@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Expect&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.116Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Expect」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Expect
+|name=Ki Dae-han
+|nativename=기대한
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=July
+|birth_date_day=04
+|favchamp=Jarvan IV
+|favchamp2=Renekton
+|favchamp3=Irelia
+|checkbox1=No
+|compID1=Han
+|checkboxComp=No
+|ids='''EUW:''' I am fat pig, myroomisveryhot, G2 Expect<br>'''BR:''' ExDpect
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/expect74
+|facebook=https://www.facebook.com/kidaehan74
+|twitter=Expect74
+|instagram=expect74_
+|lolpros=https://lolpros.gg/player/expect/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Han'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2014 Season===
+Ki "'''Expect'''" Dae-han joined [[Midas FIO]] as a top laner in early 2014. Midas FIO qualified for [[HOT6iX Champions Spring 2014]] but they couldn't win a single game and missed playoffs. Expect joined [[Xenics Storm]] after the season was over alongside his teammates [[Nexus (Lee Jun-woo)|Nexus]] and [[SSuN (Oh Yeong-gyo)|SSuN]]. The team couldn't qualify for OGN before disbanding.
+
+===2015 Season===
+Expect's name temporarily became "'''Han'''" in early 2015 before he changed it back to Expect. Expect joined [[2144 Gaming]] in May of 2015. 2144 Gaming played in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where they lost 3-1 in the first round to [[Unlimited Potential]]. The team only placed third in their group in the [[2015 LoL Secondary Pro League/Summer Season|2015 LSPL Summer Season]] and were forced to play in the [[LSPL/2015 Season/Summer Relegation|2015 LSPL Summer Relegation Tournament]]. They requalified for the LSPL with 2-1 victories over [[Energy Pacemaker.Carries]] and [[Kx.Happy]].
+
+== Trivia ==
+* His summoner name is the subject of intentional and unintentional puns by English language broadcasters whenever he is playing, due to the word "expect" being commonly used in commentary.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

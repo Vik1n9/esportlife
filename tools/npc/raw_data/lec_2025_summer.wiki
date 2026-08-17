@@ -1,0 +1,399 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2025%20Season%2FSummer%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.758Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2025/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2025}}
+{{Infobox Tournament
+|name=LEC 2025 Summer Season
+|image= LEC 2023.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|country=Germany
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2025-08-02
+|edate=2025-08-26
+|rulebook=Archive:Official_Rulebooks/Riot/LEC/2025
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EMEA
+|split=Summer
+|split_number=3
+|CM_StandardName=LEC 2025 Summer
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2025
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://lolesports.com
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/@LEC
+|facebook=
+|tiktok=lec
+|discord=https://lec.gg/discord
+|closest_timezone=CET
+}}
+{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2025 Summer Season''' is the third split of the third year of EMEA's unified professional League of Legends league. In Stage 1, ten teams compete in two groups, where each group plays a best-of-three single round robin, with eight teams advancing to Playoffs, a double elimination bracket.}}
+==Overview==
+=== Format ===
+* Regular Season (Stage 1):
+** 10 teams participate
+** Two groups of five
+** Single Round Robin within each group
+** All matches are best of three
+** Top four teams of each group advance to [[LEC/2025 Season/Summer Playoffs|Playoffs]]
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2025 Midseason/EMEA
+}}
+{{Box|start}}
+{{TeamRoster|team=FNC
+|{{TeamRoster/Line|player=Oscarinin |flag=es |role=t}}
+|{{TeamRoster/Line|player=Razork |flag=es |role=j}}
+|{{TeamRoster/Line|player=Poby |flag=kr |role=m}}
+|{{TeamRoster/Line|player=Upset |flag=de |role=a}}
+|{{TeamRoster/Line|player=Mikyx |flag=si |role=s}}
+|{{TeamRoster/Line|player=GrabbZ |flag=de |role=c}}
+|{{TeamRoster/Line|player=Gaax |flag=es |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=G2
+|{{TeamRoster/Line|player=BrokenBlade |flag=de |role=t}}
+|{{TeamRoster/Line|player=SkewMond |flag=fr |role=j}}
+|{{TeamRoster/Line|player=Caps |flag=dk |role=m}}
+|{{TeamRoster/Line|player=Hans Sama |flag=fr |role=a}}
+|{{TeamRoster/Line|player=Labrov |flag=gr |role=s}}
+|{{TeamRoster/Line|player=Dylan Falco |flag=ca |role=c}}
+|{{TeamRoster/Line|player=Memento |flag=se |role=c}}
+|{{TeamRoster/Line|player=Rodrigo |flag=pt |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=GIANTX
+|{{TeamRoster/Line|player=Lot |flag=tr |role=t}}
+|{{TeamRoster/Line|player=ISMA |flag=fr |role=j}}
+|{{TeamRoster/Line|player=Jackies |flag=cz |role=m}}
+|{{TeamRoster/Line|player=Noah (Oh Hyeon-taek) |flag=kr |role=a}}
+|{{TeamRoster/Line|player=Jun (Yoon Se-jun) |flag=kr |role=s}}
+|{{TeamRoster/Line|player=Guilhoto |flag=pt |role=c}}
+|{{TeamRoster/Line|player=Emi |flag=ro |role=c}}
+|{{TeamRoster/Line|player=Nico (Nicolas Perez) |flag=fr |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=KCORP
+|{{TeamRoster/Line|player=Canna |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Yike |flag=se |role=j}}
+|{{TeamRoster/Line|player=Vladi |flag=gr |role=m}}
+|{{TeamRoster/Line|player=Caliste |flag=fr |role=a}}
+|{{TeamRoster/Line|player=Targamas |flag=be |role=s}}
+|{{TeamRoster/Line|player=Reha |flag=fr |role=c}}
+|{{TeamRoster/Line|player=Apples |flag=si |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Movistar KOI
+|{{TeamRoster/Line|player=Myrwn |flag=es |role=t}}
+|{{TeamRoster/Line|player=Elyoya |flag=es |role=j}}
+|{{TeamRoster/Line|player=Jojopyun |flag=ca |role=m}}
+|{{TeamRoster/Line|player=Supa |flag=es |role=a}}
+|{{TeamRoster/Line|player=Alvaro (Álvaro Fernández) |flag=es |role=s}}
+|{{TeamRoster/Line|player=Melzhet |flag=es |role=c}}
+|{{TeamRoster/Line|player=Zeph |flag=fr |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NAVI|footnoteteamn=1
+|{{TeamRoster/Line|player=Adam (Adam Maanane) |flag=fr |role=t}}
+|{{TeamRoster/Line|player=Thayger |flag=es |role=j}}
+|{{TeamRoster/Line|player=Larssen |flag=se |role=m}}
+|{{TeamRoster/Line|player=Hans SamD |flag=kr |role=a}}
+|{{TeamRoster/Line|player=Malrang |flag=kr |role=s}}
+|{{TeamRoster/Line|player=fredy122 |flag=uk |role=c}}
+|{{TeamRoster/Line|player=Trick |flag=kr |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK
+|{{TeamRoster/Line|player=DnDn |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Skeanz |flag=fr |role=j}}
+|{{TeamRoster/Line|player=Abbedagge |flag=de |role=m}}
+|{{TeamRoster/Line|player=Keduii |flag=de |role=a}}
+|{{TeamRoster/Line|player=Loopy |flag=kr |role=s}}
+|{{TeamRoster/Line|player=OWN3R (David Rodriguez de la Torre) |flag=es |role=c}}
+|{{TeamRoster/Line|player= |flag= |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|{{TeamRoster/Line|player=Rooster |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Boukada |flag=fr |role=j}}
+|{{TeamRoster/Line|player=nuc |flag=fr |role=m}}
+|{{TeamRoster/Line|player=Ice (Yoon Sang-hoon) |flag=kr |role=a}}
+|{{TeamRoster/Line|player=Parus |flag=tr |role=s}}
+|{{TeamRoster/Line|player=Striker (Yanis Kella) |flag=fr |role=c}}
+|{{TeamRoster/Line|player=MenQ |flag=pl |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=HTICS
+|{{TeamRoster/Line|player=Carlsen |flag=dk |role=t}}
+|{{TeamRoster/Line|player=Sheo |flag=fr |role=j}}
+|{{TeamRoster/Line|player=Kamiloo |flag=fr |role=m}}
+|{{TeamRoster/Line|player=Flakked |flag=es |role=a}}
+|{{TeamRoster/Line|player=Stend |flag=fr |role=s}}
+|{{TeamRoster/Line|player=Machuki |flag=es |role=c}}
+|{{TeamRoster/Line|player=Naruterador |flag=es |role=c}}
+|{{TeamRoster/Line|player=Lopon |flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=VIT
+|{{TeamRoster/Line|player=Naak Nako |flag=tr |role=t}}
+|{{TeamRoster/Line|player=Lyncas |flag=lt |role=j}}
+|{{TeamRoster/Line|player=Czajek |flag=pl |role=m}}
+|{{TeamRoster/Line|player=Carzzy |flag=cz |role=a}}
+|{{TeamRoster/Line|player=Fleshy |flag=tr |role=s}}
+|{{TeamRoster/Line|player=Mac |flag=uk |role=c}}
+|{{TeamRoster/Line|player=Kaas |flag=be |role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+:''<sup>1</sup> [[Natus Vincere]] acquired the spot of [[Rogue (European Team)|Rogue]].<ref>[https://x.com/NAVILeague/status/1933526505776164915 Natus Vincere's X Post] ''x.com''</ref>''
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|onlygroup=Group A|display=Group A|groupasphase=yes
+|places=upwithbye,upwithbye,up,up,stay
+|row1=upwithbye
+|row2=upwithbye
+|row3=up
+|row4=up
+|row5=stay
+|legend=true
+|upwithbye= [[LEC/2025 Season/Summer Playoffs|Playoffs]] Upper Bracket Seed
+|up= [[LEC/2025 Season/Summer Playoffs|Playoffs]] Cross Play Decider
+|stay= Not Qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO3
+|onlygroup=Group A
+}}
+{{Box|end}}
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|onlygroup=Group B|display=Group B|groupasphase=yes
+|places=upwithbye,upwithbye,up,up,stay
+|row1=upwithbye
+|row2=upwithbye
+|row3=up
+|row4=up
+|row5=stay
+|legend=true
+|upwithbye= [[LEC/2025 Season/Summer Playoffs|Playoffs]] Upper Bracket Seed
+|up= [[LEC/2025 Season/Summer Playoffs|Playoffs]] Cross Play Decider
+|stay= Not Qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO3
+|onlygroup=Group B
+}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with,mvp
+|gamefields=Blue,Red,VODs
+}}
+<!--
+== Timeline ==
+{{AutoTimeline
+|orderby=recordwithpoints
+|places=upwithbye,upwithbye,upwithbye,upwithbye,up,up,stay,stay,stay,stay
+}}
+-->
+
+== Individual Awards ==
+=== "Player of the Series" Standings ===
+{{MVPStandings|queryfrom=series|displaytext=Player of the Series Standings
+|columns=Times
+}}
+
+== Media ==
+=== Streams ===
+{{Box|start}}
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/nervarien|lang=pl}}
+* {{stream|url=https://www.twitch.tv/litofficial|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.twitch.tv/hitpointcz|lang=cz}}
+* {{stream|url=https://www.twitch.tv/gamersloungegr|lang=gr}}
+* {{stream|url=https://www.twitch.tv/riotgamesturkish|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=https://www.youtube.com/@Nervarien|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCjocsYZyDCFfU-KAfM44APg|lang=rs}}
+* {{stream|url=https://www.youtube.com/@GamersLoungeGr|lang=gr}}
+* {{stream|url=https://www.youtube.com/@Lolespor|lang=tr}}
+{{Box|end}}
+
+==== Official Costreamers ====
+{{TabsDynamic
+|name1=EMEA
+|name2=Asia
+}}
+
+{{TabsDynamic|tab}}
+{{Box|start}}
+{{TournamentStreams/Start}}<!--EMEA-->
+{{TournamentStreams|{{player|Caedrel|flag=uk|name=Marc Robert Lamont}}|lang=usuk|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/caedrel|Twitch}}
+}}
+{{TournamentStreams|{{team|Natus Vincere|onlyimagelinked|size=48px}} {{player|Jankos|flag=poland|name=Marcin Jankowski}}|lang=usuk|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/jankos|Twitch}}
+}}
+{{TournamentStreams|{{team|Karmine Corp|onlyimagelinked|size=48px}} {{player|Kameto|flag=fr|name=Kamel Kebir}}|lang=fr|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/kamet0|Twitch}}
+}}
+{{TournamentStreams|{{team|G2 Esports|onlyimagelinked|size=48px}} {{player|Trayton|flag=fr|name=Jean Medzadourian}}|lang=fr|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/traytonlol|Twitch}}
+}}
+{{TournamentStreams|{{team|Team BDS|onlyimagelinked|size=48px}} {{player|Zaboutine|flag=fr|name=Thomas Si-Hassen}}|lang=fr|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/zaboutine|Twitch}}
+}}
+{{TournamentStreams|{{team|Movistar KOI|onlyimagelinked|size=48px}} {{player|KNekro|flag=es|name=Sergio García}}|lang=es|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/knekro|Twitch}}
+}}
+{{TournamentStreams|{{team|GIANTX|onlyimagelinked|size=48px}} {{player|Th3Antonio|flag=es|name=Antonio Espinosa Bejarano}}|lang=es|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/th3antonio|Twitch}}
+}}
+{{TournamentStreams|{{player|Skain|flag=es|name=David Carbó Ferrer}}|lang=es|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/skain|Twitch}}
+}}
+{{TournamentStreams|{{team|Team Heretics|onlyimagelinked|size=48px}} {{player|Werlyb|flag=es|name=Jorge Casanovas Moreno-Torres}}|lang=es|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/werlyb|Twitch}}
+}}
+{{TournamentStreams|{{team|Fnatic|onlyimagelinked|size=48px}} {{player|JordiLMK|flag=es|name=}}|lang=es|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/jordilmk|Twitch}}
+}}
+{{TournamentStreams|{{team|Fnatic|onlyimagelinked|size=48px}} {{player|Obsess|flag=de|name=Patrick Engelmann}}|lang=de|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/obsess3|Twitch}}
+}}
+{{TournamentStreams|{{team|SK Gaming|onlyimagelinked|size=48px}} {{player|Karni|flag=de|name=Lukas Steininger}}|lang=de|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/karni|Twitch}}
+}}
+{{TournamentStreams|{{player|Frajgo|flag=poland|name=Krzysztof Chibowski}}|lang=poland|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/fragjo_|Twitch}}
+}}
+{{TournamentStreams|{{player|Freeze|flag=Czech|name=Aleš Kněžínek}}|lang=Czech|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/freezecz|Twitch}}
+}}
+{{TournamentStreams|{{player|Xnapy|flag=Czech|name=Petr Jirák}}|lang=Czech|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/xnapycz|Twitch}}
+}}
+{{TournamentStreams|{{player|Brizz|flag=it|name=Luca Brizzante}}|lang=it|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/brizz94|Twitch}}
+}}
+{{TournamentStreams|{{player|Terenas|flag=it|name=Lapo Raspanti}}|lang=it|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/terenas|Twitch}}
+}}
+{{TournamentStreams|{{player|Creed|flag=tr|name=}}|lang=tr|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/creed|Twitch}}
+}}
+{{TournamentStreams|{{player|Halpern|flag=tr|name=Aral Norman}}|lang=tr|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/halpern|Twitch}}
+}}
+{{TournamentStreams|{{player|Kamus|flag=pt|name=Mikaël Kamus}}|lang=pt|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/kamuslol|Twitch}}
+}}
+{{TournamentStreams|{{player|Nero (Konstantinos Perperidis)|flag=greek|name=Konstantinos Perperidis (Κωνσταντίνος Περπερίδης)}}|lang=greek|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/tl_nero|Twitch}}
+}}
+{{TournamentStreams/End}}
+{{Box|end}}
+
+{{TabsDynamic|tab}}
+{{Box|start}}
+{{TournamentStreams/Start}}<!--Asia-->
+{{TournamentStreams|{{player|A-DDeung|flag=kr|name=Yoo Hyeon-soo (유현수)}}|lang=kr|links=
+  {{TournamentStreams/Link|https://ch.sooplive.co.kr/gjstn7637|SOOP}}
+}}
+{{TournamentStreams|{{player|HoonsuKing|flag=kr|name=}}|lang=kr|links=
+  {{TournamentStreams/Link|https://ch.sooplive.co.kr/ehdrb866/vods/review|SOOP}}
+}}
+{{TournamentStreams|{{team|G2 Esports|onlyimagelinked|size=48px}} {{player|Wadid|flag=kr|name=Kim Bae-in (김배인)}}|lang=kr|links=
+  {{TournamentStreams/Link|https://chzzk.naver.com/bad6d7da33aec001343a51b85a70fcdb|Chzzk}}
+}}
+{{TournamentStreams|{{player|Zod|flag=tw|name=Chang Po-Cheng (張博誠)}}|lang=tw|links=
+  {{TournamentStreams/Link|https://www.twitch.tv/zod0416|Twitch}}
+}}
+{{TournamentStreams|{{player|Exvestor|flag=th|name=}}|lang=th|links=
+  {{TournamentStreams/Link|https://www.youtube.com/@exvestor|YouTube}}
+}}
+{{TournamentStreams|{{player|Hoàng Luân|flag=vn|name=Huỳnh Hải Hoàng Luân}}|lang=vn|links=
+  {{TournamentStreams/Link|https://www.youtube.com/@hoangluanblv|Youtube}}
+}}
+{{TournamentStreams/End}}
+{{Box|end}}
+
+{{TabsDynamic|end}}
+
+=== Broadcast Talent ===<!--
+==== Core ====
+*{{player|Sjokz|flag=be|name=Eefje Depoortere}} - Host
+*{{player|Laure|flag=fr|name=Laure Valée}} - Interviewer
+*{{player|Medic|link=Medic (Aaron Chamberlain)|flag=uk|name=Aaron Chamberlain}} - Play-by-Play Caster
+*{{player|Quickshot|flag=za|name=Trevor Henry}} - Play-by-Play Caster
+*{{player|Drakos|flag=us|name=Daniel Drakos}} - Play-by-Play Caster
+*{{player|Vedius|flag=uk|name=Andrew Day}} - Color Caster
+*{{player|Ender|link=Ender (Christy Frierson)|flag=us|name=Christy Frierson}} - Color Caster
+*{{player|Caedrel|flag=gb|name=Marc Lamont}} - Color Caster
+*{{player|Dagda|flag=IE|name=Robert Price}} - Color Caster
+*{{player|Guldborg|flag=DK|name=Mikkel Guldborg Nielsen}} - Color Caster
+
+==== Guests ====
+*{{player|Broxah|flag=DK|name=Mads Brock-Pedersen}}
+*{{player|Nymaera|flag=UK|name=Alexander Hapgood}}
+*{{player|Troubleinc|flag=GR|name=Georgia Paras}}
+*{{player|YamatoCannon|flag=SE|name=Jakob Mebdi}}
+*{{player|Oisín|flag=IE|name=Oisín Molloy}}
+*{{player|Jamada|flag=UK|name=Adrian Wharlton-Thorne}}
+-->
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|de}} Berlin, Germany
+|-
+|Riot Games Arena Berlin
+|-
+|''Capacity'' - 210
+|-
+|[[File:Riot Games Arena Berlin.jpg|320px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|}
+
+=== Announcements ===
+====2024====
+* October 29, [https://lolesports.com/en-GB/news/2025-lec-season-changes-all-you-need-to-know 2025 LEC Season Changes: All You Need To Know]
+====2025====
+* June 26, [https://lolesports.com/en-GB/news/lec-summer-primer-finals-in-madrid-await LEC Summer Primer: Finals in Madrid await!]
+
+=== Viewership Statistics ===
+* ''See [[LEC/2025_Season/Summer_Playoffs#Viewership_Statistics|Playoffs Viewership Statistics]].''
+
+=== Additional Content ===
+{{TournamentMedia}}
+
+== References ==
+<references/>

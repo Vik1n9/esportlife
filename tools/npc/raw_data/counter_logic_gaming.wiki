@@ -1,0 +1,282 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Counter%20Logic%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.333Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Counter Logic Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=NRG Esports
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Counter Logic Gaming
+|orgcountry= United States
+|foundedcountry= Canada
+|country=
+|region= North America
+|partner= [https://www.themadisonsquaregardencompany.com/ The Madison Square Garden Company] <br> [http://twitch.tv/ Twitch] <br> [http://store.hp.com/ OMEN by HP] <br> [http://corsair.com/ CORSAIR] <br> [http://www.squarespace.com/ Squarespace] <br> [http://www.spectrum.com/ Spectrum] <br> [http://play.overwolf.com/legendary-builds/ Legendary Builds] <br> [http://www.flexfit.com/ Flexfit] <br> [http://www.mvmt.com/ MVMT]
+<!-- Staff -->
+|headcoach= Thomas "'''[[Thinkcard]]'''" Slotkin
+|owner= 
+<!-- Social Media -->
+|website= https://www.clg.gg/
+|subreddit= CLG
+|twitter= clgaming
+|discord= https://discord.com/invite/clg
+|youtube= https://www.youtube.com/channel/UCUYdOka3TBY0OV75AkiuMRw
+|facebook= https://facebook.com/CounterLogicGaming
+|instagram= clgaming
+|snapchat= clg.lol
+|twitch-team= https://www.twitch.tv/team/clg
+|tiktok= counterlogicgaming
+|linkedin=https://www.linkedin.com/company/counter-logic-gaming/
+|irc= 
+<!-- History -->
+|created= {{date of creation|y=2010|m=04|d=16}}
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,fortnite,halo,rl,siege,smite
+}}{{TOCRWI}}
+
+'''Counter Logic Gaming (CLG)''' is a North American esports organization. Founded in April 2010 by George "[[HotshotGG]]" Georgallidis, CLG is the oldest ''League of Legends'' team still active to this day. Counter Logic Gaming currently hosts their flagship team and an academy team in the [[NA Academy League]], [[CLG Academy]], who they picked up following the North American Scouting Grounds and LCS franchising. In the past they have also sponsored [[Counter Logic Gaming EU]] and two different North American squads under the name CLG Black. The organization also supports teams and players in ''Counter Strike: Global Offensive'', ''Super Smash Bros'', and ''Overwatch''.
+
+== History ==
+===Pre-Season 1===
+'''Counter Logic Gaming''' was founded by [[HotshotGG]] on April 16, 2010. The initial roster included [[LoCicero]], [[Grandjudge]], [[Chauster]], [[Nolja]], HotshotGG, [[Clever (North American Player)|Clever]], [[Sabertiger]], [[bigfatjiji]], [[Lilballz]], and [[Kobe24]]. Most of these players left the team shortly after its creation: Locicero left to focus on school; Grandjudge and Nolja were from Korea while Lilballz was from Taiwan and so they had difficulties attending tournaments; Clever wanted to play casually; and Sabertiger was recruited into the army. When the official roster was finally formed, it consisted of HotshotGG, Kobe24, bigfatjiji, Chauster, and [[Elementz]].
+
+===Season 1===
+CLG found early success with their roster, winning the [[2010 World Cyber Games Grand Finals|2010 WCG Grand Finals]]<ref>[http://www.wcg.com/6th/tournament/medal/tm_match_medal.asp WCG 2010 Medal List] ''wcg.com''</ref> and then the [[Newegg Winter Wanfest 2010]] online tournament.<ref>[http://wanfest.newegg.com/?page=stem_schedule&stageid=3877 Newegg Winter Wanfest 2010 Double Elimination Finals Bracket] ''wanfest.newegg.com''</ref> After those two early victories, jungler Kobe24 decided to retire from professional gaming and left the team in January 2011; he would eventually go on to become a caster for [[Riot Games]]. The next month, [[Saintvicious]] joined the team, replacing Kobe.
+
+CLG was one of three North American teams to attend the [[Riot Season 1 Championship]] in Sweden in June 2011, along with [[Epik Gamer]] and [[Team SoloMid]]. They placed second in their group, behind TSM, and then fifth overall in the tournament.<ref>[http://season-one-championship.eu.leagueoflegends.com/ Official Season One Championship Page] ''season-one-championship.eu.leagueoflegends.com''</ref>
+
+===Preseason 2===
+After the Season 1 Championship, CLG won several major tournaments in a row. First, they won in the online [[National ESL Premier League Season 1]], and then they attended their second international LAN tournament: [[IEM Season VI - Global Challenge Cologne|IEM Cologne]]. With [[Salce]] substituting for Chauster, the lineup included HotshotGG top, Saintvicious jungle, Salce mid, Bigfatlp AD carry, and Elementz support. CLG won their group 3-0 and then defeated [[Millenium]] and TSM in the bracket to win the tournament.<ref>[http://www.esl-world.net/masters/season6/cologne/ IEM Season VI - Global Challenge Cologne] ''esl-world.net''</ref> With Chauster back but [[Voyboy]] substituting for bigfatlp, they also won [[2011 MLG Pro Circuit/Raleigh|MLG Raleigh]] in August, this time beating Epik Gamer in the finals.<ref>[http://tv.majorleaguegaming.com/events/1-mlg-raleigh-2011#4/138/1;75596 MLG Raleigh 2011 Finals VODs] ''tv.majorleaguegaming.com''</ref>
+
+At [[IEM Season VI - Global Challenge Guangzhou|IEM Guangzhou]] in October 2012, CLG's hot streak cooled off slightly, but they still finished in second place, losing to [[Team WE]] both in the group stage and in the finals.<ref>[http://www.esl-world.net/masters/season6/guangzhou/ IEM Season VI - Global Challenge Guangzhou] ''esl-world.net''</ref> Immediately after Guangzhou, the team attended [[IGN ProLeague Season 3 - Atlantic City|IPL3]], in Atlantic City. There, they defeated [[A Picture of A Goose]] in the first round but then lost to [[Dignitas]] in the semifinals before beating TSM in the third-place match. One week later, CLG flew to New York to play in [[IEM Season VI - Global Challenge New York|IEM New York]]; this time they took home fourth place after defeats to [[SK Gaming]] and [[Sypher]] in the playoffs.
+
+In November, CLG attempted to qualify for [[2011 MLG Pro Circuit/Providence|MLG Providence]]; however, in the [[2011 MLG Pro Circuit/Providence/Qualifiers|qualifier]] they were intending to use [[a Lilac]], but when he was unable to participate, they fielded [[Lapaka]] instead. Because Lapaka was officially on the roster of [[Absolute Legends]] for the event, CLG was disqualified and [[RFLX Gaming]] advanced to the top four and attended MLG Providence instead.<ref>[http://www.majorleaguegaming.com/news/we-have-our-winners-4-league-of-legends-teams-are-heading-to-providence MLG Providence 2011 Qualifier Results] ''majorleaguegaming.com''</ref>
+
+In December 2011, CLG benched long-time support Elementz and moved Chauster to support; this made room for [[Doublelift]] to join the team from Epik Gamer. Elementz went on to play for [[Curse Gaming]].
+
+===Season 2===
+In order to participate in the [[2011 World Cyber Games/Main Tournament|2011 World Cyber Games]], CLG put together a temporary roster including only Canadian players: [[Chaox]] and [[TheOddOne]], AD carry and jungler of TSM, joined the team for the tournament; at the same time, Chauster and Reginald joined the other three members of TSM to form a one-off team that they called [[Chicks Dig Elo]]. CDE ended up winning the tournament, while CLG came in third.<ref>[http://www.wcg.com/renew/tournament/2011/tm_match_single_2011.asp?gID=G110715106 WCG 2011 Tournament Brackets] ''wcg.com''</ref>
+
+Returning to their standard lineup of HotshotGG, Saintvicious, bigfatlp, Doublelift, and Chauster, CLG participated in and won the online [[National ESL Premier League Season 2|NESL Premier League Season 2 playoffs]]. Their next event wasn't until February 2012, when they played in the [[LoLPro.com Curse Invitational]] and came in second. In March, they attended their next LAN, the [[IEM Season VI - World Championship|IEM World Championship]] in Hanover. They placed second in their group behind Dignitas and then lost in the semifinals to [[Moscow Five]], the eventual winners of the tournament; they took home third place after a victory over [[against All authority]].<ref>[http://www.esl-world.net/masters/season6/hanover/ IEM Season VI World Championship - Hanover] 'esl-world.net''</ref>
+
+On March 12, 2012, CLG temporarily moved to a gaming house in South Korea in order to train and participate in [[Azubu The Champions Spring 2012]]. Placed in Group B, CLG entered playoffs but immediately lost to [[MiG Blaze]], the eventual tournament winners, in the quarterfinals. While in Korea, CLG also competed in the online [[Leaguecraft ggClassic Presented by Gaming.StackExchange|Leaguecraft ggClassic]]. They lost in the semifinals to [[4Not.Fire]] and then forfeited their third-place match against [[JPak and Friends]]. They also briefly flew to Las Vegas (in the United States) to attend [[IGN ProLeague Season 4 - Las Vegas|IPL 4]] from April 6 to April 8. After being sent to the loser's bracket by Dignitas in the second round, they came back to play against TSM in the grand final, which they ultimately lost to place second overall. On April 25, moved back to North America.
+
+In May 2012, CLG was involved in a major roster swap between themselves, Dignitas, and Curse Gaming. Saintvicious left CLG and joined Curse, while Curse jungler [[Crumbzz]] moved to Dignitas and switched to top lane, and CLG brought in Dignitas top laner [[Voyboy]] and moved HotshotGG from top lane to jungle. Additionally, the organization acquired a secondary roster consisting of [[Sycho Sid]], [[LiNk]], [[Zuna]], [[Hoodstomp]], and [[BloodWater]]. For more information about the history of that team, see {{bl|CLG Black}}. The main CLG roster renamed itself to '''CLG Prime''' to avoid confusion.<ref>[http://clgaming.net/news/171-introducing-clg-s-second-na-team-clg-black Introducing CLG's Second NA Team: CLG Black]''"clgaming.net"''</ref>
+
+With their new lineup, CLG placed second at the [[2012 MLG Pro Circuit/Spring|2012 Major League Gaming - Spring Championship]] in June<ref>[http://www.majorleaguegaming.com/competitions/36#event_106_archive MLG Spring Championship 2012 Results] ''majorleaguegaming.com''</ref> and then third at the [[GIGABYTE Esports LAN]]. On July 2, 2012 HotshotGG stepped down from the position of active CEO of Counter Logic Gaming, being replaced by his mother Helen "RealMomGG" Georgallidis. <ref>[http://clgaming.net/news/251-clg-appoints-new-ceo-helen-%E2%80%9Crealmomgg%E2%80%9D-georgallidis CLG appoints new CEO, Helen “RealMomGG” Georgallidis] ''clgaming.net''</ref>
+
+CLG returned to Korea to compete in [[Azubu The Champions Summer 2012]] in July. Once again they placed second in their group, and once again they were eliminated in the quarterfinals, this time losing to [[Azubu Frost]] - who went on to win the tournament. After their elimination from the tournament, the team remained in Korea to continue to practice for the upcoming [[Season Two/Regional Finals - Seattle|Season Two North American Regional Finals]]. There, they would take third place, qualifying for the [[Season 2 World Championship]].
+
+CLG didn't advance out of their group at Worlds, losing to [[Invictus Gaming]] and Azubu Frost, beating only [[SK Gaming]] by using strategy that involved running three [[Teleport|Teleports]] and a [[Promote]]. Infamously, Chauster commented in an interview that the team had prepared primarily strategies to be used if they got blue side in the coin toss, but all three of their group-stage coin tosses gave them purple side.<ref>[http://www.youtube.com/watch?v=-sPPUYw1t6A Chauster Talks About The S2 Worlds Loss feat. his girlfriend Maggie - IPL Interview] ''youtube.com''</ref> After Worlds, Voyboy left the team, HotshotGG moved from jungle back to top lane, Chauster moved to the jungle, and former [[MiG Frost]] AD carry [[Locodoco]] joined the team to fill the open support role.
+
+===Pre-Season 3===
+CLG prime would attend the [[2012 MLG Pro Circuit/Fall/Championship|2012 MLG Fall Championship]] in Dallas on November 2 through 4th. In the first round they faced the Korean powerhouse [[NaJin Sword]], where they were routed in two lopsided matches. Falling to the losers bracket, CLG Prime would sweep [[Curse Gaming]] in round one, and then pick up a close 2-1 series against another NA team [[Team Dignitas|Dignitas]]. They would face their sister team [[CLG EU]] in Round 3. Unfortunately, they were outmatched as the European team eliminated them 2-1 from the tournament. CLG Prime would place 4th with $2,000 in winnings.
+
+On November 29, CLG would enter the [[IPL 5]] tournament held in Las Vegas. In the group stages CLG Prime would dispatch the newly formed [[Team FeaR]] twice while dropping a game to CLG EU to advance. In the first round they would defeat [[Curse EU]] 2-1, and then move on to face [[FnaticRC]]. CLG Prime took the first game off Fnatic with sharp play from their Jiji's [[Twisted Fate]], however the champion was quickly banned out and CLG Prime would lose the next two games. In the losers bracket CLG Prime would face [[Moscow 5]], they would take the first game of the set, but then fell twice against the Russian team, finishing their run in the tournament. CLG Prime would place 5th-6th with $2,500 in prize money. CLG Prime outperformed most expectations of them at tournament, with a strong showing of [[Chauster]] as the new jungler, they also challenged the perception of [[Team Solo Mid]] as the strongest team in the NA scene<ref name="chau with tnomad">[http://www.gamespot.com/league-of-legends/videos/chauster-talks-about-their-run-at-ipl-5-2013-and-training-more-6400921/ Chauster talks about their run at IPL 5, 2013, and training more] ''gamespot.com''</ref>.
+
+After the event, [[Locodoco]] expressed in an interview that "coming to America was a mistake"<ref name="Loco mistake">[http://ggchronicle.com/coming-to-america-was-a-mistake-this-is-game-interviews-locodoco-of-clg-prime/ “Coming to America was a mistake.” – This Is Game interviews Locodoco of CLG Prime] ''ggchronicle.com''</ref>, but added that it did not indicate he would be leaving the team. On December 4 however, CLG announced the departure of Locodoco. They would use [[Nhat Nguyen]] as temporary substitute in the coming [[MLG Prizefights]].
+
+On December 28, CLG officially announced [[Aphromoo]] as their starting support player to fill the position left by [[Locodoco]], and the acquisition of [[LiNk]] as an alternate player. Also announced were the resignation of Chief Executive Officer Helen “RealMomGG” Georgallidis and Chief Operations Officer Robert “CyberBob” Del Papa, promotion of Kelby “SAYOCEAN” May to General Manager for the organization, and the renaming of the premier squad back to the original Counter Logic Gaming name from Counter Logic Gaming Prime, due to the departure of [[Counter Logic Gaming EU]] and disbanding of [[Counter Logic Gaming Black]], leaving the previously known Prime as the only team under the CLG banner. <ref name="clgin2013">[http://clgaming.net/news/420-clg-in-2013 CLG in 2013] ''clgaming.net''</ref>
+
+Following the acquisition of [[LiNk]], on January 15, [[bigfatlp]] announced that he would be stepping down from the starting roster to a substitute position, citing lack of confidence in his own play. <ref name="hellopepzorz">[http://www.facebook.com/LoLbigfatlp/posts/507862152570471 hello peepzorz,...] (in jijispeak) ''facebook.com''; [http://www.reddit.com/r/leagueoflegends/comments/16lzic/bigfatlp_is_now_a_sub_for_clg/c7x8hpn?context=1 manisier comments on bigfatlp is now a sub for CLG] (English translation) ''reddit.com''</ref>
+
+=== Season 3 ===
+Into the first week of Season 3, on February 9, [[Bloodwater]] was announced to be the second substitute player of the team,<ref name="gsbloodwater">[http://www.gamespot.com/league-of-legends/videos/kelby-may-talks-about-how-he-made-it-in-clg-a-new-sub-and-more-6403699/ Kelby May talks about how he made it in CLG, a new sub, and more] ''gamespot.com''</ref> but he left the team 4 days later.<ref name="bloodwaterdeparture">[http://www.facebook.com/GoodGameUniversity/posts/528370857207780 Good Game University Facebook Status]</ref>
+
+On February 27, 2013, CLG was participating in [[Riot League Championship Series/North America/Season 3/Spring Round Robin|Riot Season 3 NA Championship Series Spring Season]]. After 10 weeks Round Robin with [[Team SoloMid]], [[Team Dignitas]], [[Team Vulcun]], [[Team MRN]], [[Curse Gaming]], [[Good Game University]] and [[compLexity Gaming]], CLG successfully qualified to [[Riot League Championship Series/North America/Season 3/Spring Playoffs|Sping Season Playoffs]]. However, CLG was outplayed by [[Team Vulcun]] with 1-2 in Quarterfinals, placed 5th-6th with [[Team Dignitas]]. Also, CLG failed to qualify to [[Riot League Championship Series/North America/Season 3/Summer Round Robin|Riot Season 3 NA Championship Series Summer Season]] and participated in [[Riot League Championship Series/North America/Season 3/Summer Promotion|Summer Promotion]]. In the Summer Promotion, CLG faced [[Azure Cats]] in the promotion match. Fortunately, CLG defeated [[Azure Cats]] 3-0, securing their spot in the [[Riot League Championship Series/North America/Season 3/Summer Round Robin|Riot Season 3 NA Championship Series Summer Season]]. 
+
+As the unsatisfactory result of LCS Spring Season and preparing for LCS Summer Season, [[HotshotGG]] decided to step down from top lane and acquired [[Nientonsoh]] to fill the position. Moreover, [[bigfatlp]] returned to the main roster as jungler while [[Aphromoo]] left and [[Chauster]] returned to support position.
+
+On July 24, 2013, CLG announced that [[MonteCristo]] would be joining CLG as a coach.<ref name="montejoins">[http://clgaming.net/news/487-clg-brings-on-montecristo-as-coach CLG brings on MonteCristo as Coach] ''clgaming.net''</ref>
+
+The Summer LCS Season proved to rocky for the new CLG roster, spending most of the season competing to stay in middle of the pack, ending the season in 6th place with a 13-15 but able to make it into the playoffs. Their first game was against old time rivals [[TSM]] but they were unable to win a game, going 0-2, losing their chance to make it to the [[Season 3 World Championship]]. They went on to face [[Team Curse]] to compete for the 5th place spot to win a spot back for the Season 4 Spring LCS. They were able to come together and go 2-0 and win back the spot into the league.
+
+=== Pre-2014 Season ===
+[[Chauster]] announce his retirement from competitive play. [[bigfatlp]] moves to sub position. CLG stated that they are currently trying out new players for jungle and support.
+
+On November 7 it was announced that Aphromoo and TrickZ would fill the support and jungler positions for CLG during IEM Season VIII - Cologne.<ref>[http://www.ongamers.com/videos/aphromoo-discusses-his-return-to-clg-season-4-supp/2300-82/ Aphromoo discusses his return to CLG, season 4, supports and more] ''ongamers.com''</ref>
+
+=== 2014 Season===
+On August 12, 2014, Riot announced that '''Counter Logic Gaming''' violated the LCS rules by account sharing during their bootcamp in Korea. [[Link]], [[dexter]], [[Doublelift]] and [[Aphromoo]] were fined $ 1,250 USD each as well as 2-year ban from OGN and KeSPA-owned tournaments.<ref>[http://na.lolesports.com/articles/league-legends-competition-ruling-counter-logic-gaming-0 League of Legends Competition Ruling - Counter Logic Gaming] ''na.lolesports.com''</ref><ref>[http://www.leagueoflegends.co.kr/?m=esports_intro&mod=esports_newsview&idx=324 공식 리그 출전 선수 대리 게임 관련 e스포츠 제재 안내  (Korean)] ''leagueoflegends.co.kr''</ref>
+
+=== 2015 Preseason ===
+CLG was one of the fan-voted teams to [[IEM_Season_IX_-_Cologne|IEM Cologne]], along with [[Team Dignitas]] and [[Gambit Gaming]]. New jungler [[Xmithie]] was signed prior to the tournament but was unable to attend due to visa issues; the team played with [[Thinkcard]] instead and finished second, behind [[Gambit Gaming]].
+
+On December 10, CLG was fined $10,000 by Riot after being found guilty of poaching [[Scarra]] from [[Dignitas]]. Additionally, Scarra would be prohibited from serving the position of being CLG's head coach for the first three weeks of the spring LCS, and CLG would have to find a different head coach to fill that role for that period of time.<ref name=poachfine>[http://na.lolesports.com/articles/competitive-ruling-counter-logic-gaming Competitive Ruling: Counter Logic Gaming] ''lolesports.com''</ref> 
+
+CLG and Doublelift were fined once again on January 6, 2015 after being found guilty of poaching [[ZionSpartan]]. CLG was fined $2,000 while Doublelift was fined $2,500. Furthermore was CLG restricted from fielding ZionSpartan as a player or coach for the first week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 LCS Spring Split]].<ref>[http://na.lolesports.com/articles/competitive-ruling-counter-logic-gaming-0 Competitive Ruling: Counter Logic Gaming] ''lolesports.com''</ref>
+
+===2015 Season===
+With the addition of Xmithie and ZionSpartan, CLG stormed to the top of the league's [[Riot_League_Championship_Series/North_America/2015_Season/Spring_Season|spring split]], boasting a 7-1 start and holding either first or second place in the league at the end of every week until the last day of the split. Despite setting a team record regular season winrate at 12-6, CLG lost a second-place tiebreaker with [[Cloud9]] and failed to receive a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye. In the quarterfinals against [[Team Liquid]], CLG repeated their last season's performance with another first-round 0-3 series loss, finishing the season tied for fifth with [[Gravity (North American Team)|Gravity]].
+
+Prior to the start of the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]], CLG announced that they would move to a six-man roster with two mid laners who would both start in games: [[Pobelter]] and [[Huhi]] joined the team, while Link left.<ref>[http://clgaming.net/news/668-clg-brings-change-to-the-mid-lane CLG Brings Change to the Mid Lane] ''clgaming.net''</ref> Despite this announcement, Pobelter would play every game in the summer split. They also added a new head coach, Chris "'''Blurred Limes'''" Ehrenreich, and moved analyst '''Zikz''' to Strategic Coach.<ref name=summer15coaching>[http://clgaming.net/news/675-introducing-the-new-clg-lol-coaching-staff Introducing the new CLG.LoL Coaching Staff] ''clgaming.net''</ref>
+
+Echoing their spring split performance, CLG started the summer split strong, in first place at the end of each of the first four weeks, but then lost four consecutive games and fell to fifth. This time, however, they rebounded and ended the season in second at 13-5 after a lost tiebreaker with first place Team Liquid. They received a bye in the first round of the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]] and then swept both [[Team Impulse]] and [[Team SoloMid]] 3-0 to win their first LAN event since [[2011_MLG_Pro_Circuit/Raleigh|MLG Raleigh]] in 2011 and received North America's top seed to the [[2015 Season World Championship|World Championship]]. Shortly after their qualification, the team announced that Huhi would be substituting for them in the jungle, due to "unresolvable VISA issues" with Xmithie; however, two weeks later the situation was resolved with some help from members of the community who reached out to the team on reddit.<ref name="huhigroups">[http://clgaming.net/news/722-clg-worlds-roster-update CLG Worlds Roster Update] ''clgaming.net''</ref><ref>[http://www.reddit.com/r/CLG/comments/3km98d/lol_is_there_anyway_i_can_get_into_contact_with/ <nowiki>[LoL] Is there anyway I can get into contact with management in terms of the VISA issue, I found something that might help?</nowiki>] ''reddit.com''</ref><ref name="xmithiegroups">[http://clgaming.net/news/724-xmithie-to-play-in-2015-world-group-stages Xmithie to Play in 2015 World Group Stages] ''clgaming.net''</ref> Despite playing with Xmithie and having a relatively easy group draw with [[KOO Tigers]], [[Flash Wolves]], and [[paiN Gaming]], CLG didn't advance from their Worlds group, ending with a 2-4 record including a loss to paiN.
+
+===2016 Season===
+====Preseason====
+Despite the fact that Huhi hadn't gotten to play a single game live with the team during the 2015 season, in October CLG announced that he would replace Pobelter for the 2016 season as starting mid laner.<ref name="huhi-replace-pob">[http://www.clgaming.net/news/728-mid-lane-changes-for-lcs-2016 Mid Lane Changes For LCS 2016] ''clgaming.net''</ref> Doublelift also left the team, after over four years of playing for CLG.<ref name="dlleaveclg">[http://clgaming.net/news/733 CLG Parts Ways With Doublelift] ''clgaming.net''</ref> He was replaced by [[Stixxay]], originally a substitute at [[IEM Season X - San Jose|IEM San Jose]] in November 2015, but eventually a starting member for the [[League Championship Series/Europe/2016 Season/Spring Season|2016 season]]. At San Jose, CLG defeated [[Unicorns of Love]] and [[Jin Air]] before losing to [[Origen]] in the finals. Their performance earned them a seed into [[IEM Season X - World Championship|IEM Katowice]], which they attended after the seventh week of the [[League Championship Series/North America/2016 Season/Spring Season|LCS]]. However, despite being in a strong position domestically, in second place behind only the almost-undefeated [[Immortals]] (to whom CLG had handed their only loss of the season the week before), CLG were eliminated immediately from Katowice, losing first to [[SK Telecom T1]] and then to [[Fnatic]].
+
+====NA LCS Spring Split====
+CLG entered the [[League Championship Series/Europe/2016 Season/Spring Playoffs|LCS playoffs]] in second place, still behind Immortals, and still the only team to have beaten Immortals in the regular season. They won their semifinal series against Team Liquid in five games, winning the last game with a double teleport play to catch out [[Piglet]] and close out a win. Despite seeding expectations, their finals match was against TSM, who had 3-0'd Immortals the week before. This series also went to five games, and CLG once again won, qualifying for the [[2016 Mid-Season Invitational|Mid-Season Invitational]]. While individually their players were not as strong as TSM's, CLG's win over them was attributed to team coordination; coach [[Zikz]] described the team by saying, "None of us are selfish, at all. We only focus on teamwork," in a post-finals interview.<ref>[http://www.youtube.com/watch?v=o_dUr1fHaMU#t=1h1m5s CLG vs TSM, Game 5 - NA LCS 2016 Spring Playoffs Grand Final - Counter Logic Gaming vs Team SoloMid (Interview with Tony "Zikz" Grey)] ''youtube.com''</ref>
+
+====2016 Season Mid-Season Invitational====
+CLG were seen by some as too weak individually to compete at MSI and by others as having a chance based on their their teamwork. The team shattered expectations in two ways - first, by going 1-1 with both [[SK Telecom T1]] and [[Royal Never Give Up]], the two favorites; and second, by losing a game to the IWCI team [[SuperMassive eSports]]. Their final group stage record was 7-3, behind only the Chinese RNG, and they won their semifinal match against the [[Flash Wolves]] 3-1 before losing to the revitalized SK Telecom 3-0 in the finals. Aphromoo in particular received attention for setting the support meta of the tournament, playing {{ci|Sona}} in the semifinals which led to a {{ci|Nami}} pick from SKT's [[Wolf (Lee Jae-wan)|Wolf]] in the finals. Stixxay also cemented his position as a strong rookie player with several strong performances. With their second-place finish, CLG set two new records for a North American team: they were the first ever to beat SKT, and the first to advance to the finals of a Riot-sponsored international tournament.
+
+====NA LCS Summer Split====
+Returning to North America for the [[League Championship Series/North America/2016 Season/Summer Season|Summer Split]], CLG were expected to be at the top of the league after their MSI performance. However, not only did they fail to achieve that, but they weren't even in the top half of the standings until week 6. From there, they climbed to a fourth place regular season finish. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]], CLG first faced off against Team Liquid, whom they beat 3-1, before falling to TSM 3-0 in the semifinals. Crucially, one of Huhi's signature mid lane champions [[Aurelion Sol]] was found to have a bug partway through their first game, and the game was remade with Aurelion Sol disabled for the rest of the playoffs (though it was generally accepted that TSM would have won regardless).<ref>[http://www.thescoreesports.com/lol/news/8271-exit-the-dragon-on-competitive-integrity-and-aurelion-sol Exit the Dragon: On Competitive Integrity and Aurelion Sol] ''thescoreesports.com''</ref> CLG lost the third-place to [[Immortals]] but automatically qualified for the [[2016 Season World Championship|World Championship]] based on [[2016 Season/Championship Points|Championship Points]] due to TSM's finals win over Cloud9.
+
+====2016 Season World Championship====
+CLG were seeded into Group A at Worlds, alongside the [[ROX Tigers]], [[G2 Esports]], and wildcard [[Albus NoX Luna]]. Going into the group, CLG and G2 were seen as contenders for the second seed, while Tigers and Albus NoX were expected to finish first and last, respectively. Instead, CLG dropped both of their games to the wildcard team, and ANX skyrocketed to a second-place group stage finish while G2 collapsed into last place; CLG ended their Worlds run in third with a 3-3 record.
+
+===2017 Season===
+Transitioning into the [[League_Championship_Series/North_America/2017_Season/Spring_Season|spring split]] of the 2017 LCS season, CLG was the only North American team to not make any changes to its roster. They were inconsistent to begin the split, fluctuating between 5th and 7th place over the first half of the season before stabilizing with a 2-0 week 5. CLG remained in the playoffs after that, and a 3-1 record down the stretch put them in fourth behind [[TSM]], [[Cloud9]] and a much improved [[Phoenix1]].
+
+In the playoffs, CLG faced off against 5th seed [[FlyQuest]]. Expected to win due to FlyQuest's late season struggles, CLG seemed to prove that prediction right by winning the first two games. However, FlyQuest came back to win the next two. With a game 5 draft consisting mainly of comfort picks on both sides, including [[Evelynn]] for [[Moon (Galen Holgate)|Moon]] and [[Kalista]] for [[Stixxay]], CLG seemed likely to win simply by outscaling FlyQuest. However, some questionable aggressive calls around Baron would allow FlyQuest to complete the reverse sweep, ending CLG's season. 
+
+In the mideason, CLG swapped junglers with [[Immortals]], sending [[Xmithie]], one of their longest tenured players, to the team for [[Dardoch]]. This change seemed to work out for both sides, as CLG began the season in a three way race for first with Immortals and TSM. At the close of week 7, CLG was 10-4, tied with TSM for second, one game behind Immortals. However, before the start of week 8, the team announced that Dardoch would be leaving for [[Team Liquid]] due to irreconcilable conflicts with his teammates, and would be replaced by rookie [[OmarGod]], who had just spent his first professional season with [[CLG Academy]] in the NACS. CLG continued to play fairly well over the final two weeks, going 2-2, but fell into 3rd place due to TSM and Immortals posting better records, meaning they would miss out on a playoff bye. 
+
+In the quarterfinals, CLG matched up against 6th place [[Team EnVyUs]], who had lost their last four games and were considered the weakest playoff team. After CLG won the first game decisively, EnVyUs shocked everyone by taking the next two games, capitalizing on OmarGod's inexperience and sudden subpar play by the CLG bottom lane. CLG's veteran leadership won out in the end, and they managed to come back to take the series, but the weakened team was immediately swept by Immortals in the semi-finals. Sent to the third place match against [[Team Dignitas]], CLG managed to eke out a shred of hope for themselves by summarily sweeping them, in part due to them catching Dignitas jungler [[Shrimp]] out in the jungle in all three games.
+
+Their third place finish gave CLG the second seed in the [[2017 Season North America Regional Finals|Regional Finals]]. There, they defeated FlyQuest 3-1, setting up a match with [[Cloud9]] to make [[2017 Season World Championship|Worlds]]. After dropping the first two games, CLG managed to win the third and make it a series, but dropped the fourth, ending their 2017 season. 
+
+===2018 Season===
+====Spring Split====
+In the offseason, [[OmarGod]] returned to [[CLG Academy|CLG Academy]] to play in the newly formed [[NA Academy League/2018 Season/Spring Season|NA Academy League]] and [[Aphromoo]] left the team after four years to join the newly formed [[100 Thieves]]. Replacing them would be former [[TSM]] support [[Biofrost]] and jungler [[Reignover]], who was coming off a subpar season with [[Team Liquid]]. Expectations were high for this new roster, due to Biofrost's three consecutive split championships with TSM and the hope that Reignover would return to his old form and replicate his previous successful tenures with [[Immortals]] and [[Fnatic]]. However, the team was unable to live up to expectations, which resulted in an inconsistent [[League_Championship_Series/North_America/2018_Season/Spring_Season|Spring Split]]. A 2-0 week 3 made it seem as though the team had turned a corner after a poor start, but they proceeded to lose their next six games to fall to a tie for dead last going into week 7. As their playoff hopes diminished, CLG seemed to have turned a corner and experienced a resurgence, winning their next four games straight. However, they were not able to finish strongly, being eliminated from playoff contention by [[TSM]] and [[Team Liquid]] in the final week. This marked the first time in franchise history that CLG had failed to make playoffs.
+
+====Summer Split====
+
+CLG elected to run the same roster from Spring for the [[NA LCS 2018 Summer|2018 Summer Split]], despite the disappointing performance and poor finish. The team experienced more of the same inconsistencies they experienced in Spring, resulting in another sub-optimal split and placement. They placed generally evenly through the first four weeks, with an inspiring 2-0 week four, with outstanding performances from the bot lane of Stixxay and Biofrost, earning them spots on the OP 5 for that week. At this point, CLG was thought of as a lock for playoffs with how strong they appeared. However, they once again failed to live up to expectations, going four weeks without winning a single game. On August 7th, following the organization's sixth consecutive loss, long-time head coach [[Zikz]] was fired after a four-year tenure with the team. The move was met with a wave of criticism both for the timing of the move as well as the move itself of departing with one of the greatest and most decorated coaches in NALCS history. This was thought of to be the first sign of the team transitioning into a rebuilding phase. The team was officially eliminated from playoff contention for the 2018 Summer Split by [[FlyQuest]] in week 8. Because it was then impossible for them to make playoffs, CLG decided to substitute academy jungler [[Wiggily]] in for Reignover and academy top laner [[FallenBandit]] in for Darshan going into week 9, in order to observe how they played at the LCS level. The move proved successful, as Wiggily played exceptionally well with huhi in their first win since week 4 against [[Clutch Gaming]]. CLG then subbed Darshan back in for FallenBandit for their final game of the split to see how Wiggily would play with the entire starting roster, and Wiggily only managed to improve. CLG decisively won their final game of the Summer Split against [[Golden Guardians]] for a 2-0 week off the back of Wiggily, who also received his first career Player of the Game award in his second game as a pro. Although they finished the split with another 7-11 record, spirits were high going into the offseason, as they seemed to have found their franchise jungler in Wiggily.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayer|HotshotGG|ca|George Georgallidis|'''Co-Founder'''}}
+{{listplayersp|Vodoo|de|Alexander Beutel|'''Co-Founder'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||us|Dan Fleeter|'''Chief Operating Officer'''|newteam=none}}
+{{listplayersp|KimDynasty|us|Gregory Kim|'''Head of CLG'''|newteam=none}}
+{{listplayersp|missharvey|ca|Stephanie Harvey|'''Director of Esports Franchise Development and Outreach'''|newteam=none}}
+{{listplayersp||us|Amy Beltran|'''Art Director'''|newteam=none}}
+{{listplayersp|||Calvin Do-Nguyen|'''Accounting Manager'''|newteam=none}}
+{{listplayersp|||Lily Lewis|'''Account Manager, Marketing Partnerships'''|newteam=none}}
+{{listplayersp||us|Ronny Weyant|'''Team Operations Manager'''|newteam=none}}
+{{listplayersp|itsSlicer||Christopher Han|'''Digital Marketing Manager'''|newteam=none}}
+{{listplayersp|||Michael Fricke|'''Video Producer'''|newteam=none}}
+{{listplayersp|||Kyle Blake|'''Video Producer'''|newteam=none}}
+{{listplayersp|PewPewU||Kevin Toy|'''Senior Marketing Coordinator & Team Operations'''|newteam=none}}
+{{listplayersp|||Tyler Villalobos|'''Social Media Coordinator'''|newteam=none}}
+{{listplayersp|mnqcook|ca|Andrew Tye|'''Cook, Wellness Coach, & Trainer'''|newteam=NRG}}
+{{listplayersp|Jonathon|ca|Jonathon McDaniel|'''League of Legends General Manager'''|newteam=NRG}}
+{{listplayersp|PsycSummer|us|Summer Scott|'''Director of Team Operations'''|newteam=none}}
+{{listplayer|Rudeclaw|us|Andy Jespersen|'''Manager'''|newteam=NRG}}
+{{listplayer|Thinkcard|us|Thomas Slotkin|'''Head Coach'''|newteam=NRG}}
+{{listplayer|Croissant|us|Chris Sun|'''Strategic Coach'''|newteam=NRG}}
+{{listplayer|Apollo (Apollo Price)|us|Apollo Price|'''Positional Coach'''|newteam=NRG}}
+{{listplayer|Damonte|us|Tanner Damonte|'''Positional Coach'''|newteam=NRG}}
+{{listplayer|sOAZ|fr|Paul Boyer|'''Positional Coach'''|newteam=NRG}}
+{{listplayer|1onz|ca|Tom Rahman|'''Analyst'''|newteam=NRG}}
+{{listplayer|Gunaso|pt|André Ferreira|'''Analyst'''|newteam=NRG}}
+{{listplayer|Adrian Riven|cu|Adrian Garcia|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Nemo|ca|Zhou Qi-Yu (周齐宇)|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Rush|kr|Lee Yoon-jae (이윤재)|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Prussian|us|Christopher Troeh|'''Analyst'''|newteam=DSC3V}}
+{{listplayer|Brandini|us|Brandon Chen|'''Positional Coach'''|newteam=FLY FAM}}
+{{listplayer|F1RE|es|Jose Maria Iznardo|'''Analyst'''|newteam=Astralis}}
+{{listplayersp|Gutex|dk||'''Positional Coach'''|newteam=none}}
+{{listplayersp|Beora|us|Mike Skriloff|'''Analyst'''|newteam=none}}
+{{listplayer|Galen|us|Galen Holgate|'''Head Coach'''|newteam=none}}
+{{listplayer|Prymari|us|Brandon Kartman|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Tafokints|us|Daniel Lee|'''League of Legends General Manager'''|newteam=Riot Games Inc.}}
+{{listplayersp|Trinitiii|us|Matthew Nausha|'''Head of Esports'''|newteam=Riot Games}}
+{{listplayer|LS|us|Nick De Cesare|'''Streamer'''|newteam=T1}}
+{{listplayer|xSojin|us|Mathew Perez|'''Assistant Coach'''|newteam=Not Academy Team}}
+{{listplayer|Weldon|us|Weldon Green|'''League of Legends Division Coach'''|rejoined=yes|newteam=none}}
+{{listplayer|SSONG|kr|Kim Sang-soo (김상수)|'''Head Coach'''|newteam=DRX}}
+{{listplayersp|||Cailey Fiesel|'''Director of Sales'''|newteam=none}}
+{{listplayersp||us|Adam Hobbs|'''Director of Marketing'''|newteam=none}}
+{{listplayersp|Majora|us|Jonathan Barajas|'''Team and Business Operations Coordinator'''|newteam=FlyQuest}}
+{{listplayersp||uk|Jack McQuone|'''Senior Video Producer'''|newteam=G2}}
+{{listplayersp|||Devan Malhotra|'''Product Manager'''|newteam=none}}
+{{listplayer|Irean|kr|Heo Yeong-cheol (허영철)|'''Strategic Coach'''|newteam=EG}}
+{{listplayer|Yassuo|us|Mohammad "Moe" Abdalrhman|'''Streamer'''|newteam=100T}}
+{{listplayersp|Tranmobile|us|Brian Tran|'''Director of Operations & Chief of Staff'''|newteam=Retired|comment=koko collective}}
+{{listplayersp||us|Nick Allen|'''Chief Operating Officer'''|newteam=none}}
+{{listplayer|Goldman|us|Zachary Goldman|'''Assistant Coach'''|newteam=tsm}}
+{{listplayer|Zikz|us|Tony Gray|'''Head Coach'''|newteam=tsm}}
+{{listplayersp|jxias||Jeff Shaw|'''Data Analyst'''|newteam=Dignitas}}
+{{listplayer|Curryshot|us|Rohit Nathani|'''Streamer'''|newteam=none}}
+{{listplayersp|Beancurd||Howard Xing|'''Director of Finance'''|newteam=Riot}}
+{{listplayersp|TrustyTurkey|ca|Louis Lascelles-Palys|'''Video Editor'''|newteam=misfits}}
+{{listplayersp|||Julia Wu|'''Social Media Strategist & Digital Marketing'''|newteam=100 Thieves}}
+{{listplayersp|bchenN|us|Bryan Chen|'''Director of Operations'''|newteam=none}}
+{{listplayer|Mylixia|us|Devin Nash|'''Chief Executive Officer'''|newteam=Retired|comment=Novo}}
+{{listplayersp|Spiher|us|John Spiher|'''Director of Business Development'''|newteam=dig}}
+{{listplayersp|MaTTcom|us|Matthew Marikian|'''Art Director, Director of Partnerships, & Head of Merch'''|newteam=Retired|comment=Omnislash, Inc.}}
+{{listplayersp|Sygh|us|Joseph Pomroy|'''Analyst & Jungle Positional Coach'''|newteam=FlyQuest}}
+{{listplayersp|zercei|us|Jeff Prasad|'''Player Improvement Analyst'''|newteam=Golden Guardians}}
+{{listplayersp|Grievance|uk|Grant Rousseau|'''Player Development Coach & Team Manager'''|newteam=Mysterious Monkeys}}
+{{listplayersp|Mike|us|Michael Schwartz|'''Player Development Coach'''|newteam=CLG|comment=CS:GO}}
+{{listplayersp|Mr. Mandalcio|us||'''Analyst'''|newteam=none}}
+{{listplayer|Weldon|us|Weldon Green|'''Consultant'''|newteam=Ember}}
+{{listplayersp|Blurred Limes|us|Chris Ehrenreich|'''Head Coach'''|newteam=SPY}}
+{{listplayersp|Scoot|us|Scott Belmont|'''Analyst'''|newteam=Stratos (Team)}}
+{{listplayer|hi im gosu|ca||'''Streamer'''|newteam=TSM}}
+{{listplayer|scarra|us|William Li|'''Head Coach'''|newteam=CLG B}}
+{{listplayersp|Comely|us||'''Macro Specialist'''|newteam=none}}
+{{listplayersp|SAYOCEAN|us|Kelby May|'''General Manager'''|newteam=Retired|comment=GoodGame}}
+{{listplayer|MonteCristo|us|Christopher Mykles|'''Head Coach'''|newteam=Renegades}}
+{{listplayersp|RealMomGG|ca|Helen Georgallidis|'''Chief Executive Officer'''|newteam=Retired|comment=Thames Valley District School}}
+{{listplayersp|CyberBob|us|Robert Del Papa|'''Chief Operating Officer'''|newteam=Retired|comment=Thousand Eye Studios}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As CLG Prime ===
+{{TeamResults|CLG Prime|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+===Rosters===
+<gallery>
+Counter_Logic_Gaming_S3_LCS_Spring.jpg|Counter Logic Gaming Season 3 LCS Spring Roster<br> Left to Right: Chauster, Doublelift, Aphromoo, Link, HotshotGG
+s3_clg.png|Counter Logic Gaming's S3 NA LCS Summer Split Initial Starting Lineup<br> Left to Right: Link, bigfatlp, Doublelift, Chauster, Nientonsoh
+Counter_Logic_Gaming_S4_LCS_Spring.jpg|Counter Logic Gaming 2014 Season LCS Spring Roster<br> Left to Right: Link, dexter, Doublelift, Nientonsoh, Aphromoo
+CLGRoster2015.png|Counter Logic Gaming 2015 Season LCS Spring Roster<br> Left to Right: ZionSpartan, aphromoo, Link, Doublelift, xmithie
+CLGRoster2015Summer.png|Counter Logic Gaming 2015 Season LCS Summer Roster<br> Left to Right: ZionSpartan, aphromoo, Pobelter, Doublelift, Xmithie
+CLG Rosters LCS 2016 Spring.jpg|Counter Logic Gaming 2016 Season LCS Spring Roster<br> Left to Right: Darshan, Xmithie, Huhi, Stixxay, Aphromoo
+CLGworlds.png|Counter Logic Gaming 2016 World Championship Roster<br> Left to Right: Darshan, Xmithie, Huhi, Stixxay, Aphromoo
+CLG 2017 Spring.png|Counter Logic Gaming 2017 LCS Spring Roster
+Counter Logic Gaming Roster 2018 Spring.png|Counter Logic Gaming 2018 LCS Spring Roster
+Counter Logic Gaming 2019 LCS Spring Split Roster.jpg|Counter Logic Gaming 2019 LCS Spring Roster
+2020 CLG Spring.png|LCS 2020 Spring
+</gallery>
+
+==External Links==
+* [http://ggchronicle.com/clg-prime/ CLG Prime Preview: Season Two World Finals]
+* [http://www.youtube.com/watch?v=Ga5ghMdsMUk Azubu visits CLG Gaming House]
+* [http://www.sk-gaming.com/content/80558-Living_the_Dream_Counter_Logic_Gaming Living the Dream: Counter Logic Gaming]
+* [http://na.lolesports.com/season3/split1/teams/counter-logic-gaming CLG Team Profile]
+* [http://www.youtube.com/watch?v=aaS6gJ3WcCo Counter Logic Gaming: Stronger Together]
+
+==References==
+<references />
+{{MLG Champions Navbox|2011 Raleigh}}

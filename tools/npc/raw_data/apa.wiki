@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=APA%20(Eain%20Stearns)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.379Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「APA」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=APA
+|name=Eain Stearns
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=2002
+|birth_date_month=March
+|birth_date_day=05
+|favchamp=Ziggs
+|favchamp2=Aurelion Sol
+|checkbox1=No
+|compID1=always plan ahea
+|checkboxComp=No
+|ids='''NA:''' BUZZCUTmanFIGHT#APA <br>See No Evil#APA <br> '''KR:''' TL YAPA#HONDA <br> '''EUW:''' TL El Debutante <br> '''BR:''' TL YAPA#APA
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/alwaysplanahealol
+|twitter=alwaysplanahea1
+|discord=https://discord.gg/yapa
+|lolpros=https://lolpros.gg/player/apa
+|deeplol=https://www.deeplol.gg/pro/APA-Eain_Stearns
+|dpmlol=https://dpm.lol/pro/APA
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+'''APA''' is from Warren, Ohio. Starting out as an [[Aurelion Sol]] one-trick on an account named '''always plan ahea''', he began playing competitively on a variety of minor amateur teams in the 2019 season. The most notable of these teams was [[Lucky Esports]], where he played alongside future LCS players [[Philip (Philip Zeng)|Philip]], [[Kenvi]], and [[Tomo]].
+
+=== 2020 Season ===
+At the beginning of the 2020 season, APA joined [[Supernova]], a longstanding North American amateur organization. During this time, he continued to main Aurelian Sol despite its lack of presence in the meta, but gradually diversified his champion pool over the season. Supernova performed well, winning the [[FCS Season 4 Playoffs]] and ranking highly in many of the other tournaments in the amateur circuit, but fell short in the [[SGC 2020 Play Off]], finishing fourth and not qualifying for [[NASG 2020|Scouting Grounds]]. Despite this, APA qualified for Scouting Grounds individually due to his high solo queue rank. It was at Scouting Grounds that he officially changed his competitive ID from always plan ahea to APA.
+
+Prior to Scouting Grounds, APA was rated highly by analysts. In Tim Sevenhuysen and [[Pastrytime]]'s [https://mobalytics.gg/blog/lol-scouting-grounds-2020-power-ranking/ power rankings] for the event, APA was ranked fourth of the twenty attendees. The analysts praised him for his roam-heavy style but criticized his champion pool, claiming he was still too reliant on off-meta picks like Aurelian Sol and [[Cho'Gath]]. At the event itself, APA competed on [[Team Mountain Drake (NASG Team)|Team Mountain Drake]], which placed fourth out of the four teams. While the other three mid laners at the tournament ([[Copy (Jouhan Pathmanathan)|Copy]], [[Yunbee]], and [[CptShrimps]]) eventually wound up on either academy teams or LCS-affiliated amateur teams, APA would not be picked up by an LCS organization.
+
+=== 2021 Season ===
+APA left Supernova and joined [[Barrage.NA]], the North American branch of a European organization. He was the only player on the team who did not have prior academy experience. Working on the weaknesses that plagued him during the previous season, he focused primarily on playing meta champions, only using Aurelian Sol as an occasional pocket pick. Midway through the season, Barrage was acquired by the [[Resolve]] organization and Barrage.NA became [[Resolve NA]]. Like Supernova the year prior, the Barrage/Resolve team performed respectably across the season, although it usually finished behind the other top amateur teams. At [[LCS Proving Grounds/2021 Season/Summer|Proving Grounds]], however, the team outperformed expectations and finished as one of the top two amateur organizations in the tournament, qualifying all of its team members for [[NASG 2021|Scouting Grounds]].
+
+During his second Scouting Grounds appearance, APA was drafted onto [[Team Ocean Drake (NASG Team)|Team Ocean Drake]]. However, APA's team once again finished last and APA was not picked up by an LCS organization afterward.
+
+=== 2022 Season ===
+APA joined [[Maryville University]], considered one of the best collegiate organizations in North America, where he split time with Oceanic mid laner [[Getback]]. Maryville performed well throughout the season in both the amateur and collegiate scene, but was not ever to finish first in either the Proving Grounds Circuit or the [[College League of Legends/2022 Season/Championship|College League of Legends Championship]]. As Scouting Grounds was discontinued, APA's competitive season ended after being knocked out early in [[LCS Proving Grounds/2022 Season/Summer|Proving Grounds]]. However, APA would get another chance to showcase his abilities. Because [[Worlds 2022]] was held in North America, many of the top professional players from around the world played in the North American Champions Queue.
+
+APA performed well in Champions Queue even against elite competition, even maintaining first place on the server for several days. This performance skyrocketed APA's profile as a top upcoming North American talent and he was invited to the broadcasted tryouts for [[Team Liquid Academy]]. APA received even more attention during the tryouts after a [https://twitter.com/alwaysplanahea1/status/1591219885757300736 game-saving 2v5 pentakill]; APA and his team would go on to win the tryouts.
+
+== Trivia ==
+* His ID '''APA''' stands for "always plan ahea," his solo queue ID.
+* Known for his {{ci|Aurelion Sol}} and his {{ci|Ziggs}}.
+* His EUW ID '''El Debutante''' comes from the nickname he receives in the [[Toad|ToadAmarillo]]'s LCS costream.
+
+=== Individual Awards ===
+* LCS Finals MVP (2024 Spring)
+* LCS First All-Pro Team x1 (2024 Summer)
+* LCS Most Improved (2024)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

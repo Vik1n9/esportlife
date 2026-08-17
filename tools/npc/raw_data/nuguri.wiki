@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Nuguri&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.044Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Nuguri」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Nuguri
+|name=Jang Ha-gwon
+|nativename=장하권
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=17
+|favchamp=Jayce
+|favchamp2=Kennen
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:''' 雨月云<br>'''KR:''' 아발론친추주세요'''EUW:''' Saim Sejong<br>Stargazer7
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/jhg4570
+|youtube=https://www.youtube.com/channel/UCZcWoFy3FfeJjbJhrGtZnpw
+|lolpros=https://lolpros.gg/player/nuguri/
+|deeplol=https://www.deeplol.gg/pro/Nuguri
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Nuguri''' means "raccoon dog" (너구리) in Korean. 
+* Known for his {{ci|Vladimir}} and for his unique builds on it.
+** Pioneered building {{ii|Fiendish Codex}} and {{ii|Kindlegem}} early in order to hit maximum cooldown reduction. 
+** Later began to play Kleptomancy Vladimir with {{ii|Cull}} and {{ii|Ancient Coin}} purely to maximize gold income. 
+
+=== Individual Awards ===
+* LCK Finals MVP x1 (Summer 2020)
+* LCK 1st All-Pro Team x2 (Spring 2020, Summer 2020) 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

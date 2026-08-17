@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mystic&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.370Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mystic」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Mystic
+|name=Jin Seong-jun
+|nativename=진성준
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=January
+|birth_date_day=08
+|favchamp=Ezreal
+|favchamp2=Caitlyn
+|favchamp3=Graves
+|favchamp4=Jinx
+|checkbox1=Yes
+|favchamp5=Ashe
+|checkboxComp=No
+|ids='''CN:''' WE丶Mystic<br>'''KR:''' cherish0120<br>히순이
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/m2stic
+|facebook=https://www.facebook.com/wlstjdwns
+|instagram=seongjunkingking
+|youtube=https://www.youtube.com/channel/UCa1kFfbmnxvRuFM7c9yzTgA
+|weibo=https://www.weibo.com/u/5594593649
+|deeplol=https://www.deeplol.gg/pro/Mystic
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=Jinsrial
+}}
+==Biography==
+===2014 Season===
+Jin "'''Mystic'''" Seong-jun originally was a substitute for [[Chunnam Techno University]] but he never played for them and left them sometime before the end of 2013. He then joined the [[Jin Air Green Wings Stealths]] as an AD carry that same year. In [[PANDORA.TV Champions Winter 2013-2014|Champions Winter 2013-2014]], the Stealths failed to make it past the group stage. Eventually, Mystic moved from the Stealths to the [[Jin Air Green Wings Falcons]]. He played with the Falcons in [[HOT6iX Champions Spring 2014]] but they failed to win a game and missed playoffs. In May 2014, he left Jin Air, and in November he joined [[Team WE Academy]], where he temporarily switched to jungle from AD carry. He played with them in the [[2015 LPL/Spring/Promotion|2015 LPL Spring Promotion]] and they managed to qualify for the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] after beating [[Gamtee]] 2-1.
+
+===2015 Season===
+Mystic joined [[Team WE]] as a substitute in January of 2015. He was given the starting position for the [[IEM Season IX - World Championship]] in March of 2015. Due to their 1st place finish at [[IEM_Season_IX_-_Shenzhen|IEM Shenzhen]], Team WE were invited to compete at the IEM Season IX - World Championship. After a Round 1 loss against [[Team SoloMid]], the team went on to beat [[Gambit Gaming]] in Round 1 of the losers bracket. Round 2 of the losers bracket saw WE beat [[CJ Entus]], securing the team a place in the bracket stage. Mystic and Team WE then pulled off the upset of the tournament, emerging victorious in their semifinal matchup over the previously unbeaten [[GE Tigers]]. They went on to finish in 2nd place after losing to Team SoloMid in the final of the tournament. Mystic came back to China to finish up the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] as a permanent replacement to [[Styz]], the previous AD carry for WE. Two weeks later, they finished up their [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] with a 3-0 loss to EDG and a 3-2 loss to LSPL team, [[Qiao Gu]], to finally end in fourth overall. They made a late surge near the end of the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] and overtook [[Masters 3]] to qualify for the [[2015 LPL/Spring/Playoffs|2015 LPL Spring Playoffs]] as the eighth seed. They matched up against EDG in the first round and with EDG's mid laner, [[PawN]], being out sick, it seemed as though they were going to take the series. However, PawN came back to play game 5 and EDG knocked Team WE out 3-2. Shortly afterwards, WE played in the [[International Esports Tournament 2015]] and managed to make it to the finals but lost 2-1 there to [[Invictus Gaming]]. WE participated in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] and made it to the quarterfinals but they lost 3-0 there to EDG. They ended in eleventh place in the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]] and were forced to play in the [[LPL/2016 Season/Spring Promotion|2016 LPL Spring Promotion Tournament]]. They requalified for the [[LPL/2016 Season/Spring Season|2016 LPL Spring Season]] with a decisive 3-0 victory over [[Unlimited Potential]].
+
+===2016 Season===
+
+In the 2016 Season after they re-vamped their entire roster, Team WE entered the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] as underdogs but proved to be contenders for the title and finished 2nd with a 10-6 regular season record. Going into the Playoffs, the team defeated [[Vici Gaming]] 3-1 and despite losing to [[Royal Never Give Up]] 2-3 in the Semifinals the team finished in 3rd after they took down [[Qiao Gu Reapers]] in the third-place match. Summer was slightly more successful for Team WE as the team finished 2nd in their group. In the playoffs they finished 4th after a 1-3 loss to [[I May]]. Ultimately it was I May that ended up being Team WE's downfall. They lost an incredibly close series 2-3 to I May in the Regional Qualifiers. This unfortunately meant that they didn't qualify for Worlds.
+
+===2017 Season===
+
+The 2017 Season was much more successful for Team WE. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] in 2nd place with a 10-6 record. In the [[LPL/2017_Season/Spring_Playoffs|2017 LPL Spring Playoffs]] Team WE was able win their first LPL title after taking down RNG 3-0 in the finals. They attended the [[2017 Mid-Season Invitational]] and made it through the group stage after they finished 2nd with a 7-3 record. In the Semifinals they were eliminated after a 1-3 loss to [[G2 Esports]]. Summer wasn't as successful for WE domestically. They were unable to defend their LPL title after they finished 2nd in their regular season group and lost 2-3 to Invictus Gaming in the third place match of the playoffs. They got their revenge against Invictus Gaming later on after they defeated them 3-2 in the [[2017 Season China Regional Finals]]. Their run at the [[2017 Season World Championship]] was quite impressive. Despite starting off in the [[2017_Season_World_Championship/Play-In|Play-In stage]], they advanced to the main groups with a 3-0 win over [[Young Generation]]. They also finished 1st in their main stage group with a 5-1 record. After they took down [[Cloud9]] 3-2 in the Quarterfinals, they faced off against eventual tournament winners [[Samsung Galaxy]] and lost 1-3.
+
+== Trivia ==
+* Nicknamed “大舅子” by Chinese fans. It is an honorific used when referring to one's wife's older brother. He got this nickname because he has two younger sisters.
+* His favorite color is black.
+* Plays in windowed mode.
+* On January 26th, 2018, [[Mystic]] and [[Xiye]] surpassed [[Kid]] and [[Zz1tai]] as the duo to play the most games together in the LPL.
+* Reached 1000 kills in the LPL in July, 2017.
+** The 12th player to reach 1000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Cool]], [[Kid]], [[NaMei]], [[Zz1tai]], [[Clearlove]], [[Deft]], [[GodV (Wei Zhen)|GodV]], [[Rookie]], [[imp]], and [[Smlz]].
+* Reached 1500 kills in the LPL on February 21, 2019.
+** The 5th player to reach 1500 kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Rookie]], [[Cool]], and [[Smlz]].
+** His 1500th kill was on [[Oh My God|OMG]]'s support [[Five]] in the [[LPL 2019 Spring|LPL 2019 Spring Season]] with {{ci|Vayne}}.
+* Was married and had a child with his wife, who later became [https://kpop.fandom.com/wiki/Yuka_(GIRL_CRUSH) Yuka] from [https://kpop.fandom.com/wiki/GIRL_CRUSH Girl Crush].
+** First LCK player to be a father.
+** Filed for divorce in 2021.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

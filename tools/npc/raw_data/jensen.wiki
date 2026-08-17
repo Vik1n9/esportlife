@@ -1,0 +1,136 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jensen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.665Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jensen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Jensen
+|name=Nicolaj Jensen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=Americas
+|birth_date_year=1995
+|birth_date_month=January
+|birth_date_day=01
+|favchamp=Zed
+|favchamp2=Fizz
+|favchamp3=Veigar
+|favchamp4=Azir
+|checkbox1=No
+|compID1=Incarnati0n
+|checkboxComp=No
+|ids='''NA:''' Jænsen#NA1<br>'''EUW:''' lanekingdom1<br>2021Worlds0019<br>'''KR:''' Liquid Jensen<br>구름구 젠슨<br>Jensen<br>'''CN:''' Jensenn
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/jensen
+|facebook=https://www.facebook.com/jensenliquid
+|twitter=Jensen
+|instagram=jensenliquid
+|reddit=Incarnati0nEUW
+|youtube=https://youtube.com/channel/UCDMLY4MFSNzZEXb2kxYPYRQ
+|discord=https://discordapp.com/invite/KnX2y6T
+|weibo=https://www.weibo.com/u/7147799080
+|lolpros=https://lolpros.gg/player/jensen/
+|deeplol=https://www.deeplol.gg/pro/Jensen
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Incarnati0n'''.
+|checkbox-res=Yes
+|residency-prev1=Europe
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+}}
+==Biography==
+Nicolaj "'''Jensen'''" Jensen, originally known as '''Veigodx''', was a member of the founding roster of [[Team Solo Mebdi]], along with [[YamatoCannon]], [[wewillfailer]], [[StunnedandSlayed]], and [[Rayt3ch]]. The team disbanded in January 2013 after being disqualified from the [[Riot_League_Championship_Series/Europe/Season_3/Spring_Qualifiers|Season 3 EU LCS qualifiers]].<ref>[http://forums.euw.leagueoflegends.com/board/showthread.php?p=10180118 eSports Competition Rulings: Suspensions of StunnedandSlayed, Veigodx and Rayt3ch] ''leagueoflegends.com''</ref> On January 23, 2013, he was permanently banned from playing League of Legends due to his "long history of DDOS activity, abusive behaviour and poor sportsmanship across multiple accounts."<ref>[http://forums.euw.leagueoflegends.com/board/showthread.php?t=1015978&page=1#post10180120 eSports Competition Rulings: Suspensions of StunnedandSlayed, Veigodx and Rayt3ch] ''leagueoflegends.com''</ref><ref>[http://forums.euw.leagueoflegends.com/board/showthread.php?t=1122163 Player ruling: Incarnati0n] ''leagueoflegends.com''</ref> Despite his permaban, Jensen continued playing on smurf accounts and had several montages of his play released.
+
+On February 1, 2014, it was suggested that Incarnati0n had become the coach of [[SK Gaming]],<ref>[http://www.reddit.com/r/leagueoflegends/comments/1wsh8u/incarnati0n_coach_for_sk_gaming/ Reddit Post] ''reddit.com''</ref> and it was eventually confirmed.
+
+Incarnati0n was not allowed to attend the [[2014 Season World Championship]] with SK Gaming because while the LCS did not officially recognize coaches, Korea would for Worlds.<ref>[http://www.reddit.com/r/leagueoflegends/comments/2fbql6/incarnation_unable_to_attend_worlds_with_sk_gaming/ck7vasv Riot Nick Allen's Reddit Post] ''reddit.com''</ref> On September 17 it was announced that coaches would begin to be recognized officially in the LCS,<ref>[http://na.lolesports.com/articles/team-coaches-officially-part-lcs-2015 Team Coaches Officially Part of LCS in 2015] ''lolesports.com''</ref> and the question arose whether Incarnati0n's lifetime ban would be lifted or not.
+
+===2015 Preseason===
+Riot released a ruling on November 20 that Incarnati0n would not be unbanned from competitive play, meaning also that he would no longer be able to coach SK.<ref>[http://eune.lolesports.com/articles/end-year-review-nicolaj-%E2%80%9Cincarnati0n%E2%80%9D-jensen End of Year Review: Nicolaj “Incarnati0n” Jensen] ''lolesports.com''</ref><ref>[http://eune.lolesports.com/articles/lcs-season-details-lcs-head-coaches LCS Season: Details on LCS head coaches] ''lolesports.com''</ref> His case would be up for review again five weeks before the roster lock for the 2015 summer split.<ref>[http://eune.lolesports.com/articles/competitive-policy-revision-permabanned-players Competitive Policy Revision: Permabanned Players] ''lolesports.com''</ref>
+===2015 Season===
+When the mid-year suspension reviews were announced at the end of March, Incarnati0n was approved for competitive play starting on May 11, 2015.<ref>[http://na.lolesports.com/articles/2015-mid-year-long-term-suspension-reviews 2015 Mid-Year Long-Term Suspension Reviews] ''lolesports.com''</ref> The next day, it was rumored that he would be joining [[Cloud 9]], as [[Hai]]'s retirement meant that the team was looking for his successor as mid-laner.<ref>[http://www.dailydot.com/esports/incarnati0n-jack-etienne-cloud9/  Incarnati0n to sign for Cloud9] ''dailydot.com''</ref> In a tryout in their Los Angeles gaming house, the team looked over multiple players, including [[Cloud9 Tempest|C9 Tempest]] mid laner [[Yusui]], before <ref>[http://www.reddit.com/r/leagueoflegends/comments/34ggke/incarnati0n_is_here_to_tryout_for_cloud9/ Incarnati0n is here to tryout for Cloud9] ''reddit.com''</ref><ref>[http://www.dailydot.com/esports/incarnati0n-hai-cloud9/  Incarnati0n and Yusui set to try out following Hai's retirement] ''dailydot.com''</ref> Ultimately, Incarnati0n won the spot on May 8.<ref>[http://www.dailydot.com/esports/incarnati0n-hai-cloud9-official/  Incarnati0n officially joins Cloud9] ''dailydot.com''</ref>
+
+In Incarnati0n's first game with Cloud9, the team beat [[Team SoloMid]] in a game-late victory despite his trailing by over 100 CS behind TSM mid laner [[Bjergsen]]. However, as the split continued, the team's record worsened and Incarnati0n's CS deficit became commonplace for his mid-lane matchups and the subject of community criticism. At the same time his champion pool was criticized - Cloud9 was putting him on in-meta control mages like [[Azir]] and [[Viktor]] instead of his comfort (but out-of-meta) assassin picks like [[Zed]]. After five weeks of limited success, Cloud9 decided to bring Hai back - but in the jungle, replacing [[Meteos]], rather than in mid lane. With Hai back on the starting roster, the team's record improved from 3-7 to 6-12 by the end of the split. They finished in 7th place after a tie-breaker victory against [[Team 8]], narrowly avoiding [[Riot League Championship Series/North America/2016 Season/Spring Promotion|relegations]] and retaining their [[2015 Season/Championship Points|Championship Points]], which meant that even though they did not qualify for [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]], they earned a spot in the [[Riot League Championship Series/North America/2015 Season/Regional Finals|North American Regional gauntlet]]. In the [[Riot_League_Championship_Series/North_America/2015_Season/Regional_Finals|Regional Finals Gauntlet]], Cloud9 reverse-swept both [[Gravity Gaming]] and [[Team Impulse]] (with Incarnati0n receiving the MVP title in both series) before beating [[Team Liquid]] 3-1 in the finals. Their fourteen games played over the course of three days gave them North America's third seed to the [[2015 Season World Championship]], Cloud9's third-consecutive Worlds.
+
+Considered an underdog at Worlds, Cloud9 were placed into Group B along with Fnatic, [[ahq e-Sports Club|ahq]], and [[Invictus Gaming]] and expected to place last. Instead, they surprised with an undefeated 3-0 first week, with Incarnati0n introducing [[Veigar]] as a pick in their first game against ahq - he was also the only player to win with Veigar in the group stage, out of four plays total (including a later loss by Incarnati0n). In the second week, Cloud9 needed only one win to advance to the quarterfinals but were unable to find it, losing four games in a row including a tiebreaker loss to ahq. They placed third in their group, ahead of only Invictus Gaming.
+
+Incarnati0n renamed to '''Jensen''' in December 2015, adopting his surname as his gamertag.<ref>[http://twitter.com/C9Jensen/status/677869879006011392 Nicolaj Jensen's tweet] ''twitter.com''</ref>
+=== 2016 Season ===
+For the 2016 season, Cloud9 added two new players - [[Rush]] and [[Bunny FuFuu]] - and moved Hai to support, with the intention of splitting time with Bunny. However, after two losses with Bunny and two wins with Hai in the [[League Championship Series/North America/2016 Season/Spring Season|spring split]], they committed to starting Hai fulltime and rose to a 67% winrate, with a third-place seed in the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]]. However, despite a seeding advantage, the team lost to TSM in the first round and were eliminated. After the end of the split, Cloud9 recreated its Challenger team and shuffled rosters between the two teams, initially setting up for the [[League Championship Series/North America/2016 Season/Summer Season|summer split]] with [[Impact]], Meteos, Jensen, Sneaky, and Bunny FuFuu as its LCS roster; former [[Team Dragon Knights]] support [[Smoothie]] later also joined the team.<ref name="impactmeteosjoin">[http://www.youtube.com/watch?list=UUPLAYER_C9ggTV&v=5sEzO35wvG4 Impact & Meteos Join Cloud9 LCS Team!] ''youtube.com''</ref><ref>[http://cloud9.gg/news/smoothie-altec Smoothie & Altec Join Cloud9] ''cloud9.gg''</ref>
+
+For the first seven weeks of the split, Bunny FuFuu and Smoothie shared the support role, but after that point Bunny stepped down to a substitute and streaming role, and Smoothie became the full-time starter.<ref>[http://www.twitlonger.com/show/n_1sotfd3 Update on moving forward]''twitlonger.com''</ref> The team equaled its spring record with a 12-6 finish, again securing the third seed into the [[League_Championship_Series/North_America/2016_Season/Summer_Playoffs|playoffs]]. There, Cloud9 defeated [[Team EnVyUs]] and [[Immortals]] before falling to TSM 3-1 in the finals; their second-place result was their best placement since Spring 2015. In the [[2016_Season_North_America_Regional_Finals|Regional Finals]], or the gauntlet, Cloud9 faced and defeated both EnVyUs and Immortals to qualify for the [[2016_Season_World_Championship|World Championship]] for the fourth consecutive year.
+
+At Worlds, C9 was put in Group along with [[SK Telecom T1]], [[I May]] and [[Flash Wolves]]. Despite not being expected by many to make it out of the group, C9 finished 2nd in the group. Their Worlds run was cut short though after they lost 0-3 to [[Samsung Galaxy]] in the Quarterfinals.
+
+===2017 Season===
+
+The [[League_Championship_Series/North_America/2017_Season/Spring_Season|2017 Spring Season]] of the NA LCS started off hot for C9. The team was dominant and in 1st place throughout most of the split. However their performance took a dip later on and they finished 2nd with a 14-4 record right behind TSM. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] it was a similar story as Cloud9 made it to the finals but lost 2-3 to [[Team SoloMid]] in a very close series. In the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] with increased competition, Cloud9 struggled more than before and finished the regular split in 4th place. Their performance in the [[League_Championship_Series/North_America/2017_Season/Summer_Playoffs|playoffs]] was very lackluster and their run was cut short with a 1-3 loss to [[Team Dignitas]] in the Quarterfinals. Going into the [[2017 Season North America Regional Finals|Regional Qualifiers]], the team managed to qualify for the [[2017 Season World Championship]] with a 3-1 win over CLG.
+
+At Worlds C9 finished first in their [[2017_Season_World_Championship/Play-In|Play-In]] group with a 4-0 record and then defeated [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] 3-0 to advance to the [[2017_Season_World_Championship/Main_Event|Main Event]]. Put in Group A along with [[SK Telecom T1]], [[EDward Gaming]] and [[ahq e-Sports Club]], C9 managed a 3-3 record and made it out of the group in second place. Their Worlds run was put to a halt however after they lost 2-3 to [[Team WE]] in a very close match.
+
+===2018 Season===
+
+For the 2018 Season, Cloud9 added [[Licorice]] and [[Svenskeren]] to their LCS Roster. Things went well in the beginning of [[League_Championship_Series/North_America/2018_Season/Spring_Season|2018 Spring Season]] for C9. They were in second place for most of the season, however, on the final day of LCS, C9 fell to fifth place. They played [[Team Liquid]] in the [[NA LCS/2018 Season/Spring Playoffs|Spring Quarterfinals]] and lost 0-3. 
+
+C9 started [[League_Championship_Series/North_America/2018_Season/Summer_Season|2018 Summer Season]] by promoting [[Goldenglue]], [[Keith]], and [[Zeyzal]] to the LCS roster. By Week 5 C9 were in tenth place. After bringing back Jensen and [[Sneaky]] to the main roster as well as subbing in [[Blaber]] for the rest of the summer season, Cloud9 surged and made it to second place and secured a playoff bye by the end of the regular season. In the [[NA LCS/2018 Season/Summer Playoffs|playoffs]], Cloud9 defeated [[Team SoloMid]] 3-2 in the Semifinals and lost 0-3 to Team Liquid in the Finals. They moved onto the [[NA LCS/2018 Season/Regional Finals|Regional Qualifier]] and won 3-0 over TSM to make worlds.
+
+At the [[Worlds 2018|2018 World Championship]], Cloud9 once again had to make it through the [[2018_Season_World_Championship/Play-In|Play-In]] stage. They went 4-0 in the Play-In group stage, and beat [[Gambit Esports]] 3-2 to advance to the [[2018_Season_World_Championship/Main_Event|Main Event]]. Cloud 9 were seeded into Group B, dubbed the "Group of Death", with [[Team Vitality]], [[Royal Never Give Up]], and [[Gen.G]]. Cloud9 defied expectations and made it out of the group in second place with a 4-3 record after losing the first place tiebreaker to RNG. 
+
+In the Quarterfinals, C9 made history and defeated [[Afreeca Freecs]] 3-0, making it the first time since the [[World Championship Season 1|Season One World Championship]] that a North American team had made semifinals. In the Semifinals, C9 lost 0-3 to [[Fnatic]]. 
+
+On November 19th, [[Team Liquid]] announced that they had signed Jensen onto their team.
+
+== Career Highlights and Awards ==
+* LCS Finals MVP (2019 Summer)
+* 4x LCS All-Pro 1st Team (2016 Spring, 2017 Summer, 2018 Summer, 2019 Summer)
+* 4x LCS All-Pro 2nd Team (2017 Spring, 2018 Spring, 2019 Spring, 2020 Summer)
+* 2x LCS All-Pro 3rd Team (2016 Summer, 2024 Spring)
+* 1000 Career-Kill Club
+
+== Trivia ==
+* In a friendly soccer tournament including EU LCS players, coaches, casters and Riot employees that was covered in the Riot feature '' Kickin' It With The Pros'', he was on the first-place team that also included [[xPeke]], [[Soaz]], [[Rekkles]] and [[Fredy122]].<ref>[http://www.reddit.com/r/leagueoflegends/comments/27b18v/kickin_it_with_the_pros/ ''Kickin' It With The Pros'' - r/LeagueOfLegends official post] Reddit</ref>
+* Frequently compared to [[Bjergsen]] after he joined the NA LCS, due to them both being Danish, playing the same position, and spending the majority of their careers in North America, as well as the fact that they were both usually on teams contending for the championship. 
+** Typically played second fiddle to Bjergsen domestically while on [[Cloud 9]], but posted better results internationally. 
+* Infamous for failing to use {{ci|Ekko}} ultimate or {{ii|Zhonya's Hourglass}} at a critical moment in game 5 of the [[NA LCS/2017 Season/Spring Playoffs|NA LCS 2017 Sring Playoffs]], leading to a teamfight loss and [[TSM]] taking the series. 
+* Played and lost in three LCS finals with Cloud9 before joining [[Team Liquid]] and winning his first title. 
+* Reached 1000 Kills in the LCS on March 16, 2019.
+** The 6th player to reach 1000 Kills in the LCS, after [[Doublelift]], [[WildTurtle]], [[Sneaky]], [[Bjergsen]] and [[Pobelter]].
+** His 1000th kill was on [[ Clutch Gaming]]'s AD Carry [[Piglet]] in the [[LCS 2019 Spring|LCS 2019 Spring Season]] with {{ci|Syndra}}.
+* Received North American residency on May 29, 2019.
+* Known as "简皇" meaning "King Jen" in China, as a reference to Lebron James, a professional basketball player, who is nicknamed "King James".<ref>[https://youtu.be/o7JxsPe0x3o Chinese nicknames for Western LOL pro players] ''youtube.com''</ref>
+* Holds the record for the longest streak of worlds qualifications of any player in history, he qualified 8 consecutive times to worlds from 2015 to 2022, the streak ended with his non-qualification to [[Worlds 2023]]
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Thaldrin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.060Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Thaldrin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Thaldrin
+|name=Berke Demir
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=Turkey
+|birth_date_year=1994
+|birth_date_month=August
+|birth_date_day=01
+|favchamp=Gnar
+|favchamp2=Riven
+|favchamp3=Rumble
+|favchamp4=Rengar
+|checkbox1=Yes
+|favchamp5=Ryze
+|favchamp6=Irelia
+|checkboxComp=No
+|ids=Thaldrin (EUW) , Scorbite(EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/thaldrinlol
+|facebook=https://www.facebook.com/ThaldrinLol
+|twitter=thaldrinlol
+|instagram=berkedemir
+|youtube=https://www.youtube.com/channel/UCbfh8T6s74Pp9oND2aUAw4A
+|discord=https://discord.com/invite/thaldrin
+|tiktok=berkethaldrin
+|lolpros=https://lolpros.gg/player/thaldrin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=BJK Thaldrin, Daldirin , SUP Thaldrin
+}}
+==Biography==
+
+== Trivia ==
+* Likes to play {{ci|Riven}} and {{ci|Rengar}} in solo queue.
+* Nicknamed as "Kaptan" (The Captain) by the Turkish E-Sports community.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,162 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LemonNation&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LemonNation」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=LemonNation
+|name=Daerek Hart
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1989
+|birth_date_month=June
+|birth_date_day=15
+|favchamp=Janna
+|favchamp2=Blitzcrank
+|favchamp3=Lulu
+|favchamp4=Sona
+|checkbox1=Yes
+|favchamp5=Thresh
+|checkboxComp=No
+|ids=C9 BananaNation, C9 HyperX Dora, C9 LemonNation, C9 Lemon, Nom Nom Lemon, Quantic Lemon NT, oRb LemonNation, ShawnOfTheDead, 넌나한태오빠야 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Manager
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/lemonnation
+|facebook=https://www.facebook.com/LemonNationLol
+|twitter=LemonNation
+|instagram=lemination
+|reddit=lemination
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is best known for being the support and later head coach for [[Cloud9]].
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Support
+|prev2=Coach
+}}
+==Biography==
+Daerek was raised in Eden Prairie, Minnesota, where he grew up playing video games. 
+
+===2012 Season===
+
+As he progressed in League of Legends, he became known in the high elo ladder for being an only support player, particularly for playing only {{ci|Janna}} for a long period of time. He eventually reached rank 1 in solo queue in Season 2 only playing support. It was during this time that he was invited to join the team [[HOODSTOMPGRAVESGG]], whose roster consisted of [[Hoodstomp]], [[LiNk]],  [[YoDa (Orie Guo){{!}}YoDa]], and [[Vech]]. Soon after their formation, the team was picked up by the [[Orbit Gaming]] organization in April 2012. Although LemonNation and his team went through roster shortly after joining the organization, they still managed to earn themselves a strong reputation by consistently placing high in tournaments they entered. 
+
+In November 2012, LemonNation and his teammates decided to leave the organization. Having become a well-known team by this point, they were acquired by [[Quantic Gaming]]. However, the team's play under this organization was short-lived, as they soon left the brand. The players went on to compete under the name '''Team NomNom''', which later became [[Cloud 9]]. 
+
+===2013 Season===
+
+Still playing support in January 2013, Daerek's team came close to qualifying for the first season of Riot's new professional league, [[Riot League Championship Series/North America/Season 3| Riot Season 3 NA Championship Series]], but were unsuccessful in the end. Adding new players to the roster after others had left, LemonNation and company were once again picked up by the revamped [[Quantic Gaming]]. This new team was considered one of the top amateur teams in the competitive scene, winning the [[2013_MLG_Pro_Circuit/Winter/Championship|2013 MLG Winter Championship Summer Promotion Qualifier]]. Afterwards, the Quantic team achieved what they had previously failed at and earned a spot at the [[Riot League Championship Series/North America/Season 3/Summer Promotion|Season 3 LCS Summer Promotion]], beating [[compLexity Gaming]] and therefore becoming a new team in the LCS for the summer split. In May 2013, Lemon and the team decided to part ways with the organization and reform to play under their old name, [[Cloud 9]].
+
+Under their new organization, LemonNation and his team went on to have an incredibly strong performance in the [[Riot_League_Championship_Series/North_America/Season_3/Summer_Season{{!}}LCS Season 3 Summer Split]], ending the regular season with a 25-3 record and eventually defeating [[TSM]] 3-0 in the playoff finals. This would be the start of Cloud 9's domination in the LCS for the next two splits, as well as their rivalry with TSM.
+
+===2015 Preseason===
+Cloud 9 was the North American team to be fan-voted into [[IEM_Season_IX_-_San_Jose|IEM San Jose]].<ref>[http://en.intelextrememasters.com/news/cloud9-and-unicorns-of-love-confirmed-get-your-tickets-now/ Cloud9 and Unicorns of Love confirmed, get your tickets now!] ''en.intelextrememasters.com''</ref> In the tournament, they defeated [[paiN Gaming]] 2-0, [[Alliance]] 2-1, and then [[Unicorns of Love]] 3-0 to win the tournament.
+===2015 Season===
+Due to their IEM San Jose victory, Cloud9 qualified for [[IEM Season IX - World Championship|IEM Katowice]] in March. There, they lost their only two games, first to [[GE Tigers]] and then to [[yoe Flash Wolves]], and finished in 7th/8th place. Domestically, they underperformed at the start of the season, and were in 8th place at the end of the second week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|LCS Season 5 Spring Split]]. However, they managed to improve over the course of the season, ending with a second-place finish behind Team SoloMid and a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye. After beating [[Team Liquid]] 3-2 in the semifinals, Cloud9 lost to TSM 1-3 in the finals and finished the split in second place.
+
+Cloud9 replaced mid laner Hai with [[Incarnati0n]] at the start of the [[Riot League Championship Series/North America/2015 Season/Summer Season|Summer Split]] due to Hai's retirement. They performed poorly for the first five weeks of the split and replaced Meteos with Hai going into the sixth week. With Hai back on the team, Cloud9's record improved from 3-7 to 6-12 by the end of the split, and they finished in 7th place after a tie-breaker victory against [[Team 8]], narrowly avoiding [[Riot League Championship Series/North America/2016 Season/Spring Promotion|relegations]] and retaining their [[2015 Season/Championship Points|Championship Points]], though they did not qualify for [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]]. In the [[Riot_League_Championship_Series/North_America/2015_Season/Regional_Finals|Regional Finals Gauntlet]], Cloud9 reverse-swept both [[Gravity Gaming]] and [[Team Impulse]] before beating Team Liquid 3-1 in the finals. Their fourteen games played over the course of three days gave them North America's third seed to the [[2015 Season World Championship]], Cloud9's third consecutive Worlds appearance. LemonNation was criticized for his continuing picks of [[Karma]], which he played four times during the gauntlet and lost with three times.
+
+Considered an underdog at Worlds, Cloud9 were placed into Group B along with [[Fnatic]], [[ahq e-Sports Club|ahq]], and [[Invictus Gaming]] and expected to place last. Instead, they surprised with an undefeated 3-0 in the first week. In the second week, Cloud9 needed only one win to advance to the quarterfinals but were unable to find it, losing four games in a row, including a tiebreaker loss to ahq. They placed third in their group, ahead of only Invictus Gaming.
+
+===2016 Season===
+
+LemonNation had stated on Reddit in early July that he intended to retire after Worlds,<ref>[http://www.reddit.com/r/leagueoflegends/comments/3c3qxu/xpeke_plans_to_retire_after_worlds/css5sy3 lemination's reddit comment] ''reddit.com''</ref> and in October, Cloud9 officially announced his retirement, adding that they were holding open tryouts for both the jungle and support positions, with Hai to play the unfilled role.<ref name="lemonretire">[http://cloud9.gg/news/lcs-tryouts Cloud9 LCS Announces Support/Jungler Tryouts] ''cloud9.gg''</ref> However he later came out of retirement and joined [[Cloud9 Challenger]] in April of 2017. The team was very dominant in the [[NA_Challenger_Series/2016_Season/Summer_Season|2017 NA CS Summer Season]] and finished 1st in the regular split. They won the [[NA_Challenger_Series/2016_Season/Summer_Playoffs|playoffs]] with a 3-2 win over [[Team Liquid Academy]]. In the [[League_Championship_Series/North_America/2017_Season/Spring_Promotion|Summer Promotion Tournament]], C9C defeated [[NRG Esports]] 3-0 and qualified for the NA LCS.
+
+===2017 Season===
+
+In January of 2017, Cloud9 Challenger was purchased and re-branded into [[FlyQuest]]. Although the team was expected to flop, they were dominant in the early stages of the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]]. Although they fell off later on, they still finished 5th with a 9-9 record. In the [[League_Championship_Series/North_America/2017_Season/Spring_Playoffs|playoffs]] they defeated [[Counter Logic Gaming]] with a 3-2 reverse sweep. In the semifinals they lost 0-3 to [[Team SoloMid]] and later on lost the third place match 2-3 too [[Phoenix1]], placing 4th overall. The [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Season]] was much harder for FlyQuest as the competition within the region increased. They finished 7th in the regular season and barely retained their Championship Points. This would let them participate in the [[2017 Season North America Regional Finals]] and although they defeated [[Team Dignitas]] 3-0 in the first round, they lost 1-3 to CLG in the second round which ended their season. LemonNation left FlyQuest in November and in December he would join the newly formed [[OpTic Gaming]].
+
+===2018 Season===
+LemonNation left FlyQuest in November and in December joined the newly formed [[OpTic Gaming]]. OpTic was predicted to be a bottom tier team, and their [[League_Championship_Series/North_America/2018_Season/Spring_Season|spring split]] performance did little to belie that, as the team never seriously contended for a playoff spot or finished a week above a tie for seventh. The team ended up finishing 5-13, in 9th place. Immediately after the season ended, OpTic announced that LemonNation and top laner [[zig]] would be leaving the team. Although he never officially announced his retirement, LemonNation didn't join another team as a player. He eventually joined [[Radiance]], a new organization founded by his Cloud9 teammate [[Hai]], as Head of Events.
+
+== Trivia ==
+* Achieved rank 1 in solo queue at the end of Season 2 and in Season 3 playing only support.
+* Only played {{ci|Janna}} in solo queue for a large span of time.
+* His name is derived from his middle name, Lemon. 
+* Favorite support is {{ci|Blitzcrank}}, least favorite support is {{ci|Sona}}.
+* Enjoys Magic: The Gathering.
+* Has a Master's Degree in Software Engineering from University of St. Thomas.
+* Pioneered AP {{ci|Janna}} support. 
+* Looks up to [[Edward]].
+* Played the first support {{ci|Nasus}} in a competitive match.
+* League of Legends was his first MOBA game.
+* He created his first account, ShawnOfTheDead, on the 1st of January, 2010.
+* Lemon's teammates claim he has a bad PR (Public Relations) filter, he has said things that could be considered inappropriate such as his suicide comment on the LCS stream.
+* His Twitter is @Lemonnnation because he forgot the password of his first account, @Lemonnation.
+* His sister's middle name is Lime.
+* He is Jewish.
+* At one point, he stated that he never uses skins for his champions.<ref>[http://www.youtube.com/watch?v=AfJqDwZ8BnU The pros and their skins] ''youtube.com''</ref> He did, however, use the "Exiled Morgana" skin against [[yoe Flash Wolves]] in Round 2 of Group A at [[IEM Season IX - World Championship|IEM World Championship Katowice 2015]] on March 13, 2015.
+* Famously had a notebook of counterpicks that he would take on stage with him which earned him the nickname "死亡笔记" in China which translates to "''[[wikipedia:en:Death Note|Death Note]]''", a reference to the anime in which the main character writes down names in his notebook of those whom he chooses to die.<ref>[https://youtu.be/o7JxsPe0x3o Chinese nicknames for Western LOL pro players] ''youtube.com''</ref>
+* Contracted coronavirus during the [[2019–20 Coronavirus Pandemic]], one of the only people in the League of Legends esports community to publically announce he had tested positive. He experienced only mild symptoms and was able to recover quickly at home. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

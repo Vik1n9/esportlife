@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Darshan&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.719Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Darshan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Darshan
+|name=Darshan Upadhyaya
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=November
+|birth_date_day=12
+|favchamp=Nidalee
+|favchamp2=Riven
+|favchamp3=Jayce
+|favchamp4=Fizz
+|checkbox1=Yes
+|favchamp5=Rumble
+|favchamp6=Vladimir
+|compID1=ZionSpartan
+|checkboxComp=No
+|ids='''NA:''' C9 Darshan<br>'''EUW:''' NA TaIent
+|checkboxAutoTeams=Yes
+|team=Cloud9 Academy
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/zionspartan
+|facebook=https://www.facebook.com/DarshanUpad
+|twitter=DarshanU
+|snapchat=darshanu
+|reddit=ZionSpartan
+|youtube=https://youtube.com/channel/UC7p8MWUZ15B-2uCt0QWhcyQ
+|deeplol=https://www.deeplol.gg/pro/Darshan
+|linkedin=https://www.linkedin.com/in/darshan-upadhyaya-2093151b7/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''ZionSpartan'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|compIDs=ZionSpartan
+|nicknames=DmoneyakaDdollas, EthiI, LFTEAMTOPMIDJUNG, evitcepsreP
+}}
+==Biography==
+Darshan "'''ZionSpartan'''" Upadhyaya hails from Poway, California. He was one of the founding members of [[Good Game University]] and then went on to play for [[Team Coast]]. After Coast was relegated from the LCS, he joined Dignitas and played there during the 2014 Summer split. Afterward, he played for [[Counter Logic Gaming]] until May 2019. Since then, he has been playing for [[GGS Academy]]. 
+
+===2015 Preseason===
+On October 20, 2014, ZionSpartan announced his free agency.<ref>[http://twitter.com/ZionSpartan/status/524093545515581440 ZionSpartan's Twitter] - ''twitter.com''</ref> Over the next two weeks, rumors grew that he was going to move to [[Counter Logic Gaming]], though there were claims that Riot was investigating a possible poaching allegation. On November 7, the rumors were proven true and CLG announced that ZionSpartan was joining the team as their new toplaner.<ref>[http://blog.ibuypower.com/blog/2014/11/07/zionspartan-joins-clg/ Zionspartan joins CLG!] ''blog.ibuypower.com''</ref>
+
+===2015 Season===
+For the first eight weeks of the spring split, CLG were never lower in the standings than tied for second place, and the only reason they didn't receive a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye was that they lost a second-place tie breaker to Cloud9 and so ended up in third place. CLG fans called the split CLG's "golden age," but the question still remained whether CLG could perform in the playoffs, especially after a dramatic comeback loss to Team SoloMid the first time the two teams met in the round robin. Ultimately, CLG were unable to perform in playoffs, as they lost to [[Team Liquid]] in the quarterfinals and ended the split tied for fifth place with [[Gravity (North American Team)|Gravity]].
+
+Echoing their spring split performance, CLG started the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]] strong, in first place at the end of each of the first four weeks and then lost four games in a row to finish tied for fifth after week six. This time, however, they rebounded and ended the season in second, behind Team Liquid and with a 13-5 record. They received a bye in the first round of the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]] and then swept both [[Team Impulse]] and [[Team SoloMid]] 3-0, to win their first LAN event since MLG Raleigh in 2011 nearly four years prior and receive North America's top seed to [[2015 Season World Championship|Worlds]]. Despite having a relatively easy group draw with [[KOO Tigers]], [[Flash Wolves]], and [[paiN Gaming]], CLG didn't advance from their Worlds group, ending with a 2-4 record including a loss to paiN.
+
+===2016 Season===
+
+After two major roster changes - [[Stixxay]] replacing long-time AD carry [[Doublelift]] and [[HuHi]] replacing [[Pobelter]] - CLG attended [[IEM Season X - San Jose|IEM San Jose]] in November 2015, where they defeated [[Unicorns of Love]] and [[Jin Air Green Wings]] before losing to [[Origen]]. ZionSpartan also renamed to '''Darshan''' going into the tournament. Their performance earned them a seed into [[IEM Season X - World Championship|IEM Katowice]], which they attended after the seventh week of the [[League Championship Series/North America/2016 Season/Spring Season|LCS]]. However, despite being in a strong position domestically, in second place behind only the almost-undefeated [[Immortals]] (to whom CLG had handed their only loss of the season the week before), CLG were eliminated immediately from Katowice, losing first to [[SK Telecom T1]] and then to [[Fnatic]].
+
+CLG entered the [[League Championship Series/Europe/2016 Season/Spring Playoffs|LCS playoffs]] in second place, still behind Immortals, and still the only team to have beaten Immortals in the regular season. They won their semifinal series against Team Liquid in five games, winning the last game with a double teleport play to catch out [[Piglet]] and close out a win. Despite seeding expectations, their finals match was against TSM, who had 3-0'd Immortals the week before. This series also went to five games, and CLG once again won, qualifying for the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Returning to North America for the [[League Championship Series/North America/2016 Season/Summer Season|Summer Split]], CLG were expected to be at the top of the league after their MSI performance. However, not only did they fail to achieve that, but they weren't even in the top half of the standings until week 6. From there, they climbed to a fourth place regular season finish. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]], CLG first faced off against Team Liquid, whom they beat 3-1, before falling to TSM 3-0 in the semifinals. Crucially, one of [[Huhi]]'s signature mid lane champions [[Aurelion Sol]] was found to have a bug partway through their first game, and the game was remade with Aurelion Sol disabled for the rest of the playoffs (though it was generally accepted that TSM would have won regardless).<ref>[http://www.thescoreesports.com/lol/news/8271-exit-the-dragon-on-competitive-integrity-and-aurelion-sol Exit the Dragon: On Competitive Integrity and Aurelion Sol] ''thescoreesports.com''</ref> CLG lost the third-place to [[Immortals]] but automatically qualified for the [[2016 Season World Championship|World Championship]] based on [[2016 Season/Championship Points|Championship Points]] due to TSM's finals win over Cloud9.
+
+CLG were seeded into Group A at Worlds, alongside the [[ROX Tigers]], [[G2 Esports]], and wildcard [[Albus NoX Luna]]. Going into the group, CLG and G2 were seen as contenders for the second seed, while Tigers and Albus NoX were expected to finish first and last, respectively. Instead, CLG dropped both of their games to the wildcard team, and ANX skyrocketed to a second-place group stage finish while G2 collapsed into last place; CLG ended their Worlds run in third with a 3-3 record.
+
+===2017 Season===
+
+Transitioning into the [[League_Championship_Series/North_America/2017_Season/Spring_Season|spring split]] of the 2017 LCS season, CLG was the only North American team to not make any changes to its roster. They were inconsistent to begin the split, fluctuating between 5th and 7th place over the first half of the season before stabilizing with a 2-0 week 5. CLG remained in the playoffs after that, and a 3-1 record down the stretch put them in fourth behind [[TSM]], [[Cloud9]] and a much improved [[Phoenix1]]. In the playoffs, CLG faced off against 5th seed [[FlyQuest]]. Although they started off strong with 2 wins, they were ultimately reverse swept and lost 2-3 which knocked them out of playoffs.
+
+In the mideason, CLG swapped junglers with [[Immortals]], sending [[Xmithie]], one of their longest tenured players, to the team for [[Dardoch]]. This change seemed to work out for both sides, as CLG began the season in a three way race for first with Immortals and TSM. As the season went on however, CLG's performance started to drop and eventually Dardoch left the team and was replaced by LCS rookie [[OmarGod]]. This stabilized CLG's play to some extent and they finished the regular season in 3rd place with a 12-6 record. In the playoffs CLG managed to defeat [[Team EnVyUs]] 3-2 in a hard fought series. They however lost 0-3 to [[Immortals]] in the Semifinals. In the third place match CLG swept [[Team Dignitas]] 3-0 to end their playoff run on a high note.
+
+Their third place finish gave CLG the second seed in the [[2017 Season North America Regional Finals|Regional Finals]]. There, they defeated FlyQuest 3-1, setting up a match with [[Cloud9]] to make [[2017 Season World Championship|Worlds]]. After they dropped the first two games, CLG managed to win the third and make it a series, but dropped the fourth and lost the series which in turn ended their 2017 season.
+
+== Trivia ==
+* Known for his {{ci|Fizz}}, {{ci|Akali}}, {{ci|Nidalee}} and {{ci|Jayce}}.
+* Had a reputation of playing a phenomenal {{ci|Jayce}}, such that it became a standard ban for many teams facing [[Team Coast]].
+* His favorite champion is {{ci|Rumble}}.
+* Even his teacher calls him ZionSpartan.<ref>[http://www.youtube.com/watch?v=Hb0iA4DM9Hk Even his teacher calls him ZionSpartan] ''youtube.com''</ref>
+* Was part of the [[Season 3 World Championship]] analyst desk.<ref>[http://na.lolesports.com/articles/casters-and-analysts-announced-worlds Casters and analysts announced for Worlds] ''lolesports.com''</ref>
+* He was born in Canada and moved to Washington at the age of 2. He moved to Southern California when he was 10-11.<ref>[http://na.leagueoflegends.com/en/news/community/community-spotlight/league-community-podcast-ep-4 League Community Podcast Ep. 4] ''na.leagueoflegends.com''</ref><ref>[http://www.youtube.com/watch?v=_jSKfdK3Hxw Player Spotlight: Darshan-CLG LoL] ''youtube.com''</ref>
+* Of Indian ancestry.
+* Known for enjoying to sing, and has posted covers of songs on YouTube and done karaoke on the LCS postgame show. 
+* In the later part of his career with [[CLG]], became known for frequently sacrificing his lane to assist his team, even in situations where it hurt him. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

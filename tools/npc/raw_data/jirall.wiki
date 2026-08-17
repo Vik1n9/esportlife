@@ -1,0 +1,163 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jirall&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.666Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jirall」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Jirall
+|name=Daniel del Castillo
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Mexico
+|residency=North America|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1996
+|birth_date_month=July
+|birth_date_day=12
+|favchamp=Gnar
+|favchamp2=Vladimir
+|favchamp3=Jhin
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Falcon God<br>'''BR:''' Freedan, Raynor, clean kled<br>'''LAN:''' Crab Battle
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Analyst
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/lordjirall
+|facebook=https://www.facebook.com/LordJirall
+|twitter=LordJirall
+|instagram=lordjirall
+|askfm=LordJirall
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=[[Category:Casters]]
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxPrev=Yes
+|prev1=Top
+|prev2=Analyst
+|prev3=Jungler
+}}
+==Biography==
+Daniel del Castillo, also known as 'El Capi' as the captain of the squad, is not only the leader in the Summoner's Rift, he is also a reference in the top lane. With a style of play that can vary between hauling and sacrifice, Jirall is one of the players that dominates the decision making, highlighted by his teleports during ambushes and counter-ambushes. He is also listed as an impossible player to ambush by dominating the game early when he is at a disadvantage and has to play under the rook.
+
+== Trivia ==
+* His name comes from the same character who appears in the game The Last Story.
+* His older brother, Rodrigo "'''[[Yeti (Rodrigo del Castillo)|Yeti]]'''" del Castillo, was his coach on several different teams. 
+* He also likes to play ''Super Smash Bros. Melee''.
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Notable Events as Broadcast Talent ==
+* [[2025 First Stand|First Stand 2025]]
+* [[LTA/2025 Season/Split 1 Playoffs|LTA 2025 Split 1 Playoffs]]
+* [[LTA North/2025 Season/Split 1|LTA North 2025 Split 1]]
+* [[2024 Season World Championship|Worlds 2024]]
+* [[Americas Challengers 2024]]
+* [[LLA/2024 Season/Closing Playoffs|LLA 2024 Closing Playoffs]]
+* [[LLA/2024 Season/Closing Season|LLA 2024 Closing]]
+* [[2024 Mid-Season Invitational|MSI 2024]]
+* [[LLA/2024 Season/Opening Playoffs|LLA 2024 Opening Playoffs]]
+* [[LLA/2024 Season/Opening Season|LLA 2024 Opening]]
+* [[2023 Season World Championship|Worlds 2023]]
+* [[LCS/2023_Season/Championship|LCS 2023 Summer Playoffs]]
+* [[LCS/2023 Season/Summer Season|LCS 2023 Summer]]
+* [[LLA/2023_Season/Closing_Playoffs|LLA 2023 Closing Playoffs]]
+* [[LLA/2023_Season/Closing_Season|LLA 2023 Closing]]
+* [[2023 Mid-Season Invitational|MSI 2023]]
+* [[LCS/2023 Season/Spring Playoffs|LCS 2023 Spring Playoffs]]
+* [[LLA/2023 Season/Opening Playoffs|LLA 2023 Opening Playoffs]]
+* [[LLA/2023 Season/Opening Season|LLA 2023 Opening]]
+* [[SKE 2023 Latin America]]
+* [[2022_Season_World_Championship|Worlds 2022]]
+* [[LLA/2022 Season/Closing Playoffs|LLA 2022 Closing Playoffs]]
+* [[LLA/2022 Season/Closing Season|LLA 2022 Closing]]
+* [[2022 Mid-Season Invitational|MSI 2022]]
+* [[LLA/2022 Season/Opening Playoffs|LLA 2022 Opening Playoffs]]
+* [[LLA/2022 Season/Opening Season|LLA 2022 Opening]]
+* [[Worlds 2021]]
+* [[LLA/2022 Season/Opening Promotion|LLA 2022 Opening Promotion]]
+* [[LLA/2021_Season/Closing_Playoffs|LLA 2021 Closing Playoffs]]
+* [[LLA/2021 Season/Closing Season|LLA 2021 Closing]]
+* [[MSI 2021]]
+* [[LLA/2021 Season/Opening Playoffs|LLA 2021 Opening Playoffs]]
+* [[LLA/2021 Season/Opening Season|LLA 2021 Opening]]
+* [[2019_Season_World_Championship/Main_Event|World 2019 Main Event]]
+* [[2019_Season_World_Championship/Play-In|World 2019 Play-In]]
+* [[LLA/2020_Season/Opening_Promotion|LLA 2020 Opening Promotion]]
+* [[LLA/2019_Season/Closing_Playoffs|LLA 2019 Closing Playoffs]]
+* [[LLA/2019_Season/Closing_Season|LLA 2019 Closing]]
+* [[2019_Mid-Season_Invitational/Main_Event|MSI 2019 Main Event]]
+* [[2019_Mid-Season_Invitational/Play-In|MSI 2019 Play In]]
+* [[LLA/2019_Season/Opening_Playoffs|LLA 2019 Opening Playoffs]]
+* [[LLA/2019_Season/Opening_Season|LLA 2019 Opening]]
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

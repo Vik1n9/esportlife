@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Vech&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.549Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Vech」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Vech
+|name=Tan Jun Yi
+|checkboxAutoImage=Yes
+|country=Singapore
+|residency=Southeast Asia
+|birth_date_year=1993
+|favchamp=Gangplank
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Vech first started playing video games with ''Diablo 2'' before moving to console games and eventually ''DotA''. In 2010, he began playing ''League of Legends''. He was the top laner on [[Xan]], a Singaporean team that represented Southeast  Asia at [[Worlds Season 1]]. In Xan's first game of the tournament, Vech had a dominant showing against [[TSM]] on [[Mordekaiser]]; the champion was banned against him for all of Xan's remaining games. In 2012, Vech played as the top laner for [[Orbit Gaming]]. He left Orbit and retired from esports to fulfill his mandatory Singaporean military service.<ref>[https://backupandcopy.wordpress.com/2016/03/26/the-donezo-manifesto/ The donezo manifesto] ''wordpress.com''</ref>
+
+== Trivia ==
+* Is the younger brother of [[Radeon6870]].
+** After Vech lost to [[HotshotGG]]'s {{ci|Nidalee}} in lane, Radeon6870 famously stated "We should have definitely banned [[HotshotGG|HotshotNidaleeGG]]. Basically he kicked my brother in the ass,"<ref>[https://www.youtube.com/watch?v=5S8vOn3KryE xAn Radeon6870 - HotShotnidaleeGG Interview] ''youtube.com''</ref> which became a meme in the community.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

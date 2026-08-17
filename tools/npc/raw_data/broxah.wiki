@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Broxah&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Broxah」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Broxah
+|name=Mads Brock-Pedersen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=August
+|birth_date_day=12
+|favchamp=Elise
+|favchamp2=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' CLG Broxah<br>'''EUW:''' Broxah, Curling Captain<br>'''KR:''' FNC Brox
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/broxah
+|facebook=https://www.facebook.com/broxah
+|twitter=BroxahLoL
+|instagram=broxahlol
+|youtube=https://www.youtube.com/channel/UCoO3LOWlgNi5A_oKlC9NUwQ
+|tiktok=broxahlol
+|lolpros=https://lolpros.gg/player/broxah
+|deeplol=https://www.deeplol.gg/pro/Broxah
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Broxah was introduced to gaming when he was a child by his two cousins. It started with Pokemon on the Gameboy, then moved on to World of Warcraft and now League of Legends. He always liked gaming, since he is very competitive when it comes to  video games and he got to be social with his friends at the same time.
+
+Throughout gymnasium he got better and better at the game and now a pro career sounded interesting to him. When he finished gymnasium, he took a year off from school to pursue his chance to be professional gamer. In less than a half of a year he got contacted by Fnatic with an offer to join [[Fnatic Academy]].
+
+== Trivia ==
+* Always loved football and has been playing it for 10 years.
+* Looks up to [[Bjergsen]] as a player. He thinks he has the whole package: leader, shotcaller, good teammate, and insane mechanics
+
+=== Individual Awards ===
+* 2x EU 1st All Pro Team (Summer 2017, Summer 2018)
+* 3x EU 3rd All Pro Team (Spring 2018, Spring 2019, Summer 2019)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,103 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=CarioK&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「CarioK」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=CarioK
+|name=Marcos Santos de Oliveira Junior
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=2000
+|birth_date_month=January
+|birth_date_day=31
+|favchamp=Lee Sin
+|favchamp2=Zed
+|favchamp3=Draven
+|favchamp4=LeBlanc
+|checkbox1=No
+|compID1=Carioca
+|compID2=Cariok
+|checkboxComp=No
+|ids='''BR:''' PNG Caca#paiN, PNG CarioK#CBLol <br> '''EUW''': PNG CarioK#br2<br>'''KR''': mauler#002
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/carioklol
+|twitter=Carioklol
+|instagram=carioklol
+|lolpros=https://br.lolpros.gg/player/cariok
+|deeplol=https://www.deeplol.gg/pro/CarioK
+|dpmlol=https://dpm.lol/pro/CarioK
+|kick=carioklol
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Carioca'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+He is from [[wikipedia:en:Belford Roxo, Rio de Janeiro|Belford Roxo]], Rio de Janeiro, a city located in the Baixada Fluminense region. He moved to São Paulo when he was young to compete for [[Ilha da Macacada Gaming]].
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Chose his original nickname to show he was born in Rio de Janeiro (''carioca'' is the demonym used for people from that city).
+** He later on stylized it to '''CarioK'''.
+* Used to play as Midlaner.
+* Known for his {{ci|Hecarim}}, {{ci|Lillia}}, {{ci|Udyr}}, {{ci|Lee Sin}} and {{ci|Graves}}.
+* Reached top 2 in the European soloqueue (EUW) in 2019 during a bootcamp.
+* He is the Brazilian player with the highest number of runners-up and appearances in finals, surpassing even [[Takeshi]] in the number of runners-up as of [[CBLOL 2024 Split 1 Playoffs|CBLOL 2024]].
+* His 4-man sleep with {{ci|Lillia}} against [[RED Canids]] in the [[LTA South 2025 Split 2]] was featured in '''LoL Esports Plays of the Week'''.<ref>[https://x.com/lolesports/status/1912476597925605850 LoL Esports' X Post] ''x.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* He is a Flamengo fan.<ref>[https://lolesports.com/article/fora-do-rift-cariok-aquele-que-representa/blt9be1aced74f38e26 Fora do Rift: CarioK, aquele que representa] ''lolesports.com''</ref>
+* His sister, [https://liquipedia.net/valorant/Jubs Juliana], plays '''Valorant''' professionally in [https://liquipedia.net/valorant/MIBR_GC MIBR Female].<ref>[https://twitter.com/jubsvlr/status/1747274715503452410 Jubs' Tweet] ''twitter.com''</ref>
+* His parents are very active in social media supporting him. His father also plays League, is a OTP {{ci|garen}} and became a streamer.<ref>[https://twitter.com/Pairiok/status/1381972589803941888 Pairiok's Tweet] ''twitter.com''</ref>
+* During the [[LTA South 2025 Split 2|2nd split of the LTA South]], he discovered that he had nodular fasciitis on his face and played many games with a bandage on his face until he had surgery a few weeks before the finals.
+|-|
+Awards=
+===Individual Awards===
+* 1x CBLOL Best Jungler (Prêmio CBLOL 2020)
+* 1x CBLOL 1st RR All-Pro Team (2024 Split 1)
+* 1x LTAS Regular Season MVP (2025 Split 2)
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

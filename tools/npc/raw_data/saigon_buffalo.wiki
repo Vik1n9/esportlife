@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Saigon%20Buffalo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.544Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Saigon Buffalo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isrenamed=Vikings Esports (2023 Vietnamese Team)
+|name= Saigon Buffalo
+|organization=Vikings Gaming (Organization)
+|country= Vietnam
+|region= VN
+|sponsor=[https://www.vikings-gaming.com/ Vikings Gaming]
+<!-- Staff -->
+|headcoach= [[Yutility]]
+<!-- Social Media -->
+|website= http://saigonbuffalo.com
+|youtube= https://youtube.com/pvbuffalo
+|facebook= https://fb.com/saigonbuffalo
+|instagram= saigonbuffalo
+|twitter= mrbuffalo7
+|discord= https://discord.gg/3y4KkZNhpe
+|fanpage=https://www.facebook.com/groups/YoungBuffaloFC
+|snapchat= 
+<!-- History -->
+|created= 2019-05-31
+|disbanded= 
+|rosterphoto= SGB VCS Dawn 2023.png
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''Saigon Buffalo''' is a Vietnamese League of Legends team. They were previously known as '''Dashing Buffalo''' and '''[[Phong Vũ Buffalo]]''' for sponsorship reasons. They were originally known as '''[[Young Generation]]'''.
+
+== History ==
+
+=== 2019 Season ===
+Before the summer split, Phong Vũ Buffalo renamed to Dashing Buffalo to match their new sponsor. Additionally star Top laner [[Zeros]] left the team, without their star player the team struggled with new top laners [[Raizo (Lâm Huỳnh Gia Huy)|Raizo]] and [[Kaido]] the team finished 4th with a 8-6 in the [[VCS/2019 Season/Summer Season|VCS Summer Season]] and lost 0-3 in the first round of [[VCS/2019 Season/Summer Playoffs|Playoffs]] to [[Lowkey Esports.Vietnam|Lowkey Esports]]
+
+=== 2020 Season ===
+Dashing Buffalo renamed to Saigon Buffalo as Dashing left as sponsor.
+
+=== 2021 Season ===
+In the [[VCS/2021 Season/Spring Season|VCS Spring Season]], Saigon Buffalo has promoted four new rookies from their academy team. [[Bean_J|BeanJ]], [[Rby]], [[Arrietty]] and [[Taki (Đinh Anh Tài)|Taki]] would join the team, whereas [[Style (Mai Hoàng Sơn)|Style]], [[Kuroko (Trần Tuấn Anh)|Kuroko]], [[Meliodas (Hoàng Tiến Nhật)|Meliodas]], [[Jad]] and [[Hinn]] left Saigon Buffalo. [[Hasmed]] and [[Froggy]] would remain on the team.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Aress|vn|Nguyễn Đức Thịnh|'''Content/Community Manager'''|newteam=MGN Vikings Esports}}
+{{listplayer|Raze (Nguyễn Kỳ Vương)|vn|Nguyễn Kỳ Vương|'''Coach'''|newteam=Rainbow Warriors}}
+{{listplayer|Yutility|kr|Yu Jiwon|'''Head Coach'''|newteam=GAM}}
+{{listplayersp|Grandon|vn|Nguyễn Vũ Đôn|'''Manager'''|newteam=NONE}}
+{{listplayer|BeeBee|vn|Huỳnh Nguyên Khôi|'''Content Editor'''|newteam=APOLLO GAMING}}
+{{listplayersp|Shawn|kr|Lee Donghyun|'''Manager'''|newteam=NONE}}
+{{listplayersp|Grandon|vn|Nguyễn Vũ Đôn|'''General Manager'''|newteam=CNJ Esports}}
+{{listplayersp|Hazardous|vn|Nguyễn Thành Đạt|'''Social Executive'''|newteam=NONE}}
+{{listplayer|Ciel (Trần Tiến Thịnh)|vn|Trần Tiến Thịnh|'''Assistant Coach'''|newteam=Team Whales}}
+{{listplayer|Ren|vn|Nguyễn Văn Trọng|'''Head Coach'''|newteam=SBTC Esports}}
+{{listplayersp|Baymax|vn|Đỗ Quốc Thắng|'''Manager'''|newteam=MGN Box Esports}}
+{{listplayersp|Nellie|vn|Vũ Hồng Nhật|'''Manager'''|newteam=None}}
+{{listplayer|Yuna|vn|Huỳnh Văn Tân|'''Head Coach'''|newteam=CES}}
+{{listplayer|Iris (Hồ Minh Triệu)|vn|Hồ Minh Triệu|'''Analyst'''|newteam=Burst The Sky}}
+{{listplayer|Fenry|vn|Trần Hữu Vinh|'''Coach'''|newteam=None}}
+{{listplayer|Ling|link=Ling (Nguyễn Mạnh Linh)|vn|Nguyễn Mạnh Linh|'''Head Coach'''|newteam=VETV}}
+{{listplayer|Ren|vn|Nguyễn Văn Trọng|'''Assistant Coach'''|newteam=Saigon Buffalo}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As Dashing Buffalo===
+{{TeamResults|Dashing Buffalo|show=overviewpage}}
+
+==Media==
+{{TeamMedia}}
+
+==External Links==
+
+== Images ==
+<gallery>
+DBL Roster 2019 Summer.jpg|Dashing Buffalo's 2019 VCS Summer Roster
+SGB_Roster_2021_Spring.jpeg|Saigon Buffalo's 2021 VCS Spring Roster
+</gallery>
+
+==References==
+<references />

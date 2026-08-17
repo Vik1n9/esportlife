@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Be%C5%9Fikta%C5%9F%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.138Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Beşiktaş e-Sports Club」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Beşiktaş Esports
+|orgcountry= Turkey 
+|country=
+|region= EMEA
+|image= BJK logo 2.png
+|analysts=
+|headcoach=
+|manager= 
+|captain= 
+|website= https://www.besiktasesports.com
+|youtube= https://www.youtube.com/c/Be%C5%9Fikta%C5%9FEsports
+|facebook= https://www.facebook.com/BesiktasEspor
+|twitter= bjkesports
+|lolpros=https://lolpros.gg/team/besiktas-esports
+|instagram= besiktasesports 
+|stream=https://www.twitch.tv/besiktas
+|tiktok= besiktasesports
+|sponsor=[https://carrefoursa.com CarrefourSA] <br> [https://www.maximum.com.tr/on-odemeli-kartlar/maximum-gaming-kart Maximum Gaming] <br> [https://www.dijipin.com Dijipin] <br> [https://www.kelme.com KELME] <br> [https://gank.com.tr GANK]
+|created= 2015-01-20
+|disbanded=
+|otherwikis= pubg,fortnite
+}}{{TOCRWI}}
+
+'''Beşiktaş Esports''' is a Turkish team associated with the football club '''Beşiktaş'''. They were previously known as '''Beşiktaş e-Sports Club'''.
+
+== Overview ==
+'''Beşiktaş Esports''' is a Turkish team and the first professional esports club opened by a professional sports club. '''Beşiktaş J.K. (Beşiktaş Gymnastic Club)''', founded in 1903, based in Istanbul and nicknamed the "Black Eagles", has teams for football/soccer, basketball, volleyball, handball, and many other sports and acquired the club formerly known as [[Aces High Esports Club]] and renamed it to '''Beşiktaş e-Sports Club'''.<ref>[http://www.eslgaming.com/news/turkish-sports-club-besiktas-istanbul-acquires-league-legends-team Turkish sports club Besiktas Istanbul acquires League of Legends team (English)] ''eslgaming.com''</ref><ref>[http://monkeyodds.com/blog/2015/01/turkey-besiktas-buy-aces-high-first-ever-sports-club-to-include-e-sport First ever sports club to include e-Sport (English)] ''monkeyodds.com''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|riqi|tr|Ege Budak|'''General Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Pades|tr|Serdar Padeş|'''Coach'''|newteam=Bushido Wildcats}}
+{{listplayer|Irean|kr|Heo Yeong-cheol (허영철)|'''Head Coach'''|newteam=none}}
+{{listplayer|HirumaY|tr|Emre Çetin|'''Assistant Coach'''|newteam=BBL DP}}
+{{listplayer|HirumaY|tr|Emre Çetin|'''Assistant Coach'''|newteam=BJK}}
+{{listplayersp|Hype|tr|Çağrı Ergün|'''Co-Streamer'''|newteam=none}}
+{{listplayer|Doctor|tr|İbrahim Karaaslan|'''Head Coach'''|newteam=XO Esports}}
+{{listplayer|Medson|tr|Yasin Bulut|'''Coach'''|newteam=none}}
+{{listplayer|Sanchi|pl|Maciej Bieńkowski|'''Analyst'''|newteam=P SUP}}
+{{listplayer|Zetsu|tr|Baturhan Bahadır|'''Head Coach'''|newteam=Bushido Wildcats}}
+{{listplayer|Doctor|tr|İbrahim Karaaslan|'''Head Coach'''|newteam=Anubis Gaming}}
+{{listplayer|Major|tr|Emre Muhterem Yiğittekin|'''Coach'''|newteam=retired}}
+{{listplayersp|Limario|tr|Berk Karasu|'''Analyst'''|newteam=WLG}}
+{{listplayer|Tacocat|tr|Can Gormezano|'''Coach'''|newteam=Cyberground Gaming}}
+{{listplayer|His|tr|Burak Sunal|'''Coach'''|newteam=retired}}
+{{listplayer|Prowler (Zübeyr Özeren)|tr|Zübeyr Özeren|'''Analyst'''|newteam=Bifrost}}
+{{listplayer|Craft1x|tr|Ali Aklan|'''Coach'''|newteam=DP}}
+{{listplayersp|Coach IRL|tr|Adnan Şengül|'''Performance Coach'''|newteam=FB}}
+{{listplayer|Nova (Ahmet Yılmaz)|tr|Ahmet Yılmaz|'''Head Coach'''|newteam=paiN}}
+{{listplayer|Doctor|tr|İbrahim Karaaslan|'''Coach'''|newteam=GAL}}
+{{listplayer|Zetsu|tr|Baturhan Bahadır|'''Assistant Coach'''|newteam=BJK}}
+{{listplayer|Nova|link=Nova (Ahmet Yılmaz)|tr|Ahmet Yılmaz|'''Head Coach'''|newteam=BJK}}
+{{listplayersp|Makrofaj|tr|Murat Sükuti|'''Performance Coach'''|newteam=none}}
+{{listplayer|Zetsu|tr|Baturhan Bahadır|'''Assistant Coach'''|newteam=BJK}}
+{{listplayersp|Maurockafer|tr|Tolga Kuru|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Major|tr|Emre Muhterem Yiğittekin|'''Team Manager'''|newteam=GS.A}}
+{{listplayersp|Veneficus|tr|Soykan Soner|'''Team Manager'''|newteam=Ronin Horde}}
+{{listplayer|GalB|kr|Lee Ju-hyeob (이주협)|'''Head Coach'''|newteam=retired}}
+{{listplayer|Feanor|hr|Matko Jemrić|'''Head Coach'''|newteam=x25}}
+{{listplayer|Emi|ro|Emanuel Ursachi|'''Analyst/Assistant Coach'''|newteam=Crvena zvezda esports}}
+{{listplayer|Nihilanth|tr|Salih Kızıldağ|'''Head Coach'''|newteam=BS}}
+{{listplayer|Rider|tr|Yusuf Kaan Hacıbaltalı|'''Analyst'''|newteam=Aftershock Esports}}
+{{listplayer|Furndog|uk|Josh Furneaux|'''Head Coach'''|newteam=G2V}}
+{{listplayer|Kazehaya|uk|Alex Hirst|'''Head Coach'''|newteam=LionsCreed}}
+{{listplayer|Hexagon Sun|tr|Berk Gocay|'''General Manager'''|newteam=Beşiktaş.Oyun Hizmetleri}}
+{{listplayersp|Sidiouss|tr|Emre Ürük|'''Manager'''|newteam=none}}
+{{listplayersp|BunDem|tr|Alperen Güngör|'''Manager'''|newteam=SUP}}
+{{listplayer|Lethilion|tr|İbrahim Onur Aksu|'''Coach'''|newteam=SUP}}
+{{listplayer|hatchý|pl|Adrian Widera|'''Analyst'''|newteam=3sUP}}
+{{listplayer|Auspexa|tr|Salih Kızıldağ|'''Analyst'''|newteam=DP}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+<gallery>
+BJK logo no background.png|Previous Logo (2015)
+Beşiktaş EsportsOldlogo square.png|Previous Logo (2016-2019)
+</gallery>
+
+==Media==
+{{TeamMedia}}
+
+==See Also==
+
+==External Links==
+*[http://www.bjk.com.tr/en/ Official Website (English)]
+*[https://en.wikipedia.org/wiki/Beşiktaş_J.K. Beşiktaş on Wikipedia]
+
+==References==
+<references />

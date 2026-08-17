@@ -1,0 +1,99 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=I%20May&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:04.975Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「I May」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|neworg=Bilibili Gaming
+|name= I May
+|orgcountry= China 
+|country=
+|region= CN
+|image=I Maylogo square.png
+|coaches= 
+|manager= 
+|captain= 
+|website=
+|youtube=
+|facebook=
+|twitter=
+|weibo=http://www.weibo.com/p/1006065926660141
+|irc=
+|sponsor=
+|sister-current=
+|created= 2016-05-18
+|disbanded=
+|trades=
+|rosterphoto=IMAY_2016_LPL_Summer.jpg
+}}{{TOCRWI}}
+
+'''I May''' was a Chinese competitive League of Legends team.
+
+==History==
+
+Formerly a sister team of [[EDward Gaming]] competing in the [[LSPL/2016 Season/Spring Season|LSPL]]  as [[EDward Esports]], the roster qualified for the [[LPL/2016 Season/Summer Season|2016 LPL Summer Split]] by securing first place in the Chinese Challenger League, before changing franchises in order to avoid the Riot ruling preventing sister teams from competing in the same League. They were then drafted into Group B for the upcoming season. An important acquisition prior to the beginning of the split was former [[ESC Ever]] mid laner [[Athena]]: the Korean player went on to play alongside [[BaeMe]] for the whole split, both bringing their own playstyle onto the rift. 
+
+As the weeks unfolded, IMay struggled against most teams in their own group, while at the same time having the most success against their Group A opposition, with the exception of EDG: indeed, the rookies ended the season with a 5-1 best-of-three record in the intergroup Round Robin and a 4-6 record in the intragroup Double Round Robin. Their overall performance granted IMay the third place in Group B and therefore a spot in the [[LPL/2016 Season/Summer Playoffs|Playoffs]]. After defeating [[Invictus Gaming]] and [[Snake eSports]], the newcomers met the reigning LPL Spring champions [[Royal Never Give Up]] in the semifinals: after an hard fought series, the crumbling nexus in Game 5 was IMay's. The team faced [[Team WE]] in the third place match, winning 3-1.
+
+IMay's Regular Season placement granted them a spot in the [[2016 Season China Regional Finals|Finals of the Qualifiers]], in which they met an exhausted Team WE. With the last Chinese spot for the [[2016 Season World Championship]] as the ultimate prize, the two teams battled in a no holds barred slugfest that went to a full five games. As the situation in Game 5 looked dire, with WE in full control of the map and a sizeable gold advantage throughout the match, the scrappy rookies managed to turtle long enough and wait for a crucial mistake from their opponents, culminating in an ill-fated teamfight at 50 minutes into the game, with IMay turning around a siege on the top lane inhibitor turret and closing out the series.<ref>[https://www.youtube.com/watch?v=1pKwKemt__s Game 5 of the Gauntlet Qualifiers against Team WE] ''youtube.com''</ref>
+
+IMay were drafted into Group B of the World Championship, together with LCK's [[SK Telecom T1]], NALCS' [[Cloud9]] and LMS' [[Flash Wolves]]. Between Weeks 1 and 2 starting support [[Road (Yun Han-gil)|Road]] was banned for the first game of Week 2 against the Flash Wolves for toxic behaviour in Solo Queue.<ref>[http://www.lolesports.com/en_US/articles/competitive-ruling-hankil-road-yoon Competitive Ruling: Hankil 'Road' Yoon] ''lolesports.com''</ref> Nevertheless, the team scrapped their way to a 2-4 finish, even winning their game against FW with [[Athena]] playing [[Lee Sin]] and [[Avoidless]] on [[Alistar]], ending in third place overall over FW.
+
+2017 wasn't that great for I May. Although they achieved a 2nd place finish at [[Demacia Cup/2017 Season|2017 Demacia Cup]] after a 1-3 loss to RNG in the finals, their domestic LPL results were poor. They finished their regular spring season in 4th place with an 8-8 record. In the playoffs they defeated [[Qiao Gu Reapers]] 3-2, however they dropped out in the quarterfinals with a 2-3 loss to OMG. In the summer split they finished 5th place with a 5-11 record and didn't earn enough Championship Points which meant they missed their chance to attend Worlds again.
+
+In December,  I May's LPL slot was sold to Chinese streaming platform Bilibili, and the team rebranded to [[Bilibili Gaming]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+
+===Former===
+{{listplayer/Start|newteam=yes|dates=yes}}
+{{listplayersp|Bge|cn|Yu Yi (余逸)|'''Manager'''|newteam=BLG|joined=2016-05-18|left=2017-12-17}}
+{{listplayer|Kezman|kr|Son Dae-young (손대영)|'''Head Coach'''|newteam=RNG|joined=2016-05-18|left=2017-12-17}}
+{{listplayer|Shadow|link=Shadow (Park Jae-seok)|kr|Park Jae-seok (박재석)|'''Coach'''|newteam=BLG|joined=2017-08-01|left=2017-12-17}}
+{{listplayer|FireFox|tw|Huang Ting-Hsiang (黃鼎翔)|'''Coach'''|newteam=Royal Never Give Up|joined=2016-05-18|left=2016-12-19}}
+{{listplayer|Wh1t3zZ|hk|Lo Pun Wai (盧本偉)|'''Owner'''|newteam=none|joined=2016-08-11|left=2016-12-19}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+
+==Interviews==
+{{TDRight
+|name1=2016
+|name2=2017}}
+{{TDRight|tab}}<!--2017-->
+* January 24, [http://esports.yahoo.com/i-may-coach-kezman-edg-have-won-so-much-its-our-turn-to-win-160936563.html I MAY Coach Kezman: 'EDG have won so much, it's our turn to win'] ''with Yahoo!''
+* April 19, [https://esports.yahoo.com/may-coach-kezman-isnt-experts-bo5s-just-able-drag-things-182955021.html I May Coach Kezman: 'It isn’t that we are experts at BO5s, just that we are able to drag things out'] ''with Yahoo! Esports''
+
+{{TDRight|tab}}<!--2016-->
+* September 1, [http://www.thescoreesports.com/lol/news/10161-lpl-press-conferences-edward-gaming-royal-never-give-up-i-may LPL press conferences: EDward Gaming, Royal Never Give Up, I May] ''on theScore''
+{{TDRight/end}}
+
+==Articles==
+{{TDRight
+|name1=2016}}
+{{TDRight|tab}}<!--2016-->
+* September 10, [http://gamurs.com/articles/road-to-worlds-i-may Road to Worlds: I May] ''by Adam Newell on GAMURS''
+* September 20, [http://www.thescoreesports.com/lol/news/10246-the-road-less-traveled-i-may-s-unconventional-playstyle The Road less traveled: I MAY's unconventional playstyle] ''by Kelsey Moser on theScore''
+* September 22, [http://gamurs.com/articles/doing-the-impossible-i-mays-path-to-worlds Doing The Impossible: I May's Path to Worlds] ''by Rykoh on GAMURS''
+{{TDRight/end}}
+
+==Articles==
+
+==Additional Content==
+
+== Images ==
+
+==External Links==
+
+==References==
+<references />

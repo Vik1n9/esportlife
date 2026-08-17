@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=BioPanther&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.139Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「BioPanther」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=BioPanther
+|name=Brandon Alexander
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=PCS
+|birth_date_year=1999
+|birth_date_month=February
+|birth_date_day=23
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' Big Bicep Bdon
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/biopantherr
+|twitter=LOL_BioPanther
+|lolpros=https://lolpros.gg/player/biopanther
+|deeplol=https://www.deeplol.gg/pro/BioPanther
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

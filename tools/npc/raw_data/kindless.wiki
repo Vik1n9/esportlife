@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kindless&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.052Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kindless」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kindless
+|name=Benjamin&nbsp;Ignacio Fuenzalida Barrera
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1998
+|birth_date_month=July
+|birth_date_day=17
+|favchamp=Jhin
+|favchamp2=Lucian
+|favchamp3=Ezreal
+|favchamp4=Kalista
+|checkbox1=No
+|checkboxComp=No
+|ids='''LAS''': Kindless#0804 <br> '''KR''': UNLUCKY ADC, Kill me pls <br>'''BR''': XxXDragóN420XxX#最高の選手
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kindless1
+|facebook=https://www.facebook.com/1Kindless
+|twitter=KindlessLoL
+|instagram=KindlessLoL
+|youtube=https://www.youtube.com/channel/UCqvVybSMjrsTawU-5_fU6tA
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+}}
+==Biography==
+His name is Benjamín Ignacio Fuenzalida Barrera, was born and lives in Santiago, Chile.
+
+=== 2015 Season===
+His debut was in [[Soul Gamer]] as AD carry participating in minor tournaments, in July of that year he leaves the team. 
+
+=== 2016 Season===
+At the beginning of the year he joins [[Game Over]] as AD Carry participating in minor tournaments, in April of that year he leaves the team.
+
+In the middle of the year he joins [[Dark Horse]] as AD Carry participating in the [[CDLS 2016 Closing]] where the team was second in the tournament, qualifying to the next phase. Already in the [[CDLS 2016 Closing Playoffs]] the team faced [[Bencheados]] losing 0-3, at the end of the tournament he leaves the team.
+
+=== 2017 Season===
+At the beginning of the year he joins [[Isurus]] as AD Carry participating in the [[CLS 2017 Opening]] where the team was first in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Opening Playoffs]] the team reached the final facing [[Furious Gaming]] winning 3-0, being champion for the first time, qualifying for the first time to an international tournament. Already in the MSI the team was in group B facing [[GIGABYTE Marines]], [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] and [[Virtus.pro]], where the team was last in the group stage. At mid-year [[Kindless]] he remains in the team participating in the [[CLS 2017 Closing]] where the team was second in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Closing Playoffs]]  the team reached the final facing [[Kaos Latin Gamers|KLG]] losing 1-3.
+
+=== 2018 Season===
+At the beginning of the year [[Kindless]] remains in the team participating in the [[CLS 2018 Opening]] where the team was third in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Opening Playoffs]] the team was third in the tournament losing against [[Kaos Latin Gamers|KLG]] 0-3. At mid-year [[Kindless]] he remains in the team participating in the [[CLS 2018 Closing]] where the team was third in the tournament, qualifying to the next phase. Already in the [[CLS 2018 Closing Playoffs]] the team was fourth in the tournament losing against [[Rebirth eSports]] 0-3, at the end of the tournament he leaves the team.
+
+=== 2019 Season===
+At the beginning of the year he joins [[XTEN Esports]] as AD Carry participating in the [[LLA 2019 Opening]] where the team was sixth in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Opening Playoffs]] the team was sixth in the tournament losing against [[Rainbow7]] 1-3, at the end of the tournament he leaves the team. At mid-year he joins [[Pixel Esports Club|Pixel Esports]] as AD Carry participating in the [[LLA 2019 Closing]] where the team was last in the tournament, having to play the relegation. Already in [[LLA 2020 Opening Promotion]] the team faces [[MAD Lions E.C. Colombia|MAD Lions Colombia]] earning 3-1, saving his place.
+
+== Trivia ==
+* Favorite champion is {{ci|Jhin}}.
+* Known for his {{ci|Lucian}}, {{ci|Ezreal}}, and {{ci|Kalista}}.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

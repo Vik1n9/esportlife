@@ -1,0 +1,91 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Steeelback&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.626Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Steeelback」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Steeelback
+|name=Pierre Medjaldi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=August
+|birth_date_day=16
+|favchamp=Lucian
+|favchamp2=Corki
+|favchamp3=Tristana
+|favchamp4=Kog'Maw
+|checkbox1=No
+|checkboxComp=No
+|ids=sandcastlemaker1, steeelbackmaker1, Steeelbackmaker, GSI Steeelbackkk, FnaticSteeelBack, SteeelB4ck, ODY SteeelBack
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/steeelback
+|facebook=https://www.facebook.com/Steeelback
+|twitter=Steeelb4ck
+|askfm=Steeelbackkk
+|youtube=https://www.youtube.com/channel/UCtBjJs4ZF4UGZg3cpXUo_ag
+|lolpros=https://lolpros.gg/player/steeelback
+|deeplol=https://www.deeplol.gg/pro/Steeelback
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===2014 Season===
+Steeelback's first stint on a competitive team was with [[GSI Gaming]], though he did not compete in any major tournaments with the organization.
+
+On November 9, 2014, Steeelback joined the newly formed [[SK Gaming Prime]] together with [[beansu]], [[Trashy]], [[Godbro]] and [[Hiiva]], in order to compete in the [[Riot League Championship Series/Europe/2015 Season/Spring Expansion|2015 Spring Expansion]]. The team were knocked out in Round 1 of the online phase after being beaten by [[Reason Gaming]]. Despite this disappointment, Steeelback and the team also competed in [[2014 Black Monster Cup Europe Winter]]. SK Prime finished 2nd, losing only to [[H2k-Gaming]] who qualified for the LCS just a week after the tournament.
+===2015 Season===
+Steeelback joined [[Fnatic]] for the [[Riot League Championship Series/Europe/2015 Season/Spring Season|spring LCS split]], part of a new roster including himself, [[YellOwStaR]], [[Febiven]], [[Reignover]], and [[Huni]].<ref>[http://www.fnatic.com/content/96327/the-new-era-of-fnatic-league-of-legends The new era of Fnatic League of Legends] ''fnatic.com''</ref> They finished the regular season in second place, behind [[SK Gaming]] and then won the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|playoffs]] after a 3-2 finals victory over [[Unicorns of Love]]. Representing Europe at the [[2015 Mid-Season Invitational|Mid-Season Invitational]], Fnatic surpassed expectations, advancing to the bracket stage and bringing [[SK Telecom T1]] to 5 games; however, they were unable to beat the Korean team and finished tied for third place with [[ahq e-Sports Club]]. Despite their strong performance in the spring, they changed their roster slightly prior to the start of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|summer season]], re-adding [[Rekkles]] as starting AD carry and moving Steeelback to a substitute position.<ref>[http://fnatic.com/content/96431/return-of-rekkles The Return of Rekkles] ''fnatic.com''</ref>
+
+After Rekkles took his starting position on Fnatic, Steeelback left the team and moved to North America to join [[Odyssey Gaming]] for the [[2015 NA Challenger Series/Summer Qualifier|NACS Summer 2015 qualifier]].<ref>[http://twitter.com/FNATIC/status/603649333829963776 Fnatic's tweet] ''twitter.com''</ref> However, the team was eliminated after a second-round loss to [[Cloud9 Tempest]]. After the third week of the [[2015 NA Challenger Series/Summer Season|summer season]], Steeelback joined [[Team Imagine|Imagine]], a team that had successfully qualified for the NACS.
+
+Imagine finished fourth in the regular season, with a 6-4 record. In the 2015 NACS [[2015_NA_Challenger_Series/Summer_Playoffs|Summer Playoffs]], they lost in the semifinals to eventual tournament winner [[Renegades]], but won the third place match against [[Cloud 9 Tempest]] to secure a spot in the [[Riot_League_Championship_Series/North_America/2016_Season/Spring_Promotion|2016 LCS Promotion Tournament]]. Chosen by [[Team 8]], they lost 3-1 - out of [[League Championship Series/North America/2016 Season/Spring Promotion|LCS]] qualification, but regardless retaining their [[2016 NA Challenger Series/Spring Season|2016 NACS spring season]] placement.
+
+===2016 Season===
+At the start of the season, Steeelback joined [[Unicorns Of Love]]. After Fnatic withdrew from [[IEM Season X - San Jose|IEM San Jose]] due to medical problems, Unicorns Of Love took their spot, fielding [[Hylissang]] and [[Vizicsacsi]] from their 2015 roster along with new members [[Gilius]], [[Fox (Hampus Myhre)|Fox]], and Steeelback. They were eliminated in the quarterfinals of the tournament by [[Counter Logic Gaming]]. UOL finished in fifth place in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], after being forced to replace [[Diamondprox]] in the jungle due to visa issues. They were eliminated in the [[League Championship Series/Europe/2016 Season/Spring Playoffs|quarterfinals]] by Origen.
+
+== Trivia ==
+* When he was on Fnatic, was known as "the Janitor" for his ability to clean up team fights
+* In January 2019, he decided to change roles and become a support.<ref>[https://twitter.com/Steeelb4ck/status/1083710674734325760 Steeelback's Tweet] ''twitter.com''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

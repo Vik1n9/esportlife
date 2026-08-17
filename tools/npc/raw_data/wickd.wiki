@@ -1,0 +1,223 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wickd&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.260Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wickd」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Wickd
+|name=Mike Petersen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1994
+|birth_date_month=April
+|birth_date_day=29
+|favchamp=Irelia
+|favchamp2=Malphite
+|favchamp3=Renekton
+|favchamp4=Zac
+|checkbox1=Yes
+|checkboxComp=No
+|ids='''EUW:''' Wickd
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/wickd
+|facebook=https://www.facebook.com/LoLWickd
+|twitter=wickdlol
+|askfm=Wickdlol
+|snapchat=wickdsnap
+|reddit=wickd
+|site=https://www.wickd.gg
+|lolpros=https://lolpros.gg/player/wickd
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Mike "'''Wickd'''" Petersen was born in Denmark on April 29, 1994. He began gaming at the age of three, playing the turn-based combat game “Worms”. This eventually led to playing games like World of Warcraft and Counter-Strike. After seeing an advertisement for the League of Legends beta, he decided to install the game, and quickly fell in love with it. Now Wickd is one of Europe’s most seasoned players, having played in all but one European LAN tournament featuring League of Legends. In Season 1 he was the first player who reached Platinum in Solo Queue. 
+
+===Season 1===
+In 2010, Wickd and his former team, [[Dimegio Club]], were recruited by [[SK Gaming]]. His first success in a major tournament was at [[IEM Season VI - Global Challenge Guangzhou|IEM Guangzhou]], where SK came 3rd behind [[Counter Logic Gaming]] and [[Team WE]]. Two weeks later, he competed at [[IEM Season VI - Global Challenge New York|IEM New York]], where the team scored a 2nd place finish behind [[Fnatic]].
+
+On October 20, 2011 he left SK Gaming to form a team with [[WetDreaM]] under the flag [[Absolute Legends]], where he met [[Froggen]]. With the merger of Absolute Legends and [[Counter Logic Gaming]], the team [[Counter Logic Gaming EU]] was formed. Wickd served as team captain for CLG.EU.
+
+===Season 2===
+Newly formed [[Counter Logic Gaming EU|CLG.eu]]'s first appearance would come at [[Kings of Europe]]. The team won the tournament and made a big statement by beating [[Moscow Five]] in the final. They followed this with another triumph against Moscow Five, beating them in the final of the [[Corsair Vengeance Cup]].
+
+A long season saw Wickd and CLG.eu face Moscow Five on a number of other occasions. The next time the two would meet was the final of [[DreamHack Summer 2012]], where again CLG.eu came out victorious. Despite their early season dominance, Wickd and the team were beaten by Moscow Five in the final of [[European Challenger Circuit: Poland|ECC Poland]].
+
+Next up for CLG.eu were the [[Season 2/Regional Finals - Cologne|Regional Finals]], the team placed 3rd behind Wickd's former team [[SK Gaming]] and Moscow Five. The team's performance sealed them a spot at the [[Season 2 World Championship]]. In preparation for this, CLG.eu competed, and placed second at [[Azubu The Champions Summer 2012]]. 
+
+At the World Championship, Wickd and the CLG.eu team were eliminated in the semifinals after a loss to [[MadLife]]'s [[Azubu Frost]].
+
+The team finished the season off with a 3nd place finish at the [[2012 MLG Pro Circuit/Fall/Championship|MLG Fall Championship]] and a 2nd place finish at [[DreamHack Winter 2012]]. At the close of the season, the team decided to split with the CLG organization and join [[Evil Geniuses.EU|Evil Geniuses]].
+
+===Season 3===
+A new challenge presented itself to Wickd and the team in the form of the upcoming [[Riot League Championship Series/Europe/Season 3/Spring Round Robin|Spring Split]]. The team came in 4th, granting them a spot in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Spring Playoffs]]. [[Evil Geniuses.EU|Evil Geniuses]] lost to [[Fnatic]] in the semifinals of the tournament, but the team clinched 3rd by beating [[SK Gaming]] in the third-place match.
+
+During this time, Wickd broke the record for most viewers of a personal stream. He had over 130,000 concurrent viewers on TwitchTV, streaming a best of 5 1v1 against [[sOAZ]] to determine who would play as the top lane all star for the [[Europe LCS|EU LCS Team]]<ref>[http://www.gamespot.com/news/league-of-legends-pro-hits-largest-ever-personal-stream-on-twitchtv-6407147 League of Legends pro hits largest ever personal stream on TwitchTV] ''gamespot.com''</ref> The stream ended in a 3-2 win for sOAZ.
+
+The following [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|Summer Split]] was strangely similar to the Spring Split for EG and Wickd. A 3rd place finish secured them a spot in the [[Riot League Championship Series/Europe/Season 3/Summer Playoffs|Summer Playoffs]]. Playoff losses to [[Fnatic]] in the semifinal and [[Moscow Five]] in the third-place match saw Evil Geniuses finish 4th.
+
+On December 10, 2013, Wickd and longtime teammate [[Froggen]] left [[Evil Geniuses.EU|Evil Geniuses]] and joined [[Alliance]].
+
+===2014 Season===
+The start of the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin| Spring Split]] was disappointing for Wickd and the team, as they consistently sat in the bottom 3 team standings, until the 8th week. From there onward, Alliance dominated the split. An overall team improvement and a number of successful {{ci|Irelia}} games for Wickd propelled them to 1st place in the penultimate week, but an unsuccessful superweek saw them lose the top spot. Alliance finished in 3rd place behind [[SK Gaming]] and [[Fnatic]].
+
+Alliance's performance in their first split resulted in their qualification for the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. In the playoffs the team lost to Fnatic in the semifinal, and then fell to [[ROCCAT]] in the third-place match.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] saw Alliance emulate their form from the end of the Spring Split. Again impressive on {{ci|Irelia}}, and now also {{ci|Shyvana}}, Wickd helped the team to a 1st place finish, with Alliance staying at the peak of the rankings table for the entire split.
+
+Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for Wickd to qualify for the [[2014 Season World Championship|World Championship]] in his first season with the organization. Alliance placed 1st in the playoffs, beating Fnatic in the final, and secured themselves a place at the World Championship.
+
+The World Championship saw Alliance placed in Group D along with [[NaJin White Shield]], [[Cloud9]] and [[KaBuM! e-Sports]]. Despite more successful games on {{ci|Irelia}} for Wickd, Alliance beat each team once and lost to each team once, resulting in a 3rd place finish in the group. This meant they would not go any further in the tournament.
+
+===2015 Season===
+Alliance were the European team invited to [[IEM Season IX - San Jose|IEM San Jose]]. Seeded directly into the semifinals, Wickd and the team lost their matchup to [[Cloud9]] and tied for third place with [[Team SoloMid]]. 
+
+In order to comply with new LCS regulations, [[Alliance]] would have to change their name for the upcoming season, and they rebranded as [[Elements]].<ref>[http://www.facebook.com/Elementsgg/posts/662967857147816 Elements Facebook Post] ''facebook.com''</ref> The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was not a success for the team, finishing in 7th place after making a number of roster changes. This meant that the team would not go to playoffs, but would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. However, the team rebuilt itself after the split, and Wickd left the team. 
+
+Wickd then went on to create [[Team Gravy]], and qualified for the [[2015 EU Challenger Series/Summer Qualifier|EUCS Summer Qualifier]] via the [[2015 EU Challenger Series/Summer Qualifier/Ladder|Challenger Ladder]]. After the quarterfinals of the tournament, the team's roster was acquired by [[Denial eSports EU]]. Wickd and the team managed to qualify for the [[2015 EU Challenger Series/Summer Season|EUCS Summer Season]], beating [[Ex Nihilo]] in their bracket final. The [[2015 EU Challenger Series/Summer Season|Summer Season]] itself was successful for Wickd and the team, finishing in 3rd place. In the [[2015 EU Challenger Series/Summer Playoffs|Summer Playoffs]], they were beaten in the semifinals by [[Team Dignitas EU]] before losing to [[Gamers2]] in the third-place match, meaning they would not have a chance to qualify for the LCS.
+
+Wickd and the team then participated in [[PGL Legends of the Rift/Season 1|PGL Legends of the Rift - Season 1]], where they managed to top their group. In the playoffs, they were knocked out of the upper portion of the bracket by [[To Infinity and Beyond]] before being knocked out of the lower portion of the bracket by [[Millenium]], resulting for a 4th place finish for [[Denial eSports EU]]. Wickd left the team soon after.
+
+He later joined [[E-corp Gaming]], winning [[DoigCup 2]] with the team before moving on. 
+
+== Trivia ==
+* After losing an important qualifier tournament with his team (where most of his favorite champions were banned); his fellow team members asked him to start training on AP champions for the top lane so they can run the popular "Dual AP" strategy. He chose to learn {{ci|Vladimir}} and {{ci|Kennen}} as he hated to play against these champions.
+* Favorite champions are: {{ci|Irelia}}, {{ci|Renekton}}, and {{ci|Zac}}.
+* He is known for his aggressive play style, and has been quoted as saying: "''You always need to play like the enemy jungler isn't there. If you don't, you lose the lane''".
+* Popularized the Season 2 Attack Speed {{ci|Irelia}} build with [[Berserker's Greaves]], [[Wit's End]], and [[Ionic Spark]].
+* Spurred on by [[hyrqBot|hyrqBot's]] tweet<ref>[http://twitter.com/hyrqBot/status/323877432451026945 hyrqBot's tweet] ''twitter.com''</ref>, Wickd made and lost a wager with [[sOAZ]] to decide which of them would participate in the Season 3 LCS All-Star Game in a Best-of-5 showdown.
+* Was an avid Counter-Strike and DotA fan before turning to League of Legends.
+* Was the first player in the world to reach Platinum Division.<ref>[http://www.lolking.net/guides/191034#custom-section-1 Wickd Aatrox-Guide Lolking] ''lolking.net''</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2011
+|name2=2012
+|name3=2013
+|name4=2014
+|name5=2015
+|name6=2018}}
+{{TDRight|tab}}<!-- 2018 -->
+*December 13, [https://www.youtube.com/watch?v=B7jQU7zWSXY Wickd tells Travis about his return to being a pro and his plans to come back] ''with Travis Gafford on YouTube''
+{{TDRight|tab}}<!-- 2015 -->
+* February 18, [http://www.reddit.com/r/leagueoflegends/comments/2wbrt9/i_am_wickd_ama/ I am Wickd AMA] ''with Reddit''
+{{TDRight|tab}}<!-- 2014 -->
+* February 22, [http://www.ongamers.com/articles/mike-wickd-petersen-gives-his-thoughts-on-the-irelia-pick-in-the-eu-lcs-w6d1/1100-915/ Mike "Wickd" Petersen gives his thoughts on the Irelia pick in the EU LCS W6D1] ''with onGamers''
+* May 20, [http://www.ongamers.com/videos/wickd-on-alliance-s-game-against-the-copenhagen-wo/2300-571/ Wickd on Alliance's game against the Copenhagen Wolves and EU's place in the world (video)] ''with onGamers''
+* August 12, [http://www.inven.co.kr/webzine/news/?news=116158&site=lol 유럽 LoL 팀 얼라이언스, 그들과의 유쾌한 수다 (Korean)] [http://www.reddit.com/r/leagueoflegends/comments/2dbu70/team_alliance_inven_interview_translated/ (English)] ''with Inven''
+* September 26, [http://www.youtube.com/watch?v=Ptm-RlpUa8Y Wickd on Day 7 on their match vs Cloud 9 and predictions for NWS (Video)] ''with onGamers''
+* November 11, [http://eune.lolesports.com/articles/ask-pros-alliances-wickd Ask The Pros: Alliance's Wickd] ''with LoL Esports''
+* November 24, [http://www.eslgaming.com/interview/rekkles-was-perfect-piece-finish-our-puzzle-mike-wickd-petersen-talks-san-jose "Rekkles was the perfect piece to finish our puzzle": Mike "Wickd" Petersen talks San Jose] ''with ESL''
+* December 8, [http://www.youtube.com/watch?v=Y-97riREhvE Travis and Wickd on Rekkles and Krepo at IEM San Jose (video)] ''with onGamers''
+{{TDRight|tab}}<!-- 2013  -->
+* March 1, [http://evilgeniuses.net/wickd-and-krepo-break-down-weeks-1-4-of-lcs/ Wickd and Krepo Break Down Weeks 1-4 of LCS] ''with Evil Geniuses''
+* March 8, [http://www.youtube.com/watch?v=6MGhU-SZhVY EG.Wickd: 'I didn't care and the day after I quit my job' (IEM CeBIT 2013) (video)] ''with GosuGamers''
+* May 7, [http://www.aceresport.com/uk/content/311.htm Wickd 'Grilled' (video)] ''with Team Acer''
+* December 14, [http://www.ongamers.com/videos/wickd-talks-about-alliance-and-their-fight-against/2300-175/ Wickd talks about Alliance and their fight against Dignitas (video)] ''with OnGamers''
+* December 31, [http://www.reddit.com/r/leagueoflegends/comments/1u375k/alliance_wickd_ama/ Alliance Wickd AMA] ''with Reddit''
+{{TDRight|tab}}<!-- 2012 -->
+* March, [http://www.absolutelegends.net/news/display/806/Interview-With-Wickd Interview With Wickd] ''with Absolute Legends''
+* March 28, [http://www.team-dignitas.net/articles/blogs/League-of-Legends/1148/Interview-with-CLG-Wickd-I-just-have-to-stop-playing-Irelia-untill-they-Riot-buff-her-again/ Interview with CLG Wickd: "I just have to stop playing Irelia untill they <nowiki>[Riot]</nowiki> buff her again."] ''with Team Dignitas''
+* April 12, [http://www.youtube.com/watch?v=U58nb7n9vqU Wickd - placed 3rd with his team CLG.eu] ''with Team Acer''
+* June 9, [http://www.youtube.com/watch?v=-eh20bmQEMc CLG.Eu Wickd - MLG Anaheim Day Two] ''with StateoftheLeague''
+* June 19, [http://www.youtube.com/watch?v=pYGt6DJB7PM Snoopeh and Wickd "Best way to learn is watching streams" - Dreamhack Summer 2012 (video)] ''with Definitive eSports''
+* August 3, [http://www.youtube.com/watch?v=kOMVudooolk ECC: Poland - Interview with Mike "Wickd" Petersen] ''with ESLtvPL''
+* August 22, [http://www.reddit.com/r/leagueoflegends/comments/ymewe/clg_eu_wickd_ama/ CLG EU Wickd AMA] ''with Reddit''
+* August 28, [http://www.youtube.com/watch?v=T5vGpQwx6Gk Athene Interviews Wickd! (video)] ''with Athene''
+* September 29, [http://www.youtube.com/watch?v=k9aS5uawlJs Krepo & Wickd Dual Interview (video)] ''with Athene''
+* September 29, [http://www.youtube.com/watch?v=7qdL-WE3_SE Season 2 Finals preview: Doublelift, Wickd & Deman (video)] ''with SK Gaming''
+* October 3, [http://www.youtube.com/watch?v=UNPzNUaHuFc CLG Eu Wickd - Pre World Playoffs Interview (video)] ''with State of the League''
+* October 6, [http://www.gamespot.com/league-of-legends/videos/wickd-from-clgeu-shares-his-thoughts-on-his-quarterfinals-match-6397811/ WickD from CLG.EU shares his thoughts on his QuarterFinals Match (video)] ''with Gamespot''
+* October 7, [http://www.reddit.com/r/leagueoflegends/comments/1142gr/wickd_ama_about_season_2_championship/ Wickd AMA About Season 2 Championships] ''with Reddit''
+* October 13, [http://www.youtube.com/watch?v=sidNp8HgIcE Wickd and Panky Interview at Riot World Finals - IGN Pro League (video)] ''with IGN Pro League'' 
+* November 3, [http://www.youtube.com/watch?v=u1lga4Bp1u0 MLG Dallas - Pluto Interviews CLG Wickd (video)] ''with Reign of Gaming''
+* November 5, [http://ggchronicle.com/wickd-profile/ Profile: Words With Mike “Wickd” Petersen] ''with ggChronicle''
+* November 7, [http://www.youtube.com/watch?v=oj5Yu3pv6ng CLG.EU Wickd at MLG Dallas 2012 (video)] ''with Machinima''
+* November 10, [http://www.youtube.com/watch?v=mIaLgcPIWZA CLG.eu Wickd ft. ColbyCheeZe at Lone Star Clash II (video)] ''with CyberSportsNetwork''
+* November 13, [http://www.youtube.com/watch?v=FNWcLzmH4Cw CLG.eu Wickd at Lone Star Clash II after beating Curse (video)] ''with CyberSportsNetwork''
+* December 6, [http://www.youtube.com/watch?v=b5zdyXKzCh4 CLG.eu Wickd interviewed at IPL5 (video)] ''with CyberSportsNetwork''
+{{TDRight|tab}}<!-- 2011 -->
+* July 24, [http://esporteye.net/sk_wickd_interview Wickd Interview] ''with e-sport eye''
+* October 15, [http://www.youtube.com/watch?v=3T4lDWizWTI Wickd - Interview at IEM New York (video)] ''with Intel Extreme Masters''
+* November 3, [http://www.youtube.com/watch?v=99-e21cxkoI Interview with Wickd, Ocelot, and CandyPanda] ''with StateoftheLeague''
+* December 19, [http://www.reddit.com/r/leagueoflegends/comments/nipvm/wickd_ama/ Wickd AMA] ''with Reddit''
+{{TDRight/end}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

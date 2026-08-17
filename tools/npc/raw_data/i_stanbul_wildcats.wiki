@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Istanbul%20Wildcats&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.538Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「İstanbul Wildcats」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DISPLAYTITLE:İstanbul Wildcats}}
+{{Infobox Team|isdisbanded=yes
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= İstanbul Wildcats
+|orgcountry=Turkey
+|country= 
+|region= EMEA
+|sponsor= [https://www.denizbank.com/ DenizBank]<br>[https://www.littlecaesars.com.tr/ LittleCaesars]<br>[https://www.westerndigital.com/brand/wd-black WD Black]<br>[https://www.vatanbilgisayar.com/ Vatan Bilgisayar]<br>[https://www.intel.com/ Intel]<br>[https://www.hp.com/ HP]<br>[https://www.igapass.com/tr IGA Pass]
+<!-- Staff -->
+|owner= Grand Plane Tree Espor A.Ş.
+|captain=
+<!-- Social Media -->
+|website= https://www.istanbulwildcats.com
+|youtube= https://www.youtube.com/iwcats
+|facebook= https://www.facebook.com/iwcats
+|twitter= IWCats
+|discord= https://discord.com/invite/5Ssc2Tppnj
+|lolpros=https://lolpros.gg/team/istanbul-wild-cats
+|stream=https://www.twitch.tv/iwcats
+|snapchat= 
+|instagram= iwcats
+<!-- History -->
+|created= 2019-04-16
+|disbanded= 
+|otherwikis=valorant, fn
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''İstanbul Wildcats''' is a Turkish team. They were previously known as [[HWA Gaming]]. They were previously competing under the name '''DenizBank İstanbul Wildcats''' due to sponsorship reasons.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|OCC|tr|Orlando Carlo Calumeno|'''Owner'''}}
+{{listplayersp|VoiNn|tr|Arda Açiksöz|'''Manager'''}}
+{{listplayer|Only35|tr|Mehmet Emin Aydın|'''Streamer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Blastoise|tr|Murat Efe Ergin|'''Analyst'''|newteam=none}}
+{{listplayersp|Robogot|tr|Oğuzhan Ayan|'''Analyst'''|newteam=none}}
+{{listplayer|sinine|de|Jennifer Geißler|'''Assistant Coach'''|newteam=UOL.A}}
+{{listplayer|Craft1x|tr|Ali Aklan|'''Head Coach'''|newteam=BK ROG}}
+{{listplayer|Jeconns|tr|Berkay Parlar|'''Analyst'''|newteam=Istanbul Wildcats Academy}}
+{{listplayer|TheQep|tr|Melih Akgün|'''Head Coach'''|newteam=Phoenix TR}}
+{{listplayer|Fanrong|tr|Gönenç Aksu|'''Analyst'''|newteam=SMB}}
+{{listplayer|Raiden (Barış Uzun)|tr|Barış Uzun|'''Coach'''|newteam=Twisted Minds}}
+{{listplayer|Robogod|tr|Barış Mete Sevinç|'''Head Coach'''|newteam=PXS}}
+{{listplayer|Janus (Özcan Gürbüz)|tr|Özcan Gürbüz|'''Coach'''|newteam=SMB}}
+{{listplayersp|LIB|tr|Semay Öztürk|'''Coach'''|newteam=none}}
+{{listplayer|Major|tr|Emre Muhterem Yiğittekin|'''Coach'''|newteam=BJK}}
+{{listplayer|Rider|tr|Yusuf Kaan Hacıbaltalı|'''Coach'''|newteam=SuperMassive Academy}}
+{{listplayer|Doctor|tr|İbrahim Karaaslan|'''Coach'''|newteam=BJK}}
+{{listplayer|Aligan|tr|Yaşar Ali Can|'''Assistant Coach'''|newteam=TeamOrangeGaming}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

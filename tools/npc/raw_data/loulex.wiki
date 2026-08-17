@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Loulex&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.724Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「loulex」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Loulex
+|name=Jean-Victor Burgevin
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France
+|residency=Europe
+|birth_date_year=1995
+|birth_date_month=March
+|birth_date_day=27
+|favchamp=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/loulex
+|twitter=loulexd
+|reddit=loulex
+|lolpros=https://lolpros.gg/player/loulex/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Streamer
+|prev2=Coach
+}}
+==Biography==
+Jean-Victor "'''loulex'''" Burgevin first climbed to Challenger on the EU-West server primarily playing {{ci|Lee Sin}} in Season 3 as he was finishing high school.<ref>[http://www.reddit.com/r/leagueoflegends/comments/1tp4en/hi_im_loulex_euw_challenger_player_with_1337/ Hi I'm loulex, EUW challenger player with 1337 games on lee sin this season AMA] ''reddit.com''</ref>
+
+===2014 Season===
+Loulex subbed for [[Gambit Gaming]] in week 8 of the [[Riot_League_Championship_Series/Europe/2014_Season/Summer_Round_Robin|2014 Summer EU LCS]], replacing [[Diamondprox]] while [[Kubon]] replaced [[Darien]]. However, the team went 0-4 (week 8 was a super week), and the next week Diamond returned to the starting roster.
+
+On August 4, loulex joined [[Ninjas in Pyjamas]] to replace [[k0u]], who left to join [[Gamers2]]. He played with them in the [[2014_EU_Challenger_Series/Summer_Series/Playoffs|summer EUCS playoffs]], but the team was eliminated in the semifinals losing to [[SK Gaming Prime]] 1-2 and then also lost the third-place match to [[Unicorns of Love]] 0-3. loulex did not keep playing with NiP after the tournament.
+
+On November 11, 2014, H2k-Gaming announced their two new players [[Voidle]] and [[loulex]] for the [[Riot League Championship Series/Europe/2015 Season/Spring Expansion|2015 EU Expansion tournament]].<ref>[http://twitter.com/H2kGaming/status/531961000938201088 H2k's Twitter Post] ''twitter.com''</ref> loulex and the team qualified for the Offline Stage after beating [[Meloncats]]. In the Offline Stage, H2k won their first matchup against [[n!faculty]], meaning they were one win away from the LCS. The team went on to beat [[GIANTS! Gaming]] in the Winner's Bracket Final, meaning they would be playing in the [[Riot League Championship Series/Europe/2015 Season/Spring Round Robin|Spring Split]].
+
+===2015 Season===
+The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was relatively successful for loulex and [[H2k-Gaming]]. After a shaky start, results began to pick up for the team, partly thanks to the introduction of [[kaSing]] to the roster. loulex's impressive individual performances throughout the rest of the split, particularly on {{ci|Jarvan IV}} and {{ci|Rek'Sai}}, helped the team to a 3rd place finish in the regular season. In the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], loulex and the team beat [[Copenhagen Wolves]] in the quarterfinals, but were beaten in the semifinals in a close-fought series by eventual champions [[Fnatic]]. [[H2k-Gaming]] went on to pull off a shock victory over [[SK Gaming]] in the third-place match, securing themselves 50 [[2015 Season/Championship Points|Championship Points]].
+
+Loulex and the team began to impress from the very start of the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]]. [[H2k-Gaming]] jostled for 2nd position with [[Origen]] throughout the regular season, with [[Fnatic]] way out in 1st place throughout. Impressive performances from loulex on {{ci|Gragas}} ultimately helped the team to yet another 3rd place regular season finish. The [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]] also went well for loulex and the team, beating [[Giants Gaming]] in the quarterfinals of the tournament. The were beaten in the semifinals by [[Origen]], but went on to beat [[Unicorns Of Love]] in the third-place match, securing the team 70 [[2015 Season/Championship Points|Championship Points]], which meant that the team had qualified for the [[2015 World Championship]] as Europe's #2 seed.
+
+At the [[2015 World Championship]], [[H2k-Gaming]] were seeded into Group C along with [[SK Telecom T1]], [[EDward Gaming]], and [[Bangkok Titans]]. They picked up 2 wins in the group, both coming against [[Bangkok Titans|BKT]]. loulex and the team finished the group in 3rd place, meaning they would not advance to the knockout stage of the tournament.
+
+===2016 Season===
+Loulex left H2k in November 2015 and moved to North America to join Challenger squad [[Also Known As]].<ref>[http://www.h2k-gaming.eu/2015/11/03/loulex-leaves-h2k/ Loulex leaves H2k] ''h2k-gaming.eu''</ref> After failing to advance past the [[NA_Challenger_Series/2016_Season/Spring_Qualifiers/Open_Qualifier|NACS open qualifier]], loulex left the team. He returned to playing in Europe in February to play for [[Unicorns of Love]] in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], replacing [[Rudy (Rudy Beltran)|Rudy]] as their stand-in jungler for [[Diamondprox]], who was unable to play due to visa issues.<ref>[http://www.facebook.com/UnicornsOfLove/posts/481537562037778 Unicorns of Love's Facebook Post] ''facebook.com''</ref> The team finished in fifth place in the regular season and then lost to [[Origen]] in the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]].
+
+== Trivia ==
+* Had 1,337 games played on {{ci|Lee Sin}} in Season 3.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

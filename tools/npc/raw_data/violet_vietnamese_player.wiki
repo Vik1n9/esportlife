@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Violet%20(Ng%C3%B4%20M%E1%BA%A1nh%20Quy%E1%BB%81n)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.545Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Violet (Vietnamese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Violet
+|name=Ngô Mạnh Quyền
+|image=Player Profile Image Violet.png
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=1987
+|birth_date_month=January
+|birth_date_day=07
+|favchamp2=Lissandra
+|favchamp3=Thresh
+|checkbox1=No
+|checkboxComp=No
+|ids=GFL Violet (VN)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.nimo.tv/sbtcviolet
+|facebook=https://www.facebook.com/lmht.violet
+|youtube=https://www.youtube.com/@VioletMyMy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=Yes
+|prev1=Top
+|prev2=Bot
+|prev3=Mid
+|prev4=Jungler
+|prev5=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Has played all five roles in the competitive scene.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

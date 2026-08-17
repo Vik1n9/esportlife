@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Xiye&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.537Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「xiye」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=xiye
+|name=Su Han-Wei
+|nativename=苏汉伟
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1997
+|birth_date_month=August
+|birth_date_day=06
+|favchamp=LeBlanc
+|favchamp2=Annie
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:''' 只只觉得不妥<br>'''KR:''' heihei <br> '''EUW:''' heihe
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/12267
+|weibo=https://weibo.com/n/xiye
+|deeplol=https://www.deeplol.gg/pro/xiye
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|nicknames=Lotion（洗液）
+}}
+==Biography==
+Su "'''xiye'''" Han-Wei began his professional career in 2013 as a member of [[Team WE Academy]]. He was a member of the team for two of their third place finishes at [[World GameMaster Tournament 2013]] and  [[Tencent Games Arena Grand Prix/Winter 2013|Tencent Games Arena Grand Prix Winter 2013]]. He also competed at [[2013 GALAXY eSports Carnival]] where he finished 4th. 
+
+He started 2014 well winning [[G-League 2013]] before getting two fourth place finishes at [[International Esports Tournament 2014]] and [[2014 GALAXY eSports Carnival]].
+
+Due to their 1st place finish at [[IEM_Season_IX_-_Shenzhen|IEM Shenzhen]], [[Team WE]] were invited to compete at the [[IEM Season IX - World Championship]]. After a Round 1 loss against [[Team SoloMid]], the team went on to beat [[Gambit Gaming]] in Round 1 of the losers bracket. Round 2 of the losers bracket saw WE beat [[CJ Entus]], securing the team a place in the bracket stage. Xiye and [[Team WE]] then pulled off the upset of the tournament, emerging victorious in their semifinal matchup over the previously unbeaten [[GE Tigers]]. They went on to finish in 2nd place after losing to [[Team SoloMid]] in the final of the tournament.
+
+In the 2016 Season after they re-vamped their entire roster, Team WE entered the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] as underdogs but proved to be contenders for the title and finished 2nd with a 10-6 regular season record. Going into the Playoffs, the team defeated [[Vici Gaming]] 3-1 and despite losing to [[Royal Never Give Up]] 2-3 in the Semifinals the team finished in 3rd after they took down [[Qiao Gu Reapers]] in the third-place match. Summer was slightly more successful for Team WE as the team finished 2nd in their group. In the playoffs they finished 4th after a 1-3 loss to [[I May]]. Ultimately it was I May that ended up being Team WE's downfall. They lost an incredibly close series 2-3 to I May in the Regional Qualifiers. This unfortunately meant that they didn't qualify for Worlds.
+
+The 2017 Season was much more successful for Team WE. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] in 2nd place with a 10-6 record. In the [[LPL/2017_Season/Spring_Playoffs|2017 LPL Spring Playoffs]] Team WE was able win their first LPL title after taking down RNG 3-0 in the finals. They attended the [[2017 Mid-Season Invitational]] and made it through the group stage after they finished 2nd with a 7-3 record. In the Semifinals they were eliminated after a 1-3 loss to [[G2 Esports]]. Summer wasn't as successful for WE domestically. They were unable to defend their LPL title after they finished 2nd in their regular season group and lost 2-3 to Invictus Gaming in the third place match of the playoffs. They got their revenge against Invictus Gaming later on after they defeated them 3-2 in the [[2017 Season China Regional Finals]]. Their run at the [[2017 Season World Championship]] was quite impressive. Despite starting off in the [[2017_Season_World_Championship/Play-In|Play-In stage]], they advanced to the main groups with a 3-0 win over [[Young Generation]]. They also finished 1st in their main stage group with a 5-1 record. After they took down [[Cloud9]] 3-2 in the Quarterfinals, they faced off against eventual tournament winners [[Samsung Galaxy]] and lost 1-3.
+
+== Trivia ==
+* On Jan 26th, 2018, [[xiye]] and [[Mystic]] surpassed [[Kid]] and [[Zz1tai]] as the duo to play the most games together in the LPL.
+* Reached 1000 Kills in the LPL on August 25, 2017.
+** The 14th player to reach 1000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Cool]], [[Kid]], [[NaMei]], [[Zz1tai]], [[Clearlove]], [[Deft]], [[GodV (Wei Zhen)|GodV]], [[Rookie]], [[imp]], [[Smlz]], [[Mystic]], and [[Xiaohu]].
+* Reached 1500 Kills in the LPL on April 04, 2019.
+** The 7th player to reach 1500 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Rookie]], [[Cool]], [[Smlz]], [[Mystic]], and [[Xiaohu]].
+* Reached 2000 Kills in the LPL on June 20, 2021.
+** The 5th player to reach 2000 Kills in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[Rookie]], [[Smlz]], and [[xiaohu]].
+* Reached 500 games in the LPL on July 14, 2020
+** The 5th player to reach 500 games in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[meiko]], [[Rookie]], and [[xiaohu]].
+* Reached 3000 assists in the LPL on August 6th, 2021.
+** Was the 14th player to reach 3000 assists in the LPL after [[Clearlove]], [[Pyl (Chen Bo) | Pyl]], [[meiko]], [[xiaohu]], [[Rookie]], [[COLD]], [[Ming (Shi Sen-Ming) | Ming]], [[Baolan]], [[Doinb]], [[Flandre]], [[Crisp]], [[LvMao]], and [[SofM]].
+* Reached 300 wins in the LPL on March 17th, 2022.
+** Was the 10th player to reach 300 wins in the LPL after [[Clearlove]], [[meiko]], [[Uzi (Jian Zi-Hao)|Uzi]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], [[Flandre]], and [[Ming (Shi Sen-Ming)|Ming]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

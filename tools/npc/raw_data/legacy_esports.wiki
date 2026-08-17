@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Legacy%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.441Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Legacy Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Legacy Esports
+|orgcountry= Australia  
+|country=
+|region= OCE
+|image= Legacy eSportslogo square.png
+|headcoach= 
+|website= http://legacyesports.com.au
+|youtube= 
+|sponsor= [http://www.afc.com.au/ Adelaide Crows]<br>[http://www.samsung.com/ Samsung]<br>[http://www.razer.com/ Razer]<br>[http://www.migrationsolutions.com.au/ Migration Solutions]<br>[https://www.iscsport.com/ ISC]<br>[http://www.musclemealsdirect.com.au/ Muscle Meals]
+|facebook= https://www.facebook.com/LegacyOCE
+|twitter= LegacyOCE
+|instagram=legacy_oce
+|created= 2014-07-07 LoL Division
+|disbanded= 2021-11-21
+|rosterphoto=LGC Worlds 2020.png
+|otherwikis=Fortnite
+}}{{TOCRWI}}
+
+'''Legacy Esports''' was an Australian League of Legends organization formely competing in the Oceanic Pro League (OPL). On November 21, 2021, the organization was acquired by [[Kanga Esports]].<ref>[https://www.kangaesports.com/kanga-legacy Kanga Esports acquires Legacy Esports from Adelaide Football Club.] ''kangaesports.com''</ref>
+
+== History ==
+'''Legacy Esports''' was formed from the line-up of [[Avant Garde Ascension]] after they won [[2014 Oceanic Regional Tournament/Winter|Oceanic Regional Tournament 2014 Winter]].
+
+Having fallen short of the international stage numerous times since then, Legacy decided to make the first change to their roster in a while. On December 28, 2015, [[Minkywhale]] steps down from the roster to become the Head Coach as Legacy transitions into their first gaming house experience. [[Tally]] moves from AD to Top as [[k1ng]], formerly of [[Dire Wolves]], replaces him in bot lane.
+
+On May 29, 2016, Legacy announces a trade with [[Dire Wolves]] regarding their support players. [[Cuden]] comes over to become the starting support for Legacy, while [[Regret9]] replaces him on Dire Wolves.
+
+At the end of 2016 [[k1ng]] went back to [[Dire Wolves]] and Legacy dropped [[Cuden]], picking up new comers [[Lost (Lawrence Hui)|Lost]] and [[Cupcake]], and returning to the family [[Claire]] from a stint in the Japanese Challenger League.
+
+In May of 2017 Legacy Esports announced a deal that it had been wholly acquired by The Adelaide Football Club. No changes in the Legacy branding is anticipated.<ref>[http://www.afc.com.au/news/2017-05-17/crows-strike-esports-agreement Crows strike eSports agreement] ''afc.com''</ref>.
+
+With the retirement of long term Captain [[Carbon]], and the acquisition of [[Lost (Lawrence Hui)|Lost]] to [[Echo Fox Academy]], Legacy saw an 80% roster turnover with only [[Claire]] staying on for 2018.
+
+In 2019 with many new entrants to the league, saw Legacy take on a much less experienced roster, to little success. 2020 saw Legacy invest heavily into a star studded roster that saw long time apprentice, but never main roster, [[Babip]] return after several years in other teams, joined by [[Raes]], [[Topoon]] and debutante [[Isles]]. Scouted from Korean SoloQ [[EMENES]] was replaced due to interpersonal issues and prodigal son [[Tally]] returned in a new role in Mid Lane.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Carbon|au|Tim Wendel|'''Head of Esports'''|newteam=none}}
+{{listplayer|Minkywhale|au|An Viet Trinh|'''Brand Ambassador'''|newteam=none}}
+{{listplayer|Ceres|au|Evan Mascarenhas|'''Coach'''|newteam=ORD}}
+{{listplayer|Fruitcake|au|Ben Moore|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|EmJaeCaer|au|Michael Carmody|'''Manager'''|newteam=none}}
+{{listplayer|Denian|au|James Goddard|'''Head Coach'''|newteam=none}}
+{{listplayer|Jensen (Jensen Goh)|sg|Jensen Goh (吳乾生)|'''Head Coach'''|newteam=RSGC}}
+{{listplayersp|WINGUARDIAN|au|Winston Tjahjadi|'''Content Creator'''|newteam=Gen}}
+{{listplayer|Blindturkey|au|Joshua Patrizi|'''Analyst'''|newteam=none}}
+{{listplayer|SoulStrikes|kr|Luchio Park|'''Head Coach'''|newteam=ES Sharks}}
+{{listplayer|ChuChuZ|au|Aaron Bland|'''Media and Content Manager'''|newteam=ORDER}}
+{{listplayer|Gallex|usa|Aaron Asher|'''Head Coach'''|newteam=University of Denver}}
+{{listplayersp|Maxxy|au|Nathan Maxwell|'''Assistant Coach'''|newteam=Team Exile5}}
+{{listplayer|Malaz|ae|Malaz Khodier|'''Gameplay Analyst'''|newteam=Avant Garde}}
+{{listplayersp|Uber|au|Mitch Leslie|'''Manager'''|newteam=caster}}
+{{listplayersp|Marcus|us|Marcus Muallem|'''Head Coach'''|newteam=sin gaming}}
+{{listplayersp|Ottoke|au|Luke Knapp|'''Analyst/Coach'''|newteam=the chiefs esports club}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+==External Links==
+* [http://ask.fm/LegacyEsports ask.fm]
+
+== Images ==
+=== Logos ===
+<gallery>
+Legacy Esports oldlogo square.png|Previous Logo<br>(- Dec 2019)
+</gallery>
+
+=== Rosters ===
+<gallery>
+Boys.png|2016 Split OPL Roster <br> Tally, ChuChuZ, Carbon, k1ng, and Regret9
+LGC OPL finals roster.jpg|Legacy eSports OPL Split 2 Grand Final line-up <br> From left to right: Tallywhacka, Claire, Minkywhale, Carbon, and ChuChuZ
+Legacy eSports 2014.jpg|Legacy eSports Gamescom 2014 line-up <br> From left to right: Carbon, Minkywhale, ChuChuZ, Cardrid, and EGym
+LGC 2017 Spring.png|Legacy 2017 Spring
+</gallery>
+
+==References==
+<references />

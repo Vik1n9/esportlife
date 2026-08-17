@@ -1,0 +1,101 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kuro&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.054Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kuro」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kuro
+|name=Lee Seo-haeng
+|nativename=이서행
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=January
+|birth_date_day=04
+|favchamp=Kassadin
+|favchamp2=Viktor
+|favchamp3=Syndra
+|favchamp4=Lulu
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 쿠붕이<br>'''NA:''' LeeBaekho
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Broadcast Talent
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/rnghs94
+|twitter=lolKur0
+|instagram=rnghs94
+|youtube=https://www.youtube.com/user/Culo00o
+|deeplol=https://www.deeplol.gg/pro/Kuro
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=His name was previously stylized '''kurO'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Lee "'''kurO'''" Seo-haeng joined his first professional team when [[Incredible Miracle 2]] was formed in March of 2013. The team played in the first OGN at [[HOT6iX Champions Summer 2013]] where they couldn't make it to the quarterfinals and placed last in their group. 
+
+===2014 Season===
+The next OGN they attended was [[PANDORA.TV Champions Winter 2013-2014]] where they failed to make it past the group stage again. Their streak of poor performances continued at [[HOT6iX Champions Spring 2014]] where they failed to make it through groups for a third consecutive time. Shortly after the tournament ended, kurO departed from the team to join [[NaJin Black Sword]]. He played his first OGN with the team at [[HOT6iX Champions Summer 2014]] where they made it to the quarterfinals but lost 3-2 to [[SK Telecom T1 S]]. 
+
+===2015 Season===
+On October 31, 2014, it was announced that kurO had parted ways with NaJin Black Sword.<ref>[http://sports.news.naver.com/sports/index.nhn?category=e_sports&ctg=news&mod=read&office_id=442&article_id=0000007042&redirect=false '고릴라' 강범현 등 4인 탈퇴, 나진 e엠파이어 선수단 변경 (Korean)] ''sports.news.naver.com''</ref> On November 14, 2014, kurO joined the newly formed [[HUYA Tigers]] together with [[Smeb]], [[Lee]], [[PraY]], and [[GorillA]].<ref>[http://www.inven.co.kr/webzine/news/?news=121931&iskin=esports 롤챔스 선발전 '다크호스' 탄생, HUYA 타이거즈 창단 (Korean)] ''inven.co.kr''</ref><ref>[http://www.ongamers.com/articles/chinese-giant-yy-picks-up-a-korean-team/1100-2349/  Chinese giant YY picks up a Korean team.]  ''ongamers.com''</ref> The team played in the [[Champions_Spring_2015/Qualifiers|Champions Spring 2015 Qualifiers]] along with [[Incredible Miracle]], [[Prime Clan]], and [[Xenics]], where they finished 2-1 and qualified for [[Champions Spring 2015]]. The team then renamed to [[GE Tigers]]. GE started out unarguably the top team in Korea at [[SBENU Champions Spring 2015]] and earned themselves an invitation to the [[IEM Season IX - World Championship|IEM Season IX World Championship]] in March. However, after defeating [[Cloud9]] and [[SK Gaming]] to win their group, they lost 2-1 to [[Team WE]] in the semifinals. This defeat was considered by many casters and analysts to be the biggest upset to date in the entire history of League of Legends competition. They qualified for the finals of the OGN playoffs because of their first place finish in the regular season. Unfortunately, they lost 3-0 to [[SK Telecom T1]] in the finals and placed second. The team renamed to the '''KOO Tigers''' prior to the start of [[SBENU Champions Summer 2015]]. KOO placed fourth in the regular season and qualified for the playoffs but lost 3-2 in the semifinals to [[KT Rolster]]. Because SKT won the finals, KOO still qualified for the [[2015 Season World Championship]] as the second seed due to circuit points. KOO was placed into a group at worlds with [[Counter Logic Gaming]], [[Flash Wolves]], and [[paiN Gaming]]. They placed second, ending with a 4-2 record. They beat KT Rolster 3-1 and [[Fnatic]] 3-0 to make it to the finals against SKT. However, they finally fell in the finals with a 3-1 loss. 
+
+===2016 Preseason===
+Soon after Worlds, Koo dropped the team as a sponsor and they renamed to the '''Tigers'''. The Tigers played in the [[2015 LoL KeSPA Cup]] but they were upset in the first round 2-0 by [[SBENU Sonicboom]]. The Tigers renamed to '''ROX Tigers''' in January.
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Split]], the ROX Tigers dominated domestically in similar fashion to 2015. They finished the regular season with a 16-2 match record, losing only to [[KT Rolster]] and [[Samsung Galaxy]]. Earning first place in the regular season gave them a bye to the finals of the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], where they faced [[SK Telecom T1]]. ROX entered as the favorites this time, but still lost 3-1, earning themselves second place for the spring split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], the Tigers once again placed first in the regular season with an impressive 15-3 scoreline in Bo3s, with two losses to [[SK Telecom T1]] and one loss to [[Samsung Galaxy]]. This seeded them in the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]] directly into their third domestic finals, where they eventually met [[KT Rolster]]. In an epic series, the ROX Tigers won the set 3-2, claiming 1st place in the Summer Split and giving them Korea's first seed into the [[2016 Season World Championship]].
+
+At the [[2016 Season World Championship]], the ROX Tigers were placed into Group A, along with [[G2 Esports]], [[Counter Logic Gaming]], and [[Albus NoX Luna]].
+
+== Trivia ==
+* Known for his {{ci|Syndra}} pick.
+* His ID is a combination of his favorite players [[MOKUZA]] and [[Froggen]].<ref>[https://www.invenglobal.com/articles/2704/ama-with-kuro-i-didnt-always-lose-to-faker-and-i-beat-him-several-times-this-year-t_t AMA with Kuro - "I didn't always lose to Faker, and I beat him several times this year T_T"] ''invenglobal.com''</ref>
+* Awarded Regular Season MVP of [[LCK/2017 Season/Summer Season|LCK 2017 Season Summer]] with 1300 MVP points.
+* Reached 1000 Kills in the LCK on June 8, 2017.
+** The 5th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], and [[Score]].
+** His 1000th kill was on [[bbq Olivers]]' AD Carry [[Ghost (Jang Yong-jun)|Ghost]] in the [[LCK 2017 Summer|LCK 2017 Summer Season]] with {{ci|Syndra}}.
+* Reached 1500 kills in the LCK on April 11th, 2020.
+** The 5th player to reach 1500 kills in the LCK after [[Faker]], [[PraY]], [[Bang]], and [[Score]].
+* Played in windowed mode.
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

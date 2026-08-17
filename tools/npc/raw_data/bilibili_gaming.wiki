@@ -1,0 +1,109 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bilibili%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.139Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bilibili Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name=Bilibili Gaming
+|orgcountry= China 
+|country=
+|region=CN
+|website= https://space.bilibili.com/268999208
+|youtube=
+|facebook=
+|twitter=BilibiliGaming
+|weibo=https://www.weibo.com/u/5926660141
+|irc=
+|sponsor=[https://www.xjmz.com/en DreamSmart Group]<br>[https://www.bilibili.com/ Bilibili] 
+|created= 2017-12-17
+|trades=
+|rosterphoto=BLG 2026 roster.jpg
+}}{{TOCRWI}}
+
+'''Bilibili Gaming''' is a Chinese team owned by '''Bilibili.com'''. They are currently known as '''Bilibili Gaming DreamSmart''' for sponsorship reasons.
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|You|cn|You Chang-Xin (尤长鑫)|'''Manager'''}}
+{{listplayersp|YUZZ|cn|Zhang Xin-Yu (张新宇)|'''Leader'''}}
+{{listplayer|Daeny|kr|Yang Dae-in (양대인)|'''Head Coach'''}}
+{{listplayer|Chieh|tw|Li Chieh (李杰)|'''Coach'''}}
+{{listplayer|zyb|cn|Zhuang Yi-Bin (庄一彬)|'''Coach'''}}
+{{listplayer|Ben|kr|Nam Dong-hyun (남동현)|'''Coach'''}}
+{{listplayer|HunnyPark|kr|Park Gwang-hoon (박광훈)|'''Translator'''}}
+{{listplayersp|Winter|cn|Fei Hao (费豪)|'''Translator'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Easyhoon|kr|Lee Ji-hoon (이지훈)|'''Coach'''|newteam=T1}}
+{{listplayersp|Holy|cn|Hou Lin (侯林)|'''Manager'''|newteam=none}}
+{{listplayer|KaKAO|kr|Lee Byung-kwon (이병권)|'''Coach'''|newteam=IG}}
+{{listplayer|LvMao|cn|Zuo Ming-Hao (左名豪)|'''Coach'''|newteam=LNG}}
+{{listplayer|BigWei|tw|Fu Chien-Wei (傅千威)|'''Coach'''|newteam=Anyone's Legend}}
+{{listplayer|Maokai (Yang Ji-Song)|cn|Yang Ji-Song (杨济松)|'''Head Coach'''|newteam=EDG}}
+{{listplayer|Fury (Lee Jin-yong)|kr|Lee Jin-yong (이진용)|'''Coach'''|newteam=IG}}
+{{listplayer|Xiasu|cn|Chen Long (陈龙)|'''Assistant Coach'''|newteam=jdg}}
+{{listplayersp|Jzz|cn|Jia Zi-Zheng (家子正)|'''Analyst'''|newteam=none}}
+{{listplayer|Duan|cn|Duan De-Liang (段德良)|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Tabe|hk|Wong Pak Kan (王柏勤)|'''Head Coach'''|newteam=Anyone's Legend}}
+{{listplayer|Dian|cn|Li Guo-Peng (李国鹏)|'''Head Coach'''|newteam=Top Esports}}
+{{listplayersp|Liangfeng (凉风)|cn|Sun Chen (孙晨)|'''Manager'''|newteam=RNG}}
+{{listplayersp|Kane|cn|Jiang Yong (姜勇)|'''Translator'''|newteam=none}}
+{{listplayer|Chashao|tw|Shih Yi-Hao (史益豪)|'''Supervisor'''|newteam=none}}
+{{listplayer|link=Jay (Li Chieh)|Jay|tw|Li Chieh (李杰)|'''Coach'''|joined=2018-12-10|newteam=TESC}}
+{{listplayer|Morning (Song Chang-geun)|kr|Song Chang-geun (송창근)|'''Coach'''|newteam=none}}
+{{listplayer|JyKim|kr|Kim Ji-young (김지영)|'''Coach'''|newteam=hle.c}}
+{{listplayer|Kim|link=Kim (Kim Jeong-soo)|kr|Kim Jeong-soo (김정수)|'''Head Coach'''|newteam=drx}}
+{{listplayer|Achie|tw|Chen Chen-Chi (陳振齊)|'''Coach'''|newteam=rws}}
+{{listplayer|Java (Wei Yi-Fan)|cn|Wei Yi-Fan (魏一帆)|'''Coach'''|newteam=IGY}}
+{{listplayer|Sim|kr|Sim Sung-soo (심성수)|'''Head Coach'''|newteam=none}}
+{{listplayersp|Method|tw|Li Hsin-Yuan (李心淵)|'''Manager'''|newteam=cfo}}
+{{listplayersp||cn|Lin Chen (林宸)|'''Manager'''|newteam=none}}
+{{listplayer|Shadow|link=Shadow (Park Jae-seok)|kr|Park Jae-seok (박재석)|'''Coach'''|newteam=Shadow corp}}
+{{listplayer|Jykim|kr|Kim Ji-young (김지영)|'''Analyst'''|newteam=EDGY}}
+{{listplayer|Maokai|link=Maokai (Yang Ji-Song)|cn|Yang Ji-Song (杨济松)|'''Head Coach'''|newteam=RW}}
+{{listplayer|Kim Teemo|kr|Kim Tae-young (김태영)|'''Coach'''|newteam=omg}}
+{{listplayersp|Bge|cn|Yu Yi (余逸)|'''Manager'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+====Logos====
+<gallery>
+Bilibili Gaming Old Logo.png|Previous Logo
+</gallery>
+
+====Rosters====
+<gallery>
+BLG 2020.jpg|LPL 2020 Spring
+BLG 2020 Summer.jpg|LPL 2020 Summer
+BLG 2021 Spring.jpg|LPL 2021 Spring
+BLG 2021 Summer.jpg|LPL 2021 Summer
+BLG 2022 Spring.jpg|LPL 2022 Spring
+BLG 2023 Spring.jpg|LPL 2023 Spring
+BLG 2024 Summer roster.jpeg|LPL 2024 Summer
+BLG 2025 Split 1.jpg|LPL 2025 Split 1
+BLG 2025 Split 2.png|LPL 2025 Split 2
+BLG 2025 Split 2 Roster 2.png|LPL 2025 Split 2 with [[Beichuan]]
+</gallery>
+
+=== References ===
+<references />

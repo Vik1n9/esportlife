@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kramer&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.053Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kramer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kramer
+|name=Ha Jong-hun
+|nativename=하종훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=March
+|birth_date_day=9
+|favchamp=Vayne
+|favchamp2=Ezreal
+|checkbox1=No
+|compID1=JohnKramer
+|compID2=KKramer
+|checkboxComp=No
+|ids='''CN:''' KRAMER<br>'''KR:''' 못먹겟어삼각김밥
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/aackhyul
+|facebook=https://www.facebook.com/profile.php?id=100016679015799
+|weibo=https://www.weibo.com/n/_kramer_LGD_
+|deeplol=https://www.deeplol.gg/pro/Kramer
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''KKramer'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2015 Season===
+Ha "'''Kramer'''" Jong-hun originally played for [[Team GBK]] in [[Challengers Korea Spring 2015]] where they placed in the top eight in the second series. A short time later, he joined the [[Flash Wolves]] as a substitute for [[NL (Hsiung Wen-An)|NL]]. His first tournament with the team was the [[LMS/2015 Season/Summer Season|2015 LMS Summer Season]], where the Flash Wolves ended in second place. In the [[LMS/2015 Season/Summer Playoffs|2015 LMS Summer Playoffs]], FW lost 3-1 in the second round to [[Hong Kong Esports]]. They still had enough circuit points to qualify for the [[2015 Season Taiwan Regional Finals]] where they made it to the finals and took the second Taiwanese seed for the [[2015 Season World Championship]] with a 3-2 victory over HKES. At the World Championship, the FW were expected by many analysts to have one of the weakest showings of any team in attendance. However, after a 4-2 group stage with wins over favorites [[KOO Tigers]] and [[Counter Logic Gaming]], the Flash Wolves emerged first from groups, becoming the first team in two years to finish ahead of a Korean team in groups at Worlds. In the tournament quarterfinals, FW lost 1-3 to [[Origen]], earning a top eight finish. 
+
+===2016 Preseason===
+KKramer subbed for [[Young Boss]] in the [[2015 LoL KeSPA Cup]] but they lost 2-0 in the first round to [[CTU Pathos]]. KKramer left the Flash Wolves in November of 2015. KKramer joined [[CJ Entus]] as the starting AD Carry for the LCK Spring 2016 Season in December 2015.
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], CJ went 8-10 in sets, finishing in eighth place overall for the spring split.
+
+CJ Entus had a very poor showing in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 3-15 total in set score. Neither Kramer's performance nor that of the sub ADC [[Ghost (Jang Yong-jun)|Ghost]] seemed to make a difference in their abysmal results. Locked into tenth place in the LCK season, CJ Entus participated in the [[LCK/2017 Season/Spring Promotion|2017 LCK Spring Promotion]]. In the first round they were swept 2-0 by [[Kongdoo Monster]], bringing them down to the loser's bracket. There, they beat [[SBENU Korea]] 2-0 before falling to [[ESC Ever]] in a 3-0 sweep to become relegated from the LCK. This marked the first time an original Kespa team was relegated from the LCK.
+
+== Trivia ==
+* His ID '''KKramer''' is a reference to the character '''John Kramer''' from the Saw franchise.
+* Was introduced to Starcraft by his father at the age of 5.
+* Started playing League of Legends in high school.
+* Considers [[Deft]] the best AD carry.
+* Favorite TV shows are [https://en.wikipedia.org/wiki/Infinite_Challenge Infinite Challenge] and [https://en.wikipedia.org/wiki/Running_Man_(TV_series) Running Man].
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

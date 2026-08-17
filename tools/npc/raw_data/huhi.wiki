@@ -1,0 +1,124 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Huhi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.015Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「huhi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=huhi
+|name=Choi Jae-hyun
+|nativename=최재현
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=France<!-- He was born in France, not South Korea! -->
+|nationality=United States, South Korea
+|residency=North America
+|birth_date_year=1995
+|birth_date_month=April
+|birth_date_day=03
+|favchamp=Yasuo
+|favchamp2=Zed
+|favchamp3=Aurelion Sol
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' huhi <br> banande<br>'''KR:''' 골가골가<br>'''EUW:''' Banande
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/huhi
+|facebook=https://www.facebook.com/huhilol
+|twitter=Huhi
+|instagram=huhilol
+|askfm=lolhuhi
+|snapchat=lolhuhi
+|youtube=https://youtube.com/channel/UCStg_qNQU8Gbj9m6pTCJsGg
+|deeplol=https://www.deeplol.gg/pro/huhi
+|dpmlol=https://dpm.lol/pro/Huhi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Jungler
+}}
+==Biography==
+===2014 Season===
+Choi "'''Huhi'''" Jae-hyun joined [[Bigfile Miracle]] in February of 2014 as a mid laner. They competed in [[HOT6iX Champions Summer 2014]] but they lost all six of their games and placed last in their group. The roster was released in September of that year to join [[Quvic E-Sports]].
+
+===2015 Season===
+Huhi left Quvic in October 2014 and on the 23rd of the month it was officially announced that Huhi would be the midlaner for [[Team Fusion]].<ref>[http://twitter.com/TeamFusiongg/status/525398680002916352 Team Fusion's Twitter Post] ''twitter.com''</ref> The team qualified for the [[Riot_League_Championship_Series/North_America/2015_Season/Spring_Expansion|North American Expansion tournament]] via the [[Riot_League_Championship_Series/North_America/2015_Season/Expansion/Challenger_Ladder|Challenger ladder]]. They won their first-round match against [[Team Confusion]] due to a forfeit from Confusion, and then defeated [[Enemy eSports]] 2-0 in the second round. In the offline tournament, Team Fusion narrowly beat [[Final Five]] 3-2 after losing the first two games. They then lost to [[Curse Academy]] 3-1 and were knocked down to the loser's bracket to face [[Team Coast]]. This time, Fusion got ahead 2-0 but then ultimately lost the series and did not qualify for the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 NA LCS Spring Season]]; however, their placement did qualify them for the [[2015 NA Challenger Series/Spring Season|NACS Spring Season]].
+
+After a pattern of losing almost every off-stream game and winning every on-stream game, Fusion finished the NACS season in third place. In the [[2015 NA Challenger Series/Spring Playoffs|2015 NA CS Spring Playoffs]], Fusion lost 2-1 to [[Team Dragon Knights]] and then beat Final Five 2-0 to end in third place. Fusion was forced to face [[Dignitas]] for a spot in the [[Riot League Championship Series/North America/2015 Season/Summer Season|2015 NA LCS Summer Season]]. Fusion lost the series 3-2 but retained an automatic qualification into the [[2015 NA Challenger Series/Summer Season|2015 NA CS Summer Season]]; however, the team disbanded.<ref>[http://twitter.com/fusionesportsgg/status/598543458253414400 Team Fusion's Tweet] ''twitter.com''</ref> Huhi joined [[Counter Logic Gaming]] as one of two starting mid laners alongside [[Pobelter]] for the [[Riot League Championship Series/North America/2015 Season/Summer Season|2015 NA LCS Summer Season]].<ref>[http://clgaming.net/news/668-clg-brings-change-to-the-mid-lane CLG Brings Change to the Mid Lane] ''clgaming.net''</ref>
+
+Huhi didn't play in the regular season or the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|2015 NA LCS Summer Playoffs]]. Shortly after CLG qualified for the [[2015 Season World Championship]], the team announced that Huhi would be substituting for them in the jungle, due to "unresolvable VISA issues" with [[Xmithie]].<ref>[http://clgaming.net/news/722-clg-worlds-roster-update CLG Worlds Roster Update] ''clgaming.net''</ref> However, after a few weeks of Huhi scrimming with CLG, the problems were resolved, enabling Xmithie to play after all.<ref>[http://clgaming.net/news/724-xmithie-to-play-in-2015-world-group-stages Xmithie to Play in 2015 World Group Stages] ''clgaming.net''</ref>
+
+===2016 Season===
+Despite the fact that Huhi hadn't gotten to play a single game live with the team during the 2015 season, in October CLG announced that he would replace Pobelter for the 2016 season as starting mid laner.<ref name="huhi-replace-pob">[http://www.clgaming.net/news/728-mid-lane-changes-for-lcs-2016 Mid Lane Changes For LCS 2016] ''clgaming.net''</ref> Doublelift also left the team, after over four years of playing for CLG.<ref name="dlleaveclg">[http://clgaming.net/news/733 CLG Parts Ways With Doublelift] ''clgaming.net''</ref> He was replaced by [[Stixxay]]. In November, CLG attended [[IEM Season X - San Jose|IEM San Jose]], where they defeated [[Unicorns of Love]] and [[Jin Air Green Wings]] before losing to [[Origen]]. Their performance earned them a seed into [[IEM Season X - World Championship|IEM Katowice]], which they attended after the seventh week of the [[League Championship Series/North America/2016 Season/Spring Season|LCS]]. However, despite being in a strong position domestically, in second place behind only the almost-undefeated [[Immortals]] (to whom CLG had handed their only loss of the season the week before), CLG were eliminated immediately from Katowice, losing first to [[SK Telecom T1]] and then to [[Fnatic]].
+
+CLG entered the [[League Championship Series/Europe/2016 Season/Spring Playoffs|LCS playoffs]] in second place, still behind Immortals, and still the only team to have beaten Immortals in the regular season. They won their semifinal series against Team Liquid in five games, winning the last game with a double teleport play to catch out [[Piglet]] and close out a win. Despite seeding expectations, their finals match was against TSM, who had 3-0'd Immortals the week before. This series also went to five games, and CLG once again won, qualifying for the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Returning to North America for the [[League Championship Series/North America/2016 Season/Summer Season|Summer Split]], CLG were expected to be at the top of the league after their MSI performance. However, not only did they fail to achieve that, but they weren't even in the top half of the standings until week 6. From there, they climbed to a fourth place regular season finish. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]], CLG first faced off against Team Liquid, whom they beat 3-1, before falling to TSM 3-0 in the semifinals. Crucially, one of Huhi's signature mid lane champions [[Aurelion Sol]] was found to have a bug partway through their first game, and the game was remade with Aurelion Sol disabled for the rest of the playoffs (though it was generally accepted that TSM would have won regardless).<ref>[http://www.thescoreesports.com/lol/news/8271-exit-the-dragon-on-competitive-integrity-and-aurelion-sol Exit the Dragon: On Competitive Integrity and Aurelion Sol] ''thescoreesports.com''</ref> CLG lost the third-place to [[Immortals]] but automatically qualified for the [[2016 Season World Championship|World Championship]] based on [[2016 Season/Championship Points|Championship Points]] due to TSM's finals win over Cloud9.
+
+CLG were seeded into Group A at Worlds, alongside the [[ROX Tigers]], [[G2 Esports]], and wildcard [[Albus NoX Luna]]. Going into the group, CLG and G2 were seen as contenders for the second seed, while Tigers and Albus NoX were expected to finish first and last, respectively. Instead, CLG dropped both of their games to the wildcard team, and ANX skyrocketed to a second-place group stage finish while G2 collapsed into last place; CLG ended their Worlds run in third with a 3-3 record.
+===2017 Season===
+Transitioning into the [[League_Championship_Series/North_America/2017_Season/Spring_Season|spring split]] of the 2017 LCS season, CLG was the only North American team to not make any changes to its roster. They were inconsistent to begin the split, fluctuating between 5th and 7th place over the first half of the season before stabilizing with a 2-0 week 5. CLG remained in the playoffs after that, and a 3-1 record down the stretch put them in fourth behind [[TSM]], [[Cloud9]] and a much improved [[Phoenix1]]. In the playoffs, CLG faced off against 5th seed [[FlyQuest]]. Although they started off strong with 2 wins, they were ultimately reverse swept and lost 2-3 which knocked them out of playoffs.
+
+In the mideason, CLG swapped junglers with [[Immortals]], sending [[Xmithie]], one of their longest tenured players, to the team for [[Dardoch]]. This change seemed to work out for both sides, as CLG began the season in a three way race for first with Immortals and TSM. As the season went on however, CLG's performance started to drop and eventually Dardoch left the team and was replaced by LCS rookie [[OmarGod]]. This stabilized CLG's play to some extent and they finished the regular season in 3rd place with a 12-6 record. In the playoffs CLG managed to defeat [[Team EnVyUs]] 3-2 in a hard fought series. They however lost 0-3 to [[Immortals]] in the Semifinals. In the third place match CLG swept [[Team Dignitas]] 3-0 to end their playoff run on a high note.
+
+Their third place finish gave CLG the second seed in the [[2017 Season North America Regional Finals|Regional Finals]]. There, they defeated FlyQuest 3-1, setting up a match with [[Cloud9]] to make [[2017 Season World Championship|Worlds]]. After they dropped the first two games, CLG managed to win the third and make it a series, but dropped the fourth and lost the series which in turn ended their 2017 season.
+=== 2018 Season ===
+Huhi was awarded an EB1A visa in July 2018, which allowed him to officially become a North American resident.<ref>[https://twitter.com/HarrisPeskin/status/1018331692661133312 Harris Peskin's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/HarrisPeskin/status/1018352830623731714 Harris Peskin's Tweet] ''twitter.com''</ref>
+
+=== 2019 Season ===
+On November 21, 2018, Huhi left [[Counter Logic Gaming|CLG]] to replace [[Ryu]] as the mid laner for [[100 Thieves]].<ref>[https://twitter.com/100Thieves/status/1065432904333852672 100 Thieves' Tweet] ''twitter.com''</ref>
+
+== Trivia ==
+* Although he was born in France, he does not have French citizenship.<ref>[http://ask.fm/lolhuhi/answer/126904122282 Jae's ask.fm] ''ask.fm''</ref><ref>[http://ask.fm/lolhuhi/answer/126961454506 Jae's ask.fm] ''ask.fm''</ref>
+* Acquired US citizenship in December 2023.<ref>[https://twitter.com/huhi/status/1737185201758089248 huhi's Tweet] ''twitter.com''</ref>
+* Huhi was awarded an EB1A visa in July 2018, which allowed him to officially become a North American resident.<ref>[https://twitter.com/HarrisPeskin/status/1018331692661133312 Harris Peskin's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/HarrisPeskin/status/1018352830623731714 Harris Peskin's Tweet] ''twitter.com''</ref>
+* As a mid laner, considered to be one of the best {{ci|Aurelion Sol}} players in the world. He had a high win-rate with this champion, and was usually the only NA LCS player who would pick it, forcing out bans. 
+* He often hovers {{ci|Aatrox}}, his girlfriend's favorite champion, in champion select.
+** After becoming a support, began to hover his former pocket pick {{ci|Aurelion Sol}} instead. 
+* Became known for his {{ci|Fiora}} pocket pick into {{ci|Galio}} in 2017, after that champion was reworked and became a popular mid laner.
+* Known for having a wide champion pool.
+** This sometimes became a criticism, as he was seen to not have a high enough level of technical skill on the champions he was picking.
+* In his prime as a mid laner, known for a heavy roaming playstyle, in contrast to more lane-focused players.  
+* Casters sometimes mix up his name and fellow Korean player [[Huni|Huni's]], as they play against each other frequently in the LCS.
+* First player to win an LCS title at two different positions.
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team (2023 Summer)
+* LCS 2nd All-Pro Team x2 (2021 Summer, 2022 Spring)
+* LCS 3rd All-Pro Team x3 (2017 Summer, 2022 Summer, 2023 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

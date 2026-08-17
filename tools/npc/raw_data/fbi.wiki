@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FBI&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.116Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「FBI」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=FBI
+|name=Ian&nbsp;Victor Huang
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|nationality=Australia,China
+|residency=North America
+|birth_date_year=1999
+|birth_date_month=February
+|birth_date_day=11
+|favchamp=Jhin
+|favchamp2=Varus
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' ADCADC123 <br>'''EUW:'''NA Hopium<br>'''KR:''' VIPERFANBOY1 <br> aswqasdzxcw
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/fbiadc
+|twitter=VictorHuang
+|deeplol=https://www.deeplol.gg/pro/FBI
+|dpmlol=https://dpm.lol/pro/FBI
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+
+== Trivia ==
+* First Australian to play in the [[LCS]]. 
+** However, he was not the first Australian-'''born''' player, as [[Panda (James Ding)|Panda]], an American born in Australia, debuted a split before him in the [[LCS/2019 Season/Spring Season|LCS 2019 Spring Season]]. 
+* His name is not, as is often assumed, a reference to the American [[wikipedia:en:Federal_Bureau_of_Investigation|Federal Bureau of Investigation]] (usually abbreviated as FBI) but a reference to an [https://www.fbigaming.com.au/ Australian internet cafe] that he spent a lot of time playing in.
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team (2021 Summer)
+* LCS 2nd All-Pro Team (2021 Spring)
+* LCS 3rd All-Pro Team (2020 Summer, 2022 Spring, 2022 Summer)
+* LCS Finals MVP (2023 Summer)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

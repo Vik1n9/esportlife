@@ -1,0 +1,110 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kira&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.052Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kira」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Kira
+|name=Mykhailo Harmash
+|nativename=Михайло Гармаш
+|namealphabet=Cyrillic
+|image=GMB_Kira_2019_Split_2.png
+|checkboxAutoImage=No
+|country=Ukraine
+|residency=EMEA
+|birth_date_year=1993
+|birth_date_month=March
+|birth_date_day=07
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kirrrrra
+|twitter=kirrrra007
+|vk=https://vk.com/thekirrrra
+|lolpros=https://lolpros.gg/player/kira-2
+|deeplol=https://www.deeplol.gg/pro/Kira
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|vkontakte=hrkira
+}}
+==Biography==
+===Early Years===
+Mykhailo "'''Kira'''" Harmash was born in Mariupol, Ukraine, in the Donetsk region. He began to play video games at the age of 4. Kira earned his first $500 prize for 3rd place at III Season Star Ladder ''Bloodline Champions'' in 2012 as a member of the team '''Going Bonkers'''. Kira initially started ''League of Legends'' as a support player in 2011, and became known on the EUW server an Anivia main.
+===2014 Season===
+Kira got his competitive start with [[Carpe Diem]] in the [[SLTV_StarSeries/Season_I|Season I SLTV StarSeries]]. They claimed third place in the regular season with a 8-3 series record, what received them a spot in the playoffs. They fell into loser's bracket after lost 1-2 to [[Internationally V|Revival Dragons]] in the first round and swept both [[Good Team Multigaming]] and [[Internationally V|Revival Dragons]] 2-0 there, making to the finals,  where they beat the [[Dragon Team]] 3-2.
+===2016 Preseason===
+Kira was the fan-voted mid laner to attended [[International Wildcard All-Star Melbourne 2015|IWCA Melbourne]] representing the CIS region. The [[Team CIS|CIS team]] placed second in the 5v5 regional tournament, losing to [[Team Turkey]] in the finals; however, because Kira won the 1v1 tournament, he gave his team enough points that they won the tournament overall to attend the main [[All-Star Los Angeles 2015|All-Star Event]] in Los Angeles.
+
+== Trivia ==
+* Favorite anime is ''[[wikipedia:en:Bakuman|Bakuman]]''.
+* Enjoys playing the guitar.
+* His first main was {{ci|Anivia}}.
+* Played [[LCL/2017_Season/Summer_Season/Player_Statistics|14 unique champions across 14 games during the regular season in 2017 Summer]], losing only one match on {{ci|Viktor}}.
+* Studied Russian literature in university.
+* Married and has a daughter with his wife.
+* Was nicknamed "vida loka" (''thug life'') by the Brazilian community for his aggressive playstyle.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+===Interviews===
+{{TDRight
+|name1=2014
+|name2=2015
+|name3=2016
+|name4=2018}}
+{{TDRight|tab}}<!--2018-->
+* May 6, [https://www.youtube.com/watch?v=mKq0jC15pgU Kira: "Our chances against Kingzone would be 50:50 - we either win or we lose!] ''with The ShotCaller''
+{{TDRight|tab}}<!--2016-->
+* September 30, [http://slingshotesports.com/2016/09/30/albus-nox-luna-kira-league-of-legends-word-championship-early-game-rox-tigers/ ANX Kira on ROX Tigers match: 'I think it was our first time when we won our early game in 100 games'] ''with Slingshot Esports''
+* October 2, [http://www.riftherald.com/lol-worlds/2016/10/2/13138054/kira-lol-albus-nox-clg-worlds-interview Albus NoX’s Kira talks CLG upset, Worlds hopes] ''with The Rift Herald''
+* October 2, [http://www.youtube.com/watch?v=NZjTuj9zYk0 Kira on win over CLG: 'We expected it, that's why we play League of Legends'] ''with Yahoo!''
+* October 12, [http://esports.yahoo.com/anx-kira-when-we-started-against-rox-it-was-pretty-close-and-we-thought-oh-my-god-what-the-f-is-going-on-231143295.html ANX Kira: 'When we started against ROX, it was pretty close, and we thought, 'Oh my god, what the f*** is going on?''] ''with Yahoo!''
+* October 17, [http://www.youtube.com/watch?v=ZiHYVGia2Vw Kira: 'Next time we will do a lot better...we will upgrade our playstyle. It will be at new level'] ''with theScore''
+{{TDRight|tab}}<!--2015-->
+* December 12, [http://www.youtube.com/watch?v=Dj3Eay8nVXY Kira on playing 1v1s: 'As soon as I met a really strong opponent I lost to him'] ''with theScore''
+{{TDRight|tab}}<!--2014-->
+* [http://hardrandom.com/ru/posts/142 Интервью с капитаном команды HR - Kirrrra]
+{{TDRight/end}}
+=== Images ===
+<gallery>
+E6ckRqHmCnw.jpg|Mykhailo "Kira" Harmash
+Kira_IWC.png|HR Kira
+ANX Kira.png|ANX Kira 2017 Summer
+Kira Gambit Spring 2018.png|GMB Kira 2018 Spring
+GMB Kira 2018 MSI.png|GMB Kira 2018 MSI
+GMB Kira 2018 Split 2.png|GMB Kira 2018 Summer
+GMB Kira 2019 Split 1.png|GMB Kira 2019 Spring
+</gallery>
+
+{{PlayerPageEnd}}

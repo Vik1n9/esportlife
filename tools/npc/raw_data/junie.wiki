@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Junie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.363Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Junie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Junie
+|name=Trần Hữu Nhựt Minh
+|image=FFQ Junie 2018 Spring.png
+|checkboxAutoImage=No
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=1991
+|birth_date_month=March
+|birth_date_day=18
+|favchamp=Annie
+|favchamp3=Blitzcrank
+|favchamp4=Leona
+|checkbox1=No
+|checkboxComp=No
+|ids=vô ảnh vô tung (VN)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://talktv.vn/mt.junie
+|facebook=https://www.facebook.com/JunieLoL
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Manager
+|prev2=Coach
+|prev3=Support
+|prev4=Jungler
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Trùm Múa Lửa
+}}
+==Biography==
+Prior to playing League of Legends, Junie played DOTA for team Masta.
+
+== Trivia ==
+* Prefers aggressive supports that can zone out an enemy, such as {{ci|Nunu}}, {{ci|Blitzcrank}}, or {{ci|Alistar}}.
+* Known as one of best {{ci|Shaco}} SEA players.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===2012===
+* October 5 - [http://www.youtube.com/watch?v=LjdcAYjQXvc SAJ Junie Discusses Saigon Jokers Loss At S2 Worlds - IPL Interview (video)] ''with IGN ProLeague''
+=== Images ===
+<gallery>
+JQVwx - Imgur.jpg |SJ Junie 
+TtEsJunie.png|TTE Junie
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=HolyPhoenix&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.253Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「HolyPhoenix」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=HolyPhoenix
+|name=Anıl Işık
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=June
+|birth_date_day=02
+|favchamp=Kalista
+|favchamp2=Samira
+|favchamp3=Tristana
+|favchamp4=Lucian
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' HoIyPhoenîx<br>Phoenix Ridêr
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/holyphoen1x
+|facebook=https://www.facebook.com/holyphoenix2
+|twitter=HolyPhoenix_lol
+|instagram=holyphoenixlol
+|askfm=h0lyphoenix
+|youtube=https://www.youtube.com/c/HolyPhoenixlol
+|discord=https://discord.gg/a57j3UC
+|tiktok=holyphoenixlol
+|lolpros=https://lolpros.gg/player/holyphoenix
+|deeplol=https://www.deeplol.gg/pro/HolyPhoenix
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+HolyPhoenix competed at [[IEM Season IX - Cologne]] with [[Aces High Esports Club]] after the team won the [[IEM_Season_IX_-_Cologne/Qualifiers#Final_Qualifier|Turkish Qualifier]] for the tournament. Aces High were knocked out in the quarterfinals, losing to [[Team Dignitas]], despite taking a game off the North American team.
+
+== Trivia ==
+* He is known for his aggressive {{ci|Kalista}} and {{ci|Tristana}}.
+* He is the first Turkish player who made it to Challenger on the EU West server.
+* Is nicknamed "Khal Drogo" due to his similar appearance to the ''Game of Thrones'' character.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

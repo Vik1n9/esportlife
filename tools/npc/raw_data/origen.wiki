@@ -1,0 +1,176 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Origen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.797Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Origen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Astralis
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Origen
+|orgcountry= Denmark
+|foundedcountry= Spain
+|region= Europe
+|partner= [https://www.astralisgroup.net Astralis Group] <br> [https://www.audi.com/en.html Audi] <br> [https://www.logitechg.com/esports.html Logitech G]
+<!-- Staff -->
+|headcoach= 
+|owner= Enrique "'''[[xPeke]]'''" Cedeño Martínez
+<!-- Social Media -->
+|website= https://www.origen.gg
+|youtube= https://www.youtube.com/channel/UC0mqSxJlBN9ubBNt1CYLEkg
+|facebook= https://www.facebook.com/Origengg
+|instagram= origengg
+|subreddit= Origen
+|twitter= Origengg
+|discord= https://discordapp.com/invite/Z9pEPt4
+|lolpros= https://lolpros.gg/team/origen
+|irc= 
+<!-- History -->
+|created= 2014-12-07
+|disbanded= 2020-09-15
+<!-- Current Roster Photo -->
+|rosterphoto= OG Roster LEC Spring 2020 (2).png
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= fifa
+}}{{TOCRWI}}
+
+'''Origen''' is a European team that was founded by [[xPeke]] to compete in the [[LoL European Championship|EU LCS (now LEC)]]. The organization was acquired by RFRSH Entertainment in late 2018.
+
+== History ==
+'''Origen''' was initially founded by [[xPeke]] in December 2014 after he departed [[Fnatic]] to found his own team. Jungler Amazing (of [[Team SoloMid]]), support [[Mithy]] (formerly of [[Lemondogs]]), and rookie AD carry [[Niels]] joined xPeke as he played mid lane. xPeke's former Fnatic teammate [[sOAZ]] joined shortly thereafter to play top lane. Origen established a base and gaming house in Tenerife in the Canary Islands of Spain.
+
+===2015 Season===
+Origen qualified for the [[2015 EU Challenger Series/Spring Qualifier|EUCS Spring Qualifier]] via the [[2015 EU Challenger Series/Spring Qualifier/Challenger Ladder|Challenger Ladder]], where they beat [[Millenium Spirit]] in their bracket final, securing their qualification to the [[2015 EU Challenger Series/Spring Season|EUCS Spring Season]]. Origen were unbeaten until their penultimate game of the split, against [[LowLandLions.White]], and despite dropping that one game easily secured first place in the regular season. Origen also placed highly in tournaments throughout this period, winning the [[ESL MWC Challenge]] and [[Gamers Assembly 2015]]. The [[2015 EU Challenger Series/Spring Playoffs|Spring Playoffs]] saw Origen beat [[Reason Gaming]] in the semifinals 2-1 and then going on to sweep [[Copenhagen Wolves Academy]] (the team formerly known as LowLandLions.White) in the final to win the tournament and secure automatic qualification to the [[Riot League Championship Series/Europe/2015 Season/Summer Season|EU LCS Summer Season]]. Notably, their last game against CW Academy ended on a [[Zed]] backdoor by xPeke reminiscent of his famous backdoor at [[IEM Season VII - Global Challenge Katowice|IEM Katowice]] in 2013, and the team would become known for its backdoor plays to win games.
+
+Throughout the EU LCS Summer Season, Origen jostled for 2nd position with [[H2k-Gaming]], while Fnatic sat far ahead in an undefeated 1st place throughout. Impressive individual performances helped the team ultimately secure that 2nd place regular season finish, and with it a bye past the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]] quarterfinal round. In the semifinals, Origen faced off against rivals H2k and won 3-1; perhaps even more impressively, they took two games off Fnatic in the finals despite ultimately losing the series. Their second-place overall finish earned Origen 90 [[2015_Season/Championship_Points|Championship Points]], enough for the second seed in the [[2015 Season Europe Regional Finals]]. There, they beat [[Team ROCCAT]] in a 3-2 series and then [[Unicorns of Love]] in an easy 3-0 and successfully qualified for the [[2015 World Championship]], where they would play as Europe's #3 seed. Shortly after their qualification, [[LeDuck]] decided to leave his role of head coach. He was replaced by analyst [[Hermit]].
+
+At the [[2015 World Championship]], Origen were drawn into Group D along with [[Team SoloMid]], [[KT Rolster]], and [[LGD Gaming]]. Origen went 3-0 in the 1st week of the round robin and ended the group with a 4-2 record, meaning they would advance to the knockout stage of the tournament. Origen won their quarterfinal series 3-1 against the [[Flash Wolves]], becoming the first Western team to win a best-of-five at a World Championship, but were later knocked out by [[SK Telecom T1]], the eventual champions, in the semifinals. Origen, along with fellow semifinalists [[Fnatic]], placed higher than any Western team at Worlds since 2012. 
+
+===2016 Season===
+====Pre-Season====
+After rumors that xPeke would retire from competitive play, Origen announced a six-man roster for the 2016 season, including former Unicorns of Love mid laner [[PowerOfEvil]] and xPeke as co-mid laners. Head coach Hermit also left the team. Their new roster, with PowerOfEvil starting in every game, debuted at [[IEM Season X - San Jose|IEM San Jose]], where after a quarterfinal bye they swept Team SoloMid and [[Counter Logic Gaming]] to win the tournament. Not only was it Origen's first international tournament victory, but it was also first time a European team won a major event with a Korean team present since [[Gambit Gaming]]'s victory at [[IEM Season VII - Global Challenge Katowice|IEM Season VII Katowice]], a year and a half beforehand.
+
+Origen's performance at [[IEM Season X - San Jose|IEM San Jose]] resulted in their qualification to the [[IEM Season X - World Championship|IEM World Championship]]. At the tournament, they first lost to [[Royal Never Give Up]] in the upper bracket of their group before then losing to [[Team SoloMid]] in the lower bracket, resulting in the team's elimination from the tournament.
+
+====EU LCS Spring Split====
+Although xPeke and PowerOfEvil continued to ostensibly be co-midlaners, PowerOfEvil played all but three games throughout the spring split of the EU LCS. After a rocky start, Origen climbed to fifth place at 11-7 and secured a berth in the [[League_Championship_Series/Europe/2016_Season/Spring_Playoffs|spring playoffs]]. There, Origen defeated [[Unicorns of Love]] and [[H2k Gaming]] before falling to [[G2 Esports]] in their second straight finals loss. 
+
+====EU LCS Summer Split====
+Despite Origen's relative success in the spring, AD carry Niels (since renamed to [[Zven]]) and support [[Mithy]] departed for [[G2 Esports]], citing the team's stressful environment throughout the split.<ref>[http://www.gamingesports.com/actualidad-esports/league-of-legends/mithy-explica-las-razones-de-su-salida-de-origen/ Mithy explica las razones de su salida de Origen] ''gamingesports.com''</ref> Origen signed EU LCS veteran [[FORG1VEN]] to AD carry along with G2's former support [[Hybrid (Glenn Doornenbal)|Hybrid]]. 
+
+Before the summer 2016 split, the EU LCS reorganized into a round-robin Best-of-Two format. Origen struggled to progress with its new roster, picking up only two series wins the entire split and staying in relegation territory throughout. Adding to the team's problems, FORG1VEN departed the team after three weeks and left Origen without an AD carry. As their substitute mid laner, xPeke stepped in to the AD carry role for much of the remainder of the season. He was briefly replaced by Lithuanian rookie [[Toaster]], but xPeke moved back to the starting position only ten days later. Origen ended in ninth place with a 2-8-8 series record, cementing their unenviable berth in the [[League_Championship_Series/Europe/2017_Season/Spring_Promotion|upcoming Promotion Tournament]]. 
+
+In a close series in the Promotion Tournament, Origen defeated [[Misfits (European Team)|Misfits]] 3-2 to retain their EU LCS position. 
+
+===2017 Season===
+====EU LCS Spring Split====
+Following the disastrous summer split of 2016, all of Origen's players left the organization except xPeke, who moved back to a substitute mid position. Origen signed top laner [[Satorius]], jungler [[Wisdom]] and support [[Hiiva]] of [[Misfits (European Team)|Misfits]], EU LCS veteran [[Tabzz]] as AD carry, and rookie korean mid laner [[NaeHyun]] to round out its new roster. After the EU LCS reorganized to a two-group format prior to the spring split, Origen was selected to be in Group B along with [[H2K]], [[Unicorns of Love]], [[Splyce]], and [[Team Vitality]]. Origen were considered the weakest team going into Spring Split and criticized for their roster moves, especially [[NaeHyun]], who hadn't won a single of the 17 games he played in LSPL for [[Team KungFu]]. The expectations proved to be correct as Origen couldn't pick up a single series, let alone game win, in the first five weeks. Prior to Week 6, Origen released [[Hiiva]] and once again moved [[xPeke]] to the starting roster, this time to the support role. Origen however were unable to improve and lost to Misfits in Week 7. Even though [[Cinkrof]] joined Origen as an additional jungler, Wisdom remained the starting jungler in Week 8. Origen were able to improve slightly and picked up a game each against [[Team ROCCAT]] and [[Giants Gaming]], breaking NaeHyun's loss streak of 32 games across all competitions, but still lost both series 1-2. As Wisdom left Origen, Cinkrof became the starting jungler for the last three weeks. Despite the roster change, Origen were unable to win any more games, ending the regular season in 5th place of Group B with a 0-13 record.
+
+As the last placed team of their group, Origen faced demotion from EU LCS in the [[League Championship Series/Europe/2017 Season/Summer Promotion|Summer Promotion]] tournament, and faced [[Misfits Academy]] in the first round. Origen lost the series 0-3 and moved down to the lower bracket, where they faced fellow EU LCS team Giants Gaming. After another 0-3 loss, Origen were eliminated and lost their spot in EU LCS.
+
+====EU CS Summer Split====
+None of Origen's players remained with the organization after Spring Split. After it was unclear whether Origen would even use their Challenger Series spot, they picked up the roster of [[Wind and Rain]], who had previously qualified for CS Summer Split after a surprisingly successful [[EU Challenger Series/2017 Season/Summer Qualifiers|qualifying campaign]], consisting of [[Dan Dan]], [[xani]], [[SRH]], [[DarkSide]], and [[Quixeth]]. [[Neon (Matúš Jakubčík)|Neon]] and [[Iluzjonist]] joined as a substitutes, but started in the AD carry and Support positions for the first week respectively. After Origen only won a single series in the first three weeks, starting with Week 4, Neon and Iluzjonist returned to the starting lineup permanently and [[SevenArmy]] replaced xani, who moved to a coaching position. However, the roster changes did not help Origen to reach a playoff spot, and instead finished in fourth place with a 1-0-4 record.
+
+===2018 Season===
+Origen went silent after the end of 2017 Summer Split, and it was to the surprise of many when Origen's return was announced on their Twitter account at the end of March. After former Liverpool F.C. and Real Madrid footballer [https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa Álvaro Arbeloa] retweeted the announcement tweets, he announced his partnership with Origen on April 3, most likely investing in the organization.<ref>[https://twitter.com/aarbeloa17/status/981214767028297728 Álvaro Arbeloa's Tweet] ''twitter.com''</ref>
+
+===2019 Season===
+In 2018 it was reported that [[Astralis]]' parent company RFRSH Entertainment had acquired Origen and would use their name and brand for their [[League Championship Series/Europe/2019 Season/Spring Season|EU LCS]] entry as part of the 2019 European franchise program.<ref>[http://www.espn.com/espn/now?nowId=21-41044824-4 Astralis parent company RFRSH Entertainment has acquired Origen] ''espn.com''</ref> On November 20, Riot Games confirmed Origen as one of the ten partner teams for the [[LEC/2019 Season/Spring Season|LEC 2019 Spring Split]].<ref>[https://eu.lolesports.com/en/articles/league-of-legends-european-championship-is-here Take a closer look at the LEC] ''eu.lolesports.com''</ref>
+
+Origen recruited [[Deficio]] and [[Guilhoto]] as manager and head coach. With their expertise they signed a roster containing of many experienced players in [[Alphari]], [[Kold]], [[nukeduck]], and [[mithy]] and young AD carry [[Patrik]]. After a rough start to the [[LEC/2019 Season/Spring Season|Spring Split]] they found their style and showed consistent and clean gameplay. They finished the split in 2nd place behind G2 which meant that they secured their place at the finals weekend in Rotterdam and at [[Rift Rivals 2019/NA-EU|Rift Rivals]]. In Round 2 of playoffs they faced off against G2 for a place in the final but were outclassed by their opponents in a 0-3 sweep. Due to the new playoff format they got a second chance to reach the finals in semifinals against Fnatic. They won the series convincingly 3-1 to face G2 in a rematch for the title where their opponents styled on them in another 0-3 sweep and the fastest LEC playoff series ever.
+
+After a very difficult starting schedule in [[LEC/2019 Season/Summer Season|Summer Split]] during which they lost to the other 3 top 4 teams of spring whilst beating the lower teams Origen went into RR in 4th with a 3-3 record. Despite losing to TL on day 2 after a dominating day 1 the team managed to win their game in the final and win the tournament for LEC. After RR however it became more and more apparent that the team had lost something compared to Spring Split and after ending regular season with a loss streak of 4 games they dropped out of playoff positions due to H2H records. They went into gauntlet as 2nd seed due to their points from spring but on top of being underdog compared to Splyce and Schalke already Kold got ill just before the gauntlet so they had to swap in academy jungler [[Zanzarah]]. Neither of those did stop them from putting up a fight in Round 1 against Splyce though. They started great and won game 1 convincingly before two dominant defeats. After yet another fast dominant victory in game 4 they lost clearly in a slow and methodical game 5.
+
+=== 2020 Season ===
+For the 2020 Season Origen signed [[Xerxe]] from Splyce, [[Upset]] from S04 and [[Destiny (Mitchell Shaw) | Destiny]] from OPL team [[Mammoth]] while Kold, Patrick and mithy left the team. With a win against Fnatic they had a good start into [[LEC/2020 Season/Spring Season|Spring Split]] and found themselves near the top of the league after week 2 only dropping their game against G2. After another loss the week after they kept a flawless record against the worse teams until last week but were not able to beat the top teams and therefore found themselves in 3rd place with a 13-5 record. In Round 1 of playoffs they faced Fnatic and did not find an answer to their comp in games 1 and 2 before struggling to close out game 3 and throwing an advantage in midgame of game 4 which meant that they dropped into Loser's Bracket. There they recovered from a tough game 1 loss against Rogue to win the series convincingly 3-1 and face G2 in Round 3. Following yet another game 1 they lost another game where they had a clear advantage in a lategame teamfight to come back with a great game 3 but stood no chance in game 4 which ended their split.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+
+=== Former ===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayer|xPeke|es|Enrique Cedeño Martínez|'''Founder & Co-Owner'''}}
+{{listplayersp|nikolaj|dk|Nikolaj Nyholm|'''Founder & Chairman at Astralis Group'''}}
+{{listplayersp|JakobLK|dk|Jakob Lund Kristensen|'''Founder & CCO at Astralis Group'''}}
+{{listplayersp||dk|Anders Hørsholt|'''President & CEO at Astralis Group'''}}
+{{listplayersp||dk|Jakob Hansen|'''CFO at Astralis Group'''}}
+{{listplayersp||dk|Kasper Hvidt|'''Director of Sports'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Deficio|dk|Martin Lynge|'''General Manager'''|newteam=MSF}}
+{{listplayersp|Fr33stylez|nl|Silvano Allemekinders|'''Community Manager'''|newteam=none}}
+{{listplayersp|Jakesaurius|es|Jordi Paulano Ferrandiz|'''Community Manager'''|newteam=none}}
+{{listplayer|Guilhoto|pt|André Pereira Guilhoto|'''Head Coach'''|newteam=Astralis}}
+{{listplayer|AoD|ro|Baltat Alin-Ciprian|'''Assistant Coach'''|newteam=Astralis}}
+{{listplayersp||dk|Lars Christian Robl|'''Sports Psychologist & Performance Coach'''|newteam=Astralis}}
+{{listplayer|Arailla|fr|Flora Parmentier|'''Analyst'''|newteam=Astralis}}
+{{listplayer|Kayys|us|Jack Kayser|'''Head of Scouting & Strategic Coach'''|newteam=TSM}}
+{{listplayersp||de|Fabian Broich|'''Assistant Coach'''|newteam=XL}}
+{{listplayer|Jkor|pl|Jakub Kornecki|'''Analyst'''|newteam=1907}}
+{{listplayersp|CarvinG|es|David Primo|'''Co-Founder'''|newteam=none}}
+{{listplayersp||es|Álvaro Arbeloa|'''Investor'''|newteam=none}}
+{{listplayersp||es|Yago Arbeloa|'''Investor'''|newteam=none}}
+{{listplayersp|nAFAI|es|Isidro Téllez|'''General Manager'''|newteam=none}}
+{{listplayer|Nalu|si|Tim Hostnik|'''Head Coach'''|newteam=oyun hizmetleri}}
+{{listplayer|Exi (Jannick Brücher)|de|Jannick Brücher|'''Analyst'''|newteam=Misfits Gaming}}
+{{listplayer|Exi (Jannick Brücher)|de|Jannick Brücher|'''Head Analyst'''|newteam=Origen}}
+{{listplayer|Mac|uk|James MacCormack|'''Head Coach'''|newteam=M}}
+{{listplayer|xani|hr|Nikola Zrinjski|'''Assistant Coach'''|newteam=ASUS ROG ELITE}}
+{{listplayer|LeDuck|de|Titus Hafner|'''Head Coach'''|newteam=ASUS ROG Army}}
+{{listplayer|jzafra|es|Javier Zafra de Jáudenes|'''Chief Executive Officer'''|newteam=H2k}}
+{{listplayer|Araneae|es|Alvar Martín Aleñar|'''Head Coach'''|newteam=thx3bask}}
+{{listplayersp|PapaB3ar|ca|Marck Hernandez|'''General Manager'''|newteam=none}}
+{{listplayersp|Ch3rryBomb|ro|Ioana Popa|'''Chief Editor & Social Media Manager'''|newteam=ePunks}}
+{{listplayersp|shuBi|be|Dwight Casin|'''Graphic Designer'''|newteam=ePunks}}
+{{listplayersp|Nullien|es|María Aranel|'''News Writer'''|newteam=G2V}}
+{{listplayersp|kina|fr|Clément Piovesan|'''News Editor'''|newteam=none}}
+{{listplayer|NicoThePico|no|Nicholas Korsgaard|'''Head Coach'''|newteam=fnatic}}
+{{listplayersp|Wolle|de|Wolfgang Landes|'''Analyst'''|newteam=fnatic}}
+{{listplayersp|Hazze|ch|Tom Koller|'''Graphic Designer'''|newteam=none}}
+{{listplayersp|Bali|es|Ana Negueruela Palomo|'''Team Manager'''|newteam=none}}
+{{listplayersp|Hazel|dk|Nicolai Larsen|'''Head Coach'''|newteam=Low Priority}}
+{{listplayersp|WillOKelly|uk|Will Kelly|'''Marketing & Sales Manager'''|newteam=Fnatic}}
+{{listplayer|Hermit|us|Tadayoshi Littleton|'''Head Coach'''|newteam=NRG}}
+{{listplayer|Malaclypse|us|Paul Decsi|'''Analyst'''|newteam=Beşiktaş.Oyun Hizmetleri}}
+{{listplayersp|Empyre|kw|Naser Al-Naqi|'''Analyst'''|newteam=NRG}}
+{{listplayer|Veteran|gb|Michael Archer|'''Analyst'''|newteam=h2k}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+OR Logo Square.png|Origen Logo<br>(2014)
+OG logo.png|Origen Logo<br>(2015 - 2018)
+OG EM logo.png|Previous Logo (2018)
+</gallery>
+
+===Rosters===
+<gallery>
+File:OrigenTeam2015.jpg|Origen 2015 EUCS Spring Roster
+File:Origen2015.jpg|Origen 2015 EU LCS Summer Roster
+File:Ozoneorigen.jpg|Origen with sponsors Ozone Gaming
+File:OG 2016Spring.jpg|Origen 2016 EU LCS Spring Roster
+File:Og summer2016.jpg|Origen 2016 EU LCS Summer Roster with FORG1VEN as starting AD carry and Hybrid as starting Support
+File:OrigenSummer2016.png|Origen 2016 EU LCS Summer Roster with xPeke as starting AD carry
+File:OR 2017 Spring.png|Origen 2017 EU LCS Spring Roster with Hiiva as starting support
+File:OG 2019 Spring.png|Origen 2019 LEC Spring and Summer Roster
+</gallery>
+
+== External Links ==
+
+== References ==
+<references />

@@ -1,0 +1,130 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yang%20(Felipe%20Zhao)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.816Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Yang (Felipe Zhao)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Yang
+|name=Felipe Zhao
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=April
+|birth_date_day=14
+|favchamp=Irelia
+|favchamp2=Nidalee
+|checkbox1=No
+|checkboxComp=No
+|ids=Magodafarinha (BR), y4ngi (BR), yangoD (BR), China in Box (EUW), filho do makinha (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=Yes
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/yang
+|facebook=https://www.facebook.com/yanglol
+|twitter=yanglol_
+|instagram=yanglol_
+|snapchat=felipezhao
+|lolpros=https://br.lolpros.gg/player/yang-1
+|deeplol=https://www.deeplol.gg/pro/Yang-Felipe_Zhao
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===2016 Season===
+In 2016 he was part of the lineup that is often referred as the Exodia of CBLOL: [[Yang (Felipe Zhao)|Yang]], [[Revolta]], [[tockers]], [[micaO]] and [[Jockster]], led by [[Peter Dun]] and [[Abaxial]]. The team managed to never lose a series that they played on Brazilian soil. They played at [[CBLOL 2016 Split 1]] and consequently won [[CBLOL 2016 Split 1 Playoffs]] after beating [[Keyd Stars]] for 3x0 in the Grand Finals. With the win, they classified [[INTZ]] to the [[2016 International Wildcard Invitational]], where they managed to achieve 3rd place among other Wildcards regions.
+In the [[CBLOL 2016 Split 2|second split]], they found theyselves in a rivalry against [[CNB e-Sports Club]] until they beated them by 3-1 in the [[CBLOL 2016 Split 2 Playoffs|finals]]. In the [[IWCQ 2016]], they managed to classify to [[Worlds 2016]], where they made history by being the only Brazilian team to defeat an Asian team from a Major league by defeating [[EDward Gaming]], despite not qualifying for the main stage of the tournament.<ref>[https://www.espn.com.br/esports/artigo/_/id/5732003/adeus-exodia-o-fim-e-o-legado-do-quinteto-mais-vitorioso-do-cblol Adeus, Exodia: o fim e o legado do quinteto mais vitorioso do CBLoL]''espn.com.br''</ref>
+
+== Trivia ==
+* Nicknamed "Yudi", due to his resemblance to an Asian host for a Brazilian kids' show.
+* His fans constantly ask him to give them toys, also another joke with Yudi and his show.
+* Portrayed as {{ci|Rumble}} in the CBLoL 2015 official wallpaper.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+INTZ Yang.jpg|Yang
+INTZ Yang CBLOL2015.jpg|INTZ Yang 2015 Split 2
+INTZ Yang 2016 Summer.png|INTZ Yang 2016 Split 1
+INTZ Yang 2016 Winter.jpg|INTZ Yang 2016 Split 2
+KST Yang 2017 Winter.png|KST Yang 2017 Split 2
+VK Yang 2018 Spring.png|VK Yang 2018 Split 1
+VK Yang 2018 Split 2.png|VK Yang 2018 Split 2
+VK Yang 2019 Split 1.png|VK Yang 2019 Split 1
+PNG Yang 2019 Split 2.png|PNG Yang 2019 Split 2
+PNG Yang 2020 Split 1.png|PNG Yang 2020 Split 1
+</gallery>
+
+{{PlayerPageEnd}}

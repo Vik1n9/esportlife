@@ -1,0 +1,124 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wadid&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.258Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wadid」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Wadid
+|name=Kim Bae-in
+|nativename=김배인
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=May
+|birth_date_day=25
+|favchamp=Bard
+|checkbox1=No
+|compID1=WADID
+|checkboxComp=No
+|ids='''KR:''' Wadid<br>'''EUW:''' Wadid #KR01
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/wadid
+|facebook=https://www.facebook.com/wadidxd
+|twitter=WadidXD
+|instagram=wadidxd
+|youtube=https://youtube.com/channel/UCW1AHV13HL4sd8lYcnQAL4w
+|lolpros=https://lolpros.gg/player/wadid
+|deeplol=https://www.deeplol.gg/pro/Wadid
+|checkboxSuppressOrgNavbox=Yes
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=His name was previously stylized '''WADID'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===2016 Season===
+====Summer Season====
+Wadid first came onto the competitive scene when he formed [[Rising Star Gaming]] to compete in the [[Challengers_Korea/2016_Season/Summer_Season|CK 2016 Summer]], as well as joining his team as their support. Rising Star went a respectable 4-3 in series to finish in fifth place due to having a worse game store than [[Ever8 Winners]] and [[Stardust (Korean Team)|Stardust]]. Their finish qualified Rising Star for [[Challengers Korea/2016 Season/Summer Playoffs|playoffs]], where they swept Stardust in the quarterfinals, but lost to [[SBENU Korea]] in the semifinals 3-1 and then to Ever8 3-2 in a third-place match that only determined prize money. Wadid left Rising Star in September and joined SBENU after they failed to qualify for the LCK in the promotion tournament, but never ended up playing for the team as they disbanded a month later. 
+
+===2017 Season===
+====Spring Season====
+Wadid joined the European team [[Team ROCCAT|ROCCAT]] for the [[EU LCS/2017 Season/Spring Season|2017 spring season]] as their lone import player. The team got off to a horrible start, losing all of their first seven matches and recording only two game wins during that stretch. However, they then pulled off a complete reversal, winning all six of their remaining matches including an upset of reigning champion [[G2 Esports]] in their final match of the split. However, ROCCAT were unable to make the playoffs due to having a worse game score than [[Fnatic]], leaving them in fourth place, though safe from relegation. 
+
+====Summer Season====
+Wadid remained with ROCCAT for the [[EU LCS/2017 Season/Summer Season|summer split]]. Their summer split was a less dramatic copy of their spring, as ROCCAT started the season 0-2 and never were close to the playoffs after Week 5. Already mathematically eliminated, the team won both of their final series (including a fiesta series against [[Misfits Gaming]] in which Wadid played {{ci|Lee Sin}} and {{ci|Vayne}}) to finish in fourth once again with a 5-8 record, ending Wadid's season without a playoff appearance. 
+
+In December, Wadid and bot laner [[Hjarnan]] both left ROCCAT and joined [[G2 Esports]].
+
+===2018 Season===
+====Spring Season====
+Wadid's new team were the defending EU LCS champions but had undergone a massive offseason roster shift with only [[Perkz]] remaining from the previous year's team. The team started the split 1-3 but soon climbed to the top of the standings, although Hjarnan and Wadid were not considered the team's strong point. G2 was in close competition for first place in the middle of the season, before [[Fnatic]] pulled away to cement themselves in first. G2 finished the season 11-7 and in a tie with [[Splyce]] for second, but beat them in a tiebreaker game to claim a playoff bye. 
+
+G2 was seeded into the [[EU LCS/2018 Season/Spring Playoffs|semifinals]] where they once again faced and defeated Splyce, this time by a 3-1 score. This sent them to the finals against Fnatic, but G2 was swept by the higher seed, breaking their four split championship streak and giving the team their first-ever finals loss.
+
+====Summer Season====
+G2 started the [[EU LCS/2018 Season/Summer Season|summer split]] hot, winning their first six games. However, they cooled off over the remainder of the split, going only 6-6 the rest of the way. This left the team in a three-way tie for second with [[Team Vitality]] and [[FC Schalke 04 Esports]], who had both surged while G2 was floundering. This sent them into a tiebreaker round, where G2 first lost to Vitality, then to Schalke, causing the team to fall into fourth place. 
+
+In [[EU LCS/2018 Season/Summer Playoffs|the playoffs]], G2's was matched up against fifth-place [[Misfits Gaming]], who's split had taken a similar trajectory to G2's, with the team winning only three games after Week 4. However, Misfits dispatched G2 handily in a sweep, the first time in the team's history that they had failed to make the finals. Their championship points from spring and summer still gave G2 a chance at [[2018_Season_World_Championship/Play-In|Worlds]] in the [[EU LCS/2018 Season/Regional Finals|regional finals]], where they matched up against Splyce and beat them in a close 3-2 series after going down 2-1 to start. This left them facing FC Schalke 04, who had lost to Fnatic in the finals, with their season on the line. Despite their mediocre regular season, G2 were able to defeat Schalke 3-1, sending Wadid to Worlds for the first time. 
+
+====2018 World Championship====
+Due to being Europe's third seed, G2 started Worlds 2018 in the [[2018 Season World Championship/Play-In|play-in stage]], where they were sorted into Group B along with Turkish representative [[SuperMassive Esports]] and Southeast Asian representative [[Ascension Gaming]]. G2 dropped their first match to SuperMassive, but rolled through the rest of the group stage, winning all their remaining games, plus a tiebreaker with the Turkish team, leaving them in first place. This sent them to the qualification round where they faced Latin America North team [[INFINITY|Infinity Esports]], who looked surprisingly dangerous due to having taken a game off of [[Edward Gaming]] in the group stage. Although Infinity took the first game, G2 won the remaining three, qualifying them for the [[2018 Season World Championship/Main Event|main event]]. 
+
+There, G2 was seeded into Group A, joining Korean team [[Afreeca Freecs]], [[Flash Wolves]] of the [[LMS]], and Vietnamese team [[Phong Vũ Buffalo]]. G2 looked inconsistent, going 1-1 in the group stage against all three teams, but managed to beat Flash Wolves in a tiebreaker to qualify for the knockout stage. In the quarterfinals, G2 was drawn to face Chinese first seed and [[MSI 2018]] champions [[RNG]], who were heavy favorites. However, in a quarterfinals marked by multiple upsets, G2 managed to prevail against the Chinese team in a five-game series. Despite this triumph, semifinals proved to be the end of the road for Wadid and G2, as they were swept by eventual World Champions [[Invictus Gaming]]. 
+
+Despite the success of 2018, G2 parted ways with both Hjarnan and Wadid in December. The same day, Wadid joined [[Rogue (European Team)|Rogue]], a new team that had acquired a slot in the rebranded [[LEC]]. 
+
+===2019 Season===
+====Spring Split====
+Despite having an experienced roster that also included [[Kikis]] and [[Sencux]], Rogue struggled to begin the [[LEC/2019 Season/Spring Season|spring split]], losing all of their first eight games. In response, Rogue replaced Wadid and top laner [[Profit]] with [[Vander]] and [[Finn]] from their [[Rogue Esports Club|academy team]]. While Profit joined the academy squad, Wadid simply sat out the next three weeks, during which Rogue recorded their first two wins of the season. Despite better results with the replacement players, Wadid and Profit returned to the main roster for the final two weeks, in order to allow the academy team to have the strongest possible roster heading into the Ultraliga playoffs. However, Rogue performed no better on their return, losing all four remaining games to finish tenth and last in the LEC. 
+
+====Summer Split====
+During the midseason break, Rogue traded Wadid to North American team [[FlyQuest]] in exchange for their academy mid laner [[Selfie]]. Wadid started the season playing for [[FlyQuest Academy]]. Although Wadid's new team was only 1-6 over the first three weeks of the [[NA Academy League/2019 Season/Summer Season|academy summer split]], with the main roster similarly struggling, he was promoted to the LCS and played all their remaining games. The team did register a 2-0 Week 5, but the addition of Wadid wouldn't be enough to turn the team around. They would never be in serious playoff contention and finished the season in ninth place with a 5-13 record. FlyQuest's fourth-place finish in spring did still give them a slot in the [[LCS/2019 Season/Regional Finals|Regional Finals]], but they lost 3-1 to [[Clutch Gaming]], ending their season. Wadid left the team in November. 
+
+===2020 Season===
+After remaining unsigned in the off-season, Wadid returned to Korea and joined the LCK broadcast team. He provided analysis for the Korean broadcast and occasionally filled in for [[LS]] on the English broadcast. Wadid did get a chance to play, albeit a less than ideal one, when he was signed in April by [[Griffin (Korean Team)|Griffin]], who were fighting to remain the LCK in the [[LCK/2020 Season/Summer Promotion|promotion tournament]] after a tenth place regular-season finish. Griffin defeated Challenger team [[Seorabeol Gaming]] in their first game with Wadid but then lost their next two to fall into the losers' bracket. There, they were swept by [[Sandbox Gaming]] and were relegated from the LCK. Wadid saw no further action as a player in 2020 but continued to cast the LCK.
+
+===2021 Season===
+====Spring Split====
+For 2021, Wadid returned to active play in a new competitive region for him, joining Latin American team [[All Knights]]. Wadid and his new team started Phase 1 of the [[LLA/2021 Season/Opening Season|opening split]] hot, winning six of their first eight games. They cooled off as the split wound down, but still easily qualified for Phase 2 with an 8-6 record. All Knights improved in the second stage, posting the best record of any team there, but were just barely unable to pass [[INFINITY|Infinity Esports]] in the standings due to Infinity having beaten them in their head-to-head matchup. This left All Knights in third place, placing them into Round 1 of [[LLA/2021 Season/Opening Playoffs|the playoffs]]. There, they defeated fourth-seeded [[Rainbow7]] 3-1 to advance, but lost by an identical score in the second round to Infinity, the eventual champions, ending their season. 
+
+====Summer Split====
+Wadid remained with All Knights to start the [[LLA/2021 Season/Closing Season|closing split]]. However, after a 1-3 start, Wadid, jungler [[Grell]], and coaches [[Saroo]] and [[Jaeby]] abruptly left the team. Wadid later released a statement saying that his departure was due to health issues and personal conflicts with other members of the team and that he had decided to retire, effective immediately.
+== Trivia ==
+* Noted for already having a good grasp of English when he came to Europe, which he attributed to watching a lot of YouTube and Twitch. 
+* His ID '''Wadid''' comes from the term 'warded'.
+* Often jokes around in relation to the champion {{ci|Vayne}}, as his given name Bae-in (배인) sounds very close to {{ci|Vayne}} (베인) in Korean.
+* When he was a member of the LCK broadcast team, he was known to criticize [[Pyosik]]. As a symbolic gesture prior to Worlds 2020, he presented Pyosik with the Korean flag that he took on stage during the Worlds 2018 semifinals.  
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Casting History ==
+{{CastingHistory}}
+
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

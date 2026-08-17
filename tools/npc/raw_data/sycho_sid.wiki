@@ -1,0 +1,129 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Benny%20(Benny%20Hung)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.342Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Sycho Sid」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Benny
+|name=Benny Hung
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|checkbox-res=No
+|favchamp=Udyr
+|favchamp2=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids=XDG Benny, V Sycho Sid, Sycho Squid, V a little benny
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/sychosidlol
+|facebook=https://www.facebook.com/xdgbenny
+|twitter=bennyhung
+|reddit=SychoSid
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Sycho Sid'''.
+}}
+== Biography ==
+As the youngest of three brothers, he was forced to wait for his older siblings to finish playing video games before being allowed his own turn. Multiplayer games were the exception. He remembers playing games like Jedi Power Battles, Gauntlet Legends, and Crash Bandicoot Racing on the Playstation. These games, along with Super Smash Bros and Mario Party on the Nintendo 64, pervaded his childhood. It wasn't until his Sophomore year of high school that he was introduced to DotA from his best friend. He convinced his parents to buy him a laptop that would be used for schoolwork, but it was mainly used to play the game whenever he could. He played DotA occasionally for three years, but did not play competitively. However, it was in these early years that he acquired the mechanical skills and knowledge required for MOBA games. Sycho Sid (now known as Benny) did not begin playing League of Legends until a year after its release due to his loyalty to DotA. He eventually tried the game as a result of his brother's influence, and began to find it more appealing than DotA. When he first started playing he watched streams of [[Counter Logic Gaming|CLG]] members, igniting his dream of playing professionally.
+
+===Season 2===
+Benny started playing competitively with [[Team EZ]] before leaving to join [[CLG Black]] under the alias of '''Sycho Sid'''. His first tournament with the team was the [[National ESL Premier League/Season III|National ESL Premier League Season 3]], where the team finished in 1st place. He also played in the [[GIGABYTE Esports LAN]], where CLG Black managed to finish 2nd, losing to [[Team SoloMid]] in the grand final. Next up for Benny and the team was the [[Leaguecraft ggClassic Presented by Arqade|Leaguecraft ggClassic]], where he and the team finished 2nd again. CLG Black topped their group, which included [[Taipei Assassins]], but the team went on to lose their match-up against [[Team Dynamic]] in the final of the tournament.
+
+After this came the [[2012 MLG Pro Circuit/Summer/Championship|2012 MLG Summer Championship]]. Benny and the team were knocked out in the 4th round loser's bracket, after losing against [[Team Dynamic]]. Benny's final tournament with CLG Black was the [[National ESL Pro Series/Season IV|National ESL Pro Series Season 4]]. The team placed 3rd, losing to [[CLG Prime]] in the semifinals, but beating [[Team Curse]] in the third-place match. During his time with the team, they also enjoyed success in the [[ROCCAT King Of The Hill]]. At the end of the season, Benny left [[CLG Black]].
+
+===Season 3===
+Benny joined [[Team FeaR]] at the start of the season along with former [[CLG Black]] teammate [[Zuna]]. His first and only tournament with the team was the [[Riot League Championship Series/North America/Season 3/Spring Qualifiers|LCS Spring Split Qualifier]]. Benny and the team topped their group, going on to beat [[Meat Playground]] in their qualification matchup. This meant that the team would be playing in the inaugural [[Riot League Championship Series/North America/Season 3/Spring Round Robin|LCS Spring Split]]. Due to this, Benny and the rest of the team's roster was picked up by [[Team Vulcun]].
+
+The [[Riot League Championship Series/North America/Season 3/Spring Round Robin|Spring Split]] went relatively well for Benny and the team, as he impressed on both {{ci|Elise}} and {{ci|Malphite}}. The team finished the split in 5th place, securing themselves a spot in the [[Riot League Championship Series/North America/Season 3/Spring Playoffs|Spring Playoffs]]. The playoffs were a huge success, with Vulcun beating [[Counter Logic Gaming]] in their quarterfinal match-up before being beaten by [[Team SoloMid]] in the semifinals. The team went on to beat [[Team Curse]], securing themselves the 3rd place spot.
+
+Despite success in the playoffs, the [[Riot League Championship Series/North America/Season 3/Summer Round Robin|Summer Split]] was a huge step up for [[Team Vulcun]]. Benny's impressive performances on {{ci|Jayce}}, {{ci|Malphite}} and {{ci|Shen}} helped the team to a 2nd place finish in the split, and a place in the [[Riot League Championship Series/North America/Season 3/Summer Playoffs|Summer Playoffs]]. After being beaten by [[Team SoloMid]] in the semifinals, Benny and Vulcun beat [[Team Dignitas]] in the third-place match, meaning that [[Team Vulcun]] would be playing in the [[Season 3 World Championship]].
+
+The [[Season 3 World Championship|World Championship]] was not particularly successful, but Benny and the team represented themselves well. Despite finishing in 4th place in their group, [[Team Vulcun]] managed to beat [[Fnatic]] in the first match of the group - this was Fnatic's only loss in the group stage. 
+
+After the World Championships, [[Team Vulcun]] retained the same roster, but reformed as [[XDG Gaming]].
+
+===2014 Season===
+After the roster's time playing in the World Championship, the team did not return to their former domestic form. The [[Riot League Championship Series/North America/2014 Season/Spring Round Robin|Spring Split]] was unsuccessful for Benny and [[XDG Gaming]], as they finished in last place. This meant that they would have to fight for their LCS status in the [[Riot League Championship Series/North America/2014 Season/Summer Promotion|Summer Promotion]]. XDG lost their promotion match-up against [[LMQ]], meaning they would not be playing in the next split of the LCS.
+
+On April 30, 2014, Benny announced that he would be retiring to continue his education.<ref>[https://www.facebook.com/xdgbenny/posts/719700478081142 XDG Benny retires] ''facebook.com''</ref>
+
+===2015 Season===
+Benny subbed for [[Counter Logic Gaming]] in the first week of the [[Riot League Championship Series/North America/2015 Season/Spring Season|2015 NA LCS Spring Split]].<ref>[http://clgaming.net/news/635-benny-to-sub-for-week-one-of-lcs Benny to Sub for Week One of LCS] ''clgaming.net''</ref>
+
+== Trivia ==
+* Known for his {{ci|Udyr}} and {{ci|Lee Sin}}.
+* His previous handle, Sycho Sid, was from a professional wrestler that he gotten his inspiration from.<ref>[http://www.youtube.com/watch?v=WNpK76KUZkM/ How a pro player gets his name] ''youtube.com''</ref>
+** Changed his ID from Sycho Sid to Benny because he didn't like people calling him Sycho.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,122 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NRG&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.371Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「NRG」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= NRG
+|orgcountry= USA
+|country=
+|region= North America
+|website= http://nrg.gg
+|youtube= https://www.youtube.com/@NRGEsports
+|facebook= https://www.facebook.com/lolNRG
+|instagram= nrggram
+|twitter= NRGLeague
+|tiktok= nrg
+|stream= https://www.twitch.tv/team/nrg
+|linkedin= https://www.linkedin.com/company/nrg-esports
+|weibo= https://weibo.com/7255419581
+|sponsor= [https://www.spectrum.com Spectrum]<br>[https://www.rockstarenergy.com Rockstar Energy]<br>[https://www.asus.com ASUS ROG]<br>[https://www.nationalguard.com/esports Army National Guard]<br>[https://www.andaseat.com AndaSeat]<br>[https://pusulabet.com Pusulabet]<br>[https://www.thrustmaster.com Thrustmaster]
+|created= Organization and LoL Division:<br>2015-11-16
+|disbanded= LoL Division: 2016-12-12
+|created2= LoL Division: 2023-04-06
+|disbanded2= LoL Division: 2024-10-31
+|created3= LoL Division: 2026-01-11
+|otherwikis=fortnite,rl,gears,pubg,smite,vainglory,cod
+}}{{TOCRWI}}
+
+'''NRG''' is an American esports organization. They were previously known as '''NRG eSports''', '''NRG Esports''', and '''NRG Kia'''.
+
+== History ==
+=== 2016 Preseason ===
+'''NRG eSports''' was announced on November 16, 2015. They formed when two co-owners of NBA team Sacramento Kings purchased [[Team Coast]]'s NA LCS slot for the [[League Championship Series/North America/2016 Season/Spring Season|2016 Spring Season]]. Their initial line-up included top laner [[Impact]] from [[Team Impulse]], jungler [[Moon (Galen Holgate)|Moon]] from [[Team Imagine|Imagine]], mid laner [[GBM]] from [[Jin Air]], and support [[KonKwon]], the only player to move over from Coast. Former [[Origen]] head coach [[Hermit]] and [[Cloud9]] coach [[Charlie (Charlie Lipsie)|Charlie]] formed the team's coaching staff. [[Altec]] officially joined the team's roster later on in the day.
+
+=== 2016 Season ===
+NRG started the LCS strong, tied for either first or second place through the first four weeks, but after the fifth week they fell down to fifth place and remained there for the rest of the season. They were eliminated in the first round of the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]]. In the midseason break, NRG traded out nearly their entire roster, keeping only GBM and adding [[Quas]], [[Santorin]], [[ohq]] and [[KiWiKiD]]. The community's reception to these changes were mixed; while ohq was seen as a solid pickup, Quas had just come off of a split away from competition, and KiWiKiD was seen as one of the weaker supports in the league. Ultimately, the changes did not work out, and NRG were consistently in eighth place week after week in the [[League Championship Series/North America/2016 Season/Summer Season|summer split]] until they fell to ninth in week 9. In the [[League Championship Series/North America/2017 Season/Spring Promotion|promotion tournament]], they lost first to [[Cloud9 Challenger]] and then to [[Echo Fox]] in back-to-back 3-0 sweeps and were relegated to the [[NA Challenger Series/2017 Season/Spring Season|NACS]]. Soon after relegation, multiple players announced their free agency, and it was reported that NRG were closing down their team.<ref>[http://www.espn.com/esports/story/_/id/17276892/nrg-terminates-league-legends-team-contracts NRG terminates League of Legends team's contracts] ''espn.com''</ref> It was confirmed the next day that the team had let all of their players go to pursue other options, but they were still "working on a plan" to stay in League of Legends.<ref name="letgo">[https://twitter.com/amiller/status/763944227847798785 Andrew Miller's Tweet] ''twitter.com''</ref><ref>[https://twitter.com/amiller/status/763945262586863616 Andrew Miller's Tweet] ''twitter.com''</ref>
+
+=== 2023 Season ===
+In April, rumors that CLG were leaving the LCS came true as NRG acquired the company from former owners Madison Square Garden. The CLG team name and brand would be replaced by NRG in the subsequent Summer season. In a statement made by NRG CEO Andy Miller, NRG would retain all players and coaches from CLG’s LCS team such as top laner Dhokla, jungler Contractz, mid laner Palafox, bot laner Luger, and support Poome. However, NRG would soon drop Luger and Poome and acquire FBI from Evil Geniuses and IgNar from Immortals a month later.
+In their first split returning to the LCS, NRG gained a reputation in the LCS for defeating strong teams like Cloud9 and Team Liquid, only to lose to teams at the bottom of the standings like Immortals and FlyQuest. The org finished the regular season in 5th place with a 9-9 record.
+In the playoffs, the fifth seed NRG pulled off upset wins over third seed Team Liquid and second seed Golden Guardians, locking them a spot at Worlds 2023. They would then lose to first seed Cloud9, who won in dominant 3-0 fashion, sending NRG to the lower bracket to face Team Liquid again. After a close 3-2 series, NRG would face Cloud9 yet again and win the LCS Championship in a decisive 3-1 series, a first for the org and for many of their players.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+=== Current ===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Mark Mastrov|'''Co-Owner''' }}
+{{listplayersp||us|Andy Miller|'''Co-Owner''' }}
+{{listplayersp|Atlas|us|Gerard Kelly|'''Co-Owner'''}}
+{{listplayersp|moconinja|us|Justin Siegel|'''Co-Owner'''}}
+{{listplayersp|Ringo|us|Andrew Pruett|'''CEO'''}}
+{{listplayer|Tonington|us|James Kandel|'''Manager'''}}
+{{listplayer|Joey|us|Joseph Haslemann|'''Coach'''}}
+{{listplayer|Razvan|ro|Răzvan-Andrei Nistor|'''Coach'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|mnqcook|ca|Andrew Tye|'''Cook, Wellness Coach, & Trainer'''|newteam=none}}
+{{listplayer|Thinkcard|us|Thomas Slotkin|'''Head Coach'''|newteam=FURIA}}
+{{listplayer|Apollo (Apollo Price)|us|Apollo Price|'''Positional Coach'''|newteam=FLY}}
+{{listplayer|Croissant|us|Chris Sun|'''LCS Strategic Director'''|newteam=none}}
+{{listplayer|Chuz|au|Aaron Bland|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Juves|au|Brandon Defina|'''Coach'''|newteam=none}}
+{{listplayer|sOAZ|fr|Paul Boyer|'''Positional Coach'''|newteam=Team Heretics}}
+{{listplayersp|MindBodyEsports|us|Edward Cleland|'''Health and Performance Manager'''|newteam=TL}}<!--Jan 2023 - Nov 2023-->
+{{listplayer|Mash|ca|Brandon Phan|'''Strategic Coach'''|newteam=TLCS}}
+{{listplayer|Damonte|us|Tanner Damonte|'''Positional Coach'''|newteam=FlyQuest}}
+{{listplayersp|Jonathon|ca|Jonathon McDaniel|'''League of Legends General Manager'''|newteam=D}}
+{{listplayer|myra|ca|Myra Davis|'''Manager'''|newteam=Wildcard Gaming}}
+{{listplayer|1onz|ca|Tom Rahman|'''Analyst'''|newteam=none}}
+{{listplayer|Gunaso|pt|André Ferreira|'''Analyst'''|newteam=none}}
+{{listplayer|Rudeclaw|us|Andy Jespersen|'''Manager'''|newteam=Riot}}
+{{listplayersp|PsycSummer|us|Summer Scott|'''Esports Psychology Consultant'''|newteam=Gold Coin United}}
+{{listplayer|Hermit|us|Tadayoshi Littleton|'''Head Coach'''|newteam=eunited}}
+{{listplayersp|KoreanEdelweiss|kr|Barry Lee (이권문)|'''Team Manager'''|newteam=Retired}}
+{{listplayer|Hermes|link=Hermes (David Tu)|us|David Tu|'''Coach'''|newteam=Immortals}}
+{{listplayersp|Archon|us|Joseph Aguirre|'''Analyst'''|newteam=Retired}}
+{{listplayer|History Teacher|us|Chad Smeltz|'''General Manager'''|newteam=Phoenix1}}
+{{listplayer|Qwerm|us|Alec Warren|'''Analyst'''|newteam=Phoenix1}}
+{{listplayersp|Empyre|kw|Naser Al-Naqi|'''Head Analyst'''|newteam=dT}}
+{{listplayersp|Angela|||'''Head of Social Media/Content'''|newteam=Retired}}
+{{listplayersp|Aria|||'''Personnel Manager/Chef'''|newteam=Retired}}
+{{listplayersp|Shark|us|Charlene Hamm|'''Assistant General Manager'''|newteam=Apex Gaming}}
+{{listplayer|Charlie (Charlie Lipsie)|cn|Charlie Lipsie|'''Head Coach'''|newteam=C9}}
+{{listplayer/End}}
+
+== Tournaments ==
+=== As NRG ===
+{{TeamResults|NRG|show=overviewpage}}
+{{TeamShowmatchResults|NRG|show=overviewpage}}
+
+=== As NRG Esports ===
+{{TeamResults|NRG Esports|show=overviewpage}}
+{{TeamShowmatchResults|NRG Esports|show=overviewpage}}
+
+==Media==
+{{TeamMedia}}
+
+== Images ==
+=== Logos ===
+<gallery>
+NRG Esports old logo.png|NRG Esports Logo<br>(Nov 2015 - Nov 2016)
+NRG 2020 logo.png|NRG First Logo<br>(Feb 2020 - Apr 2024)
+NRGlogo square.png|NRG Second Logo<br>(Apr 2024 - ''Present'')
+NRG Kia logo.png|NRG Kia Logo<br>(Apr 2024 - Oct 2024)
+</gallery>
+
+=== Rosters ===
+<gallery>
+NRG Roster LCS 2016 Spring.jpg|NRG Esports' LCS 2016 Spring Roster
+</gallery>
+
+==References==
+<references />

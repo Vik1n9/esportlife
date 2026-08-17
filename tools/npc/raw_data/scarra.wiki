@@ -1,0 +1,142 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Scarra&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.535Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「scarra」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=scarra
+|name=William Li
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1989
+|birth_date_month=November
+|birth_date_day=25
+|favchamp=Katarina
+|favchamp2=Gragas
+|favchamp3=Diana
+|favchamp4=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids=priscent, cesuna, Shrimpter
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/scarra
+|facebook=https://www.facebook.com/scarraofficial
+|twitter=scarra
+|instagram=scarraa
+|askfm=cesuna
+|snapchat=scarraa
+|reddit=scarra
+|youtube=https://youtube.com/user/scarraofficial
+|deeplol=https://www.deeplol.gg/pro/scarra
+|checkboxSuppressOrgNavbox=No
+|otherwikis=tft
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is best known for being the mid laner for [[Team Dignitas]].
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+|prev2=Jungler
+|prev3=Mid
+|prev4=Coach
+|firstname=William
+|lastname=Li
+}}
+==Biography==
+Scarra hails from Houston, Texas in the USA. He began playing League of Legends unprofessionally prior to Season One.
+
+===Season 1===
+Scarra immediately demonstrated potential, securing rank 3 in the solo queue ladder by playing 23 {{ci|Katarina}} games, where he was able to achieve a record of 22 wins and only 1 loss. 
+
+In early November 2010, Scarra helped form [[Rock Solid]] along with [[Naryt]], [[Rambo]], [[Voyboy]], [[Araragi]], [[samtheham]], and [[Th3RaT]]. With that lineup, Scarra was able to place third at the [[Newegg Winter Wanfest 2010]].  <ref>[http://wanfest.newegg.com/?page=stem&view=team&teamid=50239 Newegg Winter Wanfest 2010 - Rock Solid Team Roster] ''wanfest.newegg.com''</ref>
+
+After some shuffling in the roster of Rock Solid, Scarra discovered [[L0cust]] and invited him to join the team, knowing L0CUST as an old mage player from scarra's World of Warcraft server. With the revamped Rock Solid lineup, Scarra and his team posted admirable results, placing well in several [[ESL Go4LoL]] weekly cups. The team was also known for incorporating unconventional picks such as Katarina into their lineup. 
+
+On July 18, 2011, Scarra, along with Rock Solid, was able to qualify for [[IEM Season VI - Global Challenge New York]], beating out Team God Mode in Round 2 and, in a surprising upset, taking out [[Counter Logic Gaming]] in the finals of the IEM New York qualifying tournament.
+
+===Pre-Season 2===
+On September 22, 2011, Scarra and Rock Solid were picked up by [[Team Dignitas]].<ref>[http://www.team-dignitas.net/articles/news/League-of-Legends/382/Team-Dignitas-welcome-new-League-of-Legends-team Team Dignitas welcome new League of Legends team] ''team-dignitas.net''</ref> Team Dignitas was looking for a new League of Legends team to sponsor after disbanding of its European-based team. Now with financial sponsorship, Scarra was able to attend [[IEM Season VI - Global Challenge New York]], where his team took fifth/sixth place, failing to advance from the group stage but defeating [[Team SoloMid]].
+
+After being picked up and sponsored by his new team, Scarra and Team Dignitas were able to quickly establish themselves as one of the premier North American League of Legends teams, taking out [[Epik Gamer]] 2-1 in the [[IGN Proleague Season 3 - Atlantic City]] on October 9, 2011, as well as beating out [[Curse Gaming]] and Counter Logic Gaming Prime in 2-0 series during the quarterfinals and semifinals. Scarra was once again able to take first place in the [[Rampage King of The Hill Series]], edging out Team SoloMid 2-1, but fell to TSM soon afterwards in [[MLG Providence]], taking home third place.<ref>[http://tv.majorleaguegaming.com/videos/79334-clf-solo-mid-vs-dignitas-game-1 2011 MLG Providence Losers' Finals VOD - Team SoloMid vs Team Dignitas] ''tv.majorleaguegaming.com''</ref>
+
+===Season 2===
+Starting off Season 2 strongly, Scarra was able to place third in the [[IEM Season VI - Global Challenge Kiev]], taking out [[SK Gaming]] 2-1 but falling to Team SoloMid in the semifinals.<ref>[http://www.esl-world.net/masters/season6/kiev/lol/groupstage/team/matches/5656404/72051/ IEM Season VI - Kiev: Team Dignitas Playoff Results] ''esl-world.net''</ref>
+
+Returning back to America shortly afterwards, Scarra and Team Dignitas were among the eight premier North American teams invited to the [[LoLPro.com Curse Invitational]], where they posted one of their strongest showings yet. The team took out [[RFLX Gaming]] 2-0 in the first round, eliminated Epik Gamer 2-0 in the semifinals, and ultimately defeated Counter Logic Gaming Prime 2-1 in the grand finals, securing a trip to the Curse Gaming headquarters in the process. Dignitas ultimately took the grand prize of $20,000 after defeating Curse 2-0.
+
+Once again looking to achieve success on an international level, Scarra attended [[IEM Season VI - World Championship]] in Hanover. His team made an amazing run during group play, taking first place in the group with four wins and only a single loss, defeating Counter Logic Gaming Prime, [[Team ALTERNATE]], [[Millenium]] and [[against All authority]], and only dropping a game to [[FnaticRC]].<ref>[http://www.esl-world.net/masters/season6/hanover/team/matches/5656404/74551/ IEM Season VI - Hanover: Team Dignitas Groupstage Results] ''esl-world.net''</ref> Scarra's success carried over to the semifinals, where he was able to take out aAa once again 2-0 before falling in the grand finals 2-0 to [[Moscow 5]].<ref>[http://www.esl-world.net/masters/season6/hanover/team/matches/5656404/74552/ IEM Season VI - Hanover: Team Dignitas Playoff Results] ''esl-world.net''</ref>
+
+Coming home to the United States, Scarra attended [[IGN Proleague Season 4 - Las Vegas]] on April 6, 2012, where he was found as one of the heavy favorites going in. The tournament started out very well for scarra and Team Dignitas, as they were able to beat up-and-coming team Monomaniac 2-1 in the first round, and defeating another strong favorite for the tournament, Counter Logic Gaming Prime, 2-1 in the second round. During this tournament Scarra played an unorthodox Soraka mid, alongside Voyboy's surprise Lulu top pick. Unfortunately, Team Dignitas fell short 2-1 against Team SoloMid in the fourth round, and were ultimately eliminated by Counter Logic Gaming Prime 2-0 in the loser's bracket, their surprise team composition was banned out in both of these series.
+
+On June 6, 2012, Scarra attended the [[MLG Pro Circuit - Spring Championship]] with a newly reformed Dignitas, having their top laner [[Voyboy]] be replaced by former Curse player [[Crumbzz]]. Despite having a new roster, Scarra and Team Dignitas performed exceptionally well, going undefeated until the winner bracket finals, beating the likes of [[Team Green Forest]], [[Team Dynamic]], and [[Counter Logic Gaming Prime]]. Dignitas' run was finally stopped after they were knocked out of the winner bracket finals by [[Team SoloMid]], bringing them down to play against Counter Logic Gaming Prime once again where they fell 2-0, taking home 3rd place.<ref>[http://s3.majorleaguegaming.com/2012-anaheim-leagueoflegends-champ.html 2012 MLG Anaheim League of Legends Brackets] ''s3.majorleaguegaming.com''</ref>
+
+Following the MLG tournament Scarra and the rest of Dignitas moved to Korea to compete in [[Azubu_The_Champions_Summer_2012|Azubu The Champions Summer 2012]]. Dignitas did not make it out of the Group Stage.<ref>[http://www.ognlol.com/league2/program Azubu The Champions Summer 2012 Program Info] ''ognlol.com''</ref> Scarra moved back to the United States shortly after this.
+
+When he got back to the United States he and the team won back-to-back online tournaments with first place finishes in [[Solomid_NA_Tournament_Circuit/Invitational_5|Solomid NA Invitational 5]] and [http://leaguepedia.absolutelegends.net/wiki/IGN_ProLeague_Elites IGN ProLeague Elites]. 
+
+Scarra and the rest of Team Dignitas competed in back to back Major LAN events near the end of the August with [http://leaguepedia.absolutelegends.net/wiki/2012_MLG_Pro_Circuit/Summer/Championship MLG Summer Championship] and [[Season Two/Regional Finals - Seattle]] where he and Dignitas took home second at both tournaments.<ref>[http://www.majorleaguegaming.com/raleigh2012/bracket/league_of_legends 2012 MLG Raleigh League of Legends Brackets] ''majorleaguegaming.com''</ref><ref>[http://tournaments.leagueoflegends.com/s2-na-regionals#tournament-bracket Official Season 2 NA Regionals Brackets] ''tournaments.leagueoflegends.com''</ref><ref>[http://www.majorleaguegaming.com/news/an-important-message-regarding-mlg-summer-championship-league-of-legends Officially disqualified from MLG Summer Championship]</ref>
+
+===Season 3===
+Due to their top three finish at the [[Season_2/Regional_Finals_-_Seattle|Season 2 North American Regionals]], Dignitas qualified to compete in Riot's new professional league, [[Riot League Championship Series/North America/Season 3|Season 3 League Championship Series]], facing off in a 10 week competition against eight of the continent's best teams and players. Dignitas started off the season in an extremely strong fashion going an undefeated 11-0 in the first half of the it, with scarra being a pivotal playmaker. Throughout the rest of the weeks, the team entered a slump and eventually dropped to third place entering the playoffs. The [[Riot League Championship Series/North America/Season 3/Spring Playoffs|Season 3 LCS Spring Playoffs]] took place in April, with scarra and company going against dark horse [[Good Game University]] in a best of three in the first round. GGU upset the heavily favored Dignitas by winning 2-1. This meant scarra's team was sent to relegation matches to win back their LCS spot at the [[Riot League Championship Series/North America/Season 3/Summer Promotion|Season 3 LCS Summer Promotion]]. In strong performances reminiscent of their early season successes, Team Dignitas was able to conquer [[Team Summon]] 3-1 and ensure their spot in the summer season.
+
+The team also competed in the [[2013 MLG Pro Circuit/Winter/Championship|2013 MLG Winter Championship]], participating in the international exhibition. Dignitas went against top European contender [[Gambit Gaming]], but was unable to take a game off the Russian players, losing 2-0.
+
+===NA LCS All Stars===
+In April 2013, scarra was publicly voted as the NA LCS mid-lane All-Star with over 50% of the vote, allowing him to play for the [[North America LCS]] team and compete in [[All-Star Shanghai 2013]] against other regions' All-Star teams. Coming into the event, North America was viewed as one of the weakest teams attending. Their first match was against the [[China LPL]] All Stars, and despite solid performances, the NA LCS was unable to take a game, losing 2-0. They went on to face their sibling LCS team, the [[Europe LCS]] All-Stars, and in an intense and exciting two games, scarra with his teammates won 2-0. Winning against Europe placed them versus heavy favorite [[Korea Champions|Korean OGN Champions]], where they were handily eliminated 2-0. Scarra took home to the states his experience learned in the hectic international event.<ref>[http://www.team-dignitas.net/articles/blogs/League-of-Legends/3424/LCS-All-Stars-A-Jade-Reflection/ LCS All Stars: A Jade Reflection]</ref>
+
+===2015 Preseason===
+On December 10, CLG was fined $10,000 by Riot after being found guilty of poaching [[Scarra]] from [[Dignitas]]. Additionally, Scarra would be prohibited from serving the position of being CLG's head coach for the first three weeks of the spring LCS, and CLG would have to find a different head coach to fill that role for that period of time.<ref>[http://na.lolesports.com/articles/competitive-ruling-counter-logic-gaming Competitive Ruling: Counter Logic Gaming] ''lolesports.com''</ref> Scarra coached CLG for the last 6 weeks of the [[Riot League Championship Series/North America/2015 Season/Spring Season|NA LCS Summer Split]], and the team finished in third place with a 12-6 record. After a sixth-place [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] finish, scarra left the team. He played for [[CLG Black]] in the [[2015 NA Challenger Series/Summer Qualifier|summer season qualifier]], but after defeating [[Maelstrom]], they were forced to switch out starting AD carry [[Stixxay]] for [[Frost (Parsa Baghai)|Frost]] and then lost to both [[Cloud9 Tempest]] and [[Magnetic]], missing out on the [[2015 NA Challenger Series/Summer Season|NACS summer season]].
+
+== Trivia ==
+* Known for the quote, "His team are here tomorrow, big?"
+** The original phrase is "Your team are have tomorrow, big?"<ref>[http://www.youtube.com/watch?v=TNPJ3r0ghfI dignitas`scarra meets Carmac, not famous Uszat] ''youtube.com''</ref> but the community has adopted the "here" version
+** At IEM New York, Carmac, playing a character he calls "Uszat," asked Scarra this nonsensical question in a thick eastern European accent, pretending to not understand English. HotShotGG was in on the joke.
+* He is a former chess player.
+* His favorite champion is {{ci|Katarina}}.<ref>[http://www.youtube.com/watch?v=UsifOwVcvVY League of Legends - Pro Player Pick: Scarra Picks Katarina] ''youtube.com''</ref>
+** He is known for playing her in solo queue as well as competitively and is also known for the phrase "Getting the reset", referring to Katarina's Voracity passive.
+* On [[Beyond the Rift (Talk Show)|Beyond The Rift]], he later said that his favorite champion is {{ci|Lee Sin}}, and plays him whenever the champion is up and he's playing jungle.
+* Majored in Economics at at [[wikipedia:en:Texas A&M University|Texas A&M University]].<ref>[http://www.ivylol.com/users/view/id:1279 IvyLoL Summoner Profile: scarra] ''ivylol.com''</ref>
+* His commentaries on stream are popularly considered informative and helpful.
+* Part of the emo subculture in middle school, William would use screen names such as "Scarred4Lyfe" for games. Growing past the stage, William changed his gamer handle to "Scarred", but decided the connotations were still too negative. He subtituted the suffix -ed with -a, resulting in "scarra", which he has been known as since.<ref name="twitch1">[http://www.twitch.tv/archive/archive_popout?id=327593829 Stream] twitch.tv</ref><ref>[http://www.youtube.com/watch?v=WNpK76KUZkM/ How a pro player gets his name] ''youtube.com''</ref>
+* The "Pris" from his alternate ID "Priscent" is a reference to the popular MMORPG "[[wikipedia:en:Priston Tale|Priston Tale]]". William was inspired to add the "cent" to his alternate ID after pulling a coin out of his pocket.<ref name="twitch1"/>
+*scarra admits to playing worse when he doesn't empty his pockets during a state of nervousness.
+* Dislikes top lane a lot for its unpredictability and snowball potential
+* The [http://vip.aersia.net/vip.swf playlist] that he streams with consists of classic and contemporary video game soundtracks. 
+* His current [http://grooveshark.com/#!/playlist/Epic+Gaming+Music/66513679 playlist] consists of TV and movie soundtracks and video game music.
+* scarra is also infamous for his Meta-Breaking AP {{ci|Soraka}} Mid (using whom he was once able to achieve a Quadra-kill).
+* Brushes nicknamed "scarra brush" after failing to ward over walls was caught on stream and highlighted.<ref>[http://www.youtube.com/watch?v=MCisMmgkcgk Scarra #1 Warder NA]</ref>
+* At the age of seven, Scarra was able to make a nine-year-old kid cry when he beat him in Pokemon Trading Card Game using his Magikarp deck.
+* Dislikes professional wrestling such as WWF/WWE.
+* Was Dignitas' representative in the Riot/Studio Mir ''[[Road to the Cup]]'' anime cinematic. {{ci|Gragas}} was his empowering champion, in reference to the Drunk Scarra parody.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

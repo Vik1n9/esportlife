@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Naul&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.042Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Naul」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Naul
+|name=Võ Thành Luân
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1998
+|birth_date_month=July
+|birth_date_day=27
+|favchamp=Syndra
+|favchamp2=Orianna
+|checkbox1=No
+|compID1=Hafa
+|checkboxComp=No
+|ids='''KR:''' bounwkaak, kuteo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.nimo.tv/dblnaul
+|facebook=https://www.facebook.com/Naulll
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Hafa'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=269 Hafa
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Naul''' is his given name (Luân) reversed.
+* His name (Võ Thành Luân) is very similar to [[CBL]]'s name (Nguyễn Võ Thành Luân).
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+<!-- List any interviews with the player. Make sure the list follows the order of oldest interviews at the top, newest at the bottom. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}
+
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

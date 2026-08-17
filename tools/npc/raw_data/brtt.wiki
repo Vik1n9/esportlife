@@ -1,0 +1,131 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=BrTT&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.323Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「brTT」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=brTT
+|name=Felipe Gonçalves da Rocha
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Americas
+|birth_date_year=1991
+|birth_date_month=February
+|birth_date_day=19
+|favchamp=Draven
+|favchamp2=Vayne
+|favchamp3=Twitch
+|favchamp4=Kalista
+|checkbox1=No
+|compID1=BrTT RX
+|checkboxComp=No
+|ids='''BR''': Xdxdxd#BR2 <br>'''EUW:''' 40 years trapper<br>'''KR''': brttxd#LOL
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/brtt
+|facebook=https://www.facebook.com/felipebrTT
+|twitter=brttOficial
+|instagram=brttoficial
+|youtube=https://www.youtube.com/c/Oquequehouve
+|lolpros=https://br.lolpros.gg/player/brtt
+|deeplol=https://www.deeplol.gg/pro/Brtt
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Jungler
+}}
+==Biography==
+'''brTT''' is from [[wikipedia:en:Rio de Janeiro|Rio de Janeiro]], Brazil. He began frequenting LAN houses in Vila da Penha, a neighborhood in the North Zone of Rio de Janeiro, following his older brother, Leandro. There, he was the youngest and competed against older players, already displaying his provocative side—a trait he carried into his professional career. Following his brother's steps, he competed in amateur [[wikipedia:en:Counter-Strike|Counter-Strike]] tournaments and also developed an interest in [[wikipedia:en:Warcraft III|Warcraft III]], where he discovered the mod Defense of the Ancients (DotA), which later became a standalone game. He competed in both DotA and Counter-Strike, but ultimately decided to focus solely on DotA, believing that specializing would help him perform at his best. Playing DotA, he participated in his first international competition in San Jose, USA, in 2007, and later competed in France, Sweden, and Germany, joining CNB e-Sports Club in 2010. Around that time, he also began streaming games from his computer and monetizing his content. However, the low income from DotA was unsatisfactory, so in 2012, he accepted an invitation from Gabriel "[[MiT]]" Santos, then captain of paiN Gaming, and joined their League of Legends team, leveraging the similarities between the games and the higher earning potential in League of Legends.
+
+===2014 Season===
+On November 25, 2014 brTT announced that since he had always wanted to play another role, and teammate [[Rafes]] had formerly been Keyd's AD carry, he and Rafes would be swapping roles for two weeks: brTT to jungle and Rafes to AD carry. After two weeks they would reevaluate.<ref>[https://www.facebook.com/felipebrTT/posts/756903811045766 brTT's Facebook Post (Portuguese)] ''facebook.com''</ref> brTT ended up leaving the team in December, and then in January 2015 he rejoined [[paiN Gaming]].<ref>[https://www.facebook.com/video.php?v=942240399121846 Paingaming's Facebook Post (Portuguese)] ''facebook.com''</ref>
+
+===2015 Season===
+At Worlds, paiN were seeded into Group A along with [[Flash Wolves]], [[KOO Tigers]], and [[Counter Logic Gaming]]. They picked up two wins in the group, against eventual group winners Flash Wolves in the first week and then against CLG in the second week, and their 2-4 overall record and 1-1 head-to-head with CLG left them tied for third place, not advancing from groups. Despite their immediate elimination, paiN's group stage run was seen as a major success: they were the first Wildcard team to win more than one game at a World Championship and also the first Wildcard team to finish higher than sole possession of last place in their group. Additionally, they looked good in some of their losses: their second game against Flash Wolves lasted 52 minutes and could have gone either way at multiple points.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* His favorite champion is {{ci|Draven}}.
+** He is known for having a personality similar to {{ci|Draven}}.
+* Famous for playing AD {{ci|Kennen}} in various games.
+* He didn't like to play {{ci|Graves}} in the botlane.
+* Portrayed as {{ci|Draven}} in the CBLoL 2015 official wallpaper.
+* Has tattoos of {{ci|Draven}}'s axes on his forearms, {{ci|Kayle}} on his back<ref>[https://www.youtube.com/watch?v=yRUooAR9Sb0 League of Legends: Respect my tattoo #2 - YouTube]</ref><ref>[https://twitter.com/IEM/status/309322312153436160 paiN Gaming member brTT showing off his Kayle tattoo]</ref>, Blood Moon {{ci|Kalista}} on his right arm/shoulder<ref>[https://www.facebook.com/felipebrTT/photos/pb.269614676441351.-2207520000.1438780608./879857095417103/?type=1 brTT's Facebook Post (Portuguese)] ''facebook.com''</ref>, and {{ci|Twitch}}'s head on his neck.
+* He made a tattoo under his right eye with dashes representing each CBLOL title he won.
+* Got featured as {{ci|draven}} in the [[Worlds 2021]] theme music video, '''Burn it All Down'''. <ref>[https://maisesports.com.br/worlds-2021-brtt-fnb-gruntar-schaeppi-sao-homenageados-em-clipe-da-musica-tema/ Worlds 2021: brTT, Robo, FNB, Gruntar e Schaeppi ganham referências no clipe da música tema]''maisesports.com.br''</ref>
+* Initially showed bad plays with {{ci|Kalista}}, and got an infamous remark by [[Dexterity Team]]'s [[Rellik (André Guerra)|Rellik]] during the pick/ban phase of a game ("brTT's famous Kalista"). brTT ended up surprising Dexterity with good plays, and Kalista became one of his trademark champions since then.<ref>[https://www.youtube.com/watch?v=LyC9kvRg9SI CBLOL: ‘‘A famosa Kalista do brTT’’ e Linda jogada do brTT. (Portuguese/Video)] ''youtube.com''</ref>
+* Known for frequently shouting on stream, made catchphrases such as ''"Que que houve!"'' (Portuguese for "What happened?") and ''"Rexpeita!"'' (Portuguese for "Respect!" with the Carioca accent). The latter was added to {{ci|Twitch}}'s Brazilian Portuguese voiceover after its rework.
+* His '''Kings Lendas''' team name comes from a pun with [[EDward Gaming]] and a moaning sound he often did after bad plays in his competitive days in [[paiN Gaming]], "Éan".
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* Usually played [[wikipedia:en:osu!|osu!]] while waiting in soloqueue (image in annex).<ref>[https://i.imgur.com/G7OT4Rw.jpeg OSU!: Beatmap Listing - PaiN brTT Razer]</ref>
+* Has his own fashion brand, named "Rexpeita".
+* His nickname means '''Barata''' (Roach).
+* Used to play Counter Strike 1.6 competitively.
+* Is a former DotA player from the paiN Gaming Squad along with [[KINGRD]].
+* Has one of the biggests fanbases in Brazil.
+* He is often referred to as "Pai" (Dad) by his supporters.
+* Shortened his summoner name to just "TT" for the [[All-Star Los Angeles 2017]], so it would form his entire name when combined with the team prefix.
+* In championships, brTT celebrates with great cries after making good plays with his team.
+* Once decided to leave paiN to expand his horizons, knowing he wouldn't learning anything more from paiN.
+* He was featured in the Brazilian rapper Alva's rap single [https://www.youtube.com/watch?v=7w8NQKStM9Q Flex]. The song's lyrics even include some of LoL's champions, such as {{ci|Ashe}} and {{ci|Jhin}}.
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* He was once considered the best {{ci|Draven}} in the world, according to ELOBUFF.NET.<ref>[http://www.sapofuzzy.com.br/brtt/category/article_en.php?id=1/ brTT the best Draven of the world - EloBuff]</ref>
+* Was the first professional League of Legends player to have the ''verified'' stamp  on Facebook.
+* Is the second biggest winner in [[CBLOL]] history, currently only surpassed by [[Robo]] by one title and tied with [[Tinowns]] in six titles. 
+** Fun enough, brTT's last 3 titles were with '''Robo''', and '''Robo''''s first 3 titles were with '''brTT'''.
+|-|
+Statistics=
+=== Statistics ===
+* The 2nd player to reach 1000 kills in CBLoL after [[micaO]].
+|-|
+Titles and Awards=
+=== Titles ===
+* 6x CBLOL (2013, 2014, 2015.2, 2017.1, 2019.2, 2021.1)
+* 1x Rift Rivals (2017)
+* 1x Go4Gold Arena (CCXP 2014)
+* 1x X5 Mega Arena (2014.1)
+* 1x Selecter Cup (2014)
+=== Individual Awards ===
+* 1x Best Play (CBLOL Awards 2019)
+* 1x Best ADC (CBLOL Awards 2019)
+* 1x Fan-Favorite Player (CBLOL Awards 2019)
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

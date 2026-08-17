@@ -1,0 +1,61 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=ApeX%20R%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.802Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「ApeX R Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|region=Japan
+|isdisbanded=yes
+|name= ApeX R Gaming
+|orgcountry= Japan
+|country= Japan
+|image=ApeX R Gaminglogo square.png
+|twitter= apexrgg
+|created= 2014-12
+|disbanded= 2015-09-12
+|rosterphoto=APG Roster.jpg
+}}{{TOCRWI}}
+'''ApeX R Gaming''' was a Japanese team.
+
+== History ==
+ApeX R Gaming won the [[2015 League of Legends Japan League/Season 2/Survival Match|2015 LJL Season 2 Survival]] and qualified to the [[2015 League of Legends Japan League/Season 2|2015 LJL Season 2]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|newteam=yes|staff=yes}}
+{{listplayersp|Numa|jp|Keita Katanuma|'''Manager'''|newteam=none}}
+{{listplayersp|MiLK|jp|Sana Inoue|'''Assistant Manager'''|newteam=none}}
+{{Listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+<gallery>
+AR logo.png|AR logo
+</gallery>
+
+== Highlight Videos ==
+===2015===
+* May 25, [https://www.youtube.com/watch?v=wI7eT6K2eIs <nowiki>ApeX R Gaming Highlight for LJLCT Season2</nowiki>] (2m30s)
+
+==Interviews==
+===2015===
+* July 2, [https://www.youtube.com/watch?v=zgcjR8Ash58 (EN) 2015 S2 Apex R Gaming Interview] ''with LJ LEAGUE Official Channel'' (Japanese)(English sub)
+
+==Media==
+{{TeamMedia}}
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />

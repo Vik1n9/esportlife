@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Fzzf&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.082Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Fzzf」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=fzzf
+|name=Feng Zhuo-Jun
+|nativename=冯卓君
+|namealphabet=Hanzi
+|image=OB fzzf Legend Cup Season 2.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|birth_date_year=1991
+|birth_date_month=July
+|birth_date_day=24
+|favchamp=Blitzcrank
+|favchamp2=Sona
+|favchamp3=Thresh
+|favchamp4=Leona
+|checkbox1=No
+|checkboxComp=No
+|ids=EDG丶Fzzf, 追溯灬那流年, WEGIGABYTEFzzf, givemesupport1 (KR), Damon, supp0rtgod
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|fanpage=http://t.qq.com/fzj724
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=卷毛
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''FZZF''' is an acronym of his Chinese ID "风中追风" (Fēng zhōng zhuī fēng), which means "Chasing Wind."
+* Has the nickname "Curly Hair" due to the fact he had curly hair earlier in his gaming career.
+* Was once considered one of the best two supports in China alongside [[lovelin]].
+* Rejected a female fan's confession in LPL because he "wants to focus on gaming first."
+* Known for playing unconventional supports such as {{ci|Elise}}, {{ci|Syndra}}, and even {{ci|Twisted Fate}}.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Fzzf.jpg|WE Fzzf
+WE_fzzf.jpg|WE Fzzf
+EDG FZZF Summer2014.jpg|EDG Fzzf 2014 Summer
+EDG Fzzf 2014 WCS.jpg|EDG Fzzf 2014 Worlds
+LPL AS FZZF 2019.png|FZZF 2019 LPL All-Stars
+BIG fzzf Legend Cup 2024.png|BIG fzzf Legend Cup Season 1
+OB fzzf Legend Cup Season 2.png|OB fzzf Legend Cup Season 2
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Angel%20(Xiang%20Tao)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.381Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Angel (Chinese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Angel
+|name=Xiang Tao
+|nativename=向涛
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=September
+|birth_date_day=16
+|checkbox1=No
+|compID1=Angelo
+|checkboxComp=No
+|ids='''CN:'''  Ange1z<br>浮生若欧鞋竖兴怀品<br>114759<br>'''KR:''' zhong men dui ju
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/131393
+|weibo=https://www.weibo.com/n/Angelzz101
+|deeplol=https://www.deeplol.gg/pro/Angel-Xiang_Tao
+|dpmlol=https://dpm.lol/pro/Angel
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Angelo'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Top
+}}
+== Biography ==
+
+== Trivia ==
+* First reached challenger on the Chinese server at the age of 12.
+* Is the son of Xiang Ben-Mi (向本密), one of the founders and shareholder of the restaurant chain '''Hutaoli Music Restaurant & Bar''' in China.
+=== Statistics ===
+* Reached 1000 kills in the LPL on June 10, 2022.
+** The 31st player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on July 15, 2024.
+** The 24th player to reach 1500 kills in the LPL.
+* Reached 500 games in the LPL on February 11, 2025
+** The 27th player to reach 500 games in the LPL.
+* Reached 3000 assists in the LPL on May 10, 2025.
+** Was the 37th player to reach 3000 assists in the LPL.
+
+===Individual Awards===
+* LPL 3rd All-Pro Team x1 (Spring 2024)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

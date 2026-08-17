@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Selfmade&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.244Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Selfmade」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Selfmade
+|name=Oskar Boderek
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Poland
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=December
+|birth_date_day=15
+|favchamp=Nidalee
+|favchamp2=Kha'Zix
+|favchamp3=Elise
+|favchamp4=Evelynn
+|checkbox1=No
+|compID1=SelfMadeMan
+|checkboxComp=No
+|ids='''EUW''': six beavers, 2021McDonalds69<br>'''CN:''' whiter0se<br>'''KR''':  jjdr
+|checkboxAutoTeams=Yes
+|team=Fnatic
+|checkbox2=No
+|role=Jungler
+|teamhist1=ThunderX3 Baskonia
+|teamdate1=Apr 2017 - Aug 2017
+|teamrole1=Jungler
+|issub1=No
+|istrainee1=No
+|teamhist2=MAD Lions E.C.
+|teamdate2=Aug 2017 - Dec 2018
+|teamrole2=Jungler
+|issub2=No
+|istrainee2=No
+|teamhist3=SK Gaming
+|teamdate3=Dec 2018 - Nov 2019
+|teamrole3=Jungler
+|issub3=No
+|istrainee3=No
+|teamhist4=Fnatic
+|teamdate4=Nov 2019 - ''Present''
+|teamrole4=Jungler
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lol_selfmade
+|twitter=selfmade_LoL
+|instagram=selfmade_lol
+|lolpros=https://lolpros.gg/player/selfmade/
+|deeplol=https://www.deeplol.gg/pro/Selfmade
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Was a well-known member of the infamous European club '''L9'''.
+* Received seven Player of the Game awards in the [[LEC/2019 Season/Spring Season|LEC 2019 Spring]], more than any other player, despite his team winning only nine games overall. 
+* Memed for building {{ii|Infinity Edge}} unsuccessfully on {{ci|Rek'Sai}} in the deciding game of the first round of the [[LEC/2019 Season/Spring Playoffs|LEC 2019 Spring Playoffs]].
+* Reached rank 1 on the EUW ladder in June 2020.
+
+=== Individual Awards ===
+* 2x EU 2nd All Pro Team (Spring 2019, Spring 2020)
+* EU Rookie Of The Split (Spring 2019)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

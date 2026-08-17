@@ -1,0 +1,74 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lyonz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.876Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lyonz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Lyonz
+|name=Pedro&nbsp;Luis Peralta
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=North America
+|birth_date_year=2001
+|birth_date_month=November
+|birth_date_day=29
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' manu creatore#EU1 <br> '''KR:''' el oxxo merlo <br> '''NA:''' guxixgankk #LYON
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ellyonz
+|twitter=ellyonz1
+|instagram=pedro_peralta_01
+|lolpros=https://lolpros.gg/player/lyonz
+|deeplol=https://www.deeplol.gg/pro/Lyonz
+|dpmlol=https://dpm.lol/pro/Lyonz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Bot
+}}
+== Biography ==
+
+== Trivia ==
+* Due to visa issues, he had to play remotely during the [[LTA North 2025 Split 1]], and a cardboard print of him was used in his place in the studio.<ref>[https://x.com/LyonLATAM/status/1883591558207033401 Lyon Gaming's X Post] ''x.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

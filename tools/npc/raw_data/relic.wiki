@@ -1,0 +1,104 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Relic&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.822Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Relic」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=Yes
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Relic
+|name=José Pombo Ribeiro
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Venezuela
+|residency=Latin America
+|birth_date_year=1994
+|birth_date_month=October
+|birth_date_day=11
+|favchamp=Irelia
+|checkbox1=No
+|checkboxComp=No
+|ids='''LAN:''' YUUMI ONLY, FBGG Reliclol, FB RELICLOL, Quien lo diria
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/relic_lol
+|facebook=https://www.facebook.com/Reliclol
+|twitter=Relic_LoL
+|instagram=relic_lol
+|youtube=https://www.youtube.com/channel/UCiTMjGeLLkMQ9HMRrTMFp0Q
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|residency-prev2=Europe
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Analyst
+|prev2=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+José Pombo Ribeiro was born in Caracas, Venezuela.
+
+== Trivia ==
+* His favorite champion is {{ci|Irelia}}.
+* He likes [[CuVee]] as a player.
+* After fulfilling his duties as General Manager, he became a pro player for [[INFINITY]] in ''Teamfight Tactics'' since 2023.
+* With his win at the TFT Remix Rumble LATAM Regional Finals, he became the first player to win a major regional championship in two different Riot Games' titles.
+* At the same time, he became the first person to qualify for a World Championship of two Riot esports scenes, in both ''League of Legends'' and ''Teamfight Tactics''.
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Notable Events ==
+* [[2022_Season_World_Championship|Worlds 2022]] - Invited
+* [[Worlds 2021]]
+* [[LLA/2022 Season/Opening Promotion|LLA 2022 Opening Promotion]]
+* [[LLA/2021_Season/Closing_Playoffs|LLA 2021 Closing Playoffs]]
+* [[LLA/2021 Season/Closing Season|LLA 2021 Closing]]
+* [[MSI 2021]]
+* [[LLA/2021 Season/Opening Playoffs|LLA 2021 Opening Playoffs]]
+* [[LLA/2021 Season/Opening Season|LLA 2021 Opening]]
+* [[All-Star 2020]]
+* [[2020 Season World Championship/Main Event|Worlds 2020 Main Event]]
+* [[2020 Season World Championship/Play-In|Worlds 2020 Play-In]]
+* [[LLA/2020 Season/Closing Playoffs|LLA 2020 Closing Playoffs]]
+* [[LLA/2020 Season/Closing Season|LLA 2020 Closing]]
+* [[LLA/2020 Season/Opening Playoffs|LLA 2020 Opening Playoffs]]
+* [[LLA/2020 Season/Opening Season|LLA 2020 Opening]]
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

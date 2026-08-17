@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=SnowFlower&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.920Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「SnowFlower」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=SnowFlower
+|name=No Hoi-jong
+|nativename=노회종
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=February
+|birth_date_day=24
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' SUP WoIf<br>'''KR:''' JAG SnowFlower, 서포터할줄알아요, 3312564_DEL,  눈꽃아닙니다<br>'''CN:''' IlIlIIllIl
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/shghlwhddla
+|facebook=https://www.facebook.com/shghlwhddla
+|twitter=lolSnowflower97
+|youtube=https://youtube.com/channel/UCEMZbgkOSNTpvKQ5AoP1Kdw
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+===2015 Season===
+No "'''SnowFlower'''" Hoi-jong joined [[Anarchy]] in 2015 as their new support. They played in [[Challengers Korea Spring 2015/Series 1|Challenger Korea Spring 2015 Series 1]] and won with a 3-2 victory over [[Winners]]. Anarchy didn't fare so well in the [[Challengers Korea Spring 2015/Series 2|Challenger Korea Spring 2015 Series 2]] where they lost 2-0 in the first round to [[Hungry]]. They still earned enough points to qualify for the [[Champions Summer 2015/Promotion|Champions Summer 2015 Promotion]] where they qualified for [[SBENU Champions Summer 2015]] after going 1-1 against [[Incredible Miracle]] and Winners. Anarchy placed eighth during the regular season and missed playoffs but they qualified for the next season of LCK. 
+
+===2016 Season===
+During preseason, Rebels Anarchy played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the quarterfinals to [[ESC Ever|Ever]]. On December 29, Rebels Anarchy renamed to the [[Afreeca Freecs]].
+
+The Afreeca Freecs started the [[LCK/2016 Season/Spring Season|2016 LCK Spring Split]] as a bottom three team, losing many of their sets during the first round robin. This changed after their 2-1 upset over [[SK Telecom T1]] in Week 6, which marked the start of a streak of wins that resulted in an exceptional second round robin where they went 7-2 in sets and cliched the final, fifth playoff spot in what many labeled as a "Cinderella Story." Unfortunately, during the first round of the [[LCK/2016 Season/Spring Playoffs|2016 LCK Spring Playoffs]], they lost 2-0 to the [[Jin Air Green Wings]], giving them fifth place overall for the spring split.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], the Afreeca Freecs went 8-10 in series. Notably, they beat reigning LCK champions [[SK Telecom T1]] 2-0 in series perfectly with a 4-0 game score. This was enough to earn them fifth place in the regular season and a spot in the first round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]]. In the first round, the Freecs met [[Samsung Galaxy]], who beat them 2-0, earning the Freecs fifth place overall for the split. Their accumulated points earned them a spot in the first round of the [[2016 Season Korea Regional Finals]], where they beat the [[Jin Air Green Wings]] 3-2 before losing to [[Samsung Galaxy]] 3-1 in a rematch.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,7 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jelly&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.665Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jelly」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Jelly (Son Ho-gyeong) 
+|player2=Jelly (Gwak Seok-ho)
+|player3=Jelly (Sebastian Vican)
+}}

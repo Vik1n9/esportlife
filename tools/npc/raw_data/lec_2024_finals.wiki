@@ -1,0 +1,247 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2024%20Season%2FSeason%20Finals&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.757Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2024/Finals」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2024}}
+{{Infobox Tournament
+|name=LEC 2024 Season Finals
+|image= LEC 2023.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|address={{flag|de}} Germany
+|prizepool= € 160,000
+|format=
+|sdate=2024-08-10
+|edate=2024-09-01
+|rulebook=Archive:Official_Rulebooks/Riot/LEC/2024
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EMEA
+|split=Finals
+|split_number=4
+|CM_StandardName=LEC 2024 Season Finals
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=Yes
+|CM_IsOfficial=Yes
+|CM_Year=2024
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://eu.lolesports.com/en
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ
+|closest_timezone=CET
+}}{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2024 Season Finals''' is the culmination of the LEC 2024 season. It is the second season finals following the changed format. The top 6 teams from across the season will fight for the championship in a double elimination bracket and qualification to [[2024 Season World Championship|Worlds 2024]]. }}
+
+==Overview==
+=== Format ===
+* 6 teams participate
+** [[LEC/2024 Season/Winter Playoffs|Winter]] and [[LEC/2024 Season/Spring Playoffs|Spring]] Champions, and the top 3 [[LEC/2024 Season/Summer Playoffs|Summer]] Split Teams
+** The Teams with the most [[LEC/2024 Season/Championship Points|Championship Points]], until all six slots are filled
+* Double elimination bracket
+* Matches are best of five
+* Top 2 teams qualify for the [[2024 Season World Championship]]
+
+=== Prize Pool ===
+{{TournamentResults
+|prize=yes
+|qual=yes
+|prizeunit=EUR
+|totalprize=160,000
+|usdrate=
+|qualwidth=180
+|{{TournamentResults/Line|place=1|prize=65,000|qual=Worlds 2024|quallink=2024 Season World Championship|team=G2|lastresult=3 : 1|lastopponent=FNC|lastoutcome=w}}
+|{{TournamentResults/Line|place=2|prize=40,000|qual=Worlds 2024|quallink=2024 Season World Championship|team=FNC|lastresult=1 : 3|lastopponent=G2|lastoutcome=l}}
+|{{TournamentResults/Line|place=3|prize=25,000|qual=Worlds 2024 Play-In|quallink=2024 Season World Championship|team=MAD KOI|lastresult=1 : 3|lastopponent=G2|lastoutcome=l|date=2024-08-31}}
+|{{TournamentResults/Line|place=4|prize=15,000|team=BDS|lastresult=2 : 3|lastopponent=G2|lastoutcome=l|date=2024-08-23}}
+|{{TournamentResults/Line|place=5|prize=7,500|team=SK|lastresult=0 : 3|lastopponent=BDS|lastoutcome=l|date=2024-08-17}}
+|{{TournamentResults/Line|place=6|prize=7,500|team=GIANTX|lastresult=0 : 3|lastopponent=G2|lastoutcome=l|date=2024-08-18}}
+|conversiondate=|conversionsource=xe}}
+:''Note: The [[LEC/2024 Season/Summer Playoffs|LEC 2024 Summer Playoffs]] winner is guaranteed to qualify to the [[2024 Season World Championship]] as EMEA's lowest seed. If this team finishes in the Top 2, their previous seeding will be transferred to the best non-qualified team.''
+
+==Participants==
+{{RostersStart|maxteams=3
+|showrosterpage=yes
+}}
+{{Box|start}}
+{{TeamRoster|team=G2
+|seed=[[LEC/2024 Season/Winter Playoffs|Winter]] / [[LEC/2024 Season/Spring Playoffs|Spring]]<br>[[LEC/2024 Season/Summer Playoffs|Summer #1]]
+|{{TeamRoster/Line|player=BrokenBlade |flag=de|role=t}}
+|{{TeamRoster/Line|player=Yike |flag=se|role=j}}
+|{{TeamRoster/Line|player=Caps |flag=dk|role=m}}
+|{{TeamRoster/Line|player=Hans Sama |flag=fr|role=a}}
+|{{TeamRoster/Line|player=Mikyx |flag=si|role=s}}
+|{{TeamRoster/Line|player=Dylan Falco |flag=ca|role=c}}
+|{{TeamRoster/Line|player=Rodrigo |flag=portugal|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FNC
+|seed=<br>[[LEC/2024 Season/Summer Playoffs|Summer #2]]
+|{{TeamRoster/Line|player=Oscarinin |flag=es|role=t}}
+|{{TeamRoster/Line|player=Razork |flag=es|role=j}}
+|{{TeamRoster/Line|player=Humanoid |flag=cz|role=m}}
+|{{TeamRoster/Line|player=Noah (Oh Hyeon-taek) |flag=kr|role=a}}
+|{{TeamRoster/Line|player=Jun (Yoon Se-jun) |flag=kr|role=s}}
+|{{TeamRoster/Line|player=Nightshare |flag=cz|role=c}}
+|{{TeamRoster/Line|player=Gaax |flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|seed=<br>[[LEC/2024 Season/Summer Playoffs|Summer #3]]
+|{{TeamRoster/Line|player=Adam (Adam Maanane) |flag=fr|role=t}}
+|{{TeamRoster/Line|player=Sheo |flag=fr|role=j}}
+|{{TeamRoster/Line|player=nuc |flag=fr|role=m}}
+|{{TeamRoster/Line|player=Ice (Yoon Sang-hoon) |flag=kr|role=a}}
+|{{TeamRoster/Line|player=Labrov |flag=gr|role=s}}
+|{{TeamRoster/Line|player=Striker (Yanis Kella) |flag=fr|role=c}}
+|{{TeamRoster/Line|player=MenQ |flag=pl|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team= MAD KOI
+|seed=[[LEC/2024 Season/Championship Points|Champ. Points #4]]
+|{{TeamRoster/Line|player=Myrwn |flag=es|role=t}}
+|{{TeamRoster/Line|player=Elyoya |flag=es|role=j}}
+|{{TeamRoster/Line|player=Fresskowy |flag=pl|role=m}}
+|{{TeamRoster/Line|player=Supa |flag=es|role=a}}
+|{{TeamRoster/Line|player=Alvaro (Álvaro Fernández) |flag=es|role=s}}
+|{{TeamRoster/Line|player=Melzhet |flag=es|role=c}}
+|{{TeamRoster/Line|player=Zeph |flag=fr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK Gaming|footnoteteamn=1
+|seed=[[LEC/2024 Season/Championship Points|Champ. Points #5]]
+|{{TeamRoster/Line|player=Irrelevant |flag=de|role=t}}
+|{{TeamRoster/Line|player=ISMA |flag=fr|role=j}}
+|{{TeamRoster/Line|player=Nisqy |flag=be|role=m}}
+|{{TeamRoster/Line|player=Rahel |flag=kr |role=a}}
+|{{TeamRoster/Line|player=Luon |flag=kr|role=s}}
+|{{TeamRoster/Line|player=Swiffer |flag=au|role=c}}
+|{{TeamRoster/Line|player=OWN3R (David Rodriguez de la Torre) |flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=GIANTX|footnoteteamn=1
+|seed=[[LEC/2024 Season/Championship Points|Champ. Points #6]]
+|{{TeamRoster/Line|player=Th3Antonio |flag=es |role=t}}
+|{{TeamRoster/Line|player=Juhan|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Jackies|flag=cz|role=m}}
+|{{TeamRoster/Line|player=Patrik|flag=cz|role=a}}
+|{{TeamRoster/Line|player=IgNar|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kaas|flag=be|role=c}}
+|{{TeamRoster/Line|player=Nico (Nicolas Perez)|flag=fr|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+:''<sup>1</sup> Due to [[G2 Esports]]' victories in the [[LEC/2024 Season/Winter Playoffs|Winter]] and [[LEC/2024 Season/Spring Playoffs|Spring]] Seasons as well as their top 3 finish in the [[LEC/2024 Season/Summer Playoffs|Summer]] Season, the number of teams qualifying through Championship Points increased.''
+
+== Results ==
+{{Bracket|6DE|cargo=yes|show_bestof=yes
+|R4_title=Finals
+|R1M1_cargomatch=Round 1_2
+|R1M2_cargomatch=Round 1_1
+|R1M3_cargomatch=Round 1_4
+|R1M4_cargomatch=Round 1_3
+|R2M3_cargomatch=Round 2_1
+}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with,MVP
+|gamefields=Blue,Red,VODs,ssel
+}}
+
+== Individual Awards ==
+=== "Player of the Series" Standings ===
+{{MVPStandings|queryfrom=series|displaytext=Player of the Series Standings
+|columns=Times
+}}
+
+=== Season Awards ===
+
+== Media ==
+=== Streams ===
+{{Box|start}}
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/polsatgames|lang=pl}}
+* {{stream|url=https://www.twitch.tv/pg_esports_lol|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.twitch.tv/hitpointcz|lang=cz}}
+* {{stream|url=https://www.twitch.tv/gamersloungegr|lang=gr}}
+* {{stream|url=https://www.twitch.tv/riotgamesturkish|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCrPE9FDBnSMX6W5K0-r7K-g|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCjocsYZyDCFfU-KAfM44APg|lang=rs}}
+* {{stream|url=https://www.youtube.com/@GamersLoungeGr|lang=gr}}
+* {{stream|url=https://www.youtube.com/@Lolespor|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://trovo.live/s/LEC/|lang=usuk|display=Trovo}}
+* {{stream|url=https://trovo.live/s/GamersLoungeGr|display=Trovo|lang=gr}}
+* {{stream|url=http://play.afreecatv.com/leclcs|lang=kr|display=AfreecaTV}} <!--24.08.31~24.09.01 + WORLDS 2024 Draw Show-->
+{{Box|end}}
+
+=== Co-streams ===
+
+=== Broadcast Talent ===
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!Round 1-2 / Winners' Bracket Finals
+!Losers' Bracket Semifinal / Finals
+|-
+!{{flag|de}} Berlin, Germany
+!{{flag|de}} Munich, Germany
+|-
+|Riot Games Arena Berlin
+|Olympiahalle München
+|-
+|''Capacity'' - 210
+|''Capacity'' - 15,500
+|-
+|[[File:Riot Games Arena Berlin.jpg|320px]]
+|[[File:Olympiahalle_München.png|320px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|Olympiapark München, Spiridon-Louis-Ring 21,<br>80809 München, Germany
+|}
+
+=== Announcements ===
+* December 6, [https://lolesports.com/article/2024-lec-season-changes-all-you-need-to-know/bltff6a59c97937f0fa 2024 LEC Season Changes: All you need to know]
+
+=== Viewership Statistics ===
+Data sourced from [https://escharts.com/tournaments/lol/lec-season-finals-2024-lol Esports Charts].
+{|class="wikitable"
+! colspan=2 | Peak Viewership
+|-
+! Total
+| 606 193
+|-
+! English Streams
+| 323 663
+|-
+! Twitch.tv Streams
+| 486 154
+|-
+! colspan=2 | Other
+|-
+! Total Time Watched
+| 9 057 280 Hours
+|-
+! Avg Concurrent Viewers
+| 290 608
+|}
+
+=== Additional Content ===
+{{TournamentMedia
+|dates=*,2024-06-01,2024-07-01,2024-08-01,2024-09-01
+|names=,June,July,August,September
+}}
+
+== References ==
+<references/>

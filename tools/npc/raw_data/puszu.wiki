@@ -1,0 +1,145 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Puszu&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:52.726Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「puszu」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Puszu
+|name=Johannes Uibos
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Estonia
+|residency=Europe
+|checkbox-res=No
+|favchamp=Varus
+|favchamp2=Vayne
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/puszu
+|facebook=https://www.facebook.com/FnaticPuszu
+|twitter=FnaticPuszu
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+[[puszu]] is a League of Legends player hailing from Antsla, Estonia.
+
+His first steps into gaming were made at a very young age as he would play Contra 3 and Goal 3. He would then go on to play first-person shooters. He was well ranked online (on clanbase.org) in the first installment of the Call of Duty franchise, which he considers his favorite game to this day. He would also play Counter-Strike (versions 1.5 and 1.6) competitively within Estonia. He would also play Runescape.
+
+Upon being introduced to League of Legends game by one of his Call of Duty teammates in 2010. LoL was his first MOBA experience, but that did not prevent him from instantly liking it and playing it intensively.
+One of the reasons that pulled him into the game was the necessity to use skill to overcome a player matchup. He already liked the PvP aspect of Runescape, but League took it to the next level for him.
+
+A difference he quotes between competitive League of Legends and solo queue is the eventual repercussions of risky actions and the snowball potential from enemy teams.
+
+Puszu qualified to the [[Season 3 World Championship]] with his team [[Fnatic]], finishing 1st in the [[Riot_League_Championship_Series/Europe/Season_3/Summer_Playoffs|Summer Playoffs]].
+
+== Trivia ==
+* The nickname '''"puszu"''' came from his childhood (when he was 3 years old) as his parents would call him that due to his hyper activity. He would use it for gaming.
+* Learned how to speak English while playing ''[[wikipedia:en:Runescape|Runescape]]''.
+* Played in the Mid lane role early in his career. Champions he would use include {{ci|Gragas}}, {{ci|Sion}} and {{ci|Brand}} (the latter for which he gained notoriety in Estonia).
+* His mechanics would allow him to beat most AD carries in solo queue.
+:* He considers the {{ci|Taric}} / {{ci|Sivir}} combination he would run with [[wewillfailer]] as the best combination in solo queue, despite its shortcomings in teamfights.
+* The desire to make his parents and himself proud get him motivated to improve as much as he can.
+* Has a pet cat that he got from one of his friends (who had a cat that gave birth).
+* Was a competitive sprinter in Estonia, netting first place in various national events.
+* He would have pursued either of these if not for League of Legends:
+:* a football career due to his athletic prowess in sprint and his potential in the sport
+:* his father's path, working in Finance
+* Is fond of his mother's cooking, in particular the way she cooks meatloaf, rice, potatoes and chicken wings.
+:*His relocation to Germany made him aware of how true the saying "a mother's cuisine is the best" is.
+* Water is his favorite drink.
+* ''[[wikipedia:en:Dragon Ball Z|Dragon Ball Z]]'', [[wikipedia:en:Bleach (Manga)|Bleach]]'' and ''[[wikipedia:en:Naruto|Naruto]]'' are his favorite anime series.
+:* Would occasionally watch Dragon Ball Z episodes to get going.
+* Wants to be a role model to other people.
+* Within the League of Legends community, looks up to [[xPeke]] personality-wise.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2013
+|name2=2014
+|name3=2016}}
+{{TDRight|tab}}<!--2016-->
+* June 7, [http://www.dailydot.com/esports/best-league-of-legends-players-retired-too-young/ The best League of Legends players who retired too young] ''by Josh Raven on The Daily Dot''
+{{TDRight|tab}}<!--2014-->
+* March 31, [http://www.reddit.com/r/leagueoflegends/comments/21tit4/hi_puszu_ama_ex_fnatic/ Hi, Puszu AMA - ex Fnatic.] ''with Reddit''
+{{TDRight|tab}}<!--2013-->
+* July 12, [http://www.youtube.com/watch?v=lJWuYUFApik Puszu: "This will open many doors for me" (video)] ''with Fnatic''
+* September 16, [http://www.youtube.com/watch?v=1wOlS-uOvuM Interview with sOAZ, Puszu & xPeke (video)] ''with Fnatic''
+* September 21, [http://www.youtube.com/watch?v=KQ_lkrbDdYI LoL Worlds 2013 - Interview with Puszu and Yellowstar (video)] ''with Fnatic''
+* December 25, [http://na.lolesports.com/articles/puszu-discusses-worlds-fnatic-and-his-future Puszu discusses world, Fnatic, and his future] ''with LoL Esports''
+{{TDRight/end}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

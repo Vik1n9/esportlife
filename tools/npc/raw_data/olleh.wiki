@@ -1,0 +1,97 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Olleh&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.796Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Olleh」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Olleh
+|name=Kim Joo-sung
+|nativename=김주성
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=North America
+|birth_date_year=1994
+|birth_date_month=November
+|birth_date_day=27
+|favchamp=Bard
+|favchamp2=Thresh
+|checkbox1=No
+|compID1=ANNA
+|checkboxComp=No
+|ids=HKES Olleh (TW), Sharkbari, KT A Olleh, Padaria Cremosa, ME KOREAN, Let me sup, Tumble Delighted (KR) paiN JJOO, paiN Olleh, JooSungE, Padaria Cremosa (BR), Humble Diligent (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/olleh
+|facebook=https://www.facebook.com/jjoosunge
+|twitter=Olleh
+|instagram=olleh
+|youtube=https://youtube.com/channel/UC4MEnVYIzBzRWHDWEKmWsbA
+|deeplol=https://www.deeplol.gg/pro/Olleh
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''ANNA'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+}}
+==Biography==
+
+===2015 Preseason===
+
+After winning the [[Riot Latin America Cup 2014 - Grand Final|Riot Latin America Cup 2014 Grand Final]], paiN Gaming qualified as the Latin American team for [[IEM Season IX - San Jose|IEM San Jose]]. They attended with a roster consisting of [[Leko]], [[SirT]], [[Kami (Gabriel Bohm Santos)|Kami]], [[Lactea]], and [[Olleh]] and were eliminated in the quarterfinals, losing to [[Cloud9]] 0-2 and tying for fifth place in the tournament with [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]].
+
+===2015 Season===
+
+Olleh joined [[Hong Kong Esports]] in January of 2015. The team placed second in both the [[LMS/2015_Season/Spring_Season|Spring]] and [[LMS/2015_Season/Summer_Season|Summer]] regular season of the LMS. However they only really got close to winning a whole split in the [[LMS/2015_Season/Summer_Playoffs|Summer Playoffs]], losing 0-3 to [[ahq e-Sports Club]] in the finals. In the [[2015 Season Taiwan Regional Finals]] they finished 2nd after being defeated 2-3 by [[Flash Wolves]] and failed to qualify for Worlds.
+
+===2016 Season===
+
+HKE's 2016 season was average as the team floundered in the middle of the pack. They finished 5th in the [[LMS/2016_Season/Spring_Season|Spring Season]] and failed to qualify for playoffs. In the [[LMS/2016_Season/Summer_Season|Summer Season]] they finished 4th and did qualify for the playoffs but failed to go far and were knocked out after an 0-3 loss to [[ahq e-Sports Club]]. Their [[2016 Season Taiwan Regional Finals]] performance was also a similar story as they were once again defeated 0-3 by Ahq and failed to make it to Worlds. Olleh left the team in September of 2016 and in December joined [[Immortals]] over in the NA LCS.
+
+===2017 Season===
+
+In the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]] Immortals was for the most part a middle of the pack team. Although they showed promise they could never break into the Top 3. The team finished in 7th place, barely missing out on the playoffs. In the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Split]] after bringing in [[SSONG]] as their new coach, Immortals' performance turned around completely and they stayed in the Top 3 throughout the whole regular split. Olleh was praised for his improved play and synergy with his AD Carry [[Cody Sun]]. The team finished the regular season in 2nd place with a 14-4 record with Olleh receiving the Summer Split All-Pro Support award. Their performance in the [[League_Championship_Series/North_America/2017_Season/Summer_Playoffs|Summer Playoffs]] was also excellent as they took down [[Counter Logic Gaming]] 3-0 in the semifinals and became the first team in NA LCS history since 2013 outside of CLG, TSM and C9 to reach the finals. Despite their accomplishment however, they were defeated 1-3 by TSM in the finals and finished 2nd place. Despite the loss they still managed to qualify for the [[2017 Season World Championship]] via championship points. At Worlds Immortals was seeded in Group B along with [[Longzhu Gaming]], [[Fnatic]] and [[GIGABYTE Marines]]. Despite a good 2-1 start in Week 1 they couldn't follow up on it in Week 2 and went 0-3. Having to play a tiebreaker in order to advance forward, Immortals faced Fnatic and lost the game which knocked them out of Worlds. Olleh left Immortals in November of 2017 after the team was not accepted in the newly franchised NA LCS. He then joined [[Team Liquid]] within the same month.
+
+== Trivia ==
+* His original username was Sharkbari.
+* His ID '''Olleh''' is '''Hello''' spelled backwards.
+* He started playing ''League of Legends'' in April 2013.
+* Reached Rank 1 in Solo Ranked in both the Brazilian, Taiwanese and NA server.
+* Known for having the love of Brazilian fans to this day and for having a good friendship with [[Kami (Gabriel Bohm Santos)|Kami]] during the days at [[paiN Gaming]]
+* Infamous for his unprofessional behavior during the days in [[Hong Kong Esports]]. 
+* He intentionally trolled his teammates in multiple LMS matches <ref>http://www.youtube.com/watch?v=98cGj2hDPnQ</ref> in order to force the team to change their jungler [[Dinter]]. <ref>http://www.youtube.com/watch?v=88I4mBYgycw</ref>
+* Criticized by many of his former [[Hong Kong Esports]] teammates for his terrible working attitude.
+* Known for his aggressive roaming playstyle while playing for [[Immortals]].
+* Known for his {{ci|Morgana}} throughout his career, and his {{ci|Tahm Kench}} after joining [[Team Liquid]].
+* Had a difficult working relationship with [[Doublelift]] at times, despite them winning two titles as teammates. 
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

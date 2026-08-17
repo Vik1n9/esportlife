@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Emo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:56.115Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Emo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Emo
+|name=Nguyễn Thái Vinh
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=2005
+|birth_date_month=July
+|birth_date_day=15
+|favchamp=Sylas
+|favchamp2=Taliyah
+|favchamp3=Viktor
+|favchamp4=Akali
+|checkbox1=No
+|compID1=Whis
+|checkboxComp=No
+|ids='''VN:''' good mood #1507 <br> '''EUW:''' eliodangcapvl#Vk5 <br> '''KR:''' hehehihihaha#GB1 <br> '''NA:''' xin chao#1507
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|lolpros=https://lolpros.gg/player/emo
+|deeplol=https://www.deeplol.gg/pro/Emo
+|dpmlol=https://dpm.lol/pro/Emo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Whis'''.
+|checkboxIsSub=No
+|checkbox-res=No
+}}
+== Biography ==
+
+== Trivia ==
+* He is a fan of [[Chovy]]
+* [[Archie (Trần Minh Nhựt)|Archie]] calls him Vân Đình (pronunciation of Vinh Đần) which means Vinh (his name) is stupid and then this name was called by fans to tease him.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

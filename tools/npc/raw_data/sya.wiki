@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Sya&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.342Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Sya」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Sya
+|name=Phan Trung Toàn
+|image=FFQ Sya 2018 Summer.png
+|checkboxAutoImage=No
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=1999
+|birth_date_month=August
+|birth_date_day=13
+|checkbox1=No
+|checkboxComp=No
+|ids=Dream Man (VN),<br>Show You Are (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|youtube=https://youtube.com/channel/UC3p2f5C5Umb7Gfi4htpqScQ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Jungler
+|prev2=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+GAM Sya.png|GAM Sya
+GAM Sya 2018 Spring.png|GAM Sya 2018 Spring
+</gallery>
+
+{{PlayerPageEnd}}

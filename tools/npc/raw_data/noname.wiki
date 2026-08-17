@@ -1,0 +1,69 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=NONAME%20(Zhou%20Qi-Lin)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.765Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「NoName」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=NONAME
+|name=Zhou Qi-Lin
+|nativename=周祺琳
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|favchamp=Lee Sin
+|favchamp2=Elise
+|checkbox1=No
+|compID1=Bug
+|compID2=Kg5
+|checkboxComp=No
+|ids=LMQ Tc NoName
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lmqnoname
+|deeplol=https://www.deeplol.gg/pro/NONAME-Zhou_Qi-Lin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=Before he retired, he was the jungler and team captain of [[LMQ]]. His name was previously stylized '''NoName''' and '''NONAME'''. He was previously known as '''Bug''' and '''Kg5'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|nicknames=无名
+}}
+==Biography==
+On October 21, 2014 it was announced that NoName had decided to leave LMQ along with ackerman and Vasilii, and that negotiations were ongoing with Mor.<ref>http://www.ongamers.com/articles/lmq-announces-departure-of-vasilii-ackerman-noname/1100-2279/</ref> On November 24, NoName announced his retirement.<ref>[http://p.t.qq.com/longweibo/index.php?lid=15957390907649614150 NoName's retirement statement (Chinese)] ''p.t.qq.com'' [https://twitter.com/LMQNoName/status/537534940502425602 English] ''twitter.com''</ref>
+
+== Trivia ==
+* Played professional DoTA before he started playing League.
+* He moved to [[Royal Club Tian Ci]] from [[LGD Gaming]] with transfer fee ¥60,000 {{Abbr|CNY|Chinese Yuan Renminbi}} in March 2013.<ref>[http://games.qq.com/a/20130311/000217.htm LOL首次交易正规化 无名6万身价加盟皇族]''games.qq.com''</ref>
+* He has been the team captain of every single team he has competed with.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

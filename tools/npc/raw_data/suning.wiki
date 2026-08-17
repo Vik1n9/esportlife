@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Suning&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:37.340Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Suning」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=Weibo Gaming
+|name= Suning
+|organization=Suning (Organization)
+|orgcountry= China
+
+|country=
+|region= CN
+|image=SN Gaminglogo square.png
+|analysts= 
+|headcoach= Li "'''[[Dian]]'''" Guo-Peng
+|manager= 
+|captain= 
+|weibo= http://weibo.com/tbgclub
+|youtube=
+|facebook= 
+|twitter= suning_gaming
+|irc=
+|sponsor=[https://www.oneplus.com/ OnePlus]<br>[https://www.skyworth.net/ SkyWorth]<br>[http://www.suning.com/ Suning]<br>[http://www.kfc.com.cn/kfccda/index.aspx KFC]<br>[https://www.logitechg.com/ Logitech G]<br>[https://www.huya.com HUYA]
+|created= 2016-12-28
+|disbanded= 2021-11-21
+|trades= 
+|sister-current=
+|sister-former=
+|rosterphoto=SN 2021 Summer.jpeg
+}}{{TOCRWI}}
+
+'''Suning''' is a Chinese team. They were previously known as [[T.Bear Gaming]] and '''Suning Gaming'''.
+
+== History ==
+
+Suning Gaming was formed in December of 2016 to participate in the LSPL. In the [[LSPL/2017_Season/Spring_Season|2017 LSPL Spring Season]] Suning Gaming finished the regular split 2nd with 17 wins and 5 losses. They won the playoffs with a 3-0 sweep over [[Young Miracles]]. Suning also participated in the [[Demacia Cup/2017 Season|2017 Demacia Cup]] but didn't go far and finished 9th-12th with a 1-2 loss to [[I May]]. After they qualified for the LPL, Suning Gaming finished the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]] 4th in their group with a 7-9 record. Their playoffs run was short-lived as they got swept 0-3 in the first round by [[Invictus Gaming]]. With this loss Suning Gaming's season ended.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Spark|link=Spark (Kang Byung-ryul)|kr|Kang Byung-ryul (강병률)|'''Supervisor'''|newteam=Weibo Gaming}}
+{{listplayer|Dian|cn|Li Guo-Peng (李国鹏)|'''Head Coach'''|newteam=Weibo Gaming}}
+{{listplayer|Fury|link=Fury (Lee Jin-yong)|kr|Lee Jin-yong (이진용)|'''Coach'''|newteam=Weibo Gaming}}
+{{listplayer|FenFen|cn|Huang Chen (黄琛)|'''Coach'''|newteam=Weibo Gaming}}
+{{listplayersp|JZZ|cn|Jia Zi-Zheng (家子正)|'''Analyst'''|newteam=Weibo Gaming}}
+{{listplayersp|YB|kr|Kim Seong-geol (김성걸)|'''Translator'''|newteam=none}}
+{{listplayersp|Blinky|cn|Yuan Xi (袁玺)|'''Manager'''|newteam=none}}
+{{listplayer|HunnyPark|kr|Park Gwang-hoon (박광훈)|'''Leader'''|newteam=JDG}}
+{{listplayer|Chashao|tw|Shih Yi-Hao (史益豪)|'''Head Coach'''|newteam=jdg}}
+{{listplayersp|ZYB|cn|Zhuang Yi-Bin (庄一彬)|'''Analyst'''|newteam=RW}}
+{{listplayer|Helper (Kwon Yeong-jae)|kr|Kwon Yeong-jae (권영재)|'''Coach'''|newteam=PSG Talon}}
+{{listplayersp|Pepsi|cn|Gong Sheng-Da (龚胜达)|'''Manager'''|newteam=none}}
+{{listplayer|Easyhoon|kr|Lee Ji-hoon (이지훈)|'''Assistant Coach'''|newteam=WBG}}
+{{listplayer|Xiasu|cn|Chen Long (陈龙)|'''Assistant Coach'''|newteam=Suning-S}}
+{{listplayer|Comet|kr|Lim Hye-sung (임혜성)|'''Head Coach'''|newteam=SBG}}
+{{listplayersp|Method|tw|Li Hsin-Yuan (李心淵)|'''Manager'''|newteam=BLG}}
+{{listplayer|Sim|kr|Sim Sung-soo (심성수)|'''Head Coach'''|newteam=BLG}}
+{{listplayer|Lilac (Jeon Ho-jin)|kr|Jeon Ho-jin (전호진)|'''Coach'''|newteam=KT Rolster Challengers}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+SuningOldlogo square.png|Previous Logo<br>(- 2019)
+</gallery>
+
+===Rosters===
+<gallery>
+SN 2020.jpg|Suning's 2020 LPL Spring Roster
+SN 2020 Summer.jpg|Suning's 2020 LPL Summer Roster
+SN Worlds 2020.png|Suning's 2020 World Championship Roster
+SN 2021 Spring.jpg|Suning's 2021 LPL Spring Roster
+</gallery>
+
+=== Posters ===
+[[/Posters|Click here]] to see LPL posters.
+
+==External Links==
+
+==References==
+<references />

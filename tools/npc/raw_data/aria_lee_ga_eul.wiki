@@ -1,0 +1,72 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Aria%20(Lee%20Ga-eul)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.803Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Aria (Lee Ga-eul)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Aria
+|name=Lee Ga-eul
+|nativename=이가을
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=PCS
+|birth_date_year=2000
+|birth_date_month=October
+|birth_date_day=14
+|favchamp=Zoe
+|favchamp2=Ahri
+|favchamp3=Azir
+|favchamp4=Akali
+|checkbox1=No
+|compID1=Luna
+|checkboxComp=No
+|ids='''KR:''' 매일 졸려여 #KR1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/aria21
+|twitter=LoLAria00
+|instagram=aria_autumn00
+|videoarchive=https://douyu.com/10457682
+|lolpros=https://lolpros.gg/player/aria
+|deeplol=https://www.deeplol.gg/pro/Aria-Lee_Ga-eul
+|dpmlol=https://dpm.lol/pro/Aria
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Luna'''.
+|checkbox-res=No
+|checkboxIsSub=No
+}}
+== Biography ==
+
+== Trivia ==
+* Changed his name from Lee Gyu-sang (이규상) to Lee Ga-eul (이가을) between the 2019 and 2020 seasons. 
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

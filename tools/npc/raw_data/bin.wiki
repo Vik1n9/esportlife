@@ -1,0 +1,104 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bin%20(Chen%20Ze-Bin)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.382Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Bin
+|name=Chen Ze-Bin
+|nativename=陈泽彬
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2003
+|birth_date_month=September
+|birth_date_day=28
+|favchamp=Jax
+|favchamp2=Camille
+|favchamp3=Gangplank
+|favchamp4=Gwen
+|checkbox1=Yes
+|favchamp5=Fiora
+|favchamp6=Gnar
+|favchamp7=Ambessa
+|checkboxComp=No
+|ids='''CN:'''  TurningBackTime<br>打野别帮我折谢谢<br>'''KR:''' 빈 스토리#KR1 <br> '''EUW:''' rsdfsaasq#1111 <br> '''NA:''' Bin#K620<br>'''BR:''' chenzebin#5599
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/131390
+|twitter=BLGBinGe
+|weibo=https://weibo.com/n/Bin%E5%93%A5%E5%8E%89%E5%AE%B3
+|lolpros=https://lolpros.gg/player/bin
+|deeplol=https://www.deeplol.gg/pro/Bin-Chen_Ze-Bin
+|dpmlol=https://dpm.lol/pro/Bin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Bin''' is based on his given name (Ze-Bin).
+* Considered to be the best {{ci|irelia}} player in solo queue.
+* His father also played League of Legends and used to call up Bin to carry him.
+* Went to the same high school as [[JackeyLove]].
+* Famous for his {{ci|gangplank}} game-winning play against [[G2 Esports]] in a group tiebreaker during [[Worlds 2020]].
+* First and only player to achieve a pentakill in Worlds Finals.
+* Known as a player with biased champion pool. He is pretty good playing as divers, such as {{ci|irelia}}{{ci|Fiora}} and {{ci|Camille}}. However he is bad playing as tanks such as {{ci|Ornn}} and {{ci|Sion}}, while he holds a very low win rate with those champions.
+* Before being a professional player, he was a fan of [[RNG]].
+** It was revealed in a video comment on Bilibili during the 2018 postseason after [[Invictus Gaming]] won the World Championship, saying "I am still waiting for RNG." (我还在等RNG).<ref>https://www.bilibili.com/video/BV1Dt411y7EZ?</ref>
+=== Statistics ===
+* Reached 1000 kills in the LPL on June 1, 2023.
+** The 39th player and 5th toplaner (after [[Flandre]], [[TheShy]], [[369]] and [[Breathe]]) to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on March 22, 2025.
+** The 26th player and 3rd toplaner (after [[Flandre]] and [[369]]) to reach 1500 kills in the LPL.
+* Reached 300 wins in the LPL on January 25, 2025.
+** Was the 22nd player to reach 300 wins in the LPL.
+* Reached 500 games in the LPL on April 5, 2025.
+** The 32nd player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on September 7, 2025.
+** The 23rd player to reach 600 games in the LPL.
+* Reached 500 international kills during [[2025 Mid-Season Invitational|MSI 2025]] on July 11, 2025 in Lower Bracket Round 3, becoming the 8th player to achieve this milestone after [[Faker]], [[Perkz]], [[xiaohu]], [[Caps]], [[Maple (Huang Yi-Tang) | Maple]], [[GALA]], and [[Gumayusi]].
+* Reached 3000 assists in the LPL on August 06, 2025.
+** Was the 40th player to reach 3000 assists in the LPL.
+=== Individual Awards ===
+* First Stand Finals MVP x1 (2026)
+* LPL 1st All-Pro Team x4 (Summer 2023, Spring 2024, Summer 2024, Split 2 2026)
+* LPL 2nd All-Pro Team x2 (Summer 2021, Split 1 2026)
+* LPL Finals MVP x2 (Spring 2022, Split 1 2026)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

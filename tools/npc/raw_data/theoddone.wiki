@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=TheOddOne&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.060Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「TheOddOne」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=TheOddOne
+|name=Brian Wyllie
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1988
+|birth_date_month=November
+|birth_date_day=25
+|favchamp=Nocturne
+|favchamp2=Maokai
+|favchamp3=Dr. Mundo
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tsm_theoddone
+|facebook=https://www.facebook.com/TSMTheOddOne
+|twitter=TSMTheOddOne
+|instagram=oddonelol
+|reddit=The_Odd_One
+|youtube=https://youtube.com/user/SolomidDOTNet
+|deeplol=https://www.deeplol.gg/pro/TheOddOne
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He is best known for his time as jungler for [[TSM]].
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|prev2=Coach
+|nicknames=The General, TheGodOne, Oddbro, Admiral OddOne, TheDishOne, TheWashOne
+}}
+==Biography==
+TheOddOne has played video games for most of his life. He used to play on the Sega Genesis then moved from console to PC, playing ''Starcraft'', ''Warcraft 3'', and ''Phantasy Star Online'', until he moved onto ''League of Legends''. Other games he enjoys include the ''Mass Effect'' series, ''Left 4 Dead 2'', and ''Plants vs Zombies''.<ref>[http://solomid.net/blog.php?v=10753 Interview with TSM's Jungler, TheOddOne] ''solomid.net''</ref>
+He started his ''League of Legends'' career with [[Haters Make Us Famous]] before moving on to [[Team SoloMid]] as their designated jungler. He is from Calgary, Alberta, Canada.<ref>
+[http://www.youtube.com/watch?v=60ZJUe9m8p8 OddOne Vlog - TSM History] ''youtube.com''</ref> Throughout Season 1 he was regarded as one of the best junglers in the game.
+
+== Trivia ==
+* Is the older brother of [[Maplestreet]].
+* Known for his jungle {{ci|Maokai}}.<ref>[http://www.youtube.com/watch?v=RrF22aWTJCM Pro Player Pick: TheOddOne Picks Maokai] ''youtube.com''</ref>
+* Is half Chinese and half Scottish.
+* Has a strong dislike for Yordles, especially {{ci|Kennen}}.<ref>[http://www.youtube.com/watch?v=Qm9w4M4urHY&feature=youtu.be&t=30s TheOddOne Weekly Vlog] ''youtube.com''</ref>
+* Frequently referred to as "General" OddOne by stream viewers, based on a rivalry with ex-[[Falafel Gaming]] jungler, "Master Tactician" [[Azingy]].
+* One of five players to have qualified for the first three World Championships, along with [[Dyrus]], [[Reginald]], [[Xpecial]], and [[YellOwStaR]].
+* Is also known for an LP of ''Fire Emblem: Awakening'' for the Nintendo 3DS on Lunatic difficulty (the highest standard difficulty) and Classic rules (player character deaths are permanent.)<ref>[http://www.youtube.com/playlist?list=PLqZWIjP82bhJryfJrI1lSltSPkxc5yakP ''Fire Emblem: Awakening'' (Lunatic/Classic) with TheOddOne] YouTube (from TheOddOne's official channel</ref>
+* Has an interest in ''Hearthstone: Heroes of WarCraft'' and played in Lord of the Arena 3 for charity.<ref>[http://www.youtube.com/watch?v=WV3RNSrJxOs Lord of the Arena 3 - Group A - SivHD (Shaman) vs. TSM TheOddOne (Mage)] HearthVODs on YouTube</ref><ref>[http://www.youtube.com/watch?v=sHO-DzArrK8 Lord of the Arena 3 - Group A - GiantWaffle (Mage) vs. TSM TheOddOne (Druid)] HearthVODs on YouTube</ref><ref>[http://www.youtube.com/watch?v=BS-2FraIs2I Lord of the Arena 3 - Group A - TSM TheOddOne (Paladin) vs. AX TotalBiscuit (Rogue)] HearthVODs on YouTube</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

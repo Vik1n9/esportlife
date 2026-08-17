@@ -1,0 +1,114 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Moscow%20Five&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:20.369Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Moscow Five」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=Gambit Gaming
+|name= Moscow 5
+|orgcountry= Russia 
+|country=
+|region=eu
+|image= M5.png
+|coaches=
+|manager= 
+|captain= 
+|website= 
+|sponsor= [http://teamkill.ru/ Teamkill]
+|youtube= https://www.youtube.com/moscowfive/
+|facebook= https://facebook.com/MoscowFive
+|twitter= moscowfive
+|irc=
+|created= 2011-12-16
+|disbanded= 2013-01-10
+|trades=
+}}{{TOCRWI}}
+
+'''Moscow Five''', abbreviated as '''M5''', is a Russian esports organization. ''This page details the team's history when it was considered an EU team. For the CIS team, see [[Moscow Five.CIS]].''
+
+Founded in 2001, M5 had roots in Counter-Strike 1.6, WarCraft 3, FIFA, and DotA. In December 2011, Moscow Five recruited the players of [[Team Empire]], who had qualified to compete at [[IEM_Season_VI_-_Global_Challenge_Kiev|IEM Kiev]].<ref>[http://moscowfive.ru/news/obyavlen-sostav-m5-lol The Composition of M5.LOL] ''moscowfive.ru''</ref> This team went on to be a dominant force in the European League of Legends scene throughout Season 2. Following the July 2012 arrest of Moscow Five CEO Dmitry "ddd1ms" Smelyi, the organization released its League of Legends team in January 2013 due to lack of funding. <ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref>
+
+The organization acquired the roster of [[Russian Force]] in August 2014.
+
+== History ==
+=== Acquisition of Team Empire ===
+On December 16, 2011, Moscow 5 began their first League of Legends team by recruiting the roster of [[Team Empire]], picking up [[Alex Ich]], [[Diamondprox]], [[Genja]], [[GoSu Pepper]], and [[Darien]].
+=== Season 2 ===
+Moscow Five's first major appearance was at [[IEM Season VI - Global Challenge Kiev]] on January 19, 2012. Here, Moscow 5 made their international debut by going undefeated in the group stage against [[Dignitas]], [[against All authority]], and [[Sypher]].<ref> [http://www.esl-world.net/masters/season6/kiev/lol_groupstage/ IEM Kiev 2012 Group Stage Results] ''esl-world.net''</ref> Moscow Five advanced to the playoffs and took the first round series 2-0 against [[SK Gaming]]. In the finals, Moscow 5 defeated North American favorite and powerhouse [[Team SoloMid]] 2-1, dropping their only game of the tournament.<ref> [http://www.esl-world.net/masters/season6/kiev/lol/playoffs/rankings/ IEM Kiev 2012 Playoff Results] ''esl-world.net''</ref>
+
+Nine days later, on January 31, 2012, Moscow Five competed in the online [[Kings of Europe]] tournament. Once again showing their strength, M5 went undefeated in the group stage, defeating [[SK Gaming]], [[exGBT]], and Team Mistral.<ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html#page-1 Kings of Europe 2012 Group A Results] ''fnatic.com''</ref> Advancing to the playoffs, Moscow Five then defeated French team [[Sypher]] 2-1 in the semifinals. From there, M5 advanced to the finals and faced [[Counter Logic Gaming EU|Counter Logic Gaming EU (CLG.EU)]], where they would fall 1-2 and finish second.<ref> [http://www.fnatic.com/news/9478/fnaticraidcall-lol-fighting-for-kings-of-europe.html Kings of Europe 2012 Playoff Results] ''fnatic.com''</ref>
+
+On March 10, 2012, Moscow Five attended the [[IEM Season VI - World Championship]] in Hanover. Reproducing their results from Kiev, M5 gave an outstanding performance in the group stage, going 5-0 by defeating SK Gaming, [[Curse Gaming]], Team SoloMid, Sypher, and [[EHome]].<ref> [http://www.esl-world.net/masters/season6/hanover/lol_groupstage/ IEM Hannover 2012 Group Results] ''esl-world.net''</ref> M5 continued their win streak in the playoff bracket, beating [[Counter Logic Gaming Prime]] 2-0 in the semifinals and defeating [[Dignitas]] 2-0 in the finals to take home first place.<ref> [http://www.esl-world.net/masters/season6/hanover/lol/playoffs/rankings/ IEM Hannover 2012 Playoff Results] ''esl-world.net''</ref> This tournament marked a high point in Moscow Five's history, as they were able to not only win the tournament, but did so without losing a single game. 
+
+Moscow Five's next high placing at a major tournament was at the online [[Corsair Vengeance Cup]]. Coming out of the group stage of the tournament 2-1, M5 had a strong run in the playoffs, defeating Hauteur 8, Intent Gaming, TeamRedByteItalia, and [[MeetYourMakers]] before falling to [[against All authority]] 0-2 and being sent to the loser's bracket. In the loser's bracket, Moscow Five won 2-1 against Team SoloMid and then 2-0 against [[SK Gaming]], setting them up for a rematch against aAa. This time Moscow Five emerged victorious, defeating aAa 2-0 and receiving a spot in the grand finals against Counter Logic Gaming EU. Moscow Five did not continue their earlier success, falling 0-2 and taking home second place.<ref> [http://vengeance-cup.corsair.com/?page=tournament&action=view&tournament_id=1654 Corsair Vengeance Cup 2012 Playoff Results] ''vengeance-cup.corsair.com''</ref>
+
+On June 16, Moscow Five attended [[DreamHack Summer 2012]] after taking second at the online qualifiers. M5 took second in the group stage going 2-1, defeating [[Absolute Legends]] and Mebdi's Minions while losing to Counter Logic Gaming EU. Advancing to the semifinals, Moscow 5 faced off against [[Curse Gaming EU]], coming out ahead 2-0 and advancing to the tournament's finals, where the Russian team again played Counter Logic Gaming EU and lost 0-2.<ref> [http://tournaments.leagueoflegends.com/dreamhack-2012#tournament-bracket Dreamhack 2012 Results] ''tournaments.leaugeoflegends.com''</ref>
+
+On July 28, 2012, Moscow Five attended [[European Challenger Circuit: Poland]] after qualifying online with a 2-0 victory over CLG.EU. This meant that the teams would meet again in the group stage, where Moscow 5 took second place going 2-1 after defeating EloHell.net and Ocelote World (x6) while losing to CLG.EU. In the semifinals, Moscow 5 dominated Curse EU 2-0, including a perfect 15-0 score in the second game. In the finals, Moscow 5 once again met rivals Counter Logic Gaming EU. Despite having a 1-6 record against CLG.EU in previous tournament finals, Moscow 5 were finally able to claim revenge with a commanding 2-0 victory and become the ECC Poland champions.<ref> [http://tournaments.leagueoflegends.com/ecc-poland#tournament-bracket ECC:Poland 2012 Results] ''tournaments.leagueoflegends.com''</ref>
+
+As one of the eight European invitees to the [[Season Two/Regional Finals - Cologne|Season 2 Regional Finals at Cologne]], Moscow Five flew out to Germany for a chance to qualify for the [[Season 2 World Championship]]. Matched up against the recently formed Polish team [[EloHell]], Moscow Five took a 2-0 victory to advance to the second round of the playoffs. There, Moscow Five emerged victorious against FnaticRC in a close 2-1, qualifying for the Season 2 World Championship and advancing to the grand finals of the tournament. Continuing their dominant performance, Moscow Five took the finals 2-0 against SK Gaming.<ref> [http://us.esl.tv/iem/ IEM Gamescom 2012 Results] ''esl.tv''</ref>
+
+At the [[Season 2 World Championship]] in October, Moscow Five was considered by many analysts and professionals to be the favorites coming into the event.<ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref> As the European champions, they were given a bye through the group stage and were selected to face [[Invictus Gaming]] in their quarterfinal match. Although iG consistently pressured M5's early game and won the laning phase, the Russian squad was able to overcome their deficits in the midgame and take the series 2-0. Advancing to face the [[Taipei Assassins]] in the semifinals, M5 continued their dominant form in the first game of the match and quickly secured game one. However, TPA matched M5's aggression in the next two games and successfully turned the series around. The Taiwanese team took the set 2-1, and Moscow Five was forced to settle for 3rd-4th place and $150,000 USD.
+
+===Preseason 3===
+
+Moscow Five attended the European tournament [[Tales of the Lane]] from October 27 through November 11, 2012. They earned first place in their group stage 3-1, with wins against [[Curse EU]], [[Eclypsia]] and [[MYM]] and a loss to [[IWantCookie]]. Because they finished first in the group stage, Moscow Five was granted seeding directly into the semi-finals.. On November 11 M5 traveled to Paris to compete in the offline portions of the tournament. There M5 was upset by Curse EU 0-2, knocking them into the third place match. Moscow Five completed the tournament with a sweep of [[SK Gaming]], taking third and €5,000 in winnings.
+
+On November 22, 2012, Moscow Five flew to Shanghai to attend the [[Tencent Games Arena Grand Prix/Winter 2012| TGA Winter 2012]] event. While not contestants of the tournament itself, the team looked to boost their popularity with the Chinese tour, doing photo ops, fan signings and Mandarin greeting videos.<ref name="M5 in China">[http://moscowfive.ru/en/news/m5-benq-s-world-tour M5.BenQ's World Tour]</ref><ref name="M5 and Chinese fans">[http://lol.uuu9.com/201211/426206.shtml M5中国表演赛前训练视频：用中文向大家问好]</ref> M5 also played two show matches against [[WE]] and [[iG]], winning against both. They departed China on November 27, flying directly to Las Vegas to attend [[IPL 5]].
+
+On Day 1 of the IPL event, Moscow Five advanced through the group stages by defeating [[Curse Gaming]] twice and dropping a game to [[Taipei Assassins]]. They then faced [[Team WE|World Elite]], who they had scrimmed heavily against in Shanghai. However, WE routed the Russian team 2-0, dropping them to the losers bracket. M5 then defeated the tournament favorites [[Azubu Blaze]] in a close three game series. In the fifth round, M5 got a chance to revenge their loss in the [[Season 2 World Championship]] against the Taipei Assassins. Despite [[Alex Ich]] amassing 538 creep score and leading in gold to the very end of the game, Moscow Five still fell to the Taiwanese team in game one, and lost again to a strong performance by [[Stanley]] on [[Nidalee]] in the second game, marking five consecutive loses to TPA. M5 finished the tournament in fourth place and earned $3,000 USD in winnings.
+
+On January 10, 2013, the League of Legends roster was released from the eSports organization due to lack of funding. The previous year's arrest of Moscow Five CEO Dmitry "ddd1ms" Smelyi had left the team without enough money to stay with the organization.<ref>[http://moscowfive.ru/en/news/lol-roster-leaves-moscow-five Moscow Five Releases League of Legends Team English] ''moscowfive.ru''</ref><ref>[http://moscowfive.ru/news/sostav-po-lol-pokidaet-organizatsiyu-moscow-five Moscow Five Releases League of Legends Team Russian] ''moscowfive.ru''</ref> The team members of Moscow Five, [[Alex Ich]], [[Darien]], [[Diamondprox]], [[Genja]], and [[GoSu Pepper]], went on to join [[Gambit Gaming]] soon after.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:M5 Original Roster.jpg|thumb|no-link=true|400px|right|Original Moscow 5 Roster winning [[IEM Season VI - Global Challenge Kiev|IEM Season VI Kiev]]. Left to Right: Darien, GoSu Pepper, Alex Ich, Genja007 and Diamondprox]]
+===Former===
+{{TeamMembersFormer}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|ddd1ms|ru|Dmitry Smelyi|'''Owner'''|newteam=Suspended|comment=Arrested}}
+{{listplayersp|Rogue LeBeau|ru|Darina Lerua|'''Manager'''|newteam=none}}
+{{listplayer|Groove|ru|Konstantin Pikiner|'''Coach'''|newteam=Gambit Gaming}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+* [http://www.youtube.com/watch?v=e89llah-u3s Epic moment from IEM Kiev Qualifiers (M5 v SK)]
+* [http://www.youtube.com/watch?v=dUEQrECoXZk M5 vs Fnatic Baron Fight (IPL 5 Qualifier #2 Semi-Finals)]
+* [http://www.youtube.com/watch?v=KoQ6FdaQwvM League of Legends - M5 vs. EloHell - GA strategy, best tournament fight]
+* [http://www.youtube.com/watch?v=gVE5sQssZi4 M5 vs. BLACK - Moscow5's never ending fight (ESL Major Series LoL)]
+* [http://www.youtube.com/watch?v=wWjPRGHkuVM M5.LoL's First Anniversary by MCJ]
+
+==Links==
+* [http://ggchronicle.com/moscow-five-preview-season-2-world-finals/ Moscow Five Preview: Season Two World Finals] ''by ggChronicle''
+==Articles==
+{{TDRight
+|name1=2016}}
+{{TDRight|tab}}<!--2016-->
+
+* April 24, [http://slingshotesports.com/2016/04/24/league-of-legends-history-of-moscow-5-innovation/ A historical look at the innovative Moscow 5] ''by Arian "potato" Hajdin on Slingshot''  
+{{TDRight/end}}
+==Interviews==
+{{TDRight
+|name1=2012}}
+{{TDRight|tab}}<!--2012-->
+* June 15, [http://www.youtube.com/watch?v=2OL5iE8DL_k Pre DH Summer 2012 Bootcamp: M5.LoL отвечают на вопросы] ''with Moscow Five'' & [http://www.reddit.com/r/leagueoflegends/comments/v45mm/m5_answered_questions_from_their_fans_amateur/ Translation]
+* June 18, [http://www.youtube.com/watch?v=78Ym6v1NDh0 DH Summer 2012: Интервью с M5.LoL] ''with Moscow Five'' & [http://www.reddit.com/r/leagueoflegends/comments/v8yqj/moscow_five_dh_summer_after_tournament_interview/ Translation]
+* November 14, [http://www.youtube.com/watch?v=4R1LsLXS1Sc Interview with M5.BenQ after Tales of the Lane (video)] ''with Moscow Five''
+{{TDRight/end}}
+==Other Content==
+{{TDRight
+|name1=2014
+|name2=2018}}
+{{TDRight|tab}}<!--2018-->
+* May 16, [https://www.youtube.com/watch?v=JvVurYVCta0 The Top 10 Most Dominant League of Legends Rosters of All-Time] ''by theScore Esports on theScore Esports''
+{{TDRight|tab}}<!--2014-->
+* December 30, [http://www.youtube.com/watch?v=gT0i8dLAy1A Thorin's Thoughts - Unraveling the Magic of Moscow Five/Gambit Gaming (LoL)] ''by Thorin''
+{{TDRight/end}}
+
+==References==
+<references />

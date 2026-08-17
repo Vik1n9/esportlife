@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Sirt&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.918Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「SirT」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Sirt
+|name=Thúlio Carlos
+|image=BGJ SirT 2017 Summer.png
+|checkboxAutoImage=No
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1992
+|birth_date_month=October
+|birth_date_day=20
+|favchamp=Lee Sin
+|favchamp2=Jarvan IV
+|favchamp3=Rengar
+|checkbox1=No
+|compID1=SirT
+|checkboxComp=No
+|ids=paiN SirT Razer, p SirT, Hunwar
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/sirt
+|facebook=https://www.facebook.com/ThuliosirT
+|twitter=SirThulio
+|snapchat=sirthulio
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''SirT'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|peakelo_br=2486
+}}
+==Biography==
+===2015 Season===
+After winning the [[Riot Latin America Cup 2014 - Grand Final|Riot Latin America Cup 2014 Grand Final]], paiN Gaming qualified as the Latin American team for [[IEM Season IX - San Jose|IEM San Jose]]. They attended with a roster consisting of [[Leko]], [[SirT]], [[Kami (Gabriel Bohm Santos)|Kami]], [[Lactea]], and [[Olleh]] and were eliminated in the quarterfinals, losing to [[Cloud9]] 0-2 and tying for fifth place in the tournament with [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]].
+
+At Worlds, paiN were seeded into Group A along with [[Flash Wolves]], [[KOO Tigers]], and [[Counter Logic Gaming]]. They picked up two wins in the group, against eventual group winners Flash Wolves in the first week and then against CLG in the second week, and their 2-4 overall record and 1-1 head-to-head with CLG left them tied for third place, not advancing from groups. Despite their immediate elimination, paiN's group stage run was seen as a major success: they were the first Wildcard team to win more than one game at a World Championship and also the first Wildcard team to finish higher than sole possession of last place in their group. Additionally, they looked good in some of their losses: their second game against Flash Wolves lasted 52 minutes and could have gone either way at multiple points.
+
+== Trivia ==
+* Has a very comical laugh.
+* His favorite champion is {{ci|Lee Sin}}.
+* He is a key player to his team, with great calls and effective ganks.
+* He is a great fan of [[inSec]].
+* Known for his {{ci|Lee Sin}}, {{ci|Maokai}} and {{ci|Elise}}.
+* Famous for camping lanes.
+* Portrayed as {{ci|Jarvan IV}} in the CBLoL 2015 official wallpaper
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+File:paiN SirT 2016 Winter.jpg|paiN SirT at [[CBLOL 2016 Split 2]]
+File:paiN SirT 2016 Summer.png|paiN SirT at [[CBLOL 2016 Split 1]]
+File:paiN SirT Worlds2015.jpg|paiN SirT at [[Worlds 2015]]
+File:Painsirt.jpg|SirT
+File:sirt.jpg|SirT
+</gallery>
+
+{{PlayerPageEnd}}

@@ -1,0 +1,7 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Style&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.627Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Style」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Style (Ignacio Pezoa)
+|player2=style (Fabio Amazonas) 
+|player3=Style (Mai Hoàng Sơn)
+}}

@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Doxy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.406Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Doxy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Doxy
+|name=Rafael Adl Zarabi
+|checkboxAutoImage=Yes
+|country=Denmark
+|nationality=Denmark, Azerbaijan
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=March
+|birth_date_day=18
+|favchamp=Jayce
+|favchamp2=Gnar
+|checkbox1=No
+|checkboxComp=No
+|ids=Fix The System8 (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/doxylol
+|twitter=Doxylol
+|instagram=rafael_Azeri
+|snapchat=azeri2300
+|lolpros=https://lolpros.gg/player/doxy
+|deeplol=https://www.deeplol.gg/pro/Doxy
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Doxy used to play a lot of Diablo, Heroes of might and magic and Age of Empire. But his favorite game when he was younger, was Runescape. There came a big update to the game and he quite Runescape. He then chose to start playing League of Legends because of his big brother introducing him to the game. He started in season 2, but began playing seriously in season 3 which he peaked Diamond 1 90LP on the ladder. 
+=== 2015 Season ===
+Rafael made his competitive debut with [[Carpe Diem]] in the winning game of the [[SLTV StarSeries/Summer Split 2015#Week 3|2015 SLTV StarSeries Summer Season Week 3]] against [[SolarWind]] on [[Irelia]] with a 8/3/5 KDA, only just replacing Carpe Diem's previous toplaner [[Sleeping]]. Doxy and his team finished 4th in the [[SLTV StarSeries/Summer Split 2015|Summer Split]] with 9-5 game record along with [[Dolphins of Wall Street]] and [[RoX (2014 CIS Team)|RoX]]. Carpe Diem lost both tiebreaker games, advancing into the playoffs instead of getting into [[SLTV StarSeries/2015 Season/Summer Finals|the offline finals]] directly. They beat [[Team Just]] in the playoffs 3-2, before suffering a 3-0 loss to [[Hard Random]] in the semifinals. In August, Rafael joined [[xPerience eSports Club]] to compete in the 1st split of the [[Liga_de_Videojuegos_Profesional/Season_9|Season 9 Liga de Videojuegos Profesional]]. Two months later after that, Doxy was no longer a part of both teams.
+
+=== 2016 Season ===
+Doxy showed up at [[Vega Squadron]] roster in [[LCL/2016_Season/Spring_Season|LCL Spring Season]] Week 3 game against [[RoX (2014 CIS Team)|RoX]] as a substitute for [[NoNholy]]. Before [[NoNholy]] moves back to starter, Rafael participated in another four games for the team. In October 2016, it was announced that Doxy, alongside his teammate [[Saulius]], are being released from the team. Not long after, he was announced as a stand-in for [[Virtus.pro]], as the team participated in the [[LCL/2017 Season/Open Cup|LCL 2017 Open Cup]], where they finished at 3rd-4th, losing against Vega Squadron (0-2).
+
+=== 2017 Season ===
+After being a stand-in for the tream, Doxy became the starting Top Laner for Virtus.pro. In [[LCL 2017 Spring]], he and the team ended the regular split at 3rd-4th place with a record of 9-5. Qualifying to the playoffs, they were then seeded against [[M19]] whom they defeated (3-2), thus propelling their way to the playoffs, where they met and beat [[Vaevictis eSports]] (2-3), qualifying them for the [[2017 Mid-Season Invitational]] as the representative of CIS/Russian region.
+
+At 2017 Mid-Season Invitational Doxy and the team were drawn in Group B, together with [[GIGABYTE Marines]], [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] and [[Isurus Gaming]]. However, the team fell short as they failed to make it out of the group stage with a standing of 2-4 (3.4 KDA/62% KP), finishing 3rd in their group and 10-11th overall.
+
+== Trivia ==
+* Dislikes tomatoes.
+* Fan of the old AC Milan with star players Shevchenko, Kaká, Dida, etc.
+* Also a fan of Real Madrid and one tricks them in FIFA.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

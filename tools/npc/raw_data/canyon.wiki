@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Canyon&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:47.568Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Canyon」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Canyon
+|name=Kim Geon-bu
+|nativename=김건부
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2001
+|birth_date_month=June
+|birth_date_day=18
+|favchamp=Nidalee
+|favchamp2=Lee Sin
+|favchamp3=Graves
+|favchamp4=Kindred
+|checkbox1=Yes
+|favchamp5=Kha'Zix
+|favchamp6=Zyra
+|favchamp7=Karthus
+|checkboxComp=No
+|ids='''KR:''' JUGKlNG#kr<br>'''EUW:''' asfdwrqe#123<br>'''CN:''' doyouknowkimchi <br> '''NA:''' 밴쿠버#123<br>'''BR:''' São Paulo#3628
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/rjsqn0618
+|instagram=lol_canyon
+|lolpros=https://lolpros.gg/player/canyon/
+|deeplol=https://www.deeplol.gg/pro/Canyon
+|dpmlol=https://dpm.lol/pro/Canyon
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His pentakill on July 24th, 2020 was the first-ever pentakill for a jungler in the LCK. 
+* Often named Polar Bear by teammates and fans.
+* Breaking the record of player who has the most POG (MVP) points in one split, with 1600 POG points in the [[LCK 2022 Spring]]
+** It surpassed the previous record of [[Ssumday]] in the [[LCK 2015 Summer]] and [[Smeb]] in the [[LCK 2016 Spring]] (both of them got 1400 POG (MVP) points)
+* Reached 1000 kills in the LCK on March 10, 2023.
+** Was the 22nd player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], [[Bang]], [[Score]], [[Kuro]], [[Smeb]], [[Ambition]], [[Sangyoon]], [[Deft]], [[Teddy]], [[Ruler]], [[Bdd]], [[Ghost (Jang Yong-jun)|Ghost]], [[Peanut]], [[Chovy]], [[Fly (Song Yong-jun)|Fly]], [[ShowMaker]], [[Kiin]], [[Aiming]], [[Rascal]] and [[deokdam]]
+** The fourth jungler to reach 1000 kills after [[Score]], [[Ambition]] and [[Peanut]].
+* Reached 1500 LCK kills on July 23, 2025.
+** Was the 17th player and 3rd jungler reach 1500 kills.
+* Reached 3000 assists in the LCK on July 16, 2023.
+** Was the 13th player to reach 3000 assists in the LCK after [[GorillA]], [[Wolf (Lee Jae-wan) | Wolf]], [[Score]], [[Faker]], [[TusiN]], [[Deft]], [[Peanut]], [[Lehends]], [[Bdd]], [[Keria]], [[Life]], and [[BeryL]].
+* Reached 4000 assists in the LCK on August 31, 2024.
+** Was the 9th player to reach 4000 assists in the LCK after GorillA, Faker, Lehends, Peanut, Keria, Deft, Bdd, and BeryL.
+* Reached 300 wins in [[LCK]] on January 20, 2024, becoming the 14th player to do so after [[Score]], [[Faker]], [[PraY]], [[GorillA]], [[Deft]], [[Ruler]], [[Peanut]], [[Bdd]], [[Chovy]], [[ShowMaker]], [[Lehends]]/[[Kiin]], and [[Cuzz]].
+* Reached 400 wins in [[LCK]] on May 01, 2025, becoming the 8th player to do so after [[Faker]], [[Deft]], [[Peanut]], Bdd, Chovy, Lehends, and Kiin.
+* Reached 500 games in the LCK on March 22, 2024, becoming the 15th player to do so.
+* Reached 600 games in the LCK on May 23, 2025, becoming the 12th player to do so.
+* Reached 1000 international assists during [[2025 Mid-Season Invitational|MSI 2025]] on July 05, 2025 in Upper Bracket Round 2 against [[Anyone's Legend]], becoming the 7th player to achieve this milestone after [[Ming (Shi Sen-Ming)|Ming]], Faker, [[xiaohu]], [[meiko]], [[Keria]], and [[Caps]].
+* Reached 100 international wins during [[2025 Mid-Season Invitational|MSI 2025]] on July 13, 2025 against [[T1]] in Grand Finals, becoming the 7th player to achieve this milestone after [[Faker]], [[xiaohu]], [[Caps]], [[Keria]], and [[Oner]]/[[Gumayusi]].
+* Has reached Rank 1 on the Korean Solo Queue Ladder multiple times.
+* Started playing League of Legends in 6th grade. <ref>[https://www.youtube.com/watch?v=ckLtBw_oVYc 데프트야, 나야? | Kia 안에서 우린 토크를 나눴지 EP.4] ''youtube.com''</ref>  
+* Got to Master by only playing {{ci|Yasuo}}.
+
+=== Individual Awards ===
+* LCK Regular Season MVP x2 (Summer 2019, Spring 2021)
+* Player of the Split x1 (Spring 2022)
+* Worlds Finals MVP x1 (2020)
+* LCK 1st All-Pro Team x6 (Summer 2020, Spring 2021, Spring 2022, Spring 2024, Summer 2024, LCK 2025)
+* LCK 2nd All-Pro Team x1 (Summer 2021)
+* LCK 3rd All-Pro Team x2 (Spring 2023, Summer 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+==Images==
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

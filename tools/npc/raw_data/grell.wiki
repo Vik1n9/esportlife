@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Grell&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.576Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Grell」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Grell
+|name=Jesús&nbsp;Alberto Loya Trujillo
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Mexico
+|residency=North America
+|birth_date_year=2001
+|birth_date_month=April
+|birth_date_day=09
+|favchamp=Rengar
+|favchamp2=Kha'Zix
+|favchamp3=Viego
+|checkbox1=No
+|checkboxComp=No
+|ids='''LAN:''' Grell <br> '''NA:''' Grell#3010 <br> '''BR:''' VK TacoImport#BR1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/grelllol
+|facebook=https://www.facebook.com/GrellSnow
+|twitter=GrellLol
+|instagram=grelllol
+|discord=https://discord.com/invite/WjvxTnw3RH
+|tiktok=https://www.tiktok.com/@grellsnow
+|deeplol=https://www.deeplol.gg/pro/Grell
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Known in Brazil for his participations in the [[CBLOL]] playing for [[Vivo Keyd Stars]], once in 2019 and another in 2023.
+* He likes the Brazilian style of play, which he considers to be an "aggressive but risky game." <ref name="interview with grell prensa esports 2024">[https://www.youtube.com/watch?v=VMYVyy8Qd4c Prensa Esports video post] ''youtube.com''</ref>
+* Has a son, who was born in 2025.<ref>[https://x.com/GrellLol/status/1878135224208351597 Grell's X Post] ''x.com''</ref>
+=== Individual Awards ===
+* LLA Player with the most MVPs during the year (2021)
+* LLA All Pro Team (Closing 2020)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

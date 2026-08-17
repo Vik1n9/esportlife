@@ -1,0 +1,84 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=G4&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.082Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「G4」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=G4
+|name=Nuttapong Menkasikan
+|nativename=นัฐพงษ์ เม้นกะสิการ
+|namealphabet=Thai
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Thailand
+|residency=PCS
+|birth_date_year=1997
+|birth_date_month=October
+|birth_date_day=31
+|favchamp=Zed
+|favchamp2=LeBlanc
+|checkbox1=No
+|checkboxComp=No
+|ids=Bob4 (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/g4444_
+|facebook=https://www.facebook.com/lolG4
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+Nuttapong "'''LeesIn Mid'''" Menkasikan joined [[Flashdive]] in Spring 2013 as the starting mid laner. He competed with the team in the [[2013 LCS Pro League Thailand/Regular Season/June|2013 June LCS Pro League Thailand]], finishing in 1st place with a 12-3-0 record. After their successful performance, the team was sponsored by [[Made in Thailand Esports]], renaming to [[MiTH Flashdive]] while LeesIn Mid renamed to '''G4'''. They continued to perform well in the 2013 LCS Pro League Thailand, but lost to [[Bangkok Titans]] in a close five-game finals series. G4 got his revenge in the [[Thailand Grand Championship 2013]], where he and the team defeated the Bangkok Titans 3-0.
+
+===2014 Season===
+In March 2014, G4 and teammate [[007x]] left Flashdive to join the Bangkok Titans. Though the Bangkok Titans had always been a dominant force in the local Thai scene, they had consistently performed poorly in the [[Garena Premier League]] (GPL). With G4, the team secured a playoffs spot in the [[2014 GPL Summer]], and though the team was eliminated in the quarterfinals by [[ahq e-Sports Club]], they retained the majority of the roster for the 2015 season.
+
+===2015 Season===
+G4 and the Bangkok Titans continued to find success in the [[2015 GPL]], which now excluded the historically-dominant Taiwanese teams. In the [[2015 GPL Spring|Spring]], the team finished in 2nd place and consequently qualified for the [[2015 International Wildcard Invitational]] when the 1st place team, [[Saigon Fantastic Five]], was unable to attend. At the IWCI, the team performed well, going undefeated in the Round Robin stage, but they were eliminated in the playoffs in three games by the eventual winners, [[Beşiktaş e-Sports Club]].
+
+The Bangkok Titans finished in 1st place in the [[2015 GPL Summer]] and qualified for the [[2015 International Wildcard Tournament/Turkey|International Wildcard Tournament]] in Turkey, where they qualified for the [[2015 Season World Championship]] by defeating Oceania's [[The Chiefs eSports Club]], The team was were drawn into group C, along with Korea's [[SK Telecom T1]], China's [[EDward Gaming]], and Europe's [[H2k-Gaming]]. While they failed to win a single game and were knocked out of the tournament in last place, G4 managed to hold his own against world-renowned mid laners [[PawN]] and [[Ryu]], displaying a few impressive individual performances. G4 was later voted to represent Southeast Asia during the [[International Wildcard All-Star Melbourne 2015]].
+
+===2016 Season===
+G4 remained with Bangkok Titans for the Spring season of the [[Thailand Pro League/2016 Season/Spring Season|2016 Thailand Pro League]] (TPL),<ref>[https://www.facebook.com/BangkokTitans/posts/968795203190916:0 Bangkok Titans Facebook Post January 7, 2016 (Thai)] ''facebook.com''</ref> and the team went undefeated in 25 games to secure 1st place. The team finished in 2nd place at both the [[GPL/2016 Season/Spring|2016 GPL Spring]] and the [[GPL/2016 Season/Summer|2016 GPL Summer]], after which G4 left the team.<ref>[https://www.facebook.com/BangkokTitans/photos/a.297060900364353.64349.289291861141257/1151458388257929/?type=3 Bangkok Titans Facebook Post September 8, 2016 (Thai)] ''facebook.com''</ref>
+
+== Trivia ==
+* Riot's official esports website once described G4 as "the shining star of Thai League of Legends."
+* The only Thai mid laner to qualify for MSI or Worlds.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

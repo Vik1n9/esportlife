@@ -1,0 +1,59 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Infinity%20Esports%20Colombia&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.807Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity Esports Colombia」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=Yes
+|name= Infinity Esports Colombia
+|orgcountry= Costa Rica 
+|country= Colombia
+|region= LAT
+|image= InFinity eSports Colombialogo square.png
+|owner= Paul "'''Monrrow'''" Venegas
+|headcoach= 
+|website=
+|twitter= InFinitye_sport
+|facebook= https://www.facebook.com/InfinityEsportsLatam
+|youtube= https://www.youtube.com/channel/UCNwEvtAAfGbJeqYUmczAuBQ
+|instagram= infinitye_sports
+|sponsor= 
+|created= Main Team 2009-11-01 <br> Colombian Division 2018-12-28
+|disbanded= Colombian Division 2019-12-24
+|rosterphoto= INF.C Roster 2019 Spring.jpg
+}}{{TOCRWI|2}}
+
+'''Infinity Esports Colombia''' is a the Colombian team of [[INFINITY|Infinity Esports]].
+
+==History==
+Infinity puts its eyes on the Colombian competitive. For the Costa Rican team, the limit is infinite and it is not enough to shine in the 2018 Worlds and get a place in the 2019 LLA. "Los infinitos" start a new project in Colombia, the country of one of its great stars: [[Cotopaco]].
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+=== Former ===
+{{TeamMembersFormer}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Monrrow|cr|Paul Venegas|'''Founder & Chief Esports Officer'''}}
+{{listplayersp||ar|Diego Gonzalo Foresi|'''Co-Owner & Chief Executive Officer'''}}
+{{listplayersp||ar|Damián Szafirsztein|'''Co-Owner & Chief Marketing Officer'''}}
+{{listplayersp||ar|Nicolás Lescano|'''Co-Owner & Chief Communications Officer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|KerchaK|ar|Facundo Giménez|'''Head Coach'''|newteam=ETN}}
+{{listplayer|QFa|ar|Facundo Priolo|'''Head Analyst'''|newteam=UND}}
+{{listplayersp|Arwald|mx|Raúl Ibarra|'''Team Manager'''|newteam=retired}}
+{{listplayersp|ChinoLeon|cr|Erick León|'''Content Creator & Community Manager'''|newteam=INFINITY}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+=== Media ===
+{{TeamMedia}}
+
+==References==
+<references />

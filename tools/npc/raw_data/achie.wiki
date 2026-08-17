@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Achie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:38.880Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Achie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Achie
+|name=Chen Chen-Chi
+|nativename=陳振齊
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Taiwan
+|residency=PCS
+|birth_date_year=1992
+|birth_date_month=September
+|birth_date_day=23
+|favchamp=Jayce
+|favchamp2=Kennen
+|favchamp3=Ryze
+|checkbox1=No
+|checkboxComp=No
+|ids=東南亞071,AZB TPA Achie, 完美高手, TPA KING (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/archie_lol
+|facebook=https://www.facebook.com/Achielol
+|videoarchive=https://www.Azubu.tv/Achie
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=After retiring from playing he became an esports lecturer for [[SuperEsports]] in Taiwan.
+|checkbox-res=Yes
+|residency-prev1=Taiwan
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Analyst
+|prev2=Jungler
+|prev3=Mid
+|prev4=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Has the blood type O-.
+* Competed in several amateur tournaments before officially joining [[Azubu Taipei Assassins|AZUBU Taipei Assassins]] on June 30, 2013.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

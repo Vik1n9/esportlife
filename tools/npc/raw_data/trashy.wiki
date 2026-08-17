@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kold&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.785Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Trashy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Kold
+|name=Jonas Andersen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=Europe
+|birth_date_year=1995
+|birth_date_month=February
+|birth_date_day=22
+|favchamp=Jarvan IV
+|favchamp2=Elise
+|favchamp3=Lee Sin
+|checkbox1=No
+|compID1=Trashy
+|checkboxComp=No
+|ids=UOL Kold (EUW), Koold (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/koldofficial
+|twitter=KoldLoL
+|instagram=koldofficial
+|askfm=TrashyLoL95
+|snapchat=trashylol
+|lolpros=https://lolpros.gg/player/kold
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Trashy'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+On November 9, 2014, Kold joined the newly formed [[SK Gaming Prime]] together with [[beansu]], [[Godbro]], [[Steelback]] and [[Hiiva]]. Kold competed in the [[Riot League Championship Series/Europe/2015 Season/Spring Expansion|2015 Spring Expansion]] with SK Prime. The team were knocked out in Round 1 of the online phase after being beaten by [[Reason Gaming]].
+
+On January 5, 2015, he joined [[Enemy eSports]], moving to North America to play for the team.<ref>[http://www.enemyesports.com/?p=625 Enemy LoL Full Roster Announced!] ''enemyesports.com''</ref>
+
+===2015 Season===
+Enemy played in the [[2015 NA Challenger Series/Spring Qualifier|North American Challenger Series qualifiers]] as the #1 seed from the Ranked 5's ladder and qualified for the [[2015 NA Challenger Series/Spring Season|Challenger Series]] with 2-0 victories over Arbiters and Darkness. They finished the Challenger season as the top team with a 9-1 record, dropping only one game to [[Team Fusion]]. In the [[2015 NA Challenger Series/Spring Playoffs|playoffs]], they defeated [[Final Five]] and then [[Team Dragon Knights]] and successfully qualified for the [[Riot League Championship Series/North America/2015 Season/Summer Season|Summer LCS split]]. Enemy's summer split performance was rocky, and they didn't finish higher than seventh place a single week after the second. They ended the split in ninth place, one game above [[Team Dragon Knights]], narrowly avoiding autorelegation. However, in the [[League Championship Series/North America/2016 Season/Spring Promotion|2016 Spring Promotion tournament]], Enemy lost 3-0 to [[Team Coast]] and were sent to the [[2016 NA Challenger Series/Spring Season|Challenger Series]]. After their relegation, Kold left the team.
+
+===2016 Season===
+Kold returned to Europe for the 2016 Season, joining [[Splyce]] for the [[League Championship Series/Europe/2016 Season/Spring Season|EU LCS Spring Split]]. Over the course of the split, Splyce stayed consistently in either seventh place or tied for eighth place. Their final record was 5-13, in 8th place ahead of [[Team ROCCAT]] and behind [[Elements]]. With a favorable [[League Championship Series/Europe/2016 Season/Summer Promotion|promotion tournament]] seed, Splyce played against [[Giants Gaming]] and won 3-2, requalifying for the LCS for the [[League Championship Series/Europe/2016 Season/Summer Season|summer split]].
+The Summer Split was much more successful for the team, as they placed in second place in both the Regular Season and the [[League Championship Series/Europe/2016 Season/Summer Playoffs|Playoffs]] and then qualified for the [[2016 Season World Championship]] as winners of the [[2016 Season Europe Regional Finals|Regional Qualifier]]. 
+The team's greatest strenght was their understanding of the macro aspect of the game, with Kold playing a pivotal role from the jungle position. The Danish player was often praised by experts for his cerebral and calculated approach to jungling and his understanding of enemy jungle pathing and how to set up counterplays accordingly, as he himself stated: "I always look at the game where I try to understand the state of the game, and if the state of the game is that I’m gonna do an aggressive play, that’s what I do. Everything is based off of though process and how you’re supposed to play the game".<ref>[http://slingshotesports.com/2016/10/03/splyce-trashy-jonas-anderson-league-of-legends-world-championships-group-stage/ Trashy: “We have to be realistic about what we can do.”] ''slingshotesports.com''</ref>
+
+== Trivia ==
+
+=== Individual Awards ===
+* 1x EU 2nd All Pro Team (Summer 2017)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

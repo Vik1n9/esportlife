@@ -1,0 +1,101 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=V3%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:42.547Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「V3 Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= V3 Esports
+|organization=V3 Esports (Organization)
+|orgcountry= Japan  
+|country=
+|region= PCS
+|headcoach= 
+|website= http://v3esports.com
+|facebook=
+|twitter= V3esportsJP
+|instagram= v3esports2020
+|youtube= https://www.youtube.com/channel/UCKqrHlS4mb2CRC05PgftCEQ
+|sponsor= [http://www.ht-school.jp/  Kobe High Tech. School]<br>[http://www.nac.ac.jp/ Nishinihon Academy Airline College]<br>[http://www.prospera.ac.jp/ Prospera Business Institute]<br>[https://www.knt-liner.co.jp/ Rokko Liner]<br>[https://www.maedarealestate.com/ Maeda Real Estate]<br>[https://www.kobe-minato.co.jp/ みなと観光バス]<br>[https://daieikankyo.jp/ Daiei Kankyo]<br>[http://www.ric-winds.com/ RIC WINDS]
+|created= 2017-05
+|rosterphoto=V3 Esports 2024 Spring roster.png
+}}{{TOCRWI}}
+
+'''V3 Esports''' is a Japanese team. Their sister team is [[V3 New Generation]]. They are owned by '''学校法人神戸学園''' (Kobe High Tech School).
+
+== History ==
+The team was formed in May 2017 in Japan.
+
+== Trivia ==
+* Known for getting the longest losing streak in pro League of Legends history, with their 39 straight defeats collected from August 2021 to August 2022.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+=== Current ===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Manju|jp|Masato Ishii (石井正人)|'''Middle Manager'''}}
+{{listplayersp|masukun|jp||'''Manager'''}}
+{{listplayer|Awaker (Kentaro Hanaoka)|jp|Kentaro Hanaoka (花岡健太郎)|'''Supervisor'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Acee|jp|Kotoji Mugita|'''Coach'''|newteam=Rising Gaming}}
+{{listplayer|HW4NG|kr|Hwang Young-sik (황영식)|'''Head Coach'''|newteam=REJECT}}
+{{listplayersp|Gkun|jp|Shungo Ito|'''Manager'''|newteam=Retired}}
+{{listplayersp|Khalid|jp||'''Sports Psychologist'''|newteam=Retired}}
+{{listplayer|Ace (Kotoji Mugita)|jp|Kotoji Mugita|'''Coach'''|newteam=v3|comment=[[File:Midrole icon.png|19px|link=]] Mid}}
+{{listplayer|Meat|jp|Satoki Aida|'''Sub Coach'''|newteam=Retired}}
+{{listplayer|HW4NG|kr|Hwang Young-sik (황영식)|'''Head Coach'''|newteam=V3 Esports|comment=Head Coach}}
+{{listplayer|Dragon (Lee Jun-yong)|kr|Lee Jun-yong (이준용)|'''Coach'''|newteam=Retired}}
+{{listplayersp|Geki|jp||'''Manager'''|newteam=Retired}}
+{{listplayer|Son|kr|Son Jae-seok (손재석)|'''Coach'''|newteam=Sengoku Gaming}}
+{{listplayer|Kevin Miller|jp|Kevin Miller|'''Owner'''|newteam=CTBC Flying Oyster}}
+{{listplayer|1onz|ca|Tom Rahman|'''Head Coach'''|newteam=Rascal Jester}}
+{{listplayer|Awaker (Kentaro Hanaoka)|jp|Kentaro Hanaoka|'''Assistant Coach'''|newteam=FSHG}}
+{{listplayersp|Admwtpg|jp||'''General Manager'''|newteam=Retired}}
+{{listplayersp|Kureha|jp||'''Team Manager'''|newteam=Retired}}
+{{listplayersp|discord4415|jp||'''Advisor'''|newteam=Burning Core}}
+{{listplayer|Maplestreet|ca|Ainslie Wyllie|'''Strategic Coach'''|newteam=Sengoku Gaming Legends}}
+{{listplayersp|Aries<!--|link=Aries (Takayuki Shinjo)-->|jp|Takayuki Shinjo|'''Assistant Coach'''|newteam=Retired}}
+{{listplayersp|SoWhaaaaat|jp|So Masuoka (益岡 想)|'''Analyst'''|newteam=Burning Core}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+== Videos ==
+
+== Highlight Videos ==
+
+== Images ==
+=== Logo ===
+<gallery>
+V3 Esports Old Logo.png|Previous logo
+</gallery>
+=== Roster ===
+<gallery>
+V3 Esports Roster 2018 Spring.png|2018 Spring
+V3 Esports 2019 Spring.png|2019 Spring
+V3 Esports 2019 Summer.png|2019 Summer
+V3 Esports 2020 spring.jpg|V3 Esports' 2020 LJL Spring Roster
+V3 Worlds 2020.png|V3 Esports' Worlds 2020
+V3 Esports' 2022 LJL Spring Roster.png||V3 Esports' 2022 LJL Spring Roster
+V3-2022summer.jpg|2022 Summer
+V3 Esports 2023 spring roster.png|LJL 2023 Spring & Summer Roster
+</gallery>
+
+==External Links==
+
+==References==
+<references />

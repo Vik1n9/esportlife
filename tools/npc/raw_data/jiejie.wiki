@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Jiejie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:06.666Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jiejie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Jiejie
+|name=Zhao Li-Jie
+|nativename=赵礼杰
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2001
+|birth_date_month=October
+|birth_date_day=27
+|checkbox1=No
+|compID1=JieJie
+|checkboxComp=No
+|ids='''KR:''' 나는변신할것이다<br>Dan Xiao Gu<br>'''EUW:''' Dinner first
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/913005
+|weibo=https://weibo.com/n/JieJie%E8%B5%B5%E7%A4%BC%E6%9D%B0
+|deeplol=https://www.deeplol.gg/pro/JieJie
+|dpmlol=https://dpm.lol/pro/Jiejie
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Known as ''The Third Prince of [[EDward Gaming|EDG]]''.
+* Known for his confident words after winning games.
+* One of two players to play on all three LPL world champion teams ([[EDward Gaming|EDG]], [[Invictus Gaming|IG]], and [[FunPlus Phoenix|FPX]]).
+=== Statistics ===
+* Reached 3000 assists in the LPL on July 05, 2024.
+** Was the 32nd player to reach 3000 assists in the LPL.
+* Reached 1000 kills in the LPL on July 16, 2024.
+** The 49th player to reach 1000 kills in the LPL.
+* Reached 500 games in the LPL on June 4, 2025.
+** The 34th player to reach 500 games in the LPL.
+* Reached 300 wins in the LPL on August 30, 2025.
+** Was the 25th player to reach 300 wins in the LPL.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

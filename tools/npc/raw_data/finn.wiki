@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Finn&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.078Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Finn」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Finn
+|name=Finn Wiestål
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Sweden
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=June
+|birth_date_day=03
+|favchamp=Irelia
+|favchamp2=Kled
+|checkbox1=No
+|compID1=Blomster Finn
+|checkboxComp=No
+|ids='''NA:''' Blomster Finn<br>'''EUW:''' Jeong Hyeok<br>CLG Finn<br>Finn1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Analyst
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/f1nn_lol
+|twitter=FinnLoL
+|instagram=finnwiestal
+|snapchat=Finn.WiKo
+|youtube=https://www.youtube.com/channel/UCZ6cyrFjF65De5G4NVb4XsQ
+|discord=https://discord.gg/mVWZcDjKf4
+|lolpros=https://lolpros.gg/player/finn
+|deeplol=https://www.deeplol.gg/pro/Finn
+|bluesky=finnlol1.bsky.social
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Blomster Finn'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Started playing video games when he was 4 years old on the old Gameboy. In season 2 he got introduced to League of Legends, but almost only played normal games. In season 6 he began try harding and got to Challenger by the end of the season. His professional career started on the russian [[Team Empire]] in March 2017. 
+
+== Trivia ==
+* Admires [[Shemek]] and [[sOAZ]].
+* Originally a {{ci|Kled}} one-trick, and has an excellent winrate on the pick as a pro. 
+{{PlayerStatsTrivia}}
+
+== Casting History ==
+{{CastingHistory}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

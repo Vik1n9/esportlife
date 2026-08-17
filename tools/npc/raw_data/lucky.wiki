@@ -1,0 +1,10 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Lucky&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Lucky」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Lucky (Liu Jun-Jie)
+|player2=Lucky (Luca Santos)
+|player3=Lucky (Jørgen Julius Sjursen Ystebø)
+|player4=Lucky (Alejandro Ko)
+|player5=Lucky (Tong-He Zhang)
+|player6=Lucky (Wang Yu-Fan)
+}}

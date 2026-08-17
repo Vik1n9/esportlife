@@ -1,0 +1,129 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Knight%20(Zhuo%20Ding)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.547Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「knight」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Knight
+|name=Zhuo Ding
+|nativename=卓定
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=May
+|birth_date_day=22
+|favchamp=Ahri
+|favchamp2=Ryze
+|favchamp3=Ekko
+|favchamp4=Akali
+|checkbox1=Yes
+|favchamp5=Syndra
+|favchamp6=Sylas
+|favchamp7=Orianna
+|checkboxComp=No
+|ids='''CN:''' 2020karsa<br>'''KR:''' 쯔지 쌰 쯔지#4165 <br> '''EUW:''' asdfadsasdfads#1234 <br> '''NA:''' paraworld#369
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/knight9
+|weibo=https://www.weibo.com/n/Knight522
+|lolpros=https://lolpros.gg/player/knight
+|deeplol=https://www.deeplol.gg/pro/knight-Zhuo_Ding
+|dpmlol=https://dpm.lol/pro/Knight
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+* Regarded as one of the best Midlanders in the whole world since 2019, also known for his constant 1v9 performances.
+* Held Rank 1 in the Korean solo queue several times.
+* Uses his left hand to control the mouse and his right hand for the keyboard.
+** Nicknamed ''Golden Left Hand'' by Chinese casters.
+* Good friends with [[YaGao]]. They are from the same city (Pingxiang) and met in an internet cafe before they became professional players.
+** [[YaGao]] beat him to become the #1 mid of Pingxiang.
+** Played as a jungler when they were in the same internet cafe team, with [[YaGao]] as the mid-laner.
+* Known for his {{ci|Ekko}} and {{ci|Zoe}}. Holds a high win rate with these champions.
+* Holds an extremely high win rate as {{ci|ahri}}, includes a 28 win-streak.
+* Known for building {{ii|Mejai's Soulstealer}} constantly, which led to the [[LoL Pro League | LPL's]] English cast to measure up other Midlanders in the league based on this habit.
+* His ID '''Knight''' is actually ''K-Night''. He wanted the name ''Night'' but it was taken by another account. He randomly added a K to the start of the word, not knowing that ''knight'' is also a word in English.<ref>[https://medium.com/@ritaleung_1102/tes-knight-growth-of-the-best-chinese-mid-laner-241d95797087 TES Knight: Growth of the best Chinese mid laner] ''medium.com''</ref>
+* Holds the record for the most solo kills in a single regular split. He recorded 35 solo kills in [[LPL/2021 Season/Summer Season| LPL 2021 Summer]].
+=== Statistics ===
+* Reached 1000 kills in the LPL on August 8, 2020.
+** The 24th player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on January 15, 2022.
+** The 15th player to reach 1500 kills in the LPL.
+** Needed the 2nd fewest games to reach 1500 kills after [[Uzi (Jian Zi-Hao)|Uzi]].
+* Reached 2000 kills in the LPL on September 1, 2022.
+** The 10th player to reach 2000 kills in the LPL.
+** Needed the 2nd fewest games to reach 2000 kills after Uzi.
+* Reached 2500 kills in the LPL on February 24, 2024.
+** The 7th player to reach 2500 kills in the LPL.
+** Needed the 2nd fewest games to reach 2500 kills after Uzi.
+* Reached 3000 kills in the LPL on February 26, 2025.
+** The 4th player to reach 3000 kills in the LPL.
+** [[JackeyLove]] claimed the same milestone in the same match.
+* Reached 3500 kills in the LPL on August 13, 2025.
+** The 3rd player to reach 3500 Kills in the LPL after [[Rookie]] and [[xiaohu]].
+* Reached 4000 kills in the LPL on April 26, 2026.
+** The 3rd player to reach 4000 Kills in the LPL after [[Rookie]] and [[xiaohu]].
+* Reached 300 wins in the LPL on March 12, 2023.
+** [[Chovy]] got his LCK 300 wins on the same day.
+** Was the 15th player to reach 300 wins in the LPL after [[Clearlove]], [[meiko]], [[Uzi (Jian Zi-Hao)|Uzi]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], [[Flandre]], [[Ming (Shi Sen-Ming)|Ming]], [[xiye]], [[Lwx]], [[JackeyLove]], [[Crisp]], and [[Yagao]].
+* Reached 400 wins in the LPL on June 18, 2024. This time 4 days after Chovy
+** Was the 8th player to reach 400 wins in the LPL after [[meiko]], [[xiaohu]], [[Rookie]], [[Doinb]], [[Scout]], [[JackeyLove]], and [[Yagao]].
+* Reached 500 wins in the LPL on August 10, 2025.
+** Was the 6th player to reach 500 wins in the LPL after [[meiko]], [[xiaohu]], Rookie, Scout, and JackeyLove.
+* Reached 500 games in the LPL on June 8, 2023
+** The 18th player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on June 27, 2024
+** The 12th player to reach 600 games in the LPL.
+* Reached 700 games in the LPL on May 13, 2025
+** The 9th player to reach 700 games in the LPL after meiko, xiaohu, Rookie, Scout, Flandre, Crisp, JackeyLove, and Doinb.
+* Reached 800 games in the LPL on January 31, 2026
+** The 8th player to reach 800 games in the LPL after meiko, xiaohu, Rookie, Scout, Flandre, Crisp, and JackeyLove.
+* Reached 3000 assists in the LPL on June 27, 2023.
+** Was the 23rd player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on April 10, 2025.
+** Was the 18th player to reach 4000 assists in the LPL.
+
+=== Individual Awards ===
+* Finals MVP x7 (LPL Summer 2020, MSI 2023, LPL Summer 2023, Demacia Cup 2023, LPL Summer 2024, LPL Grand Finals 2025, Split 2 2026)
+* LPL MVP x4 (Summer 2019, Summer 2020, Spring 2024, Split 2 2026)
+* LPL 1st All-Pro Team x9 (Summer 2019, Summer 2020, Summer 2023, Spring 2024, Summer 2024, Split 2 2025, Split 3 2025, Split 1 2026, Split 2 2026)
+* LPL 2nd All-Pro Team x4 (Spring 2019, Summer 2021, Summer 2022, Spring 2023)
+* LPL 3rd All-Pro Team x3 (Spring 2020, Spring 2021, Split 1 2025)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,72 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:47.591Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Zin
+|name=Nguyễn Tuấn Thọ
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1999
+|birth_date_month=January
+|birth_date_day=11
+|checkbox1=No
+|checkboxComp=No
+|ids=Tiger Bengali (KR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://player.tamago.live/w/1873980
+|lolpros=https://lolpros.gg/player/zin-1/
+|deeplol=https://www.deeplol.gg/pro/Zin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Inactive
+|prev2=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+<!-- This is where a biography goes. Be sure to keep it concise and factual. No opinions! -->
+
+== Trivia ==
+* Is known for having a loud voice during comms.
+* Switched positions during the [[VCS 2020 Spring]] off-season from bot laner to support.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+<!-- List any interviews with the player. Make sure the list follows the order of oldest interviews at the top, newest at the bottom. Use an asterisk (*) in front of each link to create a bulleted list. -->
+=== Images ===
+{{PlayerProfileGallery}}
+==External Links==
+<!-- List any external links for the player. This could be a personal website, playlist used for streaming, or any other link relevant to the player. Use an asterisk (*) in front of each link to create a bulleted list. -->
+
+{{PlayerPageEnd}}

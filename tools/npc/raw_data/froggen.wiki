@@ -1,0 +1,181 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Froggen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.081Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Froggen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Froggen
+|name=Henrik Hansen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=February
+|birth_date_day=21
+|favchamp=Anivia
+|favchamp2=LeBlanc
+|favchamp3=Ahri
+|favchamp4=Kassadin
+|checkbox1=Yes
+|favchamp5=Twisted Fate
+|checkboxComp=No
+|ids='''EUW:''' Froggen, YouGotFrogged, HQIQFOPT<br>'''NA:''' Froggen<br> '''KR:''' midlane kingdom
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/froggen
+|facebook=https://www.facebook.com/Froggen.LoL
+|twitter=Froggen
+|instagram=froggenhenrik
+|askfm=FrogTheAnivia
+|snapchat=froggenivia
+|reddit=Froggen
+|youtube=https://youtube.com/channel/UCCtqo-zzKZhBNxwAjlqX4rA
+|discord=https://discord.gg/VZyAuWv
+|lolpros=https://lolpros.gg/player/froggen/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+Since his childhood, Henrik "'''Froggen'''" Hansen has played video games such as Counter-Strike and Warcraft 3. Froggen was introduced to League of Legends by his brother and, over time, realized that becoming a professional gamer was a possibility. Froggen's competitive drive and desire to be the best AP Carry in League of Legends has landed him amongst the best players in the world of professional gaming. Mechanics and lane dominance are two aspects of Froggen’s gameplay that he believes will set him above the rest, and secure victories for his team.
+
+===Season 1===
+Froggen's League of Legends career started with him spending a few months on minor teams, before joining [[Team Infused]]. After the team disbanded, just a month later, Froggen moved on to join [[Absolute Legends]], where he met [[Wickd]]. With the merger of Absolute Legends and [[Counter Logic Gaming]], the team [[Counter Logic Gaming EU]] was formed.
+
+===Season 2===
+Newly formed [[Counter Logic Gaming EU|CLG.EU]]'s first appearance would come at [[Kings of Europe]]. The team won the tournament and made a big statement by beating [[Moscow Five]] in the final. They would go on to follow this up with another triumph against Moscow Five, beating them in the final of the [[Corsair Vengeance Cup]].
+
+A long season saw Froggen and CLG.EU face Moscow Five on a number of other occasions. The next time the two would meet was the final of [[DreamHack Summer 2012]], where again CLG.EU came out victorious. Despite their early season dominance, Froggen and the team were beaten by Moscow Five in the final of [[European Challenger Circuit: Poland|ECC Poland]].
+
+Next up for CLG.EU were the [[Season 2/Regional Finals - Cologne|Regional Finals]], where the team placed 3rd behind [[SK Gaming]] and Moscow Five. The team's performance sealed them a spot at the [[Season 2 World Championship]]. In preparation for this, CLG.EU placed second at [[Azubu The Champions Summer 2012]] against mainly Korean opposition. 
+
+At the [[Season 2 World Championship]], Froggen and the team finished in 2nd place in the group stages, securing them a place in the knockout rounds of the tournament. [[Counter Logic Gaming EU|CLG.EU]] beat [[Team WE]] in the quarterfinals of the tournament, but were beaten in the semifinals by [[Madlife]]'s [[Azubu Frost]].
+
+The team finished the season off with a 3rd place finish at the [[2012 MLG Pro Circuit/Fall/Championship|MLG Fall Championship]] and a 2nd placed finish at [[DreamHack Winter 2012]]. At the close of the season, the team decided to split with the CLG organization and join [[Evil Geniuses.EU|Evil Geniuses]].
+
+===Season 3===
+A new challenge presented itself to Froggen and the team in the form of the upcoming [[Riot League Championship Series/Europe/Season 3/Spring Round Robin|LCS Spring Split]]. A number of good performances on {{ci|Twisted Fate}} from Froggen saw the team finish 4th, granting them a spot in the [[Riot League Championship Series/Europe/Season 3/Spring Playoffs|Spring Playoffs]]. [[Evil Geniuses.EU|Evil Geniuses]] lost to [[Fnatic]] in the semifinals of the tournament, but the team clinched 3rd place by beating [[SK Gaming]] in the third-place match.
+
+With Froggen now performing especially well on {{ci|Ahri}} and {{ci|Jayce}}, the [[Riot League Championship Series/Europe/Season 3/Summer Round Robin|Summer Split]] was strangely similar to the Spring Split for EG. With a 3rd place finish, they secured a spot in the [[Riot League Championship Series/Europe/Season 3/Summer Playoffs|Summer Playoffs]]. Playoffs losses to [[Fnatic]] in the semifinal and [[Moscow Five]] in the third-place match saw Evil Geniuses finish 4th.
+
+On December 10, 2013, Froggen and longtime teammate [[Wickd]] left [[Evil Geniuses.EU|Evil Geniuses]] and joined [[Alliance]].<ref>http://league.thealliance.gg/</ref>
+
+===2014 Season===
+The start of the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin| Spring Split]] was disappointing for Froggen and the rest of Alliance, as they found themselves consistently ranked in the bottom 3 teams, until the 8th week. From here onwards, Alliance dominated the split. An overall team improvement propelled them up to 1st in the penultimate week. Froggen's individual performances saw him collect 2 weekly MVP awards and the overall MVP award for the split. In an unsuccessful superweek, Alliance lost the top spot and finished in 3rd place behind [[SK Gaming]] and [[Fnatic]].
+
+Alliance's performance in their first split resulted in their qualification for the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. The playoffs saw the team lose to Fnatic in the semifinal, and then to [[ROCCAT]] in the third-place match.
+
+Froggen was voted by EU fans to take part in the All-Star Challenge at [[All-Star Paris 2014]] along with [[Diamondprox]]. Froggen played on [[Team Ice]] during the tournament along with [[Doublelift]], [[Madlife]] and others. His 'Super 1v1' win against [[Team Fire]]'s [[WeiXiao]] secured the overall win for Team Ice.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] saw Alliance emulate their form from the end of the Spring Split. Froggen's impressive performances on a range of champions, including {{ci|Xerath}} in particular, helped the team to a 1st place finish - with Alliance staying at the peak of the rankings table for the entire split.
+
+Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for Froggen to qualify for the [[2014 Season World Championship|World Championship]] in his first season with the organization. Alliance placed 1st in the playoffs, beating Fnatic in the final, and secured themselves a place at the World Championship.
+
+The World Championship saw Alliance placed in Group D along with [[NaJin White Shield]], [[Cloud9]] and [[KaBuM! e-Sports]]. Despite successful games for Froggen on {{ci|Ahri}}, Alliance beat each team once and lost to each team once, resulting in a 3rd place finish in the group. This meant they would not go any further in the tournament.
+
+===2015 Season===
+Alliance were the European team invited to [[IEM Season IX - San Jose|IEM San Jose]]. Seeded directly into the semifinals, Froggen and the team lost their matchup to [[Cloud9]] and tied for third place with [[Team SoloMid]]. 
+
+In order to comply with new LCS regulations, [[Alliance]] would have to change their name for the upcoming season, and they rebranded as [[Elements]].<ref>[http://www.facebook.com/Elementsgg/posts/662967857147816 Elements Facebook Post] ''facebook.com''</ref> The [[Riot League Championship Series/Europe/2015 Season/Spring Season|Spring Split]] itself was not a success for the team, finishing in 7th place after making a number of roster changes. This meant that the team would not go to playoffs, but would qualify for the [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]].
+
+After the split, Elements changed their roster significantly; Froggen being the only member to stay on the team, while [[Jwaow]], [[dexter]], [[Tabzz]], and [[promisQ]] joined as starters.<ref>[http://www.facebook.com/Elementsgg/posts/726955550749046 Elements' Facebook Post] ''facebook.com''</ref> The [[Riot League Championship Series/Europe/2015 Season/Summer Season|Summer Split]] was also disappointing for the team, again finishing in 7th place, though this meant that they would still have a place in next season's [[Riot League Championship Series/Europe/2016 Season/Spring Season|Spring Split]].
+
+===2016 Season===
+Froggen moved to North America for the 2016 season, joining new venture-capital-backed team [[Echo Fox]] along with [[Keith]], [[Hard]], [[Big]], and Korean soloqueue star top laner [[kfo]]. Visa problems kept Froggen, Hard, and kfo out of competition for several games early on in the season, and despite an upswing after the full roster returned, Echo Fox placed seventh at the end of the spring split - out of [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]] but also safe from [[League Championship Series/North America/2016 Season/Summer Promotion|relegation]]. Their overall season record was 6-12, with 6 of those losses coming from their games with a substitute roster as well as a forfeit prior to determining their substitute roster. With their full lineup, their record was 6-6.
+
+In the [[League Championship Series/North America/2016 Season/Summer Season|Summer Season]], Echo Fox had almost no roster problems at all - they substituted [[Grigne]] in for two games in week 3, and switched Froggen to top lane for one game while kfo played mid lane, but other than that they had a completely stable roster. With stability did not come an improvement over their spring performance; while they picked up several individual game wins (including handing [[Team SoloMid]] their only game 1 defeat of the entire split), the team lost every single series after the first week and finished in last place, three series behind the ninth-place [[NRG Esports]]. In the [[League Championship Series/North America/2017 Season/Spring Promotion|2017 Spring Promotion Tournament]], Echo Fox turned their season around and took advantage of NRG's weakness, beating [[Team Liquid Academy]] in the elimination round, losing to the much-improved [[Phoenix1]], and then sweeping NRG in the final series to return to the [[League Championship Series/North America/2017 Season/Spring Season|LCS]] for 2017.
+
+===2017 Season===
+After speculations about Froggen leaving Echo Fox rise, he subsequently released his official statement on Youtube in regards to his termination with the team and shared his perspective outlook for the future in 2018.
+
+===2018 Season===
+On the 29th March 2018 Origen, along with Riot Games confirmed that Origen along with some of the teams from the 2017 CS would compete in the new European Masters competition in April 2018. On the 31st March 2018, Origen announced that former KT Rolster jungler Choi "inSec" In-Seok would join the team. On the 3rd April 2018, Origen announced that former G2 ESports toplaner Ki "Expect" Dae-han would also join the team. It was widely rumored on Twitch as well as on Discord that he will be returning to the League of Legends professional scene in 2018. This was later confirmed by Origen (eSports) on Twitter on April 5, 2018, as they announce that Froggen will be joining them as their mid laner.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+=== Anivia ===
+* Has a reputation for being one of the best {{ci|Anivia}} players in the world.
+** He owns an Anivia plush toy that he has taken onstage with him.
+** Has re-invented {{ci|Anivia}} multiple times, with successes in unusual builds such as [[Warmog's Armor]] and going for [[Chalice of Harmony]] and [[Tear of the Goddess]] for amplified mana regeneration.
+** Fans voted for him to play Anivia at the [[All-Star Paris 2014]] Pick-10 challenge on Day 3, and he recorded a K/D/A of 11/0/14 against [[Bjergsen]]'s {{ci|Zed}}.
+** One of his signature Anivia moves is to take Teleport and use it while Anivia (or "Eggnivia") has been KO'd while Rebirth is active (in egg form.)
+
+=== Playstyle ===
+* Is known for a farming-centric mid lane style of play
+** Previously held the unofficial record for reaching 300 cs the fastest in competitive play, hitting it at the 23:10 minute mark playing as {{ci|Karthus}}. He reached that mark during the group stages of the [[Season 2 World Championship]] against the [[Saigon Jokers]]. The record was later broken by [[XiaoWeiXiao]].
+** On March 13, 2016, achieved the record of [[List of Top CS Records|most CS in a single game]], with 764, defeating the previous record set by [[Coco]] in February 2015. Froggen played {{ci|Gangplank}} in a win against [[Team Dignitas]]. This record was broken on April 28 by [[ESC Ever|Ever]] AD carry [[LokeN]], in a 76-minute-long game on {{ci|Sivir}} in the [[LCK/2016 Season/Summer Promotion|LCK 2016 Summer Promotion Tournament]].
+* Known for playing unconventional champions in the middle lane, such {{ci|Corki}} years before Corki mid became meta
+* When in Korea in season 2, he was forced to go mid every game by his solo queue team mates. There he learned to play bruisers mid and picked up his now famous Lee Sin mid that won him a series at [[2012 MLG Pro Circuit/Fall/Championship|MLG Dallas 2012]].
+* One of the players to start the trend of running full magic resist rune pages and a playstyle involving rushing [[Abyssal Scepter]] on AP Carries.
+
+=== Memorable Games ===
+* All-Star 1v1 Showmatches
+** Defeated [[WeiXiao]]'s {{ci|Jarvan IV}} with {{ci|Yasuo}} in an ace match to determine the All-Star Challenge at [[All-Star Paris 2014]].
+** He defeated [[Faker]] in an Anivia mirror match in the opening round of the 1v1 tournament at [[All-Star Los Angeles 2015]] - the first time the two played against each other in competitive play.
+** After his win against Faker, he defeated [[Koro1]]'s {{ci|Quinn}} with an AP {{ci|Nasus}} in the second round of the 1v1 tournament at [[All-Star Los Angeles 2015]].
+** In the ensuing quarterfinals at All-Star LA, he defeated [[Aphromoo]] in a {{ci|Zilean}} mirror match where both agreed to use only auto-attacks and not kill or attack each other.
+* He played support in an LCS game - namely, the third-place tiebreaker against Gambit in Summer 2013. He went 2/4/19 on {{ci|Blitzcrank}} while Krepo took his place with Anivia in the middle lane.
+=== Other ===
+* Favorite anime are ''[[wikipedia:en:Angel_Beats!|Angel Beats!]]'' and ''[[wikipedia:Shakugan_no_Shana|Shakugan no Shana]]''.<ref>[https://www.youtube.com/watch?v=1QKbUt3L5ms Alliance Froggen 20 Questions] ''youtube.com''</ref>
+* Favorite food is French Fries. 
+* Often plays Tetris while waiting for his queue to pop.
+* He was selected by ggChronicle as the 2012 Player of the Year as well as being given the Silver Deathcap award for being a member of the fantasy team, World Team Two<ref>[http://ggchronicle.com/player-of-the-year-2012-henrik-froggen-hansen/ Player of the Year 2012: Henrik "Froggen" Hansen] ggchronicle.com</ref><ref>[http://ggchronicle.com/world-team-of-the-year-2012-group-b/ World Team of the Year 2012: Group B] ggchronicle.com</ref>.
+* In 2012, [[ocelote]] accused Froggen of DDosing a game and later apologized for his accusation. Since then, it has been a running joke in the community that whenever a stream lags, it is due to Froggen ddosing the event.
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+== Highlight Videos ==
+{{TDRight
+|name4=2015
+|content4=
+*August 23, [http://www.youtube.com/watch?v=g9eo3Jzj4-MFroggen Weekly Highlight #1]
+
+|name3=2014
+|content3=
+* June 11, [http://www.youtube.com/watch?v=yMoamtr5Jto Best of Froggen - Highlights & Funny Moments]
+* August 28, [http://www.youtube.com/watch?v=vx2icPCtRhU Froggen Best Mid EU Highlights - 2014 EU LCS Summer + Paris Allstars]
+* November 23, [http://www.youtube.com/watch?v=poavTdk_mO0 Froggen's Lux Game 29/2/13]
+
+|name2=2013
+|content2=
+* February 4, [http://www.youtube.com/watch?v=qFESqRgDkG0 FROGGEN HIGHLIGHT ➪ by N3tworkKitt3N]
+* July 30, [http://www.youtube.com/watch?v=ABsMXB-pqvk Froggen 300 minions in 20 minutes]
+* August 17, [http://www.youtube.com/watch?v=GtjOhPzWWH8 Froggen's Best Plays | LoL Pro Series]
+
+|name1=2012
+|content1=
+* October 5, [http://www.youtube.com/watch?v=jf0HW0C0pPc Froggen beats Scarra's CS Record]
+* October 19, [http://www.youtube.com/watch?v=KsbtvhxPrys Pentakill - Froggen's Lee Sin Ranked on NA servers - Tribute 2200 elo PotD]
+}}
+
+== Other Video Content ==
+* October 5, 2012 - [http://www.youtube.com/watch?v=9g8E8B3eiBI Froggen Anivia dance + Snoopeh stare down]
+* July 17, 2013 - [http://www.youtube.com/watch?v=ns5rEtSCCrI League of Legends Player Spotlight - Froggen]
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

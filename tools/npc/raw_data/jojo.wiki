@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=JoJo%20(Gabriel%20Dzelme)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.104Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Jojo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=JoJo
+|name=Gabriel Dzelme de Oliveira
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1998
+|birth_date_month=November
+|birth_date_day=11
+|favchamp=Janna
+|favchamp2=Rakan
+|favchamp3=Pyke
+|checkbox1=No
+|compID1=JoJo
+|checkboxComp=No
+|ids='''BR''': Jojos#8306<br>'''EUW:''' Aegis fangirlQAQ<br>'''NA:''' Jojos#Tatu<br>'''KR:'''KBM Grevthar#PRIMO
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/jojolol11
+|twitter=jojooolol
+|instagram=Jojoo.lol11
+|lolpros=https://br.lolpros.gg/player/jojo
+|deeplol=https://www.deeplol.gg/pro/Jojo-Gabriel_Dzelme
+|dpmlol=https://dpm.lol/pro/JoJo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''Jojo'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+'''Jojo''' is from Niterói, Rio de Janeiro.
+
+== Trivia ==
+* There's a running gag among the community that he has a elderly and grumpy personality.<ref>[https://twitter.com/REDCanids/status/1770141671663022536 RED Canids' Tweet] ''twitter.com''</ref>
+* He revealed in a interview to [[Fogueta]] after winning the [[LTA South 2025 Split 2 Playoffs|LTA South]] that he almost considered retiring in the previous year but got supported by [[RedBert]] to not retire and continue competing.
+* In a interview to [[LeonButcher]], he revealed that he was left out of [[RED Canids]] in 2024 after the team left the decision of which support to play with [[Brance]].
+===Awards===
+* 1x CBLOL KIA All-Pro 1st Team (Split 1)
+===Equipment===
+* Mouse: Logitech G Pro X Superlight 2
+* Keyboard: Logitech G Pro X TKL
+* Mousepad: Logitech G840 KDA
+{{PlayerStatsTrivia}}
+
+== Achievements ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

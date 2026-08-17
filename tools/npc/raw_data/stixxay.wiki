@@ -1,0 +1,110 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Stixxay&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.626Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Stixxay」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Stixxay
+|name=Trevor Hayes
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1997
+|birth_date_month=March
+|birth_date_day=16
+|favchamp=Tristana
+|favchamp2=Twitch
+|favchamp3=Vayne
+|favchamp4=Warwick
+|checkbox1=Yes
+|checkboxComp=No
+|ids='''NA:''' IPlayYouListen, Stixxay<br>'''KR:''' CLG Sticker
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/stixxay
+|facebook=https://www.facebook.com/Stixxay
+|twitter=Stixxay
+|instagram=clgstixxay
+|snapchat=stixxayx
+|youtube=https://youtube.com/channel/UCDN2B1tqw4r8Q6YvvKOz-jw
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+}}
+==Biography==
+Trevor "'''Stixxay'''" Hayes joined [[Denial eSports]] in August 2014 as their starting AD carry. He played with them in the [[2014 NA Challenger Series/Summer Series/Series 2|Second Summer Series]] and the [[2014 NA Challenger Series/Summer Series/Playoffs|Summer Playoffs]] and later left the team.
+===2015 Season===
+Stixxay joined [[Cloud9]]'s new Challenger roster [[Cloud9 G2A]] as their starting support player along with teammates [[Solo (Colin Earnest)|Solo]], [[Yusui]], [[Hard]], and [[LOD]] in January 2015. However, soon after he left the team to join [[CLG.Black]], switching back to AD carry. In the [[2015_NA_Challenger_Series/Spring_Qualifier|2015 NACS Spring Qualifier]], the team defeated [[Rock Bottom Gorillas]] and then [[Team Liquid Academy]] to qualify for the [[2015_NA_Challenger_Series|Spring Season]]. However, they placed 6th and last in the season, after losing a tiebreaker game to [[TSM Darkness]].
+
+He was listed as a member of the main CLG team for the [[Riot League Championship Series/North America/2015 Season/Summer Season|Summer Split]]; however, after CLG Black's victory against [[Maelstrom]] in the [[2015 NA Challenger Series/Summer Qualifier|NACS Summer Qualifier]] he was banned for two weeks (weeks 2 and 3 of the split) because of toxicity.<ref>[http://na.lolesports.com/articles/competitive-ruling-stixxay Competitive Ruling: Stixxay] ''lolesports.com''</ref> Using substitute player [[Frost (Parsa Baghai)|Frost]], CLG Black lost to [[Cloud9 Tempest]] and then to [[Magnetic]], missing out on the [[2015 NA Challenger Series/Summer Season|summer season]].
+
+Stixxay was CLG's AD carry for [[IEM Season X - San Jose|IEM San Jose]], since [[Doublelift]] had left the team a few weeks prior.<ref>[http://clgaming.net/news/740 CLG CS:GO and LoL at IEM San Jose This Weekend] ''clgaming.net''</ref> CLG won against [[Unicorns of Love]] and [[Jin Air Green Wings]], but losing in the final against [[Origen]], finishing in 2nd place.
+
+=== 2016 Season ===
+In October 2015, [[Doublelift]] left CLG, and Stixxay substituted for him at [[IEM Season X - San Jose|IEM San Jose]] in November. The team defeated [[Unicorns of Love]] and [[Jin Air]] before losing to [[Origen]] in the finals. On January 6, 2016, Stixxay was officially announced as CLG's AD carry for the 2016 season.<ref>[http://clgaming.net/news/748-our-2016-league-of-legends-roster Our 2016 League of Legends Roster] ''clgaming.net''</ref>
+
+Their performance at IEM San Jose earned CLG a seed into [[IEM Season X - World Championship|IEM Katowice]], which they attended after the seventh week of the [[League Championship Series/North America/2016 Season/Spring Season|LCS]]. However, despite being in a strong position domestically, in second place behind only the almost-undefeated [[Immortals]] (to whom CLG had handed their only loss of the season the week before), CLG were eliminated immediately from Katowice, losing first to [[SK Telecom T1]] and then to [[Fnatic]].
+
+CLG entered the [[League Championship Series/Europe/2016 Season/Spring Playoffs|LCS playoffs]] in second place, still behind Immortals, and still the only team to have beaten Immortals in the regular season. They won their semifinal series against Team Liquid in five games, winning the last game with a double teleport play to catch out [[Piglet]] and close out a win. Stixxay's [[Tristana]] was banned in three of the five games due to his having practiced a [[Guinsoo's Rageblade]] build on the champion leading up to the series. He played it in game 4 and lost with it, and it remained uncontested in game 5. Despite seeding expectations, CLG's finals match was against TSM, who had 3-0'd Immortals the week before, and not against Immortals themselves. This series also went to five games, and CLG once again won, qualifying for the [[2016 Mid-Season Invitational|Mid-Season Invitational]]. In the fifth game, Stixxay picked Tristana for the first time since the Team Liquid game 4, and this time it was successful - early coordination from the team got him ahead, and after baiting and outplaying Sven's engage on Gragas, he reset multiple times in the game-winning fight. As a result of his play, he was granted the MVP title for the series, a result that heavily divided the community, with some people thinking he deserved it for some clutch plays and for heavily outperforming Doublelift in wins and in losses regardless of the match up, and some calling him not even top 2 player on CLG, suggesting the title was only given to him to further the Stixxay vs Doublelift storyline.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4feukj/froggens_opinion_on_stixxays_finals_performance/ Froggen's opinion on Stixxay's finals performance] ''reddit.com''</ref><ref>[http://www.reddit.com/r/leagueoflegends/comments/4fe9ix/how_did_stixxay_get_mvp/ How did Stixxay get MVP?] ''reddit.com''</ref><ref>[http://www.reddit.com/r/leagueoflegends/comments/4ffk5a/spoiler_xpecials_opinions_on_stixxays_final/ <nowiki>[Spoiler] Xpecial's opinions on Stixxay's final performance</nowiki>] ''reddit.com''</ref>
+
+However, at MSI he solidified public opinion of his skills by a few iconic plays, winning "All-Pro" ADC for his group stage performance and many foreign players in the interviews praising him as the most surprisingly good player at the tournament, potentially the best ADC at that MSI.
+
+Returning to North America for the [[League Championship Series/North America/2016 Season/Summer Season|Summer Split]], CLG were expected to be at the top of the league after their MSI performance. However, not only did they fail to achieve that, but they weren't even in the top half of the standings until week 6. From there, they climbed to a fourth place regular season finish. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]], CLG first faced off against Team Liquid, whom they beat 3-1, before falling to TSM 3-0 in the semifinals. Crucially, one of [[Huhi]]'s signature mid lane champions [[Aurelion Sol]] was found to have a bug partway through their first game, and the game was remade with Aurelion Sol disabled for the rest of the playoffs (though it was generally accepted that TSM would have won regardless).<ref>[http://www.thescoreesports.com/lol/news/8271-exit-the-dragon-on-competitive-integrity-and-aurelion-sol Exit the Dragon: On Competitive Integrity and Aurelion Sol] ''thescoreesports.com''</ref> CLG lost the third-place to [[Immortals]] but automatically qualified for the [[2016 Season World Championship|World Championship]] based on [[2016 Season/Championship Points|Championship Points]] due to TSM's finals win over Cloud9.
+
+CLG were seeded into Group A at Worlds, alongside the [[ROX Tigers]], [[G2 Esports]], and wildcard [[Albus NoX Luna]]. Going into the group, CLG and G2 were seen as contenders for the second seed, while Tigers and Albus NoX were expected to finish first and last, respectively. Instead, CLG dropped both of their games to the wildcard team, and ANX skyrocketed to a second-place group stage finish while G2 collapsed into last place; CLG ended their Worlds run in third with a 3-3 record.
+===2017 Season===
+
+Transitioning into the [[League_Championship_Series/North_America/2017_Season/Spring_Season|spring split]] of the 2017 LCS season, CLG was the only North American team to not make any changes to its roster. They were inconsistent to begin the split, fluctuating between 5th and 7th place over the first half of the season before stabilizing with a 2-0 week 5. CLG remained in the playoffs after that, and a 3-1 record down the stretch put them in fourth behind [[TSM]], [[Cloud9]] and a much improved [[Phoenix1]]. In the playoffs, CLG faced off against 5th seed [[FlyQuest]]. Although they started off strong with 2 wins, they were ultimately reverse swept and lost 2-3 which knocked them out of playoffs.
+
+In the mideason, CLG swapped junglers with [[Immortals]], sending [[Xmithie]], one of their longest tenured players, to the team for [[Dardoch]]. This change seemed to work out for both sides, as CLG began the season in a three way race for first with Immortals and TSM. As the season went on however, CLG's performance started to drop and eventually Dardoch left the team and was replaced by LCS rookie [[OmarGod]]. This stabilized CLG's play to some extent and they finished the regular season in 3rd place with a 12-6 record. In the playoffs CLG managed to defeat [[Team EnVyUs]] 3-2 in a hard fought series. They however lost 0-3 to [[Immortals]] in the Semifinals. In the third place match CLG swept [[Team Dignitas]] 3-0 to end their playoff run on a high note.
+
+Their third place finish gave CLG the second seed in the [[2017 Season North America Regional Finals|Regional Finals]]. There, they defeated FlyQuest 3-1, setting up a match with [[Cloud9]] to make [[2017 Season World Championship|Worlds]]. After they dropped the first two games, CLG managed to win the third and make it a series, but dropped the fourth and lost the series which in turn ended their 2017 season.
+
+== Trivia ==
+* His ID '''Stixxay''' is based on a band named "StixNStonez".
+* First main champion was {{ci|Katarina}}.
+* Achieved a 2200 rating as a Restoration Shaman in ''World of Warcraft''.
+* Favorite champion is {{ci|Vayne}}.
+* Has a peculiar keyboard settings, where he uses WASD to move the camera. 
+* Frequently the subject of jokes regarding his physical resemblance to [[PowerOfEvil]] after the two became teammates.
+* Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region (NA LCS Spring 2016) 
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (Summer 2023)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

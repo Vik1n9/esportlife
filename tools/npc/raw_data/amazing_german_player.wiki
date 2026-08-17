@@ -1,0 +1,112 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Amazing%20(Maurice%20St%C3%BCckenschneider)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.381Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Amazing (German player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Amazing
+|name=Maurice Stückenschneider
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=EMEA
+|birth_date_year=1994
+|birth_date_month=April
+|birth_date_day=02
+|favchamp=Lee Sin
+|favchamp2=Gragas
+|favchamp3=Rek'Sai
+|favchamp4=Elise
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Amazingx#2494
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/amazingx
+|facebook=https://www.facebook.com/amazinglolx
+|twitter=Amazingx
+|instagram=mauriceisamazing
+|snapchat=mauriceamazing
+|lolpros=https://lolpros.gg/player/amazing/
+|deeplol=https://www.deeplol.gg/pro/Amazing-Maurice_St%C3%BCckenschneider
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|prev2=Manager
+|prev3=Analyst
+}}
+==Biography==
+Maurice "'''Amazing'''" Stückenschneider is a German League of Legends player hailing from Bocholt, Germany. He first started playing games on consoles, and his first game was Crash Bandicoot when he was between five and six years old. He stuck to console gaming and played Call of Duty: Modern Warfare, and games from the Final Fantasy and Metal Gear Solid series.
+
+It was only in 2010 that Stückenschneider started playing PC games, as he participated in ESL events in Counter Strike: Source. However, his breakthrough came in League of Legends, a while after his brother introduced him to it. Initially dismissive of the cartoon-like appearance of the game, Stückenschneider returned to it sometime in Season 1, specializing in AD carries such as {{ci|Ashe}} and {{ci|Ezreal}}.
+
+===League of Legends Career===
+Amazing's drive to make an impact on the games he played drove him to main jungle. Using primarily {{ci|Udyr}}, {{ci|Shyvana}} and {{ci|Lee Sin}}, he rose through the ranks and peaked at 2.8k Elo in Season 2. His progression drew notice from many teams, the most notable at the time being LCS Season 3 Qualifier participant [[Team Acer]]. A string of failed attempts to qualify for the LCS almost caused him to retire, but [[Shook]]'s defection to [[Alliance]] allowed him to settle in one more team, the [[Copenhagen Wolves]].
+
+===2014 Season===
+It was with Copenhagen Wolves that Amazing finally reached the LCS. The [[Riot_League_Championship_Series/Europe/2014_Season|Spring Split]] proved to be the break he needed, and he gained a reputation for his high mechanics and proficiency on {{ci|Lee Sin}}, {{ci|Elise}}, and {{ci|Evelynn}}. However, even with Amazing's two-time weekly MVP performance, the team overall didn't see much success, and they were forced into relegations. After defeating [[Denial eSports.Europe]] in the [[Riot_League_Championship_Series/Europe/2014_Season/Summer_Promotion|Summer Promotion Tournament]], Amazing left [[Copenhagen Wolves]].
+
+On May 3, 2014, [[Team Solomid]] announced that they had acquired Amazing and that [[TheOddOne]] had stepped down from the starting jungle position. Showing great synergy with [[Bjergsen]], he immediately made an impact with the squad, but he saw criticism in his small champion pool. Despite this criticism, the [[Riot League Championship Series/North America/2014 Season/Summer Round Robin|Summer Split]], his first split in the NA LCS, was a success for both him and TSM. Amazing was named weekly MVP in the 4th Week and the team finished 3rd overall. Inspired performances by Amazing and the team saw TSM place 1st at the [[Riot League Championship Series/North America/2014 Season/Summer Playoffs|Summer Playoffs]], securing themselves a spot at the [[2014 Season World Championship|World Championship]].
+
+TSM were placed in Group B with [[Star Horn Royal Club]], [[SK Gaming]] and [[Taipei Assassins]]. Amazing and the team secured four wins in the group, placing 2nd-place finish behind SHRC, and earning a spot in the quarterfinals. There they faced eventual winners [[Samsung White]] at this stage, and went out after only taking a single game off the Korean team in the best-of-5 series.
+
+On October 11, 2014, it was announced<ref>[http://www.newsoflegends.com/index.php/tsm-amazing-steps-down-27815/ TSM Amazing Steps Down] ''newsoflegends.com''</ref> that he was stepping down from the TSM roster in order to return home to Europe. Amazing cited<ref>[http://www.facebook.com/TSMAmazing/posts/1493663730920200 Amazing's Facebook Post] ''facebook.com''</ref> personal reasons for leaving the team.
+
+===2015 Season===
+On December 17, 2014, it was announced that Amazing, [[mithy]], and [[Niels]] had joined [[Origen]] along with former [[Fnatic]] players [[xPeke]] and eventually [[sOAZ]].<ref>[http://twitter.com/Origengg/status/545232076107038720 Origen's Twitter Post] ''twitter.com''</ref><ref>[http://origen.gg/2015/01/introducing-origens-top-laner/ Introducing Origen’s top laner] ''origen.gg''</ref>
+
+Origen qualified for the [[2015 EU Challenger Series/Spring Qualifier|EUCS Spring Qualifier]] via the [[2015 EU Challenger Series/Spring Qualifier/Challenger Ladder|Challenger Ladder]], where they beat [[Millenium Spirit]] in their bracket final, securing their qualification to the [[2015 EU Challenger Series/Spring Season|EUCS Spring Season]]. Origen were unbeaten until their penultimate game of the split, against [[LowLandLions.White]], and despite dropping that one game easily secured first place in the regular season. Origen also placed highly in tournaments throughout this period, winning the [[ESL MWC Challenge]] and [[Gamers Assembly 2015]]. The [[2015 EU Challenger Series/Spring Playoffs|Spring Playoffs]] saw Origen beat [[Reason Gaming]] in the semifinals 2-1 and then going on to sweep [[Copenhagen Wolves Academy]] (the team formerly known as LowLandLions.White) in the final to win the tournament and secure automatic qualification to the [[Riot League Championship Series/Europe/2015 Season/Summer Season|LCS Summer Season]].
+
+Throughout the EU LCS Summer Season, Origen jostled for 2nd position with [[H2k-Gaming]], while Fnatic sat far ahead in an undefeated 1st place throughout. Impressive individual performances including Amazing's [[Gragas]] helped the team to a 2nd place regular season finish, and with it a bye past the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]] quarterfinal round. In the semifinals, Origen faced off against rivals H2k and won 3-1; perhaps even more impressively, they took two games off Fnatic in the finals despite ultimately losing the series. Their second-place overall finish earned Origen 90 [[2015_Season/Championship_Points|Championship Points]], enough for the second seed in the [[2015 Season Europe Regional Finals]]. There, they beat [[Team ROCCAT]] in a 3-2 series and then [[Unicorns of Love]] in an easy 3-0 and successfully qualified for the [[2015 World Championship]], where they would play as Europe's #3 seed.
+
+At the [[2015 World Championship]], Origen were drawn into Group D along with [[Team SoloMid]], [[KT Rolster]], and [[LGD Gaming]]. Origen went 3-0 in the 1st week of the round robin and ended the group with a 4-2 record, meaning they would advance to the knockout stage of the tournament. Origen won their quarterfinal series 3-1 against the [[Flash Wolves]], becoming the first Western team to win a best-of-five at a World Championship, but were later knocked out by [[SK Telecom T1]] in the semifinals.
+
+===2016 Season===
+[[Origen]] and Amazing competed at [[IEM Season X - San Jose|IEM San Jose]], and were given a bye to the semifinals due to [[Fnatic]]'s withdrawal from the tournament. The team fielded their roster from the previous season, but with [[PowerOfEvil]] in the mid lane and [[xPeke]] taking a coaching role. They took down [[Team SoloMid]] in the semifinals, and went on to beat [[Counter Logic Gaming]] in the final - winning the tournament without losing a single game.
+
+[[Origen]]'s performance at [[IEM Season X - San Jose|IEM San Jose]] resulted in their qualification to the [[IEM Season X - World Championship|IEM World Championship]]. At the tournament, they first lost to [[Royal Never Give Up]] in the upper bracket of their group before then losing to [[Team SoloMid]] in the lower bracket, resulting in the team's elimination from the tournament.
+
+== Trivia ==
+* His ID '''Amazing''' is named after the song "''[[wikipedia:en:Amazing_(Kanye_West_song)|Amazing]]''" by [[wikipedia:en:Kanye West|Kanye West]].
+* Favorite champions are {{ci|Xin Zhao}}, {{ci|Shyvana}}, {{ci|Lee Sin}}, {{ci|Nautilus}}.
+:* Initially looked up to [[Diamondprox]] as a player, and took notice of the Russian jungler's champion pool.
+* Used to play AD carry before he started jungling.
+:* {{ci|Ashe}} and {{ci|Ezreal}} were his most played champions before he transitioned to the jungle.
+* Used to play basketball at a competitive level, at the Point Guard position.
+:* Is a fan of the [[wikipedia:en:Los Angeles Lakers|Los Angeles Lakers]], particularly of [[wikipedia:en:Kobe Bryant|Kobe Bryant]].
+:* His motto, '''"Hard work beats talent."''' stems from watching Kobe Bryant's domination over the 2000-2010 decade.
+* His favorite song as of May 2017 is either [[wikipedia:en:Johnny Cash|Johnny Cash]]'s "Hurt" or "The Man Comes Around".<ref>[https://twitter.com/FnaticAmazing/status/859393528300015616 Maurice's Tweet] ''twitter.com''</ref>
+* Very outspoken and opinionated on Twitter about subjects related to League of Legends and esports, and appeared on the [[LEC]] broadcast as an analyst when he wasn't actively playing. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

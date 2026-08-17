@@ -1,0 +1,255 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dignitas&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.056Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Dignitas」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= Dignitas
+|orgcountry= United States
+|foundedcountry= United Kingdom
+|country= 
+|region=North America
+|partner= [https://www.mikeandike.com Mike and Ike] <br> [https://www.noblechairs.com Noblechairs] <br> [https://www.gamertech.gg/magma GamerTech] <br> [https://therootbrands.com/shop Zero-In] <br> [https://rudermanfoundation.org Ruderman Family Foundation]
+<!-- Staff -->
+|headcoach=
+|owner= 
+<!-- Social Media -->
+|website= http://dignitas.gg
+|twitch-team= https://www.twitch.tv/team/dignitas
+|facebook= https://www.facebook.com/Dignitas
+|twitter= DignitasLoL
+|instagram= Dignitas
+|youtube= https://www.youtube.com/user/ddnewman
+|discord= https://discordapp.com/invite/dignitas
+|subreddit= Dignitas
+|snapchat= teamdignitas
+|tiktok = dignitas
+|weibo= https://www.weibo.com/u/6488580483
+|linkedin=https://www.linkedin.com/company/dignitasgg/
+|irc= 
+<!-- History -->
+|created= 2003-09-09 Organization <br> 2011-09-22 LoL Division
+|disbanded= 2016-06-03 LoL Division
+|created2= 2016-09-26 LoL Division
+|disbanded2= 2017-1?-?? LoL Division
+|created3= 2019-06-06
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= cod,halo,pubg,rl,smite
+}}{{TOCRWI}}
+
+'''Dignitas''' is an international esports team headquartered in Great Britain. It was founded on September 9, 2003 as a fusion of the Battlefield 1942 clans  Legion Condor and Sweden Kompanix. Later on, more teams were added to the organization, and in July 2004 Team Dignitas was registered as a company - Team Dignitas Ltd. In addition to their League of Legends team, Dignitas also sponsors teams and players for Battlefield 3, Counter Strike, Fifa, various fighting games, Quake Live, racing games, and StarCraft II.
+
+==History==
+===Pre Season 2===
+'''Team Dignitas''' acquired the roster of [[Rock Solid]] in September 2011.<ref name="rocksolid">[http://www.team-dignitas.net/articles/news/League-of-Legends/382/Team-Dignitas-welcome-new-League-of-Legends-team/ Team Dignitas welcome new League of Legends team] ''team-dignitas.net''</ref> At the time, the roster included {{bl|Voyboy}}, {{bl|Jatt}}, {{bl|scarra}}, {{bl|imaqtpie}}, and {{bl|L0cust}}, and they had recently had several strong online finishes.
+
+The first event that the roster competed in under their new organization was [[IGN ProLeague Season 3|IPL 3]]<ref>[http://na.leagueoflegends.com/board/showthread.php?t=1262763 League of Legends selected for IGN Pro League] ''na.leagueoflegends.com''</ref> Defeating [[Curse Gaming]], [[Counter Logic Gaming]], and then [[Epik Gamer]], the team took home the championship and 200 [[Season Two Circuit Rankings|circuit points]]. Due to their participation in the [[IEM_Season_VI_-_Global_Challenge_New_York/Qualifiers#NA_Qualifier_.231|IEM New York Qualifier #1]] as Rock Solid, Dignitas had an opportunity to [[IEM_Season_VI_-_Global_Challenge_New_York/Qualifiers#NA_Final_Qualifier|qualify]] for [[IEM Season VI - Global Challenge New York|IEM New York]]. They were successful and attended the tournament but did not advance from the group stage and finished tied for fifth, earning 25 Riot-circuit points.
+
+Dignitas's next LAN was [[2011_MLG_Pro_Circuit/Providence|MLG Providence]], where they placed third.<ref>[http://tv.majorleaguegaming.com/videos/79536-wr1-epik-gaming-vs-dignitas-game-1 MLG Providence 2011 Winner's Round 1 VOD] ''tv.majorleaguegaming.com''</ref> After a quarterfinal finish at [[2011 World Cyber Games/Main Tournament|WCG 2011]], Jatt stepped down from the team, stating that he could "no longer put up the required time to stay at the top level and he does not want to hold his teammates back".<ref name="jattleaves">[http://www.team-dignitas.net/articles/news/League-of-Legends/671/Jatt-steps-down-from-Team-Dignitas-LoL/ Jatt steps down from Team Dignitas LoL] ''team-dignitas.net''</ref> Jatt went on to join Riot Games and eventually became a caster for them.<ref>[http://na.leagueoflegends.com/board/showthread.php?t=1983273 Hey I'm Jatt, I work at Riot Games!] ''na.leagueoflegends.com''</ref>
+
+===Season 2===
+Jatt's replacement [[IWillDominate]] joined the team in January 2012, the day before [[IEM Season VI - Global Challenge Kiev|IEM Kiev]].<ref name="iwdjoins">[http://www.team-dignitas.net/articles/news/League-of-Legends/771/I-Will-Dominate-It-is-important-for-us-to-make-it-out-of-the-group-stage/ I Will Dominate: "It is important for us to make it out of the group stage"] ''team-dignitas.net''</ref> Dignitas placed third there, after a semifinal loss to [[Team SoloMid]] and a third-place victory over [[SK Gaming]].<ref>[http://www.youtube.com/watch?v=3LM2T60J8Po IEM Kiev Team Sypher vs Team Dignitas] ''youtube.com''</ref><ref>[http://www.youtube.com/watch?v=HH1PepSfg-Q IEM Kiev against All authority vs Team Dignitas] ''youtube.com''</ref><ref>[http://www.youtube.com/watch?v=dSbpmzxXrLg Moscow Five vs Team Dignitas] ''youtube.com''</ref><ref>[http://www.youtube.com/watch?v=wW2MiUj-Gy4 IEM Kiev Team Dignitas vs Team Solo Mid] ''youtube.com''</ref><ref>[http://www.youtube.com/watch?v=yI3gk1ySuuE IEM Kiev Third Place Decider - SK Gaming vs Team Dignitas] ''youtube.com''</ref> That performance along with their other IEM results was enough to qualify Dignitas for the [[IEM Season VI - World Championship|IEM Season VI World Championship]] in Hanover, where they placed second behind [[Moscow Five]].<ref>[http://www.esl-world.net/masters/season6/hanover/lol/groupstage/team/matches/5656404/74551/ IEM Season VI - Hanover: Team Dignitas group stage statistics] ''esl-world.net''</ref><ref>[http://www.esl-world.net/masters/season6/hanover/lol/playoffs/rankings/ IEM Season VI - Hanover: Playoff bracket] ''esl-world.net''</ref>
+
+After a third-place finish at [[IGN Proleague Season 4 - Las Vegas|IPL 4]] in April, top laner Voyboy left the team to join CLG, while Curse's jungler [[Crumbzz]] joined the Dignitas lineup, moving to top lane; the three-way roster swap was completed by CLG [[Saintvicious]] leaving to join Curse. With only three weeks of practice before the [[2012_MLG_Pro_Circuit/Spring|MLG Spring Championship]], Dignitas were not expected to perform well. However, they defeated [[Team Green Forest]], [[Team Dynamic]], and CLG Prime in the winners' bracket before finally falling to [[Team SoloMid]] and then CLG, taking home third.<ref>[http://s3.majorleaguegaming.com/2012-anaheim-leagueoflegends-champ.html 2012 MLG Anaheim League of Legends Brackets] ''s3.majorleaguegaming.com''</ref>
+
+Along with Western teams [[CLG.EU]] and CLG Prime, Dignitas temporarily moved to South Korea to participate in [[Azubu The Champions Summer 2012]]. Unfortunately, IWillDominate suffered from many health issues and had to go to the emergency room twice. The team finished third in their group, just out of playoff contention.<ref>[http://www.ognlol.com/league2/program Azubu The Champions Summer 2012 Program Information] ''ognlol.com''</ref> Shortly after the event, they returned to North America. L0cust left the team, replaced [[Patoy]].
+
+After returning home, Dignitas competed in the [[2012 MLG Pro Circuit/Summer/Championship|2012 MLG Summer Championship]] in Raleigh, an event that top North American teams TSM and CLG had notably decided not to attend in order to better prepare for the [[Season 2/Regional Finals - Seattle|Season 2 Regional Finals]] and not show anyone what they were preparing. As a result, Dignitas and Curse were considered the favorites to win the entire tournament. Both teams reached the finals, but instead of playing out the series normally, they decided to play All-Random All-Mid (ARAM) in the first game. After that first game, the teams played the remainder of the series out seriously, and Curse won the series 3-2.<ref>[http://www.majorleaguegaming.com/raleigh2012/bracket/league_of_legends MLG Raleigh 2012 League of Legends Bracket] ''majorleaguegaming.com''</ref> However, the teams' mutual decision to play ARAM was ruled to be collusion, and so both teams were disqualified from the tournament.<ref>[http://www.majorleaguegaming.com/news/an-important-message-regarding-mlg-summer-championship-league-of-legends MLG Statement regarding disqualification] ''majorleaguegaming.com''</ref>
+
+The team's next LAN was the Season 2 Regional Finals, held at PAX Prime in Seattle. They placed second, beating Team Dynamic and CLG before losing to TSM in the finals. This finish gave them a seed to the [[Season 2 World Championship]].<ref>[http://tournaments.leagueoflegends.com/s2-na-regionals#tournament-bracket Official Season 2 NA Brackets] ''tournaments.leagueoflegends.com''</ref> At Worlds, Dignitas was placed into Group B, along with [[NaJin Sword]], [[CLG EU]], and the [[Saigon Jokers]]. They lost all three of their group-stage games, with Saigon Jokers's victory considered the biggest upset of the group stage.<ref>[http://ggchronicle.com/ggchronicle-power-ranking-season-two-world-championship/ ggChronicle Power Rankings] ''ggchronicle.com''</ref>
+
+===Preseason 3===
+In the offseason, IWillDominate was suspended from competitive play for a year as a result of violating the Summoners Code.<ref>[http://forums.na.leagueoflegends.com/board/showthread.php?t=2864421&page=1#post32080346 IWillDominate Tribunal Permaban & eSports Competition Ruling] ''forums.na.leagueoflegeds.com''</ref> Instead of the team looking for a new jungler, Crumbzz moved to jungle, and Dignitas picked up [[KiWiKiD]] as their new top laner.
+
+===Season 3===
+Due to their participation at Season 2 Worlds, Dignitas were automatically given a slot in the [[Riot_League_Championship_Series/North_America/Season_3/Spring_Round_Robin|NA LCS Season 3 Spring Split]], the first season of Riot's fully-professional league. They started out the series going 16-5 in their first 21 games before going 1-6 in their last 7. This performance was enough to secure themselves a [[Riot League Championship Series/North America/Season 3/Spring Playoffs|playoff]] slot, where they lost immediately to [[Good Game University]], which forced them to [[Riot League Championship Series/North America/Season 3/Summer Promotion|requalify]] for the [[Riot League Championship Series/North America/Season 3/Summer Round Robin|summer split]] by beating [[Team Summon]] in a best-of-five series, which they did.
+
+During the summer split, Dignitas performed more inconsistently than they had in the spring but still finished in fifth place with a 13-15 record, once again making it to the [[Riot League Championship Series/North America/Season 3/Summer Playoffs|playoffs]]. This time, they showed better results in the playoffs and finished in fourth - out of [[Season 3 World Championship|Worlds]] contention, but safely in the [[Riot League Championship Series/North America/2014 Season/Spring Season|2014 Spring Split]].
+
+===2014 Preseason===
+During the offseason, Dignitas took Patoy off the starting roster and moved top laner KiWiKiD to support. After holding tryouts to find a new toplaner, they settled on [[Cruzerthebruzer]].<ref name="kiwisub">[http://www.team-dignitas.net/articles/news/League-of-Legends/4022/Team-Dignitas-LoL-top-lane-tryouts/ New Top Lane Tryouts] ''team-dignitas.net''</ref>
+
+===2014 Season===
+Dignitas placed fourth in the spring round robin, with a 12-16 record. In March, long-time mid laner scarra stepped down from the team and was replaced by '''[[goldenglue]]''' for the last two weeks of the regular season. However, scarra returned for the [[Riot League Championship Series/North America/2014 Season/Spring Playoffs|playoffs]], where they placed fifth. After the playoffs, scarra once again left the starting roster to coach the team, while [[Shiphtur]] and [[ZionSpartan]] joined from the recently-relegated [[Team Coast]] to play mid lane and top lane, respectively. Cruzerthebruzer and goldenglue both became substitutes. Team owner Michael "'''Odee'''" O'Dell was fined $1,000 USD for using offensive and vulgar language on a popular online streaming platform in June.<ref>[http://na.lolesports.com/articles/league-legends-competition-ruling-michael-odee-odell League of Legends Competition Ruling - Michael "Odee" O'Dell] ''na.lolesports.com''</ref>
+
+In the [[Riot League Championship Series/North America/2014 Season/Summer Season|summer split]], despite sitting at a 6-2 record at the end of the third week, they ended the round robin in sixth place, with a 13-15 record. However, in the [[Riot League Championship Series/North America/2014 Season/Summer Playoffs|playoffs]] they managed to avoid [[Riot League Championship Series/North America/2015 Season/Spring Promotion|relegation]] by defeating CLG in the fifth-place match.
+
+===2015 Preseason===
+After the conclusion of the season, scarra left the team completely, resigning his position as coach. Additionally, ZionSpartan and Imaqtpie departed; with Imaqtpie's departure, the last member of the original Rock Solid lineup was gone. When [[Team Curse]] declined their invitation to [[IEM_Season_IX_-_Cologne|IEM Cologne]], Dignitas were invited to participate in the tournament instead.<ref>[http://en.intelextrememasters.com/news/dignitas-to-join-the-intel-extreme-masters-cologne-lineup/ Team Dignitas on their way to Cologne to prove their mettle this December] ''intelextrememasters.com''</ref> They tied for third with [[Team ROCCAT]], using new acquisitions [[Core JJ]] and [[Gamsu]] for the first time, confirming long-standing rumors that those would be the team's new AD carry and top laner, respectively. The complete roster going into the 2015 season included Core JJ, Crumbzz, Shiphtur, Gamsu, and KiWiKiD.<ref>[http://wdc.com/ventito/gaming/shift/wd-ventito-exclusive-team-dignitas-introduces-new-players-to-line-up WD Ventito Exclusive: Team Dignitas Introduces New Players to Line-Up] ''wdc.com''</ref>
+
+===2015 Season===
+After the first two weeks of the [[Riot League Championship Series/North America/2015 Season/Spring Season|spring split]], Crumbzz stepped down from the team, and {{bl|CloudNguyen}} played as Dignitas's jungler in week's 3-5; {{bl|Azingy}} joined for week 6 and stayed for the remainder of the split. The team ended the round robin with a 6-12 record in 9th place. [[Winterfox]], the 8th-place team, chose to play against [[Team Dragon Knights]] in [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|relegations]], leaving Dignitas to play against [[Team Fusion]]. However, while Winterfox was relegated, Dignitas stayed in the LCS for the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer season]].
+
+Two weeks into the Summer Season, {{bl|Helios (Shin Dong-jin)|Helios}} joined Dignitas and replaced Azingy. Despite being tied for first with a 7-2 record halfway through the season, the team struggled throughout the last half and finished sixth at 10-8. In the quarterfinals of the [[Riot_League_Championship_Series/North_America/2015_Season/Summer_Playoffs|summer playoffs]], Dignitas was swept by [[Team Impulse]] and finished 2015 with only 20 [[2015_Season/Championship_Points|Championship Points]], failing to qualify for the [[2015 Season North America Regional Finals|regional finals]] and eliminating them from contention for the [[Season 5 World Championship]].
+
+===2016 Preseason===
+Faced with the need to sell one of their LCS teams, Dignitas sold their European team in October 2015. [[Brokenshard]], formerly head coach of that squad, moved to their North American staff as head coach, and former [[Gamers2]] manager [[InnerFlame]] joined as team manager.<ref name="bshc">[http://team-dignitas.net/articles/news/Team-Dignitas/8139/brokenshard-is-our-new-na-league-of-legends-coach-draft Brokenshard is our New NA League of Legends Coach!] ''team-dignitas.net''</ref><ref name="ifjoin">[http://team-dignitas.net/articles/news/Team-Dignitas/8140/welcome-innerflame-our-new-na-lcs-team-manager Welcome Innerflame, our New NA LCS Team Manager!] ''team-dignitas.net''</ref> Dignitas also revamped their roster: [[Smittyj]] and [[Kirei]] from the European Challenger team joined the team as top laner and jungler, and former [[Team Impulse]] AD carry [[Apollo (Apollo Price){{!}}Apollo]] replaced CoreJJ. With [[Jesse]] substituting in place of KiWiKiD, the new lineup debuted at [[IEM Season X - Cologne|IEM Cologne]], where they were eliminated in the first round, losing 2-1 to China's [[Qiao Gu Reapers|Qiao Gu]].
+
+===2016 Season===
+Following two 1-1 weeks in the season's [[League Championship Series/North America/2016 Season/Spring Season|spring split]], Smittyj was removed from the team's starting roster and replaced by [[BillyBoss]], due to "behavioural issues".<ref name="sjbb">[http://team-dignitas.net/articles/news/League-of-Legends/8795/billyboss-signs-as-starting-lcs-top-laner-smittyj-moved-to-sub BillyBoss Signs As Starting LCS Top Laner, SmittyJ Moved To Sub] ''team-dignitas.net''</ref> The team's worst-ever split unfolded following this change, as they saw only two further wins and – after playing the [[League Championship Series/North America/2016 Season/Spring Season/Scoreboards/Week 8#Echo Fox vs Team Dignitas|longest game of the split]] – finished 10th place with a 4-14 record. The same roster played in the [[League Championship Series/North America/2016 Season/Summer Promotion|Summer Promotion]] tournament, where they lost 0-3 to [[Team Dragon Knights]], resulting in their elimination from the LCS. This made Dignitas the first of the three original North American LCS invitee teams to be relegated from the competition.
+
+In May, Dignitas transferred its [[NA Challenger Series/2016 Season/Summer Season|NACS Summer Season]] seed to [[Apex Gaming]].<ref name="toapex">[http://team-dignitas.net/articles/news/Team-Dignitas/9465/team-dignitas-transfer-nacs-spot-to-apex-gaming Team Dignitas transfer NACS Spot To Apex Gaming] ''team-dignitas.net''</ref> After Apex finished the split in seventh place, both Dignitas and Apex were acquired by the '''Philadelphia 76ers''' in September 2016, to play under the Dignitas name.<ref name="76acquire">[http://team-dignitas.net/articles/news/Team-Dignitas/10251/philadelphia-76ers-acquire-merge-and-manage-leading-esports-teams-dignitas-and-apex Philadelphia 76ers acquire, merge and manage leading esports teams Dignitas and Apex] ''team-dignitas.net''</ref>
+
+===2017 Season===
+Following the merger, the new Dignitas team made significant roster changes, parting ways with coaches [[Saintvicious]] and [[Cop]], top laner [[Ray]], jungler [[Shrimp]] and ADC [[Apollo (Apollo Price)|Apollo]]. To replace them, Dignitas acquired two Korean imports, former [[KT Rolster]] star top laner [[Ssumday]] and former [[Longzhu]] jungler [[Chaser]], as well as former [[Team EnVyUs]] ADC [[LOD]], with new coach '''Kim Jeong-soo'''. This new lineup failed to gel initially, going 2-6 over the first four weeks of the [[League_Championship_Series/North_America/2017_Season/Spring_Season|Spring Split]], prompting the team to rehire Cop as head coach. This move paid immediate dividends, as Dignitas went 7-3 over the remainder of the split, beating [[Immortals]] in their final game of the season to take 6th place and a playoff berth. Unfortunately, they were matched up against eventual 3rd place team [[Phoenix1]] in the quarterfinals, and proceeded to get swept.
+
+In the midseason, the team also rehired [[Saintvicious]] and added former [[Echo Fox|Echo]] and [[Delta Fox]] support [[BIG]], citing his increased team communication. Additionally, after winning their first two series of the [[League_Championship_Series/North_America/2017_Season/Summer_Season|Summer Split]], Chaser was replaced by their former [[Apex Gaming]] jungler [[Shrimp]], who had returned to the team after spending the spring with [[DetonatioN FocusMe]] of the [[LJL]]. Chaser would only play in one other game for Dignitas, and eventually left the team in July. This move seemed to pay off initially, as Dignitas finished the first three weeks of the split 5-1 and in a three way tie for first, with praise going to their newfound skill in playing around Baron. However, the team then proceeded to reverse that record, losing their next four series and falling into 5th place, despite [[LOD]] being replaced by former [[FlyQuest]] ADC [[Altec]]. Making yet another move, BIG was moved to substitute and was replaced by veteran support [[Adrian (Adrian Ma)|Adrian]], who had been acquired at the same time as Altec. This duo, who had played together in solo queue, immediately clicked, and Dignitas pulled off yet another late season run, going 6-2 over the remaining weeks, with Altec carrying multiple games and Adrian playing well on a variety of supports.
+
+The team took 5th and were matched up against 4th place [[Cloud9]] in the quarterfinals, who despite having a rather disappointing split of their own were favored to win, due to having finished second in the Spring with the exact same roster. However, Dignitas took the first two games, and after dropping the third, managed to come back in the fourth game after a clutch [[Taliyah]] ultimate by [[Keane]] prevented C9 from reaching the nexus despite all three Dignitas inhibitors being down. After dropping a 3-1 semifinals set to eventual champions [[TSM]], Dignitas moved to the third place match, this time as favorites against [[CLG]], who had struggled in the quarterfinals and were playing rookie jungler [[OmarGod]]. However, CLG made short work of Dignitas in a 3-0 sweep, in large part due to Shrimp getting caught out in the jungle early all three games. Due to making the playoffs in both splits, Dignitas still had the third seed in the [[2017_Season_North_America_Regional_Finals|Regional Finals]] and a chance to make [[2017_Season_World_Championship|Worlds]], but seeming defeated, the team dropped 3-0 to seventh place [[FlyQuest]], ending their season.
+
+Dignitas was not selected to be a part of the [[League Championship Series/North America/2018 Season/Spring Season|NA LCS 2018 Season]], and the team disbanded before the end of 2017.
+
+===2019 Season ===
+After more than a year of absence from the League of Legends scene, ESPN reported in April 2019 that Dignitas had agreed to buy a controlling share of [[Clutch Gaming]], one of the new franchises that had joined after their departure, from the NBA's Houston Rockets. The article also reported that the team would rebrand to Dignitas after [[2019 Season World Championship|Worlds 2019]]. In June of the same year, the deal was officially announced. As reported, the team would not rebrand until after the season ended, although Dignitas immediately began to provide administrative and social media support, and the team's jerseys were redesigned to use the Dignitas colors. 
+
+===2020 Season===
+Despite Clutch's successful Worlds run, the newly rebranded Dignitas elected to only retain [[Huni]] from their 2019 roster, signing him to a massive two-year, $2.3 million dollar contract. After reportedly struggling to sign other players due to the size of that contract, DIG eventually filled out the roster with veteran mid laner [[Froggen]] and veteran support [[Aphromoo]], along with rookie bot laner [[Johnsun]] and former [[TSM]] jungler [[Grig]]. The team started the [[LCS/2020 Season/Spring Season|spring split]] strong, going 3-1 over the first two weeks, including an upset of defending champions [[Team Liquid]]. Struggles set in after that, and they managed only 3 additional wins over the next six weeks of play and looked out of playoff contention going into the final week. However, a 0-2 collapse by [[Immortals]] coupled with a 2-0 surge by both Dignitas and [[Golden Guardians]] landed them in a three-way tie with the aforementioned teams for the final playoff spot. DIG was seeded into the first round of the tiebreaker bracket, where they defeated Immortals, only to fall short in the final round against [[Golden Guardians]], ending their season in seventh place. 
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Joshua J. Harris|'''Co-Owner'''}}
+{{listplayersp||us|David S. Blitzer|'''Co-Owner'''}}
+{{listplayersp||us|Tilman Fertitta|'''Co-Owner'''}}
+{{listplayersp||us|Greg Richardson|'''Board Member'''}}
+{{listplayersp||us|Jen Franklin|'''SVP, Marketing and Partnerships'''}}
+{{listplayersp|Bakery|uk|James Baker|'''General Manager'''}}
+{{listplayersp|Jonathon|ca|Jonathon McDaniel|'''General Manager LoL'''}}
+{{listplayersp|Sui|be|Piet Smet|'''Content Manager'''}}
+{{listplayer|Swiffer|au|Simon Papamarkos|'''Head Coach'''}}
+{{listplayer|Emi|ro|Emanuel Ursachi|'''Strategic Coach'''}}
+{{listplayersp|TYPO|us|John Williams|'''Creative Director'''}}
+{{listplayersp|Plexus|us|Daryl Chong|'''Producer'''}}
+{{listplayersp|Rampant|us|Tristam Mizak|'''Content and Article Administrator'''}}
+{{listplayersp|||Lindsey Kim|'''Social Media Coordinator'''}}
+{{listplayersp|Starsmitten|us|Celine Cheung (층민정)|'''Streamer & Content Creator'''}}
+{{listplayer|V1per|ca|Omran Shoura (عمران شورى)|'''Co-Streamer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|LirA|kr|Nam Tae-yoo (남태유)|'''Coach'''|newteam=BNK FEARX}}
+{{listplayersp|Pyrex|kr|Toby Kwon (권용현)|'''Assistant General Manager'''|newteam=none}}
+{{listplayer|Yariet|it|Michele Maneggia|'''Head Analyst'''|newteam=Ici Japon Corp}}
+{{listplayersp|Fifflaren|se|Robin Johansson|'''VP, Esports'''|newteam=Disguised}}
+{{listplayer|Rigby|kr|Han Earl (한얼)|'''Head Coach'''|newteam=LYON24}}
+{{listplayer|Srtty|us|Jett Michael|'''Streamer'''|newteam=lyon24}}
+{{listplayer|Mabrey|us|Joshua Alan Mabrey|'''Head Coach'''|newteam=none}}
+{{listplayersp|Spiher|us|John Spiher|'''VP, Partnerships'''|newteam=retired|comment=VaynerSports}}<!--Nov 2024-->
+{{listplayer|Treatz|se|Erik Wessén|'''Coach'''|newteam=none}}
+{{listplayersp|Prindi|us|Michael Prindiville|'''Chief Executive Officer'''|newteam=Retired|comment=Sixth Street}}<!--June 2024-->
+{{listplayersp||br|Ricardo Figueiredo|'''Partnerships and Marketing Operations Manager'''|newteam=none}}<!--May 2024-->
+{{listplayer|SuDal|kr|Kim Sung-jin (김성진)|'''Strategic Coach'''|newteam=none}}
+{{listplayer|Enatron|gr|Ilias Theodorou|'''Head Coach'''|newteam=FUT}}
+{{listplayer|Invokid|tr|Arda Başaran|'''Positional Coach'''|newteam=TDS}}
+{{listplayer|POILK|se|Vilhelm Flennmark|'''Assistant Analyst'''|newteam=none}}
+{{listplayer|Zero (Yoon Kyung-sup)|kr|Yoon Kyung-sup (윤경섭)|'''Coach'''|newteam=Ninjas in Pyjamas.CN}}
+{{listplayer|Svenskeren|dk|Dennis Johnsen|'''Strategic Coach'''|newteam=MA}}
+{{listplayer|Biofrost|ca|Vincent Wang|'''Streamer & Content Creator'''|newteam=Near Airport}}
+{{listplayersp|Alejandro|uk|Alejandro Fernandez Flores|'''Analyst'''|newteam=Retired}}
+{{listplayersp|Sauce|spain|Carlos Canut Dominguez|'''Analyst'''|newteam=Retired}}
+{{listplayer|Mabrey|us|Joshua Alan Mabrey|'''Strategic Coach'''|newteam=IMT}}
+{{listplayersp|||Xinyi (Kat) Xiong|'''Senior Manager, Partnerships Marketing'''|newteam=retired|comment=TikTok}}<!--Mar 2023-->
+{{listplayersp|Pete|us|Pete Szilagyi|'''SVP, Finance and Operations'''|newteam=retired|comment=New Meta Entertainment, Inc}}<!--Feb 2023-->
+{{listplayersp||us|Olivia Mihalich Holand|''' Director of Partnership Activations'''|newteam=retired|comment=SP+ GAMEDAY}}<!--Jan 2023-->
+{{listplayer|Jimmy|us|Jimmy Harrison|'''Division Coach'''|newteam=Retired}}
+{{listplayer|Invert|ca|Gabriel Zoltan-Johan|'''Assistant Coach & Player Development'''|newteam=Immortals}}
+{{listplayersp|||Lenny Wiersma|'''Director of Performance'''|newteam=retired|comment=California State University}}<!--Oct 2022-->
+{{listplayersp||us|Jack Kelly|'''Corporate Partnerships Manager'''|newteam=retired|comment=HedgeStone Business Advisors}}<!--Oct 2022-->
+{{listplayersp|sapphiRe|us|Heather Garozzo|'''VP, Talent'''|newteam=retired|comment=Raidiant}}<!--Sep 2022-->
+{{listplayersp||us|Ian K. Partilla|'''Senior Vice President'''|newteam=retired|comment=Legends}}<!--Aug 2022-->
+{{listplayer|Vynarian|ca|Jim Morrison|'''Senior Manager of Team Operations'''|newteam=retired|comment=Blizzard Entertainment}}<!--Aug 2022-->
+{{listplayersp|Mel|kh|Mellina Kong|'''Senior Team Operations Manager'''|newteam=Retired|comment=TikTok}}
+{{listplayersp|Savage|us|Philip Savage|'''Senior Manager, Creative & Content Strategy'''|newteam=Retired|comment=BBDO New York}}
+{{listplayersp||us|Sean Finnegan|'''Senior Producer of Branded Video'''|newteam=Retired|comment=Esports Engine}}
+{{listplayersp|TheAzotal|us|Ryan Friedman|'''Chief of Staff'''|newteam=Retired|comment=Esports Certification Institute}}
+{{listplayersp|Lyokohero|us|Alexander Casillas|'''Partnerships Activation Manager'''|newteam=Retired|comment=Nexon America}}<!--Feb 2022-->
+{{listplayersp|JDempe|us|Jeremy Dempe|'''Director of Content'''|newteam=TL}}<!--Nov 2021-->
+{{listplayersp|MepH|de|Marek Walkowiak|'''Senior Manager, Player Operations'''|newteam=Retired|comment=ESL FACEIT Group}}<!--Sep 2021-->
+{{listplayersp|MrArcaos|us|Paul Carrabba|'''Producer'''|newteam=Retired|comment=Spacestation Gaming}}<!--Aug 2021-->
+{{listplayersp|Aria|us|Aria Manzoori|'''Business Solutions Coordinator'''|newteam=Retired|comment=OTK Media}}<!--Aug 2021-->
+{{listplayersp|CallumCreate|uk|Callum Homer|'''Senior Graphic Designer'''|newteam=Retired|comment=Method}}
+{{listplayer|Thinkcard|us|Thomas Slotkin|'''Head Coach'''|newteam=Golden Guardians Academy}}
+{{listplayersp||us|Christopher Mann|'''VP, Partnerships'''|newteam=Retired|comment=rEvolution}}
+{{listplayersp|MountainGoat|dk|Martin René Andersen|'''Lead Graphic Artist'''|newteam=Retired|comment=Burrito Esports}}
+{{listplayersp|Moishi|us|Maurice Eisenmann|'''Director of Business Development'''|newteam=Retired|comment=TeePublic}}
+{{listplayersp||us|Matthew Kline|'''Director of Media'''|newteam=Retired|comment=Microsoft}}
+{{listplayersp||us|Jeannie Schmidlapp|'''Social Media Coordinator'''|newteam=EG}}
+{{listplayersp|Empyre|kw|Naser Al-Naqi|'''Head of Scouting and Analysis'''|newteam=EG}}
+{{listplayer|Artemis|link=Artemis (Connor Doyle)|us|Connor Doyle|'''Assistant Coach'''|newteam=EG}}
+{{listplayer|Rigby|kr|Han Earl (한얼)|'''Assistant Coach'''|newteam=AF}}
+{{listplayersp|Andy Barton|us|Andrew Barton|'''General Manager'''|newteam=EG.NA}}
+{{listplayersp|hyzenthlayed|ca|Talia Kaijankoski Este|'''Social Media Manager'''|newteam=Retired|comment=The Number – Victoria, BC}}
+{{listplayersp|ODEE|uk|Michael O'Dell|'''President & General Manager'''|newteam=RGE}}
+{{listplayersp|Nth|za|Nicholas Brigando|'''Senior Graphic Artist'''|newteam=Retired|comment=Mettlestate}}
+{{listplayersp|NurseBaemax||Bianca Danielle|'''Social Media Manager'''|newteam=Retired}}
+{{listplayersp|||Jonathan Kemp|'''Chief Executive Officer'''|newteam=Retired}}
+{{listplayersp||us|David Slan||newteam=Retired}}
+{{listplayersp||us|Michael Slan|'''Vice President'''|newteam=Retired}}
+{{listplayer|Saintvicious|us|Brandon DiMarco|'''Coach'''|newteam=FLY}}
+{{listplayer|Cop|us|David Roberson|'''Head Coach'''|newteam=opt}}
+{{listplayersp|jxias||Jeff Shaw|'''Contributing Author'''|newteam=Riot}}
+{{listplayersp|Caldo|us|Jorge Calderon|'''General Manager'''|newteam=Retired|comment=Arizona Supreme Court}}
+{{listplayersp|Shark|us|Charlene Hamm|'''NA Regional Manager'''|newteam=OpTic}}
+{{listplayer|InnerFlame|uk|Joe Elouassi|'''General Manager'''|newteam=MSF}}
+{{listplayer|Kim|link=Kim (Kim Jeong-soo)|kr|Kim Jeong-soo (김정수)|'''Coach'''|newteam=Longzhu Gaming}}
+{{listplayer|Shadow|link=Shadow (Park Jae-seok)|kr|Park Jae-seok (박재석)|'''Head Coach'''|newteam=I May}}
+{{listplayer|Raz|ca|Barento Mohammed|'''Head Coach'''|newteam=Caster}}
+{{listplayer|Jesse|dk|Jesse Le|'''Strategist'''|newteam=Immortals}}
+{{listplayer|Brokenshard|il|Ram Djemal|'''Head Coach'''|newteam=Dream Team}}
+{{listplayer|JoyLuck|kr|Yun Deok-jin (윤덕진)|'''Analyst'''|newteam=fnatic}}
+{{listplayer|Rico (Sami Harbi)|fr|Sami Harbi|'''Head Coach'''|newteam=CLG Black}}
+{{listplayer|Mylixia|us|Devin Nash|'''NA Regional Manager'''|newteam=CLG}}
+{{listplayersp|Danan|us|Danan Flander|'''Manager'''|newteam=Cloud9}}
+{{listplayersp|Comely|us||'''Macro Specialist'''|newteam=CLG}}
+{{listplayer|scarra|us|William Li|'''Coach'''|newteam=CLG}}
+{{listplayersp||ca|Josh Soltis|'''Analyst'''|newteam=Retired}}
+{{listplayersp|Vlanitak|no|Erling Krohn|'''Analyst'''|newteam=Retired}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Team DignitasOldlogo square.png|Team Dignitas' Logo <br> (2003 - 2018)
+DignitasCrestlogo square.png|Dignitas' Crest Logo (2018 - 2021)
+Dignitas 2018logo square.png|Dignitas' Old Logo (2018 - 2021)
+</gallery>
+
+===Rosters===
+<gallery>
+EWEB TMPROFILE-DIGINITAS 0129(1).jpg|Team Dignitas' Previous Lineup
+S3 dig.jpg|Team Dignitas' S3 NA LCS Summer Split Initial Starting Lineup<br> Left to Right: Patoy, KiWiKiD, Crumbzz, scarra, Imaqtpie
+s3_dig.png|Team Dignitas' S3 NA LCS Summer Split Initial Starting Lineup<br> Left to Right: Patoy, KiWiKiD, scarra, Crumbzz, Imaqtpie
+DIGNITAS.S14.TMPROFILE.png|Team Dignitas' S4 NA LCS Spring Split Initial Starting Lineup<br> Left to Right: Crumbzz, Cruzerthebruzer, Scarra, KiWiKiD, Imaqtpie
+Dignitas Roster LCS 2016 Spring.jpg|Team Dignitas' 2016 NA LCS Spring Roster with Smittyj
+Dignitas Roster LCS 2016 Spring 2.jpg|Team Dignitas' 2016 NA LCS Spring Roster with BillyBoss
+DIG 2017 Spring.png|Team Dignitas' 2017 NA LCS Spring Roster with Xpecial and coach Cop
+DIG 2017 Spring 2.png|Team Dignitas' 2017 NA LCS Spring Roster with Stunt and coach Kim Jeong-soo
+Dignitas 2025 Split 1.jpeg|Dignitas 2025 LTA North Split 1
+</gallery>
+
+== External Links ==
+* [http://ggchronicle.com/team-dignitas-preview-season-2-world-finals/ Team Dignitas Preview: Season Two World Finals] ''by ggChronicle''
+* [http://na.lolesports.com/season3/split1/teams/team-dignitas Dignitas Team Profile] ''on lolesports.com''
+
+==References==
+<references />

@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pacific%20eSports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:23.798Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Pacific eSports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Pacific eSports
+|orgcountry= Philippines 
+|country=
+|region=SEA
+|image=Team Pacificlogo square.png
+|coaches= 
+|manager= 
+|captain= 
+|website=https://www.pacificph.com/
+|youtube=
+|facebook=https://www.facebook.com/pacificesports
+|twitter= 
+|irc= 
+|sponsor= 
+|created=
+|disbanded=
+|trades=
+}}
+{{TOCRWI}}
+
+'''Pacific eSports''' is a professional League of Legends based in Philippines.
+
+== History ==
+
+== Timeline ==
+{{TDRight
+|name2=2014
+|content2=
+* April , Pacific eSports reforms. '''[[VYY]]''', '''[[Astarte (Judge Cruz)|Astarte]]''', '''[[Misery (John Winston Hernaez)|Misery]]''', '''[[Si Yoo Tae]]''' (now '''Shoti''') and '''[[Wa Chi Phe]]''' (now '''Hakaw''') join.
+* May 4, qualifiers for [[2014 PGS Summer]].
+* July 12, [[Astarte (Judge Cruz)|Astarte]] moves back to support position while '''[[HongJu]]''' and '''[[Ral]]''' join, [[Hakaw]] moves to sub.
+* October 6, [[VYY]] leaves.<ref>[https://www.facebook.com/WargodsLOL/posts/318062981711667 Wargods' Facebook Post] ''facebook.com''</ref>
+
+|name1=2013
+|content1=
+* February 28, '''[[Manila Eagles]]''' recruit players from '''Pacific eSports'''. [[VYY]], [[Astarte (Judge Cruz)|Astarte]], [[H4T3]], [[PF]] and [[Vileroze (Judan Royeca){{!}}Vileroze]] leave. <ref>[http://esports.garena.ph/?p=5737 Manila Eagles: Rising from the Ashes] ''esports.garena.ph''</ref>
+}}
+
+== Player Roster ==
+===Former===
+{{listplayer/Start|newteam=yes|dates=yes}}
+{{listplayer|Shoti|ph|Bien Carlo Claudio Borras|Top|newteam=none|joined=2014-04-??}}
+{{listplayer|Misery|link=Misery (John Winston Hernaez)|ph|John Winston Hernaez|Jungle|newteam=none|joined=2014-04-??}}
+{{listplayer|HongJu|ph||Mid|newteam=none|joined=2014-07-12}}
+{{listplayer|link=Astarte (Judge Cruz)|Astarte|ph|Judge Gideon Cruz|Support|newteam=Team IMBA.PH|joined=2014-04-??|left=2015-??-??|rejoined=yes}}
+{{listplayer|Hakaw|ph||Sub|newteam=none|joined=2014-04-??}}
+{{listplayer|Ral|ph||Sub|newteam=none|joined=2014-07-12}}
+{{listplayer|VYY|ph|Neil San Juan|AD|newteam=Wargods|joined=2014-04-??|left=2014-10-06|rejoined=yes}}
+{{listplayer|link=Astarte (Judge Cruz)|Astarte|ph|Judge Gideon Cruz|Support|newteam=mle|joined=2013-02-28}}
+{{listplayer|VYY|ph|Neil San Juan|AD|newteam=mle|joined=2013-02-28}}
+{{listplayer|Vileroze|link=Vileroze (Judan Royeca)|ph|Judan Royeca|Mid|newteam=mle|joined=2013-02-28}}
+{{listplayer|PF|ph|Pacifico Pallasigui|Jungle|newteam=mle|joined=2013-02-28}}
+{{listplayer|H4T3|ph|Josef Adrian Cabero|Jungle|newteam=mle|joined=2013-02-28}}
+{{Listplayer/EndTemp}}
+
+== Organization ==
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+
+==Interviews==
+
+== Images ==
+<gallery>
+Pacific eSports logo old.png|PCFC old logo
+</gallery>
+
+==Links==
+
+== Images ==
+
+==References==
+<references />

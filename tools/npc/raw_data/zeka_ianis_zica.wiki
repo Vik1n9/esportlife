@@ -1,0 +1,62 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zeka%20(Ianis%20Zica)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.817Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zeka (Ianis Zica)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Zekja
+|name=Ianis Zica
+|checkboxAutoImage=Yes
+|country=Romania
+|residency=EMEA
+|birth_date_year=2000
+|birth_date_month=December
+|birth_date_day=14
+|favchamp=Kalista
+|favchamp2=Aphelios
+|checkbox1=No
+|compID1=Zeka
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/zeka14
+|twitter=Zekja1
+|lolpros=https://lolpros.gg/player/zekja
+|deeplol=https://www.deeplol.gg/pro/Zekja
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Zeka'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

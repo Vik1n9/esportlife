@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Busio&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:45.842Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Busio」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Busio
+|name=Alan Cwalina
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|nationality=United States, Poland
+|residency=EMEA
+|birth_date_year=2003
+|birth_date_month=October
+|birth_date_day=22
+|favchamp=Pyke
+|favchamp2=Bard
+|checkbox1=No
+|compID1=BusioC
+|checkboxComp=No
+|ids='''EUW:''' basil#fan, OG Mithy#Moo <br> '''NA:''' Busio JNG#NA1 <br> '''KR:''' MADHATTER #HAT <br>
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/busiolol
+|twitter=Busio
+|instagram=alan_cwalina
+|tiktok=busiolol
+|deeplol=https://www.deeplol.gg/pro/Busio
+|dpmlol=https://dpm.lol/pro/Busio
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''BusioC'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+Busio was born in Seattle, Washington. He began playing ''League of Legends'' when he was 7 years old. In 2020, he played in the amateur circuit as a mid laner for [[Polar Ace]], but swapped roles to support when he joined [[100 Thieves Next]] at the beginning of the 2021 season. As a support, Busio quickly rose through the ranks of the [[100 Thieves]] organization. He was promoted to [[100 Thieves Academy]] in the middle of 2021 and was named the most valuable academy prospect during [[NA Academy League/2022 Season/Summer Season|2022 Summer]].<ref>[https://twitter.com/PathToLCS/status/1564368922404564992 Path To LCS' Tweet] ''twitter.com''</ref>
+
+=== 2023 Season ===
+For the 2023 season, Busio was promoted to the 100 Thieves main roster to play alongside returning LCS legend [[Doublelift]].
+
+=== 2024 Season ===
+In 2024, Busio achieved greater success after joining [[FlyQuest]] to play alongside rookie [[Massu]]. A 2nd place finish in Spring playoffs birthed FlyQuest appearances at [[2024 Mid-Season Invitational]] and [[Esports World Cup 2024]]. In the Summer split, FlyQuest defeated Team Liquid in the finals for Busio's first LCS championship trophy and first qualification to Worlds.
+
+== Trivia ==
+* His father, [[wikipedia:Krzysztof Cwalina|Krzysztof Cwalina]], is a former professional swimmer who represented Poland at the 1992 Summer Olympics in Barcelona.<ref>[https://x.com/Busio/status/2049951736270320032 Busio's X Post] ''x.com''</ref>
+* Reached Challenger when he was 15 years old in Season 9.
+* Has dual nationality.
+* His favorite pro player is [[Keria]].
+
+=== Individual Awards ===
+* NA Academy Most Valuable Prospect (2022 Summer)
+* LCS 1st All-Pro Team x1 (2024 Spring)
+* LCS 3rd All-Pro Team x1 (2024 Summer)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

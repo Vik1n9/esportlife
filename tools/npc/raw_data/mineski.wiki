@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Mineski&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.564Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Mineski」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Liyab Esports
+|name= Mineski
+|orgcountry= Philippines 
+|country=Philippines 
+|region=SEA
+|image= Mineski logo.png
+|manager=
+|captain=
+|facebook= https://www.facebook.com/mineskilol
+|twitter= MineskiProTeam
+|website= http://www.mineski.net
+|sponsor= [http://www.smart.com.ph/ Smart Communications] <br> [http://steelseries.com/ SteelSeries] <br> [https://www.facebook.com/TrippyCustoms Trippy Customs] 
+|created= Organization 2004-DD-DD <br> LoL Division 2012-11-17
+|rosterphoto= Mineski Roster 2018 Spring Season.jpg
+}}{{TOCRWI|2}}
+
+'''Mineski''' is a professional gaming organization based out of the Philippines. Founded in 2004, the organization is known as one of the premier Southeast Asian electronic sports group, boasting highly successful players across each competitive genre.
+
+The team currently competes under the name '''Mineski.SMART''', in representation of their sponsor [http://www.smart.com.ph/ Smart Communications].
+
+== History ==
+On 17 November 2012, Mineski acquired '''Team Nirvana.DK''' to form Mineski League of Legends team. Since the inception, the team has grown and been competitively solid, placing high in all minor tournaments they entered leading up to Season 3. Becoming known as a top contender of the Philippine scene, the team was able to participate in the [[Season 3 Southeast Asia Regional Finals]] after coming in 2nd at the Philippine qualifiers. The team would come from loser's bracket to face the team that sent them there in the finals, the powerhouse of [[Singapore Sentinels]]. In the grand finals, Mineski would beat the heavy favorite SGS to place first, granting them a coveted spot at [[Season 3 World Championship]].
+
+At the Championship, Mineski would face off against the world's best in their first big international tournament. Despite good efforts and becoming a fan favorite during groups, they would not advance to the bracket stage, going 0-8, finishing 14th and gaining good experience for their future endeavors.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Shiro|ph|Roy Christian Inciong|'''Manager'''|newteam=none}}
+{{listplayersp|3Finger|ph|JM Dualan|'''Head Coach'''|newteam=none}}
+{{listplayersp|Jay3|ph|Arjay Orcasitas|'''Manager'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+* [http://www.youtube.com/watch?v=eWm2M3fOgIA S3 SEA Regional Qualifier Championship Team Mineski (Exo) Vs Singapore Sentinels (Chawy)]
+* [http://www.youtube.com/watch?v=HL3uiE9K-5g S3 LoL World Championship SEA Qualifiers - SG Sentinels vs. Mineski - Game 2 Mineski Highlights]
+
+==Media==
+{{TeamMedia}}
+
+== Images ==
+<gallery>
+File:Mineski.png|Mineski logo
+File:Mineski 2017 PSG Spring Season Roster.jpg|2017 PGS Spring Season
+File:MSKI GPL 2014.jpeg|Mineski's 2014 GPL Roster
+File:S3 mineski.jpg|Mineski's Season 3 World Championship Roster
+File:Mineski Roster 2017 Summer Season.jpg|Mineski Roster 2017 Summer Season
+</gallery>
+
+==Links==
+
+==References==
+<references />
+
+<br>

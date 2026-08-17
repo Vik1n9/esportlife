@@ -1,0 +1,145 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=The%20Rain%20Man&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.060Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「TheRainMan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=The Rain Man
+|name=Christian Kahmann
+|image=Trmlol.jpg
+|checkboxAutoImage=No
+|country=United States
+|residency=North America
+|checkbox-res=No
+|birth_date_year=1990
+|birth_date_month=September
+|birth_date_day=03
+|favchamp=Teemo
+|favchamp2=Darius
+|favchamp3=Tryndamere
+|favchamp4=Kassadin
+|checkbox1=No
+|checkboxComp=No
+|ids=The Rain Man (NA)<br/> RAlNMANLOL (EUW)<br/> The Sun Man (NA)<br/> The Honor Man (NA)<br/>
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/therainman
+|facebook=https://www.facebook.com/RainManLoL
+|twitter=RainManLoL
+|youtube=https://youtube.com/user/trmlol
+|site=http://www.therainman.tv
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=No
+|checkboxTOCR=Yes
+|text=Christian "'''The Rain Man'''" Kahmann is a Twitch.tv streamer and YouTube content creator. He was the top laner for [[Team SoloMid]] between April 2011 and March 2012, being succeeded by [[Dyrus]]. He left the team after their elimination in the group stage of [[IEM Season VI - World Championship|IEM Hannover]]. Before his attempt at forming his own team, he was occasionally subbing for teams such as [[Team 4Not.NA|4not]] or [[mTw.NA]].
+|nicknames=TRM
+}}
+==League of Legends Career==
+=== Pre-TSM Era ===
+While being the team captain of Team Number One, The Rain Man gained attention in the scene by achieving Rank 1 in the NA solo queue ladder, playing mainly top lane {{ci|Teemo}}. However, he left Team Number One in order to become the new Top laner for Team SoloMid.<ref> [http://www.sk-gaming.com/content/52688-CrsNyjacky_The_Tiny_Master_of_Evil Crs.Nyjacky, The Tiny Master of Evil] ''"sk-gaming.com"''</ref>
+
+=== TSM Era ===
+After joining Team SoloMid in April 2011 alongside support Player [[Xpecial]]<ref>[http://www.nationalesl.com/us/lol/go4lol/cup_74/team/log/5645291/ NESL Roster History] ''"nationalesl.com"''</ref>, The Rain Man finished his first major LAN tournament reaching 3rd place at [[Riot Season 1 Championship]], losing twice to [[aAa]] in the semi-finals and in the loser's bracket finals.
+
+In the following months, Team SoloMid participated in a number of offline and online tournaments, the most prominent being [[IEM Season VI - Global Challenge Cologne|IEM Cologne]], where they finished second, only losing to [[Counter Logic Gaming Prime|Counter Logic Gaming]] in the Grand Finals.<br />
+
+After being eliminated in the group stages at [[IEM Season VI - Global Challenge New York|IEM - New York]] where the team lost all three games in its group, The Rain Man joined Team SoloMid's gaming house in the New York area in August 2011.<ref>[http://www.youtube.com/watch?v=xYhMcLI1_O0 REGINALD UPDATE BROS] ''"youtube.com"''</ref>
+
+In November 2011, TSM won their first major LAN event at [[2011 MLG Pro Circuit/Providence|MLG 2011 - Providence]], where The Rain Man showed impressing plays on {{ci|Yorick}}, deciding many teamfights in favor of Team SoloMid after teleporting in from top lane.<br />
+
+Team SoloMid started into 2012 by scrimming extensively, while also creating accounts on EU-West in order to scrim against European teams. Having won the last major LAN event, the team was one of the favorites going into [[IEM Season VI - Global Challenge Kiev|IEM Kiev]]. TSM got into the Grand Finals undefeated, even beating [[Team Dignitas]] 2-0 in the semi finals. However, they lost to the Russian team [[Moscow 5]], who took the first place of the tournament.<br />
+
+In March 2012, Team SoloMid participated in the [[IEM Season VI - World Championship|Season VI IEM World Championship]] in Hanover, Germany. Team SoloMid was eliminated in the group stage, losing their first game to [[Curse Gaming]]. TSM won matches against [[Sypher]] and [[EHOME]], they lost another 2 matches against [[Moscow 5]] and [[SK Gaming]] and therefore could not qualify for quarterfinals.<br />
+
+After coming home from the IEM World Championship, The Rain Man decided to step down from being Team SoloMid's top laner on March 13, citing differing attitudes towards the game.<ref>[http://www.youtube.com/watch?v=swFr1viNDO4  why rain man left] ''"youtube.com"''</ref> The Rain Man's spot as TSM's top laner was filled by former top laner for [[Epik Gamer]], [[Dyrus]].<ref> [http://www.solomid.net/forums/index.php?/topic/21787-team-solomid-announces-roster-change  Team SoloMid announces roster change] ''"solomid.net"''</ref>
+
+=== Post-TSM Era ===
+Although not part of the team anymore, The Rain Man stayed in the Team SoloMid gaming house up until the team won [[IGN ProLeague Season 4 - Las Vegas|IPL4 - Las Vegas]], when he decided to leave the gaming house in order to pursue his own life along with his girlfriend and their dog, Lulu. Since leaving Team SoloMid, The Rain Man has subbed for multiple teams, most prominently for 4Not when they competed at [[2012 MLG Pro Circuit/Summer/Championship|MLG Raleigh 2012]].
+
+He was in the process of starting his own team after Chaox's departure from Team SoloMid. Fans and many others are trying to push for him to hire Chaox as of March 26. In April, He finally formed [[Team Solo Queue]] with [[chu8]], [[XJ9]], [[Haruka]] and [[TheSwingingSalton]] for qualifying Season 4 NA LCS.<ref>[http://www.nationalesl.com/us/lol/go4lol/cup_108/team/6962721/ The roster list of The Rain Man's Team] ''"nationalesl.com"''</ref> Team Solo Queue quickly rose in the ranks near challenger even fighting GGU (Now known as [[Team Coast]]). However due to XJ9 being permabanned and being unable to add another person in TSQ due to the invite limit the team came to a halt being unable to qualify for the Challenger Series in time. XJ9 was permabanned shortly after they missed the deadline.
+
+After the abandoning the TSQ project, The Rain Man spent most of his time streaming to a small but loyal fanbase on Twitch. Since 2017, he has focused more attention on producing content on his YouTube channel which also includes content from various other games such as Rust and private modded World of Warcraft servers.
+
+==Playstyle==
+The Rain Man is known for his rather passive playstyle at the top lane. He concentrates on not losing lane and farming, in order to be a great presence in the later stages of the game. However, this playstyle has sometimes been criticized as some people say it rarely wins lanes or snowballs an advantage. Since leaving TSM and subbing for other teams The Rain Man has adopted a more aggressive playstyle for certain champions. Coincidentally, former teammate and ex-TSM member Chaox has also been criticized for being too passive in lane compared to the more aggressive Wildturtle.
+
+== Trivia ==
+* Achieved rank 1 in season 1 with {{ci|Teemo}}.
+* Was a crucial influence on TSM's "Baylife" lifestyle during the team's early days.
+* Is infamous for his distaste in Reddit after being banned following a Reddit post on multiple occasions<ref>[https://www.reddit.com/r/leagueoflegends/comments/4j86gb/the_rain_man_straight_up_trolling_on_stream/  2016 Reddit post] ''"reddit.com"''</ref><ref>[https://www.reddit.com/r/leagueoflegends/comments/68nlxm/therainman_exposed_inting_again/  2017 Reddit post] ''"reddit.com"''</ref> 
+* Is known for his {{ci|Teemo}}, {{ci|Darius}}, {{ci|Kassadin}}, {{ci|Yorick}}, and {{ci|Tryndamere}} in solo queue.
+* Often played {{ci|Gangplank}}, {{ci|Cho'Gath}}, {{ci|Jarvan IV}}, {{ci|Trundle}} and {{ci|Udyr}} in tournament play.
+* Used to own a puppy named after League of Legends champion {{ci|Lulu}}.
+* Enjoys electronic music and showcases remixes on his music YouTube channel.
+* Brother Blake made a song for TRM and mentions him in the song "Hey Teemo".
+* Idolizes Gordon Ramsay because "His rage is epic."
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+File:TheRainMan.jpg|The Rain Man
+</gallery>
+
+{{PlayerPageEnd}}

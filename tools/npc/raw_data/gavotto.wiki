@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gavotto&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.771Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Gavotto」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Gavotto
+|name=Omar&nbsp;André Gavotto
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Mexico
+|residency=North America|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=2000
+|birth_date_month=March
+|birth_date_day=15
+|favchamp=Kai'Sa
+|checkbox1=No
+|checkboxComp=No
+|ids='''LAN:''' mauxen#0000 <br> '''NA:''' Gavotto, The Last Split
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://kick.com/gavotto
+|facebook=https://www.facebook.com/ottovaG
+|twitter=GavottoLA
+|instagram=gavotto84
+|discord=https://discord.gg/Gavotto
+|deeplol=https://www.deeplol.gg/pro/Gavotto
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+Omar Gavotto is from Hermosillo, Sonora, Mexico.
+
+== Trivia ==
+
+=== Individual Awards ===
+* LLA player with the most MVPs in the split (Closing 2022)
+* DDH Most Valuable Player of the split (Opening 2019)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

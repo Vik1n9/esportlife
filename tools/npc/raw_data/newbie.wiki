@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Newbie&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:22.043Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Newbie」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Newbie
+|name=Leandro Marcos
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Latin America
+|birth_date_year=1997
+|birth_date_month=January
+|birth_date_day=16
+|favchamp=Thresh
+|favchamp2=Alistar
+|favchamp3=Nami
+|favchamp4=Janna
+|checkbox1=Yes
+|favchamp5=Bard
+|favchamp6=Karma
+|favchamp7=Ezreal
+|checkboxComp=No
+|ids='''BR:''' ISG Newbie<br>'''KR:''' support die, fish koi, <br>'''NA:''' nevvbie, newbie 7
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/NewbieSupp
+|facebook=https://www.facebook.com/GGnewbie
+|twitter=newbiel0l
+|instagram=newbielol
+|youtube=https://www.youtube.com/channel/UC9M61iXiPWTdWU9JfReP2KQ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=''For the Chinese team, see [[Newbee]].''
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+Leandro Marcos is from La Rioja, Argentina.
+
+== Trivia ==
+* His ID '''Newbie''' comes from the game ''ImperiumAO'', where the players under level 14 are called "newbies".
+* He has many tattoos.
+* He has a cat named Ramón.
+* First Latin American player who reached Challenger in KR server.
+* Second Latin American player to be imported to a major region, after [[Josedeodo]].
+
+=== Individual Awards ===
+* LLA player with the most MVPs during the year (2020)
+* LLA All Pro Team x2 (Opening 2020, Closing 2020)
+* LLA Most Valuable Player of the split x2 (Opening 2020, Closing 2020)
+* LLA player with the most MVPs in the split (Opening 2020)
+* LLA Most Weekly MVPs in his role in the split (Opening 2020)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

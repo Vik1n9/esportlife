@@ -1,0 +1,121 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20Aze&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.056Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Aze」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Team Aze
+|orgcountry= Mexico
+|region= LAT
+|partner= 
+|image= Team Azelogo profile.png
+|owner= 
+|headcoach= 
+|website= 
+|youtube= https://www.youtube.com/channel/UCQywKxBP9cr5ECxLC0KSHqQ
+|facebook= https://www.facebook.com/teamazegg
+|twitter= TeamAzeGG
+|instagram= teamazegg
+|tiktok= teamazeggoficial
+|stream= https://discord.com/invite/2HMB9e2ZEr
+|created= Organization 2017-12 <br> LoL Division 2019-03
+|disbanded= Organization 2023-11-29
+|rosterphoto=
+}}{{TOCRWI}}
+
+'''Team Aze''' was a Latin American team formed in December 2017.
+
+== History ==
+
+'''Team Aze''' started operations in Yucatán, México back in 2017. In March 2019, they entered the recently created [[Circuito Nacional México/2019 Season/Opening Season|Circuito Nacional México]] in an attempt to succeed and be part of the teams integrating the [[División de Honor]]. However, their first run in the semi-professional circuit ended in a bad note, after they were disqualified prior to the [[DDH 2019 Closing Promotion]] due to roster ineligibility.
+
+For the second split, the team managed to maintain its great performance and after four good qualifiers, they advanced to the [[DDH 2020 Opening Promotion]] in first place taking the Direct Qualifier spot for the tournament. Sadly, they would fall short in their series against [[Anáhuac Esports]] with a 3-2 score, but due to a new partnership between [[INFINITY]] and Anáhuac, they still got the chance to join the DDH by acquiring the vacant spot.
+
+Since their debut in the Mexican national league, Team Aze always stood at the top finishing as the best team in the regular season of both 2020 splits, but as they managed to do this, a new rivalry formed with [[Estral Esports]] with whom they played both finals, with the latter taking them all. After the buyout of [[Pixel Esports Club]]'s spot and the arrival of Estral to the [[LLA]] for its 2021 season, they foresaw another chance to cement their top position with no apparent rivals.
+
+However, the addition of [[LDM Mexico]] surprised everyone in the league, as they would conquer their first title in the DDH in their debut split. Following a big controversy and the sudden dissolving of LDM Mexico, the team finally reached the glory in an incredible split during the [[División de Honor/2021 Season/Opening Season|DDH 2021 Closing Season]]. With an unbelievable perfect season crushing every single of their opponents on the road to the [[Regional Norte 2021]], they made history by not only taking the triumph and ascending to the Liga Latinoamérica, but also by making the longest win streak in pro League of Legends history.
+
+As they moved forward to Latin America's premier league, Team Aze signed an entirely new roster led by a championship-winning coaching staff, finishing second in the [[LLA/2022 Season/Opening Season|LLA 2022 Opening Season]] and making it to the grand finals in their first attempt, where they faced their longtime rivals and made history once again by winning the title, becoming the only squad to do it after their promotion. They also became the first team to represent Latin America on the international stage with import players, at the [[2022 Mid-Season Invitational]].
+
+During their competitive history, they were crowned once as Latin American champions.<ref>[https://lolesports.com/article/medallero-hist-rico-en-latinoam-rica/blt92678f1a0ecf8cf6 Medallero histórico en Latinoamérica (Spanish)] ''lolesports.com''</ref>
+
+== Trivia ==
+* Following their win at the [[DDH 2021 Closing Playoffs]], they became the third and last team to complete a perfect split in a Latin American national league.
+* Known for having the longest game-winning streak in League of Legends esports, with their 42 straight victories collected from May 2021 to January 2022.
+* First and only team to win the [[LLA]] right after being promoted.
+* First team in Latin America's history to finish a [[LLA/2023 Season/Opening Season|winless season]] in its domestic regional league.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Zpade|mx|Sebastian Molina|'''Co-Founder, Co-Owner, & Chief Executive Officer'''|newteam=none}}
+{{listplayersp||mx|Julio Canto|'''Operations Director'''|newteam=none}}
+{{listplayer|Skin|mx|Eduardo Saldaña|'''Sports Director'''|newteam=retired}}
+{{listplayer||mx|Gilberto Gallardo|'''Inhouse Manager'''|newteam=none}}
+{{listplayer|Autoboost|mx|Orlando Coronado|'''Coach'''|newteam=INF CR}}
+{{listplayer|Deam|cr|Deam Saavedra|'''Analyst'''|newteam=ISG}}
+{{listplayersp|Lobbie|mx|Emilio Iturriaga|'''Marketing Manager'''|newteam=none}}
+{{listplayersp|keke|mx|Keke Aguilar|'''Community Manager'''|newteam=none}}
+{{listplayersp|DasherLv|mx|Eduardo Galicia Vargas|'''Graphic Designer'''|newteam=none}}
+{{listplayersp|Sylture|mx|Ramsses Hernandez|'''Content Producer'''|newteam=none}}
+{{listplayersp|Aedan|ar|Maximiliano Sabaris|'''Video Editor'''|newteam=none}}
+{{listplayersp||mx|Eduardo Lujano|'''Filmmaker'''|newteam=none}}
+{{listplayer|Eraveck|mx|Frida Olvera|'''Streamer & Content Creator'''|newteam=AK}}
+{{listplayersp|Origin|mx|Victor Salazar|'''Graphic Designer'''|newteam=none}}
+{{listplayersp|Ashevi|mx|Manuel Nuñez|'''Community Manager'''|newteam=Retired}}
+{{listplayer|Skin|mx|Eduardo Saldaña|'''Head Coach'''|newteam=AZE}}
+{{listplayersp|Chucho|ar|Francisco Souto|'''Community Manager'''|newteam=none}}
+{{listplayer|gafone|br|Pedro Ramos|'''Head Coach'''|newteam=AK}}
+{{listplayer|NuNuzera|pt|Nuno Rema|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Garo|br|Humberto Peixoto|'''Positional Coach'''|newteam=none}}
+{{listplayersp|Alexa|mx|Alexa Sosa|'''Marketing Manager'''|newteam=none}}
+{{listplayersp|Yuderr|mx|Yuder Estrada|'''House Manager'''|newteam=none}}
+{{listplayer|Yeti (Rodrigo del Castillo)|mx|Rodrigo del Castillo|'''Head Coach'''|newteam=6K}}
+{{listplayer|Fallen (Carlos Calderón)|mx|Carlos Calderón|'''Strategic Coach'''|newteam=6K}}
+{{listplayer|Fallen (Carlos Calderón)|mx|Carlos Calderón|'''Strategic Coach'''|newteam=6K}}
+{{listplayer|Machuc|co|Andrés Pardo|'''Head Analyst & Assistant Coach'''|newteam=Z5B}}
+{{listplayer|Kouke|pe|Jorge Bravo|'''Positional Coach'''|newteam=The Kings}}
+{{listplayer|Ukkyr|ar|Markus Leuemberger|'''Head Coach'''|newteam=ISG}}
+{{listplayer|Otto (Otávio Rodrigues)|br|Otávio Rodrigues|'''Positional Coach'''|newteam=ARCT.MEX}}
+{{listplayer|Suplife|pe|Juan Sánchez|'''Head Coach'''|newteam=INSG}}
+{{listplayer|Suplife|pe|Juan Sánchez|'''Head Analyst'''|newteam=MadK}}
+{{listplayer|Flash (Daniel Tierrafria)|mx|Daniel Tierrafria|'''Head Coach'''|newteam=NOCTA}}
+{{listplayersp|Dani|mx|Dani Irabien|'''Content Creator'''|newteam=Retired}}
+{{listplayersp|Skarian|||'''Head Coach'''|newteam=Retired}}
+{{listplayer|Xkey|ve|Kheybert Aguirre|'''Head Coach'''|newteam=DVE}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+==== Rosters ====
+<gallery>
+Team AZE 2020 Opening.png|AZE 2020 DDH Opening
+Team AZE 2020 Closing.png|AZE 2020 DDH Closing
+AZE Roster 2021 DDH Opening.jpg|AZE 2021 DDH Opening
+2021 AZE Closing.png|AZE 2021 DDH Closing
+Team AZE 2021 Regional Norte.png|AZE 2021 Regional Norte
+Team Aze 2021 Closing.png|AZE 2022 LLA Opening Promotion
+Team AZE 2022 Opening.png|AZE 2022 LLA Opening
+Team AZE 2022 MSI.png|AZE 2022 MSI
+Team AZE 2022 Closing.png|AZE 2022 LLA Closing
+AZE 2022 Closing.png|AZE 2022 LLA Closing with [[Shu Hari]]
+AZE LLA 2023 Opening.png|AZE 2023 LLA Opening
+Team AZE 2023 Opening.png|AZE 2023 LLA Opening with [[Dimitry]]
+Team AZE 2023 Closing.png|AZE 2023 LLA Closing
+Team AZE 2023 Closing 2.png|AZE 2023 LLA Closing with [[IgnaVilu1]]
+</gallery>
+
+==References==
+<references />

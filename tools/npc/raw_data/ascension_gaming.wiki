@@ -1,0 +1,71 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ascension%20Gaming&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.405Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ascension Gaming」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Ascension Gaming
+|orgcountry= Thailand 
+|country=
+|region= SEA
+|image=Ascension_Gaminglogo_square.png
+|headcoach= 
+|coaches= 
+|analysts= 
+|captain= 
+|website=http://ascgaming.net
+
+|youtube=https://youtube.com/ascensiongaming
+|facebook=https://fb.com/ascensiongamingth
+|twitter= ascgamingth
+|instagram= ascensiongamingth
+|irc=
+|sponsor= [http://dxracer.in.th DXRacer]<br>[http://twitch.tv Twitch]<br>[http://logitechg.com/th-th Logitech G]
+|created= 2016-07-23
+|disbanded= 2018-10-10
+|trades= 
+|organization= 
+|sister-current= 
+|sister-former= 
+|affiliated-current= 
+|affiliated-former= 
+|rosterphoto=Ascension Gaming Roster 2018 Worlds.jpg
+}}{{TOCRWI|2}}
+
+'''Ascension Gaming''' was a Thai team.
+
+== History ==
+=== 2018 Season ===
+Ascension Gaming secured themselves a spot in the [[2018 Season World Championship/Play-In|Worlds 2018 Play-In]] by winning [[SEA Tour/2018 Season/Summer|SEA Tour 2018 Summer]]. Following their elimination from Worlds, jungler [[Lloyd]] made a post detailing the recent struggles of the team, including funding problems and roster instability.<ref>[https://www.facebook.com/Lloydstylelol/posts/2065937827069133 Lloyd's Facebook Post (Thai)] ''facebook.com'' ([https://twitter.com/giftshinku/status/1048875949574352897 Translation])</ref> Four days later, the team was officially disbanded.<ref name="Disband">[https://www.facebook.com/AscensionGamingTH/photos/a.165912850516244/545207699253422/ Ascension Gaming's Facebook Post] ''facebook.com''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Maxdafirst|tw|Chang Jui-Wen|'''Manager'''|newteam=none}}
+{{listplayersp|Chainarin|th|Chainarin Waithayawanthiti|'''Head Coach'''|newteam=none}}
+{{listplayersp|Novarist|th|Tanapol Tamrasri|'''Analyst'''|newteam=none}}
+{{listplayer|Cabbage|th|Akarawat Wangsawat|'''Coach'''|newteam=Liyab Esports}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+==Interviews==
+== Images ==
+<gallery>
+Ascension Gaming Team Roster.jpg|Ascension Gaming Roster 2017
+Ascension Gaming Roster 2018 Spring.jpg|Ascension Gaming Roster 2018 Spring
+</gallery>
+==External Links==
+
+==References==
+<references />

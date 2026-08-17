@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Danny%20(Kyle%20Sakamaki)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.102Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Danny」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Danny
+|name=Kyle Sakamaki
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=2003
+|birth_date_month=December
+|birth_date_day=04
+|checkbox1=No
+|compID1=Shiro
+|compID2=Dan
+|checkboxComp=No
+|ids='''NA:''' Monty de la Cruz, Dan 7
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/EG_Danny
+|twitter=realdannylol
+|lolpros=https://lolpros.gg/player/danny-1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Shiro''' and '''Dan'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+=== 2021 Season ===
+Danny's first team was the amateur organization [[Zenith Esports]], which he joined at the beginning of the season and with whom he played using the ID Dan. After strong performances in [[RCL Season 10]] and [[UPL 2020 Fall]], the entire Zenith roster was acquired by [[Evil Geniuses.NA|Evil Geniuses]] and renamed to [[Evil Geniuses Prodigies]]. At this time, Dan renamed to Shiro. The team played in the [[LCS Proving Grounds 2021 Spring]] and finished 5-6th, with Shiro being a standout performer. Although only 17 and having never played in Academy, Shiro was promoted to Evil Geniuses' LCS squad to replace [[Deftly]] for the [[LCS 2021 Summer|Summer Split]]. Upon his promotion, he renamed again, this time to Danny.
+
+== Trivia ==
+* Started playing ''League of Legends'' when he was 6 years old, first reached Challenger when he was 14, and debuted in LCS when he was 17.
+* Looks up to [[Ruler]].
+* Is from Honolulu, Hawaii.
+
+=== Individual Awards ===
+* LCS 1st All-Pro Team (2022 Summer)
+* LCS 2nd All-Pro Team (2021 Summer)
+* LCS Rookie of the Year (2021)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,94 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Attila&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:42.406Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Attila」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Attila
+|name=Amadeu&nbsp;Jesus Dias de Carvalho
+|checkboxAutoImage=Yes
+|country=Portugal
+|nationality=Portugal,Spain
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=February
+|birth_date_day=26
+|favchamp=Kalista
+|checkbox1=No
+|compID1=Minitroupax
+|compID2=Pharaxx
+|checkboxComp=No
+|ids='''EUW:''' K1CK Minitroupax, K1CK Marksman, LPLOL Marksman, VIT Attila, GIA Attila, Mathew Fraser, Me gustan rubias, Scottie Pippen, Cillian Murphy, Amadeu Carvalho, VGIA AttiIa, Alfonso Campos, 2015 12 20, Tomer Kapon, VGIA23, CEO de los Hunos<br>'''KR:'''  VIT Attila
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/Attila
+|facebook=https://www.facebook.com/Attila.lol
+|twitter=Attila
+|instagram=attila.lol
+|youtube=https://www.youtube.com/@atttilaofficial
+|discord=https://discord.com/invite/bYkRrAEYnH
+|tiktok=atttilaofficial
+|lolpros=https://lolpros.gg/player/attila
+|deeplol=https://www.deeplol.gg/pro/Attila
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Minitroupax''' and '''Pharaxx'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+=== 2017 Season ===
+Minitroupax joined [[Giants Only The Brave]] on January 9 alongside André Guilhoto from his former team [[K1ck Black]]. Giants Only The Brave competed in the [[LVP SuperLiga Orange/Season 12|LVP SuperLiga Orange Season 12]]. The team had a rough start, not winning a single game until Week 5. Eventually, the roster started to perform thanks to the addition of [[Jiizuké|Jiizuke]] in March and Gilius in May. Finally, the team finished the Regular Season in 6th place retaining their spot. Minitroupax had a notable performance in his first split, earning 3 Series MVP.
+
+In April, Minitroupax played for Giants Only The Brave in the [[LVP La Copa ElCorteInglés/Season 12|LVP La Copa ElCorteInglés]]. They got to the finals without dropping a single game. Giants Only The Brave faced [[G2 Vodafone]] in the final series, and beat them 2-0 to win the title.
+
+On June 1 the Giants Only The Brave squad was merged with the [[Giants Gaming]] roster in order to play in the [[EU Challenger Series/2017 Season/Summer Season|2017 EU Challenger Series Summer Season]]. The team ended up in first place, almost undefeated, only losing to [[FC Schalke 04 Esports]] during Week 5. Thanks to their first place finish, they qualified for the [[EU Challenger Series/2017 Season/Summer Playoffs|2017 EU Challenger Series Summer Playoffs]], where they beat [[Wind and Rain]] 3-0, and thus qualified for the [[League Championship Series/Europe/2018 Season/Spring Promotion|2018 EU LCS Spring Promotion]]. In the Spring Promotion tournament they qualified for the [[League Championship Series/Europe/2018 Season/Spring Season|2018 EU LCS Spring Season]] after beating [[Ninjas in Pyjamas]] 3-1 and FC Schalke 04 Esports 3-2.
+
+In August, Giants Gaming played in the [[ESL Masters Spain/2017 Season/Malaga|ESL Masters Series 2017 Malaga]] and won the tournament. Minitroupax’s team only lost one game during the event, against [[ThunderX3 Baskonia]] in the group stage, but later beat them 2-0 in the finals. In October, Minitroupax played the [[ESL Masters Spain/2017 Season/Madrid|ESL Master Series 2017 Madrid]] with Giants Only The Brave. The team was thought to be the favorite to win the event by the fans, but went out in groups after losing two games.
+
+During October and November, Minitroupax played in the [[LVP SuperLiga Orange/Season 13|LVP SuperLiga Orange Season 13]] with Giants Only The Brave. The team finished in first place with a 13-1 game record. In the [[LVP SuperLiga Orange/Season 13/Playoffs|LVP SuperLiga Orange Season 13 Playoffs]] Giants faced [[Movistar Riders]] in the semifinals. After beating them with a comfortable 3-0 they faced [[MAD Lions E.C.]] in the finals. The team started the finals 2-0 showing their superiority, but MAD Lions managed to tie the series 2-2. In the final game Giants beat MAD Lions and won the playoffs.
+
+Minitroupax left Giants Gaming on December 20 and joined [[Team Vitality]] together with his Giants teammates Gilius, Jiizuke and [[Jactroll]] and the already Team Vitality player [[Cabochard]] to play the 2018 EU LCS Spring Season.
+
+== Trivia ==
+* Though he was born in Portugal, he also has Spanish citizenship.
+* First Portuguese player to play in the EU LCS.
+* His ID ''Minitroupax'' was given to him when he was 14, as his sister's then-husband was known as ''Troupax''. He changed his ID to '''Atilla''' after his first EU LCS split, as the two had divorced by then.<ref>[https://twitter.com/Attila_LoL/status/1001121985412280320 Attila's Tweet] ''twitter.com''</ref>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

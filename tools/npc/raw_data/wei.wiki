@@ -1,0 +1,89 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wei%20(Yan%20Yang-Wei)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.545Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wei」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Wei
+|name=Yan Yang-Wei
+|nativename=闫扬威
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2002
+|birth_date_month=November
+|birth_date_day=09
+|checkbox1=No
+|compID1=wei
+|checkboxComp=No
+|ids='''KR:''' Kimman#zxfkk <br> '''EUW:''' aassddwwe#blg <br> '''NA:''' SMBBMS#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/610709
+|weibo=https://weibo.com/n/WEI%E5%B0%8F%E5%A8%81OwO
+|lolpros=https://lolpros.gg/player/wei
+|deeplol=https://www.deeplol.gg/pro/Wei-Yan_Yang-Wei
+|dpmlol=https://dpm.lol/pro/Wei
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''wei''' is based on his given name (Yang-Wei).
+* Infamously took [[Ignite (Summoner Spell)|Ignite]] instead of [[Smite (Summoner Spell)|Smite]] in game 1 of a match versus [[Bilibili Gaming]] in the [[LPL/2020 Season/Summer Season|LPL 2020 Summer Season]], and was fined by [[EStar (Chinese Team)|EStar]] for it. 
+=== Statistics ===
+* Reached 1000 kills in the LPL on June 13, 2023.
+** The 41st player and 7th jungler (after [[Clearlove]], [[SofM]], [[Karsa]], [[Tian]], [[Kanavi]], and [[Ning]]) to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on August 22, 2025.
+** The 32nd player to reach 1500 kills in the LPL.
+* Reached 3000 assists in the LPL on August 05, 2024.
+** Was the 33rd player to reach 3000 assists in the LPL.
+* Reached 500 games in the LPL on July 29, 2025.
+** The 35h player to reach 500 games in the LPL.
+* Reached 300 wins in the LPL on September 07, 2025.
+** Was the 28th player to reach 300 wins in the LPL.
+{{PlayerStatsTrivia}}
+
+=== Individual Awards ===
+* MSI Finals MVP x1 (2022)
+* LPL 1st All Pro Team x1 (Spring 2021)
+* LPL 2nd All Pro Team x1 (Summer 2021) 
+* LPL 3rd All Pro Team x2 (Summer 2022, Split 3 2025)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tussle&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:40.786Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tussle」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Tussle
+|name=Lee Moon-yong
+|nativename=이문용
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=PCS
+|birth_date_year=1995
+|birth_date_month=March
+|birth_date_day=29
+|favchamp=Lee Sin
+|checkbox1=No
+|compID1=Doad
+|checkboxComp=No
+|ids=생 포기는 없다 (KR), RPG Tussle (JP)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/shgtussle
+|twitter=dlansdyd1
+|deeplol=https://www.deeplol.gg/pro/Tussle
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Doad'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+}}
+==Biography==
+
+== Trivia ==
+* Married to and has a son with a Japanese woman.<ref>[https://jp.lolesports.com/news/ljl-article-tussle 日本で家庭を作った、ある韓国人プロゲーマーの話 (Japanese)] ''jp.lolesports.com''</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

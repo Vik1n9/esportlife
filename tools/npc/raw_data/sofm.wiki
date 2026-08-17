@@ -1,0 +1,120 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=SofM&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.921Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「SofM」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=SofM
+|name=Lê Quang Duy
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|residency=PCS
+|birth_date_year=1998
+|birth_date_month=February
+|birth_date_day=05
+|favchamp=Lee Sin
+|favchamp2=Rek'Sai
+|favchamp3=Rengar
+|favchamp4=Elise
+|checkbox1=No
+|checkboxComp=No
+|ids='''CN:''' Lee丶Ji丶Kyo<br>'''KR:''' Cliffteezy<br>ASD QQQ ZZZ<br>'''VN:''' S 15 6 13
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/131392
+|facebook=https://www.facebook.com/sofm.lmht
+|twitter=sofm_m
+|instagram=sofm_m
+|askfm=lequangduy171
+|youtube=https://www.youtube.com/channel/UCH6EC9nvgACa3fnbifc4vtA
+|weibo=https://weibo.com/u/6178143857
+|site=https://lequangduy.net
+|tiktok=sofm_official
+|lolpros=https://lolpros.gg/player/sofm
+|deeplol=https://www.deeplol.gg/pro/SofM
+|threads=sofm_m
+|linkedin=https://www.linkedin.com/in/lequangduy-net/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Young Kid, Vietnam Faker
+}}
+==Biography==
+Lê "'''SofM'''" Quang Duy is considered by some to be the most talented players in Vietnam. Although he started to play ''League of Legends'' early, because of the the age limit implemented by Riot worldwide, SofM had to temporarily leave competitive play.
+
+He became the first Vietnamese player to reach Challenger Tier and top 10 Challengers on the Korean Server despite regularly playing with 100 or more ping and was the GPL All-Star starting jungler at [[International Wildcard All-Star Melbourne 2015]]. Following MSI 2016, he joined [[Snake eSports]] as a trainee, becoming the first Vietnamese player to make an LPL roster. He made his LPL debut in Week 2 against [[Newbee]] and won the MVP award for his very first game - recording 4/1/6 playing Graves against [[Swift]]'s Kindred - and then helped Snake complete a 2-0 sweep. Snake finished 2nd in their group. Qualifying for the playoffs, they finished 5th-6th after a 1-3 loss to [[I May]]. Earning the right to attend the [[China Regional Finals 2016]] for China, Snake would play two brutal five game Bo5s in one day. Despite their 3-2 win over [[Vici Gaming]], they fell 2-3 to [[Team WE]] and could not qualify for Worlds. During the off-season they also earned a 3rd-4th place finish at the finals of the [[Demacia Cup/2016 Season|2016 Demacia Cup]]. They lost 2-3 to I May in the semifinals. They also finished 3rd at [[NEST 2016]] after a 1-2 loss to [[LGD Gaming]].
+
+Snake's 2017 Season was even worse than the previous year. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] 5th place in their group and had to attend the Promotion Tournament. They defeated [[Vici Gaming]] 3-0 to keep their LPL spot. Their [[Demacia Cup/2017 Season|2017 Demacia Cup]] performance wasn't very good as well and they finished 13th-20th after a 1-2 loss to [[Red Wolf Gaming]]. In the [[LPL/2017_Season/Summer_Season|Summer Season]] Snake finished 4th in their group and barely made the playoffs. They however lost 0-3 to [[Newbee]] in the first round and were quickly eliminated which ended their 2017 season.
+
+Sofm's first season with [[Suning]] in 2020 did not start off well. They finished [[LPL/2020_Season/Spring_Season|2020 LPL Spring Season]] in 11th place and did not qualify for Playoffs. However, the team synergy gets better during the [[LPL/2020_Season/Summer_Season|2020 LPL Summer Season]]. [[Suning]] finished the Summer Split in 4th place, and finished the season in 3rd place after the [[LPL/2020_Season/Summer_Playoffs|Playoffs]]. SofM and [[Suning]] came to the [[LPL 2020 Regional Finals]] as the highest seed, defeating China's soon-to-be 4th seed [[LGD]] to give Sofm his first appearance at the [[World Championship]].
+
+At the [[2020 Season World Championship]], Sofm and [[Suning]] were drawn into Group A. They finished the group stage 4-2, tied with [[G2 Esports]]. Suning won the tiebreaker, giving them 1st seed out of the group and setting up for a quarterfinal against [[JD Gaming]]. Sofm and the team came out on top, winning 3-1 and advancing to the semifinals, where they faced LPL champions [[Top Esports]]. Another 3-1 victory meant that Suning would advance to the final, along with [[DAMWON]]. The fairytale ended here, with Sofm and the team losing 3-1.
+
+== Trivia ==
+* Holds the world record of vision score in competitive game. Reached a vision score of 295 in a game in [[LPL 2021 Summer]] against LNG.
+* He's the first Vietnamese player to play outside the region ([[GPL]]/[[VCS]]) and the first non-Korean and non-LMS/PCS foreign player in the LPL.
+* His ID '''SofM''' is short for "Style of Me".
+* His favorite champion is {{ci|Lee Sin}} which he revolutionized building {{ii|Knight's Vow}} and other tank/support items on. 
+* He is one of the youngest professional players to have achieved Challenger tier on the Vietnamese, Taiwanese, and Korean servers.
+* Made it to Challenger on KR server in 2016 while playing with approximately 100 ping from Vietnam.
+** Later explained the actual ping to be around 65~77.
+* Did not realize he had almost made it to [[2016_Season_World_Championship|Worlds 2016]] during the [[LPL/2016_Season/Regional_Finals|China Regional Finals 2016]], until somebody told him in 2019. He thought he was playing for the [[Demacia_Cup/2016_Season|Demacia Cup]].
+** Later explained he had a translator who did not know League of Legends, hence the miscommunication.
+* Had a competitive game with a 100% Cocoon accuracy against enemy champions with his {{ci|Elise}}.
+* After [[Chawy]], he was the second SEA player to play outside the region.
+* Due to his high individual skill, Sofm swapped to bot lane for [[Full Louis]] in the [[VCS A/2016 Season/Spring Playoffs|VCS 2016 Spring Playoffs]] and played hypercarry champions like {{ci|Kog'Maw}}. This was also the last tournament for Sofm in the [[VCS]] before he departed for the [[LPL]].
+* Popularized building {{ii|Redemption}} on {{ci|Olaf}} in Korean solo queue ranked which later saw wide usage worldwide.
+* In 2020, he became the first-ever Vietnamese player and the first-ever player from an emerging region to reach Finals in Worlds or MSI.
+** Ironically, he was also the only Vietnamese player playing at [[Worlds 2020]], as the qualified Vietnamese teams were unable to attend due to travel restrictions caused by the [[2019–20 Coronavirus Pandemic|coronavirus pandemic]]. 
+* Reached 1000 kills in the LPL on June 11, 2021.
+** The 26th player to reach 1000 kills in the LPL.
+* Reached 3000 assists in the LPL on July 9th, 2021.
+** Was the 13th player to reach 3000 assists in the LPL after [[Clearlove]], [[Pyl (Chen Bo) | Pyl]], [[meiko]], [[xiaohu]], [[Rookie]], [[COLD]], [[Ming (Shi Sen-Ming) | Ming]], [[Baolan]], [[Doinb]], [[Flandre]], [[Crisp]], and [[LvMao]].
+* Reached 500 games in the LPL on February 24, 2022
+** The 12th player to reach 500 games in the LPL, after [[Uzi (Jian Zi-Hao)|Uzi]], [[meiko]], [[Rookie]], [[xiaohu]], [[Xiye]], [[Flandre]], [[Smlz]], [[Doinb]], [[Scout]], [[cold]], and [[Ming (Shi Sen-Ming)|Ming]].
+*He is called the king of games by fans.
+**He achieved 6000 Elo in Solo Ranking MMR Dota2
+**He achieved Legend rank (Hearthstone's highest rank) and participated in the world qualifiers in Southeast Asia.
+**He often attends Naraka: Bladepoint tournaments in his free time and has won several major tournaments in Asia.
+**And he can play many other games well in many game genres, not just MOBA.
+*He was awarded the title of National Esports Grandmaster by VIRESA (Vietnam Esports Federation) after achieving good results with [[Vietnam (National Team)|Vietnam National Team]] at [[2022 Asian Games]] on January 21, 2024.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

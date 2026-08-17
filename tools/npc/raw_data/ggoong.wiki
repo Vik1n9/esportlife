@@ -1,0 +1,102 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ggoong&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.771Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ggoong」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ggoong
+|name=Yu Byeong-jun
+|nativename=유병준
+|namealphabet=Hangul
+|pronoun=He
+|image=File:GenG LoL Ggoong 2020.png
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=June
+|birth_date_day=26
+|favchamp=LeBlanc
+|favchamp2=Ryze
+|checkbox1=No
+|compID1=GgooNg
+|checkboxComp=No
+|ids=나진 꿍
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/sgrape1
+|facebook=https://www.facebook.com/profile.php?id=100004683337996
+|deeplol=https://www.deeplol.gg/pro/Ggoong
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''GgooNg'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Mid
+|nicknames=Grape
+}}
+==Biography==
+
+===Season 3===
+
+Yu "'''Ggoong'''" Byeong-jun joined [[NaJin Shield]] as the new starting mid laner on June 21, 2013. He played in his first OGN ever at [[HOT6iX Champions Summer 2013]] where his team made it to the quarterfinals but lost 3-0 to [[CJ Entus Frost]].
+
+===2014 Season===
+
+The season kicked off with Shield attending [[PANDORA.TV Champions Winter 2013-2014]] where they made it to the semifinals but lost 3-1 to [[Samsung Ozone]] then 3-1 to [[KT Rolster Bullets]] ultimately taking 4th. Next, they went to [[HOT6iX Champions Spring 2014]] where the team made it all the way to the finals but fell 3-1 to [[Samsung Blue]]. The final OGN of the year was [[HOT6iX Champions Summer 2014]] where Shield made it to the quarterfinals but lost 3-2 to the [[KT Rolster Arrows]]. Shield earned enough circuit points to enter the [[2014 Season Korea Regional Finals]] as the 5th seed. They blazed through the tournament, going a combined 9-1 after a crushing 3-1 finals against [[SK Telecom T1 K]] to take the last seed for the [[2014 Season World Championship]]. At Worlds, they took first seed in the group but got rocked 3-0 in the quarterfinals by [[OMG]].
+
+===2015 Season===
+
+Changes to the OGN rules forced Shield and their sister team, NaJin Black Sword, to merge to form [[NaJin e-mFire]]. Ggoong was given the starting position with the departure of Sword's mid laner [[KurO]]. However halfway through [[SBENU Champions Spring 2015]], [[TANK]] joined the team and shared the starting mid lane spot with Ggoong. NaJin played poorly in Champions and placed sixth overall for the season. NaJin placed fifth in the regular season of [[SBENU Champions Summer 2015]] and qualified for the playoffs but they lost in the first round 2-1 to the [[KOO Tigers]]. They earned enough circuit points to make it to the [[2015 Season Korea Regional Finals]] but lost 3-0 in the first round to the [[Jin Air Green Wings]]. 
+
+===2016 Preseason===
+
+NaJin played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 to [[Rebels Anarchy]] in the first round. Ggoong did not play in this tournament. Ggoong left NaJin in November and joined [[ZTR Gaming]] in China in December.
+
+===2016 Season===
+
+ZTR had poor results in the LSPL throughout 2016. In the [[LSPL/2016_Season/Spring_Season|2016 Spring Season]] they finished 8th with 15 wins and 15 losses. Their [[LSPL/2016_Season/Summer_Season|Summer Season]] was a little better and they finished 6th with 14 wins and 12 losses. It wasn't enough for them however to make it into the playoffs.
+
+===2017 Season===
+
+Ggoong joined [[DAN Gaming]] in December of 2016 and qualified with them for the [[LPL/2017 Season/Summer Season|LPL]] via the [[LPL/2017 Season/Summer Promotion|2017 Summer Promotion]]. Their first season in the LPL didn't go so well as they finished 6th place in their group with 4 wins and 12 losses. They also participated in the [[Demacia Cup/2017 Season|2017 Demacia Cup]] but finished 13th-20th after an 0-2 loss to [[LGD Gaming]].
+
+== Trivia ==
+* Shared the Season MVP of [[HOT6iX Champions Spring 2014]] with [[Dade]], both having 850 MVP points. 
+* Played the Protoss race in Starcraft.
+* Known as 韩国二哥 (Korean second brother) in China. This is because [[Gogoing]] is called "big bro" in China and their IDs looks similar.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+===External Links===
+*[http://wiki.teamliquid.net/starcraft/Grape Liquipedia Page]
+
+{{PlayerPageEnd}}

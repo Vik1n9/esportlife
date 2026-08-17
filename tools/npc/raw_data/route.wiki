@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Route&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:30.540Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Route」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Route
+|name=Moon Geom-su
+|nativename=문검수
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=January
+|birth_date_day=05
+|favchamp=Aphelios
+|favchamp2=Xayah
+|checkbox1=No
+|compID1=Solder
+|compID2=Ehtel
+|compID3=EHTEL
+|checkboxComp=No
+|ids='''KR:''' abcc123#KR1 <br> '''BR:''' LOUD Route#LTAS, waterEya#BR12
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.douyu.com/6091674
+|facebook=https://www.facebook.com/profile.php?id=100007811321024
+|twitter=route_lol
+|lolpros=https://br.lolpros.gg/player/route
+|deeplol=https://www.deeplol.gg/pro/Route
+|dpmlol=https://dpm.lol/pro/Route
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Solder''' and '''EHTEL'''.
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+}}
+==Biography==
+
+== Trivia ==
+* Nicknamed "'''Top 3'''" by the Brazilian community as a reference to several tierlists made by streamers and influencers that placed him as the top 3 player in the AD Carry position in Brazil. Ironically, he won three splits of '''CBLOL''' between '''Summer 2023''' and '''Winter 2024'''.<ref>[https://x.com/ilhadaslendas/status/1782871716407980033 Ilha das Lendas' X Post] ''x.com''</ref>
+* His {{ci|kaisa}} quadrakill against [[FURIA]] was featured on a '''LoL Esports Top 5 Plays of the Week''' as the '''Top 5'''.<ref>[https://x.com/lolesports/status/1821201288756965503 LoL Esports' X Post] ''x.com''</ref>
+* He gained a large fanbase in Brazil during his passage in [[LOUD]], who created a "religion" for the player, called "'''Routism'''".<ref>[https://x.com/LOUDgg/status/1870228170563023124 LOUD's X Post] ''x.com''</ref>
+* The first foreigner adcarry in CBLOL history to win a title, becoming the 1st player to do so.
+
+===Individual Awards===
+* 1x CBLOL 1st Round-Robin Team (2024 Split 2)
+* 1x CBLOL 1st Round-Robin MVP (2024 Split 2)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

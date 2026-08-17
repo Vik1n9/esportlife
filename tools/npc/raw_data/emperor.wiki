@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Emperor%20(Kim%20Jin-hyun)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.102Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Emperor」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Emperor
+|name=Kim Jin-hyun
+|nativename=김진현
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=June
+|birth_date_day=07
+|favchamp=Ezreal
+|favchamp2=Corki
+|checkbox1=No
+|checkboxComp=No
+|ids=토 피, CJ Entus 엠퍼러,<br>피글렛솔찌잘하냐, EmperorNA (NA), Vivo Fibra kEmp3 (BR),<br>Crush on you (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/emperorkr
+|facebook=https://www.facebook.com/songcryand
+|twitter=EmperorLoL_
+|instagram=emperor11.1
+|deeplol=https://www.deeplol.gg/pro/Emperor-Kim_Jin-hyun
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+}}
+==Biography==
+===2014 Season===
+Kim "'''Emperor'''" Jin-hyun joined [[CJ Entus Blaze]] as the new AD carry in October of 2013. Emperor's first major tournament with the team was the [[2013 World Cyber Games/Main Tournament|2013 World Cyber Games]]. Blaze won the whole tournament after beating [[OMG]] 2-0 in the finals. His first OGN with the team was [[PANDORA.TV Champions Winter 2013-2014]] where Blaze made it out of groups but lost 3-1 in the quarterfinals to the [[KT Rolster Bullets]]. Blaze then played in [[HOT6iX Champions Spring 2014]] and placed fourth after losing 3-2 to [[NaJin White Shield]] in the semifinals and 3-0 to [[Samsung Ozone]]. Their final tournament of the season was [[HOT6iX Champions Summer 2014]] where Blaze failed to get out of groups. 
+
+===2015 Season===
+On November 3, 2014, it was announced that Emperor was leaving the CJ organization and not re-signing for the 2015 season.<ref>][http://www.facebook.com/entus.progaming/photos/656254761139114 CJ Entus's Facebook Post (Korean/English)] ''facebook.com''</ref> In December, he joined [[Keyd Stars]] as their starting AD carry, replacing [[Rafes]].<ref>[http://www.keyd.com.br/2015 We proudly announce our roster for the 2015 season (Portuguese).] ''keyd.com''</ref> They placed second in the [[CBLOL/2015 Season/Split 1 Playoffs|CBLOL 2015 Split 1 Playoffs]] after losing 3-0 to [[INTZ e-Sports]]. Emperor left the team shortly after the tournament. Emperor joined [[Team Dragon Knights]] on May 18, 2015 after they qualified for the LCS; however, he and mid laner [[Ninja]] both missed the first four-and-a-half weeks of play due to visa issues, and the team used AD carry substitute [[LattmaN]] and mid lane substitutes [[Bischu]] and [[mancloud]] instead. When Emperor and Ninja finally were able to play, the team found their first victory of the split, defeating then first-place [[Team Dignitas]]. Despite that initial success, Team Dragon Knights were only able to secure two more victories over the next four weeks, and they finished in last place with a 3-15 record, one game behind [[Enemy]]. As a result, they were automatically relegated to the [[2016 NA Challenger Series/Spring Season|2016 NA Challenger Series Spring Season]].
+
+===2016 Season===
+In September 2015, Team Dragon Knights renamed to [[Team Arena Online]], and Emperor and [[Smoothie]] left.<ref>[http://www.dailydot.com/esports/team-dragon-knights-team-arena-online/ Team Dragon Knights is now Team Arena Online, retains Seraph, Kez, and Ninja] ''dailydot.com''</ref> In late December, Emperor moved to Europe to join [[G2 Esports]] as their new starting AD carry.<ref>[http://www.g2esports.com/g2-agrees-terms-with-emperor-and-trick/ G2 agrees terms with Emperor & Trick] ''g2esports.com''</ref>
+
+G2 Esports quickly rose to prominence and recognition in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], consistently tied for first place after each week, sometimes with [[H2k-Gaming|H2k]] and sometimes also with [[Vitality]], until the end of the split when they held first place with sole possession. With a quarterfinal bye, the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]] also saw them strong, as they defeated both [[Fnatic]] and [[Origen]] 3-1 to win the season and secure an invitation to the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Going into MSI, G2 Esports were seen as a favorite not to win, but to come in second place to the Korean representatives [[SK Telecom T1]].<ref>[http://espn.go.com/esports/story/_/id/15446300/the-mid-season-invitational-power-rankings The Mid-Season Invitational Power Rankings] ''espn.go.com''</ref><ref>[http://www.lolesports.com/en_US/articles/msi-2016-power-rankings MSI 2016 Power Rankings] ''lolesports.com''</ref> However, the team lost their first four games of the round robin and ultimately finished in fifth place, ahead of only [[SuperMassive eSports]], and out of playoff contention - importantly, this placement meant that Europe would forfeit their [[2016 Season World Championship/Seeding|Pool 1 seed]] at [[2016 Season World Championship|Worlds]]. In a statement published partway through the second day of play, G2 stated that their players had taken vacation time after a "rigorous Spring Split."<ref>[http://www.g2esports.com/statement-from-g2-esports-about-msi-2016/ Club statement about MSI 2016] ''g2esports.com''</ref> Emperor later stated that there had been an internal conflict within the team one day prior to the start of the event.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4i5fls/g2_emperor_post_on_facebook/ G2 Emperor Post on Facebook !!] ''reddit.com''</ref>
+
+After MSI, Emperor left G2 Esports and joined [[Longzhu Gaming]] as their AD carry. Longzhu fared poorly in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 7-11 in sets and netting them eighth place, letting them escape relegations.
+
+== Trivia ==
+* Korean Challenger Rank 20 before joining Blaze.
+* Joined [[CJ Entus Blaze]] with [[DayDream]] and [[BaeMe]].
+* Is regarded as the best [[Lucian]] player in Korea, if not the world.
+* Female fans seem to love the sound of his deep voice.
+* Was known as Topi in his Challenger days and once he joined [[CJ Entus Blaze]] he changed his name to Emperor.
+* Korean fans seem to compare him to a type of dog and he acknowledges it and has accepted it as apart of his fan base.
+* [[Locodoco]] considers Emperor as one the highest mechanical players in the World due to his ability to calculate how much damage he can put to enemy champions.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

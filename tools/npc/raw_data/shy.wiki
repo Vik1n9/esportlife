@@ -1,0 +1,134 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Shy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.918Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Shy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Shy
+|name=Park Sang-myeon
+|nativename=박상면
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1991
+|birth_date_month=July
+|birth_date_day=19
+|favchamp=Jax
+|favchamp2=Rumble
+|favchamp3=Shen
+|favchamp4=Singed
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' Azubu Shy, GoldBBo, 안동불기둥, 서해안 꽃게잡이, 고랭지농업종사자, 6785645675678563
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Analyst
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/pparkshy
+|youtube=https://youtube.com/channel/UCBo3r_IAd1EiFGe1x7GgTLw
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Top
+}}
+==Biography==
+Park "'''Shy'''" Sang-myeon was born in Andong, South Korea on July 19, 1991, and he currently lives in Ilsan. Park began to play League of Legends when the Korean server was launched in February 2012, favoring toplane champions {{ci|Jarvan IV}} and {{ci|Jax}}.
+
+===Season 2===
+Shy joined [[Azubu Frost]]'s roster after the [[Azubu_The_Champions_Spring_2012|2012 OGN Spring Championship]], replacing [[Locodoco]]; as part of this swap, former toplaner [[Woong (Jang Gun-woong)|Woong]] moved to the AD carry position so that Shy could play toplane. Shy’s first OGN was [[Azubu The Champions Summer 2012]]. Frost ended up taking first in the tournament after a very close series against [[Counter Logic Gaming Europe]]. This victory qualified them to the [[Season 2 World Championship]] as the top Korean seed. Unfortunately Frost lost in the Finals 3-1 to the [[Taipei Assassins]]' but Shy’s exceptional play garnered him praise from players all around the world. Soon after he attended the [[2012_MLG_Pro_Circuit/Fall/Championship|2012 MLG Fall Championship]] with [[Azubu Blaze]] after [[Reapered]] left the team. Here Shy once again proved his global dominance after Blaze beat [[Najin Sword]] in two separate sets in the finals.
+
+===Season 3===
+At the beginning of season 3 Azubu Frost qualified for [[IEM Season VII - Global Challenge Katowice|IEM Katowice]] but were ultimately knocked out in the semifinals by [[Gambit Gaming]]. A month later, [[OLYMPUS Champions Winter 2012-2013]] finished up. Frost made it to the finals but were swept 3-0 by Najin Sword. They were soon bought by the [[CJ Entus]] organization and attended the [[IEM Season VII - World Championship]]. They made it to the finals but lost to their sister team Blaze 3-1. Even thought Frost lost Shy earned the MVP for the tournament. Long time AD carry Woong left the team in the first of many roster swaps for Frost. Shy attended [[All-Star Shanghai 2013]] after being voted in by the Korean fans. The team performed exceptionally well, taking first and earning an extra spot for Korea in the [[Season 3 World Championship]]. 
+
+Shy came back to Korea to participate in [[OLYMPUS Champions Spring 2013]]. Frost was swept in the semis by Blaze and then by [[SK Telecom T1 2]], ultimately placing 4th. After several more roster swaps Frost entered the [[HOT6iX Champions Summer 2013]] and once again placed 4th after losing 3-0 to the [[KT Rolster Bullets]] and losing in a close 3-2 set to [[MVP Ozone]]. They attended the [[Season 3 Korea Regional Finals]] with high hopes to go to worlds but missed their chance after losing 3-0 to KT B. Shy and Frost then had a very disappointing tournament at [[PANDORA.TV Champions Winter 2013-2014]] where they had their worst result yet, placing 5th-8th after being swept in the quarter finals by [[Samsung Ozone]]. Shy attended [[IEM Season VIII - Singapore]] where he placed 2nd behind [[Invictus Gaming]].
+
+===2014 Season===
+[[HOT6iX Champions Spring 2014]] didn’t go much better for Shy after [[Samsung Blue]] beat him and his team 3-1 in the quarterfinals. The steady decline of Shy and Frost continued as they didn’t even make it out of groups at [[HOT6iX Champions Summer 2014]]. Frost’s poor performance during the entire year saw them miss the [[2014 Season Korea Regional Finals]].
+
+===2015 Season===
+With the change to OGN rules, CJ Entus was forced to combine their Blaze and Frost roster. Shy found himself as the uncontested starting top laner for CJ Entus following [[Flame]]’s departure from the organization. They were invited to [[IEM Season IX - World Championship|IEM Katowice]] in March 2015. They finished in 5th/6th place, after defeating Gambit Gaming but then losing to [[Team SoloMid]] and [[Team WE]]. CJ participated in [[SBENU Champions Spring 2015]] where they lost in the semifinals 3-2 to [[SK Telecom T1]]. [[Helper (Kwon Yeong-jae)|Helper]] was called up to the starting roster prior to the start of [[SBENU Champions Summer 2015]] to share the starting top lane position with Shy. CJ placed third in the regular season of Champions Summer but lost 3-0 to the [[KOO Tigers]] in the second round of the playoffs. CJ had enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] but they lost 3-2 to the [[Jin Air Green Wings]]. 
+
+===2016 Season===
+In the preseason, CJ played in the [[2015 LoL KeSPA Cup]] where they lost 3-0 in the finals to [[ESC Ever|Ever]]. During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], Shy had confidence issues after constantly being criticized by Korean community. He discussed his situation with head coach [[Reach (Park Jung-suk)|Reach]] and [[Reach (Park Jung-suk)|Reach]] suggested Shy to take a break and learn from other players in spring split. <ref>http://sports.news.naver.com/esports/news/read.nhn?oid=502&aid=0000000006</ref> CJ went 8-10 in sets, finishing in eighth place overall for the spring split; however, Shy did not play a game during the split.
+
+CJ Entus had a very poor showing in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 3-15 total in set score. Shy's reinstating as the starting top laner seemed to make no difference in their abysmal results. Locked into tenth place in the LCK season, CJ Entus participated in the [[LCK/2017 Season/Spring Promotion|2017 LCK Spring Promotion]]. In the first round they were swept 2-0 by [[Kongdoo Monster]], bringing them down to the loser's bracket. There, they beat [[SBENU Korea]] 2-0 before falling to [[ESC Ever]] in a 3-0 sweep to become relegated from the LCK. This marked the first time an original Kespa team was relegated from the LCK.
+
+=== 2017 Season ===
+Shy joined the [[ROX Tigers]] in December 2016 and shared the position with [[Lindarang]], although Lindarang played for the majority of the games. ROX Tigers would end the [[LCK 2017 Spring|Spring Split]] at 6th and [[LCK 2017 Summer|Summer Split]] at 7th.
+
+On December 5th, Shy announced his retirement.
+
+== Trivia ==
+* Played the MoBA game [https://starcraft.fandom.com/wiki/Aeon_of_Strife_(map) Aeon of Strife] before starting playing League.
+* Favorite champion is {{ci|Jax}}, because he was very impressed with [[Jax]]'s lore and backstory.<ref>[http://www.youtube.com/watch?v=gjOcV3t45EI Shy (Azubu Frost) Interview with Chobra - Season Two World Championship Day Three] ''youtube.com''</ref>
+* Shy played the Warcraft 3 Dota-like map ''"Chaos"'' for a long time. He started playing League of Legends in April 2012, meaning he had less League experience than almost every player in the Season 2 World Championships. <ref>[http://www.youtube.com/watch?v=gjOcV3t45EI Shy (Azubu Frost) Interview with Chobra - Season Two World Championship Day Three] ''youtube.com''</ref>
+* Favorite player was at one point TSM's [[Dyrus]]. <ref>[http://lol.teamazubu.com/team-info/ Anzubu's Player Site] ''teamanzubu.com''</ref>
+* Awarded MVP at [[IEM Season VII - World Championship]].
+* One of his alternative ID's "안동불기둥" means 안동's pillar or flame in which 안동 is a province where Shy was born. This ID was created by other Frost players when he joined the team.
+* Known for his extremely good {{ci|Ryze}} in the top lane, and is one of the best {{ci|Jayce}} and {{ci|Singed}} players in the world.
+* Known for his phenomenal {{ci|Shen}} play. His Shadow Dash-Flash combos often catch multiple enemies off guard earning him MVP on several occasions in [[HOT6iX Champions Summer 2013]].
+* Awarded Best Top Laner at 2012 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?site=lol&news=80305 Result of 2012 Korean e-Sports Awards]''inven.com.kr''</ref>
+* Enjoys exercising and traveling.
+* Chose the name "Shy" because he can be timid, but is also able to be very talkative if the opportunity presents itself.
+* First champion was {{ci|Garen}}.
+* Played with [[MadLife]] on the same roster for 1626 days. As of November 30, 2016, when they departed [[CJ Entus]], this was the longest any pair of players had played together.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2012
+|name2=2013
+|name3=2014
+|name4=2015
+|name5=2017}}
+{{TDRight|tab}}<!--2017-->
+* January 9, [http://slingshotesports.com/2017/01/09/shy-park-sang-myun-cj-entus-relegation-rox-tigers-league-of-legends-champions-korea/ ROX Shy on being relegated with CJ Entus: “I really didn’t like League of Legends. I didn’t even want to log in to play.”] ''Translated on Slingshot''
+* January 10, [http://www.invenglobal.com/articles/779 ROX Tigers Shy spoke out about his frustration and his new start] ''with Inven''
+* January 19, [http://www.invenglobal.com/articles/865 ROX Shy: "I want to climb higher with my new teammates."] ''with Inven Global''
+* March 19, [https://www.invenglobal.com/articles/1376 ROX Shy: "I drafted Shen to suppress Marin’s roaming capacity"] ''with Inven Global''
+* May 10, [http://www.espn.com/esports/story/_/id/19352466/not-supposed-okay-being-substitute-be-unacceptable ROX Tigers Shy: 'You're not supposed to be okay with being a substitute. It has to be unacceptable.'] ''with ESPN''
+* August 30, [http://www.invenglobal.com/articles/2828/rox-tigers-shy-after-his-ama-i-want-to-improve-my-potential-in-the-next-tournament ROX Tigers Shy after his AMA: “I want to improve my potential in the next tournament.”] ''with Inven Global''
+* December 31, [https://www.invenglobal.com/articles/3876/rox-shy-on-being-remembered-i-want-my-name-recorded-in-the-history-of-esports ROX Shy on Being Remembered: "I want my name recorded in the history of esports..."] ''with Ki-Baek "Juneau" Nam, Woo "Ready" Hyun, and Changsik "Alle" Son on Inven Global''
+{{TDRight|tab}}<!--2015-->
+* January 11, [http://www.liquidlegends.net/forum/lol-general/475223-interview-sk-telecom-vs-cj-entus-winner CJ Entus Shy Interview] ''with Inven (Translated by TL)''
+* November 10, [http://barontimer.tumblr.com/post/132985082901/a-match-without-expectationstodays-victory “A match without expectations…Today’s victory will be a plus factor” - Interview with CJ Entus’ Shy] ''translated by Grace (xoprestige)'' ([http://www.inven.co.kr/webzine/news/?news=146239&site=lol Original Interview (Korean)])
+{{TDRight|tab}}<!--2014-->
+* May 8, [http://www.ongamers.com/videos/shy-on-his-urf-performance-at-lcs-all-stars/2300-529/ Shy on his URF performance at LCS All-Stars (video)] ''with onGamers''
+* May 9, [http://www.ongamers.com/videos/team-fire-s-shy-and-ice-s-froggen-spar-after-their/2300-538/ Team Fire's Shy and Ice's Froggen spar after their hexakill match (video)] ''with onGamers''
+* July 5, [http://www.youtube.com/watch?v=fVt4wkIkoGM 'Reflections' with Shy (video)] ''with Thorin''
+* August 11, [http://www.youtube.com/watch?v=pcS0PZjZVt4 CJ Frost Shy at KCon 2014 (video)] ''with Travis Gafford''
+{{TDRight|tab}}<!--2013-->
+* January 10, [http://www.inven.co.kr/webzine/news/?news=52174&iskin=lol 프로스트가 먼저 웃었다. 4강전 A조 첫 번째 경기 결과 (Korean)] ''with Inven'' / [http://ggchronicle.com/ogn-champions-interview-with-madlife-and-shy-translated/ (English Translation)] ''with ggChronicle''
+* May 24, [http://www.gamespot.com/6408874 Shanghai All Stars 2013 Interview: Shy (video)] ''with GameSpot''
+{{TDRight|tab}}<!--2012-->
+* October 7, [http://www.youtube.com/watch?v=gjOcV3t45EI Shy (Azubu Frost) Interview with Chobra - Season Two World Championship Day Three (video)] ''with ggChronicle''
+* November 3, [http://www.gamespot.com/league-of-legends/videos/shy-talks-about-subbing-for-azubu-blaze-at-mlg-dallas-6399442/ Shy talks about subbing for Azubu Blaze at MLG Dallas (video)] ''with GameSpot''
+{{TDRight/end}}
+
+==External Links==
+* [http://www.youtube.com/watch?v=JE34SnODTTY Shy's Best Plays | LoL Pro Series]
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

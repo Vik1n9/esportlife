@@ -1,0 +1,90 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Doran%20(Choi%20Won-yeong)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.804Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Doran (Choi Won-yeong)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Kuri
+|name=Choi Won-yeong
+|nativename=최원영
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Brazil
+|birth_date_year=2000
+|birth_date_month=August
+|birth_date_day=08
+|favchamp=Thresh
+|favchamp2=Rakan
+|checkbox1=No
+|compID1=Doran
+|checkboxComp=No
+|ids='''BR''': PAIN Kuri#LTAS, Surround Sound#21S, Kuri88#BR1 <br> '''KR''': Kuri#9292<br> '''EUW''': PNG Kuri
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://twitch.tv/lol_kuri
+|facebook=https://www.facebook.com/profile.php?id=100012420798525
+|twitter=KuriLoL_
+|instagram=kuri_lol
+|videoarchive=https://ch.sooplive.co.kr/ekfhd762
+|lolpros=https://lolpros.gg/player/kuri
+|deeplol=https://www.deeplol.gg/pro/Kuri
+|dpmlol=https://dpm.lol/pro/Kuri
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Doran'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|istrainee26=No
+|istrainee27=No
+|istrainee28=No
+|istrainee29=No
+|istrainee30=No
+}}
+==Biography==
+
+== Trivia ==
+* His favorite champion to play is {{ci|Thresh}}.
+* He has tattoos, which was visibly shown on his streams.
+* His role model in League of Legends is [[TusiN]].
+* In 2023 he had announced he was temporarily quitting being a progamer in a tweet to address his health conditions. He afterwards returned to play in [[paiN Gaming]].<ref>[https://twitter.com/KuriLoL_/status/1666580943195504642 Kuri's Tweet] ''twitter.com''</ref>
+* Was featured on a '''LoL Esports Top 5 Plays of the Week''' as '''Top 1''' playing for [[paiN Gaming]] with his 5-men {{ci|alistar}} engage against [[FURIA]].<ref>[https://x.com/lolesports/status/1808516057214357988 LoL Esports' X Post] ''x.com''</ref>
+* Is the second Korean player in the history of CBLOL to changes his residency to Brazil, only after [[Wizer]].
+===Individual Awards===
+* 1x CBLOL 1st All-Pro Team (2024 Split 1)
+* 1x CBLOL 1st Round-Robin Team (2024 Split 2)
+=== Statistics ===
+* Reached 100 games played with [[TitaN]] in April 21st, 2025.<ref>[https://x.com/LTASul/status/1914363215687110747 LTA Sul's X Post] ''x.com''</ref>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

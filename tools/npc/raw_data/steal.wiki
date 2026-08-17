@@ -1,0 +1,6 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Steal&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:35.626Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Steal」 · CC BY-SA 3.0（Leaguepedia） -->
+{{DisambigPage
+|player1=Steal (Mun Geon-yeong)
+|player2=Steal (Victor Ruiz)
+}}

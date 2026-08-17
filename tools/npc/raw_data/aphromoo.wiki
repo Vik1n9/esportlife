@@ -1,0 +1,160 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Aphromoo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.322Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「aphromoo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=aphromoo
+|name=Zaqueri Black
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|birth_date_year=1992
+|birth_date_month=September
+|birth_date_day=08
+|favchamp=Sona
+|favchamp2=Lulu
+|favchamp3=Thresh
+|favchamp4=Blitzcrank
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' aphromoo<br>'''KR:''' s0undw4v3<br>Jetaun<br>s0undw4v333<br>Mr Geomeun
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/aphromoo
+|facebook=https://www.facebook.com/Aphromoo
+|twitter=aphromoo
+|instagram=aphromoo
+|snapchat=zwundum
+|youtube=https://youtube.com/user/Aphromoo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+Zaqueri "'''Aphromoo'''" Black hails from Whittier, California in the United States.
+
+===League of Legends Career===
+
+Aphromoo played on several teams starting in 2011. He began to gain recognition as the AD Carry player of [[v8 eSports]], where he played with [[PhantomL0rd]], [[Muffinqt]], and [[Unstoppable]], among others. He and Muffinqt were known as a strong duo lane and would play together again on [[MTw_North_America|mTw.NA]], [[Monomaniac_Ferus|mMe Ferus]], and [[Team FeaR]]. During this time, he gained huge popularity as a streamer. In December 2012, Aphromoo asked his viewers if they would still watch him play if he switched his role to support; he then joined [[Counter Logic Gaming]] as their support player.
+
+Even after switching to support, Aphromoo's stream remained popular, and he became famous for his {{ci|Leona}} play<ref>[http://www.youtube.com/watch?v=aSHvzZy1YZA Aphromoo - Best Support NA (video)] ''youtube.com''</ref>; Aphromoo's popularity is often credited as being part of the reason that support became a more popular role to play, along with the season 4 changes to support gold income and itemization. The CLG duo lane of Aphromoo and [[Doublelift]] gained huge popularity, and were nicknamed by fans as the "'''Rush Hour'''" duo. However, in May 2013 Aphromoo was removed from the CLG roster, as part of a large set of changes including [[Nientonsoh]] joining the team in the toplane, [[Chauster]] moving to support, [[HotshotGG]] stepping down, and [[bigfatlp]] moving into the jungle.
+
+On October 7, 2013 [[Team Curse]] announced a new lineup including [[Pobelter]], Aphromoo, [[Zekent]], and [[IWillDominate]]<ref>[http://www.teamcurse.net/divisions/league-of-legends/team-curse Team Curse Roster Changes] ''teamcurse.net''</ref>; however, on October 13 Aphromoo was released from Team Curse<ref>[http://twitter.com/aphromoo/status/389646409240027136 Aphromoo's Twitter Post] ''twitter.com''</ref>. He remained teamless until January 2014, when he was re-added to the CLG starting lineup as their starting support. Aphromoo has been CLG's support player since, and the botlane of Doublelift and Aphromoo are considered by many to be the strongest duo lane in North America.
+
+===2015 Season===
+
+For the first eight weeks of the spring split, CLG were never lower in the standings than tied for second place, and the only reason they didn't receive a [[Riot League Championship Series/North America/2015 Season/Spring Playoffs|playoff]] bye was that they lost a second-place tie breaker to Cloud9 and so ended up in third place. CLG fans called the split CLG's "golden age," but the question still remained whether CLG could perform in the playoffs, especially after a dramatic comeback loss to Team SoloMid the first time the two teams met in the round robin. Ultimately, CLG were unable to perform in playoffs, as they lost to [[Team Liquid]] in the quarterfinals and ended the split tied for fifth place with [[Gravity (North American Team)|Gravity]].
+
+Echoing their spring split performance, CLG started the [[Riot League Championship Series/North America/2015 Season/Summer Season|summer split]] strong, in first place at the end of each of the first four weeks and then lost four games in a row to finish tied for fifth after week six. This time, however, they rebounded and ended the season in second, behind Team Liquid and with a 13-5 record. They received a bye in the first round of the [[Riot League Championship Series/North America/2015 Season/Summer Playoffs|playoffs]] and then swept both [[Team Impulse]] and [[Team SoloMid]] 3-0, to win their first LAN event since MLG Raleigh in 2011 nearly four years prior and receive North America's top seed to [[2015 Season World Championship|Worlds]]. Despite having a relatively easy group draw with [[KOO Tigers]], [[Flash Wolves]], and [[paiN Gaming]], CLG didn't advance from their Worlds group, ending with a 2-4 record including a loss to paiN.
+
+=== 2016 Season ===
+
+After two major roster changes - [[Stixxay]] replacing long-time AD carry [[Doublelift]] and [[HuHi]] replacing [[Pobelter]] - CLG attended [[IEM Season X - San Jose|IEM San Jose]] in November 2015, where they defeated [[Unicorns of Love]] and [[Jin Air Green Wings]] before losing to [[Origen]]. Their performance earned them a seed into [[IEM Season X - World Championship|IEM Katowice]], which they attended after the seventh week of the [[League Championship Series/North America/2016 Season/Spring Season|LCS]]. However, despite being in a strong position domestically, in second place behind only the almost-undefeated [[Immortals]] (to whom CLG had handed their only loss of the season the week before), CLG were eliminated immediately from Katowice, losing first to [[SK Telecom T1]] and then to [[Fnatic]].
+
+CLG entered the [[League Championship Series/Europe/2016 Season/Spring Playoffs|LCS playoffs]] in second place, still behind Immortals, and still the only team to have beaten Immortals in the regular season. They won their semifinal series against Team Liquid in five games, winning the last game with a double teleport play to catch out [[Piglet]] and close out a win. Despite seeding expectations, their finals match was against TSM, who had 3-0'd Immortals the week before. This series also went to five games, and CLG once again won, qualifying for the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Returning to North America for the [[League Championship Series/North America/2016 Season/Summer Season|Summer Split]], CLG were expected to be at the top of the league after their MSI performance. However, not only did they fail to achieve that, but they weren't even in the top half of the standings until week 6. From there, they climbed to a fourth place regular season finish. In the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]], CLG first faced off against Team Liquid, whom they beat 3-1, before falling to TSM 3-0 in the semifinals. Crucially, one of [[Huhi]]'s signature mid lane champions [[Aurelion Sol]] was found to have a bug partway through their first game, and the game was remade with Aurelion Sol disabled for the rest of the playoffs (though it was generally accepted that TSM would have won regardless).<ref>[http://www.thescoreesports.com/lol/news/8271-exit-the-dragon-on-competitive-integrity-and-aurelion-sol Exit the Dragon: On Competitive Integrity and Aurelion Sol] ''thescoreesports.com''</ref> CLG lost the third-place to [[Immortals]] but automatically qualified for the [[2016 Season World Championship|World Championship]] based on [[2016 Season/Championship Points|Championship Points]] due to TSM's finals win over Cloud9.
+
+CLG were seeded into Group A at Worlds, alongside the [[ROX Tigers]], [[G2 Esports]], and wildcard [[Albus NoX Luna]]. Going into the group, CLG and G2 were seen as contenders for the second seed, while Tigers and Albus NoX were expected to finish first and last, respectively. Instead, CLG dropped both of their games to the wildcard team, and ANX skyrocketed to a second-place group stage finish while G2 collapsed into last place; CLG ended their Worlds run in third with a 3-3 record.
+
+===2017 Season===
+
+Transitioning into the [[League_Championship_Series/North_America/2017_Season/Spring_Season|spring split]] of the 2017 LCS season, CLG was the only North American team to not make any changes to its roster. They were inconsistent to begin the split, fluctuating between 5th and 7th place over the first half of the season before stabilizing with a 2-0 week 5. CLG remained in the playoffs after that, and a 3-1 record down the stretch put them in fourth behind [[TSM]], [[Cloud9]] and a much improved [[Phoenix1]]. In the playoffs, CLG faced off against 5th seed [[FlyQuest]]. Although they started off strong with 2 wins, they were ultimately reverse swept and lost 2-3 which knocked them out of playoffs.
+
+In the mideason, CLG swapped junglers with [[Immortals]], sending [[Xmithie]], one of their longest tenured players, to the team for [[Dardoch]]. This change seemed to work out for both sides, as CLG began the season in a three way race for first with Immortals and TSM. As the season went on however, CLG's performance started to drop and eventually Dardoch left the team and was replaced by LCS rookie [[OmarGod]]. This stabilized CLG's play to some extent and they finished the regular season in 3rd place with a 12-6 record. In the playoffs CLG managed to defeat [[Team EnVyUs]] 3-2 in a hard fought series. They however lost 0-3 to [[Immortals]] in the Semifinals. In the third place match CLG swept [[Team Dignitas]] 3-0 to end their playoff run on a high note.
+
+Their third place finish gave CLG the second seed in the [[2017 Season North America Regional Finals|Regional Finals]]. There, they defeated FlyQuest 3-1, setting up a match with [[Cloud9]] to make [[2017 Season World Championship|Worlds]]. After they dropped the first two games, CLG managed to win the third and make it a series, but dropped the fourth and lost the series which in turn ended their 2017 season. After spending 4 years with CLG, Aphromoo left the team in November of 2017 and the next month he would join the newly formed [[100 Thieves]].
+
+== Trivia ==
+* Favorite AD carries are {{ci|Draven}} and {{ci|Tristana}}.
+* Played as a Tauren Druid during his World of Warcraft career, hence his in-game name.
+* Favorite PS2 game is ''[[wikipedia:en:Gauntlet Dark Legacy|Gauntlet Dark Legacy]]''.
+* Has partnered with [[Dyrus]] to play a dunking combo of "[[wikipedia:en:Kareem Abdul-Jabbar|Kareem Abdul Jabbar]]" ({{ci|Jarvan IV}}, and {{ci|Leona}}).
+* Known to favor less-popular AD carries in the past, such as {{ci|Draven}}, {{ci|Miss Fortune}},{{ci|Twitch}}, {{ci|Varus}} and {{ci|Quinn}}. He was one of the original pioneers of these champions.
+* Reached rank one on the North American server on November 3, 2012, playing {{ci|Draven}}.
+* His bot lane with Doublelift had many nicknames, including "Aphrolift," "Doublemoo, and "Chris Tucker and Jackie Chan AKA Rush Hour."
+* Favorite movie is ''[[wikipedia:en:5 Centimeters per Second|5 Centimeters per Second]]''.<ref>[http://clgaming.net/player/5-Aphromoo CLG Profile] ''clgaming.net''</ref>
+* Loves to play {{ci|Blitzcrank}} and {{ci|Leona}}.<ref>[http://www.team-dignitas.net/articles/blogs/League-of-Legends/2764/An-Interview-with-CLGs-New-Support-Aphromoo/ An Interview with CLG's New Support, Aphromoo] ''team-dignitas.net''</ref>
+* Known to have an extremely entertaining stream.
+** Fans commonly reference "Support is so easy, dude!" from a clip on his stream during his time as an ADC player. <ref>[https://www.youtube.com/watch?v=aSHvzZy1YZA&ab_channel=PROchief] ''youtube.com''</ref>
+* Donated $2000 for the "Siv HD MASSIVE CHARITY EVENT".<ref>[http://www.reddit.com/r/leagueoflegends/comments/1lwtiu/sivhd_is_streaming_right_now_for_charity_tune/cc3l559 SIVHD is streaming right now for charity. Tune in/donate to support "Save the Children"] ''reddit.com''</ref>
+* Was temporarily banned for Elo boosting in March 2013 along with several other pro players including [[Rhux]], [[Xmithie]], [[Meteos]], [[DontMashMe]], [[Nyjacky]], and [[Chuuper]].<ref>[http://forums.na.leagueoflegends.com/board/showthread.php?t=3239350  LCS Competition Rulings: NA Elo-Boosters] ''forums.na.leagueoflegends.com''</ref>
+* Did not like supporting in Season 3, but as the Season 4 changes came by, he started to enjoy support much more.
+* Reached 2000 Assists in the LCS on March 26, 2017
+** The 2nd player to reach 2000 Assists in the LCS after [[Xpecial]].
+** His 2000th assist was for [[CLG]]'s AD Carry [[Stixxay]]'s kill on [[NV]]'s Jungler [[LirA]] in the [[NA LCS 2017 Spring|NA LCS 2017 Spring Season]] with {{ci|Lulu}}.
+* Was the first Support player in LCS history to receive the Most Valuable Player award in the [[NA LCS 2018 Spring|NA LCS 2018 Spring Season]].
+* Oldest player in the LCS as of [[LCS 2022 Spring]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

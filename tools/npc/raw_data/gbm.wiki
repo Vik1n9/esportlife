@@ -1,0 +1,92 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=GBM&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.769Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「GBM」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=GBM
+|name=Lee Chang-seok
+|nativename=이창석
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1994
+|birth_date_month=June
+|birth_date_day=23
+|favchamp=Xerath
+|favchamp2=Twisted Fate
+|favchamp3=Orianna
+|favchamp4=Ahri
+|checkbox1=No
+|checkboxComp=No
+|ids=CJ Entus 갱맘, Jin Air GBM, G4nked by mom, Jin Air WallMoM, I have script (NA)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/tst1023
+|twitter=GBM_lol
+|instagram=gbm_lol
+|youtube=https://youtube.com/channel/UCOaG8Fw9RMy6Qjz-6Oie0ng
+|lolpros=https://lolpros.gg/player/gbm/
+|deeplol=https://www.deeplol.gg/pro/GBM
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Coach
+|prev2=Mid
+|prev3=Jungler
+}}
+==Biography==
+===Season 3===
+Lee "'''GBM'''" Chang-seok was picked up by [[CJ Entus Frost]] in June of 2013 as a mid laner under the name "'''Ganked by Mom'''". He played in his first OGN with the team at [[HOT6iX Champions Summer 2013]] and shared playing time with [[RapidStar]]. Frost ended the season in fourth after making it to the semifinals and then losing 3-0 to the [[KT Rolster Bullets]] and 3-2 to [[MVP Ozone]]. Frost earned enough circuit points to qualify for the [[Season 3 Korea Regional Finals]] but lost 3-0 in the second round to the Bullets. In the offseason, Frost attended [[IEM Season VIII - Singapore|IEM Singapore]] and made it to the finals but lost 2-0 to [[Invictus Gaming]].
+
+===2014 Season===
+The new season started for GBM and Frost at [[PANDORA.TV Champions Winter 2013-2014]] where they made it to the quarterfinals but lost 3-0 to [[Samsung Ozone]]. GBM left the team after the season to join the [[Jin Air Green Wings Falcons]] as their new mid laner. He played with the team for the first time at [[HOT6iX Champions Spring 2014]] but the team failed to win a single game and fell out in the groups. They then went to [[HOT6iX Champions Summer 2014]] but failed to make it past the group stages again. GBM left the team on September 12, 2014. 
+
+===2015 Season===
+GBM rejoined the [[Jin Air Green Wings]] as the starting mid laner when the Falcons combined with the [[Jin Air Green Wings Stealths]]. Jin Air played in [[SBENU Champions Spring 2015]] and made it to the playoffs but they faltered at the end of the season and lost 3-0 to [[CJ Entus]], ending in fourth place. [[Kuzan]] was moved up the main roster to share the starting mid position with GBM before the next season of Champions. Jin Air then attended [[SBENU Champions Summer 2015]] but placed 6th overall, gaining 10 circuit points and qualifying for the next season of LCK but barely missing playoffs. Jin Air was seeded into the first round of the [[2015 Season Korea Regional Finals]] and made it all the way to the finals but they lost 3-1 to [[KT Rolster]].
+
+===2016 Season===
+GBM left Jin Air in November to join the new North American team [[NRG eSports]], as their mid laner. NRG started the [[League Championship Series/North America/2016 Season/Spring Season|LCS]] strong, tied for either first or second place through the first four weeks, but after the fifth week they fell down to fifth place and remained there for the rest of the season. They were eliminated in the first round of the [[League Championship Series/North America/2016 Season/Spring Playoffs|playoffs]].
+
+== Trivia ==
+* After falling to 1100 elo in Season 2 he decided to start a totally new account and become the best at one champion. He saw [[Ambition]] play {{ci|Orianna}} and decided to play her. He played her exclusively from level 1 to 30 and then again until he was 2100 elo.<ref>[http://cloth5.com/cj-entus-frost-ganked-by-mom-interview-i-am-the-worlds-best-orianna/ Debut Interview (translated)] ''cloth5.com''</ref> 
+* Came up with his name after repeatedly being caught playing by his mother in the middle of the night. In Korea this is known as 'um-ke' literally meaning 'mom critical', after realising this idea might not be communicated well to a western audience he changed it to the now famous 'Ganked By Mom'.<ref>[http://cloth5.com/cj-entus-frost-ganked-by-mom-interview-i-am-the-worlds-best-orianna/ Debut Interview (translated)] ''cloth5.com''</ref>
+* His high skill and game making plays on {{ci|Orianna}} have caused many fans to dub him the 'Orianna Master'. 
+* Is close friends with his team counter-part [[RapidStar]]. He believes that having two mid laners on a team does not put pressure on each other but instead allows them to learn more and get even better.<ref>[http://cloth5.com/cj-entus-frost-ganked-by-mom-interview-i-am-the-worlds-best-orianna/ Debut Interview (translated)] ''cloth5.com''</ref>
+* Widely regarded as one of the best {{ci|Orianna}} players in the world.
+* Is an avid fan of '''[[wikipedia:en:Doctor Who|Doctor Who]]''' and wears bowties onstage in the manner of the Eleventh Doctor (portrayed by '''[[wikipedia:en:Matt Smith|Matt Smith]]'''.)
+* Became known for his {{ci|Zilean}} play upon picking it in an [[League Championship Series/North America/2016 Season/Spring Season|NA LCS]] game on [[NRG Esports]] against [[Team SoloMid]] and shutting them out.
+* Is married to Influencer [[YATTAA]].
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

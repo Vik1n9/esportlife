@@ -1,0 +1,100 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=EVOS%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.407Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「EVOS Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= EVOS Esports
+|orgcountry= Indonesia
+|country= Vietnam
+|region=Vietnam
+|image= EVOS Esportslogo square.png
+|headcoach= Ngô "'''[[Violet (Ngô Mạnh Quyền)|Violet]]'''" Mạnh Quyền
+|manager=
+|captain=
+|website= https://evos.gg
+|facebook= https://www.facebook.com/TeamEVOSLOL
+|twitter=evosesports
+|instagram=evosesportsvn
+|youtube=https://youtube.com/channel/UCKvVwK730TcF-Y-DS7IiByQ
+|sponsor=Traveloka<br>[http://joinwhim.com/ Whim]
+|created= 2017-05-15
+|disbanded= 2020-12-07
+|rosterphoto=EVS 2020 Summer.png 
+}}{{TOCRWI}}
+'''EVOS Esports''' is an Indonesian organization. Their ''League of Legends'' team is Vietnamese and plays in the VCS.
+
+== History ==
+=== 2017 Season ===
+After changing region from Indonesia to Vietnam. EVOS roster was highly potential with [[Stark (Phan Công Minh)|Stark]] and [[Slay]]. However the team lose right from Round 1 to [[Hall of Fame]] at [[VCS_B/2017_Season/Winter|2017 VCS B]]. On December 14, EVOS acquired a [[VCS/2018 Season/Spring Promotion|VCS 2018 Spring Promotion]] slot from [[LG Red]], [[Slay]] and [[Warzone]] joined.
+
+Defeated [[New Power Esports]], EVOS had a rematch with [[Hall of Fame]] and came away with a 3-0 win, officially qualified for [[VCS 2018 Spring]]
+=== 2018 Season ===
+After qualified to VCS, EVOS surprise everyone by beating the defending champion GIGABYTE Marines in their first season and receives their slot to [[2018 Mid-Season Invitational/Play-In|MSI Play-In]]. They then defeated SuperMassive eSports in the 3rd round (3-1) to make it to the Group Stage. Secure a Group Stage spot for the Vietnam region at the 2018 Season World Championship.
+=== 2019 Season ===
+The team finished [[VCS 2019 Spring]] in third place with a 9-5 score and qualified for [[VCS 2019 Spring Playoffs]]. The team won 3-2 against [[Friends Forever Gaming]] and 3-1 against [[Sky Gaming]], however lost 1-3 against [[Phong Vũ Buffalo]] and finished the season in second place, gaining a spot in [[Rift Rivals 2019/LCK-LPL-LMS-VCS|Rift Rivals 2019 LCK-LPL-LMS-VCS]]. They lost both their games in this tournament against [[DAMWON Gaming]] and [[TOP Esports]].
+
+The team finished [[VCS 2019 Summer]] in fifth place with a 6-9 score, failing to qualify for [[VCS 2019 Summer Playoffs]].
+=== 2020 Season ===
+After multiple roster changes and the poor performance in [[VCS 2019 Summer]], they were not considered a champions contender, however with a suitable strategy and a great performance of its roster, the team finished [[VCS 2020 Spring]] in fourth place with a 8-6 score, tied with [[Team Secret (Vietnamese Team)|Team Secret]] but having the worse game differential. They qualified for [[VCS 2020 Spring Playoffs]] and beat [[Team Secret (Vietnamese Team)|Team Secret]] in a close 3-2, meeting [[Team Flash.Vietnam|Team Flash]] as their next opponent, where they lost 1-3 and finished in third place.
+
+In the [[2020 Pulsefire Cup]] '''EVOS''' finished the group stage a with disappointing 1-2 record, however they qualified to the Semifinal due to a 3-way tiebreaker, in the Semifinal '''EVOS''' lost 2-0 to [[Saigon Buffalo]].
+
+In the Offseason [[EVOS Esports]] acquired [[Zeros]] and immediately became a title contender.
+
+== Timeline == 
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+{{listplayer/Start|staff=yes}}
+{{listplayersp|ToxiCEO|sg|Ivan Yeo|'''Co-Founder & CEO'''}}
+{{listplayersp|Bino|vn|Phạm Hồng Bảo Duy|'''Content Creator & Manager'''}}
+{{listplayersp|JAVie|vn|Huỳnh Nguyễn Phương Vy |'''Social Manager '''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Violet (Ngô Mạnh Quyền)|vn|Ngô Mạnh Quyền|'''Head Coach'''|newteam=sbtce}}
+{{listplayer|Beyond (Trương Vĩnh Thanh)|vn|Trương Vĩnh Thanh|'''Manager'''|newteam=none}}
+{{listplayersp|Pengarrow|vn|Phạm Duy Quang|'''Content Creator'''|newteam=flash vn}}
+{{listplayersp|HYPE|vn|Trần Hữu Toàn|'''Assistant Coach & Video Editor'''|newteam=sbtce}}
+{{listplayersp|Nazgriel|vn|Phùng Đăng Khoa|'''Analyst'''|newteam=none}}
+{{listplayersp|Grandon|vn|Nguyễn Vũ Đôn|'''General Manager'''|newteam=dashing buffalo}}
+{{listplayer|Humble (Hwang Shin-woong)|kr|Hwang Shin-woong (황신웅)|'''Assistant Coach'''|newteam=hyfresh blade academy}}
+{{listplayer|Harbinger|vn|Đoàn Nguyễn Dương|'''Training Facility Manager'''|newteam=evos|comment=Support}}
+{{listplayer|Fixer|kr|Jeong Jae-woo (정재우)|'''Strategy Coach'''|newteam=none}}
+{{listplayersp|IWantU|vn|Tô Hoàng Dũng|'''Team Manager'''|newteam=ftv}}
+{{listplayer|Jensen (Jensen Goh)|sg|Jensen Goh (吳乾生)|'''Coach'''|newteam=spy}}
+{{listplayer|Warzone|vn|Đoàn Văn Ngọc Sơn|'''Streamer'''|newteam=box gaming}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Videos ==
+
+== Highlight Videos ==
+
+== Images ==
+<gallery>
+EVOS Esports Roster 2018 Spring.png|EVOS Esports Roster 2018 Spring
+EVOS Roster 2018 Summer.jpg|EVOS Esports Roster 2018 Summer
+EVOS Roster 2019 Summer.jpg|EVOS Esports' 2019 VCS Summer Roster
+EVS 2020 Spring.png|EVOS Esports' 2020 VCS Spring Roster
+</gallery>
+
+==External Links==
+Official YouTube Channel : https://www.youtube.com/channel/UCKvVwK730TcF-Y-DS7IiByQ
+
+Official Facebook Fanpage : https://www.facebook.com/TeamEVOSLOL/
+
+==References==
+<references />

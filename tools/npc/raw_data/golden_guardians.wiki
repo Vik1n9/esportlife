@@ -1,0 +1,139 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Golden%20Guardians&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.576Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Golden Guardians」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Golden Guardians
+|orgcountry= United States
+|country=
+|region= North America
+|sponsor= 
+<!-- Staff -->
+|headcoach= 
+|owner= 
+<!-- Social Media -->
+|website= https://www.goldenguardians.com
+|youtube= https://www.youtube.com/channel/UCV3_tt-m96bNztRaDAkPc-g
+|facebook= 
+|twitter= 
+|instagram= 
+|subreddit= GoldenGuardians
+|discord= 
+|snapchat= 
+|lolpros=
+|twitch-team= 
+|irc= 
+<!-- History -->
+|created= 2017-11-20
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=
+<!-- Other Teams Wikis -->
+|otherwikis= 
+}}{{TOCRWI}}
+
+'''Golden Guardians''' is an American esports organization operated by the NBA team '''Golden State Warriors'''.
+
+== History ==
+===2018 Season===
+Golden Guardians were one of four new teams awarded a slot in the newly franchised LCS. The roster for their first split consisted of former [[Team Liquid]] top laner and support [[Lourlo]] and [[Matt (Matthew Elento)|Matt]], former [[Cloud9]] jungler [[Contractz]], veteran mid laner [[Hai]], and rookie AD carry [[Deftly]], with former [[TSM]] and Liquid coach [[Locodoco]]. They were the only team in the [[League_Championship_Series/North_America/2018_Season/Spring_Season|2018 Spring Split]] to have a roster consisting solely of North American players but were also predicted to be a bottom tier team partly for that reason. These predictions proved prescient once the season began, as Golden Guardians were the last NALCS team to record a win to start the season, and finished the first half 1-8. Locodoco was also fired by the team after only two weeks of play, allegedly due to making inappropriate remarks to a female Riot employee, and was replaced by assistant coach [[Akiri]]. The team did show some improvements in the second half of the season, recording wins over the stronger Team Liquid and [[Echo Fox]], but failed to reverse their early season misfortunes, finishing tenth with a 4-14 record, well out of the playoff picture.
+
+During the mid season break, Hai retired and was replaced by Korean mid laner [[Mickey (Son Young-min)|Mickey]], who had spent the spring playing for [[Team Liquid Academy]]. Golded Guardians got off to a much better start in the [[NA LCS/2018 Season/Summer Season|summer split]] than they had in the spring, matching their spring win total by Week 4 and ending Week 5 in playoff contention with a 5-5 record. However, they completely collapsed over the final four weeks, losing every one of their remaining games and once again landing in tenth place, outside of playoffs. 
+
+===2019 Season===
+In the offseason, Golden Guardians went out and acquired three veteran players: former [[TSM]] top laner [[Hauntzer]], former [[Echo Fox]] mid laner [[Froggen]], and former [[Team Liquid]] support [[Olleh]], who joined 2018 holdovers Contractz and Deftly. Despite the pedigree of their three new players, [[LCS/2019 Season/Spring Season|the 2019 spring season]] started off looking like 2018, with Golden Guardians losing their first four games. The team showed marked improvement after that and steadily climbed the standings throughout the remainder of the season. GGS ended their season on a three-game winning streak, and beat [[FlyQuest]] on the final day of the split to force a tiebreaker for fourth place, although they lost it to fall into fifth. Their first [[LCS/2019 Season/Spring Playoffs|playoff]] appearance was yet another matchup against FlyQuest. The series went the full five games, with Golden Guardians initially taking a 2-1 lead, only to lose the final two games, ending their playoff run. 
+
+The team made no changes to their main roster for the [[LCS/2019 Season/Summer Season|summer split]], and got off to a strong 4-2 start. However, the rest of the split was far more inconsistent for GGS, leading to Australian bot laner [[FBI]] and former [[CLG]] mid laner [[Huhi]], now playing support, replacing Deftly and Olleh. Golden Guardians finished in a three-way tie for the final playoff spot with [[100 Thieves]] and [[OpTic Gaming]]. Seeded into the final round of the tiebreaker bracket due to beating 100 Thieves in both of their regular-season matches, the Guardians lost to OpTic, ending their season. They also did not have enough [[LCS/2019 Season/Championship Points|Championship Points]] to play in the [[LCS/2019 Season/Spring Playoffs|Regional Finals]].
+
+===2020 Season===
+For 2020, Golden Guardians retained Hauntzer and FBI. They were joined by Turkish jungler [[Closer (Can Çelik)|Closer]], mid laner [[Goldenglue]], and [[Keith]], who switched positions from bot laner to support. These moves were widely memed and derided by the community before the season began, especially Keith's change of position, as he had not been considered a particularly good player at his original position and had not started in the LCS since 2017. Although they were far from the top of the league, Golden Guardians surprised everyone by being competitive for a playoff spot throughout the [[LCS/2020 Season/Spring Season|spring split]], although Keith was unimpressive at his new position, and was replaced by Huhi after Week 6. At the end of Week 8, they sat at 6-10 and seemed likely to be out, but a 2-0 final week coupled with a 0-2 final week from both [[Immortals]] and [[Team Liquid]] propelled them into yet another three way tie for the final playoff spot. The Guardians were once again seeded into the final round, and this time defeated [[Dignitas]], sending this unlikely team into the playoffs. However, the new LCS playoff format meant that they were seeded directly into [[LCS/2020 Season/Spring Playoffs|the losers' bracket]], where they were swept by FlyQuest. 
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||us|Hunter Leigh|'''Head of Esports'''}}
+{{listplayersp||us|Crystal Au|'''Creative Director'''}}
+{{listplayersp|MelonTosser|us|Dan Mellynchuk|'''Esports Partnerships Manager'''}}
+{{listplayersp|Sam||Sam Han|'''Esports Marketing Analyst & Content'''}}
+{{listplayersp|||Tina Park|'''Esports Marketing Strategist'''}}
+{{listplayersp||us|Armando Yero|'''Esports Administrator'''}}
+{{listplayersp|||Ezequiel Pinedo|'''Social Media Manager'''}}
+{{listplayersp|FROMNOWHERE|us|Myles Tennell|'''Video Producer'''}}
+{{listplayersp|justenvision|us|Justin Asilo|'''Video Editor'''}}
+{{listplayersp|wadejpeg||Wade Malone|'''Graphic Designer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|MindBodyEsports|us|Edward Cleland|'''Mental Health and Performance Manager'''|newteam=NRG}}<!--Jan 2023 - Nov 2023-->
+{{listplayer|Spellsy|us|Daniel Biery|'''Director of Operations'''|newteam=none}}
+{{listplayer|Inero|us|Nick Smith|'''General Manager'''|newteam=Disguised}}
+{{listplayer|Ji Eun|us|Ji Eun Shin|'''Assistant General Manager'''|newteam=none}}
+{{listplayersp|Saskirin|us|Jonathan Thall|'''Team Operations Specialist'''|newteam=none}}
+{{listplayersp||us|Ryan Lau|'''Team Operations Associate'''|newteam=none}}
+{{listplayer|Spookz|au|Samuel Broadley|'''Head Coach'''|newteam=100}}
+{{listplayer|Chuz|au|Aaron Bland|'''Assistant Coach'''|newteam=NRG}}
+{{listplayer|Hustlin|se|Morgan Granberg|'''Two-Way Player Coach'''|newteam=Barça eSports}}
+{{listplayersp||us|Glenn Thomakos|'''Analyst'''|newteam=none}}
+{{listplayer|Bubbadub|us|Royce Newcomb|'''Associate Analyst'''|newteam=none}}
+{{listplayer|Swip3rR|au|Brandon Holland|'''Assistant Coach (Top)'''|newteam=GGA}}
+{{listplayer|Jido|us|Jonathan Do|'''Assistant Coach'''|newteam=DTT}}
+{{listplayersp|Danan|us|Danan Flander|'''General Manager'''|newteam=none}}
+{{listplayer|Stixxay|us|Trevor Hayes|'''Assistant Coach (Bot)'''|newteam=GGS|comment=Bot}}
+{{listplayer|Stixxay|us|Trevor Hayes|'''Assistant Coach (Bot)'''|newteam=GGA}}
+{{listplayersp||us|Alexander Monaghan|'''Producer'''|newteam=none}}
+{{listplayer|Apollo (Apollo Price)|us|Apollo Price|'''Positional Coach'''|newteam=CLG}}
+{{listplayer|Jido|us|Jonathan Do|'''Associate Analyst'''|newteam=GGA}}
+{{listplayersp|Jonathon|ca|Jonathon McDaniel|'''Assistant General Manager'''|newteam=CLG}}
+{{listplayersp|||Rachel Ho|'''Social Media Manager'''|newteam=none}}
+{{listplayer|Jimmy|us|Jimmy Harrison|'''Player Performance Coach'''|newteam=Dignitas}}
+{{listplayer|Olleh|kr|Kim Joo-sung (김주성)|'''Positional Coach'''|newteam=GGS|comment=Support}}
+{{listplayersp|Mark|us|Mark Register|'''Director of Video Production'''|newteam=none}}
+{{listplayersp|Whiskey6Studios|us|Stefan Wisnoski|'''Video Producer'''|newteam=100T}}
+{{listplayer|Potluck|ca|Nicholas Pollock|'''Two-Way Player Coach'''|newteam=Immortals Academy}}
+{{listplayer|Morissette|us|Daniel Morissette|'''Interim Head Coach'''|newteam=GGA}}
+{{listplayer|dGon|us|Daniel Gonzales|'''Team Manager'''|newteam=RAD}}
+{{listplayer|Xpecial|us|Alex Chu|'''Assistant Coach'''|newteam=HU}}
+{{listplayer|Real (Sam Joy)|us|Sam Joy|'''Assistant Coach'''|newteam=none}}
+{{listplayersp|Zercei|us|Jeff Prasad|'''Assistant Coach'''|newteam=TL}}
+{{listplayer|Tyler|us|Tyler Perron|'''Head Coach'''|newteam=EFX}}
+{{listplayer|Locodoco|kr|Choi Yoon-seop (최윤섭)|'''Head Coach'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|Golden Guardians|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Golden Guardians oldlogo square.png|Old Logo (- Dec 2019<!--2019-12-18-->)
+Golden Guardians OldAlternatelogo square.png|Old Alternative Logo
+Golden GuardiansAlternatelogo square.png|Alternative Logo
+Golden Guardians Logos Details.png|Current Logo Details
+</gallery>
+
+===Rosters===
+<gallery>
+Golden Guardians Roster 2018 Spring.png|NA LCS 2018 Spring<br>w/ Locodoco
+Golden Guardians Roster 2018 Spring 1.png|NA LCS 2018 Spring<br>w/ Tyler Perron
+Golden Guardians 2019 LCS Spring Roster.jpg|LCS 2019 Spring
+2021 GG Spring.png|LCS 2021 Spring
+Gg 2022 spring.png|LCS 2022 Spring
+</gallery>
+
+==References==
+<references />

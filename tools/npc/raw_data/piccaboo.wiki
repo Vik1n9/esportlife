@@ -1,0 +1,87 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Piccaboo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Piccaboo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Piccaboo
+|name=Lee Jong-beom
+|nativename=이종범
+|namealphabet=Hangul
+|image=KT_Piccaboo_2015_Summer.png
+|checkboxAutoImage=No
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=March
+|birth_date_day=25
+|favchamp=Thresh
+|favchamp2=Alistar
+|checkbox1=No
+|checkboxComp=No
+|ids=Xenics Piccaboo, 삼성갤럭시PcaBoo, SKT T1 Piccaboo, KT Piccaboo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=Yes
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=Yes
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.azubu.tv/Piccaboo
+|deeplol=https://www.deeplol.gg/pro/Piccaboo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Jungler
+}}
+==Biography==
+===Season 3===
+Lee "'''Piccaboo'''" Jong-beom originally played for [[Chunnam Techno University]]. The team qualified for [[HOT6iX Champions Summer 2013]] but Piccaboo didn't play any games. 
+
+===2014 Season===
+Piccaboo joined the new [[Xenics Storm]] roster as the starting support on October 14, 2013. They played in [[PANDORA.TV Champions Winter 2013-2014]] where they successfully made it out of groups but lost in the quarterfinals 3-1 to [[NaJin White Shield]]. They disbaned shortly after on February 3, 2014. Piccaboo then joined [[Samsung Blue]] as a sub but didn't play any games for them. On November 17, 2014, it was officially announced, that all remaining members of [[Samsung White]] and Samsung Blue left their teams, leaving Piccaboo team-less, but only briefly.<ref>[http://www.inven.co.kr/webzine/news/?news=121982&iskin=esports&game=13682014년 지배한 삼성 화이트-블루, 10명 모두 떠났다. (Korean)] ''inven.co.kr''</ref>
+
+===2015 Season===
+On December 2, 2014, Piccaboo joined [[SK Telecom T1]] as a sub. He participated in [[SBENU Champions Spring 2015]], with the team switching between him and [[Wolf (Lee Jae-wan){{!}}Wolf]] throughout the season until he suffered from a wrist injury and could not play for several weeks. He didn't play in the playoffs but the team won the championship after beating the [[GE Tigers]] 3-0 in the finals. After the end of the season, Piccaboo's contract lapsed.<ref>[http://m.inven.co.kr/webzine/wznews.php?site=lol&idx=132748 서포터 '피카부' 이종범, 휴식 위해 SKT 계약 종료] ''inven.co.kr''</ref> He joined [[KT Rolster]] to share the starting support position with [[Fixer]] on June 16. KT placed second overall during the regular season of [[SBENU Champions Summer 2015]]. They made it to the finals of the playoffs but lost 3-0 to SK Telecom T1. KT earned enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] where they beat the [[Jin Air Green Wings]] 3-1 in the finals to qualify for the [[2015 Season World Championship]]. KT was drawn into a group with [[LGD Gaming]], [[Team SoloMid]], and [[Origen]]. They ended with a 5-1 record and went on to play the KOO Tigers in the quarterfinals. Unfortunately, they lost 3-1 and were knocked out of the tournament. 
+
+===2016 Preseason===
+KT played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the semifinals to [[CJ Entus]]. Piccaboo left KT on December 1.
+
+== Trivia ==
+* Piccaboo was known during the OGN Winter 2013-2014 split for his unique and aggressive style of roaming as a support and making plays in other lanes on the map, while leaving his AD Carry [[Arrow]] on his own to farm as a solo lane.
+* Speaks fluent English.<ref>[https://www.youtube.com/watch?v=Xlz-NziaLO0 Piccaboo's First Full English Interview: Thanks Reddit and Western Fans for Support] ''youtube.com''</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+PicabooOGN.png|Picaboo
+SKTPiccaboo2015.jpg|SKT Piccaboo
+</gallery>
+
+==Highlight Videos==
+{{TDRight
+|name1=2015
+|content1=
+* February 5, [https://www.youtube.com/watch?v=pwJhYFB529c <nowiki>[LOL Epic] SKT T1 PiccaBoo Thresh Prediction</nowiki>] (22s)
+}}
+
+{{PlayerPageEnd}}

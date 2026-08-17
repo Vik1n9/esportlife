@@ -1,0 +1,142 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=PowerOfEvil&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.502Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「PowerOfEvil」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=PowerOfEvil
+|name=Tristan Schrage
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=EMEA
+|birth_date_year=1997
+|birth_date_month=October
+|birth_date_day=27
+|favchamp=Syndra
+|favchamp2=Orianna
+|favchamp3=Cassiopeia
+|favchamp4=Kog'Maw
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' Poewned<br>TSM FTX PoE, TSM FTX Poewned<br>'''EUW:''' FLY PowerOfEvil<br>Diabolical PoE<br>ThePowerOfDevil<br>IMT PoE<br>'''KR:''' 내셔의 이빨 mid<br>'''CN:''' ThePowerOfEvil
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/powerofevil
+|facebook=https://www.facebook.com/thepowerofevil
+|twitter=PowerOfEvilLoL
+|instagram=powerofevillol
+|snapchat=Tristanpoelol
+|youtube=https://youtube.com/channel/UCD777FoaysRYNiIxL79Nmlg
+|discord=https://discord.gg/bdYA6Vk7
+|lolpros=https://lolpros.gg/player/powerofevil
+|deeplol=https://www.deeplol.gg/pro/PowerOfEvil
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+PowerOfEvil is from Bad Soden, Germany. He started playing video games as a kid, spending time with titles like Warcraft III and Age of Empires 2.
+Prior to playing competitively, he had aspirations of becoming a pilot and flying internationally. Outside of LoL, he enjoys playing tennis and soccer with his friends. His in-game name comes from his username in Warcraft III. His older brother showed him League of Legends and he fell in love with it right away. 
+
+===2014 Season===
+His competitive career began after being recognized in solo queue for being a strong midlaner. His first team was a German team called, [[EYES ON U]]. He was added as part of a new roster to compete in the [[ESL Pro Series Germany/Winter 2013|EPS Winter Season]].
+
+Soon after, PowerOfEvil was part of the European LoL division formed by the organization, [[EYES ON U Europe]]. The team participated in [[2014 EU Challenger Series/Spring Series|Challenger Spring Series #1]] after defeating [[Unicorns of Love]] in the final of their play-in bracket, but were beaten by [[MeetYourMakers]] in the quarterfinals of the competition.
+
+He then joined [[Planetkey Dynamics]] to play in the [[ESL Pro Series Germany/Summer 2014|ESL Pro Series]]. In addition to playing EPS with PkD, he joined [[Unicorns of Love]] to play in the [[2014_EU_Challenger_Series/Summer_Series|Challenger Series]].
+
+Soon after this, the team qualified for the [[2014_EU_Challenger_Series/Summer_Series|Summer Series #1]] of the EUCS, but lost to [[Ninjas in Pyjamas]] 2-0 in the quarterfinals.
+
+PowerOfEvil then decided to leave UoL, but rejoined just a month later. While away from the team, they managed to qualify for the [[2014_EU_Challenger_Series/Summer_Series/Playoffs|Summer Playoffs]]. 
+
+The playoffs went particularly well for the team, despite the Unicorns of Love losing to [[H2k-Gaming]] in the semifinal. The team went on to beat [[Ninjas in Pyjamas]] in the third-place match, securing themselves a spot at the [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Promotion|Spring Promotion Tournament]]. After that, PowerOfEvil left Planetkey Dynamics to focus on playing with UoL.
+
+With the Promotion Tournament came a chance for PowerOfEvil and the Unicorns of Love to qualify for the 2015 LCS [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|Spring Split]]. The Promotion Tournament was a huge success, with the team beating [[Millenium]] 3-2 in their promotion match-up. This meant that PowerOfEvil would be playing in the LCS the following season.
+
+===2015 Season===
+Unicorns of Love were the European team fan-voted to [[IEM_Season_IX_-_San_Jose|IEM San Jose]].<ref>[http://en.intelextrememasters.com/news/cloud9-and-unicorns-of-love-confirmed-get-your-tickets-now/ Cloud9 and Unicorns of Love confirmed, get your tickets now!] ''en.intelextrememasters.com''</ref> With a roster of [[Vizicsacsi]], [[Kikis]], [[PowerOfEvil]], [[Vardags]], and [[Hylissang]] at the tournament, they surprised audiences by making it to the semifinals after defeating [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] 2-0 and then [[Team SoloMid]] 2-0. They placed second at the tournament, losing to [[Cloud9]] in the finals. PowerOfEvil was nominated for the MVP award along with [[Rekkles]], [[Vizicsacsi]], [[Kikis]], and [[Sneaky]] but lost the vote to Sneaky.
+
+The [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|EU LCS Spring Season]] was a huge success for PowerOfEvil and [[Unicorns Of Love]], finishing the regular season in 5th place, partly thanks to PowerOfEvil's impressive performances on {{ci|Cassiopeia}} and {{ci|Syndra}}, which also saw him take the Weekly MVP award twice during the split. This meant that team would participate in the [[Riot League Championship Series/Europe/2015 Season/Spring Playoffs|Spring Playoffs]], where they would face and beat [[Gambit Gaming]] in the quarterfinals. PowerOfEvil and the team managed to make LCS history when they became the first team to knock out a 1st place regular season finisher in the playoff semifinals, taking down [[SK Gaming]] convincingly. They went on to lose the playoff final to [[Fnatic]] in a close-fought series, finishing 2nd in their first LCS split, and picking up 70 [[2015 Season/Championship Points|Championship Points]] in the process.
+
+The [[Riot_League_Championship_Series/Europe/2015_Season/Spring_Round_Robin|Summer Season]] was equally as successful for [[Unicorns Of Love]], finishing the regular season in 4th place, this time partly thanks to PowerOfEvil's {{ci|Kog'Maw}} and {{ci|Orianna}} performances. This ensured the team's participation in the [[Riot League Championship Series/Europe/2015 Season/Summer Playoffs|Summer Playoffs]], where they overcame [[Team ROCCAT]] in the quarterfinals but were taken out themselves in the semifinals by a dominant [[Fnatic]]. 40 [[2015 Season/Championship Points|Championship Points]] gained here secured [[Unicorns Of Love]] a spot in the  [[2015 Season Europe Regional Finals]]. Despite their high seeding, they were beaten by [[Origen]] in the final of the gauntlet.
+
+===2016 Season===
+PowerOfEvil went on to join [[Origen]] as part of a six-man roster, which still included [[xPeke]], albeit as the team's second mid laner.<ref>[http://origen.gg/2015/11/official-update-regarding-xpeke-and-origens-future/ Future] ''origen.gg''</ref>
+
+[[Origen]] competed at [[IEM Season X - San Jose|IEM San Jose]], and were given a bye to the semifinals due to [[Fnatic]]'s withdrawal from the tournament. The team fielded their roster from the previous season, but with PowerOfEvil in the mid lane and [[xPeke]] taking a coaching role. They took down [[Team SoloMid]] in the semifinals, and went on to beat [[Counter Logic Gaming]] in the final - winning the tournament without losing a single game.
+
+[[Origen]]'s performance at [[IEM Season X - San Jose|IEM San Jose]] resulted in their qualification to the [[IEM Season X - World Championship|IEM World Championship]]. At the tournament, they first lost to [[Royal Never Give Up]] in the upper bracket of their group before then losing to [[Team SoloMid]] in the lower bracket, resulting in the team's elimination from the tournament.
+Origen's [[League_Championship_Series/Europe/2016_Season/Spring_Season|2017 Spring Season]] was decent as the team finished 4th in the regular season with 11 wins and 7 losses. In the [[League_Championship_Series/Europe/2016_Season/Spring_Playoffs|playoffs]] they would finish 2nd, after a 1-3 loss to newcomers [[G2 Esports]]. Their [[League_Championship_Series/Europe/2016_Season/Summer_Season|Summer Season]] was much more worse. With disappointing performances each week, they finished the regular season in 9th place. Although they defeated [[Misfits Gaming]] 3-2 in the [[League_Championship_Series/Europe/2017_Season/Spring_Promotion|2017 Spring Promotion]] to retain their LCS spot, PowerOfEvil left the team in December of 2016 and ended up joining Misfits.
+
+===2017 Season===
+
+Misfits' LCS debut in the [[League_Championship_Series/Europe/2017_Season/Spring_Season|2017 Spring Season]] was fairly decent. The team finished 2nd in their group during the regular season. In the [[League_Championship_Series/Europe/2017_Season/Spring_Playoffs|playoffs]] they took down [[Splyce]] 3-2 in the Quarterfinals. However they lost 1-3 to [[Unicorns of Love]] in the Semifinals and then finished 4th after being defeated 0-3 by [[Fnatic]] in the third place match. Their [[League_Championship_Series/Europe/2017_Season/Summer_Season|Summer Season]] proved to be more successful. The team was average during the regular season, finishing 3rd in their group. However in the [[League_Championship_Series/Europe/2017_Season/Summer_Playoffs|playoffs]] they made it all the way to the finals and finished 2nd after losing 0-3 to [[G2 Esports]]. Despite the loss they qualified for the [[2017 Season World Championship]] as Europe's 2nd seed.
+
+At Worlds Misfits was expected to finish last in their group. However to the surprise of many, they finished in the group after going 3-3 and then winning a tiebreaker against [[Team SoloMid]] to advance. In the Quarterfinals they faced off against [[SK Telecom T1]] and despite losing 2-3, they pushed the Korean powerhouses to their limit and nearly won the series. In November of 2017 PowerOfEvil left Misfits and in December joined the newly formed [[OpTic Gaming]] in the NA LCS.
+
+===2018 Season===
+In November of 2017 PowerOfEvil left Misfits and in December joined the newly formed [[OpTic Gaming]] in the NA LCS. Despite his 2017 success, OpTic was predicted to be a bottom tier team, and their [[League_Championship_Series/North_America/2018_Season/Spring_Season|spring split]] performance did little to belie that, as the team never seriously contended for a playoff spot or finished a week above a tie for seventh. The team ended up finishing 5-13, in 9th place. 
+
+PowerOfEvil remained with OpTic for the [[NA LCS/2018 Season/Summer Season|summer season]]. It began disappointingly for OpTic, with the team only managed a 2-6 record over the first four weeks, which left them tied for last place. However, they completely reversed that total by going on a four-game winning streak to reach an even win/loss record and maintained that pace over the final three weeks of the season, ending up with a 9-9 record. Unfortunately, four other teams posted 10-8 records, so OpTic was left in seventh place, missing out on playoffs once again.
+
+===2019 Season===
+For 2019, PowerOfEvil joined [[Counter Logic Gaming]]. CLG spent most of the [[LCS/2019_Season/Spring_Season|spring split]] at or slightly below the .500 mark, and remained in playoff contention going to Week 9. However, they lost to [[Echo Fox]] in the final game of the season and missed out on playoffs, ending up tied for seventh. 
+
+CLG looked much better in the [[LCS/2019_Season/Summer_Season|summer split]], and spent most of the split at or close to the top of the league. They ended the split tied with [[Cloud9]] for second place with a 12-6 record but lost a tiebreaker match to C9, leaving them in third place. 
+
+In [[LCS/2019 Season/Summer Playoffs|the playoffs]], CLG matched up against and swept PowerOfEvil's old team [[OpTic Gaming]] in the quarterfinals. This sent them to the semifinals against Cloud9, but they again faltered against them, losing 3-1. CLG then played a third-place match against underdog [[Clutch Gaming]] for seeding in the [[LCS/2019_Season/Regional_Finals|Regional Finals]]. CLG dropped the first two games to Clutch but managed to win the next three to take third place. In the regional finals, they rematched against Clutch in the second round. This time, CLG was unable to come back from a 2-0 deficit and lost 3-1, ending their season short of Worlds. 
+
+===2020 Season===
+PowerOfEvil joined [[FlyQuest]] for 2020, reuniting him with his former [[Misfits Gaming]] teammate [[IgNar]]. Bolstered by their new players, the team started the [[LCS/2020 Season|spring season]] strong, and by Week 6 were sitting comfortably in second place, albeit far behind the then-undefeated [[Cloud9]]. PowerOfEvil in particular was praised for his play. However, the team was inconsistent the rest of the way with both [[V1per]] and [[Solo (Colin Earnest)|Solo]] playing top lane, and ended up in a three-way tie for second with [[100 Thieves]] and [[Evil Geniuses.NA|Evil Geniuses]]. In the ensuing tiebreaker, FlyQuest was seeded into the lower bracket and lost to [[100 Thieves]], leaving them in fourth place. 
+
+In the playoffs, due to Cloud9 electing to face the third-place 100 Thieves, FlyQuest faced the second-place Evil Geniuses. After losing the first two games with V1per starting in the top lane, they once again swapped to Solo and kept the series going with a victory in game 3, only to lose game 4, dropping them into the loser's bracket. With elimination on the line, Solo became the starter for good and FlyQuest experienced a sudden resurgence. First, they swept [[Golden Guardians]] 3-0, then outlasted the vaunted [[TSM]] 3-2 to set up a rematch against Evil Geniuses. This time, the series went 3-1 in FlyQuest's favor, sending them to their first LCS finals as an organization. However, they were decisively swept in the finals by Cloud9.
+
+== Trivia ==
+* Used to play ''Warcraft III'' and ''Age of Empire 2''.
+* Aimed to become airline pilot before discovering ''League of Legends''.
+* Before fully committing to professional LoL, his parents want him to finish school. They still try to support him in any way they can.
+* Enjoys playing tennis and soccer with his friends.
+* Prides himself on his resilience after a loss
+* His first main champions were {{ci|Cassiopeia}} and {{ci|Swain}}.
+* Enjoys playing toplane and support but never plans to switch his main position.
+* Known for killing [[Bjergsen]] in competitive play.
+* Famous for his {{ci|orianna}} and his unique build on her ([[Nashor's Tooth]]).
+* Frequently the subject of jokes regarding his physical resemblance to [[Stixxay]] after the two became teammates. 
+* Has a younger brother called [[Rune (Jason Schrage)|Rune]].
+
+=== Individual Awards ===
+* LCS 2nd All-Pro Team (2018 Summer, 2021 Spring)
+* LCS 3rd All-Pro Team (2020 Spring, 2020 Summer, 2021 Summer)
+* EM Finals MVP (2024 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

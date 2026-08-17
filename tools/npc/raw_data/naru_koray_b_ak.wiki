@@ -1,0 +1,88 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Naru%20(Koray%20B%C4%B1%C3%A7ak)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.814Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Naru (Koray Bıçak)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Naru
+|name=Koray Bıçak
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=EMEA
+|birth_date_year=1996
+|birth_date_month=August
+|birth_date_day=27
+|favchamp=Twisted Fate
+|favchamp2=LeBlanc
+|favchamp3=Zed
+|favchamp4=Lissandra
+|checkbox1=No
+|checkboxComp=No
+|ids=DP Naru (EUW),<br>NNNaru (TR)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/naru
+|facebook=https://www.facebook.com/dpnaru
+|twitter=koraynaru
+|instagram=koraynaru
+|youtube=https://www.youtube.com/channel/UCgvn-XFdI__PHNB-nfYafUQ
+|lolpros=https://lolpros.gg/player/naru
+|deeplol=https://www.deeplol.gg/pro/Naru-Koray_B%C4%B1%C3%A7ak
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Jungler
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Back in Season 2, {{ci|Karthus}}, {{ci|Twisted Fate}}, {{ci|Lux}}, and {{ci|Lee Sin}} were the only champions he had played more than twice in solo queue.
+* He is known for his ego.
+* He is known for his {{ci|Zed}}.
+* He is known for his {{ci|LeBlanc}}. In MSI 2016, he solo-killed [[Perkz]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+Naru.jpg|Naru
+Nnnaru.jpg|Naru
+DP Naru 2014 WCS.jpg|DP Naru
+Naru 2.jpg|SUP Naru 2016 Winter
+SUP Naru 2017 Spring.png|SUP Naru 2017 Winter
+SUP Naru 2017 MSI.png|SUP Naru 2017 MSI
+AUR_Naru_2018_Winter.png|AUR Naru 2018 Winter
+AUR_Naru_2018_Split_2.png|AUR Naru 2018 Summer
+GAL Naru 2019 Split 1.png|GAL Naru 2019 Winter
+</gallery>
+
+{{PlayerPageEnd}}

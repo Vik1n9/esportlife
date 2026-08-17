@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Clid&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.328Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Clid」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Clid
+|name=Kim Tae-min
+|nativename=김태민
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1999
+|birth_date_month=July
+|birth_date_day=07
+|favchamp=Kindred
+|favchamp2=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 갱스기무라<br>Radiohead<br>'''CN:''' P0stmalone<br>'''EUW:''' Kkoma2<br>Like a n1nja
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/xoals137
+|facebook=https://www.facebook.com/clid0707
+|instagram=clid_taemin
+|youtube=https://www.youtube.com/@clid123
+|lolpros=https://lolpros.gg/player/clid/
+|deeplol=https://www.deeplol.gg/pro/Clid
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===2016 Season===
+Clid joined [[Newbee Young]] in January of 2016. The team had a mediocre showing during the [[LSPL/2016 Season/Spring Season|2016 LSPL Spring Season]], finishing 6th during the regular season and missing out on playoffs. During the [[LSPL/2016 Season/Summer Season|2016 LSPL Summer Season]], however, the team dominated the league and finished 1st in both the regular season and playoffs, qualifying for the LPL. Because the Newbee organization already had a team in the LPL, the Newbee Young team had to change organizations. They rebranded to [[QG Reapers]].
+
+===2017 Season===
+Clid remained on QG Reapers for the [[LPL/2017 Season/Spring Season|2017 LPL Spring Season]] and started for every game except one. The team placed 3rd in their group, but in playoffs lost 2-3 to [[I May]] in the first round. In May 2017, [[JD Gaming]] acquired the team's roster and LPL spot. Although Clid remained with the team, he split play time with the team's other jungler, [[Xinyi]], and only played for a few games of the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] and [[LPL/2017_Season/Summer_Season|2017 LPL Summer Season]]. JD Gaming had poor showings in both tournaments, finishing 11th-12th in the former and 5th in group in the latter. They also placed 2nd at the [[National Electronic Sports Tournament 2017]], although Clid did not play in that tournament. At the end of the season, Xinyi left the team, but the team picked up rookie jungler [[xiaohan (Pan Han)|xiaohan]] as a replacement to share play time with Clid.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+* Speaks Chinese fluently.
+** Once when [[Faker]] and Clid had an interview together for [[SK Telecom T1]], he amazed Faker by answering all the questions in Chinese instead of Korean.
+* He is suspended for 12 months from all Riot-affiliated tournaments and 18 months from Korean tournaments for continuous sexual harassment, unprofessional and immoral conduct, and criminal offences.
+
+=== Awards ===
+* LCK 1st All-Pro Team x1 (Spring 2020)
+* LCK 2nd All-Pro Team x1 (Summer 2020)
+* LCK 3rd All-Pro Team x1 (Spring 2021)
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

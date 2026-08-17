@@ -1,0 +1,96 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Save&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.243Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Save」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Save
+|name=Baek Young-jin
+|nativename=백영진
+|namealphabet=Hangul
+|image=IG Save 2017 Spring.png
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=July
+|birth_date_day=6
+|checkbox1=No
+|checkboxComp=No
+|ids=yelloout, 나진 세이브
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|teamhist1=NaJin White Shield
+|teamdate1=Mar 2013 - Dec 2014
+|teamrole1=Top
+|issub1=No
+|istrainee1=No
+|teamhist2=Invictus Gaming
+|teamdate2=Dec 2014 - May 2015
+|teamrole2=Top
+|issub2=No
+|istrainee2=No
+|teamhist3=Young Glory
+|teamdate3=May 2015 - Apr 2016
+|teamrole3=Top
+|issub3=No
+|istrainee3=No
+|teamhist4=Invictus Gaming
+|teamdate4=Jun 2016 - Aug 2016
+|teamrole4=Top
+|issub4=No
+|istrainee4=No
+|teamhist5=Invictus Gaming
+|teamdate5=Aug 2016 - May 2017
+|teamrole5=Top
+|issub5=Yes
+|istrainee5=No
+|checkbox3=No
+|facebook=https://www.facebook.com/profile.php?id=100006826984779
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+===Season 3===
+
+Baek '''"Save"''' Young-jin joined [[NaJin Shield]] as their new mid laner on March 25, 2013. His first tournament with the team was [[OLYMPUS Champions Spring 2013]] where Shield made it to the quarterfinals but lost 3-1 to [[CJ Entus Frost]]. Soon after the tournament was over, Shield renamed to '''NaJin White Shield''' and Save began a transition to top lane when [[Expession]] was moved to [[NaJin Black Sword]]. [[HOT6iX Champions Summer 2013]] was his inaugural tournament in the top lane and Shield ended up in the quarterfinals. However, they met Frost again and were quickly dispatched 3-0.
+
+===2014 Season===
+
+Save and Shield began the new season at [[PANDORA.TV Champions Winter 2013-2014]]. Shield qualified for the semifinals but lost 3-1 to [[Samsung Galaxy Ozone]]. They also lost the third place match 3-1 to the [[KT Rolster Bullets]] to end in fourth place overall, their highest placing yet. They would continue their upward trend at [[HOT6iX Champions Spring 2014]] where they made their first final against [[Samsung Galaxy Blue]], but they were comfortably beaten 3-1. The final OGN of the year was [[HOT6iX Champions Summer 2014]] where Shield made the quarterfinals but lost 3-2 to the [[KT Rolster Arrows]]. The team earned enough circuit points to qualify for the [[2014 Season Korea Regional Finals]] as the third seed. Shield ran the entire guantlet, beating the Bullets, the Arrows, and [[SK Telecom T1 K]] while only dropping one game in the process to qualify for the [[2014 Season World Championship]] as the third seed from Korea. Shield was placed in a group with [[Cloud9]], [[Alliance]], and [[KaBuM! e-Sports]]. They placed first after winning a tie breaker against C9 and were placed against [[OMG]] in their quarterfinal matchup. Shield suffered crushing defeat at the hands of OMG, losing 3-0 after the latter decided to sub in [[Cloud (Hu Zhen-Wei)|Cloud]] as their support.
+
+===2015 Season===
+
+Save left Shield on December 1, 2014 to join [[Invictus Gaming]].<ref>[http://www.weibo.com/2099708877/ByOVjFwXt?from=page_1005052099708877_profile&wvr=6#_rnd1417434569902 Invictus Gaming's Weibo Post (Chinese)] ''weibo.com''</ref> Save only played three games with them during the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]] where IG ended in fifth place. IG placed third in the [[2015 LPL/Summer/Playoffs|2015 LPL Spring Playoffs]] but Save did not play any games for them during this time. Shortly afterwards, he was moved to IG's LSPL team, [[Young Glory]]. He played with them initially in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup/Summer Season]]. Here, YG made it to the round of 16 but they lost 3-1 to [[Vici Gaming]]. In [[2015 LoL Secondary Pro League/Summer Playoffs|LSPL Summer 2015]], YG placed sixth with losses to [[Hyper Youth Gaming]] and [[2144 Danmu Gaming]] but they still qualified for the [[LPL/2016 Season/Spring Promotion|LPL 2016 Season Spring Promotion Tournament]]. YG lost in the first round 3-2 to [[Royal Never Give Up]].
+
+===2016-17 Season===
+
+Save left Young Glory in April of 2017 and joined Invictus Gaming in June as a substitute. He spent the majority of 2016 and 2017 as a sub. He did however play several games in the [[LPL/2016_Season/Summer_Season|2016 LPL Summer Season]] but only won a few against [[I May]] and [[Snake Esports]].
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Statistics==
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==External Links==
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

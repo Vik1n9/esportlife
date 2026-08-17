@@ -1,0 +1,129 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=HotshotGG&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:03.253Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「HotshotGG」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=HotshotGG
+|name=George Georgallidis
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Canada
+|residency=North America
+|birth_date_year=1990
+|birth_date_month=June
+|birth_date_day=23
+|favchamp=Nidalee
+|favchamp2=LeBlanc
+|favchamp3=Cho'Gath
+|favchamp4=Malphite
+|checkbox1=No
+|checkboxComp=No
+|ids=CLG HotshotBB (KR)<br>Kakasoul<br>King of Kimchi<br>BronzieTheBear
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Owner
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/hotshotgg
+|facebook=https://www.facebook.com/LoLHotshotGG
+|twitter=CLG_HotshotGG
+|reddit=HotshotGG
+|linkedin=https://www.linkedin.com/in/george-georgallidis-3a470445/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|prev2=Jungler
+}}
+==Biography==
+George "'''HotshotGG'''" Georgallidis hails from London, Ontario in Canada and has been playing video games from a young age, including ''Diablo I'' and ''Warcraft 2''. After picking up ''DotA'', he realized that he truly enjoyed the MOBA genre. When ''League of Legends'' was released, HotshotGG started playing it because he wanted to try out more MoBAs. <ref>[http://clgaming.net/team/1-league-of-legends-prime CLG Prime Team Info] ''clgaming.net''</ref> His entry into ''LoL'' coincided with him taking a break from college<ref> [http://www.youtube.com/watch?v=lU1dufUsC9c HotshotGG AMA] ''youtube.com''</ref> and he eventually decided to drop out of college to pursue a career as a ''League of Legends'' pro gamer. <ref> [http://www.youtube.com/watch?v=_y4IbdwoY6k HotshotGG interview] ''youtube.com''</ref> He later created the [[Counter Logic Gaming]] organization, which initially sponsored a North American and European squad ([[Counter Logic Gaming Europe]], and later [[Evil Geniuses.EU|Evil Geniuses]]) before contracting to the North American squad.
+
+===Pre-Season 1===
+
+HotshotGG founded [[Counter Logic Gaming]] in April 2010. The initial roster included HotshotGG, [[LoCicero]], [[Grandjudge]], [[Chauster]], [[Nolja]], [[Clever (North American Player)|Clever]], [[Sabertiger]], [[bigfatjiji]], [[Lilballz]], and [[Kobe24]]. Some players left CLG and so when the official roster was finally formed, it consisted of HotshotGG, Kobe24, bigfatjiji, Chauster, and [[Elementz]].
+
+===Season 1===
+
+CLG found early success with their roster, winning the [[2010 World Cyber Games Grand Finals|2010 WCG Grand Finals]]<ref>[http://www.wcg.com/6th/tournament/medal/tm_match_medal.asp WCG 2010 Medal List] ''wcg.com''</ref> and then the [[Newegg Winter Wanfest 2010]] online tournament.<ref>[http://wanfest.newegg.com/?page=stem_schedule&stageid=3877 Newegg Winter Wanfest 2010 Double Elimination Finals Bracket] ''wanfest.newegg.com''</ref> After those two early victories, jungler Kobe24 decided to retire and [[Saintvicious]] moved into CLG’s jungle.
+
+HotshotGG’s CLG was one of three North American teams to attend the [[Riot Season 1 Championship]] in Sweden in June 2011, along with [[Epik Gamer]] and [[Team SoloMid]]. They placed second in their group, behind TSM, and then fifth overall in the tournament.<ref>[http://season-one-championship.eu.leagueoflegends.com/ Official Season One Championship Page] ''season-one-championship.eu.leagueoflegends.com''</ref>
+
+===Preseason 2===
+
+After the Season 1 Championship, HotshotGG with CLG won several major tournaments in a row. First, they won in the online [[National ESL Premier League Season 1]], and then they attended their second international LAN tournament: [[IEM Season VI - Global Challenge Cologne|IEM Cologne]]. With [[Salce]] substituting for Chauster, the lineup was HotshotGG top, Saintvicious jungle, Salce mid, Bigfatlp AD carry, and Elementz support. CLG won their group 3-0 and then defeated [[Millenium]] and TSM in the bracket to win the tournament.<ref>[http://www.esl-world.net/masters/season6/cologne/ IEM Season VI - Global Challenge Cologne] ''esl-world.net''</ref> They also won [[2011 MLG Pro Circuit/Raleigh|MLG Raleigh]] in August, this time beating [[Epik Gamer]] in the finals.<ref>[http://tv.majorleaguegaming.com/events/1-mlg-raleigh-2011#4/138/1;75596 MLG Raleigh 2011 Finals VODs] ''tv.majorleaguegaming.com''</ref>
+
+At [[IEM Season VI - Global Challenge Guangzhou|IEM Guangzhou]] in October 2012, Hotshot’s team  streak cooled off slightly, but they still finished in second place, losing to [[Team WE]] both in the group stage and in the finals.<ref>[http://www.esl-world.net/masters/season6/guangzhou/ IEM Season VI - Global Challenge Guangzhou] ''esl-world.net''</ref> Immediately after Guangzhou, CLG attended [[IGN ProLeague Season 3 - Atlantic City|IPL3]], in Atlantic City. There, they defeated [[A Picture of A Goose]] in the first round but then lost to [[Dignitas]] in the semifinals before beating TSM in the third-place match. One week later, CLG flew to New York to play in [[IEM Season VI - Global Challenge New York|IEM New York]]; this time taking home fourth place after defeats to [[SK Gaming]] and [[Sypher]] in the playoffs.
+
+In November, CLG attempted to qualify for [[2011 MLG Pro Circuit/Providence|MLG Providence]]; however, in the [[2011 MLG Pro Circuit/Providence/Qualifiers|qualifier]] they were intending to use [[a Lilac]], but when he was unable to participate, they fielded [[Lapaka]] instead. Because Lapaka was officially on the roster of [[Absolute Legends]] for the event, CLG was disqualified and [[RFLX Gaming]] advanced to the top four and attended MLG Providence instead.<ref>[http://www.majorleaguegaming.com/news/we-have-our-winners-4-league-of-legends-teams-are-heading-to-providence MLG Providence 2011 Qualifier Results] ''majorleaguegaming.com''</ref>
+
+===Season 2===
+
+HotshotGG’s CLG participated in and won the online [[National ESL Premier League Season 2|NESL Premier League Season 2 playoffs]]. Their next event wasn't until February 2012, when they played in the [[LoLPro.com Curse Invitational]] and came in second. In March, they attended their next LAN, the [[IEM Season VI - World Championship|IEM World Championship]] in Hanover. They placed second in their group behind Dignitas and then lost in the semifinals to [[Moscow Five]], who eventually won the tournament. CLG ended up taking home third place after a victory over [[against All authority]].<ref>[http://www.esl-world.net/masters/season6/hanover/ IEM Season VI World Championship - Hanover] 'esl-world.net''</ref>
+
+In March 2012, CLG temporarily moved to a gaming house in South Korea in order to train and participate in [[Azubu The Champions Spring 2012]]. Placed in Group B, CLG entered playoffs but immediately lost to [[MiG Blaze]], in the quarterfinals. While in Korea, CLG also competed in the online [[Leaguecraft ggClassic Presented by Gaming.StackExchange|Leaguecraft ggClassic]]. They lost in the semifinals to [[4Not.Fire]] and then forfeited their third-place match against [[JPak and Friends]]. They also briefly flew to Las Vegas (in the United States) to attend [[IGN ProLeague Season 4 - Las Vegas|IPL 4]] from April 6 to April 8. After being sent to the loser's bracket by Dignitas in the second round, they came back to play against TSM in the grand final, which they ultimately lost, placing second overall. On April 25, HotshotGG with CLG moved back to North America.
+
+In May 2012 HotshotGG moved into the jungle for CLG after Saintvicious left and CLG acquired [[Voyboy]]. With the new lineup, CLG placed second at the [[2012 MLG Pro Circuit/Spring|2012 Major League Gaming - Spring Championship]] in June<ref>[http://www.majorleaguegaming.com/competitions/36#event_106_archive MLG Spring Championship 2012 Results] ''majorleaguegaming.com''</ref> and then third at the [[GIGABYTE Esports LAN]]. On July 2, 2012 HotshotGG stepped down from the position of active CEO of Counter Logic Gaming, being replaced by his mother Helen "RealMomGG" Georgallidis. <ref>[http://clgaming.net/news/251-clg-appoints-new-ceo-helen-%E2%80%9Crealmomgg%E2%80%9D-georgallidis CLG appoints new CEO, Helen “RealMomGG” Georgallidis] ''clgaming.net''</ref>
+
+CLG returned to Korea to compete in [[Azubu The Champions Summer 2012]] in July. Once again they placed second in their group, and once again they were eliminated in the quarterfinals, this time losing to [[Azubu Frost]] - who went on to win the tournament. After their elimination from the tournament, the team remained in Korea to continue to practice for the upcoming [[Season Two/Regional Finals - Seattle|Season Two North American Regional Finals]]. There, they would take third place, qualifying for the [[Season 2 World Championship]].
+
+CLG didn't advance out of their group at Worlds, losing to [[Invictus Gaming]] and Azubu Frost, beating only [[SK Gaming]] by using strategy that involved running three [[Teleport|Teleports]] and a [[Promote]]. Infamously, Chauster commented in an interview that the team had prepared primarily strategies to be used if they got blue side in the coin toss, but all three of their group-stage coin tosses gave them purple side.<ref>[http://www.youtube.com/watch?v=-sPPUYw1t6A Chauster Talks About The S2 Worlds Loss feat. his girlfriend Maggie - IPL Interview] ''youtube.com''</ref> After Worlds, Voyboy left the team and HotshotGG moved back to top lane.
+
+===Pre-Season 3===
+
+HotshotGG with CLG Prime (rebranded so as to distinguish from its sisters teams CLG EU, and CLG Black) would attend the [[2012 MLG Pro Circuit/Fall/Championship|2012 MLG Fall Championship]] in Dallas on November 2 through 4th. In the first round they faced the Korean powerhouse [[NaJin Sword]], where they were routed in two lopsided matches. Falling to the losers bracket, CLG Prime would sweep [[Curse Gaming]] in round one, and then pick up a close 2-1 series against another NA team [[Team Dignitas|Dignitas]]. They would face their sister team [[CLG EU]] in Round 3. Unfortunately, they were outmatched as the European team eliminated them 2-1 from the tournament. CLG Prime would place 4th with $2,000 in winnings.
+
+In November Hotshot’s CLG entered the [[IPL 5]] tournament held in Las Vegas. In the group stages they dispatched the newly formed [[Team FeaR]] twice while dropping a game to CLG EU to advance. In the first round they defeated [[Curse EU]] 2-1, and then moved on to face [[FnaticRC]]. CLG (Prime) managed to take the first game off Fnatic with sharp play from their Jiji's [[Twisted Fate]], however the champion was quickly banned out and CLG lost the next two games. In the losers bracket they faced [[Moscow 5]], and took the first game of the set, but then fell twice against the Russian team, finishing their run in the tournament. Hotshot and CLG would place 5th-6th with $2,500 in prize money. CLG Prime outperformed most expectations of them at tournament, with a strong showing of [[Chauster]] as the new jungler, they also challenged the perception of [[Team Solo Mid]] as the strongest team in the NA scene<ref name="chau with tnomad">[http://www.gamespot.com/league-of-legends/videos/chauster-talks-about-their-run-at-ipl-5-2013-and-training-more-6400921/ Chauster talks about their run at IPL 5, 2013, and training more] ''gamespot.com''</ref>.
+
+===Season 3===
+
+In Feburary, HotshotGG with CLG (rebranded back from CLG Prime) participated in [[Riot League Championship Series/North America/Season 3/Spring Round Robin|Riot Season 3 NA Championship Series Spring Season]]. After 10 weeks Round Robin, CLG successfully qualified for the [[Riot League Championship Series/North America/Season 3/Spring Playoffs|Sping Season Playoffs]]. However, CLG was outplayed by [[Team Vulcun]] in the Quarterfinals, placing 5th-6th with Team Dignitas. Also, CLG failed to qualify to [[Riot League Championship Series/North America/Season 3/Summer Round Robin|Riot Season 3 NA Championship Series Summer Season]] and participated in [[Riot League Championship Series/North America/Season 3/Summer Promotion|Summer Promotion]]. In the Summer Promotion, CLG faced [[Azure Cats]] in the promotion match. Fortunately, CLG defeated [[Azure Cats]] 3-0, securing their spot in the [[Riot League Championship Series/North America/Season 3/Summer Round Robin|Riot Season 3 NA Championship Series Summer Season]].
+
+As the unsatisfactory result of LCS Spring Season and preparing for LCS Summer Season, HotshotGG decided to step down from top lane and acquired [[Nientonsoh]] to fill the position. Hotshot then went on to become a sub for CLG  in what appeared to be his move towards retirement in addition to focusing on management of CLG.<ref>[http://clgaming.net/news/464-clg-roster-changes HotshotGG steps down as Top Laner for CLG]''clgaming.net''</ref>
+
+===2014 Season===
+During Season 4 he returned as the mid-laner while [[Link]] switched to the jungle temporarily ahead of the start of the [[2014 NA LCS Spring|2014 NA LCS Spring Split]] - which featured a Week 1 midlane clash of two North American stalwarts playing signature champions as, when CLG played [[Team Dignitas]], HotShot played his signature {{ci|Nidalee}} against [[Scarra]]'s {{ci|Katarina}}. It was also announced on July 29, 2014 that HotshotGG would play as CLG's mid laner while the main roster conducted a boot camp in Korea with [[MonteCristo]]. <ref>[http://clgaming.net/news/603-clg-to-bootcamp-in-korea-with-montecristo CLG LCS Week 11 Announcement]''clgaming.net''</ref>
+
+== Trivia ==
+* He  was known for his {{ci|Nidalee}} early in his career.
+* Nicknames include "Hotshot Nidalee GG", "King of Kimchi", "HandsomeshotGG", and "FarmshotGG".
+* Became known as "George of the Jungle" after he switched to Jungling.
+* He was the first big streamer to pull in numbers of 20,000 viewers consistently.
+* MVP at [[IEM Season VI - Global Challenge Cologne]]. <ref>[http://www.esl-world.net/masters/season6/cologne/poll/41880/ Vote for LoL MVP] ''ESL World''</ref>
+* He was considered one of the best {{ci|Cho'Gath}} players in the world.
+* His favorite champion is {{ci|Nidalee}}. <ref>[http://www.youtube.com/watch?v=_QcrWoN6uNY League of Legends - Pro Player Pick: HotshotGG Picks Nidalee] ''Riot Games''</ref>
+* According to [[Doublelift]], HotshotGG was one of the only players in the world who can kite ranged champions with melee champions. <ref>[http://www.youtube.com/watch?v=ZhOl_CbMeOA#t=39m3s Doublelift's "Grilled" interview with Acer Esports]</ref>
+* Was featured in a cameo appearance in the anime ''[[wikipedia:en:Unlimited Psychic Squad|The Unlimited – Hyoubu Kyousuke]]'' at 4:29 in episode 12. <ref> [http://www.facebook.com/LoLHotshotGG/posts/636297953052249 HotshotGG's Facebook post about anime cameo] ''facebook.com''</ref> <ref> [http://i.imgur.com/blkKPrK.jpg still image of HotshotGG in anime] ''i.imgur.com'' </ref>
+* Claims to have missed 350 days of high school, but still graduated. <ref> [http://www.reddit.com/r/leagueoflegends/comments/m3hcl/i_am_hotshotgg_ama/ summary of HotshotGG's AMA] ''reddit.com'' </ref>
+* Almost exclusively played {{ci|LeBlanc}} in Season 3.
+* [[Faker]] believes that HotshotGG's {{ci|LeBlanc}} was better than Faker's in many ways and deserves for a '''#thingsHotshotGGdoes''' tag. <ref>[http://www.youtube.com/watch?v=GWbV9s23Rdg Faker: I hope they make a #ThingsHotshotGGdoes tag.]''youtube.com''</ref>
+* While practicing in Seattle ahead of a PAX event in 2012, he had an APM battle with ''DotA 2'' mid-lane legend Danil Ilshutin (Dendi) where HotShot played ''League'' (picking {{ci|Cho'Gath}}) while Dendi played ''DotA'' and appeared to pick Rubick. <ref>[http://www.youtube.com/watch?v=i8coQnpBhyo ''DotA 2'' Vs. ''LoL'' APM Battle at The International 2 - Na'Vi Dendi (Rubick) vs. CLG HotShotGG (Cho'Gath)] YouTube (Natus Vincere ''DotA 2'' official channel)</ref>
+* Had his hair dyed pink on ''Primetime League'' after losing a bet to [[Reginald]] that stipulated that the losing team's owner after the first CLG-TSM game of the 2015 NA LCS Spring Split would dye his hair pink.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

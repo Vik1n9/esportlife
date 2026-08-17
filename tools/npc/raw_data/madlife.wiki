@@ -1,0 +1,121 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MadLife&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.877Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MadLife」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=MadLife
+|name=Hong Min-gi
+|nativename=홍민기
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1992
+|birth_date_month=October
+|birth_date_day=05
+|favchamp=Blitzcrank
+|favchamp2=Alistar
+|favchamp3=Thresh
+|favchamp4=Sona
+|checkbox1=Yes
+|checkboxComp=No
+|ids='''KR:''' 그랩군단장 호두<br>자석제조기
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Analyst
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/371f95608d4571bdac607270e8b955c3
+|facebook=https://www.facebook.com/lolmadlife
+|twitter=zizonsupmingi
+|instagram=madlife_lol
+|videoarchive=https://www.twitch.tv/lol_madlife
+|youtube=https://youtube.com/channel/UCj1RW5MrOLh_VrX3yHF_yow
+|deeplol=https://www.deeplol.gg/pro/MadLife
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=[[Category:Casters]]
+
+
+In his prime, Madlife was considered one of the best supports in the World, particularly on play-making skillshot-based champions like {{ci|Thresh}} and {{ci|Blitzcrank}}. He became particularly well-known for aiming hooks in the direction in which he predicted a player would Flash and landing them dead-on. However, despite his prowess, Madlife never won a championship or played at Worlds after 2012.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Broadcast Talent
+|prev2=Support
+|nicknames=매라신(Madlife God)
+}}
+==Biography==
+Hong "'''MadLife'''" Min-gi started playing StarCraft at the age of 7. He found himself enjoying the Aeon of Strife game-type, and so when a friend introduced him to League of Legends in September 2010 he started playing. His first champion was {{ci|Akali}}. The first role he favored was AD Carry, but when he began to play professionally he switched to support.
+
+
+===Season 2===
+MadLife's first professional team was [[MiG Frost]], which he joined alongside [[Woong (Jang Gun-woong)|Woong]], [[CloudTemplar]], [[RapidStar]], and [[Locodoco]]. The first tournament they participated in was [[Azubu The Champions Spring 2012]] where they played well but ultimately fell in the finals to their sister team [[MiG Blaze]]. Locodoco left the team shortly after and Woong became MadLife's new lane partner. Frost and Blaze were both bought by Azubu and participated in [[Azubu The Champions Summer 2012]] under their new organization. Frost ended up reverse sweeping [[CLG Europe]] in the finals and qualifying for the [[Season 2 World Championship]]. Unfortunately for Frost, they dropped in the finals 3-1 to the [[Taipei Assassins]] and took second place.
+
+===Season 3===
+In the beginning of Season 3, MadLife and Frost attended [[IEM Season VII - Global Challenge Katowice]] but lost in the semifinals 2-0 to [[Gambit Gaming]]. Not long after [[OLYMPUS Champions Winter 2012-2013]] ended and Frost dropped in the finals 3-0 to [[NaJin Sword]]. After Frost attended the [[IEM Season VII - World Championship]] and lost 3-1 to Blaze in the finals, Woong left the team and [[Hermes (Kim Kang-hwan)|Hermes]] became MadLife's new AD Carry. MadLife was voted in to attend [[All-Star Shanghai 2013]] where he and his teammates placed first, winning Korea another spot for the [[Season 3 World Championship]]. At [[OLYMPUS Champions Spring 2013]] they got swept by Blaze in the semis and by [[SK Telecom T1 2]] in the third-place match so Hermes was benched in favor of the sub AD Carry, [[Space (Seon Ho-san)|Space]]. Frost's next tournament was [[HOT6iX Champions Summer 2013]] where they once again disappointed, placing 4th after being swept by the [[KT Rolster Bullets]] and losing in a close 3-2 set to [[MVP Ozone]]. MadLife and Frost attended the [[Season 3 Korea Regional Finals]] with aspirations to go to worlds but were swept in their 2nd round by the Bullets.
+
+===2014 Season===
+Frost's decline continued as they were knocked out of the quarterfinals of [[PANDORA.TV Champions Winter 2013-2014]] 3-0 by [[Samsung Ozone]]. Frost qualified for [[IEM Season VIII - Singapore|IEM Singapore]] where they lost in the finals 2-0 to [[Invictus Gaming]]. The new year didn't start well for Frost as [[HOT6iX Champions Spring 2014]] saw them lose in the quarterfinals 3-1 to [[Samsung Blue]]. Frost failed to make it out of groups for the first time ever at [[HOT6iX Champions Summer 2014]] which caused them to miss the [[2014 Season Korea Regional Finals]]. 
+
+===2015 Season===
+[[CJ Entus]] was forced to combine the rosters of Blaze and Frost after the changes to the OGN rules but the bot lane pair of MadLife and Space remained unchanged. They were invited to [[IEM Season IX - World Championship|IEM Katowice]] in March 2015. They finished in 5th/6th place, after defeating Gambit Gaming but then losing to [[Team SoloMid]] and [[Team WE]]. CJ participated in [[SBENU Champions Spring 2015]] where they lost in the semifinals 3-2 to [[SK Telecom T1]]. [[Max (Jeong Jong-bin)|Max]] was called up to the starting roster prior to the start of [[SBENU Champions Summer 2015]] to share the starting support position with Madlife. CJ placed third in the regular season of Champions Summer but lost 3-0 to the [[KOO Tigers]] in the second round of the playoffs. CJ had enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] but they lost 3-2 to the [[Jin Air Green Wings]]. 
+
+===2016 Season===
+CJ played in the [[2015 LoL KeSPA Cup]] in November 2015, where they lost 3-0 in the finals to [[ESC Ever|Ever]]. During the [[LCK/2016 Season/Spring Season|2016 LCK Spring Season]], CJ went 8-10 in sets, finishing in eighth place overall for the spring split.
+
+CJ Entus had a very poor showing in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], going 3-15 total in set score. Madlife was the only player who started every game for CJ, despite the team's frequent use of substitutions in other positions. Despite this, they were locked into tenth place in the LCK season, and CJ Entus participated in the [[LCK/2017 Season/Spring Promotion|2017 LCK Spring Promotion]]. In the first round they were swept 2-0 by [[Kongdoo Monster]], bringing them down to the loser's bracket. There, they beat [[SBENU Korea]] 2-0 before falling to [[ESC Ever]] in a 3-0 sweep to become relegated from the LCK. This marked the first time an original Kespa team was relegated from the LCK.
+
+=== 2017 Season ===
+After CJ Entus relegated from the LCK, Madlife left the team and later announced that he would join NA Challenger Team [[Gold Coin United]] to compete in the [[NACS 2017 Spring|2017 NACS Spring Split]]. After two consecutive failed attempts to enter the NA LCS, Madlife left the team in November. 
+
+=== 2018 Season ===
+Madlife returned to Korea after leaving Gold Coin United. He negotiated with multiple teams from different regions including Korea, Europe, China, and Turkey but was satisfied with none of the offers and decided to stream until the Summer Split. During the break between the Spring Split and Summer Split, Madlife had a discussion with [[Royal Club]]'s Head Coach [[Kezman]]<ref>[https://www.invenglobal.com/articles/5373/please-remember-that-this-isnt-the-end-madlife-says-his-farewell "Please remember that this isn't the end." MadLife Says His Farewell]www.invenglobal.com</ref> and decided to retire from pro play.
+
+On June 19, 2018, Madlife announced his retirement.
+
+== Trivia ==
+* Among Koreans, it was jokingly said that MiG (A previous name of [[CJ Entus Frost]]) stood for "MadLife is God." They also say "MAmen" whenever he shows exceptional play.
+* Earned over 80% of the allstar vote in season 3, giving him the highest percentage vote of all players in all regions.<ref>[http://na.lolesports.com/season3/allstar/players/madlife LoL Esports Profile Page] ''lolesports.com''</ref>
+* Enjoys playing the game Osu! as it requires concentration and good hand-eye co-ordination skills which are useful when playing LoL. 
+* Favorite champions are {{ci|Alistar}},{{ci|Blitzcrank}}, and {{ci|Thresh}}.
+* Had the nickname "Machine" in Korea as a result of his lack of expression and his favorite champion being {{ci|Blitzcrank}}. <ref>[http://www.thisisgame.com/board/view.php?id=1294824&board=0&category=13737&subcategory=&page=3&best=&searchmode=title&search=&orderby=&token= <nowiki>[리그디스 질문드랍]</nowiki> 16편: 아주부 프로스트 '빠른별' 정민성 (Korean)] ''thisisgame.com''</ref>
+* Known as a god within the community for his 'godlike' support play. 
+* Is well known for being one of the top skill shot based support players in the world. His excellence on {{ci|Blitzcrank}} and {{ci|Thresh}} is put down to brilliant micromanagement skills.<ref>[http://www.youtube.com/watch?v=fUBq64GtZzo Madlife vs Maknoon] ''youtube.com''</ref>
+* His pioneering of heavy AP champions as support such as {{ci|Lux}} and {{ci|Zyra}} caused some to believe he was trolling or purposefully playing inefficient champions. This style of play has since come into the mainstream support meta.
+* Known for his stylistic and aesthetically pleasing play. He is often the subject of videos which praise his ability pull off complex and difficult plays. 
+* Possesses a deep champion pool with no known support champions that he is weak with. 
+* Prefers to be known by his full name (Hong Min-gi) as opposed to MadLife.
+* Was the last member of the original 2012 Azubu Frost roster to play a competitive game.
+* Stated in interviews that he meditates to relax and finds it a good way to prepare for important matches.
+* Awarded Best Support at 2012 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?site=lol&news=80305 Result of 2012 Korean e-Sports Awards]''inven.com.kr''</ref>
+* He is one of just two players ([[Doublelift]] is the other) to have participated in all three All-Star events ([[All-Star Shanghai 2013|Shanghai 2013]], [[All-Star Paris 2014|Paris 2014]], and [[All-Star Los Angeles 2015|Los Angeles 2015]]). He has the added distinction of being the only one to be on a winning team all three times.
+* Played with [[Shy]] on the same roster for 1626 days. As of November 30, 2016, when they departed [[CJ Entus]], this was the longest any pair of players had played together.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

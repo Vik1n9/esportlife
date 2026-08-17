@@ -1,0 +1,114 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Perkz&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:25.500Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Perkz」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Perkz
+|name=Luka Perković
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Croatia
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=September
+|birth_date_day=30
+|favchamp=Lucian
+|favchamp2=Yasuo
+|favchamp3=LeBlanc
+|checkbox1=No
+|compID1=PerkZ
+|compID2=PERKZ
+|checkboxComp=No
+|ids='''NA:'''Jonathan Tran<br>'''EUW:''' NPC slayer<br>MainChickHotChic<br>ONEvsC9<br>theclutchfact0r<br>'''KR''': Uma Jan<br>kimchiWarrior1<br>G2 YiSunSin<br>G2 퍽즈<br>'''BR:''' picksomeAPpls<br>'''CN:''' G2Perkzi
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/perkz_lol
+|facebook=https://www.facebook.com/perkzlol
+|twitter=Perkz
+|instagram=c9perkz
+|askfm=perkzlol
+|snapchat=luka.perkovic
+|youtube=https://www.youtube.com/channel/UC5Bnfg0KYC9cxlx8VlrlPuA
+|lolpros=https://lolpros.gg/player/perkz
+|deeplol=https://www.deeplol.gg/pro/Perkz
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=His name was previously stylized '''PERKZ''' and '''PerkZ'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+===2014 Season===
+PerkZ joined [[GSI Gaming]] mid-way through the season, and there played alongside [[P1noy]] and [[Hiiva]], among others. With the team, he competed at [[DreamHack Summer 2014]], though they did not make it past the group stage. PerkZ also won [[EpicGear Cup 16]] and came 2nd in [[EpicGear Cup 17]] with the team before they disbanded later on in the year.
+
+===2015 Season===
+At the start of the season, PerkZ joined [[Gamers2]]. He participated at [[International Invitational Tournament 4]] with the team and later the [[2015 EU Challenger Series/Spring Qualifier|EUCS Spring Qualifier]] on the same roster as [[beansu]], [[Obvious]], [[Kobbe]] and [[kaSing]], though they were beaten by [[Team Nevo]] in the final of their qualifier bracket. He then left the team, joining [[Millenium]] soon after.
+
+With [[Millenium]], PerkZ and the roster finished 2nd at [[Gamers Assembly 2015]] behind only [[Origen]], though he stopped playing with the team before [[DreamHack Tours 2015]] due to exams. Not long after, PerkZ officially left the team.
+
+At the start of the next month it was announced that PerkZ would be rejoining [[Gamers2]], who had retained their Challenger Series spot for the [[2015 EU Challenger Series/Summer Season|EUCS Summer Season]].<ref>[http://twitter.com/FollowGamers2/status/605786574580686848 Gamers2's Twitter Post] ''twitter.com''</ref> In October, Gamers2 rebranded themselves to [[G2 Esports]].
+
+===2016 Season===
+G2 Esports quickly rose to prominence and recognition in the [[League Championship Series/Europe/2016 Season/Spring Season|LCS]], consistently tied for first place after each week, sometimes with [[H2k-Gaming|H2k]] and sometimes also with [[Vitality]], until the end of the split when they held first place with sole possession. With a quarterfinal bye, the [[League Championship Series/Europe/2016 Season/Spring Playoffs|playoffs]] also saw them strong, as they defeated both [[Fnatic]] and [[Origen]] 3-1 to win the season and secure an invitation to the [[2016 Mid-Season Invitational|Mid-Season Invitational]].
+
+Going into MSI, G2 Esports were seen as a favorite not to win, but to come in second place to the Korean representatives [[SK Telecom T1]].<ref>[http://espn.go.com/esports/story/_/id/15446300/the-mid-season-invitational-power-rankings The Mid-Season Invitational Power Rankings] ''espn.go.com''</ref><ref>[http://www.lolesports.com/en_US/articles/msi-2016-power-rankings MSI 2016 Power Rankings] ''lolesports.com''</ref> However, the team lost their first four games of the round robin and ultimately finished in fifth place, ahead of only [[SuperMassive eSports]], and out of playoff contention - importantly, this placement meant that Europe would forfeit their [[2016 Season World Championship/Seeding|Pool 1 seed]] at [[2016 Season World Championship|Worlds]]. In a statement published partway through the second day of play, G2 stated that their players had taken vacation time after a "rigorous Spring Split."<ref>[http://www.g2esports.com/statement-from-g2-esports-about-msi-2016/ Club statement about MSI 2016] ''g2esports.com''</ref> AD carry [[Emperor (Kim Jin-hyun)|Emperor]] later stated that there had been an internal conflict within the team one day prior to the start of the event.<ref>[http://www.reddit.com/r/leagueoflegends/comments/4i5fls/g2_emperor_post_on_facebook/ G2 Emperor Post on Facebook !!] ''reddit.com''</ref>
+
+== Trivia ==
+* His ID '''Perkz''' is based on his surname (Perković).
+* Chinese fans usually compare Perkz with [[GodV (Wei Zhen)|GodV]].
+** Because they are both cocky talented mid laners, and their first appearance at Worlds didn't go well.
+** Hence then, Chinese fans usually nickname him as "阿p" meaning "GodP".
+* Featured in "RISE" - Worlds 2018 promotional music video as a side character. 
+* Reached 1000 kills in the LEC on September 8, 2019.
+** The 3rd player to reach 1000 kills in the LEC after [[Rekkles]] and [[Jankos]].
+** His 1000th kill was on [[Fnatic]]'s [[Nemesis]] in the [[LEC/2019 Season/Summer Playoffs|LEC 2019 Summer Finals]] with {{ci|Kai'Sa}}.
+* Reached 1500 kills in the LEC on January 28, 2023.
+** The 4th player to reach 1500 kills in the LEC after [[Rekkles]], [[Jankos]] and [[Caps]].
+** His 1500th kill was on [[Astralis]]' <!--jungler [[]] kill 3 in that game--> in [[LEC/2023 Season/Winter Season|LEC 2023 Winter]] week 2 with {{ci|Syndra}}.
+* Reached 500 international kills during [[Worlds 2021 Main Event|Worlds 2021]] on October 15th, 2021 on Day 4 of Group Stage, becoming the 2nd player to achieve this milestone after [[Faker]].
+* Graduated from music school and plays the guitar.<ref>[https://www.youtube.com/watch?v=jc731QAsznM Player Spotlight: G2 PerkZ] ''youtube.com''</ref>
+* Identifies himself as Uma Jan while playing as AD Carry
+* He is one of only four players to have won titles in both EU and NA, the other players being [[Zven]], [[Broken Blade]] and [[Nisqy]].
+* Part of a select group of players called "[[Royal roader]]", earned after winning their rookie split in a major region ([[EU LCS/2016 Season/Spring Playoffs|EU LCS 2016 Spring]]).
+
+=== Individual Awards ===
+* 4x EU 1st All Pro Team  (2020 Spring, 2019 Summer, 2017 Spring, 2016 Spring)
+* 3x EU 2nd All Pro Team  (2018 Summer, 2018 Spring, 2016 Summer)
+* 1x EU 3rd All Pro Team (2017 Summer)
+* 1x NA 1st All Pro Team (2021 Spring)
+* EU Rookie Of The Split (2016 Spring)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

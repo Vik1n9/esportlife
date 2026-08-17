@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=RapidStar&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「RapidStar」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=RapidStar
+|name=Jung Min-sung
+|nativename=정민성
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=May
+|birth_date_day=05
+|favchamp=Anivia
+|favchamp2=Cassiopeia
+|favchamp3=Lux
+|favchamp4=Diana
+|checkbox1=No
+|checkboxComp=No
+|ids=Cj Entus 빠른별, Azubu RapidSTAR, MiG RapidStar, RRRRRRRR
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/13cee0e69121bcd59337da672bd79357
+|twitter=MinseongJeong1
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|nicknames=빠레기 빠로겐 프른별
+}}
+==Biography==
+He started gaming when PC gaming was getting popular in Korea but disliked Starcraft and preferred Fortress, a tank shooting game. After a while he found Warcraft and Chaos which he played for a long time. He found and started playing League of Legends because it was a "foreign" game. He started playing around the time {{ci|Lux}} came out and started playing {{ci|Blitzcrank}}. He didn't really like Blitzcrank that much and moved on to {{ci|Annie}}. He saved up to later buy {{ci|Anivia}}.<ref>[http://lol.teamazubu.com/team-info Azubu Player Site] ''teamazubu.com''</ref>
+
+== Trivia ==
+* Attributes the strength of Frost to their closeness as players and friends; liking them to a second family. 
+* Believes that the lack of a hierarchy within the team is important as it allows every player to contribute to analysis and game planning.  
+* Favorite champions are: {{ci|Anivia}}, {{ci|Cassiopeia}}, <ref>[http://www.thisisgame.com/board/view.php?id=1117376&board=0&category=13735&subcategory=&page=6&best=&searchmode=title&search=&orderby=&token= ''"MiG Frost Team Interview"'']</ref> and {{ci|Lux}}<ref>[http://www.thisisgame.com/board/view.php?id=1294824&board=0&category=13737&subcategory=&page=3&best=&searchmode=title&search=&orderby=&token= ''"LOL Thisisgame.com official Q&A"]</ref>
+* Koreans often said "Yeok-ppa-che" regarding his play, which roughly means "As expected, RapidStar is the best". It was said as mockery at first, but after he had shown great {{ci|Lux}} and {{ci|Anivia}} performances on Azubu The Champions Summer 2012 Final against CLG EU; it became a true expression of respect.
+* The name RapidStar is represented in the Korean characters, Min(fast, swift), and Seong(Star).
+* Popularizes {{ci|Lux}} in competitive League of Legends.
+* Bravely chooses {{ci|Anivia}} to against the best {{ci|Anivia}} player [[Froggen]].
+* Awarded Best Mid Laner at 2012 Korean e-Sports Awards. <ref>[http://www.inven.co.kr/webzine/news/?site=lol&news=80305 Result of 2012 Korean e-Sports Awards]''inven.com.kr''</ref>
+* Retired from active play January 9, 2014.
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

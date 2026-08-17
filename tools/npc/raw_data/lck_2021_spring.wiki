@@ -1,0 +1,341 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LCK%2F2021%20Season%2FSpring%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.054Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LCK/2021/Spring」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LCK 2021}}
+{{Infobox Tournament
+|name=LCK 2021 Spring Season
+|image= LCK 2021 logo.png
+|organizer=[http://www.leagueoflegends.co.kr/?m=esports&mod=esports/ Riot Games]
+|sponsor=[https://spot.wooribank.com/pot/Dream?withyou=en Woori Bank] <br> [https://secretlab.co/ Secretlab] <br> [https://www.logitechg.com/ Logitech G] <br> [https://store.hp.com/us/en/mdp/laptops/hp-omen--1 HP Omen ] <br> [https://www.mcdonalds.com/ McDonalds] <br> [https://www.klevv.com/ken/main.php KLEVV]
+|type=Online
+|country= South Korea
+|prizepool= 
+|format=
+|date=
+|sdate=2021-01-13
+|edate=2021-03-28
+|rulebook=Archive:Official Rulebooks/Riot/LCK/2021
+|streams={{stream|url=https://www.twitch.tv/lck|lang=usuk}}
+|linkstreams=yes
+|region=KR
+|split=Spring
+|split_number=1
+|CM_StandardName=LCK 2021 Spring
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2021
+|CM_StandardLeague=LCK21
+|CM_LeagueIconKey=LCK21
+|website=https://kr.leagueoflegends.com/ko-kr/news/esports
+|facebook=https://www.facebook.com/officiallck
+|instagram=lckofficial
+|tiktok=lck_official
+|twitter=lck_global
+|youtube=https://www.youtube.com/channel/UCKVlixycWmapnGQ_wht4cHQ
+|closest_timezone=KST
+}}{{TournamentPageStart|twitchid=lck|toclimit=2|text=The '''LCK 2021 Spring Season''' is the first split of the first year of Korea's professional League of Legends league under partnership. Ten teams compete in a round robin group stage.}}
+
+==Overview==
+=== Format ===
+* 10 teams participate
+* Double Round Robin
+* Matches are best of three
+* Top six teams qualify for [[LCK/2021 Season/Spring Playoffs|Playoffs]]
+** Top two teams receive a bye to the semifinals
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2021 Preseason/Korea
+}}
+{{Box|start}}
+{{TeamRoster|team=AF
+|{{TeamRoster/Line|player=Kiin|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Dread (Lee Jin-hyeok)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Fly (Song Yong-jun)|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Bang|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Lehends|flag=kr|role=s}}
+|{{TeamRoster/Line|player=MapSSi|flag=kr|role=s}}
+|{{TeamRoster/Line|player=LirA|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Rigby|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=DRX
+|{{TeamRoster/Line|player=Kingen|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Pyosik|flag=kr|role=j}}
+|{{TeamRoster/Line|player=SOLKA|flag=kr|role=m}}
+|{{TeamRoster/Line|player=BAO (Jeong Hyeon-woo)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Becca (Son Min-woo)|flag=kr|role=s}}
+|{{TeamRoster/Line|player=SSONG|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Museong|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=DWG KIA|footnoteteamn=1
+|{{TeamRoster/Line|player=Khan|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Canyon|flag=kr|role=j}}
+|{{TeamRoster/Line|player=ShowMaker|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Ghost (Jang Yong-jun)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=BeryL|flag=kr|role=s}}
+|{{TeamRoster/Line|player=kkOma|flag=kr|role=c}}
+|{{TeamRoster/Line|player=PoohManDu|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Fredit|footnoteteamn=2  
+|{{TeamRoster/Line|player=Hoya|flag=kr|role=t}}
+|{{TeamRoster/Line|player=UmTi|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Chieftain|flag=kr|role=j,m}}
+|{{TeamRoster/Line|player=Lava|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Yaharong|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Hena|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Delight|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Edgar|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Drinker|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=GEN
+|{{TeamRoster/Line|player=Rascal|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Clid|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Flawless|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Bdd|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Karis|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Ruler|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Life|flag=kr|role=s}}
+|{{TeamRoster/Line|player=oDin (Ju Yeong-dal)|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Ggoong|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Lyn|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=HLE
+|{{TeamRoster/Line|player=Morgan|flag=kr|role=t}}
+|{{TeamRoster/Line|player=DuDu (Lee Dong-ju)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Arthur (Park Mi-reu)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=yoHan|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Chovy|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Deft|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Vsta|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Kezman|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Heart|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Sudal|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=KT
+|{{TeamRoster/Line|player=Doran (Choi Hyeon-joon)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Bonnie|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Blank (Kang Sun-gu)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=GIDEON|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Ucal|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Dove|flag=kr|role=m}}
+|{{TeamRoster/Line|player=HyBriD (Lee Woo-jin)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Noah (Oh Hyeon-taek)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Zzus|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Hirai|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Acorn|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=LSB|footnoteteamn=3
+|{{TeamRoster/Line|player=Summit|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Croco|flag=kr|role=j}}
+|{{TeamRoster/Line|player=OnFleek|flag=kr|role=j}}
+|{{TeamRoster/Line|player=FATE (Yoo Su-hyeok)|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Route|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Leo (Han Gyeo-re)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Prince (Lee Chae-hwan)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Effort|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Micro (Kim Mok-kyoung)|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Joker (Cho Jae-eup)|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NS RF|footnoteteamn=4
+|{{TeamRoster/Line|player=Rich (Lee Jae-won)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Peanut|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Bay|flag=kr|role=m}}
+|{{TeamRoster/Line|player=deokdam|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Kellin|flag=kr|role=s}}
+|{{TeamRoster/Line|player=sBs|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Noblesse|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=T1
+|{{TeamRoster/Line|player=Canna|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Zeus|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Ellim|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Cuzz|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Oner|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Clozer|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Faker|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Gumayusi|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Teddy|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Keria|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Daeny|flag=kr|role=c}}
+|{{TeamRoster/Line|player=Zefa|flag=kr|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+:''<sup>1</sup> [[DAMWON Gaming]] rebrands as [[DWG KIA]] following sponsorship by '''KIA'''.''<ref>[https://twitter.com/DWGKIA/status/1346984825928912896 DWG KIA's Tweet]''twitter.com''</ref>
+:''<sup>2</sup> [[hyFresh Blade]] rebrands as [[Fredit BRION]].''<ref>[http://www.inven.co.kr/webzine/news/?news=248861&iskin=esports 브리온이스포츠, ‘프레딧 브리온’으로 2021 LCK 참가]''inven.co.kr''</ref>
+:''<sup>3</sup> [[SANDBOX Gaming]] rebrands as [[Liiv SANDBOX]] following sponsorship by '''Kookmin Bank'''.''<ref>[https://twitter.com/LiivSANDBOX/status/1338711275900076032 Liiv SANDBOX's Tweet]''twitter.com''</ref>
+:''<sup>4</sup> [[Team Dynamics]] rebrands as [[Nongshim RedForce]].''<ref>[https://twitter.com/NSRedForce/status/1339466786949844992 Nongshim RedForce's Tweet (Korean)]''twitter.com''</ref>
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff
+|places=upwithbye,upwithbye,up,up,up,up,stay,stay,stay,stay
+|row1=upwithbye
+|row2=upwithbye
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=stay
+|row8=stay
+|row9=stay
+|row10=stay
+|legend=true
+|upwithbye= Playoffs Stage Semifinals Bye
+|up= Playoffs Stage Seed
+|stay=Not Qualified for Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with,hl
+|gamefields=Blue,Red,MH,VODs,MVP
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w10bg1=upwithbye
+|w10bg2=upwithbye
+|w10bg3=up
+|w10bg4=up
+|w10bg5=up
+|w10bg6=up
+|w10bg7=stay
+|w10bg8=stay
+|w10bg9=stay
+|w10bg10=stay
+|w9bg1=upwithbye
+|w9bg2=up
+|w9bg3=up
+|w9bg4=up
+|w9bg5=up
+|w9bg10=stay
+|w8bg1=upwithbye
+|w8bg2=up
+|w8bg3=up
+|w8bg4=up
+|w8bg5=up
+|w7bg1=up
+|w7bg2=up
+|w6bg1=up
+|orderby=recordwithpoints
+|places=upwithbye,upwithbye,up,up,up,up,stay,stay,stay,stay}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=game|displaytext=Player of the Game Standings
+|columns=Points
+}}
+
+=== Season Awards ===
+{{SeasonAwardStart}}
+{{SeasonAward|mvp|team=DK|player=Canyon|note=[https://twitter.com/LCK/status/1377833408357756931]}}
+{{SeasonAward|custom|award=Player of the Split|teams=HLE,DRX,DK|players=Chovy,Pyosik,ShowMaker|note=[https://twitter.com/LCK/status/1376181773135060992]}}
+{{SeasonAward|proteam|players=Khan,Canyon,ShowMaker,Ruler,Keria|teams=DK,DK,DK,GEN,T1|note=[https://twitter.com/LCK/status/1379283489468555268]}}
+{{SeasonAward|custom|award=2nd All Pro Team|players=Rascal,Pyosik,Chovy,Teddy,BeryL|teams=GEN,DRX,HLE,T1,DK|note=[https://twiiter.com/LCK/status/1379283489468555268]}}
+{{SeasonAward|custom|award=3rd All Pro Team|players=Kingen,Clid,Bdd,Ghost (Jang Yong-jun),Life|teams=DRX,GEN,GEN,DK,GEN|note=[https://twitter.com/LCK/status/1379283489468555268]}}
+{{SeasonAwardEnd}}
+:''Note: Player of the Split is given to the player with the most Player of the Game points at the end of the regular season.''
+
+== Media ==
+===Streams===
+* {{flag|usuk}} [http://www.twitch.tv/lck Twitch]
+* {{stream|url=https://www.twitch.tv/lck_korea|lang=kr}}
+* {{stream|url=http://play.afreecatv.com/aflol|lang=kr|display=AfreecaTV}}
+* {{stream|url=https://sports.news.naver.com/main/scoreboard.nhn|lang=kr|display=NaverTV}}
+* {{flag|de}} [https://www.twitch.tv/summonersinnlive Twitch]
+* {{flag|de}} [https://www.youtube.com/user/SummonerInnDE YouTube]
+* {{flag|fr}} [http://www.twitch.tv/otplol_ Twitch]
+* {{flag|it}} [http://www.twitch.tv/pg_esports Twitch]
+* {{flag|cn}} [https://www.huya.com/lck Huya]
+
+=== Broadcast Talent ===
+* Korean
+** {{player|Caster Jun|flag=KR|name= Chun Yong-jun}} – Play-by-Play Caster
+** {{player|SEONG K|flag=KR|name= Seong Seung-heon}} – Play-by-Play Caster
+** {{player|CloudTemplar|flag=KR|name= Lee Hyun-woo}} – Color Caster
+** {{player|Kim Dong-joon|flag=KR|name= Kim Dong-joon}} – Color Caster
+** {{player|KangQui|flag=KR|name= Kang Seung-hyeon}} – Color Caster
+** {{player|GorillA|flag=KR|name= Kang Beom-hyun}} – Color Caster
+** {{player|Bitdol|flag=KR|name= Ha Gwang-seok}} – Analyst
+** {{player|Kuro|flag=KR|name= Lee Seo-haeng}} – Analyst
+** {{player|Nuclear|flag=KR|name= Shin Jeong-hyeon}} - Analyst
+** {{player|Soobin|flag=KR|name= Youn Soo-bin}} – Analysis Host
+** {{playersp|Lee Jeonghyun|flag=KR|name= Lee Jeong-hyun}} – Analysis Host
+** {{player|Jeesun|flag=KR|name= Park Jee-sun}} – Translator
+
+* English
+** {{player|Atlus|flag=AU|name= Max Anderson}} – Play-by-Play Caster
+** {{player|Valdes|flag=US|name= Brendan Valdes}} – Play-by-Play Caster
+** {{player|Wolf (Wolf Schröder)|flag=US|name= Wolf Schröder}} – Color Caster
+** {{player|Chronicler|flag=NL|name= Maurits Jan Meeusen}} – Color Caster
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|kr}} Seoul
+|-
+|LoL PARK - LCK Arena
+|-
+|''Capacity'' - 450
+|-
+|[[File:LoL PARK.jpg|330px]] [[File:2021 LCK Arena.png|330px]] 
+|-
+|33 Jong-ro, Cheongjin-dong, Jongno-gu, Seoul, South Korea
+|}
+
+=== Announcements ===
+* January 4, [https://www.facebook.com/officiallck/posts/1283268958724781 2021 #LCK 달라지는 점 (Korean)]
+* January 4, [https://lolesports.com/article/-2021-lck-/bltca0551fb60ff0771 새롭게 돌아온 2021 LCK를 소개합니다! (Korean)] ''by LoL Esports''
+* January 5, [https://lolesports.com/article/-2021-lck-/bltd989767e976ea123 2021 LCK 스프링 안내 (Korean)]
+
+=== Viewership Statistics ===
+
+Data sourced from [https://escharts.com/tournaments/lol/lck-spring-2021 Esports Charts].
+{|class="wikitable"
+! colspan=2 | Peak Viewership
+|-
+! Total
+| 836 062
+|-
+! Korean Streams
+| 543 881
+|-
+! Twitch.tv Streams
+| 566 455
+|-
+! colspan=2 | Other
+|-
+! Total Time Watched
+| 67 560 582 Hours
+|-
+! Avg Concurrent Viewers
+| 232 234
+|}
+
+=== Additional Content ===
+* See [[LCK/2021 Season/Spring Season/Media|Media]].
+
+== References ==
+<references/>

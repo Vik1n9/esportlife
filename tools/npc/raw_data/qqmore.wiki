@@ -1,0 +1,125 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=QQMore&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「QQmore」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=QQMore
+|name=Diego Alonso Apablaza Abarzúa
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Chile
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|birth_date_year=1999
+|birth_date_month=May
+|birth_date_day=03
+|favchamp=Lee Sin
+|favchamp2=Ekko
+|favchamp3=Elise
+|favchamp4=Lucian
+|checkbox1=No
+|compID1=QQ
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/qqamor
+|facebook=https://www.facebook.com/qqamor
+|twitter=1qqmore
+|instagram=qqamor_
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''QQ'''.
+|checkboxPrev=No
+}}
+==Biography==
+Diego Alonso Apablaza Abarzúa was born in Santiago, Chile.
+
+=== 2016 Season===
+His debut was in [[Isurus]] as Jungle participating in the [[LAS 2016 Closing Cup]] rotating with [[Clatos]] where the team was first in the tournament, qualifying to the next phase. Already in the [[LAS 2016 Closing Cup Playoffs]] where the team arrived in the final facing [[Kaos Latin Gamers|KLG]] losing 2-3.
+
+=== 2017 Season===
+At the beginning of the year [[QQmore]] remains in the team participating in the [[CLS 2017 Opening]] where the team was first in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Opening Playoffs]] where the team reached the final facing [[Furious Gaming]] winning 3-0, being champion for the first time, qualifying for an international tournament for the first time. Already in the MSI the team was in group B facing [[GIGABYTE Marines]], [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] and [[Virtus.pro]], where the team was last in the group phase. At the middle of the year [[QQmore]] remains in the team participating in the [[CLS 2017 Closing]] where the team was second in the tournament, qualifying to the next phase. Already in the [[CLS 2017 Closing Playoffs]] where the team reached the final facing [[Kaos Latin Gamers|KLG]] losing 1-3.
+
+=== 2018 Season===
+At the beginning of the year [[QQmore]] remains in the team participating in the [[CLS 2018 Opening]] where the team was third in the tournament, qualifying for the next phase. Already in the [[CLS 2018 Opening Playoffs]] where the team was third in the tournament losing against [[Kaos Latin Gamers|KLG]] 0-3. In the middle of the year [[QQmore]] remains in the team participating in the [[CLS 2018 Closing]] where the team was third in the tournament, qualifying to the next phase. Already in [[CLS 2018 Closing Playoffs]] where the team was third in the tournament losing against [[Rebirth eSports]] 0-3, at the end of the tournament leaves the team.
+
+=== 2019 Season===
+At the beginning of the year he joins [[Pixel Esports Club|Pixel Esports]] as Jungle participating in the [[LLA 2019 Opening]] where the team was fifth in the tournament, qualifying to the next phase. Already in the [[LLA 2019 Opening Playoffs]] the team was fifth in the tournament losing against [[Isurus]] 1-3. In the middle of the year [[QQmore]] remains in the team participating in the [[LLA 2019 Closing]] where the team was last in the tournament, having to play the relegation. Already in [[LLA 2020 Opening Promotion]] the team faced [[MAD Lions E.C. Colombia|MAD Lions Colombia]] winning 3-1, saving the place.
+
+== Trivia ==
+* His favorite champion is {{ci|Lee Sin}}.
+* He also likes {{ci|Ekko}}, {{ci|Elise}}, and {{ci|Lucian}}.
+* Reached Master tier on KR server.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

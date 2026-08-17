@@ -1,0 +1,119 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Zuna&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.319Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Zuna」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Zuna
+|name=Christopher Buechter
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United States
+|residency=North America
+|checkbox-res=No
+|birth_date_year=1990
+|birth_date_month=December
+|birth_date_day=25
+|favchamp=Ezreal
+|favchamp2=Kog'Maw
+|favchamp3=Tristana
+|checkbox1=No
+|checkboxComp=No
+|ids=V Zoonie, V Zuna, GoSu Zuna, XDG Zuna, XD Zoonie
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/gosuzuna
+|twitter=Zuna_Chris
+|reddit=GoSuZuna
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Bris
+|died=2024-05-20
+}}
+==Biography==
+On October 14, 2014, it was announced that Zuna would be playing Heroes of the Storm for [[Cloud9]] at BlizzCon.<ref>http://cloud9.gg/news/2014/10//cloud9-enters-the-storm-with-new-heroes-of-the-storm-team</ref>
+
+== Trivia ==
+* Before being announced as the new AD Carry for [[Team FeaR]], he was actually being tried out as their new Top Laner.
+* Tried out for the position of Top Laner for [[Team Dignitas]] after [[IWillDominate]]'s suspension, but the role was eventually filled by [[KiWiKiD]].
+* Switched to AD Carry for [[CLG Black]] after [[Hoodstomp]]'s retirement.
+* Stated that he prefers to play AD over any other role in an [http://www.youtube.com/watch?v=bYZNAO0nRn8 interview] by Megumixbear at [[IPL 5]]
+* His brother is [[Kenma]], XDG Gaming's coach.
+* Sometimes, during intense teamfights, Zuna shouts commands to his teammates that can be heard throughout the venue.
+* Because of his bad vision, he looks like he's staring down away from the monitor when the LCS cameras cut to a shot of him.
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}
+[[Category:Deceased Players]]

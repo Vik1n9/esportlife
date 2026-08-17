@@ -1,0 +1,79 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Gambit%20Esports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:59.770Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Gambit Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= Gambit Esports
+|orgcountry= Russia
+|country= Russia
+|foundedcountry= United Kingdom
+|region= CIS
+|headcoach= 
+|website= http://gambit.gg
+|youtube=https://www.youtube.com/GambitEsports
+|facebook=https://www.facebook.com/GambitEsports
+|subreddit=GambitGaming
+|twitter= GambitEsports
+|instagram= gambitesports
+|vk=https://vk.com/gambitesports
+|rosterphoto=
+|sponsor=[http://www.mts.ru/ MTS]
+|created= 2016-01-12
+|otherwikis=fortnite
+}}{{TOCRWI}}
+
+'''Gambit Esports''' is a CIS team.
+
+== History ==
+
+=== Formation ===
+'''Gambit Esports''', originally '''Gambit Gaming.CIS''', was announced on January 12, 2016 after the organization [[Gambit Gaming]] sold its [[League Championship Series/Europe/2016 Season/Spring Season|European LCS]] seed. Though initially the team contained no players from their previous European roster, former [[Gambit Gaming]] jungler [[Diamondprox]] joined in February when he became unable to compete with [[Unicorns of Love]] in the LCS due to visa issues. In June 2017, a second Gambit EU LCS veteran – support [[Edward]] – rejoined, while the team also added mid laner [[Kira]] and top laner [[PvPStejos]] from Worlds quarterfinalists [[M19]] (formerly [[Albus NoX Luna]]).
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==<!--
+===Active===-->
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|groove|ru|Konstantin Pikiner|'''Chief Executive Officer'''|newteam=none}}
+{{listplayersp|Kayos|ru|Vladimir Ivanov|'''Manager'''|newteam=none}}
+{{listplayer|SaDJesteRRR|ru|Yevgeny Starosvetskiy|'''Head Coach'''|newteam=BSG}}
+{{listplayer|PvPStejos|ua|Alexander Glazkov|'''Assistant Coach'''|newteam=none}}
+{{listplayer|Seigimitsu|ru|Evgeny Podlobnikov|'''Analyst'''|newteam=none}}
+{{listplayer|PvPStejos|ua|Alexander Glazkov|'''Head Coach'''|newteam=Gambit Esports|comment=[[File:JungleLanePick.png|19px|link=]] Jungler}}
+{{listplayersp|TunesX|ru|Anton Boyko|'''Assistant Coach'''|newteam=FURIA Esports}}
+{{listplayer|ATRemains|lv|Igors Radkevič|'''Head Coach'''|newteam=OBG }}
+{{listplayer|SaDJesteRRR|ru|Yevgeny Starosvetskiy|'''Assistant Coach'''|newteam=RoX CIS}}
+{{listplayersp|Tunes|ru|Anton Boyko|'''Manager'''|newteam=Vega}}
+{{listplayer|Sharkz|by|Alexey Taranda|'''Strategic Coach'''|newteam=GOTB}}
+{{listplayer|Invi|ru|Dmitry Protasov|'''Head Coach'''|newteam=Vega Squadron}}
+{{listplayersp|MegaLASH|ru|Maxim Ogorodnikov|'''Head Coach'''|newteam=none}}
+{{listplayersp|Zak|ru|Aleksandr Shcherbakov|'''Analyst'''|newteam=Riot Games}}
+{{listplayersp|saetia|ru|Nikita Burlakov|'''Head Coach'''|newteam=Team Just Alpha}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+<gallery>
+File:Gambit Old Logo.png|Gambit Old Logo (2013-2016)
+File:Gambit Esports Old Logo.png|Gambit Esports Previous Logo (2016-2020)
+</gallery>
+{{TeamProfileGallery}}
+
+== Media ==
+{{TeamMedia}}
+
+==See Also==
+
+==External Links==
+
+==References==
+<references />

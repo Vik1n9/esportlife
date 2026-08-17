@@ -1,0 +1,82 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Snoopeh&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:33.920Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Snoopeh」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Snoopeh
+|name=Stephen Ellis
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=United Kingdom
+|nationality=United Kingdom,Scotland
+|residency=Europe
+|birth_date_year=1991
+|birth_date_month=September
+|birth_date_day=15
+|favchamp=Cho'Gath
+|favchamp2=Amumu
+|favchamp3=Maokai
+|favchamp4=Malzahar
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/snoopeh
+|facebook=https://www.facebook.com/snoopeh
+|twitter=snoopeh
+|instagram=snoopeh
+|snapchat=snoopehz
+|reddit=snoopeh
+|linkedin=https://www.linkedin.com/in/stephen-ellis-85675326a/
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+He first ventured into the world of PC gaming with "Age of Empires" at the age of 6. He first began seeing competitive play as a possibility with the games Eve Online, playing it for 7 years, and Counterstrike 1.6. He was also playing a free-to-play game called “Battlefield Heroes”. He eventually found League of Legends, his strong support jungler earned him the reputation he needed to be picked up as the jungler for CLG EU. He remained with them when they were turned into Evil Geniuses and eventually transferred to North America, where he finished his playing career.
+
+In April 2016, he co-founded the E-Sports Player Resource Center alongside Bryce Blum to provide professional support to pro gamers.<ref>[https://www.reddit.com/r/leagueoflegends/comments/4fiaoo/esports_player_resource_center_prc_launch_need/ ESports Player Resource Center (PRC) Launch - Need your help!] Snoopeh on Reddit (/r/LeagueOfLegends)</ref> The next month, he was hired by Facebook.<ref>[https://twitter.com/snoopeh/status/732032810488193025 @Snoopeh: "Excited to let you guys know that I start working at @Facebook tomorrow. Looking forward to doing some cool s**t!"] Twitter</ref>
+
+== Trivia ==
+* Favorite champion is {{ci|Amumu}}.<ref>[http://www.youtube.com/watch?v=qPAnxq4kBbw League of Legends - Pro Player Pick: Snoopeh Picks Amumu] ''"Riot Games"''</ref>
+* Holds honors degree in computer science and business management.
+* Represented Europe at the [[Riot World Invitational]] held in Las Vegas.<ref>[http://ggchronicle.com/riot-world-invitational-liveblog/ Riot World Invitational Summary] ''ggchronicle.com''</ref>
+* Became famous for staring into the camera for long periods of time during professional events; which casters have dubbed "The Snoopeh Stare".
+* Mainly plays supportive Jungle champions, most notably {{ci|Cho'Gath}} and {{ci|Maokai}}.
+* Enjoys singing while streaming.
+* After CLG.EU became Evil Geniuses, he started the "Get Fit With Snoopeh" initiative, challenging fans to do push-ups every time he recorded a kill or assist.<ref>[https://www.youtube.com/watch?v=aDFutTmsjjM Get Fit with Snoopeh] ''LoL'' E-Sports on YouTube</ref>
+* Pioneered {{ci|Malzahar}} Jungle.
+* Comes from Stirling in Scotland. 
+* Was part of the [[Season 3 World Championship]] Analyst desk. <ref>[http://na.lolesports.com/articles/casters-and-analysts-announced-worlds lolesports article] ''lolesports.com'' Casters and analysts announced at worlds 2013 </ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

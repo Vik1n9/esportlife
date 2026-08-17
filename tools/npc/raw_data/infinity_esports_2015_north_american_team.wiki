@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Infinity%20Esports%20(2015%20North%20American%20Team)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.808Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity Esports (2015 North American Team)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isdisbanded = true
+|name= Infinity Esports
+|orgcountry= United States 
+|country= United States
+|region=NA
+|image=Infinity Esports (2015 North American Team)logo square.png
+|coaches= Alex "'''Pug'''" Loyd
+|manager= Robert "'''DaddyKowa'''" Clements
+|captain=
+|website= http://monstarkittenz.com/
+|youtube=
+|facebook=https://www.facebook.com/monstarkittenz
+|twitter= MonstarKittenz
+|irc=
+|sponsor= [http://gamersbeard.com GamersBeard] <br> [http://facebook.com/leagueofhunnies League of Hunnies]
+|created= 2014-xx-xx
+|disbanded=2015-02-xx
+|trades=
+}}{{TOCRWI}}
+
+'''Infinity Esports''' (formerly Monstar Kittenz and later Monster Kittens) was a North American team.
+
+== History ==
+=== 2015 Preseason===
+Initially called '''Monstar Kittenz''', the team qualified for the [[Riot_League_Championship_Series/North_America/2015_Season/Expansion|North American Expansion Tournament]] by placing ninth in the [[Riot League Championship Series/North America/2015 Season/Expansion/Challenger Ladder|ranked 5's ladder]], ahead of [[Fission eSports]] and behind [[Final Five]]. They lost to [[compLexity.White]] 1-2 in the first round of the tournament and were eliminated.
+=== 2015 Season ===
+After the Expansion Tournament, Monstar Kittenz renamed to '''Monster Kittens''' and picked up a new roster, including {{bl|Akaadian}}, {{bl|JJ (Juan Guibert)|JJ}}, {{bl|Mini Me}}, and {{bl|ExecutionerKen}}; [[Hoofspark]] remained from the team's Expansion Tournament lineup. The team renamed once again to '''Infinity Esports''' right before the tournament. Additionally, manager [[DaddyKowa]] left the organization, and {{bl|Saskio}} replaced Akaadian in the top lane. With this roster, Infinity competed in the [[2015 NA Challenger Series/Spring Qualifier|NACS 2015 Spring Qualifier]], but were knocked out by [[Team Liquid Academy]] in the first round. They later disbanded.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+===Current===
+{{Listplayer/Start|staff=yes}}
+{{listplayersp|Shadow|us|Hamza Bajwa|'''Owner'''}}
+{{listplayersp|Pug|us|Alex Loyd|'''Coach'''}}
+{{Listplayer/EndTemp}}
+
+===Former===
+{{Listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|DaddyKowa|us|Robert Clements|'''Manager'''|newteam=none}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As Monster Kittens===
+{{TeamResults|Monster Kittens|show=overviewpage}}
+
+== Highlight Videos ==
+<!-- Speaks for it self, put the length, author, basic information and the reference. Use asterisk (*) to create a  bulleted list of links. -->
+
+==Interviews==
+<!-- Interviews with the team. Use asterisk (*) to create a  bulleted list of links. -->
+
+==Articles==
+===2014===
+* November 13 -[http://content.azubu.tv/moba/league-of-legends/2015-na-lcs-expansion-tournament-bracket-previews/ North American LCS expansion tournament: Bracket Previews] ''by Azubu''
+
+==See Also==
+<!-- Links to relevant pages on Esportpsedia. Use asterisk (*) to create a  bulleted list of links. -->
+
+==External Links==
+<!-- Links to relevant external pages where the team appears (such as on their home team page or events). Use asterisk (*) to create a  bulleted list of links. -->
+
+==References==
+<references />
+
+<br>

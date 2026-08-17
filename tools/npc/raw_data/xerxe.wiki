@@ -1,0 +1,103 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Xerxe&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.922Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Xerxe」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Xerxe
+|name=Andrei Dragomir
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Romania
+|residency=EMEA
+|birth_date_year=1999
+|birth_date_month=November
+|birth_date_day=05
+|favchamp=Hecarim
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' absconsus, Holy Rabies<br>'''KR:''' Stumpy
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/xerxe
+|facebook=https://www.facebook.com/XerxeLoL
+|twitter=XerxeLoL
+|instagram=xerxelol
+|youtube=https://youtube.com/channel/UCQHULmfx8WziaDg1Q2jAtqA
+|lolpros=https://lolpros.gg/player/xerxe
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+=== 2017 Season ===
+On December 15, Xerxe took the step up to join EU LCS team [[Unicorns of Love]]. Despite replacing the jungler and a late change of the bot laner the team synergized quickly and managed to dominate their group B against [[Splyce]], [[H2k Gaming]], [[Team Vitality]], and [[Origen]] in the [[EU LCS/2017 Season/Spring Season | Regular Season]] going into playoffs as 1st seed with a semifinal bye. In semifinals they beat [[Misfits (European Team) | Misfits]] 3-1 before failing to stop [[G2]] from their third consecutive EU LCS title losing the final 1-3.
+Managing to keep their successful roster for [[EU LCS/2017 Season/Summer Season | Summer Split]] they could not quite replicate their performance in a nearly identical group where promoted [[Mysterious Monkeys]] replaced Origen. 
+
+During the split UOL participated at the newly created [[Rift_Rivals_2017/NA-EU | Rift Rivals]] against NA LCS teams [[TSM]], [[Cloud 9]] and [[Phoenix1]]. As the best european team in the group stage they faced TSM in the grand final but were 0-3 swept by them.
+They ended the Regular Season in second place behind H2k and were swept in quarterfinals by Misfits. Their performance from Spring Split earned them 2nd seed going into Regional Finals as last chance to finally participate at a [[2017 Season World Championship | World Championship]] but their dream quickly came to an end as H2k managed to beat them 3-2 in Round 2.
+
+=== 2018 Season ===
+On November 28, [[Xerxe]] joined [[Odoamne]], [[Nisqy]], [[Kobbe]], and [[kaSing]] on the rebuilt roster of Splyce. The roster tied 2nd place in the [[EU LCS 2018 Spring | 2018 EU LCS Spring Split]] with [[G2 Esports]], both having a 11-7 score. Splyce lost the tiebreaker and was placed 3rd seed going into playoffs. The team played [[Team ROCCAT]] in the first round and quickly won 3-0, advancing to the second round where they would face [[G2 Esports]] once again. Splyce lost the series 1-3. The team later faced [[Team Vitality]] in the 3rd place match and won, earning them 3rd place in the Spring Split. Xerxe's performances earned him his first appearance in the 1st All Pro Team.
+
+At [[Rift Rivals 2018/NA-EU | Rift Rivals]] Splyce struggled the most out of the european teams during group stage against [[Team Liquid]], [[100 Thieves]], and [[Echo Fox]] but they managed to win their game against 100 in finals to help Europe win the event. Splyce placed 6th in the [[EU LCS 2018 Summer | EU LCS Summer Split]] with a 9-9 record, barely qualifying for playoffs. They would face [[FC Schalke 04]] in the first round in playoffs and lost the series 2-3, forcing them to compete in the [[EU Regional Finals 2018 | Regional Finals]] in order to go to Worlds. Splyce played Misfits in their first round and won the close match 3-2. They would then lose the following round to [[G2 Esports]] 2-3, failing to make it to Worlds.
+
+=== 2019 Season ===
+Going into the next season [[Kobbe]] and [[Xerxe]] got new teammates at [[Splyce]] in [[Vizicsacsi]], [[Norskeren]], and [[Humanoid]]. Mixed performances throughout the [[LEC/2019 Season/Spring Season | Spring Split]] ended with them finishing in 4th place finish with a 11-7 record during Regular Season. In Round 1 of playoffs they faced off against [[SK Gaming]] and after losing game 1 they dominated the rest of the series to face Fnatic in Round 2 for a place at the offline finals in Rotterdam. They lost the series 1-3 despite having good early games in games 1 and 2 and almost coming back from the brink of defeat in game 3.
+
+Going into [[LEC/2019 Season/Summer Season|Summer Split]] Splyce kept playstyle and roster similarly but Humanoid showed that he got more comfortable on stage and managed to take more of a carry role. After a pretty good split and securing top 3 Splyce had the chance to get a direct ticket to Athens but lost both the direct match against Fnatic as well as their last match against Misfits in the last week of regular season. They chose to play Rogue in quarterfinals but probably regret that decision shortly after when they got absolutely dominated over all 3 games in a clean sweep defeat. Xerxe got rewarded for this split with a vote into the 2nd All Pro Team behind only [[Jankos]].
+
+In Round 1 of gauntlet they faced Origen who struggled in summer but had a lot of time to prepare for this match. A strong showing by them in game 1 quickly turned around expectations though and was the opening for a competitive series. Splyce won games 2 and 3 before getting getting destroyed in game 4 again. Despite convincingly but slowly winning game 5 and the series many people gave Splyce barely a chance in Round 2 against Schalke 04 but they gained back their confidence from beating Origen and clean swept Schalke 04 to play Fnatic to determine whether they go to [[2019 Season World Championship|Worlds]] as 2nd or 3rd seed. Despite their devastating series against G2 Fnatic swept Splyce relatively easily which meant that Splyce started Worlds in Play-In-Stage where they were drawn into Group B with Japan’s [[DetonatioN FocusMe]] and LLA’s [[Isurus Gaming]].
+
+Xerxe's first appearance at Worlds started with clean 2-0 on Day 1 before they struggled a bit on Day 2 of the group but despite losing to DFM they secured 1st place in the group. In Round 2 they faced LCL's [[Unicorns of Love.CIS|Unicorns of Love]] and barely managed to beat them in a very close 3-2 series which turned out to be the series with the most kills in Worlds history. For Group Stage they were drawn into group B, alongside LPL 1st seed [[FunPlus Phoenix]], LMS 2nd seed [[J Team]] and VCS 1st seed [[GAM Esports]]. After a 1-2 start they especially in form of midlaner Humanoid stepped up on the deciding day of groups and went 3-0 including a upset vs FPX before losing the tiebreaker rematch against them for 1st seed. For quarterfinals they were drawn to play against LCK 1st seed [[SK Telecom T1]] who lived up to their status of tournament favorite and ended Splyce's second Worlds appearance with a dominant 3-1.
+=== 2020 Season ===
+On November 19, Xerxe joined another rebuilt roster at Origen. His new teammates were [[Alphari]], [[nukeduck]], [[Upset]], and [[Destiny (Mitchell Shaw) | Destiny]]. With a win against Fnatic they had a good start into [[LEC/2020 Season/Spring Season|Spring Split]] and found themselves near the top of the league after week 2 only dropping their game against G2. After another loss the week after they kept a flawless record against the worse teams until last week but were not able to beat the top teams and therefore found themselves in 3rd place with a 13-5 record. In Round 1 of playoffs they faced Fnatic and did not find an answer to their comp in games 1 and 2 before struggling to close out game 3 and throwing an advantage in midgame of game 4 which meant that they dropped into Loser's Bracket. There they recovered from a tough game 1 loss against Rogue to win the series convincingly 3-1 and face G2 in Round 3. Following yet another game 1 they lost another game where they had a clear advantage in a lategame teamfight to come back with a great game 3 but stood no chance in game 4 which ended their split. Xerxe found himself yet again on the All Pro Team but this time he only made it to 3rd team far behind Jankos and Selfmade.
+
+== Trivia ==
+* Represented Romania at the [[IeSF 7th e-Sports World Championship]] along with [[AoD]].
+* Outstanding Rookie of the [[League Championship Series/Europe/2017 Season/Spring Season|2017 Season EU LCS Spring Split]].
+* Considered one of the most innovative European junglers, known for inventing counterpicks, picking up new champions quickly, and playing off-meta picks such as {{ci|Hecarim}} and {{ci|Warwick}}.
+** Popularized {{ci|Ivern}} jungle in Europe and was one of the first players there to bring out {{ci|Trundle}} jungle with [[File:Rune Press the Attack.png|20px|link=]] [[Press the Attack|Press the Attack]] as a counter to {{ci|Sejuani}}. 
+
+=== Individual Awards ===
+* 1x EU 1st All Pro Team (Spring 2018)
+* 1x EU 2nd All Pro Team (Summer 2019)
+* 1x EU 3rd All Pro Team (Spring 2020)
+* EU Rookie Of The Split (Spring 2017)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

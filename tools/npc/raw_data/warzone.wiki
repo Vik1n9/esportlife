@@ -1,0 +1,81 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Warzone&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.259Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Warzone」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Warzone
+|name=Đoàn Văn Ngọc Sơn
+|pronoun=He
+|image=GAM Warzone 2023 Split 1.png
+|checkboxAutoImage=No
+|country=Vietnam
+|residency=Vietnam
+|birth_date_year=1994
+|birth_date_month=September
+|birth_date_day=23
+|favchamp=Morgana
+|favchamp2=Orianna
+|favchamp3=Ziggs
+|checkbox1=No
+|compID1=Carrot
+|compID2=Curot
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.facebook.com/Box.Warzone
+|facebook=https://www.facebook.com/Box.Warzone
+|instagram=sondoan.230994
+|youtube=https://www.youtube.com/channel/UCfBYbS6kBLo8LlNPAjtHQzQ
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Carrot''' and '''Curot'''.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* He can play as a mid laner and a support.
+* He did over 1000 push-ups in 1 hour after winning the VCS.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+SAJ Warzone.jpg|SAJ Warzone
+EVS Warzone 2018 Spring.png|EVS Warzone 2018 Spring
+File:EVS Warzone 2018 MSI.png|EVS Warzone 2018 MSI
+GAM Warzone 2023 Split 1.png|GAM Warzone 2023 Spring
+</gallery>
+
+{{PlayerPageEnd}}

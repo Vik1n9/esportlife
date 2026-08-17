@@ -1,0 +1,201 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=FlyQuest&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.080Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「FlyQuest」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+<!-- To add a logo, upload an image at either File:<team name>logo square.png or File:<team name>logo profile.png. Example: File:Team SoloMidlogo profile.png. See Help:Setting Up Teams for more information. -->
+|name= FlyQuest
+|orgcountry= United States
+|country=
+|region=North America
+|partner= [https://www.logitech.com Logitech] <br> [https://www.andaseat.com AndASeat] <br> [https://drinkolipop.com OLIPOP] <br> [https://nzxt.com/ NZXT] <br> [https://www.thetatoken.org Theta Labs Network] <br> [https://leon.bet/ Leon.Bet]
+<!-- Staff -->
+|owner= Vincent Viola
+<!-- Social Media -->
+|website= http://www.flyquest.gg
+|youtube= https://www.youtube.com/channel/UCy0omD6TIJklBme14VQqV6A
+|facebook= https://www.facebook.com/FlyQuestSports
+|twitter= FlyQuest
+|discord= https://discord.com/invite/flyquest
+|snapchat= Flyquest
+|instagram= flyquest
+|subreddit= FlyQuest
+|twitch-team= https://www.twitch.tv/team/flyquest
+|tiktok= flyquest
+|bluesky= flyquest.gg
+|linkedin=https://www.linkedin.com/company/flyquest-sports/
+|irc= 
+<!-- History -->
+|created= 2017-01-06
+|disbanded= 
+<!-- Current Roster Photo -->
+|rosterphoto=FlyQuest 2026 LCS Season.jpg
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+|otherwikis= fortnite,pubg,rl
+}}{{TOCRWI}}
+
+'''FlyQuest''' is an American esports organization affiliated with the NBA team '''Milwaukee Bucks'''.
+
+== History ==
+Originally reported on January 4, 2017, as [[Cloud9 Challenger]]'s new brand, '''FlyQuest''' was officially announced on January 5 and are co-owned by Wesley Edens, co-owner of the Milwaukee Bucks, and Fortress Investment Group.<ref>[http://www.espn.com/esports/story/_/id/18405409/sources-milwaukee-bucks-co-owner-launches-esports-brand-flyquest Sources: Milwaukee Bucks co-owner launches esports brand FlyQuest] ''espn.com''</ref><ref name="flyquestexists">[http://www.lolesports.com/en_US/articles/na-lcs-offseason-scheduling-and-more NA LCS Offseason, Scheduling, and more] ''lolesports.com''</ref> Their initial roster included Cloud9 Tempest alums [[Balls]], [[Hai]], [[Altec]], and [[LemonNation]] along with former [[Team Liquid Academy]] jungler [[Moon (Galen Holgate)|Moon]].<ref name="firstroster">[http://www.thescoreesports.com/lol/news/12668-flyquest-confirm-moon-as-jungler FlyQuest confirm Moon as jungler] ''thescoreesports.com''</ref>
+
+===2017 Season===
+Going into the [[League Championship Series/North America/2017 Season/Spring Season|NA LCS 2017 Spring Season]], FlyQuest were predicted by many to be a bottom tier team, due to [[Moon (Galen Holgate)|Moon]] and [[Altec|Altec's]] lack of previous success and the fact that the three former [[Cloud9]] players seemed to be past their prime. However, FlyQuest shocked many by posting a 6-2 record over the first four weeks, playing a variety of out-of-meta picks including [[Zed]] in the mid lane and [[Evelynn]] in the jungle. However, the honeymoon quickly ended as the team proceeded to go 1-7 over the next four weeks before managing to defeat the bottom tier [[Team Envy]] and [[Team Liquid]], squeaking into the [[League Championship Series/North America/2017 Season/Spring Playoffs|playoffs]] with the 5th seed.
+
+In the quarterfinals, FlyQuest faced off against fourth seed [[Counter Logic Gaming]], who  were favored due to FlyQuest's weak late season performance. After going to 0-2 in the series, FlyQuest roared back to win the next two games and eventually reverse sweep CLG off the back of some questionable aggressive calls in game seven.  Unfortunately, the Cinderella story ended there, as they were quickly swept by eventual champions [[TSM]] in the semifinals, and fell to [[Phoenix1]] in the third-place match despite taking a 2-1 series lead.
+
+During the midseason, FlyQuest picked up [[WildTurtle]], who had previously played with the former Cloud9 players during their challenger days, and was available due to [[Doublelift]] returning to TSM for the [[League Championship Series/North America/2017 Season/Summer Season|Summer Season]]. Altec remained with the team for the first two weeks as a substitute despite not playing a game, but left before week 3 to join [[Team Dignitas]]. Unfortunately, despite the change, the struggles that had begun in the late spring continued. FlyQuest never managed to climb higher than seventh place or reach a .500 record and only avoided relegation by winning their final two games.
+
+Due to having 30 championship points from the Spring Season, FlyQuest were eligible to play in the [[2017_Season_North_America_Regional_Finals|2017 Regional Finals]]. With little expected of them, they managed to shockingly sweep [[Team Dignitas]] in the first gauntlet match and take the first game of the second series off of [[CLG]] before eventually falling in a close 3-1 series, ending their [[2017 World Championship|Worlds]] hopes.
+
+===2018 Season===
+====Spring Split====
+With the NALCS franchising for the [[League Championship Series/North America/2018 Season/Spring Season|2018 Spring Season]], FlyQuest were expected not to make the cut for the new LCS, but was announced as one of the six existing teams that had been given a permanent slot. Soon after, they completely rebuilt their roster around AD carry [[WILDTURTLE]], adding former [[Immortals]] top laner [[Flame]], rookie jungler [[AnDa]], Korean mid laner [[Fly (Song Yong-jun)|Fly]] and support [[Stunt]], with former [[SK Telecom T1]] coach [[Rapidstar]] coming over to coach them. While this roster did have some talent in Flame and Fly, most considered the team likely to place in the lower half of the league. Adding to this already pessimistic outlook, Fly was unable to play for the first three weeks due to visa issues, forcing the team to use academy mid laner [[Keane]] in his place. Despite the substitution, FlyQuest went 2-2 to begin the [[League Championship Series/North America/2018 Season/Spring Season|Spring Season]], including a Week 1 upset of [[TSM]], who had been predicted to be one of the best teams in the league. However, they then dropped to 2-4 going into the second half of the season. Fly's debut perked the team back up to a respectable 4-6 at the end of week 5, but they only managed to win two games the rest of the way, finishing 8th with the exact same record as the previous split. However, one of these victories was a win over [[Cloud9]] in the final game of the regular season that forced them into a four way tiebreaker for playoff seeding, the first time FlyQuest had recorded a match victory over their former parent team.
+
+====Summer Split====
+During the midseason break, [[Fly (Song Yong-jun)|Fly]] and [[Stunt]] left the team and AnDa was demoted to [[FlyQuest Academy]]. Veteran jungler [[Santorin]] and support [[Kwon]] were signed to replace them, with [[Keane]] being promoted from [[FlyQuest Academy]] to become the main team's mid laner. However, these moves seemed ineffective to start, as the team began the [[NA LCS/2018 Season/Summer Season|summer season]] 1-3, so Kwon was also demoted to academy and [[JayJ]] was promoted to take his place. FlyQuest established themselves as a solid middle of the pack team after that, finishing the season 10-8, in a three-way tie for third place. However, they lost to [[100 Thieves]] and [[TSM]] in the tiebreaker matches, dropping them into sixth place, and were immediately swept by 100 Thieves in the [[NA LCS/2018 Season/Summer Playoffs|playoff quarterfinals]], ending their season without enough Championship Points to play in the gauntlet. 
+
+===2019 Season===
+====Spring Split====
+In the off-season, FlyQuest parted ways with [[Flame]] and [[Keane]], replacing them with rookie top lane and former {{ci|Riven}} one-trick [[V1per]] and veteran three-time LCS champion mid laner [[Pobelter]]. Expectations for this new roster were not particularly high, but they got off to a 3-1 start in the [[LCS/2019 Season/Spring Season|LCS 2019 Spring]]. The team cooled off after that, but remained in the top six. In Week 8, they clinched a playoff seed with an upset of first place [[Team Liquid]], then beat [[Golden Guardians]] in a Week 9 tiebreaker to take the fourth seed. This gave them side selection in a rematch against the Guardians in the [[LCS/2019 Season/Spring Playoffs|quarterfinals]], where FlyQuest initially dropped to a 2-1 deficit but came back to take the series in five games on the back of strong play by Pobelter and V1per. Unfortunately, the fun ended there, as they were subsequently swept by eventual champions Team Liquid, finishing fourth due to having a lower regular-season finish than [[Cloud9]]. 
+
+====Summer Split====
+FlyQuest made a single roster move during the midseason break, trading academy mid laner [[Selfie]] to LEC team [[Rogue (European Team)|Rogue]] in exchange for support [[Wadid]], who was expected to replace [[JayJ]]. However, JayJ started the first three weeks of the [[LCS/2019 Season/Summer Season|LCS 2019 Summer]]. This consistency seemed to do nothing, as they went 1-5 over the first three weeks. Wadid was then subbed in and started every remaining game, but although the team would register a 2-0 Week 5, they would never be in serious playoff contention and finished the season in ninth place with a 5-13 record. Their spring performance did still give them a slot in the [[LCS/2019 Season/Regional Finals|Regional Finals]], but they lost 3-1 to [[Clutch Gaming]], ending their season.
+
+===2020 Season===
+====Spring Split====
+For the 2020 season, FlyQuest made changes at mid and support, acquiring [[PowerOfEvil]] and [[IgNar]], who had been teammates on [[Misfits Gaming|Misfits']] surprising [[2017 Season World Championship|2017 Worlds]] run. Bolstered by their new players, the team started the [[LCS/2020 Season|spring season]] strong, and by Week 6 were sitting comfortably in second place, albeit far behind the then-undefeated [[Cloud9]]. However, after a 0-2 Week 7, [[V1per]] was unexpectedly subbed out for [[Solo (Colin Earnest)|Solo]], who had initially joined the team as an assistant coach. The team went 2-1 with their new top laner, but a loss in the final game of the year with V1per playing led to them falling into a three-way tie for second with [[100 Thieves]] and [[Evil Geniuses.NA|Evil Geniuses]]. In the ensuing tiebreaker, FlyQuest was seeded into the lower bracket and lost to [[100 Thieves]], leaving them in fourth place. 
+
+In the playoffs, due to Cloud9 electing to face the third-place 100 Thieves, FlyQuest faced the second-place Evil Geniuses. After losing the first two games with V1per starting, they once again swapped to Solo and kept the series going with a victory in game 3, only to lose game 4, dropping them into the loser's bracket. With elimination on the line, Solo became the starter for good and FlyQuest experienced a sudden resurgence. First, they swept [[Golden Guardians]] 3-0, then outlasted the vaunted [[TSM]] 3-2 to set up a rematch against Evil Geniuses. This time, the series went 3-1 in FlyQuest's favor, sending them to their first LCS finals as an organization. However, they were decisively swept in the finals by Cloud9.
+
+====Summer Split====
+FlyQuest retained their finals roster going into [[LCS/2020_Season/Summer_Season|the summer]], with Solo now the uncontested starter at top. However, after a 1-1 first week, Wildturtle was swapped for [[FlyQuest Academy]] bot laner [[MasH]]. FlyQuest surged after the switch, winning MasH's first three games, but then reversed that by winning only one of the next four. Wildturtle returned for Week 6 with FlyQuest sitting at 5-5 and in a three-way tie for fourth. The team once again shot up the standings after his return, winning their final six games to finish in third place with a 12-6 record.
+
+In the playoffs, FlyQuest was forced to five games by sixth-seeded Evil Geniuses in round 1 despite going up 2-0 in the series, but prevailed in game 5. This sent them to round 2, where they unexpectedly upset Spring champions Cloud9 in four games, qualifying the team for their first-ever [[Worlds]]. FlyQuest defeated first-seed [[Team Liquid]] in another five games series to reach their second straight finals. Facing off against losers' bracket team [[TSM]], FlyQuest came back from a 2-0 deficit to take the series to five games, only to drop the final game and once again finish second. 
+
+====Worlds 2020====
+As North America's second seed, FlyQuest were seeded directly into the [[2020 Season World Championship/Main Event|group stage]], joining Chinese first seed [[Top Esports]], Korean second seed [[DRX]], and play-in team [[Unicorns of Love]]. With this group considered a "group of death", FlyQuest was not expected to make it out, and only managed to beat Unicorns of Love in the first round robin. A loss to DRX in the first game of round 2 eliminated any chance of FlyQuest advancing to the kockout stage, but the team managed to upset Top Esports and defeat Unicorns of Love again to regain a little dignity, finishing 3-3 and in third place.
+
+===2021 Season===
+====Spring Split====
+FlyQuest completely overhauled their roster for 2021, parting ways with their entire 2020 squad. To replace them, they acquired top laner [[Licorice]], mid laner [[Palafox]], and support [[Diamond (David Bérubé)|Diamond]] from Cloud9 as well as signing [[Dignitas]] bot laner [[Johnsun]] and Argentinian jungler [[Josedeodo]], who was coming off of winning a [[LLA]] championship with [[Rainbow7]]. The team's first tournament together was the [[LCS/2021 Season/Lock In|LCS 2021 Lock In]], where they went 2-2 in the group stage, but was swept by Team Liquid in the knockout stage. 
+
+Despite the previous success of several of their new players in lower-level tournaments, the [[LCS/2021 Season/Spring Season|spring split]] proved to be a disappointment for FlyQuest. They were consistently below-average, going 1-2 every week for all six weeks of the season, and never managing to win multiple games in a row. With the team never realistically in the playoff picture, they finished 6-12 and in eighth place. 
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayer||us|Vincent Viola|'''Owner'''}}
+{{listplayer|PapaSmithy|au|Christopher Smith|'''President & Chief Gaming Officer'''}}
+{{listplayersp|Wrongbutton|us|Brian Anderson|'''Chief Executive Officer'''}}
+{{listplayersp|missharvey|ca|Stephanie Harvey|'''Chief Culture Officer'''}}
+{{listplayersp||us|Olivia Gastaldo |'''Director of Content'''}}
+{{listplayersp|thundoerfist||Marc Urbino|'''Vice President of Creative & Marketing'''}}
+{{listplayersp|pewpewu||Kevin Toy|'''Esports Project Manager'''}}
+{{listplayersp|parkmom|us|Parker Cox|'''Social Media Manager'''}}
+{{listplayersp|shotlon|us|Austin|'''Social Media Manager'''}}
+{{listplayersp|seashells|us|Shelly Phu|'''Design Lead'''}}
+{{listplayersp|dunnige|us|Kyler|'''Creative Producer'''}}
+{{listplayersp|Andy Barton|us|Andrew Barton|'''General Manager'''}}
+{{listplayersp|Bloo|us|Thanh Tu|'''Team Manager'''}}
+{{listplayersp|Sygh|us|Joseph Pomroy|'''Lead Analyst'''}}
+{{listplayersp|Empyre|kw|Naser Al-Naqi|'''Director of Scouting'''}}
+{{listplayer|Thinkcard|us|Thomas Slotkin|'''Head Coach'''}}
+{{listplayer|Apollo (Apollo Price)|us|Apollo Price|'''Assistant Coach'''}}
+{{listplayer|LS|us|Nick De Cesare|'''Strategic Consultant'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Arrow|kr|Noh Dong-hyeon (노동현)|'''Assistant Coach'''|newteam=C9}}
+{{listplayer|Nukeduck|no|Erlend Våtevik Holm|'''Head Coach'''|newteam=HRTS}}
+{{listplayer|Mithy|es|Alfonso Aguirre Rodríguez|'''Assistant Coach'''|newteam=HRTS}}
+{{listplayersp|numiii|us|Angie Phan|'''Marketing Manager'''|newteam=none}}<!--Oct 2025-->
+{{listplayer|Damonte|us|Tanner Damonte|'''Esports Performance Coordinator'''|newteam=SPR}}
+{{listplayersp|||Danielle Fox|'''Director of Marketing'''|newteam=none}}<!--Nov 2024-->
+{{listplayer|Spica|cn|Mingyi Lu|'''Content Creator'''|newteam=D}}
+{{listplayer|Richard|au|Richard Su|'''Strategic Coach'''|newteam=none}}
+{{listplayersp||us|Wesley Robert Edens|'''Owner & Co-Founder'''|newteam=none}}
+{{listplayersp||us|Ryan Edens|'''President'''|newteam=Retired|comment=New York Legal Assistance Group}}
+{{listplayersp|DotAGenius||Michael Choi|'''Chief Executive Officer'''|newteam=C9}}
+{{listplayersp|Tricky||Ricardo Gonzalez|'''VP of Content'''|newteam=Retired|comment=Loaded}}
+{{listplayersp|||Daniel Yoo|'''Marketing Director'''|newteam=none}}
+{{listplayersp|Mockingbird|cl|Massy Vilches|'''Social Media Manager'''|newteam=none}}
+{{listplayersp|ZakDrec|ca|Zakary Inzirillo|'''Community Manager'''|newteam=Retired|comment=Gamers OutreachGamers}}
+{{listplayersp|Majora|us|Jonathan Barajas|'''Office Administrator'''|newteam=Retired|comment=Blizzard Entertainment}}
+{{listplayersp|phien_machine||Phien Thi Le|'''Designer'''|newteam=C9}}
+{{listplayersp||cn|Rocky Jo|'''Head of Content'''|newteam=none}}
+{{listplayer|Ovilee May|us|Ovilee May|'''Content Creator'''|newteam=none}}
+{{listplayersp|Graynomic||Jeffrey Hoang|'''Team Manager'''|newteam=Retired}}
+{{listplayersp|Montagne|uk|Samuel Hine|'''Data Analyst'''|newteam=Retired}}
+{{listplayer|Sharkz|by|Alexey Taranda|'''Head of Coaching'''|newteam=IMT}}
+{{listplayersp|Loyota|us|Brendan Schilling|'''Head of Scouting'''|newteam=IMT}}
+{{listplayer|Ssong|kr|Kim Sang-soo (김상수)|'''Head Coach'''|newteam=Dplus}}
+{{listplayersp|Swaguhsaurus|us|Nicholas Phan|'''General Manager'''|newteam=Retired}}
+{{listplayersp|megumixbear||Tricia Sugita|'''Chief Executive Officer'''|newteam=C9}}
+{{listplayersp|Kachelle|us|Karen Busenlehner|'''Brand Manager'''|newteam=retired|comment=Turtle Beach}}
+{{listplayer|Kanani|dz|Lamine-Lounis Khouani|'''Head Coach'''|newteam=Berlin International Gaming}}
+{{listplayer|Voyboy|us|Joedat Esfahani|'''Streamer'''|newteam=Retired}}
+{{listplayer|DLim|ca|David Lim|'''Head Coach'''|newteam=Riot}}
+{{listplayer|Curry|us|Anand Agarwal|'''Assistant Coach'''|newteam=TSM}}
+{{listplayersp|thestevesquatcH|us|Stephen Csikos|'''Director of Partnerships'''|newteam=Retired}}
+{{listplayersp|Matt|us|Matthew Akhavan-Kim|'''Assistant General Manager'''|newteam=Retired}}
+{{listplayersp|RachQuit|us|Rachael Barisich|'''Marketing Manager'''|newteam=Retired}}
+{{listplayersp|Steve|us|Steve Forton|'''Marketing Manager'''|newteam=Retired}}
+{{listplayer|Solo|link=Solo (Colin Earnest)|us|Colin Earnest|'''Assistant Coach'''|newteam=FLY|comment=[[File:TopLanePick.png|19px|link=]] Top}}
+{{listplayer|Cop|us|David Roberson|'''Strategic Coach'''|newteam=FQA}}
+{{listplayersp||us|Glenn Thomakos|'''Analyst'''|newteam=GGS}}
+{{listplayersp||us|Andrew Epstein|'''Project Manager & Team Manager'''|newteam=Retired}}
+{{listplayer|Invert|ca|Gabriel Zoltan-Johan|'''Head Coach'''|newteam=dig}}
+{{listplayersp|||John Giarratana|'''Account Manager'''|newteam=Retired}}
+{{listplayersp|christianbegor|us|Christian Hubbard|'''Social Media Manager'''|newteam=Retired}}
+{{listplayersp||us|Scott Pogrow|'''Director of Business Development'''|newteam=Retired}}
+{{listplayer|Saintvicious|us|Brandon DiMarco|'''Strategic Coach'''|newteam=TL|comment=Teamfight Tactics}}
+{{listplayer|Robert Yip|ie|Robert Yip|'''Head Coach'''|newteam=MSF}}
+{{listplayersp||us|Ryan Dow|'''Director of Partnerships'''|newteam=Retired}}
+{{listplayer|RapidStar|kr|Jung Min-sung (정민성)|'''Strategic Coach'''|newteam=C9}}
+{{listplayersp|Minsoo||Joshua Kim|'''Team Manager'''|newteam=Retired}}
+{{listplayersp|Lufty|us|Nicholas Luft|'''Assistant Coach'''|newteam=Retired}}
+{{listplayersp|Graynomic||Jeffrey Hoang|'''Team Manager'''|newteam=FlyQuest|comment=Community Manager}}
+{{listplayer|Thinkcard|us|Thomas Slotkin|'''Head Coach'''|newteam=Echo Fox}}
+{{listplayer|Hermes|link=Hermes (David Tu)|us|David Tu|'''Coach'''|newteam=TSM Academy}}
+{{listplayersp||us|Chase Geddes|'''Data Analyst'''|newteam=Retired}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+FlyQuest logo (Jun 2017 - Nov 2017).png|FLY Logo<br>(Jun 2017 - Nov 2017)
+FlyQuest logo (Nov 2017 - May 2021).png|FLY Logo<br>(Nov 2017 - May 2021)
+</gallery>
+
+===Rosters===
+<gallery>
+FLY 2017 Spring.png|FlyQuest 2017 LCS Spring Roster
+FlyQuest Roster 2018 Spring.png|FlyQuest 2018 LCS Spring Roster with Keane subbing for Fly
+FlyQuest Roster 2018 Spring 1.png|FlyQuest 2018 LCS Spring Roster Week 2 with Shrimp and Keane
+FlyQuest 2019 LCS Spring Roster.jpg|FlyQuest 2019 LCS Spring Roster
+2020 FLY Spring.png|FlyQuest's 2020 LCS Spring Roster
+FlyQuest 2025 Split 1.jpeg|FlyQuest 2025 LTA North Split 1
+FlyQuest 2026 LCS Season.jpg|FlyQuest 2026 LCS Season
+</gallery>
+
+==References==
+<references />

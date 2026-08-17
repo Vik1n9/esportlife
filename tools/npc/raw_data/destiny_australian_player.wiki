@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Destiny%20(Mitchell%20Shaw)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.102Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Destiny (Australian player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=destiny
+|name=Mitchell Shaw
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Australia
+|residency=PCS
+|birth_date_year=1997
+|birth_date_month=October
+|birth_date_day=27
+|favchamp=Thresh
+|favchamp2=Nidalee
+|favchamp3=Lee Sin
+|checkbox1=No
+|checkboxComp=No
+|ids='''NA:''' IMT Destiny<br>'''OCE:''' Av Destiny PLT<br>hi im rain<br>'''EUW:''' hello ma friend<br>supk1ng2<br>destiny999<br>destiny7<br>OG Destinyy<br>OG Destlny
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/destinyoce
+|facebook=https://www.facebook.com/DestinyLivestream
+|twitter=Destinyy
+|instagram=dest1nyoce
+|askfm=destinyoce
+|reddit=http://www.reddit.com/user/xDestinyyX/
+|videoarchive=[https://www.youtube.com/channel/UC8yYaLcD9XJml09gY447RzA YouTube]
+|lolpros=https://lolpros.gg/player/destiny-1/
+|deeplol=https://www.deeplol.gg/pro/Destiny-Mitchell_Shaw
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|nicknames=DestinyX, YOUNG THUG SHAW
+}}
+==Biography==
+=== 2015 Season ===
+Mitchell "'''Destiny'''" Shaw first placed in the Oceanic Pro League in [[OPL/2015 Season/Split 1|2015 Split 1]] with [[Rich Gang]]. After the team was [[List of Competitive Rulings|banned from competitive play]], Destiny joined [[Avant Garde]] in April 2015. They placed fourth in the [[OPL/2015 Season/Split 2|second split]] and tied for third in the [[OPL/2015 Season/Split 2 Playoffs|playoffs]].
+=== 2016 Season ===
+Destiny remained a part of Avant Garde for the 2016 season but switched roles from support to AD carry, with [[Blindturkey]] replacing him as support.
+=== 2018 Season ===
+Destiny Signed on to the Chiefs Esports Club for the 2018 Season as their Support.
+
+== Trivia ==
+* Loves watching anime.
+* Early gamertags he used included "DyNaMiC-Mitch" and "ShadowMitch."
+* First Australian and Oceania resident to play in the LEC. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

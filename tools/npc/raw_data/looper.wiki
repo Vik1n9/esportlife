@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Looper&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:15.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Looper」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Looper
+|name=Jang Hyeong-seok
+|nativename=장형석
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1993
+|birth_date_month=February
+|birth_date_day=28
+|favchamp=Singed
+|favchamp2=Kennen
+|favchamp3=Zac
+|favchamp4=Ryze
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/930228
+|twitter=Fox_Looper
+|weibo=https://www.weibo.com/u/7361264661
+|deeplol=https://www.deeplol.gg/pro/Looper
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+===Season 3===
+Jang "'''Looper'''" Hyeong-seok joined [[MVP Ozone]] as a substitute for [[Homme]] in June of 2013. The team renamed themselves to [[Samsung Galaxy Ozone]] shortly after qualifying for the [[Season 3 World Championship]]. It was here that Looper made his competitive debut, impressing many with his favorite champion, {{ci|singed}}. Ozone tied [[Gambit Gaming]] for second in the group at 5-3 but they ended up losing the tiebreaker and missing the bracket stage. 
+
+===2014 Season===
+Looper and Ozone played in [[PANDORA.TV Champions Winter 2013-2014]] and made it all the way to the finals but were swept 3-0 by the undefeated [[SK Telecom T1 K]]. A few months later, they made it to the semifinals of [[HOT6iX Champions Spring 2014]] but were upset by their sister team, [[Samsung Galaxy Blue]]. Ozone still placed third by beating [[CJ Entus Blaze]] 3-2 in the third place match. On June 11, Ozone renamed to Samsung Galaxy White. White performed similarly at [[HOT6iX Champions Summer 2014]], losing 3-1 to Blue in the semifinals but beating [[SK Telecom T1 S]] 3-0 to end in third place. White was forced to play a circuit point tie breaker at the [[2014 Season Korea Regional Finals]] against SKT K to decide who would automatically qualify for the [[2014 Season World Championship]]. White dominated K, taking the series 3-0 to take their rightful place at Worlds. White was a huge favorite to win the tournament going into it and they didn't disappoint, only losing two games in the tournament and beating [[Star Horn Royal Club]] 3-1 in the finals to become the new world champions. On November 17, 2014, it was officially announced that all remaining members of Samsung White and Samsung Blue had left the organization.<ref>[http://www.inven.co.kr/webzine/news/?news=121982&iskin=esports&game=13682014년 지배한 삼성 화이트-블루, 10명 모두 떠났다. (Korean)] ''inven.co.kr''</ref> Along with [[dade]], Looper joined [[Team WE Academy]] on December 6, 2014.<ref>[http://t.qq.com/p/t/470621123161367 Team WE's tencent weibo post(Chinese)] ''Tencent Weibo''</ref> LPL rules forced WE Academy to split from the [[Team WE]] organization to form [[Masters 3]].
+
+===2015 Season===
+M3 competed in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] and made it to the quarterfinals but they lost 3-0 to [[EDward Gaming]]. A few weeks later they ended in ninth place for the [[2015 LPL/Spring/Regular Season|2015 LPL Spring Regular Season]], missing playoffs. M3 were forced to play in the [[2015 LPL/Summer/Promotion|2015 LPL Summer Promotion]] where they requalified after beating [[Energy Pacemaker]] 3-0 in the semifinals. They participated in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]], this time losing 3-0 in the round of 16 to Team WE. During the [[2015 LPL/Summer/Regular Season|2015 LPL Summer Regular Season]], M3 placed eighth and qualified for the [[2015 LPL/Summer/Playoffs|2015 LPL Summer Playoffs]] but then lost in the first round 3-0 to [[OMG]].
+
+===2016 Season===
+Looper left M3 to join [[Royal Never Give Up]] in December of 2015. Royal Never Give Up were invited to [[IEM Season X - World Championship|IEM Katowice]] in March 2016 where they finished first in their group beating both [[Origen]] and [[ESC Ever|Ever]]. However, they were defeated 1 - 2 by [[Fnatic]] in the playoffs bracket, placing third along with [[Team Solo Mid]]. Despite the team’s growing pains, RNG asserted itself as a dominant force in China, winning the 2016 LPL spring split and finishing second during the summer. The team qualified to the World Championship and fell to [[SK Telecom T1]] in the quarterfinals 3-1. After his contract ended, he left RNG to join [[Echo Fox]].
+
+===2017 Season===
+Looper had a disappointing performance on Echo Fox, as the team finished with back-to-back eight-place finishes in the spring and summer splits with Looper having a 2.56 KDA during the spring split, and a 1.92 KDA during the summer split. Shortly after the summer split, Echo Fox's contract ended with Looper and Looper decided to retire to focus on his studies.
+
+== Trivia ==
+* His ID '''Looper''' is from the movie ''[[wikipedia:en:Looper_(film)|Looper]]''.
+* Subbed in for [[Homme]] during the [[Season 3 World Championship]].
+* Gained popularity for his {{ci|Singed}} plays.
+* Often praised for his [[Teleport]] plays.
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

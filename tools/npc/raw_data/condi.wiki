@@ -1,0 +1,76 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Condi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:49.331Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Condi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Condi
+|name=Xiang Ren-Jie
+|nativename=向人杰
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1996
+|birth_date_month=November
+|birth_date_day=07
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|weibo=https://weibo.com/u/5643539654
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+===2015 Season===
+
+Condi joined [[Master3]] in February of 2015. The team was in the Top 8 for the majority of the [[2015_LPL/Spring/Regular_Season|2015 LPL Spring Season]] but [[Team WE]] was able to surpass them at the end of the split and M3 was unable to attend playoffs. The team managed to place 8th in the [[2015_LPL/Summer/Regular_Season|2015 LPL Summer Season]] and qualified for playoffs but got swept 0-3 by [[OMG]] in the first round. At [[NEST 2015]], M3 placed 5th-8th and soon after Condi left the team in December. He joined [[Team WE]] soon after.
+
+===2016 Season===
+
+In the 2016 Season after they re-vamped their entire roster, Team WE entered the [[LPL/2016_Season/Spring_Season|2016 LPL Spring Season]] as underdogs but proved to be contenders for the title and finished 2nd with a 10-6 regular season record. Going into the Playoffs, the team defeated [[Vici Gaming]] 3-1 and despite losing to [[Royal Never Give Up]] 2-3 in the Semifinals the team finished in 3rd after they took down [[Qiao Gu Reapers]] in the third-place match. Summer was slightly more successful for Team WE as the team finished 2nd in their group. In the playoffs they finished 4th after a 1-3 loss to [[I May]]. Ultimately it was I May that ended up being Team WE's downfall. They lost an incredibly close series 2-3 to I May in the Regional Qualifiers. This unfortunately meant that they didn't qualify for Worlds.
+
+===2017 Season===
+
+The 2017 Season was much more successful for Team WE. They finished the [[LPL/2017_Season/Spring_Season|2017 LPL Spring Season]] in 2nd place with a 10-6 record. In the [[LPL/2017_Season/Spring_Playoffs|2017 LPL Spring Playoffs]] Team WE was able win their first LPL title after taking down RNG 3-0 in the finals. Condi also gained a reputation as the "Son of Baron" for his impressive Baron steals. Team WE attended the [[2017 Mid-Season Invitational]] and made it through the group stage after they finished 2nd with a 7-3 record. In the Semifinals they were eliminated after a 1-3 loss to [[G2 Esports]]. Summer wasn't as successful for WE domestically. They were unable to defend their LPL title after they finished 2nd in their regular season group and lost 2-3 to Invictus Gaming in the third place match of the playoffs. They got their revenge against Invictus Gaming later on after they defeated them 3-2 in the [[2017 Season China Regional Finals]]. Their run at the [[2017 Season World Championship]] was quite impressive. Despite starting off in the [[2017_Season_World_Championship/Play-In|Play-In stage]], they advanced to the main groups with a 3-0 win over [[Young Generation]]. They also finished 1st in their main stage group with a 5-1 record. After they took down [[Cloud9]] 3-2 in the Quarterfinals, they faced off against eventual tournament winners [[Samsung Galaxy]] and lost 1-3.
+
+===2019 Season===
+On June 18, Condi was suspended for 18 competitive months for match-fixing.<ref>[https://www.weibo.com/ttarticle/p/show?id=2309404384563257279173#_0 关于对LGD及其预备队伍部分成员的处罚决定 (Chinese)] ''weibo.com''</ref> Shortly after his suspension, he announced his retirement from competitive play.
+
+== Trivia ==
+* Known for stealing Dragons and Barons, thus earning him the nickname '''龙之子''' (Dragon's Son).
+* Was the MVP of [[LPL/2017 Season/Spring Playoffs|LPL 2017 Spring]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

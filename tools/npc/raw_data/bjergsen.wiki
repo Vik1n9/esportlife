@@ -1,0 +1,144 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bjergsen&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.139Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bjergsen」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Bjergsen
+|name=Søren Bjerg
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=North America
+|birth_date_year=1996
+|birth_date_month=February
+|birth_date_day=21
+|favchamp=Azir
+|favchamp2=Zilean
+|favchamp3=LeBlanc
+|favchamp4=Syndra
+|checkbox1=Yes
+|favchamp5=Ahri
+|favchamp6=Vel'Koz
+|favchamp7=Diana
+|checkboxComp=Yes
+|ids='''NA:''' 100T Bjergsen, FA Bjergsen, TSM qldurtms, QjlahHDSt6, Varmerop, Overgang<br>'''KR:''' hope she notices, 레지날드 제자, TSM중단비역슨<br>'''BR:''' MSI Bjergsen<br>'''CN:''' 时光和掌控者
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/bjergsenlol
+|facebook=https://www.facebook.com/Bjergsen
+|twitter=bjergsen
+|instagram=Bjergsen
+|reddit=XLBjergsen
+|youtube=https://youtube.com/user/BjergsenLoL
+|sponsor=Red Bull
+|tiktok=bjergsenlol
+|deeplol=https://www.deeplol.gg/pro/Bjergsen
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Europe
+}}
+==Biography==
+Bjergsen was born in Denmark and grew up in the small town of Mejdal. He suffered from asthma, which prevented him from pursuing early dreams of a sports career. Frequently bullied at school, he dropped out when he was 14. Soon after, he began playing ''League of Legends'' and quickly established himself as a top talent in the early years of the competitive scene.
+
+===2013 Season===
+At 16, Bjergsen was contracted to [[Copenhagen Wolves]], a team that soon qualified for the inaugural split of the European LCS. For the first two weeks of the [[EU LCS 2013 Spring|spring split]], he was too young to compete and was replaced by [[cowTard]]. The team failed to win a single game during this period. Upon turning 17, Bjergsen rejoined the roster. The team continued to lose every game until week 4, when Bjergsen scored a pentakill as [[Syndra]] to secure the victory against [[Against All Authority]]. Afterward, the team won consistently and climbed to a 5th place regular season finish. After an early playoffs exit, the team requalified for their spot by defeating [[Samurai in Jeans]]. Prior to the summer split, the roster was acquired by [[Ninjas in Pyjamas]]. On NIP, Bjergsen again finished 5th in the regular season and exited playoffs early.
+
+===2014 Season===
+In November 2013, Bjergsen moved to North America to join [[TSM]], replacing the team's founder [[Reginald]]. He was the second import to play in the region and debuted for the team at the [[Battle of the Atlantic 2013|Battle of the Atlantic]]. On January 23, 2014, Bjergsen received a competitive ruling for having violated the LCS rules by approaching and encouraging a contracted LCS player to leave his position at [[Lemondogs]]. He admitted to having committed the violation and was fined $2,000.<ref>[http://forums.euw.leagueoflegends.com/board/showthread.php?p=14674717#post14674717 Esports Competition Ruling: Fining of Bjergsen] ''forums.euw.leagueoflegends.com''</ref>
+
+On the fan favorite TSM, Bjergsen immediately became a star. He won the weekly MVP award for the first two weeks of the [[NA LCS 2014 Spring|spring split]] and led the team to a 22-6 regular season record. After slumping near the end of the split, TSM was almost eliminated early in playoffs by its longtime rival [[CLG]], but Bjergsen scored a pentakill on [[Karma]] to help win the series. In the finals, the team was quickly defeated by [[Cloud9]], which led to the mid-season retirement of [[TheOddOne]] and the replacement of [[Xpecial]] with rookie [[Gleeb]]. TSM initially struggled in summer, but after Gleeb was replaced by Korean import [[Lustboy]], the team rebounded. After multiple close series that went to the maximum number of games, TSM bested C9 in the finals and Bjergsen was named the playoffs MVP. At [[Worlds 2014]], TSM placed second in its group and advanced to playoffs, where they were eliminated in the quarterfinals by eventual champions [[Samsung White]].
+
+===2015 Season===
+With the addition of rookie European import [[Santorin]] to the roster, TSM came off to a dominant start in 2015. By the fifth week of the split, they held first place, which earned them an invitation to the [[IEM Season IX - World Championship|IEM Season IX World Championship]]. There, they defeated [[CJ Entus]], [[yoe Flash Wolves]], and [[Team WE]] to win the tournament, marking the first time that a North American team had won an international event with a Korean team present since the [[2011 World Cyber Games]]. Bjergsen was named the MVP of the event.
+
+After returning to North America, TSM finished the regular season in 1st place. Bjergsen was named the split MVP. In playoffs, the team easily defeated its opponents to win the split; Bjergsen was named the finals MVP and cemented his status as the region's best player at the time. The IEM win led many analysts to predict TSM would do well at [[MSI 2015]], but the team underperformed heavily, beating only the Turkish team [[Beşiktaş e-Sports Club|Beşiktaş]]. TSM struggled in the back half of the summer split, finishing the regular season in 5th place. In playoffs, the team managed to upset [[Team Liquid]] thanks to Bjergsen's performance, but lost to CLG in the finals. At [[Worlds 2015]], TSM were drawn into Group D, which many commentators described as a "Group of Death" due to the presence of [[LGD Gaming]], [[KT Rolster]], and [[Origen]]. TSM won only a single game in the group, despite Bjergsen's strong performance. Commentators joked that TSM was "Bjergsen and four wards" because his teammates were only as useful as wards.
+
+===2016 Season===
+TSM underwent a massive roster overhaul coming into the 2016 season; only Bjergsen remained from the previous year's roster. The addition of [[Hauntzer]], [[Svenskeren]], [[Doublelift]], and [[Yellowstar]] led many to label TSM as a super team, but the team did not perform well at the beginning of the spring split and finished with a 9-9 record. In playoffs, the team finally found its form and upset C9 and [[Immortals]] before losing to CLG once again in the finals. Between splits, Yellowstar was replaced by rookie [[Biofrost]]. In summer, TSM began its most dominant streak in franchise history and went 17-1 in the regular season. Bjergsen won his second split MVP award, followed soon after by his third LCS championship when TSM defeated C9 3-1 in the finals. TSM and especially Bjergsen were viewed as serious contenders going into [[Worlds 2016]], but the team was once again drawn into a difficult group. Competing against [[Samsung Galaxy]] and [[Royal Never Give Up]], TSM went 3-3 in groups and was eliminated due to losing the tiebreaker head-to-head.
+
+===2017 Season===
+TSM continued its domestic success in 2017, but international success continued to elude Bjergsen. In spring, Bjergsen and Hauntzer led TSM to a first place finish in both the regular season and playoffs, securing Bjergsen's fourth LCS championship. At [[MSI 2017]], the team finished 5th, struggling against [[Flash Wolves]] and even the Vietnamese team [[GIGABYTE Marines]]. In summer, TSM was not as dominant as it once had been, but still managed to finish 1st in the regular season and win Bjergsen's fifth LCS championship. Bjergsen was named the split MVP for the third time. For the first time since Bjergsen joined TSM, the team got an easy group draw, facing off against Flash Wolves, [[Misfits Gaming]], and [[Team WE]]. Despite the low-ranked opponents, TSM struggled in the second week of groups and lost a tiebreaker against Misfits to be eliminated.
+
+===2018 Season===
+By now, domestic success was taken as a given for Bjergsen, and TSM once more made significant changes to its roster in pursuit of international glory. Retaining only Hauntzer and Bjergsen from the previous roster, TSM recruited rookie sensation [[MikeYeung]] and European bot lane [[Zven]] and [[Mithy]]. Despite high expectations and even a six-game winning streak to end the regular season, TSM was shockingly upset in the first round of playoffs by new team [[Clutch Gaming]], mainly due to underperformance by the three new players. MikeYeung was replaced by another unproven jungler, [[Grig]], and the team continued to find only middling success in summer. For the first time in franchise history, TSM failed to qualify for Worlds.
+
+===2019 Season===
+Bjergsen seemed to return to form in spring. Despite a roster of relative unknowns like [[Broken Blade]] or struggling veterans like [[Akaadian]] and [[Smoothie]], Bjergsen managed to carry the team to the LCS finals after spearheading a reverse sweep against C9 with a dominant [[Akali]] performance. However, TSM was themselves reverse swept in the finals after Zven made an extremely costly positioning error. In summer, TSM split time between junglers Akaadian and Grig to the detriment of both players and by the end of the split began starting rookie jungler [[Spica]]; these struggles led to TSM missing yet another Worlds.
+
+===2020 Season===
+The struggles continued in 2020. By now, TSM's roster had become a revolving door of players around Bjergsen; new additions [[Dardoch]] and [[Kobbe]] failed to impress and the team had an unremarkable, mediocre spring split. However, in summer the team made drastic changes, adding Spica back at Bjergsen's request and recruiting Doublelift to return. TSM struggled during the regular season despite Bjergsen's strong individual performance, where he was voted runner-up split MVP. In the first round of playoffs, TSM was upset by [[Golden Guardians]], but the new playoffs format meant they were not eliminated. In the loser's bracket, TSM managed to beat opponent after opponent, often in dramatic reverse sweeps led by phenomenal performances by Bjergsen. Despite being target banned as many as 22 out of 25 times across an entire series, Bjergsen was named the MVP of each of TSM's five playoffs victories, culminating in a finals MVP performance against [[FlyQuest]] to earn Bjergsen's sixth LCS championship. The Cinderella run ended at [[Worlds 2020]], where TSM lost all six games it played and was eliminated in groups.
+
+===2021 Season===
+After eight years of competitive play and six championships, Bjergsen announced his decision to retire. He became the head coach of TSM and led a new roster from the sidelines. TSM spent big to procure talents like [[Huni]] and [[SwordArt]], but the team was a mediocre performer across the season. Episodes of [[TSM: Legends]] often showed Bjergsen failing to motivate his team to practice more; at one point, Bjergsen told the players that despite being coach he was playing more solo queue games than many of them. In summer playoffs, the team finished 4th, once again failing to qualify for Worlds.
+
+===2022 Season===
+Having reignited his competitive itch, Bjergsen sought to come out of retirement and return to pro play. However, TSM was no longer able to put together a competitive enough roster. Seeking to play with star support [[CoreJJ]], Bjergsen joined Team Liquid, which was assembling a super team that included European stars [[Bwipo]] and [[Hans sama]]. Despite predictions of success, the team never lived up to its super team status. Bjergsen performed well statistically, but was often unable to influence floundering side lanes in order to secure victory. After a 3rd place finish in spring and a disastrous 4th place finish in summer, the team missed Worlds entirely.
+
+===2023 Season===
+Bjergsen left TL and joined [[100 Thieves]], reuniting with Doublelift once more on a roster that also included [[Closer (Can Çelik)|Closer]] and rookies [[Tenacity]] and [[Busio]].
+
+== Trivia ==
+* Known for his {{ci|Syndra}}, even playing her during periods when she was not considered meta.
+* Known later in his career for his pocket pick {{ci|Zilean}}.
+** His proficiency on Zilean has led to his nickname "Timelord."
+* His favorite food is lasagna.
+* Has a dog named [http://i.imgur.com/FKYsw37.jpg Ozzy].
+* Hates {{ci|Shaco}} more than any other champ in the game.
+* Subbed for TSM in a few online tournaments during [[Reginald]]'s surgery.
+* Had two Challenger accounts on the NA server within two weeks of joining TSM.
+* Won the 1v1 tournament at [[All-Star Los Angeles 2015]], defeating (in order) [[Smurf (Dmitri Ivanov)|Smurf]], [[Kira]] (the [[International Wildcard All-Star Melbourne 2015|IWCA Melbourne]] 1v1 winner), [[Clearlove]], [[PraY]], and [[Doublelift]].
+* Leveled up abilities using his mouse when he first entered the pro scene.<ref>[http://twitter.com/Bjergsen/status/762877772830093312 Søren Bjerg's Tweet] ''twitter.com''</ref>
+* Frequently compared to [[Jensen]] after he joined the NA LCS, due to them both being Danish, playing the same position, and spending the majority of their careers in North America. 
+** Typically posted better results than Jensen domestically, but was outdone by him internationally. 
+* With the exception of six games played by [[Reginald]] in the [[NA LCS/2014 Season/Spring Season|2014 Spring Split]], Bjergsen played every game in a major tournament for TSM over his seven years with the team. 
+* Known in China as "孤儿院院长" and "神带四眼," which translate to "Principal of the Orphanage" and "A God with four wards" respectively due to the perception that he is the one to carry his team.<ref>[https://youtu.be/o7JxsPe0x3o Chinese nicknames for Western LOL pro players] ''youtube.com''</ref>
+* Absorbed 22 out of 25 bans in a series versus [[Golden Guardians]] in the [[LCS/2020 Season/Summer Playoffs|LCS 2020 Summer Playoffs]]. He still found success and was awarded Player of the Series.<ref>[https://twitter.com/LCSOfficial/status/1297696699259875329 LCS' Tweet] ''twitter.com''</ref>
+=== Statistics ===
+* Was at one point Riot's youngest featured streamer.<ref>[http://forums.euw.leagueoflegends.com/board/showthread.php?t=1034725 New Featured Streamer: Bjergsen] ''forums.euw.leagueoflegends.com''</ref>
+* First reached Challenger in EUW on October 31, 2013.
+* Scored the first ever pentakill in the EU LCS on {{ci|Syndra}}; this was also the first game that the [[Copenhagen Wolves]] won.
+* Was the second player move from the EU LCS to the NA LCS (the first being [[Edward]]) and the first European player to become a star in North America.
+** He, [[Amazing (Maurice Stückenschneider)|Amazing]], and [[Lustboy]] were the first import players to win an NA LCS title. 
+* Recorded 70,000 viewers on his first stream after joining TSM.
+* Reached 1,000 Kills in the NA LCS on July 23, 2017.
+** The 4th player to reach 1,000 Kills in the LCS, after [[Doublelift]], [[WildTurtle]], and [[Sneaky]].
+** His 1,000th kill was on [[Echo Fox]]'s AD Carry [[Mash]] in the [[NA LCS 2017 Summer|NA LCS 2017 Summer Season]] with {{ci|Taliyah}}.
+* One of two players to record a pentakill in both the EU and NA LCS, along with his former [[TSM]] teammate [[Zven]].
+=== Individual Awards ===
+* LCS Most Valuable Player x3 (2015 Spring, 2016 Summer, 2017 Summer)
+* LCS 1st All-Pro Team x6 (2016 Summer, 2017 Spring, 2018 Spring, 2019 Spring, 2020 Summer, 2022 Spring)
+* LCS 2nd All-Pro Team x3 (2015 Summer, 2017 Summer, 2022 Summer)
+* LCS 3rd All-Pro Team x3 (2016 Spring, 2018 Summer, 2019 Summer)
+* LCS All-Star x4 (2014, 2015, 2016, 2017)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,66 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20oNe%20eSports&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.060Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team oNe eSports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Los Grandes
+|name= Team oNe eSports
+|orgcountry= Brazil
+|country=
+|region=Brazil
+|image=Team oNe eSportslogo square.png
+|owner= 
+|headcoach=
+|coach= 
+|manager= 
+|captain= 
+|website= https://www.teamoneesports.com.br
+|youtube=
+|facebook=https://www.facebook.com/teamoneesports
+|twitter= teamoneesports
+|instagram=teamoneesports
+|sponsor= [http://www.dell.com/en-us/gaming/alienware Alienware]<br>[https://www.hyperxgaming.com/ HyperX]<br>[https://www.intel.com.br/content/www/br/pt/homepage.html/ Intel]<br>[https://www.twitch.tv/ Twitch]<br>[https://www.dxracerbrasil.com.br/ DXRacer]
+|created= LoL Division 2017-04-28
+|trades= 
+|otherwikis=siege,fortnite
+}}{{TOCRWI}}
+
+'''Team oNe eSports''' was a Brazilian multi-gaming organization.
+
+== History ==
+'''Team oNe''' was an organization famous for its ''Counter-Strike:Global Offensive'' teams, and joined the ''League of Legends'' scene in April 2017, by acquiring the roster and CBLOL spot of [[INTZ.Genesis]]. The team's brand was merged with [[Los Grandes]] after being purchased in September 2022. <ref>[https://forbes.com.br/forbes-tech/2022/09/los-grandes-compra-team-one-e-cria-organizacao-de-r-134-milhoes Los Grandes buys Team oNe and created a organization worth R$ 134 million] ''https://forbes.com.br''</ref> 
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+=== Current ===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|kakavel|br|Alexandre Peres|'''Owner'''}}
+{{listplayersp|Buzz|br|Bruno Rodrigues|'''COO'''}}
+{{listplayer/End}}
+
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Neki|br|Vinícius Ghilardi|'''Head Coach'''|newteam=LEV}}
+{{listplayer|Snowlz|br|Guilherme Neves|'''Coach'''|newteam=Flamengo Academy}}
+{{listplayer|Loreviz|br|Gabriel Loureiro|'''Analyst'''|newteam=LOUD Academy}}
+{{listplayer|Spale|rs|Đorđe Spasić|'''Head Coach'''|newteam=ELITE}}
+{{listplayersp|Buzz|br|Bruno Rodrigues|'''Manager'''|newteam=ONE|comment=COO}}
+{{listplayer|Jukaah|br|Ednilson Vargas|'''Head of LoL'''|newteam=Falkol}}
+{{listplayersp|Necro|br|Guilherme da Silva|'''Analyst'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+=== Images ===
+=== References ===
+<references />

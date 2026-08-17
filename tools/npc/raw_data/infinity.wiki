@@ -1,0 +1,181 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=INFINITY&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:31.644Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=yes
+|name= INFINITY
+|orgcountry= Costa Rica
+|region=Americas
+|owner= Paul "'''Monrrow'''" Venegas <br> Diego Gonzalo Foresi <br> Damián Szafirsztein <br> Nicolás Lescano
+|headcoach= 
+|website= https://infinityesportslatam.com
+|stream=https://www.twitch.tv/infinitylatam
+|twitter= InFinitye_sport
+|facebook= https://www.facebook.com/InfinityLatam
+|youtube= https://www.youtube.com/channel/UCNwEvtAAfGbJeqYUmczAuBQ
+|instagram= infinitye_sports
+|tiktok= infinitylatam
+|sponsor=[https://www.officedepot.com.mx Office Depot]
+|created= Organization 2009-11-01 <br> LoL Division 2014-05-19
+|disbanded=
+|otherwikis= 
+|rosterphoto=
+}}{{TOCRWI}}
+
+'''INFINITY''' is a Costa Rican multi-gaming organization founded in 2009. They entered the ''League of Legends'' scene in 2014. They were previously known as '''Infinity Esports'''.
+
+==History==
+'''INFINITY''' was founded in November 1, 2009 by Paul "Monrrow" Venegas.
+
+=== Worlds 2018 ===
+'''INFINITY''' has proven to be an exemplary organization. The team has been to three straight Finals in their region, losing the first two against [[Rainbow7]], the iconic representative in the Latin America North. Now, for the first time in the region’s history, there's a new champion to represent LLN at Worlds. Coming off their historic win, Infinity will look to leverage their momentum at Worlds for the first time ever. Led by their experienced Peruvian star [[Arce]] in the support role, the team has a calculated style and is also likely to shine in the jungle with [[SolidSnake]], as well as in the bot lane with their ADC, [[Renyu]], who quickly became the LLN's Rookie of the Year.
+
+As of 2024, they are the fourth most decorated team in Latin America with 4 championships obtained, 1 as regional champions, and 3 as Latin American champions.<ref>[https://lolesports.com/article/medallero-hist-rico-en-latinoam-rica/blt92678f1a0ecf8cf6 Medallero histórico en Latinoamérica (Spanish)] ''lolesports.com''</ref>
+
+== Trivia ==
+* They were the second back-to-back champions in [[LLA]] history, after [[Isurus]] achieved this in 2019.
+
+=== Awards ===
+* LLA Team of the Season (Closing 2021)
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Monrrow|cr|Paul Venegas|'''Founder & Sporting Director'''}}
+{{listplayersp||ar|Diego Gonzalo Foresi|'''Co-Owner & Chief Executive Officer'''}}
+{{listplayersp||ar|Damián Szafirsztein|'''Co-Owner & Chief Marketing Officer'''}}
+{{listplayersp||ar|Nicolás Lescano|'''Co-Owner & Chief Communications Officer'''}}
+{{listplayersp|COBRA|ar|Arnaldo Verolez|'''General Manager'''}}
+{{listplayersp|DLTD|ar|Rafael Ramos Sister|'''Project Manager'''}}
+{{listplayer|Arce|pe|Diego Arce Chang|'''Country Manager in Peru'''}}
+{{listplayersp|NATY|br|Natália Campos|'''Community Manager'''}}
+{{listplayersp|Maleco|uy|Matias Lemaire|'''House Manager'''}}
+{{listplayersp||ar|Gabriel Scangarello|'''Co-Head of Audiovisual Content'''}}
+{{listplayersp||ar|Lucas Neder|'''Co-Head of Audiovisual Content'''}}
+{{listplayersp|Cosmic Arepas|co|Santiago Barragán|'''Video Editor'''}}
+{{listplayersp|Aedan|ar|Maximiliano Sabaris|'''Video Editor'''}}
+{{listplayersp|Verdugo|cl|Alejandro Verdugo|'''Art Director & Graphic Designer'''}}
+{{listplayer|Caveira|cr|Luis Rodríguez|'''Content Creator'''}}
+{{listplayersp|HonguitoSenpai|mx|Oscar Solis|'''Content Creator'''}}
+{{listplayersp|Nela|cr||'''Streamer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Relic|ve|José Pombo|'''Streamer'''|newteam=none}}
+{{listplayer|Xkey|ve|Kheybert Aguirre|'''Head Coach'''|newteam=Rising Reapers}}
+{{listplayer|Autoboost|mx|Orlando Coronado|'''Coach'''|newteam=CCG Esports}}
+{{listplayer|Kouke|Peru|Jorge Eduardo Bravo González|'''Head Coach'''|newteam=FUE}}
+{{listplayersp|Chiquito|mx|Pedro Ramírez|'''Content Creator'''|newteam=none}}
+{{listplayer|STEPZ (Eloy Rodríguez)|ve|Eloy Rodríguez|'''Streamer'''|newteam=INF CR|comment=Jungle}}
+{{listplayer|Zindana|cr|Sofía Parra|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Solid (Diego Vallejo)|pe|Diego Vallejo|'''Assistant Coach'''|newteam=IE}}
+{{listplayer|XSonic|cr|Esteban Chaves|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Autoboost|mx|Orlando Coronado|'''Head Coach'''|newteam=INF CR}}
+{{listplayer|Rey (Matheus Martins)|br|Matheus Martins|'''Team Manager'''|newteam=none}}
+{{listplayer|Politico|br|Iago Cerqueira|'''Strategic Coach'''|newteam=TRZ}}
+{{listplayer|EliasGG|cr|Kevin Monge|'''Content Creator'''|newteam=none}}
+{{listplayer|Lesmart|ar|Facundo Canteros|'''Head Coach'''|newteam=UND}}
+{{listplayer|Relic|ve|José Pombo|'''General Manager'''|newteam=INF CR|comment=Streamer}}
+{{listplayer|Falco (Jesús Pérez)|es|Jesús Pérez|'''Strategic Coach'''|newteam=HRTS}}
+{{listplayersp|GuzH|ar|Hernán Otero|'''Head Analyst'''|newteam=FUE}}
+{{listplayersp|Coreanitico|kr|Antonio Park|'''Translator'''|newteam=6K}}
+{{listplayersp|Yaye|mx|Alex Escalera|'''Content Creator'''|newteam=none}}
+{{listplayer|Rey (Matheus Martins)|br|Matheus Martins|'''Team Manager'''|newteam=INF CR}}
+{{listplayer|Dye|co|Gerson Castaño|'''Head Coach'''|newteam=FUE}}
+{{listplayersp|Pichu|mx|<!--Asked not to include their name-->|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayer|Nezumi|mx|Lua López|'''Streamer & Content Creator'''|newteam=Toxic Sakura}}
+{{listplayer|PapiSosa|mx|Ruben Sosa|'''Streamer & Content Creator'''|newteam=R7}}
+{{listplayersp|Alefunkdro|cl|Alejandro Díaz Gómez|'''Sports Psychologist'''|newteam=none}}
+{{listplayer|Legion (Jorge Valencia)|mx|Jorge Valencia|'''Country Manager in Mexico'''|newteam=EST}}
+{{listplayersp|Salvi|ar|Salvador Mansilla|'''Content Creator'''|newteam=Retired}}
+{{listplayer|Gaax|es|Pablo Vegas|'''Positional Coach'''|newteam=FNTQ}}
+{{listplayersp|Cobra|ar|Arnaldo Verolez|'''Team Manager & Esports Lawyer'''|newteam=INF CR}}
+{{listplayer|Piroxz|br|Luis Chavez|'''Strategic Coach'''|newteam=AK}}
+{{listplayer|Snok|sv|Roberto Coello|'''Head Coach'''|newteam=AK}}
+{{listplayer|Hernando|es|Javier Hernando Sevillano|'''Strategic Coach'''|newteam=Retired}}
+{{listplayer|Piroxz|br|Luis Chavez|'''Assistant Coach'''|newteam=INF CR}}
+{{listplayer|Von (Gabriel Barbosa)|br|Gabriel Barbosa|'''Head Coach'''|newteam=LOUD}}
+{{listplayersp||ar|Adrián Vidal|'''Life Coach'''|newteam=AK}}
+{{listplayer|DFTBA|us|Cody Gerard|'''Head Coach'''|newteam=Hybrid Esports}}
+{{listplayersp||ar|Adrián Romero|'''Co-Owner & Investor'''|newteam=Retired}}
+{{listplayersp|Dalcru|ar|Alan Cruz|'''Content Creator & Community Manager'''|newteam=Retired}}
+{{listplayersp|Feca|ar|Federico Soldano|'''Content Creator & Community Manager'''|newteam=Retired}}
+{{listplayersp|ChinoLeon|cr|Erick León|'''Content Creator & Community Manager'''|newteam=Retired}}
+{{listplayer|Enatsu|cl|Gonzalo Peredo Álvarez|'''Head Coach'''|newteam=retired}}
+{{listplayer|DCStar|mx|Carlos Méndez|'''Strategic Coach'''|newteam=QGG}}
+{{listplayer|Snok|sv|Roberto Coello|'''Head Analyst'''|newteam=INF CR}}
+{{listplayer|Soren|link=Soren (Carlos Ibarra)|mx|Carlos Ibarra|'''Head Coach'''|newteam=EST}}
+{{listplayer|Akari|mx|Carlos Calderón|'''Team Manager'''|newteam=R7}}
+{{listplayersp|Arwald|mx|Raúl Ibarra|'''Team Manager'''|newteam=retired}}
+{{listplayer|Legion (Jorge Valencia)|mx|Jorge Valencia|'''Marketing Manager'''|newteam=INF CR|comment=Jungler}}
+{{listplayer|Skin|mx|Eduardo Saldaña|'''Strategic Coach'''|newteam=R7}}
+{{listplayer|Akari|mx|Carlos Calderón|'''Assistant Coach'''|newteam=6SN}}
+{{listplayersp|La Mamá|mx|Alberto Juárez|'''Team Manager'''|newteam=retired}}
+{{listplayersp|SlapChop|us|Dustin Lillie|'''Analyst'''|newteam=6SN}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+=== Images ===
+==== Rosters ====
+<gallery>
+Infinity Esport Roster - 2017 Split 1.jpeg|INF LLN 2017 Opening Season Roster
+Infinity Esport Roster - 2017 Split 2.png|INF LLN 2017 Closing Season Roster
+Infinity Esport Roster - 2018 Split 1.png|INF LLN 2018 Opening Season Roster
+Infinity Esport Roster - 2018 Split 2.png|INF LLN 2018 Closing Season Roster
+Infinity Esports Roster 2019 Opening.png|INF 2019 LLA Opening
+Infinity Esports 2019 Opening.png|INF 2019 LLA Opening with [[Arce]]
+Infinity Esports 2019 Closing.png|INF 2019 LLA Closing
+Infinity Esports 2019 Closing 2.png|INF 2019 LLA Closing with [[Straight]]
+Infinity Esports Roster 2020 Opening.png|INF 2020 LLA Opening
+INF Roster 2020 LLA Closing.png|INF 2020 LLA Closing
+INFINITY 2020 Closing.png|INF 2020 LLA Closing with [[Pillo]]
+2021 INF Opening.png |INF 2021 LLA Opening
+INFINITY 2021 MSI.png |INF 2021 MSI
+2021 INF Closing.png|INF 2021 LLA Closing
+INFINITY 2021 Closing.png|INF 2021 LLA Closing with [[Brayaron]] & [[Kz (Nicolás Gutiérrez)|Kz]]
+INFINITY 2021 Worlds.png|INF 2021 Worlds
+INFINITY 2022 Opening.png|INF 2022 LLA Opening
+INFINITY 2022 Opening 2.png|INF 2022 LLA Opening with [[Brayaron]] & [[SNAKER]]
+INFINITY 2022 Closing.png|INF 2022 LLA Closing
+INF 2022 Closing.png|INF 2022 LLA Closing with [[Nobody (Nicolás Ale)|Nobody]]
+INF_LLA_2023_Opening.png|INF 2023 LLA Opening
+INFINITY 2023 Closing.png|INF 2023 LLA Closing
+INFINITY 2024 Opening.png|INF 2024 LLA Opening
+INFINITY 2024 Opening 2.png|INF 2024 LLA Opening with [[Kz (Nicolás Gutiérrez)|Kz]]
+INFINITY 2024 Opening 3.png|INF 2024 LLA Opening with [[ZOEN (Enzo Ganino)|ZOEN]]
+INFINITY 2024 Closing.png|INF 2024 LLA Closing
+</gallery>
+
+==== Logos ====
+<gallery>
+Infinity Esport Original Logo.jpg|INF Original Logo
+Infinity Esport 2016 Logo.png|INF 2016 Logo
+Infinity Esports old logo.png|INF 2018 Logo
+Infinity Esports2019logo square with Gillette.png|INF 2019 - 2020 Logo with Gillette
+</gallery>
+
+==== Jerseys ====
+<gallery>
+Infinity Esport 2018 Jersey Rift Rival Edition.png|INF 2018 Jersey Rift Rival Edition
+</gallery>
+
+== References ==
+<references />

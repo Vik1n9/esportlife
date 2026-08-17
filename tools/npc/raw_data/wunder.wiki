@@ -1,0 +1,93 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wunder&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.922Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wunder」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Wunder
+|name=Martin Nordahl Hansen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Denmark
+|residency=EMEA
+|birth_date_year=1998
+|birth_date_month=November
+|birth_date_day=09
+|favchamp=Aatrox
+|favchamp2=Camille
+|favchamp3=Gangplank
+|favchamp4=Jayce
+|checkbox1=No
+|compID1=Wunderwear
+|checkboxComp=No
+|ids='''EUW''': NoWoWFreeWin<br>Doublebeef<br>'''KR''': TheOutgoing, G2 Sejong<br>'''CN''': IdontplayLeague
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/wunderlol
+|facebook=https://www.facebook.com/WunderwearLoL
+|twitter=wunderlol
+|instagram=wunderlol
+|askfm=WunderwearLoL
+|lolpros=https://lolpros.gg/player/wunder
+|deeplol=https://www.deeplol.gg/pro/Wunder
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Wunderwear'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===2014 Season===
+Mid-way through the season, Wunderwear joined [[4everzenzyg]], who had a full Danish roster. The team competed in [[2014 EU Challenger Series/Summer Series/Series 2|EU Challenger Summer #2]], but were beaten by [[SK Gaming Prime]] in the quarterfinals of the tournament. They also participated at [[Island of Legends 2014]], though the team could not make it further than the semifinals. Wunderwear then left the team, spending a month or so out of the competitive scene.
+
+===2015 Season===
+Wunderwear joined [[SK Gaming Prime]] towards the start of the season, competing in the [[2015 EU Challenger Series/Spring Qualifier|EU Challenger Spring Qualifier]] with the team. They qualified, beating [[ThunderBot SPARTA]] in their group final.
+
+Soon after this, [[Dignitas]] acquired the team's roster, forming [[Team Dignitas EU]]. Wunderwear competed in the [[2015 EU Challenger Series/Spring Season|EU Challenger Spring Split]] with the team. The team finished in 4th place, qualifying them for the [[2015_EU_Challenger_Series/Spring_Playoffs|Spring Playoffs]], however due to Wunderwear and [[Sencux]] being underage, they could not play with the current roster. The team turned down the opportunity to play with subs and therefore gave up their spot in the playoffs, which then went to 5th place [[Reason Gaming]].
+
+During the Challenger Series off-season, [[Brokenshard]] transitioned from jungler to head coach and was replaced by [[Obvious]]. In addition, support player [[Voidle]] was replaced by [[Nisbeth]], forming an all-Danish roster. In the [[2015_EU_Challenger_Series/Summer_Season|summer split]] of the Challenger Series, the team finished 8-2 in second place behind only [[Gamers2]]. While playing each series to the maximum number of games, Dignitas EU defeated [[Denial eSports EU]] and [[Mousesports]], finishing first and earning a spot in the [[League_Championship_Series/Europe/2016_Season/Spring_Season|2016 Spring Season]] of the European LCS.
+
+=== 2016 Season ===
+After Dignitas EU qualified for the EU LCS, Dignitas was forced to sell one of its two LCS teams, and they chose to sell the European team. With only one roster change ([[Obvious]] being replaced by [[Trashy]]), the roster moved to the new organization '''Follow eSports''', later [[Splyce]].<ref>[http://www.followesports.com/topics/post/103  Follow eSports Acquires Dignitas EU LCS Team] ''followesports.com''</ref><ref name="splycerename">[http://www.dailydot.com/esports/follow-esports-becomes-splyce/  New LCS franchise Follow eSports rebrands to Splyce, picks up Call of Duty team] ''dailydot.com''</ref> Splyce stayed consistently in either seventh place or tied for eighth place in the spring split. Their final record was 5-13, in 8th place ahead of [[Team ROCCAT]] and behind [[Elements]]. With a favorable [[League Championship Series/Europe/2016 Season/Summer Promotion|promotion tournament]] seed, Splyce played against [[Giants Gaming]] and won 3-2, requalifying for the LCS for the [[League Championship Series/Europe/2016 Season/Summer Season|summer split]]. In May, Wunderwear renamed to '''Wunder'''.<ref>[http://twitter.com/SPY_Wunder/status/732540144033648640 Martin Hansen's Tweet] ''twitter.com''</ref>
+
+== Trivia ==
+* Was fined €1,000 by Riot Games for 'playing' World of Warcraft Classic.<ref>[https://www.invenglobal.com/articles/9105/riot-games-fines-g2-esports-for-wunder-playing-world-of-warcraft-classic Inven Global] ''invenglobal.com''</ref>
+* Has known [[Sencux]] since 2011.<ref>[https://youtu.be/S3ljcBCnac4?t=204 A Misfit Story Episode 3: Sencux | The Danish Mindset} ''youtube.com''</ref>
+* Went to the same boarding school as pro Rainbow 6 Siege player [https://siege-esports.gamepedia.com/Pengu Pengu].<ref>[https://www.youtube.com/watch?v=CWH-sLrVpNo] ''youtube.com''</ref>
+* Reached 1000 kills in the LEC on July 17, 2021.
+** The 6th player to reach 1000 kills in the LEC after [[Rekkles]], [[Jankos]], [[Perkz]], [[nukeduck]] and [[Caps]]
+** His 1000th kill was on [[Fnatic]]'s [[Bwipo]] in the [[LEC/2021 Season/Summer Season|LEC 2021 Summer]] with {{ci|Gragas}}. 
+=== Individual Awards ===
+* EU 1st All-Pro Team x5 (Summer 2016, Spring 2018, Summer 2018, Summer 2019, Spring 2021)
+* EU 2nd All-Pro Team x2 (Spring 2019, Summer 2020)
+* EU 3rd All-Pro Team x3 (Spring 2020, Summer 2021, Spring 2022)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

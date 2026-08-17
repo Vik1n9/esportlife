@@ -1,0 +1,110 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Score&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.243Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Score」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Score
+|name=Go Dong-bin
+|nativename=고동빈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1992
+|birth_date_month=July
+|birth_date_day=8
+|favchamp=Ezreal
+|favchamp2=Corki
+|checkbox1=No
+|compID1=Joker
+|checkboxComp=No
+|ids=KT Score<br>GakSsiTaL<br>StarTale Joker<br>좋은날
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/score1992
+|facebook=https://www.facebook.com/Score222
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Joker'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|prev2=Top
+}}
+==Biography==
+Go "'''Score'''" Dong-bin is the jungler for [[KT Rolster]]. When he played AD carry he was known for his passive, safe play style, and earned the nickname "The Immortal" because there was a stretch during 2013 Champions Winter and Spring where Score went many consecutive games without dying. He earned a reputation for his {{ci|Corki}} play, often referred to as "Scorki".
+
+===Season 2===
+
+Score began his professional career when he joined [[StarTale]] under the name "'''Joker'''". He would continuously switch back between top and AD carry during his time on the team. They participated in the inaugural OGN, [[Azubu The Champions Spring 2012]], where they failed to make it past the group stage. They then attended [[Azubu The Champions Summer 2012]] where they lost in the quarterfinals 2-0 to [[NaJin Sword]]. On August 27, Startale disbanded. In October, Joker changed his name to Score and he joined the new [[KT Rolster B]] roster along with former Startale teammates, [[Ryu]] and [[Mafa]].
+
+===Season 3===
+
+The team's first OGN was [[OLYMPUS Champions Winter 2012-2013]]. They lost two sets in the semifinals to [[NaJin Sword]] 3-1 and 3-0 but beat [[Azubu Blaze]] in the third-place match 3-0. Next, they attended [[OLYMPUS Champions Spring 2013]] where they placed 5th-8th after they lost 3-1 in the quarterfinals to the eventual champions, [[MVP Ozone]]. Between seasons, KT Rolster B and [[KT Rolster A]] had their names changed to the Bullets and the Arrows, respectively. The Bullets went to [[HOT6iX Champions Summer 2013]] and made it to the finals but ultimately lost 3-2 to [[SK Telecom T1 K|SK Telecom T1]]. They accrued enough circuit points to qualify to the [[Season 3 Korea Regional Finals]] but once again they lost to SK Telecom T1 in the finals 3-1 and barely missed [[Season 3 World Championship|Worlds]].  
+
+===2014 Season===
+At the beginning of the season, the Bullets attended [[PANDORA.TV Champions Winter 2013-2014]] where they placed 3rd after losing 3-0 to SK Telecom T1 K and beating [[NaJin White Shield]] 3-1. In March, they were invited to the [[IEM Season VIII - World Championship]] where they beat [[Fnatic]] 3-0 in the finals and swept the tournament in a dominating fashion. When they returned to Korea, the Bullets played in [[HOT6iX Champions Spring 2014]] but they placed 5th-8th after losing in the quarters 3-2 to White Shield. At [[HOT6iX Champions Summer 2014]], the Bullets recorded their worst result ever, after they failed to make it out of the group stage. Once again, they acquired enough points to attend the [[2014 Season Korea Regional Finals]] but they lost 3-0 in the first round to White Shield.
+
+===2015 Season===
+Due to OGN rule changes, KT was forced to merge the Arrows and the Bullets to form KT Rolster. [[Arrow]] was given the starting AD carry position but Score became the new starting jungler. KT participated in [[SBENU Champions Spring 2015]] and placed fifth, narrowly missing playoffs. KT placed second overall during the regular season of [[SBENU Champions Summer 2015]]. They made it to the finals of the playoffs but lost 3-0 to SK Telecom T1. KT earned enough circuit points to qualify for the [[2015 Season Korea Regional Finals]] where they beat the [[Jin Air Green Wings]] 3-1 in the finals to qualify for the [[2015 Season World Championship]]. KT was drawn into a group with [[LGD Gaming]], [[Team SoloMid]], and [[Origen]]. They ended with a 5-1 record and went on to play the [[KOO Tigers]] in the quarterfinals. Unfortunately, they lost 3-1 and were knocked out of the tournament. 
+
+===2016 Preseason===
+KT played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the semifinals to [[CJ Entus]].
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|LCK 2016 Spring Season]], KT Rolster finished second place in the regular season with a 13-5 match record. Their regular season placement earned them a bye into the semi-finals of the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], where they faced [[SK Telecom T1]]. Unfortunately, they were swept 3-0, ending their spring split with a third place finish.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], KT Rolster claimed third place in the regular season with a 13-5 series record, losing to [[SK Telecom T1]] based on game score. This seeded them into the 2nd round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], where they met [[Samsung Galaxy]]. KT had yet to drop a game to Samsung since the start of Season 5's LCK era, and this trend continued as they swept them 3-0. In the semifinals, they met [[SK Telecom T1]] in the Telecom Wars, and this time they managed to reverse sweep them 3-2 to move onto the finals. In an epic set against the [[ROX Tigers]], KT Rolster barely lost 3-2, losing out on Korea's first seed at Worlds, but giving them the highest seed for the [[Korea Regional Finals 2016]]. In a rematch against [[Samsung Galaxy]] where KT were heavily favored to make it out, Samsung managed to break a 19 game losing streak against KT to win the set 3-2 and take Korea's third seed, ending KT Rolster's season early.
+
+===2019 Season===
+On August 17, after the match between KT Rolster and [[Kingzone DragonX]], Score announced that he would be retiring after the 2019 summer season.<ref>[https://www.invenglobal.com/articles/8879/kt-score-on-his-retirement-after-the-game-was-over-i-got-a-bit-emotional Inven Global interview]</ref>
+
+== Trivia ==
+* His previous ID '''Joker''' is a reference to [https://en.wikipedia.org/wiki/Heath_Ledger Heath Ledger's] Joker from [https://en.wikipedia.org/wiki/The_Dark_Knight_(film) The Dark Knight].
+* His favorite champions are {{ci|Ezreal}} and {{ci|Corki}}.<ref>[http://www.thisisgame.com/board/view.php?id=1129436&board=0&category=13735&subcategory=&page=3&best=&searchmode=title&search=&orderby=&token= ''"StarTale Team Interview"'']</ref>
+* Held the highest KDA standings in [[OLYMPUS Champions Winter 2012-2013]], of 9.81.
+* Considered to be one of the best {{ci|Ezreal}} players in Korea due to his superb positioning.
+* Reached 1000 Kills in the LCK on March 5th, 2017.
+** The 4th player to reach 1000 kills in the LCK, after [[Faker]], [[PraY]], and [[Bang]].
+** His 1000th kill was on [[SK Telecom]]'s Support [[Wolf (Lee Jae-wan)|Wolf]] in the [[LCK 2017 Spring|LCK 2017 Spring Season]] with {{ci|Gragas}}.
+* Reached 1500 kills in the LCK on August 10th, 2019.
+** The 4th player to reach 1500 kills in the LCK after [[Faker]], [[PraY]] and [[Bang]].
+* Reached 3000 assists in the LCK on June 23rd, 2018.
+** Was the 3rd player to reach 3000 assists in the LCK after [[GorillA]] and [[Wolf (Lee Jae-wan) | Wolf]].
+* Reached 300 wins in [[LCK]] on January 25rd, 2019, becoming the 1st player to achieve this in the LCK and in a single region worldwide.
+* Reached 500 games in the LCK on March 16th, 2019.<ref>[https://korizon.net/score-becomes-the-first-player-in-the-lck-to-have-played-500-games/ ''"Korizon article"'']</ref>
+** The first player to reach 500 games in the LCK and in a single region worldwide.
+{{PlayerStatsTrivia}}
+* Nicknamed "The heart of KT."
+* His '2nd place curse' of never winning an official title and always ending up as runner up in finals was a long-running joke in the LCK. This curse was broken when he won the [[LCK 2018 Summer Playoffs]].
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

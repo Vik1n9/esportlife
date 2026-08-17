@@ -1,0 +1,141 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=WhiteLotus&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.260Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Whitelotus」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=WhiteLotus
+|name=Matías Musso
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Brazil|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1996
+|birth_date_month=August
+|birth_date_day=27
+|favchamp=Kalista
+|favchamp2=Lucian
+|favchamp3=Vayne
+|favchamp4=Tristana
+|checkbox1=No
+|compID1=MatiQQ
+|checkboxComp=No
+|ids='''LAS''': matimusso#adc <br> '''LAN''': KLG WhiteLotus, KLG Ohq, KLG WL, CLG Liftlift, LKAliBracamontes, UN MANZANAZO, ELBIGOTEEEEEEEEE<br>'''NA''': ad1ad2ad3ad4ad5<br>'''BR''': whitelettuce#ADC<br>'''EUW''': EL GHOST PA#EUW <br> TIAGO PZK#EUW
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/whitelotuslol
+|facebook=https://www.facebook.com/whitelotuslol
+|twitter=Whitelotuslol
+|instagram=whitelotuslol
+|askfm=deftlol
+|youtube=https://www.youtube.com/@whitelotuslol1
+|tiktok=whitelotuslol1
+|lolpros=https://lolpros.gg/player/whitelotus
+|deeplol=https://www.deeplol.gg/pro/WhiteLotus
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America South
+|checkboxPrev=No
+}}
+==Biography==
+His name is Matías Musso and was born in Marcos Juárez, Córdoba, Argentina. He lived in Chile during his time in [[Last Kings]] and [[Kaos Latin Gamers]]. Now lives in Mexico since joined [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] in 2016. He started to play ''League of Legends'' in Season 2.
+
+===2014 Season===
+WhiteLotus started his professional career at [[RtN Gaming]] and then [[PEX]], before moving on to join [[Last Kings]] on December 10, where he played with [[BlackLotus]] for the second time.
+
+===2015 Season===
+The first competitive season for him was in [[Last Kings]], where played along with [[Nipphu]], [[Nephthys]], [[Gos]], and [[Electra]] in the [[Latin America Cup 2015/LAS/Opening Cup/Regular Season|Latin America Cup 2015]]. They finalized the regular season in the 3rd place, qualifying directly to the playoffs. They played against [[Kaos Latin Gamers]] on the semifinals, finalizing the Bo5 0-3 and ending the season in the 3rd place.
+
+After failing to win the cup in the first split, WhiteLotus left [[Last Kings]] and joined [[Kaos Latin Gamers]] in May 13, team who won the Opening split. The team was [[Helior]], [[Juliostito]], [[Regi]], him, and [[BearJew]]. They ended up the round robin in the first place with a 9-1 record and qualifying to the playoffs. They faced [[Rebirth eSports]] in the semifinals, winning the series 3-1 and qualifying to the finals. In the finals, they played against [[Furious Gaming]]. When everyone thought that it would be a close series, KLG crushed FG with a clean 3-0. After winning LAS finals, they faced the LAN champions [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] in the Grand Final, looking for the qualification to the [[2015 International Wildcard Tournament/Chile|IWCT]] in Chile.
+
+KLG won in the finals for the second time in a row and qualified to the IWCT, where they played against [[paiN Gaming]] and [[Hard Random]], looking for a spot in the next [[2015 Season World Championship|Worlds]]. They lost the first three matches and won the fourth, forcing a tiebraker with [[Hard Random]]. They won the tiebreaker and played a Bo5 against [[paiN Gaming]], where the Brazilians won with a clean 3-0. WhiteLotus left KLG on September 27.
+
+===2016 Season===
+He rejoined [[Last Kings]] for the 2016 season, this time along with [[Nipphu]], [[Focho]], [[Rakyz]], and [[Badmilk]]. They finished the regular season in 2nd place with a record of 3-6-1 (12-8) and qualified to playoffs. They won 3-0 against [[Rebirth eSports]] in semifinals and faced [[Isurus Gaming]] in the finals. Unfortunately, ISG won with a clean 3-0. WhiteLotus finalized his second time in LK on May 2.
+
+One day after leaving [[Last Kings]], he emigrated to Mexico and joined [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]], where he played along with his friend [[Seiya]] and the other teammates [[Jirall]], [[Oddie]], and [[Arce]]. He has adapted quickly to the new team and had a very good relationship with his teammates. The first regular season in LAN, his team ended the round robin with a clean 10-0 (20-2) and qualifying directly to the semifinals, where they faced [[ZAGA Talent Gaming]]. Lyon won the semifinals series with an easily 3-0. In the finals, they played against [[Just Toys Havoks]], but they weren't worthy rivals either.
+
+After winning 3-0 in the finals, Lyon qualified to the [[2016 International Wildcard Qualifier]] to play in Brazil, looking for a spot in the [[2016 Season World Championship|2016 Worlds]]. In the IWCQ, they expected to end up in the last position, but they smashed every team in the group stage, and only [[Albus NoX Luna]] beat them. They finalized the group stage in the first place with a 6-1 record. In the bracket stage, they faced [[Albus NoX Luna]] and, after five amazing games, Lyon lost 2-3 and WhiteLotus failed to qualify to Worlds for the second time in two consecutive years. After this tournament, [[Arce]] retires from competitive, leaving WhiteLotus without a support.
+
+On October, Lyon played the [[IEM Season 11 - Challenger]], looking for a spot in [[IEM Season 11 - Oakland|IEM Oakland]] and the first tournament in the season without [[Arce]]. [[Choisix]] joined the team for a tryout period and played this tournament with the team. In the first round, Lyon faced [[The Chiefs eSports Club|Chiefs]] and lost 2-0. In the Loser's Bracket, they faced [[Kaos Latin Gamers]], where they won 2-0. In the next round, they played against [[The Chiefs eSports Club|Chiefs]] again, and the winner of this Bo3 would qualify to [[IEM Season 11 - Oakland|IEM Oakland]]. Unfortunately, Lyon lost 2-0 again and closed its participation in the tournament with a poor performance.
+
+===2017 Season===
+On December 16, 2016, the new support for [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] was announced. [[Genthix]], WhiteLotus' friend, would be the support of the team for the coming season. During the split, Lyon showed an absolute dominance in every single game. After the amazing campaign from them, ending the Regular Season with 13 wins, 1 draw, and 0 losses, the team qualifies to the Playoffs (several weeks before the end of the split). They just lost a single game against [[Infinity eSports CR|Infinity eSports]]. WhiteLotus ended this Round Robin with a KDA of 4.85, after 28 games. They faced [[Predators eSports]] in the Playoffs, ending the series with an easy 3-0. They beated [[Just Toys Havoks]] with another clean 3-0 in the Finals and qualified to the [[2017 Mid-Season Invitational]] in Brazil.
+
+They faced [[Isurus Gaming]], [[GIGABYTE Marines]], and [[Virtus.pro]] in the Group B of the [[2017 Mid-Season Invitational/Play-In|MSI Play-In stage]]. After a great performance, his team ended its MSI journey on 2nd place in his group with a record of 4-2, just behind the 5-1's [[GIGABYTE Marines|Marines]] (team that later qualified to the [[2017 Mid-Season Invitational/Main Event|main event]] and was considered one of the best teams of the entire tournament).
+
+On July 2017, a new worldwide tournament called [[Rift Rivals 2017|Rift Rivals]] was celebrated. Unfortunately, WhiteLotus didn't participate on this tournament due to visa issues in Mexico.
+
+For the second split of the year, [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] was the champion of the [[LLN/2017 Season/Closing Season|2017 LLN Closing Season]], after ending the round robin with a record of 11-3-0 (25-3) and after beating [[Predators eSports]] and [[Just Toys Havoks]] in semi-finals and finals of the playoffs, respectively. That meant that the team will attend for the first time to the World Championship, being him and [[Genthix]] the first argentinian players on a Worlds event.
+
+On the [[2017 Season World Championship/Play-In|Worlds Play-In]], they were matched with [[2017 Mid-Season Invitational]]'s runner-up [[Team WE]] from China and [[LCL/2017 Season/Summer Playoffs|2017 LCL Summer]] champion [[Gambit Esports]] from Russia, being this the most difficult group of the Play-In stage. WhiteLotus got a pentakill in the second game versus [[Gambit Esports]] and was also the first of the tournament. Affortunately, the team had an outstanding performance and managed to qualify for the next stage, where they faced [[Cloud9]]. Suddenly, Lyon lost 0-3 versus them, ending the dream to compete on the [[2017 Season World Championship/Main Event|Worlds Main Event]], but one more time being flattered by the Riot worldwide casters and players from other teams for their amazing way to play the game, specially WhiteLotus.
+
+===2018 Season===
+During the Preseason 2018, it was announced that WhiteLotus was suspended for 4 competitive months starting in January due to some toxic behavior in SoloQ. This meant him will not be able to play in any tournament until May 1. Several weeks before, his team [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]] was forced to change their name and logo if they want to still compete in the LLN, and also they had to pay $10,000 to [[Thyak]] for the brand rights. The team's new name was [[Rainbow7]].
+
+After four whole months being unable to play, Matías was unbanned on May 1.
+
+== Trivia ==
+* WhiteLotus was the first player to gather the title of champion in every Latin America major league, winning [[LAS 2015 Opening Cup]] with [[Kaos Latin Gamers]], several [[LLN]] titles with [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]], [[LLA/2021 Season/Opening Playoffs|LLA 2021 Opening]] with [[INFINITY|Infinity Esports]] and [[CBLOL 2019 Split 2]] with [[INTZ e-Sports]]. Even so, in recent interviews he has declared that he doesn't recognize the latter, as he was a sub player for INTZ during most of the season. 
+* Loves {{ci|Vayne}} and {{ci|Tristana}} and is known for his amazing plays with them. He also excels with {{ci|Lucian}}.
+* Started to play League of Legends in Season 2.
+* Widely considered the best AD carry in Latin America.
+* His favorite champion is {{ci|Kalista}}.
+:* He got his first pentakill of his career with that champion. It was in his second game at the [[Worlds 2017 Play-In|Worlds 2017]] versus [[Gambit Esports]]. 
+* Known for his aggressive playstyle.
+* Formed the "Lotus Botlane" with [[BlackLotus]] in their [[PEX]] late days.
+* Had an account in LAS named "LKAliBracamontes" in honor of his friend [[Seiya]].
+* Many professional Brazilian teams offered him contract, but he refused them all.
+* Wears a wool cap almost every day.
+* Likes football, and is a fan of Boca Juniors.
+* His favorite player is [[Deft]]. He really enjoys watching his competitive games and his stream.
+* Has a good friend relationship with [[Badmilk]] (former teammate).
+* Is criticized for flashing forward in crucial competitive games, which results in either death, or a clutch killing spree.
+* Likes cereal a lot, to the point of sometimes only eating cereal for a whole day.
+* Started to play competitive at the age of 16.
+* Reached Challenger in all American servers (LAS, LAN, BR, and NA).
+* Peaked Diamond in EUW with 49% winrate in season 11.
+* Was chosen to represent Latin America as the AD carry in the [[International Wildcard All-Star Melbourne 2015|IWC All-Star Melbourne 2015]].
+* His fans made a group on Facebook called "WhiteLotus Army".
+* First Argentinian player to attend a World Championship, along with [[Genthix]].
+* Also known as "'''GODLOTUS'''" by the community.
+
+=== Individual Awards ===
+* LLA All Pro Team x2 (Opening 2021, Closing 2021)
+* LLA player with the most MVPs in the split x2 (Opening 2020, Opening 2021)
+* LLA player with the most mvps during the year (2020)
+* LLA Most Weekly MVPs in his role in the split x2 (Opening 2020, Closing 2020)
+
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

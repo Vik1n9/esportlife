@@ -1,0 +1,111 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ray&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:28.820Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ray」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Ray
+|name=Jeon Ji-won
+|nativename=전지원
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=March
+|birth_date_day=15
+|favchamp=Jax
+|checkbox1=No
+|compID1=Rey
+|checkboxComp=No
+|ids='''KR:''' KT Ray<br>'''NA:''' 15 March, lIlIlllllIIlllIl<br>'''EUW:''' March 15
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Top
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/98ray
+|facebook=https://www.facebook.com/profile.php?id=100033410867176
+|twitter=ray2lol
+|instagram=r2even
+|discord=https://discord.com/invite/7FFs6taywj
+|lolpros=https://lolpros.gg/player/ray-1
+|deeplol=https://www.deeplol.gg/pro/Ray
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Rey'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+Jeon "'''Ray'''" Ji-won joined [[AD Gaming]] in July 2014, as one of the founding members of the team along with [[Move]], [[BaeMe]], [[Marbee]], and [[Mouse]]. After an unsuccessful [[2015 LPL/Summer/Promotion|LPL 2015 Summer Promotion]] series with a quarterfinal loss to [[Energy Pacemaker]] in April 2015, he moved to sister team [[EDward Gaming]] along with BaeMe in May. Ray played in one series against [[Snake eSports]] in the [[2015 LPL/Summer/Regular Season|LPL]]. He left EDG in December 2015.
+
+===2016 Season===
+In May 2016, Ray moved to North America to join the newly-qualified [[League Championship Series/North America/2016 Season/Summer Season|NA LCS]] team [[Apex Gaming]]. In the first weekend of the season, he immediately gained recognition among the community for his [[Fizz]] and [[Ekko]] play, as Apex won both of their series, including a 2-1 upset of reigning NA LCS champions and [[2016 Mid-Season Invitational|MSI]] alums [[Counter Logic Gaming|CLG]]. Their success, however, was short-lived, and despite Ray's deep champion pool and carry-oriented play, by week 5 they were in 7th place, where they remained for the rest of the season, out of reach of the [[League Championship Series/North America/2016 Season/Summer Playoffs|playoffs]] but also safe from [[League Championship Series/North America/2017 Season/Spring Promotion|relegations]] for the [[League Championship Series/North America/2017 Season/Spring Season|2017 Spring Season]]. In September, both [[Team Dignitas]] and Apex were acquired by the '''Philadelphia 76ers''' in September 2016, to play under the Dignitas name.<ref name="76acquire">[http://team-dignitas.net/articles/news/Team-Dignitas/10251/philadelphia-76ers-acquire-merge-and-manage-leading-esports-teams-dignitas-and-apex Philadelphia 76ers acquire, merge and manage leading esports teams Dignitas and Apex] ''team-dignitas.net''</ref>
+
+===2017 Season===
+====Spring Split====
+[[Cloud9]] signed Ray for the 2017 season, with the stated goal of using his carry-oriented play to supplement [[Impact|Impact's]] tank-oriented play. Rey saw time throughout the [[NA LCS/2017 Season/Spring Season|spring split]] but only played 10 games to Impact's 34, posting a 6-4 record. However, Cloud9 performed much better with Impact in the lineup, and contended with [[TSM]] for first place throughout the split, eventually finishing second, only a single series behind TSM. 
+
+Their regular-season finish gave [[Cloud9]] a bye into the semifinals of [[NA_LCS/2017_Season/Spring_Playoffs|the playoffs]]. Ray played in Game 2 of the semifinals against third-place [[Phoenix1]], which C9 won en route to a sweep. This sent them to the finals against TSM, where Impact and Ray alternated games despite their unequal regular season split. After appearing in a Game 1 loss, Ray helped his team win Game 3 to stave off elimination. After a Game 4 win with Impact, Ray returned for Game 5, but Cloud9 lost after mid laner [[Jensen]] failed to use either his [[Zhonya's Hourglass]] or [[Ekko]] ultimate in a crucial team fight, ending their split. 
+====Summer Split====
+Cloud9 retained both top laners going into [[NA LCS/2017 Season/Summer Season|the summer split]]. Ray started the first seven games before settling back into alternating time with Impact. However, after Ray played in all three games of a Week 6 loss to [[Immortals]], he was effectively benched for the remainder of 2017. Although he remained listed as an active substitute for Cloud9 through [[NA LCS/2017 Season/Summer Playoffs|playoffs]], [[NA LCS/2017 Season/Regional Finals|regional finals]], and [[Worlds 2017|Worlds]], Ray didn't play another game for the team. 
+
+In December, Ray left Cloud9 and joined the Chinese team [[Edward Gaming]] in time to play in the [[Demacia Championship 2017]], which EDG won. 
+
+===2018 Season===
+====Spring Split====
+Ray stayed with EDG for the [[LPL/2018 Season/Spring Season|LPL 2018 Spring]] as their starting top laner. EDG was sorted into the West Region and quickly established themselves as one of the best teams in that group. They spent most of the split in second place behind [[Snake Esports]], but put on a five-game winning streak at season's end to take the number one spot. 
+
+This gave them a bye into the semi-finals of [[LPL/2018_Season/Spring_Playoffs|the playoffs]], where they faced and defeated Group A #2 seed [[Rogue Warriors]], sending EDG to the finals against [[Royal Never Give Up]], who they had faced and defeated in the [[LPL/2017 Season/Summer Season|2017 Summer Playoffs]]. EDG took the first game but then lost three straight, ending their season. 
+====Summer Split====
+EDG started [[LPL/2018_Season/Summer_Season|the summer season]] hot, going 5-1 over their first three weeks and contending with Rogue Warriors for the top spot in the West region. However, they began to decline after Week 5, eventually falling all the way to 7-7. EDG still finished second, but only managed an 11-8 record despite playing in a group where five of the seven teams had negative game scores.
+
+Despite their subpar record, Edward Gaming still had a bye into the semifinals of [[LPL/2018 Season/Summer Playoffs|the playoffs]] due to their group placement. However, they were dispatched 3-1 by East Region #3 seed [[JD Gaming]]. Despite their weak summer finish, EDG's spring success meant that they had enough championship points to attend the [[LPL/2018 Season/Regional Finals|regional finals]]. Seeded into the first round due to having a lower summer finish than Rogue Warriors, EDG overcame JD Gaming in a tense five-game set, then upset their regional rivals 3-1 to qualify for [[Worlds 2018]] as China's third seed. 
+====Worlds 2018====
+In his first time actually playing at Worlds after being a substitute the previous year, Ray and Edward Gaming began the tournament in the [[2018_Season_World_Championship/Play-In|play-in stage]], where they were seeded into Group A with [[Dire Wolves]] of the [[OPL]] and [[INFINITY|Infinity Esports]] of the [[LLN]]. Despite a surprising loss to Infinity on the final day of the group stage, Edward topped their group, and easily qualified to the main stage by sweeping [[DetonatioN FocusMe]] in the second round.
+
+In [[2018 Season World Championship/Main Event|the main stage]], Edward joined [[LCK]] #1 seed [[KT Rolster]], [[NA LCS]] #1 seed [[Team Liquid]], and [[LMS]] #2 seed [[MAD Team]]. EDG did drop a game to Team Liquid but made up for that by giving KT their only loss of the group stage, finishing 4-2 and moving on to the knockout stage. However, they were beaten 3-1 in the quarterfinals by eventual finalists [[Fnatic]].
+
+===2019 Season===
+====Spring Split====
+Ray stayed with Edward Gaming for 2019. Although the team retained the entire roster from their Worlds run, they started the [[LPL/2019 Season/Spring Season|spring split]] mediocre. The team never fell out of playoff contention, but also never seriously challenged for the top of the league. In the newly unified, 16-team LPL, EDG finished 7th with a 9-6 record. This qualified them for playoffs, but they were swept by rookie squad [[SinoDragon Gaming]] in the first round, ending their season. In May, EDG signed top laner [[Jinoo]] from [[Victory Five]], and Ray became inactive. He didn't play in another game and left the team in December. 
+
+Ray returned to Korea and joined [[KT Rolster]]. Ray's first tournament with the team was the [[2019 LoL KeSPA Cup]], but he only played a single game against an amateur team [[Ulsan]], and KT was knocked out by [[Hanwha Life Esports]] in the second round. 
+
+===2020 Season===
+====Spring Split====
+Ray remained with KT Rolster for the [[LCK/2020 Season/Spring Season|spring split]], playing in the LCK for the first time. However, [[SoHwan]] saw the majority of the action, and Ray only appeared in six games, with his only two wins coming in a Week 3 series victory over [[Afreeca Freecs]]. KT finished 10-8 and made [[LCK/2020 Season/Spring Playoffs|the playoffs]], but Ray didn't play in their first-round loss to [[DAMWON Gaming]]. In May, Ray became inactive once again and saw no additional playtime in 2020.
+
+===2021 Season===
+====Spring Split====
+Ray restyled his name to "'''Rey'''", and joined the Latin American team [[Rainbow7]] for 2021. Despite being defending champions, Rainbow7 only managed a 7-7 record in Phase 1 of the [[LLA/2021 Season/Opening Season|spring split]], but won a tiebreaker over [[XTEN Esports]] to qualify for Phase 2. A 2-2 record in that stage qualified them for [[LLA/2021 Season/Opening Playoffs|playoffs]], but they lost 3-1 to [[All Knights]] in the first round, ending their season. Only a few days after Rainbow7's playoff elimination, Rey left the team. 
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

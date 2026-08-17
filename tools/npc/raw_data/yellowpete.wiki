@@ -1,0 +1,166 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Yellowpete&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.537Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「yellowpete」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=yellowpete
+|name=Peter Wüppen
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Germany
+|residency=Europe
+|checkbox-res=No
+|birth_date_year=1989
+|birth_date_month=October
+|birth_date_day=05
+|favchamp=Kog'Maw
+|favchamp2=Ezreal
+|favchamp3=Urgot
+|favchamp4=Varus
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/yellowpete
+|facebook=https://www.facebook.com/Yellowpete.LoL
+|twitter=yellowpeteLoL
+|reddit=yellowpete
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxPrev=No
+}}
+==Biography==
+Yellowpete is a player hailing from Hanover, Germany. At the age of ten, yellowpete started playing real-time strategy game "Age of Empires". Eventually yellowpete grew into games like Counter-Strike 1.6 and Counter-Strike Source, Warcraft, and Defense of the Ancients. One of yellowpete's friends who he played DotA with soon showed him League of Legends. 
+
+As LoL grew, so did yellowpete’s skill and reputation as a top-tier player. Strong mechanical skill is something yellowpete says all of the top professional players have mastered and that what sets him apart is his continually positive attitude toward the game. He communicates well in game and continually strives to create new strategies to improve his team.
+
+In February 2015, Yellowpete officially announced his retirement from competitive League of Legends, after a two-month-long break from playing. He expressed intentions of becoming a casual Hearthstone streamer.<ref>[https://www.facebook.com/Yellowpete.LoL/posts/836618786383772 Yellowpete's Facebook post] ''facebook.com''</ref>
+
+== Trivia ==
+* His favorite champion is {{ci|Kog'maw}}.<ref>[http://www.progamingtours.net/index.php?/League-of-Legends/counter-logic-gaming-clg.html Counter Logic Gaming - The Team] ''progamingtours.net''</ref>
+** Played his signature champion {{ci|Kog'maw}} in his last LCS match.<ref>[https://www.youtube.com/watch?v=g08j0OvRpHE Lol Esports Youtube]youtube.com</ref>
+* Skydiving was one of his biggest dreams, and he was able to achieve it as part of an interview.<ref>[http://www.in2lol.com/en/news/3554-knochen-interviews-yellowpete Knochen interviews Yellowpete] ''in2lol.com''</ref>
+* During Season 1 he had the highest Elo in solo queue (2507) and in Premade 5vs5 (2111) on EU West.<ref>[http://competitive.euw.leagueoflegends.com/ladders/euw/archived/1 Season One Ladders Archive] ''leagueoflegends.com''</ref>
+* He and [[Krepo]] previously teamed up in the bottom lane for [[La GG]].
+* Hopes to remain a part of the eSports scene once he has retired from the position of player.
+* Got his nickname "yellowpete" from the eponymous character in the Mafia game.<ref>[http://www.in2lol.com/en/news/3554-knochen-interviews-yellowpete Knochen interviews Yellowpete] ''in2lol.com''</ref>
+* Married on September 16, 2016.<ref>[https://twitter.com/yellowpetelol/status/776548173661822976?lang=en Yellowpete's Twitter]twitter.com</ref>
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+===Interviews===
+{{TDRight
+|name1=2012
+|name2=2013
+|name3=2014}}
+{{TDRight|tab}}<!--2014-->
+* January 30 - [http://euw.lolesports.com/articles/tale-two-continents-yellowpete-innox A Tale of Two Continents: Yellowpete & InnoX] ''with LoL eSports''
+* February 16 - [http://www.monsterenergygaming.com/News/?id_news=175 The Yellowpete Mentality] ''with Monsters Gaming''
+* May 23 - [http://www.ongamers.com/videos/yellowpete-talks-about-his-last-match-in-the-lcs-a/2300-581/ Yellowpete talks about his last match in the LCS and his future plans (video)] ''with onGamers''
+* May 25 - [http://www.paravine.com/interview-eg-yellowpete/ Interview with Evil Geniuses’ Yellowpete] ''with Paravine''
+* May 29 - [https://www.youtube.com/watch?v=UQ1IEp8r_j0 EG Yellowpete: Moving Forward] ''with Azubu''
+{{TDRight|tab}}<!--2013-->
+* February 14 - [http://evilgeniuses.net/getting-to-know-yellowpete-egs-ad-carry/ Getting to Know Yellowpete – EG’s AD Carry] ''with Evil Geniuses''
+* March 25 - [[Articles:Five_Minutes_with_yellowpete|Five Minutes with yellowpete]] ''with Leaguepedia''
+* March 24 - [http://memid.fr/interviews-de-froggen-et-yellowpete-aux-lcs-de-lille/ Yellowpete at LCS EU Lille (French)] ''with Me Mid''
+* April 9 - [http://lol.ingame.de/interviews/interview-with-peter-yellowpete-wueppen/ Interview with Peter "Yellowpete" Wüppen] ''with inLoL.de''
+* June 6 - [http://www.aceresport.com/uk/content/332.htm yellowpete 'Grilled' (video)] ''with Team Acer''
+* June 13 - [http://evilgeniuses.gg/yellowpete-back-from-shanghai-and-back-to-lcs/ Yellowpete – Back from Shanghai and Back to LCS] ''with Evil Geniuses''
+* August 1 - [http://www.escene.de/news,709,yellowpete-i-can-see-us-doing-well.html yellowpete: "I can see us doing well"] ''with eScene.de''
+* August 23 - [http://www.gamespot.com/6413596 Evil Geniuses Yellowpete post win EU LCS regional interview (video)] ''with GameSpot''
+* December 2 - [http://evilgeniuses.gg/Read/213,Catching-Up-with-Yellowpete-Rundown-of-the-Pre-Season/ Catching Up with Yellowpete: Rundown of the Pre-Season] ''with Evil Geniuses''
+{{TDRight|tab}}<!--2012-->
+* February - [http://www.absolutelegends.eu/news/686/Interview-with-yellowpete- Interview with yellowpete] ''with Absolute Legends''
+* March 11 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/1019/Interview-with-CLG.eus-AD-carry-yellowpete/ Interview with CLG.eu's AD carry, yellowpete] ''with Team Dignitas''
+* March 14 - [http://www.sk-gaming.com/content/39079-Interview_with_CLGeus_Yellowpete Interview with CLG.eu's Yellowpete] ''with SK Gaming''
+* April - [http://clgaming.net/news/66-interview-with-yellowpete Interview with Yellowpete!] ''with Counter Logic Gaming''
+* May 11 - [http://championselect.net/blog/10/Interview+with+yellowpete Interview with yellowpete] ''with Champion Select''
+* June 9 - [http://www.youtube.com/watch?v=YA4-a-deKps YellowPete - MLG Anaheim Day One] ''with StateoftheLeague''
+* July 5 - [http://www.youtube.com/watch?v=8FG4mIwMMMo Knochen's eSport Sofa - Yellowpete (CLG) Folge 3 Staffel 4 (German)] [http://www.in2lol.com/en/news/3554-knochen-interviews-yellowpete (English translation)] ''with Knochen's eSports Sofa''
+* July 29 - [http://www.youtube.com/watch?v=1QHHeo0anrk Yellowpete: "We definitely want to stay in Korea" (video)] ''with Fragster''
+* August 2 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/1878/AD-range-champions-review-with-CLG.eus-AD-carry-yellowpete/ AD range champions review with CLG.eu's AD carry, yellowpete] ''with Team Dignitas''
+* August 3 - [http://www.youtube.com/watch?v=loOcR1nZ67Y ECC: Poland - Interview with Peter "Yellowpete" Wuppen] '' with ESLtvPL ''
+* August 16 - [http://www.youtube.com/watch?v=h0KAmheRdpg Yellowpete: "only practiced with Korean teams and CLG.NA"] ''with Team Acer''
+* August 16 - Trò chuyện với Yellowpete về các tướng sát thương vật lí (Vietnamese)  [http://lienminh.garena.vn/index.php/cam-nang/972-tro-chuyen-voi-yellowpete-ve-cac-tuong-sat-thuong-vat-li-phan-1 Part 1] [http://lienminh.garena.vn/index.php/cam-nang/1003-tro-chuyen-voi-yellowpete-ve-cac-tuong-sat-thuong-vat-li-phan-2 Part 2] [http://lienminh.garena.vn/index.php/cam-nang/1007-tro-chuyen-voi-yellowpete-ve-cac-tuong-sat-thuong-vat-li-phan-3 Part 3] [http://lienminh.garena.vn/index.php/cam-nang/1012-tro-chuyen-voi-yellowpete-ve-cac-tuong-sat-thuong-vat-li-phan-cuoi Part 4] ''with Garena''
+* August 20 - [http://www.own3d.tv/SKGaming/watch/759139 CLG Yellowpete Gamescom 2012 Interview] ''with SK Gaming''
+* September 29 - [http://www.facebook.com/photo.php?pid=1497747&l=335ec4a62a&id=208056762558521 Pre-Season 2 Interview with CLG.EU Yellowpete] ''with Razer''
+* October 6 - [http://www.youtube.com/watch?v=6sPhHOuQ1Ls S2 finals - CLG.eu yellowpete] ''with SK Gaming''
+* October 30 - [http://mmo.justnetwork.eu/2012/10/30/lol-podcast-2-mit-yellowpete/ LoL Podcast #2 with Yellowpete (German Audio)] ''with Just MMO.eu''
+* November 3 - [http://www.gamespot.com/league-of-legends/videos/yellowpete-and-jree-discuss-their-matches-and-jrees-future-with-clgeu-6399447/ Yellowpete and Jree talk about their win over TSM at MLG Dallas (video)] ''with Gamespot''
+* November 4 - [http://www.youtube.com/watch?v=T7EoRF01Qc4 Yellowpete (CLG EU) Interview with Chobra - MLG Fall Championship Dallas (video)] ''with ggChronicle''
+* November 21 - [http://www.team-dignitas.net/articles/blogs/League-of-Legends/2515/CLG-Yellowpete-gives-tips-for-bot-lane-and-AD-carry-gameplay-talks-about-Season-2-3-and-much-more/ CLG Yellowpete gives tips for bot lane and AD carry gameplay, talks about Season 2 & 3 and much more] ''with Team Dignitas''
+* December 1 - [http://www.youtube.com/watch?v=Voqo1Ilaw4M Dan Dinh & CLG.eu Yellowpete at IPL5 (video)] ''with CyberSportsNetwork''
+* December 4 - [http://www.youtube.com/watch?v=3amVkvdPREc Pro Pass at IPL5: CLG.EU's yellowpete (video)] ''with ESFI World''
+* December 6 - [http://www.youtube.com/watch?v=bnB3zzirQSo CLG Yellowpete at IPL5 (video)] ''with Quantic Gaming''
+* December 14 - [https://www.youtube.com/watch?v=-YPGCLD9Ox8 MOBAFire: IPL 5 Interview with CLG YellowPete (video)] ''with MOBAFire''
+* December 16 - [http://www.youtube.com/watch?v=ERyabkQHZDs Interview with CLG.YellowPete at IEM Cologne (video)] ''with Fragster.de''
+* December 16 - [http://www.youtube.com/watch?v=9_TAIafW3ec Interview with CLG.eu's ADC YellowPete at IEM Cologne (video) (german)] ''with Pixomize''
+{{TDRight/end}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

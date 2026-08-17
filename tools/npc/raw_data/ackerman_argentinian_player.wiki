@@ -1,0 +1,83 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ackerman%20(Gabriel%20Aparicio)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.380Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ackerman (Argentinian player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ackerman
+|name=Gabriel&nbsp;Agustin Aparicio
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Argentina
+|residency=Brazil
+|birth_date_year=2002
+|birth_date_month=November
+|birth_date_day=29
+|favchamp=Pyke
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR:''' ÁCK#BR1<br>'''NA:''' ACKÈRMAN#NA1<br>'''EUW:''' seventy thirty, ACKERMÁN <br> '''KR:''' LOS Ackerman#LOS
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/ackermanl0l
+|twitter=Ackerman_sup
+|instagram=ackermansup
+|lolpros=https://lolpros.gg/player/ackerman
+|deeplol=https://www.deeplol.gg/pro/Ackerman-Gabriel_Aparicio
+|dpmlol=https://dpm.lol/pro/Ackerman
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+Gabriel Aparicio is from Córdoba, Argentina.
+
+== Trivia ==
+* Has reached Challenger for the first time at 13 years old.
+* He likes to get together with his friends to eat [https://en.wikipedia.org/wiki/Asado Asado] and play other games.
+* Is [[Kimi (Cristian Aparicio)|Kimi]]'s younger brother, and played against him in the LMF Opening 2019.
+* In the [[CBOLÃO League S1 - Legends Stage|CBOLÃO]], '''Ackerman''' was interviewed by [[Rahkys]] but didn't understand a word she said because he didn't know much of the language. This later became a meme in [[Isurus]]' posts.<ref>[https://x.com/teamisurus/status/1947740359112409560 Isurus' X Post] ''x.com''</ref>
+=== Individual Awards ===
+* 1x LLA Player of the Week in the split (Opening 2024)
+* 2x LLA All Pro Team (Opening 2021, Closing 2021)
+* 1x LLA Outstanding Rookie (Opening 2021)
+* 1x CBLOL Regular Season Team (Cup 2026)
+* 1x CBLOL Regular Season MVP (Cup 2026)
+===Equipment===
+* Mouse: Logitech G Pro X Superlight
+* Keyboard: Logitech G512 Carbon
+* Mousepad: Logitech G840 League of Legends
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

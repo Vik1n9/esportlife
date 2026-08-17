@@ -1,0 +1,123 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kami%20(Gabriel%20Bohm%20Santos)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.104Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kami」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Kami
+|name=Gabriel Bohm Santos
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=April
+|birth_date_day=02
+|favchamp=Ezreal
+|favchamp2=Ahri
+|favchamp3=Anivia
+|favchamp4=Twisted Fate
+|checkbox1=Yes
+|favchamp5=LeBlanc
+|favchamp6=Zoe
+|favchamp7=Veigar
+|checkboxComp=No
+|ids=paiN KamiKat, Kami
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kamikat
+|facebook=https://www.facebook.com/pKamiKat
+|twitter=Kamizeon
+|instagram=painkami
+|snapchat=Kamizeon
+|youtube=https://www.youtube.com/c/Kamikat
+|lolpros=https://br.lolpros.gg/player/kami-3
+|deeplol=https://www.deeplol.gg/pro/Kami-Gabriel_Bohm_Santos
+|kick=KamiKat
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+|nicknames=Kamikat
+}}
+==Biography==
+===2015 Season===
+After winning the [[Riot Latin America Cup 2014 - Grand Final|Riot Latin America Cup 2014 Grand Final]], paiN Gaming qualified as the Latin American team for [[IEM Season IX - San Jose|IEM San Jose]]. They attended with a roster consisting of [[Leko]], [[SirT]], [[Kami (Gabriel Bohm Santos)|Kami]], [[Lactea]], and [[Olleh]] and were eliminated in the quarterfinals, losing to [[Cloud9]] 0-2 and tying for fifth place in the tournament with [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]].
+
+At Worlds, paiN were seeded into Group A along with [[Flash Wolves]], [[KOO Tigers]], and [[Counter Logic Gaming]]. They picked up two wins in the group, against eventual group winners Flash Wolves in the first week and then against CLG in the second week, and their 2-4 overall record and 1-1 head-to-head with CLG left them tied for third place, not advancing from groups. Despite their immediate elimination, paiN's group stage run was seen as a major success: they were the first Wildcard team to win more than one game at a World Championship and also the first Wildcard team to finish higher than sole possession of last place in their group. Additionally, they looked good in some of their losses: their second game against Flash Wolves lasted 52 minutes and could have gone either way at multiple points.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* He was the highest ranked Brazilian in the high elo ladders in Seasons 1 and 2 on the NA servers.
+* When the Brazilian server was created, Kami transferred his account and became top Elo by the end of Season 2.
+* He was highly regarded for his {{ci|Warwick}} plays early on his career.
+* He is known to doodle in Microsoft Paint during streams, especially {{ci|Anivia}}.
+* Was the highest lolking/LP score on any League of Legends server to date with 3471 LKS and 1316 LP. 
+* His favorite champion is {{ci|Ezreal}}.
+* Considered by many to be one of the best overall players in Brazil.
+* He likes to play {{ci|Ziggs}} and {{ci|Cho'Gath}} on Solo Queue.
+* Frequently buys [[Mejai's Soulstealer]] in Solo Queue, even if not fed.
+* He likes to play AP {{ci|Ezreal}}.
+* Known for his {{ci|Anivia}}, {{ci|Gragas}}, {{ci|Ahri}}, {{ci|Lux}}, {{ci|Zed}}, {{ci|Kha'Zix}} and {{ci|Karthus}}.
+* Portrayed as {{ci|Ahri}} in the CBLoL 2015 official wallpaper.
+* After the [[Riot Season 3 Brazilian Championship]] he became the meme "Vai chorar?" ("Gonna cry?") due to his ironic looking face.
+* Despite being the Brazilian Top 1 for a long time he returned to Diamond I due to inactivity for playing at Gamescom 2013.
+** Two weeks after he returned to Diamond I, he had got to Challenger with 2920 LKS and 528 LP.
+* Despite being a key player for the [[Riot Season 3 Brazilian Championship]] win, he didn't want to be the one to lift the trophy.
+* He likes {{ci|Ahri}} because if her joke: "If you'd like to play with me, you'd better be sure you know the game."
+* In [[CBLOL 2017 Split 1 Playoffs]], '''Kami''' played {{ci|Katarina}} in a game against [[YoDa (Felipe Noronha)|YoDa]], a former Katarina main, and lost. After winning one of the game's teamfights, YoDa jokingly stated '''Kami''' doesn't know how to play the champion. This has become a running gag in the Brazilian community.<ref>[https://youtu.be/7QrKeS7jE7k?t=99 Mic Aberto: Red Canids x paiN Gaming (Portuguese/Video)] ''youtube.com''</ref>
+* Took two photos with [[Faker]] during [[Worlds 2015]]. <ref>[https://www.facebook.com/photo?fbid=844342012351288&set=a.761233620662128 LOL Esports Brasil's Facebook Post] ''facebook.com''</ref><ref>[https://www.facebook.com/photo?fbid=1067992103319610&set=a.325937867525041 LOL Esports Brasil's Facebook Post] ''facebook.com''</ref>
+* His '''Kings Lendas''' team name comes from a pun with [[paiN Gaming]] and his polemic patriotic declarations which suspended him from [[paiN Gaming]] that later on became a meme.
+** The team's logo also references the American football team [[wikipedia:en:New England Patriots|New England Patriots]].
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* He's openly homosexual.
+* He was the first Brazilian player to have over 10,000 viewers simultaneously on his stream.
+* He loves '''[[wikipedia:en:One Piece|One Piece]]''' and played a browser game based on the saga when waiting for queue, named Kaizoku Project.
+* He liked to improve his reflexes playing the Touhou game collection while waiting for the queue to pop.
+* He stepped away from competitive play in January 2018 to focus on personal projects and to study to become an airplane pilot. Many considered this as his retirement, although he never officially announced it as such. He eventually announced his return to competitive LoL in September 2019, but officially announced his retirement in November 2020.
+|-|
+Notable Achievements=
+=== Notable Achievements ===
+* Was the first Brazilian midlaner to be called the "'''Brazilian [[Faker]]'''" by his fans. After his retirement, the title is often assigned to [[Tinowns]].
+</tabber>
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

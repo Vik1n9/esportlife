@@ -1,0 +1,63 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Serin&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.245Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Serin」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Serin
+|name=Tolga Ölmez
+|checkboxAutoImage=Yes
+|country=Turkey
+|nationality=Turkey
+|residency=EMEA
+|birth_date_year=2002
+|birth_date_month=April
+|birth_date_day=10
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' MSI MISSION<br>WìIIy Wonka
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/serinlol12
+|twitter=Serinlol
+|instagram=serinlol
+|lolpros=https://lolpros.gg/player/serin
+|deeplol=https://www.deeplol.gg/pro/Serin
+|dpmlol=https://dpm.lol/pro/Serin
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=WarL0cK&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.259Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「WarL0cK」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=WarL0cK
+|name=Pawat Ampaporn
+|nativename=ภวัต อัมพาภรณ์
+|namealphabet=Thai
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Thailand
+|residency=PCS
+|favchamp=Gnar
+|favchamp2=Maokai
+|favchamp3=Shen
+|favchamp4=Hecarim
+|checkbox1=No
+|compID1=WarL0K
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|team=Red Canids
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/warl0ck108
+|facebook=https://www.facebook.com/OfficialWarL0cK
+|twitter=WarL0c
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=Yes
+|residency-prev1=Southeast Asia
+|checkboxIsSub=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+===Season 3===
+Pawat "'''WarL0K'''" Ampaporn joined Blackbean during the season. He played primarily jungle, although he also played other roles on occasion, such as top lane. His first appearance with the team at a major tournament was at the [[2013 LCS Pro League Thailand]], a three-month league with other Thai teams. Blackbean came in 4th all three months during the regular season and during playoffs. WarL0K also played with Blackbean in the [[Thailand Grand Championship 2013]], where the team again came in 4th. Immediately after the tournament, WarL0K left the team. He changed the spelling of his name from WarL0K to '''WarL0cK''' and joined [[Bangkok Titans]], one of the strongest teams in Thailand.
+
+===2014 Season===
+The regional dominance of Bangkok Titans gave WarL0cK the opportunity to compete outside of the local Thai scene. However, Bangkok Titans was considered a weak team compared to other Southeast Asian squads, having had poor showings during all previous seasons of the [[Garena Premier League]] (GPL). The trend continued in the [[2014 GPL Winter]], where Bangkok Titans finished with a 1-9 record and did not leave Group Stage. During the tournament, WarL0cK played mid lane, top lane, and jungle for the team, filling in during various roster swaps. WarL0cK continued to shuffle positions during the [[2014 GPL Spring]], adding support to his repertoire. The team continued to struggle until the [[2014 GPL Summer]], when the roster finally stabilized and WarL0cK began to play primarily top lane. The team managed to reach the Bracket Stage, but was eliminated by [[ahq e-Sports Club]] in the quarterfinals.
+
+===2015 Season===
+Bangkok Titans found even more success in the [[2015 GPL]], which had been changed to exclude the historically-dominant Taiwanese teams. In [[2015 GPL Spring|Spring]], the team managed a 2nd place finish and subsequently qualified for the [[2015 International Wildcard Invitational]] when the 1st place team, [[Saigon Fantastic Five]], was unable to attend. At IWCI, the team performed well, going undefeated in the Round Robin stage. In the playoffs, however, they were eliminated 0-3 by the eventual winners, [[Beşiktaş e-Sports Club]].
+
+The team returned for [[2015 GPL Summer]], where they achieved a 1st place finish and qualified for the [[2015 International Wildcard Tournament/Turkey|2015 International Wildcard Tournament]] in Turkey. They defeated Oceania's [[The Chiefs eSports Club]] in the finals to qualify for the [[2015 Season World Championship]]. They were placed in group C, along with [[SK Telecom T1]], [[EDward Gaming]], and [[H2k-Gaming]]. Unfortunately, they failed to win a single game and were knocked out of the tournament in last place.
+
+===2016 Season===
+WarL0cK remained with Bangkok Titans for the Spring season of the [[Thailand Pro League/2016 Season/Spring Season|2016 Thailand Pro League]] (TPL),<ref>[https://www.facebook.com/BangkokTitans/posts/968795203190916:0 Bangkok Titans Facebook Post January 7, 2016 (Thai)] ''facebook.com''</ref>, where they went undefeated over 25 games for a 1st place finish. Despite the strong showing, WarL0cK left the team after the tournament to co-found a new team, [[e.o.s Gaming]].<ref>[http://www.eosgaming.org/en/ A Message from WarLocK] ''eosgaming.org''</ref> WarL0cK swapped roles to support for the new team, which finished in 3rd place during the [[Thailand Pro League/2016 Season/Summer Season|2016 TPL Summer]].
+
+== Trivia ==
+* Speaks English fluently.
+* He was the team captain of Bangkok Titans during its appearance at the 2015 World Championship.
+* His favorite champions are {{ci|Gnar}}, {{ci|Maokai}}, {{ci|Shen}}, and {{ci|Hecarim}}.
+* He has played all roles in the GPL except AD carry.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

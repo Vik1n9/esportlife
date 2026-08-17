@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Wuxx&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:45.922Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Wuxx」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Wuxx
+|name=Wang Cheng
+|nativename=王城
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1996
+|birth_date_month=January
+|birth_date_day=10
+|favchamp=Lucian
+|favchamp2=Kog'Maw
+|favchamp3=Yasuo
+|checkbox1=No
+|compID1=NoHeart
+|compID2=wuxin
+|checkboxComp=No
+|ids=King丶无心i
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''NoHeart'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+[[Team King]] picked up '''NoHeart''' during the team's roster re-haul in June 2014. The team saw great success in the LSPL, and NoHeart formed a reputation for his amazing positioning, team fighting presence and great botlane synergy with [[LeY]]. The team was able to take first to clinch a spot in the 2015 LPL Spring Season, and later changing his name to '''wuxx'''. He was later picked up by [[Royal Never Give Up]] in summer 2015.
+Royal Never Give Up were invited to [[IEM Season X - World Championship|IEM Katowice]] in March 2016 where they finished first in their group beating both [[Origen]] and [[ESC Ever|Ever]]. However, they were defeated 1 - 2 by [[Fnatic]] in the playoffs bracket, placing third along with [[Team Solo Mid]].
+
+== Trivia ==
+* His fomer ID '''wuxin''' (无心) means "No Heart" in Chinese. His ID '''wuxx''' is short for '''wuxin'''.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

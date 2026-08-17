@@ -1,0 +1,98 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Tay&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.056Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Tay」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Tay
+|name=Rodrigo Panisa
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=November
+|birth_date_day=22
+|favchamp=Azir
+|favchamp2=Zed
+|favchamp3=Riven
+|favchamp4=Camille
+|checkbox1=No
+|compID1=TaeYeon
+|checkboxComp=No
+|ids='''BR''': 스트레스유발협끅 #베아트리즈 <br>'''CN''': BR01
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/taylolxd
+|facebook=https://www.facebook.com/loudtaylol
+|twitter=taylolxd
+|instagram=taylolxd1
+|youtube=https://www.youtube.com/channel/UC64mAif6mFuK-5NkDi0iqUw
+|tiktok=taylolxd1
+|lolpros=https://br.lolpros.gg/player/tay-1
+|deeplol=https://www.deeplol.gg/pro/Tay
+|threads=taylolxd1
+|kick=taylolxd
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''TaeYeon'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+'''Taeyeon''''s first appearance in the competitive scene was in 2013 with {{bl|Rising On Gaming}}, along with {{bl|yeTz}}, {{bl|MiT}}, and {{bl|Rafes}}. After that, he stayed away from the competitive spotlight until the beginning of 2015, when he joined {{bl|Keyd Warriors}} and achieved third place in the [[Brazilian Challenger Circuit/2015 Season/Split 1|Brazilian Challenger Circuit Split 1 2015]]. After defeating [[Dexterity Team]] in the [[CBLOL/2015 Season/Split 2 Promotion|Promotion Series]] and qualifying to [[CBLOL/2015 Season/Split 2|CBLOL Split 2 2015]], the roster was acquired by {{bl|g3nerationX}}.
+
+== Trivia ==
+* Has played competitively as midlaner, botlaner, jungler and toplaner.
+* Known as the player with the most hours of gameplay in the Brazilian server.<ref>[http://wasted-on-lol.com/top/br/1/ Top 100 BR] ''wasted-on-lol.com''</ref>
+* Known as the "King of Normal Game", with over 7,000 wins in this game mode (as of April 2016).<ref>[http://i.imgur.com/g8u71Zs.png TaeYeon Infographic by paiN Gaming (Portuguese)] ''imgur.com''</ref>
+* Nicknamed "Lula Molusco" ("Squidward") by the Brazilian fans, due to his appearance.
+* Portrayed as {{ci|Zed}} in the CBLoL 2015 official wallpaper. 
+* Appeared in many fail video compilations after he, as {{ci|urgot}}, accidentally activated his Teleport during a fight in the first game of the [[2020_Season_World_Championship/Play-In|Worlds 2020 Play-In]], losing out on a likely guaranteed first blood.<ref>[https://www.youtube.com/watch?v=X6KbNP1J-L0 BEST TP WORLDS 2020 XD] ''youtube.com''</ref> His TP is often compared to [[LEP]]'s TP in [[Worlds 2014]].
+* After winning [[2023_Season_Kickoff/Brazil|Season Kickoff Brazil 2023]] he decided on creating a Hang Loose emote who got viral in Reddit soon after its visual was released and the emote ended up being used by a lot of eastern players, including [[JackeyLove]].<ref>[https://maisesports.com.br/cblol-2023-hangloose-escolhido-por-tay-viraliza-no-reddit/ CBLOL 2023: Hangloose escolhido por Tay viraliza no reddit (Portuguese)] ''maisesports.com.br''</ref><ref>[https://x.com/LPLinsider_/status/1825213205892997223 LPL Insider's X Post] ''x.com''</ref>
+* Is a recurring guest in [[Ilha das Lendas]] LCK and LPL co-streams.<ref>[https://x.com/ilhadaslendas/status/1826213758819356694 Ilha das Lendas' X Post] ''x.com''</ref> He eventually joined regular '''IDL''' transmissions for the CBLOL and the LTA.
+* Is a big fan of [[GenG]]. He is the self-proclaimed leader of the "300": a Brazilian fanbase of the team whose name comes from the [[wikipedia:en:Battle of Thermopylae|Spartan group led by Leonidas in the Battle of Thermopylae]].<ref>[https://x.com/taylolxd/status/2034020192884269341 Tay's X Post] ''x.com''</ref>
+** He eventually got to interview [[Ruler]] during [[2026 First Stand|the First Stand in 2026]] and gifted him a t-shirt representing the crowd.<ref>[https://x.com/taylolxd/status/2033652019425153449 Tay's X Post] ''x.com''</ref>
+** In the same time period, he was also recognized by [https://x.com/arnoldwh Arnold], the team's CEO, who thanked his support.<ref>[https://x.com/arnoldwh/status/2034418080596873336 Gen.G Arnold's X Post] ''x.com''</ref>
+* His '''Kings Lendas''' team name comes from a pun with [[Taipei Assassins]] and his infamous {{ci|urgot}} Teleport (whenever a similar TP happens, people in Brazil say "Tepei").
+=== Statistics ===
+* Reached 1000 kills in the CBLOL in March 16th, 2024.
+** His 1000th kill was on [[Fluxo]]'s jungler, [[Sting]], playing as {{ci|gnar}} for [[INTZ]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Casting History ==
+{{CastingHistory}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,69 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Pomelo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:49.323Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「bigpomelo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=pomelo
+|name=Ou-Yang Wei-Qi
+|nativename=欧阳维奇
+|namealphabet=Hanzi
+|image=OMG Bigpomelo 2013 WCS.png
+|checkboxAutoImage=No
+|country=China
+|residency=China
+|birth_date_year=1992
+|birth_date_month=October
+|birth_date_day=18
+|favchamp=Elise
+|favchamp2=Kha'Zix
+|checkbox1=No
+|compID1=bigpomelo
+|checkboxComp=No
+|ids=OMGdouyuTVpomelo, Jungle Pig Raise (NA), IlIIIlIIlIIlIlIl (NA), OMGbigpomelo
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Caster
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=Yes
+|istrainee5=No
+|checkbox3=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Jungler
+|prev2=Support
+|nicknames=大柚子
+}}
+==Biography==
+
+== Trivia ==
+* His favorite champion is {{ci|Veigar}}.<ref>[http://wangyou.pcgames.com.cn/zhuanti/lol/pcgl/1203/2468764_5.html 太平洋LOL职业联赛 各大明星战队巡礼] ''wangyou.pcgames.com.cn''</ref>
+* Has a compound Chinese surname (欧阳).
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+===2014===
+* April 29 - [http://www.gosugamers.net/lol/features/3840-omg-pre-all-stars-interview-the-domination-of-omg-future-predictions-and-lane-swapping OMG Pre All-Stars Interview: The domination of OMG, future predictions, and lane swapping] ''with GosuGamers''
+=== Images ===
+<gallery>
+PHX Pomelo.jpg|PHX Pomelo
+</gallery>
+
+{{PlayerPageEnd}}

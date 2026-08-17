@@ -1,0 +1,77 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=IBoy&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:51.015Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「iBoy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=iBoy
+|name=Hu Xian-Zhao
+|nativename=胡显昭
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=July
+|birth_date_day=12
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 21year0120
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.zhanqi.tv/edgiboy
+|weibo=https://www.weibo.com/n/ALiboy123
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+==Biography==
+
+===2017 Season===
+In May of 2017, iBoy joined [[EDward Gaming]] as a young up and coming ADC. Although he wasn't the starter for EDG throughout the first half of the [[LPL/2017_Season/Summer_Season|2017 LPL Summer Split]], he played in the latter half. EDG finished 1st in the regular season and eventually won the [[LPL/2017_Season/Summer_Playoffs|2017 LPL Summer Playoffs]] after taking down RNG in the finals 3-2 in a reverse sweep.
+EDG's [[2017 Season World Championship]] run was largely unsuccessful. The team finished tied for 3rd in their group along with [[ahq e-Sports Club]] and failed to advance to the Quarterfinals. Despite their failure, iBoy was able to showcase his innate talent as an ADC player.
+
+== Trivia ==
+* He, [[JackeyLove]] and [[Able]] were called the three genius ADCs of LPL.
+* He likes to drink liquor and to play cards.
+* Is nicknamed "Fishman" by Chinese fans, and "Banana Boy" by [[Meiko]] due to his love of the fruit.
+* Reached 1000 kills in the LPL on August 7, 2020.
+** The 23rd player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on July 16, 2022.
+** The 16th player to reach 1500 kills in the LPL.
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

@@ -1,0 +1,145 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=KT%20Rolster&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.365Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「KT Rolster」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name=KT Rolster
+|orgcountry=South Korea 
+|country=
+|region= KR
+|sponsor= [https://www.kt.com/ kt]<br>[https://www.sooplive.co.kr SOOP]<br>[https://www.yspotlight.co.kr/ KT_Y]<br>[https://brand.kbanknow.com/ Kbank]<br>[http://www.jaseng.net/ Jaseng Hospital of Korean Medicine]<br>[https://www.logitechg.com/en-us Logitech G]<br>[https://www.whanin.com/ Whanin Pharmaceutical]
+|headcoach= Go "'''[[Score]]'''" Dong-bin
+|manager=
+|captain=
+|website=http://kt-sports.co.kr/sports/site/esports/rolster/bi.do
+|facebook=https://www.facebook.com/ktesports
+|twitter=ktRolster_tw
+|instagram=ktrolstagram
+|stream=https://chzzk.naver.com/b977ba999a40e4cae6afc29dc1a21d83
+|youtube=https://www.youtube.com/channel/UC8FErYSi74YwGUAoTpjvgzQ
+|tiktok= rolstertok
+|created=2012-10-10
+|rosterphoto=KTRolster_LCK 2026.jpg
+}}{{TOCRWI}}
+
+'''KT Rolster''' (also stylized as '''kt Rolster''', ''Korean:'' KT롤스터) is a Korean professional gaming organization owned by '''KT Corporation'''. 
+
+Before the Korean restructuring, KT fielded two sister teams, [[KT Rolster Arrows]] and [[KT Rolster Bullets]] which were created by the organization on October 10, 2012.<ref>[http://esports.dailygame.co.kr/news/read.php?id=67667 KT Rolster starts 2 LoL teams] ''esports.dailygame.co.kr''</ref> It originally began as ''StarCraft: Brood War'' team KTF Magics and included among its stars a number of players who also became involved with ''League of Legends'' - coaches [[YellOw]] ([[Xenics Storm]]) and [[Reach (Park Jung-suk)|Reach]] ([[NaJin e-mFire]]) and casters/streamers Kim Dong Soo (Garimto) and Kang Min (Nal_Ra).
+
+==History==
+===Season 3===
+On October 10, 2012, [[KT Rolster]] created two teams for their League of Legends division, [[KT Rolster A]] and [[KT Rolster B]]. KTA was made up of [[Hiro (Lee Woo-suk)|Hiro]], [[Vitamin]], [[ReSEt]], [[Zero (Yoon Kyung-sup)|Zero]], and [[Wall (Son Chang-hoon)|Wall]] while KTB featured [[Ragan]], [[KaKAO]], [[Ryu]], [[Score]], and [[Mafa]]. The two teams combined in March for the [[OGN Club Masters]] where they placed third after losing 3-2 to [[MVP]] but beating [[CJ Entus]] 3-0. Star player of [[NaJin Black Sword]], Maknoon, joined KTA in May of 2013 and the team was reformed around him as their center piece. Shortly afterwards, KTA was renamed to the '''KT Rolster Arrows''' and KTB was renamed to the KT Rolster '''Bullets'''. Unfortunately for KT, neither team was able to qualify for the [[Season 3 World Championship]].
+
+===2014 Season===
+At the beginning of the season, the Arrows were restructured again to cope with the loss of Maknoon as the star. This new team featuring [[KaKAO]], [[Rookie]], [[Ssumday]], [[Arrow]], and [[Hachani]] were able to bring KT its first OGN Championship after they beat [[Samsung Blue]] 3-2 at [[HOT6iX Champions Summer 2014]]. Just prior to this they played in the [[SK Telecom LTE-A LoL Masters 2014]] but placed fifth overall out of seven teams and missed playoffs. Both KT Rolster teams failed to qualify for the [[2014 Season World Championship]] at the end of the season.
+
+===2015 Season===
+Changes to OGN rules that banned organizations from owning two teams forced the Arrows and the Bullets to merge for the 2015 season. KT Rolster fielded a roster featuring Ssumday, Score, [[Nagne]], Arrow, and Hachani as the starting five. The team did not fair well in [[SBENU Champions Spring 2015]] and placed fifth overall for the season, barely missing playoffs. KT did much better in the regular season of [[SBENU Champions Summer 2015]], placing second behind a nearly undefeated [[SK Telecom T1]] team. They made it to the finals of the playoffs but lost 3-0 to SKT. KT qualified for the finals of the [[2015 Season Korea Regional Finals]] where they beat the [[Jin Air Green Wings]] 3-1 to qualify for the [[2015 Season World Championship]] as the number three seed from Korea. KT was drawn into a group with [[LGD Gaming]], [[Team SoloMid]], and [[Origen]]. They ended with a 5-1 record and went on to play the [[KOO Tigers]] in the quarterfinals. They lost 3-1 and were knocked out of the tournament.
+
+===2016 Preseason===
+KT played in the [[2015 LoL KeSPA Cup]] where they lost 2-1 in the semifinals to [[CJ Entus]]. Shortly afterwards, starting midlaner [[Nagne]] and support [[Piccaboo]] left the team. KT signed [[Fly (Song Yong-jun)|Fly]], former mid of [[Young Glory]], to replace Nagne, and two supports: [[IgNar]] from [[Incredible Miracle]] and [[Hachani]], former coach of [[Rebels Anarchy]].
+
+===2016 Season===
+During the [[LCK/2016 Season/Spring Season|LCK 2016 Spring Season]], KT Rolster finished second place in the regular season with a 13-5 match record. [[IgNar]] would leave the team halfway through the season. Their regular season placement earned them a bye into the semi-finals of the [[LCK/2016 Season/Spring Playoffs|Spring Playoffs]], where they faced [[SK Telecom T1]]. Unfortunately, they were swept 3-0, ending their spring split with a third place finish.
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Split]], KT Rolster claimed third place in the regular season with a 13-5 series record, losing to [[SK Telecom T1]] based on game score. This seeded them into the 2nd round of the [[LCK/2016 Season/Summer Playoffs|2016 LCK Summer Playoffs]], where they met [[Samsung Galaxy]]. KT had yet to drop a game to Samsung since the start of Season 5's LCK era, and this trend continued as they swept them 3-0. In the semifinals, they met [[SK Telecom T1]] in the Telecom Wars, and this time they managed to reverse sweep them 3-2 to move onto the finals. In an epic set against the [[ROX Tigers]], KT Rolster barely lost 3-2, losing out on Korea's first seed at Worlds, but giving them the highest seed for the [[Korea Regional Finals 2016]]. In a rematch against [[Samsung Galaxy]] where KT were heavily favored to make it out, Samsung managed to break a 19 game losing streak against KT to win the set 3-2 and take Korea's third seed, ending KT Rolster's season early.
+
+===2017 Season===
+Following KT's failure to enter Worlds, the team lost almost its entire roster, with jungler Score remaining in the team. There, they created the so-called 'superteam' by signing former ROX Tigers top laner [[Smeb]], former [[Royal Never Give Up]] support and World Champion, [[Mata]], and former [[EDward Gaming]] Mid Laner and AD Carry, [[PawN|PaWN]] and [[Deft]], respectively. The team competed in the [[LCK 2017 Spring|2017 Spring Split]] but ended in a record of 12-6 in sets. This secures them a playoff spot though and in the quarterfinals, they swept MVP 3-0 and Samsung Galaxy in the semi-finals. But KT was soon crushed by SK Telecom T1 3-0 in the finals, ending their Spring Season and out of reach of the Mid-Season Invitational. In the Summer Split, KT's summer run was much better than Spring, with a record of 14-4. But their playoff run was worse, they were reverse-swept 3-2 in the semi-finals by SK Telecom T1, which forced them to run the Regional Finals again but despite their best efforts, KT failed to qualify for Worlds again after being swept by eventual World Champions Samsung Galaxy 3-0. KT then took one last shot of gaining a trophy for the team in 2017 by competing in the [[2017 LoL KeSPA Cup|2017 Kespa Cup]] where they defeated Samsung in the semi-finals before facing LCK Champions [[Longzhu Gaming]]. In a fierce best of 5 series, it seemed that Longzhu was going to win but KT turned the tables in its favor and defeated them 3-2, winning the tournament in the process.
+
+===2018 Season===
+KT Rolster retained its entire roster, with a few additions such promoting trainee [[Ucal]] in the starting Roster after [[PawN]] went down with injury sidelining him for several months, and signed former [[Cloud9]] jungler [[Rush]]. The team competed in the 2018 Spring where they managed to net third place just below Afreeca Freecs and securing a playoff spot. Here, KT managed to get its revenge on SK Telecom T1 by defeating them 3-1 in the quarterfinals, but were later crushed by the Afreeca Freecs 3-1 in the semi-finals, ending their Spring Season. Since KT is part of the top four Korean teams in the Spring split, they were invited in Rift Rivals 2018 where they displayed stellar performance, where they did not lose a single game against the opposing Taiwanese and Chinese teams though the LCK failed to ssecure first place. In the 2018 Summer Split, the team ended with a record of 13-5, which secured them a first place finish in the Summer Split for the first time in the team's history. Following [[Kingzone DragonX]]'s defeat from the Afreeca Freecs in the quarterfinals, KT manages to qualify for the [[2018 World Championship]] for the first time since 2015. In the finals, KT faced LCK 'Super Rookies' Griffin. At first it seemed that Griffin was going to win but KT staged a comeback at game 4 before completely dominating game 5 to win its first LCK title as a single team. Jungler Score was voted as the Summer MVP for his performance in these games.
+
+In the [[2018 World Championship]], KT Rolster was placed in Group C alongside North America's [[Team Liquid]], Taiwan's [[MAD Team]] and China's [[EDward Gaming]]. After finishing first in their group with a record of 5-1, they went on to face [[Invictus Gaming]] in the quarterfinals. After getting dominated in the first 2 games of the series, they managed to win a very close game 3 and prolong the series to a deciding game 5, however [[Invictus Gaming]] on top of their star ad carry [[JackeyLove]] managed to edge KT and advance further where they ultimately won the [[2018 World Championship]].
+
+During the offseason most of the roster left the team so only Smeb, Kingen and Score remained on the team. They signed [[Bdd]] from KZ, [[SnowFlower]] returning to Korea from TCL team [[SuperMassive]], [[UmTi]] from Jin Air, as well as the unexperienced AD carries [[Gango]] from LJL team [[USG]] and [[Zenit]]. This new roster cleanly beat challenger team [[GC Busan Rising Star]] at the quarterfinals of [[2018 LoL KeSPA Cup]] before falling to Gen.G's new roster 1-3 in semifinals.
+
+=== 2019 Season ===
+KT had an absolutely shocking [[LCK/2019_Season/Spring_Season|Spring Split]]. They already started off bad with a 1-3 record and then lost jungler Score for a few weeks because he had to undergo surgery during which they went 1-5. But neither his return nor the rosterswaps in top and support positions were enough to turn the split around so they ended the split with their worst ever place (9th) and record (4-14) which also meant they had to defend their spot in LCK for the first time. At the time of the promotion tournament their experienced players had finally somewhat regained their normal performance levels and clean swept both [[VSG (Korean Team)|VSG]] in round 1 and Jin Air in the first qualifying round.
+
+For [[LCK/2019 Season/Summer Season|Summer Split]] KT managed to sign [[PraY]] from retirement but he wisely warned the fans to not get that excited about his return as he lacked practice. However their start was decent as they went 2-2 winning the games against their direct competition from spring but after losing the following 3 matches against the other good teams of the league they once again faced a long losing streak. For week 6 they switched things up by subbing in Kingen in top lane and instantly managed to beat Afreeca. By beating HLE they kept the possibility of avoiding the promotion tournament alive. In the last week they managed to put HLE under pressure by upsetting KZ and after they could not match this upset against Griffin on the last day of Regular Season KT was saved from relegation.
+
+As result of this horrible year all players and coaches had to leave the team. First new signings were coach [[Hirai]] who worked the previous two season for Kingzone, bot laner [[Aiming]] from Afreeca and former Kingzone support TusiN. Two weeks later the roster was completed with the signings of top laners [[Ray]] from EDG and [[SoHwan]] from HLE, junglers [[Malrang]] and [[bonO (Kim Gi-beom)|bonO]] as well as [[Kuro]] returning after a season in LPL.
+
+=== 2020 Season ===
+During [[2019 LoL KeSPA Cup]] KT beat the local team from [[Ulsan]] 2-0 but the tournament already ended for them as the could not beat the similarly experienced roster of HLE in qualifying round.
+
+This bad start continued into another shocking 1-5 start to LCK [[LCK/2020 Season/Spring Season|Spring Split]] although 3 of those turned out to have been against the top 3 teams. Winning match 6 of their split against Afreeca and deciding for SoHwan and bonO as starting players turned the tides around for them as they went on a 4 match winning streak going into an unexpected break due to the [[2019–20 Coronavirus Pandemic]]. Unsettled by the change to online play they extended their streak up to 8 matches before [[DragonX]] managed to stop them. [[APK Prince]] took the chance to beat them as well but KT struck back in the next week by beating [[T1]]. Finishing the Regular Season with a win against Sandbox and a loss to Gen.G KT went into playoffs with a 10-8 record in 4th place as underdog. Their run there ended before it had even begun though as Damwon got the upper hand in the closely fought wildcard match.
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp||kr|Shin Hyeon-ok (신현옥)|'''Chief Executive Officer'''}}
+{{listplayersp||kr|Shin Ki-hyeok (신기혁)|'''Director,General Manager'''}}
+{{listplayersp||kr|Kim Yong-geun  (김용근)|'''Manager'''}}
+{{listplayer|Score|kr|Go Dong-bin (고동빈)|'''Head Coach'''}}
+{{listplayer|Museong|kr|Kim Moo-seong (김무성)|'''Coach'''}}
+{{listplayer|Sonstar|kr|Son Seung-ik (손승익)|'''Coach'''}}
+{{listplayer|Highness|kr|Park Ji-won (박지원)|'''Analyst'''}}
+{{listplayer|Kuro|kr|Lee Seo-haeng (이서행)|'''Streamer'''}}
+{{listplayersp|Mingyeolhee|kr||'''Streamer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp||kr|Choi Hyeon-jun (최현준)|'''General Manager'''|newteam=none}}
+{{listplayer|Rascal|kr|Kim Kwang-hee (김광희)|'''Streamer'''|newteam=none}}
+{{listplayer|Hirai|kr|Kang Dong-hoon (강동훈)|'''Head Coach'''|newteam=none}}
+{{listplayer|supreme|kr|Choi Seung-min (최승민)|'''Coach'''|newteam=none}}
+{{listplayer|Comet|kr|Lim Hye-sung (임혜성)|'''Coach'''|newteam=RNG}}
+{{listplayersp|Heetul|kr|Lee Hee-won (이희원)|'''Analyst'''|newteam=none}}
+{{listplayersp||kr|Choi Hyeon-jun (최현준)|'''General Manager'''|newteam=none}}
+{{listplayer|RapidStar|kr|Jung Min-sung (정민성)|'''Coach'''|newteam=TL}}
+{{listplayersp|Observering |kr||'''Streamer & Content Creator'''|newteam=NS}}
+{{listplayer|Acorn|kr|Choi Cheon-ju (최천주)|'''Coach'''|newteam=DK}}
+{{listplayersp||kr|Nam Sang-bong (남상봉)|'''Chief Executive Officer'''|newteam=none}}
+{{listplayersp|Gisepa|kr|Kang Ji-moon (강지문)|'''Analyst'''|newteam=t1}}
+{{listplayer|Mental|link=Mental (An Hyo-yeon)|kr|An Hyo-yeon (안효연)|'''Coach'''|newteam=none}}
+{{listplayer|Mental|link=Mental (An Hyo-yeon)|kr|An Hyo-yeon (안효연)|'''Coach'''|newteam=kt|comment=Coach}}
+{{listplayer|NoEX|kr|Jung Je-seung (정제승)|'''Coach'''|newteam=WE}}
+{{listplayer|Sonstar|kr|Son Seung-ik (손승익)|'''Coach'''|newteam=KT Rolster Challengers}}
+{{listplayer|ZanDarC|kr|Oh Chang-jong (오창종)|'''Head Coach'''|newteam=LGD}}
+{{listplayer|FIFAHUN|kr|Lee Ji-hoon (이지훈)|'''Head Coach'''|newteam=KSV}}
+{{listplayersp|<!--실력자-->|kr|Kim Hwan (김환)|'''Coach'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+KT Rolster Old Logo.png|Previous Logo<br>(Aug 10th, 2009 - Jun 3rd, 2021)
+KT Rolster Old Logo 2.png|Previous Logo<br>(Jun 3rd, 2021 - Dec 7th, 2025)
+</gallery>
+
+===Rosters===
+<gallery>
+KT Rolster 2017 LCK SPRING.png|KT Rolster LCK 2017 Spring Roster
+KT Rolster Roster 2018 Spring.png|KT Rolster LCK 2018 Spring Roster
+KT 2019Spring.jpg|KT Rolster LCK 2019 Spring Roster
+2020 KT Spring.jpg|KT Rolster LCK 2020 Spring Roster
+2020 KT Summer.png|KT Rolster LCK 2020 Summer Roster
+2021 KT Spring.jpg|KT Rolster LCK 2021 Spring Roster
+2022 KT Spring.jpg|KT Rolster LCK 2022 Spring Roster
+KTRolster_2024Roster.jpg|KT Rolster LCK 2024 Spring Roster
+KTRolster Cup2025.jpg|KT Rolster LCK Cup 2025 Roster
+KTRolster_LCK 2026.jpg|KT Rolster LCK Cup 2026 Roster
+</gallery>
+
+==References==
+<references />

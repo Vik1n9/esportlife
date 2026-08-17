@@ -1,0 +1,272 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LCS%2F2024%20Season%2FSummer%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.754Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LCS/2024/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LCS 2024}}
+{{Infobox Tournament
+|name=LCS 2024 Summer Season
+|image=LCS 2024.png
+|organizer=[http://na.lolesports.com/ Riot Games]
+|rulebook= https://docs.google.com/document/d/e/2PACX-1vRugFRIRi3HNXus2i5wEP6-r9USiyu7ZKt1GgQumUe1R3ue9ltJ0uTU5aoSPSIXCbpz0D4QTlrlRgeL/pub
+|sponsor=
+|type=
+|country=United States
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2024-06-15
+|edate=2024-08-11
+|region=NA
+|website=http://www.lolesports.com/en_US/na-lcs
+|facebook=
+|twitter=LCSOfficial
+|instagram=lcsofficial
+|streams={{stream|url=https://www.twitch.tv/lcs|lang=usuk}}
+|linkstreams=yes
+|split=Summer
+|split_number=2
+|closest_timezone=PST
+<!--CM Data-->
+|CM_StandardName=LCS 2024 Summer
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2024
+|CM_StandardLeague=LCS24
+|CM_LeagueIconKey=LCS24
+}}{{TournamentPageStart|toclimit=2 |text= }}
+{{TournamentPageStart|twitchid=lcs|toclimit=2|text=The '''LCS 2024 Summer Season''' is the second split of the eleventh year of North America's professional League of Legends league. Eight teams compete in a round robin group stage.}}
+
+==Overview==
+=== Format ===
+* 8 teams participate
+* Single Round Robin
+* Matches are best of three
+* Top six teams qualify for [[LCS/2024 Season/Championship|Championship]]
+** Top 2 teams start in the upper bracket Round 2
+** 3rd to 6th start in the upper bracket Round 1
+
+== Participants ==
+{{RostersStart|maxteams=4
+|showrosterpage=yes
+|rosterswaps=
+}}
+{{Box|start}}
+{{TeamRoster|team=100 Thieves
+|{{TeamRoster/Line|player=Sniper |flag=ca|role=t}}
+|{{TeamRoster/Line|player=River (Kim Dong-woo) |flag=kr|role=j}}
+|{{TeamRoster/Line|player=Quid |flag=kr|role=m}}
+|{{TeamRoster/Line|player=Meech |flag=ca|role=a}}
+|{{TeamRoster/Line|player=Tomo |flag=us|role=a}}
+|{{TeamRoster/Line|player=Eyla |flag=au|role=s}}
+|{{TeamRoster/Line|player=Goldenglue|flag=us|role=c}}
+|{{TeamRoster/Line|player=Spookz|flag=au|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Cloud9
+|{{TeamRoster/Line|player=Thanatos (Park Seung-gyu) |flag=kr |role=t}}
+|{{TeamRoster/Line|player=Blaber |flag=us |role=j}}
+|{{TeamRoster/Line|player=Jojopyun |flag=ca |role=m}}
+|{{TeamRoster/Line|player=Berserker (Kim Min-cheol) |flag=kr |role=a}}
+|{{TeamRoster/Line|player=VULCAN (Philippe Laflamme) |flag=ca |role=s}}
+|{{TeamRoster/Line|player=Reapered |flag=kr |role=c}}
+|{{TeamRoster/Line|player=Hai |flag=us |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Dignitas
+|{{TeamRoster/Line|player=Licorice |flag=ca |role=t}}
+|{{TeamRoster/Line|player=Spica |flag=cn |role=j}}
+|{{TeamRoster/Line|player=Jensen |flag=dk |role=m}}
+|{{TeamRoster/Line|player=Zven |flag=dk |role=a}}
+|{{TeamRoster/Line|player=Isles |flag=au |role=s}}
+|{{TeamRoster/Line|player=Mabrey |flag=us |role=c}}
+|{{TeamRoster/Line|player=Treatz |flag=se |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FlyQuest
+|{{TeamRoster/Line|player=Bwipo |flag=be |role=t}}
+|{{TeamRoster/Line|player=Inspired |flag=pl |role=j}}
+|{{TeamRoster/Line|player=Quad |flag=kr |role=m}}
+|{{TeamRoster/Line|player=Massu |flag=ca |role=a}}
+|{{TeamRoster/Line|player=Busio |flag=us |role=s}}
+|{{TeamRoster/Line|player=Nukeduck |flag=no |role=c}}
+|{{TeamRoster/Line|player=Mithy |flag=es |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Immortals
+|{{TeamRoster/Line|player=Castle (Cho Hyeon-seong) |flag=kr|role=t}}
+|{{TeamRoster/Line|player=Armao |flag=us|role=j}}
+|{{TeamRoster/Line|player=Mask |flag=kr|role=m}}
+|{{TeamRoster/Line|player=Tactical |flag=us|role=a}}
+|{{TeamRoster/Line|player=Olleh |flag=kr|role=s}}
+|{{TeamRoster/Line|player=Inero |flag=us |role=c}}
+|{{TeamRoster/Line|player=Joey |flag=us |role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NRG
+|{{TeamRoster/Line|player=Dhokla |flag=us|role=t}}
+|{{TeamRoster/Line|player=Contractz |flag=us|role=j}}
+|{{TeamRoster/Line|player=Palafox |flag=us|role=m}}
+|{{TeamRoster/Line|player=FBI |flag=au|role=a}}
+|{{TeamRoster/Line|player=huhi |flag=kr|role=s}}
+|{{TeamRoster/Line|player=Thinkcard|flag=us|role=c}}
+|{{TeamRoster/Line|player=Croissant|flag=us|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Shopify Rebellion
+|{{TeamRoster/Line|player=FakeGod|flag=us|role=t}}
+|{{TeamRoster/Line|player=Tomio|flag=ca|role=j}}
+|{{TeamRoster/Line|player=Bugi|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Insanity|flag=us|role=m}}
+|{{TeamRoster/Line|player=Bvoy|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Zeyzal|flag=us|role=s}}
+|{{TeamRoster/Line|player=Reven (Seong Sang-hyeon)|flag=kr|role=c}}
+|{{TeamRoster/Line|player=WildTurtle|flag=ca|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team Liquid
+|{{TeamRoster/Line|player=Impact |flag=kr |role=t}}
+|{{TeamRoster/Line|player=UmTi |flag=kr |role=j}}
+|{{TeamRoster/Line|player=APA (Eain Stearns) |flag=us |role=m}}
+|{{TeamRoster/Line|player=Yeon (Sean Sung) |flag=us |role=a}}
+|{{TeamRoster/Line|player=CoreJJ |flag=kr |role=s}}
+|{{TeamRoster/Line|player=Spawn (Jake Tiberi)|flag=au|role=c}}
+|{{TeamRoster/Line|player=Reignover|flag=kr|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff
+|places=upwithbye,upwithbye,up,up,up,up,stay,stay
+|finalorder=
+|row1=upwithbye
+|row2=upwithbye
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=stay
+|row8=stay
+|legend=true
+|upwithbye=Championship Upper Bracket Round 2
+|up=Championship Upper Bracket Round 1
+|stay=Not Qualified for Championship
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO3
+}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with,MVP
+|gamefields=Blue,Red,VODs,ssel
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w7bg1=upwithbye
+|w7bg2=upwithbye
+|w7bg3=up
+|w7bg4=up
+|w7bg5=up
+|w7bg6=up
+|w7bg7=stay
+|w7bg8=stay
+|w6bg1=upwithbye
+|w6bg2=up
+|w6bg3=up
+|w6bg4=up
+|w6bg8=stay
+|w5bg1=up
+|w5bg2=up
+|w5bg3=up
+|w4bg1=up
+|w4bg2=up
+|orderby=recordwithgames
+|places=upwithbye,upwithbye,up,up,up,up,stay,stay
+}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=series|displaytext=Player of the Game Standings
+|columns=Times
+}}
+
+=== Player of the Week ===
+{| class="wikitable"
+!  style="text-align:center;width:20px;" | Week
+!  style="text-align:center;width:120px;" | Player
+|-
+| style="text-align:center;" | '''1'''
+| {{team|100|onlyimagelinked|size=38px}} [[Quid]]
+|-
+| style="text-align:center;" | '''2'''
+| {{team|DIG|onlyimagelinked|size=38px}} [[Zven]]
+|-
+| style="text-align:center;" | '''3'''
+| {{team|TL|onlyimagelinked|size=38px}} [[Impact]]
+|-
+| style="text-align:center;" | '''4'''
+| {{team|C9|onlyimagelinked|size=38px}} [[VULCAN (Philippe Laflamme)|VULCAN]]
+|-
+| style="text-align:center;" | '''5'''
+| {{team|FLY|onlyimagelinked|size=38px}} [[Massu]]
+|-
+| style="text-align:center;" | '''6'''
+| {{team|TL|onlyimagelinked|size=38px}} [[Yeon (Sean Sung)|Yeon]]
+|-
+| style="text-align:center;" | '''7'''
+| {{team|100|onlyimagelinked|size=38px}} [[Tomo]]
+|}
+
+=== Season Awards ===
+[https://lolesports.com/en-US/news/2024-lcs-summer-split-awards Source]
+{{SeasonAwardStart}}
+{{SeasonAward|custom|award=Most Valuable Player|team=TL|player=Impact}}
+{{SeasonAward|custom|award=Coaching Staff|team=TL|player=Team Liquid}}
+{{SeasonAward|custom|award=Rookie of the Year|teams=FLY|players=Massu}}
+{{SeasonAward|custom|award=Most Improved|teams=TL|players=APA (Eain Stearns)}}
+{{SeasonAward|proteam|players=Impact, Blaber, APA (Eain Stearns), Yeon (Sean Sung), CoreJJ|teams=TL, C9, TL, TL, TL}}
+{{SeasonAward|custom|award=2nd All Pro Team|players=Thanatos (Park Seung-gyu), Inspired, Jojopyun, Berserker (Kim Min-cheol), VULCAN|teams=C9, FLY, C9, C9, C9}}
+{{SeasonAward|custom|award=3rd All Pro Team|players=Bwipo, UmTi, Quad, Massu, Busio|teams=FLY, TL, FLY, FLY, FLY}}
+{{SeasonAwardEnd}}
+
+== Media ==
+=== Streams ===
+* {{stream|url=https://www.twitch.tv/lcs|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCSF_aFGIIIoWY30GVV19TKA|lang=usuk}}
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|US}} Los Angeles, CA
+|-
+|Riot Games Arena LA
+|-
+|''Capacity'' - 243
+|-
+|[[File:LCS Studio.jpg|250px]]
+|-
+|12312 W Olympic Blvd<br>Los Angeles, CA 90064
+|}
+
+=== Announcements ===
+* June 3, [https://lolesports.com/article/lcs-summer-primer/blt4d22fab2786e6cbe LCS Summer Primer]
+
+=== Additional Content ===
+{{TournamentMedia
+|dates=*,2024-05-01,2024-06-01,2024-07-01
+|names=,May,June,July
+}}
+
+== References ==
+<references />

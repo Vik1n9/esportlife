@@ -1,0 +1,112 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dark%20Passage&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.719Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dark Passage」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|name= Dark Passage
+|orgcountry= Turkey  
+|country=
+|region= EMEA
+|image=
+|headcoach=
+|analysts= 
+|captain= 
+|manager= 
+|website= http://www.dp-gaming.org
+|youtube=https://www.youtube.com/darkpassagemedia
+|facebook=https://facebook.com/dpgaming
+|twitter=dpgaming
+|instagram= darkpassagegaming
+|tiktok= darkpassagegaming
+|discord= https://discord.com/invite/K5zuyPpSCH
+|lolpros=https://lolpros.gg/team/dark-passage
+|sponsor= [https://base.basaksehirlivinglab.com BASE] <br> [https://oyuneks.com Oyuneks] 
+|created= 2003
+|rosterphoto= 
+|otherwikis=fortnite
+}}{{TOCRWI}}
+
+'''Dark Passage''' is the first professional esports organizaton in Turkey. It was founded in 2003 as a Counter Strike team. Dark Passage formed their first League of Legends team in August 2012. They also sponsor teams for PUBG, Fortnite, Wolfteam, and Hearthstone.
+
+==History==
+Dark Passage's first major success was Riot Turkey Winter Season Tournament. After their first seasonal win, they won the Spring and Summer Season Tournaments consecutively. Dark Passage is currently a Challenger tier ranked team in EU West, achieving Challenger in May 2013. In June 2013, Dark Passage joined Dreamhack BYOC tournament, reaching the finals before falling to Copenhagen Wolves. 
+
+==Timeline==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|ava'adora|tr|Alexandra Aylin|'''General Director'''}}
+{{listplayer|Real Homie|tr|Emre Çolak|'''Head Coach'''}}
+{{listplayer|Rui (Erim Çelikel)|tr|Erim Çelikel|'''Assistant Coach'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Six0x|tr|Ahmet Can Demir|'''Coach'''|newteam=none}}
+{{listplayersp|abromanicon|||'''Team Manager'''|newteam=none}}
+{{listplayer|Coosone|tr|Canberk Büyükyolaçan|'''Coach'''|newteam=Comanchero}}
+{{listplayer|Tasdin|tr|Eray Yıldırım|'''Coach'''|newteam=BOOSTGATE}}
+{{listplayersp|venza|tr|Ertuğ Okçuoğlu|'''Chief Executive Officer'''|newteam=BBL DP}}
+{{listplayer|Madly|tr|Ferhat Can Atma|'''Coach'''|newteam=none}}
+{{listplayer|Medson|tr|Yasin Bulut|'''Head Coach'''|newteam=BJK}}
+{{listplayer|Tasdin|tr|Eray Yıldırım|'''Assistant Coach'''|newteam=DP}}
+{{listplayer|Tacocat|tr|Can Gormezano|'''Head Coach'''|newteam=Kim Esports}}
+{{listplayer|Coosone|tr|Canberk Büyükyolaçan|'''Head Coach'''|newteam=Altair Esports}}
+{{listplayer|EliWood|tr|Cenk Parlak|'''Head Coach'''|newteam=Iron Wolves|comment=[[File:Supportrole icon.png|19px|link=]] Support}}
+{{listplayer|Craft1x|tr|Ali Aklan|'''Head Coach'''|newteam=ISWC}}
+{{listplayer|Coosone|tr|Canberk Büyükyolaçan|'''Assistant Coach'''|newteam=DP}}
+{{listplayer|Lynx (Furkan Arıkovan)|tr|Furkan Arıkovan|'''Head Coach'''|newteam=retired}}
+{{listplayer|Janus (Özcan Gürbüz)|tr|Özcan Gürbüz|'''Assistant Coach'''|newteam=ISWC}}
+{{listplayer|Lanista|tr|Mehmet Onur Özdamar|'''Head Coach'''|newteam=GAL}}
+{{listplayer|Lynx|link=Lynx (Furkan Arıkovan)|tr|Furkan Arıkovan|'''Head Coach'''|newteam=GS}}
+{{listplayer|Hatchý|pl|Adrian Widera|''' Head Coach'''|newteam=Illuminar Gaming}}
+{{listplayer|Morning|link=Morning (Song Chang-geun)|kr|Song Chang-geun (송창근)|'''Head Coach'''|newteam=DWG}}
+{{listplayer|Maestro|link=Maestro (Ekin Odacıoğlu)|tr|Ekin Odacıoğlu|'''Team Manager'''|newteam=BoostGate Esports}}
+{{listplayer|Blumigan|se|Marcus Blom|'''Head Coach'''|newteam=RBE}}
+{{listplayer|Candyfloss|uk|Alex Cartwright|'''Analyst'''|newteam=MnM}}
+{{listplayer|Shanei|fr|Erwin Pierlot|'''Head Coach'''|newteam=MCES}}
+{{listplayersp|Windjammer|ca|Warren Wijayaratnam|'''Head Coach'''|newteam=VAULT}}
+{{listplayer|Mephisto|fr|Louis-Victor Legendre|'''Head Coach'''|newteam=ROG Esport}}
+{{listplayer|Lelouch (Şükrü Şentürk)|tr|Şükrü Şentürk|'''Coach'''|newteam=crew e-sports club}}
+{{listplayer|Dino Bilzerian|tr|Ali Doğan|'''Coach'''|newteam=Galakticos}}
+{{listplayer|Halpern|tr|Aral Norman|'''Coach'''|newteam=AUR}}
+{{listplayer|Auspexa|tr|Salih Kızıldağ|'''Coach'''|newteam=BJK.OH}}
+{{listplayer|TrieLBaenRe|tr|Ercan Bozkurt|'''Coach'''|newteam=Caster}}
+{{listplayersp|tonbalikli|be|Christopher Leo Kaan Willekens|'''Manager'''|newteam=Caster}}
+{{listplayersp|Maaaet|tr|Yiğit Gök|'''Coach'''|newteam=none}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+Dark Passagelogo old.png|Previous logo (- Dec 2022)
+Dark Passage Old Logo.png|Previous logo (- Jan 2023)
+</gallery>
+
+===Rosters===
+<gallery>
+File:DP_Summer2016.jpg|Dark Passage 2016 Summer
+File:DP 2014.jpg|Dark Passage's [[2014 Season World Championship]] Roster<br>Left to Right: Naru, Crystal, Touch, fabFabulous, HolyPhoenix
+</gallery>
+
+==Links==
+
+==References==
+<references />

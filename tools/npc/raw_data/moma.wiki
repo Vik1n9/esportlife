@@ -1,0 +1,85 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MoMa&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.566Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MoMa」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=MoMa
+|name=Maik Wallus
+|image=mouzmoma.jpg
+|checkboxAutoImage=No
+|country=Germany
+|residency=Europe
+|birth_date_year=1991
+|birth_date_month=June
+|birth_date_day=01
+|favchamp=Anivia
+|favchamp2=Fizz
+|favchamp3=Karthus
+|checkbox1=No
+|checkboxComp=No
+|ids=MoMa, mouz MoMa, aAa MoMa, M MoMa,
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/mouz_moma
+|facebook=https://www.facebook.com/maikmomawallus
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxPrev=No
+|checkboxIsSub=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+MoMa has been around since beta and was one of the first progamers to compete in offline Events. His first offline event was [[IEM Season V - LoL Invitational]] in Hanover, Germany. After that he competed in many major Events such as [[Riot Season 1 Championship]] and [[IEM Season VI - World Championship]]. He was the AP carry for [[mousesports]] until December when the team acquired the roster of [[The Mighty Midgets]].
+
+== Trivia ==
+* Known for his {{ci|Anivia}}
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Interviews==
+{{TDRight
+|name1=2011
+|name2=2012}}
+{{TDRight|tab}}<!--2012-->
+* March 10 - [http://www.youtube.com/watch?v=3lJR2cU4nIY Moma and OceloteWorld Interview IEM Hanover] ''with Intel Extreme Masters''
+* August 1 - [http://www.team-dignitas.org/articles/blogs/League-of-Legends/1906/Interview-with-MoMa-I-fear-those-OP-COWS-coming-from-behind-giving-you-no-chance-to-escape-their-ganks.-/ Interview with MoMa: "I fear those OP COWS coming from behind, giving you no chance to escape their ganks. :("] ''with Team Dignitas''
+* September 29 - [http://www.eclypsia.com/en/lol/news-3197.html Interview with Mouz MoMa] ''with Eclypsia''
+* December 11 - [http://www.playmassive.de/articles/id36254/0/league-legends-pro-series-gewinner-moma-interview.html Interview — Pro-Series-Gewinner MoMa im Interview (German)] ''with PlayMassive.de''
+{{TDRight|tab}}<!--2011-->
+* June 22 - [http://www.absolutelegends.net/news/22/Interview-with-Millenium-MoMa Interview with Millenium MoMa] ''with Absolute Legends''
+* June 20 - [http://www.youtube.com/watch?v=90qPo5oHW5s MoMa interview after losing to Fnatic Game 2] ''with DreamHack''
+{{TDRight/end}}
+=== Images ===
+<gallery>
+MoMa.jpg|MoMa on aAa
+</gallery>
+
+{{PlayerPageEnd}}

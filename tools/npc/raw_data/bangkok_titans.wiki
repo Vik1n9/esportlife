@@ -1,0 +1,98 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Bangkok%20Titans&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:44.136Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Bangkok Titans」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|neworg=MEGA
+|name= Bangkok Titans
+|orgcountry= Thailand 
+|country=
+|region= SEA
+|image=Bangkok Titanslogo square.png
+|analysts=
+|coaches= 
+|manager= 
+|captain= 
+|facebook= https://www.facebook.com/MEGALoLSEA
+|twitter=  bk_titans
+|sponsor=[http://mobile.garena.in.th/ Garena Mobile]<br>[http://intl.garena.com/ Garena]
+|created=2012-03-28
+|disbanded=2017-12-25
+|trades= 
+|rosterphoto=
+}}{{TOCRWI}}
+
+'''Bangkok Titans''' was a Thai team. In December 2017, it was determined that the organization did not own the rights to their branding or logo, and would therefore have to rebrand. 
+
+==History==
+===Season 2===
+'''Bangkok Titans''' first formed in May 2012. They competed in the [[2012 GPL Season 1|2012 Garena Premier League]] (GPL) alongside five other teams, four from Southeast Asia and one from Taiwan. The team's roster changed nearly every week, with 11 different players being fielded at some point or another. They lost 31 consecutive games before their first win and ended in last place with a 4-36 record.
+
+===Season 3===
+Bangkok Titans played in [[IEM Season VII - Global Challenge Singapore|Intel Extreme Masters Singapore]], but were eliminated in the Group Stage with a 1-2 record. In the [[2013 GPL Spring]], Bangkok Titans again finished in last place, this time with a 4-24 record. As in the previous season, the team's roster constantly shifted, with only jungler [[NdD]] remaining consistent throughout the tournament. With fewer roster changes during the [[2013 GPL Summer]], they managed to finish 6th with a 9-19 record. They then played in the [[2013 LCS Pro League Thailand]] and finished 2nd in the regular season. They defeated [[Team Infinite]] 2-0 in the semifinals and [[MiTH Flashdive]] 3-2 in the finals to earn a spot in the [[Season 3 Southeast Asia Regional Finals]], where they had a chance to qualify to the [[Season 3 World Championship]]. However, they were quickly eliminated from the tournament without a single win.
+
+===2014 Season===
+Based on their performance in the 2013 LCS Pro League Thailand, Bangkok Titans qualified for the [[2014 GPL Winter]]. The roster continued to change constantly, with seven different players starting and one player, [[WarL0cK]], playing three different roles. Only AD carry [[Sek]] and support [[SKLz]] started in the same role for every game in the tournament. They came in last in their group with a 1-9 record and did not continue to the Bracket Stage. Afterward, they played in the Winter season of the [[2014 Thailand Pro League/Winter|2014 Thailand Pro League]] (TPL) and came in first, defeating MiTH Flashdive 3-0 in the finals to qualify for the [[2014 GPL Spring]]. They improved on their performance in the previous GPL split by finishing the Group Stage with a 2-8 record, but they were still unable to continue to the Bracket Stage. In the [[2014 Thailand Pro League/Spring|2014 TPL Spring]], they again defeated MiTH Flashdive 3-0 in the finals and reclaimed their spot in the [[2014 GPL Summer|2014 GPL Summer]].
+
+After starting nearly 30 different players over the past two seasons, the team's roster finally began to solidify: WarL0cK top lane, [[007x]] jungle, [[G4]] mid lane, and [[Lloyd]] AD carry. Only the support role remained in flux, with several players filling in before the team finally settled on [[InTreso]] for the rest of the split. With a more stable roster than they had had in any previous GPL split, the team came in 4th in their group with a 3-7 record and qualified for the Bracket Stage. They were eliminated 3-0 in the quarterfinals by [[ahq e-Sports Club]] and did not qualify for the [[2014 Season Garena Regional Finals]]. Instead, they played in the [[Thailand Grand Championship 2014]], where they defeated [[Team Infinite]] 3-0 in the finals to secure a spot in the next GPL season.
+
+===2015 Season===
+Bangkok Titans maintained most of their roster from the previous season, only replacing InTreso with [[Valen]]. They played in [[IEM Season IX - Taipei|Intel Extreme Masters Taipei]], but were eliminated in the quarterfinals by [[yoe Flash Wolves]], the eventual tournament winner. In the [[2015 GPL Spring]], which had been changed to include only teams from Southeast Asia, they came in first in their group with an 11-1 record. In the semifinals, they defeated [[Insidious Gaming Legends]] 3-0, but lost to [[Saigon Fantastic Five]] 0-3 in the finals. However, SF5 forfeited their spot to the [[2015 International Wildcard Invitational]] because they could not procure visas for their players, so Bangkok Titans took their place at the tournament. Before the tournament began, they replaced Valen with [[Moss (Sorawat Boonphrom)|Moss]]. They came in 1st during the Round Robin stage with a 5-1 record, but dropped 0-3 in the first round of playoffs to [[Beşiktaş e-Sports Club]], the eventual tournament winner.
+
+After defeating [[Team Toxic]] 3-1 in the [[2015 Thailand Pro League/Spring|2015 TPL Spring]], Bangkok Titans qualified for the [[2015 GPL Summer|2015 GPL Summer]]. They again came in 1st in their group, this time with an undefeated 6-0 record. They went undefeated again during the playoffs, beating [[Full Louis]] in the semifinals and [[Saigon Jokers]] in the finals in consecutive 3-0 victories. In the [[2015 Season Southeast Asia Regional Finals]], they defeated Saigon Jokers 3-1 and qualified for the [[2015 International Wildcard Tournament/Turkey|2015 International Wildcard Tournament]] in Turkey. At the tournament, they came in 2nd during the Round Robin stage with a 3-3 record, but defeated [[The Chiefs eSports Club]] 3-1 during the Bracket Stage to qualify for the [[2015 Season World Championship]]. They were placed in group C, along with [[SK Telecom T1]], [[EDward Gaming]], and [[H2k-Gaming]]. Unfortunately, they failed to win a single game and were knocked out of the tournament in last place.
+
+===2016 Season===
+In the [[Thailand Pro League/2016 Season/Spring Season|2016 TPL Spring]], Bangkok Titans went undefeated across 25 games for a 1st place finish, qualifying for the [[GPL/2016 Season/Spring|2016 GPL Spring]]. Before the tournament began, longtime top laner WarL0cK left the team. Former players Sek and InTreso filled in. Bangkok Titans went 4-1 during the Group Stage, but fell in the finals 1-3 to [[Saigon Jokers]]. Afterward, the team rearranged its roster, with Lloyd switching to top lane and InTreso starting as AD Carry, with Sek as a substitute AD carry. The revamped roster went undefeated in the [[Thailand Pro League/2016 Season/Summer Season|2016 TPL Summer]] and qualified for the [[GPL/2016 Season/Summer Season|2016 GPL Summer]]. Before the tournament, however, the team again changed up its roster. It switched Lloyd and InTreso back to AD and top respectively, replaced 007x with Sek, and replaced Moss with [[Whatthejes]], a former mid laner on loan from [[Underdog]]. Ultimately, the team came in 2nd in the tournament, losing to Saigon Jokers in the finals. Afterward, 007x, G4, Lloyd, and Moss left the team.
+
+===2017 Season===
+For the [[Thailand_LCS/2017 Season/Spring Season|2017 TLCS Spring Split]], BKT signed [[Whatthejes]] permanently as support and filled up the roster with Jungler [[Limitz]] and AD carry [[Coldenfeet]] from Team [[Underdog]], [[Summer_(Vatcharanan_Thaworn)|Summer]] was contracted as a substitute. Sek became the new top laner while InTreso was moved to mid lane. BKT only lost three games in the group stage finishing 11-3, but they were defeated by [[Ascension Gaming]] in the TLCS Playoff finals where they went 1-3. Consequently, Bangkok Titans couldn't qualify for the [[GPL/2017 Season/Spring|2017 GPL Spring]]. After the 2017 Spring Split, Sek, InTreso and Summer left BKT.
+
+After signing their new top laner [[Calm (Đinh Trọng Quyết)|Calm]], mid laner [[Patrick]] and substitute [[CatType]], the Bangkok Titans had a very strong [[Thailand LCS/2017 Season/Summer Season|2017 TLCS Summer Season]], losing only one game and finishing with a 13-1 record. They were qualified instantly for the Summer Season Final where they had to face [[Ascension Gaming]]. Once again, the Titans had their problems with Ascension and ultimately lost the finals 1-3 just like the Spring Split final. After this season, Calm returned to his former team [[Ultimate]]. Mid laner Patrick played in the All Star Tournament for the SEA Team, afterwards he also left the Bangkok Titans.
+
+In December 2017, the esports organization MEGA announced the acquisition of the Bangkok Titans. They were renamed to "MEGA" and moved into their new home at MEGA's gaming house.
+
+==Timeline==
+{{TeamNews}}
+
+==Player Roster==
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{{listplayer/Start|newteam=yes}}
+{{listplayer|Porsche (Panthachanok Niamsiri)|th|Panthachanok Niamsiri (พันธชนก เนียมศิริ)|'''Coach/Manager|newteam=mega}}
+{{listplayersp|Baggings|th|Jarupong Chotikunakorn (จารุพงษ์ โชติคุณากร)|'''Coach/Manager'''|newteam=none}}
+{{listplayer|Tinikun|vn|Dương Nguyễn Duy Thanh|'''Coach'''|newteam=Full Louis}}
+{{listplayersp|SVBU|th|Sukij Nonta|'''Manager'''|newteam=none}}
+{{listplayer|Cabbage|th|Akarawat Wangsawat|'''Analyst/Coach'''|newteam=e.o.s Gaming}}
+{{listplayersp|ezq|th||'''Coach'''|newteam=none}}
+{{Listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Media==
+{{TeamMedia}}
+
+== Images ==
+<gallery>
+Bangkok Titans logo Original.png|BKT logo
+BKT GPL 2014.jpg|Bangkok Titans 2014 GPL Winter roster
+BKT 2014 GPL Spring.jpg|Bangkok Titans 2014 GPL Spring roster
+BKT 2014 GPL Summer.jpg|Bangkok Titans 2014 GPL Summer roster
+BKT_RosterWCS2015.jpg|Bangkok Titans 2015 WC roster
+BKT_WCS2015.jpg|Bangkok Titans 2015 WC
+BKT_Roster2016.jpg|Bangkok Titans 2016 TPL Summer roster
+BKT Roster 2016 Summer.png|Bangkok Titans 2016 TPL Summer roster
+Bangkok Titans 2016 Summer Roster.png|Bangkok Titans 2016 GPL Summer roster
+</gallery>
+
+==See Also==
+* [[Garena]]
+
+==External Links==
+
+==References==
+<references />

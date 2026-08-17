@@ -1,0 +1,413 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LEC%2F2023%20Season%2FSummer%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.756Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LEC/2023/Summer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LEC 2023}}
+{{Infobox Tournament
+|name=LEC 2023 Summer Season
+|image= LEC 2023.png
+|organizer=[http://euw.lolesports.com/ Riot Games]
+|sponsor=
+|type=Offline
+|country=Germany
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2023-06-17
+|edate=2023-07-03
+|rulebook=Archive:Official_Rulebooks/Riot/LEC/2023
+|streams={{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+|linkstreams=yes
+|region=EMEA
+|split=Summer
+|split_number=3
+|CM_StandardName=LEC 2023 Summer Season
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2023
+|CM_StandardLeague=LEC
+|CM_LeagueIconKey=LEC
+|website=https://eu.lolesports.com/en
+|twitter=LEC
+|instagram=lecofficial
+|youtube=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ
+|closest_timezone=CET
+}}{{TournamentPageStart|twitchid=lec|toclimit=2|text=The '''LEC 2023 Summer Season''' is the third split of the first year of the newly merged EMEA's rebranded professional League of Legends league. It is the fifth year of the LEC and the first season following the changed format. In Stage 1, ten teams compete in a single round robin group stage, with the top eight advancing to Stage 2, a double elimination group stage. From here, the top four advance to Stage 3, the double elimination playoffs.  }}
+
+==Overview==
+=== Format ===
+* Regular Season (Stage 1):
+** 10 teams participate
+** Single Round Robin
+** Matches are best of one
+** Top eight teams advance to [[LEC/2023 Season/Summer Groups|Groups]]
+
+=== Prize Pool ===
+{{TournamentResults
+|points=yes
+|pointstitle=[[LEC/2023 Season/Championship Points|Champ. Points]]
+|qual=yes
+|qualwidth=180
+|{{TournamentResults/Line|place=1|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=G2|groupstage=8 - 1}}
+|{{TournamentResults/Line|place=2|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=FNC|groupstage=7 - 2}}
+|{{TournamentResults/Line|place=3|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=XL|groupstage=5 - 4}}
+|{{TournamentResults/Line|place=4|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=HRTS|groupstage=5 - 4}}
+|{{TournamentResults/Line|place=5|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=BDS|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=6|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=SK|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=7|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=MAD|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=8|qual=Groups|quallink=LEC/2023 Season/Summer Groups|team=KOI|groupstage=4 - 5}}
+|{{TournamentResults/Line|place=9|points=15|team=AST|groupstage=3 - 6}}
+|{{TournamentResults/Line|place=10|points=7|team=VIT|groupstage=1 - 8}}
+|conversiondate=|conversionsource=xe}}
+
+== Participants ==
+{{RostersStart|maxteams=5
+|showrosterpage=yes
+|rosterswaps=
+}}
+{{Box|start}}
+{{TeamRoster|team=Astralis
+|{{TeamRoster/Line|player=Finn|flag=se|role=t}}
+|{{TeamRoster/Line|player=113|flag=tr|role=j}}
+|{{TeamRoster/Line|player=LIDER|flag=no|role=m}}
+|{{TeamRoster/Line|player=Kobbe|flag=dk|role=a}}
+|{{TeamRoster/Line|player=JeongHoon|flag=kr|role=s}}
+|{{TeamRoster/Line|player=AoD|flag=ro|role=c}}
+|{{TeamRoster/Line|player=Jandro|flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=XL
+|{{TeamRoster/Line|player=Odoamne|flag=ro|role=t}}
+|{{TeamRoster/Line|player=Peach |flag=kr |role=j}}
+|{{TeamRoster/Line|player=Abbedagge|flag=de|role=m}}
+|{{TeamRoster/Line|player=Patrik|flag=cz|role=a}}
+|{{TeamRoster/Line|player=LIMIT (Dino Tot)|flag=hr|role=s}}
+|{{TeamRoster/Line|player=Hidon|flag=dk|role=c}}
+|{{TeamRoster/Line|player=Kaas|flag=be|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FNC
+|{{TeamRoster/Line|player=Oscarinin|flag=es|role=t}}
+|{{TeamRoster/Line|player=Razork|flag=es|role=j}}
+|{{TeamRoster/Line|player=Humanoid|flag=cz|role=m}}
+|{{TeamRoster/Line|player=Noah (Oh Hyeon-taek)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Trymbi|flag=pl|role=s}}
+|{{TeamRoster/Line|player=Nightshare|flag=cz|role=c}}
+|{{TeamRoster/Line|player=Hiiva|flag=fi|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=G2
+|{{TeamRoster/Line|player=BrokenBlade|flag=de|role=t}}
+|{{TeamRoster/Line|player=Yike|flag=se|role=j}}
+|{{TeamRoster/Line|player=Caps|flag=dk|role=m}}
+|{{TeamRoster/Line|player=Hans Sama|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Mikyx|flag=si|role=s}}
+|{{TeamRoster/Line|player=Dylan Falco|flag=ca|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=KOI (Spanish Team)
+|{{TeamRoster/Line|player=Szygenda|flag=dk|role=t}}
+|{{TeamRoster/Line|player=Malrang|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Larssen|flag=se|role=m}}
+|{{TeamRoster/Line|player=Comp|flag=gr|role=a}}
+|{{TeamRoster/Line|player=Advienne |flag=nl |role=s}}
+|{{TeamRoster/Line|player=fredy122|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Arvindir|flag=de|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=MADL LEC
+|{{TeamRoster/Line|player=Chasy|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Elyoya|flag=es|role=j}}
+|{{TeamRoster/Line|player=Nisqy|flag=be|role=m}}
+|{{TeamRoster/Line|player=Carzzy|flag=cz|role=a}}
+|{{TeamRoster/Line|player=Hylissang|flag=bg|role=s}}
+|{{TeamRoster/Line|player=Mac|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Pad|flag=dk|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=SK
+|{{TeamRoster/Line|player=Irrelevant|flag=de|role=t}}
+|{{TeamRoster/Line|player=Markoon|flag=nl|role=j}}
+|{{TeamRoster/Line|player=Sertuss|flag=de|role=m}}
+|{{TeamRoster/Line|player=Exakick|flag=fr|role=a}}
+|{{TeamRoster/Line|player=Doss|flag=dk|role=s}}
+|{{TeamRoster/Line|player=Swiffer|flag=au|role=c}}
+|{{TeamRoster/Line|player=OWN3R (David Rodriguez de la Torre)|flag=es|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=BDS
+|{{TeamRoster/Line|player=Adam (Adam Maanane)|flag=fr|role=t}}
+|{{TeamRoster/Line|player=Agresivoo|flag=pl|role=t}}
+|{{TeamRoster/Line|player=Sheo|flag=fr|role=j}}
+|{{TeamRoster/Line|player=nuc|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Crownie|flag=si|role=a}}
+|{{TeamRoster/Line|player=Labrov|flag=gr|role=s}}
+|{{TeamRoster/Line|player=GotoOne|flag=fr|role=c}}
+|{{TeamRoster/Line|player=Striker (Yanis Kella)|flag=fr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=HTICS
+|{{TeamRoster/Line|player=Evi|flag=jp|role=t}}
+|{{TeamRoster/Line|player=Jankos|flag=pl|role=j}}
+|{{TeamRoster/Line|player=Vetheo|flag=fr|role=m}}
+|{{TeamRoster/Line|player=Flakked|flag=es|role=a}}
+|{{TeamRoster/Line|player=Mersa|flag=gr|role=s}}
+|{{TeamRoster/Line|player=Peter Dun|flag=gb|role=c}}
+|{{TeamRoster/Line|player=SeeEl|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=VIT
+|{{TeamRoster/Line|player=Photon|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Bo|flag=cn|role=j}}
+|{{TeamRoster/Line|player=Daglas|flag=pl|role=j}}
+|{{TeamRoster/Line|player=Perkz|flag=hr|role=m}}
+|{{TeamRoster/Line|player=Upset|flag=de|role=a}}
+|{{TeamRoster/Line|player=Kaiser|flag=de|role=s}}
+|{{TeamRoster/Line|player=Carter|flag=uk|role=c}}
+|{{TeamRoster/Line|player=Hjarnan|flag=se|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo1
+|finalorder=G2,FNC,XL,HRTS,BDS,SK,MAD,KOI,AST,VIT
+|places=up,up,up,up,up,up,up,up,stay,stay
+|row1=up
+|row2=up
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=up
+|row8=up
+|row9=stay
+|row10=stay
+|legend=true
+|up= [[LEC/2023 Season/Summer Groups|Groups]] Seed
+|stay= Not Qualified for Groups
+|isover=no
+|useasresults=no
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO1
+}}
+{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with
+|gamefields=Blue,Red,MH,VODs,MVP
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w3bg1=up
+|w3bg2=up
+|w3bg3=up
+|w3bg4=up
+|w3bg5=up
+|w3bg6=up
+|w3bg7=up
+|w3bg8=up
+|w3bg9=stay
+|w3bg10=stay
+|w2bg1=up
+|w2bg2=up
+|orderby=record
+|places=up,up,up,up,up,up,up,up,stay,stay
+|finalorder=G2,FNC,XL,HRTS,BDS,SK,MAD,KOI,AST,VIT
+}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=game|displaytext=Player of the Game Standings
+|columns=Times
+}}
+
+== Media ==
+=== Streams ===
+{{Box|start}}
+* {{stream|url=https://www.twitch.tv/lec|lang=usuk}}
+* {{stream|url=https://www.twitch.tv/otplol_|lang=fr}}
+* {{stream|url=https://www.twitch.tv/lvpes|lang=es}}
+* {{stream|url=https://www.twitch.tv/polsatgames|lang=pl}}
+* {{stream|url=https://www.twitch.tv/summonersinnlive|lang=de}}
+* {{stream|url=https://www.twitch.tv/pg_esports_lol|lang=it}}
+* {{stream|url=https://www.twitch.tv/esport2tv|lang=hu}}
+* {{stream|url=https://www.twitch.tv/inygontv1|lang=pt}}
+* {{stream|url=https://www.twitch.tv/hitpointcz|lang=cz}}
+* {{stream|url=https://www.twitch.tv/gamersloungegr|lang=gr}}
+* {{stream|url=https://www.twitch.tv/riotgamesturkish|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://www.youtube.com/channel/UCWWZjhmokTbezUQr1kbbEYQ|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCrPE9FDBnSMX6W5K0-r7K-g|lang=pl}}
+* {{stream|url=https://www.youtube.com/channel/UCjocsYZyDCFfU-KAfM44APg|lang=rs}}
+* {{stream|url=https://www.youtube.com/@GamersLoungeGr|lang=gr}}
+* {{stream|url=https://www.youtube.com/@Lolespor|lang=tr}}
+{{Box|break}}
+* {{stream|url=https://trovo.live/s/LEC/|lang=usuk|display=Trovo}}
+* {{stream|url=https://trovo.live/s/GamersLoungeGr|display=Trovo|lang=gr}}
+* {{stream|url=https://play.afreecatv.com/akasaaaaan|lang=jp}} unofficial
+{{Box|end}}
+
+=== Co-streams ===
+* {{stream|url=https://www.twitch.tv/astralis|lang=dk|display=Astralis' Twitch}}
+* {{stream|url=https://www.twitch.tv/ibai|lang=es|display=Ibai's Twitch}}
+* {{stream|url=https://www.twitch.tv/teamheretics|lang=es|display=Heretics' Twitch}}
+
+=== English Broadcast Talent ===
+==== Core ====
+*{{player|Medic|link=Medic (Aaron Chamberlain)|flag=uk|name=Aaron Chamberlain}} - Play-by-Play Caster
+*{{player|Quickshot|flag=za|name=Trevor Henry}} - Play-by-Play Caster
+*{{player|Drakos|flag=us|name=Daniel Drakos}} - Play-by-Play Caster
+*{{player|Vedius|flag=uk|name=Andrew Day}} - Color Caster
+*{{player|Ender|link=Ender (Christy Frierson)|flag=us|name=Christy Frierson}} - Color Caster
+*{{player|Caedrel|flag=gb|name=Marc Lamont}} - Color Caster
+*{{player|Dagda|flag=IE|name=Robert Price}} - Color Caster
+*{{player|Guldborg|flag=DK|name=Mikkel Guldborg Nielsen}} - Color Caster
+
+==== Guests ====
+*{{player|Broxah|flag=DK|name=Mads Brock-Pedersen}}
+*{{player|Troubleinc|flag=GR|name=Georgia Paras}}
+*{{player|YamatoCannon|flag=SE|name=Jakob Mebdi}}
+*{{player|Frankie|flag=UK|name=Frankie Ward}}
+*{{player|Rekkles|flag=se|name=Martin Larsson}}
+
+=== Foreign Broadcast Talent ===
+{{box|start}}
+*{{flag|fr}} OTP
+**{{player|Chips|flag=fr|name=Fabien Culié|link=Chips (Fabien Culié)}}
+**{{player|Noi|flag=fr|name=Charles Lapassat}}
+**{{player|Tweekz|flag=fr|name=Kevin Remy}}
+**{{player|Zerotick|flag=fr|name=Guillaume Moya}}
+**{{player|Trayton|flag=fr|name=Jean Medzadourian}}
+**{{player|Rhobalas|flag=fr|name=Valentin Ancelin}}
+**{{player|Finghim|flag=fr|name=Dariusz Walczak}}
+**{{player|Marex|flag=fr|name=Alexis Girat|link=Marex (Alexis Girat)}}
+**{{player|Chreak|flag=fr|name=Corentin Moreau}}
+{{Box|break}}
+*{{flag|tr}} Riot Turkey
+**{{player|Nova (Ahmet Yılmaz)|flag=de|name=Ahmet Yılmaz}}
+**{{player|Trix|flag=tr|name=Mehmet Furkan Coruk}}
+**{{player|Jhonnie|flag=tr|name=Caner Güngörür}}
+**{{player|Euphony|flag=tr|name=Aykut Özgan}}
+**{{player|Hoca|flag=tr|name=Tankut Eraslan}}
+**{{player|Japone|flag=tr|name=Bahadır Çolak}}
+**{{player|midali|flag=tr|name=Ali Tekel}}
+**{{player|Noeldayi|flag=tr|name=Oğuz Avcı}}
+**{{player|Zetsu|flag=tr|name=Baturhan Bahadır}}
+**{{player|Mehitra|flag=tr|name=Sinan Süsler}}
+{{Box|break}}
+*{{flag|es}} LVP Spain
+**{{player|Mellado|flag=es|name=Jaime Mellado Fernández}}
+**{{player|Teshrak|flag=es|name=Sergio Cerdán}}
+**{{player|Champi|flag=es|name=David Pérez}}
+**{{player|Wolk|flag=es|name=Victor Fernández}}
+**{{player|Bebe (Carlos Sanchez)|flag=es|name=Carlos Sánchez}}
+**{{player|Toad|flag=es|name=Javier Cepero}}
+**{{player|Fernando Cardenete|flag=es|name=Fernando Cardenete}}
+{{box|break}}
+*{{flag|de}} Summoner's Inn
+**{{player|Masterplay|flag=de|name=Rene Geigenberger}}
+**{{player|Ryxcales|flag=de|name=Anika Wolter}}
+**{{player|Mori (Maurice Lange)|flag=de|name=Maurice Lange}}
+**{{player|EisohneWaffel|flag=de|name=Christian Thamm}}
+**{{player|Basti|flag=de|name=Bastian Lilienthal}}
+**{{player|Kernus|flag=de|name=David Kratz}}
+**{{player|Kxng|flag=de|name=Lothar Schadrin}}
+**{{player|Pixavis|flag=de|name=Nico Timmermann}}
+**{{player|Lythi|flag=de|name=Christian Körner}}
+**{{player|Alanio|flag=de|name=Oskar van Elsberg}}
+{{Box|end}}
+<br>
+{{box|start}}
+*{{flag|pl}} Polsat Games
+**{{player|Bezi|flag=pl|name=Wojciech Wróbel}}
+**{{player|Tabasko|flag=pl|name=Wojciech Kruza}}
+**{{player|TheFakeOne|flag=pl|name=Tomasz Milaniuk}}
+**{{player|Kaspersky|flag=pl|name=Kasper Gutkowski}}
+**{{player|Silv4n|flag=pl|name=Mikołaj Sinacki}}
+**{{player|Bialito|flag=pl|name=Michał Biały}}
+**{{player|Magvayer|flag=pl|name=Tomasz Filipiuk}}
+**{{player|Myha|flag=pl|name=Michał Francuz}}
+**{{player|CzarnyPiotruś|flag=pl|name=Piotr Barański}}
+**{{player|Woolite|flag=pl|name=Paweł Pruski}}
+{{Box|break}}
+*{{flag|it}} PG Esports
+**{{player|Juannetti|flag=it|name=Andrea Giovannetti}}
+**{{player|KenRhen|flag=it|name=Roberto Prampolini}}
+**{{player|Charlie (Carlotta De Simon)|flag=it|name=Carlotta De Simon}}
+**{{player|Moonboy|flag=it|name=Emiliano Marini}}
+{{Box|break}}
+*{{flag|rs}} SainaTV
+**{{player|Sa1na|flag=rs|name=Miloš Šainović}}
+**{{player|Ralla|flag=rs|name=Rastko Kojić}}
+**{{player|Glisha|flag=rs|name=Nemanja Glišić}}
+**{{player|Gaca|flag=rs|name=Miloš Gavrilović}}
+**{{player|Njami|flag=rs|name=Minja Kefer}}
+{{box|break}}
+*{{flag|gr}} GamersLounge
+**{{player|Rev (Antonis Stepchenko)|flag=gr|name=Antonis Stepchenko}}
+**{{player|Nero (Konstantinos Perperidis)|flag=gr|name=Konstantinos Perperidis}}
+**{{player|LivingDead|flag=gr|name=Kosmas Baxevanidis}}
+**{{player|TonyB|flag=gr|name=Antonis Baladimas}}
+**{{player|TheRock7|flag=gr|name=Vasilis Voltis}}
+{{Box|end}}
+<br>
+{{box|start}}
+*{{flag|pt}} Inygon
+**{{player|OneRingWraith|flag=pt|name=Ana Martins}}
+**{{player|Hackali|flag=pt|name=Kevin Daniel}}
+**{{player|Ahnyfar|flag=pt|name=Rafael Oliveira}}
+**{{player|Guerreiro|flag=pt|name=Cláudio Nunes}}
+**{{player|Zemo|flag=pt|name=João Almeida}}
+**{{player|Saeken|flag=pt|name=Cláudio Ferreira}}
+**{{player|Lara Lunardi|flag=br|name=Lara Lunardi}}
+{{Box|break}}
+*{{flag|cz}} Hitpoint.cz
+**{{player|Mortsche|flag=cz|name=Tomáš Anděl}}
+**{{player|Fortanu|flag=cz|name=Filip Růžička}}
+**{{player|Kangae|flag=cz|name=Jan Sekanina}}
+**{{player|Murde|flag=cz|name=Dominik Dvořák}}
+{{Box|break}}
+*{{flag|hu}} Esport1
+**{{player|Mentsvár|flag=hu|name=Mihály Zalán}}
+**{{player|Asdelek|flag=hu|name=Nagy Márton}}
+**{{player|Pierce|flag=hu|name=Ákos Német}}
+**{{player|Makaria|flag=hu|name=Makaria Márk}}
+**{{player|Loemifar|flag=hu|name=Dienes Valentin}}
+**{{player|Atreus|flag=hu|name=Loksa Bence}}
+**{{player|Livius|flag=hu|name=Koncz Máté}}
+**{{player|Darcigh|flag=hu|name=Zelenik Márton}}
+{{box|end}}
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|de}} Berlin, Germany
+|-
+|LEC Studio
+|-
+|''Capacity'' - 174
+|-
+|[[File:LEC Studio.jpg|250px]]
+|-
+|Am Studio 20D, Studio K/L,<br>12489 Berlin, Adlershof, Germany
+|}
+
+=== Announcements ===
+* November 18, [https://twitter.com/LEC/status/1593552095826714624 LEC's Tweet]
+
+=== Viewership Statistics ===
+
+=== Additional Content ===
+
+== References ==
+<references/>

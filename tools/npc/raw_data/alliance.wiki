@@ -1,0 +1,128 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Alliance&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:40.628Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Alliance」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team
+|isrenamed=Elements
+|name= Alliance
+|orgcountry= Sweden 
+|country=
+|region= EU
+|analysts= 
+|manager= 
+|captain= 
+|website= https://thealliance.gg
+|youtube= https://www.youtube.com/thealliancegg
+|facebook=https://www.facebook.com/theAllianceGG
+|twitter= theAllianceGG
+|irc=
+|sponsor= [http://monsterenergygaming.com/ Monster Energy] <br /> [http://razerzone.com/ Razer] <br /> [http://xmg.gg/ XMG] <br /> [http://www.designbyhumans.com/ DesignByHümans] <br/> [http://www.kingston.com/en/memory/hyperx HyperX] <br/> [http://www.theaxeeffect.com/ AXE] <br/> [http://www.needforseatusa.com/ NEEDforSEAT] <br/> [https://www.soe.com/home Sony Online Entertainment] <br/> [http://gaming.logitech.com/ Logitech G] <br/> [https://gg.bet/en gg.bet e-sports]
+|created= 2013-04-12 Organization <br> 2013-12-10 LoL Division
+|disbanded=
+|otherwikis=cod,fortnite,pubg
+|trades= 2013-12-31 acq. '''[[Nyph]]''' <br> 2014-10-24 '''[[Tabzz]]''' leaves <br> 2014-11-24 acq. '''[[Rekkles]]'''
+}}{{TOCRWI}}
+
+'''Alliance''' is a professional gaming organization formed in April 2013 and announced their first League of Legends team in December 2013. The team competed under the name '''Alliance HyperX''', in representation of their sponsor [http://www.kingston.com/us/memory/hyperx/ HyperX]. In January 2015, the Alliance League of Legends team rebranded themselves as {{bl|Elements}}.
+
+== History ==
+On December 10, 2013, Alliance's League of Legends team was created by picking up the Top and Mid laners of [[Evil Geniuses.EU|Evil Geniuses]], [[Wickd]] & [[Froggen]] and players [[Tabzz]] (former AD of [[Lemondogs]]) and [[Shook]] (former Jungler of [[Copenhagen Wolves]]).<ref>[http://thealliance.gg/alliance-unveils-league-of-legends-team/ Alliance unveils League of Legends team] ''thealliance.gg''</ref> The team acquired EG's spot in the EU LCS and so were able to participate in the Season 4 [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Season 4 Spring Split]]. Unofficially dubbed the "European Super Team" by fans, and doing very well in scrims by all accounts, expectations for them were high going into the split.
+
+=== 2014 Season ===
+The start of the [[Riot_League_Championship_Series/Europe/2014_Season/Spring_Round_Robin|Season 4 Spring Split]] was disappointing for the team, as they found themselves consistently in the bottom 3 teams until the 8th week. From here onwards, Alliance dominated the split. The performances of [[Froggen]] and [[Nyph]] in particular propelled them up to 1st in the penultimate week, but an unsuccessful superweek saw them lose the top spot. Alliance finished in 3rd place behind [[SK Gaming]] and [[Fnatic]].
+
+Alliance's performance in their first split resulted in their qualification for the [[Riot League Championship Series/Europe/2014 Season/Spring Playoffs|Spring Playoffs]]. The playoffs saw the team lose to Fnatic in the semifinal, and following this, Alliance lost to [[ROCCAT]] in the third-place match.
+
+The [[Riot League Championship Series/Europe/2014 Season/Summer Round Robin|Summer Split]] saw Alliance emulate their form from the end of the Spring Split. They finished in 1st place, staying at the peak of the rankings table for the entire split.
+
+Following this was the [[Riot League Championship Series/Europe/2014 Season/Summer Playoffs|Summer Playoffs]], a chance for the team to qualify for the [[2014 Season World Championship|World Championship]] in their first season with the organization. Alliance placed 1st in the playoffs, beating Fnatic in the final, and secured themselves a place at the World Championship.
+
+The World Championship saw Alliance placed in Group D along with [[NaJin White Shield]], [[Cloud9]] and [[KaBuM! e-Sports]]. Notably, Alliance suffered a shock loss to KaBuM! in their last match of the group stage. A win would've seen them play in tie-breaker matches to progress to the knockout stage, but it was not to be. Alliance beat each team once and lost to each team once, resulting in a 3rd-place finish in the group, meaning they would not go any further in the tournament.
+
+=== 2015 Preseason ===
+After his contract ran out, Alliance's coach {{bl|Leviathan (Jordan Thwaites)|Leviathan}} decided to leave the team, going on to join Brazilian organization [[Keyd Stars]].<ref>[http://www.ongamers.com/articles/keyd-stars-pick-up-former-alliance-coach-jordan-le/1100-2331/ Keyd Stars pick up former Alliance coach Jordan "Leviathan" Thwaites] ''ongamers.com''</ref> [[Tabzz]] also left the team, later citing personal reasons for his departure. Soon after, Alliance completed the signing of [[Rekkles]] to fill the vacant AD carry role.<ref>[http://twitter.com/theAllianceGG/status/536969865479720960 Alliance's Twitter Post] ''twitter.com''</ref> Alliance were the European team invited to [[IEM Season IX - San Jose|IEM San Jose]], and were seeded directly into the semifinals. Despite the addition of [[Rekkles]], they lost their semifinal match-up against [[Cloud9]]. 
+
+Due to a new policy limiting the ability of '''GoodGame Agency''' to brand LCS teams instituted by Riot on November 21, Alliance would have to change their brand for the 2015 season.<ref>[http://na.lolesports.com/articles/new-sale-sponsorships-rule New Sale of Sponsorships Rule] ''lolesports.com''</ref>
+
+On January 8, it was announced that the team had re-branded as [[Elements]].<ref>[https://www.facebook.com/Elementsgg/posts/662967857147816 Elements Facebook Post] ''facebook.com''</ref>
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:ALL 2014.jpg|thumb|no-link=true|400px|right|Alliance's [[2014 Season World Championship]] Roster<br> Left to Right: Tabzz, Wickd, Froggen, Shook, Nyph]]
+[[File:AllianceS4.jpg|thumb|no-link=true|400px|right|Alliance Season 4 LCS Spring Roster<br> Left to Right: Tabzz, Froggen, Wickd, and Shook. (Not Shown - Nyph)]]
+=== Former ===
+{{TeamMembersFormer}}
+
+===Temporary Subs===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Role
+!Replacing
+!Tournament
+{{listplayer|Kazmitch|cz|Martin Hamalčík|Support}}
+|{{none}}
+|[[Battle of the Atlantic 2013]]
+{{Listplayer/EndTemp}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Former===
+{|class="sortable wikitable"
+!
+!ID
+!Name
+!Role
+!Next Team
+{{listplayersp|Maelk|dk|Jacob Toft-Andersen|'''Manager'''|newteam=Elements}}
+{{listplayer|Leviathan|link=Leviathan (Jordan Thwaites)|ca|Jordan Thwaites|'''Coach'''|newteam=kstars}}
+{{listplayersp|dooraven|au|Nilu Kulasingham|'''Analyst'''|newteam=none}}
+{{Listplayer/EndTemp}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Images ==
+<gallery>
+AllianceOldlogo square.png|Alliance's logo prior to Sep 2016
+</gallery>
+
+== Highlight Videos ==
+
+==Interviews==
+{{TDRight
+|name1=2014}}
+{{TDRight|tab}}<!--2014-->
+* August 12 - [http://www.inven.co.kr/webzine/news/?news=116158&site=lol 유럽 LoL 팀 얼라이언스, 그들과의 유쾌한 수다 (Korean)] [http://www.reddit.com/r/leagueoflegends/comments/2dbu70/team_alliance_inven_interview_translated/ (English)] ''with Inven''
+* August 18 - [http://www.ongamers.com/articles/alliances-coach-leviathan-after-the-finals-each-pa/1100-2111/ Alliance's coach Leviathan after the finals "Each patch is a puzzle and it's a race to adapt the fastest"] ''with onGamers''
+{{TDRight/end}}
+
+==Articles==
+{{TDRight
+|name1=2014
+|name2=2015}}
+{{TDRight|tab}}<!--2015-->
+* September 20, [http://followesports.com/topics/post/57 Revisiting Alliance VS. Kabum! E-Sports One year later] ''from Follow eSports''
+{{TDRight|tab}}<!--2014-->
+* September 9 - [http://lolesports.com/articles/breaking-down-group-d Breaking down Group D] - ''from [http://lolesports.com LoL Esports]''
+* September 23 - [http://content.azubu.tv/moba/league-of-legends/league-legends-world-championship-preview-group-d/ League of Legends World Championship Preview – Group D] - ''from [http://content.azubu.tv Azubu]''
+* September 24 - [http://ggchronicle.com/season-four-world-championship-preview-alliance Season Four World Championship Preview: Alliance] - ''from [http://ggchronicle.com/ ggChronicle]''
+* September 30 - [http://www.esportsheaven.com/articles/view/5319 The Power of Picks and bans: Featuring Alliance vs KaBuM! eSports] - ''from [http://www.esportsheaven.com/ Esports Heaven]''
+{{TDRight/end}}
+
+==Videos==
+{{TDRight
+|name1=2014}}
+{{TDRight|tab}}<!--2014-->
+* October 30 - [http://www.youtube.com/watch?v=8puGkqUF73Y Thorin's Thoughts - The Super-team (Alliance) and what could have been (LoL)] ''from Thorin''
+* December 10 - [http://www.youtube.com/watch?v=iKFLP9i5fzM Thorin's Thoughts - The New Alliance and its Old Flaws (LoL)] ''from Thorin''
+{{TDRight/end}}
+
+==External Links==
+
+==References==
+<references />

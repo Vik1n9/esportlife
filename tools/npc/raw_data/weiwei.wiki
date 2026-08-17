@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Weiwei&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:54.536Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「weiwei」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Weiwei
+|name=Wei Bo-Han
+|nativename=魏博涵
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=August
+|birth_date_day=14
+|checkbox1=No
+|checkboxComp=No
+|ids='''KR:''' 명치에팔콘펀치꽂는이도윤, YONG2 <br> '''EUW:''' yong2
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.huya.com/131396
+|weibo=https://weibo.com/n/LNGWeiwei
+|lolpros=https://lolpros.gg/player/weiwei
+|deeplol=https://www.deeplol.gg/pro/Weiwei
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* His ID '''Weiwei''' is based on his surname (Wei).
+* Made top 10 on the Korean solo queue ladder with 3 different accounts.
+* Reached 1000 kills in the LPL on June 26, 2024.
+** The 48th player to reach 1000 kills in the LPL.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

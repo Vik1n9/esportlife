@@ -1,0 +1,75 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Sw0rd&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:56.544Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Sword」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Sw0rd
+|name=Choi Sung-won
+|nativename=최성원
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1997
+|birth_date_month=June
+|birth_date_day=16
+|checkbox1=No
+|compID1=Fencer
+|compID2=Sword
+|checkboxComp=No
+|ids='''KR:''' 이도류
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/chltjddnjs970616
+|facebook=https://www.facebook.com/profile.php?id=100003339502646
+|twitter=3neckgod
+|lolpros=https://lolpros.gg/player/sword/
+|deeplol=https://www.deeplol.gg/pro/Sw0rd
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=His name was previously stylized '''Sword'''. He was previously known as '''Fencer'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=Yes
+}}
+==Biography==
+
+== Trivia ==
+* His ID '''Sw0rd''' is based on the light novel and anime series "[[wikipedia:en:Sword_Art_Online|Sword Art Online]]". 
+* His neck wrinkles are result of his neck being wrapped by umbilical cord. He is open about this and considers it his trademark. 
+* Wants to learn English, Chinese, and Japanese.
+* He doesn't like coriander but other than that he likes every type of food. 
+* His music interests are: J-Pop, Rap, and songs from animation. 
+* Considers [[Khan]] his close friend.
+* Was one of the first Korean imports to play in Turkey, along with his former teammate [[Reach (Lee Joo-won)|Reach]], when he joined [[Team Turquality]] for the [[TCL/2016 Season/Winter Season|TCL 2016 Winter Season]].
+** When he reached the LCK with [[Griffin (Korean Team)|Griffin]], he also became the first player to play in the LCK after playing in Turkey.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

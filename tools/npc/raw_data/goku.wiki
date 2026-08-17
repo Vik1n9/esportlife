@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Goku&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:01.575Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Goku」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Goku
+|name=Bruno Miyaguchi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|nationality=Brazil, Japan
+|residency=Brazil
+|birth_date_year=1996
+|birth_date_month=August
+|birth_date_day=23
+|favchamp=LeBlanc
+|favchamp2=Ahri
+|favchamp3=Zed
+|favchamp4=Kha'Zix
+|checkbox1=Yes
+|favchamp5=Syndra
+|compID1=Gokucp
+|checkboxComp=No
+|ids=goku chan (BR), Hatsune Míku (BR), ShrimpLover (EUW),<br>Hackeei o goku (EUW)
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/gokslol
+|facebook=https://www.facebook.com/gokucplol
+|twitter=gokslol
+|instagram=brunomiyaguchi
+|lolpros=https://lolpros.gg/player/goku/
+|deeplol=https://www.deeplol.gg/pro/Goku
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Goku joined [[KaBuM! Black]] in December 2014, replacing the opening left by [[Shadow (Lee Min-ho)|Shadow]] returning to Korea. He played with them until May 2015.<ref>[http://clickandview.com.br/guko-e-dispensado-da-kabum-black/ Guko é dispensado da Kabum Black] ''clickandview.com''</ref>
+
+== Trivia ==
+* Often remembered for his {{ci|orianna}} pentakill when he played for [[ProGaming Esports]] in the [[CBLOL 2018 Split 1 Playoffs|playoffs series in 2018]] against [[CNB e-Sports Club]].
+* He had considered retiring from the competitive scene in 2023 to play poker professionally, but returned to play for [[Flamengo Esports]] in [[MEG 2023]].<ref>[https://maisesports.com.br/lol-goku-anuncia-saida-do-cenario-e-migrara-para-o-poker/ LoL: Goku anuncia saída do cenário e migrará para o Poker (Portuguese)]''maisesports.com.br''</ref>
+** He eventually moved to the US to study and play for [[Weber State University]].
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

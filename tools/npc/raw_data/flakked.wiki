@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Flakked&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:58.079Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Flakked」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Flakked
+|name=Víctor Lirola Tortosa
+|checkboxAutoImage=Yes
+|country=Spain
+|residency=EMEA
+|birth_date_year=2001
+|birth_date_month=April
+|birth_date_day=25
+|favchamp=Varus
+|favchamp2=Kai'Sa
+|checkbox1=No
+|checkboxComp=No
+|ids='''EUW:''' 2weeksrank1, 6419, 100x100 MERENGUE, el tetoncito, TH Bellingham<br>'''KR:''' 696942042069420
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/getFlakked
+|twitter=Flakked_LoL
+|instagram=flakked_lol
+|youtube=https://www.youtube.com/@flakkedlol
+|tiktok=flakked
+|lolpros=https://lolpros.gg/player/flakked
+|deeplol=https://www.deeplol.gg/pro/Flakked
+|dpmlol=https://dpm.lol/pro/Flakked
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+== Trivia ==
+* Won the LEC in his rookie season.
+** Part of a select group of players called "Royal Roaders", earned after winning their rookie split in a major region (LEC Spring 2022)
+* He is well-known for his high skilled mechanics at singing the flute in his streams.
+* Nicknamed "El tetón" by spanish community.
+* He loves saying "Uy!", "fresquito" and "FEKTS".
+* He also loves the emote peepoShy.
+* He owns a duck named "Tetoncito".
+* Has a tattoo in Korean that says: "Pain". Referring to his struggles with mental health
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

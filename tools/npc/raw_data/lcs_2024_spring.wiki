@@ -1,0 +1,309 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LCS%2F2024%20Season%2FSpring%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.055Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LCS/2024/Spring」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LCS 2024}}
+{{Infobox Tournament
+|name=LCS 2024 Spring Season
+|image=LCS 2024.png
+|organizer=[http://na.lolesports.com/ Riot Games]
+|rulebook= https://docs.google.com/document/d/e/2PACX-1vRugFRIRi3HNXus2i5wEP6-r9USiyu7ZKt1GgQumUe1R3ue9ltJ0uTU5aoSPSIXCbpz0D4QTlrlRgeL/pub
+|sponsor=
+|type=
+|country=United States
+|prizepool=
+|format=Round Robin
+|date=
+|sdate=2024-01-20
+|edate=2024-03-10
+|region= NA
+|website=http://www.lolesports.com/en_US/na-lcs
+|facebook=
+|twitter=LCSOfficial
+|instagram=lcsofficial
+|streams={{stream|url=https://www.twitch.tv/lcs|lang=usuk}}
+|linkstreams=yes
+|split=Spring
+|split_number=1
+|closest_timezone=PST
+<!--CM Data-->
+|CM_StandardName=LCS 2024 Spring
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2024
+|CM_StandardLeague=LCS24
+|CM_LeagueIconKey=LCS24
+}}{{TournamentPageStart|toclimit=2 |text= }}
+{{TournamentPageStart|twitchid=lcs|toclimit=2|text=The '''LCS 2024 Spring Season''' is the first split of the eleventh year of North America's professional League of Legends league. Eight teams will compete.}}
+
+==Overview==
+=== Format ===
+* 8 teams participate
+* Double Round Robin
+* Matches are best of one
+* Top six teams qualify for [[LCS/2024 Season/Spring Playoffs|Playoffs]]
+** Top 4 teams start in the upper bracket
+** 5th and 6th start in the lower bracket
+
+== Participants ==
+{{RostersStart|maxteams=4
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2024 Preseason/North America
+}}
+{{Box|start}}
+{{TeamRoster|team=100 Thieves
+|{{TeamRoster/Line|player=Sniper|flag=ca|role=t}}
+|{{TeamRoster/Line|player=River (Kim Dong-woo)|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Quid|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Meech|flag=ca|role=a}}
+|{{TeamRoster/Line|player=Eyla|flag=au|role=s}}
+|{{TeamRoster/Line|player=Goldenglue|flag=us|role=c}}
+|{{TeamRoster/Line|player=Spookz|flag=au|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Cloud9
+|{{TeamRoster/Line|player=Fudge|flag=au|role=t}}
+|{{TeamRoster/Line|player=Blaber|flag=us|role=j}}
+|{{TeamRoster/Line|player=Jojopyun|flag=ca|role=m}}
+|{{TeamRoster/Line|player=Berserker (Kim Min-cheol)|flag=kr|role=a}}
+|{{TeamRoster/Line|player=VULCAN (Philippe Laflamme)|flag=ca|role=s}}
+|{{TeamRoster/Line|player=Mithy|flag=es|role=c}}
+|{{TeamRoster/Line|player=Hai|flag=us|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Dignitas
+|{{TeamRoster/Line|player=Rich (Lee Jae-won)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=eXyu|flag=us|role=j}}
+|{{TeamRoster/Line|player=Dove|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Tomo|flag=us|role=a}}
+|{{TeamRoster/Line|player=Isles|flag=au|role=s}}
+|{{TeamRoster/Line|player=Enatron|flag=gr|role=c}}
+|{{TeamRoster/Line|player=Mabrey|flag=us|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=FlyQuest
+|{{TeamRoster/Line|player=Bwipo|flag=be|role=t}}
+|{{TeamRoster/Line|player=Inspired|flag=pl|role=j}}
+|{{TeamRoster/Line|player=Jensen|flag=dk|role=m}}
+|{{TeamRoster/Line|player=Massu|flag=ca|role=a}}
+|{{TeamRoster/Line|player=Busio|flag=us|role=s}}
+|{{TeamRoster/Line|player=Nukeduck|flag=no|role=c}}
+|{{TeamRoster/Line|player=Richard|flag=au|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Immortals
+|{{TeamRoster/Line|player=Castle (Cho Hyeon-seong)|flag=kr|role=t}}
+|{{TeamRoster/Line|player=Armao|flag=us|role=j}}
+|{{TeamRoster/Line|player=Mask|flag=kr|role=m}}
+|{{TeamRoster/Line|player=Tactical|flag=us|role=a}}
+|{{TeamRoster/Line|player=Olleh|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Sharkz|flag=by|role=c}}
+|{{TeamRoster/Line|player=Joey|flag=us|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=NRG
+|{{TeamRoster/Line|player=Dhokla|flag=us|role=t}}
+|{{TeamRoster/Line|player=Contractz|flag=us|role=j}}
+|{{TeamRoster/Line|player=Palafox|flag=us|role=m}}
+|{{TeamRoster/Line|player=FBI|flag=au|role=a}}
+|{{TeamRoster/Line|player=huhi|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Thinkcard|flag=us|role=c}}
+|{{TeamRoster/Line|player=Croissant|flag=us|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Shopify Rebellion|footnoteteamn=1
+|{{TeamRoster/Line|player=FakeGod|flag=us|role=t}}
+|{{TeamRoster/Line|player=Bugi|flag=kr|role=j}}
+|{{TeamRoster/Line|player=Insanity|flag=us|role=m}}
+|{{TeamRoster/Line|player=WildTurtle|flag=ca|role=a,c}}
+|{{TeamRoster/Line|player=Bvoy|flag=kr|role=a}}
+|{{TeamRoster/Line|player=Zeyzal|flag=us|role=s}}
+|{{TeamRoster/Line|player=Reven (Seong Sang-hyeon)|flag=kr|role=c}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team Liquid
+|{{TeamRoster/Line|player=Impact|flag=kr|role=t}}
+|{{TeamRoster/Line|player=UmTi|flag=kr|role=j}}
+|{{TeamRoster/Line|player=APA (Eain Stearns)|flag=us|role=m}}
+|{{TeamRoster/Line|player=Yeon (Sean Sung)|flag=us|role=a}}
+|{{TeamRoster/Line|player=CoreJJ|flag=kr|role=s}}
+|{{TeamRoster/Line|player=Spawn (Jake Tiberi)|flag=au|role=c}}
+|{{TeamRoster/Line|player=Reignover|flag=kr|role=c}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+:''Note: [[Golden Guardians]] and [[Evil Geniuses.NA|Evil Geniuses]] do not participate. The league is restructured as an 8-team league.<ref>[https://twitter.com/LCSOfficial/status/1726661693395349754 LCS' Tweet] ''twitter.com''</ref>''
+:<sup>1</sup> ''[[Shopify Rebellion]] acquired [[TSM]]'s slot.<ref>[https://twitter.com/ShopifyRebels/status/1704563749875761556 Shopify Rebellion's Tweet] ''twitter.com''</ref>''
+
+== Results ==
+{{Box|start}}
+{{AutoStandings|preload=bo1
+|places=upwithbye,upwithbye,upwithbye,upwithbye,up,up,stay,stay
+|finalorder=FLY,100,C9,TL,DIG,NRG,Shopify Rebellion,IMT
+|row1=upwithbye
+|row2=upwithbye
+|row3=upwithbye
+|row4=upwithbye
+|row5=up
+|row6=up
+|row7=stay
+|row8=stay
+|legend=true
+|upwithbye=Spring Playoffs Upper Bracket
+|up=Spring Playoffs Lower Bracket
+|stay=Not Qualified for Spring Playoffs
+|isover=yes
+|useasresults=yes
+|storeargs=yes
+}}
+{{Box|break}}
+{{AutoCrossbox
+|crossboxtype=BO1
+}}
+{{Box|end}}
+
+{{Bracket|2SE|cargo=yes|R1M1_cargomatch=Tiebreakers_1
+|R1_title=5th Place Tiebreaker
+}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,Reddit,interview,with
+|gamefields=Blue,Red,VODs,MVP,ssel
+}}
+
+== Timeline ==
+{{AutoTimeline
+|w6bg1=upwithbye
+|w6bg2=upwithbye
+|w6bg3=upwithbye
+|w6bg4=upwithbye
+|w6bg5=up
+|w6bg6=up
+|w6bg7=stay
+|w6bg8=stay
+|w5bg1=up
+|orderby=record
+|places=upwithbye,upwithbye,upwithbye,upwithbye,up,up,stay,stay
+|finalorder=FLY,100,C9,TL,DIG,NRG,Shopify Rebellion,IMT
+}}
+
+== Individual Awards ==
+=== "Player of the Game" Standings ===
+{{MVPStandings|queryfrom=game|displaytext=Player of the Game Standings
+|columns=Times
+}}
+
+=== Player of the Week ===
+{| class="wikitable"
+!  style="text-align:center;width:20px;" | Week
+!  style="text-align:center;width:120px;" | Player
+|-
+| style="text-align:center;" | '''1'''
+| {{team|C9|onlyimagelinked|size=38px}} [[Blaber]]
+|-
+| style="text-align:center;" | '''2'''
+| {{team|NRG|onlyimagelinked|size=38px}} [[huhi]]
+|-
+| style="text-align:center;" | '''3'''
+| {{team|FLY|onlyimagelinked|size=38px}} [[Busio]]
+|-
+| style="text-align:center;" | '''4'''
+| {{team|100|onlyimagelinked|size=38px}} [[Quid]]
+|-
+| style="text-align:center;" | '''5'''
+| {{team|C9|onlyimagelinked|size=38px}} [[Jojopyun]]
+|-
+| style="text-align:center;" | '''6'''
+| {{team|100|onlyimagelinked|size=38px}} [[Sniper]]
+|-
+|}
+
+=== Season Awards ===
+[https://lolesports.com/article/2024-lcs-spring-split-awards/blt693e75257b5fa651 Source]
+{{SeasonAwardStart}}
+{{SeasonAward|custom|award=Most Valuable Player|team=100|player=Quid}}
+{{SeasonAward|custom|award=Coaching Staff|team=100|player=100 Thieves}}
+{{SeasonAward|proteam|players=Bwipo, River (Kim Dong-woo), Quid, Bvoy, Busio|teams=FLY, 100, 100, Shopify, FLY}}
+{{SeasonAward|custom|award=2nd All Pro Team|players=Impact, Inspired, jojopyun, Berserker (Kim Min-cheol), Eyla|teams=TL, FLY, C9, C9, 100}}
+{{SeasonAward|custom|award=3rd All Pro Team|players=Sniper, Blaber, Jensen, Massu, Vulcan (Philippe Laflamme)|teams=100, C9, FLY, FLY, C9}}
+{{SeasonAwardEnd}}
+
+== Media ==
+=== Streams ===
+* {{stream|url=https://www.twitch.tv/lcs|lang=usuk}}
+* {{stream|url=https://www.youtube.com/channel/UCSF_aFGIIIoWY30GVV19TKA|lang=usuk}}
+
+=== Broadcast Talent ===
+==== Play-by-Play Casters ====
+*{{player|Azael|flag=ca|name=Isaac Cummings-Bentley}}
+*{{player|Kangas|flag=us|name=Steve Kangas}}
+*{{player|Raafaa|flag=us|name=Marc Alexander Arrambide}}
+*{{player|CaptainFlowers|flag=us|name=Clayton Raines}}
+==== Color Casters ====
+*{{player|Azael|flag=ca|name=Isaac Cummings-Bentley}}
+*{{player|Emily Rand|flag=us|name=Emily Rand}}
+*{{player|Jatt|flag=ca|name=Joshua Leesman}}
+*{{player|Kobe|flag=us|name=Sam Hartman-Kenzler}}
+*{{player|Raz|flag=ca|name=Barento Mohammed}}
+==== Guests Casters ====
+*{{player|APA (Eain Stearns)|flag=us|name=Eain Stearns}}
+*{{player|Aphromoo|flag=us|name=Zaqueri Black}}
+*{{player|dGon|flag=us|name=Daniel Gonzales}}
+*{{player|Doublelift|flag=us|name=Yiliang Peng}}
+*{{player|Inspired|flag=pl|name=Kacper Słoma}}
+*{{player|Licorice|flag=ca|name=Eric Ritchie}}
+*{{player|Mazel|flag=us|name=Lennon White}}
+*{{player|Pobelter|flag=us|name=Eugene Park}}
+*{{player|WildTurtle|flag=us|name=Jason Tran}}
+*{{player|Zven|flag=dk|name=Jesper Svenningsen}}
+
+=== Venue ===
+{| class="wikitable" style="text-align:center;"
+|-
+!{{flag|US}} Los Angeles, CA
+|-
+|Riot Games Arena LA
+|-
+|''Capacity'' - 243
+|-
+|[[File:LCS Studio.jpg|250px]]
+|-
+|12312 W Olympic Blvd<br>Los Angeles, CA 90064
+|}
+
+=== Additional Content ===
+{{TournamentMedia
+|dates=*,2024-01-01,2024-02-01,2024-03-01
+|names=,January,February,March
+}}
+
+=== Viewership Statistics ===
+Data sourced from [https://escharts.com/tournaments/lol/lcs-spring-2024-lol Esports Charts].
+{|class="wikitable"
+! colspan=2 | Peak Viewership
+|-
+! Total
+| 246 184
+|-
+! English Streams
+| 208 641
+|-
+! Twitch.tv Streams
+| 180 205
+|-
+! colspan=2 | Other
+|-
+! Total Time Watched
+| 10 761 151 Hours
+|-
+! Avg Concurrent Viewers
+| 120 686
+|}
+
+== References ==
+<references />

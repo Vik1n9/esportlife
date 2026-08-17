@@ -1,0 +1,95 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Minerva&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:18.564Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Minerva」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Minerva
+|name=Gustavo Queiroz Alves
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|residency=Brazil
+|birth_date_year=1995
+|birth_date_month=November
+|birth_date_day=09
+|favchamp=Zyra
+|favchamp2=Viego
+|favchamp3=Syndra
+|favchamp4=Diana
+|checkbox1=Yes
+|favchamp5=Graves
+|favchamp6=Evelynn
+|checkboxComp=No
+|ids='''BR''': Minerva#BR1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/minerva
+|facebook=https://www.facebook.com/LoLMinerva
+|twitter=GustavoMinerva
+|instagram=gustavominerva
+|youtube=https://www.youtube.com/@GustavoMinerva
+|discord=https://discord.com/invite/HKjSENGTgY
+|tiktok=gustavominerva
+|deeplol=https://www.deeplol.gg/pro/Minerva
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Mid
+|prev2=Bot
+|prev3=Support
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Originally a solo queue midlaner, Minerva was known for his support play, especially when using {{ci|Thresh}}. [[Minerva]] played midlane with a common team under several different organizations. When [[PaiN Gaming]] released Espeon after [[Gamescom 2013]] Wildcard Tournament, Minerva started to duo queue with [[BrTT]] and soon he joined the team as the new support. Despite not having much experience playing support, Minerva's play contributed to PaiN's success while he was a member of the team.
+In May 2014, Minerva left paiN and joined [[KaBuM! e-Sports]] as their starting AD carry, replacing [[dans]] in that role; dans moved to support and [[Espeon]] was moved to substitute. With KaBuM!, Minerva participated in the [[2014 Season World Championship]], and though the team placed last in their group, they notably beat [[Alliance]] in one game. Minerva's {{ci|Jinx}} play was a large contributing factor to their success in that victory.
+On October 31, 2014, Minerva announced that he was stepping down from KaBuM!, not retiring but taking some time off.<ref>[http://www.facebook.com/LoLMinerva/photos/714735438574318 Minerva's Facebook]</ref><ref>[http://leagueofbrazil.wordpress.com/2014/10/31/minerva-is-no-longer-member-of-kabum/ Minerva is no longer member of KaBuM] ''leagueofbrazil.wordpress.com''</ref>
+
+== Trivia ==
+* Necro once said in a interview that '''Minerva''' would be an excellent support due to his aggressiveness and mechanics.
+* Before [[paiN Gaming]], [[Minerva]] played in the midlane.
+* Favorite midlane champions are {{ci|LeBlanc}} and {{ci|Syndra}}.
+* Brazilian casters used to say that "Minerva left the mid lane, but the mid lane didn't leave him" because of his high KDA on supports.
+* He's openly homosexual.
+* His favorite supports are {{ci|Thresh}} and {{ci|Sona}}.
+* After playing as mid laner, support and AD carry, he moved to the jungle during the [[CBLOL/2015 Season/Split 2|CBLOL Split 2 2015]].
+* Portrayed as {{ci|Fizz}} in the CBLoL 2015 official wallpaper.
+* Is known for his {{ci|graves}} performance in [[BRCC 2019 Split 1]] where he got a 6 level advantage against [[Operation Kino e-Sports]] jungler at the time.<ref>[https://ibb.co/YQndvz1 Minerva's Graves] ''imgbb.com''</ref>
+* His '''Kings Lendas''' team name comes from a pun with [[G2]] and his {{ci|viego}} winrate in competitive.
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Casting History ==
+{{CastingHistory}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

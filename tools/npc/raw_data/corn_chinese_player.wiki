@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Corn%20(Lei%20Wen)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:51.383Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Corn (Chinese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Corn
+|name=Lei Wen
+|nativename=雷文
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=1997
+|birth_date_month=March
+|birth_date_day=04
+|favchamp=LeBlanc
+|favchamp2=Yasuo
+|checkbox1=No
+|compID1=Mis
+|checkboxComp=No
+|ids=zzzfffff
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|text=He was previously known as '''Mis'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|noteamhist=No
+|checkboxSharesRole=Yes
+|nicknames=玉米, 玉帝
+}}
+==Biography==
+
+===2014 Season===
+
+Corn's first team was [[Team King]] and he was with them until May of 2014. He then joined [[Star Horn Royal Club]]. In the [[2014_LPL_Summer/Playoffs|2014 LPL Summer Playoffs]] SHRC placed 3rd and earned the right to attend the [[2014 Season China Regional Finals]]. The team made it to the finals and lost 1-2 to [[EDward Gaming]] but earned the right to attend the [[2014 Season World Championship]]. At Worlds the team finished 1st in their group with a 5-1 record. They only dropped one match to [[Team SoloMid]]. In the Quarterfinals and Semifinals SHRC faced off against [[EDward Gaming]] and [[Oh My God]] respectively and defeated both of their Chinese rivals 3-2. In the Finals they were defeated 3-1 by the dominant [[Samsung Galaxy White]] and earned a respectable 2nd place finish.
+
+===2015 Season=== 
+
+In the [[2015_LPL/Spring/Regular_Season|spring season]] of 2015 SHRC's performance took a huge hit and they finished 10th place at the bottom of the standings. They were then eliminated from the LPL after an 0-3 loss to [[Gamtee]] in the Promotion Tournament. Corn left the team in May of 2015 and rejoined Team King. The team however placed 12th in the Summer Split of the LPL and was then relegated from the league after a 1-3 loss to [[2144 Danmu Gaming]] in the Promotion Tournament. Corn left Team King in December of 2015 and rejoined Star Horn Royal Club in the LSPL.
+
+===2016 Season===
+
+SHRC performed poorly in the [[LSPL/2016_Season/Spring_Season|2016 LSPL Spring Season]] and finished 12th. In the [[LSPL/2016_Season/Summer_Season|Summer Season]] they did better and place 4th in the regular season. Despite a 3rd place finish in the [[LSPL/2016_Season/Summer_Playoffs|playoffs]] after an 0-3 loss to [[Young Miracles]], the team did not manage to re-qualify for the LPL. In December SHRC renamed back into [[Royal Club]].
+
+===2017 Season===
+
+The team's [[LSPL/2017_Season/Spring_Season|2017 LSPL Spring Season]] went well and the team managed a 4th place finish with 14 wins and 8 losses. In the [[LSPL/2017_Season/Spring_Playoffs|playoffs]] however, they placed 4th after a 2-3 loss to [[DAN Gaming]]. Corn left Royal Club in May of 2017 and joined [[Newbee]]. In the [[Demacia_Cup/2017_Season|2017 Demacia Cup]] the team finished 13th-20th after a 1-2 loss to [[Young Glory]]. Their [[LPL/2017_Season/Summer_Season|summer season]] in the LPL was similar to their spring run. They placed 3rd in their group with 9 wins and 7 losses. In the [[LPL/2017_Season/Summer_Playoffs|playoffs]] they swept [[Snake Esports]] 3-0 in the first round but then got swept themselves 0-3 by [[Team WE]] in the Quarterfinals.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

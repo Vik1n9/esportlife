@@ -1,0 +1,99 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Ranger&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.161Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Ranger」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Ranger
+|name=Filipe Brombilla de Bairros
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Brazil
+|nationality=Brazil
+|residency=Brazil
+|birth_date_year=1995
+|birth_date_month=November
+|birth_date_day=28
+|favchamp=Zed
+|favchamp2=Rengar
+|favchamp3=Rumble
+|checkbox1=No
+|checkboxComp=No
+|ids='''BR''': Rangerzada#goat
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/rangerlol1
+|facebook=https://www.facebook.com/rangerlol1
+|twitter=rangerlol1
+|instagram=rangerlol1
+|youtube=https://www.youtube.com/@Rangerlol
+|lolpros=https://br.lolpros.gg/player/ranger
+|deeplol=https://www.deeplol.gg/pro/Ranger
+|bluesky=rangerlol1.bsky.social
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Top
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+Filipe "'''Ranger'''" Brombilla is from [[wikipedia:en:Porto Alegre|Porto Alegre]], Rio Grande do Sul.
+
+== Trivia ==
+<tabber>
+General Trivia=
+===General Trivia===
+* Was a toplaner during most part of his career, but roleswapped to the jungle in 2017.
+* Known as a Solo Queue troll and frequently being muted by his teammates.
+* Not a fan of utility and full tank champions, which he refers to as "slave champions".
+* Likes playing {{ci|Rumble}} in the jungle.
+* Considers [[dyNquedo]] one of his best teammates during his career and is one of his best friends since then.
+* He caused controversy and generated memes among professional players after complaining about the lack of commitment of Brazilian SoloQueue players and calling out the "monochampions" (OTPs) of the server.
+* He was the target of jokes for his performance in the [[CBLOL 2020 Split 1 Playoffs]] finals for his poor performance in the three defeats, choosing in all of them the champion {{ci|Graves}}.
+* Despite his good performance with [[FURIA]] in [[CBLOL 2022 Split 2]], he was benched and substituted by [[Goot]] after being diagnosed with Covid-19 and deciding afterwards he wasn't willing to take turns as a reserve player. He later on joined [[Flamengo Los Grandes]] to substitute [[Geum go]] and [[Sting]].<ref>[https://maisesports.com.br/cblol-2022-ranger-e-movido-para-a-reserva-definitiva-da-furia/ CBLOL 2022: Ranger é movido para a reserva “definitiva” da FURIA]''maisesports.com.br''</ref>
+* Coined the term "geração estruturada" in one of his last streams in 2023 to address players who weren't trying to evolve, which stands for "structured generation". The term ended up being used by [[Geração Estrutura]] as the name of the team. <ref>[https://twitter.com/TeamGE_BR/status/1737975656980353116 Geração Estrutura's Tweet] ''twitter.com''</ref>
+* He purposely leaked a [[Los Grandes]]' scrim VOD with communications against [[LOUD]] during [[CBLOL 2023 Split 1|2023's first split]] in [[Ilha das Lendas]]' '''Depois Do Crime''' to mock [[Netuno]]. In the scrim, it was show that '''Ranger''' made '''Netuno''' angry to the point where he punched the office's desk and left the room. <ref>[https://twitter.com/ilhadaslendas/status/1754542698382467169 Ilha das Lendas' Tweet] ''twitter.com''</ref>
+|-|
+Non-League-related Trivia=
+=== Non-League-related Trivia ===
+* He is a well known fan of the football team [[wikipedia:en:Sport Club Internacional|Sport Club Internacional]].
+* Known for often talking about himself in the third person during his livestreams.
+* Even though he's considered a very controversial figure in the Brazilian scene, he's gathered a somewhat large fanbase, which calls itself the "RangerNation", that have even created an anthem for the player.<ref>[https://www.youtube.com/watch?v=GbAKjSALqQk RANGERNATION - Ranger nation música - R A N G E R N A T I O N (Portuguese)] ''youtube.com''</ref>  
+* He is known in Brazil as '''"the GOAT"'''. <ref>[https://www.youtube.com/watch?v=QJt6qkqxLKo Ranger é o GOAT! | Desafio do Futebol da Rafa #CBLOL (Portuguese)] ''youtube.com''</ref> 
+</tabber>
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

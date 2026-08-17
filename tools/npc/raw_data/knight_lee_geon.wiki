@@ -1,0 +1,108 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Knight%20(Lee%20Geon)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.818Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Knight (Lee Geon)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Knight
+|name=Lee Geon
+|nativename=이건
+|namealphabet=Hangul
+|image=Tdk-louis-2015spring.jpg
+|checkboxAutoImage=No
+|country=South Korea
+|residency=Korea
+|checkbox-res=No
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|checkboxPrev=Yes
+|checkboxIsSub=No
+|prev1=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+}}
+==Biography==
+Lee "'''Knight'''" Sung-jin is from South Korea. He originally competed under the name '''Loyal''' and later '''LouisXGeeGee'''.
+===2014 Season===
+Loyal was a substitute AD carry for the [[Jin Air Falcons]] and played in one set of [[PANDORA.TV Champions Winter 2013-2014|Champions Winter 2013-2014]], against the [[Jin Air Stealths]], replacing starting AD carry [[Roar (Oh Jang-won)|Roar]]. The teams split the [[PANDORA.TV Champions Winter 2013-2014/Scoreboards/Group Stage/Group D|series]] 1-1.
+
+===2015 Preseason===
+Loyal changed his name to '''Chorong''' and moved to North American to join [[Team Dragon Knights]] in September 2014, with teammates [[Jackpot (American Player)|Jackpot]], [[Miso]], and [[Guardian (American Player)|Guardian]]; shortly thereafter, [[Remilia]] (Yuno) joined the team, and they were to compete in the [[Riot League Championship Series/North America/2015 Season/Spring Expansion|Expansion Tournament]]. However, despite qualifying via the [[Riot League Championship Series/North America/2015 Season/Expansion/Challenger Ladder|ranked 5s ladder]], the team dropped out of competition and did not participate in the Expansion Tournament. Shortly after, they disbanded, and only Chorong remained on the team.
+===2015 Season===
+Team Dragon Knights was rebuilt in January 2015, and Chorong, now renamed to '''LouisXGeeGee''', was the only member of the team to remain on the roster; [[kina (Shin Woo-yeong)|kina]], [[Kez]], [[Kyle (Seo Ji-seon)|Kyle]], and [[KonKwon]] joined him. This time, the team did compete in the [[2015 NA Challenger Series/Spring Qualifier|NACS Spring Qualifier]], where they successfully defeated [[Team Frostbite]] and then [[Roar (Chinese Team)|Roar]] to qualify for the [[2015 NA Challenger Series/Spring Season|season]]. They placed second overall, with a 7-3 record, sending them to the [[2015 NA Challenger Series/Spring Playoffs|playoffs]]. After a first-round victory against [[Team Fusion]], they lost in the finals 3-1 to [[Enemy eSports]]. Despite the fact that they had placed higher than Fusion, [[Winterfox]] chose to play against them in the [[Riot League Championship Series/North America/2015 Season/Summer Promotion|Summer Promotion Tournament]]. TDK used substitute mid laner [[Alex Ich]] in their promotional matches and won 3-1, successfully qualifying for the [[Riot League Championship Series/North America/2015 Season/Summer Season|NA LCS Summer Split]]. In June he joined [[Team Coast]] as a substitute and changed his role from AD to Mid laner.
+===2016 Season ===
+LouisXGeeGee renamed to '''Knight''' at the start of the 2016 season, and switched regions again, this time moving to Oceania to play for [[Sentinels Esports Club]] in the [[OCS/2016 Season/Split 1|Oceanic Challenger Series]].
+
+== Trivia ==
+* Built [[Essence Reaver]] on {{ci|Sivir}} and {{ci|Lucian}} in [[Team Dragon Knights]]'s first two games against [[Winterfox]] in the [[Riot League Championship Series/North America/2015 Season/Summer Promotion|NA LCS 2015 Summer Promotion Tournament]]; at the time the item had almost never been built in competitive play.
+* Changed his legal name from Lee Sung-jin (이성진) to Lee Geon (이건).
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

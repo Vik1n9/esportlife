@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Crazy%20(Kim%20Jae-hee)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.102Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Crazy」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=Crazy
+|name=Kim Jae-hee
+|nativename=김재희
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1996
+|birth_date_month=September
+|birth_date_day=20
+|favchamp=Fiora
+|checkbox1=No
+|compID1=Crazyplay
+|checkboxComp=No
+|ids='''EUW:''' Ccrazy<br>GS 5<br>Sweet guy
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/t1_crazy
+|facebook=https://www.facebook.com/kimchaehee4
+|twitter=_Ccrazy_
+|instagram=ccraz_y
+|lolpros=https://lolpros.gg/player/crazy-1
+|deeplol=https://www.deeplol.gg/pro/Crazy-Kim_Jae-hee
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Crazyplay'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+|nicknames=Crazyplay
+}}
+==Biography==
+===2016 Preseason===
+Kim "'''Crazy'''" Jae-hee joined [[ESC Ever|Ever]] as a top laner under the name "'''Crazyplay'''". He played with them in the [[LCK/2016 Season/Spring Promotion|LCK 2016 Spring Season Promotion Tournament]] but they lost 3-1 to [[SBENU Sonicboom]]. They then played in the [[2015 LoL KeSPA Cup]] where they upset [[Samsung Galaxy]] and [[Rebels Anarchy]] in the first two rounds. Expected to fall 2-0 to recent World Champions [[SK Telecom]], who tried out substitute [[Scout]] onstage for the first time in game 1, Ever shocked audiences by not only winning that first game but sweeping the team 2-0, even with [[Faker]] playing the second game. Against [[CJ Entus]] in the finals, Ever once again swept the series, this time 3-0, and qualified for [[IEM Season X - Cologne|IEM Cologne]] as Korea's only seed to the event. Ever continued their strong performance at IEM, defeating [[H2k]] 2-1 and then [[Qiao Gu]] 3-2 to win the tournament. Their victory marked the first time since the inception of the League Championship Series in 2013 that a team unable to qualify for their national premier league won a major international event. However, after the tournament, mid laner [[Athena]] departed the team, and so their IEM Championship lineup was unable to play together again.
+
+=== 2016 Season ===
+At the time of competing at [[IEM Season X - World Championship|IEM Katowice]] (which they had an invitation to due to winning IEM Cologne), Ever were in second place in [[Challengers Korea/2016 Season/Spring Season|Challengers]], after losing a series 0-2 to [[MVP]]. Despite a round-one surprise upset win over [[Team SoloMid]], Ever lost to [[Royal Never Give Up]] and then a rematch series against TSM to be eliminated before the playoff bracket.
+
+After coming back to Korea, ESC Ever continued to perform well in the [[Challengers Korea/2016 Season/Spring Season|Challengers Korea 2016 Spring Season]], finishing second place in the regular season with 27 pts. After beating [[Ever8 Winners]] 3-1, they beat [[MVP]] 3-2 to win the season and earn a spot in the [[LCK/2016 Season/Summer Promotion|2016 LCK Summer Promotion]]. Then, they beat [[SBENU Sonicboom]] 3-0 to earn a spot in the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]].
+
+During the [[LCK/2016 Season/Summer Season|2016 LCK Summer Season]], ESC Ever went 5-13 in total sets, with one notable upset victory over [[SK Telecom T1]]. However, they still finished the split in ninth place, leading them to participate in the [[LCK/2017 Season/Spring Promotion|2017 LCK Spring Promotion]] tournament. In the first round, they beat [[SBENU Korea]] 2-1 before falling to [[Kongdoo Monster]] 3-1. In the deciding loser's match, ESC Ever swept [[CJ Entus]] to earn their spot back in the LCK.
+
+== Trivia ==
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

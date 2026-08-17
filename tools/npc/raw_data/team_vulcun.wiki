@@ -1,0 +1,80 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Team%20Vulcun&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:39.059Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Team Vulcun」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=XDG Gaming
+|name= Team Vulcun
+|orgcountry= United States 
+|country= United States
+|region=NA
+|image= Vulcunlogo.png
+|coaches= Kenneth "'''Kenma'''" Buechter
+|manager= Christina "'''Gnomesayin'''" Laird
+|captain=  
+|website= https://vulcun.com/
+|youtube= 
+|facebook= https://www.facebook.com/VulcunCommand 
+|irc=
+|sponsor= [http://www.drinknos.com/ NOS Energy Drink]<br>[http://www.pwrclothing.com/ PWR Clothing]<br>[http://www.techbargains.com/?utm_source=vulcun&utm_medium=referral&utm_campaign=leaguepedia&source=vulcun&subsource=leaguepedia TechBargains] <br>[http://www.ibuypower.com/home.aspx iBUYPOWER]<br>[http://www.lol-class.com/ LoL-Class.com]<br>[http://www.razerzone.com/ Razer]
+|created= 2013-02-02
+|trades= 2013-04-03 [[Muffinqt]] leaves<br />2013-04-03 acq. [[BloodWater]]
+|disbanded= 2013-10-16
+}}{{TOCRWI}}
+
+'''Team Vulcun''' was a North American eSports Team which formed in February 2013 to compete in Riot Games' Season 3 NA League Championship Series. In October 2013, the team reformed as XDG Gaming.
+
+The team competed under the name '''Vulcun TechBargains''', in representation of their sponsor, [http://www.techbargains.com/?utm_source=vulcun&utm_medium=referral&utm_campaign=leaguepedia&source=vulcun&subsource=leaguepedia TechBargains].
+
+== History ==
+===Season 3===
+Team Vulcun was a North American Professional League of Legends team that was formed on February 2 2013, after acquiring the roster of [[Team FeaR]]. Along with the announcement of the team's new name, they also announced their two subs, [[ScubaChris]] and [[MasteR of LoL]].
+
+On April 23 2013, [[BloodWater]] replaced [[Muffinqt]] as Team Vulcun's Support.
+
+On May 2 2013, it was officially announced the Team Vulcun would play under the name Vulcun TechBargains in representation of their new sponsor, TechBargains.
+
+After they acquired [[BloodWater]], Team Vulcun's game increased to another level having a true dedicated shotcaller and went on to place 5th in the [[Riot League Championship Series/North America/Season 3/Spring Round Robin|NA LCS Spring Season]]. At the [[Riot League Championship Series/North America/Season 3/Spring Playoffs|NA LCS Spring Playoffs]], they went on to place 3rd, securing their spot in the NA LCS Summer Season.
+
+During the [[Riot League Championship Series/North America/Season 3/Summer Round Robin|NA LCS Summer Season]], despite a somewhat shaky beginning, Vulcun hit their stride starting middle of the season, becoming a dominant team in the league. They ended the season with a great record of 20-8, placing 2nd only after the dominant [[Cloud 9]], ensuring them a bye at [[Riot League Championship Series/North America/Season 3/Summer Playoffs|NA LCS Summer Playoffs]] and their spot for Season 4 Spring season. Vulcun faced [[TSM]] in the semifinals but lost 2-0 in the set, sending them to fight [[Team Dignitas]] for a 3rd place finish. The team's strong game bested dig, making them the last NA team to qualify for a coveted spot at the [[Season 3 World Championship]].
+
+At the S3 Championship, Vulcun would be placed into a tough group and came out extremely strong, surprising much of the crowd and win their first game against top European seed, [[Fnatic]] in convincing fashion. They would be unable to continue strong through the rest of the group stage and finish 4th in the group, not advancing to the Quarterfinals and would end up 12th at the tournament.
+
+===New Team Name===
+It was announced in October 2013 that Team Vulcun would continue playing post-Season 3 but reformed as [[XDG Gaming]].
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+[[File:s3_vul.png|thumb|no-link=true|400px|right|Team Vulcun Season 3 World Championship Roster<br> Left to Right: mandatorycloud, Xmithie, BloodWater, Sycho Sid, Zuna]]
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+=== Former ===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Gnomesayin|us|Christina Laird|'''Team Manager'''|newteam=XDG Gaming}}
+{{listplayersp|Kenma|us|Kenneth Buechter|'''Team Coach'''|newteam=XDG Gaming}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Highlight Videos ==
+* [http://www.youtube.com/watch?v=HRORojMuG80 Top 5 Vulcun Plays from NA LCS]
+
+==Interviews==
+* June 6 - [http://www.reddit.com/r/leagueoflegends/comments/1fs6de/hi_im_kenma_coach_for_team_vulcun_ama/ Hi, I'm Kenma coach for team Vulcun, AMA] ''with Reddit''
+* June 24 - [http://www.youtube.com/watch?v=mOLf_gu4O0Q Rift Talk #2 - Kenneth "Kenma" Buechter (video)] ''with Rift Talk''
+
+==See Also==
+<!-- Links to relevant pages on Leaguepedia. Use asterisk (*) to create a  bulleted list of links. -->
+
+==External Links==
+* [http://na.lolesports.com/season3/split1/teams/vulcun Vulcun Team Profile] ''on lolesports.com''
+
+==References==
+<references />

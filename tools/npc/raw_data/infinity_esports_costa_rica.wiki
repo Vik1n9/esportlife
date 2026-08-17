@@ -1,0 +1,55 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Infinity%20Esports%20Costa%20Rica&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:38:25.807Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Infinity Esports Costa Rica」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=Yes
+|name= Infinity Esports Costa Rica
+|orgcountry= Costa Rica
+|country= 
+|region= LAT
+|headcoach= 
+|owner= Paul "'''Monrrow'''" Venegas
+|website= 
+|youtube= https://www.youtube.com/channel/UCNwEvtAAfGbJeqYUmczAuBQ
+|facebook= https://www.facebook.com/InfinityEsportsLatam
+|twitter= InFinitye_sport
+|instagram= infinitye_sports
+|sponsor= 
+|created= Main Team 2009-11-01 <br> Costa Rican Division 2019-01-14
+|disbanded= Costa Rican Division 2020-03-17
+}}{{TOCRWI}}
+
+'''Infinity Esports Costa Rica''' is the Costa Rican team of [[INFINITY|Infinity Esports]]. It was one of eight teams selected to participate in the first season of the [[Liga Tica de Leyendas/2019 Season/Opening Season|Liga Tica de Leyendas]].
+
+== History ==
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Former===
+{{TeamMembersFormer}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|Monrrow|cr|Paul Venegas|'''Founder & Chief Esports Officer'''}}
+{{listplayersp||ar|Diego Gonzalo Foresi|'''Co-Owner & Chief Executive Officer'''}}
+{{listplayersp||ar|Damián Szafirsztein|'''Co-Owner & Chief Marketing Officer'''}}
+{{listplayersp||ar|Nicolás Lescano|'''Co-Owner & Chief Communications Officer'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=none}}
+{{listplayer|Sly Fox|us|Cyrus Shiver|'''Head Coach'''|newteam=FG.A}}
+{{listplayersp|Arwald|mx|Raúl Ibarra|'''Team Manager'''|newteam=retired}}
+{{listplayersp|ChinoLeon|cr|Erick León|'''Content Creator & Community Manager'''|newteam=INFINITY}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+== Media ==
+{{TeamMedia}}
+
+==References==
+<references />

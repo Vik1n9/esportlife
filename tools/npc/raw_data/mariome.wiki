@@ -1,0 +1,67 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MarioMe&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.878Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MarioMe」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Personality
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|low_content=No
+|id=MarioMe
+|name=Mario Reyes
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Mexico
+|residency=North America|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|birth_date_year=1993
+|birth_date_month=October
+|birth_date_day=21
+|favchamp=Ezreal
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Coach
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/mariomee
+|facebook=https://www.facebook.com/LolMarioMe
+|twitter=_MarioMe
+|youtube=https://youtube.com/user/xMarioRT
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Support
+|prev2=Manager
+}}
+== Biography ==
+
+== Trivia ==
+* At the start of his pro gaming career, he played ''Call of Duty Modern Warfare 2'' in LatAm as a semi-pro.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

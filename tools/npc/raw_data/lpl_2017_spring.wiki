@@ -1,0 +1,873 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=LPL%2F2017%20Season%2FSpring%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:13.440Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LPL/2017/Spring」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:LPL 2017|Spring Season=1}}
+{{Infobox Tournament
+|name=2017 LPL Spring Season
+|image= LPL 2017 logo.png
+|organizer=[http://game.qq.com/index.shtml Tencent Games]
+|sponsor=
+|server= 
+|type= Offline
+|country= China
+|prizepool=
+|format=
+|sdate=2017-01-19
+|edate=2017-04-16
+|website=http://lpl.qq.com/es/lpl/
+|streams={{stream|url=http://www.twitch.tv/lpl1|lang=usuk}} <br> {{stream|url=http://lpl.qq.com/es/lpl/|lang=cn}}
+|linkstreams=yes
+|region=China
+|split=Spring
+|split_number=1
+|CM_StandardName=LPL 2017 Spring
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2017
+|CM_StandardLeague=LPL
+|CM_LeagueIconKey=LPL
+|closest_timezone=KST
+}}[[Category:Premier Events]]{{TOCRWI|2}}
+
+==Overview==
+=== Format ===
+* Two groups of six teams each
+* Groups based on [[LPL/2016 Season/Summer Season|Summer 2016]] and [[2016 Season China Regional Finals|Regional Finals]] performances
+** One team from Tier 1 ([[EDward Gaming]] and [[Royal Never Give Up]])
+** Two teams from Tier 2 ([[I May]], [[Team WE]], [[Snake Esports]], and [[Vici Gaming]])
+** Two teams from Tier 3 ([[Invictus Gaming]], [[Newbee]], [[Game Talents]], and [[LGD Gaming]])
+** One team from Tier 4 ([[Oh My God]] and [[QG Reapers]])
+* Each team plays 16 matches.
+** Double Round Robin within own group
+** Single Round Robin against other group
+* Best of 3
+* Top 4 from each group qualifies to the [[LPL/2017 Season/Spring Playoffs|playoffs]]
+* Group winners receive playoff byes into the semifinals
+* Second place teams receive playoff byes into the quarterfinals
+* Fifth and sixth-place teams play in [[LPL/2017 Season/Summer Promotion|Summer Promotion]]
+* {{TiebreakerRules|
+:* If two teams have the same number of series won, ties will be broken by:
+::# Game Differential (Individual Game Wins minus Losses)
+::# Head to Head record
+::# Number of games won
+::# If still tied, a best of three tiebreaker series will be played, with side selection determined by coin toss}}
+
+==Participants==
+{| class="wikitable mw-collapsible mw-collapsed" style="width:800px;"
+!colspan=4|'''Qualified Teams'''
+|-
+!colspan=4|''' [[LPL/2016 Season/Summer Season|LPL Summer]] (8)'''
+|-
+|{{team|EDward Gaming}}
+|{{team|Invictus Gaming}}
+|{{team|Game Talents}}
+|{{team|I May}}
+|-
+|{{team|Royal Never Give Up}}
+|{{team|Snake eSports}}
+|{{team|Team WE}}
+|{{team|Vici Gaming}}
+|-
+!colspan=1|''' [[LSPL/2016 Season/Summer Playoffs|LSPL Summer Playoffs]] (1)'''
+!colspan=3|''' [[LPL/2017 Season/Spring Promotion|LPL Spring Promotion]] (3)'''
+|-
+|{{team|NBY}}
+|{{team|LGD}}
+|{{team|Oh My God}}
+|{{team|Newbee}}
+|}
+{{RostersStart|maxteams=6
+|showrosterpage=yes
+|rosterswaps=Roster Swaps/2017 Preseason/China
+}}
+{{Box|start}}
+{{TeamRoster|team=EDward Gaming
+|{{TeamRoster/Line|player=Mouse |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Koro1 |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Minn |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Fireloli |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Clearlove |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Scout |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Zet |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Meiko |flag=cn |role=support}}
+|{{TeamRoster/Line|player=NoFe |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Game Talents
+|{{TeamRoster/Line|player=Gimgoon |flag=kr |role=top}}
+|{{TeamRoster/Line|player=WuShuang |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Xiaoyu (Liang Jian) |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Republic |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Xubin |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=West |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=PentaQ |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Savoki |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Soulmate |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Vitamin |flag=kr |role=coach}}
+}}
+{{Box|break}} 
+{{TeamRoster|team=I May
+|{{TeamRoster/Line|player=AmazingJ |flag=hk |role=top}}
+|{{TeamRoster/Line|player=Ben4 |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Flawless |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Athena |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Jinjiao |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Road (Yun Han-gil) |flag=kr |role=support}}
+|{{TeamRoster/Line|player=Starlight |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Kezman |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Invictus Gaming
+|{{TeamRoster/Line|player=Duke (Lee Ho-seong) |flag=kr |role=top}}
+|{{TeamRoster/Line|player=KidKid |flag=cn |role=jungle, AD}}
+|{{TeamRoster/Line|player=Rio |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Rookie |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Marge |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Megan |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Chris (Siu Keung) |flag=hk |role=coach}}
+|{{TeamRoster/Line|player=Mafa |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=LGD Gaming
+|{{TeamRoster/Line|player=Funny |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Eimy |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Intruder |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=GodV (Wei Zhen) |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Jinoo |flag=kr |role=top, Mid}}
+|{{TeamRoster/Line|player=Imp |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Pyl (Chen Bo) |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Dgc |flag=cn |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Newbee
+|{{TeamRoster/Line|player=V |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Skye |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Swift |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Cool |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Coco|flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Lwx |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Happy |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Pinus |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Mor |flag=cn |role=support}}
+|{{TeamRoster/Line|player=YuZhe |flag=cn |role=coach}}
+|{{TeamRoster/Line|player=Hiro (Lee Woo-suk) |flag=kr |role=coach}}
+|{{TeamRoster/Line|player=Nct (Feng Zhong-Hao) |flag=cn |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Oh My God
+|{{TeamRoster/Line|player=Xiyang |flag=cn |role=top}}
+|{{TeamRoster/Line|player=JueJue |flag=cn |role=jungle, Mid}}
+|{{TeamRoster/Line|player=World6 |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Icon |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Smlz |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Five |flag=cn |role=support}}
+|{{TeamRoster/Line|player=MingZhe |flag=cn |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=QG Reapers|footnoteteamn=1
+|{{TeamRoster/Line|player=Kabe |flag=hk |role=top}}
+|{{TeamRoster/Line|player=Clid |flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Xinyi |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Doinb |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Candyseven |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Alone (Wang Zi-Jun) |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Loken |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Chen |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Cloud (Hu Zhen-Wei) |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Ali (Liu Xu-Dong) |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Deceit |flag=cn |role=support}}
+|{{TeamRoster/Line|player=BanBazi |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Royal Never Give Up|font-size=90
+|{{TeamRoster/Line|player=Letme |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Mlxg |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Baybay |flag=tw |role=jungle}}
+|{{TeamRoster/Line|player=Y1HAN |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Xiaohu |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Uzi (Jian Zi-Hao) |flag=cn |role=ad }}
+|{{TeamRoster/Line|player=Again |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Ming (Shi Sen-Ming) |flag=cn |role=support}}
+|{{TeamRoster/Line|player=FireFox |flag=tw|role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Snake Esports
+|{{TeamRoster/Line|player=Flandre |flag=cn |role=top}}
+|{{TeamRoster/Line|player=SofM |flag=vn |role=jungle, Support}}
+|{{TeamRoster/Line|player=Zzr |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Tank |flag=kr |role=mid}}
+|{{TeamRoster/Line|player=Zz1tai |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Mint |flag=cn |role=ad, Jungle}}
+|{{TeamRoster/Line|player=Ohq |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=kRYST4L |flag=cn |role=support, AD}}
+|{{TeamRoster/Line|player=Mo |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Zhu Kai |flag=cn |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Team WE
+|{{TeamRoster/Line|player=957 |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Condi |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=xiye |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=Mystic |flag=kr |role=ad}}
+|{{TeamRoster/Line|player=Zero (Yoon Kyung-sup) |flag=kr |role=support}}
+|{{TeamRoster/Line|player=Ben |flag=kr |role=support}}
+|{{TeamRoster/Line|player=Homme |flag=kr |role=coach}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Vici Gaming
+|{{TeamRoster/Line|player=Onion |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Loong |flag=cn |role=top}}
+|{{TeamRoster/Line|player=Bengi|flag=kr |role=jungle}}
+|{{TeamRoster/Line|player=Ocean (Tang Hai-Qin) |flag=cn |role=jungle}}
+|{{TeamRoster/Line|player=Easyhoon |flag=kr |role=mid, Support}}
+|{{TeamRoster/Line|player=Peng (Peng Yi-Bo) |flag=cn |role=mid}}
+|{{TeamRoster/Line|player=XuanXuanPi |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Endless (Xu Hao) |flag=cn |role=ad}}
+|{{TeamRoster/Line|player=Hetong |flag=cn |role=support}}
+|{{TeamRoster/Line|player=Caveman |flag=cn |role=support}}
+|{{TeamRoster/Line|player=PoohManDu |flag=kr |role=coach}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+:<sup>1</sup> ''[[Newbee Young]] is acquired by [[QG Reapers]].''
+
+==Results==
+{{Box|start}}
+{{AutoStandings|preload=bo3diff|display=Group A
+|teamlist=RNG,OMG,iG,I May,Snake,LGD
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down
+|row1=upwith3bye
+|row2=upwith2bye
+|row3=upwithbye
+|row4=up
+|row5=staydown
+|row6=down
+|legend=true
+|upwith3bye=Semifinal Seed
+|upwith2bye=Quarterfinal Seed
+|upwithbye=Playoff Seed with game advantage
+|up=Playoff Seed
+|staydown=Summer Promotion Qualifying Round
+|down=Summer Promotion Elimination Round
+|isover=yes
+|useasresults=yes
+|phase=Group A
+|finalorder=RNG,OMG,iG,I May,Snake,LGD
+}}
+{{Box|break}}
+{{AutoStandings|preload=bo3diff|display=Group B
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down
+|teamlist=WE,EDG,QGR,Newbee,VG,Game Talents
+|row1=upwith3bye
+|row2=upwith2bye
+|row3=upwithbye
+|row4=up
+|row5=staydown
+|row6=down
+|legend=true
+|upwith3bye=Semifinal Seed
+|upwith2bye=Quarterfinal Seed
+|upwithbye=Playoff Seed with game advantage
+|up=Playoff Seed
+|staydown=Summer Promotion Qualifying Round
+|down=Summer Promotion Elimination Round
+|isover=yes
+|useasresults=yes
+|phase=Group B
+|finalorder=WE,EDG,QGR,Newbee,VG,Game Talents
+}}
+{{Box|break}}
+{{AutoCrossbox|crossboxtype=BO3|groups=Yes
+}}{{Box|end}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=reddit
+|gamefields=VODs
+}}
+
+==Timeline==
+===Group A===
+{{AutoTimeline|orderby=recordwithpoints
+|teamlist=RNG,OMG,iG,I May,Snake,LGD
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down
+ |w8bg1=upwith3bye
+  |w8bg6=staydown <!--IM vs OMG after week 8--> 
+<!-- Week 9 -->
+  |w9bg1=upwith3bye
+  |w9bg2=up
+  |w9bg6=down
+<!-- Week 10 -->
+  |w10bg1=upwith3bye
+  |w10bg2=upwith2bye
+  |w10bg3=upwithbye
+  |w10bg4=up
+  |w10bg5=staydown
+  |w10bg6=down
+ }}
+
+===Group B===
+{{AutoTimeline|orderby=recordwithpoints
+|places=upwith3bye,upwith2bye,upwithbye,up,staydown,down
+|teamlist=WE,EDG,QGR,Newbee,VG,Game Talents
+ |w8bg1=upwithbye
+  |w8bg2=upwithbye
+  |w9bg1=upwithbye
+  |w9bg2=upwithbye
+  |w9bg3=upwithbye
+  |w9bg6=down
+<!-- Week 10 -->
+  |w10bg1=upwith3bye
+  |w10bg2=upwith2bye
+  |w10bg3=upwithbye
+  |w10bg4=up
+  |w10bg5=staydown
+  |w10bg6=down
+ }}
+
+== Individual Awards ==
+=== Season MVP Standings ===
+MVP of the regular season: [[Doinb]] <!--reference:http://lpl.qq.com/es/news_detail.shtml?nid=8170-->
+<!-- when tied, players are organized in alphabetic order -->
+{| class="wikitable" style="width:250px;"
+! style="text-align:center;width:50px;" | Place
+! style="text-align:center;width:50px;" | Times
+! style="text-align:center;width:150px;" | Player
+|-
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 12
+| {{team|QG Reapers|onlyimagelinked|size=38px}}&nbsp;[[Doinb]]
+|-
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 12
+| {{team|Invictus Gaming|onlyimagelinked|size=38px}}&nbsp;[[Rookie]]
+|-
+| style="text-align:center;" | '''1st'''
+| style="text-align:center;" | 12
+| {{team|EDward Gaming|onlyimagelinked|size=38px}}&nbsp;[[Scout]]
+|-
+| style="text-align:center;" | '''4th'''
+| style="text-align:center;" | 9
+| {{team|Royal Never Give Up|onlyimagelinked|size=38px}}&nbsp;[[Xiaohu]]
+|-
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 8
+| {{team|WE|onlyimagelinked|size=38px}}&nbsp;[[Condi]]
+|}
+{| class="wikitable mw-collapsible mw-collapsed"  style="width:250px;margin-top:-14px;"
+! colspan="3" | Click for Full Standings
+|- style="text-align:center;"
+!  style="text-align:center;width:50px;" | Place
+!  style="text-align:center;width:50px;" | Points
+!  style="text-align:center;width:150px;" | Player
+|-
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 8
+| {{team|Vici Gaming|onlyimagelinked|size=38px}}&nbsp;[[Easyhoon]]
+|-
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 8
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[Swift]]
+|-
+| style="text-align:center;" | '''5th'''
+| style="text-align:center;" | 8
+| {{team|Team WE|onlyimagelinked|size=38px}}&nbsp;[[xiye]]
+|-
+| style="text-align:center;" | '''9th'''
+| style="text-align:center;" | 7
+| {{team|Royal Never Give Up|onlyimagelinked|size=38px}}&nbsp;[[Letme]]
+|-
+| style="text-align:center;" | '''9th'''
+| style="text-align:center;" | 7
+| {{team|OMG|onlyimagelinked|size=38px}}&nbsp;[[Smlz]]
+|-
+| style="text-align:center;" | '''9th'''
+| style="text-align:center;" | 7
+| {{team|Snake|onlyimagelinked|size=38px}}&nbsp;[[SofM]]
+|-
+| style="text-align:center;" | '''11th'''
+| style="text-align:center;" | 6
+| {{team|I May|onlyimagelinked|size=38px}}&nbsp;[[AmazingJ]]
+|-
+| style="text-align:center;" | '''11th'''
+| style="text-align:center;" | 6
+| {{team|Oh My God|onlyimagelinked|size=38px}}&nbsp;[[Icon]]
+|-
+| style="text-align:center;" | '''14th'''
+| style="text-align:center;" | 5
+| {{team|LGD Gaming|onlyimagelinked|size=38px}}&nbsp;[[GodV (Wei Zhen)|GodV]]
+|-
+| style="text-align:center;" | '''14th'''
+| style="text-align:center;" | 5
+| {{team|QGR|onlyimagelinked|size=38px}}&nbsp;[[Kabe]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|I May|onlyimagelinked|size=38px}}&nbsp;[[Athena]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|QG Reapers|onlyimagelinked|size=38px}}&nbsp;[[Clid]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[Cool]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|EDward Gaming|onlyimagelinked|size=38px}}&nbsp;[[Fireloli]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|LGD Gaming|onlyimagelinked|size=38px}}&nbsp;[[Imp]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|Invictus Gaming|onlyimagelinked|size=38px}}&nbsp;[[KidKid]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|Vici Gaming|onlyimagelinked|size=38px}}&nbsp;[[Loong]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|RNG|onlyimagelinked|size=38px}}&nbsp;[[Mlxg]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|EDward Gaming|onlyimagelinked|size=38px}}&nbsp;[[Mouse]]
+|-
+| style="text-align:center;" | '''16th'''
+| style="text-align:center;" | 4
+| {{team|Royal Never Give Up|onlyimagelinked|size=38px}}&nbsp;[[Uzi (Jian Zi-Hao)|Uzi]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Team WE|onlyimagelinked|size=38px}}&nbsp;[[Ben]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|I May|onlyimagelinked|size=38px}}&nbsp;[[Ben4]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Oh My God|onlyimagelinked|size=38px}}&nbsp;[[Five]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Game Talents|onlyimagelinked|size=38px}}&nbsp;[[Gimgoon]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Snake Esports|onlyimagelinked|size=38px}}&nbsp;[[kRYST4L]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|EDward Gaming|onlyimagelinked|size=38px}}&nbsp;[[Meiko]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Team WE|onlyimagelinked|size=38px}}&nbsp;[[Mystic]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Game Talents|onlyimagelinked|size=38px}}&nbsp;[[Republic]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|I May|onlyimagelinked|size=38px}}&nbsp;[[Road (Yun Han-gil)|Road]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Game Talents|onlyimagelinked|size=38px}}&nbsp;[[Xiaoyu (Liang Jian)|Xiaoyu]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|EDward Gaming|onlyimagelinked|size=38px}}&nbsp;[[Zet]]
+|-
+| style="text-align:center;" | '''26th'''
+| style="text-align:center;" | 3
+| {{team|Snake Esports|onlyimagelinked|size=38px}}&nbsp;[[Zz1tai]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Team WE|onlyimagelinked|size=38px}}&nbsp;[[957]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[Coco]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Invictus Gaming|onlyimagelinked|size=38px}}&nbsp;[[Duke (Lee Ho-seong)|Duke]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Snake Esports|onlyimagelinked|size=38px}}&nbsp;[[Flandre]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|I May|onlyimagelinked|size=38px}}&nbsp;[[Jinjiao]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[Lwx]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Invictus Gaming|onlyimagelinked|size=38px}}&nbsp;[[Megan]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|LGD Gaming|onlyimagelinked|size=38px}}&nbsp;[[Pyl (Chen Bo)|Pyl]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|Snake Esports|onlyimagelinked|size=38px}}&nbsp;[[Tank]]
+|-
+| style="text-align:center;" | '''38th'''
+| style="text-align:center;" | 2
+| {{team|OMG|onlyimagelinked|size=38px}}&nbsp;[[Xiyang]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|QG Reapers|onlyimagelinked|size=38px}}&nbsp;[[Alone (Wang Zi-Jun)|Alone]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|VG|onlyimagelinked|size=38px}}&nbsp;[[Bengi]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|LGD|onlyimagelinked|size=38px}}&nbsp;[[Eimy]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[Happy]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|LGD Gaming|onlyimagelinked|size=38px}}&nbsp;[[Intruder]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|LGD Gaming|onlyimagelinked|size=38px}}&nbsp;[[Jinoo]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|OMG|onlyimagelinked|size=38px}}&nbsp;[[JueJue]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Invictus Gaming|onlyimagelinked|size=38px}}&nbsp;[[Marge]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Royal Never Give Up|onlyimagelinked|size=38px}}&nbsp;[[Ming (Shi Sen-Ming)|Ming]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[Mor]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Newbee|onlyimagelinked|size=38px}}&nbsp;[[V]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Game Talents|onlyimagelinked|size=38px}}&nbsp;[[West]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Oh My God|onlyimagelinked|size=38px}}&nbsp;[[World6]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Game Talents|onlyimagelinked|size=38px}}&nbsp;[[Xubin]]
+|-
+| style="text-align:center;" | '''48th'''
+| style="text-align:center;" | 1
+| {{team|Team WE|onlyimagelinked|size=38px}}&nbsp;[[Zero (Yoon Kyung-sup)|Zero]]
+|}
+=== All-Pro Team of the Regular Season ===
+{| class="wikitable"
+!  style="text-align:center;width:50px;" | Position
+!  style="text-align:center;width:150px;" | Player
+|-
+| style="text-align:center;" | Top
+| {{team|I May|onlyimagelinked|size=38px}}&nbsp;[[AmazingJ]]
+|-
+| style="text-align:center;" | Jungle
+| {{team|WE|onlyimagelinked|size=38px}}&nbsp;[[Condi]]
+|-
+| style="text-align:center;" | Mid
+| {{team|QGR|onlyimagelinked|size=38px}}&nbsp;[[Doinb]]
+|-
+| style="text-align:center;" | ADC
+| {{team|Royal Never Give Up|onlyimagelinked|size=38px}}&nbsp;[[Uzi (Jian Zi-Hao)|Uzi]]
+|-
+| style="text-align:center;" | Support
+| {{team|EDG|onlyimagelinked|size=38px}}&nbsp;[[Meiko]]
+|}
+
+=== Weekly Highlighted Player ===
+* Chosen by wanplus.com
+{{Box|start}}
+==== Group A ====
+{| class="wikitable"
+!  rowspan = 2 style="text-align:center;width:50px;" | Week
+!  rowspan = 2 style="text-align:center;width:110px;" | Player
+!  rowspan = 2 style="text-align:center;width:50px;" | KDA
+!  colspan = 2 style="text-align:center;width:260px;" | Highlighted Game
+|-
+!  style="text-align:center;width:170px;" | Game
+!  style="text-align:center;width:90px;" | Champion
+|-
+| style="text-align:center;" | '''1'''
+| {{team|Imay|onlyimagelinked|size=38px}} [[AmazingJ]]
+| style="text-align:center;" | 5.4
+| style="text-align:center;" | {{team|Imay|onlyimagelinked|size=38px}} vs {{team|LGD|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Darius}}
+|-
+| style="text-align:center;" | '''2'''
+| {{team|RNG|onlyimagelinked|size=38px}} [[Mlxg]]
+| style="text-align:center;" | 29.0
+| style="text-align:center;" | {{team|RNG|onlyimagelinked|size=38px}} vs {{team|Snake|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Kha'zix}}
+|-
+| style="text-align:center;" | '''3'''
+| {{team|RNG|onlyimagelinked|size=38px}} [[Xiaohu]]
+| style="text-align:center;" | 5.9
+| style="text-align:center;" | {{team|RNG|onlyimagelinked|size=38px}} vs {{team|IG|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Ryze}}
+|-
+| style="text-align:center;" | '''4'''
+| {{team|RNG|onlyimagelinked|size=38px}} [[Letme]]
+| style="text-align:center;" | 5.1
+| style="text-align:center;" | {{team|EDG|onlyimagelinked|size=38px}} vs {{team|RNG|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Shen}}
+|-
+| style="text-align:center;" | '''5'''
+| {{team|RNG|onlyimagelinked|size=38px}} [[Mlxg]]
+| style="text-align:center;" | 20.0
+| style="text-align:center;" | {{team|RNG|onlyimagelinked|size=38px}} vs {{team|Newbee|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Nocturne}}
+|-
+| style="text-align:center;" | '''6'''
+| {{team|OMG|onlyimagelinked|size=38px}} [[Smlz]]
+| style="text-align:center;" | 3.9
+| style="text-align:center;" | {{team|OMG|onlyimagelinked|size=38px}} vs {{team|EDG|onlyimagelinked|size=38px}} Game3
+| style="text-align:center;" | {{ci|Kog'maw}}
+|-
+| style="text-align:center;" | '''7'''
+| {{team|RNG|onlyimagelinked|size=38px}} [[Letme]]
+| style="text-align:center;" | 8.0
+| style="text-align:center;" | {{team|RNG|onlyimagelinked|size=38px}} vs {{team|VG|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Camille}}
+|-
+| style="text-align:center;" | '''8'''
+| {{team|RNG|onlyimagelinked|size=38px}} [[Letme]]
+| style="text-align:center;" | 4.9
+| style="text-align:center;" | {{team|RNG|onlyimagelinked|size=38px}} vs {{team|LGD|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Camille}}
+|-
+| style="text-align:center;" | '''9'''
+| {{team|OMG|onlyimagelinked|size=38px}} [[Smlz]]
+| style="text-align:center;" | 8.3
+| style="text-align:center;" | {{team|OMG|onlyimagelinked|size=38px}} vs {{team|Imay|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Kog'maw}}
+|-
+| style="text-align:center;" | '''10'''
+| {{team|IG|onlyimagelinked|size=38px}} [[Kid]]
+| style="text-align:center;" | 10.0
+| style="text-align:center;" | {{team|IG|onlyimagelinked|size=38px}} vs {{team|OMG|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Ashe}}
+|}
+<br>
+{{Box|break}}
+==== Group B ====
+
+{| class="wikitable"
+!  rowspan = 2 style="text-align:center;width:50px;" | Week
+!  rowspan = 2 style="text-align:center;width:110px;" | Player
+!  rowspan = 2 style="text-align:center;width:50px;" | KDA
+!  colspan = 2 style="text-align:center;width:260px;" | Highlighted Game
+|-
+!  style="text-align:center;width:170px;" | Game
+!  style="text-align:center;width:90px;" | Champion
+|-
+| style="text-align:center;" | '''1'''
+| {{team|EDG|onlyimagelinked|size=38px}} [[Scout]]
+| style="text-align:center;" | 6.7
+| style="text-align:center;" | {{team|EDG|onlyimagelinked|size=38px}} vs {{team|WE|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Ryze}}
+|-
+| style="text-align:center;" | '''2'''
+| {{team|QGR|onlyimagelinked|size=38px}} [[Clid]]
+| style="text-align:center;" | 3.6
+| style="text-align:center;" | {{team|QGR|onlyimagelinked|size=38px}} vs {{team|WE|onlyimagelinked|size=38px}} Game3
+| style="text-align:center;" | {{ci|Leesin}}
+|-
+| style="text-align:center;" | '''3'''
+| {{team|WE|onlyimagelinked|size=38px}} [[Condi]]
+| style="text-align:center;" | 4.0
+| style="text-align:center;" | {{team|GMT|onlyimagelinked|size=38px}} vs {{team|WE|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Kha'zix}}
+|-
+| style="text-align:center;" | '''4'''
+| {{team|GMT|onlyimagelinked|size=38px}} [[Gimgoon]]
+| style="text-align:center;" | 4.3
+| style="text-align:center;" | {{team|GMT|onlyimagelinked|size=38px}} vs {{team|LGD|onlyimagelinked|size=38px}} Game3
+| style="text-align:center;" | {{ci|Rumble}}
+|-
+| style="text-align:center;" | '''5'''
+| {{team|WE|onlyimagelinked|size=38px}} [[Mystic]]
+| style="text-align:center;" | 6.0
+| style="text-align:center;" | {{team|WE|onlyimagelinked|size=38px}} vs {{team|Imay|onlyimagelinked|size=38px}} Game1
+| style="text-align:center;" | {{ci|Ezreal}}
+|-
+| style="text-align:center;" | '''6'''
+| {{team|WE|onlyimagelinked|size=38px}} [[Ben]]
+| style="text-align:center;" | 5.5
+| style="text-align:center;" | {{team|RNG|onlyimagelinked|size=38px}} vs {{team|WE|onlyimagelinked|size=38px}} Game3
+| style="text-align:center;" | {{ci|Nami}}
+|-
+|style="text-align:center;" | '''7'''
+| {{team|WE|onlyimagelinked|size=38px}} [[957]]
+| style="text-align:center;" | 23.0
+| style="text-align:center;" | {{team|WE|onlyimagelinked|size=38px}} vs {{team|OMG|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Nautilus}}
+
+|-
+| style="text-align:center;" | '''8'''
+| {{team|EDG|onlyimagelinked|size=38px}} [[Meiko]]
+| style="text-align:center;" | 16.8
+| style="text-align:center;" | {{team|EDG|onlyimagelinked|size=38px}} vs {{team|GMT|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Thresh}}
+|-
+| style="text-align:center;" | '''9'''
+| {{team|EDG|onlyimagelinked|size=38px}} [[Scout]]
+| style="text-align:center;" | 24.0
+| style="text-align:center;" | {{team|EDG|onlyimagelinked|size=38px}} vs {{team|WE|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Taliyah}}
+|-
+| style="text-align:center;" | '''10'''
+| {{team|WE|onlyimagelinked|size=38px}} [[Condi]]
+| style="text-align:center;" | 8.1
+| style="text-align:center;" | {{team|Newbee|onlyimagelinked|size=38px}} vs {{team|WE|onlyimagelinked|size=38px}} Game2
+| style="text-align:center;" | {{ci|Rengar}}
+|}
+{{Box|end}}
+
+=== Weekly All-Pro Team ===
+{| class="wikitable"
+!  style="text-align:center;width:50px;" | Week
+!  style="text-align:center;width:110px;" | Top
+!  style="text-align:center;width:110px;" | Jungle
+!  style="text-align:center;width:110px;" | Mid
+!  style="text-align:center;width:110px;" | ADC
+!  style="text-align:center;width:110px;" | Support
+|-
+| style="text-align:center;" | '''4'''
+| {{team|EDG|onlyimagelinked|size=38px}} [[Mouse]]
+| {{team|QGR|onlyimagelinked|size=38px}} [[Clid]]
+| {{team|QGR|onlyimagelinked|size=38px}} [[Doinb]]
+| {{team|OMG|onlyimagelinked|size=38px}} [[Smlz]]
+| {{team|QGR|onlyimagelinked|size=38px}} [[Ali (Liu Xu-Dong)|Ali]]
+|-
+| style="text-align:center;" | '''5'''
+| {{team|IG|onlyimagelinked|size=38px}} [[Duke (Lee Ho-seong)|Duke]]
+| {{team|Snake|onlyimagelinked|size=38px}} [[SofM]]
+| {{team|QGR|onlyimagelinked|size=38px}} [[Doinb]]
+| {{team|LGD|onlyimagelinked|size=38px}} [[Imp]]
+| {{team|Snake|onlyimagelinked|size=38px}} [[kRYST4L]]
+|-
+| style="text-align:center;" | '''6'''
+| {{team|IMAY|onlyimagelinked|size=38px}} [[AmazingJ]]
+| {{team|WE|onlyimagelinked|size=38px}} [[Condi]]
+| {{team|IG|onlyimagelinked|size=38px}} [[Rookie]]
+| {{team|IG|onlyimagelinked|size=38px}} [[Marge]]
+| {{team|IG|onlyimagelinked|size=38px}} [[Megan]]
+|-
+| style="text-align:center;" | '''7'''
+| {{team|IMAY|onlyimagelinked|size=38px}} [[AmazingJ]]
+| {{team|Newbee|onlyimagelinked|size=38px}} [[Swift]]
+| {{team|IG|onlyimagelinked|size=38px}} [[Rookie]]
+| {{team|GMT|onlyimagelinked|size=38px}} [[Xubin]]
+| {{team|Snake|onlyimagelinked|size=38px}} [[kRYST4L]]
+|-
+| style="text-align:center;" | '''8'''
+| {{team|IG|onlyimagelinked|size=38px}} [[Duke (Lee Ho-seong)|Duke]]
+| {{team|Newbee|onlyimagelinked|size=38px}} [[Swift]]
+| {{team|EDG|onlyimagelinked|size=38px}} [[Scout]]
+| {{team|Snake|onlyimagelinked|size=38px}} [[Mint]]
+| {{team|EDG|onlyimagelinked|size=38px}} [[Meiko]]
+|-
+| style="text-align:center;" | '''9'''
+| {{team|VG|onlyimagelinked|size=38px}} [[Loong]]
+| {{team|EDG|onlyimagelinked|size=38px}} [[Fireloli]]
+| {{team|QGR|onlyimagelinked|size=38px}} [[Doinb]]
+| {{team|OMG|onlyimagelinked|size=38px}} [[Smlz]]
+| {{team|OMG|onlyimagelinked|size=38px}} [[Five]]
+|-
+| style="text-align:center;" | '''10'''
+| {{team|EDG|onlyimagelinked|size=38px}} [[Mouse]]
+| {{team|WE|onlyimagelinked|size=38px}} [[Condi]]
+| {{team|EDG|onlyimagelinked|size=38px}} [[Scout]]
+| {{team|WE|onlyimagelinked|size=38px}} [[Mystic]]
+| {{team|EDG|onlyimagelinked|size=38px}} [[Meiko]]
+|}
+
+== Media ==
+===Peak viewers===
+Data about number of viewers is based on information from Esports Charts<ref>[http://esc.watch/tournaments/lol/lpl-2017-spring-season LPL Spring Split 2017] ''esc.watch''</ref>:
+* The tournament's Overall peak was 18 790 765 viewers
+* The tournament's peak Without Chinese viewers was 76 185 viewers
+* English streams peak was 32 436 viewers
+* Chinese streams peak was 18 781 196 viewers
+* Youtube peak was 68 171 viewers
+=== Streams ===
+*{{stream|url=http://www.twitch.tv/lpl1|lang=usuk}}
+*{{stream|url=http://lpl.qq.com/es/lpl/|lang=cn|display=Tencent}}
+<!--*{{stream|url=http://star.tga.plu.cn/lpl|lang=cn|display=TGA Stream}}
+*{{stream|url=http://star.tga.plu.cn/lol|lang=cn|display=TGA Stream 2}}-->
+*{{stream|url=http://www.douyutv.com/cms/zt/lpl.html|lang=cn}}
+*{{stream|url=http://www.zhanqi.tv/lpl|lang=cn|display=Zhanqi}}
+*{{stream|url=http://www.panda.tv/lpl|lang=cn|display=Panda}}
+*{{stream|url=http://garena.live/vetv2|lang=vn|display=Garena}}
+* {{stream|url=http://play.afreecatv.com/aflpl|lang=kr}}
+
+=== Articles ===
+* January 7, [http://esports.yahoo.com/throne-for-the-taking-kelsey-mosers-2017-lpl-spring-pre-split-ranking-151042733.html Throne for the taking: Kelsey Moser's 2017 LPL Spring pre-split ranking] ''by Kelsey Moser on Yahoo! Esports''
+* January 11, [http://www.espn.com/esports/story/_/id/18446429/2017-league-legends-global-power-rankings-preseason League of Legends global power rankings: Preseason] ''by Tyler Erzberger, Jacob Wolf, Xander Torres and Adel Chouadria on ESPN''
+* January 25, [http://www.espn.com/esports/story/_/id/18544445/league-legends-global-power-rankings-january-24 League of Legends global power rankings through Jan. 24] ''by Tyler Erzberger, Jacob Wolf, Adel Chouadria, Xander Torres on ESPN''
+* January 30, [http://oracleselixir.com/2017/01/varus-has-a-very-low-pro-win-rate-and-drafting-may-be-to-blame/ Varus has a Low Pro Win Rate, and Drafting may be to Blame] ''by Tim Sevenhuysen on Oracles Elixir''
+* February 7, [http://esports.yahoo.com/edward-gaming-still-victorious-a-condemnation-of-lpl-mid-game-decision-making-150320697.html EDward Gaming still victorious: A condemnation of LPL mid game decision-making] ''by Kelsey Moser on Yahoo! Esports''
+* February 14, [http://www.espn.com/esports/story/_/id/18683451/league-legends-global-power-rankings-february-14 League of Legends global power rankings through Feb. 14] ''by Tyler Erzberger, Jacob Wolf, Xander Torres and Adel Chouadria on ESPN''
+* March 24, [http://esports.yahoo.com/from-son-of-baron-to-jungle-king-condis-development-into-lpls-most-efficient-jungler-140119226.html From Son of Baron to Jungle King: Condi's development into LPL's most efficient jungler] ''by Kelsey Moser on Yahoo! Esports''
+* March 29, [http://esports.yahoo.com/the-moment-regret-and-the-first-warning-sign-of-uzis-curse-145732242.html The Moment: Regret and the first warning sign of Uzi's curse] ''by Kelsey Moser on Yahoo! Esports''
+* April 6, [http://esports.yahoo.com/pressure-top-lpl-teams-accept-risk-gain-advantages-143327059.html Under pressure: Where the top LPL teams accept risk to gain advantages] ''by Kelsey Moser on Yahoo! Esports''
+
+=== Interviews ===
+* January 16, [http://pvplive.net/c/froskurinn-doublelift-lpl-league-of-legends Froskurinn: "If I could have any western player in the LPL it would be Doublelift on VG with Bengi and Easyhoon"] ''with PVP Live''
+* January 23, [http://esports.yahoo.com/amazingj-my-champion-pool-is-only-maokai-nautilus-and-poppy-so-10-bans-is-a-bit-tense-for-me-233640796.html AmazingJ: 'My champion pool is only Maokai, Nautilus, and Poppy, so 10 bans is a bit tense for me'] ''with Yahoo! Esports''
+* January 24, [http://esports.yahoo.com/i-may-coach-kezman-edg-have-won-so-much-its-our-turn-to-win-160936563.html I MAY Coach Kezman: 'EDG have won so much, it's our turn to win'] ''with Yahoo! Esports''
+* January 25, [http://esports.yahoo.com/flandre-carry-champions-should-not-be-used-unless-you-are-very-self-confident-001534413.html Flandre: 'Carry champions should not be used unless you are very self-confident'] ''with Yahoo! Esports''
+* January 25, [http://esports.yahoo.com/qg-coach-babazi-except-for-mid-lane-every-position-has-two-players-so-we-can-shape-a-competitive-relationship-between-them-214626087.html QG Coach Babazi: 'Except for mid lane, every position has two players, so we can shape a competitive relationship between them'] ''with Yahoo! Esports''
+* February 2, [http://esports.yahoo.com/easyhoon-on-playing-with-bengi-again-were-a-brand-new-duo-141215258.html Easyhoon on playing with Bengi again: 'We’re a brand new duo'] ''with Yahoo! Esports''
+* February 3, [http://esports.yahoo.com/scout-on-facing-xiye-as-a-korean-import-i-must-do-better-than-my-opponent-143438598.html Scout on facing xiye: 'As a Korean import, I must do better than my opponent'] ''with Yahoo! Esports''
+* February 15, [http://www.espn.com/esports/story/_/id/18690301/2017-league-legends-lpl-spring-split-week-2-interviews LPL Spring Split Week 2 Interviews: Pyl, Mlxg, Fireloli, xiyang] ''translation on ESPN!''
+
+=== Videos ===
+
+===Announcements===
+
+=== Additional Content ===
+=== Additional Links ===
+
+== References ==
+<references/>

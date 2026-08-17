@@ -1,0 +1,161 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Movistar%20R7&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:27.160Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Rainbow7」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isrenamed=Lyon Gaming (2024 American Team)
+|name= Movistar R7
+|orgcountry= Mexico
+|region= LAT
+|image= Movistar R7logo square.png
+|partner= [https://justtoysintl.com Just Toys Intl.]
+|owner= Carlos "'''Biblos'''" Gibran
+|headcoach= 
+|website= https://www.r7-esport.com
+|instagram= rainbow7lol
+|youtube=
+|facebook= https://www.facebook.com/Rainbow7LAN
+|twitter=
+|tiktok= 
+|discord= https://discord.com/invite/hHn332A4Nd
+|stream=
+|sponsor=[https://www.movistar.com.mx Movistar] <br> [https://www.primusgaming.com/es Primus] <br> [https://sc1.gg/r7 sc1]
+|created= 2017-12-05
+|disbanded= 2024-10-31
+|rosterphoto=
+}}{{TOCRWI}}
+
+'''Movistar R7''' is a professional League of Legends team from Latin America. They are co-owned by the American toy company [https://www.justtoysintl.com/ Just Toys]. They were previously known as '''Rainbow7'''.
+
+== History ==
+After being renamed, the 11 times champion of Latin America North at the time, continued to reign with an iron fist.
+
+Despite the suspension of [[WhiteLotus]] that hindered their preparation for LLN Opening 2018 and their first Playoffs elimination in LLN Closing 2018, their mission to grow both within and outside their region remained intact. With this in mind, their actions at the international level had given them the prestige and respect from all the regions that were known as emerging. 
+
+After the departure of their famous roster, the organization adquired a new roster for the first LLA split. The roster counted with players from former rival [[Dash9 Gaming]] and other Latin American Teams. This roster included: [[Acce]], [[Grell]], [[Leza]], [[Nobody (Nicolás Ale)|Nobody]], and [[Baula]]. This team reached the LLA Opening Finals, but lost against [[Isurus]] in a 3-1. After that, [[Grell]] and [[Baula]] left the team and [[Spooky (Miroslav Gochev)|Spooky]] and [[Tulz]] joined the team. The team reached playoffs but lost 3-0 against [[INFINITY|Infinity Esports]]. At the end of 2019 [[Tulz]], [[Nobody (Nicolás Ale)|Nobody]], and [[Spooky (Miroslav Gochev)|Spooky]] left the team.
+
+For 2020, the organization hired 2 former [[Furious Gaming]] players and 1 from [[INFINITY|Infinity Esports]]: [[Josedeodo]], [[Shadow (Facundo Cuello)|Shadow]], and [[Renyu]]. This roster reached playoffs but were defeated again by [[Isurus]] in a 3-1. This led to [[Renyu]]'s departure and [[Leza]]'s roleswap from mid to bot, while [[Aloned]] also joined the team. Reaching playoffs, they defeated [[Azules Esports]] 3-2, then they had their revenge eliminating [[Isurus]] in a 3-1 and finally, won the finals reversweeping [[All Knights]], winning 3-2 and classifying for the first time since 2017 to the World Championship.
+
+Until 2024, they were the most decorated team in Latin America with 16 championships obtained, during their history as [[Lyon Gaming (2013 Latin American Team)|Lyon Gaming]], [[Seven Wars Lyon]], Rainbow7 and Movistar R7.<ref>[https://lolesports.com/article/medallero-hist-rico-en-latinoam-rica/blt92678f1a0ecf8cf6 Medallero histórico en Latinoamérica (Spanish)] ''lolesports.com''</ref>
+
+== Trivia ==
+* Third team to achieve a [[LLA]] back-to-back championship, after their wins during both 2023 splits.
+* First and only Latin American team to have won a best-of series against a major region team.
+
+== Timeline ==
+{{TeamNews}}
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+== Organization ==
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayersp|Biblos|mx|Carlos Gibran|'''Founder, Co-Owner, & Chief Executive Officer'''|newteam=LYON (2024 American Team)}}
+{{listplayersp|Alex|kr|Hwang Yeon-joo (황연주)|'''General Manager'''|newteam=LYON (2024 American Team)}}
+{{listplayersp|Julio|mx|Martín Julio Vázquez|'''Head of Content'''|newteam=none}}
+{{listplayersp|Moon Yue|mx|Fernanda Cárdenas|'''Graphic Designer'''|newteam=none}}
+{{listplayersp|BonesBlack17|mx|Frida Bravo|'''Streamer & Content Creator'''|newteam=LYON (2024 American Team)}}
+{{listplayersp|Melissadri|mx|Melissa Chapa|'''Streamer & Content Creator'''|newteam=LYON (2024 American Team)}}
+{{listplayer|PapiSosa|mx|Ruben Sosa|'''Streamer & Content Creator'''|newteam=LYON (2024 American Team)}}
+{{listplayersp|Feryfer|mx|Fernanda Salinas|'''Streamer & Content Creator'''|newteam=LYON (2024 American Team)}}
+{{listplayer|Khynm|ar|Cristian Alonso|'''Head Coach'''|newteam=LYON (2024 American Team)}}
+{{listplayer|Nothing|ar|Brandon Merlo|'''Assistant Coach'''|newteam=Gwenchana}}
+{{listplayer|Pointless|ar|Tobias Riscica|'''Strategic Coach'''|newteam=LYON (2024 American Team)}}
+{{listplayer|Revehaza|mx|Luis Sanchez|'''Coach'''|newteam=none}}
+{{listplayer|Lilynn|mx|Lizbeth Quiroz|'''Streamer & Content Creator'''|newteam=Isurus}}
+{{listplayer|Kalipso|ar|Paula Oliveto|'''Streamer & Content Creator'''|newteam=riot}}
+{{listplayersp|Barbakahn|ar|Erik Hakon|'''Streamer & Content Creator'''|newteam=none}}
+{{listplayersp|Tosta|mx|Gabriel Flores|'''Content Intern'''|newteam=none}}
+{{listplayersp|Flammer|mx|Santiago Ávila Reyes|'''Content Intern'''|newteam=none}}
+{{listplayer|Kun (Kwon Oh-seong)|kr|Kwon Oh-seong (권오성))|'''Assistant Coach'''|newteam=BNK FEARX Academy}}
+{{listplayersp|Gisa|mx|Gilberto García López|'''Sports Director'''|newteam=R7.A}}
+{{listplayersp|Sánchez|mx|Jesús Arturo Sánchez|'''Graphic Designer'''|newteam=none}}
+{{listplayer|MarioMe|mx|Mario Reyes|'''Content Creator'''|newteam=Borregos MTY}}
+{{listplayersp|Crystal Molly|mx||'''Content Creator'''|newteam=none}}
+{{listplayersp|Burakku|cl|Jesús Soto Ramírez|'''Content Intern'''|newteam=Retired}}
+{{listplayer|Stardust (Son Seok-hee)|kr|Son Seok-hee (손석희)|'''Head Coach'''|newteam=Los Grandes}}
+{{listplayersp|Saika Totsuka|mx|Paula Sánchez Bouchan|'''Content Creator'''|newteam=Retired}}
+{{listplayersp|Era Ban GP|mx|Julio César Padilla|'''Content Intern'''|newteam=Retired}}
+{{listplayer|Ruuxi|us|Rahul Nanda|'''Head Coach'''|newteam=BDS}}
+{{listplayersp||us|Justin Kenna|'''Co-Owner'''|newteam=Retired}}
+{{listplayer|Kiao|pl|Mateusz Sujdak|'''Assistant Coach'''|newteam=Grypciocraft Esports}}
+{{listplayersp|Cosmic Arepas|co|Santiago Barragán|'''Content Creator'''|newteam=Fuego}}
+{{listplayersp||mx|Gilberto Gallardo|'''Performance Coach'''|newteam=AZE}}
+{{listplayersp||mx|Javier Aragón Navarro|'''Data Analyst'''|newteam=Retired}}
+{{listplayer|Tomex|ar|Tomás Alloatti|'''Strategic Coach'''|newteam=Globant}}
+{{listplayer|Khynm|ar|Cristian Alonso|'''Positional Coach'''|newteam=LEV}}
+{{listplayer|Skin|mx|Eduardo Saldaña|'''Head Coach'''|newteam=LEV}}
+{{listplayer|lHertz|cl|Roberto Poblete Rojo|'''Strategic Coach'''|newteam=retired}}
+{{listplayer|UkFallen|mx|Carlos Calderón|'''Strategic Coach'''|newteam=EST}}
+{{listplayer|MarioMe|mx|Mario Reyes|'''Country Manager'''|newteam=MR7}}
+{{Listplayer|Black Widow|co|Laura Paez|'''Streamer'''|newteam=TK Colombia}}
+{{listplayersp|JimmyCrav|mx|Julio Cravioto|'''Graphic Designer'''|newteam=Retired}}	
+{{listplayer|PapiSosa|mx|Rubén Sosa|'''Content Creator & Streamer'''|newteam=INF CR}}	
+{{listplayersp|ReubenMaster|mx|Reuben Jesus|'''Content Creator & Streamer'''|newteam=Retired}}	
+{{listplayersp|Maura55|mx|Maura García Rivas|'''Streamer'''|newteam=Retired}}
+{{listplayer|Wikko|co|Andrés Legarda|'''Strategic Coach'''|newteam=FG}}
+{{listplayersp||ca|Chad Larsson|'''Co-Owner'''|newteam=Retired}}
+{{listplayer|QFa|ar|Facundo Priolo|'''Data Analyst'''|newteam=UND}}
+{{listplayer|Dye|co|Gerson Castaño|'''Head Coach'''|newteam=PIX}}
+{{listplayer|Revehaza|mx|Luis López|'''Strategic Coach'''|newteam=ISG}}
+{{listplayer|Skin|mx|Eduardo Saldaña|'''Strategic Coach'''|newteam=XTN}}
+{{listplayersp|Creador150|mx|Luis Cisneros Gutiérrez|'''Content Creator & Streamer'''|newteam=LDM E}}
+{{listplayer|Revehaza|mx|Luis López|'''Analyst'''|newteam=KLG}}
+{{listplayer|Yeti (Rodrigo del Castillo)|mx|Rodrigo del Castillo|'''Head Coach'''|newteam=ISG}}
+{{listplayersp|Zanxter|mx|Patricio Villareal|'''General Manager'''|newteam=ISG}}
+{{listplayersp|Cynoh|mx|Alan Corona|'''Private Chef'''|newteam=ANH}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+===As Rainbow7===
+{{TeamResults|Rainbow7|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+
+=== Images ===
+==== Rosters ====
+<gallery>
+Rainbow7 Roster 2018 Split 1.png|R7 2018 LLN Opening
+Rainbow7 Roster - 2018 Split 2.png|R7 2018 LLN Closing
+Rainbow7 Roster 2019 Opening.png|R7 2019 LLA Opening
+Rainbow7 2019 Opening.png|R7 2019 LLA Opening with [[Limitationss]]
+Rainbow7 Roster 2019 Closing.png|R7 2019 LLA Closing
+Rainbow7 2019 Closing.png|R7 2019 LLA Closing with [[SPOOKY (Miroslav Gochev)|Spooky]] & [[MarioMe]]
+Rainbow7 2019 Closing 2.png|R7 2019 LLA Closing with [[Tulz]]
+Rainbow7 Roster 2020 Opening.png|R7 2020 LLA Opening
+R7 Roster 2020 LLA Closing.png|R7 2020 LLA Closing
+R7 Worlds 2020.png|R7 2020 Worlds
+2021 R7 Opening.png|R7 2021 LLA Opening
+Rainbow7 2021 Opening.png|R7 2021 LLA Opening with [[Oddie]]
+2021 R7 Closing.png|R7 2021 LLA Closing
+Rainbow7 2021 Closing.png|R7 2021 LLA Closing with [[Enga]]
+Rainbow7 2022 Opening.png|R7 2022 LLA Opening
+Rainbow7 2022 Opening 2.png|R7 2022 LLA Opening with [[Daiky]] & [[Cepted]]
+R7 2022 Closing.png|R7 2022 LLA Closing
+Rainbow7 2022 Closing.png|R7 2022 LLA Closing with [[Cepted]] & [[IgnaVilu1]]
+R7_LLA_2023_Opening.png|R7 2023 LLA Opening
+Movistar R7 2023 MSI.png|R7 2023 MSI
+Movistar R7 2023 Closing.png|R7 2023 LLA Closing
+Movistar R7 2023 Worlds.png|R7 2023 Worlds
+Movistar R7 2024 Opening.png|R7 2024 LLA Opening
+Movistar R7 2024 Opening 2.png|R7 2024 LLA Opening with [[Daiky]]
+Movistar R7 2024 Closing.png|R7 2024 LLA Closing
+Movistar R7 2024 Worlds.png|R7 2024 Worlds
+</gallery>
+
+==== Jerseys ====
+<gallery>
+Rainbow7 Jersey LLN 2018.jpeg|R7 2018 Jersey
+</gallery>
+
+=== References ===
+<references />

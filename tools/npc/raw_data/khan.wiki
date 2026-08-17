@@ -1,0 +1,115 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Khan&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.050Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Khan」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=Yes
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Khan
+|name=Kim Dong-ha
+|nativename=김동하
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|nationality=Korean
+|residency=Korea
+|birth_date_year=1995
+|birth_date_month=December
+|birth_date_day=22
+|favchamp=Jayce
+|checkbox1=No
+|compID1=Hanlabong
+|checkboxComp=No
+|ids='''KR:''' elole<br>날뜩한 칼<br>모두모두항복하길<br>TOPKING<br>'''EUW:''' It Has Been Ages, Headache Man
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://bj.afreecatv.com/gkdlqk13
+|facebook=https://www.facebook.com/sadoqqqq
+|twitter=sadoqqqq
+|instagram=sadoqqqq
+|youtube=https://www.youtube.com/channel/UCaMV-CjrWYh2Aefg_8iLwJQ
+|lolpros=https://lolpros.gg/player/khan/
+|deeplol=https://www.deeplol.gg/pro/Khan
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|text=He was previously known as '''Hanlabong'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+===2014 Season===
+Kim "'''Hanlabong'''" Dong-ha joined [[Prime Optimus]] as a top laner in October of 2013. Prime Optimus competed in [[HOT6iX Champions Spring 2014]] where they upset [[SK Telecom T1 S]] in the group stage but they still missed the playoffs. Hanlabong left Prime in July to join [[Team WE Academy]] under the name '''Khan'''. Team WE Academy competed in [[2014 LPL Summer]] but they placed last in the regular season with a 2-5-7 record. Soon after they played in the [[X Championship/Season I|Season 1 X Championship]] where they made it to the quarterfinals but lost 2-0 to [[Star Horn Royal Club]].
+
+===2015 Season===
+Team WEA competed in the [[2015 LPL/Spring/Promotion|2015 LPL Spring Promotion Tournament]] and they requalified for [[2015 LPL Spring]] with a 2-0 victory over [[Team DK]] and a 2-1 victory over [[Gamtee Fenghui]]. Khan was moved from from Team WEA to [[Team WE Future]] in December. Team WE F played in the [[2015 Demacia Cup/Spring Season|2015 Demacia Cup Spring Season]] where they immediately lost 3-0 in the first round to [[Qiao Gu]]. WEF placed second in their group in the [[2015 LoL Secondary Pro League/Spring Season|2015 LSPL Spring Season]] and they qualified for the [[2015 LoL Secondary Pro League/Spring Playoffs|2015 LSPL Spring Playoffs]]. They lost 2-1 in the winners bracket to Qiao Gu and then 2-0 [[Vici Potential Gaming]]. Khan left WE F to join [[Positive Energy]] in May. The team was then immediately picked up by [[Newbee]]. Newbee played in the [[2015 Demacia Cup/Summer Season|2015 Demacia Cup Summer Season]] where they lost 3-0 in the first round to WEF. Newbee placed second in their group during the [[2015 LoL Secondary Pro League/Summer Season|2015 LSPL Summer Season]] and they qualified for the [[2015 LoL Secondary Pro League/Summer Playoffs|2015 LPSL Summer Playoffs]]. They placed fourth after losing 2-0 to [[Energy Pacemaker.All]] and [[2144 Danmu Gaming]]. In the [[LPL/2016 Season/Spring Promotion|2016 LPL Spring Promotion Tournament]], Newbee lost 3-0 in the first round to [[Team WE]].
+
+===2016 Season===
+Newbee rebranded to [[Newbee Young]] in January of 2016.
+
+===2017 Season===
+
+Following a relatively uneventful run with [[QG Reapers]], Khan joined the newly modified [[Longzhu Gaming]] consisting of the famous bot-lane duo of [[PraY]] and [[GorillA]], alongside former [[CJ Entus]] mid-laner [[Bdd]] and newly promoted jungler [[Cuzz]] before the start of [[LCK/2017 Season/Summer Season]]. Although initial expectations for the team were low, these expectations were smashed when Longzhu ended the summer split at the top with a record of 14-4, placing them in 1st seed for the [[LCK/2017 Season/Summer Playoffs]]. There they once again amazed everyone when they went up against [[SK Telecom T1]] in the finals who were at the time the reigning world champion, defeating them in a spectacular 3-1 fashion, much in thanks to Khan's amazing performance as a carry throughout the series. This guaranteed their spot in the [[2017 Season World Championship]] where they represented Korea as the 1st seed. After a successful 6-0 in the groups stage, Longzhu qualified for the knockout stage where they went up against LCKs 3rd seed [[Samsung Galaxy]] in the quarterfinals. However, despite their best efforts, Longzhu was defeated 3-0 by Samsung Galaxy ending their run, with Samsung going on to become the eventual winners of the entire tournament. After worlds, Longzhu made a small roster change replacing their current jungler for former SKT T1 jungler [[Peanut]]. They competed in the [[2017 LoL KeSPA Cup]] where they defeated [[Jin Air Green Wings]] in the quarterfinals and swept SK Telecom T1 2-0 in the semi-finals. They then advanced to the finals where they met [[KT Rolster]]. In an exciting five-game series, it seemed that Longzhu was going to win but KT turned the tables in their favor and defeated them 3-2, and Longzhu ended second place tournament. Nevertheless, Longzhu was hailed as a powerful team in Korea and Khan had established himself as an incredibly talented top-laner in the pro scene.
+
+===2018 Season===
+
+===2019 Season===
+Khan joined [[SK Telecom T1]] as a top in November of 2018.
+
+===2020 Season===
+Khan joined [[FunPlus Phoenix]] as top laner in December of 2019.
+
+===2021 Season===
+Khan joined [[DWG KIA]] as top laner in November of 2020. It is to be his last competitive season due to the Korean national service requirement. Damwon continued their streak domestically winning both splits of the [[LCK/2021 Season]], but narrowly failed to win internationally, losing finals and getting second place with 3-2 scores in both [[MSI 2021]] and [[Worlds 2021]].
+
+== Trivia ==
+* Played 7 LCK seasons and claimed 6 titles.
+* His ID '''Khan''' stands for '''K'''orea '''Han'''labong, and also comes from [https://en.wikipedia.org/wiki/Genghis_Khan Genghis Khan].
+** ''Hanlabong'' refers to 한라봉 (typically romanized ''hallabong''), a variety of orange produced in his home-province, Jeju.
+** For this he is nicknamed ''Brother Orange''. 
+* Known for his {{ci|Jayce}} and {{ci|Fiora}} since the 2017 Summer Season.
+** His {{ci|Jayce}} had over a 90% win-rate in LCK 2017 Summer.
+* Was suspended for one match of the 2018 Spring Split for making a racist comment on Chinese players by typing "4 Chinese can't win".
+** Following this incident, he shaved his head in apology.
+** The Chinese casters joked at him in the last game of the Final of MSI 2018, while an all-Chinese RNG defeat KZ in a 3-1 series, saying "A famous top-laner said that 4 Chinese can't win, but 5 Chinese can definitely done it."
+* His keyboard had no enter key in 2018 spring season.
+* During a post-game interview after a match during the 2018 Summer Split, one of his teeth fell out.
+* Awarded Regular Season MVP of [[LCK/2018 Season/Summer Season|LCK 2018 Season Summer]] with 1100 MVP points.
+* Is the top laner with most LCK titles with 6 titles on 4 different teams: [[Longzhu Gaming]], [[Kingzone DragonX]], [[SK Telecom T1]], and [[DWG KIA]].
+* Won all but one of the LCK splits he's played in, where [[Kingzone DragonX]] got knocked out by [[Afreeca Freecs]] in playoffs, finishing 4th in the [[LCK/2018 Season/Summer Season|LCK 2018 Season Summer]].
+
+=== Awards ===
+* LCK Regular Season MVP x1 (Summer 2018)
+* LCK Final MVP x2 (Summer 2017, Spring 2021)
+* LCK 1st All-Pro Team x1 (Spring 2021)
+* LCK 2nd All-Pro Team x1 (Summer 2021)
+{{PlayerStatsTrivia}}
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

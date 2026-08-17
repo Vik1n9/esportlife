@@ -1,0 +1,68 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Willer&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:44.261Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Willer」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Willer
+|name=Kim Jeong-hyeon
+|nativename=김정현
+|namealphabet=Hangul
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2003
+|birth_date_month=April
+|birth_date_day=24
+|checkbox1=No
+|compID1=King
+|compID2=Felix
+|checkboxComp=No
+|ids='''KR:''' 안녕나는야퉁퉁이<br>'''EUW:''' White Whales
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://ch.sooplive.co.kr/willerlol
+|twitter=Willer_LoL
+|instagram=lol_willer
+|deeplol=https://www.deeplol.gg/pro/Willer
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''King''' and '''Felix'''.
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Started gaming when a injury stopped him from playing basketball in middle school.
+* He is friends with [[Oner]].
+* [[Oner]] and him were trainees from T1 Academy.
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

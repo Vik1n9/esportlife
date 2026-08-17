@@ -1,0 +1,153 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kiwoom%20DRX&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:52.716Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「DRX」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|auto_teams=Yes
+|name= Kiwoom DRX
+|orgcountry= 
+|country= South Korea
+|region= KR
+|partner= [https://www1.kiwoom.com/h/ir/en/main KIWOOM]<br> [https://www.chorogusan.or.kr/main.do ChorogUsan]<br>[https://www.porsche.com/korea/ko/ Porsche Korea]<br>[https://rog.asus.com/ Republic of Gamers]<br>[https://www.nissin.com/en_jp/ Nissin]<br>[https://www.sooplive.co.kr/ SOOP]<br>[https://okeyeclinic.com/ Jalbonun St. Mary's Eye Clinic]<br>[https://www.drx.gg/drxagg DRX Esports Academy]<br>[https://musubii.kr/index.html Musubii]<br>[https://nanahachika.com/ Nanahachika]
+<!-- Staff --> 
+|owner= 
+<!-- Social Media -->
+|website= https://drx.gg
+|facebook= https://www.facebook.com/DRXGlobal
+|instagram= drxglobal
+|subreddit= DRX_Official
+|stream= https://bj.afreecatv.com/drxglobal
+|twitter= DRX_LCK
+|tiktok=drxglobal
+|kuai=DRX_Official
+|discord= 
+|snapchat= 
+|youtube= https://youtube.com/drxglobal
+|weibo= https://www.weibo.com/drxglobal
+|linkedin=https://www.linkedin.com/company/drx-%EB%94%94%EC%95%8C%EC%97%91%EC%8A%A4/
+<!-- History -->
+|created= 2019-10-09
+|disbanded= 
+|rosterphoto=DRX_LCK_Cup_2026.jpg
+<!-- Remember to create or edit a CargoConcept for sister teams if applicable! -->
+}}{{TOCRWI}}
+
+'''DRX''' is a Korean ''League of Legends'' esports team. They were previously known as [[Kingzone DragonX]] and '''DragonX'''.
+
+== History ==
+Prior to the 2020 Season, [[Kingzone DragonX]] renamed to DragonX.
+
+=== 2019 Season ===
+On November 4th DragonX announced former [[Griffin (Korean Team)|Griffin]] coach [[cvMax]] as new head coach. In the following weeks Rascal, Cuzz, Naehyun and TusiN left the team. At the start of december former Griffin top lane substitute [[Doran (Choi Hyeon-joon)| Doran]] and mid laner [[Chovy]] signed their contracts while trainees [[Pyosik]] and [[Keria]] were promoted to the starting roster. With cvMax and this young roster lead by Deft's experience many people were excited about what they would be able to achieve.
+
+=== 2020 Season ===
+Their first test was [[2019 LoL KeSPA Cup]] in which they swept local team Chungnam, Challenger team [[Spear Gaming]] and even Worlds quarterfinalist [[DAMWON Gaming]]. Their run came to an end when they faced [[Afreeca Freecs]] with their upgraded roster in semifinals and this time got swept themselves.
+
+Using their time before the start of [[LCK/2020 Season/Spring Season|Spring Split]] well they managed to start off 4-0 in the first two weeks before falling to top teams [[T1]] and [[Gen.G]] in week 3. They finished the first half of the split off with another 3 2-0 victories before the league had to take a break due to the [[2019–20 Coronavirus Pandemic]]. When the league continued a few weeks later with online play they were upset by [[HLE]] and swept by T1 before getting back on track to finish the Regular Season with 7 victories including a 2-0 over first placed Gen.G. Due to dropping several games in "easy" matches they lost out on second seed to T1 which meant that they had to start playoffs as third seed in Round 1. In this match against Damwon they dominated games 1 and 2 but lost game 3 convincingly and game 4 to a backdoor before smashing their opponents in game 5 to face T1 in semifinals. This time they clearly lost games 1 and 2 before slowly bleeding out T1 with a poke comp in game 3 but ultimately lost the series in game 4 vs the eventual champion.
+
+== Timeline ==
+{{TeamNews}}
+
+== Trivia ==
+* Their [[2022 Season World Championship|Worlds 2022]] triumph marked them as both the first fourth seed as well as the first team from Play-ins to win a World Championship title. This feat would soon be partly ([[2024 Season World Championship|Worlds 2024]] as fourth seed) and then again fully ([[2025 Season World Championship|Worlds 2025]] as fourth seed + from Play-ins) repeated by [[T1|T1]].
+
+== Player Roster ==
+===Active===
+{{TeamMembersCurrent}}
+
+===Former===
+{{TeamMembersFormer}}
+
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|CAN Yang|kr|Yang Seon-il (양선일)|'''Chief Executive Officer'''}}
+{{listplayersp||kr|Park Jeong-moo (박정무)|'''Chief Executive Officer'''}}
+{{listplayersp||kr|Han Ka-ram (한가람)|'''Vice President'''}}
+{{listplayer|Dopani|kr|Lim Hyeon-seok (임현석)|'''Chief Gaming Officer'''}}
+{{listplayer|cCarter|kr|Choi Byoung-hoon (최병훈)|'''General Manager'''}}
+{{listplayer|Joker (Cho Jae-eup)|kr|Cho Jae-eup (조재읍)|'''Head Coach'''}}
+{{listplayer|Naehyun|kr|Yoo Nae-hyun (유내현)|'''Coach'''}}
+{{listplayer|Saroo|kr|Lee Jong-won (이종원)|'''Coach'''}}
+{{listplayersp|ZzamtaSooa|kr|Kim Soo-a (김수아) |'''Streamer'''}}
+{{listplayersp|Lilka|fr|Yang Jun-ha (양준하) |'''Ambassador'''}}
+{{listplayersp|Hina (Jang Na-young)|fr|Jang Na-young (장나영) |'''Ambassador'''}}
+{{listplayersp|Hebi|kr||'''Ambassador'''}}
+{{listplayersp|Gaeul|vn|Trần Như Phương |'''Communication Manager (Vietnamese) & Vietnamese Translation'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes}}
+{{listplayer|Saroo|kr|Lee Jong-won (이종원)|'''Coach'''|newteam=Kiwoom DRX|comment=Coach}}
+{{listplayer|Ssong|kr|Kim Sang-soo (김상수)|'''Head Coach'''|newteam=OKSavingsBank BRION}}
+{{listplayersp|Fairy|kr|Lee Hong-yuop (이홍엽)|'''General Manager'''|newteam=none}}
+{{listplayer|Bigfafa|kr|Seo Min-seok (서민석)|'''General Manager'''|newteam=none}}
+{{listplayer|Frozen (Kim Tae-il)|kr|Kim Tae-il (김태일)|'''Coach'''|newteam=DRX Challengers}}
+{{listplayer|Saroo|kr|Lee Jong-won (이종원)|'''Analyst'''|newteam=DRX Challengers}}
+{{listplayer|Crush|kr|Kim Jun-seo (김준서)|'''Coach'''|newteam=Retired|comment=Deceased}}
+{{listplayer|Micro (Kim Mok-kyoung)|kr|Kim Mok-kyoung (김목경)|'''Head Coach'''|newteam=none}}
+{{listplayer|Raise|kr|Oh Ji-hwan (오지환)|'''Coach'''|newteam=LOUD}}
+{{listplayer|Merit (Kim Young-min)|kr|Kim Young-min (김영민)|'''Scout'''|newteam=Joblife}}
+{{listplayersp|Leosa|kr|Sa Jae-yoon (사재윤)|'''General Manager'''|newteam=none}}
+{{listplayersp|DOwner|kr|Choi Sang-in (최상인)|'''Chief Executive Officer'''|newteam=none}}
+{{listplayer|Frozen (Kim Tae-il)|kr|Kim Tae-il (김태일)|'''Streamer'''|newteam=DRX Academy}}
+{{listplayersp|KIMDO|kr|Kim Do-hoon (김도훈)|'''General Manager'''|newteam=none}}
+{{listplayersp|Leosa|kr|Sa Jae-yoon (사재윤)|'''Director'''|newteam=DRX|comment=General Manager}}
+{{listplayer|cCarter|kr|Choi Byoung-hoon (최병훈)|'''General Manager'''|newteam=DRX|comment=General Manager}}
+{{listplayer|Gizmo|kr|Kim Young-jin (김영진)|'''Coach'''|newteam=none}}
+{{listplayersp|Dasom|kr|Kim Tae-young (김태영)|'''Analyst'''|newteam=none}}
+{{listplayer|Shine (Shin Dong-wook)|kr|Shin Dong-wook (신동욱)|'''Coach'''|newteam=Rare Atom}}
+{{listplayer|Cpt Jack|kr|Kang Hyung-woo (강형우)|'''Streamer'''|newteam=Riot Games Inc.}}
+{{listplayer|Ssong|kr|Kim Sang-soo (김상수)|'''Head Coach'''|newteam=FLY}}
+{{listplayer|Mowgli|kr|Lee Jae-ha (이재하)|'''Coach'''|newteam=hle}}
+{{listplayer|KIM (Kim Jeong-soo)|kr|Kim Jeong-soo (김정수)|''' Head Coach'''|newteam=GEN}}
+{{listplayer|Shine (Shin Dong-wook)|kr|Shin Dong-wook (신동욱)|'''Coach'''|newteam=drx|comment=Coach}}
+{{listplayer|Museong|kr|Kim Moo-seong (김무성)|'''Coach'''|newteam=gen}}
+{{listplayer|SSONG|kr|Kim Sang-soo (김상수)|'''Coach'''|newteam=drx|comment=Head Coach}}
+{{listplayer|cvMax|kr|Kim Dae-ho (김대호)|'''Head Coach'''|newteam=KDF}}
+{{listplayer|dongHo|kr|Park Dong-ho (박동호)|'''Coach'''|newteam=none}}
+{{listplayer|Bubbling|kr|Park Jun-hyeong (박준형)|'''Coach'''|newteam=DRX Academy}}
+{{listplayer|Mental (An Hyo-yeon)|kr|An Hyo-yeon (안효연)|'''Coach'''|newteam=KT}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+{{TeamShowmatchResults|show=overviewpage}}
+===As DRX===
+{{TeamResults|DRX|show=overviewpage}}
+{{TeamShowmatchResults|DRX|show=overviewpage}}
+===As DragonX===
+{{TeamResults|DragonX|show=overviewpage}}
+
+== Media ==
+{{TeamMedia}}
+
+== Images ==
+===Logos===
+<gallery>
+DragonX Logo.png|DragonX Logo<br>(Oct 2019 - Jun 2020)
+DRX Old Logo.png|DRX Logo<br>(Jun 2020 - Jan 2023)
+DRXlogo profile.png|DRX Logo<br>(Jan 2023 - Mar 2026)
+KRX Profile Korean.png|Kiwoom DRX Korean Logo<br>(Mar 2026 - ''Present'')
+KRX Profile English.png|Kiwoom DRX English Logo<br>(Mar 2026 - ''Present'')
+</gallery>
+
+===Rosters===
+<gallery>
+2020 DRX Spring.jpg|DRX's LCK 2020 Spring Roster
+2020 DRX Summer.png|DRX's LCK 2020 Summer Roster
+DRX Worlds 2020.png|DRX's Worlds 2020 Roster
+DRX_Spring2021.jpg|DRX's LCK 2021 Spring Roster
+DRX 2022 Spring Roster.png|DRX's LCK 2022 Spring Roster
+DRX 2022 Summer.jpeg|DRX's LCK 2022 Summer Roster
+DRX 2022 Worlds.jpg|DRX's Worlds 2022 Roster
+DRX 2023 Spring Roster.jpg|DRX's LCK 2023 Spring Roster
+DRX 2023 Summer Roster.jpg|DRX's LCK 2023 Summer Roster
+DRX 2024 Spring Roster.jpg|DRX's LCK 2024 Spring Roster
+DRX Cup 2025.jpg|DRX's LCK Cup 2025 Roster
+DRX_LCK_Cup_2026.jpg|DRX's LCK Cup 2026 Roster
+</gallery>
+
+== References ==
+<references />
+{{World Championship Champions Navbox|2022 Season}}

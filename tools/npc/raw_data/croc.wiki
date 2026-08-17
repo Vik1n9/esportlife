@@ -1,0 +1,78 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Croc&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:51.028Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Croc」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Croc
+|name=Park Jong-hoon
+|nativename=박종훈
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=1998
+|birth_date_month=January
+|birth_date_day=06
+|favchamp=Poppy
+|favchamp2=Sejuani
+|favchamp3=Viego
+|favchamp4=Maokai
+|checkbox1=No
+|compID1=Bokkenbap
+|checkboxComp=No
+|ids='''BR:''' ceos chan#BR1 <br>'''EUW''': no item JG#EUW <br>'''KR''': 짐승들과4대1#KR1, qetadgzcb135#KR1 <br> '''NA''': New jeans fan#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/lol_croc
+|twitter=crocjg
+|instagram=jh_croc
+|lolpros=https://br.lolpros.gg/player/croc
+|deeplol=https://www.deeplol.gg/pro/Croc
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Bokkenbap'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=Yes
+|prev1=Bot
+}}
+==Biography==
+
+== Trivia ==
+* Represented South Korea at the [[IeSF 7th e-Sports World Championship]] in the AD carry position alongside [[FireRain]] and [[Colorless]].
+* Received a lot of notoriety on '''CBLOL''' after joining [[LOUD]] for learning how to provoke in Portuguese and shouting at the enemy team on stage.<ref>[https://www.youtube.com/watch?v=k46VbdnolwI CROC GRITA EM PORTUGUÊS EM PARTIDA CONTRA A FURIA NO CBLOL (Portuguese)]''youtube.com''</ref>
+* The first player in [[CBLOL]], under partnership ([[CBLOL/2021 Season/Split 1|2021]] onwards), to be elected MVP in every single game of a series, in a 3-0 win against [[paiN Gaming]] in the semifinals of [[CBLOL/2023 Season/Split 2 Playoffs|CBLOL 2023 Split 2 Playoffs]].
+* During [[CBOLÃO/Season 5|CBOLÃO Season 5]], he said he wasn't aware there was a prize for the tournament winners and played all the finals game drunk since the event had a open bar party. <ref>[https://youtu.be/IC2r4XPS0xU?si=B4yMknHVj4iaTuAZ CROC JOGANDO BÊBADO?! #loud #cbolao #leagueoflegends (Portuguese)] ''youtube.com''</ref>
+* Often considered the greatest import in CBLOL history as of 2024, winning 4 consecutive regional titles in a row.
+* Likes to reference his teammates and memes related to his international performances in his soloqueue nicknames.
+** His EUW soloqueue ID references a game against [[G2 Esports|G2]] during [[MSI 2023]] where he forgot to buy the jungle item.<ref>[https://youtu.be/lw0g7Z1y5q0?t=1291 G2 vs. LLL | DAY 1 | MSI 2023 | G2 Esports vs. LOUD | GAME 1 (2023)] ''youtube.com''</ref> 
+** His KR soloqueue ID, "filho do [[JunJia]]" references a running gag in Brazil, where players who lose to the same positional opponent are considered the opponent's "sons".
+** His BR soloqueue ID, "ceos chan", references his former teammate [[Ceos]].
+{{PlayerStatsTrivia}}
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,121 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Dumbledoge&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:29:54.406Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Dumbledoge」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=Yes
+|isretiredplayer=No
+|towildrift=No
+|low_content=No
+|id=Dumbledoge
+|name=Mustafa&nbsp;Kemal Gökseloğlu
+|checkboxAutoImage=Yes
+|country=Turkey
+|residency=Turkey
+|checkbox-res=No
+|birth_date_year=1994
+|birth_date_month=March
+|birth_date_day=16
+|favchamp=Bard
+|favchamp2=Zyra
+|favchamp3=Poppy
+|favchamp4=Ahri
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Support
+|checkboxIsSub=No
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|issub6=No
+|istrainee6=No
+|issub7=No
+|istrainee7=No
+|issub8=No
+|istrainee8=No
+|issub9=No
+|istrainee9=No
+|issub10=No
+|istrainee10=No
+|issub11=No
+|istrainee11=No
+|issub12=No
+|istrainee12=No
+|issub13=No
+|istrainee13=No
+|issub14=No
+|istrainee14=No
+|issub15=No
+|istrainee15=No
+|issub16=No
+|istrainee16=No
+|issub17=No
+|istrainee17=No
+|issub18=No
+|istrainee18=No
+|issub19=No
+|istrainee19=No
+|issub20=No
+|istrainee20=No
+|issub21=No
+|istrainee21=No
+|issub22=No
+|istrainee22=No
+|issub23=No
+|istrainee23=No
+|issub24=No
+|istrainee24=No
+|issub25=No
+|istrainee25=No
+|stream=https://www.twitch.tv/dumbledogelol
+|facebook=https://www.facebook.com/dumbledoge
+|twitter=DumbledogeLoL
+|snapchat=dumbledogelol
+|lolpros=https://lolpros.gg/player/dumbledoge
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+==Biography==
+
+== Trivia ==
+* Known for killing [[Faker]] for First Blood as {{ci|Janna}} at [[2015 Mid-Season Invitational|MSI 2015]].
+* Played in all of the first three [[Mid-Season Invitational|Mid-Season Invitationals]] from 2015 to 2017, the only non-[[SKT]] player to do so. 
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+=== Images ===
+<gallery>
+BJK Dumbledoge.jpg|BJK Dumbledoge
+BJK Dumbledoge.png|BJK Dumbledoge
+Dumbledoge 1.jpg|SUP Dumbledoge 2016 Winter
+SUP Dumbledoge 2017 Spring.png|SUP Dumbledoge 2017 Winter
+SUP Dumbledoge 2017 MSI.png|SUP Dumbledoge 2017 MSI
+RBE_Dumbledoge_2018_Winter.png|RBE Dumbledoge 2018 Winter
+RBE_Dumbledoge_2018_Split_2.png|RBE Dumbledoge 2018 Summer
+RYL Dumbledoge 2019 Split 1.png|RYL Dumbledoge 2019 Winter
+GS Dumbledoge 2019 Split 2.png|GS Dumbledoge 2019 Summer
+</gallery>
+
+{{PlayerPageEnd}}

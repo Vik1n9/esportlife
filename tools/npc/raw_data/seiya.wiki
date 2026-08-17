@@ -1,0 +1,107 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Seiya&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.244Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Seiya」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Seiya
+|name=Édgar&nbsp;Ali Bracamontes Munguía
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Mexico
+|residency=North America
+|birth_date_year=1996
+|birth_date_month=August
+|birth_date_day=06
+|favchamp=Syndra
+|favchamp2=Ezreal
+|favchamp3=Zed
+|favchamp4=LeBlanc
+|checkbox1=No
+|compID1=sEiya
+|checkboxComp=No
+|ids='''NA:''' Demon#seiya <br> '''BR:''' u i, Fang Mu<br>'''EUW:''' LA1N,dongoman,t0pson
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Streamer
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/se1ya
+|facebook=https://www.facebook.com/seiyalol
+|twitter=seiyalol
+|instagram=seiyahax
+|snapchat=se1y4
+|reddit=Seeiya
+|youtube=https://www.youtube.com/c/seiyalol
+|discord=https://discord.gg/uy9EWa5PGj
+|lolpros=https://lolpros.gg/player/seiya
+|deeplol=https://www.deeplol.gg/pro/Seiya
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|TOCLimit=2
+|residency_notes=This&nbsp;player&nbsp;is&nbsp;considered a dual resident in both {{RegionIcon|BR}} and {{RegionIcon|NA}} until 2027. In 2028+, they will need to claim residency in one.
+|checkboxIsSub=No
+|checkbox-res=Yes
+|residency-prev1=Latin America North
+|checkboxPrev=Yes
+|prev1=Bot
+|prev2=Top
+}}
+== Biography ==
+Édgar Ali Bracamontes Munguía is one of the oldest players in the Latin American competitive scene, a legend inside and outside of his region. Seiya, who started as an AD Carry, is known today as the master of the midlane in Latin America. He is a player who stands out for his wide repertoire of champions and his high mechanics along with his enormous experience, which has allowed him to be one step ahead in the decision making with respect to his rivals. Although strong candidates have appeared who want to overcome him, the throne still belongs to him.
+
+===2013 Season===
+Winning the qualifier for the "Gran Final Latinoamerica" ​​where they won 2-0 the final phase vs their maximum rival [[Team ANG]] coming from Peru, reaching the final Latin America won.
+
+===2015 Preseason===
+Lyon Gaming [[IEM Season IX - San Jose/Qualifiers|qualified]] for [[IEM Season IX - San Jose|IEM San Jose]] with a roster consisting of [[Porky (Latin American)|Porky]], [[Thyak]], Seeiya, [[NerzhuL]], and [[Arce]]. However, NerzhuL and Arce were unable to attend the event due to visa issues, and so [[Maplestreet]] and [[Dodo8]], the bot lane of [[Team 8]], substituted for the team. They were eliminated in the quarterfinals, losing 0-2 to [[Unicorns of Love]] and tied for fifth place with [[paiN Gaming]].
+
+===2016 Closing Season===
+After the tragic fall in the IWCI of the city of origin where they got a streak of 1-6, the equipment almost completely renewed roster and staff where in the regional league they obtained a step perfect with a 10-0 in the regular phase [[LAN 2016 Closing Cup]], followed by a 6-0 in the playoffs [[LAN 2016 Closing Cup Playoffs]] for later go to the [[IWCQ]] played in Brazil where they would finish 6-1 the regular phase but in playoffs they would fall vs [[Albus NoX Luna]].
+
+== Trivia ==
+* Considered by many as the best and most popular esports player in Latin America.
+* Has played League of Legends since December 2010 on the North American server.
+* In the Season 3 reached Challenger rank in the North America, Latin America North and Latin America South servers simultaneously.
+* Has won the most domestic championships of any player in Americas, with 15 as of 2026. 
+* He likes anime and manga.
+* Ended the Round Robin of the [[LLN/2017 Season/Opening Season|2017 LLN Opening]] with a KDA of 11.2 after 28 games.
+
+=== Individual Awards ===
+* LLA player with the most MVPs in the split (Closing 2019)
+
+{{PlayerStatsTrivia}}
+
+==Notable Events as Broadcast Talent==
+* [[2023 Mid-Season Invitational|MSI 2023]] - Azteca Esports
+* [[LLA/2023 Season/Opening Playoffs|LLA 2023 Opening Playoffs]] - Azteca Esports
+* [[LLA/2023 Season/Opening Season|LLA 2023 Opening]] - Azteca Esports
+
+==Tournament Results==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+==Media==
+{{PlayerMedia}}
+
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

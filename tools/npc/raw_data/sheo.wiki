@@ -1,0 +1,65 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Sheo&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:32.245Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Sheo」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Sheo
+|name=Théo Borile
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=fr
+|nationality=fr
+|residency=EMEA
+|birth_date_year=2001
+|birth_date_month=July
+|birth_date_day=05
+|favchamp=Ekko
+|checkbox1=No
+|checkboxComp=No
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/sheo_lol
+|twitter=Sheo_lol
+|instagram=sheo_lol
+|lolpros=https://lolpros.gg/player/sheo/
+|deeplol=https://www.deeplol.gg/pro/Sheo
+|dpmlol=https://dpm.lol/pro/Sheo
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+=== Individual Awards ===
+* EU 2nd All-Pro Team x1 (Spring 2023)
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

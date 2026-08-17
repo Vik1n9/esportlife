@@ -1,0 +1,324 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=EU%20LCS%2FSeason%203%2FSpring%20Season&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:11.754Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「LCS/Europe/2013/Spring」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Tabs:EU LCS Season 3}}
+{{Infobox Tournament
+|name=EU LCS 2013 Spring Season
+|image= LCS Europe Logo.png
+|organizer=[http://www.riotgames.com/ Riot Games]
+|server=EU
+|type=Offline
+|country=Germany
+|prizepool=
+|format=
+|sdate= 2013-02-09
+|edate= 2013-04-14
+|website=
+|region=Europe
+|split=Spring
+|split_number=1
+
+|CM_StandardName=EU LCS 2013 Spring
+|CM_TournamentLevel=Primary
+|CM_IsQualifier=No
+|CM_IsPlayoffs=No
+|CM_IsOfficial=Yes
+|CM_Year=2013
+|CM_StandardLeague=EU LCS 2013
+|CM_LeagueIconKey=EU LCS 2013
+|closest_timezone=CET
+}}{{TOCRWI|2}}
+==Overview==
+The '''Riot Season 3 Championship Series''' is the first season of Europe's fully professional League of Legends league. Eight teams will compete in a [[round robin]] group stage, with the top 6 teams continuing on to an offline playoffs.
+
+=== Format ===
+* 10 weeks
+* League play
+* Each team plays all of the other teams four times 
+* Each match is best of one
+* Rankings are determined by the following methods:
+*# Win Percentage
+*# Total Wins (Or fewest losses when teams have no wins)
+*# Alphabetical order
+*At end of Week 10, if two teams have the same record, ties will be broken by:
+*# Head to Head record
+*# If still tied, a tiebreaker match will be played, with side selection determined by coin toss
+
+==Participants ==
+{{RostersStart|maxteams=4
+|showrosterpage=yes
+}}
+{{Box|start}}
+{{TeamRoster|team=aaa
+|{{TeamRoster/Line|player=fredy122|flag=uk|role=t}}
+|{{TeamRoster/Line|player=ViRtU4l |flag=fr|role=j}}
+|{{TeamRoster/Line|player=ShLaYa  |flag=fr|role=m}}
+|{{TeamRoster/Line|player=Nono    |flag=fr|role=a}}
+|{{TeamRoster/Line|player=Karalius|flag=lt|role=s}}
+|{{TeamRoster/Line|player=Dioud   |flag=fr|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=cw
+|{{TeamRoster/Line|player=NeeGodbro    |flag=dk|role=t}}
+|{{TeamRoster/Line|player=Svenskeren   |flag=dk|role=j}}
+|{{TeamRoster/Line|player=cowTard      |flag=se|role=m,a}}
+|{{TeamRoster/Line|player=FLord |flag=de|role=m}}
+|{{TeamRoster/Line|player=Bjergsen     |flag=dk|role=m}}
+|{{TeamRoster/Line|player=TheTess      |flag=dk|role=a}}
+|{{TeamRoster/Line|player=Deficio      |flag=dk|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=db
+|{{TeamRoster/Line|player=Spontexx    |flag=fr|role=t}}
+|{{TeamRoster/Line|player=YamatoCannon|flag=se|role=t}}
+|{{TeamRoster/Line|player=Malunoo     |flag=se|role=j}}
+|{{TeamRoster/Line|player=Dexter      |flag=de|role=j}}
+|{{TeamRoster/Line|player=Shushei     |flag=pl|role=m}}
+|{{TeamRoster/Line|player=HosaN       |flag=pl|role=a}}
+|{{TeamRoster/Line|player=Muvert      |flag=se|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=EG.EU
+|{{TeamRoster/Line|player=Wickd     |flag=dk|role=t}}
+|{{TeamRoster/Line|player=Snoopeh   |flag=uk|role=j}}
+|{{TeamRoster/Line|player=Froggen   |flag=dk|role=m}}
+|{{TeamRoster/Line|player=yellowpete|flag=de|role=a}}
+|{{TeamRoster/Line|player=Krepo     |flag=be|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=fnc
+|{{TeamRoster/Line|player=sOAZ      |flag=fr|role=t}}
+|{{TeamRoster/Line|player=Cyanide   |flag=fi|role=j}}
+|{{TeamRoster/Line|player=xPeke     |flag=es|role=m}}
+|{{TeamRoster/Line|player=YellOwStaR|flag=fr|role=a}}
+|{{TeamRoster/Line|player=nRated    |flag=de|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=gmb
+|{{TeamRoster/Line|player=Darien     |flag=ru|role=t}}
+|{{TeamRoster/Line|player=Diamond (Danil Reshetnikov)|flag=ru|role=j}}
+|{{TeamRoster/Line|player=Alex Ich   |flag=ru|role=m}}
+|{{TeamRoster/Line|player=Genja      |flag=ru|role=a}}
+|{{TeamRoster/Line|player=EDward     |flag=am|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=Giants Gaming
+|{{TeamRoster/Line|player=Samux   |flag=es|role=t}}
+|{{TeamRoster/Line|player=Morden  |flag=es|role=j}}
+|{{TeamRoster/Line|player=Exter   |flag=es|role=m}}
+|{{TeamRoster/Line|player=Jimbz|flag=es|role=a}}
+|{{TeamRoster/Line|player=Babeta  |flag=es|role=s}}
+}}
+{{Box|break}}
+{{TeamRoster|team=sk
+|{{TeamRoster/Line|player=Kev1n     |flag=de|role=t}}
+|{{TeamRoster/Line|player=hyrqBot   |flag=fr|role=j}}
+|{{TeamRoster/Line|player=ocelote   |flag=es|role=m}}
+|{{TeamRoster/Line|player=CandyPanda|flag=de|role=a}}
+|{{TeamRoster/Line|player=Nyph      |flag=de|role=s}}
+}}
+{{Box|end}}
+{{RostersEnd}}
+
+==Results==
+===Spring Standings===
+{{Box|start|padding=1em}}
+{{AutoStandings|preload=Bo1|display=Season Standings
+|finalorder=fnc,gmb,sk,eg.eu,cw,aaa,Giants Gaming,db
+|places=upwithbye,upwithbye,up,up,up,up,down,down
+|row1=upwithbye
+|row2=upwithbye
+|row3=up
+|row4=up
+|row5=up
+|row6=up
+|row7=down
+|row8=down
+|legend=true
+|upwithbye= Playoffs Semifinal Bye
+|up= Playoffs Seed
+|down= Promotion Tournament
+|storeargs=yes
+|isover=yes
+|useasresults=yes
+}}
+{{Box|break|padding=1em}} 
+{{AutoCrossbox|crossboxtype=BO1}}
+{{Box|end}}
+
+==Time Line==
+{{AutoTimeline
+|w10bg1=upwithbye
+|w10bg2=upwithbye
+|w10bg3=up
+|w10bg4=up
+|w10bg5=up
+|w10bg6=up
+|w10bg7=down
+|w10bg8=down
+|w8bg1=up |w8bg2=up
+|w9bg1=up |w9bg2=up |w9bg3=up
+|orderby=record
+|places=upwithbye,upwithbye,up,up,up,up,down,down}}
+
+== Match Schedule ==
+{{AutoMatches}}
+
+== VODs & Match Links ==
+{{MatchDetails
+|matchfields=pbp,color,interview,with
+|gamefields=Blue,Red,VODs
+}}
+
+==Additional Content==
+=== Spring Split ===
+==== Videos and Photos ====
+{{Navbox
+|name= European Championship Series
+|title= European Championship Series
+
+|group1=Interviews
+|list1={{Navbox|border=child
+  |group1= [http://www.sk-gaming.com/ SK Gaming]
+  |list1={{Flatlist}}
+*[http://vods.leaguepedia.com/xpeke-interview-lcs-eu-day-1/ xPeke]
+*[http://vods.leaguepedia.com/hyrqbot-interview-lcs-eu-day-1/ hyrqBot]
+*[http://www.youtube.com/watch?v=vTlaIj71nNw Ocelote]
+*[http://www.youtube.com/watch?v=ZAnYFAtSNv8 Alex Ich]
+  {{Endflatlist}}
+  |group2= [http://escene.de escene]
+  |list2={{Flatlist}}
+*[http://www.youtube.com/watch?v=Z3v4E-0Skak xPeke]
+*[http://www.youtube.com/watch?v=q_gjRj_PneI Ocelote]
+  {{Endflatlist}}
+  |group3= [http://fnatic.com fnatic]
+  |list3={{Flatlist}}
+*[http://www.youtube.com/watch?v=RTDifuIiTjI Cyanide and sOAZ]
+*[http://www.youtube.com/watch?v=C-xHfAdBbnI&list=UUxo56gzJQ_fhb6svPqTSewg&index=7 Team Fnatic]
+*[http://www.youtube.com/watch?v=Wcmd-L-NpZ0 Cyanide]
+  {{Endflatlist}}
+  }}
+|group2=Videos
+|list2={{Navbox|border=child
+  |group1= [http://www.fnatic.com fnatic]
+  |list1={{Flatlist}}
+*[http://www.youtube.com/watch?v=C-xHfAdBbnI&list=UUxo56gzJQ_fhb6svPqTSewg&index=7 Week 3 Analysis]
+*[http://www.youtube.com/watch?v=Z13OSlLkrrg&list=UUxo56gzJQ_fhb6svPqTSewg&index=12 Week 3 vs EG]
+*[http://www.youtube.com/watch?v=S1UXzW3vupg Week 5 Analysis]
+*[http://www.youtube.com/watch?v=zegpcWREeio Week 4 Analysis]
+  {{Endflatlist}}
+  |group2=
+  |list2={{Flatlist}}
+*
+  {{Endflatlist}}
+  }}
+|group3=Photos
+|list3={{Navbox|border=child
+  |group1= [http://escene.de escene]
+  |list1={{Flatlist}}
+*[http://escene.de/galleries,9.html Week 1]
+  {{Endflatlist}}
+  |group2= [http://www.fnatic.com fnatic]
+  |list2={{Flatlist}}
+*[http://www.fnatic.com/galleries/540/lcs-week-1.html Week 1]
+*[http://www.fnatic.com/galleries/540/lcs-week-3.html Week 3]
+*[http://www.fnatic.com/galleries/542/lcs-week-4.html Week 4]
+*[http://www.fnatic.com/galleries/545/lcs-week-5.html Week 5]
+*[http://www.fnatic.com/galleries/547/lcs-week-6.html Week 6]
+  {{Endflatlist}}
+  }}
+}}
+
+==== Articles ====
+{{Navbox
+|name= European Championship Series
+|title= European Championship Series
+
+|group1=Previews<!-- THIS SECTION IS FOR OVERALL EVENT PREVIEWS -->
+|list1={{Navbox|border=child
+  |group1=[[Articles:Index|Leaguepedia]]
+  |list1={{Flatlist}}
+*[[Articles:Europe_LCS_Week_One_Matchup_Previews|Week One Matchups]]
+*[[Articles:Europe_LCS_Week_Two_Matchup_Previews|Week Two Matchups]]
+*[[Articles:Europe_LCS_Week_Three_Matchup_Previews|Week Three Matchups]]
+*[[Articles:Europe_LCS_Week_Four_Matchup_Previews|Week Four Matchups]]
+*[[Articles:Europe_LCS_Week_Five_Matchup_Previews|Week Five Matchups]]
+*[[Articles:Europe_LCS_Week_Six_Matchup_Previews|Week Six Matchups]]
+*[[Articles:Europe_LCS_Week_7_Matchup_Previews|Week Seven Matchups]]
+  {{Endflatlist}}  
+  |group2=[http://www.in2lol.com/en/start in2LOL]
+  |list2={{Flatlist}}
+*[http://www.in2lol.com/en/news/6591 LCS Preview]
+*[http://www.in2lol.com/en/news/6749 Team Preview: Fnatic&SK]
+*[http://www.in2lol.com/en/news/6985 Week 3]
+*[http://www.in2lol.com/en/news/7193 Week 4]
+  {{Endflatlist}}
+  |group3=[http://www.esfiworld.com ESFI World]
+  |list3={{Flatlist}}
+*[http://www.esfiworld.com/season-3-lcs-preview-and-preseason-media-poll-rankings/ Season 3 Preview]
+  {{Endflatlist}}
+  |group4=[http://www.teamliquid.net TeamLiquid]
+  |list4={{Flatlist}}
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=397344 Week 0 Write-up]
+  {{Endflatlist}}
+  |group5=[http://www.gosugamers.net GosuGamers]
+  |list5={{Flatlist}}
+*[http://www.gosugamers.net/lol/features/3135 Week 2]
+*[http://www.gosugamers.net/lol/features/3139 Week 3]
+  {{Endflatlist}}
+}}
+|group2=Recaps<!-- THIS SECTION IS FOR EVENT RECAPS OR RECAPS OF DAYS. DO NOT POST LINKS TO INDIVIDUAL GAME RECAPS -->
+|list2={{Navbox|border=child
+  |group1=[http://www.gosugamers.net/lol GosuGamers]
+  |list1={{Flatlist}}
+* [http://gosugamers.net/lol/news/22811-fnatic-lead-the-group-on-day-1-at-lcs W1D1]
+* [http://gosugamers.net/lol/news/22815-sk-eg-and-fnatic-tied-for-gold-this-week-at-lcs W1D2]
+* [http://gosugamers.net/lol/news/22864-eg-take-the-lead-after-w2d1 W2D1]
+* [http://gosugamers.net/lol/news/22866-gambit-crawl-back-into-the-positive W2D2]
+* [http://gosugamers.net/lol/news/22918-fnatic-rule-as-titans-on-w3d1 W3D1]
+  {{Endflatlist}}
+  |group2=[http://www.eclypsia.com/ Eclypsia]
+  |list2={{Flatlist}}
+* [http://www.eclypsia.com/en/lol/news-4286.html W1D1]
+* [http://www.eclypsia.com/en/lol/news-4288.html W1D2]
+  {{Endflatlist}}
+  |group3=[http://www.esfiworld.com ESFI World]
+  |list3={{Flatlist}}
+* [http://www.esfiworld.com/riot-s3-eu-lcs-week-1-at-a-glance/ Week 1]
+* [http://www.esfiworld.com/riot-s3-eu-lcs-week-2-at-a-glance/ Week 2]
+  {{Endflatlist}}
+  |group4=[http://www.teamliquid.net TeamLiquid]
+  |list4={{Flatlist}}
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=398747 Week 1]
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=399845 Week 2]
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=400745 Week 3]
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=403075 Week 4]
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=404389 Week 5]
+*[http://www.teamliquid.net/forum/viewmessage.php?topic_id=405418 Week 6]
+  {{Endflatlist}}
+  |group5=[http://www.sk-gaming.net SK Gaming]
+  |list5={{Flatlist}}
+*[http://www.sk-gaming.com/content/80710-LCS_Day_3_EU_Recap W2D1]
+*[http://www.sk-gaming.com/content/80719-LCS_Day_4_EU_Recap W2D2]
+  {{Endflatlist}}
+  |group6=[http://www.fnatic.com fnatic]
+  |list6={{Flatlist}}
+*[http://www.youtube.com/watch?v=C-xHfAdBbnI&list=UUxo56gzJQ_fhb6svPqTSewg&index=7 LCS Week 3 Analysis]
+*[http://www.fnatic.com/content/95367/lcs-breakdown-fnatic-vs-Giants Gaming Week 1 Breakdown]
+  {{Endflatlist}}
+  }}
+|group3=Others Coverages
+|list3={{Navbox|border=child
+  |group1=[http://www.teamplay.com.br/ TEAMPLAY]
+  |list1={{Flatlist}}
+*[http://www.teamplay.com.br/coberturas/no-game/10399-lcs-spring-eu-dia-0 LCS Spring Europe (Portuguese)]
+  {{Endflatlist}}
+  |group2=[http://ggchronicle.com/ ggChronicle]
+  |list2={{Flatlist}}
+* [http://ggchronicle.com/power-ranking-lcs-eu-week-one/ Week 1 Power Rankings]
+  {{Endflatlist}}
+  |group3=[http://fnatic.com/ fnatic]
+  |list3={{Flatlist}}
+* [http://www.fnatic.com/content/95346/lcs-eu-fnatic-2nd-after-super-week-4 LCS Coverage Center]
+{{Endflatlist}}
+  }}
+}}

@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kisee&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:10.052Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kisee」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Kisee
+|name=Ronald Van Bao Vo
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=Vietnam
+|nationality=Australia
+|residency=PCS
+|birth_date_year=2003
+|birth_date_month=March
+|birth_date_day=07
+|favchamp=Sylas
+|checkbox1=No
+|compID1=Ryot
+|checkboxComp=No
+|ids='''BR''': winwinwin#KR07, ravenclawer91#br1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Mid
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/kiseeoce
+|twitter=KiseeOce
+|instagram=ronnald_vo
+|deeplol=https://www.deeplol.gg/pro/Kisee
+|dpmlol=https://dpm.lol/pro/Kisee
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|text=He was previously known as '''Ryot'''.
+|checkbox-res=No
+|checkboxIsSub=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Nicknamed "Ronaldinho" by [[Vivo Keyd Stars|VKS]] supporters.<ref>[https://x.com/VivoKeyd/status/1798092943514853564 Vivo Keyd Stars' X Post] ''x.com''</ref>
+* Nicknamed the "Australian [[Chovy]]" by the Brazilian community after his performance in the [[CBLOL Academy 2024 Split 2 Playoffs]].<ref>[https://x.com/luisshowtana/status/1826431629134369138 Showtana's X Post] ''x.com''</ref>
+* Originally a midlaner, roleswapped to botlane in his second passage in [[Vivo Keyd Stars Academy]].
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

@@ -1,0 +1,86 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Hope%20(Wang%20Jie)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:53.104Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Hope (Chinese player)」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Hope
+|name=Wang Jie
+|nativename=王杰
+|namealphabet=Hanzi
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=China
+|residency=China
+|birth_date_year=2000
+|birth_date_month=September
+|birth_date_day=29
+|favchamp=Varus
+|favchamp2=Aphelios
+|favchamp3=Lucian
+|favchamp4=Jinx
+|checkbox1=Yes
+|favchamp5=Kai'Sa
+|compID1=SANGh
+|checkboxComp=No
+|ids='''KR:''' 근데 막 어른이 돼#0303 <br> jusaka#rulo0 <br> '''NA:''' Hope#0929
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.zhanqi.tv/edghope
+|weibo=https://weibo.com/n/AL_Hope0929
+|deeplol=https://www.deeplol.gg/pro/Hope-Wang_Jie
+|dpmlol=https://dpm.lol/pro/Hope
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+==Biography==
+== Trivia ==
+* Represented China at the [[IeSF 9th e-Sports World Championship]].
+* Nicknamed '''Xi'an Rank King''' (西安积分王) by Chinese casters.
+** The nickname originated during the [[RDAG 2022 East Asia]], as Chinese casters were not allowed to use the word ''kills'' during the official broadcast.
+=== Statistics ===
+* Reached 1000 kills in the LPL on February 28, 2023.
+** The 38th player to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on June 17, 2024.
+** The 22nd player to reach 1500 kills in the LPL.
+* Reached 2000 kills in the LPL on May 4, 2025.
+** The 17th player to reach 2000 kills in the LPL.
+* Reached 500 games in the LPL on September 12, 2025.
+** The 38th player to reach 500 games in the LPL.
+* Reached 3000 assists in the LPL on September 12, 2025.
+** Was the 42nd player to reach 3000 assists in the LPL.
+
+=== Individual Awards ===
+* LPL 2nd All Pro Team x1 (Split 2 2025)
+
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}

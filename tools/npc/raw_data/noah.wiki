@@ -1,0 +1,70 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Noah%20(Oh%20Hyeon-taek)&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:43:54.766Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Noah」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|low_content=No
+|id=Noah
+|name=Oh Hyeon-taek
+|nativename=오현택
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2001
+|birth_date_month=October
+|birth_date_day=04
+|favchamp=Ezreal
+|checkbox1=No
+|compID1=Hyun Taek
+|checkboxComp=No
+|ids='''KR:''' Positive Taek <br> '''EUW:''' Noah7
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Bot
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://www.twitch.tv/krnoah7
+|twitter=Noah_lol1004
+|instagram=noah7lol
+|lolpros=https://lolpros.gg/player/noah-1
+|deeplol=https://www.deeplol.gg/pro/Noah-Oh_Hyeon-taek
+|dpmlol=https://dpm.lol/pro/Noah
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=No
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+}}
+== Biography ==
+
+== Trivia ==
+* Started playing League in 2017.
+* Was originally a jungle and ADC main but switched to ADC main fully because of [[Ruler]] winning [[Worlds 2017]].<ref>[https://www.youtube.com/watch?v=jckTXpl6qT0 FNC Noah "We BEAT Asian Teams in scrims!!" Is G2 stronger than FNC? | Worlds 2023] ''youtube.com''</ref>
+* When asked who his role model was in [[KT Rolster Academy]], he said that his role model is [[Ruler]] and continues to be a fan of him.
+
+{{PlayerStatsTrivia}}
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+{{PlayerPageEnd}}

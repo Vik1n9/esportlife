@@ -1,0 +1,73 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=MEGA&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:16.876Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「MEGA Esports」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Team|isdisbanded=Yes
+|name=MEGA
+|orgcountry= Thailand 
+|country=
+|region= SEA
+|image=MEGAlogo square.png
+|analysts=
+|headcoach= 
+|manager= 
+|captain=
+|website=http://www.megaesports.gg
+|facebook=https://www.facebook.com/MEGALoLSEA
+|twitter=MEGAEsportsSEA
+|youtube=https://www.youtube.com/c/megaesports
+|twitch-team=https://www.twitch.tv/megaesports
+|sponsor=[http://mobile.garena.in.th/ Garena Mobile]<br>[http://intl.garena.com/ Garena]<br>[https://www.nimo.tv/ Nimo TV]
+|created=2017-12-24
+|trades= 
+|rosterphoto=
+|otherwikis=apex
+}}{{TOCRWI}}
+
+'''MEGA''' is a League of Legends team based in Thailand. They are also known as '''MEGA Esports''' or '''MEGA Bangkok Titans'''
+
+==History==
+In December 2017, it was announced that the esports organization MEGA had acquired [[Bangkok Titans]].
+
+==Timeline==
+{{TeamNews}}
+
+==Player Roster==
+{{TeamMembersCurrent}}
+===Former===
+{{TeamMembersFormer}}
+== Player League Participation ==
+{{TeamPlayerLeagueHistory}}
+
+==Organization==
+===Current===
+{{listplayer/Start|staff=yes}}
+{{listplayersp|||Arnold Tandra|'''Owner'''}}
+{{listplayersp|Rina|th||'''Manager'''}}
+{{listplayer/End}}
+
+===Former===
+{{listplayer/Start|staff=yes|newteam=yes|dates=yes}}
+{{listplayer|WarL0cK|th|Pawat Ampaporn (ภวัต อัมพาภรณ์)|'''Coach'''|joined=2018-12-12|left=2020-01-08|newteam=Nova PCS}}
+{{listplayer|Bigfafa|kr|Seo Min-seok (서민석)|'''Head Coach'''|joined=2019-03-14|left=2019-05-09|newteam=Team Dynamics}}
+{{listplayer|Sek|th|Jakkid Krinbai (จักรกฤษณ์ กลิ่นใบ)|'''Head Coach'''|newteam=The Natives|joined=2018-06-20|left=2018-11-27}}
+{{listplayer|Porsche (Panthachanok Niamsiri)|th|Panthachanok Niamsiri (พันธชนก เนียมศิริ)|'''Head Coach'''|newteam=UDG|joined=2018-01-??|left=2018-07-12}}
+{{listplayer/End}}
+
+== Tournaments ==
+{{TeamResults|show=overviewpage}}
+
+{{TeamShowmatchResults|show=overviewpage}}
+==Highlight Videos==
+
+==Interviews==
+
+==Articles==
+
+== Images ==
+
+==See Also==
+* [[Garena]]
+
+==External Links==
+
+==References==
+<references />

@@ -1,0 +1,113 @@
+<!-- 來源: https://lol.fandom.com/api.php?action=query&titles=Kanavi&prop=revisions&rvslots=main&redirects=1
+<!-- 抓取: 2026-08-17T05:30:08.366Z (crawl-lp.mjs) · data_source=leaguepedia · 對照 Liquipedia 頁題「Kanavi」 · CC BY-SA 3.0（Leaguepedia） -->
+{{Infobox Player
+|page_type=Player
+|isretired=No
+|isretiredplayer=No
+|towildrift=No
+|tovalorant=No
+|totft=No
+|tolegendsofruneterra=No
+|to2xko=No
+|low_content=No
+|id=Kanavi
+|name=Seo Jin-hyeok
+|nativename=서진혁
+|namealphabet=Hangul
+|pronoun=He
+|checkboxAutoImage=Yes
+|country=South Korea
+|residency=Korea
+|birth_date_year=2000
+|birth_date_month=November
+|birth_date_day=02
+|favchamp=Bel'Veth
+|favchamp2=Wukong
+|favchamp3=Lee Sin
+|favchamp4=Nidalee
+|checkbox1=Yes
+|favchamp5=Vi
+|favchamp6=Graves
+|favchamp7=Naafiri
+|favchamp8=Shyvana
+|checkboxComp=No
+|ids='''CN:'''  Yagiao<br>'''KR:''' vinaka#KR1<br>PoAtan#ASP <br> '''EUW:''' srcrd#EUW <br> '''NA:''' alltimesleepy#NA1
+|checkboxAutoTeams=Yes
+|checkbox2=No
+|role=Jungler
+|issub1=No
+|istrainee1=No
+|issub2=No
+|istrainee2=No
+|issub3=No
+|istrainee3=No
+|issub4=No
+|istrainee4=No
+|issub5=No
+|istrainee5=No
+|checkbox3=No
+|stream=https://chzzk.naver.com/e351edbd85f1ebf4eb975c21179a4c43
+|instagram=kanavi_seo
+|videoarchive=https://www.huya.com/285716
+|weibo=https://weibo.com/u/7170298651
+|deeplol=https://www.deeplol.gg/pro/Kanavi
+|dpmlol=https://dpm.lol/pro/Kanavi
+|checkboxSuppressOrgNavbox=No
+|checkboxSBS=Yes
+|checkboxTOCR=Yes
+|checkboxIsSub=No
+|checkbox-res=No
+|checkboxPrev=No
+|issub26=No
+|issub27=No
+|issub28=No
+|issub29=No
+|issub30=No
+}}
+== Biography ==
+
+
+== Trivia ==
+* Known for building unusual items such as {{ii|Redemption}} on {{ci|Olaf}} or {{ii|Doran's Blade}} on some other jungle champions.
+* Good friend with [[Chovy]] and [[Lehends]].<ref>[https://www.fmkorea.com/index.php?mid=best&search_target=title&document_srl=2859344352&search_keyword=%EC%B9%B4%EB%82%98%EB%B9%84&page=2&listStyle=webzine#comment_] ''fmkorea.com''</ref> <ref>[https://www.fmkorea.com/index.php?mid=best&search_target=title&document_srl=2859344352&search_keyword=%EC%B9%B4%EB%82%98%EB%B9%84&page=2&listStyle=webzine#comment_] ''fmkorea.com''</ref>
+
+=== Milestones ===
+* Reached 1000 kills in the LPL on July 18, 2022.
+** The 34th player and 5th (after [[Clearlove]], [[SofM]], [[Karsa]], and [[Tian]]) and fastest jungler to reach 1000 kills in the LPL.
+* Reached 1500 kills in the LPL on March 3, 2024.
+** The 21st player and 1st jungler to reach 1500 kills in the LPL.
+* Reached 2000 kills in the LPL on April 20, 2025.
+** The 16th player and 1st jungler to reach 2000 kills in the LPL.
+* Reached 3000 assists in the LPL on March 14, 2024.
+** The 28th player to reach 3000 assists in the LPL.
+* Reached 4000 assists in the LPL on May 1, 2025.
+** The 20th player to reach 4000 assists in the LPL.
+* Reached 300 wins in the LPL on June 24, 2024.
+** The 20th player to reach 300 wins in the LPL.
+* Reached 400 wins in the LPL on August 23, 2025.
+** The 14th player to reach 400 wins in the LPL.
+* Reached 500 games in the LPL on March 1, 2025.
+** The 31st player to reach 500 games in the LPL.
+* Reached 600 games in the LPL on August 26, 2025.
+** The 21st player to reach 600 games in the LPL.
+
+=== Career Highlights and Awards ===
+* MSI Champion x2 (2023, 2026)
+* LPL Champion x5 (2020 Spring, 2022 Summer, 2023 Spring, 2023 Summer, 2025 Split 1)
+* LPL Regular Season MVP x2 (2020 Spring, 2025 Split 2)
+* LPL 1st All-Pro Team x7 (2020 Spring, 2020 Summer, 2022 Spring, 2023 Summer, 2024 Spring, 2025 Split 2, 2025 Split 3)
+* LPL 2nd All-Pro Team x2 (2022 Summer, 2023 Spring)
+* LPL 3rd All Pro Team x2 (2024 Summer, 2025 Split 1)
+{{PlayerStatsTrivia}}
+
+== Tournament Results ==
+{{PlayerResults|show=overviewpage}}
+
+{{PlayerShowmatchResults|show=overviewpage}}
+{{PlayerResults1v1|show=overviewpage}}
+== Media ==
+{{PlayerMedia}}
+=== Images ===
+{{PlayerProfileGallery}}
+
+{{PlayerPageEnd}}
