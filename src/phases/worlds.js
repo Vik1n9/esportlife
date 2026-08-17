@@ -16,8 +16,8 @@ import { LEAGUES } from '../data/leagues.js';
 import { FINISH_TO_SEED, WORLDS_RESULTS, worldsRuleOf } from '../data/formats/worlds.js';
 import { worldsSlotsOf } from '../data/regions/index.js';
 import { runGroup, runSwiss } from '../kernel/groups.js';
-import { opponentStrength } from '../kernel/strength.js';
 import { worldsSeed } from '../kernel/series.js';
+import { intlOpponent, oppLineupText, swissOpponent } from '../engine/opponents.js';
 import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { grantUnique, unlockTrait } from '../engine/progression.js';
@@ -32,10 +32,17 @@ import { runSeriesEvent } from './seriesEvent.js';
 
 export const kind = 'WORLDS';
 
-/** 世界賽的對手是各賽區的一號種子。基準比 MSI 再高一階。 */
-function intlOpponent(state, step, rng) {
-  const base = Math.max(LEAGUES[state.league]?.par ?? 66, 74);
-  return opponentStrength(base + step + bonus(state, 'worldsRoll') * -0.15 + rng.gauss(1.6));
+/**
+ * 世界賽的對手是各賽區的一號種子。基準比 MSI 再高一階。
+ *
+ * S29：階梯不變，對手改由 NPC 池實體化（§23.4）。地區資格賽走 `scope: 'playoff'`
+ * ——它是聯賽內賽事，選隊池是玩家賽區、排除自己的隊。
+ */
+function drawWorldsOpp(g, step, opts = {}) {
+  const { state, rng } = g;
+  return intlOpponent(state, rng, step, {
+    floor: 74, mod: bonus(state, 'worldsRoll') * -0.15, intlBoost: 0, ...opts,
+  });
 }
 
 /** 依當年制度算出賽區內的種子序。0 = 沒有名次。 */
@@ -101,11 +108,12 @@ export function* run(g) {
     yield* drawRoleplay(g, 'presser', { amp: 1.4, event: 'worlds' });
     // 生死戰是全遊戲壓力係數最高的場合（V4 §9.3／§11.1 都把它單獨列一行），
     // 五拍的 stakes 也給最高級——賽前與賽後的語氣跟著變重（V4 §15.4）
+    const gate = drawWorldsOpp(g, -2.5, { scope: 'playoff' });
     const res = yield* runSeriesEvent(g, {
       title: '地區資格賽 · BO5',
-      bo: 5, oppRating: intlOpponent(state, -2.5, rng), seed,
+      bo: 5, oppRating: gate.strength, seed,
       stakes: 'elimination', pressure: PRESSURE.elimination,
-      oppNote: '對手是賽區裡跟你爭最後一張門票的隊伍。',
+      oppNote: oppLineupText(gate) || '對手是賽區裡跟你爭最後一張門票的隊伍。',
     });
     recordIntlSeries(state, res);
     yield card(res.win ? 'good' : 'bad', '地區資格賽',
@@ -131,7 +139,7 @@ export function* run(g) {
 /* ---------------- 賽程 ---------------- */
 
 function* runTournament(g, rule, seed) {
-  const { state, rng } = g;
+  const { state } = g;
   const league = LEAGUES[state.league];
 
   // 入圍賽：非頂級賽區一律要打，頂級賽區的最後一個種子在 2017–2022 也要打
@@ -143,11 +151,12 @@ function* runTournament(g, rule, seed) {
       minor
         ? '賽區席位排在後段，主賽事之前要先打入圍賽。'
         : `第 ${seed} 種子從入圍賽打起。`);
+    const playIn = drawWorldsOpp(g, -3.75);
     const res = yield* runSeriesEvent(g, {
       title: '入圍賽 · BO5',
-      bo: 5, oppRating: intlOpponent(state, -3.75, rng), seed,
+      bo: 5, oppRating: playIn.strength, seed,
       stakes: 'intl', pressure: PRESSURE.intl,
-      oppNote: '對手是同樣從入圍賽打起的隊伍。',
+      oppNote: oppLineupText(playIn) || '對手是同樣從入圍賽打起的隊伍。',
     });
     recordIntlSeries(state, res);
     yield card(res.win ? 'good' : 'bad', '入圍賽',
@@ -166,10 +175,13 @@ function* runTournament(g, rule, seed) {
 /** 2012–2022：四隊小組雙循環，前二晉級 */
 function* groupStage(g, seed) {
   const { state, rng } = g;
-  const oppRatings = [0, 2.5, 5].map((s) => intlOpponent(state, s, rng));
-  const res = runGroup(state, rng, { oppRatings, seed });
+  const opps = [0, 2.5, 5].map((s) => drawWorldsOpp(g, s));
+  const res = runGroup(state, rng, { oppRatings: opps.map((o) => o.strength), seed });
   recordIntlGroup(state, res);
+  // 實體化對手帶隊名（§23.4 身分實體化）；匿名落回的那幾隊不列名
+  const named = opps.filter((o) => o.materialized).map((o) => o.teamName);
   yield card(res.advanced ? 'good' : 'bad', '世界賽小組賽',
+    (named.length ? `<span class="muted">對手：${named.join('、')}</span><br>` : '') +
     `六場循環戰 <b class="${res.advanced ? 'up' : 'dn'}">${res.wins}勝 ${res.losses}敗</b>。` +
     (res.note ? `${res.note}。` : '') +
     (res.advanced ? '晉級八強。' : '<b class="dn">小組止步</b>。'));
@@ -183,7 +195,12 @@ function* groupStage(g, seed) {
 function* swissStage(g, seed) {
   const { state, rng } = g;
   const par = Math.max(LEAGUES[state.league]?.par ?? 66, 74);
-  const res = runSwiss(state, rng, { par, seed });
+  // S29：Swiss 每輪的對手也走實體化（§23.4）——強度隨戰績的階梯不變，只是對手
+  // 換成該年 carry 最接近目標的 NPC 隊
+  const res = runSwiss(state, rng, {
+    par, seed,
+    oppOf: (wins, losses) => swissOpponent(state, rng, wins, losses),
+  });
   recordIntlGroup(state, res);
 
   const lines = res.rounds.map((r) =>
@@ -218,15 +235,18 @@ function* knockout(g, seed) {
     const isChamp = champ && !champMet && rng.chance(CHAMPION_ENCOUNTER[round.key]);
     if (isChamp) champMet = true;
 
+    // 衛冕者對決時對手身分歸 titleHistory 的冠軍（S20g），不吃實體化敘事——
+    // 兩個身分來源不能並存，冠軍優先
+    const opp = drawWorldsOpp(g, round.step + (isChamp ? CHAMPION_BONUS : 0));
     const res = yield* runSeriesEvent(g, {
       title: `世界賽${round.name} · BO5`,
       bo: 5,
-      oppRating: intlOpponent(state, round.step + (isChamp ? CHAMPION_BONUS : 0), rng),
+      oppRating: opp.strength,
       seed,
       stakes: round.key === 'final' ? 'final' : 'intl', pressure: PRESSURE.intl,
       oppNote: isChamp
         ? `對手是上屆世界冠軍 <b class="hl">${champ.team}</b>——擊敗他，你就是下一個世代的火炬手。`
-        : '對手是各賽區的一號種子。',
+        : (oppLineupText(opp) || '對手是各賽區的一號種子。'),
       oppTag: isChamp ? 'reigningChampion' : null,
       oppTitle: isChamp ? '衛冕者對決' : '',
     });

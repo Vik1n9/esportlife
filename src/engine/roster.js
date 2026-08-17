@@ -56,7 +56,7 @@ export function teamsOf(state, leagueKey) {
 /* ---------------- 隊友抽選 ---------------- */
 
 /** 主場賽區的史實聯賽名（GPL／LMS／PCS／LCP）——§23.6「同賽區池」的判準 */
-const HOME_REGIONS = ['GPL', 'LMS', 'PCS', 'LCP'];
+export const HOME_REGIONS = ['GPL', 'LMS', 'PCS', 'LCP'];
 
 /**
  * NPC 當年強度（§23.3）：`peak.rating × lifecycleFactor(當年年齡)`。

@@ -15,7 +15,7 @@
 import { LEAGUES } from '../data/leagues.js';
 import { MSI_RESULTS, msiRuleOf } from '../data/formats/msi.js';
 import { runGroup } from '../kernel/groups.js';
-import { opponentStrength } from '../kernel/strength.js';
+import { intlOpponent, oppLineupText } from '../engine/opponents.js';
 import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
@@ -33,10 +33,13 @@ export const kind = 'MSI';
  * **絕對地板 72（0–100 刻度，V4 §11.1 §17.2 三）是這一段的核心**：主場賽區 par 是
  * 66，所以一支主場冠軍隊踏進 MSI，對手基準立刻從 66 跳到 72——那六點的落差就是
  * 「國際賽會吃掉你」的全部來源。位置戰力差幾點在常規賽看不出來，在這裡就是輸贏。
+ *
+ * S29：階梯不變，對手改由 NPC 池實體化（§23.4）——選當年 carry 最接近階梯目標的
+ * 隊，強度從五人陣容聚合；陣容缺口落回匿名對手。
  */
-function intlOpponent(state, step, rng) {
-  const base = Math.max(LEAGUES[state.league]?.par ?? 66, 72);
-  return opponentStrength(base + step + bonus(state, 'intlRoll') * -0.15 + rng.gauss(1.6));
+function drawIntlOpp(g, step) {
+  const { state, rng } = g;
+  return intlOpponent(state, rng, step, { floor: 72, mod: bonus(state, 'intlRoll') * -0.15 });
 }
 
 export function* run(g, phase) {
@@ -83,11 +86,14 @@ export function* run(g, phase) {
 /** 2015–2022：四隊小組雙循環，前二晉級，之後 BO5 淘汰賽 */
 function* groupKnockout(g) {
   const { state, rng } = g;
-  const oppRatings = [0, 2, 4].map((s) => intlOpponent(state, s, rng));
+  const opps = [0, 2, 4].map((s) => drawIntlOpp(g, s));
 
-  const group = runGroup(state, rng, { oppRatings, seed: 0 });
+  const group = runGroup(state, rng, { oppRatings: opps.map((o) => o.strength), seed: 0 });
   recordIntlGroup(state, group);
+  // 實體化對手帶隊名（§23.4 身分實體化）；匿名落回的那幾隊不列名
+  const named = opps.filter((o) => o.materialized).map((o) => o.teamName);
   yield card(group.advanced ? 'good' : 'bad', 'MSI 小組賽',
+    (named.length ? `<span class="muted">對手：${named.join('、')}</span><br>` : '') +
     `六場循環戰 <b class="${group.advanced ? 'up' : 'dn'}">${group.wins}勝 ${group.losses}敗</b>。` +
     (group.note ? `${group.note}。` : '') +
     (group.advanced ? '晉級淘汰賽。' : '<b class="dn">小組止步</b>。'));
@@ -101,24 +107,25 @@ function* groupKnockout(g) {
  * 敗部那條線是重點——輸一場不會直接回家，這是雙敗制跟單淘汰最大的差別。
  */
 function* doubleElim(g) {
-  const { state, rng } = g;
-
+  const { state } = g;
+  const w1 = drawIntlOpp(g, 0);
   const first = yield* runSeriesEvent(g, {
     title: 'MSI 勝部首輪 · BO5',
-    bo: 5, oppRating: intlOpponent(state, 0, rng), seed: 0,
+    bo: 5, oppRating: w1.strength, seed: 0,
     stakes: 'intl', pressure: PRESSURE.intl,
-    oppNote: '對手是其他賽區的冠軍隊。',
+    oppNote: oppLineupText(w1) || '對手是其他賽區的冠軍隊。',
   });
   recordIntlSeries(state, first);
   yield card(first.win ? 'good' : 'bad', 'MSI 勝部',
     first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。');
 
   if (!first.win) {
+    const lb = drawIntlOpp(g, 1.25);
     const lower = yield* runSeriesEvent(g, {
       title: 'MSI 敗部 · BO5',
-      bo: 5, oppRating: intlOpponent(state, 1.25, rng), seed: 0,
+      bo: 5, oppRating: lb.strength, seed: 0,
       stakes: 'intl', pressure: PRESSURE.intl,
-      oppNote: '從敗部殺回來的路，每一場都是生死戰。',
+      oppNote: oppLineupText(lb) || '從敗部殺回來的路，每一場都是生死戰。',
     });
     recordIntlSeries(state, lower);
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部',
@@ -131,17 +138,18 @@ function* doubleElim(g) {
 
 /** BO5 淘汰賽。每一輪都是一個扮演路口——國際賽的鏡頭比聯賽多太多。 */
 function* knockout(g, rounds) {
-  const { state, rng } = g;
+  const { state } = g;
   for (let i = 0; i < rounds.length; i++) {
     const name = rounds[i];
     const isFinal = i === rounds.length - 1;
     if (isFinal) yield* drawRoleplay(g, 'intl', { amp: 1.6, event: 'msi' });
 
+    const opp = drawIntlOpp(g, 5 + i * 3);
     const res = yield* runSeriesEvent(g, {
       title: `MSI ${name} · BO5`,
-      bo: 5, oppRating: intlOpponent(state, 5 + i * 3, rng), seed: 0,
+      bo: 5, oppRating: opp.strength, seed: 0,
       stakes: isFinal ? 'final' : 'intl', pressure: PRESSURE.intl,
-      oppNote: '對手是其他賽區的冠軍隊。',
+      oppNote: oppLineupText(opp) || '對手是其他賽區的冠軍隊。',
     });
     recordIntlSeries(state, res);
 

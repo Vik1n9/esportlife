@@ -117,9 +117,33 @@ export async function run({ check, log, shared }) {
   mistakeVisibility({ check, log, runs });
   staminaRhythm({ check, gate, log, runs });
   eventExclusion({ check, gate });
+  opponentMaterialization({ check, log, runs });
   demoYear({ check, log });
 
   gate.report();
+}
+
+/* ---------------- 對手實體化率（S29，§23.4 不變式 2） ---------------- */
+
+/**
+ * MSI／世界賽 ≥ 90%、季後賽 ≥ 80% 是資料門檻不是平衡紅燈（§23.4 明文）——
+ * 低於門檻代表 NPC 池覆蓋不足，餵 S24 補抓與 S30 重校，所以這裡只量測打日誌，
+ * 不 check。S29 實測（160 段，業餘起點）：intl 37.6%、playoff 25.4%——
+ * 池太薄是主因（強度可算的 NPC 只有 389/938，完整五人陣容隊 2012–2030 共 53 支），
+ * 交接筆記已記，等資料補齊後這條會自然往上走。
+ */
+function opponentMaterialization({ log, runs }) {
+  const agg = { playoff: { draws: 0, materialized: 0 }, intl: { draws: 0, materialized: 0 } };
+  for (const { state } of runs) {
+    for (const k of ['playoff', 'intl']) {
+      agg[k].draws += state.oppFaces[k].draws;
+      agg[k].materialized += state.oppFaces[k].materialized;
+    }
+  }
+  for (const k of ['playoff', 'intl']) {
+    const rate = agg[k].draws ? (agg[k].materialized / agg[k].draws * 100).toFixed(1) : '—';
+    log(`對手實體化率 ${k} ${rate}%（${agg[k].materialized}/${agg[k].draws}，門檻 ${k === 'intl' ? 90 : 80}%，量測不硬紅）`);
+  }
 }
 
 /* ---------------- 巔峰上界（V4 §7.1 §10.2） ---------------- */

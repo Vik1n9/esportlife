@@ -1,3 +1,28 @@
+## [v4.7.4] - 2026-08-18
+
+### 逐選手對手模型上線（S29，§23.4）
+
+對手從聚合數字變成有隊名有先發的 NPC 隊伍——階梯表仍是對手水準的唯一來源，
+五人陣容是階梯水準的身分實體化。陣容缺口落回匿名對手（敘事不帶身分）。
+
+- **`src/engine/opponents.js`**（新）：`teamsInYear` 依 career 年表與 `active_years`
+  雙覆蓋建逐隊五人池（年代一致不變式長在入池條件裡）；選 carry 最接近階梯目標的
+  隊；強度＝`P_carry × 0.60 + 其餘四人均值 × 0.40 + starTerm(carry, 對手主場聯賽
+  par) + OPPONENT_SUPPORT_RESIDUAL`。
+- **`src/kernel/strength.js`**：拆出 `OPPONENT_SUPPORT_RESIDUAL`（3.5 起始，S30
+  擁有終值）與 `starTerm`（明星項純形式，兩邊共用）；匿名路仍走 `OPPONENT_SUPPORT` 9.0。
+- **消費端**：季後賽／MSI／世界賽（含入圍、Swiss、地區資格賽）逐對手實體化，
+  BO5 賽前敘事帶隊名與先發五人，小組卡列實體化隊名；常規賽維持匿名。
+- **`src/data/npc/teamIds.js`**（新）：玩家可加入隊名→NPC team_id 對映，選隊池
+  排除自己隊伍（聯賽內不自己打自己）。
+- **不變式**：年代一致（硬紅）、缺口落回不帶身分（`tests/kernel/opponents.mjs`）；
+  實體化率量測打日誌不硬紅（`regression/invariants.mjs`）。
+- **存檔**：新增 `oppFaces` 計數，SAVE_VERSION 25 → 26。
+- **基線偏移（交 S30）**：實體化對手平均比舊匿名弱 13.1 點（環節分解見交接筆記）
+  → 國際賽局勝率 53.1%→63.0%、世界冠軍人均 0.081→0.381、頂端落差 0.172→0.140
+  （比例制門檻全數未破，`npm test` 23675 項全綠）；實體化率 intl 37.6%／playoff
+  25.4%，池太薄餵 S24 補抓。
+
 ## [v4.7.3] - 2026-08-18
 
 ### 隊友接 NPC 池（S28，§23.6）

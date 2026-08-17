@@ -49,15 +49,19 @@ export function runGroup(state, rng, { oppRatings, advance = 2, seed = 0 }) {
  * 好看的原因：不會有「小組死亡之組」這種抽籤決定的不公平。
  *
  * @param {number} par 賽區平均強度，用來推對手
+ * @param {function} [oppOf] S29：逐選手對手模型的對手函式 `(wins, losses) → { strength }`。
+ *   不給時走舊的匿名階梯（par ＋ 淨勝場 ×2 ＋ 擺動），kernel 測試不依賴 NPC 池
  * @returns {{rounds:object[], wins:number, losses:number, advanced:boolean}}
  */
-export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesToExit = 3 }) {
+export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesToExit = 3, oppOf }) {
   const rounds = [];
   let wins = 0; let losses = 0;
 
   while (wins < winsToAdvance && losses < lossesToExit) {
     // 戰績越好對手越強：+2.0 點 / 淨勝場（舊 1.6 × 1.25，§17.2 三）
-    const oppRating = opponentStrength(par + (wins - losses) * 2.0 + rng.gauss(1.5));
+    const oppRating = oppOf
+      ? oppOf(wins, losses).strength
+      : opponentStrength(par + (wins - losses) * 2.0 + rng.gauss(1.5));
     // 晉級局與淘汰局打 BO3，其餘 BO1——2023 起的實際規則
     const decisive = wins === winsToAdvance - 1 || losses === lossesToExit - 1;
     const bo = decisive ? 3 : 1;

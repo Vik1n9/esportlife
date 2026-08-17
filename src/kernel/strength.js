@@ -37,6 +37,11 @@ export function parOf(state) {
  * 對手的支援值：把 §11.1 階梯表的「對手水準」換算成可以跟 `teamStrength` 相減的
  * 「對手隊伍強度」。
  *
+ * S29 逐選手對手模型上線後（§23.4），對手強度分兩條路：**實體化對手**（陣容完整的
+ * NPC 隊）強度從五人陣容現算，常數只剩教練／體力殘項（`OPPONENT_SUPPORT_RESIDUAL`，
+ * 見下）；**匿名對手**（常規賽與陣容缺口年份的落回）仍走這個常數——
+ * 「對手也是一支隊」的錯位校正一點沒變。
+ *
  * ⚠ **這不是憑空多出來的加碼，是把兩邊的單位對齊。** §11.1 的對手強度階梯是 `par`
  * 系的數字，而 `par` 的定義是「該聯賽**先發平均教練評價**」——那是**一個選手**的水準。
  * 我們這邊的 `teamStrength` 卻是一支隊的強度（含教練、體力、明星項）。直接相減等於
@@ -78,6 +83,18 @@ export function parOf(state) {
 export const OPPONENT_SUPPORT = 9.0;
 
 /**
+ * 實體化對手的教練／體力殘項（§23.4，S29 落地）。
+ *
+ * 上面那個 9.0 的推導拆成三項：對手教練／體力 **3.5** ＋ 隱性對手明星 **3.56** ＋
+ * carry 份額 **2.0**。實體化之後後兩項由陣容現算——明星項走 `starTerm` 對對手主場
+ * 聯賽 par 顯式計算，carry 份額就是聚合式裡 `P_carry × 0.60` 那一項——常數只剩 3.5。
+ *
+ * ⚠ **3.5 是起始值不是定案**（§23.4 明文）——最終值由 S30 的 160 段重校擁有。
+ * S12 的乘法鏈警告繼續適用：動 `positionPower` 乘法項的站要回來重推它。
+ */
+export const OPPONENT_SUPPORT_RESIDUAL = 3.5;
+
+/**
  * 把階梯表的對手水準換成可以跟 `teamStrength` 相減的隊伍強度。
  * 所有「拿階梯值當對手」的地方都要走這裡，否則就是拿一個選手比一支隊。
  */
@@ -102,7 +119,18 @@ export function opponentStrength(ladderRating) {
  * 更糟）。§11.1 寫 par 是對的。
  */
 export function starEffect(state, power) {
-  const over = Math.max(0, power - parOf(state));
+  return starTerm(power, parOf(state));
+}
+
+/**
+ * 明星項的純形式（§11.1）：`min(6.0, 0.06 × max(0, P − par)^1.35)`。
+ *
+ * S29 把對手側明星項顯式化（§23.4）：實體化對手的主 carry 用同一條公式對
+ * **對手主場聯賽 par** 計算——明星項一邊一個，不另設第三個機制。玩家側照舊走
+ * `starEffect`（讀所在聯賽 par），所以拆成這個吃 par 的純函式，兩邊共用。
+ */
+export function starTerm(power, par) {
+  const over = Math.max(0, power - par);
   return Math.min(6.0, 0.06 * (over ** 1.35));
 }
 

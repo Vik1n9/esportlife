@@ -11,15 +11,17 @@
  * 種子序換算（`splitSeed`／`worldsSeed`／`pointsFor`）刻意跟系列賽放同一個檔：那些
  * 門檻是平衡數值，改它的時候一定同時在看系列賽邏輯，拆開只會多開一個檔。
  *
+ * ⚠ S29 起對手的「選隊目標水準」（§11.1 階梯）搬到 `engine/opponents.js`——
+ * 逐選手對手模型要在目標上接 NPC 選隊，階梯目標與選隊不能拆兩處。
+ *
  * 這裡不 yield beat，只回傳結果，敘事與選擇留給 phases 組裝。
  */
 import { clamp } from '../core/rng.js';
-import { LEAGUES } from '../data/leagues.js';
 import { CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/formats/playoffs.js';
 import { clutchBonus, underdogBonus } from '../engine/mental.js';
 import { PRESSURE, DECIDER_PRESSURE } from '../engine/psych.js';
 import { seriesDeaths } from '../engine/season.js';
-import { opponentStrength, teamStrength } from './strength.js';
+import { teamStrength } from './strength.js';
 import { bonus } from './modifiers.js';
 
 /**
@@ -74,22 +76,6 @@ export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE
   // 被拖進決勝局，壓力不是線性疊加的——整輪一起往上調
   const deaths = seriesDeaths(state, rng, games.length, pressure * (decider ? DECIDER_PRESSURE : 1));
   return { win: mine > theirs, mine, theirs, games, decider, deaths };
-}
-
-/**
- * 對手強度：越後面的輪次對手越強，種子序越差遇到的越硬。
- *
- * 三個加成是 V4 §11.1 的季後賽階梯（0–100 刻度）：八強 +2 ／四強 +4.5 ／決賽 +7.5，
- * 種子序懲罰 `(種子−1) × 1.5`，每場擺動 `gauss(1.5)`。全部是舊值 ×1.25——它們是
- * 寬度量（幾點的差距），跟門檻一樣吃刻度。
- */
-export function opponentRating(state, roundKey, seed, rng) {
-  const par = LEAGUES[state.league]?.par ?? 66;
-  const step = roundKey === 'final' ? 7.5 : roundKey === 'semi' ? 4.5 : 2;
-  const seedPenalty = (seed - 1) * 1.5;
-  // 階梯給的是對手的選手水準；`gameChance` 拿它跟含教練與體力的 `teamStrength` 相減，
-  // 所以要先補回同一份支援（見 kernel/strength.js 的 OPPONENT_SUPPORT）
-  return opponentStrength(par + step + seedPenalty + rng.gauss(1.5));
 }
 
 /**

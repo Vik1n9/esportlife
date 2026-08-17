@@ -49,7 +49,10 @@ import { teamsOf } from './roster.js';
 // v25：隊友接 NPC 池（S28，§23.6）。`state.mates` 每項從 `{ name, rating }` 擴充為
 // `{ npcId|null, name, position, rating }`——職業期隊友存 NPC 引用（`npcId` 為
 // player_id），業餘期與合成隊友為 null。舊存檔缺 npcId／position 欄位，故作廢
-export const SAVE_VERSION = 25;
+// v26：對手實體化計數（S29，§23.4）。新增 oppFaces（對手抽選與實體化計數，
+// 季後賽與國際賽各一格）——§23.4 實體化率量測的讀點。舊存檔缺這欄會讀成
+// undefined 讓計數報錯，故作廢
+export const SAVE_VERSION = 26;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -273,6 +276,10 @@ export function createState({ name, role, seed, stage = 'PRO' }) {
      * 玩家從這個落差反推自己的抗壓。高抗壓的人兩格幾乎持平，低抗壓的人會拉開。
      */
     deathLog: { regular: { G: 0, D: 0 }, pressure: { G: 0, D: 0 } },
+
+    // 對手抽選計數（S29，§23.4）：實體化率的讀點。季後賽與國際賽分開量
+    // （MSI／世界賽門檻 ≥ 90%、季後賽 ≥ 80%，量測不硬紅）
+    oppFaces: { playoff: { draws: 0, materialized: 0 }, intl: { draws: 0, materialized: 0 } },
 
     // 賽段制：一年拆成 1～3 個賽段，各自結算與季後賽
     splitLog: [],            // 該年各賽段的 {name, stat, finish}

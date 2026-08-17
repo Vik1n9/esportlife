@@ -14,8 +14,9 @@ import { accumulate, formatStatLine, mergeSplits, simulateSeason } from '../engi
 import { currentLeagueKey, stageLabel } from '../engine/roster.js';
 import { unlockTrait } from '../engine/progression.js';
 import {
-  entryRound, opponentRating, playoffBerth, pointsFor, roundsFrom, splitSeed,
+  entryRound, playoffBerth, pointsFor, roundsFrom, splitSeed,
 } from '../kernel/series.js';
+import { oppLineupText, playoffOpponent } from '../engine/opponents.js';
 import { drawRoleplay, fusionBeats, kinded } from './shared.js';
 const card = kinded('match');
 import { runSeriesEvent } from './seriesEvent.js';
@@ -96,18 +97,21 @@ function* playoffs(g, split, stat, splitCount) {
     // 每一輪都問一次的話，一年會被問到九次，該有的重量就沒了
     if (round === rounds[0] || round.key === 'final') yield* drawRoleplay(g, 'presser');
 
-    const oppRating = opponentRating(state, round.key, seed, rng);
+    // S29：對手由 NPC 池實體化（§23.4）。階梯目標＝par＋輪次遞增＋種子序懲罰
+    // ＋擺動，選當年 carry 最接近的隊；陣容缺口落回匿名對手（敘事不帶身分）
+    const opp = playoffOpponent(state, rng, round.key, seed);
     // 五拍：賽前敘事 → 備賽戰術 → 結算 → 比分 → 賽後。決賽的壓力係數比前面幾輪高
     // （V4 §9.3）——抗壓低的人會在這裡把陣亡數交出來
     const res = yield* runSeriesEvent(g, {
       title: `${round.name} · BO${round.bo}`,
       bo: round.bo,
-      oppRating,
+      oppRating: opp.strength,
       seed,
       stakes: round.key === 'final' ? 'final' : 'playoff',
-      oppNote: seed === 1 ? '對上一路殺上來的黑馬'
-        : seed === 2 ? '對上實力相當的對手'
-        : '對上種子序更前的隊伍',
+      oppNote: oppLineupText(opp)
+        || (seed === 1 ? '對上一路殺上來的黑馬'
+          : seed === 2 ? '對上實力相當的對手'
+            : '對上種子序更前的隊伍'),
     });
 
     if (!res.win) { reached = round.key; break; }
