@@ -16,12 +16,13 @@ import { createState } from '../../src/engine/state.js';
 import { Rng } from '../../src/core/rng.js';
 import { EVENT_CARDS } from '../../src/data/events.js';
 import {
-  applyEventMarks, bumpEventCounters, clearEventFlags, eventTrigger,
-  recordEventTrigger, setEventFlags,
+  ANNUAL_FLAG_PREFIX, applyEventMarks, bumpEventCounters, clearEventFlags, eventTrigger,
+  rearmAnnualEventFlags, recordEventTrigger, setEventFlags,
 } from '../../src/engine/eventTrigger.js';
 import { eventCountOf, eventFlagOn } from '../../src/engine/ledger.js';
 import { evalCond } from '../../src/engine/conditions.js';
 import { drawEvent } from '../../src/phases/shared.js';
+import { driveUntil } from '../lib/harness.mjs';
 import { condFlagReads, validateEventCard } from '../../tools/schema.js';
 
 export const name = '連續事件：觸發旗標與計數（§12.2）';
@@ -113,6 +114,64 @@ export async function run({ check, log }) {
     const s2 = fresh();
     applyEventMarks(s2, { clearFlags: ['k'] }, { setFlags: ['k'] });
     check('同批同鍵：亮贏熄', eventFlagOn(s2, 'k'));
+  }
+
+  /* ---- 年度閂：前綴 annual_ 的旗標年初重新上膛 ---- */
+  {
+    const s = fresh();
+    setEventFlags(s, ['annual_slump_done', 'career_once_done', 'chain_stage1']);
+    bumpEventCounters(s, ['solo_queue']);
+    const cleared = rearmAnnualEventFlags(s);
+    check('年度旗標被清掉', !eventFlagOn(s, 'annual_slump_done'));
+    check('一次生涯一次的閂不受影響', eventFlagOn(s, 'career_once_done'));
+    check('連鎖中段的旗標不受影響（跨年的連鎖不會被打斷）', eventFlagOn(s, 'chain_stage1'));
+    check('回傳被清掉的鍵（呼叫端要記 log）', cleared.join() === 'annual_slump_done', cleared.join());
+    check('計數不受年度重置影響（生涯累計的軌跡）', eventCountOf(s, 'solo_queue') === 1);
+
+    const legacy = fresh();
+    delete legacy.eventFlags;
+    check('缺欄位的舊存檔重新上膛不炸', rearmAnnualEventFlags(legacy).length === 0);
+
+    // 前綴是唯一的開關：`ANNUAL_FLAG_PREFIX` 變了，資料端的鍵也要跟著變
+    check('真池的年度閂都用得到這個前綴',
+      EVENT_CARDS.some((c) => marksOf(c, 'setFlags').some((k) => k.startsWith(ANNUAL_FLAG_PREFIX))));
+  }
+
+  /* ---- 年度閂接進年界：一年一次，不是一輩子一次 ---- */
+  {
+    // 走真的 careerFlow：守的是 `engine/game.js` 的 `yearOpen` 有沒有真的呼叫重新
+    // 上膛。用探針旗標而不是 slump 本人——slump 要不要出得看那一局的抗壓走勢，
+    // 拿它當斷言就是拿隨機當斷言
+    const s = createState({ name: 'YR', role: 'MID', seed: 'chain:year', stage: 'AMATEUR' });
+    setEventFlags(s, ['annual_probe_done', 'career_probe_done']);
+    const startYear = s.year;
+    driveUntil(s, new Rng('chain:year'), {
+      stop: (st) => st.year > startYear,
+      answer: (beat) => beat.options[0].id,
+    });
+    check('跨年後年度旗標已重新上膛（年界真的有接）', !eventFlagOn(s, 'annual_probe_done'));
+    check('跨年後一次生涯一次的閂還在', eventFlagOn(s, 'career_probe_done'));
+  }
+
+  /* ---- 年度閂的效果：同年至多一次，跨年可以再來 ---- */
+  {
+    const s = fresh({ age: 22 });
+    s.mental.comp = 30;                       // 低抗壓＝季中低潮的條件恆真
+    const slump = EVENT_CARDS.find((c) => c.id === 'slump');
+    const perYear = [];
+    for (let year = 0; year < 3; year++) {
+      rearmAnnualEventFlags(s);               // 年初（engine/game.js 的 yearOpen）
+      let hits = 0;
+      for (let month = 2; month <= 9; month++) {
+        if (!evalCond(s, slump.when)) continue;
+        playCard(s, slump, { pickId: 'reset', seed: `chain:slump:${year}:${month}` });
+        hits++;
+      }
+      perYear.push(hits);
+    }
+    check('年度閂：同一年最多出一次', perYear.every((n) => n <= 1), perYear.join('／'));
+    check('年度閂：每一年都上得了膛（不是一輩子一次）', perYear.every((n) => n === 1), perYear.join('／'));
+    check('逐卡計數跨年累加（門檻讀得到整段生涯）', eventCountOf(s, 'slump') === 3, eventCountOf(s, 'slump'));
   }
 
   /* ---- 條件語言：eventFlag／eventCount 兩個節點 ---- */

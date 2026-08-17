@@ -325,7 +325,7 @@ export const SCHEMAS = {
             { key: 'flags', label: '旗標', type: 'multienum', options: FLAG_KEYS, labels: FLAG_LABELS, optional: true },
             // 連續事件（§12.2）：選了就記，不論成敗。寫在結果上才是「走到那個結局才記」
             { key: 'setFlags', label: '點亮事件旗標', type: 'keys', optional: true, suggest: EVENT_FLAG_KEYS,
-              hint: '下一段卡的 when 用 [eventFlag, 鍵] 讀得到，跨月保留' },
+              hint: '下一段卡的 when 用 [eventFlag, 鍵] 讀得到，跨月保留；鍵帶 annual_ 前綴＝年度閂（年初重新上膛）' },
             { key: 'clearFlags', label: '熄滅事件旗標', type: 'keys', optional: true, suggest: EVENT_FLAG_KEYS,
               hint: '一段連鎖走完一定要熄——條件卡不受防重擋，亮著就月月霸佔事件一' },
             { key: 'counters', label: '具名計數 +1', type: 'keys', optional: true, suggest: EVENT_COUNT_KEYS,

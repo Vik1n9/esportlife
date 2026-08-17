@@ -33,6 +33,7 @@ import { MONTHS_PER_YEAR, calendarFor } from './calendar.js';
 import { DEMO_MONTHS, demoExpiring, demoStartYear, isDemo } from './demo.js';
 import { careerTier, tierName } from './career.js';
 import { disbandNoteFor, renewalTerms, signContract } from './market.js';
+import { rearmAnnualEventFlags } from './eventTrigger.js';
 import { driftMental } from './mental.js';
 import { applyLifecycleDecline } from './lifecycle.js';
 import { lookupTrait } from '../kernel/modifiers.js';
@@ -237,6 +238,9 @@ function* yearOpen(g) {
   state.tempInjuryRisk = 0;
   state.wonPlayoffThisYear = false;
   state.wonWorldsThisYear = false;
+  // 年度事件旗標重新上膛（§12.2）：前綴 `annual_` 的閂一年一次，其餘旗標
+  // （連鎖的中段、一次生涯一次的閂）不動。計數永遠不清——它是生涯累計的軌跡
+  rearmAnnualEventFlags(state);
   state.lastDelta = state.lastDelta || 0;
 
   // 生命週期衰退：曲線過峰後，屬性值被往下拉（§7.2 的衰退跟隨）。

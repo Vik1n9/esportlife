@@ -276,6 +276,36 @@ export function clearEventFlags(state, keys) {
   for (const k of keys) delete state.eventFlags[k];
 }
 
+/**
+ * **年度旗標的前綴**：以它開頭的旗標在年初重新上膛（`engine/game.js` 的 `yearOpen`
+ * 呼叫 `rearmAnnualEventFlags`）。
+ *
+ * 閂有兩種壽命，差別只在鍵怎麼取名——不另開欄位，也不維護第二張表：
+ *
+ *   `xxx_done`         一次生涯一次（旗標永遠不熄）
+ *   `annual_xxx_done`  一年一次（年初清掉，下一年重新來過）
+ *
+ * 「季中低潮」該是每個賽季都可能發生的事，但同一年裡月月重播就成了背景音——
+ * 年度閂正是這兩件事之間的那條線。前綴當開關而不是加一個 `annualFlags` 欄位，
+ * 是因為旗標本來就只有一個存放處，多一個欄位就多一種「寫進哪一格」的錯法。
+ */
+export const ANNUAL_FLAG_PREFIX = 'annual_';
+
+/**
+ * 年初重新上膛：清掉所有年度旗標（前綴 `annual_`），其餘旗標原封不動。
+ *
+ * ⚠ 只清旗標不清計數——計數是生涯累計的軌跡（「這件事你這輩子幹過幾次」），
+ * 年度歸零會讓「觸發 N 次後」的門檻永遠到不了。
+ *
+ * @returns {string[]} 這次被清掉的旗標鍵（呼叫端要記 log 或出 beat 時用）
+ */
+export function rearmAnnualEventFlags(state) {
+  if (!state.eventFlags) return [];
+  const cleared = Object.keys(state.eventFlags).filter((k) => k.startsWith(ANNUAL_FLAG_PREFIX));
+  for (const k of cleared) delete state.eventFlags[k];
+  return cleared;
+}
+
 /** 具名計數 +1（同一張卡宣告兩次同鍵就 +2，寫卡的人自己負責） */
 export function bumpEventCounters(state, keys) {
   if (!keys || !keys.length) return;
