@@ -307,6 +307,18 @@ export async function run({ check, log }) {
     const phantom = [...readCounts].filter((k) => !cardIds.has(k) && !counterKeys.has(k));
     check('被讀的計數鍵都數得到（不是永遠 0）', phantom.length === 0, phantom.join('／'));
 
+    /* 特質條件卡一定要上閂。`['has', 階, 鍵]` 一旦成立就**永遠**成立（特質不會失去），
+     * 而條件卡不受防重擋——沒有閂的卡從玩家拿到那個特質的月份起月月都是事件一
+     * （上閂前實測：`clip_meme` 144/240，帶三特質的局 `enemy_taunt` 199/240）。
+     * 閂＝`when` 裡有一個反向旗標讀（`not eventFlag`），選項負責點亮它。 */
+    const hasNode = (n) => (Array.isArray(n)
+      ? (n[0] === 'has' || n.slice(1).some(hasNode))
+      : false);
+    const unlatched = EVENT_CARDS
+      .filter((c) => hasNode(c.when) && !condFlagReads(c.when).negative.length)
+      .map((c) => c.id);
+    check('特質條件卡都上了閂（不會月月霸佔事件一）', unlatched.length === 0, unlatched.join('／'));
+
     // 編輯器的單卡驗證跟引擎同一套規則：真池每一張都要過
     const failed = [];
     for (const c of EVENT_CARDS) {
@@ -333,15 +345,16 @@ export async function run({ check, log }) {
       }
     }
     const [topId, topCount] = [...seen.entries()].sort((a, b) => b[1] - a[1])[0];
-    // 連鎖卡自己收束得掉：每一張出場都遠低於月份數（旗標熄得掉、閂上得了）。
-    // ⚠ 門檻只管連鎖卡：真池裡**既有的特質條件卡**（`clip_meme`／`enemy_taunt`／
-    // `stream_meltdown`）沒有收束機制——特質是永久持有，條件永遠命中，一旦拿到
-    // 那個特質它就月月是事件一（本次冒煙量到 clip_meme 144/240）。那是 S20f 就
-    // 存在的行為，與本站的旗標機制無關，修法是給它們上閂或加冷卻，屬內容站範圍
+    // 連鎖卡自己收束得掉：每一張出場都遠低於月份數（旗標熄得掉、閂上得了）
     const CHAIN_CARDS = ['tampering_meeting', 'tampering_leak', 'soloq_legend'];
     const hogging = CHAIN_CARDS.filter((id) => (seen.get(id) ?? 0) > 24);
     check('連鎖卡收束得掉（各自 ≤ 10% 的月份）', hogging.length === 0,
       hogging.map((id) => `${id} ${seen.get(id)}/240`).join('／'));
+    /* 條件卡全數上閂之後，出卡分布是平的：最常出的卡也只佔 6%（上閂前
+     * `clip_meme` 144/240、`slump` 129/240、帶三特質的局 `enemy_taunt` 199/240）。
+     * 門檻放在 15% 而不是貼著實測值——它守的是「沒有卡霸佔」這件事，不是某個種子
+     * 的確切數字，內容增減不該讓它假紅。 */
+    check('沒有任何一張卡霸佔月份（≤ 15%）', topCount <= 36, `${topId} ${topCount}/240`);
     check('逐卡計數與實際出場次數一致',
       [...seen.entries()].every(([id, n]) => eventCountOf(s, id) === n),
       [...seen.entries()].filter(([id, n]) => eventCountOf(s, id) !== n).map(([id]) => id).join('／'));

@@ -226,12 +226,16 @@ export const EVENT_CARDS = [
     good: { text: '代言商演安排得宜，名氣跟收入一起起飛', attr: { vit: 1 }, flags: { popular: true, bonusSalary: 120 } },
     bad:  { text: '代言通告排太滿，訓練量直接歸零，被嘴「廣告選手」', attr: { tec: -2, vit: -1 } } },
 
-  { id: 'slump', name: '季中低潮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['amateur', 'am2', 'regular'], excl: 'solo_slump', when: ['stat', 'comp', 'lte', 40], priority: 4,
+  /* ⚠ 上閂的理由與特質條件卡同一個（§12.2）：抗壓（comp）掉下去之後很少自己回來，
+   * `comp ≤ 40` 因此是**實質永久**的條件——上閂前實測 129/240 個月都是這張卡。
+   * 這裡的閂是「一次生涯一次」：低潮的敘事張力來自它是個轉折點，月月重播就成了背景音；
+   * 反覆的壓力內容由 `losing_streak`／`hype_backlash`／`clutch_anxiety` 那批隨機池卡承接。 */
+  { id: 'slump', name: '季中低潮', kind: 'normal', pool: ['psych'], sub: 'pressure', slot: ['amateur', 'am2', 'regular'], excl: 'solo_slump', when: ['and', ['stat', 'comp', 'lte', 40], ['not', ['eventFlag', 'slump_done']]], priority: 4,
     prompt: '連續幾週怎麼打都不對，鏡頭掃到你的臉，論壇已經在喊換人了。',
     options: [
-      { id: 'fight', label: '硬扛，加練到打回來為止', odds: 44, gain: 2.2, loss: 1.3 },
-      { id: 'reset', label: '請幾天假，把腦袋清空', odds: 58, gain: 1, loss: 1, main: true },
-      { id: 'bench', label: '主動要求輪替，先坐板凳', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'fight', label: '硬扛，加練到打回來為止', odds: 44, gain: 2.2, loss: 1.3, setFlags: ['slump_done'] },
+      { id: 'reset', label: '請幾天假，把腦袋清空', odds: 58, gain: 1, loss: 1, main: true, setFlags: ['slump_done'] },
+      { id: 'bench', label: '主動要求輪替，先坐板凳', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['slump_done'] },
     ],
     good: { text: '靠自己把低潮挺過去，心態反而更穩了', attr: { dec: 1, vit: 1 }, flags: { composure: true } },
     bad:  { text: '季中低潮拖了一個月，狀態一路探底', attr: { tec: -2, agi: -1, vit: -1 }, flags: { tiltRisk: true } } },
@@ -284,12 +288,16 @@ export const EVENT_CARDS = [
     good: { text: '整夜泡在自訂房，版本細節摸得透透的，被喊「人形外掛」', attr: { tec: 2 }, flags: { grinder: true } },
     bad:  { text: '練到靈魂出竅，隔天團練反應全沒，教練唸到爆', attr: { agi: -2, vit: -1 } } },
 
-  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['amateur', 'am2', 'regular'], excl: 'media', when: ['has', 'common', 'meme'], priority: 4,
+  /* ⚠ 特質條件卡要上閂（§12.2 連續事件）：`持有 meme` 一旦成立就**永遠**成立
+   * （特質不會失去），而條件卡不受防重機制擋——沒有閂的話，玩家拿到梗王的那個月起
+   * 這張卡月月都是事件一（實測 240 個月出 144 次）。閂＝`not 自己的完成旗標`＋
+   * 每個選項點亮它，一次性門檻的標準寫法。 */
+  { id: 'clip_meme', name: '梗圖爆紅', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['amateur', 'am2', 'regular'], excl: 'media', when: ['and', ['has', 'common', 'meme'], ['not', ['eventFlag', 'clip_meme_done']]], priority: 4,
     prompt: '你昨天那波「開秀」被剪成短片，梗圖跟「○○傳奇」的標題刷滿全網。流量來了，斷章取義也來了。',
     options: [
-      { id: 'ride', label: '順勢玩梗，流量全吃', odds: 42, gain: 2.2, loss: 1.3 },
-      { id: 'calm', label: '回應得體，不跟著起舞', odds: 58, gain: 1, loss: 1, main: true },
-      { id: 'lie', label: '低調不回應，讓它自己退燒', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'ride', label: '順勢玩梗，流量全吃', odds: 42, gain: 2.2, loss: 1.3, setFlags: ['clip_meme_done'] },
+      { id: 'calm', label: '回應得體，不跟著起舞', odds: 58, gain: 1, loss: 1, main: true, setFlags: ['clip_meme_done'] },
+      { id: 'lie', label: '低調不回應，讓它自己退燒', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['clip_meme_done'] },
     ],
     good: { text: '你帶頭玩自己的梗，全網跟風，人氣一波起飛', attr: { syn: 1 }, flags: { meme: true, popular: true } },
     bad:  { text: '梗越玩越歪，被解讀成自大，風向回頭咬你', attr: { dec: -1, vit: -1 } } },
@@ -334,12 +342,13 @@ export const EVENT_CARDS = [
     good: { text: '你閃現進場秒懲戒搶下巴龍，全場暴動，賽評喊破喉嚨', attr: { dec: 1, agi: 1 }, flags: { clutch: true } },
     bad:  { text: '搶龍失敗全隊陪葬，賽後被「打野差距」刷屏', attr: { dec: -2 } } },
 
-  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular'], excl: 'media', when: ['has', 'common', 'trashtalk'], priority: 5,
+  // 上閂同 `clip_meme`：`持有 trashtalk` 是永久條件，沒有閂就月月霸佔事件一
+  { id: 'enemy_taunt', name: '賽前互嗆', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular'], excl: 'media', when: ['and', ['has', 'common', 'trashtalk'], ['not', ['eventFlag', 'enemy_taunt_done']]], priority: 5,
     prompt: '對手在採訪裡放話「今年會把你們打回原形」，底下留言一片揶揄。鏡頭轉到你，等你接招。',
     options: [
-      { id: 'clap', label: '火力全開回嗆', odds: 42, gain: 2.2, loss: 1.3 },
-      { id: 'polite', label: '官腔帶過，不上鉤', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'mute', label: '沉默是金，不回應', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'clap', label: '火力全開回嗆', odds: 42, gain: 2.2, loss: 1.3, setFlags: ['enemy_taunt_done'] },
+      { id: 'polite', label: '官腔帶過，不上鉤', odds: 60, gain: 1, loss: 1, main: true, setFlags: ['enemy_taunt_done'] },
+      { id: 'mute', label: '沉默是金，不回應', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['enemy_taunt_done'] },
     ],
     good: { text: '你一句「打過才知道」直接圈粉，賽前氣勢拉滿', attr: { syn: 1, dec: 1 }, flags: { trashtalk: true } },
     bad:  { text: '回嗆被剪成音檔，比賽又輸了，反噬比話還快', attr: { dec: -2, vit: -1 } } },
@@ -538,12 +547,13 @@ export const EVENT_CARDS = [
     good: { text: '你們聊了一晚，你重新想起打職業的初衷，隔天訓練特別有勁', attr: { syn: 1 }, mental: { conf: 2, drive: 1 } },
     bad:  { text: '你被私訊內容觸動，開始患得患失，怕讓粉絲失望，壓力變大', attr: { vit: -1 }, mental: { comp: -2 } } },
 
-  { id: 'stream_meltdown', name: '直播翻車', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media', when: ['has', 'common', 'tilt'], priority: 4,
+  // 上閂同 `clip_meme`：`持有 tilt` 是永久條件，沒有閂就月月霸佔事件一
+  { id: 'stream_meltdown', name: '直播翻車', kind: 'normal', pool: ['persona'], sub: 'media', slot: ['regular', 'offseason'], excl: 'media', when: ['and', ['has', 'common', 'tilt'], ['not', ['eventFlag', 'stream_meltdown_done']]], priority: 4,
     prompt: '直播時遊戲崩潰，你把鍵盤砸了，畫面全程沒關——三百萬人看你失控。',
     options: [
-      { id: 'apologize', label: '開誠布公道歉，好好解釋', odds: 56, gain: 1.5, loss: 1 },
-      { id: 'joke', label: '自嘲帶過，說這只是效果', odds: 60, gain: 1, loss: 1, main: true },
-      { id: 'silent', label: '不回應，讓風波自己過去', odds: 78, gain: 0.5, loss: 0.5, traits: false },
+      { id: 'apologize', label: '開誠布公道歉，好好解釋', odds: 56, gain: 1.5, loss: 1, setFlags: ['stream_meltdown_done'] },
+      { id: 'joke', label: '自嘲帶過，說這只是效果', odds: 60, gain: 1, loss: 1, main: true, setFlags: ['stream_meltdown_done'] },
+      { id: 'silent', label: '不回應，讓風波自己過去', odds: 78, gain: 0.5, loss: 0.5, traits: false, setFlags: ['stream_meltdown_done'] },
     ],
     good: { text: '你坦率承認情緒管理不好，粉絲反而更挺你，說你夠真實', attr: { syn: 2 }, mental: { resl: 2 }, flags: { composure: true } },
     bad:  { text: '「脾氣差」的標籤貼上了，俱樂部下達直播禁令，贊助商也來關切', attr: { syn: -2, vit: -1 }, mental: { comp: -2 } } },
