@@ -1,5 +1,43 @@
 # WORKLOG — 電競人生（esportlife）
 
+## 2026-08-17 — S24c 返工：split 頁名冊涵蓋全參賽隊，收隊規則只收冠軍隊就是漏
+
+- **方向**：S25 清洗時 118 隊在 `team_history.json` 找不到 `team_id`，262 名 CSV
+  選手、431 人次受影響，S25 暫停等 S24c 補隊。根因：S24c 收隊只收「Worlds/MSI
+  參賽隊＋split 冠軍隊」兩類，但 **split 頁 TeamCard 涵蓋該季全部參賽隊**——不只
+  冠軍隊。例：ThunderTalk Gaming（LPL 2023–2025）從沒奪冠、沒打 Worlds/MSI，
+  完全漏掉，`1xn`（TW 選手）的 LPL 年份全部丟失。返工把枚舉源擴充為「teams_intl.txt
+  ∪ 全部已抓賽事頁 TeamCard 隊名 ∪ EXTRA_TEAMS」。
+
+- **實作**：`gen-team-history-intl.mjs` 三處擴充——(1) 枚舉源含 `events_twhkmo.txt`
+  （LMS/PCS/LCP/GPL 外賽區隊，如 Berjaya Dragons、Hong Kong Esports）；
+  (2) `ABBREVIATIONS_INTL` 補電競圈已知縮寫（TT/UP/AL/V5/RW/RA/XL/S04/ROC/CJ/
+  CJB/CJF/MVP/SB/HKE/BOOM/GZ/KC/TH…）；(3) `NAME_ALIASES` 收姊妹隊／更名前身
+  頁題（SKT K/S、KT Bullets、Jin Air Falcons→JAG、DWG KIA→DWG、MiG Frost→
+  Azubu Frost、KSV→GEN、DragonX→DRX 等）。LEC/LCK 2023+ 賽事頁 team= 全縮寫且
+  無 TeamCard（KCORP/NAVI/HTICS），掃描抓不到，人工 `EXTRA_TEAMS` 補 9 隊
+  （Karmine Corp、Team Heretics、Natus Vincere、GIANTX、Liiv SANDBOX…）。
+  team_history.json **174→300 隊**（台港澳 42 不動）。
+
+- **⚠ 冪等兩坑**（重跑每輪多一隊，實測 IWC→IWC2→IWC3 無限膨脹）：NAME_ALIASES
+  查詢 key 要過 `normKey()`（NFC+lower）——組合字 İstanbul（U+0130 vs i+U+0307）
+  不 NFC 正規化兩邊永遠不相等；`existingNamesLower` 比對也要過 `applyAlias`——
+  display_name（İstanbul Wildcats）與掃描收斂 key（wild cats）不同就重複收隊。
+
+- **region 規則定案（使用者拍板）**：賽區身分一律認**賽區代碼**（LCK/LPL/LEC/
+  LCS/PCS/LMS/LCP/GPL…），不依國籍分 TW/HK/MO——LoL 賽事認賽區名，與選手／
+  戰隊國籍無關。S24b 台港澳段的 TW/HK/MO 只是抓取優先級分群，不當實體語意；
+  S25 起處理選手與隊伍資料一律以此為準。
+
+- **實測結論**：缺隊清單 121 隊實體全部收齊；`gen-clean.mjs` 重跑 cleaned
+  2326→**2334** 筆、隊名殘餘 pending **159→38**（消 121，殘餘皆頁題縮寫變體
+  KCORP/TT CN 等或早期頁隊，歸 S25 別名層補 `team_alias.json`）；壞 team_id 0、
+  player_id 唯一 true。`npm test` **22792 項全綠**（純工具站，`src/`／`tests/`
+  未動）。重跑冪等（三次重跑新增 0 隊）。
+
+- **狀態**：完成。版號不動；SAVE_VERSION 不變；無常數變動。返工細節與驗證見
+  `tools/npc/rework_s24c.md`。
+
 ## 2026-08-17 — S24d 國際 raw：主源把我們的 IP 封了，備援規則第一次真的派上用場
 
 - **方向**：S24 拆四站的最終站——把 S24c 清單的國際 raw 全抓下來，S24 收束、S25

@@ -2,7 +2,9 @@
 
 > 2026-08-17 由 S25 執行者記錄。S25 隊名對齊時發現 **118 隊**在
 > `team_history.json` 缺失，262 名 CSV 選手、431 人次受影響。
-> S25 暫停等 S24c 重新處理；補完後重跑 `node gen-clean.mjs` 即可續做。
+> **已處理**：S24c 返工完成（2026-08-17），team_history.json 174→300 隊，
+> 本清單 121 隊實體全部收齊（`node gen-clean.mjs` 重跑後 pending 159→38，
+> 殘餘 38 隊為頁題縮寫變體或早期頁隊，見下「S25 續做」）。
 
 ## 返工範圍（缺隊影響的站點）
 
@@ -181,3 +183,24 @@ LPL 年份全部丟失，`career` 為空。
   含 SKT 姊妹隊、KT 雙隊、KOI→MAD2、GE Tigers→KOO 等）。
 - 尚未處理：13 筆未解消歧義（`unresolved_disambig_lp.tsv`）的候選判讀、
   MSI 2015 名次全缺（TeamPrizePool 無 Opponent、TeamCard 無 placement）。
+
+## S25 續做（2026-08-17 S24c 返工後）
+
+- 重跑後殘餘 38 隊（`pending_team_alias.json`）：
+  - **頁題縮寫變體**（實體隊已進 team_history，補 `team_alias.json` 別名）：
+    AL CN→Anyone's Legend（AL）、TT CN→ThunderTalk Gaming（TT）、
+    UP CN→Ultra Prime（UP）、NIP CN→Ninjas in Pyjamas（NIP）、
+    KCORP→Karmine Corp（KC）、HTICS→Team Heretics（TH）、NAVI→Natus
+    Vincere（NAVI）、XL→Excel Esports（XL）、SB→SANDBOX Gaming（SB）、
+    LSB→Liiv SANDBOX（LSB）、NS RF→Nongshim RedForce（NS）、
+    Ninjas in Pyjamas.CN→Ninjas in Pyjamas（NIP）、QG Reapers→Qiao Gu
+    Reapers（QG）、Brion Esports→BRION（BRO）、Jin Air Falcons／Jin Air
+    Green Wings Falcons／Jin Air Stealths／Jin Air Green Wings
+    Stealths→Jin Air Green Wings（JAG）、Incredible Miracle 1／2→
+    Incredible Miracle（IM）、Energy Pacemaker.All→Energy Pacemaker（EP）、
+    MiG Blaze→Azubu Blaze、MiG Frost→Azubu Frost、Azubu Blaze→Azubu
+    Blaze、Counter Logic Gaming Prime→Counter Logic Gaming（CLG）。
+  - **早期頁隊**（2012 Champions 等頁面隊名，`team_history` 有無皆可再議，
+    優先補 priority 1/2 選手生涯所需的）：DDoL、Dynamics、Fredit、GJR、
+    Hyper Youth Gaming、Little Hippo、NEB、NeL、RoMg、SHO、Saint Club、
+    Shopify Rebellion、StarTale、SuperStar、Team OP、Team XD。

@@ -516,7 +516,7 @@
       "region": "LCK",
       "active_years": [
         2016,
-        2021
+        2025
       ],
       "predecessors": [],
       "successors": []
@@ -579,9 +579,9 @@
     {
       "team_id": "BT",
       "display_name": "Bangkok Titans",
-      "region": null,
+      "region": "GPL",
       "active_years": [
-        2015,
+        2013,
         2015
       ],
       "predecessors": [],
@@ -623,10 +623,10 @@
     {
       "team_id": "CHF",
       "display_name": "Chiefs Esports Club",
-      "region": null,
+      "region": "LCP",
       "active_years": [
         2022,
-        2022
+        2025
       ],
       "predecessors": [],
       "successors": []
@@ -716,7 +716,7 @@
       "region": "LJL",
       "active_years": [
         2018,
-        2023
+        2025
       ],
       "predecessors": [],
       "successors": []
@@ -861,7 +861,7 @@
       "region": "VCS",
       "active_years": [
         2019,
-        2024
+        2025
       ],
       "predecessors": [],
       "successors": []
@@ -1119,7 +1119,7 @@
       "display_name": "KT Rolster",
       "region": "LCK",
       "active_years": [
-        2015,
+        2013,
         2025
       ],
       "predecessors": [],
@@ -1342,7 +1342,7 @@
       "region": "LCK",
       "active_years": [
         2012,
-        2013
+        2015
       ],
       "predecessors": [],
       "successors": []
@@ -1572,10 +1572,10 @@
     {
       "team_id": "SJ",
       "display_name": "Saigon Jokers",
-      "region": null,
+      "region": "GPL",
       "active_years": [
         2012,
-        2012
+        2013
       ],
       "predecessors": [],
       "successors": []
@@ -1653,7 +1653,7 @@
       "display_name": "Suning",
       "region": "LPL",
       "active_years": [
-        2019,
+        2017,
         2021
       ],
       "predecessors": [],
@@ -1733,7 +1733,7 @@
       "region": "LCS",
       "active_years": [
         2012,
-        2017
+        2023
       ],
       "predecessors": [],
       "successors": []
@@ -1754,7 +1754,7 @@
       "display_name": "Team Liquid",
       "region": "LCS",
       "active_years": [
-        2015,
+        2013,
         2024
       ],
       "predecessors": [],
@@ -1842,7 +1842,7 @@
       "display_name": "Top Esports",
       "region": "LPL",
       "active_years": [
-        2019,
+        2018,
         2024
       ],
       "predecessors": [],
@@ -1865,7 +1865,7 @@
       "region": "LJL",
       "active_years": [
         2020,
-        2020
+        2024
       ],
       "predecessors": [],
       "successors": []
@@ -1954,6 +1954,1392 @@
       "active_years": [
         2021,
         2022
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AK2",
+      "display_name": "ahq e-Sports Club Korea",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AHQ",
+      "display_name": "ahq eSports Club",
+      "region": "GPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AA",
+      "display_name": "ALTERNATE aTTaX",
+      "region": "LEC",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "ANTI",
+      "display_name": "Antic Esports",
+      "region": "PCS",
+      "active_years": [
+        2024,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AL",
+      "display_name": "Anyone's Legend",
+      "region": "LPL",
+      "active_years": [
+        2022,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "APEX",
+      "display_name": "Apex Gaming",
+      "region": "LCS",
+      "active_years": [
+        2016,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AP",
+      "display_name": "APK Prince",
+      "region": "LCK",
+      "active_years": [
+        2020,
+        2020
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AS",
+      "display_name": "Assassin Sniper",
+      "region": "LMS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "AST",
+      "display_name": "Astralis",
+      "region": "LEC",
+      "active_years": [
+        2021,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "BBQ",
+      "display_name": "bbq Olivers",
+      "region": "LCK",
+      "active_years": [
+        2017,
+        2018
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "BD",
+      "display_name": "Berjaya Dragons",
+      "region": "PCS",
+      "active_years": [
+        2020,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "BM",
+      "display_name": "Bigfile Miracle",
+      "region": "LCK",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "BOOM",
+      "display_name": "BOOM Esports",
+      "region": "PCS",
+      "active_years": [
+        2021,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "BRO",
+      "display_name": "BRION",
+      "region": "LCK",
+      "active_years": [
+        2021,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "CTU",
+      "display_name": "Chunnam Techno University",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "CJ",
+      "display_name": "CJ Entus",
+      "region": "LCK",
+      "active_years": [
+        2015,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "CJB",
+      "display_name": "CJ Entus Blaze",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "CJF",
+      "display_name": "CJ Entus Frost",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "COL",
+      "display_name": "compLexity Gaming",
+      "region": "LCS",
+      "active_years": [
+        2013,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "CW",
+      "display_name": "Copenhagen Wolves",
+      "region": "LEC",
+      "active_years": [
+        2014,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "CE",
+      "display_name": "Cougar E-Sport",
+      "region": "LMS",
+      "active_years": [
+        2016,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "DAN",
+      "display_name": "DAN Gaming",
+      "region": "LPL",
+      "active_years": [
+        2017,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "DOMI",
+      "display_name": "Dominus Esports",
+      "region": "LPL",
+      "active_years": [
+        2019,
+        2020
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "DOR",
+      "display_name": "Dream or Reality",
+      "region": "LMS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "EFX",
+      "display_name": "Echo Fox",
+      "region": "LCS",
+      "active_years": [
+        2016,
+        2019
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "ELEM",
+      "display_name": "Elements",
+      "region": "LEC",
+      "active_years": [
+        2015,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "ENEM",
+      "display_name": "Enemy",
+      "region": "LCS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "EP",
+      "display_name": "Energy Pacemaker",
+      "region": "LPL",
+      "active_years": [
+        2013,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "EE",
+      "display_name": "ESC Ever",
+      "region": "LCK",
+      "active_years": [
+        2016,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "ES",
+      "display_name": "eStar Gaming",
+      "region": "LPL",
+      "active_years": [
+        2020,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "EW",
+      "display_name": "Ever8 Winners",
+      "region": "LCK",
+      "active_years": [
+        2017,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "XL",
+      "display_name": "Excel Esports",
+      "region": "LEC",
+      "active_years": [
+        2019,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "EG3",
+      "display_name": "eXtreme Gamers",
+      "region": "LMS",
+      "active_years": [
+        2016,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "S04",
+      "display_name": "FC Schalke 04 Esports",
+      "region": "LEC",
+      "active_years": [
+        2016,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "FEX",
+      "display_name": "FearX",
+      "region": "LCK",
+      "active_years": [
+        2024,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "FSH",
+      "display_name": "Fukuoka SoftBank HAWKS",
+      "region": "LCP",
+      "active_years": [
+        2024,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GAMT",
+      "display_name": "Gamtee",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GIA",
+      "display_name": "Giants Gaming",
+      "region": "LEC",
+      "active_years": [
+        2015,
+        2018
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GGU",
+      "display_name": "Good Game University",
+      "region": "LCS",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GRAV",
+      "display_name": "Gravity",
+      "region": "LCS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GZ",
+      "display_name": "Ground Zero Gaming",
+      "region": "PCS",
+      "active_years": [
+        2024,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "HKE",
+      "display_name": "Hong Kong Esports",
+      "region": "LMS",
+      "active_years": [
+        2015,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "IMPU",
+      "display_name": "Impunity",
+      "region": "PCS",
+      "active_years": [
+        2021,
+        2023
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "IM2",
+      "display_name": "Incredible Miracle",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "JAG",
+      "display_name": "Jin Air Green Wings",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2019
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "KM",
+      "display_name": "Kongdoo Monster",
+      "region": "LCK",
+      "active_years": [
+        2016,
+        2018
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "KLH",
+      "display_name": "Kuala Lumpur Hunters",
+      "region": "GPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "LIYA",
+      "display_name": "Liyab Esports",
+      "region": "PCS",
+      "active_years": [
+        2020,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "LGS",
+      "display_name": "Logitech G Snipers",
+      "region": "LMS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MA",
+      "display_name": "Manila Aguilas",
+      "region": "GPL",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "ME",
+      "display_name": "Manila Eagles",
+      "region": "GPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "M3",
+      "display_name": "Masters 3",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MYM",
+      "display_name": "Meet Your Makers",
+      "region": "LEC",
+      "active_years": [
+        2013,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MF",
+      "display_name": "Midas FIO",
+      "region": "LCK",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MB",
+      "display_name": "MiG Blitz",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MILL",
+      "display_name": "Millenium",
+      "region": "LEC",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MKZ",
+      "display_name": "MKZ",
+      "region": "LCK",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MVP",
+      "display_name": "MVP",
+      "region": "LCK",
+      "active_years": [
+        2016,
+        2018
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MVB",
+      "display_name": "MVP Blue",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MVO",
+      "display_name": "MVP Ozone",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MM",
+      "display_name": "Mysterious Monkeys",
+      "region": "LEC",
+      "active_years": [
+        2017,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NGU",
+      "display_name": "Never Give Up",
+      "region": "LMS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NB",
+      "display_name": "Newbee",
+      "region": "LPL",
+      "active_years": [
+        2017,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NIP",
+      "display_name": "Ninjas in Pyjamas",
+      "region": "LPL",
+      "active_years": [
+        2013,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NS",
+      "display_name": "Nongshim RedForce",
+      "region": "LCK",
+      "active_years": [
+        2021,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NOVA",
+      "display_name": "Nova Esports",
+      "region": "PCS",
+      "active_years": [
+        2020,
+        2020
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NRG2",
+      "display_name": "NRG Esports",
+      "region": "LCS",
+      "active_years": [
+        2016,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "OPT",
+      "display_name": "OpTic Gaming",
+      "region": "LCS",
+      "active_years": [
+        2018,
+        2019
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "P1",
+      "display_name": "Phoenix1",
+      "region": "LCS",
+      "active_years": [
+        2016,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "PE",
+      "display_name": "Positive Energy",
+      "region": "LPL",
+      "active_years": [
+        2013,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "PO",
+      "display_name": "Prime Optimus",
+      "region": "LCK",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "QG",
+      "display_name": "Qiao Gu Reapers",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "RA",
+      "display_name": "Rare Atom",
+      "region": "LPL",
+      "active_years": [
+        2021,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "RA2",
+      "display_name": "Rebels Anarchy",
+      "region": "LCK",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "RENE",
+      "display_name": "Renegades",
+      "region": "LCS",
+      "active_years": [
+        2016,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "RESU",
+      "display_name": "Resurgence",
+      "region": "PCS",
+      "active_years": [
+        2020,
+        2020
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "RW",
+      "display_name": "Rogue Warriors",
+      "region": "LPL",
+      "active_years": [
+        2018,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SFF",
+      "display_name": "Saigon Fantastic Five",
+      "region": "GPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SB",
+      "display_name": "SANDBOX Gaming",
+      "region": "LCK",
+      "active_years": [
+        2019,
+        2023
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SS2",
+      "display_name": "SBENU Sonicboom",
+      "region": "LCK",
+      "active_years": [
+        2015,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SW",
+      "display_name": "Secret Whales",
+      "region": "LCP",
+      "active_years": [
+        2025,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SEM9",
+      "display_name": "SEM9",
+      "region": "PCS",
+      "active_years": [
+        2022,
+        2022
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SW2",
+      "display_name": "SEM9 WPE",
+      "region": "PCS",
+      "active_years": [
+        2023,
+        2023
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SENG",
+      "display_name": "Sengoku Gaming",
+      "region": "LJL",
+      "active_years": [
+        2024,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SS3",
+      "display_name": "Singapore Sentinels",
+      "region": "GPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SINO",
+      "display_name": "SinoDragon Club",
+      "region": "LPL",
+      "active_years": [
+        2019,
+        2019
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SNAK",
+      "display_name": "Snake Esports",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2019
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SHC",
+      "display_name": "SUPA HOT CREW",
+      "region": "LEC",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "SUPE2",
+      "display_name": "SuperEsports",
+      "region": "LMS",
+      "active_years": [
+        2019,
+        2019
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "TJ",
+      "display_name": "Taipei J Team",
+      "region": "PCS",
+      "active_years": [
+        2020,
+        2021
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "TALO2",
+      "display_name": "TALON",
+      "region": "LCP",
+      "active_years": [
+        2025,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "T8",
+      "display_name": "Team 8",
+      "region": "LCS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "BLIS",
+      "display_name": "Team Bliss",
+      "region": "PCS",
+      "active_years": [
+        2023,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "COAS",
+      "display_name": "Team Coast",
+      "region": "LCS",
+      "active_years": [
+        2013,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "DK2",
+      "display_name": "Team Dragon Knights",
+      "region": "LCS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NV",
+      "display_name": "Team EnVyUs",
+      "region": "LCS",
+      "active_years": [
+        2016,
+        2017
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "TIP",
+      "display_name": "Team Impulse",
+      "region": "LCS",
+      "active_years": [
+        2015,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "KING",
+      "display_name": "Team King",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "LIVE",
+      "display_name": "Team Livemore",
+      "region": "LPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MIST",
+      "display_name": "Team Mist",
+      "region": "LMS",
+      "active_years": [
+        2016,
+        2016
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MRN",
+      "display_name": "Team MRN",
+      "region": "LCS",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "ROC",
+      "display_name": "Team ROCCAT",
+      "region": "LEC",
+      "active_years": [
+        2014,
+        2018
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "WA",
+      "display_name": "Team WE Academy",
+      "region": "LPL",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "TT",
+      "display_name": "ThunderTalk Gaming",
+      "region": "LPL",
+      "active_years": [
+        2021,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "UP",
+      "display_name": "Ultra Prime",
+      "region": "LPL",
+      "active_years": [
+        2021,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "UP2",
+      "display_name": "Unlimited Potential",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "VELO",
+      "display_name": "Velocity eSports",
+      "region": "LCS",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "VG",
+      "display_name": "Vici Gaming",
+      "region": "LPL",
+      "active_years": [
+        2015,
+        2020
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "V5",
+      "display_name": "Victory Five",
+      "region": "LPL",
+      "active_years": [
+        2019,
+        2022
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "VIKI",
+      "display_name": "Vikings Esports",
+      "region": "LCP",
+      "active_years": [
+        2025,
+        2025
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "WP",
+      "display_name": "West Point Esports",
+      "region": "PCS",
+      "active_years": [
+        2023,
+        2024
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "WOA",
+      "display_name": "Wings of Aurora",
+      "region": "LPL",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "WINT",
+      "display_name": "Winterfox",
+      "region": "LCS",
+      "active_years": [
+        2015,
+        2015
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "XDG",
+      "display_name": "XDG Gaming",
+      "region": "LCS",
+      "active_years": [
+        2014,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "XB",
+      "display_name": "Xenics Blast",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2013
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "XS",
+      "display_name": "Xenics Storm",
+      "region": "LCK",
+      "active_years": [
+        2013,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "YG2",
+      "display_name": "Young Glory",
+      "region": "LPL",
+      "active_years": [
+        2013,
+        2014
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "KC",
+      "display_name": "karmine corp",
+      "region": "LEC",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "HERE",
+      "display_name": "team heretics",
+      "region": "LEC",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "NV2",
+      "display_name": "natus vincere",
+      "region": "LEC",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GIAN",
+      "display_name": "giantx",
+      "region": "LEC",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "LS",
+      "display_name": "liiv sandbox",
+      "region": "LCK",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "HUNT",
+      "display_name": "team hunters",
+      "region": "LCK",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "GT",
+      "display_name": "game talents",
+      "region": "LPL",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "MSD",
+      "display_name": "meme stream dream team",
+      "region": "LCS",
+      "active_years": [
+        null,
+        null
+      ],
+      "predecessors": [],
+      "successors": []
+    },
+    {
+      "team_id": "TM",
+      "display_name": "throw machine gaming",
+      "region": "LCS",
+      "active_years": [
+        null,
+        null
       ],
       "predecessors": [],
       "successors": []
