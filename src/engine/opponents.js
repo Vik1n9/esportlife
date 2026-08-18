@@ -16,14 +16,14 @@
  * 完全離線：只讀 `src/data/npc/` 靜態檔，無網路、無 LLM。
  */
 import { LEAGUES } from '../data/leagues.js';
-import { NPC_ROSTER } from '../data/npc/roster.js';
+import { NPC_BY_ID, NPC_ROSTER } from '../data/npc/roster.js';
 import { TEAM_HISTORY, teamRegionOf } from '../data/npc/teamHistory.js';
 import { REGION_TEAM_IDS } from '../data/npc/teamIds.js';
 import { ROLES } from '../data/skills.js';
 import { eraOf } from '../data/eras.js';
 import { ceilingCurve } from './lifecycle.js';
 import { HOME_REGIONS } from './roster.js';
-import { PERFORM_FLOOR, PERFORM_SPAN } from './psych.js';
+import { PERFORM_FLOOR, PERFORM_SPAN, deciderCheckM } from './psych.js';
 import { OPPONENT_SUPPORT, OPPONENT_SUPPORT_RESIDUAL, opponentStrength, starTerm } from '../kernel/strength.js';
 
 /**
@@ -132,31 +132,104 @@ export function regionParOf(region) {
   return LEAGUES[region]?.par ?? LEAGUES.HOME.par;
 }
 
+/* ---------------- Global_Boss（§24.4.1，S35） ---------------- */
+
+/**
+ * 國際賽 Global_Boss 選池門檻：五名先發全部是 S27 的 `fetch_priority === 2`
+ * 產物（歷年 Worlds／MSI 參賽隊員＋四大賽區賽段冠軍隊員）才算國際賽精選隊。
+ * 不是整隊優先度欄位——模板是逐選手取材，隊是年表重組出來的。
+ */
+function isGlobalBossTeam(team) {
+  return team.players.every((p) => NPC_BY_ID[p.id]?.fetch_priority === 2);
+}
+
+/**
+ * 大賽經驗加成（§24.4.1）：`min(3.0, 0.5 × n)`——n ＝ 五名先發各自的
+ * Worlds＋MSI 參賽年數之和（career 年表裡 event ∈ {worlds, msi} 的 entries；
+ * 同年兩賽事只算一年——「年」是出場單位，不是場次）。
+ * 上界 3.0 點 ＝ 單局勝率 +5.3pp（×1.76）：老將紅利看得見，碾不爛人。
+ */
+export function intlExpOf(team) {
+  let total = 0;
+  for (const p of team.players) {
+    const years = new Set();
+    for (const entry of NPC_BY_ID[p.id]?.career ?? []) {
+      for (const f of entry.finishes ?? []) {
+        if ((f.event === 'worlds' || f.event === 'msi') && f.year != null) years.add(f.year);
+      }
+    }
+    total += years.size;
+  }
+  return Math.min(3.0, 0.5 * total);
+}
+
+/**
+ * 賽區級別版本適應度（Region Patch Debt，§24.4.1）：國際賽對局扣對手隊強度——
+ * 小賽區隊的 meta 適應成本（史實：外卡與次級賽區隊在國際賽系統性偏弱）。
+ * 四大賽區 0／HOME 四代（GPL／LMS／PCS／LCP）1.5／其餘賽區 2.5。
+ */
+export const REGION_PATCH_DEBT = { LCK: 0, LPL: 0, LEC: 0, LCS: 0 };
+export const HOME_REGION_PATCH_DEBT = 1.5;
+export const OTHER_REGION_PATCH_DEBT = 2.5;
+export function regionPatchDebt(region) {
+  if (REGION_PATCH_DEBT[region] === 0) return 0;
+  return HOME_REGIONS.includes(region) ? HOME_REGION_PATCH_DEBT : OTHER_REGION_PATCH_DEBT;
+}
+
+/**
+ * Bo5 高壓檢定的對手端讀數（§24.4.2 對稱實作）：對手五人 psych 的
+ * `comp × 0.6 + resl × 0.4` 均值。psych 缺位的 NPC 視同 m=50（中性不衰減，
+ * 也是匿名對手的基準）——檢定不懲罰「資料沒有」，只懲罰「心理不行」。
+ */
+export function teamCheckM(team) {
+  let sum = 0; let n = 0;
+  for (const p of team.players) {
+    const psych = NPC_BY_ID[p.id]?.psych;
+    sum += deciderCheckM(psych?.comp ?? 50, psych?.resl ?? 50);
+    n += 1;
+  }
+  return n ? sum / n : 50;
+}
+
 /**
  * 從選隊池實體化一個對手。
+ *
+ * 國際賽（`scope === 'intl'`）過 Global_Boss 選池（§24.4.1）：先收斂到
+ * `fetch_priority === 2` 的隊；該年 p2 池空時落回任一外賽區完整隊（死路檢驗：
+ * 不空手），標 `globalBoss: false`、不帶本節兩項加成。
  *
  * @param {object} state
  * @param {number} target 階梯表算出的「選隊目標水準」（carry 尺度，含擺動與懲罰）
  * @param {'playoff'|'intl'} scope 聯賽內賽事吃玩家賽區池；國際賽吃全池、排除玩家賽區
  * @returns {{ materialized:boolean, strength:number, teamId?:string, teamName?:string,
- *   region?:string, players?:object[], carry?:number }}
+ *   region?:string, players?:object[], carry?:number, globalBoss?:boolean,
+ *   intlMod?:number, checkM?:number }}
  */
 export function materializeOpponent(state, target, scope, intlBoost = 0) {
   const year = state.year;
   const home = selfRegion(state);
   const selfTeamId = REGION_TEAM_IDS[state.team] ?? null;
 
-  const pool = teamsInYear(year).filter((t) => {
+  let pool = teamsInYear(year).filter((t) => {
     const region = teamRegionOf(t.teamId);
     if (t.teamId === selfTeamId) return false;                    // 不自己打自己
     if (scope === 'playoff') return region === home;              // 聯賽內：同賽區
     return !isSelfRegion(region, state);                          // 國際賽：不遇自己賽區
   });
+
+  // Global_Boss 選池：p2 池非空才收斂，空池落回（不空手、globalBoss: false，§24.4.1 選池規則）
+  let globalBoss = false;
+  if (scope === 'intl' && pool.length) {
+    const p2 = pool.filter(isGlobalBossTeam);
+    if (p2.length) { pool = p2; globalBoss = true; }
+  }
   if (!pool.length) return { materialized: false, strength: opponentStrength(target) };
 
   const pick = pool.reduce((best, t) => (Math.abs(t.carry - target) < Math.abs(best.carry - target) ? t : best), pool[0]);
   const region = teamRegionOf(pick.teamId);
   const carryPlayer = pick.players.reduce((a, b) => (b.power > a.power ? b : a));
+  // §24.4.1 落點：`intlMod = intlExp − debt` 進加項——聚合式形狀不改，不碰乘法鏈
+  const intlMod = globalBoss ? intlExpOf(pick) - regionPatchDebt(region) : 0;
 
   return {
     materialized: true,
@@ -165,8 +238,10 @@ export function materializeOpponent(state, target, scope, intlBoost = 0) {
     region,
     players: pick.players,
     carry: carryPlayer.power,
-    // `intlBoost` 是 §24.4 Global_Boss「大賽經驗加成」的預留掛鉤，預設 0（S31 定落點）
-    strength: aggregateTeamStrength(pick.players, region) + intlBoost,
+    globalBoss,
+    intlMod,
+    checkM: teamCheckM(pick),
+    strength: aggregateTeamStrength(pick.players, region) + intlBoost + intlMod,
   };
 }
 

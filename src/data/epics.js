@@ -266,6 +266,16 @@ export const LEGENDARY_TRAITS = {
     effects: { worldsRoll: 10, intlRoll: 10, seriesDecider: 6, importExempt: true },
     sideEffects: { mental_comp: -10, mental_disc: -6 }, sideEffectLevel: 'heavy',
   },
+  midseason_king: {
+    // S35（§24.4.4）：MSI 冠軍里程碑連動的第 21 張傳說卡（legend-midseason-king）。
+    // 季中捧杯的人，下半年會被每一支冠軍隊當假想敵研究——副作用走被針對的壓力。
+    // ⚠ 份量走 intlRoll／worldsRoll（國際賽選隊目標），不走 seriesGame／seriesDecider
+    // 加項——後者會與既有傳說的系列賽加成疊加，把明星效應推過 §11.1 的 6% 失控警報
+    name: '季中王者', tier: 'legend', pool: 'career',
+    desc: '國際賽 +10、世界賽 +4、決勝局 +4；季中捧杯之後成了全世界的標靶，抗壓 −8、紀律 −6',
+    effects: { intlRoll: 10, worldsRoll: 4, seriesDecider: 4 },
+    sideEffects: { mental_comp: -8, mental_disc: -6 }, sideEffectLevel: 'heavy',
+  },
   breakout: {
     // S20d/N12：前身 rookie_king（Caps／Rookie「出道即巔峰」）因引擎 legend 底線
     // 與「生涯前期視窗」結構性錯身，整張卡 0/160 開卡；改名重設計成國際突破卡
@@ -331,6 +341,34 @@ export const UNIQUE_TRAITS = {
     sideEffects: { mental_disc: -3 }, sideEffectLevel: 'light',
     grant: '鍛鍊體能事件觸發 7 次——館長的深蹲課從不缺席',
     grantWhen: ['eventCount', 'squat_challenge', 'gte', 7],
+  },
+  // ── S35（§24.4.4）：國際賽里程碑連動的三條獨有特質 ──
+  intl_dominator: {
+    // ⚠ 份量走 intlRoll／worldsRoll（國際賽選隊目標），不走 seriesDecider——
+    // 避免與傳說的系列賽加成疊加推過 §11.1 明星效應失控警報
+    name: '跨賽區統治', tier: 'unique', pool: 'career',
+    desc: '國際賽 +6、世界賽 +2；贏太多，對手把你當版本研究，備賽壓力變大（抗壓 −4）',
+    effects: { intlRoll: 6, worldsRoll: 2 },
+    sideEffects: { mental_comp: -4 }, sideEffectLevel: 'medium',
+    grant: '國際賽勝率 ≥ 60% 且三度以上出征國際賽——史實成就：跨賽區的高勝率統治',
+    grantWhen: ['and', ['stat', 'intlWinRate', 'gte', 60], ['stat', 'intlAppearances', 'gte', 3]],
+  },
+  reverse_sweep_soul: {
+    name: '讓二追三', tier: 'unique', pool: 'career',
+    desc: '決勝局 +3；0:2 翻回來過的人不怕落後，韌性 +4；但那兩局的陰影跟著你，抗壓 −4',
+    effects: { seriesDecider: 3, mental_resl: 4 },
+    sideEffects: { mental_comp: -4 }, sideEffectLevel: 'medium',
+    grant: 'Bo5 從 0:2 落後翻成 3:2——引擎記帳的奇蹟局（reverse_sweep 計數）',
+    grantWhen: ['eventCount', 'reverse_sweep', 'gte', 1],
+  },
+  intl_veteran: {
+    // ⚠ 份量走 intlRoll／worldsRoll，不走 seriesGame——同 intl_dominator 的理由
+    name: '國際賽老將', tier: 'unique', pool: 'career',
+    desc: '國際賽 +4、世界賽 +2；五十局國際賽的飛行與時差都刻在身體裡，動機 −4',
+    effects: { intlRoll: 4, worldsRoll: 2 },
+    sideEffects: { mental_drive: -4 }, sideEffectLevel: 'medium',
+    grant: '國際賽生涯累計局數 ≥ 50——史實成就：國際賽的常青樹',
+    grantWhen: ['stat', 'intlGames', 'gte', 50],
   },
 };
 

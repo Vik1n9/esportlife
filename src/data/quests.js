@@ -252,6 +252,23 @@ export const QUEST_CARDS = [
   // ══════════════ legend：戰績型 4 張（不吃素材，S19c 校準難度） ══════════════
 
   {
+    // S35（§24.4.4）：第 21 張傳說卡——MSI 冠軍里程碑連動。trigger 是 MSI 決賽
+    // （msiBest ≤ 2），goal 比 trigger 嚴格一級：捧杯。baseline 的 intlSemis 由
+    // MSI 決賽自身滿足，不另找素材。與 grand_slam 共用 MSI 冠軍這個目標但互不
+    // 代替：這張是「季中之王」的單一成就，那張是滿貫長跑
+    id: 'legend-midseason-king',
+    type: 'legend',
+    name: '季中王者',
+    text: '季中邀請賽的獎盃不大，捧起來卻比聯賽獎盃重——因為它證明你不只是賽區的王。決賽第五局結束的那一晚，外媒的標題第一次用「統治」形容你。',
+    trigger: ['stat', 'msiBest', 'lte', 2],
+    goal: ['stat', 'msiBest', 'lte', 1],
+    deadline: null,
+    result: { tier: 'legendary', key: 'midseason_king' },
+    failLabel: '季中之憾',
+    goalText: '達成目標：奪下 MSI 冠軍',
+    materialText: null,
+  },
+  {
     id: 'legend-worlds-king',
     type: 'legend',
     name: '世界賽之王',

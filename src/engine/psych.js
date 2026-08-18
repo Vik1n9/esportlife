@@ -170,3 +170,35 @@ export function mistakeFactor(state, pressure = PRESSURE.regular) {
   // 再穩的心態也還是會死——夾住之後這個係數乘進任何可見數據都不會失控
   return clamp(1 + forced + sloppy + greed, 0.60, 1.90);
 }
+
+/* ================= §24.4.2 Bo5 高壓檢定（S35，S36 校準） ================= */
+
+/**
+ * Bo5 第五局（2:2 檢定局）的高壓檢定常數（§24.4.2，v4.8.0 定案）。
+ *
+ * ⚠ **四常數歸 S36**。playtest 校準範圍只開門檻 ±10 與上界 ±1；常駐修正
+ * 邊界（0.85／0.30）與 `OPPONENT_SUPPORT_RESIDUAL` 不動。改這裡等於動 S36
+ * 的量測錨點，動之前先看 §24.4.2 末段的量測清單。
+ */
+export const DECIDER_CHECK = {
+  threshold: 60,   // m ≥ 門檻不衰減
+  compWeight: 0.6, // 檢定 m 裡抗壓的權重
+  reslWeight: 0.4, // 檢定 m 裡韌性的權重
+  maxDecay: 3.0,   // 衰減滿額＝單局勝率 −5.3pp（×1.76）
+  exponent: 1.5,   // 非線性凸衰減
+};
+
+/** 檢定讀數：`m = comp × 0.6 + resl × 0.4`（與 §9.3 守門員同構、不同權重） */
+export function deciderCheckM(comp = 50, resl = 50) {
+  return comp * DECIDER_CHECK.compWeight + resl * DECIDER_CHECK.reslWeight;
+}
+
+/**
+ * 衰減點數：`m < 60` 時 `3.0 × (1 − m/60)^1.5`，`m ≥ 60` 不衰減。
+ * 凸衰減——m=50 衰 ~0.23 點、m=30 衰 ~1.06 點、m=0 衰滿 3.0 點：
+ * 低 comp／resl 的生涯在檢定局吃虧顯著，中性以上幾乎無感。
+ */
+export function deciderCheckDecay(m) {
+  if (m >= DECIDER_CHECK.threshold) return 0;
+  return DECIDER_CHECK.maxDecay * (1 - m / DECIDER_CHECK.threshold) ** DECIDER_CHECK.exponent;
+}

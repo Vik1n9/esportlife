@@ -23,6 +23,7 @@ import { INNATE_POOL } from '../src/data/innate.js';
 import { PERCENTILE_METRICS } from '../src/data/npc/percentiles.js';
 import { LEAGUE_PCT_METRICS } from '../src/kernel/leagueStats.js';
 import { LIFECYCLE_WINDOWS } from '../src/kernel/modifiers.js';
+import { REVERSE_SWEEP_KEY } from '../src/kernel/series.js';
 
 /* ================= 共用可選值 ================= */
 
@@ -165,7 +166,7 @@ const eventMarkKeys = (field) => {
 
 export const EVENT_FLAG_KEYS = [...new Set([...eventMarkKeys('setFlags'), ...eventMarkKeys('clearFlags')])];
 
-export const EVENT_COUNT_KEYS = [...new Set([...EVENT_CARDS.map((c) => c.id), ...eventMarkKeys('counters')])];
+export const EVENT_COUNT_KEYS = [...new Set([...EVENT_CARDS.map((c) => c.id), ...eventMarkKeys('counters'), REVERSE_SWEEP_KEY])];
 
 /**
  * 條件式可用的謂詞名（engine/conditions.js 的 QUERIES）。
@@ -174,7 +175,7 @@ export const EVENT_COUNT_KEYS = [...new Set([...EVENT_CARDS.map((c) => c.id), ..
  */
 export const PREDICATES = [
   'age', 'proYears', 'splitTitles', 'awards', 'disbandCrises', 'fame',
-  'careerScore', 'coachRating', 'intlWinRate', 'assistsPerGame',
+  'careerScore', 'coachRating', 'intlWinRate', 'intlGames', 'assistsPerGame',
   'longestTenure', 'distinctTeams', 'worldsBest', 'msiBest', 'intlSemis',
   'careerGames', 'awardsThisYear', 'lastWorlds', 'lastMsi', 'isReigningChampion',
   'fameLevel', 'era', 'region', 'role',

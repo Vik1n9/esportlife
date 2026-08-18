@@ -84,6 +84,15 @@ export async function run({ check }) {
     check('心理謂詞：comp 沒跌破', !evalCond(s, ['stat', 'comp', 'gte', 40]));
   }
 
+  /* ---- intlGames 謂詞（S35，§24.4.4「國際賽老將」）：讀帳本查詢層 ---- */
+  {
+    const s = fresh();
+    s.intlRecord = { W: 31, L: 19 };   // 過寫入面的帳本形狀（recordIntlSeries 以局入帳）
+    check('intlGames＝intlRecord 的 W＋L', evalCond(s, ['stat', 'intlGames', 'gte', 50])
+      && evalCond(s, ['stat', 'intlGames', 'eq', 50]));
+    check('intlGames 不足不過門檻', !evalCond(s, ['stat', 'intlGames', 'gte', 51]));
+  }
+
   /* ---- 素材收集（§14.1「被條件式讀到的素材」） ---- */
   {
     const s = fresh();

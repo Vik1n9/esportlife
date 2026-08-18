@@ -109,6 +109,38 @@ export async function run({ check }) {
       elimD > playoffD, `${elimD} vs ${playoffD}`);
   }
 
+  /* ---- Bo5 高壓檢定敘事（S35，§15.2 v4.8.0 增訂）：只寫現象，不出隱藏心理 ---- */
+  {
+    // system 戰術無隨機風險，rng.chance 只在 runSeries 逐局消耗——餵 L,L,W,W,W 逼出
+    // 0:2→3:2 的檢定局決勝
+    const state = pro('decider-note', { stamina: 80, mental: { comp: 30, resl: 30 } });
+    const seq = [false, false, true, true, true];
+    let i = 0;
+    const rng = { chance: () => seq[i++], gauss: () => 0 };
+    const { beats, res } = play({ state, rng }, 'system');
+    check('腳本局序逼出讓二追三決勝局', res.decider === true && res.win === true, res.games.join(''));
+    const result = beats[3].body;
+    check('決勝局結果卡附一句高壓敘事（第五局）', result.includes('第五局'), result);
+    check('高壓敘事不出 comp／resl 數值或衰減點數（隱藏心理不可見）',
+      !/comp|resl|衰減|0\.\d|checkM/i.test(result), result);
+  }
+
+  /* ---- 國際賽戰報級距帶（S35，§24.4.3）：有母體才顯示，空池不硬造 ---- */
+  {
+    const empty = pro('intl-empty', { stamina: 80, year: 2020 });
+    const r1 = play({ state: empty, rng: new Rng('intl-empty') }, 'system', { intl: true });
+    check('intl 池空（母體不足）→ 級距帶不顯示', !r1.beats[3].body.includes('國際賽同位置級距'));
+
+    const full = pro('intl-full', { stamina: 80, year: 2020 });
+    const stats = {};
+    for (let k = 0; k < 21; k++) stats[`npc-${k}`] = { role: 'MID', G: 10, K: 20, D: 10, A: 30 };
+    stats.player = { role: 'MID', G: 10, K: 60, D: 10, A: 80 };   // 玩家 KDA 遠高於 NPC 池
+    full.leaguePool = { 2020: { splits: {}, intl: { stats } } };
+    const r2 = play({ state: full, rng: new Rng('intl-full') }, 'system', { intl: true });
+    check('intl 母體 ≥20 筆 → 結果卡附同位置級距帶', r2.beats[3].body.includes('國際賽同位置級距'), r2.beats[3].body);
+    check('非 intl 賽事不掛級距帶', !play({ state: full, rng: new Rng('intl-off') }, 'system').beats[3].body.includes('國際賽同位置級距'));
+  }
+
   /* ---- 被反制：research 是賭博，統計上會偶爾翻車 ---- */
   {
     let counters = 0;

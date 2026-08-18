@@ -94,6 +94,35 @@ export async function run({ check, log }) {
   recordPlayerIntlMicroStats(intlState, null);
   check('recordPlayerIntlMicroStats(null)（系列賽 0 局）安全略過，不炸也不改動', intlState.leaguePool[2024].intl.stats[PLAYER_STAT_ID].G === 5);
 
+  /* ---------------- 對手五人微觀併池（§24.4.3 母體 NPC 側，S35） ---------------- */
+  {
+    const { createState } = await import('../../src/engine/state.js');
+    const { materializeOpponent } = await import('../../src/engine/opponents.js');
+    const { recordIntlOpponentMicro } = await import('../../src/engine/leagueSim.js');
+
+    const s = createState({ name: 'I', role: 'MID', seed: 'intl-opp' });
+    s.year = 2024; s.league = 'HOME'; s.stage = 'PRO';
+    let opp = materializeOpponent(s, 76, 'intl');
+    if (!opp.materialized) opp = materializeOpponent(s, 72, 'intl');   // 池薄的年分降目標再試
+    if (opp.materialized) {
+      recordIntlOpponentMicro(s, rng, opp, [true, false, true]);
+      const pool = s.leaguePool[2024].intl.stats;
+      check('對手五人微觀寫進 intl 段（每人一筆）',
+        opp.players.every((p) => pool[p.id] && pool[p.id].G === 3));
+      check('對手微觀帶位置（供同位置百分位切分）',
+        opp.players.every((p) => pool[p.id].role === p.position));
+      recordIntlOpponentMicro(s, rng, opp, [true]);
+      check('對手微觀跨系列賽累加，不是覆蓋', opp.players.every((p) => pool[p.id].G === 4));
+      recordIntlOpponentMicro(s, rng, { materialized: false, strength: opp.strength }, [true]);
+      check('匿名對手不併池（沒有身分就沒有 player_id 鍵）',
+        opp.players.every((p) => pool[p.id].G === 4));
+      recordIntlOpponentMicro(s, rng, opp, []);
+      check('零局系列賽安全略過', opp.players.every((p) => pool[p.id].G === 4));
+    } else {
+      log('SKIP 2024 國際賽無可實體化對手——對手微觀併池檢查等資料補齊再驗');
+    }
+  }
+
   /* ---------------- G=0（板凳／整段養傷）不進帳 ---------------- */
 
   const beforeRows = JSON.stringify(standingsFor(state, 2022, 'S1'));

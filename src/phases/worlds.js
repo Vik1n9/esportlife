@@ -25,8 +25,10 @@ import { BASE_TRAITS } from '../data/traits.js';
 import { UNIQUE_TRAITS } from '../data/epics.js';
 import { CHAMPION_BONUS, CHAMPION_ENCOUNTER, challengableChampion, drawChampion } from '../engine/champion.js';
 import { reigningChampion } from '../engine/ledger.js';
+import { recordIntlOpponentMicro, recordPlayerIntlMicroStats } from '../engine/leagueSim.js';
+import { seriesMicroStats } from '../engine/season.js';
 import { bonus } from '../kernel/modifiers.js';
-import { drawRoleplay, fusionBeats, kinded, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
+import { drawRoleplay, fusionBeats, intlBandNote, kinded, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
 const card = kinded('match');
 import { runSeriesEvent } from './seriesEvent.js';
 
@@ -111,11 +113,11 @@ export function* run(g) {
     const gate = drawWorldsOpp(g, -2.5, { scope: 'playoff' });
     const res = yield* runSeriesEvent(g, {
       title: '地區資格賽 · BO5',
-      bo: 5, oppRating: gate.strength, seed,
+      bo: 5, oppRating: gate.strength, seed, opp: gate,
       stakes: 'elimination', pressure: PRESSURE.elimination,
       oppNote: oppLineupText(gate) || '對手是賽區裡跟你爭最後一張門票的隊伍。',
     });
-    recordIntlSeries(state, rng, res);
+    recordIntlSeries(state, rng, res, gate);
     yield card(res.win ? 'good' : 'bad', '地區資格賽',
       res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。');
     if (!res.win) {
@@ -154,11 +156,11 @@ function* runTournament(g, rule, seed) {
     const playIn = drawWorldsOpp(g, -3.75);
     const res = yield* runSeriesEvent(g, {
       title: '入圍賽 · BO5',
-      bo: 5, oppRating: playIn.strength, seed,
+      bo: 5, oppRating: playIn.strength, seed, opp: playIn, intl: true,
       stakes: 'intl', pressure: PRESSURE.intl,
       oppNote: oppLineupText(playIn) || '對手是同樣從入圍賽打起的隊伍。',
     });
-    recordIntlSeries(state, rng, res);
+    recordIntlSeries(state, rng, res, playIn);
     yield card(res.win ? 'good' : 'bad', '入圍賽',
       res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。');
     if (!res.win) return 'playin';
@@ -178,13 +180,18 @@ function* groupStage(g, seed) {
   const opps = [0, 2.5, 5].map((s) => drawWorldsOpp(g, s));
   const res = runGroup(state, rng, { oppRatings: opps.map((o) => o.strength), seed });
   recordIntlGroup(state, res);
+  // S35（§24.4.3 母體 NPC 側）：小組 BO1 逐場把對手五人微觀併進 intl 池——
+  // 玩家側 BO1 沒有陣亡數據未併（S34 已知缺口），NPC 側不吃這個限制
+  for (const gm of res.games) recordIntlOpponentMicro(state, rng, opps[gm.oppIndex], [gm.win]);
   // 實體化對手帶隊名（§23.4 身分實體化）；匿名落回的那幾隊不列名
   const named = opps.filter((o) => o.materialized).map((o) => o.teamName);
+  const band = intlBandNote(state);
   yield card(res.advanced ? 'good' : 'bad', '世界賽小組賽',
     (named.length ? `<span class="muted">對手：${named.join('、')}</span><br>` : '') +
     `六場循環戰 <b class="${res.advanced ? 'up' : 'dn'}">${res.wins}勝 ${res.losses}敗</b>。` +
     (res.note ? `${res.note}。` : '') +
-    (res.advanced ? '晉級八強。' : '<b class="dn">小組止步</b>。'));
+    (res.advanced ? '晉級八強。' : '<b class="dn">小組止步</b>。') +
+    (band ? `<br>${band}` : ''));
   return res.advanced;
 }
 
@@ -202,14 +209,23 @@ function* swissStage(g, seed) {
     oppOf: (wins, losses) => swissOpponent(state, rng, wins, losses),
   });
   recordIntlGroup(state, res);
+  // S35（§24.4.3 母體補齊）：Swiss 每輪走 runSeries 但 W/L 只經 recordIntlGroup，
+  // S34 落地筆記說「經 runSeries 的都併了」——玩家五人微觀實際漏了這一層，逐輪補進
+  // intl 池；對手五人微觀同站接上（NPC 側新口）
+  for (const r of res.rounds) {
+    recordPlayerIntlMicroStats(state, seriesMicroStats(state, rng, r.games.length, r.deaths));
+    recordIntlOpponentMicro(state, rng, r.opp, r.games.map((g) => g.startsWith('W')));
+  }
 
   const lines = res.rounds.map((r) =>
     `第 ${r.label}（${r.record}）　BO${r.bo}　<b class="${r.win ? 'up' : 'dn'}">${r.score}</b>` +
     (r.decisive ? `<span class="muted">　${r.win ? '晉級局' : '淘汰局'}</span>` : '')).join('<br>');
+  const band = intlBandNote(state);
 
   yield card(res.advanced ? 'good' : 'bad', 'Swiss 賽段',
     `${lines}<br><b class="${res.advanced ? 'up' : 'dn'}">${res.wins}-${res.losses}</b>　` +
-    (res.advanced ? '晉級八強。' : '<b class="dn">Swiss 賽段止步</b>。'));
+    (res.advanced ? '晉級八強。' : '<b class="dn">Swiss 賽段止步</b>。') +
+    (band ? `<br>${band}` : ''));
   return res.advanced;
 }
 
@@ -243,6 +259,8 @@ function* knockout(g, seed) {
       bo: 5,
       oppRating: opp.strength,
       seed,
+      opp,
+      intl: true,
       stakes: round.key === 'final' ? 'final' : 'intl', pressure: PRESSURE.intl,
       oppNote: isChamp
         ? `對手是上屆世界冠軍 <b class="hl">${champ.team}</b>——擊敗他，你就是下一個世代的火炬手。`
@@ -250,7 +268,7 @@ function* knockout(g, seed) {
       oppTag: isChamp ? 'reigningChampion' : null,
       oppTitle: isChamp ? '衛冕者對決' : '',
     });
-    recordIntlSeries(state, rng, res);
+    recordIntlSeries(state, rng, res, opp);
 
     // 世代交替：在淘汰賽贏下衛冕冠軍 → 發 `torch_bearer`（unique 階，直接授予）
     if (isChamp && res.win && grantUnique(state, 'torch_bearer')) {

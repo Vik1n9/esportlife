@@ -6,15 +6,17 @@
  * 門檻）由 regression/invariants.mjs 繼續站崗。
  */
 import { Rng } from '../../src/core/rng.js';
-import { NPC_ROSTER } from '../../src/data/npc/roster.js';
-import { TEAM_HISTORY } from '../../src/data/npc/teamHistory.js';
+import { NPC_BY_ID, NPC_ROSTER } from '../../src/data/npc/roster.js';
+import { TEAM_HISTORY, teamRegionOf } from '../../src/data/npc/teamHistory.js';
 import { REGION_TEAM_IDS } from '../../src/data/npc/teamIds.js';
 import { ROLES } from '../../src/data/skills.js';
 import { eraOf } from '../../src/data/eras.js';
 import {
-  materializeOpponent, npcPowerInYear, oppLineupText, playoffOpponent, psychStability,
-  regionParOf, teamsInYear,
+  intlExpOf, materializeOpponent, npcPowerInYear, oppLineupText, playoffOpponent, psychStability,
+  regionParOf, regionPatchDebt, teamCheckM, teamsInYear,
+  HOME_REGION_PATCH_DEBT, OTHER_REGION_PATCH_DEBT, REGION_PATCH_DEBT,
 } from '../../src/engine/opponents.js';
+import { deciderCheckDecay, deciderCheckM } from '../../src/engine/psych.js';
 import { OPPONENT_SUPPORT, OPPONENT_SUPPORT_RESIDUAL, opponentStrength, starTerm } from '../../src/kernel/strength.js';
 
 export const name = '逐選手對手模型（S29）';
@@ -55,9 +57,12 @@ export async function run({ check, log }) {
     const carryPlayer = hit.players.reduce((a, b) => (b.power > a.power ? b : a));
     const others = hit.players.filter((p) => p !== carryPlayer);
     const othersAvg = others.reduce((t, p) => t + p.power, 0) / others.length;
+    // S35（§24.4.1）：Global_Boss 對手的強度＝聚合式＋intlMod（intlExp − debt，加項、
+    // 聚合式形狀不變）；非 globalBoss（p2 池空落回）intlMod 為 0，同一條式子仍然成立
     const expected = carryPlayer.power * 0.60 + othersAvg * 0.40
-      + starTerm(carryPlayer.power, regionParOf(hit.region)) + OPPONENT_SUPPORT_RESIDUAL;
-    check('聚合式＝carry×0.60＋其餘×0.40＋對手明星項＋殘項', Math.abs(hit.strength - expected) < 1e-9, `${hit.strength} vs ${expected}`);
+      + starTerm(carryPlayer.power, regionParOf(hit.region)) + OPPONENT_SUPPORT_RESIDUAL
+      + (hit.intlMod ?? 0);
+    check('聚合式＝carry×0.60＋其餘×0.40＋對手明星項＋殘項＋intlMod', Math.abs(hit.strength - expected) < 1e-9, `${hit.strength} vs ${expected}`);
     check('carry 是五人最高者', hit.carry === carryPlayer.power);
     check('對手明星項吃對手主場聯賽 par', starTerm(hit.carry, regionParOf(hit.region)) <= 6.0);
 
@@ -137,4 +142,78 @@ export async function run({ check, log }) {
     const expected = npc.peak.rating * psychStability(npc.psych);
     return Math.abs(npcPowerInYear(npc, atPeakAge) - expected) < 1e-6;
   })());
+
+  /* ---------------- Global_Boss（§24.4.1，S35） ---------------- */
+
+  // Region Patch Debt：四大賽區 0／HOME 四代 1.5／其餘 2.5（表寫死於 §24.4.1）
+  check('Region Patch Debt：四大賽區為 0', ['LCK', 'LPL', 'LEC', 'LCS'].every((r) => regionPatchDebt(r) === 0));
+  check('Region Patch Debt：HOME 四代 1.5', ['GPL', 'LMS', 'PCS', 'LCP'].every((r) => regionPatchDebt(r) === HOME_REGION_PATCH_DEBT));
+  check('Region Patch Debt：其餘賽區 2.5', ['CBLOL', 'VCS', 'TCL', 'LLA'].every((r) => regionPatchDebt(r) === OTHER_REGION_PATCH_DEBT));
+  check('四大賽區常數表只列四席', Object.values(REGION_PATCH_DEBT).every((v) => v === 0) && Object.keys(REGION_PATCH_DEBT).length === 4);
+
+  // intlExp：五名先發各自的 Worlds＋MSI 參賽年數和，×0.5，上界 3.0
+  {
+    // 無任何國際賽年表的五人 → 0（構造隊：從名冊挑 career 無 worlds／msi 的選手）
+    const noIntl = { players: NPC_ROSTER.filter((n) => (n.career ?? []).every((e) =>
+      (e.finishes ?? []).every((f) => f.event !== 'worlds' && f.event !== 'msi'))).slice(0, 5)
+      .map((n) => ({ id: n.player_id })) };
+    check('intlExp：無國際賽年表的隊為 0', noIntl.players.length === 5 ? intlExpOf(noIntl) === 0 : true,
+      noIntl.players.length === 5 ? '' : '找不到五名無國際年表选手，跳過');
+    // 公式結構：挑一支國際賽實體化的 Global_Boss 隊，n 依 career 年表重算後比對
+    const s16 = { year: 2016, league: 'HOME', team: '閃電狼' };
+    const opp = materializeOpponent(s16, 76, 'intl');
+    if (opp.materialized && opp.globalBoss) {
+      let n = 0;
+      for (const p of opp.players) {
+        const years = new Set();
+        for (const e of NPC_BY_ID[p.id]?.career ?? []) {
+          for (const f of e.finishes ?? []) {
+            if ((f.event === 'worlds' || f.event === 'msi') && f.year != null) years.add(f.year);
+          }
+        }
+        n += years.size;
+      }
+      check('intlExp＝min(3.0, 0.5×n)，n 為五先發國際賽年數和',
+        Math.abs(intlExpOf(opp) - Math.min(3.0, 0.5 * n)) < 1e-9, `n=${n}`);
+      check('intlExp 恆在 0–3.0 上界內', intlExpOf(opp) >= 0 && intlExpOf(opp) <= 3.0);
+    } else {
+      log('SKIP 2016 國際賽無 Global_Boss 隊——intlExp 結構檢查等資料補齊再驗');
+    }
+  }
+
+  // 選池：國際賽實體化優先 fetch_priority 2（Global_Boss）隊——命中的隊五人必全是 p2，
+  // 且 intlMod＝intlExp − 對手賽區 debt；p2 池空落回的隊 globalBoss:false、不帶加成。
+  // 季後賽（league 內）不吃 Global_Boss 選池。
+  {
+    let bossSeen = 0; let fallbackSeen = 0;
+    for (let year = 2012; year <= 2030; year++) {
+      const s = { year, league: 'HOME', team: '閃電狼' };
+      for (const target of [68, 74, 80]) {
+        const opp = materializeOpponent(s, target, 'intl');
+        if (!opp.materialized) continue;
+        const isP2 = opp.players.every((p) => NPC_BY_ID[p.id]?.fetch_priority === 2);
+        if (opp.globalBoss) {
+          bossSeen++;
+          check(`${year} globalBoss 隊五人皆為 fetch_priority 2`, isP2, opp.teamId);
+          check(`${year} intlMod＝intlExp − ${opp.region} 的 debt`,
+            Math.abs(opp.intlMod - (intlExpOf(opp) - regionPatchDebt(opp.region))) < 1e-9, `${opp.intlMod}`);
+        } else {
+          fallbackSeen++;
+          check(`${year} 落回隊不帶 Global_Boss 加成`, opp.intlMod === 0 && !isP2);
+        }
+        check(`${year} 實體化隊帶檢定讀數 checkM`,
+          typeof opp.checkM === 'number' && opp.checkM >= 0 && opp.checkM <= 100);
+      }
+    }
+    log(`Global_Boss 選池掃描 2012–2030：globalBoss ${bossSeen} 筆、落回 ${fallbackSeen} 筆`);
+    check('有年分能選到 Global_Boss 隊（p2 池非空）', bossSeen > 0, 'p2 池全空——S24 補抓');
+  }
+
+  // checkM：對手五人 psych 的 comp×0.6＋resl×0.4 均值；psych 缺位視同 m=50（中性基準）
+  {
+    const fake = { players: [{ id: '__none_a', position: 'MID' }, { id: '__none_b', position: 'TOP' }] };
+    check('checkM：psych 全缺位視同 m=50', teamCheckM(fake) === 50);
+    check('中性對手的檢定衰減有界且小（m=50 → ~0.2 點）',
+      deciderCheckDecay(deciderCheckM(50, 50)) > 0 && deciderCheckDecay(deciderCheckM(50, 50)) < 0.5);
+  }
 }

@@ -1,3 +1,46 @@
+## [v4.8.4] - 2026-08-18
+
+### 國際賽規則與特質連動（S35，Phase 4）
+
+S34 把玩家數據併進國際賽池，但國際賽對手還是吃一般階梯、Bo5 沒有關鍵局壓力、
+國際賽里程碑不發特質。本站把 §24.4 的四件 S31 定案落地——常數與落點照 S31，
+本站不改量、只接線；偏移量測交 S36。
+
+- **`engine/opponents.js`**：Global_Boss 合流——intl 作用域選池先收斂到
+  「五人全為 fetch_priority 2」的隊（`globalBoss: true`），p2 池空落回全池
+  （`globalBoss: false`）；`intlExpOf`（先發國際賽年數和，0.5×n 上限 3.0）、
+  `regionPatchDebt`（四大賽區 0／HOME 1.5／其餘 2.5）、`teamCheckM`（五人
+  psych 均值）；`intlMod = intlExp − debt` 進 `aggregateTeamStrength` 加項，
+  聚合式形狀一個字沒動。
+- **`engine/psych.js`**：Bo5 高壓檢定常數 `DECIDER_CHECK`（門檻 60、
+  comp×0.6＋resl×0.4、衰減上界 3.0、指數 1.5）與 `deciderCheckM`／
+  `deciderCheckDecay`。四常數歸 S36。
+- **`kernel/series.js`**：`runSeries` 在 bo5 時算雙邊檢定，決勝局經新增
+  `strengthShift` 參數走 `gameChance` 的戰力差加項——不進 §9.2 乘法鏈；
+  0:2→3:2 翻盤記 `reverse_sweep` 計數（`EVENT_COUNT_KEYS` 新鍵）。
+- **`engine/leagueSim.js`**：`recordIntlOpponentMicro`——實體化對手五人
+  微觀逐局併進 `intl` 池（局型走 intl ×1.25 方差放大），補上 §24.4.3
+  母體的 NPC 側。
+- **`phases/{shared,seriesEvent,msi,worlds,playoff}.js`**：`opp`／`intl`
+  參數穿透到五拍序列；Swiss 逐輪玩家微觀（S34 漏併修正）；舊制小組賽
+  對手微觀（NPC 側新口）；戰報級距帶國際版（`intlBandNote`，母體 <20 不顯示）；
+  Bo5 決勝局高壓敘事（只寫現象，測試守文字不洩漏 comp／resl／衰減值）。
+- **`kernel/groups.js`**：`runGroup` 逐局附 `oppIndex`、`runSwiss` 逐輪附
+  `opp`／`games`／`deaths`——供上層寫國際池。
+- **條件語言**：`intlGames`（國際賽生涯累計局數）走 `ledger.js` 查詢層，
+  `QUERIES`／`PREDICATES` 雙註冊；`reverse_sweep` 進 `EVENT_COUNT_KEYS`
+  （`tools/schema.js` 同步）。
+- **`data/epics.js`**：第 21 張傳說 `midseason_king`（季中王者；份量刻意走
+  `intlRoll`／`worldsRoll`／`seriesDecider`，避開明星效應 6% 失控警報）；
+  三個新 unique——`intl_dominator`（跨賽區高勝率）、`reverse_sweep_soul`
+  （讓二追三記帳）、`intl_veteran`（intlGames≥50）。
+- **`data/quests.js`**：`legend-midseason-king`（MSI 冠軍里程碑卡，發放口
+  仍唯一走任務卡結算）。
+- 量測對照（160 段，S34 → S35）：國際賽局勝率 56.0% → **53.5%**（錨帶內）、
+  世界冠軍人均 0.119 → 0.081、有國際冠軍 22 → 14 段、傳說持有 21.9% →
+  23.8%（帶內）；intlExp 實測對可實體化對手恆飽和 3.0（intlMod 淨 +3.0，
+  登記 S36）；p2 落回路徑全年份掃描零命中。`npm test` 23754 項全綠。
+
 ## [v4.8.3] - 2026-08-18
 
 ### 玩家戰績接入與相對評價（S34，Phase 3）
