@@ -19,8 +19,9 @@ import { intlOpponent, oppLineupText } from '../engine/opponents.js';
 import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { unlockTrait } from '../engine/progression.js';
+import { recordIntlOpponentMicro } from '../engine/leagueSim.js';
 import { bonus, floorOf } from '../kernel/modifiers.js';
-import { drawRoleplay, fusionBeats, kinded, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
+import { drawRoleplay, fusionBeats, intlBandNote, kinded, recordIntlFinish, recordIntlGroup, recordIntlSeries } from './shared.js';
 const card = kinded('match');
 import { runSeriesEvent } from './seriesEvent.js';
 
@@ -90,13 +91,17 @@ function* groupKnockout(g) {
 
   const group = runGroup(state, rng, { oppRatings: opps.map((o) => o.strength), seed: 0 });
   recordIntlGroup(state, group);
+  // S35（§24.4.3 母體 NPC 側）：小組 BO1 逐場把對手五人微觀併進 intl 池
+  for (const gm of group.games) recordIntlOpponentMicro(state, rng, opps[gm.oppIndex], [gm.win]);
   // 實體化對手帶隊名（§23.4 身分實體化）；匿名落回的那幾隊不列名
   const named = opps.filter((o) => o.materialized).map((o) => o.teamName);
+  const band = intlBandNote(state);
   yield card(group.advanced ? 'good' : 'bad', 'MSI 小組賽',
     (named.length ? `<span class="muted">對手：${named.join('、')}</span><br>` : '') +
     `六場循環戰 <b class="${group.advanced ? 'up' : 'dn'}">${group.wins}勝 ${group.losses}敗</b>。` +
     (group.note ? `${group.note}。` : '') +
-    (group.advanced ? '晉級淘汰賽。' : '<b class="dn">小組止步</b>。'));
+    (group.advanced ? '晉級淘汰賽。' : '<b class="dn">小組止步</b>。') +
+    (band ? `<br>${band}` : ''));
   if (!group.advanced) return 'out';
 
   return yield* knockout(g, ['四強', '決賽']);
@@ -111,11 +116,11 @@ function* doubleElim(g) {
   const w1 = drawIntlOpp(g, 0);
   const first = yield* runSeriesEvent(g, {
     title: 'MSI 勝部首輪 · BO5',
-    bo: 5, oppRating: w1.strength, seed: 0,
+    bo: 5, oppRating: w1.strength, seed: 0, opp: w1, intl: true,
     stakes: 'intl', pressure: PRESSURE.intl,
     oppNote: oppLineupText(w1) || '對手是其他賽區的冠軍隊。',
   });
-  recordIntlSeries(state, rng, first);
+  recordIntlSeries(state, rng, first, w1);
   yield card(first.win ? 'good' : 'bad', 'MSI 勝部',
     first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。');
 
@@ -123,11 +128,11 @@ function* doubleElim(g) {
     const lb = drawIntlOpp(g, 1.25);
     const lower = yield* runSeriesEvent(g, {
       title: 'MSI 敗部 · BO5',
-      bo: 5, oppRating: lb.strength, seed: 0,
+      bo: 5, oppRating: lb.strength, seed: 0, opp: lb, intl: true,
       stakes: 'intl', pressure: PRESSURE.intl,
       oppNote: oppLineupText(lb) || '從敗部殺回來的路，每一場都是生死戰。',
     });
-    recordIntlSeries(state, rng, lower);
+    recordIntlSeries(state, rng, lower, lb);
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部',
       lower.win ? '從敗部殺回來了。' : '<b class="dn">兩敗淘汰</b>。');
     if (!lower.win) return 'out';
@@ -147,11 +152,11 @@ function* knockout(g, rounds) {
     const opp = drawIntlOpp(g, 5 + i * 3);
     const res = yield* runSeriesEvent(g, {
       title: `MSI ${name} · BO5`,
-      bo: 5, oppRating: opp.strength, seed: 0,
+      bo: 5, oppRating: opp.strength, seed: 0, opp, intl: true,
       stakes: isFinal ? 'final' : 'intl', pressure: PRESSURE.intl,
       oppNote: oppLineupText(opp) || '對手是其他賽區的冠軍隊。',
     });
-    recordIntlSeries(state, rng, res);
+    recordIntlSeries(state, rng, res, opp);
 
     if (!res.win) return isFinal ? 'final' : 'semi';
   }

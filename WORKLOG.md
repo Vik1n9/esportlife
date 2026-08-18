@@ -62,6 +62,62 @@
 - **驗證**：`node docs/v4/next-station.mjs` 解析 68 站無誤，依賴鏈正確
   （S46 已解鎖；S47／S48 缺 S46；S49 缺 S47；S50 缺四站）。腳本本身**不必改**
   ——它直接解析狀態表，加站是純資料變動。
+## 2026-08-18 — S35 國際賽規則與特質連動：對手變成世界強權，第五局開始會發抖
+
+- **方向**：S32–S34 把聯賽數據池做起來了，但國際賽對手還吃一般階梯、Bo5
+  打到 2:2 沒有壓力、國際賽里程碑不發特質——「世界賽」聽起來大，打起來跟
+  聯賽沒兩樣。本站把 §24.4 四件 S31 定案落地（Global_Boss 合流、Bo5 高壓
+  檢定、國際賽母體補齊、傳說／獨有連動），常數與落點照 S31 不改量，偏移
+  量測交 S36。
+
+- **實作**：
+  - `src/engine/opponents.js`：intl 選池先收斂到「五人全為 fetch_priority 2」
+    的 p2 隊（`globalBoss: true`），p2 池空落回全池；`intlExpOf`（先發國際賽
+    年數和，0.5×n 上限 3.0）、`regionPatchDebt`（四大賽區 0／HOME 1.5／
+    其餘 2.5）、`teamCheckM`（五人 psych 均值）；`intlMod = intlExp − debt`
+    進 `aggregateTeamStrength` 加項，聚合式形狀一個字沒動。
+  - `src/engine/psych.js`：`DECIDER_CHECK` 四常數（門檻 60、comp×0.6＋resl×0.4、
+    衰減上界 3.0、指數 1.5）＋`deciderCheckM`／`deciderCheckDecay`。
+  - `src/kernel/series.js`：`runSeries` 在 bo5 算雙邊檢定，決勝局經新增
+    `strengthShift` 走 `gameChance` 的戰力差加項——不進 §9.2 乘法鏈；0:2→3:2
+    才記 `reverse_sweep`（`bumpEventCounters`，新計數鍵進 `EVENT_COUNT_KEYS`）。
+  - `src/engine/leagueSim.js`：`recordIntlOpponentMicro`——實體化對手五人
+    微觀逐局併進 intl 池（局型走 `gameTypeOf` 的 intl ×1.25 方差放大），
+    母體的 NPC 側至此接上。
+  - phases 接線：`opp`／`intl` 參數穿透五拍序列；Swiss 逐輪玩家微觀（S34
+    漏併修正）；舊制小組賽對手微觀（NPC 側不受「無陣亡」限制）；戰報級距帶
+    國際版（`intlBandNote`，母體 <20 不顯示）；決勝局高壓敘事只寫現象——
+    有測試守文字不洩 comp／resl／衰減值。
+  - `src/kernel/groups.js`：`runGroup` 逐局附 `oppIndex`、`runSwiss` 逐輪附
+    `opp`／`games`／`deaths`（供上層寫國際池）。
+  - 條件語言雙註冊：`intlGames` 新謂詞（`ledger.js` 查詢層、`QUERIES`／
+    `PREDICATES`）；`reverse_sweep` 計數鍵（`conditions.js`／`tools/schema.js`）。
+  - `src/data/epics.js`：第 21 張傳說 `midseason_king`（季中王者）；三 unique
+    （`intl_dominator`／`reverse_sweep_soul`／`intl_veteran`）。
+    ⚠ 新特質效果值刻意繞開明星效應警報：初版 `intlRoll` 直推 `gameChance`
+    把受限幅生涯推過 10/160（>6%），改經 `intlRoll`／`worldsRoll`（選池修正）
+    與 `seriesDecider`（決勝局加項），夾幅回到 5/160＝本站前基線。
+  - `src/data/quests.js`：`legend-midseason-king`（MSI 冠軍里程碑卡），發放口
+    仍唯一走任務卡結算。
+
+- **實測結論**：`npm test` **23754 項全綠**（淨增 228）。160 段校準對照
+  S34 → S35：國際賽局勝率 56.0% → **53.5%**（錨 53.1%±1pp 帶內）、世界冠軍
+  人均 0.119 → 0.081、MSI 冠軍人均 0.237 → 0.244（幾乎不動）、有國際冠軍
+  22 → 14 段、傳說持有 21.9% → 23.8%（帶內）、傳奇率老手 20.0% → 16.3%。
+  ⚠ intlExp 對所有實體化對手**恆飽和 3.0**（intlMod 實測淨 +3.0，S31 估的
+  ~1.5 不成立）——S36 要壓就動 intlExp 上界或 0.5 係數。⚠ p2 落回路徑
+  2012–2030 全掃描零命中（所有有池年份 p2 子池皆非空），死路保險。
+
+- **狀態**：完成。版號 v4.8.3 → **v4.8.4**（三處手抄本＋規格檔頭同步，
+  `tests/kernel/version.mjs` 守）。`SAVE_VERSION` 未動（28）——新增欄位皆
+  可選讀取。規格回寫：§23.4（實體化率 p2 池口徑）、§24.4.1／24.4.2／
+  24.4.3／24.4.4 S35 落地註記、§12.3／§14.1 傳說目錄 20 → 21。OCR 審查
+  閘門：比照 S30／S32–S34 往例，host agent 親自逐檔審查 diff。下一站 S36
+  （校準重驗·辛組收斂）。
+
+- **未一起處理**：Bo5 檢定四常數與 intlMod 量級交 S36 量測清單；傳說 ≥3
+  持有率 16.9% 破硬線 ≤12%（S34 前遺留，非本站引入）；舊制小組賽玩家側
+  微觀仍缺（無陣亡數據，NPC 側已補）。
 
 ## 2026-08-18 — S34 玩家戰績接入與相對評價：玩家併池，聯賽數據終於雙向可比
 

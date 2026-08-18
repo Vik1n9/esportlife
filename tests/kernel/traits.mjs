@@ -77,8 +77,9 @@ export async function run({ check }) {
         if (!POOLS.includes(t.pool)) check(`${tier}/${key} 池歸屬非法`, false);
       }
     }
-    check('全部 69 特質都有副作用', missing.length === 0, missing.join('、'));
-    check('特質總數 69（30 通用＋8 稀有＋11 史詩＋20 傳說）', total === 69, `${total}`);
+    check('全部 70 特質都有副作用', missing.length === 0, missing.join('、'));
+    // S35（§24.4.4）：MSI 冠軍里程碑新增第 21 張傳說（midseason_king），總數 69 → 70
+    check('特質總數 70（30 通用＋8 稀有＋11 史詩＋21 傳說）', total === 70, `${total}`);
     check('三級副作用都有分佈（輕>0、中>0、重>0）',
       counts.light > 0 && counts.medium > 0 && counts.heavy > 0, JSON.stringify(counts));
     // §13.2：重度副作用以「史詩／傳說」為典型；v4.2 重寫的雙面特質（心態崩盤、
@@ -92,10 +93,11 @@ export async function run({ check }) {
     check('重度副作用只出現在史詩／傳說／v4.2 雙面特質', heavyInLowTier.length === 0, heavyInLowTier.join('、'));
   }
 
-  /* ---- 傳說特質（§14.1，S19b）：數量 20、一律重度、無平白加分 ---- */
+  /* ---- 傳說特質（§14.1，S19b）：數量 21、一律重度、無平白加分 ----
+   * S35（§24.4.4）：MSI 冠軍里程碑連動新增 midseason_king，表定 20 → 21。 */
   {
     const legends = Object.entries(LEGENDARY_TRAITS);
-    check('傳說特質表定 20 種（§14.1）', legends.length === 20, `${legends.length}`);
+    check('傳說特質表定 21 種（§14.1＋§24.4.4 第 21 張）', legends.length === 21, `${legends.length}`);
     check('傳說全部重度副作用（§13.2）', legends.every(([, t]) => t.sideEffectLevel === 'heavy'),
       legends.filter(([, t]) => t.sideEffectLevel !== 'heavy').map(([k]) => k).join('、'));
     check('傳說全部屬 career 池（§14.2：career 不入合成）', legends.every(([, t]) => t.pool === 'career'),
@@ -178,6 +180,35 @@ export async function run({ check }) {
       young.milestones.push({ year: young.year, kind: 'award', text: '例行賽 MVP' });
       return !grantUniqueTraits(young).includes('late_bloom');
     })());
+
+    // §24.4.4（S35）：三條國際賽里程碑 unique 的發放口——帳本形狀照寫入端
+    // （recordIntlSeries 以局入帳 intlRecord、bumpEventCounters 記 reverse_sweep）
+    {
+      const dom = fresh();
+      dom.intlRecord = { W: 18, L: 6 };        // 勝率 75% ≥ 60
+      dom.intlAppearances = 3;
+      check('跨賽區高勝率：三度出征且勝率 ≥60 發放', grantUniqueTraits(dom).includes('intl_dominator'));
+
+      const winrateShort = fresh();
+      winrateShort.intlRecord = { W: 18, L: 6 };
+      winrateShort.intlAppearances = 2;         // 只差一次出征
+      check('跨賽區高勝率：出征未滿三次不發', !grantUniqueTraits(winrateShort).includes('intl_dominator'));
+
+      const vet = fresh();
+      vet.intlRecord = { W: 32, L: 19 };        // 局數 51 ≥ 50
+      check('國際賽老將：累計 ≥50 局發放', grantUniqueTraits(vet).includes('intl_veteran'));
+
+      const vetShort = fresh();
+      vetShort.intlRecord = { W: 30, L: 19 };   // 局數 49
+      check('國際賽老將：49 局不發', !grantUniqueTraits(vetShort).includes('intl_veteran'));
+
+      const rs = fresh();
+      rs.eventCounts = { reverse_sweep: 1 };
+      check('讓二追三：記帳命中即發放', grantUniqueTraits(rs).includes('reverse_sweep_soul'));
+
+      const rsNone = fresh();
+      check('讓二追三：沒有記帳不發', !grantUniqueTraits(rsNone).includes('reverse_sweep_soul'));
+    }
   }
 
   /* ---- 階名單一來源（S20c）：配方、條件式、UI 用同一套拼法 ---- */

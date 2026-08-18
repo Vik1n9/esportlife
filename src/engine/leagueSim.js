@@ -16,6 +16,7 @@ import { REGION_TEAM_IDS } from '../data/npc/teamIds.js';
 import { teamDisplayName, teamRegionOf } from '../data/npc/teamHistory.js';
 import { ROLES } from '../data/skills.js';
 import { baseGameChance } from '../kernel/series.js';
+import { teamStrength } from '../kernel/strength.js';
 import {
   accumulateMicroStats, accumulateMicroTotals, gameTypeOf, generateMicroStats,
 } from './microStats.js';
@@ -238,6 +239,36 @@ export function recordPlayerIntlMicroStats(state, micro) {
   if (!micro) return;
   const yearPool = ensureYear(state, state.year);
   accumulateMicroTotals(yearPool.intl.stats, PLAYER_STAT_ID, state.role, micro.G, micro);
+}
+
+/**
+ * 實體化對手的五人微觀數據併進 `intl` 段（§24.4.3 母體的 NPC 側，S35）：國際賽
+ * 百分位母體＝「背景模擬的國際對局＋玩家國際賽數據」，玩家側 S34 已接，NPC 側
+ * 是這一個口——同一個帳本寫入口（`phases/shared.js` 的 `recordIntlSeries`）順手
+ * 呼叫，不在 `worlds.js`／`msi.js` 另開呼叫點。
+ *
+ * 局型走國際賽方差放大（§24.2.4）：`gameTypeOf` 的 intl 旗標，σM ×1.25。
+ * 局型判定的強弱邊與玩家相同——對手的「弱方爆冷」與玩家的「爆冷贏」是同一局。
+ *
+ * @param {object} opp 實體化對手（`materialized: false` 直接略過——匿名沒有身分，
+ *   微觀池的鍵是 player_id，匿名隊混進來會污染母體）
+ * @param {boolean[]} playerWins 逐局玩家隊勝負（長度＝局數）
+ */
+export function recordIntlOpponentMicro(state, rng, opp, playerWins) {
+  if (!opp?.materialized || !playerWins?.length) return;
+  const yearPool = ensureYear(state, state.year);
+  const mine = teamStrength(state);
+  const deltaAbs = Math.abs(mine - opp.strength);
+  const playerWeak = mine < opp.strength;
+  const attrs = opp.players.map((p) => ({ ...p, ...npcMicroAttrs(p.id) }));
+  for (const playerWon of playerWins) {
+    const weakSideWon = playerWeak ? playerWon : !playerWon;
+    const { sigmaM, winMod, loseMod } = gameTypeOf(deltaAbs, weakSideWon, true);
+    for (const pl of attrs) {
+      accumulateMicroStats(yearPool.intl.stats, pl.id, pl.position,
+        generateMicroStats(rng, pl, sigmaM, playerWon ? loseMod : winMod));
+    }
+  }
 }
 
 /** 讀某一年某賽段的積分榜（沒有資料回 null）。UI／查詢層唯讀入口，不得直接戳 state.leaguePool */

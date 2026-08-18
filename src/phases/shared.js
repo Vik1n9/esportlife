@@ -18,7 +18,8 @@ import { settleQuests } from '../engine/quests.js';
 import { STAMINA_MAX } from '../engine/stamina.js';
 import { lastFinish } from '../engine/ledger.js';
 import { seriesMicroStats } from '../engine/season.js';
-import { recordPlayerIntlMicroStats } from '../engine/leagueSim.js';
+import { recordIntlOpponentMicro, recordPlayerIntlMicroStats } from '../engine/leagueSim.js';
+import { intlPercentile, percentileBand } from '../kernel/leagueStats.js';
 import {
   applyEventMarks, eventOdds, FLAG_TRAIT, recordEventTrigger, TRAIT_FLAGS,
 } from '../engine/eventTrigger.js';
@@ -351,17 +352,33 @@ export function* fusionBeats(g) {
  * S34（§24.4.3）順手把這一輪的微觀數據併進 `leaguePool[年].intl`——這是玩家國際賽
  * 數據併池的唯一入口，`recordIntlSeries` 本來就是 MSI／世界賽系列賽唯一的帳本寫入口
  * （國內季後賽不叫它），數據併池搭同一班車，不必在 msi.js／worlds.js 另開一個呼叫點。
+ *
+ * S35（§24.4.3 母體的 NPC 側）：對手微觀走同一個入口——帶 `opp`（實體化對手）時
+ * 逐局生成對手五人微觀併池；匿名對手（`materialized: false`）與沒帶 opp 的舊呼叫
+ * 不受影響。
  */
-export function recordIntlSeries(state, rng, res) {
+export function recordIntlSeries(state, rng, res, opp = null) {
   state.intlRecord.W += res.mine;
   state.intlRecord.L += res.theirs;
   recordPlayerIntlMicroStats(state, seriesMicroStats(state, rng, res.games.length, res.deaths));
+  recordIntlOpponentMicro(state, rng, opp, res.games.map((g) => g.startsWith('W')));
 }
 
 /** 國際賽小組／Swiss 循環的局勝負累進帳本（wins/losses 就是局數） */
 export function recordIntlGroup(state, res) {
   state.intlRecord.W += res.wins;
   state.intlRecord.L += res.losses;
+}
+
+/**
+ * 國際賽戰報的同位置級距帶（S35，§24.4.3 顯示層 1 的國際版）：玩家在 `intl`
+ * 池的同位置 KDA 百分位轉五檔詞條，回傳完整 HTML 片段。母體不足（<20 筆）或
+ * 玩家本人未進池時回 null——顯示層對「不可求值」一律不說話，不硬造級距。
+ * 系列賽結果卡與小組／Swiss 階段卡都經它（「級距帶」字串的單一來源）。
+ */
+export function intlBandNote(state) {
+  const band = percentileBand(intlPercentile(state, 'kda'));
+  return band ? `<span class="muted">國際賽同位置級距：${band}</span>` : null;
 }
 
 /**

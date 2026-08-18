@@ -18,11 +18,15 @@
  */
 import { clamp } from '../core/rng.js';
 import { CHAMPIONSHIP_POINTS, PLAYOFF_ROUNDS } from '../data/formats/playoffs.js';
+import { bumpEventCounters } from '../engine/eventTrigger.js';
 import { clutchBonus, underdogBonus } from '../engine/mental.js';
-import { PRESSURE, DECIDER_PRESSURE } from '../engine/psych.js';
+import { PRESSURE, DECIDER_PRESSURE, deciderCheckDecay, deciderCheckM } from '../engine/psych.js';
 import { seriesDeaths } from '../engine/season.js';
 import { teamStrength } from './strength.js';
 import { bonus } from './modifiers.js';
+
+/** Bo5 0:2 落後翻成 3:2 的記帳鍵（§24.4.4，`['eventCount','reverse_sweep',…]`） */
+export const REVERSE_SWEEP_KEY = 'reverse_sweep';
 
 /**
  * 進不進得了季後賽。例行賽打得越好、隊伍越強，機會越大。
@@ -53,9 +57,12 @@ export function baseGameChance(strengthDiff) {
  *
  * `mod` 是備賽戰術（S15）帶進來的勝率修正：只加在這一輪系列賽上，是單場的準備、
  * 不是屬性。預設 0 對既有呼叫零影響。
+ *
+ * `strengthShift` 是 Bo5 高壓檢定（§24.4.2）的第五局隊伍強度加項——玩家隊與
+ * 對手的衰減差，正負皆可，只加在戰力差上、不進 §9.2 乘法鏈。
  */
-export function gameChance(state, oppRating, { decider = false, seed = 0, mod = 0 } = {}) {
-  let p = baseGameChance(teamStrength(state) - oppRating);
+export function gameChance(state, oppRating, { decider = false, seed = 0, mod = 0, strengthShift = 0 } = {}) {
+  let p = baseGameChance(teamStrength(state) - oppRating + strengthShift);
   p += underdogBonus(state, seed) + bonus(state, 'seriesGame') + mod;
   if (decider) p += clutchBonus(state) + bonus(state, 'seriesDecider');
   return clamp(p, 8, 92);
@@ -71,22 +78,47 @@ export function gameChance(state, oppRating, { decider = false, seed = 0, mod = 
  * @param {number} bo 1、3 或 5
  * @param {number} [pressure] 見 `psych.PRESSURE`，預設季後賽
  * @param {number} [mod] 備賽戰術的單場勝率修正（S15），預設 0
- * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean, deaths:number}}
+ * @param {object|null} [opp] 實體化對手（§24.4.2 對稱檢定讀 `opp.checkM`），匿名對手視同 m=50
+ * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean, deaths:number,
+ *   deciderCheck?:object, reverseSweep?:boolean}}
  */
-export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE.playoff, mod = 0 }) {
+export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE.playoff, mod = 0, opp = null }) {
   const need = Math.ceil(bo / 2);
+  // Bo5 2:2 第五局＝檢定局（§24.4.2）：團隊強度加項，不進 §9.2 乘法鏈。
+  // 玩家衰減 − 對手衰減——檢定是對稱的，兩邊各衰各的，只有低 comp／resl 的生涯吃虧
+  let checkShift = 0;
+  let deciderCheck = null;
+  if (bo === 5) {
+    const m = state.mental || {};
+    const mineM = deciderCheckM(m.comp ?? 50, m.resl ?? 50);
+    const oppM = opp?.checkM ?? 50;
+    const mineDecay = deciderCheckDecay(mineM);
+    const oppDecay = deciderCheckDecay(oppM);
+    checkShift = oppDecay - mineDecay;
+    deciderCheck = { m: mineM, oppM, mineDecay, oppDecay };
+  }
   let mine = 0; let theirs = 0;
+  let down02 = false;
   const games = [];
   while (mine < need && theirs < need) {
     const decider = bo > 1 && mine === need - 1 && theirs === need - 1;
-    const won = rng.chance(gameChance(state, oppRating, { decider, seed, mod }));
+    const won = rng.chance(gameChance(state, oppRating, {
+      decider, seed, mod, strengthShift: decider ? checkShift : 0,
+    }));
     if (won) mine += 1; else theirs += 1;
+    if (mine === 0 && theirs === 2) down02 = true;
     games.push(`${won ? 'W' : 'L'}${decider ? '*' : ''}`);
   }
   const decider = games.some((g) => g.endsWith('*'));
   // 被拖進決勝局，壓力不是線性疊加的——整輪一起往上調
   const deaths = seriesDeaths(state, rng, games.length, pressure * (decider ? DECIDER_PRESSURE : 1));
-  return { win: mine > theirs, mine, theirs, games, decider, deaths };
+  const reverseSweep = bo === 5 && down02 && mine === 3 && theirs === 2;
+  if (reverseSweep) bumpEventCounters(state, [REVERSE_SWEEP_KEY]);
+  return {
+    win: mine > theirs, mine, theirs, games, decider, deaths,
+    ...(bo === 5 ? { deciderCheck } : {}),
+    ...(reverseSweep ? { reverseSweep } : {}),
+  };
 }
 
 /**

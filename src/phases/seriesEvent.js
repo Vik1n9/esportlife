@@ -24,7 +24,7 @@ import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { consume, recover, recoveryOptions } from '../engine/stamina.js';
 import { runSeries } from '../kernel/series.js';
-import { kinded } from './shared.js';
+import { intlBandNote, kinded } from './shared.js';
 const card = kinded('match');
 
 /**
@@ -107,10 +107,12 @@ function postMatchNarrative(stakes, win, oppTag = null) {
  * @param {string} [opts.oppNote] 對手敘事（怎麼來、什麼身分），由呼叫端提供
  * @param {string} [opts.oppTag] 對手身分標記（S20g）：`'reigningChampion'` 等，改賽後語氣
  * @param {string} [opts.oppTitle] 對手身分的顯示標籤（如「衛冕冠軍」），進賽前敘事
+ * @param {object|null} [opts.opp] 實體化對手：Bo5 高壓檢定（§24.4.2）讀 `opp.checkM`
+ * @param {boolean} [opts.intl] 國際賽戰報：結果卡附國際榜同位置級距帶（§15.2／§24.4.3）
  * @returns {{win:boolean, mine:number, theirs:number, games:string[], decider:boolean, deaths:number}}
  */
 export function* runSeriesEvent(g, {
-  title, bo, oppRating, seed, stakes, pressure = PRESSURE[stakes] ?? PRESSURE.playoff, oppNote = '', oppTag = null, oppTitle = '',
+  title, bo, oppRating, seed, stakes, pressure = PRESSURE[stakes] ?? PRESSURE.playoff, oppNote = '', oppTag = null, oppTitle = '', opp = null, intl = false,
 }) {
   const { state, rng } = g;
 
@@ -163,12 +165,24 @@ export function* runSeriesEvent(g, {
   }
 
   /* ── 第 4 拍：比賽自動模擬 → 結果呈現（沿用 kernel/series.js，不重寫） ── */
-  const res = runSeries(state, rng, { bo, oppRating, seed, pressure, mod });
+  const res = runSeries(state, rng, { bo, oppRating, seed, pressure, mod, opp });
   const deciderNote = res.decider
     ? `<br><span class="muted">系列賽被拖進決勝局，${res.win ? '你們把它拿下來了' : '最後一局沒守住'}。</span>`
     : '';
+  // §15.2 v4.8.0 增訂：Bo5 檢定局附一句高壓敘事——只寫現象，不出 comp／resl 數值與衰減點數，
+  // 不暗示對手心理。輸掉而己方沒衰減時寫中性的「一時之差」，不栽贓給自己也不指對手
+  let checkNote = '';
+  if (res.deciderCheck && res.decider) {
+    const line = res.win
+      ? '第五局的手穩住了。'
+      : (res.deciderCheck.mineDecay > 0 ? '第五局，手在螢幕前抖了一下。' : '決勝局只輸在一時之差。');
+    checkNote = `<br><span class="muted">${line}</span>`;
+  }
+  // §15.2 國際賽戰報：結果卡附國際榜同位置級距帶（母體不足時 intlBandNote 回 null，不顯示）
+  const intlNoteRaw = intl ? intlBandNote(state) : null;
+  const intlNote = intlNoteRaw ? `<br>${intlNoteRaw}` : '';
   yield card(res.win ? 'good' : 'bad', `${title} · 結果`,
-    `<b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${deciderNote}` +
+    `<b class="${res.win ? 'up' : 'dn'}">${res.mine}-${res.theirs}</b>${deciderNote}${checkNote}${intlNote}` +
     `<div class="statline">${res.games.length} 局｜陣亡 ${res.deaths}</div>`, series);
 
   /* ── 第 5 拍：賽後敘事 ＋ 心理結算 ── */

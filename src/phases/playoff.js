@@ -122,6 +122,7 @@ function* playoffs(g, split, stat, splitCount) {
       bo: round.bo,
       oppRating: opp.strength,
       seed,
+      opp,
       stakes: round.key === 'final' ? 'final' : 'playoff',
       oppNote: oppLineupText(opp)
         || (seed === 1 ? '對上一路殺上來的黑馬'

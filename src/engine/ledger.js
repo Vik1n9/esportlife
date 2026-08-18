@@ -18,6 +18,15 @@ export function intlWinRate(state) {
   return Math.round((W / (W + L)) * 1000) / 10;
 }
 
+/**
+ * 國際賽生涯累計局數（§24.4.4「國際賽老將」，S35）：`intlRecord` 的 W + L——
+ * `recordIntlSeries`／`recordIntlGroup` 以「局」入帳（mine/theirs 與 wins/losses
+ * 都是局數），帳本就是局數的唯一來源，不另存計數。
+ */
+export function intlGames(state) {
+  return state.intlRecord.W + state.intlRecord.L;
+}
+
 /** 生涯場均助攻：所有分區累計助攻 ÷ 出場數（§14.3「究極綠葉」） */
 export function assistsPerGame(state) {
   let G = 0;

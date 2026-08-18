@@ -18,14 +18,14 @@ import { PRESSURE } from '../engine/psych.js';
  *
  * @param {number[]} oppRatings 同組對手的強度（LoL 小組賽是四隊，所以通常三個）
  * @param {number} advance 幾隊晉級
- * @returns {{wins:number, losses:number, games:{opp:number, win:boolean}[], advanced:boolean, note:string}}
+ * @returns {{wins:number, losses:number, games:{opp:number, oppIndex:number, win:boolean}[], advanced:boolean, note:string}}
  */
 export function runGroup(state, rng, { oppRatings, advance = 2, seed = 0 }) {
   const games = [];
   // 雙循環：每個對手打兩次，這是 2014 起世界賽小組賽的實際場次
   for (const round of [0, 1]) {
-    for (const oppRating of oppRatings) {
-      games.push({ opp: oppRating, round, win: rng.chance(gameChance(state, oppRating, { seed })) });
+    for (let i = 0; i < oppRatings.length; i++) {
+      games.push({ opp: oppRatings[i], oppIndex: i, round, win: rng.chance(gameChance(state, oppRatings[i], { seed })) });
     }
   }
   const wins = games.filter((g) => g.win).length;
@@ -52,6 +52,8 @@ export function runGroup(state, rng, { oppRatings, advance = 2, seed = 0 }) {
  * @param {function} [oppOf] S29：逐選手對手模型的對手函式 `(wins, losses) → { strength }`。
  *   不給時走舊的匿名階梯（par ＋ 淨勝場 ×2 ＋ 擺動），kernel 測試不依賴 NPC 池
  * @returns {{rounds:object[], wins:number, losses:number, advanced:boolean}}
+ *   每輪附 `opp`（實體化對手物件，匿名路徑為 null）與 `games`（逐局勝負，S35：
+ *   對手微觀併 intl 池、Bo5／Bo3 檢定與記帳的讀取面）
  */
 export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesToExit = 3, oppOf }) {
   const rounds = [];
@@ -59,8 +61,9 @@ export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesT
 
   while (wins < winsToAdvance && losses < lossesToExit) {
     // 戰績越好對手越強：+2.0 點 / 淨勝場（舊 1.6 × 1.25，§17.2 三）
-    const oppRating = oppOf
-      ? oppOf(wins, losses).strength
+    const opp = oppOf ? oppOf(wins, losses) : null;
+    const oppRating = opp
+      ? opp.strength
       : opponentStrength(par + (wins - losses) * 2.0 + rng.gauss(1.5));
     // 晉級局與淘汰局打 BO3，其餘 BO1——2023 起的實際規則
     const decisive = wins === winsToAdvance - 1 || losses === lossesToExit - 1;
@@ -75,6 +78,9 @@ export function runSwiss(state, rng, { par, seed = 0, winsToAdvance = 3, lossesT
       win: res.win,
       score: `${res.mine}-${res.theirs}`,
       decisive,
+      opp,
+      games: res.games,
+      deaths: res.deaths,
     });
   }
 

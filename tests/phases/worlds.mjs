@@ -132,6 +132,19 @@ export async function run({ check }) {
       JSON.stringify(s.titleHistory));
   }
 
+  /* ---- 國際賽母體：玩家與 NPC 微觀都併進 intl 池（§24.4.3，S34 玩家側／S35 NPC 側） ---- */
+  {
+    const s = pro(2016, { champPoints: 180 });
+    driveWorlds(s, forceWin);
+    const pool = s.leaguePool?.[2016]?.intl?.stats ?? {};
+    const npcRows = Object.entries(pool).filter(([k]) => k !== 'player');
+    check('打完世界賽，intl 池有 NPC 對手的微觀行（小組 BO1＋淘汰賽 BO5 兩路都併）',
+      npcRows.length >= 5, `${npcRows.length} 筆`);
+    check('玩家自己的微觀也在同一個池（同位置百分位的兩半）', !!pool.player, Object.keys(pool).length);
+    check('NPC 行與玩家行同格式（都有 G 與 role）',
+      npcRows.every(([, r]) => r.G > 0 && r.role) && pool.player.G > 0);
+  }
+
   /* ---- 存檔往返帶得動 titleHistory（純 JSON，S20g） ---- */
   {
     const s = pro(2016, { champPoints: 180 });

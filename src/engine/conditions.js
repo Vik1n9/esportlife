@@ -34,7 +34,7 @@
 import { TIER_STORES } from '../kernel/modifiers.js';
 import {
   assistsPerGame, assistP90, awardsThisYear, careerGames, distinctTeams, eventCountOf, eventFlagOn,
-  intlSemis, intlWinRate, lastFinish, longestTenure, msiBest, peakRatingP50, reigningChampion,
+  intlGames, intlSemis, intlWinRate, lastFinish, longestTenure, msiBest, peakRatingP50, reigningChampion,
   worldsBest,
 } from './ledger.js';
 import { finishOrder } from '../data/formats/finishes.js';
@@ -80,6 +80,7 @@ export const QUERIES = {
   careerScore,
   coachRating,
   intlWinRate,       // S17a：國際賽勝率（%）
+  intlGames,         // S35（§24.4.4）：國際賽生涯累計局數（讀 intlRecord 查詢層）
   assistsPerGame,    // S17a：生涯場均助攻
   longestTenure,     // S17a：單一戰隊最長年數
   distinctTeams,     // S17a：效力過幾支不同戰隊
