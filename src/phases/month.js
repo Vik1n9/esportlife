@@ -37,6 +37,7 @@ import { resolveTraining, trainingMenu } from '../engine/training.js';
 import { formatStatLine, simulateSeason } from '../engine/season.js';
 import { currentLeagueKey } from '../engine/roster.js';
 import { eventTrigger } from '../engine/eventTrigger.js';
+import { recordPlayerLeagueResult, simulateLeagueMonth } from '../engine/leagueSim.js';
 import { drawEvent, drawRoleplay, kinded } from './shared.js';
 const card = kinded('train');
 
@@ -183,15 +184,20 @@ function* regularSeason(g, phase) {
   const { state, rng } = g;
   if (!phase.matchWeight || state.seasonFactor <= 0) return;
 
-  const share = clamp(g.lineup ? g.lineup.share : 1, 0, 1);
-  consume(state, MATCH_MONTH_COST * share);
-  if (share <= 0) return;   // 板凳／整段養傷：位子被別人拿走了，這個月沒有你的比分
-
   const leagueKey = currentLeagueKey(state);
   // 最後一個參數是「這個月佔整個賽段的比例」——賽段的手氣被攤成幾個月時，
   // 每個月的抽樣誤差要放大回去（`engine/season.js` 的 noiseScale）
   const batch = phase.split ? phase.matchWeight / phase.split.weight : 1;
+  // 賽區背景模擬（§24.2.1，S32）：NPC 隊伍的循環賽跟玩家出不出賽無關——玩家坐板凳
+  // 不會讓聯賽停打，所以這一段在 share 判定之前就跑
+  simulateLeagueMonth(state, rng, leagueKey, phase, batch);
+
+  const share = clamp(g.lineup ? g.lineup.share : 1, 0, 1);
+  consume(state, MATCH_MONTH_COST * share);
+  if (share <= 0) return;   // 板凳／整段養傷：位子被別人拿走了，這個月沒有你的比分
+
   const stat = simulateSeason(state, rng, leagueKey, phase.matchWeight, share, staminaOf(state), batch);
+  recordPlayerLeagueResult(state, leagueKey, phase, stat);
   g.monthStats.push(stat);
 
   const label = phase.split && phase.splitCount > 1 ? `${phase.split.name} · ${phase.month} 月` : `${phase.month} 月`;

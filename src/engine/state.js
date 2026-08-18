@@ -52,7 +52,10 @@ import { teamsOf } from './roster.js';
 // v26：對手實體化計數（S29，§23.4）。新增 oppFaces（對手抽選與實體化計數，
 // 季後賽與國際賽各一格）——§23.4 實體化率量測的讀點。舊存檔缺這欄會讀成
 // undefined 讓計數報錯，故作廢
-export const SAVE_VERSION = 26;
+// v27：賽區背景模擬資料池（S32，§24.2.2）。新增 leaguePool（逐年 → 賽段積分榜與
+// 國際賽微觀數據容器，只存當年＋前一年）——舊存檔缺這欄會讓 `ensureSplit` 對
+// undefined 寫入報錯，故作廢
+export const SAVE_VERSION = 27;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
@@ -280,6 +283,10 @@ export function createState({ name, role, seed, stage = 'PRO' }) {
     // 對手抽選計數（S29，§23.4）：實體化率的讀點。季後賽與國際賽分開量
     // （MSI／世界賽門檻 ≥ 90%、季後賽 ≥ 80%，量測不硬紅）
     oppFaces: { playoff: { draws: 0, materialized: 0 }, intl: { draws: 0, materialized: 0 } },
+
+    // 賽區背景模擬資料池（S32，§24.2.2）：逐年 → 賽段積分榜／國際賽微觀數據。
+    // 只存匯總、只存當年＋前一年（`engine/leagueSim.js` 逐月寫入時順手清舊年）
+    leaguePool: {},
 
     // 賽段制：一年拆成 1～3 個賽段，各自結算與季後賽
     splitLog: [],            // 該年各賽段的 {name, stat, finish}

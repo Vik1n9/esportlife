@@ -1,3 +1,27 @@
+## [v4.8.1] - 2026-08-18
+
+### 模擬引擎與資料池落地（S32，Phase 1 宏觀模擬）
+
+賽區內 NPC 隊伍間的對戰第一次真的被模擬：純數學批量結算逐月循環賽，寫進
+`state.leaguePool`（S31 定案的 schema），接上 §22.1 的排名格。
+
+- **新增 `src/engine/leagueSim.js`**：`simulateLeagueMonth` 逐月結算 NPC
+  循環賽（隨機配對＋Bo3，`clamp(baseGameChance(強度差), 8, 92)`）；
+  `recordPlayerLeagueResult` 併入玩家隊戰績（直接採用 `simulateSeason` 的
+  `stat.W/L`，不二次模擬，§24.2.1 去重規則）；隊伍池不足 6 支時補合成匿名隊
+  （`par±7`，無身分敘事），與 §23.7 同構。
+- **單一來源整理**：`kernel/series.js` 拆出 `baseGameChance`（§11.1 斜率
+  1.76，玩家系列賽與 NPC 背景模擬共用）；`engine/opponents.js` 拆出
+  `aggregateTeamStrength`（§23.4 聚合式）與 `regionKeyOf`（賽區字串換算），
+  `materializeOpponent` 與 `leagueSim.js` 兩個消費者共用同一份，不第三處手抄。
+- **`ui/board.js`**：`#bd-rank` 接上真實積分榜（格式「名次/總隊數」），
+  §21.3／§22.1 的「排名資料待接」備忘關閉。
+- **`SAVE_VERSION` 26 → 27**：新增 `state.leaguePool`（只存當年＋前一年，
+  §24.2.2 保留策略）。
+- 新增 `tests/kernel/leagueSim.mjs`（15 項）：積分榜場次守恆（每場恰一勝
+  一敗）、已排序、玩家戰績去重、賽段內隊伍組成固定、保留策略、業餘期不
+  背景模擬、海外賽區同樣可用。
+
 ## [v4.8.0] - 2026-08-18
 
 ### 賽事模擬細部定案（S31，§24.2–24.6 與受影響節回寫）
