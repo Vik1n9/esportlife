@@ -11,9 +11,12 @@
  */
 import { Rng, clamp } from '../core/rng.js';
 import { LEAGUES } from '../data/leagues.js';
+import { NPC_BY_ID } from '../data/npc/roster.js';
 import { REGION_TEAM_IDS } from '../data/npc/teamIds.js';
 import { teamDisplayName, teamRegionOf } from '../data/npc/teamHistory.js';
+import { ROLES } from '../data/skills.js';
 import { baseGameChance } from '../kernel/series.js';
+import { accumulateMicroStats, gameTypeOf, generateMicroStats } from './microStats.js';
 import {
   aggregateTeamStrength, regionKeyOf, teamsInYear,
 } from './opponents.js';
@@ -40,10 +43,28 @@ function regionNpcTeams(year, region) {
  * 合成匿名隊（§23.7／§24.2.1 同構）：強度按該賽區該年 par±7 分布生成，無身分敘事。
  * 用 `年/賽區/序號` 派生的獨立種子（不吃人生流），同一年賽區永遠補出同一批——
  * 不必額外持久化，也不會因為玩家換隊而讓補位隊伍在同一賽段中途變來變去。
+ *
+ * 五個位置各配一名合成選手（§24.2.3 微觀生成吃 tec/agi/awr，圍繞隊伍強度 gauss
+ * 擺動）——無身分敘事僅指不掛隊名／人名，微觀數據池仍收（key＝`syn-N-位置`）。
  */
 function syntheticTeam(year, region, index, par) {
   const rng = new Rng(`league-filler:${year}:${region}:${index}`);
-  return { id: `syn-${index}`, name: `外卡戰隊${index + 1}`, strength: rng.int(par - 7, par + 7) };
+  const strength = rng.int(par - 7, par + 7);
+  const teamId = `syn-${index}`;
+  const players = ROLES.map((position) => ({
+    id: `${teamId}-${position}`,
+    position,
+    tec: clamp(strength + rng.gauss(6), 40, 95),
+    agi: clamp(strength + rng.gauss(6), 40, 95),
+    awr: clamp(strength + rng.gauss(6), 40, 95),
+  }));
+  return { id: teamId, name: `外卡戰隊${index + 1}`, strength, players };
+}
+
+/** NPC 微觀生成吃的三屬性（§24.2.3）。入池不變式保證 `peak` 存在必有 `attributes`（見 tests） */
+function npcMicroAttrs(playerId) {
+  const { tec, agi, awr } = NPC_BY_ID[playerId].attributes;
+  return { tec, agi, awr };
 }
 
 /**
@@ -54,7 +75,12 @@ function nonPlayerPool(state, year, leagueKey, region) {
   const selfTeamId = REGION_TEAM_IDS[state.team] ?? null;
   const real = regionNpcTeams(year, region)
     .filter((t) => t.teamId !== selfTeamId)
-    .map((t) => ({ id: t.teamId, name: teamDisplayName(t.teamId), strength: aggregateTeamStrength(t.players, region) }));
+    .map((t) => ({
+      id: t.teamId,
+      name: teamDisplayName(t.teamId),
+      strength: aggregateTeamStrength(t.players, region),
+      players: t.players.map((p) => ({ id: p.id, position: p.position, ...npcMicroAttrs(p.id) })),
+    }));
   const par = LEAGUES[leagueKey]?.par ?? 66;
   const deficit = Math.max(0, MIN_TEAMS - 1 - real.length);
   const synthetic = Array.from({ length: deficit }, (_, i) => syntheticTeam(year, region, i, par));
@@ -145,11 +171,25 @@ export function simulateLeagueMonth(state, rng, leagueKey, phase, batch) {
     const rowA = rowById.get(teamA.id); const rowB = rowById.get(teamB.id);
     if (!rowA || !rowB) continue;
 
-    // Bo3 逐局獨立結算，不做氣勢項（§24.2.1）
+    // 局型識別（§24.2.4）：夾取前的宏觀強度差，逐局擺動不進局型
+    const deltaAbs = Math.abs(teamA.strength - teamB.strength);
+    const aIsWeak = teamA.strength <= teamB.strength;
+
+    // Bo3 逐局獨立結算，不做氣勢項（§24.2.1）；每局順手生成雙方五人微觀數據（§24.2.3）
     let winsA = 0; let winsB = 0;
     while (winsA < 2 && winsB < 2) {
       const p = clamp(baseGameChance(teamA.strength - teamB.strength), 8, 92);
-      if (rng.chance(p)) { winsA += 1; rowA.W += 1; rowB.L += 1; } else { winsB += 1; rowB.W += 1; rowA.L += 1; }
+      const aWins = rng.chance(p);
+      if (aWins) { winsA += 1; rowA.W += 1; rowB.L += 1; } else { winsB += 1; rowB.W += 1; rowA.L += 1; }
+
+      const weakSideWon = aIsWeak ? aWins : !aWins;
+      const { sigmaM, winMod, loseMod } = gameTypeOf(deltaAbs, weakSideWon);
+      for (const pl of teamA.players) {
+        accumulateMicroStats(entry.stats, pl.id, pl.position, generateMicroStats(rng, pl, sigmaM, aWins ? winMod : loseMod));
+      }
+      for (const pl of teamB.players) {
+        accumulateMicroStats(entry.stats, pl.id, pl.position, generateMicroStats(rng, pl, sigmaM, aWins ? loseMod : winMod));
+      }
     }
   }
 
@@ -174,6 +214,11 @@ export function recordPlayerLeagueResult(state, leagueKey, phase, stat) {
 /** 讀某一年某賽段的積分榜（沒有資料回 null）。UI／查詢層唯讀入口，不得直接戳 state.leaguePool */
 export function standingsFor(state, year, splitKey) {
   return state.leaguePool?.[year]?.splits?.[splitKey]?.standings ?? null;
+}
+
+/** 讀某一年某賽段的個人數據池（沒有資料回 null），供 `microStats.leaderboard` 消費 */
+export function statsFor(state, year, splitKey) {
+  return state.leaguePool?.[year]?.splits?.[splitKey]?.stats ?? null;
 }
 
 /** 玩家在積分榜裡的名次（1 起算），榜不存在回 null */
