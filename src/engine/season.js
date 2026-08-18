@@ -1,6 +1,6 @@
 /** 賽季模擬：場次、勝負、個人數據。純函式，不碰 state 以外的東西。 */
 import { clamp } from '../core/rng.js';
-import { STAT_BASELINE } from '../data/skills.js';
+import { STAT_BASELINE, TEAM_DPM_TOTAL } from '../data/skills.js';
 import { LEAGUES } from '../data/leagues.js';
 import { blankSeasonStat } from './state.js';
 import { effectiveCoachRating, skills } from './attributes.js';
@@ -8,6 +8,12 @@ import { opponentStrength, teamStrength } from '../kernel/strength.js';
 import { factor } from '../kernel/modifiers.js';
 import { consume, formFactor, seriesCost, staminaOf } from './stamina.js';
 import { PRESSURE, mistakeFactor } from './psych.js';
+
+/**
+ * DPM 換算常數（§24.2.3／§24.2.5）：單一來源住 `data/skills.js`，池兩邊
+ * （NPC＝`engine/microStats.js`，玩家＝這裡）共用同一個常數，不得各抄一份。
+ */
+const DPM_SCALE = TEAM_DPM_TOTAL / 100;
 
 /**
  * 每場陣亡數——**V4 §9.3 失誤系統唯一的可見出口**。
@@ -158,6 +164,8 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1, sta
   stat.CS = Math.round(stat.G * base.CS * (1 + (a.lane - par) * 0.0048));
   stat.VIS = Math.round(stat.G * base.VIS * (1 + (a.vis - par) * 0.0064));
   stat.DMG = Math.round(clamp((base.DMG + delta * 0.32) * form + rng.gauss(1.5 * noise), 6, 45) * 10) / 10;
+  // 玩家端 DPM（§24.2.5）：DMG% 的線性換算，不引進新隨機數、不動既有平衡
+  stat.DPM = Math.round(stat.DMG * DPM_SCALE * 10) / 10;
 
   const soloLaneBonus = (state.role === 'TOP' || state.role === 'MID') ? (a.lane - par) * 0.008 : 0;
   stat.SOLO = Math.round(stat.G * base.SOLO * clamp(1 + soloLaneBonus, 0.2, 2.2) * factor(state, 'soloRate'));
@@ -167,6 +175,40 @@ export function simulateSeason(state, rng, leagueKey, weight = 1, share = 1, sta
   stat.MVP = Math.round(stat.G * mvpRate);
 
   return stat;
+}
+
+/**
+ * 一輪系列賽（季後賽／MSI／世界賽，V4 §15.2）的玩家微觀數據（§24.4.3，S34）。
+ *
+ * 國際賽百分位母體需要玩家自己的 intl 數據，這裡沿用 `simulateSeason` 同一組
+ * 每局公式（同一個人、同一份技能，數據生成邏輯不該系列賽另開一份）。`deaths`
+ * 由呼叫端的 `kernel/series.js` `seriesDeaths` 已經算好帶入，這裡不重算——
+ * §9.3 受迫性失誤的可見出口只有那一個，重算等於算兩次。
+ *
+ * 回傳的六維是**這一輪系列賽的總量**（K/A/CS/VIS 是總和、DPM 是總量換算，
+ * 不是場均），與 `engine/leagueSim.js`／`engine/microStats.js` 的池累加格式
+ * 對齊（`accumulateMicroTotals` 消費）。
+ *
+ * @param {number} games 這一輪系列賽打了幾局
+ * @param {number} deaths 這一輪系列賽的陣亡數（`seriesDeaths` 算好的）
+ */
+export function seriesMicroStats(state, rng, games, deaths) {
+  if (!games) return null;
+  const par = LEAGUES[state.league]?.par ?? 66;
+  const a = skills(state);
+  const base = STAT_BASELINE[state.role];
+  const form = formFactor(staminaOf(state));
+  const delta = effectiveCoachRating(state) - par;
+
+  const k = clamp(base.K + (a.op - par) * 0.008 + (a.lane - par) * 0.0064 + rng.gauss(0.2), 0.3, 3.2);
+  const K = Math.round(games * k * form * factor(state, 'killRate'));
+  const A = Math.round(games * base.A * (1 + (a.gank - par) * 0.0032 + (a.vis - par) * 0.0032));
+  const CS = Math.round(games * base.CS * (1 + (a.lane - par) * 0.0048));
+  const VIS = Math.round(games * base.VIS * (1 + (a.vis - par) * 0.0064));
+  const dmg = clamp((base.DMG + delta * 0.32) * form + rng.gauss(1.5), 6, 45);
+  const DPM = Math.round(dmg * DPM_SCALE * games * 10) / 10;
+
+  return { G: games, K, D: deaths, A, DPM, CSM: CS, VSPM: VIS };
 }
 
 /**
@@ -182,6 +224,8 @@ export function mergeSplits(splits) {
   }
   const totalG = out.G || 1;
   out.DMG = Math.round(splits.reduce((t, s) => t + s.DMG * s.G, 0) / totalG * 10) / 10;
+  // DPM 跟 DMG 同一種量（比例，非累加），S34：一樣取場次加權平均
+  out.DPM = Math.round(splits.reduce((t, s) => t + s.DPM * s.G, 0) / totalG * 10) / 10;
   out.delta = Math.round(splits.reduce((t, s) => t + (s.delta || 0), 0) / splits.length * 10) / 10;
   return out;
 }
@@ -191,8 +235,9 @@ export function accumulate(state, bucket, stat) {
   const acc = state.stats[bucket] || blankSeasonStat();
   acc.years += 1;
   for (const k of ['G', 'W', 'L', 'K', 'D', 'A', 'CS', 'VIS', 'SOLO', 'MVP']) acc[k] += stat[k];
-  // DMG% 是比例，取加權平均而非累加
+  // DMG% 是比例，取加權平均而非累加；DPM 同款（S34）
   acc.DMG = Math.round(((acc.DMG * (acc.years - 1) + stat.DMG) / acc.years) * 10) / 10;
+  acc.DPM = Math.round(((acc.DPM * (acc.years - 1) + stat.DPM) / acc.years) * 10) / 10;
   state.stats[bucket] = acc;
   return acc;
 }

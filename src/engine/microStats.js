@@ -82,13 +82,24 @@ export function generateMicroStats(rng, player, sigmaM, mods) {
 /**
  * 累加進 §24.2.2 的 `stats` 池：只存匯總（逐選手逐賽段累計＋場次），場均值讀取時
  * 才除——存半成品的平均值會在多次累加後累積捨入誤差，總量＋場次才是精確的匯總。
+ *
+ * `games`／`totals` 是**已經橫跨 N 場的總量**（S34：玩家一次寫入一批常規賽或一輪
+ * 系列賽，不像 NPC 逐局呼叫）——與 `accumulateMicroStats`（NPC，逐局呼叫、
+ * `games` 恆為 1）共用同一份累加邏輯，不另開一份。
  */
-export function accumulateMicroStats(stats, playerId, position, s) {
+export function accumulateMicroTotals(stats, playerId, position, games, totals) {
+  if (!games) return;
   const row = stats[playerId] || (stats[playerId] = {
     role: position, G: 0, K: 0, D: 0, A: 0, DPM: 0, CSM: 0, VSPM: 0,
   });
-  row.G += 1;
-  row.K += s.K; row.D += s.D; row.A += s.A; row.DPM += s.DPM; row.CSM += s.CSM; row.VSPM += s.VSPM;
+  row.G += games;
+  row.K += totals.K; row.D += totals.D; row.A += totals.A;
+  row.DPM += totals.DPM; row.CSM += totals.CSM; row.VSPM += totals.VSPM;
+}
+
+/** NPC 逐局呼叫的單場版本（§24.2.3）：games 恆為 1，走同一份累加邏輯。 */
+export function accumulateMicroStats(stats, playerId, position, s) {
+  accumulateMicroTotals(stats, playerId, position, 1, s);
 }
 
 /**

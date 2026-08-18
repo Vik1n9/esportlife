@@ -17,6 +17,8 @@ import { adjustPatchDebt, checkFusions, unlockTrait } from '../engine/progressio
 import { settleQuests } from '../engine/quests.js';
 import { STAMINA_MAX } from '../engine/stamina.js';
 import { lastFinish } from '../engine/ledger.js';
+import { seriesMicroStats } from '../engine/season.js';
+import { recordPlayerIntlMicroStats } from '../engine/leagueSim.js';
 import {
   applyEventMarks, eventOdds, FLAG_TRAIT, recordEventTrigger, TRAIT_FLAGS,
 } from '../engine/eventTrigger.js';
@@ -343,10 +345,17 @@ export function* fusionBeats(g) {
 
 /* ---------------- 生涯軌跡帳本（S17a，V4 §14.3／§15.5） ---------------- */
 
-/** 國際賽 BO5 系列賽的局勝負累進帳本。res 是 runSeriesEvent 的回傳（mine/theirs 為局數） */
-export function recordIntlSeries(state, res) {
+/**
+ * 國際賽 BO5 系列賽的局勝負累進帳本。res 是 runSeriesEvent 的回傳（mine/theirs 為局數）。
+ *
+ * S34（§24.4.3）順手把這一輪的微觀數據併進 `leaguePool[年].intl`——這是玩家國際賽
+ * 數據併池的唯一入口，`recordIntlSeries` 本來就是 MSI／世界賽系列賽唯一的帳本寫入口
+ * （國內季後賽不叫它），數據併池搭同一班車，不必在 msi.js／worlds.js 另開一個呼叫點。
+ */
+export function recordIntlSeries(state, rng, res) {
   state.intlRecord.W += res.mine;
   state.intlRecord.L += res.theirs;
+  recordPlayerIntlMicroStats(state, seriesMicroStats(state, rng, res.games.length, res.deaths));
 }
 
 /** 國際賽小組／Swiss 循環的局勝負累進帳本（wins/losses 就是局數） */

@@ -16,6 +16,8 @@ import { unlockTrait } from '../engine/progression.js';
 import {
   entryRound, playoffBerth, pointsFor, roundsFrom, splitSeed,
 } from '../kernel/series.js';
+import { percentileBand, splitPercentile } from '../kernel/leagueStats.js';
+import { applyMental } from '../engine/mental.js';
 import { oppLineupText, playoffOpponent } from '../engine/opponents.js';
 import { drawRoleplay, fusionBeats, kinded } from './shared.js';
 const card = kinded('match');
@@ -53,10 +55,23 @@ export function* run(g, phase) {
     return;
   }
 
+  /*
+   * 聯賽百分位掛載層 1／2（§24.3.1，S34）：賽段結算時，戰報文本附玩家數據的同位置
+   * 百分位級距描述；任一維（KDA 或 DPM）越過 P90 → 聲量 +3（每賽段至多一次，這裡
+   * 本來就只執行一次，兩維都越線不疊加）。母體不足（< 20）時 `splitPercentile`
+   * 回 null，band 與 fame 加成自然都不出現——不勉強切分樣本。
+   */
+  const kdaPct = splitPercentile(state, 'kda', split.key);
+  const dpmPct = splitPercentile(state, 'dpm', split.key);
+  const band = percentileBand(kdaPct);
+  const bandNote = band ? `<br><span class="muted">聯賽同位置百分位：${band}</span>` : '';
+
   const venue = state.stage === 'AMATEUR' ? rng.pick(AMATEUR_CUPS) : stageLabel(state);
   const label = splitCount > 1 ? `${venue}　${split.name}` : venue;
   yield card('', splitCount > 1 ? `${split.name}總結` : (state.stage === 'AMATEUR' ? '本年戰績' : '賽季總結'),
-    `${state.team}｜${label}<div class="statline">${formatStatLine(stat)}</div>`);
+    `${state.team}｜${label}<div class="statline">${formatStatLine(stat)}</div>${bandNote}`);
+
+  if ((kdaPct !== null && kdaPct >= 90) || (dpmPct !== null && dpmPct >= 90)) applyMental(state, { fame: 3 });
 
   // 賽段中的休息室：只有職業階段才有真正的休息室
   if (state.stage === 'PRO' && rng.chance(22)) yield* drawRoleplay(g, 'locker');

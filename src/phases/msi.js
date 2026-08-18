@@ -107,7 +107,7 @@ function* groupKnockout(g) {
  * 敗部那條線是重點——輸一場不會直接回家，這是雙敗制跟單淘汰最大的差別。
  */
 function* doubleElim(g) {
-  const { state } = g;
+  const { state, rng } = g;
   const w1 = drawIntlOpp(g, 0);
   const first = yield* runSeriesEvent(g, {
     title: 'MSI 勝部首輪 · BO5',
@@ -115,7 +115,7 @@ function* doubleElim(g) {
     stakes: 'intl', pressure: PRESSURE.intl,
     oppNote: oppLineupText(w1) || '對手是其他賽區的冠軍隊。',
   });
-  recordIntlSeries(state, first);
+  recordIntlSeries(state, rng, first);
   yield card(first.win ? 'good' : 'bad', 'MSI 勝部',
     first.win ? '留在勝部。' : '掉進敗部，再輸一場就回家。');
 
@@ -127,7 +127,7 @@ function* doubleElim(g) {
       stakes: 'intl', pressure: PRESSURE.intl,
       oppNote: oppLineupText(lb) || '從敗部殺回來的路，每一場都是生死戰。',
     });
-    recordIntlSeries(state, lower);
+    recordIntlSeries(state, rng, lower);
     yield card(lower.win ? 'good' : 'bad', 'MSI 敗部',
       lower.win ? '從敗部殺回來了。' : '<b class="dn">兩敗淘汰</b>。');
     if (!lower.win) return 'out';
@@ -138,7 +138,7 @@ function* doubleElim(g) {
 
 /** BO5 淘汰賽。每一輪都是一個扮演路口——國際賽的鏡頭比聯賽多太多。 */
 function* knockout(g, rounds) {
-  const { state } = g;
+  const { state, rng } = g;
   for (let i = 0; i < rounds.length; i++) {
     const name = rounds[i];
     const isFinal = i === rounds.length - 1;
@@ -151,7 +151,7 @@ function* knockout(g, rounds) {
       stakes: isFinal ? 'final' : 'intl', pressure: PRESSURE.intl,
       oppNote: oppLineupText(opp) || '對手是其他賽區的冠軍隊。',
     });
-    recordIntlSeries(state, res);
+    recordIntlSeries(state, rng, res);
 
     if (!res.win) return isFinal ? 'final' : 'semi';
   }

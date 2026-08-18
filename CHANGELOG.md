@@ -1,3 +1,34 @@
+## [v4.8.3] - 2026-08-18
+
+### 玩家戰績接入與相對評價（S34，Phase 3）
+
+S32／S33 把 NPC 的聯賽數據做出來了，但玩家的數據還在自己那條線，兩邊不通。
+本站把玩家數據併入統一資料池，擴充 DPM 維度，接上動態評價基準與百分位謂詞。
+
+- **`engine/state.js`**：`blankSeasonStat` 加 `DPM` 欄位；`SAVE_VERSION` 27 → 28。
+- **`engine/season.js`**：`simulateSeason` 算 `DPM = DMG% × (TEAM_DPM_TOTAL/100)`
+  （與 NPC 端共用同一個常數）；`mergeSplits`／`accumulate` 把 DPM 當比例
+  處理。新增 `seriesMicroStats`：系列賽（季後賽／MSI／世界賽）的玩家六維，
+  陣亡由呼叫端 `seriesDeaths` 帶入、不重算。
+- **`engine/microStats.js`**：新增 `accumulateMicroTotals`，NPC 與玩家共用同一份
+  累加邏輯（NPC 逐局呼叫、玩家一次寫入一批）。
+- **`engine/leagueSim.js`**：`recordPlayerLeagueResult` 把玩家六維併進賽段
+  `stats` 池（鍵 `PLAYER_STAT_ID`）；新增 `recordPlayerIntlMicroStats`（`intl`
+  段唯一寫入口）。
+- **`kernel/leagueStats.js`**（新）：`leaguePct` 節點的查詢層——指標白名單、
+  `splitPercentile`／`leaguePercentile`／`intlPercentile`（§24.4.3 國際賽獨立
+  基準）／`percentileBand`。母體 < 20 判 null，不勉強切分。
+- **`engine/conditions.js`**／**`tools/schema.js`**：新條件節點
+  `['leaguePct', 指標, 比較子, 百分位]`，讀當季模擬母體，與讀歷史史實母體的
+  `percentile` 節點物理隔離（雙註冊）。
+- **`phases/shared.js`**：`recordIntlSeries` 補 `rng` 參數，順手把國際賽系列賽
+  的玩家微觀數據併進 `intl` 池。
+- **`phases/playoff.js`**：賽段結算戰報附玩家 KDA 百分位級距描述，KDA／DPM
+  越 P90 加聲量（不碰教練評價、薪資、獎項——§24.3.1 禁止事項）。
+- **`ui/panel/team.js`**：新增「本賽段個人數據」與「國際賽數據」兩個 section。
+- 新增 `tests/kernel/season.mjs`（10 項）、`tests/kernel/leagueStats.mjs`
+  （18 項），`leagueSim.mjs`／`conditions.mjs` 各補若干。
+
 ## [v4.8.2] - 2026-08-18
 
 ### 微觀數據與排行榜落地（S33，Phase 2）

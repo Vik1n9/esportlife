@@ -1,4 +1,4 @@
-# 電競人生：LoL 職業選手生涯模擬 — 規格企劃書 v4.8.2（Rogue-like 重構版）
+# 電競人生：LoL 職業選手生涯模擬 — 規格企劃書 v4.8.3（Rogue-like 重構版）
 
 > 本文件為完全重構後的設計規格，**取代 v3.0（ESPORT-DESIGN.md）**。
 > v3 源自棒球生涯模擬的未授權架構，已整體捨棄；本版本從零建立，不帶任何舊架構殘留。
@@ -3074,6 +3074,17 @@ VSPM = base.VIS × (1 + awr⁺ × 0.008)                            + gauss(0.15
 - 舊欄位接法：`DMG%` 保留（玩家面板與既有消費端照舊，19.4 轉播卡讀帳本
   `kdaOf` 不受影響）；DPM 是純新增欄位，既有消費端零改寫。
 
+> **S34 落地**（v4.8.3）：`blankSeasonStat` 加 `DPM` 欄位，`engine/season.js`
+> 的 `simulateSeason` 在算完 `DMG` 後順手算 `stat.DPM = DMG × (TEAM_DPM_TOTAL/100)`
+> ——與 `engine/microStats.js` 共用同一個常數，不第三處手抄。`DPM` 跟 `DMG` 同一種
+> 量（比例，非累加），`mergeSplits`／`accumulate` 比照 `DMG` 走場次加權／逐年平均，
+> 不落進兩函式既有的「總量累加」迴圈。`SAVE_VERSION` 27 → **28**（見 §20.2）。
+> `engine/leagueSim.js` 的 `recordPlayerLeagueResult` 順手把玩家這個月的六維
+> （K/D/A/CS/VIS 已是總量，DPM 需乘回 `stat.G` 換算成與 NPC 端同格式的總量）併入
+> 賽段 `stats` 池，鍵固定為 `PLAYER_STAT_ID`（`'player'`，玩家全場只有一個，不必
+> 比照 NPC 用 `player_id`）——`kernel/leagueStats.js`／`ui/panel/team.js` 都靠這個
+> 鍵把玩家自己的列從池裡撈出來。
+
 ### 24.3 玩家戰績與聯賽參照系
 
 1. **統一數據池**：玩家於賽事事件序列（§15）與常規賽結算（§11.3）中產生之
@@ -3118,6 +3129,15 @@ VSPM = base.VIS × (1 + awr⁺ × 0.008)                            + gauss(0.15
     發放的獎項**，否則獎項（技能層定義）與聯賽評價（數據層定義）搶同一個名額；
   - 百分位**不得直接換屬性／技能／心理成長**——數據換成長是最短的農道。
 
+> **S34 落地**（v4.8.3）：三處掛載層都接在 `phases/playoff.js` 的賽段結算點
+> （§15.1 原有的「賽段總結」戰報卡，`formatStatLine` 印完戰績緊接著算）——
+> `kernel/leagueStats.js` 的 `splitPercentile(state, 'kda'/'dpm', split.key)`
+> 算出兩維百分位，`percentileBand` 轉五檔詞條附進同一張卡；KDA 或 DPM 任一
+> 越過 P90 呼叫 `applyMental(state, { fame: 3 })`（走既有邊際遞減，不是無條件
+> 加滿 3 點）。禁止事項四條**一字未動**：本站沒有碰 `attributes.js` 的
+> `coachRating`、`market.js` 的報價公式、`seasonEnd.js` 的獎項判定，也沒有讓
+> 任何百分位寫回屬性／技能／心理欄位。
+
 #### 24.3.2 百分位謂詞擴充（v4.8.0 定案，S34 實作）
 
 新增條件節點 `['leaguePct', 指標, 比較子, 百分位]`：玩家**當季**某指標在
@@ -3155,6 +3175,16 @@ VSPM = base.VIS × (1 + awr⁺ × 0.008)                            + gauss(0.15
   卡面審查（編輯器預覽＋ OCR 審查）以本表為準。`peakRating` 的 `percentile`
   門檻 S30 起無消費卡（網紅改絕對門檻 fallback）——保留不動，它等的是史實
   母體語意的下一張卡，不由 `leaguePct` 接管。
+
+> **S34 落地**（v4.8.3）：新建 `kernel/leagueStats.js`——`LEAGUE_PCT_METRICS`
+> 白名單、`splitPercentile`／`leaguePercentile`（`state.month` 反推當下賽段）／
+> `intlPercentile`（讀 `intl` 段，24.4.3）／`percentileBand`（五檔詞條）全部
+> 集中在這一個查詢模組，`conditions.js` 與 `tools/schema.js` 都只 import 常數，
+> 不各抄一份。`evalCond` 的 `leaguePct` case、`COND_KINDS`、`tools/schema.js` 的
+> `COND_NODES`／`COND_NODE_LABELS`／`validateCond` 同一個 commit 雙註冊，
+> `tests/kernel/conditions.mjs` 補了獨立的 `leaguePct` 求值區塊（母體 ≥20／<20／
+> 查無賽段／未知指標四種情境）。**尚無任何任務卡／特質合成消費 `leaguePct`**——
+> 本站只實作節點本身（引擎＋編輯器），寫卡是 S35 的事（見 24.6 表）。
 
 ### 24.4 國際賽運作機制
 
@@ -3245,6 +3275,21 @@ S29 預留的 `intlBoost` 掛鉤，公式形狀一個不動：
 （國際賽人口就是比聯賽強的那群人），**不設额外常數**。賽區基準與國際基準
 兩母體兩套表、互不推導；顯示層是 §22.3 選手面板的國際排行榜與 §15.2 賽事
 戰報的級距描述（24.3.1 掛載層 1 的國際版）。
+
+> **S34 落地**（v4.8.3）：`engine/leagueSim.js` 新增 `recordPlayerIntlMicroStats`
+> ——`state.leaguePool[年].intl.stats` 的唯一寫入口，由 `phases/shared.js` 的
+> `recordIntlSeries`（MSI／世界賽系列賽唯一的帳本寫入口，國內季後賽不叫它）
+> 順手呼叫，數據併池搭同一班車，不在 `worlds.js`／`msi.js` 另開呼叫點——6 個
+> 呼叫點只補了 `rng` 參數。玩家這一輪系列賽的六維由新函式
+> `engine/season.js` 的 `seriesMicroStats` 算（沿用 `simulateSeason` 同一組
+> 每局公式與同一個 DPM 換算，**不重算陣亡**——`deaths` 由 `kernel/series.js`
+> 的 `seriesDeaths` 帶入，避免 §9.3 失誤出口算兩次）。`ui/panel/team.js` 新增
+> 「國際賽數據」小節消費 `intlPercentile`，滿足死路檢驗（查詢層有真正的呼叫端）。
+> ⚠ **已知缺口**：舊制小組賽（2012–2022，`kernel/groups.js` 的 `runGroup`，
+> BO1 逐場）沒有陣亡數據（`seriesDeaths` 沒被呼叫過），本站**未併入** `intl`
+> 池——只有 Swiss／淘汰賽／地區資格賽（一律經 `runSeries`）併了。國際賽百分位
+> 母體因此在 2012–2022 賽制的年份會偏薄，留給後續站補（S35 若動 `runGroup` 順手
+> 一併考慮）。
 
 #### 24.4.4 傳說／獨有觸發連動清單（v4.8.0 定案，S35 吃）
 

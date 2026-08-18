@@ -12,8 +12,9 @@
 import { LEAGUES } from '../../data/leagues.js';
 import { ROLES, ROLE_NAMES } from '../../data/skills.js';
 import { calendarFor } from '../../engine/calendar.js';
-import { standingsFor, statsFor } from '../../engine/leagueSim.js';
-import { leaderboard } from '../../engine/microStats.js';
+import { PLAYER_STAT_ID, standingsFor, statsFor } from '../../engine/leagueSim.js';
+import { leaderboard, metricAverage } from '../../engine/microStats.js';
+import { intlPercentile, percentileBand, splitPercentile } from '../../kernel/leagueStats.js';
 import { currentLeagueKey, mateTeamId } from '../../engine/roster.js';
 import { formatMoney } from '../../engine/market.js';
 import { coachBonus, matesAverage } from '../../kernel/strength.js';
@@ -49,14 +50,16 @@ function renderStandings(state, entry) {
     </section>`;
 }
 
-/** 個人數據榜（§24.2.3／§24.3，S33）：各位置 KDA／DPM／視野的榜首，玩家數據尚未併池（S34） */
+/** 個人數據榜（§24.2.3／§24.3，S33 榜單＋S34 玩家併池）：各位置 KDA／DPM／視野的榜首 */
 function renderMicroLeaderboard(state, entry) {
   const stats = entry && statsFor(state, state.year, entry.split.key);
   if (!stats) return '';
   const rows = ROLES.map((role) => {
     const cell = (metric, label) => {
       const top = leaderboard(stats, role, metric, 1)[0];
-      return top ? `${label} ${escapeHtml(top.id)} ${top.value.toFixed(1)}` : `${label} —`;
+      if (!top) return `${label} —`;
+      const name = top.id === PLAYER_STAT_ID ? '你' : escapeHtml(top.id);
+      return `${label} ${top.id === PLAYER_STAT_ID ? `<b class="hl">${name}</b>` : name} ${top.value.toFixed(1)}`;
     };
     return `<div><span>${ROLE_NAMES[role]}</span><b>${cell('KDA', 'KDA')}｜${cell('DPM', 'DPM')}｜${cell('VSPM', '視野')}</b></div>`;
   }).join('');
@@ -64,6 +67,53 @@ function renderMicroLeaderboard(state, entry) {
     <section>
       <h5>個人數據榜（各位置榜首）</h5>
       <div class="kv">${rows}</div>
+    </section>`;
+}
+
+/** 玩家自己的聯賽數據與同位置百分位（§24.3.1，S34）：本賽段本人尚未出賽（G=0）時不顯示 */
+function renderOwnLeagueStats(state, entry) {
+  const stats = entry && statsFor(state, state.year, entry.split.key);
+  const mine = stats && stats[PLAYER_STAT_ID];
+  if (!mine || !mine.G) return '';
+  const kdaPct = splitPercentile(state, 'kda', entry.split.key);
+  const dpmPct = splitPercentile(state, 'dpm', entry.split.key);
+  const band = percentileBand(kdaPct);
+  const pctNote = band
+    ? `<div><span>聯賽百分位</span><b>KDA ${kdaPct.toFixed(0)}（${band}）｜DPM ${dpmPct === null ? '—' : dpmPct.toFixed(0)}</b></div>`
+    : `<div><span>聯賽百分位</span><b class="muted">母體不足，尚無法計算</b></div>`;
+  return `
+    <section>
+      <h5>本賽段個人數據</h5>
+      <div class="kv">
+        <div><span>KDA</span><b>${metricAverage(mine, 'KDA').toFixed(2)}</b></div>
+        <div><span>DPM</span><b>${metricAverage(mine, 'DPM').toFixed(0)}</b></div>
+        ${pctNote}
+      </div>
+    </section>`;
+}
+
+/**
+ * 國際賽獨立評價（§24.4.3，S34）：母體＝當季 `leaguePool[年].intl`，跟賽區基準
+ * 是兩套表、互不推導（母體本來就是比較強的那群人，基準自然更高，不設額外常數）。
+ * 玩家今年還沒打過國際賽（或 intl 段還沒有資料）時整節不顯示。
+ */
+function renderIntlStats(state) {
+  const intl = state.leaguePool?.[state.year]?.intl?.stats;
+  const mine = intl && intl[PLAYER_STAT_ID];
+  if (!mine || !mine.G) return '';
+  const kdaPct = intlPercentile(state, 'kda');
+  const band = percentileBand(kdaPct);
+  const pctNote = band
+    ? `<div><span>國際賽百分位</span><b>KDA ${kdaPct.toFixed(0)}（同位置${band}）</b></div>`
+    : `<div><span>國際賽百分位</span><b class="muted">母體不足，尚無法計算</b></div>`;
+  return `
+    <section>
+      <h5>${state.year} 國際賽數據</h5>
+      <div class="kv">
+        <div><span>KDA</span><b>${metricAverage(mine, 'KDA').toFixed(2)}</b></div>
+        <div><span>DPM</span><b>${metricAverage(mine, 'DPM').toFixed(0)}</b></div>
+        ${pctNote}
+      </div>
     </section>`;
 }
 
@@ -112,5 +162,7 @@ export function renderTeam(state) {
     </section>
 
     ${renderStandings(state, split)}
-    ${renderMicroLeaderboard(state, split)}`;
+    ${renderOwnLeagueStats(state, split)}
+    ${renderMicroLeaderboard(state, split)}
+    ${renderIntlStats(state)}`;
 }

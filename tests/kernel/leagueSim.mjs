@@ -1,18 +1,24 @@
 /**
- * 賽區背景模擬與資料池（§24.2.1／§24.2.2，S32）。
+ * 賽區背景模擬與資料池（§24.2.1／§24.2.2，S32；§24.2.5／§24.4.3 玩家併池，S34）。
  *
  * 守四件事：積分榜場次守恆（每場恰一勝一敗）、已排序、玩家隊去重（W/L 只從
  * `recordPlayerLeagueResult` 進帳，不被 `simulateLeagueMonth` 動到）、保留策略
  * （只存當年＋前一年）。強度公式與選隊池本身的不變式由 `tests/kernel/opponents.mjs`
  * 顧（`aggregateTeamStrength` 是同一份，S32 只是多一個消費者）。
+ *
+ * S34 加測：玩家微觀數據併進個人數據池（`recordPlayerLeagueResult`）與國際賽
+ * `intl` 段（`recordPlayerIntlMicroStats`）——總量格式要與 NPC 端（`metricAverage`
+ * 除以 G）同語意，兩邊才可比。
  */
 import { Rng } from '../../src/core/rng.js';
 import { blankSeasonStat } from '../../src/engine/state.js';
+import { metricAverage } from '../../src/engine/microStats.js';
 import {
-  playerRank, recordPlayerLeagueResult, simulateLeagueMonth, standingsFor,
+  PLAYER_STAT_ID, playerRank, recordPlayerIntlMicroStats, recordPlayerLeagueResult,
+  simulateLeagueMonth, standingsFor, statsFor,
 } from '../../src/engine/leagueSim.js';
 
-export const name = '賽區背景模擬與資料池（S32）';
+export const name = '賽區背景模擬與資料池（S32／S34）';
 
 const phase = (weight = 0.25, splitWeight = 0.5) => ({
   split: { key: 'S1', name: '春季賽', weight: splitWeight }, matchWeight: weight,
@@ -22,7 +28,7 @@ export async function run({ check, log }) {
   /* ---------------- 基本結構：積分榜守恆與排序 ---------------- */
 
   const rng = new Rng('league-sim');
-  const state = { year: 2022, league: 'HOME', team: '閃電狼', leaguePool: {} };
+  const state = { year: 2022, league: 'HOME', team: '閃電狼', role: 'ADC', leaguePool: {} };
 
   simulateLeagueMonth(state, rng, 'HOME', phase(), 0.5);
   const s1 = standingsFor(state, 2022, 'S1');
@@ -54,6 +60,39 @@ export async function run({ check, log }) {
   check('併入玩家戰績不動 NPC 列的場次', npcTotalAfter === npcTotalBefore, `${npcTotalBefore} → ${npcTotalAfter}`);
 
   check('玩家名次在榜上算得出來（1 起算）', playerRank(s1b) >= 1 && playerRank(s1b) <= s1b.length);
+
+  /* ---------------- 玩家微觀數據併池（§24.2.5，S34） ---------------- */
+
+  const statMicro = { ...blankSeasonStat(), G: 10, W: 6, L: 4, K: 40, D: 10, A: 60, CS: 80, VIS: 15, DMG: 20, DPM: 480 };
+  const stateMicro = { year: 2023, league: 'HOME', team: '閃電狼', role: 'ADC', leaguePool: {} };
+  simulateLeagueMonth(stateMicro, new Rng('league-sim-micro'), 'HOME', phase(), 0.5);
+  recordPlayerLeagueResult(stateMicro, 'HOME', phase(), statMicro);
+  const poolAfter = statsFor(stateMicro, 2023, 'S1');
+  const playerMicro = poolAfter[PLAYER_STAT_ID];
+  check('玩家微觀數據寫進個人數據池（鍵＝PLAYER_STAT_ID）', !!playerMicro);
+  check('role／G 與 stat 一致', playerMicro.role === 'ADC' && playerMicro.G === 10);
+  check('K/A 直接搬（simulateSeason 的 K/A 本來就是總量）',
+    playerMicro.K === statMicro.K && playerMicro.A === statMicro.A);
+  check('CSM／VSPM 的總量＝stat.CS／stat.VIS（總量，不是場均）',
+    playerMicro.CSM === statMicro.CS && playerMicro.VSPM === statMicro.VIS);
+  check('DPM 的總量＝stat.DPM（場均比例）× G，metricAverage 讀回來要等於 stat.DPM',
+    Math.abs(metricAverage(playerMicro, 'DPM') - statMicro.DPM) < 1e-6,
+    `${metricAverage(playerMicro, 'DPM')} vs ${statMicro.DPM}`);
+
+  // 同一個賽段第二個月再寫一次：累加而非覆蓋
+  recordPlayerLeagueResult(stateMicro, 'HOME', phase(), statMicro);
+  const playerMicro2 = statsFor(stateMicro, 2023, 'S1')[PLAYER_STAT_ID];
+  check('玩家微觀數據跨月累加，不是覆蓋', playerMicro2.G === 20 && playerMicro2.K === statMicro.K * 2);
+
+  /* ---------------- 玩家國際賽微觀數據併池（§24.4.3，S34） ---------------- */
+
+  const intlState = { year: 2024, league: 'HOME', team: '閃電狼', role: 'MID', leaguePool: {} };
+  recordPlayerIntlMicroStats(intlState, { G: 5, K: 12, D: 7, A: 18, DPM: 3200, CSM: 40, VSPM: 8 });
+  const intlPool = intlState.leaguePool[2024].intl.stats[PLAYER_STAT_ID];
+  check('國際賽微觀數據寫進 intl 段（不是 splits）', !!intlPool && intlPool.G === 5 && intlPool.K === 12);
+  check('intl 段不影響同年 splits 段（兩池物理隔離）', Object.keys(intlState.leaguePool[2024].splits).length === 0);
+  recordPlayerIntlMicroStats(intlState, null);
+  check('recordPlayerIntlMicroStats(null)（系列賽 0 局）安全略過，不炸也不改動', intlState.leaguePool[2024].intl.stats[PLAYER_STAT_ID].G === 5);
 
   /* ---------------- G=0（板凳／整段養傷）不進帳 ---------------- */
 

@@ -13,6 +13,7 @@
  *   ['stat', 查詢函式名, 比較子, 值]
  *   ['eventFlag', 旗標鍵]  ['eventCount', 計數鍵, 比較子, 值]
  *   ['percentile', 指標名, 比較子, 百分位]   ← S26：讀歷史母體靜態門檻
+ *   ['leaguePct', 指標名, 比較子, 百分位]    ← S34：讀當季模擬母體（§24.3.2）
  *
  * 比較子：lt | lte | eq | gte | gt | ne。`hasCount` 的語意是「持有數 ≥ n」。
  *
@@ -46,6 +47,7 @@ import { MENTAL_KEYS } from '../data/mental.js';
 import { ATTRS } from '../data/attributes.js';
 import { ROLE_ATTR_WEIGHTS } from '../data/skills.js';
 import { PERCENTILE_METRICS } from '../data/npc/percentiles.js';
+import { LEAGUE_PCT_METRICS, leaguePercentile } from '../kernel/leagueStats.js';
 import { effectiveParams } from './lifecycle.js';
 import { staminaOf } from './stamina.js';
 
@@ -128,7 +130,9 @@ export const QUERIES = {
  * 條件、或畫不出引擎認得的條件。`tests/kernel/conditions.mjs` 逐項求值後比對，
  * 不手抄預期字串。
  */
-export const COND_KINDS = ['and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount', 'percentile'];
+export const COND_KINDS = [
+  'and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount', 'percentile', 'leaguePct',
+];
 
 const OPS = {
   lt: (a, b) => a < b,
@@ -189,6 +193,17 @@ export function evalCond(state, node) {
       if (node[1] === 'assist') return op(assistsPerGame(state), assistP90(state));
       if (node[1] === 'peakRating') return op(state.peakRating ?? 0, peakRatingP50());
       return false;
+    }
+    // 聯賽百分位（S34，§24.3.2）：玩家當季在本賽區當季模擬母體中的同位置百分位。
+    // 與上面的 `percentile`（歷史史實母體）物理隔離——兩個節點各自表達一種母體，
+    // 拿錯節點寫不出目標條件（§24.1 第 2 條，混用即規格錯誤）。
+    case 'leaguePct': {
+      if (!LEAGUE_PCT_METRICS.includes(node[1])) throw new Error(`條件式未知的聯賽百分位指標：${node[1]}`);
+      const op = OPS[node[2]];
+      if (!op) throw new Error(`條件式未知的比較子：${node[2]}`);
+      const p = leaguePercentile(state, node[1]);
+      if (p === null) return false;   // 母體 < 20，樣本不足不勉強切分
+      return op(p, node[3]);
     }
     default: throw new Error(`條件式未知的節點：${node[0]}`);
   }
