@@ -99,10 +99,22 @@ export function teamsInYear(year) {
   return out;
 }
 
-/** 玩家當季的賽區判準：主場吃年代聯賽名，海外吃聯賽鍵（與 TEAM_HISTORY 的 region 同義） */
+/**
+ * 某年某聯賽對應的「賽區字串」——與 `TEAM_HISTORY` 的 `region` 欄位同義（主場吃
+ * 年代聯賽名 GPL／LMS／PCS／LCP，海外吃聯賽鍵本身 LCK／LPL／LEC／LCS）。
+ *
+ * 兩邊的「賽區」命名空間不一樣：`LEAGUES[key].region` 給的是 `data/regions/*` 的
+ * 賽區鍵（HOME／KR／CN…），`teamRegionOf` 給的是 Liquipedia 的聯賽代碼——這個函式
+ * 是兩邊的橋，S29 的 `selfRegion` 與 S32 的 `leagueSim.js` 共用同一條（單一來源）。
+ */
+export function regionKeyOf(year, leagueKey) {
+  if (leagueKey === 'HOME') return eraOf(year).home;
+  return LEAGUES[leagueKey]?.region !== 'HOME' ? leagueKey : eraOf(year).home;
+}
+
+/** 玩家當季的賽區判準：`regionKeyOf` 的 state 版本 */
 function selfRegion(state) {
-  if (state.league === 'HOME') return eraOf(state.year).home;
-  return LEAGUES[state.league]?.region !== 'HOME' ? state.league : eraOf(state.year).home;
+  return regionKeyOf(state.year, state.league);
 }
 
 /**
@@ -145,8 +157,6 @@ export function materializeOpponent(state, target, scope, intlBoost = 0) {
   const pick = pool.reduce((best, t) => (Math.abs(t.carry - target) < Math.abs(best.carry - target) ? t : best), pool[0]);
   const region = teamRegionOf(pick.teamId);
   const carryPlayer = pick.players.reduce((a, b) => (b.power > a.power ? b : a));
-  const others = pick.players.filter((p) => p !== carryPlayer);
-  const othersAvg = others.reduce((t, p) => t + p.power, 0) / others.length;
 
   return {
     materialized: true,
@@ -155,14 +165,25 @@ export function materializeOpponent(state, target, scope, intlBoost = 0) {
     region,
     players: pick.players,
     carry: carryPlayer.power,
-    // §23.4 聚合式：carry 份額 0.60、其餘四人 0.40、對手明星項顯式化、教練／體力殘項。
     // `intlBoost` 是 §24.4 Global_Boss「大賽經驗加成」的預留掛鉤，預設 0（S31 定落點）
-    strength: carryPlayer.power * 0.60
-      + othersAvg * 0.40
-      + starTerm(carryPlayer.power, regionParOf(region))
-      + OPPONENT_SUPPORT_RESIDUAL
-      + intlBoost,
+    strength: aggregateTeamStrength(pick.players, region) + intlBoost,
   };
+}
+
+/**
+ * §23.4 聚合式：carry 份額 0.60、其餘四人份額 0.40、對手明星項顯式化、教練／體力殘項。
+ *
+ * 單一來源：`materializeOpponent`（S29 對手實體化）與 `leagueSim.js`（S32 賽區背景
+ * 模擬）的 NPC 隊強度都經這裡算，不得各抄一份聚合式。
+ */
+export function aggregateTeamStrength(players, region) {
+  const carryPlayer = players.reduce((a, b) => (b.power > a.power ? b : a));
+  const others = players.filter((p) => p !== carryPlayer);
+  const othersAvg = others.reduce((t, p) => t + p.power, 0) / others.length;
+  return carryPlayer.power * 0.60
+    + othersAvg * 0.40
+    + starTerm(carryPlayer.power, regionParOf(region))
+    + OPPONENT_SUPPORT_RESIDUAL;
 }
 
 /**

@@ -35,16 +35,27 @@ export function playoffBerth(state, stat) {
 }
 
 /**
- * 單局勝率（百分比）。`decider` 為決勝局，額外吃大心臟。
+ * 兩支隊的戰力差 → 基準單局勝率（未夾取、未疊加任何個人修正）。
  *
  * 斜率 1.76 ＝ 舊的 2.2 ÷ 1.25：0–100 刻度下同一個相對戰力差會產出 1.25 倍的點數，
- * 係數不除就等於把勝率對戰力的靈敏度整體上調兩成（§11.1 §17.2 二）。夾在 8–92% 不變。
+ * 係數不除就等於把勝率對戰力的靈敏度整體上調兩成（§11.1 §17.2 二）。
+ *
+ * **單一來源**（§24.2.1 明文：「clamp 常數不得第三處手抄」）：`gameChance`（玩家系列賽）
+ * 與 `leagueSim.js` 的 NPC 賽區背景模擬（S32）都經這裡算基準勝率，前者疊加個人修正後
+ * 才夾取，後者直接夾取。
+ */
+export function baseGameChance(strengthDiff) {
+  return 50 + strengthDiff * 1.76;
+}
+
+/**
+ * 單局勝率（百分比）。`decider` 為決勝局，額外吃大心臟。夾在 8–92% 不變。
  *
  * `mod` 是備賽戰術（S15）帶進來的勝率修正：只加在這一輪系列賽上，是單場的準備、
  * 不是屬性。預設 0 對既有呼叫零影響。
  */
 export function gameChance(state, oppRating, { decider = false, seed = 0, mod = 0 } = {}) {
-  let p = 50 + (teamStrength(state) - oppRating) * 1.76;
+  let p = baseGameChance(teamStrength(state) - oppRating);
   p += underdogBonus(state, seed) + bonus(state, 'seriesGame') + mod;
   if (decider) p += clutchBonus(state) + bonus(state, 'seriesDecider');
   return clamp(p, 8, 92);

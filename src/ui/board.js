@@ -21,6 +21,7 @@
 import { ROLE_NAMES } from '../data/skills.js';
 import { calendarFor, nextStageIn } from '../engine/calendar.js';
 import { DEMO_MONTHS, demoMonth, isDemo } from '../engine/demo.js';
+import { playerRank, standingsFor } from '../engine/leagueSim.js';
 import { currentLeagueKey, leagueLabel } from '../engine/roster.js';
 import { BAND_FRESH, STAMINA_MAX, bandOf, staminaOf } from '../engine/stamina.js';
 import { questRows } from './panel/index.js';
@@ -60,9 +61,10 @@ export function renderBoard(state, month) {
 
   fillStaminaRow(state);
 
-  // 列3：排名資料源未定（§21.3 備忘），Phase 1 聯賽積分榜（§24）產出後填 #bd-rank
+  // 列3：Phase 1 聯賽積分榜（§24.2，S32）——資料源＝ leaguePool，賽段累計粒度
   byId('bd-league').textContent = leagueLabel(state, currentLeagueKey(state));
   byId('bd-team').textContent = state.team || '—';
+  fillRank(state, cal);
 
   // 列4：無任務時整列折疊（§22.5）。questRows 與選手面板共用同一份，不抄第二份
   const quests = byId('bd-quests');
@@ -90,6 +92,19 @@ function fillNextStage(state, cal) {
   }
   const label = kindLabel(cal.find((p) => p.kind === next.kind && p.month === next.month));
   el.textContent = next.monthsAway === 0 ? `${label} 本月` : `距${label} ${next.monthsAway} 月`;
+}
+
+/**
+ * 列3 排名：找當下月份所屬的賽段（跟 §21.3 的養成回合判斷同一條 `cal`），
+ * 讀那個賽段的積分榜（`engine/leagueSim.js`）。業餘／青訓期或賽段開幕當月
+ * （積分榜還沒有任何一場結算）沒有榜可讀，顯示「—」。
+ */
+function fillRank(state, cal) {
+  const now = state.month || 1;
+  const entry = cal.find((p) => p.month === now && p.split);
+  const standings = entry ? standingsFor(state, state.year, entry.split.key) : null;
+  const rank = playerRank(standings);
+  byId('bd-rank').textContent = rank ? `${rank}/${standings.length}` : '—';
 }
 
 /**
