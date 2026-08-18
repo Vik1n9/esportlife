@@ -1,3 +1,66 @@
+## 2026-08-18 — S34 玩家戰績接入與相對評價：玩家併池，聯賽數據終於雙向可比
+
+- **方向**：S32／S33 把賽區背景模擬的 NPC 數據做出來了，但玩家的數據還在自己
+  那條線（`season.js` 的 K/D/A/VIS、§15 賽事序列），兩邊不通——聯賽榜是「NPC
+  自己打自己」，玩家看不到自己站在什麼位置。本站把玩家數據併入同一個池，擴充
+  DPM 維度，接上動態評價基準與 `leaguePct` 百分位謂詞，公式與掛載層由 S31
+  （§24.2.5／24.3.1／24.3.2／24.4.3）定案，本站照做。
+
+- **實作**：
+  - `src/engine/state.js`：`blankSeasonStat` 加 `DPM` 欄位；`SAVE_VERSION`
+    27 → **28**。
+  - `src/engine/season.js`：`simulateSeason` 算完 `DMG` 順手算
+    `stat.DPM = DMG × (TEAM_DPM_TOTAL/100)`（與 NPC 端 `microStats.js` 共用
+    同一個常數，不第三處手抄）；`mergeSplits`／`accumulate` 把 DPM 當比例
+    處理（跟 DMG 同一套加權平均，不落進總量累加迴圈）。新增
+    `seriesMicroStats`：系列賽（季後賽／MSI／世界賽）的玩家六維，沿用同一組
+    每局公式，**不重算陣亡**——`deaths` 由呼叫端 `seriesDeaths` 帶入，避免
+    §9.3 失誤出口算兩次。
+  - `src/engine/microStats.js`：`accumulateMicroStats`（NPC，逐局 games=1）
+    重構出通用的 `accumulateMicroTotals(stats, id, position, games, totals)`
+    ——玩家一次寫入一批（一個月或一輪系列賽）的總量，NPC 逐局呼叫，同一份
+    累加邏輯，不另開一份。
+  - `src/engine/leagueSim.js`：`recordPlayerLeagueResult` 順手把玩家這個月的
+    六維併進賽段 `stats` 池（鍵固定 `PLAYER_STAT_ID='player'`）；新增
+    `recordPlayerIntlMicroStats`，`intl` 段的唯一寫入口。
+  - `src/phases/shared.js`：`recordIntlSeries`（MSI／世界賽系列賽唯一的帳本
+    寫入口，國內季後賽不叫它）多接一個 `rng` 參數，順手呼叫
+    `seriesMicroStats` ＋ `recordPlayerIntlMicroStats`——數據併池搭同一班車，
+    不在 `worlds.js`／`msi.js` 另開呼叫點（6 個既有呼叫點只補了 `rng`）。
+  - `src/kernel/leagueStats.js`（新）：`leaguePct` 節點的查詢層——
+    `LEAGUE_PCT_METRICS` 白名單、`splitPercentile`／`leaguePercentile`（從
+    `state.month` 反推當下賽段）／`intlPercentile`（讀 `intl` 段，§24.4.3
+    國際賽獨立基準）／`percentileBand`（五檔詞條）。母體 < 20 一律回 null
+    （§23.5 精神），不勉強切分。
+  - `src/engine/conditions.js`：新節點 `['leaguePct', 指標, 比較子, 百分位]`，
+    `COND_KINDS` 加一項；`tools/schema.js` 同一個 commit 補
+    `COND_NODES`／`COND_NODE_LABELS`／`validateCond`（雙註冊，
+    AGENTS.md 條件語言規則）。
+  - `src/phases/playoff.js`：賽段結算戰報（§15.1 掛載層）附玩家 KDA 百分位
+    級距描述（宰制／優異／中規／平庸／劣位），KDA 或 DPM 越 P90 → 聲量 +3
+    （每賽段至多一次，`applyMental` 走既有邊際遞減）——**沒有碰** §10.2
+    教練評價公式、薪資／續約／FA 報價、獎項判定（§24.3.1 禁止事項四條）。
+  - `src/ui/panel/team.js`：新增「本賽段個人數據」與「國際賽數據」兩個
+    section（讀 `splitPercentile`／`intlPercentile`），個人數據榜的榜首若是
+    玩家本人特別標出——玩家數據併池後第一次在畫面上看得到自己的排名。
+
+- **實測結論**：`npm test` **23526 項全綠**（S33 基線 23535 項）。淨減 9，
+  逐項查過非恆真化：`seriesMicroStats` 對共用人生流 `rng` 多擲兩手 `gauss`
+  （跟 S33 的 `generateMicroStats` 同一個選擇——吃共用流不是獨立衍生流），
+  國際賽系列賽出現頻率低、一擲之後整段生涯的隨機序列跟著位移，
+  `kernel/ledger.mjs`（依樣本數迭代的 `teamHistory`／`milestones` 逐筆檢查）
+  淨減 62，`regression/invariants.mjs` 淨增 13，屬 S30 交接筆記記載的同一類
+  「樣本組成位移」，非查核被改成恆真；新增檔案與斷言（`tests/kernel/season.mjs`
+  10 項、`tests/kernel/leagueStats.mjs` 18 項、`leagueSim.mjs`／`conditions.mjs`
+  各補若干）合計 +42，兩者相抵得到 −9 的淨變化。
+
+- **未一起處理**：舊制小組賽（`kernel/groups.js` 的 `runGroup`，2012–2022
+  BO1，沒有陣亡數據）未併入 `intl` 池，只有 Swiss／淘汰賽／地區資格賽
+  （經 `runSeries`）併了；`leaguePct` 節點本站只接好引擎與編輯器，**沒有任何
+  卡消費它**（S35 範圍，§24.6 表明文）；Bo5 高壓檢定與 Global_Boss 合流未動。
+
+- **狀態**：完成。`node docs/v4/next-station.mjs` 回報 S35 為下一站（61／63）。
+
 ## 2026-08-18 — S33 微觀數據與排行榜：局結算不只有勝負，KDA／DPM 也算出來了
 
 - **方向**：S32 的賽區背景模擬只結算勝負，聯賽數據撐不起排行榜與 §24.3 的動態

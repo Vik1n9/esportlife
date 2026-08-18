@@ -16,7 +16,9 @@ import { REGION_TEAM_IDS } from '../data/npc/teamIds.js';
 import { teamDisplayName, teamRegionOf } from '../data/npc/teamHistory.js';
 import { ROLES } from '../data/skills.js';
 import { baseGameChance } from '../kernel/series.js';
-import { accumulateMicroStats, gameTypeOf, generateMicroStats } from './microStats.js';
+import {
+  accumulateMicroStats, accumulateMicroTotals, gameTypeOf, generateMicroStats,
+} from './microStats.js';
 import {
   aggregateTeamStrength, regionKeyOf, teamsInYear,
 } from './opponents.js';
@@ -88,6 +90,9 @@ function nonPlayerPool(state, year, leagueKey, region) {
 }
 
 const blankRow = (teamId, name, isPlayer) => ({ teamId, name, W: 0, L: 0, isPlayer });
+
+/** 玩家在個人數據池（`stats`）裡的鍵（§24.2.5，S34）：玩家全場只有一個，鍵不必是 NPC 那種 player_id */
+export const PLAYER_STAT_ID = 'player';
 
 /** 已排序（§24.2.2 schema 明文）：勝率降冪，同勝率比勝場，再打平比隊名穩定排序 */
 function sortStandings(standings) {
@@ -200,6 +205,11 @@ export function simulateLeagueMonth(state, rng, leagueKey, phase, batch) {
  * 玩家隊這個月的戰績併入積分榜（§24.2.1「玩家隊去重規則」）：直接採用
  * `simulateSeason` 的 W/L，不另外模擬。`stat.G === 0`（板凳／整段養傷）時這個月
  * 沒有分數可記，略過。
+ *
+ * 同時把玩家這個月的微觀數據併進個人數據池（§24.2.5／§24.3 第 1 條，S34）：
+ * `stat` 的 K/D/A/CS/VIS 已經是總量（`simulateSeason` 的算法），DPM 是比例
+ * （場均），要乘回 `stat.G` 才是與 NPC 端同格式的總量——`metricAverage` 讀取時
+ * 統一除以 G，兩邊才可比。
  */
 export function recordPlayerLeagueResult(state, leagueKey, phase, stat) {
   if (!phase.split || !LEAGUES[leagueKey]?.region || !stat.G) return;
@@ -209,6 +219,25 @@ export function recordPlayerLeagueResult(state, leagueKey, phase, stat) {
   row.W += stat.W;
   row.L += stat.L;
   sortStandings(entry.standings);
+
+  accumulateMicroTotals(entry.stats, PLAYER_STAT_ID, state.role, stat.G, {
+    K: stat.K, D: stat.D, A: stat.A, DPM: stat.DPM * stat.G, CSM: stat.CS, VSPM: stat.VIS,
+  });
+}
+
+/**
+ * 玩家這一輪國際賽系列賽（MSI／世界賽，§15.2）的微觀數據併進 `intl` 段（§24.4.3，
+ * S34）：國際賽百分位母體需要玩家自己的數據，這裡是唯一寫入口——由
+ * `phases/shared.js` 的 `recordIntlSeries` 呼叫（只有 MSI／世界賽的系列賽才叫它，
+ * 國內季後賽不進 `intl` 段，§24.2.2 schema 明文）。
+ *
+ * ⚠ 舊制小組賽（2012–2022，`runGroup` 的 BO1）沒有陣亡數據（`seriesDeaths` 沒被
+ * 呼叫過），本站未併入——留給後續站補（見交接筆記「未一起處理」）。
+ */
+export function recordPlayerIntlMicroStats(state, micro) {
+  if (!micro) return;
+  const yearPool = ensureYear(state, state.year);
+  accumulateMicroTotals(yearPool.intl.stats, PLAYER_STAT_ID, state.role, micro.G, micro);
 }
 
 /** 讀某一年某賽段的積分榜（沒有資料回 null）。UI／查詢層唯讀入口，不得直接戳 state.leaguePool */

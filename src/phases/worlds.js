@@ -115,7 +115,7 @@ export function* run(g) {
       stakes: 'elimination', pressure: PRESSURE.elimination,
       oppNote: oppLineupText(gate) || '對手是賽區裡跟你爭最後一張門票的隊伍。',
     });
-    recordIntlSeries(state, res);
+    recordIntlSeries(state, rng, res);
     yield card(res.win ? 'good' : 'bad', '地區資格賽',
       res.win ? '<b class="hl">最後一張門票是你們的。</b>' : '差一場。');
     if (!res.win) {
@@ -139,7 +139,7 @@ export function* run(g) {
 /* ---------------- 賽程 ---------------- */
 
 function* runTournament(g, rule, seed) {
-  const { state } = g;
+  const { state, rng } = g;
   const league = LEAGUES[state.league];
 
   // 入圍賽：非頂級賽區一律要打，頂級賽區的最後一個種子在 2017–2022 也要打
@@ -158,7 +158,7 @@ function* runTournament(g, rule, seed) {
       stakes: 'intl', pressure: PRESSURE.intl,
       oppNote: oppLineupText(playIn) || '對手是同樣從入圍賽打起的隊伍。',
     });
-    recordIntlSeries(state, res);
+    recordIntlSeries(state, rng, res);
     yield card(res.win ? 'good' : 'bad', '入圍賽',
       res.win ? '晉級主賽事。' : '<b class="dn">入圍賽出局</b>。');
     if (!res.win) return 'playin';
@@ -250,7 +250,7 @@ function* knockout(g, seed) {
       oppTag: isChamp ? 'reigningChampion' : null,
       oppTitle: isChamp ? '衛冕者對決' : '',
     });
-    recordIntlSeries(state, res);
+    recordIntlSeries(state, rng, res);
 
     // 世代交替：在淘汰賽贏下衛冕冠軍 → 發 `torch_bearer`（unique 階，直接授予）
     if (isChamp && res.win && grantUnique(state, 'torch_bearer')) {

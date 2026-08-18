@@ -55,10 +55,13 @@ import { teamsOf } from './roster.js';
 // v27：賽區背景模擬資料池（S32，§24.2.2）。新增 leaguePool（逐年 → 賽段積分榜與
 // 國際賽微觀數據容器，只存當年＋前一年）——舊存檔缺這欄會讓 `ensureSplit` 對
 // undefined 寫入報錯，故作廢
-export const SAVE_VERSION = 27;
+// v28：玩家端六維併池（S34，§24.2.5）。`blankSeasonStat` 新增 DPM 欄位（DMG% ×
+// `TEAM_DPM_TOTAL`，與 NPC 微觀池同一個常數）——舊存檔的季度統計缺這欄，`mergeSplits`／
+// `accumulate` 的加權平均會對 undefined 運算，故作廢
+export const SAVE_VERSION = 28;
 
 export function blankSeasonStat() {
-  return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, SOLO: 0, MVP: 0, AS: 0 };
+  return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, DPM: 0, SOLO: 0, MVP: 0, AS: 0 };
 }
 
 /**

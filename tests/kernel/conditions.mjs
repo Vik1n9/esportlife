@@ -154,6 +154,7 @@ export async function run({ check }) {
       eventFlag: ['eventFlag', 'anything'],
       eventCount: ['eventCount', 'anything', 'gte', 0],
       percentile: ['percentile', 'assist', 'gte', 90],
+      leaguePct: ['leaguePct', 'kda', 'gte', 80],
     };
     const unevaluable = COND_KINDS.filter((k) => {
       try { evalCond(s, SAMPLE[k]); return false; } catch { return true; }
@@ -186,6 +187,49 @@ export async function run({ check }) {
     let threw = false;
     try { evalCond(s, ['percentile', 'bogus', 'gte', 90]); } catch { threw = true; }
     check('未知百分位指標丟錯（不靜默）', threw);
+  }
+
+  /* ---- leaguePct 節點（S34，§24.3.2）：讀當季模擬母體，與 percentile 物理隔離 ----
+   *
+   * 母體直接手搭 `state.leaguePool`（與 `tests/kernel/leagueSim.mjs`／`microStats.mjs`
+   * 同款寫法），不跑真的月結算——這裡只驗「節點把玩家值拿來跟同位置母體比」的語意，
+   * 不是母體怎麼生成的（那是 `engine/leagueSim.js`／`microStats.js` 的事）。
+   */
+  {
+    const s = fresh({ role: 'MID' });
+    s.month = 3;   // 落在 S1 賽段內（見 `data/formats/calendar.js` 展開）
+    const splitKey = 'S1';
+
+    const stats = { player: { role: 'MID', G: 10, K: 40, D: 10, A: 60, DPM: 5000, CSM: 80, VSPM: 15 } };
+    for (let i = 0; i < 19; i++) {
+      // 全部比玩家弱（KDA 更低），玩家應該是母體頂端
+      stats[`npc-${i}`] = { role: 'MID', G: 10, K: 10, D: 20, A: 10, DPM: 2000, CSM: 60, VSPM: 10 };
+    }
+    s.leaguePool = { [s.year]: { splits: { [splitKey]: { standings: [], stats } }, intl: { stats: {} } } };
+
+    check('母體 ≥20 時，KDA 全場最高 → 百分位 100（前 20% 內）',
+      evalCond(s, ['leaguePct', 'kda', 'gte', 80]));
+    check('DPM 全場最高同樣過門檻', evalCond(s, ['leaguePct', 'dpm', 'gte', 80]));
+
+    // 母體不足 20（§23.5 精神）：判 false，不勉強切分
+    const thin = { [s.year]: { splits: { [splitKey]: { standings: [], stats: { player: stats.player } } }, intl: { stats: {} } } };
+    const sThin = fresh({ role: 'MID' });
+    sThin.month = 3;
+    sThin.leaguePool = thin;
+    check('母體 < 20 時 leaguePct 判 false（樣本不足不勉強切分）',
+      !evalCond(sThin, ['leaguePct', 'kda', 'gte', 1]));
+
+    // 不在賽段內（例如轉會月）：查無當下賽段，同樣判 false
+    const sOff = fresh({ role: 'MID' });
+    sOff.month = 1;
+    sOff.leaguePool = s.leaguePool;
+    check('不在賽段內（查無當下賽段）leaguePct 判 false',
+      !evalCond(sOff, ['leaguePct', 'kda', 'gte', 1]));
+
+    // 未知指標要爆
+    let threwLeague = false;
+    try { evalCond(s, ['leaguePct', 'bogus', 'gte', 80]); } catch { threwLeague = true; }
+    check('未知聯賽百分位指標丟錯（不靜默）', threwLeague);
   }
 
   /* ---- 上屆同賽事名次與衛冕者謂詞（S20g） ---- */

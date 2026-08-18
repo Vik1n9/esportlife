@@ -21,6 +21,7 @@ import { TRAINING_CARDS } from '../src/data/trainingCards.js';
 import { QUEST_CARDS } from '../src/data/quests.js';
 import { INNATE_POOL } from '../src/data/innate.js';
 import { PERCENTILE_METRICS } from '../src/data/npc/percentiles.js';
+import { LEAGUE_PCT_METRICS } from '../src/kernel/leagueStats.js';
 import { LIFECYCLE_WINDOWS } from '../src/kernel/modifiers.js';
 
 /* ================= 共用可選值 ================= */
@@ -131,12 +132,15 @@ export const COND_TIER_LABELS = {
 };
 
 /** 條件式節點型別（積木模式的下拉；與 validateCond 認得的節點同源） */
-export const COND_NODES = ['and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount', 'percentile'];
+export const COND_NODES = [
+  'and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount', 'percentile', 'leaguePct',
+];
 
 export const COND_NODE_LABELS = {
   and: 'AND 全部成立', or: 'OR 任一成立', not: 'NOT 反轉',
   stat: '數值條件（謂詞 比較子 值）', has: '持有特質', hasCount: '持有數量',
   eventFlag: '事件旗標已點亮', eventCount: '事件觸發次數（鍵 比較子 值）',
+  leaguePct: '聯賽百分位（當季模擬母體，§24.3.2）',
 };
 
 /**
@@ -504,6 +508,17 @@ export function validateCond(node, errors, path) {
         if (!PERCENTILE_METRICS.includes(args[0])) errors.push(`${path}.percentile：未知的指標「${args[0]}」（可選 ${PERCENTILE_METRICS.join('／')}）`);
         if (!COND_OPS.includes(args[1])) errors.push(`${path}.percentile：未知的比較子「${args[1]}」`);
         if (typeof args[2] !== 'number') errors.push(`${path}.percentile：百分位必須是數字`);
+      }
+      break;
+    // 聯賽百分位節點（S34，§24.3.2）：['leaguePct', 指標名, 比較子, 百分位]。
+    // 讀當季模擬母體，與上面的 percentile（歷史史實母體）物理隔離，不共用指標白名單
+    case 'leaguePct':
+      if (args.length !== 3) {
+        errors.push(`${path}.leaguePct：格式 ['leaguePct', 指標名, 比較子, 百分位]`);
+      } else {
+        if (!LEAGUE_PCT_METRICS.includes(args[0])) errors.push(`${path}.leaguePct：未知的指標「${args[0]}」（可選 ${LEAGUE_PCT_METRICS.join('／')}）`);
+        if (!COND_OPS.includes(args[1])) errors.push(`${path}.leaguePct：未知的比較子「${args[1]}」`);
+        if (typeof args[2] !== 'number') errors.push(`${path}.leaguePct：百分位必須是數字`);
       }
       break;
     default:
