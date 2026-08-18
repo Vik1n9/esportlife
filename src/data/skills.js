@@ -135,3 +135,10 @@ export const STAT_BASELINE = {
   ADC: { K: 1.2, D: 1.0, A: 1.5, CS: 8.0, VIS: 1.0, DMG: 28, SOLO: 0.4 },
   SUP: { K: 0.4, D: 1.3, A: 2.4, CS: 2.0, VIS: 2.2, DMG: 12, SOLO: 0.2 },
 };
+
+/**
+ * 隊伍分均傷害總預算（§24.2.3）：DPM＝傷害佔比%×24。單一來源——`STAT_BASELINE`
+ * 同檔，池兩邊（NPC 微觀＝`engine/microStats.js`，玩家端＝S34 的 `DMG% × 24`）
+ * 共用同一個常數，不得各抄一份。
+ */
+export const TEAM_DPM_TOTAL = 2400;

@@ -1,3 +1,31 @@
+## [v4.8.2] - 2026-08-18
+
+### 微觀數據與排行榜落地（S33，Phase 2）
+
+S32 只結算勝負，聯賽數據撐不起排行榜與 §24.3 的動態基準。本站把單局詳細數據
+（K/D/A、DPM、CSM、VSPM）算出來，接上聯賽積分榜與個人數據榜。
+
+- **新增 `src/engine/microStats.js`**：`generateMicroStats` 依 S31 定案的
+  §24.2.3 公式生成 NPC 單局六維，綁定位置權重表與 tec/agi/awr（超過 60 的
+  餘量 x⁺）；`gameTypeOf` 依宏觀強度差（夾取前）識別碾壓／均勢／爆冷三級局型，
+  各帶 σM 與勝負方修正（§24.2.4）；`accumulateMicroStats`／`metricAverage`／
+  `leaderboard` 是 `leaguePool.stats` 的寫入與查詢層（KDA 用總量比，不是逐場
+  平均再平均）。
+- **`data/skills.js`**：新增 `TEAM_DPM_TOTAL = 2400`（DPM＝傷害佔比%×24），
+  與 `STAT_BASELINE` 同檔單一來源，S34 玩家端 DPM 換算共用。
+- **`engine/leagueSim.js`**：`simulateLeagueMonth` 在同一個 Bo3 迴圈裡順手生成
+  雙方五人微觀數據（不第二次配對）；`nonPlayerPool` 的真實 NPC 帶上
+  tec/agi/awr（`NPC_BY_ID` 查表），合成匿名隊五個位置各配一名合成選手；
+  新增 `statsFor` 查詢層。
+- **`ui/panel/team.js`**：隊伍 tab 補上完整聯賽積分榜（不只板子上的名次數字）
+  與各位置個人數據榜首（KDA／DPM／視野）。
+- **`SAVE_VERSION` 未動**——`leaguePool.stats` 容器 S32 已建好，本站直接寫入。
+- 新增 `tests/kernel/microStats.mjs`（27 項）：位置權重表、局型臨界值與 σM、
+  夾取界永不突破、x⁺ 餘量、累加與 KDA 匯總語意、leaderboard 排序、整合
+  （`simulateLeagueMonth` 寫進池）、同種子決定論。
+- 新增 `tools/microstats-report.mjs`：分佈驗證量測工具（非遊戲機制），
+  160 個賽段樣本量測結果見 `docs/v4/33-微觀數據與排行榜.md` 交接筆記。
+
 ## [v4.8.1] - 2026-08-18
 
 ### 模擬引擎與資料池落地（S32，Phase 1 宏觀模擬）
