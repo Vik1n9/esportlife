@@ -125,6 +125,17 @@ export async function run({ check }) {
       !/comp|resl|衰減|0\.\d|checkM/i.test(result), result);
   }
 
+  /* ---- Bo5 沒打進決勝局：不得掛第五局敘事（OCR 審查修正：deciderCheck 每場 Bo5 都有） ---- */
+  {
+    const state = pro('no-decider-note', { stamina: 80, mental: { comp: 30, resl: 30 } });
+    const seq = [true, true, true];
+    let i = 0;
+    const rng = { chance: () => seq[i++], gauss: () => 0 };
+    const { beats, res } = play({ state, rng }, 'system');
+    check('腳本局序逼出 3:0', res.decider === false && res.win === true, res.games.join(''));
+    check('3:0 直落不掛第五局敘事（沒打第五局）', !beats[3].body.includes('第五局'), beats[3].body);
+  }
+
   /* ---- 國際賽戰報級距帶（S35，§24.4.3）：有母體才顯示，空池不硬造 ---- */
   {
     const empty = pro('intl-empty', { stamina: 80, year: 2020 });

@@ -172,7 +172,7 @@ export function* runSeriesEvent(g, {
   // §15.2 v4.8.0 增訂：Bo5 檢定局附一句高壓敘事——只寫現象，不出 comp／resl 數值與衰減點數，
   // 不暗示對手心理。輸掉而己方沒衰減時寫中性的「一時之差」，不栽贓給自己也不指對手
   let checkNote = '';
-  if (res.deciderCheck) {
+  if (res.deciderCheck && res.decider) {
     const line = res.win
       ? '第五局的手穩住了。'
       : (res.deciderCheck.mineDecay > 0 ? '第五局，手在螢幕前抖了一下。' : '決勝局只輸在一時之差。');
