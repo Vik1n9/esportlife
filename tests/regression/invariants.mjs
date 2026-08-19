@@ -54,7 +54,7 @@ import {
 import { PERFORM_FLOOR, PERFORM_SPAN, PRESSURE, SKILL_MENTAL, mistakeFactor, performCoef, stability } from '../../src/engine/psych.js';
 import { checkFusions, unlockTrait } from '../../src/engine/progression.js';
 import { careerTier, careerScore } from '../../src/engine/career.js';
-import { TRAINING_ACTIVITIES, TRAIN_YIELD } from '../../src/engine/training.js';
+import { TRAINING_ACTIVITIES, TRAIN_YIELD, resolveTraining } from '../../src/engine/training.js';
 import { gameChance } from '../../src/kernel/series.js';
 import { opponentStrength, starEffect, teamStrength } from '../../src/kernel/strength.js';
 import { TIER_STORES, traitName } from '../../src/kernel/modifiers.js';
@@ -66,7 +66,8 @@ import { LEAGUES } from '../../src/data/leagues.js';
 import { FUSIONS } from '../../src/data/epics.js';
 import { OVR_WEIGHTS, ROLES, ROLE_ATTR_WEIGHTS, SKILL_WEIGHTS } from '../../src/data/skills.js';
 import { START_AGE, START_YEAR } from '../../src/data/eras.js';
-import { bestActivity, growthRoom, MAX_BEATS, monthAction, playMatrix, tacticsAction } from '../lib/harness.mjs';
+import { monthlyDrift, staminaOf } from '../../src/engine/stamina.js';
+import { REST_AT, bestActivity, growthRoom, MAX_BEATS, monthAction, playMatrix, tacticsAction } from '../lib/harness.mjs';
 
 export const name = '平衡不變式（測試網）';
 export const order = 2;   // 排在冒煙測試之後，直接吃它跑好的 160 段樣本
@@ -117,6 +118,7 @@ export async function run({ check, log, shared }) {
   mentalAmplifier({ check, log, gate });
   mistakeVisibility({ check, log, runs });
   staminaRhythm({ check, gate, log, runs });
+  vitSnowball({ check, log, runs });
   eventExclusion({ check, gate });
   opponentMaterialization({ check, log, runs });
   routeCoverage({ log, runs });
@@ -882,6 +884,93 @@ function staminaRhythm({ check, gate, log, runs }) {
       log(`體力節奏：${months} 個體力月，休息 ${(restShare * 100).toFixed(1)}%、`
         + `透支月 ${(lowShare * 100).toFixed(1)}%，平均間隔 ${mean(gaps).toFixed(2)} 個月`);
     });
+}
+
+/* ---------------- 體能雪球（V4 §6.1／§7，S50） ---------------- */
+
+/**
+ * 體能該讓生涯更順，不該讓生涯更強。
+ *
+ * S47 之後 `vit` 有三個消費者（恢復量 ↑、訓練成本 ↓、受傷率 ↓），而它又是健身房的
+ * 主屬性、休息的副屬性。三個消費者串起來就是一條正迴圈：練體能 → 訓練變便宜 →
+ * 練得起的月份變多 → 什麼都長更快。這條迴圈不會讓任何既有檢查變紅（巔峰上界看的是
+ * 平均、體力節奏看的是休息間隔），所以要自己有網子。
+ *
+ * ⚠ **量法從「生涯分組」換成微基準，理由與 `topEndPayoff` 拿掉那條同一個：抓不到東西
+ * 的檢查等於沒有檢查。** S50 說明書給的判準是「拿天生 `vit` 潛力分兩組，比巔峰 OVR，
+ * 高組拉開 >3 點就是警訊」。照做量到的是 **−2.44 點**（高組反而低），而且把
+ * `vitCostCoef` 的斜率調壞 10 倍（訓練幾乎免費）也只走到 **+0.14**——因為潛力是
+ * 「1 頂尖／1 優質／1 中上／3 平庸」分派的：`vit` 拿到高潛力就代表別的屬性拿不到，
+ * 而 `vit` 的 OVR 權重是 0。那個機會成本是個固定的 −2.5 點偏移，把迴圈的訊號整個蓋掉。
+ * 所以生涯分組**只留量測**（下面的 log），真正的門檻改用控制變因的微基準。
+ *
+ * 微基準：同一個種子／位置、同一套策略（體力 < 45 就休息，否則選本位置最優活動），
+ * 只把 `vit` 釘死在高（100）與低（20）兩端跑 36 個月，比 OVR 成長。`vit` 每月釘回去
+ * 是刻意的——要量的是「體質差異」這個自變數的迴圈增益，不是「練了體能之後」。
+ *
+ * 實測（40 組）：高 vit 多練 6.5 個月，OVR 多長 **3.18 點**。把 `vitCostCoef` 或
+ * `vitCoef` 的斜率各自加倍（0.005 → 0.01）分別走到 6.03／5.28——門檻取 4.5，
+ * 現值有三成餘裕，兩種加倍都抓得到。
+ *
+ * 天然剎車有三道，判讀時要記得它們已經在運作：三個係數都小且有 clamp、`vit` 受
+ * `investAttr` 的潛力天花板限制、`vit` 的 OVR 權重是 0。破線時第一個要動的是
+ * `vitCostCoef` 的斜率（0.005 → 0.003，成本折扣是迴路的入口），**不是受傷係數**
+ * ——那是玩家最有感的一項（S47 的手感）。
+ */
+const VIT_BENCH_MONTHS = 36;
+/** 高 vit 與低 vit 的體質兩端。`vitCoef` 家族的中點是 60，兩端刻意取滿檔與 20 */
+const VIT_BENCH_HIGH = 100;
+const VIT_BENCH_LOW = 20;
+/** 迴圈增益上限（OVR 點）。實測 3.18，斜率加倍走到 5.28–6.03 */
+const VIT_BENCH_MAX_GAIN = 4.5;
+
+/** 釘死 `vit` 跑 N 個月的保守玩法，回傳 OVR 成長與訓練月數 */
+function vitBenchRun(seed, role, vit, trainIds) {
+  const state = createState({ name: 'VIT', role, seed });
+  const rng = new Rng(`${seed}:vit`);
+  const before = coachRating(state);
+  let trained = 0;
+  for (let m = 0; m < VIT_BENCH_MONTHS; m++) {
+    state.attr.vit = vit;                       // 體質是自變數，不讓它自己長
+    const id = staminaOf(state) < REST_AT ? 'rest' : bestActivity(state, trainIds);
+    if (id !== 'rest') trained += 1;
+    resolveTraining(state, rng, id);
+    state.attr.vit = vit;
+    monthlyDrift(state);
+  }
+  return { gain: coachRating(state) - before, trained };
+}
+
+function vitSnowball({ check, log, runs }) {
+  const trainIds = TRAINING_ACTIVITIES.filter((a) => a.kind === 'train').map((a) => a.id);
+  const gains = [];
+  const months = { hi: [], lo: [] };
+  for (let i = 0; i < 8; i++) {
+    for (const role of ROLES) {
+      const seed = `vitbench-${i}`;
+      const hi = vitBenchRun(seed, role, VIT_BENCH_HIGH, trainIds);
+      const lo = vitBenchRun(seed, role, VIT_BENCH_LOW, trainIds);
+      gains.push(hi.gain - lo.gain);
+      months.hi.push(hi.trained);
+      months.lo.push(lo.trained);
+    }
+  }
+  const gain = mean(gains);
+  check('體能雪球：體質兩端的 OVR 成長差不得超過 4.5 點（體能讓生涯更順，不讓生涯更強）',
+    gain <= VIT_BENCH_MAX_GAIN,
+    `高 vit(${VIT_BENCH_HIGH}) − 低 vit(${VIT_BENCH_LOW}) 的 ${VIT_BENCH_MONTHS} 月成長差 ${gain.toFixed(2)} 點（${gains.length} 組）`);
+  log(`體能雪球微基準：${gains.length} 組，高 vit 多練 ${(mean(months.hi) - mean(months.lo)).toFixed(1)} 個月`
+    + `（${mean(months.hi).toFixed(1)} vs ${mean(months.lo).toFixed(1)}），OVR 多長 ${gain.toFixed(2)} 點（門檻 ≤${VIT_BENCH_MAX_GAIN}）`);
+
+  // 生涯分組：說明書指定的量法，留著當旁證（理由見上方 ⚠，不當門檻）
+  const peakOf = (rs) => rs.map((r) => r.state.peakRating);
+  const hiPot = runs.filter((r) => (r.state.potential?.vit ?? 0) >= 80);
+  const loPot = runs.filter((r) => (r.state.potential?.vit ?? 0) < 70);
+  if (hiPot.length && loPot.length) {
+    log(`體能雪球生涯分組（量測，非門檻）：高 vit 潛力（≥80）${hiPot.length} 段平均巔峰 `
+      + `${mean(peakOf(hiPot)).toFixed(2)}、低 vit 潛力（<70）${loPot.length} 段 ${mean(peakOf(loPot)).toFixed(2)}，`
+      + `差 ${(mean(peakOf(hiPot)) - mean(peakOf(loPot))).toFixed(2)} 點（說明書警戒線 >3）`);
+  }
 }
 
 /* ---------------- 事件互斥（V4 §12.1） ---------------- */
