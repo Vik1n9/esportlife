@@ -5,9 +5,12 @@
  * 成功率吃體力、成功係數對照、成長只漲活動涵蓋的屬性、休息／復健的副作用、以及
  * 「普通成敗不碰心理、受傷只在大失敗」這條 §14.8.4／§6.2 的邊界。
  *
- * S18 之後訓練卡是完整目錄（60 張）：兜底 24（6 活動 × 4 檔位，永不空池）＋
- * PRO 20（低體力危險 4／高體力獎勵 4／一般 12）＋ AM2 8 ＋ 業餘 8。抽卡改
+ * S18 之後訓練卡是完整目錄（60 張）：S46 起是兜底 20（5 活動 × 4 檔位，永不空池）＋
+ * PRO 24（低體力危險 4／高體力獎勵 4／一般 16）＋ AM2 8 ＋ 業餘 8。抽卡改
  * `drawTrainingCard`：activity／stage／stamina 過濾 ＋ weight 加權。
+ *
+ * S46 之後這個 suite 還多守兩條設計骨架：**錯位輪替**（六個選單活動的主屬性集合 ==
+ * 副屬性集合 == ATTRS，且主 ≠ 副）與**休息也給成長**（倍率隨休息前的體力遞減）。
  */
 import { Rng } from '../../src/core/rng.js';
 import { createState } from '../../src/engine/state.js';
@@ -18,11 +21,13 @@ import {
 import { TRAINING_CARDS, poolOfTier } from '../../src/data/trainingCards.js';
 import { ATTR_NAMES, ATTRS } from '../../src/data/attributes.js';
 import { MENTAL_KEYS } from '../../src/data/mental.js';
-import { staminaOf } from '../../src/engine/stamina.js';
+import { restYieldMul, staminaOf } from '../../src/engine/stamina.js';
+import { ACTIVITY_KEYS, ACTIVITY_LABELS } from '../../tools/schema.js';
 
 export const name = '設施制訓練與訓練事件卡';
 
-const ACTIVITY_IDS = ['mechanics', 'scrim', 'vod', 'fitness', 'soloq', 'heroes'];
+/** 有卡池的五項活動（S46）。導出而非手抄——手抄一份就是下一個「工具認得、引擎不認得」 */
+const ACTIVITY_IDS = TRAINING_ACTIVITIES.filter((a) => a.pool).map((a) => a.id);
 const TIERS = ['great_success', 'success', 'failure', 'great_failure'];
 
 const fresh = (seed = 'tr', extra = {}) => Object.assign(
@@ -32,20 +37,45 @@ const fresh = (seed = 'tr', extra = {}) => Object.assign(
 export async function run({ check, log }) {
   /* ---- 活動表形狀（§5.2） ---- */
   {
-    check('八項訓練活動', TRAINING_ACTIVITIES.length === 8, String(TRAINING_ACTIVITIES.length));
-    const train = TRAINING_ACTIVITIES.filter((a) => a.kind === 'train');
-    check('六個漲屬性的活動、其餘是英雄池／休息／復健', train.length === 5, String(train.length));
-    for (const a of train) {
+    const menuActs = TRAINING_ACTIVITIES.filter((a) => a.menu !== false);
+    check('六項訓練活動進玩家選單', menuActs.length === 6, String(menuActs.length));
+    check('復健預防隱藏保留（復健年的自動流程還要用）',
+      TRAINING_ACTIVITIES.filter((a) => a.menu === false).map((a) => a.id).join() === 'rehab',
+      JSON.stringify(TRAINING_ACTIVITIES.filter((a) => a.menu === false).map((a) => a.id)));
+    check('五個活動走成敗判定、休息不走', TRAINING_ACTIVITIES.filter((a) => a.kind === 'train').length === 5,
+      String(TRAINING_ACTIVITIES.filter((a) => a.kind === 'train').length));
+    for (const a of menuActs) {
       const sum = Object.values(a.weights).reduce((t, v) => t + v, 0);
       check(`訓練活動 ${a.id} 的屬性權重和為 1`, Math.abs(sum - 1) < 1e-9, `${a.id} 和 ${sum}`);
     }
     const rest = TRAINING_ACTIVITIES.find((a) => a.id === 'rest');
     check('休息的體力消耗是負的（恢復）', rest.cost < 0, rest.cost);
+
+    /*
+     * 錯位輪替（S46 的設計骨架）：六個選單活動一主一副，主屬性集合 == 副屬性集合 ==
+     * ATTRS，且每個活動主 ≠ 副。六屬性曝光因此完全均等，沒有屬性被結構性餓死——
+     * 之後有人加活動或改權重，這裡會立刻擋下來。
+     */
+    const mains = [];
+    const subs = [];
+    for (const a of menuActs) {
+      const pairs = Object.entries(a.weights).sort((x, y) => y[1] - x[1]);
+      check(`${a.id}：一主一副兩個屬性`, pairs.length === 2, JSON.stringify(a.weights));
+      check(`${a.id}：權重是 .7／.3`, Math.abs(pairs[0][1] - 0.7) < 1e-9 && Math.abs(pairs[1][1] - 0.3) < 1e-9,
+        JSON.stringify(a.weights));
+      check(`${a.id}：主 ≠ 副`, pairs[0][0] !== pairs[1][0], pairs[0][0]);
+      mains.push(pairs[0][0]);
+      subs.push(pairs[1][0]);
+    }
+    check('錯位輪替：六個主屬性互不重複且蓋滿六屬性',
+      [...mains].sort().join() === [...ATTRS].sort().join(), mains.join('、'));
+    check('錯位輪替：六個副屬性互不重複且蓋滿六屬性',
+      [...subs].sort().join() === [...ATTRS].sort().join(), subs.join('、'));
   }
 
   /* ---- 預期成功率吃體力（§5.4 階段一） ---- */
   {
-    const a = TRAINING_ACTIVITIES.find((x) => x.id === 'mechanics');
+    const a = TRAINING_ACTIVITIES.find((x) => x.id === 'study');
     const hi = fresh('ps-hi', { stamina: 90 });
     const lo = fresh('ps-lo', { stamina: 10 });
     check('體力高時預期成功率較高', expectedSuccess(hi, a) > expectedSuccess(lo, a),
@@ -67,40 +97,74 @@ export async function run({ check, log }) {
   {
     const s = fresh('grow', { stamina: 90 });
     const before = { ...s.attr };
-    const result = resolveTraining(s, new Rng('grow-r'), 'mechanics');
+    const result = resolveTraining(s, new Rng('grow-r'), 'study');
     const grew = ATTRS.filter((k) => s.attr[k] > before[k]);
     check('訓練後有屬性成長', grew.length > 0, grew.join('、'));
-    check('mechanics 只漲 tec／agi', grew.every((k) => ['tec', 'agi'].includes(k)), grew.join('、'));
+    check('study 只漲 awr／tec', grew.every((k) => ['awr', 'tec'].includes(k)), grew.join('、'));
     check('結算結果標了檔位與成功係數', typeof result.tier === 'string' && result.successCoef === SUCCESS_COEF[result.tier]);
   }
 
-  /* ---- 休息／復健：恢復體力、復健降風險，都不漲屬性 ---- */
+  /* ---- 休息（S46）：恢復體力，也漲屬性；越透支學得越多 ---- */
   {
     const s = fresh('rest', { stamina: 20 });
     const before = s.stamina;
     const attrBefore = { ...s.attr };
     const rest = resolveTraining(s, new Rng('rest-r'), 'rest');
     check('休息恢復體力', rest.recovered > 0 && s.stamina > before, s.stamina);
-    check('休息不漲屬性', ATTRS.every((k) => s.attr[k] === attrBefore[k]));
+    check('休息也漲屬性（S46）', ATTRS.some((k) => s.attr[k] > attrBefore[k]),
+      JSON.stringify(rest.gains));
+    const restW = TRAINING_ACTIVITIES.find((a) => a.id === 'rest').weights;
+    check('休息的主屬性是靈巧、副屬性是體能', restW.agi === 0.7 && restW.vit === 0.3,
+      JSON.stringify(restW));
+    check('休息不分成敗、不抽卡', rest.tier === undefined && rest.card === undefined,
+      JSON.stringify({ tier: rest.tier, card: rest.card?.id }));
+
+    // 倍率讀「休息前」的體力：越透支給越多（10 > 50 > 90），這條就是防濫用機制
+    const mulAt = [10, 50, 90].map((v) => restYieldMul(v));
+    check('休息成長倍率隨體力遞減（10 > 50 > 90）',
+      mulAt[0] > mulAt[1] && mulAt[1] > mulAt[2], mulAt.map((m) => m.toFixed(2)).join(' > '));
+    check('滿血休息約等於白費一個月（≤ 訓練月的 15%）', restYieldMul(100) <= 0.15, restYieldMul(100));
+
+    // 端到端：同一個種子、同一份天賦，低體力休息拿到的成長比滿體力多
+    const totalGain = (stamina) => {
+      const st = fresh('rest-y', { stamina });
+      const r = resolveTraining(st, new Rng('rest-y-r'), 'rest');
+      return r.gains.reduce((t, g) => t + g.points, 0);
+    };
+    const drained = totalGain(10);
+    const full = totalGain(100);
+    check('低體力休息拿到的成長多於滿體力', drained > full, `${drained} vs ${full}`);
 
     const worn = fresh('rehab', { stamina: 60, tempInjuryRisk: 10 });
     resolveTraining(worn, new Rng('rehab-r'), 'rehab');
     check('復健壓得下臨時受傷風險（§5.2 唯一的賣點）', worn.tempInjuryRisk < 10, worn.tempInjuryRisk);
   }
 
-  /* ---- 英雄池練習：漲英雄專精，不漲屬性 ---- */
+  /* ---- 英雄池：不再是獨立活動，改掛在 SOLO RANK 的 heroGames 上（S46） ---- */
   {
-    const s = fresh('hero', { stamina: 90 });
-    const attrBefore = { ...s.attr };
-    resolveTraining(s, new Rng('hero-r'), 'heroes');
-    const mastery = Object.values(s.mastery).reduce((t, v) => t + v, 0);
-    check('英雄池練習累積專精', mastery > 0, String(mastery));
-    check('英雄池練習不漲屬性', ATTRS.every((k) => s.attr[k] === attrBefore[k]));
+    check('只有 SOLO RANK 掛 heroGames',
+      TRAINING_ACTIVITIES.filter((a) => a.heroGames).map((a) => a.id).join() === 'soloq',
+      JSON.stringify(TRAINING_ACTIVITIES.filter((a) => a.heroGames).map((a) => a.id)));
+    // 出賽等效場次隨成功係數縮放，所以要多跑幾把才保證抽到非大失敗的檔位
+    let mastery = 0;
+    for (let i = 0; i < 5 && mastery === 0; i++) {
+      const s = fresh(`hero${i}`, { stamina: 90 });
+      resolveTraining(s, new Rng(`hero-r${i}`), 'soloq');
+      mastery = Object.values(s.mastery).reduce((t, v) => t + v, 0);
+    }
+    check('SOLO RANK 附帶累積英雄專精', mastery > 0, String(mastery));
+
+    // 大失敗（successCoef = 0）→ 0 場 → 不練，語意自然，不必特判
+    const soloq = TRAINING_ACTIVITIES.find((a) => a.id === 'soloq');
+    check('大失敗時等效場次歸零',
+      Math.round(soloq.heroGames * SUCCESS_COEF.great_failure) === 0);
+    check('SOLO RANK 仍漲屬性（跟舊的英雄池練習不同）',
+      Object.keys(soloq.weights).length === 2, JSON.stringify(soloq.weights));
   }
 
   /* ---- 完整目錄（S18）：數量、id、weight、tier 一致 ---- */
   {
-    check('訓練卡 60 張（兜底 24＋PRO 20＋AM2 8＋業餘 8）', TRAINING_CARDS.length === 60, String(TRAINING_CARDS.length));
+    check('訓練卡 60 張（兜底 20＋PRO 24＋AM2 8＋業餘 8）', TRAINING_CARDS.length === 60, String(TRAINING_CARDS.length));
     check('id 唯一', new Set(TRAINING_CARDS.map((c) => c.id)).size === TRAINING_CARDS.length);
     check('weight 全部 > 0', TRAINING_CARDS.every((c) => c.weight > 0));
     // 池別是 tier 的導出值（S20c／N19），不是欄位——沒有第二份手抄本就沒有「對不上」
@@ -124,8 +188,15 @@ export async function run({ check, log }) {
     check('stamina 是合法閉區間 [lo,hi]', TRAINING_CARDS.every((c) =>
       !c.stamina || (Array.isArray(c.stamina) && c.stamina.length === 2
         && c.stamina[0] <= c.stamina[1] && c.stamina[0] >= 0 && c.stamina[1] <= 100)));
-    check('activity 值全在六活動內', TRAINING_CARDS.every((c) =>
+    check('activity 值全在五活動內', TRAINING_CARDS.every((c) =>
       !c.activity || c.activity.every((a) => ACTIVITY_IDS.includes(a))));
+    // 編輯器與引擎同源（S46）：工具的下拉清單就是引擎的活動表，不是手抄本——
+    // 手抄本會讓人在編輯器裡寫出標著不存在活動的**永久抽不到的死卡**
+    check('編輯器的 ACTIVITY_KEYS 逐字等於引擎的有卡池活動',
+      ACTIVITY_KEYS.join() === ACTIVITY_IDS.join(), `${ACTIVITY_KEYS.join()} vs ${ACTIVITY_IDS.join()}`);
+    check('編輯器的 ACTIVITY_LABELS 逐字等於引擎的活動名',
+      ACTIVITY_KEYS.every((k) => ACTIVITY_LABELS[k]
+        === TRAINING_ACTIVITIES.find((a) => a.id === k).name), JSON.stringify(ACTIVITY_LABELS));
   }
 
   /* ---- 心理／受傷／attr 邊界（§14.8.4／§6.2） ---- */
@@ -176,7 +247,7 @@ export async function run({ check, log }) {
     const am = fresh('draw-am', { stamina: 80, stage: 'AMATEUR' });
     const rng2 = new Rng('draw-am-r');
     for (let i = 0; i < 100; i++) {
-      const c = drawTrainingCard(am, rng2, 'mechanics', 'great_success');
+      const c = drawTrainingCard(am, rng2, 'study', 'great_success');
       check('業餘抽不到 PRO 卡', !c.stage || c.stage.includes('AMATEUR'), `${c.id} stage=${c.stage}`);
     }
 
@@ -185,11 +256,11 @@ export async function run({ check, log }) {
     const hi = fresh('draw-hi', { stamina: 90, stage: 'PRO' });
     const rngLo = new Rng('draw-lo-r');
     const rngHi = new Rng('draw-hi-r');
-    const lowDanger = new Set(['tr_pro_low_mech', 'tr_pro_low_scrim', 'tr_pro_low_fit', 'tr_pro_low_soloq']);
+    const lowDanger = new Set(['tr_pro_low_study', 'tr_pro_low_scrim', 'tr_pro_low_fit', 'tr_pro_low_soloq']);
     let lowHit = 0, hiHit = 0;
     for (let i = 0; i < 400; i++) {
-      if (lowDanger.has(drawTrainingCard(lo, rngLo, 'mechanics', 'great_failure').id)) lowHit++;
-      if (lowDanger.has(drawTrainingCard(hi, rngHi, 'mechanics', 'great_failure').id)) hiHit++;
+      if (lowDanger.has(drawTrainingCard(lo, rngLo, 'study', 'great_failure').id)) lowHit++;
+      if (lowDanger.has(drawTrainingCard(hi, rngHi, 'study', 'great_failure').id)) hiHit++;
     }
     check('低體力時危險卡進池（有機會抽到）', lowHit > 0, `低體力命中 ${lowHit}/400`);
     check('高體力時危險卡不進池', hiHit === 0, `高體力命中 ${hiHit}/400`);
@@ -199,13 +270,12 @@ export async function run({ check, log }) {
   {
     const s = fresh('draw-w', { stamina: 80, stage: 'AM2' });
     const rng = new Rng('draw-w-r');
-    // AM2 的 great_success 池 = 兜底 6（weight 3 each）＋ AM2 6 張（weight 6 each）
-    const base = new Set(['tr_mechanics_great_success', 'tr_scrim_great_success', 'tr_vod_great_success',
-      'tr_fitness_great_success', 'tr_soloq_great_success', 'tr_heroes_great_success']);
+    // AM2 的 study × great_success 池 = 兜底 1 張（weight 3）＋ AM2 1 張（weight 6）
+    const base = new Set(ACTIVITY_IDS.map((a) => `tr_${a}_great_success`));
     let am2Hit = 0;
     const N = 1200;
     for (let i = 0; i < N; i++) {
-      const c = drawTrainingCard(s, rng, 'mechanics', 'great_success');
+      const c = drawTrainingCard(s, rng, 'study', 'great_success');
       if (!base.has(c.id)) am2Hit++;
     }
     const ratio = am2Hit / N;
@@ -225,7 +295,7 @@ export async function run({ check, log }) {
   /* ---- 結算結果帶訓練事件卡文本（month.js 組卡用） ---- */
   {
     const s = fresh('card', { stamina: 90 });
-    const result = resolveTraining(s, new Rng('card-r'), 'mechanics');
+    const result = resolveTraining(s, new Rng('card-r'), 'study');
     check('結算結果帶檔位對應的卡', !!result.card && result.card.tier === result.tier, result.card?.tier);
     check('結算結果有 attrNotes 欄位', Array.isArray(result.attrNotes), typeof result.attrNotes);
     check('結算後體力被消耗', staminaOf(s) < 90, staminaOf(s));
@@ -237,14 +307,18 @@ export async function run({ check, log }) {
   {
     const state = fresh('menu-s', { stamina: 90 });
     const menu = trainingMenu(state);
-    check('選單與活動表同長', menu.length === TRAINING_ACTIVITIES.length, String(menu.length));
+    check('選單只攤玩家能選的六項（復健不在其中）',
+      menu.length === 6 && !menu.some((o) => o.id === 'rehab'), menu.map((o) => o.id).join('、'));
     for (const opt of menu) {
       const act = TRAINING_ACTIVITIES.find((a) => a.id === opt.id);
       check(`${act.id}：staminaDelta 與 cost 反號（正＝恢復）`,
         opt.staminaDelta === -act.cost, `${opt.staminaDelta} vs cost ${act.cost}`);
-      if (act.kind === 'rest' || act.kind === 'rehab') {
-        check(`${act.id}：休息／復健不分成敗`, opt.successRate === null, String(opt.successRate));
-        check(`${act.id}：休息／復健不影響屬性`, Array.isArray(opt.attrs) && opt.attrs.length === 0, JSON.stringify(opt.attrs));
+      if (act.kind === 'rest') {
+        // §5.4：休息不分成敗，successRate 是 null 不是 100——填 100 等於在畫面上
+        // 多出一個不存在的判定
+        check(`${act.id}：休息不分成敗`, opt.successRate === null, String(opt.successRate));
+        check(`${act.id}：休息有 attrs（屬性條高亮要亮得起來）`,
+          JSON.stringify(opt.attrs) === JSON.stringify(Object.keys(act.weights)), JSON.stringify(opt.attrs));
       } else {
         check(`${act.id}：successRate 等於 expectedSuccess 的四捨五入（不重算）`,
           opt.successRate === Math.round(expectedSuccess(state, act) * 100),
@@ -254,12 +328,17 @@ export async function run({ check, log }) {
       }
     }
     // note 是同一份計算結果的另一種呈現——過寫入端的欄位重建一遍，不手抄字串
-    const mech = menu.find((o) => o.id === 'mechanics');
-    const mechNote = `體力 −${-mech.staminaDelta}　${mech.attrs.map((k) => ATTR_NAMES[k]).join('·')}　成功率 ${mech.successRate}%`;
-    check('note 與結構化欄位同源（重建後逐字相同）', mech.note === mechNote, `${mech.note} vs ${mechNote}`);
+    // 重建走 effectText（結構化欄位），不手抄一份顯示字串——手抄只是把 bug 抄第二遍
+    const study = menu.find((o) => o.id === 'study');
+    const studyNote = `體力 −${-study.staminaDelta}　${study.effectText}　成功率 ${study.successRate}%`;
+    check('note 與結構化欄位同源（重建後逐字相同）', study.note === studyNote, `${study.note} vs ${studyNote}`);
+    const soloq = menu.find((o) => o.id === 'soloq');
+    check('SOLO RANK 的 effectText 標了英雄池', soloq.effectText.endsWith('·英雄池'), soloq.effectText);
     const rest = menu.find((o) => o.id === 'rest');
-    check('休息的 note 也走同一份欄位', rest.note.includes(`體力 +${rest.staminaDelta}`), rest.note);
+    check('休息的 note 也走同一份欄位', rest.note === `體力 +${rest.staminaDelta}　${rest.effectText}`, rest.note);
+    check('休息的 effectText 同時講恢復與屬性', rest.effectText.startsWith('恢復體力・'), rest.effectText);
   }
 
-  log(`設施制訓練：${TRAINING_ACTIVITIES.length} 個活動、${TRAINING_CARDS.length} 張訓練事件卡（S18 完整目錄）`);
+  log(`設施制訓練：${TRAINING_ACTIVITIES.filter((a) => a.menu !== false).length} 個選單活動`
+    + `（＋復健預防隱藏 1）、${TRAINING_CARDS.length} 張訓練事件卡（S18 完整目錄）`);
 }

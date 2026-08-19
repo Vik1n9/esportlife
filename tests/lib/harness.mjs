@@ -46,9 +46,14 @@ export const DEFAULT_STAGE = 'AMATEUR';
  */
 export const REST_AT = 45;
 
-/** 訓練活動裡「漲東西」的那些（休息／復健是恢復，不算訓練策略的選項） */
+/**
+ * 訓練活動裡「拿體力換成長」的那些（休息是恢復，不算訓練策略的選項）。
+ *
+ * ⚠ S46 之後休息**也漲屬性**，但它仍不是「訓練」——策略層的分界是「花體力還是回體力」，
+ * 不是「漲不漲屬性」。復健預防已退出玩家選單（`menu: false`），本來就不在裡面。
+ */
 const TRAIN_IDS = TRAINING_ACTIVITIES
-  .filter((a) => a.kind === 'train' || a.kind === 'heroes')
+  .filter((a) => a.kind === 'train')
   .map((a) => a.id);
 
 /**

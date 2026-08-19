@@ -24,9 +24,8 @@ import { REST_AT, monthAction, playCareer } from '../lib/harness.mjs';
 export const name = '體力資源與低體力懲罰曲線';
 
 /** 設施制（S16）訓練活動的平均消耗——經濟骨架用「平均」取代舊的單一 TRAIN_COST */
-const AVG_TRAIN_COST = TRAINING_ACTIVITIES
-  .filter((a) => a.kind === 'train')
-  .reduce((t, a) => t + a.cost, 0) / TRAINING_ACTIVITIES.filter((a) => a.kind === 'train').length;
+const TRAIN_ACTS = TRAINING_ACTIVITIES.filter((a) => a.kind === 'train');
+const AVG_TRAIN_COST = TRAIN_ACTS.reduce((t, a) => t + a.cost, 0) / TRAIN_ACTS.length;
 
 const fresh = (seed = 'sta', extra = {}) => {
   const s = createState({ name: 'S', role: 'MID', seed });
@@ -134,6 +133,10 @@ export async function run({ check, log }) {
     check('賽事期間不能選休息', canRest({ inEvent: true }) === false);
     const inEvent = recoveryOptions({ inEvent: true });
     check('賽事期間的選項裡沒有「休息」', !inEvent.some((o) => o.id === 'rest'), JSON.stringify(inEvent.map((o) => o.id)));
+    // 復健預防自 S46 起不是玩家選項（`menu: false`），非賽事期的恢復手段只剩休息
+    const offEvent = recoveryOptions({});
+    check('非賽事期的恢復選項只剩休息', offEvent.map((o) => o.id).join() === 'rest',
+      JSON.stringify(offEvent.map((o) => o.id)));
     check('賽事期間提供「減少訓練」', inEvent.some((o) => o.id === 'light'));
     check('賽事期間唯一的恢復手段是心態調整',
       inEvent.filter((o) => o.cost < 0).map((o) => o.id).join() === 'mindset', JSON.stringify(inEvent));
@@ -156,8 +159,8 @@ export async function run({ check, log }) {
 
     // 訓練活動的選單帶預期成功率，體力決定它——這是「引導休息」的關鍵資訊
     const freshState = fresh('menu', { stamina: 90 });
-    const fullNote = trainingMenu(freshState).find((o) => o.id === 'mechanics').note;
-    const lowNote = trainingMenu(fresh('menu-low', { stamina: 10 })).find((o) => o.id === 'mechanics').note;
+    const fullNote = trainingMenu(freshState).find((o) => o.id === 'study').note;
+    const lowNote = trainingMenu(fresh('menu-low', { stamina: 10 })).find((o) => o.id === 'study').note;
     check('活動選單標了體力價格與預期成功率', /體力/.test(fullNote) && /成功率/.test(fullNote), fullNote);
     check('體力低時預期成功率跟著掉（引導休息）', lowNote !== fullNote, `${fullNote} vs ${lowNote}`);
 
@@ -165,8 +168,8 @@ export async function run({ check, log }) {
     const menu = { options: trainingMenu(fresh('menu2')) };
     check('保守玩法：體力不夠就休息', monthAction(fresh('p2', { stamina: REST_AT - 1 }), menu) === 'rest');
     const pick = monthAction(fresh('p1', { stamina: REST_AT + 1 }), menu);
-    check('保守玩法：體力夠就練（選某個訓練／英雄池活動）',
-      TRAINING_ACTIVITIES.some((a) => a.id === pick && (a.kind === 'train' || a.kind === 'heroes')), pick);
+    check('保守玩法：體力夠就練（選某個訓練活動）',
+      TRAINING_ACTIVITIES.some((a) => a.id === pick && a.kind === 'train'), pick);
   }
 
   /* ---- 經濟：一次休息換得回幾個訓練月 ---- */

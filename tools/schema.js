@@ -18,6 +18,7 @@ import { BASE_TRAITS, RARE_TRAITS } from '../src/data/traits.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS, UNIQUE_TRAITS, FUSIONS } from '../src/data/epics.js';
 import { EVENT_CARDS } from '../src/data/events.js';
 import { TRAINING_CARDS } from '../src/data/trainingCards.js';
+import { TRAINING_ACTIVITIES } from '../src/engine/training.js';
 import { QUEST_CARDS } from '../src/data/quests.js';
 import { INNATE_POOL } from '../src/data/innate.js';
 import { PERCENTILE_METRICS } from '../src/data/npc/percentiles.js';
@@ -68,13 +69,17 @@ export const SUB_LABELS = {
 /** 生涯階段（when.stage） */
 export const STAGES = ['AMATEUR', 'AM2', 'PRO'];
 
-/** 訓練卡可標的活動（§5.2 有卡池的六項；rest／rehab 無卡池不標） */
-export const ACTIVITY_KEYS = ['mechanics', 'scrim', 'vod', 'fitness', 'soloq', 'heroes'];
-
-export const ACTIVITY_LABELS = {
-  mechanics: '個人機械訓練', scrim: '強化訓練賽', vod: '戰術復盤',
-  fitness: '體能健身', soloq: '排位衝分', heroes: '英雄池練習',
-};
+/**
+ * 訓練卡可標的活動（§5.2 有卡池的五項；rest／rehab 無卡池不標）。
+ *
+ * **導出，不手抄**（S46）。這兩張表原本是手打的——六個 id 與六個中文名各抄一份，
+ * 而這個檔的檔頭寫著「可選值全部從 `src/data/*` 與 `src/engine/*` 匯入，不手打」。
+ * 手抄的下場就是同一個檔的 `SLOTS` 註解記著的那件事：編輯器答應得出來、引擎兌現
+ * 不了，標到不存在活動的卡是**永久抽不到的死卡**。導出之後這種脫節在結構上不可能發生。
+ */
+const CARDED = TRAINING_ACTIVITIES.filter((a) => a.pool);
+export const ACTIVITY_KEYS = CARDED.map((a) => a.id);
+export const ACTIVITY_LABELS = Object.fromEntries(CARDED.map((a) => [a.id, a.name]));
 
 /** 特質階級（§14.7 種類歸屬） */
 export const TIERS = ['common', 'rare', 'epic', 'legend', 'unique'];
