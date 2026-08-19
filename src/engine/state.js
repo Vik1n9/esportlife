@@ -287,6 +287,11 @@ export function createState({ name, role, seed, stage = 'PRO' }) {
     // （MSI／世界賽門檻 ≥ 90%、季後賽 ≥ 80%，量測不硬紅）
     oppFaces: { playoff: { draws: 0, materialized: 0 }, intl: { draws: 0, materialized: 0 } },
 
+    // Bo5 高壓檢定計數（S36，§24.4.2）：四常數的重驗讀點——檢定局觸發率與雙邊
+    // 衰減總量（除以 fired 得均值）。§24.4.2 寫「兩邊各衰 ~0.2 點互相抵消」是
+    // S31 的估算，實測要有地方對帳；缺這欄不報錯（`runSeries` 判 null 才記）
+    deciderLog: { bo5: 0, fired: 0, mineDecay: 0, oppDecay: 0 },
+
     // 賽區背景模擬資料池（S32，§24.2.2）：逐年 → 賽段積分榜／國際賽微觀數據。
     // 只存匯總、只存當年＋前一年（`engine/leagueSim.js` 逐月寫入時順手清舊年）
     leaguePool: {},

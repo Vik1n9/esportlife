@@ -139,17 +139,17 @@ export function regionParOf(region) {
  * 產物（歷年 Worlds／MSI 參賽隊員＋四大賽區賽段冠軍隊員）才算國際賽精選隊。
  * 不是整隊優先度欄位——模板是逐選手取材，隊是年表重組出來的。
  */
-function isGlobalBossTeam(team) {
+export function isGlobalBossTeam(team) {
   return team.players.every((p) => NPC_BY_ID[p.id]?.fetch_priority === 2);
 }
 
 /**
- * 大賽經驗加成（§24.4.1）：`min(3.0, 0.5 × n)`——n ＝ 五名先發各自的
- * Worlds＋MSI 參賽年數之和（career 年表裡 event ∈ {worlds, msi} 的 entries；
- * 同年兩賽事只算一年——「年」是出場單位，不是場次）。
- * 上界 3.0 點 ＝ 單局勝率 +5.3pp（×1.76）：老將紅利看得見，碾不爛人。
+ * 大賽經驗加成的原始讀數 n ＝ 五名先發各自的 Worlds＋MSI 參賽年數之和
+ * （career 年表裡 event ∈ {worlds, msi} 的 entries；同年兩賽事只算一年——
+ * 「年」是出場單位，不是場次）。拆出來是為了 S36 的池診斷能量未夾取的 n
+ * （`tools/calibrate-160.mjs --intl`），不必在工具裡再抄一份走訪法。
  */
-export function intlExpOf(team) {
+export function intlYearsOf(team) {
   let total = 0;
   for (const p of team.players) {
     const years = new Set();
@@ -160,7 +160,23 @@ export function intlExpOf(team) {
     }
     total += years.size;
   }
-  return Math.min(3.0, 0.5 * total);
+  return total;
+}
+
+/** §24.4.1 第 2 條的兩個常數。⚠ 動它們要先讀該節的 S36 註記（上界與錨點互斥） */
+export const INTL_EXP_COEF = 0.5;
+export const INTL_EXP_CAP = 3.0;
+
+/**
+ * 大賽經驗加成（§24.4.1）：`min(3.0, 0.5 × n)`。
+ * 上界 3.0 點 ＝ 單局勝率 +5.3pp（×1.76）：老將紅利看得見，碾不爛人。
+ *
+ * ⚠ **實測（S36）：p2 池 95.5% 打上界、sd 0.10**——n 的池均值是 13.5 而不是
+ * S31 估的 ~3，加成實際上退化成常數 +3.0。收斂結論、掃值表與「上界 3.0 之下
+ * 鑑別度與局勝率錨互斥」的推導都在 §24.4.1 的 S36 註記；本站不改常數。
+ */
+export function intlExpOf(team) {
+  return Math.min(INTL_EXP_CAP, INTL_EXP_COEF * intlYearsOf(team));
 }
 
 /**
@@ -178,8 +194,14 @@ export function regionPatchDebt(region) {
 
 /**
  * Bo5 高壓檢定的對手端讀數（§24.4.2 對稱實作）：對手五人 psych 的
- * `comp × 0.6 + resl × 0.4` 均值。psych 缺位的 NPC 視同 m=50（中性不衰減，
- * 也是匿名對手的基準）——檢定不懲罰「資料沒有」，只懲罰「心理不行」。
+ * `comp × 0.6 + resl × 0.4` 均值。psych 缺位的 NPC 視同 m=50，也是匿名對手的基準。
+ *
+ * ⚠ **m=50 不是「不衰減」**（S36 實測更正）：門檻是 60，`deciderCheckDecay(50)`
+ * ＝ 0.204 點。§24.4.2 據此推「兩邊各衰 ~0.2 互相抵消」，但玩家端 m 實測均值
+ * **74.4**（89.9% 零衰減）、對手端 50.8（1.7% 零衰減）——抵消不成立，淨 **+0.125
+ * 點偏向玩家**。量級遠小於帶寬（四條驗收線全部落帶內），S36 依 §24.4.2「破帶
+ * 才動四常數」不動門檻；要讓「資料沒有＝不衰減」名實相符是門檻 60 → 50 的
+ * 規格決定，登記在 §24.4.2 的 S36 註記。
  */
 export function teamCheckM(team) {
   let sum = 0; let n = 0;
