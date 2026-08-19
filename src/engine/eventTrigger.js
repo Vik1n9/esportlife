@@ -40,6 +40,7 @@ import { staminaOf, successMul } from './stamina.js';
 import { traitName, flag } from '../kernel/modifiers.js';
 import { skillValue } from './attributes.js';
 import { evalCond } from './conditions.js';
+import { lastActivityOf } from './ledger.js';
 
 /** 第二張事件的機率（%）。§12.1「每回合固定觸發 1 張，有機率觸發 2 張」的機率值 */
 export const SECOND_EVENT_CHANCE = 30;
@@ -125,8 +126,8 @@ export const ACTIVITY_EVENT_BIAS = {
   rest: { life: 2.5, media: 1.5 },        // 休息：生活、社群
 };
 
-/** 一張卡在隨機池的加權（`state.lastActivity` 沒寫（舊存檔）或 sub 沒掛到 → 1.0） */
-const eventBiasWeight = (state) => (ev) => ACTIVITY_EVENT_BIAS[state.lastActivity]?.[ev.sub] ?? 1;
+/** 一張卡在隨機池的加權（`lastActivityOf` 沒寫（舊存檔）或 sub 沒掛到 → 1.0） */
+const eventBiasWeight = (state) => (ev) => ACTIVITY_EVENT_BIAS[lastActivityOf(state)]?.[ev.sub] ?? 1;
 
 /** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效（原在 shared.js，隨抽卡邏輯搬入）。
  * ⚠ S18 第二批補登 genius／clutch／intlghost／underdog：第一批的觸發卡把這四個旗標寫進
