@@ -36,7 +36,7 @@ import { applyMental } from './mental.js';
 import { rollInjury, trainHeroes } from './progression.js';
 import {
   REHAB_RECOVER, REHAB_RISK_RELIEF, REST_RECOVER, consume, recover, restYieldMul, staminaOf,
-  successMul,
+  successMul, trainCost, vitCoef,
 } from './stamina.js';
 
 /* ================= 訓練活動菜單（V4 §5.2，S46 六選一） ================= */
@@ -140,7 +140,14 @@ function greatFailureMul(stamina) {
  *   successRate 是預期成功率整數百分位（休息／復健不分成敗，為 null）
  */
 function activityInfo(state, activity) {
-  const staminaDelta = -activity.cost;
+  // ⚠ 顯示與效果同源（S47）：消耗活動的 `staminaDelta` 走 `trainCost`，與
+  // `resolveTraining` 實扣的是同一個數（round 做在 `trainCost` 裡，不是顯示端）。
+  // ⚠ 恢復活動（cost 為負）不能套鏡像 `vitCostCoef`——負數乘上去會讓顯示方向顛倒
+  // （高 vit 顯示恢復更少、實際恢復更多）。改讀 `recover` 的實際量：`cost × vitCoef`
+  // 是恢復的真實值，round 後顯示（誤差 ≤0.5 點，整數刻度上同源）。
+  const staminaDelta = activity.cost < 0
+    ? Math.round(-activity.cost * vitCoef(state))
+    : -trainCost(state, activity.cost);
   if (activity.kind === 'rehab') return { staminaDelta, attrs: [], effectText: '降低受傷風險', successRate: null };
   const attrs = Object.keys(activity.weights);
   const attrText = attrs.map((k) => ATTR_NAMES[k]).join('·');
@@ -258,7 +265,9 @@ export function resolveTraining(state, rng, activityId) {
     return { activity, kind: 'rehab', recovered: staminaOf(state) - before };
   }
 
-  consume(state, activity.cost);
+  // 消耗：體能折扣只在這裡（S47）——比賽消耗（`MATCH_MONTH_COST`／`SERIES_GAME_COST`）
+  // 不走 `trainCost`，賽季的體力經濟是另一條線
+  consume(state, trainCost(state, activity.cost));
 
   // 階段一：成敗
   const success = rng.chance(expectedSuccess(state, activity) * 100);

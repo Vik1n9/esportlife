@@ -3,7 +3,7 @@ import { clamp } from '../core/rng.js';
 import { HEROES_BY_ROLE, PATCH_THEMES } from '../data/heroes.js';
 import { FUSIONS, UNIQUE_TRAITS } from '../data/epics.js';
 import { capOf, factor, flag, lookupTrait, TIER_STORES, traitName, traitTier } from '../kernel/modifiers.js';
-import { injuryMul, staminaOf } from './stamina.js';
+import { injuryMul, staminaOf, vitInjuryCoef } from './stamina.js';
 import { evalCond } from './conditions.js';
 
 /* ---------------- 受傷 ---------------- */
@@ -20,6 +20,12 @@ export function injuryProbability(state) {
    * 放在 `capOf` 之前是刻意的：帶著受傷率上限那類特質的人，撐再兇也還是有天花板。
    */
   p *= injuryMul(staminaOf(state));
+  /*
+   * 體能（S47）：這副身體耐不耐操。同上走乘法——體能與年齡、體力是同一件事的三個
+   * 因子（33 歲 ＋ 透支 ＋ 低體能才是真的危險，任兩項單獨都不是）。放 `capOf` 之前
+   * 的理由與體力同條：帶受傷率上限特質的人，體能再差也還是有天花板。
+   */
+  p *= vitInjuryCoef(state);
   p = capOf(state, 'injuryRate', p);
   if (flag(state, 'injuryImmune')) return 0;
   p += (state.tempInjuryRisk || 0);

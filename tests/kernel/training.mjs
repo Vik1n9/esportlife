@@ -21,7 +21,7 @@ import {
 import { TRAINING_CARDS, poolOfTier } from '../../src/data/trainingCards.js';
 import { ATTR_NAMES, ATTRS } from '../../src/data/attributes.js';
 import { MENTAL_KEYS } from '../../src/data/mental.js';
-import { restYieldMul, staminaOf } from '../../src/engine/stamina.js';
+import { restYieldMul, staminaOf, trainCost, vitCoef } from '../../src/engine/stamina.js';
 import { ACTIVITY_KEYS, ACTIVITY_LABELS } from '../../tools/schema.js';
 
 export const name = '設施制訓練與訓練事件卡';
@@ -311,8 +311,14 @@ export async function run({ check, log }) {
       menu.length === 6 && !menu.some((o) => o.id === 'rehab'), menu.map((o) => o.id).join('、'));
     for (const opt of menu) {
       const act = TRAINING_ACTIVITIES.find((a) => a.id === opt.id);
-      check(`${act.id}：staminaDelta 與 cost 反號（正＝恢復）`,
-        opt.staminaDelta === -act.cost, `${opt.staminaDelta} vs cost ${act.cost}`);
+      // S47：staminaDelta 與效果同源——消耗活動走 trainCost（實扣），恢復活動走
+      // recover 的實際量（cost × vitCoef 的 round）。鏡像 vitCostCoef 不能套負數：
+      // 那會讓「高 vit 顯示恢復更少、實際恢復更多」方向顛倒
+      const expected = act.cost < 0
+        ? Math.round(-act.cost * vitCoef(state))
+        : -trainCost(state, act.cost);
+      check(`${act.id}：staminaDelta 與實際扣/回量同源（S47）`,
+        opt.staminaDelta === expected, `${opt.staminaDelta} vs ${expected}`);
       if (act.kind === 'rest') {
         // §5.4：休息不分成敗，successRate 是 null 不是 100——填 100 等於在畫面上
         // 多出一個不存在的判定

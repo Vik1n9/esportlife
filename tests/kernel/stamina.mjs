@@ -12,7 +12,7 @@ import {
   BAND_FRESH, BAND_TIRED, MATCH_MONTH_COST, MONTHLY_RECOVER, MONTHS_PER_YEAR, REHAB_RECOVER,
   REST_RECOVER, STAMINA_MAX, bandOf, canRest, consume,
   formFactor, injuryMul, monthlyDrift, recover, recoveryOptions, seriesCost,
-  staminaOf, staminaPower, successMul, vitCoef,
+  staminaOf, staminaPower, successMul, trainCost, vitCoef, vitCostCoef, vitInjuryCoef,
 } from '../../src/engine/stamina.js';
 import { TRAINING_ACTIVITIES, resolveTraining, trainingMenu } from '../../src/engine/training.js';
 import { injuryProbability } from '../../src/engine/progression.js';
@@ -68,6 +68,52 @@ export async function run({ check, log }) {
     check('體能高的人恢復得快', tough.stamina > weak.stamina, `${tough.stamina} vs ${weak.stamina}`);
     check('體質差異是幅度不是量級（±20% 以內）',
       vitCoef(tough) <= 1.2 && vitCoef(weak) >= 0.8, `${vitCoef(weak)} ~ ${vitCoef(tough)}`);
+  }
+
+  /* ---- S47：vitCostCoef 是 vitCoef 的鏡像（訓練成本折扣） ---- */
+  {
+    const withVit = (v) => { const s = fresh('vc'); s.attr.vit = v; return s; };
+    check('vitCostCoef：60 中性、100 打八折、20 加兩成',
+      vitCostCoef(withVit(60)) === 1 && vitCostCoef(withVit(100)) === 0.8 && vitCostCoef(withVit(20)) === 1.2,
+      `20 → ${vitCostCoef(withVit(20))}、60 → ${vitCostCoef(withVit(60))}、100 → ${vitCostCoef(withVit(100))}`);
+    check('vitCostCoef 越界夾在 0.8~1.2（與 vitCoef 同上下界）',
+      vitCostCoef(withVit(-10)) === 1.2 && vitCostCoef(withVit(150)) === 0.8,
+      `${vitCostCoef(withVit(-10))} ~ ${vitCostCoef(withVit(150))}`);
+    // 鏡像：同一 vit 下兩個係數乘積對稱（1−δ 與 1+δ）
+    check('vitCostCoef 是 vitCoef 的鏡像（同中點 60、同斜率 0.005）',
+      Math.abs(vitCostCoef(withVit(80)) - (2 - vitCoef(withVit(80)))) < 1e-9,
+      `${vitCostCoef(withVit(80))} vs ${2 - vitCoef(withVit(80))}`);
+    check('vit 缺失時退回中性值 1，舊存檔不得傳染 NaN',
+      vitCostCoef({}) === 1 && Number.isFinite(vitCostCoef({})));
+    check('trainCost 是 round 過的整數（顯示與扣除同源的前提）',
+      trainCost(withVit(100), 30) === 24 && trainCost(withVit(20), 30) === 36,
+      `vit100 −30 → ${trainCost(withVit(100), 30)}、vit20 −30 → ${trainCost(withVit(20), 30)}`);
+  }
+
+  /* ---- S47：vitInjuryCoef 進 injuryProbability（乘法鏈第三個因子） ---- */
+  {
+    const tough = fresh('vit-inj-hi', { stamina: 80, age: 22 }); tough.attr.vit = 100;
+    const frail = fresh('vit-inj-lo', { stamina: 80, age: 22 }); frail.attr.vit = 20;
+    check('高體能的人受傷機率低（100 → ×0.76）',
+      injuryProbability(tough) < injuryProbability(frail),
+      `${injuryProbability(tough).toFixed(1)}% vs ${injuryProbability(frail).toFixed(1)}%`);
+    check('體能修正的幅度對得上係數（15 × 0.76 vs 15 × 1.24）',
+      Math.abs(injuryProbability(tough) - 15 * 0.76) < 1e-9
+      && Math.abs(injuryProbability(frail) - 15 * 1.24) < 1e-9,
+      `${injuryProbability(tough).toFixed(2)} vs ${15 * 0.76}`);
+    // 體能與體力相乘：透支＋低體能才是真的危險（不是只有加法）
+    const drained = fresh('vit-inj-dr', { stamina: 0, age: 22 }); drained.attr.vit = 20;
+    check('體能 × 體力 相乘（透支時體能差更危險）',
+      Math.abs(injuryProbability(drained) - 15 * 2 * 1.24) < 1e-9,
+      `${injuryProbability(drained).toFixed(1)}% vs 期望 ${(15 * 2 * 1.24).toFixed(1)}%`);
+    // 邊界不受影響：clamp(p, 3, 95) 的 3 是下限——體能再高也有受傷機率
+    check('clamp(p, 3, 95) 下限仍在（體能高不會免疫）', injuryProbability(tough) >= 3,
+      `${injuryProbability(tough).toFixed(1)}%`);
+    // injuryImmune 短路不受體能影響
+    const immune = fresh('vit-inj-im', { stamina: 80, age: 22 }); immune.attr.vit = 20;
+    immune.epic.indestructible = true;
+    check('injuryImmune 旗標短路不受體能影響', injuryProbability(immune) === 0,
+      `${injuryProbability(immune).toFixed(1)}%`);
   }
 
   /* ---- §6.2 懲罰曲線：區間照表，區間內連續 ---- */

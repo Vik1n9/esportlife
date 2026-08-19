@@ -197,15 +197,51 @@ export function staminaPower(s) {
 export const staminaOf = (state) => (typeof state.stamina === 'number' ? state.stamina : STAMINA_MAX);
 
 /**
- * 體能對體力經濟的影響。
+ * 體能對恢復量的影響（S47 起是 `vit` 三消費者的第一個）。
  *
  * V4 §7 的 `vit` 是「手腕續航、整季訓練量」，而 S10 的十二技能表把 `vit` 的 OVR
- * 權重全部歸零（體力被抽出來當資源了）。如果體力再與 `vit` 無關，這個屬性就完全
- * 沒有消費者，加點加到它等於丟進水裡。所以恢復量掛 `vit`：60 為中性，滿值 +20%。
- * 幅度刻意小——它是體質差異，不是另一條成長線。
+ * 權重全部歸零（體力被抽出來當資源了）。S46 之前 `vit` 只有這一個消費者，加點加到
+ * 它幾乎等於丟進水裡。S47 把「訓練成本」與「受傷機率」也掛上 `vit` 之後，這條軸
+ * 變成投資型：不推高評價，但讓每個月的訓練更便宜、更安全（§6.1／§7）。
+ *
+ * 60 為中性，滿值 +20%。幅度刻意小——它是體質差異，不是另一條成長線。
  */
 export function vitCoef(state) {
   return clamp(1 + ((state.attr?.vit ?? 60) - 60) * 0.005, 0.8, 1.2);
+}
+
+/**
+ * 體能對訓練消耗的折扣（`vitCoef` 的鏡像，S47）。
+ *
+ * 一個屬性對「回得多」與「耗得少」的影響量級刻意對稱：同中點 60、同斜率 0.005、
+ * 同 ±20% 上下界——兩條曲線放在一起要一眼看得出是同一件事的兩面。60 中性、
+ * 100 打八折、20 加兩成。
+ */
+export function vitCostCoef(state) {
+  return clamp(1 - ((state.attr?.vit ?? 60) - 60) * 0.005, 0.8, 1.2);
+}
+
+/**
+ * 一次訓練實扣的體力。
+ *
+ * 整數化刻意做在這裡而不是顯示端：選單印的 `體力 −N` 與 `resolveTraining` 實際
+ * 扣掉的必須是同一個數（「選單不能說謊」，S47 的新不變式）。折扣只掛訓練——
+ * `consume` 的另外兩個呼叫端（`MATCH_MONTH_COST`／`SERIES_GAME_COST`）不走這裡，
+ * 賽季的體力經濟是另一條線。
+ */
+export function trainCost(state, cost) {
+  return Math.round(cost * vitCostCoef(state));
+}
+
+/**
+ * 體能對受傷機率的體質修正（S47，`vit` 三消費者的第三個）。
+ *
+ * 100 → ×0.76、20 → ×1.24。斜率 0.006 刻意比恢復／成本兩條（0.005）陡一點——受傷
+ * 是「這副身體耐不耐操」的直接判讀，是 `vit` 最有存在感的消費者。與 `injuryMul`
+ * （體力）相乘才有交互作用：33 歲 ＋ 透支 ＋ 低體能才是真的危險。
+ */
+export function vitInjuryCoef(state) {
+  return clamp(1 - ((state.attr?.vit ?? 60) - 60) * 0.006, 0.75, 1.25);
 }
 
 /** 扣體力。回傳實際扣掉的量（扣到 0 為止） */

@@ -1,3 +1,29 @@
+## [v4.9.1] - 2026-08-19
+
+### 體能軸：`vit` 進訓練成本與受傷（S47，天組）
+
+`vit` 自 S10 起 OVR 權重歸零、只有恢復量一個消費者，是六屬性裡最沒有存在感的一個。
+本站給它兩個新效果，讓它成為投資型軸——不推高評價，但讓之後每個月的訓練更便宜、
+更安全。三條曲線都是小幅度的體質修正，不是另一條成長線。
+
+- **`stamina.js`**：新增 `vitCostCoef`（`vitCoef` 的鏡像：同中點 60、同斜率 0.005、
+  同 ±20% 上下界，100 打八折、20 加兩成）與 `trainCost`（round 做在這裡——選單印的
+  「體力 −N」與實際扣除逐字相同，「選單不能說謊」）；新增 `vitInjuryCoef`
+  （100 → ×0.76、20 → ×1.24，斜率 0.006 比前兩條陡）。
+- **`training.js`**：`resolveTraining` 的 `consume` 走 `trainCost`（折扣只掛訓練，
+  比賽消耗 `MATCH_MONTH_COST`／`SERIES_GAME_COST` 不經它）；`activityInfo` 的
+  `staminaDelta` 消耗活動走 `-trainCost`、恢復活動走 `round(-cost × vitCoef)`——
+  鏡像套負數會讓顯示方向顛倒（高 vit 顯示恢復更少），所以恢復側讀 `recover` 實際量。
+- **`progression.js`**：`injuryProbability` 在 `injuryMul` 之後、`capOf` 之前加
+  `p *= vitInjuryCoef(state)`——乘法而非加法，33 歲＋透支＋低體能才是真的危險；
+  `clamp(p, 3, 95)` 與 `injuryImmune` 短路不變。
+- **測試**：新增 `vitCostCoef` 曲線／鏡像對稱／round、`vitInjuryCoef` 進
+  `injuryProbability`（×0.76／×1.24／交互作用／clamp 下限／`injuryImmune` 短路）、
+  選單與效果同源（高 vit 與低 vit 各驗一次）；`npm test` **23867 項全綠**。
+- **量級漂移（交 S50）**：平均巔峰 0.732 → **0.758**、年資 10.7 → **12.4**、傳奇率
+  新手 2.5% → **11.3%**、休息 29.6% → **27.3%**、透支 27.2% → **25.0%**。方向全如
+  預期（訓練變便宜 → 練得多 → 更強更久），`TRAIN_YIELD`／`MONTHLY_RECOVER` 未動。
+
 ## [v4.9.0] - 2026-08-19
 
 ### 訓練選項六選一（S46，天組）
