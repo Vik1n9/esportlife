@@ -214,23 +214,12 @@ export function drawTrainingCard(state, rng, activityId, tier) {
     && (!c.stage || c.stage.includes(stage))
     && (!c.stamina || (stamina >= c.stamina[0] && stamina <= c.stamina[1]));
 
-  const pick = (cards) => {
-    if (!cards.length) return null;
-    const total = cards.reduce((t, c) => t + (c.weight || 1), 0);
-    let roll = rng.next() * total;
-    for (const c of cards) {
-      roll -= c.weight || 1;
-      if (roll <= 0) return c;
-    }
-    return cards[cards.length - 1];
-  };
-
   const pool = TRAINING_CARDS.filter(hit);
   const fallback = pool.length
     ? pool
     : TRAINING_CARDS.filter((c) => c.tier === tier
       && (!c.activity || c.activity.includes(activityId)) && !c.stage && !c.stamina);
-  return pick(fallback) || TRAINING_CARDS.find((c) => c.tier === tier) || null;
+  return rng.weighted(fallback, (c) => c.weight) || TRAINING_CARDS.find((c) => c.tier === tier) || null;
 }
 
 /**
@@ -240,6 +229,12 @@ export function drawTrainingCard(state, rng, activityId, tier) {
  */
 export function resolveTraining(state, rng, activityId) {
   const activity = TRAINING_ACTIVITIES.find((a) => a.id === activityId) || TRAINING_ACTIVITIES[0];
+
+  // 當月選了什麼（S48）：唯一真相來源，存檔帶著走。月度事件卡的隨機池抽選讀它
+  // 決定 sub 傾向（`engine/eventTrigger.js` 的 `ACTIVITY_EVENT_BIAS`），條件語言
+  // 的 `['lastAct', 活動id]` 也讀它。休息與復健照寫——休息是玩家的選項，復健不
+  // 是（但寫了也無害，傾向表沒有 rehab 鍵就退回 1.0）
+  state.lastActivity = activity.id;
 
   /*
    * 休息（S46）：也漲屬性，但**不分成敗、不抽卡、不受傷、不動心理**——成長是決定性的，

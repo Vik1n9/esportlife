@@ -51,6 +51,24 @@ export class Rng {
 
   pick(arr) { return arr[Math.floor(this.next() * arr.length)]; }
 
+  /**
+   * 依權重抽一個項目（S48）。`weightOf` 回傳權重，未回傳或 0 視為 1——
+   * 這與 `drawTrainingCard` 原本的區域實作（`c.weight || 1`）逐字同義，
+   * 抽換 helper 後同種子同結果由測試鎖住。
+   * 空陣列回 `undefined`（呼叫端自己決定要不要防呆）。
+   */
+  weighted(items, weightOf) {
+    if (!items.length) return undefined;
+    let total = 0;
+    for (const it of items) total += weightOf(it) || 1;
+    let roll = this.next() * total;
+    for (const it of items) {
+      roll -= weightOf(it) || 1;
+      if (roll <= 0) return it;
+    }
+    return items[items.length - 1];
+  }
+
   /** p 為百分比（0-100） */
   chance(p) { return this.next() * 100 < p; }
 

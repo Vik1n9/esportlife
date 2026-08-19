@@ -12,6 +12,7 @@
  *   ['has', 階, 鍵]        ['hasCount', 階, n]
  *   ['stat', 查詢函式名, 比較子, 值]
  *   ['eventFlag', 旗標鍵]  ['eventCount', 計數鍵, 比較子, 值]
+ *   ['lastAct', 活動id]    ← S48：上一個養成回合選的訓練活動（含 rest）
  *   ['percentile', 指標名, 比較子, 百分位]   ← S26：讀歷史母體靜態門檻
  *   ['leaguePct', 指標名, 比較子, 百分位]    ← S34：讀當季模擬母體（§24.3.2）
  *
@@ -34,8 +35,8 @@
 import { TIER_STORES } from '../kernel/modifiers.js';
 import {
   assistsPerGame, assistP90, awardsThisYear, careerGames, distinctTeams, eventCountOf, eventFlagOn,
-  intlGames, intlSemis, intlWinRate, lastFinish, longestTenure, msiBest, peakRatingP50, reigningChampion,
-  worldsBest,
+  intlGames, intlSemis, intlWinRate, lastActivityOf, lastFinish, longestTenure, msiBest,
+  peakRatingP50, reigningChampion, worldsBest,
 } from './ledger.js';
 import { finishOrder } from '../data/formats/finishes.js';
 import { careerScore } from './career.js';
@@ -132,7 +133,8 @@ export const QUERIES = {
  * 不手抄預期字串。
  */
 export const COND_KINDS = [
-  'and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount', 'percentile', 'leaguePct',
+  'and', 'or', 'not', 'has', 'hasCount', 'stat', 'eventFlag', 'eventCount', 'lastAct',
+  'percentile', 'leaguePct',
 ];
 
 const OPS = {
@@ -179,6 +181,12 @@ export function evalCond(state, node) {
       if (!op) throw new Error(`條件式未知的比較子：${node[2]}`);
       return op(eventCountOf(state, node[1]), node[3]);
     }
+    // 上個月的訓練活動（S48，§12.1 隨機池傾向）。`['lastAct', 'soloq']`＝上個月
+    // 選了 SOLO RANK——卡片作者用它寫死劇情連鎖（例如只在打完 SOLO RANK 之後
+    // 才命中的開台事件）。帶鍵所以是節點不是謂詞（與 eventFlag 同一個理由）。
+    // 值不在此處驗（編輯器的 `validateCond` 擋非法活動 id；引擎對未知 id 就是
+    // 恆 false——寫錯只會少觸發，不會炸）
+    case 'lastAct': return lastActivityOf(state) === node[1];
     // 百分位門檻（S26，§14.3 兩條 route 路線）：玩家某指標 op 歷史母體門檻。
     // `['percentile', 'assist', 'gte', 90]`＝生涯場均助攻 ≥ 同位置 P90。
     // ⚠ peakRating 百分位 S30 起沒有消費卡：網紅選手改走絕對門檻 fallback

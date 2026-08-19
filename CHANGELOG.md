@@ -1,3 +1,32 @@
+## [v4.9.2] - 2026-08-19
+
+### 月度事件卡掛鉤訓練選項（S48，天組）
+
+月度事件卡原本與玩家當月做了什麼完全無關——打了一整個月 SOLO RANK 的人跟泡了一
+整個月健身房的人，看到的劇情機率一模一樣。本站把當月的訓練選擇餵進隨機池抽選：
+做什麼就容易碰到什麼（沉浸感），不同選項通往不同的劇情面（變相鼓勵嘗試其他訓練）。
+
+- **`engine/eventTrigger.js`**：新增 `ACTIVITY_EVENT_BIAS`——六個活動 → 各 `sub`
+  的抽選倍率（健身房→身體／作息、SOLO RANK→媒體／壓力、休息→生活／社群……
+  配對邏輯與 S46 錯位輪替同精神，六組互不重複）。隨機池那兩處（事件一與第二張的
+  隨機池兜底）改 `rng.weighted` 加權。**三條界線**：只偏置隨機池不碰條件卡
+  （`condHits` 原封不動）；未列到的 sub 權重恆 1.0（加權不是開關，每張卡永遠抽得到）；
+  過濾（耗盡／防重）→ 加權 → 抽順序寫死。
+- **`core/rng.js`**：新增 `Rng.prototype.weighted(items, weightOf)`——從
+  `drawTrainingCard` 抽出的既有區域實作（`c.weight || 1` 語意逐字保留），
+  兩處共用一份，同種子同結果由測試鎖住。
+- **`engine/training.js`**：`resolveTraining` 開頭寫 `state.lastActivity = activity.id`
+  （休息也寫，唯一真相來源，存檔帶著走）；`drawTrainingCard` 改用 `rng.weighted`。
+- **條件語言多了 `lastAct` 節點**（`['lastAct', 'soloq']`＝上個月選了 SOLO RANK）：
+  讀取端在 `ledger.js` 的 `lastActivityOf`（條件式不直接翻 state 欄位）；`COND_KINDS`／
+  `COND_NODES`／`validateCond` 兩張註冊表同步；`tools/schema.js` 另導出 `ACTIVITY_ALL`
+  （含 rest 的六項）——與訓練卡的五項 `ACTIVITY_KEYS` 是**兩個集合**，別併掉。
+  卡片作者除了軟性傾向，還能寫死劇情連鎖（對之後的卡表重製特別有用）。
+- **`state.js`**：`SAVE_VERSION` 28 → 29（新欄位 `lastActivity`）。
+- **測試**：傾向生效（同種子 soloq vs fitness 的 media 佔比）、傾向不封鎖（九個 sub
+  都抽得到）、條件卡不受偏置、BIAS 表鍵合法、`rng.weighted` 與原實作同結果、
+  `lastAct` 求值與 `validateCond` 六項；`npm test` 全綠。
+
 ## [v4.9.1] - 2026-08-19
 
 ### 體能軸：`vit` 進訓練成本與受傷（S47，天組）

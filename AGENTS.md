@@ -29,7 +29,8 @@
 > 兩套語言能力不同，同一個條件在兩邊要寫兩次、還不保證寫得出來。
 
 - **全專案只有一套條件語言**：`src/engine/conditions.js` 的 `evalCond`
-  s-expression（`['and' …]`／`['stat', 謂詞, 運算子, 值]`／`['has', 階, 鍵]`）。
+  s-expression（`['and' …]`／`['stat', 謂詞, 運算子, 值]`／`['has', 階, 鍵]`／
+  `['lastAct', 活動id]` 等節點，完整清單見該檔 `COND_KINDS`）。
   任務卡、事件卡、特質授予、退役結局——所有「依狀態決定要不要發生」的判斷都走它。
 - **不得新增第二套。** `eventTrigger.js` 的 `whenHits` 是歷史遺留（只支援
   stage／minAge／maxAge／attr／trait／mental，且 trait 只讀 common 階），

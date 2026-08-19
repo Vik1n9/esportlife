@@ -12,16 +12,20 @@ import { createState } from '../../src/engine/state.js';
 import { Rng } from '../../src/core/rng.js';
 import { EVENT_CARDS } from '../../src/data/events.js';
 import {
-  FLAG_TRAIT, SECOND_EVENT_CHANCE, TRAIT_FLAGS, currentSlots, eventOdds, eventTrigger,
+  ACTIVITY_EVENT_BIAS, FLAG_TRAIT, SECOND_EVENT_CHANCE, TRAIT_FLAGS, currentSlots, eventOdds,
+  eventTrigger,
 } from '../../src/engine/eventTrigger.js';
-import { SLOTS } from '../../tools/schema.js';
+import { SLOTS, SUB_TAGS } from '../../tools/schema.js';
+import { TRAINING_ACTIVITIES } from '../../src/engine/training.js';
 import { STAMINA_MAX } from '../../src/engine/stamina.js';
 import { evalCond } from '../../src/engine/conditions.js';
 
 export const name = '事件觸發引擎（條件優先）';
 
-/** 假 rng：`pick` 一律回傳第一個，`chance` 回傳給定的值 */
-const fakeRng = (chance) => ({ pick: (arr) => arr[0], chance: () => chance });
+/** 假 rng：`pick`／`weighted` 一律回傳第一個，`chance` 回傳給定的值 */
+const fakeRng = (chance) => ({
+  pick: (arr) => arr[0], weighted: (arr) => arr[0], chance: () => chance,
+});
 
 /** 測試用事件卡：時段預設 regular（職業常規賽月） */
 function card(id, opts = {}) {
@@ -405,5 +409,109 @@ export async function run({ check, log }) {
     check('真池冒煙：300 次沒有空月', empty === 0, `空月 ${empty}`);
     check('真池冒煙：第二張從不與事件一同互斥群組', exclHit === 0, `同組 ${exclHit}`);
     log(`真池冒煙：300 次判定，第二張率 ${SECOND_EVENT_CHANCE}%，無空月、無互斥衝突`);
+  }
+
+  /* ---- 活動傾向（S48，§12.1 第 5 件事）：只偏置隨機池，是加權不是開關 ---- */
+  {
+    // 傾向生效：同種子、lastActivity 只差一個，media 佔比要顯著不同。每次抽一張
+    // 就重造 state（recentEvents 歸零）＋ 同種子新 rng——兩組的亂數流逐次同構，
+    // 差別只來自權重。fresh 狀態要躲開所有條件卡（patchDebt 0／體力 80／無特質／
+    // 抗壓 50），否則事件一從 condHits 出、隨機池的傾向根本碰不到
+    const freshPoolState = () => Object.assign(fresh('PRO'), {
+      lastActivity: null, patchDebt: 0, stamina: 80, benchedStreak: 0, injuryWeeks: 0,
+      traits: {}, mental: { comp: 50, conf: 50, drive: 50, disc: 50, trust: 50, resl: 50 },
+    });
+    const drawOne = (activity, seed) => {
+      const s = freshPoolState();
+      s.lastActivity = activity;
+      return eventTrigger(s, { month: 5 }, EVENT_CARDS, new Rng(seed))[0];
+    };
+    const N = 300;
+    let soloqMedia = 0; let fitnessMedia = 0; let soloqPressure = 0; let fitnessPressure = 0;
+    for (let i = 0; i < N; i++) {
+      const seed = `evt:bias:${i}`;
+      soloqMedia += drawOne('soloq', seed).sub === 'media' ? 1 : 0;
+      fitnessMedia += drawOne('fitness', seed).sub === 'media' ? 1 : 0;
+      soloqPressure += drawOne('soloq', seed).sub === 'pressure' ? 1 : 0;
+      fitnessPressure += drawOne('fitness', seed).sub === 'pressure' ? 1 : 0;
+    }
+    check('傾向生效：soloq 的 media 佔比顯著高於 fitness',
+      soloqMedia > fitnessMedia * 1.5,
+      `soloq ${soloqMedia}/${N} vs fitness ${fitnessMedia}/${N}`);
+    check('傾向生效：soloq 的 pressure 佔比高於 fitness（1.5×）',
+      soloqPressure > fitnessPressure,
+      `soloq ${soloqPressure}/${N} vs fitness ${fitnessPressure}/${N}`);
+    log(`media 佔比（同種子 300 抽）：soloq ${((soloqMedia / N) * 100).toFixed(1)}%`
+      + `／fitness ${((fitnessMedia / N) * 100).toFixed(1)}%`);
+
+    // 傾向不封鎖：soloq 只把 media 抬到 2.5、pressure 抬到 1.5，其餘 sub 權重恆
+    // 1.0——九個 sub 各放一張卡的合成池，每張都抽得到（開關式會把 7 張鎖死）
+    {
+      const pool = SUB_TAGS.map((sub, i) => card(`sub_${sub}`, { sub }));
+      const seen = new Set();
+      const N2 = 600;
+      for (let i = 0; i < N2; i++) {
+        const s = freshPoolState();
+        s.lastActivity = 'soloq';
+        const ev = eventTrigger(s, { month: 5 }, pool, new Rng(`evt:bias:all:${i}`))[0];
+        if (ev) seen.add(ev.sub);
+      }
+      check('傾向不封鎖：跑夠多次九個 sub 都至少出現一次',
+        SUB_TAGS.every((t) => seen.has(t)), [...seen].join('／'));
+    }
+
+    // 條件卡不受偏置：`when` 必中的卡切換 lastActivity 不改變命中與否
+    {
+      const s1 = freshPoolState(); s1.attr.tec = 80; s1.lastActivity = 'soloq';
+      const s2 = freshPoolState(); s2.attr.tec = 80; s2.lastActivity = 'fitness';
+      const pool = [
+        card('alwaysCond', { when: ['stat', 'tec', 'gte', 70] }),
+        card('poolX', {}),
+      ];
+      const [a] = eventTrigger(s1, { month: 5 }, pool, fakeRng(false));
+      const [b] = eventTrigger(s2, { month: 5 }, pool, fakeRng(false));
+      check('條件卡不受偏置：切換 lastActivity 不改變命中',
+        a.id === 'alwaysCond' && b.id === 'alwaysCond', `${a.id}／${b.id}`);
+    }
+  }
+
+  /* ---- ACTIVITY_EVENT_BIAS 表本身（S48）：打錯字只會靜默退化成 1.0，這條擋掉它 ---- */
+  {
+    const activityIds = TRAINING_ACTIVITIES.map((a) => a.id);
+    const badActivity = Object.keys(ACTIVITY_EVENT_BIAS)
+      .filter((k) => !activityIds.includes(k));
+    check('ACTIVITY_EVENT_BIAS 的鍵全是合法活動 id', badActivity.length === 0, badActivity.join('／'));
+    const badSub = Object.values(ACTIVITY_EVENT_BIAS)
+      .flatMap((o) => Object.keys(o)).filter((s) => !SUB_TAGS.includes(s));
+    check('ACTIVITY_EVENT_BIAS 的 sub 全在 SUB_TAGS 內', badSub.length === 0, badSub.join('／'));
+    const allW = Object.values(ACTIVITY_EVENT_BIAS).flatMap((o) => Object.values(o));
+    check('ACTIVITY_EVENT_BIAS 的權重都 > 1（是加權不是開關）', allW.every((w) => w > 1), allW.join('／'));
+  }
+
+  /* ---- rng.weighted 與原區域實作同結果（S48：抽換 helper 不改行為） ---- */
+  {
+    const oldPick = (rng, cards) => {
+      if (!cards.length) return null;
+      const total = cards.reduce((t, c) => t + (c.weight || 1), 0);
+      let roll = rng.next() * total;
+      for (const c of cards) {
+        roll -= c.weight || 1;
+        if (roll <= 0) return c;
+      }
+      return cards[cards.length - 1];
+    };
+    const cards = [
+      { id: 'a', weight: 3 }, { id: 'b', weight: 6 }, { id: 'c' }, { id: 'd', weight: 0 },
+    ];
+    const a = new Rng('evt:weighted');
+    const b = new Rng('evt:weighted');
+    let same = true;
+    for (let i = 0; i < 800; i++) {
+      const x = oldPick(a, cards);
+      const y = b.weighted(cards, (c) => c.weight);
+      if ((x?.id ?? null) !== (y?.id ?? null)) same = false;
+    }
+    check('rng.weighted 與原區域實作同種子逐次同結果', same);
+    check('rng.weighted 空陣列回 undefined', new Rng('evt:empty').weighted([], () => 1) === undefined);
   }
 }

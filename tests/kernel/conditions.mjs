@@ -10,7 +10,7 @@ import { recordIntlFinish } from '../../src/phases/shared.js';
 import {
   COND_KINDS, collectMaterials, consumeMaterial, evalCond, materialHeld, QUERIES,
 } from '../../src/engine/conditions.js';
-import { COND_NODES, PREDICATES } from '../../tools/schema.js';
+import { COND_NODES, PREDICATES, ACTIVITY_ALL, validateCond } from '../../tools/schema.js';
 
 export const name = '條件式求值器（S17b）';
 
@@ -162,6 +162,7 @@ export async function run({ check }) {
       stat: ['stat', 'age', 'gte', 0],
       eventFlag: ['eventFlag', 'anything'],
       eventCount: ['eventCount', 'anything', 'gte', 0],
+      lastAct: ['lastAct', 'soloq'],
       percentile: ['percentile', 'assist', 'gte', 90],
       leaguePct: ['leaguePct', 'kda', 'gte', 80],
     };
@@ -169,6 +170,32 @@ export async function run({ check }) {
       try { evalCond(s, SAMPLE[k]); return false; } catch { return true; }
     });
     check('宣告的每一種節點都求值得動', unevaluable.length === 0, unevaluable.join('／'));
+  }
+
+  /* ---- lastAct 節點（S48，§12.1 隨機池傾向） ----
+   *
+   * 「上個月選了什麼訓練活動」當條件——卡片作者可以寫死劇情連鎖（例如只在打完
+   * SOLO RANK 之後才命中的開台事件）。讀 `ledger.js` 的 `lastActivityOf` 查詢層，
+   * 缺欄位（舊存檔沒寫過）恆 false。
+   */
+  {
+    const s = fresh();
+    check('lastAct：沒練過（缺欄位）恆 false', !evalCond(s, ['lastAct', 'soloq']));
+    s.lastActivity = 'soloq';
+    check('lastAct：命中', evalCond(s, ['lastAct', 'soloq']));
+    check('lastAct：不同活動不命中', !evalCond(s, ['lastAct', 'rest']));
+    check('lastAct：休息也算一種行動', evalCond(Object.assign(fresh(), { lastActivity: 'rest' }),
+      ['lastAct', 'rest']));
+    check('lastAct：六項選單活動編輯器都寫得出來（含 rest）',
+      ACTIVITY_ALL.length === 6 && ACTIVITY_ALL.includes('rest'),
+      ACTIVITY_ALL.join('／'));
+    const errs = (node) => { const e = []; validateCond(node, e, 'x'); return e; };
+    check('validateCond 認得 lastAct（合法活動）', errs(['lastAct', 'soloq']).length === 0,
+      errs(['lastAct', 'soloq']).join('；'));
+    check('validateCond 認得 lastAct 的 rest', errs(['lastAct', 'rest']).length === 0);
+    check('validateCond 擋掉不存在的活動（heroes 已消失）',
+      errs(['lastAct', 'heroes']).length > 0, errs(['lastAct', 'heroes']).join('；'));
+    check('validateCond 擋掉多參數', errs(['lastAct', 'soloq', 'x']).length > 0);
   }
 
   /* ---- percentile 節點（S26，§14.3 百分位回歸） ----

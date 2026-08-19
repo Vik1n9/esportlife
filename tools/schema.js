@@ -81,6 +81,16 @@ const CARDED = TRAINING_ACTIVITIES.filter((a) => a.pool);
 export const ACTIVITY_KEYS = CARDED.map((a) => a.id);
 export const ACTIVITY_LABELS = Object.fromEntries(CARDED.map((a) => [a.id, a.name]));
 
+/**
+ * `['lastAct', 活動id]` 條件可問的活動全集（S48）：六個選單活動，含 `rest`。
+ *
+ * ⚠ **與 `ACTIVITY_KEYS` 不是同一個集合**：訓練卡只標有卡池的**五項**（rest／rehab
+ * 無卡池不標），但「上個月是不是休息」要問得出——兩個集合共存但用途不同，
+ * 不要為了「看起來一致」把它們併掉。
+ */
+export const ACTIVITY_ALL = TRAINING_ACTIVITIES
+  .filter((a) => a.menu !== false).map((a) => a.id);
+
 /** 特質階級（§14.7 種類歸屬） */
 export const TIERS = ['common', 'rare', 'epic', 'legend', 'unique'];
 
@@ -139,13 +149,15 @@ export const COND_TIER_LABELS = {
 
 /** 條件式節點型別（積木模式的下拉；與 validateCond 認得的節點同源） */
 export const COND_NODES = [
-  'and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount', 'percentile', 'leaguePct',
+  'and', 'or', 'not', 'stat', 'has', 'hasCount', 'eventFlag', 'eventCount', 'lastAct',
+  'percentile', 'leaguePct',
 ];
 
 export const COND_NODE_LABELS = {
   and: 'AND 全部成立', or: 'OR 任一成立', not: 'NOT 反轉',
   stat: '數值條件（謂詞 比較子 值）', has: '持有特質', hasCount: '持有數量',
   eventFlag: '事件旗標已點亮', eventCount: '事件觸發次數（鍵 比較子 值）',
+  lastAct: '上個月的訓練活動（S48）',
   leaguePct: '聯賽百分位（當季模擬母體，§24.3.2）',
 };
 
@@ -504,6 +516,13 @@ export function validateCond(node, errors, path) {
         if (!EVENT_COUNT_KEYS.includes(args[0])) {
           errors.push(`${path}.eventCount：⚠ 計數鍵「${args[0]}」既不是卡 id、也沒有卡宣告 counters——這個計數永遠是 0`);
         }
+      }
+      break;
+    // 上個月的訓練活動（S48）：值必須是六個選單活動之一（含 rest）。⚠ 不是
+    // `ACTIVITY_KEYS` 那個五項集合——`lastAct` 要問得出「上個月是不是休息」
+    case 'lastAct':
+      if (args.length !== 1 || !ACTIVITY_ALL.includes(args[0])) {
+        errors.push(`${path}.lastAct：格式 ['lastAct', 活動id]（六項：${ACTIVITY_ALL.join('／')}）`);
       }
       break;
     // 百分位門檻節點（S26，§14.3）：['percentile', 指標名, 比較子, 百分位]

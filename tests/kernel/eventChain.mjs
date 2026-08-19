@@ -27,8 +27,8 @@ import { condFlagReads, validateEventCard } from '../../tools/schema.js';
 
 export const name = '連續事件：觸發旗標與計數（§12.2）';
 
-/** 假 rng：`pick` 一律回傳第一個，`chance` 回傳給定的值 */
-const fakeRng = (chance) => ({ pick: (arr) => arr[0], chance: () => chance });
+/** 假 rng：`pick`／`weighted` 一律回傳第一個，`chance` 回傳給定的值 */
+const fakeRng = (chance) => ({ pick: (arr) => arr[0], weighted: (arr) => arr[0], chance: () => chance });
 
 /** 測試用事件卡（形狀與 eventTrigger 測試同一套） */
 function card(id, opts = {}) {

@@ -301,6 +301,16 @@ export async function run({ check, log }) {
     check('結算後體力被消耗', staminaOf(s) < 90, staminaOf(s));
   }
 
+  /* ---- state.lastActivity（S48：月度事件卡傾向的唯一真相來源） ---- */
+  {
+    const s = fresh('la-train', { stamina: 90 });
+    resolveTraining(s, new Rng('la-train-r'), 'soloq');
+    check('resolveTraining 開頭寫 state.lastActivity（訓練）', s.lastActivity === 'soloq', s.lastActivity);
+    const s2 = fresh('la-rest', { stamina: 90 });
+    resolveTraining(s2, new Rng('la-rest-r'), 'rest');
+    check('resolveTraining 開頭寫 state.lastActivity（休息也寫）', s2.lastActivity === 'rest', s2.lastActivity);
+  }
+
   /* ---- 選單的結構化欄位（§22.2.1 三項並列，S39） ---- */
   // 訓練選項的三段資訊（體力增減／影響屬性／預期成功率）必須以機器欄位給 UI，
   // 不能再只有一條壓扁的字串；note 保留，且兩者必須同源（同一份計算結果）

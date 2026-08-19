@@ -103,6 +103,31 @@ function slotHits(state, phase, ev) {
 
 /* ================= 隨機池與防重 ================= */
 
+/**
+ * 當月訓練活動 → 月度事件卡 sub 的抽選傾向（S48，§12.1 第 5 件事）。
+ *
+ * 沒列到的 sub 一律回 1.0（**是加權不是開關**——每張卡永遠抽得到，這是「變相鼓勵
+ * 嘗試其他訓練」與「把內容鎖在單一路線」的分界線）。`transfer` 與 `crisis` 刻意
+ * 不掛任何活動：那兩條劇情軸由狀態條件（`when`）驅動，不該被「這個月練什麼」左右。
+ *
+ * ⚠ 只偏置**隨機池**（步驟 2／3 落到 `rng.pick(availableEvents(...))` 的那兩處），
+ * 不碰條件卡——步驟 1 的 `condHits` 命中就該來（§12.1「事件是對玩家狀態的回應」）。
+ * 順序寫死：過濾（耗盡／防重）→ 加權 → 抽。
+ *
+ * 配對邏輯與 S46 的錯位輪替同精神：六個活動各吃不同的 sub 組合，沒有兩個相同。
+ */
+export const ACTIVITY_EVENT_BIAS = {
+  fitness: { body: 2.5, life: 1.5 },      // 健身房：身體、作息
+  scrim: { team: 2.5, match: 1.5 },       // 團隊訓練賽：隊內關係、對抗
+  vod: { team: 1.5, pressure: 1.5 },      // 戰術覆盤：檢討會的摩擦與壓力
+  soloq: { media: 2.5, pressure: 1.5 },   // SOLO RANK：開台、炎上、天梯壓力
+  study: { match: 2.0, training: 1.5 },   // VOD 研究：對手情報、練習室日常
+  rest: { life: 2.5, media: 1.5 },        // 休息：生活、社群
+};
+
+/** 一張卡在隨機池的加權（`state.lastActivity` 沒寫（舊存檔）或 sub 沒掛到 → 1.0） */
+const eventBiasWeight = (state) => (ev) => ACTIVITY_EVENT_BIAS[state.lastActivity]?.[ev.sub] ?? 1;
+
 /** 隱藏素質相關的 flag——選了「安全牌」的選項時整批不生效（原在 shared.js，隨抽卡邏輯搬入）。
  * ⚠ S18 第二批補登 genius／clutch／intlghost／underdog：第一批的觸發卡把這四個旗標寫進
  * FLAG_TRAIT 卻漏了這張表，結果安全牌（traits:false）照樣解鎖特質——「安全牌不推向
@@ -217,21 +242,28 @@ export function eventTrigger(state, phase, pool, rng) {
   /* 步驟 1：收集條件命中的卡 */
   const condHits = eligible.filter((ev) => ev.when && evalCond(state, ev.when));
 
-  /* 步驟 2：取最高優先度為事件一；候選空（步驟 4）→ 隨機池 */
+  /* 步驟 2：取最高優先度為事件一；候選空（步驟 4）→ 隨機池（帶當月活動傾向，S48） */
   const first = condHits.length
     ? pickTop(condHits, rng)
-    : rng.pick(availableEvents(state, eligible));
+    : rng.weighted(availableEvents(state, eligible), eventBiasWeight(state));
   if (!first) return [];
   markRecent(state, first);
 
   /* 步驟 3：擲第二張——優先從剩餘條件事件按優先度，無則隨機池；互斥檢查。
    * 剩餘候選「全部被互斥排除」也算無（§12.1「無則隨機池」），所以先試候選、
-   * 試不到再落回隨機池 */
+   * 試不到再落回隨機池。落回隨機池時同樣帶傾向，但**只偏隨機池那條路**——
+   * 條件路徑（`pickSecond(rest, …)`）不帶任何權重 */
   const rest = condHits.filter((c) => c.id !== first.id);
   let second = null;
   if (rng.chance(SECOND_EVENT_CHANCE)) {
     second = pickSecond(rest, first, rng);
-    if (!second) second = pickSecond(availableEvents(state, eligible), first, rng);
+    if (!second) {
+      const poolCandidates = availableEvents(state, eligible)
+        .filter((c) => c.id !== first.id && (first.excl == null || c.excl !== first.excl));
+      if (poolCandidates.length) {
+        second = rng.weighted(poolCandidates, eventBiasWeight(state));
+      }
+    }
   }
   if (second) markRecent(state, second);
 

@@ -15,7 +15,7 @@ import {
   POOL_LABELS, TIER_LABELS, SIDE_LABELS, CARD_TIER_LABELS, CARD_POOL_LABELS,
   QUEST_TYPE_LABELS, EFFECT_OP_LABELS, EFFECT_KEYS_LABELS, FLAG_LABELS,
   STAGES, COND_OPS, PREDICATES, ALL_TRAIT_KEYS, TRAIT_KEY_LABELS,
-  ACTIVITY_KEYS, ACTIVITY_LABELS,
+  ACTIVITY_KEYS, ACTIVITY_ALL, ACTIVITY_LABELS,
   validateCond, validateEffects, validateEventCard,
   validateTrait, validateFusion, validateTrainingCard,
   checkMaterialConflicts, checkDeadRecipes, checkTriggerBreakage,
@@ -94,6 +94,8 @@ function defaultNode(kind, prev) {
     // 不會先丟一個空字串鍵讓驗證紅一輪
     case 'eventFlag': return ['eventFlag', EVENT_FLAG_KEYS[0] ?? ''];
     case 'eventCount': return ['eventCount', EVENT_COUNT_KEYS[0] ?? '', 'gte', 1];
+    // 上個月的訓練活動（S48）：六個選單活動（含 rest）的下拉
+    case 'lastAct': return ['lastAct', ACTIVITY_ALL[0]];
     default: return ['stat', PREDICATES[0], 'gte', 0];
   }
 }
@@ -394,6 +396,14 @@ function renderField(f, value, ctx, errs, onChange) {
             keyInput(key, EVENT_COUNT_KEYS, (x) => replace(['eventCount', x, op, n]), '卡 id 或計數鍵'),
             pick(COND_OPS, op, COND_OP_LABELS, (x) => replace(['eventCount', key, x, n])),
             numInput(n, (x) => replace(['eventCount', key, op, x])),
+          ]));
+        } else if (kind === 'lastAct') {
+          const [, activity] = node;
+          // ACTIVITY_ALL 含 rest，但 ACTIVITY_LABELS 只收有卡池的五項——休息補個
+          // 顯示名（id 共用同一份來源，不能手抄）
+          box.append(inline([
+            pick(ACTIVITY_ALL, activity, { ...ACTIVITY_LABELS, rest: '休息' },
+              (x) => replace(['lastAct', x])),
           ]));
         } else {
           box.append(el('div', 'hint', '無法辨識的節點——切到原始模式檢視'));

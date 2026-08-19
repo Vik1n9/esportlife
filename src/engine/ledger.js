@@ -168,6 +168,20 @@ export function eventCountOf(state, key) {
   return (state.eventCounts || {})[key] ?? 0;
 }
 
+/* ---------------- 上個月的訓練活動（S48，§12.1 隨機池傾向） ---------------- */
+
+/**
+ * 上一個養成回合選的訓練活動 id（`lastActivity`）。
+ *
+ * 寫入端在 `engine/training.js` 的 `resolveTraining` 開頭（休息也寫）；讀取端在這裡，
+ * 條件語言經 `['lastAct', 活動id]` 讀它。條件式不准直接翻 `state` 的原始欄位
+ * （`AGENTS.md` 條件語言規則），所以多一層查詢。缺欄位（v28 以前的存檔）回 null——
+ * 「上個月沒練過」就不是任何活動，`['lastAct', 'x']` 對它恆為 false。
+ */
+export function lastActivityOf(state) {
+  return state.lastActivity ?? null;
+}
+
 /* ---------------- 衛冕者與上屆名次（S20g，V4 §16.2） ---------------- */
 
 /**
