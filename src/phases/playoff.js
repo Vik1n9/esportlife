@@ -146,9 +146,10 @@ function* playoffs(g, split, stat, splitCount) {
         `第 ${seed} 種子一路打上去把冠軍拿走——沒有人看好的時候，你反而更強。`);
       yield* fusionBeats(g);
     }
-    // TODO(S20e 或後續)：S20d 量測 clutch 持有 0/160——冠軍解鎖分支看起來沒咬到
-    // （與單殺王 1.5 同類的門檻漂移嫌疑）。本站只修 N10／N11／N12 點名的死內容，
-    // clutch 取得率留待下一站確認 `unlockTrait` 的機率與條件
+    // ⚠ S20d／S30 記的「clutch 持有 1/160、冠軍解鎖分支沒咬到」是**誤判**，S36 結案：
+    // 這條分支無機率、無額外門檻，160 段實測 **65 段取得**（40.6%），其中 63 段被
+    // §14.4 的四條配方（godhand／ageless／lockerroom／ultstage）吃掉進史詩階——
+    // 持有數低是合成消耗的結果，不是發放沒咬到。量 clutch 要看 `fusedAway`。
     if (!state.traits.clutch && state.age <= 30 && unlockTrait(state, 'clutch')) {
       yield card('gold', '隱藏素質解鎖：大賽選手', '越大的舞台，你的手越穩。');
       yield* fusionBeats(g);

@@ -5,6 +5,8 @@
  * 用法：
  *   node tools/calibrate-160.mjs                跑 160 段、印全部校準指標
  *   node tools/calibrate-160.mjs --quiet        只印指標表（掃值時用）
+ *   node tools/calibrate-160.mjs --intl         附 §24.4.1 大賽經驗加成診斷（靜態池量測）
+ *   node tools/calibrate-160.mjs --influencer   附網紅選手可達性診斷
  *
  * 驅動與 `tests/regression/smoke.mjs` 同一顆（harness `playMatrix` 同款矩陣：
  * 16 種子 × 五路 × focus／spread），常數全匯入不手抄——常數改了這裡自動跟。
@@ -20,6 +22,7 @@ const OPPONENT_SUPPORT_RESIDUAL = strengthNS.OPPONENT_SUPPORT_RESIDUAL ?? null;
 import { ROLES } from '../src/data/skills.js';
 import { TIER_NAMES } from '../src/data/events.js';
 import { QUERIES } from '../src/engine/conditions.js';
+import { INTL_EXP_CAP, INTL_EXP_COEF, intlYearsOf, isGlobalBossTeam, teamsInYear } from '../src/engine/opponents.js';
 import { playCareer } from '../tests/lib/harness.mjs';
 
 const mean = (a) => (a.length ? a.reduce((t, v) => t + v, 0) / a.length : 0);
@@ -97,6 +100,12 @@ export function collectMetrics(runs) {
     }
   }
 
+  // Bo5 高壓檢定（S36 重驗 §24.4.2 四常數：觸發率與雙邊衰減均值）
+  const dec = { bo5: 0, fired: 0, mineDecay: 0, oppDecay: 0 };
+  for (const r of runs) {
+    for (const k of Object.keys(dec)) dec[k] += r.state.deciderLog?.[k] ?? 0;
+  }
+
   // 隊友（S28 校準護欄：量 rating 分布偏移，不動 matesAverage）
   const mateRatings = [];
   let mateReal = 0; let mateTotal = 0;
@@ -129,6 +138,7 @@ export function collectMetrics(runs) {
     endYearMax: Math.max(...runs.map((r) => r.state.year)),
     staminaMonths: months, restShare: rests / months, lowShare: low / months,
     oppFaces,
+    decider: dec,
     mateRatingMean: mean(mateRatings), mateRealShare: mateReal / Math.max(1, mateTotal),
   };
 }
@@ -155,8 +165,48 @@ export function formatReport(m) {
     ? `${pct(m.oppFaces[k].materialized / m.oppFaces[k].draws)}（${m.oppFaces[k].materialized}/${m.oppFaces[k].draws}）`
     : '（無抽選）');
   L.push(`對手實體化率：intl ${oppLine('intl')}、playoff ${oppLine('playoff')}`);
+  const d = m.decider;
+  L.push(d.bo5
+    ? `Bo5 高壓檢定：${d.bo5} 場 Bo5、打到第五局 ${d.fired}（${pct(d.fired / d.bo5)}）｜`
+      + `衰減均值 我方 ${(d.mineDecay / Math.max(1, d.fired)).toFixed(3)}、對手 `
+      + `${(d.oppDecay / Math.max(1, d.fired)).toFixed(3)}（淨 `
+      + `${((d.oppDecay - d.mineDecay) / Math.max(1, d.fired)).toFixed(3)} 點，正＝對玩家有利）`
+    : 'Bo5 高壓檢定：（無 Bo5 樣本）');
   L.push(`隊友 rating 均值 ${m.mateRatingMean.toFixed(2)}｜真實 NPC 佔 ${pct(m.mateRealShare)}`);
   return L;
+}
+
+/**
+ * 大賽經驗加成診斷（S36 重驗 §24.4.1 第 2 條）：p2（Global_Boss）選隊池的
+ * 原始 n ＝五名先發國際賽年數和，與各「係數／上界」組合下的 intlExp 分布。
+ * 這是**靜態資料量測**（不跑生涯）——池是 NPC 名冊導出的，與種子無關。
+ * 判讀重點是 sd 與飽和率：sd → 0 表示加成退化成常數，「老將紅利」名存實亡。
+ */
+export function intlExpDiagnosis() {
+  const lines = [];
+  const ns = [];
+  for (let year = 2012; year <= 2030; year += 1) {
+    const p2 = teamsInYear(year).filter(isGlobalBossTeam);
+    if (!p2.length) continue;
+    const yearNs = p2.map(intlYearsOf).sort((a, b) => a - b);
+    lines.push(`${year}：p2 ${p2.length} 隊｜n 中位 ${yearNs[Math.floor(yearNs.length / 2)]}`
+      + `（${yearNs[0]}–${yearNs.at(-1)}）`);
+    ns.push(...yearNs);
+  }
+  if (!ns.length) return ['（p2 池為空）'];
+  ns.sort((a, b) => a - b);
+  const q = (p) => ns[Math.floor(ns.length * p)];
+  lines.push(`合計 ${ns.length} 個隊年｜n：min ${ns[0]} p25 ${q(0.25)} p50 ${q(0.5)}`
+    + ` p75 ${q(0.75)} max ${ns.at(-1)}｜均 ${mean(ns).toFixed(2)}`);
+  const sweep = [[INTL_EXP_COEF, INTL_EXP_CAP], [0.25, 3.0], [0.2, 3.0], [0.15, 3.0], [0.25, 4.0]];
+  for (const [coef, cap] of sweep) {
+    const vs = ns.map((v) => Math.min(cap, coef * v));
+    const mu = mean(vs);
+    const sd = Math.sqrt(mean(vs.map((v) => (v - mu) ** 2)));
+    const sat = vs.filter((v) => v >= cap).length / vs.length;
+    lines.push(`  係數 ${coef} 上界 ${cap}：均 ${mu.toFixed(2)}｜sd ${sd.toFixed(2)}｜飽和 ${pct(sat)}`);
+  }
+  return lines;
 }
 
 /** 網紅選手可達性診斷（S26 留的結構性互斥問題）：fame 分級 × peakRating 分位 */
@@ -185,6 +235,10 @@ if (isMain) {
   const m = collectMetrics(runs);
   for (const line of formatReport(m)) console.log(line);
   if (!process.argv.includes('--quiet')) console.log(`（${((Date.now() - t0) / 1000).toFixed(1)}s）`);
+  if (process.argv.includes('--intl')) {
+    console.log('');
+    for (const line of intlExpDiagnosis()) console.log(line);
+  }
   if (process.argv.includes('--influencer')) {
     console.log('');
     for (const line of influencerDiagnosis(runs)) console.log(line);

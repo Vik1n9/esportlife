@@ -110,6 +110,16 @@ export function runSeries(state, rng, { bo, oppRating, seed, pressure = PRESSURE
     games.push(`${won ? 'W' : 'L'}${decider ? '*' : ''}`);
   }
   const decider = games.some((g) => g.endsWith('*'));
+  // §24.4.2 四常數的重驗讀點（S36）：檢定局觸發率與雙邊衰減，缺欄不記帳
+  const log = bo === 5 ? state.deciderLog : null;
+  if (log) {
+    log.bo5 += 1;
+    if (decider) {
+      log.fired += 1;
+      log.mineDecay += deciderCheck.mineDecay;
+      log.oppDecay += deciderCheck.oppDecay;
+    }
+  }
   // 被拖進決勝局，壓力不是線性疊加的——整輪一起往上調
   const deaths = seriesDeaths(state, rng, games.length, pressure * (decider ? DECIDER_PRESSURE : 1));
   const reverseSweep = bo === 5 && down02 && mine === 3 && theirs === 2;
