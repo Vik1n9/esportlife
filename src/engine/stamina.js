@@ -34,6 +34,7 @@
  * 標價（27／50）一次都沒動，那是玩家直接感覺得到的東西。
  */
 import { clamp } from '../core/rng.js';
+import { coachFactors } from '../kernel/modifiers.js';
 
 /* ================= 數值框架（V4 §6.1） ================= */
 
@@ -228,9 +229,18 @@ export function vitCostCoef(state) {
  * 扣掉的必須是同一個數（「選單不能說謊」，S47 的新不變式）。折扣只掛訓練——
  * `consume` 的另外兩個呼叫端（`MATCH_MONTH_COST`／`SERIES_GAME_COST`）不走這裡，
  * 賽季的體力經濟是另一條線。
+ *
+ * ⚠ 乘積順序（S49 定案，S47 交接筆記點名）：`cost × vitCostCoef × trainCostMul`，
+ * round 只在最後做一次。`vitCostCoef`（體質折扣）與 `trainCostMul`（教練修正）都是
+ * 乘法、順序不影響乘積，但 round 的時點會——兩個折扣疊起來下限可到 0.8 × 0.85，
+ * 先 round 其中一個再乘會讓結果漂移。`trainCostMul` 讀 `coachFactors` 的夾過值
+ * （[0.6, 1.5]，體能教練 0.85／訓練狂 1.10 都在帶內）。
+ *
+ * ⚠ 語意是「正成本＝消耗」：`rest`／`rehab` 的負成本不走這裡（走 `recover` 分支），
+ * 別拿負數呼叫。
  */
 export function trainCost(state, cost) {
-  return Math.round(cost * vitCostCoef(state));
+  return Math.round(cost * vitCostCoef(state) * coachFactors(state).trainCostMul);
 }
 
 /**
@@ -251,10 +261,17 @@ export function consume(state, amount) {
   return before - state.stamina;
 }
 
-/** 回體力。體質好的人回得多（見 `vitCoef`） */
+/**
+ * 回體力。體質好的人回得多（見 `vitCoef`），體能教練（S49）再乘 `recoverMul`。
+ * ⚠ 這是唯一的恢復原語：自然恢復（`monthlyDrift`）、休息、復健、賽事期「心態調整」
+ * 全部走它——教練的恢復加成因此覆蓋全部恢復來源（`recoverMul` 的語意）。
+ */
 export function recover(state, amount) {
   const before = staminaOf(state);
-  state.stamina = clamp(before + Math.max(0, amount) * vitCoef(state), 0, STAMINA_MAX);
+  state.stamina = clamp(
+    before + Math.max(0, amount) * vitCoef(state) * coachFactors(state).recoverMul,
+    0, STAMINA_MAX,
+  );
   return state.stamina - before;
 }
 

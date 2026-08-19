@@ -29,6 +29,7 @@
  *   再以 160 段「平均巔峰 ÷ 上限 ≈ 0.755」校準。
  */
 import { clamp } from '../core/rng.js';
+import { coachFactors } from '../kernel/modifiers.js';
 import { ATTR_NAMES } from '../data/attributes.js';
 import { TRAINING_CARDS } from '../data/trainingCards.js';
 import { investAttr } from './attributes.js';
@@ -143,10 +144,11 @@ function activityInfo(state, activity) {
   // ⚠ 顯示與效果同源（S47）：消耗活動的 `staminaDelta` 走 `trainCost`，與
   // `resolveTraining` 實扣的是同一個數（round 做在 `trainCost` 裡，不是顯示端）。
   // ⚠ 恢復活動（cost 為負）不能套鏡像 `vitCostCoef`——負數乘上去會讓顯示方向顛倒
-  // （高 vit 顯示恢復更少、實際恢復更多）。改讀 `recover` 的實際量：`cost × vitCoef`
-  // 是恢復的真實值，round 後顯示（誤差 ≤0.5 點，整數刻度上同源）。
+  // （高 vit 顯示恢復更少、實際恢復更多）。改讀 `recover` 的實際算式：
+  // `cost × vitCoef × recoverMul`（S49 起含教練恢復加成），round 後顯示
+  // （誤差 ≤0.5 點，整數刻度上同源）。
   const staminaDelta = activity.cost < 0
-    ? Math.round(-activity.cost * vitCoef(state))
+    ? Math.round(-activity.cost * vitCoef(state) * coachFactors(state).recoverMul)
     : -trainCost(state, activity.cost);
   if (activity.kind === 'rehab') return { staminaDelta, attrs: [], effectText: '降低受傷風險', successRate: null };
   const attrs = Object.keys(activity.weights);
@@ -270,12 +272,15 @@ export function resolveTraining(state, rng, activityId) {
   const tier = drawTier(state, rng, activity, success);
   const successCoef = SUCCESS_COEF[tier];
 
-  // 成長（§5.3）：基礎成長值 × 權重 × 成功係數 × 心理修正，餵進 investAttr
+  // 成長（§5.3）：基礎成長值 × 權重 × 成功係數 × 心理修正，餵進 investAttr。
+  // 教練的 `trainYield`（S49，訓練狂 ×1.15）只掛在訓練上——休息的成長是另一條
+  // 曲線（`restYieldMul`），休息不是訓練
   const gains = [];
   if (activity.kind === 'train') {
     const drive = driveMul(state);
+    const coachYield = coachFactors(state).trainYield;
     for (const [attr, w] of Object.entries(activity.weights)) {
-      const gained = investAttr(state, attr, TRAIN_YIELD * w * successCoef * drive);
+      const gained = investAttr(state, attr, TRAIN_YIELD * w * successCoef * drive * coachYield);
       if (gained > 0) gains.push({ attr, points: gained });
     }
   }

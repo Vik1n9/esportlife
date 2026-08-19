@@ -58,7 +58,12 @@ import { teamsOf } from './roster.js';
 // v28：玩家端六維併池（S34，§24.2.5）。`blankSeasonStat` 新增 DPM 欄位（DMG% ×
 // `TEAM_DPM_TOTAL`，與 NPC 微觀池同一個常數）——舊存檔的季度統計缺這欄，`mergeSplits`／
 // `accumulate` 的加權平均會對 undefined 運算，故作廢
-export const SAVE_VERSION = 29;
+// v29：月度事件卡掛鉤訓練選項（S48，§12.1 增訂）。新增 lastActivity（當月選的活動，
+// 事件卡隨機池傾向與 lastAct 條件節點讀它）——舊存檔缺這欄，條件節點恆偽，故作廢
+// v30：教練六選一（S49，§11.1）。教練表 5 → 6 筆且三名舊教練（營運鬼才／心理調適／
+// 溝通大師）被替換——舊存檔的 `state.coach` 名字懸空會靜默歸零（coachBonus 0），
+// 故作廢
+export const SAVE_VERSION = 30;
 
 export function blankSeasonStat() {
   return { years: 0, G: 0, W: 0, L: 0, K: 0, D: 0, A: 0, CS: 0, VIS: 0, DMG: 0, DPM: 0, SOLO: 0, MVP: 0, AS: 0 };

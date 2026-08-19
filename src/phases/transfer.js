@@ -22,7 +22,7 @@ import { homeLeagueName, leagueLabel, teamsOf } from '../engine/roster.js';
 import { occupiesImportSlot } from '../engine/imports.js';
 import { clamp } from '../core/rng.js';
 import { unlockTrait } from '../engine/progression.js';
-import { flag } from '../kernel/modifiers.js';
+import { coachOf, flag } from '../kernel/modifiers.js';
 import { retire } from '../engine/retire.js';
 import { drawRoleplay, fusionBeats, kinded } from './shared.js';
 const card = kinded('market');
@@ -31,6 +31,15 @@ export const kind = 'TRANSFER';
 
 /** 教練評價跌破這個數字，連青訓的最低標都算不上，直接判出局（舊 30 × 1.25） */
 const FLOOR_RATING = 38;
+
+/**
+ * 教練體系文案（S49）：名字 ＋ 一句話效果（`desc`）。純呈現、不動平衡——但它決定
+ * 了玩家簽約時有沒有資訊可權衡，不印它六種教練就分不出來。
+ */
+function coachNote(state) {
+  const c = coachOf(state);
+  return c ? `${c.name}（${c.desc}）` : (state.coach || '—');
+}
 
 export function* run(g) {
   const { state, rng } = g;
@@ -181,7 +190,7 @@ function* buyout(g, heat) {
   signContract(state, rng, offer);
   yield card('info', '買斷成交',
     `<b class="hl">${offer.team}</b> 付掉違約金，把你從 <b class="hl">${before}</b> 帶走。` +
-    `${offer.years} 年合約，教練體系：${state.coach}。`);
+    `${offer.years} 年合約，教練體系：${coachNote(state)}。`);
   return true;
 }
 
@@ -216,7 +225,7 @@ function* academyStage(g) {
     state.stageYear = 0;
     signContract(state, rng, res);
     yield card('gold', '試訓通過',
-      `你被 <b class="hl">${res.team}</b> 簽下，正式踏入 <b class="hl">${leagueLabel(state, res.league)}</b> 職業賽場！教練體系：${state.coach}。`);
+      `你被 <b class="hl">${res.team}</b> 簽下，正式踏入 <b class="hl">${leagueLabel(state, res.league)}</b> 職業賽場！教練體系：${coachNote(state)}。`);
   } else {
     yield card('bad', '試訓落榜', '名單公布，沒有你的名字。再練一年。');
   }
@@ -232,7 +241,7 @@ function* joinProTeam(g, offer, track, title) {
   state.am2Track = track;
   signContract(state, rng, offer);
   yield card('gold', title,
-    `你被 <b class="hl">${offer.team}</b> 簽下，正式踏入 <b class="hl">${leagueLabel(state, offer.league)}</b>！教練體系：${state.coach}。`);
+    `你被 <b class="hl">${offer.team}</b> 簽下，正式踏入 <b class="hl">${leagueLabel(state, offer.league)}</b>！教練體系：${coachNote(state)}。`);
 }
 
 /** 業餘選手被收進二隊：進 AM2，薪水低但有完整的訓練環境 */
@@ -439,6 +448,6 @@ function* freeAgency(g, { forced }) {
     yield card('info', '續約', `與 <b class="hl">${state.team}</b> 完成 ${chosen.payload.years} 年續約。`);
   } else {
     yield card('info', '簽約',
-      `與 <b class="hl">${state.team}</b> 簽下 <b class="hl">${chosen.payload.years} 年</b>合約（年薪係數 ×${chosen.payload.mult.toFixed(2)}）。教練體系：${state.coach}。`);
+      `與 <b class="hl">${state.team}</b> 簽下 <b class="hl">${chosen.payload.years} 年</b>合約（年薪係數 ×${chosen.payload.mult.toFixed(2)}）。教練體系：${coachNote(state)}。`);
   }
 }

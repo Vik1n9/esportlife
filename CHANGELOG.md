@@ -1,3 +1,44 @@
+## [v4.10.0] - 2026-08-19
+
+### 教練六選一：接進 modifier 系統（S49，天組）
+
+教練原本是 5 個名字各配一個 `bonus`，簽約時看到「教練體系：訓練狂」除了名字得不到
+任何資訊、也做不了任何判斷。本站改成六種各有機制效果的教練，效果走
+`kernel/modifiers.js` 的第五個效果來源——改一個產生器，所有既有消費點自動吃到，
+零新增串接。
+
+- **`data/coaches.js`**：5 → 6 筆，每筆加 `desc`（UI 一句話）與 `effects`／
+  `sideEffects`（與特質同一套寫法）。**戰力點平均維持 2.0**（§11.1 硬約束）。
+  戰力點與非戰鬥效果刻意反向：戰術大師 +3.0／備賽戰術 ×1.3、版本先知 +2.5／
+  patchDebt ×0.5、訓練狂 +1.5／訓練成長 ×1.15＋訓練消耗 ×1.10（§13.1 雙面性）、
+  體能教練 +1.5／訓練消耗 ×0.85＋恢復 ×1.15＋受傷率 ×0.85、心理輔導 +2.0／
+  心理六維逐年向中性收斂 ±1＋下放風險 ×0.8、經紀團隊 +1.5／代言 ×1.25＋
+  offerPenalty 免疫。
+- **`kernel/modifiers.js`**：`effectsFor` 多 yield 當前教練；新增第六種查詢
+  `immune()`（`{ 鍵: false }` 寫法）；新增 `COACH_FACTORS` 四倍率 clamp
+  （trainYield 0.5–2.0／trainCostMul 0.6–1.5／recoverMul 0.6–1.6／tacticMul
+  0.5–2.0）與 `coachFactors` 夾過值——教練與史詩特質疊加不得突破上下界。
+- **消費端**：`training.js` 成長 ×trainYield；`stamina.js` `trainCost`
+  ×trainCostMul（乘積順序寫死、round 只在最後）、`recover` ×recoverMul（自然恢復／
+  休息／復健／賽事期心態調整全覆蓋）；`progression.js` `injuryRate` 加乘面
+  （cap 仍最後套，`{ cap }` 特質不受影響）；`seriesEvent.js` `tacticMul` 掛在
+  mod 初值（反制覆寫 −4 之前）；`mental.js` `driftMental` 加 mentalConverge 收斂
+  迴圈。
+- **呈現**：`transfer.js` 四處簽約文案與 `ui/panel/team.js` 教練列印「名字＋效果」。
+- **`tools/schema.js`**：EFFECT_KEYS／LABELS 加五鍵；EFFECT_OPS 加 immune；
+  `checkEffectConsumption` 一併掃教練（教練打錯鍵＝整型退化成純戰力點）。
+- **測試**：新 suite `tests/kernel/coaches.mjs`（45 項）；反向死鍵掃描宣告端含教練
+  （immune 查詢也進掃描）；stamina suite 的曲線對照組把教練中性化（PRO 起點會抽
+  教練，5→6 筆後同種子抽到的人還變了）。`npm test` **23981 項全綠**。
+  `SAVE_VERSION` 29 → 30：`state.coach` 的儲存格式沒變（名字字串），但三名舊教練
+  被替換，舊存檔的教練名懸空會讓 coachBonus 靜默歸零，故作廢。
+- **量級漂移（交 S50）**：平均巔峰 0.758 → **0.761**、頂端落差 0.157 → **0.153**
+  （餘裕 0.073）、年資 12.4 → **12.4**、傳奇率老手 17.5% → **12.5%**／新手 11.3%
+  → **13.8%**、國際賽局勝率 55.4% → **55.4%**、世界冠軍人均 0.144 → **0.125**、
+  休息 27.3% → **26.5%**、透支 25.0% → **24.9%**。⚠ `rng.pick(COACHES)` 5→6 筆
+  改動每一條既定種子的生涯（抽到的教練與取數位移），快照漂移屬預期。
+  訓練成本乘積下限 0.8 × 0.85 = **0.68**（vit 100＋體能教練）交 S50。
+
 ## [v4.9.2] - 2026-08-19
 
 ### 月度事件卡掛鉤訓練選項（S48，天組）

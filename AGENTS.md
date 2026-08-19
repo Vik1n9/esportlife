@@ -49,6 +49,26 @@
 - **時段過濾不是條件**：`slot`（賽季階段）是觸發演算法的步驟 0，與 `when` 分開，
   維持現狀。
 
+## Modifier 效果鍵規則
+
+> 2026-08-19 定案（S49 教練六選一）。
+
+- **特質／教練效果一律走 `kernel/modifiers.js` 的查詢入口**（bonus／factor／
+  floorOf／capOf／flag／immune），不散成引擎檔裡的 `if`。S49 起**教練是第五個
+  效果來源**：`data/coaches.js` 的 `effects`／`sideEffects` 與特質同一套寫法，
+  `effectsFor` 多 yield 當前教練——引擎檔裡不得再長出 `if (state.coach === …)`。
+- **加效果鍵＝同時改三處**：引擎消費端、`tools/schema.js` 的 `EFFECT_KEYS`＋
+  `EFFECT_KEYS_LABELS`（打錯鍵會靜靜地沒有效果）、`tests/kernel/traits.mjs` 的
+  反向死鍵掃描宣告端（特質或教練必須宣告）。S49 新增五鍵：
+  `trainYield`／`trainCostMul`／`recoverMul`／`tacticMul` 四倍率（clamp 單一來源
+  在 `modifiers.js` 的 `COACH_FACTORS`，消費端讀 `coachFactors` 的夾過值）＋
+  `mentalConverge` 旗標（`driftMental` 的六維收斂迴圈）。
+- **免疫寫法**：`{ 鍵: false }`（或 `{ immune: true }`）是第六種查詢 `immune()`——
+  取消同鍵旗標，消費端寫 `flag(state, k) && !immune(state, k)`。`flag()` 只能設真
+  不能取消，不要試著用 `flag: false` 表達免疫。
+- **教練戰力點平均必須維持 2.0**（§11.1 硬約束）——動任何一個教練的 `bonus` 都要
+  把平均補回 2.0，否則整個聯盟強度集體位移。`tests/kernel/coaches.mjs` 在守。
+
 ## 單一來源規則
 
 > 2026-08-15 定案（PR #16）。這條是四個實例換來的：`WORLDS_ORDER` 空格、

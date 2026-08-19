@@ -24,6 +24,7 @@ import { PRESSURE } from '../engine/psych.js';
 import { applyMental } from '../engine/mental.js';
 import { consume, recover, recoveryOptions } from '../engine/stamina.js';
 import { runSeries } from '../kernel/series.js';
+import { coachFactors } from '../kernel/modifiers.js';
 import { intlBandNote, kinded } from './shared.js';
 const card = kinded('match');
 
@@ -140,7 +141,10 @@ export function* runSeriesEvent(g, {
   const tactic = TACTICS.find((t) => t.id === pickedId) || TACTICS[1];
 
   /* ── 第 3 拍：戰術結算（固定效果＋隨機事件判定） ── */
-  let mod = tactic.mod;
+  // ⚠ 教練的 `tacticMul`（S49，戰術大師 ×1.3）掛在**這裡**——在 if/else 覆寫之前。
+  // 「被反制」分支會整個覆寫成 `mod = -4`，掛在後面會把 −4 乘成 −5.2，變成
+  // 「戰術大師被反制時比別人更慘」，與教練的語意相反
+  let mod = tactic.mod * coachFactors(state).tacticMul;
   const staminaNote = tactic.cost >= 0
     ? `體力 −${consume(state, tactic.cost)}`
     : `體力 +${Math.round(recover(state, -tactic.cost))}`;

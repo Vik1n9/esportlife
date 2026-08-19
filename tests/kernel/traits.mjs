@@ -348,11 +348,12 @@ export async function run({ check }) {
     }
   }
 
-  /* ---- 反向死鍵掃描（S20d/N11）：引擎消費的效果鍵必須有特質宣告它 ----
+  /* ---- 反向死鍵掃描（S20d/N11）：引擎消費的效果鍵必須有特質或教練宣告它 ----
    * 正向掃「宣告了沒人消費」（死素材），反向同樣致命：消費端存在、宣告端
    * 不存在——引擎年年照呼叫，鍵後面永遠是空值，效果從沒生效過。
    * importExempt／benchRisk／decline_pull_mul 正是這一類：外援名額查它、
-   * 下放風險乘它、生命週期窗口讀它，但特質表裡沒有任何一條宣告。 */
+   * 下放風險乘它、生命週期窗口讀它，但特質表裡沒有任何一條宣告。
+   * S49 起宣告端含教練（第五個效果來源），immune 查詢也進掃描。 */
   {
     const { readdirSync } = await import('node:fs');
     const walk = (dir, out = []) => {
@@ -364,7 +365,7 @@ export async function run({ check }) {
       return out;
     };
     const consumed = new Set();
-    const callRe = /\b(flag|factor|bonus|floorOf|capOf)\(\s*[A-Za-z_$][\w$]*\s*,\s*'([A-Za-z0-9_]+)'/g;
+    const callRe = /\b(flag|factor|bonus|floorOf|capOf|immune)\(\s*[A-Za-z_$][\w$]*\s*,\s*'([A-Za-z0-9_]+)'/g;
     for (const file of walk(new URL('../../src', import.meta.url).pathname)) {
       for (const m of readFileSync(file, 'utf8').matchAll(callRe)) consumed.add(m[2]);
     }
@@ -376,8 +377,14 @@ export async function run({ check }) {
         }
       }
     }
+    const { COACHES } = await import('../../src/data/coaches.js');
+    for (const c of COACHES) {
+      for (const side of ['effects', 'sideEffects']) {
+        for (const k of Object.keys(c[side] || {})) declaredIn.add(k);
+      }
+    }
     const orphans = [...consumed].filter((k) => !declaredIn.has(k)).sort();
-    check('反向死鍵：引擎消費的效果鍵都有特質宣告', orphans.length === 0, orphans.join('、'));
+    check('反向死鍵：引擎消費的效果鍵都有特質／教練宣告', orphans.length === 0, orphans.join('、'));
   }
 
   /* ---- 天生特質池指派（§14.1，S19d）：每個天生特質都屬於合成池，不進 psych／career ---- */

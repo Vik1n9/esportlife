@@ -1116,6 +1116,7 @@ function firstEffectKey() { return EFFECT_KEY_OPTIONS[0]; }
 
 function opIs(op, value) {
   if (op === 'flag') return value === true;
+  if (op === 'immune') return value === false || (value && value.immune === true);
   if (typeof value === 'number') return op === 'add';
   if (value && typeof value === 'object') return value[op] !== undefined;
   return op === 'add';
@@ -1124,6 +1125,7 @@ function opIs(op, value) {
 function valueOfOp(value, op) {
   if (typeof value === 'number') return value;
   if (value === true) return op === 'flag' ? true : 0;
+  if (value === false) return op === 'immune' ? true : 0;
   if (value && typeof value === 'object' && value[op] !== undefined) return value[op];
   return 0;
 }

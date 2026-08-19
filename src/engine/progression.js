@@ -26,6 +26,12 @@ export function injuryProbability(state) {
    * 的理由與體力同條：帶受傷率上限特質的人，體能再差也還是有天花板。
    */
   p *= vitInjuryCoef(state);
+  /*
+   * 教練（S49，體能教練 ×0.85）：`injuryRate` 原本只有 `capOf` 一個消費面（特質寫
+   * `{ cap: n }`），教練效果是乘法，所以在 `capOf` 之前加乘——`factor` 只讀 `mul`，
+   * 既有的 `{ cap }` 特質不受影響；cap 仍最後套，天花板語意不變。
+   */
+  p *= factor(state, 'injuryRate');
   p = capOf(state, 'injuryRate', p);
   if (flag(state, 'injuryImmune')) return 0;
   p += (state.tempInjuryRisk || 0);

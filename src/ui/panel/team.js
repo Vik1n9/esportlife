@@ -18,6 +18,7 @@ import { intlPercentile, percentileBand, splitPercentile } from '../../kernel/le
 import { currentLeagueKey, mateTeamId } from '../../engine/roster.js';
 import { formatMoney } from '../../engine/market.js';
 import { coachBonus, matesAverage } from '../../kernel/strength.js';
+import { coachOf } from '../../kernel/modifiers.js';
 import { escapeHtml } from '../dom.js';
 
 function mateTag(m) {
@@ -133,11 +134,18 @@ export function renderTeam(state) {
     ? `<div><span>下放狀態</span><b class="dn">連續 ${state.benchedStreak} 段被下放</b></div>`
     : '';
 
+  // S49：教練列補一句話效果（desc）——玩家分得出六個教練的差別。印的是教練體系的
+  // 效果（可見層），不是 §10.2 教練評價（§22.4 禁止顯示的隱藏層）
+  const coach = coachOf(state);
+  const coachRow = coach
+    ? `<div><span>教練</span><b>${escapeHtml(coach.name)}（+${coachBonus(state).toFixed(1)}）<br><span class="muted">${escapeHtml(coach.desc)}</span></b></div>`
+    : `<div><span>教練</span><b>${state.coach || '—'}（+${coachBonus(state).toFixed(1)}）</b></div>`;
+
   return `
     <section>
       <h5>教練與隊友</h5>
       <div class="kv">
-        <div><span>教練</span><b>${state.coach || '—'}（+${coachBonus(state).toFixed(1)}）</b></div>
+        ${coachRow}
         <div><span>隊友平均戰力</span><b>${matesAverage(state).toFixed(1)}</b></div>
       </div>
       <div class="tags">${mates}</div>

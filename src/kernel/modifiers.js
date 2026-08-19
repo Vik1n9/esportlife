@@ -1,5 +1,5 @@
 /**
- * 特質／史詩效果的單一查詢入口。
+ * 特質／史詩／教練效果的單一查詢入口。
  *
  * 舊版把效果寫成散在十個引擎檔裡的 `if (state.traits.clutch) p += 4`——
  * `state.traits.*` 有 40 個消費點、`state.epic.*` 有 36 個，分佈在 game / market /
@@ -7,19 +7,28 @@
  * 結果新增或調整一個特質要先在十個檔裡把它找出來。
  *
  * 現在特質在 `data/traits.js`（通用／稀有）與 `data/epics.js`（史詩／傳說）各自宣告
- * 效果，消費端只問這裡的四個函式。加減一個特質＝改一個檔。
+ * 效果，消費端只問這裡的查詢函式。加減一個特質＝改一個檔。
  *
- * 四種運算刻意分開而不合成一個 `apply()`：不同消費點的組合順序不同（有的先加再封頂，
+ * S49 起**教練是第五個效果來源**：`data/coaches.js` 的 `effects`／`sideEffects` 走
+ * 同一套寫法，`effectsFor` 多 yield 一段當前教練的效果——改一個產生器，所有既有
+ * 消費點自動吃到教練效果，零新增串接。引擎檔裡不該再長出 `if (state.coach === …)`。
+ *
+ * 運算刻意分開而不合成一個 `apply()`：不同消費點的組合順序不同（有的先加再封頂，
  * 有的先保底再加），統一成一個函式反而會把順序藏起來。
  */
 import { BASE_TRAITS, RARE_TRAITS } from '../data/traits.js';
 import { EPIC_TRAITS, LEGENDARY_TRAITS, UNIQUE_TRAITS } from '../data/epics.js';
+import { COACHES } from '../data/coaches.js';
 import { clamp } from '../core/rng.js';
 
-/** `key: 5` 與 `key: true` 是簡寫，統一展開成物件 */
+/**
+ * `key: 5` 與 `key: true` 是簡寫，統一展開成物件。
+ * `key: false` 是「免疫」簡寫（S49）：展開成 `{ immune: true }`，取消同鍵的旗標。
+ */
 function normalize(effect) {
   if (typeof effect === 'number') return { add: effect };
   if (effect === true) return { flag: true };
+  if (effect === false) return { immune: true };
   return effect;
 }
 
@@ -48,6 +57,12 @@ export const TIER_KEYS = Object.keys(TIER_STORES);
 /** UI 由高階往低階列的順序。獨有特質排在傳說之後、史詩之前——它是另一條取得管道 */
 export const TIER_DISPLAY_ORDER = ['legendary', 'unique', 'epic', 'rare', 'common'];
 
+/** 目前教練的資料筆（依名字字串查）。`state.coach` 存名字字串（S49 起教練帶
+ *  desc／effects，仍不做存檔遷移——`coachBonus` 本來就依名字查表） */
+export function coachOf(state) {
+  return COACHES.find((c) => c.name === state.coach) || null;
+}
+
 /** 逐一吐出所有「已持有且對這個 key 有影響」的效果。
  *  益處（`effects`）與副作用（`sideEffects`）共用同一組鍵與同一套寫法——差別只在
  *  資料欄位的語意（§13.1 的雙面性），消費端不需要區分。副作用要能被另一特質的
@@ -62,6 +77,11 @@ function* effectsFor(state, key) {
       if (e !== undefined) yield normalize(e);
     }
   }
+  // 教練（S49，第五個效果來源）：effects 與 sideEffects 同一個寫法。教練只有一個，
+  // 依名字查表；與特質四階一起走同一批查詢，消費端不必知道來源
+  const coach = coachOf(state);
+  const ce = coach?.effects?.[key] ?? coach?.sideEffects?.[key];
+  if (ce !== undefined) yield normalize(ce);
 }
 
 /** 加法：累加所有來源，沒有來源時回傳 0 */
@@ -96,6 +116,35 @@ export function capOf(state, key, base) {
 export function flag(state, key) {
   for (const e of effectsFor(state, key)) if (e.flag) return true;
   return false;
+}
+
+/**
+ * 免疫（S49）：任一來源宣告 `false`（或 `{ immune: true }`）即為真——取消同鍵的
+ * 旗標。消費端寫 `flag(state, 'offerPenalty') && !immune(state, 'offerPenalty')`。
+ * `flag()` 本身只能設真不能取消，所以免疫是獨立的第六種查詢，不是旗標的反面。
+ */
+export function immune(state, key) {
+  for (const e of effectsFor(state, key)) if (e.immune) return true;
+  return false;
+}
+
+/**
+ * 教練倍率鍵的 clamp（S49）。照 `LIFECYCLE_WINDOWS` 的作法：表是資料，消費端讀
+ * `coachFactors` 的夾過值——教練效果與特質疊加時乘積不得突破上下界
+ * （訓練狂 ＋ 成長史詩特質不得無上限疊上去）。
+ */
+export const COACH_FACTORS = {
+  trainYield: { clamp: [0.5, 2.0] },
+  trainCostMul: { clamp: [0.6, 1.5] },
+  recoverMul: { clamp: [0.6, 1.6] },
+  tacticMul: { clamp: [0.5, 2.0] },
+};
+
+/** 教練四鍵的夾過值。沒有教練（或沒有來源）時 `factor` 回 1，夾完仍 1 */
+export function coachFactors(state) {
+  return Object.fromEntries(
+    Object.keys(COACH_FACTORS).map((k) => [k, clamp(factor(state, k), ...COACH_FACTORS[k].clamp)]),
+  );
 }
 
 /**

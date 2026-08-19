@@ -25,6 +25,7 @@ import { PERCENTILE_METRICS } from '../src/data/npc/percentiles.js';
 import { LEAGUE_PCT_METRICS } from '../src/kernel/leagueStats.js';
 import { LIFECYCLE_WINDOWS } from '../src/kernel/modifiers.js';
 import { REVERSE_SWEEP_KEY } from '../src/kernel/series.js';
+import { COACHES } from '../src/data/coaches.js';
 
 /* ================= 共用可選值 ================= */
 
@@ -210,10 +211,10 @@ export const MENTAL_DIMS = MENTAL_KEYS;
 /* ================= 特質效果鍵 ================= */
 
 /**
- * 引擎真正消費的效果鍵（從 src/ 掃 modifiers 的四個查詢入口＋窗口得來）。
+ * 引擎真正消費的效果鍵（從 src/ 掃 modifiers 的查詢入口＋窗口＋教練消費端得來）。
  *
- * ⚠ 這是「效果鍵被引擎消費」檢查的依據：特質宣告的效果鍵不在這張表＝打錯鍵，
- * 特質會靜靜地沒有效果（§14.8 檢查表最後一項）。新增效果鍵要同時改
+ * ⚠ 這是「效果鍵被引擎消費」檢查的依據：特質／教練宣告的效果鍵不在這張表＝打錯鍵，
+ * 會靜靜地沒有效果（§14.8 檢查表最後一項）。新增效果鍵要同時改
  * `src/kernel/modifiers.js` 的消費端與這張表。
  */
 export const EFFECT_KEYS = [
@@ -225,6 +226,9 @@ export const EFFECT_KEYS = [
   'patchDebt', 'patchImmune', 'seriesDecider', 'seriesGame', 'soloRate',
   'teamLead', 'tiltImmune', 'underdogDepth', 'verdictFireRisk',
   'verdictRiftRisk', 'verdictRiftShield', 'verdictShield', 'worldsRoll',
+  // S49 教練效果鍵：四倍率讀 `coachFactors`（clamp 單一來源在 modifiers.js 的
+  // COACH_FACTORS），mentalConverge 是 driftMental 讀的旗標（心理輔導）
+  'trainYield', 'trainCostMul', 'recoverMul', 'tacticMul', 'mentalConverge',
   // §7.2 六窗口（peak_age_shift 是加法、其餘五個是乘法）
   ...Object.keys(LIFECYCLE_WINDOWS),
   // 心理層效果（engine/psych.js 的 mentalMod 消費，§14.4 C 層）
@@ -244,6 +248,9 @@ export const EFFECT_KEYS_LABELS = {
   underdogDepth: '下剋上深度', verdictFireRisk: '切割風險',
   verdictRiftRisk: '休息室摩擦', verdictRiftShield: '免疫默契崩盤',
   verdictShield: '戰隊不切割', worldsRoll: '世界賽加成',
+  trainYield: '訓練成長倍率', trainCostMul: '訓練消耗倍率',
+  recoverMul: '恢復量倍率', tacticMul: '備賽戰術倍率',
+  mentalConverge: '心理向中性收斂',
   peak_age_shift: '巔峰延後（年，加法）', rise_k_mul: '上升曲率倍率',
   fall_k_mul: '衰退速率倍率', fall_accel_mul: '衰退加速度倍率',
   decline_pull_mul: '跟隨速率倍率', growth_rate_mul: '成長倍率（窗口）',
@@ -251,12 +258,13 @@ export const EFFECT_KEYS_LABELS = {
   mental_disc: '心理·紀律', mental_trust: '心理·信任', mental_resl: '心理·韌性',
 };
 
-/** 效果寫法（kernel/modifiers.js 四種＋窗口） */
-export const EFFECT_OPS = ['add', 'mul', 'floor', 'cap', 'flag'];
+/** 效果寫法（kernel/modifiers.js 四種＋窗口＋S49 免疫） */
+export const EFFECT_OPS = ['add', 'mul', 'floor', 'cap', 'flag', 'immune'];
 
 export const EFFECT_OP_LABELS = {
   add: '加法（直接加減）', mul: '乘法（乘上倍率）',
   floor: '保底（取最大值）', cap: '封頂（取最小值）', flag: '旗標（true）',
+  immune: '免疫（取消同鍵旗標）',
 };
 
 /* ================= 欄位型別 ================= */
@@ -575,8 +583,12 @@ export function validateEffects(effects, errors, path) {
       if (windowKind) errors.push(`${path}.${key}：窗口 ${key} 不接受旗標寫法`);
       continue;
     }
+    if (value === false) {
+      if (windowKind) errors.push(`${path}.${key}：窗口 ${key} 不接受免疫寫法`);
+      continue;
+    }
     if (typeof value !== 'object') {
-      errors.push(`${path}.${key}：效果值必須是數字（加法簡寫）、true（旗標）或 { add|mul|floor|cap }`);
+      errors.push(`${path}.${key}：效果值必須是數字（加法簡寫）、true（旗標）、false（免疫）或 { add|mul|floor|cap|flag|immune }`);
       continue;
     }
     const ops = Object.keys(value);
@@ -587,6 +599,10 @@ export function validateEffects(effects, errors, path) {
     const op = ops[0];
     if (op === 'flag') {
       if (value.flag !== true) errors.push(`${path}.${key}：旗標寫法要 { flag: true }`);
+      continue;
+    }
+    if (op === 'immune') {
+      if (value.immune !== true) errors.push(`${path}.${key}：免疫寫法要 { immune: true }`);
       continue;
     }
     if (typeof value[op] !== 'number') {
@@ -897,8 +913,8 @@ export function checkTriggerBreakage() {
 }
 
 /**
- * 效果鍵被引擎消費：掃所有特質的效果鍵，不在 EFFECT_KEYS 的標紅。
- * ⚠ 特質的 `maintain`／`when` 不走效果鍵，跳過。
+ * 效果鍵被引擎消費：掃所有特質與教練（S49 起第五個效果來源）的效果鍵，不在
+ * EFFECT_KEYS 的標紅。⚠ 特質的 `maintain`／`when` 不走效果鍵，跳過。
  */
 export function checkEffectConsumption() {
   const issues = [];
@@ -915,7 +931,22 @@ export function checkEffectConsumption() {
         if (!EFFECT_KEYS.includes(ekey)) {
           issues.push({
             level: 'error',
-            message: `特質 ${key}.${side} 的效果鍵「${ekey}」不被引擎消費（modifiers 四查詢／六窗口／mental_* 都沒有讀它）`,
+            message: `特質 ${key}.${side} 的效果鍵「${ekey}」不被引擎消費（modifiers 查詢／六窗口／mental_* 都沒有讀它）`,
+          });
+        }
+      }
+    }
+  }
+  // 教練只有六個、每個都靠機制效果定義身分——打錯一個鍵就是整型教練退化成純戰力點，
+  // 這是唯一沒人守的那一格（S49 起一併掃）
+  for (const c of COACHES) {
+    for (const [side, effects] of [['effects', c.effects], ['sideEffects', c.sideEffects]]) {
+      if (!effects) continue;
+      for (const ekey of Object.keys(effects)) {
+        if (!EFFECT_KEYS.includes(ekey)) {
+          issues.push({
+            level: 'error',
+            message: `教練 ${c.name}.${side} 的效果鍵「${ekey}」不被引擎消費（modifiers 查詢／六窗口／mental_* 都沒有讀它）`,
           });
         }
       }

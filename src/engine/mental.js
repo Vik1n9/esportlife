@@ -14,9 +14,9 @@
  * 是 `psych.js` 的事。
  */
 import { clamp } from '../core/rng.js';
-import { MENTAL_NAMES, MENTAL_RANGE } from '../data/mental.js';
+import { MENTAL_KEYS, MENTAL_NAMES, MENTAL_RANGE } from '../data/mental.js';
 import { FAME_NAME, FAME_RANGE, fameTier } from '../data/reputation.js';
-import { bonus } from '../kernel/modifiers.js';
+import { bonus, flag } from '../kernel/modifiers.js';
 
 /** 六維在 `state.mental`，聲量在 `state.fame`——同一套讀寫介面，兩個儲存位置 */
 function rangeOf(key) {
@@ -207,10 +207,24 @@ export function marketMultBonus(state) {
  * - `trust` 信任：隊友是會換的，關係要重新建立，所以它往中性收。帶著嘴砲王或獨狼
  *   的人收不回來——V4 §9.4 把舊 `ego` 的放大器角色交給特質副作用，這是其中一處。
  * - `fame` 聲量：熱度本來就會退，不刷存在感就會被忘記。
+ *
+ * 例外（S49）：掛著 `mentalConverge` 旗標（心理輔導教練）時六維逐年向中性收斂
+ * ±1——平常不拉六維是設計，請了心理輔導等於主動買這項服務。trust 本來就年年收斂，
+ * 這裡再推一把（心理輔導最直接的工作就是隊內關係）；trashtalk／lonewolf 卡住的
+ * 只有標準那一條，收斂迴圈照走——花錢請來的輔導就是來解這個的。值恰好在 50 的
+ * 維度跳過，不讓它在中性兩側 ±1 振盪。
  */
 export function driftMental(state) {
   const stuck = state.traits.trashtalk || state.traits.lonewolf;
   const trustDrift = state.mental.trust < 50 ? (stuck ? 0 : 1) : -1;
   adjustMental(state, 'trust', trustDrift);
   adjustMental(state, 'fame', (state.fame ?? 0) > 12 ? -2 : 0);
+
+  if (flag(state, 'mentalConverge')) {
+    for (const dim of MENTAL_KEYS) {
+      const v = state.mental[dim] ?? 50;
+      if (v === 50) continue;
+      adjustMental(state, dim, v < 50 ? 1 : -1);
+    }
+  }
 }

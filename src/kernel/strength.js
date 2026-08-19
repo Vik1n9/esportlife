@@ -3,15 +3,16 @@
  *
  * 三個函式住在一起是因為它們永遠一起被改——調權重時三個都要看。
  */
-import { COACHES } from '../data/coaches.js';
 import { LEAGUES } from '../data/leagues.js';
 import { positionPower } from '../engine/attributes.js';
 import { trustBonus } from '../engine/mental.js';
 import { staminaOf, staminaPower } from '../engine/stamina.js';
-import { factor, floorOf } from './modifiers.js';
+import { coachOf, factor, floorOf } from './modifiers.js';
 
 export function coachBonus(state) {
-  return (COACHES.find((c) => c.name === state.coach)?.bonus || 0) * factor(state, 'coachMult');
+  // ⚠ 戰力點平均必須維持 2.0（§11.1 硬約束，S49）——動任何一個教練的 bonus 都要
+  // 把平均補回 2.0，否則整個聯盟的強度集體位移。約束由 tests/kernel/coaches.mjs 守
+  return (coachOf(state)?.bonus || 0) * factor(state, 'coachMult');
 }
 
 export function matesAverage(state) {

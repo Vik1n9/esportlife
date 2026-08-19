@@ -12,7 +12,7 @@ import { eraOf } from '../data/eras.js';
 import { effectiveCoachRating } from './attributes.js';
 import { marketMultBonus } from './mental.js';
 import { academyTeamsOf, rollRoster, teamsOf } from './roster.js';
-import { bonus, capOf, factor, flag, floorOf } from '../kernel/modifiers.js';
+import { bonus, capOf, factor, flag, floorOf, immune } from '../kernel/modifiers.js';
 import { importSlotOpen, occupiesImportSlot } from './imports.js';
 
 /** 台幣的顯示：億／千萬／萬三級，萬元以下四捨五入 */
@@ -253,9 +253,10 @@ export function generateOffers(state, rng, { excludeCurrentTeam = false } = {}) 
 
   // 表現差時砍掉部分報價；名聲爛到見底，就算數值還在也沒幾支隊敢碰。
   // V4 §9.4 把 `rep` 風評整條拿掉之後，「沒幾支隊敢碰」只剩特質副作用這一個來源
-  // （`offerPenalty`：圈內毒瘤）——這正是 §9.4 說的「改由特質副作用承擔」
+  // （`offerPenalty`：圈內毒瘤）——這正是 §9.4 說的「改由特質副作用承擔」。
+  // 經紀團隊教練（S49）免疫這條：好經紀人讓爛名聲也談得到報價（`immune` 查詢）
   if (delta < 0 && offers.length > MIN_OFFERS) offers.length = Math.max(MIN_OFFERS, offers.length - 1);
-  if (flag(state, 'offerPenalty') && offers.length > MIN_OFFERS) {
+  if (flag(state, 'offerPenalty') && !immune(state, 'offerPenalty') && offers.length > MIN_OFFERS) {
     offers.length = Math.max(MIN_OFFERS, offers.length - 1);
   }
   offers.blockedByImports = blockedByImports;

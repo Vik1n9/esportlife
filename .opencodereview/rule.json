@@ -16,6 +16,11 @@
       "merge_system_rule": true
     },
     {
+      "path": "src/kernel/modifiers.js",
+      "rule": "特質／教練效果一律走這裡的查詢入口（bonus／factor／floorOf／capOf／flag／immune），引擎檔裡不得長出 if (state.coach === …) 或直接讀 state.traits.* 的效果判斷。教練是第五個效果來源（effectsFor 多 yield 當前教練）。新增效果鍵要同時改：引擎消費端、tools/schema.js 的 EFFECT_KEYS／EFFECT_KEYS_LABELS、tests/kernel/traits.mjs 的反向死鍵掃描宣告端。免疫寫法 { 鍵: false }＝immune 查詢，取消同鍵旗標；flag 只能設真不能取消。教練戰力點平均必須維持 2.0（§11.1 硬約束），動任一個 bonus 都要把平均補回。",
+      "merge_system_rule": true
+    },
+    {
       "path": "src/data/**",
       "rule": "資料單一來源規則：名次表、階名、旗標名、里程碑文字只准有一份手抄本；必須存機器可讀的鍵，顯示字串由鍵導出。發現跨檔重複定義或解析顯示字串的代码，標為缺陷。",
       "merge_system_rule": true

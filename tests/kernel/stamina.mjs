@@ -31,8 +31,12 @@ const fresh = (seed = 'sta', extra = {}) => {
   const s = createState({ name: 'S', role: 'MID', seed });
   // 體力 suite 構造「乾淨狀態」測曲線形狀：出生天賦（鐵人 cap 受傷率、玻璃體質
   // 放大小傷轉大傷）會直接污染受傷機率的對照組，S19d 之後 createState 會預填
-  // 天生特質，這裡一律清掉，場景只由體力與年齡決定
+  // 天生特質，這裡一律清掉，場景只由體力與年齡決定。
+  // S49 起教練效果（trainCostMul／recoverMul）也進 trainCost／recover，而 PRO 起點
+  // 會抽教練（教練 5→6 筆後同種子抽到的人還變了）——曲線形狀的對照組把教練一併
+  // 清掉，理由與清天生特質同一條
   for (const e of INNATE_POOL) delete s.traits[e.key];
+  s.coach = null;
   return Object.assign(s, extra);
 };
 
