@@ -140,18 +140,24 @@ function injuryText(injury) {
 /**
  * 把一次訓練活動的結算結果組成一張卡（§4 第 3 步）。
  *
- * 休息／復健沒有成敗，不印卡——它們的結果就是面板上的體力與受傷風險數字，
- * 再開一張「你休息了」的卡只會洗掉敘事流（跟 §4 第 1 步不另開狀態卡同一個理由）。
- * 訓練與英雄池練習才印：檔位、屬性成長、新英雄、心理箭頭、受傷。
+ * 復健不印卡——它的結果就是面板上的體力與受傷風險數字，再開一張卡只會洗掉敘事流
+ * （跟 §4 第 1 步不另開狀態卡同一個理由）。**休息自 S46 起要印**：它現在也漲屬性，
+ * 不印卡玩家看不到它給了什麼。休息那張是輕量卡——沒有檔位標籤、沒有卡片文案
+ * （休息不分成敗、不抽卡），只有體力回復量與屬性成長。
  */
 function* trainingResult(g, result) {
   const { activity, kind, tier, gains, heroes, mentalNotes, injury, buff, attrNotes, card: tcard } = result;
-  if (kind === 'rest' || kind === 'rehab') return;
+  if (kind === 'rehab') return;
 
-  const notes = [];
-  for (const gain of gains) {
-    notes.push(`${ATTR_NAMES[gain.attr]} <span class="up">+${gain.points}</span>`);
+  const growth = (list) => list.map((gain) => `${ATTR_NAMES[gain.attr]} <span class="up">+${gain.points}</span>`);
+
+  if (kind === 'rest') {
+    const parts = [`體力 <span class="up">+${Math.round(result.recovered)}</span>`, ...growth(gains)];
+    yield card('', activity.name, parts.join('、'));
+    return;
   }
+
+  const notes = growth(gains);
   for (const gain of attrNotes) {
     const cls = gain.points > 0 ? 'up' : 'dn';
     notes.push(`${ATTR_NAMES[gain.attr]} <span class="${cls}">${gain.points > 0 ? '+' : ''}${gain.points}</span>`);

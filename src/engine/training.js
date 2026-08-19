@@ -35,29 +35,45 @@ import { investAttr } from './attributes.js';
 import { applyMental } from './mental.js';
 import { rollInjury, trainHeroes } from './progression.js';
 import {
-  REHAB_RECOVER, REHAB_RISK_RELIEF, REST_RECOVER, consume, recover, staminaOf, successMul,
+  REHAB_RECOVER, REHAB_RISK_RELIEF, REST_RECOVER, consume, recover, restYieldMul, staminaOf,
+  successMul,
 } from './stamina.js';
 
-/* ================= 訓練活動菜單（V4 §5.2，草案，這一站調完回寫） ================= */
+/* ================= 訓練活動菜單（V4 §5.2，S46 六選一） ================= */
 
 /**
- * 八項訓練活動。`weights` 是屬性權重（和為 1），`cost` 是體力消耗（負＝恢復），
- * `kind` 決定結算走哪條路（train 漲屬性／heroes 漲英雄池／rest／rehab），
- * `pool` 是卡片池傾向（兩階段判定的檔位佔比）。
+ * 六項訓練活動（玩家選單）＋ 一項隱藏活動（復健預防，`menu: false`）。
+ *
+ * `weights` 是屬性權重（主 .7／副 .3，和為 1），`cost` 是體力消耗（負＝恢復），
+ * `kind` 決定結算走哪條路（train 漲屬性／rest／rehab），`pool` 是卡片池傾向
+ * （兩階段判定的檔位佔比），`heroGames` 是附帶的等效出賽場次（只有 SOLO RANK 有）。
+ *
+ * ── 錯位輪替（S46） ──
+ *
+ * 六個選單活動的**主屬性集合 == 副屬性集合 == `ATTRS`**，且每個活動主 ≠ 副。
+ * 六屬性因此曝光完全均等，沒有屬性被結構性餓死，取捨純粹來自「這個月選哪兩個」。
+ * 這條是設計骨架，有一條不變式在守（`tests/kernel/training.mjs`）。
+ *
+ * ⚠ **`vod` 這個 id 現在指「戰術覆盤」，「VOD 研究」的 id 是 `study`。** 兩者是刻意的
+ * 鏡像對：覆盤＝跟隊友看自己的比賽、練決策與共識（dec→syn）；VOD 研究＝一個人研究
+ * 別隊錄影、練地圖節奏與英雄細節（awr→tec）。id 沿用舊值是為了讓 60 張訓練卡的
+ * activity 標籤大多不必動，代價就是這個對不上的名字——所以寫在這裡，不要靠讀者自己對。
  *
  * ⚠ 沒有「減量訓練」（light）——那是 §6.3 賽事期的選項，而賽事月不排養成回合
  * （S14 交接筆記：`inEvent` 這條路走不到）。賽事期的恢復選項仍由
  * `stamina.js` 的 `recoveryOptions({ inEvent: true })` 提供（S15 用）。
+ *
+ * ⚠ `rehab` 不在玩家選單裡（`menu: false`），但留在表上——復健年的自動流程
+ * （`phases/month.js` 的 `skipSeason`）靠它跑。
  */
 export const TRAINING_ACTIVITIES = [
-  { id: 'mechanics', name: '個人機械訓練', weights: { tec: 0.5, agi: 0.5 }, cost: 30, kind: 'train', pool: { successBias: 1.0, greatSuccess: 0.15, greatFailure: 0.3 } },
-  { id: 'scrim', name: '強化訓練賽', weights: { syn: 0.4, dec: 0.3, awr: 0.3 }, cost: 30, kind: 'train', pool: { successBias: 0.95, greatSuccess: 0.30, greatFailure: 1.0 } },
-  { id: 'vod', name: '戰術復盤', weights: { awr: 0.5, dec: 0.5 }, cost: 20, kind: 'train', pool: { successBias: 1.0, greatSuccess: 0.15, greatFailure: 0.3 } },
-  { id: 'fitness', name: '體能健身', weights: { vit: 0.7, agi: 0.3 }, cost: 30, kind: 'train', pool: { successBias: 1.0, greatSuccess: 0.15, greatFailure: 0.3 } },
-  { id: 'soloq', name: '排位衝分', weights: { tec: 0.3, agi: 0.3, awr: 0.4 }, cost: 25, kind: 'train', pool: { successBias: 0.80, greatSuccess: 0.10, greatFailure: 1.5 } },
-  { id: 'heroes', name: '英雄池練習', weights: {}, cost: 20, kind: 'heroes', pool: { successBias: 1.0, greatSuccess: 0.15, greatFailure: 0.3 } },
-  { id: 'rest', name: '休息', weights: {}, cost: -REST_RECOVER, kind: 'rest', pool: null },
-  { id: 'rehab', name: '復健預防', weights: {}, cost: -REHAB_RECOVER, kind: 'rehab', pool: null },
+  { id: 'fitness', name: '健身房', weights: { vit: 0.7, agi: 0.3 }, cost: 30, kind: 'train', pool: { successBias: 1.00, greatSuccess: 0.15, greatFailure: 0.30 } },
+  { id: 'scrim', name: '團隊訓練賽', weights: { syn: 0.7, dec: 0.3 }, cost: 30, kind: 'train', pool: { successBias: 0.95, greatSuccess: 0.30, greatFailure: 1.00 } },
+  { id: 'vod', name: '戰術覆盤', weights: { dec: 0.7, syn: 0.3 }, cost: 22, kind: 'train', pool: { successBias: 1.00, greatSuccess: 0.15, greatFailure: 0.30 } },
+  { id: 'soloq', name: 'SOLO RANK', weights: { tec: 0.7, awr: 0.3 }, cost: 26, kind: 'train', heroGames: 8, pool: { successBias: 0.80, greatSuccess: 0.10, greatFailure: 1.50 } },
+  { id: 'study', name: 'VOD 研究', weights: { awr: 0.7, tec: 0.3 }, cost: 20, kind: 'train', pool: { successBias: 1.00, greatSuccess: 0.12, greatFailure: 0.25 } },
+  { id: 'rest', name: '休息', weights: { agi: 0.7, vit: 0.3 }, cost: -REST_RECOVER, kind: 'rest', pool: null },
+  { id: 'rehab', name: '復健預防', weights: {}, cost: -REHAB_RECOVER, kind: 'rehab', pool: null, menu: false },
 ];
 
 /** 成功係數對照（§5.4）：大成功 ×1.5／成功 ×1.0／失敗 ×0.3／大失敗 ×0 */
@@ -74,9 +90,6 @@ export const BASE_SUCCESS = 0.85;
 
 /** 每月訓練成果量（等效舊骰子 pips）。§21.2 的「訓練基礎成長值」旋鈕，初值見檔頭 */
 export const TRAIN_YIELD = 6.5;
-
-/** 英雄池練習的等效出賽場次。trainHeroes 每 8 場 1 次 reps，16 場＝2 次抽卡 */
-const HERO_PRACTICE_GAMES = 16;
 
 /* ================= 讀數 ================= */
 
@@ -118,19 +131,24 @@ function greatFailureMul(stamina) {
  * `note` 字串與結構化欄位（UI 的三欄可掃讀與屬性條高亮）都從這裡導出——
  * 同一份計算結果兩種呈現，不出現第二份手抄本（單一來源規則）。
  *
+ * ⚠ **休息現在也有 `attrs`**（S46：它也漲屬性），所以屬性條高亮對它照樣會亮；
+ * 但它仍**不分成敗**，`successRate` 是 `null` 不是 100——§5.4 只准顯示預期成功率，
+ * 給休息填一個 100 等於在畫面上多出一個不存在的判定。
+ *
  * @returns {{staminaDelta:number, attrs:string[], effectText:string, successRate:number|null}}
- *   staminaDelta 正＝恢復、負＝消耗；attrs 是影響的屬性鍵（英雄池／休息／復健為空）；
+ *   staminaDelta 正＝恢復、負＝消耗；attrs 是影響的屬性鍵（復健為空）；
  *   successRate 是預期成功率整數百分位（休息／復健不分成敗，為 null）
  */
 function activityInfo(state, activity) {
   const staminaDelta = -activity.cost;
-  if (activity.kind === 'rest') return { staminaDelta, attrs: [], effectText: '恢復體力', successRate: null };
   if (activity.kind === 'rehab') return { staminaDelta, attrs: [], effectText: '降低受傷風險', successRate: null };
   const attrs = Object.keys(activity.weights);
+  const attrText = attrs.map((k) => ATTR_NAMES[k]).join('·');
+  if (activity.kind === 'rest') {
+    return { staminaDelta, attrs, effectText: `恢復體力・${attrText}`, successRate: null };
+  }
   const successRate = Math.round(expectedSuccess(state, activity) * 100);
-  const effectText = activity.kind === 'heroes'
-    ? '練英雄專精'
-    : attrs.map((k) => ATTR_NAMES[k]).join('·');
+  const effectText = activity.heroGames ? `${attrText}·英雄池` : attrText;
   return { staminaDelta, attrs, effectText, successRate };
 }
 
@@ -140,14 +158,19 @@ function noteFromInfo({ staminaDelta, effectText, successRate }) {
   return successRate == null ? `${price}　${effectText}` : `${price}　${effectText}　成功率 ${successRate}%`;
 }
 
-/** 養成回合的活動選單（§4 第 2 步）。month.js 據此組 choice */
+/**
+ * 養成回合的活動選單（§4 第 2 步）。month.js 據此組 choice。
+ *
+ * 只攤 `menu !== false` 的活動——玩家看到的就是 §5.2 的六個選項，`rehab` 不在其中
+ * （它只走復健年的自動流程）。
+ */
 export function trainingMenu(state) {
-  return TRAINING_ACTIVITIES.map((a) => {
+  return TRAINING_ACTIVITIES.filter((a) => a.menu !== false).map((a) => {
     const info = activityInfo(state, a);
     return {
       id: a.id,
       label: a.name,
-      main: a.kind === 'train' || a.kind === 'heroes',
+      main: a.kind === 'train',
       note: noteFromInfo(info),
       staminaDelta: info.staminaDelta,
       attrs: info.attrs,
@@ -172,7 +195,7 @@ function drawTier(state, rng, activity, success) {
  * 1. 過濾：tier 匹配 ＋ `activity` 包含該活動（沒標＝全活動）＋ `stage` 命中
  *    `state.stage`（沒標＝全階段）＋ `stamina` 閉區間命中（沒標＝全體力）
  * 2. `weight` 加權抽一張
- * 3. 空池防呆：退回「同檔位＋同活動、無 stage／stamina 條件的卡」（兜底 24 只標
+ * 3. 空池防呆：退回「同檔位＋同活動、無 stage／stamina 條件的卡」（兜底 20 只標
  *    activity，保證每活動 × 檔位 × 階段永不空池）；再空就退回同檔位第一張——
  *    正常永遠走不到第二層
  */
@@ -211,10 +234,22 @@ export function drawTrainingCard(state, rng, activityId, tier) {
 export function resolveTraining(state, rng, activityId) {
   const activity = TRAINING_ACTIVITIES.find((a) => a.id === activityId) || TRAINING_ACTIVITIES[0];
 
+  /*
+   * 休息（S46）：也漲屬性，但**不分成敗、不抽卡、不受傷、不動心理**——成長是決定性的，
+   * 倍率讀 `restYieldMul(休息前的體力)`：越透支，休息學到的越多。
+   * ⚠ 體力要**先讀再回**：recover 之後讀到的是休息後的值，倍率會整條倒過來。
+   */
   if (activity.kind === 'rest') {
     const before = staminaOf(state);
+    const mul = restYieldMul(before);
+    const drive = driveMul(state);
+    const gains = [];
+    for (const [attr, w] of Object.entries(activity.weights)) {
+      const gained = investAttr(state, attr, TRAIN_YIELD * w * mul * drive);
+      if (gained > 0) gains.push({ attr, points: gained });
+    }
     recover(state, REST_RECOVER);
-    return { activity, kind: 'rest', recovered: staminaOf(state) - before };
+    return { activity, kind: 'rest', recovered: staminaOf(state) - before, gains };
   }
   if (activity.kind === 'rehab') {
     const before = staminaOf(state);
@@ -241,10 +276,11 @@ export function resolveTraining(state, rng, activityId) {
     }
   }
 
-  // 英雄池練習：不漲屬性，漲英雄專精（成功係數直接縮放出賽等效場次）
+  // 附帶的英雄專精（S46：SOLO RANK 掛 heroGames，不再是獨立活動）。成功係數直接
+  // 縮放等效出賽場次——大失敗 successCoef = 0 → 0 場 → 不練，不必特判
   let heroes = [];
-  if (activity.kind === 'heroes') {
-    const games = Math.round(HERO_PRACTICE_GAMES * successCoef);
+  if (activity.heroGames) {
+    const games = Math.round(activity.heroGames * successCoef);
     if (games > 0) heroes = trainHeroes(state, rng, games);
   }
 

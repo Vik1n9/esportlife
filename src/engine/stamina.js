@@ -48,7 +48,7 @@ export const LIGHT_TRAIN_COST = 12;
 /** 休息。§6.1 的 +50 不動——它是玩家對這個系統最直接的手感 */
 export const REST_RECOVER = 50;
 
-/** 復健預防：不長屬性，換來一點恢復與較低的受傷風險（§5.2） */
+/** 復健預防：不長屬性，換來一點恢復與較低的受傷風險（§5.2；S46 起非玩家選項） */
 export const REHAB_RECOVER = 20;
 
 /** 常規賽每月消耗（§6.1） */
@@ -112,6 +112,24 @@ export function successMul(s) {
   if (s >= BAND_TIRED) return 0.85 - ((BAND_FRESH - 1 - s) / (BAND_FRESH - 1 - BAND_TIRED)) * 0.10;
   if (s >= 1) return 0.60 - ((BAND_TIRED - 1 - s) / (BAND_TIRED - 2)) * 0.20;
   return 0.15;
+}
+
+/**
+ * 休息的屬性成長倍率（§6.2 曲線家族的新成員，S46）：越透支，休息學到的越多。
+ *
+ * 休息在 S46 之後也漲屬性（靈巧 .7／體能 .3），這條曲線本身就是防濫用機制——滿血休息
+ * ≈ 訓練月的 10%（等於白費一個月），透支時才值得。落點 100→0.10、60→0.15、30→0.35、
+ * 0→0.55，區間內線性內插（與 §6.2 同一條原則）。
+ *
+ * ⚠ 讀的必須是**休息前**的體力（呼叫端 `resolveTraining` 的 rest 分支先讀再 recover）。
+ * 寫法刻意照 `successMul` 長寫：這個檔的曲線家族目前都是長寫，多引一種 helper 只會讓
+ * 下一個人以為兩者有語意差別。
+ */
+export function restYieldMul(s) {
+  const v = clamp(s, 0, STAMINA_MAX);
+  if (v >= BAND_FRESH) return 0.15 - ((v - BAND_FRESH) / (STAMINA_MAX - BAND_FRESH)) * 0.05;
+  if (v >= BAND_TIRED) return 0.15 + ((BAND_FRESH - v) / (BAND_FRESH - BAND_TIRED)) * 0.20;
+  return 0.35 + ((BAND_TIRED - v) / BAND_TIRED) * 0.20;
 }
 
 /**
@@ -253,9 +271,10 @@ export function recoveryOptions({ inEvent = false } = {}) {
       { id: 'mindset', cost: -REST_RECOVER * 0.4, label: '心態調整與休息' },
     ];
   }
+  // ⚠ 非賽事期只剩休息。「復健預防」自 S46 起不是玩家選項（`TRAINING_ACTIVITIES`
+  // 的 `menu: false`），只走復健年的自動流程——列在這裡會讓下一個人以為它還能選
   return [
     { id: 'rest', cost: -REST_RECOVER, label: '休息' },
-    { id: 'rehab', cost: -REHAB_RECOVER, label: '復健預防' },
   ];
 }
 
