@@ -11,8 +11,8 @@
  * 「驗證重點」量在同一條 DEMO 路線上），常數全匯入（`DEMO_YEARS`／`DEMO_END_YEAR`／
  * `DEMO_MONTHS`）不手抄——資料改了這裡自動跟。
  *
- * ⚠ **機制或資料更動時，這個腳本與 `snapshots/demo.json` 要一併改**（AGENTS.md
- * 單一來源規則）：快照只是 before/after 對照基線，一般執行只印 diff 不硬紅；斷言
+ * ⚠ **機制或資料更動時，這個腳本與 `snapshots/demo.json` 要一併改**（`.opencodereview/rule.json`
+ * 的 `src/data/**` 單一來源規則）：快照只是 before/after 對照基線，一般執行只印 diff 不硬紅；斷言
  * 的活由 `npm test` 的 `tests/regression/tools-sim.mjs`（端到端）與 `demo.mjs`
  * （分布）守。
  */

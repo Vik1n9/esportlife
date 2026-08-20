@@ -49,5 +49,5 @@ node docs/v4/next-station.mjs
 4. `WORKLOG.md` 最上方加一筆
 5. OCR 審查閘門：`node scripts/station-review.mjs --station <該站號>`——
    exit 2 就逐條修 critical／high、重跑 npm test、重跑腳本複審到 exit 0；
-   medium／low 修掉或記進交接筆記（照 AGENTS.md「審查收尾規則」）
+   medium／low 修掉或記進交接筆記（照 AGENTS.md「審查閘門」）
 6. commit（站工作一個 `feat:`、審查修正一個 `fix:`）→ `git push`

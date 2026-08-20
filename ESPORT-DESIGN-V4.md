@@ -3358,7 +3358,7 @@ VSPM = base.VIS × (1 + awr⁺ × 0.008)                            + gauss(0.15
   `COND_NODE_LABELS` 加詞條、表單出「指標下拉（白名單）＋比較子＋百分位
   數值 0–100」；`validateCond` 驗指標在白名單內。雙註冊照舊：`conditions.js`
   的 `COND_KINDS`／evalCond 與 `tools/schema.js` 的 `COND_NODES`／validateCond
-  同一個 commit（AGENTS.md 條件語言規則），`tests/kernel/conditions.mjs` 的
+  同一個 commit（`.opencodereview/rule.json` 條件語言規則），`tests/kernel/conditions.mjs` 的
   逐項比對自動守住。
 - **兩套母體切分規則寫死**（24.1 第 2 條的落地，混用即規格錯誤）：
 

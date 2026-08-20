@@ -130,7 +130,7 @@ export async function run({ check }) {
 
   /* ---- 兩張註冊表鍵集合相同（S20g） ----
    *
-   * `AGENTS.md` 條件語言規則：加謂詞＝同時加進 `conditions.js` 的 `QUERIES` 與
+   * `.opencodereview/rule.json` 條件語言規則：加謂詞＝同時加進 `conditions.js` 的 `QUERIES` 與
    * `tools/schema.js` 的 `PREDICATES`。少一邊，編輯器與引擎就脫節——`careerGames`／
    * `awardsThisYear`（S20c 加進 QUERIES）就曾經漏在 PREDICATES 外面，本站補回並鎖死。
    */
