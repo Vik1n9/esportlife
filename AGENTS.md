@@ -1,162 +1,91 @@
 # AGENTS.md — 電競人生（esportlife）專案規則
 
-> 本規則由 `WORKLOG.md` 前三條條目提煉，2026-08-14 起生效。
-> **撰寫 WORKLOG 或施作任何項目之前，先查閱本檔與 `WORKLOG.md` 前三條。**
+本檔只放「每個 session 都需要、且沒有更便宜表達方式」的內容。
+**path-scoped 的工程規則在 `.opencodereview/rule.json`（單一來源），由審查閘門消費。
+測試守得住的不變式在 `tests/`，本檔只指路。**
+
+## 事實
+
+零建置、零相依、純 ES modules。驗證：`npm test`（＝`node tests/run.mjs`，約 0.8 秒）。
+依賴方向 `ui → engine/phases → kernel → data → core`，單向，phases 不 import `engine/game.js`。
+架構全貌 `ARCHITECTURE.md`；現役規格書只有 `ESPORT-DESIGN-V4.md` 一份。
+
+## 工具
+
+- `rtk <指令>`：CLI 輸出過濾，命令鏈每一段都加。**未安裝時直接跑原指令，不要中斷。**
+  （可改裝 `rtk init -g` 的自動改寫 hook，裝了就把這條刪掉。）
+- `node docs/v4/next-station.mjs`：抓下一站。**與 `docs/v4/README.md` 狀態表同源**——
+  狀態表或站結構一變動，腳本同一個 commit 同步更新。解析失敗當場修，不准人肉看 README 開工。
+- `node scripts/station-review.mjs --station <站號>`：收尾審查閘門（委託模式，
+  不呼叫 LLM、不需 API key）。**`ocr` 未安裝時跳過閘門，並在交接筆記註明未審。**
+
+## 動工
+
+說「動工」（或開工／接續下一站）即套用 `donggong` skill。一個 session 只做一站。
+
+## 收尾（順序固定）
+
+`npm test` → 回填該站交接筆記 → 更新 `docs/v4/README.md` 狀態表 →
+`WORKLOG.md` 最上方加一筆 → 審查閘門 → commit → push。
+
+做不完不要硬撐：進度寫進交接筆記、狀態改「進行中」、commit 現況，然後停。
+改到存檔結構要把 `src/engine/state.js` 的 `SAVE_VERSION` 加一。
+
+### 審查閘門
+
+`--station <站號>` 出審查包 → host agent 逐檔審查、意見寫成 JSON →
+`--station <站號> --comments <意見檔>` 進閘門。
+**exit 2 ＝ 有 critical／high，禁 commit**：逐條修 → 重跑 `npm test` → 複審到 exit 0，
+修正只聚焦 high／critical，不要順手重構。medium／low 修掉或記進交接筆記，
+**不得無聲忽略**。已 commit 後補審用 `ocr delegate preview -c HEAD`。
+
+### commit 拆法
+
+- 站工作：`feat: S<id> <主題>——<一句話總結>`（一站一個）
+- 審查修正：`fix: S<id> OCR review 修正——<改了什麼>`
+- 只記不改：`docs: S<id> OCR review 補記——<N 條記入交接筆記>`
 
 ## WORKLOG 條目寫法
 
-1. 條目標題格式：`## YYYY-MM-DD — 主題：一句話總結`
-   （例如「S14 月回合制：分母換了，體力的背景值就得跟著換」）
-2. 第一段必寫 **方向**：這條為什麼存在（問題 → 解法），讓不知道前因的人讀得懂。
-3. 實作細節分點列；反直覺或會咬人的地方用 ⚠ 標記。
-4. 有量測必寫 **實測結論**：160 段生涯實測、決策點數、測試項數等數字。
-5. 收尾必寫 **狀態**：完成與否、`npm test` X 項全綠（寫實際數字）、
-   SAVE_VERSION 與關鍵常數變動。
-6. 沒做的寫 **未一起處理**（或 **刻意沒做**），並在程式碼留 TODO 給下一站。
-7. 純文件站必須註明「程式與測試未動」。
+標題 `## YYYY-MM-DD — 主題：一句話總結`。第一段必寫**方向**（問題與解法，
+讓不知道前因的人讀得懂）。有量測必寫**實測結論**（實際數字）。
+收尾必寫**狀態**（`npm test` 實際項數、`SAVE_VERSION` 與關鍵常數變動）。
+沒做的寫**未一起處理**並在程式碼留 TODO。純文件站註明「程式與測試未動」。
+反直覺或會咬人的地方用 ⚠ 標記。
 
-## 規格書規則
+## 規格書
 
-- 規格書收斂成一份：`ESPORT-DESIGN-V4.md` 是唯一現役規格書。
-- 增訂一律併入主規格，併入後刪除獨立修訂文件；來源用內文註釋
-  （`（v4.x）`）與附錄決策紀錄編號標記。
-- 站與站的依賴與前置以 `docs/v4/README.md` 狀態表為準；站間知識寫進
-  各站說明書的交接筆記，不只是 WORKLOG。
+增訂一律併入 `ESPORT-DESIGN-V4.md`，併入後刪除獨立修訂文件，來源用內文
+`（v4.x）`註釋與附錄決策紀錄編號標記。站間知識寫進各站說明書的交接筆記。
 
-## 條件語言規則
+## 版本編號
 
-> 2026-08-15 定案（PR #16）。起因：任務卡走 `evalCond`、事件卡走 `whenHits`，
-> 兩套語言能力不同，同一個條件在兩邊要寫兩次、還不保證寫得出來。
+`X.Y.Z` 適用全專案（規格書與軟體共用一套）。X：遊戲變動超過 50%。
+Y：新增或移除概念、變動超過兩個章節。Z：一個章節以內的補充。
+不確定落在哪一級時問使用者拍板。（`tests/kernel/version.mjs` 守規格書與 `package.json` 同號。）
 
-- **全專案只有一套條件語言**：`src/engine/conditions.js` 的 `evalCond`
-  s-expression（`['and' …]`／`['stat', 謂詞, 運算子, 值]`／`['has', 階, 鍵]`／
-  `['lastAct', 活動id]` 等節點，完整清單見該檔 `COND_KINDS`）。
-  任務卡、事件卡、特質授予、退役結局——所有「依狀態決定要不要發生」的判斷都走它。
-- **不得新增第二套。** `eventTrigger.js` 的 `whenHits` 是歷史遺留（只支援
-  stage／minAge／maxAge／attr／trait／mental，且 trait 只讀 common 階），
-  由 S20g 退役；**在它消失之前不要為它補功能**——補了也是丟掉。
-- **加謂詞＝加一行，但要同時加進兩張註冊表**：`conditions.js` 的 `QUERIES`
-  與 `tools/schema.js` 的 `PREDICATES`。少一邊，編輯器與引擎就脫節
-  （`unique` 階已經這樣脫節過一次：工具認得、引擎不認得）。
-- **加節點也是兩張註冊表**（2026-08-17，§12.2 連續事件加了 `eventFlag`／
-  `eventCount`）：`conditions.js` 的 `COND_KINDS` ＋ `evalCond` 的 switch，與
-  `tools/schema.js` 的 `COND_NODES` ＋ `validateCond`。帶鍵的判斷（旗標名、
-  計數鍵）寫成**節點**不是謂詞——謂詞無參數，為每個旗標各加一行等於把資料寫進
-  程式碼。`tests/kernel/conditions.mjs` 逐項求值後比對兩張表。
-- 謂詞一律**讀查詢層**（`src/engine/ledger.js`）而不是 raw state 欄位。
-  理由寫在 `ledger.js` 檔頭：改一個欄位要改三個地方。
-- 謂詞必須是**純函式**且回傳純量。
-- **時段過濾不是條件**：`slot`（賽季階段）是觸發演算法的步驟 0，與 `when` 分開，
-  維持現狀。
+## 規則寫在哪
 
-## Modifier 效果鍵規則
+任何約束先問能不能用測試守。能，就寫測試，本檔只留一行指路——
+**本檔成本是「每 session × 每站」，測試成本是「壞掉時才付」。**
+只在特定檔案適用的寫進 `.opencodereview/rule.json`。兩者都不行才留在本檔。
 
-> 2026-08-19 定案（S49 教練六選一）。
+### 已經有守門的（本檔不重複，壞了會紅）
 
-- **特質／教練效果一律走 `kernel/modifiers.js` 的查詢入口**（bonus／factor／
-  floorOf／capOf／flag／immune），不散成引擎檔裡的 `if`。S49 起**教練是第五個
-  效果來源**：`data/coaches.js` 的 `effects`／`sideEffects` 與特質同一套寫法，
-  `effectsFor` 多 yield 當前教練——引擎檔裡不得再長出 `if (state.coach === …)`。
-- **加效果鍵＝同時改三處**：引擎消費端、`tools/schema.js` 的 `EFFECT_KEYS`＋
-  `EFFECT_KEYS_LABELS`（打錯鍵會靜靜地沒有效果）、`tests/kernel/traits.mjs` 的
-  反向死鍵掃描宣告端（特質或教練必須宣告）。S49 新增五鍵：
-  `trainYield`／`trainCostMul`／`recoverMul`／`tacticMul` 四倍率（clamp 單一來源
-  在 `modifiers.js` 的 `COACH_FACTORS`，消費端讀 `coachFactors` 的夾過值）＋
-  `mentalConverge` 旗標（`driftMental` 的六維收斂迴圈）。
-- **免疫寫法**：`{ 鍵: false }`（或 `{ immune: true }`）是第六種查詢 `immune()`——
-  取消同鍵旗標，消費端寫 `flag(state, k) && !immune(state, k)`。`flag()` 只能設真
-  不能取消，不要試著用 `flag: false` 表達免疫。
-- **教練戰力點平均必須維持 2.0**（§11.1 硬約束）——動任何一個教練的 `bonus` 都要
-  把平均補回 2.0，否則整個聯盟強度集體位移。`tests/kernel/coaches.mjs` 在守。
-
-## 單一來源規則
-
-> 2026-08-15 定案（PR #16）。這條是四個實例換來的：`WORLDS_ORDER` 空格、
-> `msiBest` 不認 `MSI 止步`、`HONOR_POINTS` 比不中賽段冠軍、四階特質四套拼法。
-
-- **一份資料只准有一份手抄本。** 名次表、階名、旗標名、里程碑文字——只要有第二處
-  必須逐字相同才會正確的地方，就收斂成單一來源，由它導出其餘用途。
-- **存機器可讀的鍵，不存顯示字串。** 顯示字串由鍵導出；反過來解析文字就是下一個
-  空格 bug 的溫床。
-- **跨檔字串比對必須有測試**，而且測試要**過寫入端的實際運算式**，
-  不是手抄一份預期字串——手抄只是把 bug 抄第二遍。
-- 新測試要**先紅過**才算守得住。
-
-## 版本編號規則
-
-版本 `X.Y.Z`——**適用全專案**（規格書版本號與軟體版本共用同一套）：
-
-- **X（大版本）**：大版本變動。遊戲變動幅度超過 50% 時提升。
-- **Y（中版本）**：中型改版變動。新增概念、或舊有概念移除／修改，變動超過
-  兩個章節以上、未達整體 50% 時提升。
-- **Z（小版本）**：小型變動。通常為對既有章節的補充或註釋，變動幅度為
-  一個章節或以下時提升。
-- 不確定落在哪一級時，問使用者拍板。
-
-## 收尾流程
-
-跑測試 → 回填該站交接筆記 → 更新狀態表 → 更新 `WORKLOG.md` → OCR 審查閘門
-（見下節）→ commit → push。一個 session 只做一站。
-
-## 審查收尾規則
-
-> 2026-08-16 定案；2026-08-17 修訂為委託模式。每站工作完成、收尾文件寫好後，
-> push 前必過 OCR（open-code-review）審查閘門。**審查一律走委託模式**
-> （`ocr delegate`）：OCR 只做確定性工程（檔案篩選、規則解析），全程不呼叫
-> LLM、**不需 API key**；審查由 host agent 親自執行。
-
-1. 跑 `node scripts/station-review.mjs --station <站號>`：先跑 `npm test` 閘門，
-   再出審查包——`ocr delegate preview` 篩出待審檔（自動排除 `*.md`）、
-   `ocr delegate rule` 帶入 `.opencodereview/rule.json` 倉庫規則與專案背景，
-   並附各檔 diff（未追蹤檔附全文）。
-2. host agent 逐檔審查（用自己的智慧與工具，不用 OCR 的 LLM 端點），意見依
-   委託模式格式（`path`／`content`／`start_line`／`end_line`／`category`／
-   `severity`）寫成 JSON，再跑
-   `node scripts/station-review.mjs --station <站號> --comments <意見檔>`
-   進閘門。
-3. **exit 2 = 有 critical／high**：逐條修正 → 重跑 `npm test` → 重跑本腳本
-   複審，直到 exit 0。修正只聚焦 high／critical；不要順手重構。
-4. medium／low 自行斟酌：修掉，或記進該站交接筆記（照「補記」往例），
-   不得無聲忽略。
-5. commit 拆法（與既往歷史一致）：
-   - 站工作：`feat: S<id> <主題>——<一句話總結>`（一站一個）
-   - 審查修正：`fix: S<id> OCR review 修正——<改了什麼>`
-   - 只記不改：`docs: S<id> OCR review 補記——<N 條記入交接筆記>`
-6. `git push`。
-7. `.opencodereview/rule.json`（倉庫審查規則）與本檔規則同源：
-   條件語言、單一來源等規則變動時，兩處同一個 commit 一起改。
-8. 已 commit 後才要補審，用 `ocr delegate preview -c HEAD`（委託模式，
-   同樣不呼叫 LLM、不需 API key）。
-
-**動工規則**：說「動工」（或開工／接續下一站）即套用 `donggong` skill——跑
-`docs/v4/next-station.mjs` 抓下一站續做，不要每次重跑搜尋理解進度。
-
-**腳本同步規則**：`docs/v4/next-station.mjs` 與 `docs/v4/README.md` 狀態表同源。
-狀態表或站結構（加站、改前置、改組、改名）一有變動，腳本必須同步更新，同一個
-commit 一起提交。腳本解析失敗要當場修，不准跳過腳本直接人肉看 README 開工。
-
-## rtk 規則
-
-- 本專案 CLI 輸出一律經 `rtk` 代理：`rtk git status`、`rtk npm test`、
-  `rtk grep`、`rtk ls` 等。RTK 無對應過濾器時原樣透傳，永遠安全。
-- 命令鏈 `&&` 每一段都加 `rtk`，不可只加在鏈首。
-- 專案本機過濾器 `.rtk/filters.toml` 隨 repo commit；改過濾器後跑
-  `rtk gain --history` 確認節省。
-- 需要未過濾原始輸出時用 `rtk proxy <cmd>`。
-- 完整指令速查在 `CLAUDE.md`（`rtk init` 生成）；本檔是專案規則權威。
+- 條件語言雙註冊表（`QUERIES`／`PREDICATES`、`COND_KINDS`／`COND_NODES`）：
+  `tests/kernel/conditions.mjs`
+- 效果鍵正向與反向死鍵掃描：`tests/kernel/traits.mjs`
+- 教練戰力點平均 2.0（§11.1 硬約束）：`tests/kernel/coaches.mjs`
+- 規格書與 `package.json` 版號一致：`tests/kernel/version.mjs`
+- 條件語言、modifier、單一來源、零相依等 path-scoped 規則：`.opencodereview/rule.json`
 
 ## 回覆風格
 
-極致精簡技術助手：技術精確前提下最小化 Token。
+技術精確前提下最小化 token。去冗言、短詞、無表格、無表情符號、無因果箭頭。
+**否定詞（not／never／no／only）與數字單位絕不可省。**
+禁自創縮寫（保留 DB／API／HTTP）。語言跟隨使用者；技術術語、程式碼、CLI、
+commit 類型、錯誤訊息字串保持原文。工具呼叫前不輸出前言、計畫、進度。
+禁自我參照（不宣告模式狀態）。
 
-- 去冗言：省略冠詞、填充詞、客套話、語氣詞；允許句子片段。
-- 短詞：用「修復」不用「實施解決方案」。
-- 禁自創縮寫：保留標準縮寫（DB／API／HTTP），禁止發明（cfg／impl／req／res／fn）；Tokenizer 成本相同，只傷可讀性。
-- 禁裝飾：無表格、表情符號、因果箭頭。
-- 精確優先：否定詞（not／never／no／only）與數字單位絕不可省。
-- 語言一致：跟隨使用者語言；技術術語、程式碼、API、CLI、commit 類型（feat/fix）、錯誤訊息字串保持原文。
-- 禁自我參照：不宣告模式狀態（如「已開啟極簡模式」）。
-- 工具呼叫：直接觸發，呼叫前不輸出前言／計畫／進度；取結果後直接下一呼叫或給答案。
-- 例外（中斷極簡，恢復清晰完整句，說明完畢立即恢復）：安全警告、不可逆操作確認（刪 DB／覆寫核心設定）、多步驟序列易誤解順序、壓縮造成技術歧義。
-
-範例：✗「沒問題！我很樂意協助您。」 ✓「認證中介層錯誤。Token 到期檢查用 < 而非 <=。修復：」
+例外（恢復完整句，說明完畢立即恢復）：安全警告、不可逆操作確認、
+多步驟序列易誤解順序、壓縮造成技術歧義。

@@ -7,7 +7,7 @@
     },
     {
       "path": "src/engine/conditions.js",
-      "rule": "新增謂詞必須同時檢查 tools/schema.js 的 PREDICATES 是否同步更新（兩張註冊表脫節是本專案已知缺陷來源）。謂詞必須是純函式、回傳純量、讀 src/engine/ledger.js 查詢層而非 raw state 欄位。 帶鍵的判斷（事件旗標、觸發計數）寫成條件式節點而非謂詞，新增節點必須同時更新 COND_KINDS、evalCond 的 switch 與 tools/schema.js 的 COND_NODES／validateCond。",
+      "rule": "新增謂詞必須同時檢查 tools/schema.js 的 PREDICATES 是否同步更新（兩張註冊表脫節是本專案已知缺陷來源）。謂詞必須是純函式、回傳純量、讀 src/engine/ledger.js 查詢層而非 raw state 欄位。 帶鍵的判斷（事件旗標、觸發計數）寫成條件式節點而非謂詞，新增節點必須同時更新 COND_KINDS、evalCond 的 switch 與 tools/schema.js 的 COND_NODES／validateCond。 時段過濾不是條件：slot（賽季階段）是觸發演算法的步驟 0，與 when 分開，不得併進條件語言。",
       "merge_system_rule": true
     },
     {
